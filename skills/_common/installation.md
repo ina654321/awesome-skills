@@ -1,27 +1,11 @@
+---
+title: Common Installation Guide
+description: >
+  Common installation guide for all Awesome Skills. This document provides platform-specific
+  installation instructions referenced by individual skill files to avoid duplication.
+---
+
 # 通用安装指南 / Common Installation Guide
-
-> 所有 Awesome Skills 技能的平台安装说明均引用此文件，避免重复维护。
-> All Awesome Skills platform installation instructions reference this file to avoid duplication.
-
----
-
-## 快速安装 / Quick Install
-
-将以下命令中的 `[SKILL_URL]` 替换为目标技能的 GitHub 地址，`[skill-name]` 替换为技能名称：
-
-```
-Read [SKILL_URL] and install [skill-name] skill
-```
-
-示例 (Example):
-```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill
-```
-
-quality: basic
----
-
-## OpenCode（推荐 / Recommended）
 
 OpenCode 原生支持技能安装：
 
