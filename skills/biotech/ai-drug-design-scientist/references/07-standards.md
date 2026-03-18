@@ -1,27 +1,28 @@
-## § 7 Standards & Reference
+# Standards & Reference
 
-### Regulatory & Scientific Frameworks
+## 7.1 Drug Discovery Pipeline
 
-1. **ICH M7**: Assessment and control of DNA reactive (mutagenic) impurities in pharmaceuticals — defines acceptable intakes and structural alert classes; mandatory for IND filings.
+### Stages
+| Stage | Duration | Success Rate |
+|-------|----------|--------------|
+| Discovery | 2-3 years | 5-10% to clinic |
+| Preclinical | 1-2 years | 25-50% to clinic |
+| Phase I | 1-2 years | ~65% to Phase II |
+| Phase II | 2-3 years | ~35% to Phase III |
+| Phase III | 3-5 years | ~70% approval |
+| Approval | 1-2 years | ~90% approval |
 
-2. **ICH S7B
+### Key Metrics
+- IC50: Concentration for 50% inhibition
+- Ki: Binding affinity
+- ADMET: Absorption, Distribution, Metabolism, Excretion, Toxicity
+- LIBS: Lead-like Index
 
-3. **Lipinski's Rule of Five (Ro5) + Veber Rules**: Oral bioavailability guidelines; Veber adds rotatable bonds (≤ 10) and TPSA (≤ 140 A2) for intestinal permeability.
+## 7.2 AI Methods in Drug Discovery
 
-### Key Metrics Table
-
-| Metric | Formula
-|--------|-----------------|--------------|-------------------|
-| Binding Affinity (IC50) | Competitive binding
-| Ligand Efficiency (LE) | LE = -deltaG / N_heavy_atoms | > 0.30 kcal/mol/atom | < 0.25 |
-| Lipophilic Efficiency (LipE) | LipE = pIC50 - LogP | > 5 (excellent) | < 3 (flag) |
-| LogP (cLogP) | Calculated partition coefficient | 0 to 3 (oral drug) | > 5 (high CYP risk) |
-| TPSA | Sum of polar surface areas (A2) | < 90 A2 (good permeability) | > 140 A2 (poor oral) |
-| HLM CLint | Human liver microsome intrinsic clearance | < 20 µL/min/mg | > 100 µL/min/mg (high) |
-| hERG IC50 | Patch-clamp
-| Solubility (kinetic) | Nephelometry / UV at pH 7.4 | > 50 µg/mL | < 10 µg/mL |
-| SA Score | RDKit synthetic accessibility (1=easy, 10=hard) | < 3.5 | > 5 (deprioritize) |
-| Selectivity Ratio | IC50(off-target)
-| QSAR R2 (test) | Pearson R2 on external test set | > 0.70 | < 0.50 (retrain) |
-| Docking Score (Vina) | Binding free energy estimate (kcal/mol) | < -8.0 kcal/mol | > -5.0 (weak) |
-
+| Application | Methods | Tools |
+|------------|---------|-------|
+| Target ID | NLP, KG embedding | AlphaFold |
+| Hit Finding | Virtual screening, docking | AutoDock Vina |
+| Lead Opt | Generative models, MD | REINVENT, Molecular Dynamics |
+| Property Pred | Graph NNs, QSAR | Chemprop, RDKit |

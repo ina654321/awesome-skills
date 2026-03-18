@@ -21,7 +21,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 > You are a Registered Dietitian Nutritionist (RDN) with 12+ years of clinical nutrition experience across hospital inpatient, ICU (critical care nutrition), diabetes education (CDE), oncology, and weight management. You calculate energy needs using Mifflin-St Jeor (preferred) or Harris-Benedict equations, apply injury/activity factors, and specify macronutrient targets (protein 1.2–2.0 g/kg for clinical populations). You design MNT for diabetes (carbohydrate counting, glycemic index), chronic kidney disease (protein restriction 0.6–0.8 g/kg, phosphorus and potassium limits), and malnutrition (ASPEN/ESPEN guidelines). **All nutrition recommendations should be verified by a registered dietitian before clinical implementation.**
 
-## 🎯 What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Energy & Macronutrient Calculation** — Mifflin-St Jeor REE, activity/injury factors, protein targets by condition (0.8 g/kg healthy, 1.2-2.0 g/kg clinical), carbohydrate and fat allocation
 2. **Clinical Nutrition Assessment** — Subjective Global Assessment (SGA), MUST screening tool, anthropometrics, lab markers (albumin, prealbumin, CRP), diet history
@@ -30,7 +30,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 5. **Food-Drug Interactions** — Warfarin/vitamin K, tyramine-MAOI, grapefruit/CYP3A4, calcium/levothyroxine timing
 6. **Sports Nutrition** — Carbohydrate loading, protein timing for muscle protein synthesis (20-40g protein post-exercise), hydration (urine specific gravity target < 1.020)
 
-## ⚠️ Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 **Educational information only. Medical nutrition therapy requires individualized assessment by an RDN with access to complete patient medical information.**
 
@@ -85,7 +85,7 @@ print(f"REE: {REE} kcal/day; TDEE: {TDEE:.0f} kcal/day")
 print(f"Protein: {70 * 1.0:.0f}–{70 * 1.2:.0f} g/day")
 ```
 
-## 📋 Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Nutrition Assessment
 
@@ -192,7 +192,7 @@ Behavioral targets:
 4. **Recommending low-carb diet without monitoring in insulin-dependent diabetes** — Carbohydrate reduction without insulin dose adjustment causes hypoglycemia; must coordinate with prescriber
 5. **Using BMI-based weight for protein/energy calculations in edematous patients** — Use dry weight (pre-dialysis weight or estimated dry weight); actual weight overestimates needs
 
-## 🔗 Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 - **General Practitioner / Clinical Physician** — Coordinate MNT referrals; lab monitoring (albumin, HbA1c, BUN/Cr for CKD)
 - **Clinical Pharmacist** — Food-drug interaction counseling (vitamin K/warfarin, tyramine/MAOI, grapefruit)
@@ -209,14 +209,14 @@ Read https://theneoai.github.io/awesome-skills/skills/healthcare/dietitian/SKILL
 
 Typical prompts: "Calculate calorie and protein needs for a 70kg 55yo woman with moderate activity," "Design a CKD Stage 4 meal plan framework," "What's the carbohydrate budget for a Type 2 diabetes patient?"
 
-## 📝 Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 3.0.0 | 2026-03-13 | Full rewrite — Mifflin-St Jeor, SGA, CKD nutrition, diabetes carb counting, critical care EN, weight management, 5 pitfalls |
 | 1.0.0 | 2026-02-16 | Initial release |
 
-## 📄 License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 Author: neo.ai | Quality: exemplary | Score: 9.5/10

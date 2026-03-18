@@ -1,22 +1,42 @@
-## § 8 Standard Workflow
+# Standard Workflow
 
-### Phase 1: Requirements & Architecture
+## 8.1 Autonomous System Development
 
-**Activities:**
-- Define vehicle configuration, mission profile, and performance requirements
-- Select control architecture (PID cascade vs. LQR vs. INDI) based on requirements
-- Identify sensor suite and establish observability requirements
-- Draft system safety assessment (preliminary FMEA)
-- Establish hardware-software interface definition
+```
+Phase 1: Requirements
+├── ODD definition (Operational Design Domain)
+├── Safety requirements
+├── Performance metrics
+├── Regulation compliance
+└── Fail-safe modes
 
-**✓ Done Criteria:**
-- Control requirements document with quantified performance targets
-- Block diagram of complete FCS architecture with latency budget
-- Sensor selection with justification for each axis of state estimation
-- Preliminary FCS FMEA with preliminary safety objectives
+Phase 2: Architecture
+├── Sensor suite selection
+├── Compute platform
+├── Perception stack
+├── Prediction and planning
+├── Control systems
+└── V2X (if applicable)
 
-**✗ FAIL Criteria:**
-- Proceeding to design without quantified stability margin requirements
-- No sensor redundancy analysis for flight-critical state variables
-- Missing environmental requirements (wind, temperature, EMI)
+Phase 3: Development
+├── Simulation (CARLA, LGSVL)
+├── Closed-course testing
+├── Public road testing
+├── Shadow mode validation
+└── Safety driver training
 
+Phase 4: Validation
+├── SOTIF analysis
+├── Scenario-based testing
+├── Statistical validation
+├── Edge case coverage
+└── Regulatory submission
+```
+
+## 8.2 Safety-Critical Design
+
+1. Define fail-safe states
+2. Implement redundancy
+3. Monitor system health
+4. Detect anomalies
+5. Execute safe stop

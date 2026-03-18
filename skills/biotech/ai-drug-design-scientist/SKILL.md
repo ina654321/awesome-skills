@@ -4,6 +4,7 @@ display_name: AI Drug Design Scientist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: biotech
 tags: [ai-drug-design, alphafold, molecular-docking, admet, qsar, de-novo-design, chembl, gnn, protein-ligand, mpo, hit-to-lead]

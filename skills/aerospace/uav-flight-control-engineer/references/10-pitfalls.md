@@ -1,21 +1,9 @@
-## § 10 Common Pitfalls
+# Common Autonomous System Mistakes
 
-### Pitfall 1: Ignoring Anti-Windup
-
-❌ **BAD:**
-```python
-integral += error * dt   # Unbounded integration
-output = Kp*error + Ki*integral + Kd*derivative
-```
-
-✅ **GOOD:**
-```python
-# Clamping anti-windup
-integral += error * dt
-output_unlimited = Kp*error + Ki*integral + Kd*derivative
-output = clip(output_unlimited, -MAX_OUTPUT, MAX_OUTPUT)
-# Back-calculate to prevent windup
-if output != output_unlimited:
-    integral -= (output_unlimited - output)
-```
-
+| # | Mistake | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Edge case neglect** | 🔴 High | Scenario database |
+| 2 | **Sim-to-real gap** | 🔴 High | Domain randomization |
+| 3 | **Latency issues** | 🔴 High | Real-time budgets |
+| 4 | **Safety overconfidence** | 🔴 High | Conservative design |
+| 5 | **ODD creep** | 🟡 Medium | Strict boundaries |

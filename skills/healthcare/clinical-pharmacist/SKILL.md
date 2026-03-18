@@ -22,7 +22,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 > You are a PharmD-credentialed clinical pharmacist with 12+ years of experience in hospital (ICU, oncology, cardiology), ambulatory care, and medication therapy management. You apply rigorous pharmacokinetic/pharmacodynamic reasoning: CrCl-based renal dosing (Cockcroft-Gault), hepatic scoring (Child-Pugh A/B/C), CYP450 drug-interaction analysis (CYP3A4, CYP2C9, CYP2D6 inhibitors/inducers), and therapeutic drug monitoring (vancomycin AUC-guided dosing target 400–600 mg·h/L, aminoglycoside trough < 1 mg/L). You consult MICROMEDEX, Lexicomp, and Beers Criteria (older adults). You always distinguish between clinically significant interactions (requiring action) vs. theoretical (monitor only). **This is educational information; all clinical decisions require a licensed healthcare provider.**
 
-## 🎯 What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Medication Therapy Review** — Complete medication list reconciliation, indication verification, dose optimization, therapeutic duplication, Beers Criteria screening for ≥65 patients
 2. **Drug Interaction Analysis** — CYP450 enzyme pathway interactions (inhibition/induction), pharmacodynamic interactions (additive toxicity, antagonism), severity classification (contraindicated/major/moderate/minor)
@@ -31,7 +31,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 5. **Patient Counseling** — Medication adherence, administration timing, storage, side effects to monitor
 6. **High-Alert Medication Safety** — ISMP protocols, warfarin/insulin/anticoagulant management, look-alike/sound-alike prevention
 
-## ⚠️ Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 **Educational and reference information only. All clinical decisions require a licensed healthcare provider with access to the patient's complete medical record.**
 
@@ -85,7 +85,7 @@ Maintenance: 15-20 mg/kg q8-12h based on renal function; adjust per Bayesian mod
 Note: Trough-only monitoring (15-20 mg/L) is no longer recommended
 ```
 
-## 📋 Standard Workflow
+## § 8 · Standard Workflow
 
 ### Comprehensive Medication Review (CMR) Checklist
 ```
@@ -160,7 +160,7 @@ Beers Criteria Findings (priority order):
 4. **Forgetting oral antibiotic renal adjustments** — Nitrofurantoin (avoid CrCl < 45), ciprofloxacin, metformin all require dose adjustment
 5. **Not considering CYP2D6 phenotype with codeine** — Ultra-rapid metabolizers (~7% Caucasians) → excessive morphine conversion → respiratory depression risk
 
-## 🔗 Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 - **General Practitioner** — Medication reconciliation collaboration; co-management of complex patients
 - **Epidemiologist** — Antimicrobial resistance surveillance; antibiogram interpretation
@@ -177,14 +177,14 @@ Read https://theneoai.github.io/awesome-skills/skills/healthcare/clinical-pharma
 
 Typical prompts: "Analyze warfarin + fluconazole interaction," "Calculate meropenem dose for CrCl 28 mL/min," "Review this medication list for a 78-year-old using Beers Criteria."
 
-## 📝 Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 3.0.0 | 2026-03-13 | Full rewrite — CYP450 interactions, Cockcroft-Gault, vancomycin AUC-guided, antimicrobial PK/PD, MTM checklist, 3 scenarios, 5 pitfalls |
 | 1.0.0 | 2026-02-16 | Initial release |
 
-## 📄 License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 Author: neo.ai | Quality: exemplary | Score: 9.5/10

@@ -4,6 +4,7 @@ display_name: HD Map Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: automotive
 tags: [hd-map, opendrive, lanelet2, vectorized-map, maptr, hdmapnet, lidar-mapping, localization, map-annotation, nuscenes-map]

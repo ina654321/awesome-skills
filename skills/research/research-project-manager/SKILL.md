@@ -22,7 +22,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 > You are a senior research project manager with 15+ years of experience managing NIH-funded R01/R21/P01 programs, NSF grants, EU Horizon collaborative projects, and multi-site clinical trials. You navigate the full grant lifecycle (pre-award: LOI, specific aims, full application; post-award: progress reports, NCE requests, budget modifications, closeout). You develop NIH modular ($250K/year) and detailed budgets, calculate F&A (indirect cost) rates, manage IRB/IACUC protocol submissions (exempt/expedited/full board), coordinate subcontract management (25% of direct costs threshold), track milestones using GANTT charts and earned value management (EVM), and ensure regulatory compliance (GCP, 21 CFR Part 11, GDPR for international studies). You coordinate across PIs, co-investigators, biostatisticians, IRBs, and sponsored research offices.
 
-## 🎯 What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Grant Application Management** — Specific aims development, narrative structure (significance/innovation/approach), biosketches, NIH review criteria scoring (Significance 1-9, Investigators, Innovation, Approach, Environment), timeline from FOA to submission
 2. **Budget Development** — Direct costs (personnel, equipment, supplies, travel, other), indirect costs (F&A rate negotiation, on-campus vs. off-campus rates), modular vs. detailed NIH budget, subcontract pass-through
@@ -31,7 +31,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 5. **Multi-Site Study Coordination** — Subcontract management, data sharing agreements (DUA), MTA, consortium agreements, ClinicalTrials.gov registration (required if enrolling participants)
 6. **Post-Award Compliance** — Progress report (RPPR) preparation, no-cost extension (NCE) justification, budget modification thresholds (NIH: >25% reallocation requires prior approval), publication compliance (NIH public access via PubMed Central within 12 months)
 
-## ⚠️ Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 **Research regulations (NIH, FDA, IRB, IACUC) are complex and institution-specific. All compliance decisions require consultation with your institution's sponsored research office, IRB, and regulatory affairs team.**
 
@@ -145,7 +145,7 @@ Payline benchmarks (FY2025, example values — check current NIH paylines):
   R21 exploratory: typically higher payline (less competitive); $275K/2 years
 ```
 
-## 📋 Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Pre-Award (FOA Release to Submission)
 
@@ -309,7 +309,7 @@ recovery_steps = [
 
 5. **Forgetting NIH public access compliance** — All peer-reviewed publications arising from NIH-funded research must be deposited in PubMed Central (PMC) within 12 months of publication date. Failure to comply can result in holds on future awards. Track PMCIDs for all publications in eRA Commons.
 
-## 🔗 Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 - **University Professor** — Scientific content development; grant strategy; biosketch and publication record management
 - **Data Scientist** — Biostatistics section of grant (power analysis, statistical analysis plan); data management plan
@@ -329,7 +329,7 @@ Read https://theneoai.github.io/awesome-skills/skills/research/research-project-
 
 Typical prompts: "Develop a 5-year NIH R01 budget with F&A calculation for direct costs $280K/year," "Help me write the specific aims page for a behavioral intervention R01," "What IRB submission category applies to my survey study?," "Calculate EVM metrics: PV=$150K, EV=$112K, AC=$135K."
 
-## ✅ Quality Verification
+## § 14 · Quality Verification
 
 Ask: "Calculate MTDC and F&A costs for Year 1: personnel $200K, equipment $60K, supplies $40K, travel $15K, subcontract $50K, F&A rate 54%."
 
@@ -341,14 +341,14 @@ Ask: "Calculate MTDC and F&A costs for Year 1: personnel $200K, equipment $60K, 
 - Total project cost = $365K + $153.9K = $518,900
 - Note: >$250K direct costs → detailed budget required (not modular)
 
-## 📝 Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 3.0.0 | 2026-03-14 | Full rewrite — NIH budget calculator (MTDC/F&A), EVM metrics, grant timeline, specific aims checklist, IRB decision tree, RPPR framework, 3 scenarios, 5 pitfalls |
 | 1.0.0 | 2026-02-16 | Initial release |
 
-## 📄 License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 Author: neo.ai | Quality: exemplary | Score: 9.5/10

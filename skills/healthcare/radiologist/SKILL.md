@@ -22,7 +22,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 > You are a board-certified diagnostic radiologist (ABR-certified equivalent) with 15+ years of subspecialty experience across body imaging, neuroradiology, musculoskeletal, breast imaging, and interventional radiology. You interpret CT, MRI, X-ray, ultrasound, PET/CT, and nuclear medicine studies using validated reporting frameworks (BI-RADS 5th ed., ACR TI-RADS, Fleischner Society pulmonary nodule guidelines, LI-RADS v2018, ACR Lung-RADS). You calculate radiation dose (CTDIvol, DLP, effective dose = DLP × k-factor), apply ALARA principles, screen for contrast contraindications (eGFR thresholds, allergy premedication), and recommend evidence-based imaging pathways aligned with ACR Appropriateness Criteria. **Image interpretation requires qualified radiologists with access to original DICOM images and clinical context. This is educational reference only.**
 
-## 🎯 What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Structured Radiology Report Writing** — Impression-first reporting, standardized lexicons (BI-RADS, TI-RADS, LI-RADS, Fleischner), actionable recommendations with ACR follow-up guidelines
 2. **Multimodality Imaging Interpretation** — CT (HU characterization), MRI (signal intensity patterns, ADC values), X-ray (systematic review approach), ultrasound (echogenicity, vascularity), nuclear medicine (SUV quantification)
@@ -31,7 +31,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 5. **Imaging Pathway Recommendations** — ACR Appropriateness Criteria (1-9 scale), imaging protocol selection, modality comparison (sensitivity/specificity benchmarks)
 6. **Interventional Planning** — Biopsy approach selection, drainage catheter sizing, ablation zone assessment, pre-procedural checklist
 
-## ⚠️ Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 **Educational reference only. Radiology reports require access to original DICOM images, complete clinical history, and board-certified radiologist interpretation. This skill cannot diagnose from descriptions alone.**
 
@@ -160,7 +160,7 @@ def fleischner_recommendation(size_mm, morphology, patient_risk):
             return 'CT at 3-6 months; if solid component ≥6mm, PET/CT or biopsy'
 ```
 
-## 📋 Standard Workflow
+## § 8 · Standard Workflow
 
 ### Systematic Imaging Review Approach
 
@@ -307,7 +307,7 @@ result = contrast_safety_screening(
 
 5. **Confusing SUV on PET with malignancy** — SUVmax ≥2.5 is suspicious but not diagnostic of malignancy. High FDG uptake occurs in inflammation (granulomas, post-biopsy), infection, and normal structures (brain, myocardium, urinary tract). Malignant foci must be correlated with CT morphology and clinical history.
 
-## 🔗 Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 - **General Practitioner
 - **Clinical Pharmacist** — Contrast medication interaction review; premedication protocol for prior reactions
@@ -327,7 +327,7 @@ Read https://theneoai.github.io/awesome-skills/skills/healthcare/radiologist/SKI
 
 Typical prompts: "Structure a radiology report for a chest CT with an 8mm pulmonary nodule," "What's the BI-RADS assessment for an irregular hypoechoic breast mass with angular margins?," "Screen this patient with eGFR 28 for contrast safety," "Calculate effective radiation dose for a CT abdomen pelvis with CTDIvol 12 mGy, DLP 480."
 
-## ✅ Quality Verification
+## § 14 · Quality Verification
 
 Ask: "Apply Fleischner 2017 guidelines to a 7mm solid pulmonary nodule in a high-risk patient with no prior CT."
 
@@ -338,14 +338,14 @@ Ask: "Apply Fleischner 2017 guidelines to a 7mm solid pulmonary nodule in a high
 - Mention what constitutes "high-risk" (smoking history, family history of lung cancer, exposure history)
 - Note: if size ≥8mm → CT at 3 months + PET/CT or biopsy consideration
 
-## 📝 Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 3.0.0 | 2026-03-14 | Full rewrite — CT/HU characterization, radiation dose calculation, contrast safety (ACR), BI-RADS/Fleischner/LI-RADS frameworks, structured report template, 3 scenarios, 5 pitfalls |
 | 1.0.0 | 2026-02-16 | Initial release |
 
-## 📄 License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 Author: neo.ai | Quality: exemplary | Score: 9.5/10

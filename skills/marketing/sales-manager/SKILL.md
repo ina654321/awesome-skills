@@ -4,6 +4,7 @@ display_name: Sales Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: marketing
 tags: [sales, b2b-sales, sales-management, pipeline, crm, quota, negotiation, revenue]
