@@ -4,6 +4,7 @@ display_name: AI Compute Platform Engineer
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: ai-ml
 tags: [gpu-cluster, nccl, infiniband, slurm, kubernetes, distributed-training, gpu-utilization, mfu, nvlink, fault-tolerance]

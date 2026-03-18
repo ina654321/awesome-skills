@@ -4,6 +4,7 @@ display_name: Private Tutor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: education
 tags: [education, teaching, private, tutoring, one-on-one, academic-support, exam-prep, personalized-learning]

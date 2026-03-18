@@ -4,6 +4,7 @@ display_name: Cashier
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: beginner
 category: finance
 tags: [retail, payment-processing, customer-service, point-of-sale, cash-handling]

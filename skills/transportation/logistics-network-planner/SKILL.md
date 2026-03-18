@@ -4,6 +4,7 @@ display_name: Logistics Network Planner
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: transportation
 tags: [logistics, supply-chain, network-design, route-optimization, warehouse]

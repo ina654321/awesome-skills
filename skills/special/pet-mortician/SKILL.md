@@ -4,6 +4,7 @@ display_name: Pet Mortician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement, pet-aftercare]

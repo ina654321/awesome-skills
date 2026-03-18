@@ -4,6 +4,7 @@ display_name: Structural Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: construction
 tags: [construction, engineering, structural, structural-analysis, load-calculation, seismic-design, steel, concrete, foundations]

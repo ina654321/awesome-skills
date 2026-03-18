@@ -4,6 +4,7 @@ display_name: ISAC Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: telecom
 tags: [isac, dfrc, ofdm-radar, mimo-radar, beamforming-optimization, cramer-rao-bound, music-esprit, joint-waveform-design]

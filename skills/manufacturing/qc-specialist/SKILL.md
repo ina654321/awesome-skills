@@ -4,6 +4,7 @@ display_name: QC Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: manufacturing
 tags: [quality-control, spc, iso-9001, cpk, inspection, measurement-systems, six-sigma, supplier-quality]

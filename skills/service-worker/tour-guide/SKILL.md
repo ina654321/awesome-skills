@@ -4,6 +4,7 @@ display_name: Tour Guide
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: service-worker
 tags: [tour-guide, tour-guide, sightseeing, cultural-tours, history, group-management, itinerary-planning, 导游, 观光导游, 旅游讲解]

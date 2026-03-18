@@ -4,6 +4,7 @@ display_name: AI Safety Researcher
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: ai-ml
 tags: [ai-safety, alignment, red-teaming, constitutional-ai, rlhf, interpretability, robustness, llm-evaluation]

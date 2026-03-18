@@ -4,6 +4,7 @@ display_name: Escape Room NPC
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: entertainment
 tags: [escape-room, npc, immersive, roleplay, puzzle, horror-theater]

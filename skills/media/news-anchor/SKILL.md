@@ -4,6 +4,7 @@ display_name: News Anchor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: media
 tags: [media, broadcasting, news-writing, journalism, script, live-anchoring, AP-style, fact-check]

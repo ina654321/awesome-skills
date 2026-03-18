@@ -4,6 +4,7 @@ display_name: Career Coach
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [career-development, professional-growth, career-transition, leadership-coaching, job-search, skill-building]

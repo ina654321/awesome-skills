@@ -4,6 +4,7 @@ display_name: School Doctor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: education
 tags: [education, school-health, first-aid, health-education, student-wellness]

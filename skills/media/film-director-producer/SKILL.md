@@ -4,6 +4,7 @@ display_name: Film Director/Producer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: media
 tags: [media, film, directing, producing, screenplay, pre-production, production, post-production, independent-film]

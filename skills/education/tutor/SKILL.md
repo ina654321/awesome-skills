@@ -4,6 +4,7 @@ display_name: Subject Tutor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [tutoring, exam-prep, academic, pedagogy, k12, personalized-learning]

@@ -4,6 +4,7 @@ display_name: Science Blogger
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: research
 tags: [science-blogger, science-communication, academic-social-media, content-creation, knowledge-sharing]

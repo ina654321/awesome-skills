@@ -4,6 +4,7 @@ display_name: Senior Data Engineer
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: data
 tags: [data-engineering, pipeline, etl, spark, dbt, airflow, data-warehouse, streaming, kafka]

@@ -4,6 +4,7 @@ display_name: Professional Apologizer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [apology, conflict-resolution, communication, mediation, emotional-intelligence]

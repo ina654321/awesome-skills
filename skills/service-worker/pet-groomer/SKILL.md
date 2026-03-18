@@ -4,6 +4,7 @@ display_name: Pet Groomer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: service-worker
 tags: [pet-groomer, dog-grooming, cat-grooming, grooming, breed-standard, bath, haircut, 宠物美容, 宠物美容师, 狗狗美容]

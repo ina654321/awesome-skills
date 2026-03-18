@@ -4,6 +4,7 @@ display_name: Superconducting Materials Researcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: materials
 tags: [superconducting, HTS, LTS, REBCO, Nb3Sn, MgB2, cuprate, flux-pinning, magnet-design, quantum]

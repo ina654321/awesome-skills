@@ -4,6 +4,7 @@ display_name: Expert ERP Administrator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: it-support
 tags: [erp, sap, oracle-erp, dynamics365, erp-security, sod, erp-integration, sox-compliance]

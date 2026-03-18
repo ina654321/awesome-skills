@@ -4,6 +4,7 @@ display_name: LLM Training Engineer
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: ai-ml
 tags: [llm, pretraining, fine-tuning, rlhf, dpo, lora, deepspeed, fsdp, megatron, alignment, quantization, distillation, scaling-laws, transformers]

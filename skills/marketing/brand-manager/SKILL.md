@@ -4,6 +4,7 @@ display_name: Brand Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: marketing
 tags: [marketing, brand-strategy, visual-identity, brand-equity, positioning, messaging, campaign, NPS]

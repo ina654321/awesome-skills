@@ -4,6 +4,7 @@ display_name: Epidemiologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [healthcare, epidemiology, outbreak-investigation, disease-surveillance, biostatistics, public-health, R0, contact-tracing]

@@ -4,6 +4,7 @@ display_name: Recruiter / Headhunter
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: hr
 tags: [hr, talent-acquisition, sourcing, headhunting, interview, offer-negotiation, ATS, employer-branding]

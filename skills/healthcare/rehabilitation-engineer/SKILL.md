@@ -4,6 +4,7 @@ display_name: Rehabilitation Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [healthcare, rehabilitation-engineering, assistive-technology, prosthetics, iee15071-2010]

@@ -4,6 +4,7 @@ display_name: Airworthiness Certification Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [airworthiness, certification, faa, easa, caac, type-certificate, do-178c, do-254, arp4761, arp4754a, fmea, fta, part-23, part-25, part-27, part-33, means-of-compliance, elos, issue-paper, dar, der]

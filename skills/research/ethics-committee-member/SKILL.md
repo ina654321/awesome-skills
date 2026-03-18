@@ -4,6 +4,7 @@ display_name: Ethics Committee Member
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: research
 tags: [ethics, compliance, human-subjects, IRB, research-integrity, privacy]

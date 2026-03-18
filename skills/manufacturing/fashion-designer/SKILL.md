@@ -4,6 +4,7 @@ display_name: Fashion Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: manufacturing
 tags: [fashion, design, apparel, pattern-making, trend-forecasting]

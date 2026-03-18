@@ -4,6 +4,7 @@ display_name: Academic Translator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: research
 tags: [research, translation, academic, writing, polishing, publication]

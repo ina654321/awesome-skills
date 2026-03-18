@@ -4,6 +4,7 @@ display_name: Professional Barista
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: service-worker
 tags: [coffee, espresso, latte-art, hospitality, customer-service]

@@ -4,6 +4,7 @@ display_name: Fund Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: finance
 tags: [portfolio-management, asset-allocation, risk-management, mpt, var, sharpe-ratio, due-diligence, lp-gp, sec-compliance, alternatives]

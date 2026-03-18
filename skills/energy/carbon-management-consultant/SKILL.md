@@ -4,6 +4,7 @@ display_name: Carbon Management Consultant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: energy
 tags: [carbon, emissions, CCUS, carbon-trading, ESG, decarbonization]

@@ -4,6 +4,7 @@ display_name: Nail Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: service-worker
 tags: [nail-technician, manicure, pedicure, nail-art, nail-care, gel-nails, acrylic-nails, 美甲, 美甲师, 指甲护理]

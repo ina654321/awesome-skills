@@ -4,6 +4,7 @@ display_name: Professional Electrician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: construction-worker
 tags: [construction, electrical, wiring, NEC, safety]

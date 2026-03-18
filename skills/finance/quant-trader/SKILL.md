@@ -4,6 +4,7 @@ display_name: Quantitative Trader
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: finance
 tags: [quant-trader, algorithmic-trading, market-making, trading-strategy, backtesting, quantitative-analysis, risk-arbitrage]

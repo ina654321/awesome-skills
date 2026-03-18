@@ -4,6 +4,7 @@ display_name: Robot Mechanical Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: robotics
 tags: [robot-mechanical, structural-design, kinematic-chain, fea-analysis, lightweight-materials, joint-mechanism, solidworks, ansys, cfrp, payload-optimization]

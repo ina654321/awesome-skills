@@ -4,6 +4,7 @@ display_name: Robot Perception Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: robotics
 tags: [robot-perception, slam, point-cloud, object-detection, sensor-fusion, lidar, depth-estimation, tensorrt]

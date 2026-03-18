@@ -4,6 +4,7 @@ display_name: Retail Operations Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: retail
 tags: [retail, store-operations, inventory-management, customer-experience, visual-merchandising, loss-prevention, POS, omnichannel]

@@ -4,6 +4,7 @@ display_name: Game Producer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: media
 tags: [game-production, game-design, project-management, game-development, live-ops]

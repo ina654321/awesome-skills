@@ -4,6 +4,7 @@ display_name: Mobile Repair Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: repair-worker
 tags: [smartphone, tablet, screen-repair, component-replacement, diagnostics, iOS, Android, micro-soldering, data-recovery]

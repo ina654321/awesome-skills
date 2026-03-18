@@ -4,6 +4,7 @@ display_name: Remote Sensing Data Scientist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [remote-sensing, SAR, multispectral, change-detection, geospatial-ML, earth-observation, sentinel, NDVI]

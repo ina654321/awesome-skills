@@ -4,6 +4,7 @@ display_name: LLM Research Scientist
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: ai-ml
 tags: [transformer-architecture, rlhf, alignment-research, scaling-laws, fine-tuning, dpo, pre-training, evaluation-benchmarks]

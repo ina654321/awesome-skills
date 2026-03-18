@@ -4,6 +4,7 @@ display_name: Village Doctor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, rural, primary-care, community, basic-medicine]

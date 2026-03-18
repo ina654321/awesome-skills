@@ -4,6 +4,7 @@ display_name: Credit Rating Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: finance
 tags: [credit, rating, debt, bond-rating, credit-analysis, financial-assessment]

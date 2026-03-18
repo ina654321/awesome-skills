@@ -4,6 +4,7 @@ display_name: eVTOL Chief Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [evtol, uam, vtol, aerodynamics, electric-propulsion, battery, multirotor, lift-plus-cruise, tiltwing, tiltrotor, part-23, part-27, do-178c, amc-evtol, urban-air-mobility, airworthiness]

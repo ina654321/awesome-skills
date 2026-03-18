@@ -4,6 +4,7 @@ display_name: Appliance Repairer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: repair-worker
 tags: [appliance, refrigerator, washer, dryer, oven, dishwasher, HVAC, troubleshooting, electrical, mechanical]

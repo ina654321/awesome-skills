@@ -4,6 +4,7 @@ display_name: Prosecutor Assistant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: legal
 tags: [legal, prosecutor, criminal-law, case-preparation, litigation-support]

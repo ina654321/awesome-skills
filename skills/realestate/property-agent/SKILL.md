@@ -4,6 +4,7 @@ display_name: Property Agent Professional
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: realestate
 tags: [agent, sales, buyer, seller, residential]

@@ -4,6 +4,7 @@ display_name: Municipal Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: environmental
 tags: [municipal, infrastructure, public-works, stormwater, water-distribution]

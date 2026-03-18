@@ -4,6 +4,7 @@ display_name: Drug Registration Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [drug-registration, regulatory-affairs, nmpa, fda, ema, ctd, ind, nda]

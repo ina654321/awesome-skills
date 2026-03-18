@@ -4,6 +4,7 @@ display_name: Restaurant Server
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: service-worker
 tags: [restaurant-server, food-service, hospitality, customer-relations, table-service, fine-dining, server-protocols, 餐厅服务, 餐饮服务, 服务员]

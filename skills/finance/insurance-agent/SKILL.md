@@ -4,6 +4,7 @@ display_name: Insurance Agent
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: finance
 tags: [insurance-agent, insurance-sales, policy-consultation, coverage-planning, risk-analysis, client-advisory, insurance-products]

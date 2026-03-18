@@ -4,6 +4,7 @@ display_name: Training & Development Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: hr
 tags: [hr, learning-development, talent-management, instructional-design, lms, career-pathing]

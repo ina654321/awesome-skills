@@ -4,6 +4,7 @@ display_name: Power System Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: energy
 tags: [power-grid, electrical-engineering, renewable-integration, grid-stability, smart-grid]

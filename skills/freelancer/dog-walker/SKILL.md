@@ -4,6 +4,7 @@ display_name: Dog Walker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: beginner
 category: freelancer
 tags: [pet-care, dog-walking, pet-services, animal-care, freelance]

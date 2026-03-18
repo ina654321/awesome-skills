@@ -2,6 +2,8 @@
 name: professional-queuer
 display_name: Professional Queuer
 author: neo.ai
+quality: community
+score: 7.5/10
 version: 3.0.0
 difficulty: intermediate
 category: special

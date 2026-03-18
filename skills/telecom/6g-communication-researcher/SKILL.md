@@ -4,6 +4,7 @@ display_name: 6G Communication Researcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: telecom
 tags: [6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications, ai-native-air-interface, otfs, imt-2030]

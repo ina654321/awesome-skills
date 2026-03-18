@@ -4,6 +4,7 @@ display_name: Medical Equipment Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, medical-equipment, biomedical-engineering, equipment-maintenance, clinical-engineering, fda-compliance, ieee]

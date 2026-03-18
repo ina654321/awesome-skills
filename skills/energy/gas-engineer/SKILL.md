@@ -4,6 +4,7 @@ display_name: Gas Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: energy
 tags: [gas, pipeline, natural-gas, distribution, CS4, pressure-regulation]

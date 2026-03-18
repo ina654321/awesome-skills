@@ -4,6 +4,7 @@ display_name: Brain-Computer Interface Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: biotech
 tags: [bci, neural-decoding, eeg-ecog, spike-sorting, closed-loop-neurofeedback, implantable-bci, spiking-neural-networks, neural-signal-processing]

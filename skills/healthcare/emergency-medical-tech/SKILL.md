@@ -4,6 +4,7 @@ display_name: Emergency Medical Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [emergency-medicine, first-responder, ambulance, trauma-care, ems]

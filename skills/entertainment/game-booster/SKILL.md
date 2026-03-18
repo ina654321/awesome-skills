@@ -4,6 +4,7 @@ display_name: Game Booster
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: entertainment
 tags: [game, booster, ranking, esports, coaching, competitive-gaming]

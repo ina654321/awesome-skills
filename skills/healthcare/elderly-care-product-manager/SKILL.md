@@ -4,6 +4,7 @@ display_name: Elderly Care Product Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [elderly-care, smart-home, healthcare-technology, gerontechnology, product-management]

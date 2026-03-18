@@ -4,6 +4,7 @@ display_name: Data Scientist
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: software
 tags: [machine-learning, statistics, python, data-analysis, predictive-modeling]

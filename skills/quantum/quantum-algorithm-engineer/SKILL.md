@@ -4,6 +4,7 @@ display_name: Quantum Algorithm Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: quantum
 tags: [quantum-algorithms, qiskit, cirq, pennylane, vqe, qaoa, error-mitigation, nisq, quantum-advantage, quantum-volume, grover, shor]

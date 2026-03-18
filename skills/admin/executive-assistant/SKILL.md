@@ -4,6 +4,7 @@ display_name: Executive Assistant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: admin
 tags: [administration, operations, executive, calendar, travel, coordination]

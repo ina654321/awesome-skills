@@ -4,6 +4,7 @@ display_name: International Office Staff
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [international-education, student-exchange, study-abroad, visa-compliance, cross-cultural]

@@ -4,6 +4,7 @@ display_name: Independent Consultant Professional
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: freelancer
 tags: [consulting, business-advisory, strategy, freelance, independent]

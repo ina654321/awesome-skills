@@ -4,6 +4,7 @@ display_name: Community Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: public-service
 tags: [community, social-services, public-sector, resident-support, welfare]

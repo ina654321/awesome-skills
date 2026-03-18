@@ -4,6 +4,7 @@ display_name: Food Safety Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: manufacturing
 tags: [food-safety, haccp, manufacturing, quality, risk-assessment]

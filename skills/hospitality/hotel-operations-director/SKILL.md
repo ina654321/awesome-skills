@@ -4,6 +4,7 @@ display_name: Hotel Operations Director
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: hospitality
 tags: [hospitality, hotel-management, revenue-management, guest-services, operations, hospitality-leadership]

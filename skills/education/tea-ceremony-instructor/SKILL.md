@@ -4,6 +4,7 @@ display_name: Tea Ceremony Instructor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: education
 tags: [education, teaching, tea-ceremony, tea-culture, chinese-tea, japanese-tea, brewing]

@@ -4,6 +4,7 @@ display_name: Lighthouse Keeper
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: government
 tags: [government, maritime, navigation, safety, coastal]

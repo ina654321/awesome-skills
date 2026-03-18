@@ -4,6 +4,7 @@ display_name: Court Clerk
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: beginner
 category: legal
 tags: [legal, court, administrative, records, transcription]

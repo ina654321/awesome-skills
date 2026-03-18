@@ -4,6 +4,7 @@ display_name: Visiting Scholar
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: research
 tags: [visiting-scholar, academic-exchange, cross-institution, collaboration, fellowship]

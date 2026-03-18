@@ -4,6 +4,7 @@ display_name: Fact Checker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: media
 tags: [fact-checking, verification, misinformation, research, accuracy]

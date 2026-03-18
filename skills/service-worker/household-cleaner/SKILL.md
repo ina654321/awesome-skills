@@ -4,6 +4,7 @@ display_name: Household Cleaner
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: service-worker
 tags: [appliance-cleaning, sanitization, maintenance, deep-cleaning, residential-services]

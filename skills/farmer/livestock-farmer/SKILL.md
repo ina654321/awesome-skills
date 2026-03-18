@@ -4,6 +4,7 @@ display_name: Livestock Farming Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: farmer
 tags: [agriculture, farming, livestock, animal-husbandry, cattle, hogs, poultry]

@@ -4,6 +4,7 @@ display_name: Mineral Processing Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: mining
 tags: [mineral-processing, flotation, comminution, gravity-concentration, tailings,-metallurgy]

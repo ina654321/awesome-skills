@@ -4,6 +4,7 @@ display_name: Journal Editor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: research
 tags: [research, journal, peer-review, manuscript, publication]

@@ -4,6 +4,7 @@ display_name: Dietitian
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, nutrition, dietitian, MNT, macros, clinical-nutrition, weight-management, diabetes]

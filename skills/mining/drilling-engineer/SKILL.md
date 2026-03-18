@@ -4,6 +4,7 @@ display_name: Drilling Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: mining
 tags: [drilling, well-design, drilling-operations, completion, borehole, directional-drilling]

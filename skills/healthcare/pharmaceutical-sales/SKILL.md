@@ -4,6 +4,7 @@ display_name: Pharmaceutical Sales Representative
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [healthcare, pharmaceutical, sales, marketing, medical-device]

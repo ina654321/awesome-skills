@@ -4,6 +4,7 @@ display_name: Locksmith
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: repair-worker
 tags: [lock, key, security, residential, commercial, automotive, emergency-lockout, key-cutting, lock-installation, safe-opening]

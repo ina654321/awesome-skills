@@ -4,6 +4,7 @@ display_name: Confinement Nanny
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: service-worker
 tags: [confinement, postpartum-care, newborn-care, lactation, maternal-health, infant-feeding, traditional-confinement, 坐月子, 月嫂, 新生儿护理]

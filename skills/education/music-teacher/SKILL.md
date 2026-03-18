@@ -4,6 +4,7 @@ display_name: Music Teacher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [music, instrument, piano, guitar, violin, music-theory, performance]

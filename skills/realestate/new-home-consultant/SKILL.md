@@ -4,6 +4,7 @@ display_name: New Home Sales Consultant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: realestate
 tags: [new-construction, sales, developer, buyer-representation]

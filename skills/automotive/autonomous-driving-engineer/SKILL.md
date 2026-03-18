@@ -4,6 +4,7 @@ display_name: Autonomous Driving Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: automotive
 tags: [autonomous-driving, adas, perception, sensor-fusion, path-planning, mpc, lidar, radar, iso26262, sotif, carla, apollo, autoware]

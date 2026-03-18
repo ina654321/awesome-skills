@@ -4,6 +4,7 @@ display_name: Low Altitude Traffic Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [utm, u-space, low-altitude, airspace-management, uav-traffic, evtol, vertiport, fims, dss, rid, geofencing, conflict-detection, atm, ansp, faa, easa]

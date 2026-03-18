@@ -4,6 +4,7 @@ display_name: Vertiport Planning Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [vertiport, uam, evtol, skyport, landing-pad, fato, tlof, infrastructure, faa-ac-150, easa-easy-access, capacity-modeling, ground-operations, charging-infrastructure, fire-protection, urban-planning]

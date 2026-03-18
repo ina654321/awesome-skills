@@ -4,6 +4,7 @@ display_name: Quantum Physicist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: quantum
 tags: [qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, quantum-chip, calibration, randomized-benchmarking, quantum-error-correction, pulse-engineering]

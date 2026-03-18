@@ -4,6 +4,7 @@ display_name: Dental Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures, dental-implants]

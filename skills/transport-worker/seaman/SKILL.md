@@ -4,6 +4,7 @@ display_name: Seaman
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: transport-worker
 tags: [maritime, shipping, seafaring, vessel-operations, STCW]

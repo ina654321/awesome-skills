@@ -4,6 +4,7 @@ display_name: EdTech Product Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [edtech, product-design, learning-platform, ux-education, educational-software]

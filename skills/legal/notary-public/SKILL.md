@@ -4,6 +4,7 @@ display_name: Notary Public
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: legal
 tags: [legal, notarization, document-certification, legal-authentication, identity-verification]

@@ -4,6 +4,7 @@ display_name: Biomaterials Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: biotech
 tags: [biotech, life-sciences, biomaterials, scaffold, biocompatibility, tissue-engineering, implants]

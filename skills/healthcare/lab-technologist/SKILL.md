@@ -4,6 +4,7 @@ display_name: Medical Laboratory Technologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, laboratory, clinical-lab, medical-testing, lab-analysis, quality-control, clia, mlt, clinical-chemistry]

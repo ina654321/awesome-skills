@@ -4,6 +4,7 @@ display_name: Medical Records Coder
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [ICD-10, CPT, DRG, coding, HIM, medical billing]

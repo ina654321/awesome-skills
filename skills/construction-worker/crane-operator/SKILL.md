@@ -4,6 +4,7 @@ display_name: Professional Crane Operator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: construction-worker
 tags: [construction, heavy-equipment, crane, lifting, safety]

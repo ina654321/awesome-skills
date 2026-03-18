@@ -4,6 +4,7 @@ display_name: Photographer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: creative
 tags: [photography, commercial-photography, lighting, composition, post-processing, photo]

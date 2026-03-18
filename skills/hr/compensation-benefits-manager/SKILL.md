@@ -4,6 +4,7 @@ display_name: Compensation & Benefits Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: hr
 tags: [hr, compensation, benefits, payroll, total-rewards, job-evaluation, pay-equity]

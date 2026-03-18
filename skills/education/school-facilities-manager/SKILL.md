@@ -4,6 +4,7 @@ display_name: School Facilities Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: education
 tags: [education, facilities, maintenance, campus-operations, safety-compliance]

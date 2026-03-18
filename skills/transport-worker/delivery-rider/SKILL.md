@@ -4,6 +4,7 @@ display_name: Delivery Rider
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: transport-worker
 tags: [delivery, last-mile, gig-economy, food-delivery, urban-logistics]

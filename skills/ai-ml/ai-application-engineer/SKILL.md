@@ -4,6 +4,7 @@ display_name: AI Application Engineer
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: ai-ml
 tags: [rag, langchain, vector-databases, prompt-engineering, agent-frameworks, llm-integration, production-ai]

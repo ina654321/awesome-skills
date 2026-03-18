@@ -4,6 +4,7 @@ display_name: Emergency Dispatcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [emergency-medicine, 911-dispatcher, ems-dispatch, crisis-management, emergency-response]

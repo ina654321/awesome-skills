@@ -4,6 +4,7 @@ display_name: Professional Pilot
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: transport-worker
 tags: [pilot, aviation, atpl, flight-safety, navigation, aircraft-operation, ifr, commercial-pilot]

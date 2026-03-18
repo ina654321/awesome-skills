@@ -4,6 +4,7 @@ display_name: Urban Management Officer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: public-service
 tags: [urban, enforcement, public-order, city-governance, regulation]

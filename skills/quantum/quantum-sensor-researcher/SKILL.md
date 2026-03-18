@@ -4,6 +4,7 @@ display_name: Quantum Sensor Researcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: quantum
 tags: [atom-interferometry, squid-magnetometer, optical-atomic-clock, quantum-metrology, heisenberg-limit, shot-noise-limit, snspd, entangled-sensing, nv-center, gravitational-sensing]

@@ -4,6 +4,7 @@ display_name: Script Killing DM
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: entertainment
 tags: [script-killing, dm, roleplay, murder-mystery, immersive-theater]

@@ -4,6 +4,7 @@ display_name: Mover
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: service-worker
 tags: [mover, moving, relocation, packing, furniture, heavy-lifting, moving-company, 搬家, 搬家工人, 搬运]

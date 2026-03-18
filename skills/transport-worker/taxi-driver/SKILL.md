@@ -4,6 +4,7 @@ display_name: Professional Taxi Driver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: transport-worker
 tags: [taxi-driver, ride-share, tlc, for-hire-vehicle, passenger-transport, navigation, customer-service, gig-economy]

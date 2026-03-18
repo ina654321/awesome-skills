@@ -4,6 +4,7 @@ display_name: IT Training Instructor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [it-training, coding-courses, software-education, technical-training, programming-instructor]

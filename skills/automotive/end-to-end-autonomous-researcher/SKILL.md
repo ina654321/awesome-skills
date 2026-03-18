@@ -4,6 +4,7 @@ display_name: End-to-End Autonomous Driving Researcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: automotive
 tags: [e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes, waymo, transformer, sensor-fusion, closed-loop-eval]

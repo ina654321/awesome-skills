@@ -4,6 +4,7 @@ display_name: Translator/Interpreter
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: creative
 tags: [translation, localization, interpretation, cultural-adaptation, terminology, multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]

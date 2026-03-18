@@ -4,6 +4,7 @@ display_name: Mystery Shopper
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [mystery-shopping, service-evaluation,-experience-testing, quality-audit, retail-excellence]

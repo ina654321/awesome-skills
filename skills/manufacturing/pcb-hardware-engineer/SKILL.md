@@ -4,6 +4,7 @@ display_name: PCB Hardware Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: manufacturing
 tags: [pcb-design, signal-integrity, emc-emi, high-speed-design, dfm, schematic-capture, gerber, pcb-layout]

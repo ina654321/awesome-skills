@@ -4,6 +4,7 @@ display_name: Paralegal
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: legal
 tags: [legal, paralegal, legal-research, document-preparation, case-management]

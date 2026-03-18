@@ -4,6 +4,7 @@ display_name: Research Project Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: research
 tags: [research, grant-writing, project-management, NIH, NSF, budget-management, IRB, milestone-tracking, scientific-coordination]

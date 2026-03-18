@@ -4,6 +4,7 @@ display_name: Synthetic Biologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: biotech
 tags: [synthetic-biology, CRISPR, gene-circuit, metabolic-engineering, microbial-cell-factory, BioBricks, dbtl-cycle, flux-balance-analysis, biomanufacturing, genetic-parts]

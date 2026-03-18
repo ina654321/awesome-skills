@@ -4,6 +4,7 @@ display_name: Medical Escort Professional
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: freelancer
 tags: [medical-escort, healthcare-support, patient-services, hospital-accompaniment, freelance]

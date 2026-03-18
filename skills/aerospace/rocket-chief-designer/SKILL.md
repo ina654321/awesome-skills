@@ -4,6 +4,7 @@ display_name: Rocket Chief Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [rocket, launch-vehicle, systems-engineering, trajectory, staging, tsiolkovsky, reusability, fairing, payload-integration, aerodynamics, guidance-navigation, mass-budget, falcon-9, long-march, new-glenn, structural-design, propulsion-integration]

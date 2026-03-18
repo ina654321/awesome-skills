@@ -4,6 +4,7 @@ display_name: Forest Fire Warden
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: government
 tags: [government, emergency, fire-safety, forestry, conservation]

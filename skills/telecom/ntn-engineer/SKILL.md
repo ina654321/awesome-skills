@@ -4,6 +4,7 @@ display_name: NTN Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: telecom
 tags: [NTN, 5G-NR, satellite, LEO, GEO, HAPS, 3GPP-rel17, link-budget, Doppler, timing-advance, HARQ]

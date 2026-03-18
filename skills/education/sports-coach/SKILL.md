@@ -4,6 +4,7 @@ display_name: Sports Coach
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [sports-coaching, athletic-training, fitness, skill-development, sports-science]

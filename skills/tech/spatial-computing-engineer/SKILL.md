@@ -4,6 +4,7 @@ display_name: Spatial Computing Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: tech
 tags: [spatial-computing, xr, ar, vr, mixed-reality, arkit, arcore, webxr, visionos, slam, 3d-rendering, point-cloud, spatial-ui]

@@ -4,6 +4,7 @@ display_name: Investment Analyst
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: finance
 tags: [equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis, moat-analysis, catalyst]

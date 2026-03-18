@@ -4,6 +4,7 @@ display_name: Auctioneer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: finance
 tags: [auction, bidding, sales, valuation, estate-sales]

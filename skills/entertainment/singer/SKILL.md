@@ -4,6 +4,7 @@ display_name: Professional Singer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: entertainment
 tags: [entertainment, music, vocal-performance, recording, live-concert]

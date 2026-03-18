@@ -4,6 +4,7 @@ display_name: E-commerce Livestream Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [ecommerce, livestream-selling, live-commerce, influencer-training, sales-skills]

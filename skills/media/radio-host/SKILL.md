@@ -4,6 +4,7 @@ display_name: Radio Host
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: media
 tags: [media, radio, broadcasting, podcast, audio, show-host, interview, talk-show]

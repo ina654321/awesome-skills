@@ -4,6 +4,7 @@ display_name: Embodied AI Researcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: robotics
 tags: [embodied-ai, robot-learning, manipulation, world-models, rt-2, diffusion-policy, sim2real, imitation-learning, dexterous-manipulation, libero]

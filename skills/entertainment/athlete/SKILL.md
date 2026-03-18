@@ -4,6 +4,7 @@ display_name: Athlete
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: entertainment
 tags: [athlete, sports, competition, training, performance, fitness]

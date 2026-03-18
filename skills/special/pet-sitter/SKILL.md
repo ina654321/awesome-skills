@@ -4,6 +4,7 @@ display_name: Pet Sitter
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [pet-care, animal-sitting, pet-wellness, pet-nutrition, dog-walking, pet-safety]

@@ -4,6 +4,7 @@ display_name: Clinical Research Coordinator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [clinical-research, trial-management, patient-coordination, regulatory-compliance, ich-gcp]

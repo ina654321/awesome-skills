@@ -4,6 +4,7 @@ display_name: Professional Beautician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: service-worker
 tags: [skincare, facial, makeup, beauty, salon, aesthetics]

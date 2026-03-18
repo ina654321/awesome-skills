@@ -4,6 +4,7 @@ display_name: Professional Flight Attendant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: transport-worker
 tags: [flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety, passenger-service, in-flight, csm]

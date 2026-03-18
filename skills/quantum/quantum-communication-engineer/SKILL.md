@@ -4,6 +4,7 @@ display_name: Quantum Communication Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: quantum
 tags: [qkd, bb84, tf-qkd, quantum-repeater, entanglement-distribution, snspd, quantum-network, post-quantum-cryptography]

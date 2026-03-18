@@ -4,6 +4,7 @@ display_name: Border Inspector
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: government
 tags: [government, border, immigration, passport, security-screening]

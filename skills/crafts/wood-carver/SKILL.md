@@ -4,6 +4,7 @@ display_name: Wood Carver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: crafts
 tags: [crafts, skilled-trades, wood-carving, sculpture, traditional-crafts]

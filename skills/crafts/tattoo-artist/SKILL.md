@@ -4,6 +4,7 @@ display_name: Tattoo Artist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: crafts
 tags: [crafts, skilled-trades, tattoo, body-art, tattoo-design]

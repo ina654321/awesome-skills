@@ -4,6 +4,7 @@ display_name: AI Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [ai-training, rlhf, rlaif, preference-data, sft, reward-modeling, constitutional-ai, human-feedback, annotation-guidelines, model-alignment, data-quality]

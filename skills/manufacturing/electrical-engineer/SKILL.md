@@ -4,6 +4,7 @@ display_name: Electrical Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: manufacturing
 tags: [electrical-engineering, power-systems, plc, scada, iec-standards, nec, emc, motor-control, protection-coordination]

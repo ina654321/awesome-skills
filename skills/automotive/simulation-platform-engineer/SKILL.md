@@ -4,6 +4,7 @@ display_name: Simulation Platform Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: automotive
 tags: [autonomous-driving, simulation, scenario-generation, carla, sumo, vissim, sensor-fusion, perception-testing, regression-testing, edge-cases, openscenario, opendrive, synthetic-data, av-validation]

@@ -4,6 +4,7 @@ display_name: CPA (Certified Public Accountant)
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: finance
 tags: [gaap, ifrs, audit, tax, sox, financial-statements, forensic-accounting, m&a-accounting, revenue-recognition, asc606]

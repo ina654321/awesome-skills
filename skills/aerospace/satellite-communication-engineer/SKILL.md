@@ -4,6 +4,7 @@ display_name: Satellite Communication Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [satellite, satcom, leo, geo, meo, link-budget, rf-engineering, dvb-s2x, iridium, starlink, oneweb, ground-station, eirp, g-t, modulation, fec, interference, itu, fcc-licensing, antenna, payload]

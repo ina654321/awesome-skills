@@ -4,6 +4,7 @@ display_name: Disease Investigator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [epidemiology, public-health, contact-tracing, outbreak-investigation, disease-surveillance, infectious-disease]

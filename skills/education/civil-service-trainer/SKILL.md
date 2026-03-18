@@ -4,6 +4,7 @@ display_name: Civil Service Exam Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [civil-service, exam-preparation, government-employment, test-strategies, interview-coaching]

@@ -4,6 +4,7 @@ display_name: Logistics Algorithm Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: logistics
 tags: [logistics, optimization, VRP, supply-chain, operations-research, routing, warehouse, OR-Tools, Gurobi, metaheuristics, last-mile, network-design]

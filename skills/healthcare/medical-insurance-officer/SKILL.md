@@ -4,6 +4,7 @@ display_name: Medical Insurance Officer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, medical-insurance, claims-processing, healthcare-billing, cpt-coding, icd-10]

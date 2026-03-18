@@ -4,6 +4,7 @@ display_name: Feng Shui Master
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [feng-shui, space-harmonization, energy-flow, traditional-wisdom, environmental-design]

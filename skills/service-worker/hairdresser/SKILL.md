@@ -4,6 +4,7 @@ display_name: Professional Hairdresser
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: service-worker
 tags: [haircut, hairstyling, coloring, hair-care, salon, beauty]

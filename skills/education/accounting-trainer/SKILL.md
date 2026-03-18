@@ -4,6 +4,7 @@ display_name: Accounting Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [accounting, CPA-prep, financial-training, bookkeeping, IFRS, GAAP]

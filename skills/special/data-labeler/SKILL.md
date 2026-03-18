@@ -4,6 +4,7 @@ display_name: Data Labeler
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [data-labeling, annotation, image-annotation, text-annotation, nlp-annotation, bbox, segmentation, ner, sentiment, quality-control, inter-annotator-agreement, label-studio]

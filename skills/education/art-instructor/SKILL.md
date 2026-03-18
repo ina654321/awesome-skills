@@ -4,6 +4,7 @@ display_name: Art Instructor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [art, drawing, painting, visual-arts, creative-expression]

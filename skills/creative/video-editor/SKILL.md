@@ -4,6 +4,7 @@ display_name: Video Editor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: creative
 tags: [video-editing, post-production, color-grading, motion-graphics, av-sync]

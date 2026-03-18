@@ -4,6 +4,7 @@ display_name: E-commerce Product Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: retail
 tags: [ecommerce, product-management, conversion-optimization, UX-design, A/B-testing, cart-abandonment, checkout-optimization, personalization]

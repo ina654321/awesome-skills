@@ -4,6 +4,7 @@ display_name: Professional Bus Driver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: transport-worker
 tags: [bus-driver, cdl-b, transit-bus, school-bus, commercial-bus, dot, passenger-safety, public-transport]

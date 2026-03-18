@@ -4,6 +4,7 @@ display_name: ICU Nurse
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: beginner
 category: healthcare
 tags: [healthcare, critical-care, icu, nursing, emergency]

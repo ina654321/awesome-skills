@@ -4,6 +4,7 @@ display_name: COO
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: executive
 tags: [operations, process-optimization, scaling, execution, cross-functional]

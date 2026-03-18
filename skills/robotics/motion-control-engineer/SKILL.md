@@ -4,6 +4,7 @@ display_name: Motion Control Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: robotics
 tags: [motion-control, pid, mpc, inverse-kinematics, ros2-control, impedance-control, trajectory-tracking, real-time]

@@ -4,6 +4,7 @@ display_name: Credit Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: finance
 tags: [credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis, default-probability, debt-service]

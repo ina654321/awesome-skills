@@ -4,6 +4,7 @@ display_name: AI Product Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: ai-ml
 tags: [ai-product, product-strategy, llm-products, user-research, roadmap]

@@ -4,6 +4,7 @@ display_name: Teaching Assistant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: education
 tags: [education, teaching, classroom-support, student-guidance, material-preparation]

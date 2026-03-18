@@ -4,6 +4,7 @@ display_name: Financial Analyst
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: finance
 tags: [financial-modeling, fpa, dcf, lbo, forecasting, budgeting, kpi, excel, python, investor-relations]

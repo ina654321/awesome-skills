@@ -4,6 +4,7 @@ display_name: Nursing Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [healthcare, nursing, patient-care, clinical]

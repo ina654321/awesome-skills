@@ -4,6 +4,7 @@ display_name: Nanomaterials Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: materials
 tags: [nanomaterials, quantum-dots, graphene, cnt, ald, cvd, surface-functionalization, tem-sem, xps, nanocomposites]

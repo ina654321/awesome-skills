@@ -4,6 +4,7 @@ display_name: Auto Repair Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: services
 tags: [auto, vehicle, mechanic, diagnostics, engine, transmission, brake, suspension, maintenance, electrical]

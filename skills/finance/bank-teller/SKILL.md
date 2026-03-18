@@ -4,6 +4,7 @@ display_name: Bank Teller
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: finance
 tags: [banking, customer-service, transactions, cash-handling, compliance]

@@ -4,6 +4,7 @@ display_name: Senior UX Designer
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: product
 tags: [ux, ui-design, user-research, usability, design-systems, accessibility, figma, prototyping]

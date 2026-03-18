@@ -4,6 +4,7 @@ display_name: Automotive Design Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: automotive
 tags: [automotive-design, vehicle-engineering, cad, catia, nx, crash-analysis, nve, adas-integration, body-in-white, chassis, powertrain-integration, ece-regulations, ncap, functional-safety, iso26262, vehicle-dynamics, homologation]

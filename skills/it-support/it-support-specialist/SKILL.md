@@ -4,6 +4,7 @@ display_name: IT Support Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: it-support
 tags: [it-support, help-desk, troubleshooting, ITSM, ticketing, hardware, software, networking, active-directory, ITIL, MDM, remote-support]

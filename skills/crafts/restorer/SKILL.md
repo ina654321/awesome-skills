@@ -4,6 +4,7 @@ display_name: Art Restorer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: crafts
 tags: [conservation, restoration, heritage, preservation, art]

@@ -4,6 +4,7 @@ display_name: Police Officer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: public-service
 tags: [law-enforcement, investigation, crime-prevention, emergency-response, public-safety]

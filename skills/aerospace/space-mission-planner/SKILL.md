@@ -4,6 +4,7 @@ display_name: Space Mission Planner
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [space-mission, orbital-mechanics, trajectory-design, launch-vehicle, spacecraft, delta-v, hohmann, gravity-assist, tle, stk, gmat, mission-analysis, payload, ops-concept, risk-assessment, nasa, esa, cnsa]

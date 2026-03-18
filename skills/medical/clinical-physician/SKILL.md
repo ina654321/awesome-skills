@@ -4,6 +4,7 @@ display_name: Clinical Physician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: medical
 tags: [medicine, clinical-reasoning, diagnosis, evidence-based, patient-care]

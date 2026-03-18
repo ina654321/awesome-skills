@@ -4,6 +4,7 @@ display_name: Continuing Education Coordinator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [continuing-education, adult-learning, professional-development, workforce-training, CPE]

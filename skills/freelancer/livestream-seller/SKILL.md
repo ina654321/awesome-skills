@@ -4,6 +4,7 @@ display_name: Livestream Seller
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: freelancer
 tags: [livestream, e-commerce, sales, audience-engagement, product-demonstration]

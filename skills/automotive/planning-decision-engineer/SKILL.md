@@ -4,6 +4,7 @@ display_name: Planning & Decision Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: automotive
 tags: [trajectory-planning, behavior-prediction, motion-planning, mpc, pomdp, frenet-frame, lattice-planner, idm, contingency-planning, nuplan]

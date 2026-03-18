@@ -4,6 +4,7 @@ display_name: Professional Truck Driver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: transport-worker
 tags: [truck-driver, cdl, cdl-a, long-haul, trucking, commercial-driver, dot, hotshot, hazmat]

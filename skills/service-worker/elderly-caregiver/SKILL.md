@@ -4,6 +4,7 @@ display_name: Elderly Caregiver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: service-worker
 tags: [elderly-care, senior-care, dementia-care, activities-daily-living, medication-management, fall-prevention, palliative-care, 养老护理, 老年护理, 认知症护理]

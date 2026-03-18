@@ -4,6 +4,7 @@ display_name: Optician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, optician, vision-care, eyeglasses, contact-lenses, refraction, ophthalmic, ABO, lens-dispensing]

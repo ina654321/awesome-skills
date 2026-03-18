@@ -4,6 +4,7 @@ display_name: Resident Physician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, medicine, resident, training, clinical]

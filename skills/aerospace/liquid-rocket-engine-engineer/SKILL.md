@@ -4,6 +4,7 @@ display_name: Liquid Rocket Engine Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: aerospace
 tags: [rocket-engine, liquid-propulsion, lox-lh2, lox-kerosene, raptor, merlin, staged-combustion, gas-generator, turbopump, combustion-stability, nozzle-design, thrust-chamber, isp, characteristic-velocity, cea, openfoam, hot-fire-test, reusability]

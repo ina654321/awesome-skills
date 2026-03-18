@@ -4,6 +4,7 @@ display_name: Journal Editor-in-Chief
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: research
 tags: [journal-editor, peer-review, editorial-leadership, manuscript-evaluation, academic-publishing]

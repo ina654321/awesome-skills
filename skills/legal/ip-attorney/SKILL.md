@@ -4,6 +4,7 @@ display_name: Intellectual Property Attorney
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: legal
 tags: [legal, ip, patent, trademark, copyright, intellectual-property]

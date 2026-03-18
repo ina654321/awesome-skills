@@ -4,6 +4,7 @@ display_name: Cultural Creative Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: media
 tags: [cultural, creative, exhibition, curation, cultural-projects, arts]

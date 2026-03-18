@@ -4,6 +4,7 @@ display_name: V2X System Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: automotive
 tags: [v2x, dsrc, c-v2x, cv2x, v2v, v2i, v2p, v2n, dedicated-short-range, c-its, etsi-its, sae-j2735, sae-j2945, ieee-802-11p, bsm, spat, map, rsa, cooperative-perception, platooning, intersection-safety]

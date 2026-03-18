@@ -4,6 +4,7 @@ display_name: Graduate Supervisor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [graduate-mentoring, thesis-supervision, academic-advisor, PhD-supervisor, research-mentorship]

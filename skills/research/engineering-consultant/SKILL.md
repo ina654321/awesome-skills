@@ -4,6 +4,7 @@ display_name: Engineering Consultant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: research
 tags: [engineering, technical-consulting, feasibility-study, project-assessment, design-review]

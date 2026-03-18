@@ -4,6 +4,7 @@ display_name: Steel Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, rebar, steel-fabrication, concrete-reinforcement]

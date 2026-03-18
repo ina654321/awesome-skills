@@ -4,6 +4,7 @@ display_name: Chip Design Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: semiconductor
 tags: [chip-design, rtl, verilog, systemverilog, synopsys, cadence, timing-closure, sta, dft, tapeout, risc-v, place-and-route]

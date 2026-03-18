@@ -4,6 +4,7 @@ display_name: Digital Marketing Specialist
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: marketing
 tags: [digital-marketing, seo, sem, social-media, content-marketing, analytics, paid-ads, growth]

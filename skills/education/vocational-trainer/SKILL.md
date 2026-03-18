@@ -4,6 +4,7 @@ display_name: Vocational Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [education, vocational-training, skills-development, certification, career-coaching, workforce-development]

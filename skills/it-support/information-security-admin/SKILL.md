@@ -4,6 +4,7 @@ display_name: Information Security Admin
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: it-support
 tags: [information-security, iam, siem, vulnerability-management, incident-response, iso27001, nist, soc2, access-control, threat-monitoring, dlp, firewall, compliance]

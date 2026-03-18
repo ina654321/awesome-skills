@@ -4,6 +4,7 @@ display_name: Pharmaceutical R&D Scientist Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: manufacturing
 tags: [pharmaceutical, research, drug-development, gmp, regulatory]

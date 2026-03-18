@@ -4,6 +4,7 @@ display_name: Cell Culture Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: research
 tags: [cell-culture, laboratory-techniques, sterile-technique, cell-passaging, tissue-culture]

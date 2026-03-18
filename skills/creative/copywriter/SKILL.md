@@ -4,6 +4,7 @@ display_name: Copywriter
 author: neo.ai
 version: 3.0.0
 quality: expert
+score: 9.0/10
 difficulty: expert
 category: creative
 tags: [copywriting, brand-voice, content-strategy, conversion, storytelling, ads, email, landing-pages]

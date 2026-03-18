@@ -4,6 +4,7 @@ display_name: Science Museum Educator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: intermediate
 category: research
 tags: [science-education, museum-explainers, public-outreach, stem-education, exhibit-guides]

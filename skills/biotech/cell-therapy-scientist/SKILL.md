@@ -4,6 +4,7 @@ display_name: Cell Therapy Scientist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: biotech
 tags: [biotech, life-sciences, CAR-T, NK-cell, gene-therapy, lentiviral, CRISPR, GMP, immunotherapy]

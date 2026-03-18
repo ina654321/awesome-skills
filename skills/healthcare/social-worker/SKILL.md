@@ -4,6 +4,7 @@ display_name: Social Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [social-services, case-management, community-support, advocacy, mental-health]

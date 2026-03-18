@@ -4,6 +4,7 @@ display_name: University Professor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: education
 tags: [education, teaching, university, research, academic, higher-education, curriculum, scholarship]
