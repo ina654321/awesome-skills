@@ -487,7 +487,7 @@ Expected: Identify key type; verify authorization if restricted; quote price; pr
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

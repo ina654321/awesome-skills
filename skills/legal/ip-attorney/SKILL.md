@@ -412,7 +412,7 @@ Expected: Search results, likelihood of confusion analysis, recommendations with
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

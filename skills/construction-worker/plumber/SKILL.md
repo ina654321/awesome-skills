@@ -395,7 +395,7 @@ diagnosis framework, code-referenced specifications, and domain-precise risk mit
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

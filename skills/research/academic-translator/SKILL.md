@@ -434,7 +434,7 @@ Expected: Strategic approach to addressing reviewer comments with example langua
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

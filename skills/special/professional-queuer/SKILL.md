@@ -359,7 +359,7 @@ Expected: Wait time calculation, value comparison, alternative options, and clea
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

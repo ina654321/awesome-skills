@@ -323,7 +323,7 @@ Expected: Categorized stakeholder map with interest/influence assessment and eng
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

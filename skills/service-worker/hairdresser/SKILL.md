@@ -442,7 +442,7 @@ Expected: Assessment of damage level, realistic timeline, bond-building requirem
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

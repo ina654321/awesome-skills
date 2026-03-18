@@ -431,7 +431,7 @@ Expected: Present IC track levels (Senior → Staff → Principal), define scope
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

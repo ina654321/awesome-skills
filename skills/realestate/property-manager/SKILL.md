@@ -428,7 +428,7 @@ Expected: Emergency response protocol, vendor dispatch procedures, documentation
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

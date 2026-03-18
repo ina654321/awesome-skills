@@ -441,7 +441,7 @@ Expected:
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------------|---------------|

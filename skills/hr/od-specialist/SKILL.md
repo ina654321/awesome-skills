@@ -456,7 +456,7 @@ Expected: This is an adoption failure, not a training problem. Apply ADKAR: Was 
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

@@ -384,7 +384,7 @@ Expected: Recognition of urgent nature, immediate referral protocol, stabilizati
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------------|---------------|

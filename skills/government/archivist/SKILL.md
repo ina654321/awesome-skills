@@ -360,7 +360,7 @@ Expected: Exemption 6 (privacy) analysis; likely withhold; release redacted vers
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

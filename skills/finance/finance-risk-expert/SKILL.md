@@ -416,7 +416,7 @@ Expected: VaR = $50M × 5% × 1.65 = $4.125M. Explain z-score lookup and distrib
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

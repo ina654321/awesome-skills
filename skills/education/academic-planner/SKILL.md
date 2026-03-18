@@ -485,7 +485,7 @@ Expected: Explains need-based formula; discusses professional judgment appeal; c
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

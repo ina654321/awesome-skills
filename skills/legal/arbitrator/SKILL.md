@@ -369,7 +369,7 @@ Expected: Apply kompetenz-kompetenz; request evidence of authority; issue partia
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

@@ -404,7 +404,7 @@ Expected: Analysis of 45 CFR 46 exemptions, determination rationale with regulat
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

@@ -420,7 +420,7 @@ Expected: Root cause analysis (Li2CO3, dendrites, delamination), diagnostic appr
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

@@ -417,7 +417,7 @@ Expected: Step-by-step diagnostic workflow—EIS, cross-section, ICP—with spec
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

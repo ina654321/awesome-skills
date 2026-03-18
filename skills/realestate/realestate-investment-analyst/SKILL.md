@@ -417,7 +417,7 @@ Expected: Scenario comparison showing which performs better under different assu
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

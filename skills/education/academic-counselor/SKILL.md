@@ -453,7 +453,7 @@ Expected: Takes seriously; provides crisis resources; explains referral process;
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

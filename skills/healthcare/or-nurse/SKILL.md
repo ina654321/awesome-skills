@@ -389,7 +389,7 @@ Expected: Clear communication that time-out is mandatory per protocol; patient s
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------------|---------------|

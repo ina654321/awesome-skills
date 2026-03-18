@@ -383,7 +383,7 @@ Expected: Hazard identification, Bow-tie analysis, control hierarchy, risk ranki
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

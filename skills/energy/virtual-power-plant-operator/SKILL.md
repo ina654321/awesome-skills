@@ -432,7 +432,7 @@ Expected: Resource adequacy calculation showing shortfall and mitigation options
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

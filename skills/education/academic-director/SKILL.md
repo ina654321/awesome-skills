@@ -307,7 +307,7 @@ Expected: Recommends gathering more evidence; discusses coaching approach; expla
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
+MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

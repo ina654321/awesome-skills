@@ -301,7 +301,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media
 
 ## § 16 · License & Author
 
-MIT with Attribution — [COMMON.md](../../COMMON.md)
+MIT with Attribution — [COMMON.md](../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|
