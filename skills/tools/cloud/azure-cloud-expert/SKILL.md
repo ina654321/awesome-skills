@@ -2,8 +2,9 @@
 name: azure-cloud-expert
 display_name: Azure Cloud Expert
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: expert
 category: tools
 tags: [azure, cloud, microsoft, devops, infrastructure]

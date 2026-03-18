@@ -2,8 +2,9 @@
 name: statistical-analysis-expert
 display_name: SPSS & SAS Expert Skill
 author: awesome-skills
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: expert
 category: scientific
 tags: [spss, sas, statistics, data-analysis, statistical-modeling]

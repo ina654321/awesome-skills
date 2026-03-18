@@ -2,8 +2,9 @@
 name: tencentcloud-lighthouse-website
 display_name: Tencent Lighthouse Website Expert
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: beginner
 category: tools
 tags: [tencent, lighthouse, website, cloud, beginner]

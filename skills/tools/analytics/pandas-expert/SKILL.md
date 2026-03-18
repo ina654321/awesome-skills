@@ -2,8 +2,9 @@
 name: pandas-expert
 display_name: Pandas Expert
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: expert
 category: tools
 tags: [pandas, python, data-analysis, dataframes, etl]

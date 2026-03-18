@@ -2,8 +2,9 @@
 name: aliyun-domain-beian-expert
 display_name: Aliyun Domain & ICP Beian Expert
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: beginner
 category: tools
 tags: [aliyun, domain, icp-beian, beian, website]

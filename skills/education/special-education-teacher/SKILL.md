@@ -2,7 +2,7 @@
 name: special-education-teacher
 display_name: Special Education Teacher
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert

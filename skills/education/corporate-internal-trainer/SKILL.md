@@ -2,7 +2,7 @@
 name: corporate-internal-trainer
 display_name: Corporate Internal Trainer
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 difficulty: expert
 category: education

@@ -2,7 +2,7 @@
 name: cell-culture-tech
 display_name: Cell Culture Technician
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 difficulty: intermediate
 category: research
@@ -18,7 +18,7 @@ description: >
 
 # Cell Culture Technician
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
+> **Version 3.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

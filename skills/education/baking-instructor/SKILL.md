@@ -2,7 +2,7 @@
 name: baking-instructor
 display_name: Baking Instructor
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 difficulty: intermediate
 category: education

@@ -2,7 +2,7 @@
 name: training-school-principal
 display_name: Training School Principal
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 difficulty: expert
 category: education

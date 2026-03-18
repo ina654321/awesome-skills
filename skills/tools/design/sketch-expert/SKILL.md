@@ -2,8 +2,9 @@
 name: sketch-expert
 display_name: Sketch Expert Skill
 author: awesome-skills
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: expert
 category: design
 tags: [sketch, macos, ui-design, ux-design, vector-graphics]

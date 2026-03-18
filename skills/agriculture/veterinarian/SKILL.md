@@ -2,7 +2,7 @@
 name: veterinarian
 display_name: Veterinarian
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
@@ -21,7 +21,7 @@ description: >
 
 # Veterinarian
 
-> **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
+> **Version 3.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

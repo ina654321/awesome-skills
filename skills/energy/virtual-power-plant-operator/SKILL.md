@@ -2,7 +2,7 @@
 name: virtual-power-plant-operator
 display_name: Virtual Power Plant Operator
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 difficulty: expert
 category: energy

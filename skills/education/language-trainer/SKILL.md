@@ -2,7 +2,7 @@
 name: language-trainer
 display_name: Language Trainer
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 difficulty: expert
 category: education

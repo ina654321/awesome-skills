@@ -2,8 +2,9 @@
 name: pytorch-expert
 display_name: PyTorch Expert
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: expert
 category: tools
 tags: [pytorch, deep-learning, machine-learning, neural-networks, ai]

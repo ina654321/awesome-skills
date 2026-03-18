@@ -2,8 +2,9 @@
 name: github-actions-expert
 display_name: GitHub Actions Expert
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: expert
 category: tools
 tags: [github, cicd, devops, automation, workflows]

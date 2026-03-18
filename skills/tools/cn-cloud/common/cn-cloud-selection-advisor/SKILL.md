@@ -2,8 +2,9 @@
 name: cn-cloud-selection-advisor
 display_name: CN Cloud Selection Advisor
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: beginner
 category: tools
 tags: [cloud-selection, aliyun, tencent, volcengine, china]

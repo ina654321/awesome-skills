@@ -2,8 +2,9 @@
 name: cn-cloud-icp-beian-guide
 display_name: CN Cloud ICP Beian Guide
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: beginner
 category: tools
 tags: [icp-beian, beian, china, website, compliance]

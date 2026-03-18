@@ -2,7 +2,7 @@
 name: clinical-research-coordinator
 display_name: Clinical Research Coordinator
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 difficulty: expert
 category: healthcare

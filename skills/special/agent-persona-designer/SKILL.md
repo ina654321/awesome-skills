@@ -2,7 +2,7 @@
 name: agent-persona-designer
 display_name: Agent Persona Designer
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: exemplary
 difficulty: expert
 category: special

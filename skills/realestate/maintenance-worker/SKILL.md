@@ -2,7 +2,7 @@
 name: maintenance-worker
 display_name: Maintenance Worker
 author: neo.ai
-version: 2.0.0
+version: 3.0.0
 quality: exemplary
 score: 9.5
 difficulty: intermediate

@@ -2,8 +2,9 @@
 name: linear-expert
 display_name: Linear Expert
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: intermediate
 category: tools
 tags: [linear, issue-tracking, project-management, agile]

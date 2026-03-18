@@ -2,8 +2,9 @@
 name: looker-metabase-expert
 display_name: Looker & Metabase Expert Skill
 author: awesome-skills
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: expert
 category: analytics
 tags: [looker, metabase, bi-tools, data-visualization, embedded-analytics]

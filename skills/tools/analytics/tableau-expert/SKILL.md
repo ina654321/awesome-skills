@@ -2,8 +2,9 @@
 name: tableau-expert
 display_name: Tableau Expert
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: expert
 category: tools
 tags: [tableau, bi, visualization, dashboards, data-analytics]

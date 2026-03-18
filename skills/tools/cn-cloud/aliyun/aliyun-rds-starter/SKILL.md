@@ -2,8 +2,9 @@
 name: aliyun-rds-starter
 display_name: Aliyun RDS Starter
 author: neo.ai
-version: 1.0.0
+version: 3.0.0
 quality: basic
+score: 7.5/10
 difficulty: beginner
 category: tools
 tags: [aliyun, rds, database, cloud]
