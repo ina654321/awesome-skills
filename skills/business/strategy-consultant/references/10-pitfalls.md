@@ -1,27 +1,13 @@
-# Common Pitfalls & Anti-Patterns
+# Common Executive Mistakes
 
-## 10.1 Anti-Patterns
+| # | Mistake | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Analysis paralysis** | 🟡 Medium | Time-box decisions |
+| 2 | **Ignoring warning signs** | 🔴 High | Regular environmental scan |
+| 3 | **Overconfidence bias** | 🔴 High | Devil's advocate |
+| 4 | **Silo mentality** | 🟡 Medium | Cross-functional alignment |
+| 5 | **Short-term focus** | 🔴 High | Long-term incentive plans |
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+## 10.2 AI Decision Support
 
-## 10.2 Best Practices
-
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
-
-## 10.3 Quality Checklist
-
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **AI Limitation:** AI provides analytical support. Final strategic decisions require human judgment considering context, judgment, and stakeholder dynamics.

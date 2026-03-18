@@ -1,33 +1,42 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Strategic Frameworks
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Porter's Five Forces
+| Force | Question |
+|-------|----------|
+| Competitive rivalry | How intense is competition? |
+| Supplier power | Can suppliers raise prices? |
+| Buyer power | Can buyers push down prices? |
+| Threat of substitution | Are there alternatives? |
+| Threat of entry | Can new competitors enter? |
 
-## 7.2 Configuration Reference
+### Business Model Canvas
+- Customer Segments
+- Value Propositions
+- Channels
+- Customer Relationships
+- Revenue Streams
+- Key Resources
+- Key Activities
+- Key Partnerships
+- Cost Structure
 
-### Basic Configuration
+## 7.2 Financial Metrics
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+| Metric | Formula | Target |
+|--------|---------|--------|
+| Gross Margin | Revenue - COGS | > 40% |
+| EBITDA Margin | EBITDA / Revenue | > 20% |
+| Net Margin | Net Income / Revenue | > 10% |
+| ROIC | NOPAT / Invested Capital | > WACC |
+| Revenue Growth | YoY % change | > industry avg |
 
-## 7.3 Common Commands
+## 7.3 Leadership Competencies
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- Strategic thinking
+- Decision making under uncertainty
+- Stakeholder management
+- Change leadership
+- Financial acumen
+- Emotional intelligence

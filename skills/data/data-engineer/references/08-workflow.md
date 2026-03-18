@@ -1,37 +1,50 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Data Analysis Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Define Question
+├── Business problem framing
+├── Success criteria definition
+├── Scope and constraints
+└── Stakeholder alignment
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Data Collection
+├── Source identification
+├── Access permissions
+├── Data extraction
+├── Initial documentation
+└── Data storage
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Data Preparation
+├── Profile data quality
+├── Clean and transform
+├── Feature engineering
+├── Handle missing values
+└── Validate assumptions
+
+Phase 4: Analysis
+├── Exploratory analysis
+├── Statistical testing
+├── Model building
+├── Interpretation
+└── Sensitivity analysis
+
+Phase 5: Communication
+├── Visualization design
+├── Executive summary
+├── Technical documentation
+├── Stakeholder presentation
+└── Action recommendations
 ```
 
-## 8.2 Common Workflows
+## 8.2 A/B Testing Workflow
 
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Define hypothesis
+2. Calculate sample size
+3. Randomize assignment
+4. Run experiment
+5. Check for sample ratio mismatch
+6. Analyze with appropriate test
+7. Determine statistical significance
+8. Recommend action

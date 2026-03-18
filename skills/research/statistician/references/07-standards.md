@@ -1,33 +1,36 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Research Methodology
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Quantitative Methods
+| Method | Use Case | Sample Size |
+|--------|---------|-------------|
+| RCT | Causal inference | Power analysis |
+| Survey | Self-reported data | n > 385 for 5% margin |
+| Observational | Real-world data | Propensity matching |
+| A/B testing | Product decisions | Sequential testing |
 
-## 7.2 Configuration Reference
+### Statistical Significance
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| p-value | < 0.05 | Statistically significant |
+| Confidence | 95% | Standard threshold |
+| Effect size | Cohen's d | Practical significance |
 
-### Basic Configuration
+## 7.2 Publication Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Reporting Guidelines
+| Field | Guideline |
+|-------|-----------|
+| Medical | CONSORT, STROBE |
+| Psychology | APA, PRISMA |
+| Social sciences | AAPOR |
+| Machine learning | ML reproducibility checklist |
 
-## 7.3 Common Commands
+## 7.3 Research Ethics
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- IRB approval required for human subjects
+- Informed consent
+- Data privacy (HIPAA, GDPR)
+- Conflict of interest disclosure
+- Data sharing and open science

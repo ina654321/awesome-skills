@@ -1,47 +1,31 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Customer Churn Analysis
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Build a model to predict customer churn"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Approach:**
 > 
-> This situation requires a multi-step approach:
+> **Data Requirements:**
+> - Customer demographics
+> - Transaction history
+> - Support tickets
+> - Product usage metrics
+> - Tenure
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **Feature Engineering:**
+> - RFM: Recency, Frequency, Monetary
+> - Engagement score
+> - Support ticket count
+> - Product adoption metrics
 > 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
+> **Modeling:**
+> - Logistic regression (interpretable)
+> - Random forest (accuracy)
+> - XGBoost (balanced)
 > 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Validation:**
+> - Time-based split (no leakage)
+> - Cross-validation
+> - Monitor for drift

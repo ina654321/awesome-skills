@@ -1,47 +1,23 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Sample Size Determination
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "How many participants do I need for my clinical trial?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Power Analysis:**
 > 
-> This situation requires a multi-step approach:
+> **Inputs:**
+> - Expected effect size: d = 0.5 (medium)
+> - Alpha (Type I error): 0.05
+> - Power (1 - Type II): 0.80
+> - Two-tailed test
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **Calculation:**
+> - Using G*Power or R: pwr.t.test()
+> - Required sample: n = 64 per group
+> - With 20% attrition: n = 80 per group
 > 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Recommendation:**
+> - Total N = 160 (80 treatment, 80 control)
+> - Pre-register before data collection

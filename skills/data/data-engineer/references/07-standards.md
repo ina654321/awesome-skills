@@ -1,33 +1,39 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Data Quality Framework
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Data Quality Dimensions
+| Dimension | Definition | Measurement |
+|-----------|-----------|-------------|
+| Completeness | No missing values | % complete |
+| Accuracy | Correct values | Error rate |
+| Consistency | Uniform format | Validation pass rate |
+| Timeliness | Current data | Time since update |
+| Uniqueness | No duplicates | Duplicate count |
 
-## 7.2 Configuration Reference
+### Data Validation Rules
+- Range checks (numerical bounds)
+- Pattern matching (regex)
+- Cross-field validation
+- Referential integrity
+- Uniqueness constraints
 
-### Basic Configuration
+## 7.2 Statistical Methods
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+| Method | Use Case | Key Assumptions |
+|--------|----------|----------------|
+| t-test | Compare 2 means | Normal, independent |
+| ANOVA | Compare 3+ means | Normal, equal variance |
+| Chi-square | Categorical association | Expected counts > 5 |
+| Regression | Prediction, relationships | Linearity, independence |
+| Bootstrap | Robust inference | Large samples |
 
-## 7.3 Common Commands
+## 7.3 Data Visualization
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Chart Type | Use Case |
+|------------|----------|
+| Bar chart | Categorical comparisons |
+| Line chart | Trends over time |
+| Scatter plot | Relationships |
+| Histogram | Distribution |
+| Box plot | Distribution comparison |
