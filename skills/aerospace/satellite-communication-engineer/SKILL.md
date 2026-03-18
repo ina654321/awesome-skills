@@ -168,140 +168,25 @@ SPACE SEGMENT                    GROUND SEGMENT
 
 ## § 7 Standards & Reference
 
-### Link Budget Template (Ka-band LEO example)
-```
-FORWARD LINK (Gateway → Satellite → User Terminal):
+See [references/07-standards.md](references/07-standards.md)
 
-Uplink (Gateway → Satellite):
-  Gateway EIRP:                    +65 dBW  (10m dish at Ka)
-  Free Space Path Loss (550km):   -177.3 dB (at 30 GHz)
-  Atmospheric loss (el=40°):       -0.8 dB
-  Satellite G/T:                   +5.0 dB/K
-  C/N0 (uplink):                  +116.9 dBHz
-
-Downlink (Satellite → User Terminal):
-  Satellite EIRP per beam:         +45 dBW
-  Free Space Path Loss (550km):   -173.0 dB (at 20 GHz)
-  Rain fade margin needed (Ka):    -4.5 dB  (99.9% availability)
-  Terminal G/T (30cm flat panel):  +6.0 dB/K
-  C/N0 (downlink):                +93.5 dBHz
-
-Combined C/N0 (carrier to noise):  +92.5 dBHz (total, dominated by downlink)
-Required Eb/N0 for QPSK 3/4:      +4.6 dB
-Occupied bandwidth:                500 MHz
-Available C/N:                     +12.5 dB
-Required C/N (QPSK 3/4):          +7.5 dB
-Link Margin:                       +5.0 dB  ✓ (≥3 dB required)
-```
-
-### Key Performance Metrics
-| Metric | Target | Warning | Critical |
-|--------|--------|---------|---------|
-| Link margin (clear sky) | ≥ 6 dB | 3–6 dB | < 3 dB |
-| Link margin (rain fade, 99.9% avail.) | ≥ 1 dB | 0–1 dB | < 0 dB (outage) |
-| EIRP spectral density (ITU limit) | Per ITU Art. 22 mask | Within 2 dB of limit | Exceeds limit |
-| Pointing accuracy (GEO) | ≤ 0.1° for large terminal | 0.1–0.3° | > 0.3° |
-| Terminal rain margin (Ka) | ≥ 6 dB (90° elevation) | 3–6 dB | < 3 dB |
-| Spectral efficiency | > 4 bits/s/Hz (DVB-S2X) | 2–4 bits/s/Hz | < 2 bits/s/Hz |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: System Requirements & Concept
-```
-1.1 Mission Requirements Definition
-  - [ ] Define coverage area, availability, data rate per terminal
-  - [ ] Define frequency band (regulatory availability check first)
-  - [ ] Define orbit type and altitude (coverage vs. latency trade)
-  - [✓ Done] Output: System Requirements Document (SRD) with link performance requirements
-  - [✗ FAIL] If required EIRP exceeds ITU PFD mask → redesign antenna or reduce coverage area
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Top-Level Architecture Selection
-  - [ ] GEO vs. LEO/MEO trade: latency, coverage, handover complexity, constellation size
-  - [ ] HTS vs. widebeam: spectral efficiency vs. terminal size requirement
-  - [ ] Ground segment topology: centralized hub vs. distributed gateways
-  - [✓ Done] Output: System Architecture Document with selected approach
-```
-
-### Phase 2: Link Budget & RF Design
-```
-2.1 Forward Link Budget
-  - [ ] Compute satellite EIRP per beam from transponder power and antenna gain
-  - [ ] Apply ITU rain model (P.618) for rain fade at required availability
-  - [ ] Size user terminal antenna for positive link margin (≥ 3 dB clear sky)
-  - [ ] Select MODCOD table: peak efficiency at clear sky, robust fallback for rain fade
-  - [✓ Done] Output: Forward Link Budget spreadsheet with margin analysis at all elevation angles
-  - [✗ FAIL] If margin < 3 dB → increase terminal size, boost satellite EIRP, or reduce link rate
-
-2.2 Return Link Budget
-  - [ ] Compute terminal EIRP within ITU PFD mask constraints
-  - [ ] Compute gateway G/T requirement for positive margin
-  - [ ] Verify interference compliance with adjacent satellite (coordination arc ±6°)
-  - [✓ Done] Output: Return Link Budget with ITU compliance verification
-  - [✗ FAIL] If terminal EIRP exceeds PFD mask → reduce power, increase bandwidth, or use higher gain antenna
-
-2.3 Interference Analysis
-  - [ ] Adjacent satellite interference: compute C/I for worst-case satellite position
-  - [ ] Self-interference: compute frequency reuse efficiency for HTS multibeam design
-  - [ ] Uplink interference into adjacent satellite: verify compliance with coordination agreements
-  - [✓ Done] Output: Interference Analysis Report with mitigation design
-```
-
-### Phase 3: Regulatory & Operational
-```
-3.1 ITU Coordination
-  - [ ] File Advance Publication Information (API) with ITU BR (3-8 years before launch)
-  - [ ] Identify coordination triggers (within coordination arc of existing networks)
-  - [ ] Conduct bilateral coordination negotiations with affected administrations
-  - [✓ Done] Output: ITU coordination completed; due diligence for protection obligations
-
-3.2 National Licensing
-  - [ ] File FCC earth station license (Part 25) or equivalent national license
-  - [ ] Obtain terminal type approval for user equipment
-  - [✓ Done] Output: FCC license granted or equivalent national authorization
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Ka-Band LEO User Terminal Sizing
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: We're deploying a Ka-band LEO broadband service. Our satellite EIRP per beam is 45 dBW and we're at 550km altitude. We need 100 Mbps to a small flat-panel terminal. How big does the terminal need to be?
-
-**Expert**:
-> Let me work through the link budget. **Downlink (satellite → terminal) at 550 km, Ka-band ~20 GHz**:
->
-> ```
-> Satellite EIRP (per beam):          +45.0 dBW
-> Free Space Path Loss (550km, 20GHz): -173.0 dB  [FSPL = 20log(4πd/λ)]
-> Atmospheric absorption (Ka, 40° el): -0.5 dB
-> Polarization loss:                   -0.3 dB
-> Net power at terminal antenna input: -128.8 dBW
->
-> Required Eb/N0 for 100 Mbps:
->   DVB-S2X 16APSK 3/4 (spectral eff: 3.0 bits/s/Hz):
->     Bandwidth needed: 100 Mbps
->     Required C/N0 = Eb/N0 + 10log(bitrate) = 8.3 + 80 = 88.3 dBHz
->     Required C/N (33.3 MHz bandwidth) = 88.3 - 75.2 = 13.1 dB
->
-> Required terminal G/T:
->   G/T = Required C/N0 - EIRP + FSPL + losses - k
->   G/T = 88.3 - 45.0 + 173.0 + 0.8 - 228.6 = -11.5 dB/K
-> ```
->
-> **Terminal sizing**:
-> - Required G/T = -11.5 dB/K
-> - Assume LNB noise temp: 80K (T_sys ≈ 100K with antenna noise → 10log(100) = 20 dBK)
-> - Required antenna gain: G = G/T + 10log(T) = -11.5 + 20 = 8.5 dBi
-> - Flat panel antenna gain at 20 GHz: G = 10log(η × (πD/λ)²) where η=0.6
-> - For 8.5 dBi: D ≈ 17 cm → **flat panel ~20cm × 20cm** (including margin)
->
-> **Rain fade margin check** (Ka-band, US CONUS, 99.9% availability, 40° elevation): +6.5 dB needed
-> - Clear-sky margin with 20cm panel: ~5 dB → **need 25cm × 25cm panel for 99.9% availability**
->
-> **Bottom line**: A ~25cm flat-panel phased array can support 100 Mbps downlink at 99.9% availability in CONUS. This aligns with the Starlink Gen3 terminal form factor.
+---
 
 ---
 
@@ -375,25 +260,9 @@ Link Margin:                       +5.0 dB  ✓ (≥3 dB required)
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Forgetting Rain Fade in Ka-Band Budget
-**❌ BAD**: Link budget calculated at clear-sky; deployed system fails in rain
-```
-# Wrong: ignoring rain fade entirely
-C_N = EIRP + G_T - FSPL - k - BW  # Clear sky only
-margin = C_N - required_C_N       # Margin looks fine... until rain
-```
-**✅ GOOD**: Apply ITU-R P.618 rain fade margin for target availability
-```python
-# Rain fade margin for 99.9% availability, Ka-band, CONUS mid-latitude
-# from ITU-R P.618 tables
-rain_fade_margin_dB = {
-    "Ka": {20: 8.5, 30: 6.5, 40: 5.5, 50: 4.5, 60: 3.5},  # dB vs elevation angle°
-    "Ku": {20: 4.0, 30: 3.0, 40: 2.5, 50: 2.0, 60: 1.5}
-}
-margin = clear_sky_margin - rain_fade_margin_dB["Ka"][elevation_deg]
-# margin must be ≥ 1 dB for acceptable availability
-```
-**Why it matters**: Ka-band rain outages can be 8-12 dB at low elevation angles in tropical climates. Ignoring this makes the system unusable in heavy rain.
+See [references/10-pitfalls.md](references/10-pitfalls.md)
+
+---
 
 ---
 

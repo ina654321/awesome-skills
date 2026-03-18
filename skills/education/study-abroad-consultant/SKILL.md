@@ -184,228 +184,33 @@ The pyramid builds upward: without fit alignment, even perfect applications fail
 
 ## 7. Standards & Reference
 
-### 7.1 University Selection Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Holistic Fit Analysis** | Building balanced college list | 1. Academic fit (GPA/SAT range) → 2. Major availability → 3. Campus culture → 4. Financial fit → 5. Location/size preferences |
-| **Ivy League Strategy** | Targeting US top-tier schools | 1. Demonstrate interest → 2. Early Decision if first choice → 3. Supplemental essays quantity/quality → 4. Legacy/athlete status consideration |
-| **UK Oxbridge Approach** | UK undergraduate applications | 1. Course-specific (not major) → 2. Entrance exam (MAT/STEP) → 3. Interview performance → 4. Personal statement depth |
-| **Transfer Pathway** | Community college to 4-year | 1. Articulation agreements → 2. GPA requirements → 3. Major alignment → 4. Transfer-friendly policies |
-
-### 7.2 Admissions Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Acceptance Rate Balance** | Reach/Match/Safety ratio | 4:4:2 for competitive, 3:5:2 for moderate |
-| **Yield Rate** | Accepted students who enroll | >50% indicates strong match |
-| **Demonstrated Interest** | Campus visit, interview, contact | Track and document all touchpoints |
-| **Financial Aid Award** | Need met percentage | 100% for top-need-blind schools |
-| **Acceptance Odds** | Admission rate × Yield rate | Higher = more likely to accept offer |
-
-### 7.3 Test Score Percentiles
-
-| Test | 25th % | 50th % | 75th % | 99th % |
-|------|--------|--------|--------|--------|
-| **SAT** | 1050 | 1150 | 1350 | 1550+ |
-| **ACT** | 21 | 24 | 30 | 34+ |
-| **GRE** | 305 | 318 | 328 | 338+ |
-| **TOEFL** | 80 | 92 | 105 | 115+ |
-| **IELTS** | 6.0 | 6.5 | 7.5 | 8.5+ |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Full-Service Consulting Engagement
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Discovery & Assessment (Weeks 1-2)
-├── Complete student profile: GPA, test scores, courses, extracurriculars
-├── Conduct intake interview: interests, values, career aspirations
-├── Discuss geography, size, campus culture preferences
-├── Review family budget and financial aid needs
-└── [✓ Done]: Complete profile document with 50+ data points
-
-Phase 2: University List Development (Weeks 3-4)
-├── Generate initial list using fit algorithm (50+ factors)
-├── Present reach/match/safety breakdown
-├── Research each school's specific programs and culture
-├── Align student interests with available opportunities
-└── [✓ Done]: Finalized list with 10-15 schools, documented rationale
-
-Phase 3: Application Strategy (Weeks 5-8)
-├── Create master calendar with all deadlines
-├── Prioritize Early Decision/Early Action for top choices
-├── Assign essay topics by school
-├── Plan standardized test timeline
-└── [✓ Done]: Strategy document with timeline and task owners
-
-Phase 4: Essay Development (Weeks 9-20)
-├── Brainstorm personal statement themes
-├── Draft, peer review, revise (minimum 3 cycles)
-├── Complete all supplemental essays
-├── Proofread for grammar, flow, voice
-└── [✓ Done]: All essays finalized, proofread, submitted
-
-Phase 5: Submission & Follow-through (Weeks 21-26)
-├── Submit all applications before deadlines
-├── Track confirmations and supplemental materials
-├── Prepare for interviews (if invited)
-├── Send thank-you notes to recommenders
-└── [✓ Done]: All applications submitted, confirmations received
-
-Phase 6: Decision & Enrollment (Weeks 27-32)
-├── Compare financial aid offers
-├── Visit campuses (if possible)
-├── Make final decision by May 1
-├── Submit enrollment deposit
-└── [✓ Done]: Student enrolled, visa process started
-```
-
-### 8.2 Visa Interview Preparation
-
-```
-Step 1: Document Collection
-  → I-20 (for F-1) or DS-2019 (for J-1)
-  → SEVIS fee receipt
-  → Passport (valid 6+ months)
-  → Admission letter
-  → Financial proof (bank statements, affidavits)
-  → Transcript and degree certificates
-
-Step 2: Interview Preparation
-  → Review 50 most common questions
-  → Prepare specific answers for: "Why this school?", "What will you study?", "What after graduation?", "Who is sponsoring you?"
-  → Practice with mock interviewer
-  → Prepare evidence for every claim
-
-Step 3: Interview Day
-  → Arrive 30 minutes early
-  → Dress professionally
-  → Speak clearly, be concise
-  → Show genuine interest and preparation
-
-[✓ Done]: Visa approved, travel plans confirmed
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Ivy League Application Strategy
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我的儿子GPA 3.8 (unweighted), SAT 1480, 想要申请计算机科学专业，目标Ivy League，如何规划？"
-
-**Study Abroad Consultant:**
-> **Ivy League CS 专业申请策略**
->
-> **Step 1: 竞争力分析**
-> | 因素 | 学生数据 | Ivy平均 | 评估 |
-> |------|---------|---------|------|
-> | GPA | 3.8 | 3.9-4.0 | Match |
-> | SAT | 1480 | 1500-1550 | Slightly below |
-> | AP | 4门 | 5-8门 | Below |
-> | CS相关活动 | 2个 | 3-5个 | Need more |
->
-> **Step 2: 策略建议**
-> - **ED 申请**: Cornell Engineering (ED acceptance rate ~25% vs RD ~8%) — 强烈推荐
-> - **EA 申请**: MIT (not binding), Stanford (not binding), Carnegie Mellon (binding EA)
-> - **RD 选校**: Columbia, UPenn, Dartmouth, Brown — 补充文书差异化
->
-> **Step 3: 时间线 (2026Fall申请))**
-> | 时间 | 任务 |
-> |------|------|
-> | 2025.06 | 开始文书brainstorm |
-> | 2025.09 | 完成主文书初稿 |
-> | 2025.10 | ED/EA截止前提交 |
-> | 2025.11 | 补充文书全部完成 |
-> | 2026.01 | RD截止 |
->
-> **Next I need from you:**
-> 1. 你们儿子目前10年级还是11年级？
-> 2. 他有哪些CS相关的活动和项目经历？
-> 3. 预算范围：需要full-ride还是能承担部分学费？
-
-### 9.2 Financial Aid Optimization
-
-**User:** "家庭年收入8万美元，如何在美国读本科拿到最多奖学金？"
-
-**Study Abroad Consultant:**
-> **Need-Blind vs Need-Aware 策略**
->
-> **最佳策略学校 (Need-Blind, 100% Need Met)**:
-> | 学校 | 每年花费 | 预计奖学 | 实际支付 |
-> |------|---------|---------|---------|
-> | Harvard | $76,000 | $76,000 | $0 |
-> | Yale | $75,000 | $75,000 | $0 |
-> | Princeton | $74,000 | $74,000 | $0 |
-> | MIT | $78,000 | $78,000 | $0 |
-> | Stanford | $82,000 | $82,000 | $0 |
->
-> **注意**: $80K年收入在Harvard/Princeton通常获得全额资助
->
-> **奖学金优先级**:
-> 1. **FAFSA** (联邦助学金) — 提交日期: 2025.10.1
-> 2. **CSS Profile** (大学助学金) — 提交日期: 2025.10.31
-> 3. **学校特定奖学金** — 各学校 deadlines
-> 4. **外部奖学金** —寻找与学生背景匹配的小奖
->
-> **预测**: $80K收入，3人家庭 → $25,000-35,000/年 预期家庭贡献
-> **实际支付**: $0 at Harvard → $15,000 at state schools
-
-### 9.3 UK University Application
-
-**User:** "想申请英国牛津或剑桥的数学专业，需要准备什么？"
-
-**Study Abroad Consultant:**
-> **Oxbridge 数学申请完整指南**
->
-> **关键差异 (vs. 美国申请)**:
-> - **不是"专业"而是"课程"**: Mathematics (3年) 或 Mathematics (4年 MMath)
-> - **没有通用文书**: UCAS只能交一篇personal statement给5所学校
-> - **需要入学考试**: MAT (Oxford), STEP (Cambridge)
-> - **面试至关重要**: 30-50% 录取权重
->
-> **必须完成**:
-> | 任务 | 截止日期 |
-> |------|---------|
-> | UCAS申请提交 | 2025.10.15 |
-> | MAT考试 | 2025.10.29 或 2025.11.04 |
-> | STEP (如申请Cambridge) | 2025.06 |
-> | 面试 | 2025.12 |
->
-> **Personal Statement 结构 (4000字符)**:
-> 1. 引入数学热情 (~20%)
-> 2. 展示数学能力 (竞赛、阅读、项目) (~40%)
-> 3. 其他兴趣 (非学术) (~20%)
-> 4. 为什么选择Oxford/Cambridge (~20%)
->
-> **Next I need**: 学生目前几年级？参加过哪些数学竞赛？
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Applying to schools just for brand name** | 🔴 High | Research culture, location, specific programs; brand means nothing if you're miserable |
-| 2 | **Writing about "dad died and I found purpose"** | 🔴 High | Cliché topic; unless your story is genuinely unique, avoid trauma narratives |
-| 3 | **Waiting until senior year to start** | 🔴 High | Junior year starting is already late; freshman/sophomore year for building activities |
-| 4 | **Submitting first drafts** | 🟡 Medium | Plan 3+ revision cycles; get feedback from multiple readers |
-| 5 | **Ignoring demonstrated interest** | 🟡 Medium | Visit campus, interview, contact admissions — all factor into yield |
-| 6 | **Generic "Why This Major" essays** | 🟡 Medium | Name specific courses, professors, research opportunities at THAT school |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ BAD: "I want to study computer science because AI is the future and I love coding."
-✅ GOOD: "My fascination with neural networks began in sophomore year when I built a CNN from scratch in Python to classify MNIST digits. Reading LeCun's papers on convolutional architectures sparked my curiosity about how pattern recognition differs between biological and artificial systems. At Columbia, Professor X's research on [specific topic] aligns with my interest in..."
-
-❌ BAD: "Harvard has excellent programs and distinguished faculty."
-✅ GOOD: "The combination of Professor_embeddings's work on [specific research] and Harvard's proximity to the Kendall Square AI ecosystem makes this the ideal place to pursue my interest in practical ML applications."
-
-❌ BAD: "My parents pushed me to study abroad."
-✅ GOOD: "After my gap year teaching math in rural Peru, I realized education access varies dramatically by geography. This inspired my interest in comparative education policy."
-```
+---
 
 ---
 

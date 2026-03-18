@@ -182,192 +182,33 @@ Each step matters—flaws compound; excellence requires attention at every stage
 
 ## 7. Standards & Reference
 
-### 7.1 Beer Style Guidelines
+See [references/07-standards.md](references/07-standards.md)
 
-| Style | OG Range | IBU | SRM | ABV |
-|-------|----------|-----|-----|-----|
-| **German Pilsner** | 1.044-1.050 | 25-45 | 2-4 | 4.4-5.2% |
-| **American IPA** | 1.056-1.070 | 40-70 | 6-14 | 5.5-7.5% |
-| **Imperial Stout** | 1.075-1.115 | 50-90 | 15-30+ | 8-12% |
-| **Weizenbier** | 1.044-1.052 | 8-18 | 4-8 | 4.0-5.5% |
-| **Saison** | 1.048-1.065 | 20-35 | 3-7 | 5-8% |
-
-### 7.2 Common Off-Flavors
-
-| Off-Flavor | Cause | Prevention |
-|------------|-------|-------------|
-| **DMS (cooked corn)** | Bacteria, high fermentation temps | Proper fermentation, fast cooling |
-| **Diacetyl (butterscotch)** | Yeast autolysis, stress, bacterial | Clean fermentation, healthy yeast |
-| **Oxidation (stale, cardboard)** | Oxygen exposure post-fermentation | Minimize racking, CO2 purging |
-| **Acetaldehyde (green apple)** | Early packaging, immature beer | Allow full fermentation, conditioning |
-| **Estery (fruitiness)** | High temps, yeast strain | Temperature control, proper yeast selection |
-
-### 7.3 Water Chemistry Basics
-
-| Ion | Effect | Target Range (ppm) |
-|-----|--------|---------------------|
-| **Calcium** | Enzyme rest, yeast nutrition, clarity | 50-150 |
-| **Magnesium** | Yeast nutrient, but can add bitterness | 10-30 |
-| **Sodium** | Enhances flavor, but can make salty | 0-100 |
-| **Chloride** | Body, fullness; too much makes flabby | 0-200 |
-| **Sulfate** | Crisp bitterness; too much makes harsh | 50-150 |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Brewing Day
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Preparation
-├── Mill grains to proper crush (coarse, not flour)
-├── Prepare strike water, heat to mash temperature
-├── Sanitize all equipment
-└── [✓ Done]: Ready to mash
-
-Phase 2: Mashing
-├── Add strike water, maintain temperature (typically 150-154°F
-├── Hold for 60 minutes (or per recipe)
-├── Perform iodine test to confirm conversion
-└── [✓ Done]: Conversion complete, sparge ready
-
-Phase 3: Lautering & Boiling
-├── Recirculate first runnings until clear
-├── Batch or fly sparge to collect target volume
-├── Boil for 60-90 minutes (add hops per schedule)
-├── Whirlpool to settle trub
-└── [✓ Done]: Wort ready for cooling
-
-Phase 4: Fermentation
-├── Chill wort to fermentation temperature
-├── Pitch appropriate yeast amount
-├── Ferment at controlled temperature (7-21 days)
-└── [✓ Done]: Primary fermentation complete
-
-Phase 5: Conditioning & Packaging
-├── Transfer to secondary (optional)
-├── Condition at cold temperature (2-4 weeks for lagers)
-├── Prime and bottle, or force carbonate and keg
-└── [✓ Done]: Beer ready to drink
-```
-
-### 8.2 Recipe Formulation
-
-```
-Step 1: Define target style and stats (OG, IBU, SRM, ABV)
-Step 2: Select base malt (70-80% of grist)
-Step 3: Add specialty malts for color and character (10-20%)
-Step 4: Calculate hops for bitterness (first 60 min), aroma (last 15 min)
-Step 5: Choose yeast strain matching style
-Step 6: Adjust water profile for style needs
-Step 7: Calculate expected OG/IBU/Color and adjust as needed
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Recipe Development
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我想酿一款适合夏天的淡色啤酒，清爽易饮，应该怎么做？"
-
-**Brewmaster:**
-> **夏季清爽啤酒配方建议**
->
-> **推荐风格: German Pilsner 或 Session IPA**
-> | 元素 | 建议 |
-> |------|------|
-> | **麦芽** | 皮尔森麦芽 80% + 小麦麦芽 10% + 慕尼黑麦芽 10% |
-> | **酒花** | 德国酒花 (Hallertau, Saaz) — 苦味适中，香气清新 |
-> | **酵母** | 拉格酵母 (如果是皮森) 或 US-05 (IPA) |
-> | **OG** | 1.040-1.045 (清爽型) |
-> | **IBU** | 25-35 (干净苦味) |
-> | **ABV** | 4-4.5% |
->
-> **酿造要点**:
-> - **水质**: 软水更适合，清爽不黏腻
-> - **发酵**: 低温发酵 (10-12°C) 产生干净风味
-> - **成熟**: 至少2周冷成熟，让风味稳定
->
-> **关键决策**: 如果想更清爽用德国皮尔森；如果想要更多酒花香用淡色艾尔
->
-> **Next, I need from you:**
-> 1. 你有拉格发酵设备吗？(需要低温)
-> 2. 更喜欢苦味重还是花香重？
-
-### 9.2 Troubleshooting
-
-**User:** "我的啤酒有股煮玉米的味道，怎么回事？"
-
-**Brewmaster:**
-> **DMS (二甲基硫) 问题诊断**
->
-> **原因分析**:
-> | 可能原因 | 可能性 | 解决方案 |
-> |----------|--------|----------|
-> | 煮沸时锅盖未盖 | 高 | 盖上锅盖进行煮沸 |
-> | 冷却太慢 | 中 | 快速冷却至发酵温度 |
-> | 发酵温度太高 | 中 | 降低至18-20°C以下 |
-> | 麦芽质量问题 | 低 | 更换供应商 |
->
-> **立即处理**:
-> 1. 检查煮沸锅盖是否盖好
-> 2. 确保冷却速度够快
-> 3. 这次可能无法完全去除，但下次改进
-> 4. DMS在成熟过程中可能部分消散
->
-> **预防措施**: 盖锅煮沸，快速冷却，酵母健康
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Inadequate Sanitation
-
-```markdown
-❌ BAD: "It looks clean" isn't good enough → bacterial contamination spoils batch → months wasted
-
-✅ GOOD: Use proper sanitizer (StarSan), contact time, rinse with no-residue water;
-sanitize everything that touches cooled wort
-```
-
-**Anti-Pattern 2: Underpitching Yeast
-
-```markdown
-❌ BAD: Using one packet for too large a batch → stressed yeast → off-flavors, slow fermentation
-
-✅ GOOD: Make a starter for 5+ gallon batches; use pitching rate calculator;
-active, healthy yeast produces clean fermentation
-```
-
-**Anti-Pattern 3: Temperature Control Neglect
-
-```markdown
-❌ BAD: Fermenting in ambient temperature (25°C+) → estery, banana, phenolic off-flavors
-
-✅ GOOD: Use temperature control (fermentation chiller, swamp cooler); keep within
-2°C of target for clean fermentation
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Rush to Package
-
-```markdown
-❌ BAD: Packaging before fermentation complete → overcarbonation, explode bottles
-
-✅ GOOD: Wait until FG stable for 3+ days; check that FG matches expected attenuation
-```
-
-**Anti-Pattern 5: Ignoring Water Chemistry
-
-```markdown
-❌ BAD: Using tap water without treatment → chlorine, minerals affect flavor negatively
-
-✅ GOOD: Test water; use filter for chlorine; adjust minerals for style (soft for pilsner, hard for IPA)
-```
+---
 
 ---
 

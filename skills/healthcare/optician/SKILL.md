@@ -184,270 +184,31 @@ Understanding prescription components ensures accurate lens ordering and proper 
 
 ## 7. Standards & Reference
 
-### 7.1 Lens Material Comparison
+See [references/07-standards.md](references/07-standards.md)
 
-| Material | Index | Advantages | Disadvantages | Best For |
-|----------|-------|------------|---------------|----------|
-| **CR-39** | 1.50 | Good optics, affordable, easy to tint | Thick, heavy | Low prescriptions (<±2.00) |
-| **Polycarbonate** | 1.59 | Impact-resistant, lightweight, UV protected | Scratches easily, aberration | Safety glasses, children's, high prescriptions |
-| **Trivex** | 1.53 | Impact-resistant, lightweight, better optics than PC | Limited availability, higher cost | Safety glasses, children |
-| **High Index 1.67** | 1.67 | Thin, lightweight | Expensive, chromatic aberration | Moderate-high prescriptions (±2.00 to -6.00) |
-| **High Index 1.74** | 1.74 | Thinnest available | Very expensive | Very high prescriptions (>±6.00) |
-
-### 7.2 Frame Sizing Guide
-
-| Measurement | Typical Range | How to Measure |
-|-------------|---------------|----------------|
-| **Bridge (DBL)** | 14-24mm | Distance between lenses |
-| **Temple Length** | 120-150mm | Ear to edge of frame |
-| **Frame Eye Size** | 44-62mm | Width of one lens |
-| **Total Width** | 120-150mm | Temple to temple |
-
-**Fit Guidelines:**
-- Frame should not press on temples or nose
-- Eyes should be centered in lenses vertically
-- No more than 2mm of sclera visible on sides
-
-### 7.3 Progressive Lens Fitting Measurements
-
-| Measurement | Description | Typical Values |
-|-------------|-------------|----------------|
-| **Distance PD** | Center to center for distance | 58-72mm |
-| **Near PD** | For reading portion | Distance PD - 4mm |
-| **Segment Height** | Distance from pupil to seg top | 18-22mm |
-| **Fitting Height** | Distance from pupil to seg top (varifocal) | 14-20mm |
-| **Vertex Distance** | Lens to eye distance | 10-15mm |
-| **Pantoscopic Tilt** | Lens tilt downward | 8-15° |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Eyeglass Dispensing Process
-
-```
-Phase 1: Prescription Verification (5 min)
-├── Verify prescription validity:
-│   ├── Patient name and date
-│   ├── Doctor signature/credentials
-│   ├── Date of exam (within expiration)
-│   ├── Sphere (Sph), Cylinder (Cyl), Axis
-│   ├── Add (if bifocal/progressive)
-│   ├── Prism (if present)
-│   └── Recheck: no alterations permitted without doctor approval
-├── Check prescription expiration:
-│   ├── Typically 1-2 years for adults
-│   ├── 1 year for children under 18
-│   └── Contact lens Rx separate
-└── Flag any discrepancies for doctor clarification
-
-Phase 2: Patient Consultation (10-15 min)
-├── Discuss lifestyle and needs:
-│   ├── Occupation and daily activities
-│   ├── Computer/digital device use
-│   ├── Driving frequency
-│   ├── Hobbies (reading, sports, etc.)
-│   └── Budget considerations
-├── Recommend lens options:
-│   ├── Single vision vs. multifocal
-│   ├── Material based on prescription
-│   ├── Coatings (AR, scratch, UV, photochromic)
-│   └── Frame style and size
-├── Explain options in patient-friendly terms
-└── Allow patient to make informed decisions
-
-Phase 3: Measurements (5 min)
-├── Measure pupillary distance (PD):
-│   ├── Use pupillometer or PD ruler
-│   ├── Measure distance PD (both eyes to center)
-│   ├── Measure near PD for bifocals/progressives
-│   └── Record on order form
-├── Measure segment height (for bifocals/progressives):
-│   ├── Patient looking straight ahead
-│   ├── Mark pupil position
-│   ├── Measure from pupil to bottom of lens frame
-│   └── Use measurement for segment placement
-└── Verify all measurements before ordering
-
-Phase 4: Ordering (5 min)
-├── Enter prescription into lab system:
-│   ├── Patient information
-│   ├── Prescription details exactly as written
-│   ├── Lens specifications (material, index, coatings)
-│   ├── Frame measurements (eye size, bridge, temple)
-│   ├── PD and seg heights
-│   └── Special instructions (prism, slab-off, etc.)
-├── Confirm with lab: verify Rx, materials, timeline
-├── Explain timeline to patient
-└── Collect payment/co-pay
-
-Phase 5: Dispensing & Fitting (15-20 min)
-├── Verify incoming lenses:
-│   ├── Lensometer check: sphere, cylinder, axis match Rx
-│   ├── Verify PD placement
-│   ├── Check for defects (scratches, bubbles, coating issues)
-│   └── Confirm seg height for multifocals
-├── Fit frame to patient:
-│   ├── Adjust nose pads for proper fit
-│   ├── Set temple length and bend
-│   ├── Ensure level alignment
-│   └── Check vertex distance (10-15mm)
-├── Verify vision:
-│   ├── Have patient confirm clarity
-│   ├── Check distance vision first
-│   ├── Check near vision for multifocals
-│   └── Adjust if needed
-├── Educate patient:
-│   ├── How to put on and remove glasses
-│   ├── Cleaning instructions
-│   ├── Adaptation period expectations
-│   └── When to return for adjustments
-└── Schedule follow-up if needed
-
-Phase 6: Follow-Up (optional)
-├── Call/email patient within 1 week
-├── Ask about adaptation
-├── Address any concerns
-├── Remind about eye exam expiration
-└── Document any remakes or adjustments
-```
-
-### 8.2 Progressive Lens Fitting Check
-
-```
-Step 1: Pre-Dispensing Verification
-├── Verify lab followed measurements exactly
-├── Check segment height on lenses matches order
-├── Use lensometer to verify optical centers marked
-└── Inspect for any defects before fitting
-
-Step 2: Frame Adjustment
-├── Position frame properly on patient
-├── Ensure level (not tilted)
-├── Adjust nose pads for comfortable fit
-├── Set temple length (rest behind ear, not pulling)
-└── Check vertex distance (10-15mm from cornea)
-
-Step 3: Verification
-├── Patient should look through distance zone for clear distance vision
-├── Check near vision through lower portion
-├── Patient should turn head, not eyes, to see intermediate
-└── If issues: verify measurements, check frame fit, adjust
-
-Step 4: Education
-├── Explain: "Look straight ahead for distance, lower eyes for near"
-├── Demonstrate: show where to look for each zone
-├── Explain adaptation: "Takes 1-2 weeks; may feel like looking through windows"
-├── Caution: "Don't walk with reading portion — use single vision readers for stairs"
-└── Schedule follow-up if adaptation issues
-```
+See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
 ## 9. Scenario Examples
 
-### Scenario 1: High Prescription Lens Selection
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**Context:** Patient with prescription -8.00 -1.00 x 180 wants thin, lightweight glasses. Currently wearing thick CR-39 lenses in a large frame.
-
-**[Optician Name]:**
-> **Lens Recommendation for High Myopia:**
->
-> | Factor | Finding |
-> |--------|---------|
-> | **Prescription** | -8.00 -1.00 x 180 |
-> | **Current lenses** | CR-39, very thick and heavy |
-> | **Patient request** | Thin and lightweight |
->
-> **Recommendations:**
->
-> | Option | Material | Index | Estimated Thickness | Pros | Cons |
-> |--------|----------|-------|---------------------|------|------|
-> | **Recommended** | High Index | 1.74 | 4-5mm | Thinnest available | Higher cost ($150+) |
-> | Alternative | High Index | 1.67 | 5-6mm | Good thinness | Moderate cost |
-> | Budget | Polycarbonate | 1.59 | 6-7mm | Impact-resistant | Thicker than hi-index |
->
-> **Frame recommendations:**
-> - Smaller frame (eye size <52mm)
-> - Full rim (hides edge thickness)
-> - Wider bridge for better weight distribution
->
-> **Patient selected:** 1.74 high index, smaller full-rim frame. Estimated cost: $380. Patient satisfied with cosmetic appearance.
-
-### Scenario 2: Progressive Lens Adaptation Issues
-
-**Context:** Patient returns 1 week after receiving new progressive lenses. Reports "the intermediate zone is blurry" and "I have to move my head too much."
-
-**[Optician Name]:**
-> **Progressive Lens Troubleshooting:**
->
-> | Complaint | Possible Cause | Solution |
-> |-----------|---------------|----------|
-> | Blurry intermediate | Seg height too low | Raise fitting; may need remake |
-> | Too much head movement | Narrow intermediate corridor | Refit; check PD alignment |
-> | Blurry near | Not using proper segment | Review how to use reading zone |
-> | Peripheral distortion | Normal adaptation | Explain adaptation takes time |
->
-> **Assessment:**
-> - Checked frame fit: slight tilt, vertex distance 18mm (too far)
-> - Measured seg height: 16mm (patient needs 19mm)
-> - Issue: Frame sliding down + incorrect seg height from lab
->
-> **Actions Taken:**
-> 1. Adjusted frame: tighter temples, moved nose pads forward
-> 2. Re-measured seg height: patient needs 19mm
-> 3. Contacted lab: will remake with correct measurements
-> 4. Explained: "The lab made the segment too low. We're getting new lenses made at the correct height."
->
-> **Outcome:** New lenses ordered at 19mm seg height. Patient scheduled for refit.
-
-### Scenario 3: Prescription Verification Error
-
-**Context:** Using lensometer to verify incoming lenses against prescription: Rx shows -2.50 sphere, but lensometer reads -2.25.
-
-**[Optician Name]:**
-> **Lens Verification — Discrepancy Found:**
->
-> | Check | Rx Value | Measured | Result |
-> |-------|----------|----------|--------|
-> | Right Eye | -2.50 | -2.50 | MATCH |
-> | **Left Eye** | **-2.50** | **-2.25** | **MISMATCH** |
->
-> **Immediate Actions:**
-> 1. **Did not dispense** — wrong prescription cannot go to patient
-> 2. **Documented** — recorded discrepancy with lensometer reading
-> 3. **Contacted lab** — reported error, requested remake
-> 4. **Apologized to patient** — explained delay due to lab error
-> 5. **Expedited remake** — new lenses in 2 days (vs. 5)
->
-> **Result:** Correct lenses received and dispensed. Patient satisfied with resolution.
->
-> **Lesson:** Always verify incoming lenses — lab errors happen. Patient safety depends on accurate dispensing.
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Not verifying PD before ordering** | 🔴 High | Off-center lenses cause prism and discomfort; always measure |
-| 2 | **Dispensing wrong prescription** | 🔴 High | Use lensometer to verify every lens before dispensing |
-| 3 | **Recommending wrong material for Rx** | 🟡 Medium | High Rx needs high-index; CR-39 will be too thick |
-| 4 | **Ignoring adaptation complaints** | 🟡 Medium | Schedule follow-up; address issues; remake if needed |
-| 5 | **Not checking frame fit before dispensing** | 🟡 Medium | Improper fit causes slippage, discomfort, or injury |
-| 6 | **Modifying Rx without doctor approval** | 🔴 High | Illegal — must dispense exactly as written |
-| 7 | **Forgetting to verify expiration** | 🟡 Medium | Expired Rx cannot be dispensed; have patient get new exam |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "I'll just estimate the PD — close enough"
-✅ PD must be exact — use pupillometer, measure twice
-
-❌ "The lab made a mistake — but the patient needs glasses now, I'll let them have it"
-✅ Wrong prescription cannot be dispensed — contact lab, provide backup
-
-❌ "Customer wants it cheaper — I'll order a lower index even though it will be thick"
-✅ Patient may accept cosmesis, but must understand options; document their choice
-```
+---
 
 ---
 

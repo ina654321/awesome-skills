@@ -179,218 +179,33 @@ knowledge of spirits, liqueurs, bitters, and the chemistry of mixology.
 
 ## 7. Standards & Reference
 
-### 7.1 Classic Cocktail Specs
+See [references/07-standards.md](references/07-standards.md)
 
-| Cocktail | Spirit | Modifier | Sour | Specs | Glass | Garnish |
-|----------|--------|----------|------|-------|--------|---------|
-| **Old Fashioned** | 2oz bourbon | 0.25oz simple | — | 2 dashes angostura | Rocks | Orange twist, cherry |
-| **Manhattan** | 2oz rye | 1oz sweet vermouth | — | 2 dashes angostura | Coupe | Brandied cherry |
-| **Martini** | 2oz gin | 0.5oz dry vermouth | — | — | Nick & Nora | Lemon twist/olive |
-| **Negroni** | 1oz gin | 1oz Campari | 1oz sweet vermouth | — | Rocks | Orange peel |
-| **Daiquiri** | 2oz white rum | 0.75oz simple | 1oz lime | — | Coupe | Lime wheel |
-| **Whiskey Sour** | 2oz bourbon | 0.75oz simple | 1oz lemon | 1 egg white optional | Rocks | Angostura dash, cherry |
-| **Margarita** | 2oz tequila | 0.75oz Cointreau | 1oz lime | — | Coupe | Salt rim, lime |
-| **Mojito** | 2oz white rum | 0.75oz simple | 1oz lime | Mint leaves | Highball | Mint sprig, lime |
-
-### 7.2 Spirit Flavor Profiles
-
-| Spirit | Notes | Best In |
-|--------|-------|---------|
-| **Bourbon** | Vanilla, caramel, oak, spice | Old Fashioned, Manhattan |
-| **Rye** | Pepper, spice, drier than bourbon | Manhattan, Sazerac |
-| **Gin** | Juniper, citrus, floral | Martini, Negroni, Gimlet |
-| **Tequila (Reposado)** | Agave, vanilla, oak | Margarita, Paloma |
-| **White Rum** | Sweet, tropical | Daiquiri, Mojito |
-| **Dark Rum** | Molasses, caramel, spice | Dark & Stormy, Mai Tai |
-| **Vodka** | Neutral, clean | Vodka Soda, Cosmopolitan |
-| **Cognac** | Grape, oak, caramel | Sidecar, French Connection |
-
-### 7.3 Drink-Menu Flow
-
-```
-MENU ARCHITECTURE:
-
-Section 1: APERITIFS & LIGHT (Start of evening)
-├── Highballs & Spritzes
-├── Wine by the glass
-└── Light cocktails (no spirit-forward)
-
-Section 2: THE CLASSICS (Core of menu)
-├── Old Fashioned, Manhattan, Martini
-├── Daiquiri, Margarita
-└── These represent mixology fundamentals
-
-Section 3: SIGNATURES (House creations)
-├── Show creativity and brand identity
-├── 2-3 rotating seasonal items
-└── Use house-made ingredients
-
-Section 4: SPIRIT FORWARD (End of evening)
-├── Sazerac, Penicillin
-├── Served in smaller glasses
-└── Stronger, more complex
-
-Section 5: NON-ALCOHOLIC (Inclusivity)
-├── Mocktails crafted with same care
-├── Shrubs, kombucha, NA spirits
-└── Same presentation as cocktails
-```
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Bar Opening Procedure
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Setup (30 min before)
-├── Check inventory: spirits, mixers, garnishes, ice
-├── Stock bar back (well bottles, speed rails)
-├── Cut garnishes (citrus wheels, twists, cherries)
-├── Set up ice wells and bins
-└── Test POS system
-
-Phase 2: Station Prep (15 min)
-├── Label all bottles with pour spouts
-├── Prep batched drinks if applicable
-├── Set up glassware (appropriate glasses for each drink)
-├── Clean and sanitize work area
-└── Run water through soda gun
-
-Phase 3: Service Ready
-├── Bartenders in position
-├── Menu reviewed and specials known
-├── Music and lighting set
-└── Welcome — ready to greet guests
-```
-
-### 8.2 Cocktail Execution
-
-```
-Step 1: Receive Order
-├── Listen: "I'll have an Old Fashioned"
-├── Confirm: "Old Fashioned, bourbon — got it"
-├── Ask preferences: "Any particular bourbon?"
-└── Prepare glass
-
-Step 2: Build
-├── Add spirit to mixing glass or tin
-├── Add modifier and sweetener
-├── Add bitters
-├── Add ice (correct type for drink)
-└── For shaken drinks: add all ingredients including sour
-
-Step 3: Mix
-├── STIR (spirit + modifier — no citrus): 30-40 rotations
-├── SHAKE (citrus or egg white): 10-15 seconds, hard
-└── STRAIN into correct glass
-
-Step 4: Garnish & Serve
-├── Add garnish (appropriate for drink)
-├── Wipe rim if needed
-├── Place napkin
-├── "Here you go — enjoy"
-└── Next guest!
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Scenario: Drink Recommendation
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "I'm not sure what I want. I like sweet drinks but not too alcoholic. What would you recommend?"
-
-**Bartender:**
-> **Finding Your Perfect Drink**
->
-> Let me ask a few questions to narrow it down:
->
-> | Question | Why It Matters |
-> |----------|----------------|
-> | "Any spirits you dislike?" | Rules out bases |
-> | "Fruit or no fruit?" | Guides toward citrus or sweeter drinks |
-> | "Want something refreshing or creamy?" | Distinguishes highball vs dessert |
->
-> **Based on sweet + not too strong, here's what I'd recommend:**
->
-> | Drink | Why | Flavor Profile |
-> |-------|-----|----------------|
-> | **Margarita** | Classic for a reason | Citrus-sweet, tequila warmth |
-> | **Moscow Mule** | Ginger and lime, very refreshing | Spicy-sour, light |
-> | **Peach Bellini** | Brunch favorite | Peach-prosecco, not strong |
-> | **French 75** | Elegant and pretty | Gin-lemon-sweet, bubbles |
->
-> I'd personally make you a **fresh Margarita** — I use a house-made sweet-and-sour mix so it's not too tart, and I add a little Cointreau for that orange note. Want to try that?
-
-### 9.2 Scenario: Creating a Signature Cocktail
-
-**User:** "We're opening a new restaurant and need a signature cocktail. Our cuisine is modern Japanese. Help us design one."
-
-**Bartender:**
-> **Signature Cocktail Development — Japanese-Inspired**
->
-> | Design Element | Ingredient Choice | Rationale |
-> |----------------|------------------|------------|
-> | Base | Sake (warm) or Japanese whisky | Authentic to cuisine |
-> | Modifier | Yuzu liqueur or umeshu (plum wine) | Japanese citrus |
-> | Bitter | Optional: absinthe rinse | Depth without overpowering |
-> | Sour | Yuzu juice or lemon | Brightness |
-> | Sweet | Honey syrup or simple | Balance |
-> | Garnish | Cherry blossom, yuzu peel | Visual Japanese aesthetic |
->
-> **Proposed Signature: "Sakura Sour"**
->
-> ```
-> INGREDIENTS:
-> ├── 2 oz Japanese whisky (or sake for lighter option)
-> ├── 0.75 oz fresh yuzu juice
-> ├── 0.5 oz honey syrup (2:1)
-> ├── 0.5 oz egg white (optional — creates silky texture)
-> └── 2 dashes sakura bitters (or orange bitters)
-> 
-> METHOD:
-> ├── Combine all ingredients in shaker with ice
-> ├── Dry shake (without ice) if using egg white
-> ├── Add ice; shake vigorously 10-15 sec
-> ├── Double-strain into coupe glass
-> └── Garnish: dried cherry blossom, yuzu twist
-> 
-> TASTING NOTES:
-> ├── Bright yuzu citrus with honey sweetness
-> ├── Japanese whisky adds complexity and warmth
-> ├── Egg white creates elegant foam head
-> └── Served in a coupe — elegant for fine dining
-> ```
->
-> **Menu placement:** Position in "Signatures" section. Price at $16-18 (premium pricing for craft cocktails).
->
-> **Prep notes:** Yuzu is seasonal — substitute yuzu liqueur when unavailable. Batch pre-portion egg white mixture for speed.
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Free-pouring without measuring** | 🔴 High | Inconsistent drinks, over-serving, lost profits. Use jiggers. |
-| 2 | **Ignoring signs of intoxication** | 🔴 High | Legal liability, harm to guest, danger to others. Cut off early. |
-| 3 | **Serving without checking ID** | 🔴 High | Legal consequences. Card everyone under 30. |
-| 4 | **Using pre-made sour mixes** | 🟡 Medium | Fresh-squeezed tastes dramatically better. Squeeze daily. |
-| 5 | **Over-garnishing** | 🟡 Medium | Beautiful is good; cluttered is wasteful. One purposeful garnish. |
-| 6 | **Wrong glassware** | 🟡 Medium | Martini in a rocks glass looks amateur. Match glass to drink. |
-| 7 | **Leaving drinks unattended** | 🔴 High | Safety risk. Don't leave bar unattended. |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ Putting Sprite in a wine glass
-✅ Use appropriate glassware for each drink — it affects the experience
-
-❌ "Whatever, just pour it" — not confirming the order
-✅ Always repeat the order back: "Martini, gin, dirty — got it"
-
-❌ Making "two at once" by doubling everything in one shaker
-✅ Build and shake each drink individually — proper dilution per drink
-```
+---
 
 ---
 

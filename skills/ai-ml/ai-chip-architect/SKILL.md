@@ -201,104 +201,25 @@ Training with large batches: AI > 5 → compute-bound
 
 ## 7. Standards & Reference
 
-### 7.1 Microarchitecture Dataflow Comparison
+See [references/07-standards.md](references/07-standards.md)
 
-| Dataflow / 数据流 | Stationary Element / 驻留元素 | Best For / 最适合 | Data Reuse
-|------------------|-------------------------------|------------------|----------------------|
-| **Weight-Stationary (WS)** | Weights in PE registers | Inference: small batch, large models (reuse weights across inputs) | Weight reuse ↑, activation traffic high |
-| **Output-Stationary (OS)** | Partial sums in PE registers | Dense GEMM with large output tiles | Reduces accumulation traffic; good for batched inference |
-| **Row-Stationary (RS)** | Row of inputs + weights | Conv2D with sliding window; flexible reuse | Optimal for convolutional layers (MIT TPU-like) |
-| **No Local Reuse (NLR)** | Nothing stationary | Fully irregular sparse compute | Maximizes hardware flexibility; low efficiency for regular ops |
-
-### 7.2 Key Benchmarks & Targets
-
-| Metric / 指标 | Formula / 公式 | Industry Target
-|--------------|--------------|--------------------------|
-| **TOPS/W (Energy Efficiency)** | Tera-ops / Total chip power | Edge NPU: >10 TOPS/W; Cloud AI: >3 TOPS/W |
-| **HBM BW Utilization** | Measured BW
-| **MAC Utilization** | Actual FLOPS
-| **Memory Capacity / Model Size** | HBM GB
-| **Roofline Ridge Point** | Peak GFLOPS / Peak GB/s | H100: ~1.18 FLOPs/byte; A100: ~0.84 FLOPs/byte |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Architecture Specification Phase
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Workload Characterization
-├── Profile target models (ResNet, BERT, LLaMA-70B, etc.) for:
-│   ├── Op breakdown: % Conv2D, % GEMM, % Attention, % Elementwise
-│   ├── Arithmetic intensity per op: FLOPS
-│   └── Batch-size sensitivity: roofline position at batch=1 vs. batch=64
-├── Identify dominant bottleneck: memory BW vs. compute throughput
-└── Deliverable: Roofline chart + Op-type distribution per model
-
-Phase 2: Architecture Decision
-├── Select dataflow (WS/OS/RS) based on dominant op type
-├── Size PE array: target MAC count = (TOPS_target × 10^12)
-├── Size SRAM hierarchy: L1 per-PE scratchpad + L2 shared buffer
-│   Rule of thumb: L2 SRAM ≥ 2× largest activation tile
-│   SRAM area at 7nm: ~0.3 MB/mm²
-├── Select HBM variant: HBM2e (460 GB/s) / HBM3 (819 GB/s) / HBM3e (1.2 TB/s)
-└── Deliverable: Architecture spec document (PPA estimates, block diagram)
-
-Phase 3: Microarchitecture Design
-├── Define ISA: vector ops (VLOAD, VMAC, VSTORE), matrix ops (MATMUL, CONV)
-├── Design pipeline: fetch → decode → execute → writeback (depth 4–8 stages)
-├── Implement memory controller: burst prefetch, bank interleaving, write-combine
-├── Integrate sparse compute unit (optional): 2:4 structured sparsity accelerator
-└── Checkpoint: RTL functional simulation with synthetic workloads
-```
-
-### 8.2 Tape-out Preparation
-
-```
-Step 1: RTL freeze → synthesis (Synopsys DC): area, power, timing closure
-Step 2: Physical design (Cadence Innovus): floorplan, P&R, DRC/LVS sign-off
-Step 3: Timing sign-off (Synopsys PrimeTime): setup/hold timing at all corners
-Step 4: Power sign-off (Ansys RedHawk): IR drop < 3% Vdd; EM within limits
-Step 5: Tapeout checklist: eCO review, mask data verification, PDK sign-off
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Scenario: Sizing the PE Array for LLaMA-70B Inference
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "We need to design a chip for LLaMA-70B inference at batch=1. Target: 30 tokens/sec, 300W TDP. How many TOPS do we need and how should we size the memory system?"
-
-**AI Chip Architect:**
-> **Step 1 — Workload Analysis (LLaMA-70B, batch=1 decode phase):**
->
-> - Parameters: 70B × 2 bytes (BF16) = 140 GB weights
-> - Per-token decode: 70B multiply-adds = 140 GFLOPS (2 FLOPS per weight)
-> - Memory traffic: all 140 GB weights must be streamed each token (no reuse at batch=1)
-> - **Arithmetic Intensity** = 140 GFLOPS / 140 GB = **1.0 FLOPs/byte** — right at the roofline ridge!
->
-> **Step 2 — Memory Bandwidth Requirement:**
->
-> - 30 tokens/sec × 140 GB/token = **4.2 TB/s minimum** required memory bandwidth
-> - Available: HBM3e = 1.2 TB/s per stack; need **4 stacks = 4.8 TB/s** (1.14× headroom)
-> - Practical (70% utilization): 4 × 1.2 × 0.7 = 3.36 TB/s → insufficient!
-> - **Recommendation**: 6× HBM3e stacks = 7.2 TB/s → effective 5.04 TB/s → 36 tokens/sec ✓
->
-> **Step 3 — Compute Requirement:**
->
-> - At the ridge point (AI ≈ 1.0), TOPS = bandwidth × AI = 5.04 TB/s × 1.0 = **5.04 PFLOPS BF16**
-> - At 300W TDP → efficiency target: 5,040 TOPS / 300W = **16.8 TOPS/W** — achievable at 5nm (NVIDIA H100: ~3.5 TOPS/W at 700W; custom AI chip at 5nm: 15–20 TOPS/W feasible)
->
-> **Step 4 — Architecture Summary:**
->
-> | Component | Specification | Rationale |
-> |-----------|--------------|-----------|
-> | PE Array | 512×512 BF16 systolic array | 5.04 PFLOPS at 3.8 GHz |
-> | Memory | 6× HBM3e stacks (6×96 GB = 576 GB) | Fits 70B model with 4× batch buffer |
-> | SRAM | 128 MB on-chip L2 | KV cache for 2K context, attention activations |
-> | Process | TSMC 5nm | 15+ TOPS/W efficiency target |
-> | TDP | 300W sustained | 10% thermal headroom from 330W burst |
+---
 
 ---
 
@@ -369,43 +290,9 @@ Step 5: Tapeout checklist: eCO review, mask data verification, PDK sign-off
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: TOPS Maximization Without Roofline Analysis
-
-```
-❌ BAD: "We added 4× more MAC units to double our TOPS. Why is inference not faster?"
-         (workload was memory-bound — compute capacity was already idle)
-
-✅ GOOD: Before adding MACs, compute: AI = FLOPS
-         If AI < ridge_point → memory-bound; increase HBM BW or improve data reuse first
-         Only add MACs when AI > ridge_point (compute-bound)
-```
-
-**Anti-Pattern 2: Designing Hardware Before Compiler
-
-```
-❌ BAD: "We built a novel ISA with 2D DMA operations, then realized TVM/MLIR can't lower to it.
-         Compiler team will figure it out."
-         → 18 months later: 15% MAC utilization on production workloads
-
-✅ GOOD: Co-design ISA with MLIR lowering passes from day 1.
-         For every new instruction: write the corresponding MLIR pattern before RTL coding.
-         Golden rule: if you can't tile + fuse + schedule it in the compiler, don't add the op.
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 3: Using Peak Specs for Planning
-
-```
-❌ BAD: Planning system capacity using 100% HBM BW utilization
-         ("We have 1 TB/s, so we can handle X tokens/sec")
-
-✅ GOOD: Derate memory BW by 30–40% for realistic planning:
-         Effective BW = spec_BW × 0.65 (random access patterns, DRAM refresh, bank conflicts)
-         H100 HBM3: 3.35 TB/s spec → 2.2 TB/s effective for irregular AI workloads
-```
+---
 
 ---
 

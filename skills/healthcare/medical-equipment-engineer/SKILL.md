@@ -183,222 +183,33 @@ Effective HTM isn't just fixing broken equipment — it's managing the entire li
 
 ## 7. Standards & Reference
 
-### 7.1 IEC 60601-1 Electrical Safety Limits (Patient Care Equipment)
+See [references/07-standards.md](references/07-standards.md)
 
-| Test Parameter | Limit | Description |
-|---------------|-------|-------------|
-| **Earth Leakage Current** | <500 μA | Current flowing through protective earth |
-| **Enclosure Leakage Current** | <100 μA (normal)
-| **Patient Leakage Current** | <100 μA (normal)
-| **Patient Auxiliary Current** | <100 μA | Current between applied parts |
-| **Dielectric Strength** | 1500 VAC for 1 min | Insulation breakdown test |
-
-**SFC = Single Fault Condition** — tests with one safety mechanism failed
-
-### 7.2 Equipment Risk Classification (AAMI/ISO 14971)
-
-| Risk Level | Definition | Examples |
-|------------|-----------|----------|
-| **Class I** | Low risk | Surgical bandages, stethoscopes |
-| **Class II** | Moderate-high risk | Infusion pumps, patient monitors |
-| **Class III** | High risk | Implantable pacemakers, heart valves |
-
-### 7.3 PM Intervals by Equipment Type (Typical)
-
-| Equipment Category | PM Frequency | Key Tests |
-|-------------------|--------------|-----------|
-| **Infusion Pumps** | Monthly | Occlusion alarm, free-flow protection, volume accuracy |
-| **Patient Monitors** | Monthly | Alarm verification, ECG accuracy, SpO2 accuracy, NIBP |
-| **Ventilators** | Monthly + yearly | PEEP, tidal volume, pressure limits, alarm verification |
-| **Defibrillators** | Monthly + after use | Energy delivery, sync mode, charging time |
-| **Diagnostic Imaging** | Per OEM (quarterly/yearly) | Image quality, safety interlocks, radiation output |
-| **Laboratory Analyzers** | Weekly/monthly | Calibration verification, QC, cleaning |
-| **Surgical Equipment** | After each use + PM | Function testing, safety checks |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Preventive Maintenance Procedure
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Preparation (15 min)
-├── Review equipment service manual and PM checklist
-├── Gather required tools, test equipment, replacement parts
-├── Verify equipment is clean and ready for service
-├── Power down if required; disconnect from patient
-└── Document equipment ID, model, serial number, location
-
-Phase 2: Visual Inspection
-├── Check for physical damage: cracks, loose components, worn cables
-├── Verify all labels intact: manufacturer, model, serial, safety labels
-├── Inspect power cord: no cuts, exposed wires, proper grounding
-├── Check applied parts: cables intact, connectors undamaged
-└── Note any issues for repair
-
-Phase 3: Electrical Safety Testing (IEC 60601-1)
-├── Connect ESA to equipment earth (if applicable)
-├── Measure Earth Leakage Current: must be <500 μA
-├── Measure Enclosure Leakage Current: must be <100 μA
-├── Measure Patient Leakage Current: must be <100 μA
-├── Test protective earth resistance: <0.2Ω
-└── Record all measurements on PM form
-
-Phase 4: Functional Testing
-├── Power on equipment; verify self-test passes
-├── Test all alarm functions (high/low limits, technical alarms)
-├── Verify displays: brightness, readability, no dead pixels
-├── Test applied parts: sensors, probes, accessories
-├── Run performance verification: use patient simulator if applicable
-└── Document all test results
-
-Phase 5: Completion
-├── Update equipment service record in CMMS
-├── Apply PM sticker with next service date
-├── Return equipment to clinical area
-├── Notify charge nurse of equipment return
-└── Document time spent and any additional findings
-```
-
-### 8.2 Corrective Repair Workflow
-
-```
-Step 1: Service Call Receipt
-├── Obtain complaint from user: what stopped working, error codes, when started
-├── Check equipment history in CMMS: last PM, recent issues, service notes
-└── Gather service manual, schematics, troubleshooting guide
-
-Step 2: Troubleshooting
-├── Perform visual inspection for obvious failures (burned components, loose cables)
-├── Power on; observe error codes or self-test failures
-├── Use diagnostic mode if available
-├── Isolate problem to subsystem: power, control board, applied part, network
-└── Check for firmware updates that may address the issue
-
-Step 3: Repair
-├── Obtain correct replacement parts (OEM recommended)
-├── Power down; follow lockout/tagout procedures
-├── Replace defective component; verify proper installation
-├── Update firmware if applicable
-├── Reassemble equipment; verify all connections secure
-
-Step 4: Testing
-├── Perform electrical safety testing before functional tests
-├── Run complete functional test per service manual
-├── Test all alarm conditions
-├── Verify with patient simulator if applicable
-└── Ensure equipment operates within specifications
-
-Step 5: Return to Service
-├── Document repair: symptoms, cause, action taken, parts used
-├── Update CMMS with work order completion
-├── Apply service sticker
-├── Return to clinical area; brief user on any limitations
-└── Close work order
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### Scenario 1: Infusion Pump PM Failure
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**Context:** During monthly PM on an Alaris infusion pump, the downstream occlusion alarm fails to trigger at the required pressure (8-12 psi). The pump delivers 312 mL instead of stopping at the expected 50 mL.
-
-**[Biomedical Engineer Name]:**
-> **PM Failure — Equipment Out of Service:**
->
-> | Finding | Assessment |
-> |---------|------------|
-> | **Test** | Downstream occlusion alarm |
-> | **Expected** | Alarm at 8-12 psi; no more than 50 mL infused |
-> | **Actual** | Alarm at 18 psi; 312 mL infused |
-> | **Risk** | High — patient could receive significant overdose |
-> | **Status** | FAILED — DO NOT RETURN TO SERVICE |
->
-> **Actions Taken:**
-> 1. **Tagged out of service** — "DO NOT USE" label applied
-> 2. **Documented failure** — detailed PM form with test results
-> 3. **Troubleshoot** — tested motor assembly, pressure sensor, control board
-> 4. **Root cause** — pressure sensor drift; requires replacement
-> 5. **Ordered part** — OEM pressure sensor assembly (PN: 1223-0004)
-> 6. **Scheduled repair** — follow-up work order created
-> 7. **Reported to supervisor** — safety-critical failure escalated
->
-> **Equipment will return to service only after repair and passing PM.**
-
-### Scenario 2: Electrical Safety Test Failure
-
-**Context:** Annual electrical safety testing on a bedside patient monitor shows enclosure leakage current of 285 μA — exceeding the 100 μA limit for normal condition.
-
-**[Biomedical Engineer Name]:**
-> **Electrical Safety Failure — Immediate Action Required:**
->
-> | Test | Limit | Measured | Result |
-> |------|-------|----------|--------|
-> | Earth Leakage | <500 μA | 180 μA | PASS |
-> | **Enclosure Leakage** | **<100 μA** | **285 μA** | **FAIL** |
-> | Patient Leakage | <100 μA | 45 μA | PASS |
->
-> **Immediate Actions:**
-> 1. **Removed from clinical service** — tagged "Electrical Safety Failed"
-> 2. **Investigated cause** — opened enclosure, inspected power supply
-> 3. **Found** — degraded insulation on power supply EMI filter
-> 4. **Repair** — replaced power supply module (cost: $850)
-> 5. **Retest** — passed all IEC 60601-1 tests after repair
-> 6. **Returned to service** — PM completed, sticker applied
->
-> **Root cause:** Age-related degradation of insulation. This is a known failure mode for monitors >8 years old.
-
-### Scenario 3: New Equipment Acceptance Testing
-
-**Context:** New Philips IntelliVue MP70 patient monitors are being installed in the ICU. You are responsible for acceptance testing before clinical use.
-
-**[Biomedical Engineer Name]:**
-> **Acceptance Testing Protocol:**
->
-> | Test | Specification | Test Method | Result |
-> |------|---------------|-------------|--------|
-> | Visual Inspection | No damage | Physical inspection | PASS |
-> | Power-on Self-test | No errors | Power on | PASS |
-> | ECG Accuracy | ±2% or ±2 bpm | Patient simulator | PASS |
-> | SpO2 Accuracy | ±2% (70-100%) | Patient simulator | PASS |
-> | NIBP Accuracy | ±5 mmHg | Cuff test | PASS |
-> | Alarm Limits | All functional | Trigger alarms | PASS |
-> | Network Connectivity | EMR interface | Test HL7 | PASS |
-> | Electrical Safety | IEC 60601-1 | ESA test | PASS |
->
-> **Acceptance Decision:**
-> - All tests passed — equipment APPROVED for clinical use
-> - Staff training completed (8 nurses)
-> - Added to PM schedule (monthly)
-> - CMMS inventory updated: 12 monitors, location ICU
-> - Service contract: 3-year comprehensive, $24K/year
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Returning equipment without electrical safety test** | 🔴 High | Always test electrical safety before returning to service |
-| 2 | **Skipping PM intervals "because equipment works fine"** | 🔴 High | PM prevents failures; skipping increases risk and liability |
-| 3 | **Using non-OEM parts to save money** | 🟡 Medium | Non-OEM parts may not meet specifications; document if used |
-| 4 | **Incomplete documentation of service actions** | 🔴 High | If not documented, it didn't happen — liability risk |
-| 5 | **Bypassing safety interlocks to "fix faster"** | 🔴 High | Safety interlocks exist for patient/staff safety — never bypass |
-| 6 | **Not checking warranty before repairing** | 🟡 Medium | Unauthorized repair voids warranty; check first |
-| 7 | **Failing to report safety incidents** | 🔴 High | FDA MDR required for serious injury/death; report promptly |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "Equipment seems fine — I'll skip the safety test and get it back faster"
-✅ Electrical safety testing is mandatory — patient safety depends on it
-
-❌ "I'll use this generic battery — it's much cheaper than OEM"
-✅ Non-OEM parts may have different specifications — document and get approval
-
-❌ "The user probably just doesn't know how to use it — I'll just recalibrate and return it"
-✅ Listen to user complaints — equipment may have real issues requiring repair
-```
+---
 
 ---
 

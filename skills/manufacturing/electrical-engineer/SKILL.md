@@ -156,96 +156,25 @@ This skill delivers expert-level guidance across industrial electrical design:
 
 ## § 7 Standards & Reference
 
-**Frameworks:**
-- **NEC (NFPA 70)** — US National Electrical Code (wiring, protection, hazardous areas)
-- **IEC 60204-1** — Machine safety (electrical equipment)
-- **IEC 61439** — Switchgear assemblies
-- **IEC 62061
+See [references/07-standards.md](references/07-standards.md)
 
-| Metric | Formula | Target Range |
-|--------|---------|--------------|
-| Wire Ampacity | Based on NEC Table 310.16 | ≤ 80% of rated for continuous loads |
-| Voltage Drop | VD = 2 × I × L × Z
-| Short-Circuit Rating | AIC ≥ Available SCC | Use infinite bus calculation |
-| Power Factor | PF = P
-| THD (Current) | √(Σh² I_h)
-| Coordination Selectivity | Breaker 2 clears < 75% of upstream trip time | Primary/secondary coordination < 1 |
-| Safety Circuit Reliability | PFHd = MTTF/(MTTF+MDT) | SIL 2: < 10⁻⁶ /hr, SIL 3: < 10⁻⁷ /hr |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1 — Requirements & Load Analysis
-- Gather process requirements, motor lists, and equipment specifications
-- Calculate connected load, demand load, and diversity factors per NEC Article 220
-- Size service entrance and distribution equipment
-- [✓ Done]: Load summary complete, voltage selected, preliminary one-line diagram
-- [✗ FAIL]: Missing load data, voltage ambiguous, demand calculation incomplete
+See [references/08-workflow.md](references/08-workflow.md)
 
-### Phase 2 — System Design
-- Create single-line diagram (SLD) with all switchgear, transformers, panels
-- Specify wire sizes, conduit fill, and cable schedules
-- Design motor control architecture (MCC, VFD, soft-starters)
-- [✓ Done]: SLD approved, wiring methods selected, equipment specified
-- [✗ FAIL]: Uncoordinated protection, undersized conductors, missing hazardous area design
-
-### Phase 3 — Protection & Safety Design
-- Perform short-circuit study (ETAP or equivalent); verify AIC ratings
-- Select protective device settings for selectivity
-- Design safety circuits per SIL/PLr requirements; specify safety components
-- [✓ Done]: Coordination plot achieved, safety circuit validated with SISTEMA
-- [✗ FAIL]: Uncoordinated devices, safety circuit not validated, missing ground fault protection
-
-### Phase 4 — Documentation & Compliance
-- Create panel schedules, wiring diagrams, and as-built drawings
-- Compile NEC/IEC code references for inspection
-- Prepare commissioning checklists and start-up procedures
-- [✓ Done]: All drawings complete, code references cited, commissioning plan approved
-- [✗ FAIL]: Missing documentation, unresolved code issues, incomplete commissioning plan
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1 — Motor Starter Coordination
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** I need to specify a 50HP motor (460V, 3-phase, 65A FLA) with a VFD. What are the wire and protection requirements per NEC?
-
-**Expert:** For a 50HP motor at 460V, here are the NEC requirements:
-
-**Wire Sizing (NEC 430.122):**
-```
-Motor FLA: 65A
-Wire Ampacity: 65A × 1.25 = 81.25A → Use #3 AWG THHN (90°C = 85A minimum)
-```
-
-**Overload Protection (NEC 430.32):**
-```
-Motor overload: 125% of FLA = 65A × 1.25 = 81.25A → Use 80A overload heater
-```
-
-**Short-Circuit Protection (NEC 430.52):**
-```
-Max breaker: 250% of FLA = 65A × 2.5 = 162.5A → Use 150A inverse-time breaker
-Min breaker: 150% of FLA = 65A × 1.5 = 97.5A → Must be ≥ 100A
-```
-
-**VFD Input Wiring:**
-```
-VFD FLA = 65A × 1.25 = 81.25A → Use same #3 AWG to VFD
-VFD output: Use shielded motor cable (VFD-rated for EMI)
-```
-
-| Component | Specification |
-|-----------|---------------|
-| Wire | #3 AWG THHN, 90°C |
-| Breaker | 150A, 480V, 25kAIC |
-| Contactor | 100A, 3-pole, AC-3 |
-| Overload | 80A, adjustable |
-| VFD | 50HP, 480V, EMC filter |
-
-[CODE VIOLATION] Do not use #4 AWG — wire ampacity (85A) < 150% FLA (98A) violates NEC 430.52.
+---
 
 ---
 
@@ -329,24 +258,9 @@ Using NFPA 70E Table 130.5(C):
 
 ## § 10 Common Pitfalls
 
-### Anti-Pattern 1 — Oversizing Breakers to Avoid Nuisance Trips
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:**
-```
-// 100A breaker protecting #12 AWG (20A) wire
-// Breaker never trips on 18A motor overload
-// Wire overheats → insulation degradation → fire
-```
-
-✅ **GOOD:**
-```
-// Select breaker per NEC 430.52: 150-250% of FLA
-// For 65A FLA motor: 100A-162A breaker (use 150A)
-// Use adjustable thermal-magnetic breaker
-// Add motor overload protection (separate heater)
-```
-
-**Why it matters:** Wire ampacity is the maximum current the insulation can handle. Oversized protection defeats the safety margin — fire risk increases before breaker trips.
+---
 
 ---
 

@@ -191,157 +191,25 @@ The NPC is the heartbeat of the room — pacing, guiding, and making the experie
 
 ## 7. Standards & Reference
 
-### 7.1 Escape Room Themes & NPC Approaches
+See [references/07-standards.md](references/07-standards.md)
 
-| Theme | Intensity | NPC Role | Key Skills |
-|-----------------|----------------------|-------------------|------------------------|
-| **Horror** | High | Antagonist, creature, victim | Jump scares, terror, controlled fear |
-| **Adventure** | Medium-High | Guide, ally, mentor | Encouragement, direction, energy |
-| **Mystery** | Medium | Detective, witness, suspect | Information withholding, drama, intrigue |
-| **Fantasy** | Medium | Wizard, creature, guide | Wonder, magic, character commitment |
-| **Comedy** | Low-Medium | Clown, eccentric, guide | Timing, improv, lighthearted fun |
-
-### 7.2 Puzzle Facilitation Guidelines
-
-| Player State | Hint Timing | Hint Type |
-|----------------------|-------------------|-------------------|
-| **Struggling (5+ min on puzzle)** | Gentle nudge | "Have you tried looking at..." |
-| **Very stuck (10+ min)** | Clear hint | "That symbol might mean..." |
-| **About to solve** | Let them solve | Don't interrupt flow |
-| **Already solved** | Acknowledge | "Well done, that was the key" |
-
-### 7.3 Horror Intensity Calibration
-
-| Player Type | Appropriate Intensity | Scare Type |
-|-------------------|---------------------|-------------------|
-| **Horror enthusiasts** | High | Jump scares, sustained tension |
-| **Moderate players** | Medium | Occasional scares, atmosphere |
-| **Beginners/casual** | Low-Medium | Psychological tension, minimal jumps |
-| **Children (with adult)** | Low | Adventure, mild suspense |
-| **Anyone showing distress** | Stop | Check in immediately |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Pre-Session Preparation
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Character Prep (30-60 mins before)
-├── Review character script: backstory, motivations, key beats
-├── Vocal warm-up: projection, character voice, accents
-├── Physical warm-up: movement, posture, energy
-├── Check props and costume: complete, functional, safe
-└── [✓ Done]: In character, ready to perform
-
-Phase 2: Room Prep (15-30 mins before)
-├── Check room condition: all puzzles functional, safety clear
-├── Test technical: lighting, sound, communication
-├── Review player profile: experience level, any special requirements
-├── Coordinate with control room: timing, signals, contingencies
-└── [✓ Done]: Room ready, team aligned
-
-Phase 3: Player Welcome
-├── Brief safety intro: rules, emergency exit, opt-out signal
-├── Set scene: opening narration or character introduction
-├── Establish tone: atmosphere, energy, expectations
-└── [✓ Done]: Players immersed, session begins
-```
-
-### 8.2 In-Room Performance Protocol
-
-```
-Step 1: Read the room
-  → Observe player energy, dynamics, comfort levels
-  → Note who is scared, confident, leading, following
-  → Adjust approach based on observations
-
-Step 2: Deliver character beats
-  → Hit key scripted moments at appropriate times
-  → React to player progress: advance story accordingly
-  → Create dramatic tension and release
-
-Step 3: Facilitate puzzles
-  → Watch for stuck moments
-  → Provide progressive hints when needed
-  → Celebrate breakthroughs
-
-Step 4: Monitor safety
-  → Constant awareness of player distress signals
-  → Ready to de-escalate or stop if needed
-  → Coordinate with control room if concerns
-```
-
-### 8.3 Post-Session Protocol
-
-```
-Step 1: Scene conclusion
-  → Deliver final character beat or resolution
-  → Allow players to process experience
-  → Signal session end
-
-Step 2: Player check-in
-  → Ask how they enjoyed it
-  → Watch for anyone needing decompression
-  → Offer water, space if needed
-
-Step 3: Documentation
-  → Note any incidents, player concerns, room issues
-  → Report technical problems
-  → Pass relevant info to next shift
-
-Step 4: Reset
-  → Return to "neutral" persona
-  → Prepare for next group
-  → Brief on any adjustments
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Horror Room: Managing a Scared Player
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "有个玩家明显很害怕，我应该继续吓她吗？"
-
-**Escape Room NPC:**
-> **恐惧管理流程**
->
-> **Step 1: 区分真实恐惧和表演恐惧**
-> ```
-> 真实恐惧信号：
-> - 身体僵硬、颤抖
-> - 呼吸急促、无法说话
-> - 退缩到角落、想离开
-> - 真正尖叫（不是兴奋那种）
-> 
-> 表演恐惧信号：
-> - 大笑、兴奋
-> - "哇！再来！"
-> - 仍然积极参与
-> - 表情是兴奋不是恐惧
-> ```
->
-> **Step 2: 真实恐惧 = 立即停止**
-> ```
-> [温和地，私下接近]
-> "hey，你还好吗？
-> 如果太害怕，我们可以调低强度。
-> 或者如果你想出去，完全没问题。"
-> ```
-> - 选项1：降低强度（减少惊吓，减少跟随）
-> - 选项2：完全停止（带到安全区域，陪伴）
-> - 永远不嘲笑或强迫
->
-> **Step 3: 表演恐惧 = 继续**
-> - 玩家享受被吓的感觉
-> - 保持恐怖元素，但确保安全
-> - 可以稍微增加强度（他们想要）
->
-> **记住:**
-> - 玩家的安全感 > 恐怖效果
-> - 第一次警告后永远停止争论
-> - 宁可少吓，不要过度
+---
 
 ---
 
@@ -489,26 +357,9 @@ Step 4: Reset
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Ignoring distress signals** | 🔴 High | Always check in; player safety > performance |
-| 2 | **Breaking character for convenience** | 🔴 High | Stay in character unless safety requires |
-| 3 | **Giving away solutions** | 🔴 High | Use progressive hints; let them earn it |
-| 4 | **Over-scaring beyond limits** | 🔴 High | Read players; calibrate intensity |
-| 5 | **Script rigidness** | 🟡 Medium | Adapt to players; script is guide, not gospel |
-| 6 | **Ignoring shy players** | 🟡 Medium | Bring everyone into the experience |
-| 7 | **Rushing the experience** | 🟡 Medium | Let them enjoy; don't push through |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ [BAD]: Continue scaring player clearly in panic
-✅ [GOOD]: Check in, offer to reduce intensity or exit
-
-❌ [BAD]: "The code is 4739, hurry up"
-✅ [GOOD]: "Have you counted the candles? Each one might mean something..."
-
-❌ [BAD]: Only interact with the loudest player
-✅ [GOOD]: Include everyone; direct questions to quiet players
-```
+---
 
 ---
 

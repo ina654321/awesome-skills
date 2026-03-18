@@ -187,217 +187,33 @@ Regulatory strategy must begin with the end in mind — the Target Product Profi
 
 ## 7. Standards & Reference
 
-### 7.1 Regulatory Submission Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework / 框架 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **CTD (Common Technical Document)** | All pharmaceutical submissions globally | 1. Module 2 (Quality/Nonclinical/Clinical Summaries) → 2. Module 3 (Quality) → 3. Module 4 (Nonclinical) → 4. Module 5 (Clinical) → 5. Module 1 (Administrative) |
-| **eCTD** | Electronic submission to FDA, EMA, PMDA | 1. PDF conversion → 2. XML backbone → 3. Bookmarks/hyperlinks → 4. Validation → 5. Submission |
-| **IND (Investigational New Drug)** | First-in-human and Phase 1-3 trials | 1. Pre-IND meeting → 2. Compile IND dossier → 3. FDA review (30 days) → 4. Study initiation |
-| **NDA (New Drug Application)** | Full approval submission | 1. Pre-NDA meeting → 2. Compile NDA → 3. FDA review (10 months) → 4. Approval |
-
-### 7.2 Regulatory Metrics
-
-| Metric
-|--------------|-----------|------------|-------------|
-| **IND Review** | 30 calendar days | CTA: 60 days | IND: 60 working days |
-| **NDA Review** | 10 months (Standard), 6 months (Priority) | 210 days (Standard) | 200 days (Technical review) |
-| **Priority Review** | 6 months with qualifying criteria | PRIME: Accelerated assessment | Priority review: 120 days |
-| **Fast Track** | Designation within 60 days | PRIME: At time of MAA | Breakthrough therapy: Rolling review |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 NDA Submission
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Strategy & Planning (Month 1-3)
-├── Define Target Product Profile (TPP)
-├── Assess regulatory pathway (Standard vs. Accelerated)
-├── Identify potential issues and mitigation strategies
-└── [✓ Done]: Regulatory strategy document approved by leadership
-    [✗ FAIL]: Unclear TPP → DO NOT proceed to dossier preparation
-
-Phase 2: Dossier Preparation (Month 4-10)
-├── Module 3: Complete CMC data package
-├── Module 4: Complete nonclinical studies
-├── Module 5: Complete clinical trial reports
-├── Module 2: Write Summaries (Quality, Nonclinical, Clinical)
-└── [✓ Done]: All modules complete with QC
-    [✗ FAIL]: Missing data → Determine impact; may require timeline adjustment
-
-Phase 3: eCTD Publishing & Submission (Month 11)
-├── Convert to eCTD format with validated software
-├── Technical validation (no errors, all lifecycle links)
-├── Submit to FDA via ESG
-└── [✓ Done]: Submission accepted by FDA
-    [✗ FAIL]: Validation errors → Fix and resubmit within same cycle
-```
-
-### 8.2 Pre-IND Meeting Request
-
-```
-Step 1: Prepare Briefing Document
-  → State clear questions for FDA (maximum 10-12)
-  → Provide relevant background (product description, development plan)
-  → Request specific feedback on questions
-
-Step 2: Submit Meeting Request
-  → FDA Form 3397 (Meeting Request)
-  → Submit 60 days before desired meeting date
-  → Include draft briefing document
-
-Step 3: Meeting Type Selection
-  → Type A: Within 30 days (critical path issues)
-  → Type B: Within 60 days (pre-IND, end-of-Phase 2)
-  → Type C: Within 70 days (general guidance)
-
-Step 4: Prepare for Meeting
-  → Internal preparation meeting to anticipate FDA responses
-  → Develop contingency positions
-  → Prepare back-up slides for discussion
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 IND Submission Strategy
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "We're developing a novel oncology drug. What regulatory strategy should we use for the US market?"
-
-**Drug Registration Specialist:**
-> **US Regulatory Strategy for Novel Oncology Drug**
->
-> **Step 1: Assess Qualifying Criteria**
-> | Pathway | Qualification | Timeline Benefit |
-> |---------|--------------|-----------------|
-> | Fast Track | Serious condition, potential to address unmet need | More frequent FDA interaction |
-> | Breakthrough Therapy | Substantial improvement over existing therapy | Intensive guidance, rolling review |
-> | Orphan Drug | Affects <200,000 US patients | 7 years market exclusivity |
->
-> **Step 2: Recommended Strategy**
-> 
-> **Pre-IND Meeting (Critical):**
-> - Request Type B meeting after completing IND-enabling studies
-> - Questions to address:
->   1. Proposed starting dose for Phase 1
->   2. Dose escalation design
->   3. Patient population for Phase 1 (all-comers vs. biomarker-selected)
->   4. Safety monitoring plan adequacy
->
-> **IND Package:**
-> - Module 2.1: Overview of pharmaceutical development
-> - Module 2.4: Nonclinical overview (pharmacology, toxicology)
-> - Module 2.5: Clinical overview (development plan)
-> - Module 3: CMC (current specifications, manufacturing)
-> - Module 5: Phase 1 protocol and IB
->
-> **Recommended Pathway:**
-> 1. File Fast Track designation request with IND
-> 2. Target Accelerated Approval pathway based on surrogate endpoint
-> 3. Plan for confirmatory Phase 3 post-approval
->
-> **Next I need from you:**
-> 1. What is your target indication? (e.g., NSCLC 2nd line)
-> 2. What is your mechanism of action? (target, modality)
-> 3. Do you have any competitive products in development?
-
-### 9.2 Response to FDA Complete Response Letter
-
-**User:** "Our NDA received a Complete Response Letter asking for an additional clinical trial. What are our options?"
-
-**Drug Registration Specialist:**
-> **CRL Response Strategy**
->
-> **Step 1: Analyze FDA Feedback**
-> | Issue Category | Typical FDA Concern | Response Strategy |
-> |----------------|---------------------|------------------|
-> | Clinical | Additional efficacy data needed | Request meeting to discuss alternative endpoints |
-> | CMC | Process validation inadequate | Provide additional validation data |
-> | Labeling | Warnings/precautions insufficient | Propose labeling language with supporting data |
-> | Safety | New safety signal identified | Risk assessment update, REMS if needed |
->
-> **Step 2: Evaluate Options**
-> 
-> **Option A: Conduct Requested Trial**
-> - Pros: Direct path to approval
-> - Cons: 12-24 months delay, significant cost
-> - Timeline: File sNDA after trial completion
->
-> **Option B: Request Meeting to Discuss Alternative**
-> - Pros: May avoid lengthy trial
-> - Cons: FDA may still require trial
-> - Action: Request Type A meeting within 30 days
->
-> **Option C: Appeal to CDER Director**
-> - Pros: Second review of decision
-> - Cons: Rarely successful, takes time
-> - Action: File formal dispute resolution
->
-> **Step 3: Decision Framework**
-> ```markdown
-> - Is the requested trial feasible within budget/timeline?
-> - Is there existing data that could address FDA concerns?
-> - What is the competitive landscape during delay?
-> - What is the commercial impact of 18-month delay?
-> ```
->
-> **Recommendation:** Request meeting with FDA to discuss specific feedback and explore alternatives. Often FDA will clarify exactly what is needed, which may be less than the original CRL suggests.
->
-> **Next I need from you:**
-> 1. What specific deficiency did FDA cite? (clinical, CMC, safety, labeling?)
-> 2. What is your current competitive landscape?
-> 3. What is your timeline/cost tolerance for additional work?
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Starting Dossier Prep Before Strategy
-
-```markdown
-❌ BAD: Team starts writing CTD modules without clear regulatory strategy
-→ Rework when strategy changes; wasted resources; timeline delays
-
-✅ GOOD: Finalize Target Product Profile and regulatory pathway FIRST; 
-document strategy in Regulatory Execution Plan; align all functions on requirements
-```
-
-**Anti-Pattern 2: Skipping Pre-IND Meeting
-
-```markdown
-❌ BAD: File IND without pre-IND meeting for novel mechanism
-→ Unknown FDA expectations; potential clinical hold; expensive delays
-
-✅ GOOD: Request Type B pre-IND meeting 4-6 months before planned IND submission;
-prepare thorough briefing document; ask specific questions
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 3: Underestimating eCTD Complexity
-
-```markdown
-❌ BAD: Convert Word to PDF and submit; multiple validation failures
-→ Submission rejected; 2-4 week delay; credibility damage
-
-✅ GOOD: Use validated eCTD publishing software; run internal validation;
-test with sample submission before actual submission
-```
-
-**Anti-Pattern 4: Single Regulatory Path
-
-```markdown
-❌ BAD: Only plan for US submission; miss global timing
-→ Missed commercial opportunities; duplicative work later
-
-✅ GOOD: Develop global regulatory strategy early; leverage FDA data for EMA/NMPA;
-plan simultaneous submissions when possible
-```
+---
 
 ---
 

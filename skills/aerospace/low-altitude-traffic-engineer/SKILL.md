@@ -176,140 +176,25 @@ This skill transforms your AI assistant into an expert **Low Altitude Traffic En
 
 ## § 7 Standards & Reference
 
-### Regulatory Hierarchy
-```
-ICAO GUAS Framework (global)
-    ↓
-FAA UTM ConOps v2.0 (USA)          EASA U-Space Reg EU 2021/664-666 (EU)
-    ↓                                       ↓
-ASTM UTM Standards (F3548, F3411)    EASA AMC/GM for U-Space Services
-    ↓                                       ↓
-FAA Part 107/108 (operations)        National U-Space Competent Authority rules
-```
+See [references/07-standards.md](references/07-standards.md)
 
-### Key Performance Metrics
-| Metric | Target | Warning | Critical |
-|--------|--------|---------|---------|
-| Strategic CD&R latency | < 3 sec for flight plan approval | 3-10 sec | > 10 sec |
-| Tactical CD&R latency | < 500 ms per conflict check | 500ms-1s | > 1s |
-| System availability (SLA) | 99.9% (8.7 hr/yr downtime max) | 99.5% | < 99% |
-| Telemetry update rate | 1 Hz minimum, 5 Hz recommended | 0.5 Hz | < 0.2 Hz |
-| Remote ID broadcast latency | < 1 sec (ASTM F3411 requirement) | 1-3 sec | > 3 sec |
-| Geofence notification latency | < 5 sec before violation | 5-10 sec | > 10 sec |
-| Separation standard (urban) | 50m horizontal / 25m vertical | 30m/15m | < 30m/15m |
-
-### Decision Tree: Strategic Deconfliction
-```
-Flight Plan Submitted?
-├─ NO → Request flight plan (reject if BVLOS without plan)
-└─ YES → Within authorized airspace?
-    ├─ NO → Reject + suggest alternative time/route
-    └─ YES → Conflict with existing reservations?
-        ├─ YES → Offer alternatives (time shift ±15min, altitude FL change)
-        │   └─ Alternative accepted? → Issue modified authorization
-        │   └─ No alternative → Reject with explanation
-        └─ NO → Meets operator credentials for operation type?
-            ├─ NO → Reject with certification requirement
-            └─ YES → Issue authorization token with 4D trajectory
-```
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Airspace Assessment & Requirements
-```
-1.1 Airspace Classification Mapping
-  - [ ] Map operational area to airspace classes (A/B/C/D/E/G)
-  - [ ] Identify LOA (Letter of Agreement) requirements with controlling ANSP
-  - [ ] Document population density and critical infrastructure density
-  - [✓ Done] Output: Airspace Integration Plan (AIP) approved by ANSP
-  - [✗ FAIL] If ANSP refuses LOA → Escalate to regulatory working group or modify operational area
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Traffic Demand Modeling
-  - [ ] Estimate peak simultaneous operations (PSO) per km² at 5-year horizon
-  - [ ] Define peak/off-peak traffic patterns (time-of-day, seasonal)
-  - [ ] Calculate required separation maintenance rate (target: 99.99%)
-  - [✓ Done] Output: Traffic Demand Model with capacity requirements
-  - [✗ FAIL] If PSO > 500/km² → Escalate to advanced UTM architecture (sector-based)
-```
-
-### Phase 2: UTM System Architecture Design
-```
-2.1 USS/FIMS Architecture
-  - [ ] Define USS roles (Flight Planning, Geo-Awareness, Traffic Info, Weather)
-  - [ ] Design DSS federation topology (single DSS vs. federated multi-region)
-  - [ ] Specify API interfaces (ASTM F3548 compliant REST/WebSocket)
-  - [ ] Define data residency and sovereignty requirements (critical for EU)
-  - [✓ Done] Output: UTM Architecture Document with API specification
-  - [✗ FAIL] If DSS synchronization latency > 100ms → Redesign topology or reduce federation scope
-
-2.2 Conflict Detection Algorithm Selection
-  - [ ] Choose strategic CD: Volume reservation (FCFS) vs. Priority-based vs. Market-based
-  - [ ] Choose tactical CD: Geometric (cylinder intersection) vs. RRT* vs. Velocity Obstacle
-  - [ ] Characterize O(n) complexity at target traffic density
-  - [ ] Define false alarm rate (FAR) and missed detection rate (MDR) requirements
-  - [✓ Done] Output: CD&R Algorithm Specification with performance bounds
-  - [✗ FAIL] If latency > 500ms at target density → Spatial indexing (R-tree, KD-tree) required
-```
-
-### Phase 3: Integration, Testing & Certification
-```
-3.1 ANSP Integration
-  - [ ] Implement SWIM (System Wide Information Management) interface for ATC data
-  - [ ] Define conflict of interest protocol (manned vs. unmanned priority)
-  - [ ] Test emergency procedures (VFR emergency squawk, lost comm protocols)
-  - [✓ Done] Output: Signed LOA with controlling ANSP + joint SOP
-  - [✗ FAIL] If ATC rejects integration → Escalate to national aviation authority
-
-3.2 Regulatory Certification
-  - [ ] Complete UTM ConOps document per ICAO GUAS template
-  - [ ] Submit USS certification package to competent authority (FAA/EASA)
-  - [ ] Pass UTM interoperability test (ASTM F3548 conformance test suite)
-  - [✓ Done] Output: Certified USS with regulatory approval letter
-  - [✗ FAIL] If conformance test fails → Log failure, triage algorithm or interface bug
-
-3.3 Operational Readiness
-  - [ ] Load test UTM at 2× expected peak traffic (chaos engineering)
-  - [ ] Validate all contingency procedures with tabletop exercise
-  - [ ] Train operator community on flight planning interface
-  - [✓ Done] Output: Go-live approval with monitoring dashboard active
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Urban Drone Delivery Corridor Design
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: We need to design a UTM system for a city-wide drone delivery network with 500 simultaneous deliveries during peak hours. The city has a mix of Class D airspace (around a regional airport) and Class G (elsewhere). How do we structure the UTM?
-
-**Expert**:
-> **Regulatory Gate Check**: Class D airspace requires ATC coordination with a LOA; Class G operations under 400 AGL with Remote ID can proceed under Part 107/108. You'll need a bilateral LOA with the airport tower to define lateral/vertical buffers — typically 3nm lateral and altitude layer separation (delivery drones operate 200-400 AGL; GA traffic 700+ AGL).
->
-> **Architecture Recommendation for 500 simultaneous ops**:
->
-> **Tier 1 — Airspace Segmentation** (solve the density problem first):
-> ```
-> Urban Core (high density):   Cell size 500m × 500m × 100m altitude bands
-> Suburban Transition:         Cell size 1km × 1km × 150m altitude bands
-> Class D Buffer Zone:         Sterile corridor, no UTM autonomous ops; ATC-coordinated only
-> ```
->
-> **Tier 2 — UTM Architecture**:
-> - Deploy 3 geographically redundant USS nodes (active-active, sub-50ms synchronization via DSS)
-> - Implement ASTM F3548-21 DSS with cell-based indexing (H3 hexagonal grid at resolution 8)
-> - Strategic CD: Priority-based volume reservation, FCFS within same priority tier
-> - Tactical CD: Velocity Obstacle algorithm, 60-second lookahead, 5 Hz telemetry update
->
-> **Tier 3 — Class D Integration**:
-> - SWIM interface to airport ATIS for real-time weather and active runway data
-> - Automated NOTAM parsing to trigger geofence activations within 60 seconds of publication
-> - Dedicated ATC hotline procedure for lost-comm or emergency situations
->
-> **Capacity validation**: At 500 ops, strategic CD runs O(n log n) via R-tree spatial index. Benchmark target: full batch plan approval < 30 sec, individual approval < 3 sec.
->
-> **Next step**: I recommend a detailed airspace capacity study using historical ADS-B data from OpenSky Network to characterize actual manned aircraft density by altitude and time-of-day before finalizing the buffer zones.
+---
 
 ---
 
@@ -380,25 +265,9 @@ Flight Plan Submitted?
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Treating UTM Like Ground Traffic Control
-**❌ BAD**: Designing a UTM that directly commands aircraft maneuvers (like a highway traffic management system directing cars to change lanes on command)
-```
-// Wrong design: UTM issues direct movement commands
-utm.send_command(aircraft_id, "TURN_LEFT_HEADING_270")
-utm.send_command(aircraft_id, "DESCEND_TO_FL_005")
-```
-**✅ GOOD**: UTM provides conflict advisories; pilots/autopilots retain authority and decide how to comply
-```
-// Correct: UTM issues advisory, aircraft reports compliance
-utm.issue_conflict_advisory(aircraft_id, {
-  "conflict_time": "T+45s",
-  "conflicting_vehicle": "UAS-4821",
-  "recommended_action": "EXPEDITE_CLIMB",
-  "mandatory_compliance_time": "T+30s"
-})
-// Aircraft autopilot selects maneuver; reports trajectory update
-```
-**Why it matters**: UTM lacks the authority, liability framework, and real-time aircraft state knowledge to safely command maneuvers. Operators are responsible for their aircraft.
+See [references/10-pitfalls.md](references/10-pitfalls.md)
+
+---
 
 ---
 

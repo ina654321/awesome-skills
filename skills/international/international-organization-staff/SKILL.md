@@ -190,252 +190,33 @@ Sustainable agreements must balance member state interests with organizational m
 
 ## 7. Standards & Reference
 
-### 7.1 International Organization Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework / 框架 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **Results-Based Management (RBM)** | Project and program design | 1. Define desired results → 2. Identify indicators → 3. Baseline → 4. Targets → 5. M&E plan |
-| **Stakeholder Analysis** | Policy or program design | 1. Identify stakeholders → 2. Map interests/influence → 3. Engagement strategy |
-| **Policy Brief Format** | Presenting options to leadership | 1. Problem statement → 2. Evidence → 3. Options → 4. Recommendations |
-| **Board Paper Format** | Formal submission to governing body | 1. Executive summary → 2. Background → 3. Issues → 4. Options → 5. Recommendation |
-| **Country Strategy Paper** | Multi-year country engagement | 1. Country context → 2. Development challenges → 3. Strategy → 4. Results framework |
-
-### 7.2 Development Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Project Implementation Rate** | Disbursements
-| **M&E Reporting Compliance** | Reports submitted on time
-| **Gender Marking** | Projects tagged with gender marker | 100% (OECD DAC requirement) |
-| **Results Framework Completion** | Indicators with baseline/target | 100% at design |
-| **Stakeholder Satisfaction** | Survey score post-consultation | >4.0/5.0 |
-
-### 7.3 Governance Procedural Standards
-
-| Process / 流程 | Timeframe / 时间框架 | Key Requirement
-|---------------|---------------------|---------------------------|
-| **Board Paper Submission** | 6 weeks before meeting | Complete package with annexes |
-| **Resolution Drafting** | 3-4 weeks before consideration | Multiple language versions |
-| **Project Appraisal** | 3-6 months before board date | Quality at Entry assessment |
-| **Evaluation** | End of implementation + 6 months | Independent evaluator |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Policy Recommendation Development
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Problem Definition (Week 1)
-├── Commission research or gather existing evidence
-├── Identify data gaps and commission additional analysis
-├── Map stakeholder perspectives through consultation
-└── [✓ Done]: Problem statement with supporting evidence
-    [✗ FAIL]: No clear problem definition → STOP, clarify before proceeding
-
-Phase 2: Option Development (Week 2-3)
-├── Develop 2-3 policy options with pros/cons analysis
-├── Assess resource implications for each option
-├── Identify risks and mitigation measures for each option
-└── [✓ Done]: Options brief with risk assessment
-    [✗ FAIL]: Single option only → develop alternatives for consideration
-
-Phase 3: Stakeholder Consultation (Week 4-5)
-├── Circulate options to member states and stakeholders
-├── Host consultations and incorporate feedback
-├── Address concerns and build consensus where possible
-└── [✓ Done]: Consultation summary with stakeholder positions
-    [✗ FAIL]: Major stakeholder opposition without engagement → consult more
-
-Phase 4: Finalization & Submission (Week 6-7)
-├── Draft final recommendation with supporting documents
-├── Obtain internal clearances (legal, finance, communications)
-├── Format for governing body submission
-└── [✓ Done]: Board paper ready for submission
-```
-
-### 8.2 Development Project Design
-
-```
-Step 1: Sector Analysis
-  → Review country strategy and sector plan
-  → Identify binding constraints to growth
-  → Gap analysis against MDGs/SDGs
-
-Step 2: Theory of Change
-  → Define problem tree (results chain)
-  → Identify assumptions and risks
-  → Map intervention logic
-
-Step 3: Results Framework
-  → Define goal, outcomes, outputs
-  → Select indicators (SMART)
-  → Set baseline and targets
-
-Step 4: Implementation Plan
-  → Activities and timeline
-  → Budget by category
-  → Procurement plan
-
-Step 5: M&E Design
-  → Data collection methods
-  → Verification process
-  → Reporting schedule
-
-[✓ Done]: Project document ready for appraisal
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Board Paper: Climate Finance Proposal
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "Prepare a board paper requesting $50M for a climate resilience program in Small Island Developing States."
-
-**International Organization Staff:**
-> **Board Paper: Climate Resilience Program in SIDS**
->
-> **Executive Summary:**
-> This paper seeks Board approval for a $50 million program to enhance climate resilience in 12 Small Island Developing States. The program addresses urgent adaptation needs identified in national climate strategies and contributes to Paris Agreement targets.
->
-> **Recommended Decision:**
-> The Board approves the allocation of $50 million from [Window] to implement the Climate Resilience Program for SIDS over 5 years (2026-2031).
->
-> **Key Elements:**
-> | Component | Allocation | Focus |
-> |-----------|-----------|-------|
-> | Infrastructure | $25M | Climate-proof investments |
-> | Capacity Building | $12M | Technical training, institutions |
-> | Early Warning | $8M | Hazard monitoring systems |
-> | Knowledge Mgmt | $5M | Data, learning, replication |
->
-> **Risk Assessment:**
-> | Risk | Likelihood | Impact | Mitigation |
-> |------|------------|--------|------------|
-> | Counterpart capacity gaps | Medium | High | Parallel implementation support |
-> | Climate event during implementation | High | High | Contingency timeline |
->
-> **Next I need from you:**
-> 1. Which specific SIDs prioritized in the country strategy?
-> 2. Existing co-financing commitments from bilateral partners?
-
-### 9.2 Diplomatic Statement: UN Resolution
-
-**User:** "Draft a statement for the President of the General Assembly on the situation in [conflict zone]."
-
-**International Organization Staff:**
-> **Statement by the President of the General Assembly**
->
-> "The President of the General Assembly expresses deep concern regarding the escalating situation in [conflict zone], which has resulted in civilian casualties and displacement of populations.
->
-> The President calls on all parties to:
-> 1. Immediately cease hostilities and respect international humanitarian law
-> 2. Ensure safe and unhindered humanitarian access to affected populations
-> 3. Engage in good faith in political dialogue toward a sustainable solution
->
-> The President reaffirms the UN's commitment to supporting peaceful resolution through inclusive dialogue and the full implementation of relevant Security Council resolutions.
->
-> The President urges the international community to provide urgent humanitarian assistance and appeals for sustained support to the humanitarian response plan."
->
-> **Notes for Delivery:**
-> - Neutral language: avoid blaming any party
-> - Reference existing mandates: builds on SC resolutions
-> - Action-oriented: clear asks of member states
-
-### 9.3 Stakeholder Analysis: Private Sector Partnership
-
-**User:** "We want to partner with private sector for a health program. Who should we engage?"
-
-**International Organization Staff:**
-> **Stakeholder Analysis: Private Sector Health Partnership**
->
-> **Stakeholder Map:**
-> | Stakeholder | Interest | Influence | Strategy |
-> |-------------|----------|-----------|----------|
-> | **Pharma multinationals** | Market access, reputation | High (R&D, supply) | Engagement through global health initiatives |
-> | **Local private providers** | Business sustainability | Medium (service delivery) | Capacity building, quality standards |
-> | **Health insurers** | Cost containment | Medium (demand shaping) | PPP for universal coverage pilots |
-> | **Medical device firms** | Market entry | Low-Medium (technology) | Demonstration projects |
-> | **Social enterprises** | Mission-driven | Low-Medium (innovation) | Incubation, scale-up support |
->
-> **Recommended Approach:**
-> - Phase 1: Engage pharma giants through Global Fund partnership model
-> - Phase 2: Develop PPP framework with clear value proposition
-> - Phase 3: Pilot with social enterprises in underserved areas
->
-> **Key Considerations:**
-> - Ensure alignment with essential medicines list
-> - Avoid creating parallel systems to public sector
-> - Monitor for unintended price increases
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: One-Sided Recommendations**
-
-```markdown
-❌ BAD: Recommending action that clearly favors one member state without
-presenting alternatives → undermines organizational neutrality.
-
-✅ GOOD: Present multiple options with balanced analysis; recommend but
-acknowledge trade-offs; cite evidence from multiple sources.
-```
-
-**Anti-Pattern 2: Promise Beyond Authority**
-
-```markdown
-❌ BAD: Staff member verbally committing organizational resources to a
-partner without clearance → creates obligations, violates financial rules.
-
-✅ GOOD: All commitments must reference approved budget/plans; use
-standard language: "subject to available resources and appropriate approvals."
-```
-
-**Anti-Pattern 3: Factual Errors in Official Documents**
-
-```markdown
-❌ BAD: Board paper citing wrong statistics or misrepresenting earlier
-decisions → damages credibility and may misinform crucial decisions.
-
-✅ GOOD: Fact-check all data; verify quotes from previous decisions;
-peer review by colleague before finalization.
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Ignoring Gender Considerations**
-
-```markdown
-❌ BAD: Program design without gender analysis → fails to address
-differential needs → resources poorly targeted → outcomes suboptimal.
-
-✅ GOOD: Require gender analysis in design; apply gender marker;
-design specific interventions for women/girls.
-```
-
-**Anti-Pattern 5: Vague Recommendations**
-
-```markdown
-❌ BAD: "Member states should consider taking appropriate action" →
-no clear ask → no accountability → nothing happens.
-
-✅ GOOD: Specific ask: "The Board is requested to approve X by date Y."
-Clear responsibility, clear timeline.
-```
-
-**Anti-Pattern 6: Missing Risk Assessment**
-
-```markdown
-❌ BAD: Project design without identifying risks → unexpected
-implementation challenges → reputation damage.
-
-✅ GOOD: Mandatory risk matrix in all proposals; specify mitigation
-for each identified risk; include in monitoring.
-```
+---
 
 ---
 

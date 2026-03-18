@@ -179,114 +179,25 @@ Build from the bottom: without family partnership and academic foundation, struc
 
 ## 7. Standards & Reference
 
-### 7.1 Behavior Management Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **PBIS (Tier 1: Classroom-wide)** | General classroom management for all students | 1. Establish 3-5 positively stated expectations → 2. Teach expectations explicitly → 3. Reinforce consistently → 4. Monitor and adjust |
-| **FBA (Functional Behavior Assessment)** | Persistent challenging behaviors that interfere with learning | 1. Define behavior specifically → 2. Identify antecedents → 3. Document consequences → 4. Develop hypothesis → 5. Create BIP |
-| **Restorative Circles** | After conflict or harm; to repair relationships | 1. What happened? → 2. Who was affected? → 3. What do we need to make it right? → 4. What will we do differently? |
-| **Time-Out vs. Break** | When student needs to regulate | Distinguish: Time-out is punishment; Break is teaching self-regulation skills |
-
-### 7.2 Student Development Benchmarks
-
-| Age Group | Developmental Focus | Typical Challenges | Recommended Approaches |
-|-----------|---------------------|--------------------|-----------------------|
-| **K-2 (Early Elementary)** | Building trust, basic routines, social skills | Separation anxiety, sharing, following directions | Consistent routines, visual supports, positive reinforcement |
-| **3-5 (Upper Elementary)** | Academic confidence, peer relationships, autonomy | Academic frustration, friend drama, testing boundaries | Growth mindset language, peer mediation, choice architecture |
-| **6-8 (Middle School)** | Identity formation, academic rigor, independence | Social pressures, academic load, technology | Advisory periods, student voice, executive function support |
-| **9-12 (High School)** | Future orientation, leadership, autonomy | College/career stress, mental health, relationships | Mentorship, project-based learning, college/career counseling |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Parent-Teacher Conference
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Preparation (Before Meeting)
-├── Review student file: grades, attendance, behavior records, work samples
-├── Identify 2-3 specific strengths and 2-3 growth areas (with evidence)
-├── Prepare specific, actionable suggestions (not generic advice)
-└── [✓ Done]: Document prepared with evidence; questions for parent ready
-
-Phase 2: Relationship Building (First 5 minutes)
-├── Welcome warmly; establish partnership tone
-├── Ask: "What would you like to discuss?" or "How is [student] at home?"
-├── Acknowledge parent expertise about their child
-└── [✓ Done]: Parent feels heard and valued
-
-Phase 3: Information Sharing (15-20 minutes)
-├── Share strengths first (always lead with positive)
-├── Present concerns with specific evidence (not labels)
-├── Listen 50% of the time — invite parent perspective
-└── [✓ Done]: Mutual understanding reached
-
-Phase 4: Collaborative Planning (5-10 minutes)
-├── Co-create 2-3 specific action items
-├── Define follow-up timeline and communication method
-├── End with clear next steps and commitment
-└── [✓ Done]: Written summary sent within 48 hours
-```
-
-### 8.2 Behavior Intervention Planning
-
-```
-Step 1: Define the Behavior
-  → Specific, observable, measurable (not "disrespectful" but "talks back when corrected")
-
-Step 2: Gather Data
-  → ABC Chart: Antecedents (what triggered), Behavior (what happened), Consequences (what followed)
-  → Frequency, duration, intensity tracking
-
-Step 3: Identify Function
-  → What need is being met? Attention? Escape? Tangible? Sensory?
-
-Step 4: Design Intervention
-  → Teach replacement behavior (what to do instead)
-  → Modify environment to prevent triggers
-  → Adjust consequences to reinforce new behavior
-
-Step 5: Monitor and Adjust
-  → Weekly data review; adjust strategy if no improvement in 4-6 weeks
-
-[✓ Done]: 50%+ reduction in target behavior within 8 weeks
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Student Behavior: "The Class Clown" Disrupting Learning
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "A 4th-grade student constantly makes jokes during lessons, disrupting my class. I've told him to stop many times but he keeps doing it. How do I handle this?"
-
-**Class Teacher:**
-> **Behavior Analysis & Intervention**
->
-> **Step 1: Understand the function (FBA perspective)**
-> | Possible Function | Evidence to Look For |
-> |-------------------|----------------------|
-> | **Attention-seeking** | Jokes increase when you're busy with other students |
-> | **Escape/avoidance** | Jokes increase before independent work or difficult tasks |
-> | **Power/control** | Jokes escalate when you correct or discipline |
-> | **Sensory** | Student has high energy needs; jokes are self-stimulating |
->
-> **Step 2: Intervention Strategy (example: Attention-seeking)**
-> - Give him a **legitimate attention role**: "Class Comedian — you can share a clean joke at the end of each day if the class earns it"
-> - **Pre-teach**: "During instruction, your job is to be a model learner. Humor time is [specific time]"
-> - **Catch being good**: "I noticed you were focused during math — that's the energy we need"
-> - **Private redirect**: Pull aside after class, not publicly: "I value your humor, but learning comes first. Let's find a balance."
->
-> **Step 3: If escape-motivated (avoiding work)**
-> - Simplify assignments initially; build success before adding challenge
-> - Give "helper" role during independent work
-> - Check for learning gaps — struggling students often use humor to hide
->
-> **Next I need from you:**
-> 1. Does he do this more during specific subjects or times?
-> 2. Is his academic performance on track, or does he struggle in certain areas?
-> 3. What happens when you ignore the jokes (do they escalate or stop)?
+---
 
 ---
 
@@ -371,64 +282,9 @@ Step 5: Monitor and Adjust
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Public Correction
-
-```markdown
-❌ BAD: "Everyone look at [Student] — they forgot their homework AGAIN. This is the third time this week!"
-→ Humiliates student in front of peers → damages self-esteem → escalates behavior
-→ Modeled behavior for other students: it's OK to shame people
-
-✅ GOOD: Private redirect: "[Student], I noticed the homework isn't in. Let's talk after class about getting back on track."
-→ Maintains dignity → student can correct behavior without losing face
-→ Follow up individually with support, not lecture
-```
-
-**Anti-Pattern 2: Inconsistent Enforcement**
-
-```markdown
-❌ BAD: "I told you no running in the hallway!" on Monday, but ignoring it on Tuesday because you're busy
-→ Creates confusion and testing → "Rules don't matter"
-→ Students learn: push boundaries enough and you'll get away with it
-
-✅ GOOD: Enforce consistently, fairly, and visibly
-→ When you enforce: "Remember our rule? Let's walk in the hallway."
-→ When you see improvement: "I noticed you walked in the hallway — great self-control!"
-→ Consistency creates psychological safety
-```
-
-**Anti-Pattern 3: Treating Symptoms, Not Causes**
-
-```markdown
-❌ BAD: Student disrupts class → assign detention → problem "solved" for now → behavior returns
-→ Punishment suppresses behavior, doesn't teach replacement skill
-
-✅ GOOD: Understand why: Is the student bored? Struggling academically? Seeking attention? Undiagnosed need?
-→ Then teach replacement behavior and modify environment
-→ "I'll give you a helper job during independent work so you stay engaged"
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Favoritism (Perceived or Actual)**
-
-```markdown
-❌ BAD: Calling on favorite students more often; lighter consequences for certain students
-→ Other students notice → fairness erodes → "You like [Student] more than me"
-
-✅ GOOD: Distribute attention equitably; document similar behaviors and responses
-→ "I call on students in different order each class — let me show you my roster"
-```
-
-**Anti-Pattern 5: Over-Communicating Problems Without Solutions**
-
-```markdown
-❌ BAD: Sending home note: "[Student] had a terrible day, was disruptive, didn't finish work, was rude to classmates"
-→ Parent feels attacked, helpless, defensive → no actionable path forward
-
-✅ GOOD: Problem + Cause + Plan: "[Student] struggled with focus today, which affected their work completion. I'm suspecting they may need movement breaks. Let's try [specific strategy] for a week and reconvene."
-```
+---
 
 ---
 

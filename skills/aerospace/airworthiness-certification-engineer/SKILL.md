@@ -176,146 +176,25 @@ This skill transforms your AI assistant into an expert **Airworthiness Certifica
 
 ## § 7 Standards & Reference
 
-### DAL Assignment Decision Tree (ARP4754A)
-```
-Failure Condition Classification (per FHA)?
-├─ Catastrophic (probability < 1×10⁻⁹/FH) → DAL A
-│   Software: MC/DC structural coverage required
-│   Hardware: Complex ASIC requires elemental analysis or structured coverage
-├─ Hazardous (probability < 1×10⁻⁷/FH) → DAL B
-│   Software: Decision Coverage required (100% of decisions)
-│   Hardware: Functional testing + anomaly detection
-├─ Major (probability < 1×10⁻⁵/FH) → DAL C
-│   Software: Statement Coverage required
-│   Hardware: Normal development assurance
-├─ Minor (probability < 1×10⁻³/FH) → DAL D
-│   Software: Basic lifecycle documentation
-└─ No Safety Effect → DAL E
-    No specific development assurance required
-```
+See [references/07-standards.md](references/07-standards.md)
 
-### Compliance Matrix Structure
-| Req. No. | Regulatory Requirement | MoC Type | Document Reference | Status | Finding Closure |
-|----------|----------------------|----------|-------------------|--------|----------------|
-| 25.1309-1 | Equipment/system failure no hazardous effect | Analysis (FTA/FMEA) | SSA-001 Rev C | Open | — |
-| 25.571(a) | Damage tolerance evaluation | Analysis + Test | DTA-Rev-4 + TR-123 | Closed | DER-2025-441 |
-
-### Key Probabilities Reference
-| Failure Condition | Maximum Probability | Regulatory Reference |
-|------------------|--------------------|--------------------|
-| Catastrophic | < 1×10⁻⁹ per flight hour | FAR §25.1309(b)(1); CS-25 AMC 25.1309 |
-| Hazardous | < 1×10⁻⁷ per flight hour | FAR §25.1309(b)(2) |
-| Major | < 1×10⁻⁵ per flight hour | FAR §25.1309(b)(3) |
-| Minor | < 1×10⁻³ per flight hour | FAR §25.1309(b)(4) |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Certification Program Initiation
-```
-1.1 Regulatory Basis Establishment
-  - [ ] Identify applicable regulations (Part, amendment level)
-  - [ ] Submit application for TC/STC to FAA ACO or EASA PCM
-  - [ ] Attend pre-application meeting; receive project number
-  - [ ] Identify novel/unusual features; submit Issue Papers (IPs)
-  - [ ] Receive agreed certification basis document
-  - [✓ Done] Output: Signed Certification Plan
-  - [✗ FAIL] If authority identifies additional novelty → additional Issue Papers before proceeding
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Safety Assessment Initiation
-  - [ ] Conduct Functional Hazard Assessment (FHA) for all aircraft functions
-  - [ ] Determine failure condition classifications (Catastrophic/Hazardous/Major/Minor)
-  - [ ] Establish DAL assignments for systems and software
-  - [✓ Done] Output: FHA Report and Preliminary DAL Assignments accepted by authority
-  - [✗ FAIL] If DAL assessment disputed → escalate to ACO chief; prepare ELOS analysis if warranted
-```
-
-### Phase 2: Design & Compliance Planning
-```
-2.1 System Safety Assessment
-  - [ ] Conduct PSSA (Preliminary System Safety Assessment) at architecture level
-  - [ ] Allocate safety objectives to subsystems (apportionment to required probabilities)
-  - [ ] Perform SSA (System Safety Assessment) at detailed design level; FMEA + FTA
-  - [ ] Verify all Catastrophic failure modes are < 1×10⁻⁹/FH
-  - [✓ Done] Output: SSA v1.0 with all failures meeting regulatory probability requirements
-  - [✗ FAIL] If Catastrophic failure mode exceeds 1×10⁻⁹ → architecture redesign required
-
-2.2 Software Certification Planning (DO-178C)
-  - [ ] Establish Software Plans (SDP, SVP, SCMP, SQAP) per DO-178C §11
-  - [ ] Identify all software items and their DAL assignments
-  - [ ] Plan structural coverage strategy for DAL-A items (MC/DC)
-  - [ ] Identify tool qualification requirements (DO-330)
-  - [✓ Done] Output: Software Plans submitted and accepted by authority (SAS)
-  - [✗ FAIL] If independence plan rejected → restructure development/verification teams
-
-2.3 Compliance Matrix Development
-  - [ ] List every applicable regulation in the certification basis
-  - [ ] Assign MoC (analysis, test, similarity, inspection) for each requirement
-  - [ ] Identify compliance documents and responsible DER
-  - [✓ Done] Output: Compliance Checklist (CCL)
-```
-
-### Phase 3: Compliance Demonstration & TC Issue
-```
-3.1 Ground & Flight Test Compliance
-  - [ ] Submit TIA (Test Initiation Acknowledgment) for FAA-witnessed tests
-  - [ ] Complete ground test program; generate test reports
-  - [ ] Complete flight test program per test plan
-  - [ ] Collect all test data; generate compliance reports
-  - [✓ Done] Output: Complete test data package; all test findings closed
-
-3.2 Type Inspection Authorization (TIA) & Final Review
-  - [ ] Complete all open findings on compliance matrix
-  - [ ] DER issues Statement of Compliance for each compliance item
-  - [ ] ACO conducts final conformity inspection
-  - [ ] Flight Standardization Board (FSB) approves flight crew training (if applicable)
-  - [✓ Done] Output: Type Certificate issued
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Novel Electric Propulsion System Certification
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: We have an eVTOL with 12 distributed electric motors. There's no specific regulation for this configuration. How do we certify it?
-
-**Expert**:
-> **This is a classic novel features certification challenge.** Here's the systematic approach:
->
-> **Step 1 — Identify the Applicable Basis**:
-> For eVTOL, FAA currently uses Part 23 PoweredLift or Part 27 as the basis, depending on weight and configuration. For 12 motors, you'll need Special Conditions (SCs) because standard Part 23/27 doesn't address distributed electric propulsion at this scale.
->
-> **Step 2 — Issue Paper (IP) Submission**:
-> File an Issue Paper to the ACO covering:
-> - Description of the novel feature (12 distributed motors, electric power architecture)
-> - Why existing regulations don't adequately address it
-> - Proposed means of addressing the novel feature
-> - Your proposed equivalent safety level
->
-> **Step 3 — Special Conditions Content**:
-> Based on eVTOL precedent (Joby S4, Archer Midnight programs), expect Special Conditions addressing:
-> ```
-> SC-1: Propulsion system reliability
->   → Single motor failure: must complete takeoff and land safely (demonstrated by analysis + flight test)
->   → Dual adjacent motor failure: must not be catastrophic (FTA required; probability < 1×10⁻⁹)
->
-> SC-2: Battery system protection
->   → Cell thermal runaway propagation: must not cause loss of aircraft (ARP4761 analysis)
->   → Battery energy depletion: automatic warnings at defined reserve thresholds
->
-> SC-3: Flight control redundancy
->   → FBW system with no single failure causing loss of control
->   → Min. dual redundancy for all flight-critical paths (DAL-A, §25.1309 basis)
-> ```
->
-> **Step 4 — ELOS (Equivalent Level of Safety) Demonstration**:
-> For distributed propulsion OEI, you need to show the safety level is equivalent to or better than a single-engine aircraft losing its engine. Use FTA to prove:
-> - P(loss of all propulsion) < 1×10⁻⁹/FH
-> - Any single motor failure results in ≥ 25% residual hover power
->
-> **Timeline**: IP submission → ACO review (3-6 months) → SC publication (6-12 months) → compliance program → typically 18-24 months extra vs. conventional aircraft certification.
+---
 
 ---
 
@@ -397,21 +276,9 @@ Failure Condition Classification (per FHA)?
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Safety Assessment After Architecture Is Fixed
-**❌ BAD**: Completing FHA/PSSA/SSA after hardware is designed and software is coded
-**✅ GOOD**: Safety assessment is iterative and MUST precede key design decisions:
-```
-Correct sequence:
-  FHA (Functional Hazard Assessment) → before System Design starts
-  PSSA (Preliminary SSA) → before Detailed Design starts
-  SSA (System Safety Assessment) → before First Flight
-  Updated SSA → before Type Certificate
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-Wrong sequence:
-  Design → Build → Test → "Now let's do the FMEA"
-  Result: Architecture cannot meet safety objectives → expensive redesign
-```
-**Why it matters**: A safety assessment that reveals a DAL-A requirement on a component designed as DAL-C means a complete redesign of that component and its associated software/hardware.
+---
 
 ---
 

@@ -178,126 +178,25 @@ Build from the bottom: without solid operations, teachers cannot thrive; without
 
 ## 7. Standards & Reference
 
-### 7.1 Curriculum Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework | When to Use | Key Elements |
-|-----------------|----------------------|-------------------|
-| **Play-Based Learning** | Core curriculum approach for ages 2-6 | Unstructured play, guided play, learning centers, hands-on exploration |
-| **Montessori** | Child-led, prepared environment approach | Mixed-age classrooms, self-directed materials, practical life skills |
-| **Reggio Emilia** | Project-based, inquiry-driven approach | Documentation, environment as third teacher, long-term projects |
-| **Waldorf** | Holistic, imaginative approach | Rhythms and routines, natural materials, no early academics |
-| **HighScope** | Active learning with plan-do-review | Child-initiated activities, adult scaffolding, systematic assessment |
-
-### 7.2 Teacher-Child Ratios (NAEYC Recommended)
-
-| Age Group | Maximum Group Size | Minimum Staff Ratio |
-|-----------|--------------------|--------------------|
-| **Infant (0-12 months)** | 6 | 1:3 |
-| **Toddler (12-24 months)** | 8 | 1:4 |
-| **Toddler (24-36 months)** | 10 | 1:5 |
-| **Preschool (3 years)** | 20 | 1:10 |
-| **Preschool (4-5 years)** | 24 | 1:12 |
-| **Kindergarten (5-6 years)** | 26 | 1:13 |
-
-### 7.3 Program Evaluation Metrics
-
-| Metric | Target | Measurement |
-|--------|--------|-------------|
-| Teacher turnover | < 20% annually | Exit surveys, stay interviews |
-| Parent satisfaction | > 85% positive | Annual survey |
-| Developmental screening completion | 100% | Screening records |
-| Staff with credentials | > 80% CDA or equivalent | HR records |
-| Classroom observation scores (CLASS) | > 3.0 (out of 7) | Bi-annual observations |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Classroom Observation & Teacher Feedback
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Pre-Observation (Before Visit)
-├── Review lesson plan or daily schedule
-├── Identify focus area: instruction, environment, interactions, or safety
-├── Clarify observation purpose: formative (coaching) vs. summative (evaluation)
-└── [✓ Done]: Clear purpose and focus established
-
-Phase 2: Observation (During Visit)
-├── Arrive unannounced (for真实性) or scheduled (for support)
-├── Observe for 20-30 minutes: take specific, behavioral notes
-├── Focus on: child engagement, teacher language, safety, transitions
-└── [✓ Done]: Concrete examples documented
-
-Phase 3: Post-Observation Conference (After Visit)
-├── Start with positive: specific strength observed
-├── Share observations objectively: "I noticed..." not "You didn't..."
-├── Collaboratively identify 1-2 growth areas
-├── Co-create action plan with specific steps
-└── [✓ Done]: Written feedback within 24 hours; follow-up date set
-```
-
-### 8.2 Parent Concern Resolution
-
-```
-Step 1: Listen actively (within 24 hours)
-  → Let parent explain fully without interrupting
-  → Acknowledge: "I understand you're concerned about..."
-  → Take notes: shows you take it seriously
-
-Step 2: Investigate factually
-  → Talk to involved teachers/staff
-  → Review documentation (photos, daily reports, incident logs)
-  → Check policies: what is our standard practice?
-
-Step 3: Respond thoughtfully
-  → Schedule meeting (not just phone call) for serious concerns
-  → Share findings honestly — even if we made a mistake, say so
-  → Explain what we'll do differently
-  → Document the meeting
-
-Step 4: Follow up
-  → Check in within one week: "Has the situation improved?"
-  → If not resolved, escalate to board/advisory
-
-[✓ Done]: Parent feels heard; concern addressed; relationship preserved
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Curriculum Decision: Academic Pressure from Parents
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "Parents are demanding we teach reading, writing, and math to 4-year-olds because 'the other kindergarten does.' Our curriculum is play-based. How do I respond?"
-
-**Kindergarten Principal:**
-> **Balancing Curriculum Philosophy with Parent Expectations**
->
-> **Step 1: Understand the parent's concern**
-> - Parents often fear their child will "fall behind" academically
-> - They may not understand the research on early academics vs. developmental readiness
-> - They may have been influenced by other schools' marketing
->
-> **Step 2: Provide research-based perspective**
-> | Approach | What Research Shows |
-> |----------|---------------------|
-> | **Play-based** | Builds executive function, creativity, social skills, and love of learning — predictors of later academic success |
-> | **Early academics** | May produce short-term gains (worksheet skills) that disappear by 3rd grade; can increase anxiety and decrease motivation |
->
-> **Step 3: Reassure with specifics**
-> - "Our curriculum actually prepares children better for reading and math — through play, they learn the foundations: spatial awareness, counting, patterns, storytelling..."
-> - "By Grade 3, children who learned through play outperform those who learned through direct instruction"
-> - Share evidence: portfolio samples, longitudinal data if available
->
-> **Step 4: Offer partnership**
-> - "I'd love to invite you to a classroom observation — see how much learning happens through play"
-> - Provide take-home resources about supporting learning at home (not worksheets!)
-> - "We can set up a meeting with our curriculum coordinator to discuss"
->
-> **Step 5: Hold the line with grace**
-> - Be clear: "This is our evidence-based approach, and I'm committed to it"
-> - Offer: limited take-home activities if parents insist — but protect core philosophy
-> - If multiple parents request change, consider parent education workshop
+---
 
 ---
 
@@ -399,74 +298,9 @@ Step 4: Follow up
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Academic Pressure on Young Children**
-
-```markdown
-❌ BAD: Full-day academic instruction for 3-year-olds: worksheets, homework, reading drills, flash cards
-→ Creates school aversion, anxiety, and burns out curiosity
-→ Research shows these gains disappear by Grade 3
-
-✅ GOOD: Play-based learning with intentional teaching moments
-→ "Let's count the blocks!" → math through play
-→ "What story do you want to tell?" → language through storytelling
-→ Children learn more and love school
-```
-
-**Anti-Pattern 2: High Staff Turnover Due to Poor Management**
-
-```markdown
-❌ BAD: Low pay, no professional development, micromanagement, blame culture
-→ Staff burnout → turnover → inconsistent care → parent complaints → more turnover
-→ High turnover destroys program quality and reputation
-
-✅ GOOD: Competitive compensation, ongoing training, supportive leadership, growth opportunities
-→ Invest in retention: it saves money and improves outcomes
-→ "Hire slowly, fire quickly, develop continuously"
-```
-
-**Anti-Pattern 3: Ignoring Safety or Licensing Compliance**
-
-```markdown
-❌ BAD: "We've always done it this way" — ignoring ratio requirements, background checks, or safety protocols
-→ Licensing violation → potential closure
-→ Child safety risk → lawsuit, criminal charges, reputational destruction
-
-✅ GOOD: Maintain impeccable compliance
-→ Regular self-audits; stay current on regulations
-→ When in doubt, err on side of caution
-→ Document everything
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Parent as Customer (Excessive Accommodation)**
-
-```markdown
-❌ BAD: "The parent is always right" — adjusting policies per parent request, giving in to tantrums (parent's, not child's)
-→ Undermines professionalism; staff feel disrespected
-→ Creates inconsistent experience for children
-
-✅ GOOD: Partner with parents respectfully
-→ Listen and acknowledge concerns
-→ Explain rationale for policies
-→ "I understand, and here's why we do it this way..."
-→ Firm on standards, warm in delivery
-```
-
-**Anti-Pattern 5: Undocumented Policies**
-
-```markdown
-❌ BAD: Verbal policies that change based on who's asking or when
-→ "We don't have a written policy on that" → chaos and liability
-
-✅ GOOD: Document everything
-→ Employee handbook
-→ Parent handbook with policies
-→ Clear procedures for common situations
-→ Review annually with legal/compliance
-```
+---
 
 ---
 

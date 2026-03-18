@@ -175,107 +175,25 @@ This skill transforms your AI assistant into an expert **AI Application Engineer
 
 ## 7. Standards & Reference
 
-### RAG Quality Metrics
+See [references/07-standards.md](references/07-standards.md)
 
-| Metric / 指标 | Formula / 公式 | Target / 目标 | Tool
-|--------------|--------------|--------------|------------|
-| **Faithfulness** | (factual claims in context)
-| **Answer Relevancy** | semantic similarity(answer, question) | > 0.80 | Ragas |
-| **Context Precision** | (relevant retrieved chunks)
-| **Context Recall** | (relevant chunks retrieved)
-| **Retrieval Latency** | P95 time for retrieval stage | < 200ms | LangSmith |
-| **End-to-End Latency** | P95 total response time | < 3s (streaming) | APM |
-
-### Chunking Decision Matrix
-
-| Document Type / 文档类型 | Chunk Size / 大小 | Overlap / 重叠 | Strategy
-|------------------------|-----------------|--------------|----------------|
-| Technical docs | 512 tokens | 10% | Fixed-size + sentence boundary |
-| Legal
-| Code files | By function/class | 0% | AST-aware chunking |
-| Conversations | By turn | 5% | Fixed-size |
-| Tables
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### Phase 1: RAG System Build
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Objective**: Deliver a production-ready RAG pipeline with measurable quality baseline
-
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | Build evaluation set: 50+ QA pairs from target documents | Eval set covers 5+ document types and query categories | < 30 QA pairs or only easy questions |
-| 2 | Baseline: naive chunking + dense retrieval + GPT-4o | Faithfulness > 0.7, Answer Relevancy > 0.7 | Either metric < 0.6 → identify bottleneck first |
-| 3 | Optimize retrieval: hybrid search (BM25 + dense) | Context Recall improves by ≥ 10% over baseline | No improvement → check embedding model mismatch |
-| 4 | Add reranking (cross-encoder or Cohere Rerank) | Context Precision improves by ≥ 10% | No improvement → review chunk granularity |
-| 5 | Optimize generation prompt: add citation requirement | Faithfulness improves by ≥ 5% | Hallucination rate still > 15% → consider smaller model |
-| 6 | Load test at 2× expected QPS | P95 latency < 2s | P95 > 3s → profile and optimize each stage |
-
-### Phase 2: Production Optimization
-
-**Objective**: Achieve cost target and observability coverage
-
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | Implement semantic caching (Redis + similarity threshold 0.95) | Cache hit rate > 30% for repeated query patterns | < 10% → queries too diverse or threshold too strict |
-| 2 | Model tiering: route simple queries to smaller model | Cost reduction ≥ 25% with quality loss < 5% | Quality loss > 10% → refine routing logic |
-| 3 | Deploy tracing: every LLM call traced to LangSmith/Langfuse | 100% of production calls traced | Sampling < 100% → full tracing first, sample later |
-| 4 | Add prompt injection detection on user inputs | Zero injection bypass in red-team test of 100 attempts | Any bypass → harden detection layer |
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Enterprise Document QA System
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "I need to build an enterprise internal document QA system. What tech stack should I use?"
-
-**AI Application Engineer:**
-
-> **Enterprise Document QA — Production Tech Stack Recommendation**
->
-> **Architecture Decision:**
->
-> | Component / 组件 | Choice / 选择 | Rationale
-> |----------------|--------------|----------------|
-> | Vector DB | Qdrant (self-hosted) | Data sovereignty; high-performance hybrid search |
-> | Embedding | BGE-M3 (local) | Multilingual (EN+ZH); no API cost |
-> | Reranker | BAAI/bge-reranker-v2 | Open-source; high quality; 50ms latency |
-> | LLM | Claude 3.5 Sonnet | Long context; strong instruction following |
-> | Framework | LangChain + LangSmith | Mature ecosystem; built-in observability |
-> | Caching | Redis semantic cache | 40% reduction in repeat query costs |
->
-> **Indexing Pipeline:**
-> ```python
-> from unstructured.partition.auto import partition
-> from langchain.text_splitter import RecursiveCharacterTextSplitter
-> from langchain_community.embeddings import HuggingFaceEmbeddings
->
-> # Step 1: Parse documents
-> elements = partition(filename="policy_doc.pdf")  # handles PDF/DOCX/HTML
->
-> # Step 2: Chunk with sentence boundary
-> splitter = RecursiveCharacterTextSplitter(
->     chunk_size=512,
->     chunk_overlap=50,
->     separators=["\n\n", "\n", "。", "."]  # bilingual aware
-> )
->
-> # Step 3: Embed + store with metadata
-> chunks = splitter.create_documents([str(el) for el in elements],
->     metadatas=[{"source": "policy_doc", "dept": "HR", "date": "2026-01"}])
-> ```
->
-> **Critical implementation notes:**
-> 1. Metadata filtering for dept/access_level prevents cross-department data leakage
-> 2. Parent-child indexing: small chunk for retrieval (256 tokens) → large chunk for generation (1024 tokens)
-> 3. Hybrid search (BM25 + dense): recall improves 20-30% over pure dense search
->
-> **Expected performance:** Retrieval < 200ms; E2E P95 < 3s (streaming); Faithfulness > 0.85
+---
 
 ---
 
@@ -402,57 +320,9 @@ This skill transforms your AI assistant into an expert **AI Application Engineer
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: No Evaluation Before Deploy
-
-```
-BAD:  "The RAG system feels good in testing, let's ship it."
-
-GOOD: Build an eval set of 50+ QA pairs before writing a single line of prod code.
-      Establish Faithfulness, Answer Relevancy baselines.
-      Every code change must be measured against the eval set.
-      "Feels good" is not a metric.
-```
-
-**Anti-Pattern 2: Flat Retrieval (k=3 Dense Only)
-
-```
-BAD:  retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-      # Misses 30-40% of relevant context; no precision control
-
-GOOD: Use hybrid retrieval (BM25 + dense) with k=20,
-      then rerank to top 5 with cross-encoder.
-      Result: 20-30% improvement in context_recall;
-              10-15% improvement in context_precision.
-```
-
-### Medium Severity
-
-**Anti-Pattern 3: Synchronous Chain Without Fallback
-
-```
-BAD:  response = openai.chat(model="gpt-4o", ...)  # No timeout, no fallback
-      # Single provider failure → full outage
-
-GOOD: Use litellm or LangChain's LLMRouter with:
-      Primary: OpenAI GPT-4o (timeout=30s)
-      Fallback: Anthropic Claude 3.5 Sonnet
-      Last resort: Return cached response
-```
-
-**Anti-Pattern 4: Ignoring Streaming for UX
-
-```
-BAD:  response = llm.invoke(prompt)  # Wait 5-10s, then dump full response
-      User thinks the system is broken after 3s.
-
-GOOD: Use async streaming:
-      async for chunk in llm.astream(prompt):
-          yield chunk
-      Users see the first token in <500ms regardless of total generation time.
-      Perceived latency drops 60-80%.
-```
+---
 
 ---
 

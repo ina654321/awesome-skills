@@ -155,108 +155,25 @@ This skill delivers expert-level guidance across manufacturing process optimizat
 
 ## § 7 Standards & Reference
 
-**Frameworks:**
-- **Toyota Production System (TPS)** — Lean manufacturing foundation
-- **Six Sigma (DMAIC)** — Data-driven improvement methodology
-- **ISO 9001:2015** — Quality management system
-- **IATF 16949** — Automotive quality (Control Plan, PPAP)
-- **ISO/TS 16949** — Statistical Process Control requirements
+See [references/07-standards.md](references/07-standards.md)
 
-| Metric | Formula | Target Range |
-|--------|---------|--------------|
-| OEE | Availability × Performance × Quality | ≥ 85% (world-class ≥ 90%) |
-| Cpk | min[(USL-μ)/3σ, (μ-LSL)/3σ] | ≥ 1.33 (capable); ≥ 1.67 (excellent) |
-| Ppk | min[(USL-μ)/3s, (μ-LSL)/3s] | ≥ 1.67 (long-term capable) |
-| DPMO | (Defects
-| Cycle Time (CT) | Actual time per unit | < Takt Time for flow |
-| Takt Time | Available Time
-| Lead Time | Wait Time + Process Time | < 5 × Process Time for flow |
-| GR&R | 5.15 × σ_measurement
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1 — Problem Definition & Baseline
-- Identify the problem using TIMWOODS waste analysis
-- Define metrics: current Cpk, DPMO, cycle time, OEE
-- Validate measurement system (GR&R study)
-- Create project charter with scope and business case
-- [✓ Done]: Baseline metrics captured, measurement system validated, charter approved
-- [✗ FAIL]: No baseline data, measurement system not validated, scope unclear
+See [references/08-workflow.md](references/08-workflow.md)
 
-### Phase 2 — Root Cause Analysis
-- Use 5 Whys and Fishbone to identify root causes
-- Prioritize using Pareto analysis (80/20 rule)
-- Validate root causes with data (hypothesis testing)
-- Identify quick wins (low-hanging fruit) vs. big bets
-- [✓ Done]: Top 3 root causes identified and validated
-- [✗ FAIL]: Symptom-level causes only, no data validation
-
-### Phase 3 — Solution Implementation
-- Develop countermeasures using lean tools (5S, standard work, kanban)
-- Pilot solution on small scale before rollout
-- Measure results; compare to baseline
-- Document new standard work
-- [✓ Done]: Pilot successful, results validated, standard work documented
-- [✗ FAIL]: No pilot, results not measured, no standard work
-
-### Phase 4 — Control & Sustain
-- Implement SPC charts for ongoing monitoring
-- Create control plan with reaction plan
-- Train operators on new procedures
-- Transition to process owner for sustainment
-- [✓ Done]: Control chart stable, control plan approved, training complete
-- [✗ FAIL]: No control mechanism, no owner assigned, training incomplete
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1 — Low Cpk on CNC Machining Line
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** My CNC machining line has Cpk = 0.89 on a critical bore dimension (ø10.000 ± 0.020mm). Current defect rate is 2.3%. How do I improve capability?
-
-**Expert:** Cpk < 1.0 means the process is not capable. Let me analyze using the DMAIC framework:
-
-**Current State Analysis:**
-```
-Specification: 9.980 - 10.020 mm
-Current Mean:  10.005 mm
-Current Sigma: 0.007 mm (estimated from GR&R)
-Cpk:           min[(10.020-10.005)/(3×0.007), (10.005-9.980)/(3×0.007)]
-             = min[0.71, 1.19] = 0.71 → Actually < 1.0 is concerning
-```
-
-**Root Cause Analysis (Fishbone):**
-```
-Man:     Operator technique varies (skill level)
-Machine: Tool wear — offset drift over 50 pieces
-Method:  No incoming inspection for raw material variation
-Material: Hardness variation (HRC 58-62 spec)
-Measurement: GR&R = 28% (near limit)
-Environment: Temperature variation (±3°C in shop floor)
-```
-
-**Countermeasures:**
-
-| Root Cause | Countermeasure | Expected Impact |
-|-----------|----------------|-----------------|
-| Tool wear | Auto-offset compensation; tool life management | +0.3 Cpk |
-| Material variation | Incoming inspection; supplier quality agreement | +0.15 Cpk |
-| Temperature | Install HVAC; thermal compensation in CNC | +0.1 Cpk |
-| Measurement GR&R | Upgrade gauge; train operators | +0.1 Cpk |
-
-**Projected Result:**
-```
-Target Cpk: 1.33 (minimum for production)
-Current:    0.89
-Gap:        0.44
-Timeline:   8 weeks
-Expected defect rate: < 0.1%
-```
-
-[RISK] Do not simply tighten the process — find and fix the root cause, or defects will continue.
+---
 
 ---
 
@@ -362,28 +279,9 @@ Annual savings: $280K (reduced scrap, less overtime)
 
 ## § 10 Common Pitfalls
 
-### Anti-Pattern 1 — Improving Before Measuring Baseline
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:**
-```
-// Implemented a new fixture to reduce defects
-// Before: unknown defect rate
-// After:  claimed 50% improvement
-// Reality: No way to prove it — just perception
-```
-
-✅ **GOOD:**
-```
-// Baseline before improvement:
-    // 1. Measure current state: Cpk = 0.89, DPMO = 2300
-    // 2. Validate measurement system: GR&R = 22%
-    // 3. Document with data: Pareto chart, trend chart
-// After improvement:
-    // 4. Measure new state: Cpk = 1.45, DPMO = 350
-    // 5. Calculate improvement: 85% reduction confirmed
-```
-
-**Why it matters:** Without baseline data, there is no proof of improvement. Leadership will question the ROI, and the team cannot learn from failures.
+---
 
 ---
 

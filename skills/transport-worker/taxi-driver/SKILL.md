@@ -192,55 +192,17 @@ Install this skill on your preferred AI coding platform:
 
 ## § 7 Standards & Reference
 
-### Key Taxi/Rideshare Regulations
+See [references/07-standards.md](references/07-standards.md)
 
-| Regulation | Scope | Key Requirements |
-|------------|-------|-----------------|
-| **TLC Driver License** | For-hire driving | Background check, medical, training |
-| **Vehicle Inspection** | Safety compliance | Regular inspection required |
-| **Insurance** | Liability coverage | Commercial/FHV insurance required |
-| **Airport Permits** | Terminal pickup | Specific permits may be required |
-| **Fare Rules** | Rate calculation | Meter rates or app-based pricing |
-| **No-Resume of Employment** | Discrimination | Cannot refuse service based on destination |
-| **Accessibility Requirements** | ADA compliance | WAV service, service animals |
-| **Peak/Pricing Rules** | Surge pricing disclosure | Transparent pricing (rideshare) |
-
-### Key Performance Metrics
-
-| KPI | Target | Measurement Method |
-|-----|--------|--------------------|
-| **Customer Rating** | ≥4.8 stars | Rideshare/app rating |
-| **Acceptance Rate** | ≥80% | Dispatch acceptance |
-| **Cancellation Rate** | <10% | Cancelled trips |
-| **On-Time Pickup** | <5 min average | Trip records |
-| **Safety Incidents** | Zero | Incident reports |
-| **Regulatory Violations** | Zero | Citation tracking |
-| **Customer Complaints** | <2% of trips | Complaint records |
-| **Vehicle Cleanliness** | 100% clean | Inspection |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Pre-Shift Preparation
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Activities:**
-- Complete vehicle inspection (tires, lights, fluid, cleanliness)
-- Verify all documents current (license, insurance, registration)
-- Check fuel/battery for expected shift length
-- Review app/dispatch status
-- Plan for shift: target areas, peak hours, events
-- Ensure phone/device charged and functional
-
-**✓ Done Criteria:**
-- Vehicle inspection complete
-- Documents verified
-- Ready to accept trips
-
-**✗ FAIL Criteria:**
-- Vehicle not roadworthy
-- License/insurance expired
-- Device not functional
+---
 
 ---
 
@@ -302,38 +264,9 @@ Install this skill on your preferred AI coding platform:
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Difficult Passenger
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** I picked up a passenger who is visibly intoxicated and giving me directions that don't make sense. They're insisting on a route that seems wrong. What should I do?
-
-**Professional Taxi Driver:**
-> This is a common situation — handle it professionally and safely.
-
-**IMMEDIATE ACTIONS:**
-1. **Stay calm and professional** — Do not argue or show frustration
-2. **Confirm destination politely** — "Can you confirm the address on [street]?"
-3. **Offer alternative** — "The route you suggested has construction. The fastest way is [alternative route]."
-4. **Use GPS** — Follow the GPS route; it's neutral and defensible
-
-**IF PASSENGER INSISTS ON WRONG/DANGEROUS ROUTE:**
-- Politely explain safety concerns: "I can't take a route that goes through that area, it's not safe."
-- Offer to call dispatch for assistance
-- If passenger becomes aggressive, end trip in safe location
-
-**IF PASSENGER IS INTOXICATED:**
-- Ensure they can exit safely at destination
-- If they're unable to function, ask if someone can meet them
-- Do not leave an intoxicated person in an unsafe situation
-- Document the trip in app
-
-**CRITICAL BOUNDARY:**
-> Do not:
-- Physically engage with passenger
-- Throw passenger out of moving vehicle
-- Drive to an undisclosed location
-- Accept rides to secluded areas that feel wrong
-
-> If you feel unsafe, find a well-lit, populated area and end the trip.
+---
 
 ---
 
@@ -417,11 +350,9 @@ Install this skill on your preferred AI coding platform:
 
 ## § 10 Common Pitfalls
 
-### Pitfall 1: Skipping Vehicle Inspection
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:** "The car seems fine, no need to check"
-
-✅ **GOOD:** Check tires, lights, fluid levels before every shift. A breakdown leaves passengers stranded and costs you money.
+---
 
 ---
 

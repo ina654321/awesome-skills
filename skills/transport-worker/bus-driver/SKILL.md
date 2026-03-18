@@ -185,56 +185,17 @@ Install this skill on your preferred AI coding platform:
 
 ## § 7 Standards & Reference
 
-### Key Bus Operation Regulations
+See [references/07-standards.md](references/07-standards.md)
 
-| Regulation | Scope | Key Requirements |
-|------------|-------|-----------------|
-| **State School Bus Laws** | Student transport | Stop arm, flashing lights, crossing procedures |
-| **CDL Class B with P** | Passenger endorsement | Transport 16+ passengers (including driver) |
-| **CDL Class B with S** | School bus endorsement | Transport students to/from school |
-| **ADA (Americans with Disabilities Act)** | Accessibility | Wheelchair securement, service animals, accessibility |
-| **DOT Physical** | Medical certification | Valid medical card for commercial driving |
-| **FMCSA Drug/Alcohol Testing** | Substance abuse | Pre-trip, random, post-accident testing |
-| **State Transit Regulations** | Public transit | Varies by state/authority |
-| **School District Policies** | Student transport | Specific procedures per district |
-
-### Key Performance Metrics
-
-| KPI | Target | Measurement Method |
-|-----|--------|--------------------|
-| **Preventable Accidents** | Zero | Accident reports |
-| **On-Time Performance** | ≥95% | Schedule adherence |
-| **Passenger Injuries** | Zero | Incident reports |
-| **Stop Arm Violations** | Zero | Camera footage |
-| **Customer Complaints** | <2 per 1,000 rides | Survey/complaint tracking |
-| **Pre-Trip Completion** | 100% | Inspection logs |
-| **Wheelchair Securement Checks** | 100% | Securement log |
-| **Evacuation Drills** | Quarterly | Drill documentation |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Pre-Trip Preparation
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Activities:**
-- Complete DOT/CDL required pre-trip inspection
-- Check: brakes, lights, signals, tires, mirrors, emergency equipment
-- Verify wheelchair lift/ramp operational (if equipped)
-- Test PA system, fare box, video system
-- Review route, schedule, any detours or changes
-- Check passenger manifest (if applicable)
-- Verify fuel level adequate for route
-
-**✓ Done Criteria:**
-- All inspection items complete
-- Bus operational and safe
-- Route information reviewed
-
-**✗ FAIL Criteria:**
-- Any safety-critical defect found
-- Missing required equipment
-- Route/schedule not reviewed
+---
 
 ---
 
@@ -311,32 +272,9 @@ Install this skill on your preferred AI coding platform:
 
 ## § 9 Scenario Examples
 
-### Scenario 1: School Bus Stop Incident
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** I'm a school bus driver. A parent is screaming at me because I wouldn't let their child off at an unauthorized stop. The parent is now standing in front of my bus. What should I do?
-
-**Professional Bus Driver:**
-> This is a serious situation — your primary responsibility is the safety of all students on the bus.
-
-**IMMEDIATE ACTIONS:**
-1. **Stay on the bus** — Do not exit with a hostile individual present
-2. **Lock the doors** — Keep the bus secured
-3. **Radio dispatch** — "Dispatch, this is Bus [number], I have a parent blocking my bus at [location], requesting assistance and police"
-4. **Document** — Note the parent's description, vehicle, time, location
-5. **Wait for help** — Stay seated, keep engine running (or off if safer), wait for dispatch/police
-
-**CRITICAL CONSIDERATIONS:**
-- **Never move the bus with anyone in front of it** — fatal risk
-- **Don't engage physically** — de-escalate verbally if possible
-- **Student safety first** — keep all students on board until resolved
-- **You are not allowed to release a student to an unauthorized person** — district policy protects you
-
-**AFTER THE INCIDENT:**
-- File incident report with dispatch
-- Report to school administration
-- Document for potential follow-up
-
-> **Remember:** You are enforcing school policy for the child's safety. The parent may be frustrated, but unauthorized stops create serious safety risks. Your decision is defensible.
+---
 
 ---
 
@@ -415,11 +353,9 @@ Install this skill on your preferred AI coding platform:
 
 ## § 10 Common Pitfalls
 
-### Pitfall 1: Skipping Mirror Checks
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:** "I know the route, nothing ever happens here"
-
-✅ **GOOD:** Check mirrors every 5-8 seconds. Children, pedestrians, and cyclists appear unexpectedly, especially around school buses.
+---
 
 ---
 

@@ -201,179 +201,33 @@ Build from foundation: Without systems and trained staff, nothing else works. Ea
 
 ## 7. Standards & Reference
 
-### 7.1 Service Standards
+See [references/07-standards.md](references/07-standards.md)
 
-| Service / 服务 | Standard / 标准 | Response Time
-|---------------|----------------|----------------------|
-| **Service Request (普通请求)** | Acknowledge within 30 min, resolve within 24 hrs | < 30分钟确认, < 24小时解决 |
-| **Complaint (投诉)** | Acknowledge immediately, resolve within 48 hrs | 立即确认, < 48小时解决 |
-| **Emergency (紧急情况)** | Respond immediately, escalate as needed | 立即响应, 立即上报 |
-| **VIP Request (VIP请求)** | Priority handling, personalized service | 优先处理, 个性化服务 |
-| **Move-in/out (入住/退房)** | Concierge-level assistance, all paperwork complete | 管家级协助, 文件齐全 |
-| **Package (快递)** | Sign, notify, secure storage, same-day pickup option | 签收、通知、安全存放、当天可取 |
-
-### 7.2 Key Performance Indicators
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Resident Satisfaction** | Survey score (1-5) | > 4.5 |
-| **Request Resolution Rate** | Resolved requests
-| **First-Contact Resolution** | Resolved on first contact
-| **Response Time Compliance** | On-time responses
-| **Complaint Escalation** | Escalated complaints
-| **Resident Retention** | Renewals
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Service Request Handling
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Receive & Acknowledge (接收与确认)
-├── Listen to resident request carefully
-├── Repeat back to confirm understanding
-├── Set clear expectations (what will happen, when)
-├── Give name and contact for follow-up
-└── [✓ Done]: Resident confirmed understanding
-    [✗ FAIL]: Unclear → ask more questions
-
-Phase 2: Route & Coordinate (转交与协调)
-├── Identify who can help (maintenance, security, vendor)
-├── Create work order with all details
-├── Coordinate timing with resident and service provider
-├── Arrange access if needed (keys, codes)
-└── [✓ Done]: Service scheduled
-    [✗ FAIL]: Can't fulfill → offer alternatives, explain why
-
-Phase 3: Follow Through (跟进落实)
-├── Check if service was performed as promised
-├── Verify resident is satisfied
-├── Document resolution
-├── Thank resident for feedback
-└── [✓ Done]: Resident satisfied, issue resolved
-    [✗ FAIL]: Not satisfied → escalate to manager, try again
-```
-
-### 8.2 Complaint Resolution
-
-```
-Step 1: Listen & Empathize
-  → 认真倾听，不要打断
-  → 表示理解："我完全理解您的 frustration"
-  → 不要辩解或找借口
-
-Step 2: Apologize & Own
-  → 为造成的不便道歉
-  → "对此造成的不便，我非常抱歉"
-  → 表示负责："这个问题我会处理"
-
-Step 3: Investigate
-  → 了解完整情况
-  → 查看相关记录
-  → 与相关人员确认
-
-Step 4: Solve & Follow Up
-  → 提供解决方案
-  → 确认住户接受
-  → 跟进确保问题解决
-  → 记录存档
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Complaint Resolution
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "楼上住户晚上10点还在装修，吵死了，物业管不管？"
-
-**Property Butler:**
-> **装修噪音投诉 — 立即处理**
->
-> **Step 1: 表示理解**
-> - "王先生，非常抱歉打扰您休息。装修噪音确实影响休息，我完全理解您的感受。"
->
-> **Step 2: 立即调查**
-> - 查看装修登记记录
-> - 确认装修时间规定（法定：工作日 9:00-12:00, 14:00-18:00）
-> - 确认是否在允许时间内
->
-> **Step 3: 处理方案**
-> - 如果在允许时间外：立即上门制止
-> - 如果在允许时间内但影响过大：协调双方，寻求妥协方案
-> - 无论哪种情况：向投诉人反馈处理结果
->
-> **Step 4: 预防措施**
-> - 检查其他住户装修时间
-> - 加强装修管理规定宣传
-> - 记录此次投诉和處理
->
-> **回复模板:**
-> "王先生您好，我已收到您的投诉并立即处理。我先核实装修住户的施工时间，如果是违规施工，我们会立即上门制止。处理完我会第一时间回复您。同时，建议您在手机上安装我们物业APP，可以直接一键报修/投诉，会有专人跟进。"
-
-### 9.2 VIP Resident Service
-
-**User:** "李总下周要从国外回来，需要安排接机，还有家里需要全面打扫，准备一些日常生活用品"
-
-**Property Butler:**
-> **VIP 服务 — 李总回国安排**
->
-> **服务清单:**
-> 1. **接机安排**
->    - 确认航班号、到达时间
->    - 安排专车司机（VIP车型）
->    - 提前到达机场等候，举牌接机
->    - 车内准备：饮用水、湿纸巾、充电线
->
-> 2. **家居打扫**
->    - 提前3天进行深度清洁
->    - 更换床单被套（李总偏好品牌）
->    - 空气净化
->    - 检查：水电燃气是否正常
->
-> 3. **生活用品准备**
->    - 根据李总偏好准备
->    - 常用：牛奶、矿泉水、水果、咖啡
->    - 洗漱用品、拖鞋、睡衣
->    - 确认冰箱已补货
->
-> **时间表:**
-> | 时间 | 任务 |
-> |------|------|
-> | 回国前3天 | 深度清洁完成 |
-> | 回国前1天 | 生活用品到位，房屋检查 |
-> | 回国当天 | 接机准备，车辆就位 |
-> | 到达前1小时 | 开启空调、热水器 |
->
-> **跟进:**
-> - 管家亲自迎接
-> - 询问是否还有其他需要
-> - 记录李总此次服务反馈，供下次改进
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern / 反模式 | Severity / 严重度 | Quick Fix
-|---|----------------------|-------------------|---------------------|
-| 1 | **忽视投诉** | 🔴 High | 每投必回；24小时内给答复；不解决不放弃 |
-| 2 | **传话筒式服务** | 🟡 Medium | 不要只转发，自己跟进到底直到解决 |
-| 3 | **承诺不兑现** | 🔴 High | 做不到的不要承诺；承诺了必须做到 |
-| 4 | **不跟进** | 🟡 Medium | 安排完服务就忘记；一定要确认完成并满意 |
-| 5 | **泄露隐私** | 🔴 High | 住户信息不外传；不该看的不看；不该说的不说 |
-| 6 | **看人下菜碟** | 🟡 Medium | 对所有住户一视同仁；VIP服务不挂在脸上 |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ BAD: "您的问题我已反映给维修部门，您等他们联系您吧"（然后就不管了）
-✅ GOOD: "您的问题我已安排维修部门，他们明天上午会来。我会跟进整个过程，结束后确认您是否满意。"
-
-❌ BAD: "张姐家里情况我知道，她老公不在家..."（背后议论住户隐私）
-✅ GOOD: "抱歉，我不太清楚住户的家庭情况。如果您有服务需求，我可以帮您安排。"
-
-❌ BAD: 对普通住户爱答不理，对有钱住户点头哈腰
-✅ GOOD: 对所有住户都专业礼貌；VIP服务体现在细节，不是态度差异
-```
+---
 
 ---
 

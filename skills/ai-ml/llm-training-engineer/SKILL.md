@@ -150,113 +150,25 @@ This skill transforms your AI assistant into an expert **LLM Training Engineer**
 
 ## 7. Standards & Reference
 
-### Parallelism Strategy Reference
+See [references/07-standards.md](references/07-standards.md)
 
-| Scenario / 场景 | Strategy / 策略 | Notes
-|----------------|----------------|------------|
-| Model fits 1 GPU | Single GPU + DDP for data parallel | Baseline; use gradient checkpointing for memory |
-| Model fits 1 node | FSDP ZeRO-2 or ZeRO-3 | ZeRO-3 for largest models; overlap comm=True |
-| 70B on 512 GPUs | TP=8, PP=8, DP=8 (Megatron 3D) | 3D parallelism for maximum throughput |
-| Memory-constrained | DeepSpeed ZeRO-3 + CPU offload | Last resort; kills throughput by 50% |
-
-### Architecture Component Reference
-
-| Component | Options | 2025+ Best Practice |
-|-----------|---------|---------------------|
-| Attention | MHA / MQA / GQA
-| Positional Encoding | Absolute / RoPE
-| Normalization | Pre-LN
-| Activation | ReLU / GeLU / SwiGLU | SwiGLU (FFN: 8/3 × d_model) |
-| Precision | fp32 / bf16
-
-### Domain Data Mix Reference
-
-| Domain | % Tokens | Rationale |
-|--------|----------|-----------|
-| Web (filtered) | 50-60% | General knowledge, language diversity |
-| Code | 15-25% | Reasoning, structured thinking, tool use |
-| Books
-| Scientific papers | 5-10% | Factual grounding, reasoning |
-| Wikipedia | 3-5% | High-quality factual anchor |
-| Dialogue
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### Phase 1: Pre-training Data + Config
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Objective**: Prepare a validated data pipeline and training configuration before first GPU is allocated
-
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | Data deduplication: URL-level + MinHash LSH (Jaccard > 0.8 → remove) | Dedup rate reported; data size after dedup documented | No dedup performed → training data contains duplicates (causes overfitting) |
-| 2 | Quality filtering: heuristic + ML classifier (FastText/BERT trained on Wikipedia vs. web) | Keep top 25-50% by quality score; distribution by domain validated | Unfiltered web data (garbage in → garbage out) |
-| 3 | PII + toxicity: Perspective API or custom classifier; redact emails/SSNs | PII recall > 95% on held-out PII set | PII in training data → legal and security risk |
-| 4 | Training config: global_batch=4096, seq_len=4096, LR=3e-4, bf16=true, grad_clip=1.0 | Config reviewed against hardware constraints | Missing grad_clip → risk of loss divergence |
-| 5 | 1B proxy run: validate data pipeline, architecture, and config | Loss curve shows expected shape; MFU > 40% | Loss divergence at 1B → fix before scaling |
-
-### Phase 2: Fine-tuning & Alignment
-
-**Objective**: Instruction-tune and align a pre-trained model to production quality
-
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | SFT on high-quality instruction pairs (10K-500K examples) | MT-Bench > 7.0; IFEval > 0.75 | Scores below → data quality issue; audit examples |
-| 2 | Choose alignment: DPO for static preference data; PPO for online/iterative | Method selected with justification | No baseline measurement → can't know if alignment helps |
-| 3 | DPO: beta=0.1-0.2, LR=1e-6 to 5e-6, monitor KL divergence | KL(aligned ‖ SFT) < 10 nats; AlpacaEval Win Rate improves | KL > 20 nats → reward hacking; reduce LR |
-| 4 | Capability preservation: MMLU, HumanEval pre/post alignment | Regression < 2% on capability benchmarks | > 5% regression → KL constraint too loose |
-| 5 | Quantization (if serving): AWQ or GPTQ 4-bit | Benchmark regression < 1% vs. fp16 baseline | > 2% regression → try 8-bit or different quant method |
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Loss Spike Diagnosis
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "Our model training loss spiked at 50B tokens and hasn't recovered. What do we do?"
-
-**LLM Training Engineer:**
-
-> **Loss Spike Root Cause Analysis**
->
-> **3 causes in order of probability:**
->
-> **Cause 1: Dirty data batch (70% of cases)**
-> ```python
-> # Extract batch at spike step from training log
-> spike_step = 12500  # step where spike occurred
-> batch_data = get_batch_at_step(spike_step)
->
-> # Check for: extreme length, repeated n-grams, HTML artifacts, encoding errors
-> for sample in batch_data:
->     if len(sample) > 8192:  # abnormally long
->         print(f"Long sample: {len(sample)} tokens")
->     ngram_ratio = repeated_ngram_ratio(sample, n=5)
->     if ngram_ratio > 0.3:
->         print(f"Repetitive sample: {ngram_ratio:.2f}")
-> ```
-> **Fix**: Filter samples exceeding 8192 tokens, repeated n-gram ratio > 30%. Restart from pre-spike checkpoint.
->
-> **Cause 2: Learning rate too high**
-> - Symptom: Loss spike is not recovering (gradient norm consistently > 5.0)
-> - Fix: Reduce peak LR by 30%; add gradient clipping (clip=1.0); restart from pre-spike checkpoint
->
-> **Cause 3: fp16 overflow (switch to bf16)**
-> ```python
-> # Diagnose: print max attention logit values
-> # If > 65504 (fp16 max) → NaN cascade
-> # Fix: Convert to bf16 (stable range: ±3.4×10^38)
-> training_config.precision = "bf16"  # Never use fp16 for 70B+ training
-> ```
->
-> **Immediate action checklist:**
-> 1. ✅ Load checkpoint from 2B tokens before spike
-> 2. ✅ Analyze data around spike step
-> 3. ✅ Set checkpoint frequency to every 1B tokens (not every 10B)
-> 4. ✅ Add gradient norm logging if not already present
+---
 
 ---
 
@@ -350,66 +262,9 @@ This skill transforms your AI assistant into an expert **LLM Training Engineer**
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: fp16 for Large Model Training
-
-```
-BAD:  training_config.precision = "fp16"
-      # At scale, attention logits can overflow fp16 max (65504)
-      # → NaN cascade → training crash → wasted compute budget
-
-GOOD: Always use bf16 for LLM training at 7B+ scale.
-      bf16 range: ±3.4 × 10^38 (same as fp32 exponent)
-      bf16 never overflows on attention logits.
-      fp16 is only acceptable for inference, never training.
-```
-
-**Anti-Pattern 2: Skipping 1B Proxy Experiment
-
-```
-BAD:  "Our 7B architecture design looks good, let's start the 70B run."
-      → 70B run fails at 50B tokens due to architecture bug
-      → 3 months of GPU time wasted
-
-GOOD: Always validate architecture + data pipeline at 1B scale first.
-      1B run takes 1-2 days; identifies:
-      - Data pipeline bugs (malformed batches)
-      - Architecture instability (loss spikes)
-      - Infrastructure issues (NCCL hangs, OOM)
-      Never skip the proxy experiment.
-```
-
-### Medium Severity
-
-**Anti-Pattern 3: LoRA Only on Attention
-
-```
-BAD:  target_modules=["q_proj", "v_proj"]  # Attention only
-      # FFN layers account for 2/3 of parameters
-      # Instruction following requires FFN adaptation
-      # Quality significantly lower than full adaptation
-
-GOOD: target_modules=["q_proj", "k_proj", "v_proj", "o_proj",
-                       "gate_proj", "up_proj", "down_proj"]
-      # Include all attention + FFN gates
-      # 3-5% quality improvement for instruction following tasks
-```
-
-**Anti-Pattern 4: No Gradient Norm Monitoring
-
-```
-BAD:  Train for days without monitoring gradient norms.
-      Loss looks fine but model quality is poor.
-      (Silent gradient explosions being clipped → effective LR collapsing)
-
-GOOD: Log gradient norm every step:
-      wandb.log({"grad_norm": trainer.state.grad_norm})
-      Normal range: 0.1 - 2.0
-      Warning: > 5.0 (check data, reduce LR)
-      Critical: > 10.0 (likely data issue or too high LR)
-      NaN: data corruption or fp16 overflow
-```
+---
 
 ---
 

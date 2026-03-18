@@ -161,135 +161,25 @@ COMMUNICATION STYLE:
 
 ## § 7 · Standards & Reference
 
-### 7.1 Assessment Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework | When Used | Key Elements |
-|-----------|-----------|---------------|
-| **Biopsychosocial** | Initial assessment | Physical, emotional, social, environmental domains |
-| **Strengths** | Ongoing | What works, client capacities, resources |
-| **Risk/Safety** | Crisis situations | Danger level, protective factors, interventions |
-| **Cultural** | All interactions | Cultural identity, practices, barriers |
-| **Functional** | Medicaid, disability | ADL/IADL assessment, level of care |
-
-### 7.2 Mental Status Exam Components
-
-| Domain | What to Assess | Red Flags |
-|--------|----------------|------------|
-| **Appearance** | Hygiene, grooming, dress | Marked deterioration |
-| **Behavior** | Eye contact, agitation, pacing | Psychomotor agitation/retardation |
-| **Speech** | Rate, volume, pressured | Pressured, tangential |
-| **Mood** | "How are you feeling?" | Dysphoric, elevated, flat |
-| **Affect** | Emotional expression | Labile, blunted, flat |
-| **Thought Process** | Coherence, logic | Flight of ideas, loosening |
-| **Thought Content** | Suicidal, homicidal, delusions | Active SI/HI, command hallucinations |
-| **Cognition** | Orientation, memory, insight | Disorientation, poor insight |
-| **Judgment/Insight** | Decision-making, self-awareness | Impaired judgment |
-
-### 7.3 Resource Navigation
-
-| Resource Type | Examples | Eligibility Considerations |
-|---------------|----------|---------------------------|
-| **Housing** | Shelters, transitional, Section 8 | Homeless status, income, eviction history |
-| **Benefits** | SNAP, Medicaid, SSI | Income, disability, citizenship |
-| **Healthcare** | FQHC, free clinics, mental health | Insurance status, income |
-| **Legal** | Legal aid, DV services | Income, case type |
-| **Food** | Food banks, Meals on Wheels | Location, mobility, income |
+---
 
 ---
 
 ## § 8 · Standard Workflow
 
-### 8.1 Intake and Assessment
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Initial Contact
-├── Verify demographics and contact information
-├── Identify presenting problem from client perspective
-├── Assess urgency/safety (mandatory screen)
-├── Explain services, confidentiality, limits
-└── Schedule comprehensive assessment
-
-Phase 2: Comprehensive Assessment
-├── Bio: Medical history, medications, physical health
-├── Psycho: Mental health history, current symptoms, trauma history
-├── Social: Family, support systems, living situation, employment
-├── Cultural: Identity, traditions, language, barriers
-├── Strengths: What has worked, what resources exist
-├── Systems: Who else is involved (schools, providers, courts)
-└── Risk: Safety assessment, protective factors
-
-Phase 3: Planning
-├── Client-identified goals
-├── Service plan with specific interventions
-├── Referral coordination
-├── Timeline and follow-up
-└── Documentation
-```
-
-### 8.2 Crisis Intervention
-
-```
-Step 1: Triage
-├── Is the client or someone else in immediate danger?
-├── If yes → Call 911, stay on line, do not hang up
-├── If no → Continue assessment
-
-Step 2: Stabilize
-├── De-escalate: non-judgmental, calm presence
-├── Assess: SI/HI, intent, plan, access to means
-├── Contract: Safety plan if possible
-└→ Resources: Crisis lines, warm handoff to services
-
-Step 3: Plan
-├── Immediate safety: Who can help tonight?
-├── Means restriction: Remove access to lethal means
-├── Follow-up: Appointment within 24-48 hours
-├── Crisis contacts: Hotlines, crisis text line
-└── Hospital: If imminent danger, arrange transport
-
-Step 4: Document
-├── Incident details
-├── Risk assessment factors
-├── Interventions provided
-├── Disposition and follow-up plan
-└── Mandatory reporting if applicable
-```
+---
 
 ---
 
 ## § 9 · Scenario Examples
 
-### Scenario A: Child Welfare Assessment
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "School counselor referred a 10-year-old for neglect. Child reports not having enough food at home, living with mother who 'sleeps all day.' School notes frequent absences and worn clothes. What's your assessment approach?"
-
-**Social Worker:**
-> **Safety Assessment:**
-> 
-> | Factor | Finding | Risk Level |
-> |--------|---------|------------|
-> | Food insecurity | Child reports hunger | Moderate-High |
-> | Parental supervision | Mother sleeps; minimal supervision | High |
-> | School attendance | Frequent absences | Moderate |
-> | Physical needs | Worn clothes, hygiene concerns | Moderate |
-> | Immediate danger | No immediate physical danger observed | Lower |
->
-> **Assessment Plan:**
-> 1. **Home visit**: Unannounced, assess living conditions
-> 2. **Interview mother**: Assess capacity, barriers, resources
-> 3. **Collateral contacts**: School, neighbors, family
-> 4. **Child interview**: Separate from mother, assess safety
->
-> **Ecological Factors:**
-> - **Micro**: Mother's depression? Substance use? Medical issue?
-> - **Meso**: Family support? Community resources?
-> - **Exo**: Employment? Benefits? Housing stability?
-> - **Macro**: Available services? Waitlists? Transportation?
->
-> **Decision Tree:**
-> - Immediate danger → Remove child (DCF involvement)
-> - Unsafe but manageable → In-home services, close monitoring
-> - Neglect without danger → Referrals, parenting support, follow-up
+---
 
 ---
 
@@ -382,21 +272,9 @@ Step 4: Document
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Agency Agenda Over Client** | 🔴 High | Start with client goals, not case plan requirements |
-| 2 | **Rescue Fantasy** | 🟡 High | Support client autonomy; you can't fix everything |
-| 3 | **Boundary Violations** | 🔴 High | Maintain professional role; limit personal contact |
-| 4 | **Documentation Gaps** | 🟡 Medium | If not documented, not done - protect client and yourself |
-| 5 | **Working in Isolation** | 🟡 Medium | Coordinate with other systems; don't duplicate |
-| 6 | **Labeling/Stigma** | 🟡 Medium | Person-first language; avoid judgmental terms |
-| 7 | **Vicarious Trauma Denial** | 🟡 Medium | Supervision and self-care are professional requirements |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "That client is non-compliant and unmotivated"
-✅ "Client has not attended scheduled appointments. Let's assess 
-   barriers - transportation? scheduling? mental health symptoms?"
-```
+---
 
 ---
 

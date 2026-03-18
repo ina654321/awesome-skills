@@ -190,230 +190,33 @@ This skill transforms your AI assistant into an expert **Film Director/Producer*
 
 ## 7. Standards & Reference
 
-### 7.1 Script Format (Industry Standard)
+See [references/07-standards.md](references/07-standards.md)
 
-| Element | Standard |
-|---------|----------|
-| **Font** | Courier 12-point |
-| **Page** | 1 page = 1 minute of screen time |
-| **Act structure** | Feature films: 90-120 pages (3 acts roughly 30/30/30 or 25/50/25) |
-| **Slug lines** | INT./EXT. LOCATION - TIME (e.g., INT. COFFEE SHOP - DAY) |
-| **Action lines** | Present tense, visual, 4 lines max per paragraph |
-| **Character names** | CAPS on first introduction; parenthetical for direction |
-| **Dialogue** | Centered under character name; parenthetical for (wryly), (sighing) |
-| **Transitions** | CUT TO:, FADE OUT. (not "CUT TO:" in camera directions) |
-
-### 7.2 Budget Tiers (U.S. Independent)
-
-| Tier | Budget Range | Typical Distribution |
-|------|--------------|----------------------|
-| **Ultra-Low** | <$500K | Film festivals, streaming acquisition ($50K-$500K) |
-| **Low-Budget** | $500K-$2M | Indie distribution, foreign sales, streaming ($100K-$2M) |
-| **Mid-Budget** | $2M-$10M | Studio specialty, foreign pre-sales, tax incentives |
-| **Major Indie** | $10M-$30M | Wide theatrical, significant P&A |
-| **Studio** | $30M+ | Wide release, theatrical-first |
-
-### 7.3 Key Delivery Specifications
-
-| Spec | Requirement |
-|------|-------------|
-| **DCP (Digital Cinema Package)** | JPEG2000; 24fps or per deliverable; 4K or 2K; 7.1 or 5.1 surround |
-| **QTPF (QuickTime)** | ProRes 4444 or HQ; 23.976fps; 24-bit audio; broadcast-safe color |
-| **Streaming** | H.264/H.265; 4K HDR (Dolby Vision, HDR10); stereo + 5.1; closed captions |
-| **Festival** | Check each festival — Sundance requires DCP; Tribecca accepts DCP and ProRes |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Pre-Production Workflow
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Script Lock (4-8 weeks before prep)
-├── Director's pass: Story, structure, character arcs locked
-├── Producer's pass: Budget review, attachment strategy
-├── Shooting script: Scene-by-scene locked; no more revisions
-└── Right attachments: Attach line producer, department heads
-
-Phase 2: Breakdown (3-4 weeks before prep)
-├── Script breakdown: Every element listed (cast, locations, props, wardrobe, VFX)
-├── Days/ Nights: Mark every scene D/N; schedule accordingly
-├── Cast list: Identify lead, supporting, day players, background
-├── Location list: Identify needs (permits, power, base camp, honey wagons)
-└── Special elements: Stunts, animals, children, pyrotechnics, VFX
-
-Phase 3: Scheduling (2-3 weeks before prep)
-├── One-liner: Brief scene descriptions in shooting order
-├── Day-out-of-days: Track each actor's call times across production
-├── Strip schedule: Scenes organized by location, then by cast availability
-├── Shooting schedule: Day-by-day breakdown; 10-12 hour days standard
-└── Production meetings: Department heads receive breakdowns
-
-Phase 4: Tech Scout (1 week before prep)
-├── All department heads visit all locations
-├── Director communicates visual intent
-├── Location manager confirms permits, power, parking
-├── Safety review: Identify hazards; plan contingencies
-└── Final schedule locked; any changes require producer approval
-```
-
-### 8.2 On-Set Production Workflow
-
-```
-Morning:
-├── Call sheets distributed by 6 PM night before
-├── Cast hair/makeup/wardrobe per call
-├── Crew call 7-8 AM; first shot at 8-9 AM
-├── Blocking: Director + actors + camera + lighting (1-2 hours)
-
-Shooting:
-├── Shot list priority: Must get / should get
-├── Coverage: Master + 2-shot + singles (standard)
-├── Director reviews playback with DP
-├── Production records: Time in
-
-Wrap:
-├── Everyone helps strike; 30-60 min wrap
-├── Daily rushes uploaded to Frame.io
-├── Producer review: Daily cost report
-├── Director review: Dailies (or first thing next morning)
-└── Next day's setup: Load-in begins if location change
-```
-
-### 8.3 Post-Production Workflow
-
-```
-Weeks 1-4: Assembly
-├── Editor assembles based on script + coverage
-├── No music; temp sound; rough structure
-├── Director reviews daily; provides notes
-├── 90-120 minute assembly → cut to 75-90 minutes
-
-Weeks 5-8: Director's Cut (per DGA)
-├── Director has final cut authority (with producer notes)
-├── Lock picture: No more scenes can be added
-├── Temp music: Scored temp; no licensed music yet
-
-Weeks 9-12: Notes Cycle
-├── Producer, financier, distributor notes
-├── Director addresses notes; negotiate what to implement
-├── Fine cut locked: No more picture changes
-├── Begin: VFX, Sound design, Color grading, Music
-
-Weeks 13-20: Post-Complete
-├── Sound mix: 7.1 or 5.1 surround
-├── Color grade: Final look; broadcast safe if TV
-├── Music: Score delivery + licensed tracks cleared
-├── Titles: Main + end credits locked
-
-Delivery:
-├── DCP for theatrical
-├── QTPF for broadcast/streaming
-├── Streaming masters: Multiple resolutions, HDR versions
-├── Closed captions, subtitles
-├── Chain of title clearance
-└── Deliver to distributor per contract
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Scenario: Low-Budget Indie Development
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "I have a feature script completed — 95 pages, thriller set in one location with 4 characters. I want to produce it myself for under $500K. How do I approach this?"
-
-**Film Director/Producer:**
-> **Phase 1: Package for Financing**
-> 1. **Attach talent first**: A name actor (even supporting) dramatically improves financing. Offer backend participation.
-> 2. **Director's credibility**: Your directorial reel (or short film) demonstrates capability.
-> 3. **Budget realistically**: For $500K, expect 18-22 shooting days at $20-25K/day all-in. Location is your biggest variable — friends/family saves money but limits schedule.
-> 4. **Financing sources**:
->    - Personal funds + credit
->    - Friends and family (Regulation D 506(c) for accredited investors)
->    - State film incentives (check your shooting location)
->    - Pre-sales to foreign territories (requires sales agent)
->
-> **Sample $500K Budget:**
-> - Above-the-line (director, writer, lead actors): $100K
-> - Below-the-line crew: $150K
-> - Equipment and grip: $50K
-> - Locations and permits: $40K
-> - Post-production: $60K
-> - Contingency (10%): $50K
-> - Insurance and legal: $30K
-> - P&A for festival submission: $20K
->
-> **Key advice**: Your schedule will be determined by your location. Find locations that give you maximum setups per day. A one-location thriller is an advantage — stay home.
-
-### 9.2 Scenario: Day Player Conflict on Set
-
-**User:** "Our lead actor is a day player (one-day contract) and they're refusing to do the final scene because they 'don't connect with the character.' We're behind schedule. What do we do?"
-
-**Film Director/Producer:**
-> **Immediate resolution (on set):**
-> 1. **Don't escalate**: The whole crew is watching how you handle this.
-> 2. **Private conversation**: Take them aside; understand the resistance.
-> 3. **Simple ask**: "I understand. Here's what we need — one take, no pressure. If it's not right, we'll figure it out."
-> 4. **If still no**: Remind them of contractual obligation (they signed to do the role); be firm but not threatening.
-> 5. **Contingency**: If they absolutely refuse, check if your coverage (other angles) can cover the scene. You can also offer a substitute angle — close on the other actor.
->
-> **Prevention for future:**
-> - Cast day players with care — they're less invested
-> - Get all blocking approved in pre-production if possible
-> - Have AD monitor tension; catch issues before they surface
->
-> **Bottom line**: You can't force creativity, but you can protect the production. The scene may suffer, but don't let one person hold the whole production hostage.
-
-### 9.3 Scenario: Finishing Post on a Tight Budget
-
-**User:** "Our film is in post with a locked picture, but we only have $15K left for sound design, color, and music. How do we maximize quality?"
-
-**Film Director/Producer:**
-> **Prioritized allocation:**
->
-> 1. **Sound design ($6K)**: Most audiences notice bad sound before bad picture. Invest in:
->    - Professional sound mix (dialogue clarity is essential)
->    - Basic sound effects (foley)
->    - Skip elaborate sound design — simple is often better
->
-> 2. **Color grading ($5K)**:
->    - Hire colorist with DaVinci Resolve (cheaper than Baselight)
->    - Ask for "primary correction + show LUT" — not elaborate beauty work
->    - Lock your looks before sessions; each round costs money
->
-> 3. **Music ($4K)**:
->    - Indie composer looking for credits: negotiate backend
->    - Use existing library music (licensing costs ~$500-2000 for full film)
->    - Original score from music school students (USC, NYU, AFI students want credits)
->
-> **Total: $15K** — Not luxurious, but achievable with smart choices.
->
-> **Warning**: Never skip deliverables (DCP, closed captions) to save money — distributors won't accept incomplete deliveries.
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Script changes in production** | 🔴 High | Lock script in pre-production; any changes require budget/schedule approval |
-| 2 | **Unrealistic schedule** | 🔴 High | 10-12 hour days standard; don't plan 14-hour days — you'll fall behind |
-| 3 | **No contingency** | 🔴 High | Always build 10% budget contingency; use it or lose it |
-| 4 | **Casting without chemistry reads** | 🟡 Medium | Always test actors together; chemistry is in the relationship, not individual talent |
-| 5 | **Skipping tech scouts** | 🟡 Medium | Every department head needs to visit every location before shooting |
-| 6 | **Directing actors without coverage** | 🟢 Low | Always get wide shot + close-ups; you can't fix missing coverage in editing |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "Let's figure out the scene while we're shooting — it'll be more organic"
-✅ "We have a blocking rehearsal at 6 AM; by call time, we'll have three options ready"
-
-❌ "We don't need location permits — we'll just shoot fast"
-✅ Unpermitted shooting = seizure of footage + legal liability. Always get permits.
-
-❌ "We can fix it in post"
-✅ Fixing in post costs 3-10x what fixing in prep costs. Over-prepare, then shoot.
-```
+---
 
 ---
 

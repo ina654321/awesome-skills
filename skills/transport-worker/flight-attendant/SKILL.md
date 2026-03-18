@@ -183,55 +183,17 @@ Install this skill on your preferred AI coding platform:
 
 ## § 7 Standards & Reference
 
-### Key Aviation Regulations
+See [references/07-standards.md](references/07-standards.md)
 
-| Regulation | Scope | Key Requirements |
-|------------|-------|-----------------|
-| **FAA Part 121** | Crew member requirements | Training, duty time, qualifications |
-| **FAA Part 121.542** | Crew communications | Sterile cockpit below 10,000 ft |
-| **FAA Part 121.571** | Passenger safety briefings | Seat belt, emergency exits, smoking |
-| **DOT 14 CFR 250** | Oversales | Denied boarding procedures |
-| **DOT 14 CFR 259** | Enhanced protections | Tarmac delay rules |
-| **AIM (Aeronautical Information Manual)** | Emergency procedures | Reference for emergencies |
-| **Company SOPs** | Operating procedures | Airline-specific procedures |
-| **FAR 121.417** | Flight attendant training | Initial and recurrent training |
-
-### Key Performance Metrics
-
-| KPI | Target | Measurement Method |
-|-----|--------|--------------------|
-| **Safety Demonstrations** | 100% completion | Pre-flight check |
-| **Passenger Complaints** | <1% of passengers | Complaint tracking |
-| **Medical Events Handled** | All with proper procedure | Incident reports |
-| **Evacuation Drills** | Quarterly completion | Training records |
-| **Service Quality Rating** | ≥4.5/5 | Passenger surveys |
-| **On-Time Service** | ≥90% | Service completion tracking |
-| **Crew Incidents** | Zero | Incident reports |
-| **Training Compliance** | 100% current | Training records |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Pre-Flight Preparation
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Activities:**
-- Review flight details: route, duration, passenger count, VIP/special needs
-- Complete pre-flight briefing with crew: emergency assignments, service flow, security
-- Verify emergency equipment: first aid kits, AED, extinguishers, oxygen
-- Check galley supplies: meals, beverages, service items
-- Inspect cabin: cleanliness, seat condition, lavatories
-- Coordinate with cockpit crew: departure time, security, special items
-
-**✓ Done Criteria:**
-- All crew briefed
-- Equipment verified
-- Cabin ready
-
-**✗ FAIL Criteria:**
-- Missing crew briefing
-- Inoperative equipment not documented
-- Cabin not ready for boarding
+---
 
 ---
 
@@ -314,36 +276,9 @@ Install this skill on your preferred AI coding platform:
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Turbulence Injury
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** We just hit severe turbulence. A passenger in 15C is bleeding from the head and seems dazed. The seat belt sign was on. What do I do?
-
-**Professional Flight Attendant:**
-> This is a medical/trauma emergency. Act systematically.
-
-**IMMEDIATE ACTIONS:**
-1. **Secure yourself** — Sit down and strap in if at all possible
-2. **Announce** — "Flight Attendant needed at row 15"
-3. **Assess** — Check responsiveness: "Can you hear me? Can you open your eyes?"
-4. **Control bleeding** — Apply direct pressure with available cloth (blanket, towel, your uniform)
-5. **Call cockpit** — "Captain, we have a passenger injury requiring medical attention and possible diversion"
-
-**MEDICAL ASSESSMENT:**
-- Is the passenger responsive?
-- Where is the bleeding coming from?
-- Is there a concussion risk? (dazed = check for consciousness)
-- Is spinal injury possible? (don't move if head/neck injury suspected)
-
-**IF SERIOUS:**
-- Request medical professional assistance (ask cabin: "Is there a doctor on board?")
-- Use first aid kit: bandages, antiseptic
-- Prepare for potential diversion
-- Document everything
-
-**POST-TURBULENCE:**
-- Continue monitoring passenger
-- Complete passenger incident report
-- Gather witness information if needed
+---
 
 ---
 
@@ -429,11 +364,9 @@ The pilot will make the decision, but typically divert if:
 
 ## § 10 Common Pitfalls
 
-### Pitfall 1: Not Enforcing Seat Belt Sign
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:** "It's just light turbulence, no need to make them sit down"
-
-✅ **GOOD:** Every announcement must be enforced. Pass the message: "For your safety, please remain seated with seat belt fastened." If they refuse, document and escalate to cockpit.
+---
 
 ---
 

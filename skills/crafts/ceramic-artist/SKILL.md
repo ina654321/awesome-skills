@@ -183,191 +183,33 @@ Respect each stage—rushing creates weak work.
 
 ## 7. Standards & Reference
 
-### 7.1 Clay Body Categories
+See [references/07-standards.md](references/07-standards.md)
 
-| Type | Firing Temp | Characteristics | Best For |
-|------|-------------|-----------------|----------|
-| **Earthenware** | 1000-1150°C | Soft, porous, colorful glazes | Decorative, low-fire work |
-| **Stoneware** | 1200-1300°C | Durable, vitreous, functional | Tableware, vessels |
-| **Porcelain** | 1280-1400°C | White, translucent, challenging | Fine vessels, sculpture |
-| **Raku Clay** | Adjustable | Flexible, heat-resistant | Raku firing |
-
-### 7.2 Common Glaze Faults
-
-| Fault | Chinese | Cause | Solution |
-|-------|---------|-------|----------|
-| **Crawling** | 缩釉 | Over-firing, thick application, dirty surface | Clean surface, thinner application, reduce temp |
-| **Blistering** | 起泡 | Fast firing, trapped gases, over-firing | Slower firing, proper combustion |
-| ** crazing** | 开片 | Thermal mismatch between clay and glaze | Adjust glaze recipe, match clay body |
-| **Pinholing** | 针孔 | Application issues, firing too fast | Better application, slower bisque |
-
-### 7.3 Traditional Chinese Glazes
-
-| Glaze | Color | Characteristics | Firing |
-|-------|-------|-----------------|--------|
-| **Qingci (青瓷)** | Green-blue | Subtle, quiet, classic | Reduction |
-| **Yongle Blue (永乐青)** | Blue-white | Underglaze copper red | Reduction |
-| **Jun (钧瓷)** | Purple-blue | Splashed effects | Oxidation |
-| **Fahua (法花)** | Blue-green | Underglaze enamel | Mid-fire |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Functional Ware Creation
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Design & Planning
-├── Determine function: cup, bowl, plate, vase?
-├── Plan dimensions and proportions
-├── Consider how it will be held, used, displayed
-└── [✓ Done]: Clear design vision documented
-    [✗ FAIL]: Unclear purpose → redesign before starting
-
-Phase 2: Clay Preparation
-├── Wedging: remove air bubbles, prepare workable mass
-├── Match clay body to intended use and firing method
-└── [✓ Done]: Properly wedged clay, ready for forming
-
-Phase 3: Forming
-├── Wheel throwing or hand-building based on design
-├── Allow piece to set before trimming
-├── Add feet, handles, spouts as needed
-└── [✓ Done]: Leather-hard piece ready for drying
-
-Phase 4: Drying & Bisque
-├── Dry slowly and evenly to prevent cracks
-├── Bisque fire to appropriate temperature (typically cone 04-06)
-└── [✓ Done]: Bisque-fired piece ready for glazing
-
-Phase 5: Glazing
-├── Apply appropriate glaze (dip, brush, pour)
-├── Ensure even coverage, no bare spots on functional areas
-└── [✓ Done]: Glazed piece ready for final firing
-
-Phase 6: Final Firing
-├── Load kiln appropriately (spaced for even heat)
-├── Fire to correct cone (verify with witness cones)
-└── [✓ Done]: Completed piece, allowed to cool before unpacking
-```
-
-### 8.2 Glaze Testing
-
-```
-Step 1: Mix small batch of glaze per recipe
-Step 2: Apply to test tiles (at least 3 tiles per glaze)
-Step 3: Fire test tiles alongside normal load
-Step 4: Evaluate results: color, surface, fit
-Step 5: Adjust recipe if needed; repeat until desired result
-Step 6: Document successful recipe with firing cone, application method
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Tableware Commission
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我要定制一套茶具，6个茶杯+茶壶+托盘，简约风格，用于高端茶馆"
-
-**Ceramic Artist:**
-> **茶具定制设计方案**
->
-> | 元素 | 建议 |
-> |------|------|
-> | **风格** | 简约现代，白瓷或淡青釉 |
-> | **茶壶容量** | 150-200ml，适合功夫茶 |
-> | **茶杯** | 30-40ml，厚壁隔热 |
-> | ** clay** | 瓷泥或高白度陶泥 |
-> | **烧成** | 1280°C还原或1260°C氧化 |
->
-> **关键考量**:
-> - 茶杯需要 **隔热效果**，双层设计或厚壁
-> - 茶壶把手要考虑 **握持舒适度**
-> - 所有食品接触面必须使用 **食品安全釉**
-> - 建议留 **10% 容差**，因为手工制作不可能完全相同
->
-> **时间预估**: 2-3个月（每月制作1-2件，加上烧成等待）
->
-> **Next, I need from you:**
-> 1. 有特定颜色偏好吗？（白、青、灰）
-> 2. 需要logo或品牌印记吗？
-
-### 9.2 Troubleshooting
-
-**User:** "我的釉料在烧制后大面积剥落，这是什么原因？"
-
-**Ceramic Artist:**
-> **缩釉问题诊断**
->
-> **最可能原因分析**:
-> | 原因 | 可能性 | 检查方法 |
-> |------|--------|----------|
-> | 釉料太厚 | 高 | 测量釉层厚度，应<3mm |
-> | 表面有油污 | 中 | 检查素烧后表面是否干净 |
-> | 烧成温度太高 | 中 | 检查是否超过釉料承受温度 |
-> | 釉料与 clay 不匹配 | 中 | 测试不同 clay 底材 |
->
-> **解决方案**:
-> 1. 减少釉料厚度，采用浸釉而非刷釉
-> 2. 用酒精彻底清洁素烧后的表面
-> 3. 使用试片确认正确烧成温度
-> 4. 考虑更换 clay 底材或调整釉料配方
->
-> **预防建议**: 每次新釉料先在试片上测试；在非关键作品上验证后再用于重要作品
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Greenware in Kiln Too Soon
-
-```markdown
-❌ BAD: Loading pieces that aren't completely dry → steam explodes pieces →
-damages kiln and other work
-
-✅ GOOD: Test by weighing: bone-dry weight = fully dry; or tap—hollow sound = ready
-```
-
-**Anti-Pattern 2: Wrong Glaze for Firing Type
-
-```markdown
-❌ BAD: Using mid-fire glaze in low-fire kiln → underfired, won't mature; using
-reduction glaze in electric kiln → no effect
-
-✅ GOOD: Research glaze compatibility; test before final application; understand your kiln
-```
-
-**Anti-Pattern 3: Overloading Kiln
-
-```markdown
-❌ BAD: Packing kiln too tightly → uneven heat distribution → broken pieces,
-unfired spots
-
-✅ GOOD: Leave 2-3cm between pieces; ensure proper air circulation; use kiln wash on shelves
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Skipping Test Tiles
-
-```markdown
-❌ BAD: Using untested glaze on final piece → unpredictable results → wasted work
-
-✅ GOOD: Always test new glazes on at least 3 test tiles before committing to final work
-```
-
-**Anti-Pattern 5: Opening Kiln Too Soon
-
-```markdown
-❌ BAD: Opening kiln before cooled → thermal shock cracks pieces → especially
-porcelain cracks easily
-
-✅ GOOD: Allow kiln to cool naturally to 100°C before opening; faster cooling
-can be done after 200°C but with risk
-```
+---
 
 ---
 

@@ -202,212 +202,33 @@ POSITIVE      Baseline                    Viral moment = opportunity
 
 ## 7. Standards & Reference
 
-### 7.1 Sentiment Scoring Methods
+See [references/07-standards.md](references/07-standards.md)
 
-| Method | Description | When to Use |
-|--------|-------------|-------------|
-| **Binary (Positive/Negative)** | Simple classification | Quick analysis, high volume, limited nuance needed |
-| **5-Point Scale** | Strong Negative → Mild Negative → Neutral → Mild Positive → Strong Positive | More precision needed; tracking changes over time |
-| **Emotion Tags** | Joy, Anger, Fear, Sadness, Surprise, Disgust | Understanding emotional drivers, not just valence |
-| **Aspect-Based** | Sentiment toward specific features (price, quality, service) | Product or service-specific insights |
-| **NLP-based** | Transformer models (BERT, etc.) for context-aware classification | Large datasets requiring accuracy at scale |
-
-### 7.2 Key Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
-| **Net Sentiment** | % Positive - % Negative | >50% positive is healthy; <0% requires attention |
-| **Share of Voice** | Brand mentions
-| **Sentiment Velocity** | Change in negative mentions per hour | Alert threshold: >3x baseline |
-| **Reach vs. Engagement** | Impressions vs. interactions | High reach + low engagement = awareness; high engagement = impact |
-| **Influencer Impact** | Weighted sentiment by influencer tier | Not all mentions equal |
-
-### 7.3 Reporting Standards
-
-| Element | Requirement |
-|---------|-------------|
-| **Sample Size** | Always report N (total mentions analyzed) |
-| **Time Period** | Define start/end dates clearly |
-| **Source Attribution** | List platforms included (Twitter, Reddit, News, etc.) |
-| **Margin of Error** | For surveys: ±3% at 95% confidence |
-| **Limitations** | Acknowledge what's not captured |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Standard Monitoring Report
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Data Collection (Automated ongoing)
-├── Set up keyword tracking: Brand, products, executives, competitors
-├── Define data sources: Social, news, forums, blogs
-├── Configure time zone and language filters
-└── Continuous ingestion to dashboard
-
-Phase 2: Weekly Analysis (1-2 hours weekly)
-├── Review sentiment trends: Any significant shifts?
-├── Top themes: What are people talking about most?
-├── Influencer mentions: Who is saying what?
-├── Competitive comparison: How does sentiment compare to peers?
-└── Flag items: Anything requiring immediate attention?
-
-Phase 3: Monthly Strategic Review (2-4 hours monthly)
-├── Executive summary: Top 3 insights for leadership
-├── Trend analysis: Month-over-month changes
-├── Campaign attribution: Did recent campaigns move sentiment?
-├── Recommendation: What should communications do differently?
-└── QBR preparation: Quarterly business review for stakeholders
-```
-
-### 8.2 Crisis Monitoring Protocol
-
-```
-When negative sentiment spike detected:
-1. Triage (Immediate, 15 min)
-   ├── Assess severity: Volume, velocity, source credibility
-   ├── Identify trigger: What started this?
-   ├── Determine reach: How far has it spread?
-
-2. Stakeholder Alert (Within 1 hour)
-   ├── Notify comms lead and legal
-   ├── Brief internal stakeholders
-   ├── Prepare holding statement if needed
-
-3. Continuous Monitoring (Ongoing)
-   ├── Hourly sentiment updates for first 24 hours
-   ├── Track spread: Is it contained or escalating?
-   ├── Monitor for secondary amplification
-
-4. Response & Recovery (24-72 hours)
-   ├── Execute response strategy
-   ├── Monitor sentiment for improvement
-   ├── Document lessons learned
-```
-
-### 8.3 Research Project Workflow
-
-```
-Step 1: Define Objectives
-   - What question needs answering?
-   - What decisions will this inform?
-
-Step 2: Design Methodology
-   - Quantitative (surveys): Sample size, questions, timing
-   - Qualitative (focus groups): Recruitment, discussion guide
-   - Secondary: Existing data sources to supplement
-
-Step 3: Data Collection
-   - Field surveys or focus groups
-   - Social listening queries
-   - Media analysis
-
-Step 4: Analysis
-   - Statistical significance testing
-   - Cross-tabulations by demographic
-   - Sentiment coding for qualitative
-
-Step 5: Synthesis & Recommendations
-   - Key findings summary
-   - Implications for strategy
-   - Next steps and timeline
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Scenario: Corporate Reputation Crisis
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "Our CEO just made a controversial statement on Twitter. Negative mentions are spiking — up 500% in the last hour. What do we do?"
-
-**Public Opinion Analyst:**
-> **Immediate Assessment:**
->
-> | Metric | Status | Implication |
-> |--------|--------|-------------|
-> | Volume | +500% vs. baseline | Significant spike, not just noise |
-> | Velocity | Accelerating | Will likely continue for hours |
-> | Sources | Mix of verified accounts + viral retweets | Not just isolated critics |
-> | Sentiment | 85% negative | Highly negative, few defenders |
-> | Reach | 50K+ impressions in 1 hour | Wide spread, mainstream attention |
->
-> **Recommended Response:**
-> 1. **Do NOT engage immediately** — 1-hour-old crisis is too early; more facts needed
-> 2. **Monitor velocity** — If it stabilizes in 2-3 hours, may be contained; if it accelerates, escalate
-> 3. **Prepare two scenarios**:
->    - Scenario A: CEO apologizes/clarifies (if statement was tone-deaf)
->    - Scenario B: Double down (if statement was intentional but poorly phrased)
-> 4. **Track secondary themes** — Are employees, investors, partners responding?
-> 5. **In 6 hours**: If sentiment hasn't improved, recommend formal response
->
-> **Early Warning Miss:** This should have been caught — controversial CEO statements should be reviewed before posting.
-
-### 9.2 Scenario: Competitive Benchmarking
-
-**User:** "How does our brand perception compare to our top two competitors? I need a 30-second summary for the board."
-
-**Public Opinion Analyst:**
-> **Executive Summary:**
->
-> | Metric | Our Brand | Competitor A | Competitor B |
-> |--------|-----------|--------------|--------------|
-> | Net Sentiment | +42% | +38% | +15% |
-> | Share of Voice | 35% | 40% | 25% |
-> | Top Theme | Product quality | Price/value | Innovation |
-> | Trend (30-day) | Stable | ↓ -5% | ↑ +8% |
->
-> **Key Insight:**
-> - We lead in sentiment, but Competitor A has more conversation volume
-> - Competitor B is gaining ground on innovation — threat to our differentiation
-> - Our quality narrative is working; protect and amplify
->
-> **Recommendation:** Highlight quality leadership in next campaign; monitor Competitor B's innovation narrative for threats.
-
-### 9.3 Scenario: Campaign Effectiveness
-
-**User:** "We launched a new campaign two weeks ago. Has it moved the needle on brand sentiment?"
-
-**Public Opinion Analyst:**
-> **Pre/Post Campaign Analysis:**
->
-> | Metric | 2 Weeks Before | 2 Weeks After | Change |
-> |--------|---------------|---------------|--------|
-> | Net Sentiment | +35% | +41% | +6 pts |
-> | Positive Volume | 12K mentions | 15K mentions | +25% |
-> | Negative Volume | 8K mentions | 9K mentions | +12.5% |
-> | Campaign Awareness | N/A | 18% of mentions | New metric |
-> | Key Message "sustainable" | 5% of mentions | 12% of mentions | +7 pts |
->
-> **Assessment:**
-> - Positive movement: +6 points net sentiment is meaningful
-> - Message penetration: "Sustainable" appearing in 12% of mentions = campaign is breaking through
-> - Watch negative: Up 12.5% — investigate what's driving it
->
-> **Recommendation:** Campaign is working — maintain. Investigate negative spike to ensure it's not campaign-related.
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Small sample over-indexing** | 🔴 High | Require minimum 100+ mentions per segment before drawing conclusions |
-| 2 | **Social media = population** | 🔴 High | Always note: social media users ≠ general population; acknowledge demographic bias |
-| 3 | **Ignoring neutral mentions** | 🟡 Medium | Neutral is data too — often the largest segment; analyze what drives neutrality |
-| 4 | **Reacting to every fluctuation** | 🟡 Medium | Day-to-day variance is normal; set significance thresholds before alerting |
-| 5 | **No baseline for comparison** | 🟢 Low | Always define baseline (last 30 days, competitor average) before declaring change |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "Sentiment is 85% positive — great results!"
-✅ "Sentiment is 85% positive, but that's down from 92% last month — we need to investigate the 7-point drop"
-
-❌ "Twitter says everyone hates the new product"
-✅ "Twitter shows 340 mentions of the new product, 65% negative — this represents 0.02% of our customer base"
-
-❌ "This viral post will destroy the brand"
-✅ "Viral post has 50K impressions, but velocity is declining — monitor for next 24 hours before escalating"
-```
+---
 
 ---
 

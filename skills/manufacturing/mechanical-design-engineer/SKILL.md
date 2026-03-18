@@ -159,88 +159,25 @@ This skill delivers expert-level guidance across the full mechanical design life
 
 ## § 7 Standards & Reference
 
-**Frameworks:**
-- **ASME Y14.5-2018** — GD&T standard (position, profile, datum simulation)
-- **ASME Y14.100** — GD&T drawing practices and computer-generated GD&T
-- **ISO 9001:2015** — Quality management system requirements
-- **IATF 16949:2016** — Automotive quality management (APQP, PPAP)
+See [references/07-standards.md](references/07-standards.md)
 
-| Metric | Formula | Target Range |
-|--------|---------|--------------|
-| Process Capability (Cpk) | Cpk = min[(USL-μ)/3σ, (μ-LSL)/3σ] | ≥ 1.33 for production |
-| Safety Factor (FoS) | FoS = Ultimate Strength
-| Draft Angle | tan(θ) = draw depth
-| Wall Thickness Ratio | Max thickness
-| RSS Tolerance Stack | σ_total = √(σ₁² + σ₂² + ... + σn²) | Compare to assembly gap |
-| RPN (Risk Priority Number) | RPN = Severity × Occurrence × Detection | < 100 target; > 250 critical |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1 — Concept & Requirements
-- Capture functional requirements, performance specs, and constraints
-- Generate 2–3 concept sketches; evaluate for manufacturability
-- Select candidate materials based on properties and cost
-- [✓ Done]: Concept selected, materials short-listed, DFM issues identified
-- [✗ FAIL]: Requirements ambiguous, no DFM assessment, material unsuitable
+See [references/08-workflow.md](references/08-workflow.md)
 
-### Phase 2 — CAD Modeling & GD&T
-- Build 3D model with proper feature tree; create configurations
-- Apply GD&T per ASME Y14.5; specify datums, position, profile controls
-- Run interference checks; validate clearance for assembly
-- [✓ Done]: 3D model complete, GD&T applied, all features inspectable
-- [✗ FAIL]: Undefined datums, non-inspectable controls, missing draft
-
-### Phase 3 — DFM/DFA Analysis & DFMEA
-- Conduct injection molding / casting
-- Perform tolerance stack analysis (RSS + worst-case); verify fit-up
-- Complete DFMEA; calculate RPN; assign corrective actions
-- [✓ Done]: All DFM issues resolved, stack within tolerance, RPN < 100
-- [✗ FAIL]: Unresolved sink marks/warpage, stack failure, RPN > 250
-
-### Phase 4 — Validation & Release
-- Run FEA for structural/thermal verification (FoS ≥ 1.5)
-- Create production drawings with full GD&T and notes
-- Generate tool buyoff samples; approve first article (FAIR)
-- [✓ Done]: FEA validated, drawings released, FAIR approved
-- [✗ FAIL]: FEA FoS < 1.5, open drawing issues, FAIR rejected
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1 — Injection Molded Part Sink Marks
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** My injection-molded ABS housing shows sink marks on the thick section where the mounting boss connects. The wall is 4mm. How do I fix this?
-
-**Expert:** Sink marks occur when the internal thick section cools slower than the surrounding thin wall, causing differential shrinkage. For ABS with 4mm wall:
-
-**Root cause:** 4mm exceeds the 3:1 ratio guideline (max wall should be ~2mm for uniform cooling).
-
-**Solution options:**
-1. **Reduce wall thickness to 2.5mm** — adds weld line but eliminates sink:
-```solidworks
-// Create uniform wall: 2.5mm thickness throughout
-// Add 0.8mm thick ribs (≤60% of wall) for stiffness
-```
-
-2. **Add hidden cavity** — pocket the thick area from inside:
-```solidworks
-// Pocket 1.5mm deep in interior wall
-// Reduces effective wall to 2.5mm locally
-```
-
-3. **Change material to ABS+PC** — higher modulus reduces sink visibility:
-```
-| Material | Shrinkage | Sink Mark Resistance |
-|----------|-----------|----------------------|
-| ABS | 0.5-0.7% | Poor |
-| ABS+PC (20%) | 0.4-0.6% | Moderate |
-| PA6+30% GF | 0.3-0.5% | Excellent |
-```
-
-[RISK] Do not increase cooling time — it reduces cycle time and does not fix the root cause.
+---
 
 ---
 
@@ -307,24 +244,9 @@ Min interference (3σ): 0.018 - 3(0.0074) = -0.004mm (GAP)
 
 ## § 10 Common Pitfalls
 
-### Anti-Pattern 1 — GD&T Without Functional Requirement
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:**
-```
-// Drawing specifies: Position Ø0.1mm at MMC
-// No functional requirement defined — why Ø0.1mm?
-// Supplier guesses; inspection may not catch actual failure mode
-```
-
-✅ **GOOD:**
-```
-// Drawing specifies: Position Ø0.1mm at MMC to ensure:
-    // 1. Bolt clearance for M4 fastener (Ø4.2mm hole + 0.8mm margin)
-    // 2. Pin alignment within 0.2mm for mating connector
-// Note: "MMC modifier applied — bonus tolerance 0.4mm"
-```
-
-**Why it matters:** GD&T without functional basis leads to over-constrained (expensive) or under-constrained (failed) parts. Always document the "why" on the drawing or in a design note.
+---
 
 ---
 

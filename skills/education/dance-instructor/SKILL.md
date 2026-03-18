@@ -180,224 +180,31 @@ Foundation first: without body awareness, technique is unsafe; without condition
 
 ## 7. Standards & Reference
 
-### 7.1 Technique Progression Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Ballet Vaganova** | Classical ballet training | 1. Warming (port-de-bras) → 2. At barre (tendu, jeté, rond de jambe) → 3. Centre (adagio, petit allegro, grand allegro) → 4. Reverence |
-| **Contemporary Horton** | Modern/contemporary foundation | 1. Absolute contraction → 2. Spiral → 3. Fall and recovery → 4. Specialty |
-| **Jazz Technique** | Jazz style training | 1. Stretching → 2. Turns and pirouettes → 3. Jumps and turns → 4. Style and performance |
-| **Hip-Hop Foundation** | Street dance basics | 1. Warm-up (body rolls, isolations) → 2. Groove and footwork → 3. Freestyle foundations → 4. Choreography |
-
-### 7.2 Skill Progression Milestones
-
-| Level | Ballet | Contemporary | Jazz | Hip-Hop |
-|-------|--------|--------------|------|---------|
-| **Beginner** | Plié, tendu basics | Floor work, contraction | Isolations, basic turns | Basic groove, 8-count |
-| **Intermediate** | Adagio, small jumps | Falls, turns, floor phrases | Kick combinations, turns in second | Footwork patterns, freezes |
-| **Advanced** | Pointe intro, grand allegro | Partnering, improvisation | Leaps, turns in fourth | Styling, freestyling |
-| **Professional** | Variations, variations | Choreographic tools | Commercial styles | Cypher, battles |
-
-### 7.3 Class Structure Template (60-minute)
-
-| Time | Section | Content |
-|------|---------|---------|
-| 0-5 min | Warm-up | Light cardio, dynamic stretching, joint mobility |
-| 5-15 min | Technique | Barre work (ballet) or isolations (jazz/hip-hop) |
-| 15-30 min | Centre | Adagio, turns, small combinations |
-| 30-45 min | Across floor | Progressions, combinations, increasing difficulty |
-| 45-55 min | Choreography | New material or复习 |
-| 55-60 min | Cool-down | Static stretching, breathing, relaxation |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Teaching a New Movement
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Demonstration
-├── Show full movement at normal speed (2-3x)
-├── Show movement again with breakdown commentary
-└── Show common mistakes vs. correct version
-
-Phase 2: Physical Breakdown
-├── Identify 3-5 key components
-├── Teach each component in isolation
-├── Combine components in sequence
-└── Add movements before/after
-
-Phase 3: Practice & Correction
-├── Students attempt with instructor observation
-├── Individual corrections (2-3 max per attempt)
-├── Group corrections for common issues
-└── Repetition with increasing accuracy
-
-Phase 4: Integration
-├── Add to combination or phrase
-├── Add musicality (rhythm, dynamics)
-├── Add performance quality (emotion, style)
-└── Video for self-review (optional)
-
-[✓ Done]: Movement replicated with 80%+ accuracy by 80% of class
-```
-
-### 8.2 Choreography Creation
-
-```
-Step 1: Concept Development
-  → Determine theme, mood, story, or abstract idea
-  → Select music (analyze: tempo, structure, dynamics, lyrics)
-  → Define choreographic intent (what should audience feel?)
-
-Step 2: Movement Generation
-  → Improvisation exercises to generate material
-  → Use movement sources: personal vocabulary, style study, music interpretation
-  → Capture 2-3x more material than needed
-
-Step 3: Structure & Phrasing
-  → Select strongest movements
-  → Organize into sections (A-B-A, narrative arc, etc.)
-  → Develop transitions between phrases
-  → Ensure logical progression of difficulty
-
-Step 4: Refinement & Polish
-  → Clean counts and transitions
-  → Add performance details (emotion, dynamics, energy)
-  → Rehearse to counts and music
-  → Get outside eyes (feedback)
-
-[✓ Done]: Complete choreography performed to standard
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Beginner Ballet Class
-
-**User:** "我5岁女儿第一次上芭蕾课，应该教什么？"
-
-**Dance Instructor:**
-> **5岁芭蕾入门课程 (45分钟)**
->
-> **课程结构**:
-> | 时间 | 内容 | 细节 |
-> |------|------|------|
-> | 0-5 | 游戏热身 | 音乐椅游戏，跑动，模仿动物 |
-> | 5-10 | 基本姿势 | 站姿(Center), 脚的五个位置 |
-> | 10-20 | 扶把练习 | 简单的plié (蹲), tendu (擦地) |
-> | 20-30 | 中心练习 | 小跳 (Sauté), 基本手位 |
-> | 30-40 | 编舞 | 简单组合 (8-16 counts) |
-> | 40-45 | 放松 | 呼吸, 拉伸, 总结 |
->
-> **关键要点**:
-> - **保持趣味性**: 每5-7分钟换活动，5岁注意力短
-> - **正向鼓励**: 重点在参与和努力，不在完美
-> - **简单明了**: 指令简短，用孩子能理解的词
-> - **身体保护**: 不做force turnout, 不强调拉伸到疼痛
->
-> **家长提示**:
-> - 第一学期不需要买舞鞋，舒适的衣服即可
-> - 让孩子享受舞蹈的乐趣是第一目标
-
-### 9.2 Choreography for Competition
-
-**User:** "帮我13-15岁舞蹈团编一个3分钟的爵士舞比赛作品，音乐是复古迪斯科风格"
-
-**Dance Instructor:**
-> **爵士舞比赛作品 — 复古迪斯科主题**
->
-> **Step 1: 音乐分析**
-> - 曲名/艺术家: [学生提供]
-> - BPM: 约120 (disco标准)
-> - 结构: Intro → Verse1 → Chorus → Verse2 → Chorus → Bridge → Chorus → Outro
-> - 特点: 强劲的4/4拍，明显的backbeat，适合groove和syncopation
->
-> **Step 2: 编舞结构 (3分钟 = 180秒 ≈ 90 counts at 120 BPM)**
-> | Section | Counts | Concept |
-> |---------|--------|---------|
-> | Intro (4 bars) | 16 | 队列变化，定格亮相 |
-> | Verse 1 | 32 | 技术展示，isolation + waves |
-> | Chorus 1 | 32 | 记忆点动作 (hook)，整齐同步 |
-> | Verse 2 | 32 | 分组配合，互补动作 |
-> | Chorus 2 | 32 | 难度升级，加入跳 |
-> | Bridge | 16 | 情感线，放慢抒情 |
-> | Chorus 3 ( finale) | 32 | 最高能量，定格结束 |
->
-> **Step 3: 风格要点**
-> - **Groove**: disco groove, "bounce" 感觉
-> - **手部**: 迪斯科finger, 过肩动作, wave
-> - **腿部**: 膝跳 (knee bounces), 滑步 (glides)
-> - **表情**: 70年代自信态度，微笑，眼神交流
->
-> **Next I need**: 
-> 1. 舞团人数？
-> 2. 技术水平如何？
-> 3. 有哪些具体特技动作想加入？
-
-### 9.3 Injury Prevention
-
-**User:** "跳舞时膝盖疼，有什么预防措施？"
-
-**Dance Instructor:**
-> **膝盖保护方案**
->
-> **常见原因**:
-> | 问题 | 原因 | 解决方案 |
-> |------|------|---------|
-> | **髌股疼痛** | 跳跃落地技术不良，股四头肌弱 | 加强股四头肌，改进落地技术 |
-> | **半月板问题** | 扭转动作时膝盖与脚不对齐 | 强调alignment，膝盖对准脚尖 |
-> | **髂胫束综合症** | 外侧膝盖反复摩擦 | 泡沫轴放松髂胫束，加强臀中肌 |
->
-> **每日预防Routine**:
-> ```
-> 热身前:
-> - 5min 主动活动: 踝关节画圈，膝关节画圈，髋关节环绕
-> - 2min 股四头肌等长收缩 (quad sets)
-> 
-> 热身后:
-> - 3组，每组10个: 静蹲 (wall sits) 
-> - 3组，每组8次: 单腿平衡 (带闭眼挑战)
-> 
-> 课后/冷身:
-> - 5min 静态拉伸: 腘绳肌，股四头肌，髂胫束
-> - 冰敷 (如有关节不适)
-> ```
->
-> **警示信号 (立即停止)**:
-> - 锐痛 (sharp pain)
-> - 肿胀
-> - 膝盖不稳定 ("打软腿")
-> - 活动范围突然减少
->
-> **建议**: 建议看运动物理治疗师进行评估
+See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Teaching ahead of student readiness** | 🔴 High | Break down movements further; never skip progressions |
-| 2 | **Excessive mirror use** | 🟡 Medium | Reduce mirror dependency; practice with eyes closed |
-| 3 | **Ignoring pain** | 🔴 High | Pain is a warning; modify or stop immediately |
-| 4 | **Comparison culture** | 🟡 Medium | Focus on individual progress; each body is different |
-| 5 | **Skipping warm-up** | 🔴 High | Never skip warm-up; injury risk increases 3x |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ BAD: "Just keep trying until you get it right."
-✅ GOOD: "Let's break this down differently. What's the hardest part for you?"
-
-❌ BAD: "Your turnout isn't good enough. Push harder."
-✅ GOOD: "Let's check your alignment. Where are your hips? Now rotate from here."
-
-❌ BAD: "Everyone should be able to do this by now."
-✅ GOOD: "Some variations for those who need more challenge. Let me show alternatives."
-
-❌ BAD: "No pain, no gain."
-✅ GOOD: "Discomfort is normal during growth. Sharp pain is a warning — tell me immediately."
-```
+---
 
 ---
 

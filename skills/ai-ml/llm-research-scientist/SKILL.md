@@ -159,108 +159,25 @@ This skill transforms your AI assistant into an expert **LLM Research Scientist*
 
 ## 7. Standards & Reference
 
-### Architecture Design Reference
+See [references/07-standards.md](references/07-standards.md)
 
-| Component / 组件 | Options / 选项 | Trade-off / 权衡 | Current Best Practice
-|----------------|--------------|----------------|-----------------------------------|
-| **Attention** | MHA / MQA / GQA
-| **Positional Encoding** | RoPE / ALiBi
-| **Normalization** | Pre-LN / Post-LN
-| **Activation** | GeLU / SwiGLU
-| **Tokenizer** | BPE / SentencePiece
-
-### Scaling Laws Reference
-
-```
-Chinchilla Optimal (Hoffmann et al., 2022):
-  N_opt ≈ C
-  - N = model parameters, D = training tokens, C = compute budget (FLOPs)
-  - Rule of thumb: ~20 tokens per parameter for compute-optimal training
-  - Example: 7B model → ~140B tokens optimal (LLaMA used 1T+ for inference efficiency)
-
-Inference-Optimal Regime (Touvron et al., LLaMA):
-  When inference cost >> training cost:
-  - Train smaller model for longer (more tokens)
-  - LLaMA/Mistral approach: smaller N, much larger D
-  - Trade-off: higher training cost → lower per-inference cost
-```
-
-### Alignment Methods Comparison
-
-| Method | Data Required | Complexity | Best For |
-|--------|--------------|-----------|----------|
-| **SFT** | High-quality instruction pairs | Low | Instruction following baseline |
-| **RLHF (PPO)** | Preference pairs + RM | High | Large-scale alignment |
-| **DPO** | Preference pairs | Low | Medium-scale, stable training |
-| **GRPO** | Verifiable reward signal | Medium | Math, code (DeepSeek-R1) |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### Phase 1: Architecture Design & Scaling Analysis
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Objective**: Determine compute-optimal model design before committing to a training run
-
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | Define compute budget (FLOPs), inference latency target, context length requirement | All 3 constraints documented | Missing any → cannot make optimal design decisions |
-| 2 | Apply Chinchilla scaling: N × 20 tokens = compute-optimal; adjust for inference-optimal | Model size and token count determined | Budget inconsistency → revisit constraints |
-| 3 | Select attention (GQA if 7B+), positional encoding (RoPE), activation (SwiGLU) | Architecture spec written with justifications | Unjustified choices → require ablation plan |
-| 4 | Run 1B proxy experiment to validate architecture choices | 1B proxy matches expected loss curve | Loss divergence at 1B → fix before scaling |
-| 5 | Data mix ablation: code %, math %, web %, domain data % | Eval suite shows balanced capability across domains | Any capability gap > 10% from target |
-
-### Phase 2: Alignment Pipeline
-
-**Objective**: Produce aligned model without significant capability regression
-
-
-| Step | Activity | Done Criteria | Fail Criteria |
-|------|----------|--------------|---------------|
-| 1 | SFT baseline: train on 50K+ high-quality instruction pairs | MT-Bench > 7.0; IFEval > 0.75 | Scores below → check data quality first |
-| 2 | Reward Model training: Bradley-Terry on 50K+ preference pairs | RM accuracy on held-out pairs > 72% | < 65% → reward model is unreliable; collect better data |
-| 3 | DPO/PPO alignment: apply chosen method, monitor KL divergence | KL(aligned ‖ SFT) < 10 nats; AlpacaEval Win Rate > baseline | KL > 20 nats → reward hacking; reduce learning rate |
-| 4 | Capability preservation check: run MMLU, HumanEval pre/post | Capability regression < 2% on all benchmarks | > 5% regression → KL constraint too loose |
-| 5 | Red-team evaluation: 200+ adversarial prompts | Refusal rate > 95% on harmful; helpfulness maintained | Refusal on non-harmful > 5% → over-refusal problem |
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Architecture Design: 7B Code Model
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "I'm designing a 7B code generation model. What architecture should I use?"
-
-**LLM Research Scientist:**
-
-> **7B Code Model Architecture — Evidence-Based Recommendation**
->
-> **Recommended Configuration (based on DeepSeek-Coder
-> ```
-> Architecture: LLaMA-3 style dense transformer
-> Layers: 32
-> Hidden dim: 4096
-> Attention: 32 Q-heads, 8 KV-heads (GQA, 4× KV compression)
-> FFN: SwiGLU, intermediate_dim = 14336 (≈ 8/3 × 4096, rounded to 64×)
-> Positional encoding: RoPE with base=500,000 (supports 32K+ context)
-> Normalization: RMSNorm (pre-norm position)
-> Vocab: 100K+ (critical: code requires diverse programming language coverage)
-> ```
->
-> **Code-specific adjustments:**
-> - Training data: 50-70% code (multi-language: Python/JS/C++/Java/Go/Rust/SQL)
-> - FIM (Fill-in-the-Middle) objective: 50% FIM rate in pre-training (proven for completion)
-> - Context length: min 32K (repository-level reasoning requires >16K)
->
-> **Required ablations before committing to full run:**
-> 1. Vocab size: 32K vs. 64K vs. 128K (code tokenization efficiency differs significantly)
-> 2. FIM ratio: 50% vs. 100% FIM impact on HumanEval pass@1
-> 3. Benchmark: HumanEval, MBPP, SWE-bench Verified
->
-> **CAP for this decision: Accuracy-Performance (AP)**
-> - GQA reduces KV cache by 4× with < 1% quality loss (Ainslie et al., 2023)
-> - SwiGLU is strictly better than GeLU at matched FLOP count (PaLM paper)
+---
 
 ---
 
@@ -336,59 +253,9 @@ Inference-Optimal Regime (Touvron et al., LLaMA):
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Training Without Scaling Laws
-
-```
-BAD:  "Let's train a 13B model on 200B tokens because that's what the competition did."
-
-GOOD: Apply Chinchilla: 13B model → compute-optimal = 260B tokens.
-      If inference is important (production deployment), train longer:
-      Mistral-7B trained on 8T tokens (significantly over-compute budget)
-      for better inference efficiency.
-      Always derive from your compute budget, not copying competitors.
-```
-
-**Anti-Pattern 2: Reporting Benchmark Without Contamination Check
-
-```
-BAD:  "We scored 82% on MMLU — our model is better than GPT-4."
-      (No contamination check performed)
-
-GOOD: Before ANY benchmark report:
-      1. Run 13-gram overlap check between training data and test set
-      2. If overlap > 0.1%, report with caveat or remove from paper
-      3. Use decontamination tools (Pythia
-      Contaminated benchmarks are not peer-reviewable and damage credibility.
-```
-
-### Medium Severity
-
-**Anti-Pattern 3: Reward Hacking in RLHF
-
-```
-BAD:  PPO training continues for 3 epochs; reward goes from 2.1 → 4.8.
-      But human evaluators rate quality as WORSE.
-      (Reward model has been gamed; KL not constrained)
-
-GOOD: Monitor KL(policy ‖ SFT_ref) throughout training.
-      Set hard KL budget: stop or reduce LR when KL > 10 nats.
-      Use held-out human evals (separate from RM training data) as ground truth.
-      High RM score ≠ high human quality.
-```
-
-**Anti-Pattern 4: Architecture Cargo-Culting
-
-```
-BAD:  "LLaMA uses SwiGLU so we should too, no need to ablate."
-
-GOOD: Run a 1B proxy experiment comparing your target choice against alternatives.
-      Ablation takes 1-2 days at 1B scale vs. 3+ months at 70B scale.
-      SwiGLU IS better than GeLU (empirically proven in PaLM paper),
-      but your specific data mix and tokenizer may interact differently.
-      Trust, but verify.
-```
+---
 
 ---
 

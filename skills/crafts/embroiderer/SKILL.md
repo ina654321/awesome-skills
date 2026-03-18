@@ -184,190 +184,33 @@ Design concept guides all decisions—technique serves vision.
 
 ## 7. Standards & Reference
 
-### 7.1 Chinese Regional Embroidery Styles
+See [references/07-standards.md](references/07-standards.md)
 
-| Style | Region | Characteristics | Best For |
-|-------|--------|-----------------|----------|
-| **苏绣 (Su)** | Suzhou, Jiangsu | Fine, elegant, double-sided capability | Landscape, portrait, flowers |
-| **湘绣 (Xiang)** | Hunan | Bold, expressive, "rafted" effect | Tigers, birds, dramatic scenes |
-| **粤绣 (Yue)** | Guangdong | Rich, ornate, goldwork accents | Dragons, phoenixes, ceremonial |
-| **蜀绣 (Chu)** | Sichuan | dense, vivid, plain background | Pandas, fish, natural subjects |
-
-### 7.2 Essential Stitches
-
-| Stitch | Chinese | Use | Difficulty |
-|--------|---------|-----|------------|
-| **Satin Stitch** | 缎面绣 | Solid fill, smooth surface | Beginner |
-| **Split Stitch** | 裂针 | Outlining, fine details | Beginner |
-| **French Knot** | 法式结 | Texture, dots, eyes | Intermediate |
-| **Stem Stitch** | 茎绣 | Curved lines, stems | Beginner |
-| **Lazy Daisy** | 雏菊绣 | Petals, leaves | Beginner |
-| **Bullion Knot** | 玫瑰绣 | Long threads, coils | Intermediate |
-| **Feather Stitch** | 羽状绣 | Borders, grass | Intermediate |
-| **Pekinese Stitch** | 北京绣 | Decorative, interwoven | Advanced |
-
-### 7.3 Thread Weight Reference
-
-| Brand | Weight | Use |
-|-------|--------|-----|
-| **DMC Floss** | 6 strands | Most common; separate strands as needed |
-| **Anchor** | 6 strands | Equivalent to DMC |
-| **Silk Floss** | 6 strands | More lustrous, finer than cotton |
-| **Perle Cotton** | #5 (thick), #8 (fine) | Texture, no separating strands |
-| **Metallic** | Varies | Use with care; tends to fray |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Commission Embroidery
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Design Consultation
-├── Discuss client vision: subject, style, size, purpose
-├── Review reference images; identify key elements
-├── Determine tradition/style: Chinese regional or Western technique
-└── [✓ Done]: Written brief with design direction and scope
-    [✗ FAIL]: Unclear vision → Ask more questions before proceeding
-
-Phase 2: Material Selection
-├── Choose fabric: weight, color, weave appropriate to design
-├── Select threads: color palette, material (silk/cotton/wool)
-├── Prepare tools: appropriate hoops, needles
-└── [✓ Done]: Materials assembled and tested (sample stitch on corner)
-
-Phase 3: Design Transfer
-├── Scale design to fabric dimensions
-├── Transfer using appropriate method (water-soluble, heat-transfer, lightbox)
-└── [✓ Done]: Design on fabric, ready to start
-
-Phase 4: Execution
-├── Start with background or foundation elements
-├── Build layers: background → mid-ground → foreground
-├── Maintain consistent tension and stitch direction
-└── [✓ Done]: All stitching complete, check for any gaps or errors
-
-Phase 5: Finishing
-├── Remove from hoop, press carefully
-├── Add backing if needed (for decorative pieces)
-└── [✓ Done]: Finished piece ready for presentation/care instructions
-```
-
-### 8.2 Stitch Practice Project
-
-```
-Step 1: Choose sampler type — traditional alphabet sampler or modern design
-Step 2: Prepare fabric and threads — wash and iron fabric first
-Step 3: Practice each new stitch on scrap fabric first
-Step 4: Build your sampler, trying each technique in sequence
-Step 5: Document which stitches used where for future reference
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Traditional Chinese Design
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我想绣一幅小幅的《红梅报春》挂在家里，需要什么材料，难度大吗？"
-
-**Embroiderer:**
-> **红梅报春刺绣设计方案**
->
-> | 元素 | 建议 |
-> |------|------|
-> | **尺寸** | 30cm x 40cm，适合家庭空间 |
-> | **面料** | 真丝绢或高档纯棉麻布 |
-> | **用线** | 丝绸线（更有光泽）或棉线（易于保养） |
-> | **针法** | 缎面绣（花瓣）、裂针（枝干）、法式结（花蕊） |
-> | **难度** | 中等，适合有基础的绣者 |
->
-> **关键考量**:
-> - 梅花花瓣需要 **渐变效果**，建议准备3-4个深浅不同的红色
-> - 枝干用 **枯笔效果**，不是完全填满，留一点飞白
-> - 花蕊用 **法式结**，1-2针即可，太多了像毛球
->
-> **时间预估**: 40-60小时，约2-3个月（每天1-2小时）
->
-> **Next, I need from you:**
-> 1. 你的刺绣基础如何？（完全新手建议从简单图案开始）
-> 2. 更喜欢传统的红色系还是现代的淡雅风格？
-
-### 9.2 Western Sampler
-
-**User:** "教我的孩子(8岁)一些基础的刺绣，适合做什么项目？"
-
-**Embroiderer:**
-> **儿童刺绣入门项目推荐**
->
-> **推荐: 简单植物样本卡 (Plant Sampler Card)**
-> | 元素 | 建议 |
-> |------|------|
-> | **面料** | 十字布 (Aida)，14格/英寸，容易数格 |
-> | **线** |  DMC棉线，2股使用 |
-> | **图案** | 简单花朵、叶子，用十字针法 (Cross Stitch) |
-> | **工具** | 5英寸绣圈，型号18的针 |
->
-> **教学步骤**:
-> 1. 教如何拿针和穿线
-> 2. 练习基本的十字针法
-> 3. 完成3-4个简单图案
-> 4. 完成后裱成卡片，送人很有意义
->
-> **安全提示**: 提醒孩子不要把针放在嘴里；使用圆头针更安全
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Wrong Fabric for Thread
-
-```markdown
-❌ BAD: Using thick wool thread on delicate silk → pulls and damages fabric;
-using cotton on stretchy fabric → puckering
-
-✅ GOOD: Match thread weight to fabric weave; fine fabric needs fine thread;
-test on scrap first
-```
-
-**Anti-Pattern 2: Inconsistent Stitch Direction
-
-```markdown
-❌ BAD: Satin stitches going different directions → visible texture differences →
-uneven sheen in finished work
-
-✅ GOOD: Plan direction for each area; work top-to-bottom, left-to-right consistently
-within each section
-```
-
-**Anti-Pattern 3: Rushing the Finishing
-
-```markdown
-❌ BAD: Not pressing work properly → creases set in, piece looks unfinished
-
-✅ GOOD: Press while damp, use appropriate heat setting for fabric; roll in
-towel to dry flat
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Ignoring Fabric Grain
-
-```markdown
-❌ BAD: Hooping fabric on the bias → fabric stretches, design distorts, can't be fixed
-
-✅ GOOD: Always hoop with fabric grain; test stretch before starting main work
-```
-
-**Anti-Pattern 5: Not Securing Thread
-
-```markdown
-❌ BAD: Leaving long thread tails → work unravels over time, especially with handling
-
-✅ GOOD: Secure start and end of each thread by weaving through back of stitches
-```
+---
 
 ---
 

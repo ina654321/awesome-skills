@@ -158,95 +158,25 @@ This skill delivers expert-level guidance across the PCB design lifecycle:
 
 ## § 7 Standards & Reference
 
-**Frameworks:**
-- **IPC-2221** — Generic PCB standard (design requirements)
-- **IPC-6012** — Qualification and performance (solder joint reliability)
-- **IPC-A-610** — Acceptability of electronic assemblies (Class 3)
-- **FCC Part 15
-- **IEC 61000-4-2** — ESD immunity
+See [references/07-standards.md](references/07-standards.md)
 
-| Metric | Formula | Target Range |
-|--------|---------|--------------|
-| Microstrip Impedance | Z₀ = (87/√(εr+1.41)) × ln(5.98H/(0.8W+T)) | 50Ω ± 10% |
-| Differential Impedance | Z_diff = 2 × Z₀ × (1 - C_coupling/C_total) | 90Ω ± 10% |
-| Trace Current Capacity | I = 0.048 × ΔT^0.44 × A^0.725 | < 30°C rise |
-| Via Current Capacity | I = 0.076 × d^0.54 × ΔT^0.27 | < 30°C rise |
-| Decap Self-Resonance | f_SR = 1/(2π√(L×C)) | Target decap resonant freq at noise freq |
-| Crosstalk (3W rule) | NEXT ≈ (1/π) × (W/(W+S)) | 3W spacing → < 5% coupling |
-| Via Stub Resonance | f_stub = v/(4 × L_stub × √εr) | Remove stubs for >1Gbps |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1 — Schematic & Stackup Definition
-- Create schematic with proper decoupling, termination, and filter networks
-- Define PCB stackup (layers, materials, thicknesses) with fab house
-- Calculate controlled impedance requirements for all high-speed nets
-- [✓ Done]: Schematic complete, stackup approved by fab, impedance targets defined
-- [✗ FAIL]: Missing decoupling, stackup undefined, no impedance spec
+See [references/08-workflow.md](references/08-workflow.md)
 
-### Phase 2 — Component Placement & Partitioning
-- Place components following signal flow; partition by function (analog/digital/power)
-- Ensure decoupling caps within 0.5mm of power pins
-- Position connectors at board edge; place mounting holes per mechanical draft
-- [✓ Done]: Placement optimized, power partitioning defined, keepout areas marked
-- [✗ FAIL]: Poor signal flow, decoupling > 1mm from pins, connectors not at edge
-
-### Phase 3 — Routing & Signal Integrity
-- Route high-speed signals first (DDR, USB, PCIe); maintain impedance control
-- Apply length matching (DQS to DQ, clock skew); use diff pairs for >100Mbps
-- Verify crosstalk < 5% on sensitive nets; add guard traces if needed
-- [✓ Done]: All high-speed nets routed with <20% timing margin remaining
-- [✗ FAIL]: Uncontrolled impedance, >5% crosstalk, length mismatch > spec
-
-### Phase 4 — DFM & Manufacturing Output
-- Verify design meets fab capabilities (min trace/space, via aspect ratio)
-- Run DRC (design rule check) and vs. manufacturing capabilities
-- Generate Gerber files, assembly drawing, pick-and-place, and fab notes
-- [✓ Done]: DRC clean, all DFM issues resolved, Gerbers validated
-- [✗ FAIL]: DRC errors, DFM violations, missing manufacturing output
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1 — DDR4 Routing with Length Matching
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** I need to route DDR4 signals on an 8-layer stackup. The address/command/control signals need length matching. What are the specific guidelines?
-
-**Expert:** DDR4 at 2133-3200 MT/s requires precise length matching. Here are the specifications:
-
-**Stackup for DDR4 (8-layer example):**
-```
-Layer 1 (Top):    Signal (DDR signals) — 0.5oz
-Layer 2 (GND):    Plane (continuous ground)
-Layer 3 (Plane):  Signal/Power split
-Layer 4 (Plane):  DDR VDD plane
-Layer 5 (Plane):  DDR VDD plane
-Layer 6 (Signal): Signal/Power split
-Layer 7 (Plane):  Ground plane
-Layer 8 (Bottom): Signal (DDR signals)
-```
-
-**Length Matching Requirements:**
-| Signal Group | Matching Tolerance | Max Length |
-|--------------|-------------------|------------|
-| DQ to DQS | ± 2.5mm | 50mm |
-| Address/Command to CK | ± 12.7mm | 80mm |
-| CK differential pair | ± 0.254mm (skew) | — |
-| Control signals | ± 25mm | 100mm |
-
-**Routing Rules:**
-```text
-- Trace width: 0.1mm (50Ω single-ended)
-- Pair spacing: 0.15mm (differential 90Ω)
-- DQS: must reference solid ground plane, not split
-- Via count: max 2 vias per byte lane
-- Keepout from edge: > 3mm (impedance change)
-```
-
-[RISK] Do not route DDR across a split in the reference plane — this causes reflections and EMI problems.
+---
 
 ---
 
@@ -348,24 +278,9 @@ Expected with series resistor: 35-40 dBμV → PASS
 
 ## § 10 Common Pitfalls
 
-### Anti-Pattern 1 — Split Ground Planes for "Noise Isolation"
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:**
-```
-// Split ground plane into "digital ground" and "analog ground"
-// Route analog signals across the split
-// Result: Uncontrolled impedance, increased EMI, ground loop
-```
-
-✅ **GOOD:**
-```
-// Keep solid continuous ground plane
-// Use star grounding at power entry point instead
-// Isolate analog circuits by component placement, not by splitting planes
-// If split required: route signals perpendicular to split, add caps across
-```
-
-**Why it matters:** Splitting ground planes creates impedance discontinuities and disrupts return currents. The "split" approach was used in older analog designs but causes more problems in modern mixed-signal boards.
+---
 
 ---
 

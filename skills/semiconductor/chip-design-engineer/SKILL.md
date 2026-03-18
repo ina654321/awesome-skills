@@ -155,100 +155,25 @@ This skill delivers expert-level guidance across the full ASIC design flow:
 
 ## § 7 Standards & Reference
 
-**Frameworks:**
-- **IEEE 1800-2017 (SystemVerilog)** — Language reference for RTL and verification constructs
-- **IEEE 1149.1 (JTAG)** — Boundary scan standard for board-level and chip-level test
-- **IEEE 1801 (UPF)** — Unified Power Format for multi-voltage design intent
+See [references/07-standards.md](references/07-standards.md)
 
-| Metric | Formula | Target Range |
-|--------|---------|--------------|
-| Worst Negative Slack (WNS) | WNS = min(Required Time − Arrival Time) | ≥ 0 ps at sign-off |
-| Total Negative Slack (TNS) | TNS = Σ(all negative slacks) | 0 ps at sign-off |
-| Clock Uncertainty (setup) | Jitter + CTS skew + OCV margin | ≤ 100 ps at 1 GHz |
-| Core Utilization | (Cell Area
-| Dynamic Power | P_dyn = α × C_load × VDD² × f | Budget-dependent; 100 mW–10 W |
-| Leakage Power | P_leak = I_leak × VDD (summed over all cells) | < 20% of total power |
-| Stuck-at Fault Coverage | (Detected
-| Transition Fault Coverage | Slow-to-rise
-| Static IR Drop | ΔV = I_avg × R_grid | < 3% VDD |
-| Dynamic IR Drop | Peak voltage droop during simultaneous switching | < 5% VDD |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1 — RTL Design & Verification
-- Write RTL in synthesizable SystemVerilog; apply SpyGlass lint before simulation
-- Develop UVM testbench; target >95% code coverage, >90% functional coverage
-- Run formal CDC analysis with SpyGlass or JasperGold; resolve all CDC violations
-- [✓ Done]: Zero lint errors, coverage targets met, formal CDC clean, no X-propagation
-- [✗ FAIL]: Unresolved X-propagation, unconstrained CDC paths, coverage gap >10%
+See [references/08-workflow.md](references/08-workflow.md)
 
-### Phase 2 — Synthesis & Constraints
-- Write SDC with create_clock, set_input_delay, set_output_delay, set_false_path
-- Run DC/Genus; analyze timing, area, and power QoR reports
-- Iterate: pipeline balancing, logic restructuring, register retiming
-- [✓ Done]: WNS ≥ 0, TNS = 0 at synthesis corner; area within 10% of target
-- [✗ FAIL]: > 100 timing violations; area > 120% of budget; unresolvable false paths
-
-### Phase 3 — Physical Design (P&R)
-- Floorplan: aspect ratio, power ring, macro placement, pin assignment
-- CTS: target skew < 50 ps, insertion delay < 500 ps; use clock shielding
-- Route: resolve DRC hotspots; add antenna diodes; verify signal integrity
-- Run incremental Calibre DRC after each routing stage
-- [✓ Done]: Zero routing DRC, zero antenna violations, IR drop < 3% static
-- [✗ FAIL]: Unrouted nets, congestion overflow > 1%, power grid violations
-
-### Phase 4 — Sign-off & Tapeout
-- MCMM STA with PrimeTime: SS/FF/TT corners, −40°C to 125°C, ±10% VDD variation
-- Final Calibre DRC/LVS clean on full-chip GDS
-- ATPG: generate and verify scan patterns; simulate patterns at gate level
-- Freeze GDS; submit to foundry with process runset version documented
-- [✓ Done]: Zero DRC/LVS violations, WNS ≥ 0 all corners, fault coverage ≥ 99%
-- [✗ FAIL]: Any open DRC/LVS violation; timing fail in even one PVT corner
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1 — Fixing a Setup Timing Violation
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** My PrimeTime report shows WNS = −320 ps on a path from a multiplier output to a register in the ALU. The clock is 1 GHz. What do I do?
-
-**Expert:** A −320 ps violation at 1 GHz (1000 ps period) means your path arrival is 320 ps over budget. First, extract the path:
-
-```tcl
-# In PrimeTime — get full path details
-report_timing -from [get_pins mult/out_reg/Q] \
-              -to   [get_pins alu/result_reg/D] \
-              -max_paths 1 -path_type full_clock_expanded
-```
-
-Look for: logic depth (gate count), net delays (RC parasitics), and cell sizes. If logic depth > 15 gates, insert a pipeline stage:
-
-```systemverilog
-// Before: single-cycle multiply + add (too long at 1 GHz)
-always_ff @(posedge clk) begin
-  result <= a * b + c;
-end
-
-// After: two-stage pipeline breaks the critical path
-always_ff @(posedge clk) begin
-  mult_result <= a * b;        // Stage 1: multiply
-end
-always_ff @(posedge clk) begin
-  result <= mult_result + c;   // Stage 2: add
-end
-```
-
-If violation < 100 ps, try incremental synthesis upsizing:
-```tcl
-# DC-Ultra incremental compile targeting critical path
-set_dont_touch_network [get_nets {mult_out}] false
-compile_ultra -incremental -timing
-```
-
-[RISK] Do not use set_false_path to hide this — the path is functionally real and silicon will fail.
+---
 
 ---
 
@@ -337,28 +262,9 @@ If WNS is negative, check: (1) register file paths, (2) instruction decode wide 
 
 ## § 10 Common Pitfalls
 
-### Anti-Pattern 1 — Unconstrained Clock Domain Crossing
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:**
-```systemverilog
-// Direct register crossing clk_a domain to clk_b — METASTABILITY
-always_ff @(posedge clk_b) begin
-  data_out <= data_from_clk_a_domain;  // No synchronizer!
-end
-```
-
-✅ **GOOD:**
-```systemverilog
-// Two-flop synchronizer for single-bit control signals
-logic sync_ff1, sync_ff2;
-always_ff @(posedge clk_b or negedge rst_n) begin
-  if (!rst_n) {sync_ff2, sync_ff1} <= 2'b0;
-  else        {sync_ff2, sync_ff1} <= {sync_ff1, data_from_clk_a};
-end
-assign data_out = sync_ff2;
-```
-
-**Why it matters:** Unconstrained CDC causes random functional failures in silicon, nearly impossible to reproduce and debug in the lab. Metastability probability never reaches zero — synchronizers are mandatory.
+---
 
 ---
 

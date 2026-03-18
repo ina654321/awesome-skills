@@ -187,212 +187,33 @@ The MPDS determinant determines response tier, but caller condition can change �
 
 ## 7. Standards & Reference
 
-### 7.1 MPDS Determinant Codes
+See [references/07-standards.md](references/07-standards.md)
 
-| Determinant | Description | Response Tier | Target Response |
-|-------------|-------------|---------------|-----------------|
-| **Echo** | Cardiac/Respiratory Arrest, Not Breathing | Echo response (ALS + nearest) | < 4 minutes |
-| **Delta** | Life-Threatening (chest pain, stroke, severe trauma) | Delta response (ALS) | < 8 minutes |
-| **Charlie** | Urgent (abdominal pain, falls, minor trauma) | Charlie response (BLS) | < 12 minutes |
-| **Bravo** | Non-Urgent (minor injuries, illness) | Bravo response (BLS) | < 20 minutes |
-| **Alpha** | Minor/ BLS | Alpha response | < 30 minutes |
-| **Omega** | Lift-Assist (no medical emergency) | Omega response | No lights/sirens |
-
-### 7.2 Response Time Standards
-
-| Metric
-|--------------|--------------|-----------------|--------------|
-| **Echo Response** | < 4 min | < 8 min | < 12 min |
-| **Delta Response** | < 8 min | < 12 min | < 15 min |
-| **Charlie Response** | < 12 min | < 15 min | < 20 min |
-| **Turnout Time** | < 60 sec | < 90 sec | < 120 sec |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Emergency Call Processing
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Call Answer & Location (0-30 seconds)
-├── Answer within 3 rings: "911, what's your emergency?"
-├── Obtain address: "Where is the emergency located?"
-├── Verify address: "Can you confirm the address?"
-└── [✓ Done]: Confirmed address with callback number
-    [✗ FAIL]: No address → Ask for cross-street, landmark, phone number
-
-Phase 2: Chief Complaint & Triage (30-90 seconds)
-├── Ask: "What's the problem?"
-├── Obtain patient info: "How old is the patient?"
-├── Assign MPDS determinant based on key questions
-└── [✓ Done]: Determinant assigned
-    [✗ FAIL]: Unclear determinant → Ask more specific questions
-
-Phase 3: Pre-Arrival Instructions & Dispatch (90 seconds+)
-├── Provide life-saving instructions (CPR, bleeding control)
-├── Dispatch appropriate response tier
-├── Provide updates to responding units
-└── [✓ Done]: Units dispatched; caller following instructions
-    [✗ FAIL]: Caller disconnected → Use ANI/ALI; callback; dispatch to last-known
-```
-
-### 8.2 MCI (Mass Casualty Incident) Protocol
-
-```
-Step 1: Initial Report
-  → Caller reports multiple injured (e.g., "5 people hurt in car crash")
-  → Ask: "How many patients total?"
-
-Step 2: MCI Classification
-  → MCI Level 1: 3-5 patients
-  → MCI Level 2: 6-10 patients
-  → MCI Level 3: 11+ patients
-
-Step 3: Response Staging
-  → MCI-1: 2-3 ambulances + supervisor
-  → MCI-2: 4-6 ambulances + supervisor + command
-  → MCI-3: 8+ ambulances + multiple commands + hospital notification
-
-Step 4: Triage Implementation (START)
-  → Step 1: Can they walk? → YES → Green (Minor)
-  → Step 2: Breathing > 30/min → YES → Red (Immediate)
-  → Step 3: Cap refill > 2 sec → YES → Red (Immediate)
-  → Step 4: Not following commands → YES → Red (Immediate)
-  → → NO to all above → Yellow (Delayed)
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Cardiac Arrest Dispatch
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "My father just collapsed and is not breathing! He's lying on the floor!"
-
-**Emergency Dispatcher:**
-> **Cardiac Arrest Response**
->
-> **Determinant: Echo - Cardiac/Respiratory Arrest**
->
-> **Step 1: Dispatch Immediately**
-> - Unit(s): Closest ALS + second ALS backup
-> - Response: Lights and sirens
-> - Target arrival: < 4 minutes
->
-> **Step 2: Pre-Arrival Instructions (CPR)**
-> "I'm going to help you. Is your father on his back?"
-> 
-> If YES:
-> "Place the heel of one hand on the center of his chest, on the breastbone. Place your other hand on top. Push hard and fast — like this:"
-> 
-> [Demonstrate: 100-120 compressions per minute, 2 inches deep]
-> 
-> "Keep doing compressions until the ambulance arrives. Don't stop."
->
-> **Step 3: Key Questions**
-> | Question | Why It Matters |
-> |----------|----------------|
-> | "Is he breathing now?" | May have agonal breathing; still requires CPR |
-> | "Do you know CPR?" | Can coach if untrained |
-> | "How long ago did he collapse?" | Helps assess prognosis |
->
-> **Step 4: Continuous Reassessment**
-> - Stay on line with caller
-> - If caller stops CPR, immediately encourage restart
-> - If patient becomes conscious, reassess and update units
->
-> **Key Point:** The survival rate for out-of-hospital cardiac arrest decreases 10% every minute without CPR. Your instructions are critical.
->
-> **Next I need from you:**
-> 1. Can you find out exactly when he collapsed?
-> 2. Is there an AED available nearby?
-
-### 9.2 Stroke Assessment
-
-**User:** "My wife is 65 years old and suddenly can't speak properly. Her face looks strange on one side. She was fine this morning!"
-
-**Emergency Dispatcher:**
-> **Possible Stroke Response**
->
-> **Determinant: Delta - Suspected Stroke (FAST Positive)**
->
-> **FAST Assessment:**
-> - **F**ace: Facial droop (one side)
-> - **A**rm: Arm weakness (can't hold both up)
-> - **S**peech: Slurred or unable to speak
-> - **T**ime: Time last known well is critical
->
-> **Step 1: Dispatch**
-> - Unit: ALS (Stroke-capable preferred)
-> - Response: Lights and sirens
-> - Hospital: Level 1 Stroke Center preferred
->
-> **Step 2: Critical Information**
-> "When was she last completely normal? Exactly what time?"
-> (This determines if she's within the tPA window)
->
-> "Is she taking blood thinners?"
-> (Affects treatment options)
->
-> **Step 3: Pre-Arrival Instructions**
-> "Don't let her walk. Keep her lying down. If she vomits, turn her to the side."
-> 
-> "Don't give her anything to eat or drink."
-> 
-> "Have her medications ready — the paramedics will need to know what she takes."
->
-> **Key Point:** Stroke patients need to arrive at a stroke center as quickly as possible. "Time is brain" — every minute loses 1.9 million neurons.
->
-> **Next I need from you:**
-> 1. Exactly what time did you notice these symptoms starting?
-> 2. What hospital is closest? (Check if it's a stroke center)
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Collecting Non-Essential Information
-
-```markdown
-❌ BAD: "What's his medical history? Is he on medication? Do you have his insurance?"
-→ Delays dispatch; patient dies while gathering non-essential info
-
-✅ GOOD: Get address → Get chief complaint → Dispatch → THEN gather details
-Information is for continuity of care, not for dispatch prioritization
-```
-
-**Anti-Pattern 2: Not Providing Pre-Arrival Instructions
-
-```markdown
-❌ BAD: "Help is on the way. Stay with him." → Caller does nothing while patient deteriorates
-→ Missed opportunity to provide lifesaving care before EMS arrival
-
-✅ GOOD: Assess if caller can provide care → Give specific instructions:
-"CPR if not breathing," "Apply pressure if bleeding," "Don't move if spine injury suspected"
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 3: Accepting Vague Location
-
-```markdown
-❌ BAD: "Somewhere on Main Street, the blue house"
-→ Unit drives around looking for address; delays critical care
-
-✅ GOOD: "What's the exact street address? Is there an apartment number? 
-What's the nearest cross-street or landmark?"
-```
-
-**Anti-Pattern 4: Single-Unit Response for Potentially Critical Call
-
-```markdown
-❌ BLS for chest pain → Patient arrests en route
-→ Should have upgraded to ALS when caller describes "crushing chest pain radiating to arm"
-
-✅ GOOD: When in doubt, upgrade. It's easier to cancel an extra unit than to explain a preventable death
-```
+---
 
 ---
 

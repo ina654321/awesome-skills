@@ -163,80 +163,17 @@ The following tools are used in ERP administration, audit, and integration workf
 
 ## 7. Standards & Reference
 
-**ITGC — IT General Controls Framework:**
+See [references/07-standards.md](references/07-standards.md)
 
-IT General Controls are the foundational controls that auditors verify before relying on application controls in the ERP. Four ITGC domains relevant to ERP administration:
-
-| ITGC Domain | Key Controls | Evidence for Audit |
-|---|---|---|
-| **Logical Access** | User access provisioning/deprovisioning, SoD enforcement, privileged access management | Access request forms, termination checklists, SoD conflict reports, quarterly access certifications |
-| **Change Management** | Change request documentation, testing evidence, approval records, transport logs | Change tickets, test results, CAB meeting minutes, transport request lists |
-| **Computer Operations** | Batch job scheduling, monitoring, failure response | SM37 job logs, incident tickets for failures, job schedule documentation |
-| **Program Development** | SDLC documentation, code review, separation of dev/test/prod | Transport logs (DEV→QAS→PRD), ABAP code review evidence, functional sign-off |
-
-**SOX Section 302/404 — ERP-Relevant Requirements:**
-
-- Section 302: CEOs and CFOs must certify the accuracy of financial statements. ERP controls that ensure data integrity (period close controls, journal entry controls, access controls) are directly in scope.
-- Section 404: Management must assess and report on the effectiveness of internal controls over financial reporting. ERP access controls, SoD controls, and change management controls are tested annually by external auditors.
-
-**SAP SoD Conflict Matrix — Highest Risk Combinations:**
-
-| Risk Scenario | Conflicting Capabilities | Fraud Enabled |
-|---|---|---|
-| Procure-to-Pay | Create vendor + Approve PO + Process payment | Ghost vendor payment fraud |
-| Order-to-Cash | Create customer + Release credit block + Post AR | Revenue manipulation |
-| Record-to-Report | Post journal entry + Approve journal entry | Earnings manipulation |
-| Payroll | Maintain HR master data + Run payroll + Post payroll | Ghost employee fraud |
-| Fixed Assets | Create asset master + Retire asset + Post depreciation | Asset misappropriation |
-
-**Performance Metrics and Target Ranges:**
-
-| Metric | Target | Alert Threshold | Measurement Tool |
-|---|---|---|---|
-| System Availability | 99.9% (< 8.7 hours downtime/year) | < 99.5% | Solution Manager system monitoring |
-| Batch Job Completion Rate | > 99% complete within window | < 98% or any critical job failure | SM37 daily review |
-| SoD Violation Count (Critical) | 0 unmitigated critical conflicts | Any unmitigated critical SoD | SAP GRC Access Control |
-| Data Migration Accuracy | > 99.9% record-level accuracy | < 99.5% | Migration reconciliation report |
-| Cutover Window Duration | < 24 hours for mid-market ERP | > 20 hours (escalate to extend window) | Cutover runbook tracking |
-| IDOC Processing Success Rate | > 99.5% | < 99% triggers incident | BD87 daily monitoring |
-| Dialog Response Time (95th percentile) | < 1 second | > 2 seconds sustained | SAP CCMS
-
-**COBIT Framework for ERP Governance:**
-
-Applicable COBIT 2019 processes for ERP administration:
-- **APO01** (Manage IT Management Framework): ERP policies and standards
-- **APO12** (Manage Risk): SoD risk management, integration risk
-- **BAI06** (Manage IT Changes): ERP change management process
-- **DSS01** (Manage Operations): Batch job management, system monitoring
-- **DSS06** (Manage Business Process Controls): Application controls over financial transactions
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### Phase 1: ERP Security Role Design
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Input:** Business process description, job function matrix, existing role catalog (if available), SOX in-scope process list.
-
-**Step 1 — Job Function Analysis [✓ Done: all job functions documented with process steps]**
-Map each job function to its required business process steps. Example: "AP Clerk" → create vendor invoice, match to PO, post invoice; NOT: approve PO, create vendor master, release payment. Document the mapping in a role concept matrix: job function, process steps, required SAP transactions, required authorization objects with permitted values.
-[✗ FAIL: any job function with access to approve their own transactions — return for process redesign]
-
-**Step 2 — SoD Conflict Check [✓ Done: GRC simulation run; 0 critical conflicts; all medium conflicts documented]**
-Before creating roles, run a GRC Access Control simulation with the proposed role assignments. Review all critical SoD conflicts. For each critical conflict: either redesign the role to eliminate the conflict, or document a formal compensating control (who performs the compensating control, how frequently, and what evidence is retained).
-[✗ FAIL: any critical SoD conflict without a documented and approved compensating control]
-
-**Step 3 — Role Build and Unit Test [✓ Done: roles built in DEV; all required transactions accessible; no unauthorized transactions accessible]**
-Build roles in the DEV client using PFCG (SAP role maintenance). Test each role with a test user: verify all required transactions are accessible with required authorization object values, verify unauthorized transactions are blocked (negative testing). Document test results with screenshots for audit evidence.
-[✗ FAIL: any negative test passes (user can access a transaction they should not have access to)]
-
-**Step 4 — Transport to QAS and Business Sign-Off [✓ Done: transport to QAS complete; business process owner sign-off received]**
-Transport roles to QAS via the transport system (never copy roles manually between clients). Business process owners test roles using business scenarios, not SAP transactions. Sign-off is obtained in writing (ticket, email chain, or formal test sign-off document) before the transport to PRD is released.
-[✗ FAIL: transport to PRD without written business sign-off]
-
-**Step 5 — Production Transport and Access Certification [✓ Done: roles active in PRD; user assignments complete; GRC shows 0 critical conflicts in PRD]**
-Transport approved roles to PRD. Assign roles to users via SU01. Run a GRC Access Control production report immediately after assignment to confirm the live system matches the approved design. Schedule the first access certification review for 90 days after go-live.
-[✗ FAIL: PRD GRC report shows any SoD conflict not present in the QAS simulation]
+---
 
 ---
 
@@ -264,44 +201,9 @@ Enter hypercare mode for the first 30 days post-go-live. All functional workstre
 
 ## 9. Scenario Examples
 
-### Scenario 1: SOX Audit Preparation — SoD Conflict Resolution
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "Our external auditors found 12 SoD conflicts in our SAP system. The audit starts in 3 weeks. How do we fix this?"
-
-**Expert ERP Administrator:**
-"Three weeks is tight but workable if we act immediately. Here's the structured response.
-
-**Step 1: Triage the 12 conflicts by risk level.**
-
-GRC Access Control classifies SoD conflicts as Critical, High, Medium, or Low. Get the full GRC conflict report — not just the count, but the specific conflict IDs, the users affected, and the transaction pairs involved.
-
-Example triage output:
-
-| Conflict ID | Description | Users Affected | Risk Level | Last Activity Date |
-|---|---|---|---|---|
-| FI-MM-001 | Create vendor + Approve PO | jsmith, mwong | Critical | 2026-02-15 |
-| FI-MM-003 | Post invoice + Release payment | jsmith | Critical | 2026-01-30 |
-| FI-GL-002 | Post journal entry + Approve journal entry | rlopez | Critical | 2026-02-28 |
-
-**Step 2: For each Critical conflict, choose one of three remediation paths.**
-
-Path A — Role redesign (preferred): Remove one conflicting transaction from the user's role. Requires a business process redesign if the user legitimately needs both.
-
-Path B — User reassignment: Move one conflicting activity to a different user. Requires another user with the right skills and capacity.
-
-Path C — Compensating control (last resort): User retains both accesses, but a manager reviews and approves every transaction in the conflicting area daily. The compensating control must be documented, the reviewer must have no conflicting access, and evidence of the review (signed off report) must be retained for the auditors.
-
-**Step 3: Generate audit evidence package.**
-
-For each resolved conflict, prepare:
-1. The original GRC conflict report showing the conflict
-2. The remediation action taken (role change transport log, or compensating control documentation)
-3. The post-remediation GRC report showing 0 conflicts for that user/conflict combination
-4. For compensating controls: signed evidence of the control operating for the last 30 days
-
-**For jsmith (2 critical conflicts):** This user cannot hold these combinations regardless of compensating controls — two simultaneous critical SoD conflicts in Procure-to-Pay for the same user is a control design failure, not just a gap. We need to redesign the role assignment immediately and notify Internal Audit proactively. Proactive disclosure is better than discovery.
-
-What does jsmith's full role assignment look like? Share the SU01 or SUIM output and I'll design the remediation."
+---
 
 ---
 
@@ -433,15 +335,9 @@ I'll help you build the proper UAT access package right now. What transactions a
 
 ## 10. Common Pitfalls
 
-### Anti-Pattern 1: SAP_ALL or Equivalent Superuser Profile to Regular Users
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:**
-"The finance director needs access to a few extra reports. Just give them SAP_ALL — it's easier than figuring out which authorization objects to add."
-
-✅ **GOOD:**
-Run ST05 or transaction SU53 to identify exactly which authorization object is failing for the finance director's required access. Add the specific authorization object with the specific permitted values to their role. Transport and test. This takes 30 minutes. SAP_ALL takes 2 minutes and creates an unmitigated critical audit finding.
-
-*Why it matters:* SAP_ALL bypasses all application security controls. A user with SAP_ALL can post to any company code, any period, any fiscal year. One accidental (or deliberate) action can destroy financial data that took a quarter to build.
+---
 
 ---
 

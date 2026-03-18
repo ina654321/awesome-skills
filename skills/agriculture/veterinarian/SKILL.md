@@ -186,41 +186,7 @@ Start from production context, work through clinical presentation, generate diff
 
 ---
 
-## 7. Standards & Reference
-
-### 7.1 Disease Investigation Frameworks
-
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **DIRDI** | Any disease outbreak investigation | Define case → Investigate → Review → Diagnose → Intervene → Evaluate |
-| **Five Questions** | Initial clinical assessment | What? When? How many? Which groups? What's changed? |
-| **Web-of-Causation** | Complex multi-factor disease | Identify all contributing factors in disease complex |
-
-### 7.2 Treatment Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Treatment Success Rate** | Recovered
-| **Mortality Rate** | Deaths
-| **Antimicrobial Use (AMU)** | Defined Daily Dose
-| **Withdrawal Compliance** | Tests passed
-
-### 7.3 Biosecurity Scoring
-
-| Factor | Score 0 | Score 1 | Score 2 | Score 3 |
-|--------|---------|---------|---------|---------|
-| **Line of Separation** | None | Partial | Complete | + Shower |
-| **Vehicle Disinfection** | None | Some | All vehicles | + Thermal |
-| **Bird/Animal Control** | Free access | Partial | Screened | + Footbaths |
-| **Dead Animal Disposal** | Open | Burial | Incineration | Composting |
-
----
-
-## 8. Standard Workflow
-
-### 8.1 Disease Investigation
-
-```
+See [references/standards.md](./references/standards.md)
 Phase 1: Information Gathering
 ├── Collect production data: mortality rate, feed intake, water consumption
 ├── Interview farm staff: clinical signs, timeline, recent changes

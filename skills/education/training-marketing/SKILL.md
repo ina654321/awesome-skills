@@ -185,226 +185,33 @@ Conversion optimization: improve any stage, improve total results.
 
 ## 7. Standards & Reference
 
-### 7.1 Marketing Channel Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Channel / 渠道 | When to Use / 使用场景 | Key Steps
-|--------------|----------------------|-------------------|
-| **SEM (Search Engine Marketing)** | High-intent searches (e.g., "中考数学辅导") | 1. Keyword research → 2. Ad copy → 3. Landing page → 4. Bid management → 5. Conversion tracking |
-| **Social Media Ads (Douyin/WeChat)** | Awareness + interest stages; targeting by interest/behavior | 1. Audience targeting → 2. Creative → 3. Budget allocation → 4. Retargeting setup |
-| **Content Marketing** | Building trust; SEO; thought leadership | 1. Topic research → 2. Content calendar → 3. Production → 4. Distribution → 5. Performance measurement |
-| **Offline Events** | Direct engagement; trust building; referrals | 1. Event concept → 2. Venue/date → 3. Invitation strategy → 4. Follow-up process |
-| **Referral Program** | Leveraging existing student base | 1. Program design → 2. Incentive structure → 3. Referral tracking → 4. Reward fulfillment |
-
-### 7.2 Marketing Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Cost per Lead (CPL)** | Total marketing spend
-| **Conversion Rate (Trial→Enroll)** | Enrolled
-| **Cost per Enrollment (CPE)** | Total marketing spend
-| **ROI** | (Revenue - Marketing spend)
-| **Lead-to-Enrollment Rate** | Enrolled students
-| **Customer Acquisition Cost (CAC)** | Total acquisition cost
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Campaign Development
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Strategy & Planning (Week 1)
-├── Define campaign objective: leads, enrollments, brand awareness
-├── Identify target audience: demographics, interests, decision makers
-├── Analyze competitive positioning: differentiation strategy
-├── Set KPIs and budget allocation
-└── [✓ Done]: Approved marketing plan with clear metrics
-    [✗ FAIL]: Unclear target or KPIs → iterate before proceeding
-
-Phase 2: Creative Development (Week 2)
-├── Design ad creatives: A/B test variants
-├── Write copy: headlines, body, CTAs
-├── Build landing pages: consistent message, clear CTA, trust signals
-├── Set up tracking: UTM parameters, conversion goals
-└── [✓ Done]: All assets ready in system
-    [✗ FAIL]: Tracking not properly configured → fix before launch
-
-Phase 3: Execution & Optimization (Week 3-4)
-├── Launch campaigns across channels
-├── Monitor daily performance: CTR, CPC, CPL
-├── A/B test winning variants
-├── Pause underperforming ad sets
-└── [✓ Done]: Positive ROI; stable CPL below target
-    [✗ FAIL]: CPL too high → optimize landing page, adjust targeting, test new creatives
-```
-
-### 8.2 Lead Nurturing Process
-
-```
-Step 1: Initial Response (Within 30 minutes)
-  → Acknowledge inquiry promptly
-  → Provide immediate value (useful content, answer common question)
-  → Qualify: ask about needs, timeline, current situation
-  → Next step: schedule consultation or trial class
-
-Step 2: Qualification & Matching
-  → Understand: What subject? What level? What goals? What's the challenge?
-  → Recommend: Specific course/teacher match based on needs
-  → Overcome objections: Address concerns with proof points
-
-Step 3: Trial Class Conversion
-  → Ensure positive trial experience: logistics, expectations set
-  → Follow up within 24 hours: results discussion, next steps
-  → Handle objections: price, timing, competition comparison
-
-Step 4: Enrollment & Handoff
-  → Present offer: pricing, schedule, value proposition
-  → Handle closing: urgency, incentives, guarantees
-  → Handoff to operations: ensure smooth onboarding
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 K12 Tutoring Marketing Strategy
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我们新开一个初中数学辅导班，怎么推广能快速招到学生？"
-
-**Training Marketing:**
-> **Step 1: 目标受众分析**
->
-> | 群体 | 核心需求 | 决策人 | 触达渠道 |
-> |------|---------|--------|---------|
-> | 初二学生 | 数学成绩提升，应试 | 家长 | 妈妈微信、小红书 |
-> | 初三学生 | 中考数学冲刺 | 家长 | 妈妈微信、家长群 |
-> | 初一新生 | 适应初中数学 | 家长 | 妈妈微信、社区 |
->
-> **Step 2: 营销策略组合**
->
-> | 渠道 | 预算占比 | 预期产出 | 关键动作 |
-> |------|---------|---------|---------|
-> | 微信朋友圈广告 | 40% | 200线索 | 定位2km内、有孩家庭、兴趣标签 |
-> | 小红书种草 | 25% | 50线索 | 妈妈经验分享、中考干货 |
-> | 社区地推 | 20% | 80线索 | 学校门口、接送点、意向登记 |
-> | 口碑转介绍 | 15% | 30线索 | 现有学员激励、老带新优惠 |
->
-> **Step 3: 转化路径设计**
->
-> ```
-> 广告点击 → 落地页(免费领取资料+预约试听) → 顾问联系 → 试听课 → 转化
->                                                     ↓
->                                            未转化:进入潜客池→持续培育
-> ```
->
-> **Step 4: 关键指标监控**
->
-> - 日线索量: > 20条
-> - 试听到店率: > 60%
-> - 试听转化率: > 30%
-> - 单个学员获客成本: < ¥600
->
-> **Next, I need from you:**
-> - 你们的核心竞争优势是什么？（师资？价格？位置？）
-> - 现有学员有多少？可以启动转介绍吗？
-
-### 9.2 Enrollment Promotion Design
-
-**User:** "暑假班招生效果不好，想做个促销活动提升转化率，怎么设计？"
-
-**Training Marketing:**
-> **⚠️ 警告：促销不是万能药，先诊断问题**
->
-> **Step 1: 问题诊断**
->
-> | 可能原因 | 诊断方法 | 解决方案 |
-> |---------|---------|---------|
-> | 流量不够 | 对比历史线索量 | 加大广告投放 |
-> | 试听到店率低 | 检查邀约话术、流程 | 优化预约体验 |
-> | 试听转化率低 | 分析试听课程质量、顾问跟进 | 改进试听体验 |
-> | 价格太高 | 调研竞品定价 | 调整价格/增加价值 |
->
-> **Step 2: 促销设计原则**
->
-> | 原则 | 说明 | 错误示例 |
-> |------|------|---------|
-> | 不降底价 | 维持品牌定位，增加附加价值 | 直接打8折 |
-> | 紧迫感 | 限时限量，制造稀缺 | "仅限前30名" |
-> | 低门槛 | 降低首次尝试成本 | "9元试学" |
-> | 后端盈利 | 首单微利，后续课程盈利 | 长期班优惠绑定 |
->
-> **Step 3: 促销方案推荐**
->
-> "**方案A: 拼团试学（推荐）**
-> - 3人成团，每人9元试学4节课
-> - 试学后报名正价课，9元抵300元
-> - 团长额外获得200元奖学金
->
-> **优势**: 低门槛试学 → 口碑传播 → 转化率高
->
-> **方案B: 限时优惠**
-> - 7月15日前报名，享8折优惠
-> - 仅限30个名额
-> - 赠送内部资料包
->
-> **优势**: 简单直接，适合已有知名度的机构"
->
-> **关键提醒**:
-> - 促销后恢复原价要坚决，不能"促而不销"
-> - 做好服务，否则促销招来也留不住
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Chasing Any Lead
-
-```markdown
-❌ BAD: Market to everyone; accept any inquiry; no qualification criteria.
-→ Sales wastes time on untargeted leads; low conversion; high cost per enrollment.
-
-✅ GOOD: Define ideal student profile; qualify leads early; focus resources on high-potential prospects.
-```
-
-**Anti-Pattern 2: Promo-Only Marketing
-
-```markdown
-❌ BAD: Constant discounts; "last 3 days"; price as primary message.
-→ Trains customers to wait for sales; erodes brand value; attracts price-sensitive only.
-
-✅ GOOD: Lead with value, results, differentiation; use promotion strategically, not constantly.
-```
-
-**Anti-Pattern 3: Neglecting Follow-up
-
-```markdown
-❌ BAD: Collect leads but don't follow up systematically.
-→ 80% of leads never receive follow-up; massive waste of marketing spend.
-
-✅ GOOD: Lead response within 30 minutes; automated follow-up sequences; CRM tracking.
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Brand Inconsistency
-
-```markdown
-❌ BAD: Different messages on different channels; website says X, ads say Y.
-→ Confused prospects; diluted brand; weaker trust.
-
-✅ GOOD: Unified brand guidelines; core message consistent across all touchpoints.
-```
-
-**Anti-Pattern 5: Ignoring Offline
-
-```markdown
-❌ BAD: Put all budget into digital ads; ignore offline channels entirely.
-→ Misses parents who prefer face-to-face; loses local market to competitors with offline presence.
-
-✅ GOOD: Integrate online + offline; use digital for reach, offline for conversion.
-```
+---
 
 ---
 

@@ -188,145 +188,25 @@ A great referee is invisible — players focus on the game, not the official.
 
 ## 7. Standards & Reference
 
-### 7.1 Sports Officiating Protocols
+See [references/07-standards.md](references/07-standards.md)
 
-| Sport | Key Responsibilities | Common Fouls | Communication |
-|-----------------|----------------------|-------------------|------------------------|
-| **Basketball** | Ball handling, physical contact, shooting fouls | Traveling, charging, blocking | Whistle + hand signals |
-| **Soccer** | Fouls, offside, misconduct | Handball, dangerous play, dissent | Whistle + flag + cards |
-| **Volleyball** | Net violations, contact, rotation errors | Foot fault, reach, lift | Whistle + hand signals |
-| **Combat Sports** | Safe conduct, rule violations, scoring | Illegal hits, holding, inactivity | Voice + hand signals |
-
-### 7.2 Game Control Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Call Accuracy** | Correct calls
-| **Game Flow** | Actual playing time
-| **Ejection Rate** | Ejections
-| **Player Satisfaction** | Post-game survey (1-10) | >8 |
-| **Dispute Rate** | Arguments requiring intervention
-
-### 7.3 Positioning Principles by Sport
-
-| Sport | Primary Position | Secondary Position | Key Angles |
-|-----------------|----------------------|---------------------|-------------------|
-| **Basketball** | Lead: ahead of play; Trail: behind play | Baseline for under-basket | See both sides of play |
-| **Soccer** | Follow ball; diagonal system | Cover center, wings | See entire diagonal |
-| **Volleyball** | Rotate with play; back judge for serve | Side judge for attacks | See net, service, attack |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Pre-Game Protocol
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Preparation (1-2 hours before)
-├── Review game schedule, teams, and any special rules
-├── Check equipment: whistle, cards, flags, stopwatch
-├── Coordinate with other officials: roles, signals, communication
-├── Arrive early: inspect venue, check field/court conditions
-└── [✓ Done]: Ready 30 minutes before game start
-    [✗ FAIL]: Any equipment missing → borrow or procure before start
-
-Phase 2: Pre-Game Meeting (15-30 mins before)
-├── Meet with captains: explain ground rules, conduct coin toss
-├── Brief coaches: confirm substitution rules, protest procedures
-├── Verify player eligibility: roster checks if required
-└── [✓ Done]: All parties informed, game ready to start
-    [✗ FAIL]: Eligibility issue → resolve before kickoff
-
-Phase 3: Game Start
-├── Enter with authority: confident walk onto field/court
-├── Signal ready: whistle to begin
-├── Set tone: early calls establish credibility
-└── [✓ Done]: Game underway with clear control
-    [✗ FAIL]: Players not following → call timeout, address captains
-```
-
-### 8.2 In-Game Decision Flow
-
-```
-Step 1: Observe the play
-  → Watch with primary focus: ball, players involved
-  → Maintain peripheral awareness: off-ball action
-  
-Step 2: Judge the action against rules
-  → What rule applies?
-  → Did the player violate that rule?
-  → Was the violation material?
-  
-Step 3: Make the call
-  → Instant decision: whistle + signal
-  → Confident delivery: no hesitation
-  → If unsure: don't guess, let play continue
-  
-Step 4: Manage the aftermath
-  → Signal to table/scorekeeper
-  → Position for next play
-  → Monitor for retaliation or escalation
-```
-
-### 8.3 Post-Game Protocol
-
-```
-Step 1: Signal end of game
-  → Final whistle/signal
-  → Ensure score is official
-  
-Step 2: Clear the area
-  → Monitor handshake/farewells
-  → Watch for post-game incidents
-  
-Step 3: Documentation
-  → Complete game report if required
-  → Note any incidents, ejections, protests
-  → Sign off on official score
-  
-Step 4: Professional exit
-  → Leave when appropriate
-  → Don't engage with lingering disputes
-  → Report any threats or serious incidents
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Handling a Heated Dispute: Basketball
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "球员和教练对判罚不满意，冲上来争论怎么办？"
-
-**Sports Referee:**
-> **篮球争议判罚处理流程**
->
-> **Step 1: Establish boundaries (立即)**
-> ```
-> [保持冷静，手势示意停止]
-> "我已经做出判罚，不会更改。
-> 如果你继续争论，我将追加技术犯规。"
-> ```
-> - 站立姿势：双脚分开，重心稳定
-> - 手势：手掌向前，明确的"停止"信号
-> - 语气：坚定但不提高音量
->
-> **Step 2: De-escalate if possible**
-> - 如果球员冷静下来 → 简短解释判罚依据
-> - "他起跳时有身体接触，这是一次阻挡犯规"
-> - 解释后立即离开，不要继续对话
->
-> **Step 3: Enforce if necessary**
-> - 如果继续争论 → 给出技术犯规警告
-> - 仍然不从 → 吹罚技术犯规
-> - 记录在案，继续比赛
->
-> **关键原则:**
-> - 第一次争论：可以解释（如果合理）
-> - 第二次争论：警告
-> - 第三次争论：判罚
-> - 永不妥协：判罚一旦做出，不可更改
-> - 永远不碰触球员：保持距离，防止被指控
+---
 
 ---
 
@@ -457,26 +337,9 @@ Step 4: Professional exit
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Hesitation on calls** | 🔴 High | See it, call it — hesitation undermines authority |
-| 2 | **Inconsistent application** | 🔴 High | Same situation, same call — always |
-| 3 | **Arguing with players** | 🔴 High | Explain once, then end — never argue |
-| 4 | **Favoritism perception** | 🔴 High | Treat both teams identically — in tone, calls, respect |
-| 5 | **Missing obvious fouls** | 🟡 Medium | Position properly; if you miss, don't overcompensate |
-| 6 | **Losing composure** | 🟡 Medium | Count to three before responding; breathe |
-| 7 | **Late signals** | 🟢 Low | Signal immediately after call; delayed signals confuse |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ [BAD]: "Let me think about that..." [hesitates 5 seconds]
-✅ [GOOD]: [Whistle] "Foul!" [Immediate signal]
-
-❌ [BAD]: "Come on, that wasn't a foul" [arguing with player]
-✅ [GOOD]: "I've made my decision. Play on." [walk away]
-
-❌ [BAD]: Blows whistle for everything to "show authority"
-✅ [GOOD]: Let plays go — only call what matters
-```
+---
 
 ---
 

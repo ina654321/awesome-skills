@@ -187,157 +187,25 @@ VEHICLE BASELINE
 
 ## § 7 Standards & Reference
 
-### Vehicle Performance Benchmarks
-| Vehicle | GLOW (kg) | PML to LEO (kg) | Payload Fraction | Stages | Reusable |
-|---------|----------|----------------|-----------------|--------|---------|
-| Falcon 9 Block 5 (new) | 549,054 | 22,800 | 4.15% | 2 | No |
-| Falcon 9 Block 5 (reuse) | 549,054 | ~17,000 | ~3.1% | 2 | Stage 1 |
-| Falcon Heavy (expendable) | 1,420,788 | 63,800 | 4.49% | 2+2 | No |
-| Long March 5 | 879,000 | 25,000 | 2.84% | 2 | No |
-| Ariane 6-4 | 530,000 | 21,650 | 4.08% | 2 | No |
-| Electron | 13,000 | 300 | 2.3% | 2 | No |
-| New Glenn | ~1,000,000 | 45,000 | ~4.5% | 2 | Stage 1 |
+See [references/07-standards.md](references/07-standards.md)
 
-### Staging Optimization Formula (ideal Tsiolkovsky multi-stage)
-```python
-# For n-stage vehicle, optimal delta-V split minimizes GLOW
-# Key insight: each stage should have similar mass ratio (m_wet/m_dry)
-
-# Two-stage to LEO (approximate):
-# Target LEO delta-V = 9,400 m/s (gravity + drag losses + orbit)
-# Optimal split for LOX/RP-1 + LOX/LH2:
-#   Stage 1 (Isp=311s): delta-V ≈ 3,800 m/s
-#   Stage 2 (Isp=348s vacuum): delta-V ≈ 5,600 m/s
-
-def compute_propellant_mass(dv, Isp, m_final):
-    """Tsiolkovsky: compute propellant for given delta-V, Isp, and final mass"""
-    mass_ratio = math.exp(dv
-    m_initial = m_final * mass_ratio
-    return m_initial - m_final  # propellant mass
-
-# Stage 2 sizing (working backward from payload):
-# Given: payload = 10,000 kg, dv_stage2 = 5,600 m/s, Isp2 = 348 s
-# Assume structural fraction ε₂ = 0.08 (structure
-m_prop_2 = compute_propellant_mass(5600, 348, m_payload)
-m_struct_2 = m_prop_2 * epsilon_2
-m_wet_2 = m_prop_2 + m_struct_2 + m_payload
-```
-
-### Vehicle Performance Loss Breakdown (LEO)
-| Loss Type | Typical Value | Drivers |
-|-----------|-------------|---------|
-| Gravity losses | 1,100–1,500 m/s | Burn time at vertical velocity; lower T/W ratio → more gravity loss |
-| Drag losses | 100–300 m/s | Vehicle slenderness, max-Q altitude, atmospheric density |
-| Steering losses | 50–200 m/s | Range safety steering, wind steering, orbit plane change |
-| **Total losses** | **1,250–2,000 m/s** | (on top of ideal orbital velocity) |
-| Ideal LEO velocity | 7,780 m/s | Circular orbit at 200 km |
-| **Total delta-V needed** | **9,030–9,780 m/s** | Use 9,400 m/s as design point |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Mission Requirements & Concept
-```
-1.1 Mission Analysis
-  - [ ] Define target orbit (altitude, inclination, circular/elliptical)
-  - [ ] Compute ideal orbital velocity and total delta-V requirement (including losses)
-  - [ ] Define payload mass and fairing volume envelope
-  - [✓ Done] Output: Mission Requirements Document with delta-V budget
-  - [✗ FAIL] If delta-V > 10,500 m/s for LEO → mission not viable with single launch vehicle
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Vehicle Concept Trade Study
-  - [ ] Compare 2-stage vs. 3-stage architecture for target payload
-  - [ ] Evaluate reusable vs. expendable first stage economics
-  - [ ] Compute GLOW and payload fraction for 3 candidate configurations
-  - [✓ Done] Output: Vehicle Architecture Trade Report with selected baseline
-  - [✗ FAIL] If GLOW > $300M equivalent (rough mass proxy) → redesign or accept performance shortfall
-```
-
-### Phase 2: Vehicle Sizing & Design
-```
-2.1 Staging Optimization
-  - [ ] Optimize delta-V split using Lagrange multiplier or parametric sweep
-  - [ ] Compute stage wet mass, dry mass, propellant mass from Tsiolkovsky equation
-  - [ ] Iterate to convergence (change in GLOW < 0.5% between iterations)
-  - [✓ Done] Output: Stage Mass Budget v1.0 with positive payload margin
-  - [✗ FAIL] If payload fraction < 1.5% → reconsider propellant combination or staging
-
-2.2 Structural Design & Load Definition
-  - [ ] Compute max-Q altitude and dynamic pressure from trajectory analysis
-  - [ ] Define design load cases: max-Q, Max alpha Q, liftoff, staging, engine-out
-  - [ ] Size interstage and fairing for maximum load case + 1.4 factor (NASA-STD-5001)
-  - [✓ Done] Output: Structural Design Loads document + preliminary structure mass estimate
-  - [✗ FAIL] If structural mass fraction > 12% of stage wet mass → investigate design efficiency
-
-2.3 GNC Architecture
-  - [ ] Define guidance law (zero-lift gravity turn, linear tangent, optimal steering)
-  - [ ] Size grid fins (reusable first stage) for target entry loads and drag requirement
-  - [ ] Design AFSS (Autonomous Flight Termination System) per AFSSUI requirements
-  - [✓ Done] Output: GNC Architecture Document with control authority budget
-```
-
-### Phase 3: Integration, Testing & Launch Campaign
-```
-3.1 Systems Integration
-  - [ ] Full vehicle mass properties calculation (CG, MOI) at all propellant loadings
-  - [ ] Propulsion integration: engine gimbal range vs. CG shift; verify control authority
-  - [ ] Fairing payload environment: acoustic, vibration, thermal for customer payload
-  - [✓ Done] Output: Vehicle Configuration Document and Interface Control Documents (ICDs)
-
-3.2 Test Campaign
-  - [ ] Engine-level hot-fire: all engines at flight duration + margin
-  - [ ] Stage-level static fire: flight-ready stage at launch pad
-  - [ ] Flight test: no-orbit hop test (reusable); then first orbital mission
-  - [✓ Done] Output: Flight Readiness Review (FRR) approval for first launch
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Two-Stage to LEO Vehicle Sizing
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: I want to design a launch vehicle that delivers 10,000 kg to 400km LEO. Size the vehicle.
-
-**Expert**:
-> **Let me work through the top-level sizing**. Target: 10,000 kg to 400km circular (7,670 m/s orbital + ~1,800 m/s losses = ~9,400 m/s total delta-V).
->
-> **Configuration selection**: 2-stage, LOX/RP-1 stage 1, LOX/LH2 upper stage (Falcon 9 analogue):
->
-> **Stage 2 sizing** (working backward from payload):
-> ```python
-> # Stage 2: LOX/LH2, Isp_vac = 450s, structural fraction ε₂ = 0.10
-> # Delta-V allocation: stage 2 handles 5,600 m/s
-> dv2 = 5600  # m/s
-> Isp2 = 450  # s (LOX/LH2 vacuum)
-> m_payload = 10000  # kg
-> epsilon2 = 0.10  # structural fraction = m_dry
->
-> mass_ratio_2 = exp(5600
-> m_wet_2 = m_payload * mass_ratio_2 / (1 - epsilon2 * (1 - 1/mass_ratio_2))
->         ≈ 10000 * 3.557
-> m_prop_2 = 40200 * (1 - 1/3.557)
-> m_dry_2 = 40200 - 28900 - 10000 = 1,300 kg (structural mass, check: 4.5% → OK)
-> ```
->
-> **Stage 1 sizing**:
-> ```python
-> # Stage 1: LOX/RP-1, Isp_vac = 311s, structural fraction ε₁ = 0.07 (denser propellant)
-> # Delta-V allocation: stage 1 handles 3,800 m/s
-> m_top_of_stage1 = m_wet_2 = 40,200 kg
->
-> mass_ratio_1 = exp(3800
-> m_wet_1 = m_top_of_stage1 * mass_ratio_1 / (1 - epsilon1 * (1 - 1/mass_ratio_1))
->          ≈ 40200 * 3.479
->
-> GLOW = m_wet_1 + m_wet_2 = 145,000 + 40,200 = 185,200 kg
-> Payload fraction = 10,000
-> ```
->
-> **Engine sizing**: T/W ≥ 1.3 at liftoff → min thrust = 185,200 × 9.806 × 1.3 = 2,360 kN. If using 9 engines: ~262 kN each (similar to Merlin 1D at 914 kN → use 3 engines at ~787 kN each, or similar trade).
->
-> **Fairing sizing**: For 10,000 kg payload, expect ~8m diameter × 20m tall fairing; competes with Falcon 9 5.2m fairing range.
+---
 
 ---
 
@@ -430,24 +298,9 @@ m_wet_2 = m_prop_2 + m_struct_2 + m_payload
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Not Iterating Mass Budget
-**❌ BAD**: Sizing the vehicle at concept phase and not re-running the mass budget when subsystem designs mature
-**✅ GOOD**: Vehicle mass budget requires iteration — every major subsystem change propagates to GLOW:
-```python
-# Vehicle sizing is a fixed-point iteration:
-def vehicle_sizing_iteration(payload_kg, dv_total):
-    m_upper_stage = size_upper_stage(payload_kg, dv_stage2, Isp_upper)
-    m_stage1 = size_stage1(m_upper_stage, dv_stage1, Isp_stage1)
-    GLOW = m_stage1 + m_upper_stage + payload_kg
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-    # If subsystem mass grows (e.g., structure 10% heavier):
-    m_structure_delta = 1000  # kg extra structure
-    GLOW_new = vehicle_sizing_iteration(payload_kg, dv_total,
-                                        extra_mass=m_structure_delta)
-    # At stage 1, 1 kg of extra structure ≈ 50 kg GLOW growth
-    print(f"GLOW growth from 1000 kg structure: {GLOW_new - GLOW} kg")
-    # ≈ 40,000-50,000 kg GLOW growth (40-50× multiplier)
-```
+---
 
 ---
 

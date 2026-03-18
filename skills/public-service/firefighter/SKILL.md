@@ -160,145 +160,25 @@ COMMUNICATION STYLE:
 
 ## § 7 · Standards & Reference
 
-### 7.1 Fire Attack Options
+See [references/07-standards.md](references/07-standards.md)
 
-| Attack Type | When Used | Water Application | Crew Size |
-|-------------|-----------|-------------------|-----------|
-| **Direct Attack** | Fire location known, accessible | Stream to seat of fire | 2-3 |
-| **Indirect Attack** | Fire not accessible, ceiling height | Fog into hot gases | 2 |
-| **Combination Attack** | Most structural fires | Direct + indirect | 3-4 |
-| **Exterior Attack** | Defensive, structural compromise | Master streams, deck guns | 2+ |
-| **Fog Attack** | Visibility zero, overhaul needed | Wide fog pattern | 2 |
-
-### 7.2 ICS Resource Typing
-
-| Resource | Typing | Capability |
-|-----------|--------|------------|
-| **Engine** | Type 1/2/3/4 | Pumper, water capacity, crew |
-| **Ladder** | Type 1/2/3/4 | Aerial reach, rescue capability |
-| **Battalion Chief** | BC | Command vehicle, chief officer |
-| **Ambulance** | BLS/ALS | Patient transport, medical capability |
-| **Hazmat Unit** | Level A/B/C/D | Hazardous materials response |
-| **ARFF** | Aircraft Rescue | Airport crash/fire |
-
-### 7.3 Fire Behavior Indicators
-
-| Indicator | Meaning | Tactical Response |
-|-----------|---------|-------------------|
-| Black Smoke | Heavy pyrolysis, fuel-rich | Intensify attack, ventilation hazard |
-| Black/Brown Smoke + Pressure | Vent-limited, backdraft potential | Vent carefully, check for victims |
-| Orange/Red Smoke | Free-burning, oxygen-fed | Direct attack effective |
-| Rollover | Gas layer ignition | Flashover warning - withdraw |
-| Fire Vent | Fire seeking oxygen | Controlled ventilation needed |
-| Wind-Driven Fire | Rapid spread direction | Position to cut off advance |
+---
 
 ---
 
 ## § 8 · Standard Workflow
 
-### 8.1 Structural Fire Response
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Approach & Size-Up (En Route)
-├── Incident type: Structure fire, vehicle fire, etc.
-├── Building construction type (Type I-II-III-IV-V)
-├── Occupancy type (residential, commercial, mercantile)
-├── Conditions reported: smoke, fire, trapped, victims
-├── Water supply: hydrant locations, draft options
-└── Apparatus positioning: attack line, backup, aerial
-
-Phase 2: Initial Operations
-├── Incident Command established (IC announces)
-├── Primary search initiated (first-in engine)
-├── Attack line deployed (interior or defensive based on size-up)
-├── Water supply established (hydrant or draft)
-├── Ventilation initiated (or held per IC decision)
-└── Accountability system activated (PAR check)
-
-Phase 3: Fire Attack & Search
-├── Attack line advances to fire
-├── Primary search clears primary areas
-├── Secondary search initiated (thorough)
-├── Overhaul begun as fire knocked
-├── Salvage operations ongoing
-└── Continuous PAR checks every 15 min
-
-Phase 4: Termination
-├── Fire declared under control
-├── All searches complete (primary + secondary)
-├── Overhaul complete, no hotspots
-├── Utilities controlled (gas/electric)
-├── Scene secured for investigation
-└── Incident closed, resources cleared
-```
-
-### 8.2 Vehicle Extrication
-
-```
-Step 1: Scene Safety & Assessment
-├── Traffic control established
-├── Vehicle stabilized (chocks, struts)
-├── Hazards identified (airbags, fuel, battery)
-├── Patient assessment (trapped, conscious, injuries)
-└── Rescue plan developed
-
-Step 2: Patient Access
-├── Glass management (windshield, windows)
-├── Door removal (hinge side or latch)
-├── Roof removal (if needed for complex extrication)
-└── Dashboard displacement (dash lift, push)
-
-Step 3: Extrication
-├── Spinal precautions maintained
-├── Patient packaged (KED, scoop, board)
-├── Controlled removal from vehicle
-└── Transfer to EMS
-
-Step 4: Completion
-├── Scene cleared of debris
-├── Tools cleaned, packaged
-├── Unit restocked
-└── Patient destination confirmed
-```
+---
 
 ---
 
 ## § 9 · Scenario Examples
 
-### Scenario A: Multi-Alarm Structure Fire
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "Second-alarm assignment to residential structure, 2-story wood-frame, fire showing from first floor, reports of people trapped on second floor. Engine 1, Ladder 2, Battalion 1, Ambulance 7. Command, what's your incident plan?"
-
-**Firefighter:**
-> **Incident Commander Response:**
-> 
-> **Initial Size-Up:**
-> - 2-story wood-frame (Type V - lightweight construction)
-> - Fire showing first floor - potential flashover to second floor
-> - Reports of trapped - primary search priority
-> - Second alarm - multiple units, establish staging
->
-> **Command Structure:**
-> ```
-> IC: "Battalion 1 assuming command, [Address]. Two-story wood-frame,
->    fire showing first floor, reports of victims on second floor.
->    Engine 1 - attack line, primary search. Ladder 2 - vertical
->    ventilation, secondary search. Establish water supply.
->    Command."
-> ```
->
-> | Tactical Priority | Assignment | Objective |
-> |-------------------|-------------|-----------|
-> | 1. Life Safety | Engine 1 interior | Primary search, rescue victims |
-> | 2. Fire Attack | Attack line | Knock fire, protect stairway to second floor |
-> | 3. Ventilation | Ladder 2 roof | Vertical vent to release heat |
-> | 4. Backup | Engine 2 | Establish water supply, backup line |
-> | 5. RIT | Ladder 1 | Rapid intervention team staged |
->
-> **Additional Requests:**
-> - EMS for potential victims
-> - Second alarm for staffing
-> - Utility company for gas/electric control
+---
 
 ---
 
@@ -372,21 +252,9 @@ Step 4: Completion
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **No Incident Command** | 🔴 High | Establish command immediately, even on small incidents |
-| 2 | **Entering Collapsed Building Without Assessment** | 🔴 High | Marked collapse zone, RIT staged, structural engineer |
-| 3 | **Running Out of Air** | 🔴 Critical | Track SCBA air, 80% rule for withdrawal |
-| 4 | **Venting Before Attack Line Ready** | 🟡 Medium | Coordinate: attack line in place, then vent |
-| 5 | **Skipping Size-Up** | 🟡 Medium | 30-second assessment before commitment |
-| 6 | **No RIT/RIC Staged** | 🟡 High | Always have rapid intervention team ready |
-| 7 | **Inadequate Water Supply** | 🟡 Medium | Calculate GPM needs before attack; confirm supply |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "We went straight to the second floor to search without putting a line in place"
-✅ "Engine 1 established water supply, deployed attack line to second floor,
-   maintained exit path, proceeded with primary search under protection"
-```
+---
 
 ---
 

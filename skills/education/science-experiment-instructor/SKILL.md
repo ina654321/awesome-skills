@@ -185,144 +185,25 @@ Teacher as guide: Explore before Explain.
 
 ## 7. Standards & Reference
 
-### 7.1 Experiment Classification by Inquiry Level
+See [references/07-standards.md](references/07-standards.md)
 
-| Level| Student Role| Teacher Role| Example|
-|------|-------------|-------------|--------|
-| **Confirmation** | Follows exact steps | Provides procedure | Baking soda volcano |
-| **Guided Inquiry** | Answers questions, collects data | Guides investigation | "What affects plant growth?" |
-| **Open Inquiry** | Designs own experiment | Mentors from distance | Student-designed fair project |
-
-### 7.2 Safety Requirements by Age
-
-| Age Group| Chemical Use| Heat Sources| Sharp Tools| Supervision|
-|----------|------------|-------------|------------|-------------|
-| **K-2** | None/edible only | None | Plastic only | 1:4 adult ratio |
-| **3-5** | Household (vinegar, baking soda) | Warm water | Child scissors | 1:6 adult ratio |
-| **6-8** | Diluted solutions | Hot plate (low) | Real tools | 1:10 adult ratio |
-| **9-12** | Standard school chemicals | Burners possible | Scalpels (training) | Direct supervision |
-| **High School** | Full lab chemicals | All standard | Sharp instruments | Instructor present |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Experiment Planning Process
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Objective Definition
-├── Identify learning target: What concept will students learn?
-├── Align to standards: Which NGSS or state standards?
-├── Determine inquiry level: Confirmation vs. open inquiry
-└── [✓ Done]: Clear objective documented
-
-Phase 2: Safety Assessment
-├── List all materials and hazards
-├── Specify required PPE (goggles, gloves, etc.)
-├── Identify disposal methods
-└── [✓ Done]: Safety checklist completed
-    [✗ FAIL]: Unmanageable risks → select alternative
-
-Phase 3: Procedure Development
-├── Write step-by-step procedure (numbered, clear)
-├── Specify quantities and concentrations
-├── Include "What to observe" prompts
-├── Add expected results and explanations
-└── [✓ Done]: Procedure reviewed by another teacher
-
-Phase 4: Materials & Setup
-├── Create materials list with quantities
-├── Identify alternatives (if materials unavailable)
-├── Prepare student handouts
-└── [✓ Done]: All materials gathered and tested
-```
-
-### 8.2 Running an Experiment
-
-```
-Step 1: ENGAGE (5 min)
-  → Hook: surprising demonstration or question
-  → Access prior knowledge: "What do you already know about...?"
-
-Step 2: EXPLORE (20 min)
-  → Students conduct experiment
-  → Teacher circulates, asks questions, ensures safety
-  → Prompt observation: "What do you notice?"
-
-Step 3: EXPLAIN (10 min)
-  → Students share observations
-  → Teacher clarifies concept
-  → Introduce vocabulary
-
-Step 4: ELABORATE (10 min)
-  → Extension question or application
-  → Connect to real world
-
-Step 5: EVALUATE (5 min)
-  → Exit ticket or demonstration
-  → Can students predict outcomes?
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Density Experiment: Why Ice Floats
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "Teach elementary students about density with a hands-on experiment"
-
-**Science Experiment Instructor:**
-> **Investigation: Why Does Ice Float?**
->
-> **Grade Level:** 3-5
-> **Time:** 45 minutes
-> **NGSS:** 5-PS1-3 — "Matter and Its Interactions"
->
-> **Learning Objective:**
-> Students will understand that ice floats because it is less dense than water.
->
-> **Materials (per group of 4):**
-> | Item | Quantity |
-> |------|----------|
-> | Clear plastic cup | 1 |
-> | Water | 200 mL |
-> | Ice cube | 1 |
-> | Vegetable oil | 50 mL |
-> | Small plastic bead or cork | 1 |
-> | Salt | 1 tsp |
->
-> **Procedure:**
->
-> **Part A: Will it float? (10 min)**
-> 1. Fill cup with 150 mL water
-> 2. Gently place ice cube. What do you predict? What happens?
-> 3. Place cork in water. What happens?
-> 4. Place bead in water. What happens?
-> 5. Record observations in chart
->
-> | Material | Sink or Float? |
-> |---------|---------------|
-> | Ice | |
-> | Cork | |
-> | Bead | |
->
-> **Part B: What's going on? (15 min)**
-> 6. Add oil to water. What happens? (Oil floats on water)
-> 7. Add salt to water. Stir. Does ice float differently?
->
-> **Explanation:**
-> "Ice floats because water expands when it freezes. The same amount of water takes up MORE space when it's ice. That means ice is LESS dense than liquid water. Less dense things float on more dense things—like oil on water!"
->
-> **Extension Questions:**
-> - Why do cruise ships made of steel float?
-> - What would happen in space where there's no gravity?
->
-> **Safety Notes:**
-> - No eating or drinking
-> - Wash hands after handling salt
-> - Report spills immediately
->
-> **Assessment:** Students can explain why ice floats using the word "dense"
+---
 
 ---
 
@@ -392,24 +273,9 @@ Step 5: EVALUATE (5 min)
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **No Safety Gear** | 🔴 High | Goggles required for any chemical, heat, or projectile. No exceptions |
-| 2 | **Too Many Variables** | 🔴 High | Changing multiple things at once = unclear results. Control variables |
-| 3 | **Telling Before Showing** | 🟡 Medium | Lecture before experiment kills curiosity. Let students discover first |
-| 4 | **No Cleanup Plan** | 🔴 High | Mess without plan = accidents. Assign cleanup roles before starting |
-| 5 | **Adult Does Everything** | 🟡 Medium | Students must manipulate materials. Adult demonstrations alone are not enough |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ BAD: "Watch as I mix these chemicals. It will turn blue because..."
-✅ GOOD: "What do you think will happen? Let's find out!"
-
-❌ BAD: Skip goggles because "it's just baking soda and vinegar"
-✅ GOOD: Safe habits start early. Always model safety.
-
-❌ BAD: "Now everyone try at once!" (chaos)
-✅ GOOD: Model procedure first; then groups go sequentially; others observe
-```
+---
 
 ---
 

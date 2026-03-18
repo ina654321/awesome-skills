@@ -189,263 +189,31 @@ A structural system is only as strong as its weakest link—every load path from
 
 ## § 7 · Standards & Reference
 
-### 7.1 Structural Design Standards
+See [references/07-standards.md](references/07-standards.md)
 
-| Standard | Application | Key Provisions |
-|----------|-------------|----------------|
-| **ASCE 7-22** | Load determination | Dead, live, snow, wind, seismic, rain, flood loads |
-| **IBC 2021** | Building classification | Occupancy, construction type, seismic design category |
-| **ACI 318-19** | Concrete design | Reinforced concrete beams, columns, walls, foundations |
-| **AISC 360-22** | Steel design | Steel members, connections, composite design |
-| **NDS 2021** | Wood design | Allowable stress design and LRFD for wood |
-| **MSJC 2022** | Masonry design | Reinforced and unreinforced masonry |
-| **ACI 530** | Masonry code | Masonry structural design |
-
-### 7.2 Seismic Design Categories
-
-| Seismic Design Category | Risk Level | Application |
-|------------------------|------------|-------------|
-| **A** | Low | Minimal seismic requirements |
-| **B** | Moderate | Standard seismic design per ASCE 7 |
-| **C** | High | Special inspection, detailed system requirements |
-| **D, E, F** | Very High | Enhanced detailing, capacity design, redundancy |
-
-### 7.3 Load Combination Templates
-
-```
-LRFD Combinations (ASCE 7-22):
-1. 1.4D
-2. 1.2D + 1.6L + 0.5(Lr or S or R)
-3. 1.2D + 1.6(Lr or S or R) + (L or 0.5W)
-4. 1.2D + 1.0W + L + 0.5(Lr or S or R)
-5. 1.2D + 1.0E + L + 0.2S
-6. 0.9D + 1.0W
-7. 0.9D + 1.0E
-
-ASD Combinations:
-1. D
-2. D + L
-3. D + (Lr or S or R)
-4. D + 0.75L + 0.75(Lr or S or R)
-5. D + 0.6W
-6. D + 0.7E
-```
-
-### 7.4 Deflection Limits (IBC Table 1604.3)
-
-| Member | L/360 | L/240 | L/180 |
-|--------|-------|-------|-------|
-| Rafters, joists, beams | Live load | Total load | — |
-| Floor joists | Live load | Total load | — |
-| Roof members (plaster) | — | Live load | Total load |
-| Roof members (no plaster) | — | — | Total load |
-| Cantilevers | L/180 | — | — |
+---
 
 ---
 
 ## § 8 · Standard Workflow
 
-### 8.1 New Building Structural Design
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Schematic Design
-├── 1.1 Obtain architectural drawings and site plan
-├── 1.2 Determine building occupancy, height, construction type per IBC
-├── 1.3 Obtain geotechnical report (or require one)
-├── 1.4 Identify seismic design category (SDC) per ASCE 7
-├── 1.5 Select primary structural system (gravity + lateral)
-├── 1.6 Establish column grid and preliminary sizing
-└── 1.7 Verify architectural layout accommodates structural grid
-
-Phase 2: Design Development
-├── 2.1 Calculate all applicable loads per ASCE 7
-├── 2.2 Analyze gravity system (beams, joists, slabs, columns)
-├── 2.3 Analyze lateral system (wind and seismic forces)
-├── 2.4 Design foundation system per geotechnical recommendations
-├── 2.5 Design all connections (beam-to-column, brace connections)
-├── 2.6 Coordinate with architectural, MEP, civil disciplines
-└── 2.7 Prepare structural drawings and calculations for permit
-
-Phase 3: Construction Documents
-├── 3.1 Detail all members, connections, and reinforcement
-├── 3.2 Prepare specifications for structural materials
-├── 3.3 Include special inspection and testing requirements
-├── 3.4 Verify code compliance (IBC, ASCE 7, material codes)
-└── 3.5 Coordinate structural with architectural/MEPS drawings
-```
-
-### 8.2 Existing Building Seismic Evaluation
-
-```
-Step 1: Document existing structure
-├── Obtain original drawings (if available)
-├── Conduct field survey to verify as-built conditions
-└── Identify materials (concrete strength, reinforcement, steel sizes)
-
-Step 2: Apply ASCE 41
-├── Determine performance objective (Life Safety, Immediate Occupancy)
-├── Identify deficiencies (lateral system, connections, irregularity)
-└── Calculate deficiency ratios
-
-Step 3: Develop retrofit strategy
-├── Propose strengthening scheme (add shear walls, braces, moment frames)
-├── Design foundation strengthening if required
-└── Detail connection of new elements to existing structure
-
-Step 4: Prepare evaluation report
-├── Document methodology, assumptions, and findings
-├── Provide retrofit recommendations with priorities
-└── Include cost estimate for strengthening
-```
+---
 
 ---
 
 ## § 9 · Scenario Examples
 
-### Scenario A: 4-Story Wood-Frame Residential Building
-
-**Project:** 4-story wood-frame apartment building, 45 ft tall, SDC D, soft-story condition at ground floor (retail), $2.8M structural budget.
-
-**Structural Response:**
-
-```
-SYSTEM SELECTION:
-- Gravity: Wood-frame platform construction per NDS
-- Lateral: Shear walls on all levels + hold-downs at soft-story
-
-SOFT-STORY REMEDIATION:
-Ground floor lateral system requires special attention:
-┌─────────────────────────────────────────────────────────────┐
-│ Level │ System           │ Notes                           │
-├─────────────────────────────────────────────────────────────┤
-│ 4     │ Shear walls      │ Standard platform frame        │
-│ 3     │ Shear walls      │ Standard platform frame         │
-│ 2     │ Shear walls      │ Standard platform frame         │
-│ 1     │ Shear walls      │ Open retail—couple to steel     │
-│       │ + moment frame   │ moment frame at front/back      │
-└─────────────────────────────────────────────────────────────┘
-
-SEISMIC DESIGN (SDC D):
-- R = 6.5 (Wood Frame Shear Walls)
-- Cd = 4.0
-- Ω0 = 3.0 (overstrength factor governs collector design)
-- Hold-downs: Simpson HTT22 or equivalent at each shear wall
-- Foundation: continuous footings with keying to ret. walls
-
-CONNECTION DETAIL:
-Collector (drag strut) at level 1 must transfer:
-- V = (Seismic base shear) × (tributary width) × Ω0
-- Minimum: 3/16" plate with 3-1/2" fillet welds each side
-```
-
-### Scenario B: Steel Moment Frame Connection Review
-
-**User:** "Review this moment connection detail—does it meet AISC requirements for a special moment frame?"
-
-**Structural Response:**
-
-```
-CONNECTION ANALYSIS:
-
-Given: W14x90 column, W24x76 beam, SMF connection, EOR calls for pre-Northridge detailing
-
-Required per AISC 358 (SMF):
-1. Beam flange full penetration welds to column flange
-2. Column panel zone shear strength ≥ 0.85 Fy dc tc
-3. Continuity plates required if beam flange force exceeds:
-   0.4 Fy bf tf (without continuity plates)
-4. Column flange thickness ≥ beam flange thickness + 3/16"
-
-EVALUATION:
-❌ Column flange thickness: 0.780" < tf(beam) + 3/16" = 0.930"
-   → FAIL: Requires column flange thickening or backing bar removal
-
-❌ Panel zone: Need calculation of required shear strength
-   P-Δ effects may increase panel zone demand
-
-✅ Beam flange weld: Full penetration acceptable
-
-RECOMMENDATION:
-Option 1: Use column with thicker flange (W14x120)
-Option 2: Reinforce existing column flange with plate
-Option 3: Redesign as reduced beam section (RBS) connection per AISC 358 Ch. 2
-```
-
-### Scenario C: Foundation Investigation for Hospital Addition
-
-**User:** "We're adding a 3-story addition adjacent to an existing hospital. Soil report shows clay with SPT N-values of 8-12, groundwater at 8ft, and allowable bearing of 1,500 psf. What foundation system do you recommend?"
-
-**Structural Response:**
-
-```
-FOUNDATION RECOMMENDATION:
-
-Site Conditions:
-- Clay soil (ML/CL): moderate compressibility
-- N-values 8-12: medium stiff consistency
-- Groundwater at 8ft: below proposed footing depth (3-4ft)
-- Bearing: 1,500 psf (allowable)
-
-SEISMIC SITE CLASS (ASCE 7):
-- Based on N-values: Vs ≈ 600-900 ft/s → Site Class D (stiff soil)
-- Requires seismic coefficients: SDS = 0.5, SD1 = 0.25 (for SDC C)
-
-OPTIONS ANALYSIS:
-
-Option A: Shallow Foundations
-- Spread footings at 1,500 psf
-- Footing size: ~8ft x 8ft for 50 kips column load
-- Settlement: Estimate 1" total, 1/2" differential (within limits)
-- ✓ Cost-effective if bearing is adequate
-- ✓ Simple construction
-- Risk: Differential settlement at property line
-
-Option B: Mat Foundation
-- 18" thick mat slab
-- Varies load across entire footprint
-- Reduces differential settlement
-- ✓ Best for heterogeneous soil
-- ✗ Higher cost ($25-35/SF vs $15-20/SF for spreads)
-
-Option C: Deep Foundations (Piles/Drilled Shafts)
-- Required if loads exceed shallow capacity or settlement is excessive
-- 12" diameter auger cast piles, 40ft depth
-- Capacity: 40-60 tons per pile
-- ✗ Most expensive ($35-50/linear foot)
-- Reserved for: high loads, poor soil, or settlement critical
-
-RECOMMENDATION:
-Use shallow spread footings with:
-- Continuous footings along property line (tie to existing)
-- Waterproofing at foundation walls
-- Observation by geotechnical engineer during excavation
-- Settlement monitoring during construction
-```
+See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Ignoring load path continuity** | 🔴 High | Trace loads from roof to foundation before sizing members |
-| 2 | **Skipping soft-story analysis** | 🔴 High | Require lateral analysis at all levels; flag discontinuities |
-| 3 | **Under-designing connections** | 🔴 High | Design connections for member capacity, not applied load |
-| 4 | **Neglecting foundation-soil interaction** | 🔴 High | Obtain geotechnical report; design within recommended bearing |
-| 5 | **Ignoring torsion in lateral systems** | 🟡 Medium | Check building regularity; add torsion analysis for irregular plans |
-| 6 | **Assuming existing conditions match drawings** | 🟡 Medium | Verify as-built conditions; don't rely solely on old drawings |
-| 7 | **Specifying generic details without project context** | 🟡 Medium | Detail for specific loads, materials, and construction sequence |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "The architect says use W12x26 beams, so I'll design for that."
-✅ "What is the actual load? Let's calculate required size, then check if W12x26 works."
-
-❌ "We don't need special inspection for this simple building."
-✅ "IBC 1705 requires special inspection for welding, bolting, and concrete placement."
-
-❌ "The connection is standard—use the typical detail."
-✅ "Verify forces at this specific location; the typical detail may not apply here."
-```
+---
 
 ---
 

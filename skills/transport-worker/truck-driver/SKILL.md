@@ -170,56 +170,17 @@ Install this skill on your preferred AI coding platform:
 
 ## § 7 Standards & Reference
 
-### Key Trucking Regulations
+See [references/07-standards.md](references/07-standards.md)
 
-| Regulation | Scope | Key Requirements |
-|------------|-------|-----------------|
-| **FMCSA 49 CFR Part 395** | Hours of Service | 11-hr driving, 14-hr duty, 30-min break |
-| **FMCSA 49 CFR Part 396** | Inspection, maintenance | Daily inspection, annual review |
-| **FMCSA 49 CFR Part 393** | Parts & accessories | Lighting, brakes, securement |
-| **FMCSA 49 CFR Part 397** | Transportation of hazmat | Placarding, documentation, security |
-| **DOT Physical** | Medical certification | Valid medical card required |
-| **State Weight Laws** | Axle weight limits | Varies by state (80k lbs typical) |
-| **ELD Mandate** | Electronic logging | Mandatory for most carriers |
-| **CSA Scores** | Safety measurement | Driver accountability |
-
-### Key Performance Metrics
-
-| KPI | Target | Measurement Method |
-|-----|--------|--------------------|
-| **On-Time Delivery** | ≥95% | Delivery records |
-| **Preventable Accidents** | Zero | Accident reports |
-| **Fuel Efficiency** | 6-8 mpg (OTR) | Fleet tracking |
-| **MPG Target Met** | ≥95% compliance | Fuel card data |
-| **Pre-Trip Completion** | 100% | Inspection logs |
-| **HOS Compliance** | Zero violations | ELD audit |
-| **Roadside Inspections** | No OOS orders | Inspection records |
-| **Load Claims** | Zero | Damage claims |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Pre-Trip Planning
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Activities:**
-- Review dispatch: pickup/delivery locations, load details, special instructions
-- Check weather along route; plan for adverse conditions
-- Verify ELD status and hours remaining
-- Plan route: weigh stations, fuel stops, rest areas, truck routes
-- Check permit requirements (oversize/overweight, hazmat)
-- Verify hazmat documentation if applicable
-
-**✓ Done Criteria:**
-- Route planned with backup options
-- Hours available for trip
-- Weather acceptable
-- Load documented
-
-**✗ FAIL Criteria:**
-- Insufficient hours to complete trip legally
-- Weather prohibits safe travel
-- Required permits not obtained
+---
 
 ---
 
@@ -287,35 +248,9 @@ Install this skill on your preferred AI coding platform:
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Hours of Service Dilemma
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** I'm at 10 hours of driving time today and have 4 hours left on my 14-hour duty window. My dispatcher is asking me to take an additional 300-mile load that would put me at 13.5 hours driving. What should I do?
-
-**Professional Truck Driver:**
-> This is a classic HOS compliance question. Let me break it down:
-
-**Current Status:**
-- Driving time used: 10 hours
-- Duty time used: 10 hours (assuming no other duty)
-- Remaining duty window: 4 hours
-- Additional load: 300 miles at ~6 mph = ~50 hours driving
-
-**THE MATH DOESN'T WORK:**
-> You cannot legally complete a 50-hour driving job in a 4-hour duty window. Even at maximum efficiency, this is impossible.
-
-**Options:**
-1. **Decline the load** — You are not required to accept a load you cannot legally haul
-2. **Split the load** — Take partial, take 10-hour break, complete tomorrow (if allowed by dispatch)
-3. **Relay** — Pass to another driver
-
-**Regulatory Reality:**
-- 49 CFR 395.3(a): "A driver may drive a total of 11 hours after 10 consecutive hours off duty."
-- 49 CFR 395.3(b): "A driver may drive during the 14-hour duty window... off-duty time does not extend the 14-hour window"
-
-**Safety Imperative:**
-> NEVER falsify your log to make the delivery. If you're caught, you face heavy fines, possible shutdown, and your career is at risk. It's not worth it.
-
-> **My recommendation:** Explain to your dispatcher that the load exceeds your hours. Offer alternatives: relay, split, or wait for morning.
+---
 
 ---
 
@@ -397,11 +332,9 @@ Use 5 chains: 20,000
 
 ## § 10 Common Pitfalls
 
-### Pitfall 1: Skipping Pre-Trip Inspection
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:** "I inspected it yesterday, no need today" or rushing through in 2 minutes
-
-✅ **GOOD:** Complete full B.C.C.I.T.T. inspection every single day. Document it. This is your legal and safety obligation.
+---
 
 ---
 

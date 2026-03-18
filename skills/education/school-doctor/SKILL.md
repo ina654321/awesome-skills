@@ -182,146 +182,31 @@ Build from the bottom: without screening, problems go undetected; without preven
 
 ## 7. Standards & Reference
 
-### 7.1 Emergency Protocols
+See [references/07-standards.md](references/07-standards.md)
 
-| Emergency | Recognition Signs | Immediate Action |
-|-----------|-------------------|------------------|
-| **Anaphylaxis** | Hives, swelling (lips/tongue), wheezing, throat tightness, dizziness | 1. Call for help → 2. Administer epinephrine → 3. Call 911 → 4. Position student → 5. Monitor |
-| **Asthma Attack** | Wheezing, coughing, chest tightness, shortness of breath, retractions | 1. Remove trigger → 2. Administer quick-relief inhaler → 3. Monitor → 4. Call parent if severe |
-| **Seizure** | Convulsions, stiffening, loss of consciousness, confusion | 1. Protect from injury → 2. Time seizure → 3. Do NOT restrain → 4. Position on side → 5. Call 911 if >5 min |
-| **Severe Hypoglycemia** | Shaking, sweating, confusion, slurred speech, irritability | 1. Check glucose → 2. Give fast-acting carbs → 3. Recheck → 4. Call parent/911 if severe |
-| **Cardiac Emergency** | Chest pain, shortness of breath, fainting, abnormal pulse | 1. Call 911 immediately → 2. Begin CPR if needed → 3. Get AED → 4. Stay with student |
+---
 
-### 7.2 School Nursing Metrics
-
-| Metric | Target | Measurement |
-|--------|--------|-------------|
-| Immunization compliance | > 95% | Annual audit |
-| Medication documentation accuracy | 100% | Medication log review |
-| Chronic disease action plans on file | 100% before school starts | File audit |
-| Vision screening completion | 100% (K, 1, 3, 5, 7) | State requirements |
-| Hearing screening completion | 100% (K, 1, 3, 5, 7) | State requirements |
-| Response time to emergencies | < 2 minutes | Incident documentation |
-
-### 7.3 When to Exclude from School
-
-| Symptom/Condition | Exclusion Required? | Return Criteria |
-|-------------------|---------------------|-----------------|
-| **Fever > 100.4°F** | Yes | Fever-free for 24 hours without medication |
-| **Vomiting** | Yes | Tolerating food/drink; no vomiting for 24 hours |
-| **Diarrhea** | Yes | No diarrhea for 24 hours; stool normal |
-| **Strep throat** | Yes | 24 hours after antibiotics started |
-| **Pink eye (bacterial)** | Yes | 24 hours after antibiotics started |
-| **Influenza** | Yes | Fever-free for 24 hours; otherwise well enough |
-| **Head lice** | No (controversial) | After treatment; no live lice |
-| **Impetigo** | Yes | 24 hours after antibiotics started |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Student Illness Assessment
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Triage (When student arrives)
-├── Initial impression: Does student look sick or in distress?
-├── Chief complaint: "What hurts? What's wrong?"
-├── Vital signs if indicated: Temperature, pulse, respirations
-├── Assess: Severity, urgency, contagion risk
-└── [✓ Done]: Triage decision made
+---
 
-Phase 2: Assessment (Further evaluation)
-├── Health history: Previous episodes? Known conditions? Allergies?
-├── Symptoms: Location, duration, severity, associated symptoms
-├── Context: What happened before? Recent exposures?
-├── Observations: Physical assessment as appropriate
-└── [✓ Done]: Working hypothesis of condition
-
-Phase 3: Action (Treatment/Referral)
-├── Self-care: Rest, fluids, comfort measures
-├── Medication: Per standing orders or parent request
-├── Isolation: If contagious, separate from others
-├── Parent contact: Notify and recommend follow-up
-├── Send home: If too sick to remain at school
-└── [✓ Done]: Appropriate care provided
-
-Phase 4: Documentation & Follow-up
-├── Document: Symptoms, assessment, interventions, communications
-├── Update health record as needed
-├── Notify teachers of any accommodations needed
-└── [✓ Done]: Complete documentation within 24 hours
-```
-
-### 8.2 Medication Administration
-
-```
-Step 1: Verify Order
-  → Written medication order from licensed provider
-  → Parent/guardian consent
-  → Current dosage, time, route
-
-Step 2: Prepare Medication
-  → Wash hands
-  → Verify: Right student (two identifiers), Right medication, Right dose, Right time, Right route
-  → Check expiration dates
-  → Proper handling (crushing, splitting if needed)
-
-Step 3: Administer
-  → Student verifies: "What medication are you taking?"
-  → Observe student taking medication
-  → Document immediately: time, dose, who administered
-
-Step 4: Monitor
-  → Observe for adverse reactions
-  → Document any effects
-  → Notify parent if concerns
-
-[✓ Done]: Safe, accurate administration with full documentation
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Emergency: Anaphylaxis in the Cafeteria
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "A 2nd-grader suddenly looks pale, says her tongue feels 'funny,' and has hives on her arms. She has a known peanut allergy but accidentally ate a cookie with peanuts. What do I do?"
+---
 
-**School Nurse:**
-> **Anaphylaxis Emergency Response**
->
-> **Step 1: Recognize anaphylaxis signs**
-> - Tongue/lip swelling (angioedema)
-> - Hives (urticaria)
-> - Pale appearance
-> - "Tongue feels funny" = early airway symptom
-> - History of peanut allergy + exposure = likely anaphylaxis
->
-> **Step 2: Act immediately**
-> | Action | Details |
-> |--------|---------|
-> | 1. Call for help | "I need emergency assistance — anaphylaxis!" |
-> | 2. Administer epinephrine | Auto-injector (EpiPen) in outer thigh — hold 10 seconds |
-> | 3. Call 911 | Say: "Student having anaphylaxis, peanut exposure" |
-> | 4. Position | If breathing OK, sit up; if faint, lie down with legs elevated |
-> | 5. Monitor | Stay with student; watch for worsening |
->
-> **Step 3: After initial dose**
-> - Antihistamine (Benadryl) can be given BUT epinephrine first
-> - Second epinephrine dose if no improvement in 5-15 minutes
-> - Keep student calm
-> - Have AED ready (rare but possible anaphylactic shock)
->
-> **Step 4: Documentation & Communication**
-> - Document: Time of exposure, symptoms, epinephrine given (time, dose), response
-> - Notify parents immediately
-> - Prepare incident report
-> - Review: How did student access peanuts? Review allergy protocols
->
-> **⚠️ CRITICAL:**
-> - Epinephrine FIRST — don't wait for symptoms to "get worse"
-> - "When in doubt, give epi" — delaying epinephrine increases risk of death
-> - Always call 911 — student needs emergency department observation
+---
 
 ---
 
@@ -449,78 +334,11 @@ Step 4: Monitor
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Failure to Administer Epinephrine**
+---
 
-```markdown
-❌ BAD: "Let me just call the parent first" or "Maybe she's not having a real reaction" or "Maybe she's just being dramatic"
-→ Anaphylaxis can progress in minutes → death can occur within 15-30 minutes
-→ Delayed epinephrine = increased morbidity and mortality
-
-✅ GOOD: When in doubt, give epinephrine
-→ "I'm seeing symptoms consistent with anaphylaxis — I need to administer epinephrine now"
-→ Then call 911 and parent
-→ Better to give epi unnecessarily than to withhold it
-```
-
-**Anti-Pattern 2: Administering Medication Without Verification**
-
-```markdown
-❌ BAD: Giving medication based on student's request or parent phone call without proper authorization
-→ Wrong student, wrong dose, wrong medication → serious harm
-→ Legal liability
-
-✅ GOOD: Follow the 5 Rights every time
-→ Right student (two identifiers)
-→ Right medication
-→ Right dose
-→ Right time
-→ Right route
-→ Plus: written order + written parent consent
-```
-
-**Anti-Pattern 3: Sharing Health Information Freely**
-
-```markdown
-❌ BAD: Discussing student's health condition with teachers in the hallway
-→ HIPAA/FERPA violation
-→ Damages student privacy and trust
-
-✅ GOOD: Share only on need-to-know basis
-→ Teachers need to know: accommodations, emergency protocols, not medical details
-→ Use private conversations, not public discussions
-→ Document what was shared and with whom
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: No Documentation**
-
-```markdown
-❌ BAD: "I remember what happened" → no written record
-→ If challenged, no proof of care provided
-→ Liability exposure
-
-✅ GOOD: Document everything
-→ Date, time, student, complaint, assessment, intervention, outcome
-→ "If it isn't documented, it didn't happen"
-→ Write legibly or use electronic system
-```
-
-**Anti-Pattern 5: Ignoring Chronic Condition Students**
-
-```markdown
-❌ BAD: Treating chronic condition students the same as others; ignoring their unique needs
-→ Asthma attacks, diabetic emergencies, allergic reactions → preventable with proper management
-→ These students require extra attention and accommodation
-
-✅ GOOD: Know your chronic condition students
-→ Current action plans on file
-→ Staff trained on their specific needs
-→ Regular check-ins
-→ Proactive communication with parents
-```
+---
 
 ---
 

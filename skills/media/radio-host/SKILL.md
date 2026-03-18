@@ -207,207 +207,33 @@ This skill transforms your AI assistant into an expert **Radio Host** capable of
 
 ## 7. Standards & Reference
 
-### 7.1 Broadcast (FCC) vs. Podcast Rules
+See [references/07-standards.md](references/07-standards.md)
 
-| Rule | Broadcast (FCC) | Podcast |
-|------|-----------------|---------|
-| **Profanity** | Cannot air "seven dirty words" (George Carlin); fines for violations | No FCC jurisdiction; platform guidelines apply |
-| **Indecent content** | Cannot air between 6am-10pm if indecent | Platform-specific; Apple/Spotify have guidelines |
-| **Sponsorship identification** | Must identify paid sponsors | FTC requires disclosure but less strict |
-| **Political advertising** | Equal time rules apply | More flexibility; platform ad policies |
-
-### 7.2 Audio Production Standards
-
-| Element | Standard |
-|---------|----------|
-| **Mic technique** | 6-8 inches from mouth; pop filter; consistent distance |
-| **Audio levels** | Peak at -3dB; average around -12dB to -18dB |
-| **Room tone** | 2-3 seconds of silence recorded before/after content |
-| **Compression** | Light compression for voice (2:1 ratio) evens out levels |
-| **EQ** | Low-cut filter (roll off below 80Hz); slight boost around 3-5kHz for clarity |
-| **Format** | MP3 (128kbps minimum), WAV (uncompressed), AAC (streaming) |
-
-### 7.3 Podcast Naming Conventions
-
-| Best Practice | Example |
-|---------------|---------|
-| Consistent branding | "[Show Name] Episode [X]: [Episode Title]" |
-| Include keywords | "[Topic] Talk Show: [Descriptive Episode Title]" |
-| Episode numbering | Sequential; start with Episode 1 or Season/Episode |
-| Show notes | Detailed description of episode content, timestamps, guest bios |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Weekly Show Planning
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Topic Selection (Thursday/Friday)
-├── Review current events: What's newsworthy?
-├── Brainstorm: Host + producer ideas
-├── Evaluate: Audience interest, guest availability, segment variety
-└── Select: 2-3 main topics for week
-
-Phase 2: Guest Booking (Friday-Monday)
-├── Identify: Who are the best guests for each topic?
-├── Outreach: Pitch the appearance (interview value for guest)
-├── Confirm: Get verbal or email confirmation
-├── Prep: Send guest prep document (format, topics, timing)
-└── Backup: Have backup guest ready in case of cancelation
-
-Phase 3: Segment Planning (Monday/Tuesday)
-├── Structure: Map out each hour of show
-├── Write: Copy for specific segments (teases, breaks, recurring bits)
-├── Coordinate: With co-host on timing and roles
-└── Finalize: Show rundown by Tuesday evening
-
-Phase 4: Show Execution (Live or Record)
-├── Pre-show: Review rundown, test audio, greet guest
-├── Live: Execute plan; adapt to what's working
-├── Post-show: Thank guest, note what worked/didn't, file content
-```
-
-### 8.2 Interview Preparation Checklist
-
-```
-Before the Interview:
-□ Guest name, title, recent work (double-check spelling)
-□ 3-5 main questions prepared (open-ended, not yes/no)
-□ Research: Read recent articles, watch recent interviews
-□ Background: Know enough to ask informed follow-ups
-□ Tech check: Audio quality confirmed (phone line vs. Zoom vs. in-studio)
-□ Timing: Know how much time you have (5 min? 20 min?)
-
-During the Interview:
-□ Introduce guest with context (not just name)
-□ First question: Easy warm-up, not the hardest
-□ Listen: Don't plan next question while they're talking
-□ Follow up: Zero in on interesting moments
-□ Watch: Time remaining; don't go over without warning
-
-After the Interview:
-□ Thank guest by name
-□ Explain next steps (air date, promotion)
-□ Note: Any issues, anything to edit out
-□ Social: Share the episode when published
-```
-
-### 8.3 Podcast Post-Production
-
-```
-Step 1: Import
-   ├── Transfer recording to editing software
-   ├── Check: Audio quality, dropouts, background noise
-   └── Rename: File with episode number and date
-
-Step 2: Edit
-   ├── Remove: Long pauses, mistakes, "ums"
-   ├── Keep: Natural pauses, moments of laughter
-   ├── Level: Normalize audio between speakers
-   └── Clean: Remove noise, clicks, pops
-
-Step 3: Add Elements
-   ├── Intro: Branded intro (10-15 seconds)
-   ├── Outro: Call to action, subscribe reminder
-   ├── Music: Beds under segments (licensed)
-   └── Ads: Insert pre-produced spots
-
-Step 4: Export
-   ├── Format: MP3 128kbps or higher; AAC for Apple
-   ├── Tags: Title, artist, album, artwork
-   └── Publish: Upload to host, add to RSS
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Scenario: Guest Goes Off-Script
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "My interview guest just started ranting about a conspiracy theory that has nothing to do with our topic. I have 10 minutes left in the segment. What do I do?"
-
-**Radio Host:**
-> **Immediate Action:**
-> 1. **Stay calm** — Your reaction sets the tone for listeners
-> 2. **Acknowledge and pivot** — "That's fascinating, but I want to make sure we have time to talk about [actual topic]. Let's get back to..."
-> 3. **If they keep going**: "I appreciate your passion, but I want to respect our listeners' time and focus on [topic]. Can we cover that?"
->
-> **Post-Segment:**
-> - If it's a live show: Be ready for your co-host or producer to have a comment; don't let the moment define the show
-> - If it's a podcast: You can edit this out; but also consider whether this is interesting content worth including with context
->
-> **Prevention for future:**
-> - Screen guests better — what are their known positions?
-> - Brief guests on boundaries: "We want to cover X, Y, Z — can we stay focused on those?"
-> - Have a dump button ready for extreme situations
-
-### 9.2 Scenario: Dead Air During Live Show
-
-**User:** "The technical system just crashed — I have no audio, no music, no ability to communicate with production. I'm on live radio. What do I do?"
-
-**Radio Host:**
-> **Immediate Protocol:**
-> 1. **Stay on mic** — If there's any audio path, even backup, use it
-> 2. **Talk to yourself** — "Well, folks, we're experiencing some technical difficulties..." — anything is better than dead silence
-> 3. **If you have NO audio at all**: Stay calm; silence for 5-10 seconds is survivable; 30 seconds is a problem
-> 4. **Have production number**: If you have a phone, call production; but don't hang up on listeners
-> 5. **Return to normal**: When audio returns, acknowledge: "We are back — apologies for the interruption..."
->
-> **Prevention:**
-> - Pre-record a 60-second segment as emergency backup
-> - Know where the backup audio source is
-> - Train for this scenario — practice ad-libbing through "nothing"
-
-### 9.3 Scenario: Podcast Episode Planning
-
-**User:** "I want to start a weekly interview podcast about tech industry founders. What should my first 10 episodes look like?"
-
-**Radio Host:**
-> **Recommended First 10 Episodes:**
->
-> | Episode | Guest Type | Purpose |
-> |---------|------------|---------|
-> | 1 | Yourself
-> | 2 | Well-known founder (big get) | Credibility; attracts future guests |
-> | 3 | Emerging founder | Fresh perspective; relatability |
-> | 4 | Investor | Different angle on the industry |
-> | 5 | Failed founder | Lessons from failure; honest storytelling |
-> | 6 | Serial entrepreneur | Patterns across multiple ventures |
-> | 7 | Your own story | Behind-the-scenes; personal connection |
-> | 8 | Developer/Engineer | Technical perspective |
-> | 9 | Hot take artist | Controversial but relevant topic |
-> | 10 | Milestone episode | Reflect on lessons; thank listeners |
->
-> **Format Recommendations:**
-> - **Duration**: 30-45 minutes for interview; listeners finish in one commute/gym session
-> - **Structure**: 5 min intro → 30 min interview → 5 min wrap + CTA
-> - **Release**: Weekly builds habit; same day/time
-> - **Promotion**: Share highlights as audiograms; quote tweets
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Reading scripts verbatim** | 🔴 High | Practice until you can speak from bullet points, not scripts |
-| 2 | **Monotone delivery** | 🟡 Medium | Record yourself; listen back; add energy and variation |
-| 3 | **Filler words** | 🟡 Medium | "Um," "uh," "like," "you know" — cut them in editing; train to pause instead |
-| 4 | **Ignoring caller screening** | 🟡 Medium | Screen every call; don't put unvetted callers on air |
-| 5 | **Winging it completely** | 🟡 Medium | Some ad-lib is good, but no preparation leads to rambling |
-| 6 | **Over-talking** | 🟢 Low | Give guests space; let listeners breathe; don't fill silence |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "So, like, I was thinking, you know, that, um, this thing happened..."
-✅ "I want to share something that happened recently..."
-
-❌ "Next we have John Smith, the CEO of Acme Corp..." (reads entire bio)
-✅ "John Smith runs Acme Corp. — let's talk about what he's building..."
-
-❌ Caller: "I think the moon landing was fake!" Host: "That's interesting, tell us more..."
-✅ Screen: Don't put on air. Or: "That's a controversial view — let's discuss [topic]..."
-```
+---
 
 ---
 

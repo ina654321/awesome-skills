@@ -187,151 +187,25 @@ Win rate is a marathon, not a sprint. 55% win rate guarantees climbing if played
 
 ## 7. Standards & Reference
 
-### 7.1 Ranking System Understanding
+See [references/07-standards.md](references/07-standards.md)
 
-| Game | Rank Tiers | LP per Win | Demotion |
-|-----------------|----------------------|-------------------|------------------------|
-| **League of Legends** | Iron → Bronze → Silver → Gold → Platinum → Diamond → Master → Grandmaster → Challenger | +20-25 (rank dependent) | 0 LP = demotion series |
-| **王者荣耀** | 青铜 → 白银 → 黄金 → 铂金 → 钻石 → 星耀 → 王者 → 荣耀王者 | +1-3 stars | 0 stars = drop |
-| **Valorant** | Iron → Bronze → Silver → Gold → Platinum → Diamond → Ascendant → Immortal → Radiant | +20-30 RR | 0 RR = demotion |
-| **Dota 2** | Herald → Guardian → Crusader → Archon → Legend → Ancient → Divine → Immortal | +25 (MMR) | Matchmaking rating |
-
-### 7.2 Efficiency Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Win Rate** | Wins
-| **LP per Hour** | Total LP gained / Hours played | >15 LP/hour |
-| **Session Win Rate** | Wins in session
-| **Time per Rank** | Hours to reach next rank | Varies by starting rank |
-| **Comeback Rate** | Wins after losing first two games | >40% |
-
-### 7.3 Champion/Agent Tier by Role (Example: League of Legends)
-
-| Role | S-Tier (Pick) | A-Tier (Flex) | Avoid |
-|-----------------|----------------------|---------------------|-------------------|
-| **Top** | Renekton, Jax | Malphite, Ornn | Low win rate picks |
-| **Jungle** | Lee Sin, Viego | Xin Zhao, Jarvan | High skill floor |
-| **Mid** | Ahri, Sylas | Akali, Zoe | Hard to carry |
-| **ADC** | Jinx, Kai'Sa | Miss Fortune, Draven | Weak laners |
-| **Support** | Nautilus, Leona | Lulu, Morgana | Unreliable engage |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Boosting Session Protocol
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Pre-Session (15-30 mins)
-├── Check server status and queue times
-├── Review client account: recent matches, win rates, champ pool
-├── Confirm target rank and specific requirements
-├── Ensure mental state: not tilted, focused
-└── [✓ Done]: Ready to play
-    [✗ FAIL]: Tilted or tired → delay session
-
-Phase 2: In-Game Execution
-├── Pick strong meta champions based on team comp
-├── Focus on macro: objectives, rotations, vision
-├── Shot-call strategically via pings
-├── Maintain positive attitude (or mute toxic teammates)
-├── End with victory or learn from loss
-└── [✓ Done]: Complete game
-    [✗ FAIL]: 2 losses in row → take 15 min break
-
-Phase 3: Post-Game
-├── Update client on progress
-├── Record LP gained/lost
-├── Review any notable plays (positive or negative)
-├── Decide: continue or stop based on mental state
-└── [✓ Done]: Session complete
-    [✗ FAIL]: On tilt → stop immediately
-```
-
-### 8.2 Anti-Tilt Protocol
-
-```
-Step 1: Recognize tilt indicators
-  → Frustration: hitting things, loud sighing
-  → Blaming: "jungle diff", "team inting"
-  → Chasing: playing more after losses to "make it back"
-  
-Step 2: Immediate intervention
-  → After 2nd loss: stop playing
-  → Take 15-30 minute break
-  → Do something else: walk, eat, stretch
-  
-Step 3: Return conditions
-  → Clear mind: not thinking about last game
-  → Ready to focus: present in moment
-  → If not ready: stop for the day
-  
-Step 4: Prevention
-  → Set loss limits: stop after 2-3 losses
-  → Set time limits: max 3-4 hours per session
-  → Track mood: keep a gaming journal
-```
-
-### 8.3 Client Communication Protocol
-
-```
-Step 1: Initial consultation
-  → Ask: current rank, target rank, time frame
-  → Explain: realistic timeline, potential delays
-  → Agree: price, payment terms, communication method
-
-Step 2: Progress updates
-  → After each session: report LP gained/lost
-  → Weekly summary: progress vs. target
-  → Immediate: any issues (queue problems, account issues)
-
-Step 3: Issue resolution
-  → If behind schedule: explain reasons, adjust timeline
-  → If client unhappy: listen, address concerns professionally
-  → If account problem: pause, resolve before continuing
-
-Step 4: Completion
-  → Confirm target reached
-  → Final payment
-  → Offer: future boosting, referrals
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Client Consultation: Realistic Expectations
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我想从钻石上到王者，需要多久？"
-
-**Game Booster:**
-> **上分时间估算 (王者荣耀)**
->
-> **基础数据:**
-> - 钻石 → 星耀：约 40-60 小时
-> - 星耀 → 王者：约 80-120 小时
-> - 王者 1-50星：约 150-200 小时
->
-> **计算器:**
-> ```
-> 起始段位：钻石一 0星
-> 目标段位：王者 20星
-> 
-> 需要：约 80-100 小时
-> 预计：3-4 周（每天 2-3 小时）
-> 
-> 风险因素：
-> - 输赢波动：约 10% 误差
-> - 赛季末：排队时间 +30%
-> - ELO 制裁：可能额外 +20% 时间
-> ```
->
-> **⚠️ 诚实告知:**
-> - 50% 胜率也能上分，但需要 200+ 场
-> - 55% 胜率是目标，效率最高
-> - 60% 胜率需要好心态和大量时间
-> - 无法保证具体时间，只提供估算
+---
 
 ---
 
@@ -455,25 +329,9 @@ Step 4: Completion
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Playing tilted** | 🔴 High | Stop after 2 losses; take break |
-| 2 | **Chasing losses** | 🔴 High | Set loss limits; walk away |
-| 3 | **One-tricking** | 🟡 Medium | Have 2-3 champions per role |
-| 4 | **Ignoring meta** | 🟡 Medium | Play strong picks; save experimentation for normals |
-| 5 | **Toxicity** | 🟡 Medium | Mute and focus; never engage |
-| 6 | **Overcommitment** | 🟡 Medium | Don't promise unrealistic timelines |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ [BAD]: "One more game, I can turn it around"
-✅ [GOOD]: "I'm tilted, stopping now. See you tomorrow."
-
-❌ [BAD]: Main one champion, get hard countered every game
-✅ [GOOD]: Have 3+ champions per role; pick based on team comp
-
-❌ [BAD]: Argue with toxic teammate for 10 minutes
-✅ [GOOD]: /mute all at first sign of trouble
-```
+---
 
 ---
 

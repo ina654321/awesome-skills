@@ -182,138 +182,25 @@ Build from the bottom: without strategic planning, facilities deteriorate; witho
 
 ## 7. Standards & Reference
 
-### 7.1 Facility Inspection Schedules
+See [references/07-standards.md](references/07-standards.md)
 
-| Area | Inspection Frequency | Responsible Party |
-|------|---------------------|--------------------|
-| Fire extinguishers | Monthly visual + annual professional | Facilities |
-| Fire alarm systems | Monthly + annual professional | Facilities + vendor |
-| Sprinkler systems | Weekly flow test + annual inspection | Vendor |
-| Playground equipment | Daily visual + annual professional | Facilities |
-| HVAC filters | Monthly replacement | Facilities |
-| Electrical systems | Annual inspection | Licensed electrician |
-| Playground surfacing | Daily: debris/depth; annual: impact testing | Facilities |
-| Food service equipment | Daily temp checks + quarterly inspection | Food service |
-
-### 7.2 Maintenance Response Times
-
-| Priority | Definition | Response Time | Example |
-|----------|------------|---------------|--------|
-| **Emergency** | Immediate safety hazard | < 1 hour | Gas leak, electrical hazard, structural failure |
-| **Urgent** | Affects operations, safety | < 4 hours | Broken lock, HVAC failure, water leak |
-| **Standard** | Affects comfort/convenience | < 48 hours | Painting, minor repairs, non-critical HVAC |
-| **Scheduled** | Preventive/routine | Within 2 weeks | Filter changes, inspections, seasonal prep |
-
-### 7.3 ADA Compliance Checklist
-
-| Area | Requirement | Inspection |
-|------|-------------|------------|
-| **Entrances** | At least one accessible entrance; automatic doors preferred | Verify ramp, door width, hardware |
-| **Restrooms** | Accessible stalls; proper grab bars; appropriate height | Measure; check fixtures |
-| **Classrooms** | Clear pathways; accessible desks; hearing loops | Visual check; test systems |
-| **Playground** | Accessible equipment; resilient surfacing; transfer systems | Professional audit |
-| **Parking** | Van-accessible spaces; proper signage; path to entrance | Measure; verify signage |
-| **Signage** | Raised letters/Braille; high contrast | Visual and tactile check |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Maintenance Request Management
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Request Received
-├── Log request in work order system
-├── Gather details: location, description, reported by, urgency
-├── Initial triage: safety, operational, cosmetic
-└── [✓ Done]: Request logged and triaged
-
-Phase 2: Assessment
-├── Visit site to evaluate
-├── Determine: In-house vs. vendor repair
-├── Estimate: Parts, labor, time, cost
-├── Check: Warranty, previous issues, related problems
-└── [✓ Done]: Assessment complete; solution identified
-
-Phase 3: Execution
-├── Order parts if needed
-├── Schedule repair (consider school schedule)
-├── Complete repair with documentation
-├── Test: Verify fix works
-└── [✓ Done]: Repair complete
-
-Phase 4: Follow-up
-├── Requester notified of completion
-├── Document: What was done, cost, recommendations
-├── Update preventive schedule if needed
-└── [✓ Done]: Work order closed; feedback requested
-```
-
-### 8.2 Emergency Response Protocol
-
-```
-Step 1: Assess and Secure
-  → Determine nature of emergency (fire, gas leak, structural, weather)
-  → Ensure safety: evacuate if needed; isolate hazards
-  → Call 911 if life safety involved
-
-Step 2: Notify Chain
-  → Superintendent/principal immediately
-  → Facilities team
-  → Parents if evacuation (per protocol)
-  → Document timeline
-
-Step 3: Contain/Manage
-  → Fire: activate alarm; use extinguisher if small/safe
-  → Gas leak: shut off gas; ventilate
-  → Structural: evacuate; barricade
-  → Weather: secure; shelter in place
-
-Step 4: Recovery
-  → Assess damage after emergency contained
-  → Coordinate with emergency services
-  → Begin cleanup/repair planning
-  → Document incident thoroughly
-  → Report to board/administration
-
-[✓ Done]: Safe; documented; recovery plan in place
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 HVAC Failure During Winter
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "It's 15°F outside and our middle school boiler system has failed. It's 40°F inside and students are in school. What do I do?"
-
-**School Facilities Manager:**
-> **HVAC Emergency Response**
->
-> **Step 1: Immediate Safety Assessment**
-> - Is there risk to students/staff from cold?
-> - How quickly is temperature dropping?
-> - Are there alternative heating sources?
->
-> **Step 2: Activate Emergency Protocol**
-> | Action | Timeline |
-> |-------|----------|
-> | Contact HVAC vendor for emergency repair | Immediately |
-> | Notify superintendent | Immediately |
-> | Consider early dismissal if cannot be fixed | If < 2 hours |
-> | Move students to warmer areas (gym, cafeteria with units) | Within 1 hour |
-> | Have buses ready in case of emergency dismissal | If temperature drops further |
->
-> **Step 3: Communication**
-> - "We are experiencing heating system failure. Maintenance is responding. Students are safe in [locations]. More updates to follow."
-> - Keep administration informed hourly
-> - Prepare parent communication if early dismissal considered
->
-> **Step 4: Root Cause & Prevention**
-> - What failed? (Boiler, pump, thermostat, gas?)
-> - Was this preventable? (Maintenance schedule?)
-> - What can we do to prevent recurrence?
-> - Document for capital planning if replacement needed
+---
 
 ---
 
@@ -444,79 +331,9 @@ Step 4: Recovery
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Ignoring Safety Hazards**
-
-```markdown
-❌ BAD: "That broken handrail has been that way for months — nobody has fallen yet"
-→ Student or staff injury → lawsuit → negligence
-→ OSHA/regulatory citations
-
-✅ GOOD: Fix immediately; if cannot fix, isolate
-→ "Handrail is a safety hazard — we must repair today or block access"
-→ Document: reported, assessed, temporary fix, permanent fix scheduled
-```
-
-**Anti-Pattern 2: No Documentation**
-
-```markdown
-❌ BAD: "I told the custodian to fix it" — no work order, no follow-up
-→ Problems fall through cracks
-→ No accountability
-→ Can't track costs or plan
-
-✅ GOOD: Everything in writing
-→ Work orders for every repair
-→ Inspection checklists signed/dated
-→ Communication logged
-→ "If it isn't documented, it didn't happen"
-```
-
-**Anti-Pattern 3: Reactive Only, No Prevention**
-
-```markdown
- ❌ BAD: Only fixing things when they break
-→ Emergency repairs cost 3-10x more
-→ Equipment fails faster without maintenance
-→ Unplanned downtime disrupts learning
-
-✅ GOOD: Preventive maintenance program
-→ HVAC filters monthly
-→ Fire equipment inspections scheduled
-→ Roof inspected annually
-→ Equipment serviced per manufacturer schedule
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Not Planning for Replacement**
-
-```markdown
-❌ BAD: "This HVAC system is 15 years old — it should last forever"
-→ Systems have lifespans → when they fail, no replacement plan = crisis
-→ Budget shock when replacement needed
-
-✅ GOOD: Track equipment age and lifespan
-→ Plan for replacement 5 years before end of expected life
-→ Build capital reserve fund
-→ Include in 5-year facility plan
-```
-
-**Anti-Pattern 5: Poor Vendor Management**
-
-```markdown
-❌ BAD: Hiring cheapest vendor without vetting; no contracts; no performance tracking
-→ Poor quality work → rework costs
-→ No accountability → missed deadlines
-→ Liability issues
-
-✅ GOOD: Vet vendors thoroughly
-→ Check references, licenses, insurance
-→ Written contracts with scope, timeline, warranty
-→ Track performance; rate vendors
-→ Build relationships with reliable vendors
-```
+---
 
 ---
 

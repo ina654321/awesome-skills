@@ -589,62 +589,19 @@ leo_handover_analysis(orbital_period_min=97, beams_per_satellite=8,
 
 ## 🔗 Integration with Other Skills
 
-- **Satellite Communication Engineer** — Link budget methodology (EIRP, G/T, MODCOD); feeder link design; ITU frequency coordination; differs from NTN in focus on 3GPP protocol stack
-- **5G/LTE Radio Access Engineer** — Air interface (NR numerology, PDCCH, PDSCH MCS); 3GPP NTN protocol adaptations; builds on terrestrial 5G expertise
-- **Network Architecture Engineer** — NTN integration in 5G core (N2/N3 interface via satellite, transparent vs. regenerative payload, SMF/UPF placement for latency optimization)
-- **IoT Platform Engineer** — NB-IoT NTN device power consumption analysis; DRX/eDRX cycle optimization for battery life over satellite; Class A/B/C LoRaWAN vs. NB-IoT NTN comparison
-- **Orbital Mechanics Engineer** — LEO constellation design (Walker delta, ground track repeating); eclipse periods; atmospheric drag compensation; handover timeline inputs
+→ See [references/07-integration.md](references/07-integration.md)
 
 ## 📏 Scope & Limitations
 
-**In Scope:**
-- 3GPP NTN Rel-17/18: LEO, MEO, GEO, HAPS protocol adaptations (HARQ, TA, Doppler)
-- NTN link budget: FSPL, rain attenuation (ITU-R P.618/P.838), antenna gain, C/N0
-- NB-IoT and eMTC NTN (IoT-NTN): coverage extension, power class, battery life
-- TCP/QUIC optimization over high-latency NTN links
-- Handover design: Earth-moving cell, conditional handover, beam management
-- Ka/S/L-band satellite communication for 5G NTN service link
-
-**Out of Scope:**
-- Satellite bus design (attitude control, thermal, power — spacecraft engineering)
-- ITU orbital filing and spectrum coordination (regulatory affairs specialist)
-- Optical inter-satellite links (laser ISL engineering — photonics specialist)
-- Satellite constellation launch campaign planning (launch provider engineering)
+→ See [references/08-scope.md](references/08-scope.md)
 
 ## 📖 How to Use
 
-### Quick Start
-```
-Read https://theneoai.github.io/awesome-skills/skills/telecom/ntn-engineer/SKILL.md and install
-```
-
-### Typical Task Prompts
-- "Calculate the link budget for NB-IoT NTN at 600 km LEO, S-band 2 GHz, handheld UE at 10° elevation"
-- "How many HARQ processes are needed for a 1200 km LEO NTN with 1ms TTI?"
-- "Design the TCP optimization strategy for a GEO VSAT link with 50 Mbps bandwidth"
-- "Explain why Doppler pre-compensation is mandatory for Ka-band LEO NTN"
-- "What rain fade margin is needed for 99.9% availability in tropical Ka-band VSAT?"
-
-### Context to Provide
-For best results, include: orbital altitude (km), operating frequency band, UE type (handheld/vehicle/fixed), target availability (99.9% / 99.99%), application (IoT/broadband/backhaul), and geographic region for rain statistics.
+→ See [references/09-how-to-use.md](references/09-how-to-use.md)
 
 ## ✅ Quality Verification
 
-To verify this skill is working correctly, ask:
-
-> "Calculate the maximum Doppler shift for a LEO satellite at 600 km altitude transmitting at Ka-band 20 GHz. How does this compare to 5G NR 15 kHz subcarrier spacing? Is pre-compensation required?"
-
-**Expected response elements:**
-- Satellite velocity: v = sqrt(GM/r) = sqrt(3.986e14 / (6971e3)) ≈ 7,558 m/s
-- Maximum Doppler: fD = v/c × f = 7558/3e8 × 20e9 ≈ 504 kHz
-- Ratio to SCS: 504 kHz
-- Conclusion: MANDATORY pre-compensation (residual budget ≤ 1.5 kHz = 0.1 × SCS)
-- Method: UE uses GNSS position + satellite ephemeris broadcast in SIB1 (3GPP Rel-17)
-
-**Red flags (skill not working):**
-- Stating Doppler is small or negligible for LEO Ka-band
-- Not computing the ratio to SCS (the critical comparison)
-- Suggesting post-compensation at gNB instead of pre-compensation at UE
+→ See [references/10-quality-verification.md](references/10-quality-verification.md)
 
 ## 📝 Version History
 

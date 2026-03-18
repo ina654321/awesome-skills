@@ -176,226 +176,33 @@ Build foundation before monetization: skip steps and structure collapses.
 
 ## 7. Standards & Reference
 
-### 7.1 Course Creation Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework / 框架 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **Problem-Solution Course** | Specific skill gap in audience | 1. Define problem → 2. Promise transformation → 3. Module breakdown → 4. Content creation → 5. Launch |
-| **Journey/Transformation** | Personal change (career, life) | 1. Map journey stages → 2. Identify pain points → 3. Design curriculum → 4. Add support → 5. Launch |
-| **Live Cohort** | High-touch, community-driven | 1. Set dates → 2. Build waitlist → 3. Live sessions → 4. Office hours → 5. Community → 6. Evergreen |
-| ** Evergreen/Automated** | Scale without live time | 1. Core content → 2. Onboarding → 3. Support system → 4. Marketing funnel → 5. Auto-delivery |
-
-### 7.2 Creator Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Follower Growth Rate** | New followers / Total followers
-| **Engagement Rate** | (Likes + Comments)
-| **Email Open Rate** | Opens
-| **Course Completion Rate** | Completed
-| **Course Launch ROI** | Revenue
-| **Customer LTV** | Total revenue per customer | 3x first purchase |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Course Development
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Validation (Weeks 1-2)
-├── Research audience: surveys, comments, existing content performance
-├── Define course promise: specific transformation for specific audience
-├── Validate demand: search volume, course reviews, competitor analysis
-└── [✓ Done]: Course concept validated with evidence
-    [✗ FAIL]: No clear demand → test with content before building
-
-Phase 2: Structure (Weeks 3-4)
-├── Outline modules: 5-8 modules, each with 3-5 lessons
-├── Define format: video, audio, text, exercises
-├── Write script/outline for each lesson
-├── Design exercises and templates
-└── [✓ Done]: Complete curriculum map
-    [✗ FAIL]: Curriculum doesn't deliver on promise → restructure
-
-Phase 3: Production (Weeks 5-8)
-├── Record/video content: quality equipment, good lighting, clear audio
-├── Create supporting materials: slides, workbooks, templates
-├── Build platform: set up course platform, payment, emails
-└── [✓ Done]: All content produced and loaded
-
-Phase 4: Launch (Weeks 9-10)
-├── Pre-launch: build waitlist, create buzz
-├── Launch: email sequence, content push, ads (if applicable)
-├── Post-launch: gather feedback, fix issues
-└── [✓ Done]: Launch complete with first sales
-    [✗ FAIL]: Poor launch → gather learnings, iterate
-```
-
-### 8.2 Content Strategy Development
-
-```
-Step 1: Platform Selection
-  → Choose 1-2 primary platforms based on audience
-  → Secondary platforms for distribution
-  → Don't try to be everywhere at once
-
-Step 2: Content Pillars
-  → Define 3-5 content themes that serve audience and showcase expertise
-  → Example: 40% value, 30% personality, 20% social proof, 10% conversion
-
-Step 3: Content Calendar
-  → Plan content 1-4 weeks ahead
-  → Batch create for efficiency
-  → Include variety: educational, inspirational, behind-the-scenes
-
-Step 4: Creation & Distribution
-  → Create content in batches
-  → Repurpose across platforms
-  → Track performance
-
-Step 5: Optimize
-  → Analyze what works
-  → Double down on winning content types
-  → Iterate strategy monthly
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Course Concept Development
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我想做一个职场沟通的课程，但是网上类似课程很多，怎么脱颖而出？"
-
-**Knowledge Influencer:**
-> **Step 1: 差异化定位**
->
-> | 维度 | 常见做法 | 你的机会 |
-> |------|---------|---------|
-> | 受众 | 泛职场人群 | 聚焦特定人群：互联网从业者/销售/管理者 |
-> | 场景 | 通用沟通 | 特定场景：跨部门协作/客户沟通/会议发言 |
-> | 方式 | 理论为主 | 实战为主：真实案例+角色扮演+反馈 |
-> | 交付 | 纯视频 | 视频+练习+社群+1v1反馈 |
->
-> **Step 2: 课程定位公式**
->
-> ```
-> 帮助 [具体受众] 在 [具体时间] 实现 [具体结果]
-> 通过 [独特方法/视角]
-> 
-> 示例：
-> 帮助互联网产品经理在30天内提升跨部门协作效率
-> 通过「需求对齐工作流」+「真实项目复盘」
-> ```
->
-> **Step 3: 验证需求**
->
-> 1. 在现有社交平台发3-5条相关内容
-> 2. 观察互动数据：收藏多说明需要，评论多说明痛点强
-> 3. 做个9.9元mini课测试
-> 4. 根据反馈再开发正课
->
-> **Next, I need from you:**
-> - 你的核心受众是谁？他们的具体痛点是什么？
-> - 你在这个领域有什么独特经验或成绩？
-
-### 9.2 Launch Strategy
-
-**User:** "课程做好了，怎么发布能卖出去？第一次做没什么经验"
-
-**Knowledge Influencer:**
-> **Step 1: 发布前准备（至少提前2周）**
->
-> | 任务 | 说明 | 时间 |
-> |------|------|------|
-> | 打磨销售页 | 清晰承诺、证明、价格、限时 | 1周 |
-> | 积累潜在客户 | 免费内容、直播、社群 | 持续 |
-> | 准备推广素材 | 朋友圈、短视频、推文 | 1周 |
-> | 设置自动化 | 邮箱序列、付款流程 | 3天 |
->
-> **Step 2: 发布节奏（14天）**
->
-> | 阶段 | 天数 | 动作 |
-> |------|------|------|
-> | 预热 | Day 1-7 | 预告、倒计时、限时优惠 |
-> | 首发 | Day 8 | 大规模推广、朋友圈、直播 |
-> | 冲刺 | Day 9-12 | 成功案例、限时最后机会 |
-> | 收尾 | Day 13-14 | 截止前提醒、结束 |
->
-> **Step 3: 推广渠道优先级**
->
-> | 渠道 | 优先级 | 原因 |
-> |------|--------|------|
-> | 已有邮件列表 | ⭐⭐⭐⭐⭐ | 最高转化 |
-> | 朋友圈/私域 | ⭐⭐⭐⭐ | 信任度高 |
-> | 短视频平台 | ⭐⭐⭐ | 流量大 |
-> | 直播 | ⭐⭐⭐ | 高转化强互动 |
-> | 社群 | ⭐⭐⭐ | 讨论氛围 |
-> | 广告 | ⭐⭐ | 有预算再投 |
->
-> **关键成功因素**:
-> - 首发前至少有100个潜在客户的名单
-> - 销售页要清晰回答：你是谁？讲什么？怎么讲？为什么有效？为什么现在？为什么是你？
-> - 价格设定锚点：原价999，首发价399，显得有价值
->
-> **Next, I need from you:**
-> - 你现有多少潜在客户/粉丝？
-> - 你的课程定价是多少？
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Course Before Audience
-
-```markdown
-❌ BAD: Build course first, then try to find students.
-→ Months of work with no buyers; course sits unsold; discouragement.
-
-✅ GOOD: Build audience first; validate with free content; test with mini-course;
-only build full course when demand proven.
-```
-
-**Anti-Pattern 2: Perfectionism Paralysis
-
-```markdown
-❌ BAD: Wait until course is "perfect" before launching.
-→ Never launches; time wasted; market moves on.
-
-✅ GOOD: Launch MVP; iterate based on feedback; version 2.0 is always better.
-```
-
-**Anti-Pattern 3: Price-Based Competition
-
-```markdown
-❌ BAD: Compete on price; "my course is cheaper."
-→ Race to bottom; attracts price shoppers; no profit; unsustainable.
-
-✅ GOOD: Compete on value and results; premium pricing signals quality.
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Content Without Strategy
-
-```markdown
-❌ BAD: Post whenever inspired; no calendar; no theme.
-→ Scattered message; no audience growth; no momentum.
-
-✅ GOOD: Content calendar; consistent theme; strategic repurposing.
-```
-
-**Anti-Pattern 5: Neglecting Email List
-
-```markdown
-❌ BAD: Only build followers on social platforms; don't collect emails.
-→ Algorithm changes = audience gone; no direct communication channel.
-
-✅ ALWAYS: Build email list from day one; own your audience relationship.
-```
+---
 
 ---
 

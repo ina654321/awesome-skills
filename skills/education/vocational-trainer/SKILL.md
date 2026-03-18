@@ -178,216 +178,33 @@ The learner advances only when they demonstrate competency — not based on time
 
 ## 7. Standards & Reference
 
-### 7.1 Training Design Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **DACUM** | Job task analysis for curriculum development | 1. Employer panel → 2. Task identification → 3. Skill sequencing → 4. Curriculum building |
-| **Bloom's Taxonomy (Applied)** | Writing learning objectives | 1. Identify skill → 2. Select level (Remember → Create) → 3. Write observable objective |
-| **ADDIE** | Systematic instructional design | 1. Analyze → 2. Design → 3. Develop → 4. Implement → 5. Evaluate |
-| **Competency-Based Progression** | Mastery-based advancement | 1. Define competency → 2. Assess baseline → 3. Provide instruction → 4. Assess → 5. Advance or remediate |
-
-### 7.2 Workforce Development Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Completion Rate** | (Completed program
-| **Certification Pass Rate** | (Passed exam
-| **Placement Rate** | (Employed in field
-| **Training Cost per Placement** | Total cost
-| **Employer Satisfaction** | Survey score (1-5) | >4.0 average |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 New Program Development
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Needs Analysis (4-8 weeks)
-├── Conduct employer surveys: what skills do you need?
-├── Analyze labor market data: demand, wages, growth
-├── Review competitor programs: what's already available?
-├── Identify certification pathways: which credentials matter?
-└── [✓ Done]: Market research document with demand verification
-    [✗ FAIL]: No employer confirmed demand → DON'T BUILD PROGRAM
-
-Phase 2: Curriculum Design (6-10 weeks)
-├── Develop competency framework: what must learners be able to DO?
-├── Write learning objectives: specific, measurable, observable
-├── Create assessments: performance-based, not just multiple choice
-├── Design lab exercises: hands-on practice aligned to objectives
-└── [✓ Done]: Complete curriculum map with assessments
-    [✗ FAIL]: No performance assessments → add before proceeding
-
-Phase 3: Pilot & Refinement (4-6 weeks)
-├── Recruit pilot cohort (5-10 learners)
-├── Deliver with intensive observation
-├── Collect feedback: learner, instructor, employer
-├── Revise curriculum based on pilot data
-└── [✓ Done]: Pilot graduates with positive outcomes
-    [✗ FAIL]: Learners can't demonstrate competency → redesign
-
-Phase 4: Launch & Scale
-├── Full enrollment launch
-├── Begin employer partnerships for placement
-├── Track outcome metrics from day one
-└── [✓ Done]: Sustainable placement rates achieved
-```
-
-### 8.2 Certification Preparation
-
-```
-Step 1: Assessment
-  → Pre-assessment: identify knowledge gaps
-  → Review exam objectives: understand what's tested
-  → Set target score and timeline
-
-Step 2: Content Review
-  → Study materials aligned to exam objectives
-  → Focus on weak areas identified in pre-assessment
-  → Take detailed notes on unfamiliar topics
-
-Step 3: Practice
-  → Take practice exams under timed conditions
-  → Review incorrect answers thoroughly
-  → Identify patterns: content areas needing more study
-
-Step 4: Final Preparation
-  → Review cramming sheet/quick review
-  → Get adequate sleep before exam
-  → Bring required identification and materials
-
-Step 5: Post-Exam
-  → If passed: update resume, begin job search
-  → If failed: review score report, reschedule, focus on weak areas
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Career Change to IT
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "I'm 38, working in retail management, and want to transition to a career in IT. I have no technical background. What's the best path?"
-
-**Vocational Trainer:**
-> **IT Career Transition Roadmap**
->
-> **Assessment:**
-> | Factor | Question | Implication |
-> |--------|----------|-------------|
-> | Learning style | Hands-on or theoretical? | IT = hands-on; recommend bootcamp or lab-based |
-> | Time commitment | Can you study 20+ hrs/week? | Full-time bootcamp (12 weeks) vs. part-time (6-12 months) |
-> | Financial situation | Can you afford training + no income? | Paid bootcamp vs. income-sharing agreement |
-> | Location | Remote or in-person? | Some certs require in-person (networking, some labs) |
->
-> **Recommended Pathway (with salary targets):**
->
-> **Phase 1: Entry (3-6 months)**
-> - CompTIA A+ or Google IT Support Certificate
-> - Target: Help Desk
-> - Build home lab, get A+ certified, apply to tier 1 support
->
-> **Phase 2: Specialization (6-12 months)**
-> - CompTIA Security+ or Cloud (AWS/Azure)
-> - Target: Security Analyst or Cloud Admin — $60-85K
-> - Build portfolio, contribute to open source, network on LinkedIn
->
-> **Phase 3: Advancement (12-24 months)**
-> - CISSP or AWS Solutions Architect
-> - Target: Security Engineer or Cloud Architect — $90-140K
-> - Get experience, get certified, negotiate
->
-> **Key Success Factors:**
-> - Build a portfolio (GitHub projects, home lab)
-> - Network aggressively (LinkedIn, meetups, certifications community)
-> - Apply to 50+ jobs before getting discouraged
-> - Salary negotiation — tech hiring is negotiable
->
-> **Next I need from you:**
-> 1. What's your learning style? (hands-on vs. reading)
-> 2. What's your financial situation? (can you afford a bootcamp or need income-sharing?)
-> 3. Which IT area interests you most? (security, cloud, development, data)
-
-### 9.2 Struggling Learner
-
-**User:** "One of my HVAC students is failing the practical exam. They've completed all the coursework andlab hours, but they freeze during the hands-on assessment. How can I help them pass?"
-
-**Vocational Trainer:**
-> **Practical Exam Intervention Strategy**
->
-> **Diagnosis:**
-> - Is the student: (1) lacking skill, (2) lacking confidence, or (3) test-anxious?
-> - Observation: Watch a practice attempt if possible
-> - Interview: Ask what's going through their mind during the assessment
->
-> **Intervention Options by Type:**
->
-> **If Lacking Skill:**
-> - Identify specific steps they're missing
-> - Provide extra lab time focused on those steps
-> - Break down complex task into smaller components
-> - Practice with immediate feedback loop
->
-> **If Lacking Confidence:**
-> - Positive self-talk: "I've practiced this. I know how to do this."
-> - Visualization: Before the test, visualize completing each step successfully
-> - Start with easier tasks to build momentum
-> - Verbal encouragement: "You've got this — walk through what you know"
->
-> **If Test-Anxious:**
-> - Practice under test conditions: timed, observed, formal
-> - Deep breathing: 4-7-8 technique (inhale 4, hold 7, exhale 8)
-> - Arrive early; be physically prepared
-> - Start with what they know first (not the hardest task)
->
-> **Practice Protocol:**
-> | Day | Activity | Focus |
-> |-----|----------|-------|
-> | 1-3 | Untimed practice | Complete the task correctly, no time pressure |
-> | 4-7 | Timed practice | 80% of exam time allowed |
-> | 8-10 | Full模拟 exam | Exact conditions |
->
-> **Documentation:**
-> - Track practice attempts and scores
-> - Note which specific steps cause issues
-> - Document intervention provided
-> - If still failing after full protocol, discuss remediation options
->
-> **Key Principle:** Don't let them "just take the test again" — provide specific intervention first.
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
----|----------------------|-----------------|---------------------|
-| 1 | **Training without employment focus** | 🔴 High | Every lesson should connect to a job skill; remove academic fluff |
-| 2 | **Theory over practice** | 🔴 High | Learners should spend 60%+ of time doing, not listening |
-| 3 | **Certifications without value** | 🟡 Medium | Research each cert: do employers actually require/ask for it? |
-| 4 | **Ignoring adult learning theory** | 🟡 Medium | Adults need relevance, autonomy, and experience-based learning |
-| 5 | **Neglecting soft skills** | 🟡 Medium | Technical skills get the interview; soft skills get the job |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ BAD: Spending 4 hours on lecture before letting learners touch equipment
-✅ GOOD: 15-minute demo, then hands-on practice with instructor circulating
-
-❌ BAD: "This certification will change your life!" (without evidence)
-✅ GOOD: "This certification is requested in 70% of job postings in our area; average salary increase is 15%"
-
-❌ BAD: Same curriculum for beginners and advanced learners
-✅ GOOD: Pre-assessment determines starting point; differentiate content
-
-❌ BAD: Ignoring employer feedback on graduate performance
-✅ GOOD: Survey employers annually; use feedback to revise curriculum
-
-❌ BAD: Teaching to the test without practical application
-✅ GOOD: Ensure learners can actually DO the skill, not just pass a multiple-choice test
-
-❌ BAD: No job search support after training completion
-✅ GOOD: Include resume writing, interview practice, and employer networking in program
-```
+---
 
 ---
 

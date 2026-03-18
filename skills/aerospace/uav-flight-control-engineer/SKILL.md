@@ -174,56 +174,17 @@ Install this skill on your preferred AI coding platform:
 
 ## § 7 Standards & Reference
 
-### Key Standards & Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Standard | Scope | Key Requirements |
-|----------|-------|-----------------|
-| **DO-178C** | Airborne software | DAL A-E; structural coverage (MC/DC for DAL-A); independent V&V |
-| **DO-254** | Airborne electronic hardware | COTS justification; capture/validation/assurance levels |
-| **DO-160G** | Environmental qualification | EMI, temperature, vibration, humidity testing |
-| **ASTM F3005** | Balloon-borne and small UAS | Risk-based compliance for sub-25kg UAS |
-| **FAA AC 20-193** | UAS type certification guidance | Means of compliance for novel UAS configurations |
-| **EASA CS-UAS** | EU UAS certification standard | A1-A3 categories, specific category SORA methodology |
-| **MIL-HDBK-516C** | Military airworthiness criteria | Structural, propulsion, FCS qualification for defense UAS |
-| **AS9100D** | Aerospace QMS | Quality management for design and manufacturing |
-
-### Key Performance Metrics
-
-| KPI | Target | Measurement Method |
-|-----|--------|--------------------|
-| **Position Hold Accuracy (hover)** | <10 cm RMS in calm air | RTK GPS or motion capture ground truth |
-| **Attitude Tracking Error** | <0.5° RMS during maneuvers | IMU vs. commanded attitude log comparison |
-| **Disturbance Rejection Bandwidth** | >5 Hz for attitude loop | Frequency sweep flight test, transfer function ID |
-| **Phase Margin (attitude loop)** | ≥45° | Frequency sweep at operating points |
-| **Gain Margin (attitude loop)** | ≥6 dB | Frequency sweep at operating points |
-| **EKF Position Uncertainty (GPS)** | <0.5 m 1σ horizontal | Comparison with RTK reference during level flight |
-| **VTOL Transition Time** | <10 seconds (configuration-dependent) | Airspeed log during transition |
-| **Loop Rate (inner/attitude)** | ≥500 Hz (target 1kHz) | Real-time scheduler monitoring |
-| **Control Latency (sensor to actuator)** | <5 ms total pipeline | Hardware timestamp comparison |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Requirements & Architecture
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Activities:**
-- Define vehicle configuration, mission profile, and performance requirements
-- Select control architecture (PID cascade vs. LQR vs. INDI) based on requirements
-- Identify sensor suite and establish observability requirements
-- Draft system safety assessment (preliminary FMEA)
-- Establish hardware-software interface definition
-
-**✓ Done Criteria:**
-- Control requirements document with quantified performance targets
-- Block diagram of complete FCS architecture with latency budget
-- Sensor selection with justification for each axis of state estimation
-- Preliminary FCS FMEA with preliminary safety objectives
-
-**✗ FAIL Criteria:**
-- Proceeding to design without quantified stability margin requirements
-- No sensor redundancy analysis for flight-critical state variables
-- Missing environmental requirements (wind, temperature, EMI)
+---
 
 ---
 
@@ -275,37 +236,9 @@ Install this skill on your preferred AI coding platform:
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Tuning a Multirotor Altitude Controller
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** My quadrotor has excessive altitude oscillation when I switch to altitude hold mode. The oscillations are at about 2 Hz with ±0.8m amplitude. How do I diagnose and fix this?
-
-**UAV Flight Control Engineer:** This is a classic altitude loop instability signature. Let me walk through the systematic diagnosis.
-
-**Diagnosis:**
-The 2 Hz oscillation with ±0.8m amplitude suggests you're near the stability boundary of the altitude (Z-position) loop. The cascade structure means we need to identify which loop is oscillating:
-
-1. First, check your **velocity loop bandwidth**. Log your Z-velocity command vs. actual Z-velocity. If they're tracking well (<0.1s lag), the problem is in the position loop. If velocity is oscillating too, the instability originates in the velocity or attitude loop.
-
-2. **Phase delay analysis**: At 2 Hz (12.6 rad/s), calculate total loop delay. With 100ms EKF barometer update rate + 50ms actuator response, you have ~150ms delay = 108° phase loss at 2 Hz. This alone can cause instability if the crossover frequency is near 2 Hz.
-
-**Fix - Reduce Position P gain:**
-```
-altitude_P = altitude_P * 0.6   # Reduce by 40%
-```
-Then verify the oscillation frequency changes proportionally. If it does, you've confirmed this is the position P gain causing overshoot into instability.
-
-**Fix - Add Derivative
-If barometer noise is an issue, add a low-pass filter on the altitude error derivative:
-```
-# Python equivalent of what ArduPilot PSC_ACCZ_I/P parameters control
-omega_n = 2*pi*1.5  # Target 1.5 Hz position loop bandwidth
-zeta = 0.7           # Damping ratio
-Kp = omega_n**2
-Kd = 2*zeta*omega_n
-```
-For a 1.5 Hz target bandwidth with 0.7 damping ratio, `Kp ≈ 88.8`, `Kd ≈ 13.2`.
-
-**Root Cause Prevention:** Ensure your barometer is mechanically isolated from vibration. Mount it under foam to reduce pressure fluctuations from prop wash — this is the most common root cause of altitude oscillation in multirotors.
+---
 
 ---
 
@@ -393,24 +326,9 @@ G = [[∂ṗ/∂δa,  ∂ṗ/∂δr],    # roll rate from aileron, rudder
 
 ## § 10 Common Pitfalls
 
-### Pitfall 1: Ignoring Anti-Windup
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **BAD:**
-```python
-integral += error * dt   # Unbounded integration
-output = Kp*error + Ki*integral + Kd*derivative
-```
-
-✅ **GOOD:**
-```python
-# Clamping anti-windup
-integral += error * dt
-output_unlimited = Kp*error + Ki*integral + Kd*derivative
-output = clip(output_unlimited, -MAX_OUTPUT, MAX_OUTPUT)
-# Back-calculate to prevent windup
-if output != output_unlimited:
-    integral -= (output_unlimited - output)
-```
+---
 
 ---
 

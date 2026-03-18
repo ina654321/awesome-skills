@@ -182,133 +182,25 @@ No debrief = no learning. Activity without reflection is just recreation.
 
 ## 7. Standards & Reference
 
-### 7.1 Program Design Framework
+See [references/07-standards.md](references/07-standards.md)
 
-| Phase| Duration| Focus| Activities|
-|------|---------|------|-----------|
-| **Opening** | 15-30 min | Introduction, norms, safety | Name games, expectations, energizers |
-| **Getting Started** | 30-45 min | Building comfort | Low-risk initiatives, simple tasks |
-| **Challenge** | 60-90 min | Stretching abilities | Ropes course, trust fall, problem-solving |
-| **Peak Experience** | 60 min | Maximum challenge | Major initiative, solo reflection |
-| **Closure** | 30-45 min | Integration, celebration | Debrief, recognition, closing ritual |
-
-### 7.2 Activity Risk Categories
-
-| Risk Level| Activities| Safety Requirements|
-|----------|-----------|-------------------|
-| **Low** | Name games, simple initiatives, low elements | Basic first aid; participant consent |
-| **Medium** | High ropes, trust fall, team challenges | Certified facilitator; safety equipment; first responder |
-| **High** | Climbing, rappelling, wilderness | Professional guides; medical support; emergency plan |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Program Planning Process
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Needs Assessment
-├── Client consultation: What are goals? Who are participants?
-├── Identify desired outcomes: Teamwork? Leadership? Communication?
-├── Assess participant fitness and limitations
-├── Determine logistics: location, time, equipment
-└── [✓ Done]: Clear objectives documented
-
-Phase 2: Activity Selection
-├── Match activities to objectives and group
-├── Sequence activities (warm-up → challenge → peak → closure)
-├── Plan for participant choice (Challenge by Choice)
-├── Prepare contingency activities (weather, energy changes)
-└── [✓ Done]: Full agenda with timing
-
-Phase 3: Safety & Logistics
-├── Complete risk assessment for each activity
-├── Confirm equipment inspection dates
-├── Verify emergency services accessibility
-├── Prepare health/waiver forms
-└── [✓ Done]: Safety checklist completed
-```
-
-### 8.2 Activity Facilitation Cycle
-
-```
-Step 1: Set the Stage (5 min)
-  → Explain activity: What are we doing?
-  → Establish rules: Safety, respect, choice
-  → Clarify goal: What does "success" look like?
-
-Step 2: Activity (Variable)
-  → Facilitate without solving
-  → Observe group dynamics
-  → Ensure safety
-  → Watch for teachable moments
-
-Step 3: Debrief (15-20 min) — CRITICAL
-  → What happened? (Describe, don't judge)
-  → What did you notice about yourself? (Self-awareness)
-  → What did you notice about the group? (Team dynamics)
-  → How does this connect to... work/home/school? (Transfer)
-  → What will you do differently? (Commitment)
-
-[✓ Done]: Activity completed; all participants processed; lessons connected to real life
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Trust Fall Activity with Corporate Team
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "I need a trust-building activity for a new leadership team that's having communication problems"
-
-**Outward Bound Trainer:**
-> **Program: Trust Foundations for Leadership Team**
->
-> **Client:** New executive team (8 people), 3 months together, poor cross-functional communication
-> **Objective:** Build psychological safety and interpersonal trust
-> **Duration:** Half-day (4 hours)
->
-> **Program Sequence:**
->
-> **Opening (30 min):**
-> - Norm setting: "What happens here, stays here"
-> - Personal introductions with meaning: "One challenge I've overcome"
-> - "Challenge by Choice" explanation: All activities optional
->
-> **Activity 1: Minefield (45 min)**
-> - Blindfolded participants navigate "minefield" (obstacles) guided only by partner's voice
-> - No touching obstacles or partner
-> - Debrief: "How did it feel to trust? To guide?"
->
-> **Activity 2: Trust Fall (30 min)**
-> - Classic trust fall from 4-foot platform
-> - Option: Participants choose height they're comfortable with
-> - Debrief: "What made it easy/hard to fall? What does this mean for our team?"
->
-> **Activity 3: Human Knot (30 min)**
-> - Group untangles knotted arms without letting go
-> - Must communicate and collaborate
-> - Debrief: "Who led? Who followed? How did decisions get made?"
->
-> **Key Debrief Questions:**
->
-> | Question | Purpose |
-> |----------|---------|
-> | "What did you notice about your own willingness to trust?" | Self-awareness |
-> | "How did it feel to be responsible for someone else's safety?" | Responsibility |
-> | "What signals make it safe to trust at work?" | Transfer |
-> | "What's one thing you'll do to build trust this week?" | Commitment |
->
-> **Safety Notes:**
-> - Health screening: Back injuries preclude trust fall
-> - Spotters in position before any fall
-> - Clear "opt-out" with no explanation required
-> - Water available; outdoor venue with shade
->
-> **Expected Outcomes:**
-> - Increased psychological safety
-> - Awareness of trust dynamics in team
-> - Specific commitments to trust-building behaviors
+---
 
 ---
 
@@ -387,24 +279,9 @@ Step 3: Debrief (15-20 min) — CRITICAL
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **No Debrief** | 🔴 High | Activity is just recreation without reflection. Build in 30% time for debrief |
-| 2 | **Forcing Participation** | 🔴 High | Challenge by choice is ethical and legal requirement. Never shame or pressure |
-| 3 | **Competition Over Collaboration** | 🟡 Medium | Win-lose framing damages trust-building. Focus on how, not just outcome |
-| 4 | **One-Size-Fits-All** | 🟡 Medium | Different participants need different challenges. Offer choice |
-| 5 | **Ignoring Group Dynamics** | 🟡 Medium | Dominant voices need curbing; quiet voices need amplifying. Facilitate inclusion |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ BAD: "You have to do this. Everyone's watching."
-✅ GOOD: "I notice you're thinking about it. Take your time. Let me know when you're ready."
-
-❌ BAD: "The winner gets a prize!"
-✅ GOOD: "How did your team work together? What would you do differently?"
-
-❌ BAD: Skip debrief to save time
-✅ GOOD: Shorten activity if needed; never skip reflection
-```
+---
 
 ---
 

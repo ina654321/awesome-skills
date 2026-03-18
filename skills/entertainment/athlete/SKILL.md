@@ -190,149 +190,25 @@ Build the foundation before chasing the prize. Without recovery, training become
 
 ## 7. Standards & Reference
 
-### 7.1 Training Periodization Models
+See [references/07-standards.md](references/07-standards.md)
 
-| Model | When to Use | Structure | Example |
-|-----------------|----------------------|-------------------|------------------------|
-| **Linear** | Beginner-Intermediate | Gradually increase intensity over weeks | 4 weeks base → 2 weeks build → 1 week peak |
-| **Block** | Advanced | Concentrated skill/strength/endurance blocks | Week 1-2: strength focus; Week 3-4: speed focus |
-| **Undulating** | Advanced | Daily or weekly variation in intensity | Day 1: heavy (85% 1RM); Day 2: light (65% 1RM) |
-| **Conjugate** | Strength athletes | Combine max strength, speed strength, and strength endurance | Rotate max effort, explosive, and rep work |
-
-### 7.2 Performance Metrics by Sport
-
-| Sport | Key Metrics | Target Ranges |
-|-----------------|----------------------|-------------------|
-| **Sprinting** | 100m time, start reaction | <10.5s (men), <11.5s (women) |
-| **Basketball** | Vertical jump, shuttle run | >30 inch vertical |
-| **Swimming** | 50m/100m times | Competitive: sport-specific standards |
-| **Combat** | Rounds maintained, power output | 3+ rounds at competition pace |
-
-### 7.3 Recovery Protocols
-
-| Recovery Method | Duration | When | Benefit |
-|-----------------|----------|------|---------|
-| **Active Recovery** | 20-30 min | Day after hard training | Blood flow, mobility |
-| **Static Stretching** | 10-15 min | Post-workout | Flexibility, injury prevention |
-| **Foam Rolling** | 10-20 min | Post-workout + rest days | Muscle tension release |
-| **Sleep** | 7-9 hours | Every night | Hormonal recovery, adaptation |
-| **Nutrition** | Within 60 min post-workout | After training | Glycogen replenishment, protein synthesis |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Training Session Structure
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Warm-Up (15-20 minutes)
-├── General warm-up: 5-10 min cardio (light running, cycling)
-├── Dynamic stretching: leg swings, arm circles, walking lunges
-├── Movement prep: sport-specific patterns (cutting, jumping, throwing)
-└── [✓ Done]: Heart rate elevated, joints mobile, ready to train
-
-Phase 2: Main Training (variable)
-├── Technical work: skill development, technique refinement
-├── Strength/power: main lifts or sport-specific exercises
-├── Conditioning: sport-specific energy system development
-└── [✓ Done]: Training objective met
-
-Phase 3: Cool-Down (10-15 minutes)
-├── Low-intensity cardio: bring heart rate down gradually
-├── Static stretching: focus on worked muscles
-├── Mobility work: address tight areas
-└── [✓ Done]: Body recovered, ready for next session
-```
-
-### 8.2 Competition Day Protocol
-
-```
-Pre-Competition (2-4 hours before)
-├── Light meal: carbohydrates + protein, familiar foods
-├── Mental prep: visualization, positive self-talk
-├── Equipment check: gear, uniform, competition essentials
-├── Arrive early: allow time for warm-up, registration
-└── [✓ Done]: Ready to compete
-
-Warm-Up (30-60 minutes before)
-├── General: raise body temperature
-├── Specific: sport-specific movements at competition pace
-├── Technical: practice skills, fine-tune technique
-└── [✓ Done]: Body primed, ready for competition
-
-Competition
-├── Focus on process: one play/hot at a time
-├── Execution: trust training, perform without overthinking
-├── Between attempts/rounds: recover, reset, refocus
-└── [✓ Done]: Give everything, leave nothing
-
-Post-Competition
-├── Cool-down: light movement, stretching
-├── Recovery: nutrition, hydration
-├── Review: what worked, what to improve
-└── [✓ Done]: Celebrate or regroup, move forward
-```
-
-### 8.3 Injury Prevention Protocol
-
-```
-Step 1: Pre-Training
-├── Dynamic warm-up: 10-15 minutes
-├── Movement screening: check for compensations
-├── Activation: fire up stabilizing muscles
-
-Step 2: During Training
-├── Proper technique: prioritize form over weight/speed
-├── Communication: report pain immediately
-├── Progressive loading: don't increase too fast
-
-Step 3: After Training
-├── Cool-down: reduce muscle tension
-├── Stretching: maintain flexibility
-├── Recovery: nutrition, hydration, sleep
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Training Program Design: Beginner Runner
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我想跑马拉松，应该怎么训练？"
-
-**Athlete:**
-> **马拉松训练计划 (16周)**
->
-> **基础阶段 (1-4周)**
-> - 周一：休息
-> - 周二：30分钟轻松跑
-> - 周三：45分钟交叉训练（骑车/游泳）
-> - 周四：休息
-> - 周五：30分钟轻松跑
-> - 周六：60分钟长距离慢跑
-> - 周日：休息
->
-> **建立阶段 (5-8周)**
-> - 周二：40分钟节奏跑
-> - 周六：75分钟长距离
-> - 每周增加 10% 跑量
->
-> **提升阶段 (9-12周)**
-> - 周二：间歇跑（400m×8, 休息2分钟）
-> - 周六：90-120分钟长距离
-> - 引入马拉松配速跑
->
-> **巅峰阶段 (13-15周)**
-> - 减少跑量，保持强度
-> - 周六：32km长距离（最长）
-> - 最后一周：减量 50%
->
-> **关键原则:**
-> - 慢速跑：80% 的训练应该是轻松跑
-> - 休息：每周至少1-2天完全休息
-> - 渐进：每周跑量增加不超过10%
-> - 营养：训练期间补充碳水化合物
-> - 睡眠：每晚 7-9 小时
+---
 
 ---
 
@@ -475,26 +351,9 @@ Step 3: After Training
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Training too much** | 🔴 High | Follow 80/20 rule: 80% easy, 20% hard |
-| 2 | **Ignoring recovery** | 🔴 High | Schedule rest like training; no exceptions |
-| 3 | **Poor nutrition** | 🔴 High | Fuel for performance; work with nutritionist |
-| 4 | **Skipping warm-up** | 🔴 High | Always warm up; 10-15 minutes minimum |
-| 5 | **Comparing to others** | 🟡 Medium | Focus on your own journey |
-| 6 | **Setting unrealistic goals** | 🟡 Medium | Break big goals into small wins |
-| 7 | **Training through pain** | 🔴 High | Distinguish soreness from pain; stop if sharp |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ [BAD]: Train 2 hours every day, no rest
-✅ [GOOD]: Train smart, 4-5 days/week, progressive overload
-
-❌ [BAD]: "I need to be first in everything"
-✅ [GOOD]: Focus on personal best, not beating others
-
-❌ [BAD]: Skip breakfast, train fasted
-✅ [GOOD]: Fuel properly; nutrition supports performance
-```
+---
 
 ---
 

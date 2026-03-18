@@ -175,142 +175,25 @@ This skill transforms your AI assistant into an expert **Vertiport Planning Engi
 
 ## § 7 Standards & Reference
 
-### FATO/TLOF Sizing Reference (FAA AC 150/5390-2D basis, adapted for eVTOL)
-| Parameter | Small eVTOL (< 3000 lb) | Medium eVTOL (3000–7000 lb) | Large eVTOL (7000–12,500 lb) |
-|-----------|------------------------|----------------------------|-------------------------------|
-| TLOF diameter | 1.0D (D = largest dimension) | 1.0D | 1.0D |
-| FATO diameter | 1.5D | 1.5D | 1.5D |
-| Safety area width | 3m minimum | 3m minimum | 3m minimum |
-| Load bearing (FATO) | 1.5× MTOW (hard landing) | 1.5× MTOW | 1.5× MTOW |
-| Obstacle-free radius | 10m from FATO edge | 15m from FATO edge | 20m from FATO edge |
+See [references/07-standards.md](references/07-standards.md)
 
-### Capacity Modeling Formulas
-```
-Throughput = 3600 / (Mean Turnaround Time [sec])   # Operations/hour per pad
-
-Mean Turnaround Time components:
-  T_land:     90-120 sec  (final approach + touchdown + deceleration)
-  T_deplane:  120-180 sec (passenger off, pre-flight check, reboard)
-  T_charge:   300-900 sec (depends on battery size and charger power)
-  T_depart:   60-90 sec   (checklist, departure clearance, takeoff)
-
-Total: 570-1290 sec → 2.8 to 6.3 ops/hour per pad (CONSERVATIVE)
-
-For network planning: use 4 ops/hour per pad as baseline capacity
-```
-
-### Decision Tree: Charging Infrastructure
-```
-Battery size per aircraft?
-├─ < 100 kWh (small UAM, 2 PAX)
-│   → 150 kW charger sufficient (40 min to 80%)
-│   → 50A at 480V three-phase typical
-└─ 100-200 kWh (medium UAM, 4-6 PAX)
-    → 350-500 kW fast charger required (30 min to 80%)
-    → Requires dedicated transformer; coordinate with utility 60-90 days in advance
-    → Evaluate battery swap for operations requiring < 15 min turnaround
-```
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Site Selection & Feasibility
-```
-1.1 Site Identification & Screening
-  - [ ] Define service area and target locations (proximity to demand generators)
-  - [ ] Screen candidate sites: rooftop structural load capacity, building height clearance
-  - [ ] Check airspace compatibility: no IFR approach conflicts, OLS compliance possible
-  - [ ] Verify utility capacity: minimum 1 MVA per 4-pad vertiport
-  - [✓ Done] Output: Shortlist of 3-5 sites with feasibility scoring matrix
-  - [✗ FAIL] If structural load bearing < 150 lb/ft² → ground-level or purpose-built structure required
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Detailed Site Assessment
-  - [ ] Commission structural engineering assessment (load bearing, seismic, wind)
-  - [ ] File FAA Form 7460-1 (Notice of Proposed Construction) for each site
-  - [ ] Conduct noise impact assessment for neighbors within 1 km
-  - [ ] Identify all required permits: building, planning, utility easements, fire marshal
-  - [✓ Done] Output: Site Assessment Report with recommended site and permit roadmap
-  - [✗ FAIL] If FAA issues Determination of Hazard → site must be abandoned or redesigned
-```
-
-### Phase 2: Vertiport Design
-```
-2.1 Airside Design (Aviation Authority Jurisdiction)
-  - [ ] Size FATO and TLOF per FAA AC 150/5390-2D (or EASA equivalent)
-  - [ ] Design Obstacle Limitation Surfaces (approach, departure, transitional)
-  - [ ] Design vertipad lighting (threshold lights, FATO perimeter, TLOF center)
-  - [ ] Design wind indicator (windsock) placement
-  - [ ] Design fire suppression system per NFPA 418 (foam system for each pad)
-  - [✓ Done] Output: Airside Design Drawing Package for FAA review
-  - [✗ FAIL] If obstacle penetrates OLS → modify approach path or remove obstacle
-
-2.2 Charging & Power Infrastructure
-  - [ ] Size electrical service: N pads × 350 kW + 30% contingency
-  - [ ] Design transformer and switchgear room (minimum 10m from FATO)
-  - [ ] Specify charger type (CCS2/CHAdeMO/proprietary aviation connector)
-  - [ ] Design arc flash protection and emergency disconnect within 3 sec
-  - [✓ Done] Output: Electrical Single-Line Diagram and load schedule
-  - [✗ FAIL] If utility cannot supply required kVA within 12 months → battery energy storage buffer required
-
-2.3 Terminal & Landside Design
-  - [ ] Passenger flow: arrival → check-in → security → gate → boarding bridge/walkway
-  - [ ] Baggage handling for weight-limited cabin (eVTOL typically 20-30 kg/PAX)
-  - [ ] ADA-compliant path of travel from ground transportation to boarding
-  - [ ] Operations center: 24/7 staffed; UTM interface displays; emergency coordination
-  - [✓ Done] Output: Terminal Layout Drawing with circulation analysis
-```
-
-### Phase 3: Regulatory Approval & Commissioning
-```
-3.1 Regulatory Submissions
-  - [ ] Submit vertiport design package to FAA Airport District Office (ADO)
-  - [ ] File building permit with local authority
-  - [ ] Submit noise impact analysis to local planning board
-  - [ ] Coordinate with electric utility for grid connection agreement
-  - [✓ Done] Output: All regulatory approvals received (target: 12-18 months for rooftop)
-  - [✗ FAIL] If local planning board rejects → appeal process or alternate site
-
-3.2 Construction & Commissioning
-  - [ ] Construction oversight: FATO surface, lighting installation, fire system commissioning
-  - [ ] FAA safety inspection before first operations
-  - [ ] Fire department acceptance test of suppression system
-  - [ ] Electrical commissioning: arc flash study verification, charger function test
-  - [✓ Done] Output: FAA-inspected vertiport with Certificate of Occupancy
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Rooftop Vertiport on Urban Office Tower
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: We want to put a 4-pad vertiport on a 35-story office tower in downtown Chicago. The roof is currently used for HVAC equipment. What are the key constraints?
-
-**Expert**:
-> **Three immediate constraint categories to check before going further**:
->
-> **1. Structural (Critical Path)**:
-> - Modern office towers: roof load capacity typically 50-100 lb/ft² (dead + live)
-> - eVTOL hard landing load: a 3000 lb aircraft at 1.5g = 4500 lb point load on landing gear
-> - Landing gear footprint typically 4-6 ft², so ~900 lb/ft² point load — 9× typical roof capacity
-> - **Conclusion**: Structural reinforcement is almost certainly required. Commission structural engineer immediately; cost can be $2-5M for a 4-pad rooftop vertiport on an existing building
->
-> **2. HVAC Conflicts**:
-> - HVAC equipment must be relocated clear of the Obstacle Limitation Surface (OLS)
-> - FATO obstacle-free radius typically 10-15m → HVAC stacks within 15m of FATOs must be assessed
->
-> **3. Chicago Airspace**:
-> - Downtown Chicago is near O'Hare Class B and Chicago Executive Airport (PWK) arrival paths
-> - File FAA 7460-1 immediately to get No Hazard Determination before investing in design
-> - Work with FAA Great Lakes Region ADO for vertiport airspace approval
->
-> **Site capacity estimate** for 4 pads:
-> ```
-> At 4 ops/hour/pad × 4 pads = 16 ops/hour theoretical max
-> Electrical demand: 4 pads × 350 kW = 1.4 MVA minimum; add 30% margin = 1.8 MVA
-> ```
-> Utility upgrade lead time in Chicago: 12-18 months. Start utility coordination in parallel with structural assessment.
+---
 
 ---
 
@@ -369,14 +252,9 @@ Battery size per aircraft?
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Designing Pad Count Without Charging Infrastructure
-**❌ BAD**: Building 8 landing pads but only 4 chargers "to save cost"
-**✅ GOOD**: Every TLOF pad used for turnaround must have a co-located charger
-```
-Wrong mindset: "We can tow aircraft between pads and chargers"
-Right mindset:  1 charger per pad (or 1 battery swap station per 2 pads if using swap)
-```
-Towing operations add 5-10 min per aircraft, destroying throughput economics.
+See [references/10-pitfalls.md](references/10-pitfalls.md)
+
+---
 
 ---
 

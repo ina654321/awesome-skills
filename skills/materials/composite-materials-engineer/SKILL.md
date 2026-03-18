@@ -177,57 +177,17 @@ Install this skill on your preferred platform:
 
 ## § 7 Standards & Reference
 
-### Primary Standards Framework
+See [references/07-standards.md](references/07-standards.md)
 
-| Standard | Issuing Body | Scope |
-|---|---|---|
-| ASTM D3039 | ASTM | Tensile properties of polymer matrix composite materials |
-| ASTM D790 | ASTM | Flexural properties (3-point, 4-point bend) |
-| ASTM D3518 | ASTM | In-plane shear response via ±45° tensile test |
-| ASTM D6641 | ASTM | Compressive properties (Combined Loading Compression fixture) |
-| ASTM D5528 | ASTM | Mode I interlaminar fracture toughness (DCB test) |
-| ASTM D6115 | ASTM | Mode I fatigue delamination growth |
-| ASTM D7136 | ASTM | Damage resistance (drop weight impact) |
-| ASTM D7137 | ASTM | Compressive residual strength after impact (CAI) |
-| CMH-17 (Rev G) | FAA/Composite Materials Handbook | Polymer matrix composites: material characterization, design, qualification |
-| FAA AC 20-107B | FAA | Composite aircraft structure — certification guidance |
-| NADCAP AC7118 | PRI/NADCAP | Composites manufacturing audit criteria |
-| ISO 14125 | ISO | Flexural properties of fiber-reinforced plastic composites |
-
-### Key Design Metrics & Allowables
-
-| Parameter | Typical CFRP (T300/epoxy) | High-Performance (IM7/8552) | Units |
-|---|---|---|---|
-| Longitudinal tensile strength (F1t) | 1500 | 2860 | MPa |
-| Longitudinal compressive strength (F1c) | 1200 | 1690 | MPa |
-| Transverse tensile strength (F2t) | 50 | 81 | MPa |
-| Transverse compressive strength (F2c) | 170 | 262 | MPa |
-| In-plane shear strength (F12) | 70 | 114 | MPa |
-| Interlaminar shear strength (ILSS) | 65 | 100 | MPa |
-| Longitudinal modulus (E1) | 135 | 165 | GPa |
-| Transverse modulus (E2) | 8.5 | 9.0 | GPa |
-| Shear modulus (G12) | 4.5 | 5.6 | GPa |
-| Density | 1.55 | 1.57 | g/cm³ |
-| Tg (dry) | 120 | 180 | °C |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Requirements Capture & Material Selection
+See [references/08-workflow.md](references/08-workflow.md)
 
-**Objectives:** Define structural requirements, select material system, establish design allowables
-
-**Activities:**
-- [ ] Define load cases (limit, ultimate, fatigue spectrum, thermal, combined)
-- [ ] Identify failure modes (fiber failure, matrix cracking, delamination, buckling, bearing)
-- [ ] Select fiber type: HM (high modulus, stiffness-critical), HS (high strength, strength-critical), IM (intermediate modulus, balanced)
-- [ ] Select matrix system: epoxy (125°C or 180°C cure), BMI (high temperature), PEEK/PEKK (thermoplastic)
-- [ ] Identify material qualification status: A-basis or B-basis allowables available? CMH-17 listed?
-- [ ] Apply environmental knock-down factors (ETW typically 0.7–0.85 × RTD for matrix-dominated properties)
-
-**✓ Done:** Material selected with traceable allowables database, environmental conditions bounded, failure modes identified
-**✗ FAIL:** Borrowing allowables from a different fiber/matrix system without equivalency testing; using RTD properties for elevated temperature design without ETW knock-downs
+---
 
 ---
 
@@ -285,47 +245,9 @@ Install this skill on your preferred platform:
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Laminate Stacking Sequence Design for Wing Skin
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** I need to design a CFRP laminate for an aircraft lower wing skin. The dominant loading is biaxial tension (Nx = 800 N/mm, Ny = 200 N/mm) with some in-plane shear (Nxy = 150 N/mm). What stacking sequence do you recommend?
-
-**Composite Materials Engineer:** Let me work through this systematically.
-
-**Load analysis:** You have a tension-dominated biaxial state with significant shear. For the lower wing skin in cruise, this is consistent with bending-induced tension in x (span direction) plus pressure/fuel loading in y (chord direction), with shear from torsion.
-
-**Material recommendation:** For primary structure lower wing skin, I recommend IM7/8552 prepreg. The IM7 fiber gives higher allowables than T300 in tension, and 8552 epoxy has excellent toughness (GIC ≈ 220 J/m²) which is critical for damage tolerance in the lower skin.
-
-**Stacking sequence design:**
-
-For this load case, the load ratio Nx:Ny:Nxy = 5.3:1.3:1, indicating a 0°-dominant laminate with significant ±45° content for shear.
-
-Recommended sequence (starting from mid-plane, symmetric): [45/0/-45/0/90/0/45/0/-45/0]s
-
-- 40% 0° plies: handle dominant Nx load
-- 40% ±45° plies: handle Nxy shear and provide damage tolerance
-- 20% 90° plies: handle Ny and prevent transverse cracking; satisfies 10% rule minimum
-
-**CLT check (approximate, IM7/8552, Vf = 0.57, t_ply = 0.127 mm):**
-
-Total thickness: 20 plies × 0.127 mm = 2.54 mm
-
-Approximate laminate moduli:
-- Ex ≈ (0.4×165 + 0.4×9 + 0.2×9) GPa effective ≈ 71 GPa (simplified, CLT gives ~73 GPa)
-- Ey ≈ 53 GPa
-
-Applied strains: εx = Nx/(Ex·t) = 800/(73,000 × 2.54) ≈ 4,300 με
-
-**ETW allowable (F1t knock-down ~0.85 for IM7/8552):** Effective longitudinal limit = 2860 × 0.85 = 2,430 MPa (B-basis)
-Maximum stress in 0° ply: σ1 ≈ 4,300 με × 165 GPa = 710 MPa → RF = 2,430/710 = **3.4** (adequate)
-
-**[SAFETY CRITICAL]** This is a preliminary sizing estimate. You must:
-1. Run full CLT with actual loads including combined limit and ultimate (1.5×) conditions
-2. Apply ETW B-basis allowables from your material qualification database or CMH-17
-3. Check open-hole compression (OHC) which often governs lower wing skin
-4. Verify with FEA including ply-drop regions and attachment fittings
-5. Size to compression-after-impact (CAI) allowable if structure must be damage-tolerant
-
-**Recommended next step:** Run a parametric CLT study varying 0°/45°/90° percentages to find the minimum-weight laminate satisfying failure index < 1.0 for all four load cases (cruise, maneuver, fuel pressure, ground gust).
+---
 
 ---
 
@@ -436,11 +358,9 @@ For RTM with cure temperature ≤ 120°C (production-friendly):
 
 ## § 10 Common Pitfalls
 
-### Design Pitfalls
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ **Using UD allowables for woven fabric:** Applying unidirectional prepreg allowables (F1t, E1) to woven fabric designs. Woven fabric has ~15–25% lower modulus and strength due to fiber undulation (crimp).
-
-✅ **Correct approach:** Always characterize woven fabric separately. Use ASTM D3039 on ±45° and 0° woven coupons. Never borrow UD properties for woven architecture design.
+---
 
 ---
 

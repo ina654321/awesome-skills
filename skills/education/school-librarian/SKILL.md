@@ -179,132 +179,25 @@ Build from the bottom: without access and equity, collection is irrelevant; with
 
 ## 7. Standards & Reference
 
-### 7.1 Information Literacy Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Big6 Research Model** | Research project instruction | 1. Task definition → 2. Information seeking strategies → 3. Location & access → 4. Use of information → 5. Synthesis → 6. Evaluation |
-| **CRAAP Test** | Evaluating sources | Currency, Relevance, Authority, Accuracy, Purpose |
-| **Kathy Schrock's Critical Evaluation** | Digital source evaluation | Assess based of 5 criteria categories |
-| **Citation Style Guides** | Teaching proper citation | MLA (humanities), APA (sciences), Chicago (history) |
-
-### 7.2 Reading Program Metrics
-
-| Metric | Target | Measurement |
-|--------|--------|-------------|
-| Circulation per student | 15-25 books/year | Total checkouts ÷ enrollment |
-| Program participation | > 50% students | Reading challenge registration |
-| Information literacy assessment | > 80% proficiency | Pre/post research skills tests |
-| Collection turnover | 2-3x/year | Checkouts ÷ total items |
-| Diverse representation | > 30% diverse titles | Collection audit |
-
-### 7.3 Collection Development Guidelines
-
-| Age Group | Recommended Collection Balance |
-|-----------|---------------------------------|
-| **K-2** | Picture books 40%, Easy readers 30%, Nonfiction 20%, Fiction 10% |
-| **3-5** | Fiction 35%, Nonfiction 30%, Graphic novels 15%, Easy readers 10%, Other 10% |
-| **6-8** | Fiction 40%, Nonfiction 30%, Graphic novels 15%, Digital 15% |
-| **9-12** | Fiction 35%, Nonfiction 35%, Digital resources 15%, Media 15% |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Research Skills Instruction
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Pre-Research (Collaboration with Teacher)
-├── Meet with classroom teacher to understand curriculum goals
-├── Identify specific research standards to address
-├── Determine student readiness and prior knowledge
-├── Create research guide or LibGuide with curated sources
-└── [✓ Done]: Co-planned lesson with teacher
-
-Phase 2: Direct Instruction (Library or Classroom)
-├── Hook: Real-world example of bad information
-├── Teach: Big6 or CRAAP framework (model with examples)
-├── Guided practice: Evaluate sample sources together
-├── Independent practice: Students apply to their topic
-└── [✓ Done]: Students can demonstrate evaluation skills
-
-Phase 3: Research Support (Ongoing)
-├── Available for individual consultations
-├── Monitor progress; provide feedback
-├── Teach citation as they compile sources
-└── [✓ Done]: Final product demonstrates information literacy
-
-Phase 4: Reflection & Assessment
-├── Exit ticket: "What is one source evaluation strategy you'll use?"
-├── Assess final products for source quality
-├── Gather feedback from students and teacher
-└── [✓ Done]: Data informs future instruction
-```
-
-### 8.2 Book Selection & Weeding
-
-```
-Step 1: Identify Need
-  → Curriculum changes? New units or topics?
-  → Student requests? Popular trends?
-  → Gaps in collection? Representation?
-  → Low circulation items?
-
-Step 2: Research & Select
-  → Check review sources (SLJ, Booklist)
-  → Preview (read, skim, or reliable review)
-  → Consider: diversity, award winners, curriculum fit, student interest
-  → Balance: variety of formats, reading levels, perspectives
-
-Step 3: Process & Catalog
-  → Catalog in LMS with accurate metadata
-  → Add to appropriate location/shelving
-  → Highlight: new books display, teacher notification
-
-Step 4: Evaluate (Ongoing - CREW Method)
-  → MUSTY test: Misleading, Ugly, Superseded, Trivial, Your collection (is it used?)
-  → Pull items not circulating; damaged items; outdated content
-  → Document weeding decisions
-
-[✓ Done]: Dynamic, relevant, well-used collection
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Reluctant Reader: "I Don't Like Books"
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "A 5th-grade boy says he 'hates reading' and never checks out books. His reading level is below grade level. How can I help?"
-
-**School Librarian:**
-> **Matching Right Book to Reluctant Reader**
->
-> **Step 1: Build relationship first**
-> - Get to know him: What are you interested in? Video games? Sports? Animals? Minecraft?
-> - Don't push reading — connect first
->
-> **Step 2: Find high-interest, low-barrier options**
-> | Interest | Recommended Entry Points |
-> |----------|-------------------------|
-> | Video games | Video game guides, "Gamepedia" books, gaming magazines, "Nerd" graphic novels |
-> | Sports | Sports biographies, Guinness World Records, "Who Would Win?" series |
-> | Animals | National Geographic Kids, animal comics, "Dog Man" (animal + humor) |
-> | Humor | "Diary of a Wimpy Kid," "Captain Underpants," joke books |
-> | Visual learners | Graphic novels (they ARE reading!), manga, infographics |
->
-> **Step 3: Reduce barriers**
-> - Short books: graphic novels, comic books, magazines
-> - High pictures: photo books, visual encyclopedias
-> - Audiobooks + print: "listen and read" builds fluency
-> - "No required reading" — pleasure first, requirements later
->
-> **Step 4: Normalize reading**
-> - Share your own reading life: "I'm reading [book] right now — it's so good!"
-> - Book display: not "Best Books" but "Books [Student] Might Like"
-> - Don't track reading at first: intrinsic motivation before extrinsic
->
-> **Key insight:** Struggling readers often hate reading because it's hard. Success builds interest. Start with ANYTHING they enjoy — comics, memes, video game guides all build the reading habit.
+---
 
 ---
 
@@ -437,81 +330,9 @@ Step 4: Evaluate (Ongoing - CREW Method)
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Censorship by Weeding**
-
-```markdown
-❌ BAD: Weeding out books because of personal beliefs, political pressure, or "controversial" content
-→ Violates Library Bill of Rights
-→ Limits student access to diverse perspectives
-→ Sets precedent for future censorship
-
-✅ GOOD: Weed using CREW/MUSTY criteria only (circulation, condition, relevance, accuracy)
-→ Follow official reconsideration process for challenged materials
-→ Document why each book is added or removed
-→ "Weeding is about collection health, not content control"
-```
-
-**Anti-Pattern 2: No Diverse Representation**
-
-```markdown
-❌ BAD: Collection is 90%+ white, male, mainstream perspectives
-→ Students from underrepresented groups don't see themselves
-→ All students miss diverse perspectives
-→ Perpetuates systemic bias
-
-✅ GOOD: Audit collection annually
-→ Aim for 30%+ diverse authors/characters/subjects
-→ Purchase #OwnVoices titles
-→ Include different cultures, abilities, family structures, religions, LGBTQ+
-→ "If you only have books about one kind of child, you don't have a library for all children"
-```
-
-**Anti-Pattern 3: No Intellectual Freedom**
-
-```markdown
-❌ BAD: Restricting students to "grade-level" books only; blocking access to certain topics or authors
-→ Students shouldn't be told what to read by the state/librarian/parent
-→ This is censorship
-→ Students learn to distrust the library
-
-✅ GOOD: Open access (students choose their own books)
-→ If concerned, discuss with student privately
-→ Offer guidance, not restrictions
-→ "Your library card is your key to all ideas"
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: No Assessment**
-
-```markdown
-❌ BAD: Operating without data: no circulation stats, no program evaluation, no feedback
-→ Can't prove library value
-→ Vulnerable to budget cuts
-→ Can't improve what you don't measure
-
-✅ GOOD: Track everything: circulation, program attendance, database usage, assessment results
-→ Share with administration and school board
-→ Annual report with data stories
-→ "What gets measured gets valued"
-```
-
-**Anti-Pattern 5: Siloed Library**
-
-```markdown
-❌ BAD: Library operates independently; no relationship with classroom teachers
-→ Missed integration opportunities
-→ Librarian seen as "book person" not learning partner
-→ Students get fragmented experience
-
-✅ GOOD: Proactively partner with teachers
-→ Offer to co-teach research units
-→ Align collection with curriculum
-→ Be visible: attend faculty meetings, share resources
-→ "The library is not a place apart — it's the heart of the school"
-```
+---
 
 ---
 

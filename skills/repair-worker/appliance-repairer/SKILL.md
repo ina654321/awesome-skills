@@ -171,221 +171,33 @@ safety hazards without proper training and equipment.
 
 ## § 7 · Standards & Reference
 
-### 7.1 Diagnostic Flowcharts
+See [references/07-standards.md](references/07-standards.md)
 
-| Appliance | Common Symptoms | Diagnostic Path |
-|-----------|-----------------|------------------|
-| **Refrigerator** | Not cooling | 1. Check power → 2. Thermostat setting → 3. Condenser coils → 4. Evaporator fan → 5. Compressor → 6. Sealed system |
-| **Washer** | Won't drain | 1. Lid switch → 2. Drain hose clogged → 3. Pump → 4. Control board |
-| **Washer** | Vibrates excessively | 1. Level legs → 2. Load distribution → 3. Shock absorbers → 4. Tub bearing |
-| **Dryer** | Not heating | 1. Power (240V) → 2. Thermal fuse → 3. Heating element → 4. Thermostat → 5. Control board |
-| **Oven** | Not heating | 1. Power → 2. Bake element visual → 3. Igniter (gas)
-| **Dishwasher** | Won't drain | 1. Filter → 2. Drain hose → 3. Pump → 4. Air gap |
-
-### 7.2 Common Failure Patterns by Brand
-
-| Brand | Common Issues |
-|-------|---------------|
-| **Whirlpool** | Washer drain pump failures, refrigerator ice maker issues |
-| **Samsung** | Refrigerator evaporator fan, washer control boards, dryer heating elements |
-| **LG** | Washer tub bearings, refrigerator compressor, dryer thermostat |
-| **GE** | Refrigerator defrost issues, washer transmission, oven igniters |
-| **Maytag** | Washer agitator dogs, refrigerator compressors, dryer belts |
-| **Frigidaire** | Refrigerator sealed systems, dishwasher pumps, range igniters |
-
-### 7.3 Service Call Pricing Reference
-
-| Service | Typical Range | Notes |
-|---------|---------------|-------|
-| Diagnosis fee | $75-150 | Often waived if repair approved |
-| Minor repair | $150-300 | Belt, switch, fuse, thermostat |
-| Major repair | $300-600 | Motor, pump, control board, sealed system |
-| Sealed system | $400-800 | Compressor, refrigerant, labor |
-| Installation | $100-250 | Delivery, old removal, installation |
+---
 
 ---
 
 ## § 8 · Standard Workflow
 
-### 8.1 Complete Diagnostic Protocol
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Customer Interview
-├── Identify appliance: Brand, model, serial number, age
-├── Document symptoms: What happened? When? How often?
-├── Ask about recent events: Power surge, move, modifications
-├── Check if manual available: Model number helps diagnosis
-└── Quote diagnostic fee and expected timeline
-
-Phase 2: Visual Inspection
-├── Check power: Outlet, cord, circuit breaker
-├── Look for obvious: Burns, leaks, physical damage
-├── Check installation: Level, clearance, connections
-├── Document current settings: Temperature, cycles, options
-└── Note serial/model: Parts ordering depends on this
-
-Phase 3: Functional Testing
-├── Run diagnostic cycle if available
-├── Test each function systematically
-├── Listen for unusual: Hums, clicks, grinding, screeching
-├── Measure: Temperatures, pressures, electrical values
-└── Isolate: Which component is the root cause?
-
-Phase 4: Repair Recommendation
-├── Explain root cause in customer terms
-├── Present options: Repair vs. replace with costs
-├── Factor in age, efficiency, warranty on repair
-├── Get customer approval before proceeding
-└── Schedule if parts needed
-```
-
-### 8.2 Refrigerator Service Protocol
-
-```
-Step 1: Safety & Access
-- Unplug refrigerator
-- Remove items from freezer/refrigerator sections
-- Pull out from wall; ensure ventilation
-
-Step 2: Visual & Operational Check
-- Verify power: Lights, display working
-- Check condenser coils: Dirty = poor cooling
-- Listen to compressor: Should run steadily, no clicking
-- Check evaporator fan: Should run when compressor runs
-- Test ice maker: If equipped
-
-Step 3: Temperature Measurement
-- Place thermometers in fridge and freezer
-- Wait 30 minutes for stabilized reading
-- Fridge should be 33-40°F
-- Freezer should be 0-5°F
-
-Step 4: Component Testing
-- Test defrost heater: Ohm out or use multimeter
-- Test defrost thermostat: Should be closed at room temp
-- Test fan motors: Should run freely, no noise
-- Test compressor: Requires advanced diagnostics
-
-Step 5: Repair or Refer
-- Clean coils: Simple, $0 parts, often fixes issues
-- Replace thermostat: $50-150, common fix
-- Replace fan: $100-200, moderate difficulty
-- Sealed system repair: $500+, consider replacement
-
-Step 6: Final Verification
-- Restore power
-- Monitor temperatures for 1 hour
-- Verify ice maker cycles
-- Level refrigerator
-- Clean up work area
-```
+---
 
 ---
 
 ## § 9 · Scenario Examples
 
-### 9.1 Refrigerator Not Cooling
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "My refrigerator stopped cooling yesterday. The lights still work but everything is getting warm. It's about 8 years old."
-
-**Appliance Tech:**
-> **Diagnostic Assessment:**
->
-> Good information — lights working means it's getting power. At 8 years old, this could be several things:
->
-> | Possible Cause | Likelihood | Fix Complexity |
-> |---------------|-----------|----------------|
-> | Condenser coils dirty | Medium | Easy, $0 |
-> | Evaporator fan failed | Medium | Moderate, $100-150 |
-> | Defrost system failed | Medium | Moderate, $100-200 |
-> | Compressor issue | Low | Expensive, $500+ |
-> | Control board | Low | Moderate, $200-400 |
->
-> **Diagnostic process:**
-> 1. Check condenser coils — if dirty, clean them; often restores cooling
-> 2. Listen — do you hear the compressor running? A clicking sound might mean start relay
-> 3. Feel the back — should be warm. If cold, not pumping refrigerant
->
-> **My recommendation:** Have a technician diagnose in person. If it's coils or fan, cheap fix. If compressor/sealed system, you may want to consider replacement given the age.
->
-> **Question:** Can you tell me the brand and model number? Some brands have known failure patterns I can look for.
-
-### 9.2 Washer Leaking
-
-**User:** "My front-load washer is leaking water onto the floor. It only happens during the spin cycle."
-
-**Appliance Tech:**
-> **Leak Diagnosis:**
->
-> Spin cycle leaks usually come from a few places. Let's narrow it down:
->
-> | Leak Source | Check Method | Common Fix |
-> |-------------|--------------|------------|
-> | Door boot (gasket) | Inspect for tears, debris | Clean or replace gasket |
-> | Drain pump | Look for water around pump | Replace pump seal |
-> | Inlet valve | Leak during fill | Replace valve |
-> | Tub crack | Check tub for cracks | Replace tub (often = replace washer) |
-> | Drain hose | Check hose connections | Tighten or replace hose |
->
-> **Questions to help diagnose:**
-> 1. Where exactly is the leak? Front (door), back, or underneath?
-> 2. Is it every load or just heavy loads?
-> 3. Have you checked the door gasket? Sometimes coins or debris get stuck
->
-> **Quick fix to try:** Pull the door gasket (rubber ring) open and check for coins, hair, or debris. This is the most common cause and easy to clean yourself. Also check that the drain hose is properly seated.
-
-### 9.3 Dryer Not Heating
-
-**User:** "My dryer runs but doesn't heat. Clothes take forever to dry. It's an electric dryer, about 6 years old."
-
-**Appliance Tech:**
-> **No-Heat Diagnostic:**
->
-> Electric dryers have several components that must work together. Here's the diagnostic path:
->
-> | Component | Test Method | Typical Cost |
-> |-----------|-------------|-------------|
-> | Thermal fuse | Continuity test | $20-30 |
-> | Heating element | Ohm test | $40-80 |
-> | Cycling thermostat | Continuity at temp | $20-30 |
-> | Timer/control board | Voltage test | $100-250 |
-> | Power (240V) | Check both legs | — |
->
-> **Safety first:** Unplug before testing!
->
-> **Most common causes:**
-> 1. **Thermal fuse** — 60% of no-heat calls. Simple test with multimeter.
-> 2. **Heating element** — Burns out over time. Visible damage usually.
-> 3. **Cycling thermostat** — Fails open, no heat cycle.
->
-> **Do NOT run dryer without heating** — lint builds up faster and creates fire hazard.
->
-> **My recommendation:** This is a test-and-part replacement scenario. I can walk you through testing the thermal fuse if you have a multimeter, or schedule a service call. Expect $100-200 for the fix.
+---
 
 ---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|----------|
-| 1 | Guessing without testing | 🔴 High | Use multimeter; test components properly; don't replace parts based on hunch |
-| 2 | Skipping safety checks | 🔴 High | Always verify power off; check gas connections; test for leaks |
-| 3 | Recommending replacement for simple fix | 🟡 Medium | Don't oversell; a $30 part fix is better than $800 replacement |
-| 4 | Not checking power first | 🟡 Medium | Many "dead" appliances have tripped breakers or lost power |
-| 5 | Forgetting to level | 🟡 Medium | Unlevel washer = vibration, noise, premature failure |
-| 6 | Not cleaning on service call | 🟢 Low | Clean coils, filters while you're there; customer appreciates it |
-| 7 | Leaving without testing | 🟢 Low | Always run appliance through a cycle before leaving |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ Customer says "it's dead" → Order control board
-✅ Test power at outlet, test cord, test internal connections first
-
-❌ Replace part without testing first
-✅ Test old part to confirm it's bad; saves returns and customer money
-
-❌ Leave appliance where you found it
-✅ Level, clean, demonstrate — leave better than found
-```
+---
 
 ---
 

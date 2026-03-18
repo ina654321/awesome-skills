@@ -166,136 +166,25 @@ COMMUNICATION STYLE:
 
 ## § 7 · Standards & Reference
 
-### 7.1 Diplomatic Protocol
+See [references/07-standards.md](references/07-standards.md)
 
-| Event | Precedence | Protocol Elements |
-|-------|-------------|-------------------|
-| **State Visit** | Highest | Red carpet, military honors, state dinner, bilateral meeting |
-| **Official Visit** | High | Full honors, working sessions, press conference |
-| **Working Visit** | Medium | Limited ceremony, focused agenda |
-| **Transit Stop** | Low | No ceremonial, brief courtesy call |
-
-### 7.2 Diplomatic Immunity Levels
-
-| Category | Immunity | Limitations |
-|----------|-----------|-------------|
-| **Ambassador** | Absolute (personal) | Can be declared persona non grata |
-| **Diplomatic Staff** | Functional | Criminal immunity only for official acts |
-| **Administrative Staff** | Functional | Same as above |
-| **Service Staff** | Functional | Limited criminal immunity |
-| **Honorary Consul** | Functional only | In host country acts only |
-
-### 7.3 Negotiation Approaches
-
-| Approach | When Used | Key Technique |
-|----------|-----------|---------------|
-| **Positional** | Simple, single-issue | Hard bargaining, concessions |
-| **Interest-Based** | Complex, multi-issue | Identify underlying interests |
-| **Transformative** | Long-term relationships | Focus on relationship quality |
-| **Mediated** | Stalled, high stakes | Third-party facilitator |
-| **Shuttle** | Direct talks impossible | Back-channel intermediary |
+---
 
 ---
 
 ## § 8 · Standard Workflow
 
-### 8.1 Bilateral Negotiation
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Preparation
-├── Identify national interest objectives
-├── Research counterpart: decision-makers, interests, constraints
-├── Develop walking points/agenda
-├── Determine authority level: explore vs. conclude
-├── Brief inter-agency: coordinate with capitals
-└── Establish communication channel
-
-Phase 2: Opening
-├── Set tone: constructive, respectful
-├── Establish agenda: procedural matters first
-├── Understand positions: what are they asking for?
-├── Explore interests: why do they want this?
-└── Manage environment: secure, private
-
-Phase 3: Substantive
-├── Present opening position
-├── Clarify through questions
-├── Generate options for mutual gain
-├── Identify ZOPA
-├── Make concessions strategically
-└── Close and document
-
-Phase 4: Implementation
-├── Draft agreement language
-├── Legal review
-├── Signatory authority
-├── Internal ratification
-└── Follow-up mechanism
-```
-
-### 8.2 Crisis Response
-
-```
-Step 1: Assessment
-├── Gather facts: what happened, who involved
-├── Determine national interests at stake
-├── Evaluate immediate risks
-└── Identify stakeholders
-
-Step 2: Immediate Actions
-├── Secure personnel and facilities
-├── Contact counterpart government
-├── Prepare initial public statement
-└── Brief headquarters
-
-Step 3: Response Options
-├── Diplomatic protest
-├── Public statement
-├── Recall of ambassador (temporary)
-├── Sanctions or countermeasures
-└── International organization appeal
-
-Step 4: De-escalation
-├── Back-channel communications
-├── Face-saving exit
-├── Agreement on future conduct
-└── Normalization steps
-```
+---
 
 ---
 
 ## § 9 · Scenario Examples
 
-### Scenario A: Trade Negotiation
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "You're negotiating a bilateral trade agreement. Counterpart is demanding tariff reductions on agricultural products - a politically sensitive sector domestically. They've offered improved market access on services. How do you proceed?"
-
-**Diplomat:**
-> **Interest Analysis:**
-> 
-> | Your Interests | Their Interests |
-> |----------------|------------------|
-> | Protect domestic farmers | Export agricultural products |
-> | Services sector expansion | Access your market |
-> | Political sustainability | Political victory on agriculture |
-> | Long-term relationship | Favorable deal for constituents |
->
-> **Negotiation Strategy:**
-> - **Linkage**: Services access tied to agricultural compromise
-> - **Gradualism**: Phased tariff reduction over time
-> - **Compensation**: Transition assistance for affected farmers
-> - **Face-saving**: Both sides claim victory
->
-> **Tactical Approach:**
-> 1. "We understand agriculture is sensitive to your leadership"
-> 2. "We can discuss phased approach if services market opens"
-> 3. "Let's find package both cabinets can accept"
-> 4. "What would you need to make this work domestically?"
->
-> **Agreement Structure:**
-> - Year 1-2: Modest tariff reduction on select products
-> - Year 3-5: Broader reduction tied to services benchmarks
-> - Both sides: Domestic political cover mechanisms
+---
 
 ---
 
@@ -372,21 +261,9 @@ Step 4: De-escalation
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Public Threats** | 🔴 High | Never threaten publicly; use private channels |
-| 2 | **Personal Animus** | 🟡 High | Don't let feelings affect professional judgment |
-| 3 | **Over-Commitment** | 🔴 High | Don't agree beyond your authority |
-| 4 | **Cultural Blindness** | 🟡 High | Research before every meeting |
-| 5 | **Leaking to Press** | 🟡 Medium | Never; undermines trust completely |
-| 6 | **Ignoring Domestic Politics** | 🟡 Medium | Their constraints are real; account for them |
-| 7 | **Bilateral Fixation** | 🟢 Low | Consider multilateral dimensions |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "If you don't agree to our terms, we will impose sanctions publicly"
-✅ "We prefer to find common ground. What would make an agreement
-   possible for your side? Let's explore options."
-```
+---
 
 ---
 

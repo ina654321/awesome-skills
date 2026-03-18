@@ -182,120 +182,25 @@ DVP&R → VALIDATION → HOMOLOGATION
 
 ## § 7 Standards & Reference
 
-### NCAP Scoring Framework (Euro NCAP 2026 Protocol)
-| Category | Weight | 5-Star Minimum | Key Tests |
-|----------|--------|----------------|-----------|
-| Adult Occupant | 25% | ≥ 75% | Frontal MDB 50 km/h, Full Width 50 km/h, Far Side, Side Pole |
-| Child Occupant | 25% | ≥ 75% | 6YO + 10YO in rear, child restraint systems |
-| Vulnerable Road Users | 25% | ≥ 75% | Pedestrian head, pelvis, leg; cyclist, motorcycle |
-| Safety Assist | 25% | ≥ 70% | AEB pedestrian/cyclist/car, LDW, ESC, speed assistance |
+See [references/07-standards.md](references/07-standards.md)
 
-### Structural Performance Targets (Mid-Size SUV Reference)
-| Parameter | Target | Critical Limit |
-|-----------|--------|---------------|
-| Global torsional stiffness (BIW) | > 20,000 Nm/° | > 15,000 Nm/° |
-| Global bending stiffness | > 12,000 N/mm | > 9,000 N/mm |
-| First body mode (BIW) | > 35 Hz | > 30 Hz |
-| A-pillar intrusion (frontal 56 km/h ODB) | < 80 mm | < 120 mm |
-| B-pillar intrusion (side MDB 50 km/h) | < 50 mm at hip | < 80 mm |
-| Doorframe survival space (side pole) | Survival space maintained | Deformation < 200mm |
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Concept Design
-```
-1.1 Package Definition
-  - [ ] Define vehicle exterior dimensions (L×W×H, wheelbase, overhang)
-  - [ ] Locate H-point (hip point), eye ellipse, seating reference points for all seats
-  - [ ] Allocate hard points: engine/motor, battery, suspension pickups, ADAS sensors
-  - [ ] Confirm regulatory keep-out zones (pedestrian protection, 30° forward visibility)
-  - [✓ Done] Output: Vehicle Package Drawing (side + plan + front/rear cross-sections)
-  - [✗ FAIL] If H-point exceeds regulatory limits → adjust seating position before proceeding
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Structural Concept
-  - [ ] Define BIW structural topology: load paths for frontal/side/rear crash
-  - [ ] Select material strategy: AHSS (Advanced High-Strength Steel), aluminum, CFRP
-  - [ ] Estimate structural mass (parametric model: ~300-400 kg for mid-size sedan BIW)
-  - [✓ Done] Output: BIW Structural Concept with load path description and mass estimate
-  - [✗ FAIL] If BIW mass > budget + 15% at concept → initiate topology optimization study
-```
-
-### Phase 2: Engineering Design
-```
-2.1 BIW Structural Design
-  - [ ] Design A-pillar, B-pillar, rocker sections (geometry + thickness + material)
-  - [ ] Design front crash box + front rail for frontal crash energy absorption
-  - [ ] Design floor cross-member for side crash intrusion management
-  - [ ] Run crash FEA at concept sections; verify within ±15% of targets
-  - [✓ Done] Output: BIW CAD model v1.0 with crash simulation correlation
-
-2.2 Chassis & Suspension Design
-  - [ ] Design suspension kinematics (KnC - Kinematics and Compliance targets)
-  - [ ] Size spring rates, damper characteristics, anti-roll bar stiffness
-  - [ ] Verify ride comfort (vertical acceleration PSD at driver H-point < 0.05 m²/s³)
-  - [✓ Done] Output: Suspension Design Specification with K&C data
-
-2.3 Powertrain & BEV Battery Integration
-  - [ ] Package powertrain within allocated envelope; verify clearances at full jounce
-  - [ ] Design battery box within BIW floor structure; verify ECE R100 Rev 3 compliance
-  - [ ] Design battery thermal management routing; verify ingress protection (IP67 minimum)
-  - [✓ Done] Output: Powertrain Integration Drawing with thermal management scheme
-```
-
-### Phase 3: Validation & Homologation
-```
-3.1 DVP&R Execution
-  - [ ] Execute crash test program (ECE R94/R95 + NCAP protocol)
-  - [ ] Execute durability test (300,000 km simulation on proving ground)
-  - [ ] Execute NVH test (interior noise targets at cruise and acceleration)
-  - [✓ Done] Output: DVP&R completed; all tests pass; ready for type approval
-
-3.2 Homologation
-  - [ ] Submit technical documentation to testing authority (TÜV, DEKRA, etc.)
-  - [ ] Attend crash witness testing; submit conformity documentation
-  - [✓ Done] Output: EC Type Approval (ECWVTA) or national equivalents
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: BEV Platform ADAS Sensor Integration
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: We're integrating a LiDAR on the roof for Level 3 autonomy. The styling team wants it flush with the roofline. What are the engineering constraints?
-
-**Expert**:
-> **Roof-mounted LiDAR integration is a classic styling vs. engineering conflict.** Here are the constraints:
->
-> **1. LiDAR FOV Requirements** (typical Level 3 requirements):
-> ```
-> 360° horizontal FOV (mechanical or solid-state array)
-> Vertical FOV: +15° to -25° (must see ground at ~10m in front)
-> Range: 200m for highway L3 (PCNDFs moving @ 130 km/h)
->
-> For the vertical FOV to work flush with roofline:
->   At roof height H = 1.5m, ground 10m ahead requires:
->   Depression angle = arctan(1.5/10) = 8.5°
->   → Needs sensor positioned to see 8.5° downward → needs to protrude above roofline
->   or sensor tilted (but this creates aerodynamic issue with flush design)
-> ```
->
-> **2. Structural Integration Constraints**:
-> - Roof panel is typically 0.6mm AHSS — adding LiDAR (2-5 kg) requires local reinforcement
-> - Roof stiffness target (bowing resonance > 50 Hz) must be maintained after cutout
-> - Any roof cutout affects rollover protection; FMVSS 216a roof crush test must be re-run
->
-> **3. Wiring & Connector**:
-> - LiDAR power and data connector must route through A-pillar or B-pillar without sharp bends
-> - IP67 sealing required for roof penetration; consider drain channel for water management
->
-> **4. Aerodynamics Impact**:
-> - A 40mm protrusion above roofline adds ~0.5 counts to Cd (≈ +0.5% range loss on BEV)
-> - Flush integration saves aero but requires tilted mounting or periscope optics arrangement
->
-> **Recommendation**: For Level 3 highway autonomy, a 40-50mm protrusion with flush cover panel when not in use (retractable) provides best FOV performance with acceptable aero impact. Full flush integration requires custom optics arrangement that currently adds cost and complexity. Align with styling on a "performance flush" design that optimizes both aesthetics and FOV without full protrusion.
+---
 
 ---
 
@@ -383,21 +288,9 @@ DVP&R → VALIDATION → HOMOLOGATION
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Styling Sign-Off Before Engineering Hard Points
-**❌ BAD**: Design studio locks exterior styling without engineering hard points defined
-**✅ GOOD**: Engineering hard points must be approved before styling development begins:
-```
-Critical hard points that lock before styling:
-  ✓ Front crash structure (crumple zone minimum length: 400-500mm)
-  ✓ Side structure (rocker height, B-pillar width minimum)
-  ✓ Pedestrian protection zone (hood leading edge height, grille keep-out)
-  ✓ ADAS sensor mounting positions (with FOV envelopes)
-  ✓ H-point and roof height (regulatory sight lines)
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-Common mistake: styling sets hood line at 750mm above ground → fails pedestrian
-protection ECE R127 (head form drop angle requirement) → styling change needed
-at design freeze (2 years into program, $50M tooling investment at risk)
-```
+---
 
 ---
 

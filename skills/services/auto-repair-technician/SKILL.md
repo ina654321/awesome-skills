@@ -175,228 +175,33 @@ of caution. Never release a vehicle you're not confident is safe to drive.
 
 ## § 7 · Standards & Reference
 
-### 7.1 Common Diagnostic Codes (OBD-II)
+See [references/07-standards.md](references/07-standards.md)
 
-| Code | Likely Cause | Diagnostic Path |
-|------|--------------|------------------|
-| P0300 | Random misfire | Check plugs, coils, fuel injectors, vacuum leaks |
-| P0301-P0312 | Specific cylinder misfire | Check that cylinder's plug, coil, injector |
-| P0420 | Catalytic converter efficiency | Test O2 sensors, check for rich/lean conditions |
-| P0442 | Evap small leak | Smoke test, check gas cap, purge valve |
-| P0171 | System too lean | Check MAF, vacuum leaks, fuel pressure |
-| P0172 | System too rich | Check injectors, coolant temp sensor, fuel pressure |
-| P0715 | Input/turbine speed sensor | Check sensor, wiring, TCM |
-| P0500 | Vehicle speed sensor | Check sensor, wiring, ABS module |
-
-### 7.2 Maintenance Intervals
-
-| Service | Typical Interval | Notes |
-|---------|-----------------|-------|
-| Oil change | 5,000-7,500 miles | Check手册 for exact |
-| Tire rotation | 5,000-7,500 miles | With oil change |
-| Brake inspection | Every oil change | Check pad life, rotor condition |
-| Air filter | 15,000-30,000 miles | Check more often in dusty conditions |
-| Transmission fluid | 30,000-60,000 miles | Some are lifetime; check手册 |
-| Coolant flush | 30,000 miles or 2 years | Follow手册 |
-| Spark plugs | 30,000-100,000 miles | Check手册; some extended life |
-| Timing belt | 60,000-100,000 miles | Check手册; if breaks, engine damage |
-
-### 7.3 Pricing Reference
-
-| Service | Typical Range | Notes |
-|---------|---------------|-------|
-| Oil change | $40-80 | Synthetic costs more |
-| Brake pads (axle) | $150-300 per axle | Includes labor, may need rotors |
-| Brake rotor replacement | $200-400 per axle | Often done with pads |
-| Battery | $150-250 | Includes旧电池回收 |
-| Alternator | $300-600 | Includes labor |
-| Starter | $250-500 | Includes labor |
-| Water pump | $300-600 | Often with timing belt |
-| AC recharge | $100-150 | Includes refrigerant |
-| Alignment | $75-150 | Front or 4-wheel |
-| Diagnostic fee | $75-150 | Often waived with repair |
+---
 
 ---
 
 ## § 8 · Standard Workflow
 
-### 8.1 Complete Diagnostic Process
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Customer Interview
-├── Get symptom description: What's happening? When? How often?
-├── Ask conditions: Cold/hot, idle/driving, loaded/unloaded
-├── Get history: When did it start? After what event?
-├── Check maintenance: Recent work, known deferred maintenance
-└── Verify concern: Have customer demonstrate if possible
-
-Phase 2: Visual Inspection
-├── Check under hood: Leaks, damage, loose connections
-├── Check fluids: Oil, coolant, brake fluid, transmission fluid
-├── Check lights: Headlights, brake lights, check engine
-├── Check tires: Wear patterns, pressure, age
-└── Check belts/hoses: Cracks, leaks, tension
-
-Phase 3: Retrieve Codes & Data
-├── Connect scan tool: Read all codes, even cleared ones
-├── Record freeze frame: What were conditions when code set?
-├── Check mode $06: Monitor test results
-├── Check mode $07: Pending codes
-└── Live data: Compare sensor readings to specs
-
-Phase 4: Pinpoint Testing
-├── Follow diagnostic procedure for code/symptom
-├── Test components: Use proper procedures
-├── Isolate cause: Rule in/out possibilities
-├── Verify finding: Does this explain the symptom?
-└── Form repair plan: Parts, labor, time
-
-Phase 5: Repair & Verify
-├── Repair according to OEM procedures
-├── Use proper tools: Torque wrenches, procedures
-├── Clear codes: After repair complete
-├── Test drive: Verify fix works under various conditions
-└── Re-check codes: Make sure nothing else is present
-```
-
-### 8.2 Brake Repair Protocol
-
-```
-Step 1: Inspection
-- Raise vehicle, remove wheels
-- Measure rotor thickness: Compare to minimum spec
-- Inspect pads: Visual, measure remaining material
-- Check calipers: Slide freely? Boot torn?
-- Check hardware: All present, not worn
-- Check brake lines: No leaks, no damage
-
-Step 2: Assessment
-- Determine: Pads only? Pads + rotors? Calipers?
-- Check for scoring, heat spots, warpage
-- Check wear indicators: Are they close to metal?
-
-Step 3: Repair
-- Compress pistons: Use proper tool, don't damage boot
-- Install new pads: Use proper hardware, anti-squeal compound if needed
-- Install rotors: Clean hub surface; don't touch with bare hands
-- Install wheels: Torque to spec in star pattern
-
-Step 4: Final Steps
-- Pump pedal: Build pressure before driving
-- Test drive: Multiple stops from various speeds
-- Check: Pedal feel, no vibration, no noise
-- Document: What was replaced, measurements taken
-```
+---
 
 ---
 
 ## § 9 · Scenario Examples
 
-### 9.1 Check Engine Light Diagnostic
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "My check engine light came on yesterday. The car seems to run fine but I'm worried. It's a 2018 Honda Civic with 45,000 miles."
-
-**Auto Tech:**
-> **Check Engine Light Assessment:**
->
-> Good news: If it's running fine, it's likely not an emergency. But let's find out what's causing the light.
->
-> | Question | Answer | What It Tells Us |
-> |----------|--------|------------------|
-> | Light flashing or steady? | Steady | Not misfiring badly; less urgent |
-> | Any symptoms? | None | Could be emissions-related |
-> | Recent work? | No | Not from recent repair |
-> | Fuel economy changed? | Maybe slightly | Could be sensor or efficiency issue |
->
-> **Next steps:**
-> 1. **Get codes**: Need to scan to see what triggered the light
-> 2. **Freeze frame**: What were conditions when it set?
-> 3. **Common causes** at 45k miles: O2 sensor, gas cap, EVAP issues
->
-> **Recommendation:** Come in for a free code read. If it's something simple like a loose gas cap, you don't even need a repair. If it's more serious, we'll know before it becomes a bigger problem.
->
-> **What NOT to do:** Don't ignore it. Some issues (catalytic converter) get worse and more expensive the longer you wait.
-
-### 9.2 Strange Noise Diagnosis
-
-**User:** "When I brake, I hear a grinding noise. It gets worse when I press the brake hard. 2015 Toyota Camry, 80,000 miles."
-
-**Auto Tech:**
-> **Brake Noise Assessment:**
->
-> Grinding when braking is almost always the brake pads wearing to the metal. This is a safety concern — let's get you in ASAP.
->
-> | Symptom | Likely Cause | Urgency |
-> |---------|--------------|--------|
-> | Grinding on braking | Pads worn to metal | High — stop driving |
-> | Only when hard braking | Warped rotor + worn pads | High |
-> | Noise all the time | Wheel bearing or other | Medium |
->
-> **What's happening:** Your brake pads likely have the wear indicators contacting the rotor. This is literally metal-on-metal.
->
-> **Risks if ignored:**
-> - Rotor damage: $200-400 more in repairs
-> - Longer stopping distance: Safety risk
-> - Possible complete brake failure: Extreme but possible
->
-> **My recommendation:** Stop driving it if the grinding is loud. Come in today or tomorrow. We'll need:
-> - New brake pads (probably front axle based on typical wear)
-> - Resurface or replace rotors (depends on damage)
-> - Full brake inspection
->
-> **Cost estimate:** $250-450 depending on rotor condition. Better to fix now than risk the rotor being destroyed.
-
-### 9.3 Maintenance Recommendation
-
-**User:** "I just bought a used 2016 Ford F-150 with 90,000 miles. The dealer didn't do any service. What do I need?"
-
-**Auto Tech:**
-> **Used Vehicle Maintenance Assessment:**
->
-> Congratulations on the new truck! With unknown history, let's prioritize what's critical:
->
-> | Priority | Service | Why |
-> |----------|---------|-----|
-> | **Immediate** | Oil change | Don't know when last done |
-> | **Immediate** | Brake inspection | Safety critical |
-> | **High** | Transmission fluid | If not done, can cause failure |
-> | **High** | Coolant | Flush if unknown |
-> | **Medium** | Air filter | Cheap, affects performance |
-> | **Medium** | Spark plugs | If never done, can cause misfires |
-> | **Medium** | Tires | Check age, wear, pressure |
-> | **Lower** | Cabin air filter | Comfort item |
->
-> **Also check:**
-> - **Timing belt**: If 90K and hasn't been done, might be due soon (check手册)
-> - **Serpentine belt**: Look for cracks, replace if worn
-> - **Wheel bearing**: Listen for noise at highway speeds
->
-> **My suggestion:** Come in for a full inspection. We'll check everything and give you a prioritized list of what needs attention now vs. what can wait. This is the smartest way to approach unknown-history vehicles.
+---
 
 ---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|----------|
-| 1 | Parts cannon approach | 🔴 High | Don't replace parts until diagnosed; guessing wastes money |
-| 2 | Skip safety inspection | 🔴 High | Check brakes, tires, lights on every visit; it's your reputation |
-| 3 | Miss basic things first | 🟡 Medium | Check fluid levels, simple things before complex diagnostics |
-| 4 | Don't explain in customer terms | 🟡 Medium | Use plain English; show the old part |
-| 5 | Skip test drives | 🟡 Medium | Always test drive — you might find something customer didn't mention |
-| 6 | Forget to check TSBs | 🟡 Medium | A TSB might solve the problem for free |
-| 7 | Leave vehicle dirty | 🟢 Low | Clean up after yourself; it's professional |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ Code P0420 → Replace catalytic converter
-✅ First check O2 sensors, fuel trims, intake leaks — converter might be fine
-
-❌ Customer says "just do an oil change" → Only do oil change
-✅ At minimum, do a visual inspection; you might catch something important
-
-❌ Don't document what you found
-✅ Write it down; protects you if customer comes back claiming you missed something
-```
+---
 
 ---
 

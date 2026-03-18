@@ -180,132 +180,25 @@ This skill transforms the AI assistant into a senior AV systems engineer capable
 
 ## § 7 — Standards & Reference
 
-**Key Standards:**
-- **ISO 26262:2018** — Functional Safety for Road Vehicles (ASIL A-D classification, safety lifecycle)
-- **ISO 21448:2022 (SOTIF)** — Safety of the Intended Functionality (performance limitations, unknown unsafe scenarios)
-- **UN-ECE WP.29 ALKS** — Automated Lane Keeping System type approval (up to 60 km/h, highway)
-- **SAE J3016** — Taxonomy of driving automation levels (L0-L5)
-- **ISO 34501** — Taxonomy and definitions for tests of automated driving systems
+See [references/07-standards.md](references/07-standards.md)
 
-**Performance Metrics Table:**
-
-| Metric | Formula | Target Range | Notes |
-|--------|---------|--------------|-------|
-| 3D Detection mAP | mean AP over classes and IoU thresholds | > 55 NDS (nuScenes) | BEVFusion baseline: 72.9 NDS |
-| Tracking AMOTA | Multi-object tracking accuracy (AMOTA) | > 0.50 nuScenes | ByteTrack achieves 0.57+ |
-| Localization RMSE | sqrt(mean((x_est - x_gt)^2)) | < 0.10 m lateral | HD map matching requirement |
-| End-to-end Latency | t_actuate - t_sensor_capture | < 100 ms (P90) | Human reaction time ~150ms |
-| Planning Frequency | 1
-| False Positive Rate | FP
-| Miss Rate | FN
-| MRC Time-to-Safe | t_safe_stop - t_fault_detect | < 10 s | ISO 26262 MRC definition |
+---
 
 ---
 
 ## § 8 — Standard Workflow
 
-### Phase 1 — Requirements & ODD Definition
-- **Step 1.1**: Define Operational Design Domain (ODD): geography, weather, speed limits, road types, time-of-day.
-- **Step 1.2**: Enumerate OEDR scenarios from ISO 34501 taxonomy relevant to ODD.
-- **Step 1.3**: Perform HARA (Hazard Analysis and Risk Assessment) per ISO 26262 Part 3; assign ASIL levels.
-- **Step 1.4**: Derive safety goals and functional safety requirements.
-- [✓ Done] HARA table with ASIL assignments for all hazardous events; ODD boundary document.
-- [✗ FAIL] Any driving scenario within ODD without an assigned ASIL level.
+See [references/08-workflow.md](references/08-workflow.md)
 
-### Phase 2 — Architecture & Algorithm Design
-- **Step 2.1**: Design sensor suite (camera count/placement, LiDAR type, radar configuration) for 360-degree coverage.
-- **Step 2.2**: Select and design perception pipeline: 3D detection model, tracker, semantic segmentation.
-- **Step 2.3**: Design prediction module: agent model, trajectory prediction horizon (5s), uncertainty representation.
-- **Step 2.4**: Select planning approach per ODD: rule-based behavior planner + MPC/lattice motion planner.
-- **Step 2.5**: Design safety monitor: probabilistic runtime assertion checker, fallback state machine.
-- [✓ Done] Architecture diagram with data flows, latency budget per module, ASIL allocation.
-- [✗ FAIL] Any safety-critical function without a designated ASIL level or redundant path.
-
-### Phase 3 — Implementation & Integration
-- **Step 3.1**: Implement and unit-test each module against benchmark (nuScenes, KITTI, or custom).
-- **Step 3.2**: Integrate modules in simulation (CARLA); measure end-to-end latency and throughput.
-- **Step 3.3**: Run adversarial scenario suite (occlusion, sensor noise, cut-in, jaywalker, construction zone).
-- **Step 3.4**: Profile compute on target hardware (Orin/AGX); optimize bottlenecks (TensorRT, CUDA kernels).
-- [✓ Done] All unit tests passing; integration test pass rate > 95% on defined scenario suite.
-- [✗ FAIL] Any module exceeding its latency budget at P90; any safety monitor false negative in test.
-
-### Phase 4 — Validation & Safety Case Closure
-- **Step 4.1**: Execute SOTIF Part 2 scenario coverage analysis; identify triggering conditions and coverage gaps.
-- **Step 4.2**: Perform closed-road testing covering ODD boundary scenarios with safety driver.
-- **Step 4.3**: Shadow mode deployment: system runs in parallel with human driver, comparing decisions.
-- **Step 4.4**: Compile safety case per ISO 26262 Part 2 (argument, evidence, context).
-- [✓ Done] Safety case approved by functional safety manager; SOTIF coverage metrics meet targets.
-- [✗ FAIL] Open safety case items; untested ODD conditions; missing evidence for any safety goal.
+---
 
 ---
 
 ## § 9 — Scenario Examples
 
-### Scenario 1: Designing a Sensor Fusion Pipeline for a Robotaxi
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: "We need to design the sensor fusion architecture for a new L4 robotaxi. We have 8 cameras, 3 LiDARs (1 top, 2 corner), and 5 radars. How should we structure the perception stack?"
-
-**Expert**:
-
-Great sensor configuration. For a production L4 robotaxi, I recommend a hierarchical fusion architecture:
-
-**Layer 1 — Per-Modality Detection (parallel pipelines):**
-- Camera pipeline: BEVFormer or BEVFusion-Camera — 3D detection in BEV space, 30Hz
-- LiDAR pipeline: CenterPoint or VoxelNet — 3D detection + velocity from top LiDAR, 10Hz
-- Radar pipeline: RadarNet or custom CFAR — confirmed detections with Doppler velocity, 20Hz
-
-**Layer 2 — Cross-Modal Fusion:**
-- Use Track-to-Track fusion (T2TF) with probabilistic data association
-- State vector: [x, y, z, vx, vy, length, width, height, class, confidence]
-- Gating: Mahalanobis distance < chi2(0.99, dof=5) for association
-- Output: Fused object list with per-object ASIL-compliant confidence
-
-**Layer 3 — Temporal Tracking:**
-- Extended Kalman Filter or LSTM-based motion model per track
-- Track lifecycle: tentative (N=3 consecutive detections) then confirmed then lost (M=5 missed)
-
-```python
-# Cross-modal track association using Hungarian algorithm with Mahalanobis gating
-import numpy as np
-from scipy.optimize import linear_sum_assignment
-from scipy.spatial.distance import mahalanobis
-
-def associate_detections_to_tracks(detections, tracks, gating_threshold=9.488):
-    """
-    Associate new detections to existing tracks.
-    gating_threshold: chi2(0.99, dof=4) = 9.488
-    """
-    if len(tracks) == 0:
-        return [], list(range(len(detections))), []
-
-    cost_matrix = np.zeros((len(detections), len(tracks)))
-    for d_idx, det in enumerate(detections):
-        for t_idx, trk in enumerate(tracks):
-            innovation = det[:4] - trk.predicted_state[:4]
-            S = trk.innovation_covariance[:4, :4]
-            try:
-                dist = mahalanobis(det[:4], trk.predicted_state[:4],
-                                   np.linalg.inv(S))
-                cost_matrix[d_idx, t_idx] = (
-                    dist if dist < gating_threshold else 1e6
-                )
-            except np.linalg.LinAlgError:
-                cost_matrix[d_idx, t_idx] = 1e6
-
-    row_ind, col_ind = linear_sum_assignment(cost_matrix)
-    matches, unmatched_dets, unmatched_trks = [], [], []
-    matched_set = set()
-    for r, c in zip(row_ind, col_ind):
-        if cost_matrix[r, c] < gating_threshold:
-            matches.append((r, c))
-            matched_set.add(c)
-        else:
-            unmatched_dets.append(r)
-    unmatched_trks = [i for i in range(len(tracks)) if i not in matched_set]
-    return matches, unmatched_dets, unmatched_trks
-```
-
-**ASIL Allocation**: Camera detections alone are ASIL-B. LiDAR-confirmed detections are ASIL-C. Radar+LiDAR corroborated tracks are ASIL-D. The safety monitor gates actuator commands based on minimum ASIL level of relevant objects.
+---
 
 ---
 
@@ -417,34 +310,9 @@ Parameterize: {oncoming speed: 30-60 km/h} x {gap: 3-8s} x {visibility: clear/fo
 
 ## § 10 — Common Pitfalls
 
-### Anti-Pattern 1: Single-Sensor Confidence Threshold
-**Name**: The Mono-Modal Oracle
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-❌ BAD:
-```python
-# Dangerous: trusting single camera confidence for emergency braking
-if camera_detection.confidence > 0.85 and camera_detection.cls == 'pedestrian':
-    trigger_emergency_brake()
-```
-
-✅ GOOD:
-```python
-def evaluate_emergency_brake(cam_det, lidar_tracks, radar_tracks):
-    if cam_det.confidence < 0.85:
-        return False
-    # Require LiDAR or radar corroboration within 0.5m
-    lidar_ok = any(
-        np.linalg.norm(t.position - cam_det.position) < 0.5
-        for t in lidar_tracks
-    )
-    radar_ok = any(
-        np.linalg.norm(t.position[:2] - cam_det.position[:2]) < 1.0
-        for t in radar_tracks
-    )
-    return lidar_ok or radar_ok
-```
-
-**Why it matters**: Camera DNN models have known failure modes (adversarial patches, heavy rain, lens flare). Emergency braking on uncorroborated detections causes dangerous false positives in production.
+---
 
 ---
 

@@ -187,125 +187,25 @@ Each layer must be addressed: training alone is insufficient without evaluation;
 
 ## 7. Standards & Reference
 
-### 7.1 Alignment Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework / 框架 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **RLHF (PPO)** | Training helpful/harmless/honest behavior from human preferences | 1. Supervised Fine-Tune (SFT) → 2. Train Reward Model on pairwise prefs → 3. PPO optimize against RM → 4. Eval on HHH benchmark |
-| **DPO (Direct Preference Optimization)** | Alignment without explicit RM; better stability than PPO for moderate-scale models | 1. Collect preference dataset → 2. Compute DPO loss (β-regularized log-ratio) → 3. Fine-tune with AdamW lr=1e-5, β=0.1 → 4. Eval on MT-Bench, AlpacaEval |
-| **Constitutional AI (CAI)** | Reduce human labeling cost while maintaining alignment; RLAIF | 1. Define constitutional principles (16-24 rules) → 2. SL-CAI: model self-critiques and revises → 3. RL-CAI: train RM on AI feedback → 4. PPO against RM |
-| **MAPO** | Multi-step reasoning alignment; reduces hallucination in chain-of-thought | 1. Generate reasoning traces → 2. Score with process reward model (PRM) → 3. Advantage-weighted policy gradient → 4. Eval on MATH, GSM8K |
-
-### 7.2 Safety Evaluation Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Attack Success Rate (ASR)** | ASR = harmful_outputs
-| **Refusal Rate (RR)** | RR = refused_requests
-| **False Positive Rate (FPR)** | FPR = refused_benign
-| **TruthfulQA Score** | % truthful AND informative answers | > 70% (GPT-4 baseline: 59%) |
-| **Bias Score (BBQ)** | Accuracy disparity across demographic groups | Accuracy gap < 3% across groups |
-| **Interpretability Faithfulness** | % of causal attribution preserved under intervention | > 80% on activation patching for target circuit |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Red-Team Evaluation Protocol
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Threat Modeling (Day 1-2)
-├── Define model use cases and trust boundaries
-├── Enumerate attack surfaces: system prompt, user input, tool calls, RAG context
-├── Map attacker profiles: script-kiddie → advanced persistent threat (APT)
-└── Deliverable: Threat Model Document (attacker × capability × impact matrix)
-
-Phase 2: Attack Suite Construction (Day 3-7)
-├── Select attack categories: direct jailbreak, role-play, encoding bypass, multi-turn escalation
-├── Source attack prompts: HarmBench, AdvBench, custom domain-specific probes
-├── Define harm taxonomy: CSAM / weapons / PII exfiltration / malware
-└── Deliverable: Attack prompt suite (≥200 prompts across ≥5 categories)
-
-Phase 3: Evaluation Execution (Day 8-12)
-├── Run automated evaluation via LM Eval Harness + Garak
-├── Compute ASR, RR, FPR per attack category
-├── Manual review of 50 borderline cases per category
-└── Deliverable: Safety Evaluation Report with per-category breakdown
-
-Phase 4: Defense Recommendation (Day 13-14)
-├── Map high-ASR categories to specific mitigations (output classifier, prompt shield, fine-tune patch)
-├── Estimate cost-benefit of each defense (latency overhead, FPR increase)
-└── Deliverable: Defense Prioritization Matrix (impact × feasibility × cost)
-```
-
-### 8.2 RLHF Training Checklist
-
-```
-Pre-Training:
-□ Preference dataset: ≥50K pairwise comparisons, ≥3 domains, inter-annotator agreement > 75%
-□ Reward model: same base architecture as policy; trained with cross-entropy on pairs
-□ KL-penalty coefficient β: start at 0.1; monitor KL divergence during PPO training
-
-During Training:
-□ PPO clip ratio: ε = 0.2 (standard); reduce to 0.1 if training unstable
-□ Reward hacking detection: plot reward score vs. human preference score correlation
-□ Early stopping: stop if KL(π || π_ref) > 10 nats (reward hacking threshold)
-
-Post-Training Evaluation:
-□ MT-Bench: target ≥ 8.0 (GPT-4 baseline: 8.96)
-□ AlpacaEval win rate: target ≥ 70% vs. text-davinci-003
-□ HarmBench ASR: target < 5% with no defense applied
-□ TruthfulQA: must not regress by > 2% from base model
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Scenario: RLHF Pipeline Design for a Healthcare LLM
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "We're building a medical Q&A LLM and need to align it to be helpful but not give dangerous medical advice. How should we design the RLHF pipeline?"
-
-**AI Safety Researcher:**
-> **Healthcare LLM Alignment Architecture:**
->
-> **Step 1 — Define Constitutional Principles (before labeling anything)**
-> Draft 20-30 principles covering:
-> - `Never diagnose`: "The model may describe symptoms and general information, but must not assert a specific diagnosis"
-> - `Defer to professionals`: "For urgent symptoms (chest pain, difficulty breathing), always recommend emergency services (911/112)"
-> - `Epistemic humility`: "State confidence level; cite guidelines (AHA, WHO, CDC) when making clinical recommendations"
->
-> **Step 2 — Preference Data Collection**
-> | Data Source | Volume | Focus |
-> |-------------|--------|-------|
-> | Medical NLP annotators (RN/MD supervised) | 30K pairs | Helpfulness vs. harm tradeoffs |
-> | Synthetic CAI self-critique pairs | 20K pairs | Constitutional principle violations |
-> | Adversarial edge cases | 5K pairs | Drug interaction questions, suicide inquiries |
->
-> **Step 3 — Reward Model Architecture**
-> - Base: same 7B parameter model (matched architecture reduces distribution shift)
-> - Training: cross-entropy on (chosen, rejected) pairs with **severity weighting**: harmful pairs upweighted 3× vs. unhelpful pairs
-> - Calibration: test RM on held-out human evals; target Spearman ρ > 0.75
->
-> **Step 4 — PPO Training Config**
-> ```python
-> PPOConfig(
->     learning_rate=1.4e-5,
->     batch_size=64,
->     ppo_epochs=4,
->     kl_penalty="kl",
->     init_kl_coef=0.2,  # Higher than default for medical domain conservatism
->     target_kl=6.0,     # Stop training if KL exceeds 6 nats
-> )
-> ```
->
-> **Step 5 — Evaluation Gates (all must pass before deployment)**
-> - HarmBench medical category ASR < 2%
-> - MedQA-USMLE accuracy ≥ 60% (helpfulness floor)
-> - TruthfulQA medical subset ≥ 75%
-> - 200-case clinical expert review with zero critical failures
->
-> **Red flags to watch:** If reward score on medical advice keeps climbing while human preference stagnates → reward hacking. Immediately decrease `init_kl_coef` or add reward normalization.
+---
 
 ---
 
@@ -391,40 +291,9 @@ Post-Training Evaluation:
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Alignment Tax Denial
-
-```markdown
-❌ BAD: "Our RLHF makes the model safer AND more capable — no trade-offs!"
-
-✅ GOOD: "RLHF typically introduces 2-5% capability regression on coding benchmarks
-          in exchange for 60-80% ASR reduction. Document this trade-off explicitly
-          in the model card; let stakeholders decide the acceptable trade-off point."
-```
-
-**Anti-Pattern 2: Benchmark Overfitting
-
-```markdown
-❌ BAD: Optimizing RLHF reward specifically for TruthfulQA prompts → score improves
-        but real-world hallucination rate unchanged.
-
-✅ GOOD: Evaluate on held-out datasets unseen during alignment training.
-          Use HarmBench categories not in the reward model training set.
-          Monthly: rotate 20% of eval suite to catch overfitting early.
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 3: Safety Washing
-
-```markdown
-❌ BAD: Publishing model card claiming "extensive red-team evaluation" based on 50 prompts
-        tested by internal team only.
-
-✅ GOOD: Red-team with ≥200 prompts across ≥5 harm categories, involve external
-          evaluators, report ASR per category, and commit to re-evaluation every 6 months.
-```
+---
 
 ---
 

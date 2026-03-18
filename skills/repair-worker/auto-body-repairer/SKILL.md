@@ -174,223 +174,33 @@ structure is unsafe. Follow OEM procedures for every repair — shortcuts compro
 
 ## § 7 · Standards & Reference
 
-### 7.1 Repair Procedures by Damage Type
+See [references/07-standards.md](references/07-standards.md)
 
-| Damage Type | Repair Method | Key Steps |
-|-------------|--------------|-----------|
-| **Door ding (no paint damage)** | PDR | Access behind panel, massage dent out, no paint needed |
-| **Minor dent (with paint damage)** | Conventional | Pull dent, filler if needed, prime, paint |
-| **Panel crease** | Replace or repair | Assess extent; crease = replace often |
-| **Hood/fender replacement** | R&I + adjust | Remove, install new, align to gaps |
-| **Radiator support** | Replace | Structural; bolt/solder per OEM |
-| **Frame rail** | Repair or replace | Measure; if >50% damaged, replace section |
-| **Unibody crush zone** | Measure vs. specs | Within limits = repair; exceeds = total loss |
-
-### 7.2 Paint System Standards
-
-| Stage | Target Thickness | Flash Time | Notes |
-|-------|-----------------|------------|-------|
-| E-coat/primer | 0.5-1.5 mils | — | Existing or applied |
-| Primer surfacer | 1.5-3.0 mils | 30 min @ 70°F | Block sand after cure |
-| Basecoat | 0.8-1.5 mils | 15-30 min | Apply until full hide |
-| Clearcoat | 1.5-2.5 mils | 15 min between coats | 2-3 coats |
-| Total system | 4-6 mils | — | Within spec for durability |
-
-### 7.3 Frame Tolerance Guidelines
-
-| Measurement Point | Allowable Deviation | Action Required |
-|-------------------|--------------------|--------------------|
-| Width (engine bay) | ±3mm | Within tolerance |
-| Width (passenger compartment) | ±3mm | Within tolerance |
-| Height (suspension points) | ±6mm | Align to specs |
-| Floorpan | ±6mm | Repair if exceeded |
+---
 
 ---
 
 ## § 8 · Standard Workflow
 
-### 8.1 Complete Damage Assessment
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Initial Documentation
-├── Photograph all damage: 4 corners, close-ups, wide shots
-├── Document VIN, mileage, license plate
-├── Note pre-existing damage: Dings, scratches, rust
-├── Check for safety system damage: Airbags deployed?
-└── Verify ownership: Registration, insurance
-
-Phase 2: Visual Inspection
-├── Walk around: Identify all damaged panels
-├── Check paint: Cracks, chips, transfer
-├── Check gaps: Misaligned panels indicate structural issues
-├── Check glass: Cracks, deployment
-└── Check mechanical: Lights, bumper, suspension
-
-Phase 3: Structural Assessment
-├── Mount to frame rack if structural suspected
-├── Measure critical points: Compare to specs
-├── Identify crush zones: Front, side, rear
-├── Check weld points: Separation indicates impact
-└── Document findings with measurements
-
-Phase 4: Estimate Development
-├── List all damaged parts: R&I vs. replace
-├── List all R&I items: Doors, glass, trim to remove
-├── Calculate labor: Book time or estimate
-├── Calculate materials: Paint, filler, primer, consumables
-├── Add sublet: Glass, alignments, other trades
-└── Review against insurance coverage
-```
-
-### 8.2 Paint Repair Protocol
-
-```
-Step 1: Assessment & Masking
-- Evaluate damage extent and paint condition
-- Mask off adjacent panels, trim, glass
-- Remove hardware: Mirrors, handles, emblems
-
-Step 2: Prep
-- Sand damaged area: Featheredge to bare metal or existing primer
-- Apply glazing putty if needed: Fill pinholes
-- Final sand: P400-P600 for primer, P800 for existing finish
-
-Step 3: Primer Application
-- Apply primer surfacer: 2-3 coats
-- Allow to cure: Follow product specs
-- Block sand: Level surface, remove imperfections
-- Clean: Tack cloth, blow off
-
-Step 4: Paint Application
-- Apply basecoat: Multiple coats until full hide
-- Flash between coats: 15-30 minutes
-- Allow to flash before clear: 30-60 minutes
-- Apply clearcoat: 2-3 coats per product specs
-- Allow to cure: 24-72 hours before buffing
-
-Step 5: Final Steps
-- Color sand if needed: P1500-P2000
-- Buff: Remove imperfections, achieve gloss
-- Polish: Remove swirl marks
-- Unmask: Clean edges
-- Reinstall: All removed items
-- Final inspection: Match, gloss, gaps
-```
+---
 
 ---
 
 ## § 9 · Scenario Examples
 
-### 9.1 Fender Bender Estimate
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "I rear-ended someone. My bumper and fender are damaged. It's a 2022 Toyota Camry. What will it cost to fix?"
-
-**Auto Body Tech:**
-> **Damage Assessment:**
->
-> Let me walk you through what's likely involved:
->
-> | Damage Area | Likely Repair | Estimated |
-> |-------------|--------------|-----------|
-> | Front bumper cover | Replace | $400-800 |
-> | Fender | Repair or replace | $300-600 |
-> | Headlight | Check impact | $300-500 |
-> | Hood | Inspect, likely OK | — |
-> | Support/frame | Need to measure | — |
->
-> **Labor considerations:**
-> - Remove and install bumper cover: 1-2 hours
-> - R&I fender for repair or replace: 1-2 hours
-> - Body work and paint fender: 4-8 hours
-> - Paint bumper: 3-4 hours
-> - Reassemble and detail: 1-2 hours
->
-> **Estimated range:** $1,500-4,000 depending on:
-> - Parts (OEM vs. aftermarket)
-> - Paint matching (solid vs. metallic)
-> - Hidden damage discovered
->
-> **Insurance:** If you have collision, this should be covered minus your deductible. I'd recommend getting an estimate from a shop that works with your insurance.
-
-### 9.2 PDR for Hail Damage
-
-**User:** "My car got hit by hail. Lots of dents all over. Is PDR an option or does it need full paint?"
-
-**Auto Body Tech:**
-> **Hail Damage Assessment:**
->
-> Great question. PDR (paintless dent repair) works for hail — but depends on a few things:
->
-> | Factor | PDR Possible | Needs Conventional |
-> |--------|-------------|-------------------|
-> | Paint intact | Yes | No — paint is damaged |
-> | Sharp creases | No | Yes |
-> | Panel access | Yes | N/A |
-> | Aluminum panel | Possible with special tools | Often yes |
->
-> **How PDR works:**
-> - Technician accesses dent from behind
-> - Uses specialized rods to massage metal back out
-> - No painting needed because paint isn't damaged
-> - Takes 1-3 days depending on dent count
->
-> **Cost comparison:**
-> - PDR: $50-150 per panel (much cheaper than conventional)
-> - Conventional: $1,500-5,000+ (repaint entire car)
->
-> **My recommendation:** If paint isn't cracked, PDR is definitely the way to go. Get 2-3 PDR estimates. Some hail damage specialists work with insurance directly.
-
-### 9.3 Insurance Supplement
-
-**User:** "Insurance approved my claim but I think there's more damage. How do I handle this?"
-
-**Auto Body Tech:**
-> **Supplement Process:**
->
-> This is common — adjusters don't always see everything. Here's how supplements work:
->
-> | Step | Action |
-> |------|--------|
-> | 1 | Document: Take photos of missed damage |
-> | 2 | Reveal: When disassembling, inspect thoroughly |
-> | 3 | Measure: If structural, document out-of-spec measurements |
-> | 4 | Write: Create supplement with new parts and labor |
-> | 5 | Submit: Photos + line-item supplement to adjuster |
-> | 6 | Negotiate: If denied, provide documentation |
->
-> **Common missed items:**
-> - Hidden rust or prior damage
-> - Sublet items (glass, alignment)
-> - Corrosion protection needs
-> - Additional R&I when panels removed
-> - Mechanical damage (radiator, condenser)
->
-> **What shops do:** We handle supplements as part of the repair. We'll find additional damage, document it, and submit to your insurance. This is normal and expected — adjusters understand supplements.
+---
 
 ---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|----------|
-| 1 | Skip structural measurement | 🔴 High | Always measure — you can't eyeball frame damage |
-| 2 | Use aftermarket when OEM needed | 🔴 High | Safety-critical parts require OEM; document if insurance requires otherwise |
-| 3 | Shortcut paint prep | 🟡 Medium | Prep determines final quality — don't skip sanding steps |
-| 4 | Accept insurance first estimate | 🟡 Medium | First estimates rarely cover everything — plan supplements |
-| 5 | Mix metals without proper isolation | 🟡 Medium | Steel + aluminum = corrosion; use isolation materials |
-| 6 | Rush cure times | 🟡 Medium | Follow product specs for cure time — premature assembly = failures |
-| 7 | Skip alignment after structural work | 🟢 Low | Always align — premature wear if not done |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ Customer wants cheapest repair → Use cheapest parts
-✅ Explain trade-offs: OEM parts fit better, warranty, safety — but cost more
-
-❌ "Looks straight to me" → Proceed without measuring
-✅ Use computerized measuring system — your eyes lie
-
-❌ Skip documenting pre-existing damage
-✅ Photo everything before starting — protects against damage claims
-```
+---
 
 ---
 

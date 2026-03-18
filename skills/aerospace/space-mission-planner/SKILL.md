@@ -180,162 +180,25 @@ DESIGN       SIZING
 
 ## § 7 Standards & Reference
 
-### Delta-V Budget Reference (approximate)
-| Maneuver | Delta-V (m/s) | Notes |
-|---------|-------------|-------|
-| LEO → GTO (chemical) | ~2,500 m/s | From 200km circular |
-| GTO → GEO | ~1,800 m/s | Apogee kick; includes plane change |
-| LEO → TLI (Trans-Lunar Injection) | ~3,200 m/s | From 400km circular |
-| Lunar Orbit Insertion (LOI) | ~900 m/s | Into 100km circular lunar orbit |
-| Earth → Mars (Hohmann, ideal) | ~5,600 m/s | From Earth surface; includes launch |
-| Earth → Mars (minimum energy transfer) | ~3,600 m/s | C3 = 8.7 km²/s² for 2026 window |
-| LEO orbital maintenance/drag | ~20-50 m/s/year | At 400km altitude, Cd = 2.2 |
+See [references/07-standards.md](references/07-standards.md)
 
-### Tsiolkovsky Rocket Equation
-```
-ΔV = Isp × g₀ × ln(m₀/mf)
-
-Where:
-  Isp = specific impulse (s): typical values:
-    Hydrazine monoprop:    220 s
-    Bi-propellant (MMH/NTO): 311 s
-    Electric (Hall thruster): 1600 s
-    LOX/LH2 (J-2X):        448 s
-  g₀ = 9.806 m/s² (standard gravity)
-  m₀ = initial (wet) mass
-  mf = final (dry + residual propellant) mass
-
-Example: 500 m/s ΔV with Isp=311s, 100 kg dry mass:
-  mass_ratio = e^(500
-  m₀ = 1.178 × 100 = 117.8 kg → propellant = 17.8 kg
-```
-
-### Launch Window Decision Tree
-```
-Mission destination?
-├─ LEO/GEO/HEO: Any date (continuous access), launch window = day × inclination constraints
-├─ Moon: ~2 week cycle (lunar phase); TLI window 3-5 days per month
-├─ Mars: 26-month synodic cycle; optimal 2026 window C3 = 8.7 km²/s²
-├─ Venus: 19-month synodic cycle; 2027 next favorable window
-└─ Outer planets: Multiple gravity assists required; resonance opportunities every 5-20 years
-```
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Mission Concept Definition
-```
-1.1 Science/Operational Requirements Flowdown
-  - [ ] Define primary science objectives with measurable success criteria
-  - [ ] Identify driving instrument/payload requirements (resolution, coverage, sensitivity)
-  - [ ] Translate payload requirements to spacecraft requirements (pointing, data volume, power)
-  - [✓ Done] Output: Mission Requirements Document (MRD)
-  - [✗ FAIL] If payload requirements exceed launch vehicle mass → descope or change LV
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Mission Architecture Trade Study
-  - [ ] Identify 3 candidate architectures (vary orbit, spacecraft class, launch vehicle)
-  - [ ] Compute delta-V budget for each architecture
-  - [ ] Estimate spacecraft mass for each architecture (SMAD statistical relationships)
-  - [ ] Score against cost, risk, technical maturity, schedule
-  - [✓ Done] Output: Mission Architecture Trade Report with selected baseline
-```
-
-### Phase 2: Trajectory & Spacecraft Design
-```
-2.1 Trajectory Analysis
-  - [ ] Compute launch windows for next 5 years (identify optimal and backup windows)
-  - [ ] Design nominal trajectory with all required maneuvers (launch + TCMs + orbit insertion)
-  - [ ] Compute total delta-V budget; add 15% margin for trajectory correction maneuvers
-  - [ ] Verify launch vehicle can deliver wet mass on required C3
-  - [✓ Done] Output: Trajectory Design Report with delta-V budget and launch window calendar
-  - [✗ FAIL] If LV cannot deliver spacecraft → reduce wet mass or change LV
-
-2.2 Spacecraft Mass Budget
-  - [ ] Estimate subsystem masses (payload, propulsion, power, structure, ADCS, telecom, C&DH)
-  - [ ] Apply mass margins (30% at concept, 15% at PDR, 10% at CDR)
-  - [ ] Verify propellant mass matches delta-V budget using rocket equation
-  - [✓ Done] Output: Mass Budget v1.0 with positive mass margin to LV capability
-  - [✗ FAIL] If mass margin < 10% at PDR → design-to-cost/mass activity required
-
-2.3 Power System Sizing
-  - [ ] Calculate worst-case power load (all instruments powered simultaneously)
-  - [ ] Compute solar array size for mission distance and eclipse fraction
-  - [ ] Size battery for eclipse operation (DoD < 80% for Li-ion)
-  - [✓ Done] Output: Power Budget with positive margin at all mission phases
-```
-
-### Phase 3: Operations & Risk
-```
-3.1 Ground System Architecture
-  - [ ] Identify ground station network (DSN, commercial, national agency)
-  - [ ] Compute contact duration and data volume per contact
-  - [ ] Design link budget (forward and return links)
-  - [✓ Done] Output: Ground System Architecture Document with contact schedule
-
-3.2 Mission Risk Assessment
-  - [ ] Identify top-10 risk drivers (technical, schedule, programmatic)
-  - [ ] Estimate P(LOM) for critical failure modes
-  - [ ] Define mitigation measures; verify residual risk is acceptable
-  - [✓ Done] Output: Mission Risk Register with mitigation plan accepted by stakeholders
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Mars Mission Delta-V Budget
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: We want to send a 500 kg spacecraft to Mars orbit for an imaging mission. What launch vehicle do we need and what's the delta-V budget?
-
-**Expert**:
-> **Mars trajectory analysis for 2026 opportunity** (next favorable launch window):
->
-> **Step 1 — Trajectory energy (C3)**:
-> ```
-> 2026 Mars launch window: approximately July-August 2026
-> Optimal C3 ≈ 8.7 km²/s² (low-energy Hohmann-like transfer)
-> Transfer time: ~8 months (TOA: March-April 2027)
-> ```
->
-> **Step 2 — Delta-V budget**:
-> ```
-> Launch + TLI (Earth to C3=8.7):    Handled by launch vehicle
-> TCMs (trajectory correction):       +80 m/s (budget 15% margin on TCMs)
-> Mars Orbit Insertion (MOI) to 400km circular: +900 m/s
-> Aerobraking (if used):              Reduces MOI to ~100 m/s (but adds risk)
-> Orbit maintenance (2 years):        +20 m/s
-> Disposal (deorbit):                 +30 m/s
->
-> Propulsion delta-V needed: ~1,030 m/s (without aerobraking)
->                            ~230 m/s (with aerobraking, much higher risk)
-> ```
->
-> **Step 3 — Spacecraft mass sizing**:
-> ```python
-> # Without aerobraking, chemical propulsion (MMH/NTO, Isp=311s)
-> dv = 1030  # m/s
-> Isp = 311  # s
-> g0 = 9.806
-> dry_mass = 500  # kg spacecraft dry mass
-> mass_ratio = math.exp(dv
-> wet_mass = dry_mass * mass_ratio  # = 699 kg
-> propellant = wet_mass - dry_mass  # = 199 kg
-> ```
->
-> **Step 4 — Launch vehicle selection**:
-> ```
-> Required: deliver 699 kg wet mass to C3 = 8.7 km²/s²
-> Options:
->   Falcon 9 Block 5: ~2,000 kg to Mars C3 → FITS with large margin
->   Atlas V 411: ~1,800 kg to Mars C3 → FITS
->   Ariane 62: ~1,200 kg to Mars C3 → FITS
->   CNSA CZ-3B: ~1,000 kg to Mars C3 → FITS
->
-> Recommendation: Falcon 9 provides best margin at lowest current cost (~$67M launch)
-> ```
->
-> **Aerobraking consideration**: Reduces propellant by ~170 kg (saves ~$5-8M in wet mass) but adds 3-6 months of aerobraking operations, solar panel thermal risk, and nav uncertainty. For a 500 kg imaging mission, avoid aerobraking unless mission is mass-constrained.
+---
 
 ---
 
@@ -418,25 +281,9 @@ Mission destination?
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Forgetting TCM Delta-V Budget
-**❌ BAD**: Allocating all propellant to orbit insertion; no reserve for trajectory corrections
-**✅ GOOD**: Always budget for trajectory correction maneuvers (TCMs):
-```python
-# Wrong: entire dv budget to MOI
-dv_mission = dv_moi  # 900 m/s
-propellant = compute_propellant(dv_mission, dry_mass, Isp)
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-# Right: include TCMs and margin
-dv_mission = (
-    dv_launch_dispersion_correction +  # 30-50 m/s (correct LV performance error)
-    dv_tcm_enroute * 3 +               # 3 × 20 m/s TCMs en route
-    dv_orbit_insertion +               # 900 m/s
-    dv_orbit_maintenance_annual * years + # 20 m/s/year
-    dv_disposal +                      # 30 m/s
-    dv_margin * 0.15                   # 15% of total
-)
-```
-**Why it matters**: The Mars Climate Orbiter was destroyed because navigation errors accumulated; you need propellant to correct them.
+---
 
 ---
 

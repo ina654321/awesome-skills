@@ -184,191 +184,33 @@ The stone leads—the carver follows.
 
 ## 7. Standards & Reference
 
-### 7.1 Jade Types & Properties
+See [references/07-standards.md](references/07-standards.md)
 
-| Type | Hardness (Mohs) | Characteristics | Value Range |
-|------|-----------------|-----------------|-------------|
-| **Hetian Jade (和田玉)** | 6-6.5 | Creamy white, greasy luster, translucent | Highest for quality |
-| **Jadeite (翡翠)** | 6.5-7 | Green, white, purple; glassy luster | Varies widely |
-| **Serpentine** | 2.5-5.5 | Green, waxy; softer, easier to carve | Lower |
-| **Soapstone** | 1-2.5 | Soft, carving-friendly | Low |
-| **Agate** | 7 | Banded, translucent; harder | Medium |
-
-### 7.2 Carving Techniques
-
-| Technique | Chinese | Description | Use |
-|-----------|---------|-------------|-----|
-| **Carved Relief** | 浮雕 | Design projects from surface | Landscape panels |
-| **Openwork** | 镂雕 | Interconnected cutouts | Decorative pieces |
-| **Round Carving** | 圆雕 | Three-dimensional sculpture | Figures, animals |
-| **Thread Carving** | 细线刻 | Fine incised lines | Details, inscriptions |
-| **Hollow Carving** | 挖空 | Carved interior | Vases, vessels |
-
-### 7.3 Traditional Subjects
-
-| Subject | Symbolism | Common Use |
-|---------|-----------|------------|
-| **Koi Fish** | Good fortune, perseverance | Pendants, display |
-| **Buddha** | Wisdom, enlightenment | Religious, decorative |
-| **Dragon** | Power, prosperity | Traditional, collectible |
-| **Peony** | Wealth, honor | Display pieces |
-| **Bamboo** | Integrity, resilience | Pendants |
-| **Lotus** | Purity, spiritual growth | Religious, decorative |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Jade Carving Project
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Stone Selection
-├── Examine rough material for color flow, inclusions, potential
-├── Determine best use of material given its natural form
-├── Assess value and appropriateness for project
-└── [✓ Done]: Material selected and cost-approved
-
-Phase 2: Design Development
-├── Create design that works with stone's natural patterns
-├── Plan the sequence of cuts from rough to finish
-├── Create template or drawing of final form
-└── [✓ Done]: Design approved, plan for cuts documented
-
-Phase 3: Rough Carving
-├── Remove excess material, establish basic form
-├── Work from largest to smallest tools
-├── Leave material for finishing; don't over-carve
-└── [✓ Done]: Basic form established
-
-Phase 4: Detail Carving
-├── Add refined details: features, textures
-├── Use progressively finer tools
-├── Constantly evaluate as you go
-└── [✓ Done]: Details complete
-
-Phase 5: Sanding & Polishing
-├── Progress through grits: 200 → 400 → 800 → 1500 → 3000
-├── Use appropriate polishing compound for jade type
-├── Achieve smooth, reflective surface
-└── [✓ Done]: Polished to completion
-
-Phase 6: Finishing
-├── Create or select appropriate base
-├── Add any additional elements (string, display stand)
-└── [✓ Done]: Complete piece ready for presentation
-```
-
-### 8.2 Quality Assessment
-
-```
-Step 1: Check for cracks or weak points
-Step 2: Evaluate carving quality: detail, proportion, finishing
-Step 3: Assess polish: evenness, reflectivity
-Step 4: Verify design matches stone's natural flow
-Step 5: Document final weight and dimensions
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Commission Design
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我想定制一个和田玉挂件，貔貅，预算在5000元左右"
-
-**Jade Carver:**
-> **貔貅挂件定制方案**
->
-> | 因素 | 建议 |
-> |------|------|
-> | **材料** | 和田玉籽料小件，皮色保留 |
-> | **尺寸** | 4-5cm，适合佩戴 |
-> | **工艺** | 苏工圆雕，貔貅形态 |
-> | **题材** | 貔貅，辟邪招财 |
->
-> **设计考量**:
-> - 预算限制下，选择 **小籽料** 或 **边角料** 雕刻
-> - 保留 **天然皮色** 增加视觉效果
-> - 貔貅注意 **头部特征**（大嘴、圆眼、角）
-> - 雕刻线条 **圆润**，手感好
->
-> **重要**: 5000元预算做和田玉挂件属于 **入门级**，建议选择雕工好的小件，而非大而粗糙的作品
->
-> **Next, I need from you:**
-> 1. 更偏好和田白玉还是带皮色？
-    2. 有特定款式偏好（站立还是卧姿）？
-
-### 9.2 Jade Care Advice
-
-**User:** "佩戴的翡翠手镯要如何保养？"
-
-**Jade Carver:**
-> **翡翠手镯保养指南**
->
-> | 方法 | 说明 |
-> |------|------|
-> | **佩戴** | 人养玉，玉养人；长期佩戴是对玉石最好的保养 |
-> | **清洁** | 温清水清洗，避免化学清洁剂 |
-> | **存放** | 单独存放，避免与其他珠宝摩擦 |
-> | **避免** | 避免撞击、极端温度、化学物质 |
-> | **检查** | 定期检查镶嵌是否松动 |
->
-> **专业建议**:
-> - 翡翠 **需要人体油脂滋润**，长期不戴会变干
-> - 如发现变色或变干，可 **专业重新抛光**
-> - 避免 **长期暴露** 在高温或阳光直射下
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Ignoring Material Flaws
-
-```markdown
-❌ BAD: Not examining stone thoroughly before starting → cutting through hidden
-crack → piece breaks or is ruined
-
-✅ GOOD: Examine stone with bright light from all angles; mark any cracks or
-inclusions; plan design to work around
-```
-
-**Anti-Pattern 2: Over-Cutting
-
-```markdown
-❌ BAD: Trying to remove too much too fast → crack, breakage, lost material value
-
-✅ GOOD: Take your time; remove material progressively; when in doubt, leave more
-```
-
-**Anti-Pattern 3: Wrong Polishing for Type
-
-```markdown
-❌ BAD: Using wrong compound or technique for jade type → scratches, dull surface
-
-✅ GOOD: Research appropriate polish for your jade type; test on scrap piece first;
-know that different jades need different approaches
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Ignoring Design Flow
-
-```markdown
-❌ BAD: Cutting against stone's natural color flow → design looks artificial
-
-✅ GOOD: Study stone's patterns; design should follow the natural grain and color
-```
-
-**Anti-Pattern 5: Rushing the Finish
-
-```markdown
-❌ BAD: Polishing too quickly leaves scratches; final quality suffers
-
-✅ GOOD: Take time with each grit; ensure complete removal of previous scratches;
-final polish determines first impression
-```
+---
 
 ---
 

@@ -191,268 +191,33 @@ Safety-first, then energy, then separation, then reaction — you cannot optimiz
 
 ## 7. Standards & Reference
 
-### 7.1 Process Design Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework / 框架 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **Conceptual Design** | New process development from lab data | 1. Define feed/products → 2. Material balance → 3. Select unit ops → 4. Preliminary sizing → 5. Estimate CAPEX |
-| **Pinch Analysis** | Energy optimization for existing or new plants | 1. Extract stream data → 2. Composite curves → 3. Minimum targets → 4. Heat exchanger network → 5. Optimize |
-| **Hazop Study** | Systematic hazard identification | 1. Define scope → 2. Node selection → 3. Guidewords → 4. Causes/Consequences → 5. Safeguards → 6. Actions |
-| **LOPA** | Safety integrity level determination | 1. Identify scenarios → 2. Initial frequency → 3. IPL selection → 4. Residual frequency → 5. Risk reduction |
-| **Scale-Up** | Lab/pilot to commercial | 1. Define scale-up criteria → 2. Match dimensionless groups → 3. Verify with pilot → 4. Document basis |
-
-### 7.2 Chemical Engineering Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Conversion** | (Feed - Product)
-| **Selectivity** | Desired Product
-| **Recovery** | Product in Outlet
-| **Energy Intensity** | GJ/ton product | <2.0 for bulk chemicals; benchmark against similar plants |
-| **Safety Margin** | Design Pressure
-| **Heat Integration** | Heat Recovered
-
-### 7.3 Equipment Sizing References
-
-| Equipment / 设备 | Design Code / 设计规范 | Sizing Basis
-|-----------------|----------------------|------------------------|
-| **Pressure Vessel** | ASME Section VIII Div 1 | MAWP based on worst-case pressure + corrosion |
-| **Heat Exchanger** | TEMA
-| **Distillation Column** | tray efficiency 60-80% | McCabe-Thiele → rigorous simulation |
-| **Relief Valve** | API 520 Part 1 (sizing)
-| **Piping** | ASME B31.3 | Pipe schedule from pressure + corrosion |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 New Process Development
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Conceptual Design (Week 1-2)
-├── Define feed composition, product specifications, utilities available
-├── Perform literature survey for similar processes and published kinetics
-├── Preliminary material balance (100% conversion basis)
-├── Select major unit operations (reactor type, separation sequence)
-├── Rough equipment sizing for major items
-└── [✓ Done]: Process Flow Diagram (PFD) with stream table
-    [✗ FAIL]: Missing thermodynamic data → STOP, collect data before proceeding
-
-Phase 2: Process Simulation (Week 3-4)
-├── Build model in Aspen Plus/HYSYS with validated property package
-├── Tune model against any available experimental data
-├── Perform sensitivity analysis on key variables
-├── Optimize operating conditions (temperature, pressure, recycle ratio)
-└── [✓ Done]: Validated simulation with material/energy balance
-    [✗ FAIL]: Simulation won't converge → check recycle convergence, physical properties
-
-Phase 3: Detailed Engineering (Week 5-8)
-├── Heat exchanger network design (Pinch analysis)
-├── Equipment sizing with safety margins per applicable codes
-├── P&ID development with instrumentation and safety systems
-├── Hazop study and action item closure
-└── [✓ Done]: P&ID, equipment datasheets, Hazop report
-    [✗ FAIL]: Unresolved Hazop actions → DO NOT proceed to detailed design
-
-Phase 4: Capital Estimate (Week 9-10)
-├── ISBL estimate using factorial method (±25% accuracy)
-├── OSBL estimate (20-30% of ISBL)
-├── Operating cost estimate (utilities, labor, materials)
-├── Economics: IRR, payback period
-└── [✓ Done]: Technical/economic package for investment decision
-```
-
-### 8.2 Safety Relief System Design
-
-```
-Step 1: Identify Overpressure Scenarios
-  → Fire, blocked outlet, heat exchanger tube failure, runaway reaction, loss of cooling
-  → Document each scenario with basis and calculated flow
-
-Step 2: Determine Required Relief Rate
-  → Fire case: Q = (A^0.82)
-  → Runaway: Use DIERS methodology or experimental data (RC1)
-  → Select highest rate as design basis
-
-Step 3: Size Relief Device
-  → API 520 Part 1: Orifice area = W
-  → Verify: orifice available, no chatter, proper discharge
-
-Step 4: Select Device Type
-  → Conventional: for single vessel
-  → Balanced: for variable backpressure
-  → Pilot-operated: for precision, large capacities
-
-[✓ Done]: PSV sized, specified, tagged on P&ID
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Reactor Design: Exothermic Hydrogenation
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "Design a stirred tank reactor for hydrogenation of nitrobenzene to aniline. Rate is first-order in nitrobenzene, rate constant k=0.05 min⁻¹ at 80°C. Feed: 5000 kg/hr at 10 wt% in ethanol. Heat removal critical."
-
-**Chemical Process Engineer:**
-> **CSTR Design for Exothermic Hydrogenation**
->
-> **Step 1: Determine Reactor Volume**
-> ```python
-> # For 90% conversion: X = 0.90
-> # CSTR: V = F*(X)/(-rA) = (5000/92.14)*(0.90)/(0.05*60) = 16.2 m³
-> # Use 2 reactors in series for better temperature control
-> # Each: V = 8.5 m³ → select 10 m³ (10% extra for liquid holdup)
-> ```
->
-> **Step 2: Heat Removal Design**
-> - Reaction enthalpy: ΔH = -300 kJ/mol (exothermic)
-> - Heat generation: Q = 5000 × 0.10 × 0.90
-> - Jacket area: 25 m² (estimate from V/A ratio)
-> - U = 500 W/m²·K (typical for jacket)
-> - ΔT = Q/(UA) = 1,460,000
->
-> **Key Design Decisions:**
-> - Use 2 CSTRs in series → lower temperature rise per vessel
-> - Specify steam/heating water jacket for temperature control
-> - Add emergency quench system per PSM requirements
-> - Material: SS316L for corrosion resistance (hydrogen + organic)
->
-> **Next I need from you:**
-> 1. Available coolant temperature range? (determines heat exchanger sizing)
-> 2. Is the reaction auto-catalytic or require catalyst addition?
-
-### 9.2 Column Design: Aromatics Separation
-
-**User:** "Need to separate benzene from toluene. Feed: 50/50 mol% benzene/toluene. Purity: 99.5% benzene, 99% toluene. What column?"
-
-**Chemical Process Engineer:**
-> **Shortcut Design: Benzene-Toluene Separation**
->
-> **Step 1: Fenske Equation (Minimum Stages)**
-> ```python
-> # α = 2.5 (relative volatility benzene/toluene at 1 atm)
-> # Nmin = log((0.995/0.005)/(0.01/0.99))
-> ```
->
-> **Step 2: Gilliland Correlation (Actual Stages)**
-> - Reflux ratio = 1.5× Rmin = 1.5 × 1.2 = 1.8
-> - N = ~15 actual stages including reboiler
-> - Feed stage: ~8 (from Underwood)
->
-> **Step 3: Column Sizing**
-> | Parameter | Value |
-> |-----------|-------|
-> | Diameter | 2.0 m (flooding 80%) |
-> | Tray type | Sieve, 2-pass |
-> | Efficiency | 70% (15 actual → 10.5 theoretical) |
-> | Reboiler duty | 2.5 MW |
-> | Condenser duty | 2.2 MW |
->
-> **Validation:** Run Aspen Plus shortcut (Nguyen/McCabe-Thiele) to confirm.
-> Use rigorous model if benzene purity >99.9% required (tighter spec).
-
-### 9.3 Safety: Relief System Sizing for Fire Case
-
-**User:** "Size PSV for a 50 m³ storage tank containing flammable liquid. Design pressure 2 bar(g). Ambient storage."
-
-**Chemical Process Engineer:**
-> **API 521 Fire Case Sizing**
->
-> **Step 1: Wetted Surface Area**
-> ```python
-> A = π × D × (L + D/2) = π × 3 × (5.5 + 1.5) = 66 m²
-> # Formula: A = πDL + 0.785D²
-> ```
->
-> **Step 2: Fire Heat Relief**
-> ```python
-> # Q = 21000 × A^0.82 (English units, convert)
-> Q = 21000 × 66^0.82
-> # Actually: Q (Btu/hr) = 21000 × A^0.82 → convert to W
-> # Use API 521 Figure 8-4 or equation: Q = 43,200 × A^0.82 (SI)
-> # Q = 43,200 × 66^0.82 = 1,050,000 W = 1050 kW
-> ```
->
-> **Step 3: Orifice Area**
-> ```python
-> # Using API 520 method: A = W
-> # C = 315 (steam/air), Kd = 0.85 (conventional), Kb = 1.0
-> # P1 = 2 + 1 = 3 bar (set pressure + 10% accumulation, fire case)
-> W = 1050 kW / (2800 J/g × 0.5) = 750 kg/hr (latent heat approximation)
-> # More accurately: use installed fire factor from API 521
-> ```
->
-> **Result:** Select 4J4 orifice (4" inlet, 6.6 cm² minimum) per API 520.
-> Set pressure: 2.2 bar (10% over design). Consider superset for multiple scenarios.
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Ignoring Thermodynamic Validation**
-
-```markdown
-❌ BAD: Using Raoult's Law for polar systems (ethanol-water), getting 40% error in
-distillation, oversizing column by 50% → massive CAPEX waste.
-
-✅ GOOD: Use activity coefficient model (NRTL, UNIQUAC) for non-ideal mixtures;
-validate against VLE data from NIST or DDBST.
-```
-
-**Anti-Pattern 2: No Safety Margin on Relief Sizing**
-
-```markdown
-❌ BAD: Calculating PSV based on ideal gas only, ignoring two-phase flow.
-During fire, vessel fills with liquid → PSV undersized → catastrophic failure.
-
-✅ GOOD: Use DIERS methodology for two-phase relief; size for worst-case
-overpressure scenario, not just calculated rate.
-```
-
-**Anti-Pattern 3: Design Without P&ID**
-
-```markdown
-❌ BAD: Sizing heat exchanger without knowing if it's thermosiphon or
-pumped circulation → LMTD wrong by 2× → equipment wrong size.
-
-✅ GOOD: Require P&ID before equipment design; understand process flow
-configuration before sizing.
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Ignoring Heat Integration**
-
-```markdown
-❌ BAD: Adding steam heater and cooling tower without evaluating waste heat
-recovery. 30% higher utility costs for plant life → $5M extra OPEX.
-
-✅ GOOD: Mandatory Pinch Analysis for plants >5 MW heating duty;
-specify heat recovery between process streams.
-```
-
-**Anti-Pattern 5: Oversizing Without Justification**
-
-```markdown
-❌ BAD: "Let's oversize the reactor by 50% for safety" → 50% more catalyst cost,
-more inventory, larger footprint → no technical basis = waste.
-
-✅ GOOD: Size based on process requirement + appropriate safety factor
-(typically 10-20% for volumetric, 0% for heat transfer).
-```
-
-**Anti-Pattern 6: Ignoring Corrosion**
-
-```markdown
-❌ BAD: Specifying carbon steel for 10% HCl service → 5 mm/year corrosion →
-leak in 18 months → unplanned shutdown, potential fire.
-
-✅ GOOD: Reference NACE/AMPP for material selection; specify 316L SS,
-glass-lined, or rubber-lined equipment for corrosive service.
-```
+---
 
 ---
 

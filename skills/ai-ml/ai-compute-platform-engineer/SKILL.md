@@ -205,129 +205,25 @@ Example breakdown for 48% MFU:
 
 ## 7. Standards & Reference
 
-### 7.1 Network Topology Comparison
+See [references/07-standards.md](references/07-standards.md)
 
-| Topology / 拓扑 | BW per Node / 节点带宽 | Cost Scaling / 成本扩展 | Best For
-|----------------|----------------------|------------------------|------------------|
-| **Rail-Optimized Fat-Tree** | 8× 200 Gb/s IB = 1.6 Tb/s | O(N log N) | Large clusters (>512 GPUs); standard for H100 DGX pods |
-| **Spine-Leaf (2-tier)** | 4× 400 Gb/s IB = 1.6 Tb/s | O(N) but limited scale | Mid-size clusters (<512 nodes); simpler operations |
-| **NVLink + IB** | NVLink: 900 GB/s (intra-node); IB: 400 Gb/s (inter-node) | High upfront (NVSwitch) | Dense all-reduce within DGX node, scale-out across nodes |
-| **RoCEv2 Ethernet** | 2× 400 GbE = 800 Gbps | Lower cost than IB | Cost-sensitive clusters; acceptable for DP-heavy workloads |
-
-### 7.2 Key Metrics & Targets
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|--------------|
-| **MFU (Model FLOP Utilization)** | actual_FLOPS
-| **Cluster GPU Utilization** | GPU-hours used
-| **Job Completion Rate** | Completed jobs
-| **NCCL All-Reduce BW** | measured_busbw
-| **Checkpoint Recovery Time** | Time from failure → training resumed | <5 minutes for production clusters |
-| **Mean Time Between Job Failure** | training_hours
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 New Cluster Bring-Up
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Hardware Validation (2–4 weeks)
-├── GPU health check: nvidia-smi, DCGM DIAG, ECC error baseline
-├── Network validation: IB link speed test (ib_send_bw), fabric latency (ib_send_lat)
-├── NCCL bandwidth test: nccl-tests all-reduce across 8, 64, 512, all nodes
-│   Target: >70% of theoretical IB BW at large message sizes (>1 GB)
-├── Storage I/O: fio benchmark on Lustre OSTs; measure per-OST IOPS and bandwidth
-└── Baseline MFU: run standard training script (GPT-2, Llama-7B) → record MFU
-
-Phase 2: Software Stack Configuration (1–2 weeks)
-├── SLURM: configure partitions, QoS, backfill scheduler, gang scheduling
-├── Container: build NCCL-optimized container (CUDA 12.x, NCCL 2.20+, PyTorch nightly)
-├── Monitoring: deploy DCGM exporter → Prometheus → Grafana dashboards
-│   Key dashboards: per-GPU power/temp, MFU time-series, NCCL bandwidth, job queue depth
-└── Checkpoint: configure shared Lustre quota, implement sharded checkpoint pipeline
-
-Phase 3: Production Hardening (ongoing)
-├── Fault injection test: simulate GPU failure mid-training; verify recovery < 5 min
-├── Checkpoint integrity: verify load after write on every checkpoint (hash check)
-├── Preemption test: verify jobs resume correctly after SLURM preemption
-└── Runbook: document top 10 failure modes and recovery procedures (on-call wiki)
-```
-
-### 8.2 MFU Optimization Process
-
-```
-Step 1: Profile baseline MFU with NVIDIA Nsight Systems
-  → Identify top 3 time sinks (comm wait, compute, I/O)
-
-Step 2: Tune NCCL if communication > 20% of step time
-  → export NCCL_ALGO=Ring for large messages (>1 MB); Tree for small
-  → export NCCL_BUFFSIZE=33554432 (32MB) — increase for large clusters
-  → export NCCL_SOCKET_IFNAME=ib0 — force IB interface (avoid Ethernet fallback)
-
-Step 3: Tune parallelism if pipeline bubble > 15%
-  → Reduce PP degree; increase microbatch count to hide bubble
-  → Formula: bubble_ratio = (PP-1)
-  → Target bubble_ratio < 5% → num_microbatches > 20×(PP-1)
-
-Step 4: Tune checkpoint if I/O > 5% of step time
-  → Switch from full checkpoint to per-rank sharded (PyTorch DCP)
-  → async checkpoint: write in background thread while next step runs
-  → Verify checkpoint doesn't block training: add timing assert
-
-Step 5: Validate: re-run Nsight profile → confirm MFU improvement
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Scenario: Designing a 1024-GPU H100 Cluster
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "We're buying 1024 H100 SXM GPUs (128 DGX H100 nodes) for LLaMA-class training. Design the network topology and estimate achievable MFU."
-
-**AI Compute Platform Engineer:**
-> **Step 1 — Node Configuration:**
-> - 1 DGX H100 node = 8× H100 SXM (80 GB) + NVLink Switch (900 GB/s intra-node all-reduce)
-> - NVLink BW: 900 GB/s bidirectional — fast enough for TP=8 within node
-> - Inter-node: 8× 400 Gb/s InfiniBand NDR per node = **3.2 Tb/s = 400 GB/s per node**
->
-> **Step 2 — Network Topology (Rail-Optimized Fat-Tree):**
->
-> ```
-> 128 DGX nodes × 8 IB ports = 1,024 IB ports total
->
-> Topology: 2-tier fat-tree, rail-optimized
-> ├── Leaf tier: 16 leaf switches (64-port IB NDR)
-> │   Each leaf: 32 downlinks to nodes + 32 uplinks to spine
-> │   Oversubscription: 1:1 (non-blocking) — full bisection BW
-> └── Spine tier: 16 spine switches (64-port IB NDR)
->     Each spine connected to all 16 leaf switches
->
-> Bisection bandwidth: 128 nodes × 400 GB/s / 2 = 25.6 TB/s
-> ```
->
-> **Step 3 — NCCL All-Reduce Bandwidth Analysis:**
->
-> - Ring all-reduce BW per GPU: 400 GB/s / 8 GPUs × (N-1)/N ≈ 50 GB/s per GPU
-> - For LLaMA-70B training (FP8, gradient size per step):
->   - Model params: 70B × 2 bytes (FP16 master weights) = 140 GB
->   - Per step all-reduce: 2 × (N-1)/N × gradient_size ≈ 280 GB at full DP
->   - At TP=8, PP=4, DP=32: gradient all-reduce = 280 GB
->   - All-reduce time: 8.75 GB / 50 GB/s = **175ms** per step
->
-> **Step 4 — MFU Estimate:**
->
-> | Loss Source | MFU Reduction | Notes |
-> |-------------|--------------|-------|
-> | Pipeline bubble (PP=4, 8 microbatches) | -15% | bubble_ratio = 3/8 = 37.5% → use 32 microbatches |
-> | All-reduce overhead (175ms
-> | Activation recomputation | -8% | Required for 80 GB VRAM with 70B model |
-> | Checkpoint every 200 steps (30s amortized) | -3% | Async checkpoint, minimal blocking |
->
-> **Projected MFU: 100% - 15% - 10% - 8% - 3% ≈ 64% → realistic: 50–58% accounting for inefficiencies**
->
-> **Recommendation**: increase microbatches to 32 (from 8) to reduce pipeline bubble from 37.5% to 9.4%; this alone adds ~10% MFU.
+---
 
 ---
 
@@ -450,47 +346,9 @@ Step 5: Validate: re-run Nsight profile → confirm MFU improvement
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Synchronous Checkpoint Blocking Training
-
-```
-❌ BAD: Save full checkpoint every 500 steps → 280 GB LLaMA-70B checkpoint → 56 seconds blocked
-        At 20 sec/step: 500 steps = 2.78 hours; 56s checkpoint = 3.4% MFU loss PER checkpoint
-        If checkpoint is buggy, you lose 2.78 hours of compute
-
-✅ GOOD: Async checkpoint to background thread; sharded per-rank (DCP)
-        Each rank saves only its shard (~280 GB
-        Async write: training continues immediately; no blocking
-        Verify integrity: compare checkpoint hash vs. saved hash after write
-```
-
-**Anti-Pattern 2: Not Validating NCCL Uses InfiniBand
-
-```
-❌ BAD: Deploy cluster; NCCL silently falls back to TCP Ethernet (10 Gb/s vs. 200 Gb/s IB)
-        Observed MFU: 18% — 2.5× below expectation; team spends 2 weeks debugging
-
-✅ GOOD: On every training start, add NCCL debug logging:
-        export NCCL_DEBUG=INFO
-        grep "NET/IB" in init logs — if missing, check NCCL_SOCKET_IFNAME
-        Run nccl-tests all_reduce_perf: must achieve >120 GB/s busbw for 200 Gb/s IB
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 3: Over-Provisioning InfiniBand
-
-```
-❌ BAD: "Buy 2× IB NICs per node for redundancy" — costs 40% more than necessary
-        For DP-only training, IB BW is rarely the bottleneck beyond 4× NICs
-
-✅ GOOD: Size IB based on gradient traffic:
-        Required BW = 2 × grad_size
-        For LLaMA-70B, FP16 grads, 20s step: 2 × 140GB / 20s = 14 GB/s per node
-        4× 200 Gb/s IB = 4 × 25 GB/s = 100 GB/s — 7× headroom for TP overhead
-        Additional IB only needed if pipeline parallelism >8 stages
-```
+---
 
 ---
 

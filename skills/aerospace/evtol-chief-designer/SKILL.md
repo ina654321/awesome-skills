@@ -178,153 +178,25 @@ This skill transforms your AI assistant into an expert **eVTOL Chief Designer** 
 
 ## § 7 Standards & Reference
 
-### Regulatory Framework for eVTOL Certification
-```
-FAA (USA):                         EASA (EU):
-  Part 23 PoweredLift (G-1 basis)    SC-VTOL-01 + AMC-20-35
-  or Part 27 (small rotorcraft)       CS-23 (for fixed-wing modes)
-  FAA AMC EVTOL (2024)               Special Conditions as needed
-       ↑                                    ↑
-  Issue Papers for novel features     EASA AMC EVTOL discussions
-```
+See [references/07-standards.md](references/07-standards.md)
 
-### Key Performance Metrics
-| Metric | Target | Warning | Critical |
-|--------|--------|---------|---------|
-| Empty Weight Fraction (EWF) | < 0.52 | 0.52–0.58 | > 0.58 (mission viability at risk) |
-| Hover Figure of Merit (FM) | > 0.75 | 0.65–0.75 | < 0.65 |
-| Hover power loading (N/kW) | > 100 N/kW | 80–100 | < 80 N/kW |
-| Cruise L/D (lift+cruise config) | > 10 | 8–10 | < 8 |
-| Specific energy (battery cells) | > 280 Wh/kg | 250–280 | < 250 Wh/kg |
-| Rotor tip speed (acoustic) | < 180 m/s | 180–220 m/s | > 220 m/s (community concern) |
-| Structural weight (% MTOW) | 20–26% | 26–30% | > 30% |
-| Power redundancy margin (single-failure) | ≥ 25% | 15–25% | < 15% |
-
-### Configuration Trade Decision Tree
-```
-Mission Range?
-├─ < 30 km (urban shuttle)
-│   └─ Noise priority?
-│       ├─ YES → Multirotor (low tip speed, high disk area, community accepted)
-│       └─ NO  → Lift+Cruise (better cruise efficiency, higher noise)
-└─ 30–150 km (regional)
-    └─ Payload > 4 passengers?
-        ├─ YES → Tiltwing / Tiltrotor (best cruise L/D, complex cert)
-        └─ NO  → Lift+Cruise (simpler cert, acceptable cruise perf)
-```
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Concept Definition & Mission Analysis
-```
-1.1 Mission Requirements Definition
-  - [ ] Define design mission: range (km), payload (kg/PAX), cruise speed (km/h), hover duration
-  - [ ] Define alternate missions: OEI (One Engine Inoperative) go-around, emergency landing
-  - [ ] Define environmental envelope: temperature (-20°C to +45°C), altitude (MSL to 6000 ft)
-  - [✓ Done] Output: Mission Requirements Document (MRD) signed by stakeholders
-  - [✗ FAIL] If battery energy density < 250 Wh/kg AND range > 80 km → mission not physically viable at MTOW < 3000 kg
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Configuration Trade Study
-  - [ ] Size 3 candidate configurations (e.g., multirotor, lift+cruise, tiltwing) using NDARC
-  - [ ] Compute hover power, cruise power, battery mass, and empty weight for each
-  - [ ] Evaluate acoustic signature (tip speed, blade count), cert complexity, and manufacturing cost
-  - [✓ Done] Output: Configuration Trade Report with selected architecture and rationale
-  - [✗ FAIL] If all configurations exceed EWF > 0.60 → revisit mission requirements or wait for better battery technology
-
-1.3 Certification Basis Selection
-  - [ ] Engage FAA/EASA Aircraft Certification Office (ACO/EASA) for pre-application meeting
-  - [ ] Define regulatory basis: Part 23 PoweredLift / SC-VTOL
-  - [ ] Identify areas requiring Issue Papers (novel failure modes, electric propulsion, distributed propulsion)
-  - [✓ Done] Output: Certification Plan (CP) accepted by certifying authority
-```
-
-### Phase 2: Preliminary Design
-```
-2.1 Aerodynamic Sizing
-  - [ ] Rotor sizing: radius, blade count, chord, twist for target FM > 0.75
-  - [ ] Wing sizing (if applicable): area, AR, taper for cruise L/D > 10
-  - [ ] Motor/nacelle placement: optimize for rotor-wing interference, accessible for maintenance
-  - [ ] CFD of hover+transition flow field; validate with BEMT predictions
-  - [✓ Done] Output: Aerodynamic Database (ADB) v1.0 with uncertainty bounds
-  - [✗ FAIL] If hover power > OEI-survivable level → add rotors or increase disk area
-
-2.2 Propulsion System Sizing
-  - [ ] Motor sizing: peak power, continuous power, torque, RPM
-  - [ ] Battery pack sizing: energy, max C-rate, cell chemistry selection (NMC/LFP)
-  - [ ] Thermal management: motor cooling (air/liquid), battery thermal runway mitigation
-  - [ ] BMS design: cell balancing, fault detection, emergency power disconnect
-  - [✓ Done] Output: Propulsion System Specification with weight and performance margins
-  - [✗ FAIL] If battery mass > 35% MTOW → re-evaluate mission range or configuration
-
-2.3 Structural Layout & Weight Estimation
-  - [ ] Primary structure: fuselage, wing spar, motor mount load paths
-  - [ ] Material selection: CFRP for primary structure, GFRP for secondary
-  - [ ] Statistical weight estimation; compare to similar vehicles (NDARC database)
-  - [ ] Identify highest-weight items for aggressive mass reduction
-  - [✓ Done] Output: Weight Statement v1.0 with EWF target ≤ 0.54
-```
-
-### Phase 3: Detailed Design, Integration & Certification Testing
-```
-3.1 System Integration & Safety Analysis
-  - [ ] FMEA for all propulsion, avionics, and control system components
-  - [ ] FTA for Loss-of-Control and Catastrophic failure modes
-  - [ ] Define Minimum Equipment List (MEL) and dispatch conditions
-  - [✓ Done] Output: System Safety Assessment (SSA) v1.0
-
-3.2 Flight Test Planning
-  - [ ] Define flight envelope expansion sequence: ground runs → hover taxi → low-altitude hover → transition → cruise
-  - [ ] Identify test points for stability & control (S&C), performance, and loads
-  - [ ] Plan OEI certification flight tests; define test pilot safety procedures
-  - [✓ Done] Output: Flight Test Plan (FTP) with test matrix and safety limits
-
-3.3 Certification Compliance Demonstration
-  - [ ] Complete all required rig and ground tests per Certification Plan
-  - [ ] File compliance statements for each regulatory requirement
-  - [ ] Respond to certifying authority Comments/Questions within 30 business days
-  - [✓ Done] Output: Type Certificate (TC) or Supplemental Type Certificate (STC) issued
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: 4-PAX Urban Air Taxi Configuration Selection
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: We're designing a 4-passenger eVTOL for 60 km urban routes at 250 km/h cruise. Should we go multirotor, lift+cruise, or tiltwing?
-
-**Expert**:
-> Let me work through this systematically. Your mission requirements essentially rule out multirotor:
->
-> **Quick physics check** (60 km range, 250 km/h cruise):
-> ```
-> Mission energy = (P_hover × t_hover) + (P_cruise × t_cruise)
->
-> Multirotor at 250 km/h: disk loading ~50 kg/m², body drag dominates
->   → P_cruise/P_hover ratio ≈ 3-4× (terrible cruise efficiency)
->   → At 300 Wh/kg cells: would need battery ≈ 55-60% MTOW (infeasible)
->
-> Lift+Cruise (wing + separate hover rotors):
->   → Cruise L/D ~10-12, cruise power ~120 kW for 2000 kg MTOW
->   → Battery mass ~600 kg for mission + reserves → ~30% MTOW ✓
->   → Hover rotors stowed in cruise: parasitic drag ~5%
->
-> Tiltwing (rotors tilt with wing):
->   → Cruise L/D ~14-16 (rotor in best-efficiency configuration)
->   → Battery mass ~480 kg → ~24% MTOW ✓
->   → Complex tilting mechanism: weight penalty ~80-120 kg, cert complexity HIGH
-> ```
->
-> **Recommendation: Lift+Cruise for 2026-2028 entry**
-> - Certification is tractable: FAA Part 23 PoweredLift basis with SC-VTOL considerations
-> - Comparable economics to tiltwing but 18-24 months faster to TC
-> - Tiltwing is the right choice if you're willing to invest in complex cert program for 15-20% lower operating cost at scale
->
-> **Critical design constraint for lift+cruise**: Size hover rotors for 25% power margin post single-motor failure. With 6 rotors, single-motor loss means 5/6 × nominal hover power = 83% — you need that 25% margin to complete the hover and land safely.
->
-> Want me to run a preliminary NDARC-style sizing to validate battery mass and EWF for this configuration?
+---
 
 ---
 
@@ -411,23 +283,9 @@ Mission Range?
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Optimistic Battery Energy Density
-**❌ BAD**: Sizing eVTOL battery using press-release energy densities (400+ Wh/kg)
-```
-# Wrong: using best-case future cell energy density in 2026 design
-battery_energy_density = 400  # Wh/kg (this is R&D cell, not production pack)
-battery_mass = mission_energy
-```
-**✅ GOOD**: Use production pack-level energy density with degradation allowance
-```python
-# Correct: pack-level energy density with 20% end-of-life reserve
-cell_energy_density = 300  # Wh/kg (NMC 811 cell, achievable in 2026)
-pack_efficiency = 0.85      # Cell → pack (BMS, housing, wiring losses)
-eol_factor = 0.80           # 80% usable at end of service life (5 years)
-usable_pack_energy_density = cell_energy_density * pack_efficiency * eol_factor
-# = 204 Wh/kg — this is your actual design number
-```
-**Why it matters**: Overoptimistic energy density assumptions are the #1 cause of eVTOL range shortfalls in flight test. Joby, Archer, and Lilium all encountered this.
+See [references/10-pitfalls.md](references/10-pitfalls.md)
+
+---
 
 ---
 

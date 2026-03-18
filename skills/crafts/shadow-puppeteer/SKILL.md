@@ -186,190 +186,33 @@ Story is king—every technical element serves the emotional truth of the narrat
 
 ## 7. Standards & Reference
 
-### 7.1 Chinese Shadow Puppet Detail Levels
+See [references/07-standards.md](references/07-standards.md)
 
-| Level | Name | Detail | Typical Use |
-|-------|------|--------|-------------|
-| 1 | **粗做** (Coarse) | Simple silhouette, no internal detail | Background figures, crowds |
-| 2 | **细做** (Refined) | Basic features, simple costume patterns | Supporting characters |
-| 3 | **精做** (Exquisite) | Full facial features, detailed costume | Main supporting cast |
-| 4 | **极精做** (Superb) | Intricate patterns, multiple layers | Protagonists, deities |
-| 5 | **绝活** (Masterwork) | Extreme detail, translucent in places | Specialty pieces, masters |
-
-### 7.2 Movement Vocabulary
-
-| Movement | Chinese | Description | Use Context |
-|----------|---------|-------------|-------------|
-| **Lift** | 挑 | Raise puppet vertically | Emotional peaks, important moments |
-| **Wave** | 摆 | Side-to-side oscillation | Walking, floating, underwater scenes |
-| **Twist** | 拧 | Rotate puppet on axis | Turning around, surprise |
-| **Flutter** | 颤 | Rapid small oscillations | Fear, cold, illness |
-| **Circle** | 绕 | Circular path | Dancing, celestial movement |
-| **Dip** | 抑 | Lower suddenly | Sadness, defeat, hiding |
-
-### 7.3 Traditional Repertoire Genres
-
-| Genre | Content | Duration | Style |
-|-------|---------|----------|-------|
-| **历史戏** (Historical) | Dynastic stories, court drama | 2-4 hours | Serious, formal |
-| **军事戏** (Military) | Battles, campaigns, heroes | 1-3 hours | Dynamic, action-focused |
-| **爱情戏** (Romance) | Folk love stories | 1-2 hours | Emotional, lyrical |
-| **生活戏** (Folk) | Everyday stories, comedy | 30min-1 hour | Humorous, accessible |
-| **神话戏** (Mythological) | Fairy tales, legends | 1-2 hours | Spectacular, magical |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Puppet Creation
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Design (Concept)
-├── Determine character role and function in story
-├── Sketch design considering: silhouette clarity, articulation points, costume elements
-└── [✓ Done]: Approved design sketch with front and side views
-    [✗ FAIL]: Design unclear → Revise before cutting leather
-
-Phase 2: Material Preparation
-├── Select appropriate hide (lambskin for detail, goatskin for durability)
-├── Soak in water (2-4 hours) to make leather pliable
-├── Stretch and flatten on board to dry
-└── [✓ Done]: Prepared leather, ready for tracing
-
-Phase 3: Carving
-├── Trace design onto leather using tracing wheel
-├── Cut outer outline with swivel knife
-├── Punch internal details with appropriate tools
-├── Scrape thin areas for flexibility where needed (joints, neck)
-└── [✓ Done]: Carved puppet with clean edges and proper detail level
-
-Phase 4: Assembly
-├── Attach bamboo handles to body (main), arms (secondary), head (if separate)
-├── Add any detachable parts (hats, props) with paper hinges
-└── [✓ Done]: Complete puppet with proper balance for manipulation
-```
-
-### 8.2 Performance Setup
-
-```
-Step 1: Screen setup — vertical white cloth/canvas screen, 1.5m x 2m minimum
-Step 2: Lamp position — 0.5m behind screen, centered, adjustable height
-Step 3: Performer position — standing behind screen, puppet at waist level
-Step 4: Sound check — voice projection, music cue testing
-Step 5: Final rehearsal — run through key scenes with lighting transitions
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Traditional Performance Commission
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我要在春节联欢会上表演一段皮影戏，有20分钟，适合全家观看，有什么推荐？"
-
-**Shadow Puppeteer:**
-> **春节皮影戏推荐分析**
->
-> **推荐: 《猪八戒背媳妇》** (Folk comedy, 25分钟)
-> | 元素 | 设计说明 |
-> |------|----------|
-> | 角色 | 猪八戒(喜剧主角), 孙悟空(动作亮点), 高小姐(反转) |
-> | 风格 | 幽默为主，适合家庭观众，有互动段落 |
-> | 亮点 | 八戒背媳妇的夸张动作——利用皮影的夸张特点 |
-> | 音乐 | 建议用地方戏曲曲牌，如《柳青娘》 |
->
-> **关键考量**:
-> - 春节要 **热闹、吉祥**，避免悲剧结尾
-> - 20分钟容量建议选 **折子戏**，不是整本戏
-> - 需要准备 **简单布景**（月亮、树林）增加视觉丰富度
->
-> **Next, I need from you:**
-> 1. 有几位表演者？（决定角色数量和切换频率）
-> 2. 有传统乐队还是只用音乐播放？
-
-### 9.2 Educational Workshop
-
-**User:** "我想在学校开设皮影戏兴趣班，教10-14岁学生，需要从基础教起"
-
-**Shadow Puppeteer:**
-> **青少年皮影课程设计**
->
-> **Week 1-2: 认知与欣赏**
-> - 观看经典皮影剧目片段
-> - 了解皮影历史与文化价值
-> - 认识基本工具和材料
->
-> **Week 3-4: 基础雕刻**
-> - 简单几何形状练习（圆形、方形）
-> - 基础刀法：直线、曲线
-> - 制作简易小动物（鱼、鸟）
->
-> **Week 5-6: 基础操作**
-> - 单一uppet控制（上下左右）
-> - 配合呼吸的基本动作
-> - 简单故事表演（2-3分钟）
->
-> **推荐材料**:
-> - 使用 **透明塑料片** 而非动物皮（更安全、更便宜）
-> - 使用 **LED台灯** 而非蜡烛（更安全）
->
-> **展示建议**: 学期末举办小型的 "影子派对"，邀请家长观看
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Over-Detailed Puppet
-
-```markdown
-❌ BAD: Carving every button, fold, pattern detail → puppet looks busy on screen →
-audience can't read the character quickly
-
-✅ GOOD: Follow 5-level system; simplify to essential silhouettes; detail should enhance,
-not obscure, the character
-```
-
-**Anti-Pattern 2: Static Performance
-
-```markdown
-❌ BAD: Puppet stands in one position while character "talks" → feels like watching
-a cutout, not a living being
-
-✅ GOOD: Constant subtle movement—puppet should "breathe"; add small gestures
-to emphasize dialogue; character moves even when listening
-```
-
-**Anti-Pattern 3: Light as Afterthought
-
-```markdown
-❌ BAD: Using any available light source without considering shadow quality → harsh
-edges, hot spots, inconsistent performance
-
-✅ GOOD: Position lamp carefully (usually 30-50cm from screen); use consistent
-color temperature; test shadow from performer's viewing angle
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Ignoring Screen Material
-
-```markdown
-❌ BAD: Using white bedsheet → too thin, shows performer's hands; too thick → dims light
-
-✅ GOOD: Use purpose-made screen material or cotton muslin (120-180 thread count),
-opaque but translucent enough for sharp shadows
-```
-
-**Anti-Pattern 5: One-Puppet-All-Roles
-
-```markdown
-❌ BAD: Using same puppet for hero and villain with no distinction → audience confusion
-
-✅ GOOD: Even in simple performances, use at least 2-3 different puppets with
-distinct silhouettes; quick costume changes add professionalism
-```
+---
 
 ---
 

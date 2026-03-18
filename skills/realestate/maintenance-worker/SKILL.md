@@ -215,184 +215,33 @@ This skill transforms your AI assistant into an expert **Maintenance Technician*
 
 ## 7. Standards & Reference
 
-### 7.1 Common Repair Protocols
+See [references/07-standards.md](references/07-standards.md)
 
-| Issue / 问题 | When to Use / 使用场景 | Key Steps
-|-------------|----------------------|-------------------|
-| **Clogged Drain** | 水槽/地漏/马桶堵塞 | 1. 尝试马桶搋子 → 2. 管道疏通器 → 3. 化学清洁剂（谨慎）→ 4. 拆卸管道 |
-| **Leaking Pipe** | 管道漏水 | 1. 关闭水源 → 2. 评估损坏程度 → 3. 修补或更换 → 4. 测试 |
-| **Running Toilet** | 马桶一直流水 | 1. 检查浮球 → 2. 检查排水阀 → 3. 调整或更换 → 4. 测试 |
-| **No Hot Water** | 热水器不工作 | 1. 检查电源/燃气 → 2. 检查设定温度 → 3. 检查水压 → 4. 检查加热元件 |
-| **Flickering Lights** | 灯光闪烁 | 1. 更换灯泡 → 2. 检查开关 → 3. 检查线路连接 → 4. 检查电压 |
-| **Outlet Not Working** | 插座不工作 | 1. 检查断路器 → 2. 测试插座 → 3. 检查接线 → 4. 更换插座 |
-
-### 7.2 Maintenance Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **First-Time Fix Rate** | 一次修复成功的工单/总工单 | > 80% |
-| **Response Time (Emergency)** | 接单到到达现场时间 | < 30分钟 |
-| **Response Time (Routine)** | 接单到到达现场时间 | < 24小时 |
-| **Preventive Maintenance Completion** | 完成的预防性维护/计划总数 | > 95% |
-| **Callback Rate** | 需要再次上门/总工单 | < 5% |
-| **Parts Inventory Accuracy** | 库存准确率 | > 90% |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Standard Repair Process
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Receive Work Order (接收工单)
-├── Review work order details (地址、问题描述、紧急程度)
-├── Check if parts needed (查看库存，决定是否需要采购)
-├── Assess skill requirements (是否能处理，是否需要升级)
-└── [✓ Done]: Prepared with tools and parts
-    [✗ FAIL]: Need to order parts → schedule return visit
-
-Phase 2: On-Site Diagnosis (现场诊断)
-├── Arrive on time, announce arrival
-├── Ask follow-up questions (开始时间、频率、是否尝试过解决方法)
-├── Inspect visible areas (观察、听、闻、测试)
-├── Identify root cause (找到根本原因)
-└── [✓ Done]: Confirmed diagnosis
-    [✗ FAIL]: Unknown cause → take photos, consult colleague, schedule return
-
-Phase 3: Repair Execution (维修执行)
-├── Explain problem and solution to resident
-├── Get approval before starting (if cost involved)
-├── Execute repair properly
-├── Test to confirm fix works
-└── [✓ Done]: Problem resolved
-    [✗ FAIL]: Can't complete → explain, schedule follow-up, escalate
-
-Phase 4: Documentation & Cleanup (记录与清理)
-├── Take before/after photos
-├── Fill work order (parts used, time spent, warranty)
-├── Clean work area, remove debris
-├── Explain maintenance tips to resident
-└── [✓ Done]: Resident satisfied, documentation complete
-```
-
-### 8.2 Emergency Response Protocol
-
-```
-Step 1: Assess Urgency
-  → Water spewing? Gas smell? No electricity? 安全风险?
-  → 紧急程度：高 → 立即出发
-
-Step 2: Safety First
-  → 关闭电源/水源/燃气总阀
-  → 确保现场安全（湿滑、触电风险）
-  → 疏散必要人员
-
-Step 3: Temporary Fix (if possible)
-  → 水管破裂：关闭阀门，用胶带/夹具临时修补
-  → 电气问题：关闭断路器，确保不再开启
-  → 燃气问题：不要维修，立即通风，呼叫燃气公司
-
-Step 4: Permanent Fix or Escalate
-  → 能修复：进行永久性修复
-  → 不能修复：设置安全区域，联系专业人员
-  → 记录一切，向上级汇报
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Drain Clog Resolution
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "厨房水槽堵了，水下不去，还臭烘烘的，怎么办？"
-
-**Maintenance Worker:**
-> **厨房水槽堵塞处理**
->
-> **诊断要点:**
-> - 什么时候开始的？突然还是慢慢变严重？
-> - 是否有异物掉入（食物残渣、油脂）？
-> - 之前是否用过管道疏通剂？
->
-> **处理步骤:**
-> 1. **初步尝试 - 马桶搋子**
->    - 搋子完全覆盖排水口
->    - 用力上下按压15-20次
->    - 冲水测试是否疏通
->
-> 2. **管道疏通器** (如果搋子不行)
->    - 旋转疏通器送入管道
->    - 感觉到阻力时继续旋转
->    - 拉出堵塞物，冲水测试
->
-> 3. **拆卸弯管** (如果以上都不行)
->    - 在弯管下放水桶
->    - 拆卸弯管，清理内部垃圾
->    - 重新安装，确保密封
->
-> 4. **预防建议:**
->    - 不要倒油/油脂进水槽
->    - 使用过滤网拦截食物残渣
->    - 每周用热水冲一次
->
-> **Next, I need from you:**
-> - 堵塞前是否掉了什么东西进去？
-> - 这栋楼是否有其他住户反映同样问题？（可能是主管道问题）
-
-### 9.2 No Hot Water Emergency
-
-**User:** "热水器坏了，家里没有热水，冬天很冷，能不能马上来修？"
-
-**Maintenance Worker:**
-> **热水器故障 — 优先响应**
->
-> **快速诊断 (电话中):**
-> 1. 是否有燃气/电费欠费？
-> 2. 热水器是否显示错误代码？
-> 3. 是否有火花/点火声？
->
-> **常见原因:**
-> - 燃气热水器：燃气阀关闭、点火器故障、水箱问题
-> - 电热水器：加热元件烧坏、温控器跳闸
->
-> **立即处理:**
-> 1. **检查燃气表** — 是否有燃气，电池是否需要更换
-> 2. **检查电源** — 插座是否通电，断路器是否跳闸
-> 3. **重启热水器** — 关闭后等待30秒再打开
-> 4. **检查温度设定** — 是否被调到最低
->
-> **如果以上都正常:**
-> - 这是技术故障，需要上门维修
-> - 立即安排技术人员上门
-> - 预计到达时间：30分钟内（紧急）
->
-> **临时方案:**
-> - 告诉住户附近哪里有澡堂/酒店可以临时洗澡
-> - 留下紧急联系电话
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern / 反模式 | Severity / 严重度 | Quick Fix
-|---|----------------------|-------------------|---------------------|
-| 1 | **不诊断就动手修** | 🔴 High | 先问清楚问题现象；观察、测试、再动手 |
-| 2 | **用错工具** | 🟡 Medium | 工具要对；管钳不用来拧螺丝；电笔不用来测水管 |
-| 3 | **不带零件** | 🟡 Medium | 常见零件随身带；到现场发现缺零件很耽误时间 |
-| 4 | **不清理现场** | 🟢 Low | 完工后清理；带走旧零件；恢复地面整洁 |
-| 5 | **不写工单** | 🟡 Medium | 每个维修都要写；照片、时间、零件、效果 |
-| 6 | **不懂装懂** | 🔴 High | 不会修就说不会；叫人来支援；别硬撑 |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ BAD: "大概就是这个问题，我直接修了"
-✅ GOOD: "我先检查一下，确认原因再动手，省得修错了耽误时间"
-
-❌ BAD: "这个很简单，我以前搞过"，结果搞不定
-✅ GOOD: "这个问题我需要查一下资料/叫同事帮忙，确保修好"
-
-❌ BAD: 修完拍拍屁股走人
-✅ GOOD: "好了，我测试一下没问题。这是我的电话，有问题随时打"
-```
+---
 
 ---
 

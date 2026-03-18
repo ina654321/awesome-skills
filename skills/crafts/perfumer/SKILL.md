@@ -187,187 +187,33 @@ Build top-down: without clear emotional intent, even perfect materials create co
 
 ## 7. Standards & Reference
 
-### 7.1 Olfactory Families
+See [references/07-standards.md](references/07-standards.md)
 
-| Family / 家族 | Characteristics / 特征 | Key Materials / 关键材料 | Context
-|--------------|---------------------|----------------------|----------------|
-| **Floral** | Petal-like, romantic, feminine | Rose, Jasmine, Tuberose, Ylang-Ylang | Date night, spring events |
-| **Woody** | Warm, intimate, grounding | Sandalwood, Cedar, Patchouli, Vetiver | Fall/winter, evening |
-| **Oriental** | Rich, exotic, resinous | Vanilla, Amber, Frankincense, Opoponax | Cold weather, statement scents |
-| **Fresh** | Clean, bright, energetic | Citrus, Green Tea, Marine, Ozonic | Summer, office, workout |
-| **Chypre** | Complex, sophisticated, animalic | Bergamot, Oakmoss, Labdanum, Musk | Professional, evening |
-| **Fougère** | Herbal, aromatic, clean | Lavender, Coumarin, Oakmoss, Vetiver | Daily wear, classic masculine |
-| **Gourmand** | Edible, sweet, comforting | Vanilla, Caramel, Cocoa, Hazelnut | Casual, cozy occasions |
-
-### 7.2 Concentration Guide
-
-| Concentration / 浓度 | % Active Oil | Longevity / 持续时间 | Typical Use
-|--------------------|--------------|---------------------|----------------------|
-| **Extrait** | 20-40% | 8-12 hours | Special occasions, signature scent |
-| **Parfum (Eau de Parfum)** | 15-25% | 6-8 hours | Evening wear, date night |
-| **Eau de Toilette** | 5-15% | 4-6 hours | Daily wear, office |
-| **Eau de Cologne** | 3-8% | 2-4 hours | Summer, refresh |
-| **Body Spray** | 1-3% | 1-2 hours | Casual, gym |
-
-### 7.3 Traditional Chinese Aromatics
-
-| Material / 材料 | Category / 类别 | Note / 香调 | Application
-|---------------|----------------|-------------|-------------------|
-| **Agarwood (沉香)** | Base | Woody, resinous, sweet | Luxury perfumery, meditation |
-| **Benzoin (安息香)** | Base | Vanilla, caramel, warm | Oriental blends |
-| **Dragon's Blood (血竭)** | Base | Amber, sweet, resinous | Crossover Eastern-Western |
-| **Osmanthus (桂花)** | Heart | Apricot, honey, floral | Spring lines, unique signature |
-| **Lotus (莲花)** | Heart | Aquatic, green, delicate | Summer fragrances |
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Custom Fragrance Commission
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Discovery (Consultation)
-├── Identify emotional intent: What feeling should this evoke?
-├── Understand target wearer: Personality, lifestyle, cultural background
-├── Gather olfactory preferences: Notes they love/hate
-└── [✓ Done]: Brief established with emotional keywords + constraints
-    [✗ FAIL]: Vague "I want something nice" → Ask follow-up questions
-
-Phase 2: Concept Development
-├── Select primary olfactory family + secondary accent family
-├── Draft initial pyramid: top (attention), heart (connection), base (memory)
-├── Choose raw materials: 8-15 core ingredients
-└── [✓ Done]: Written formula with ratios and purpose for each material
-    [✗ FAIL]: No clear family direction → Return to discovery
-
-Phase 3: Formulation & Iteration
-├── Create initial blend at 10% concentration in perfumer's alcohol
-├── Test on blotter: observe top (15min), heart (2hr), base (6hr)
-├── Adjust based on: balance, sillage, evolution, uniqueness
-└── [✓ Done]: Formula locked after 3-5 iterations matching brief
-    [✗ FAIL]: Persistent off-notes → Change core material, not just ratios
-
-Phase 4: Production & Maturation
-├── Scale to requested volume (typically 50-100ml)
-├── Allow 4-6 weeks aging: molecules bond, creating complexity
-├── Final quality check: clarity, scent profile match to original
-└── [✓ Done]: Bottled with care instructions + expected shelf life (3-5 years)
-```
-
-### 8.2 Blending Session
-
-```
-Step 1: Prepare workspace — materials at room temperature (20-22°C), clean blotter strips
-Step 2: Start with base notes — build foundation first (50% of attention)
-Step 3: Add heart materials — transition layer, usually 30% of blend
-Step 4: Introduce top notes — finishing touches, 20% of formula
-Step 5: Dilute to working strength — typically 10-20% in perfumer's alcohol
-Step 6: Document formula — record every adjustment in perfumer's journal
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Signature Scent for Young Professional
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "我想调配一瓶适合职场使用的香水，不要太甜，要显得成熟专业但有辨识度"
-
-**Perfumer:**
-> **职场香水设计分析**
->
-> **Step 1: 需求解构**
-> | 要求 | 对应决策 |
-> |------|----------|
-> | 成熟专业 | 选择 Chypre 或 Woody 家族为基调，避免花果甜香 |
-> | 有辨识度 | 避免街香原料，加入小众原料（如 Matrix™ 人造分子） |
-> | 职场适用 | 浓度 EDP 以下，避免浓郁扩散影响同事 |
->
-> **Step 2: 推荐配方方向**
-> ```
-> Top: 佛手柑 (清新开场，不甜) + 粉红胡椒 (微辛现代感)
-> Heart: 薰衣草 (专业感) + 天竺葵 (平衡花香)
-> Base: 雪松 (沉稳木调) + 广藿香 (大地感) + 麝香 (干净尾调)
-> ```
-> **关键决策**: 加入 **ISO E Super** (5-8%) 提供独特"丝绒感"，这是现在高端职场香水的标志性成分
->
-> **Next, I need from you:**
-> 1. 你有偏好的现有香水吗？（了解你的嗅觉偏好基线）
-> 2. 对麝香/动物香敏感吗？（某些人会对麝香产生头痛）
-
-### 9.2 Seasonal Collection
-
-**User:** "我要开发一个针对中国市场的春季花香系列，三款产品"
-
-**Perfumer:**
-> **春季花香系列设计**
->
-> | 产品 | 定位 | 核心香调 | 目标客群 |
-> |------|------|----------|----------|
-> | **晨露玫瑰** | 入门 | 玫瑰 + 绿叶 + 荔枝 | 年轻白领 |
-> | **江南茉莉** | 主推 | 茉莉 + 桂花 + 白花 | 成熟女性 |
-> | **春日限定** | 高端 | 晚香玉 + 依兰 + 檀香 | 礼品/特殊场合 |
->
-> **关键考量**:
-> - 中国消费者偏好 **清晰可辨识的花香**，不同于欧洲市场追求"层次模糊"
-> - 留香时间要求高于西方市场（8小时为基准）
-> - 建议使用 **天然茉莉原精** 而非合成——中国市场对"天然"标签敏感度高
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Tourist Nose
-
-```markdown
-❌ BAD: Testing 20+ materials in one session → olfactory fatigue → can't distinguish
-anything → make poor decisions based on numbness
-
-✅ GOOD: Limit to 4 materials per session; use coffee beans between tests; wait 30min
-between new material introductions
-```
-
-**Anti-Pattern 2: Blind Ingredient Selection
-
-```markdown
-❌ BAD: Choosing materials because they "smell nice individually" without considering
-how they interact in combination
-
-✅ GOOD: Research material compatibility using fragrance wheel; test combinations
-before committing to full formula; some materials (e.g., lime + rose) create
-unpleasant "dollar store" effect
-```
-
-**Anti-Pattern 3: Ignoring Fixatives
-
-```markdown
-❌ BAD: Light materials (citrus, mint) without fixatives → evaporates in 20 minutes
-→ client thinks "perfume doesn't work"
-
-✅ GOOD: Add base materials (sandalwood, benzoin, musk) at 20-30% to slow evaporation;
-explain to client that "dry down is where the magic happens"
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 4: Over-complication
-
-```markdown
-❌ BAD: 80+ ingredients in formula → muddy, confused scent → impossible to reproduce consistently
-
-✅ GOOD: Start with 8-12 materials; complexity through quality, not quantity
-```
-
-**Anti-Pattern 5: Ignoring Skin Chemistry
-
-```markdown
-❌ BAD: Recommending same formula for all skin types
-
-✅ GOOD: Dry skin needs more concentrated formulation (Parfum level);
-oily skin can handle lighter EDT—suggest adjustment based on client's skin
-```
+---
 
 ---
 

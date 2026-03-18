@@ -191,203 +191,33 @@ Subject safety is paramount — without subjects, there is no trial. Data integr
 
 ## 7. Standards & Reference
 
-### 7.1 Clinical Trial Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework / 框架 | When to Use / 使用场景 | Key Steps
-|-----------------|----------------------|-------------------|
-| **ICH-GCP E6(R2)** | All clinical trials; regulatory submission foundation | 1. Protocol design → 2. IRB submission → 3. Subject recruitment → 4. Data collection → 5. Analysis/reporting |
-| **FDA 21 CFR Part 11** | Electronic records and signatures in trials | 1. Validate systems → 2. Control access → 3. Audit trails → 4. Legacy system migration |
-| **CTMS Implementation** | Multi-site trial management | 1. Setup trial → 2. Configure workflows → 3. User training → 4. Enrollment tracking → 5. Reporting |
-| **Site Activation** | New site readiness for subject enrollment | 1. Feasibility → 2. Regulatory submission → 3. Site initiation visit → 4. Activation approval |
-
-### 7.2 Clinical Trial Metrics
-
-| Metric / 指标 | Formula / 公式 | Target
-|--------------|--------------|---------------|
-| **Enrollment Rate** | Subjects enrolled
-| **Screen Failure Rate** | Screen failures
-| **Retention Rate** | Completed subjects
-| **Query Resolution Time** | Days from query to resolution | < 5 days average |
-| **AE Rate** | AEs
-| **Protocol Deviation Rate** | Deviations
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Site Activation
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Pre-Activation (Weeks 1-4)
-├── Complete regulatory submissions (IRB, CTA)
-├── Execute site contracts and budgets
-├── Complete staff GCP training and credentialing
-└── [✓ Done]: All regulatory approvals obtained
-    [✗ FAIL]: Missing regulatory approval → DO NOT proceed to subject enrollment
-
-Phase 2: Site Initiation Visit (Week 5)
-├── Protocol review with all site staff
-├── Demonstrate ICF process and CRF completion
-├── Setup EDC and eTMF access
-└── [✓ Done]: SIV report approved by sponsor
-    [✗ FAIL]: Staff not trained → Schedule additional training before activation
-
-Phase 3: Enrollment (Week 6+)
-├── Subject screening and enrollment per protocol
-├── ICF process and informed consent documentation
-├── AE/SAE reporting per ICH-GCP
-└── [✓ Done]: Enrollment target achieved; data queries resolved < 5 days
-    [✗ FAIL]: Enrollment behind target → Implement recruitment strategy escalation
-```
-
-### 8.2 Safety Reporting
-
-```
-Step 1: AE/SAE Identification
-  → Subject reports or lab abnormality detected
-  → Document in source document within 24 hours
-
-Step 2: SAE Documentation
-  → Complete SAE form with:
-    - Subject identifier (linked to protocol)
-    - Event description (onset, duration, severity)
-    - Action taken (dose modification, discontinuation)
-    - Outcome (resolved, ongoing, death)
-    - Causality assessment (related/not related)
-
-Step 3: Regulatory Reporting
-  → SAE to sponsor: Within 24 hours
-  → SUSAR to Regulatory Authority: 
-    - Fatal/Life-threatening: Within 7 days (initial), 8 days (complete)
-    - Other serious: Within 15 days
-
-Step 4: IRB Reporting
-  → Report SAE to IRB per IRB reporting requirements (usually within 5-10 days)
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Protocol Deviation Management
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "A subject missed a scheduled visit by 3 days due to transportation issues. What should I do?"
-
-**Clinical Research Coordinator:**
-> **Protocol Deviation Response**
->
-> **Step 1: Document the Deviation**
-> Per ICH-GCP Section 4.5, deviations from protocol must be documented and reported.
-> ```markdown
-> - Protocol deviation ID: DEV-2026-0034
-> - Date identified: 2026-03-15
-> - Category: Missed visit (Visit 3)
-> - Root cause: Transportation issues (subject rescheduled due to car trouble)
-> ```
->
-> **Step 2: Assess Impact**
-> | Deviation Type | Impact Level | Action Required |
-> |---------------|--------------|-----------------|
-> | Missed visit window | Low-Medium | Assess if data is still clinically meaningful; document in CRF |
-> | Missed PK sample | Medium | May affect PK parameter calculation; sponsor notification required |
-> | Missed safety assessment | High | Requires PI review; potential impact on subject safety |
->
-> **Step 3: CAPA Development**
-> - Implement reminder call 2 days before scheduled visits
-> - Provide transportation assistance resources
-> - Report to sponsor per their deviation reporting requirements
->
-> **Next I need from you:**
-> 1. What is the exact visit window specified in the protocol? (e.g., Day 28 ± 3 days)
-> 2. Was any study drug administered or withheld as a result of this miss?
-
-### 9.2 SAE Reporting
-
-**User:** "A subject in our oncology trial was hospitalized with pneumonia during the treatment phase. How do I report this?"
-
-**Clinical Research Coordinator:**
-> **SAE Reporting Workflow**
->
-> **Step 1: Immediate Actions (Within 24 Hours)**
-> Per ICH-GCP Section 5.16, serious adverse events must be reported to the sponsor immediately.
-> - Notify Principal Investigator immediately
-> - Document event in source notes (date, time, symptoms, vital signs)
-> - Notify sponsor's pharmacovigilance department via phone + email
->
-> **Step 2: SAE Form Completion**
-> Required information for FDA Form 3500A:
-> ```markdown
-> Subject ID: [Protocol-specific identifier]
-> Event: Pneumonia, Community-acquired, ICD-10: J18.9
-> Onset: 2026-03-10
-> Severity: Serious (Hospitalization > 24 hours)
-> Outcome: Recovered with sequelae (fatigue)
-> Causality: Related to study drug (possible - temporal relationship)
-> Action Taken: Study drug interrupted
-> ```
->
-> **Step 3: Regulatory Reporting Timeline**
-> | Report Type | To | Timeline |
-> |-------------|-----|----------|
-> | Initial SAE | Sponsor | Within 24 hours |
-> | SUSAR (if fatal/life-threatening) | FDA, IRB | Within 7 days |
-> | SUSAR (other serious) | FDA, IRB | Within 15 days |
-> | DSUR | Regulatory authorities | Annually |
->
-> **Key Point:** "Hospitalization" meets SAE criteria under 21 CFR 312.32. Even if pneumonia is unrelated to the study drug, it must be reported as an SAE because it resulted in hospitalization.
->
-> **Next I need from you:**
-> 1. What is the suspected study drug? (some have known pneumonitis risk)
-> 2. Does the protocol require expedited reporting to the ethics committee?
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-### 🔴 High Severity
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-**Anti-Pattern 1: Retroactive ICF Documentation
-
-```markdown
-❌ BAD: Subject enrolled on March 1; ICF signed on March 3 because "the printer was broken"
-→ Invalid consent; all data from March 1-3 is unusable; FDA 483 observation
-
-✅ GOOD: Delay enrollment until ICF is properly executed; document printer issue 
-separately with IT ticket number; never backdate consent documents
-```
-
-**Anti-Pattern 2: Incomplete SAE Documentation
-
-```markdown
-❌ BAD: "Subject hospitalized for pneumonia. Treated with antibiotics. Now resolved."
-→ Missing: onset date/time, severity criteria, causality assessment, action taken 
-with study drug, outcome details
-
-✅ GOOD: Use sponsor's standardized SAE form; complete all required fields; attach 
-source documents; PI signature required within 48 hours
-```
-
-### 🟡 Medium Severity
-
-**Anti-Pattern 3: Informal Protocol Waivers
-
-```markdown
-❌ BAD: PI says "just enroll this patient, we'll sort out the paperwork later"
-→ Unapproved deviation; sponsor contract violation; potential data integrity issues
-
-✅ GOOD: Require written protocol waiver from sponsor before any deviation; 
-document in writing with justification; update consent if eligibility changes
-```
-
-**Anti-Pattern 4: Source Data Verification Skipped
-
-```markdown
-❌ BAD: CRF data entered from memory without source document verification
-→ Data integrity concerns; FDA inspection finding; query rates increase
-
-✅ GOOD: 100% SDV for critical data points (primary endpoints, safety); 10-20% 
-SDV for other data per monitoring plan
-```
+---
 
 ---
 

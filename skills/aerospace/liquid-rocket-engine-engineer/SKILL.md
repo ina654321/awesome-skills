@@ -177,143 +177,25 @@ MISSION DELTA-V
 
 ## § 7 Standards & Reference
 
-### Performance Reference by Propellant Combination
-| Propellant (O/F) | Pc (bar) | Isp_vac (s) | T_chamber (K) | c* (m/s) | Application |
-|-----------------|----------|-------------|--------------|----------|-------------|
-| LOX/LH2 (6.0) | 200 | 455 | 3,400 | 2,430 | Upper stages (RL-10, J-2X, Vinci) |
-| LOX/LH2 (6.0) | 100 | 442 | 3,350 | 2,420 | Same; lower Pc version |
-| LOX/RP-1 (2.72) | 200 | 358 | 3,670 | 1,780 | First stages (Merlin, NK-33) |
-| LOX/CH4 (3.6) | 300 | 380 | 3,540 | 1,900 | Raptor 3, BE-4 |
-| NTO/MMH (2.1) | 70 | 340 | 3,280 | 1,720 | Spacecraft (Apollo SPS, Draco) |
-| N2H4 monoprop | — | 230 | 1,000 | 1,100 | Attitude control thrusters |
+See [references/07-standards.md](references/07-standards.md)
 
-### Critical Sizing Equations
-```python
-# Characteristic velocity (c*)
-c_star = sqrt(gamma * R_specific * T_chamber)
-         sqrt((2/(gamma+1))**((gamma+1)/(gamma-1)))  # Theoretical
-
-# Thrust coefficient (CF)
-CF = sqrt(2*gamma**2/(gamma-1) * (2/(gamma+1))**((gamma+1)/(gamma-1)) * \
-     (1 - (Pe/Pc)**((gamma-1)/gamma))) + (Pe-Pa)/Pc * epsilon
-# where epsilon = Ae/At (area ratio)
-
-# Specific impulse
-Isp_vac = CF * c_star
-
-# Characteristic length (L*)
-L_star = V_chamber
-# Low L* → incomplete combustion; high L* → excess heat loss
-```
+---
 
 ---
 
 ## § 8 Standard Workflow
 
-### Phase 1: Concept Performance Analysis
-```
-1.1 Propellant Selection & CEA Analysis
-  - [ ] Run CEA for candidate propellants at target Pc and O/F range
-  - [ ] Compute Isp_vac, T_chamber, c*, γ, M_mol at optimal O/F
-  - [ ] Evaluate density-Isp = Isp × ρ_propellant for tank volume constraint
-  - [✓ Done] Output: Propellant Trade Report with selected propellant combination and O/F
-  - [✗ FAIL] If Isp < mission requirement → change propellant or accept higher mass fraction
+See [references/08-workflow.md](references/08-workflow.md)
 
-1.2 Engine Cycle Selection
-  - [ ] Compute turbopump power requirement for target Pc and mass flow
-  - [ ] Trade GG vs. staged combustion vs. FFSC vs. expander for efficiency/complexity
-  - [ ] Compute delivered Isp for each cycle accounting for turbine exhaust dump (GG) loss
-  - [✓ Done] Output: Cycle Selection with power balance and Isp comparison
-  - [✗ FAIL] If FFSC required but turbopump technology TRL < 6 → use staged combustion
-
-1.3 Thrust and Nozzle Sizing
-  - [ ] Size throat area from required thrust and Pc: At = F
-  - [ ] Select area ratio for operating altitude (sea level: ε=16-30, vacuum: ε=40-200)
-  - [ ] Compute exit plane conditions to verify no over-expansion at sea level
-  - [✓ Done] Output: Nozzle geometry specification (At, Ae, ε, contour type)
-```
-
-### Phase 2: Detailed Design
-```
-2.1 Thrust Chamber Design
-  - [ ] Size combustion chamber (diameter from At, L* = 1.0-1.5 m for storable, 1.3-1.7 for cryo)
-  - [ ] Design injector: select element type (coaxial for LH2, impinging for RP-1/MMH)
-  - [ ] Compute injector pressure drop (ΔP_inj = 15-25% of Pc for stability)
-  - [ ] Design regen cooling jacket: compute heat flux, coolant velocity, wall temperature
-  - [✓ Done] Output: Thrust Chamber Design Specification
-  - [✗ FAIL] If wall temp > 0.8 × material limit → redesign cooling channels or reduce Pc
-
-2.2 Turbopump Design
-  - [ ] Compute turbopump speed for minimum size (Ns/Ds diagram)
-  - [ ] Check NPSH requirements vs. available from tank head
-  - [ ] Analyze rotor dynamics: verify critical speeds are 20% away from operating range
-  - [ ] Select bearing type (rolling element vs. hydrostatic for reusable engines)
-  - [✓ Done] Output: Turbopump Preliminary Design with dynamic analysis
-  - [✗ FAIL] If critical speed within 20% of operating range → modify rotor geometry
-
-2.3 Combustion Stability Analysis
-  - [ ] Predict chug frequency (feed system coupled instability)
-  - [ ] Predict tangential mode frequencies for chamber geometry
-  - [ ] Design damping devices (baffles, Helmholtz resonators) if needed
-  - [✓ Done] Output: Stability Analysis Report with predicted stable operating range
-```
-
-### Phase 3: Test Program
-```
-3.1 Developmental Testing
-  - [ ] Ignition characterization test (minimum propellant fill, igniter energy sweep)
-  - [ ] Performance characterization (Pc, O/F sweep; map c*, CF, Isp)
-  - [ ] Stability assessment (bomb testing or pulse rating at full thrust)
-  - [✓ Done] Output: Engine performance map validated against analysis
-
-3.2 Qualification Testing
-  - [ ] Duty cycle: rated thrust × 4× mission life (or as per MIL-HDBK-343)
-  - [ ] Environmental: thermal cycling, vibration per DO-160G (or MIL-STD-1540)
-  - [ ] Margin testing: 110% rated thrust, 90% rated propellant supply pressure
-  - [✓ Done] Output: Engine qualification report; readiness for flight certification
-```
+---
 
 ---
 
 ## § 9 Scenario Examples
 
-### Scenario 1: Engine Cycle Selection for a New LOX/Methane Upper Stage Engine
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User**: We're designing a 100 kN vacuum LOX/methane engine for an upper stage. Should we use staged combustion or gas generator cycle?
-
-**Expert**:
-> **Performance comparison at 100 kN, LOX/CH4, vacuum:**
->
-> **Gas Generator (GG) Cycle**:
-> ```
-> Chamber pressure: 100 bar (practical for GG)
-> Turbine exhaust mass fraction: ~2-3% of total propellant
-> Isp_vac: ~360 s (3-5 s penalty from GG dump)
-> Development risk: LOW (well-established cycle)
-> Turbopump power: ~500 kW for 100 kN at Pc=100 bar
-> Mass: ~180 kg (typical for this thrust class)
-> ```
->
-> **Staged Combustion (SC) Cycle** (full-flow, like Raptor):
-> ```
-> Chamber pressure: 200-300 bar (FFSC allows high Pc)
-> No turbine exhaust dump: all propellant through main chamber
-> Isp_vac: ~375-382 s
-> Development risk: MEDIUM-HIGH (higher Pc → stronger turbopump, more complex)
-> Turbopump power: ~1,200 kW for same thrust at Pc=200 bar
-> Mass: ~220 kg
-> ```
->
-> **Decision framework for 100 kN class**:
-> ```
-> Isp priority AND reusability?   → FFSC (Raptor approach, ~380 s)
-> Isp priority, expendable?       → SC (cheaper than FFSC, ~370 s)
-> Cost priority + proven tech?    → GG (RL-10A heritage, ~360 s, well characterized)
-> ```
->
-> **My recommendation**: For a new upper stage development program with limited test infrastructure, start with a **Gas Generator cycle at Pc=100 bar**. You'll achieve Isp ≈ 360 s which is sufficient for most upper stage missions. The development risk and cost advantage (3-5 years faster to qualification) typically outweighs the 15-20 s Isp improvement from staged combustion unless the mission is severely propellant-mass constrained.
->
-> If your upper stage mission requires Isp > 370 s, then staged combustion is justified — but plan for 3-4 years of turbopump development specifically.
+---
 
 ---
 
@@ -418,25 +300,9 @@ L_star = V_chamber
 
 ## § 10 Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Overlooking Mixture Ratio Shift During Burn
-**❌ BAD**: Designing propellant system with matched LOX and fuel tank sizes for nominal O/F, ignoring residuals
-**✅ GOOD**: Design for mixture ratio variation over burn and account for residuals
-```python
-# Wrong: size tanks for exactly nominal O/F × propellant mass
-fuel_volume = total_propellant / (1 + OF)
-ox_volume = total_propellant * OF / (1 + OF)
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-# Right: account for mixture ratio uncertainty and residuals
-OF_nominal = 2.72  # LOX/RP-1
-OF_uncertainty = 0.05  # ±1.8% from nominal
-residual_fraction = 0.005  # 0.5% residual per tank
-
-# Design fuel tank for OF_min = 2.67 (more fuel consumed):
-fuel_volume = total_propellant / (1 + OF_min)
-# Design ox tank for OF_max = 2.77 (more oxidizer consumed):
-ox_volume = total_propellant * OF_max / (1 + OF_max)
-```
-**Why it matters**: An engine that runs LOX-rich at end of burn will cause turbopump damage from hot gas; fuel-rich → reduced Isp + unburned fuel waste.
+---
 
 ---
 

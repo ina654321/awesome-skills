@@ -193,201 +193,33 @@ This skill transforms your AI assistant into an expert **Subtitle Translator** c
 
 ## 7. Standards & Reference
 
-### 7.1 Major Platform Specifications
+See [references/07-standards.md](references/07-standards.md)
 
-| Platform | Format | Max Lines | Max Chars/Line | Max Duration | CPS Limit |
-|----------|--------|-----------|----------------|---------------|------------|
-| **Netflix** | SRT, VTT | 2 | 42 | 7 seconds | 17-20 CPS |
-| **Amazon Prime** | SRT, VTT | 2 | 42 | 7 seconds | 17 CPS |
-| **Disney+** | SRT, VTT | 2 | 38 | 6 seconds | 16 CPS |
-| **YouTube** | SRT, VTT, SBV | 2 | 32 | Unknown | 21 CPS |
-| **Broadcast (FCC)** | CEA-608/708 | 4 | 32 | Per spec | 15 CPS |
-
-### 7.2 SRT Format Structure
-
-```
-1
-00:00:01,000 --> 00:00:04,000
-First subtitle line
-Second subtitle line
-
-2
-00:00:05,500 --> 00:00:08,200
-Second subtitle text
-```
-
-### 7.3 VTT Format Structure
-
-```
-WEBVTT
-
-00:00:01.000 --> 00:00:04.000
-First subtitle line
-Second subtitle line
-
-00:00:05.500 --> 00:00:08.200
-Note: VTT uses periods, not commas
-```
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Translation Workflow
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Preparation (Before translation)
-├── Receive: Video file, source subtitles (if available), style guide, glossary
-├── Review: Watch video entirely; note speakers, names, terminology
-├── Create: Project glossary (names, terms, recurring phrases)
-├── Configure: Subtitle software with target format and timing settings
-└── Set: QC parameters (max duration, CPS, min gap)
-
-Phase 2: Translation (Core work)
-├── Segment by segment: Translate one subtitle at a time
-├── Check: Timing fits source audio (sync to spoken words)
-├── Apply: CPS calculation; split or merge lines if needed
-├── Maintain: Glossary consistency throughout
-├── Add: Speaker IDs for SDH/CC (if required)
-└── Flag: Problem areas for later review (inaudible, ambiguous)
-
-Phase 3: Quality Assurance (After translation)
-├── Automated QC: Run software checks for timing, CPS, formatting
-├── Manual review: Watch entire video with subtitles playing
-├── Consistency check: Verify glossary terms used correctly
-├── Style check: Verify formatting matches style guide
-└── Spot check: Verify sync points match audio exactly
-
-Phase 4: Delivery
-├── Export: Correct format (SRT, VTT, etc.)
-├── Validate: File plays correctly in player
-├── Package: Deliver per client requirements
-└── Archive: Save project files for future reference
-```
-
-### 8.2 SDH/Accessibility Workflow
-
-```
-For Closed Captions (SDH), add to translation:
-1. Speaker Identification
-   ├── [JOHN] at start of each new speaker's lines
-   ├── [UNKNOWN] when speaker cannot be identified
-   └── [OFFSCREEN] for voices not shown
-
-2. Sound Descriptions
-   ├── [MUSIC: tense, building] at start of significant music
-   ├── [PHONE RINGING] when audible but not shown
-   ├── [DOOR CREAKS] for important sound effects
-   └── [LAUGHTER] for audience/group reactions
-
-3. Formatting
-   ├── All caps for sounds: [DOORBELL]
-   ├── Italics for song lyrics or foreign language
-   └── Include non-speech sounds that affect understanding
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Scenario: Translating Idioms
+See [references/09-scenarios.md](references/09-scenarios.md)
 
-**User:** "How do I translate the phrase 'It's raining cats and dogs' into Spanish for a children's show?"
-
-**Subtitle Translator:**
-> **Challenge:** The idiom "cats and dogs" doesn't exist in Spanish. A literal translation would confuse Spanish-speaking children.
->
-> **Options:**
->
-> | Approach | Translation | Assessment |
-> |----------|-------------|------------|
-> | Literal | "Está lloviendo gatos y perros" | Wrong — kids will be confused |
-> | Cultural Equivalent | "Está lloviendo a cántaros" (it's raining pitchers) | Good — same idiom in Spanish |
-> | Descriptive | "Está lloviendo mucho" (it's raining a lot) | Safe but loses color |
->
-> **Recommendation:** Use the cultural equivalent "lloviendo a cántaros" — it conveys the same meaning (heavy rain) and is a natural Spanish idiom. For children's programming, prioritize understanding over literal fidelity.
-
-### 9.2 Scenario: Timing Problem
-
-**User:** "I have a subtitle that's 48 characters but only 1.5 seconds on screen. Is this readable?"
-
-**Subtitle Translator:**
-> **Calculation:**
-> - Characters: 48
-> - Duration: 1.5 seconds
-> - CPS (Characters Per Second): 48 ÷ 1.5 = 32 CPS
->
-> **Assessment:**
-> - Target CPS: 15-17 (standard)
-> - Your CPS: 32 — **TOO FAST**
->
-> **Solution:**
-> 1. **Extend duration**: If audio allows, lengthen to 3 seconds (16 CPS = readable)
-> 2. **Split subtitle**: Divide into two shorter subtitles
-> 3. **Cut text**: Remove filler words; keep essential meaning
->
-> **Example:**
-> ❌ Original: "I was just trying to help you understand what happened that day" (48 chars, 1.5s)
-> ✅ Revised: "I was trying to help you
-
-### 9.3 Scenario: Netflix Delivery Requirements
-
-**User:** "I need to deliver subtitles for a Netflix original series. What are the exact requirements?"
-
-**Subtitle Translator:**
-> **Netflix Technical Specifications:**
->
-> | Requirement | Specification |
-> |-------------|---------------|
-> | Format | SRT or VTT (both accepted) |
-> | Encoding | UTF-8 without BOM |
-> | Max characters/line | 42 |
-> | Max lines | 2 |
-> | Max duration | 7 seconds |
-> | Min duration | 1 second |
-> | Min gap between subs | 0.04 seconds |
-> | Reading speed | 17-20 CPS |
-> | Frame rate | Match source (23.976, 24, 25, 29.97, etc.) |
-> | Naming | `show_name_s01e01_en.srt` |
->
-> **Netflix Style Guidelines:**
-> - No profanity censorship (unless required by rating)
-> - Use original language names for characters
-> - Preserve song lyrics if plot-relevant (use brackets: [SINGING])
-> - Don't subtitle ambient music descriptions (unless SDH)
->
-> **QC Checklist:**
-> - ☐ UTF-8 encoding confirmed
-> - ☐ No line exceeds 42 characters
-> - ☐ No subtitle exceeds 7 seconds
-> - ☐ All CPS within 17-20 range
-> - ☐ Timing matches audio sync
-> - ☐ File naming matches spec
+---
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Quick Fix |
-|---|--------------|----------|-----------|
-| 1 | **Translating from transcript only** | 🔴 High | Always reference video; transcript lacks timing and context |
-| 2 | **Exceeding reading speed** | 🔴 High | Check CPS for every line; use QA tools |
-| 3 | **Splitting sentences mid-word** | 🟡 Medium | Line break should occur at natural pause |
-| 4 | **Inconsistent character names** | 🟡 Medium | Create glossary; use search/replace to fix |
-| 5 | **Missing speaker IDs in SDH** | 🟡 Medium | Every speaker change needs ID tag |
-| 6 | **Orphan words on line 2** | 🟢 Low | If line 2 has single word, combine with line 1 or split differently |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ "He's going to the store to buy some milk for the kids because"
-✅ Split at natural pause: "He's going to the store
-
-❌ [All dialogue, no speaker ID in SDH]
-✅ [JOHN] I thought you were coming yesterday.
-   [SARAH] I was, but the flight was delayed.
-
-❌ 52 characters in one line for Netflix
-✅ Split: "The government has announced new regulations
-```
+---
 
 ---
 

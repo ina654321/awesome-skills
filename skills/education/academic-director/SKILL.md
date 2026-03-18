@@ -196,239 +196,31 @@ Sustainable improvement requires cycling through assessment, planning, implement
 
 ## 7. Standards & Reference
 
-### 7.1 Curriculum Design Frameworks
+See [references/07-standards.md](references/07-standards.md)
 
-| Framework | When to Use | Key Steps |
-|-----------------|----------------------|-------------------|
-| **Backward Design** | New curriculum development | 1. Identify desired results → 2. Determine acceptable evidence → 3. Plan learning experiences |
-| **Understanding by Design** | Unit/lesson planning | 1. Learning objectives → 2. Assessment evidence → 3. Instructional plan |
-| **Standards Mapping** | Aligning curriculum to standards | 1. Unpack standards → 2. Create proficiency scales → 3. Map to assessments |
-| **DOK (Depth of Knowledge)** | Creating rigorous assessments | 1. Identify DOK level → 2. Design questions at target level → 3. Verify alignment |
-
-### 7.2 Teacher Evaluation Metrics
-
-| Metric | Formula | Target |
-|--------------|--------------|---------------|
-| **Observation Fidelity** | Observed
-| **Evaluation Score Distribution** | % meeting/exceeding standards | >85% meeting or exceeding |
-| **Student Growth** | Value-added or growth model | Positive growth |
-| **Professional Development Completion** | Completed
+---
 
 ---
 
 ## 8. Standard Workflow
 
-### 8.1 Curriculum Adoption Process
+See [references/08-workflow.md](references/08-workflow.md)
 
-```
-Phase 1: Needs Analysis
-├── Analyze student achievement data
-├── Review current curriculum for gaps
-├── Survey teachers on needs
-└── [✓ Done]: Documented need with data
-
-Phase 2: Research & Selection
-├── Identify potential curricula
-├── Review aligned to standards
-├── Pilot in select classrooms
-└── [✓ Done]: Pilot data collected
-
-Phase 3: Review & Approval
-├── Share data with stakeholders
-├── Address concerns and questions
-├── Present to board if required
-└── [✓ Done]: Approved for full adoption
-
-Phase 4: Implementation
-├── Train all teachers
-├── Provide materials
-├── Monitor implementation
-└── [✓ Done]: Full implementation with support
-```
-
-### 8.2 Teacher Evaluation Cycle
-
-```
-Step 1: Pre-Conference
-  → Establish focus for observation
-  → Share lesson objectives and context
-
-Step 2: Observation
-  → Document evidence using framework
-  → Focus on student learning, not teacher表演
-
-Step 3: Analysis
-  → Connect evidence to rubric criteria
-  → Identify patterns, not isolated incidents
-
-Step 4: Post-Conference
-  → Present evidence
-  → Collaboratively set growth goals
-  → Identify specific support needed
-
-Step 5: Follow-Up
-  → Provide coaching support
-  → Monitor progress on goals
-  → Document growth
-
-[✓ Done]: Evaluation complete with growth plan for next cycle
-```
+---
 
 ---
 
 ## 9. Scenario Examples
 
-### 9.1 Curriculum Review & Revision
-
-**User:** "Our math scores have been declining for three years. We need to revamp our math curriculum. Where do we start?"
-
-**Academic Director:**
-> **Let's use this as an opportunity for systematic improvement, not just curriculum shopping.**
->
-> **Step 1: Diagnose the Problem**
-> Before changing curriculum, let's understand what's causing the decline:
->
-> | Question | Data Source |
-> |----------|-------------|
-> | Is it curriculum or instruction? | Observation data |
-> | Which specific standards are weak? | Item analysis of assessments |
-> | Is it district-wide or specific schools? | Disaggregated achievement data |
-> | What did we change 3 years ago? | Curriculum adoption history |
->
-> **Step 2: Standards Analysis**
-> Let's map your current curriculum to state standards:
-> - Which standards are explicitly taught?
-> - Which are assessed but not taught?
-> - Where are the gaps between curriculum and standards?
->
-> **Step 3: Evidence-Based Decision**
-> Strong curriculum adoption uses:
-> - Evidence of effectiveness (research base)
-> - Alignment to standards
-> - Teacher usability and support
-> - Materials quality
->
-> **Recommended Process:**
-> ```
-> 1. Form curriculum committee (teachers, coaches, administrators)
-> 2. Unpack standards and create proficiency expectations
-> 3. Research options; request publisher demos
-> 4. Pilot with comparison classes
-> 5. Analyze pilot data + teacher feedback
-> 6. Present recommendation to board
-> ```
->
-> **What NOT to do:**
-> - ❌ Don't change curriculum just because scores dropped—investigate root cause first
-> - ❌ Don't adopt the "latest" curriculum without piloting
-> - ❌ Don't skip teacher training—curriculum fails without implementation support
->
-> **Next step:** Can you share your state's math standards or current curriculum documents?
-
-### 9.2 Teacher Performance Concern
-
-**User:** "I have a teacher who's been consistently rated 'proficient' but classroom observations show students aren't engaged and test scores are declining. How should I handle this?"
-
-**Academic Director:**
-> **This is a common challenge—here's a systematic approach.**
->
-> **The Problem:** There's often a gap between what we observe and what data shows. This suggests either:
-> 1. Teacher performing differently in formal vs. informal observations
-> 2. Classroom management issues not captured in rubric
-> 3. Content knowledge gaps affecting instruction
-> 4. Assessment validity issues
->
-> **Recommended Response:**
->
-> **Step 1: Gather More Evidence**
-> - Multiple informal observations (unannounced)
-> - Student survey data (if available)
-> - Student work samples
-> - Comparison with similar students/classes
->
-> **Step 2: Evidence-Based Conversation**
-> In your next conference:
-> > "I've noticed some patterns I want to discuss. Our observational data shows [specific evidence]. Our student achievement data shows [specific data]. Help me understand what's happening in your classroom."
->
-> **Step 3: Collaborative Problem-Solving**
-> - Ask: "What support do you need?"
-> - Provide: coaching, professional development, peer observation
-> - Set: Specific, measurable goals with timeline
->
-> **Step 4: Monitor & Document**
-> - Weekly check-ins for first month
-> - Document all support provided
-> - Follow evaluation procedures precisely
->
-> **If No Improvement:**
-> - Document specific deficiencies
-> - Provide written improvement plan
-> - Include HR early if needed
-> - Follow due process for any personnel action
->
-> **Key Principle:** Be fair, be specific, be supportive—but be clear about expectations.
-
-### 9.3 Accreditation Self-Study
-
-**User:** "We have our accreditation visit in 6 months. We need to prepare the self-study report. Where do we start?"
-
-**Academic Director:**
-> **Start early—this is a significant undertaking. Let's break it down.**
->
-> **Timeline:**
-> | Month | Task |
-> |-------|------|
-> | 6 out | Form steering committee; assign standard leads |
-> | 5 out | Begin collecting evidence; draft narratives |
-> | 4 out | First draft complete; internal review |
-> | 3 out | Stakeholder feedback; revise |
-> | 2 out | Final review; prepare for visit |
-> | 1 out | Pre-visit coordination |
-> | 0 | Site visit |
->
-> **Critical Success Factors:**
->
-> 1. **Engage all stakeholders**—faculty, staff, students, parents
-> 2. **Be honest about weaknesses**—accreditors appreciate self-awareness
-> 3. **Show evidence of improvement**—connect plans to results
-> 4. **Prepare the community**—everyone should know what to expect
->
-> **Evidence Categories:**
-> - Documents: policies, procedures, meeting minutes
-> - Data: student achievement, retention, surveys
-> - Artifacts: sample lessons, assessments, syllabi
-> - Testimonials: student, faculty, graduate feedback
->
-> **Common Pitfalls:**
-> - ❌ Leaving it to the last minute
-> - ❌ Having only administrators write it
-> - ❌ Hiding problems instead of addressing them
-> - ❌ Not practicing for the visit
->
-> **Next step:** Which accreditation body are you working with? (WASC, HLC, SACS, etc.)
+See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
 ## 10. Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Curriculum shopping as solution** | 🔴 High | First diagnose root cause—is it curriculum or instruction? |
-| 2 | **Evaluation without observation** | 🔴 High | Must observe in classroom; data alone insufficient |
-| 3 | **New initiatives without training** | 🔴 High | Teachers need professional development before implementing change |
-| 4 | **Siloed decision-making** | 🟡 Medium | Include stakeholders; build buy-in before implementing |
-| 5 | **Reactive not proactive** | 🟡 Medium | Use early warning systems; don't wait for crises |
+See [references/10-pitfalls.md](references/10-pitfalls.md)
 
-```
-❌ WRONG: "Our scores are down—let's buy a new curriculum"
-✅ RIGHT: "Let's analyze why scores are down—is it curriculum, instruction, or something else?"
-
-❌ WRONG: "I'm too busy to observe—I just look at test scores"
-✅ RIGHT: "Classroom observation is essential—schedule regular observations"
-
-❌ WRONG: "We need to implement this new program Monday"
-✅ RIGHT: "What training and support do teachers need before implementation?"
-```
+---
 
 ---
 
