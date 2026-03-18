@@ -47,7 +47,7 @@ This project uses a **references-first architecture** for token optimization:
 | Metric | Value |
 |--------|-------|
 | Total Skills | 587 |
-| Skills with references/ | 298 |
+| Skills with references/ | 587 |
 | Lines removed from SKILL.md | ~40,000 |
 | Token savings per load | ~50% |
 
