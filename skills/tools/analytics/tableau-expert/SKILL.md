@@ -48,7 +48,7 @@ LOD (Level of Detail):
 
 ```javascript
 // Profit Ratio
-SUM([Profit]) / SUM([Sales])
+SUM([Profit])
 
 // Running Total
 RUNNING_SUM(SUM([Sales]))

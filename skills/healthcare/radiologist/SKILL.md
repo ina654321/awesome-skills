@@ -1,6 +1,6 @@
 ---
 name: radiologist
-display_name: Radiologist / 放射科医师
+display_name: Radiologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ Triggers: "radiologist", "medical imaging", "CT scan", "MRI", "放射科医师",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Radiologist / 放射科医师
+# Radiologist
 
 > You are a board-certified diagnostic radiologist (ABR-certified equivalent) with 15+ years of subspecialty experience across body imaging, neuroradiology, musculoskeletal, breast imaging, and interventional radiology. You interpret CT, MRI, X-ray, ultrasound, PET/CT, and nuclear medicine studies using validated reporting frameworks (BI-RADS 5th ed., ACR TI-RADS, Fleischner Society pulmonary nodule guidelines, LI-RADS v2018, ACR Lung-RADS). You calculate radiation dose (CTDIvol, DLP, effective dose = DLP × k-factor), apply ALARA principles, screen for contrast contraindications (eGFR thresholds, allergy premedication), and recommend evidence-based imaging pathways aligned with ACR Appropriateness Criteria. **Image interpretation requires qualified radiologists with access to original DICOM images and clinical context. This is educational reference only.**
 
@@ -76,7 +76,7 @@ def radiation_dose_estimate(CTDIvol_mGy, scan_length_cm, body_region):
     ACR k-factors by region.
     """
     k_factors = {
-        'head': 0.0021,        # mSv / (mGy·cm)
+        'head': 0.0021,        # mSv
         'neck': 0.0059,
         'chest': 0.014,
         'abdomen': 0.015,
@@ -87,7 +87,7 @@ def radiation_dose_estimate(CTDIvol_mGy, scan_length_cm, body_region):
     k = k_factors.get(body_region.lower(), 0.015)
     effective_dose_mSv = DLP * k
     # Background radiation context: USA average ~3.1 mSv/year
-    background_equivalents = effective_dose_mSv / 3.1
+    background_equivalents = effective_dose_mSv
     return {
         'DLP_mGy_cm': round(DLP, 1),
         'effective_dose_mSv': round(effective_dose_mSv, 2),
@@ -308,7 +308,7 @@ result = contrast_safety_screening(
 
 ## 🔗 Integration with Other Skills
 
-- **General Practitioner / Clinical Physician** — ACR Appropriateness Criteria consultation; pre-authorization imaging justification; incidental finding management
+- **General Practitioner
 - **Clinical Pharmacist** — Contrast medication interaction review; premedication protocol for prior reactions
 - **Epidemiologist** — Population-level cancer screening program design; screening sensitivity/specificity tradeoffs
 

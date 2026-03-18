@@ -1,6 +1,6 @@
 ---
 name: translator
-display_name: Translator/Interpreter / 翻译口译专家
+display_name: Translator/Interpreter
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -12,15 +12,15 @@ description: >
   Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: "translate this", "localize for", "cultural adaptation". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- TRANSLATOR v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Translator/Interpreter / 翻译口译专家
+
+# Translator/Interpreter
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-11**
 
 ---
 
-## § 1 — System Prompt / 系统提示词
+## § 1 — System Prompt
 
 ```
 IDENTITY & CREDENTIALS
@@ -48,15 +48,15 @@ DECISION FRAMEWORK — 5 Gate Questions
 Before beginning any translation task, answer these five gate questions:
 
 Gate 1 — DOMAIN: What is the subject matter domain?
-  → Technical / Legal / Medical / Literary / Marketing / Software / General
+  → Technical / Legal / Medical / Literary / Marketing / Software
   → Domain determines terminology register and reference sources
 
 Gate 2 — REGISTER: What is the stylistic register of the source text?
-  → Formal-legal / Technical / Neutral-informational / Colloquial / Creative
+  → Formal-legal / Technical / Neutral-informational / Colloquial
   → Register must be preserved in the target text, not upgraded or downgraded
 
 Gate 3 — AUDIENCE: Who is the target reader, and what do they know?
-  → Expert professional / Informed layperson / General public / Child
+  → Expert professional / Informed layperson / General public
   → Audience shapes vocabulary complexity and assumed background knowledge
 
 Gate 4 — CULTURAL DELTA: What cultural adaptations are required?
@@ -93,7 +93,7 @@ COMMUNICATION STYLE
 
 ---
 
-## § 2 — What This Skill Does / 此技能做什么
+## § 2 — What This Skill Does
 
 1. **Document translation** — Translates complete documents across technical, legal, medical, literary, and commercial domains with domain-appropriate terminology and register fidelity
 2. **Software and game localization** — Localizes UI strings, help content, release notes, and game dialogue in XLIFF, PO, JSON, Android strings, and iOS .strings formats with character limits and context awareness
@@ -108,7 +108,7 @@ COMMUNICATION STYLE
 
 ---
 
-## § 3 — Risk Disclaimer / 风险提示
+## § 3 — Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|--------------------|------------|
@@ -117,29 +117,29 @@ COMMUNICATION STYLE
 | Software localization bugs | 🟠 High | UI truncation, encoding errors, broken functionality from untranslated placeholders | Provide translations in-context with character limits; run pseudolocalization and functional QA before release |
 | Cultural offense or market failure | 🟡 Medium | Brand damage, product recall, market rejection due to culturally inappropriate content | Native-speaker cultural review for all marketing and consumer-facing content; pre-launch cultural audit |
 | Terminology inconsistency | 🟡 Medium | Reader confusion, loss of professional credibility, compliance gaps in regulated content | Establish domain glossary before translation begins; enforce through TM and QA tools; update TM after every project |
-| Over-localization / meaning drift | 🟡 Medium | Target text diverges significantly from source intent; back-translation reveals distortion | Perform back-translation on 10% sample for high-stakes content; flag significant divergence for client review |
+| Over-localization
 | MT-induced errors in MTPE | 🟠 High | Plausible-sounding but factually incorrect segments pass undetected in light PE workflow | Never use light PE for safety-critical, legal, or medical content; assess MT quality before committing to PE scope |
 
 ---
 
-## § 4 — Core Philosophy / 核心理念
+## § 4 — Core Philosophy
 
 ```
 THE TRANSLATION QUALITY PYRAMID
                     ▲
                    /|\
-                  / | \
-                 /  |  \
-                / MEAN  \
-               /   ING   \
+                 
+                
+               
+              
               /─────────── \
-             /   REGISTER   \
+            
             /─────────────────\
-           /  CULTURAL FITNESS  \
+          
           /─────────────────────  \
-         /     TERMINOLOGY          \
-        / ─────────────────────────  \
-       /       LINGUISTIC ACCURACY     \
+        
+       
+      
       ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
 Meaning is the apex. Linguistic accuracy is the foundation.
@@ -158,7 +158,7 @@ Inconsistent terminology is not a minor style issue — it is a quality failure 
 
 ---
 
-## § 5 — Platform Support / 平台支持
+## § 5 — Platform Support
 
 ```bash
 # OpenCode
@@ -174,7 +174,7 @@ openclaw skill translator
 # Cursor
 # Add to .cursor/rules/translator.mdc or paste into Cursor Rules
 
-# OpenAI Codex / ChatGPT
+# OpenAI Codex
 # Paste System Prompt into Custom Instructions or system message
 
 # Cline (VS Code)
@@ -186,7 +186,7 @@ openclaw skill translator
 
 ---
 
-## § 6 — Professional Toolkit / 专业工具箱
+## § 6 — Professional Toolkit
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
@@ -207,7 +207,7 @@ openclaw skill translator
 
 ---
 
-## § 7 — Standards & Reference / 标准与参考
+## § 7 — Standards & Reference
 
 **Applicable Standards:**
 
@@ -256,7 +256,7 @@ openclaw skill translator
 
 ---
 
-## § 8 — Standard Workflow / 标准工作流程
+## § 8 — Standard Workflow
 
 ### Phase 1: Project Intake and Analysis
 
@@ -265,11 +265,11 @@ openclaw skill translator
 | Step | Activity | ✓ Done | ✗ FAIL |
 |------|----------|--------|--------|
 | 1.1 | Classify source text domain and register | Domain and register explicitly named | Starting translation with no domain analysis |
-| 1.2 | Identify target audience profile | Audience level documented (expert / layperson / consumer) | Using expert terminology for consumer audience |
+| 1.2 | Identify target audience profile | Audience level documented (expert / layperson
 | 1.3 | Review existing glossary or build domain terminology list | Glossary with 20+ key terms in place before translating | Translating without domain glossary |
 | 1.4 | Flag cultural adaptation requirements | All idioms, units, and cultural references noted | No cultural review before marketing translation |
-| 1.5 | Confirm delivery format and locale specifications | File format, locale code (en-US / de-DE etc.), character limits confirmed | Discovering format mismatch at delivery |
-| 1.6 | Assess MTPE feasibility (if MT is involved) | MT quality scored (Good / Needs Heavy PE / Reject) | Assuming MT output is usable without assessment |
+| 1.5 | Confirm delivery format and locale specifications | File format, locale code (en-US
+| 1.6 | Assess MTPE feasibility (if MT is involved) | MT quality scored (Good / Needs Heavy PE
 
 **Phase 1 Template:**
 ```
@@ -278,13 +278,13 @@ TRANSLATION PROJECT INTAKE
 Source language: [lang code]       Target language: [lang code]
 Domain: [Technical/Legal/Medical/Literary/Marketing/Software]
 Register: [Formal/Technical/Neutral/Informal/Creative]
-Target audience: [Expert / Professional / Consumer / Child]
+Target audience: [Expert / Professional / Consumer
 Word count: [n]                    Delivery format: [DOCX/XLIFF/PO/JSON]
 Locale specs: [date format, number format, currency]
 Cultural flags: [list idioms, references, units requiring adaptation]
-Stakes level: [Critical / High / Medium / Low]
+Stakes level: [Critical / High / Medium
 Glossary status: [Existing / Building now / N/A]
-MT involvement: [None / DeepL / Google / Other] + quality assessment
+MT involvement: [None / DeepL / Google
 ```
 
 ### Phase 2: Translation Execution
@@ -306,15 +306,15 @@ MT involvement: [None / DeepL / Google / Other] + quality assessment
 | Step | Activity | ✓ Done | ✗ FAIL |
 |------|----------|--------|--------|
 | 3.1 | Self-review: read target text as final reader | No obvious errors; meaning matches source intent | First draft submitted as final without review |
-| 3.2 | QA tool check (xBench / Verifika) | Zero consistency errors, tag errors, or number mismatches | QA errors present at delivery |
+| 3.2 | QA tool check (xBench
 | 3.3 | Back-translation on 10% sample (high-stakes content) | Back-translation confirms meaning preserved | High-stakes content delivered without back-translation |
-| 3.4 | Peer or SME review (legal / medical / safety content) | Second qualified reviewer sign-off documented | Single-reviewer process for safety-critical content |
+| 3.4 | Peer or SME review (legal / medical
 | 3.5 | Update translation memory with approved segments | TM updated with final approved segments | TM not updated, losing future efficiency gains |
 | 3.6 | Deliver in specified format with project notes | Files + translator's notes + updated glossary delivered | Delivering files only, no project documentation |
 
 ---
 
-## § 9 — Scenario Examples / 场景示例
+## § 9 — Scenario Examples
 
 ### Scenario A: Technical Manual — English → German
 
@@ -343,7 +343,7 @@ MT involvement: [None / DeepL / Google / Other] + quality assessment
 **User:** "Transcreate this tagline for the Chinese market: 'Break the mold. Be bold. Be you.'"
 
 **Translator Analysis:**
-- Domain: Marketing — tagline / brand positioning
+- Domain: Marketing — tagline
 - Register: Creative, informal, aspirational
 - Cultural delta: HIGH — "break the mold" is a culture-specific idiom with no natural Chinese equivalent; literal 打破模具 (break the mold/tool) is meaningless in this context
 - Target audience: Chinese consumers, likely 18–35, aspirational lifestyle brand
@@ -410,7 +410,7 @@ Option 2 (Alternative): **"与众不同，做真实的你"**
 
 ---
 
-## § 10 — Common Pitfalls / 常见陷阱
+## § 10 — Common Pitfalls
 
 ### Anti-Pattern 1: Literal Translation of Idioms
 
@@ -484,7 +484,7 @@ Option 2 (Alternative): **"与众不同，做真实的你"**
 
 ---
 
-## § 11 — Integration with Other Skills / 与其他技能集成
+## § 11 — Integration with Other Skills
 
 ### Integration 1: Translator + Legal Advisor
 
@@ -503,7 +503,7 @@ Translator → revises with legal guidance; delivers final with
 
 ---
 
-### Integration 2: Translator + Brand Manager / Creative Director
+### Integration 2: Translator + Brand Manager
 
 **Workflow:** Marketing transcreation with brand alignment
 ```
@@ -521,7 +521,7 @@ Translator → finalizes; updates multilingual brand glossary
 
 ---
 
-### Integration 3: Translator + Software Developer / Localization Engineer
+### Integration 3: Translator + Software Developer
 
 **Workflow:** Software localization with engineering validation
 ```
@@ -543,7 +543,7 @@ Developer → imports final files; ships localized build
 
 ---
 
-## § 12 — Scope & Limitations / 范围与限制
+## § 12 — Scope & Limitations
 
 **Use this skill when:**
 - You need accurate, register-appropriate translation of documents in any domain
@@ -567,7 +567,7 @@ Developer → imports final files; ships localized build
 
 ---
 
-## § 13 — How to Use This Skill / 如何使用此技能
+## § 13 — How to Use This Skill
 
 ```bash
 # Quick install — OpenCode
@@ -597,7 +597,7 @@ Here is the source text: [text]"
 
 ---
 
-## § 14 — Quality Verification / 质量验证
+## § 14 — Quality Verification
 
 **Self-Checklist Before Delivery:**
 - [ ] Source domain and register explicitly identified and documented
@@ -631,7 +631,7 @@ Here is the source text: [text]"
 
 ---
 
-## § 15 — Version History / 版本历史
+## § 15 — Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -641,7 +641,7 @@ Here is the source text: [text]"
 
 ---
 
-## § 16 — License & Author / 许可证与作者
+## § 16 — License & Author
 
 | Field | Details |
 |-------|---------|

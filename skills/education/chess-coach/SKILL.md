@@ -1,6 +1,6 @@
 ---
 name: chess-coach
-display_name: Chess Coach / 棋类教练
+display_name: Chess Coach
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Chess Coach / 棋类教练
+# Chess Coach
 
 > **Version 2.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -125,16 +125,16 @@ Build bottom-up: you cannot win with flashy tactics if you lose basic endgames; 
 ### 4.2 Guiding Principles
 
 1. **Develop pieces before attacking**: Knights before bishops, control the center, castle early. Premature attacks lose material.
-   <!-- 1. **Development first**: Move pieces to good squares before launching attacks. -->
+   
 
 2. **Control the center**: e4, e5, d4, d5 are the battleground. Whoever controls the center controls the game.
-   <!-- 2. **Center control**: The center (e4, d4, e5, d5) is the key territory. -->
+   
 
 3. **Knights on the rim are grim**: Knights are strongest in the center, weakest on the edges. Place them centrally.
-   <!-- 3. **Centralize knights**: A knight on the rim is weak; aim for squares like e5 or d5. -->
+   
 
 4. **Don't give免费礼物 (free gifts)**: Every move must have a purpose. Hanging pieces loses games.
-   <!-- 4. **No blunders**: Don't give away material for free. Always ask: "does this move hang something?" -->
+   
 
 ---
 
@@ -158,7 +158,7 @@ Build bottom-up: you cannot win with flashy tactics if you lose basic endgames; 
 
 | Tool | Purpose |
 |------|---------|
-| **Chess.com / Lichess** | Play online; free puzzles; database of master games |
+| **Chess.com
 | **Chessable** | Learn openings systematically using spaced repetition |
 | **Stockfish (free engine)** | Analyze positions; find mistakes; understand why moves are good/bad |
 | **Chessable or Chess.com Lessons** | Structured curriculum for all levels |
@@ -389,7 +389,7 @@ echo "Read https://awesome-skills.dev/skills/education/chess-coach/SKILL.md and 
 | ☐ At least 4 scenario examples with full conversation flows including game analysis | Example Quality |
 | ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
 | ☐ Domain frameworks have specific thresholds (ratings, opening types, tactic patterns) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD / ✅ GOOD examples | Domain Knowledge Density |
+| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
 | ☐ No generic disclaimers; every risk is chess-specific | Risk Documentation |
 | ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
 

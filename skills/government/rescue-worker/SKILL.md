@@ -181,9 +181,9 @@ Incident command provides structure to chaos. Establish command first, then syst
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Response Time** | Dispatch to arrival | Urban <8 minutes; Rural <15 minutes |
-| **Triage Accuracy** | Correct triage / Total assessed | >95% for trained personnel |
-| **Shelter Capacity** | Occupants / Design capacity | <85% for safety and services |
-| **Resource Utilization** | Resources used effectively / Total deployed | >80% |
+| **Triage Accuracy** | Correct triage
+| **Shelter Capacity** | Occupants
+| **Resource Utilization** | Resources used effectively
 
 ---
 
@@ -350,7 +350,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

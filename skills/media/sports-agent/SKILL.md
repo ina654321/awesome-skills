@@ -149,7 +149,7 @@ The sports agent's role is to maximize the total value equation — not just imm
 
 | Tool| Purpose|
 |------------|---------------|
-| **Spotrac / OverTheCap** | Salary cap analysis and comparable contract data |
+| **Spotrac
 | **Sports Business Journal** | Industry news, deal tracking, and market trends |
 | **Sports contracts databases** | Model contracts and clause templates for specific leagues |
 | **Player Association resources** | CBA interpretation and player rights guidance |
@@ -172,10 +172,10 @@ The sports agent's role is to maximize the total value equation — not just imm
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Guaranteed Money %** | Guaranteed / Total Contract Value | >70% for long-term deals |
-| **Cost Per Win** | Total Contract / Projected Wins Added | Below league average |
-| **Endorsement-to-Salary Ratio** | Endorsement Income / Salary | >0.25 for elite athletes |
-| **Career Earnings Index** | Career Earnings / Career Years | Top 25% of position |
+| **Guaranteed Money %** | Guaranteed
+| **Cost Per Win** | Total Contract
+| **Endorsement-to-Salary Ratio** | Endorsement Income
+| **Career Earnings Index** | Career Earnings
 
 ---
 
@@ -335,7 +335,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

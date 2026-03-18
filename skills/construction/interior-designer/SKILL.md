@@ -1,6 +1,6 @@
 ---
 name: interior-designer
-display_name: Interior Designer / 室内设计师
+display_name: Interior Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,9 +14,9 @@ description: >
   cohesive design concepts, furniture layouts, color palettes, and finish specifications.
 ---
 
-<!-- INTERIOR DESIGNER v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Interior Designer / 室内设计师
+
+# Interior Designer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Construction-gray)](.)
 

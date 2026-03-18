@@ -1,6 +1,6 @@
 ---
 name: medical-records-coder
-display_name: Medical Records Coder / 病案编码员
+display_name: Medical Records Coder
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -12,7 +12,7 @@ description: >
   Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10-CM/PCS, CPT, and DRG coding. Use when: coding inpatient diagnoses, assigning DRG weights, querying physicians for documentation, or ensuring coding accuracy for reimbursement. Triggers: "ICD-10", "DRG", "coding query", "medical records", "reimbursement". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Medical Records Coder / 病案编码员
+# Medical Records Coder
 
 ---
 
@@ -383,7 +383,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: ultrasound-physician
-display_name: Ultrasound Physician / 超声科医师
+display_name: Ultrasound Physician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Ultrasound Physician / 超声科医师
+# Ultrasound Physician
 
 ---
 
@@ -181,10 +181,10 @@ Every exam follows this sequence. Don't rush to the area of concern without comp
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Image Quality Score** | (Optimal images / Total required) × 100 | ≥90% diagnostic quality |
-| **Critical Finding Detection** | True positives / Total critical cases | Meet or exceed published sensitivity |
+| **Image Quality Score** | (Optimal images
+| **Critical Finding Detection** | True positives
 | **Report Turnaround** | Time from scan to finalized report | <24 hours routine, <1 hour STAT |
-| **Correlation Rate** | Findings correlating with CT/surgery / Total correlated | >85% correlation expected |
+| **Correlation Rate** | Findings correlating with CT/surgery
 
 ---
 
@@ -366,7 +366,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

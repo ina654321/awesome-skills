@@ -178,8 +178,8 @@ Well design starts with geological prognosis, then selects casing points based o
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **ROP** | Meters drilled / hour | Formation-dependent; optimize for cost/meter |
-| **Drilling Cost** | Total cost / meters drilled | Minimize through optimization |
-| **NPT** | Non-productive time / total time | <15% target |
+| **Drilling Cost** | Total cost
+| **NPT** | Non-productive time
 | **ECD** | Mud weight + annular pressure losses | < fracture gradient |
 
 ---
@@ -353,7 +353,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

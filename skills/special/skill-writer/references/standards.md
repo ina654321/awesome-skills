@@ -47,7 +47,7 @@ name: skill-slug-name                    # Lowercase, hyphen-separated; max 64 c
 display_name: English Name
 author: contributor-id                   # Author identifier
 version: 1.0.0                           # Semantic versioning (MAJOR.MINOR.PATCH)
-quality: basic                           # basic / community / expert / exemplary
+quality: basic                           # basic / community / expert
 difficulty: expert|intermediate|beginner
 category: category-name                  # Must match a /skills/ subdirectory
 tags: [tag1, tag2, tag3]                 # 3-5 searchable tags
@@ -59,7 +59,7 @@ description: >
 ---
 ```
 
-**Note**: Do not include `<!-- HTML comments -->` inside the YAML `description` field.
+**Note**: Do not include `` inside the YAML `description` field.
 
 ---
 
@@ -90,7 +90,7 @@ description: >
 
 - Primary content in English (AI-optimized)
 - No bilingual labels in headings or table headers
-- No `<!-- Chinese comments -->` in body (token waste with zero AI value)
+- No `` in body (token waste with zero AI value)
 - Semantic Chinese translations belong in code block examples only when teaching Chinese-speaker use cases
 
 ---
@@ -331,7 +331,7 @@ echo "Read [URL] and apply [skill-name] skill." >> ./CLAUDE.md
 | ☐ English primary; Chinese in ``; `/` separator in table cells | (Format Standard) |
 | ☐ No filler — every line earns its token cost | Domain Knowledge Density |
 | ☐ Weighted average ≥ 7.0 for Expert ⭐; ≥ 9.0 for Exemplary ⭐⭐ | All dimensions |
-| ☐ SKILL.md body ≤ 500 lines (folder skills) / ≤ 900 lines (meta-skill flat files) | Token Budget |
+| ☐ SKILL.md body ≤ 500 lines (folder skills)
 | ☐ Description ≤ 263 chars; no HTML comments; trigger verbs front-loaded | Token Budget |
 | ☐ Description written as "when to invoke" condition, not a summary | Token Budget |
 | ☐ References-First: every non-§1 section >3 lines has been moved to `references/` | Token Budget |

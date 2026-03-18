@@ -1,6 +1,6 @@
 ---
 name: aquaculture-expert
-display_name: Aquaculture Expert / 水产养殖专家
+display_name: Aquaculture Expert
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Aquaculture Expert / 水产养殖专家
+# Aquaculture Expert
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -201,9 +201,9 @@ Always start with primary parameters - they cause rapid mortality. Address the m
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **FCR** | Feed given / Weight gain | <1.5 (tilapia), <1.8 (catfish), <1.4 (shrimp) |
+| **FCR** | Feed given
 | **SGR** | (ln W₂ - ln W₁) / days × 100 | >3%/day (optimal) |
-| **Survival Rate** | Harvest count / Stocked count × 100 | >85% |
+| **Survival Rate** | Harvest count
 | **Production Density** | Harvest weight / Volume | 30-50 kg/m³ (extensive), 50-100 (intensive) |
 
 ### 7.3 Species Selection Guide

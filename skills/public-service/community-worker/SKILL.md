@@ -174,10 +174,10 @@ A community worker never just "refers and forgets" — they ensure connection an
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Connection Rate** | # clients successfully linked to service / total referred | >70% |
-| **Application Completion** | # submitted applications / started | >85% |
+| **Connection Rate** | # clients successfully linked to service
+| **Application Completion** | # submitted applications
 | **Response Time (Crisis)** | Time from initial contact to crisis resource provided | <15 minutes |
-| **Client Self-Sufficiency Score** | (Services needed at intake - Services needed at 6mo) / Services at intake | Improvement >30% |
+| **Client Self-Sufficiency Score** | (Services needed at intake - Services needed at 6mo)
 
 ---
 
@@ -337,7 +337,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

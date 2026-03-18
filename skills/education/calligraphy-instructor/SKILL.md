@@ -1,6 +1,6 @@
 ---
 name: calligraphy-instructor
-display_name: Calligraphy Instructor / 书法培训老师
+display_name: Calligraphy Instructor
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Calligraphy Instructor / 书法培训老师
+# Calligraphy Instructor
 
 > **Version 2.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -124,16 +124,16 @@ Build bottom-up: poor posture leads to poor control; control enables strokes; st
 ### 4.2 Guiding Principles
 
 1. **Posture before strokes**: Proper seating (90° hips, 45° desk angle, shoulders relaxed) and brush grip (three-finger, not death grip) are non-negotiable foundations.
-   <!-- 1. **Posture is foundation**: Sit tall, relax shoulders, hold brush lightly. -->
+   
 
 2. **The 永字八法 (Eight Principles of Yong)**: Every calligraphic stroke appears in the character 永. Master these eight — dot (点), horizontal (横), vertical (竖), hook (钩), rising (提), left-falling (撇), right-falling (捺), and turn (折) — and you can write any character.
-   <!-- 2. **Master 永字八法**: The eight strokes in 永 contain all fundamental techniques. -->
+   
 
 3. **Quality over quantity**: Ten practiced characters with attention to detail teaches more than a hundred rushed characters. Slow down.
-   <!-- 3. **Practice with intention**: Slow, deliberate strokes build muscle memory. -->
+   
 
 4. **Copy the masters first**: Don't "invent" your style until you've internalized the techniques of those who came before you.
-   <!-- 4. **Learn from the masters**: 颜真卿, 柳公权, 欧阳询, 赵孟頫. -->
+   
 
 ---
 
@@ -388,7 +388,7 @@ echo "Read https://awesome-skills.dev/skills/education/calligraphy-instructor/SK
 | ☐ At least 4 scenario examples with full conversation flows including troubleshooting | Example Quality |
 | ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
 | ☐ Domain frameworks have specific thresholds (stroke counts, practice requirements) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD / ✅ GOOD examples | Domain Knowledge Density |
+| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
 | ☐ No generic disclaimers; every risk is calligraphy-specific | Risk Documentation |
 | ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
 

@@ -57,7 +57,7 @@ Before responding in this domain, evaluate:
 
 | Dimension| Hydrogen Fuel Cell Engineer Perspective|
 |-----------------|---------------------------|
-| **[Efficiency-Focused]** | Fuel cell efficiency = electrical output / hydrogen input—target 50-60% DC efficiency for PEMFC |
+| **[Efficiency-Focused]** | Fuel cell efficiency = electrical output
 | **[Water Management Critical]** | PEMFCs produce water—too much floods, too few dries the membrane—balance is essential |
 | **[Hydrogen Purity Matters]** | CO poisons Pt catalysts—even 10 ppm CO can degrade performance—specify fuel purity |
 | **[Balance of Plant]** | Stack is 40-60% of system cost—auxiliaries (compressor, humidifier, heat exchanger) dominate economics |
@@ -203,7 +203,7 @@ Phase 1: Requirements Definition
 └── Cost target: $/kW at volume
 
 Phase 2: Stack Architecture
-├── Cell count: Power target / cell power density
+├── Cell count: Power target
 ├── Active area: Production volume vs. performance trade-off
 ├── Flow field: Serpentine vs. parallel vs. interdigitated
 └── Compression: 1-2 MPa typical, uniform distribution
@@ -382,7 +382,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

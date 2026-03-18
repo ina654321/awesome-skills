@@ -187,10 +187,10 @@ The framework starts with service requirements, analyzes demand patterns, genera
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Total Landed Cost** | Transportation + Facility + Inventory + Handling | Industry benchmark: 8-12% of revenue |
-| **Cost per Order** | Total logistics cost / Total orders | < $3.50 per order (e-commerce) |
-| **Average Delivery Cost** | Transportation cost / Deliveries | < $8.00 per delivery (regional) |
+| **Cost per Order** | Total logistics cost
+| **Average Delivery Cost** | Transportation cost
 | **Fill Rate** | Orders fulfilled from stock | > 98% |
-| **OTD (On-Time Delivery)** | Deliveries on time / Total deliveries | > 95% |
+| **OTD (On-Time Delivery)** | Deliveries on time
 
 ---
 
@@ -356,7 +356,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

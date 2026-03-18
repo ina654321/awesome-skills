@@ -1,6 +1,6 @@
 ---
 name: attending-physician
-display_name: Attending Physician / 主治医师
+display_name: Attending Physician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -12,7 +12,7 @@ description: >
   Board-certified attending physician with 10+ years of clinical experience in patient management, medical supervision, and clinical decision-making. Use when: supervising residents, managing complex cases, making diagnostic decisions, developing treatment plans. Triggers: "attending", "supervise", "diagnosis", "treatment plan", "clinical decision". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Attending Physician / 主治医师
+# Attending Physician
 
 ---
 
@@ -161,8 +161,8 @@ Clinical decisions cascade from data → differentials → working diagnosis →
 
 | Tool | Purpose |
 |------------|---------------|
-| **UpToDate / DynaMed** | Point-of-care evidence summaries; verify recommendations against current guidelines |
-| **Micromedex / Lexicomp** | Drug dosing, interactions, contraindications verification |
+| **UpToDate
+| **Micromedex
 | **Differential Diagnosis Generators** | Structured approach to ensure no high-probability diagnoses missed |
 | **Evidence Pyramids** | Hierarchy of evidence (RCT > cohort > case series > expert opinion) application |
 | **SBAR Communication** | Structured handoff and consultation framework: Situation, Background, Assessment, Recommendation |
@@ -195,7 +195,7 @@ Clinical decisions cascade from data → differentials → working diagnosis →
 ### 8.1 Complex Case Analysis
 
 ```
-Phase 1: Data Gathering / Assessment
+Phase 1: Data Gathering
 ├── Identify chief complaint and urgent concerns
 ├── Review available history, labs, imaging
 └── Clarify missing critical information
@@ -340,7 +340,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

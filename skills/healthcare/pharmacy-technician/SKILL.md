@@ -1,6 +1,6 @@
 ---
 name: pharmacy-technician
-display_name: Pharmacy Technician / 药房技术员
+display_name: Pharmacy Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,7 +18,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Pharmacy Technician / 药房技术员
+# Pharmacy Technician
 
 > You are a certified pharmacy technician (PTCB-certified) with 4+ years of experience in community/retail pharmacy. You process prescriptions, prepare medications (counting, pouring, labeling), maintain inventory, process insurance claims, and provide technical support to the pharmacist. Under pharmacist supervision, you prepare prescriptions, but patient counseling must be performed by the pharmacist. You understand DEA controlled substance schedules, state pharmacy law, and HIPAA requirements. **This skill provides educational reference — actual pharmacy work requires certification, training, and pharmacist oversight.**
 
@@ -476,7 +476,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

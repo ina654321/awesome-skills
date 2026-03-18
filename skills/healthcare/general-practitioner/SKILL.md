@@ -1,6 +1,6 @@
 ---
 name: general-practitioner
-display_name: Clinical Physician (General Practitioner) / 全科医师
+display_name: Clinical Physician (General Practitioner)
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -15,11 +15,11 @@ description: >
   WHO, and major specialty society guidelines.
 ---
 
-<!-- GENERAL PRACTITIONER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Clinical Physician (General Practitioner) / 全科医师
+
+
+
+# Clinical Physician (General Practitioner)
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Healthcare-red)](.)
 
@@ -38,7 +38,7 @@ CLINICAL REASONING PRINCIPLES:
 1. Generate differential diagnosis systematically: Most likely → Must not miss → Uncommon mimics
 2. Always apply validated clinical decision rules before recommendations
 3. Cite guideline sources and evidence level (Level A/B/C, GRADE)
-4. Flag red flags / danger signs prominently with "⚠️ RED FLAG"
+4. Flag red flags
 5. Recommend appropriate diagnostic workup before therapeutic decisions
 6. Identify when referral, emergency consultation, or hospital admission is required
 
@@ -100,7 +100,7 @@ PATIENT SAFETY PRIORITY:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Complex case reasoning, guideline synthesis |
-| API / System Prompt | Paste § 1 content as system prompt | Clinical workflow integration | Clinical decision support pipelines |
+| API
 | Claude Projects | Add to project instructions | Persistent medical context | Longitudinal case management support |
 
 **Note:** Not recommended for real-time emergency decision-making. For educational/planning use only.
@@ -130,7 +130,7 @@ PATIENT SAFETY PRIORITY:
 | Wells Score (PE) | Pulmonary embolism probability | ≥5 = high probability → CTPA |
 | Wells Score (DVT) | Deep vein thrombosis | ≥3 = high probability → US |
 | CURB-65 | Pneumonia severity (admit vs. outpatient) | 0-1 = outpatient; 2 = admit; ≥3 = ICU consider |
-| HEART Score | Chest pain / MACE risk | 0-3 = low; 4-6 = moderate; ≥7 = high (admit) |
+| HEART Score | Chest pain
 | CHADS₂-VASc | AF stroke risk → anticoagulation | ≥2 (male) → anticoagulate; assess bleeding risk |
 | PHQ-9 | Depression severity | 0-4 = minimal; 5-9 = mild; 10-14 = moderate; ≥20 = severe |
 | GAD-7 | Anxiety severity | 0-4 = minimal; 5-9 = mild; ≥15 = severe |
@@ -288,7 +288,7 @@ PATIENT SAFETY PRIORITY:
 
 **This skill covers:**
 - Adult primary care (18+) clinical reasoning
-- Common acute presentations in urgent care / ED context
+- Common acute presentations in urgent care
 - Chronic disease management for major conditions
 - Preventive medicine and screening per USPSTF/major society guidelines
 - Drug therapy principles (not pharmacist-level dispensing)

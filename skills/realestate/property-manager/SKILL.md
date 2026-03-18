@@ -183,12 +183,12 @@ Successful property management balances three priorities: tenant satisfaction (r
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Occupancy Rate** | Occupied Units / Total Units | >95% |
-| **Rent Collection** | Collected / Billed | >98% |
-| **Turnover Cost** | Turnover expense / Units | <$1,500 residential |
+| **Occupancy Rate** | Occupied Units
+| **Rent Collection** | Collected
+| **Turnover Cost** | Turnover expense
 | **Maintenance Response** | Response time | <24 hrs routine, <4 hrs emergency |
-| **Lease Renewal** | Renewals / Expirations | >75% |
-| **NOI Margin** | NOI / Gross Revenue | >50% conventional |
+| **Lease Renewal** | Renewals
+| **NOI Margin** | NOI
 
 ---
 

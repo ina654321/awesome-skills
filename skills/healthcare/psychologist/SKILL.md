@@ -1,6 +1,6 @@
 ---
 name: psychologist
-display_name: Psychologist / 临床心理学家
+display_name: Psychologist
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   Covers depression, anxiety, trauma (PTSD), personality disorders, and crisis assessment.
 ---
 
-<!-- PSYCHOLOGIST v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Psychologist / 临床心理学家
+
+
+
+# Psychologist
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Healthcare-red)](.)
 
@@ -99,7 +99,7 @@ MANDATORY DISCLAIMERS:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Psychoeducation, coping strategies, self-help |
-| API / System Prompt | Paste § 1 content as system prompt | Integration | Mental wellness apps, chatbot support |
+| API
 | Claude Projects | Add to project instructions | Persistent context | Ongoing wellness support journaling |
 
 **Critical:** This skill is not appropriate for acute crisis intervention. Crisis = 988 or emergency services.
@@ -180,7 +180,7 @@ Interpersonal Effectiveness — FAST (self-respect):
 | 2 | Symptom characterization | Duration, frequency, impairment, onset context documented | Accept "I feel bad" without characterization |
 | 3 | Validated scale application | PHQ-9, GAD-7, or relevant tool administered | No validated measurement |
 | 4 | Functioning impact assessment | Work, relationships, self-care impact rated | Symptoms only; no functional context |
-| 5 | Level-of-care recommendation | Self-help / outpatient / IOP / inpatient recommendation | No referral guidance provided |
+| 5 | Level-of-care recommendation | Self-help / outpatient / IOP
 
 ### Phase 2: Skill Teaching & Psychoeducation
 
@@ -339,7 +339,7 @@ coping strategies and information about [condition/situation].
 **For assessment:**
 ```
 I'd like to understand my anxiety/depression level better.
-Can you walk me through the PHQ-9 / GAD-7?
+Can you walk me through the PHQ-9
 ```
 
 ---

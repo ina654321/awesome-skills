@@ -1,6 +1,6 @@
 ---
 name: chip-design-engineer
-display_name: Chip Design Engineer / 芯片设计工程师
+display_name: Chip Design Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- CHIP DESIGN ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Chip Design Engineer / 芯片设计工程师
+
+# Chip Design Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Semiconductor-blue)](.)
 
@@ -68,12 +68,12 @@ Use tables for timing budgets and power breakdowns. Flag silicon risk items with
 This skill delivers expert-level guidance across the full ASIC design flow:
 
 1. **RTL Design & Microarchitecture** — Write production-quality synthesizable Verilog/SystemVerilog including pipelines, FIFOs, arbiters, AXI/APB bus interfaces, and RISC-V cores with cycle-accurate timing.
-2. **Logic Synthesis & Optimization** — Run and tune Synopsys DC / Cadence Genus flows, interpret QoR reports, resolve timing violations through logic restructuring, retiming, and constraint refinement.
+2. **Logic Synthesis & Optimization** — Run and tune Synopsys DC
 3. **Place & Route (P&R)** — Guide Cadence Innovus/ICC2 floorplanning, power grid design, clock tree synthesis (CTS), routing, and ECO methodologies with quantitative congestion targets.
 4. **Static Timing Analysis (STA)** — Perform multi-corner multi-mode (MCMM) STA with PrimeTime, close setup/hold violations, analyze clock domain crossings (CDC), and generate sign-off reports.
 5. **Design for Testability (DFT)** — Architect scan chains, MBIST, boundary scan (JTAG IEEE 1149.1), ATPG pattern generation, and achieve >99% stuck-at fault coverage.
 6. **Tapeout Sign-off** — Execute DRC/LVS/ERC with Mentor Calibre, manage PDK waivers, coordinate GDS II submission, and validate against foundry process specifications.
-7. **Power Analysis** — Run Synopsys PrimePower / Cadence Voltus dynamic and leakage analysis, optimize UPF multi-voltage domains, implement clock gating and power gating.
+7. **Power Analysis** — Run Synopsys PrimePower
 8. **IP Integration & Verification** — Integrate third-party hard/soft IPs (PCIe, DDR PHY, SerDes), write UVM testbenches, close functional coverage with formal property checking.
 
 ---
@@ -107,8 +107,8 @@ This skill delivers expert-level guidance across the full ASIC design flow:
 │   [DFT] ──────── inserted before P&R ───────────────────────── │
 │   Scan/BIST/JTAG → ATPG patterns → gate-level simulation       │
 │                                                                 │
-│   POWER DOMAINS: VDD_CORE / VDD_IO / VDD_PLL  (UPF)           │
-│   CLOCK DOMAINS: SYS_CLK / PCIE_CLK / MEM_CLK (async CDCs)    │
+│   POWER DOMAINS: VDD_CORE / VDD_IO
+│   CLOCK DOMAINS: SYS_CLK / PCIE_CLK
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -139,15 +139,15 @@ This skill delivers expert-level guidance across the full ASIC design flow:
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
 | Synopsys Design Compiler (DC) | RTL-to-gate-level synthesis | Synthesis stage; generate mapped netlist from Verilog |
-| Cadence Innovus / ICC2 | Place and route | Physical implementation after synthesis netlist |
+| Cadence Innovus
 | Synopsys PrimeTime | Static timing analysis sign-off | MCMM STA; setup/hold closure; check_timing |
 | Mentor Calibre | DRC, LVS, ERC physical verification | Pre-tapeout sign-off; daily incremental checks |
-| Synopsys VCS / Cadence Xcelium | RTL and gate-level simulation | Functional verification throughout design flow |
+| Synopsys VCS
 | Mentor Questa | UVM simulation, formal lint | UVM testbench execution; CDC/RDC analysis |
 | Synopsys Formality | Formal equivalence checking | Verify synthesis/ECO did not alter logic function |
-| Synopsys PrimePower / Voltus | Power analysis | Dynamic switching power; static leakage estimation |
+| Synopsys PrimePower
 | Synopsys SpyGlass | RTL lint, CDC/RDC analysis | Early RTL quality check; clock domain crossing detection |
-| Mentor Tessent / TetraMAX | ATPG, DFT insertion | Scan chain insertion; test pattern generation |
+| Mentor Tessent
 | Cadence Virtuoso | Custom/analog layout | Mixed-signal IP, memory compiler views |
 | Python + cocotb | RTL scripting, co-simulation testbench | Automation scripts; co-simulation with Python models |
 
@@ -165,11 +165,11 @@ This skill delivers expert-level guidance across the full ASIC design flow:
 | Worst Negative Slack (WNS) | WNS = min(Required Time − Arrival Time) | ≥ 0 ps at sign-off |
 | Total Negative Slack (TNS) | TNS = Σ(all negative slacks) | 0 ps at sign-off |
 | Clock Uncertainty (setup) | Jitter + CTS skew + OCV margin | ≤ 100 ps at 1 GHz |
-| Core Utilization | (Cell Area / Core Area) × 100% | 65–80% typical |
+| Core Utilization | (Cell Area
 | Dynamic Power | P_dyn = α × C_load × VDD² × f | Budget-dependent; 100 mW–10 W |
 | Leakage Power | P_leak = I_leak × VDD (summed over all cells) | < 20% of total power |
-| Stuck-at Fault Coverage | (Detected / Total Faults) × 100% | ≥ 99% for production |
-| Transition Fault Coverage | Slow-to-rise / slow-to-fall detection rate | ≥ 95% |
+| Stuck-at Fault Coverage | (Detected
+| Transition Fault Coverage | Slow-to-rise
 | Static IR Drop | ΔV = I_avg × R_grid | < 3% VDD |
 | Dynamic IR Drop | Peak voltage droop during simultaneous switching | < 5% VDD |
 
@@ -467,7 +467,7 @@ report_pg_droop -voltage_drop > ir_drop_dynamic.txt
 - Software running on the chip (use embedded firmware skills for that layer)
 
 **Alternatives:**
-- For FPGA design: FPGA Engineer skill with Xilinx Vivado / Intel Quartus focus
+- For FPGA design: FPGA Engineer skill with Xilinx Vivado
 - For analog IC design: Analog Circuit Design skill with Cadence Virtuoso/SPICE expertise
 - For embedded software: RTOS or bare-metal embedded systems skill
 
@@ -483,14 +483,14 @@ cp chip-design-engineer.md ~/.skills/
 
 | Trigger Words | 中文触发词 |
 |---------------|-----------|
-| "chip design" / "ASIC design" | "芯片设计" / "集成电路设计" |
-| "RTL" / "Verilog" / "SystemVerilog" | "寄存器传输级" / "硬件描述语言" |
-| "timing closure" / "STA" | "时序收敛" / "静态时序分析" |
-| "tapeout" / "DRC" / "LVS" | "流片" / "版图验证" |
-| "place and route" / "P&R" | "布局布线" |
-| "synthesis" / "Design Compiler" | "逻辑综合" |
-| "DFT" / "scan insertion" / "ATPG" | "可测试性设计" / "扫描链" |
-| "RISC-V" / "processor design" | "处理器设计" / "RISC-V架构" |
+| "chip design" / "ASIC design" | "芯片设计"
+| "RTL" / "Verilog" / "SystemVerilog" | "寄存器传输级"
+| "timing closure" / "STA" | "时序收敛"
+| "tapeout" / "DRC" / "LVS" | "流片"
+| "place and route"
+| "synthesis"
+| "DFT" / "scan insertion" / "ATPG" | "可测试性设计"
+| "RISC-V" / "processor design" | "处理器设计"
 
 ---
 

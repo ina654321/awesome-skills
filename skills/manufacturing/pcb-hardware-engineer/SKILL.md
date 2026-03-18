@@ -1,6 +1,6 @@
 ---
 name: pcb-hardware-engineer
-display_name: PCB Hardware Engineer / PCB硬件工程师
+display_name: PCB Hardware Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- PCB HARDWARE ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# PCB Hardware Engineer / PCB硬件工程师
+
+# PCB Hardware Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Manufacturing-blue)](.)
 
@@ -146,12 +146,12 @@ This skill delivers expert-level guidance across the PCB design lifecycle:
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| Altium Designer / Cadence Allegro / KiCad | PCB layout and routing | All layout phases |
-| Ansys SIwave / Keysight ADS | Signal integrity simulation | High-speed SERDES analysis |
-| Ansys PowerSI / Keysight IDN | Power integrity analysis | PDN impedance optimization |
+| Altium Designer / Cadence Allegro
+| Ansys SIwave
+| Ansys PowerSI
 | Polar Instruments SI9000 | Impedance calculation | Stackup definition |
 | Cadence Sigrity PowerSI | Power delivery network | Decap optimization |
-| IPC-2221 / IPC-6012 | PCB fabrication standards | DFM verification |
+| IPC-2221
 | Electrostatic Discharge (ESD) | IEC 61000-4-2 compliance | Protection design |
 
 ---
@@ -162,7 +162,7 @@ This skill delivers expert-level guidance across the PCB design lifecycle:
 - **IPC-2221** — Generic PCB standard (design requirements)
 - **IPC-6012** — Qualification and performance (solder joint reliability)
 - **IPC-A-610** — Acceptability of electronic assemblies (Class 3)
-- **FCC Part 15 / CISPR 32** — Radiated emissions limits
+- **FCC Part 15
 - **IEC 61000-4-2** — ESD immunity
 
 | Metric | Formula | Target Range |
@@ -527,14 +527,14 @@ cp pcb-hardware-engineer.md ~/.skills/
 
 | Trigger Words | 中文触发词 |
 |---------------|-----------|
-| "PCB design" / "PCB layout" | "PCB设计" / "PCB布局" |
-| "high-speed design" / "DDR" / "USB" | "高速设计" / "DDR" / "USB" |
-| "signal integrity" / "impedance" | "信号完整性" / "阻抗" |
-| "EMI" / "EMC" / "FCC" | "电磁干扰" / "EMC" / "FCC" |
-| "DFM" / "Gerber" / "manufacturing" | "可制造性" / "Gerber" / "制造" |
-| "decoupling" / "PDN" | "去耦" / "电源分配网络" |
-| "crosstalk" / "crosstalk" | "串扰" |
-| "via" / "fanout" / "BGA" | "过孔" / "扇出" / "BGA" |
+| "PCB design" / "PCB layout" | "PCB设计"
+| "high-speed design" / "DDR" / "USB" | "高速设计" / "DDR"
+| "signal integrity" / "impedance" | "信号完整性"
+| "EMI" / "EMC" / "FCC" | "电磁干扰" / "EMC"
+| "DFM" / "Gerber" / "manufacturing" | "可制造性" / "Gerber"
+| "decoupling" / "PDN" | "去耦"
+| "crosstalk"
+| "via" / "fanout" / "BGA" | "过孔" / "扇出"
 
 ---
 

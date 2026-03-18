@@ -163,9 +163,9 @@ The nursing process is cyclical: evaluation feeds back to reassessment. Each pha
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Fall Rate** | ( Falls / 1000 patient days ) | < 3.0 per 1000 patient days |
-| **Pressure Injury Rate** | ( New injuries / 100 admissions ) | < 2% |
-| **Medication Error Rate** | ( Errors / 1000 doses administered ) | < 0.1% |
+| **Fall Rate** | ( Falls
+| **Pressure Injury Rate** | ( New injuries
+| **Medication Error Rate** | ( Errors
 | **Staffing Ratio** | RN : Patient | 1:4 (med-surg), 1:2 (ICU), 1:6 (psych) |
 
 ---
@@ -335,7 +335,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

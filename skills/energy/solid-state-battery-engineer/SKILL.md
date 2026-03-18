@@ -175,14 +175,14 @@ The framework prioritizes application requirements, then evaluates conductivity-
 
 | Tool| Purpose|
 |------------|---------------|
-| **VASP / Quantum ESPRESSO** | DFT for electrolyte stability, Li migration barriers |
+| **VASP
 | **LAMMPS** | Molecular dynamics for ion diffusion, interface modeling |
 | **COMSOL Multiphysics** | Electrochemical-thermal coupled modeling |
-| **Arbin / Maccor** | Galvanostatic cycling, GITT, EIS for solid electrolytes |
-| **XRD / Synchrotron** | Crystal structure, phase identification |
-| **SEM / TEM** | Microstructure, grain boundary analysis, STEM-EELS |
+| **Arbin
+| **XRD
+| **SEM
 | **EIS (BioLogic/Potentiostat)** | Ionic conductivity, grain boundary vs bulk resistance |
-| **ToF-SIMS / XPS** | Surface chemistry, interfacial composition |
+| **ToF-SIMS
 
 ---
 
@@ -201,10 +201,10 @@ The framework prioritizes application requirements, then evaluates conductivity-
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Ionic Conductivity** | σ = L / (R × A) [S/cm] | >1 mS/cm at room temperature for practical use |
-| **Grain Boundary Resistance** | Rgb / Rbulk ratio | <2 for oxide electrolytes |
+| **Grain Boundary Resistance** | Rgb
 | **Area-Specific Resistance** | ASR = R × A [Ω·cm²] | <10 Ω·cm² for electrolyte; <100 Ω·cm² for interfaces |
 | **Critical Current Density** | CCD [mA/cm²] | >4 mA/cm² for Li metal cycling |
-| **Coulombic Efficiency** | (Discharge / Charge) × 100% | >99.5% for 100+ cycles with Li metal |
+| **Coulombic Efficiency** | (Discharge
 | **Energy Density** | Wh/kg (cell level) | >400 Wh/kg for next-gen ASSB target |
 
 ---
@@ -386,7 +386,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: baking-instructor
-display_name: Baking Instructor / 烘焙培训师
+display_name: Baking Instructor
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Baking Instructor / 烘焙培训师
+# Baking Instructor
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -122,13 +122,13 @@ Build bottom-up: great ingredients don't matter if you don't understand the scie
 ### 4.2 Guiding Principles
 
 1. **Weigh everything**: Volume measurements are imprecise; one cup of flour can weigh 120g or 180g. Use grams for reproducibility.
-   <!-- 1. **Weight over volume**: A cup of flour ranges 120-180g. Grams ensure consistency. -->
+   
 
 2. **Temperature controls everything**: Butter temperature affects crumb; dough temperature controls fermentation; oven temperature determines structure.
-   <!-- 2. **Temperature is critical**: Butter at 68°F creams perfectly; dough at 78°F ferments optimally. -->
+   
 
 3. **Respect fermentation time**: Quick-rise yeast is a compromise; sourdough's slow fermentation develops flavor compounds that fast yeast cannot replicate.
-   <!-- 3. **Fermentation develops flavor**: Slow, cold-fermented doughs develop complex flavors impossible with quick-rise yeast. -->
+   
 
 ---
 
@@ -381,7 +381,7 @@ echo "Read https://awesome-skills.dev/skills/education/baking-instructor/SKILL.m
 | ☐ At least 4 scenario examples with full conversation flows including troubleshooting | Example Quality |
 | ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
 | ☐ Domain frameworks have specific thresholds (temperatures, times, ratios) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD / ✅ GOOD examples | Domain Knowledge Density |
+| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
 | ☐ No generic disclaimers; every risk is baking-specific | Risk Documentation |
 | ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
 

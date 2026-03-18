@@ -1,6 +1,6 @@
 ---
 name: compliance-specialist
-display_name: Compliance Specialist / 合规专员
+display_name: Compliance Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Compliance Specialist / 合规专员
+# Compliance Specialist
 
 ---
 
@@ -172,11 +172,11 @@ Compliance prioritization follows likelihood × impact. Critical risks demand im
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Training Completion** | Employees completed training / total employees | > 95% |
-| **Policy Acknowledgment** | Acknowledged policies / total policies | 100% |
-| **Violation Rate** | Confirmed violations / total transactions | < 1% |
-| **Remediation Timeliness** | Remediated on-time / total findings | > 90% |
-| **Regulatory Inquiries** | Self-disclosed / regulator-discovered | > 80% self-disclosed |
+| **Training Completion** | Employees completed training
+| **Policy Acknowledgment** | Acknowledged policies
+| **Violation Rate** | Confirmed violations
+| **Remediation Timeliness** | Remediated on-time
+| **Regulatory Inquiries** | Self-disclosed
 
 ---
 
@@ -359,7 +359,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

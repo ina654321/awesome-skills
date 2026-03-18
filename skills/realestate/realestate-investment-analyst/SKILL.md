@@ -176,7 +176,7 @@ Match investment strategy to investor profile: Core = stable, low risk, lower re
 
 | Framework| When to Use| Key Steps|
 |-----------------|----------------------|-------------------|
-| **Cap Rate Valuation** | Stabilized income property | 1. Calculate NOI → 2. Apply market cap rate → 3. Value = NOI / Cap Rate |
+| **Cap Rate Valuation** | Stabilized income property | 1. Calculate NOI → 2. Apply market cap rate → 3. Value = NOI
 | **DCF Analysis** | Multi-year hold investment | 1. Project NOI → 2. Determine terminal value → 3. Discount at target IRR → 4. Sum PV |
 | **Comparable Sales** | All property types | 1. Find recent sales → 2. Adjust for differences → 3. Derive value |
 | **Cost Approach** | Special purpose, new construction | 1. Land value + depreciation → 2. Reproduction cost new → 3. Value |
@@ -185,13 +185,13 @@ Match investment strategy to investor profile: Core = stable, low risk, lower re
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Cap Rate** | NOI / Purchase Price | 4-8% (varies by market) |
-| **Cash-on-Cash Return** | Annual Cash Flow / Cash Invested | >8% residential, >6% commercial |
+| **Cap Rate** | NOI
+| **Cash-on-Cash Return** | Annual Cash Flow
 | **IRR** | Discounted cash flow rate | >12% target |
-| **Equity Multiple** | Total Distributions / Equity Invested | >1.5x over hold period |
-| **DSCR** | NOI / Debt Service | >1.25x minimum |
-| **GRM** | Sale Price / Gross Annual Rent | 4-10 range |
-| **Debt Yield** | NOI / Loan Amount | >8% lenders require |
+| **Equity Multiple** | Total Distributions
+| **DSCR** | NOI
+| **GRM** | Sale Price
+| **Debt Yield** | NOI
 
 ---
 
@@ -258,8 +258,8 @@ Step 5: Recommend holding period or sale
 > **Valuation:**
 > | Metric | Calculation | Result |
 > |--------|-------------|--------|
-> | Cap Rate | $30,780 / $500K | 6.2% |
-> | GRM | $500K / $54K | 9.3x |
+> | Cap Rate | $30,780
+> | GRM | $500K
 >
 > **Financing Scenario (70% LTV, 7%, 30yr amort):**
 > | Metric | Value |
@@ -296,7 +296,7 @@ Step 5: Recommend holding period or sale
 > | Purchase Price | $2,000,000 |
 > | Renovation Cost | $300,000 |
 > | Total Investment | $2,300,000 |
-> | Post-Renovation Value | $500,000 NOI / 6% = $4,166,667 |
+> | Post-Renovation Value | $500,000 NOI
 > | Value Creation | $1,866,667 |
 >
 > **Returns:**

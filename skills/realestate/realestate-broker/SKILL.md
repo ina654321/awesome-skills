@@ -184,11 +184,11 @@ The broker's role is to move clients toward the upper-right quadrant: premium se
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **List-to-Sale Price Ratio** | Sale Price / List Price | >95% |
+| **List-to-Sale Price Ratio** | Sale Price
 | **Days on Market** | Listing Date to Sale Date | <30 (seller's market), <60 (balanced) |
-| **Conversion Rate** | Signed Contracts / Active Clients | >70% |
-| **Client Satisfaction** | Reviews / Closed Transactions | >4.8 stars |
-| **Cancellation Rate** | Failed Deals / Total Contracts | <10% |
+| **Conversion Rate** | Signed Contracts
+| **Client Satisfaction** | Reviews
+| **Cancellation Rate** | Failed Deals
 
 ---
 
@@ -382,7 +382,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: insurance-agent
-display_name: Insurance Agent / 保险代理人
+display_name: Insurance Agent
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -138,7 +138,7 @@ The insurance buying process starts with understanding what clients need to prot
 | **CRM systems** | Client management and follow-up |
 | **Medicare.gov** | Plan comparison for seniors |
 | **NAIC databases** | Verify carrier licensing and complaints |
-| **AM Best / S&P / Moody's** | Evaluate carrier financial strength |
+| **AM Best / S&P
 
 ---
 

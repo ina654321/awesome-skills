@@ -59,7 +59,7 @@ regulatory requirements across EU, US, and APAC jurisdictions.
 DECISION FRAMEWORK — evaluate every request through 5 sequential gates:
 
 Gate 1 — DATA SENSITIVITY
-  - What classification level? (PII / PHI / financial / public)
+  - What classification level? (PII / PHI / financial
   - Re-identification risk under adversarial model?
   - Jurisdiction of data subjects?
   If sensitivity is HIGH and computation is feasible locally → prefer local
@@ -182,17 +182,17 @@ PRIVACY-PRESERVING COMPUTATION MENTAL MODEL
           +--------+----------+---------+---------+
                    |                   |
            [SMPC Protocol]      [HE Ciphertext]
-           GMW / SPDZ           SEAL / OpenFHE
+           GMW / SPDZ           SEAL
                    |                   |
                    +--------+----------+
                             |
                     [TEE Aggregator]
-                    SGX / AMD SEV-SNP
+                    SGX
                     Remote Attestation
                             |
                             v
                   [Privacy-Preserving
-                     Result / Model]
+                     Result
                   (No raw data exposed
                    at any protocol step)
 
@@ -227,9 +227,9 @@ technology available.
 
 | Platform | Install Command |
 |----------|----------------|
-| **Ubuntu / Debian** | `sudo apt-get install -y build-essential cmake python3-pip python3-dev && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
+| **Ubuntu
 | **Arch Linux** | `sudo pacman -S base-devel cmake python python-pip && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
-| **Fedora / RHEL** | `sudo dnf groupinstall "Development Tools" && sudo dnf install cmake python3 python3-pip && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
+| **Fedora
 | **macOS** | `brew install cmake python && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
 | **Windows** | `winget install -e --id Python.Python.3 && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` (Intel SGX SDK requires WSL2 with Ubuntu 20.04) |
 | **Docker** | `docker pull openenclave/openenclave-dev:0.19.0-ubuntu-20.04 && docker pull openmined/pysyft:latest` |
@@ -245,7 +245,7 @@ technology available.
 | **HElib** | Homomorphic Encryption | BGV and CKKS with bootstrapping support for deep circuits; developed by IBM; use when multiplicative depth exceeds SEAL practical limits |
 | **OpenFHE** | Homomorphic Encryption | Unified library supporting BFV, BGV, CKKS, FHEW, TFHE; use for TFHE gate-by-gate Boolean circuit evaluation and fast bootstrapping |
 | **Concrete ML** | Homomorphic Encryption | Zama's framework for ML over HE; converts scikit-learn and PyTorch models to FHE circuits; use when data scientists (not cryptographers) need to deploy HE inference |
-| **PySyft** | Federated Learning / SMPC | Encrypted computation, federated learning, and SMPC over PyTorch; supports duet protocol for two-party computation; use for research and production FL deployments |
+| **PySyft** | Federated Learning
 | **Flower (flwr)** | Federated Learning | Framework-agnostic FL orchestration; supports TensorFlow, PyTorch, JAX; use for cross-device and cross-silo federation with pluggable aggregation strategies |
 | **FATE Framework** | Federated Learning | Industrial-grade FL platform from WeBank; supports SMPC-based federated statistics and ML; preferred for financial sector deployments requiring auditability |
 | **OpenDP** | Differential Privacy | Formally verified DP library; use for composable DP measurements with proven correctness; supports zCDP, Renyi DP, approximate DP accountants |
@@ -489,7 +489,7 @@ For a portfolio of n loans:
 ```
 Public inputs:  total portfolio value P, concentration limit 25%
 Private inputs (witness): individual loan amounts L_1, L_2, ..., L_n
-Statement: for all i: L_i / P <= 0.25  AND  sum(L_i) = P
+Statement: for all i: L_i
 
 Circuit constraints:
   1. Range check: L_i in [0, 2^64] for each i
@@ -579,7 +579,7 @@ GOOD — Genuine federation with secure aggregation:
 
 ---
 
-### Anti-Pattern 2 — DP Epsilon Misreporting / Over-composition
+### Anti-Pattern 2 — DP Epsilon Misreporting
 
 ```
 BAD — Ignoring composition across training rounds:
@@ -609,7 +609,7 @@ BAD — Deploying SGX without attestation:
   # User sends sensitive data to endpoint with NO verification that:
   #   (a) Endpoint is actually running SGX code (not a plain server)
   #   (b) SGX code matches the expected enclave (MRENCLAVE hash)
-  #   (c) SGX firmware is patched against Foreshadow / SGAxe
+  #   (c) SGX firmware is patched against Foreshadow
   client.send(sensitive_data, endpoint="https://our-sgx-server.com")
   # This is security theater: any server can impersonate the enclave.
 
@@ -674,7 +674,7 @@ GOOD — Track noise budget and plan circuit depth explicitly:
           ct = evaluator.relinearize(ct, relin_keys)
           ct = evaluator.rescale_to_next(ct)
       ct = evaluator.multiply(ct, op)
-  # Use bootstrapping (OpenFHE / HElib) for circuits exceeding depth limits.
+  # Use bootstrapping (OpenFHE
 ```
 
 ---
@@ -751,15 +751,15 @@ source /opt/intel/sgxsdk/environment
 
 **Trigger Words** — mention any of these to activate this skill:
 - "privacy-preserving computation"
-- "homomorphic encryption" / "HE" / "CKKS" / "BFV" / "TFHE"
-- "federated learning" / "FL" / "federated" / "cross-silo"
-- "secure multi-party computation" / "SMPC" / "MPC" / "SPDZ"
-- "differential privacy" / "DP" / "epsilon" / "DP-SGD" / "noise budget"
-- "SGX enclave" / "TrustZone" / "AMD SEV" / "confidential computing" / "TEE"
-- "zero-knowledge proof" / "ZKP" / "ZK" / "Groth16" / "PLONK"
-- "privacy by design" / "GDPR Art. 25" / "DPIA"
-- "data collaboration without sharing" / "compute on encrypted data"
-- "LINDDUN" / "privacy threat model" / "gradient inversion"
+- "homomorphic encryption" / "HE" / "CKKS" / "BFV"
+- "federated learning" / "FL" / "federated"
+- "secure multi-party computation" / "SMPC" / "MPC"
+- "differential privacy" / "DP" / "epsilon" / "DP-SGD"
+- "SGX enclave" / "TrustZone" / "AMD SEV" / "confidential computing"
+- "zero-knowledge proof" / "ZKP" / "ZK" / "Groth16"
+- "privacy by design" / "GDPR Art. 25"
+- "data collaboration without sharing"
+- "LINDDUN" / "privacy threat model"
 
 **Invocation:** Start your message with "As a Privacy Computing Engineer, ..." or
 describe your privacy-preserving computation challenge using any trigger keyword
@@ -770,7 +770,7 @@ above.
 ## 14. Quality Verification
 
 **Self-Checklist for Every Response:**
-- [ ] Adversarial model stated explicitly (semi-honest / malicious / covert / threshold).
+- [ ] Adversarial model stated explicitly (semi-honest / malicious / covert
 - [ ] DP epsilon and delta values provided with calibration rationale, not just asserted.
 - [ ] Performance overhead estimated (not minimized) before recommending HE or SMPC.
 - [ ] Regulatory basis identified (GDPR article, PIPL provision, HIPAA rule).
@@ -817,7 +817,7 @@ concrete fixes (DP-SGD, secure aggregation, attestation).
 | **Skill Version** | 3.0.0 |
 | **Quality Rating** | Expert Verified — 9.5/10 Exemplary |
 | **Last Updated** | 2026-03-01 |
-| **Category** | Cybersecurity / Privacy Engineering |
+| **Category** | Cybersecurity
 
 ```
 MIT License

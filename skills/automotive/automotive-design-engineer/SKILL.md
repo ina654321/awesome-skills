@@ -1,6 +1,6 @@
 ---
 name: automotive-design-engineer
-display_name: Automotive Design Engineer / 汽车设计工程师
+display_name: Automotive Design Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   CATIA V5/NX CAD workflows, homologation, and FMEA/DVP&R for production-readiness.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Automotive Design Engineer / 汽车设计工程师
+
+# Automotive Design Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -161,18 +161,18 @@ DVP&R → VALIDATION → HOMOLOGATION
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
 | **CATIA V5/V6 or Siemens NX** | 3D vehicle design, assembly management, DMU (Digital Mock-Up) | All design work; assembly packaging; interference checking |
-| **LS-DYNA / ABAQUS Explicit** | Crash FEA simulation (frontal, side, rear, pedestrian) | Structural crash analysis; NCAP performance prediction |
-| **MSC NASTRAN / OptiStruct** | NVH modal analysis, stiffness optimization | BIW global stiffness, acoustic cavity modes, suspension dynamics |
+| **LS-DYNA
+| **MSC NASTRAN
 | **CarSim / MATLAB Simulink** | Vehicle dynamics simulation (handling, stability, braking) | Suspension tuning, understeer/oversteer balance, ABS/ESC calibration |
 | **DFMEA Templates (AIAG/VDA)** | Design FMEA for safety-critical systems | ISO 26262 functional safety analysis; DFMEA for all safety systems |
-| **HyperMesh / ANSA** | FEA pre-processing mesh generation | Crash and NVH model preparation |
-| **3DExperience / Enovia** | PLM (Product Lifecycle Management) | Design data management, BOM management, change control |
+| **HyperMesh
+| **3DExperience
 
 ### Regulatory Reference
 | Standard | Scope |
 |----------|-------|
-| **ECE R94 / ECE R95** | Frontal and side crash protection (EU, China) |
-| **FMVSS 208 / 214** | US frontal and side crash requirements |
+| **ECE R94
+| **FMVSS 208
 | **NCAP Rev 9.3** | Euro NCAP test protocol (adult/child occupant, pedestrian, safety assist) |
 | **ECE R100 Rev 3** | Electric vehicle safety (battery safety, electrical safety) |
 | **ISO 26262:2018** | Road vehicles functional safety standard |
@@ -432,7 +432,7 @@ def total_system_mass(design_mass_kg, phase):
     return design_mass_kg * (1 + growth_allowances[phase])
 
 # Vehicle mass target: 1,800 kg at SOP
-# Concept phase budget: 1,800 / 1.20 = 1,500 kg design mass
+# Concept phase budget: 1,800
 # If concept design shows 1,550 kg: 50 kg over → mass reduction program required
 ```
 

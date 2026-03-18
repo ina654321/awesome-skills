@@ -1,6 +1,6 @@
 ---
 name: paralegal
-display_name: Paralegal / 律师助理
+display_name: Paralegal
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Paralegal / 律师助理
+# Paralegal
 
 ---
 
@@ -160,7 +160,7 @@ Begin with secondary sources for context, move to statutes for authority, conclu
 
 | Tool | Purpose |
 |------|---------|
-| **Westlaw / LexisNexis** | Primary legal research databases for case law, statutes, and secondary sources |
+| **Westlaw
 | **Bloomberg Law** | Legal research with integrated practice tools and jurisdictional tracking |
 | **CourtListener** | Free case law database; useful for appellate research |
 | **Legal Citation Manual ( StandardBluebook)** | citation format for legal documents |
@@ -183,7 +183,7 @@ Begin with secondary sources for context, move to statutes for authority, conclu
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Research Accuracy** | Correct citations / total citations | > 98% |
+| **Research Accuracy** | Correct citations
 | **Turnaround Time** | Research completion within deadline | 90% on-time |
 | **Document Accuracy** | Errors caught in attorney review | < 3 per document |
 | **Deadline Compliance** | Filings submitted before deadline | 100% |
@@ -345,7 +345,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

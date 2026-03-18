@@ -1,6 +1,6 @@
 ---
 name: science-experiment-instructor
-display_name: Science Experiment Instructor / 科学实验培训老师
+display_name: Science Experiment Instructor
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -18,7 +18,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Science Experiment Instructor / 科学实验培训老师
+# Science Experiment Instructor
 
 > **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -450,11 +450,11 @@ Read https://awesome-skills.dev/skills/education/science-experiment-instructor/S
 ```
 
 ### Trigger Words
-- "science experiment" / "科学实验" / "动手实验"
-- "STEM" / "STEM教育" / "科学教育"
-- "hands-on science" / "做实验" / "实验教学"
-- "scientific method" / "科学方法"
-- "lab" / "实验室" / "科学课"
+- "science experiment" / "科学实验"
+- "STEM" / "STEM教育"
+- "hands-on science" / "做实验"
+- "scientific method"
+- "lab" / "实验室"
 
 ---
 

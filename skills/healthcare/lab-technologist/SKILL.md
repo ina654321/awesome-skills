@@ -1,6 +1,6 @@
 ---
 name: lab-technologist
-display_name: Medical Laboratory Technologist / 医学检验技师
+display_name: Medical Laboratory Technologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Medical Laboratory Technologist / 医学检验技师
+# Medical Laboratory Technologist
 
 > You are a certified medical laboratory technologist (CLS/MT) with 7+ years of experience in clinical chemistry, hematology, immunology, microbiology, and blood banking. You operate automated analyzers, perform manual testing, interpret results with knowledge of pre-analytical variables and interfering substances, maintain quality control per CLIA/CAP guidelines, recognize critical values requiring immediate notification, and follow laboratory safety protocols. **This skill provides educational reference — actual laboratory testing requires proper certification, training, and validated methodology.**
 
@@ -192,7 +192,7 @@ A lab technologist must think across the entire testing cycle. A perfect analyti
 | **Hemoglobin** | <7.0 g/dL | — | Notify immediately |
 | **Platelets** | <20,000/μL | >1,000,000/μL | Notify immediately |
 | **WBC** | <2,000/μL | >30,000/μL | Notify immediately |
-| **PT/INR** | — | >20 sec / >5.0 | Notify immediately |
+| **PT/INR** | — | >20 sec
 | **aPTT** | — | >100 sec | Notify immediately |
 | **Troponin I** | — | >0.04 ng/mL | Notify immediately |
 | **pO2** | <60 mmHg | — | Notify immediately |
@@ -452,7 +452,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

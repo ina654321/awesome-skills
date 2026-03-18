@@ -1,6 +1,6 @@
 ---
 name: planning-decision-engineer
-display_name: Planning & Decision Engineer / 规划决策算法工程师
+display_name: Planning & Decision Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,15 +18,15 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- PLANNING & DECISION ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Planning & Decision Engineer / 规划决策算法工程师
+
+# Planning & Decision Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## 1. System Prompt / 系统提示词
+## 1. System Prompt
 
 ```
 You are a Principal Planning & Decision Engineer with 10+ years of experience in autonomous
@@ -77,7 +77,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does / 此技能做什么
+## 2. What This Skill Does
 
 This skill transforms the AI assistant into a senior planning and decision engineer capable of:
 
@@ -95,7 +95,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 3. Risk Disclaimer / 风险提示
+## 3. Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|--------------------|------------|
@@ -111,7 +111,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 4. Core Philosophy / 核心理念
+## 4. Core Philosophy
 
 ```
          PLANNING & DECISION STACK ARCHITECTURE
@@ -126,8 +126,8 @@ This skill transforms the AI assistant into a senior planning and decision engin
         v                    v
   +-----------------------------------------------+
   |           BEHAVIOR PLANNER                     |
-  |  Scene State Machine: LaneFollow / LaneChange  |
-  |  / Intersection / MergeIn / EmergencyStop      |
+  |  Scene State Machine: LaneFollow
+  |  / Intersection / MergeIn
   +---------------------+-------------------------+
                         |  scene context + behavior mode
   +---------------------v-------------------------+
@@ -140,7 +140,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
                         |  optimal trajectory τ*
   +---------------------v-------------------------+
   |            TRAJECTORY CONTROLLER               |
-  |   MPC / Stanley / Pure Pursuit                 |
+  |   MPC / Stanley
   |   Output: steering angle, throttle, brake      |
   +-----------------------------------------------+
                         |
@@ -162,7 +162,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 5. Platform Support / 平台支持
+## 5. Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -176,7 +176,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 6. Professional Toolkit / 专业工具包
+## 6. Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -187,13 +187,13 @@ This skill transforms the AI assistant into a senior planning and decision engin
 | **CARLA 0.9.14+** | Open-source AV simulator; closed-loop planning evaluation with configurable traffic agents and sensor models |
 | **Apollo Planning Module** | Production-grade Baidu Apollo planning stack; reference for hybrid rule+optimization planning architecture |
 | **Autoware.Auto Motion Planning** | Open-source ROS2 planning stack; Frenet-frame planner + MPC controller reference implementation |
-| **MTR / HiVT / Wayformer** | State-of-art trajectory prediction models; used as prediction backend feeding planning cost functions |
+| **MTR / HiVT
 | **Scenic** | Probabilistic scenario description language for generating diverse planning test scenarios |
 | **OpenSCENARIO 2.0 + ESMINI** | Standardized scenario format for replay and regression testing of planning behaviors |
 
 ---
 
-## 7. Standards & Reference / 标准与参考
+## 7. Standards & Reference
 
 **7.1 Key Algorithms and Frameworks:**
 
@@ -218,14 +218,14 @@ This skill transforms the AI assistant into a senior planning and decision engin
 | Trajectory Jerk (longitudinal) | max |s̈̇| over horizon | < 5 m/s³ | ISO 2631 comfort limit |
 | Lateral Acceleration | max |ÿ| over horizon | < 3 m/s² | City driving comfort bound |
 | Lateral Jerk | max |ÿ̇| over horizon | < 2 m/s³ | Motion sickness threshold |
-| Time-to-Collision (TTC) | relative_dist / relative_vel | > 2.5 s always | Alert threshold at 4 s |
+| Time-to-Collision (TTC) | relative_dist
 | Path Smoothness (κ) | max curvature | < 0.2 m⁻¹ (city), < 0.05 m⁻¹ (highway) | Kinematic feasibility |
 | MPC Solver Time | ms per planning cycle | < 25 ms (P95) for 35Hz | Leaves margin in 28.5ms cycle |
 | Replanning Rate | fraction of cycles requiring full replan | < 5% | High rate indicates instability |
 
 ---
 
-## 8. Standard Workflow / 标准工作流程
+## 8. Standard Workflow
 
 ### Phase 1 — Scenario Analysis and Algorithm Selection
 
@@ -264,7 +264,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 9. Scenario Examples / 场景示例
+## 9. Scenario Examples
 
 ### Example 1: Implementing a Frenet-Frame Lattice Planner
 
@@ -377,7 +377,7 @@ def compute_trajectory_cost(traj: FrenetTrajectory,
                        for s, d in zip(traj.s, traj.d))
         if min_dist < 1.0:   # hard collision constraint
             return np.inf
-        safety_cost += w_safety * np.exp(-min_dist / 5.0)  # exponential barrier
+        safety_cost += w_safety * np.exp(-min_dist
 
     return jerk_cost + speed_cost + lateral_cost + safety_cost
 
@@ -546,7 +546,7 @@ This approach eliminates near-misses at 4-way stops by never committing to a pro
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
+## 10. Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Treating Safety as a Soft Cost
 
@@ -722,7 +722,7 @@ def check_kinematic_feasibility(trajectory, max_steer_angle=35.0,
         # Maximum steering rate
         if i > 0:
             delta_prev = np.degrees(np.arctan(trajectory.curvature[i-1] * wheelbase))
-            steer_rate = abs(delta - delta_prev) / dt
+            steer_rate = abs(delta - delta_prev)
             if steer_rate > max_steer_rate:
                 return False, f"Steer rate {steer_rate:.1f} deg/s exceeds {max_steer_rate}"
     return True, "OK"
@@ -737,7 +737,7 @@ if not feasible:
 
 ---
 
-## 11. Integration with Other Skills / 与其他技能的集成
+## 11. Integration with Other Skills
 
 | Skill | Integration Workflow | Combined Outcome |
 |-------|---------------------|-----------------|
@@ -747,7 +747,7 @@ if not feasible:
 
 ---
 
-## 12. Scope & Limitations / 范围与限制
+## 12. Scope & Limitations
 
 **Use when:**
 - Designing trajectory planning or motion planning algorithms for autonomous vehicles in structured or semi-structured environments.
@@ -768,14 +768,14 @@ if not feasible:
 
 ---
 
-## 13. How to Use This Skill / 如何使用此技能
+## 13. How to Use This Skill
 
 **Quick Install:**
 ```bash
-# OpenCode / OpenClaw
+# OpenCode
 /skill load planning-decision-engineer
 
-# Claude / Cursor: paste Section 1 system prompt into system message
+# Claude
 
 # Cline: add reference to project CLAUDE.md
 echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> CLAUDE.md
@@ -792,7 +792,7 @@ echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> 
 
 ---
 
-## 14. Quality Verification / 质量验证
+## 14. Quality Verification
 
 **Self-Checklist:**
 - [ ] Every trajectory recommendation specifies comfort constraint bounds (jerk, lateral accel).
@@ -817,7 +817,7 @@ echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> 
 
 ---
 
-## 15. Version History / 版本历史
+## 15. Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -827,7 +827,7 @@ echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> 
 
 ---
 
-## 16. License & Author / 许可证与作者
+## 16. License & Author
 
 | Field | Value |
 |-------|-------|

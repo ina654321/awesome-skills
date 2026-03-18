@@ -1,6 +1,6 @@
 ---
 name: restaurant-operations-expert
-display_name: Restaurant Operations Expert / 餐饮运营专家
+display_name: Restaurant Operations Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Restaurant Operations Expert / 餐饮运营专家
+# Restaurant Operations Expert
 
 ---
 
@@ -194,13 +194,13 @@ Guest experience is the output. Operating standards are the input. Support syste
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Food Cost %** | Food cost / Food sales | 28-35% (varies by concept) |
-| **Labor Cost %** | Labor cost / Total sales | 25-35% (varies by concept) |
+| **Food Cost %** | Food cost
+| **Labor Cost %** | Labor cost
 | **Prime Cost** | Food + Labor cost % | 60-70% |
-| **Guest Satisfaction** | Online review average | 4.3+ / 5.0 |
+| **Guest Satisfaction** | Online review average | 4.3+
 | **Table Turn** | Average time seated to checkout | QSR: 5-10 min; FSR: 45-60 min |
-| **Cover Turnover** | Revenue / Seat / Period | FSR dinner: 1.5-2.5x |
-| **Waste %** | Waste cost / Food purchases | <3% |
+| **Cover Turnover** | Revenue / Seat
+| **Waste %** | Waste cost
 
 ---
 
@@ -405,7 +405,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

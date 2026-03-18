@@ -175,7 +175,7 @@ The framework applies the three-parameter approach systematically: verify all th
 | **USFWS IPaC** | Information for Planning and Consultation - listed species |
 | **NRCS Web Soil Survey** | Hydric soil identification |
 | **NWI (National Wetlands Inventory)** | Desktop wetland mapping |
-| **ArcGIS / QGIS** | Spatial analysis, mapping, and database management |
+| **ArcGIS
 | ** Floristic Quality Assessment | Native plant community evaluation |
 | **Raptor Research Foundation** | Bird survey protocols |
 | **EPA Level III Ecoregions** | Ecological regionalization |
@@ -199,7 +199,7 @@ The framework applies the three-parameter approach systematically: verify all th
 |--------------|--------------|---------------|
 | **Wetland Delineation Accuracy** | % of points correctly classified | >95% based on field verification |
 | **Species Richness** | Number of species per unit area | Reference ecosystem comparison |
-| **Floristic Quality Index (FQI)** | Σ(CVI) / √N | >35 for high-quality native communities |
+| **Floristic Quality Index (FQI)** | Σ(CVI)
 | **Habitat Suitability Index (HSI)** | 0-1 scale based on life requisites | >0.7 for suitable habitat |
 | **Restoration Success** | % of success criteria met | 100% of specified metrics |
 | **Mitigation Ratio** | Created/restored : impacted | 1:1 to 3:1 depending on wetland type |
@@ -395,7 +395,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

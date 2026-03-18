@@ -1,6 +1,6 @@
 ---
 name: training-development-manager
-display_name: Training & Development Manager / 培训发展经理
+display_name: Training & Development Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Training & Development Manager / 培训发展经理
+# Training & Development Manager
 
 ---
 
@@ -200,11 +200,11 @@ The chain breaks if any link is missing. Most training fails at "behavior change
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Training Investment** | Training budget / Total payroll | 2-3% (top performers), 1.5% (average) |
+| **Training Investment** | Training budget
 | **Training Hours/Employee** | Total training hours / FTE | 30-40 hours/year (professional services), 15-20 (retail) |
-| **Course Completion Rate** | Completed enrollments / Total enrollments | 85%+ (mandatory), 40%+ (voluntary) |
+| **Course Completion Rate** | Completed enrollments
 | **Knowledge Retention** | Post-test score at 30 days | ≥70% of immediate post-test score |
-| **Training ROI** | (Benefits - Costs) / Costs × 100 | >150% for demonstrable programs |
+| **Training ROI** | (Benefits - Costs)
 | **Manager Engagement** | % of managers completing coach training | 100% for high-impact programs |
 
 ---
@@ -398,7 +398,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

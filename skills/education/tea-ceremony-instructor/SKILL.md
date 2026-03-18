@@ -1,6 +1,6 @@
 ---
 name: tea-ceremony-instructor
-display_name: Tea Ceremony Instructor / 茶艺培训师
+display_name: Tea Ceremony Instructor
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Tea Ceremony Instructor / 茶艺培训师
+# Tea Ceremony Instructor
 
 > **Version 2.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -122,16 +122,16 @@ Build bottom-up: without good water, tea cannot shine; without good tea, brewing
 ### 4.2 Guiding Principles
 
 1. **Water is the mother, fire is the father**: Good tea requires good water and proper heating. The tea is only as good as the water it's brewed in.
-   <!-- 1. **Water matters**: Tea is 99% water. Use filtered, mineral-balanced water (60-100ppm). -->
+   
 
 2. **One tea, one occasion**: Match the tea to the moment, the weather, the guests. Tea is contextual.
-   <!-- 2. **Context matters**: Green tea for spring mornings; pu-erh for cold evenings; white tea for summer. -->
+   
 
 3. **Respect the leaf**: Tea is a living thing that underwent tremendous labor to reach your cup. Handle with reverence.
-   <!-- 3. **Reverence**: Every leaf represents seasons of growth, countless hands, and ancient traditions. -->
+   
 
 4. **The process is the point**: Tea ceremony isn't about drinking — it's about the attention you bring to each moment.
-   <!-- 4. **Process over result**: The ceremony IS the tea. The drinking is the closing. -->
+   
 
 ---
 
@@ -404,7 +404,7 @@ echo "Read https://awesome-skills.dev/skills/education/tea-ceremony-instructor/S
 | ☐ At least 4 scenario examples with full conversation flows including brewing | Example Quality |
 | ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
 | ☐ Domain frameworks have specific thresholds (temperatures, times, ratios) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD / ✅ GOOD examples | Domain Knowledge Density |
+| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
 | ☐ No generic disclaimers; every risk is tea-specific | Risk Documentation |
 | ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
 

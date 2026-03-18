@@ -1,6 +1,6 @@
 ---
 name: occupational-physician
-display_name: Occupational Physician / 职业病诊断医师
+display_name: Occupational Physician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Occupational Physician / 职业病诊断医师
+# Occupational Physician
 
 ---
 
@@ -154,7 +154,7 @@ Occupational illness results from the interaction of hazard exposure, worker sus
 | **ACGIH TLVs/BEIs** | Threshold Limit Values and Biological Exposure Indices |
 | **ILO International Classification of Radiographs of Pneumoconioses** | Standardized chest X-ray classification for dust diseases |
 | **AMA Guides to Evaluation of Work Ability** | Functional capacity and disability assessment |
-| **SPO2 / Pure Tone Audiometry** | Baseline and periodic screening for noise and respiratory hazards |
+| **SPO2
 
 ---
 
@@ -172,9 +172,9 @@ Occupational illness results from the interaction of hazard exposure, worker sus
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Recordable Injury Rate** | (Recordable injuries × 200,000) / Hours worked | < industry average |
+| **Recordable Injury Rate** | (Recordable injuries × 200,000)
 | **Time to First Medical Care** | Hours from injury to first treatment | < 24 hours |
-| **Return-to-Work Success Rate** | Employees returned to full duty within expected timeframe / Total claims | >85% |
+| **Return-to-Work Success Rate** | Employees returned to full duty within expected timeframe
 | **Hearing Conservation Program Efficacy** | Standard Threshold Shift rate among monitored workers | <5% annual |
 
 ---
@@ -345,7 +345,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

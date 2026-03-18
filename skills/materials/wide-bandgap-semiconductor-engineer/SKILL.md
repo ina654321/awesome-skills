@@ -1,6 +1,6 @@
 ---
 name: wide-bandgap-semiconductor-engineer
-display_name: Wide Bandgap Semiconductor Engineer / 宽禁带半导体工程师
+display_name: Wide Bandgap Semiconductor Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- WIDE BANDGAP SEMICONDUCTOR ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Wide Bandgap Semiconductor Engineer / 宽禁带半导体工程师
+
+# Wide Bandgap Semiconductor Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Materials-blue)](.)
 
@@ -39,7 +39,7 @@ STMicroelectronics SiC/GaN platforms, and emerging Ga2O3 and AlN materials.
 DECISION FRAMEWORK — 5 Gate Questions (ask before advising):
 1. MATERIAL SYSTEM: Is the target SiC (4H-SiC preferred), GaN-on-Si, GaN-on-SiC, GaN-on-GaN,
    Ga2O3, or AlN? Material choice determines achievable voltage, current, and switching speed.
-2. VOLTAGE / CURRENT RATING: What are the breakdown voltage (V_BR) and on-state current (I_D)
+2. VOLTAGE
    targets? These determine drift layer thickness, doping, and device topology selection.
 3. APPLICATION CONTEXT: EV inverter, fast charger, power grid, RF power amplifier, or motor
    drive? Application dictates thermal management, switching frequency, and packaging requirements.
@@ -93,7 +93,7 @@ This skill delivers expert-level guidance across wide bandgap semiconductor scie
 | Thermal runaway in packaging | HIGH | Die overheat; bond wire/solder fatigue failure | T_j max < 175°C for SiC; Ag-sinter die attach for high-T cycling |
 | AEC-Q101 HTRB failure (hot carrier) | HIGH | Automotive disqualification; supply disruption | Hot carrier injection analysis; gate oxide thickness > 40 nm for SiC |
 | Schottky contact degradation | MEDIUM | Increased forward voltage drop; reverse leakage at temperature | Ti/Ni/Ag stack optimized; anneal at 950°C; barrier height measured by C-V |
-| Ga2O3 cleavage / substrate fragility | MEDIUM | Wafer breakage during processing; yield loss | Handle with gel-film tape; limit chuck vacuum pressure; 4-inch limit |
+| Ga2O3 cleavage
 
 ---
 
@@ -152,16 +152,16 @@ This skill delivers expert-level guidance across wide bandgap semiconductor scie
 |------|---------|-------------|
 | Silvaco ATLAS | 2D/3D device simulation (TCAD) | Drift layer optimization; breakdown voltage simulation |
 | Synopsys Sentaurus TCAD | Process and device simulation | Process integration; SiC implant anneal modeling |
-| MATLAB / Python (SciPy) | Electrothermal modeling, parameter extraction | C-V analysis; switching loss calculation |
-| LTspice / PLECS | Circuit-level switching simulation | Double-pulse test simulation; converter efficiency |
-| ANSYS Icepak / Fluent | Thermal simulation of packaging | Junction temperature distribution; heat sink design |
+| MATLAB
+| LTspice
+| ANSYS Icepak
 | Hall Effect Measurement System | Carrier density and mobility | Epitaxial layer characterization; 2DEG sheet density |
 | Semiconductor Parameter Analyzer (Keysight B1505A) | I-V, C-V, BV measurement | Device characterization; R_ds(on), Vth, BV, leakage |
 | Double-Pulse Tester | Switching energy measurement | E_on, E_off, Q_rr measurement; gate driver validation |
-| TEM / EDX | Interface and layer analysis | Gate oxide thickness; metal stack composition |
+| TEM
 | Thermal Transient Tester (T3Ster) | Thermal impedance (Zth) measurement | Junction-to-case Rth; thermal stack validation |
-| Wafer-level Prober (Cascade / MPI) | On-wafer electrical test | Pre-dicing device characterization; yield mapping |
-| XRD / HRXRD | Crystal quality, strain analysis | Epitaxial layer quality; AlGaN composition |
+| Wafer-level Prober (Cascade
+| XRD
 
 ---
 
@@ -174,8 +174,8 @@ This skill delivers expert-level guidance across wide bandgap semiconductor scie
 
 | Metric | Formula | Target Range |
 |--------|---------|--------------|
-| Breakdown Voltage | V_BR = E_crit × t_drift / 2 (one-sided abrupt junction) | 650 V–15 kV for SiC |
-| Specific On-Resistance | R_on,sp = (4 × V_BR²) / (ε × μ × E_crit³) | < 1 mΩ·cm² at 1200 V |
+| Breakdown Voltage | V_BR = E_crit × t_drift
+| Specific On-Resistance | R_on,sp = (4 × V_BR²)
 | Threshold Voltage (Vth) | From I_D–V_GS linear extrapolation | 2–4 V for SiC MOSFET |
 | Channel Mobility | μ_ch from I_D = μ_ch × C_ox × (W/L) × (V_GS−Vth) × V_DS | 10–40 cm²/V·s (SiC MOS) |
 | Baliga Figure of Merit | BFOM = ε₀ × ε_r × μ_n × E_crit³ | SiC: 400× Si; GaN: 1000× Si |
@@ -238,17 +238,17 @@ mu_n = 800         # cm²/V·s electron mobility in drift
 # Target
 V_BR_target = 1200  # V
 
-# Step 1: Estimate drift layer thickness from t = 2*V_BR / E_crit
-t_drift = 2 * V_BR_target / E_crit
+# Step 1: Estimate drift layer thickness from t = 2*V_BR
+t_drift = 2 * V_BR_target
 print(f"Drift layer thickness: {t_drift*1e4:.1f} µm")
 
 # Step 2: Estimate doping from depletion approximation at punch-through
-# N_D = epsilon * E_crit^2 / (2 * q * V_BR) — gives minimum R_on doping
-N_D = (epsilon_r * epsilon_0 * E_crit**2) / (2 * q * V_BR_target)
+# N_D = epsilon * E_crit^2
+N_D = (epsilon_r * epsilon_0 * E_crit**2)
 print(f"Optimal drift doping N_D: {N_D:.2e} cm⁻³")
 
 # Step 3: Specific on-resistance lower limit (Baliga)
-R_on_sp = (4 * V_BR_target**2) / (epsilon_r * epsilon_0 * mu_n * E_crit**3)
+R_on_sp = (4 * V_BR_target**2)
 print(f"Ideal specific R_on: {R_on_sp*1000:.3f} mΩ·cm²")
 ```
 
@@ -276,15 +276,15 @@ V_DS_stress = 400    # V — off-state stress voltage
 I_D_target  = 20     # A
 t_stress    = 10e-6  # 10 µs off-state pulse
 
-# Ratio: dynamic R_on / static R_on
+# Ratio: dynamic R_on
 # Static R_on: measured at low V_DS (e.g., 10 V), no prior stress
 # Dynamic R_on: measured immediately after high-V stress
 
 def dynamic_ron_ratio(V_on_dynamic, V_on_static, I_D):
     """V_on measured at t=50ns after turn-on at target I_D"""
-    R_on_dynamic = V_on_dynamic / I_D
-    R_on_static  = V_on_static  / I_D
-    return R_on_dynamic / R_on_static
+    R_on_dynamic = V_on_dynamic
+    R_on_static  = V_on_static 
+    return R_on_dynamic
 
 # Values from oscilloscope capture
 ratio = dynamic_ron_ratio(V_on_dynamic=1.2, V_on_static=0.4, I_D=20)
@@ -429,14 +429,14 @@ cp wide-bandgap-semiconductor-engineer.md ~/.skills/
 
 | Trigger Words | 中文触发词 |
 |---------------|-----------|
-| "SiC MOSFET" / "GaN HEMT" | "碳化硅" / "氮化镓" |
-| "wide bandgap" / "power device" | "宽禁带半导体" / "功率器件" |
-| "breakdown voltage" / "R_ds(on)" | "击穿电压" / "导通电阻" |
-| "epitaxial growth" / "CVD" / "MOCVD" | "外延生长" |
-| "AEC-Q101" / "automotive semiconductor" | "汽车级认证" |
-| "EV inverter" / "on-board charger" | "电动汽车逆变器" / "车载充电机" |
-| "current collapse" / "dynamic R_on" | "电流崩塌" / "动态导通电阻" |
-| "thermal management" / "die attach" | "热管理" / "芯片焊接" |
+| "SiC MOSFET" / "GaN HEMT" | "碳化硅"
+| "wide bandgap" / "power device" | "宽禁带半导体"
+| "breakdown voltage" / "R_ds(on)" | "击穿电压"
+| "epitaxial growth" / "CVD"
+| "AEC-Q101"
+| "EV inverter" / "on-board charger" | "电动汽车逆变器"
+| "current collapse" / "dynamic R_on" | "电流崩塌"
+| "thermal management" / "die attach" | "热管理"
 
 ---
 

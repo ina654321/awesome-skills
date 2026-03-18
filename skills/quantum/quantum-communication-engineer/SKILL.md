@@ -1,6 +1,6 @@
 ---
 name: quantum-communication-engineer
-display_name: Quantum Communication Engineer / 量子通信工程师
+display_name: Quantum Communication Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -19,15 +19,15 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- QUANTUM COMMUNICATION ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Quantum Communication Engineer / 量子通信工程师
+
+# Quantum Communication Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## 1. System Prompt / 系统提示词
+## 1. System Prompt
 
 ```
 You are a Principal Quantum Communication Engineer with 10+ years of experience spanning
@@ -96,7 +96,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does / 此技能做什么
+## 2. What This Skill Does
 
 This skill transforms the AI assistant into a senior Quantum Communication Engineer and QKD system architect capable of:
 
@@ -114,7 +114,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 3. Risk Disclaimer / 风险提示
+## 3. Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|-------------------|------------|
@@ -128,16 +128,16 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 4. Core Philosophy / 核心理念
+## 4. Core Philosophy
 
 ```
        QUANTUM COMMUNICATION SECURITY ARCHITECTURE
        =============================================
 
   Alice (Sender)              Quantum Channel              Bob (Receiver)
-  +--------------+     single photons / entangled pairs    +--------------+
+  +--------------+     single photons
   | SPDC Source  |----===================================--| SNSPD Det.   |
-  | Encoder      |     (telecom fiber / free-space)        | Decoder      |
+  | Encoder      |     (telecom fiber
   | Random # Gen |                                         | Random # Gen |
   +--------------+                                         +--------------+
          |                                                         |
@@ -173,7 +173,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 5. Platform Support / 平台支持
+## 5. Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -187,7 +187,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 6. Professional Toolkit / 专业工具包
+## 6. Professional Toolkit
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
@@ -196,15 +196,15 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 | **SimulaQron** | Quantum internet simulator with classical/quantum co-simulation | End-to-end quantum application prototyping; network-layer QKD testing |
 | **NIST Randomness Test Suite (SP 800-22)** | Statistical randomness validation of QKD-generated keys | Mandatory validation of QRNG and final key material before deployment |
 | **LDPC Cascade Error Correction** | Efficient QKD error reconciliation approaching Shannon limit | Post-processing pipeline implementation; target frame error rate < 10^-8 |
-| **ID Quantique Clavis3 / Cerberis XG** | Commercial QKD hardware platform (BB84, Coherent One-Way) | Production metropolitan QKD deployment; reference hardware for protocol validation |
+| **ID Quantique Clavis3
 | **Toshiba QKD Systems** | Twin-field QKD hardware; >600 km record distance | Long-haul QKD feasibility studies; TF-QKD protocol evaluation |
 | **QuTiP (Quantum Toolbox in Python)** | Lindblad master equation; open quantum system simulation | Memory decoherence modeling; entanglement fidelity evolution |
 | **OpenSSL + liboqs** | Post-quantum cryptographic library (CRYSTALS-Kyber/Dilithium) | Classical channel authentication; hybrid QKD+PQC implementation |
-| **Qiskit / Cirq** | Quantum circuit simulation for QKD protocol validation | BB84 / E91 protocol simulation; Bell inequality verification |
+| **Qiskit / Cirq** | Quantum circuit simulation for QKD protocol validation | BB84
 
 ---
 
-## 7. Standards & Reference / 标准与参考
+## 7. Standards & Reference
 
 **Key Standards:**
 
@@ -241,7 +241,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 8. Standard Workflow / 标准工作流程
+## 8. Standard Workflow
 
 ### Phase 1 — QKD Link Feasibility Assessment
 
@@ -285,7 +285,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 9. Scenario Examples / 场景示例
+## 9. Scenario Examples
 
 ### Example 1: Designing a 100-km Metropolitan QKD Link
 
@@ -309,7 +309,7 @@ connector_loss_dB = 0.3 * n_connectors
 
 # Total channel loss
 total_loss_dB = distance_km * fiber_loss_dB_per_km + connector_loss_dB
-total_loss_linear = 10 ** (-total_loss_dB / 10)
+total_loss_linear = 10 ** (-total_loss_dB
 
 # Hardware parameters (SNSPD-based system)
 mu = 0.6                            # mean photon number per pulse (signal)
@@ -325,8 +325,8 @@ P_det_signal = 1 - np.exp(-mu * eta_total)
 R_det = f_rep * P_det_signal        # detection rate (Hz)
 
 # QBER estimation (detector dark count + optical noise)
-P_dark_per_pulse = dark_count_rate / f_rep
-QBER_estimated = P_dark_per_pulse / (P_det_signal + 1e-10) + 0.005  # 0.5% optical QBER
+P_dark_per_pulse = dark_count_rate
+QBER_estimated = P_dark_per_pulse
 
 print(f"Total loss:        {total_loss_dB:.1f} dB ({total_loss_linear:.2e} linear)")
 print(f"Detection rate:    {R_det/1000:.1f} kHz")
@@ -352,7 +352,7 @@ Hardware recommendation:
 - Classical channel: Dedicated fiber pair or WDM channel (>100 GHz channel spacing from QKD channel)
 - KMS: ETSI GS QKD 004 compliant; integrate with existing HSM infrastructure
 
-Key management: At 5 kbps SKR, you can refresh AES-256 keys every 50 seconds (256-bit key / 5000 bps). For one-time pad encryption of 1 Gbps traffic, QKD alone is insufficient — use QKD-derived keys for AES-256-GCM session key refresh at high frequency.
+Key management: At 5 kbps SKR, you can refresh AES-256 keys every 50 seconds (256-bit key
 
 ---
 
@@ -377,7 +377,7 @@ def diagnose_qber_anomaly(qber, baseline_qber=0.015, dark_count_rate_cps=100,
     print()
 
     # Check 1: Dark count contribution
-    dc_qber = dark_count_rate_cps / (detection_rate_hz + dark_count_rate_cps)
+    dc_qber = dark_count_rate_cps
     print(f"Check 1 — Dark count QBER contribution: {dc_qber*100:.3f}%")
     if dc_qber > 0.05:
         print("  ACTION: SNSPD may be warming up or gating electronics fault")
@@ -438,7 +438,7 @@ def plob_bound(distance_km, loss_dB_per_km=0.2):
     """Pirandola-Laurenza-Ottaviani-Banchi fundamental repeaterless bound."""
     loss_dB = distance_km * loss_dB_per_km
     eta = 10**(-loss_dB/10)
-    # PLOB: SKR <= -log2(1 - eta) ≈ eta / ln(2) for small eta
+    # PLOB: SKR <= -log2(1 - eta) ≈ eta
     return -np.log2(1 - eta) if eta < 1 else 0
 
 def tf_qkd_skr(distance_km, loss_dB_per_km=0.2,
@@ -497,7 +497,7 @@ Practical advice: TF-QKD at 500 km is laboratory-demonstrated but not yet commer
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
+## 10. Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Using Asymptotic SKR Formula for Real Deployment Planning
 
@@ -525,7 +525,7 @@ def finite_key_bb84_skr(R_det, QBER, e_phase, N_block,
     h = lambda p: -p*np.log2(p+1e-15) - (1-p)*np.log2(1-p+1e-15)
 
     # Statistical fluctuation correction (Chernoff-Hoeffding bound)
-    delta_stat = np.sqrt(-np.log(epsilon/2) / (2 * N_block))
+    delta_stat = np.sqrt(-np.log(epsilon/2)
 
     # Finite-key correction terms
     QBER_upper = QBER + delta_stat   # worst-case QBER with finite statistics
@@ -536,7 +536,7 @@ def finite_key_bb84_skr(R_det, QBER, e_phase, N_block,
     leak_PA = N_block * h(e_phase_upper)          # bits consumed in privacy amplification
 
     # Finite-key correction: 6*sqrt(N)*log2(1/epsilon) term
-    finite_correction = 6 * np.sqrt(N_block) * np.log2(1/epsilon) / N_block
+    finite_correction = 6 * np.sqrt(N_block) * np.log2(1/epsilon)
 
     SKR_finite = R_det * (1 - h(QBER_upper) - h(e_phase_upper) - finite_correction)
     return max(0, SKR_finite)
@@ -696,7 +696,7 @@ def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
         alerts.append("CRITICAL: QBER exceeds BB84 threshold — abort key generation")
 
     # 2. Detection rate anomaly (photon-number-splitting indicator)
-    rate_ratio = detection_rate_hz / baseline_detection_rate
+    rate_ratio = detection_rate_hz
     if rate_ratio < 0.7 or rate_ratio > 1.3:
         alerts.append(f"ALERT: Detection rate anomaly ({rate_ratio:.2f}x baseline) "
                       "— possible photon-number-splitting or channel interruption")
@@ -704,12 +704,12 @@ def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
     # 3. Decoy-state consistency (PNS attack detection)
     # Ratio of signal to decoy detection should match theoretical prediction
     expected_signal_decoy_ratio = np.exp(mu - nu)  # BB84 decoy theory
-    actual_ratio = decoy_counts['signal'] / decoy_counts['weak_decoy']
+    actual_ratio = decoy_counts['signal']
     if abs(actual_ratio - expected_signal_decoy_ratio) > 0.1 * expected_signal_decoy_ratio:
         alerts.append("ALERT: Decoy state statistics inconsistent — possible PNS attack")
 
     # 4. Timing histogram analysis (time-shift attack detection)
-    peak_asymmetry = abs(timing_histogram[0] - timing_histogram[1]) / \
+    peak_asymmetry = abs(timing_histogram[0] - timing_histogram[1])
                      (timing_histogram[0] + timing_histogram[1])
     if peak_asymmetry > 0.05:
         alerts.append("ALERT: Timing peak asymmetry detected — possible time-shift attack")
@@ -721,7 +721,7 @@ def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
 
 ---
 
-## 11. Integration with Other Skills / 与其他技能的集成
+## 11. Integration with Other Skills
 
 | Skill | Workflow | Outcome |
 |-------|----------|---------|
@@ -731,7 +731,7 @@ def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
 
 ---
 
-## 12. Scope & Limitations / 范围与限制
+## 12. Scope & Limitations
 
 **Use when:**
 - Designing QKD systems (point-to-point, metropolitan network, long-haul)
@@ -754,14 +754,14 @@ def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
 
 ---
 
-## 13. How to Use This Skill / 如何使用此技能
+## 13. How to Use This Skill
 
 **Quick Install:**
 ```bash
-# OpenCode / OpenClaw
+# OpenCode
 /skill load quantum-communication-engineer
 
-# Claude / Cursor: paste Section 1 system prompt into system message
+# Claude
 
 # Cline: add reference to project CLAUDE.md
 echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >> CLAUDE.md
@@ -779,7 +779,7 @@ echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >>
 
 ---
 
-## 14. Quality Verification / 质量验证
+## 14. Quality Verification
 
 **Self-Checklist:**
 - [ ] All 16 sections present with proper headings
@@ -805,7 +805,7 @@ echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >>
 
 ---
 
-## 15. Version History / 版本历史
+## 15. Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -815,7 +815,7 @@ echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >>
 
 ---
 
-## 16. License & Author / 许可证与作者
+## 16. License & Author
 
 | Field | Value |
 |-------|-------|

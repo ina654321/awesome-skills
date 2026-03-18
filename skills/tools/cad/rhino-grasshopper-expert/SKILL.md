@@ -223,7 +223,7 @@ Phase 4: Documentation
 > | 2 | Define supports | Fixed at edges |
 > | 3 | Apply loads | Gravity + Live load |
 > | 4 | Analyze | Analyze component |
-> | 5 | Visualize | Beam View / Shell View |
+> | 5 | Visualize | Beam View
 
 ---
 

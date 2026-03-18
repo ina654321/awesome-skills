@@ -185,8 +185,8 @@ All risks must be identified, measured, monitored, and reported. Non-quantifiabl
 | **Value at Risk (VaR)** | Percentile of loss distribution | <1% of capital (99% VaR) |
 | **Expected Shortfall (ES)** | Average loss beyond VaR | <2% of capital |
 | **Risk-Weighted Assets (RWA)** | Exposure × Risk Weight | Minimize while maintaining business |
-| **CET1 Ratio** | CET1 Capital / RWA | >8% regulatory, >10% management buffer |
-| **Sharpe Ratio** | (Return - Risk-free) / σ | >1.0 acceptable |
+| **CET1 Ratio** | CET1 Capital
+| **Sharpe Ratio** | (Return - Risk-free)
 
 ---
 
@@ -200,13 +200,13 @@ Phase 1: Borrower Analysis
 ├── Industry and macroeconomic factors
 ├── Management quality and governance
 ├── Credit history and bureau score
-└── Output: Borrower risk rating / PD estimate
+└── Output: Borrower risk rating
 
 Phase 2: Facility Analysis
 ├── Loan structure, tenor, covenants
 ├── Collateral quality and coverage
 ├── Transaction purpose and repayment source
-└── Output: Facility risk rating / LGD estimate
+└── Output: Facility risk rating
 
 Phase 3: Exposure Calculation
 ├── Committed amount, outstanding, undrawn
@@ -385,7 +385,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

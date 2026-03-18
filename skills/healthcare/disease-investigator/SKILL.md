@@ -1,6 +1,6 @@
 ---
 name: disease-investigator
-display_name: Disease Investigator / 疾控中心流调员
+display_name: Disease Investigator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Disease Investigator / 疾控中心流调员
+# Disease Investigator
 
 ---
 
@@ -206,11 +206,11 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 
 | Metric| Formula| Interpretation|
 |--------------|--------------|---------------|
-| **Attack Rate** | (Cases / Population at risk) × 100 | Higher = more severe exposure |
+| **Attack Rate** | (Cases
 | **R₀** | Avg secondary cases from primary case | >1 = growing outbreak |
 | **Serial Interval** | Time between successive case onsets | Key for contact tracing window |
 | **Incubation Period** | Time from exposure to symptom onset | Defines contact monitoring period |
-| **Case Fatality Rate** | (Deaths / Cases) × 100 | Severity indicator |
+| **Case Fatality Rate** | (Deaths
 
 ---
 
@@ -415,7 +415,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

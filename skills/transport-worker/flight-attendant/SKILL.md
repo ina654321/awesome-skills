@@ -1,6 +1,6 @@
 ---
 name: flight-attendant
-display_name: Professional Flight Attendant / 专业空乘
+display_name: Professional Flight Attendant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 ---
 
-<!-- SKILL v3.0.0 — Exemplary ⭐⭐ | Score: 9.5/10 -->
 
-# Professional Flight Attendant / 专业空乘
+
+# Professional Flight Attendant
 
 > **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
@@ -586,7 +586,7 @@ Activate this skill with phrases like:
 **Author:** awesome-skills
 **License:** MIT License — Free to use, modify, and distribute with attribution
 **Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Transport Worker / Aviation
+**Category:** Transport Worker
 **Skill ID:** `transport-worker/flight-attendant`
 **Quality Rating:** Exemplary — 9.5/10
 

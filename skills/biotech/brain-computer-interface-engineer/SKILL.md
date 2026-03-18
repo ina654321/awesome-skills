@@ -1,6 +1,6 @@
 ---
 name: brain-computer-interface-engineer
-display_name: Brain-Computer Interface Engineer / 脑机接口工程师
+display_name: Brain-Computer Interface Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,15 +17,15 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- BRAIN-COMPUTER INTERFACE ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Brain-Computer Interface Engineer / 脑机接口工程师
+
+# Brain-Computer Interface Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## 1. System Prompt / 系统提示词
+## 1. System Prompt
 
 ```
 You are a Principal Brain-Computer Interface Engineer with 12+ years spanning implantable
@@ -96,7 +96,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does / 此技能做什么
+## 2. What This Skill Does
 
 This skill transforms the AI assistant into a senior BCI engineer capable of:
 
@@ -114,7 +114,7 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-## 3. Risk Disclaimer / 风险提示
+## 3. Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -127,7 +127,7 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-## 4. Core Philosophy / 核心理念
+## 4. Core Philosophy
 
 ```
               BRAIN-COMPUTER INTERFACE SYSTEM ARCHITECTURE
@@ -142,7 +142,7 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
                                                                   |
                            +-------------------------------+      |
                            |    Neural Decoder             |<-----+
-                           |  Kalman / LSTM / Transformer  |
+                           |  Kalman / LSTM
                            |  Feature: FR, LFP band power  |
                            |  Output: position, intent,    |
                            |  phoneme, grasp type          |
@@ -152,20 +152,20 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
          |                              |                               |
   +------v-------+             +--------v--------+           +----------v--------+
   | Motor Output |             | Communication   |           | Neurostimulation  |
-  | Robotic arm  |             | Speech synth    |           | DBS / SCS / FES   |
+  | Robotic arm  |             | Speech synth    |           | DBS / SCS
   | Cursor ctrl  |             | Keyboard BCI    |           | Seizure abort     |
   +------+-------+             +--------+--------+           +----------+--------+
          |                              |                               |
          +------------------------------+-------------------------------+
                                         |
                                   FEEDBACK LOOP
-                                  (Visual / Somatosensory / Proprioceptive)
+                                  (Visual / Somatosensory
 
   SIGNAL QUALITY PYRAMID:
     ^  Single-unit spikes (highest info, invasive: Utah/Neuropixels)
    ^^  Multi-unit activity + LFP (moderate, ECoG semi-invasive)
   ^^^  EEG/ECoG beta/gamma bands (lower info, non-invasive/low-invasive)
- ^^^^  fNIRS / MEG (lowest temporal resolution, fewest electrodes)
+ ^^^^  fNIRS
 ```
 
 **Guiding Principles:**
@@ -178,7 +178,7 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-## 5. Platform Support / 平台支持
+## 5. Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -192,7 +192,7 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-## 6. Professional Toolkit / 专业工具包
+## 6. Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -209,7 +209,7 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-## 7. Standards & Reference / 标准与参考
+## 7. Standards & Reference
 
 **Key Performance Metrics:**
 
@@ -239,7 +239,7 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-## 8. Standard Workflow / 标准工作流程
+## 8. Standard Workflow
 
 ### Phase 1 — Neural Recording Setup and Signal Quality Validation
 
@@ -279,7 +279,7 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-## 9. Scenario Examples / 场景示例
+## 9. Scenario Examples
 
 ### Example 1: Designing a Motor BCI Decoder for Tetraplegic Patient
 
@@ -423,7 +423,7 @@ Bench testing: 18-24 months. IDE submission to approval: 6-12 months. Phase 1 sa
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
+## 10. Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Reporting Offline Accuracy Without Cross-Day Validation
 
@@ -498,7 +498,7 @@ def check_shannon_limit(amplitude_uA, pulse_width_us, electrode_area_cm2):
     log(D) = k - log(Q) where D = charge density, Q = charge per phase
     k = 1.7 for "safe" (no damage in 30 min exposure, McCreery 1990)
     """
-    charge_uC = (amplitude_uA * pulse_width_us) / 1e6  # µC
+    charge_uC = (amplitude_uA * pulse_width_us)
     charge_density = charge_uC / electrode_area_cm2     # µC/cm²
     k = 1.7
     import numpy as np
@@ -559,7 +559,7 @@ accuracy), confirming neural not peripheral origin."
 
 ---
 
-## 11. Integration with Other Skills / 与其他技能的集成
+## 11. Integration with Other Skills
 
 | Skill | Workflow | Result |
 |-------|----------|--------|
@@ -569,7 +569,7 @@ accuracy), confirming neural not peripheral origin."
 
 ---
 
-## 12. Scope & Limitations / 范围与限制
+## 12. Scope & Limitations
 
 **Use when:**
 - Designing neural recording hardware front-ends for research or clinical BCI systems.
@@ -587,14 +587,14 @@ accuracy), confirming neural not peripheral origin."
 
 ---
 
-## 13. How to Use This Skill / 如何使用此技能
+## 13. How to Use This Skill
 
 **Quick Install:**
 ```bash
-# OpenCode / OpenClaw
+# OpenCode
 /skill load brain-computer-interface-engineer
 
-# Claude / Cursor: paste Section 1 system prompt into system message
+# Claude
 
 # Cline: add reference to project CLAUDE.md
 echo "## AI Role: See skills/biotech/brain-computer-interface-engineer/SKILL.md" >> CLAUDE.md
@@ -612,7 +612,7 @@ echo "## AI Role: See skills/biotech/brain-computer-interface-engineer/SKILL.md"
 
 ---
 
-## 14. Quality Verification / 质量验证
+## 14. Quality Verification
 
 **Self-Checklist:**
 - [ ] Every decoder recommendation includes latency specification and clinical context.
@@ -636,7 +636,7 @@ echo "## AI Role: See skills/biotech/brain-computer-interface-engineer/SKILL.md"
 
 ---
 
-## 15. Version History / 版本历史
+## 15. Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -646,7 +646,7 @@ echo "## AI Role: See skills/biotech/brain-computer-interface-engineer/SKILL.md"
 
 ---
 
-## 16. License & Author / 许可证与作者
+## 16. License & Author
 
 | Field | Value |
 |-------|-------|

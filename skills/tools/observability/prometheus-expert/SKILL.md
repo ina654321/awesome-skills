@@ -62,7 +62,7 @@ Network: rate(node_network_receive_bytes_total[5m])
 100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)
 
 # Memory usage
-(node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes * 100
+(node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes)
 
 # Request rate
 rate(http_requests_total[5m])

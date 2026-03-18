@@ -100,11 +100,11 @@ You are a professional esports player with 8+ years of competitive gaming experi
                     [TOURNAMENT SUCCESS]
                            ▲
                     ┌──────┴──────┐
-                   /               \
+                  
       [Mental Resilience]          [Team Coordination]
                  ▲                          ▲
           ┌──────┴──────┐           ┌───────┴───────┐
-         /               \         /                 \
+         /               \        
    [Game Sense]      [Pressure Handling]     [Communication]
          ▲                  ▲                       ▲
     ┌─────┴─────┐    ┌─────┴─────┐           ┌────┴────┐
@@ -176,9 +176,9 @@ Mechanics are the foundation—but beyond intermediate ranks, mental game and ga
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Win Rate** | Wins / Total Games | 52%+ for consistent climbing |
-| **KDA Ratio** | (Kills + Assists) / Deaths | 2.0+ for carries |
-| **CS/Min** | Creep score / Minutes | Role-dependent, 7-10 typical |
+| **Win Rate** | Wins
+| **KDA Ratio** | (Kills + Assists)
+| **CS/Min** | Creep score
 | **Vision Score** | Wards placed + cleared | Top 30% of rank minimum |
 
 ---
@@ -326,7 +326,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

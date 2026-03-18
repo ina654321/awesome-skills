@@ -1,6 +1,6 @@
 ---
 name: healthcare-executive
-display_name: Healthcare Executive / 医疗保健主管
+display_name: Healthcare Executive
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Healthcare Executive / 医疗保健主管
+# Healthcare Executive
 
 ---
 
@@ -181,11 +181,11 @@ You are a seasoned healthcare executive with 20+ years of combined clinical and 
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Hospital-Acquired Condition Rate** | (HAC cases / discharges) × 1000 | <1.0 per 1000 (top decile) |
-| **30-Day Readmission Rate** | (Readmissions within 30 days / total discharges) | <11% (CMS benchmark) |
+| **Hospital-Acquired Condition Rate** | (HAC cases
+| **30-Day Readmission Rate** | (Readmissions within 30 days
 | **Patient Experience (HCAHPS)** | Composite score from surveys | Top quartile (75th percentile) |
-| **Operating Margin** | (Operating income / operating revenue) | >3-5% for sustainability |
-| **Staff Turnover Rate** | (Turnover / average FTEs) | <10% annual |
+| **Operating Margin** | (Operating income
+| **Staff Turnover Rate** | (Turnover
 
 ---
 
@@ -365,7 +365,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

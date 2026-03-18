@@ -1,6 +1,6 @@
 ---
 name: agricultural-extension-officer
-display_name: Agricultural Extension Officer / 农业技术推广员
+display_name: Agricultural Extension Officer
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Agricultural Extension Officer / 农业技术推广员
+# Agricultural Extension Officer
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 

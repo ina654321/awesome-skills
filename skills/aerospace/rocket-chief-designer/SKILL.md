@@ -1,6 +1,6 @@
 ---
 name: rocket-chief-designer
-display_name: Rocket Chief Designer / 火箭总体设计师
+display_name: Rocket Chief Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   fairing design, payload integration, and vehicle-level risk assessment.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Rocket Chief Designer / 火箭总体设计师
+
+# Rocket Chief Designer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -168,9 +168,9 @@ VEHICLE BASELINE
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
 | **POST2 (NASA)** | 3-DOF/6-DOF ascent trajectory optimization | Payload performance to orbit, gravity/drag loss quantification, staging optimization |
-| **OpenFOAM / Cart3D** | Aerodynamic CFD for launch vehicles | Max-Q load cases, staging separation aerodynamics, fairing design |
-| **NASTRAN / ANSYS Mechanical** | Structural FEA for launch vehicle components | Interstage, fairing, propellant tank structural sizing |
-| **MATLAB / Python** | Vehicle performance analysis, mass budgets | Tsiolkovsky analysis, staging optimization, sensitivity analysis |
+| **OpenFOAM
+| **NASTRAN
+| **MATLAB
 | **OpenRocket** | Educational/rapid prototype rocket sizing | Quick concept sizing for small launch vehicles; excellent for student-level design |
 | **PATRAN / Femap** | Structural modeling pre/post-processor | Complex structural integration models |
 
@@ -211,15 +211,15 @@ VEHICLE BASELINE
 
 def compute_propellant_mass(dv, Isp, m_final):
     """Tsiolkovsky: compute propellant for given delta-V, Isp, and final mass"""
-    mass_ratio = math.exp(dv / (Isp * 9.806))
+    mass_ratio = math.exp(dv
     m_initial = m_final * mass_ratio
     return m_initial - m_final  # propellant mass
 
 # Stage 2 sizing (working backward from payload):
 # Given: payload = 10,000 kg, dv_stage2 = 5,600 m/s, Isp2 = 348 s
-# Assume structural fraction ε₂ = 0.08 (structure / propellant+structure)
+# Assume structural fraction ε₂ = 0.08 (structure
 m_prop_2 = compute_propellant_mass(5600, 348, m_payload)
-m_struct_2 = m_prop_2 * epsilon_2 / (1 - epsilon_2)
+m_struct_2 = m_prop_2 * epsilon_2
 m_wet_2 = m_prop_2 + m_struct_2 + m_payload
 ```
 
@@ -312,12 +312,12 @@ m_wet_2 = m_prop_2 + m_struct_2 + m_payload
 > dv2 = 5600  # m/s
 > Isp2 = 450  # s (LOX/LH2 vacuum)
 > m_payload = 10000  # kg
-> epsilon2 = 0.10  # structural fraction = m_dry / m_wet (no payload)
+> epsilon2 = 0.10  # structural fraction = m_dry
 >
-> mass_ratio_2 = exp(5600 / (450 * 9.806)) = exp(1.269) = 3.557
+> mass_ratio_2 = exp(5600
 > m_wet_2 = m_payload * mass_ratio_2 / (1 - epsilon2 * (1 - 1/mass_ratio_2))
->         ≈ 10000 * 3.557 / (1 - 0.10 * (1 - 0.281)) = 40,200 kg
-> m_prop_2 = 40200 * (1 - 1/3.557) / 1.0 ≈ 28,900 kg
+>         ≈ 10000 * 3.557
+> m_prop_2 = 40200 * (1 - 1/3.557)
 > m_dry_2 = 40200 - 28900 - 10000 = 1,300 kg (structural mass, check: 4.5% → OK)
 > ```
 >
@@ -327,12 +327,12 @@ m_wet_2 = m_prop_2 + m_struct_2 + m_payload
 > # Delta-V allocation: stage 1 handles 3,800 m/s
 > m_top_of_stage1 = m_wet_2 = 40,200 kg
 >
-> mass_ratio_1 = exp(3800 / (311 * 9.806)) = exp(1.247) = 3.479
+> mass_ratio_1 = exp(3800
 > m_wet_1 = m_top_of_stage1 * mass_ratio_1 / (1 - epsilon1 * (1 - 1/mass_ratio_1))
->          ≈ 40200 * 3.479 / (1 - 0.07 * 0.712) ≈ 145,000 kg
+>          ≈ 40200 * 3.479
 >
 > GLOW = m_wet_1 + m_wet_2 = 145,000 + 40,200 = 185,200 kg
-> Payload fraction = 10,000 / 185,200 = 5.4% → EXCELLENT (comparable to Falcon 9)
+> Payload fraction = 10,000
 > ```
 >
 > **Engine sizing**: T/W ≥ 1.3 at liftoff → min thrust = 185,200 × 9.806 × 1.3 = 2,360 kN. If using 9 engines: ~262 kN each (similar to Merlin 1D at 914 kN → use 3 engines at ~787 kN each, or similar trade).
@@ -372,7 +372,7 @@ m_wet_2 = m_prop_2 + m_struct_2 + m_payload
 >   Cost per kg (10,000 kg): $5,500/kg
 >
 > REUSABLE (10 flights per booster):
->   Amortized stage 1: $40M / 10 = $4M
+>   Amortized stage 1: $40M
 >   Refurbishment per flight: $1M
 >   Stage 2: $10M
 >   Operations: $5M/launch
@@ -380,7 +380,7 @@ m_wet_2 = m_prop_2 + m_struct_2 + m_payload
 >   Cost per kg (7,500 kg): $2,667/kg → 2× cheaper per kg despite lower payload
 >
 > REUSABLE (20 flights per booster, SpaceX Falcon 9 trend):
->   Amortized stage 1: $40M / 20 = $2M
+>   Amortized stage 1: $40M
 >   Total: $18M/launch
 >   Cost per kg: $2,400/kg → >2× cheaper
 > ```
@@ -604,7 +604,7 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/rocket-chief-des
 
 **Test 1 — Quick Payload Estimate**
 - Input: "Can a Falcon 9-class vehicle (GLOW ~550 tonnes) deliver 15,000 kg to 400km LEO?"
-- Expected: Compute: 15,000 / 550,000 = 2.7% payload fraction; Falcon 9 achieves 4.1% expendable; so this vehicle can do ~22,500 kg (above 15,000 kg → YES, with margin); verify Isp assumptions
+- Expected: Compute: 15,000
 
 **Test 2 — Staging Trade**
 - Input: "Should I use 2 or 3 stages for a 500 kg LEO vehicle?"

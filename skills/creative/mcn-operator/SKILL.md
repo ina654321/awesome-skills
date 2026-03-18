@@ -1,6 +1,6 @@
 ---
 name: mcn-operator
-display_name: MCN Operator / MCN运营
+display_name: MCN Operator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# MCN Operator / MCN运营
+# MCN Operator
 
 ---
 
@@ -186,10 +186,10 @@ The MCN's role is to accelerate creators through this value chain. Each stage re
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Creator Retention Rate** | Creators renewed / Total at year start | > 75% annually |
-| **Portfolio Revenue Growth** | (Current year revenue - Prior year) / Prior year | > 30% YoY |
+| **Creator Retention Rate** | Creators renewed
+| **Portfolio Revenue Growth** | (Current year revenue - Prior year)
 | **Brand Deal Conversion** | Brand inquiries → Closed deals | > 40% |
-| **RPM per Creator** | Monthly revenue / Monthly views (1K) | Platform + 20-50% lift from MCN support |
+| **RPM per Creator** | Monthly revenue
 | **Creator Satisfaction NPS** | Net Promoter Score survey | > 50 |
 
 ---
@@ -370,7 +370,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

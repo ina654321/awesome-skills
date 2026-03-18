@@ -1,6 +1,6 @@
 ---
 name: data-analyst
-display_name: Senior Data Analyst / 高级数据分析师
+display_name: Senior Data Analyst
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   storytelling. Bridges technical analysis with business decision-making.
 ---
 
-<!-- DATA ANALYST v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Senior Data Analyst / 高级数据分析师
+
+
+
+# Senior Data Analyst
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Version](https://img.shields.io/badge/Category-Data-navy)](.)
 
@@ -101,7 +101,7 @@ STATISTICAL STANDARDS:
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Analysis guidance, SQL help, stats |
 | Cursor / IDE | `@data-analyst` in composer | Codebase + notebook context | Python/SQL code review, analysis scripts |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Automated data quality checks, report generation |
+| API
 
 ---
 
@@ -154,12 +154,12 @@ def sample_size(baseline_rate, mde, alpha=0.05, power=0.80):
     power: Statistical power (default 0.80)
     """
     treatment_rate = baseline_rate * (1 + mde)
-    pooled_rate = (baseline_rate + treatment_rate) / 2
+    pooled_rate = (baseline_rate + treatment_rate)
 
-    z_alpha = stats.norm.ppf(1 - alpha / 2)  # two-tailed
+    z_alpha = stats.norm.ppf(1 - alpha
     z_beta = stats.norm.ppf(power)
 
-    n = (2 * pooled_rate * (1 - pooled_rate) * (z_alpha + z_beta) ** 2) / \
+    n = (2 * pooled_rate * (1 - pooled_rate) * (z_alpha + z_beta) ** 2)
         (baseline_rate - treatment_rate) ** 2
 
     return int(np.ceil(n))
@@ -175,19 +175,19 @@ def sample_size(baseline_rate, mde, alpha=0.05, power=0.80):
 MRR = sum(monthly_subscription_value_per_customer)
 
 # Customer Acquisition Cost
-CAC = total_sales_marketing_spend / new_customers_acquired
+CAC = total_sales_marketing_spend
 
 # Lifetime Value (simple)
-LTV = ARPU * gross_margin_pct * (1 / monthly_churn_rate)
+LTV = ARPU * gross_margin_pct * (1
 
 # LTV:CAC (target ≥ 3:1)
-ltv_cac_ratio = LTV / CAC
+ltv_cac_ratio = LTV
 
 # Net Revenue Retention
-NRR = (beginning_MRR + expansion_MRR - contraction_MRR - churned_MRR) / beginning_MRR
+NRR = (beginning_MRR + expansion_MRR - contraction_MRR - churned_MRR)
 
 # Payback Period (months)
-payback_months = CAC / (ARPU * gross_margin_pct)
+payback_months = CAC
 ```
 
 ---
@@ -210,7 +210,7 @@ payback_months = CAC / (ARPU * gross_margin_pct)
 |------|----------|---------------|---------------|
 | 1 | EDA complete | Distributions, correlations, outliers documented | Jump to conclusions without EDA |
 | 2 | Statistical analysis | Test run with assumptions verified (normality, independence) | Run test without checking assumptions |
-| 3 | Effect size reported | Cohen's d / relative lift alongside p-value | Report p-value only without effect magnitude |
+| 3 | Effect size reported | Cohen's d
 | 4 | Segment analysis | Results broken down by key segments | Aggregate only; Simpson's Paradox risk |
 | 5 | Business narrative | "Because of X, we recommend Y" in non-technical language | Data dump without recommendation |
 
@@ -234,8 +234,8 @@ from scipy import stats
 control_opens = 1684   # out of 8420
 treatment_opens = 1853 # out of 8420
 
-control_rate = control_opens / 8420   # 0.1999 (19.99%)
-treatment_rate = treatment_opens / 8420  # 0.2201 (22.01%)
+control_rate = control_opens
+treatment_rate = treatment_opens
 
 # Two-proportion z-test
 from statsmodels.stats.proportion import proportions_ztest
@@ -245,7 +245,7 @@ z_stat, p_value = proportions_ztest(count, nobs)
 
 print(f"Control: {control_rate:.1%}")
 print(f"Treatment: {treatment_rate:.1%}")
-print(f"Relative lift: {(treatment_rate - control_rate) / control_rate:.1%}")
+print(f"Relative lift: {(treatment_rate - control_rate)
 print(f"Z-statistic: {z_stat:.3f}")
 print(f"P-value: {p_value:.4f}")
 
@@ -258,7 +258,7 @@ print(f"P-value: {p_value:.4f}")
 
 # 95% CI for difference:
 diff = treatment_rate - control_rate  # 0.0202
-se = np.sqrt((control_rate*(1-control_rate) + treatment_rate*(1-treatment_rate)) / 8420)
+se = np.sqrt((control_rate*(1-control_rate) + treatment_rate*(1-treatment_rate))
 ci_low = diff - 1.96 * se
 ci_high = diff + 1.96 * se
 print(f"95% CI: [{ci_low:.1%}, {ci_high:.1%}]")  # [1.1%, 3.3%]
@@ -380,7 +380,7 @@ print(f"Price/Mix contribution: ${price_variance:,.0f}")    # -$86K (29%)
 
 **For A/B test design:**
 ```
-Baseline metric: [current conversion rate / metric value]
+Baseline metric: [current conversion rate
 Minimum detectable effect: [smallest lift worth detecting, e.g., 10%]
 Traffic volume: [daily users exposed]
 Question: Calculate sample size and design the test.

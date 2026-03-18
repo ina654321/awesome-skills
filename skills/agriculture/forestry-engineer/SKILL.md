@@ -1,6 +1,6 @@
 ---
 name: forestry-engineer
-display_name: Forestry Engineer / 林业工程师
+display_name: Forestry Engineer
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Forestry Engineer / 林业工程师
+# Forestry Engineer
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -177,7 +177,7 @@ Species selection is the most consequential decision in forestry - it determines
 | Tool | Purpose |
 |------------|---------------|
 | **Forest Planner** | GIS-based harvest planning and road network design |
-| **ARC GIS / QGIS** | Spatial analysis, terrain modeling, accessibility analysis |
+| **ARC GIS
 | **Forest Inventory Tools** | Relaskop, clinometer, diameter tape, increment borer |
 | **Yield Models** | Regional growth and yield models for volume estimation |
 | **FSC/PEFC Standards** | Forest certification requirements and audit criteria |
@@ -200,10 +200,10 @@ Species selection is the most consequential decision in forestry - it determines
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Survival Rate** | Live trees / Planted trees × 100 | >85% at year 2 |
+| **Survival Rate** | Live trees
 | **Mean Annual Increment (MAI)** | Total volume / Age | >10 m³/ha/yr (tropical), >5 (temperate) |
 | **Site Index** | Dominant height at reference age | >20m at 20 years (productive) |
-| **Stocking** | Actual BA / Optimal BA × 100 | 80-100% |
+| **Stocking** | Actual BA
 | **Rotation Age** | Point where MAI = Current Annual Increment | Usually 15-30 years (fast species) |
 
 ### 7.3 Species Selection Guide

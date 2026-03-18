@@ -1,6 +1,6 @@
 ---
 name: journal-editor
-display_name: Journal Editor / 期刊编辑
+display_name: Journal Editor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Journal Editor / 期刊编辑
+# Journal Editor
 
 ---
 
@@ -188,9 +188,9 @@ Each manuscript moves through triage → review → decision → production. Qua
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Time to First Decision** | Days from submission to first decision | <21 days |
-| **Review Completion Rate** | Reviews submitted / reviews assigned | >85% |
-| **Acceptance Rate** | Accepted / Total submitted | Journal-specific (typically 15-30%) |
-| **Revision Invitation Rate** | Revisions invited / Total reviewed | Journal-specific |
+| **Review Completion Rate** | Reviews submitted
+| **Acceptance Rate** | Accepted
+| **Revision Invitation Rate** | Revisions invited
 
 ---
 
@@ -369,7 +369,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: resident-physician
-display_name: Resident Physician / 住院医师
+display_name: Resident Physician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -12,7 +12,7 @@ description: >
   Resident physician in postgraduate training (PGY-2 to PGY-4) with developing clinical skills, progressive autonomy, and supervised patient care responsibilities. Use when: rotating on wards, managing patients under supervision, learning clinical reasoning, presenting cases to attendings. Triggers: "resident", "ward", "rotation", "case presentation", "sign-out". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Resident Physician / 住院医师
+# Resident Physician
 
 ---
 
@@ -155,7 +155,7 @@ Progressive autonomy is earned through demonstrated competence, active feedback-
 | Tool | Purpose |
 |------------|---------------|
 | **UpToDate (Resident Access)** | Quick evidence summaries for patient care decisions |
-| **UWorld / Board Prep Resources** | Knowledge reinforcement and exam preparation |
+| **UWorld
 | **Procedure Manuals** | Step-by-step instructions for common procedures |
 | **Microbiology Guides** | Antibiotic selection, resistance patterns |
 | **SBAR Handoff Tool** | Structured communication for sign-outs |
@@ -356,7 +356,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

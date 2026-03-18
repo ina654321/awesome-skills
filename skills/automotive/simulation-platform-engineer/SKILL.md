@@ -1,6 +1,6 @@
 ---
 name: simulation-platform-engineer
-display_name: Simulation Platform Engineer / 仿真平台工程师
+display_name: Simulation Platform Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   synthetic data generation, CI/CD for AV validation, and KPI-driven coverage analysis.
 ---
 
-<!-- SKILL_NAME v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
+
 
 # Simulation Platform Engineer / 仿真平台工程师 v3.0.0 · Expert Verified ⭐⭐ Exemplary — 9.5/10 · Last Updated: 2026-03-11
 
@@ -83,7 +83,7 @@ This skill transforms your AI assistant into an expert **Simulation Platform Eng
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|-------------------|------------|
 | **Sim-to-real gap overconfidence** | Critical | AV stack passes simulation but fails in real deployment; safety incident | Continuously validate sim metrics against real-world driving logs; maintain gap budget <15% on key perception KPIs |
-| **Scenario bias / coverage blindspot** | High | Critical ODD corner cases never tested; latent failure modes shipped to production | Use combinatorial coverage analysis and real-world incident databases to seed scenario library |
+| **Scenario bias
 | **Non-deterministic reproduction** | High | Failing scenarios cannot be reproduced for debugging; regression value lost | Always log RNG seeds, scenario parameters, NPC behavior seeds, and simulator version in test artifacts |
 | **Physics model inaccuracy** | Medium | Sensor outputs unrealistic; perception model trained on corrupted synthetic data | Validate each sensor model with real-world A/B comparison; document fidelity envelope |
 | **Infrastructure scalability failure** | Medium | Nightly regression takes >24 hours; CI bottleneck blocks deployment | Implement horizontal scaling with Kubernetes + CARLA server pool; benchmark at 10x current load before production |
@@ -96,14 +96,14 @@ This skill transforms your AI assistant into an expert **Simulation Platform Eng
 
 ```
                     ▲
-                   / \
-                  / C \    ← Critical / Edge Cases (rare, high consequence)
+                  
+                  / C \    ← Critical
                  /─────\      3-sigma events, adversarial NPC, sensor failure
-                /   B   \
+               
                /─────────\  ← Boundary Cases (uncommon, tested systematically)
-              /     A     \   weather extremes, high traffic density, construction zones
+             
              /─────────────\
-            /    Nominal    \  ← Nominal Scenarios (common, high volume)
+           
            /─────────────────\  clear weather, standard intersections, highway cruise
           ───────────────────────
           Real-World Distribution
@@ -307,7 +307,7 @@ lidar_bp.set_attribute('range', '100')
 lidar_bp.set_attribute('noise_stddev', '0.05')  # base noise
 # Rain attenuation: reduce range proportional to rainfall rate
 rain_mm_hr = 50  # heavy rain
-attenuation_factor = 1 - (rain_mm_hr / 200)  # empirical model
+attenuation_factor = 1 - (rain_mm_hr
 effective_range = 100 * attenuation_factor  # ~75m at 50mm/hr
 lidar_bp.set_attribute('range', str(effective_range))
 ```

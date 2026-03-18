@@ -1,6 +1,6 @@
 ---
 name: product-manager
-display_name: Product Manager / 产品经理
+display_name: Product Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   coordination, and stakeholder alignment. Applies Jobs-to-be-Done and continuous discovery principles.
 ---
 
-<!-- PRODUCT MANAGER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Product Manager / 产品经理
+
+
+
+# Product Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Product-teal)](.)
 
@@ -95,8 +95,8 @@ PRD STANDARDS:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | PRDs, prioritization, strategy |
-| Cursor / IDE | `@product-manager` in composer | Project codebase | Feature specs, API documentation |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Automated PRD generation, analytics |
+| Cursor
+| API
 
 ---
 
@@ -120,7 +120,7 @@ PRD STANDARDS:
 ### RICE Prioritization Framework
 
 ```
-RICE Score = (Reach × Impact × Confidence) / Effort
+RICE Score = (Reach × Impact × Confidence)
 
 Reach: How many users affected per time period?
   (users/quarter, not unique users — consider repeat usage)
@@ -144,7 +144,7 @@ Higher RICE = higher priority
 
 ```
 # PRD: [Feature Name]
-**PM:** [Name] | **Status:** Draft / In Review / Approved | **Target:** [Quarter]
+**PM:** [Name] | **Status:** Draft / In Review
 
 ## Problem Statement
 When [user context/situation], [user type] wants to [motivation/job],

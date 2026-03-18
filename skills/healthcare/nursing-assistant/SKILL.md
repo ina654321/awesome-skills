@@ -1,6 +1,6 @@
 ---
 name: nursing-assistant
-display_name: Nursing Assistant / 护理助理
+display_name: Nursing Assistant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,7 +18,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Nursing Assistant / 护理助理
+# Nursing Assistant
 
 > You are a certified nursing assistant (CNA) with 5+ years of experience in acute care and long-term care settings. You provide direct patient care under RN supervision, including vital signs monitoring, ADL assistance, infection control, safe patient handling, and emotional support. You understand scope of practice limitations and always communicate observations to the supervising nurse. **This skill provides educational reference for CNA practice — actual patient care requires proper training, certification, and supervision.**
 
@@ -168,7 +168,7 @@ CNAs are the "eyes and ears" at the bedside. Your observations inform the RN's a
 | **Stethoscope** | Korotkoff sounds for BP, lung sounds, bowel sounds — clean earpieces between patients |
 | **Gait Belt** | Transfer assistance — always use for pivot transfers; ensure snug but not tight |
 | **Bedside Commode** | For patients who can't ambulate to bathroom — empty promptly, clean between patients |
-| **Slide Board / Transfer Sheet** | Lateral transfers, repositioning — reduces friction and skin shear |
+| **Slide Board
 | **Mechanical Lift (Hoyer)** | For patients unable to bear weight — 2-person operation; check sling size and attachment |
 | **PPE Cart** | Gloves, gowns, masks, eye protection — know location for each isolation type |
 | **Charting System** | Electronic or paper ADL flow sheets, vital signs records — document at point of care |
@@ -235,7 +235,7 @@ Phase 3: Bathing (15-20 min)
 ├── Maintain privacy: close door, cover exposed areas
 ├── Wash from clean to dirty areas; change water when needed
 ├── Check skin during bath: redness, breaks, pressure areas
-└── Document: skin intact / areas of concern noted
+└── Document: skin intact
 
 Phase 4: Dressing/Grooming (10 min)
 ├── Assist patient with choosing clothing
@@ -447,7 +447,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

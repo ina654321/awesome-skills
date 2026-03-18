@@ -1,6 +1,6 @@
 ---
 name: blockchain-architect
-display_name: Blockchain Architect / 区块链架构师
+display_name: Blockchain Architect
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   ecosystems. Includes decision frameworks, anti-pattern catalog, and self-verification checklists.
 ---
 
-<!-- BLOCKCHAIN ARCHITECT v3.0.0 — Exemplary ⭐⭐ | Score: 9.5/10 -->
 
-# Blockchain Architect / 区块链架构师
+
+# Blockchain Architect
 
 [![Quality](https://img.shields.io/badge/Quality-9.5%2F10%20⭐⭐%20Exemplary-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Blockchain-gray)](.)
 
@@ -69,7 +69,7 @@ COMMUNICATION STYLE:
 - Quantify gas costs for proposed architectures
 - Distinguish between "works on testnet" and "safe for mainnet with real funds"
 - Always recommend professional audit before production deployment
-- Use ❌ BAD / ✅ GOOD code comparisons to illustrate anti-patterns
+- Use ❌ BAD
 ```
 
 ## § 2 · What This Skill Does
@@ -97,7 +97,7 @@ COMMUNICATION STYLE:
 | Bridge exploit | 🔴 High | Cross-chain bridges are frequent attack targets | Minimize bridge TVL; use battle-tested bridge protocols |
 | Governance attack | 🟡 Medium | Malicious proposal passes if quorum too low | Time-locks, quorum thresholds, guardian multisig override |
 | ZK circuit soundness error | 🔴 High | Incorrect constraint system allows forged proofs | Formal verification of circuit logic; independent circuit audit |
-| MEV / Sandwich attack | 🟡 Medium | Front-running extracts value from user transactions | Commit-reveal schemes, slippage limits, private mempools |
+| MEV
 
 ## § 4 · Core Philosophy
 
@@ -173,7 +173,7 @@ Immutable Deployment        → No upgrade path; maximum trustlessness
 
 | TVL Range | Required Security Measures |
 |-----------|---------------------------|
-| < $100K (testnet / pilot) | Internal review + automated tooling (Slither) |
+| < $100K (testnet
 | $100K – $1M | One professional audit; bug bounty program |
 | $1M – $10M | Two independent audits; formal verification of critical paths |
 | $10M – $100M | Multiple audits; economic simulation; guardian multisig; Forta monitoring |
@@ -185,7 +185,7 @@ Immutable Deployment        → No upgrade path; maximum trustlessness
 |---------------|------------------------|--------------|---------------------|
 | ERC-20 token | 95% | 10,000 | Optional |
 | Lending/AMM core | 98% | 100,000 | Required (invariants) |
-| Bridge / cross-chain | 99% | 500,000 | Required (all paths) |
+| Bridge
 | ZK verifier contract | 100% | N/A (circuit-level) | Required (soundness) |
 
 **Gas Optimization Targets:**
@@ -515,7 +515,7 @@ contract SafeProtocol is AccessControl {
 
 ---
 
-### Anti-Pattern 3: Block.timestamp / Block.number for Randomness
+### Anti-Pattern 3: Block.timestamp
 
 ```solidity
 // ❌ BAD — Miner-manipulable randomness
@@ -552,7 +552,7 @@ contract SafeLottery is VRFConsumerBaseV2 {
 
 ---
 
-### Anti-Pattern 4: Unbounded Loop (Gas Griefing / DoS)
+### Anti-Pattern 4: Unbounded Loop (Gas Griefing
 
 ```solidity
 // ❌ BAD — O(n) loop over unbounded array can hit block gas limit
@@ -615,7 +615,7 @@ contract SafeWallet {
 
 ---
 
-### Anti-Pattern 6: Insufficient Slippage / Price Impact Protection
+### Anti-Pattern 6: Insufficient Slippage
 
 ```solidity
 // ❌ BAD — No slippage protection on AMM interaction
@@ -691,7 +691,7 @@ This skill covers blockchain architecture, smart contract design, DeFi protocol 
 - [ ] Token economics analyzed for attack vectors and sustainability
 - [ ] Third-party audit recommended for any production deployment
 - [ ] Reentrancy, integer overflow, and access control checked
-- [ ] MEV / front-running exposure assessed
+- [ ] MEV
 - [ ] Regulatory considerations flagged (securities, AML/KYC, GDPR)
 - [ ] ZK circuit soundness addressed (if ZK system involved)
 

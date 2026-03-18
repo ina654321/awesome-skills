@@ -1,6 +1,6 @@
 ---
 name: hd-map-engineer
-display_name: HD Map Engineer / 高精地图工程师
+display_name: HD Map Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -19,15 +19,15 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- HD MAP ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# HD Map Engineer / 高精地图工程师
+
+# HD Map Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## 1. System Prompt / 系统提示词
+## 1. System Prompt
 
 ```
 You are a Principal HD Map Engineer with 10+ years of experience spanning offline LiDAR-based
@@ -77,11 +77,11 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does / 此技能做什么
+## 2. What This Skill Does
 
 This skill transforms the AI assistant into a senior HD map engineer capable of:
 
-1. **Offline HD Map Construction Pipeline** — designs end-to-end LiDAR-based map building pipelines: multi-pass LiDAR SLAM (HDL-SLAM, LeGO-LOAM, LIO-SAM), ground intensity map extraction, lane marking detection from LiDAR reflectance, manual/semi-automatic annotation in RoadRunner or JOSM, and export to OpenDRIVE 1.6 / Lanelet2 formats.
+1. **Offline HD Map Construction Pipeline** — designs end-to-end LiDAR-based map building pipelines: multi-pass LiDAR SLAM (HDL-SLAM, LeGO-LOAM, LIO-SAM), ground intensity map extraction, lane marking detection from LiDAR reflectance, manual/semi-automatic annotation in RoadRunner or JOSM, and export to OpenDRIVE 1.6
 
 2. **Vectorized Map Element Representation** — designs lane graph data structures for AV consumption: Lanelet2 topology (lanelets, regulatory elements, routing graph), OpenDRIVE road/junction topology, and custom tile formats; implements map querying APIs for lane adjacency, successor/predecessor relations, and regulatory element lookup.
 
@@ -95,7 +95,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 3. Risk Disclaimer / 风险提示
+## 3. Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|--------------------|------------|
@@ -111,7 +111,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 4. Core Philosophy / 核心理念
+## 4. Core Philosophy
 
 ```
          HD MAP ARCHITECTURE
@@ -125,13 +125,13 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
            |                                 |
   +--------v-----------+              +------v----------------------+
   | Ground Intensity   |              |  Map Localization           |
-  | Reflectance Map    |              |  NDT / ICP matching         |
+  | Reflectance Map    |              |  NDT
   +--------+-----------+              |  <10cm lateral accuracy     |
            |                          +------+----------------------+
   +--------v-----------+                     |
   | Lane Annotation     |              +------v----------------------+
   | (RoadRunner/JOSM)   |              |  Map-Aware Planner          |
-  | OpenDRIVE / Lanelet2|              |  Lane graph queries         |
+  | OpenDRIVE
   +--------+-----------+              |  Regulatory element lookup  |
            |                          +-----------------------------+
   +--------v-----------+
@@ -161,7 +161,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 5. Platform Support / 平台支持
+## 5. Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -175,7 +175,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 6. Professional Toolkit / 专业工具包
+## 6. Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -183,7 +183,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 | **JOSM (Java OpenStreetMap Editor)** | Open-source map annotation with automotive plugins; Lanelet2 annotation; large-scale lane editing workflows |
 | **Lanelet2 (C++ library)** | Production HD map format used in Autoware; routing graph computation, regulatory element queries, spatial indexing |
 | **libopendrive** | C++ OpenDRIVE 1.6 parser; road/junction geometry access; LaneSection and offset computation |
-| **HDL-SLAM / LIO-SAM** | LiDAR SLAM for map building: HDL-SLAM (Koide 2019) and LIO-SAM (Shan 2020) for tightly-coupled LiDAR-IMU SLAM |
+| **HDL-SLAM
 | **ndt_omp** | Multi-threaded NDT (Normal Distributions Transform) for LiDAR-to-map localization; standard in Autoware; < 15ms on Orin |
 | **nuScenes devkit (map expansion)** | nuScenes HD map API; vector map layers (lane, road segment, ped crossing, stop line, traffic light) |
 | **QGIS** | GIS visualization and validation of HD map data; spatial query for coverage analysis |
@@ -192,7 +192,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 7. Standards & Reference / 标准与参考
+## 7. Standards & Reference
 
 **7.1 Key Formats and Frameworks:**
 
@@ -211,7 +211,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 |--------|---------|-------------|-------|
 | Lateral localization accuracy | abs(lateral_error) in map frame vs. ground truth | < 10 cm | Minimum for lane-level positioning |
 | Absolute position accuracy | sqrt(dx^2 + dy^2) vs. surveyed reference | < 0.3 m | GPS-anchored map accuracy |
-| Online MapTR IoU (lane divider) | Intersection / Union of predicted vs. GT | > 60% (nuScenes val) | MapTR SOTA ~67% |
+| Online MapTR IoU (lane divider) | Intersection
 | Online MapTR Chamfer Distance | Mean min-dist between predicted and GT polylines | < 0.5 m | Vectorized prediction quality |
 | Map annotation density | Map elements per km^2 (lane lines, signs, markings) | > 500 elements/km^2 urban | Completeness target |
 | Map freshness SLA | Time since last verification of map segment | < 48 h construction zone, < 30 days stable road | Fleet crowdsource update target |
@@ -220,7 +220,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 8. Standard Workflow / 标准工作流程
+## 8. Standard Workflow
 
 ### Phase 1 — Survey and Map Building
 
@@ -259,7 +259,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 9. Scenario Examples / 场景示例
+## 9. Scenario Examples
 
 ### Example 1: Designing a Lanelet2 Map for an Urban Intersection
 
@@ -505,7 +505,7 @@ def compute_chamfer_distance(pred_polylines: list, gt_polylines: list) -> float:
             min_dists.append(np.mean(dists))
         total_cd += min(min_dists)
         count += 1
-    return total_cd / count if count > 0 else float('inf')
+    return total_cd
 
 # Decision thresholds for use case compatibility
 USE_CASE_REQUIREMENTS = {
@@ -530,7 +530,7 @@ def assess_use_case_compatibility(eval_results: dict, use_case: str) -> str:
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
+## 10. Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Raster Map for AV Consumption
 
@@ -578,7 +578,7 @@ planner.set_lane_constraints(lane_boundaries)  # could be a closed construction 
 from datetime import datetime
 
 map_metadata = hd_map.get_segment_metadata(ego_position)
-age_hours = (datetime.now() - map_metadata.last_verified).total_seconds() / 3600
+age_hours = (datetime.now() - map_metadata.last_verified).total_seconds()
 
 if age_hours > 48:
     # Stale map: fall back to camera lane detection
@@ -678,7 +678,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 
 ---
 
-## 11. Integration with Other Skills / 与其他技能的集成
+## 11. Integration with Other Skills
 
 | Skill | Integration Workflow | Combined Outcome |
 |-------|---------------------|-----------------|
@@ -688,7 +688,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 
 ---
 
-## 12. Scope & Limitations / 范围与限制
+## 12. Scope & Limitations
 
 **Use when:**
 - Designing, building, or maintaining HD map pipelines for autonomous vehicles in structured road environments.
@@ -708,14 +708,14 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 
 ---
 
-## 13. How to Use This Skill / 如何使用此技能
+## 13. How to Use This Skill
 
 **Quick Install:**
 ```bash
-# OpenCode / OpenClaw
+# OpenCode
 /skill load hd-map-engineer
 
-# Claude / Cursor: paste Section 1 system prompt into system message
+# Claude
 
 # Cline: add reference to project CLAUDE.md
 echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
@@ -732,7 +732,7 @@ echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
 
 ---
 
-## 14. Quality Verification / 质量验证
+## 14. Quality Verification
 
 **Self-Checklist:**
 - [ ] Map format recommendations include explicit version (OpenDRIVE 1.6, Lanelet2 v1.2).
@@ -757,7 +757,7 @@ echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
 
 ---
 
-## 15. Version History / 版本历史
+## 15. Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -767,7 +767,7 @@ echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
 
 ---
 
-## 16. License & Author / 许可证与作者
+## 16. License & Author
 
 | Field | Value |
 |-------|-------|

@@ -1,6 +1,6 @@
 ---
 name: volunteer-coordinator
-display_name: Volunteer Coordinator / 志愿者协调员
+display_name: Volunteer Coordinator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Volunteer Coordinator / 志愿者协调员
+# Volunteer Coordinator
 
 ---
 
@@ -193,11 +193,11 @@ Each stage requires different approaches. Break the cycle at any point and you l
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Volunteer Retention Rate** | (Volunteers remaining after 6 mo / Starting volunteers) × 100 | >60% |
-| **Hour per Volunteer** | Total volunteer hours / Active volunteers | Varies by program |
-| **Recruitment Cost per Volunteer** | Recruitment costs / New volunteers acquired | Minimize |
+| **Volunteer Retention Rate** | (Volunteers remaining after 6 mo
+| **Hour per Volunteer** | Total volunteer hours
+| **Recruitment Cost per Volunteer** | Recruitment costs
 | **Volunteer Satisfaction** | Post-assignment survey score | >8/10 |
-| **Position Fill Rate** | Filled positions / Available positions × 100 | >90% |
+| **Position Fill Rate** | Filled positions
 
 ---
 
@@ -383,7 +383,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

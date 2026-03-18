@@ -1,6 +1,6 @@
 ---
 name: professional-queuer
-display_name: Professional Queuer / 职业排队人
+display_name: Professional Queuer
 author: neo.ai
 version: 3.0.0
 difficulty: intermediate
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Professional Queuer / 职业排队人
+# Professional Queuer
 
 ---
 
@@ -173,8 +173,8 @@ Before responding in this domain, evaluate:
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Total Wait Cost** | Wait time × hourly opportunity cost + expenses | Below perceived value |
-| **Queue Efficiency** | Actual wait / Posted wait | < 1.2 (actual within 20% of estimate) |
-| **Value Ratio** | Item value / Total cost of acquiring | > 3:1 minimum |
+| **Queue Efficiency** | Actual wait
+| **Value Ratio** | Item value
 
 ---
 
@@ -325,7 +325,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

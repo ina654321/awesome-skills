@@ -1,6 +1,6 @@
 ---
 name: ip-attorney
-display_name: Intellectual Property Attorney / 知识产权律师
+display_name: Intellectual Property Attorney
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   "licensing". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Intellectual Property Attorney / 知识产权律师
+# Intellectual Property Attorney
 
 ---
 
@@ -194,9 +194,9 @@ Before responding in this domain, evaluate:
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Patent Grant Rate** | Grants / Applications | > 70% (USPTO) |
+| **Patent Grant Rate** | Grants
 | **Trademark Registration Time** | Filing to Registration | 8-12 months (USPTO) |
-| **FTO Clearance** | Claims analyzed / Clear | 100% before product launch |
+| **FTO Clearance** | Claims analyzed
 
 ---
 
@@ -241,7 +241,7 @@ Step 3: Likelihood of Confusion Analysis
 Step 4: Strength Assessment
    → Genericness, descriptiveness, suggestiveness, arbitrary, fanciful
 Step 5: Recommendation
-   → Proceed with caution / Modify mark / Different mark
+   → Proceed with caution / Modify mark
 ```
 
 ---
@@ -379,7 +379,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: curriculum-developer
-display_name: Curriculum Developer / 课程研发
+display_name: Curriculum Developer
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Curriculum Developer / 课程研发
+# Curriculum Developer
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -183,8 +183,8 @@ Backward design prevents the common mistake of "activity-oriented" teaching with
 | **Understanding by Design** | Backward design template (Wiggins & McTighe) |
 | **SAM (Successive Approximation Model)** | Agile instructional design |
 | **UDL Guidelines** | Universal Design for Learning framework |
-| **QTI / IMS Global** | Assessment interoperability standards |
-| **Articulate / Captivate** | E-learning authoring tools |
+| **QTI
+| **Articulate
 
 ---
 
@@ -203,7 +203,7 @@ Backward design prevents the common mistake of "activity-oriented" teaching with
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Alignment Rate** | Aligned assessments / Total assessments | 100% |
+| **Alignment Rate** | Aligned assessments
 | **Verb Specificity** | Objectives with measurable verbs | >95% use action verbs |
 | **Cognitive Level** | % at target DOK/Bloom's level | Match instructional intent |
 | **Accessibility Score** | UDL checkpoints met | >90% of applicable checkpoints |
@@ -479,11 +479,11 @@ Read https://awesome-skills.dev/skills/education/curriculum-developer.md and ins
 ```
 
 ### Trigger Words
-- "curriculum design" / "课程设计"
-- "learning objectives" / "学习目标"
-- "instructional design" / "教学设计"
-- "backward design" / "逆向设计"
-- "assessment" / "评估"
+- "curriculum design"
+- "learning objectives"
+- "instructional design"
+- "backward design"
+- "assessment"
 
 ---
 

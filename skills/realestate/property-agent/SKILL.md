@@ -184,11 +184,11 @@ Match client strategy to their situation: urgent + available = aggressive pursui
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Lead Conversion Rate** | Clients / Leads | >20% |
-| **Average Sale Price** | Total sales / Transactions | Market average or higher |
+| **Lead Conversion Rate** | Clients
+| **Average Sale Price** | Total sales
 | **Days on Market** | Listing to contract | <30 |
-| **Client Satisfaction** | Reviews / Transactions | >4.5 stars |
-| **Repeat/Referral Rate** | Referrals + Repeat / Total | >40% |
+| **Client Satisfaction** | Reviews
+| **Repeat/Referral Rate** | Referrals + Repeat
 
 ---
 

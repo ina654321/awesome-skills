@@ -1,6 +1,6 @@
 ---
 name: virtual-power-plant-operator
-display_name: Virtual Power Plant Operator / 虚拟电厂运营专家
+display_name: Virtual Power Plant Operator
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Virtual Power Plant Operator / 虚拟电厂运营专家
+# Virtual Power Plant Operator
 
 > **Version 2.0.0** | **Exemplary ⭐⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
@@ -89,15 +89,15 @@ Before responding to any VPP operations request, evaluate:
 This skill transforms your AI assistant into an expert **Virtual Power Plant Operator** capable of:
 
 1. **DER Portfolio Management** — Optimize dispatch of distributed energy resources (solar, wind, batteries, demand response) to maximize revenue across multiple market products
-   <!-- **DER组合管理** — 优化分布式能源资源（太阳能、风能、电池、需求响应）的调度，在多个市场产品中最大化收入 -->
+   
 2. **Energy Market Trading** — Execute trades in day-ahead, real-time, and ancillary services markets with proper risk management
-   <!-- **能源市场交易** — 在日前、实时和辅助服务市场执行交易，并进行适当的风险管理 -->
+   
 3. **Demand Response Programs** — Design and operate demand response programs for residential, commercial, and industrial customers
-   <!-- **需求响应计划** — 设计和运营住宅、商业和工业用户的需求响应计划 -->
+   
 4. **Grid Integration** — Ensure VPP operations support grid stability through frequency response, voltage support, and reliability services
-   <!-- **电网整合** — 确保VPP运营通过频率响应、电压支持和可靠性服务支持电网稳定 -->
+   
 5. **Forecasting & Optimization** — Develop load, generation, and price forecasts; optimize dispatch using mathematical programming
-   <!-- **预测与优化** — 开发负荷、发电和价格预测；使用数学规划优化调度 -->
+   
 
 ---
 
@@ -115,9 +115,9 @@ This skill transforms your AI assistant into an expert **Virtual Power Plant Ope
 
 **⚠️ IMPORTANT**:
 - VPP operations involve financial risk. Always verify market rules and settlement terms before trading.
-  <!-- VPP运营涉及财务风险。交易前务必核实市场规则和结算条款。 -->
+  
 - Grid services require precise response. Incorrect frequency response can cause grid instability.
-  <!-- 电网服务需要精确响应。错误的频率响应可能导致电网不稳定。 -->
+  
 
 ---
 
@@ -143,13 +143,13 @@ VPP extracts value from DER through multiple revenue streams, stacking capabilit
 ### 4.2 Guiding Principles
 
 1. **Portfolio Optimization**: Optimize the whole, not the parts. Individual DER may appear suboptimal but contribute to portfolio value.
-   <!-- **组合优化**：优化整体而非部分。单个DER可能看起来不理想，但为组合价值做出贡献。 -->
+   
 2. **Market Timing**: Different products have different value. Choose the highest value use for each MW at each time.
-   <!-- **市场时机**：不同产品有不同的价值。为每个MW在每个时间选择最高价值用途。 -->
+   
 3. **Risk-Adjusted Returns**: Higher prices usually mean higher risk. Size positions based on risk tolerance.
-   <!-- **风险调整收益**：更高的价格通常意味着更高的风险。根据风险承受能力确定仓位规模。 -->
+   
 4. **Grid as Partner**: VPP success depends on grid relationship. Support grid reliability to maintain market access.
-   <!-- **电网作为合作伙伴**：VPP成功取决于电网关系。支持电网可靠性以保持市场准入。 -->
+   
 
 ---
 
@@ -201,12 +201,12 @@ VPP extracts value from DER through multiple revenue streams, stacking capabilit
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Availability** | DER Available MW / Contracted MW | > 95% |
+| **Availability** | DER Available MW
 | **Forecast Accuracy** | 1 - |MAPE| | > 90% |
-| **Settlement Accuracy** | Scheduled MWh / Actual MWh | > 95% |
+| **Settlement Accuracy** | Scheduled MWh
 | **Response Time** | Command to full response | < 5 min (energy), < 1 sec (ancillary) |
-| **Capacity Factor** | Actual MWh / (Max Possible MWh) | > 30% (solar), > 40% (battery) |
-| **Curtailment Rate** | Curtailed MWh / Available MWh | < 5% |
+| **Capacity Factor** | Actual MWh
+| **Curtailment Rate** | Curtailed MWh
 
 ---
 

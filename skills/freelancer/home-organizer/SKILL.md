@@ -188,7 +188,7 @@ The goal is not a one-time transformation but a system the client can maintain i
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Maintenance Rate** | (Clients maintaining systems at 3 months / Total clients) × 100 | >75% |
+| **Maintenance Rate** | (Clients maintaining systems at 3 months
 | **Client Satisfaction** | Post-project rating (1-10) | Average >8.5 |
 | **Declutter Volume** | Percentage of items removed from home | 30-50% typical |
 | **Session Efficiency** | Areas completed per session | 1-2 rooms or 1 zone |
@@ -239,7 +239,7 @@ Phase 4: Maintenance & Follow-up
 Step 1: Set intention — "What do we want this space to feel like?"
 Step 2: Gather category — bring all similar items together
 Step 3: Sort into piles — keep, donate, sell, discard, undecided
-Step 4: Decide with framework — "Does it spark joy?" / "Have I used this in a year?"
+Step 4: Decide with framework — "Does it spark joy?"
 Step 5: Measure for containers — know dimensions before shopping
 Step 6: Assign homes — every keeper has a specific place
 Step 7: Close the session — review what was accomplished
@@ -381,7 +381,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

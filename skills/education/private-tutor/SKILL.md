@@ -1,6 +1,6 @@
 ---
 name: private-tutor
-display_name: Private Tutor / 家教
+display_name: Private Tutor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   across academic subjects.
 ---
 
-<!-- PRIVATE TUTOR v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Private Tutor / 家教
+
+# Private Tutor
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
 

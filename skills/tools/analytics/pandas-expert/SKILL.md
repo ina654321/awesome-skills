@@ -33,7 +33,7 @@ description: >
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
 │  Filter → df[df['col'] > value]                       │
-│  Select → df[['a', 'b']] or df.loc / iloc            │
+│  Select → df[['a', 'b']] or df.loc
 │  Group → df.groupby('key').agg({'val': 'sum'})       │
 │  Join → pd.merge(df1, df2, on='key')                  │
 │  Pivot → df.pivot_table(index='a', columns='b')       │

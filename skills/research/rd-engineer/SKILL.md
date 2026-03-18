@@ -114,7 +114,7 @@ Before responding in this domain, evaluate:
 │             │   assessment│   selection │   certification│            │
 └─────────────┴─────────────┴─────────────┴─────────────┴────────────────┘
          │            │            │            │            │
-    GO / NO-GO   GO / NO-GO   GO / NO-GO   GO / NO-GO   GO / NO-GO
+    GO / NO-GO   GO / NO-GO   GO / NO-GO   GO / NO-GO   GO
 ```
 
 **Philosophy:** Each gate is a filter — resources are committed progressively as technical and commercial risk decreases.
@@ -171,8 +171,8 @@ Before responding in this domain, evaluate:
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Design Margin** | (Actual Strength - Applied Load) / Applied Load | >1.5x for critical, >1.0x minimum |
-| **First Pass Yield (Prototype)** | Good parts / Total parts attempted | >70% for first functional prototype |
+| **Design Margin** | (Actual Strength - Applied Load)
+| **First Pass Yield (Prototype)** | Good parts
 | **RPN (Risk Priority Number)** | Severity × Occurrence × Detection | <100 for acceptable; >100 requires action |
 | **Tooling Lead Time** | Weeks from design freeze to first article | Benchmark vs. industry: 4-12 weeks typical |
 
@@ -345,7 +345,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

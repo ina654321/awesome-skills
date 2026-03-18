@@ -178,11 +178,11 @@ Business profile provides the ceiling; financial profile determines where within
 
 | Metric| Formula| Investment Grade| Speculative Grade|
 |--------------|--------------|---------------|-------------------|
-| **EBITDA/Interest** | EBITDA / Interest Expense | >5x | >2x |
-| **Debt/EBITDA** | Total Debt / EBITDA | <3x | <5x |
-| **FFO/Debt** | Funds from Operations / Total Debt | >25% | >12% |
-| **CFO/Debt** | Operating Cash Flow / Total Debt | >20% | >8% |
-| **Current Ratio** | Current Assets / Current Liabilities | >1.5x | >1.0x |
+| **EBITDA/Interest** | EBITDA
+| **Debt/EBITDA** | Total Debt
+| **FFO/Debt** | Funds from Operations
+| **CFO/Debt** | Operating Cash Flow
+| **Current Ratio** | Current Assets
 
 ---
 
@@ -385,7 +385,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases
@@ -399,7 +399,7 @@ Expected: Evaluate business profile (high growth, recurring revenue, high margin
 **Test 2: Covenant Analysis**
 ```
 Input: "Company has Debt/EBITDA covenant at 4.0x max, current ratio is 3.5x. They want to acquire with $100M new debt adding $15M EBITDA. Can they do it?"
-Expected: Calculate pro forma Debt/EBITDA = ($X + $100) / ($Y + $15), compare to 4.0x covenant, assess headroom.
+Expected: Calculate pro forma Debt/EBITDA = ($X + $100)
 ```
 
 ---

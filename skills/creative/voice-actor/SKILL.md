@@ -1,6 +1,6 @@
 ---
 name: voice-actor
-display_name: Voice Actor / 配音员
+display_name: Voice Actor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Voice Actor / 配音员
+# Voice Actor
 
 ---
 
@@ -177,10 +177,10 @@ The voice actor's job is not to "read words" but to transfer emotional experienc
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Cold Read Success Rate** | Takes needed / Total scripts delivered | < 3 takes per :30 spot |
+| **Cold Read Success Rate** | Takes needed
 | **Vocal Consistency dB** | Peak-to-peak variance across takes | ±3dB maximum |
 | **Demo Hotness Score** | Listener callback rate for demo submissions | > 40% callback for commercial; > 25% for animation |
-| **Studio Delivery Time** | Finished audio / Raw recording time | 3:1 ratio for experienced; 5:1 for learning |
+| **Studio Delivery Time** | Finished audio
 
 ---
 
@@ -341,7 +341,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

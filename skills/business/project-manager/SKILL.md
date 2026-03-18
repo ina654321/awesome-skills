@@ -1,6 +1,6 @@
 ---
 name: project-manager
-display_name: Project Manager / 项目经理
+display_name: Project Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   Applies PMI/PMBOK, Prince2, and SAFe frameworks for delivering complex projects on time and budget.
 ---
 
-<!-- PROJECT MANAGER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Project Manager / 项目经理
+
+
+
+# Project Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-blue)](.)
 
@@ -38,7 +38,7 @@ PROJECT MANAGEMENT PRINCIPLES:
 3. The iron triangle (scope/schedule/cost) is always in tension — changes to one affect others
 4. Communication is the PM's primary tool — right information, right people, right time
 5. Stakeholder alignment prevents late surprises — surface disagreements during planning
-6. Retrospectives drive improvement — what went well / what can improve / what will we change?
+6. Retrospectives drive improvement — what went well / what can improve
 
 STATUS REPORTING STANDARDS:
   RAG: Red = at risk without intervention; Amber = concerns; Green = on track
@@ -47,7 +47,7 @@ STATUS REPORTING STANDARDS:
   Change control: Every scope change gets impact analysis (schedule/cost/quality) before approval
 
 ESTIMATION APPROACH:
-  Three-point: (Optimistic + 4×Most Likely + Pessimistic) / 6 = Expected
+  Three-point: (Optimistic + 4×Most Likely + Pessimistic)
   Contingency: 10% low-risk; 20-25% medium-risk; up to 50% high-risk/novel work
   Never commit estimates without team input; never pad without transparency
 ```
@@ -96,8 +96,8 @@ ESTIMATION APPROACH:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Project planning, risk analysis, status reports |
-| Cursor / IDE | `@project-manager` in composer | Document context | Project charters, WBS, retrospective docs |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Automated status report generation |
+| Cursor
+| API
 
 ---
 
@@ -141,15 +141,15 @@ Key formulas:
   EV = Earned Value (budgeted cost of completed work)
   AC = Actual Cost (actual spend for completed work)
 
-  SPI = EV / PV   (Schedule Performance Index)
+  SPI = EV
     SPI < 1.0: Behind schedule
     SPI > 1.0: Ahead of schedule
 
-  CPI = EV / AC   (Cost Performance Index)
+  CPI = EV
     CPI < 1.0: Over budget
     CPI > 1.0: Under budget
 
-  EAC = BAC / CPI  (Estimate at Completion)
+  EAC = BAC
     If BAC = $1M and CPI = 0.85 → EAC = $1.18M (18% overrun projected)
 
   VAC = BAC - EAC  (Variance at Completion)
@@ -164,7 +164,7 @@ Sprint Planning (2 hours per week of sprint):
   Output: Sprint goal; committed backlog; task breakdown
 
 Daily Standup (15 minutes):
-  Yesterday / Today / Blockers
+  Yesterday / Today
   PM: Listen for blockers; resolve externally after standup
 
 Sprint Review (1 hour per sprint week):
@@ -172,7 +172,7 @@ Sprint Review (1 hour per sprint week):
   PM: Invite stakeholders; capture feedback as backlog items
 
 Retrospective (45-90 minutes):
-  Start / Stop / Continue format
+  Start / Stop
   Output: ≥1 committed improvement action for next sprint
 ```
 
@@ -227,7 +227,7 @@ Step 2: Recovery options (present 3 to sponsor — never just 1)
 Step 3: Board presentation
   Slide 1: Where we are (SPI=0.72, CPI=0.85 — honest and clear)
   Slide 2: Root causes (no blame; 3 factual causes with quantification)
-  Slide 3: Three options with trade-offs (cost / timeline / scope impact)
+  Slide 3: Three options with trade-offs (cost / timeline
   Slide 4: PM recommendation + decision requested by [date]
 
 PM recommendation: Option B (descope) + Option C (contractors) combined
@@ -339,7 +339,7 @@ Project: [description and objectives]
 Team: [size, composition, location]
 Timeline: [target dates, hard deadlines]
 Constraints: [budget, resource availability, dependencies]
-Question: Help me build a project plan / risk register / RACI.
+Question: Help me build a project plan / risk register
 ```
 
 **For project recovery:**

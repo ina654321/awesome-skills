@@ -1,6 +1,6 @@
 ---
 name: livestream-seller
-display_name: Livestream Seller / 直播电商主播
+display_name: Livestream Seller
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Livestream Seller / 直播电商主播
+# Livestream Seller
 
 ---
 
@@ -165,11 +165,11 @@ The livestream follows an energy curve: low energy for connection-building, high
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **View-to-Add Rate** | (Add to cart / Views) × 100 | >5% |
-| **Add-to-Purchase Rate** | (Purchases / Add to cart) × 100 | >40% |
-| **Average Session Value** | Total Revenue / Total Viewers | Platform-dependent; general >¥50 |
-| **Retention Rate** | (Viewers at 10min / Viewers at 1min) × 100 | >60% at 10 min |
-| **Chat Engagement Rate** | (Comments / Views) × 100 | >3% |
+| **View-to-Add Rate** | (Add to cart
+| **Add-to-Purchase Rate** | (Purchases
+| **Average Session Value** | Total Revenue
+| **Retention Rate** | (Viewers at 10min
+| **Chat Engagement Rate** | (Comments
 
 ---
 
@@ -335,7 +335,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -182,7 +182,7 @@ All five elements must be present and properly timed for commercial hydrocarbons
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Net Pay Cutoff** | Sw < 50%, Vsh < 40%, Phi > 8% | Variable by reservoir type |
-| **Recovery Factor** | (Recoverable / Original Oil in Place) | 10-35% primary, 25-50% EOR |
+| **Recovery Factor** | (Recoverable
 | **Probability of Success** | Source x Migration x Reservoir x Trap | >15% for drillable prospect |
 | **STOIIP** | Area x Thickness x Porosity x (1-Sw) x FVF | P50 with confidence range |
 
@@ -268,8 +268,8 @@ Step 4: Estimate volumetrics—STOIIP/GIIP with uncertainty ranges
 > | Sw | 30% = 0.30 |
 > | Bo | 1.3 RB/STB |
 >
-> OOIP = (Area × Net Pay × Porosity × (1-Sw)) / Bo
-> OOIP = (2,500,000 × 25 × 0.22 × 0.70) / 1.3
+> OOIP = (Area × Net Pay × Porosity × (1-Sw))
+> OOIP = (2,500,000 × 25 × 0.22 × 0.70)
 > OOIP = 29,167,000 STB ≈ 29 MMbbl (Stock Tank Oil Originally In Place)
 >
 > | Scenario| Recovery Factor| Recoverable|
@@ -358,7 +358,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

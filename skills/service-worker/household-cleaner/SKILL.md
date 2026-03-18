@@ -1,6 +1,6 @@
 ---
 name: household-cleaner
-display_name: Household Cleaner / 家电清洗
+display_name: Household Cleaner
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Household Cleaner / 家电清洗
+# Household Cleaner
 
 ---
 
@@ -179,7 +179,7 @@ This 9-step framework applies to most appliances, ensuring safety first, thoroug
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Bacterial Reduction** | Post-cleaning count / Pre-cleaning count | <1% survival (99%+ reduction) |
+| **Bacterial Reduction** | Post-cleaning count
 | **Cleaning Time** | Minutes from start to complete reassembly | Varies by appliance (15-90 min) |
 | **Re-clean Rate** | % requiring second pass | <10% for experienced cleaner |
 | **Customer Satisfaction** | Post-service rating | >8/10 |
@@ -350,7 +350,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: statistician
-display_name: Statistician / 统计学家
+display_name: Statistician
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   statistical consulting. Deep expertise in R and Python for statistical computation.
 ---
 
-<!-- STATISTICIAN v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Statistician / 统计学家
+
+
+
+# Statistician
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Research-green)](.)
 
@@ -73,7 +73,7 @@ CONSULTING APPROACH:
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
 | Method Misspecification | 🟡 High | Wrong statistical method → invalid conclusions | Always verify assumptions; choose method based on data structure |
-| P-hacking / Data Dredging | 🟡 High | Testing until significant inflates false positive rate | Pre-specify primary hypothesis and analysis plan; stick to it |
+| P-hacking
 | Overfitting | 🟡 High | Model fits sample perfectly but generalizes poorly | Cross-validation; regularization; report out-of-sample performance |
 | Confounding in Observational Studies | 🟡 High | Observed association may be caused by third variable | Control for confounders; use causal inference methods; disclose limitations |
 | Misinterpretation of p-value | 🟢 Medium | p-value ≠ probability hypothesis is true; p-value ≠ effect size | Always pair with effect size and CI; educate collaborators on correct interpretation |
@@ -97,7 +97,7 @@ CONSULTING APPROACH:
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Statistical consulting, method selection |
 | Cursor / IDE | `@statistician` in composer | R/Python code context | Statistical code review, debugging |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Automated statistical reporting |
+| API
 
 ---
 
@@ -154,7 +154,7 @@ p_fdr <- p.adjust(p_values, method = "BH")
 
 | Test | Effect Size | Interpretation |
 |------|-------------|---------------|
-| t-test / ANOVA | Cohen's d | 0.2 = small, 0.5 = medium, 0.8 = large |
+| t-test
 | ANOVA (η²) | eta-squared | 0.01 = small, 0.06 = medium, 0.14 = large |
 | Correlation | r | 0.1 = small, 0.3 = medium, 0.5 = large |
 | Chi-square | Cramér's V | 0.1 = small, 0.3 = medium, 0.5 = large |
@@ -182,7 +182,7 @@ p_fdr <- p.adjust(p_values, method = "BH")
 | 1 | Assumption verification | Normality (Shapiro-Wilk), homoscedasticity (Levene's), independence checked | Run test without checking assumptions |
 | 2 | Descriptive statistics | Mean±SD (or median [IQR]), n, % for key variables | Analysis without descriptives |
 | 3 | Primary analysis | Pre-specified method applied to pre-specified primary outcome | Run 5 methods; report only the significant one |
-| 4 | Effect size + CI | Cohen's d / OR / HR / r + 95% CI reported alongside p-value | p-value only |
+| 4 | Effect size + CI | Cohen's d / OR / HR
 | 5 | Multiple testing correction | Bonferroni or FDR applied for multiple comparisons | Run 20 tests; report 1 significant; no correction |
 
 ---
@@ -353,8 +353,8 @@ print(bf)
 **For method selection:**
 ```
 Research question: [What are you trying to determine?]
-Design: [RCT / observational / survey / experiment]
-Outcome type: [continuous / binary / count / time-to-event]
+Design: [RCT / observational / survey
+Outcome type: [continuous / binary / count
 Sample size: [n per group or total n]
 Question: What statistical method should I use?
 ```
@@ -378,7 +378,7 @@ Question: Write the analysis code with assumption checks.
 - [ ] Confidence interval included (not just p-value)
 - [ ] Multiple testing correction applied where appropriate
 - [ ] Causal claims limited to experimental or quasi-experimental designs
-- [ ] Sample size / power analysis provided if relevant
+- [ ] Sample size
 - [ ] Bayesian vs. frequentist distinction made explicit when both applicable
 
 ---

@@ -1,6 +1,6 @@
 ---
 name: data-engineer
-display_name: Senior Data Engineer / 高级数据工程师
+display_name: Senior Data Engineer
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -15,11 +15,11 @@ description: >
   code quality.
 ---
 
-<!-- DATA ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Senior Data Engineer / 高级数据工程师
+
+
+
+# Senior Data Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Data-navy)](.)
 
@@ -61,7 +61,7 @@ ARCHITECTURE DECISION RECORD (required for major designs):
 - Cloud data platform architecture: BigQuery, Snowflake, Databricks, Redshift
 - Orchestration: Airflow DAG design, Prefect/Dagster workflow design
 - Data quality: Great Expectations contracts, dbt tests, SLA monitoring
-- Data lake / lakehouse: Delta Lake, Apache Iceberg, Apache Hudi
+- Data lake
 - dbt modeling: staging → intermediate → mart layers; incremental models
 - Performance optimization: query cost reduction, partition pruning, clustering
 
@@ -95,8 +95,8 @@ ARCHITECTURE DECISION RECORD (required for major designs):
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Architecture design, troubleshooting |
-| Cursor / IDE | `@data-engineer` in composer | Project codebase context | dbt models, Airflow DAGs, pipeline code |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Code review, SQL optimization |
+| Cursor
+| API
 
 ---
 
@@ -346,7 +346,7 @@ WHEN NOT MATCHED THEN INSERT VALUES (S.event_id, S.user_id, S.event_type, S.even
 SELECT
     job_id,
     user_email,
-    ROUND(total_bytes_billed / POW(1024, 3), 2) AS gb_billed,
+    ROUND(total_bytes_billed
     ROUND(total_bytes_billed / POW(1024, 4) * 5, 2) AS cost_usd,  -- $5/TB
     query,
     creation_time
@@ -363,7 +363,7 @@ LIMIT 20;
 | Full scans on `events` table (no partition filter) | $8,200 | Add `WHERE event_date BETWEEN` in all queries | 70% reduction = $5,740 |
 | SELECT * on wide tables | $3,100 | Replace * with specific columns in BI views | 60% reduction = $1,860 |
 | Non-materialized dbt models | $2,400 | Materialize high-traffic models as tables | $1,800 |
-| Duplicate work in BI tool | $1,300 | Cache dashboard results (Looker PDT / Tableau extract) | $900 |
+| Duplicate work in BI tool | $1,300 | Cache dashboard results (Looker PDT
 
 **Total projected savings: $10,300/month → $4,700/month**
 
@@ -403,7 +403,7 @@ LIMIT 20;
 - SQL and Python data pipeline code
 - Cloud data warehouse platforms (BigQuery, Snowflake, Databricks, Redshift)
 - dbt transformation layer
-- Airflow / Prefect / Dagster orchestration
+- Airflow / Prefect
 - Data quality and observability
 
 **This skill does NOT cover:**

@@ -1,6 +1,6 @@
 ---
 name: legal-counsel
-display_name: Legal Counsel / 法律顾问
+display_name: Legal Counsel
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   IP protection, M&A due diligence, and regulatory frameworks across jurisdictions.
 ---
 
-<!-- LEGAL COUNSEL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Legal Counsel / 法律顾问
+
+
+
+# Legal Counsel
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Legal-purple)](.)
 
@@ -104,8 +104,8 @@ COMMUNICATION STYLE:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Contract review, legal research |
-| Cursor / IDE | `@legal-counsel` in composer | Project codebase context | Terms of Service, privacy policy drafting |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Contract analysis pipelines |
+| Cursor
+| API
 | Claude Projects | Add to project instructions | Persistent across sessions | Ongoing legal project support |
 
 ---

@@ -144,7 +144,7 @@ The visiting scholar must create measurable value for BOTH institutions simultan
 |------------|---------------|
 | **Fulbright Scholar Program** | Primary US visiting scholar funding—12+ categories, various durations |
 | **Erasmus+ Mobility** | EU academic exchange funding—staff teaching mobility, student transfers |
-| **Newton Fund / Royal Society** | UK international fellowships—developing country researchers |
+| **Newton Fund
 | **Host Institution Research Portal** | Find potential hosts by department, research area, funding programs |
 | **Academic Family Tree** | Identify potential hosts through advisor/collaborator networks |
 | **J-1 Visa Compliance Checker** | Ensure ds-2019 requirements are met; understand two-year rule implications |
@@ -168,7 +168,7 @@ The visiting scholar must create measurable value for BOTH institutions simultan
 |--------------|--------------|---------------|
 | **Pre-Visit Preparation Score** | (Contacts made × 2) + (Deliverables defined) + (Resources confirmed) | ≥8 before departure |
 | **Collaboration Depth Index** | Joint publications + Co-supervised students + Grant applications | ≥2 by visit end |
-| **Institutional ROI** | (Publications with host) / (Visit cost × institutional support) | >1.5 for continued support |
+| **Institutional ROI** | (Publications with host)
 
 ---
 
@@ -346,7 +346,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

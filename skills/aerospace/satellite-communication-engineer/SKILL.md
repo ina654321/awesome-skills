@@ -1,6 +1,6 @@
 ---
 name: satellite-communication-engineer
-display_name: Satellite Communication Engineer / 卫星通信系统工程师
+display_name: Satellite Communication Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   antenna design, and high-throughput satellite (HTS) system architecture.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Satellite Communication Engineer / 卫星通信系统工程师
+
+# Satellite Communication Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -93,7 +93,7 @@ This skill transforms your AI assistant into an expert **Satellite Communication
 |------|----------|-------------------|------------|
 | **Harmful Interference to Adjacent Satellites** | CRITICAL | Regulatory enforcement action; service suspension; international incident; financial penalties | EIRP density compliance with ITU PFD masks; antenna pointing accuracy requirements; automatic EIRP power control; ITU coordination before operations |
 | **Rain Fade Link Outage** | SERIOUS | Service unavailability during heavy rain; SLA violations; revenue loss | Rain fade margin (6-10 dB for Ka-band); site diversity for gateway stations; adaptive coding and modulation (ACM) to maintain link through fade |
-| **Solar Conjunction / Sun Outage** | MODERATE | GEO link outage during solar conjunction (twice per year, ~10 days) | Pre-plan maintenance windows for solar conjunction periods; use terrestrial backup for critical services |
+| **Solar Conjunction
 | **Kessler Syndrome / Space Debris** | CRITICAL | Collision risk; regulatory prohibition on constellation deployment | ITU/FCC deorbit requirements (LEO: ≤ 5 year deorbit post-EOL); conjunction assessment and avoidance maneuvers; collision risk probability < 1/1000 |
 | **Spectrum Regulatory Non-Compliance** | CRITICAL | ITU coordination failure; harmful interference complaints; national authority shutdown | Complete ITU filing before operations; implement EIRP limits and pointing verification; maintain coordination agreements |
 | **Cybersecurity Vulnerability (Ground Segment)** | SERIOUS | Unauthorized access; jamming amplification; signal injection; customer data compromise | Encrypt all uplinks; authenticate terminal registration; detect and geolocate interferers; ground segment zero-trust architecture |
@@ -107,7 +107,7 @@ This skill transforms your AI assistant into an expert **Satellite Communication
 ```
 SPACE SEGMENT                    GROUND SEGMENT
 ┌─────────────┐   Downlink       ┌──────────────────────┐
-│  Satellite  │ ─────────────── │  Earth Station / Hub  │
+│  Satellite  │ ─────────────── │  Earth Station
 │  Transponder│ ◄─────────────  │  or User Terminal     │
 │  (Payload)  │   Uplink         └──────────────────────┘
 └─────────────┘
@@ -146,11 +146,11 @@ SPACE SEGMENT                    GROUND SEGMENT
 ### Analysis & Simulation Software
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| **STK (Systems Tool Kit) / MATLAB** | Orbital mechanics, coverage analysis, link budget simulation | Constellation coverage analysis, LEO link budget over elevation angle range |
-| **GRASP / TICRA CHAMP** | Antenna pattern analysis and satellite payload design | Antenna gain pattern computation, interference analysis, multi-beam design |
+| **STK (Systems Tool Kit)
+| **GRASP
 | **ITUR-P618 Rain Model** | ITU-R P.618 rain fade margin calculation | Ka/Q/V-band link budget rain margin; gateway site selection |
 | **MATLAB RF Toolbox** | Link budget computation, modulation analysis, BER curves | Detailed link budget, ACM threshold setting, MODCOD selection |
-| **OpenSAT / GNU Radio** | Software-defined radio development for satcom | Waveform development, ground terminal prototyping, interference detection |
+| **OpenSAT
 | **DVB-S2 Reference Implementations** | DVB-S2/S2X standard-compliant transmitter/receiver implementations | ACM configuration, MODCOD table verification, waveform testing |
 | **Wireshark + PEPsal** | Protocol analysis for satellite IP optimization | TCP PEP configuration, QoS verification, throughput analysis |
 
@@ -282,7 +282,7 @@ Link Margin:                       +5.0 dB  ✓ (≥3 dB required)
 >
 > Required Eb/N0 for 100 Mbps:
 >   DVB-S2X 16APSK 3/4 (spectral eff: 3.0 bits/s/Hz):
->     Bandwidth needed: 100 Mbps / 3.0 = 33.3 MHz
+>     Bandwidth needed: 100 Mbps
 >     Required C/N0 = Eb/N0 + 10log(bitrate) = 8.3 + 80 = 88.3 dBHz
 >     Required C/N (33.3 MHz bandwidth) = 88.3 - 75.2 = 13.1 dB
 >

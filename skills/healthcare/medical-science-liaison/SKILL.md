@@ -1,6 +1,6 @@
 ---
 name: medical-science-liaison
-display_name: Medical Science Liaison / 医学联络官
+display_name: Medical Science Liaison
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Medical Science Liaison / 医学联络官
+# Medical Science Liaison
 
 ---
 
@@ -179,7 +179,7 @@ MSL responses synthesize all available evidence sources while clearly indicating
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **KOL Engagement Rate** | Engaged KOLs / Target KOLs in territory | >80% |
+| **KOL Engagement Rate** | Engaged KOLs
 | **Insights Generated** | Documented insights per quarter | >15 per MSL |
 | **Scientific Inquiry Response Time** | Hours from inquiry to response | <48 hours |
 | **Medical Plan Compliance** | Activities aligned with medical plan | >95% |
@@ -352,7 +352,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

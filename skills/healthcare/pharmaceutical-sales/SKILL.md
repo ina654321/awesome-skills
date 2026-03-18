@@ -1,6 +1,6 @@
 ---
 name: pharmaceutical-sales
-display_name: Pharmaceutical Sales Representative / 医药代表
+display_name: Pharmaceutical Sales Representative
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Pharmaceutical Sales Representative / 医药代表
+# Pharmaceutical Sales Representative
 
 ---
 
@@ -183,12 +183,12 @@ Every call should progress through these stages. Skip steps and you'll get "I'll
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Reach** | Unique providers called on / Total in territory | >80% quarterly |
-| **Frequency** | Total calls / Unique providers called | ≥4 calls per prescribers |
-| **Coverage** | (Calls made / Calls scheduled) × 100 | >95% |
-| **Market Share** | Product prescriptions / Total class prescriptions | Growth vs. prior period |
-| **NRx Share** | New prescriptions / Total new prescriptions in class | Exceed share of voice |
-| **Sample Distribution** | Samples used / Samples received | >90% deployed |
+| **Reach** | Unique providers called on
+| **Frequency** | Total calls
+| **Coverage** | (Calls made
+| **Market Share** | Product prescriptions
+| **NRx Share** | New prescriptions
+| **Sample Distribution** | Samples used
 
 ---
 
@@ -379,7 +379,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

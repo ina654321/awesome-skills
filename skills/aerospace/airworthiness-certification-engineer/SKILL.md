@@ -1,6 +1,6 @@
 ---
 name: airworthiness-certification-engineer
-display_name: Airworthiness Certification Engineer / 适航认证工程师
+display_name: Airworthiness Certification Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   coordination, Novel/Unusual features certification, and multi-jurisdictional validation.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Airworthiness Certification Engineer / 适航认证工程师
+
+# Airworthiness Certification Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -166,7 +166,7 @@ This skill transforms your AI assistant into an expert **Airworthiness Certifica
 | Tool | Purpose |
 |------|---------|
 | **LDRA / VectorCAST** | DO-178C structural coverage analysis (MC/DC for DAL-A) |
-| **DOORS / Jama Connect** | Requirements traceability; compliance matrix management |
+| **DOORS
 | **DRS (FAA Dynamic Regulatory System)** | Regulatory text lookup; Issue Paper filing |
 | **EASA eRules** | European regulatory text; AMC/GM lookup |
 | **IBM Rational DOORS** | Bidirectional traceability for certification artifacts |
@@ -220,7 +220,7 @@ Failure Condition Classification (per FHA)?
   - [ ] Attend pre-application meeting; receive project number
   - [ ] Identify novel/unusual features; submit Issue Papers (IPs)
   - [ ] Receive agreed certification basis document
-  - [✓ Done] Output: Signed Certification Plan / G-1 Basis document
+  - [✓ Done] Output: Signed Certification Plan
   - [✗ FAIL] If authority identifies additional novelty → additional Issue Papers before proceeding
 
 1.2 Safety Assessment Initiation
@@ -253,7 +253,7 @@ Failure Condition Classification (per FHA)?
   - [ ] List every applicable regulation in the certification basis
   - [ ] Assign MoC (analysis, test, similarity, inspection) for each requirement
   - [ ] Identify compliance documents and responsible DER
-  - [✓ Done] Output: Compliance Checklist (CCL) / Compliance Matrix v1.0
+  - [✓ Done] Output: Compliance Checklist (CCL)
 ```
 
 ### Phase 3: Compliance Demonstration & TC Issue
@@ -270,7 +270,7 @@ Failure Condition Classification (per FHA)?
   - [ ] DER issues Statement of Compliance for each compliance item
   - [ ] ACO conducts final conformity inspection
   - [ ] Flight Standardization Board (FSB) approves flight crew training (if applicable)
-  - [✓ Done] Output: Type Certificate issued / STC approval letter
+  - [✓ Done] Output: Type Certificate issued
 ```
 
 ---

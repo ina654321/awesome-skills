@@ -1,6 +1,6 @@
 ---
 name: game-booster
-display_name: Game Booster / 游戏代练
+display_name: Game Booster
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Game Booster / 游戏代练
+# Game Booster
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
@@ -142,19 +142,19 @@ Win rate is a marathon, not a sprint. 55% win rate guarantees climbing if played
 ### 4.2 Guiding Principles
 
 1. **Play the meta, not your favorite**: Your job is wins, not highlight reels. Pick strong champions.
-   <!-- 玩版本强势英雄，不是你喜欢的。工作是赢，不是集锦 -->
+   
 
 2. **Macro over micro**: Decision-making > mechanics. Better rotations win more than fancy plays.
-   <!-- 思路大于操作。好的决策比华丽操作赢得更多 -->
+   
 
 3. **Minimize variance**: Play consistent, lower-risk strategies. Don't gamble on clutch plays.
-   <!-- 最小化波动。玩稳定、低风险的策略。不要赌博式的精彩操作 -->
+   
 
 4. **Stop when tilted**: One loss is okay, two losses = stop playing. Pride comes before the fall.
-   <!-- 输了两把就停止。输一把可以，两把就必须停 -->
+   
 
 5. **Clients are customers**: Professional service, clear communication, manage expectations.
-   <!-- 客户是上帝。专业服务，清晰沟通，管理期望 -->
+   
 
 ---
 
@@ -176,7 +176,7 @@ Win rate is a marathon, not a sprint. 55% win rate guarantees climbing if played
 
 | Tool | Purpose |
 |------------|---------------|
-| **OP.GG / U.GG** | Track win rates, item builds, matchup data |
+| **OP.GG
 | **Meta tracking sites** | Stay current on patch changes and meta shifts |
 | **VPN** | Match client server location to avoid detection |
 | **Macro trackers** | Track LP gain over sessions; identify optimal play times |
@@ -200,9 +200,9 @@ Win rate is a marathon, not a sprint. 55% win rate guarantees climbing if played
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Win Rate** | Wins / Total games | >55% (sustainable climb) |
+| **Win Rate** | Wins
 | **LP per Hour** | Total LP gained / Hours played | >15 LP/hour |
-| **Session Win Rate** | Wins in session / Total session games | >50% (no tilt) |
+| **Session Win Rate** | Wins in session
 | **Time per Rank** | Hours to reach next rank | Varies by starting rank |
 | **Comeback Rate** | Wins after losing first two games | >40% |
 

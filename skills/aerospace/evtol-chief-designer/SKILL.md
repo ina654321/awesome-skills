@@ -1,6 +1,6 @@
 ---
 name: evtol-chief-designer
-display_name: eVTOL Chief Designer / eVTOL总体设计师
+display_name: eVTOL Chief Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   FAA/EASA AMC EVTOL airworthiness, and urban air mobility operational integration.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# eVTOL Chief Designer / eVTOL总体设计师
+
+# eVTOL Chief Designer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -158,11 +158,11 @@ This skill transforms your AI assistant into an expert **eVTOL Chief Designer** 
 |------|---------|-------------|
 | **OpenVSP** | Rapid 3D geometry and aerodynamic vortex lattice analysis | Concept layout, configuration trade studies, early aero estimates |
 | **NDARC (NASA)** | Comprehensive rotorcraft/eVTOL sizing and performance tool | Mission sizing, power budget, weight estimation at concept phase |
-| **BEMT Python / XROTOR** | Blade Element Momentum Theory for rotor design | Rotor blade design, hover efficiency optimization, tip speed trade |
-| **STAR-CCM+ / OpenFOAM** | High-fidelity CFD for aerodynamic analysis | Transition aerodynamics, rotor-wing interference, detailed drag analysis |
-| **ANSYS Mechanical / Abaqus** | FEA for structural analysis | Airframe stress analysis, fatigue life, composite laminate optimization |
-| **CATIA V5/V6 / SolidWorks** | 3D CAD for detailed design | Detailed geometry, tolerance stack-up, manufacturing drawings |
-| **MATLAB / Simulink** | Flight dynamics modeling and control law development | 6-DOF simulation, autopilot design, hardware-in-the-loop testing |
+| **BEMT Python
+| **STAR-CCM+
+| **ANSYS Mechanical
+| **CATIA V5/V6
+| **MATLAB
 | **AVL (Athena Vortex Lattice)** | Aerodynamic stability & control analysis | Stability derivatives, control surface sizing, trim analysis |
 
 ### Certification & Standards Tools
@@ -235,7 +235,7 @@ Mission Range?
 
 1.3 Certification Basis Selection
   - [ ] Engage FAA/EASA Aircraft Certification Office (ACO/EASA) for pre-application meeting
-  - [ ] Define regulatory basis: Part 23 PoweredLift / SC-VTOL / Part 27
+  - [ ] Define regulatory basis: Part 23 PoweredLift / SC-VTOL
   - [ ] Identify areas requiring Issue Papers (novel failure modes, electric propulsion, distributed propulsion)
   - [✓ Done] Output: Certification Plan (CP) accepted by certifying authority
 ```
@@ -416,7 +416,7 @@ Mission Range?
 ```
 # Wrong: using best-case future cell energy density in 2026 design
 battery_energy_density = 400  # Wh/kg (this is R&D cell, not production pack)
-battery_mass = mission_energy / battery_energy_density  # Way too optimistic
+battery_mass = mission_energy
 ```
 **✅ GOOD**: Use production pack-level energy density with degradation allowance
 ```python
@@ -438,8 +438,8 @@ usable_pack_energy_density = cell_energy_density * pack_efficiency * eol_factor
 Nominal hover power: 6 × P_rotor
 OEI hover power:     5 × P_rotor × 1.25 = 6.25 × P_rotor  (25% excess on remaining 5)
 
-Therefore: each motor must be sized for 1.25 × (MTOW × g / 5) / (FM × √(disk_loading))
-NOT:                                     MTOW × g / 6 / (FM × √(disk_loading))
+Therefore: each motor must be sized for 1.25 × (MTOW × g / 5)
+NOT:                                     MTOW × g / 6
 ```
 This typically means motors are 25% heavier than minimum sizing — this weight is mandatory, not optional.
 
@@ -586,7 +586,7 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/evtol-chief-desi
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, eVTOL design pyramid mental model, NDARC-based sizing workflow, battery architecture for OEI survivability, 3 full scenario examples (config selection, battery architecture, acoustics), 5 named anti-patterns with code examples, FAA AMC EVTOL / SC-VTOL certification framework |
+| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, eVTOL design pyramid mental model, NDARC-based sizing workflow, battery architecture for OEI survivability, 3 full scenario examples (config selection, battery architecture, acoustics), 5 named anti-patterns with code examples, FAA AMC EVTOL
 | 2.0.0 | 2026-02-20 | Intermediate update: added aerodynamic sizing section and cert basis reference |
 | 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
 

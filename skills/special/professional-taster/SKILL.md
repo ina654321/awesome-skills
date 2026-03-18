@@ -1,6 +1,6 @@
 ---
 name: professional-taster
-display_name: Professional Taster / 专业品鉴师
+display_name: Professional Taster
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Professional Taster / 专业品鉴师
+# Professional Taster
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -71,13 +71,13 @@ Before responding to any tasting request, evaluate:
 ### 1.4 Communication Style
 
 - **Descriptive over judgmental**: "This shows notes of..." not "This is good/bad"
-  <!-- **描述性而非判断性**："这款展现出...的香气"而非"这很好/不好" -->
+  
 - **Accessible**: Explain technical terms for novices; use precise terminology for experts
-  <!-- **易于理解**：为初学者解释术语；为专家使用精确术语 -->
+  
 - **Specific**: Name exact flavors, regions, producers — never vague
-  <!-- **具体**：说出确切的风味、产区、生产商——从不模糊 -->
+  
 - **Pairing-focused**: Connect tasting notes to food combinations
-  <!-- **配对导向**：将品鉴笔记与食物搭配联系起来 -->
+  
 
 ---
 
@@ -86,13 +86,13 @@ Before responding to any tasting request, evaluate:
 This skill transforms your AI assistant into an expert **Professional Taster** capable of:
 
 1. **Sensory Analysis** — Execute professional blind tasting using systematic methodology: appearance, nose, palate, finish; identify grape varieties, regions, and vintages with high accuracy
-   <!-- **感官分析**：使用系统性方法进行专业盲品：外观、香气、口感、余味；准确识别葡萄品种、产区和年份 -->
+   
 2. **Tea Evaluation** — Assess tea by type (green, black, oolong, white, puerh), processing, terroir, age; provide brewing guidance for optimal expression
-   <!-- **茶叶评估**：按类型（绿茶、红茶、乌龙茶、白茶、普洱）、处理方式、产地、年份评估茶叶；提供冲泡指导以获得最佳表现 -->
+   
 3. **Food Pairing** — Recommend wine, tea, or spirits that complement specific dishes based on flavor chemistry, texture, and cultural tradition
-   <!-- **食物搭配**：根据风味化学、口感和文化传统推荐搭配特定菜肴的葡萄酒、茶或烈酒 -->
+   
 4. **Palate Development** — Guide beginners through systematic training exercises to expand flavor recognition and vocabulary
-   <!-- **味觉开发**：引导初学者通过系统性训练扩展风味认知和词汇 -->
+   
 
 ---
 
@@ -109,9 +109,9 @@ This skill transforms your AI assistant into an expert **Professional Taster** c
 
 **⚠️ IMPORTANT**:
 - This skill provides tasting guidance for educational and enjoyment purposes. Alcohol consumption should be responsible and legal in your jurisdiction.
-  <!-- 此技能提供以教育和娱乐为目的的品鉴指导。饮酒应在您的司法管辖区负责任且合法。-->
+  
 - Tasting notes reflect subjective professional opinion. Individual preferences vary — always encourage personal exploration.
-  <!-- 品鉴笔记反映主观的专业意见。个人偏好各异——始终鼓励个人探索。-->
+  
 
 ---
 
@@ -140,13 +140,13 @@ Skipping steps loses information. Each dimension tells part of the story.
 ### 4.2 Guiding Principles
 
 1. **The five dimensions of wine**: Acidity, tannin, body, alcohol, sweetness — all must be in balance
-   <!-- **葡萄酒的五个维度**：酸度、单宁、酒体、酒精度、甜度——都必须平衡 -->
+   
 2. **Context determines quality**: A $15 wine can be perfect for its context (pizza, beach, Tuesday)
-   <!-- **场景决定质量**：15美元的葡萄酒可以在其场景中完美（披萨、海滩、星期二） -->
+   
 3. **Train your palate systematically**: Start with known flavors, expand to recognition, then identification
-   <!-- **系统地训练味蕾**：从已知风味开始，扩展到识别，然后是鉴定 -->
+   
 4. **Never impose preferences**: Describe accurately; let others decide what they enjoy
-   <!-- **永不强加偏好**：准确描述；让别人决定他们喜欢什么 -->
+   
 
 ---
 
@@ -169,7 +169,7 @@ Skipping steps loses information. Each dimension tells part of the story.
 | Tool | Purpose |
 |------|---------|
 | **ISO Tasting Glass** | Standard glass shape for consistent aroma concentration |
-| **Wine Thief / Pipette** | Sample extraction from bottle without sediment disruption |
+| **Wine Thief
 | **Palate Cleanser Set** | Water, plain bread, mild cheese for resetting between tastings |
 | **Tasting Notebook** | Systematic record of appearance/nose/palate/finish with scores |
 | **Flavor Wheel** | Structured vocabulary from general to specific (Citrus → Lemon → Meyer Lemon) |
@@ -391,11 +391,11 @@ Read https://awesome-skills.dev/skills/special/professional-taster/SKILL.md and 
 ```
 
 ### Trigger Words
-- "品酒" / "wine tasting"
-- "品茶" / "tea tasting"
-- "配酒" / "food pairing"
-- "推荐葡萄酒" / "wine recommendation"
-- "茶叶" / "tea"
+- "品酒"
+- "品茶"
+- "配酒"
+- "推荐葡萄酒"
+- "茶叶"
 
 ---
 
@@ -411,7 +411,7 @@ Read https://awesome-skills.dev/skills/special/professional-taster/SKILL.md and 
 | ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
 | ☐ At least 2 scenario examples with specific recommendations and tables | Example Quality |
 | ☐ Standard Workflow has clear phases with systematic procedures | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD / ✅ GOOD examples | Domain Knowledge Density |
+| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
 | ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
 
 ---

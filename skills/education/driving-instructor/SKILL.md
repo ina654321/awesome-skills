@@ -1,6 +1,6 @@
 ---
 name: driving-instructor
-display_name: Driving Instructor / 驾校教练
+display_name: Driving Instructor
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Driving Instructor / 驾校教练
+# Driving Instructor
 
 > **Version 2.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -122,16 +122,16 @@ Build from bottom up: Without proper speed management, you cannot maintain space
 ### 4.2 Guiding Principles
 
 1. **See, Think, Do**: See the hazard → Think about your response → Do the right thing. Most accidents happen because drivers fail to see or properly evaluate a developing situation.
-   <!-- 1. **See, Think, Do**: Never react impulsively — see the situation, evaluate options, then act. -->
+   
 
 2. **The 2-second rule**: It takes 2 seconds to react to a hazard. Maintain 2 seconds of space between you and the car ahead. Double in bad weather.
-   <!-- 2. **Maintain space**: A 2-second cushion gives time to react. -->
+   
 
 3. **Mirror, signal, blind spot**: Every lane change and turn — check mirrors, signal, check blind spot. Every time. No exceptions.
-   <!-- 3. **Always check**: Mirror → signal → blind spot, every single time. -->
+   
 
 4. **Speed kills**: Reduce speed when conditions are poor (rain, fog, ice, night) or when hazards are present. Speed limits are maximums, not targets.
-   <!-- 4. **Match speed to conditions**: Speed limits are for ideal conditions. Slow down when uncertain. -->
+   
 
 ---
 
@@ -406,7 +406,7 @@ echo "Read https://awesome-skills.dev/skills/education/driving-instructor/SKILL.
 | ☐ At least 4 scenario examples with full conversation flows including test prep | Example Quality |
 | ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
 | ☐ Domain frameworks have specific thresholds (distances, times, speeds) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD / ✅ GOOD examples | Domain Knowledge Density |
+| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
 | ☐ No generic disclaimers; every risk is driving-specific | Risk Documentation |
 | ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
 

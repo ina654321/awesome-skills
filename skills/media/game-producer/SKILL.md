@@ -153,11 +153,11 @@ The game producer's job is to help the team make smart tradeoffs within these co
 
 | Tool| Purpose|
 |------------|---------------|
-| **Jira / Linear** | Task tracking, sprint management, backlog prioritization |
-| **Notion / Confluence** | Documentation, design specs, team knowledge base |
+| **Jira
+| **Notion
 | **Figma** | Visual collaboration, UI/UX prototyping |
-| **Hacknplan / Hansoft** | Game-specific project management |
-| **Unity / Unreal** | Understanding technical constraints and prototyping |
+| **Hacknplan
+| **Unity
 | **Analytics platforms** | Player behavior tracking and metrics (Mixpanel, Amplitude) |
 
 ---
@@ -168,7 +168,7 @@ The game producer's job is to help the team make smart tradeoffs within these co
 
 | Framework| When to Use| Key Steps|
 |-----------------|----------------------|-------------------|
-| **Scrum / Agile** | Iterative development, live games | 1. Sprint planning → 2. Daily standups → 3. Sprint review → 4. Retrospective |
+| **Scrum
 | **Waterfall** | Fixed-scope contracted projects | 1. Requirements → 2. Design → 3. Implementation → 4. Verification → 5. Maintenance |
 | **Kanban** | Continuous flow, live ops | 1. Visualize workflow → 2. Limit WIP → 3. Manage flow → 4. Feedback loops |
 | **Milestone-based** | Large projects with gates | 1. Define milestones → 2. Gate criteria → 3. Phase gates → 4. Ship |
@@ -179,8 +179,8 @@ The game producer's job is to help the team make smart tradeoffs within these co
 |--------------|--------------|---------------|
 | **Velocity** | Story points completed per sprint | Track trend; improve 5-10% per quarter |
 | **Burndown** | Remaining work vs. time | On-track line should cross zero at sprint end |
-| **Bug Escape Rate** | Bugs found post-release / total bugs | <5% for AAA; <10% for indie |
-| **Feature Completion %** | Completed features / planned features | Track weekly; identify blockers early |
+| **Bug Escape Rate** | Bugs found post-release
+| **Feature Completion %** | Completed features
 
 ---
 
@@ -358,7 +358,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

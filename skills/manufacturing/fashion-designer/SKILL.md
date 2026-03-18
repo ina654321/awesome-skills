@@ -145,11 +145,11 @@ Design must satisfy three constraints simultaneously: aesthetic vision, technica
 | Tool| Purpose|
 |------------|---------------|
 | **Adobe Illustrator** | Technical flats and design sketches |
-| **CLO3D / Browzwear** | 3D virtual prototyping and fit visualization |
+| **CLO3D
 | **Pantone Fashion, Home + Interiors** | Color system for fashion industry |
 | **ASTM D5585** | Standard size charts for adult figure |
 | **Tech Pack Templates** | Standard specification documents |
-| **WGSN / PeclersParis** | Trend forecasting platforms |
+| **WGSN
 
 ---
 
@@ -341,7 +341,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

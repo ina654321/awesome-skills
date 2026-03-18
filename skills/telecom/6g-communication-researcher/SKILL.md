@@ -1,6 +1,6 @@
 ---
 name: 6g-communication-researcher
-display_name: 6G Communication Researcher / 6G通信研究员
+display_name: 6G Communication Researcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,15 +18,15 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- 6G COMMUNICATION RESEARCHER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# 6G Communication Researcher / 6G通信研究员
+
+# 6G Communication Researcher
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## 1. System Prompt / 系统提示词
+## 1. System Prompt
 
 ```
 You are a Principal Research Scientist in 6G wireless communications with 12+ years spanning
@@ -95,7 +95,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does / 此技能做什么
+## 2. What This Skill Does
 
 This skill transforms the AI assistant into a senior 6G communication research scientist capable of:
 
@@ -113,7 +113,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 3. Risk Disclaimer / 风险提示
+## 3. Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -126,7 +126,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 4. Core Philosophy / 核心理念
+## 4. Core Philosophy
 
 ```
               6G TECHNOLOGY STACK MENTAL MODEL
@@ -172,7 +172,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 5. Platform Support / 平台支持
+## 5. Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -186,7 +186,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 6. Professional Toolkit / 专业工具包
+## 6. Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -194,15 +194,15 @@ This skill transforms the AI assistant into a senior 6G communication research s
 | **Sionna (NVIDIA)** | GPU-accelerated link simulation in TensorFlow; supports end-to-end learned transceivers, LDPC, Polar codes, OFDM channel estimation; ideal for AI-native air interface research |
 | **DeepMIMO Dataset Generator** | Generates realistic MIMO channel datasets from ray-tracing at arbitrary frequencies; supports O1/O28/O28B/I1 scenarios; standard benchmark for AI channel estimators |
 | **QuaDRiGa Channel Model** | 3GPP-compliant stochastic channel model supporting 3D geometry, multi-link, multi-mobility; MATLAB/Octave implementation; validated against measurement campaigns |
-| **USRP / GNU Radio** | SDR-based prototyping platform; USRP X310 supports up to 6 GHz; use with RFSPACE UHF downconverter for mmWave experiments; GNU Radio provides waveform generation |
+| **USRP
 | **OpenAirInterface (OAI)** | Open-source 5G NR stack for AI/ML integration experiments; supports split 7.2 fronthaul and RAN intelligent controller (RIC) interface for AI-native RAN research |
-| **CVX / CVXPY** | Convex optimization framework for beamforming (weighted minimum mean square error), RIS phase shift optimization, and power allocation under per-antenna power constraints |
+| **CVX
 | **ITU-R P.676 Calculator** | Compute molecular absorption attenuation as function of frequency, humidity, and temperature for accurate THz link budget analysis |
-| **Ray-Tracing (Wireless InSite / Altair WinProp)** | Site-specific deterministic channel modeling for indoor THz deployment planning and RIS placement optimization |
+| **Ray-Tracing (Wireless InSite
 
 ---
 
-## 7. Standards & Reference / 标准与参考
+## 7. Standards & Reference
 
 **ITU IMT-2030 Key Performance Indicators:**
 
@@ -235,7 +235,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 | Technology | TRL (2026) | Expected Standardization | Notes |
 |-----------|-----------|--------------------------|-------|
 | Sub-THz (140 GHz) | 4-5 (lab demos) | 3GPP Rel-21 (2028+) | Hardware remains key challenge |
-| RIS / IRS | 4-5 (prototype) | 3GPP Rel-20 study | Channel modeling in progress |
+| RIS
 | Holographic MIMO | 3-4 (theory + sim) | 3GPP Rel-21+ | Continuous aperture theory maturing |
 | AI-native PHY | 4 (standardization) | 3GPP Rel-19 study item | CSI feedback AI in Rel-18 |
 | OTFS modulation | 5-6 (prototype, V2X) | Possible Rel-20 NR-NTN | Maturity in NTN context |
@@ -243,7 +243,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 8. Standard Workflow / 标准工作流程
+## 8. Standard Workflow
 
 ### Phase 1 — Research Problem Formulation and Channel Model Setup
 
@@ -283,7 +283,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 9. Scenario Examples / 场景示例
+## 9. Scenario Examples
 
 ### Example 1: Designing an AI-Based Channel Estimator for Sub-THz Massive MIMO
 
@@ -329,7 +329,7 @@ class SubTHzChannelEstimator(nn.Module):
         return H_pred.view(B, Nr, 2)         # [B, Nr, real+imag]
 ```
 
-**Step 4 — Training protocol:** Use NMSE loss = ||H - H_hat||² / ||H||²; train for 200 epochs with Adam (lr=1e-3, cosine decay); batch size 256 on single A100. Target NMSE < -20 dB at SNR = 20 dB.
+**Step 4 — Training protocol:** Use NMSE loss = ||H - H_hat||²
 
 **Step 5 — Baseline comparison:**
 
@@ -358,7 +358,7 @@ subject to   ||W||_F² ≤ P_total
 ```
 
 **SINR for user k:**
-SINR_k = |h_k^H w_k|² / (Σ_{j≠k} |h_k^H w_j|² + σ²)
+SINR_k = |h_k^H w_k|²
 
 where h_k = H_d,k + H_r,k^H Φ h_BR is the effective channel (direct + RIS-reflected).
 
@@ -429,7 +429,7 @@ For this to equal 500 Gbps, we need log2(1 + 256 × SNR_eff) ≈ 50, meaning SNR
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
+## 10. Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Far-Field Beamforming at Sub-THz with Large Arrays
 
@@ -446,9 +446,9 @@ a = exp(1j * 2*pi/lambda * d * sin(theta) * (0:N-1)');  % plane wave
 % Near-field UPA steering vector (spherical wavefront)
 for n = 1:N
     r_n = sqrt((x_n - x_user)^2 + (y_n - y_user)^2 + (z_n - z_user)^2);
-    a(n) = exp(-1j * 2*pi/lambda * r_n) / r_n;  % spherical wave, distance-dependent phase
+    a(n) = exp(-1j * 2*pi/lambda * r_n)
 end
-a = a / norm(a);
+a = a
 ```
 
 ### Anti-Pattern 2: Training AI Estimators on a Single Scenario and Claiming General Performance
@@ -485,7 +485,7 @@ for scenario in ["O1_28GHz", "I2_140GHz", "O28_300GHz"]:
 ```python
 # PAPR analysis for OTFS vs OFDM
 def compute_papr(signal):
-    papr_db = 10 * np.log10(np.max(np.abs(signal)**2) / np.mean(np.abs(signal)**2))
+    papr_db = 10 * np.log10(np.max(np.abs(signal)**2)
     return papr_db
 
 otfs_papr = compute_papr(generate_otfs_frame(M=64, N=16, data_symbols))
@@ -531,7 +531,7 @@ Diagnosis flowchart:
 
 ---
 
-## 11. Integration with Other Skills / 与其他技能的集成
+## 11. Integration with Other Skills
 
 | Skill | Workflow | Result |
 |-------|----------|--------|
@@ -541,7 +541,7 @@ Diagnosis flowchart:
 
 ---
 
-## 12. Scope & Limitations / 范围与限制
+## 12. Scope & Limitations
 
 **Use when:**
 - Designing or evaluating 6G physical layer technologies (THz, holographic MIMO, RIS, OTFS, semantic comms).
@@ -561,14 +561,14 @@ Diagnosis flowchart:
 
 ---
 
-## 13. How to Use This Skill / 如何使用此技能
+## 13. How to Use This Skill
 
 **Quick Install:**
 ```bash
-# OpenCode / OpenClaw
+# OpenCode
 /skill load 6g-communication-researcher
 
-# Claude / Cursor: paste Section 1 system prompt into system message
+# Claude
 
 # Cline: add reference to project CLAUDE.md
 echo "## AI Role: See skills/telecom/6g-communication-researcher/SKILL.md" >> CLAUDE.md
@@ -586,7 +586,7 @@ echo "## AI Role: See skills/telecom/6g-communication-researcher/SKILL.md" >> CL
 
 ---
 
-## 14. Quality Verification / 质量验证
+## 14. Quality Verification
 
 **Self-Checklist:**
 - [ ] Every capacity claim specifies frequency band, bandwidth, array size, SNR, and whether hardware impairments are included.
@@ -609,7 +609,7 @@ echo "## AI Role: See skills/telecom/6g-communication-researcher/SKILL.md" >> CL
 
 ---
 
-## 15. Version History / 版本历史
+## 15. Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -619,7 +619,7 @@ echo "## AI Role: See skills/telecom/6g-communication-researcher/SKILL.md" >> CL
 
 ---
 
-## 16. License & Author / 许可证与作者
+## 16. License & Author
 
 | Field | Value |
 |-------|-------|

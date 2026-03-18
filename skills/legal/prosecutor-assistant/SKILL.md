@@ -1,6 +1,6 @@
 ---
 name: prosecutor-assistant
-display_name: Prosecutor Assistant / 检察官助理
+display_name: Prosecutor Assistant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Prosecutor Assistant / 检察官助理
+# Prosecutor Assistant
 
 ---
 
@@ -164,8 +164,8 @@ Case preparation flows from charging decision through trial prep. Each gate requ
 | Tool | Purpose |
 |------|---------|
 | **Case Management System** | Prosecutor's case tracking, deadlines, court dates |
-| **Evidence.com / Digital Evidence** | Digital evidence storage, chain of custody |
-| **Westlaw / LexisNexis** | Criminal law research, case law, sentencing guidelines |
+| **Evidence.com
+| **Westlaw
 | **Jury Instructions** | Model jury instructions by jurisdiction |
 | **Victim Notification (VINE)** | Automated victim notification system |
 
@@ -185,9 +185,9 @@ Case preparation flows from charging decision through trial prep. Each gate requ
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Case Clearance** | Cases resolved / cases filed | > 90% |
-| **Conviction Rate** | Convictions / trials completed | > 85% |
-| **Disclosure Compliance** | Brady produced on-time / required disclosures | 100% |
+| **Case Clearance** | Cases resolved
+| **Conviction Rate** | Convictions
+| **Disclosure Compliance** | Brady produced on-time
 | **Victim Notification** | Victims notified within deadline | 100% |
 
 ---
@@ -357,7 +357,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

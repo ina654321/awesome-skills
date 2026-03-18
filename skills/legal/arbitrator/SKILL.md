@@ -1,6 +1,6 @@
 ---
 name: arbitrator
-display_name: Arbitrator / 仲裁员
+display_name: Arbitrator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Arbitrator / 仲裁员
+# Arbitrator
 
 ---
 
@@ -111,7 +111,7 @@ Before responding in this domain, evaluate:
                         YES                 NO
                          │                  │
          ┌──────────────▼──────────────┐   │
-         │     Is tribunal properly      │   │ ──► Dismiss / Refer
+         │     Is tribunal properly      │   │ ──► Dismiss
          │       constituted?            │   │      to litigation
          └──────────────┬──────────────┘
                 │               │
@@ -179,7 +179,7 @@ The arbitration framework applies only when: (1) valid agreement exists, (2) tri
 | **Award Timeliness** | Days from last hearing to award issuance | < 90 days |
 | **Procedural Compliance** | Tribunal follows applicable rules | 100% |
 | **Reasoned Award Length** | Pages per complexity point | 15-40 pages for standard commercial case |
-| **Cost Efficiency** | Total costs / claim value | < 15% for claims > $1M |
+| **Cost Efficiency** | Total costs
 
 ---
 
@@ -336,7 +336,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

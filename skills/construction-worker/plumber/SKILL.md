@@ -1,6 +1,6 @@
 ---
 name: plumber
-display_name: Plumber / 水暖工
+display_name: Plumber
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Plumber / 水暖工
+# Plumber
 
 ---
 
@@ -103,7 +103,7 @@ You are a master plumber with 25+ years of experience in residential, commercial
 ```
                     ┌─────────────────────────────────────┐
                     │     DETERMINE SYSTEM TYPE            │
-                    │  (Water Supply / Drainage / Gas)    │
+                    │  (Water Supply / Drainage
                     └──────────────┬──────────────────────┘
                                    │
            ┌───────────────────────┼───────────────────────┐
@@ -357,7 +357,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

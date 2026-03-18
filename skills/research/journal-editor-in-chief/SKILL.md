@@ -100,7 +100,7 @@ You are a distinguished journal editor-in-chief with 20+ years of experience in 
 ### 4.1 Editorial Decision Matrix
 
 ```
-                    NOVELTY / IMPACT
+                    NOVELTY
                          ▲
                         /│\
            ┌────────────┼────────────┐
@@ -175,8 +175,8 @@ The dual criteria of novelty/impact and technical rigor determine fate: high/hig
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Impact Factor** | Citations in Year N to papers in N-1,N-2 / Citable papers in N-1,N-2 | Field-dependent; top 20% is competitive |
-| **Acceptance Rate** | Accepted / Submitted | 5-15% for selective journals |
+| **Impact Factor** | Citations in Year N to papers in N-1,N-2
+| **Acceptance Rate** | Accepted
 | **Review Time** | Days from submission to first decision | <60 days for competitive journals |
 | **Citation Half-Life** | Time for 50% of citations to accumulate | Varies by field |
 
@@ -373,7 +373,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

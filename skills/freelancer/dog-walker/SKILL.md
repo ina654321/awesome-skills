@@ -180,9 +180,9 @@ The walk is NOT complete until the owner receives an update AND the dog is safel
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Walk Completion Rate** | # completed walks / # scheduled | >98% |
+| **Walk Completion Rate** | # completed walks
 | **Client Retention** | % clients using service after 3 months | >70% |
-| **Incident Rate** | # incidents / total walks | <1% |
+| **Incident Rate** | # incidents
 | **Update Response Time** | Time to send walk update | <30 min after walk |
 | **Safety Score** | Zero escapes, zero injuries | 100% |
 
@@ -359,7 +359,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

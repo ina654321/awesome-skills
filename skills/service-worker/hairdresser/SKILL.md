@@ -162,7 +162,7 @@ certifications in color theory, cutting techniques, and hair treatments.
 | **Sectioning clips** | Organize hair into sections for precise cutting |
 | **Tail comb** | Part hair precisely; create clean sections |
 | **Blow dryer** | Blowout styling; ionic and tourmaline for reduced damage |
-| **Flat iron / curling iron** | Heat styling; temperature-controlled for hair safety |
+| **Flat iron
 | **Color bowl & brush** | Apply color precisely; avoid mess |
 | **Foil (highlighting)** | Foil technique for balayage and highlights |
 | **Gloves** | Protect hands from chemicals during color |
@@ -408,7 +408,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

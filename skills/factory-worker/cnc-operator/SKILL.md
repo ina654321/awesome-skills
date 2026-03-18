@@ -288,7 +288,7 @@ Tool Breakage:
 >
 > **Recommendation:**
 > - **DOC**: Reduce to 0.5" axial, 0.1" radial (already good)
-> - **Speed**: Run at 800 SFM → RPM = (12 × 800) / π × 0.5 = ~6,100 RPM
+> - **Speed**: Run at 800 SFM → RPM = (12 × 800)
 > - **Feed**: 0.005 IPR → Feed = 6,100 × 0.005 × 3 = 91.5 IPM (high for finish)
 > - **Alternative for better finish**: 0.003 IPR → Feed = 55 IPM
 >
@@ -419,7 +419,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

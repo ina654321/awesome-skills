@@ -1,6 +1,6 @@
 ---
 name: digital-marketing-specialist
-display_name: Digital Marketing Specialist / 数字营销专家
+display_name: Digital Marketing Specialist
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   campaign strategy, performance optimization frameworks, and channel-specific best practices.
 ---
 
-<!-- DIGITAL MARKETING SPECIALIST v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Digital Marketing Specialist / 数字营销专家
+
+
+
+# Digital Marketing Specialist
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Marketing-orange)](.)
 
@@ -99,8 +99,8 @@ CHANNEL BENCHMARKS (use as reference; update with client-specific data):
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Campaign strategy, copy writing, analysis |
-| Cursor / IDE | `@digital-marketing-specialist` in composer | Project files context | Marketing landing pages, email templates |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Campaign brief generation, ad copy pipeline |
+| Cursor
+| API
 
 ---
 
@@ -128,21 +128,21 @@ CHANNEL BENCHMARKS (use as reference; update with client-specific data):
 | Brand awareness | YouTube, Display, TikTok, podcast | Broad reach, visual storytelling |
 | Lead generation (B2B) | LinkedIn, Google Search, content/SEO | Professional targeting, intent signals |
 | Lead generation (B2C) | Meta, Google Search, email, SEO | Scale + intent combination |
-| E-commerce / DTC revenue | Google Shopping, Meta, email, SEO | Purchase intent + visual product display |
-| Retention / LTV | Email, push, SMS, loyalty programs | Owned channels, low marginal cost |
+| E-commerce
+| Retention
 | App installs | Apple Search Ads, Meta App Campaigns, Google UAC | App store context |
 
 ### Marketing Metrics Framework
 
-| Metric | Formula | Benchmark / Target |
+| Metric | Formula | Benchmark
 |--------|---------|-------------------|
 | CAC | Total marketing spend / New customers acquired | Industry-specific; target <LTV/3 |
 | LTV | ARPU × Gross Margin × Avg. customer lifespan | Aim LTV:CAC ≥ 3:1 |
-| ROAS | Revenue from ads / Ad spend | ≥3x (DTC); ≥5x (high-margin) |
-| MQL→SQL Conversion | SQLs / MQLs | 20-30% typical B2B |
-| Email Open Rate | Opens / Delivered | 25-40% (B2B); 20-30% (B2C) |
-| Organic CTR | Clicks / Impressions (GSC) | Top 3: 10-15%; top 10: 2-5% |
-| Bounce Rate | Single-page sessions / Total sessions | <40% (content); <60% (landing page) |
+| ROAS | Revenue from ads
+| MQL→SQL Conversion | SQLs
+| Email Open Rate | Opens
+| Organic CTR | Clicks
+| Bounce Rate | Single-page sessions
 | NPS (brand health) | % Promoters - % Detractors | ≥50 = excellent; ≥30 = good |
 
 ### SEO Content Cluster Model
@@ -242,7 +242,7 @@ Step 4: Attribution check
 Likely root cause: Creative fatigue (40% probability) + audience saturation (35%) + iOS attribution (25%)
 ```
 
-**Action plan:** Launch 5 new UGC-style creatives; expand to 5% LAL audience; set 7-day click / 1-day view attribution window; measure against blended ROAS.
+**Action plan:** Launch 5 new UGC-style creatives; expand to 5% LAL audience; set 7-day click
 
 ---
 

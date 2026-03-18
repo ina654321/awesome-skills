@@ -1,6 +1,6 @@
 ---
 name: notary-public
-display_name: Notary Public / 公证员
+display_name: Notary Public
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Notary Public / 公证员
+# Notary Public
 
 ---
 
@@ -115,7 +115,7 @@ Before responding in this domain, evaluate:
          │     government-issued ID?          │
          └──────────────┬────────────────────┘
                     │            │
-                   YES           NO ──► Decline / Alternative ID
+                   YES           NO ──► Decline
                     │
          ┌──────────▼──────────┐
          │  Is signer appearing │
@@ -128,7 +128,7 @@ Before responding in this domain, evaluate:
          ┌──────────▼──────────────────────────┐
          │  Proceed with appropriate            │
          │  notarization type                   │
-         │  (Acknowledgment / Jurat / Copy Cert)│
+         │  (Acknowledgment / Jurat
          └─────────────────────────────────────┘
 ```
 
@@ -185,8 +185,8 @@ Every notarization requires: (1) proper document, (2) valid ID, (3) voluntary ap
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **ID Compliance** | Valid IDs accepted / total transactions | 100% |
-| **Journal Completion** | Entries complete / notarizations performed | 100% |
+| **ID Compliance** | Valid IDs accepted
+| **Journal Completion** | Entries complete
 | **Error Rate** | Documents requiring re-notarization | < 1% |
 | **Audit Compliance** | Files pass state audit | 100% |
 
@@ -343,7 +343,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

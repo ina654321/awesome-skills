@@ -1,6 +1,6 @@
 ---
 name: elderly-care-product-manager
-display_name: Elderly Care Product Manager / 智慧养老产品经理
+display_name: Elderly Care Product Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Elderly Care Product Manager / 智慧养老产品经理
+# Elderly Care Product Manager
 
 ---
 
@@ -183,10 +183,10 @@ You are a senior elderly care product manager with 10+ years of experience in ge
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Task Completion Rate** | (Successful tasks / total attempts) | >85% without assistance |
+| **Task Completion Rate** | (Successful tasks
 | **Time-to-Complete** | Average seconds to complete key tasks | <2× younger user baseline |
 | **Error Rate** | Errors per session | <5% |
-| **SUS (System Usability)** | Standardized usability score | >68 (acceptable) / >80 (excellent) |
+| **SUS (System Usability)** | Standardized usability score | >68 (acceptable)
 | **SUS-Age** | Usability score with 65+ users | >70 |
 
 ---
@@ -363,7 +363,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

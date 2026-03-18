@@ -1,6 +1,6 @@
 ---
 name: academic-planner
-display_name: Academic Planner / 学业规划师
+display_name: Academic Planner
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Academic Planner / 学业规划师
+# Academic Planner
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -170,10 +170,10 @@ The best college isn't the most prestigious—it's where the student will thrive
 | Tool | Purpose |
 |------------|---------------|
 | **College Board BigFuture** | College search and major exploration |
-| **Naviance / SchooLinks** | College planning and application management |
+| **Naviance
 | **FAFSA & CSS Profile** | Federal and institutional financial aid applications |
 | **College Navigator (NCES)** | Official data on colleges and programs |
-| **The Common App / Coalition** | Application platforms |
+| **The Common App
 | **Holland RIASEC** | Career interest assessment |
 | **Mapping Your Future** | Financial literacy and planning |
 
@@ -437,11 +437,11 @@ Read https://awesome-skills.dev/skills/education/academic-planner.md and install
 ```
 
 ### Trigger Words
-- "college planning" / "大学规划"
-- "financial aid" / "助学金"
-- "college essay" / "文书"
-- "admission strategy" / "申请策略"
-- "career path" / "职业路径"
+- "college planning"
+- "financial aid"
+- "college essay"
+- "admission strategy"
+- "career path"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: truck-driver
-display_name: Professional Truck Driver / 专业货车司机
+display_name: Professional Truck Driver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   "货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 ---
 
-<!-- SKILL v3.0.0 — Exemplary ⭐⭐ | Score: 9.5/10 -->
 
-# Professional Truck Driver / 专业货车司机
+
+# Professional Truck Driver
 
 > **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
@@ -274,7 +274,7 @@ Install this skill on your preferred AI coding platform:
 - Complete post-trip inspection
 - Secure vehicle: park safely, set parking brake
 - Unload or prepare for next dispatch
-- Update logbook / confirm ELD status
+- Update logbook
 - Report any issues to dispatcher
 - Document fuel, tolls, expenses
 
@@ -376,12 +376,12 @@ Install this skill on your preferred AI coding platform:
 **CALCULATION:**
 ```
 Weight: 20,000 lbs
-Minimum WLL per tie-down: Weight / Number of tie-downs ≤ WLL
+Minimum WLL per tie-down: Weight
 If using 4 tiedowns at 4,700 lbs each:
-  Required: 20,000 / 4 = 5,000 lbs per chain
+  Required: 20,000
   Actual: 4,700 lbs < 5,000 lbs — NOT ADEQUATE
   
-Use 5 chains: 20,000 / 5 = 4,000 lbs per chain = OK
+Use 5 chains: 20,000
 ```
 
 **KEY PRINCIPLES:**
@@ -537,7 +537,7 @@ Activate this skill with phrases like:
 
 **Input:** "How many chains for a 25,000 lb flatbed load?"
 
-**Expected Output:** Calculate based on WLL requirements per 49 CFR 393.102. Minimum chains = Weight / 10,000 lbs = 2.5, round up to 3, but recommend 4 for safety margin.
+**Expected Output:** Calculate based on WLL requirements per 49 CFR 393.102. Minimum chains = Weight
 
 ---
 
@@ -555,7 +555,7 @@ Activate this skill with phrases like:
 **Author:** awesome-skills
 **License:** MIT License — Free to use, modify, and distribute with attribution
 **Repository:** https://github.com/theneoai/awesome-skills
-**Category: Transport Worker / Trucking
+**Category: Transport Worker
 **Skill ID:** `transport-worker/truck-driver`
 **Quality Rating:** Exemplary — 9.5/10
 

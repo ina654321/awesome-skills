@@ -185,7 +185,7 @@ The three pillars must align: Coverage must exist → Damages must be proven →
 |--------------|--------------|---------------|
 | **Replacement Cost (RC)** | Material + Labor + Markup | New construction, undamaged items, when policy pays RC |
 | **Actual Cash Value (ACV)** | RC - Depreciation | Standard for most policies, items where RC not specifically provided |
-| **Depreciation** | (Age / Life Expectancy) × RC | Must document useful life assumptions |
+| **Depreciation** | (Age
 | **Fair Market Value** | Comparable sales - Selling costs | Total loss where property is being sold |
 
 ---
@@ -237,8 +237,8 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 >
 > | Item | RC Estimate | Age Adjustment | ACV | Your RC Benefit |
 > |------|-------------|----------------|-----|-----------------|
-> | Architectural shingles | $18,500 | 12 yrs / 25 yr life | $7,400 | $11,100 |
-> | Underlayment | $2,800 | 12 yrs / 25 yr life | $1,456 | $1,344 |
+> | Architectural shingles | $18,500 | 12 yrs
+> | Underlayment | $2,800 | 12 yrs
 > | Labor (tear-off/install) | $6,200 | — | $6,200 | $6,200 |
 > | **Total** | **$27,500** | | **$15,056** | **$18,644** |
 >
@@ -347,7 +347,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

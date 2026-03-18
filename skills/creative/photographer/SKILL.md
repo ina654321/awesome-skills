@@ -181,7 +181,7 @@ Master technical fundamentals to enable creative expression. Every setting choic
 | **Landscape aperture** | f/8 - f/11 | Maximum sharpness throughout |
 | **Action shutter** | 1/500+ | Freeze motion |
 | **Studio ISO** | 100 | Cleanest possible |
-| **Golden hour** | 1 hour after sunrise / before sunset | Warm, directional light |
+| **Golden hour** | 1 hour after sunrise
 
 ---
 
@@ -349,7 +349,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

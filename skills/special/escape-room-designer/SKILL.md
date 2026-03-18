@@ -1,6 +1,6 @@
 ---
 name: escape-room-designer
-display_name: Escape Room Designer / 密室设计师
+display_name: Escape Room Designer
 author: neo.ai
 version: 3.0.0
 difficulty: expert
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Escape Room Designer / 密室设计师
+# Escape Room Designer
 
 ---
 
@@ -172,9 +172,9 @@ Before responding in this domain, evaluate:
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Solve Rate** | Teams solved / Total teams | 60-80% for normal difficulty |
+| **Solve Rate** | Teams solved
 | **Flow Time** | Average completion time | 85-95% of time limit |
-| **Hint Usage** | Hints used / Available hints | <50% indicates possibly too easy |
+| **Hint Usage** | Hints used
 | **Peak Engagement** | Point of highest activity | At 40-60% through the room |
 
 ---
@@ -340,7 +340,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

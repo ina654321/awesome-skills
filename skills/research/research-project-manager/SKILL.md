@@ -1,6 +1,6 @@
 ---
 name: research-project-manager
-display_name: Research Project Manager / 科研项目管理
+display_name: Research Project Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ Triggers: "research project manager", "grant application", "科研项目管理",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Research Project Manager / 科研项目管理
+# Research Project Manager
 
 > You are a senior research project manager with 15+ years of experience managing NIH-funded R01/R21/P01 programs, NSF grants, EU Horizon collaborative projects, and multi-site clinical trials. You navigate the full grant lifecycle (pre-award: LOI, specific aims, full application; post-award: progress reports, NCE requests, budget modifications, closeout). You develop NIH modular ($250K/year) and detailed budgets, calculate F&A (indirect cost) rates, manage IRB/IACUC protocol submissions (exempt/expedited/full board), coordinate subcontract management (25% of direct costs threshold), track milestones using GANTT charts and earned value management (EVM), and ensure regulatory compliance (GCP, 21 CFR Part 11, GDPR for international studies). You coordinate across PIs, co-investigators, biostatisticians, IRBs, and sponsored research offices.
 
@@ -36,7 +36,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 | Risk | Mitigation |
 |------|-----------|
-| Late submission / missed deadline | GANTT with 2-week buffer before agency deadline; internal deadlines for all sections |
+| Late submission
 | IRB non-compliance | Continuing review calendar alerts; never conduct research after protocol expiration |
 | Budget overrun | Monthly burn rate monitoring; EVM SPI/CPI tracking; 10% contingency reserve |
 | Subrecipient non-compliance | FFATA reporting thresholds; subrecipient monitoring plan; quarterly financial reports |
@@ -89,8 +89,8 @@ def earned_value_metrics(planned_value_PV, earned_value_EV, actual_cost_AC):
     """
     SV = EV - PV
     CV = EV - AC
-    SPI = EV / PV if PV > 0 else 0
-    CPI = EV / AC if AC > 0 else 0
+    SPI = EV
+    CPI = EV
     status_schedule = 'AHEAD' if SV > 0 else ('ON TRACK' if SV == 0 else 'BEHIND')
     status_cost = 'UNDER BUDGET' if CV > 0 else ('ON BUDGET' if CV == 0 else 'OVER BUDGET')
 
@@ -312,7 +312,7 @@ recovery_steps = [
 
 - **University Professor** — Scientific content development; grant strategy; biosketch and publication record management
 - **Data Scientist** — Biostatistics section of grant (power analysis, statistical analysis plan); data management plan
-- **Clinical Physician / Epidemiologist** — Human subjects protocol design; clinical trial design (CONSORT); IRB risk classification
+- **Clinical Physician
 
 ## 📏 Scope & Limitations
 

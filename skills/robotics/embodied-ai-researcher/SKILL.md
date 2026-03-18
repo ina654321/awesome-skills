@@ -1,6 +1,6 @@
 ---
 name: embodied-ai-researcher
-display_name: Embodied AI Researcher / 具身智能研究员
+display_name: Embodied AI Researcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -19,9 +19,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- EMBODIED AI RESEARCHER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Embodied AI Researcher / 具身智能研究员
+
+# Embodied AI Researcher
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Robotics-blue)](.)
 
@@ -117,7 +117,7 @@ This skill transforms your AI assistant into an expert embodied AI research scie
              └──────────────┴───────────────┘
                             |
                    [Evaluation Benchmark]
-                LIBERO / RLBench / Meta-World
+                LIBERO / RLBench
                             |
                    [Research Insight]
                    Publication -> Community
@@ -137,7 +137,7 @@ This skill transforms your AI assistant into an expert embodied AI research scie
 
 ## § 5 — Platform Support
 
-| Platform | Install / Activation Command |
+| Platform | Install
 |----------|------------------------------|
 | **Claude Code** | `claude --skill embodied-ai-researcher` |
 | **OpenClaw** | `openclaw skill use embodied-ai-researcher` |
@@ -151,16 +151,16 @@ This skill transforms your AI assistant into an expert embodied AI research scie
 
 ## § 6 — Professional Toolkit
 
-| Tool / Library | Purpose | When to Use |
+| Tool
 |----------------|---------|-------------|
 | **LeRobot (HuggingFace)** | Unified framework for ACT, Diffusion Policy, TD-MPC2 training and evaluation | Primary training framework for manipulation policies; standardized dataset format |
-| **robosuite / robomimic** | Standardized manipulation environments plus IL baselines (BC, BC-RNN, IWR) | Benchmarking IL algorithms; collecting demonstration datasets in simulation |
+| **robosuite
 | **MuJoCo 3.x** | Physics simulation with accurate contact dynamics and soft body support | Sim training when contact fidelity matters (insertion, assembly, cloth manipulation) |
 | **IsaacLab (NVIDIA)** | GPU-accelerated parallel RL training across thousands of environments | Large-scale RL when 1000+ parallel environments needed; locomotion policy training |
 | **ACT (Action Chunked Transformers)** | Transformer policy with CVAE for multi-modal action prediction and temporal ensemble | Bimanual tasks and precise manipulation with 50–200 demonstrations |
 | **Diffusion Policy** | Denoising diffusion for multi-modal action distributions via UNet or Transformer | Tasks with multiple valid solution paths (cloth folding, pouring, rearrangement) |
 | **OpenVLA** | 7B vision-language-action model fine-tuned for robot action prediction | Language-conditioned manipulation requiring broad semantic generalization |
-| **RT-2 / pi0** | Vision-language-action models at scale from Google DeepMind and Physical Intelligence | Production systems requiring natural language task specification and zero-shot generalization |
+| **RT-2
 | **COLOSSEUM benchmark** | Cross-environment benchmark with 20 visual perturbation types for generalization testing | Evaluating policy robustness beyond i.i.d. success rate |
 | **Rerun.io** | Real-time robot data visualization with 3D scene, time-series, and image views | Debugging policy rollouts, sensor streams, trajectory visualization during development |
 | **lerobot-teleop** | Teleoperation data collection with leader-follower arms and data quality filtering | Building high-quality demonstration datasets with ALOHA or custom bimanual setups |
@@ -412,7 +412,7 @@ def evaluate_policy(policy, env, n_trials=50, seed=42):
     n = len(results)
     return {
         'success_rate': np.mean(results) * 100,
-        'se': np.std(results) / np.sqrt(n) * 100,  # standard error
+        'se': np.std(results)
         'n_trials': n,
     }
 
@@ -485,7 +485,7 @@ action_mean = np.mean(train_actions, axis=0)  # shape: [action_dim]
 action_std = np.std(train_actions, axis=0)    # shape: [action_dim]
 
 def normalize_action(action, mean, std, eps=1e-8):
-    return (action - mean) / (std + eps)
+    return (action - mean)
 
 def denormalize_action(normalized, mean, std, eps=1e-8):
     return normalized * (std + eps) + mean
@@ -544,7 +544,7 @@ seeds = [42, 123, 456]
 results = [train_and_evaluate(policy_config, seed=s) for s in seeds]
 success_rates = [r['success_rate'] for r in results]
 mean_sr = np.mean(success_rates)
-se_sr = np.std(success_rates) / np.sqrt(len(seeds))
+se_sr = np.std(success_rates)
 print(f"Success rate: {mean_sr:.1f} ± {se_sr:.1f}% (N=3 seeds)")
 ```
 

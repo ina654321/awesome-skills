@@ -1,6 +1,6 @@
 ---
 name: speech-therapist
-display_name: Speech Therapist / 言语治疗师
+display_name: Speech Therapist
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -18,7 +18,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Speech Therapist / 言语治疗师
+# Speech Therapist
 
 > **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -126,7 +126,7 @@ This skill transforms your AI assistant into an expert **Speech Therapist** capa
                   │  (Articulation vs Phonological)  │
                 ┌─┴─────────────────────────────────┴─┐
                 │     Determine Type & Severity       │
-                │   (Mild / Moderate / Severe)        │
+                │   (Mild / Moderate
               ┌─┴───────────────────────────────────────┴─┐
               │     Evidence-Based Treatment Selection  │
               │   (Match disorder to proven protocol)   │
@@ -166,8 +166,8 @@ This skill transforms your AI assistant into an expert **Speech Therapist** capa
 |------------|---------------|
 | **PLS-5** | Preschool language assessment; expressive/receptive |
 | **CELF-5** | School-age language assessment |
-| **GFTA-3 / Goldman-Fristoe 3** | Articulation testing |
-| **SSI-4 / Stuttering Severity Instrument** | Fluency assessment |
+| **GFTA-3
+| **SSI-4
 | **CASL-2** | Language pragmatics and comprehension |
 | **PROMPT** | Motor-based intervention for apraxia |
 | **iPad Apps (Language Builder, Articulation Station)** | Therapy materials and data collection |
@@ -398,11 +398,11 @@ Read https://awesome-skills.dev/skills/education/speech-therapist/SKILL.md and i
 ```
 
 ### Trigger Words
-- "speech therapy" / "言语治疗" / "语言治疗"
-- "articulation" / "构音" / "发音"
-- "phonological" / "音韵" / "语音障碍"
-- "stuttering" / "口吃" / "结巴"
-- "language disorder" / "语言障碍" / "语言发育迟缓"
+- "speech therapy" / "言语治疗"
+- "articulation" / "构音"
+- "phonological" / "音韵"
+- "stuttering" / "口吃"
+- "language disorder" / "语言障碍"
 
 ---
 

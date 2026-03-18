@@ -172,12 +172,12 @@ The framework moves through traditional engineering project phases from planning
 | Tool| Purpose|
 |------------|---------------|
 | **AutoCAD Civil 3D** | Civil/site design, grading, pipe networks |
-| **WaterCAD / InfoWater** | Water distribution modeling |
-| **StormCAD / PCSWMM** | Storm sewer design, hydraulic modeling |
+| **WaterCAD
+| **StormCAD
 | **SWMM** | Stormwater quality, LID modeling |
 | **EPANET** | Water quality modeling in distribution systems |
 | **AASHTOWare** | Pavement design (AASHTO 93, ME) |
-| **InRoads / OpenRoads** | Road design, survey, corridor modeling |
+| **InRoads
 | **ArcGIS** | Asset management, mapping, spatial analysis |
 
 ---
@@ -399,7 +399,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: electrical-engineer
-display_name: Electrical Engineer / 电气工程师
+display_name: Electrical Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- ELECTRICAL ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Electrical Engineer / 电气工程师
+
+# Electrical Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Manufacturing-blue)](.)
 
@@ -144,8 +144,8 @@ This skill delivers expert-level guidance across industrial electrical design:
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| ETAP / SKM PowerTools | Short-circuit, coordination, arc flash analysis | System design; specify AIC and protective settings |
-| AutoCAD Electrical / EPLAN | Electrical schematics and panel layout | Drawing release; manufacturing |
+| ETAP
+| AutoCAD Electrical
 | PLC programming (Studio 5000, TIA Portal) | Control logic development | PLC configuration |
 | NEC/NFPA 70 | US electrical code | Compliance verification |
 | IEC 61439 / IEC 60204 | International machine/panel standards | Global projects |
@@ -160,15 +160,15 @@ This skill delivers expert-level guidance across industrial electrical design:
 - **NEC (NFPA 70)** — US National Electrical Code (wiring, protection, hazardous areas)
 - **IEC 60204-1** — Machine safety (electrical equipment)
 - **IEC 61439** — Switchgear assemblies
-- **IEC 62061 / ISO 13849** — Functional safety for machinery
+- **IEC 62061
 
 | Metric | Formula | Target Range |
 |--------|---------|--------------|
 | Wire Ampacity | Based on NEC Table 310.16 | ≤ 80% of rated for continuous loads |
-| Voltage Drop | VD = 2 × I × L × Z / 1000 | ≤ 3% branch, ≤ 5% total |
+| Voltage Drop | VD = 2 × I × L × Z
 | Short-Circuit Rating | AIC ≥ Available SCC | Use infinite bus calculation |
-| Power Factor | PF = P / S | ≥ 0.9 at point of common coupling |
-| THD (Current) | √(Σh² I_h) / I_1 × 100% | ≤ 20% for general systems |
+| Power Factor | PF = P
+| THD (Current) | √(Σh² I_h)
 | Coordination Selectivity | Breaker 2 clears < 75% of upstream trip time | Primary/secondary coordination < 1 |
 | Safety Circuit Reliability | PFHd = MTTF/(MTTF+MDT) | SIL 2: < 10⁻⁶ /hr, SIL 3: < 10⁻⁷ /hr |
 
@@ -313,7 +313,7 @@ Using NFPA 70E Table 130.5(C):
 **Component Specifications:**
 | Component | Specification | SIL Rating |
 |-----------|--------------|------------|
-| E-Stop | 4-wire monitored, 24VDC | PLe / SIL 3 |
+| E-Stop | 4-wire monitored, 24VDC | PLe
 | Safety Relay | PNOZ X2.8 (PILZ) | SIL 2, PL e |
 | Contactors | 100A, 480V, mechanically linked | 2 × NO + 2 × NC |
 | Feedback Loop | PLC monitors K1+K2 auxiliary | — |
@@ -509,14 +509,14 @@ cp electrical-engineer.md ~/.skills/
 
 | Trigger Words | 中文触发词 |
 |---------------|-----------|
-| "electrical design" / "power distribution" | "电气设计" / "配电系统" |
-| "motor control" / "VFD" / "starter" | "电机控制" / "变频器" / "软启动器" |
-| "NEC" / "IEC" / "electrical code" | "电气规范" / "NEC" / "IEC" |
-| "short circuit" / "protection coordination" | "短路保护" / "选择性保护" |
-| "PLC" / "SCADA" / "control system" | "PLC" / "SCADA" / "控制系统" |
-| "E-Stop" / "safety circuit" | "急停电路" / "安全回路" |
-| "arc flash" / "PPE" | "电弧闪光" / "个人防护" |
-| "ground fault" / "grounding" | "接地故障" / "接地系统" |
+| "electrical design" / "power distribution" | "电气设计"
+| "motor control" / "VFD" / "starter" | "电机控制" / "变频器"
+| "NEC" / "IEC" / "electrical code" | "电气规范" / "NEC"
+| "short circuit" / "protection coordination" | "短路保护"
+| "PLC" / "SCADA" / "control system" | "PLC" / "SCADA"
+| "E-Stop" / "safety circuit" | "急停电路"
+| "arc flash" / "PPE" | "电弧闪光"
+| "ground fault" / "grounding" | "接地故障"
 
 ---
 

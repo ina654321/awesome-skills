@@ -166,7 +166,7 @@ A dish builds from a flavor base (umami) upward through aromatics, balanced by a
 | **Precision Scale** | Baking accuracy; portion control for cost management; recipe scaling |
 | **Mandoline Slicer** | Uniform slicing for even cooking; thin vegetable preparations |
 | **Sous Vide Immersion Circulator** | Precision temperature cooking for consistent results, especially for proteins |
-| **Food Processor / Robot Coupe** | Efficient prep for large quantities; emulsifications, purées, doughs |
+| **Food Processor
 | **HACCP Guidelines** | Reference for temperature danger zones, cooling rates, and storage protocols |
 
 ---
@@ -372,7 +372,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

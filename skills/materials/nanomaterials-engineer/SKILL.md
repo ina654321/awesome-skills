@@ -1,6 +1,6 @@
 ---
 name: nanomaterials-engineer
-display_name: Nanomaterials Engineer / 纳米材料工程师
+display_name: Nanomaterials Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   "量子点", "石墨烯". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- NANOMATERIALS ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Nanomaterials Engineer / 纳米材料工程师
+
+# Nanomaterials Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
@@ -122,7 +122,7 @@ This skill delivers expert-level guidance across the full nanomaterials engineer
 ┌─────────────────────────────────────────────────────────────────────┐
 │              NANOMATERIALS ENGINEERING HIERARCHY                     │
 │                                                                     │
-│  ATOMIC STRUCTURE / COMPOSITION                                     │
+│  ATOMIC STRUCTURE
 │  Crystal phase, stoichiometry, defect density                       │
 │       │                                                             │
 │       ▼                                                             │
@@ -136,11 +136,11 @@ This skill delivers expert-level guidance across the full nanomaterials engineer
 │  Surface-to-volume ratio S/V = 6/d (sphere, d in nm)               │
 │       │                                                             │
 │       ▼                                                             │
-│  ENSEMBLE / BULK PROPERTY                                           │
+│  ENSEMBLE
 │  QY, conductivity, modulus, BET, catalytic TOF                      │
 │       │                                                             │
 │       ▼                                                             │
-│  DEVICE / SYSTEM INTEGRATION                                        │
+│  DEVICE
 │  Solar cell, LED, sensor, composite, membrane, catalyst             │
 └─────────────────────────────────────────────────────────────────────┘
 
@@ -177,15 +177,15 @@ CHARACTERIZATION PYRAMID:
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| **Silvaco ATLAS / Synopsys Sentaurus** | TCAD device simulation including nanostructure quantum effects | Quantum dot electronic structure; CNT field-effect transistor modeling |
+| **Silvaco ATLAS
 | **COMSOL Multiphysics** | Nanoscale heat transfer, diffusion, electromagnetic simulation | ALD reactor uniformity; nanoparticle heating in hyperthermia; graphene thermal |
-| **Gaussian / ORCA (DFT)** | Electronic structure calculation, surface binding energy | Ligand binding energy on QD surface; graphene functionalization energetics |
-| **ImageJ / Fiji** | TEM image analysis, particle size measurement | Size histogram from TEM micrographs; FFT lattice spacing |
-| **Rigaku PDXL / HighScore+** | XRD pattern analysis, phase identification, Scherrer analysis | Crystallite size; phase purity; strain analysis |
-| **CasaXPS / Thermo Avantage** | XPS peak fitting, quantification, binding energy assignment | Surface elemental composition; oxidation state; ligand coverage |
-| **OriginPro / Python (SciPy, lmfit)** | Data fitting, spectral analysis, Tauc plot, Arrhenius | Optical bandgap extraction; BET isotherm fitting; reaction kinetics |
+| **Gaussian
+| **ImageJ
+| **Rigaku PDXL
+| **CasaXPS
+| **OriginPro
 | **VESTA** | Crystal structure visualization from CIF files | QD crystal structure; ALD film interface modeling |
-| **FlexPDE / ANSYS Fluent** | Fluid dynamics and mass transfer in flow reactors | Continuous flow synthesis design; ALD reactor gas flow uniformity |
+| **FlexPDE
 | **Zotero + SciFinder** | Literature management and patent search | Synthesis precedent review; IP clearance for commercial synthesis |
 
 ---
@@ -199,10 +199,10 @@ CHARACTERIZATION PYRAMID:
 - **OSHA** — Engineered nanomaterial exposure guidelines: nano-TiO2 <0.3 mg/m³ (8h TWA recommended), MWCNT <1 µg/m³
 - **ASTM E2490** — Standard guide for measurement of particle size distribution of nanomaterials in suspension by DLS
 
-| Metric | Formula / Method | Target / Acceptance Range |
+| Metric | Formula / Method | Target
 |--------|-----------------|--------------------------|
 | Nanoparticle size (TEM) | Manual measurement of >300 particles; ImageJ histogram | Mean ± 2 nm; σ/d < 10% (monodisperse) |
-| Crystallite size (XRD) | Scherrer: D = Kλ / (β·cosθ); K=0.94 | Consistent with TEM ± 20% |
+| Crystallite size (XRD) | Scherrer: D = Kλ
 | BET surface area | N₂ adsorption, multipoint BET fit; SA = N_A × σ_N2 × n_m | Material-dependent; graphene ~2600 m²/g theoretical |
 | Quantum yield (QDs) | Relative method: QY = QY_ref × (I_s/I_ref) × (A_ref/A_s) × (n_s/n_ref)² | >90% for device-grade QDs; >60% for bio-imaging |
 | FWHM (PL emission) | Gaussian/Lorentzian fit to PL spectrum | < 25 nm for monodisperse CdSe QDs |
@@ -211,7 +211,7 @@ CHARACTERIZATION PYRAMID:
 | Zeta potential | Electrophoretic mobility; Smoluchowski model | < −30 mV or > +30 mV for stable dispersion |
 | ALD growth per cycle (GPC) | Ellipsometry after each ALD supercycle: GPC = Δt/N_cycles | Al2O3: ~1.0 Å/cycle; ZnO: ~1.8 Å/cycle at 150°C |
 | Graphene sheet resistance | 4-probe van der Pauw method on transferred film | < 500 Ω/sq for CVD graphene on SiO2 |
-| CNT aspect ratio | TEM length measurement / diameter | SWCNT: >1000; MWCNT: >100 |
+| CNT aspect ratio | TEM length measurement
 | Electrical conductivity (graphene) | σ = 1/(R_s × t); t = 0.34 nm | > 10⁶ S/m for monolayer CVD graphene |
 
 ---
@@ -293,7 +293,7 @@ def inp_diameter_from_wavelength(lambda_nm):
     """
     # Fit to literature data points for InP
     # lambda_1s = 490 + 55*(d - 2.0) for d in nm, rough linear fit 2-4 nm
-    d = 2.0 + (lambda_nm - 490) / 55.0
+    d = 2.0 + (lambda_nm - 490)
     return d
 
 # For 530 nm emission, first exciton absorption is ~510-515 nm
@@ -350,13 +350,13 @@ def defect_spacing_from_DG(DG_ratio, lambda_laser_nm=532):
     Valid for L_D > 4 nm (low defect density regime)
     """
     lambda_m = lambda_laser_nm * 1e-9
-    L_D_nm = (1.8e-9 / lambda_m**4) * (1.0 / DG_ratio)
+    L_D_nm = (1.8e-9 / lambda_m**4) * (1.0
     return L_D_nm
 
 def defect_density(L_D_nm):
     """Defect density n_D (cm^-2) from average defect spacing L_D (nm)"""
     L_D_cm = L_D_nm * 1e-7
-    return 1.0 / (np.pi * L_D_cm**2)
+    return 1.0
 
 DG = 0.4
 L_D = defect_spacing_from_DG(DG)
@@ -402,7 +402,7 @@ def ald_cycles_for_thickness(target_nm, GPC_angstrom=1.1):
     GPC (growth per cycle) = 1.0-1.2 Å/cycle for TMA/H2O at 80-200°C
     """
     target_angstrom = target_nm * 10
-    n_cycles = target_angstrom / GPC_angstrom
+    n_cycles = target_angstrom
     return int(np.ceil(n_cycles))
 
 target_thickness_nm = 5.0
@@ -411,7 +411,7 @@ n_cycles = ald_cycles_for_thickness(target_thickness_nm, GPC)
 print(f"Target: {target_thickness_nm} nm Al2O3")
 print(f"GPC at 80°C: {GPC} Å/cycle")
 print(f"Required cycles: {n_cycles}")
-print(f"Expected thickness: {n_cycles * GPC / 10:.2f} nm")
+print(f"Expected thickness: {n_cycles * GPC
 
 # Cycle timing at 80°C (conservative for perovskite stability)
 t_TMA_pulse = 0.1    # s (TMA dose — saturate surface)
@@ -419,7 +419,7 @@ t_TMA_purge = 30.0   # s (extended purge for perovskite: remove TMA excess)
 t_H2O_pulse = 0.1    # s (H2O dose)
 t_H2O_purge = 30.0   # s (extended purge to remove H2O — critical for perovskite)
 cycle_time = t_TMA_pulse + t_TMA_purge + t_H2O_pulse + t_H2O_purge
-total_time = n_cycles * cycle_time / 60
+total_time = n_cycles * cycle_time
 print(f"\nCycle time: {cycle_time:.1f} s")
 print(f"Total deposition time: {total_time:.1f} min")
 ```
@@ -523,7 +523,7 @@ Assume 50 cycles × 1.0 Å/cycle = 5.0 nm Al2O3 on CNT or graphene surface
 nucleation_delay = 18  # cycles (measured on graphene)
 GPC_after = 1.05  # Å/cycle after nucleation
 target_nm = 5.0
-total_cycles = int(np.ceil(target_nm * 10 / GPC_after)) + nucleation_delay
+total_cycles = int(np.ceil(target_nm * 10
 print(f"Total cycles needed: {total_cycles} (including {nucleation_delay} cycle delay)")
 ```
 
@@ -617,14 +617,14 @@ cp nanomaterials-engineer.md ~/.skills/
 
 | Trigger Words | 中文触发词 |
 |---------------|-----------|
-| "quantum dots" / "QD synthesis" | "量子点" / "量子点合成" |
-| "graphene CVD" / "graphene growth" | "石墨烯CVD生长" / "化学气相沉积石墨烯" |
-| "carbon nanotube" / "CNT" / "SWCNT" | "碳纳米管" / "单壁碳纳米管" |
-| "ALD" / "atomic layer deposition" | "原子层沉积" |
-| "nanomaterials" / "nanoparticle synthesis" | "纳米材料" / "纳米颗粒合成" |
-| "surface functionalization" / "ligand exchange" | "表面功能化" / "配体交换" |
-| "TEM characterization" / "XPS analysis" | "透射电镜表征" / "X射线光电子能谱" |
-| "BET surface area" / "quantum yield" | "比表面积" / "量子产率" |
+| "quantum dots" / "QD synthesis" | "量子点"
+| "graphene CVD" / "graphene growth" | "石墨烯CVD生长"
+| "carbon nanotube" / "CNT" / "SWCNT" | "碳纳米管"
+| "ALD"
+| "nanomaterials" / "nanoparticle synthesis" | "纳米材料"
+| "surface functionalization" / "ligand exchange" | "表面功能化"
+| "TEM characterization" / "XPS analysis" | "透射电镜表征"
+| "BET surface area" / "quantum yield" | "比表面积"
 
 ---
 

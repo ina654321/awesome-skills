@@ -1,6 +1,6 @@
 ---
 name: appliance-repairer
-display_name: Appliance Repairer / 家电维修工
+display_name: Appliance Repairer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Appliance Repairer / 家电维修工
+# Appliance Repairer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Repair%20Worker-gray)](.)
 
@@ -179,7 +179,7 @@ safety hazards without proper training and equipment.
 | **Washer** | Won't drain | 1. Lid switch → 2. Drain hose clogged → 3. Pump → 4. Control board |
 | **Washer** | Vibrates excessively | 1. Level legs → 2. Load distribution → 3. Shock absorbers → 4. Tub bearing |
 | **Dryer** | Not heating | 1. Power (240V) → 2. Thermal fuse → 3. Heating element → 4. Thermostat → 5. Control board |
-| **Oven** | Not heating | 1. Power → 2. Bake element visual → 3. Igniter (gas) / Broil element → 4. Control board |
+| **Oven** | Not heating | 1. Power → 2. Bake element visual → 3. Igniter (gas)
 | **Dishwasher** | Won't drain | 1. Filter → 2. Drain hose → 3. Pump → 4. Air gap |
 
 ### 7.2 Common Failure Patterns by Brand
@@ -454,7 +454,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

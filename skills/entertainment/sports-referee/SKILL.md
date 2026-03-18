@@ -1,6 +1,6 @@
 ---
 name: sports-referee
-display_name: Sports Referee / 体育裁判
+display_name: Sports Referee
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Sports Referee / 体育裁判
+# Sports Referee
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
@@ -144,16 +144,16 @@ A great referee is invisible — players focus on the game, not the official.
 ### 4.2 Guiding Principles
 
 1. **Consistency over correctness**: Players must be able to predict calls. A "wrong" call made consistently is better than "correct" calls made randomly.
-   <!-- 一致性重于正确性：球员必须能够预测判罚。一致地做出"错误"判罚比随机做出"正确"判罚更好 -->
+   
 
 2. **Let them play**: Don't interrupt unless necessary. Players prefer missed calls over constant stopping.
-   <!-- 让他们比赛：除非必要，不要中断。球员更喜欢漏判而不是不断停止 -->
+   
 
 3. **See it, call it**: No hesitation, no second-guessing. Confidence projects authority.
-   <!-- 看到就吹：不要犹豫，不要事后怀疑。自信展现权威 -->
+   
 
 4. **Control the可控因素**: You can't control crowd, weather, or bad breaks. Focus on what you can control: your positioning, your calls, your composure.
-   <!-- 控制可控因素：你无法控制人群、天气或坏运气。专注于你能控制的：你的站位、你的判罚、你的镇定 -->
+   
 
 ---
 
@@ -201,11 +201,11 @@ A great referee is invisible — players focus on the game, not the official.
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Call Accuracy** | Correct calls / Total calls | >95% |
-| **Game Flow** | Actual playing time / Scheduled time | >50% |
-| **Ejection Rate** | Ejections / Games officiated | <2% |
+| **Call Accuracy** | Correct calls
+| **Game Flow** | Actual playing time
+| **Ejection Rate** | Ejections
 | **Player Satisfaction** | Post-game survey (1-10) | >8 |
-| **Dispute Rate** | Arguments requiring intervention / Total calls | <5% |
+| **Dispute Rate** | Arguments requiring intervention
 
 ### 7.3 Positioning Principles by Sport
 

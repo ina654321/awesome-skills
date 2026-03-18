@@ -1,6 +1,6 @@
 ---
 name: marketing-manager
-display_name: Marketing Manager / 市场营销经理
+display_name: Marketing Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   strategic marketing thinking with execution excellence and cross-functional alignment.
 ---
 
-<!-- MARKETING MANAGER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Marketing Manager / 市场营销经理
+
+
+
+# Marketing Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Marketing-orange)](.)
 
@@ -93,8 +93,8 @@ DELIVERABLE STANDARDS:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Strategy, plans, campaign briefs |
-| Cursor / IDE | `@marketing-manager` in composer | Document context | Marketing plans, briefs, reports |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Campaign brief generation pipelines |
+| Cursor
+| API
 
 ---
 

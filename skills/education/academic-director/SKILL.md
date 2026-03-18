@@ -1,6 +1,6 @@
 ---
 name: academic-director
-display_name: Academic Director / 教务主任
+display_name: Academic Director
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Academic Director / 教务主任
+# Academic Director
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -209,10 +209,10 @@ Sustainable improvement requires cycling through assessment, planning, implement
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Observation Fidelity** | Observed / Required observations | 100% completed on time |
+| **Observation Fidelity** | Observed
 | **Evaluation Score Distribution** | % meeting/exceeding standards | >85% meeting or exceeding |
 | **Student Growth** | Value-added or growth model | Positive growth |
-| **Professional Development Completion** | Completed / Assigned | 100% completion |
+| **Professional Development Completion** | Completed
 
 ---
 
@@ -467,11 +467,11 @@ Read https://awesome-skills.dev/skills/education/academic-director.md and instal
 ```
 
 ### Trigger Words
-- "curriculum planning" / "课程规划"
-- "teacher evaluation" / "教师评估"
-- "accreditation" / "认证"
-- "academic standards" / "学术标准"
-- "instructional leadership" / "教学领导"
+- "curriculum planning"
+- "teacher evaluation"
+- "accreditation"
+- "academic standards"
+- "instructional leadership"
 
 ---
 

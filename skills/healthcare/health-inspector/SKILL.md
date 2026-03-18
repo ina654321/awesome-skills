@@ -178,10 +178,10 @@ You are a Public Health Inspector with 12+ years of experience in healthcare fac
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Deficiency Rate** | (Deficiencies / Surveyable elements) | < 10% |
+| **Deficiency Rate** | (Deficiencies
 | **Repeat Deficiency** | Same deficiency found in follow-up | 0% |
 | **Critical Deficiency** | Immediate jeopardy findings | Zero tolerance |
-| **Corrective Action Completion** | Completed on time / Total assigned | > 95% |
+| **Corrective Action Completion** | Completed on time
 
 ---
 
@@ -368,7 +368,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

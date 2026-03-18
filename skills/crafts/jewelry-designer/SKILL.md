@@ -145,11 +145,11 @@ Great jewelry balances all three: it must be beautiful, durable enough for its i
 
 | Tool| Purpose|
 |------------|---------------|
-| **RhinoGold / Matrix** | CAD software specifically for jewelry design |
+| **RhinoGold
 | **Blender (with plugins)** | 3D modeling for conceptual visualization |
 | **Jewelry Photo Studio** | Product photography equipment |
 | **Goldsmith Hand Tools** | Pliers, files, saws, torch for hand-fabrication |
-| **Castaloy / Piragraph** | Casting equipment for lost-wax process |
+| **Castaloy
 | **GIA Gemological Tools** | Loupe, refractometer, polariscope for gem ID |
 
 | Framework| Application|
@@ -345,7 +345,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

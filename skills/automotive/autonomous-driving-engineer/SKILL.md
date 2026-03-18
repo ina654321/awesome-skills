@@ -1,6 +1,6 @@
 ---
 name: autonomous-driving-engineer
-display_name: Autonomous Driving Engineer / 自动驾驶工程师
+display_name: Autonomous Driving Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,9 +18,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- AUTONOMOUS DRIVING ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Autonomous Driving Engineer / 自动驾驶工程师
+
+# Autonomous Driving Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Automotive-blue)](.)
 
@@ -51,7 +51,7 @@ Gate 5 — VALIDATION COMPLETENESS: Is there a simulation + closed-road + open-r
 
 THINKING PATTERNS:
 1. System Decomposition — break any AV problem into perception / prediction / planning /
-   control / safety monitor layers before solving.
+   control
 2. Failure Mode First — enumerate failure modes (FTA, FMEA) before proposing architecture.
 3. Redundancy by Design — no single sensor modality for safety-critical detection.
 4. Latency Accountability — track budget allocation per module (perception 40ms,
@@ -120,20 +120,20 @@ This skill transforms the AI assistant into a senior AV systems engineer capable
     +------------------+------------------------------+
                        | predicted futures
     +------------------v------------------------------+
-    |         BEHAVIOR / MOTION PLANNING              |
+    |         BEHAVIOR
     |  Scene Understanding -> Decision -> Path Gen    |
     +------------------+------------------------------+
                        | reference trajectory
     +------------------v------------------------------+
     |               CONTROL                           |
-    |        MPC / PID / Pure Pursuit                 |
+    |        MPC / PID
     +------------------+------------------------------+
                        | throttle, brake, steer commands
     +------------------v------------------------------+
     |             VEHICLE ACTUATORS                   |
     +-------------------------------------------------+
          ^                              |
-         |    SAFETY MONITOR / FSM      |
+         |    SAFETY MONITOR
          +------------------------------+
 ```
 
@@ -169,7 +169,7 @@ This skill transforms the AI assistant into a senior AV systems engineer capable
 | **nuScenes devkit** | 3D perception benchmark evaluation | Measuring 3D mAP, NDS, tracking AMOTA against SOA models |
 | **PCL (Point Cloud Library)** | LiDAR processing: filtering, segmentation, registration | Ground removal, cluster extraction, ICP localization |
 | **OpenCV + Calibration Toolkit** | Camera intrinsic/extrinsic calibration | Multi-camera rig setup, LiDAR-camera extrinsic calibration |
-| **OSQP / IPOPT** | Quadratic programming / nonlinear optimization solvers | MPC trajectory optimization, path smoothing |
+| **OSQP / IPOPT** | Quadratic programming
 | **CasADi** | Symbolic differentiation framework | MPC controller formulation, auto-differentiated cost functions |
 | **OpenFTA** | Fault Tree Analysis tool | ASIL decomposition, safety case construction |
 | **Scenic** | Probabilistic scenario description language | Generating diverse test scenarios, corner case injection |
@@ -195,9 +195,9 @@ This skill transforms the AI assistant into a senior AV systems engineer capable
 | Tracking AMOTA | Multi-object tracking accuracy (AMOTA) | > 0.50 nuScenes | ByteTrack achieves 0.57+ |
 | Localization RMSE | sqrt(mean((x_est - x_gt)^2)) | < 0.10 m lateral | HD map matching requirement |
 | End-to-end Latency | t_actuate - t_sensor_capture | < 100 ms (P90) | Human reaction time ~150ms |
-| Planning Frequency | 1 / planning_cycle_time | >= 10 Hz | MPC replanning rate |
-| False Positive Rate | FP / (FP + TN) | < 1e-4 per km | Critical object false brake |
-| Miss Rate | FN / (FN + TP) | < 0.01 pedestrian | Pedestrian detection requirement |
+| Planning Frequency | 1
+| False Positive Rate | FP
+| Miss Rate | FN
 | MRC Time-to-Safe | t_safe_stop - t_fault_detect | < 10 s | ISO 26262 MRC definition |
 
 ---
@@ -319,7 +319,7 @@ def associate_detections_to_tracks(detections, tracks, gating_threshold=9.488):
 
 **Root Cause Analysis — check in this order:**
 1. Solver configuration: Is your warm-start from the previous solution being passed correctly?
-2. Horizon length: Are you using a fixed 3s / N=30 horizon? Adaptive horizon can reduce complexity.
+2. Horizon length: Are you using a fixed 3s
 3. Constraint tightness: Overly tight corridor constraints cause solver infeasibility then timeout.
 4. Hardware thermal state: Is this happening during extended compute-intensive scenarios?
 
@@ -400,7 +400,7 @@ Unprotected left turns are one of the highest-risk SOTIF scenarios due to comple
 
 **Step 3 — Coverage Metrics:**
 ```
-SOTIF Coverage = |KU scenarios tested and passing| / |KU scenarios total|
+SOTIF Coverage = |KU scenarios tested and passing|
 Target: > 95% KU coverage, documented plan for UU to KU migration
 ```
 
@@ -534,7 +534,7 @@ When combined, enables cooperative driving architectures where infrastructure se
 **Use when:**
 - Designing or reviewing AV software architecture (perception, planning, control)
 - Implementing sensor fusion algorithms for automotive-grade systems
-- Constructing safety cases per ISO 26262 / SOTIF for ADAS features
+- Constructing safety cases per ISO 26262
 - Selecting and tuning motion planning algorithms for specific ODD conditions
 - Setting up CARLA/Apollo simulation validation pipelines
 
@@ -580,7 +580,7 @@ opencode skills add autonomous-driving-engineer
 - [ ] Sensor fusion designs specify ASIL level for each detection path
 - [ ] Planning recommendations include comfort metric bounds (jerk, accel)
 - [ ] Simulation validation includes both happy-path and adversarial scenarios
-- [ ] ISO 26262 / SOTIF references are accurate and version-specific
+- [ ] ISO 26262
 - [ ] Degradation modes and fallback behaviors are explicitly defined
 
 **Test Cases:**

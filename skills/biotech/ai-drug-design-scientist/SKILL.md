@@ -1,6 +1,6 @@
 ---
 name: ai-drug-design-scientist
-display_name: AI Drug Design Scientist / AI药物设计科学家
+display_name: AI Drug Design Scientist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,9 +18,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- AI DRUG DESIGN SCIENTIST v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# AI Drug Design Scientist / AI药物设计科学家
+
+# AI Drug Design Scientist
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Biotech-blue)](.)
 
@@ -130,7 +130,7 @@ AI Drug Design Mental Model
       +--------------------+---------------------+
                            |
                     GENERATIVE MODEL
-               (DiffSBDD / REINVENT / TargetDiff)
+               (DiffSBDD / REINVENT
                            |
               +------------+------------+
               |                         |
@@ -139,7 +139,7 @@ AI Drug Design Mental Model
               |                         |
               +------------+------------+
                            |
-                    MPO SCORE / PARETO FRONT
+                    MPO SCORE
                            |
                     ACTIVE LEARNING
                   (Bayesian Optimization)
@@ -178,13 +178,13 @@ AI Drug Design Mental Model
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| **AlphaFold2 / AlphaFold3** | Protein structure prediction from sequence | When experimental structure is unavailable; validate with pLDDT and PAE |
+| **AlphaFold2
 | **RoseTTAFold** | Alternative structure prediction with better multi-chain modeling | Protein-protein complexes, antibody modeling |
-| **AutoDock Vina / Gnina** | Molecular docking (Gnina adds deep learning scoring) | Virtual screening, pose prediction; Gnina for improved scoring accuracy |
+| **AutoDock Vina
 | **Glide (Schrodinger)** | High-accuracy docking with physics-based scoring | Lead optimization, pose refinement in commercial pipeline |
 | **REINVENT 4** | Reinforcement learning-based de novo molecular generation | Scaffold decoration, bioisostere generation, MPO-directed optimization |
-| **DiffSBDD / TargetDiff** | Pocket-conditioned diffusion models for de novo design | Fragment growing, hit generation from structure |
-| **SchNet / AttentiveFP** | Graph neural network QSAR models | Potency and selectivity prediction from structural features |
+| **DiffSBDD
+| **SchNet
 | **ADMETlab 2.0** | Comprehensive in silico ADMET prediction platform | Early ADMET profiling, structural alert detection |
 | **SwissADME** | Free ADMET and drug-likeness prediction | Quick Lipinski/Veber check, BBB penetration, oral bioavailability |
 | **RDKit** | Cheminformatics toolkit (Python) | Fingerprint generation, similarity search, structure manipulation, SA score |
@@ -200,24 +200,24 @@ AI Drug Design Mental Model
 
 1. **ICH M7**: Assessment and control of DNA reactive (mutagenic) impurities in pharmaceuticals — defines acceptable intakes and structural alert classes; mandatory for IND filings.
 
-2. **ICH S7B / E14**: Nonclinical and clinical evaluation of QT interval prolongation (hERG) — compounds with hERG IC50 < 1 µM face high regulatory scrutiny.
+2. **ICH S7B
 
 3. **Lipinski's Rule of Five (Ro5) + Veber Rules**: Oral bioavailability guidelines; Veber adds rotatable bonds (≤ 10) and TPSA (≤ 140 A2) for intestinal permeability.
 
 ### Key Metrics Table
 
-| Metric | Formula / Method | Target Range | Failure Threshold |
+| Metric | Formula
 |--------|-----------------|--------------|-------------------|
-| Binding Affinity (IC50) | Competitive binding / functional assay | < 100 nM (potent hit) | > 10 µM (discard) |
+| Binding Affinity (IC50) | Competitive binding
 | Ligand Efficiency (LE) | LE = -deltaG / N_heavy_atoms | > 0.30 kcal/mol/atom | < 0.25 |
 | Lipophilic Efficiency (LipE) | LipE = pIC50 - LogP | > 5 (excellent) | < 3 (flag) |
 | LogP (cLogP) | Calculated partition coefficient | 0 to 3 (oral drug) | > 5 (high CYP risk) |
 | TPSA | Sum of polar surface areas (A2) | < 90 A2 (good permeability) | > 140 A2 (poor oral) |
 | HLM CLint | Human liver microsome intrinsic clearance | < 20 µL/min/mg | > 100 µL/min/mg (high) |
-| hERG IC50 | Patch-clamp / fluorescence polarization | > 30 µM (safe margin) | < 1 µM (critical risk) |
+| hERG IC50 | Patch-clamp
 | Solubility (kinetic) | Nephelometry / UV at pH 7.4 | > 50 µg/mL | < 10 µg/mL |
 | SA Score | RDKit synthetic accessibility (1=easy, 10=hard) | < 3.5 | > 5 (deprioritize) |
-| Selectivity Ratio | IC50(off-target) / IC50(on-target) | > 100-fold | < 10-fold (flag) |
+| Selectivity Ratio | IC50(off-target)
 | QSAR R2 (test) | Pearson R2 on external test set | > 0.70 | < 0.50 (retrain) |
 | Docking Score (Vina) | Binding free energy estimate (kcal/mol) | < -8.0 kcal/mol | > -5.0 (weak) |
 
@@ -297,7 +297,7 @@ struc = strucio.load_structure("target_alphafold.pdb")
 # pLDDT is stored in B-factor column in AlphaFold PDBs
 b_factors = struc.b_factor
 high_confidence_mask = b_factors > 70
-print(f"High-confidence residues: {high_confidence_mask.sum()} / {len(b_factors)}")
+print(f"High-confidence residues: {high_confidence_mask.sum()}
 
 # Write high-confidence region for docking
 high_conf_struc = struc[high_confidence_mask]

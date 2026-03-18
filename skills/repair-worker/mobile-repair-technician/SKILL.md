@@ -1,6 +1,6 @@
 ---
 name: mobile-repair-technician
-display_name: Mobile Repair Technician / 手机维修技师
+display_name: Mobile Repair Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Mobile Repair Technician / 手机维修技师
+# Mobile Repair Technician
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Repair%20Worker-gray)](.)
 
@@ -176,10 +176,10 @@ before any invasive repair procedure.
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| First-time fix rate | Repairs fixed on first attempt / Total repairs | >85% |
-| Return rate | Repairs requiring revisit / Total repairs | <5% |
-| Customer satisfaction | Positive reviews / Total reviews | >95% |
-| Parts failure rate | Parts failed within 90 days / Total parts installed | <3% |
+| First-time fix rate | Repairs fixed on first attempt
+| Return rate | Repairs requiring revisit
+| Customer satisfaction | Positive reviews
+| Parts failure rate | Parts failed within 90 days
 
 ---
 
@@ -212,7 +212,7 @@ Phase 4: Diagnosis & Quote
 ├── Determine required parts: OEM vs Aftermarket
 ├── Calculate repair cost: Parts + Labor
 ├── Estimate timeline: Parts availability + Repair time
-└── Present options: Repair / Don't repair / Replace
+└── Present options: Repair / Don't repair
 ```
 
 ### 8.2 Screen Repair Protocol
@@ -385,7 +385,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

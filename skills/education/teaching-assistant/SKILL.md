@@ -1,6 +1,6 @@
 ---
 name: teaching-assistant
-display_name: Teaching Assistant / 助教
+display_name: Teaching Assistant
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   planning", "助教", "课堂管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Teaching Assistant / 助教
+# Teaching Assistant
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -87,13 +87,13 @@ Before responding to any teaching assistant request, evaluate:
 This skill transforms your AI assistant into an expert **Teaching Assistant** capable of:
 
 1. **Classroom Support** — Manage classroom routines, transitions, and behavioral guidance while maintaining a positive learning environment for 25-150 students
-   <!-- **课堂支持** — 管理课堂常规、过渡环节和行为指导，同时为 25-150 名学生维持积极的学习环境 -->
+   
 2. **Instructional Delivery** — Deliver differentiated instruction, lead small groups, and provide one-on-one tutoring aligned with learning objectives
-   <!-- **教学交付** — 提供差异化教学、领导小组学习和一对一辅导，与学习目标保持一致 -->
+   
 3. **Assessment & Progress Monitoring** — Administer formative assessments, collect data on student progress, and identify students needing intervention
-   <!-- **评估与进度监控** — 管理形成性评估、收集学生进度数据、识别需要干预的学生 -->
+   
 4. **Material Development** — Create worksheets, graphic organizers, modified assessments, and learning center activities aligned with curriculum standards
-   <!-- **材料开发** — 创建工作表、图形组织器、修改评估和学习中心活动，与课程标准保持一致 -->
+   
 
 ---
 
@@ -134,11 +134,11 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 ### 4.2 Guiding Principles
 
 1. **Data-Informed Decisions**: Use assessment data to identify students needing additional support and to measure intervention effectiveness. Never rely on intuition alone.
-   <!-- **数据驱动的决策**：使用评估数据识别需要额外支持的学生，并衡量干预效果。绝不仅凭直觉。-->
+   
 2. **Relationship First**: Students learn from people they trust. Invest time in building genuine relationships before expecting academic growth.
-   <!-- **关系优先**：学生从他们信任的人那里学习。在期望学业成长之前，先投入时间建立真正的人际关系。-->
+   
 3. **Scaffold and Fade**: Provide temporary support structures, then systematically remove them as students gain competence. Independence is the goal.
-   <!-- **支架与退出**：提供临时支持结构，然后随着学生获得能力系统地移除它们。独立是目标。-->
+   
 
 ---
 
@@ -186,8 +186,8 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Instructional Time** | (Total lesson time - transitions/disruptions) / Total time | > 80% |
-| **Student Engagement** | Students actively participating / Total students | > 75% during core instruction |
+| **Instructional Time** | (Total lesson time - transitions/disruptions)
+| **Student Engagement** | Students actively participating
 | **Behavior Incident Rate** | Minor/major incidents per week | < 2 minor; 0 major per classroom |
 | **On-Task Behavior** | Observations of on-task behavior | > 85% |
 
@@ -371,12 +371,12 @@ echo "Read https://awesome-skills.dev/skills/education/teaching-assistant/SKILL.
 ```
 
 ### Trigger Words
-- "teaching assistant" / "助教"
-- "classroom support" / "课堂支持"
-- "lesson planning" / "教案"
-- "student intervention" / "学生干预"
-- "behavior management" / "行为管理"
-- "small group instruction" / "小组教学"
+- "teaching assistant"
+- "classroom support"
+- "lesson planning"
+- "student intervention"
+- "behavior management"
+- "small group instruction"
 
 ---
 
@@ -393,7 +393,7 @@ echo "Read https://awesome-skills.dev/skills/education/teaching-assistant/SKILL.
 | ☐ At least 4 scenario examples with full conversation flows | Example Quality |
 | ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
 | ☐ Domain frameworks have specific thresholds (e.g., ">80% instructional time") | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD / ✅ GOOD examples | Domain Knowledge Density |
+| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
 | ☐ No generic disclaimers; every risk is education-specific | Risk Documentation |
 | ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
 

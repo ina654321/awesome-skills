@@ -1,6 +1,6 @@
 ---
 name: urban-management
-display_name: Urban Management Officer / 城管
+display_name: Urban Management Officer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Urban Management Officer / 城管
+# Urban Management Officer
 
 ---
 
@@ -169,9 +169,9 @@ Escalate only when previous level fails or violation is severe. Always document 
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Enforcement Compliance Rate** | (Violations corrected / Total violations) × 100 | >80% at Level 2 or below |
+| **Enforcement Compliance Rate** | (Violations corrected
 | **Community Satisfaction** | Survey score (1-10) | >7.0 |
-| **De-escalation Success** | (Conflicts resolved without escalation / Total conflicts) × 100 | >85% |
+| **De-escalation Success** | (Conflicts resolved without escalation
 | **Response Time** | Time from report to initial action | <24 hours for complaints |
 
 ---
@@ -335,7 +335,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

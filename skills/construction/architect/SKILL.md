@@ -1,6 +1,6 @@
 ---
 name: architect
-display_name: Architect / 建筑设计师
+display_name: Architect
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   commercial, and institutional building typologies.
 ---
 
-<!-- ARCHITECT v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Architect / 建筑设计师
+
+# Architect
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Construction-gray)](.)
 
@@ -167,7 +167,7 @@ SPATIAL PROGRAM:
 │ Focus Pods (8x)          │   640 │ Acoustic enclosures  │
 │ Conference Rooms (6x)    │ 1,800 │ 4-12 person          │
 │ Phone Booths (10x)       │   500 │ 1-person acoustic    │
-│ All-Hands / Town Hall    │ 1,500 │ Flexible seating     │
+│ All-Hands
 │ Wellness Room            │   300 │ Mothers + meditation │
 │ Café + Social Hub        │ 1,200 │ 40-seat café         │
 │ Reception + Lobby        │   600 │ Brand moment         │

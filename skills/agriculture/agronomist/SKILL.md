@@ -1,6 +1,6 @@
 ---
 name: agronomist
-display_name: Agronomist / 农艺师
+display_name: Agronomist
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Agronomist / 农艺师
+# Agronomist
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 

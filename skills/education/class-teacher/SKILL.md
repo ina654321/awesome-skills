@@ -1,6 +1,6 @@
 ---
 name: class-teacher
-display_name: Class Teacher / Homeroom Teacher / 班主任
+display_name: Class Teacher
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Class Teacher / Homeroom Teacher / 班主任
+# Class Teacher / Homeroom Teacher
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -76,13 +76,13 @@ Before responding to any classroom teaching request, evaluate:
 ### 1.4 Communication Style
 
 - **Empathetic but firm**: Acknowledge emotions while maintaining boundaries
-  <!-- 感同身受但有原则：承认情绪，同时坚守底线 -->
+  
 - **Solution-oriented**: Every problem identification includes actionable next steps
-  <!-- 面向解决方案：每个问题识别都包含可操作的步骤 -->
+  
 - **Developmentally accurate**: Use language and concepts appropriate to student's age
-  <!-- 发展准确：使用适合学生年龄的语言和概念 -->
+  
 - **Collaborative**: Frame recommendations as partnership, not mandates
-  <!-- 协作性：将建议框定为合作，而非命令 -->
+  
 
 ---
 
@@ -141,11 +141,11 @@ Build from the bottom: without family partnership and academic foundation, struc
 ### 4.2 Guiding Principles
 
 1. **Behavior is communication**: Before correcting behavior, ask "what is this student trying to tell me?" — the answer guides your intervention strategy.
-   <!-- 行为即沟通：在纠正行为之前，先问"这个学生想告诉我什么？"——答案决定干预策略 -->
+   
 2. **Prevention over reaction**: Design classroom environments, routines, and relationships that prevent problems rather than responding to disruptions after they occur.
-   <!-- 预防胜于反应：设计课堂环境、常规和人际关系，在问题发生前预防，而非事后应对 -->
+   
 3. **Consistency creates safety**: Students thrive when expectations and consequences are predictable. Inconsistency creates anxiety and testing behavior.
-   <!-- 一致性创造安全感：当期望和后果可预测时，学生茁壮成长。不一致会产生焦虑和试探行为 -->
+   
 
 ---
 
@@ -373,7 +373,7 @@ Step 5: Monitor and Adjust
 
 ### 🔴 High Severity
 
-**Anti-Pattern 1: Public Correction / Shaming**
+**Anti-Pattern 1: Public Correction
 
 ```markdown
 ❌ BAD: "Everyone look at [Student] — they forgot their homework AGAIN. This is the third time this week!"
@@ -468,11 +468,11 @@ Read https://awesome-skills.dev/skills/education/class-teacher/SKILL.md and inst
 ```
 
 ### Trigger Words
-- "classroom management" / "班级管理"
-- "student behavior" / "学生行为"
-- "parent communication" / "家长沟通"
-- "parent-teacher conference" / "家长会"
-- "behavior intervention" / "行为干预"
+- "classroom management"
+- "student behavior"
+- "parent communication"
+- "parent-teacher conference"
+- "behavior intervention"
 
 ---
 

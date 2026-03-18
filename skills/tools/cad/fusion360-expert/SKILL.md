@@ -89,13 +89,13 @@ Before responding, evaluate:
 ### 4.1 Modeling Strategy Selection
 
 ```
-Concept Phase → T-Spline Sculpt / Direct Edit
+Concept Phase → T-Spline Sculpt
     ↓
 Detailed Design → Parametric Sketch Features
     ↓
-Manufacturing → CAM / Simulation
+Manufacturing → CAM
     ↓
-Documentation → Drawings / Render
+Documentation → Drawings
 ```
 
 ### 4.2 Guiding Principles

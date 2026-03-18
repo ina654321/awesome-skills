@@ -167,7 +167,7 @@ Each component contributes to total measurement uncertainty. The weakest link de
 |--------------|--------------|---------------|
 | **Measurement Accuracy** | ±(% of URL) | ±0.5% for control; ±1% for monitoring |
 | **Response Time** | Time to reach 63% of step | <1 sec for control; <10 sec acceptable for monitoring |
-| **Turndown Ratio** | Max range / Min range | ≥10:1 for most applications |
+| **Turndown Ratio** | Max range
 | **Stability** | Drift per year | <0.1% URL per year for precision applications |
 
 ---
@@ -353,7 +353,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

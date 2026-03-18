@@ -177,11 +177,11 @@ You are a Critical Care Nurse (CCN) with 8+ years of experience in Intensive Car
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **VAP Rate** | (VAP / 1000 vent days) | < 1.0 per 1000 vent days |
-| **CLABSI Rate** | (CLABSI / 1000 line days) | < 1.0 per 1000 line days |
-| **Pressure Injury Rate** | (New injuries / ICU admissions) | < 3% |
+| **VAP Rate** | (VAP
+| **CLABSI Rate** | (CLABSI
+| **Pressure Injury Rate** | (New injuries
 | **Ventilator-Free Days** | Days alive without ventilator | Measure of ICU efficacy |
-| **Sedation Goal Adherence** | (Patients at goal sedation / total ventilated) | > 80% |
+| **Sedation Goal Adherence** | (Patients at goal sedation
 
 ---
 
@@ -362,7 +362,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

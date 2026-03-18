@@ -172,7 +172,7 @@ Research impact compounds from foundational elements: methodological rigor enabl
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **h-index** | h papers with ≥h citations | Field-dependent: STEM >30 by tenure; humanities >15 |
-| **Grant Success Rate** | (Funded applications) / (Total applications) | >30% for sustained research program |
+| **Grant Success Rate** | (Funded applications)
 | **Citation Velocity** | Citations per year since publication | Top-quartile journals: >10 citations/year by year 3 |
 | **Grant Dollar Yield** | (Total awarded) / (Years of effort) | >$150K/year for lab sustainability |
 
@@ -364,7 +364,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: qc-specialist
-display_name: QC Specialist / 质量控制专家
+display_name: QC Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,9 +17,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- QC SPECIALIST v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# QC Specialist / 质量控制专家
+
+# QC Specialist
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Manufacturing-blue)](.)
 
@@ -78,7 +78,7 @@ This skill delivers expert-level guidance across quality control operations:
 1. **Statistical Process Control (SPC)** — Design SPC plans with appropriate control charts (X-bar/R, X-bar/S, p-chart, c-chart); define reaction plans for out-of-control conditions.
 2. **Capability Analysis** — Calculate Cpk and Ppk; determine if a process is capable of meeting specifications; set action levels for improvement.
 3. **Measurement Systems Analysis (MSA)** — Conduct Gage R&R studies; validate measurement systems before capability analysis; ensure GR&R < 30%.
-4. **ISO 9001 / IATF 16949 Implementation** — Establish quality management systems; create control plans; prepare for certification audits.
+4. **ISO 9001
 5. **Supplier Quality Management** — Manage PPAP submissions; conduct incoming inspection; implement supplier rating systems.
 6. **Root Cause Analysis** — Lead 8D, 5 Whys, and Fishbone investigations; implement corrective and preventive actions (CAPA).
 7. **Inspection Planning** — Define inspection points, AQL levels, and sampling plans per ANSI/ASQ Z1.4 (or ISO 2859-1).
@@ -147,7 +147,7 @@ This skill delivers expert-level guidance across quality control operations:
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| Minitab / JMP | SPC, capability analysis, Gage R&R | Statistical analysis |
+| Minitab
 | AIAG SPC Manual | Control chart selection and interpretation | SPC implementation |
 | ISO 9001:2015 | QMS requirements | System implementation |
 | IATF 16949 | Automotive QMS | Automotive suppliers |
@@ -170,8 +170,8 @@ This skill delivers expert-level guidance across quality control operations:
 |--------|---------|--------------|
 | Cpk | min[(USL-μ)/3σ, (μ-LSL)/3σ] | ≥ 1.33 (min); ≥ 1.67 (critical) |
 | Ppk | min[(USL-μ)/3s, (μ-LSL)/3s] | ≥ 1.67 (long-term) |
-| Gage R&R | 5.15 × σ_measurement / σ_total | < 10% (excellent); < 30% (acceptable) |
-| DPMO | (Defects / Opportunities) × 1,000,000 | < 500 (4σ); < 50 (6σ) |
+| Gage R&R | 5.15 × σ_measurement
+| DPMO | (Defects
 | Sigma Level | Z = Cpk + 1.5 | ≥ 4σ (3.4 DPMO) |
 | AQL (Inspection) | Per ANSI Z1.4 | 0.65% (normal inspection) |
 | LCL/UCL | μ ± 3σ (X-chart); σ × A2 (R-chart) | Control limits for 3σ |
@@ -322,8 +322,8 @@ After improvements:
 **Additional Reduction Needed:**
 ```
 To reach Cpk = 1.33:
-  σ_required = (USL-LSL) / (6 × Cpk)
-             = 0.030 / (6 × 1.33)
+  σ_required = (USL-LSL)
+             = 0.030
              = 0.0038 mm
 Current: 0.005 mm → Need 24% more reduction
 ```
@@ -648,7 +648,7 @@ Supplier Data Verification:
 - Validating measurement systems (Gage R&R)
 - Managing supplier quality (PPAP, incoming inspection)
 - Conducting root cause analysis (8D, 5 Whys)
-- Implementing ISO 9001 / IATF 16949
+- Implementing ISO 9001
 
 **Do not use when:**
 - Designing products (use Design Engineering skills)
@@ -673,14 +673,14 @@ cp qc-specialist.md ~/.skills/
 
 | Trigger Words | 中文触发词 |
 |---------------|-----------|
-| "quality control" / "QC" | "质量控制" / "QC" |
-| "SPC" / "statistical process control" | "统计过程控制" / "SPC" |
-| "Cpk" / "process capability" | "过程能力" / "Cpk" |
-| "Gage R&R" / "MSA" / "GR&R" | "测量系统分析" / "GR&R" |
-| "ISO 9001" / "IATF 16949" | "质量管理体系" |
-| "8D" / "root cause analysis" | "8D" / "根本原因分析" |
-| "PPAP" / "supplier quality" | "供应商质量" / "PPAP" |
-| "inspection" / "AQL" | "检验" / "抽样检验" |
+| "quality control" / "QC" | "质量控制"
+| "SPC" / "statistical process control" | "统计过程控制"
+| "Cpk" / "process capability" | "过程能力"
+| "Gage R&R" / "MSA" / "GR&R" | "测量系统分析"
+| "ISO 9001"
+| "8D" / "root cause analysis" | "8D"
+| "PPAP" / "supplier quality" | "供应商质量"
+| "inspection" / "AQL" | "检验"
 
 ---
 

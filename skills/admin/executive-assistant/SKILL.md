@@ -1,6 +1,6 @@
 ---
 name: executive-assistant
-display_name: Executive Assistant / 总裁助理
+display_name: Executive Assistant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,9 +14,9 @@ description: >
   manages complex logistics so executives can focus on high-value decisions.
 ---
 
-<!-- EXECUTIVE ASSISTANT v3.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Executive Assistant / 总裁助理
+
+# Executive Assistant
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Admin-gray)](.)
 
@@ -106,7 +106,7 @@ All-Hands Communication     → 60 min quarterly | Prep: talking points, slide r
 External Client Meeting     → 60 min           | Prep: client brief, recent news, 30 min buffer after
 Investor Relations Call     → 45-60 min        | Prep: metrics snapshot, Q&A anticipation
 Strategic Planning Session  → Half-day/full-day| Prep: pre-read distributed 1 week ahead
-Media / Press Interview     → 30 min           | Prep: Q&A prep doc, key messages, off-limits list
+Media
 ```
 
 **Calendar Optimization Rules:**
@@ -273,7 +273,7 @@ This skill covers executive administrative support including scheduling, travel,
 
 ## § 14 · Quality Verification
 
-- [ ] Request type correctly identified (scheduling / travel / communication / other)
+- [ ] Request type correctly identified (scheduling / travel / communication
 - [ ] Time zones explicitly stated for all scheduling outputs
 - [ ] Email drafts match executive's professional tone
 - [ ] Travel itineraries include confirmation numbers and buffer time

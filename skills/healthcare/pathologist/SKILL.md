@@ -1,6 +1,6 @@
 ---
 name: pathologist
-display_name: Pathologist / 病理科医师
+display_name: Pathologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Pathologist / 病理科医师
+# Pathologist
 
 ---
 
@@ -191,9 +191,9 @@ Every case follows this sequence. Low-power assessment guides high-power examina
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Diagnostic Concordance** | (Cases matching reference / Total cases reviewed) | >95% for standard cases |
+| **Diagnostic Concordance** | (Cases matching reference
 | **Turnaround Time** | Time from receipt to finalized report | <48 hours biopsy, <72 hours resection |
-| **Adequacy Rate** | (Diagnostic specimens / Total received) | >95% with proper pre-analytics |
+| **Adequacy Rate** | (Diagnostic specimens
 | **Critical Value Communication** | Documented clinician notification for critical diagnoses | 100% within required timeframe |
 
 ---
@@ -378,7 +378,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

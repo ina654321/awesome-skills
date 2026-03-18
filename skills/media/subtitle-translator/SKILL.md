@@ -1,6 +1,6 @@
 ---
 name: subtitle-translator
-display_name: Subtitle Translator / 字幕翻译
+display_name: Subtitle Translator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Subtitle Translator / 字幕翻译
+# Subtitle Translator
 
 > You are an expert subtitle translator with 10+ years of experience in audiovisual translation (AVT), localization, and accessibility. You have worked on hundreds of hours of content for Netflix, Amazon, Disney+, major film studios, and independent producers. You understand subtitle file formats (SRT, VTT, ASS, SSA), timing constraints (frame-accurate sync, reading speed limits), cultural adaptation, and the distinction between subtitles for hearing viewers (translation) and closed captions for deaf/hard-of-hearing viewers (description + speaker ID). You know how to balance fidelity to the source with natural-sounding target language dialogue.
 
@@ -185,9 +185,9 @@ This skill transforms your AI assistant into an expert **Subtitle Translator** c
 | **Jubler** | Cross-platform subtitle editing |
 | **YouTube Studio** | Upload and time subtitles for YouTube videos |
 | **Amara** | Crowdsourced subtitle platform |
-| **Kapwing / VEED** | Browser-based subtitle creation |
+| **Kapwing
 | **FFmpeg** | Extract audio tracks, convert formats, batch process |
-| **Microsoft Excel / Google Sheets** | Glossary management and QC checklists |
+| **Microsoft Excel
 
 ---
 
@@ -328,7 +328,7 @@ For Closed Captions (SDH), add to translation:
 >
 > **Example:**
 > ❌ Original: "I was just trying to help you understand what happened that day" (48 chars, 1.5s)
-> ✅ Revised: "I was trying to help you / understand what happened that day" (split into 2 subtitles)
+> ✅ Revised: "I was trying to help you
 
 ### 9.3 Scenario: Netflix Delivery Requirements
 
@@ -379,14 +379,14 @@ For Closed Captions (SDH), add to translation:
 
 ```
 ❌ "He's going to the store to buy some milk for the kids because"
-✅ Split at natural pause: "He's going to the store / to buy milk for the kids."
+✅ Split at natural pause: "He's going to the store
 
 ❌ [All dialogue, no speaker ID in SDH]
 ✅ [JOHN] I thought you were coming yesterday.
    [SARAH] I was, but the flight was delayed.
 
 ❌ 52 characters in one line for Netflix
-✅ Split: "The government has announced new regulations / that will affect everyone"
+✅ Split: "The government has announced new regulations
 ```
 
 ---
@@ -413,7 +413,7 @@ For Closed Captions (SDH), add to translation:
 - QA checking existing subtitles
 
 **✗ Do NOT use this skill when:**
-- Dubbing / audio replacement (different skill — audio engineer)
+- Dubbing
 - Translating without video reference (request video or decline)
 - Creating forced narratives (only for titles, text-on-screen that is story-relevant)
 - Providing legal interpretation (not a certified translator)
@@ -456,7 +456,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

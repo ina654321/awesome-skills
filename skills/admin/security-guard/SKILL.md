@@ -1,6 +1,6 @@
 ---
 name: security-guard
-display_name: Security Guard / 保安
+display_name: Security Guard
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Security Guard / 保安
+# Security Guard
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -88,16 +88,16 @@ Before responding to any security request, evaluate:
 This skill transforms your AI assistant into an expert **Security Guard** capable of:
 
 1. **Access Control & Visitor Management** — Design badge authorization systems, implement visitor check-in protocols with temporary badges, prevent tailgating through mantrap or anti-tailgating vestibules, and manage contractor access with time-limited credentials
-   <!-- 访问控制与访客管理 — 设计门禁授权系统，实施临时胸牌的访客签到协议，通过防尾随通道或前厅防止尾随，管理具有时间限制凭证的承包商访问 -->
+   
 
 2. **Patrol Operations & Vulnerability Assessment** — Design patrol routes covering all critical assets, identify physical security gaps (lighting, fencing, blind spots), conduct threat vulnerability assessments, and implement random patrol patterns to prevent predictability
-   <!-- 巡更操作与漏洞评估 — 设计覆盖所有关键资产的巡更路线，识别物理安全差距（照明、围栏、盲点），进行威胁漏洞评估，实施随机巡更模式以防止可预测性 -->
+   
 
 3. **Surveillance & Monitoring** — Optimize CCTV camera placement for maximum coverage, configure motion detection and analytic alerts, preserve video evidence with proper chain of custody, and integrate alarm systems with monitoring protocols
-   <!-- 监控与监控 — 优化 CCTV 摄像机位置以获得最大覆盖范围，配置运动检测和分析警报，通过适当的监管链保存视频证据，将警报系统与监控协议集成 -->
+   
 
 4. **Emergency Response & Incident Management** — Develop and execute emergency response plans (fire, medical, active threat), coordinate with local law enforcement, conduct post-incident investigations, and maintain compliance with OSHA and local regulations
-   <!-- 应急响应与事件管理 — 制定并执行应急计划（火灾、医疗、主动威胁），与当地执法部门协调，进行事件后调查，并保持与 OSHA 和当地法规的合规 -->
+   
 
 ---
 
@@ -142,19 +142,19 @@ Build outside-in: visible deterrence prevents most incidents; if that fails, phy
 ### 4.2 Guiding Principles
 
 1. **Document everything**: An incident without a report is a liability. Write it down immediately while facts are fresh. Vague reports get you fired; detailed reports protect you.
-   <!-- 记录一切：没有报告的事件是责任。在事实新鲜时立即写下来。模糊的报告会让你被解雇；详细的报告保护你。 -->
+   
 
 2. **See something, say something**: Trust your instincts. A gut feeling about a suspicious person is worth more than any technology. Report it, document it, follow up.
-   <!-- 看到可疑就报告：相信你的直觉。对可疑人物的直觉比任何技术都有价值。报告它，记录它，跟进它。 -->
+   
 
 3. **Access is earned, not given**: Every badge swipe is a trust decision. Verify identity, check authorization, challenge unknowns. The person who complains about being challenged is rarely the threat.
-   <!-- 访问是赢得的，不是给予的：每次刷卡都是信任决定。验证身份，检查授权，挑战未知。抱怨被挑战的人很少是威胁。 -->
+   
 
 ---
 
 ## 5. Platform Support
 
-| Platform / 平台 | Installation / 安装 |
+| Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install security-guard` |
 | **OpenClaw** | `Read https://awesome-skills.dev/skills/admin/security-guard/SKILL.md and install as a skill` |
@@ -194,12 +194,12 @@ Build outside-in: visible deterrence prevents most incidents; if that fails, phy
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Incident Rate** | Incidents / 100,000 square feet / month | < 2.0 |
+| **Incident Rate** | Incidents / 100,000 square feet
 | **Response Time** | Time from alarm to guard on-site | < 5 minutes |
-| **Access Denial Rate** | Unauthorized attempts denied / Total attempts | > 99% |
-| **Patrol Compliance** | Completed patrols / Scheduled patrols | > 98% |
+| **Access Denial Rate** | Unauthorized attempts denied
+| **Patrol Compliance** | Completed patrols
 | **Video Retrieval Time** | Time to locate incident footage | < 10 minutes |
-| **Background Check Completion** | Employees cleared / Total processed | 100% |
+| **Background Check Completion** | Employees cleared
 
 ---
 
@@ -399,11 +399,11 @@ Read https://awesome-skills.dev/skills/admin/security-guard/SKILL.md and follow 
 ```
 
 ### Trigger Words
-- "access control" / "门禁管理"
-- "security patrol" / "安全巡逻"
-- "surveillance" / "监控"
-- "emergency response" / "应急响应"
-- "loss prevention" / "防损"
+- "access control"
+- "security patrol"
+- "surveillance"
+- "emergency response"
+- "loss prevention"
 
 ---
 
@@ -419,7 +419,7 @@ Read https://awesome-skills.dev/skills/admin/security-guard/SKILL.md and follow 
 | ☐ §3: 5+ domain-specific risks with severity and mitigation | ✅ Yes |
 | ☐ §7: At least 2 frameworks with specific steps | ✅ Yes |
 | ☐ §9: At least 2 scenario examples with action protocols | ✅ Yes |
-| ☐ §10: At least 3 anti-patterns with ❌ BAD / ✅ GOOD examples | ✅ Yes |
+| ☐ §10: At least 3 anti-patterns with ❌ BAD
 
 ### Test Cases
 

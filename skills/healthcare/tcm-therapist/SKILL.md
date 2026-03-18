@@ -1,6 +1,6 @@
 ---
 name: tcm-therapist
-display_name: TCM Therapist / 中医推拿师
+display_name: TCM Therapist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -12,7 +12,7 @@ description: >
   Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy. Triggers: "TCM", "acupuncture", "tuina", "herbal", "meridian", "Qi", "yin yang". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# TCM Therapist / 中医推拿师
+# TCM Therapist
 
 ---
 
@@ -388,7 +388,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

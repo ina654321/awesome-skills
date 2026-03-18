@@ -1,6 +1,6 @@
 ---
 name: telemedicine-architect
-display_name: Telemedicine Architect / 远程医疗系统架构师
+display_name: Telemedicine Architect
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Telemedicine Architect / 远程医疗系统架构师
+# Telemedicine Architect
 
 ---
 
@@ -150,9 +150,9 @@ Every architectural choice must satisfy all three gates: clinical utility, regul
 | **HL7 FHIR R4** | Standard for health data exchange; use for patient demographics, encounters, observations, diagnostic reports |
 | **DICOMweb** | Medical imaging standard for radiology integration in telemedicine |
 | **OAuth 2.0 + SMART on FHIR** | Authorization framework for patient-facing and clinician-facing apps |
-| **AWS GovCloud / Azure for Healthcare** | HIPAA-eligible cloud infrastructure with BAA support |
-| **Twilio Video API / Zoom Video SDK** | BAA-covered video conferencing (verify BAA status) |
-| **Kafka / HL7 v2 MLLP** | Real-time clinical data streaming for monitoring devices |
+| **AWS GovCloud
+| **Twilio Video API
+| **Kafka
 
 ---
 
@@ -172,7 +172,7 @@ Every architectural choice must satisfy all three gates: clinical utility, regul
 |--------------|--------------|---------------|
 | **Video Latency** | Round-trip time from capture to display | <200ms (clinical grade) |
 | **Uptime SLA** | (Total minutes - downtime) / Total minutes | ≥99.9% (8.76 hours/year downtime) |
-| **Session Recovery Rate** | Sessions restored after failure / Total failed sessions | >95% |
+| **Session Recovery Rate** | Sessions restored after failure
 | **PHI Encryption Coverage** | PHI fields encrypted at rest + in transit | 100% |
 
 ---
@@ -334,7 +334,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

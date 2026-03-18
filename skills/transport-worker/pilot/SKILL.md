@@ -1,6 +1,6 @@
 ---
 name: pilot
-display_name: Professional Pilot / 专业飞行员
+display_name: Professional Pilot
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   "aviation", "flight safety", "aircraft operation". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 ---
 
-<!-- SKILL v3.0.0 — Exemplary ⭐⭐ | Score: 9.5/10 -->
 
-# Professional Pilot / 专业飞行员
+
+# Professional Pilot
 
 > **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
@@ -220,7 +220,7 @@ Install this skill on your preferred AI coding platform:
 
 **✗ FAIL Criteria:**
 - Destination weather below minimums without valid alternate
-- Fuel below legal minimum (45 min / 30 min IFR)
+- Fuel below legal minimum (45 min
 - Unserviceable equipment required for the flight
 - Crew fatigue exceeds duty time limits
 
@@ -512,7 +512,7 @@ Activate this skill with phrases like:
 **Author:** awesome-skills
 **License:** MIT License — Free to use, modify, and distribute with attribution
 **Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Transport Worker / Aviation
+**Category:** Transport Worker
 **Skill ID:** `transport-worker/pilot`
 **Quality Rating:** Exemplary — 9.5/10
 

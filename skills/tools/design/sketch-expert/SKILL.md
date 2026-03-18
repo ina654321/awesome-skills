@@ -197,9 +197,9 @@ Step 4: Export assets with consistent naming
 >
 > | Element| Property| Value|
 > |-------|---------|-------|
-> | Background | Fill | #2563EB (primary) / transparent (secondary) |
+> | Background | Fill | #2563EB (primary)
 > | Corner Radius | Rounded | 8px |
-> | Typography | Font | Inter / 16px / Semi-bold |
+> | Typography | Font | Inter / 16px
 > | Padding | Smart Layout | 16px horizontal, 12px vertical |
 >
 > **Next I need:** Will this button have icon variants (with/without)?

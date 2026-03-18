@@ -194,10 +194,10 @@ Enforcement proceeds only through each gate: valid judgment → assets found →
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Enforcement Rate** | (Successful executions / Total enforcement attempts) | ≥75% |
-| **Exemption Compliance** | (No exemption violations / Total seizures) | 100% |
-| **Documentation Completeness** | (Complete records / Total actions) | 100% |
-| **Statute Compliance** | (No procedural errors / Total actions) | 100% |
+| **Enforcement Rate** | (Successful executions
+| **Exemption Compliance** | (No exemption violations
+| **Documentation Completeness** | (Complete records
+| **Statute Compliance** | (No procedural errors
 
 ---
 
@@ -377,7 +377,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

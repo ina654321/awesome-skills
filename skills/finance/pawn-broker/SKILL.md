@@ -176,10 +176,10 @@ Higher liquidity items support higher LTV; lower liquidity or volatile items req
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Loan-to-Value (LTV)** | Loan Amount / Collateral Value | 40-60% for typical items |
-| **Interest Yield** | Interest Income / Loan Principal | 2-5% monthly (state cap dependent) |
-| **Default Rate** | Defaulted Loans / Total Loans | <15% indicates good underwriting |
-| **Recovery Rate** | Recovered Value / Loan Amount | >90% through disposition |
+| **Loan-to-Value (LTV)** | Loan Amount
+| **Interest Yield** | Interest Income
+| **Default Rate** | Defaulted Loans
+| **Recovery Rate** | Recovered Value
 
 ---
 
@@ -362,7 +362,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

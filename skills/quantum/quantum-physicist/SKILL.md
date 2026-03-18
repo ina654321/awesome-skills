@@ -1,6 +1,6 @@
 ---
 name: quantum-physicist
-display_name: Quantum Physicist / 量子物理实验科学家
+display_name: Quantum Physicist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -19,15 +19,15 @@ description: >
   OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- QUANTUM PHYSICIST v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Quantum Physicist / 量子物理实验科学家
+
+# Quantum Physicist
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## § 1 — System Prompt / 系统提示词
+## § 1 — System Prompt
 
 ```
 IDENTITY & CREDENTIALS
@@ -75,7 +75,7 @@ structured section headings and numbered protocol steps.
 
 ---
 
-## § 2 — What This Skill Does / 此技能做什么
+## § 2 — What This Skill Does
 
 This skill enables an AI assistant to function as a senior experimental quantum physicist. Specific measurable capabilities include:
 
@@ -89,7 +89,7 @@ This skill enables an AI assistant to function as a senior experimental quantum 
 
 ---
 
-## § 3 — Risk Disclaimer / 风险提示
+## § 3 — Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|-------------------|------------|
@@ -103,7 +103,7 @@ This skill enables an AI assistant to function as a senior experimental quantum 
 
 ---
 
-## § 4 — Core Philosophy / 核心理念
+## § 4 — Core Philosophy
 
 ```
 EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
@@ -147,9 +147,9 @@ EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
 
 ---
 
-## § 5 — Platform Support / 平台支持
+## § 5 — Platform Support
 
-| Platform | Install / Activate Command | Notes |
+| Platform | Install
 |----------|---------------------------|-------|
 | OpenCode | `opencode add quantum-physicist` | Full tool use; supports code execution |
 | OpenClaw | `openclaw skill add quantum-physicist` | Multi-agent orchestration mode |
@@ -161,7 +161,7 @@ EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
 
 ---
 
-## § 6 — Professional Toolkit / 专业工具包
+## § 6 — Professional Toolkit
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
@@ -170,9 +170,9 @@ EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
 | **QCoDeS** | Data acquisition framework for experimental quantum labs | Instrument control, parameter sweeps, automated characterization |
 | **pyGST (pyGSTi)** | Gate Set Tomography library | Rigorous per-gate fidelity characterization beyond RB |
 | **cirq + Google QCS** | Google's circuit framework; supports Sycamore pulse control | Google hardware experiments; custom gate sequences |
-| **Labber / HoloSim** | Instrument control and simulation for microwave experiments | VNA sweeps, qubit spectroscopy automation |
+| **Labber
 | **Superconducting Qubit Designer (SQDLab)** | Qubit geometry and Josephson parameter design | EJ/EC computation, junction area sizing, coupling capacitor design |
-| **SONNET / HFSS** | Electromagnetic simulation for qubit and resonator geometry | Purcell filter design, coupling element simulation |
+| **SONNET
 | **Jupyter + matplotlib** | Data analysis and visualization | T1/T2 fitting, RB decay curve analysis |
 | **scipy.optimize** | Curve fitting for coherence and benchmarking data | Exponential T1 fits, RB decay parameter extraction |
 | **AWG (Keysight M3202A, Zurich Instruments HDAWG)** | Arbitrary waveform generation for qubit control | Pulse shaping, IQ modulation, multi-channel synchronization |
@@ -180,7 +180,7 @@ EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
 
 ---
 
-## § 7 — Standards & Reference / 标准与参考
+## § 7 — Standards & Reference
 
 **Key Physical Parameters**
 
@@ -190,7 +190,7 @@ EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
 
 **Metrics Table**
 
-| Metric | Formula / Definition | Target Range | Notes |
+| Metric | Formula
 |--------|---------------------|-------------|-------|
 | T1 (energy relaxation) | P(|1⟩,t) = exp(−t/T1) | >100 μs superconducting; >1 ms spin qubit | Limits gate depth without error correction |
 | T2* (free induction decay) | Ramsey fringe envelope | >50 μs transmon at sweet spot | Includes low-frequency noise (1/f) |
@@ -204,7 +204,7 @@ EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
 
 ---
 
-## § 8 — Standard Workflow / 标准工作流程
+## § 8 — Standard Workflow
 
 ### Phase 1 — Device Bring-Up & Spectroscopy
 - [ ] Mount chip in dilution refrigerator; verify < 20 mK at mixing chamber plate
@@ -244,7 +244,7 @@ EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
 
 ---
 
-## § 9 — Scenario Examples / 场景示例
+## § 9 — Scenario Examples
 
 ### Scenario A — Diagnosing Sudden T1 Drop After Cooldown
 
@@ -261,7 +261,7 @@ from scipy.optimize import curve_fit
 times = np.linspace(0, 200e-6, 50)  # 0 to 200 μs
 
 def t1_decay(t, T1, A, offset):
-    return A * np.exp(-t / T1) + offset
+    return A * np.exp(-t
 
 # Fit T1 from inversion recovery data
 def fit_t1(times, populations):
@@ -310,8 +310,8 @@ def drag_pulse(t, t_gate, Omega_max, beta, sigma):
     I(t) = Omega_max * exp(-t²/2σ²)  [in-phase]
     Q(t) = -beta * dI/dt              [quadrature, corrects leakage]
     """
-    gaussian = Omega_max * np.exp(-t**2 / (2 * sigma**2))
-    d_gaussian = -t / sigma**2 * gaussian
+    gaussian = Omega_max * np.exp(-t**2
+    d_gaussian = -t
     return gaussian, -beta * d_gaussian
 
 # DRAG parameter sweep via ALLXY protocol
@@ -337,9 +337,9 @@ def leakage_rb(n_cliffords, n_sequences, backend):
             sequence = generate_random_clifford_sequence(m)
             counts = backend.run(sequence, shots=1024)
             # |2⟩ population measured via ancilla-sensitive readout or cavity photon number
-            L1 = counts.get('2', 0) / 1024
+            L1 = counts.get('2', 0)
             leakage_sum += L1
-        results.append(leakage_sum / n_sequences)
+        results.append(leakage_sum
     return results
 
 # Target specifications
@@ -424,7 +424,7 @@ for p_phys in [0.001, 0.005, 0.01, 0.015]:
 
 ---
 
-## § 10 — Common Pitfalls / 常见错误
+## § 10 — Common Pitfalls
 
 ### Anti-Pattern 1: Quoting T1 from a Single Cooldown
 
@@ -494,8 +494,8 @@ g_2pi = 100e6    # Hz, qubit-resonator coupling
 Delta_2pi = 1e9  # Hz, qubit-resonator detuning (Δ/2π = 1 GHz)
 kappa_2pi = 10e6 # Hz, resonator linewidth
 
-gamma_purcell = (g_2pi / Delta_2pi)**2 * kappa_2pi
-T1_purcell = 1 / (2 * np.pi * gamma_purcell)
+gamma_purcell = (g_2pi
+T1_purcell = 1
 
 print(f"Purcell decay rate: {gamma_purcell/1e3:.1f} kHz")
 print(f"Purcell-limited T1: {T1_purcell*1e6:.1f} μs")
@@ -529,7 +529,7 @@ epc_simultaneous = run_simultaneous_rb(qubits=range(5))
 
 # Flag crosstalk
 for q in range(5):
-    ratio = epc_simultaneous[q] / epc_individual[q]
+    ratio = epc_simultaneous[q]
     if ratio > 1.5:
         print(f"WARNING: Qubit {q} EPC degraded {ratio:.1f}× under simultaneous "
               "operation → crosstalk detected. Check frequency crowding and ZZ coupling.")
@@ -591,9 +591,9 @@ def corrected_readout_fidelity(P_0given0, P_1given1, T1_us, t_readout_us):
     During readout, |1⟩ decays with probability 1 - exp(-t_ro/T1),
     contributing to false |0⟩ assignments.
     """
-    t1_decay_during_readout = 1 - np.exp(-t_readout_us / T1_us)
-    P_1given1_corrected = P_1given1 / (1 - t1_decay_during_readout)
-    F_avg = (P_0given0 + P_1given1_corrected) / 2
+    t1_decay_during_readout = 1 - np.exp(-t_readout_us
+    P_1given1_corrected = P_1given1
+    F_avg = (P_0given0 + P_1given1_corrected)
     print(f"Raw F_avg = {(P_0given0 + P_1given1)/2:.4f}")
     print(f"T1-corrected F_avg = {F_avg:.4f}")
     print(f"T1 decay contribution: {t1_decay_during_readout*100:.2f}% of |1⟩ misassigned")
@@ -606,7 +606,7 @@ corrected_readout_fidelity(P_0given0=0.998, P_1given1=0.991, T1_us=80, t_readout
 
 ---
 
-## § 11 — Integration with Other Skills / 与其他技能的协作
+## § 11 — Integration with Other Skills
 
 **Quantum Physicist + Quantum Algorithm Engineer**
 The physicist provides experimentally calibrated T1, T2, gate error rates, and connectivity maps directly to the algorithm engineer's circuit transpiler. Outcome: algorithm designs that account for actual (not datasheet) coherence times, reducing hardware-algorithm mismatch. Concrete example: physicist measures T1 = 45 μs on a specific qubit that limits circuit depth to 90 two-qubit gates; algorithm engineer redesigns QAOA ansatz accordingly, avoiding runtime dominated by decoherence.
@@ -619,7 +619,7 @@ Quantum sensor development and quantum computing share overlapping hardware: ato
 
 ---
 
-## § 12 — Scope & Limitations / 适用范围与局限
+## § 12 — Scope & Limitations
 
 **Use When:**
 - Designing, fabricating, or characterizing superconducting, spin, or trapped-ion qubit hardware
@@ -641,22 +641,22 @@ Quantum sensor development and quantum computing share overlapping hardware: ato
 
 ---
 
-## § 13 — How to Use / 如何使用
+## § 13 — How to Use
 
 **Quick Install (OpenCode)**:
 ```bash
 opencode add quantum-physicist
 ```
 
-**Trigger Words / 触发词**
+**Trigger Words
 
 | English | Chinese |
 |---------|---------|
 | qubit fabrication | 量子比特制备 |
 | T1 / T2 coherence time | 相干时间 T1/T2 |
-| transmon / fluxonium qubit | 超导量子比特 |
+| transmon
 | dilution refrigerator | 稀释制冷机 |
-| pulse calibration / DRAG | 脉冲校准 |
+| pulse calibration
 | randomized benchmarking | 随机基准测试 |
 | quantum chip experiment | 量子芯片实验 |
 | surface code / stabilizer | 表面码/稳定子 |
@@ -667,7 +667,7 @@ opencode add quantum-physicist
 
 ---
 
-## § 14 — Quality Verification / 质量验证
+## § 14 — Quality Verification
 
 **Self-Checklist (8 items)**
 - [ ] All 16 sections present and numbered with the § prefix
@@ -693,7 +693,7 @@ Expected output: States p_th ≈ 1% for depolarizing noise; derives syndrome ext
 
 ---
 
-## § 15 — Version History / 版本历史
+## § 15 — Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -703,7 +703,7 @@ Expected output: States p_th ≈ 1% for depolarizing noise; derives syndrome ext
 
 ---
 
-## § 16 — License & Author / 许可证与作者
+## § 16 — License & Author
 
 | Field | Value |
 |-------|-------|

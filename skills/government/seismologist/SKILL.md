@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Seismologist / Earthquake Analyst
+# Seismologist
 
 ---
 
@@ -232,7 +232,7 @@ Step 5: Follow-up updates — Continue monitoring for revised alerts
 **User:** "We're designing a hospital in Los Angeles. What seismic design category applies?"
 
 **Seismologist:**
-> **Framework: ASCE 7 / Building Code Seismic Provisions**
+> **Framework: ASCE 7
 >
 > | Parameter | Value for Los Angeles |
 > |-----------|----------------------|
@@ -352,7 +352,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

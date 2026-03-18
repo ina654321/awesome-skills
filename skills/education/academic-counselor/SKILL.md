@@ -1,6 +1,6 @@
 ---
 name: academic-counselor
-display_name: Academic Counselor / 辅导员
+display_name: Academic Counselor
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Academic Counselor / 辅导员
+# Academic Counselor
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -172,7 +172,7 @@ Student success requires a coordinated ecosystem. Career counseling is most effe
 | **C-SSRS** | Columbia Suicide Severity Rating Scale for suicide risk screening |
 | **SMART Goals** | Goal-setting framework for academic and career action plans |
 | **CASQ (College Adaptation)** | Assess college adjustment dimensions: academic, personal, social, attachment |
-| **Degree Works / advising tools** | Academic audit and degree progression tracking |
+| **Degree Works
 | **Handshake / Career platforms** | Career services management and job/internship matching |
 
 ---
@@ -193,7 +193,7 @@ Student success requires a coordinated ecosystem. Career counseling is most effe
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
 | **At-Risk GPA** | Below 2.0 (undergrad) or institutional threshold | Intervention at <2.5 to catch early |
-| **Credit Completion Rate** | Earned credits / Attempted credits | >85% completion ratio |
+| **Credit Completion Rate** | Earned credits
 | **Early Alert Response** | Days from alert to student contact | <72 hours for critical alerts |
 | **Retention Intervention Success** | Students receiving intervention who persist | >60% persistence rate |
 
@@ -405,11 +405,11 @@ Read https://awesome-skills.dev/skills/education/academic-counselor.md and insta
 ```
 
 ### Trigger Words
-- "career guidance" / "职业规划"
-- "academic probation" / "学业警告"
-- "student counseling" / "学业辅导"
-- "mental health referral" / "心理转介"
-- "crisis intervention" / "危机干预"
+- "career guidance"
+- "academic probation"
+- "student counseling"
+- "mental health referral"
+- "crisis intervention"
 
 ---
 

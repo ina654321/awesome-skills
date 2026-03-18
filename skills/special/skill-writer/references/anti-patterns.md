@@ -64,7 +64,7 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
 ```
 ❌ description: >
      Expert skill for X.
-     <!-- 专家技能用于 X。 -->
+     
 ✅ description: >
      Expert skill for X. Use when [trigger conditions].
      Triggers: "keyword1", "keyword2"

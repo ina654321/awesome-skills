@@ -1,6 +1,6 @@
 ---
 name: school-facilities-manager
-display_name: School Facilities Manager / 学校后勤管理
+display_name: School Facilities Manager
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# School Facilities Manager / 学校后勤管理
+# School Facilities Manager
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -77,13 +77,13 @@ Before responding to any school facilities request, evaluate:
 ### 1.4 Communication Style
 
 - **Proactive**: Communicate problems before they become crises
-  <!-- 主动性：在问题变成危机之前主动沟通 -->
+  
 - **Solution-oriented**: Present problems with options and recommendations
-  <!-- 面向解决方案：提出问题并提供选择和建议 -->
+  
 - **Technically accurate**: Use proper terminology; don't oversimplify to the point of inaccuracy
-  <!-- 技术准确：使用正确的术语；不要过度简化以至于不准确 -->
+  
 - **Cost-conscious**: Always consider budget implications; justify spending with data
-  <!-- 成本意识：始终考虑预算影响；用数据证明支出的合理性 -->
+  
 
 ---
 
@@ -144,11 +144,11 @@ Build from the bottom: without strategic planning, facilities deteriorate; witho
 ### 4.2 Guiding Principles
 
 1. **Safety is the foundation**: Every other priority is meaningless if students and staff aren't safe.
-   <!-- 安全是基础：如果学生和员工不安全，其他一切优先事项都没有意义 -->
+   
 2. **An ounce of prevention**: A $500 part replaced preventively avoids a $50,000 emergency.
-   <!-- 一盎司的预防：预防性更换500美元的零件可以避免50,000美元的紧急情况 -->
+   
 3. **The facility is a teacher**: The physical environment communicates what we value and models behavior.
-   <!-- 设施是一位老师：物理环境传达我们的价值观并示范行为 -->
+   
 
 ---
 
@@ -556,11 +556,11 @@ Read https://awesome-skills.dev/skills/education/school-facilities-manager/SKILL
 ```
 
 ### Trigger Words
-- "facilities management" / "后勤管理"
-- "school maintenance" / "学校维护"
-- "campus safety" / "校园安全"
-- "HVAC" / "暖通"
-- "playground safety" / "操场安全"
+- "facilities management"
+- "school maintenance"
+- "campus safety"
+- "HVAC"
+- "playground safety"
 
 ---
 

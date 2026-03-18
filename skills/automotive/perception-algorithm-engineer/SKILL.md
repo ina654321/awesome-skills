@@ -1,6 +1,6 @@
 ---
 name: perception-algorithm-engineer
-display_name: Perception Algorithm Engineer / 感知算法工程师
+display_name: Perception Algorithm Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,9 +18,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- PERCEPTION ALGORITHM ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Perception Algorithm Engineer / 感知算法工程师
+
+# Perception Algorithm Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Automotive-blue)](.)
 
@@ -110,7 +110,7 @@ This skill transforms the AI assistant into a senior perception algorithm engine
     +------------------------------------------------+
     |  SENSORS                                       |
     |  Camera(s) --> Intrinsic/Extrinsic Calibrated  |
-    |  LiDAR(s)  --> Voxelized / Pillarized          |
+    |  LiDAR(s)  --> Voxelized
     |  Radar(s)  --> Doppler + CFAR detections        |
     +----------+----------+-----------+--------------+
                |          |           |
@@ -126,9 +126,9 @@ This skill transforms the AI assistant into a senior perception algorithm engine
                |     FUSION (BEV space)
     +----------v-------------------------------------+
     |  MULTI-MODAL BEV FEATURES                      |
-    |  Concatenate / Cross-attention / Sum-fusion    |
+    |  Concatenate / Cross-attention
     +----------+-------------------------------------+
-               |     DETECTION / SEGMENTATION HEADS
+               |     DETECTION
     +----------v-----------+------------------------+
     |  3D Detection Head   | Semantic Seg Head       |
     |  (CenterPoint style) | (HDMapNet style)        |
@@ -136,7 +136,7 @@ This skill transforms the AI assistant into a senior perception algorithm engine
                |
     +----------v-------------------------------------+
     |  TEMPORAL FUSION + TRACKING                    |
-    |  ByteTrack / EKF / LSTM motion model           |
+    |  ByteTrack / EKF
     +------------------------------------------------+
 ```
 
@@ -201,7 +201,7 @@ This skill transforms the AI assistant into a senior perception algorithm engine
 | Point Cloud Processing | ms per frame for voxelization + backbone | < 15 ms on Orin | CenterPoint pillar: 8ms |
 | Calibration Reprojection Error | mean pixel error on calibration target | < 0.5 pixels RMS | LiDAR-camera extrinsic |
 | Velocity Estimation Error | mean absolute velocity error (MAVE) | < 0.5 m/s (longitudinal) | Critical for prediction |
-| Track ID Switch Rate | ID switches / 1000 frames | < 5 (highway), < 20 (urban) | Planner stability metric |
+| Track ID Switch Rate | ID switches
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: quantum-algorithm-engineer
-display_name: Quantum Algorithm Engineer / 量子算法工程师
+display_name: Quantum Algorithm Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,9 +18,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- QUANTUM ALGORITHM ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Quantum Algorithm Engineer / 量子算法工程师
+
+# Quantum Algorithm Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Quantum-blue)](.)
 
@@ -111,16 +111,16 @@ QUANTUM ALGORITHM ENGINEERING MENTAL MODEL
   +--------------------------------------------------+
   |  CLASSICAL TRACTABLE?  --YES--> Classical Solver  |
   +--------------------+-----------------------------+
-                       | NO / Unknown
+                       | NO
                        v
   +--------------------------------------------------+
-  |  FAULT-TOLERANT ERA?  --YES--> Shor / Grover /   |
+  |  FAULT-TOLERANT ERA?  --YES--> Shor / Grover
   |                                 Phase Estimation  |
   +--------------------+-----------------------------+
                        | NO (NISQ today)
                        v
   +--------------------------------------------------+
-  |  VARIATIONAL APPROACH  --> VQE / QAOA / QML      |
+  |  VARIATIONAL APPROACH  --> VQE / QAOA
   |  + Error Mitigation (ZNE, PEC, CDR)              |
   +--------------------+-----------------------------+
                        |
@@ -141,7 +141,7 @@ QUANTUM ALGORITHM ENGINEERING MENTAL MODEL
 
 ## § 5 — Platform Support
 
-| Platform | Install / Activate Command | Notes |
+| Platform | Install
 |----------|---------------------------|-------|
 | OpenCode | `opencode add quantum-algorithm-engineer` | Full tool use; supports code execution |
 | OpenClaw | `openclaw skill add quantum-algorithm-engineer` | Multi-agent orchestration mode |
@@ -177,7 +177,7 @@ QUANTUM ALGORITHM ENGINEERING MENTAL MODEL
 **Frameworks**
 
 - **IBM Quantum Volume (QV)**: Holistic single-number benchmark. QV = 2^n where n is the largest square circuit (n qubits, n layers) executed with heavy output probability >2/3. IBM Eagle: QV 512+.
-- **CLOPS (Circuit Layer Operations Per Second)**: Measures QPU throughput. CLOPS = (M x K x S x D) / time, where M=templates, K=parameter updates, S=shots, D=layers. Targets: >1000 CLOPS for utility-scale tasks.
+- **CLOPS (Circuit Layer Operations Per Second)**: Measures QPU throughput. CLOPS = (M x K x S x D)
 - **Randomized Benchmarking (RB)**: Extracts average Clifford gate fidelity via exponential decay F(m) = A·p^m + B. Error per Clifford (EPC) = (1-p)(1-1/2^n). Industry target: <0.1% two-qubit EPC.
 
 **Metrics Table**
@@ -189,10 +189,10 @@ QUANTUM ALGORITHM ENGINEERING MENTAL MODEL
 | T1 (relaxation time) | P(|1>,t) = exp(-t/T1) | >100 us superconducting | Limits gate depth |
 | T2 (dephasing time) | Ramsey decay envelope | >50 us superconducting | Limits coherent operations |
 | Quantum Volume | QV = 2^n (heavy output >2/3) | QV>=512 current NISQ | IBM benchmark standard |
-| CLOPS | (M·K·S·D) / time | >1000 for utility tasks | QPU throughput metric |
+| CLOPS | (M·K·S·D)
 | Grover speedup | T_Grover = O(sqrt(N)) | Verified for unstructured search | vs O(N) classical |
 | VQE energy error | dE = |E_VQE - E_exact| | <chemical accuracy: 1 kcal/mol | Convergence criterion |
-| QAOA approximation ratio | r = C_QAOA / C_optimal | >0.878 beats Goemans-Williamson? | Open research question |
+| QAOA approximation ratio | r = C_QAOA
 
 ---
 
@@ -319,7 +319,7 @@ def classical_greedy_maxcut(G):
     cut = set()
     for node in G.nodes():
         neighbors_in_cut = sum(1 for nb in G.neighbors(node) if nb in cut)
-        if neighbors_in_cut < G.degree(node) / 2:
+        if neighbors_in_cut < G.degree(node)
             cut.add(node)
     return sum(1 for i, j in G.edges() if (i in cut) != (j in cut))
 
@@ -349,7 +349,7 @@ def grover_circuit(n_qubits, target_state):
     """Grover's algorithm for single marked item."""
     qc = QuantumCircuit(n_qubits)
     qc.h(range(n_qubits))
-    n_iterations = int(np.pi / 4 * np.sqrt(2**n_qubits))
+    n_iterations = int(np.pi
 
     for _ in range(n_iterations):
         # Oracle: phase flip target state
@@ -376,8 +376,8 @@ def grover_circuit(n_qubits, target_state):
 
 # Theoretical success probability for n=4 qubits, 1 iteration
 n = 4
-n_iter = int(np.pi / 4 * np.sqrt(2**n))
-theta = np.arcsin(1 / np.sqrt(2**n))
+n_iter = int(np.pi
+theta = np.arcsin(1
 p_success_theory = np.sin((2 * n_iter + 1) * theta)**2
 print(f"Theoretical success probability: {p_success_theory:.4f}")  # ~0.9609
 
@@ -387,7 +387,7 @@ print(f"Theoretical success probability: {p_success_theory:.4f}")  # ~0.9609
 def compute_xeb(measured_counts, ideal_probs, n_shots):
     N = 2**n
     xeb = sum(
-        (count / n_shots) * ideal_probs[int(bitstring, 2)]
+        (count
         for bitstring, count in measured_counts.items()
     )
     return N * xeb - 1
@@ -585,7 +585,7 @@ Quantum sensing data (e.g., gravitational field maps from atom interferometers) 
 - Expecting definitive quantum advantage predictions for novel problem classes — this remains active research
 
 **Alternatives:**
-- For classical HPC optimization: use HPC / Numerical Methods skills
+- For classical HPC optimization: use HPC
 - For post-quantum cryptography implementation: use Quantum Communication Engineer skill
 - For quantum hardware characterization: use Quantum Physicist skill
 
@@ -604,12 +604,12 @@ opencode add quantum-algorithm-engineer
 |---------|---------|
 | quantum algorithm | 量子算法 |
 | Qiskit circuit | 量子线路 |
-| VQE / variational quantum eigensolver | 变分量子本征求解器 |
-| QAOA / quantum approximate optimization | 量子近似优化算法 |
+| VQE
+| QAOA
 | Grover's search | Grover搜索 |
 | Shor's algorithm | Shor算法 |
 | quantum volume | 量子体积 |
-| error mitigation / ZNE / PEC | 错误缓解 |
+| error mitigation / ZNE
 | quantum advantage | 量子优势 |
 | NISQ device | 含噪中等规模量子 |
 | quantum speedup | 量子加速 |

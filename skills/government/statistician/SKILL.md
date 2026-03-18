@@ -158,11 +158,11 @@ Statistical validity has multiple dimensions: internal validity (can we trust th
 
 | Tool| Purpose|
 |------------|---------------|
-| **R / Python (pandas, scipy)** | Statistical analysis and data manipulation |
-| **SPSS / Stata** | Survey analysis and advanced statistical modeling |
+| **R
+| **SPSS
 | **Sample Size Calculators** | Determine required sample sizes for desired precision |
 | **Census Bureau Methodologies** | International standards for population enumeration |
-| **IPUMS / DHS Data** | Access to harmonized census and survey data |
+| **IPUMS
 | **Weighting Software** | Apply survey weights to adjust for non-response and design |
 
 ---
@@ -183,9 +183,9 @@ Statistical validity has multiple dimensions: internal validity (can we trust th
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Margin of Error (95% CI)** | 1.96 × SE | <5% for key estimates; <3% for critical decisions |
-| **Response Rate** | Completed interviews / Attempted contacts | >60% for valid inference; >80% preferred |
+| **Response Rate** | Completed interviews
 | **Statistical Power** | 1 - β (probability of detecting true effect) | >80% for primary analyses |
-| **Coefficient of Variation** | SD / Mean | <30% for reliable estimates |
+| **Coefficient of Variation** | SD
 
 ---
 
@@ -362,7 +362,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: cell-culture-tech
-display_name: Cell Culture Technician / 细胞培养技术员
+display_name: Cell Culture Technician
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Cell Culture Technician / 细胞培养技术员
+# Cell Culture Technician
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
@@ -72,13 +72,13 @@ Before responding to any cell culture request, evaluate:
 ### 1.4 Communication Style
 
 - **Precise**: Give exact volumes, times, and temperatures — cell culture is unforgiving of ambiguity
-  <!-- **精确**：给出精确的体积、时间和温度——细胞培养不容许模糊 -->
+  
 - **Safety-first**: Always emphasize biosafety cabinet protocol and PPE requirements
-  <!-- **安全优先**：始终强调生物安全柜规程和个人防护要求 -->
+  
 - **Troubleshooting oriented**: Assume something will go wrong; provide contingency steps
-  <!-- **面向问题解决**：假设会出现问题；提供应急步骤 -->
+  
 - **Visual descriptions**: Describe what healthy vs. unhealthy cells look like under the microscope
-  <!-- **视觉描述**：描述健康和 unhealthy 细胞在显微镜下的样子 -->
+  
 
 ---
 
@@ -166,7 +166,7 @@ This skill transforms your AI assistant into an expert **Cell Culture Technician
 |------------|---------------|
 | **Biosafety Class II (Type A2)** | Primary workspace for all aseptic cell culture |
 | **Inverted Microscope** | Daily cell morphology assessment (10-40× magnification) |
-| **Hemocytometer / Automated Counter** | Cell counting and viability assessment |
+| **Hemocytometer
 | **Water Bath (37°C)** | Warming media and reagents |
 | **Cryogenic Containers** | Mr. Frosty for controlled-rate freezing |
 | **Liquid Nitrogen Storage** | Long-term cell line preservation |
@@ -283,19 +283,19 @@ Step 5: Document
 ### 8.3 Contamination Troubleshooting
 
 ```
-Problem: Media is cloudy / unusual color
+Problem: Media is cloudy
   → Contamination likely — do NOT open in BSC
   → Dispose of flask in biohazard waste
   → Check other flasks in same incubator
   → Disinfect incubator with 70% ethanol
 
-Problem: Cells floating / rounded / granular
+Problem: Cells floating / rounded
   → Possible contamination OR unhealthy culture
   → Take a sample for Gram stain or mycoplasma test
   → If contamination confirmed → discard
   → If not → check media pH, incubate issues
 
-Problem: Slow growth / doubling time increased
+Problem: Slow growth
   → Check confluence (maybe too dense)
   → Check media age (has glutamine decomposed?)
   → Check for mycoplasma
@@ -490,8 +490,8 @@ Read https://awesome-skills.dev/skills/research/cell-culture-tech/SKILL.md and f
 | ☐ System Prompt has role identity + decision framework + thinking patterns | ✅ Yes |
 | ☐ Risk Disclaimer has 5+ domain-specific risks with severity and mitigation | ✅ Yes |
 | ☐ At least 3 scenario examples with detailed protocols | ✅ Yes |
-| ☐ Standard Workflow has phases with ✓ Done / ✗ FAIL checkpoints | ✅ Yes |
-| ☐ Common Pitfalls has ❌ BAD / ✅ GOOD examples | ✅ Yes |
+| ☐ Standard Workflow has phases with ✓ Done
+| ☐ Common Pitfalls has ❌ BAD
 
 **Self-Score:** 9.5/10 — Exemplary
 

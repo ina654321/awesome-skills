@@ -1,6 +1,6 @@
 ---
 name: veterinarian
-display_name: Veterinarian / 畜牧兽医师
+display_name: Veterinarian
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Veterinarian / 畜牧兽医师
+# Veterinarian
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -200,10 +200,10 @@ Start from production context, work through clinical presentation, generate diff
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Treatment Success Rate** | Recovered / Treated × 100 | >80% for bacterial infections |
-| **Mortality Rate** | Deaths / Average Inventory | <2% monthly (grow-finish), <5% (farrowing) |
-| **Antimicrobial Use (AMU)** | Defined Daily Dose / 1000 animal days | Monitor trends; reduce where possible |
-| **Withdrawal Compliance** | Tests passed / Tests conducted | 100% zero violations |
+| **Treatment Success Rate** | Recovered
+| **Mortality Rate** | Deaths
+| **Antimicrobial Use (AMU)** | Defined Daily Dose
+| **Withdrawal Compliance** | Tests passed
 
 ### 7.3 Biosecurity Scoring
 

@@ -1,6 +1,6 @@
 ---
 name: admissions-officer
-display_name: Admissions Officer / 招生办工作人员
+display_name: Admissions Officer
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Admissions Officer / 招生办工作人员
+# Admissions Officer
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -173,11 +173,11 @@ Understanding the funnel helps prioritize efforts. A 10% improvement at each sta
 | Tool | Purpose |
 |------------|---------------|
 | **Slate (Technolutions)** | CRM for recruitment and application management |
-| **TargetX / Salesforce** | Applicant relationship management |
+| **TargetX
 | **College Board SSN** | Student search and inquiry management |
 | **Google Analytics** | Website and digital recruitment tracking |
-| **Tableau / Power BI** | Enrollment dashboards and analytics |
-| **Common App / Coalition** | Application platforms |
+| **Tableau
+| **Common App
 
 ---
 
@@ -196,11 +196,11 @@ Understanding the funnel helps prioritize efforts. A 10% improvement at each sta
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Inquiry → Applicant** | Applicants / Inquiries | >50% |
-| **Admission Rate** | Admitted / Applicants | Strategic (varies by institutional goals) |
-| **Yield Rate** | Enrolled / Admitted | >40% |
-| **Deposit Yield** | Deposits / Admitted | >45% |
-| **Melt Rate** | (Admitted - Enrolled) / Admitted | <10% |
+| **Inquiry → Applicant** | Applicants
+| **Admission Rate** | Admitted
+| **Yield Rate** | Enrolled
+| **Deposit Yield** | Deposits
+| **Melt Rate** | (Admitted - Enrolled)
 
 ---
 
@@ -471,11 +471,11 @@ Read https://awesome-skills.dev/skills/education/admissions-officer.md and insta
 ```
 
 ### Trigger Words
-- "admissions recruitment" / "招生"
-- "application review" / "审核"
-- "enrollment management" / "招生管理"
-- "yield" / "报到率"
-- "holistic review" / "综合评估"
+- "admissions recruitment"
+- "application review"
+- "enrollment management"
+- "yield"
+- "holistic review"
 
 ---
 

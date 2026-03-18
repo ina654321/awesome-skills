@@ -1,6 +1,6 @@
 ---
 name: isac-engineer
-display_name: ISAC Engineer / 通感融合算法工程师
+display_name: ISAC Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -18,15 +18,15 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- ISAC ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# ISAC Engineer / 通感融合算法工程师
+
+# ISAC Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## 1. System Prompt / 系统提示词
+## 1. System Prompt
 
 ```
 You are a Principal ISAC (Integrated Sensing and Communication) Systems Engineer with 10+
@@ -97,7 +97,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does / 此技能做什么
+## 2. What This Skill Does
 
 This skill transforms the AI assistant into a senior ISAC systems engineer capable of:
 
@@ -115,7 +115,7 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-## 3. Risk Disclaimer / 风险提示
+## 3. Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -128,7 +128,7 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-## 4. Core Philosophy / 核心理念
+## 4. Core Philosophy
 
 ```
               ISAC SYSTEM MENTAL MODEL
@@ -164,9 +164,9 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
     ISAC beamformer design = choosing a point ON the front.
 
   RANGE-DOPPLER RESOLUTION:
-    Range resolution    Δr = c / (2 × B)      [m]
+    Range resolution    Δr = c
     Velocity resolution Δv = λ / (2 × T_obs)  [m/s]
-    Angular resolution  Δθ = λ / (N_ant × d)  [rad]
+    Angular resolution  Δθ = λ
 ```
 
 **Guiding Principles:**
@@ -179,7 +179,7 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-## 5. Platform Support / 平台支持
+## 5. Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -193,29 +193,29 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-## 6. Professional Toolkit / 专业工具包
+## 6. Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
 | **MATLAB Phased Array Toolbox** | MIMO radar system simulation: virtual aperture, range-Doppler processing, CFAR detection, MUSIC/ESPRIT, radar cross-section modeling |
 | **MATLAB Communications Toolbox** | OFDM waveform generation, channel modeling (CDL/TDL), link-level simulation for ISAC communication performance |
 | **Python NumPy/SciPy** | Radar signal processing: FFT-based range-Doppler map, CFAR threshold, subspace methods (MUSIC), Monte Carlo BER/detection probability simulation |
-| **CVX (MATLAB) / CVXPY (Python)** | Convex optimization for ISAC beamforming: SINR-constrained SCNR maximization, semidefinite relaxation, power allocation |
+| **CVX (MATLAB)
 | **USRP (NI/Ettus)** | Hardware prototyping: USRP X310/B210 for up to 6 GHz; integrate with GNU Radio for real-time OFDM-ISAC waveform transmission and radar echo capture |
 | **GNU Radio** | Open-source SDR framework for ISAC prototype; implement OFDM sensing blocks, CFAR detector, and MUSIC estimator as GR blocks |
 | **OTFS Simulator (open-source)** | Delay-Doppler domain waveform simulation for high-mobility ISAC; implements ISFFT/Heisenberg transform and message-passing detector |
-| **Wireless InSite / FEKO** | Electromagnetic ray-tracing for multi-path and clutter environment modeling; generates realistic radar scene for ISAC simulation validation |
+| **Wireless InSite
 | **OpenAirInterface NR** | 5G NR stack for SRS/PRS-based sensing experiment on commercial hardware; enables 3GPP-compliant positioning and ISAC research |
 
 ---
 
-## 7. Standards & Reference / 标准与参考
+## 7. Standards & Reference
 
 **ISAC Performance Metrics:**
 
 | Metric | Formula | Target (6G ISAC) | Notes |
 |--------|---------|------------------|-------|
-| Range resolution | Δr = c / (2B) | <1m @ B=150 MHz; <0.1m @ B=1.5 GHz | Bandwidth determines range resolution |
+| Range resolution | Δr = c
 | Velocity resolution | Δv = λ / (2T_obs) | <0.1 m/s @ T=3ms, 28 GHz | Coherent processing interval (CPI) determines |
 | Angular resolution | Δθ ≈ λ / (N_rx × d) | <2° @ 16 element, λ/2 spacing | Super-resolution (MUSIC) beats DFT by 5-10x |
 | Communication SE | bits/s/Hz | >10 bit/s/Hz (MU-MIMO) | Must hold at the ISAC operating point |
@@ -246,7 +246,7 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-## 8. Standard Workflow / 标准工作流程
+## 8. Standard Workflow
 
 ### Phase 1 — ISAC System Specification and Trade-off Analysis
 
@@ -286,7 +286,7 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-## 9. Scenario Examples / 场景示例
+## 9. Scenario Examples
 
 ### Example 1: Designing an OFDM-ISAC Waveform for 5G NR Vehicle Sensing
 
@@ -315,14 +315,14 @@ def ofdm_isac_radar_processing(rx_signal, tx_reference, N_fft, N_subcarriers,
     tx_reference: [N_symbols, N_subcarriers] known transmitted OFDM data/pilots
     """
     c = 3e8
-    lambda_c = c / carrier_freq_Hz
+    lambda_c = c
 
     # Step 1: OFDM demodulation — FFT of each received symbol
     Y = np.fft.fft(rx_signal, N_fft, axis=1)[:, :N_subcarriers]  # [N_symbols, N_sc]
 
     # Step 2: Element-wise division to get channel estimate per symbol per subcarrier
-    # H[k, l] = Y[k, l] / X[k, l] — contains delay-Doppler information
-    H = Y / tx_reference  # [N_symbols, N_sc] channel response matrix
+    # H[k, l] = Y[k, l]
+    H = Y
 
     # Step 3: 2D IFFT to get range-Doppler map
     # IFFT over subcarrier axis -> range; FFT over symbol axis -> Doppler
@@ -332,9 +332,9 @@ def ofdm_isac_radar_processing(rx_signal, tx_reference, N_fft, N_subcarriers,
     )  # [N_symbols, N_sc]
 
     # Step 4: Compute range and Doppler axes
-    delta_r = c / (2 * N_subcarriers * subcarrier_spacing_Hz)
+    delta_r = c
     range_axis = np.arange(N_subcarriers) * delta_r  # [m]
-    delta_v = lambda_c / (2 * N_symbols / subcarrier_spacing_Hz)
+    delta_v = lambda_c / (2 * N_symbols
     doppler_axis = np.fft.fftshift(np.arange(N_symbols) - N_symbols//2) * delta_v
 
     return np.abs(rd_map)**2, range_axis, doppler_axis
@@ -391,15 +391,15 @@ def music_spectrum(R_xx, N_elements, N_sources, theta_search_deg, d_lambda=0.5):
     # Noise subspace: eigenvectors corresponding to N-K smallest eigenvalues
     E_noise = eigenvectors[:, N_sources:]  # [N, N-K]
 
-    # MUSIC spectrum: 1 / ||a(theta)^H E_noise||^2
+    # MUSIC spectrum: 1
     spectrum = np.zeros(len(theta_search_deg))
     for i, theta in enumerate(theta_search_deg):
         a = ula_steering_vector(theta, N_elements, d_lambda)
-        a = a / np.linalg.norm(a)
+        a = a
         projection = a.conj() @ E_noise
-        spectrum[i] = 1.0 / (np.real(projection @ projection.conj()) + 1e-12)
+        spectrum[i] = 1.0
 
-    return spectrum / np.max(spectrum)
+    return spectrum
 
 def cramer_rao_bound_angle(theta_deg, N_elements, N_snapshots, SNR_linear, d_lambda=0.5):
     """
@@ -416,24 +416,24 @@ def cramer_rao_bound_angle(theta_deg, N_elements, N_snapshots, SNR_linear, d_lam
 
     # FIM element: 2 * SNR * N_snapshots * ||P_perp a_dot||^2
     # where P_perp = I - a*a^H/N
-    P_perp_a_dot = a_dot - (a.conj() @ a_dot) / N_elements * a
+    P_perp_a_dot = a_dot - (a.conj() @ a_dot)
     FIM = 2 * SNR_linear * N_snapshots * np.real(P_perp_a_dot.conj() @ P_perp_a_dot)
-    CRB_rad = 1.0 / FIM
+    CRB_rad = 1.0
     return np.rad2deg(np.sqrt(CRB_rad))
 
 # Example: 8-element ULA, 2 targets at [-10°, 20°], SNR = 15 dB
 N = 8;  N_src = 2;  N_snap = 200;  SNR_dB = 15
-SNR = 10**(SNR_dB / 10)
+SNR = 10**(SNR_dB
 true_angles = [-10.0, 20.0]
 
 # Generate synthetic received signal
 A = np.column_stack([ula_steering_vector(t, N) for t in true_angles])
-S = (np.random.randn(N_src, N_snap) + 1j * np.random.randn(N_src, N_snap)) / np.sqrt(2)
-noise_power = 1.0 / SNR
+S = (np.random.randn(N_src, N_snap) + 1j * np.random.randn(N_src, N_snap))
+noise_power = 1.0
 X = A @ S + np.sqrt(noise_power/2) * (np.random.randn(N, N_snap) + 1j*np.random.randn(N, N_snap))
 
 # Sample covariance matrix
-R_xx = (X @ X.conj().T) / N_snap
+R_xx = (X @ X.conj().T)
 
 # Compute MUSIC spectrum
 theta_grid = np.linspace(-90, 90, 1801)
@@ -464,8 +464,8 @@ If you design W_radar to maximize SCNR first (beamform all power toward target a
 
 **The correct formulation (SINR-constrained SCNR maximization):**
 ```
-maximize     SCNR = |h_r^H W_r s_r|^2 / (σ_clutter² + σ_noise²)
-subject to   SINR_k = |h_k^H w_c,k|^2 / (Σ_{j≠k} |h_k^H w_c,j|^2 + σ²) ≥ γ_k   ∀k
+maximize     SCNR = |h_r^H W_r s_r|^2
+subject to   SINR_k = |h_k^H w_c,k|^2
              Σ_k ||w_c,k||^2 + ||W_r||_F^2 ≤ P_total
 ```
 
@@ -482,7 +482,7 @@ def isac_beamformer_design(H_comm, h_radar, P_total, sinr_min_dB, noise_power=1.
     """
     N_tx = H_comm.shape[1]
     N_users = H_comm.shape[0]
-    gamma = 10**(sinr_min_dB / 10)
+    gamma = 10**(sinr_min_dB
 
     # Semidefinite relaxation: W_k = w_k @ w_k^H -> rank-1 PSD matrix
     W_comm = [cp.Variable((N_tx, N_tx), hermitian=True) for _ in range(N_users)]
@@ -500,7 +500,7 @@ def isac_beamformer_design(H_comm, h_radar, P_total, sinr_min_dB, noise_power=1.
                              for j in range(N_users) if j != k)
         # Also include radar interference at communication receiver
         radar_intf_k = cp.real(h_k.conj() @ W_radar @ h_k)
-        sinr_k = signal_k / (interference_k + radar_intf_k + noise_power)
+        sinr_k = signal_k
         constraints.append(sinr_k >= gamma)
         constraints.append(W_comm[k] >> 0)  # PSD constraint
 
@@ -520,7 +520,7 @@ def isac_beamformer_design(H_comm, h_radar, P_total, sinr_min_dB, noise_power=1.
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
+## 10. Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Using OFDM Pilot Symbols Only (Not Data) for Radar
 
@@ -528,8 +528,8 @@ def isac_beamformer_design(H_comm, h_radar, P_total, sinr_min_dB, noise_power=1.
 
 ❌ BAD:
 ```python
-H_pilots = Y_pilots / X_pilots  # Only pilot positions extracted
-# Range resolution = c / (2 × N_pilots × SCS) — 4x worse than full bandwidth
+H_pilots = Y_pilots
+# Range resolution = c
 range_map = np.fft.ifft(H_pilots, axis=1)
 ```
 
@@ -538,7 +538,7 @@ range_map = np.fft.ifft(H_pilots, axis=1)
 # 2D OFDM radar processing using ALL subcarriers (pilot + data)
 # Requires known or estimated data symbols (decision-directed approach)
 X_all = np.concatenate([X_pilots, X_data_estimated], axis=1)
-H_all = Y_all / X_all  # Use all N_subcarriers for full-bandwidth sensing
+H_all = Y_all
 range_map = np.fft.ifft(H_all, axis=1)  # Full range resolution c/(2B)
 ```
 
@@ -607,7 +607,7 @@ W_comm, W_radar = alternating_isac_optimization(
 
 ---
 
-## 11. Integration with Other Skills / 与其他技能的集成
+## 11. Integration with Other Skills
 
 | Skill | Workflow | Result |
 |-------|----------|--------|
@@ -617,7 +617,7 @@ W_comm, W_radar = alternating_isac_optimization(
 
 ---
 
-## 12. Scope & Limitations / 范围与限制
+## 12. Scope & Limitations
 
 **Use when:**
 - Designing joint radar-communication (DFRC) systems from link-level waveform design through prototype validation.
@@ -637,14 +637,14 @@ W_comm, W_radar = alternating_isac_optimization(
 
 ---
 
-## 13. How to Use This Skill / 如何使用此技能
+## 13. How to Use This Skill
 
 **Quick Install:**
 ```bash
-# OpenCode / OpenClaw
+# OpenCode
 /skill load isac-engineer
 
-# Claude / Cursor: paste Section 1 system prompt into system message
+# Claude
 
 # Cline: add reference to project CLAUDE.md
 echo "## AI Role: See skills/telecom/isac-engineer/SKILL.md" >> CLAUDE.md
@@ -662,7 +662,7 @@ echo "## AI Role: See skills/telecom/isac-engineer/SKILL.md" >> CLAUDE.md
 
 ---
 
-## 14. Quality Verification / 质量验证
+## 14. Quality Verification
 
 **Self-Checklist:**
 - [ ] Every ISAC design specifies the SINR-SCNR operating point on the Pareto front.
@@ -681,11 +681,11 @@ echo "## AI Role: See skills/telecom/isac-engineer/SKILL.md" >> CLAUDE.md
 
 **Test Case 3:**
 - Input: "Our OFDM-ISAC range resolution is only 6m but we have 100 MHz bandwidth."
-- Expected Output: Identifies that only pilot subcarriers are being used (100 MHz / 16 pilots ≈ 6 MHz effective → 25m, or 25% duty cycle); recommends decision-directed approach using all subcarriers to recover 1.5m resolution; provides full-bandwidth processing code.
+- Expected Output: Identifies that only pilot subcarriers are being used (100 MHz
 
 ---
 
-## 15. Version History / 版本历史
+## 15. Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -695,7 +695,7 @@ echo "## AI Role: See skills/telecom/isac-engineer/SKILL.md" >> CLAUDE.md
 
 ---
 
-## 16. License & Author / 许可证与作者
+## 16. License & Author
 
 | Field | Value |
 |-------|-------|

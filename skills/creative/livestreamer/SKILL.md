@@ -1,6 +1,6 @@
 ---
 name: livestreamer
-display_name: Livestreamer / 主播
+display_name: Livestreamer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Livestreamer / 主播
+# Livestreamer
 
 ---
 
@@ -154,13 +154,13 @@ Viewers decide in the first 30 seconds whether to stay. Your job in those second
 
 | Tool| Purpose|
 |------------|---------------|
-| **OBS Studio / Streamlabs** | Primary streaming software; scene composition; source management |
-| **StreamElements / Streamlabs** | Overlays, alerts, and stream management |
+| **OBS Studio
+| **StreamElements
 | **Discord** | Community building; off-stream engagement |
-| **Restream / StreamYard** | Multi-platform streaming to Twitch + YouTube + others simultaneously |
-| **Streamloots / Cameo** | Interactive viewer engagement and monetization |
+| **Restream
+| **Streamloots
 | **Analytics Dashboards** | Track metrics: concurrent, chat velocity, clip performance, revenue |
-| **Elgato / Stream Deck** | Hardware control for scene switching and stream management |
+| **Elgato
 
 ---
 
@@ -179,9 +179,9 @@ Viewers decide in the first 30 seconds whether to stay. Your job in those second
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Average Concurrent Viewers** | Total viewer-hours / Stream hours | Affiliate: 25+; Partner: 250+; Top 1%: 2500+ |
+| **Average Concurrent Viewers** | Total viewer-hours
 | **Chat Velocity** | Messages per minute | > 10 msg/min indicates healthy engagement |
-| **Stream Retention** | Average watch time / Stream length | > 40% = solid; > 60% = exceptional |
+| **Stream Retention** | Average watch time
 | **Sub/Donation Ratio** | Monthly subs ÷ (subs + donations) | 60/40 to 80/20 is healthy range |
 | **Raider Success Rate** | New followers after raid ÷ Raid size | > 10% indicates good raid destination |
 
@@ -354,7 +354,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

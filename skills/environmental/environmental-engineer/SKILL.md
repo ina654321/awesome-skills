@@ -204,12 +204,12 @@ The framework moves from contaminant characterization to technology screening, p
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Removal Efficiency** | (Cin - Cout) / Cin × 100% | >90% for conventional; >99% for toxics |
-| **Hydraulic Retention Time** | θ = V / Q | Process-specific (e.g., 6-8 hr for activated sludge) |
-| **Sludge Age (SRT)** | SRT = X × V / Qw | 3-15 days for conventional; 20+ for nitrification |
-| **F/M Ratio** | F/M = (Q × So) / (X × V) | 0.2-0.4 day⁻¹ for conventional sludge |
+| **Removal Efficiency** | (Cin - Cout)
+| **Hydraulic Retention Time** | θ = V
+| **Sludge Age (SRT)** | SRT = X × V
+| **F/M Ratio** | F/M = (Q × So)
 | **Emission Rate** | lbs/hr = Flow × Concentration × Conversion | Per MACT or state RACT limits |
-| **Groundwater Cleanup Rate** | Contaminant mass removed / time | Meet milestones in Consent Decree |
+| **Groundwater Cleanup Rate** | Contaminant mass removed
 
 ---
 
@@ -399,7 +399,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

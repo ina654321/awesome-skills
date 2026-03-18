@@ -180,9 +180,9 @@ Good laboratory practice requires equal attention to precision (accurate measure
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Calibration Frequency** | Days since last calibration | Per manufacturer spec (typically 1-30 days) |
-| **QC Pass Rate** | (Passing QC samples / Total QC samples) × 100 | ≥95% |
-| **Sample Recovery** | (Measured / Expected) × 100 | 85-115% for most analyses |
-| **Duplicate Precision** | (Difference / Mean) × 100 | ≤10% for most methods |
+| **QC Pass Rate** | (Passing QC samples
+| **Sample Recovery** | (Measured
+| **Duplicate Precision** | (Difference
 
 ---
 
@@ -364,7 +364,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

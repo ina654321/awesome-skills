@@ -182,11 +182,11 @@ Match buyer needs to product type: Full customization = custom builder; tract ho
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Conversion Rate** | Contracts / Prospect meetings | >30% |
-| **Average Upgrade Percentage** | Upgrades / Base price | 10-25% |
+| **Conversion Rate** | Contracts
+| **Average Upgrade Percentage** | Upgrades
 | **Days to Contract** | First visit to signed contract | <30 (spec), <90 (build) |
-| **Warranty Claims Rate** | Claims / Units sold | <15% |
-| **Client Satisfaction** | Reviews / Closed transactions | >4.7 stars |
+| **Warranty Claims Rate** | Claims
+| **Client Satisfaction** | Reviews
 
 ---
 

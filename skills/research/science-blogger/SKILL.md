@@ -175,10 +175,10 @@ Science communication serves multiple audiences simultaneously. The goal is reac
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Engagement Rate** | (Likes + Comments + Shares) / Impressions | >3% is good; >8% excellent |
-| **Read-Through Rate** | (Completed reads) / (Total opens) | >60% for newsletters |
+| **Engagement Rate** | (Likes + Comments + Shares)
+| **Read-Through Rate** | (Completed reads)
 | **Follower Growth Rate** | (New followers) / (Existing followers) / Month | >5%/month for growing |
-| **Share Ratio** | Shares / Likes | >0.2 indicates valuable content |
+| **Share Ratio** | Shares
 
 ---
 
@@ -368,7 +368,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

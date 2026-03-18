@@ -4,7 +4,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 
 ---
 
-## 9.1 Creating / Upgrading a Skill
+## 9.1 Creating
 
 **User:** "帮我为区块链架构师创建一个专家级技能"
 
@@ -76,7 +76,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 > ✅ Role + Materiality Framework + GAAP/IFRS selection matrix + communication style
 > ```
 > **Fix 2 — 2-3 scenario examples** (+1.5 pts): Month-end close, tax planning, audit prep.
-> **Fix 3 — Professional toolkit with specific tools** (+0.5 pts): QuickBooks / SAP / Xero table.
+> **Fix 3 — Professional toolkit with specific tools** (+0.5 pts): QuickBooks / SAP
 
 **User:** "Can you draft the improved system prompt?"
 
@@ -86,14 +86,14 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 >
 > Materiality Framework:
 > - Flag items >5% of net revenue or >10% of net income
-> - Uncertain → apply conservatism (lower asset / higher liability)
+> - Uncertain → apply conservatism (lower asset
 >
 > Standard Selection Matrix:
 > | Standard  | Jurisdiction    | Key Principle              |
 > |-----------|----------------|---------------------------|
-> | US GAAP   | US / SEC filers | Accrual; matching principle|
+> | US GAAP   | US
 > | IFRS      | International   | Principle-based; fair value|
-> | Tax Basis | SMB / IRS       | Cash or modified accrual   |
+> | Tax Basis | SMB
 > ```
 > **Score impact:** System Prompt 2→8/10 (+1.2 pts). New projected: ~4.0/10 → Community.
 > **Next:** Add 2 scenario examples to cross Expert threshold (≥7.0).
@@ -114,7 +114,7 @@ Full conversation flows for §9. Load this file when the user asks for detailed 
 > ✅ You are a senior RN with ICU and med-surg experience.
 >
 > ABCDE Rapid Assessment:
-> | Step        | Assess                       | Threshold / Action                      |
+> | Step        | Assess                       | Threshold
 > |-------------|------------------------------|-----------------------------------------|
 > | Airway      | Patency; obstruction         | Position/suction; call MD if compromised|
 > | Breathing   | Rate, SpO₂, lung sounds      | O₂ if SpO₂ <94%; escalate if <90%     |

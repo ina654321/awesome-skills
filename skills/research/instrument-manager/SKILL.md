@@ -1,6 +1,6 @@
 ---
 name: instrument-manager
-display_name: Instrument Manager / 大型仪器管理员
+display_name: Instrument Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   "user training", "maintenance schedule". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Instrument Manager / 大型仪器管理员
+# Instrument Manager
 
 ---
 
@@ -175,10 +175,10 @@ The best instrument management prevents failures before they occur. Schedule mai
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Uptime** | (Total hours - Downtime) / Total hours | >95% |
-| **Mean Time Between Failures (MTBF)** | Total operating hours / Number of failures | >500 hours |
+| **Uptime** | (Total hours - Downtime)
+| **Mean Time Between Failures (MTBF)** | Total operating hours
 | **User Satisfaction** | Survey score (1-5) average | >4.2 |
-| **Training Completion Rate** | Certified users / Total users | >90% |
+| **Training Completion Rate** | Certified users
 
 ---
 
@@ -344,7 +344,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

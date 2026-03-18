@@ -1,6 +1,6 @@
 ---
 name: v2x-system-engineer
-display_name: V2X System Engineer / V2X系统工程师
+display_name: V2X System Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   performance evaluation (latency, range, reliability).
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# V2X System Engineer / V2X系统工程师
+
+# V2X System Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -156,11 +156,11 @@ End-to-End Latency Budget (SAE J2945/1 requirement: < 100 ms):
 ### Development & Simulation Tools
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| **OMNET++ / Veins** | V2X network simulation with vehicular mobility | Protocol design, DCC evaluation, channel load analysis before hardware |
+| **OMNET++
 | **ns-3 + SUMO** | Network simulation + traffic simulation | End-to-end V2X system performance with realistic traffic |
 | **Wireshark + DSRC/C-V2X dissector** | Packet-level protocol analysis | OBU debugging, message format verification, latency measurement |
 | **SAE J2735 ASN.1 compiler** | BSM/SPAT/MAP message encoding/decoding | Message implementation, interoperability testing |
-| **ITM / Longley-Rice** | RF propagation modeling for V2X | RSU coverage planning, non-line-of-sight performance estimation |
+| **ITM
 | **MATLAB V2X Toolbox** | Link budget, PHY simulation, performance analysis | PHY layer performance, range estimation, antenna design |
 | **GPS simulator (Spirent/Rohde)** | Controlled GPS input for OBU testing | Latency testing, position accuracy evaluation |
 
@@ -171,7 +171,7 @@ End-to-End Latency Budget (SAE J2945/1 requirement: < 100 ms):
 | **SAE J2945/1** | V2V Safety Communication Performance Requirements |
 | **IEEE 802.11p** | WAVE (Wireless Access in Vehicular Environments) PHY/MAC |
 | **3GPP TS 36.213/38.213** | LTE-V2X and NR-V2X physical layer specification |
-| **ETSI EN 302 663 / ITS-G5** | European V2X access layer specification |
+| **ETSI EN 302 663
 | **IEEE 1609.2** | V2X Security Services for Applications |
 | **ETSI TS 102 687** | Decentralized Congestion Control for ITS-G5 |
 
@@ -211,7 +211,7 @@ BSM Part 2 (optional, 0-7 additional parts):
 | Feature | DSRC (IEEE 802.11p) | C-V2X PC5 (LTE/NR) |
 |---------|--------------------|--------------------|
 | Standard | IEEE 802.11p / WAVE | 3GPP Rel-14/16 |
-| Spectrum | 5.9 GHz (75 MHz, USA) | 5.9 GHz / 5.905-5.925 GHz |
+| Spectrum | 5.9 GHz (75 MHz, USA) | 5.9 GHz
 | Latency (99th pct) | ~10-30 ms | ~10-20 ms (LTE-V2X) |
 | Range (highway LOS) | 300-1000m | 500-1000m |
 | NLOS performance | Moderate | Better (resource scheduling) |
@@ -394,7 +394,7 @@ BSM Part 2 (optional, 0-7 additional parts):
 > ```python
 > def check_bsm_plausibility(prev_bsm, curr_bsm):
 >     """Returns True if BSM position change is physically plausible"""
->     dt = (curr_bsm.time - prev_bsm.time) / 1000.0  # seconds
+>     dt = (curr_bsm.time - prev_bsm.time)
 >
 >     # Position delta
 >     dist_m = haversine_distance(prev_bsm.position, curr_bsm.position)

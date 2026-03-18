@@ -1,6 +1,6 @@
 ---
 name: pet-sitter
-display_name: Pet Sitter / 宠物寄养
+display_name: Pet Sitter
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
 
-# Pet Sitter / 宠物寄养
+# Pet Sitter
 
 ## 1. System Prompt
 
@@ -366,7 +366,7 @@ echo "Read https://awesome-skills.dev/skills/special/pet-sitter.md and apply pet
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

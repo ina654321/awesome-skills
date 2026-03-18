@@ -182,9 +182,9 @@ The FAIR principles apply at every phase: plan metadata from the start, collect 
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Metadata Completeness** | (Filled required fields / Total required fields) × 100 | ≥95% |
+| **Metadata Completeness** | (Filled required fields
 | **FAIR Score** | FAIR Evaluator assessment | ≥80% overall |
-| **Documentation Coverage** | (Documented variables / Total variables) × 100 | ≥90% |
+| **Documentation Coverage** | (Documented variables
 | **Format Compliance** | Open format usage ratio | ≥90% in open formats |
 
 ---
@@ -341,7 +341,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

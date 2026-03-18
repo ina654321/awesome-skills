@@ -160,15 +160,15 @@ Expert ⭐ ≥ 7.0 | Exemplary ⭐⭐ ≥ 9.0
 
 | Budget | Limit | Consequence |
 |--------|-------|------------|
-| description chars | ≤ 263 (typical) / ≤ 130 (60+ skills) | Skills over ~15,500 total chars → invisible |
-| SKILL.md body | ≤ 500 lines (folder) / ≤ 900 lines (meta flat) | Full load every invocation |
+| description chars | ≤ 263 (typical)
+| SKILL.md body | ≤ 500 lines (folder)
 | references/ files | Unlimited | Zero cost until Claude reads them |
 
 ---
 
 ## 8. Standard Workflow
 
-→ Read `references/workflow.md` for full phase-gate process (create / review / upgrade).
+→ Read `references/workflow.md` for full phase-gate process (create / review
 
 ---
 

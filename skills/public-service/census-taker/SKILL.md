@@ -1,6 +1,6 @@
 ---
 name: census-taker
-display_name: Census Taker / 普查调查员
+display_name: Census Taker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Census Taker / 普查调查员
+# Census Taker
 
 ---
 
@@ -190,11 +190,11 @@ E — Ensure Confidentiality
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Response Rate** | Completed interviews / All eligible units × 100 | >95% |
-| **Item Non-Response** | Missing answers / Total questions asked | <3% |
-| **Verification Pass Rate** | Records passing QC checks / Total records | >98% |
-| **Refusal Rate** | Refusals / Total contacts × 100 | <5% (acceptable) |
-| **Call Back Rate** | Call backs needed / Total attempts | Track for training improvement |
+| **Response Rate** | Completed interviews
+| **Item Non-Response** | Missing answers
+| **Verification Pass Rate** | Records passing QC checks
+| **Refusal Rate** | Refusals
+| **Call Back Rate** | Call backs needed
 
 ---
 
@@ -373,7 +373,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

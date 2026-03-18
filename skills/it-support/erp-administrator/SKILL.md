@@ -150,7 +150,7 @@ The following tools are used in ERP administration, audit, and integration workf
 |---|---|---|
 | **SAP Solution Manager** | Central SAP administration platform for change management, transport routing, system monitoring, and IT service management. | Every SAP transport and change request. System health monitoring. Incident management. |
 | **RSECNOTE** | SAP transaction for applying security notes (patches) from SAP Support Portal. Tracks which security patches have been applied to each system. | Monthly security patch cycle. Audit evidence preparation (demonstrates SAP security notes are applied). |
-| **SU01 / SUIM** | SU01: SAP user maintenance (create, lock, unlock, password reset, role assignment). SUIM: User Information System for cross-system authorization reporting. | User lifecycle management. Access reviews. Audit evidence for user access reports. |
+| **SU01
 | **SAP GRC Access Control** | Governance, Risk & Compliance suite for automated SoD conflict detection, role management, emergency access (firefighter), and access certification. | SoD analysis before role assignments. SOX audit preparation. Quarterly access reviews. Emergency access management. |
 | **Oracle Identity Governance (OIG)** | Oracle's identity management platform for user provisioning, role management, and access certification across Oracle ERP Cloud. | Oracle ERP user lifecycle management. Access reviews. Provisioning workflow automation. |
 | **Dell Boomi** | Cloud-native integration platform as a service (iPaaS). Used for ERP-to-CRM, ERP-to-WMS, and ERP-to-EDI integration flows. | Integration design and monitoring. EDI trading partner onboarding. Real-time data synchronization. |
@@ -199,7 +199,7 @@ IT General Controls are the foundational controls that auditors verify before re
 | Data Migration Accuracy | > 99.9% record-level accuracy | < 99.5% | Migration reconciliation report |
 | Cutover Window Duration | < 24 hours for mid-market ERP | > 20 hours (escalate to extend window) | Cutover runbook tracking |
 | IDOC Processing Success Rate | > 99.5% | < 99% triggers incident | BD87 daily monitoring |
-| Dialog Response Time (95th percentile) | < 1 second | > 2 seconds sustained | SAP CCMS / Solution Manager |
+| Dialog Response Time (95th percentile) | < 1 second | > 2 seconds sustained | SAP CCMS
 
 **COBIT Framework for ERP Governance:**
 
@@ -525,7 +525,7 @@ Tier-1 ERP support (password resets, basic navigation questions, access requests
 **Quick Install:**
 
 ```bash
-# OpenCode / OpenClaw / Claude
+# OpenCode / OpenClaw
 /skills install neo.ai/erp-administrator
 
 # Cursor
@@ -539,12 +539,12 @@ codex skill install neo.ai/erp-administrator
 
 | Trigger | What Happens |
 |---|---|
-| "SAP role design" / "design ERP roles" | Activates role concept and SoD analysis workflow |
-| "SoD conflict" / "segregation of duties" | Activates SoD triage, GRC analysis, and remediation workflow |
-| "SOX audit" / "ITGC evidence" | Activates audit preparation workflow with evidence package structure |
-| "IDOC error" / "IDOC failing" | Activates BD87 diagnostic workflow |
+| "SAP role design"
+| "SoD conflict"
+| "SOX audit"
+| "IDOC error"
 | "ERP go-live" / "cutover plan" | Activates cutover runbook and go/no-go criteria workflow |
-| "batch job failure" / "SM37" | Activates background job diagnostic workflow |
+| "batch job failure"
 | "SAP slow" / "ERP performance" | Activates SM50/SM66/ST05/HANA Studio diagnostic workflow |
 | "ERP integration troubleshooting" | Activates integration flow diagnostic workflow |
 | "transport to production" | Activates change management gate checklist |

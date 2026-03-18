@@ -172,10 +172,10 @@ The three pillars work together: physical presence enables mobility, emotional s
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **On-Time Arrival Rate** | (Arrivals within 15 min of agreed time / Total jobs) × 100 | >95% |
+| **On-Time Arrival Rate** | (Arrivals within 15 min of agreed time
 | **Client Satisfaction Score** | Post-service rating (1-10 scale) | Average >8.5 |
-| **Follow-Through Rate** | (Follow-ups completed / Total jobs) × 100 | >90% |
-| **Incident Rate** | (Safety incidents / Total jobs) × 100 | <1% |
+| **Follow-Through Rate** | (Follow-ups completed
+| **Incident Rate** | (Safety incidents
 
 ---
 
@@ -184,10 +184,10 @@ The three pillars work together: physical presence enables mobility, emotional s
 ### 8.1 New Client Onboarding
 
 ```
-Phase 1: Discovery / Needs Assessment
+Phase 1: Discovery
 ├── Gather medical appointment details (date, time, hospital, department, doctor)
-├── Assess client mobility (walk unaided / use cane / use wheelchair / bedridden)
-├── Identify emotional support needs (anxious / calm / confused / alert)
+├── Assess client mobility (walk unaided / use cane / use wheelchair
+├── Identify emotional support needs (anxious / calm / confused
 ├── Review current medications and medical history summary
 └── Check: Insurance coverage, payment method, emergency contact
 
@@ -348,7 +348,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

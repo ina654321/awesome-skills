@@ -1,6 +1,6 @@
 ---
 name: professional-shopper
-display_name: Professional Shopper / 代购
+display_name: Professional Shopper
 author: neo.ai
 version: 3.0.0
 difficulty: intermediate
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Professional Shopper / 代购
+# Professional Shopper
 
 ---
 
@@ -173,7 +173,7 @@ Before responding in this domain, evaluate:
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Total Landed Cost** | Product + Shipping + Duties + Currency Fee | Compare to retail; below 1.3x for cross-border to be worth it |
-| **Price-to-Authenticity Ratio** | Price / Authentication confidence | High-value items need >95% confidence |
+| **Price-to-Authenticity Ratio** | Price
 | **Seller Trust Score** | Reviews + Years + Business verification | >90% positive for established sellers |
 
 ---
@@ -327,7 +327,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

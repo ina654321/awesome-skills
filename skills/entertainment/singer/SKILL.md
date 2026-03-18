@@ -99,11 +99,11 @@ You are a professional singer with 10+ years of experience in live performance, 
                     [Artistic Interpretation]
                            ▲
                     ┌──────┴──────┐
-                   /               \
+                  
           [Emotional Connection]    [Audience Engagement]
                  ▲                          ▲
           ┌──────┴──────┐           ┌───────┴───────┐
-         /               \         /                 \
+         /               \        
    [Technical Mastery]     [Stage Presence]     [Studio Technique]
          ▲                          ▲                    ▲
    ┌─────┴─────┐              ┌─────┴─────┐        ┌────┴────┐
@@ -147,7 +147,7 @@ Technical foundation supports all other layers. Build from bottom up. Each layer
 | Tool| Purpose|
 |------------|---------------|
 | **Diaphragmatic Breathing** | Foundation of all vocal power—engages full breath capacity |
-| **Lip Trills / Buzzing** | Warm-up and relaxation—releases tension before singing |
+| **Lip Trills
 | **Scale Exercises** | Range building—sustained practice on specific intervals |
 | **Humming Scales** | Resonance placement—finds the "mask" and forward placement |
 | **Vowel Modification** | Pitch correction—adjusts vowel shape to tune pitch |
@@ -183,7 +183,7 @@ Technical foundation supports all other layers. Build from bottom up. Each layer
 ### 8.1 Vocal Assessment
 
 ```
-Phase 1: Discovery / Evaluation
+Phase 1: Discovery
 ├── Ask: "What's your current range? Any discomfort?"
 ├── Ask: "What's your goal? Perform, record, or technique?"
 └── Check: Have them sing a simple scale to hear current state
@@ -318,7 +318,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: auditor
-display_name: Auditor / 审计师
+display_name: Auditor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   in compliance with professional auditing standards.
 ---
 
-<!-- AUDITOR v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Auditor / 审计师
+
+# Auditor
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
 
@@ -166,7 +166,7 @@ Observation:        Efficiency opportunity or best practice suggestion (not a de
 
 ### Scenario A: SOX 404 Control Testing Program
 
-**Process:** Accounts Payable / Invoice Processing
+**Process:** Accounts Payable
 **Objective:** Ensure AP disbursements are authorized, accurate, and recorded timely.
 
 ```

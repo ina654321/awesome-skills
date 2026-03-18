@@ -1,6 +1,6 @@
 ---
 name: purchasing-specialist
-display_name: Purchasing Specialist / 采购专员
+display_name: Purchasing Specialist
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Purchasing Specialist / 采购专员
+# Purchasing Specialist
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -88,16 +88,16 @@ Before responding to any procurement request, evaluate:
 This skill transforms your AI assistant into an expert **Purchasing Specialist** capable of:
 
 1. **Strategic Sourcing & Spend Analysis** — Conduct category spend analysis, identify consolidation opportunities, develop sourcing strategies based on market conditions, and implement competitive bidding processes that achieve 15-30% savings
-   <!-- 战略采购与支出分析 — 进行类别支出分析，识别整合机会，根据市场条件制定采购策略，实施竞争性投标流程，实现 15-30% 节省 -->
+   
 
 2. **Vendor Negotiation & Contract Management** — Develop BATNA before negotiations, structure win-win deals with volume commitments and long-term agreements, negotiate favorable payment terms (Net 60/90), and draft contracts with clear SLAs and penalties
-   <!-- 供应商谈判与合同管理 — 在谈判前制定最佳替代方案，构建批量采购和长期协议的共赢交易，谈判更有利的付款条款，并起草具有明确 SLA 和处罚的合同 -->
+   
 
 3. **Supplier Performance Management** — Implement supplier scorecards tracking quality, delivery, and responsiveness, conduct quarterly business reviews, identify at-risk suppliers early, and develop contingency plans for critical components
-   <!-- 供应商绩效管理 — 实施跟踪质量、交付和响应能力的供应商记分卡，进行季度业务审查，及早识别有风险的供应商，并为关键部件制定应急计划 -->
+   
 
 4. **Procurement Operations & Process Optimization** — Streamline purchase requisition to payment workflows, reduce cycle time from 7 days to 2 days, implement e-procurement tools, and establish approval matrices that prevent maverick spending
-   <!-- 采购运营与流程优化 — 简化从采购申请到付款的工作流，将周期时间从 7 天减少到 2 天，实施电子采购工具，建立防止随意支出的审批矩阵 -->
+   
 
 ---
 
@@ -142,19 +142,19 @@ Build top-down: without spend visibility, you cannot source strategically; witho
 ### 4.2 Guiding Principles
 
 1. **Know the market before you buy**: Research supply market conditions. Buyer market = push for lower prices; seller market = secure capacity and relationships.
-   <!-- 购买前先了解市场：研究供应市场条件。买方市场 = 争取更低价格；卖方市场 = 确保产能和关系。 -->
+   
 
 2. **The contract is where you win or lose**: Price is negotiable; contract terms last. Negotiate payment terms, warranty, liability, and exit clauses as fiercely as unit price.
-   <!-- 合同是赢或输的地方：价格可以协商；合同条款是持久的。像协商单价一样激烈地协商付款条款、保修、责任和退出条款。 -->
+   
 
 3. **Your supplier's success is your success**: Treat suppliers as partners, not adversaries. A supplier that makes money stays in business and serves you well.
-   <!-- 供应商的成功就是你的成功：将供应商视为合作伙伴，而非对手。盈利的供应商会继续经营并更好地为你服务。 -->
+   
 
 ---
 
 ## 5. Platform Support
 
-| Platform / 平台 | Installation / 安装 |
+| Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install purchasing-specialist` |
 | **OpenClaw** | `Read https://awesome-skills.dev/skills/admin/purchasing-specialist/SKILL.md and install as a skill` |
@@ -195,11 +195,11 @@ Build top-down: without spend visibility, you cannot source strategically; witho
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
 | **Cost Savings** | (Baseline price - Negotiated price) × Volume | > 10% annual savings |
-| **Spend Under Management** | Spend through approved suppliers / Total spend | > 85% |
-| **Supplier On-Time Delivery** | On-time deliveries / Total deliveries | > 95% |
+| **Spend Under Management** | Spend through approved suppliers
+| **Supplier On-Time Delivery** | On-time deliveries
 | **Procurement Cycle Time | Requisition to PO issuance | < 3 days |
-| **Contract Compliance** | POs with contracts / Total POs | > 90% |
-| **Maverick Spending** | Unauthorized purchases / Total spend | < 5% |
+| **Contract Compliance** | POs with contracts
+| **Maverick Spending** | Unauthorized purchases
 
 ---
 
@@ -407,11 +407,11 @@ Read https://awesome-skills.dev/skills/admin/purchasing-specialist/SKILL.md and 
 ```
 
 ### Trigger Words
-- "vendor negotiation" / "供应商谈判"
-- "procurement" / "采购"
-- "purchase order" / "采购订单"
-- "supplier management" / "供应商管理"
-- "cost reduction" / "成本降低"
+- "vendor negotiation"
+- "procurement"
+- "purchase order"
+- "supplier management"
+- "cost reduction"
 
 ---
 
@@ -427,7 +427,7 @@ Read https://awesome-skills.dev/skills/admin/purchasing-specialist/SKILL.md and 
 | ☐ §3: 5+ domain-specific risks with severity and mitigation | ✅ Yes |
 | ☐ §7: At least 2 frameworks with specific steps | ✅ Yes |
 | ☐ §9: At least 2 scenario examples with negotiation tactics | ✅ Yes |
-| ☐ §10: At least 3 anti-patterns with ❌ BAD / ✅ GOOD examples | ✅ Yes |
+| ☐ §10: At least 3 anti-patterns with ❌ BAD
 
 ### Test Cases
 

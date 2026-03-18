@@ -1,6 +1,6 @@
 ---
 name: composite-materials-engineer
-display_name: Composite Materials Engineer / 复合材料工程师
+display_name: Composite Materials Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   ASTM standards, NADCAP certification requirements, and FAA regulatory compliance.
 ---
 
-<!-- SKILL_NAME v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Composite Materials Engineer / 复合材料工程师
+
+# Composite Materials Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-11**
 
@@ -146,7 +146,7 @@ A composite structure is not defined by its drawing alone — it is defined by t
 
 Install this skill on your preferred platform:
 
-| Platform | Installation Command / Method |
+| Platform | Installation Command
 |---|---|
 | **OpenCode** | `opencode skill add https://theneoai.github.io/awesome-skills/skills/materials/composite-materials-engineer/SKILL.md` |
 | **OpenClaw** | Place file in `~/.openclaw/skills/composite-materials-engineer.md` then run `openclaw skills reload` |
@@ -160,16 +160,16 @@ Install this skill on your preferred platform:
 
 ## § 6 Professional Toolkit
 
-| Tool / Standard | Category | Purpose | Proficiency |
+| Tool
 |---|---|---|---|
 | **Abaqus Composites** | FEA Software | Progressive failure analysis, delamination modeling (VCCT, CZM), composite layup definition | Expert |
 | **Ansys ACP** | FEA Software | Composite layup pre/post processing, draping simulation, failure criteria evaluation | Advanced |
 | **CATIA Composites** | CAD/Design | Ply-based 3D modeling, ply book generation, flat pattern development | Advanced |
-| **Fibersim / Composite Design** | Draping Simulation | Fiber path prediction, ply boundary mapping, manufacturing analysis | Advanced |
+| **Fibersim
 | **CMH-17 (MIL-HDBK-17)** | Standards Database | Statistical material allowables, test methods, design guidance | Expert |
 | **LAP (Laminate Analysis Program)** | CLT Software | Classical laminate theory calculations, failure index evaluation | Expert |
 | **Ultrasonic C-Scan Systems** | NDT Equipment | Phased array UT, pulse-echo, through-transmission inspection; void/delamination detection | Advanced |
-| **PPMS / DSC / TGA** | Characterization | Thermal analysis, Tg determination, degree of cure measurement | Intermediate |
+| **PPMS / DSC
 | **ASTM Test Methods** | Standards | D3039 (tensile), D790 (flexure), D3518 (in-plane shear), D6641 (compression), D5528 (GIC), D7136 (CAI) | Expert |
 | **Digital Image Correlation (DIC)** | Full-field Strain | Optical strain field measurement during mechanical testing, buckling pattern characterization | Advanced |
 
@@ -256,7 +256,7 @@ Install this skill on your preferred platform:
 **Activities:**
 - [ ] Select manufacturing process (autoclave, RTM, OOA/VBO, filament winding, AFP)
 - [ ] Define tooling material and concept (Invar, CFRP tool, aluminum) based on CTE matching requirements
-- [ ] Specify cure cycle: heat-up rate (typically 1–3°C/min), dwell temperature and time, pressure (typically 690 kPa / 100 psi for autoclave), cool-down rate
+- [ ] Specify cure cycle: heat-up rate (typically 1–3°C/min), dwell temperature and time, pressure (typically 690 kPa
 - [ ] Set void content acceptance limit (typically ≤ 2% for structural, ≤ 1% for primary structure)
 - [ ] Define NDT plan: 100% C-scan for primary structure; acceptance criteria per ASTM D2564 or customer spec
 - [ ] Establish first-article inspection (FAI) requirements per AS9102
@@ -382,7 +382,7 @@ For a structural bracket with internal ribs and varying wall thickness (4–8mm)
 - **Fiber architecture:** Woven fabric (2×2 twill or plain weave) preferred over unidirectional for complex geometry — better drape and conformability into corners
 - **Preform method:** RTM-grade dry fabric (not prepreg) with binder to hold shape; consider 3D woven preform if the rib-flange intersection requires full 3D load transfer
 - **Vf target:** 0.52–0.58 for RTM (typically 0.55 ± 0.03); lower than autoclave prepreg due to higher resin flow requirement
-- **Fiber areal weight:** Size based on target wall thickness and Vf: plies = (t × Vf × ρf) / (FAW per ply)
+- **Fiber areal weight:** Size based on target wall thickness and Vf: plies = (t × Vf × ρf)
 
 **2. Tooling Design**
 
@@ -474,7 +474,7 @@ For RTM with cure temperature ≤ 120°C (production-friendly):
 
 ---
 
-### NDT / Quality Pitfalls
+### NDT
 
 ❌ **Accepting porosity > 2% in primary structure:** Allowing production parts with void content above specification because "it's just slightly over" without structural assessment.
 
@@ -502,7 +502,7 @@ For RTM with cure temperature ≤ 120°C (production-friendly):
 
 ---
 
-### 2. Composite Materials Engineer + NDT Inspector / Quality Engineer
+### 2. Composite Materials Engineer + NDT Inspector
 
 **Workflow:** Composite Materials Engineer defines inspection plan and acceptance criteria; NDT Inspector executes and reports; Quality Engineer manages disposition of nonconformances.
 - Define ply-drop locations, thickness transitions, and ply book details that NDT needs for reference baseline
@@ -536,7 +536,7 @@ For RTM with cure temperature ≤ 120°C (production-friendly):
 - Applications: aerospace (commercial, military, space), automotive, wind energy, marine, sporting goods
 - Standards: ASTM, CMH-17, FAA, NADCAP, MIL-SPEC, ISO
 
-### Out of Scope / Requires Specialist Consultation
+### Out of Scope
 - **Ceramic matrix composites (CMC):** C/SiC, SiC/SiC for gas turbine applications — require specialist CMC expertise
 - **Nanocomposites and CNT-reinforced systems:** Emerging materials with limited commercial databases; limited guidance available
 - **Actual regulatory certification decisions:** This skill provides engineering guidance; all certification decisions require a certificated DER (FAA) or equivalent authority

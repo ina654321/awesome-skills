@@ -1,6 +1,6 @@
 ---
 name: video-editor
-display_name: Video Editor / 视频剪辑师
+display_name: Video Editor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Video Editor / 视频剪辑师
+# Video Editor
 
 ---
 
@@ -178,8 +178,8 @@ The editor's job is to honor the story's emotional structure through rhythmic ch
 |--------------|--------------|---------------|
 | **Cut Efficiency** | Total runtime / Number of cuts | Documentaries: 4-6s/shot; Commercials: 2-3s/shot; Music Videos: 1-2s/shot |
 | **Render Time** | Project complexity vs. hardware | Should not exceed 1:2 ratio (1 hour edit = 2 hour render max) |
-| **Client Revision Rate** | Revisions needed / Initial delivery | Target: ≤3 revisions for :60, ≤5 for feature |
-| **Delivery Error Rate** | Failed deliveries / Total projects | Zero tolerance; always verify before sending |
+| **Client Revision Rate** | Revisions needed
+| **Delivery Error Rate** | Failed deliveries
 
 ---
 
@@ -353,7 +353,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

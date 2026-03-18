@@ -1,6 +1,6 @@
 ---
 name: copywriter
-display_name: Copywriter / 文案策划
+display_name: Copywriter
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   Covers B2B and B2C contexts with proven frameworks (AIDA, PAS, StoryBrand) and copy critique methodology.
 ---
 
-<!-- COPYWRITER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Copywriter / 文案策划
+
+
+
+# Copywriter
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Creative-purple)](.)
 
@@ -98,8 +98,8 @@ CONVERSION PRINCIPLES:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Long-form copy, email sequences, critique |
-| Cursor / IDE | `@copywriter` in composer | Document / website context | Web copy, landing pages, email templates |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Ad copy generation, subject line testing |
+| Cursor / IDE | `@copywriter` in composer | Document
+| API
 | Claude Projects | Add to project instructions | Persistent brand voice context | Consistent copy for ongoing campaigns |
 
 ---
@@ -199,7 +199,7 @@ Re-engagement: "[First name], are you still interested in [topic]?"
 | 2 | Offer clarity | One clear offer; one CTA; value proposition defined | Multiple offers on one page; unclear what you're selling |
 | 3 | Competitive differentiation | What makes this different from the 3 closest alternatives | "We're the best" without specific differentiation |
 | 4 | Proof and social proof | Testimonials, case studies, statistics, or credentials identified | No proof elements; rely on claims only |
-| 5 | Framework selection | AIDA / PAS / SB7 / BAB chosen based on audience awareness level | Write without framework; produce disjointed copy |
+| 5 | Framework selection | AIDA / PAS / SB7
 
 ### Phase 2: Writing & Optimization
 
@@ -208,7 +208,7 @@ Re-engagement: "[First name], are you still interested in [topic]?"
 | 1 | Headline and hook | 3+ headline variations written; read aloud test passed | 1 headline; never tested aloud |
 | 2 | Body copy draft | Benefits-led; uses customer language; one CTA | Features-only; corporate speak |
 | 3 | Readability check | Hemingway Grade 6-8 (conversational); no jargon | Grade 12+ academic writing |
-| 4 | CTA optimization | Clear, action-oriented verb; benefit-focused ("Get my free guide") | "Submit" / "Click here" |
+| 4 | CTA optimization | Clear, action-oriented verb; benefit-focused ("Get my free guide") | "Submit"
 | 5 | Copy critique against framework | Each framework element checked; weak sections identified and rewritten | Submit first draft without self-review |
 
 ---
@@ -310,7 +310,7 @@ Why it works:
 |-------------|------|-----------------|
 | **Feature Dumping** | Reader doesn't connect features to their life | Translate every feature to a benefit: "Feature X means you can Y" |
 | **We-We Copy** | "We are the leading... We offer... Our platform..." | Lead with "you"; every sentence about the reader, not the brand |
-| **Weak CTAs** | "Submit" / "Learn More" / "Click Here" | Action verb + benefit: "Get my free plan", "Start saving time today" |
+| **Weak CTAs** | "Submit" / "Learn More"
 | **Headline that Describes** | "About Our Skincare Line" | Headline should make a promise or provoke curiosity |
 | **Testimonials Without Specifics** | "Great product! Highly recommend." — useless | Real results: "I increased email open rates by 34% in my first month" — credible |
 | **Readability Neglect** | Long paragraphs, jargon, passive voice | Hemingway test; Grade 6-8; active voice; 1-2 sentence paragraphs |
@@ -360,16 +360,16 @@ Product/service: [what it is]
 Target audience: [specific persona with their problem]
 Key benefit: [most important outcome the customer gets]
 Differentiator: [what makes this different from alternatives]
-CTA goal: [free trial / demo / purchase / email signup]
+CTA goal: [free trial / demo / purchase
 Question: Write landing page hero section.
 ```
 
 **For email copy:**
 ```
-Email goal: [welcome / nurture / sales / re-engagement]
+Email goal: [welcome / nurture / sales
 Audience segment: [who is this to? where are they in the journey?]
 One thing to communicate: [single message this email delivers]
-Subject line preference: [curiosity / direct benefit / urgency / other]
+Subject line preference: [curiosity / direct benefit / urgency
 Question: Write the email.
 ```
 

@@ -1,6 +1,6 @@
 ---
 name: uav-flight-control-engineer
-display_name: UAV Flight Control Engineer / 无人机飞控工程师
+display_name: UAV Flight Control Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,9 +14,9 @@ description: >
   multirotor, VTOL), DO-178C/DO-254 certification, and GPS-denied navigation using VIO and optical flow.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# UAV Flight Control Engineer / 无人机飞控工程师
+
+# UAV Flight Control Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-11**
 
@@ -105,18 +105,18 @@ This skill transforms your AI assistant into an expert **UAV Flight Control Engi
 
 ```
  ┌─────────────────────────────────────────────────────────────────┐
- │                    MISSION / AUTOPILOT LAYER                    │
+ │                    MISSION
  │           Waypoints → 4D Trajectory → Path Following           │
  └─────────────────────────┬───────────────────────────────────────┘
                            │ Position/Velocity Commands
  ┌─────────────────────────▼───────────────────────────────────────┐
  │                   OUTER LOOP (Position Control)                 │
- │        PID / MPC / L1 Navigation   |   Velocity Commands       │
+ │        PID / MPC
  └─────────────────────────┬───────────────────────────────────────┘
-                           │ Attitude / Thrust Commands
+                           │ Attitude
  ┌─────────────────────────▼───────────────────────────────────────┐
  │                INNER LOOP (Attitude Control)                    │
- │      PID Cascaded / LQR / INDI    |  Rate Loop (500Hz-1kHz)   │
+ │      PID Cascaded / LQR
  └─────────────────────────┬───────────────────────────────────────┘
                            │ Actuator Commands
  ┌─────────────────────────▼───────────────────────────────────────┐
@@ -160,14 +160,14 @@ Install this skill on your preferred AI coding platform:
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| **ArduPilot / PX4** | Open-source autopilot firmware for Pixhawk and compatible hardware | Primary FCS software for research, prototyping, and commercial platforms requiring customization |
+| **ArduPilot
 | **MATLAB/Simulink + Aerospace Blockset** | Model-based design, flight dynamics simulation, rapid control prototyping | Control law design, gain scheduling, nonlinear simulation, code generation for embedded targets |
 | **FlightGear + JSBSim** | Open-source 6-DOF flight simulation with realistic aerodynamics | HIL simulation, pilot training, flight envelope exploration without flight risk |
 | **ROS2 + MAVROS** | Robot Operating System with MAVLink bridge for UAV autonomy | Mission management, computer vision integration, research platforms |
 | **Vector NAV VN-300 / VectorNav** | High-precision GNSS/INS sensor with dual-antenna heading | When heading accuracy <0.5° is required; GPS-challenging environments |
 | **STM32CubeIDE + FreeRTOS** | Embedded development for STM32-based flight controllers | Custom FCS hardware development, rate loop implementation at 1kHz+ |
-| **QGroundControl / Mission Planner** | Ground control station for parameter tuning and mission planning | Field operations, real-time telemetry monitoring, parameter management |
-| **XFLR5 / AVL** | Aerodynamic analysis and vortex lattice method | Fixed-wing aerodynamic derivative estimation, stability analysis, trim computation |
+| **QGroundControl
+| **XFLR5
 | **Python (scipy.signal, control)** | Control system analysis and filter design | Transfer function analysis, Bode plots, stability margins, EKF implementation |
 
 ---
@@ -294,7 +294,7 @@ altitude_P = altitude_P * 0.6   # Reduce by 40%
 ```
 Then verify the oscillation frequency changes proportionally. If it does, you've confirmed this is the position P gain causing overshoot into instability.
 
-**Fix - Add Derivative / Reduce Bandwidth:**
+**Fix - Add Derivative
 If barometer noise is an issue, add a low-pass filter on the altitude error derivative:
 ```
 # Python equivalent of what ArduPilot PSC_ACCZ_I/P parameters control
@@ -409,7 +409,7 @@ output_unlimited = Kp*error + Ki*integral + Kd*derivative
 output = clip(output_unlimited, -MAX_OUTPUT, MAX_OUTPUT)
 # Back-calculate to prevent windup
 if output != output_unlimited:
-    integral -= (output_unlimited - output) / Ki * dt
+    integral -= (output_unlimited - output)
 ```
 
 ---
@@ -525,7 +525,7 @@ opencode skill add https://raw.githubusercontent.com/theneoai/awesome-skills/mai
 
 Activate this skill with phrases like:
 - "As a UAV flight control engineer..."
-- "飞控工程师模式" / "无人机飞控"
+- "飞控工程师模式"
 - "Help me tune my PID controller for..."
 - "Design an EKF for my UAV with..."
 - "How do I certify my flight control software under DO-178C?"

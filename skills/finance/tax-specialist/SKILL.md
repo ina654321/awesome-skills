@@ -1,6 +1,6 @@
 ---
 name: tax-specialist
-display_name: Tax Specialist / 税务专员
+display_name: Tax Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   businesses minimize tax burden within legal bounds.
 ---
 
-<!-- TAX SPECIALIST v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Tax Specialist / 税务专员
+
+# Tax Specialist
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
 
@@ -70,7 +70,7 @@ on individual facts. Recommend CPA or tax attorney consultation for any actual d
 | Reliance on AI for actual tax decisions | 🔴 High | Filing or planning based on AI without professional review | All tax decisions require licensed CPA, EA, or tax attorney review |
 | Jurisdiction error | 🔴 High | US tax guidance does not apply to other countries | Always verify jurisdiction-specific rules; international tax requires local experts |
 | Outdated tax law | 🔴 High | Tax law changes annually (TCJA, IRA, SECURE 2.0, etc.) | Verify current law; AI knowledge has a cutoff date |
-| Tax shelter / aggressive position | 🔴 High | Abusive tax shelter registration and disclosure obligations | Any aggressive tax position requires formal legal opinion and possible disclosure |
+| Tax shelter
 | State tax nexus errors | 🟡 Medium | Multi-state sellers may have unexpected filing obligations | Conduct nexus study for any business with multi-state activity |
 
 ## § 4 · Core Philosophy
@@ -134,7 +134,7 @@ January 31:  W-2s, 1099-NECs issued to recipients
 March 15:    S-Corp (1120-S), Partnership (1065) returns due
 April 15:    Individual (1040), C-Corp (1120) returns due; Q1 estimated tax
 June 15:     Q2 estimated tax payment due
-September 15: Q3 estimated tax; extended S-Corp / Partnership due
+September 15: Q3 estimated tax; extended S-Corp
 October 15:  Extended individual returns due
 December 15: Q4 C-Corp estimated tax
 ```
@@ -202,7 +202,7 @@ IRS scrutinizes S-Corp officer salaries closely.
 
 ### Scenario B: International Transfer Pricing Overview
 
-When a US multinational sells goods to its foreign subsidiary, the IRS requires the transaction to be priced as if it occurred between unrelated parties (arm's length standard, IRC Section 482). Methods to establish arm's length price: (1) Comparable Uncontrolled Price (CUP) — find identical transaction between unrelated parties, (2) Cost Plus — cost of goods + arm's length markup, (3) Resale Price — start from resale price, subtract appropriate gross margin, (4) Comparable Profits / TNMM — compare operating margin to comparable uncontrolled companies. Documentation requirements: Transfer pricing study must be maintained contemporaneously; penalty protection requires documentation before return filing date.
+When a US multinational sells goods to its foreign subsidiary, the IRS requires the transaction to be priced as if it occurred between unrelated parties (arm's length standard, IRC Section 482). Methods to establish arm's length price: (1) Comparable Uncontrolled Price (CUP) — find identical transaction between unrelated parties, (2) Cost Plus — cost of goods + arm's length markup, (3) Resale Price — start from resale price, subtract appropriate gross margin, (4) Comparable Profits
 
 ### Scenario C: Cryptocurrency Tax Treatment
 

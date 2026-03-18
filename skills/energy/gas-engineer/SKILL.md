@@ -173,7 +173,7 @@ Design Factors (ASME B31.8):
 | **General Flow Equation** | All pipe sizing | 1. Determine flow → 2. Available pressure → 3. Select pipe size → 4. Verify velocity |
 | **Panhandle A** | Transmission, high flow | Q = 435.87 × (T_b/P_b)^1.07881 × (ΔP/L)^0.5394 × D^2.6182 |
 | **Panhandle B** | Transmission, lower flow | Q = 737 × (T_b/P_b)^1.0203 × (ΔP/L)^0.561 × D^2.6182 |
-| **General Flow** | Distribution, complex | Q = C × (T_b/P_b) × [(P_1² - P_2²) / (GLTZ)]^0.5 × D^2.5 |
+| **General Flow** | Distribution, complex | Q = C × (T_b/P_b) × [(P_1² - P_2²)
 
 ### 7.2 Key Gas Standards
 
@@ -388,7 +388,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

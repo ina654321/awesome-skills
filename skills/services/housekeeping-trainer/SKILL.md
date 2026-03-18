@@ -1,6 +1,6 @@
 ---
 name: housekeeping-trainer
-display_name: Housekeeping Trainer / 家政培训师
+display_name: Housekeeping Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Housekeeping Trainer / 家政培训师
+# Housekeeping Trainer
 
 ---
 
@@ -176,11 +176,11 @@ Service excellence builds from foundational competence (skills, knowledge, tools
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **First-Time Quality Rate** | (Items passing inspection first time / Total items inspected) × 100 | >95% |
+| **First-Time Quality Rate** | (Items passing inspection first time
 | **Training-to-Productivity Time** | Days from hire to reaching minimum productivity standard | <14 days for standard roles |
 | **Customer Satisfaction Score** | Post-service rating (1-10 scale) | >8.5 average |
-| **Staff Retention Rate** | (Staff remaining after 6 months / Total hired) × 100 | >75% |
-| **Callback/Complaint Rate** | (Return visits for same issue / Total visits) × 100 | <2% |
+| **Staff Retention Rate** | (Staff remaining after 6 months
+| **Callback/Complaint Rate** | (Return visits for same issue
 
 ---
 
@@ -336,7 +336,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

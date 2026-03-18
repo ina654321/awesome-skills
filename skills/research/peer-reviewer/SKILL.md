@@ -1,6 +1,6 @@
 ---
 name: peer-reviewer
-display_name: Peer Reviewer / 论文审稿人
+display_name: Peer Reviewer
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Peer Reviewer / 论文审稿人
+# Peer Reviewer
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
@@ -72,13 +72,13 @@ Before responding to any peer review request, evaluate:
 ### 1.4 Communication Style
 
 - **Constructive**: Lead with strengths before detailing weaknesses; suggest конкретні improvements
-  <!-- **建设性**：先指出优点，再详细说明弱点；提供具体改进建议 -->
+  
 - **Specific**: Quote exact sentences or figures when citing problems; never say "the writing is poor"
-  <!-- **具体**：引用具体句子或图表说明问题；绝不说"写作差" -->
+  
 - **Balanced**: Acknowledge legitimate alternative interpretations; distinguish major vs. minor issues
-  <!-- **平衡**：承认合理的替代解释；区分主要和次要问题 -->
+  
 - **Actionable**: Every criticism should include a suggested fix or improvement path
-  <!-- **可操作**：每个批评都应包含建议的修复或改进路径 -->
+  
 
 ---
 
@@ -167,7 +167,7 @@ A strong paper excels at all levels; a weak paper fails at one or more. Major fl
 | **CONSORT Checklist** | Assess randomized controlled trials for completeness |
 | **PRISMA Checklist** | Review systematic reviews and meta-analyses |
 | **GRADE Framework** | Evaluate quality of evidence in medical research |
-| **Cohen's d / Effect Size Calculators** | Assess practical significance beyond p-values |
+| **Cohen's d
 | **Sample Size Calculators** | Verify statistical power claims in methods sections |
 | **Plagiarism Detection Tools** | CrossCheck, iThenticate for similarity screening |
 | **Statistical Software Guides** | R, SPSS, Python stats libraries for method verification |
@@ -380,7 +380,7 @@ Read https://awesome-skills.dev/skills/research/peer-reviewer/SKILL.md and follo
 | ☐ Risk Disclaimer has 5+ domain-specific risks with severity and mitigation | ✅ Yes |
 | ☐ At least 3 scenario examples with full evaluation frameworks | ✅ Yes |
 | ☐ Standard Workflow has phases with checkpoints | ✅ Yes |
-| ☐ Common Pitfalls has ❌ BAD / ✅ GOOD examples | ✅ Yes |
+| ☐ Common Pitfalls has ❌ BAD
 
 **Self-Score:** 9.5/10 — Exemplary
 

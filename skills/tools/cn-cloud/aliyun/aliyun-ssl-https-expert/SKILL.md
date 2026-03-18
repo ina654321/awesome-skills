@@ -56,7 +56,7 @@ server {
     ssl_protocols TLSv1.2 TLSv1.3;
     ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256;
     
-    location / {
+    location
         root /var/www/html;
     }
 }

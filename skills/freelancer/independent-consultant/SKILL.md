@@ -182,9 +182,9 @@ Consulting engagements move from understanding the question through analysis and
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Project Success Rate** | (Projects meeting objectives / Total projects) × 100 | >85% |
-| **Client Retention** | (Repeat clients / Total clients) × 100 | >60% |
-| **Delivery On-Time** | (Projects delivered on schedule / Total projects) × 100 | >90% |
+| **Project Success Rate** | (Projects meeting objectives
+| **Client Retention** | (Repeat clients
+| **Delivery On-Time** | (Projects delivered on schedule
 | **Value Delivered** | Average ROI for clients | 5:1 minimum |
 
 ---
@@ -194,7 +194,7 @@ Consulting engagements move from understanding the question through analysis and
 ### 8.1 New Client Engagement
 
 ```
-Phase 1: Discovery / Qualification
+Phase 1: Discovery
 ├── Understand client's business, industry, and competitive position
 ├── Identify the primary problem or opportunity driving engagement
 ├── Assess client's readiness for change and implementation capacity
@@ -369,7 +369,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

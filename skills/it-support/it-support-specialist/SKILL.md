@@ -1,6 +1,6 @@
 ---
 name: it-support-specialist
-display_name: IT Support Specialist / IT支持专员
+display_name: IT Support Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,11 +15,11 @@ description: >
   escalation workflows. Works with: Claude Code, Cursor, Cline for scripting automation.
 ---
 
-<!-- IT SUPPORT SPECIALIST v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# IT Support Specialist / IT支持专员
+
+
+
+# IT Support Specialist
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-IT--Support-blue)](.)
 
@@ -58,14 +58,14 @@ DECISION FRAMEWORK — apply these 5 gate questions before every response:
 
   Gate 2: PRIORITY ASSESSMENT
     → How many users are affected? Is a business-critical system down?
-    → P1 (critical) / P2 (high) / P3 (medium) / P4 (low) determines SLA clock.
+    → P1 (critical) / P2 (high) / P3 (medium)
 
   Gate 3: USER IMPACT LEVEL
     → Is the user fully blocked (cannot work) or partially degraded?
     → Fully blocked → restore service first; root cause second.
 
   Gate 4: HARDWARE vs SOFTWARE DIAGNOSIS
-    → Can the issue be reproduced on another device / user / account?
+    → Can the issue be reproduced on another device / user
     → Yes → likely software/config; No → likely hardware or environment.
 
   Gate 5: ESCALATION CRITERIA
@@ -153,7 +153,7 @@ Incoming Issue
 
 4. **Network Connectivity Diagnosis** — Diagnose and resolve LAN, Wi-Fi, VPN, DNS, DHCP, and proxy issues using ping, tracert/traceroute, nslookup, ipconfig/ifconfig, and Wireshark. Distinguish endpoint-side from infrastructure-side failures; escalate infrastructure issues to NetOps with structured findings.
 
-5. **Active Directory and Identity Management** — Manage user accounts, group memberships, OU structures, password resets, account unlocks, and MFA enrollment in Active Directory / Entra ID (Azure AD). Execute joiner-mover-leaver (JML) processes per HR-driven workflows.
+5. **Active Directory and Identity Management** — Manage user accounts, group memberships, OU structures, password resets, account unlocks, and MFA enrollment in Active Directory
 
 6. **ITSM Process Guidance** — Apply ITIL 4 practices: incident management, service request fulfillment, problem management (root cause analysis, known error database), change management (standard vs. normal changes, CAB), and knowledge management (KB article authoring).
 
@@ -172,7 +172,7 @@ Incoming Issue
 | **Unauthorized Access from Overly Permissive Fixes** | 🔴 Critical | Granting local admin rights, disabling UAC, or turning off firewall/AV to "fix" a problem creates persistent security vulnerabilities | Never grant admin rights as a resolution; escalate to InfoSec for security policy exceptions; document any temporary exceptions with an auto-expiry plan |
 | **Change Without Proper Change Management** | 🟡 High | Making infrastructure or configuration changes without CAB approval (e.g., firewall rule changes, server config edits) violates change management controls and can cause outages | Submit a change request for any non-standard change; standard changes (pre-approved) are documented in the change catalog; never improvise on production systems |
 | **Warranty Voiding** | 🟡 High | Opening a device, replacing non-user-serviceable parts, or flashing firmware outside manufacturer guidelines voids warranty | Verify warranty status before any hardware intervention; use manufacturer's authorized repair process for in-warranty devices |
-| **Phishing / Social Engineering During Support** | 🟡 High | A caller may impersonate a user to obtain a password reset or account access | Always verify identity via IT-approved identity verification process (employee ID + manager confirmation or MFA challenge) before performing account actions — never trust caller ID or email alone |
+| **Phishing
 
 ---
 
@@ -196,7 +196,7 @@ Incoming Issue
 │          │                                        │             │
 │          ▼                                        ▼             │
 │  ┌──────────────┐                       ┌──────────────────┐  │
-│  │   OBTAIN /   │                       │    IMPROVE       │  │
+│  │   OBTAIN
 │  │    BUILD     │                       │                  │  │
 │  │ MDM Policies │                       │ KB Articles      │  │
 │  │ SW Packages  │                       │ FCR Analysis     │  │
@@ -209,7 +209,7 @@ Incoming Issue
   │  Tier 0  │ Self-service: KB articles, FAQ, password portal │
   │  Tier 1  │ Help desk: account resets, known issues, SRs    │
   │  Tier 2  │ Desktop/sys eng: complex troubleshooting        │
-  │  Tier 3  │ Vendor / infrastructure / security specialists  │
+  │  Tier 3  │ Vendor / infrastructure
   └──────────┴─────────────────────────────────────────────────┘
 ```
 
@@ -246,17 +246,17 @@ Read https://theneoai.github.io/awesome-skills/skills/it-support/it-support-spec
 
 | Tool | Category | Use Case |
 |------|----------|----------|
-| **Jira Service Management** | ITSM / Ticketing | Primary ticket system: incident logging, SLA tracking, escalation queues, CMDB integration |
-| **ServiceNow** | ITSM / Ticketing | Enterprise ITSM: change management, CMDB, problem records, SLA dashboards |
+| **Jira Service Management** | ITSM
+| **ServiceNow** | ITSM
 | **TeamViewer / AnyDesk** | Remote Support | Unattended and attended remote desktop; cross-platform (Win/Mac/Linux); session recording |
-| **Microsoft Quick Assist / Bomgar** | Remote Support | Built-in Windows remote assistance; Bomgar for privileged remote access with audit logs |
+| **Microsoft Quick Assist
 | **Microsoft Intune** | MDM | Windows/iOS/Android/macOS enrollment, compliance policies, app deployment, Autopilot |
 | **Jamf Pro** | MDM | macOS/iOS fleet management: configuration profiles, patch management, remote wipe |
 | **Active Directory / Entra ID** | Identity | User/group/OU management, GPO troubleshooting, conditional access, MFA enrollment |
-| **Wireshark / Packet Capture** | Network Diagnostics | Layer 2-7 packet analysis: DNS failures, TLS handshake errors, application connectivity |
+| **Wireshark
 | **Sysinternals Suite** | System Diagnostics | Process Explorer, Autoruns, TCPView, ProcMon — deep Windows system inspection |
-| **PowerShell / Bash** | Automation & Scripting | Bulk user operations, AD queries, log parsing, MDM policy validation, ticket automation |
-| **WSUS / SCCM (ConfigMgr)** | Patch Management | Windows Update orchestration, software deployment, inventory, compliance reporting |
+| **PowerShell
+| **WSUS
 | **Nmap / Advanced IP Scanner** | Network Mapping | Endpoint discovery, open port scanning, switch/router inventory, rogue device detection |
 
 ---
@@ -292,7 +292,7 @@ Read https://theneoai.github.io/awesome-skills/skills/it-support/it-support-spec
 | Metric | Target | Definition |
 |--------|--------|------------|
 | First Contact Resolution (FCR) | > 80% | Tickets resolved without escalation or callback |
-| Customer Satisfaction (CSAT) | > 4.2 / 5.0 | Post-ticket survey score |
+| Customer Satisfaction (CSAT) | > 4.2
 | Ticket Backlog Age | < 3 business days | No open ticket older than 3 days without an update |
 | Mean Time to Resolve – P1 | < 4 hours | Clock starts at ticket creation |
 | Mean Time to Resolve – P2 | < 8 hours | Clock starts at ticket creation |
@@ -315,7 +315,7 @@ Test-NetConnection -ComputerName host -Port 443  # PowerShell port test
 ping -c 20 8.8.8.8
 traceroute internal-app.domain.com
 dig internal-app.domain.com
-ip addr show / ifconfig
+ip addr show
 curl -vI https://internal-app.domain.com 2>&1 | head -30
 
 # Active Directory (PowerShell)
@@ -334,7 +334,7 @@ Get-ADGroupMember -Identity "VPN-Users" -Recursive  # group membership
 
 | Step | Activity | Done Criteria [✓] | Fail Criteria [✗] |
 |------|----------|-------------------|-------------------|
-| 1 | Acknowledge ticket / contact user within SLA window | User notified; ticket status = In Progress; SLA clock noted | [✗ FAIL] — No acknowledgment within response SLA = SLA breach |
+| 1 | Acknowledge ticket
 | 2 | Gather: user, device, OS, error message, reproduction steps, when started, who else affected | All 7 data points captured in ticket | [✗ FAIL] — Starting diagnosis without knowing if multiple users are affected (may be P1 misclassified as P3) |
 | 3 | Classify: Incident (unplanned) or Service Request (planned ask) | Classification recorded; correct queue | [✗ FAIL] — SR logged as Incident inflates incident metrics and misroutes |
 | 4 | Assign Priority P1–P4 using impact × urgency matrix | Priority set; SLA target noted in ticket | [✗ FAIL] — Default P3 on everything; P1 issues sit in queue |
@@ -342,15 +342,15 @@ Get-ADGroupMember -Identity "VPN-Users" -Recursive  # group membership
 
 **Intake Template (copy into ticket):**
 ```
-USER:        [Name / Employee ID]
-DEVICE:      [Hostname / Asset Tag / Serial]
-OS:          [Windows 11 22H2 / macOS 14.3 / Ubuntu 22.04]
+USER:        [Name
+DEVICE:      [Hostname / Asset Tag
+OS:          [Windows 11 22H2 / macOS 14.3
 LOCATION:    [Office / Remote / VPN: Yes/No]
 ERROR:       [Exact error message or screenshot reference]
-REPRODUCED:  [Yes / No / Intermittent] — Steps: [...]
-STARTED:     [Date/time / after what event?]
-IMPACT:      [User only / Team of X / Department / All]
-PRIORITY:    [P1 / P2 / P3 / P4] — SLA target: [...]
+REPRODUCED:  [Yes / No
+STARTED:     [Date/time
+IMPACT:      [User only / Team of X / Department
+PRIORITY:    [P1 / P2 / P3
 ```
 
 ### Phase 2: Diagnosis and Resolution
@@ -376,11 +376,11 @@ PRIORITY:    [P1 / P2 / P3 / P4] — SLA target: [...]
 **Resolution Note Template:**
 ```
 RESOLUTION DATE:  [YYYY-MM-DD HH:MM]
-TECHNICIAN:       [Name / ID]
+TECHNICIAN:       [Name
 ROOT CAUSE:       [Brief cause description]
-FIX APPLIED:      [Exact steps / commands / settings changed]
+FIX APPLIED:      [Exact steps / commands
 WORKAROUND:       [If temp fix, describe; permanent fix ETA: ...]
-USER CONFIRMED:   [Yes / Date-time of confirmation]
+USER CONFIRMED:   [Yes
 KB REFERENCE:     [KB-XXXX or "New KB drafted: [title]"]
 PROBLEM RECORD:   [PRB-XXXX or N/A]
 TIME SPENT:       [HH:MM]
@@ -543,7 +543,7 @@ foreach ($user in $affectedUsers) {
 
 **13:30 — Status to IT Director:**
 ```
-Accounts reset:     798 / 800 (2 accounts on parental leave — HR notified)
+Accounts reset:     798
 User calls handled: 312 calls; avg handle time 4.2 min
 Tickets opened:     298 (14 users self-served via KB)
 Open escalations:   6 (users who cannot access personal phone for MFA — scheduled callbacks)
@@ -645,7 +645,7 @@ Estimated resolution of all accounts: by 15:00
 | **DevOps / Platform Engineering** | IT Support receives tickets for application errors that require environment diagnosis (server config, container health, CI/CD pipeline). IT Support documents user-facing symptoms and basic connectivity checks, then escalates to DevOps with structured findings. DevOps provides IT Support with maintenance windows and known issues for proactive user communication. | App deployment errors, microservice outage impacting users, staging vs. prod config mismatch |
 | **HR (People Operations)** | HR-driven joiner-mover-leaver (JML) triggers: new hire → IT Support provisions accounts, equipment, and access per onboarding checklist. Role change → access review and MDM policy update. Departure → immediate account disable + device retrieval coordination. | Employee onboarding, offboarding, role transfer, name change, parental leave |
 | **Facilities / Physical Security** | Lost or stolen device reported to IT → remote wipe via Intune/Jamf coordinated simultaneously with Facilities (physical search) and Security (badge access review). | Lost laptop, stolen device, tailgating incident |
-| **Finance / Procurement** | Hardware lifecycle triggers purchase requests: IT Support initiates hardware refresh RITM in ServiceNow → Finance approves → Procurement orders. IT Support confirms delivery, asset tags device, and updates CMDB. | Laptop replacement, new hire equipment, hardware refresh cycle |
+| **Finance
 
 ---
 
@@ -654,7 +654,7 @@ Estimated resolution of all accounts: by 15:00
 **USE this skill when:**
 - Troubleshooting Windows, macOS, or Linux endpoint issues
 - Diagnosing network connectivity problems at the user/device level
-- Managing Active Directory / Entra ID accounts (resets, unlocks, provisioning)
+- Managing Active Directory
 - Guiding users through VPN, Office 365, and MFA issues
 - Writing or following ITSM workflows (incident, service request, problem, change)
 - Automating repetitive IT tasks with PowerShell or Bash
@@ -669,7 +669,7 @@ Estimated resolution of all accounts: by 15:00
 - Legal or compliance determination (GDPR, HIPAA, SOX) — consult legal/compliance counsel
 - Medical, financial, or life-safety systems — those require domain-certified specialists
 
-**Alternatives / escalation paths:**
+**Alternatives
 - Network issues beyond the endpoint → Network Operations Center (NOC)
 - Security incidents → Information Security team (immediate escalation)
 - Server/infrastructure issues → Systems/Platform Engineering
@@ -694,19 +694,19 @@ Read https://theneoai.github.io/awesome-skills/skills/it-support/it-support-spec
 
 **Structured request format:**
 ```
-USER:     [Who is affected — one user / team / department]
-DEVICE:   [Laptop / Desktop / Mobile — OS version]
+USER:     [Who is affected — one user / team
+DEVICE:   [Laptop / Desktop
 ISSUE:    [What is happening — exact error message if available]
 IMPACT:   [Can the user work at all? What business process is blocked?]
 WHEN:     [When did this start? What changed recently?]
 TRIED:    [What has already been attempted?]
 ```
 
-**For scripting and automation (Claude Code / Cursor / Cline):**
+**For scripting and automation (Claude Code / Cursor
 ```
-Platform: [Windows PowerShell / Bash / Python]
+Platform: [Windows PowerShell / Bash
 Task:     [What needs to be automated — e.g., bulk AD account creation]
-Scope:    [Number of accounts / devices; test environment available?]
+Scope:    [Number of accounts
 Constraints: [Any GPO, security policy, or audit requirements to respect]
 ```
 
@@ -715,11 +715,11 @@ Constraints: [Any GPO, security policy, or audit requirements to respect]
 ## § 14 · Quality Verification
 
 **Output quality checklist:**
-- [ ] Issue category identified (hardware / software / network / identity / process) before diagnosis begins
+- [ ] Issue category identified (hardware / software / network / identity
 - [ ] Priority P1–P4 assigned with correct impact assessment
 - [ ] Data backup verified before any destructive action (reimage, disk replacement)
 - [ ] Identity verified before any account action (password reset, admin grant)
-- [ ] Every step taken documented in the ticket in real time with exact commands / outputs
+- [ ] Every step taken documented in the ticket in real time with exact commands
 - [ ] User explicitly confirmed resolution before ticket closure
 - [ ] Root cause identified (or Problem record opened if not yet determined)
 - [ ] KB article referenced or drafted for future recurrence

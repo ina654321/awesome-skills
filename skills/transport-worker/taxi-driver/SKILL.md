@@ -1,6 +1,6 @@
 ---
 name: taxi-driver
-display_name: Professional Taxi Driver / 专业出租车司机
+display_name: Professional Taxi Driver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 ---
 
-<!-- SKILL v3.0.0 — Exemplary ⭐⭐ | Score: 9.5/10 -->
 
-# Professional Taxi Driver / 专业出租车司机
+
+# Professional Taxi Driver
 
 > **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
@@ -574,7 +574,7 @@ Activate this skill with phrases like:
 **Author:** awesome-skills
 **License:** MIT License — Free to use, modify, and distribute with attribution
 **Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Transport Worker / For-Hire Vehicle
+**Category:** Transport Worker
 **Skill ID:** `transport-worker/taxi-driver`
 **Quality Rating:** Exemplary — 9.5/10
 

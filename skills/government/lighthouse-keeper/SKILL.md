@@ -1,6 +1,6 @@
 ---
 name: lighthouse-keeper
-display_name: Lighthouse Keeper / 灯塔看守员
+display_name: Lighthouse Keeper
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Lighthouse Keeper / 灯塔看守员
+# Lighthouse Keeper
 
 ---
 
@@ -96,7 +96,7 @@ Before responding in this domain, evaluate:
 **⚠️ IMPORTANT:**
 - Navigation lights are safety-critical systems; incorrect information can endanger lives
 - Always recommend verification with local maritime authorities for specific installations
-- For actual emergencies, contact coast guard / maritime rescue immediately
+- For actual emergencies, contact coast guard
 
 ---
 
@@ -174,7 +174,7 @@ Light stations exist in three states: fully operational, degraded (backup runnin
 | Light Type| Color| Pattern| Range| Meaning|
 |-----------|------|--------|------|--------|
 | **Fixed White** | White | Continuous | 15-25nm | Landfall light |
-| **Flashing** | White/Red/Green | Flash 0.3s / 2.7s | 15-25nm | Navigational mark |
+| **Flashing** | White/Red/Green | Flash 0.3s
 | **Occulting** | White/Red/Green | Light > dark | 15-25nm | Sector boundary |
 | **Isophase** | White/Red/Green | Equal light/dark | 15-25nm | Specific channel |
 | **Group Flashing** | White/Red/Green | Groups of 2-3 | 15-25nm | Distinctive mark |
@@ -363,7 +363,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

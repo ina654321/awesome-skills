@@ -43,7 +43,7 @@ Before processing any contribution, evaluate:
 | **Type** | Is this a new skill, upgrade, or fix? | Route to appropriate workflow |
 | **Completeness** | Does it pass all quality gates? | Block until all checks pass |
 | **Standards** | Does it follow 16-section template? | Reject; provide checklist |
-| **Score** | What's the target rubric score? | Verify ≥7.0 Expert / ≥9.0 Exemplary |
+| **Score** | What's the target rubric score? | Verify ≥7.0 Expert
 | **Conflict** | Does it conflict with existing skills? | Request scope clarification |
 
 ### 1.3 Thinking Patterns
@@ -188,7 +188,7 @@ Closes #123
 
 ```markdown
 ## Summary
-<!-- One paragraph: what does this skill do? -->
+
 
 ## Quality Checklist
 - [ ] 16 sections present in order
@@ -198,10 +198,10 @@ Closes #123
 - [ ] References verified
 
 ## Changes
-<!-- Bullet list of what changed -->
+
 
 ## Testing
-<!-- How was this verified? -->
+
 ```
 
 ### 7.4 Quality Gate Thresholds

@@ -1,6 +1,6 @@
 ---
 name: sensory-integration-therapist
-display_name: Sensory Integration Therapist / 感统训练师
+display_name: Sensory Integration Therapist
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -18,7 +18,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Sensory Integration Therapist / 感统训练师
+# Sensory Integration Therapist
 
 > **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -406,11 +406,11 @@ Read https://awesome-skills.dev/skills/education/sensory-integration-therapist/S
 ```
 
 ### Trigger Words
-- "sensory integration" / "感统" / "感觉统合"
-- "sensory processing" / "感觉处理" / "感觉失调"
-- "sensory diet" / "感觉餐" / "感统训练"
-- "sensory seeking" / "寻求感觉" / "寻求输入"
-- "tactile defensiveness" / "触觉防御" / "讨厌触摸"
+- "sensory integration" / "感统"
+- "sensory processing" / "感觉处理"
+- "sensory diet" / "感觉餐"
+- "sensory seeking" / "寻求感觉"
+- "tactile defensiveness" / "触觉防御"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: vertiport-planning-engineer
-display_name: Vertiport Planning Engineer / 垂直起降机场规划工程师
+display_name: Vertiport Planning Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   ground operations procedures, and regulatory compliance for UAM/eVTOL operations.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Vertiport Planning Engineer / 垂直起降机场规划工程师
+
+# Vertiport Planning Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -111,19 +111,19 @@ This skill transforms your AI assistant into an expert **Vertiport Planning Engi
 └──────────────────────┬──────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────┐
-│  FATO / TLOF AREA                          [AIRSIDE]     │
+│  FATO
 │  Landing pads, obstacle limitation surfaces, lighting    │
 │  ← Safety-critical; aviation authority jurisdiction →   │
 ├─────────────────────────────────────────────────────────┤
 │  TRANSITION ZONE                                         │
 │  Passenger marshaling, aircraft towing/positioning       │
 ├─────────────────────────────────────────────────────────┤
-│  CHARGING / MAINTENANCE AREA               [AIRSIDE]     │
+│  CHARGING
 │  Charging stations, basic maintenance, turnaround ops   │
 ├─────────────────────────────────────────────────────────┤
-│  TERMINAL / LANDSIDE                       [LANDSIDE]    │
+│  TERMINAL
 │  Passenger processing, ticketing, ground transport      │
-│  ← Building authority / local planning jurisdiction →   │
+│  ← Building authority
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -154,13 +154,13 @@ This skill transforms your AI assistant into an expert **Vertiport Planning Engi
 ### Design & Analysis Tools
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| **AutoCAD Civil 3D / Revit** | Site plan, FATO layout, building integration drawings | Detailed vertiport design and permitting drawings |
-| **ArcGIS / QGIS** | Obstacle surface analysis, noise contour mapping, site comparison | Site selection, OLS compliance analysis, noise impact assessment |
+| **AutoCAD Civil 3D
+| **ArcGIS
 | **FAA OE/AAA (Obstruction Evaluation)** | FAA 7460-1 notice filing; airspace analysis for structures | Required for any structure above 200 ft AGL or within approach surfaces |
 | **EUROCONTROL ARC-IT** | European airspace integration planning | EU vertiport projects with airspace integration requirements |
-| **Arena / SimPy (Python)** | Discrete-event simulation for vertiport capacity modeling | Throughput analysis under variable demand and disruption scenarios |
+| **Arena
 | **NFPA 418** | Standard for Heliports (fire protection, construction) | Fire suppression design, construction material requirements |
-| **AGi32 / DIALux** | Lighting design and photometric analysis | Vertipad lighting, approach lighting system design |
+| **AGi32
 
 ### Reference Standards
 | Standard | Jurisdiction | Scope |
@@ -425,7 +425,7 @@ Traditional helipad advisories (FAA AC 150/5390-2D) are a starting point, not th
 # Simplified noise model (use AEDT software for regulatory submission)
 import math
 def noise_at_distance(source_dba, distance_m, ref_distance=25):
-    decay = 20 * math.log10(distance_m / ref_distance)
+    decay = 20 * math.log10(distance_m
     return source_dba - decay
 
 # eVTOL source: ~75 dBA at 25m (typical multirotor)

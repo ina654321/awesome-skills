@@ -80,9 +80,9 @@ Before recommending GCP services:
 ### 4.1 GCP Service Selection
 
 ```
-Data/ML Workloads ──────▶ BigQuery / Vertex AI
+Data/ML Workloads ──────▶ BigQuery
                                     │
-Serverless ──────────────▶ Cloud Run / Cloud Functions
+Serverless ──────────────▶ Cloud Run
                                     │
 Container Workloads ────▶ GKE (Autopilot for managed)
                                     │

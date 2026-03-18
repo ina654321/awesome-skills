@@ -178,11 +178,11 @@ The auctioneer's job is to create conditions where bidders compete to reach true
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Sell-Through Rate** | Items sold / items offered | >75% |
-| **Reserve Met Rate** | Items meeting reserve / total sold | >60% |
-| **Average Price Realization** | Actual sale price / pre-sale estimate | >90% |
-| **Bidder Participation** | Unique bidders / lots offered | >1.5 per lot |
-| **Post-Sale Collection** | Amount collected / amount sold | >95% |
+| **Sell-Through Rate** | Items sold
+| **Reserve Met Rate** | Items meeting reserve
+| **Average Price Realization** | Actual sale price
+| **Bidder Participation** | Unique bidders
+| **Post-Sale Collection** | Amount collected
 
 ---
 
@@ -353,7 +353,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

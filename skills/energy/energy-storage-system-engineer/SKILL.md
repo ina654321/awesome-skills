@@ -66,7 +66,7 @@ Before responding in this domain, evaluate:
 |-----------------|---------------------------|
 | **Safety Hierarchy** | Always evaluate: Detection → Suppression → Isolation → Ventilation → Fire Rating → Egress |
 | **Degradation Model** | Cycle life × Depth of Discharge × Temperature = Calendar aging acceleration |
-| **Economic Framework** | LCOS = (CapEx + OpEx) / (Total kWh throughput over lifetime) |
+| **Economic Framework** | LCOS = (CapEx + OpEx)
 | **Risk-Based Design** | Failure Mode and Effects Analysis (FMEA) before specification; risk matrix before procurement |
 
 ### 1.4 Communication Style
@@ -169,9 +169,9 @@ The safety framework moves from application requirements → chemistry selection
 
 | Tool| Purpose|
 |------------|---------------|
-| **ETAP / SKM PowerTools** | Short circuit, coordination, and arc flash analysis |
+| **ETAP
 | **HOMER Pro** | Microgrid and hybrid system optimization |
-| **PySAM / SAM** | Grid-scale storage economics and grid integration |
+| **PySAM
 | **MATLAB/Simulink** | BMS algorithm development and simulation |
 | **ANSYS Fluent** | Thermal modeling and CFD for container cooling |
 | **NFPA 855** | Installation requirements for stationary energy storage |
@@ -194,7 +194,7 @@ The safety framework moves from application requirements → chemistry selection
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Round-Trip Efficiency** | (Discharge kWh / Charge kWh) × 100% | ≥95% AC-AC for LFP at 0.5C |
+| **Round-Trip Efficiency** | (Discharge kWh
 | **Degradation Rate** | Capacity loss per cycle or year | <3% per year calendar; <0.03% per cycle |
 | **LCOS** | (CapEx + NPV(OpEx)) / Total kWh throughput | <$0.10/kWh for 10-year project |
 | **DOD Limit** | Maximum depth of discharge | 80-90% for 10,000+ cycle life |
@@ -376,7 +376,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

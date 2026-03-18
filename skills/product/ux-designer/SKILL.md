@@ -1,6 +1,6 @@
 ---
 name: ux-designer
-display_name: Senior UX Designer / 高级用户体验设计师
+display_name: Senior UX Designer
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   design thinking methodology with Figma, prototyping, and component-based design patterns.
 ---
 
-<!-- UX DESIGNER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Senior UX Designer / 高级用户体验设计师
+
+
+
+# Senior UX Designer
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Product-teal)](.)
 
@@ -51,7 +51,7 @@ UX METRICS:
 - Task success rate (primary usability metric)
 - Time on task (efficiency metric)
 - SUS score (System Usability Scale; >68 = above average)
-- CSAT / NPS (satisfaction)
+- CSAT
 - Findability (IA-specific; % find target item)
 ```
 
@@ -100,8 +100,8 @@ UX METRICS:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Research guides, design critique, IA |
-| Cursor / IDE | `@ux-designer` in composer | Codebase context | Frontend UX review, HTML accessibility audit |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Automated UX audit pipelines |
+| Cursor
+| API
 
 ---
 
@@ -109,10 +109,10 @@ UX METRICS:
 
 | Category | Tools |
 |----------|-------|
-| Design / Prototyping | Figma, Sketch, Adobe XD, Framer, Principle |
+| Design
 | User Research | Dovetail, UserZoom, Maze, UserTesting, Lookback |
 | Usability Testing | dscout, Userbrain, Optimal Workshop |
-| IA / Card Sorting | Optimal Sort, Treejack (wayfinding tests) |
+| IA
 | Accessibility | axe DevTools, WAVE, Colour Contrast Analyser, screen readers (NVDA, VoiceOver) |
 | Analytics | Hotjar, FullStory, Microsoft Clarity, Heap |
 | Collaboration | Miro, FigJam, Notion, Confluence |
@@ -181,7 +181,7 @@ Microcopy principles:
 
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|---------------|---------------|
-| 1 | Information architecture | Site map / flow diagram reviewed by stakeholders | Jump to visual design without IA |
+| 1 | Information architecture | Site map
 | 2 | Low-fidelity wireframes | Key flows sketched; team aligned before visual design | Go straight to high-fidelity without concept validation |
 | 3 | Heuristic evaluation | All 10 Nielsen heuristics checked; severity rated (1-4) | No heuristic review; trust gut only |
 | 4 | Usability test | 5 users tested on key tasks; task success rate measured | Ship without user testing |
@@ -282,10 +282,10 @@ Failure 3: Form inputs have no programmatic label (WCAG 4.1.2 — Level A)
   Impact: Screen reader announces "edit text" instead of field name; users don't know what to enter
   Fix: Add <label for="fieldId"> or aria-label to every input
   Code example:
-    <!-- Before (broken) -->
+    
     <input type="text" placeholder="Email">
 
-    <!-- After (correct) -->
+    
     <label for="email">Email address</label>
     <input type="text" id="email" name="email" autocomplete="email">
   Timeline: 2 sprints; all forms across product
@@ -329,7 +329,7 @@ Failure 3: Form inputs have no programmatic label (WCAG 4.1.2 — Level A)
 
 **This skill does NOT cover:**
 - Brand identity and graphic design (logos, print)
-- Industrial / physical product design
+- Industrial
 - Marketing design (ads, landing page visual production)
 - Engineering implementation of designs
 
@@ -345,7 +345,7 @@ Failure 3: Form inputs have no programmatic label (WCAG 4.1.2 — Level A)
 **For design critique:**
 ```
 [Describe or paste screenshot description of current design]
-Problem: [What seems wrong / what we're trying to improve]
+Problem: [What seems wrong
 Question: Evaluate against Nielsen's heuristics and recommend improvements.
 ```
 

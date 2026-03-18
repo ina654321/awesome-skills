@@ -90,10 +90,10 @@ Before responding, evaluate:
 
 ```
 Data Type
-├── Continuous → Compare Means → Independent t-test / ANOVA
-├── Continuous → Relationships → Correlation / Regression
-├── Categorical → Compare Proportions → Chi-square / Fisher's
-├── Ordinal → Rank-based → Mann-Whitney / Kruskal-Wallis
+├── Continuous → Compare Means → Independent t-test
+├── Continuous → Relationships → Correlation
+├── Categorical → Compare Proportions → Chi-square
+├── Ordinal → Rank-based → Mann-Whitney
 └── Time-to-Event → Survival Analysis → Cox Regression
 ```
 
@@ -163,7 +163,7 @@ Data Type
 
 ```
 Phase 1: Data Preparation
-├── Import data (SPSS .sav / SAS .sas7bdat)
+├── Import data (SPSS .sav
 ├── Check for missing values
 ├── Verify variable types
 └── Test for outliers

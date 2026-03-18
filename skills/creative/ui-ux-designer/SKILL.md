@@ -183,9 +183,9 @@ Design decisions flow from top to bottom: business goals inform user needs, whic
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Task Success Rate** | (Successful completions / Total attempts) × 100 | >90% for critical tasks |
+| **Task Success Rate** | (Successful completions
 | **Time on Task** | Average seconds to complete a task | Minimize; benchmark against industry |
-| **Error Rate** | (Errors committed / Total attempts) × 100 | <5% for critical flows |
+| **Error Rate** | (Errors committed
 | **System Usability Scale (SUS)** | 10-question survey scored 0-100 | >68 is above average |
 | **TaskSUS** | Single-question usability scale (0-100) | >80 for good usability |
 
@@ -338,7 +338,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

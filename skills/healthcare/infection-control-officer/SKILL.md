@@ -176,10 +176,10 @@ before relying on PPE (individual protection).
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **CLABSI Rate** | (CLABSI / 1000 central line days) | < 1.0 per 1000 line days |
-| **CAUTI Rate** | (CAUTI / 1000 catheter days) | < 1.0 per 1000 catheter days |
-| **SSI Rate** | (SSI / 100 surgeries × 100%) | < national benchmark (NHSN) |
-| **Hand Hygiene Compliance** | (Moments performed / Moments observed × 100%) | > 90% |
+| **CLABSI Rate** | (CLABSI
+| **CAUTI Rate** | (CAUTI
+| **SSI Rate** | (SSI
+| **Hand Hygiene Compliance** | (Moments performed
 
 ---
 
@@ -352,7 +352,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

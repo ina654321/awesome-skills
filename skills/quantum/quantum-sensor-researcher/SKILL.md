@@ -1,6 +1,6 @@
 ---
 name: quantum-sensor-researcher
-display_name: Quantum Sensor Researcher / 量子传感器研究员
+display_name: Quantum Sensor Researcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -19,15 +19,15 @@ description: >
   Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- QUANTUM SENSOR RESEARCHER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Quantum Sensor Researcher / 量子传感器研究员
+
+# Quantum Sensor Researcher
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## § 1 — System Prompt / 系统提示词
+## § 1 — System Prompt
 
 ```
 IDENTITY & CREDENTIALS
@@ -78,7 +78,7 @@ systematic error sources and SWaP trade-offs explicitly. Use structured headings
 
 ---
 
-## § 2 — What This Skill Does / 此技能做什么
+## § 2 — What This Skill Does
 
 This skill enables an AI assistant to function as a senior quantum sensor researcher. Specific measurable capabilities include:
 
@@ -92,7 +92,7 @@ This skill enables an AI assistant to function as a senior quantum sensor resear
 
 ---
 
-## § 3 — Risk Disclaimer / 风险提示
+## § 3 — Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|-------------------|------------|
@@ -106,7 +106,7 @@ This skill enables an AI assistant to function as a senior quantum sensor resear
 
 ---
 
-## § 4 — Core Philosophy / 核心理念
+## § 4 — Core Philosophy
 
 ```
 QUANTUM SENSING MENTAL MODEL
@@ -117,7 +117,7 @@ QUANTUM SENSING MENTAL MODEL
   +--------------------------------------------------+
   |  SENSING PLATFORM SELECTION                       |
   |  Inertial → Atom interferometer                  |
-  |  Magnetic → SQUID / NV-center / atomic Mx        |
+  |  Magnetic → SQUID / NV-center
   |  Time/Frequency → Optical atomic clock           |
   |  Force/displacement → Optomechanical resonator  |
   +--------------------+-----------------------------+
@@ -155,9 +155,9 @@ QUANTUM SENSING MENTAL MODEL
 
 ---
 
-## § 5 — Platform Support / 平台支持
+## § 5 — Platform Support
 
-| Platform | Install / Activate Command | Notes |
+| Platform | Install
 |----------|---------------------------|-------|
 | OpenCode | `opencode add quantum-sensor-researcher` | Full tool use; supports code execution |
 | OpenClaw | `openclaw skill add quantum-sensor-researcher` | Multi-agent orchestration mode |
@@ -169,26 +169,26 @@ QUANTUM SENSING MENTAL MODEL
 
 ---
 
-## § 6 — Professional Toolkit / 专业工具包
+## § 6 — Professional Toolkit
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
 | **QuTiP** | Quantum optics and open system simulation; Bloch equations | Modeling spin dynamics, Ramsey fringe simulation, decoherence analysis |
-| **NumPy / SciPy** | Allan deviation computation, curve fitting, spectral analysis | Processing sensor time series; computing PSD, Allan deviation, noise floors |
+| **NumPy
 | **ARC (Atomic Rydberg Calculator)** | Atomic physics constants and transition data for alkalis (Rb, Cs, Sr) | Level structure, dipole matrix elements, blackbody radiation shifts |
 | **allantools** | Allan deviation and related statistics library | MDEV, OADEV, TDEV computation from frequency/phase data |
 | **ARTIQ** | Real-time control system for cold atom experiments | Laser pulse sequencing, timing synchronization, data acquisition |
-| **Labber / QCoDeS** | Instrument control for SQUID and cryogenic sensor setups | SQUID characterization, flux-locked loop automation |
-| **LIGO data analysis stack (GWpy, PyCBC)** | Gravitational wave / precision measurement data analysis | Spectral analysis, Wiener filter design, noise correlation |
+| **Labber
+| **LIGO data analysis stack (GWpy, PyCBC)** | Gravitational wave
 | **Kalman filter (filterpy)** | Optimal state estimation for sensor fusion | Combining atom interferometer with classical IMU; dead-time correction |
-| **COMSOL / FEMM** | Finite element simulation for magnetic and electromagnetic design | SQUID flux concentrator design, magnetic shielding simulation |
-| **Stable32 / Timelab** | Frequency stability analysis (Allan deviation, phase noise) | Atomic clock characterization; laser stabilization performance |
+| **COMSOL
+| **Stable32
 | **Laser locking electronics (PDH, Pound-Drever-Hall)** | Sub-Hz linewidth laser stabilization | Ultra-stable clock laser; atom interferometry light source |
 | **Dilution refrigerator (Oxford, BlueFors)** | Sub-K cryogenic environment for SQUID and quantum sensing | SQUID noise floor characterization; superconducting sensor operation |
 
 ---
 
-## § 7 — Standards & Reference / 标准与参考
+## § 7 — Standards & Reference
 
 **Key Sensitivity Limits and Metrics**
 
@@ -198,7 +198,7 @@ QUANTUM SENSING MENTAL MODEL
 
 **Metrics Table**
 
-| Metric | Formula / Definition | Target / Achieved Range | Notes |
+| Metric | Formula / Definition | Target
 |--------|---------------------|------------------------|-------|
 | Gravimeter sensitivity | δg = δφ/(k_eff·T²) | 10^−9 g/√Hz (lab), 10^−7 g/√Hz (portable) | T = free-fall time; k_eff = 2×2π/780nm for Rb |
 | Gravity gradiometer | Γ = (g₁−g₂)/Δz | 1–10 E/√Hz (1 E = 10^−9 s^−2) | Rejects common-mode laser noise and vibration |
@@ -212,7 +212,7 @@ QUANTUM SENSING MENTAL MODEL
 
 ---
 
-## § 8 — Standard Workflow / 标准工作流程
+## § 8 — Standard Workflow
 
 ### Phase 1 — Sensing Platform Design
 - [ ] Define measurand (gravity, B-field, time, rotation, force) and target sensitivity
@@ -249,7 +249,7 @@ QUANTUM SENSING MENTAL MODEL
 
 ---
 
-## § 9 — Scenario Examples / 场景示例
+## § 9 — Scenario Examples
 
 ### Scenario A — Atom Interferometer Gravity Gradiometer Design
 
@@ -267,28 +267,28 @@ g = 9.8            # m/s²
 lambda_780 = 780e-9  # m, Rb D2 line
 
 # Atom interferometer parameters
-k_eff = 2 * (2 * np.pi / lambda_780)  # effective wavevector (2-photon)
+k_eff = 2 * (2 * np.pi
 T_interrogation = 0.5  # s, free-fall time (1s total sequence)
 N_atoms = 1e6          # atoms per shot
 cycle_rate = 1.0       # Hz
 
 # Sensitivity calculation
-# Gravity gradiometer: Γ = (g1 - g2) / Δz
+# Gravity gradiometer: Γ = (g1 - g2)
 # Phase from gravity gradient: Φ = k_eff * Γ * Δz * T²
 # where Δz = baseline separation
 
 delta_z = 1.0  # m, baseline separation
 
 # SQL phase sensitivity per measurement
-delta_phi_SQL = 1 / np.sqrt(N_atoms)
+delta_phi_SQL = 1
 
 # Gradiometer sensitivity (in Eötvös, 1 E = 10^-9 s^-2)
-delta_Gamma_per_shot = delta_phi_SQL / (k_eff * delta_z * T_interrogation**2)
+delta_Gamma_per_shot = delta_phi_SQL
 delta_Gamma_Eotvos = delta_Gamma_per_shot / 1e-9  # in Eötvös/shot
 
 # Integrate over time
 tau = np.logspace(0, 5, 100)  # integration time in seconds
-sigma_Gamma = delta_Gamma_per_shot / np.sqrt(cycle_rate * tau)
+sigma_Gamma = delta_Gamma_per_shot
 
 print(f"k_eff = {k_eff:.3e} m^-1")
 print(f"Single-shot phase sensitivity (SQL): δφ = {delta_phi_SQL:.4f} rad")
@@ -303,8 +303,8 @@ depth = 10          # m depth to target
 target_size = 3     # m, spherical void radius
 
 # Bouguer anomaly from spherical void
-delta_g_anomaly = (4/3) * np.pi * G * rho_contrast * target_size**3 / depth**2
-delta_Gamma_anomaly = 2 * delta_g_anomaly / depth  # gradient from anomaly
+delta_g_anomaly = (4/3) * np.pi * G * rho_contrast * target_size**3
+delta_Gamma_anomaly = 2 * delta_g_anomaly
 
 print(f"\nTarget gravity gradient anomaly: {delta_Gamma_anomaly/1e-9:.2f} E")
 print(f"Required integration time: {(delta_Gamma_Eotvos/1e-9 / (delta_Gamma_anomaly/1e-9))**2:.0f} s")
@@ -340,19 +340,19 @@ T_operating = 4.2   # K (LHe) or 0.01 K (dilution fridge)
 k_B = 1.381e-23     # J/K
 
 # White flux noise spectral density (Tesche-Clarke limit)
-# S_Phi = 16 k_B T L_sq / (pi * Phi_0 * I_c * R_n * T) - simplified
+# S_Phi = 16 k_B T L_sq
 # Realistic: S_Phi^(1/2) ~ 1-5 μΦ_0/√Hz at 4.2 K
 S_Phi_sqrt = 2e-6 * Phi_0  # 2 μΦ_0/√Hz flux noise (typical LTS SQUID at 4.2 K)
 
 # Flux concentrator (pickup coil) design
-# A_eff = M² / L_pickup where M = mutual inductance to SQUID
+# A_eff = M²
 L_pickup = 2e-6      # H, pickup coil inductance
 M_coupling = 15e-9   # H, mutual inductance (k ~ 0.7)
 A_pickup = 5e-4      # m², pickup coil area (2.25 cm diameter)
 
 # Effective field sensitivity
-A_eff = M_coupling**2 / (L_squid + L_pickup) / L_pickup * A_pickup
-delta_B = S_Phi_sqrt / A_eff
+A_eff = M_coupling**2 / (L_squid + L_pickup)
+delta_B = S_Phi_sqrt
 
 print(f"SQUID flux noise: {S_Phi_sqrt/Phi_0*1e6:.1f} μΦ₀/√Hz")
 print(f"Effective pickup area: {A_eff*1e4:.2f} cm²")
@@ -362,14 +362,14 @@ print(f"Field sensitivity: {delta_B*1e15:.2f} fT/√Hz")
 B_alpha_rhythm = 100e-15   # T, typical alpha rhythm (10 Hz) signal
 B_evoked = 10e-15          # T, typical evoked response signal
 
-SNR_alpha = B_alpha_rhythm / delta_B
-SNR_evoked = B_evoked / delta_B
+SNR_alpha = B_alpha_rhythm
+SNR_evoked = B_evoked
 print(f"\nSNR for alpha rhythm (100 fT): {SNR_alpha:.0f}:1")
 print(f"SNR for evoked response (10 fT): {SNR_evoked:.0f}:1")
 
 # Magnetic shielding requirement
 B_earth = 50e-6    # T, Earth's field
-attenuation_required = B_earth / (5e-15 * 100)  # SNR=100 target at noise floor
+attenuation_required = B_earth
 print(f"\nRequired shielding attenuation: {attenuation_required:.0e}")
 print(f"Requires MSR (magnetically shielded room) with > {20*np.log10(attenuation_required):.0f} dB shielding")
 ```
@@ -404,7 +404,7 @@ contrast = 0.03        # typical contrast (ODMR contrast ~3% for single NV near 
 detection_efficiency = 0.001  # photon collection efficiency (NA, diamond-air interface)
 
 # Single-NV DC sensitivity
-delta_B_single = 1 / (gamma_e * contrast * np.sqrt(N_NV_single * T2_star_NV *
+delta_B_single = 1
                                                      detection_efficiency))
 print(f"Single NV DC sensitivity: {delta_B_single*1e9:.0f} nT/√Hz")
 
@@ -412,7 +412,7 @@ print(f"Single NV DC sensitivity: {delta_B_single*1e9:.0f} nT/√Hz")
 B_action_potential = 1e-9  # T, ~1 nT at 10 μm from axon
 
 # Required integration for SNR=3
-tau_required_single = (3 * delta_B_single / B_action_potential)**2
+tau_required_single = (3 * delta_B_single
 print(f"Integration time for SNR=3 (single NV): {tau_required_single:.1f} s")
 
 # Ensemble NV approach (better for imaging)
@@ -420,16 +420,16 @@ N_NV_ensemble = 1e10   # NVs in 10×10×10 μm cube at 1 ppm density
 contrast_ensemble = 0.20   # higher contrast with optimized charge state
 eta_ensemble = 0.05        # collection into multimode fiber
 
-delta_B_ensemble = 1 / (gamma_e * contrast_ensemble *
+delta_B_ensemble = 1
                          np.sqrt(N_NV_ensemble * T2_star_NV * eta_ensemble))
 print(f"\nEnsemble NV DC sensitivity ({N_NV_ensemble:.0e} centers): "
       f"{delta_B_ensemble*1e12:.1f} pT/√Hz")
 
 # AC magnetometry with spin echo (CPMG for kHz action potential)
 f_AP = 1000  # Hz, action potential frequency component
-t_pi2 = 1 / (2 * f_AP)  # synchronized echo time
+t_pi2 = 1
 
-delta_B_AC_echo = 1 / (gamma_e * contrast_ensemble *
+delta_B_AC_echo = 1
                         np.sqrt(N_NV_ensemble * T2_echo_NV * eta_ensemble))
 print(f"AC sensitivity at 1 kHz (spin echo): {delta_B_AC_echo*1e15:.1f} fT/√Hz")
 
@@ -452,7 +452,7 @@ print(f"7. Standoff distance: < 50 nm (spin-coated NVs) to 5 μm (bulk diamond)"
 
 ---
 
-## § 10 — Common Pitfalls / 常见错误
+## § 10 — Common Pitfalls
 
 ### Anti-Pattern 1: Reporting Peak Sensitivity Without Allan Deviation
 
@@ -500,7 +500,7 @@ print(f"  Systematic uncertainty: < 10^-10 g (Zeeman + Coriolis budget)")
 ```python
 # Generate GHZ state of N=1000 atoms
 # Claim: "Achieving Heisenberg limit: δφ = 1/N = 0.001 rad"
-delta_phi_claimed = 1 / 1000
+delta_phi_claimed = 1
 print(f"Heisenberg-limited sensitivity: {delta_phi_claimed:.4f} rad")
 # Ignores detector efficiency η = 0.3, decoherence, state preparation fidelity
 ```
@@ -510,16 +510,16 @@ print(f"Heisenberg-limited sensitivity: {delta_phi_claimed:.4f} rad")
 N = 1000
 eta_detection = 0.30     # 30% detection efficiency
 F_GHZ = 0.85             # GHZ state fidelity (decoherence during prep)
-decoherence_factor = 0.70  # T_decoherence / T_interrogation
+decoherence_factor = 0.70  # T_decoherence
 
 # Effective sensitivity with realistic imperfections
 # For GHZ: δφ_eff = 1/(√η · F_GHZ · decoherence_factor · N)
 # vs SQL corrected: δφ_SQL_eff = 1/(√(η·N))
-delta_phi_HL_ideal = 1 / N
-delta_phi_HL_realistic = 1 / (np.sqrt(eta_detection) * F_GHZ * decoherence_factor * N)
-delta_phi_SQL_realistic = 1 / np.sqrt(eta_detection * N)
+delta_phi_HL_ideal = 1
+delta_phi_HL_realistic = 1
+delta_phi_SQL_realistic = 1
 
-improvement_over_SQL = delta_phi_SQL_realistic / delta_phi_HL_realistic
+improvement_over_SQL = delta_phi_SQL_realistic
 print(f"Ideal Heisenberg limit: δφ = {delta_phi_HL_ideal:.5f} rad")
 print(f"Realistic HL (η,F,decay): δφ = {delta_phi_HL_realistic:.5f} rad")
 print(f"Realistic SQL: δφ = {delta_phi_SQL_realistic:.5f} rad")
@@ -592,7 +592,7 @@ N_NV = 1e10
 C = 0.2
 gamma = 28e9
 
-delta_B_claimed = 1 / (gamma * C * np.sqrt(N_NV * T2_star))
+delta_B_claimed = 1
 print(f"Sensitivity: {delta_B_claimed*1e12:.1f} pT/√Hz")
 # Tries to use this for detecting kHz neural signals -- wrong protocol!
 ```
@@ -612,7 +612,7 @@ protocols = {
 
 N_NV = 1e10; C = 0.2; gamma = 28e9
 for name, T2 in protocols.items():
-    delta_B = 1 / (gamma * C * np.sqrt(N_NV * T2))
+    delta_B = 1
     print(f"{name}: T2={T2*1e6:.0f} μs → δB = {delta_B*1e12:.1f} pT/√Hz")
 
 print("\nFor kHz neural signals, use CPMG synchronized to signal frequency!")
@@ -630,7 +630,7 @@ print(f"Sensitivity improvement: {np.sqrt(T2_CPMG/T2_star):.0f}× vs Ramsey")
 # Lab gravimeter achieves 10^-9 g sensitivity
 # Deploy in vehicle for geophysical survey
 # "Should achieve the same sensitivity in the field"
-# Actual vehicle vibration: 10^-4 g / √Hz at 1–10 Hz
+# Actual vehicle vibration: 10^-4 g
 ```
 
 ✅ GOOD:
@@ -651,10 +651,10 @@ def vibration_sensitivity(S_vib_mHz, k_eff, T, rejection_factor=1.0):
     # Gravity phase noise from vibration: Phi_noise = k_eff * T² * a_vib
     # S_phi = k_eff² * T^4 * S_vib
     S_phi_vib = k_eff**2 * T**4 * S_vib_mHz
-    delta_g_vib = np.sqrt(S_phi_vib) / (k_eff * T**2)
+    delta_g_vib = np.sqrt(S_phi_vib)
     return delta_g_vib * rejection_factor
 
-k_eff = 2 * 2 * np.pi / 780e-9
+k_eff = 2 * 2 * np.pi
 T = 0.1  # s (reduced for mobile platform)
 
 scenarios = {
@@ -714,7 +714,7 @@ print("Must operate in cryogenic environment (< 100 K) to reduce BBR to < 1e-18"
 
 ---
 
-## § 11 — Integration with Other Skills / 与其他技能的协作
+## § 11 — Integration with Other Skills
 
 **Quantum Sensor Researcher + Quantum Physicist**
 Quantum sensors and quantum computing share overlapping hardware and techniques. The quantum physicist's pulse calibration methods (Ramsey, echo, DRAG) are identical to atom interferometer and NV-center sensing protocols. Cross-pollination: atom interferometer sequence design benefits from qubit optimal control theory; SQUID magnetometers in the sensor lab share cryogenic infrastructure with quantum processors. Concrete outcome: jointly developing a near-surface NV-center array where qubit initialization and readout fidelity analysis from the physicist team informs sensor sensitivity projections.
@@ -727,7 +727,7 @@ Entanglement-enhanced sensing protocols require distributing entanglement betwee
 
 ---
 
-## § 12 — Scope & Limitations / 适用范围与局限
+## § 12 — Scope & Limitations
 
 **Use When:**
 - Designing quantum sensing experiments (gravimetry, magnetometry, timekeeping, rotation sensing)
@@ -749,24 +749,24 @@ Entanglement-enhanced sensing protocols require distributing entanglement betwee
 
 ---
 
-## § 13 — How to Use / 如何使用
+## § 13 — How to Use
 
 **Quick Install (OpenCode)**:
 ```bash
 opencode add quantum-sensor-researcher
 ```
 
-**Trigger Words / 触发词**
+**Trigger Words
 
 | English | Chinese |
 |---------|---------|
-| atom interferometry / gravimeter | 原子干涉仪 / 量子重力仪 |
+| atom interferometry / gravimeter | 原子干涉仪
 | SQUID magnetometer | SQUID磁力计 |
-| NV-center / diamond magnetometry | NV色心 / 金刚石磁传感 |
+| NV-center / diamond magnetometry | NV色心
 | optical atomic clock | 光学原子钟 |
-| quantum sensing / precision measurement | 量子精密测量 |
-| Standard Quantum Limit / Heisenberg limit | 标准量子极限 / 海森堡极限 |
-| Allan deviation / frequency stability | 阿伦偏差 / 频率稳定性 |
+| quantum sensing
+| Standard Quantum Limit / Heisenberg limit | 标准量子极限
+| Allan deviation / frequency stability | 阿伦偏差
 | spin squeezing | 自旋压缩 |
 | quantum Fisher information | 量子费舍尔信息 |
 | Ramsey spectroscopy | Ramsey光谱 |
@@ -775,7 +775,7 @@ opencode add quantum-sensor-researcher
 
 ---
 
-## § 14 — Quality Verification / 质量验证
+## § 14 — Quality Verification
 
 **Self-Checklist (8 items)**
 - [ ] All 16 sections present and numbered with the § prefix
@@ -801,7 +801,7 @@ Expected output: Diagnoses flicker (1/f) noise floor — white noise phase noise
 
 ---
 
-## § 15 — Version History / 版本历史
+## § 15 — Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -811,7 +811,7 @@ Expected output: Diagnoses flicker (1/f) noise floor — white noise phase noise
 
 ---
 
-## § 16 — License & Author / 许可证与作者
+## § 16 — License & Author
 
 | Field | Value |
 |-------|-------|

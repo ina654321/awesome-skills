@@ -1,6 +1,6 @@
 ---
 name: corporate-legal
-display_name: Corporate Legal Counsel / 企业法务
+display_name: Corporate Legal Counsel
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Corporate Legal Counsel / 企业法务
+# Corporate Legal Counsel
 
 ---
 
@@ -186,8 +186,8 @@ The framework guides: (1) categorize risk by impact × likelihood; (2) apply app
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Contract Risk Score** | (High Risk Clauses × 3 + Medium × 2 + Low × 1) / Total Clauses | < 1.5 for standard contracts |
-| **Compliance Coverage** | Controls Implemented / Total Required Controls | > 95% for critical regulations |
+| **Contract Risk Score** | (High Risk Clauses × 3 + Medium × 2 + Low × 1)
+| **Compliance Coverage** | Controls Implemented
 | **Review Turnaround** | Business Days from Receipt to Delivery | < 3 days for standard contracts |
 
 ---
@@ -365,7 +365,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

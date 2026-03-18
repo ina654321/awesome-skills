@@ -1,6 +1,6 @@
 ---
 name: business-development-manager
-display_name: Business Development Manager / 商务拓展经理
+display_name: Business Development Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,9 +14,9 @@ description: >
   outreach strategies, negotiate deals, and build scalable BD pipelines across industries.
 ---
 
-<!-- BUSINESS DEVELOPMENT MANAGER v3.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Business Development Manager / 商务拓展经理
+
+# Business Development Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-gray)](.)
 
@@ -105,8 +105,8 @@ Avoid deals lacking clear mutual value or creating downstream channel conflict.
 **Partnership Type Framework:**
 ```
 Technology Integration  → API/product integration for mutual user value
-Co-sell / Referral     → Joint sales with revenue sharing on influenced deals
-Reseller / OEM         → Partner sells your product under their brand or alongside theirs
+Co-sell
+Reseller
 Co-marketing           → Joint content, events, or campaigns for shared audience
 Strategic Alliance     → Deep strategic alignment, joint product roadmap, exec-level
 Distribution           → Partner provides access to distribution channel or market

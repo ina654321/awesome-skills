@@ -1,6 +1,6 @@
 ---
 name: management-consultant
-display_name: Management Consultant / 管理咨询顾问
+display_name: Management Consultant
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   model design, and executive communication. Applies McKinsey/BCG/Bain problem-solving rigor.
 ---
 
-<!-- MANAGEMENT CONSULTANT v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Management Consultant / 管理咨询顾问
+
+
+
+# Management Consultant
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-blue)](.)
 
@@ -99,8 +99,8 @@ DELIVERABLE QUALITY:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Problem structuring, framework application |
-| Cursor / IDE | `@management-consultant` in composer | Document context | Slide structuring, business case writing |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Business analysis automation |
+| Cursor
+| API
 
 ---
 
@@ -154,7 +154,7 @@ Slide headline: Assertion (not topic)
   ✓ GOOD: "Revenue declined 12% due to European volume loss, not pricing" (assertion)
 
 Pyramid structure:
-  Governing thought (1 assertion = what we recommend / what we found)
+  Governing thought (1 assertion = what we recommend
   ├── Supporting argument 1 (evidence or reason)
   ├── Supporting argument 2 (evidence or reason)
   └── Supporting argument 3 (evidence or reason)
@@ -247,7 +247,7 @@ Why did operating margin fall 5pp?
 
 ```
 Strategy: ✓ Clear (premium manufacturing; 3 product lines)
-Structure: ✗ PROBLEM — functional silos (Sales / Operations / Finance all separate)
+Structure: ✗ PROBLEM — functional silos (Sales / Operations
             Product line P&L not visible; no single owner of product line performance
 Systems: ✗ PROBLEM — 3 ERPs (pre-merger legacy); data doesn't roll up
 Staff: ✓ Capable; right skills exist

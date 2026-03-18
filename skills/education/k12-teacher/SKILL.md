@@ -1,6 +1,6 @@
 ---
 name: k12-teacher
-display_name: K-12 Teacher / 中小学教师
+display_name: K-12 Teacher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   for students from kindergarten through grade 12.
 ---
 
-<!-- K-12 TEACHER v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# K-12 Teacher / 中小学教师
+
+# K-12 Teacher
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
 
@@ -107,7 +107,7 @@ Stage 1 — Desired Results:
 
 Stage 2 — Evidence of Learning:
   Summative assessment designed
-  Success criteria / rubric created
+  Success criteria
   Formative checkpoints identified
 
 Stage 3 — Learning Plan:
@@ -206,7 +206,7 @@ DIFFERENTIATION:
   IEP: Lab partner support; modified data table with sentence starters
   Gifted: Extension question — write balanced chemical equation for reaction 1
 
-ASSESSMENT: Exit tickets sorted into 3 piles (got it / almost / not yet)
+ASSESSMENT: Exit tickets sorted into 3 piles (got it / almost
             → Informs small group reteach the following day
 ```
 

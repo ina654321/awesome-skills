@@ -118,7 +118,7 @@ After install, test with any trigger phrase:
 
 ## Uninstall
 
-| Platform | Command / Action |
+| Platform | Command
 |----------|-----------------|
 | **OpenCode** | `/skill uninstall skill-writer` |
 | **Claude Code (global)** | Remove the `Read ...skill-writer/SKILL.md...` line from `~/.claude/CLAUDE.md` |

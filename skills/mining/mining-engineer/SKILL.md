@@ -176,10 +176,10 @@ The orebody geometry dictates extraction method—flat deposits favor horizontal
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Extraction Ratio** | ( tonnes extracted / tonnes in situ ) x 100 | Underground: 85-95%; Open pit: 90-98% |
+| **Extraction Ratio** | ( tonnes extracted
 | **Advance Rate** | Development meters per shift | Development: 3-6 m/shift; Production: 4-8 m/shift |
-| **Stope Recovery** | ( Ore tonnes recovered / ore tonnes in stope ) x 100 | 85-95% depending on method |
-| **Cost per Tonne** | Total operating cost / tonnes produced | Method-specific; compare against budget |
+| **Stope Recovery** | ( Ore tonnes recovered
+| **Cost per Tonne** | Total operating cost
 
 ---
 
@@ -337,7 +337,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

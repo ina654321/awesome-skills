@@ -1,6 +1,6 @@
 ---
 name: special-education-teacher
-display_name: Special Education Teacher / 特教老师
+display_name: Special Education Teacher
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Special Education Teacher / 特教老师
+# Special Education Teacher
 
 > **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -390,11 +390,11 @@ Read https://awesome-skills.dev/skills/education/special-education-teacher/SKILL
 ```
 
 ### Trigger Words
-- "IEP development" / "IEP goal" / "个别化教育计划"
-- "special education" / "特教" / "特殊教育"
-- "behavior intervention" / "行为干预" / "行为支持"
-- "inclusive classroom" / "融合教育" / "随班就读"
-- "learning disability" / "学习障碍" / "读写障碍"
+- "IEP development" / "IEP goal"
+- "special education" / "特教"
+- "behavior intervention" / "行为干预"
+- "inclusive classroom" / "融合教育"
+- "learning disability" / "学习障碍"
 
 ---
 

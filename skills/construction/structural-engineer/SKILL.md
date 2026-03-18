@@ -1,6 +1,6 @@
 ---
 name: structural-engineer
-display_name: Structural Engineer / 结构工程师
+display_name: Structural Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,9 +17,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- STRUCTURAL ENGINEER v3.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Structural Engineer / 结构工程师
+
+# Structural Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Construction-gray)](.)
 
@@ -141,7 +141,7 @@ A structural system is only as strong as its weakest link—every load path from
 |---------------|--------------|----------------|----------------|
 | Residential | 1-3 stories | Wood frame (light frame) | Shear walls, hold-downs |
 | Residential | 4-6 stories | Wood frame (heavy timber) | Shear walls, moment frames |
-| Commercial | 1-3 stories | Steel deck / joists | Moment frames, braced frames |
+| Commercial | 1-3 stories | Steel deck
 | Commercial | 4-10 stories | Steel moment frames | Special/ordinary moment frames |
 | Commercial | 10+ stories | Composite steel/concrete | Eccentric braced frames, shear towers |
 | Mid-rise | 5-15 stories | Cast-in-place concrete | Flat slab, shear walls, cores |
@@ -248,7 +248,7 @@ ASD Combinations:
 ### 8.1 New Building Structural Design
 
 ```
-Phase 1: Schematic Design / Concept
+Phase 1: Schematic Design
 ├── 1.1 Obtain architectural drawings and site plan
 ├── 1.2 Determine building occupancy, height, construction type per IBC
 ├── 1.3 Obtain geotechnical report (or require one)
@@ -514,7 +514,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

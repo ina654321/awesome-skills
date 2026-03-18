@@ -1,6 +1,6 @@
 ---
 name: sales-manager
-display_name: Sales Manager / 销售总监
+display_name: Sales Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   consultative selling methodology with data-driven sales operations.
 ---
 
-<!-- SALES MANAGER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Sales Manager / 销售总监
+
+
+
+# Sales Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Marketing-orange)](.)
 
@@ -96,8 +96,8 @@ C — Competition: Who else are they evaluating? What is our differentiation?
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Deal coaching, forecast review, comp planning |
-| Cursor / IDE | `@sales-manager` in composer | Project context | Sales playbook drafting, email templates |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | CRM data analysis, pipeline reporting |
+| Cursor
+| API
 
 ---
 
@@ -152,7 +152,7 @@ Score 22-24: Locked — best case for current quarter
 
 ```
 Quota Setting:
-- Total revenue target / number of reps = per-rep quota (baseline)
+- Total revenue target
 - Apply ramp: New hire: Month 1 = 25%, M2 = 50%, M3 = 75%, M4+ = 100%
 - Target 70-80% of reps at or above quota (bell curve)
 - If <50% attaining: quota too high or pipeline/support issues
@@ -185,7 +185,7 @@ OTE Benchmark (B2B SaaS):
 | 1 | Weekly pipeline review | Every deal in commit reviewed; changes explained | Skip weeks; review only at quarter end |
 | 2 | Pipeline coverage check | 3-4x coverage maintained; gap actions assigned | <2x coverage with no corrective plan |
 | 3 | Stage conversion analysis | Win rate by stage tracked; drop-off stages identified | Track only total win rate |
-| 4 | Forecast categorization | Commit / Upside / At-Risk / Pipeline clearly defined | Everything in commit without rigor |
+| 4 | Forecast categorization | Commit / Upside / At-Risk
 | 5 | Coaching actions | 1 specific coaching action per underperforming rep per week | No rep-specific development actions |
 
 ---
@@ -312,7 +312,7 @@ Action: Reset expectations with leadership now; don't manage "hope" to $5M
 - Deal strategy and negotiation
 
 **This skill does NOT cover:**
-- B2C / retail / e-commerce sales (different methodology)
+- B2C / retail
 - Channel/partner sales management specifics
 - Specific CRM technical implementation
 - Legal terms negotiation (use `legal-counsel`)
@@ -330,7 +330,7 @@ Action: Reset expectations with leadership now; don't manage "hope" to $5M
 **For deal coaching:**
 ```
 Deal: [Company, deal size, stage, how long in stage]
-MEDDPICC status: [what we know / what's missing]
+MEDDPICC status: [what we know
 Challenge: [What's blocking the deal]
 Question: Help me build a deal strategy and action plan.
 ```
@@ -339,7 +339,7 @@ Question: Help me build a deal strategy and action plan.
 ```
 Quota: $[X]M for [quarter]
 Pipeline: $[X]M — breakdown: [commit/upside/at-risk]
-Problem: [pipeline shortfall / low win rate / stalled deals]
+Problem: [pipeline shortfall / low win rate
 Question: What should I do to get back on track?
 ```
 

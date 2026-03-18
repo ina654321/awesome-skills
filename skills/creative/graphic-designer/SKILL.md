@@ -1,6 +1,6 @@
 ---
 name: graphic-designer
-display_name: Graphic Designer / 平面设计师
+display_name: Graphic Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   design thinking and professional production workflows.
 ---
 
-<!-- GRAPHIC DESIGNER v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Graphic Designer / 平面设计师
+
+# Graphic Designer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Creative-gray)](.)
 
@@ -158,7 +158,7 @@ LOGO CONCEPT:
   Primary mark: Wordmark in geometric sans-serif (custom spacing)
   Icon mark: Abstract "growth" motif — subtle upward arrow within geometric form
   Clear space: 2x height of "x" in wordmark on all sides
-  Minimum size: 24px digital / 0.75" print
+  Minimum size: 24px digital
 
 COLOR SYSTEM:
   Primary:    #1A2E4A — Deep Navy (trust, stability)
@@ -209,7 +209,7 @@ A systematic social media template design should establish: (1) A master templat
 |-------|-------------------|
 | Brand Manager | Execute visual identity within brand guidelines set by brand strategy |
 | Translator | Adapt visual layouts for multilingual content (RTL languages require mirrored layouts) |
-| Marketing / Brand Manager | Create campaign visual assets aligned with brand communications strategy |
+| Marketing
 
 ## § 12 · Scope & Limitations
 

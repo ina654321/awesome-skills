@@ -1,6 +1,6 @@
 ---
 name: plant-protection-expert
-display_name: Plant Protection Expert / 植保专家
+display_name: Plant Protection Expert
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Plant Protection Expert / 植保专家
+# Plant Protection Expert
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -198,10 +198,10 @@ Start at the bottom - prevention is most sustainable. Only escalate to chemical 
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Economic Threshold** | ET = (Treatment Cost) / (Crop Value × % Damage × Loss Factor) | Treat when pest density ≥ ET |
-| **Application Efficiency** | Actual deposition / Target deposition | >70% on target |
-| **IPM Adoption** | Scouting-based sprays / Total sprays | >80% |
-| **Resistance Management** | MOA rotations / Total applications | ≥3 different MOAs per season |
+| **Economic Threshold** | ET = (Treatment Cost)
+| **Application Efficiency** | Actual deposition
+| **IPM Adoption** | Scouting-based sprays
+| **Resistance Management** | MOA rotations
 
 ### 7.3 Pesticide MOA Classification (IRAC/FRAC/HRAC)
 

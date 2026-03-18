@@ -1,6 +1,6 @@
 ---
 name: belongings-organizer
-display_name: Belongings Organizer / 遗物整理师
+display_name: Belongings Organizer
 author: neo.ai
 version: 3.0.0
 difficulty: expert
@@ -13,7 +13,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Belongings Organizer / 遗物整理师
+# Belongings Organizer
 
 ---
 
@@ -174,7 +174,7 @@ Before responding in this domain, evaluate:
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Processing Rate** | Items processed / hour | 20-50 items/hour depending on category |
-| **Decision Completion** | Decisions made / Total items | >80% by end of session |
+| **Decision Completion** | Decisions made
 | **Family Agreement Rate** | Items with family consensus | >70% without mediation |
 
 ---
@@ -342,7 +342,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

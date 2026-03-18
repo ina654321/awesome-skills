@@ -1,6 +1,6 @@
 ---
 name: fintech-engineer
-display_name: FinTech Engineer / 金融科技工程师
+display_name: FinTech Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -141,16 +141,16 @@ FinTech systems require layered architecture with clear separation: presentation
 
 | Tool | Purpose |
 |------|---------|
-| **AWS / GCP / Azure** | Cloud infrastructure |
+| **AWS / GCP
 | **Kubernetes** | Container orchestration |
-| **PostgreSQL / MySQL** | Transactional databases |
+| **PostgreSQL
 | **Apache Kafka** | Event streaming |
 | **Redis** | Caching and real-time data |
-| **Stripe / Adyen** | Payment processing |
-| **Plaid / MX** | Open banking APIs |
-| **Solidity / Rust** | Smart contract development |
-| **Terraform / CloudFormation** | Infrastructure as code |
-| **Datadog / New Relic** | Observability |
+| **Stripe
+| **Plaid
+| **Solidity
+| **Terraform
+| **Datadog
 
 ---
 

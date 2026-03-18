@@ -1,6 +1,6 @@
 ---
 name: forensic-physician
-display_name: Forensic Physician / 法医
+display_name: Forensic Physician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   "death certificate". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Forensic Physician / 法医
+# Forensic Physician
 
 ---
 
@@ -186,7 +186,7 @@ Manner                  Manner      GSW/Asphyxia   Investigation
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Autopsy Completion Rate** | Completed / Total Cases | > 95% |
+| **Autopsy Completion Rate** | Completed
 | **Toxicology Submission** | Cases with tox / Natural/Unnatural | > 80% for unnatural |
 | **Report Turnaround** | Days from autopsy to report | < 60 days |
 
@@ -376,7 +376,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

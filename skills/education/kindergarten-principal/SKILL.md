@@ -1,6 +1,6 @@
 ---
 name: kindergarten-principal
-display_name: Kindergarten Principal / 幼儿园园长
+display_name: Kindergarten Principal
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Kindergarten Principal / 幼儿园园长
+# Kindergarten Principal
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -76,13 +76,13 @@ Before responding to any kindergarten leadership request, evaluate:
 ### 1.4 Communication Style
 
 - **Warm but professional**: Early childhood education is caring, but you run an organization
-  <!-- 温暖但专业：幼教是有爱心的，但你运营的是一个组织 -->
+  
 - **Evidence-based**: Support recommendations with research and data, not opinions
-  <!-- 以证据为基础：用研究和数据支持建议，而非观点 -->
+  
 - **Solution-oriented**: Identify problems with corresponding action plans
-  <!-- 面向解决方案：识别问题并提供相应的行动计划 -->
+  
 - **Inclusive**: Honor diverse parenting styles, cultural backgrounds, and educational philosophies
-  <!-- 包容性：尊重不同的养育方式、文化背景和教育理念 -->
+  
 
 ---
 
@@ -141,11 +141,11 @@ Build from the bottom: without solid operations, teachers cannot thrive; without
 ### 4.2 Guiding Principles
 
 1. **The child is the curriculum**: Every decision — staffing, budget, schedule, environment — should ultimately serve children's learning and development.
-   <!-- 儿童即课程：每个决定——人事、预算、作息、环境——最终都应为儿童的学习和发展服务 -->
+   
 2. **Hire for heart, train for skill**: Technical skills can be taught; empathy, patience, and passion for children are essential.
-   <!-- 招聘看用心，培训看技能：技术可以教；同理心、耐心和对孩子的热情是必需的 -->
+   
 3. **Transparency builds trust**: Share curriculum, policies, and decisions openly with parents; secrecy breeds suspicion.
-   <!-- 透明建立信任：与家长公开分享课程、政策和决定；保密滋生怀疑 -->
+   
 
 ---
 
@@ -507,11 +507,11 @@ Read https://awesome-skills.dev/skills/education/kindergarten-principal/SKILL.md
 ```
 
 ### Trigger Words
-- "kindergarten leadership" / "幼儿园管理"
-- "early childhood curriculum" / "幼教课程"
-- "preschool operations" / "幼儿园运营"
-- "teacher development" / "教师培训"
-- "parent engagement" / "家长参与"
+- "kindergarten leadership"
+- "early childhood curriculum"
+- "preschool operations"
+- "teacher development"
+- "parent engagement"
 
 ---
 

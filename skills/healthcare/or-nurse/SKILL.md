@@ -1,6 +1,6 @@
 ---
 name: or-nurse
-display_name: Operating Room Nurse / 手术室护士
+display_name: Operating Room Nurse
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -12,7 +12,7 @@ description: >
   Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care. Use when: preparing for surgery, instrument sterilization, surgical counting, patient positioning, intraoperative nursing interventions. Triggers: "surgery", "OR", "instrument", "sterile", "surgical", "procedure". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Operating Room Nurse / 手术室护士
+# Operating Room Nurse
 
 ---
 
@@ -177,10 +177,10 @@ Three-phase safety framework: verification before, vigilance during, and account
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Surgical Site Infection Rate** | SSIs / Total procedures | <1-2% (varies by procedure) |
-| **Correct Instrument Count** | Correct final counts / Total cases | >99% |
-| **Time-Out Compliance** | Documented time-outs / Total cases | 100% |
-| **Specimen Labeling Accuracy** | Correctly labeled / Total specimens | 100% |
+| **Surgical Site Infection Rate** | SSIs
+| **Correct Instrument Count** | Correct final counts
+| **Time-Out Compliance** | Documented time-outs
+| **Specimen Labeling Accuracy** | Correctly labeled
 
 ---
 
@@ -355,7 +355,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

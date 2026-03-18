@@ -1,6 +1,6 @@
 ---
 name: process-engineer
-display_name: Process Engineer / 工艺工程师
+display_name: Process Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,9 +16,9 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- PROCESS ENGINEER v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Process Engineer / 工艺工程师
+
+# Process Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Manufacturing-blue)](.)
 
@@ -143,9 +143,9 @@ This skill delivers expert-level guidance across manufacturing process optimizat
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
-| Minitab / JMP | Statistical analysis, DOE, capability | All Six Sigma projects |
+| Minitab
 | Value Stream Mapping (VSM) | Waste identification, flow analysis | Lean transformation |
-| Kaizen / A3 | Problem-solving documentation | Continuous improvement events |
+| Kaizen
 | OEE Tracking (OEE.com) | Overall Equipment Effectiveness | TPM implementation |
 | SPC Charts (SPC IV Excel) | Statistical process control | Ongoing monitoring |
 | Control Plan (APQP) | Process control documentation | Production release |
@@ -167,11 +167,11 @@ This skill delivers expert-level guidance across manufacturing process optimizat
 | OEE | Availability × Performance × Quality | ≥ 85% (world-class ≥ 90%) |
 | Cpk | min[(USL-μ)/3σ, (μ-LSL)/3σ] | ≥ 1.33 (capable); ≥ 1.67 (excellent) |
 | Ppk | min[(USL-μ)/3s, (μ-LSL)/3s] | ≥ 1.67 (long-term capable) |
-| DPMO | (Defects / Opportunities) × 1,000,000 | < 500 (4σ); < 50 (6σ) |
+| DPMO | (Defects
 | Cycle Time (CT) | Actual time per unit | < Takt Time for flow |
-| Takt Time | Available Time / Customer Demand | Production pacing target |
+| Takt Time | Available Time
 | Lead Time | Wait Time + Process Time | < 5 × Process Time for flow |
-| GR&R | 5.15 × σ_measurement / σ_total | < 10% excellent; < 30% acceptable |
+| GR&R | 5.15 × σ_measurement
 
 ---
 
@@ -425,7 +425,7 @@ Annual savings: $280K (reduced scrap, less overtime)
 // GR&R Study before any capability analysis:
     // 1. Select 10 random parts from production
     // 2. Operator measures each part 3 times
-    // 3. Calculate: %GR&R = 5.15 × σ_measurement / σ_total
+    // 3. Calculate: %GR&R = 5.15 × σ_measurement
     // 4. If %GR&R > 30%: Improve gauge or method first
     // 5. If %GR&R < 10%: Excellent; proceed with capability study
 // Example: %GR&R = 22% → Acceptable but monitor
@@ -565,14 +565,14 @@ cp process-engineer.md ~/.skills/
 
 | Trigger Words | 中文触发词 |
 |---------------|-----------|
-| "process engineer" / "process improvement" | "工艺工程师" / "工艺改进" |
-| "lean manufacturing" / "Toyota Production System" | "精益生产" / "TPS" |
-| "Six Sigma" / "DMAIC" / "Cpk" | "六西格玛" / "DMAIC" |
-| "Kaizen" / "continuous improvement" | "改善" / "持续改进" |
-| "OEE" / "TPM" / "equipment effectiveness" | "设备综合效率" / "全员生产维护" |
-| "cycle time" / "bottleneck" | "周期时间" / "瓶颈" |
-| "standard work" / "SOP" | "标准作业" / "作业指导书" |
-| "root cause analysis" / "5 Whys" | "根本原因分析" / "5个为什么" |
+| "process engineer" / "process improvement" | "工艺工程师"
+| "lean manufacturing" / "Toyota Production System" | "精益生产"
+| "Six Sigma" / "DMAIC" / "Cpk" | "六西格玛"
+| "Kaizen" / "continuous improvement" | "改善"
+| "OEE" / "TPM" / "equipment effectiveness" | "设备综合效率"
+| "cycle time" / "bottleneck" | "周期时间"
+| "standard work" / "SOP" | "标准作业"
+| "root cause analysis" / "5 Whys" | "根本原因分析"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: gerrit-permission-manager
-display_name: Gerrit Permission Manager / Gerrit权限管理专家
+display_name: Gerrit Permission Manager
 author: neo.ai
 version: 1.0.0
 difficulty: expert
@@ -138,7 +138,7 @@ See [references/permission-templates.md](references/permission-templates.md) for
   
   <project path="repo1" name="repo1" />
   <project path="repo2" name="repo2" />
-  <!-- ... more repos -->
+  
 </manifest>
 ```
 

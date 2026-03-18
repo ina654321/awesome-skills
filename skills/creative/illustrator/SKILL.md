@@ -1,6 +1,6 @@
 ---
 name: illustrator
-display_name: Illustrator / 插画师
+display_name: Illustrator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Illustrator / 插画师
+# Illustrator
 
 ---
 
@@ -179,8 +179,8 @@ The illustrator's job is to solve visual communication problems. Brief analysis 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Brief-to-Delivery Time** | Calendar days from brief to final | Editorial: 5-10 days; Book: 2-4 weeks; Advertising: 1-3 weeks |
-| **Revision Rate** | Revision rounds / Initial delivery | Target: ≤3 rounds included; beyond = additional fee |
-| **Client Satisfaction** | Repeat clients / Total clients | > 60% repeat rate indicates strong relationships |
+| **Revision Rate** | Revision rounds
+| **Client Satisfaction** | Repeat clients
 | **File Cleanliness** | Layer organization; named groups | Always deliver organized, named layers |
 
 ---
@@ -355,7 +355,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

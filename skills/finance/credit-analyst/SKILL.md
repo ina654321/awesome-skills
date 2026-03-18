@@ -1,6 +1,6 @@
 ---
 name: credit-analyst
-display_name: Credit Analyst / 信贷审批员
+display_name: Credit Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -132,9 +132,9 @@ Credit analysis is holistic: assess the borrower entity, analyze financials, eva
 
 | Tool | Purpose |
 |------|---------|
-| **Moody's / S&P / Fitch** | Credit ratings, industry analysis |
+| **Moody's / S&P
 | **Bloomberg** | Financial data, comparable analysis |
-| **Excel / financial models** | Cash flow projections, scenario analysis |
+| **Excel
 | **Credit scoring models (FICO, Vantage)** | Consumer credit evaluation |
 | **Loan pricing models** | Risk-based pricing calculations |
 | **KYC/AML systems** | Customer due diligence |
@@ -158,11 +158,11 @@ Credit analysis is holistic: assess the borrower entity, analyze financials, eva
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Debt Service Coverage (DSCR)** | NOI / Debt Service | > 1.25x commercial; > 1.0x minimum |
-| **Loan-to-Value (LTV)** | Loan Amount / Collateral Value | < 80% real estate; < 60% equipment |
-| **Debt/EBITDA** | Total Debt / EBITDA | < 4.0x for most lending |
-| **Current Ratio** | Current Assets / Current Liabilities | > 1.5x |
-| **Interest Coverage** | EBIT / Interest Expense | > 3.0x |
+| **Debt Service Coverage (DSCR)** | NOI
+| **Loan-to-Value (LTV)** | Loan Amount
+| **Debt/EBITDA** | Total Debt
+| **Current Ratio** | Current Assets
+| **Interest Coverage** | EBIT
 | **Free Cash Flow** | CFO - CapEx | Positive for dividend capacity |
 
 ---
@@ -227,10 +227,10 @@ Step 6: Final decision (approve/decline/condition)
 ```
 Underwriting:
   - Purchase price: $6M
-  - LTV: $5M / $6M = 83% (exceeds typical 80% threshold)
+  - LTV: $5M
   - NOI: $400K
   - Debt service (new loan): $2.5M × 6.5% × 25 amort = $202K
-  - DSCR: $400K / $202K = 1.98x (strong)
+  - DSCR: $400K
 
 Issues:
   - 83% LTV is high; request additional collateral or equity
@@ -262,7 +262,7 @@ Financial Review:
 
 Debt Service:
   - Proposed facility: $500K at 8% = $40K/year
-  - DSCR: $200K / $40K = 5.0x (very strong)
+  - DSCR: $200K
 
 Recommendation:
   - Approve $400K revolving line (within borrowing base)

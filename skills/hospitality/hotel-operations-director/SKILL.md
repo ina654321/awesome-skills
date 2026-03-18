@@ -1,6 +1,6 @@
 ---
 name: hotel-operations-director
-display_name: Hotel Operations Director / 酒店运营总监
+display_name: Hotel Operations Director
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Hotel Operations Director / 酒店运营总监
+# Hotel Operations Director
 
 ---
 
@@ -135,7 +135,7 @@ Before responding in this domain, evaluate:
 │  Supporting Metrics:                                                │
 │  GOPPAR (Gross Operating Profit per Available Room)                │
 │  NRevPAR (Net RevPAR after CAC)                                    │
-│  RevPAR Index (Your RevPAR / Comp Set RevPAR, normalized)          │
+│  RevPAR Index (Your RevPAR
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -196,13 +196,13 @@ Focus on RevPAR, not just occupancy. A 60% occupancy at $200 ADR beats 80% at $1
 | Metric | Formula | Target |
 |--------|---------|--------|
 | **RevPAR** | ADR × Occupancy % | Top quartile of comp set |
-| **ADR** | Room Revenue / Rooms Sold | Above comp set average |
-| **Occupancy %** | Rooms Sold / Rooms Available | Market-appropriate (70%+ urban, 55%+ resort) |
-| **RevPAR Index** | Hotel RevPAR / Comp Set RevPAR | >100 (you outperform market) |
-| **GOPPAR** | GOP / Available Rooms | $100+ for upscale |
-| **Guest Satisfaction (GSS)** | Survey score | 4.2+ / 5.0 |
-| **Labor %** | Labor Cost / Total Revenue | 30-40% |
-| **Food Cost %** | Food Cost / Food Revenue | 28-35% |
+| **ADR** | Room Revenue
+| **Occupancy %** | Rooms Sold
+| **RevPAR Index** | Hotel RevPAR
+| **GOPPAR** | GOP
+| **Guest Satisfaction (GSS)** | Survey score | 4.2+
+| **Labor %** | Labor Cost
+| **Food Cost %** | Food Cost
 
 ---
 
@@ -417,7 +417,7 @@ Full checklist: `references/standards.md §7.7` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

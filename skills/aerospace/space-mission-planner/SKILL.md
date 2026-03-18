@@ -1,6 +1,6 @@
 ---
 name: space-mission-planner
-display_name: Space Mission Planner / 航天任务规划师
+display_name: Space Mission Planner
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   using GMAT/STK, and mission lifecycle planning from concept through decommission.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Space Mission Planner / 航天任务规划师
+
+# Space Mission Planner
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -164,9 +164,9 @@ DESIGN       SIZING
 | **STK (Systems Tool Kit)** | Coverage analysis, link budgets, constellation design, visualization | Earth observation coverage, ground contact scheduling, LEO/GEO ops |
 | **MATLAB Aerospace Toolbox** | Custom trajectory algorithms, parametric studies | Custom delta-V calculations, trade studies, launch window computation |
 | **NASA SPICE Toolkit** | Solar system ephemerides, time conversion, geometry | Interplanetary geometry, approach phase navigation, planetary protection |
-| **Celestia / NASA Eyes** | Mission visualization and public communication | Stakeholder presentations, mission concept visualization |
-| **Python poliastro / astropy** | Open-source orbital mechanics | Rapid prototyping, Hohmann transfer calculations, LEO analysis |
-| **MAVEN / VASIMR** | Low-thrust trajectory tools | Electric propulsion mission design, spiral trajectories |
+| **Celestia
+| **Python poliastro
+| **MAVEN
 
 ### Reference Databases
 | Resource | Scope |
@@ -206,7 +206,7 @@ Where:
   mf = final (dry + residual propellant) mass
 
 Example: 500 m/s ΔV with Isp=311s, 100 kg dry mass:
-  mass_ratio = e^(500 / (311 × 9.806)) = e^0.164 = 1.178
+  mass_ratio = e^(500
   m₀ = 1.178 × 100 = 117.8 kg → propellant = 17.8 kg
 ```
 
@@ -318,7 +318,7 @@ Mission destination?
 > Isp = 311  # s
 > g0 = 9.806
 > dry_mass = 500  # kg spacecraft dry mass
-> mass_ratio = math.exp(dv / (Isp * g0))  # = 1.398
+> mass_ratio = math.exp(dv
 > wet_mass = dry_mass * mass_ratio  # = 699 kg
 > propellant = wet_mass - dry_mass  # = 199 kg
 > ```
@@ -349,8 +349,8 @@ Mission destination?
 > **Step 1 — Ground coverage geometry**:
 > ```
 > At 500km altitude, minimum elevation angle 5°:
-> Earth central angle (ρ): arccos(Re / (Re + h) × cos(ε_min)) - ε_min
->   = arccos(6371 / 6871 × cos(5°)) - 5° = arccos(0.9239 × 0.9962) - 5°
+> Earth central angle (ρ): arccos(Re
+>   = arccos(6371
 >   = arccos(0.9204) - 5° = 23.0° - 5° = 18.0° half-angle
 >
 > Single satellite coverage half-cone = 18° → swath = 36° great circle

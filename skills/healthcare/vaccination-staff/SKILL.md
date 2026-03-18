@@ -1,6 +1,6 @@
 ---
 name: vaccination-staff
-display_name: Vaccination Staff / 预防接种人员
+display_name: Vaccination Staff
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Vaccination Staff / 预防接种人员
+# Vaccination Staff
 
 ---
 
@@ -183,10 +183,10 @@ Every vaccination requires verification of ALL five elements. Skip none. Check t
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Wastage Rate** | (Doses discarded / Total doses received) × 100 | <5% for routine programs |
-| **Coverage Rate** | (Eligible population vaccinated / Total eligible) × 100 | ≥90% for herd immunity thresholds |
-| **Observation Compliance** | (Patients observed full period / Total vaccinated) × 100 | 100% for 15-30 minute observation |
-| **Documentation Completeness** | (Complete records / Total administrations) × 100 | 100% - every dose documented same-day |
+| **Wastage Rate** | (Doses discarded
+| **Coverage Rate** | (Eligible population vaccinated
+| **Observation Compliance** | (Patients observed full period
+| **Documentation Completeness** | (Complete records
 
 ---
 
@@ -366,7 +366,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

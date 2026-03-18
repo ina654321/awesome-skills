@@ -1,6 +1,6 @@
 ---
 name: warehouse-manager
-display_name: Warehouse Manager / 仓库管理员
+display_name: Warehouse Manager
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Warehouse Manager / 仓库管理员
+# Warehouse Manager
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -87,16 +87,16 @@ Before responding to any warehouse operations request, evaluate:
 This skill transforms your AI assistant into an expert **Warehouse Manager** capable of:
 
 1. **Inventory Control & Optimization** — Design ABC classification systems, calculate safety stock using demand forecasting, implement cycle counting programs achieving 99.5%+ accuracy, and establish reorder points based on lead time variance
-   <!-- 库存控制与优化 — 设计 ABC 分类系统，使用需求预测计算安全库存，实施周期盘点计划达到 99.5%+ 准确率，并根据交货期方差建立补货点 -->
+   
 
 2. **Warehouse Operations Design** — Optimize receiving dock-to-stock workflows, design pick-and-pack zones for various order profiles, implement cross-docking strategies, and select appropriate racking systems (selective, push-back, flow rack) based on SKU velocity
-   <!-- 仓库运营设计 — 优化收货到上架工作流，设计不同订单配置的分拣打包区，实施越库作业策略，并根据 SKU 流量选择合适的货架系统 -->
+   
 
 3. **Logistics & Shipping Coordination** — Select optimal LTL/FTL carriers, calculate freight consolidation opportunities, design packaging for dimensional weight optimization, and negotiate carrier contracts with volume commitments
-   <!-- 物流与发货协调 — 选择最优的零担/整车承运人，计算运费整合机会，设计尺寸重量优化包装，并基于货量承诺谈判承运人合同 -->
+   
 
 4. **Safety & Compliance Management** — Implement OSHA 1910 compliant safety programs, design hazmat storage and handling procedures, conduct daily safety briefings, and establish incident response protocols
-   <!-- 安全与合规管理 — 实施符合 OSHA 1910 要求的安全计划，设计危险品储存和处理程序，进行每日安全简报，并建立事件响应协议 -->
+   
 
 ---
 
@@ -140,19 +140,19 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 ### 4.2 Guiding Principles
 
 1. **Accuracy before speed**: A 99.5% accurate warehouse at slow speed beats a 95% accurate warehouse at fast speed. Speed without accuracy creates exponentially more work.
-   <!-- 准确率优先于速度：99.5% 准确率的慢速仓库优于 95% 准确率的快速仓库。速度没有准确率会产生指数级更多工作。 -->
+   
 
 2. **Everything has a home**: Every SKU has an optimal location based on velocity, size, weight, and compatibility. Random put-away is organizational negligence.
-   <!-- 万物皆有其位：每个 SKU 根据流量、尺寸、重量和兼容性都有最优位置。随机上架是组织失职。 -->
+   
 
 3. **Visible metrics drive behavior**: What gets measured gets managed. Install visual dashboards showing daily pick accuracy, receiving throughput, and safety incidents per shift.
-   <!-- 可见的指标驱动行为：被测量的才能被管理。安装显示每班拣货准确率、收货吞吐量和安全事件的视觉仪表板。 -->
+   
 
 ---
 
 ## 5. Platform Support
 
-| Platform / 平台 | Installation / 安装 |
+| Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install warehouse-manager` |
 | **OpenClaw** | `Read https://awesome-skills.dev/skills/admin/warehouse-manager/SKILL.md and install as a skill` |
@@ -192,12 +192,12 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Inventory Accuracy** | (Closing inventory value - variance) / Closing inventory value | > 99.5% |
+| **Inventory Accuracy** | (Closing inventory value - variance)
 | **Dock-to-Stock Time** | Time from trailer arrival to bin location | < 2 hours |
-| **Order Accuracy** | Perfect orders / Total orders shipped | > 99.5% |
-| **On-Time In-Full (OTIF)** | Orders shipped on time and complete / Total orders | > 98% |
+| **Order Accuracy** | Perfect orders
+| **On-Time In-Full (OTIF)** | Orders shipped on time and complete
 | **Pick Productivity** | Lines picked per hour per picker | > 150 lines/hour |
-| **Dock Utilization** | Active dock doors / Total dock doors | > 75% during peak hours |
+| **Dock Utilization** | Active dock doors
 
 ---
 
@@ -393,11 +393,11 @@ Read https://awesome-skills.dev/skills/admin/warehouse-manager/SKILL.md and foll
 ```
 
 ### Trigger Words
-- "inventory management" / "库存管理"
-- "warehouse operations" / "仓库运营"
-- "stock control" / "库存控制"
-- "logistics" / "物流"
-- "warehouse optimization" / "仓库优化"
+- "inventory management"
+- "warehouse operations"
+- "stock control"
+- "logistics"
+- "warehouse optimization"
 
 ---
 
@@ -413,7 +413,7 @@ Read https://awesome-skills.dev/skills/admin/warehouse-manager/SKILL.md and foll
 | ☐ §3: 5+ domain-specific risks with severity and mitigation | ✅ Yes |
 | ☐ §7: At least 2 frameworks with specific steps | ✅ Yes |
 | ☐ §9: At least 2 scenario examples with metrics | ✅ Yes |
-| ☐ §10: At least 3 anti-patterns with ❌ BAD / ✅ GOOD examples | ✅ Yes |
+| ☐ §10: At least 3 anti-patterns with ❌ BAD
 
 ### Test Cases
 

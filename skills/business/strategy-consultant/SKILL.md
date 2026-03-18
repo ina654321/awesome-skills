@@ -1,6 +1,6 @@
 ---
 name: strategy-consultant
-display_name: Strategy Consultant / 战略咨询顾问
+display_name: Strategy Consultant
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   BCG matrix, Blue Ocean Strategy, and scenario planning to develop winning strategic choices.
 ---
 
-<!-- STRATEGY CONSULTANT v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Strategy Consultant / 战略咨询顾问
+
+
+
+# Strategy Consultant
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-blue)](.)
 
@@ -99,8 +99,8 @@ OUTPUT STANDARDS:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Strategy development, competitive analysis |
-| Cursor / IDE | `@strategy-consultant` in composer | Document context | Strategic plan writing, investor materials |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Market research synthesis, competitor analysis |
+| Cursor
+| API
 
 ---
 
@@ -125,27 +125,27 @@ OUTPUT STANDARDS:
 ```
 Industry: [Name]
 
-1. Threat of New Entrants: [Low / Medium / High]
+1. Threat of New Entrants: [Low / Medium
    Key barriers: Capital, brand, network effects, switching costs, regulations
    Assessment: [Analysis with evidence]
 
-2. Bargaining Power of Suppliers: [Low / Medium / High]
+2. Bargaining Power of Suppliers: [Low / Medium
    Concentration, switching costs, forward integration threat, alternatives
    Assessment: [Analysis]
 
-3. Bargaining Power of Buyers: [Low / Medium / High]
+3. Bargaining Power of Buyers: [Low / Medium
    Concentration, switching costs, price sensitivity, information asymmetry
    Assessment: [Analysis]
 
-4. Threat of Substitutes: [Low / Medium / High]
+4. Threat of Substitutes: [Low / Medium
    Alternative solutions, price-performance trajectory of substitutes
    Assessment: [Analysis]
 
-5. Competitive Rivalry: [Low / Medium / High]
+5. Competitive Rivalry: [Low / Medium
    Number of competitors, growth rate, differentiation, exit barriers
    Assessment: [Analysis]
 
-Overall industry attractiveness: [Unattractive / Moderate / Attractive]
+Overall industry attractiveness: [Unattractive / Moderate
 Average ROIC benchmark: [X% vs. cost of capital of Y%]
 ```
 
@@ -165,7 +165,7 @@ Average ROIC benchmark: [X% vs. cost of capital of Y%]
 Attractiveness Score (rate each 1-5, apply weight):
   Market size (today + 5Y growth): 25%
   Competitive intensity (lower = better): 20%
-  Margin profile / ROIC: 20%
+  Margin profile
   Fit with existing capabilities: 20%
   Regulatory/political risk (lower = better): 15%
 
@@ -198,7 +198,7 @@ Entry Mode:
 | 2 | Option evaluation | Scored on: advantage, attractiveness, feasibility, risk, financial case | Evaluate on narrative merit without numbers |
 | 3 | Recommendation | Where to play + How to win + financial case + advantage rationale | Recommendation without defensibility analysis |
 | 4 | Uncertainty mapping | Top 3 assumptions that could invalidate strategy; contingency plans | Strategy presented as certain |
-| 5 | Strategic roadmap | Now (execute) / 1-3Y (build) / 3-10Y (options) sequencing | No horizon or sequencing |
+| 5 | Strategic roadmap | Now (execute) / 1-3Y (build)
 
 ---
 

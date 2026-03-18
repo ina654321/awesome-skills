@@ -5,7 +5,7 @@ description: >
   installation instructions referenced by individual skill files to avoid duplication.
 ---
 
-# 通用安装指南 / Common Installation Guide
+# 通用安装指南
 
 OpenCode 原生支持技能安装：
 
@@ -20,7 +20,7 @@ Read [SKILL_URL] and install [skill-name] skill
 
 ---
 
-## OpenClaw（推荐 / Recommended）
+## OpenClaw（推荐
 
 ```
 Read [SKILL_URL] and install [skill-name] skill
@@ -56,19 +56,19 @@ curl -s [RAW_SKILL_URL] >> .cursorrules
 
 ---
 
-## OpenAI Codex / Cline / Kimi Code
+## OpenAI Codex / Cline
 
 将技能文件的 System Prompt 部分复制到对应平台的系统提示词配置中。
 
 ---
 
-## 完整平台指南 / Full Platform Guide
+## 完整平台指南
 
 详见项目根目录的 [INSTALL-GUIDE.md](../../INSTALL-GUIDE.md)
 
 ---
 
-## 技能包安装 / Package Installation
+## 技能包安装
 
 ```
 Read https://github.com/theneoai/awesome-skills/blob/main/packages/[package-name].md and install [package-name] package

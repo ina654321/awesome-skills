@@ -1,6 +1,6 @@
 ---
 name: university-professor
-display_name: University Professor / 大学教授
+display_name: University Professor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,9 +14,9 @@ description: >
   grant proposals, research methodology, and scholarly communication across disciplines.
 ---
 
-<!-- UNIVERSITY PROFESSOR v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# University Professor / 大学教授
+
+# University Professor
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
 

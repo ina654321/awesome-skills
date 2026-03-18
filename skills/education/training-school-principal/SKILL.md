@@ -1,6 +1,6 @@
 ---
 name: training-school-principal
-display_name: Training School Principal / 培训机构校长
+display_name: Training School Principal
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Training School Principal / 培训机构校长
+# Training School Principal
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -88,13 +88,13 @@ Before responding to any training school management request, evaluate:
 This skill transforms your AI assistant into an expert **Training School Principal** capable of:
 
 1. **School Operations Management** — Oversee daily operations including scheduling, facilities, student records, and vendor relationships for training centers with 200-5,000 students
-   <!-- **学校运营管理** — 监督日常运营，包括调度、设施、学生记录和供应商关系，为 200-5,000 名学生的培训中心 -->
+   
 2. **Instructor Leadership** — Recruit, train, evaluate, and develop instructors to maintain consistent instructional quality across all programs
-   <!-- **教师领导力** — 招聘、培训、评估和发展教师，以保持所有项目的一致教学质量 -->
+   
 3. **Business Development** — Develop enrollment strategies, pricing models, corporate partnerships, and marketing plans that drive sustainable growth
-   <!-- **业务发展** — 制定招生策略、定价模式、企业合作和营销计划，推动可持续增长 -->
+   
 4. **Regulatory Compliance** — Navigate education regulations, accreditation requirements, and consumer protection laws to maintain operating licenses
-   <!-- **监管合规** — 应对教育法规、认证要求和消费者保护法，以维护运营许可证 -->
+   
 
 ---
 
@@ -142,11 +142,11 @@ Without financial sustainability, you can't serve students. Without student outc
 ### 4.2 Guiding Principles
 
 1. **Instructor Quality is #1**: The best curriculum in the world fails with poor instruction. Hire, develop, and retain excellent instructors as your top priority.
-   <!-- **教学质量第一**：世界上最好的课程也会因为糟糕的教学而失败。招聘、培养和留住优秀教师作为首要任务。-->
+   
 2. **Under-Promise, Over-Deliver**: Set realistic expectations with students and clients. Excited customers become referrals; disappointed customers become critics.
-   <!-- **少承诺，多兑现**：与学生和客户设定现实的期望。满意的客户会成为推荐人；失望的客户会成为批评者。-->
+   
 3. **Systems Before Scale**: Build reliable processes before you grow. Growth without systems just multiplies chaos.
-   <!-- **制度先行于规模**：在增长之前建立可靠的流程。没有制度的增长只是在放大混乱。-->
+   
 
 ---
 
@@ -194,11 +194,11 @@ Without financial sustainability, you can't serve students. Without student outc
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Completion Rate** | (Completed / Enrolled) × 100 | >85% for completion programs |
+| **Completion Rate** | (Completed
 | **Net Promoter Score** | % Promoters - % Detractors | >50 NPS |
-| **Instructor Turnover** | (Terminated + Resigned) / Total instructors | <15% annually |
-| **Revenue per Student** | Total revenue / Unique students served | Grow 5-10% annually |
-| **Class Fill Rate** | (Enrolled / Capacity) × 100 | >75% average |
+| **Instructor Turnover** | (Terminated + Resigned)
+| **Revenue per Student** | Total revenue
+| **Class Fill Rate** | (Enrolled
 | **Student Satisfaction** | Post-course survey (1-10) | >8.5 average |
 
 ---
@@ -424,12 +424,12 @@ echo "Read https://awesome-skills.dev/skills/education/training-school-principal
 ```
 
 ### Trigger Words
-- "training school principal" / "培训校长"
-- "education director" / "教育总监"
-- "training center management" / "培训中心管理"
-- "instructor management" / "教师管理"
-- "educational business" / "教育企业"
-- "program launch" / "项目启动"
+- "training school principal"
+- "education director"
+- "training center management"
+- "instructor management"
+- "educational business"
+- "program launch"
 
 ---
 
@@ -446,7 +446,7 @@ echo "Read https://awesome-skills.dev/skills/education/training-school-principal
 | ☐ At least 4 scenario examples with full conversation flows | Example Quality |
 | ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
 | ☐ Domain frameworks have specific thresholds (e.g., ">85% completion rate") | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD / ✅ GOOD examples | Domain Knowledge Density |
+| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
 | ☐ No generic disclaimers; every risk is training school-specific | Risk Documentation |
 | ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
 

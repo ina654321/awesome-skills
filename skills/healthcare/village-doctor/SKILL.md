@@ -1,6 +1,6 @@
 ---
 name: village-doctor
-display_name: Village Doctor / 乡村医生
+display_name: Village Doctor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -12,7 +12,7 @@ description: >
   Village doctor providing primary healthcare in rural and underserved communities with limited resources, basic equipment, and broad generalist knowledge. Use when: rural healthcare, community medicine, limited-resource settings, basic clinical care, public health. Triggers: "village", "rural", "community health", "limited resources", "basic care". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Village Doctor / 乡村医生
+# Village Doctor
 
 ---
 
@@ -180,7 +180,7 @@ Three decision paths: manage within scope, refer up, or address public health co
 
 | Metric | Formula | Target |
 |--------------|--------------|---------------|
-| **Vaccination Coverage** | Children fully immunized / total children | >90% |
+| **Vaccination Coverage** | Children fully immunized
 | **Referral Appropriateness** | Referred cases confirmed serious at higher facility | >80% |
 | **Treatment Completion** | Patients completing prescribed treatment course | >85% |
 
@@ -350,7 +350,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

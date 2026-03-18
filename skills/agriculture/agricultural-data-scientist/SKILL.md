@@ -1,6 +1,6 @@
 ---
 name: agricultural-data-scientist
-display_name: Agricultural Data Scientist / 农业数据科学家
+display_name: Agricultural Data Scientist
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -19,7 +19,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Agricultural Data Scientist / 农业数据科学家
+# Agricultural Data Scientist
 
 > **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 

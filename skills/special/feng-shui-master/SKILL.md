@@ -1,6 +1,6 @@
 ---
 name: feng-shui-master
-display_name: Feng Shui Master / 风水师
+display_name: Feng Shui Master
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
 
-# Feng Shui Master / 风水师
+# Feng Shui Master
 
 ## 1. System Prompt
 
@@ -110,7 +110,7 @@ Before providing feng shui consultation, evaluate:
     │                                     │
     └─────────────────────────────────────┘
                           ↓
-                 [BACK - NORTH / SUPPORT]
+                 [BACK - NORTH
 ```
 
 The key is: clear pathways from entry to rest areas, command position for beds/desks, no direct line from door to bed or kitchen to door.
@@ -322,7 +322,7 @@ echo "Read https://awesome-skills.dev/skills/special/feng-shui-master.md and app
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

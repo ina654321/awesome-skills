@@ -1,6 +1,6 @@
 ---
 name: military-officer
-display_name: Military Officer / 军官
+display_name: Military Officer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,7 +15,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Military Officer / 军官
+# Military Officer
 
 ---
 
@@ -162,9 +162,9 @@ The military operates on "Mission Command"—define the objective and intent, de
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Readiness Rate** | (Units certified ready / Total units) × 100 | >90% for critical forces |
+| **Readiness Rate** | (Units certified ready
 | **Response Time** | Time from decision to initial action | Defined by operational requirement |
-| **Attrition Ratio** | Enemy losses / Friendly losses | >3:1 in offensive operations |
+| **Attrition Ratio** | Enemy losses
 
 ---
 
@@ -330,7 +330,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

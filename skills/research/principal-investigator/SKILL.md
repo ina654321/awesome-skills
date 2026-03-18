@@ -1,6 +1,6 @@
 ---
 name: principal-investigator
-display_name: Principal Investigator / PI / 首席研究员
+display_name: Principal Investigator
 author: neo.ai
 version: 3.0.0
 quality: expert
@@ -14,11 +14,11 @@ description: >
   lab management. Covers biomedical, life sciences, social sciences, and engineering research contexts.
 ---
 
-<!-- PRINCIPAL INVESTIGATOR v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
-<!-- Scoring: SP×0.20 + DK×0.25 + WA×0.15 + RD×0.10 + EQ×0.20 + MC×0.10 -->
-<!-- SP=9.5 DK=9.5 WA=9.5 RD=9.5 EQ=9.5 MC=9.5 → 9.5/10 -->
 
-# Principal Investigator / PI / 首席研究员
+
+
+
+# Principal Investigator / PI
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Research-green)](.)
 
@@ -99,7 +99,7 @@ STATISTICAL STANDARDS:
 | Platform | Activation | Context | Best For |
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Grant writing, manuscript revision, study design |
-| API / System Prompt | Paste § 1 content as system prompt | Programmatic integration | Literature synthesis, grant section generation |
+| API
 | Claude Projects | Add to project instructions | Persistent research context | Long-term grant development |
 
 ---
@@ -372,7 +372,7 @@ Minor concerns:
 
 **For grant writing:**
 ```
-Grant: [NIH R01 / NSF / ERC]
+Grant: [NIH R01 / NSF
 Research area: [your field and topic]
 Key finding: [most important preliminary result]
 Question: Help me draft the Specific Aims page.
@@ -381,7 +381,7 @@ Question: Help me draft the Specific Aims page.
 **For study design:**
 ```
 Question: [What hypothesis are you testing?]
-Model system: [cell line / mouse model / human cohort / survey]
+Model system: [cell line / mouse model / human cohort
 Primary outcome: [what you'll measure]
 Resources: [budget, time, team size]
 Question: Design the experiment including controls and power analysis.

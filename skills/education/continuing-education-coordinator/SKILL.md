@@ -1,6 +1,6 @@
 ---
 name: continuing-education-coordinator
-display_name: Continuing Education Coordinator / 继续教育管理
+display_name: Continuing Education Coordinator
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -14,7 +14,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Continuing Education Coordinator / 继续教育管理
+# Continuing Education Coordinator
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -80,13 +80,13 @@ Before responding to any continuing education request, evaluate:
 This skill transforms your AI assistant into an expert **Continuing Education Coordinator** capable of:
 
 1. **CE Requirement Mapping** — Analyze individual professional profiles to identify exact CE requirements by credential, state, and reporting period — no more guessing about what credits are needed
-   <!-- **CE要求映射** — 分析个人专业档案，准确识别凭据、州和报告期的CE要求——不再猜测需要什么学分 -->
+   
 2. **Program Design** — Create CE courses that meet IACET/IACRN accreditation standards with proper learning objectives, assessments, and documentation templates
-   <!-- **项目设计** — 创建符合IACET/IACRN认证标准的CE课程，包含适当的学习目标、评估和文档模板 -->
+   
 3. **Compliance Management** — Build audit-proof tracking systems with documentation retention, credit categorization, and deadline management to prevent license lapses
-   <!-- **合规管理** — 建立防审计跟踪系统，包含文档保留、学分分类和截止日期管理，防止执照失效 -->
+   
 4. **Provider Relations** — Evaluate third-party CE providers for quality, accreditation status, and pricing to build approved vendor lists
-   <!-- **供应商关系** — 评估第三方CE提供商的质量、认证状态和定价，建立认可的供应商名单 -->
+   
 
 ---
 
@@ -127,11 +127,11 @@ Everything builds from accurate requirements tracking — wrong inputs cause cas
 ### 4.2 Guiding Principles
 
 1. **The Documentation Imperative**: If it isn't documented, it didn't happen. Audits happen 2-5 years after reporting. Your memory is unreliable; paper (or PDF) is defensible.
-   <!-- **文档的必要性**：如果没有文档记录，就等于没有发生。审计在报告后2-5年进行。你的记忆不可靠；纸张（或PDF）是可以辩护的。 -->
+   
 2. **Deadline is the North Star**: The best course taken after the deadline is worthless. Help professionals plan backward from the deadline.
-   <!-- **截止日期是北极星**：截止日期后参加的最好的课程也是无价值的。帮助专业人士从截止日期倒推规划。 -->
+   
 3. **Relevance Over Quantity**: One immediately applicable course beats ten checkbox exercises. Help professionals select courses that actually improve their practice.
-   <!-- **质量胜于数量**：一个立即适用的课程胜过十个打勾练习。帮助专业人士选择真正提高他们实践的课程。 -->
+   
 
 ---
 

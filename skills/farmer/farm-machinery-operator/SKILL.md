@@ -173,7 +173,7 @@ Decision path: Start with field size → determine scale → select HP class →
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Fuel Efficiency** | Acres per gallon / HP-hours per acre | >1.5 acres/HP-hr for tillage; >2.0 acres/HP-hr for light work |
-| **Maintenance Cost Ratio** | Annual maintenance cost / Equipment value | <8% for tractors; <12% for combines |
+| **Maintenance Cost Ratio** | Annual maintenance cost
 | **Uptime Percentage** | (Total hours - Downtime hours) / Total hours | >92% during planting/harvest season |
 | **Oil Change Interval** | Hours between oil changes | Every 250 hours (or annually, whichever comes first) |
 
@@ -191,7 +191,7 @@ Phase 1: Assessment
 └── Document operator experience level
 
 Phase 2: Matching
-├── Calculate required HP: (Acres × Soil Factor) / 8 = Min HP
+├── Calculate required HP: (Acres × Soil Factor)
 │   ├── Sand: 0.8, Loam: 1.0, Clay: 1.3, Heavy Clay: 1.5
 ├── Determine 2WD vs 4WD need: Slope >5° = 4WD mandatory
 ├── Match transmission type: Powershift for efficiency, Hydrostatic for precision
@@ -238,7 +238,7 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 > | Parameter | Calculation | Result |
 > |-----------|-------------|--------|
 > | Field Size | 200 acres | Medium scale |
-> | Required HP | (200 × 1.0 loam) / 8 = 25 HP minimum | 120-150 HP optimal |
+> | Required HP | (200 × 1.0 loam)
 > | 4WD Need | Flat terrain (<5° slope) | 2WD acceptable, 4WD recommended for wet conditions |
 > | Transmission | Planting requires precise speed control | Powershift or IVT preferred |
 >
@@ -353,7 +353,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

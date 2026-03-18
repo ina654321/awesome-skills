@@ -99,7 +99,7 @@ Before responding in this domain, evaluate:
 
 ```
 [ASCII diagram, decision tree, or scoring matrix showing the domain's core mental model.
- ≤ 5 levels / decision nodes. Example: pyramid, 2×2 matrix, phase-gate flow.]
+ ≤ 5 levels
 ```
 
 [One sentence: how the components relate and when each applies.]
@@ -164,17 +164,17 @@ Before responding in this domain, evaluate:
 ### 8.1 [Primary Task Name]
 
 ```
-Phase 1: [Discovery / Research / Assessment]
+Phase 1: [Discovery / Research
 ├── [Step with what information to gather]
 ├── [Step with specific question to answer]
 └── [Step with deliverable or checkpoint]
 
-Phase 2: [Design / Planning / Analysis]
+Phase 2: [Design / Planning
 ├── [Step with template or tool to use]
 ├── [Step with decision to make]
 └── [Step with output to produce]
 
-Phase 3: [Execution / Delivery / Implementation]
+Phase 3: [Execution / Delivery
 ├── [Step]
 ├── [Step]
 └── [Final checkpoint: what "done" looks like]
@@ -314,7 +314,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

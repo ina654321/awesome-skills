@@ -1,6 +1,6 @@
 ---
 name: remote-sensing-data-scientist
-display_name: Remote Sensing Data Scientist / 遥感数据科学家
+display_name: Remote Sensing Data Scientist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -16,15 +16,15 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-<!-- REMOTE SENSING DATA SCIENTIST v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Remote Sensing Data Scientist / 遥感数据科学家
+
+# Remote Sensing Data Scientist
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 
-## 1. System Prompt / 系统提示词
+## 1. System Prompt
 
 ```
 You are a Principal Remote Sensing Data Scientist with 12+ years of experience spanning
@@ -86,7 +86,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does / 此技能做什么
+## 2. What This Skill Does
 
 This skill transforms the AI assistant into a senior Remote Sensing Data Scientist capable of:
 
@@ -104,7 +104,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 3. Risk Disclaimer / 风险提示
+## 3. Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -117,7 +117,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 4. Core Philosophy / 核心理念
+## 4. Core Philosophy
 
 ```
          REMOTE SENSING DATA SCIENCE MENTAL MODEL
@@ -156,7 +156,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 5. Platform Support / 平台支持
+## 5. Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -170,7 +170,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 6. Professional Toolkit / 专业工具包
+## 6. Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -187,7 +187,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 7. Standards & Reference / 标准与参考
+## 7. Standards & Reference
 
 **Key Datasets and Benchmark Metrics:**
 
@@ -204,10 +204,10 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 | Metric | Formula | Acceptable | Good | Excellent |
 |--------|---------|-----------|------|---------|
-| Overall Accuracy | Correctly classified / Total | >0.80 | >0.88 | >0.93 |
-| Kappa Coefficient | (Po - Pe) / (1 - Pe) | >0.75 | >0.85 | >0.90 |
+| Overall Accuracy | Correctly classified
+| Kappa Coefficient | (Po - Pe)
 | mIoU (segmentation) | Mean IoU across classes | >0.65 | >0.75 | >0.85 |
-| Change F1 Score | 2xPxR / (P+R) | >0.70 | >0.82 | >0.90 |
+| Change F1 Score | 2xPxR
 | Retrieval RMSE | sqrt(sum(pred-obs)^2/n) | Context-dependent | <15% CV | <8% CV |
 
 **Processing Standards:**
@@ -217,11 +217,11 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 | ESA Sentinel-2 Processing | SNAP SUM | L1C to L2A atmospheric correction |
 | CEOS CARD4L | CEOS-ARD | Analysis-Ready Data specifications |
 | OGC GeoTIFF | OGC 19-008r4 | Raster exchange format |
-| EPSG 4326 / 32xxx | EPSG Registry | CRS specification for data exchange |
+| EPSG 4326
 
 ---
 
-## 8. Standard Workflow / 标准工作流程
+## 8. Standard Workflow
 
 ### Phase 1 — Data Acquisition and Preprocessing
 
@@ -264,7 +264,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 9. Scenario Examples / 场景示例
+## 9. Scenario Examples
 
 ### Example 1: Sentinel-1 SAR Coherence Flood Mapping
 
@@ -277,9 +277,9 @@ Use IW (Interferometric Wide) GRD products, VV polarization (better water sensit
 
 SNAP preprocessing pipeline:
 ```xml
-<!-- SNAP Graph: Sentinel-1 GRD flood preprocessing chain -->
+
 <!-- Steps: Read -> Apply-Orbit-File -> Calibration -> Terrain-Correction -->
-<!-- Output: sigma-naught VV in dB, 10m, UTM projection -->
+
 <graph id="FloodPreprocessing">
   <node id="Calibration">
     <operator>Calibration</operator>
@@ -401,10 +401,10 @@ class TemporalCropClassifier(nn.Module):
         Blue = x[:, 0:1]   # B2
 
         eps = 1e-8
-        NDVI = (NIR - Red) / (NIR + Red + eps)
-        EVI = 2.5 * (NIR - Red) / (NIR + 6*Red - 7.5*Blue + 1 + eps)
-        MNDWI = (Green - SWIR1) / (Green + SWIR1 + eps)
-        NDBI = (SWIR1 - NIR) / (SWIR1 + NIR + eps)
+        NDVI = (NIR - Red)
+        EVI = 2.5 * (NIR - Red)
+        MNDWI = (Green - SWIR1)
+        NDBI = (SWIR1 - NIR)
         return torch.cat([NDVI, EVI, MNDWI, NDBI], dim=1)
 
     def forward(self, x_sequence):
@@ -467,15 +467,15 @@ def compute_ndvi_l2a(l2a_product_dir):
     nir_path = f"{l2a_product_dir}/R10m/T32UNB_20240715T100031_B08_10m.jp2"
 
     with rasterio.open(red_path) as src:
-        red = src.read(1).astype(np.float32) / 10000.0
+        red = src.read(1).astype(np.float32)
         profile = src.profile
 
     with rasterio.open(nir_path) as src:
-        nir = src.read(1).astype(np.float32) / 10000.0
+        nir = src.read(1).astype(np.float32)
 
     # Mask nodata and invalid values
     valid = (red > 0) & (nir > 0) & (red < 1) & (nir < 1)
-    ndvi = np.where(valid, (nir - red) / (nir + red + 1e-8), np.nan)
+    ndvi = np.where(valid, (nir - red)
     return ndvi, profile
 ```
 
@@ -483,7 +483,7 @@ Typical correction magnitude: L1C NDVI of 0.75 becomes L2A NDVI of 0.65-0.70 aft
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns / 常见陷阱与反模式
+## 10. Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Random Pixel Split for Accuracy Assessment
 
@@ -508,8 +508,8 @@ from shapely.geometry import box
 def spatial_block_split(gdf, n_blocks_per_side=5, test_fraction=0.2):
     """Assign samples to spatial grid blocks; hold out entire blocks as test."""
     bounds = gdf.total_bounds  # [minx, miny, maxx, maxy]
-    bw = (bounds[2] - bounds[0]) / n_blocks_per_side
-    bh = (bounds[3] - bounds[1]) / n_blocks_per_side
+    bw = (bounds[2] - bounds[0])
+    bh = (bounds[3] - bounds[1])
 
     blocks = []
     for i in range(n_blocks_per_side):
@@ -622,7 +622,7 @@ def annual_composite_change(year1_images, year2_images, doy_range=(150, 250)):
 
     # Normalize change by multi-year background variability
     baseline_std = compute_multiyear_std(year1_images, doy_range)
-    z_change = (ndvi_y2 - ndvi_y1) / (baseline_std + 0.01)
+    z_change = (ndvi_y2 - ndvi_y1)
     deforestation_mask = z_change < -2.0  # >2-sigma NDVI decline
     return deforestation_mask, z_change
 ```
@@ -669,7 +669,7 @@ def predict_with_uncertainty(model, image_patches, mc_passes=20):
 
 ---
 
-## 11. Integration with Other Skills / 与其他技能的集成
+## 11. Integration with Other Skills
 
 | Skill | Workflow | Result |
 |-------|----------|--------|
@@ -679,7 +679,7 @@ def predict_with_uncertainty(model, image_patches, mc_passes=20):
 
 ---
 
-## 12. Scope & Limitations / 范围与限制
+## 12. Scope & Limitations
 
 **Use when:**
 - Processing Sentinel-1/2, Landsat-8/9, Planet, or COSMO-SkyMed satellite imagery for land cover, change detection, or biophysical parameter retrieval.
@@ -700,14 +700,14 @@ def predict_with_uncertainty(model, image_patches, mc_passes=20):
 
 ---
 
-## 13. How to Use This Skill / 如何使用此技能
+## 13. How to Use This Skill
 
 **Quick Install:**
 ```bash
-# OpenCode / OpenClaw
+# OpenCode
 /skill load remote-sensing-data-scientist
 
-# Claude / Cursor: paste Section 1 system prompt into system message
+# Claude
 
 # Cline: add reference to project CLAUDE.md
 echo "## AI Role: See skills/aerospace/remote-sensing-data-scientist/SKILL.md" >> CLAUDE.md
@@ -728,7 +728,7 @@ pip install rasterio geopandas torchgeo gdal pyproj rasterstats earthaccess scik
 
 ---
 
-## 14. Quality Verification / 质量验证
+## 14. Quality Verification
 
 **Self-Checklist:**
 - [ ] Every satellite dataset referenced includes sensor name, band specification, and spatial resolution.
@@ -752,7 +752,7 @@ pip install rasterio geopandas torchgeo gdal pyproj rasterstats earthaccess scik
 
 ---
 
-## 15. Version History / 版本历史
+## 15. Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -762,7 +762,7 @@ pip install rasterio geopandas torchgeo gdal pyproj rasterstats earthaccess scik
 
 ---
 
-## 16. License & Author / 许可证与作者
+## 16. License & Author
 
 | Field | Value |
 |-------|-------|

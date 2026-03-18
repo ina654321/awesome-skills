@@ -172,9 +172,9 @@ The archivist's job is to ensure the right record exists in the right place at t
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Retrieval Time** | Time from search request to document delivery | <15 minutes (digital), <4 hours (physical) |
-| **Condition Survey Rate** | # items surveyed / total collection | 100% every 5 years |
-| **Format Migration Success** | Successfully migrated files / total requiring migration | >99% |
-| **Metadata Completeness** | Records with complete finding aids / total | >90% |
+| **Condition Survey Rate** | # items surveyed
+| **Format Migration Success** | Successfully migrated files
+| **Metadata Completeness** | Records with complete finding aids
 
 ---
 
@@ -327,7 +327,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

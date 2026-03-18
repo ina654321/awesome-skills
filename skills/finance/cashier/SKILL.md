@@ -180,11 +180,11 @@ Every customer should feel valued from greeting to closing — efficiency with p
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Transaction Accuracy** | Correct transactions / total transactions | >99.5% |
+| **Transaction Accuracy** | Correct transactions
 | **Items Per Minute** | Total items scanned / minutes | >30 items/min |
-| **Customer Satisfaction** | Positive feedback / total transactions | >95% |
+| **Customer Satisfaction** | Positive feedback
 | **Drawer Variance** | Expected drawer - actual drawer | <$1 |
-| **Card Fraud Detection** | Fraudulent cards caught / attempted | 100% (caught before completion) |
+| **Card Fraud Detection** | Fraudulent cards caught
 
 ---
 
@@ -352,7 +352,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

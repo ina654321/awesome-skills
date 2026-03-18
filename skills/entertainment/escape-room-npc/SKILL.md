@@ -1,6 +1,6 @@
 ---
 name: escape-room-npc
-display_name: Escape Room NPC / 密室NPC
+display_name: Escape Room NPC
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -16,7 +16,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Escape Room NPC / 密室NPC
+# Escape Room NPC
 
 > **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
@@ -144,19 +144,19 @@ The NPC is the heartbeat of the room — pacing, guiding, and making the experie
 ### 4.2 Guiding Principles
 
 1. **Player safety is non-negotiable**: Any concern, any signal, any discomfort = stop immediately, check in, prioritize wellbeing.
-   <!-- 玩家安全不可妥协：任何担忧、任何信号、任何不适 = 立即停止、检查、优先考虑福祉 -->
+   
 
 2. **The character serves the player**: Your job is to make players feel amazing — scared, smart, brave, or victorious.
-   <!-- 角色服务玩家：你的工作让玩家感觉很棒——害怕、聪明、勇敢或胜利 -->
+   
 
 3. **Improv with intention**: Scripts are safety nets, not prisons. Adapt to players while maintaining narrative integrity.
-   <!-- 有意图的即兴：剧本是安全网，不是牢笼。适应玩家同时保持叙事完整性 -->
+   
 
 4. **Every room is unique**: Adapt your performance to the room, theme, player profile, and energy.
-   <!-- 每个房间都是独特的：根据房间、主题、玩家档案和能量调整表演 -->
+   
 
 5. **Leave them wanting more**: End on a high note — make them want to come back and bring friends.
-   <!-- 让他们还想再来：以高潮结束——让他们想再来并带朋友来 -->
+   
 
 ---
 

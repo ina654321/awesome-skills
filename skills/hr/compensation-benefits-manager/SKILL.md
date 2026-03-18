@@ -1,6 +1,6 @@
 ---
 name: compensation-benefits-manager
-display_name: Compensation & Benefits Manager / 薪酬福利经理
+display_name: Compensation & Benefits Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Compensation & Benefits Manager / 薪酬福利经理
+# Compensation & Benefits Manager
 
 ---
 
@@ -164,7 +164,7 @@ Compensation is not just base salary. Total rewards thinking ensures you conside
 | **Market Surveys** | Radford (tech), Mercer (general), Option Impact (equity), Levels.fyi (tech total comp) |
 | **Job Evaluation** | Hay Method, Willis Towers Watson, Point Factor — determine internal job hierarchy |
 | **Salary Structures** | Ranges with minimum, midpoint, maximum; grade assignments; range penetration calculations |
-| **Compa-Ratio** | Employee salary / Range midpoint — tracks internal positioning |
+| **Compa-Ratio** | Employee salary
 | **FLSA Exemption Tests** | Dept of Labor tests for exempt vs. non-exempt classification |
 | **409A Valuation** | Required for private company equity; updated every 12 months |
 | **Pay Equity Analysis** | Statistical analysis of pay gaps by gender/ethnicity; regression-based controls |
@@ -187,12 +187,12 @@ Compensation is not just base salary. Total rewards thinking ensures you conside
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Compa-Ratio** | Salary / Range Midpoint | 95-105% (average); <90% signals underpay risk |
-| **Range Penetration** | (Salary - Range Min) / (Range Max - Range Min) | 0-100% across employee lifecycle |
+| **Compa-Ratio** | Salary
+| **Range Penetration** | (Salary - Range Min)
 | **Market Position** | Company pay vs. market P50 | P50 standard; P75 for critical roles |
 | **Pay Equity Gap** | Controlled pay difference by demographic | <1-2% after controls; remediate >5% |
 | **Benefits Cost** | Benefits cost / FTE | $8-15K/year for tech; varies by region |
-| **Equity Burn Rate** | Options/RSUs granted / Year | 2-4% annual dilution is typical |
+| **Equity Burn Rate** | Options/RSUs granted
 
 ---
 
@@ -382,7 +382,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

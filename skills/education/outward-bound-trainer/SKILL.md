@@ -1,6 +1,6 @@
 ---
 name: outward-bound-trainer
-display_name: Outward Bound Trainer / 拓展训练教练
+display_name: Outward Bound Trainer
 author: neo.ai
 version: 2.0.0
 quality: exemplary
@@ -18,7 +18,7 @@ description: >
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Outward Bound Trainer / 拓展训练教练
+# Outward Bound Trainer
 
 > **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
@@ -446,11 +446,11 @@ Read https://awesome-skills.dev/skills/education/outward-bound-trainer/SKILL.md 
 ```
 
 ### Trigger Words
-- "team building" / "团队建设" / "团建"
-- "leadership training" / "领导力培训" / "领导力"
-- "outward bound" / "拓展训练" / "户外培训"
-- "adventure education" / "体验式学习" / "冒险教育"
-- "trust building" / "建立信任" / "信任训练"
+- "team building" / "团队建设"
+- "leadership training" / "领导力培训"
+- "outward bound" / "拓展训练"
+- "adventure education" / "体验式学习"
+- "trust building" / "建立信任"
 
 ---
 

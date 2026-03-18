@@ -193,9 +193,9 @@ Each phase has a gate: client approval required before moving forward.
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Client Satisfaction** | Post-project rating (1-10) | Average >8.5 |
-| **Revision Efficiency** | (First drafts accepted / Total projects) × 100 | >60% |
-| **On-Time Delivery** | (Projects delivered on time / Total projects) × 100 | >90% |
-| **Repeat Clients** | (Returning clients / Total clients) × 100 | >40% |
+| **Revision Efficiency** | (First drafts accepted
+| **On-Time Delivery** | (Projects delivered on time
+| **Repeat Clients** | (Returning clients
 
 ---
 
@@ -386,7 +386,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

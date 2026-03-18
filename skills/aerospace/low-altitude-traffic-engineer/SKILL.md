@@ -1,6 +1,6 @@
 ---
 name: low-altitude-traffic-engineer
-display_name: Low Altitude Traffic Engineer / 低空交通管理系统工程师
+display_name: Low Altitude Traffic Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   ICAO GUAS). Covers eVTOL urban air mobility integration and low-altitude airspace digitalization.
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Low Altitude Traffic Engineer / 低空交通管理系统工程师
+
+# Low Altitude Traffic Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -106,7 +106,7 @@ This skill transforms your AI assistant into an expert **Low Altitude Traffic En
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  LAYER 4: EMERGENCY / MANNED AVIATION PRIORITY              │
+│  LAYER 4: EMERGENCY
 │  ATC override, emergency vehicles, NOTAM implementation     │
 ├─────────────────────────────────────────────────────────────┤
 │  LAYER 3: COLLISION AVOIDANCE (DAA)                         │
@@ -152,7 +152,7 @@ This skill transforms your AI assistant into an expert **Low Altitude Traffic En
 ## § 6 Professional Toolkit
 
 ### Core UTM Platforms & Standards
-| Tool / Standard | Purpose | When to Use |
+| Tool
 |----------------|---------|-------------|
 | **ASTM F3548 UTM Standard** | US UTM interoperability framework; defines USS roles, DSS interface, and strategic conflict detection API | Design any US-market UTM system; required for FAA integration |
 | **EASA U-Space Regulations (EU 2021/664-666)** | European U-Space service definitions (geo-awareness, flight authorization, traffic info, U2 protocols) | Any EU airspace deployment; defines USS certification requirements |
@@ -160,15 +160,15 @@ This skill transforms your AI assistant into an expert **Low Altitude Traffic En
 | **ASTM F3411 Remote ID** | Broadcast and Network RID message formats and performance requirements | Remote ID compliance; enforcement integration |
 | **AIXM/FIXM** | Aeronautical Information Exchange Model for geofencing, NOTAMs, and aeronautical data exchange | Airspace data integration with ANSPs; constraint publication |
 | **NASA UTM Research Platform** | Open-source UTM simulation and research testbed | Algorithm development, academic research, early-stage testing |
-| **ArcGIS / QGIS** | Geospatial analysis for airspace corridor planning and capacity visualization | Corridor design, population density overlay, obstacle mapping |
+| **ArcGIS
 | **OpenSky Network** | Live ADS-B data feed for manned traffic situational awareness | Real-world manned aircraft density analysis; integration testing |
-| **SUMO / CARLA** | Ground traffic simulation for urban corridor analysis | Urban Air Mobility planning where ground traffic affects operations |
-| **Python / shapely / pyproj** | Geospatial computation: geofencing, corridor intersection, 4D trajectory analysis | Custom UTM algorithm development and simulation |
+| **SUMO
+| **Python / shapely
 
 ### Monitoring & Analysis Tools
 | Tool | Purpose |
 |------|---------|
-| **FlightAware / FlightRadar24** | Manned traffic baseline; ADS-B density analysis for airspace integration |
+| **FlightAware
 | **Prometheus + Grafana** | UTM system performance monitoring; latency histograms for CD&R algorithms |
 | **ELK Stack (Elasticsearch/Logstash/Kibana)** | UTM event logging, post-incident analysis, compliance auditing |
 
@@ -370,8 +370,8 @@ Flight Plan Submitted?
 >
 > **Separation standards** (EASA U-Space UAM guidance, 2025):
 > ```
-> eVTOL ↔ UAS: 150m horizontal / 50m vertical (when both operating in same airspace)
-> UAS ↔ UAS:   50m horizontal / 25m vertical (urban standard)
+> eVTOL ↔ UAS: 150m horizontal
+> UAS ↔ UAS:   50m horizontal
 > ```
 >
 > **Practical recommendation**: Until regulatory clarity is finalized, design your UTM to reserve a 200-1700 AGL altitude band exclusively for Part 23/135 eVTOL operations via static geofencing, and restrict UAS to 0-200 AGL corridors. This provides clean separation without complex interaction protocols.

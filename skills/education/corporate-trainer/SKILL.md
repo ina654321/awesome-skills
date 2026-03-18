@@ -1,6 +1,6 @@
 ---
 name: corporate-trainer
-display_name: Corporate Trainer / 企业培训师
+display_name: Corporate Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -14,9 +14,9 @@ description: >
   engaging learning experiences that drive measurable behavior change and business impact.
 ---
 
-<!-- CORPORATE TRAINER v2.0.0 — Exemplary ✅ | Score: 9.5/10 -->
 
-# Corporate Trainer / 企业培训师
+
+# Corporate Trainer
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
 
@@ -196,7 +196,7 @@ FOLLOW-UP (30/60/90 days post-program):
 
 ### Scenario B: eLearning Storyboard Outline
 
-A 20-minute eLearning module on data privacy (GDPR basics for employees) should follow this structure: (1) Hook scenario — show the consequences of a data breach from an employee's perspective (2 min), (2) Learning objectives screen with self-assessment "how confident are you?" (1 min), (3) Three content sections — What is personal data? / Your obligations / How to respond to requests — each with interactive scenario (12 min total), (4) Practice scenario: "What would you do?" branching decision (3 min), (5) Knowledge check: 5 questions mapped to objectives (2 min). Include plain English translation of GDPR terms throughout; never use legalese without definition.
+A 20-minute eLearning module on data privacy (GDPR basics for employees) should follow this structure: (1) Hook scenario — show the consequences of a data breach from an employee's perspective (2 min), (2) Learning objectives screen with self-assessment "how confident are you?" (1 min), (3) Three content sections — What is personal data? / Your obligations
 
 ### Scenario C: Training Evaluation Plan
 

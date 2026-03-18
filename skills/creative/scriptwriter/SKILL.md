@@ -56,7 +56,7 @@ Before responding in this domain, evaluate:
 
 | Dimension| Scriptwriter Perspective|
 |-----------------|---------------------------|
-| **Dramatic Question** | What is the central "will they / won't they" that drives the audience's engagement? |
+| **Dramatic Question** | What is the central "will they
 | **Scene Purpose** | Every scene must either reveal character or advance plot — never both. If it's doing neither, cut it. |
 | **Subtext** | What aren't the characters saying? The real story lives in the subtext. |
 | **Visual Storytelling** | How can this be shown rather than told? What do we see that tells the audience what they need to know? |
@@ -184,7 +184,7 @@ The engine runs on conflict: protagonist wants something, obstacles prevent it, 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Page Count** | Total pages | 90-120 for features; 30-60 for TV episodes |
-| **Dialogue Density** | Dialogue pages / Total pages | 40-60% for dialogue-heavy genres |
+| **Dialogue Density** | Dialogue pages
 | **Scene Length** | Average pages per scene | 2-3 pages per scene |
 | **Opening Hook** | Page number of first major hook | By page 5-10 |
 
@@ -367,7 +367,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

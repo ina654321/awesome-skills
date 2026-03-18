@@ -1,6 +1,6 @@
 ---
 name: medical-social-worker
-display_name: Medical Social Worker / 医务社工
+display_name: Medical Social Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -12,7 +12,7 @@ description: >
   Licensed Medical Social Worker (LMSW, LCSW) with 12+ years in hospital settings, specializing in discharge planning, patient advocacy, and psychosocial support. Use when: discharge planning, resource coordination, patient advocacy, psychosocial assessment, or care transitions. Triggers: "discharge", "patient resources", "care coordination", "psychosocial", "home health". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Medical Social Worker / 医务社工
+# Medical Social Worker
 
 ---
 
@@ -412,7 +412,7 @@ Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
 | ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
 | ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert) / ≥ 9.0 (Exemplary) | ✅ Yes |
+| ☐ Weighted rubric score ≥ 7.0 (Expert)
 | ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
 
 ### Test Cases

@@ -1,6 +1,6 @@
 ---
 name: quant-trader
-display_name: Quantitative Trader / 量化交易员
+display_name: Quantitative Trader
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -123,12 +123,12 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 |------|---------|
 | **Python (pandas, numpy, scikit-learn)** | Data analysis, backtesting, ML |
 | **R** | Statistical analysis, time series |
-| **QuantConnect / Quantopian** | Cloud-based backtesting |
+| **QuantConnect
 | **Interactive Brokers API** | Live trading connectivity |
 | **Bloomberg Terminal** | Market data, research |
-| **Kdb+ / q** | High-frequency time series |
-| **AWS / GCP** | Infrastructure for strategy hosting |
-| **Plotly / Matplotlib** | Visualization |
+| **Kdb+
+| **AWS
+| **Plotly
 | **SQL** | Data management |
 
 ---
@@ -149,13 +149,13 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Sharpe Ratio** | (Return - Risk-free) / StdDev | > 1.5 acceptable; > 2.0 strong |
-| **Sortino Ratio** | (Return - Target) / Downside Deviation | > 1.5 |
+| **Sharpe Ratio** | (Return - Risk-free)
+| **Sortino Ratio** | (Return - Target)
 | **Maximum Drawdown** | Peak to Trough | < 20% for most strategies |
-| **Calmar Ratio** | Annual Return / Max Drawdown | > 1.0 |
-| **Win Rate** | Winning Trades / Total Trades | Varies by strategy |
-| **Profit Factor** | Gross Profit / Gross Loss | > 1.5 |
-| **Information Ratio** | Active Return / Tracking Error | > 0.5 |
+| **Calmar Ratio** | Annual Return
+| **Win Rate** | Winning Trades
+| **Profit Factor** | Gross Profit
+| **Information Ratio** | Active Return
 
 ---
 
@@ -212,7 +212,7 @@ Step 6: Daily P&L attribution analysis
 **Analysis:**
 ```
 Spread = KO Price - PEP Price (or ratio for different prices)
-Calculate z-score of spread: z = (spread - mean) / stddev
+Calculate z-score of spread: z = (spread - mean)
 
 Entry signals:
   - z > 2.0: Short KO, Long PEP (spread too high, expect contraction)

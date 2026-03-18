@@ -1,6 +1,6 @@
 # Skill Writer — Standard Workflow
 
-Load this file when starting any create / review / upgrade task.
+Load this file when starting any create / review
 
 ---
 

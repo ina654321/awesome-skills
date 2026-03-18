@@ -1,6 +1,6 @@
 ---
 name: liquid-rocket-engine-engineer
-display_name: Liquid Rocket Engine Engineer / 液体火箭发动机工程师
+display_name: Liquid Rocket Engine Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   test planning, reusability design, and performance optimization (Isp, C*, CF, area ratio).
 ---
 
-<!-- SKILL v3.0.0 — Expert Verified ⭐⭐ | Score: 9.5/10 -->
 
-# Liquid Rocket Engine Engineer / 液体火箭发动机工程师
+
+# Liquid Rocket Engine Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
@@ -94,7 +94,7 @@ This skill transforms your AI assistant into an expert **Liquid Rocket Engine En
 | **Combustion Instability** | CATASTROPHIC | Engine destroyed in milliseconds; vehicle loss; explosion hazard | Stability margin testing (bomb test, pulse testing); injector design per stability criteria; Helmholtz resonator/baffle installation; abort on vibration threshold |
 | **Turbopump Failure** | CATASTROPHIC | Sudden loss of thrust; hot gas leak leading to vehicle fire; explosion | Redundant bearing systems; over-speed protection; seal face material compatibility testing; dynamic analysis for all rotor critical speeds |
 | **Propellant Leak / Spill** | CRITICAL | Cryogenic burns (LOX/LH2); toxic exposure (NTO/MMH); fire/explosion | Secondary containment for all propellant lines; electrochemical gas detectors; fire suppression activation on leak detection; personnel evacuation procedures |
-| **Hard Start / Over-Pressure** | CATASTROPHIC | Combustion before proper ignition conditions → explosive pressure transient | Ignition delay characterization; minimum ignitable propellant fill volume; igniter pre-fire verification; hard-start detection and abort |
+| **Hard Start
 | **Nozzle Separation at Off-Altitude** | SERIOUS | Side loads that can destroy nozzle extension; structural failure | Sea-level startup nozzle separation analysis; startup transient pressure schedule; nozzle extension first-flight altitude clearance testing |
 | **Thermal Runaway (Regenerative Cooling)** | CATASTROPHIC | Coolant boiling in regen jacket → hot gas penetration → wall burnthrough | Coolant flow velocity minimum (>5 m/s in hottest region); maximum coolant bulk temperature limit (80% of saturation); thermocouple monitoring at critical locations |
 
@@ -122,7 +122,7 @@ NOZZLE EXPANSION
           │
           ▼
 DELIVERED ISP
-(Isp_vac = CF × c* / g₀ × η_c* × η_CF)
+(Isp_vac = CF × c*
           │
           ▼  where η_c* = 0.92-0.99 (combustion efficiency)
           ▼       η_CF = 0.95-0.99 (nozzle efficiency)
@@ -159,10 +159,10 @@ MISSION DELTA-V
 |------|---------|-------------|
 | **NASA CEA (Chemical Equilibrium with Applications)** | Theoretical Isp, chamber temperature, exhaust gas composition | Performance prediction for any propellant combination; first step in any engine design |
 | **OpenFOAM (reacting flow modules)** | Combustion CFD; heat transfer in thrust chamber | Injector element combustion simulation; nozzle flow analysis; film cooling design |
-| **ANSYS CFX / FLUENT** | Turbomachinery CFD for turbopump design | Impeller design, cavitation analysis, turbine stage performance |
-| **MATLAB / Python** | Parametric engine cycle analysis; turbopump power balance | Engine cycle trades, mixture ratio optimization, performance map generation |
+| **ANSYS CFX
+| **MATLAB
 | **RocketCEA (Python)** | Python wrapper for NASA CEA | Automated performance sweeps, mixture ratio optimization scripting |
-| **ABAQUS / ANSYS Mechanical** | Structural analysis of turbopump, thrust chamber, nozzle | Thermal-structural analysis, fatigue life prediction for reusable engines |
+| **ABAQUS
 
 ### Reference Standards
 | Standard | Scope |
@@ -190,7 +190,7 @@ MISSION DELTA-V
 ### Critical Sizing Equations
 ```python
 # Characteristic velocity (c*)
-c_star = sqrt(gamma * R_specific * T_chamber) / gamma * \
+c_star = sqrt(gamma * R_specific * T_chamber)
          sqrt((2/(gamma+1))**((gamma+1)/(gamma-1)))  # Theoretical
 
 # Thrust coefficient (CF)
@@ -199,10 +199,10 @@ CF = sqrt(2*gamma**2/(gamma-1) * (2/(gamma+1))**((gamma+1)/(gamma-1)) * \
 # where epsilon = Ae/At (area ratio)
 
 # Specific impulse
-Isp_vac = CF * c_star / g0  # seconds
+Isp_vac = CF * c_star
 
 # Characteristic length (L*)
-L_star = V_chamber / A_throat  # Typical L*: 1.0-1.7 m for bipropellant
+L_star = V_chamber
 # Low L* → incomplete combustion; high L* → excess heat loss
 ```
 
@@ -227,7 +227,7 @@ L_star = V_chamber / A_throat  # Typical L*: 1.0-1.7 m for bipropellant
   - [✗ FAIL] If FFSC required but turbopump technology TRL < 6 → use staged combustion
 
 1.3 Thrust and Nozzle Sizing
-  - [ ] Size throat area from required thrust and Pc: At = F / (Pc × CF)
+  - [ ] Size throat area from required thrust and Pc: At = F
   - [ ] Select area ratio for operating altitude (sea level: ε=16-30, vacuum: ε=40-200)
   - [ ] Compute exit plane conditions to verify no over-expansion at sea level
   - [✓ Done] Output: Nozzle geometry specification (At, Ae, ε, contour type)
@@ -327,13 +327,13 @@ L_star = V_chamber / A_throat  # Typical L*: 1.0-1.7 m for bipropellant
 > **Step 1 — Mode identification**:
 > ```python
 > # Tangential acoustic modes for cylindrical chamber
-> # f_1T = α_1T × c_sound / (π × D_chamber)
+> # f_1T = α_1T × c_sound
 > # α_1T = 1.8412 (first tangential mode eigenvalue)
 >
 > # If f_observed = 1800 Hz:
 > c_sound_typical = 1100  # m/s for combustion gases at 3500K, γ=1.2, M_mol=22
-> D_chamber = alpha_1T * c_sound / (pi * f)
->            = 1.8412 * 1100 / (3.14159 * 1800) = 0.358 m ≈ 36 cm
+> D_chamber = alpha_1T * c_sound
+>            = 1.8412 * 1100
 >
 > # If your chamber is ~36 cm diameter, this is a 1T instability
 > # If your chamber is much smaller, consider checking overtone or chug
@@ -423,8 +423,8 @@ L_star = V_chamber / A_throat  # Typical L*: 1.0-1.7 m for bipropellant
 **✅ GOOD**: Design for mixture ratio variation over burn and account for residuals
 ```python
 # Wrong: size tanks for exactly nominal O/F × propellant mass
-fuel_volume = total_propellant / (1 + OF) / rho_fuel
-ox_volume = total_propellant * OF / (1 + OF) / rho_ox
+fuel_volume = total_propellant / (1 + OF)
+ox_volume = total_propellant * OF / (1 + OF)
 
 # Right: account for mixture ratio uncertainty and residuals
 OF_nominal = 2.72  # LOX/RP-1
@@ -432,9 +432,9 @@ OF_uncertainty = 0.05  # ±1.8% from nominal
 residual_fraction = 0.005  # 0.5% residual per tank
 
 # Design fuel tank for OF_min = 2.67 (more fuel consumed):
-fuel_volume = total_propellant / (1 + OF_min) / rho_fuel * (1 + residual_fraction)
+fuel_volume = total_propellant / (1 + OF_min)
 # Design ox tank for OF_max = 2.77 (more oxidizer consumed):
-ox_volume = total_propellant * OF_max / (1 + OF_max) / rho_ox * (1 + residual_fraction)
+ox_volume = total_propellant * OF_max / (1 + OF_max)
 ```
 **Why it matters**: An engine that runs LOX-rich at end of burn will cause turbopump damage from hot gas; fuel-rich → reduced Isp + unburned fuel waste.
 
@@ -462,7 +462,7 @@ Consequence of underestimating ΔP:
 **❌ BAD**: Computing turbopump speed for peak efficiency without checking NPSH requirements
 **✅ GOOD**: Always verify NPSH margin (NPSHa vs. NPSHr):
 ```
-NPSHa (available NPSH) = (P_tank - P_vapor) / (ρ × g) + h_head
+NPSHa (available NPSH) = (P_tank - P_vapor)
 NPSHr (required NPSH) = empirical from turbopump Suction Specific Speed (Nss)
 
 Required margin: NPSHa ≥ 1.5 × NPSHr (safety factor per NASASP-8120)

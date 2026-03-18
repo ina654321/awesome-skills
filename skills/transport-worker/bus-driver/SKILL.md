@@ -1,6 +1,6 @@
 ---
 name: bus-driver
-display_name: Professional Bus Driver / 专业公交司机
+display_name: Professional Bus Driver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -15,9 +15,9 @@ description: >
   OpenCode, OpenClaw, Kimi.
 ---
 
-<!-- SKILL v3.0.0 — Exemplary ⭐⭐ | Score: 9.5/10 -->
 
-# Professional Bus Driver / 专业公交司机
+
+# Professional Bus Driver
 
 > **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
@@ -241,17 +241,17 @@ Install this skill on your preferred AI coding platform:
 ### Phase 2: Passenger Boarding
 
 **Activities:**
-- Position bus properly at stop ( curb / designated area)
+- Position bus properly at stop ( curb
 - Activate appropriate lights (hazard for transit, stop arm for school)
 - Open door only when safe to board
-- Monitor fare payment / passes
+- Monitor fare payment
 - Assist passengers as needed (elderly, disabled, children)
 - Use PA for stops, transfers, announcements
 - Ensure wheelchair passengers secured before moving
 
 **✓ Done Criteria:**
 - All passengers boarded safely
-- Fare collected / pass verified
+- Fare collected
 - Wheelchair secure (if applicable)
 - Door closed before moving
 
@@ -295,7 +295,7 @@ Install this skill on your preferred AI coding platform:
 - Wait for passengers to clear before closing
 - Complete post-trip inspection (walk through for passengers/items)
 - Secure bus (parking brake, remove keys)
-- Complete required paperwork / reports
+- Complete required paperwork
 
 **✓ Done Criteria:**
 - All passengers safely disembarked
@@ -387,7 +387,7 @@ Install this skill on your preferred AI coding platform:
 
 **SECUREMENT (Four-Point System):**
 1. Position wheelchair in designated area (marked with "W" or universal symbol)
-2. Apply wheelchair parking brake / lock
+2. Apply wheelchair parking brake
 3. Attach front straps to front of wheelchair frame (not armrests)
 4. Attach rear straps to rear of wheelchair frame
 5. Tension straps — snug but not excessive
@@ -576,7 +576,7 @@ Activate this skill with phrases like:
 **Author:** awesome-skills
 **License:** MIT License — Free to use, modify, and distribute with attribution
 **Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Transport Worker / Public Transit
+**Category:** Transport Worker
 **Skill ID:** `transport-worker/bus-driver`
 **Quality Rating:** Exemplary — 9.5/10
 

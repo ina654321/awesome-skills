@@ -59,7 +59,7 @@ rigorous about regulatory encumbrances — a GDPR-restricted personal data asset
 worth fundamentally less than an unencumbered equivalent.
 
 DECISION FRAMEWORK — 5 Valuation Gates:
-Gate 1 — Data Uniqueness / Exclusivity
+Gate 1 — Data Uniqueness
   Is this data proprietary, licensed, or scraped? Exclusive first-party data commands
   10-50x premium over commodity third-party data. Flag exclusivity risk immediately.
 
@@ -161,7 +161,7 @@ Maps data assets to monetization pathways (direct licensing, data product develo
 |  LAYER 2: DATA QUALITY INDEX -- DQI (0 - 100)                |
 |  DQI <60: speculative | 60-79: adjusted | >=80: full value   |
 +==============================================================+
-|  LAYER 1: DATA UNIQUENESS / EXCLUSIVITY                      |
+|  LAYER 1: DATA UNIQUENESS
 |  Commodity 3rd-party: 1x | 2nd-party: 5-10x | 1st-party     |
 |  exclusive: 10-50x premium                                   |
 +==============================================================+
@@ -231,12 +231,12 @@ No single valuation approach is authoritative for data assets. Income approach a
 
 ### Key Metrics & Target Ranges
 
-| Metric | Formula / Definition | Target / Benchmark |
+| Metric | Formula / Definition | Target
 |--------|---------------------|-------------------|
 | **Data Quality Index (DQI)** | Weighted average: DQI = Sum(w_i x score_i) for 6 DAMA-DMBOK dimensions, 0-100 scale | >= 80 for income approach; 60-79 with adjustment; < 60 speculative only |
 | **Data Freshness Score** | % of records within acceptable age threshold for the asset type (e.g., behavioral data: 90 days) | >= 85% within threshold for full value |
-| **Uniqueness Ratio** | (Unique records / Total records) x 100%; deduplication quality metric | >= 95% for premium valuation; < 85% requires cost-basis adjustment |
-| **Coverage Completeness %** | % of target population / universe represented in the dataset | >= 70% of addressable market for market approach premium |
+| **Uniqueness Ratio** | (Unique records
+| **Coverage Completeness %** | % of target population
 | **Estimated Replacement Cost** | $/GB equivalent (normalized for data type and quality); market range $50-$5,000/GB depending on data type | Establishes cost approach floor; benchmark against data broker acquisition prices |
 | **Revenue Multiplier** | ARR multiple for comparable data licensing transactions | Premium first-party data: 10-50x commodity data ARR; market approach comparable benchmarks |
 | **Regulatory Encumbrance Discount** | % reduction in transferable value due to GDPR/PIPL/HIPAA restrictions | 0% (unencumbered) to 100% (non-transferable personal data in cross-border M&A) |
@@ -254,7 +254,7 @@ PHASE 1: DATA ASSET DUE DILIGENCE
 
 STEP 1.1 -- Data Asset Discovery & Inventory
   Actions:
-  - Extract metadata from Collibra / Alation / AWS Glue data catalogs
+  - Extract metadata from Collibra / Alation
   - Classify assets: transactional, behavioral, reference, derived/enriched
   - Document source provenance, collection mechanism, retention schedule
   - Identify top-20 data assets by estimated strategic value (Pareto focus)
@@ -314,7 +314,7 @@ STEP 2.1 -- Monetization Pathway Assessment
     (A) Direct licensing to 2nd-party buyers
     (B) Data product development (APIs, dashboards, feeds)
     (C) Marketplace listing (Snowflake Marketplace, AWS Data Exchange)
-    (D) Internal decision uplift (quantify as cost savings / revenue lift)
+    (D) Internal decision uplift (quantify as cost savings
   - Apply regulatory feasibility filter (eliminate non-transferable assets)
   - Estimate time-to-revenue and investment required per pathway
 
@@ -435,7 +435,7 @@ B2B data has specific quality thresholds Snowflake buyers expect:
   fill rate on core firmographics
 - Timeliness: Company records need <180 days since last verification for
   tech install data (companies change stacks frequently)
-- Uniqueness: D-U-N-S / domain deduplication -- B2B datasets often have
+- Uniqueness: D-U-N-S
   15-25% duplicate parent/subsidiary overlaps
 - Accuracy: LinkedIn cross-validation rate for employee count accuracy
 
@@ -497,7 +497,7 @@ IMPACT ANALYSIS:
    If these represented a material % of total dataset:
    - Assess what % of monetization revenue was EU-origin data
    - Delete impact is permanent -- not a temporary impairment
-   - Trigger IAS 36 / ASC 350 impairment test immediately
+   - Trigger IAS 36
 
 2. GDPR PURPOSE LIMITATION REASSESSMENT:
    The enforcement action signals your consent basis was defective.
@@ -514,7 +514,7 @@ IMPACT ANALYSIS:
    +-- Revenue impact: -25% (EU clients had premium CPM rates)
    +-- Regulatory risk premium: +3% discount rate applied
    +-- Remaining consent basis uncertainty: -15% haircut
-   +-- Remediation / compliance opex: -$3M NPV cost
+   +-- Remediation
 
    Post-enforcement income approach: $28-32M (38-42% reduction)
    Cost approach (unaffected by regulatory action): $22M
@@ -526,7 +526,7 @@ IMPACT ANALYSIS:
 
 4. REMEDIATION ROADMAP:
    - Migrate to first-party contextual signals (non-personal, GDPR exempt)
-   - Invest in consent management platform (OneTrust / TrustArc)
+   - Invest in consent management platform (OneTrust
    - Develop privacy-by-design data collection for EU markets
    - Timeline to value recovery: 18-24 months with consent-based rebuild
 ```
@@ -721,7 +721,7 @@ The Compliance Auditor skill conducts GDPR/PIPL/HIPAA/CCPA regulatory analysis t
 ### Quick Install
 
 ```bash
-# opencode / openclaw / claude
+# opencode / openclaw
 /skills add neo.ai/data-asset-appraiser
 
 # cursor -- add to .cursor/skills.json:
@@ -743,15 +743,15 @@ The skill activates on any of these phrases in your prompt:
 
 | Trigger | What It Activates |
 |---------|------------------|
-| "value this dataset" / "data asset valuation" | Full 3-approach valuation workflow |
-| "data quality score" / "DQI" / "compute DQI" | DAMA-DMBOK 6-dimension quality scoring |
-| "data due diligence" / "M&A data assets" | Phase 1 due diligence workflow |
-| "data monetization" / "list on Snowflake" | Phase 2 monetization roadmap |
-| "GDPR impact on data value" / "data transferability" | Regulatory encumbrance analysis |
-| "data catalog" / "data inventory" | Data asset discovery and classification |
-| "data governance audit" | DAMA-DMBOK / ISO 8000 compliance assessment |
-| "data licensing deal" / "data pricing" | Market approach comparables and deal structuring |
-| "replace this dataset" / "data replacement cost" | Cost approach estimation |
+| "value this dataset"
+| "data quality score" / "DQI"
+| "data due diligence"
+| "data monetization"
+| "GDPR impact on data value"
+| "data catalog"
+| "data governance audit" | DAMA-DMBOK
+| "data licensing deal"
+| "replace this dataset"
 
 ---
 

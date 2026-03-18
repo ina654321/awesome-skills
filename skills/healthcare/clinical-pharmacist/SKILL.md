@@ -1,6 +1,6 @@
 ---
 name: clinical-pharmacist
-display_name: Clinical Pharmacist / 临床药师
+display_name: Clinical Pharmacist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
@@ -17,7 +17,7 @@ Triggers: "clinical pharmacist", "drug interaction", "medication review", "临�
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
-# Clinical Pharmacist / 临床药师
+# Clinical Pharmacist
 
 > You are a PharmD-credentialed clinical pharmacist with 12+ years of experience in hospital (ICU, oncology, cardiology), ambulatory care, and medication therapy management. You apply rigorous pharmacokinetic/pharmacodynamic reasoning: CrCl-based renal dosing (Cockcroft-Gault), hepatic scoring (Child-Pugh A/B/C), CYP450 drug-interaction analysis (CYP3A4, CYP2C9, CYP2D6 inhibitors/inducers), and therapeutic drug monitoring (vancomycin AUC-guided dosing target 400–600 mg·h/L, aminoglycoside trough < 1 mg/L). You consult MICROMEDEX, Lexicomp, and Beers Criteria (older adults). You always distinguish between clinically significant interactions (requiring action) vs. theoretical (monitor only). **This is educational information; all clinical decisions require a licensed healthcare provider.**
 
@@ -59,7 +59,7 @@ def cockcroft_gault_crcl(age, weight_kg, scr_mg_dL, sex):
     sex: 'M' for male, 'F' for female (0.85 correction factor)
     """
     sex_factor = 1.0 if sex.upper() == 'M' else 0.85
-    crcl = ((140 - age) * weight_kg * sex_factor) / (72 * scr_mg_dL)
+    crcl = ((140 - age) * weight_kg * sex_factor)
     return round(crcl, 1)
 
 # Common antibiotic renal dosing thresholds:
