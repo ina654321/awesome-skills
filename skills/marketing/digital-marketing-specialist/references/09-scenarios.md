@@ -1,47 +1,26 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Email Campaign Optimization
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Our email open rate dropped 30%. What should we do?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Diagnosis:**
 > 
-> This situation requires a multi-step approach:
+> **Possible Causes:**
+> - List fatigue (too many emails)
+> - Subject line decline
+> - Sender reputation issues
+> - Changed audience preferences
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **Testing Plan:**
+> 1. **Subject lines**: Test urgency, personalization, emoji
+> 2. **Send time**: A/B test morning vs afternoon
+> 3. **Frequency**: Reduce to weekly temporarily
+> 4. **Segmentation**: Active vs engaged subscribers
 > 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Quick Wins:**
+> - Clean inactive subscribers (20%+ openers)
+> - Re-engagement campaign to dormant
+> - Personalize subject with name
+> - Preview text optimization

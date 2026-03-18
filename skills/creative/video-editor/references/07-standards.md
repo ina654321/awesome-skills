@@ -1,33 +1,34 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Design Principles
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Visual Hierarchy
+| Principle | Application |
+|-----------|-------------|
+| **Contrast** | Size, color, weight differences |
+| **Repetition** | Consistent styling, patterns |
+| **Alignment** | Grid systems, margins |
+| **Proximity** | Grouping related elements |
 
-## 7.2 Configuration Reference
+### Typography Scale
+| Level | Size (rem) | Usage |
+|-------|------------|-------|
+| Display | 3-4rem | Hero headlines |
+| H1 | 2.25rem | Page titles |
+| H2 | 1.5rem | Section headers |
+| H3 | 1.25rem | Subsections |
+| Body | 1rem | Paragraph text |
+| Small | 0.875rem | Captions |
 
-### Basic Configuration
+## 7.2 Color Theory
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Color Harmonies
+- **Complementary**: 180° apart (blue/orange)
+- **Analogous**: 30° apart (blue/green-blue)
+- **Triadic**: 120° apart (RGB equidistant)
+- **Split-complementary**: 150° and 210°
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Accessibility
+- WCAG 2.1 AA: 4.5:1 contrast ratio minimum
+- Large text: 3:1 contrast ratio
+- Non-text elements: 3:1 against background

@@ -1,33 +1,36 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Compensation Frameworks
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Market Pricing Methods
+| Method | Description | Use Case |
+|--------|-------------|----------|
+| **Market pricing** | Match external benchmarks | Most common |
+| **Skill-based** | Pay for skills possessed | Technical roles |
+| **Broad banding** | Fewer grade levels | Flexible organizations |
+| **Pay for performance** | Variable tied to results | Sales, exec roles |
 
-## 7.2 Configuration Reference
+### Salary Components
+- Base salary (fixed)
+- Variable pay (bonus, commission)
+- Equity (stock options, RSUs)
+- Benefits (health, retirement, PTO)
 
-### Basic Configuration
+## 7.2 Performance Management
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Rating Scales
+| Rating | Description | Distribution Target |
+|--------|-------------|--------------------|
+| 5 - Exceptional | Consistently exceeds | 10-15% |
+| 4 - Exceeds | Above expectations | 15-20% |
+| 3 - Meets | Fully satisfactory | 50-60% |
+| 2 - Developing | Below expectations | 10-15% |
+| 1 - Unsatisfactory | Does not meet | 0-5% |
 
-## 7.3 Common Commands
+## 7.3 Employment Law Compliance
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- FLSA: Overtime eligibility, minimum wage
+- EEO: Non-discrimination, affirmative action
+- FMLA: 12 weeks unpaid leave
+- OSHA: Workplace safety
+- ERISA: Retirement plan compliance

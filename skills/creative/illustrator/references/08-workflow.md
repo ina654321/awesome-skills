@@ -1,37 +1,37 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Design Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Discovery
+├── Understand user needs
+├── Competitive analysis
+├── Brand guidelines review
+└── Technical constraints
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Ideation
+├── Sketch concepts (10+ options)
+├── Review with stakeholders
+├── Iterate based on feedback
+└── Select direction
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Design
+├── Create wireframes
+├── Define component library
+├── Apply design system
+└── Responsive considerations
+
+Phase 4: Handoff
+├── Export assets with specs
+├── Create interaction documentation
+├── Prototype key flows
+└── Developer collaboration
 ```
 
-## 8.2 Common Workflows
+## 8.2 Design System Maintenance
 
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Document component usage
+2. Version control designs
+3. Conduct design reviews
+4. Gather usability feedback
+5. Iterate and improve

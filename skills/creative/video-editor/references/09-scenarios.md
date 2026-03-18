@@ -1,47 +1,25 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Logo Design Challenge
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Design a logo for a sustainable tech startup"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Design Brief:**
 > 
-> This situation requires a multi-step approach:
+> **Client Needs:**
+> - Modern but approachable
+> - Convey sustainability + technology
+> - Scalable (app icon to billboard)
+> - Memorable in small sizes
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **Concept Direction:**
+> 1. Leaf + circuit pattern hybrid
+> 2. Green-to-blue gradient
+> 3. Clean, geometric style
+> 4. Works in monochrome
 > 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Deliverables:**
+> - Primary logo (color + B/W)
+> - Icon version
+> - Usage guidelines

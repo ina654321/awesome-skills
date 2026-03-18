@@ -1,27 +1,19 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Design Mistakes
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Mistake | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Inconsistent spacing** | 🟡 Medium | Use grid systems |
+| 2 | **Poor contrast** | 🔴 High | Check WCAG compliance |
+| 3 | **Ignoring mobile** | 🔴 High | Mobile-first design |
+| 4 | **Over-designed** | 🟡 Medium | Keep it simple |
+| 5 | **Copyright issues** | 🔴 High | Use licensed assets |
 
-## 10.2 Best Practices
+## 10.2 AI-Generated Content Considerations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
-
-## 10.3 Quality Checklist
-
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **IP/Copyright Notice:**
+- AI-generated images may have unclear copyright status
+- Commercial use requires careful evaluation
+- Platform-specific terms apply
+- Document generation source and parameters

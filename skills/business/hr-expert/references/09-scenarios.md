@@ -1,47 +1,25 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Compensation Benchmarking
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "What should we pay a senior developer in Austin?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Research Approach:**
 > 
-> This situation requires a multi-step approach:
+> **Sources:**
+> - Levels.fyi (tech-specific)
+> - Glassdoor (general)
+> - Radford (technology)
+> - Bureau of Labor Statistics
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **Benchmarking Process:**
+> 1. Match job to survey description
+> 2. Adjust for Austin market differential (~5% below SF/NYC)
+> 3. Consider company stage/startup equity
+> 4. Factor in remote work option
 > 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Recommendation:**
+> - Base: $160-180K (50th-65th percentile)
+> - Bonus: 10-15% target
+> - Equity: Depends on company stage
