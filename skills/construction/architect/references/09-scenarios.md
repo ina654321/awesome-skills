@@ -1,47 +1,24 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Structural Design Challenge
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Design a 10-story office building in Seismic Zone 4"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Design Approach:**
 > 
-> This situation requires a multi-step approach:
+> **Structural System:**
+> - Steel moment frames or special braced frames
+> - Seismic design category D minimum
+> - Drift limitation: 0.02h (height story)
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **Key Considerations:**
+> - Dynamic analysis required (response spectrum)
+> - P-delta effects
+> - Connection design for ductility
+> - Foundation-soil-structure interaction
 > 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Code Compliance:**
+> - ASCE 7-22 seismic provisions
+> - IBC 2024 occupancy loads
+> - Local amendments

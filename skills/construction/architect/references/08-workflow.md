@@ -1,37 +1,42 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Project Delivery
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Schematic Design
+├── Client requirements
+├── Code review
+├── Site analysis
+├── Concept sketches
+└── Cost estimate (planning)
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Design Development
+├── Structural system selection
+├── Building systems coordination
+├── Material selection
+├── ADA/accessibility review
+└── Cost estimate (design)
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Construction Documents
+├── Detailed drawings
+├── Specifications
+├── Permit applications
+├── Bidding documents
+└── Cost estimate (construction)
+
+Phase 4: Construction Administration
+├── Submittal review
+├── Site visits
+├── Change order processing
+├── Payment applications
+└── Certificate of occupancy
 ```
 
-## 8.2 Common Workflows
+## 8.2 BIM Workflow
 
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Model development (architectural)
+2. Structural coordination
+3. MEP coordination
+4. Clash detection
+5. Quantity takeoff
+6. Construction simulation

@@ -1,17 +1,39 @@
-## § 7 Standards & Reference
+# Standards & Reference
 
-**Frameworks:**
-- **ASME Y14.5-2018** — GD&T standard (position, profile, datum simulation)
-- **ASME Y14.100** — GD&T drawing practices and computer-generated GD&T
-- **ISO 9001:2015** — Quality management system requirements
-- **IATF 16949:2016** — Automotive quality management (APQP, PPAP)
+## 7.1 Building Codes
 
-| Metric | Formula | Target Range |
-|--------|---------|--------------|
-| Process Capability (Cpk) | Cpk = min[(USL-μ)/3σ, (μ-LSL)/3σ] | ≥ 1.33 for production |
-| Safety Factor (FoS) | FoS = Ultimate Strength
-| Draft Angle | tan(θ) = draw depth
-| Wall Thickness Ratio | Max thickness
-| RSS Tolerance Stack | σ_total = √(σ₁² + σ₂² + ... + σn²) | Compare to assembly gap |
-| RPN (Risk Priority Number) | RPN = Severity × Occurrence × Detection | < 100 target; > 250 critical |
+### IBC Classification
+| Occupancy | Description |
+|-----------|-------------|
+| A | Assembly (theaters, churches) |
+| B | Business (offices) |
+| E | Educational (schools) |
+| H | Hazardous |
+| I | Institutional (hospitals) |
+| R | Residential |
+| F | Factory (industrial) |
+| S | Storage |
 
+### Load Types
+- Dead load (permanent structure)
+- Live load (occupants, furniture)
+- Environmental (snow, wind, seismic)
+- Impact loads
+
+## 7.2 Design Standards
+
+| Standard | Application |
+|----------|-------------|
+| ASCE 7 | Minimum design loads |
+| AISC 360 | Steel design |
+| ACI 318 | Concrete design |
+| NDS | Wood design |
+| IBC | Building code |
+
+## 7.3 Material Properties
+
+| Material | Strength (psi) | Modulus (Mpsi) |
+|----------|---------------|-----------------|
+| Steel A36 | 36,000 yield | 29,000 |
+| Concrete f'c | 4,000 typical | 3,650 |
+| Wood (SYP) | 1,200 parallel | 1,600 |

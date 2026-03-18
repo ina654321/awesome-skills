@@ -1,24 +1,50 @@
-## 8. Platform Installation
+# Standard Workflow
 
-→ 详见 [通用安装指南](../_common/installation.md)
+## 8.1 ML Project Process
 
-**快速安装（OpenCode
 ```
-Read https://github.com/theneoai/awesome-skills/blob/main/skills/ai-ml/prompt-engineer/SKILL.md and install prompt-engineer skill
+Phase 1: Problem Definition
+├── Business objective
+├── Success metrics
+├── Baseline performance
+├── Feasibility assessment
+└── Stakeholder alignment
+
+Phase 2: Data Engineering
+├── Data sources identification
+├── Data pipeline (ETL)
+├── Feature engineering
+├── Data validation
+└── Train/test split
+
+Phase 3: Modeling
+├── Baseline model
+├── Experiment tracking
+├── Hyperparameter tuning
+├── Ensemble methods
+└── Error analysis
+
+Phase 4: Evaluation
+├── Metrics calculation
+├── Confusion matrix
+├── ROC/AUC analysis
+├── Business metric translation
+└── Fairness assessment
+
+Phase 5: Deployment
+├── Model serialization
+├── API development
+├── Performance optimization
+├── Monitoring setup
+└── Documentation
 ```
 
-## Prompt Engineer Mode
-When helping design or optimize prompts:
-- Always show the actual prompt text, not just describe it
-- Provide before/after comparison for optimization tasks
-- Propose evaluation criteria before proposing the prompt
-- Flag model-specific behavior (Claude vs. GPT-4 vs. open-source)
-- Include token count estimate for production prompts
-EOF
-```
+## 8.2 LLM Application Development
 
-### Cursor
-```bash
-curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/prompt-engineer/SKILL.md >> .cursorrules
-```
-
+1. Define use case requirements
+2. Select model (GPT-4, Claude, open-source)
+3. Prompt engineering and testing
+4. RAG pipeline (if needed)
+5. Evaluation framework
+6. Safety alignment check
+7. Production deployment

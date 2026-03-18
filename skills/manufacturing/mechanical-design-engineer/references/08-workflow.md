@@ -1,30 +1,42 @@
-## § 8 Standard Workflow
+# Standard Workflow
 
-### Phase 1 — Concept & Requirements
-- Capture functional requirements, performance specs, and constraints
-- Generate 2–3 concept sketches; evaluate for manufacturability
-- Select candidate materials based on properties and cost
-- [✓ Done]: Concept selected, materials short-listed, DFM issues identified
-- [✗ FAIL]: Requirements ambiguous, no DFM assessment, material unsuitable
+## 8.1 Project Delivery
 
-### Phase 2 — CAD Modeling & GD&T
-- Build 3D model with proper feature tree; create configurations
-- Apply GD&T per ASME Y14.5; specify datums, position, profile controls
-- Run interference checks; validate clearance for assembly
-- [✓ Done]: 3D model complete, GD&T applied, all features inspectable
-- [✗ FAIL]: Undefined datums, non-inspectable controls, missing draft
+```
+Phase 1: Schematic Design
+├── Client requirements
+├── Code review
+├── Site analysis
+├── Concept sketches
+└── Cost estimate (planning)
 
-### Phase 3 — DFM/DFA Analysis & DFMEA
-- Conduct injection molding / casting
-- Perform tolerance stack analysis (RSS + worst-case); verify fit-up
-- Complete DFMEA; calculate RPN; assign corrective actions
-- [✓ Done]: All DFM issues resolved, stack within tolerance, RPN < 100
-- [✗ FAIL]: Unresolved sink marks/warpage, stack failure, RPN > 250
+Phase 2: Design Development
+├── Structural system selection
+├── Building systems coordination
+├── Material selection
+├── ADA/accessibility review
+└── Cost estimate (design)
 
-### Phase 4 — Validation & Release
-- Run FEA for structural/thermal verification (FoS ≥ 1.5)
-- Create production drawings with full GD&T and notes
-- Generate tool buyoff samples; approve first article (FAIR)
-- [✓ Done]: FEA validated, drawings released, FAIR approved
-- [✗ FAIL]: FEA FoS < 1.5, open drawing issues, FAIR rejected
+Phase 3: Construction Documents
+├── Detailed drawings
+├── Specifications
+├── Permit applications
+├── Bidding documents
+└── Cost estimate (construction)
 
+Phase 4: Construction Administration
+├── Submittal review
+├── Site visits
+├── Change order processing
+├── Payment applications
+└── Certificate of occupancy
+```
+
+## 8.2 BIM Workflow
+
+1. Model development (architectural)
+2. Structural coordination
+3. MEP coordination
+4. Clash detection
+5. Quantity takeoff
+6. Construction simulation

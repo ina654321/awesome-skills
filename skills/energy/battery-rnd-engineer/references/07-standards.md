@@ -1,33 +1,35 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Power System Basics
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Load Types
+| Load | Characteristics | Examples |
+|------|----------------|----------|
+| Residential | Low voltage, small loads | Lighting, appliances |
+| Commercial | Medium voltage, 3-phase | HVAC, offices |
+| Industrial | High voltage, large | Motors, processes |
 
-## 7.2 Configuration Reference
+### Grid Components
+- Generation (thermal, hydro, nuclear, renewables)
+- Transmission (high voltage, long distance)
+- Distribution (medium/low voltage)
+- Substations (voltage transformation)
+- Protection systems
 
-### Basic Configuration
+## 7.2 Renewable Energy
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+| Technology | Efficiency | Cost ($/kWh) |
+|-----------|------------|--------------|
+| Solar PV | 15-22% | 0.03-0.05 |
+| Wind | 35-45% | 0.02-0.04 |
+| Hydro | 85-95% | 0.02-0.05 |
+| Battery | 85-95% | $150/kWh |
 
-## 7.3 Common Commands
+## 7.3 Battery Technology
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Chemistry | Energy Density | Cycle Life | Application |
+|-----------|---------------|------------|-------------|
+| LFP | 120-160 Wh/kg | > 4000 | Stationary |
+| NMC | 200-260 Wh/kg | 1000-2000 | EV |
+| NCA | 250-300 Wh/kg | 800-1500 | Tesla |
+| Solid-state | 300-400 Wh/kg | TBD | Future |

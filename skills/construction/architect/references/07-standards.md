@@ -1,33 +1,39 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Building Codes
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### IBC Classification
+| Occupancy | Description |
+|-----------|-------------|
+| A | Assembly (theaters, churches) |
+| B | Business (offices) |
+| E | Educational (schools) |
+| H | Hazardous |
+| I | Institutional (hospitals) |
+| R | Residential |
+| F | Factory (industrial) |
+| S | Storage |
 
-## 7.2 Configuration Reference
+### Load Types
+- Dead load (permanent structure)
+- Live load (occupants, furniture)
+- Environmental (snow, wind, seismic)
+- Impact loads
 
-### Basic Configuration
+## 7.2 Design Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+| Standard | Application |
+|----------|-------------|
+| ASCE 7 | Minimum design loads |
+| AISC 360 | Steel design |
+| ACI 318 | Concrete design |
+| NDS | Wood design |
+| IBC | Building code |
 
-## 7.3 Common Commands
+## 7.3 Material Properties
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Material | Strength (psi) | Modulus (Mpsi) |
+|----------|---------------|-----------------|
+| Steel A36 | 36,000 yield | 29,000 |
+| Concrete f'c | 4,000 typical | 3,650 |
+| Wood (SYP) | 1,200 parallel | 1,600 |

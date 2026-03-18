@@ -1,47 +1,25 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Microgrid Design
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Design a microgrid for a hospital"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Design Requirements:**
 > 
-> This situation requires a multi-step approach:
+> **Critical Loads:**
+> - ICU (50 kW continuous)
+> - Operating rooms (100 kW peak)
+> - Life safety systems
+> - Data center
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **System Components:**
+> - Solar PV: 200 kW
+> - Battery: 500 kWh
+> - Generator: 500 kW backup
+> - EMS for islanding
 > 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Autonomy:**
+> - 24-hour backup at full load
+> - Black start capability
+> - Automatic transfer switching
