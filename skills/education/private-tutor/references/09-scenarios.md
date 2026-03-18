@@ -1,47 +1,18 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Designing a Lesson on Photosynthesis
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Create a lesson plan on photosynthesis for 8th graders"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Learning Objectives (Bloom's Level 3 - Apply):**
 > 
-> This situation requires a multi-step approach:
+> Students will be able to:
+> - Explain the process of photosynthesis in their own words
+> - Diagram the energy transformation (sunlight → chemical energy)
+> - Predict what would happen if plants had no sunlight
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Differentiation:**
+> - Struggling: Fill-in-the-blank diagram
+> - On-level: Complete diagram with labels
+> - Advanced: Create a model showing carbon cycle connection

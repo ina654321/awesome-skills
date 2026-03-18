@@ -1,27 +1,15 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Public Service Mistakes
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Mistake | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Bureaucratic delays** | 🟡 Medium | Set response time standards |
+| 2 | **Poor communication** | 🔴 High | Clear, accessible messaging |
+| 3 | **Conflict of interest** | 🔴 High | Recusal policies, disclosure |
+| 4 | **Unequal treatment** | 🔴 High | Standardized procedures |
+| 5 | **Failure to document** | 🟡 Medium | Audit trail requirements |
 
-## 10.2 Best Practices
+## 10.2 Ethical Boundaries
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
-
-## 10.3 Quality Checklist
-
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **AI Limitation:** This skill provides general guidance. For specific government decisions, consult relevant regulations and legal counsel.

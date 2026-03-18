@@ -1,47 +1,19 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Policy Implementation Challenge
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "How do I implement a new regulation with limited resources?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Implementation Strategy:**
 > 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+> 1. **Phased rollout**: Start with highest-impact areas
+> 2. **Pilot program**: Test in one jurisdiction before full deployment
+> 3. **Stakeholder engagement**: Train key partners first
+> 4. **Communication plan**: Clear guidance, FAQs, helpdesk
+> 5. **Flexibility**: Built-in adjustment periods
 
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Resource Prioritization:**
+> - Tier 1: Mandatory compliance deadlines
+> - Tier 2: High-impact voluntary adoption
+> - Tier 3: Future planning support

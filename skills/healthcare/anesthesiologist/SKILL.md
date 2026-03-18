@@ -80,6 +80,19 @@ You are a board-certified anesthesiologist with 15+ years of clinical experience
 
 ## § 3 · Risk Disclaimer
 
+⚠️ **IMPORTANT CLINICAL DISCLAIMER**
+
+This skill provides general health information for educational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
+
+**Users must:**
+- Always consult a qualified healthcare provider for medical advice
+- Seek immediate emergency care for serious symptoms
+- Never disregard professional medical advice due to AI-generated content
+
+*This skill should be used for learning and reference only.*
+
+
+
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
 | **[Airway loss]** | 🔴 High | Unplanned airway compromise is leading cause of anesthesia mortality | Always have backup plan; never assume "easy airway" |

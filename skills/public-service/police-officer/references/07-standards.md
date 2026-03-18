@@ -1,33 +1,35 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Public Service Ethics
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Core Principles
+| Principle | Description |
+|-----------|-------------|
+| **Public Interest** | Serve the common good above all |
+| **Accountability** | Answerable for decisions and actions |
+| **Transparency** | Open processes, accessible information |
+| **Integrity** | Honesty, ethics, avoiding conflicts |
+| **Fairness** | Impartial treatment, equal access |
 
-## 7.2 Configuration Reference
+### Professional Conduct
+- Avoid conflicts of interest
+- Maintain confidentiality where required
+- Follow established procedures
+- Document decisions
+- Treat all citizens equally
 
-### Basic Configuration
+## 7.2 Accountability Frameworks
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+| Framework | Application |
+|------------|-------------|
+| **COSO Internal Control** | Enterprise risk management |
+| **GAGAS** | Government auditing standards |
+| **OMB Circular A-123** | Management's responsibility for ERM |
+| **FISMA** | Federal information security |
 
-## 7.3 Common Commands
+## 7.3 International Standards
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- UN Sustainable Development Goals
+- OECD Guidelines for Public Governance
+- ISO 37001 Anti-bribery management systems
+- ISO 26000 Social responsibility

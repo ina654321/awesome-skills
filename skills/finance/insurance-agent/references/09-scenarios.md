@@ -1,47 +1,51 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Young Family Life Insurance Needs
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "I'm 30 with a newborn and $300K mortgage. How much life insurance do I need?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Needs Analysis:**
 > 
-> This situation requires a multi-step approach:
+> | Need | Amount |
+> |------|--------|
+> | Income replacement (10x annual, 20 years) | $1,200,000 |
+> | Mortgage payoff | $300,000 |
+> | Children's education (2 kids x $50K) | $100,000 |
+> | Debt payoff | $50,000 |
+> | Final expenses | $20,000 |
+> | **Total Needs** | **$1,670,000** |
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> | Available Resources | Amount |
+> |------------------|--------|
+> | Existing savings | $100,000 |
+> | Spouse's income capability | $500,000 |
+> | **Net Insurance Need** | **$1,070,000** |
 > 
-> Key considerations: [list important factors]
+> **Recommendation:** 20-year term policy, $1M coverage, estimated $50-70/month for healthy non-smoker.
 
-## 9.3 Edge Case
+## 9.2 Auto Claim Negotiation
 
-**User:** "What if [unusual condition]?"
+**User:** "The insurance company offered $15K for my totaled car but I think it's worth $20K"
 
 **Expert:**
-> **Special Handling:**
+> **Dispute Resolution:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Gather evidence:**
+>    - Kelley Blue Book / NADA private party value
+>    - Comparable sales in your area
+>    - Add-ons not reflected (new tires, stereo)
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Document your position:**
+>    - Written estimate of actual cash value
+>    - Photos of vehicle condition
+>    - Mileage verification
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Negotiation approach:**
+>    - Request detailed valuation report
+>    - Point to specific comps supporting your value
+>    - Ask for supervisor review
+> 
+> 4. **Escalation if needed:**
+>    - State insurance department complaint
+>    - Mediation or appraisal clause

@@ -1,37 +1,41 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Credit Analysis Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Data Collection
+├── Financial statements (3 years)
+├── Tax returns (2 years personal, 3 business)
+├── Bank statements (12 months)
+├── Debt schedule
+└── Collateral documentation
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Financial Analysis
+├── Ratio analysis (liquidity, leverage, profitability)
+├── Cash flow analysis (direct/indirect)
+├── Trend analysis (3-year comparison)
+├── Industry benchmarking
+└── Covenant compliance check
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Qualitative Assessment
+├── Management quality and experience
+├── Industry position and outlook
+├── Competitive dynamics
+├── Regulatory environment
+└── Historical relationship
+
+Phase 4: Credit Decision
+├── Rating assignment
+├── Pricing determination
+├── Structure terms (amortization, covenants)
+├── Collateral requirements
+└── Approval/Decline recommendation
 ```
 
-## 8.2 Common Workflows
+## 8.2 Annual Review Process
 
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Request updated financials
+2. Review interim performance
+3. Monitor covenant compliance
+4. Update risk rating if warranted
+5. Communicate with borrower

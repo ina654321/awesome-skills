@@ -1,47 +1,20 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Roth Conversion Analysis
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Should I convert my traditional IRA to Roth?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Considerations:**
 > 
-> This situation requires a multi-step approach:
+> | Factor | Analysis |
+> |--------|----------|
+> | Tax bracket | Current vs future expected |
+> | Time horizon | Years until retirement |
+> | Tax diversification | Roth provides flexibility |
+> | Required minimum distributions | Start at 73 |
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Recommendation:**
+> - Convert up to fill current lower bracket
+> - Consider doing over 3-5 years to manage rates
+> - Don't convert assets needed for RMD calculations

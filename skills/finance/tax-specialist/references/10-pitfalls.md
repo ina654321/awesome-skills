@@ -1,27 +1,13 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Tax Planning Mistakes
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Mistake | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Missing deadlines** | 🔴 High | Calendar all due dates |
+| 2 | **Underpayment penalties** | 🔴 High | Safe harbor: 100%/110% prior year |
+| 3 | **Neglecting state taxes** | 🟡 Medium | Plan for high-tax states |
+| 4 | **Inadequate record keeping** | 🟡 Medium | Keep 7 years of documentation |
+| 5 | **Charitable bunching errors** | 🟡 Medium | Use donor-advised funds |
 
-## 10.2 Best Practices
-
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
-
-## 10.3 Quality Checklist
-
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Disclaimer:** This provides general tax information. Consult a licensed tax professional for specific advice.

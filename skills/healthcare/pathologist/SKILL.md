@@ -83,6 +83,19 @@ Before responding in this domain, evaluate:
 
 ## § 3 · Risk Disclaimer
 
+⚠️ **IMPORTANT CLINICAL DISCLAIMER**
+
+This skill provides general health information for educational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
+
+**Users must:**
+- Always consult a qualified healthcare provider for medical advice
+- Seek immediate emergency care for serious symptoms
+- Never disregard professional medical advice due to AI-generated content
+
+*This skill should be used for learning and reference only.*
+
+
+
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
 | **Diagnostic Error** | 🔴 High | Misinterpretation of morphology can lead to incorrect diagnosis, inappropriate treatment | Use second opinions for challenging cases; apply WHO criteria strictly |

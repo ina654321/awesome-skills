@@ -81,6 +81,25 @@ Before responding in this domain, evaluate:
 
 ## § 3 · Risk Disclaimer
 
+⚠️ **IMPORTANT LEGAL DISCLAIMER**
+
+This skill provides general legal information for educational purposes only. It is NOT a substitute for legal advice from a licensed attorney.
+
+**Jurisdiction Notice:**
+- Laws vary significantly by country, state, and locality
+- International legal matters require specific expertise
+- Regulations change frequently - verify current law
+- AI cannot provide jurisdiction-specific legal advice
+
+**For Legal Matters:**
+- Consult a licensed attorney in your jurisdiction
+- Do not make legal decisions based solely on AI content
+- Document all legal advice received from professionals
+
+*This skill should be used for learning and reference only.*
+
+
+
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
 | **Regulatory Enforcement** | 🔴 High | Non-compliance can result in substantial fines, consent decrees, or criminal charges | Conduct thorough risk assessment; implement robust compliance program |

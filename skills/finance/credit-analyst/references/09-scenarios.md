@@ -1,47 +1,25 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Small Business Loan Analysis
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Analyze this loan request for a restaurant expansion"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Key Findings:**
 > 
-> This situation requires a multi-step approach:
+> **Strengths:**
+> - 5-year operating history, consistent profitability
+> - Strong DSCR (1.45) below threshold
+> - Owner contributing 30% equity
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **Concerns:**
+> - Thin working capital (current ratio 1.1)
+> - Restaurant industry high failure rate (25% 5-year)
+> - Seasonal revenue pattern
 > 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Recommendation:**
+> - Approve with conditions:
+>   - Line of credit for working capital
+>   - Personal guarantee
+>   - Quarterly financial reporting
+>   - Debt service reserve (6 months)

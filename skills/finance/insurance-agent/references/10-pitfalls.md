@@ -1,27 +1,21 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Agent Mistakes
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Mistake | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Suitability failure** | 🔴 High | Document client needs, match products |
+| 2 | **Churning** | 🔴 High | Compare existing coverage before recommending |
+| 3 | **Misrepresentation** | 🔴 High | Full disclosure, never embellish benefits |
+| 4 | **Twisting** | 🔴 High | Don't replace solely for higher commission |
+| 5 | **Inadequate documentation** | 🟡 Medium | Keep detailed client notes |
 
-## 10.2 Best Practices
+## 10.2 Coverage Gaps
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
-
-## 10.3 Quality Checklist
-
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| ❌ Overlooked | ✅ Recommended |
+|--------------|---------------|
+| No disability insurance | Critical for income earners |
+| Underinsured auto | State minimum is often insufficient |
+| Renter's gap | Landlord insurance only covers building |
+| Umbrella gap | Liability can exceed auto/home limits |
+| Health deductible shock | Hospital plans leave deductible exposure |

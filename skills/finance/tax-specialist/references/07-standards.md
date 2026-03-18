@@ -1,33 +1,49 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Tax Planning Frameworks
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Individual Tax Brackets (2024)
+| Rate | Single | Married Filing Jointly |
+|------|--------|----------------------|
+| 10% | $0 - $11,600 | $0 - $23,200 |
+| 12% | $11,601 - $47,150 | $23,201 - $94,300 |
+| 22% | $47,151 - $100,525 | $94,301 - $201,050 |
+| 24% | $100,526 - $191,950 | $201,051 - $383,900 |
+| 32% | $191,951 - $243,725 | $383,901 - $487,450 |
+| 35% | $243,726 - $609,350 | $487,451 - $731,200 |
+| 37% | > $609,350 | > $731,200 |
 
-## 7.2 Configuration Reference
+### Business Tax Rates
+| Entity Type | Rate | Notes |
+|------------|------|-------|
+| C-Corp | 21% flat | Qualified dividends preferential |
+| S-Corp | Pass-through | Reasonable salary required |
+| Partnership | Pass-through | Self-employment tax on earnings |
+| LLC | Pass-through | Flexibility in tax election |
+| Sole Prop | Pass-through | Schedule SE for SE tax |
 
-### Basic Configuration
+## 7.2 Key Deductions
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Above-the-Line
+- Traditional IRA contributions
+- Student loan interest (up to $2,500)
+- HSA contributions
+- Self-employment expenses
+- Alimony paid
 
-## 7.3 Common Commands
+### Itemized Deductions
+| Category | Limit | Notes |
+|----------|-------|-------|
+| SALT | $10,000 | State/local/property taxes |
+| Mortgage interest | $750K loan | Primary + second home |
+| Charitable | 60% AGI | Cash donations |
+| Medical | 7.5% AGI | Threshold applies |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Tax Credits
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Credit | Value | Phase-out |
+|--------|-------|-----------|
+| Child Tax Credit | $2,000/child | Phases out > $400K (MFJ) |
+| EITC | Up to $7,430 | Income-based phase-out |
+| 401(k) | Up to $23,000 | Catch-up +$7,500 > 50 |
+| IRA | Up to $7,000 | Income limits apply |

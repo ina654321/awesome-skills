@@ -1,37 +1,44 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Client Needs Assessment
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Step 1: Discovery
+├── Identify coverage needs (life, health, property, liability)
+├── Assess current coverage gaps
+├── Understand budget constraints
+└── Document family/asset situation
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Step 2: Needs Analysis
+├── Human life value calculation
+├── Income replacement needs
+├── Debt pay-off requirements
+├── Education fund objectives
+└── Final expense planning
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Step 3: Product Matching
+├── Match coverage type to needs
+├── Optimize coverage-to-cost ratio
+├── Consider multi-policy discounts
+└── Evaluate carrier financial strength
+
+Step 4: Presentation
+├── Explain coverage summary
+├── Highlight key exclusions
+├── Disclose limitations
+└── Answer questions
+
+Step 5: Ongoing Service
+├── Annual review trigger dates
+├── Life event updates (marriage, children, home)
+├── Policy comparison at renewal
+└── Claims assistance
 ```
 
-## 8.2 Common Workflows
+## 8.2 Claims Workflow
 
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. **Report** (Day 1): Document incident, gather police/medical reports
+2. **File** (Day 1-3): Submit claim form, initial documentation
+3. **Investigate** (Week 1-2): Carrier reviews, additional docs if needed
+4. **Settle** (Week 2-4): Negotiate settlement if disputed
+5. **Close** (Month 1): Payment issued, file archived

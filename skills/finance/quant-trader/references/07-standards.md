@@ -1,33 +1,39 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Quantitative Trading Frameworks
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Momentum Strategies
+- **Mean Reversion**: Bollinger Bands (2σ), RSI < 30, VWAP deviation > 5%
+- **Trend Following**: 50/200 MA crossover, ADX > 25, ATR position sizing
+- **Statistical Arbitrage**: Pairs trading, cointegration z-score > 2.0
 
-## 7.2 Configuration Reference
+### Risk Metrics
+| Metric | Formula | Threshold |
+|--------|---------|-----------|
+| Sharpe Ratio | (Rp - Rf) / σp | > 1.5 |
+| Sortino Ratio | (Rp - Rf) / σ_down | > 1.0 |
+| Max Drawdown | Peak - Trough | < 20% |
+| Calmar Ratio | Annual Return / Max DD | > 1.0 |
+| VaR (95%) | Percentile 5 | < 2% daily |
 
-### Basic Configuration
+## 7.2 Backtesting Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Data Requirements
+- Minimum 2 years daily data
+- Transaction costs: 0.1% round-trip
+- Slippage: 0.05% for liquid, 0.2% for illiquid
+- Walk-forward validation required
 
-## 7.3 Common Commands
+### Overfitting Prevention
+- In-sample:out-sample ratio 60:40 minimum
+- Parameter count < sqrt(N_samples)
+- Monte Carlo simulation for robustness
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Execution Algorithms
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Algorithm | Use Case | Key Parameters |
+|-----------|----------|----------------|
+| TWAP | Large orders, low urgency | Time slice, max participation |
+| VWAP | Benchmark tracking | Lookback window, risk aversion |
+| POV | Minimal market impact | Participation rate (10-25%) |
+| IS | Urgency-driven | Aggression factor |

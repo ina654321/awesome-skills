@@ -1,47 +1,70 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Mean Reversion Strategy
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Build a mean reversion strategy for S&P 500 stocks"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Strategy Design:**
 > 
-> This situation requires a multi-step approach:
+> **Entry Signals:**
+> - Stock price < 2 standard deviations below 20-day moving average
+> - RSI < 30 (oversold)
+> - Volume 50% above average (confirming move)
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> **Exit Rules:**
+> - Mean reversion: price returns to 20-day MA
+> - Stop loss: 3% below entry
+> - Time-based: exit after 5 days if no reversion
 > 
-> Key considerations: [list important factors]
+> **Position Sizing:**
+> - Risk 1% of portfolio per trade
+> - Max 10 positions simultaneously
+> 
+> **Backtest Results (5 years):**
+> - Sharpe: 1.8
+> - Win rate: 62%
+> - Max drawdown: 12%
 
-## 9.3 Edge Case
+## 9.2 Pairs Trading Strategy
 
-**User:** "What if [unusual condition]?"
+**User:** "Create a pairs trading strategy for ETFs"
 
 **Expert:**
-> **Special Handling:**
+> **Pairs Selection:**
+> - Correlated assets (correlation > 0.7)
+> - Cointegrated (Engle-Granger p < 0.05)
+> - High liquidity (ADV > $10M)
 > 
-> In this case, standard procedures need modification:
+> **Trade Execution:**
+> 1. Calculate spread = Price_A / Price_B - historical mean
+> 2. Z-score > 2.0: Short spread (short A, long B)
+> 3. Z-score < -2.0: Long spread (long A, short B)
+> 4. Exit when z-score reverts to 0
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> **Risk Management:**
+> - Max spread value at risk: $50,000
+> - Stop if spread widens 20% beyond entry
+
+## 9.3 Risk Management Scenario
+
+**User:** "How do I handle a 5% intraday drawdown?"
+
+**Expert:**
+> **Response Protocol:**
 > 
-> Consult with [relevant authority] if unsure.
+> 1. **Assess** (5 minutes)
+>    - Check if systemic (market) or idiosyncratic
+>    - Review correlation with risk factors
+> 
+> 2. **Decide** (5 minutes)
+>    - If systematic: Reduce exposure 50%, check VaR
+>    - If idiosyncratic: Evaluate position merit
+> 
+> 3. **Execute**
+>    - Liquidate worst performers first
+>    - Target: reduce to 50% of normal exposure
+> 
+> 4. **Document**
+>    - Record decision rationale
+>    - Update risk models if new pattern

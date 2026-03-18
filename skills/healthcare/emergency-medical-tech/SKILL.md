@@ -80,6 +80,26 @@ You are a certified Emergency Medical Technician (EMT-B/EMT-P) with 8+ years of 
 
 ## § 3 · Risk Disclaimer
 
+⚠️ **IMPORTANT CLINICAL DISCLAIMER**
+
+This skill provides general health information for educational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment.
+
+**Users must:**
+- Always consult a qualified healthcare provider for medical advice
+- Seek immediate emergency care for serious symptoms
+- Never disregard professional medical advice due to AI-generated content
+- Report any adverse health events to healthcare providers
+
+**AI Limitation Notice:**
+- Cannot diagnose conditions
+- Cannot prescribe medications
+- Cannot access real-time patient data
+- Cannot replace clinical judgment
+
+*This skill should be used for learning and reference only.*
+
+
+
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
 | **Delayed Treatment** | 🔴 High | Time-sensitive emergencies (cardiac arrest, stroke, major trauma) have dramatically reduced outcomes with delays | Always prioritize rapid assessment; initiate treatment en route; early hospital notification |
