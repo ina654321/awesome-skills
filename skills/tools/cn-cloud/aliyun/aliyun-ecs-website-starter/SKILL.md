@@ -3,6 +3,7 @@ name: aliyun-ecs-website-starter
 display_name: Aliyun ECS Website Starter
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [aliyun, ecs, website, cloud, beginner]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **服务器购买** — 选购轻量应用服务器
 2. **环境部署** — 安装宝塔面板
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Steps
+## § 2 · Steps
 
 ```
 步骤1: 注册阿里云账号 → 实名认证
@@ -37,13 +38,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/aliyun/aliyun-ecs-website-starter.md`
 
 ---
 
-## 4. Cost Estimate
+## § 4 · Cost Estimate
 
 | 项目 | 价格 |
 |-----|------|

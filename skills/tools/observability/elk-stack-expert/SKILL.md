@@ -3,6 +3,7 @@ name: elk-stack-expert
 display_name: ELK Stack Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [elk, elasticsearch, logstash, kibana, logging]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Elasticsearch** — 存储和搜索
 2. **Logstash** — 日志处理
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Platform Support
+## § 2 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/elk-stack-expert.md`
 
@@ -33,6 +34,6 @@ description: >
 
 ---
 
-## 3. Metadata
+## § 3 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)

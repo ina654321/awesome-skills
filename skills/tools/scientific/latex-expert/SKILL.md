@@ -3,6 +3,7 @@ name: latex-expert
 display_name: LaTeX Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [latex, typesetting, academic, documents, writing]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **文档** — 报告和论文
 2. **公式** — 数学排版
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Platform Support
+## § 2 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/scientific/latex-expert.md`
 
@@ -33,6 +34,6 @@ description: >
 
 ---
 
-## 3. Metadata
+## § 3 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)

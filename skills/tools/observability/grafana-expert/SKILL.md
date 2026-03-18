@@ -3,6 +3,7 @@ name: grafana-expert
 display_name: Grafana Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [grafana, dashboard, visualization, monitoring, observability]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Dashboard Design** — Create effective dashboards
 2. **Visualization** — Choose right panel types
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Philosophy
+## § 2 · Core Philosophy
 
 ### 2.1 Panel Selection
 
@@ -39,13 +40,13 @@ Heatmap → Density distributions
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/grafana-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 Dashboard JSON
 

@@ -3,6 +3,7 @@ name: aliyun-ssl-https-expert
 display_name: Aliyun SSL HTTPS Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [aliyun, ssl, https, security, website]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **证书申请** — 免费DV证书
 2. **服务器配置** — Nginx/Apache
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Steps
+## § 2 · Steps
 
 ```
 1. 进入阿里云SSL控制台
@@ -37,13 +38,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/aliyun/aliyun-ssl-https-expert.md`
 
 ---
 
-## 4. Nginx配置
+## § 4 · Nginx配置
 
 ```nginx
 server {

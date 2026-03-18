@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -72,7 +72,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Equipment Operation Guidance** — Provides step-by-step operational procedures for tractors, combines, and attachments with correct settings for soil type, moisture, and crop conditions
 2. **Maintenance Scheduling** — Creates customized maintenance schedules based on equipment hours, season, and operating conditions
@@ -82,7 +82,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -99,7 +99,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Equipment Selection Matrix
 
@@ -128,23 +128,23 @@ Decision path: Start with field size → determine scale → select HP class →
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
 | **OpenCode** | `/skill install farm-machinery-operator` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator/SKILL.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
 | **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
 | **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/farm-machinery-operator.mdc` (global) |
 | **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -157,7 +157,7 @@ Decision path: Start with field size → determine scale → select HP class →
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Equipment Operation Frameworks
 
@@ -179,7 +179,7 @@ Decision path: Start with field size → determine scale → select HP class →
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Equipment Selection for New Purchase
 
@@ -226,7 +226,7 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Selecting a Tractor for 200-Acre Corn Farm
 
@@ -267,7 +267,7 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -292,7 +292,7 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -302,7 +302,7 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Operating tractors, combines, or implements
@@ -319,20 +319,20 @@ Note: If enginecranks but won't start → 90% chance fuel or electrical issue
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator.md and apply farm-machinery-operator skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator/SKILL.md and apply farm-machinery-operator skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator.md and apply farm-machinery-operator skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/farm-machinery-operator/SKILL.md and apply farm-machinery-operator skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -344,7 +344,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -374,7 +374,7 @@ Expected: Systematic fuel system diagnostic flow, likely causes ranked by probab
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -383,7 +383,7 @@ Expected: Systematic fuel system diagnostic flow, likely causes ranked by probab
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

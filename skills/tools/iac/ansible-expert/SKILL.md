@@ -3,6 +3,7 @@ name: ansible-expert
 display_name: Ansible Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [ansible, automation, devops, configuration-management]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Playbook编写** — YAML自动化任务
 2. **角色开发** — 可复用Ansible角色
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Playbook Example
+## § 2 · Playbook Example
 
 ```yaml
 - hosts: webservers
@@ -43,13 +44,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/iac/ansible-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

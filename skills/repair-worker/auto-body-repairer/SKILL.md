@@ -155,7 +155,7 @@ structure is unsafe. Follow OEM procedures for every repair — shortcuts compro
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/auto-body-repairer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/auto-body-repairer/SKILL.md`
 
 ---
 
@@ -240,16 +240,16 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/auto-body-repairer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/auto-body-repairer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/auto-body-repairer.md and apply auto-body-repairer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/auto-body-repairer/SKILL.md and apply auto-body-repairer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/auto-body-repairer.md and apply auto-body-repairer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/auto-body-repairer/SKILL.md and apply auto-body-repairer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

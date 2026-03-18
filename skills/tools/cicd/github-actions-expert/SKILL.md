@@ -3,6 +3,7 @@ name: github-actions-expert
 display_name: GitHub Actions Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [github, cicd, devops, automation, workflows]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -56,7 +57,7 @@ Before designing a GitHub Actions workflow:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Workflow Design** — Create efficient CI/CD pipelines with GitHub Actions
 2. **Custom Actions** — Build reusable JavaScript/Container actions
@@ -65,7 +66,7 @@ Before designing a GitHub Actions workflow:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -76,7 +77,7 @@ Before designing a GitHub Actions workflow:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Workflow Structure
 
@@ -114,7 +115,7 @@ Before designing a GitHub Actions workflow:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -130,7 +131,7 @@ Before designing a GitHub Actions workflow:
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -140,7 +141,7 @@ Before designing a GitHub Actions workflow:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 CI Workflow Template
 
@@ -266,7 +267,7 @@ jobs:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 New Pipeline Creation
 
@@ -298,7 +299,7 @@ Phase 4: Security
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Multi-Language CI Pipeline
 
@@ -380,7 +381,7 @@ Phase 4: Security
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -392,7 +393,7 @@ Phase 4: Security
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -401,7 +402,7 @@ Phase 4: Security
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use when:** CI/CD pipelines, automation workflows, testing automation
 
@@ -409,7 +410,7 @@ Phase 4: Security
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -424,13 +425,13 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -438,7 +439,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
 

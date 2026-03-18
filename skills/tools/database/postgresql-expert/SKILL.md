@@ -3,6 +3,7 @@ name: postgresql-expert
 display_name: PostgreSQL Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [postgresql, database, sql, devops, data]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -47,7 +48,7 @@ Before designing PostgreSQL solutions:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Schema Design** — Design efficient, normalized database schemas
 2. **Query Optimization** — Optimize slow queries with EXPLAIN ANALYZE
@@ -56,7 +57,7 @@ Before designing PostgreSQL solutions:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -66,7 +67,7 @@ Before designing PostgreSQL solutions:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Indexing Strategy
 
@@ -90,7 +91,7 @@ Before designing PostgreSQL solutions:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -106,7 +107,7 @@ Before designing PostgreSQL solutions:
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -117,7 +118,7 @@ Before designing PostgreSQL solutions:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Schema Design Patterns
 
@@ -183,7 +184,7 @@ WHERE idx_scan = 0;
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ```
 Phase 1: Schema Design
@@ -206,7 +207,7 @@ Phase 3: Configuration
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 E-commerce Schema
 
@@ -271,7 +272,7 @@ Phase 3: Configuration
 
 ---
 
-## 10. Common Pitfalls
+## § 10 · Common Pitfalls
 
 | # | Anti-Pattern| Fix|
 |---|-------------|-----|
@@ -282,7 +283,7 @@ Phase 3: Configuration
 
 ---
 
-## 11. Integration
+## § 11 · Integration
 
 | Combination| Workflow|
 |------------|---------|
@@ -291,7 +292,7 @@ Phase 3: Configuration
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use when:** PostgreSQL database design, query optimization
 
@@ -299,7 +300,7 @@ Phase 3: Configuration
 
 ---
 
-## 13. How to Use
+## § 13 · How to Use
 
 ### Quick Install
 ```

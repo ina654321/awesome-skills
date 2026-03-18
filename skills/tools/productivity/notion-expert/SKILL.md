@@ -3,6 +3,7 @@ name: notion-expert
 display_name: Notion Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: tools
 tags: [notion, productivity, wiki, database, project-management]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **数据库设计** — 关系型数据库
 2. **模板创建** — 复用工作流
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Database Relations
+## § 2 · Database Relations
 
 ```
 Parent ←→ Child (One-to-Many)
@@ -34,13 +35,13 @@ Person ←→ Project (Many-to-Many via relation)
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/productivity/notion-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

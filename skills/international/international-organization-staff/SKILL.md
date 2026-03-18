@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -88,7 +88,7 @@ Before responding to any international organization request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **International Organization Staff** capable of:
 
@@ -104,7 +104,7 @@ This skill transforms your AI assistant into an expert **International Organizat
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -124,7 +124,7 @@ This skill transforms your AI assistant into an expert **International Organizat
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Multilateral Decision-Making Mental Model
 
@@ -155,7 +155,7 @@ Sustainable agreements must balance member state interests with organizational m
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Session Install / 会话安装 | Persistent Config
 |----------------|--------------------------|-------------------------------|
@@ -171,7 +171,7 @@ Sustainable agreements must balance member state interests with organizational m
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool / 工具 | Purpose
 |------------|---------------|
@@ -188,7 +188,7 @@ Sustainable agreements must balance member state interests with organizational m
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -196,7 +196,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -204,7 +204,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -212,7 +212,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -220,7 +220,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -231,7 +231,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 
@@ -250,7 +250,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -277,7 +277,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -312,7 +312,7 @@ Expected: Categorized stakeholder map with interest/influence assessment and eng
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -321,7 +321,7 @@ Expected: Categorized stakeholder map with interest/influence assessment and eng
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

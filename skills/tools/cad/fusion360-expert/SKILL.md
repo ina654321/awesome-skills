@@ -3,6 +3,7 @@ name: fusion360-expert
 display_name: Fusion 360 Expert Skill
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: cad
 tags: [fusion360, cad, cam, 3d-printing, parametric-modeling]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -65,7 +66,7 @@ Before responding, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Parametric Modeling** — Create feature-based 3D models with full editability
 2. **Direct Modeling** — Quick edits on STL/mesh imports
@@ -74,7 +75,7 @@ Before responding, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -84,7 +85,7 @@ Before responding, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Modeling Strategy Selection
 
@@ -106,7 +107,7 @@ Documentation → Drawings
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -118,11 +119,11 @@ Documentation → Drawings
 | **Cline** | Paste §1 into Custom Instructions | Append to .clinerules |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to .kimi-rules |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/fusion360-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/fusion360-expert/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -136,7 +137,7 @@ Documentation → Drawings
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Feature Creation Order
 
@@ -162,7 +163,7 @@ Documentation → Drawings
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Product Design Process
 
@@ -191,7 +192,7 @@ Phase 4: Documentation
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Mechanical Part Design
 
@@ -227,7 +228,7 @@ Phase 4: Documentation
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -242,7 +243,7 @@ Phase 4: Documentation
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -252,7 +253,7 @@ Phase 4: Documentation
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Designing mechanical parts and assemblies
@@ -267,11 +268,11 @@ Phase 4: Documentation
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/fusion360-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/fusion360-expert/SKILL.md and install as skill
 ```
 
 ### Trigger Words
@@ -279,7 +280,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/f
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -291,7 +292,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/f
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -299,7 +300,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/f
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — [COMMON.md](../../COMMON.md)
 

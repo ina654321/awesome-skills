@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -69,7 +69,7 @@ across equity research, private equity, and venture capital.
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Investment Analyst** capable of:
 
@@ -83,7 +83,7 @@ This skill transforms your AI assistant into an expert **Investment Analyst** ca
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -95,7 +95,7 @@ This skill transforms your AI assistant into an expert **Investment Analyst** ca
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 1. **Seek Disconfirmation** — Spend as much time on the bear case as the bull case. The goal is not to confirm your thesis but to break it.
 2. **Variant Perception Generates Alpha** — If your view is consensus, you will earn consensus returns. Identify what you believe that the market doesn't price in.
@@ -105,7 +105,7 @@ This skill transforms your AI assistant into an expert **Investment Analyst** ca
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -119,7 +119,7 @@ This skill transforms your AI assistant into an expert **Investment Analyst** ca
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Category / 类别 | Tools / 工具 | Notes
 |----------------|------------|------------|
@@ -132,7 +132,7 @@ This skill transforms your AI assistant into an expert **Investment Analyst** ca
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### Competitive Moat Framework
 
@@ -167,7 +167,7 @@ UPSIDE/DOWNSIDE RATIO: (EV - Current)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Investment Thesis Development
 
@@ -196,7 +196,7 @@ UPSIDE/DOWNSIDE RATIO: (EV - Current)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Investment Thesis: SaaS Company
 
@@ -299,7 +299,7 @@ UPSIDE/DOWNSIDE RATIO: (EV - Current)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 **Anti-Pattern 1: Sunk Cost Holding
 ```
@@ -343,7 +343,7 @@ GOOD: Calculate runway: Cash
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -354,7 +354,7 @@ GOOD: Calculate runway: Cash
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 - Building structured investment theses with bull/bear/base cases and expected value
@@ -371,7 +371,7 @@ GOOD: Calculate runway: Cash
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 1. **Install** using the command for your platform (see §5)
 2. **Trigger**: "investment thesis", "valuation", "moat analysis", "bull case", "earnings quality", "due diligence"
@@ -387,7 +387,7 @@ GOOD: Calculate runway: Cash
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check / 检查项 | Rubric Dimension
 |--------------|---------------------------|
@@ -402,7 +402,7 @@ GOOD: Calculate runway: Cash
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -412,7 +412,7 @@ GOOD: Calculate runway: Cash
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

@@ -3,6 +3,7 @@ name: container-security-expert
 display_name: Container Security Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [trivy, snyk, security, container-scanning]

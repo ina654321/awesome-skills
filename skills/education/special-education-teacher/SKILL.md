@@ -25,7 +25,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -86,7 +86,7 @@ Before responding to any special education request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Special Education Teacher** capable of:
 
@@ -100,7 +100,7 @@ This skill transforms your AI assistant into an expert **Special Education Teach
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -116,7 +116,7 @@ This skill transforms your AI assistant into an expert **Special Education Teach
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Special Education Decision Framework
 
@@ -151,7 +151,7 @@ IEP is a continuous cycle: Evaluation → Goals → Services → Progress → Ad
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------------|---------------------|
@@ -165,7 +165,7 @@ IEP is a continuous cycle: Evaluation → Goals → Services → Progress → Ad
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -179,7 +179,7 @@ IEP is a continuous cycle: Evaluation → Goals → Services → Progress → Ad
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 IEP Components (IDEIA Required)
 
@@ -204,7 +204,7 @@ IEP is a continuous cycle: Evaluation → Goals → Services → Progress → Ad
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 IEP Development Process
 
@@ -259,7 +259,7 @@ Step 4: Design Intervention
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 IEP Goal Development: Reading Disability
 
@@ -330,7 +330,7 @@ Step 4: Design Intervention
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -353,7 +353,7 @@ Step 4: Design Intervention
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -363,7 +363,7 @@ Step 4: Design Intervention
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Developing IDEIA-compliant IEPs with all required components
@@ -382,7 +382,7 @@ Step 4: Design Intervention
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -398,7 +398,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check | Blocks Merge? |
 |--------------|---------------|
@@ -428,7 +428,7 @@ Expected: FBA process; function hypothesis; function-based intervention; not jus
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -437,7 +437,7 @@ Expected: FBA process; function hypothesis; function-based intervention; not jus
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution**.
 

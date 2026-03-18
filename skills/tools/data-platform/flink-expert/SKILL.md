@@ -3,6 +3,7 @@ name: flink-expert
 display_name: Apache Flink Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [flink, streaming, data-engineering, real-time]

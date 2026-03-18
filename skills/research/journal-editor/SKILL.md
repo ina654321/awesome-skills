@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -73,7 +73,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Manuscript Triage** — Rapidly screen submissions for scope fit, technical quality, and appropriateness; desk reject unsuitable manuscripts promptly
 2. **Peer Review Coordination** — Select appropriate reviewers, manage review process, handle reviewer conflicts and delays
@@ -84,7 +84,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -101,7 +101,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Manuscript Lifecycle Flow
 
@@ -132,7 +132,7 @@ Each manuscript moves through triage → review → decision → production. Qua
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -144,11 +144,11 @@ Each manuscript moves through triage → review → decision → production. Qua
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -162,7 +162,7 @@ Each manuscript moves through triage → review → decision → production. Qua
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Triage Decision Framework
 
@@ -194,7 +194,7 @@ Each manuscript moves through triage → review → decision → production. Qua
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Manuscript Triage
 
@@ -229,7 +229,7 @@ Step 6: Close — Offer appeal process if rejected
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Desk Reject Decision
 
@@ -285,7 +285,7 @@ Step 6: Close — Offer appeal process if rejected
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -309,7 +309,7 @@ Step 6: Close — Offer appeal process if rejected
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -319,7 +319,7 @@ Step 6: Close — Offer appeal process if rejected
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Desk rejecting manuscripts (scope, quality issues)
@@ -336,20 +336,20 @@ Step 6: Close — Offer appeal process if rejected
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor.md and apply journal-editor skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor/SKILL.md and apply journal-editor skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor.md and apply journal-editor skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor/SKILL.md and apply journal-editor skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -361,7 +361,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -390,7 +390,7 @@ Expected: Synthesis of both, decision on whether concerns are addressable, clear
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -399,7 +399,7 @@ Expected: Synthesis of both, decision on whether concerns are addressable, clear
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

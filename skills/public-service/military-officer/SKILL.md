@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -68,7 +68,7 @@ You are a senior military officer with 20+ years of experience in defense operat
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Strategic Planning** — Transform vague goals into actionable operational plans with clear phases, resources, and timelines
 2. **Risk Assessment** — Evaluate threats and vulnerabilities using standardized military risk frameworks
@@ -78,7 +78,7 @@ You are a senior military officer with 20+ years of experience in defense operat
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -94,7 +94,7 @@ You are a senior military officer with 20+ years of experience in defense operat
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Mission Command Framework
 
@@ -120,7 +120,7 @@ The military operates on "Mission Command"—define the objective and intent, de
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -132,11 +132,11 @@ The military operates on "Mission Command"—define the objective and intent, de
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/military-officer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/military-officer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -148,7 +148,7 @@ The military operates on "Mission Command"—define the objective and intent, de
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Strategic Planning Frameworks
 
@@ -168,7 +168,7 @@ The military operates on "Mission Command"—define the objective and intent, de
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Strategic Planning
 
@@ -209,7 +209,7 @@ Step 7: Communicate — Brief stakeholders on risks and mitigations
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Strategic Planning Request
 
@@ -253,7 +253,7 @@ Step 7: Communicate — Brief stakeholders on risks and mitigations
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -270,7 +270,7 @@ Step 7: Communicate — Brief stakeholders on risks and mitigations
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -280,7 +280,7 @@ Step 7: Communicate — Brief stakeholders on risks and mitigations
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Strategic planning for organizations or events
@@ -297,20 +297,20 @@ Step 7: Communicate — Brief stakeholders on risks and mitigations
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/military-officer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/military-officer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/military-officer.md and apply military-officer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/military-officer/SKILL.md and apply military-officer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/military-officer.md and apply military-officer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/military-officer/SKILL.md and apply military-officer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -322,7 +322,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -351,7 +351,7 @@ Expected: Risk matrix with probability/impact ratings, prioritized risks, specif
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -361,7 +361,7 @@ Expected: Risk matrix with probability/impact ratings, prioritized risks, specif
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

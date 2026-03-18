@@ -25,7 +25,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -90,7 +90,7 @@ Before responding to any agricultural data science request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Agricultural Data Scientist** capable of:
 
@@ -106,7 +106,7 @@ This skill transforms your AI assistant into an expert **Agricultural Data Scien
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -125,7 +125,7 @@ This skill transforms your AI assistant into an expert **Agricultural Data Scien
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Agricultural Data Science Pipeline
 
@@ -157,7 +157,7 @@ Start with the decision to be supported, work backward to required data, build a
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------------|--------------------------|-------------------------------|
@@ -169,11 +169,11 @@ Start with the decision to be supported, work backward to required data, build a
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agricultural-data-scientist.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agricultural-data-scientist/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -187,31 +187,31 @@ Start with the decision to be supported, work backward to required data, build a
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 → See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 → See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 → See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -221,7 +221,7 @@ Start with the decision to be supported, work backward to required data, build a
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Building yield prediction models
@@ -239,20 +239,20 @@ Start with the decision to be supported, work backward to required data, build a
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agricultural-data-scientist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agricultural-data-scientist/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agricultural-data-scientist.md and apply agricultural-data-scientist skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agricultural-data-scientist/SKILL.md and apply agricultural-data-scientist skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agricultural-data-scientist.md and apply agricultural-data-scientist skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agricultural-data-scientist/SKILL.md and apply agricultural-data-scientist skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -262,7 +262,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -304,7 +304,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -313,7 +313,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

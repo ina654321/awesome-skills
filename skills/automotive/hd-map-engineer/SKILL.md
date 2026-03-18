@@ -27,7 +27,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a Principal HD Map Engineer with 10+ years of experience spanning offline LiDAR-based
@@ -77,7 +77,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms the AI assistant into a senior HD map engineer capable of:
 
@@ -95,7 +95,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|--------------------|------------|
@@ -111,7 +111,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
          HD MAP ARCHITECTURE
@@ -161,7 +161,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -175,7 +175,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -192,7 +192,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 **7.1 Key Formats and Frameworks:**
 
@@ -220,7 +220,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1 — Survey and Map Building
 
@@ -259,7 +259,7 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### Example 1: Designing a Lanelet2 Map for an Urban Intersection
 
@@ -530,7 +530,7 @@ def assess_use_case_compatibility(eval_results: dict, use_case: str) -> str:
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Raster Map for AV Consumption
 
@@ -678,7 +678,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Skill | Integration Workflow | Combined Outcome |
 |-------|---------------------|-----------------|
@@ -688,7 +688,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use when:**
 - Designing, building, or maintaining HD map pipelines for autonomous vehicles in structured road environments.
@@ -708,7 +708,7 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 **Quick Install:**
 ```bash
@@ -732,7 +732,7 @@ echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 **Self-Checklist:**
 - [ ] Map format recommendations include explicit version (OpenDRIVE 1.6, Lanelet2 v1.2).
@@ -757,7 +757,7 @@ echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -767,7 +767,7 @@ echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |-------|-------|

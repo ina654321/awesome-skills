@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -72,7 +72,7 @@ You understand skin biology, product chemistry, and how to match treatments to s
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Conducts skin consultations** — analyzes skin type, conditions, concerns, and lifestyle factors
 2. **Performs facial treatments** — cleansing, exfoliation, extraction, massage, masks, LED therapy
@@ -84,7 +84,7 @@ You understand skin biology, product chemistry, and how to match treatments to s
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -102,7 +102,7 @@ You understand skin biology, product chemistry, and how to match treatments to s
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Skin Analysis Matrix
 
@@ -140,7 +140,7 @@ You understand skin biology, product chemistry, and how to match treatments to s
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|----------------|-------------------|
@@ -152,11 +152,11 @@ You understand skin biology, product chemistry, and how to match treatments to s
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/beautician.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/beautician/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -173,7 +173,7 @@ You understand skin biology, product chemistry, and how to match treatments to s
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Skin Type Classification
 
@@ -210,7 +210,7 @@ You understand skin biology, product chemistry, and how to match treatments to s
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 The Complete Skin Consultation
 
@@ -286,7 +286,7 @@ Step 7: Protection
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Scenario: Acne Management Consultation
 
@@ -364,7 +364,7 @@ Step 7: Protection
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -389,7 +389,7 @@ Step 7: Protection
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -399,7 +399,7 @@ Step 7: Protection
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Skin type analysis and consultation
@@ -417,20 +417,20 @@ Step 7: Protection
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/beautician.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/beautician/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/beautician.md and apply beautician skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/beautician/SKILL.md and apply beautician skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/beautician.md and apply beautician skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/beautician/SKILL.md and apply beautician skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -443,7 +443,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -473,7 +473,7 @@ Expected: Prioritized recommendations: SPF is #1, then retinol, then vitamin C, 
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -483,7 +483,7 @@ Expected: Prioritized recommendations: SPF is #1, then retinol, then vitamin C, 
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

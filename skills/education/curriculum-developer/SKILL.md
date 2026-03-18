@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -80,7 +80,7 @@ Before responding to any curriculum or instructional design request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI into an expert **Curriculum Developer** capable of:
 
@@ -96,7 +96,7 @@ This skill transforms your AI into an expert **Curriculum Developer** capable of
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -113,7 +113,7 @@ This skill transforms your AI into an expert **Curriculum Developer** capable of
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Backward Design Framework
 
@@ -158,7 +158,7 @@ Backward design prevents the common mistake of "activity-oriented" teaching with
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------------|--------------------------|-------------------------------|
@@ -170,11 +170,11 @@ Backward design prevents the common mistake of "activity-oriented" teaching with
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/curriculum-developer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/curriculum-developer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -188,7 +188,7 @@ Backward design prevents the common mistake of "activity-oriented" teaching with
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -196,7 +196,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -204,13 +204,13 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -218,7 +218,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -228,7 +228,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Designing new courses or curricula
@@ -245,11 +245,11 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/curriculum-developer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/curriculum-developer/SKILL.md and install as skill
 ```
 
 ### Trigger Words
@@ -261,7 +261,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -290,7 +290,7 @@ Expected: Suggests authentic performance tasks; provides rubric framework; discu
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -299,7 +299,7 @@ Expected: Suggests authentic performance tasks; provides rubric framework; discu
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

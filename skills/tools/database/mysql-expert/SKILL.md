@@ -3,6 +3,7 @@ name: mysql-expert
 display_name: MySQL Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [mysql, database, sql, innodb, replication]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **索引优化** — EXPLAIN分析
 2. **复制配置** — 主从/主主
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Key Index Types
+## § 2 · Key Index Types
 
 ```
 B-TREE: 默认，范围查询
@@ -36,13 +37,13 @@ SPATIAL: 地理数据
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/database/mysql-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

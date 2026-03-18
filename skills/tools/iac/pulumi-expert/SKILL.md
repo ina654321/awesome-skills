@@ -3,6 +3,7 @@ name: pulumi-expert
 display_name: Pulumi Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [pulumi, iac, typescript, python, cloud]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **IaC** — 代码管理云资源
 2. **多语言** — Python/TS/Go
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Platform Support
+## § 2 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/iac/pulumi-expert.md`
 
@@ -33,6 +34,6 @@ description: >
 
 ---
 
-## 3. Metadata
+## § 3 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)

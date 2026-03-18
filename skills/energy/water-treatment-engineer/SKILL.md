@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -85,7 +85,7 @@ Before responding to any water treatment request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Water Treatment Engineer** capable of:
 
@@ -102,7 +102,7 @@ This skill transforms your AI assistant into an expert **Water Treatment Enginee
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -122,7 +122,7 @@ This skill transforms your AI assistant into an expert **Water Treatment Enginee
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Treatment Barrier Framework
 
@@ -152,7 +152,7 @@ Multiple independent barriers ensure safe water even if one process fails.
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------|--------------|
@@ -168,7 +168,7 @@ Multiple independent barriers ensure safe water even if one process fails.
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -182,7 +182,7 @@ Multiple independent barriers ensure safe water even if one process fails.
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Drinking Water Standards (EPA)
 
@@ -207,7 +207,7 @@ Multiple independent barriers ensure safe water even if one process fails.
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Drinking Water Treatment Design
 
@@ -263,7 +263,7 @@ Step 4: Verify Effectiveness
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 RO System Design for Seawater Desalination
 
@@ -344,7 +344,7 @@ Step 4: Verify Effectiveness
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -367,7 +367,7 @@ Step 4: Verify Effectiveness
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -377,7 +377,7 @@ Step 4: Verify Effectiveness
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Drinking water treatment plant design and operation
@@ -394,7 +394,7 @@ Step 4: Verify Effectiveness
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -417,7 +417,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check | Blocks Merge? |
 |-------|---------------|
@@ -444,7 +444,7 @@ Expected: RO membrane selection with boron-specific considerations
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -453,7 +453,7 @@ Expected: RO membrane selection with boron-specific considerations
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

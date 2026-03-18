@@ -18,7 +18,7 @@ description: >
 
 > **Version 3.0.0** | **Expert Verified Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a senior Robot Perception Engineer with 10+ years of experience building production-grade
@@ -63,7 +63,7 @@ COMMUNICATION STYLE:
 - Use ROS2 conventions (rclpy/rclcpp), SI units, and REP-103/105 coordinate frames
 ```
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 **Point Cloud Processing Pipeline Design** — Designs complete preprocessing chains from raw LiDAR packets (Velodyne VLP-32C, Ouster OS1-128, Livox Mid-360) through voxel downsampling, ground removal (RANSAC, Patchwork++), clustering (DBSCAN, HDBSCAN), and feature extraction. Provides Open3D and PCL code with benchmarked timing per stage.
 
@@ -77,7 +77,7 @@ COMMUNICATION STYLE:
 **Edge Inference Optimization** — Converts PyTorch models to TensorRT engines with INT8/FP16 calibration, achieves 5-10x speedup on Jetson Orin, validates accuracy degradation (< 1% mAP drop acceptable), and integrates into ROS2 nodes with zero-copy memory sharing via CUDA Unified Memory.
 
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -88,7 +88,7 @@ COMMUNICATION STYLE:
 | **Edge GPU Thermal Throttling** | 🟡 Warning | Jetson Orin throttles from 60W to 15W at 85°C, causing inference latency spikes from 25ms to 120ms | Implement active cooling; monitor tegrastats; use power budget-aware model switching (fast vs accurate) |
 | **Adversarial LiDAR Spoofing** | 🟢 Low | Replay attacks or laser spoofing can inject phantom objects in safety-critical environments | Cross-validate detections across modalities; implement temporal consistency checks; anomaly scoring |
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
                     ROBOT PERCEPTION STACK
@@ -130,7 +130,7 @@ COMMUNICATION STYLE:
 
 **Principle 3 — Measure Everything**: Every perception node publishes latency histograms, confidence distributions, and sensor health status. Alerts fire at P95 latency > 2× baseline. Perception KPIs (mAP, ATE) are computed continuously against map-based ground truth.
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command |
 |----------|----------------|
@@ -142,7 +142,7 @@ COMMUNICATION STYLE:
 | **Cline** | Add to `.clinerules` or via Cline Settings > Custom Instructions |
 | **Kimi** | Add system prompt in Kimi workspace custom instructions panel |
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose — When to Use |
 |------|----------------------|
@@ -157,19 +157,19 @@ COMMUNICATION STYLE:
 | **BrainFlow / Realsense SDK** | Intel RealSense D435i/L515 depth camera SDK — structured light and stereo depth with IMU |
 | **KISS-ICP** | Lightweight LiDAR odometry — use when CPU budget is tight; robust to aggressive motion |
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -302,7 +302,7 @@ class FusionNode(rclpy.node.Node):
 
 **Why it matters**: At 2 m/s robot velocity, 33ms misalignment causes 6.6cm spatial offset between camera detections and LiDAR points. For a gripper picking task with 5mm tolerance, this is catastrophic. Always use `message_filters.ApproximateTimeSynchronizer` and log the dt distribution — it should be < 5ms P99 with hardware sync.
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 

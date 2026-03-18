@@ -3,6 +3,7 @@ name: linear-expert
 display_name: Linear Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: intermediate
 category: tools
 tags: [linear, issue-tracking, project-management, agile]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Issue** — 创建和管理
 2. **Cycles** — 周期管理
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Platform Support
+## § 2 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/productivity/linear-expert.md`
 
@@ -33,6 +34,6 @@ description: >
 
 ---
 
-## 3. Metadata
+## § 3 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)

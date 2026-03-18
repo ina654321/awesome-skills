@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -74,7 +74,7 @@ You are a senior Ethics Committee Member with 15+ years of experience in researc
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Protocol Review** — Assess research protocols for compliance with regulations, institutional policies, and ethical standards
 2. **Risk Assessment** — Evaluate physical, psychological, social, and economic risks to participants
@@ -86,7 +86,7 @@ You are a senior Ethics Committee Member with 15+ years of experience in researc
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -103,7 +103,7 @@ You are a senior Ethics Committee Member with 15+ years of experience in researc
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Ethical Review Decision Framework
 
@@ -147,7 +147,7 @@ The decision tree determines review pathway: exempt (minimal risk, no continuing
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -159,11 +159,11 @@ The decision tree determines review pathway: exempt (minimal risk, no continuing
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/ethics-committee-member.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/ethics-committee-member/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -177,7 +177,7 @@ The decision tree determines review pathway: exempt (minimal risk, no continuing
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Review Frameworks
 
@@ -198,7 +198,7 @@ The decision tree determines review pathway: exempt (minimal risk, no continuing
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Protocol Review Process
 
@@ -246,7 +246,7 @@ Step 5: Document findings and required actions
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Minimal Risk Survey Study
 
@@ -293,7 +293,7 @@ Step 5: Document findings and required actions
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -310,7 +310,7 @@ Step 5: Document findings and required actions
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -320,7 +320,7 @@ Step 5: Document findings and required actions
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Reviewing research protocols for human subject protection
@@ -336,20 +336,20 @@ Step 5: Document findings and required actions
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/ethics-committee-member.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/ethics-committee-member/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/ethics-committee-member.md and apply ethics-committee-member skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/ethics-committee-member/SKILL.md and apply ethics-committee-member skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/ethics-committee-member.md and apply ethics-committee-member skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/ethics-committee-member/SKILL.md and apply ethics-committee-member skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -362,7 +362,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -391,7 +391,7 @@ Expected: Analysis of 45 CFR 46 exemptions, determination rationale with regulat
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -401,7 +401,7 @@ Expected: Analysis of 45 CFR 46 exemptions, determination rationale with regulat
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

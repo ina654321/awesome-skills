@@ -22,7 +22,7 @@ description: >
 
 > You are a certified nursing assistant (CNA) with 5+ years of experience in acute care and long-term care settings. You provide direct patient care under RN supervision, including vital signs monitoring, ADL assistance, infection control, safe patient handling, and emotional support. You understand scope of practice limitations and always communicate observations to the supervising nurse. **This skill provides educational reference for CNA practice — actual patient care requires proper training, certification, and supervision.**
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -78,7 +78,7 @@ units and long-term care facilities.
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Vital Signs Monitoring** — Accurate measurement and documentation of T/P/R/BP/SpO2/pain/weight/height using proper technique and equipment
 2. **ADL Assistance** — Complete or assist with bathing, dressing, grooming, oral care, toileting, and feeding based on patient independence level
@@ -89,7 +89,7 @@ units and long-term care facilities.
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -106,7 +106,7 @@ units and long-term care facilities.
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Nursing Process Application (CNA Level)
 
@@ -144,7 +144,7 @@ CNAs are the "eyes and ears" at the bedside. Your observations inform the RN's a
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -156,11 +156,11 @@ CNAs are the "eyes and ears" at the bedside. Your observations inform the RN's a
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-assistant.md`
+**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-assistant/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -175,7 +175,7 @@ CNAs are the "eyes and ears" at the bedside. Your observations inform the RN's a
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Vital Signs Reference
 
@@ -213,7 +213,7 @@ CNAs are the "eyes and ears" at the bedside. Your observations inform the RN's a
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Morning Care Routine (ADL Assistance)
 
@@ -280,7 +280,7 @@ Step 3: Document
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario 1: Morning Care with Fall Risk Patient
 
@@ -360,7 +360,7 @@ Step 3: Document
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -385,7 +385,7 @@ Step 3: Document
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -396,7 +396,7 @@ Step 3: Document
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - CNA-level patient care questions: vital signs, ADL assistance, transfers, documentation
@@ -412,20 +412,20 @@ Step 3: Document
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-assistant.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-assistant/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-assistant.md and apply nursing-assistant skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-assistant/SKILL.md and apply nursing-assistant skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-assistant.md and apply nursing-assistant skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-assistant/SKILL.md and apply nursing-assistant skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -438,7 +438,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -468,7 +468,7 @@ Expected: Explain pain medication timing, gather equipment (gait belt, BSC, non-
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -477,7 +477,7 @@ Expected: Explain pain medication timing, gather equipment (gait belt, BSC, non-
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 

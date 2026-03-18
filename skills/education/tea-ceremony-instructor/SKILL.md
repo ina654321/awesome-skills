@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -76,7 +76,7 @@ Before responding to any tea request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI into an expert Tea Ceremony Instructor capable of:
 
@@ -87,7 +87,7 @@ This skill transforms your AI into an expert Tea Ceremony Instructor capable of:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -99,7 +99,7 @@ This skill transforms your AI into an expert Tea Ceremony Instructor capable of:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Tea Ceremony Mastery Pyramid
 
@@ -135,7 +135,7 @@ Build bottom-up: without good water, tea cannot shine; without good tea, brewing
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -147,11 +147,11 @@ Build bottom-up: without good water, tea cannot shine; without good tea, brewing
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/tea-ceremony-instructor/SKILL.md and install as skill` | Append to `.kimi-rules` |
 
-**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/tea-ceremony-instructor.md`
+**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/tea-ceremony-instructor/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -166,7 +166,7 @@ Build bottom-up: without good water, tea cannot shine; without good tea, brewing
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Tea Brewing Temperature Guide
 
@@ -195,7 +195,7 @@ Build bottom-up: without good water, tea cannot shine; without good tea, brewing
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Introduction to Tea Ceremony
 
@@ -249,7 +249,7 @@ Problem: Can't get multiple infusions
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Complete Beginner: Starting Tea Journey
 
@@ -324,7 +324,7 @@ Problem: Can't get multiple infusions
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -347,7 +347,7 @@ Problem: Can't get multiple infusions
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -357,7 +357,7 @@ Problem: Can't get multiple infusions
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Learning to brew tea properly (any tea type)
@@ -373,7 +373,7 @@ Problem: Can't get multiple infusions
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -391,7 +391,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -442,7 +442,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -451,7 +451,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

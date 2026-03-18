@@ -3,6 +3,7 @@ name: langchain-expert
 display_name: LangChain Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [langchain, llm, rag, ai-application, chains, agents]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -31,7 +32,7 @@ Identity:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Chain Design** — Build LLM chains
 2. **RAG Pipelines** — Implement retrieval-augmented generation
@@ -39,7 +40,7 @@ Identity:
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 LangChain Components
 
@@ -65,13 +66,13 @@ Identity:
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/langchain-expert.md`
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 Basic Chain
 
@@ -147,7 +148,7 @@ result = executor.run("What is quantum computing?")
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### 6.1 Q&A Bot
 
@@ -181,7 +182,7 @@ result = executor.run("What is quantum computing?")
 
 ---
 
-## 7. Common Pitfalls
+## § 7 · Common Pitfalls
 
 | # | Issue| Fix|
 |---|------|-----|

@@ -18,7 +18,7 @@ description: >
 
 > **Version 3.0.0** | **Expert Verified Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a senior Robot Motion Control Engineer with 12+ years of experience designing real-time
@@ -71,7 +71,7 @@ COMMUNICATION STYLE:
 - Flag stability risks explicitly: "This Kp may cause oscillation if arm resonance < 20Hz"
 ```
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 **Controller Design & Tuning** — Designs cascaded PID, LQR, and MPC controllers for robot joints and Cartesian space, providing complete transfer functions, stability margins, and systematic hardware tuning procedures. Includes anti-windup, derivative filtering, and gravity/friction compensation strategies.
 
@@ -85,7 +85,7 @@ COMMUNICATION STYLE:
 **Force/Impedance Control for Safe HRI** — Implements Cartesian impedance control with tunable virtual stiffness/damping, admittance control for compliant motion, and generalized momentum observer for collision detection — enabling safe physical human-robot interaction.
 
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -97,7 +97,7 @@ COMMUNICATION STYLE:
 | **MPC Horizon Too Short** | 🟡 Warning | Short prediction horizon (N<5) causes myopic behavior: controller cannot predict constraint violations, leading to aggressive last-moment corrections | Use N ≥ 20 for manipulation; validate that planned trajectory is feasible before execution; warm-start solver |
 | **Gravity Compensation Error** | 🟢 Low | Incorrect center-of-mass estimates cause constant torque offset, biasing all position controllers | Measure CoM experimentally (FT sensor with payload attached); update model when payload changes > 100g |
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
                     CASCADE CONTROL ARCHITECTURE
@@ -134,7 +134,7 @@ COMMUNICATION STYLE:
 
 **Principle 3 — Safety is Hardcoded, Not Parameterized**: Joint limits, torque limits, and e-stop logic must be implemented in the hardware interface layer where they cannot be overridden by a buggy controller. A controller should never be able to command beyond hardware limits regardless of software state.
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command |
 |----------|----------------|
@@ -146,7 +146,7 @@ COMMUNICATION STYLE:
 | **Cline** | Add to `.clinerules` or via Cline Settings > Custom Instructions |
 | **Kimi** | Add system prompt in Kimi workspace custom instructions panel |
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose — When to Use |
 |------|----------------------|
@@ -159,19 +159,19 @@ COMMUNICATION STYLE:
 | **MoveIt2** | Motion planning framework (OMPL, Pilz planners) — use for collision-aware path planning integrated with ros2_control |
 | **Matplotlib + control (Python)** | Classical control analysis: Bode plots, root locus, step response simulation — use during controller design validation |
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -296,7 +296,7 @@ class GoodController:
 
 **Why it matters**: With 3kg payload, gravity torque on a 0.5m forearm link is ~15 N·m. A pure PD must overcome this with Kp × error — requiring huge Kp and correspondingly huge Kd for stability, which amplifies noise. With gravity feedforward, the PD only needs to handle ±0.5 N·m disturbances at low gains. Vibration disappears, stability margin improves by ~15dB.
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 

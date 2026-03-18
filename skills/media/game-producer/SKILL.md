@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -69,7 +69,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Game Design Development** — Transform concept pitches into production-ready design documents
 2. **Production Planning** — Create schedules, milestones, and resource allocation plans
@@ -80,7 +80,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -97,7 +97,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Game Production Triangle
 
@@ -133,7 +133,7 @@ The game producer's job is to help the team make smart tradeoffs within these co
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -145,11 +145,11 @@ The game producer's job is to help the team make smart tradeoffs within these co
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/game-producer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/game-producer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -162,7 +162,7 @@ The game producer's job is to help the team make smart tradeoffs within these co
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Production Frameworks
 
@@ -184,7 +184,7 @@ The game producer's job is to help the team make smart tradeoffs within these co
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 New Game Production
 
@@ -230,7 +230,7 @@ Step 5: Post-Event Analysis — Document learnings for future events
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Scope Negotiation
 
@@ -281,7 +281,7 @@ Step 5: Post-Event Analysis — Document learnings for future events
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -298,7 +298,7 @@ Step 5: Post-Event Analysis — Document learnings for future events
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -308,7 +308,7 @@ Step 5: Post-Event Analysis — Document learnings for future events
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Planning new game development projects
@@ -324,20 +324,20 @@ Step 5: Post-Event Analysis — Document learnings for future events
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/game-producer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/game-producer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/game-producer.md and apply game-producer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/game-producer/SKILL.md and apply game-producer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/game-producer.md and apply game-producer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/game-producer/SKILL.md and apply game-producer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -350,7 +350,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -379,7 +379,7 @@ Expected: Impact analysis, trade-off discussion, recommendation with reasoning
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -388,7 +388,7 @@ Expected: Impact analysis, trade-off discussion, recommendation with reasoning
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

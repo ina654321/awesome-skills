@@ -3,6 +3,7 @@ name: servicenow-expert
 display_name: ServiceNow Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [servicenow, itsm, workflow, automation]

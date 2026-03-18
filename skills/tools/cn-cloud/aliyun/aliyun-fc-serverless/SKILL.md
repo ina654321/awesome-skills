@@ -3,6 +3,7 @@ name: aliyun-fc-serverless
 display_name: Aliyun Function Compute Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [aliyun, fc, serverless, function, lambda]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **函数开发** — 编写FC函数
 2. **触发器** — 事件驱动
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Platform Support
+## § 2 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/aliyun/aliyun-fc-serverless.md`
 
@@ -33,6 +34,6 @@ description: >
 
 ---
 
-## 3. Metadata
+## § 3 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../../COMMON.md)

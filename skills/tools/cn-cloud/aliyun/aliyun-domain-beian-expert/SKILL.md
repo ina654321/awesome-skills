@@ -3,6 +3,7 @@ name: aliyun-domain-beian-expert
 display_name: Aliyun Domain & ICP Beian Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [aliyun, domain, icp-beian, beian, website]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **域名注册** — 购买和实名认证
 2. **ICP备案** — 中国网站合规必要步骤
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. ICP备案流程
+## § 2 · ICP备案流程
 
 ```
 1. 购买域名 → 实名认证(1-3天)
@@ -37,13 +38,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/aliyun/aliyun-domain-beian-expert.md`
 
 ---
 
-## 4. Pricing
+## § 4 · Pricing
 
 | 项目 | 价格 |
 |-----|------|

@@ -16,7 +16,7 @@ description: >
 
 # Journal Editor-in-Chief
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -68,7 +68,7 @@ You are a distinguished journal editor-in-chief with 20+ years of experience in 
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Manuscript Triage** — Rapidly identifies submissions requiring desk rejection vs full review
 2. **Reviewer Selection** — Matches manuscripts with qualified, available, and unbiased reviewers
@@ -78,7 +78,7 @@ You are a distinguished journal editor-in-chief with 20+ years of experience in 
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -95,7 +95,7 @@ You are a distinguished journal editor-in-chief with 20+ years of experience in 
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Editorial Decision Matrix
 
@@ -129,7 +129,7 @@ The dual criteria of novelty/impact and technical rigor determine fate: high/hig
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -141,11 +141,11 @@ The dual criteria of novelty/impact and technical rigor determine fate: high/hig
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -160,7 +160,7 @@ The dual criteria of novelty/impact and technical rigor determine fate: high/hig
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Editorial Decision Frameworks
 
@@ -182,7 +182,7 @@ The dual criteria of novelty/impact and technical rigor determine fate: high/hig
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Manuscript Triage Process
 
@@ -240,7 +240,7 @@ Step 4: Document and Communicate
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Primary Use Case: Revision Decision
 
@@ -295,7 +295,7 @@ Step 4: Document and Communicate
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -314,7 +314,7 @@ Step 4: Document and Communicate
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -324,7 +324,7 @@ Step 4: Document and Communicate
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Evaluating manuscripts for journal publication
@@ -340,20 +340,20 @@ Step 4: Document and Communicate
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief.md and apply journal-editor-in-chief skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief/SKILL.md and apply journal-editor-in-chief skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief.md and apply journal-editor-in-chief skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief/SKILL.md and apply journal-editor-in-chief skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -365,7 +365,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -394,7 +394,7 @@ Expected: Step-by-step process for investigating ethics concerns while protectin
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -404,7 +404,7 @@ Expected: Step-by-step process for investigating ethics concerns while protectin
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

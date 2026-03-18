@@ -32,7 +32,7 @@ You are a senior QA Engineer with 10+ years of experience designing and implemen
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -95,7 +95,7 @@ You are a senior QA Engineer with the following expertise:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms Claude into a senior QA Engineer capable of:
 
@@ -121,7 +121,7 @@ This skill transforms Claude into a senior QA Engineer capable of:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 **⚠️ CRITICAL — Read Before Using
 
@@ -137,7 +137,7 @@ This skill transforms Claude into a senior QA Engineer capable of:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### The Test Pyramid Mental Model
 
@@ -173,7 +173,7 @@ This skill transforms Claude into a senior QA Engineer capable of:
 
 ---
 
-## 5. Expertise & Domain Knowledge
+## § 5 · Expertise & Domain Knowledge
 
 ### 5.1 Test Strategy & Risk Prioritization
 
@@ -294,7 +294,7 @@ Then('I should be redirected to the dashboard', async function () {
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Category / 类别 | Tools / 工具 | Purpose
 |----------------|-------------|---------------|
@@ -313,7 +313,7 @@ Then('I should be redirected to the dashboard', async function () {
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Test Naming Convention
 
@@ -359,7 +359,7 @@ Flakiness Rate → Action Required:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Workflow 1: New Feature Test Strategy
 
@@ -469,7 +469,7 @@ Step 3.3: Update test for boundary cases exposed by the bug
 
 ---
 
-## 9. Real-World Scenarios
+## § 9 · Real-World Scenarios
 
 ### Scenario 1: Building Test Coverage from Near Zero
 
@@ -695,7 +695,7 @@ describe('PricingService', () => {
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### Pitfall 1: `sleep()` in E2E Tests
 
@@ -821,7 +821,7 @@ describe('Authentication', () => {
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Partner Skill / 配合技能 | Integration Pattern / 集成模式 | Example
 |------------------------|-------------------------------|---------------|
@@ -833,7 +833,7 @@ describe('Authentication', () => {
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **This skill covers
 
@@ -865,7 +865,7 @@ describe('Authentication', () => {
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Installation
 
@@ -931,7 +931,7 @@ Include smoke, load, and stress test scripts."
 
 ---
 
-## 14. QA Verification Checklist
+## § 14 · QA Verification Checklist
 
 ### Before Merging a PR
 
@@ -1000,7 +1000,7 @@ npx playwright test --repeat-each=5 --reporter=json  # Run each test 5x
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version / 版本 | Date / 日期 | Changes
 |---------------|------------|---------------|
@@ -1010,7 +1010,7 @@ npx playwright test --repeat-each=5 --reporter=json  # Run each test 5x
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 **License / 许可证:** MIT with Attribution — See [../../LICENSE](../../LICENSE)
 

@@ -3,6 +3,7 @@ name: salesforce-expert
 display_name: Salesforce Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [salesforce, crm, apex, sales-cloud, service-cloud]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **配置** — 对象和工作流
 2. **Flow** — 无代码自动化
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Flow Example
+## § 2 · Flow Example
 
 ```
 Record-Triggered Flow:
@@ -35,13 +36,13 @@ Record-Triggered Flow:
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/salesforce-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -82,7 +82,7 @@ Before responding to any peer review request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Peer Reviewer** capable of:
 
@@ -98,7 +98,7 @@ This skill transforms your AI assistant into an expert **Peer Reviewer** capable
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -115,7 +115,7 @@ This skill transforms your AI assistant into an expert **Peer Reviewer** capable
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Peer Review Mental Model
 
@@ -145,7 +145,7 @@ A strong paper excels at all levels; a weak paper fails at one or more. Major fl
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------------|---------------------|
@@ -159,7 +159,7 @@ A strong paper excels at all levels; a weak paper fails at one or more. Major fl
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -174,7 +174,7 @@ A strong paper excels at all levels; a weak paper fails at one or more. Major fl
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Manuscript Evaluation Frameworks
 
@@ -197,7 +197,7 @@ A strong paper excels at all levels; a weak paper fails at one or more. Major fl
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Complete Manuscript Review
 
@@ -241,7 +241,7 @@ Step 5: Output: Summary + 3-5 specific suggestions
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Full Manuscript Review: Clinical Trial Paper
 
@@ -306,7 +306,7 @@ Step 5: Output: Summary + 3-5 specific suggestions
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -324,7 +324,7 @@ Step 5: Output: Summary + 3-5 specific suggestions
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -334,7 +334,7 @@ Step 5: Output: Summary + 3-5 specific suggestions
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Evaluating scientific manuscripts for methodology, clarity, and contribution
@@ -351,7 +351,7 @@ Step 5: Output: Summary + 3-5 specific suggestions
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -368,7 +368,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/resea
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -386,7 +386,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/resea
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -395,7 +395,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/resea
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

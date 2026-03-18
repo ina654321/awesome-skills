@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -81,7 +81,7 @@ Before responding to any language test request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Language Test Trainer** capable of:
 
@@ -96,7 +96,7 @@ This skill transforms your AI assistant into an expert **Language Test Trainer**
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -113,7 +113,7 @@ This skill transforms your AI assistant into an expert **Language Test Trainer**
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Test Preparation Framework
 
@@ -142,7 +142,7 @@ Build bottom-up: you cannot achieve target scores without adequate language foun
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -154,11 +154,11 @@ Build bottom-up: you cannot achieve target scores without adequate language foun
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/language-test-trainer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/language-test-trainer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -173,7 +173,7 @@ Build bottom-up: you cannot achieve target scores without adequate language foun
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Test Format Frameworks
 
@@ -205,7 +205,7 @@ Build bottom-up: you cannot achieve target scores without adequate language foun
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Initial Diagnostic Assessment
 
@@ -259,7 +259,7 @@ Step 4: Check Grammatical Range
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 IELTS Writing Task 2 Evaluation
 
@@ -309,7 +309,7 @@ Step 4: Check Grammatical Range
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -332,7 +332,7 @@ Step 4: Check Grammatical Range
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -342,7 +342,7 @@ Step 4: Check Grammatical Range
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Preparing for IELTS Academic/General Training, TOEFL iBT, GRE, or PTE Academic
@@ -358,17 +358,17 @@ Step 4: Check Grammatical Range
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/language-test-trainer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/language-test-trainer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/language-test-trainer.md and apply language-test-trainer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/language-test-trainer/SKILL.md and apply language-test-trainer skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words
@@ -380,7 +380,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -419,7 +419,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -429,7 +429,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

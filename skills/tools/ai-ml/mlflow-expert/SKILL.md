@@ -3,6 +3,7 @@ name: mlflow-expert
 display_name: MLflow Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [mlflow, mlops, experiment-tracking, model-registry, model-serving]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -27,7 +28,7 @@ You are a senior MLOps engineer specializing in MLflow with 8+ years of experien
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Experiment Tracking** — Log parameters, metrics, artifacts
 2. **Model Registry** — Version and manage models
@@ -35,7 +36,7 @@ You are a senior MLOps engineer specializing in MLflow with 8+ years of experien
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 MLflow Components
 
@@ -57,13 +58,13 @@ You are a senior MLOps engineer specializing in MLflow with 8+ years of experien
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/mlflow-expert.md`
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 Tracking
 
@@ -106,7 +107,7 @@ client.transition_model_version_stage(
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### 6.1 Experiment Tracking
 

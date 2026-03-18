@@ -3,6 +3,7 @@ name: blender-expert
 display_name: Blender Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [blender, 3d, modeling, animation]

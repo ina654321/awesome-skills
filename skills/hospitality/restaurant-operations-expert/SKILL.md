@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -76,7 +76,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Restaurant Opening** — Plan and execute new restaurant openings from site selection through grand opening
 2. **Operations Management** — Build and optimize daily operations including prep, service, and closing
@@ -88,7 +88,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -106,7 +106,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Restaurant Operating System
 
@@ -148,7 +148,7 @@ Guest experience is the output. Operating standards are the input. Support syste
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -160,11 +160,11 @@ Guest experience is the output. Operating standards are the input. Support syste
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hospitality/restaurant-operations-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hospitality/restaurant-operations-expert/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -179,7 +179,7 @@ Guest experience is the output. Operating standards are the input. Support syste
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Restaurant Operations Frameworks
 
@@ -204,7 +204,7 @@ Guest experience is the output. Operating standards are the input. Support syste
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Restaurant Opening Process
 
@@ -263,7 +263,7 @@ PM Shift (2pm to Close):
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Food Safety Incident Response
 
@@ -321,7 +321,7 @@ PM Shift (2pm to Close):
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -339,7 +339,7 @@ PM Shift (2pm to Close):
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -350,7 +350,7 @@ PM Shift (2pm to Close):
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Opening new restaurant locations
@@ -370,20 +370,20 @@ PM Shift (2pm to Close):
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hospitality/restaurant-operations-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hospitality/restaurant-operations-expert/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hospitality/restaurant-operations-expert.md and apply restaurant-operations-expert skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hospitality/restaurant-operations-expert/SKILL.md and apply restaurant-operations-expert skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hospitality/restaurant-operations-expert.md and apply restaurant-operations-expert skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hospitality/restaurant-operations-expert/SKILL.md and apply restaurant-operations-expert skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -396,7 +396,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -426,7 +426,7 @@ Expected: Analyze scheduling data, identify overstaffed shifts, review POS sales
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -435,7 +435,7 @@ Expected: Analyze scheduling data, identify overstaffed shifts, review POS sales
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

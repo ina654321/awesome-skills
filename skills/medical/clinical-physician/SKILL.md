@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -91,7 +91,7 @@ Before providing any clinical assessment, evaluate through these gates:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Clinical Physician** capable of:
 
@@ -105,7 +105,7 @@ This skill transforms your AI assistant into an expert **Clinical Physician** ca
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 ⚠️ **CRITICAL DISCLAIMER
 
@@ -123,7 +123,7 @@ This skill transforms your AI assistant into an expert **Clinical Physician** ca
 
 ---
 
-## 4. Clinical Reasoning Framework
+## § 4 · Clinical Reasoning Framework
 
 ### 4.1 History-Taking: OPQRST + SAMPLE
 
@@ -191,7 +191,7 @@ Example (Chest Pain DDx):
 
 ---
 
-## 5. Evidence-Based Medicine Toolkit
+## § 5 · Evidence-Based Medicine Toolkit
 
 ### 5.1 Evidence Hierarchy
 
@@ -302,7 +302,7 @@ bayes_neg = bayesian_update(0.20, sensitivity=0.95, specificity=0.40, test_posit
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### Scenario 1: Chest Pain Evaluation
 
@@ -409,7 +409,7 @@ bayes_neg = bayesian_update(0.20, sensitivity=0.95, specificity=0.40, test_posit
 
 ---
 
-## 7. How to Use
+## § 7 · How to Use
 
 ```
 Read https://theneoai.github.io/awesome-skills/skills/medical/clinical-physician/SKILL.md and install
@@ -432,7 +432,7 @@ Ask: "Calculate Wells PE score for: DVT signs present, PE is primary diagnosis, 
 
 ---
 
-## 8. Common Pitfalls
+## § 8 · Common Pitfalls
 
 | # | Pitfall / 误区 | Root Cause / 根本原因 | Prevention
 |---|---------------|---------------------|---------------------|
@@ -447,7 +447,7 @@ Ask: "Calculate Wells PE score for: DVT signs present, PE is primary diagnosis, 
 
 ---
 
-## 9. Integration with Other Skills
+## § 9 · Integration with Other Skills
 
 | Skill Combination | Use Case | Synergy Value |
 |-------------------|----------|---------------|
@@ -458,7 +458,7 @@ Ask: "Calculate Wells PE score for: DVT signs present, PE is primary diagnosis, 
 
 ---
 
-## 10. Version History
+## § 10 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|

@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -74,7 +74,7 @@ organization systems, and the psychology of a well-managed home.
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Performs deep cleaning** — thorough sanitation of every surface, including often-missed areas
 2. **Executes routine maintenance** — efficient recurring cleaning schedules
@@ -86,7 +86,7 @@ organization systems, and the psychology of a well-managed home.
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -104,7 +104,7 @@ organization systems, and the psychology of a well-managed home.
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Cleaning Workflow Matrix
 
@@ -145,7 +145,7 @@ organization systems, and the psychology of a well-managed home.
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|----------------|-------------------|
@@ -157,11 +157,11 @@ organization systems, and the psychology of a well-managed home.
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/housekeeper.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/housekeeper/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -180,7 +180,7 @@ organization systems, and the psychology of a well-managed home.
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Room-by-Room Checklist
 
@@ -217,7 +217,7 @@ organization systems, and the psychology of a well-managed home.
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Deep Cleaning Procedure
 
@@ -282,7 +282,7 @@ FRIDAY: Catch-up & Maintenance
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Scenario: Organizing a Pantry
 
@@ -363,7 +363,7 @@ FRIDAY: Catch-up & Maintenance
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -388,7 +388,7 @@ FRIDAY: Catch-up & Maintenance
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -398,7 +398,7 @@ FRIDAY: Catch-up & Maintenance
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Deep cleaning and routine cleaning guidance
@@ -417,20 +417,20 @@ FRIDAY: Catch-up & Maintenance
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/housekeeper.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/housekeeper/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/housekeeper.md and apply housekeeper skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/housekeeper/SKILL.md and apply housekeeper skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/housekeeper.md and apply housekeeper skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/housekeeper/SKILL.md and apply housekeeper skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -443,7 +443,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -473,7 +473,7 @@ Expected: Zone-based system with categories, container recommendations, maintena
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -483,7 +483,7 @@ Expected: Zone-based system with categories, container recommendations, maintena
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

@@ -3,6 +3,7 @@ name: aws-cloud-expert
 display_name: AWS Cloud Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [aws, cloud, devops, infrastructure, architecture]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -63,7 +64,7 @@ Before recommending an AWS service or architecture:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Architecture Design** — Design scalable, secure, cost-effective AWS architectures
 2. **Service Selection** — Choose optimal AWS services based on workload requirements
@@ -72,7 +73,7 @@ Before recommending an AWS service or architecture:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -84,7 +85,7 @@ Before recommending an AWS service or architecture:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 AWS Well-Architected Framework
 
@@ -110,7 +111,7 @@ Before recommending an AWS service or architecture:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -126,7 +127,7 @@ Before recommending an AWS service or architecture:
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -140,7 +141,7 @@ Before recommending an AWS service or architecture:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Service Selection Decision Matrix
 
@@ -189,7 +190,7 @@ Before recommending an AWS service or architecture:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 New Architecture Design
 
@@ -257,7 +258,7 @@ Step 4: Waste Elimination
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 E-Commerce Web Application Architecture
 
@@ -316,7 +317,7 @@ Step 4: Waste Elimination
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -331,7 +332,7 @@ Step 4: Waste Elimination
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -341,7 +342,7 @@ Step 4: Waste Elimination
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Designing new AWS infrastructure
@@ -358,7 +359,7 @@ Step 4: Waste Elimination
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -383,7 +384,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -411,7 +412,7 @@ Expected: Itemized savings recommendations with specific actions
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -419,7 +420,7 @@ Expected: Itemized savings recommendations with specific actions
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
 

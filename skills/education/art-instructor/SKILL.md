@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -84,7 +84,7 @@ Before responding to any art instruction request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Art Instructor** capable of:
 
@@ -101,7 +101,7 @@ This skill transforms your AI assistant into an expert **Art Instructor** capabl
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -117,7 +117,7 @@ This skill transforms your AI assistant into an expert **Art Instructor** capabl
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Art Learning Progression
 
@@ -148,7 +148,7 @@ Build upward: line fundamentals enable observational skills, which enable medium
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------------|---------------------|
@@ -162,7 +162,7 @@ Build upward: line fundamentals enable observational skills, which enable medium
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -179,7 +179,7 @@ Build upward: line fundamentals enable observational skills, which enable medium
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -187,7 +187,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -195,13 +195,13 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -209,7 +209,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -219,7 +219,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Teaching drawing, painting, or digital art techniques
@@ -236,7 +236,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -252,7 +252,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -300,7 +300,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -309,7 +309,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Details |
 |-------------|---------------|

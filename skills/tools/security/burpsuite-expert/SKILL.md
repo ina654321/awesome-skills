@@ -3,6 +3,7 @@ name: burpsuite-expert
 display_name: Burp Suite Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [burpsuite, web-security, penetration-testing]

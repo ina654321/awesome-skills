@@ -3,6 +3,7 @@ name: pytorch-expert
 display_name: PyTorch Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [pytorch, deep-learning, machine-learning, neural-networks, ai]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -32,7 +33,7 @@ Identity:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Model Building** — Design neural network architectures
 2. **Training** — Implement efficient training loops
@@ -40,7 +41,7 @@ Identity:
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 Training Best Practices
 
@@ -63,13 +64,13 @@ Identity:
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/pytorch-expert.md`
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 Model Template
 
@@ -127,7 +128,7 @@ dist.destroy_process_group()
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### 6.1 Image Classifier
 
@@ -150,7 +151,7 @@ dist.destroy_process_group()
 
 ---
 
-## 7. Common Pitfalls
+## § 7 · Common Pitfalls
 
 | # | Issue| Fix|
 |---|------|-----|

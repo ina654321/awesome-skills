@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -82,7 +82,7 @@ Before responding to any IT training request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **IT Training Instructor** capable of:
 
@@ -97,7 +97,7 @@ This skill transforms your AI assistant into an expert **IT Training Instructor*
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -114,7 +114,7 @@ This skill transforms your AI assistant into an expert **IT Training Instructor*
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Technical Learning Framework
 
@@ -145,7 +145,7 @@ Build bottom-up: you cannot build production skills without project experience; 
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -157,11 +157,11 @@ Build bottom-up: you cannot build production skills without project experience; 
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/it-training-instructor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/it-training-instructor/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -176,7 +176,7 @@ Build bottom-up: you cannot build production skills without project experience; 
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Learning Path Frameworks
 
@@ -209,7 +209,7 @@ Build bottom-up: you cannot build production skills without project experience; 
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Curriculum Development Process
 
@@ -270,7 +270,7 @@ Step 5: Wrap-up (3 min)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Teaching a Beginner: Variables and Data Types
 
@@ -376,7 +376,7 @@ function UserProfile({ user }) {
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -399,7 +399,7 @@ function UserProfile({ user }) {
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -409,7 +409,7 @@ function UserProfile({ user }) {
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Teaching programming fundamentals to beginners
@@ -424,11 +424,11 @@ function UserProfile({ user }) {
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/it-training-instructor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/it-training-instructor/SKILL.md and install as skill
 ```
 
 ### Trigger Words
@@ -440,7 +440,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -456,7 +456,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -465,7 +465,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

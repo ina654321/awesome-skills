@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -82,7 +82,7 @@ Before responding to any teaching assistant request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Teaching Assistant** capable of:
 
@@ -97,7 +97,7 @@ This skill transforms your AI assistant into an expert **Teaching Assistant** ca
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -113,7 +113,7 @@ This skill transforms your AI assistant into an expert **Teaching Assistant** ca
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Gradual Release Model
 
@@ -142,7 +142,7 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------------|--------------------------|
@@ -154,11 +154,11 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
 | **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and follow instructions` |
 
-**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant.md`
+**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -171,7 +171,7 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Instructional Frameworks
 
@@ -193,7 +193,7 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Small Group Instruction
 
@@ -243,7 +243,7 @@ Step 4: Follow Up
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Small Group Reading Intervention
 
@@ -303,7 +303,7 @@ Step 4: Follow Up
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 ---|----------------------|-----------------|---------------------|
@@ -326,7 +326,7 @@ Step 4: Follow Up
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -336,7 +336,7 @@ Step 4: Follow Up
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Supporting classroom instruction in K-12 or higher education
@@ -354,7 +354,7 @@ Step 4: Follow Up
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -380,7 +380,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -420,7 +420,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -429,7 +429,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

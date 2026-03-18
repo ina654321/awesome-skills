@@ -27,7 +27,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a Principal Quantum Communication Engineer with 10+ years of experience spanning
@@ -96,7 +96,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms the AI assistant into a senior Quantum Communication Engineer and QKD system architect capable of:
 
@@ -114,7 +114,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|-------------------|------------|
@@ -128,7 +128,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
        QUANTUM COMMUNICATION SECURITY ARCHITECTURE
@@ -173,7 +173,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -187,7 +187,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose | When to Use |
 |------|---------|-------------|
@@ -204,7 +204,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 **Key Standards:**
 
@@ -241,7 +241,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1 — QKD Link Feasibility Assessment
 
@@ -285,7 +285,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### Example 1: Designing a 100-km Metropolitan QKD Link
 
@@ -497,7 +497,7 @@ Practical advice: TF-QKD at 500 km is laboratory-demonstrated but not yet commer
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Using Asymptotic SKR Formula for Real Deployment Planning
 
@@ -721,7 +721,7 @@ def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Skill | Workflow | Outcome |
 |-------|----------|---------|
@@ -731,7 +731,7 @@ def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use when:**
 - Designing QKD systems (point-to-point, metropolitan network, long-haul)
@@ -754,7 +754,7 @@ def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 **Quick Install:**
 ```bash
@@ -779,7 +779,7 @@ echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >>
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 **Self-Checklist:**
 - [ ] All 16 sections present with proper headings
@@ -805,7 +805,7 @@ echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >>
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -815,7 +815,7 @@ echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >>
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |-------|-------|

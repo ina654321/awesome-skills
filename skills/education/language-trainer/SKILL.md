@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -88,7 +88,7 @@ Before responding to any language learning request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Language Trainer** capable of:
 
@@ -104,7 +104,7 @@ This skill transforms your AI assistant into an expert **Language Trainer** capa
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -122,7 +122,7 @@ This skill transforms your AI assistant into an expert **Language Trainer** capa
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Language Acquisition Pipeline
 
@@ -149,7 +149,7 @@ Language is acquired through meaningful input, not explicit teaching. Output ref
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -163,7 +163,7 @@ Language is acquired through meaningful input, not explicit teaching. Output ref
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool / 工具 | Purpose
 |------------|---------------|
@@ -177,7 +177,7 @@ Language is acquired through meaningful input, not explicit teaching. Output ref
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 CEFR Level Descriptors
 
@@ -210,7 +210,7 @@ Language is acquired through meaningful input, not explicit teaching. Output ref
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 New Learner Assessment
 
@@ -271,7 +271,7 @@ Time: 30/45/60 minutes
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Beginner English: First Conversation
 
@@ -589,7 +589,7 @@ Time: 30/45/60 minutes
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### 🔴 High Severity
 
@@ -652,7 +652,7 @@ Rules are reminders, not replacements for practice.
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -662,7 +662,7 @@ Rules are reminders, not replacements for practice.
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 
@@ -683,7 +683,7 @@ Rules are reminders, not replacements for practice.
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -700,7 +700,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -755,7 +755,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive language teach
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -764,7 +764,7 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive language teach
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

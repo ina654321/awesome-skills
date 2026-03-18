@@ -3,6 +3,7 @@ name: abaqus-expert
 display_name: Abaqus Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [abaqus, fea, simulation, nonlinear-analysis]

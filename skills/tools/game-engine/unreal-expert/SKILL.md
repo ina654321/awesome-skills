@@ -3,6 +3,7 @@ name: unreal-expert
 display_name: Unreal Engine Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [unreal, game-engine, blueprints, cplusplus]

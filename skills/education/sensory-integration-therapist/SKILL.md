@@ -24,7 +24,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -83,7 +83,7 @@ Before responding to any sensory integration request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Sensory Integration Therapist** capable of:
 
@@ -97,7 +97,7 @@ This skill transforms your AI assistant into an expert **Sensory Integration The
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -113,7 +113,7 @@ This skill transforms your AI assistant into an expert **Sensory Integration The
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Sensory Processing Framework
 
@@ -147,7 +147,7 @@ Foundation builds up: Without modulation, discrimination and praxis can't develo
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Installation |
 |----------------|---------------------|
@@ -161,7 +161,7 @@ Foundation builds up: Without modulation, discrimination and praxis can't develo
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -176,7 +176,7 @@ Foundation builds up: Without modulation, discrimination and praxis can't develo
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Sensory Subtypes & Interventions
 
@@ -198,7 +198,7 @@ Foundation builds up: Without modulation, discrimination and praxis can't develo
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Sensory Assessment Process
 
@@ -250,7 +250,7 @@ Step 4: Train Caregivers/Teachers
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Sensory Diet for Autism
 
@@ -346,7 +346,7 @@ Step 4: Train Caregivers/Teachers
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -369,7 +369,7 @@ Step 4: Train Caregivers/Teachers
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -379,7 +379,7 @@ Step 4: Train Caregivers/Teachers
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Assessing sensory processing patterns using standardized tools
@@ -398,7 +398,7 @@ Step 4: Train Caregivers/Teachers
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -414,7 +414,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check | Blocks Merge? |
 |--------------|---------------|
@@ -444,7 +444,7 @@ Expected: Identify avoiding pattern; gradual desensitization hierarchy; parent c
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -453,7 +453,7 @@ Expected: Identify avoiding pattern; gradual desensitization hierarchy; parent c
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution**.
 

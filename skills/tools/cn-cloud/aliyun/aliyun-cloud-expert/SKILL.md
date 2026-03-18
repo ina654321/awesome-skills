@@ -3,6 +3,7 @@ name: aliyun-cloud-expert
 display_name: Aliyun Cloud Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [aliyun, alibaba-cloud, cloud, devops]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **架构设计** — 阿里云全服务架构
 2. **服务选型** — 根据场景选服务
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Services
+## § 2 · Core Services
 
 | 类别 | 核心服务 |
 |------|----------|
@@ -36,13 +37,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/aliyun/aliyun-cloud-expert.md`
 
 ---
 
-## 4. Cost Optimization
+## § 4 · Cost Optimization
 
 | 策略 | 节省 |
 |------|------|

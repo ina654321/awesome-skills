@@ -3,6 +3,7 @@ name: docker-expert
 display_name: Docker Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [docker, container, devops, containerization, devtools]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -56,7 +57,7 @@ Before containerizing an application:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Dockerfile Optimization** — Create efficient, secure Dockerfiles with multi-stage builds
 2. **Docker Compose** — Design multi-container applications with docker-compose
@@ -65,7 +66,7 @@ Before containerizing an application:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -76,7 +77,7 @@ Before containerizing an application:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Dockerfile Best Practices
 
@@ -113,7 +114,7 @@ Before containerizing an application:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -129,7 +130,7 @@ Before containerizing an application:
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -141,7 +142,7 @@ Before containerizing an application:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Dockerfile Templates
 
@@ -232,7 +233,7 @@ volumes:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Containerizing a New Application
 
@@ -266,7 +267,7 @@ Phase 4: Security Hardening
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Python ML Service
 
@@ -336,7 +337,7 @@ Phase 4: Security Hardening
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -349,7 +350,7 @@ Phase 4: Security Hardening
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -359,7 +360,7 @@ Phase 4: Security Hardening
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Containerizing applications
@@ -374,7 +375,7 @@ Phase 4: Security Hardening
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -391,7 +392,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -419,7 +420,7 @@ Expected: Root cause analysis and fix
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -427,7 +428,7 @@ Expected: Root cause analysis and fix
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
 

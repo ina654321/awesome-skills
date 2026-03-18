@@ -3,6 +3,7 @@ name: vault-secrets-expert
 display_name: HashiCorp Vault Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [vault, secrets, security, devops, encryption]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Secrets Management** — KV, dynamic secrets
 2. **Authentication** — Multiple auth methods
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Philosophy
+## § 2 · Core Philosophy
 
 ### 2.1 Secrets Engines
 
@@ -39,13 +40,13 @@ AWS/IAM → Cloud credentials
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/security/vault-secrets-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 KV Secrets
 

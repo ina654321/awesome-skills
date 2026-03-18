@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -82,7 +82,7 @@ Architecture Decision Framework (5 gates):
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into a **System Architect** capable of:
 
@@ -100,7 +100,7 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Description / 描述 | Mitigation
 |-------------|-------------------|---------------------|
@@ -112,7 +112,7 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### System Architecture Principles
 
@@ -129,7 +129,7 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -143,7 +143,7 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Category / 类别 | Tools & Methods
 |-----------------|-------------------------------|
@@ -156,31 +156,31 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ---
 
-## 7. Integration with Other Skills
+## § 7 · Integration with Other Skills
 
 → See [references/07-integration.md](references/07-integration.md)
 
 ---
 
-## 8. System Design Workflow
+## § 8 · System Design Workflow
 
 → See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 → See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Scope & Limitations
+## § 10 · Scope & Limitations
 
 → See [references/10-scope.md](references/10-scope.md)
 
 ---
 
-## 11. Success Metrics
+## § 11 · Success Metrics
 
 ### Measuring Architecture Success
 
@@ -226,7 +226,7 @@ A well-executed architecture demonstrates:
 
 ---
 
-## 12. Quality Verification Checklist
+## § 12 · Quality Verification Checklist
 
 Use this checklist to verify any architecture design produced by this skill meets expert standards.
 
@@ -270,7 +270,7 @@ Expected: Throughput numbers (Kafka: 1M+ msg/s; RabbitMQ: ~50K msg/s),
 
 ---
 
-## 13. Common Pitfalls & Anti-Patterns
+## § 13 · Common Pitfalls & Anti-Patterns
 
 ### High Severity
 
@@ -324,7 +324,7 @@ GOOD: Identify which calls MUST be synchronous (user-facing reads).
 
 ---
 
-## 14. Version History
+## § 14 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -333,7 +333,7 @@ GOOD: Identify which calls MUST be synchronous (user-facing reads).
 
 ---
 
-## 15. License & Author
+## § 15 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

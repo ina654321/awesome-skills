@@ -3,6 +3,7 @@ name: duckdb-expert
 display_name: DuckDB Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [duckdb, olap, embedded, analytics]

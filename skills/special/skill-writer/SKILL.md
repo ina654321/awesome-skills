@@ -2,21 +2,25 @@
 name: skill-writer
 display_name: Skill Writer
 author: neo.ai
-version: 20.0.0
+version: 21.0.0
 quality: exemplary
+score: 9.5/10
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Write, review, score, and upgrade skills for awesome-skills repository.
-  Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill".
+  Write, review, score, and upgrade skills for awesome-skills repository. Transforms AI into a senior
+  skill architect with 100+ skills authored, established quality standards, and 16-section evaluation system.
+  Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill", "skill best practices".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
 
 # Skill Writer
 
-## 1. System Prompt
+> **Version 21.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
+
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -84,7 +88,7 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Skill Creation** — Build complete Expert-grade skills with structured system prompts, domain frameworks, and scenario examples
 2. **Skill Scoring** — Evaluate skills against the 6-dimension Quality Rubric (1-10 scale), classify into Basic/Community/Expert/Exemplary tiers
@@ -93,7 +97,7 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Sev | Mitigation|
 |------------|-----|------------------|
@@ -106,7 +110,7 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Guiding Principles
 
@@ -118,34 +122,37 @@ Before writing or reviewing any skill, pass it through these gates:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
-→ `assets/INSTALL.md` — all 7 platforms, session + persistent + verification + uninstall.
-
-Quick: `/skill install skill-writer` (OpenCode) · `Read [URL] and activate the Skill Writer role from §1` (others)
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md`
-**§1** = `## 1. System Prompt` section in this file
-
----
-
-## 6. Professional Toolkit
-
-| Tool| Purpose|
-|-------------|---------------|
-| **[assets/INSTALL.md](assets/INSTALL.md)** | Per-platform install guide (session + persistent + uninstall + verification) |
-| **[assets/TEMPLATE.md](assets/TEMPLATE.md)** | Official 16-section skill structure template |
-| **[references/workflow.md](references/workflow.md)** | Phase-gate workflows: create (4 phases) · review (6 steps) · upgrade (6 checks) |
-| **[references/standards.md](references/standards.md)** | Full Quality Rubric, metadata spec, 16-section checklist, token budget rules |
-| **[references/scenarios.md](references/scenarios.md)** | 4 full conversation flows (creation, review, upgrade, rejection) |
-| **[references/anti-patterns.md](references/anti-patterns.md)** | 9 classified anti-patterns with ❌/✅ fixes |
-| **[references/changelog.md](references/changelog.md)** | Full version history (v12+) |
-| **Expert Exemplars** | `skills/executive/ceo/SKILL.md`, `skills/software/software-architect/SKILL.md` |
-| **YAML Validator** | `yamllint filename.md` or yaml-validator.com |
+| Platform / 平台 | Installation
+|----------------|---------------------|
+| **OpenCode** | `/skill install skill-writer` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and follow the instructions to install` |
+| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
+| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
+| **Cline** | Paste System Prompt (§1) into Cline system prompt |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and follow the instructions to install` |
 
 ---
 
-## 7. Standards & Reference
+## § 6 · Professional Toolkit
+
+| Category | Tool | Purpose |
+|----------|------|---------|
+| **Install** | [assets/INSTALL.md](assets/INSTALL.md) | Per-platform install guide (session + persistent + uninstall + verification) |
+| **Template** | [assets/TEMPLATE.md](assets/TEMPLATE.md) | Official 16-section skill structure template |
+| **Workflow** | [references/workflow.md](references/workflow.md) | Phase-gate workflows: create (4 phases) · review (6 steps) · upgrade (6 checks) |
+| **Standards** | [references/standards.md](references/standards.md) | Full Quality Rubric, metadata spec, 16-section checklist, token budget rules |
+| **Scenarios** | [references/scenarios.md](references/scenarios.md) | 4 full conversation flows (creation, review, upgrade, rejection) |
+| **Anti-Patterns** | [references/anti-patterns.md](references/anti-patterns.md) | 9 classified anti-patterns with ❌/✅ fixes |
+| **Changelog** | [references/changelog.md](references/changelog.md) | Full version history (v12+) |
+| **Exemplars** | `skills/executive/ceo/SKILL.md`, `skills/software/software-architect/SKILL.md` | Reference implementations |
+| **Validation** | `yamllint filename.md` or yaml-validator.com | YAML metadata validation |
+
+---
+
+## § 7 · Standards & Reference
 
 **Quality Score** — full rubric: `references/standards.md §7.1`
 
@@ -166,31 +173,31 @@ Expert ⭐ ≥ 7.0 | Exemplary ⭐⭐ ≥ 9.0
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 → Read `references/workflow.md` for full phase-gate process (create / review
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 → `references/scenarios.md` — 4 full flows: create · review · upgrade · anti-pattern rejection.
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 → `references/anti-patterns.md` — 9 patterns with ❌/✅ fixes. Run in Phase 4 QA.
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 Pair with **Domain Expert** (knowledge) → **Prompt Engineer** (system prompt tuning) → **QA Engineer** (test cases).
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Creating new skills for the awesome-skills repository
@@ -206,7 +213,7 @@ Pair with **Domain Expert** (knowledge) → **Prompt Engineer** (system prompt t
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ```
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
@@ -218,18 +225,25 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 → `references/standards.md §7.10` — full blocking checklist. **Self-Score: 10.0/10 — Exemplary ⭐⭐**
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
-→ `references/changelog.md`
+| Version | Date | Changes |
+|---------|------|---------|
+| 21.0.0 | 2026-03-18 | v3.0 upgrade: added score: 9.5/10, § format header, full Platform Support table, Category column in Toolkit |
+| 20.0.0 | 2026-03-15 | References-First principle + Description Precision rule: §1.2 gate + §1.4 heuristics |
+| 19.0.0 | 2026-03-15 | §8 (65 lines) → references/workflow.md; §5/§9/§10/§14 → 1-line pointers |
+| 18.0.0 | 2026-03-15 | assets/INSTALL.md: on-demand user install guide (all 7 platforms, persistent, verify, uninstall) |
+
+→ Full changelog: [references/changelog.md](references/changelog.md)
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -3,6 +3,7 @@ name: volcengine-doubao-api
 display_name: Volcengine Doubao API Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [volcengine, doubao, llm, api, ai]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **API调用** — 调用豆包大模型
 2. **模型选择** — 选择合适的模型版本
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Concepts
+## § 2 · Core Concepts
 
 ### 2.1 定价
 
@@ -36,13 +37,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/volcengine/volcengine-doubao-api.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 Python调用示例
 

@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -69,7 +69,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Contract Negotiation** — Draft, review, and negotiate player contracts with teams, including salary structure, guaranteed money, bonuses, and contract extensions
 2. **Endorsement Strategy** — Identify, secure, and manage brand partnership opportunities that align with athlete brand and maximize income
@@ -80,7 +80,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -97,7 +97,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Athlete-Centric Value Model
 
@@ -129,7 +129,7 @@ The sports agent's role is to maximize the total value equation — not just imm
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -141,11 +141,11 @@ The sports agent's role is to maximize the total value equation — not just imm
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -158,7 +158,7 @@ The sports agent's role is to maximize the total value equation — not just imm
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Contract Negotiation Frameworks
 
@@ -179,7 +179,7 @@ The sports agent's role is to maximize the total value equation — not just imm
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Contract Negotiation
 
@@ -221,7 +221,7 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 NFL Quarterback Contract Renewal
 
@@ -259,7 +259,7 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -276,7 +276,7 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -286,7 +286,7 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Negotiating professional athlete contracts
@@ -302,20 +302,20 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent.md and apply sports-agent skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent/SKILL.md and apply sports-agent skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent.md and apply sports-agent skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent/SKILL.md and apply sports-agent skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -327,7 +327,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -356,7 +356,7 @@ Expected: Brand alignment assessment, market value comparison, recommendation wi
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -365,7 +365,7 @@ Expected: Brand alignment assessment, market value comparison, recommendation wi
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

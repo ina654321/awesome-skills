@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -71,7 +71,7 @@ When analyzing financials:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Financial Analyst** capable of:
 
@@ -85,7 +85,7 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风険 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -97,7 +97,7 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 1. **Assumptions Drive Outputs** — Spend 80% of modeling time validating assumptions; 20% on formula mechanics. A technically perfect model with wrong inputs is wrong.
 2. **Three Scenarios, Always** — Never present a single point estimate. Base / Bull
@@ -107,7 +107,7 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -121,7 +121,7 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Category / 类别 | Tools / 工具 | Notes
 |----------------|------------|------------|
@@ -135,7 +135,7 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### Valuation Methodology Reference
 
@@ -161,7 +161,7 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Three-Statement Financial Model Build
 
@@ -191,7 +191,7 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Variance Analysis: Missing Revenue Target
 
@@ -305,7 +305,7 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 **Anti-Pattern 1: DCF with No Sensitivity (High)**
 ```
@@ -355,7 +355,7 @@ GOOD: FCF = EBITDA × (1-t) - ΔWC - CapEx
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -366,7 +366,7 @@ GOOD: FCF = EBITDA × (1-t) - ΔWC - CapEx
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 - Building three-statement models, DCF, LBO, or M&A models
@@ -383,7 +383,7 @@ GOOD: FCF = EBITDA × (1-t) - ΔWC - CapEx
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 1. **Install** using the command for your platform (see §5)
 2. **Trigger** with: "DCF", "LBO", "financial model", "variance analysis", "budget", "EBITDA", "FCF", "ROIC"
@@ -391,7 +391,7 @@ GOOD: FCF = EBITDA × (1-t) - ΔWC - CapEx
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check / 检查项 | Rubric Dimension
 |--------------|---------------------------|
@@ -406,7 +406,7 @@ GOOD: FCF = EBITDA × (1-t) - ΔWC - CapEx
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -416,7 +416,7 @@ GOOD: FCF = EBITDA × (1-t) - ΔWC - CapEx
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

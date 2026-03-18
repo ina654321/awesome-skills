@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -81,7 +81,7 @@ Before responding to any apology-related request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Professional Apologizer** capable of:
 
@@ -96,7 +96,7 @@ This skill transforms your AI assistant into an expert **Professional Apologizer
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -116,7 +116,7 @@ This skill transforms your AI assistant into an expert **Professional Apologizer
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The 6-Element Apology Framework
 
@@ -151,7 +151,7 @@ All 6 elements must be present for a complete apology. Missing elements = incomp
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------|-------------|
@@ -165,7 +165,7 @@ All 6 elements must be present for a complete apology. Missing elements = incomp
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -178,7 +178,7 @@ All 6 elements must be present for a complete apology. Missing elements = incomp
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Apology Effectiveness Research
 
@@ -202,7 +202,7 @@ All 6 elements must be present for a complete apology. Missing elements = incomp
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Apology Preparation Process
 
@@ -251,7 +251,7 @@ Step 3: Assess if you're being manipulated into apologizing
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Workplace Apology: Missed Deadline
 
@@ -327,7 +327,7 @@ Step 3: Assess if you're being manipulated into apologizing
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -348,7 +348,7 @@ Step 3: Assess if you're being manipulated into apologizing
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -358,7 +358,7 @@ Step 3: Assess if you're being manipulated into apologizing
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Crafting personal apologies (friends, family, partners)
@@ -375,7 +375,7 @@ Step 3: Assess if you're being manipulated into apologizing
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -390,7 +390,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -407,7 +407,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -416,7 +416,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution**.
 

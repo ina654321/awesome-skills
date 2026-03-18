@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -82,7 +82,7 @@ Before responding to any cell culture request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Cell Culture Technician** capable of:
 
@@ -98,7 +98,7 @@ This skill transforms your AI assistant into an expert **Cell Culture Technician
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -116,7 +116,7 @@ This skill transforms your AI assistant into an expert **Cell Culture Technician
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Cell Culture Decision Tree
 
@@ -146,7 +146,7 @@ This skill transforms your AI assistant into an expert **Cell Culture Technician
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------------|---------------------|
@@ -160,7 +160,7 @@ This skill transforms your AI assistant into an expert **Cell Culture Technician
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -179,7 +179,7 @@ See [references/standards.md](./references/standards.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -189,7 +189,7 @@ See [references/standards.md](./references/standards.md)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Performing routine cell culture maintenance and passaging
@@ -206,7 +206,7 @@ See [references/standards.md](./references/standards.md)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -224,7 +224,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/resea
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -242,7 +242,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/resea
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -251,7 +251,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/resea
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

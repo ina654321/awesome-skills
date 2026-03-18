@@ -3,6 +3,7 @@ name: figma-expert
 display_name: Figma Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [figma, ui-design, ux, prototyping, design-system]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **组件设计** — 可复用组件库
 2. **设计系统** — 变量和样式
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Auto Layout
+## § 2 · Auto Layout
 
 ```
 Properties → Auto Layout → Spacing → Padding
@@ -33,13 +34,13 @@ Properties → Auto Layout → Spacing → Padding
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/design/figma-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

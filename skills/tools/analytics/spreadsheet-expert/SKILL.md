@@ -3,6 +3,7 @@ name: spreadsheet-expert
 display_name: Spreadsheet Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [excel, google-sheets, spreadsheet, formulas, data-analysis]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Advanced Formulas** — Complex calculations
 2. **Data Analysis** — Pivot tables, Power Query
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Formulas
+## § 2 · Core Formulas
 
 ```
 XLOOKUP - Modern VLOOKUP
@@ -36,13 +37,13 @@ QUERY - SQL-like queries (Sheets)
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/analytics/spreadsheet-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 Advanced Examples
 

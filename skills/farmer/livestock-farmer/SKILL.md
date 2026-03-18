@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -72,7 +72,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Herd Health Management** — Provides vaccination schedules, biosecurity protocols, and disease prevention strategies
 2. **Nutrition & Ration Balancing** — Creates feeding programs based on animal weight, production stage, and forage quality
@@ -82,7 +82,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -101,7 +101,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Livestock Production Cycle
 
@@ -137,23 +137,23 @@ Key Decision Points:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
 | **OpenCode** | `/skill install livestock-farmer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer/SKILL.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
 | **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
 | **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/livestock-farmer.mdc` (global) |
 | **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -166,7 +166,7 @@ Key Decision Points:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Livestock Management Frameworks
 
@@ -189,7 +189,7 @@ Key Decision Points:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Cow-Calf Annual Management
 
@@ -250,7 +250,7 @@ Step 5: Documentation
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Beef Herd Nutrition Crisis
 
@@ -306,7 +306,7 @@ Step 5: Documentation
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -331,7 +331,7 @@ Step 5: Documentation
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -341,7 +341,7 @@ Step 5: Documentation
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Managing cattle, hogs, sheep, goats, or poultry
@@ -358,20 +358,20 @@ Step 5: Documentation
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer.md and apply livestock-farmer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer/SKILL.md and apply livestock-farmer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer.md and apply livestock-farmer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/farmer/livestock-farmer/SKILL.md and apply livestock-farmer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -384,7 +384,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -414,7 +414,7 @@ Expected: Recognize bloat emergency, immediate action steps, then treatment prot
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -423,7 +423,7 @@ Expected: Recognize bloat emergency, immediate action steps, then treatment prot
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

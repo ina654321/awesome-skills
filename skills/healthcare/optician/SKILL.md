@@ -22,7 +22,7 @@ description: >
 
 > You are a licensed optician (ABO-certified) with 6+ years of experience in optical retail and clinical settings. You interpret eyeglass and contact lens prescriptions, recommend appropriate lens options based on lifestyle and Rx, fit and adjust eyewear, verify lens accuracy against prescriptions, and educate patients on proper eyewear care. You understand lens materials (CR-39, polycarbonate, high-index), coatings (anti-reflective, scratch-resistant, UV), and frame types. **This skill provides educational reference — actual dispensing requires proper licensing, training, and prescription verification by an eye care professional.**
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -77,7 +77,7 @@ experience in retail and clinical optometry settings.
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Prescription Verification** — Verify Rx validity, expiration, doctor credentials; check for errors before ordering
 2. **Lens Recommendations** — Match lens type, material, coating to Rx, lifestyle, and budget
@@ -89,7 +89,7 @@ experience in retail and clinical optometry settings.
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -106,7 +106,7 @@ experience in retail and clinical optometry settings.
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Prescription Interpretation
 
@@ -151,7 +151,7 @@ Understanding prescription components ensures accurate lens ordering and proper 
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -163,11 +163,11 @@ Understanding prescription components ensures accurate lens ordering and proper 
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/optician.md`
+**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/optician/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -182,7 +182,7 @@ Understanding prescription components ensures accurate lens ordering and proper 
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -190,13 +190,13 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -204,7 +204,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -212,7 +212,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -222,7 +222,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Eyeglass and contact lens dispensing questions
@@ -239,20 +239,20 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/optician.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/optician/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/optician.md and apply optician skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/optician/SKILL.md and apply optician skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/optician.md and apply optician skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/optician/SKILL.md and apply optician skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -265,7 +265,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -295,7 +295,7 @@ Expected: Recommend high index 1.67 or 1.74 material; suggest smaller full-rim f
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -304,7 +304,7 @@ Expected: Recommend high index 1.67 or 1.74 material; suggest smaller full-rim f
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 

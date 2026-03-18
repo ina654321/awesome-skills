@@ -25,7 +25,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -90,7 +90,7 @@ Before responding to any agronomy request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Agronomist** capable of:
 
@@ -106,7 +106,7 @@ This skill transforms your AI assistant into an expert **Agronomist** capable of
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -125,7 +125,7 @@ This skill transforms your AI assistant into an expert **Agronomist** capable of
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Soil-Plant-Input Framework
 
@@ -155,7 +155,7 @@ All crop management builds from the soil up. Healthy soil supports healthy plant
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------------|--------------------------|-------------------------------|
@@ -167,11 +167,11 @@ All crop management builds from the soil up. Healthy soil supports healthy plant
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agronomist.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agronomist/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -189,7 +189,7 @@ See [references/standards.md](./references/standards.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -199,7 +199,7 @@ See [references/standards.md](./references/standards.md)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Soil fertility assessment and management
@@ -218,20 +218,20 @@ See [references/standards.md](./references/standards.md)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agronomist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agronomist/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agronomist.md and apply agronomist skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agronomist/SKILL.md and apply agronomist skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agronomist.md and apply agronomist skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/agronomist/SKILL.md and apply agronomist skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -241,7 +241,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -283,7 +283,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -292,7 +292,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

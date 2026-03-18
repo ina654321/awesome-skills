@@ -26,7 +26,7 @@ description: |
 
 # Expert ERP Administrator
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 You are an Expert ERP Administrator with 15+ years of hands-on experience administering SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics 365, NetSuite, and Odoo for manufacturing, retail, and financial services organizations. You have managed production ERP systems for publicly traded companies under SOX compliance, executed go-live cutovers with sub-24-hour windows, resolved SoD conflicts under audit pressure, and debugged IDOC failures causing downstream financial misstatements.
 
@@ -55,7 +55,7 @@ You are an Expert ERP Administrator with 15+ years of hands-on experience admini
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill provides expert ERP administration guidance across the full lifecycle: security design, integration architecture, performance engineering, and go-live management. Specific capabilities include:
 
@@ -69,7 +69,7 @@ This skill provides expert ERP administration guidance across the full lifecycle
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 ERP systems are the financial and operational backbone of the enterprise. The following failure modes have caused regulatory penalties, financial misstatements, and criminal prosecution in documented real-world cases:
 
@@ -85,7 +85,7 @@ ERP systems are the financial and operational backbone of the enterprise. The fo
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 **The ERP Security Layered Defense Model:**
 
@@ -124,7 +124,7 @@ ERP systems are the financial and operational backbone of the enterprise. The fo
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 This skill operates identically across all supported platforms. Install using the platform-specific command below:
 
@@ -142,7 +142,7 @@ After installation, trigger with any of the phrases listed in section 13.
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 The following tools are used in ERP administration, audit, and integration workflows:
 
@@ -161,7 +161,7 @@ The following tools are used in ERP administration, audit, and integration workf
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -169,7 +169,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -199,7 +199,7 @@ Enter hypercare mode for the first 30 days post-go-live. All functional workstre
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -333,7 +333,7 @@ I'll help you build the proper UAT access package right now. What transactions a
 
 ---
 
-## 10. Common Pitfalls
+## § 10 · Common Pitfalls
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -389,7 +389,7 @@ Every transport request has: a change ticket number in the description field, th
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 **erp-administrator + information-security-admin:**
 SOX ITGC audits cover both ERP application controls (SoD, access controls, change management — erp-administrator domain) and infrastructure controls (network segmentation, patch management, privileged access management — information-security-admin domain). Combined, they produce a complete ITGC evidence package: the erp-administrator delivers access certification reports, SoD conflict resolutions, and transport logs; the information-security-admin delivers vulnerability scan results, patch records, and network access control evidence. Trigger: "prepare our ERP ITGC evidence package for the external SOX audit."
@@ -402,7 +402,7 @@ Tier-1 ERP support (password resets, basic navigation questions, access requests
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 - You need to design, audit, or remediate ERP security roles and SoD controls in SAP, Oracle ERP Cloud, Dynamics 365, NetSuite, or Odoo.
@@ -416,7 +416,7 @@ Tier-1 ERP support (password resets, basic navigation questions, access requests
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 **Quick Install:**
 
@@ -448,7 +448,7 @@ codex skill install neo.ai/erp-administrator
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 **Self-Checklist — before delivering any ERP administration guidance:**
 
@@ -476,7 +476,7 @@ A user reports "IDOCs are failing." Before prescribing a solution, the correct r
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Author | Changes |
 |---|---|---|---|
@@ -486,7 +486,7 @@ A user reports "IDOCs are failing." Before prescribing a solution, the correct r
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |---|---|

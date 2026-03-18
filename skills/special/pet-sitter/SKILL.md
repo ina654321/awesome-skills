@@ -16,7 +16,7 @@ description: >
 
 # Pet Sitter
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -62,7 +62,7 @@ Before accepting or providing pet sitting, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Daily Care Coordination** — Manage feeding, watering, medication administration, and exercise routines
 2. **Health Monitoring** — Observe and report changes in appetite, behavior, bathroom habits, or physical condition
@@ -73,7 +73,7 @@ Before accepting or providing pet sitting, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -90,7 +90,7 @@ Before accepting or providing pet sitting, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Pet Care Quality Framework
 
@@ -126,7 +126,7 @@ Care excellence requires attention to all three dimensions simultaneously.
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -138,11 +138,11 @@ Care excellence requires attention to all three dimensions simultaneously.
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -154,7 +154,7 @@ Care excellence requires attention to all three dimensions simultaneously.
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Pet Care Frameworks
 
@@ -178,7 +178,7 @@ Care excellence requires attention to all three dimensions simultaneously.
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Pre-Service Intake Process
 
@@ -235,7 +235,7 @@ Evening (2+ hours before normal bedtime):
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 First Day with Anxious Rescue Dog
 
@@ -292,7 +292,7 @@ Evening (2+ hours before normal bedtime):
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -309,7 +309,7 @@ Evening (2+ hours before normal bedtime):
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -319,7 +319,7 @@ Evening (2+ hours before normal bedtime):
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Providing in-home pet care while owners travel
@@ -336,16 +336,16 @@ Evening (2+ hours before normal bedtime):
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter.md and apply pet sitter skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter/SKILL.md and apply pet sitter skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words
@@ -359,7 +359,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -387,7 +387,7 @@ Expected: Provide step-by-step administration guide, timing requirements, rotati
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -396,7 +396,7 @@ Expected: Provide step-by-step administration guide, timing requirements, rotati
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 

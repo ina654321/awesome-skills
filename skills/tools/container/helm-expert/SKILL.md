@@ -3,6 +3,7 @@ name: helm-expert
 display_name: Helm Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [helm, kubernetes, k8s, package-manager, devops]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Chart开发** — 创建Helm charts
 2. **模板编写** — Go模板语法
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Chart Structure
+## § 2 · Chart Structure
 
 ```
 chart/
@@ -38,13 +39,13 @@ chart/
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/container/helm-expert.md`
 
 ---
 
-## 4. Commands
+## § 4 · Commands
 
 ```bash
 helm create mychart

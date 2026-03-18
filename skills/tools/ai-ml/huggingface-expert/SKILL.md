@@ -3,6 +3,7 @@ name: huggingface-expert
 display_name: Hugging Face Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [huggingface, transformers, nlp, llm, machine-learning]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -31,7 +32,7 @@ Identity:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Model Usage** — Use pretrained transformers
 2. **Fine-tuning** — Fine-tune with LoRA/PEFT
@@ -39,7 +40,7 @@ Identity:
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 Model Selection
 
@@ -57,13 +58,13 @@ Speech → Whisper
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/huggingface-expert.md`
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 Pipeline Usage
 
@@ -107,7 +108,7 @@ model.print_trainable_parameters()
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### 6.1 Custom Classifier
 

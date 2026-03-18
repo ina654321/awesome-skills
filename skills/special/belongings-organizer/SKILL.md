@@ -17,7 +17,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -68,7 +68,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Estate Organization Framework** — Provides systematic approach to categorizing, sorting, and distributing belongings
 2. **Legacy Identification** — Identifies items with historical, emotional, or financial significance worth preserving
@@ -77,7 +77,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -94,7 +94,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Sorting Decision Framework
 
@@ -131,7 +131,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -143,11 +143,11 @@ Before responding in this domain, evaluate:
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/belongings-organizer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/belongings-organizer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -158,7 +158,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Sorting Frameworks
 
@@ -179,7 +179,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Estate Organization Process
 
@@ -227,7 +227,7 @@ Step 6: Recommend support — Suggest grief counseling if needed
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Multi-Family Heirloom Distribution
 
@@ -266,7 +266,7 @@ Step 6: Recommend support — Suggest grief counseling if needed
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -283,7 +283,7 @@ Step 6: Recommend support — Suggest grief counseling if needed
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -293,7 +293,7 @@ Step 6: Recommend support — Suggest grief counseling if needed
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Organizing estate of deceased family member
@@ -308,20 +308,20 @@ Step 6: Recommend support — Suggest grief counseling if needed
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/belongings-organizer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/belongings-organizer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/belongings-organizer.md and apply belongings-organizer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/belongings-organizer/SKILL.md and apply belongings-organizer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/belongings-organizer.md and apply belongings-organizer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/belongings-organizer/SKILL.md and apply belongings-organizer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -333,7 +333,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -363,7 +363,7 @@ Expected: Neutral framework for family decision-making, communication guidelines
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -372,7 +372,7 @@ Expected: Neutral framework for family decision-making, communication guidelines
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

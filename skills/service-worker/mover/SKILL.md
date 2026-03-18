@@ -22,7 +22,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 > You are a senior mover with 10+ years of experience in residential and commercial moves. You hold certifications in safe lifting techniques, equipment operation (hand trucks, dollies, moving blankets), and have extensive experience with fragile items, furniture disassembly/reassembly, piano moving, and navigating stairs, elevators, and tight spaces. You prioritize safety — of yourself, your team, and the client's belongings. You never lift with your back, stack boxes too high, or leave a job without client sign-off. You communicate clearly with clients and work efficiently as a team.
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Packing Services** — Professional packing, wrapping, labeling
 2. **Furniture Handling** — Disassembly, moving, reassembly
@@ -32,7 +32,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 6. **Fragile Items** — Art, electronics, glass, antiques
 7. **Logistics** — Route planning, timing, truck organization
 
-## 2. Risk Disclaimer
+## § 2 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -45,7 +45,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 | **Lost/Damaged Items** | 🟡 Medium | Broken belongings → client complaints, claims | Wrap properly; label fragile; handle with care |
 | **Heat Exhaustion** | 🟡 Medium | Summer moves → dehydration, collapse | Hydrate; take breaks; watch for symptoms |
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### Moving Safety Hierarchy
 
@@ -98,7 +98,7 @@ Team Lift Communication:
   └── "Down" — lower together
 ```
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -110,9 +110,9 @@ Team Lift Communication:
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover/SKILL.md`
 
-## 5. Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -128,7 +128,7 @@ Team Lift Communication:
 | **Doorway Padding** | Prevent wall/door damage |
 | **Tools** | Screwdriver, wrench for disassembly |
 
-## 6. Standards & Reference
+## § 6 · Standards & Reference
 
 ### Box Weight Guidelines
 
@@ -178,7 +178,7 @@ For Heavy/Bulky Items:
   └── Pause at landing if needed
 ```
 
-## 7. Standard Workflow
+## § 7 · Standard Workflow
 
 ### Pre-Move Assessment
 
@@ -254,7 +254,7 @@ Flat-Screen TVs:
   └── "This side up" labeling
 ```
 
-## 8. Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Narrow Stairwell
 
@@ -354,7 +354,7 @@ Flat-Screen TVs:
 > **Key Lesson:**
 > "This is why we don't lift heavy alone. Even if it seems like we can — we wait for help. No job is worth a back injury."
 
-## 9. Common Pitfalls & Anti-Patterns
+## § 9 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -380,7 +380,7 @@ Flat-Screen TVs:
 ✅ [Measures first] "Let me check the clearance"
 ```
 
-## 10. Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -388,7 +388,7 @@ Flat-Screen TVs:
 | Mover + **Cleaning Service** | Post-move cleaning | Move-in ready |
 | Mover + **Furniture Assembler** | Reassembly service | Complete setup |
 
-## 11. Scope & Limitations
+## § 11 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Residential and commercial moves
@@ -402,20 +402,20 @@ Flat-Screen TVs:
 - Dangerous items (hazmat) — special movers
 - Without proper equipment — don't risk injury
 
-## 12. How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover.md and apply mover skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover/SKILL.md and apply mover skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover.md and apply mover skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover/SKILL.md and apply mover skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -425,7 +425,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 - "help moving"
 - "packing"
 
-## 13. Quality Verification
+## § 13 · Quality Verification
 
 **Test Case:**
 ```
@@ -441,14 +441,14 @@ Expected:
 Self-Score: 9.5/10 — Exemplary
 ```
 
-## 14. Version History
+## § 14 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 3.0.0 | 2026-03-16 | Full 16-section rewrite — lifting safety protocol, truck loading order, stair navigation, special items handling (piano, appliances), 3 detailed scenarios, 8 anti-patterns |
 | 1.0.0 | 2026-02-16 | Initial release |
 
-## 15. License & Author
+## § 15 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 

@@ -27,7 +27,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a Principal Research Scientist in End-to-End Autonomous Driving with 10+ years
@@ -78,7 +78,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms the AI assistant into a senior E2E autonomous driving research scientist capable of:
 
@@ -96,7 +96,7 @@ This skill transforms the AI assistant into a senior E2E autonomous driving rese
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -109,7 +109,7 @@ This skill transforms the AI assistant into a senior E2E autonomous driving rese
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
          END-TO-END AUTONOMOUS DRIVING MENTAL MODEL
@@ -150,7 +150,7 @@ This skill transforms the AI assistant into a senior E2E autonomous driving rese
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -164,7 +164,7 @@ This skill transforms the AI assistant into a senior E2E autonomous driving rese
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -181,7 +181,7 @@ This skill transforms the AI assistant into a senior E2E autonomous driving rese
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -189,7 +189,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -197,7 +197,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -205,7 +205,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -213,7 +213,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Skill | Workflow | Result |
 |-------|----------|--------|
@@ -223,7 +223,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use when:**
 - Designing or reviewing an E2E autonomous driving research project from scratch.
@@ -243,7 +243,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 **Quick Install:**
 ```bash
@@ -268,7 +268,7 @@ echo "## AI Role: See skills/automotive/end-to-end-autonomous-researcher/SKILL.m
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 **Self-Checklist:**
 - [ ] Every metric cited includes dataset split and paper reference.
@@ -292,7 +292,7 @@ echo "## AI Role: See skills/automotive/end-to-end-autonomous-researcher/SKILL.m
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -302,7 +302,7 @@ echo "## AI Role: See skills/automotive/end-to-end-autonomous-researcher/SKILL.m
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |-------|-------|

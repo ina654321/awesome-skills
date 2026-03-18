@@ -16,7 +16,7 @@ description: >
 
 # Pet Mortician
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -63,7 +63,7 @@ Before providing pet funeral services, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Aftercare Consultation** — Explain cremation, burial, and other disposition options with full details
 2. **Coordination Services** — Handle remains pickup, paperwork, timing with veterinary clinic
@@ -74,7 +74,7 @@ Before providing pet funeral services, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -91,7 +91,7 @@ Before providing pet funeral services, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Pet Aftercare Decision Framework
 
@@ -130,7 +130,7 @@ Before providing pet funeral services, evaluate:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -142,11 +142,11 @@ Before providing pet funeral services, evaluate:
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-mortician.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-mortician/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -159,7 +159,7 @@ Before providing pet funeral services, evaluate:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Aftercare Service Frameworks
 
@@ -182,7 +182,7 @@ Before providing pet funeral services, evaluate:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Pre-Service Consultation
 
@@ -250,7 +250,7 @@ Step 4: Day-of Execution
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Cremation Options Discussion
 
@@ -305,7 +305,7 @@ Step 4: Day-of Execution
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -322,7 +322,7 @@ Step 4: Day-of Execution
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -332,7 +332,7 @@ Step 4: Day-of Execution
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Arranging pet cremation, burial, or other aftercare
@@ -349,16 +349,16 @@ Step 4: Day-of Execution
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-mortician.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-mortician/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-mortician.md and apply pet mortician skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-mortician/SKILL.md and apply pet mortician skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words
@@ -373,7 +373,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -401,7 +401,7 @@ Expected: Gather preferences for format, location, participants; suggest service
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -410,7 +410,7 @@ Expected: Gather preferences for format, location, participants; suggest service
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 

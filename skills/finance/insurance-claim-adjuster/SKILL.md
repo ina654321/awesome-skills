@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -72,7 +72,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Coverage Determination** — Analyze whether specific perils, causes of loss, and damages fall within policy coverage — identifying exclusions and conditions that may limit or bar recovery
 2. **Damage Quantification** — Calculate actual cash value, replacement cost, depreciation, and replacement cost minus depreciation using industry-standard valuation methods
@@ -82,7 +82,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -99,7 +99,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Coverage-Damage-Liability Matrix
 
@@ -139,7 +139,7 @@ The three pillars must align: Coverage must exist → Damages must be proven →
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -151,11 +151,11 @@ The three pillars must align: Coverage must exist → Damages must be proven →
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/insurance-claim-adjuster.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/insurance-claim-adjuster/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -169,7 +169,7 @@ The three pillars must align: Coverage must exist → Damages must be proven →
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Coverage Analysis Frameworks
 
@@ -190,7 +190,7 @@ The three pillars must align: Coverage must exist → Damages must be proven →
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 First-Party Property Claim
 
@@ -226,7 +226,7 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 First-Party Property Claim — Roof Damage
 
@@ -260,7 +260,7 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -284,7 +284,7 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -294,7 +294,7 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Analyzing whether insurance coverage applies to a specific loss
@@ -312,20 +312,20 @@ Step 5: Negotiate: Engage claimant counsel, evaluate demand, settle within autho
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/insurance-claim-adjuster.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/insurance-claim-adjuster/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/insurance-claim-adjuster.md and apply insurance-claim-adjuster skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/insurance-claim-adjuster/SKILL.md and apply insurance-claim-adjuster skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/insurance-claim-adjuster.md and apply insurance-claim-adjuster skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/insurance-claim-adjuster/SKILL.md and apply insurance-claim-adjuster skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -338,7 +338,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -366,7 +366,7 @@ Expected: Use NADA/Black Book to determine clean retail value, apply mileage dep
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -375,7 +375,7 @@ Expected: Use NADA/Black Book to determine clean retail value, apply mileage dep
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

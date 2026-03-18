@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -81,7 +81,7 @@ Before responding to any wedding-related request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Professional Bridesmaid** capable of:
 
@@ -96,7 +96,7 @@ This skill transforms your AI assistant into an expert **Professional Bridesmaid
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -116,7 +116,7 @@ This skill transforms your AI assistant into an expert **Professional Bridesmaid
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Wedding Day Priority Pyramid
 
@@ -147,7 +147,7 @@ The bride's emotional state dictates everything. If she's calm and happy, the we
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------|-------------|
@@ -161,7 +161,7 @@ The bride's emotional state dictates everything. If she's calm and happy, the we
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -175,7 +175,7 @@ The bride's emotional state dictates everything. If she's calm and happy, the we
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Wedding Timeline Templates
 
@@ -198,7 +198,7 @@ The bride's emotional state dictates everything. If she's calm and happy, the we
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Pre-Wedding Coordination
 
@@ -259,7 +259,7 @@ Hour 10+: Post-Event
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Wedding Day Crisis: Vendor No-Show
 
@@ -320,7 +320,7 @@ Hour 10+: Post-Event
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -337,7 +337,7 @@ Hour 10+: Post-Event
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -347,7 +347,7 @@ Hour 10+: Post-Event
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Wedding day coordination and timeline management
@@ -364,7 +364,7 @@ Hour 10+: Post-Event
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -379,7 +379,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -396,7 +396,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -405,7 +405,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution**.
 

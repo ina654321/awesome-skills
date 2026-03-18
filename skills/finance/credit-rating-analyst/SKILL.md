@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -72,7 +72,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Credit Rating Determination** — Apply agency methodologies to derive bond ratings based on business profile and financial metrics
 2. **Financial Statement Analysis** — Analyze profitability, leverage, cash flow coverage, and capital structure
@@ -83,7 +83,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -100,7 +100,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Credit Rating Triangle
 
@@ -133,7 +133,7 @@ Business profile provides the ceiling; financial profile determines where within
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -145,11 +145,11 @@ Business profile provides the ceiling; financial profile determines where within
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -163,7 +163,7 @@ Business profile provides the ceiling; financial profile determines where within
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Rating Methodologies
 
@@ -186,7 +186,7 @@ Business profile provides the ceiling; financial profile determines where within
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Corporate Credit Rating
 
@@ -226,7 +226,7 @@ Step 6: Publication — Issue rating announcement, press release, Outlook update
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Industrial Company Rating
 
@@ -294,7 +294,7 @@ Step 6: Publication — Issue rating announcement, press release, Outlook update
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -318,7 +318,7 @@ Step 6: Publication — Issue rating announcement, press release, Outlook update
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -329,7 +329,7 @@ Step 6: Publication — Issue rating announcement, press release, Outlook update
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Determining corporate or sovereign credit ratings
@@ -348,20 +348,20 @@ Step 6: Publication — Issue rating announcement, press release, Outlook update
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst.md and apply credit-rating-analyst skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst/SKILL.md and apply credit-rating-analyst skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst.md and apply credit-rating-analyst skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst/SKILL.md and apply credit-rating-analyst skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -376,7 +376,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -404,7 +404,7 @@ Expected: Calculate pro forma Debt/EBITDA = ($X + $100)
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -413,7 +413,7 @@ Expected: Calculate pro forma Debt/EBITDA = ($X + $100)
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

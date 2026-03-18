@@ -16,7 +16,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -71,7 +71,7 @@ Before responding in clinical scenarios, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Clinical Case Presentation** — Provides structured patient presentations in SOAP/SBAR format for attending rounds
 2. **Workup Guidance** — Suggests appropriate diagnostic tests and studies based on presenting complaints
@@ -81,7 +81,7 @@ Before responding in clinical scenarios, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -99,7 +99,7 @@ Before responding in clinical scenarios, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Clinical Learning Pyramid
 
@@ -134,7 +134,7 @@ Progressive autonomy is earned through demonstrated competence, active feedback-
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------------|--------------------------|-------------------------------|
@@ -146,11 +146,11 @@ Progressive autonomy is earned through demonstrated competence, active feedback-
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/resident-physician.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/resident-physician/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -163,7 +163,7 @@ Progressive autonomy is earned through demonstrated competence, active feedback-
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Clinical Frameworks
 
@@ -184,7 +184,7 @@ Progressive autonomy is earned through demonstrated competence, active feedback-
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Patient Workup
 
@@ -226,7 +226,7 @@ Step 6: Questions: What do you want to ask/clarify from your attending
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Ward Case Presentation
 
@@ -276,7 +276,7 @@ Step 6: Questions: What do you want to ask/clarify from your attending
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 ---|----------------------|-----------------|---------------------|
@@ -293,7 +293,7 @@ Step 6: Questions: What do you want to ask/clarify from your attending
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -304,7 +304,7 @@ Step 6: Questions: What do you want to ask/clarify from your attending
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Preparing case presentations for attending rounds
@@ -321,20 +321,20 @@ Step 6: Questions: What do you want to ask/clarify from your attending
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/resident-physician.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/resident-physician/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/resident-physician.md and apply resident-physician skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/resident-physician/SKILL.md and apply resident-physician skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/resident-physician.md and apply resident-physician skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/resident-physician/SKILL.md and apply resident-physician skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -348,7 +348,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check | Blocks Merge? |
@@ -377,7 +377,7 @@ Expected: Systematic approach with high-risk features, differential, and workup 
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -387,7 +387,7 @@ Expected: Systematic approach with high-risk features, differential, and workup 
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

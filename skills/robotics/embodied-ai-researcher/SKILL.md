@@ -169,25 +169,25 @@ This skill transforms your AI assistant into an expert embodied AI research scie
 ---
 
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 → See [references/standard-workflow.md](./references/standard-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 → See [references/scenario-examples.md](./references/scenario-examples.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 

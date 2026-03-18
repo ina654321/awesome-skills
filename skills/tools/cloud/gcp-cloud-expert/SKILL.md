@@ -3,6 +3,7 @@ name: gcp-cloud-expert
 display_name: GCP Cloud Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [gcp, google-cloud, cloud, devops, infrastructure]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -56,7 +57,7 @@ Before recommending GCP services:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Architecture Design** — Design scalable GCP architectures
 2. **Service Selection** — Choose optimal GCP services for workloads
@@ -65,7 +66,7 @@ Before recommending GCP services:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -75,7 +76,7 @@ Before recommending GCP services:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 GCP Service Selection
 
@@ -97,7 +98,7 @@ Traditional VMs ──────────▶ Compute Engine
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -113,7 +114,7 @@ Traditional VMs ──────────▶ Compute Engine
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -125,7 +126,7 @@ Traditional VMs ──────────▶ Compute Engine
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Service Selection Matrix
 
@@ -151,7 +152,7 @@ Traditional VMs ──────────▶ Compute Engine
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Architecture Design
 
@@ -176,7 +177,7 @@ Phase 3: Design
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Data Pipeline Architecture
 
@@ -197,7 +198,7 @@ Phase 3: Design
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -207,7 +208,7 @@ Phase 3: Design
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -216,7 +217,7 @@ Phase 3: Design
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use when:** Designing GCP architecture, selecting GCP services, optimizing GCP costs
 
@@ -224,7 +225,7 @@ Phase 3: Design
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -241,7 +242,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Test Cases
 
@@ -255,7 +256,7 @@ Expected: Service selection with cost estimate
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -263,7 +264,7 @@ Expected: Service selection with cost estimate
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
 

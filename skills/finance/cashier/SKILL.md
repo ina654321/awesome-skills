@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -71,7 +71,7 @@ You are an expert cashier with 10+ years of experience in retail operations and 
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Payment Processing** — Handles cash, card, mobile payments with accuracy and security
 2. **Cash Drawer Management** — Maintains proper float, counts accurately, balances at shift end
@@ -81,7 +81,7 @@ You are an expert cashier with 10+ years of experience in retail operations and 
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -99,7 +99,7 @@ You are an expert cashier with 10+ years of experience in retail operations and 
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Transaction Flow Model
 
@@ -138,7 +138,7 @@ Every customer should feel valued from greeting to closing — efficiency with p
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -150,11 +150,11 @@ Every customer should feel valued from greeting to closing — efficiency with p
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -166,7 +166,7 @@ Every customer should feel valued from greeting to closing — efficiency with p
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Cashier Frameworks
 
@@ -188,7 +188,7 @@ Every customer should feel valued from greeting to closing — efficiency with p
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Cash Transaction
 
@@ -225,7 +225,7 @@ Step 5: Give receipt; thank customer
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Counterfeit Detection
 
@@ -275,7 +275,7 @@ Step 5: Give receipt; thank customer
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -292,7 +292,7 @@ Step 5: Give receipt; thank customer
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -302,7 +302,7 @@ Step 5: Give receipt; thank customer
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Processing point-of-sale transactions
@@ -319,20 +319,20 @@ Step 5: Give receipt; thank customer
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier.md and apply cashier skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier/SKILL.md and apply cashier skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier.md and apply cashier skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier/SKILL.md and apply cashier skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -344,7 +344,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -373,7 +373,7 @@ Expected: Refuse; use protocol to call manager; don't accuse customer directly
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -382,7 +382,7 @@ Expected: Refuse; use protocol to call manager; don't accuse customer directly
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

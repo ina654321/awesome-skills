@@ -3,6 +3,7 @@ name: sketch-expert
 display_name: Sketch Expert Skill
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: design
 tags: [sketch, macos, ui-design, ux-design, vector-graphics]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -65,7 +66,7 @@ Before responding, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Design System Setup** — Create scalable symbol libraries with nested symbols and overrides
 2. **Responsive Component Design** — Build Smart Layout components that adapt to content
@@ -74,7 +75,7 @@ Before responding, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -84,7 +85,7 @@ Before responding, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Component Hierarchy
 
@@ -106,7 +107,7 @@ Build from bottom up: define tokens first, then base components, then composites
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -118,11 +119,11 @@ Build from bottom up: define tokens first, then base components, then composites
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/sketch-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/sketch-expert/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -134,7 +135,7 @@ Build from bottom up: define tokens first, then base components, then composites
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Design System Framework
 
@@ -154,7 +155,7 @@ Build from bottom up: define tokens first, then base components, then composites
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Design System Creation
 
@@ -186,7 +187,7 @@ Step 4: Export assets with consistent naming
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Button Component Design
 
@@ -221,7 +222,7 @@ Step 4: Export assets with consistent naming
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -236,7 +237,7 @@ Step 4: Export assets with consistent naming
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -246,7 +247,7 @@ Step 4: Export assets with consistent naming
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Creating UI components in Sketch.app
@@ -261,11 +262,11 @@ Step 4: Export assets with consistent naming
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/sketch-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/sketch-expert/SKILL.md and install as skill
 ```
 
 ### Trigger Words
@@ -274,7 +275,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/desig
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -287,7 +288,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/desig
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -295,7 +296,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/desig
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

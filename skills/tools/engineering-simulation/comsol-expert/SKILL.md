@@ -3,6 +3,7 @@ name: comsol-expert
 display_name: COMSOL Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [comsol, multiphysics, simulation, fea]

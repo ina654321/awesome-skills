@@ -3,6 +3,7 @@ name: tencentcloud-cloudbase-miniprogram
 display_name: Tencent CloudBase Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [tencent, cloudbase, miniprogram, wechat, serverless]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **小程序开发** — 无需服务器的微信小程序
 2. **云数据库** — JSON数据库
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Services
+## § 2 · Core Services
 
 ```
 CloudBase = 
@@ -37,13 +38,13 @@ CloudBase =
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/tencent/tencentcloud-cloudbase-miniprogram.md`
 
 ---
 
-## 4. Pricing
+## § 4 · Pricing
 
 | 服务 | 价格 |
 |-----|------|

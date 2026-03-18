@@ -3,6 +3,7 @@ name: powerbi-expert
 display_name: Power BI Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [powerbi, bi, dashboards, visualization, dax]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **DAX** — 复杂计算
 2. **建模** — 关系和层次
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. DAX Example
+## § 2 · DAX Example
 
 ```dax
 Total Sales = 
@@ -43,13 +44,13 @@ DIVIDE(
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/analytics/powerbi-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

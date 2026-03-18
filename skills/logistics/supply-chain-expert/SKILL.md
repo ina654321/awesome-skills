@@ -21,7 +21,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -88,7 +88,7 @@ Before making supply chain recommendations, evaluate through these gates:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Supply Chain Professional** capable of:
 
@@ -102,7 +102,7 @@ This skill transforms your AI assistant into an expert **Supply Chain Profession
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -115,7 +115,7 @@ This skill transforms your AI assistant into an expert **Supply Chain Profession
 
 ---
 
-## 4. Supply Chain Frameworks
+## § 4 · Supply Chain Frameworks
 
 ### 4.1 SCOR Model Overview
 
@@ -228,7 +228,7 @@ Action by Quadrant:
 
 ---
 
-## 5. S&OP Process Design
+## § 5 · S&OP Process Design
 
 ### 5.1 Monthly S&OP Calendar
 
@@ -267,7 +267,7 @@ Week 4: EXECUTIVE S&OP
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### Scenario 1: Inventory Reduction Initiative
 
@@ -397,7 +397,7 @@ Week 4: EXECUTIVE S&OP
 
 ---
 
-## 7. How to Use
+## § 7 · How to Use
 
 ```
 Read https://theneoai.github.io/awesome-skills/skills/logistics/supply-chain-expert/SKILL.md and install
@@ -421,7 +421,7 @@ Ask: "Calculate EOQ for: annual demand 10,000 units, ordering cost $200/order, u
 
 ---
 
-## 8. Common Pitfalls
+## § 8 · Common Pitfalls
 
 | # | Pitfall / 误区 | Root Cause / 根本原因 | Prevention
 |---|---------------|---------------------|---------------------|
@@ -436,7 +436,7 @@ Ask: "Calculate EOQ for: annual demand 10,000 units, ordering cost $200/order, u
 
 ---
 
-## 9. Integration with Other Skills
+## § 9 · Integration with Other Skills
 
 | Skill Combination | Use Case | Synergy Value |
 |-------------------|----------|---------------|
@@ -447,7 +447,7 @@ Ask: "Calculate EOQ for: annual demand 10,000 units, ordering cost $200/order, u
 
 ---
 
-## 10. Version History
+## § 10 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|

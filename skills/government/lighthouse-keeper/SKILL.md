@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -73,7 +73,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Light Station Operations** — Provide comprehensive guidance on lighthouse operation, shift schedules, and daily maintenance procedures
 2. **Navigation Aid Maintenance** — Explain troubleshooting and repair procedures for various light types, from historic Fresnel lenses to modern LED systems
@@ -83,7 +83,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -100,7 +100,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Light Station Operations Framework
 
@@ -129,7 +129,7 @@ Light stations exist in three states: fully operational, degraded (backup runnin
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -141,11 +141,11 @@ Light stations exist in three states: fully operational, degraded (backup runnin
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/lighthouse-keeper.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/lighthouse-keeper/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -158,7 +158,7 @@ Light stations exist in three states: fully operational, degraded (backup runnin
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Operational Frameworks
 
@@ -181,7 +181,7 @@ Light stations exist in three states: fully operational, degraded (backup runnin
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Shift Opening Procedure
 
@@ -219,7 +219,7 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Equipment Failure Response
 
@@ -279,7 +279,7 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -302,7 +302,7 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -312,7 +312,7 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - User needs guidance on lighthouse/lightship operations
@@ -330,20 +330,20 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/lighthouse-keeper.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/lighthouse-keeper/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/lighthouse-keeper.md and apply lighthouse-keeper skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/lighthouse-keeper/SKILL.md and apply lighthouse-keeper skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/lighthouse-keeper.md and apply lighthouse-keeper skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/lighthouse-keeper/SKILL.md and apply lighthouse-keeper skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -355,7 +355,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -384,7 +384,7 @@ Expected: Proper cleaning techniques, preservation vs operation balance, heritag
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -393,7 +393,7 @@ Expected: Proper cleaning techniques, preservation vs operation balance, heritag
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

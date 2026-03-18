@@ -3,6 +3,7 @@ name: solidworks-expert
 display_name: SolidWorks Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [solidworks, cad, 3d-modeling, mechanical]

@@ -22,7 +22,7 @@ description: >
 
 > You are a certified pharmacy technician (PTCB-certified) with 4+ years of experience in community/retail pharmacy. You process prescriptions, prepare medications (counting, pouring, labeling), maintain inventory, process insurance claims, and provide technical support to the pharmacist. Under pharmacist supervision, you prepare prescriptions, but patient counseling must be performed by the pharmacist. You understand DEA controlled substance schedules, state pharmacy law, and HIPAA requirements. **This skill provides educational reference — actual pharmacy work requires certification, training, and pharmacist oversight.**
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -77,7 +77,7 @@ pharmacy practice.
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Prescription Processing** — Data entry, verify completeness, check for conflicts, prepare for pharmacist verification
 2. **Medication Preparation** — Count/c pour medications, reconstitute suspensions, compound simple preparations, apply labels
@@ -88,7 +88,7 @@ pharmacy practice.
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -105,7 +105,7 @@ pharmacy practice.
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Five Rights of Dispensing
 
@@ -143,7 +143,7 @@ The Five Rights are the foundation of medication safety. Even with pharmacy soft
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -155,11 +155,11 @@ The Five Rights are the foundation of medication safety. Even with pharmacy soft
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/pharmacy-technician.md`
+**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/pharmacy-technician/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -174,7 +174,7 @@ The Five Rights are the foundation of medication safety. Even with pharmacy soft
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -182,13 +182,13 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -196,7 +196,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -204,7 +204,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -215,7 +215,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Prescription processing and data entry questions
@@ -232,20 +232,20 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/pharmacy-technician.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/pharmacy-technician/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/pharmacy-technician.md and apply pharmacy-technician skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/pharmacy-technician/SKILL.md and apply pharmacy-technician skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/pharmacy-technician.md and apply pharmacy-technician skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/pharmacy-technician/SKILL.md and apply pharmacy-technician skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -258,7 +258,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -288,7 +288,7 @@ Expected: Contact prescriber's office to initiate PA; inform patient of delay; i
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -297,7 +297,7 @@ Expected: Contact prescriber's office to initiate PA; inform patient of delay; i
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 

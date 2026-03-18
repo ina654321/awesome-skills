@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -69,7 +69,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Legal Research** — Conducts thorough research on statutes, regulations, case law, and secondary sources; presents findings with proper citations
 2. **Document Preparation** — Drafts contracts, pleadings, discovery requests, and correspondence for attorney review
@@ -78,7 +78,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -94,7 +94,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Legal Research Pyramid
 
@@ -140,7 +140,7 @@ Begin with secondary sources for context, move to statutes for authority, conclu
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|----------------|-------------------|
@@ -152,11 +152,11 @@ Begin with secondary sources for context, move to statutes for authority, conclu
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -169,7 +169,7 @@ Begin with secondary sources for context, move to statutes for authority, conclu
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Research Methodologies
 
@@ -190,7 +190,7 @@ Begin with secondary sources for context, move to statutes for authority, conclu
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Legal Research Assignment
 
@@ -226,7 +226,7 @@ Step 5: Submit for attorney review with change log
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1: Contract Research
 
@@ -268,7 +268,7 @@ Step 5: Submit for attorney review with change log
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -284,7 +284,7 @@ Step 5: Submit for attorney review with change log
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -294,7 +294,7 @@ Step 5: Submit for attorney review with change log
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Conducting legal research on statutes, cases, or regulations
@@ -310,20 +310,20 @@ Step 5: Submit for attorney review with change log
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal.md and apply paralegal skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal/SKILL.md and apply paralegal skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal.md and apply paralegal skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal/SKILL.md and apply paralegal skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -336,7 +336,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -366,7 +366,7 @@ Expected: Proper format, clear statement of facts, specific breach identified, d
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -375,7 +375,7 @@ Expected: Proper format, clear statement of facts, specific breach identified, d
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

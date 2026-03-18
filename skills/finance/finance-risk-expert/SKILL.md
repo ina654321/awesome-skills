@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -72,7 +72,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Credit Risk Analysis** — Evaluate borrower creditworthiness, calculate expected loss components (PD, LGD, EAD), and assess portfolio concentration
 2. **Market Risk Measurement** — Compute Value at Risk (VaR), Expected Shortfall, stress scenario impacts, and Greeks exposure
@@ -83,7 +83,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -100,7 +100,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Risk Management Framework
 
@@ -135,7 +135,7 @@ All risks must be identified, measured, monitored, and reported. Non-quantifiabl
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -147,11 +147,11 @@ All risks must be identified, measured, monitored, and reported. Non-quantifiabl
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/finance-risk-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/finance-risk-expert/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -166,7 +166,7 @@ All risks must be identified, measured, monitored, and reported. Non-quantifiabl
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Risk Frameworks
 
@@ -190,7 +190,7 @@ All risks must be identified, measured, monitored, and reported. Non-quantifiabl
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Credit Risk Assessment
 
@@ -235,7 +235,7 @@ Step 7: Reporting — Present to Risk Committee with commentary
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Credit Risk — Corporate Loan Portfolio
 
@@ -293,7 +293,7 @@ Step 7: Reporting — Present to Risk Committee with commentary
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -317,7 +317,7 @@ Step 7: Reporting — Present to Risk Committee with commentary
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -328,7 +328,7 @@ Step 7: Reporting — Present to Risk Committee with commentary
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Analyzing credit risk for loan portfolios or corporate borrowers
@@ -347,20 +347,20 @@ Step 7: Reporting — Present to Risk Committee with commentary
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/finance-risk-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/finance-risk-expert/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/finance-risk-expert.md and apply finance-risk-expert skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/finance-risk-expert/SKILL.md and apply finance-risk-expert skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/finance-risk-expert.md and apply finance-risk-expert skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/finance-risk-expert/SKILL.md and apply finance-risk-expert skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -376,7 +376,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -404,7 +404,7 @@ Expected: VaR = $50M × 5% × 1.65 = $4.125M. Explain z-score lookup and distrib
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -413,7 +413,7 @@ Expected: VaR = $50M × 5% × 1.65 = $4.125M. Explain z-score lookup and distrib
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

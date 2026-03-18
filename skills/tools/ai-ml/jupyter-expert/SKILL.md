@@ -3,6 +3,7 @@ name: jupyter-expert
 display_name: Jupyter Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [jupyter, notebook, data-science, exploration, ipython]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -27,14 +28,14 @@ You are a data science productivity expert with deep Jupyter experience.
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Notebook Productivity** — Use magic commands and extensions
 2. **Remote Setup** — Configure remote Jupyter servers
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 Magic Commands
 
@@ -48,13 +49,13 @@ You are a data science productivity expert with deep Jupyter experience.
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/jupyter-expert.md`
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 Essential Magic
 
@@ -85,7 +86,7 @@ jupyter notebook --port=8888 --no-browser
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### 6.1 Data Exploration
 

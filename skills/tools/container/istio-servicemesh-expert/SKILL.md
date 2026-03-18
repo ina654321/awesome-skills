@@ -3,6 +3,7 @@ name: istio-servicemesh-expert
 display_name: Istio Service Mesh Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [istio, servicemesh, kubernetes, networking]

@@ -3,6 +3,7 @@ name: spark-expert
 display_name: Apache Spark Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [spark, big-data, data-engineering, distributed-computing, etl]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -37,7 +38,7 @@ Writing Style:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **ETL Pipelines** — Build efficient data pipelines
 2. **Performance Tuning** — Optimize Spark jobs
@@ -45,7 +46,7 @@ Writing Style:
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 Performance Rules
 
@@ -70,7 +71,7 @@ Writing Style:
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -80,7 +81,7 @@ Writing Style:
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 DataFrame Operations
 
@@ -129,7 +130,7 @@ large_df.join(
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### 6.1 Daily ETL
 
@@ -162,7 +163,7 @@ large_df.join(
 
 ---
 
-## 7. Common Pitfalls
+## § 7 · Common Pitfalls
 
 | # | Issue| Fix|
 |---|------|-----|

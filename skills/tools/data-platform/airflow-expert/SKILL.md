@@ -3,6 +3,7 @@ name: airflow-expert
 display_name: Apache Airflow Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [airflow, workflow-orchestration, etl, data-pipelines, devops]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -32,7 +33,7 @@ Identity:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **DAG Design** — Build efficient, maintainable DAGs
 2. **Task Management** — Implement proper task dependencies
@@ -40,7 +41,7 @@ Identity:
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 DAG Structure
 
@@ -64,13 +65,13 @@ Identity:
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/data-platform/airflow-expert.md`
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 DAG Template
 
@@ -115,7 +116,7 @@ with DAG(
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### 6.1 Data Pipeline
 
@@ -144,7 +145,7 @@ with DAG(
 
 ---
 
-## 7. Common Pitfalls
+## § 7 · Common Pitfalls
 
 | # | Issue| Fix|
 |---|------|-----|

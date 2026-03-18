@@ -3,6 +3,7 @@ name: cn-cloud-selection-advisor
 display_name: CN Cloud Selection Advisor
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [cloud-selection, aliyun, tencent, volcengine, china]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **平台对比** — 三大云优劣势
 2. **场景推荐** — 根据需求推荐
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Platform Comparison
+## § 2 · Platform Comparison
 
 | 维度 | 阿里云 | 腾讯云 | 火山引擎 |
 |------|--------|--------|----------|
@@ -36,13 +37,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/common/cn-cloud-selection-advisor.md`
 
 ---
 
-## 4. Scenario Recommendations
+## § 4 · Scenario Recommendations
 
 | 场景 | 推荐 | 理由 |
 |------|------|------|

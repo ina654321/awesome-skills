@@ -3,6 +3,7 @@ name: tensorflow-expert
 display_name: TensorFlow Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [tensorflow, deep-learning, keras, ml, neural-networks]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **模型构建** — Keras Sequential/API
 2. **训练优化** — 回调和分布训练
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Model Example
+## § 2 · Model Example
 
 ```python
 model = tf.keras.Sequential([
@@ -43,13 +44,13 @@ model.compile(
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/tensorflow-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

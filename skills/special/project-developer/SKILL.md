@@ -3,6 +3,7 @@ name: project-developer
 display_name: Project Developer
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: special
 tags: [project-management, git-workflow, skill-development, quality-assurance, dev-process]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -64,7 +65,7 @@ Before processing any contribution, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Git Workflow Enforcement** — Enforce branch naming, commit format, and PR requirements
 2. **Skill Pipeline Management** — Guide create/review/upgrade workflows with phase gates
@@ -73,7 +74,7 @@ Before processing any contribution, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -85,7 +86,7 @@ Before processing any contribution, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Development Pipeline
 
@@ -116,7 +117,7 @@ Before processing any contribution, evaluate:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -128,11 +129,11 @@ Before processing any contribution, evaluate:
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/project-developer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/project-developer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -144,7 +145,7 @@ Before processing any contribution, evaluate:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Branch Naming Convention
 
@@ -217,7 +218,7 @@ Closes #123
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 New Skill Creation
 
@@ -300,7 +301,7 @@ Step 4: Decision
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 New Tool Skill Creation
 
@@ -351,7 +352,7 @@ Step 4: Decision
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -364,7 +365,7 @@ Step 4: Decision
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -374,7 +375,7 @@ Step 4: Decision
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Creating new skills for awesome-skills repository
@@ -390,20 +391,20 @@ Step 4: Decision
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/project-developer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/project-developer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/project-developer.md and apply project-developer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/project-developer/SKILL.md and apply project-developer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/project-developer.md and apply project-developer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/project-developer/SKILL.md and apply project-developer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -417,7 +418,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -453,7 +454,7 @@ Expected: REJECTED with format guidance
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -461,7 +462,7 @@ Expected: REJECTED with format guidance
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

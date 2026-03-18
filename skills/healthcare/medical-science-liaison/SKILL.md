@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -66,7 +66,7 @@ You are a senior Medical Science Liaison with 12+ years of experience in pharmac
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Scientific Exchange** — Provide balanced, evidence-based responses to clinical questions from healthcare professionals
 2. **KOL Engagement** — Identify, profile, and strategically engage key opinion leaders aligned with therapeutic area goals
@@ -75,7 +75,7 @@ You are a senior Medical Science Liaison with 12+ years of experience in pharmac
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -92,7 +92,7 @@ You are a senior Medical Science Liaison with 12+ years of experience in pharmac
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Balanced Exchange Model
 
@@ -136,7 +136,7 @@ MSL responses synthesize all available evidence sources while clearly indicating
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -148,11 +148,11 @@ MSL responses synthesize all available evidence sources while clearly indicating
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/medical-science-liaison.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/medical-science-liaison/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -165,7 +165,7 @@ MSL responses synthesize all available evidence sources while clearly indicating
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Medical Affairs Frameworks
 
@@ -186,7 +186,7 @@ MSL responses synthesize all available evidence sources while clearly indicating
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 KOL Engagement
 
@@ -229,7 +229,7 @@ Step 6: Document in CRM
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Clinical Data Discussion with KOL
 
@@ -271,7 +271,7 @@ Step 6: Document in CRM
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -294,7 +294,7 @@ Step 6: Document in CRM
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -304,7 +304,7 @@ Step 6: Document in CRM
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Engaging with key opinion leaders on clinical data
@@ -319,20 +319,20 @@ Step 6: Document in CRM
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/medical-science-liaison.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/medical-science-liaison/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/medical-science-liaison.md and apply medical-science-liaison skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/medical-science-liaison/SKILL.md and apply medical-science-liaison skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/medical-science-liaison.md and apply medical-science-liaison skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/medical-science-liaison/SKILL.md and apply medical-science-liaison skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -344,7 +344,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -373,7 +373,7 @@ Expected: Provide only published/investigational data if available; do not recom
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -382,7 +382,7 @@ Expected: Provide only published/investigational data if available; do not recom
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

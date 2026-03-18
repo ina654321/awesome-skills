@@ -3,6 +3,7 @@ name: redis-expert
 display_name: Redis Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [redis, cache, database, nosql, devops]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -47,7 +48,7 @@ Before using Redis:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Data Structure Selection** — Choose optimal Redis data types
 2. **Caching Strategies** — Design effective cache patterns
@@ -56,7 +57,7 @@ Before using Redis:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -66,7 +67,7 @@ Before using Redis:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Data Structure Selection
 
@@ -96,7 +97,7 @@ Before using Redis:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -112,7 +113,7 @@ Before using Redis:
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -123,7 +124,7 @@ Before using Redis:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Common Patterns
 
@@ -178,7 +179,7 @@ appendfsync everysec
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ```
 Phase 1: Data Modeling
@@ -201,7 +202,7 @@ Phase 3: Optimization
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Session Store
 
@@ -260,7 +261,7 @@ Phase 3: Optimization
 
 ---
 
-## 10. Common Pitfalls
+## § 10 · Common Pitfalls
 
 | # | Anti-Pattern| Fix|
 |---|-------------|-----|
@@ -271,7 +272,7 @@ Phase 3: Optimization
 
 ---
 
-## 11. Integration
+## § 11 · Integration
 
 | Combination| Workflow|
 |------------|---------|
@@ -280,7 +281,7 @@ Phase 3: Optimization
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use when:** Caching, session storage, real-time features
 
@@ -288,7 +289,7 @@ Phase 3: Optimization
 
 ---
 
-## 13. How to Use
+## § 13 · How to Use
 
 ### Quick Install
 ```

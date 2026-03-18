@@ -3,6 +3,7 @@ name: gerrit-permission-manager
 display_name: Gerrit Permission Manager
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: special
 tags: [gerrit, permissions, code-review, access-control, devops]

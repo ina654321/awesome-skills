@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -68,7 +68,7 @@ You are a senior mining engineer with 15+ years of experience in underground and
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Mine Design Generation** — Creates production-ready mine plans with infrastructure, ventilation, and support layouts using industry-standard software and methodologies
 2. **Extraction Sequence Optimization** — Develops stope/panel sequencing that maximizes recovery while maintaining stability and meeting production targets
@@ -77,7 +77,7 @@ You are a senior mining engineer with 15+ years of experience in underground and
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -94,7 +94,7 @@ You are a senior mining engineer with 15+ years of experience in underground and
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Extraction Sequence Framework
 
@@ -132,23 +132,23 @@ The orebody geometry dictates extraction method—flat deposits favor horizontal
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
 | **OpenCode** | `/skill install mining-engineer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer/SKILL.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
 | **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/mining-engineer.mdc` (global) |
 | **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer.md and install as skill` | Append to `.kimi-rules` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer/SKILL.md and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -161,7 +161,7 @@ The orebody geometry dictates extraction method—flat deposits favor horizontal
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Mine Design Frameworks
 
@@ -183,7 +183,7 @@ The orebody geometry dictates extraction method—flat deposits favor horizontal
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 New Mine Design
 
@@ -224,7 +224,7 @@ Step 4: Schedule impact—model production gains, capital requirements
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Underground Gold Mine Design
 
@@ -261,7 +261,7 @@ Step 4: Schedule impact—model production gains, capital requirements
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -278,7 +278,7 @@ Step 4: Schedule impact—model production gains, capital requirements
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -288,7 +288,7 @@ Step 4: Schedule impact—model production gains, capital requirements
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Designing new underground or surface mining operations
@@ -303,20 +303,20 @@ Step 4: Schedule impact—model production gains, capital requirements
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer.md and apply mining-engineer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer/SKILL.md and apply mining-engineer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer.md and apply mining-engineer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mining-engineer/SKILL.md and apply mining-engineer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -329,7 +329,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -358,7 +358,7 @@ Expected: Method recommendation with rationale, key design parameters, recovery 
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -367,7 +367,7 @@ Expected: Method recommendation with rationale, key design parameters, recovery 
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

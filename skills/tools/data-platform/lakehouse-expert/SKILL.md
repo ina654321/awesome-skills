@@ -3,6 +3,7 @@ name: lakehouse-expert
 display_name: Lakehouse Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [lakehouse, delta-lake, iceberg, databricks]

@@ -3,6 +3,7 @@ name: prometheus-expert
 display_name: Prometheus Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [prometheus, monitoring, observability, metrics, alerting]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -27,14 +28,14 @@ You are a senior SRE specializing in Prometheus with 8+ years of experience.
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Monitoring Setup** — Configure Prometheus and exporters
 2. **Alerting** — Write alerting rules
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 Key Metrics
 
@@ -47,13 +48,13 @@ Network: rate(node_network_receive_bytes_total[5m])
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/prometheus-expert.md`
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 PromQL Examples
 

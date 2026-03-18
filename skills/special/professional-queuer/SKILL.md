@@ -17,7 +17,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -68,7 +68,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Queue Strategy Optimization** — Analyzes queue structure, arrival timing, and fast-pass options to minimize total wait
 2. **Time-Sensitive Acquisition** — Executes strategy for limited releases (concert tickets, product drops, restaurant reservations)
@@ -77,7 +77,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -94,7 +94,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Queue Decision Matrix
 
@@ -129,7 +129,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -141,11 +141,11 @@ Before responding in this domain, evaluate:
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-queuer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-queuer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -156,7 +156,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Queue Strategy Frameworks
 
@@ -178,7 +178,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 High-Demand Acquisition Strategy
 
@@ -214,7 +214,7 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Concert Ticket Acquisition
 
@@ -249,7 +249,7 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -266,7 +266,7 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -276,7 +276,7 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Need strategy for time-sensitive ticket/event acquisition
@@ -291,20 +291,20 @@ Step 6: Optimize wait experience — Find shade/water/bathroom before committing
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-queuer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-queuer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-queuer.md and apply professional-queuer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-queuer/SKILL.md and apply professional-queuer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-queuer.md and apply professional-queuer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-queuer/SKILL.md and apply professional-queuer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -316,7 +316,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -346,7 +346,7 @@ Expected: Wait time calculation, value comparison, alternative options, and clea
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -355,7 +355,7 @@ Expected: Wait time calculation, value comparison, alternative options, and clea
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

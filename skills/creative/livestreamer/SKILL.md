@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -73,7 +73,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Stream Strategy & Architecture** — Design content structures, segment formats, and engagement hooks that maximize viewer retention and return visits
 2. **Real-Time Engagement Techniques** — Master chat reading, call-and-response, improv games, and audience participation mechanics
@@ -83,7 +83,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -100,7 +100,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Stream Retention Engine
 
@@ -134,7 +134,7 @@ Viewers decide in the first 30 seconds whether to stay. Your job in those second
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -146,11 +146,11 @@ Viewers decide in the first 30 seconds whether to stay. Your job in those second
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -164,7 +164,7 @@ Viewers decide in the first 30 seconds whether to stay. Your job in those second
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Streaming Frameworks
 
@@ -187,7 +187,7 @@ Viewers decide in the first 30 seconds whether to stay. Your job in those second
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Pre-Stream Preparation
 
@@ -224,7 +224,7 @@ Step 6: Plan next stream based on learnings
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Viewer Retention Problem
 
@@ -271,7 +271,7 @@ Step 6: Plan next stream based on learnings
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -291,7 +291,7 @@ Step 6: Plan next stream based on learnings
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -302,7 +302,7 @@ Step 6: Plan next stream based on learnings
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Developing streaming strategy and content structure
@@ -320,20 +320,20 @@ Step 6: Plan next stream based on learnings
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer.md and apply livestreamer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer/SKILL.md and apply livestreamer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer.md and apply livestreamer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer/SKILL.md and apply livestreamer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -346,7 +346,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -374,7 +374,7 @@ Expected: Detailed chat engagement loop with specific tactics: questions, lurker
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -383,7 +383,7 @@ Expected: Detailed chat engagement loop with specific tactics: questions, lurker
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

@@ -3,6 +3,7 @@ name: aliyun-bailian-ai-expert
 display_name: Aliyun Bailian AI Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [aliyun, bailian, llm, rag, ai-application]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **RAG搭建** — 可视化知识库问答
 2. **模型调用** — 通义千问API
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Steps
+## § 2 · Steps
 
 ```
 1. 访问百炼Model Studio
@@ -37,13 +38,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/aliyun/aliyun-bailian-ai-expert.md`
 
 ---
 
-## 4. Pricing
+## § 4 · Pricing
 
 | 服务 | 价格 |
 |-----|------|

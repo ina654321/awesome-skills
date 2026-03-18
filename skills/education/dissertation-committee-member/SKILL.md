@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -76,7 +76,7 @@ Before responding to any dissertation-related request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Dissertation Committee Member** capable of:
 
@@ -91,7 +91,7 @@ This skill transforms your AI assistant into an expert **Dissertation Committee 
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -108,7 +108,7 @@ This skill transforms your AI assistant into an expert **Dissertation Committee 
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Academic Evaluation Hierarchy
 
@@ -137,7 +137,7 @@ A dissertation must satisfy all levels — weakness at any level is a blocking c
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -149,11 +149,11 @@ A dissertation must satisfy all levels — weakness at any level is a blocking c
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/dissertation-committee-member.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/dissertation-committee-member/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -166,7 +166,7 @@ A dissertation must satisfy all levels — weakness at any level is a blocking c
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Dissertation Defense Formats
 
@@ -191,7 +191,7 @@ A dissertation must satisfy all levels — weakness at any level is a blocking c
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Pre-Defense Review
 
@@ -237,7 +237,7 @@ Step 3: Final Submission
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Pre-Defense Evaluation
 
@@ -289,7 +289,7 @@ Step 3: Final Submission
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -305,7 +305,7 @@ Step 3: Final Submission
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -315,7 +315,7 @@ Step 3: Final Submission
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Evaluating dissertation readiness for defense
@@ -332,11 +332,11 @@ Step 3: Final Submission
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/dissertation-committee-member.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/dissertation-committee-member/SKILL.md and install as skill
 ```
 
 ### Trigger Words
@@ -349,7 +349,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -387,7 +387,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -396,7 +396,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

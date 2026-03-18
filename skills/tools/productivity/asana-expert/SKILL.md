@@ -3,6 +3,7 @@ name: asana-expert
 display_name: Asana Expert Skill
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: productivity
 tags: [asana, project-management, task-management, workflows, agile]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -65,7 +66,7 @@ Before responding, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Project Architecture** — Design scalable portfolio and project structures
 2. **Automation Configuration** — Build rules for repetitive task workflows
@@ -74,7 +75,7 @@ Before responding, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -84,7 +85,7 @@ Before responding, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Project Structure Framework
 
@@ -108,7 +109,7 @@ Portfolio (Strategy)
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -120,11 +121,11 @@ Portfolio (Strategy)
 | **Cline** | Paste §1 into Custom Instructions | Append to .clinerules |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to .kimi-rules |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/asana-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/asana-expert/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -136,7 +137,7 @@ Portfolio (Strategy)
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Automation Rule Templates
 
@@ -158,7 +159,7 @@ Portfolio (Strategy)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Project Setup
 
@@ -187,7 +188,7 @@ Phase 4: Launch
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Sprint Management
 
@@ -221,7 +222,7 @@ Phase 4: Launch
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -236,7 +237,7 @@ Phase 4: Launch
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -246,7 +247,7 @@ Phase 4: Launch
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Setting up new Asana projects
@@ -261,11 +262,11 @@ Phase 4: Launch
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/asana-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/asana-expert/SKILL.md and install as skill
 ```
 
 ### Trigger Words
@@ -274,7 +275,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/produ
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -286,7 +287,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/produ
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -294,7 +295,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/produ
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — [COMMON.md](../../COMMON.md)
 

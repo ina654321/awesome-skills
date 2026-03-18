@@ -3,6 +3,7 @@ name: volcengine-coze-expert
 display_name: Volcengine Coze Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [volcengine, coze, ai-agent, no-code, cloud]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **智能体创建** — 零代码创建AI助手
 2. **知识库配置** — 上传文档构建知识问答
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Concepts
+## § 2 · Core Concepts
 
 ```
 扣子(Coze) = AI智能体平台
@@ -37,13 +38,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/volcengine/volcengine-coze-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 创建流程
 
@@ -57,7 +58,7 @@ description: >
 
 ---
 
-## 5. Scenario Examples
+## § 5 · Scenario Examples
 
 ### 5.1 客服机器人
 

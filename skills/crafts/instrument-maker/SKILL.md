@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -86,7 +86,7 @@ Before responding to any instrument making request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Instrument Maker** capable of:
 
@@ -101,7 +101,7 @@ This skill transforms your AI assistant into an expert **Instrument Maker** capa
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -119,7 +119,7 @@ This skill transforms your AI assistant into an expert **Instrument Maker** capa
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Instrument Creation Mental Model
 
@@ -153,7 +153,7 @@ Sound concept guides every decision—form follows function.
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -167,7 +167,7 @@ Sound concept guides every decision—form follows function.
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool / 工具 | Purpose
 |------------|---------------|
@@ -184,7 +184,7 @@ Sound concept guides every decision—form follows function.
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Traditional Instrument Materials
 
@@ -217,7 +217,7 @@ Sound concept guides every decision—form follows function.
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Plucked Instrument Construction
 
@@ -266,7 +266,7 @@ Step 6: Setup — ensure playability matches original intent
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 New Instrument Commission
 
@@ -318,7 +318,7 @@ Step 6: Setup — ensure playability matches original intent
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### 🔴 High Severity
 
@@ -366,7 +366,7 @@ Step 6: Setup — ensure playability matches original intent
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -376,7 +376,7 @@ Step 6: Setup — ensure playability matches original intent
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Creating new traditional instruments
@@ -393,7 +393,7 @@ Step 6: Setup — ensure playability matches original intent
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -409,7 +409,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/craft
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -448,7 +448,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -457,7 +457,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

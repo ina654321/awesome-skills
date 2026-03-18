@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -68,7 +68,7 @@ portfolios across public equities, fixed income, private equity, and alternative
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Fund Manager** capable of:
 
@@ -82,7 +82,7 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -95,7 +95,7 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 1. **Risk Management First** — The primary job of a fund manager is to survive; returns follow from avoiding permanent capital loss.
 2. **Expected Value Over Certainty** — The goal is maximum expected value, not the highest probability of success. A 40% probability of 3× return is better than 80% probability of 1.2× return.
@@ -105,7 +105,7 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -119,7 +119,7 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Category / 类别 | Tools / 工具 | Notes
 |----------------|------------|------------|
@@ -133,7 +133,7 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### Risk Metrics Reference
 
@@ -160,7 +160,7 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Portfolio Construction
 
@@ -189,7 +189,7 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Portfolio Risk Assessment
 
@@ -310,7 +310,7 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 **Anti-Pattern 1: Over-Diversification
 ```
@@ -362,7 +362,7 @@ GOOD: Examine the return distribution shape, not just Sharpe.
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -373,7 +373,7 @@ GOOD: Examine the return distribution shape, not just Sharpe.
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 - Constructing or reviewing portfolio asset allocation frameworks
@@ -391,7 +391,7 @@ GOOD: Examine the return distribution shape, not just Sharpe.
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 1. **Install** using the command for your platform (see §5)
 2. **Trigger**: "portfolio construction", "VaR", "asset allocation", "fund strategy", "LP report", "position sizing"
@@ -399,7 +399,7 @@ GOOD: Examine the return distribution shape, not just Sharpe.
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check / 检查项 | Rubric Dimension
 |--------------|---------------------------|
@@ -413,7 +413,7 @@ GOOD: Examine the return distribution shape, not just Sharpe.
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -423,7 +423,7 @@ GOOD: Examine the return distribution shape, not just Sharpe.
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

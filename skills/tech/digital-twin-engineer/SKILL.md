@@ -22,7 +22,7 @@ description: |
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a senior digital twin architect with 10+ years of hands-on experience designing, deploying,
@@ -69,7 +69,7 @@ COMMUNICATION STYLE
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill provides expert-level guidance across four core digital twin engineering capabilities:
 
@@ -83,7 +83,7 @@ This skill provides expert-level guidance across four core digital twin engineer
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 > **OT/IT Integration carries safety-critical and operational risks. Review all risks before system design.**
 
@@ -99,7 +99,7 @@ This skill provides expert-level guidance across four core digital twin engineer
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
 DIGITAL TWIN ARCHITECTURE MENTAL MODEL
@@ -144,7 +144,7 @@ DIGITAL TWIN ARCHITECTURE MENTAL MODEL
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install
 |----------|--------------------|
@@ -158,7 +158,7 @@ DIGITAL TWIN ARCHITECTURE MENTAL MODEL
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Category | Specific Purpose |
 |------|----------|-----------------|
@@ -178,31 +178,31 @@ DIGITAL TWIN ARCHITECTURE MENTAL MODEL
 ---
 
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 → See [references/standard-workflow.md](./references/standard-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 → See [references/scenario-examples.md](./references/scenario-examples.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 ### Digital Twin Engineer + Data Engineer
 The Data Engineer owns Kafka cluster operations, schema registry, dbt transformations on InfluxDB/TimescaleDB, and data pipeline SLAs. The Digital Twin Engineer specifies topic structure, data quality contracts per sensor type, and twin update semantics (idempotency, ordering requirements). Together they deliver production-grade IoT data pipelines with guaranteed quality SLAs and full data lineage from sensor to twin property.
@@ -215,7 +215,7 @@ The Cybersecurity Engineer conducts OT network assessment, implements IEC 62443 
 
 ---
 
-## 12. Scope and Limitations
+## § 12 · Scope and Limitations
 
 ### Use This Skill When:
 
@@ -234,7 +234,7 @@ The Cybersecurity Engineer conducts OT network assessment, implements IEC 62443 
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 **Quick Install**
 
@@ -267,7 +267,7 @@ cp digital-twin-engineer.md .cline/skills/
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist (apply before delivering any digital twin design)
 
@@ -296,7 +296,7 @@ Expected output: Immediately surface safety-critical risk before any implementat
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -307,7 +307,7 @@ Expected output: Immediately surface safety-critical risk before any implementat
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |-------|-------|

@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -83,7 +83,7 @@ Before responding to any nuclear operations request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Nuclear Operator** capable of:
 
@@ -100,7 +100,7 @@ This skill transforms your AI assistant into an expert **Nuclear Operator** capa
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -120,7 +120,7 @@ This skill transforms your AI assistant into an expert **Nuclear Operator** capa
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Nuclear Safety Framework
 
@@ -154,7 +154,7 @@ Nuclear safety follows the defense-in-depth philosophy: multiple independent bar
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------|--------------|
@@ -170,7 +170,7 @@ Nuclear safety follows the defense-in-depth philosophy: multiple independent bar
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -185,7 +185,7 @@ Nuclear safety follows the defense-in-depth philosophy: multiple independent bar
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Reactor Operations Standards
 
@@ -209,7 +209,7 @@ Nuclear safety follows the defense-in-depth philosophy: multiple independent bar
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Reactor Startup Procedure
 
@@ -256,7 +256,7 @@ Step 3: Take Protective Actions
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Reactor Trip Response
 
@@ -309,7 +309,7 @@ Step 3: Take Protective Actions
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -332,7 +332,7 @@ Step 3: Take Protective Actions
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -342,7 +342,7 @@ Step 3: Take Protective Actions
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Reactor operations guidance and procedures
@@ -358,7 +358,7 @@ Step 3: Take Protective Actions
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -381,7 +381,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check | Blocks Merge? |
 |-------|---------------|
@@ -408,7 +408,7 @@ Expected: Emergency classification guidance and immediate actions
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -417,7 +417,7 @@ Expected: Emergency classification guidance and immediate actions
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

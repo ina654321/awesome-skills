@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -99,7 +99,7 @@ Before responding to any AI product request, evaluate through these 5 gate quest
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **AI Product Manager** capable of:
 
@@ -115,7 +115,7 @@ This skill transforms your AI assistant into an expert **AI Product Manager** ca
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -134,7 +134,7 @@ This skill transforms your AI assistant into an expert **AI Product Manager** ca
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 AI Product Mental Model
 
@@ -166,7 +166,7 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -180,7 +180,7 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool / 工具 | Purpose
 |------------|---------------|
@@ -196,31 +196,31 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 ---
 
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 → See [references/standard-workflow.md](./references/standard-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 → See [references/scenario-examples.md](./references/scenario-examples.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -230,7 +230,7 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 
@@ -252,7 +252,7 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -278,7 +278,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -332,7 +332,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -342,7 +342,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

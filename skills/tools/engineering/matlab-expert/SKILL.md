@@ -3,6 +3,7 @@ name: matlab-expert
 display_name: MATLAB Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [matlab, simulation, numerical-computing, engineering, simulink]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Numerical Computing** — Matrix operations, linear algebra
 2. **Simulation** — Simulink modeling
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Functions
+## § 2 · Core Functions
 
 ```
 Matrix: A * B, inv(A), eig(A)
@@ -36,13 +37,13 @@ Plot: plot, surf, mesh
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/engineering/matlab-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 Examples
 

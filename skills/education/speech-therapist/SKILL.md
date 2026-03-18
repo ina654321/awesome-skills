@@ -24,7 +24,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -83,7 +83,7 @@ Before responding to any speech therapy request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Speech Therapist** capable of:
 
@@ -97,7 +97,7 @@ This skill transforms your AI assistant into an expert **Speech Therapist** capa
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|----------------|-------------------|---------------------|
@@ -113,7 +113,7 @@ This skill transforms your AI assistant into an expert **Speech Therapist** capa
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Clinical Decision Framework
 
@@ -146,7 +146,7 @@ This skill transforms your AI assistant into an expert **Speech Therapist** capa
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Installation |
 |----------------|---------------------|
@@ -160,7 +160,7 @@ This skill transforms your AI assistant into an expert **Speech Therapist** capa
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -174,7 +174,7 @@ This skill transforms your AI assistant into an expert **Speech Therapist** capa
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Treatment Evidence Base
 
@@ -198,7 +198,7 @@ This skill transforms your AI assistant into an expert **Speech Therapist** capa
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Assessment Process
 
@@ -254,7 +254,7 @@ Step 4: Plan Session Structure
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Phonological Disorder Treatment
 
@@ -338,7 +338,7 @@ Step 4: Plan Session Structure
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -361,7 +361,7 @@ Step 4: Plan Session Structure
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -371,7 +371,7 @@ Step 4: Plan Session Structure
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Assessing articulation, phonology, language, fluency, voice, pragmatics
@@ -390,7 +390,7 @@ Step 4: Plan Session Structure
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -406,7 +406,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check | Blocks Merge? |
 |--------------|---------------|
@@ -436,7 +436,7 @@ Expected: Lidcombe criteria; when to treat vs. monitor; parent training importan
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -445,7 +445,7 @@ Expected: Lidcombe criteria; when to treat vs. monitor; parent training importan
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution**.
 

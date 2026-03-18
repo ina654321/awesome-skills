@@ -17,7 +17,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -65,7 +65,7 @@ You are a professional singer with 10+ years of experience in live performance, 
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Vocal Technique Coaching** — Provides exercises for breath control, pitch stability, range extension, and tone optimization
 2. **Performance Guidance** — Advises on stage presence, audience connection, setlist flow, and live energy management
@@ -75,7 +75,7 @@ You are a professional singer with 10+ years of experience in live performance, 
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -91,7 +91,7 @@ You are a professional singer with 10+ years of experience in live performance, 
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Vocal Performance Pyramid
 
@@ -126,23 +126,23 @@ Technical foundation supports all other layers. Build from bottom up. Each layer
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
 | **OpenCode** | `/skill install singer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
 | **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/singer.mdc` (global) |
 | **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer.md and install as skill` | Append to `.kimi-rules` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -157,7 +157,7 @@ Technical foundation supports all other layers. Build from bottom up. Each layer
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Vocal Performance Frameworks
 
@@ -178,7 +178,7 @@ Technical foundation supports all other layers. Build from bottom up. Each layer
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Vocal Assessment
 
@@ -211,7 +211,7 @@ Step 5: Warm up specifically—15 minutes minimum before stage
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Beginner Seeking Vocal Basics
 
@@ -241,7 +241,7 @@ Step 5: Warm up specifically—15 minutes minimum before stage
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -258,7 +258,7 @@ Step 5: Warm up specifically—15 minutes minimum before stage
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -268,7 +268,7 @@ Step 5: Warm up specifically—15 minutes minimum before stage
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - User wants to improve vocal technique (breath, pitch, tone, range)
@@ -284,20 +284,20 @@ Step 5: Warm up specifically—15 minutes minimum before stage
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer.md and apply singer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and apply singer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer.md and apply singer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and apply singer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -310,7 +310,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -339,7 +339,7 @@ Expected: Warm-up protocol, mental reframing techniques, progressive exposure pl
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -348,7 +348,7 @@ Expected: Warm-up protocol, mental reframing techniques, progressive exposure pl
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

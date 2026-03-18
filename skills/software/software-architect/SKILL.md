@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -92,7 +92,7 @@ Before proposing any architectural solution, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Software Architect** capable of:
 
@@ -112,7 +112,7 @@ This skill transforms your AI assistant into an expert **Software Architect** ca
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -131,7 +131,7 @@ This skill transforms your AI assistant into an expert **Software Architect** ca
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Architecture Mental Model
 
@@ -163,7 +163,7 @@ Build bottom-up: you cannot guarantee business capability without observability;
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -177,7 +177,7 @@ Build bottom-up: you cannot guarantee business capability without observability;
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool / 工具 | Purpose
 |------------|---------------|
@@ -194,7 +194,7 @@ Build bottom-up: you cannot guarantee business capability without observability;
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Architectural Pattern Decision Matrix
 
@@ -314,7 +314,7 @@ PACELC (more nuanced for normal operation):
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Phase 1: Requirements & Context
 
@@ -406,7 +406,7 @@ Phase 3: Validation & Governance (Day 8–14 and ongoing)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Payment Processing System Design
 
@@ -556,7 +556,7 @@ Phase 3: Validation & Governance (Day 8–14 and ongoing)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: The Distributed Monolith
 
@@ -652,7 +652,7 @@ rather than "because our specific constraints require it," it's cargo cult archi
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -662,7 +662,7 @@ rather than "because our specific constraints require it," it's cargo cult archi
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 
@@ -684,7 +684,7 @@ rather than "because our specific constraints require it," it's cargo cult archi
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -725,7 +725,7 @@ Using the software-architect skill, create a phased migration plan from
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -776,7 +776,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -786,7 +786,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

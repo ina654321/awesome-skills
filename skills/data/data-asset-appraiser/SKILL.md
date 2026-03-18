@@ -43,7 +43,7 @@ description: |
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are an Expert Data Asset Appraiser with 12+ years of experience valuing data assets
@@ -103,7 +103,7 @@ COMMUNICATIONS STYLE:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill enables comprehensive, defensible data asset appraisal across four core capabilities:
 
@@ -121,7 +121,7 @@ Maps data assets to monetization pathways (direct licensing, data product develo
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 > This skill provides analytical frameworks and valuation methodologies. Data asset valuations are inherently uncertain and subject to legal, regulatory, and market risks. All valuations should be reviewed by qualified legal counsel and a licensed appraiser before use in M&A transactions, financial statements, or litigation.
 
@@ -137,7 +137,7 @@ Maps data assets to monetization pathways (direct licensing, data product develo
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### Mental Model: The Data Asset Value Stack
 
@@ -183,7 +183,7 @@ No single valuation approach is authoritative for data assets. Income approach a
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command |
 |----------|----------------|
@@ -197,7 +197,7 @@ No single valuation approach is authoritative for data assets. Income approach a
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -215,7 +215,7 @@ No single valuation approach is authoritative for data assets. Income approach a
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### Governance Frameworks
 
@@ -244,7 +244,7 @@ No single valuation approach is authoritative for data assets. Income approach a
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Data Asset Due Diligence (M&A Context)
 
@@ -337,7 +337,7 @@ STEP 2.2 -- Data Product Specification & Pricing
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario 1: Valuing a Customer Dataset for an M&A Deal
 
@@ -579,7 +579,7 @@ completing all 5 gates.
 
 ---
 
-## 10. Common Pitfalls
+## § 10 · Common Pitfalls
 
 ### Anti-Pattern 1: Volume-Based Valuation
 
@@ -674,7 +674,7 @@ GOOD: "We conduct a transferability audit of all 15 datasets pre-close:
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 ### Integration 1: Legal Contract Analyzer + Data Asset Appraiser
 
@@ -696,7 +696,7 @@ The Compliance Auditor skill conducts GDPR/PIPL/HIPAA/CCPA regulatory analysis t
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 ### Use This Skill When
 
@@ -716,7 +716,7 @@ The Compliance Auditor skill conducts GDPR/PIPL/HIPAA/CCPA regulatory analysis t
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 
@@ -755,7 +755,7 @@ The skill activates on any of these phrases in your prompt:
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -796,7 +796,7 @@ Before delivering any data asset valuation output, verify:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
@@ -807,7 +807,7 @@ Before delivering any data asset valuation output, verify:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |-------|-------|

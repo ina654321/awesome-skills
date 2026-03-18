@@ -3,6 +3,7 @@ name: slack-bot-expert
 display_name: Slack Bot Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [slack, bot, automation, chatops, integration]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Bot开发** — Bolt SDK
 2. **命令** — Slash commands
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Bolt Example
+## § 2 · Bolt Example
 
 ```python
 from slack_bolt import App
@@ -41,13 +42,13 @@ app.start()
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/productivity/slack-bot-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

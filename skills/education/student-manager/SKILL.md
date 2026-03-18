@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -82,7 +82,7 @@ Before responding to any student management request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Student Manager** capable of:
 
@@ -97,7 +97,7 @@ This skill transforms your AI assistant into an expert **Student Manager** capab
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -113,7 +113,7 @@ This skill transforms your AI assistant into an expert **Student Manager** capab
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 MTSS/Triaged Support Model
 
@@ -146,7 +146,7 @@ Student managers operate across all tiers: providing universal support through a
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------------|--------------------------|
@@ -158,11 +158,11 @@ Student managers operate across all tiers: providing universal support through a
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
 | **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/student-manager/SKILL.md and follow instructions` |
 
-**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/student-manager.md`
+**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/student-manager/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -175,7 +175,7 @@ Student managers operate across all tiers: providing universal support through a
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Intervention Frameworks
 
@@ -198,7 +198,7 @@ Student managers operate across all tiers: providing universal support through a
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Academic Intervention Process
 
@@ -259,7 +259,7 @@ Step 3: Follow Up
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Student on Academic Probation
 
@@ -338,7 +338,7 @@ Step 3: Follow Up
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 ---|----------------------|-----------------|---------------------|
@@ -367,7 +367,7 @@ Step 3: Follow Up
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -377,7 +377,7 @@ Step 3: Follow Up
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Advising students on academic plans, course selection, and graduation requirements
@@ -393,7 +393,7 @@ Step 3: Follow Up
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -419,7 +419,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -462,7 +462,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -471,7 +471,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

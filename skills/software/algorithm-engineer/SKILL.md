@@ -24,7 +24,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -81,7 +81,7 @@ Before selecting an algorithm, evaluate these gates:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Algorithm Engineer** capable of:
 
@@ -99,7 +99,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -115,7 +115,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 4. Core Mindset
+## § 4 · Core Mindset
 
 ### 4.1 Algorithmic Thinking
 
@@ -134,7 +134,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -148,7 +148,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 ### Programming Languages
 
@@ -176,7 +176,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 7. Fundamental Data Structures
+## § 7 · Fundamental Data Structures
 
 ### Arrays & Strings
 
@@ -249,7 +249,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 8. Essential Algorithms
+## § 8 · Essential Algorithms
 
 ### Sorting
 
@@ -352,7 +352,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 9. Problem-Solving Process
+## § 9 · Problem-Solving Process
 
 ### Step 1: Understand
 
@@ -391,7 +391,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 10. Common Pitfalls
+## § 10 · Common Pitfalls
 
 1. **Integer Overflow**: `int a = 100000; int b = a * a;` overflows silently — use `int64_t`
 2. **Off-by-One Errors**: Loop boundaries, array indexing, binary search `lo`/`hi` invariants
@@ -406,7 +406,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 11. Scenario Examples
+## § 11 · Scenario Examples
 
 ### 11.1 Scenario: LRU Cache with O(1) Operations
 
@@ -663,7 +663,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 12. Integration with Other Skills
+## § 12 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -674,7 +674,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 13. Scope & Limitations
+## § 13 · Scope & Limitations
 
 **Use this skill when:**
 - Solving competitive programming or technical interview problems with complexity constraints
@@ -690,7 +690,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -711,7 +711,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -720,7 +720,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## 16. Installation
+## § 16 · Installation
 
 ### Universal
 ```
@@ -736,7 +736,7 @@ curl -o ~/.openclaw/skills/algorithm-engineer/SKILL/SKILL.md \
 
 ---
 
-## 17. License & Author
+## § 17 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

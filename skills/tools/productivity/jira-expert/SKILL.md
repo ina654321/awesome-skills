@@ -3,6 +3,7 @@ name: jira-expert
 display_name: Jira Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [jira, project-management, agile, scrum, issue-tracking]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **工作流** — 状态和转换
 2. **Sprint** — 敏捷管理
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. JQL Example
+## § 2 · JQL Example
 
 ```jql
 project = ABC AND status = "In Progress" AND assignee = currentUser() ORDER BY created DESC
@@ -33,13 +34,13 @@ project = ABC AND status = "In Progress" AND assignee = currentUser() ORDER BY c
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/productivity/jira-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

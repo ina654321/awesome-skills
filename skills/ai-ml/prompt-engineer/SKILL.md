@@ -21,7 +21,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -83,7 +83,7 @@ Before designing any prompt, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Prompt Engineer** capable of:
 
@@ -97,7 +97,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Description / 描述 | Mitigation
 |-------------|-------------------|--------------------|
@@ -109,7 +109,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### Prompt Engineering Principles
 
@@ -126,7 +126,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -140,7 +140,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Category / 类别 | Tools / 工具 | Notes
 |----------------|------------|------------|
@@ -154,7 +154,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### Prompt Quality Metrics
 
@@ -178,7 +178,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Prompt Design & Initial Testing
 
@@ -207,7 +207,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 
@@ -227,7 +227,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Start
 
@@ -247,7 +247,7 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## 4. Prompt Pattern Reference
+## § 4 · Prompt Pattern Reference
 
 ### 4.1 Core Patterns
 
@@ -301,7 +301,7 @@ critically and provide an improved final answer."
 
 ---
 
-## 5. RAG Architecture Patterns
+## § 5 · RAG Architecture Patterns
 
 ### 5.1 Chunking Strategy Decision Matrix
 
@@ -343,7 +343,7 @@ Pattern 3: Compression before injection (for long contexts)
 
 ---
 
-## 6. Evaluation Framework
+## § 6 · Evaluation Framework
 
 ### 6.1 LLM-as-Judge Prompt Template
 
@@ -401,13 +401,13 @@ for case in test_cases:
 
 ---
 
-## 7. Scenario Examples
+## § 7 · Scenario Examples
 
 See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Platform Installation
+## § 8 · Platform Installation
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -415,7 +415,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Quality Verification Checklist
+## § 9 · Quality Verification Checklist
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -423,7 +423,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -431,7 +431,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 11. Version History
+## § 11 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -442,7 +442,7 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## 15. License & Author
+## § 15 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

@@ -3,6 +3,7 @@ name: statistical-analysis-expert
 display_name: SPSS & SAS Expert Skill
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: scientific
 tags: [spss, sas, statistics, data-analysis, statistical-modeling]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -65,7 +66,7 @@ Before responding, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Descriptive Analysis** — Summarize data with appropriate statistics and visualizations
 2. **Hypothesis Testing** — Select and execute correct statistical tests
@@ -74,7 +75,7 @@ Before responding, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -84,7 +85,7 @@ Before responding, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Test Selection Framework
 
@@ -105,7 +106,7 @@ Data Type
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -117,11 +118,11 @@ Data Type
 | **Cline** | Paste §1 into Custom Instructions | Append to .clinerules |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to .kimi-rules |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scientific/statistical-analysis-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scientific/statistical-analysis-expert/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -132,7 +133,7 @@ Data Type
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Common Statistical Tests
 
@@ -157,7 +158,7 @@ Data Type
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Analysis Pipeline
 
@@ -188,7 +189,7 @@ Phase 4: Interpretation
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Comparing Two Groups
 
@@ -230,7 +231,7 @@ Phase 4: Interpretation
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -245,7 +246,7 @@ Phase 4: Interpretation
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -255,7 +256,7 @@ Phase 4: Interpretation
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Academic research analysis
@@ -270,11 +271,11 @@ Phase 4: Interpretation
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scientific/statistical-analysis-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scientific/statistical-analysis-expert/SKILL.md and install as skill
 ```
 
 ### Trigger Words
@@ -282,7 +283,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scien
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -294,7 +295,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scien
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -302,7 +303,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scien
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — [COMMON.md](../../COMMON.md)
 

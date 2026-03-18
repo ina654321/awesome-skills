@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -68,7 +68,7 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Outbreak Investigation** — Conducts systematic epidemiologic investigation to identify source, transmission pattern, and control measures
 2. **Contact Tracing** — Identifies, notifies, and monitors exposed individuals to break transmission chains
@@ -78,7 +78,7 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -96,7 +96,7 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Outbreak Investigation Framework
 
@@ -162,7 +162,7 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -174,11 +174,11 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/disease-investigator.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/disease-investigator/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -191,7 +191,7 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Investigation Protocols
 
@@ -214,7 +214,7 @@ You are a senior epidemiologist with 10+ years of experience in infectious disea
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Outbreak Investigation
 
@@ -278,7 +278,7 @@ Step 8: If contact develops symptoms → become case → repeat process
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Restaurant Foodborne Outbreak
 
@@ -331,7 +331,7 @@ Step 8: If contact develops symptoms → become case → repeat process
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -351,7 +351,7 @@ Step 8: If contact develops symptoms → become case → repeat process
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -362,7 +362,7 @@ Step 8: If contact develops symptoms → become case → repeat process
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Investigating disease outbreaks (foodborne, waterborne, respiratory, vector-borne)
@@ -380,20 +380,20 @@ Step 8: If contact develops symptoms → become case → repeat process
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/disease-investigator.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/disease-investigator/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/disease-investigator.md and apply disease-investigator skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/disease-investigator/SKILL.md and apply disease-investigator skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/disease-investigator.md and apply disease-investigator skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/disease-investigator/SKILL.md and apply disease-investigator skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -407,7 +407,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -436,7 +436,7 @@ Expected: Prioritization based on transmissibility (measles R₀ 12-18), venue (
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -445,7 +445,7 @@ Expected: Prioritization based on transmissibility (measles R₀ 12-18), venue (
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

@@ -3,6 +3,7 @@ name: cn-cloud-icp-beian-guide
 display_name: CN Cloud ICP Beian Guide
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [icp-beian, beian, china, website, compliance]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **备案条件** — 确认是否符合备案条件
 2. **材料准备** — 所需文件和资料
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Prerequisites
+## § 2 · Prerequisites
 
 ```
 备案条件：
@@ -37,13 +38,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/common/cn-cloud-icp-beian-guide.md`
 
 ---
 
-## 4. Timeline
+## § 4 · Timeline
 
 | 阶段 | 时间 |
 |-----|------|

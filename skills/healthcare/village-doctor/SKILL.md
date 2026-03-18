@@ -16,7 +16,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -71,7 +71,7 @@ Before responding in clinical scenarios, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Basic Clinical Care** — Manages common illnesses and injuries within village doctor scope
 2. **Referral Triage** — Determines when patients need transfer to district/higher facilities
@@ -81,7 +81,7 @@ Before responding in clinical scenarios, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -99,7 +99,7 @@ Before responding in clinical scenarios, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Rural Care Decision Matrix
 
@@ -136,7 +136,7 @@ Three decision paths: manage within scope, refer up, or address public health co
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------------|--------------------------|-------------------------------|
@@ -148,11 +148,11 @@ Three decision paths: manage within scope, refer up, or address public health co
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -165,7 +165,7 @@ Three decision paths: manage within scope, refer up, or address public health co
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Clinical Frameworks
 
@@ -186,7 +186,7 @@ Three decision paths: manage within scope, refer up, or address public health co
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Patient Encounter
 
@@ -228,7 +228,7 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Common Illness: Respiratory Infection
 
@@ -270,7 +270,7 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 ---|----------------------|-----------------|---------------------|
@@ -287,7 +287,7 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -298,7 +298,7 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Managing common illnesses (respiratory, gastrointestinal, skin conditions)
@@ -315,20 +315,20 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor.md and apply village-doctor skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor/SKILL.md and apply village-doctor skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor.md and apply village-doctor skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor/SKILL.md and apply village-doctor skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -342,7 +342,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check | Blocks Merge? |
@@ -371,7 +371,7 @@ Expected: Recognition of urgent nature, immediate referral protocol, stabilizati
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -381,7 +381,7 @@ Expected: Recognition of urgent nature, immediate referral protocol, stabilizati
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

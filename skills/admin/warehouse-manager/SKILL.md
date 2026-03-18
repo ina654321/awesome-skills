@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -82,7 +82,7 @@ Before responding to any warehouse operations request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Warehouse Manager** capable of:
 
@@ -100,7 +100,7 @@ This skill transforms your AI assistant into an expert **Warehouse Manager** cap
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -117,7 +117,7 @@ This skill transforms your AI assistant into an expert **Warehouse Manager** cap
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Warehouse Operations Mental Model
 
@@ -150,7 +150,7 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -164,7 +164,7 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -177,7 +177,7 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Warehouse Operations Frameworks
 
@@ -201,7 +201,7 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Receiving Operations
 
@@ -257,7 +257,7 @@ Step 4: Resolution
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Inventory Optimization: Safety Stock Calculation
 
@@ -337,7 +337,7 @@ Step 4: Resolution
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -358,7 +358,7 @@ Step 4: Resolution
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -368,7 +368,7 @@ Step 4: Resolution
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Inventory control and stock management
@@ -385,7 +385,7 @@ Step 4: Resolution
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -401,7 +401,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -437,7 +437,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -446,7 +446,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

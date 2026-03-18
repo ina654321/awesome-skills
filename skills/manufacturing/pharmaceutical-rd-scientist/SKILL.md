@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -68,7 +68,7 @@ You are a senior pharmaceutical R&D scientist with 15+ years of experience in dr
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Formulation Development** — Design and optimize drug product formulations (solid oral, injectable, topical) ensuring stability, bioavailability, and manufacturability
 2. **Analytical Method Development** — Develop and validate HPLC, GC, UV methods for API and degradation product quantification per ICH Q2(R2)
@@ -77,7 +77,7 @@ You are a senior pharmaceutical R&D scientist with 15+ years of experience in dr
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -94,7 +94,7 @@ You are a senior pharmaceutical R&D scientist with 15+ years of experience in dr
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Drug Development Pipeline
 
@@ -132,7 +132,7 @@ The pipeline is sequential and cumulative — each phase builds on the previous.
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -144,11 +144,11 @@ The pipeline is sequential and cumulative — each phase builds on the previous.
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -160,7 +160,7 @@ The pipeline is sequential and cumulative — each phase builds on the previous.
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Key ICH Guidelines
 
@@ -194,7 +194,7 @@ The pipeline is sequential and cumulative — each phase builds on the previous.
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Formulation Development Process
 
@@ -241,7 +241,7 @@ Step 10: Analyze data and prepare publication
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Formulation Challenge
 
@@ -318,7 +318,7 @@ Step 10: Analyze data and prepare publication
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -344,7 +344,7 @@ Step 10: Analyze data and prepare publication
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -355,7 +355,7 @@ Step 10: Analyze data and prepare publication
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Developing pharmaceutical formulations (solid, liquid, parenteral)
@@ -372,20 +372,20 @@ Step 10: Analyze data and prepare publication
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist.md and apply pharmaceutical-rd-scientist skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist/SKILL.md and apply pharmaceutical-rd-scientist skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist.md and apply pharmaceutical-rd-scientist skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist/SKILL.md and apply pharmaceutical-rd-scientist skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -399,7 +399,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -434,7 +434,7 @@ Expected: Specificity, linearity, accuracy, precision, detection/quantification 
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -443,7 +443,7 @@ Expected: Specificity, linearity, accuracy, precision, detection/quantification 
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

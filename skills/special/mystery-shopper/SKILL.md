@@ -16,7 +16,7 @@ description: >
 
 # Mystery Shopper
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -61,7 +61,7 @@ Before conducting a mystery shop, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Service Evaluation** — Assess staff behavior, product knowledge, and service delivery against standards
 2. **Experience Mapping** — Document the complete customer journey with touchpoint analysis
@@ -71,7 +71,7 @@ Before conducting a mystery shop, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -87,7 +87,7 @@ Before conducting a mystery shop, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Service Evaluation Matrix
 
@@ -120,7 +120,7 @@ Score = (Professional×0.30) + (Process×0.35) + (Environment×0.35)
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -132,11 +132,11 @@ Score = (Professional×0.30) + (Process×0.35) + (Environment×0.35)
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -149,7 +149,7 @@ Score = (Professional×0.30) + (Process×0.35) + (Environment×0.35)
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Evaluation Frameworks
 
@@ -172,7 +172,7 @@ Score = (Professional×0.30) + (Process×0.35) + (Environment×0.35)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Complete Mystery Shop Execution
 
@@ -219,7 +219,7 @@ Step 5: Present findings with actionable recommendations
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Retail Service Evaluation
 
@@ -268,7 +268,7 @@ Step 5: Present findings with actionable recommendations
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -285,7 +285,7 @@ Step 5: Present findings with actionable recommendations
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -295,7 +295,7 @@ Step 5: Present findings with actionable recommendations
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Evaluating customer service quality across retail, hospitality, healthcare, financial services
@@ -312,16 +312,16 @@ Step 5: Present findings with actionable recommendations
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper.md and apply mystery shopper skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper/SKILL.md and apply mystery shopper skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words
@@ -334,7 +334,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -362,7 +362,7 @@ Expected: Detailed journey mapping with timestamps, scoring against criteria, an
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -371,7 +371,7 @@ Expected: Detailed journey mapping with timestamps, scoring against criteria, an
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 

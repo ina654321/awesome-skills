@@ -3,6 +3,7 @@ name: pandas-expert
 display_name: Pandas Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [pandas, python, data-analysis, dataframes, etl]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Data Manipulation** — Transform, filter, aggregate
 2. **Performance** — Optimize large datasets
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Operations
+## § 2 · Core Operations
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -43,13 +44,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/analytics/pandas-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 Common Operations
 
@@ -92,7 +93,7 @@ for chunk in pd.read_csv('large.csv', chunksize=10000):
 
 ---
 
-## 5. Scenario Examples
+## § 5 · Scenario Examples
 
 ### 5.1 Data Cleaning
 

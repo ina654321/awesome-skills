@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -78,7 +78,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Wetland Delineation** — Apply USACE routine method or regional supplements to delineate jurisdictional wetlands with field-verified boundaries
 2. **Biological Surveys** — Design and conduct vegetation, wildlife, aquatic, and rare species surveys following agency protocols
@@ -89,7 +89,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -107,7 +107,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Wetland Assessment Framework
 
@@ -150,7 +150,7 @@ The framework applies the three-parameter approach systematically: verify all th
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -162,11 +162,11 @@ The framework applies the three-parameter approach systematically: verify all th
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/environmental/ecologist.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/environmental/ecologist/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -182,7 +182,7 @@ The framework applies the three-parameter approach systematically: verify all th
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Ecological Assessment Frameworks
 
@@ -206,7 +206,7 @@ The framework applies the three-parameter approach systematically: verify all th
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Wetland Delineation Project
 
@@ -252,7 +252,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Wetland Delineation for Development
 
@@ -309,7 +309,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -329,7 +329,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -340,7 +340,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Conducting wetland delineations per USACE Manual
@@ -359,20 +359,20 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/environmental/ecologist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/environmental/ecologist/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/environmental/ecologist.md and apply ecologist expertise." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/environmental/ecologist/SKILL.md and apply ecologist expertise." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/environmental/ecologist.md and apply ecologist expertise." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/environmental/ecologist/SKILL.md and apply ecologist expertise." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -387,7 +387,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -416,7 +416,7 @@ Expected: IPaC review, protocol-level surveys, avoidance/minimization/mitigation
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -426,7 +426,7 @@ Expected: IPaC review, protocol-level surveys, avoidance/minimization/mitigation
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

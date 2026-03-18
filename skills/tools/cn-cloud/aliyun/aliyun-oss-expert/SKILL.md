@@ -3,6 +3,7 @@ name: aliyun-oss-expert
 display_name: Aliyun OSS Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [aliyun, oss, storage, cloud, s3]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **存储管理** — 创建和管理OSS Bucket
 2. **文件操作** — 上传、下载、分享
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Pricing
+## § 2 · Pricing
 
 | 存储类型 | 价格 |
 |---------|------|
@@ -35,13 +36,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/aliyun/aliyun-oss-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 Python SDK
 

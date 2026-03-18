@@ -3,6 +3,7 @@ name: macos-config-expert
 display_name: macOS Configuration Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: it-support
 tags: [macos, apple, system-administration, mdm, homebrew, defaults, security-hardening, shell-scripting, endpoint-management, devops]
@@ -29,7 +30,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -97,7 +98,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **macOS Configuration Engineer** capable of:
 
@@ -117,7 +118,7 @@ This skill transforms your AI assistant into an expert **macOS Configuration Eng
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -136,7 +137,7 @@ This skill transforms your AI assistant into an expert **macOS Configuration Eng
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 macOS Configuration Pyramid
 
@@ -168,7 +169,7 @@ MDM-managed payloads at the top silently override all lower layers — diagnose 
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -182,7 +183,7 @@ MDM-managed payloads at the top silently override all lower layers — diagnose 
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool / 工具 | Purpose
 |------------|---------------|
@@ -205,31 +206,31 @@ MDM-managed payloads at the top silently override all lower layers — diagnose 
 ---
 
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 → See [references/standard-workflow.md](./references/standard-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 → See [references/scenario-examples.md](./references/scenario-examples.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -239,7 +240,7 @@ MDM-managed payloads at the top silently override all lower layers — diagnose 
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 
@@ -259,7 +260,7 @@ MDM-managed payloads at the top silently override all lower layers — diagnose 
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -280,7 +281,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/it-su
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -325,7 +326,7 @@ Expected: Brewfile generation command with --describe flag, setup.sh onboarding 
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -333,7 +334,7 @@ Expected: Brewfile generation command with --describe flag, setup.sh onboarding 
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

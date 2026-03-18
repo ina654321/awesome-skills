@@ -3,6 +3,7 @@ name: ffmpeg-expert
 display_name: FFmpeg Expert Skill
 author: awesome-skills
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: media
 tags: [ffmpeg, video-processing, transcoding, streaming, media-conversion]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -65,7 +66,7 @@ Before responding, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Transcoding** — Convert between video/audio formats with optimal settings
 2. **Stream Extraction** — Extract audio, subtitles, or video streams
@@ -74,7 +75,7 @@ Before responding, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -84,7 +85,7 @@ Before responding, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Quality vs Size
 
@@ -107,7 +108,7 @@ Lowest Size (Preview/Thumbnail)
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -119,11 +120,11 @@ Lowest Size (Preview/Thumbnail)
 | **Cline** | Paste §1 into Custom Instructions | Append to .clinerules |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to .kimi-rules |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/ffmpeg-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/ffmpeg-expert/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -135,7 +136,7 @@ Lowest Size (Preview/Thumbnail)
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Common Encoding Presets
 
@@ -159,7 +160,7 @@ Lowest Size (Preview/Thumbnail)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Basic Transcoding
 
@@ -183,7 +184,7 @@ ffmpeg -i input.mp4 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k outpu
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Convert to Web-Ready MP4
 
@@ -225,7 +226,7 @@ ffmpeg -i input.mp4 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k outpu
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -240,7 +241,7 @@ ffmpeg -i input.mp4 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k outpu
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -250,7 +251,7 @@ ffmpeg -i input.mp4 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k outpu
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Transcoding video/audio formats
@@ -265,11 +266,11 @@ ffmpeg -i input.mp4 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k outpu
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/ffmpeg-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/ffmpeg-expert/SKILL.md and install as skill
 ```
 
 ### Trigger Words
@@ -277,7 +278,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -289,7 +290,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -297,7 +298,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — [COMMON.md](../../COMMON.md)
 

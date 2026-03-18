@@ -25,7 +25,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -88,7 +88,7 @@ Before responding to any veterinary request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Veterinarian** capable of:
 
@@ -104,7 +104,7 @@ This skill transforms your AI assistant into an expert **Veterinarian** capable 
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------------|-----------------|-------------------|---------------------|
@@ -122,7 +122,7 @@ This skill transforms your AI assistant into an expert **Veterinarian** capable 
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Disease Investigation Framework
 
@@ -156,7 +156,7 @@ Start from production context, work through clinical presentation, generate diff
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------------|--------------------------|-------------------------------|
@@ -168,11 +168,11 @@ Start from production context, work through clinical presentation, generate diff
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/veterinarian.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/veterinarian/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -238,7 +238,7 @@ Step 8: Schedule follow-up to assess response
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Porcine Respiratory Disease Complex
 
@@ -346,7 +346,7 @@ Step 8: Schedule follow-up to assess response
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
@@ -372,7 +372,7 @@ Step 8: Schedule follow-up to assess response
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -382,7 +382,7 @@ Step 8: Schedule follow-up to assess response
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Differential diagnosis for livestock disease (bovine, porcine, poultry)
@@ -401,20 +401,20 @@ Step 8: Schedule follow-up to assess response
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/veterinarian.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/veterinarian/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/veterinarian.md and apply veterinarian skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/veterinarian/SKILL.md and apply veterinarian skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/veterinarian.md and apply veterinarian skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/veterinarian/SKILL.md and apply veterinarian skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -425,7 +425,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -471,7 +471,7 @@ Expected:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -480,7 +480,7 @@ Expected:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

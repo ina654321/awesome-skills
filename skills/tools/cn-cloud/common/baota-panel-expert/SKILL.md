@@ -3,6 +3,7 @@ name: baota-panel-expert
 display_name: Baota Panel Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [baota, panel, linux, server-management, website]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **服务器管理** — 可视化Linux管理
 2. **网站部署** — 一键建站
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Installation
+## § 2 · Installation
 
 ```bash
 # CentOS
@@ -37,13 +38,13 @@ wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo b
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/common/baota-panel-expert.md`
 
 ---
 
-## 4. Common Tasks
+## § 4 · Common Tasks
 
 | 功能 | 操作路径 |
 |------|----------|

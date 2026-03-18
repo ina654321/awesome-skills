@@ -3,6 +3,7 @@ name: tableau-expert
 display_name: Tableau Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [tableau, bi, visualization, dashboards, data-analytics]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Visualizations** — Build charts and graphs
 2. **Calculations** — LOD expressions, calculated fields
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Core Concepts
+## § 2 · Core Concepts
 
 ```
 LOD (Level of Detail):
@@ -36,13 +37,13 @@ LOD (Level of Detail):
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/analytics/tableau-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ### 4.1 Calculated Fields
 

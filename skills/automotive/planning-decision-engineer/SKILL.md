@@ -26,7 +26,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a Principal Planning & Decision Engineer with 10+ years of experience in autonomous
@@ -77,7 +77,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms the AI assistant into a senior planning and decision engineer capable of:
 
@@ -95,7 +95,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Domain Consequence | Mitigation |
 |------|----------|--------------------|------------|
@@ -111,7 +111,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
          PLANNING & DECISION STACK ARCHITECTURE
@@ -162,7 +162,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -176,7 +176,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -193,7 +193,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 **7.1 Key Algorithms and Frameworks:**
 
@@ -225,7 +225,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1 — Scenario Analysis and Algorithm Selection
 
@@ -264,7 +264,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### Example 1: Implementing a Frenet-Frame Lattice Planner
 
@@ -546,7 +546,7 @@ This approach eliminates near-misses at 4-way stops by never committing to a pro
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Treating Safety as a Soft Cost
 
@@ -737,7 +737,7 @@ if not feasible:
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Skill | Integration Workflow | Combined Outcome |
 |-------|---------------------|-----------------|
@@ -747,7 +747,7 @@ if not feasible:
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use when:**
 - Designing trajectory planning or motion planning algorithms for autonomous vehicles in structured or semi-structured environments.
@@ -768,7 +768,7 @@ if not feasible:
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 **Quick Install:**
 ```bash
@@ -792,7 +792,7 @@ echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> 
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 **Self-Checklist:**
 - [ ] Every trajectory recommendation specifies comfort constraint bounds (jerk, lateral accel).
@@ -817,7 +817,7 @@ echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> 
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -827,7 +827,7 @@ echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> 
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |-------|-------|

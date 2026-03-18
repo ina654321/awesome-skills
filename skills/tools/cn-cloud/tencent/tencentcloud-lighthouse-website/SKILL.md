@@ -3,6 +3,7 @@ name: tencentcloud-lighthouse-website
 display_name: Tencent Lighthouse Website Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [tencent, lighthouse, website, cloud, beginner]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **服务器购买** — 轻量应用服务器
 2. **环境配置** — 宝塔面板安装
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Steps
+## § 2 · Steps
 
 ```
 1. 购买轻量应用服务器
@@ -37,13 +38,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/tencent/tencentcloud-lighthouse-website.md`
 
 ---
 
-## 4. Pricing
+## § 4 · Pricing
 
 | 配置 | 价格 |
 |-----|------|

@@ -3,6 +3,7 @@ name: kafka-expert
 display_name: Apache Kafka Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [kafka, streaming, data-engineering, event-streaming, devops]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -45,7 +46,7 @@ Writing Style:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Topic Design** — Design optimal topics and partitions
 2. **Producer/Consumer** — Implement reliable producers/consumers
@@ -54,7 +55,7 @@ Writing Style:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Mitigation|
 |------|----------|-----------|
@@ -63,7 +64,7 @@ Writing Style:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Topic Design
 
@@ -74,7 +75,7 @@ Retention = consumer_lag_tolerance * production_rate
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -84,7 +85,7 @@ Retention = consumer_lag_tolerance * production_rate
 
 ---
 
-## 6. Standards & Reference
+## § 6 · Standards & Reference
 
 ### 6.1 Producer Config
 
@@ -125,7 +126,7 @@ for message in consumer:
 
 ---
 
-## 7. Scenario Examples
+## § 7 · Scenario Examples
 
 ### 7.1 E-commerce Events
 
@@ -143,7 +144,7 @@ for message in consumer:
 
 ---
 
-## 8. Common Pitfalls
+## § 8 · Common Pitfalls
 
 | # | Issue| Fix|
 |---|------|-----|

@@ -3,6 +3,7 @@ name: wandb-expert
 display_name: Weights & Biases Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [wandb, ml-experiment, tracking, logging, hyperparameters]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **追踪** — 实验记录
 2. **搜索** — 超参优化
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Example
+## § 2 · Example
 
 ```python
 import wandb
@@ -36,7 +37,7 @@ wandb.log({"loss": 0.5, "accuracy": 0.9})
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/wandb-expert.md`
 
@@ -44,6 +45,6 @@ wandb.log({"loss": 0.5, "accuracy": 0.9})
 
 ---
 
-## 4. Metadata
+## § 4 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)

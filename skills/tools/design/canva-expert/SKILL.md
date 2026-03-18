@@ -3,6 +3,7 @@ name: canva-expert
 display_name: Canva Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: beginner
 category: tools
 tags: [canva, design, templates, social-media]

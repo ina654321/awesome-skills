@@ -3,6 +3,7 @@ name: nmap-expert
 display_name: Nmap Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [nmap, network-scanning, security, reconnaissance]

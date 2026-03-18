@@ -3,6 +3,7 @@ name: tencentcloud-cos-expert
 display_name: Tencent COS Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [tencent, cos, storage, cloud, object-storage]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **存储管理** — COS Bucket操作
 2. **权限配置** — 公有/私有访问
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Pricing
+## § 2 · Pricing
 
 | 类型 | 价格 |
 |-----|------|
@@ -34,13 +35,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/tencent/tencentcloud-cos-expert.md`
 
 ---
 
-## 4. Standards & Reference
+## § 4 · Standards & Reference
 
 ```python
 from qcloud_cos import CosConfig

@@ -3,6 +3,7 @@ name: mongodb-expert
 display_name: MongoDB Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [mongodb, nosql, database, aggregation]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **文档设计** — 模式设计原则
 2. **聚合管道** — 复杂查询
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Aggregation Pipeline
+## § 2 · Aggregation Pipeline
 
 ```javascript
 db.orders.aggregate([
@@ -37,13 +38,13 @@ db.orders.aggregate([
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/database/mongodb-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

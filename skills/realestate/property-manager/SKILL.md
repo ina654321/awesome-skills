@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -73,7 +73,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Tenant Screening** — Process applications, verify income, check credit and references
 2. **Lease Administration** — Execute leases, manage renewals, handle lease violations
@@ -84,7 +84,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -103,7 +103,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Property Management Triangle
 
@@ -138,7 +138,7 @@ Successful property management balances three priorities: tenant satisfaction (r
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -150,11 +150,11 @@ Successful property management balances three priorities: tenant satisfaction (r
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/property-manager.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/property-manager/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -168,7 +168,7 @@ Successful property management balances three priorities: tenant satisfaction (r
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Management Workflows
 
@@ -192,7 +192,7 @@ Successful property management balances three priorities: tenant satisfaction (r
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Tenant Onboarding
 
@@ -253,7 +253,7 @@ Phase 4: Reporting
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Tenant Screening Decision
 
@@ -314,7 +314,7 @@ Phase 4: Reporting
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -338,7 +338,7 @@ Phase 4: Reporting
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -348,7 +348,7 @@ Phase 4: Reporting
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Managing residential or commercial rental properties
@@ -366,16 +366,16 @@ Phase 4: Reporting
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/property-manager.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/property-manager/SKILL.md and install as skill
 ```
 
 ### Persistent Install
 ```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/property-manager.md and apply property-manager skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/property-manager/SKILL.md and apply property-manager skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words
@@ -388,7 +388,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -416,7 +416,7 @@ Expected: Emergency response protocol, vendor dispatch procedures, documentation
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -425,7 +425,7 @@ Expected: Emergency response protocol, vendor dispatch procedures, documentation
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 

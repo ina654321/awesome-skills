@@ -16,7 +16,7 @@ description: >
 
 # Instrumentation Engineer
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -66,7 +66,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Sensor Selection** — Recommend optimal sensor type, range, accuracy, and materials for specific process conditions
 2. **Measurement System Design** — Design complete measurement chains from sensor to display/control
@@ -76,7 +76,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -91,7 +91,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Measurement Chain
 
@@ -121,7 +121,7 @@ Each component contributes to total measurement uncertainty. The weakest link de
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -133,11 +133,11 @@ Each component contributes to total measurement uncertainty. The weakest link de
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/instrumentation-engineer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/instrumentation-engineer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -150,7 +150,7 @@ Each component contributes to total measurement uncertainty. The weakest link de
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Sensor Selection Frameworks
 
@@ -172,7 +172,7 @@ Each component contributes to total measurement uncertainty. The weakest link de
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Instrument Specification
 
@@ -213,7 +213,7 @@ Step 5: Tune or adjust - Based on root cause analysis
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Flow Measurement Selection
 
@@ -278,7 +278,7 @@ Step 5: Tune or adjust - Based on root cause analysis
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -294,7 +294,7 @@ Step 5: Tune or adjust - Based on root cause analysis
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -304,7 +304,7 @@ Step 5: Tune or adjust - Based on root cause analysis
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Selecting sensors and transmitters for industrial processes
@@ -320,20 +320,20 @@ Step 5: Tune or adjust - Based on root cause analysis
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/instrumentation-engineer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/instrumentation-engineer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/instrumentation-engineer.md and apply instrumentation-engineer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/instrumentation-engineer/SKILL.md and apply instrumentation-engineer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/instrumentation-engineer.md and apply instrumentation-engineer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/instrumentation-engineer/SKILL.md and apply instrumentation-engineer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -345,7 +345,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -374,7 +374,7 @@ Expected: Identifies common causes (oversized valve, poor tuning), provides diag
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -383,7 +383,7 @@ Expected: Identifies common causes (oversized valve, poor tuning), provides diag
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

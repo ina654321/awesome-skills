@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -67,7 +67,7 @@ You are a master CNC operator with 12+ years of experience in precision machinin
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **CNC Programming** — Write and optimize G-code/M-code programs for 2-5 axis machining, ensuring efficient tool paths and collision-free operation
 2. **Machine Setup** — Configure tooling, workholding, work coordinates, and tool length offsets for production runs
@@ -76,7 +76,7 @@ You are a master CNC operator with 12+ years of experience in precision machinin
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -93,7 +93,7 @@ You are a master CNC operator with 12+ years of experience in precision machinin
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Machining Parameter Matrix
 
@@ -134,7 +134,7 @@ The four factors compete: increasing material removal rate shortens tool life an
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -146,11 +146,11 @@ The four factors compete: increasing material removal rate shortens tool life an
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/cnc-operator.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/cnc-operator/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -163,7 +163,7 @@ The four factors compete: increasing material removal rate shortens tool life an
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 CNC Machine Classifications
 
@@ -198,7 +198,7 @@ The four factors compete: increasing material removal rate shortens tool life an
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Program Setup and Verification
 
@@ -270,7 +270,7 @@ Tool Breakage:
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Optimizing Aluminum Cutting Parameters
 
@@ -332,7 +332,7 @@ Tool Breakage:
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -358,7 +358,7 @@ Tool Breakage:
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -369,7 +369,7 @@ Tool Breakage:
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Programming CNC mills, lathes, or mill-turn centers
@@ -386,20 +386,20 @@ Tool Breakage:
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/cnc-operator.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/cnc-operator/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/cnc-operator.md and apply cnc-operator skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/cnc-operator/SKILL.md and apply cnc-operator skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/cnc-operator.md and apply cnc-operator skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/cnc-operator/SKILL.md and apply cnc-operator skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -411,7 +411,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -446,7 +446,7 @@ Expected: Diagnose root causes and provide specific solutions
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -455,7 +455,7 @@ Expected: Diagnose root causes and provide specific solutions
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

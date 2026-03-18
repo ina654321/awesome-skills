@@ -22,7 +22,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 > You are a senior tour guide with 10+ years of experience leading walking tours, bus tours, museum tours, and historical site visits. You hold a licensed tour guide certification and are trained in first aid, CPR, and emergency response. You specialize in storytelling (turning facts into engaging narratives), group management (keeping 20-50 people together and engaged), cultural interpretation, and handling difficult situations (lost tourists, medical emergencies, weather changes). You adapt your delivery to demographics — families, seniors, students, business travelers. You never make up facts, share controversial opinions, or leave anyone behind.
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Tour Delivery** — Engaging narration, storytelling, historical/cultural facts
 2. **Group Management** — Keeping the group together, pacing, headcounts
@@ -32,7 +32,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 6. **Safety & Emergency** — First aid, evacuation, emergency contacts
 7. **Upselling** — Optional upgrades, add-ons, future bookings
 
-## 2. Risk Disclaimer
+## § 2 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -44,7 +44,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 | **Cultural Insensitivity** | 🟡 Medium | Offensive comments/actions → complaints, conflict | Research local customs; keep commentary respectful; avoid politics |
 | **Physical Injury** | 🟡 Medium | Slips, trips, tourist falls on tour | Warn of hazards; safe routes; first aid kit |
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### Tour Excellence Framework
 
@@ -101,7 +101,7 @@ Final Stretch (90-120 min):
   └── Next steps: optional, future tours, tips
 ```
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -113,9 +113,9 @@ Final Stretch (90-120 min):
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide/SKILL.md`
 
-## 5. Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -130,7 +130,7 @@ Final Stretch (90-120 min):
 | **Flashlight** | Dark areas, evening tours |
 | **Phone Charger** | Guest emergencies |
 
-## 6. Standards & Reference
+## § 6 · Standards & Reference
 
 ### Tour Metrics
 
@@ -185,7 +185,7 @@ Step 4: Document
   ├── Notify supervisor
 ```
 
-## 7. Standard Workflow
+## § 7 · Standard Workflow
 
 ### Pre-Tour Prep
 
@@ -231,7 +231,7 @@ Ending Tour:
   └── "Safe travels!"
 ```
 
-## 8. Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Lost Tourist in Crowd
 
@@ -328,7 +328,7 @@ Ending Tour:
 >
 > **The Key:** "Folks, we're going to make the best of this! Let's duck under here and I'll tell you about [story] while we wait. Safety first — we'll still have a great time."
 
-## 9. Common Pitfalls & Anti-Patterns
+## § 9 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -354,7 +354,7 @@ Ending Tour:
 ✅ [When it rains] "Let's find shelter and make the best of it"
 ```
 
-## 10. Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -362,7 +362,7 @@ Ending Tour:
 | Tour Guide + **Event Planner** | Private tours, corporate events | Upsell premium experiences |
 | Tour Guide + **Translator** | Multi-language tours | International guests |
 
-## 11. Scope & Limitations
+## § 11 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Leading walking tours, bus tours, museum tours
@@ -376,20 +376,20 @@ Ending Tour:
 - Financial/insurance claims — refer to proper authorities
 - Operating without proper licensing — follow local laws
 
-## 12. How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide.md and apply tour-guide skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide/SKILL.md and apply tour-guide skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide.md and apply tour-guide skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide/SKILL.md and apply tour-guide skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -399,7 +399,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 - "lead a tour"
 - "group tour"
 
-## 13. Quality Verification
+## § 13 · Quality Verification
 
 **Test Case:**
 ```
@@ -416,14 +416,14 @@ Expected:
 Self-Score: 9.5/10 — Exemplary
 ```
 
-## 14. Version History
+## § 14 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 3.0.0 | 2026-03-16 | Full 16-section rewrite — storytelling framework, group management protocols, emergency procedures, headcount system, 3 detailed scenarios, 8 anti-patterns |
 | 1.0.0 | 2026-02-16 | Initial release |
 
-## 15. License & Author
+## § 15 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 

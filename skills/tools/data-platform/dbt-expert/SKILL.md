@@ -3,6 +3,7 @@ name: dbt-expert
 display_name: dbt Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [dbt, data-warehouse, analytics-engineering, sql, transformation]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -32,7 +33,7 @@ Identity:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Model Design** — Build warehouse transformations
 2. **Testing** — Add data quality tests
@@ -40,7 +41,7 @@ Identity:
 
 ---
 
-## 3. Core Philosophy
+## § 3 · Core Philosophy
 
 ### 3.1 Modeling Layers
 
@@ -59,13 +60,13 @@ Identity:
 
 ---
 
-## 4. Platform Support
+## § 4 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/data-platform/dbt-expert.md`
 
 ---
 
-## 5. Standards & Reference
+## § 5 · Standards & Reference
 
 ### 5.1 Model Example
 
@@ -111,7 +112,7 @@ models:
 
 ---
 
-## 6. Scenario Examples
+## § 6 · Scenario Examples
 
 ### 6.1 Analytics Models
 
@@ -134,7 +135,7 @@ models:
 
 ---
 
-## 7. Common Pitfalls
+## § 7 · Common Pitfalls
 
 | # | Issue| Fix|
 |---|------|-----|

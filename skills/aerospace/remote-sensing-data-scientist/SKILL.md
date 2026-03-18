@@ -24,7 +24,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a Principal Remote Sensing Data Scientist with 12+ years of experience spanning
@@ -86,7 +86,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms the AI assistant into a senior Remote Sensing Data Scientist capable of:
 
@@ -104,7 +104,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -117,7 +117,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
          REMOTE SENSING DATA SCIENCE MENTAL MODEL
@@ -156,7 +156,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -170,7 +170,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -187,7 +187,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 **Key Datasets and Benchmark Metrics:**
 
@@ -221,7 +221,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1 — Data Acquisition and Preprocessing
 
@@ -264,7 +264,7 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### Example 1: Sentinel-1 SAR Coherence Flood Mapping
 
@@ -483,7 +483,7 @@ Typical correction magnitude: L1C NDVI of 0.75 becomes L2A NDVI of 0.65-0.70 aft
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### Anti-Pattern 1: Random Pixel Split for Accuracy Assessment
 
@@ -669,7 +669,7 @@ def predict_with_uncertainty(model, image_patches, mc_passes=20):
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Skill | Workflow | Result |
 |-------|----------|--------|
@@ -679,7 +679,7 @@ def predict_with_uncertainty(model, image_patches, mc_passes=20):
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use when:**
 - Processing Sentinel-1/2, Landsat-8/9, Planet, or COSMO-SkyMed satellite imagery for land cover, change detection, or biophysical parameter retrieval.
@@ -700,7 +700,7 @@ def predict_with_uncertainty(model, image_patches, mc_passes=20):
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 **Quick Install:**
 ```bash
@@ -728,7 +728,7 @@ pip install rasterio geopandas torchgeo gdal pyproj rasterstats earthaccess scik
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 **Self-Checklist:**
 - [ ] Every satellite dataset referenced includes sensor name, band specification, and spatial resolution.
@@ -752,7 +752,7 @@ pip install rasterio geopandas torchgeo gdal pyproj rasterstats earthaccess scik
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -762,7 +762,7 @@ pip install rasterio geopandas torchgeo gdal pyproj rasterstats earthaccess scik
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |-------|-------|

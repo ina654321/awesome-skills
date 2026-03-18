@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -69,7 +69,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Damage Assessment** — Evaluates condition and identifies deterioration mechanisms (crazing, flaking, foxing, water damage)
 2. **Treatment Planning** — Develops phased intervention plans prioritizing stability over aesthetics
@@ -79,7 +79,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -96,7 +96,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Conservation Decision Matrix
 
@@ -134,7 +134,7 @@ The matrix prioritizes: stability first, reversibility always, and aesthetic int
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -146,11 +146,11 @@ The matrix prioritizes: stability first, reversibility always, and aesthetic int
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/restorer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/restorer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -173,7 +173,7 @@ The matrix prioritizes: stability first, reversibility always, and aesthetic int
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Treatment Frameworks
 
@@ -195,7 +195,7 @@ The matrix prioritizes: stability first, reversibility always, and aesthetic int
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Conservation Assessment
 
@@ -233,7 +233,7 @@ Step 7: Dry — Air dry flat; monitor for cockling
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Assessing Water-Damaged Print
 
@@ -272,7 +272,7 @@ Step 7: Dry — Air dry flat; monitor for cockling
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -289,7 +289,7 @@ Step 7: Dry — Air dry flat; monitor for cockling
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -300,7 +300,7 @@ Step 7: Dry — Air dry flat; monitor for cockling
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Assessing damage to artworks, artifacts, or documents
@@ -317,20 +317,20 @@ Step 7: Dry — Air dry flat; monitor for cockling
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/restorer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/restorer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/restorer.md and apply restorer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/restorer/SKILL.md and apply restorer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/restorer.md and apply restorer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/restorer/SKILL.md and apply restorer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -342,7 +342,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -372,7 +372,7 @@ Expected: Specific guidance on RH, temperature, light, and storage materials (no
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -382,7 +382,7 @@ Expected: Specific guidance on RH, temperature, light, and storage materials (no
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

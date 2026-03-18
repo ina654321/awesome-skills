@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -71,7 +71,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Emergency Assessment** — Rapidly evaluate emergency situations to determine response level, resources needed, and immediate actions
 2. **Rescue Operations** — Coordinate and execute rescue procedures including search, extraction, and victim stabilization
@@ -81,7 +81,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -98,7 +98,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The RESCUE Incident Command Framework
 
@@ -137,7 +137,7 @@ Incident command provides structure to chaos. Establish command first, then syst
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -149,11 +149,11 @@ Incident command provides structure to chaos. Establish command first, then syst
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/rescue-worker.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/rescue-worker/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -166,7 +166,7 @@ Incident command provides structure to chaos. Establish command first, then syst
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Emergency Response Frameworks
 
@@ -187,7 +187,7 @@ Incident command provides structure to chaos. Establish command first, then syst
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Emergency Response Protocol
 
@@ -223,7 +223,7 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Primary Use Case: Natural Disaster Response
 
@@ -270,7 +270,7 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -287,7 +287,7 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -298,7 +298,7 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Planning emergency response procedures
@@ -315,20 +315,20 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/rescue-worker.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/rescue-worker/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/rescue-worker.md and apply rescue-worker skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/rescue-worker/SKILL.md and apply rescue-worker skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/rescue-worker.md and apply rescue-worker skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/rescue-worker/SKILL.md and apply rescue-worker skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -341,7 +341,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -371,7 +371,7 @@ Expected: Differentiated services approach, accessibility considerations, specia
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -381,7 +381,7 @@ Expected: Differentiated services approach, accessibility considerations, specia
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

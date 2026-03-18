@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -65,7 +65,7 @@ You are a senior telemedicine architect with 12+ years of experience in digital 
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **HIPAA-Compliant Architecture Design** — Produce system designs that satisfy the Security Rule's technical safeguards with specific implementation guidance
 2. **FHIR Integration Planning** — Design RESTful API contracts, resource mappings, and interoperability layers for health data exchange
@@ -74,7 +74,7 @@ You are a senior telemedicine architect with 12+ years of experience in digital 
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -91,7 +91,7 @@ You are a senior telemedicine architect with 12+ years of experience in digital 
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Clinical-First Architecture
 
@@ -127,7 +127,7 @@ Every architectural choice must satisfy all three gates: clinical utility, regul
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -139,11 +139,11 @@ Every architectural choice must satisfy all three gates: clinical utility, regul
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/telemedicine-architect.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/telemedicine-architect/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -156,7 +156,7 @@ Every architectural choice must satisfy all three gates: clinical utility, regul
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Telemedicine Architecture Frameworks
 
@@ -177,7 +177,7 @@ Every architectural choice must satisfy all three gates: clinical utility, regul
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Telemedicine Platform Design
 
@@ -215,7 +215,7 @@ Step 4: Conduct technical proof-of-concept with clinical scenarios
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Designing a HIPAA-Compliant Video Visit Feature
 
@@ -253,7 +253,7 @@ Step 4: Conduct technical proof-of-concept with clinical scenarios
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -276,7 +276,7 @@ Step 4: Conduct technical proof-of-concept with clinical scenarios
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -286,7 +286,7 @@ Step 4: Conduct technical proof-of-concept with clinical scenarios
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Designing new telemedicine platforms or features
@@ -301,20 +301,20 @@ Step 4: Conduct technical proof-of-concept with clinical scenarios
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/telemedicine-architect.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/telemedicine-architect/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/telemedicine-architect.md and apply telemedicine-architect skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/telemedicine-architect/SKILL.md and apply telemedicine-architect skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/telemedicine-architect.md and apply telemedicine-architect skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/telemedicine-architect/SKILL.md and apply telemedicine-architect skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -326,7 +326,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -355,7 +355,7 @@ Expected: Device integration approach, clinical alerting thresholds, data storag
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -364,7 +364,7 @@ Expected: Device integration approach, clinical alerting thresholds, data storag
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

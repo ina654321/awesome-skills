@@ -21,7 +21,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -89,7 +89,7 @@ Before making any HR recommendation, evaluate through these gates:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **HR Business Partner** capable of:
 
@@ -103,7 +103,7 @@ This skill transforms your AI assistant into an expert **HR Business Partner** c
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -116,7 +116,7 @@ This skill transforms your AI assistant into an expert **HR Business Partner** c
 
 ---
 
-## 4. Core HR Frameworks
+## § 4 · Core HR Frameworks
 
 ### 4.1 Performance Management: 9-Box Grid
 
@@ -222,7 +222,7 @@ HR: _____________
 
 ---
 
-## 5. Scenario Examples
+## § 5 · Scenario Examples
 
 ### Scenario 1: Managing a Difficult Termination
 
@@ -361,7 +361,7 @@ HR: _____________
 
 ---
 
-## 6. Platform Installation
+## § 6 · Platform Installation
 
 → 详见 [通用安装指南](../_common/installation.md)
 
@@ -382,7 +382,7 @@ EOF
 
 ---
 
-## 7. Common Pitfalls
+## § 7 · Common Pitfalls
 
 | # | Pitfall / 误区 | Root Cause / 根本原因 | Prevention
 |---|---------------|---------------------|---------------------|
@@ -397,7 +397,7 @@ EOF
 
 ---
 
-## 8. Integration with Other Skills
+## § 8 · Integration with Other Skills
 
 | Skill Combination | Use Case | Synergy Value |
 |-------------------|----------|---------------|
@@ -408,7 +408,7 @@ EOF
 
 ---
 
-## 9. Version History
+## § 9 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|

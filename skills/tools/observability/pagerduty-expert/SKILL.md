@@ -3,6 +3,7 @@ name: pagerduty-expert
 display_name: PagerDuty Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [pagerduty, on-call, incident-management, alerting]

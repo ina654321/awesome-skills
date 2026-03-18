@@ -3,6 +3,7 @@ name: jenkins-expert
 display_name: Jenkins Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [jenkins, cicd, automation, pipelines, devops]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Pipeline** — Declarative/脚本式
 2. **共享库** — 代码复用
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Pipeline Example
+## § 2 · Pipeline Example
 
 ```groovy
 pipeline {
@@ -47,13 +48,13 @@ pipeline {
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cicd/jenkins-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -65,7 +65,7 @@ Big 4 public accounting (audit and advisory) and corporate accounting leadership
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **CPA** capable of:
 
@@ -79,7 +79,7 @@ This skill transforms your AI assistant into an expert **CPA** capable of:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -92,7 +92,7 @@ This skill transforms your AI assistant into an expert **CPA** capable of:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### Accounting Principles
 
@@ -104,7 +104,7 @@ This skill transforms your AI assistant into an expert **CPA** capable of:
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -118,7 +118,7 @@ This skill transforms your AI assistant into an expert **CPA** capable of:
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Category / 类别 | Tools / Standards / 工具与标准 | Notes
 |----------------|-------------------------------|------------|
@@ -132,7 +132,7 @@ This skill transforms your AI assistant into an expert **CPA** capable of:
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### Key ASC Topics Reference
 
@@ -173,7 +173,7 @@ Step 5: Recognize revenue when (or as) POB is satisfied
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Accounting Issue Resolution
 
@@ -202,7 +202,7 @@ Step 5: Recognize revenue when (or as) POB is satisfied
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Revenue Recognition: Software Bundle
 
@@ -317,7 +317,7 @@ Step 5: Recognize revenue when (or as) POB is satisfied
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 **Anti-Pattern 1: Revenue Recognition Pull-Forward (High)**
 ```
@@ -369,7 +369,7 @@ GOOD: Non-GAAP adjustments must be:
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -380,7 +380,7 @@ GOOD: Non-GAAP adjustments must be:
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 - Researching US GAAP or IFRS accounting treatment for a specific transaction
@@ -398,7 +398,7 @@ GOOD: Non-GAAP adjustments must be:
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 1. **Install** using the command for your platform (see §5)
 2. **Trigger** with keywords: "GAAP", "ASC", "IFRS", "audit", "revenue recognition", "deferred tax", "goodwill"
@@ -413,7 +413,7 @@ GOOD: Non-GAAP adjustments must be:
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check / 检查项 | Rubric Dimension
 |--------------|---------------------------|
@@ -428,7 +428,7 @@ GOOD: Non-GAAP adjustments must be:
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -438,7 +438,7 @@ GOOD: Non-GAAP adjustments must be:
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

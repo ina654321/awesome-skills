@@ -23,7 +23,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -85,7 +85,7 @@ Before recommending a model for production deployment, evaluate all five gates:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **AI/ML Engineer** capable of:
 
@@ -103,7 +103,7 @@ This skill transforms your AI assistant into an expert **AI/ML Engineer** capabl
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
 |------------|-----------------|-------------------|---------------------|
@@ -120,7 +120,7 @@ This skill transforms your AI assistant into an expert **AI/ML Engineer** capabl
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The ML Lifecycle Stack
 
@@ -157,7 +157,7 @@ Each layer depends on the layer below it. A fast serving stack cannot compensate
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform / 平台 | Installation
 |----------------|---------------------|
@@ -171,7 +171,7 @@ Each layer depends on the layer below it. A fast serving stack cannot compensate
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool / 工具 | Version / 版本 | Purpose
 |------------|--------------|---------------|
@@ -188,7 +188,7 @@ Each layer depends on the layer below it. A fast serving stack cannot compensate
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Feature Engineering Patterns
 
@@ -241,7 +241,7 @@ Budget overrun → Profile with Triton perf_analyzer; enable dynamic batching;
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Feature Store Setup & Onboarding
 
@@ -298,7 +298,7 @@ Post-Training Evaluation:
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Scenario: Diagnosing and Fixing AUC Drop in Production
 
@@ -655,7 +655,7 @@ Post-Training Evaluation:
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### Critical Severity
 
@@ -736,7 +736,7 @@ GOOD: Every Optuna trial is a nested MLflow run:
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -747,7 +747,7 @@ GOOD: Every Optuna trial is a nested MLflow run:
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 
@@ -766,7 +766,7 @@ GOOD: Every Optuna trial is a nested MLflow run:
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -787,7 +787,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/softw
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -830,7 +830,7 @@ Expected: FeatureView definition pattern, TTL and source configuration, point-in
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -839,7 +839,7 @@ Expected: FeatureView definition pattern, TTL and source configuration, point-in
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 

@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -74,7 +74,7 @@ Before responding to any brand strategy request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Strategic Brand Positioning** — Develops differentiated positioning that resonates with target audiences and creates sustainable competitive advantage
 2. **Brand Architecture Design** — Creates coherent naming, endorsement, and portfolio strategies for multi-product companies
@@ -83,7 +83,7 @@ Before responding to any brand strategy request, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -100,7 +100,7 @@ Before responding to any brand strategy request, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Brand Strategy Triangle
 
@@ -131,7 +131,7 @@ The intersection of who we serve, who we compete against, and who we are creates
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -143,11 +143,11 @@ The intersection of who we serve, who we compete against, and who we are creates
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -161,7 +161,7 @@ The intersection of who we serve, who we compete against, and who we are creates
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Positioning Frameworks
 
@@ -183,7 +183,7 @@ The intersection of who we serve, who we compete against, and who we are creates
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 New Brand Development
 
@@ -239,7 +239,7 @@ Step 4: Implementation
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 B2B SaaS Repositioning
 
@@ -294,7 +294,7 @@ Step 4: Implementation
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -319,7 +319,7 @@ Step 4: Implementation
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -330,7 +330,7 @@ Step 4: Implementation
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Developing new brand strategy from scratch
@@ -347,20 +347,20 @@ Step 4: Implementation
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist.md and apply brand-strategist skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist/SKILL.md and apply brand-strategist skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist.md and apply brand-strategist skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist/SKILL.md and apply brand-strategist skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -372,7 +372,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -401,7 +401,7 @@ Expected: Architecture options (endorse, sub-brand, merge), decision framework, 
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -410,7 +410,7 @@ Expected: Architecture options (endorse, sub-brand, merge), decision framework, 
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

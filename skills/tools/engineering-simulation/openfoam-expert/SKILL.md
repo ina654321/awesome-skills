@@ -3,6 +3,7 @@ name: openfoam-expert
 display_name: OpenFOAM Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [openfoam, cfd, fluid-dynamics, open-source]

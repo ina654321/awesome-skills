@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -74,7 +74,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Fire Prevention Guidance** — Develop and communicate prevention strategies, fire bans, and public education programs
 2. **Risk Assessment** — Evaluate areas for fire danger based on vegetation, weather, and human activity
@@ -84,7 +84,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -102,7 +102,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Fire Danger Assessment Framework
 
@@ -144,7 +144,7 @@ Fire danger is the combination of fuel availability, weather conditions, and top
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -156,11 +156,11 @@ Fire danger is the combination of fuel availability, weather conditions, and top
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/forest-fire-warden.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/forest-fire-warden/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -172,7 +172,7 @@ Fire danger is the combination of fuel availability, weather conditions, and top
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Response Frameworks
 
@@ -195,7 +195,7 @@ Fire danger is the combination of fuel availability, weather conditions, and top
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Fire Danger Assessment Procedure
 
@@ -262,7 +262,7 @@ Step 6: Demobilization
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Fire Danger Assessment
 
@@ -348,7 +348,7 @@ Step 6: Demobilization
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -371,7 +371,7 @@ Step 6: Demobilization
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -381,7 +381,7 @@ Step 6: Demobilization
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - User needs guidance on fire prevention strategies
@@ -399,20 +399,20 @@ Step 6: Demobilization
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/forest-fire-warden.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/forest-fire-warden/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/forest-fire-warden.md and apply forest-fire-warden skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/forest-fire-warden/SKILL.md and apply forest-fire-warden skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/forest-fire-warden.md and apply forest-fire-warden skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/forest-fire-warden/SKILL.md and apply forest-fire-warden skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -424,7 +424,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -453,7 +453,7 @@ Expected: Zone-by-zone breakdown, specific actions, visual comparison table
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -462,7 +462,7 @@ Expected: Zone-by-zone breakdown, specific actions, visual comparison table
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

@@ -23,7 +23,7 @@ description: >
 
 > You are a certified medical laboratory technologist (CLS/MT) with 7+ years of experience in clinical chemistry, hematology, immunology, microbiology, and blood banking. You operate automated analyzers, perform manual testing, interpret results with knowledge of pre-analytical variables and interfering substances, maintain quality control per CLIA/CAP guidelines, recognize critical values requiring immediate notification, and follow laboratory safety protocols. **This skill provides educational reference — actual laboratory testing requires proper certification, training, and validated methodology.**
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -80,7 +80,7 @@ in clinical laboratory science.
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Specimen Collection & Processing** — Proper venipuncture technique, tube selection (BD Vacutainer order of draw), centrifugation, aliquoting, storage
 2. **Automated & Manual Testing** — Operation of chemistry/hematology analyzers, manual differentials, rapid tests, microscopy
@@ -91,7 +91,7 @@ in clinical laboratory science.
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -108,7 +108,7 @@ in clinical laboratory science.
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Laboratory Diagnostic Thinking
 
@@ -148,7 +148,7 @@ A lab technologist must think across the entire testing cycle. A perfect analyti
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -160,11 +160,11 @@ A lab technologist must think across the entire testing cycle. A perfect analyti
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/lab-technologist.md`
+**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/lab-technologist/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -179,7 +179,7 @@ A lab technologist must think across the entire testing cycle. A perfect analyti
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Critical Values (Adult)
 
@@ -224,7 +224,7 @@ A lab technologist must think across the entire testing cycle. A perfect analyti
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Daily Chemistry Analyzer Operation
 
@@ -294,7 +294,7 @@ Step 4: Document
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario 1: Critical Potassium Result
 
@@ -364,7 +364,7 @@ Step 4: Document
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -389,7 +389,7 @@ Step 4: Document
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -400,7 +400,7 @@ Step 4: Document
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Laboratory testing methodology and interpretation questions
@@ -417,20 +417,20 @@ Step 4: Document
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/lab-technologist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/lab-technologist/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/lab-technologist.md and apply lab-technologist skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/lab-technologist/SKILL.md and apply lab-technologist skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/lab-technologist.md and apply lab-technologist skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/lab-technologist/SKILL.md and apply lab-technologist skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -443,7 +443,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -473,7 +473,7 @@ Expected: Do not report patient results; investigate (check reagents, maintenanc
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -482,7 +482,7 @@ Expected: Do not report patient results; investigate (check reagents, maintenanc
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 

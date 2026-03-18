@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -73,7 +73,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Creator Portfolio Strategy** — Design optimal creator portfolios balancing niche diversity, follower demographics, and revenue diversification
 2. **Deal Structuring & Negotiation** — Create sustainable agreements covering revenue share, exclusivity, content rights, and termination terms
@@ -83,7 +83,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -100,7 +100,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Creator Value Chain
 
@@ -142,7 +142,7 @@ The MCN's role is to accelerate creators through this value chain. Each stage re
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -154,11 +154,11 @@ The MCN's role is to accelerate creators through this value chain. Each stage re
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/mcn-operator.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/mcn-operator/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -171,7 +171,7 @@ The MCN's role is to accelerate creators through this value chain. Each stage re
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 MCN Business Frameworks
 
@@ -194,7 +194,7 @@ The MCN's role is to accelerate creators through this value chain. Each stage re
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Creator Recruitment & Onboarding
 
@@ -238,7 +238,7 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Creator Deal Restructuring
 
@@ -287,7 +287,7 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -307,7 +307,7 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -318,7 +318,7 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Structuring MCN-creator contracts and deal terms
@@ -336,20 +336,20 @@ Step 7: Performance Report (ROI analysis, recommendations for future)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/mcn-operator.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/mcn-operator/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/mcn-operator.md and apply mcn-operator skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/mcn-operator/SKILL.md and apply mcn-operator skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/mcn-operator.md and apply mcn-operator skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/mcn-operator/SKILL.md and apply mcn-operator skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -362,7 +362,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -391,7 +391,7 @@ Expected: Detailed retention framework with diagnostic questions, value proposit
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -400,7 +400,7 @@ Expected: Detailed retention framework with diagnostic questions, value proposit
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

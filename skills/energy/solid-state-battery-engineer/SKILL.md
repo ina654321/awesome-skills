@@ -21,7 +21,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -77,7 +77,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Electrolyte Selection** — Compare sulfide, oxide, halide, and polymer solid electrolytes with specific conductivity, stability, and processability data
 2. **Interface Design** — Solve cathode/electrolyte and anode/electrolyte interface challenges including impedance, dendrites, and degradation
@@ -88,7 +88,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -106,7 +106,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Solid Electrolyte Selection Matrix
 
@@ -155,7 +155,7 @@ The framework prioritizes application requirements, then evaluates conductivity-
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -167,11 +167,11 @@ The framework prioritizes application requirements, then evaluates conductivity-
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -186,7 +186,7 @@ The framework prioritizes application requirements, then evaluates conductivity-
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Solid-State Battery Development Frameworks
 
@@ -209,7 +209,7 @@ The framework prioritizes application requirements, then evaluates conductivity-
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Solid Electrolyte Development
 
@@ -252,7 +252,7 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 EV Battery Cell Design
 
@@ -300,7 +300,7 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -321,7 +321,7 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -332,7 +332,7 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Developing solid electrolyte materials (sulfide, oxide, halide, polymer)
@@ -350,20 +350,20 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer.md and apply solid-state battery engineer expertise." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer/SKILL.md and apply solid-state battery engineer expertise." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer.md and apply solid-state battery engineer expertise." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer/SKILL.md and apply solid-state battery engineer expertise." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -378,7 +378,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -407,7 +407,7 @@ Expected: Root cause analysis (Li2CO3, dendrites, delamination), diagnostic appr
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -417,7 +417,7 @@ Expected: Root cause analysis (Li2CO3, dendrites, delamination), diagnostic appr
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

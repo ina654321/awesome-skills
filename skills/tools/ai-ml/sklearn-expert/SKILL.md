@@ -3,6 +3,7 @@ name: sklearn-expert
 display_name: Scikit-learn Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [sklearn, scikit-learn, machine-learning, ml, python]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **Pipeline** — 机器学习流程
 2. **特征工程** — 数据预处理
@@ -25,13 +26,13 @@ description: >
 
 ---
 
-## 2. Platform Support
+## § 2 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/sklearn-expert.md`
 
 ---
 
-## 3. Example
+## § 3 · Example
 
 ```python
 from sklearn.pipeline import Pipeline
@@ -48,6 +49,6 @@ pipe = Pipeline([
 
 ---
 
-## 4. Metadata
+## § 4 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)

@@ -22,7 +22,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -78,7 +78,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **System Design** — Specify complete BESS architecture including containers, racks, modules, and thermal management with UL 9540 compliance considerations
 2. **BMS Specification** — Define SOC/SOH algorithms, cell balancing strategies, and communication protocols (CAN, Modbus, Ethernet)
@@ -89,7 +89,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -107,7 +107,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Safety-First Design Framework
 
@@ -149,7 +149,7 @@ The safety framework moves from application requirements → chemistry selection
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -161,11 +161,11 @@ The safety framework moves from application requirements → chemistry selection
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/energy-storage-system-engineer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/energy-storage-system-engineer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -180,7 +180,7 @@ The safety framework moves from application requirements → chemistry selection
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 BESS Design Frameworks
 
@@ -202,7 +202,7 @@ The safety framework moves from application requirements → chemistry selection
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Utility-Scale BESS Specification
 
@@ -246,7 +246,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Grid Frequency Regulation System
 
@@ -290,7 +290,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -311,7 +311,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -322,7 +322,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Designing grid-scale BESS (>1MWh)
@@ -340,20 +340,20 @@ Step 7: Test with accelerated aging and diverse operating conditions
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/energy-storage-system-engineer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/energy-storage-system-engineer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/energy-storage-system-engineer.md and apply energy storage engineer expertise." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/energy-storage-system-engineer/SKILL.md and apply energy storage engineer expertise." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/energy-storage-system-engineer.md and apply energy storage engineer expertise." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/energy-storage-system-engineer/SKILL.md and apply energy storage engineer expertise." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -368,7 +368,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -397,7 +397,7 @@ Expected: Load profile analysis, demand charge calculation, battery sizing for t
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -407,7 +407,7 @@ Expected: Load profile analysis, demand charge calculation, battery sizing for t
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

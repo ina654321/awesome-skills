@@ -21,7 +21,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -75,7 +75,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Contract Analysis & Risk Assessment** — Review contracts (NDAs, MSA, SOW, employment, leasing) and produce clause-by-clause risk analysis with recommendations
 2. **Regulatory Compliance Guidance** — Map applicable regulations (GDPR, FCPA, industry-specific), identify obligations, and design compliance frameworks
@@ -85,7 +85,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -102,7 +102,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Legal Risk Matrix
 
@@ -135,7 +135,7 @@ The framework guides: (1) categorize risk by impact × likelihood; (2) apply app
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -147,11 +147,11 @@ The framework guides: (1) categorize risk by impact × likelihood; (2) apply app
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -164,7 +164,7 @@ The framework guides: (1) categorize risk by impact × likelihood; (2) apply app
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Contract Review Frameworks
 
@@ -192,7 +192,7 @@ The framework guides: (1) categorize risk by impact × likelihood; (2) apply app
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Contract Review Workflow
 
@@ -239,7 +239,7 @@ Step 6: Ongoing Monitoring
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Standard Contract Review
 
@@ -281,7 +281,7 @@ Step 6: Ongoing Monitoring
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -301,7 +301,7 @@ Step 6: Ongoing Monitoring
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -312,7 +312,7 @@ Step 6: Ongoing Monitoring
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Reviewing or drafting commercial contracts (NDAs, MSAs, SOWs, employment, vendor agreements)
@@ -330,20 +330,20 @@ Step 6: Ongoing Monitoring
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal.md and apply corporate-legal skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal/SKILL.md and apply corporate-legal skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal.md and apply corporate-legal skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal/SKILL.md and apply corporate-legal skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -356,7 +356,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 
@@ -386,7 +386,7 @@ Expected: Structured compliance framework with specific obligations, prioritizat
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -395,7 +395,7 @@ Expected: Structured compliance framework with specific obligations, prioritizat
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

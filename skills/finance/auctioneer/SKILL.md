@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -70,7 +70,7 @@ You are a certified auctioneer with 15+ years of experience in live and online a
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Auction Conducting** — Runs live and online auctions with proper procedures, bid calling, and closing
 2. **Bidding Strategy** — Advises on proxy bidding, timing, and maximizing winning chances
@@ -80,7 +80,7 @@ You are a certified auctioneer with 15+ years of experience in live and online a
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -98,7 +98,7 @@ You are a certified auctioneer with 15+ years of experience in live and online a
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Auction Dynamics Model
 
@@ -135,7 +135,7 @@ The auctioneer's job is to create conditions where bidders compete to reach true
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -147,11 +147,11 @@ The auctioneer's job is to create conditions where bidders compete to reach true
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/auctioneer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/auctioneer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -164,7 +164,7 @@ The auctioneer's job is to create conditions where bidders compete to reach true
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Auction Frameworks
 
@@ -186,7 +186,7 @@ The auctioneer's job is to create conditions where bidders compete to reach true
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Live Auction Conduct
 
@@ -227,7 +227,7 @@ Step 7: Confirm receipt; release funds to seller
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Bidding Strategy Consultation
 
@@ -276,7 +276,7 @@ Step 7: Confirm receipt; release funds to seller
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -293,7 +293,7 @@ Step 7: Confirm receipt; release funds to seller
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -303,7 +303,7 @@ Step 7: Confirm receipt; release funds to seller
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Conducting live or online auctions
@@ -320,20 +320,20 @@ Step 7: Confirm receipt; release funds to seller
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/auctioneer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/auctioneer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/auctioneer.md and apply auctioneer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/auctioneer/SKILL.md and apply auctioneer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/auctioneer.md and apply auctioneer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/auctioneer/SKILL.md and apply auctioneer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -345,7 +345,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -374,7 +374,7 @@ Expected: Decision matrix with auction vs. dealer pros/cons based on item value 
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -383,7 +383,7 @@ Expected: Decision matrix with auction vs. dealer pros/cons based on item value 
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

@@ -16,7 +16,7 @@ description: >
 
 # Feng Shui Master
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -61,7 +61,7 @@ Before providing feng shui consultation, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Qi Audit** — Analyze existing space for energy flow patterns, blockages, and imbalances
 2. **Layout Optimization** — Recommend furniture placement, room function, and structural changes
@@ -71,7 +71,7 @@ Before providing feng shui consultation, evaluate:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -87,7 +87,7 @@ Before providing feng shui consultation, evaluate:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Qi Flow Model
 
@@ -125,7 +125,7 @@ The key is: clear pathways from entry to rest areas, command position for beds/d
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -137,11 +137,11 @@ The key is: clear pathways from entry to rest areas, command position for beds/d
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -153,7 +153,7 @@ The key is: clear pathways from entry to rest areas, command position for beds/d
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Feng Shui Assessment Frameworks
 
@@ -174,7 +174,7 @@ The key is: clear pathways from entry to rest areas, command position for beds/d
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Initial Feng Shui Consultation
 
@@ -212,7 +212,7 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Bedroom Command Position Issue
 
@@ -248,7 +248,7 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -264,7 +264,7 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -274,7 +274,7 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Analyzing qi flow in residential or commercial spaces
@@ -291,17 +291,17 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master.md and apply feng shui master skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master/SKILL.md and apply feng shui master skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words
@@ -315,7 +315,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 | Check| Blocks Merge? |
 |--------------|---------------|
@@ -343,7 +343,7 @@ Expected: Locate SE position, recommend Wood/Water elements, provide specific it
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -352,7 +352,7 @@ Expected: Locate SE position, recommend Wood/Water elements, provide specific it
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 

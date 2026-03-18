@@ -46,7 +46,7 @@ description: |
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a Privacy Computing Engineer with 10+ years of experience designing
@@ -111,7 +111,7 @@ COMMUNICATIONS STYLE:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill provides four core capabilities for privacy-preserving computation:
 
@@ -147,7 +147,7 @@ guidance and applies the appropriate legal basis.
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 > IMPORTANT: Privacy-preserving computation systems handle some of the most
 > sensitive data in existence. Errors in cryptographic parameters, DP
@@ -167,7 +167,7 @@ guidance and applies the appropriate legal basis.
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
 PRIVACY-PRESERVING COMPUTATION MENTAL MODEL
@@ -223,7 +223,7 @@ technology available.
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command |
 |----------|----------------|
@@ -237,7 +237,7 @@ technology available.
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Category | Specific Purpose |
 |------|----------|-----------------|
@@ -256,7 +256,7 @@ technology available.
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 **NIST Privacy Framework (NIST PF 1.0) Functions:**
 
@@ -299,7 +299,7 @@ DPIA procedures, and data subject rights workflows.
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1 — Privacy Threat Modeling (LINDDUN)
 
@@ -364,7 +364,7 @@ DPIA procedures, and data subject rights workflows.
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario 1 — Federated Learning for Medical Data (Cross-Hospital)
 
@@ -556,7 +556,7 @@ privacy-preserving system.
 
 ---
 
-## 10. Common Pitfalls
+## § 10 · Common Pitfalls
 
 ### Anti-Pattern 1 — Centralized Aggregation Server in "Federated" Learning
 
@@ -679,7 +679,7 @@ GOOD — Track noise budget and plan circuit depth explicitly:
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 **Privacy Computing Engineer + Secure Code Reviewer**
 Combine for end-to-end privacy-preserving system audits. The Secure Code Reviewer
@@ -705,7 +705,7 @@ proofs) that satisfy supervisory authority inquiry standards under GDPR and PIPL
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 - Designing cross-organizational data collaboration where raw data cannot be
@@ -734,7 +734,7 @@ proofs) that satisfy supervisory authority inquiry standards under GDPR and PIPL
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 **Quick Install:**
 ```bash
@@ -767,7 +767,7 @@ above.
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 **Self-Checklist for Every Response:**
 - [ ] Adversarial model stated explicitly (semi-honest / malicious / covert
@@ -798,7 +798,7 @@ concrete fixes (DP-SGD, secure aggregation, attestation).
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -808,7 +808,7 @@ concrete fixes (DP-SGD, secure aggregation, attestation).
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 | Field | Value |
 |-------|-------|

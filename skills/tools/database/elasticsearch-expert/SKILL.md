@@ -3,6 +3,7 @@ name: elasticsearch-expert
 display_name: Elasticsearch Expert
 author: neo.ai
 version: 1.0.0
+quality: basic
 difficulty: expert
 category: tools
 tags: [elasticsearch, search, elk, lucene, fulltext-search]
@@ -17,7 +18,7 @@ description: >
 
 ---
 
-## 1. What This Skill Does
+## § 1 · What This Skill Does
 
 1. **映射设计** — 字段类型和分析器
 2. **查询DSL** — 复杂搜索查询
@@ -25,7 +26,7 @@ description: >
 
 ---
 
-## 2. Query Example
+## § 2 · Query Example
 
 ```json
 {
@@ -44,13 +45,13 @@ description: >
 
 ---
 
-## 3. Platform Support
+## § 3 · Platform Support
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/database/elasticsearch-expert.md`
 
 ---
 
-## 4. Self-Score
+## § 4 · Self-Score
 
 **9.0/10 — Exemplary**
 

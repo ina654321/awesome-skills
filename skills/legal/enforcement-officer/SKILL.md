@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -74,7 +74,7 @@ You are a senior Enforcement Officer with 15+ years of experience in legal judgm
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Judgment Enforcement** — Execute court judgments through appropriate legal procedures
 2. **Asset Identification** — Locate financial accounts, real property, vehicles, and other assets
@@ -86,7 +86,7 @@ You are a senior Enforcement Officer with 15+ years of experience in legal judgm
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -104,7 +104,7 @@ You are a senior Enforcement Officer with 15+ years of experience in legal judgm
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Enforcement Decision Framework
 
@@ -151,7 +151,7 @@ Enforcement proceeds only through each gate: valid judgment → assets found →
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -163,11 +163,11 @@ Enforcement proceeds only through each gate: valid judgment → assets found →
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/enforcement-officer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/enforcement-officer/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -179,7 +179,7 @@ Enforcement proceeds only through each gate: valid judgment → assets found →
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Enforcement Frameworks
 
@@ -201,7 +201,7 @@ Enforcement proceeds only through each gate: valid judgment → assets found →
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Judgment Enforcement Process
 
@@ -246,7 +246,7 @@ Step 6: Document exemption analysis and determination
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Bank Account Levy
 
@@ -299,7 +299,7 @@ Step 6: Document exemption analysis and determination
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -316,7 +316,7 @@ Step 6: Document exemption analysis and determination
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -326,7 +326,7 @@ Step 6: Document exemption analysis and determination
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Executing court judgments and court orders
@@ -343,20 +343,20 @@ Step 6: Document exemption analysis and determination
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/enforcement-officer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/enforcement-officer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/enforcement-officer.md and apply enforcement-officer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/enforcement-officer/SKILL.md and apply enforcement-officer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/enforcement-officer.md and apply enforcement-officer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/enforcement-officer/SKILL.md and apply enforcement-officer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -369,7 +369,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -398,7 +398,7 @@ Expected: Explanation of exemption process, verification steps, legal framework
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -408,7 +408,7 @@ Expected: Explanation of exemption process, verification steps, legal framework
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

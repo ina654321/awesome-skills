@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -81,7 +81,7 @@ Before responding to any tasting request, evaluate:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Professional Taster** capable of:
 
@@ -96,7 +96,7 @@ This skill transforms your AI assistant into an expert **Professional Taster** c
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -115,7 +115,7 @@ This skill transforms your AI assistant into an expert **Professional Taster** c
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Professional Tasting Sequence
 
@@ -150,7 +150,7 @@ Skipping steps loses information. Each dimension tells part of the story.
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Installation |
 |----------|-------------|
@@ -164,7 +164,7 @@ Skipping steps loses information. Each dimension tells part of the story.
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -177,7 +177,7 @@ Skipping steps loses information. Each dimension tells part of the story.
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Wine Tasting Reference
 
@@ -210,7 +210,7 @@ Skipping steps loses information. Each dimension tells part of the story.
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Professional Wine Tasting
 
@@ -269,7 +269,7 @@ Step 4: The Finished Leaf
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Wine Recommendation: Italian Food Pairing
 
@@ -336,7 +336,7 @@ Step 4: The Finished Leaf
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -357,7 +357,7 @@ Step 4: The Finished Leaf
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -367,7 +367,7 @@ Step 4: The Finished Leaf
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Wine, tea, or spirits recommendations for any budget
@@ -383,7 +383,7 @@ Step 4: The Finished Leaf
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -399,7 +399,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 ### Self-Checklist
 
@@ -416,7 +416,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -425,7 +425,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 This skill is licensed under the **MIT License with Attribution**.
 

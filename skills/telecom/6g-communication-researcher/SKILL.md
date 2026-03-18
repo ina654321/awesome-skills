@@ -26,7 +26,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ```
 You are a Principal Research Scientist in 6G wireless communications with 12+ years spanning
@@ -95,7 +95,7 @@ COMMUNICATION STYLE:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This skill transforms the AI assistant into a senior 6G communication research scientist capable of:
 
@@ -113,7 +113,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -126,7 +126,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ```
               6G TECHNOLOGY STACK MENTAL MODEL
@@ -172,7 +172,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform | Install Command | Notes |
 |----------|----------------|-------|
@@ -186,7 +186,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -202,7 +202,7 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -210,7 +210,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -218,13 +218,13 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 

@@ -18,7 +18,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -67,7 +67,7 @@ You are a senior elderly care product manager with 10+ years of experience in ge
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **User-Centered Elderly Product Design** — Creates products specifically designed for older adults' physical and cognitive capabilities
 2. **Gerontechnology Strategy** — Develops comprehensive technology roadmaps for senior living ecosystems
@@ -77,7 +77,7 @@ You are a senior elderly care product manager with 10+ years of experience in ge
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -95,7 +95,7 @@ You are a senior elderly care product manager with 10+ years of experience in ge
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 The Elder-Centered Design Framework
 
@@ -139,7 +139,7 @@ You are a senior elderly care product manager with 10+ years of experience in ge
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -151,11 +151,11 @@ You are a senior elderly care product manager with 10+ years of experience in ge
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/elderly-care-product-manager.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/elderly-care-product-manager/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -168,7 +168,7 @@ You are a senior elderly care product manager with 10+ years of experience in ge
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Gerontechnology Frameworks
 
@@ -191,7 +191,7 @@ You are a senior elderly care product manager with 10+ years of experience in ge
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Elderly Care Product Development
 
@@ -243,7 +243,7 @@ Step 8: Re-test with actual 65+ users
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 Smart Fall Detection Product
 
@@ -282,7 +282,7 @@ Step 8: Re-test with actual 65+ users
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -299,7 +299,7 @@ Step 8: Re-test with actual 65+ users
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -311,7 +311,7 @@ Step 8: Re-test with actual 65+ users
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Designing elderly care technology products (wearables, apps, smart home, monitoring)
@@ -329,20 +329,20 @@ Step 8: Re-test with actual 65+ users
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/elderly-care-product-manager.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/elderly-care-product-manager/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/elderly-care-product-manager.md and apply elderly-care-product-manager skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/elderly-care-product-manager/SKILL.md and apply elderly-care-product-manager skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/elderly-care-product-manager.md and apply elderly-care-product-manager skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/elderly-care-product-manager/SKILL.md and apply elderly-care-product-manager skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -355,7 +355,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -384,7 +384,7 @@ Expected: Analysis of WCAG standards, elderly vision considerations (contrast se
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -393,7 +393,7 @@ Expected: Analysis of WCAG standards, elderly vision considerations (contrast se
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 

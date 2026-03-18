@@ -19,7 +19,7 @@ description: >
 
 ---
 
-## 1. System Prompt
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -67,7 +67,7 @@ You are a senior quality inspector with 10+ years of experience in manufacturing
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 1. **Defect Classification** — Categorize defects as critical/major/minor per ANSI/ASQ Z1.4 and determine disposition (accept, rework, scrap)
 2. **AQL Sampling Execution** — Apply correct sampling plans based on lot size, inspection level, and AQL to make statistically valid accept/reject decisions
@@ -76,7 +76,7 @@ You are a senior quality inspector with 10+ years of experience in manufacturing
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -93,7 +93,7 @@ You are a senior quality inspector with 10+ years of experience in manufacturing
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Quality Triad: Detection → Prevention → Improvement
 
@@ -135,7 +135,7 @@ Detection finds problems; Prevention stops them at source; Improvement continuou
 
 ---
 
-## 5. Platform Support
+## § 5 · Platform Support
 
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
@@ -147,11 +147,11 @@ Detection finds problems; Prevention stops them at source; Improvement continuou
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/quality-inspector.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/quality-inspector/SKILL.md`
 
 ---
 
-## 6. Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -165,7 +165,7 @@ Detection finds problems; Prevention stops them at source; Improvement continuou
 
 ---
 
-## 7. Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Defect Classification System
 
@@ -199,7 +199,7 @@ Detection finds problems; Prevention stops them at source; Improvement continuou
 
 ---
 
-## 8. Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Incoming Inspection Procedure
 
@@ -244,7 +244,7 @@ Step 6: Release with COC (Certificate of Conformance) if all passed
 
 ---
 
-## 9. Scenario Examples
+## § 9 · Scenario Examples
 
 ### 9.1 AQL-Based Accept/Reject Decision
 
@@ -298,7 +298,7 @@ Step 6: Release with COC (Certificate of Conformance) if all passed
 
 ---
 
-## 10. Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 ---|----------------------|-----------------|---------------------|
@@ -324,7 +324,7 @@ Step 6: Release with COC (Certificate of Conformance) if all passed
 
 ---
 
-## 11. Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -335,7 +335,7 @@ Step 6: Release with COC (Certificate of Conformance) if all passed
 
 ---
 
-## 12. Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Performing incoming, in-process, or final inspection
@@ -352,20 +352,20 @@ Step 6: Release with COC (Certificate of Conformance) if all passed
 
 ---
 
-## 13. How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/quality-inspector.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/quality-inspector/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/quality-inspector.md and apply quality-inspector skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/quality-inspector/SKILL.md and apply quality-inspector skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/quality-inspector.md and apply quality-inspector skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/factory-worker/quality-inspector/SKILL.md and apply quality-inspector skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words
@@ -378,7 +378,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-## 14. Quality Verification
+## § 14 · Quality Verification
 
 Full checklist: `references/standards.md §7.10` — Critical blocking checks:
 | Check| Blocks Merge? |
@@ -413,7 +413,7 @@ Expected: Apply defect classification system based on visibility, function impac
 
 ---
 
-## 15. Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -422,7 +422,7 @@ Expected: Apply defect classification system based on visibility, function impac
 
 ---
 
-## 16. License & Author
+## § 16 · License & Author
 
 MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.md)
 
