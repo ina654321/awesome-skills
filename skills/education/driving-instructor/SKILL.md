@@ -1,7 +1,7 @@
 ---
 name: driving-instructor
 display_name: Driving Instructor / 驾校教练
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: intermediate

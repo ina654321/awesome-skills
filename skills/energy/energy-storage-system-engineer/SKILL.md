@@ -1,7 +1,7 @@
 ---
 name: energy-storage-system-engineer
 display_name: Energy Storage System Engineer
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

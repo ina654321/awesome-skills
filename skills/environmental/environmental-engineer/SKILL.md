@@ -1,7 +1,7 @@
 ---
 name: environmental-engineer
 display_name: Environmental Engineer
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

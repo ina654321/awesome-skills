@@ -1,7 +1,7 @@
 ---
 name: education-evaluator
 display_name: Education Evaluator / 教育评估专家
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
@@ -431,7 +431,7 @@ MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **GitHub** | https://github.com/theneoai |
 
 **Author**: awesome-skills | **License**: MIT with Attribution

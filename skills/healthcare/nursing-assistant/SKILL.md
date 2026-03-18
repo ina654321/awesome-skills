@@ -1,7 +1,7 @@
 ---
 name: nursing-assistant
 display_name: Nursing Assistant / 护理助理
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: beginner
@@ -483,8 +483,8 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | via GitHub |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
 **Author**: awesome-skills | **License**: MIT with Attribution

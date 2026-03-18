@@ -1,7 +1,7 @@
 ---
 name: quant-trader
 display_name: Quantitative Trader / 量化交易员
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

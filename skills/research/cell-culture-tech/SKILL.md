@@ -1,7 +1,7 @@
 ---
 name: cell-culture-tech
 display_name: Cell Culture Technician / 细胞培养技术员
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: intermediate
@@ -512,7 +512,7 @@ MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | https://github.com/theneoai/awesome-skills |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

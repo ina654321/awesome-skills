@@ -1,7 +1,7 @@
 ---
 name: hotel-operations-director
 display_name: Hotel Operations Director / 酒店运营总监
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
@@ -453,8 +453,8 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.m
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | via GitHub |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
 **Author**: awesome-skills | **License**: MIT with Attribution

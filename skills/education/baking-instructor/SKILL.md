@@ -1,7 +1,7 @@
 ---
 name: baking-instructor
 display_name: Baking Instructor / 烘焙培训师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: intermediate

@@ -1,7 +1,7 @@
 ---
 name: drug-registration-specialist
 display_name: Drug Registration Specialist / 药品注册专员
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: expert
@@ -517,7 +517,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | lucas_hsueh@hotmail.com |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

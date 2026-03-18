@@ -1,7 +1,7 @@
 ---
 name: embroiderer
 display_name: Embroiderer / 刺绣艺人
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 score: 9.5/10

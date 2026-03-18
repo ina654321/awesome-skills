@@ -300,5 +300,5 @@ MIT with Attribution — [COMMON.md](../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | awesome-skills |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
+| **GitHub** | https://github.com/theneoai/awesome-skills |

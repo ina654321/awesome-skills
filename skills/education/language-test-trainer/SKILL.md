@@ -1,7 +1,7 @@
 ---
 name: language-test-trainer
 display_name: Language Test Trainer / 雅思/托福老师
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

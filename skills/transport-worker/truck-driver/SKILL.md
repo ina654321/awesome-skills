@@ -1,7 +1,7 @@
 ---
 name: truck-driver
 display_name: Professional Truck Driver / 专业货车司机
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

@@ -1,7 +1,7 @@
 ---
 name: carbon-management-consultant
 display_name: Carbon Management Consultant
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
@@ -424,6 +424,6 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.m
 |-------------|---------------|
 | **Author** | Awesome Skills |
 | **Contact** | awesome-skills@example.com |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
 **Author**: Awesome Skills <awesome-skills@example.com> | **License**: MIT with Attribution

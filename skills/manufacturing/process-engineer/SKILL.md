@@ -1,7 +1,7 @@
 ---
 name: process-engineer
 display_name: Process Engineer / 工艺工程师
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

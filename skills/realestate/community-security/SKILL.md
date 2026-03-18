@@ -1,7 +1,7 @@
 ---
 name: community-security
 display_name: Community Security / 小区保安
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 score: 9.5
@@ -461,7 +461,7 @@ https://github.com/theneoai/awesome-skills
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | https://github.com/theneoai/awesome-skills |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

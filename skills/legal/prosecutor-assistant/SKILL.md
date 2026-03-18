@@ -1,7 +1,7 @@
 ---
 name: prosecutor-assistant
 display_name: Prosecutor Assistant / 检察官助理
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: intermediate
@@ -393,8 +393,8 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.m
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | legal@awesome-skills.dev |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
 **Author**: awesome-skills <legal@awesome-skills.dev> | **License**: MIT with Attribution

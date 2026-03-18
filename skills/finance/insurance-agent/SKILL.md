@@ -1,7 +1,7 @@
 ---
 name: insurance-agent
 display_name: Insurance Agent / 保险代理人
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: intermediate

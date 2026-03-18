@@ -1,7 +1,7 @@
 ---
 name: qc-specialist
 display_name: QC Specialist / 质量控制专家
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

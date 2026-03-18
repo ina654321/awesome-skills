@@ -1,7 +1,7 @@
 ---
 name: science-experiment-instructor
 display_name: Science Experiment Instructor / 科学实验培训老师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 score: 9.5/10
@@ -503,7 +503,7 @@ This skill is licensed under the **MIT License with Attribution**.
 
 | Field | Details |
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | https://github.com/theneoai/awesome-skills |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

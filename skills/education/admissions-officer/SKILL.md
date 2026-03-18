@@ -1,7 +1,7 @@
 ---
 name: admissions-officer
 display_name: Admissions Officer / 招生办工作人员
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 score: 9.5/10
@@ -523,7 +523,7 @@ MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | See GitHub |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

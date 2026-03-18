@@ -1,7 +1,7 @@
 ---
 name: bus-driver
 display_name: Professional Bus Driver / 专业公交司机
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

@@ -1,7 +1,7 @@
 ---
 name: university-administrator
 display_name: University Administrator / 大学行政管理
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: expert
@@ -466,7 +466,7 @@ MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 
 | Field | Details |
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | lucas_hsueh@hotmail.com |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

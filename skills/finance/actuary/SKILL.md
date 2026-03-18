@@ -1,7 +1,7 @@
 ---
 name: actuary
 display_name: Actuary / 精算师
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

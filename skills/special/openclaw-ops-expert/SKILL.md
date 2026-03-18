@@ -1,7 +1,7 @@
 ---
 name: openclaw-ops-expert
 display_name: OpenClaw Ops & Config Expert / OpenClaw 运维配置专家
-author: theneoai
+author: neo.ai
 version: 1.0.0
 difficulty: intermediate
 category: special

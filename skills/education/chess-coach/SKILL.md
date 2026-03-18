@@ -1,7 +1,7 @@
 ---
 name: chess-coach
 display_name: Chess Coach / 棋类教练
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: intermediate

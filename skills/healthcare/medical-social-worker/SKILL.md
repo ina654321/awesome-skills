@@ -1,7 +1,7 @@
 ---
 name: medical-social-worker
 display_name: Medical Social Worker / 医务社工
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: intermediate
@@ -448,8 +448,8 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.m
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | opencode@anomaly.co |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
 **Author**: awesome-skills | **License**: MIT with Attribution

@@ -401,7 +401,7 @@ MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | Neo.ai |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | via GitHub |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

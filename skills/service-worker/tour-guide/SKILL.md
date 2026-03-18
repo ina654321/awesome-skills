@@ -1,7 +1,7 @@
 ---
 name: tour-guide
 display_name: Tour Guide / 导游
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
@@ -429,6 +429,6 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Quality** | exemplary |
 | **Score** | 9.5/10 |

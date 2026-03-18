@@ -1,7 +1,7 @@
 ---
 name: tea-ceremony-instructor
 display_name: Tea Ceremony Instructor / 茶艺培训师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: intermediate

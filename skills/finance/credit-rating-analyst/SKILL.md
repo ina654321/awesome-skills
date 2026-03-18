@@ -1,7 +1,7 @@
 ---
 name: credit-rating-analyst
 display_name: Credit Rating Analyst
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
@@ -420,7 +420,7 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.m
 | Field| Details|
 |-------------|---------------|
 | **Author** | Awesome Skills |
-| **Contact** | https://github.com/anomalyco/awesome-skills |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **Contact** | lucas_hsueh@hotmail.com |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
 **Author**: Awesome Skills | **License**: MIT with Attribution

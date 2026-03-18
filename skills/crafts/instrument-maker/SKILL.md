@@ -1,7 +1,7 @@
 ---
 name: instrument-maker
 display_name: Traditional Instrument Maker / 传统乐器制作师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 score: 9.5/10

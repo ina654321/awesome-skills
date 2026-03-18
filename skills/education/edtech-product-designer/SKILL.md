@@ -1,7 +1,7 @@
 ---
 name: edtech-product-designer
 display_name: EdTech Product Designer / 教育产品设计师
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
@@ -455,7 +455,7 @@ MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **GitHub** | https://github.com/theneoai |
 
 **Author**: awesome-skills | **License**: MIT with Attribution

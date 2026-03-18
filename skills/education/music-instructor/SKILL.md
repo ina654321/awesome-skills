@@ -1,7 +1,7 @@
 ---
 name: music-instructor
 display_name: Music Instructor / 音乐培训老师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: expert
@@ -524,7 +524,7 @@ Expected:
 
 | Field | Details |
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | https://github.com/theneoai/awesome-skills |
 | **GitHub** | https://github.com/theneoai |
 

@@ -1,7 +1,7 @@
 ---
 name: ecologist
 display_name: Ecologist
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

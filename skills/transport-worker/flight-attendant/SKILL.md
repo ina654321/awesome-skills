@@ -1,7 +1,7 @@
 ---
 name: flight-attendant
 display_name: Professional Flight Attendant / 专业空乘
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

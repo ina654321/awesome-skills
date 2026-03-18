@@ -1,7 +1,7 @@
 ---
 name: virtual-power-plant-operator
 display_name: Virtual Power Plant Operator / 虚拟电厂运营专家
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: expert
@@ -435,7 +435,7 @@ MIT with Attribution — Full terms: [COMMON.md](../../COMMON.md)
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | https://github.com/theneoai/awesome-skills |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

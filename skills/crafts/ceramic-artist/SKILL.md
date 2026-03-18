@@ -1,7 +1,7 @@
 ---
 name: ceramic-artist
 display_name: Ceramic Artist / 陶艺师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 score: 9.5/10

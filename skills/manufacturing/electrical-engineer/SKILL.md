@@ -1,7 +1,7 @@
 ---
 name: electrical-engineer
 display_name: Electrical Engineer / 电气工程师
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

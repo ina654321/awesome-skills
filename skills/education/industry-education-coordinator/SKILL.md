@@ -1,7 +1,7 @@
 ---
 name: industry-education-coordinator
 display_name: Industry-Education Coordinator / 产教融合协调员
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: expert
@@ -527,7 +527,7 @@ This skill is licensed under the **MIT License with Attribution Requirement**.
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | https://github.com/theneoai/awesome-skills |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

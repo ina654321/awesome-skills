@@ -1,7 +1,7 @@
 ---
 name: pilot
 display_name: Professional Pilot / 专业飞行员
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

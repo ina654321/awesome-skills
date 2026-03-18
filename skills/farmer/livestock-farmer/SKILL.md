@@ -1,7 +1,7 @@
 ---
 name: livestock-farmer
 display_name: Livestock Farming Expert
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
@@ -429,8 +429,8 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.m
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | awesome-skills |
-| **Contact** | https://github.com/anomalyco/awesome-skills |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
+| **Contact** | lucas_hsueh@hotmail.com |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
 **Author**: awesome-skills <https://github.com/anomalyco/awesome-skills> | **License**: MIT with Attribution

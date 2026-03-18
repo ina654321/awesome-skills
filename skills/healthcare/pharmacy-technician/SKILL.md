@@ -1,7 +1,7 @@
 ---
 name: pharmacy-technician
 display_name: Pharmacy Technician / 药房技术员
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: beginner
@@ -512,8 +512,8 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | via GitHub |
-| **GitHub** | https://github.com/anomalyco/awesome-skills |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
 **Author**: awesome-skills | **License**: MIT with Attribution

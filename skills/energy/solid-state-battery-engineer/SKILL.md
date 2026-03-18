@@ -1,7 +1,7 @@
 ---
 name: solid-state-battery-engineer
 display_name: Solid-State Battery Engineer
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

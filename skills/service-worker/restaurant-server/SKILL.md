@@ -1,7 +1,7 @@
 ---
 name: restaurant-server
 display_name: Restaurant Server / 餐厅服务员
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
@@ -345,6 +345,6 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 | Field | Details |
 |-------|---------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Quality** | exemplary |
 | **Score** | 9.5/10 |

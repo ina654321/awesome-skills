@@ -1,7 +1,7 @@
 ---
 name: mechanical-design-engineer
 display_name: Mechanical Design Engineer / 机械设计工程师
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

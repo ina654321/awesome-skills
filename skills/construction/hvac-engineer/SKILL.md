@@ -1,7 +1,7 @@
 ---
 name: hvac-engineer
 display_name: HVAC Engineer / 暖通工程师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 score: 9.5/10
@@ -580,7 +580,7 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../COMMON.m
 
 | Field| Details|
 |-------------|---------------|
-| **Author** | awesome-skills |
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Contact** | [GitHub Issues](https://github.com/theneoai/awesome-skills/issues) |
 | **GitHub** | https://github.com/theneoai/awesome-skills |
 

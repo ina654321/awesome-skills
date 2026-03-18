@@ -1,7 +1,7 @@
 ---
 name: jade-carver
 display_name: Jade Carver / 玉雕师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 score: 9.5/10

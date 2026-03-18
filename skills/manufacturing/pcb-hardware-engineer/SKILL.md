@@ -1,7 +1,7 @@
 ---
 name: pcb-hardware-engineer
 display_name: PCB Hardware Engineer / PCB硬件工程师
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert

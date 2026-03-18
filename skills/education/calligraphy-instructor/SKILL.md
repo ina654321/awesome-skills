@@ -1,7 +1,7 @@
 ---
 name: calligraphy-instructor
 display_name: Calligraphy Instructor / 书法培训老师
-author: awesome-skills
+author: neo.ai
 version: 2.0.0
 quality: exemplary
 difficulty: intermediate

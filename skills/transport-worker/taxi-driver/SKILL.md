@@ -1,7 +1,7 @@
 ---
 name: taxi-driver
 display_name: Professional Taxi Driver / 专业出租车司机
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
 quality: exemplary
 difficulty: expert
