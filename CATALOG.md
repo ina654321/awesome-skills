@@ -1,18 +1,8 @@
 # Awesome Skills - Full Catalog
 
-Complete directory of 450+ expert AI skills organized by category and quality level.
+587 expert AI skills organized by category.
 
-## Quality Legend
-
-| Badge | Level | Description |
-|-------|-------|-------------|
-| ⭐ | Expert Verified | Deep expertise: System prompt + frameworks + scenarios |
-| ✅ | Community Verified | Tested by community, solid quality |
-| 📝 | Basic | Template-based, contributions welcome |
-
----
-
-## ⭐ Expert Verified Skills (43)
+All skills follow the 16-section Exemplary template with ~50% token reduction via references/ architecture.
 
 These skills have been completely rewritten with professional depth — system prompts, knowledge frameworks, real code/templates, and scenario-based guidance:
 
