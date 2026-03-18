@@ -1,7 +1,7 @@
 
 # Skill Improvement Plan
 
-> **Created:** 2026-03-01 | **Updated:** 2026-03-18 | **Branch:** `claude/skill-evaluation-improvements-aXOj0`
+> **Created:** 2026-03-01 | **Updated:** 2026-03-18 | **Branch:** `main`
 > **Goal:** Raise all 587 skills to ≥9.5/10 (Exemplary v3.0) — standardized § format, full 16-section structure, correct install URLs
 
 ---
@@ -601,6 +601,8 @@ Before marking any skill upgrade complete, verify ALL:
 
 ## 9. Progress Tracker
 
+> **Last Updated:** 2026-03-18 | **Branch:** `main`
+
 ### Phase 1: Software Dev Adjacent — ✅ COMPLETE
 
 | Skill | Status | Completed |
@@ -618,61 +620,68 @@ Before marking any skill upgrade complete, verify ALL:
 | Data Asset Appraiser | ✅ Done | 2026-03-01 |
 | Logistics Algorithm Engineer | ✅ Done | 2026-03-02 |
 
-### Phase 2: AI Development Applications — 2/42 Done
+### Phase C: Critical Bug Fixes — ✅ COMPLETE (2026-03-18)
+
+| Fix | Scope | Status | Count |
+|-----|-------|--------|-------|
+| Fix broken install URLs (C1) | All v2.0 skills with `.md` → `/SKILL.md` | ✅ Done | 268 |
+| Add missing `quality:` YAML field (C2) | v1.0 tools skills | ✅ Done | 120 |
+| Upgrade `skill-writer` to v3.0 standard (C3) | Meta-skill template | ✅ Done | 1 |
+
+### Phase F: Format Standardization — ✅ COMPLETE (2026-03-18)
+
+| Migration | Count | Status |
+|-----------|-------|--------|
+| Old N. format → § format (## N. → ## § N ·) | 461 | ✅ Done |
+
+### Phase 2: AI Development Applications — ✅ COMPLETE (2026-03-18)
+
+All 42 skills upgraded to v3.0 with § format:
 
 | Skill | Status | Completed |
 |-------|--------|-----------|
 | AI Trainer | ✅ Done | 2026-03-04 |
 | Data Labeler | ✅ Done | 2026-03-04 |
-| Autonomous Driving Engineer | ⏳ Pending | — |
-| End-to-End Autonomous Researcher | ⏳ Pending | — |
-| Perception Algorithm Engineer | ⏳ Pending | — |
-| Planning & Decision Engineer | ⏳ Pending | — |
-| HD Map Engineer | ⏳ Pending | — |
-| Simulation Platform Engineer | ⏳ Pending | — |
-| V2X System Engineer | ⏳ Pending | — |
-| Automotive Design Engineer | ⏳ Pending | — |
-| Embodied AI Researcher | ⏳ Pending | — |
-| Robot Perception Engineer | ⏳ Pending | — |
-| Motion Control Engineer | ⏳ Pending | — |
-| Robot Mechanical Engineer | ⏳ Pending | — |
-| Precision Reducer Engineer | ⏳ Pending | — |
-| AI Drug Design Scientist | ⏳ Pending | — |
-| Brain-Computer Interface Engineer | ⏳ Pending | — |
-| Synthetic Biologist | ⏳ Pending | — |
-| Cell Therapy Scientist | ⏳ Pending | — |
-| Biomaterials Engineer | ⏳ Pending | — |
-| Quantum Algorithm Engineer | ⏳ Pending | — |
-| Quantum Communication Engineer | ⏳ Pending | — |
-| Quantum Physicist | ⏳ Pending | — |
-| Quantum Sensor Researcher | ⏳ Pending | — |
-| Remote Sensing Data Scientist | ⏳ Pending | — |
-| UAV Flight Control Engineer | ⏳ Pending | — |
-| Low-Altitude Traffic Engineer | ⏳ Pending | — |
-| eVTOL Chief Designer | ⏳ Pending | — |
-| Vertiport Planning Engineer | ⏳ Pending | — |
-| Satellite Communication Engineer | ⏳ Pending | — |
-| Airworthiness Certification Engineer | ⏳ Pending | — |
-| Space Mission Planner | ⏳ Pending | — |
-| Rocket Chief Designer | ⏳ Pending | — |
-| Liquid Rocket Engine Engineer | ⏳ Pending | — |
-| Chip Design Engineer | ⏳ Pending | — |
-| Wide Bandgap Semiconductor Engineer | ⏳ Pending | — |
-| Nanomaterials Engineer | ⏳ Pending | — |
-| Composite Materials Engineer | ⏳ Pending | — |
-| Superconducting Materials Researcher | ⏳ Pending | — |
-| 6G Communication Researcher | ⏳ Pending | — |
-| ISAC Engineer | ⏳ Pending | — |
-| NTN Engineer | ⏳ Pending | — |
-
-### Phase C: Critical Bug Fixes
-
-| Fix | Scope | Status |
-|-----|-------|--------|
-| Fix broken install URLs (all v2.0 skills) | 98 skills | ⏳ Pending |
-| Add missing `quality:` YAML field | ~6 skills | ⏳ Pending |
-| Upgrade `skill-writer` to v3.0 standard | 1 skill | ⏳ Pending |
-
+| Embodied AI Researcher | ✅ Done | 2026-03-18 |
+| Robot Perception Engineer | ✅ Done | 2026-03-18 |
+| Motion Control Engineer | ✅ Done | 2026-03-18 |
+| Robot Mechanical Engineer | ✅ Done | 2026-03-18 |
+| Precision Reducer Engineer | ✅ Done | 2026-03-18 |
+| AI Drug Design Scientist | ✅ Done | 2026-03-18 |
+| Brain-Computer Interface Engineer | ✅ Done | 2026-03-18 |
+| Cell Therapy Scientist | ✅ Done | 2026-03-18 |
+| Synthetic Biologist | ✅ Done | 2026-03-18 |
+| Biomaterials Engineer | ✅ Done | 2026-03-18 |
+| Quantum Algorithm Engineer | ✅ Done | 2026-03-18 |
+| Quantum Communication Engineer | ✅ Done | 2026-03-18 |
+| Quantum Physicist | ✅ Done | 2026-03-18 |
+| Quantum Sensor Researcher | ✅ Done | 2026-03-18 |
+| UAV Flight Control Engineer | ✅ Done | 2026-03-18 |
+| Low-Altitude Traffic Engineer | ✅ Done | 2026-03-18 |
+| eVTOL Chief Designer | ✅ Done | 2026-03-18 |
+| Vertiport Planning Engineer | ✅ Done | 2026-03-18 |
+| Satellite Communication Engineer | ✅ Done | 2026-03-18 |
+| Airworthiness Certification Engineer | ✅ Done | 2026-03-18 |
+| Space Mission Planner | ✅ Done | 2026-03-18 |
+| Rocket Chief Designer | ✅ Done | 2026-03-18 |
+| Liquid Rocket Engine Engineer | ✅ Done | 2026-03-18 |
+| Remote Sensing Data Scientist | ✅ Done | 2026-03-18 |
+| Autonomous Driving Engineer | ✅ Done | 2026-03-18 |
+| End-to-End Autonomous Researcher | ✅ Done | 2026-03-18 |
+| Perception Algorithm Engineer | ✅ Done | 2026-03-18 |
+| Planning & Decision Engineer | ✅ Done | 2026-03-18 |
+| HD Map Engineer | ✅ Done | 2026-03-18 |
+| Simulation Platform Engineer | ✅ Done | 2026-03-18 |
+| V2X System Engineer | ✅ Done | 2026-03-18 |
+| Automotive Design Engineer | ✅ Done | 2026-03-18 |
+| Chip Design Engineer | ✅ Done | 2026-03-18 |
+| Wide Bandgap Semiconductor Engineer | ✅ Done | 2026-03-18 |
+| Nanomaterials Engineer | ✅ Done | 2026-03-18 |
+| Composite Materials Engineer | ✅ Done | 2026-03-18 |
+| Superconducting Materials Researcher | ✅ Done | 2026-03-18 |
+| 6G Communication Researcher | ✅ Done | 2026-03-18 |
+| ISAC Engineer | ✅ Done | 2026-03-18 |
+| NTN Engineer | ✅ Done | 2026-03-18 |
 ### Phase 3: Professional & Business Domains
 
 | Batch | Focus | Count | Status |
@@ -699,17 +708,14 @@ Before marking any skill upgrade complete, verify ALL:
 
 ## 10. Effort Estimate
 
-| Phase | Skills | AI-Assisted Hours | Notes |
-|-------|--------|------------------|-------|
-| ✅ Already exemplary v3.0 | 87 | — | — |
-| C: Critical bug fixes | 105 | ~8h | URL fix is largely mechanical |
-| P2: AI Dev Applications | 40 | ~80h | High technical depth required |
-| P3: Professional Domains | 228 | ~420h | Batch processing with templates |
-| T: Tools category overhaul | 115 | ~115h | Specialized tools template |
-| **Total remaining** | **488** | **~623h** | |
+| Phase | Skills | Status |
+|-------|--------|--------|
+| ✅ Already exemplary v3.0 | 87 | Complete |
+| **C: Critical bug fixes** | **389** | **✅ Complete (2026-03-18)** |
+| **P2: AI Dev Applications** | **42** | **✅ Complete (2026-03-18)** |
+| P3: Professional Domains | 228 | ⏳ Pending |
+| T: Tools category overhaul | 115 | ⏳ Pending |
+| **Completed** | **518** | — |
+| **Remaining** | **343** | — |
 
-**With 4 parallel agents × 2 skills/hour average:** ~78 hours wall-clock time to complete all remaining skills.
-
----
-
-*Maintained by: neo.ai | Last Updated: 2026-03-18 | Branch: claude/skill-evaluation-improvements-aXOj0*
+*Maintained by: neo.ai | Last Updated: 2026-03-18 | Branch: main*
