@@ -156,12 +156,12 @@ All 6 elements must be present for a complete apology. Missing elements = incomp
 | Platform | Installation |
 |----------|-------------|
 | **OpenCode** | `/skill install professional-apologizer` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/special/professional-apologizer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/special/professional-apologizer/SKILL.md and install as skill` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-apologizer/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-apologizer/SKILL.md and install as skill` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/special/professional-apologizer/SKILL.md and follow instructions` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-apologizer/SKILL.md and follow instructions` |
 
 ---
 
@@ -379,7 +379,7 @@ Step 3: Assess if you're being manipulated into apologizing
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/special/professional-apologizer/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-apologizer/SKILL.md and install as skill
 ```
 
 ### Trigger Words

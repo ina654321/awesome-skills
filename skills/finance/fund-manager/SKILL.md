@@ -110,12 +110,12 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install fund-manager` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/finance/fund-manager/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/finance/fund-manager/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/fund-manager/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/fund-manager/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/finance/fund-manager/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/fund-manager/SKILL.md and follow the instructions to install` |
 
 ---
 

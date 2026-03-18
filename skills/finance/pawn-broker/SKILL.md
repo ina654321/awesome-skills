@@ -143,7 +143,7 @@ Higher liquidity items support higher LTV; lower liquidity or volatile items req
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/finance/pawn-broker.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/pawn-broker.md`
 
 ---
 
@@ -330,16 +330,16 @@ Step 6: If shortfall, pursue deficiency (where legal); if surplus, remit to cust
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/finance/pawn-broker.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/pawn-broker.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/finance/pawn-broker.md and apply pawn-broker skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/pawn-broker.md and apply pawn-broker skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/finance/pawn-broker.md and apply pawn-broker skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/pawn-broker.md and apply pawn-broker skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

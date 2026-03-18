@@ -166,7 +166,7 @@ Start at the bottom - prevention is most sustainable. Only escalate to chemical 
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/agriculture/plant-protection-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/plant-protection-expert.md`
 
 ---
 
@@ -494,16 +494,16 @@ Step 6: Adjust as needed to match target
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/agriculture/plant-protection-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/plant-protection-expert.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/agriculture/plant-protection-expert.md and apply plant-protection-expert skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/plant-protection-expert.md and apply plant-protection-expert skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/agriculture/plant-protection-expert.md and apply plant-protection-expert skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/plant-protection-expert.md and apply plant-protection-expert skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

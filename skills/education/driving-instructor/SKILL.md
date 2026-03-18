@@ -140,14 +140,14 @@ Build from bottom up: Without proper speed management, you cannot maintain space
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
 | **OpenCode** | `/skill install driving-instructor` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/driving-instructor/SKILL.md and install as a skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/driving-instructor/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/driving-instructor/SKILL.md and install as a skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/driving-instructor/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
 | **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/driving-instructor.mdc` (global) |
 | **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/driving-instructor/SKILL.md and install as skill` | Append to `.kimi-rules` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/driving-instructor/SKILL.md and install as skill` | Append to `.kimi-rules` |
 
-**URL:** `https://awesome-skills.dev/skills/education/driving-instructor.md`
+**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/driving-instructor.md`
 
 ---
 
@@ -379,12 +379,12 @@ Step 4: Control Mechanisms
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/driving-instructor/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/driving-instructor/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://awesome-skills.dev/skills/education/driving-instructor/SKILL.md and apply driving-instructor skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/driving-instructor/SKILL.md and apply driving-instructor skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

@@ -165,12 +165,12 @@ Subject safety is paramount — without subjects, there is no trial. Data integr
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install clinical-research-coordinator` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/healthcare/clinical-research-coordinator/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/healthcare/clinical-research-coordinator/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/clinical-research-coordinator/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/clinical-research-coordinator/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/healthcare/clinical-research-coordinator/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/clinical-research-coordinator/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -425,7 +425,7 @@ SDV for other data per monitoring plan
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/healthcare/clinical-research-coordinator/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/clinical-research-coordinator/SKILL.md and install as skill
 ```
 
 ### Trigger Words / 触发词 (Authoritative List

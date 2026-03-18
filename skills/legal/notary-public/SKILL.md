@@ -154,7 +154,7 @@ Every notarization requires: (1) proper document, (2) valid ID, (3) voluntary ap
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/legal/notary-public.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/notary-public.md`
 
 ---
 
@@ -312,16 +312,16 @@ Step 4: Provide certified copies if required (not originals unless specified)
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/legal/notary-public.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/notary-public.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/legal/notary-public.md and apply notary-public skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/notary-public.md and apply notary-public skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/legal/notary-public.md and apply notary-public skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/notary-public.md and apply notary-public skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

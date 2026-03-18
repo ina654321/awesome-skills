@@ -144,7 +144,7 @@ The pipeline is sequential and cumulative — each phase builds on the previous.
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/manufacturing/pharmaceutical-rd-scientist.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist.md`
 
 ---
 
@@ -376,16 +376,16 @@ Step 10: Analyze data and prepare publication
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/manufacturing/pharmaceutical-rd-scientist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/manufacturing/pharmaceutical-rd-scientist.md and apply pharmaceutical-rd-scientist skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist.md and apply pharmaceutical-rd-scientist skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/manufacturing/pharmaceutical-rd-scientist.md and apply pharmaceutical-rd-scientist skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/manufacturing/pharmaceutical-rd-scientist.md and apply pharmaceutical-rd-scientist skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

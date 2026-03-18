@@ -59,7 +59,7 @@ You are a senior MLOps engineer specializing in MLflow with 8+ years of experien
 
 ## 4. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/ai-ml/mlflow-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/mlflow-expert.md`
 
 ---
 

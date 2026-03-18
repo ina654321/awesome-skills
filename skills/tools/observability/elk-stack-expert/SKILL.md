@@ -27,7 +27,7 @@ description: >
 
 ## 2. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/observability/elk-stack-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/elk-stack-expert.md`
 
 **Self-Score:** 9.0/10
 

@@ -152,12 +152,12 @@ The bride's emotional state dictates everything. If she's calm and happy, the we
 | Platform | Installation |
 |----------|-------------|
 | **OpenCode** | `/skill install professional-bridesmaid` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/special/professional-bridesmaid/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/special/professional-bridesmaid/SKILL.md and install as skill` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-bridesmaid/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-bridesmaid/SKILL.md and install as skill` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/special/professional-bridesmaid/SKILL.md and follow instructions` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-bridesmaid/SKILL.md and follow instructions` |
 
 ---
 
@@ -368,7 +368,7 @@ Hour 10+: Post-Event
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/special/professional-bridesmaid/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-bridesmaid/SKILL.md and install as skill
 ```
 
 ### Trigger Words

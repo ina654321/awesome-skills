@@ -59,7 +59,7 @@ Speech → Whisper
 
 ## 4. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/ai-ml/huggingface-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/huggingface-expert.md`
 
 ---
 

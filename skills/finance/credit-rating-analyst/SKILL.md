@@ -145,7 +145,7 @@ Business profile provides the ceiling; financial profile determines where within
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/finance/credit-rating-analyst.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst.md`
 
 ---
 
@@ -352,16 +352,16 @@ Step 6: Publication — Issue rating announcement, press release, Outlook update
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/finance/credit-rating-analyst.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/finance/credit-rating-analyst.md and apply credit-rating-analyst skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst.md and apply credit-rating-analyst skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/finance/credit-rating-analyst.md and apply credit-rating-analyst skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/credit-rating-analyst.md and apply credit-rating-analyst skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

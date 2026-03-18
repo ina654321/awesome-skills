@@ -137,14 +137,14 @@ Build bottom-up: great ingredients don't matter if you don't understand the scie
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
 | **OpenCode** | `/skill install baking-instructor` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/baking-instructor/SKILL.md and install as a skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/baking-instructor/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/baking-instructor/SKILL.md and install as a skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/baking-instructor/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
 | **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/baking-instructor.mdc` (global) |
 | **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/baking-instructor/SKILL.md and install as skill` | Append to `.kimi-rules` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/baking-instructor/SKILL.md and install as skill` | Append to `.kimi-rules` |
 
-**URL:** `https://awesome-skills.dev/skills/education/baking-instructor.md`
+**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/baking-instructor.md`
 
 ---
 
@@ -353,12 +353,12 @@ Step 4: Recommend Specific Fix
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/baking-instructor/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/baking-instructor/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://awesome-skills.dev/skills/education/baking-instructor/SKILL.md and apply baking-instructor skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/baking-instructor/SKILL.md and apply baking-instructor skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

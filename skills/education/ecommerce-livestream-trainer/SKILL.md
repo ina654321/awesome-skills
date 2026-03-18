@@ -155,7 +155,7 @@ Build bottom-up: no attraction means no audience; no engagement means no trust; 
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/education/ecommerce-livestream-trainer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/ecommerce-livestream-trainer.md`
 
 ---
 
@@ -417,7 +417,7 @@ Post-Stream:
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/ecommerce-livestream-trainer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/ecommerce-livestream-trainer.md and install as skill
 ```
 
 ### Trigger Words

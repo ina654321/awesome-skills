@@ -155,14 +155,14 @@ Without financial sustainability, you can't serve students. Without student outc
 | Platform | Installation |
 |----------------|--------------------------|
 | **OpenCode** | `/skill install training-school-principal` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/training-school-principal/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/training-school-principal/SKILL.md and follow instructions` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and install as skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and follow instructions` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/training-school-principal/SKILL.md and follow instructions` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and follow instructions` |
 
-**URL**: `https://awesome-skills.dev/skills/education/training-school-principal.md`
+**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal.md`
 
 ---
 
@@ -411,16 +411,16 @@ Step 4: Performance Decisions
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/training-school-principal/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/education/training-school-principal/SKILL.md and apply training-school-principal skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and apply training-school-principal skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/education/training-school-principal/SKILL.md and apply training-school-principal skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and apply training-school-principal skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

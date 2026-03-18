@@ -143,7 +143,7 @@ The intersection of who we serve, who we compete against, and who we are creates
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/business/brand-strategist.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist.md`
 
 ---
 
@@ -351,16 +351,16 @@ Step 4: Implementation
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/business/brand-strategist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/business/brand-strategist.md and apply brand-strategist skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist.md and apply brand-strategist skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/business/brand-strategist.md and apply brand-strategist skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/business/brand-strategist.md and apply brand-strategist skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

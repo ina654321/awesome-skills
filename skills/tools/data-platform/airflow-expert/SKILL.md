@@ -66,7 +66,7 @@ Identity:
 
 ## 4. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/data-platform/airflow-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/data-platform/airflow-expert.md`
 
 ---
 

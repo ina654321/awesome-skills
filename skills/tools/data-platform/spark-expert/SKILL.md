@@ -76,7 +76,7 @@ Writing Style:
 |----------------|--------------------------|-------------------------------|
 | **OpenCode** | `/skill install spark-expert` | Auto-saved to `~/.opencode/skills/` |
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/data-platform/spark-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/data-platform/spark-expert.md`
 
 ---
 

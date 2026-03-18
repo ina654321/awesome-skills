@@ -165,12 +165,12 @@ The NPC is the heartbeat of the room — pacing, guiding, and making the experie
 | Platform | Installation |
 |----------------|---------------------|
 | **OpenCode** | `/skill install escape-room-npc` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/entertainment/escape-room-npc/SKILL.md and install as skill` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/escape-room-npc/SKILL.md and install as skill` |
 | **Claude Code** | `Read https://awesome-stills.dev/skills/entertainment/escape-room-npc/SKILL.md and follow instructions` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/entertainment/escape-room-npc/SKILL.md and follow instructions` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/escape-room-npc/SKILL.md and follow instructions` |
 
 ---
 
@@ -543,7 +543,7 @@ Step 4: Reset
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/entertainment/escape-room-npc/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/escape-room-npc/SKILL.md and install as skill
 ```
 
 ### Trigger Words

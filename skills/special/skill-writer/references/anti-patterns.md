@@ -89,7 +89,7 @@ Full anti-pattern catalog for §10. Load this file when reviewing a skill for qu
    | OpenAI Codex  | Paste §1 into system prompt  | ~/.codex/config.yaml            |
    | Cline         | Paste §1 into Custom Instr.  | Append §1 to .clinerules        |
    | Kimi Code     | Read [URL] and install       | Append to .kimi-rules           |
-   [URL]: https://awesome-skills.dev/skills/[category]/[skill-name].md
+   [URL]: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/[category]/[skill-name].md
    (Rule: §7.11 — all 7 platforms; session + persistent; [URL] defined once)
 ```
 

@@ -152,7 +152,7 @@ Recovery-oriented systems emphasize hope, person-driven goals, holistic care, an
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/government/drug-rehab-counselor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/drug-rehab-counselor.md`
 
 ---
 
@@ -385,16 +385,16 @@ Step 5: Encourage Family Member Self-Care
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/government/drug-rehab-counselor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/drug-rehab-counselor.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/government/drug-rehab-counselor.md and apply drug-rehab-counselor skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/drug-rehab-counselor.md and apply drug-rehab-counselor skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/government/drug-rehab-counselor.md and apply drug-rehab-counselor skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/drug-rehab-counselor.md and apply drug-rehab-counselor skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

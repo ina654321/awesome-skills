@@ -171,12 +171,12 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install ai-product-manager` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/ai-ml/ai-product-manager/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/ai-ml/ai-product-manager/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/ai-product-manager/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/ai-product-manager/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/ai-ml/ai-product-manager/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/ai-product-manager/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -640,7 +640,7 @@ Rollback requires coordinated deploy during business hours; 4-hour window of deg
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/ai-ml/ai-product-manager/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/ai-product-manager/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words / 触发词 (Authoritative List

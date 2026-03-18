@@ -147,14 +147,14 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 | Platform | Installation |
 |----------------|--------------------------|
 | **OpenCode** | `/skill install teaching-assistant` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/teaching-assistant/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/teaching-assistant/SKILL.md and follow instructions` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and install as skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and follow instructions` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/teaching-assistant/SKILL.md and follow instructions` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and follow instructions` |
 
-**URL**: `https://awesome-skills.dev/skills/education/teaching-assistant.md`
+**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant.md`
 
 ---
 
@@ -358,16 +358,16 @@ Step 4: Follow Up
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/teaching-assistant/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/education/teaching-assistant/SKILL.md and apply teaching-assistant skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and apply teaching-assistant skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/education/teaching-assistant/SKILL.md and apply teaching-assistant skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and apply teaching-assistant skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

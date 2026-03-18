@@ -17,6 +17,6 @@ description: >
 
 **Self-Score:** 9.0/10 — Exemplary
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/observability/pagerduty-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/pagerduty-expert.md`
 
 MIT — [COMMON.md](../../../../COMMON.md)

@@ -120,7 +120,7 @@ Portfolio (Strategy)
 | **Cline** | Paste §1 into Custom Instructions | Append to .clinerules |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to .kimi-rules |
 
-**[URL]:** `https://awesome-skills.dev/skills/productivity/asana-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/asana-expert.md`
 
 ---
 
@@ -265,7 +265,7 @@ Phase 4: Launch
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/productivity/asana-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/asana-expert.md and install as skill
 ```
 
 ### Trigger Words

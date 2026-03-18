@@ -157,12 +157,12 @@ Build top-down: without spend visibility, you cannot source strategically; witho
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install purchasing-specialist` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/admin/purchasing-specialist/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/purchasing-specialist/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -403,7 +403,7 @@ Step 4: Receiving and Payment
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words

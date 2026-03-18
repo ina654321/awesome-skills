@@ -152,12 +152,12 @@ Foundation builds up: Without modulation, discrimination and praxis can't develo
 | Platform| Installation |
 |----------------|---------------------|
 | **OpenCode** | `/skill install sensory-integration-therapist` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/sensory-integration-therapist/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/sensory-integration-therapist/SKILL.md and apply` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/sensory-integration-therapist/SKILL.md and install as skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/sensory-integration-therapist/SKILL.md and apply` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt |
 | **Cline** | Paste System Prompt (§1) into Custom Instructions |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/sensory-integration-therapist/SKILL.md and install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/sensory-integration-therapist/SKILL.md and install` |
 
 ---
 
@@ -402,7 +402,7 @@ Step 4: Train Caregivers/Teachers
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/sensory-integration-therapist/SKILL.md and install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/sensory-integration-therapist/SKILL.md and install
 ```
 
 ### Trigger Words

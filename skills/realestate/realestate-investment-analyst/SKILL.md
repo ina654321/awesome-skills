@@ -151,7 +151,7 @@ Match investment strategy to investor profile: Core = stable, low risk, lower re
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/realestate/realestate-investment-analyst.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/realestate-investment-analyst.md`
 
 ---
 
@@ -359,12 +359,12 @@ Step 5: Recommend holding period or sale
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/realestate/realestate-investment-analyst.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/realestate-investment-analyst.md and install as skill
 ```
 
 ### Persistent Install
 ```bash
-echo "Read https://awesome-skills.dev/skills/realestate/realestate-investment-analyst.md and apply realestate-investment-analyst skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/realestate-investment-analyst.md and apply realestate-investment-analyst skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

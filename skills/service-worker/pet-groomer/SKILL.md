@@ -122,7 +122,7 @@ Smooth Coat (Lab, Beagle, Boxer):
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/service-worker/pet-groomer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/pet-groomer.md`
 
 ## 5. Professional Toolkit
 
@@ -450,16 +450,16 @@ When to Stop:
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/service-worker/pet-groomer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/pet-groomer.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/service-worker/pet-groomer.md and apply pet-groomer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/pet-groomer.md and apply pet-groomer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/service-worker/pet-groomer.md and apply pet-groomer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/pet-groomer.md and apply pet-groomer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

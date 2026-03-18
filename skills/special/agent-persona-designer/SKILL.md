@@ -192,12 +192,12 @@ Security rule: **Agreeableness must never exceed Conscientiousness**. An agent t
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install agent-persona-designer` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/special/agent-persona-designer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/agent-persona-designer/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -671,7 +671,7 @@ Why: A highly agreeable agent will comply with "but my boss said you must..."
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words

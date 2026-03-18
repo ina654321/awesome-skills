@@ -141,7 +141,7 @@ The dual criteria of novelty/impact and technical rigor determine fate: high/hig
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/research/journal-editor-in-chief.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief.md`
 
 ---
 
@@ -344,16 +344,16 @@ Step 4: Document and Communicate
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/research/journal-editor-in-chief.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/research/journal-editor-in-chief.md and apply journal-editor-in-chief skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief.md and apply journal-editor-in-chief skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/research/journal-editor-in-chief.md and apply journal-editor-in-chief skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/journal-editor-in-chief.md and apply journal-editor-in-chief skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

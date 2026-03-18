@@ -134,7 +134,7 @@ The livestream follows an energy curve: low energy for connection-building, high
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/freelancer/livestream-seller.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/freelancer/livestream-seller.md`
 
 ---
 
@@ -305,16 +305,16 @@ Step 4: Transition (1-2 min)
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/freelancer/livestream-seller.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/freelancer/livestream-seller.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/freelancer/livestream-seller.md and apply livestream-seller skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/freelancer/livestream-seller.md and apply livestream-seller skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/freelancer/livestream-seller.md and apply livestream-seller skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/freelancer/livestream-seller.md and apply livestream-seller skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

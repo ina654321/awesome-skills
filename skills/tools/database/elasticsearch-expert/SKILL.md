@@ -46,7 +46,7 @@ description: >
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/database/elasticsearch-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/database/elasticsearch-expert.md`
 
 ---
 

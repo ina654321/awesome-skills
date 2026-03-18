@@ -156,7 +156,7 @@ Build bottom-up: data collection without stakeholder input lacks context; standa
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/education/education-evaluator.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/education-evaluator.md`
 
 ---
 
@@ -389,7 +389,7 @@ Step 5: Report
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/education-evaluator.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/education-evaluator.md and install as skill
 ```
 
 ### Trigger Words

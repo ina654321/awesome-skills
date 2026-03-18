@@ -132,7 +132,7 @@ Score = (Professional×0.30) + (Process×0.35) + (Environment×0.35)
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/special/mystery-shopper.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper.md`
 
 ---
 
@@ -316,12 +316,12 @@ Step 5: Present findings with actionable recommendations
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/special/mystery-shopper.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://awesome-skills.dev/skills/special/mystery-shopper.md and apply mystery shopper skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/mystery-shopper.md and apply mystery shopper skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

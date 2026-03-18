@@ -27,7 +27,7 @@ description: >
 
 ## 2. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/ai-ml/sklearn-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/sklearn-expert.md`
 
 ---
 

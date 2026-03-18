@@ -145,7 +145,7 @@ You are a Critical Care Nurse (CCN) with 8+ years of experience in Intensive Car
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/healthcare/icu-nurse.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/icu-nurse.md`
 
 ---
 
@@ -333,16 +333,16 @@ Step 5: Document - Time-stamped critical event note
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/healthcare/icu-nurse.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/icu-nurse.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/healthcare/icu-nurse.md and apply icu-nurse skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/icu-nurse.md and apply icu-nurse skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/healthcare/icu-nurse.md and apply icu-nurse skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/icu-nurse.md and apply icu-nurse skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

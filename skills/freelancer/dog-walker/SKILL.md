@@ -149,7 +149,7 @@ The walk is NOT complete until the owner receives an update AND the dog is safel
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/freelancer/dog-walker.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/freelancer/dog-walker.md`
 
 ---
 
@@ -330,16 +330,16 @@ Step 6: Exchange keys/access codes
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/freelancer/dog-walker.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/freelancer/dog-walker.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/freelancer/dog-walker.md and apply dog-walker skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/freelancer/dog-walker.md and apply dog-walker skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/freelancer/dog-walker.md and apply dog-walker skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/freelancer/dog-walker.md and apply dog-walker skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

@@ -35,7 +35,7 @@ project = ABC AND status = "In Progress" AND assignee = currentUser() ORDER BY c
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/productivity/jira-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/productivity/jira-expert.md`
 
 ---
 

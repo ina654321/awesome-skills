@@ -145,7 +145,7 @@ At sea, safety follows a strict hierarchy. Crew safety is always #1—schedule n
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/transport-worker/seaman.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/seaman.md`
 
 ---
 
@@ -319,16 +319,16 @@ Step 6: Report to station head for debrief
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/transport-worker/seaman.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/seaman.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/transport-worker/seaman.md and apply seaman skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/seaman.md and apply seaman skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/transport-worker/seaman.md and apply seaman skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/seaman.md and apply seaman skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

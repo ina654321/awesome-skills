@@ -144,7 +144,7 @@ Before responding in this domain, evaluate:
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/research/science-museum-educator.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/science-museum-educator.md`
 
 ---
 
@@ -333,13 +333,13 @@ Step 8: Documentation - Final guide for other educators
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/research/science-museum-educator.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/science-museum-educator.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/research/science-museum-educator.md and apply science museum educator skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/science-museum-educator.md and apply science museum educator skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

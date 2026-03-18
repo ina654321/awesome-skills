@@ -109,7 +109,7 @@ Traditional VMs ──────────▶ Compute Engine
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/cloud/gcp-cloud-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cloud/gcp-cloud-expert.md`
 
 ---
 
@@ -228,7 +228,7 @@ Phase 3: Design
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/tools/cloud/gcp-cloud-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cloud/gcp-cloud-expert.md and install as skill
 ```
 
 ### Trigger Words

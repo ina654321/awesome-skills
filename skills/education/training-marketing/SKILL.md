@@ -160,12 +160,12 @@ Conversion optimization: improve any stage, improve total results.
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install training-marketing` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/training-marketing/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/training-marketing/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-marketing/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-marketing/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/training-marketing/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-marketing/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -441,7 +441,7 @@ Step 4: Enrollment & Handoff
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/training-marketing/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-marketing/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words

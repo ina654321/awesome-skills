@@ -142,7 +142,7 @@ The intersection creates careers that are meaningful, sustainable, and viable.
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/special/career-coach.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/career-coach.md`
 
 ---
 
@@ -338,12 +338,12 @@ Step 4: Offer Evaluation
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/special/career-coach.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/career-coach.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://awesome-skills.dev/skills/special/career-coach.md and apply career coach skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/career-coach.md and apply career coach skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

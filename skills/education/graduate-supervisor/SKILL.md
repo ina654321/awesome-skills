@@ -148,7 +148,7 @@ Mentoring should build toward independence — your job is to work yourself out 
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/education/graduate-supervisor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/graduate-supervisor.md`
 
 ---
 
@@ -355,7 +355,7 @@ Step 4: Defense (1 session)
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/graduate-supervisor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/graduate-supervisor.md and install as skill
 ```
 
 ### Trigger Words

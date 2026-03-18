@@ -118,7 +118,7 @@ Build from bottom up: define tokens first, then base components, then composites
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/design/sketch-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/sketch-expert.md`
 
 ---
 
@@ -265,7 +265,7 @@ Step 4: Export assets with consistent naming
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/design/sketch-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/sketch-expert.md and install as skill
 ```
 
 ### Trigger Words

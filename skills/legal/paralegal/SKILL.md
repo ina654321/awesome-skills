@@ -152,7 +152,7 @@ Begin with secondary sources for context, move to statutes for authority, conclu
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/legal/paralegal.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal.md`
 
 ---
 
@@ -314,16 +314,16 @@ Step 5: Submit for attorney review with change log
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/legal/paralegal.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/legal/paralegal.md and apply paralegal skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal.md and apply paralegal skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/legal/paralegal.md and apply paralegal skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/paralegal.md and apply paralegal skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

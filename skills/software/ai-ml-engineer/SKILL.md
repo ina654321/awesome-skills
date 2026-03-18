@@ -162,12 +162,12 @@ Each layer depends on the layer below it. A fast serving stack cannot compensate
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install ai-ml-engineer` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/software/ai-ml-engineer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/software/ai-ml-engineer/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/ai-ml-engineer/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/ai-ml-engineer/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/software/ai-ml-engineer/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/ai-ml-engineer/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -770,7 +770,7 @@ GOOD: Every Optuna trial is a nested MLflow run:
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/software/ai-ml-engineer/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/ai-ml-engineer/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words

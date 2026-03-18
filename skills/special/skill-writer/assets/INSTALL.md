@@ -5,10 +5,10 @@
 
 **Quick install:**
 ```
-Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
 ```
 
-> **`[URL]`** = `https://awesome-skills.dev/skills/special/skill-writer/SKILL.md`
+> **`[URL]`** = `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md`
 > **`§1`** = `## 1. System Prompt` section in SKILL.md
 
 ---
@@ -27,7 +27,7 @@ Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activat
 ## OpenClaw
 
 ```
-Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and install as skill
 ```
 
 Auto-persisted to `~/.openclaw/workspace/skills/`.
@@ -37,17 +37,17 @@ Auto-persisted to `~/.openclaw/workspace/skills/`.
 
 **Session only:**
 ```
-Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1
 ```
 
 **Persistent — global (all projects):**
 ```bash
-echo "Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1." >> ~/.claude/CLAUDE.md
 ```
 
 **Persistent — project level:**
 ```bash
-echo "Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and activate the Skill Writer role from §1." >> ./CLAUDE.md
 ```
 
 > ⚠️ Global install applies to ALL projects. Project install only affects the current repo.
@@ -94,12 +94,12 @@ curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/sp
 
 **Session:**
 ```
-Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and install as skill
 ```
 
 **Persistent:**
 ```bash
-echo "Read https://awesome-skills.dev/skills/special/skill-writer/SKILL.md and install as skill." >> .kimi-rules
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and install as skill." >> .kimi-rules
 ```
 
 ---

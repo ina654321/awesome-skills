@@ -141,7 +141,7 @@ Fit is not about making garment smaller or larger — it's about understanding b
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/crafts/tailor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/tailor.md`
 
 ---
 
@@ -322,16 +322,16 @@ Step 7: Try on again to verify
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/crafts/tailor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/tailor.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/crafts/tailor.md and apply tailor skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/tailor.md and apply tailor skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/crafts/tailor.md and apply tailor skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/tailor.md and apply tailor skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

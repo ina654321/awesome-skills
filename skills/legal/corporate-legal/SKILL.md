@@ -147,7 +147,7 @@ The framework guides: (1) categorize risk by impact × likelihood; (2) apply app
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/legal/corporate-legal.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal.md`
 
 ---
 
@@ -334,16 +334,16 @@ Step 6: Ongoing Monitoring
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/legal/corporate-legal.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/legal/corporate-legal.md and apply corporate-legal skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal.md and apply corporate-legal skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/legal/corporate-legal.md and apply corporate-legal skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal.md and apply corporate-legal skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

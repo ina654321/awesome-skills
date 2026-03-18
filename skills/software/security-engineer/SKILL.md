@@ -168,12 +168,12 @@ Each layer is independent; a breach of one layer should not grant access to anot
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install security-engineer` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/software/security-engineer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/software/security-engineer/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/software/security-engineer/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -592,7 +592,7 @@ Month 3: Program maturity
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/software/security-engineer/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words / 触发词 (Authoritative List

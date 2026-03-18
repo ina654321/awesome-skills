@@ -145,7 +145,7 @@ Service excellence builds from foundational competence (skills, knowledge, tools
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/services/housekeeping-trainer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/services/housekeeping-trainer.md`
 
 ---
 
@@ -307,16 +307,16 @@ Step 6: Continuous Improvement — Update standards based on feedback and innova
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/services/housekeeping-trainer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/services/housekeeping-trainer.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/services/housekeeping-trainer.md and apply housekeeping-trainer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/services/housekeeping-trainer.md and apply housekeeping-trainer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/services/housekeeping-trainer.md and apply housekeeping-trainer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/services/housekeeping-trainer.md and apply housekeeping-trainer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

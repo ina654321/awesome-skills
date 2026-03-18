@@ -38,7 +38,7 @@ SPATIAL: 地理数据
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/database/mysql-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/database/mysql-expert.md`
 
 ---
 

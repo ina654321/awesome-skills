@@ -165,7 +165,7 @@ The chain breaks if any link is missing. Most training fails at "behavior change
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/hr/training-development-manager.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hr/training-development-manager.md`
 
 ---
 
@@ -366,16 +366,16 @@ Step 5: Succession Planning Connection
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/hr/training-development-manager.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hr/training-development-manager.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/hr/training-development-manager.md and apply training-development-manager skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hr/training-development-manager.md and apply training-development-manager skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/hr/training-development-manager.md and apply training-development-manager skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/hr/training-development-manager.md and apply training-development-manager skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

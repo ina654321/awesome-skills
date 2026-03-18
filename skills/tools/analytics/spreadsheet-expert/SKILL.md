@@ -38,7 +38,7 @@ QUERY - SQL-like queries (Sheets)
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/analytics/spreadsheet-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/analytics/spreadsheet-expert.md`
 
 ---
 

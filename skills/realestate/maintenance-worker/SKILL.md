@@ -187,12 +187,12 @@ This skill transforms your AI assistant into an expert **Maintenance Technician*
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install maintenance-worker` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/realestate/maintenance-worker/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/realestate/maintenance-worker/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/maintenance-worker/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/maintenance-worker/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/realestate/maintenance-worker/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/maintenance-worker/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -429,16 +429,16 @@ Step 4: Permanent Fix or Escalate
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/realestate/maintenance-worker/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/maintenance-worker/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/realestate/maintenance-worker/SKILL.md and apply maintenance-worker skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/maintenance-worker/SKILL.md and apply maintenance-worker skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/realestate/maintenance-worker/SKILL.md and apply maintenance-worker skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/realestate/maintenance-worker/SKILL.md and apply maintenance-worker skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

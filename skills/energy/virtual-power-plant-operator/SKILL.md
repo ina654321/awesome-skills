@@ -158,14 +158,14 @@ VPP extracts value from DER through multiple revenue streams, stacking capabilit
 | Platform | Installation |
 |----------|--------------|
 | **OpenCode** | `/skill install virtual-power-plant-operator` |
-| **OpenClaw** | Read https://awesome-skills.dev/skills/energy/virtual-power-plant-operator/SKILL.md and install |
+| **OpenClaw** | Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/virtual-power-plant-operator/SKILL.md and install |
 | **Claude Code** | Read URL and install as skill |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
 | **Kimi Code** | Read URL and install as skill |
 
-**URL**: https://awesome-skills.dev/skills/energy/virtual-power-plant-operator/SKILL.md
+**URL**: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/virtual-power-plant-operator/SKILL.md
 
 ---
 
@@ -374,12 +374,12 @@ Step 4: Verify and Report
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/energy/virtual-power-plant-operator/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/virtual-power-plant-operator/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://awesome-skills.dev/skills/energy/virtual-power-plant-operator/SKILL.md and apply virtual-power-plant-operator skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/virtual-power-plant-operator/SKILL.md and apply virtual-power-plant-operator skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

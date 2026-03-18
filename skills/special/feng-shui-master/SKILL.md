@@ -137,7 +137,7 @@ The key is: clear pathways from entry to rest areas, command position for beds/d
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/special/feng-shui-master.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master.md`
 
 ---
 
@@ -295,13 +295,13 @@ Step 6: Set timeline for observing results (typically 1-3 months)
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/special/feng-shui-master.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/special/feng-shui-master.md and apply feng shui master skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/feng-shui-master.md and apply feng shui master skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

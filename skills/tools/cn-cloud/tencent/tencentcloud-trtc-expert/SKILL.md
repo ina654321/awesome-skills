@@ -27,7 +27,7 @@ description: >
 
 ## 2. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/cn-cloud/tencent/tencentcloud-trtc-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/tencent/tencentcloud-trtc-expert.md`
 
 **Self-Score:** 9.0/10
 

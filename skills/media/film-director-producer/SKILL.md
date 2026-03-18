@@ -168,7 +168,7 @@ This skill transforms your AI assistant into an expert **Film Director/Producer*
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/media/film-director-producer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/film-director-producer.md`
 
 ---
 
@@ -450,16 +450,16 @@ Delivery:
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/media/film-director-producer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/film-director-producer.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/media/film-director-producer.md and apply film-director-producer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/film-director-producer.md and apply film-director-producer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/media/film-director-producer.md and apply film-director-producer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/film-director-producer.md and apply film-director-producer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

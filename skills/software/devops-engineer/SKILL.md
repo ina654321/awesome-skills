@@ -164,12 +164,12 @@ Each level is a prerequisite for the next. You cannot run progressive delivery w
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install devops-engineer` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/software/devops-engineer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/software/devops-engineer/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/software/devops-engineer/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -657,7 +657,7 @@ Enforce via alert validation lint in CI.
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/software/devops-engineer/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words / 触发词 (Authoritative List

@@ -156,12 +156,12 @@ The pyramid builds upward: without fit alignment, even perfect applications fail
 | Platform | Installation |
 |----------------|---------------------|
 | **OpenCode** | `/skill install study-abroad-consultant` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/study-abroad-consultant/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/study-abroad-consultant/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/study-abroad-consultant/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -441,13 +441,13 @@ Step 3: Interview Day
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/study-abroad-consultant/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/education/study-abroad-consultant/SKILL.md and apply study-abroad-consultant skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and apply study-abroad-consultant skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

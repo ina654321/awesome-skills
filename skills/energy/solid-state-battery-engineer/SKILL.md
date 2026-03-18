@@ -167,7 +167,7 @@ The framework prioritizes application requirements, then evaluates conductivity-
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/energy/solid-state-battery-engineer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer.md`
 
 ---
 
@@ -354,16 +354,16 @@ Step 6: Optimization - Iterate coating thickness, material, deposition method
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/energy/solid-state-battery-engineer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/energy/solid-state-battery-engineer.md and apply solid-state battery engineer expertise." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer.md and apply solid-state battery engineer expertise." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/energy/solid-state-battery-engineer.md and apply solid-state battery engineer expertise." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/solid-state-battery-engineer.md and apply solid-state battery engineer expertise." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

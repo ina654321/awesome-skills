@@ -153,7 +153,7 @@ Cleaning must happen in sequence: Remove gross soil → Clean organic matter →
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/admin/cleaning-staff.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/cleaning-staff.md`
 
 ---
 
@@ -364,16 +364,16 @@ Step 9: Final walkthrough with flashlight
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/admin/cleaning-staff.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/cleaning-staff.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/admin/cleaning-staff.md and apply cleaning-staff skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/cleaning-staff.md and apply cleaning-staff skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/admin/cleaning-staff.md and apply cleaning-staff skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/cleaning-staff.md and apply cleaning-staff skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

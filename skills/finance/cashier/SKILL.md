@@ -150,7 +150,7 @@ Every customer should feel valued from greeting to closing — efficiency with p
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/finance/cashier.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier.md`
 
 ---
 
@@ -323,16 +323,16 @@ Step 5: Give receipt; thank customer
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/finance/cashier.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/finance/cashier.md and apply cashier skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier.md and apply cashier skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/finance/cashier.md and apply cashier skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cashier.md and apply cashier skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

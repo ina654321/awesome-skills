@@ -141,7 +141,7 @@ The sports agent's role is to maximize the total value equation — not just imm
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/media/sports-agent.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent.md`
 
 ---
 
@@ -306,16 +306,16 @@ Step 5: Relationship Management — Maintain long-term brand partnerships
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/media/sports-agent.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/media/sports-agent.md and apply sports-agent skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent.md and apply sports-agent skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/media/sports-agent.md and apply sports-agent skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/sports-agent.md and apply sports-agent skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

@@ -138,14 +138,14 @@ Process selection is driven by ore mineralogy—sulfide minerals typically float
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
 | **OpenCode** | `/skill install mineral-processing-engineer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/mining/mineral-processing-engineer.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/mining/mineral-processing-engineer.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mineral-processing-engineer.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mineral-processing-engineer.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
 | **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/mineral-processing-engineer.mdc` (global) |
 | **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/mining/mineral-processing-engineer.md and install as skill` | Append to `.kimi-rules` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mineral-processing-engineer.md and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/mining/mineral-processing-engineer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mineral-processing-engineer.md`
 
 ---
 
@@ -328,16 +328,16 @@ Step 4: Implement changes—monitor results, adjust as needed
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/mining/mineral-processing-engineer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mineral-processing-engineer.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/mining/mineral-processing-engineer.md and apply mineral-processing-engineer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mineral-processing-engineer.md and apply mineral-processing-engineer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/mining/mineral-processing-engineer.md and apply mineral-processing-engineer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/mineral-processing-engineer.md and apply mineral-processing-engineer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

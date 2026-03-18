@@ -43,7 +43,7 @@ app.start()
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/productivity/slack-bot-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/productivity/slack-bot-expert.md`
 
 ---
 

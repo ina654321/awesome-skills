@@ -152,14 +152,14 @@ The learner advances only when they demonstrate competency — not based on time
 | Platform | Installation |
 |----------------|--------------------------|
 | **OpenCode** | `/skill install vocational-trainer` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/vocational-trainer/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/vocational-trainer/SKILL.md and follow instructions` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and install as skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and follow instructions` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/vocational-trainer/SKILL.md and follow instructions` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and follow instructions` |
 
-**URL**: `https://awesome-skills.dev/skills/education/vocational-trainer.md`
+**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer.md`
 
 ---
 
@@ -422,16 +422,16 @@ Step 5: Post-Exam
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/vocational-trainer/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/education/vocational-trainer/SKILL.md and apply vocational-trainer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and apply vocational-trainer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/education/vocational-trainer/SKILL.md and apply vocational-trainer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and apply vocational-trainer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

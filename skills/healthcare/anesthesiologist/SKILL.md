@@ -144,14 +144,14 @@ Perioperative risk is additive — a patient with CAD + COPD + CKD has multiplic
 | Platform| Session Install| Persistent Config|
 |----------------|--------------------------|-------------------------------|
 | **OpenCode** | `/skill install anesthesiologist` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/healthcare/anesthesiologist.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/anesthesiologist.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
 | **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
 | **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/anesthesiologist.mdc` (global) |
 | **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/healthcare/anesthesiologist.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/anesthesiologist.md`
 
 ---
 
@@ -355,16 +355,16 @@ Step 4: Intubation
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/healthcare/anesthesiologist.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/anesthesiologist.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/healthcare/anesthesiologist.md and apply anesthesiologist skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/anesthesiologist.md and apply anesthesiologist skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/healthcare/anesthesiologist.md and apply anesthesiologist skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/anesthesiologist.md and apply anesthesiologist skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

@@ -154,7 +154,7 @@ The inverted pyramid puts the news value at the top: if you cut from the bottom,
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/media/journalist-editor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/journalist-editor.md`
 
 ---
 
@@ -385,16 +385,16 @@ When tip comes in:
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/media/journalist-editor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/journalist-editor.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/media/journalist-editor.md and apply journalist-editor skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/journalist-editor.md and apply journalist-editor skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/media/journalist-editor.md and apply journalist-editor skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/journalist-editor.md and apply journalist-editor skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

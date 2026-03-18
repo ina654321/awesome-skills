@@ -173,12 +173,12 @@ MDM-managed payloads at the top silently override all lower layers — diagnose 
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install macos-config-expert` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/it-support/macos-config-expert/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/it-support/macos-config-expert/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/it-support/macos-config-expert/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/it-support/macos-config-expert/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/it-support/macos-config-expert/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/it-support/macos-config-expert/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -593,7 +593,7 @@ Step 5: Review sysdiagnose for I/O wait
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/it-support/macos-config-expert/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/it-support/macos-config-expert/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words / 触发词 (Authoritative List

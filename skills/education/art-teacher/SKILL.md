@@ -159,12 +159,12 @@ Build from the ground up: first learn to see, then render form, then control col
 | Platform / 平台 | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install art-teacher` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/art-teacher/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/art-teacher/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/art-teacher/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/art-teacher/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/art-teacher/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/art-teacher/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -600,7 +600,7 @@ Everyone started where you are now.
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/art-teacher/SKILL.md and follow the instructions to install
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/art-teacher/SKILL.md and follow the instructions to install
 ```
 
 ### Trigger Words

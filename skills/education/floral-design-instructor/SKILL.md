@@ -156,12 +156,12 @@ Build from the ground up: container choice determines mechanics; conditioning en
 | Platform | Installation |
 |----------------|---------------------|
 | **OpenCode** | `/skill install floral-design-instructor` |
-| **OpenClaw** | `Read https://awesome-skills.dev/skills/education/floral-design-instructor/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://awesome-skills.dev/skills/education/floral-design-instructor/SKILL.md and follow the instructions to install` |
+| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/floral-design-instructor/SKILL.md and install as a skill` |
+| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/floral-design-instructor/SKILL.md and follow the instructions to install` |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://awesome-skills.dev/skills/education/floral-design-instructor/SKILL.md and follow the instructions to install` |
+| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/floral-design-instructor/SKILL.md and follow the instructions to install` |
 
 ---
 
@@ -479,7 +479,7 @@ Step 5: Finishing Touches
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/floral-design-instructor/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/floral-design-instructor/SKILL.md and install as skill
 ```
 
 ### Trigger Words

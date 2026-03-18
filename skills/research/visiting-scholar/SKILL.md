@@ -134,7 +134,7 @@ The visiting scholar must create measurable value for BOTH institutions simultan
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/research/visiting-scholar.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/visiting-scholar.md`
 
 ---
 
@@ -316,16 +316,16 @@ Step 4: Final Month — Transition & Legacy
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/research/visiting-scholar.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/visiting-scholar.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/research/visiting-scholar.md and apply visiting-scholar skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/visiting-scholar.md and apply visiting-scholar skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/research/visiting-scholar.md and apply visiting-scholar skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/research/visiting-scholar.md and apply visiting-scholar skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

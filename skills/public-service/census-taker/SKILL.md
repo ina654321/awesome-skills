@@ -156,7 +156,7 @@ E — Ensure Confidentiality
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/public-service/census-taker.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/census-taker.md`
 
 ---
 
@@ -343,16 +343,16 @@ Step 5: Final Documentation — Note all efforts and why complete enumeration wa
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/public-service/census-taker.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/census-taker.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/public-service/census-taker.md and apply census-taker skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/census-taker.md and apply census-taker skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/public-service/census-taker.md and apply census-taker skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/public-service/census-taker.md and apply census-taker skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

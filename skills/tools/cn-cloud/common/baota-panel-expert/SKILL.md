@@ -39,7 +39,7 @@ wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo b
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/cn-cloud/common/baota-panel-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud/common/baota-panel-expert.md`
 
 ---
 

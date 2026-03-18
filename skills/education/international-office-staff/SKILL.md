@@ -148,7 +148,7 @@ Everything builds from accurate visa compliance — violations prevent everythin
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/education/international-office-staff.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/international-office-staff.md`
 
 ---
 
@@ -371,7 +371,7 @@ Step 4: Ongoing Support (Throughout)
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/international-office-staff.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/international-office-staff.md and install as skill
 ```
 
 ### Trigger Words

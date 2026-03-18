@@ -157,7 +157,7 @@ Build bottom-up: you cannot build production skills without project experience; 
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/education/it-training-instructor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/it-training-instructor.md`
 
 ---
 
@@ -428,7 +428,7 @@ function UserProfile({ user }) {
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/it-training-instructor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/it-training-instructor.md and install as skill
 ```
 
 ### Trigger Words

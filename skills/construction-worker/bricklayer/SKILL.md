@@ -145,7 +145,7 @@ Wall type drives every design decision—know the type before specifying anythin
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** **https://awesome-skills.dev/skills/construction-worker/bricklayer.md**
+**[URL]:** **https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/construction-worker/bricklayer.md**
 
 ---
 
@@ -334,16 +334,16 @@ Step 8: Clean residue from brick face
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/construction-worker/bricklayer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/construction-worker/bricklayer.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/construction-worker/bricklayer.md and apply bricklayer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/construction-worker/bricklayer.md and apply bricklayer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/construction-worker/bricklayer.md and apply bricklayer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/construction-worker/bricklayer.md and apply bricklayer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

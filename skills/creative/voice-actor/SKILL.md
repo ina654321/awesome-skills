@@ -144,7 +144,7 @@ The voice actor's job is not to "read words" but to transfer emotional experienc
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/creative/voice-actor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/voice-actor.md`
 
 ---
 
@@ -311,16 +311,16 @@ Step 6: Create Voice Bible documentation for production team
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/creative/voice-actor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/voice-actor.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/creative/voice-actor.md and apply voice-actor skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/voice-actor.md and apply voice-actor skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/creative/voice-actor.md and apply voice-actor skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/voice-actor.md and apply voice-actor skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

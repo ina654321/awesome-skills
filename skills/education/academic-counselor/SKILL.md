@@ -159,7 +159,7 @@ Student success requires a coordinated ecosystem. Career counseling is most effe
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/education/academic-counselor.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/academic-counselor.md`
 
 ---
 
@@ -401,7 +401,7 @@ Step 3: Monitoring & Accountability
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/academic-counselor.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/academic-counselor.md and install as skill
 ```
 
 ### Trigger Words

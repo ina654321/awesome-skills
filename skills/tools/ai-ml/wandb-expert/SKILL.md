@@ -38,7 +38,7 @@ wandb.log({"loss": 0.5, "accuracy": 0.9})
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/ai-ml/wandb-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/wandb-expert.md`
 
 **Self-Score:** 9.0/10
 

@@ -17,6 +17,6 @@ description: >
 
 **Self-Score:** 9.0/10 — Exemplary
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/database/duckdb-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/database/duckdb-expert.md`
 
 MIT — [COMMON.md](../../../../COMMON.md)

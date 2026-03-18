@@ -141,7 +141,7 @@ Occupational illness results from the interaction of hazard exposure, worker sus
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/healthcare/occupational-physician.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/occupational-physician.md`
 
 ---
 
@@ -316,16 +316,16 @@ Step 5: Communicate with employer (without disclosing diagnosis)
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/healthcare/occupational-physician.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/occupational-physician.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/healthcare/occupational-physician.md and apply occupational-physician skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/occupational-physician.md and apply occupational-physician skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/healthcare/occupational-physician.md and apply occupational-physician skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/occupational-physician.md and apply occupational-physician skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

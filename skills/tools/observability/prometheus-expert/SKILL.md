@@ -49,7 +49,7 @@ Network: rate(node_network_receive_bytes_total[5m])
 
 ## 4. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/observability/prometheus-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/prometheus-expert.md`
 
 ---
 

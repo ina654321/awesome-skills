@@ -871,28 +871,28 @@ describe('Authentication', () => {
 
 **Universal (any AI assistant)
 ```
-Read https://awesome-skills.dev/skills/software/qa-engineer/SKILL.md and apply
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/qa-engineer/SKILL.md and apply
 ```
 
 **Claude Code
 ```bash
 mkdir -p ~/.claude/skills
 curl -o ~/.claude/skills/qa-engineer.md \
-  https://awesome-skills.dev/skills/software/qa-engineer/SKILL.md
+  https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/qa-engineer/SKILL.md
 ```
 
 **OpenClaw:**
 ```bash
 mkdir -p ~/.openclaw/skills/qa-engineer
 curl -o ~/.openclaw/skills/qa-engineer/SKILL/SKILL.md \
-  https://awesome-skills.dev/skills/software/qa-engineer/SKILL.md
+  https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/qa-engineer/SKILL.md
 ```
 
 **Cursor / Cline
 ```bash
 # Add to your project's .cursor/rules or .clinerules
 curl -o .cursor/rules/qa-engineer.md \
-  https://awesome-skills.dev/skills/software/qa-engineer/SKILL.md
+  https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/qa-engineer/SKILL.md
 ```
 
 ### Usage Patterns

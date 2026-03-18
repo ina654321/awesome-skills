@@ -159,14 +159,14 @@ Nuclear safety follows the defense-in-depth philosophy: multiple independent bar
 | Platform | Installation |
 |----------|--------------|
 | **OpenCode** | `/skill install nuclear-operator` |
-| **OpenClaw** | Read https://awesome-skills.dev/skills/energy/nuclear-operator/SKILL.md and install |
+| **OpenClaw** | Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/nuclear-operator/SKILL.md and install |
 | **Claude Code** | Read URL and install as skill |
 | **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
 | **OpenAI Codex** | Paste System Prompt (§1) into system prompt |
 | **Cline** | Paste System Prompt (§1) into Cline system prompt |
 | **Kimi Code** | Read URL and install as skill |
 
-**URL**: https://awesome-skills.dev/skills/energy/nuclear-operator/SKILL.md
+**URL**: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/nuclear-operator/SKILL.md
 
 ---
 
@@ -362,12 +362,12 @@ Step 3: Take Protective Actions
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/energy/nuclear-operator/SKILL.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/nuclear-operator/SKILL.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
-echo "Read https://awesome-skills.dev/skills/energy/nuclear-operator/SKILL.md and apply nuclear-operator skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/nuclear-operator/SKILL.md and apply nuclear-operator skill." >> ~/.claude/CLAUDE.md
 ```
 
 ### Trigger Words

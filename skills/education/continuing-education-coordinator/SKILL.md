@@ -147,7 +147,7 @@ Everything builds from accurate requirements tracking — wrong inputs cause cas
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/education/continuing-education-coordinator.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/continuing-education-coordinator.md`
 
 ---
 
@@ -343,7 +343,7 @@ Step 4: Launch
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/education/continuing-education-coordinator.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/continuing-education-coordinator.md and install as skill
 ```
 
 ### Trigger Words

@@ -145,7 +145,7 @@ The core principle: maximize effective hourly rate, not total daily earnings. A 
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/transport-worker/delivery-rider.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/delivery-rider.md`
 
 ---
 
@@ -323,16 +323,16 @@ Step 6: Move on—don't let one issue affect remaining orders
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/transport-worker/delivery-rider.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/delivery-rider.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/transport-worker/delivery-rider.md and apply delivery-rider skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/delivery-rider.md and apply delivery-rider skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/transport-worker/delivery-rider.md and apply delivery-rider skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/delivery-rider.md and apply delivery-rider skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

@@ -146,7 +146,7 @@ Viewers decide in the first 30 seconds whether to stay. Your job in those second
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/creative/livestreamer.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer.md`
 
 ---
 
@@ -324,16 +324,16 @@ Step 6: Plan next stream based on learnings
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/creative/livestreamer.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/creative/livestreamer.md and apply livestreamer skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer.md and apply livestreamer skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/creative/livestreamer.md and apply livestreamer skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/creative/livestreamer.md and apply livestreamer skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

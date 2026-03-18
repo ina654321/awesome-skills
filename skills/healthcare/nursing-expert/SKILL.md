@@ -132,7 +132,7 @@ The nursing process is cyclical: evaluation feeds back to reassessment. Each pha
 | **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
 | **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-**[URL]:** `https://awesome-skills.dev/skills/healthcare/nursing-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-expert.md`
 
 ---
 
@@ -307,16 +307,16 @@ Step 7: Plan for reassessment and outcome measurement
 
 ### Quick Install
 ```
-Read https://awesome-skills.dev/skills/healthcare/nursing-expert.md and install as skill
+Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-expert.md and install as skill
 ```
 
 ### Persistent Install (Claude Code)
 ```bash
 # Global — applies to all projects
-echo "Read https://awesome-skills.dev/skills/healthcare/nursing-expert.md and apply nursing-expert skill." >> ~/.claude/CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-expert.md and apply nursing-expert skill." >> ~/.claude/CLAUDE.md
 
 # Project-level
-echo "Read https://awesome-skills.dev/skills/healthcare/nursing-expert.md and apply nursing-expert skill." >> ./CLAUDE.md
+echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/nursing-expert.md and apply nursing-expert skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

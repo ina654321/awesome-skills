@@ -49,7 +49,7 @@ test:
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/cicd/gitlab-cicd-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cicd/gitlab-cicd-expert.md`
 
 ---
 

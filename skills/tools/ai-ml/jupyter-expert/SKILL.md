@@ -50,7 +50,7 @@ You are a data science productivity expert with deep Jupyter experience.
 
 ## 4. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/ai-ml/jupyter-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/jupyter-expert.md`
 
 ---
 

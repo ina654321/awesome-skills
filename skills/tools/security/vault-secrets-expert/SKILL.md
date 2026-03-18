@@ -41,7 +41,7 @@ AWS/IAM → Cloud credentials
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/security/vault-secrets-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/security/vault-secrets-expert.md`
 
 ---
 

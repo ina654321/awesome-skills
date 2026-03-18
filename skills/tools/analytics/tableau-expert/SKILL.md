@@ -38,7 +38,7 @@ LOD (Level of Detail):
 
 ## 3. Platform Support
 
-**[URL]:** `https://awesome-skills.dev/skills/tools/analytics/tableau-expert.md`
+**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/analytics/tableau-expert.md`
 
 ---
 
