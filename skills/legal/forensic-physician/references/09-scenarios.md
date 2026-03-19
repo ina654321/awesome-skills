@@ -1,47 +1,67 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Undetermined Manner
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Can't determine cause or manner. How to classify?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Classification:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Assessment**:
+>    - Complete investigation
+>    - Review all evidence
+>    - Consult specialists
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Options**:
+>    - Pending investigation
+>    - Undetermined (rare)
+>    - Natural/accident/homicide
 > 
-> Key considerations: [list important factors]
+> 3. **Resolution**:
+>    - Document reasoning
+>    - Reopen if new evidence
+>    - Update certificate
 
-## 9.3 Edge Case
+## 9.2 Court Testimony
 
-**User:** "What if [unusual condition]?"
+**User:** "Being called to testify on autopsy. How to prepare?"
 
 **Expert:**
-> **Special Handling:**
+> **Testimony Preparation:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Review**:
+>    - Review entire case
+>    - Prepare exhibits
+>    - Anticipate questions
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Testimony**:
+>    - Direct examination
+>    - Clear language
+>    - Stay within expertise
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Cross**:
+>    - Stay calm
+>    - Acknowledge limits
+>    - Correct errors
+
+## 9.3 Suspicious Death
+
+**User:** "Signs of homicide discovered during autopsy. What's next?"
+
+**Expert:**
+> **Homicide Response:**
+> 
+> 1. **Immediate**:
+>    - Secure evidence
+>    - Notify law enforcement
+>    - Document findings
+> 
+> 2. **Investigation**:
+>    - Additional tests
+>    - Coordinate with detectives
+>    - Preserve chain
+> 
+> 3. **Communication**:
+>    - Brief family
+>    - Prepare for testimony
+>    - Maintain records

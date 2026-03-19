@@ -1,27 +1,39 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Statistical Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **P-hacking** | 🔴 High | Pre-register hypotheses |
+| 2 | **Cherry-picking results** | 🔴 High | Report all analyses |
+| 3 | **Ignoring weighting** | 🔴 High | Apply weights correctly |
+| 4 | **Wrong inference** | 🟡 Medium | Understand test assumptions |
+| 5 | **Missing context** | 🟡 Medium | Provide full picture |
 
-## 10.2 Best Practices
+## 10.2 Documentation Failures
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Methodology Issues:**
+- No sampling methodology documented
+- Missing weighting variables
+- Undocumented exclusions
+- No variance estimation
+- Unclear suppression rules
 
-## 10.3 Quality Checklist
+## 10.3 Communication Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Stakeholder Misunderstandings:**
+- Presenting estimates without margins of error
+- Claiming causation from correlation
+- Overstating precision
+- Using technical jargon inappropriately
+
+## 10.4 Quality Checklist
+
+- [ ] Sample design documented
+- [ ] Weighting methodology explained
+- [ ] Variance estimation included
+- [ ] Disclosure review completed
+- [ ] All results reported (not selective)
+- [ ] Limitations acknowledged
+- [ ] Code/reproducibility materials
+- [ ] Peer review conducted

@@ -1,33 +1,29 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Mining Regulations
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### MSHA Standards
+| Standard | Application |
+|----------|-------------|
+| 30 CFR | Mining safety |
+| 36.1-36.9 | Health standards |
+| 71.100 | Noise exposure |
 
-## 7.2 Configuration Reference
+### Environmental
+- Clean Water Act (Section 402)
+- State mining permits
+- Reclamation requirements
 
-### Basic Configuration
+## 7.2 Processing Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Design Standards
+| Parameter | Standard |
+|-----------|----------|
+| Availability | 85%+ design |
+| Recovery | Per feasibility |
+| Product specs | Market requirements |
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Equipment Sizing
+- Jaw crushers: 10-12 tph/inch of feed
+- Ball mills: 35-40% volume load
+- Flotation: 1-2 min residence

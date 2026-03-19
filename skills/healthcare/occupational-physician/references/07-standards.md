@@ -1,33 +1,56 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Occupational Medicine Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [ACOEM Guidelines](https://www.acoem.org) - American College of Occupational and Environmental Medicine
+- [OSHA Standards](https://www.osha.gov) - Workplace safety regulations
+- [MRO Guidelines](https://www.transportation.gov) - Medical review officer standards
+- [DOT Physical Standards](https://www.fmcsa.dot.gov) - Commercial driver certification
+- [NIOSH Standards](https://www.cdc.gov/niosh/index.html) - Workplace health
 
-## 7.2 Configuration Reference
+## 7.2 OSHA Recordkeeping
 
-### Basic Configuration
+```
+Recordable Illness/Injury:
+├── Death
+├── Days away from work
+├── Restricted work
+├── Transfer to another job
+├── Medical treatment beyond first aid
+└── Loss of consciousness
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+First Aid (Not Recordable):
+├── Tetanus shots
+├── Bandages, butterfly closures
+├── Non-prescription medications
+└── Wound irrigation
 ```
 
-## 7.3 Common Commands
+## 7.3 Fitness for Duty
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Evaluation Components:
+├── Physical capabilities assessment
+├── Job demands analysis
+├── Risk factor identification
+├── Accommodation assessment
+└── Return-to-work clearance
 
-## 7.4 Version Compatibility
+Light Duty:
+├── Defined restrictions
+├── Time-limited
+├── Transitional work
+└── Progressive return
+```
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.4 Workers Compensation
+
+```
+Claim Process:
+├── First report of injury
+├── Medical authorization
+├── Treatment plan review
+├── Work capacity evaluation
+├── Settlement considerations
+└── RTW coordination
+```

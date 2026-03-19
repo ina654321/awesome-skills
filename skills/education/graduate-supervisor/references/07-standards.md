@@ -2,32 +2,37 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [CGS Graduate Education Standards](https://www.cgsnet.org/) - Council of Graduate Schools guidelines
+- [Malaysia Qualifications Framework](https://www.mqa.gov.my/) - National qualifications framework for higher education
+- [APM Postgraduate Assessment Standards](https://www.ukcisa.org.uk/) - UK assessment and progress monitoring guidelines
+- [Responsible Conduct of Research (RCR)](https://www.nsf.gov/sbe/advisory.jsp) - NIH/NSF research ethics standards
 
-## 7.2 Configuration Reference
+## 7.2 Graduate Program Standards
 
-### Basic Configuration
+| Element | Standard |
+|---------|----------|
+| Milestone timeline | Qualifying exam within 18 months; prospectus within 30 months |
+| Supervision hours | Minimum 1 hour/month formal supervision meeting |
+| Annual review | Written progress report required each academic year |
+| Dissertation committee | Minimum 3 members; at least 1 external to department |
+| Candidacy requirements | Complete required coursework; pass qualifying exams; defend proposal |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Assessment Rubrics
 
-## 7.3 Common Commands
+### Dissertation Proposal Defense
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| Criterion | Satisfactory | Needs Revision | Unsatisfactory |
+|-----------|:---:|:---:|:---:|
+| Literature review | Comprehensive coverage of field; identifies gap | Partial coverage; gap unclear | Narrow or outdated review |
+| Research design | Methodologically sound; feasible timeline | Design flawed but salvageable | Fatal methodological flaws |
+| Theoretical framework | Clearly articulated; justifies approach | Present but weakly connected | Absent or inappropriate |
+| Contribution | Specifies original contribution to field | Contribution implied | No clear contribution |
+| Writing quality | Clear, well-organized, APA compliant | Some clarity issues | Poor organization and grammar |
 
-## 7.4 Version Compatibility
+## 7.4 Academic Integrity Standards
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- Plagiarism detection: All dissertations screened via Turnitin or iThenticate
+- Data integrity: Raw data must be preserved for minimum 5 years
+- Authorship: ICMJE criteria must be met; ghost authorship prohibited
+- Conflict of interest: Disclose all funding sources and competing interests
+- IRB/IACUC approval: Required before data collection involving human/animal subjects

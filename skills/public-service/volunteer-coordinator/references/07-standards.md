@@ -1,33 +1,24 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Volunteer Management Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### National Standards
+- [Volunteer Protection Act](https://www.志愿服务.org/): Liability protection for nonprofits
+- [ AmeriCorps regulations](https://www.nationalservice.gov/programs/americorps): National service standards
+- [VA Volunteer Service Standards](https://www.volunteer.va.gov/): VA volunteer guidelines
+- [Points of Light](https://www.pointsoflight.org/): Volunteer management best practices
 
-## 7.2 Configuration Reference
+### Risk Management
+| Standard | Application |
+|----------|-------------|
+| **[IRS 987](https://www.irs.gov/credits-deductions/charitable-contributions)** | Volunteer expense reimbursement |
+| **[OSHA General Duty Clause](https://www.osha.gov/laws-regs/oshact/section5-duties)** | Volunteer safety |
+| **[FERPA](https://studentprivacy.ed.gov/)** | Student volunteer records |
+| **[HIPAA](https://www.hhs.gov/hipaa/)** | Health-related volunteer programs |
 
-### Basic Configuration
+## 7.2 Certification & Training
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [CVA (Certified Volunteer Administrator)](https://www.volunteeralive.org/): Volunteer management certification
+- [Red Cross Volunteer Standards](https://www.redcross.org/volunteer/): Disaster response volunteers
+- [FEMA Volunteer Guidelines](https://www.fema.gov/emergency-managers/practitioners/volunteer-coordinators): Emergency volunteer mgmt
+- [VOAD (Voluntary Organizations Active in Disaster)](https://www.nvoad.org/): Disaster coordination

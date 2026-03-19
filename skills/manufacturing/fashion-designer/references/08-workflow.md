@@ -1,37 +1,20 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Design Process
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Development Steps
+1. Research trend
+2. Sketch concepts
+3. Create tech pack
+4. Develop patterns
+5. Sample and adjust
+6. Finalize tech package
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+## 8.2 Production Workflow
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
-
-## 8.2 Common Workflows
-
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Handoff to Production
+1. Tech package review
+2. Marker making
+3. Cut and sew
+4. Quality check
+5. Final approval

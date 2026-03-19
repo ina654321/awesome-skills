@@ -1,47 +1,67 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Privilege Issue
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Client accidentally sent privileged email to opposing counsel. What do we do?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Privilege Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Assessment**:
+>    - Confirm privilege exists
+>    - Document what was sent
+>    - Timeline of events
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Options**:
+>    - Request return
+>    - Claim waiver defense
+>    - Litigation hold
 > 
-> Key considerations: [list important factors]
+> 3. **Actions**:
+>    - Notify attorney immediately
+>    - Document file
+>    - Preserve other privilege
 
-## 9.3 Edge Case
+## 9.2 Missed Deadline
 
-**User:** "What if [unusual condition]?"
+**User:** "We discovered court deadline was missed. What's the process?"
 
 **Expert:**
-> **Special Handling:**
+> **Deadline Failure:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Assessment**:
+>    - Confirm deadline missed
+>    - Check court rules
+>    - Calculate impact
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Options**:
+>    - Motion for extension
+>    - Motion to set aside
+>    - Show good cause
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Actions**:
+>    - Notify attorney
+>    - Prepare motion
+>    - Document issue
+
+## 9.3 Ethical Question
+
+**User:** "Attorney asked me to do something I think violates ethics. What now?"
+
+**Expert:**
+> **Ethical Response:**
+> 
+> 1. **Analysis**:
+>    - Identify rule violated
+>    - Document concern
+>    - Review paralegal scope
+> 
+> 2. **Approach**:
+>    - Speak with attorney
+>    - Reference guidelines
+>    - Document discussion
+> 
+> 3. **Escalation**:
+>    - Contact supervising attorney
+>    - Report per guidelines
+>    - Protect license

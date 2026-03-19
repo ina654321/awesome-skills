@@ -1,47 +1,68 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Data Breach Response
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "We've detected unauthorized access to our database. What's the response plan?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Breach Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Containment**:
+>    - Isolate affected systems
+>    - Preserve evidence
+>    - Reset credentials
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Assessment**:
+>    - Determine scope
+>    - Identify data exposed
+>    - Assess impact
 > 
-> Key considerations: [list important factors]
+> 3. **Notification**:
+>    - Report to regulators (72 hrs)
+>    - Notify affected customers
+>    - File required reports
 
-## 9.3 Edge Case
+## 9.2 Payment Integration Security
 
-**User:** "What if [unusual condition]?"
+**User:** "Building payment integration with third-party processor. What security controls needed?"
 
 **Expert:**
-> **Special Handling:**
+> **Payment Security:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Tokenization**:
+>    - Use payment tokens
+>    - Never store card data
+>    - Implement PCI DSS
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **API Security**:
+>    - OAuth/API keys
+>    - Encryption in transit
+>    - Rate limiting
+>    - Input validation
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Monitoring**:
+>    - Transaction monitoring
+>    - Fraud detection
+>    - Logging and alerting
+
+## 9.3 Algorithm Bias
+
+**User:** "Our lending algorithm shows potential discrimination. How to handle?"
+
+**Expert:**
+> **Algorithm Fairness:**
+> 
+> 1. **Assessment**:
+>    - Run fairness tests
+>    - Identify protected classes
+>    - Measure impact
+> 
+> 2. **Remediation**:
+>    - Review feature selection
+>    - Adjust model
+>    - Add fairness constraints
+> 
+> 3. **Governance**:
+>    - Document approach
+>    - Regular audits
+    - Board reporting

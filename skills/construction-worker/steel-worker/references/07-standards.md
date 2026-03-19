@@ -1,33 +1,34 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Structural Steel Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### AISC Standards
+| Standard | Application |
+|----------|-------------|
+| AISC 360 | Specification for structural steel buildings |
+| AISC 341 | Seismic provisions for structural steel buildings |
+| AISC 358 | Prequalified connections |
+| AISC 303 | Code of standard practice |
 
-## 7.2 Configuration Reference
+### ASTM Materials
+| Grade | Application |
+|-------|-------------|
+| A36 | Carbon structural steel |
+| A572 Gr 50 | High-strength low-alloy |
+| A992 | W-shape for moment frames |
+| A500 | Hollow structural sections |
 
-### Basic Configuration
+## 7.2 Welding Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### AWS Codes
+| D1.1 | Structural welding code - steel |
+| D1.8 | Seismic welding code |
+| A2.4 | Standard symbols for welding |
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Weld Types
+| Type | Symbol | Application |
+|------|--------|-------------|
+| Fillet | Triangle | General connection |
+| Groove | V/Bevel | Heavy stress |
+| Plug | Square | Limited access |
+| Tack | X | Temporary |

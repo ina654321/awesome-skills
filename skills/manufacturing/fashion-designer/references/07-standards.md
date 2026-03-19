@@ -1,33 +1,35 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Industry Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Size Standards
+| Size | Bust | Waist | Hip |
+|------|------|-------|-----|
+| XS | 32 | 24 | 34 |
+| S | 34 | 26 | 36 |
+| M | 36 | 28 | 38 |
+| L | 38 | 30 | 40 |
+| XL | 40 | 32 | 42 |
 
-## 7.2 Configuration Reference
+### Pattern Grading
+| Size Change | Bust | Waist | Hip |
+|-------------|------|-------|-----|
+| XS to S | +2 | +2 | +2 |
+| S to M | +2 | +2 | +2 |
+| M to L | +2 | +2 | +2 |
 
-### Basic Configuration
+## 7.2 Technical Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Measurement Points
+- Shoulder width
+- Armhole depth
+- Waist placement
+- Hem length
+- Inseam
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Seam Allowances
+| Seam | Allowance |
+|------|-----------|
+| Classic | 5/8" |
+| Serge | 1/4" |
+| Flat-fell | 1/4" |

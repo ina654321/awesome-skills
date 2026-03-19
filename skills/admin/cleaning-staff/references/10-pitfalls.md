@@ -1,27 +1,57 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Safety Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Mixing Chemicals
+**Risk**: Toxic fumes, chemical burns, explosion
+**Solution**: Never mix chemicals, use correct product for surface
 
-## 10.2 Best Practices
+### Not Using PPE
+**Risk**: Injury, chemical exposure
+**Solution**: Use gloves, goggles as required
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Improper Lifting
+**Risk**: Back injury
+**Solution**: Bend at knees, get help for heavy items
 
-## 10.3 Quality Checklist
+## 10.2 Quality Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Skipping Areas
+**Risk**: Customer complaints, inspection failures
+**Solution**: Follow checklist, complete all assigned areas
+
+### Using Dirty Tools
+**Risk**: Spreading dirt, cross-contamination
+**Solution**: Clean tools between areas, use clean cloths
+
+### Wrong Product on Surface
+**Risk**: Damage, ineffective cleaning
+**Solution**: Read labels, know which products to use
+
+## 10.3 Time Management Pitfalls
+
+### Procrastination
+**Risk**: Incomplete work, overtime
+**Solution**: Work steadily through checklist
+
+### Inefficient Movement
+**Risk**: Wasted time, missed areas
+**Solution**: Plan route before starting
+
+### Not Asking for Help
+**Risk**: Overwhelmed, incomplete work
+**Solution**: Communicate with supervisor early
+
+## 10.4 Communication Pitfalls
+
+### Not Reporting Issues
+**Risk**: Unresolved problems, safety hazards
+**Solution**: Report any damage, supply needs, concerns
+
+### Gossip
+**Risk**: Drama, creates bad work environment
+**Solution**: Keep professional, focus on work
+
+### Ignoring Complaints
+**Risk**: Repeat issues, customer dissatisfaction
+**Solution**: Address and report all complaints

@@ -1,37 +1,88 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Patient Intake Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Identification
+├── Referral received (nurse, physician, self)
+├── Initial chart review
+├── Verify patient consent
+├── Assess urgency
+└── Schedule assessment
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Assessment
+├── Bio-psycho-social evaluation
+├── Identify needs and barriers
+├── Assess coping and support
+├── Evaluate financial resources
+├── Assess discharge planning needs
+└── Document findings
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Planning
+├── Develop treatment plan
+├── Prioritize interventions
+├── Set measurable goals
+├── Coordinate with care team
+└── Establish follow-up schedule
 ```
 
-## 8.2 Common Workflows
+## 8.2 Discharge Planning
 
-### Basic Workflow
+```
+Pre-Discharge Assessment:
+├── Functional status
+├── Home environment evaluation
+├── Caregiver availability
+├── Equipment needs
+├── Follow-up appointments
+└── Medication access
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Transition Planning:
+```
+Level of Care Options:
+├── Home with self-care
+├── Home with home health
+├── Skilled nursing facility
+├── Assisted living
+├── Rehabilitation facility
+└── Long-term acute care
+```
 
-### Complex Workflow
+Care Coordination:
+├── Arrange DME/supplies
+├── Schedule follow-up visits
+├── Coordinate home services
+├── Provide community resources
+└── Document discharge instructions
+```
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+## 8.3 Crisis Intervention
+
+```
+Crisis Assessment:
+├── Immediate safety assessment
+├── Stabilization needs
+├── Resource mobilization
+├── Support system activation
+└── Follow-up planning
+
+Types of Crises:
+├── Suicidal ideation
+├── Mental health emergency
+├── Domestic violence
+├── Child/elder abuse
+└── Acute social crisis
+```
+
+## 8.4 Family Meetings
+
+```
+Meeting Structure:
+├── Introduction and purpose
+├── Patient/family concerns
+├── Medical update
+├── Prognosis discussion
+├── Care options review
+├── Decision support
+└── Action plan and follow-up
+```

@@ -1,47 +1,43 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Out-of-Square Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+After raising a wall, you discover it's 1.5" out of square from the baseline.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Do not proceed with sheathing
+2. Check measurements to find error
+3. May need to re-header or rebuild
+4. Adjust sole plate if minor
+5. Consult foreman for major issues
 
-## 9.2 Complex Scenario
+### Prevention
+Measure diagonally both ways before raising
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Wrong Lumber Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Framing lumber delivered is SPF but specs require Douglas Fir for load-bearing header.
 
-## 9.3 Edge Case
+### Steps
+1. Do not install
+2. Notify superintendent
+3. Document delivery
+4. Request correct material
+5. Do not proceed until resolved
 
-**User:** "What if [unusual condition]?"
+### Check Delivery
+Verify materials match specs before starting
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Sagging Floor Scenario
+
+### Situation
+After sheathing, floor feels bouncy. Span is at max allowed.
+
+### Steps
+1. Check joist spacing
+2. Verify joist size matches plans
+3. May need additional blocking
+4. Consult structural engineer
+5. May need sister joists or new headers

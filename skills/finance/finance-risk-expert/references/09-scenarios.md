@@ -1,47 +1,71 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Model Validation
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "We need to validate a new PD model. What approach should we use?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Model Validation Framework:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Technical Assessment**:
+>    - Model documentation review
+>    - Theoretical soundness
+>    - Methodology appropriateness
+>    - Parameter stability testing
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Performance Testing**:
+>    - Backtesting (actual vs predicted)
+>    - Ranking ability analysis
+>    - Calibration assessment
+>    - Segmentation analysis
 > 
-> Key considerations: [list important factors]
+> 3. **Validation Reporting**:
+>    - Findings documentation
+>    - Recommendations
+>    - Approval/decline decision
 
-## 9.3 Edge Case
+## 9.2 Liquidity Crisis
 
-**User:** "What if [unusual condition]?"
+**User:** "Bank experiencing deposit outflows. What immediate risk metrics should we monitor?"
 
 **Expert:**
-> **Special Handling:**
+> **Liquidity Monitoring:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Short-term Metrics**:
+>    - Cash flow projections (1-30 days)
+>    - Available liquid assets
+>    - Funding concentrations
+>    - Wholesale funding roll-offs
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Contingency Planning**:
+>    - Contingent funding sources
+>    - Asset encumbrance levels
+>    - Collateral posting capacity
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Actions**:
+>    - Trigger contingency funding
+>    - Increase asset sales
+>    - Rate adjustments
+
+## 9.3 Stress Test Results
+
+**User:** "Stress test shows capital below minimum. What are our options?"
+
+**Expert:**
+> **Capital Restoration:**
+> 
+> 1. **Scenario Analysis**:
+>    - Identify loss drivers
+>    - Compare to baseline
+>    - Assess tail risk scenarios
+> 
+> 2. **Mitigation Options**:
+>    - Dividend reduction
+>    - RWA optimization
+>    - Capital raise
+>    - Asset sales
+> 
+> 3. **Planning**:
+> - Board capital plan
+> - Regulatory communication
+> - Timeline for remediation

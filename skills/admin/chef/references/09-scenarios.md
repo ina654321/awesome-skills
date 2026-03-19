@@ -1,47 +1,55 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Food Allergy Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Customer with shellfish allergy orders a dish with no shellfish. Kitchen accidentally uses sauce with shellfish stock.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Server notifiy immediately
+2. Remove dish, prepare alternative
+3. Verify allergy is not in new dish
+4. Manager personally delivers and apologizes
+5. Document incident
+6. Retrain team on allergy protocols
 
-## 9.2 Complex Scenario
+### Prevention
+- Allergen matrix on every dish
+- Separate prep area for allergens
+- Ticket flagged for allergies
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Running Out of Menu Item Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Popular menu item sold out during service. 8 orders still waiting.
 
-## 9.3 Edge Case
+### Steps
+1. Notify expediter immediately
+2. Offer alternatives to waiting guests
+3. If possible, make small batch from emergency supply
+4. Update menu board if item unavailable
+5. Adjust prep for next service
+6. Communicate with FOH on timing
 
-**User:** "What if [unusual condition]?"
+### Prevention
+- Real-time inventory tracking
+- Set par levels and track usage
+- Prepare backup menu items
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Equipment Failure Scenario
+
+### Situation
+Walk-in cooler fails during service. Temperature rising.
+
+### Steps
+1. Move all food to backup coolers
+2. Contact maintenance emergency
+3. Monitor food temp every 30 min
+4. If food > 41°F for >4 hours, discard
+5. Document incident and temperatures
+6. Plan for cooler repair/replacement
+
+### Prevention
+- Temperature monitoring system with alerts
+- Backup cooler available
+- Regular maintenance schedule

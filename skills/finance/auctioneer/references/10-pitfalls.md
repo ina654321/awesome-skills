@@ -1,27 +1,40 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Legal Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Unlicensed operation** | 🔴 High | Verify state licensing |
+| 2 | **Fraudulent practices** | 🔴 High | Compliance training |
+| 3 | **Breach of contract** | 🔴 High | Clear contracts |
+| 4 | **Misrepresentation** | 🔴 High | Accurate descriptions |
 
-## 10.2 Best Practices
+## 10.2 Operational Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Inadequate disclosure** | 🟡 Medium | Full transparency |
+| 2 | **Reserve manipulation** | 🔴 High | Honest reserve setting |
+| 3 | **Shill bidding** | 🔴 High | Prohibited by law |
+| 4 | **Payment failures** | 🟡 Medium | Payment verification |
 
-## 10.3 Quality Checklist
+## 10.3 Marketing Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Misleading descriptions** | 🔴 High | Accurate descriptions |
+| 2 | **Inadequate photography** | 🟡 Medium | Professional photos |
+| 3 | **Poor advertising** | 🟡 Medium | Targeted marketing |
+| 4 | **No buyer premium disclosure** | 🔴 High | Clear terms |
+
+## 10.4 Quality Checklist
+
+- [ ] License current
+- [ ] Contract clear
+- [ ] Items accurately described
+- [ ] Reserve properly set
+- [ ] Marketing adequate
+- [ ] Bidder registration complete
+- [ ] Payment terms enforced
+- [ ] Records maintained
+- [ ] Taxes collected

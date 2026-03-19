@@ -1,27 +1,34 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Transaction Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Inadequate due diligence** | 🔴 High | Complete review |
+| 2 | **Regulatory delays** | 🔴 High | Early filing |
+| 3 | **Representation issues** | 🔴 High | Warranty insurance |
 
-## 10.2 Best Practices
+## 10.2 Governance Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Board process errors** | 🔴 High | Proper process |
+| 2 | **Disclosure failures** | 🔴 High | Complete disclosure |
+| 3 | **Compliance misses** | 🔴 High | Tracking system |
 
-## 10.3 Quality Checklist
+## 10.3 Securities Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Registration errors** | 🔴 High | Expert review |
+| 2 | **Insider trading** | 🔴 High | Controls |
+| 3 | **10b-5 issues** | 🔴 High | Disclosure review |
+
+## 10.4 Quality Checklist
+
+- [ ] Due diligence complete
+- [ ] Documentation accurate
+- [ ] Approvals obtained
+- [ ] Disclosures made
+- [ ] Compliance verified
+- [ ] Files organized

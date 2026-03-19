@@ -1,27 +1,35 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Process Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Premature settlement** | 🔴 High | Adequate time |
+| 2 | **Bias/partiality** | 🔴 High | Stay neutral |
+| 3 | **No follow-up** | 🟡 Medium | Monitor compliance |
 
-## 10.2 Best Practices
+## 10.2 Communication Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Interruption** | 🟡 Medium | Listen fully |
+| 2 | **Leading parties** | 🟡 Medium | Facilitate |
+| 3 | **Unbalanced time** | 🟡 Medium | Equal time |
 
-## 10.3 Quality Checklist
+## 10.3 Ethics Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Conflict of interest** | 🔴 High | Screen properly |
+| 2 | **Confidentiality breach** | 🔴 High | Protect information |
+| 3 | **Post-mediation issues** | 🔴 High | Follow rules |
+
+## 10.4 Quality Checklist
+
+- [ ] Pre-mediation done
+- [ ] Parties prepared
+- [ ] Ground rules set
+- [ ] Interests explored
+- [ ] Options generated
+- [ ] Agreement clear
+- [ ] Follow-up planned

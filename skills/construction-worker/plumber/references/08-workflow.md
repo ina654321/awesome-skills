@@ -1,37 +1,48 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Rough-In Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Underground
+1. Layout and grade pipes
+2. Install building drain
+3. Install vent system
+4. Backfill carefully
+5. Pressure test
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Wall Rough-In
+1. Install supply lines
+2. Install drain lines
+3. Install vents
+4. Install supports
+5. Pressure test
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+### Inspection
+- Rough-in inspection before covering
+- Air or water test
+- Verify slope (1/4" per foot for DWV)
+- Verify vent connections
 
-## 8.2 Common Workflows
+## 8.2 Finish Workflow
 
-### Basic Workflow
+### Fixture Installation
+1. Install stops and supply lines
+2. Set fixture level
+3. Connect drain
+4. Seal edges
+5. Test operation
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Final Testing
+1. Test all fixtures
+2. Check for leaks
+3. Verify drainage
+4. Check aerators
+5. Clean and demo
 
-### Complex Workflow
+## 8.3 Safety Workflow
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Daily Safety
+1. Inspect tools
+2. Check PPE
+3. Review job hazards
+4. Secure work area
+5. Clean up at end

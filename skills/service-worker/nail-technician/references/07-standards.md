@@ -1,33 +1,24 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Nail Technology Regulations
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### State Licensing
+- [State Cosmetology Boards](https://www.nictesting.org/): Each state requires nail technician license
+- [Training Requirements](https://www.beautylaunchpad.com/): State-mandated hours (typically 300-600)
+- [Licensing Exam](https://www.nictesting.org/): National Interstate Council (NIC) exam
+- [Renewal Requirements](https://www.beautymag.com/): Continuing education
 
-## 7.2 Configuration Reference
+### Health & Safety
+| Standard | Authority | Focus |
+|---------|----------|-------|
+| **Infection Control** | State board, CDC | Pathogen prevention |
+| **Methyl Methacrylate (MMA)** | FDA, state ban | Banned in many states |
+| **SDS Sheets** | OSHA | Chemical safety |
+| **Ventilation** | OSHA, state | Fume exposure |
 
-### Basic Configuration
+## 7.2 Infection Control Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [CDC Nail Salon Safety](https://www.cdc.gov/nailsalon/): Infection prevention
+- [OSHA Bloodborne Pathogens](https://www.osha.gov/bloodborne-pathogens): Standard
+- [EPA Disinfectants](https://www.epa.gov/pesticides): Salon-safe products
+- [State Sanitation Rules](https://www.beautylaunchpad.com/): Equipment sterilization

@@ -1,27 +1,57 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Documentation Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Incomplete Incident Reports
+**Risk**: No audit trail, liability exposure, legal issues
+**Solution**: Include all elements (who, what, when, where, how, actions)
 
-## 10.2 Best Practices
+### Late Documentation
+**Risk**: Memory fade, incomplete details
+**Solution**: Complete reports within 4 hours of incident
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Subjective Language
+**Risk**: Perceived bias, legal issues
+**Solution**: Use objective, factual descriptions only
 
-## 10.3 Quality Checklist
+## 10.2 Access Control Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Tailgating Without Challenge
+**Risk**: Unauthorized access, liability
+**Solution**: Challenge all unauthorized persons, request badge
+
+### Propping Doors
+**Risk**: Security breach, easy unauthorized access
+**Solution**: Never prop doors, report broken locks immediately
+
+### Allowing Unauthorized Visitors
+**Risk**: Liability, safety risk
+**Solution**: Verify all visitors against approval list
+
+## 10.3 Response Pitfalls
+
+### Exceeding Authority
+**Risk**: Liability, criminal charges
+**Solution**: Know your limits, call supervisor for guidance
+
+### Inaction During Emergency
+**Risk**: Increased harm, liability
+**Solution**: Follow training, take immediate appropriate action
+
+### Not Calling Police
+**Risk**: Increased harm, liability, negligence
+**Solution**: When in doubt, call 911 - it's better to have false alarm
+
+## 10.4 Conduct Pitfalls
+
+### Sleeping on Duty
+**Risk**: Termination, liability if incident occurs
+**Solution**: Stay alert, take breaks as allowed, report fatigue
+
+### Using Phone Excessively
+**Risk**: Distraction, missed events
+**Solution**: Limit personal phone use, focus on duties
+
+### Sharing Confidential Information
+**Risk**: Termination, legal liability
+**Solution**: Only share on need-to-know basis

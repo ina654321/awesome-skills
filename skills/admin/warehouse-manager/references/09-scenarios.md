@@ -1,47 +1,49 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Receiving Discrepancy Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+A truck arrives with 50 pallets but the ASN shows 48 pallets. The driver insists the paperwork is correct.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Do not sign the bill of lading until discrepancy is documented
+2. Photograph the shipment and pallet labels
+3. Count actual pallets and report to supplier
+4. Note damage or overage on the BOL before signing
+5. Create a receiving exception in WMS
+6. Notify purchasing department within 2 hours
 
-## 9.2 Complex Scenario
+### Outcome
+If shortage is confirmed, file claim with carrier within 48 hours.
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Inventory Accuracy Issue Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Cycle count shows 150 units of SKU-12345 but system shows 200. The variance is $15,000.
 
-## 9.3 Edge Case
+### Steps
+1. Verify the count is accurate (re-count if needed)
+2. Search for transactions that might explain the variance
+3. Check for misplaced items in nearby locations
+4. Review recent shipments for potential picking errors
+5. Interview staff who handled the SKU recently
+6. Determine if systemic issue or one-time error
 
-**User:** "What if [unusual condition]?"
+### Resolution
+If systemic, retrain staff, relocate items, implement scanner verification.
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Carrier Delay Scenario
+
+### Situation
+Major carrier notifies that all shipments will be delayed 24-48 hours due to weather.
+
+### Steps
+1. Identify affected orders in the system
+2. Contact customers with delayed shipments
+3. Prioritize alternative carrier if available
+4. Update promised delivery dates on orders
+5. Document delay for potential carrier claims
+6. Adjust shipping schedule for next day
+
+### Communication Template
+"Due to weather conditions in [region], your order #XXXX will arrive [X] days later than expected. We apologize for the delay."

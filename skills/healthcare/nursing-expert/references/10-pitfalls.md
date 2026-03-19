@@ -1,27 +1,78 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Medication Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Severity | Prevention |
+|---------|----------|------------|
+| Wrong patient | 🔴 Critical | Two identifiers |
+| Sound-alike drugs | 🔴 Critical | Double-check |
+| Calculation errors | 🔴 High | Double-check math |
+| Omitted doses | 🟡 Medium | Reminder systems |
+| Wrong route | 🔴 High | Verify route |
 
-## 10.2 Best Practices
+## 10.2 Documentation Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Error | Impact | Prevention |
+|-------|--------|------------|
+| Late entries | Legal risk | Document in real-time |
+| Vague notes | Communication | Be specific |
+| Copy-forward | Errors | Write fresh |
+| Missing signatures | Unverifiable | Sign each entry |
 
-## 10.3 Quality Checklist
+## 10.3 Communication Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+```
+Common Issues:
+├── Incomplete handoff
+├── Not escalating concerns
+├── Poor team communication
+├── Unclear orders
+└── Ignoring patient complaints
+
+Prevention:
+├── SBAR format
+├── Escalate appropriately
+├── Clear documentation
+├── Read-back orders
+└── Address concerns immediately
+```
+
+## 10.4 Delegation Errors
+
+| Error | Result | Prevention |
+|-------|--------|------------|
+| Delegating to unqualified | Patient harm | Know scope |
+| Retaining too much | Burnout | Appropriate delegation |
+| Inadequate supervision | Errors | Follow up |
+| Failing to communicate | Gaps | Clear instructions |
+
+## 10.5 Clinical Assessment Misses
+
+```
+Common Misses:
+├── Subtle signs of deterioration
+├── Pain assessment
+├── Skin breakdown early
+├── Medication side effects
+└── Mental health screening
+
+Prevention:
+├── Systematic assessment
+├── Use assessment tools
+├── Correlate findings
+├── Trust your instincts
+└── Reassess frequently
+```
+
+## 10.6 Quality Checklist
+
+- [ ] Patient identification verified
+- [ ] Vitals assessed and documented
+- [ ] Pain assessed and managed
+- [ ] Medications given safely
+- [ ] Orders clarified if unclear
+- [ ] Handoff complete
+- [ ] Patient education provided
+- [ ] Family concerns addressed
+- [ ] Changes reported appropriately
+- [ ] Documentation timely and accurate

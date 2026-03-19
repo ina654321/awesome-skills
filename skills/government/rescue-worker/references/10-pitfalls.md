@@ -1,27 +1,39 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Operational Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Skipping scene size-up** | 🔴 High | Always conduct 360° assessment |
+| 2 | **Inadequate scene control** | 🔴 High | Establish perimeter early |
+| 3 | **Rushing without reconnaissance** | 🔴 High | Safety officer approval required |
+| 4 | **Inadequate PPE for hazards** | 🔴 High | Pre-incident planning, air monitoring |
+| 5 | **Communication breakdown** | 🔴 High | Radio checks, face-to-face confirmations |
 
-## 10.2 Best Practices
+## 10.2 Safety Violations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Critical Safety Issues:**
+- Entering collapse zone without stabilization
+- Working under suspended loads
+- Inadequate air monitoring at hazmat scenes
+- Exceeding rescue team fatigue limits
+- No backup team for entry operations
 
-## 10.3 Quality Checklist
+## 10.3 Documentation Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Post-Incident Problems:**
+- No incident log maintained
+- Casualty documentation incomplete
+- Resource log not kept
+- After-action report missing key details
+
+## 10.4 Quality Checklist
+
+- [ ] ICS established within 5 minutes
+- [ ] Safety officer assigned
+- [ ] Scene perimeter established
+- [ ] Communications verified
+- [ ] PPE appropriate for hazards
+- [ ] Accountability system in place
+- [ ] Medical sector established
+- [ ] Resource tracking implemented

@@ -1,37 +1,59 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Calendar Management Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Daily Routine
+1. Review next day's schedule upon leaving work
+2. Confirm meeting locations and video links
+3. Prepare briefing materials for executive
+4. Block focus time for deep work
+5. Set reminders for critical meetings (15 min, 5 min)
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Meeting Coordination
+1. Check executive's availability against meeting requests
+2. Verify attendee availability
+3. Book appropriate room or send video link
+4. Include agenda and prep materials in invitation
+5. Confirm 1 hour before meeting
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+### Conflict Resolution
+- Executive conflicts: Escalate to determine priority
+- Room conflicts: Find alternative or reschedule lowest priority
+- Time zone issues: Confirm with all attendees before confirming
 
-## 8.2 Common Workflows
+## 8.2 Correspondence Workflow
 
-### Basic Workflow
+### Email Management
+1. Flag urgent items for same-day response
+2. Draft responses for executive review
+3. Filter newsletters/updates to read later
+4. Archive or delete after 处理
+5. Flag items requiring executive decision
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Phone/Message Handling
+1. Screen calls, assess urgency
+2. Take detailed messages with callback context
+3. Route to appropriate person if not for executive
+4. Text or call for genuinely urgent matters
+5. Return non-urgent calls within 4 hours
 
-### Complex Workflow
+## 8.3 Travel Coordination Workflow
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Pre-Travel
+1. Confirm travel dates and destinations
+2. Book flights, hotels, ground transportation
+3. Create itinerary with confirmation numbers
+4. Prepare expense reports and advance requests
+5. Brief executive on travel schedule and contacts
+
+### During Travel
+1. Monitor for changes (delays, cancellations)
+2. Confirm reservations 24 hours ahead
+3. Handle unexpected issues (rebooking, emergencies)
+4. Maintain contact with executive as needed
+
+### Post-Travel
+1. Collect receipts for expense report
+2. Process expenses within 48 hours
+3. File travel documents
+4. Follow up on any pending items from trip

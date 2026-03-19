@@ -1,33 +1,28 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Social Security Programs
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Law
+- [Social Security Act](https://www.ssa.gov/OP_Home/actuarial/home.html): 42 U.S.C. Chapter 7
+- [20 CFR](https://www.ecfr.gov/current/title-20/chapterIII): SSA regulations
+- [SSR 83-20](https://secure.ssa.gov/poms.nsf/lnx/0300201000): Onset of disability
 
-## 7.2 Configuration Reference
+### Program Types
+| Program | Type |
+|---------|------|
+| **SSDI** | Disability insurance |
+| **SSI** | Supplemental income |
+| **SSDI-HCD** | High cost/deductible |
 
-### Basic Configuration
+## 7.2 Disability Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Medical Criteria
+- [Blue Book](https://www.ssa.gov/disability/professionals/bluebook/): Impairment listings
+- [Vocational Factors](https://www.ssa.gov/disability/professionals/pan/): Age, education, work
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Evidence Requirements
+| Evidence | Standard |
+|----------|----------|
+| **Treating Source** | RFC assessment preferred |
+| **Objective Evidence** | Required for listing |
+| **Function Report** | RFC determination |

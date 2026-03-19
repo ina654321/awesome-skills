@@ -1,47 +1,48 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Budget Variance Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Department is 20% over budget in Q2 due to unplanned contractor usage. Year-end projection shows 15% over budget.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Analyze variance (root cause: new project added without budget)
+2. Identify corrective actions:
+   - Reduce discretionary spending
+   - Defer non-essential purchases
+   - Renegotiate contractor rates
+3. Present options to finance
+4. Implement approved measures
+5. Track monthly to ensure correction
 
-## 9.2 Complex Scenario
+### Key Point
+Unplanned spending requires documented justification and budget amendment process.
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Team Conflict Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Two team members have ongoing conflict affecting productivity. Other team members are complaining.
 
-## 9.3 Edge Case
+### Steps
+1. Meet with each party separately to understand perspective
+2. Facilitate joint meeting to identify issues
+3. Establish ground rules for professional interaction
+4. Create improvement plan with milestones
+5. Monitor and provide feedback
+6. Escalate to HR if unresolved
 
-**User:** "What if [unusual condition]?"
+### Alternative
+If conflict is severe or policy violation involved, involve HR immediately.
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Process Failure Scenario
+
+### Situation
+Critical approval process failed, causing vendor payment 60 days late. Vendor threatening to stop service.
+
+### Steps
+1. Immediately process payment with expedited approval
+2. Document what went wrong (process gap)
+3. Notify vendor of corrective action
+4. Fix process (add backup approver, alerts)
+5. Report to management with root cause
+6. Implement preventive measures

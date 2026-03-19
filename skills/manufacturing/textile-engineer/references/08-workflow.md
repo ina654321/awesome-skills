@@ -1,37 +1,19 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Production Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Manufacturing Process
+1. Fiber selection
+2. Yarn formation
+3. Weaving/knitting
+4. Finishing
+5. Quality control
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+## 8.2 Development Workflow
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
-
-## 8.2 Common Workflows
-
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### New Product
+1. Define specs
+2. Select materials
+3. Develop process
+4. Test and refine
+5. Production release

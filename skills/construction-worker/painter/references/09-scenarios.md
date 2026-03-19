@@ -1,47 +1,22 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Peeling Paint Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Paint peeling after application.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Remove all loose paint
+2. Identify cause (moisture, poor prep)
+3. Fix cause
+4. Reprep and repaint
 
-## 9.2 Complex Scenario
+## 9.2 Color Mismatch Scenario
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+Touch-up doesn't match existing paint.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Blend edges carefully
+2. Apply full coat over area
+3. May need to repaint entire section

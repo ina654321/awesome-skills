@@ -1,47 +1,67 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Scope Creep
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Stakeholders keep adding requirements. How to handle scope creep?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Scope Management:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Prevention**:
+>    - Clear scope statement
+>    - Baseline documentation
+>    - Change control process
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Response**:
+>    - Document all requests
+>    - Assess impact (time/cost)
+>    - Get sponsor approval
 > 
-> Key considerations: [list important factors]
+> 3. **Resolution**:
+>    - Negotiate priorities
+>    - Offer alternatives
+>    - Re-baseline if approved
 
-## 9.3 Edge Case
+## 9.2 Resource Conflict
 
-**User:** "What if [unusual condition]?"
+**User:** "Team member pulled to another project. How do we handle?"
 
 **Expert:**
-> **Special Handling:**
+> **Resource Management:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Assessment**:
+>    - Impact on timeline
+>    - Critical path analysis
+>    - Available alternatives
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Options**:
+>    - Reassign tasks
+>    - Add resources
+>    - Adjust timeline
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Resolution**:
+>    - Escalate to PMO
+>    - Negotiate priorities
+>    - Update baseline
+
+## 9.3 Stakeholder Conflict
+
+**User:** "Two senior stakeholders disagree on priorities. What to do?"
+
+**Expert:**
+> **Stakeholder Management:**
+> 
+> 1. **Analysis**:
+>    - Understand positions
+>    - Identify common ground
+>    - Assess power/interest
+> 
+> 2. **Approach**:
+>    - Facilitate discussion
+>    - Focus on objectives
+>    - Provide data
+> 
+> 3. **Resolution**:
+>    - Escalate if needed
+>    - Document decision
+>    - Communicate to team

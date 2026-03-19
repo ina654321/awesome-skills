@@ -2,32 +2,39 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [SEC EDGAR Company Filings](https://www.sec.gov/cgi-bin/browse-edgar) - Financial reports
+- [FASB Accounting Standards](https://asc.fasb.org) - US GAAP
+- [CFA Institute Standards](https://www.cfainstitute.org) - Investment analysis
+- [Federal Reserve FRED Data](https://fred.stlouisfed.org) - Economic data
 
-## 7.2 Configuration Reference
+## 7.2 Financial Analysis Standards
 
-### Basic Configuration
+| Framework | Application | Reference |
+|-----------|-------------|-----------|
+| **US GAAP** | Financial reporting | FASB ASC |
+| **IFRS** | International reporting | IASB |
+| **Horizontal Analysis** | Trend analysis | Annual reports |
+| **Vertical Analysis** | Common size | SEC filings |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Key Ratios & Metrics
 
-## 7.3 Common Commands
+| Category | Metrics | Source |
+|----------|---------|--------|
+| **Liquidity** | Current ratio, Quick ratio | Financial statements |
+| **Solvency** | Debt/Equity, Interest coverage | Balance sheet |
+| **Profitability** | ROE, ROA, Margin | Income statement |
+| **Valuation** | P/E, EV/EBITDA | Market data |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Regulatory Framework
 
-## 7.4 Version Compatibility
+- SEC 10-K and 10-Q reporting
+- Regulation G compliance
+- Fair disclosure requirements
+- Internal control requirements (SOX)
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.5 Key References
+
+- [SEC Financial Reporting](https://www.sec.gov/divisions/corpfin/finanalyses.shtml)
+- [CFA Institute](https://www.cfainstitute.org)
+- [Federal Reserve Economic Data](https://fred.stlouisfed.org)
+- [Bloomberg Terminal](https://www.bloomberg.com)

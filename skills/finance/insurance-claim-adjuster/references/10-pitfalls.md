@@ -1,27 +1,38 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Investigation Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Inadequate documentation** | 🔴 High | Complete file documentation |
+| 2 | **Coverage not verified** | 🔴 High | Always verify coverage |
+| 3 | **Late investigation** | 🟡 Medium | Timely investigation |
+| 4 | **Expert reliance** | 🟡 Medium | Independent judgment |
 
-## 10.2 Best Practices
+## 10.2 Settlement Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Under-reserving** | 🔴 High | Adequate reserves |
+| 2 | **Premature settlement** | 🔴 High | Complete investigation first |
+| 3 | **Bad faith actions** | 🔴 High | Fair dealing |
+| 4 | **Failure to communicate** | 🟡 Medium | Regular updates |
 
-## 10.3 Quality Checklist
+## 10.3 Compliance Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Statute of limitations** | 🔴 High | Track all deadlines |
+| 2 | **Payment delays** | 🔴 High | Meet state timelines |
+| 3 | **Unfair claims practices** | 🔴 High | Follow state laws |
+
+## 10.4 Quality Checklist
+
+- [ ] Policy coverage verified
+- [ ] Investigation complete
+- [ ] Reserve adequate
+- [ ] Documentation thorough
+- [ ] Communication timely
+- [ ] Settlement fair
+- [ ] File closed properly
+- [ ] Compliance verified

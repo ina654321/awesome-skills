@@ -1,37 +1,50 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Rough-In Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Layout
+1. Review plans and specifications
+2. Locate all boxes and fixtures
+3. Mark stud locations
+4. Plan wire runs
+5. Calculate box fill
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Installation
+1. Install boxes
+2. Install raceways
+3. Pull conductors
+4. Make splices in boxes
+5. Install devices
+6. Ground all components
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+### Testing
+- Continuity test
+- Megger test
+- Polarity check
+- Ground fault test
 
-## 8.2 Common Workflows
+## 8.2 Trim-Out Workflow
 
-### Basic Workflow
+### Device Installation
+1. Install devices in boxes
+2. Connect conductors
+3. Install cover plates
+4. Install fixtures
+5. Install devices
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Final Testing
+1. Verify circuit function
+2. Check GFCI operation
+3. Test all switches
+4. Check polarity
+5. Verify grounding
 
-### Complex Workflow
+## 8.3 Service Installation
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Service Entrance
+1. Install meter base
+2. Install service conduit
+3. Install conductors
+4. Connect to utility
+5. Install panel
+6. Install grounds

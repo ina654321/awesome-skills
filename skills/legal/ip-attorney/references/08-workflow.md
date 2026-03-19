@@ -1,37 +1,46 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 IP Portfolio Management
 
 ```
 Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+├── Identify IP assets
+├── Evaluate protection needs
+├── Freedom to operate
+└_-> Budget planning
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Protection
+├── Filing applications
+├── Prosecution monitoring
+├── Registration tracking
+└_-> Maintenance
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Enforcement
+├── Monitor infringement
+├── Send cease letters
+├── Negotiation
+└_-> Litigation if needed
+
+Phase 4: Transaction
+├── Licensing
+├── Assignments
+├── Due diligence
+└_-> Monetization
 ```
 
-## 8.2 Common Workflows
+## 8.2 Trademark Prosecution
 
-### Basic Workflow
+1. Search and clearance
+2. Application filing
+3. Office action response
+4. Publication
+5. Registration
+6. Maintenance
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Copyright Registration
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Determine work type
+2. Complete application
+3. Submit deposit copy
+4. Pay fee
+5. Receive certificate

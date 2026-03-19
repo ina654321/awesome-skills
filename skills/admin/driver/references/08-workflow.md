@@ -1,37 +1,51 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Pre-Trip Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Before Driving
+1. Complete vehicle inspection
+2. Verify load securement
+3. Check route and weather
+4. Confirm fuel level
+5. Log hours of service
+6. Plan rest stops
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Documentation
+1. Bill of lading
+2. Shipping papers (HAZMAT if applicable)
+3. Medical card
+4. Registration and insurance
+5. Hours of service log
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+## 8.2 Driving Workflow
 
-## 8.2 Common Workflows
+### During Trip
+1. Follow planned route
+2. Adjust for conditions
+3. Take required breaks
+4. Document any issues
+5. Communicate with dispatch
+6. Update ETA as needed
 
-### Basic Workflow
+### Log Requirements
+- Date, start time
+- Duty status (driving, on-duty, sleeping)
+- Location at change
+- Total miles
+- Certify daily
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Post-Trip Workflow
 
-### Complex Workflow
+### Upon Arrival
+1. Complete delivery
+2. Obtain signature if required
+3. Document any damage
+4. Fuel if needed
+5. Complete log
+6. Report to dispatch
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Vehicle Check
+1. Secure vehicle
+2. Check for damage
+3. Report any issues
+4. Prepare for next assignment

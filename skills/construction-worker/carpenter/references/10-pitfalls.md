@@ -1,27 +1,53 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Measurement Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Not Accounting for Lumber Size
+**Risk**: Material waste, misfit
+**Solution**: Remember nominal vs. actual dimensions
 
-## 10.2 Best Practices
+### Rushing Layout
+**Risk**: Crooked walls, rework
+**Solution**: Measure twice, cut once
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Ignoring Squareness
+**Risk**: Door/window issues, finish problems
+**Solution**: Use 3-4-5 rule on all corners
 
-## 10.3 Quality Checklist
+## 10.2 Installation Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Wrong Nail Size
+**Risk**: Reduced holding power
+**Solution**: Use proper nail schedule
+
+### Not Installing Headers
+**Risk**: Structural failure
+**Solution**: Install headers at all openings
+
+### Inadequate Blocking
+**Risk**: Squeaky floors, reduced strength
+**Solution**: Install blocking per code
+
+## 10.3 Safety Pitfalls
+
+### Unstable Scaffolds
+**Risk**: Falls, serious injury
+**Solution**: Inspect before each use
+
+### Power Tool Injuries
+**Risk**: Cuts, amputations
+**Solution**: Use safety guards, PPE
+
+### Lifting Injuries
+**Risk**: Back strain, hernias
+**Solution**: Use mechanical lifts, proper lifting
+
+## 10.4 Material Handling
+
+### Moisture Damage
+**Risk**: Warping, mold, structural issues
+**Solution**: Keep lumber dry, cover
+
+### Inadequate Storage
+**Risk**: Damage, waste
+**Solution**: Store off ground, cover

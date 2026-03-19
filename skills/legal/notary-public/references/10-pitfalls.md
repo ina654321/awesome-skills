@@ -1,27 +1,35 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Legal Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Notarize without ID** | 🔴 High | Verify identity |
+| 2 | **Unauthorized practice** | 🔴 High | Stay in scope |
+| 3 | **Seal errors** | 🟡 Medium | Proper use |
 
-## 10.2 Best Practices
+## 10.2 Documentation Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **No journal entry** | 🔴 High | Always record |
+| 2 | **Certificate errors** | 🔴 High | Complete correctly |
+| 3 | **Copy errors** | 🔴 High | Verify accuracy |
 
-## 10.3 Quality Checklist
+## 10.3 Ethics Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Self-dealing** | 🔴 High | Stay neutral |
+| 2 | **Improper fees** | 🟡 Medium | State schedule |
+| 3 | **Confidentiality breach** | 🔴 High | Protect privacy |
+
+## 10.4 Quality Checklist
+
+- [ ] Identity verified
+- [ ] Signer competent
+- [ ] Intent confirmed
+- [ ] Certificate complete
+- [ ] Journal entry made
+- [ ] Fee collected
+- [ ] Seal applied

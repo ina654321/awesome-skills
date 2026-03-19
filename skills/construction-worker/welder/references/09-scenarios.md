@@ -1,47 +1,26 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Porosity Issue Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Visual inspection shows porosity in completed weld.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Remove defective area
+2. Check for contamination
+3. Improve cleaning between passes
+4. Adjust parameters if needed
+5. Re-weld
 
-## 9.2 Complex Scenario
+## 9.2 Cracking Scenario
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+Weld cracked after cooling.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Stop welding
+2. Assess crack type
+3. Determine cause (material, process, stress)
+4. Remove crack completely
+5. Fix root cause
+6. Repair per code

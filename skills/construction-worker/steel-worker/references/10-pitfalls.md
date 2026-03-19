@@ -1,27 +1,29 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Safety Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Improper Rigging
+**Risk**: Dropped load, death
+**Solution**: Use proper slings, verify capacity
 
-## 10.2 Best Practices
+### No Fall Protection
+**Risk**: Falls, death
+**Solution**: Tie off when above 6 feet
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Unstable Structure
+**Risk**: Collapse, death
+**Solution**: Brace before releasing load
 
-## 10.3 Quality Checklist
+## 10.2 Installation Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Untightened Bolts
+**Risk**: Connection failure
+**Solution**: Tension all bolts
+
+### Wrong Weld Size
+**Risk**: Structural failure
+**Solution**: Follow weld schedule
+
+### Skipping Inspection
+**Risk**: Defects, failure
+**Solution**: Inspect per code

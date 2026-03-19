@@ -1,27 +1,78 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Pre-Analytical Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Impact | Prevention |
+|---------|--------|------------|
+| Wrong patient ID | Wrong diagnosis | Two identifiers |
+| Wrong tube type | Invalid result | SOP verification |
+| Hemolyzed sample | Falsely elevated K+ | Reject and recollect |
+| Delayed processing | Degraded analytes | Time limits |
+| Improper storage | Invalid results | Temperature logs |
 
-## 10.2 Best Practices
+## 10.2 Analytical Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Error | Detection | Prevention |
+|-------|-----------|------------|
+| Carryover | QC shift | Adequate wash |
+| Calibration drift | QC out of range | Regular calibration |
+| Instrument failure | Erratic results | QC monitoring |
+| Reagent degradation | Decreased reactivity | Expiration checks |
 
-## 10.3 Quality Checklist
+## 10.3 Post-Analytical Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
+```
+Common Issues:
+├── Wrong result released
+├── Delayed reporting
+├── Transcription errors
+├── Wrong units reported
+└── Critical value not called
+
+Prevention:
+├── Result review before release
+├── Critical value protocol
+├── Auto-verification rules
+├── Direct EMR interface
+└── Double-check critical results
+```
+
+## 10.4 Blood Bank Errors
+
+| Error | Consequence | Prevention |
+|-------|-------------|------------|
+| Wrong type unit | Hemolytic reaction | Two-person verification |
+| Unit mislabeled | Patient harm | Barcode scanning |
+| Inadequate testing | Transfusion reaction | SOP compliance |
+| Failed ID verification | Fatal error | Zero tolerance |
+
+## 10.5 Safety Hazards
+
+```
+Laboratory Safety:
+├── Chemical exposure (fixatives, reagents)
+├── Biological exposure (bloodborne pathogens)
+├── Physical hazards (centrifuges, cryogens)
+├── Ergonomic issues (repetitive motion)
+└── Fire hazards (flammables)
+
+Prevention:
+├── PPE always worn
+├── Biological safety cabinet use
+├── Chemical hygiene plan
+├── Annual safety training
+└── Incident reporting
+```
+
+## 10.6 Quality Checklist
+
+- [ ] QC within acceptable limits
+- [ ] Calibration current
+- [ ] Reagents within expiration
+- [ ] Temperature logs maintained
+- [ ] Specimen integrity verified
+- [ ] Results reviewed before release
+- [ ] Critical values called
 - [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+- [ ] Proficiency testing performed
+- [ ] Safety protocols followed

@@ -1,27 +1,53 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Material Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Wrong Mortar Type
+**Risk**: Cracking, spalling, structural issues
+**Solution**: Match mortar to application and exposure
 
-## 10.2 Best Practices
+### Too Much Water
+**Risk**: Reduced strength, shrinkage cracks
+**Solution**: Add water only if needed, follow mix ratio
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Old/Expired Materials
+**Risk**: Poor bond, structural failure
+**Solution**: Use fresh materials, check dates
 
-## 10.3 Quality Checklist
+## 10.2 Technique Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Not Buttering Ends
+**Risk**: Penetration, weak joints
+**Solution**: Butter end of each brick fully
+
+### Incomplete Joints
+**Risk**: Water penetration, reduced strength
+**Solution**: Fill all joints, tool properly
+
+### Skipping Anchors
+**Risk**: Wall instability
+**Solution**: Install ties per code
+
+## 10.3 Safety Pitfalls
+
+### Scaffold Issues
+**Risk**: Falls, serious injury
+**Solution**: Inspect before use, follow OSHA
+
+### Lifting Improperly
+**Risk**: Back injury
+**Solution**: Bend at knees, keep load close
+
+### Ignoring Weather
+**Risk**: Material damage, slips
+**Solution**: Adjust work for conditions
+
+## 10.4 Quality Pitfalls
+
+### Not Checking Alignment
+**Risk**: Out-of-plumb walls, rework
+**Solution**: Check plumb every few courses
+
+### Rushing Jointing
+**Risk**: Inconsistent appearance, weak joints
+**Solution**: Wait for proper set, tool consistently

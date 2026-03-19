@@ -1,27 +1,57 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Communication Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Being Short on Phone
+**Risk**: Negative impression, complaints
+**Solution**: Use scripts, remain courteous
 
-## 10.2 Best Practices
+### Not Taking Messages
+**Risk**: Missed communications, lost business
+**Solution**: Always take complete messages
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Giving Out Information
+**Risk**: Security breaches, privacy violations
+**Solution**: Verify before sharing anything
 
-## 10.3 Quality Checklist
+## 10.2 Professional Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Being on Phone Excessively
+**Risk**: Missed visitors, poor impression
+**Solution**: Keep personal calls brief, focus on job
+
+### Gossip
+**Risk**: Professional issues, trust loss
+**Solution**: Keep work interactions professional
+
+### Inappropriate Appearance
+**Risk**: Unprofessional image
+**Solution**: Follow dress code, be neat
+
+## 10.3 Security Pitfalls
+
+### Letting Unverified People In
+**Risk**: Security breach, liability
+**Solution**: Always verify, follow procedures
+
+### Not Challenging Unknown People
+**Risk**: Unauthorized access
+**Solution**: Ask who they are visiting, check badges
+
+### Leaving Desk Unattended
+**Risk**: Information exposure, lost items
+**Solution**: Lock computer, secure documents
+
+## 10.4 Administrative Pitfalls
+
+### Poor Record Keeping
+**Risk**: Audit failures, lost information
+**Solution**: Document all visitor and call logs
+
+### Not Following Check-In Process
+**Risk**: Security issues, lost visitors
+**Solution**: Complete full process every time
+
+### Ignoring Problems
+**Risk**: Issues escalate, complaints
+**Solution**: Report and address all issues promptly

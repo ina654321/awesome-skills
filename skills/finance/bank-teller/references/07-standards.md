@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [Bank Secrecy Act](https://www.fincen.gov/resources/statutes-and-regulations) - AML requirements
+- [USA PATRIOT Act](https://www.treasury.gov) - Customer identification
+- [FinCEN Requirements](https://www.fincen.gov) - Financial crimes
+- [OCC Bank Operations](https://www.occ.gov) - Operational standards
 
-## 7.2 Configuration Reference
+## 7.2 Regulatory Framework
 
-### Basic Configuration
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **BSA** | FinCEN | Anti-money laundering |
+| **AML** | FinCEN/FRB | Suspicious activity |
+| **KYC** | All regulators | Customer due diligence |
+| **OFAC** | Treasury | Sanctions compliance |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Transaction Types
 
-## 7.3 Common Commands
+| Transaction | Requirements | Limits |
+|-------------|--------------|--------|
+| **Cash deposits** | ID over $10K | None |
+| **Wire transfers** | Full details | $10K SAR threshold |
+| **Check cashing** | ID verification | $10K limit |
+| **Foreign exchange** | ID + purpose | Reporting |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [FinCEN BSA/AML](https://www.fincen.gov/resources/statutes-and-regulations)
+- [Office of the Comptroller](https://www.occ.gov)
+- [Federal Financial Institutions](https://www.ffiec.gov)
+- [Office of Foreign Assets Control](https://ofac.treasury.gov)

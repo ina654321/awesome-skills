@@ -1,33 +1,43 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Aging & Geriatric Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [AGS Beers Criteria](https://www.americangeriatrics.org/geriatrics-quality-improvement) - Potentially inappropriate medications
+- [WHO Ageing and Health](https://www.who.int/health-topics/ageing) - Global aging guidance
+- [CMS Quality Measures](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/NursingHomeQualityInits) - SNF quality reporting
+- [AMDA Guidelines](https://paltc.org) - Post-acute and long-term care
+- [IAGG Guidelines](https://www.iagg.com) - International aging research
 
-## 7.2 Configuration Reference
+## 7.2 Geriatric Assessment Domains
 
-### Basic Configuration
+| Domain | Assessment Tools | Frequency |
+|--------|-----------------|-----------|
+| Functional status | ADL/IADL scales, Barthel Index | Admission + quarterly |
+| Cognition | MoCA, Mini-Cog, CAM | Admission + change |
+| Mood | PHQ-9, GDS | Admission + quarterly |
+| Fall risk | Timed Up-and-Go, Berg Balance | Admission + fall event |
+| Nutrition | MNA, weight trending | Admission + monthly |
+| Pain | Numeric rating, PAINAD | Each encounter |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+## 7.3 Polypharmacy Definitions
+
+```
+Polypharmacy: ≥5 concurrent medications
+Excessive polypharmacy: ≥10 concurrent medications
+
+High-Risk Medication Classes (Beers):
+├── Anticholinergics (dimenhydrinate, diphenhydramine)
+├── Benzodiazepines (short-acting: alprazolam, temazepam)
+├── Antipsychotics (quetiapine, risperidone - without dementia indication)
+├── Muscle relaxants (cyclobenzaprine, methocarbamol)
+└── H2 blockers (cimetidine - renal dose adjustment needed)
 ```
 
-## 7.3 Common Commands
+## 7.4 Eldercare Regulations
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Regulation | Agency | Key Requirements |
+|------------|--------|------------------|
+| LTC survey | CMS/Survey agencies | Annual inspection |
+| F-tag citations | CMS | Deficiency classification |
+| HIPAA | HHS | Privacy of health information |
+| Elder justice | DOJ/OAG | Abuse/neglect reporting |

@@ -1,33 +1,50 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Professional Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Administrative Competencies
+| Competency | Description | Key Skills |
+|------------|-------------|-------------|
+| Communication | Verbal/written correspondence | Email etiquette, phone presence |
+| Organization | Time and document management | Calendar, files, priorities |
+| Technology | Office software proficiency | MS Office, CRM, virtual platforms |
+| Judgment | Decision-making under guidance | Context awareness, discretion |
 
-## 7.2 Configuration Reference
+### Industry Certifications
+| Certification | Issuing Organization | Value |
+|---------------|----------------------|-------|
+| Certified Administrative Professional (CAP) | IAAP | Industry recognition |
+| Certified Executive Assistant (CEA) | NAEA | Executive-level skills |
+| Project Management Certified | PMI | Process management |
 
-### Basic Configuration
+## 7.2 Corporate Governance
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Document Standards
+| Document Type | Format | Approval Chain |
+|---------------|--------|----------------|
+| Contracts | PDF, formal signature | Legal → Exec → Board if >$50K |
+| Minutes | Word, templated format | Chair review required |
+| Presentations | PowerPoint, company template | Manager approval |
+| Reports | Word/PDF, consistent styling | Department head sign-off |
 
-## 7.3 Common Commands
+### Meeting Protocols
+- Roberts Rules of Order for formal meetings
+- Agenda must be distributed 48 hours in advance
+- Minutes due within 24 hours of meeting
+- Action items assigned with deadlines
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Data Protection
 
-## 7.4 Version Compatibility
+### Compliance Requirements
+- GDPR: EU personal data handling
+- CCPA: California consumer privacy
+- HIPAA: Health information (if applicable)
+- SOX: Financial record retention (public companies)
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Information Classification
+| Level | Description | Handling |
+|-------|-------------|----------|
+| Public | Marketing materials, press releases | No restrictions |
+| Internal | Policies, procedures, org charts | Company-wide access |
+| Confidential | Financials, HR records | Need-to-know basis |
+| Restricted | Trade secrets, legal matters | Named individuals only |

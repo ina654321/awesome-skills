@@ -1,37 +1,20 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Installation Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Installation Process
+1. Review specs
+2. Install transmitter
+3. Wire to control system
+4. Configure I/O
+5. Calibrate
+6. Loop check
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+## 8.2 Troubleshooting Workflow
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
-
-## 8.2 Common Workflows
-
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Problem Solving
+1. Identify symptoms
+2. Check signal
+3. Check wiring
+4. Check config
+5. Replace if needed

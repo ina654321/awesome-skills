@@ -1,47 +1,79 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Questionable Documents
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Passport appears legitimate but microprint looks wrong. Holder is nervous. How proceed?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Document Fraud Protocol:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Initial Hold**:
+>    - Do not return document
+>    - Notify supervisor
+>    - Keep traveler available
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Verification**:
+>    - Request additional ID
+>    - Call issuing embassy/consulate
+>    - Check against counterfeits database
+>    - Use UV lamp, magnification
 > 
-> Key considerations: [list important factors]
+> 3. **Decision**:
+>    - If fraudulent: seize, refer for fraud
+>    - If legitimate: apologize, process normally
+>    - Document entire encounter
+>    - Note in system for future reference
 
-## 9.3 Edge Case
+## 9.2 Visa Overstay
 
-**User:** "What if [unusual condition]?"
+**User:** "Visitor's visa shows entry 11 months ago but claims this is first entry. How handle?"
 
 **Expert:**
-> **Special Handling:**
+> **Overstay Assessment:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Database Check**:
+>    - CBP entry records (TECS)
+>    - I-94 travel history
+>    - SEVIS for students
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Inquiry**:
+>    - Ask about prior travel
+>    - Verify story with records
+>    - Check for expedited removal eligibility
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Action**:
+>    - If material misrepresentation: expedited removal
+>    - If overstay (no fraud): NOI for removal proceedings
+>    - Document all findings
+> 
+> 4. **Discretion**:
+>    - Consider first offense, reason, ties
+>    - May issue warning and admit
+
+## 9.3 Asylum Claim at Port
+
+**User:** "Individual expresses fear of return to home country. Requests asylum. How handle?"
+
+**Expert:**
+> **Credible Fear Process:**
+> 
+> 1. **Initial Response**:
+>    - Do not ignore fear request
+>    - Notify supervisor
+>    - Separate from other travelers
+> 
+> 2. **Preliminary Questions**:
+>    - Why afraid?
+>    - What happened?
+>    - Who would harm you?
+> 
+> 3. **Referral**:
+>    - If credible fear: refer to asylum officer
+>    - Complete I-863 (Notice of Referral)
+>    - Provide interpreter
+>    - Document request
+> 
+> 4. **Key Rules**:
+>    - Cannot penalize late application
+>    - Safe third country may apply
+>    - Withholding only for certain nationalities

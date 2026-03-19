@@ -1,33 +1,48 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Building Codes
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### IBC Requirements
+| Code Section | Application |
+|--------------|-------------|
+| 2103 | Masonry construction |
+| 2104 | Construction quality |
+| 2105 | Mortar and grout |
+| 2106 | Structural design |
 
-## 7.2 Configuration Reference
+### ASTM Standards
+| Standard | Application |
+|----------|-------------|
+| C90 | Load-bearing concrete masonry units |
+| C129 | Non-load-bearing units |
+| C270 | Mortar for unit masonry |
+| C476 | Grout for masonry |
 
-### Basic Configuration
+## 7.2 Material Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Mortar Types
+| Type | Proportion | Use |
+|------|------------|-----|
+| M | 1:3 | Below grade, severe exposure |
+| S | 1:2:9 | General use, moderate load |
+| N | 1:1:6 | Above grade, veneer |
+| O | 1:2:9 | Interior, non-load-bearing |
 
-## 7.3 Common Commands
+### Grout Strength
+- Fine grout: ≤ 2" joints
+- Coarse grout: > 2" joints
+- Minimum strength: 2000 psi
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Safety Standards
 
-## 7.4 Version Compatibility
+### OSHA Requirements
+- 1926.701: Fall protection > 6 feet
+- 1926.702: Masonry wall construction
+- 1926.706: Masonry and concrete
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### PPE Requirements
+- Safety glasses
+- Work gloves
+- Steel-toe boots
+- Hard hat (overhead hazards)
+- Hearing protection (power tools)

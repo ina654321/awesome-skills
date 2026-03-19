@@ -1,37 +1,40 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Fabrication Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Pre-Fabrication
+1. Review shop drawings
+2. Check material against specs
+3. Verify mill certifications
+4. Plan sequence
+5. Set up equipment
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Fabrication
+1. Cut to length (saw, torch, plasma)
+2. Drill/ punch holes
+3. Bevel for welding
+4. Assemble components
+5. Weld per specifications
+6. Clean and finish
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+### Quality Control
+- Dimensional check
+- Weld inspection (VT, MT, UT)
+- Documentation
 
-## 8.2 Common Workflows
+## 8.2 Erection Workflow
 
-### Basic Workflow
+### Pre-Erection
+1. Review erection drawings
+2. Set up equipment
+3. Prepare foundation
+4. Stage materials
+5. Safety review
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Erection
+1. Rig and lift
+2. Set and align
+3. Bolt connections
+4. Weld connections
+5. Verify plumb/level
+6. Grout base plates

@@ -1,37 +1,58 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Daily Cleaning Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Morning Routine
+1. Receive assignment and review schedule
+2. Gather supplies and equipment
+3. Check chemical inventory
+4. Inspect area before cleaning
+5. Complete all assigned tasks
+6. Report any issues or supplies needed
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Standard Cleaning Sequence
+1. Remove trash and replace liners
+2. Dust surfaces and fixtures
+3. Clean and sanitize restrooms
+4. Clean break room/kitchen
+5. Vacuum or sweep floors
+6. Spot clean glass and mirrors
+7. Check supplies and restock
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+### End of Shift
+1. Complete all assigned areas
+2. Report completion to supervisor
+3. Restock cart for next shift
+4. Store equipment properly
+5. Complete any special requests
 
-## 8.2 Common Workflows
+## 8.2 Deep Cleaning Workflow
 
-### Basic Workflow
+### Weekly/Monthly Tasks
+1. Clean behind furniture
+2. Wash walls and doors
+3. Clean air vents
+4. Polish floors (if applicable)
+5. Clean high-touch areas
+6. Sanitize dumpsters area
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Special Event Cleaning
+1. Pre-event setup
+2. Ongoing spot cleaning during
+3. Post-event deep clean
+4. Restroom checks every 2 hours
+5. Trash removal as needed
 
-### Complex Workflow
+## 8.3 Restroom Cleaning Workflow
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Standard Procedure
+1. Gather supplies before entering
+2. Restock paper products
+3. Clean toilets (inside, outside, base)
+4. Clean urinals
+5. Clean sinks and counters
+6. Clean mirrors
+7. Refill soap dispensers
+8. Sweep and mop floor
+9. Check and empty trash
+10. Note any maintenance needs

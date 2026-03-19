@@ -1,37 +1,60 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Solid Waste Collection Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Vehicle Inspection (Pre-Trip)
+├── Walk-around inspection (tires, lights, fluid levels)
+├── Check backup alarm and camera
+├── Verify equipment operational
+├── Confirm route assignment and maps
+└── Inspect containers and equipment
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Collection Route
+├── Arrive at assigned area on schedule
+├── Collect residential waste (typically 3 bins)
+│   ├── Grey cart: Household garbage
+│   ├── Blue cart: Recycling (if applicable)
+│   └── Green cart: Organics/yard waste
+├── Lift and dump containers (max 50 lbs per OSHA)
+├── Return containers to curb
+├── Operate hydraulic lift safely
+└── Document any overflow, damage, or missed pick-up
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: End of Day
+├── Return to facility
+├── Inspect vehicle for damage
+├── Complete route sheet
+├── Report any issues to supervisor
+└── Properly dispose of collected waste
 ```
 
-## 8.2 Common Workflows
+## 8.2 Hazardous Waste Protocol
 
-### Basic Workflow
+```
+Household Hazardous Waste (HHW):
+├── Never collect in regular waste truck
+├── Note address and material type
+├── Report to supervisor immediately
+├── Do NOT handle material yourself
+├── Specialized HHW collection needed
+└── Public education on proper disposal
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Items requiring special handling:
+├── Paint (oil-based > latex)
+├── Batteries (auto, lithium)
+├── Motor oil and filters
+├── Pesticides and herbicides
+├── Cleaning chemicals
+├── Electronics (e-waste)
+└── Sharps/needles (biohazard)
+```
 
-### Complex Workflow
+## 8.3 Spill Response
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. **Assess**: Is it hazardous? What material?
+2. **Contain**: Prevent spread if safe to do so
+3. **Report**: Notify supervisor immediately
+4. **Protect**: PPE, divert traffic if needed
+5. **Evacuate**: If serious, call 911
+6. **Document**: Record what happened

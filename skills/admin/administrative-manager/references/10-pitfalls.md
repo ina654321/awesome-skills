@@ -1,27 +1,57 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Planning Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Not Planning for Contingencies
+**Risk**: Unprepared for unexpected demands, missed deadlines
+**Solution**: Build buffer into timelines and budgets
 
-## 10.2 Best Practices
+### Delegating Without Authority
+**Risk**: Team member unable to execute, frustration
+**Solution**: Define authority with responsibility
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Ignoring Strategic Alignment
+**Risk**: Working on wrong priorities, wasted resources
+**Solution**: Connect daily work to organizational goals
 
-## 10.3 Quality Checklist
+## 10.2 People Management Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Micromanaging
+**Risk**: Team morale, turnover, reduced initiative
+**Solution**: Set expectations, then trust team to deliver
+
+### Avoiding Difficult Conversations
+**Risk**: Issues escalate, performance problems continue
+**Solution**: Address issues promptly, document concerns
+
+### Not Developing Team
+**Risk**: Skills gaps, limited succession options
+**Solution**: Regular development discussions, stretch assignments
+
+## 10.3 Process Pitfalls
+
+### Creating Unnecessary Bureaucracy
+**Risk**: Slow execution, frustration, non-compliance
+**Solution**: Add process only when necessary, simplify
+
+### Not Documenting Processes
+**Risk**: Knowledge loss, inconsistency, single point of failure
+**Solution**: Document key processes, update annually
+
+### Resistance to Change
+**Risk**: Missed improvement opportunities
+**Solution**: Involve team in change, communicate benefits
+
+## 10.4 Communication Pitfalls
+
+### Not Communicating Up
+**Risk**: Management unaware of issues, no support
+**Solution**: Regular status updates, escalate early
+
+### Over-Communicating
+**Risk**: Noise, important info lost
+**Solution**: Prioritize, use appropriate channels
+
+### Not Setting Expectations
+**Risk**: Misaligned work, rework, frustration
+**Solution**: Clear objectives, success criteria, deadlines

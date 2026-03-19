@@ -1,33 +1,81 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Medical Education Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [ACGME Competencies](https://www.acgme.org) - Residency requirements
+- [USMLE Guidelines](https://www.usmle.org) - Licensing examination
+- [ABMS Board Requirements](https://www.abms.org) - Board certification
+- [Milestones Project](https://www.acgme.org/milestones) - Developmental competency
+- [Core EPAs](https://www.aamc.org) - Entrustable Professional Activities
 
-## 7.2 Configuration Reference
+## 7.2 ACGME Core Competencies
 
-### Basic Configuration
+```
+Patient Care:
+├── Gather history
+├── Perform examination
+├── Develop treatment plan
+├── Informed consent
+└── Procedural skills
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+Medical Knowledge:
+├── Disease pathophysiology
+├── Treatment guidelines
+├── Evidence-based medicine
+├── Scholarly inquiry
+└── Basic science application
+
+Systems-Based Practice:
+├── Healthcare delivery systems
+├── Cost-effective care
+├── Resource utilization
+├── Healthcare quality
+└── Practice-based learning
+
+Professionalism:
+├── Responsibility
+├── Ethics
+├── Compassion
+├── Respect
+└── Accountability
 ```
 
-## 7.3 Common Commands
+## 7.3 Duty Hour Requirements
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Standard Limits:
+├── Maximum 80 hours/week (averaged)
+├── Maximum 24 hours continuous (with 6h transition)
+├── Minimum 8 hours between shifts
+├── Maximum 6 nights in ICU (q4h)
+├── Minimum 1 day off/week (averaged)
 
-## 7.4 Version Compatibility
+Call Requirements:
+├── Home call acceptable
+├── Return to hospital <30 min
+├── Moonlighting <12-16h if duty hours met
+└── Program director approval required
+```
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.4 Documentation Requirements
+
+```
+H&P Elements:
+├── Chief complaint
+├── HPI (OPQRST, SAMPLE)
+├── Past medical history
+├── Medications/allergies
+├── Social history
+├── Family history
+├── ROS
+├── Physical examination
+├── Assessment and plan
+└── Time/date and signature
+
+Progress Notes:
+├── Interval history
+├── Current exam findings
+├── Lab/imaging review
+├── Assessment and plan
+└── Documentation of discussions
+```

@@ -1,47 +1,23 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Geotechnical Issue
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Underground mapping shows unexpected weak zone.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Map extent
+2. Modify support design
+3. Adjust mining sequence
+4. Monitor during mining
 
-## 9.2 Complex Scenario
+## 9.2 Production Shortfall
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+Monthly production 30% below plan.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Identify bottleneck
+2. Adjust equipment/crewing
+3. Improve availability
+4. Review design if needed

@@ -1,33 +1,62 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Rural Health Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [NRHA Standards](https://www.ruralhealth.us) - National Rural Health Association
+- [HRSA Rural Health](https://www.hrsa.gov/rural-health/index.html) - Federal support
+- [FQHC Requirements](https://bphc.hrsa.gov) - Federally Qualified Health Center
+- [RHC Regulations](https://www.cms.gov) - Rural Health Clinic
+- [State Health Department](https://www.cdc.gov) - State-specific requirements
 
-## 7.2 Configuration Reference
+## 7.2 Scope of Practice
 
-### Basic Configuration
+```
+Village/Rural Health:
+├── Primary care (all ages)
+├── Chronic disease management
+├── Preventive services
+├── Basic emergency care
+├── Maternity care (limited)
+├── Mental health
+├── Dental (basic)
+└── Public health services
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+Referral Networks:
+├── Tertiary hospital
+├── Specialty care
+├── Emergency transport
+├── Home health
+└── Community services
 ```
 
-## 7.3 Common Commands
+## 7.3 Common Conditions
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Acute Conditions:
+├── Respiratory infections
+├── GI infections
+├── Minor injuries
+├── Allergic reactions
+├── Skin conditions
+└── Eye/ear infections
 
-## 7.4 Version Compatibility
+Chronic Conditions:
+├── Hypertension
+├── Diabetes
+├── COPD
+├── Heart disease
+├── Arthritis
+└── Mental health
+```
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.4 Telemedicine Standards
+
+```
+Virtual Care:
+├── HIPAA-compliant platforms
+├── Informed consent
+├── Documentation requirements
+├── Scope limitations
+├── Emergency protocols
+└── Prescribing regulations
+```

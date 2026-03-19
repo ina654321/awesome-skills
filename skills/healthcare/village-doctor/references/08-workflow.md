@@ -1,37 +1,96 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Patient Encounter
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Triage
+├── Chief complaint
+├── Vital signs if able
+├── Urgency assessment
+├── Immediate vs scheduled
+└── Teleconsult if needed
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: History
+├── Comprehensive HPI
+├── Past medical history
+├── Medications
+├── Allergies
+├── Family/social history
+├── ROS
+└── Review of systems
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Examination
+├── Physical exam as able
+├── Point-of-care testing
+├── Telehealth examination
+├── Observation
+└── Documentation
+
+Phase 4: Assessment & Plan
+├── Diagnosis
+├── Treatment plan
+├── Follow-up
+├── Referrals
+├── Patient education
+└── Documentation
 ```
 
-## 8.2 Common Workflows
+## 8.2 Chronic Disease Management
 
-### Basic Workflow
+```
+Hypertension:
+```
+Monitoring:
+├── Home BP log
+├── Medication adherence
+├── Lifestyle factors
+├── Target: <130/80 mmHg
+└── Every 3-6 months if controlled
+```
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Diabetes:
+```
+Management:
+├── HbA1c every 3 months
+├── Foot exam
+├── Eye exam
+├── Nephropathy screening
+├── Target: <7% (most)
+└── Individualize targets
+```
 
-### Complex Workflow
+## 8.3 Emergency Response
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Emergency Assessment:
+├── ABCs
+├── Stabilize
+├── Arrange transport
+├── Communicate receiving facility
+└── Document
+
+Emergency Protocols:
+├── Basic life support
+├── Trauma stabilization
+├── Obstetric emergencies
+├── Cardiac events
+└── Stroke recognition
+```
+
+## 8.4 Referral Management
+
+```
+When to Refer:
+├── Beyond scope of practice
+├── Requires specialist
+├── Needs hospitalization
+├── Advanced diagnostics needed
+└── Not improving with treatment
+
+Referral Process:
+├── Identify appropriate facility
+├── Communicate clearly
+├── Provide records
+├── Arrange transport
+├── Follow up after referral
+```

@@ -1,27 +1,41 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Analytical Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Excessive reliance on historical data** | 🔴 High | Forward-looking adjustments |
+| 2 | **Ignoring industry cyclicality** | 🔴 High | Through-cycle analysis |
+| 3 | **Inadequate peer comparison** | 🟡 Medium | Proper comparable selection |
+| 4 | **Management quality underweighting** | 🔴 High | Qualitative assessment integration |
+| 5 | **Covenant technical breaches ignored** | 🔴 High | Continuous monitoring |
 
-## 10.2 Best Practices
+## 10.2 Process Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Insufficient due diligence** | 🔴 High | Comprehensive information requests |
+| 2 | **Rating committee bias** | 🔴 High | Independent committee structure |
+| 3 | **Timeline pressure** | 🟡 Medium | Adequate resource allocation |
+| 4 | **Documentation gaps** | 🟡 Medium | Complete analytical trail |
+| 5 | **Surveillance delays** | 🔴 High | Automated monitoring alerts |
 
-## 10.3 Quality Checklist
+## 10.3 Regulatory Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Methodology changes undocumented** | 🔴 High | Regulatory notification |
+| 2 | **Conflict of interest undisclosed** | 🔴 High | Full disclosure compliance |
+| 3 | **Inadequate separation from solicited** | 🔴 High | Separate teams |
+| 4 | **Procyclical ratings** | 🔴 High | Through-cycle view |
+
+## 10.4 Quality Checklist
+
+- [ ] Financial projections reasonable
+- [ ] Peer comparison complete
+- [ ] Qualitative factors documented
+- [ ] Sensitivity analysis performed
+- [ ] Rating rationale clear
+- [ ] Committee minutes complete
+- [ ] Regulatory requirements met
+- [ ] Surveillance schedule maintained

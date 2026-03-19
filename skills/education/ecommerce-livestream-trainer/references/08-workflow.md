@@ -1,37 +1,51 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Pre-Livestream Preparation
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Week Before
+├── Product selection and inventory check
+├── Pricing strategy and promo code setup
+├── Script draft with talking points per product
+└── Test stream to verify audio/video quality
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Day Before
+├── Charge all devices
+├── Prepare backup hotspot
+├── Print product cue cards
+└── Confirm logistics partner (payment gateway, shipping)
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+30 Minutes Before
+├── Position camera, lighting, and backdrop
+├── Test microphone levels
+├── Join stream platform, test screen share if needed
+└── Open all product links and checkout pages
 ```
 
-## 8.2 Common Workflows
+## 8.2 Live Session Workflow
 
-### Basic Workflow
+### Opening Hook (First 3 Minutes)
+1. Welcome viewers by name if returning
+2. Announce tonight's deals with specific savings amounts
+3. Show social proof ("2,000 watching now")
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Core Selling Loop
+1. **Feature** — Demonstrate product with live demo or video clip
+2. **Explain** — Connect features to viewer benefits (problem-solution framing)
+3. **Anchor** — Show original price, then discounted price with time limit
+4. **CTA** — "Add to cart now, I'll hold the link for 5 minutes"
+5. Repeat for each product; cycle back to high-demand items
 
-### Complex Workflow
+### Closing (Last 10 Minutes)
+1. Offer a "flash bundle" discount on remaining items
+2. Thank viewers and announce next stream date/time
+3. Repeat key promo codes one final time
+4. Do not end abruptly — warn viewers stream is ending
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+## 8.3 Post-Stream Workflow
+
+1. Export viewer analytics and peak concurrent numbers
+2. Calculate conversion rate per product
+3. Follow up on abandoned carts within 2 hours
+4. Review recording for coaching moments
+5. Document what products performed and why

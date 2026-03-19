@@ -1,33 +1,56 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Medical Necessity Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [CMS Medical Necessity](https://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/MedicalNecessity) - Federal guidelines
+- [AMA CPT Guidelines](https://www.ama-assn.org/amaone/cpt-current-procedural-terminology) - Coding standards
+- [CMS Local Coverage Determinations](https://www.cms.gov/medicare/coverage-database) - LCD policies
+- [Commercial Payer Policies](https://www.cms.gov) - Major insurer guidelines
+- [NCD](https://www.cms.gov/medicare-coverage-database) - National Coverage Determinations
 
-## 7.2 Configuration Reference
+## 7.2 Medical Review Criteria
 
-### Basic Configuration
+```
+Level 1 - Documentation Request:
+├── Verify beneficiary eligibility
+├── Confirm services provided
+├── Match documentation to claim
+└── Request additional records if needed
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+Level 2 - Clinical Review:
+├── Assess medical necessity
+├── Apply coverage policies
+├── Evaluate setting of care
+└── Document decision rationale
+
+Level 3 - Physician Review:
+├── Complex case review
+├── Multiple services
+├── High dollar amounts
+└── Pattern analysis
 ```
 
-## 7.3 Common Commands
+## 7.3 Documentation Requirements
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| Service | Required Elements |
+|---------|-------------------|
+| E/M Visit | H&P, MDM, Treatment plan |
+| Surgery | Operative report, indication |
+| Diagnostic | Order, result interpretation |
+| DME | Medical necessity, certification |
 
-## 7.4 Version Compatibility
+## 7.4 Appeal Levels
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+```
+Internal Appeals:
+├── Level 1: Initial appeal
+├── Level 2: Second level
+├── Level 3: Senior review
+└── Expedited: Urgent situations
+
+External Appeals:
+├── CMS MAC (Medicare Advantage)
+├── State Insurance Commissioner
+├── External Review Organization
+└── Federal Court (if applicable)
+```

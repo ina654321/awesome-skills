@@ -1,33 +1,30 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Immigration Law
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Regulations
+- [8 U.S.C. Chapter 12](https://uscode.house.gov/view.xhtml?path=/prelim@title8&edition=prelim): Immigration and Nationality Act
+- [8 CFR Part 235](https://www.ecfr.gov/current/title-8/chapterI/part235): Inspection and admission
+- [INA Section 235](https://www.uscis.gov/legal-resources/visa-decisions-made-by-cbp): Inspection requirements
 
-## 7.2 Configuration Reference
+### CBP Standards
+| Standard | Application |
+|-----------|-------------|
+| **I-94** | Arrival/departure record |
+| **ESTA** | Visa Waiver Program |
+| **Visa** | Non-immigrant visas |
 
-### Basic Configuration
+## 7.2 Entry Requirements
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Document Standards
+- [Passport Requirements](https://www.cbp.gov/travel/us-citizens/western-hemisphere): WHTI compliant
+- [Visa Categories](https://www.uscis.gov/working-in-the-united-states): Non-immigrant types
+- [ESTA Requirements](https://esta.cbp.dhs.gov/): Visa Waiver Program
 
-## 7.3 Common Commands
-
-| Command | Description |
+### Inspection Standards
+| Element | Requirement |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| **Identity** | Photo ID verification |
+| **Purpose** | Intention of visit |
+| **Eligibility** | Visa/waiver status |
+| **Admissibility** | Grounds of exclusion |

@@ -1,47 +1,73 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Rate Indication Disagreement
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Our calculated rate indication shows +25% but business team wants 0% change. How to handle?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Rate Conflict Resolution:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Analysis**:
+>    - Review data quality
+>    - Validate assumptions
+>    - Check methodology
+>    - Assess competitive position
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Options**:
+>    - Phase in rate increase
+>    - Accept margin compression
+>    - Improve data
+>    - Reconsider methodology
 > 
-> Key considerations: [list important factors]
+> 3. **Communication**:
+>    - Document analysis
+>    - Explain to business
+>    - Quantify impact of each option
 
-## 9.3 Edge Case
+## 9.2 Reserve Adequacy Concern
 
-**User:** "What if [unusual condition]?"
+**User:** "Actuarial estimate shows deficiency in loss reserves. What's the process?"
 
 **Expert:**
-> **Special Handling:**
+> **Reserve Analysis:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Investigation**:
+>    - Review claim development
+>    - Analyze tail factors
+>    - Consider case reserves
+>    - Assess emerging patterns
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Response**:
+>    - Document findings
+>    - Calculate deficiency
+>    - Recommend actions
+>    - Communicate to management
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Resolution**:
+>    - Increase reserves
+>    - Adjust pricing
+>    - Improve claims handling
+
+## 9.3 Catastrophe Model Calibration
+
+**User:** "Cat model outputs seem too low compared to actual events. How to calibrate?"
+
+**Expert:**
+> **Model Calibration:**
+> 
+> 1. **Validation**:
+>    - Review model methodology
+>    - Compare to historical events
+>    - Analyze differences
+>    - Assess vendor model
+> 
+> 2. **Adjustment**:
+>    - Apply scaling factors
+>    - Add margins
+>    - Consider multiple models
+>    - Document approach
+> 
+> 3. **Governance**:
+>    - Document rationale
+>    - Get peer review
+>    - Update as needed

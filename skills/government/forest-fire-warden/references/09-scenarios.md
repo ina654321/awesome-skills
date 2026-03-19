@@ -1,47 +1,81 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Wind Shift During Fire Operations
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Fire progressing south with containment line. Weather forecast shows wind shift to NW in 2 hours. How to adjust?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Tactical Adjustment:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Immediate Assessment**:
+>    - Current fire behavior
+>    - Spread projection with wind shift
+>    - Resources committed vs. available
+>    - Time to implement changes
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Strategic Response**:
+>    - Pull back unprotected crews
+>    - Reposition engine resources
+>    - Request additional resources
+>    - Prepare structure protection
 > 
-> Key considerations: [list important factors]
+> 3. **Contingency Planning**:
+>    - Identify safety zones
+>    - Establish escape routes
+>    - Communication plan update
+>    - Brief all personnel
+> 
+> 4. **Post-Shift Actions**:
+>    - Reassess containment
+>    - Re-deploy resources
+>    - Update incident action plan
 
-## 9.3 Edge Case
+## 9.2 Smoke Visibility on Road
 
-**User:** "What if [unusual condition]?"
+**User:** "Smoke from wildfire reducing visibility on state highway to less than 100 feet. No incident command yet. What to do?"
 
 **Expert:**
-> **Special Handling:**
+> **Public Safety Response:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Immediate Actions**:
+>    - Notify local law enforcement
+>    - Request CHP or local traffic control
+>    - Post flaggers if available
+>    - Contact fire dispatch
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Traffic Control**:
+>    - Evaluate road closure vs. escort
+>    - Coordinate with transportation department
+>    - Set up alternate routes
+>    - Update Waze/Google/511
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Documentation**:
+>    - Photos of conditions
+>    - Time stamps
+>    - Communication log
+>    - Notify incident commander
+
+## 9.3 Prescribed Fire Escape
+
+**User:** "Prescribed fire jumped the control line at two points. 10 acres involved. How to respond?"
+
+**Expert:**
+> **Escape Response Protocol:**
+> 
+> 1. **Initial Response**:
+>    - Notify dispatch immediately
+>    - Activate wildland fire response
+>    - Reassign prescribed fire resources
+>    - Contain at smallest footprint
+> 
+> 2. **Escalation**:
+>    - If > 100 acres: Wildfire classification
+>    - Request type 1 team
+>    - Notify CAL FIRE/Forest Service
+>    - Public notification if needed
+> 
+> 3. **After-Action**:
+>    - Investigation of cause
+>    - Escape assessment
+>    - Report to unit fire management
+>    - Update prescribed fire protocols

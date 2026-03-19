@@ -1,27 +1,37 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Analytical Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Ignoring footnotes** | 🔴 High | Read all disclosures |
+| 2 | **Inadequate industry context** | 🔴 High | Comparative analysis |
+| 3 | **Forecast overconfidence** | 🟡 Medium | Sensitivity analysis |
+| 4 | **Cherry-picking data** | 🔴 High | Complete analysis |
 
-## 10.2 Best Practices
+## 10.2 Valuation Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Single method reliance** | 🔴 High | Multiple approaches |
+| 2 | **Terminal value errors** | 🔴 High | Sensitivity analysis |
+| 3 | **Growth assumption errors** | 🔴 High | Fundamental limits |
+| 4 | **Peer selection bias** | 🟡 Medium | Document criteria |
 
-## 10.3 Quality Checklist
+## 10.3 Compliance Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Reg FD violations** | 🔴 High | Equal distribution |
+| 2 | **Material non-public info** | 🔴 High | Information barriers |
+| 3 | **Inadequate disclosure** | 🟡 Medium | Full transparency |
+
+## 10.4 Quality Checklist
+
+- [ ] Complete financial review
+- [ ] Peer comparison done
+- [ ] Multiple valuation methods
+- [ ] Risk factors identified
+- [ ] Assumptions documented
+- [ ] Regulatory compliance
+- [ ] Peer review completed

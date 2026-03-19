@@ -1,27 +1,53 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Safety Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Not Using LOTO
+**Risk**: Electrocution, death
+**Solution**: Always lock out before work
 
-## 10.2 Best Practices
+### Working Without PPE
+**Risk**: Burns, arc flash
+**Solution**: Wear appropriate PPE
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Assuming Power is Off
+**Risk**: Electrocution
+**Solution**: Always test before touching
 
-## 10.3 Quality Checklist
+## 10.2 Installation Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Wrong Wire Size
+**Risk**: Overheating, fire
+**Solution**: Verify wire size matches circuit
+
+### Wrong Conduit Fill
+**Result**: Wire damage, code violation
+**Solution**: Calculate fill before installation
+
+### Poor Connections
+**Risk**: Arcing, heat, fire
+**Solution**: Use proper terminations
+
+## 10.3 Code Pitfalls
+
+### Missing GFCI Protection
+**Risk**: Shock hazard, code violation
+**Solution**: Install in required locations
+
+### Improper Grounding
+**Risk**: Shock hazard, noise
+**Solution**: Follow NEC Article 250
+
+### Inadequate Support
+**Risk**: Physical damage
+**Solution**: Support per code
+
+## 10.4 Documentation Pitfalls
+
+### Not Labeling Circuits
+**Risk**: Future confusion, safety hazard
+**Solution**: Label all circuits in panel
+
+### Missing As-Builts
+**Risk**: Future work difficulties
+**Solution**: Document all changes

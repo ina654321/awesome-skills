@@ -1,47 +1,77 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Multi-Story Building Collapse
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "We've arrived at a partial building collapse with reports of 5+ victims trapped. What's our operational approach?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Immediate Actions:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Size-up (2 min)**:
+>    - Confirm building type and collapse pattern
+>    - Identify hazards (gas, electrical, utilities)
+>    - Establish collapse zone and safety perimeter
+>    - Request USAR Task Force
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **ICS Establishment**:
+>    - Incident Commander
+>    - Safety Officer (critical in collapse)
+>    - Operations, Planning, Logistics Sections
+>    - Communications with EOC
 > 
-> Key considerations: [list important factors]
+> 3. **Initial Search**:
+>    - Voice search in viable void spaces
+>    - Thermal imaging
+>    - Canine search teams
+>    - Mark searched areas
+> 
+> 4. **Resource Management**:
+>    - Staging area away from collapse
+>    - Medical triage at entry point
+>    - Rehab sector for crews
 
-## 9.3 Edge Case
+## 9.2 Hazardous Materials Incident with Victims
 
-**User:** "What if [unusual condition]?"
+**User:** "Chemical plant leak with 3 victims down, unknown agent. How do we approach?"
 
 **Expert:**
-> **Special Handling:**
+> **Safety-First Protocol:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Hot Zone Identification**:
+>    - Establish based on weather, agent type
+>    - 100m minimum for unknown chemicals
+>    - Use MPE (Maximum Protection Ensemble) for recon
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. ** victim Rescue**:
+>    - Limited entry with hazmat team
+>    - Decon before removal from hot zone
+>    - ALS personnel in warm zone
+>    - Coordinate with Poison Control
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Documentation**:
+>    - Agent identification (field and lab)
+>    - Exposure documentation
+>    - Chain of custody for evidence
+>    - Incident timeline
+
+## 9.3 Urban Flood Rescue
+
+**User:** "Flash flooding in urban area, vehicles stranded, residents on roofs. Limited boat resources."
+
+**Expert:**
+> **Prioritization Framework:**
+> 
+> **Immediate (Hour 1-2)**:
+> - Rescue from immediate danger (roof, vehicle tops)
+> - Priority: children, elderly, medical needs
+> - Helicopter rescue for inaccessible areas
+> 
+> **Secondary (Hours 2-6)**:
+> - Commercial district rescues
+> - Check stranded vehicles
+> - Evacuate nursing facilities
+> 
+> **Long-term (Hours 6+)**:
+> - Welfare checks on isolated residents
+> - Search and recovery operations
+> - Transition to recovery phase

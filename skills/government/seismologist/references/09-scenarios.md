@@ -1,47 +1,79 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Anomalous Seismicity
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Area showing increased small earthquakes. Background rate typically 2/month, now 20+ this month. Is this concerning?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Seismic Increase Assessment:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Data Analysis**:
+>    - Magnitude distribution
+>    - Spatial pattern
+>    - Depth distribution
+>    - Timing
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Possible Explanations**:
+>    - Natural swarm
+>    - Induced seismicity (injection, mining)
+>    - Early sign of larger event
+>    - Normal fluctuation
 > 
-> Key considerations: [list important factors]
+> 3. **Response**:
+>    - Increase monitoring
+>    - Alert emergency management
+>    - Assess if further action needed
+>    - Continue monitoring
+> 
+> 4. **Communication**:
+>    - Public update if trend continues
+>    - Explain without causing alarm
 
-## 9.3 Edge Case
+## 9.2 Tsunami Warning
 
-**User:** "What if [unusual condition]?"
+**User:** "M 8.2 earthquake 200 miles offshore. Tsunami possible. What warning level?"
 
 **Expert:**
-> **Special Handling:**
+> **Warning Protocol:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Initial Alert**:
+>    - Evaluate earthquake characteristics
+>    - Check tsunami watch/warning criteria
+>    - Issue within 5 minutes
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Watch**: Potential tsunami, 2+ hours
+> 3. **Warning**: Dangerous wave imminent, 1+ hour
+> 4. **Emergency**: Significant wave expected, < 30 min
 > 
-> Consult with [relevant authority] if unsure.
+> 5. **Action**:
+>    - Evacuation zones identified
+>    - Public notification
+>    - Coordinate with emergency management
+>    - Continue monitoring
+
+## 9.3 Building Code Update
+
+**User:** "New seismic hazard data shows higher risk. How to update building code?"
+
+**Expert:**
+> **Code Revision Process:**
+> 
+> 1. **Technical Review**:
+>    - Evaluate new hazard data
+>    - Compare to existing maps
+>    - Determine necessary changes
+> 
+> 2. **Stakeholder Process**:
+>    - Building industry input
+>    - Public comment
+>    - Expert review
+> 
+> 3. **Implementation**:
+>    - Adopt updated code
+>    - Effective date
+>    - Retrofit requirements
+> 
+> 4. **Communication**:
+> - Training for officials
+> - Public awareness
+> - Technical guidance

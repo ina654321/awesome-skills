@@ -1,33 +1,59 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 FAA Regulations (Title 14 CFR)
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [14 CFR Part 43 - Maintenance, Preventive Maintenance, Rebuilding, and Alteration](https://www.ecfr.gov/current/title-14/part-43)
+- [14 CFR Part 65 - Certification: Airmen Other Than Flight Crewmembers](https://www.ecfr.gov/current/title-14/part-65)
+- [14 CFR Part 145 - Repair Stations](https://www.ecfr.gov/current/title-14/part-145)
+- [14 CFR Part 121 - Operating Requirements: Domestic, Flag, and Supplemental Operations](https://www.ecfr.gov/current/title-14/part-121)
+- [AC 43-210F - Airworthiness Certification Procedures](https://www.faa.gov/regulations_policies/advisory_circulars/)
 
-## 7.2 Configuration Reference
+## 7.2 EASA Standards (Europe)
 
-### Basic Configuration
+| Regulation | Description | Application |
+|----------|-------------|-------------|
+| Part 145 | Approved Maintenance Organizations | EU repair stations |
+| Part 66 | Aircraft Maintenance License | Technician certification |
+| Part 147 | Maintenance Training Organization | Training requirements |
+| Part M | Continuing Airworthiness | Maintenance oversight |
+| Part 21 | Aircraft Certification | Design organization |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 International Standards
 
-## 7.3 Common Commands
+- [ICAO Annex 8 - Airworthiness](https://www.icao.int/safety/airnavigation/)
+- [ICAO Annex 19 - Safety Management](https://www.icao.int/safety/safetymanagement/)
+- [AS9100 - Aerospace Quality Management](https://www.sae.org/standards)
+- [AS9110 - Aerospace - Repair Stations](https://www.sae.org/standards)
+- [AS9120 - Aerospace Distributors](https://www.sae.org/standards)
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 ATA (Air Transport Association) Standards
 
-## 7.4 Version Compatibility
+| Specification | Description | Use |
+|---------------|-------------|-----|
+| ATA 100 | Documentation Standard | Maintenance manuals |
+| ATA iSpec 2200 | Airline Industry Standards | Electronic documentation |
+| ATA MSG-3 | Maintenance Program Development | Scheduled maintenance |
+| ATA 200 | Illustrated Parts Catalog | Parts identification |
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.5 SAE International Standards
+
+- [SAE ARP 4754A - Systems Engineering](https://www.sae.org/standards)
+- [SAE ARP 4761 - Safety Assessment](https://www.sae.org/standards)
+- [SAE AS 9100 - Quality Management](https://www.sae.org/standards)
+- [SAE AMS - Aerospace Material Specifications](https://www.sae.org/content/AMS)
+
+## 7.6 Safety Management System (SMS)
+
+| Component | Elements |
+|-----------|----------|
+| Safety Policy | Management commitment, organizational structure |
+| Safety Risk Management | Hazard identification, risk assessment |
+| Safety Assurance | Performance monitoring, change management |
+| Safety Promotion | Training, safety communication |
+
+## 7.7 Environmental Standards
+
+- [EPA Clean Air Act - Aerospace Operations](https://www.epa.gov/)
+- [OSHA 29 CFR 1910 - Workplace Safety](https://www.osha.gov/)
+- [Hazardous Materials - 49 CFR](https://www.phmsa.dot.gov/)
+- [Airport Environmental Regulations](https://www.faa.gov/about/office_org/headquarters_offices/aep/)

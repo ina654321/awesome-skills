@@ -1,37 +1,49 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Legal Matter Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Client Interview
+├── Identify legal issues
+├── Gather relevant facts
+├── Understand objectives
+├── Assess urgency
+└── Scope of representation
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Legal Research
+├── Identify controlling law
+├── Research precedent
+├── Analyze risks
+├── Develop strategy
+└── Document analysis
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Implementation
+├── Draft documents
+├── Negotiate if applicable
+├── File or respond
+├── Monitor deadlines
+└── Update client
+
+Phase 4: Completion
+├── Finalize matter
+├── Document file
+├── Billing and collection
+└── Ethical withdrawal (if needed)
 ```
 
-## 8.2 Common Workflows
+## 8.2 Litigation Process
 
-### Basic Workflow
+1. **Pleadings** (0-30 days): Complaint, answer, counterclaims
+2. **Discovery** (30-180 days): Interrogatories, depositions, documents
+3. **Motion Practice** (varies): Summary judgment, motions to dismiss
+4. **Trial** (1+ weeks): Evidence, arguments, verdict
+5. **Post-Trial** (varies): Motions, appeal
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Transaction Process
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+| Phase | Activities |
+|-------|------------|
+| **Due Diligence** | Title search, corporate records |
+| **Drafting** | Agreement terms, exhibits |
+| **Negotiation** | Term discussion, revisions |
+| **Closing** | Signatures, funds, delivery |

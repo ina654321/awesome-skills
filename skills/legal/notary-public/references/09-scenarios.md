@@ -1,47 +1,65 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Suspicious Signer
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Signer appears confused about document. What should we do?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Signer Assessment:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Verification**:
+>    - Confirm signer understands
+>    - Ask questions about document
+>    - Observe behavior
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Options**:
+>    - Proceed if competent
+>    - Require attorney present
+>    - Refuse notarization
 > 
-> Key considerations: [list important factors]
+> 3. **Documentation**:
+>    - Note observations
+>    - Document decision
 
-## 9.3 Edge Case
+## 9.2 Identity Questions
 
-**User:** "What if [unusual condition]?"
+**User:** "ID appears fraudulent. What's the protocol?"
 
 **Expert:**
-> **Special Handling:**
+> **Fraud Detection:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Verification**:
+>    - Compare photo to signer
+>    - Check security features
+>    - Verify expiration
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Actions**:
+>    - Do not proceed
+>    - Document concern
+>    - Report if required
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Resolution**:
+>    - Decline notarization
+>    - Return documents
+>    - Keep records
+
+## 9.3 Incomplete Document
+
+**User:** "Document has blank fields. Can we notarize?"
+
+**Expert:**
+> **Document Review:**
+> 
+> 1. **Assessment**:
+>    - Identify incomplete sections
+>    - Determine if essential
+>    - Check for alterations
+> 
+> 2. **Options**:
+>    - Refuse until complete
+>    - Note on certificate
+>    - Complete partial
+> 
+> 3. **Approach**:
+>    - Require completion first
+>    - Document limitations

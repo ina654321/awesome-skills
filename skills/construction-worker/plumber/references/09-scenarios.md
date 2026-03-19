@@ -1,47 +1,47 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Leak Detection Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Water test shows pressure drop but can't find visible leak.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Isolate sections to isolate
+2. Check all joints and fittings
+3. Look for water stains
+4. Use listening device if needed
+5. May need to expose hidden joints
 
-## 9.2 Complex Scenario
+### Prevention
+Properly pressure test before covering
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Clog During Inspection Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Drain line won't hold water during test. Water drains out.
 
-## 9.3 Edge Case
+### Steps
+1. Check for leaks in trap
+2. Verify trap seal exists
+3. Check vent connection
+4. Verify slope
+5. May need camera inspection
+6. Find cause before proceeding
 
-**User:** "What if [unusual condition]?"
+### Fix
+Ensure trap is properly installed and vented
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Wrong Fitting Scenario
+
+### Situation
+Get to install and fitting doesn't match material spec.
+
+### Steps
+1. Stop work
+2. Don't force or adapt incorrectly
+3. Get correct fitting
+4. Document issue
+5. Notify foreman
+
+### Note
+Never mix different pipe materials without proper transition fitting.

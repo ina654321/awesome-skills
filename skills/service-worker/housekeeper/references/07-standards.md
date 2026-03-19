@@ -1,33 +1,23 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Hotel/Hospitality Housekeeping
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Industry Standards
+- [AHLA Housekeeping Standards](https://www.ahla.org/): American Hotel & Lodging Association
+- [ISSA Cleaning Industry](https://www.issa.com/): Cleaning industry standards
+- [OSHA Bloodborne Pathogens](https://www.osha.gov/bloodborne-pathogens): Exposure control
+- [EPA Disinfectants](https://www.epa.gov/pesticides): EPA-registered products
 
-## 7.2 Configuration Reference
+### Health & Safety
+| Standard | Authority | Focus |
+|---------|-----------|-------|
+| **CDC Guidelines** | CDC | Infection prevention |
+| **OSHA GHS** | OSHA | Chemical safety |
+| **State Health Codes** | State/local | Hotel regulations |
+| **FDA Food Code** | FDA | Minibar/kitchen areas |
 
-### Basic Configuration
+## 7.2 Guest Privacy & Security
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [PCI DSS](https://www.pcisecuritystandards.org/): Payment card data security
+- [GDPR](https://gdpr.eu/): EU guest data protection
+- [Hotel Privacy Laws](https://www.hospitalitynet.org/): Guest data handling

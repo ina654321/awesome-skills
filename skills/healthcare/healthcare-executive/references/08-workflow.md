@@ -1,37 +1,88 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Strategic Planning
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Environmental Analysis
+├── Market assessment
+├── Competitive analysis
+├── SWOT analysis
+├── Community health needs assessment
+└── Regulatory landscape
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Strategy Development
+├── Define mission and vision
+├── Set strategic priorities
+├── Allocate resources
+├── Establish metrics
+└── Develop implementation plan
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Execution
+├── Communicate strategy
+├── Cascade goals
+├── Monitor progress
+├── Adjust as needed
+└── Report to board
 ```
 
-## 8.2 Common Workflows
+## 8.2 Quality Improvement
 
-### Basic Workflow
+```
+PDCA Cycle:
+├── Plan: Identify problem, set goals
+├── Do: Implement change on small scale
+├── Check: Measure results against goals
+└── Act: Standardize or modify
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Common QI Frameworks:
+├── Lean Six Sigma: Process optimization
+├── IHI Model for Improvement: Rapid testing
+├── Baldrige: Comprehensive assessment
+└── HRO principles: High reliability
+```
 
-### Complex Workflow
+## 8.3 Patient Safety Workflow
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Step 1: Event Identification
+├── Voluntary reporting
+├── Trigger tools
+├── Patient complaints
+└── Adverse event review
+
+Step 2: Investigation
+├── Root cause analysis (RCA)
+├── Timeline reconstruction
+├── Human factors analysis
+└── System evaluation
+
+Step 3: Action Planning
+├── Corrective actions
+├── Implementation timeline
+├── Responsible parties
+└── Monitoring plan
+
+Step 4: Follow-up
+├── Track action completion
+├── Measure outcomes
+├── Share lessons learned
+└── Update policies
+```
+
+## 8.4 Operational Efficiency
+
+```
+Bed Management:
+├── Census forecasting
+├── Capacity management
+├── Discharge planning
+├── Throughput optimization
+└── Boarding management
+
+Staffing Optimization:
+├── Acuity-based staffing
+├── Productivity monitoring
+├── Agency utilization
+├── Overtime management
+└── Flexible staffing models
+```

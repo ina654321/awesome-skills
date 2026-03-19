@@ -1,27 +1,48 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Leadership Failures
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Micromanagement** | 🔴 High | Delegate with intent, trust subordinates |
+| 2 | **Favoritism** | 🔴 High | Equal treatment, document all decisions |
+| 3 | **Failure to document** | 🔴 High | Decision journal, counseling records |
+| 4 | **Avoiding confrontation** | 🔴 High | Address issues early and directly |
 
-## 10.2 Best Practices
+## 10.2 Military Justice Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **UCMJ Violations:**
+- Imposing punishment without proper rights advisement
+- Exceeding NJP maximum limits
+- Punishing soldiers for exercising Article 15 rights
+- Failure to report suspected violations
+- Deferring to personal relationships over discipline
 
-## 10.3 Quality Checklist
+## 10.3 Personnel Management Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Common Mistakes:**
+- Allowing hostile work environment to develop
+- Not maintaining proper military bearing
+- Failing to complete evaluation reports timely
+- Allowing equal opportunity violations
+- Mishandling protected communications (IG, congressional)
+
+## 10.4 Operational Errors
+
+⚠️ **Mission-Critical Issues:**
+- Inadequate mission analysis
+- Failure to conduct rehearsals
+- Not maintaining situational awareness
+- Inadequate risk assessment
+- Failure to adapt to changing conditions
+
+## 10.5 Quality Checklist
+
+- [ ] Mission analysis documented
+- [ ] Subordinates properly tasked and resourced
+- [ ] Evaluations completed on time
+- [ ] Disciplinary actions procedurally correct
+- [ ] Equal opportunity maintained
+- [ ] Safety programs implemented
+- [ ] Decision journal maintained
+- [ ] SHARP response protocols followed

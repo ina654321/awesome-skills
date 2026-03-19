@@ -1,27 +1,35 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Disclosure Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Brady violation** | 🔴 High | Full disclosure |
+| 2 | **Late disclosure** | 🔴 High | Timely production |
+| 3 | **Incomplete discovery** | 🔴 High | Systematic review |
 
-## 10.2 Best Practices
+## 10.2 Ethical Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Overcharging** | 🔴 High | Charging standards |
+| 2 | **Withholding evidence** | 🔴 High | Full review |
+| 3 | **Misleading court** | 🔴 High | Accurate filings |
 
-## 10.3 Quality Checklist
+## 10.3 Trial Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Inadequate preparation** | 🔴 High | Complete prep |
+| 2 | **Weak evidence** | 🔴 High | Assess case |
+| 3 | **Witness issues** | 🔴 High | Proper prep |
+
+## 10.4 Quality Checklist
+
+- [ ] Evidence reviewed
+- [ ] Charges appropriate
+- [ ] Discovery complete
+- [ ] Brady complied
+- [ ] Supervisor involved
+- [ ] Victim notified
+- [ ] Records complete

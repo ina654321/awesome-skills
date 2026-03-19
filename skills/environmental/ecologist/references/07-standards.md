@@ -1,33 +1,41 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Regulatory Frameworks
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal (US)
+| Regulation | Agency | Application |
+|------------|--------|-------------|
+| NEPA | EPA | Environmental review |
+| Clean Air Act | EPA | Air quality |
+| Clean Water Act | EPA | Water quality |
+| ESA | USFWS | Endangered species |
 
-## 7.2 Configuration Reference
+### State/Local
+- State environmental agency permits
+- Local zoning and land use
+- Regional water quality boards
 
-### Basic Configuration
+## 7.2 Ecological Assessment Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Survey Methods
+| Method | Application |
+|--------|-------------|
+| Visual encounter | Herptiles, mammals |
+| Point count | Birds |
+| Trap/survey | Small mammals |
+| Netting | Bats |
 
-## 7.3 Common Commands
+### Data Requirements
+- Species list with numbers
+- Habitat assessment
+- Threat identification
+- Mitigation recommendations
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Professional Standards
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Certifications
+| Credential | Organization |
+|------------|--------------|
+| PWS | Ecological Society |
+| CWB | Society of Wetland Scientists |
+| ISA Certified Arborist | ISA |

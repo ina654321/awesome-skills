@@ -1,47 +1,25 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Contamination Discovery
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Soil sampling shows elevated contaminants above residential levels.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Define extent of contamination
+2. Assess risk to humans/ecology
+3. Develop cleanup levels
+4. Select remediation technology
+5. Design system
 
-## 9.2 Complex Scenario
+## 9.2 Permit Denial
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+NPDES permit denied due to receiving water concerns.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Review denial letter
+2. Assess alternatives
+3. Modify design
+4. Appeal or redesign
+5. Resubmit

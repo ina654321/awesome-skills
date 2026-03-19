@@ -2,32 +2,35 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [Basel III Framework](https://www.bis.org/bcbs/basel3.htm) - Banking supervision standards
+- [OCC Risk Management Guidelines](https://www.occ.gov) - Bank risk management
+- [FRB SR 11-7 Guidance](https://www.federalreserve.gov/supervisionreg/srletters.htm) - Model risk management
+- [COSO ERM Framework](https://www.coso.org) - Enterprise risk management
+- [ISO 31000 Risk Management](https://www.iso.org) - International standards
 
-## 7.2 Configuration Reference
+## 7.2 Regulatory Framework
 
-### Basic Configuration
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **Basel III** | BIS | Capital requirements |
+| **Dodd-Frank** | Fed/OCC | Systemic risk |
+| **CCAR** | FRB | Capital planning |
+| **Stress Testing** | OCC/FRB | Bank resilience |
+| **Volcker Rule** | Fed/OCC | Proprietary trading |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Risk Categories
 
-## 7.3 Common Commands
+| Risk Type | Key Metrics | Standards |
+|-----------|-------------|-----------|
+| **Credit Risk** | PD, LGD, EAD | IRB, Standardized |
+| **Market Risk** | VaR, Stress VaR | FRTB, 99% VaR |
+| **Operational Risk** | OpVaR, RC | AMA, SA |
+| **Liquidity Risk** | LCR, NSFR | Basel III |
+| **Counterparty Risk** | CVA, XVA | SA-CCR |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [Federal Reserve Risk Management](https://www.federalreserve.gov/supervision.htm)
+- [OCC Comptroller's Handbook](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook)
+- [Financial Stability Board](https://www.fsb.org)
+- [BIS Committee on Banking Supervision](https://www.bis.org/bcbs)

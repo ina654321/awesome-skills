@@ -1,33 +1,53 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Food Safety Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Regulatory Framework
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| FDA Food Code | FDA | Retail food establishments |
+| HACCP | USDA/FDA | Food safety management |
+| ServSafe | NRA | Food handler certification |
+| Local Health Code | County/City | Facility-specific |
 
-## 7.2 Configuration Reference
+### Temperature Controls
+| Food Type | Safe Temp | Holding Time |
+|-----------|-----------|--------------|
+| Hot holding | ≥ 135°F (57°C) | Max 4 hours |
+| Cold holding | ≤ 41°F (5°C) | Max 7 days |
+| Cooling | 135°F → 70°F in 2 hrs, 70°F → 41°F in 4 hrs | Total ≤ 5 hours |
+| Reheating | ≥ 165°F (74°C) | Within 2 hours |
 
-### Basic Configuration
+## 7.2 Culinary Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Cooking Temperatures (USDA)
+| Item | Minimum Temp | Rest Time |
+|------|--------------|-----------|
+| Ground meat | 160°F (71°C) | 3 minutes |
+| Poultry | 165°F (74°C) | None |
+| Fish | 145°F (63°C) | 3 minutes |
+| Beef/veal/lamb (steaks) | 145°F (63°C) | 3 minutes |
+| Pork | 145°F (63°C) | 3 minutes |
 
-## 7.3 Common Commands
-
-| Command | Description |
+### Recipe Standardization
+| Element | Requirement |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| Mise en place | All ingredients measured before cooking |
+| Portion control | Standardized yields, portion tools |
+| Plating | Consistent presentation |
+| Timing | Sequence for on-time service |
 
-## 7.4 Version Compatibility
+## 7.3 Kitchen Operations
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Station Organization (Layout)
+- Receiving → Storage → Prep → Cooking → plating
+- Dirty dishes flow opposite direction
+- Separation of raw/cooked (prevent cross-contamination)
+
+### Equipment Maintenance
+| Equipment | Cleaning Frequency | Method |
+|-----------|-------------------|--------|
+| Grills | Daily | Scrap, clean, sanitize |
+| Fryers | Daily (oil change 3-4x/week) | Filter, clean |
+| Walk-ins | Daily | Wipe shelves, check temps |
+| Cutting boards | After each use | Sanitize |

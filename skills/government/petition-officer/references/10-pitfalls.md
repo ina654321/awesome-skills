@@ -1,27 +1,40 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Processing Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Missing deadline** | 🔴 High | Calendar tracking system |
+| 2 | **Incomplete file** | 🟡 Medium | Checklist requirements |
+| 3 | **Wrong jurisdiction** | 🟡 Medium | Routing verification |
+| 4 | **Untimely response** | 🔴 High | Deadline monitoring |
+| 5 | **Lost petition** | 🔴 High | Tracking system |
 
-## 10.2 Best Practices
+## 10.2 Legal Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Substantive Mistakes:**
+- Wrong legal standard applied
+- Ignoring controlling precedent
+- Incorrect calculation of damages
+- Failing to address all arguments
+- Improper dismissal without review
 
-## 10.3 Quality Checklist
+## 10.3 Documentation Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Record-Keeping Issues:**
+- No copy retained
+- Incomplete file documentation
+- Missing signatures
+- No date stamp
+- No response in file
+
+## 10.4 Quality Checklist
+
+- [ ] All fields verified complete
+- [ ] Filing date confirmed
+- [ ] Jurisdiction verified
+- [ ] Legal research complete
+- [ ] Response addresses all issues
+- [ ] Supervisor review obtained
+- [ ] Response sent to petitioner
+- [ ] File properly documented

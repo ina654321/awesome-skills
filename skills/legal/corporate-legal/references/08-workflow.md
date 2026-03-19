@@ -1,37 +1,42 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 M&A Transaction Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Pre-Signing
+├── Engagement letter
+├── Target due diligence
+├── Letter of intent
+├── Definitive agreement
+└_-> Regulatory filings
 
 Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+├── Signing
+├── Antitrust clearance
+├── Financing
+├── Shareholder approval
+└_-> Closing conditions
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Integration
+├── Day 1 planning
+├── Systems integration
+├── Employee integration
+├── Customer transition
+└_-> Value capture
 ```
 
-## 8.2 Common Workflows
+## 8.2 Corporate Governance Workflow
 
-### Basic Workflow
+1. Board meeting preparation
+2. Proxy statement review
+3. Executive compensation
+4. Risk oversight
+5. Compliance reporting
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Securities Compliance Workflow
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Determine registration requirements
+2. Prepare disclosure documents
+3. SEC review coordination
+4. Stock exchange compliance
+5. Ongoing reporting

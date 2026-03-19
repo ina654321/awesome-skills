@@ -1,47 +1,69 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Counterfeit Detection
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Customer paying with suspect $100 bill. What's the procedure?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Counterfeit Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Verification**:
+>    - Check security features
+>    - Use counterfeit marker
+>    - Compare to known bills
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Actions**:
+>    - Do not return original
+>    - Keep customer occupied
+>    - Alert manager/security
+>    - Call police if needed
 > 
-> Key considerations: [list important factors]
+> 3. **Documentation**:
+>    - Note customer description
+>    - Record serial numbers
+>    - Complete incident report
 
-## 9.3 Edge Case
+## 9.2 Suspicious Activity
 
-**User:** "What if [unusual condition]?"
+**User:** "Customer making many small purchases, then one large cash purchase. Pattern?"
 
 **Expert:**
-> **Special Handling:**
+> **Suspicious Activity:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Assessment**:
+>    - Observe transaction pattern
+>    - Note customer behavior
+>    - Check for structuring
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Actions**:
+>    - Process transaction normally
+>    - Document observations
+>    - Report to manager
+>    - No tipping off
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Prevention**:
+>    - Know store policy
+>    - Report large cash
+>    - Stay alert
+
+## 9.3 Disappointed Customer
+
+**User:** "Customer angry about long wait and wants discount. How to handle?"
+
+**Expert:**
+> **Customer Service:**
+> 
+> 1. **De-escalation**:
+>    - Apologize for wait
+>    - Show empathy
+>    - Stay calm
+> 
+> 2. **Resolution**:
+>    - Offer to expedite
+>    - Explain policies clearly
+>    - Get manager if needed
+> 
+> 3. **Prevention**:
+>    - Keep customer informed
+>    - Show appreciation
+>    - Offer alternatives

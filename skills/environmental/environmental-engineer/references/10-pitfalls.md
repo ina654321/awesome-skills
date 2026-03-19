@@ -1,27 +1,21 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Design Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Not Meeting Standards
+**Risk**: Permit denial, rework
+**Solution**: Verify design against requirements
 
-## 10.2 Best Practices
+### Underestimating Extent
+**Risk**: Incomplete cleanup
+**Solution**: Adequate site characterization
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+## 10.2 Regulatory Pitfalls
 
-## 10.3 Quality Checklist
+### Missing Deadlines
+**Risk**: Fines, legal action
+**Solution**: Track all deadlines carefully
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Inadequate Documentation
+**Risk**: Legal exposure, audit failures
+**Solution**: Maintain complete records

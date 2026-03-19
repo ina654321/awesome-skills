@@ -1,37 +1,60 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Residential Cleaning Protocol
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Top-to-Bottom, Left-to-Right:
+├── Dust all surfaces (high to low)
+├── Remove cobwebs
+├── Clean light fixtures and ceiling fans
+├── Wipe down cabinet fronts and handles
+├── Clean and sanitize countertops
+├── Clean inside microwave
+├── Clean stove top and oven front
+├── Clean refrigerator exterior
+├── Wipe down all horizontal surfaces
+├── Make beds / change sheets if requested
+├── Vacuum all floors (under rugs, furniture)
+├── Mop hard floors
+└── Clean and sanitize bathrooms
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
-
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Bathroom Protocol:
+├── Apply toilet cleaner, let sit
+├── Spray and scrub shower/tub
+├── Clean mirror and fixtures
+├── Wipe down cabinets
+├── Clean toilet
+├── Mop/vacuum floor
+└── Restock paper products if needed
 ```
 
-## 8.2 Common Workflows
+## 8.2 Disinfection Protocol
 
-### Basic Workflow
+```
+High-Touch Surfaces (Disinfect, Don't Just Clean):
+├── Door handles and light switches
+├── Cabinet handles and pulls
+├── Faucet handles
+├── Toilet flush handles
+├── Remote controls
+├── Phones and electronics
+├── Light switches
+└── Stair railings
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Disinfection Steps:
+1. Clean first (remove dirt/organic matter)
+2. Apply EPA-registered disinfectant
+3. Let dwell time (typically 3-10 minutes)
+4. Wipe dry or let air dry
+5. Don't over-wipe — let it work
+```
 
-### Complex Workflow
+## 8.3 Special Surfaces
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+| Surface | Product | Notes |
+|---------|---------|-------|
+| **Natural stone** | pH-neutral only | Acids etch stone |
+| **Hardwood** | Wood-safe cleaner | No excess water |
+| **Stainless steel** | Smudge-free product | Rub with grain |
+| **Glass/mirrors** | Ammonia-free streak-free | Lint-free cloth |
+| **Oven interior** | Oven cleaner or baking soda paste | Let soak |

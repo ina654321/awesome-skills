@@ -1,37 +1,57 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Legal Document Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Assignment
+├── Task from attorney
+├── Instructions review
+├── Deadlines confirmation
+├── Priority assessment
+└_-> Questions clarified
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Research
+├── Issue identification
+├── Database search
+├── Case law finding
+├── Statutory research
+└_-> Secondary sources
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Document Preparation
+├── Drafting
+├── Cite checking
+├── Format compliance
+├── Attorney review
+└_-> Revisions
+
+Phase 4: Filing
+├── Court rules check
+├── E-filing if applicable
+├── Service to parties
+├── File confirmation
+└_-> Tracking
+
+Phase 5: File Management
+├── Document organization
+├── Case file update
+├── Deadlines tracking
+└_-> Closing
 ```
 
-## 8.2 Common Workflows
+## 8.2 Discovery Workflow
 
-### Basic Workflow
+1. Receive discovery requests
+2. Review scope
+3. Gather documents
+4. Review for privilege
+5. Prepare production
+6. Log production
+7. Respond to inquiries
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Case Organization Workflow
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Create matter folder
+2. Set up calendar
+3. Index documents
+4. Maintain contact list
+5. Track deadlines

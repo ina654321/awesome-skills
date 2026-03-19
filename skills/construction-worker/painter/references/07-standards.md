@@ -1,33 +1,32 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Paint Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### ASTM Standards
+| Standard | Application |
+|----------|-------------|
+| D16 | Paint terminology |
+| D235 | Mineral spirits |
+| D392 | Painting of metal |
 
-## 7.2 Configuration Reference
+### VOC Limits
+| Area | Limit (g/L) |
+|------|-------------|
+| Architectural | 250-380 |
+| Industrial | 340-420 |
 
-### Basic Configuration
+## 7.2 Surface Preparation
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
+### Standards
+| Surface | Preparation |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| New Wood | Sand, prime |
+| Previously painted | Sand, clean, spot prime |
+| Metal | Remove rust, prime |
+| Concrete | Clean, etch if needed |
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### SSPC Standards
+| SP1 | Solvent cleaning |
+| SP2 | Hand tool cleaning |
+| SP3 | Power tool cleaning |
+| SP10 | Near-white blast cleaning |

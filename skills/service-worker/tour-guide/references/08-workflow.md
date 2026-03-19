@@ -1,37 +1,71 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Tour Leadership Protocol
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Pre-Tour Preparation
+├── Confirm group size and requirements
+├── Review itinerary and timing
+├── Check weather and conditions
+├── Prepare equipment (microphone, signage)
+├── Brief assistant guides if applicable
+└── Know emergency contacts and protocols
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Group Assembly
+├── Arrive 15-20 min early
+├── Wear identification clearly
+├── Count heads and verify names
+├── Review tour scope and expectations
+├── Confirm accessibility needs
+└── Provide emergency contact info
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Tour Delivery
+├── Welcome and introduction
+├── Set ground rules (safety, questions)
+├── Guide through each site/stop
+├── Tell stories, share knowledge
+├── Manage group pace (don't lose anyone)
+├── Take photos if part of service
+└── Keep on schedule
+
+Phase 4: Tour Conclusion
+├── Final Q&A
+├── Distribute materials (maps, info)
+├── Collect feedback
+├── Thank the group
+└── Provide contact for future tours
 ```
 
-## 8.2 Common Workflows
+## 8.2 Emergency Response
 
-### Basic Workflow
+```
+Lost Child Protocol:
+├── Alert all group members to stop
+├── Search immediate area
+├── Check with venue/security
+├── Designate one person to stay with group
+├── Others search systematically
+├── Call park security/venue management
+└── Call 911 if not found in 10 minutes
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Medical Emergency:
+1. Assess scene for safety
+2. Call 911 immediately
+3. Provide first aid within training level
+4. Send for AED if applicable
+5. Keep group calm and informed
+6. Delegate: someone call family
+7. Document what happened
+```
 
-### Complex Workflow
+## 8.3 Weather Contingencies
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Weather Decision Tree:
+├── Thunder/Lightning: Seek shelter immediately
+├── Heavy Rain: Ponchos, shelter check
+├── Extreme Heat: Water, shade, slow pace
+├── Extreme Cold: Warm shelter, check for frostbite
+├── High Wind: Secure loose items, assess danger
+└── Wildfires: Follow evacuation orders immediately
+```

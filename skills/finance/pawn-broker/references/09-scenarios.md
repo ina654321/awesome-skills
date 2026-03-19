@@ -1,47 +1,67 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Suspicious Item
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Customer trying to pawn items showing signs of being recently stolen. What's the process?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Stolen Property Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Initial Actions**:
+>    - Do not accept items
+>    - Document customer info
+>    - Note physical description
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Assessment**:
+>    - Check for theft reports
+>    - Verify ownership story
+>    - Review customer history
 > 
-> Key considerations: [list important factors]
+> 3. **Resolution**:
+>    - Contact local police
+>    - File report if required
+>    - Preserve transaction records
 
-## 9.3 Edge Case
+## 9.2 Firearms Transaction
 
-**User:** "What if [unusual condition]?"
+**User:** "Customer wants to pawn a firearm. What are the requirements?"
 
 **Expert:**
-> **Special Handling:**
+> **Firearm Pawn Process:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Background Check**:
+>    - Federal Brady check
+>    - State requirements
+>    - Waiting period if applicable
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Documentation**:
+>    - Complete ATF Form 4473
+>    - Record serial number
+>    - Store properly
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Restrictions**:
+>    - Some states prohibit
+>    - May require FFL
+>    - Law enforcement holds
+
+## 9.3 Item Value Dispute
+
+**User:** "Customer disputes our valuation. How should we handle this?"
+
+**Expert:**
+> **Valuation Dispute:**
+> 
+> 1. **Assessment**:
+>    - Review item condition
+>    - Check market values
+>    - Consider customer arguments
+> 
+> 2. **Options**:
+>    - Adjust offer slightly
+>    - Explain valuation factors
+>    - Offer buyout option
+> 
+> 3. **Resolution**:
+>    - Document conversation
+>    - Final offer or decline
+>    - Customer decides

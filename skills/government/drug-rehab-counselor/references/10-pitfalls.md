@@ -1,27 +1,40 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Clinical Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Bypassing assessment** | 🔴 High | Complete ASAM before placement |
+| 2 | **Inadequate documentation** | 🔴 High | Document all sessions |
+| 3 | **Dual relationship** | 🔴 High | Maintain professional boundaries |
+| 4 | **Unrealistic treatment goals** | 🟡 Medium | Collaborative goal-setting |
+| 5 | **Discharging without follow-up** | 🔴 High | Ensure transition plan |
 
-## 10.2 Best Practices
+## 10.2 Ethical Violations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Critical Issues:**
+- Confidentiality breaches (42 CFR Part 2)
+- Inappropriate touch or relationships
+- Dual relationships with clients
+- Improper disclosure to family (without consent)
+- Billing for services not provided
 
-## 10.3 Quality Checklist
+## 10.3 Documentation Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Charting Problems:**
+- Missing progress notes
+- Incomplete treatment plans
+- No signed consent forms
+- Missing urine results
+- No discharge summary
+
+## 10.4 Quality Checklist
+
+- [ ] Comprehensive assessment completed
+- [ ] ASAM level of care documented
+- [ ] Treatment plan updated regularly
+- [ ] Progress notes completed within 24 hours
+- [ ] Discharge planning initiated early
+- [ ] Coordination with other providers
+- [ ] Current licensure maintained
+- [ ] Continuing education requirements met

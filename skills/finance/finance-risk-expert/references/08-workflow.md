@@ -1,37 +1,71 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Risk Assessment Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Risk Identification
+├── Risk universe mapping
+├── Risk taxonomy development
+├── Risk register creation
+├── Risk owner assignment
+└── Inherent risk assessment
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Risk Measurement
+├── Quantitative model development
+├── Statistical analysis
+├── Scenario construction
+├── Stress testing design
+└── VaR calculation
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Risk Appetite
+├── Risk tolerance definition
+├── Limit framework design
+├── Limit calibration
+├── Board approval
+└── Monitoring setup
+
+Phase 4: Risk Monitoring
+├── Daily limit monitoring
+├── Risk dashboard updates
+├── Exception reporting
+├── KRI tracking
+└── Risk committee reporting
+
+Phase 5: Risk Mitigation
+├── Hedging strategy
+├── Insurance placement
+├── Process controls
+└── Capital allocation
 ```
 
-## 8.2 Common Workflows
+## 8.2 Credit Risk Workflow
 
-### Basic Workflow
+1. Loan origination review
+2. Creditworthiness assessment
+3. PD/LGD estimation
+4. Exposure calculation
+5. Credit limit setting
+6. Ongoing monitoring
+7. Watch list management
+8. Problem loan handling
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Market Risk Workflow
 
-### Complex Workflow
+1. Position capture
+2. P&L attribution
+3. VaR calculation
+4. Limit monitoring
+5. Stress testing
+6. Backtesting
+7. Model validation
+8. Risk reporting
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+## 8.4 Operational Risk Workflow
+
+1. Loss data collection
+2. Risk and control assessment
+3. Key risk indicators
+4. Scenario analysis
+5. RC calculation
+6. Action plan tracking
+7. Control testing

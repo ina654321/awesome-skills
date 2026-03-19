@@ -1,33 +1,36 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 API Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Drilling Standards
+| Standard | Application |
+|----------|-------------|
+| API RP 7G | Drill string design |
+| API RP 10D | Casing running |
+| API 5C3 | Drill pipe properties |
 
-## 7.2 Configuration Reference
+### BHA Design
+| Component | Purpose |
+|-----------|----------|
+| Bit | Rock destruction |
+| Motor | Direction control |
+| Stabilizers | Hole quality |
+| MWD | Direction survey |
 
-### Basic Configuration
+## 7.2 Operating Parameters
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Mud Properties
+| Property | Target Range |
+|----------|--------------|
+| Weight | 8.5-18 ppg |
+| Viscosity | 35-50 sec/qt |
+| Yield Point | 10-25 lb/100ft2 |
+| Fluid Loss | <20 cc/30 min |
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Kick Detection
+| Sign | Indication |
+|------|-------------|
+| Pit increase | Influx |
+| Flow rate increase | Influx |
+| Pressure drop | Influx |
+| cuttings increase | Formation change |

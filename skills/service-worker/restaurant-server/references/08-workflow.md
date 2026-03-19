@@ -1,37 +1,68 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Table Service Protocol
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Greeting & Seating
+├── Greet within 2 minutes
+├── Welcome warmly: "Good evening, welcome to [restaurant]"
+├── Check reservation if applicable
+├── Seat guests, present menus
+└── Note any allergies or restrictions
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Taking Orders
+├── Give time to review menu
+├── Describe specials with enthusiasm
+├── Answer menu questions knowledgeably
+├── Note modifications clearly on order
+├── Repeat order back to confirm
+└── Suggest wine/pairings if appropriate
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Service Execution
+├── Check on food timing
+├── Run food correctly (main followed by sides)
+├── Refill drinks proactively
+├── Clear plates between courses
+└── Check satisfaction before dessert
+
+Phase 4: Closing the Check
+├── Present check when requested
+├── Process payment promptly
+├── Handle any issues gracefully
+├── Thank guests sincerely
+└── Invite back
 ```
 
-## 8.2 Common Workflows
+## 8.2 Alcohol Service
 
-### Basic Workflow
+```
+Check Before Serving Alcohol:
+├── Is guest of legal age? (21 in US)
+├── Are they visibly intoxicated already?
+├── How many drinks have they had?
+├── Are they eating food?
+├── Is the situation safe?
+└── Trust your instincts
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Signs of Intoxication:
+- Slurred speech
+- Stumbling, swaying
+- Aggressive behavior
+- Leaning on furniture
+- Excessive laughing/loudness
+- Bloodshot eyes
+```
 
-### Complex Workflow
+## 8.3 Allergen Protocol
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Allergen Handling:
+1. Know the menu — memorize allergens in every dish
+2. Ask about allergies when seating
+3. Flag allergy orders clearly
+4. Communicate to kitchen
+5. Use clean equipment (no cross-contamination)
+6. Verify plate before service
+7. Confirm with guest about allergen
+8. Document allergy in system
+```

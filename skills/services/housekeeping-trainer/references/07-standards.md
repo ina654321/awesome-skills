@@ -1,33 +1,55 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Industry Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [ISSA Cleaning Industry International Standard](https://www.issa.com/standards)
+- [GB/T 19220-2020 - Commercial Cleaning Services Standards (China)](https://www.gov.cn/zwgk/)
+- [EN 13549 - Cleaning Services - Basic Requirements and Recommendations](https://www.en-standard.eu/)
+- [ISO 9001 - Quality Management Systems](https://www.iso.org/standard/62085.html)
+- [ASTM E1157 - Standard Specification for Sampling and Testing Junks](https://www.astm.org/standards/e1157)
 
-## 7.2 Configuration Reference
+## 7.2 Health and Safety Standards
 
-### Basic Configuration
+| Standard | Description | Application |
+|----------|-------------|-------------|
+| OSHA 29 CFR 1910.1200 | Hazard Communication | Chemical safety |
+| EPA regulations | Environmental protection | Disposal procedures |
+| CDC Guidelines | Infection control | Healthcare facilities |
+| NFPA 101 | Life Safety Code | Emergency egress |
+| UL 864 | Fire Alarm Systems | Safety equipment |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Green Cleaning Standards
 
-## 7.3 Common Commands
+- [Green Seal GS-8 - Cleaning Products](https://www.greenseal.org/)
+- [ECOLOGO Certification](https://www.ul.com/resources/ul-ecologo-certification)
+- [Safer Choice - EPA](https://www.epa.gov/saferchoice)
+- [LEED Certification Points](https://www.usgbc.org/leed)
+- [Cradle to Cradle Certified](https://c2ccertified.org/)
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Professional Certifications
 
-## 7.4 Version Compatibility
+| Certification | Organization | Focus |
+|---------------|--------------|-------|
+| CHM | ISSA | Housekeeping Management |
+| OHSAS 18001 | Certification | Occupational Health |
+| BPI | Building Performance | Building assessment |
+| IICRC | Inspection Institute | Carpet cleaning |
+| ProBoard | Board Certification | Uniform programs |
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.5 Equipment Standards
+
+- [UL 507 - Electric Fans](https://www.ul.com/)
+- [ANSI A118.1 - Ceramic Tile](https://www.tcu.com/standards)
+- [NSF International](https://www.nsf.org/)
+- [CE Marking Requirements](https://ec.europa.eu/growth/single-market/ce-marking_en)
+- [ANSI Z87.1 - Eye Protection](https://webstore.ansi.org/)
+
+## 7.6 Chemical Safety Standards
+
+| Regulation | Scope | Requirements |
+|------------|-------|--------------|
+| GHS | Global | Hazard classification |
+| OSHA HazCom | US workplace | SDS requirements |
+| REACH | EU | Chemical registration |
+| TSCA | US | Chemical inventory |
+| Prop 65 | California | Disclosure requirements |

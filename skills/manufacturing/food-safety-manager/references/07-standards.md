@@ -1,33 +1,34 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Food Safety Regulations
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### FDA/USDA Standards
+| Regulation | Application |
+|------------|-------------|
+| FSMA | Food safety moderniz. |
+| 21 CFR 110 | GMPs |
+| HACCP | Hazard analysis |
 
-## 7.2 Configuration Reference
+### Temperature Controls
+| Food Type | Temp |
+|-----------|------|
+| Hot holding | >135°F |
+| Cold holding | <41°F |
+| Cooking | >145°F |
+| Cooling | <41°F in 6 hrs |
 
-### Basic Configuration
+## 7.2 Certifications
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Required Certs
+| Cert | Application |
+|------|-------------|
+| PCQI | Preventive controls |
+| HACCP | Plan implementation |
+| ServSafe | Food handlers |
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Third-Party Audits
+| Audit | Standard |
+|-------|----------|
+| SQF | Food safety |
+| BRC | Global standard |
+| FSSC 22000 | ISO-based |

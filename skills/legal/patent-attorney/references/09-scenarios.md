@@ -1,47 +1,66 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Prior Art Rejection
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "USPTO rejected our application citing prior art. What's the response strategy?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Rejection Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Analysis**:
+>    - Review cited art
+>    - Compare to claims
+>    - Identify differences
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Options**:
+>    - Amend claims
+>    - Argue distinctness
+>    - Show unexpected results
 > 
-> Key considerations: [list important factors]
+> 3. **Response**:
+>    - Detailed arguments
+>    - Declaration if needed
+>    - Interview with examiner
 
-## 9.3 Edge Case
+## 9.2 Freedom to Operate
 
-**User:** "What if [unusual condition]?"
+**User:** "Client launching product. Need FTO opinion on competitor patent."
 
 **Expert:**
-> **Special Handling:**
+> **FTO Analysis:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Assessment**:
+>    - Identify relevant patents
+>    - Analyze claims
+>    - Map to product
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Options**:
+>    - Design around
+>    - License
+>    - Challenge validity
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Opinion**:
+>    - Document analysis
+>    - Risk assessment
+>    - Recommendations
+
+## 9.3 PCT Application
+
+**User:** "Client wants international protection. What's the PCT process?"
+
+**Expert:**
+> **PCT Process:**
+> 
+> 1. **Filing**:
+>    - File PCT from US
+>    - Enter national phases
+> 
+> 2. **International**:
+>    - International search
+>    - Publication
+>    - Preliminary examination
+> 
+> 3. **National Phase**:
+>    - Enter specific countries
+>    - Meet deadlines
+>    - Prosecute locally

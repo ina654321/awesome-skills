@@ -1,33 +1,44 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Infection Control Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [CDC HICPAC Guidelines](https://www.cdc.gov/infectioncontrol/guidelines/index.html) - Infection control guidance
+- [WHO IPC Guidelines](https://www.who.int/infection-prevention/en/) - Global IPC standards
+- [SHEA Guidelines](https://www.shea-online.org) - Healthcare Epidemiology
+- [APIC Text](https://apic.org) - Association for Professionals in Infection Control
+- [CMS Infection Control](https://www.cms.gov) - Conditions of participation
 
-## 7.2 Configuration Reference
+## 7.2 Standard Precautions
 
-### Basic Configuration
-
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+```
+Components:
+├── Hand hygiene
+├── PPE based on anticipated exposure
+├── Respiratory hygiene/cough etiquette
+├── Sharps safety
+├── Safe injection practices
+└── Sterile instruments/devices
 ```
 
-## 7.3 Common Commands
+## 7.3 Transmission-Based Precautions
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| Type | Indicator | Duration | PPE Required |
+|------|-----------|----------|--------------|
+| Contact | MRSA, VRE, C. diff | Duration of illness | Gown + gloves |
+| Droplet | Influenza, pertussis | 24h after abx | Mask |
+| Airborne | TB, measles, varicella | Duration of illness | N95 + AIIR |
 
-## 7.4 Version Compatibility
+## 7.4 Surveillance Definitions (NHSN)
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+```
+Device-Associated Infections:
+├── CLABSI: Primary BSI in patient with CVC
+├── CAUTI: Symptomatic UTI with urinary catheter
+├── VAP: Pneumonia with ventilator ≥48h
+└── SSI: Surgical site infection
+
+Lab-Confirmed BSI:
+├── LCBI 1: Single pathogen from blood
+├── LCBI 2: Same pathogen + common source
+└── LCBI 3: Symptoms + immunocompromised
+```

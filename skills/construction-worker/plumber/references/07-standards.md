@@ -1,33 +1,51 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Plumbing Codes
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
-
-## 7.2 Configuration Reference
-
-### Basic Configuration
-
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
+### IPC (International Plumbing Code)
+| Chapter | Application |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| 3 | General regulations |
+| 4 | Fixtures and faucets |
+| 5 | Water heaters |
+| 6 | Water supply and distribution |
+| 7 | Sanitary drainage |
 
-## 7.4 Version Compatibility
+### UPC (Uniform Plumbing Code - West Coast)
+| Chapter | Application |
+|---------|-------------|
+| 2 | Definitions |
+| 4 | Plumbing fixtures |
+| 5 | Water heaters |
+| 10 | Water supply |
+| 11 | Sanitary drainage |
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.2 Pipe Standards
+
+### Pipe Materials
+| Material | Application | Size |
+|----------|-------------|------|
+| PVC | Drain/waste/vent | 1.5" - 6" |
+| ABS | Drain/waste/vent | 1.5" - 6" |
+| CPVC | Hot/cold water | 0.5" - 2" |
+| PEX | Hot/cold water | 0.25" - 2" |
+| Copper | Hot/cold water | 0.5" - 4" |
+| Cast Iron | Drain (commercial) | 2" - 10" |
+
+### Fitting Standards
+- DWV: Drain/waste/vent (no pressure)
+- Schedule 40: Pressure applications
+- Type K/L: Copper water lines
+
+## 7.3 Safety Standards
+
+### OSHA Requirements
+- 1926.301: Tools (hand/power)
+- 1926.350: Gas welding/cutting
+
+### PPE Requirements
+- Safety glasses
+- Work gloves
+- Steel-toe boots
+- Hearing protection
+- Respirator (when required)

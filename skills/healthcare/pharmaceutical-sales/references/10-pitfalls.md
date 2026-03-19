@@ -1,27 +1,77 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Compliance Violations
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Severity | Prevention |
+|---------|----------|------------|
+| Off-label promotion | 🔴 Critical | Stay on label |
+| Improper gifts | 🔴 High | Follow PhRMA code |
+| Inappropriate samples | 🔴 High | Follow SOP |
+| Misleading claims | 🔴 Critical | Approved materials only |
+| Kickbacks | 🔴 Critical | Never offer incentives |
 
-## 10.2 Best Practices
+## 10.2 Ethical Violations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Violation | Impact | Prevention |
+|-----------|--------|------------|
+| Conflict of interest | Trust damage | Disclosure |
+| Misleading information | Patient harm | Accuracy |
+| Harassment | Legal risk | Professional conduct |
+| Discrimination | Legal risk | Fair treatment |
 
-## 10.3 Quality Checklist
+## 10.3 Documentation Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+```
+Common Issues:
+├── Missing call logs
+├── Inaccurate territory data
+├── Incomplete sample records
+├── Inadequate follow-up
+└── CRM data not updated
+
+Prevention:
+├── Real-time documentation
+├── Weekly review
+├── Manager oversight
+├── Training on systems
+```
+
+## 10.4 Relationship Building Failures
+
+| Failure | Impact | Solution |
+|---------|--------|----------|
+| Only calling when ordering | Transactional | Value-added |
+| Ignoring office staff | Access issues | Build relationships |
+| Being pushy | Banishment | Consultative selling |
+| Not following through | Trust broken | Keep promises |
+
+## 10.5 Product Knowledge Gaps
+
+```
+Knowledge Needed:
+├── Mechanism of action
+├── Clinical trial data
+├── Dosing and administration
+├── Side effect profile
+├── Drug interactions
+├── Storage requirements
+
+Prevention:
+├── Regular training
+├── Certification testing
+├── Product updates
+├── Competitor knowledge
+```
+
+## 10.6 Quality Checklist
+
+- [ ] Product knowledge current
+- [ ] Approved materials only
+- [ ] Calls documented in CRM
+- [ ] Sample records accurate
+- [ ] Territory data current
+- [ ] Compliance training complete
+- [ ] No off-label promotion
+- [ ] Appropriate follow-up
+- [ ] Professional conduct maintained
+- [ ] Business objectives met ethically

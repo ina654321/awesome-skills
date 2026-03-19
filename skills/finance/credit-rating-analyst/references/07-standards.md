@@ -2,32 +2,38 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [S&P Global Ratings Criteria](https://www.spglobal.com/ratings) - Rating methodology
+- [Moody's Rating Methodology](https://www.moodys.com/researchandratings) - Credit rating approaches
+- [Fitch Ratings Criteria](https://www.fitchratings.com) - Rating definitions
+- [SEC NRSRO Registration](https://www.sec.gov/oc/nrsro) - NRSRO requirements
+- [CRA Regulation (EU) 1060/2009](https://eur-lex.europa.eu) - European credit rating regulation
 
-## 7.2 Configuration Reference
+## 7.2 Rating Scales
 
-### Basic Configuration
+| Agency | Investment Grade | Speculative Grade |
+|--------|-----------------|-------------------|
+| **S&P** | AAA to BBB- | BB+ to D |
+| **Moody's** | Aaa to Baa3 | Ba1 to C |
+| **Fitch** | AAA to BBB- | BB+ to D |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **CRA3 Regulation** | EU | European rating agencies |
+| **SEC Rule 17g-1** | SEC | NRSRO compliance |
+| **IOSCO Code of Conduct** | IOSCO | CRA independence |
+| **Basel II/III** | BIS | Bank capital requirements |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key Analytical Frameworks
 
-## 7.4 Version Compatibility
+- [S&P Global Ratings Governance Structures](https://www.spglobal.com)
+- [Moody's Analytical Insights](https://www.moodys.com)
+- [Fitch Ratings Research](https://www.fitchratings.com)
+- [Bank for International Settlements](https://www.bis.org)
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.5 Default Statistics
+
+- [S&P Global Default Study](https://www.spglobal.com)
+- [Moody's Default Reports](https://www.moodys.com)
+- [Fitch Default Rating History](https://www.fitchratings.com)

@@ -2,32 +2,50 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [National Football League Players Association (NFLPA)](https://www.nflpa.com)
+- [National Basketball Players Association (NBPA)](https://www.nbpa.com)
+- [Major League Baseball Players Association (MLBPA)](https://www.mlbplayers.com)
+- [National Hockey League Players' Association (NHLPA)](https://www.nhlpa.com)
+- [Sports Agent Registration Act (SARA) by State](https://www.ncaa.org)
 
-## 7.2 Configuration Reference
+## 7.2 Licensing Requirements
 
-### Basic Configuration
+| Jurisdiction | Requirements | Notes |
+|-------------|-------------|-------|
+| California | SARA registration, $1,500 bond | Most players, strictest |
+| New York | Athletic Agent Act, $10,000 bond | NFL, NBA, MLB agents |
+| Florida | Registration, $50,000 bond | Multiple sports |
+| Texas | Registration, $50,000 bond | NFL-heavy market |
+| North Carolina | NCAA-specific rules | Duke, UNC market |
+| Most states | Varying requirements | Always verify current rules |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Commission Standards
 
-## 7.3 Common Commands
+| Service | Industry Standard | Range |
+|---------|------------------|-------|
+| Contract negotiation | 3-4% of contract value | 2-5% |
+| Marketing/endorsements | 15-25% of deal value | 10-30% |
+| Appearance fees | 20-30% of fee | 15-35% |
+| Licensing/merchandise | 20-25% of revenue | 15-30% |
+| Financial planning referral | 8-12% of AUM | Fee-based |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Contract Standards
 
-## 7.4 Version Compatibility
+| Element | Standard | Documentation |
+|---------|----------|----------------|
+| Term | Sport-specific | Written agreement required |
+| Commission rate | Negotiated | Signed by both parties |
+| Marketing rights | Defined scope | Exclusive vs. non-exclusive |
+| Expenses | Reimbursed | Receipts required |
+| Termination | Notice period | Typically 30-90 days |
+| Jurisdiction | Governing law | State-specific |
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.5 Athlete Representation Standards
+
+| Role | Responsibilities | Ethical Boundaries |
+|------|------------------|-------------------|
+| Contract Negotiator | Maximize compensation, guaranteed money, protections | No tampering, truthful representations |
+| Marketing Agent | Secure endorsement deals, appearances | FTC disclosures, athlete approval |
+| Financial Advisor | Investment referrals, tax planning | Disclosure of referral fees |
+| Publicist | Media management, crisis communications | Truthful statements only |
+| Brand Strategist | Image management, social media | Athlete's interests first |

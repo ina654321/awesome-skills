@@ -1,27 +1,37 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Operational Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Unreported outage** | 🔴 High | Always report immediately |
+| 2 | **Skipped maintenance** | 🟡 Medium | Follow schedule |
+| 3 | **Incomplete logs** | 🟡 Medium | Document everything |
+| 4 | **Delayed repairs** | 🟡 Medium | Don't delay fixes |
+| 5 | **Inadequate supplies** | 🟡 Medium | Keep spare parts |
 
-## 10.2 Best Practices
+## 10.2 Safety Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Life Safety:**
+- Working in unsafe conditions
+- Ignoring weather warnings
+- Inadequate PPE
+- No backup plan for emergencies
 
-## 10.3 Quality Checklist
+## 10.3 Communication Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Navigation Safety:**
+- Late reporting of outages
+- No notification to mariners
+- Wrong information to public
+
+## 10.4 Quality Checklist
+
+- [ ] Daily inspection completed
+- [ ] Light operating properly
+- [ ] Power backup verified
+- [ ] Logs current
+- [ ] Supplies stocked
+- [ ] Weather monitored
+- [ ] Reports filed
+- [ ] Safety procedures followed

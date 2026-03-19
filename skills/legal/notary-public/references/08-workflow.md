@@ -1,37 +1,42 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Notarization Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Pre-Notarization
+├── Identify document type
+├── Verify signer intent
+├── Check identification
+├── Review for completeness
+└_-> Identify required act
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Notarization
+├── Require signer signature
+├── Verify identity (current ID)
+├── Administer oath if required
+├── Complete certificate
+└_-> Affix official seal
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Documentation
+├── Enter in notary journal
+├── Retain copy if required
+├── Collect fees
+└_-> Deliver document
 ```
 
-## 8.2 Common Workflows
+## 8.2 Remote Online Notarization
 
-### Basic Workflow
+1. Verify identity (credential analysis)
+2. Create audio/video session
+3. Observe signing
+4. Complete electronic certificate
+5. Attach to document
+6. Maintain records
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Refusal Workflow
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Identify refusal grounds
+2. Explain refusal to requestor
+3. Document refusal
+4. Return documents
+5. Keep journal entry

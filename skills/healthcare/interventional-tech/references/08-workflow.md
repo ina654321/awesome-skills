@@ -1,37 +1,79 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Pre-Procedure Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Procedure Order Review
+├── Verify clinical indication
+├── Confirm relevant labs (Cr, coag, CBC)
+├── Review imaging priors
+├── Check allergies (contrast, lidocaine)
+└── Document informed consent
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Patient Preparation
+├── NPO status verified
+├── IV access established
+├── Pre-procedure timeout
+├── Correct patient/procedure/side
+└── Baseline vitals documented
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Room Setup
+├── Equipment powered on
+├── Sterile field prepared
+├── Emergency equipment available
+├── Radiation safety measures
+└── Contrast warmed if needed
 ```
 
-## 8.2 Common Workflows
+## 8.2 Procedure Support Workflow
 
-### Basic Workflow
+```
+During Procedure:
+├── Position patient appropriately
+├── Assist with sterile supplies
+├── Monitor vital signs
+├── Document contrast used
+├── Track fluoro time
+└── Maintain radiation safety
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Post-Procedure:
+├── Assist with hemostasis
+├── Apply dressings
+├── Patient transport
+├── Room turnover
+└── Equipment cleaning
+```
 
-### Complex Workflow
+## 8.3 Contrast Administration
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Standard Protocol:
+├── Check eGFR within 7 days (IV), 3 months (PO)
+├── Contraindications: eGFR <30 (IV), pregnancy
+├── Hydration for high-risk patients
+└── Document any reactions
+
+Reaction Management:
+├── Mild: Stop, antihistamine, monitor
+├── Moderate: Stop, epinephrine, resuscitation
+├── Severe: Activate code, resuscitation
+└── All reactions documented
+```
+
+## 8.4 Radiation Safety Protocol
+
+```
+During Fluoro:
+├── Minimize fluoro time
+├── Use last-image-hold
+├── Maximize distance (inverse square)
+├── Collimate tightly
+├── Use low-dose modes
+└── Lead protection for all staff
+
+Dose Monitoring:
+├── Wear dosimeter at collar
+├── Track cumulative exposure
+├── Report anomalies
+└── Annual review
+```

@@ -1,47 +1,78 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Liquidity Crisis
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "A fund with $500M AUM faces 15% daily redemptions. How should we handle this?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Liquidity Management:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Immediate Assessment**:
+>    - Calculate daily cash requirements
+>    - Review investor concentration
+>    - Assess redemption terms (daily/monthly)
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Liquidity Sources**:
+>    - Available cash and equivalents
+>    - Uncommitted credit lines
+>    - Marketable securities portfolio
+>    - Asset sale feasibility
 > 
-> Key considerations: [list important factors]
+> 3. **Actions**:
+>    - Suspend redemptions (if permitted)
+>    - Negotiate with large investors
+>    - Delay non-essential payments
+>    - Liquidate liquid securities first
+> 
+> 4. **Communication**:
+>    - Notify board immediately
+>    - Prepare investor communication
+>    - Document all decisions
 
-## 9.3 Edge Case
+## 9.2 Regulatory Examination Finding
 
-**User:** "What if [unusual condition]?"
+**User:** "SEC exam flagged inadequate liquidity stress testing. What's the response?"
 
 **Expert:**
-> **Special Handling:**
+> **Remediation Plan:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Understanding the Finding**:
+>    - Request specific deficiency details
+>    - Review prior examination history
+>    - Identify root cause
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Corrective Actions**:
+>    - Enhance stress test methodology
+>    - Add scenario categories (rate, credit, liquidity)
+>    - Implement backtesting
+>    - Document governance
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Response**:
+>    - Written response within 30 days
+>    - Implement changes before response
+>    - Independent validation
+
+## 9.3 Performance Underperformance
+
+**User:** "Fund underperforming benchmark by 200bps for 18 months. What actions needed?"
+
+**Expert:**
+> **Performance Analysis:**
+> 
+> 1. **Attribution Analysis**:
+>    - Asset allocation contribution
+>    - Security selection contribution
+>    - Currency effect
+>    - Fees impact
+> 
+> 2. **Root Cause**:
+>    - Strategy drift detection
+>    - Market regime analysis
+>    - Benchmark appropriateness
+>    - Key personnel changes
+> 
+> 3. **Options**:
+>    - Strategy modification
+>    - Manager replacement consideration
+>    - Benchmark change
+>    - Fund merger/closure

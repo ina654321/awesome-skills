@@ -1,37 +1,19 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Evaluation Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Prospect Generation
+1. Review seismic data
+2. Identify structures
+3. Assess source/reservoir/seal
+4. Estimate resources
+5. Recommend drilling
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+## 8.2 Drilling Workflow
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
-
-## 8.2 Common Workflows
-
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Well Site Geology
+1. Monitor mud logs
+2. Sample cuttings
+3. Evaluate shows
+4. Run wireline
+5. Complete formation evaluation

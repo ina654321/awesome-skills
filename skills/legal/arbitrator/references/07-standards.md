@@ -1,33 +1,30 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Alternative Dispute Resolution Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Arbitration Law
+- [9 U.S.C. Chapter 1](https://uscode.house.gov/view.xhtml?path=/prelim@title9&edition=prelim): Federal Arbitration Act
+- [9 U.S.C. Chapter 2](https://uscode.house.gov/view.xhtml?path=/prelim@title9&edition=prelim): New York Convention
+- [29 U.S.C. §171](https://www.ecfr.gov/current/title-29/section-171): Labor arbitration
+- [CFR Title 29](https://www.ecfr.gov/current/title-29/part-1404): EEOC mediation procedures
 
-## 7.2 Configuration Reference
+### Professional Standards
+| Standard | Body | Application |
+|----------|------|-------------|
+| **AAA Rules** | American Arbitration Association | Commercial, employment, consumer |
+| **JAMS Rules** | Judicial Arbitration and Mediation | Comprehensive ADR |
+| **FMCS Rules** | Federal Mediation Service | Labor-management disputes |
+| **CPR Protocol** | Int'l Institute for Conflict Prevention | Corporate disputes |
 
-### Basic Configuration
+## 7.2 Ethical Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Arbitrator Conduct
+- [AAA/ABA Code of Ethics](https://www.adr.org/aaa/ShowProperty?nodeId=/UCM/ADRSTG_0021098): Neutrality, disclosure, competence
+- [JAMS Ethics Guidelines](https://www.jamsadr.com/ethics/): Professional responsibility
+- [NJ Super. Ct. R. 1:39](https://www.njcourts.gov/): Court-annexed arbitration rules
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Conflicts & Disclosure
+- Prior relationships with parties or counsel
+- Financial interests in outcome
+- Prior arbitration experience with same parties
+- Ongoing business relationships

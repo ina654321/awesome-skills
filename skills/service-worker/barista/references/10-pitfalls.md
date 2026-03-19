@@ -1,27 +1,51 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Espresso Quality Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Quick Fix |
+|---|---------|----------|-----------|
+| 1 | **Inconsistent dosing** | 🔴 High | Use scale, 18-20g every time |
+| 2 | **Wrong tamp pressure** | 🔴 High | 30 lbs, level, straight |
+| 3 | **Overheating milk** | 🔴 High | Stop at 140-150°F |
+| 4 | **Not purging between shots** | 🔴 High | Always purge before each extraction |
+| 5 | **Grinding too fine/coarse** | 🔴 High | Adjust daily, dial in to 25-30 sec |
 
-## 10.2 Best Practices
+## 10.2 Food Safety Violations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Health Code Issues:**
+- Bare hand contact with ready-to-eat food
+- Not washing hands between tasks
+- Leaving milk out too long (2-hour rule)
+- Using expired milk without checking
+- Storing raw and ready-to-eat food together
+- Temperature abuse of cream/milk
 
-## 10.3 Quality Checklist
+## 10.3 Customer Service Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Common Mistakes:**
+- Making drinks while on phone
+- Not repeating order back to customer
+- Wrong drink served to wrong person
+- Rude responses to modification requests
+- Long waits without communication
+- Giving wrong change
+
+## 10.4 Equipment Mistakes
+
+⚠️ **Espresso Machine:**
+- Not backflushing daily
+- Leaving machine on overnight (energy/safety)
+- Using wrong basket size
+- Not cleaning steam wand after each use
+- Leaving wet grounds in portafilter
+
+## 10.5 Quality Checklist
+
+- [ ] Hands washed before starting
+- [ ] All temperatures monitored and logged
+- [ ] Espresso shots pulled to spec (25-30 sec, 36-40g)
+- [ ] Milk steamed to 140-150°F
+- [ ] All drinks made to recipe
+- [ ] Customer modifications correct
+- [ ] Workspace clean during service
+- [ ] Register balanced

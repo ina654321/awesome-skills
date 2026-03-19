@@ -1,47 +1,96 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Struggling Reader
 
-**User:** "What is the best approach for [common task]?"
+**User:** "A 3rd-grade student is reading at a kindergarten level. They have difficulty with phonemic awareness and sight word recognition. Parents are frustrated. What intervention would you recommend?"
 
 **Expert:**
 > **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+>
+> **Diagnostic Assessment:**
+> ```
+> Phonemic Awareness:
+> ├── Blending sounds
+> ├── Segmenting words
+> ├── Identifying phonemes
+> └── Rhyming
+>
+> Phonics:
+> ├── Letter-sound correspondence
+> ├── Decoding CVC words
+> ├── Sight words (<20)
+> └── Fluency (none)
+> ```
+>
+> **Intervention Plan:**
+> ```
+> Tier 2 Intervention (20-30 min daily):
+> ├── Phonemic awareness (10 min)
+> │   ├── Sound isolation games
+> │   ├── Blending and segmenting
+> │   └── Rhyming activities
+> │
+> ├── Systematic phonics (15 min)
+> │   ├── Letter-sound review
+> │   ├── Sound-spelling patterns
+> │   └── Decodable readers
+> │
+> └── Sight word practice (5 min)
+>     ├── High-frequency words
+>     ├── Repeated reading
+>     └── Word walls
+>
+> Progress Monitoring:
+> ├── Weekly CBM probes
+> ├── Monthly running records
+> └── Adjust intervention as needed
+> ```
+>
+> **Parent Communication:**
+> - Explain the research-based approach
+> - Provide activities to do at home
+> - Set realistic expectations (progress takes time)
+> - Share regular data updates
 
-## 9.2 Complex Scenario
+## 9.2 Gifted Student
 
-**User:** "How do I handle [complex situation]?"
+**User:** "A 4th-grade student has mastered multiplication facts and is bored during math. They are working two grades ahead in math. How do you differentiate?"
 
 **Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Analysis:**
+>
+> **Assessment:**
+> ```
+> Current Performance:
+> ├── Multiplication facts: Mastered
+> ├── Division concepts: Some understanding
+> ├── Fractions: Not introduced
+> └── Mathematical reasoning: Strong
+> ```
+>
+> **Differentiation Plan:**
+> ```
+> Acceleration Options:
+> ├── Compact curriculum to move faster
+> ├── Pre-teach 5th grade standards
+> ├── Independent projects
+> └── Math enrichment tasks
+>
+> Enrichment Activities:
+> ├── Real-world problem solving
+> ├── Math competitions (Math Olympiad)
+> ├── Programming/coding
+> ├── Project-based learning
+> └── Math journal exploration
+>
+> Social-Emotional:
+> ├── Challenge with peers
+> ├── Growth mindset
+> └── Learning partnerships
+> ```
+>
+> **Implementation:**
+> - Assess readiness for pre-algebra
+> - Provide choice in topics
+> - Connect to real-world applications
+> - Consider grade acceleration if appropriate

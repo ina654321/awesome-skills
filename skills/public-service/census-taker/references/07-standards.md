@@ -1,33 +1,29 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Census Law & Regulations
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Census Authority
+- [13 U.S.C.](https://uscode.house.gov/view.xhtml?reqgranuleid=USC-prelim-title13&edition=prelim): Census Act — Census authority, confidentiality
+- [Title 13 U.S.C. §9](https://uscode.house.gov/view.xhtml?path=/prelim@title13/section9&edition=prelim): Confidentiality of census data (protected from disclosure)
+- [Title 13 U.S.C. §141](https://uscode.house.gov/view.xhtml?path=/prelim@title13/section141&edition=prelim): Population census requirements
+- [Commerce Clause](https://constitution.congress.gov/article/article-i/): Census authority basis
 
-## 7.2 Configuration Reference
+### Census Bureau Standards
+| Standard | Application |
+|----------|-------------|
+| **[Census Bureau Data Protection](https://www.census.gov/about/policies/privacy.html)** | Title 13 confidentiality |
+| **[Statistical Quality Standards](https://www.census.gov/about/policies/quality.html)** | Data accuracy framework |
+| **[Redistricting Data Program](https://www.census.gov/programs-surveys/decennial-census/about/rdo.html)** | State redistricting data |
+| **[ACS Technical Documentation](https://www.census.gov/programs-surveys/acs/technical-documentation.html)** | American Community Survey |
 
-### Basic Configuration
+## 7.2 Enumeration Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+- [Enumeration Manual](https://www.census.gov/programs-surveys/decennial-census/technical-documentation.html): Census operations
+- [Questionnaire Reference Manuals](https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaire-reference-manuals.html): Census form instructions
+- [Address Canvassing](https://www.census.gov/geo/partnerships/pdfs/partnerships/Census2020_IA_Address_Canvassing_Manual.pdf): Address verification
 
-## 7.3 Common Commands
+## 7.3 Quality & Validation
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [Coverage Measurement](https://www.census.gov/coverage_measurement/): Undercount/overcount analysis
+- [Data Stewardship](https://www.census.gov/about/policies/data.html): Data governance
+- [DQ Atlas](https://www.census.gov/geo/dqa/): Data quality atlas

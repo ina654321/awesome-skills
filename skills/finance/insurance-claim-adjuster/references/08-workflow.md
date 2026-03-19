@@ -1,37 +1,59 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Claims Investigation Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Intake
+├── Initial claim received
+├── Policy verification
+├── Coverage determination
+├── Claim assignment
+└_-> File creation
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Investigation
+├── Policy review
+├── Loss assessment
+├── Evidence gathering
+├── Witness interviews
+└_-> Expert consultation
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Evaluation
+├── Coverage analysis
+├── Damage assessment
+├── Liability determination
+├── Reserve calculation
+└_-> Settlement proposal
+
+Phase 4: Resolution
+├── Negotiation with claimant
+├── Settlement agreement
+├── Payment processing
+├── Release documentation
+└_-> File closure
+
+Phase 5: Quality Review
+├── File review
+├── Audit completion
+├── Lessons learned
+└_-> Improvement actions
 ```
 
-## 8.2 Common Workflows
+## 8.2 Auto Claim Workflow
 
-### Basic Workflow
+1. Initial contact with claimant
+2. Police report review
+3. Vehicle inspection
+4. Coverage verification
+5. Liability analysis
+6. Damage estimate
+7. Settlement negotiation
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Property Claim Workflow
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Notice of loss received
+2. Contact insured
+3. Policy review
+4. Site inspection
+5. Contents inventory
+6. Damage assessment
+7. Payment or denial

@@ -1,47 +1,96 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Spinal Cord Injury Wheelchair
 
-**User:** "What is the best approach for [common task]?"
+**User:** "35-year-old male with T6 complete spinal cord injury, community ambulator with crutches. Lives in 2-story home. Needs wheelchair for long-distance mobility. What assistive technology recommendations would you make?"
 
 **Expert:**
 > **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+>
+> **Current Status:**
+> ```
+> Functional Level:
+> ├── Lower extremity: No motor function
+> ├── Upper extremity: Intact
+> ├── Trunk: Impaired balance
+> ├── Transfers: Independent with sliding board
+> └── Wheelchair skills: Experienced
+>
+> Living Situation:
+> ├── 2-story home
+> ├── Master bedroom downstairs
+> ├── Bathroom: Roll-in shower needed
+> └── Vehicle: Minivan
+> ```
+>
+> **Recommendations:**
+> ```
+> Primary Wheelchair:
+> ├── Ultra-lightweight manual (TiLite or similar)
+> ├── Folding frame for vehicle transport
+> ├── Rigid back (adjustable)
+> ├── Lightweight wheels (Spinergy)
+> ├── Quick-release axles
+> └── Weight target: <15 lbs
+>
+> Secondary (for exercise):
+> ├── Manual sports chair
+> ├── Basketball or tennis chair
+> └── For handcycling attachment
+>
+> Home Modifications:
+> ├── Roll-in shower
+> ├── Kitchen counter heights
+> ├── Bedroom on ground floor (or elevator)
+> └── Van lift for vehicle
+>
+> Environmental Controls:
+> ├── Voice-controlled home automation
+> ├── Power door locks
+> └── Smart thermostat
+> ```
 
-## 9.2 Complex Scenario
+## 9.2 ALS AAC Device
 
-**User:** "How do I handle [complex situation]?"
+**User:** "Patient with ALS, 6 months post-diagnosis, now has limited speech clarity and hand weakness. What augmentative communication recommendations would you make?"
 
 **Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Analysis:**
+>
+> **Current Status:**
+> ```
+> Communication:
+> ├── Speech: Reduced clarity
+> ├── Writing: Slowing
+> ├── Hand function: Weak grip, limited fine motor
+> └── Cognition: Intact
+>
+> Progression Expectation:
+> ├── Voice will continue to decline
+> ├── Hand function will worsen
+> ├── May lose ambulation
+> └── Respiratory function at risk
+> ```
+>
+> **Communication Device Plan:**
+> ```
+> Phase 1 (Current):
+> ├── Light-tech: Letter board, partner-assisted scanning
+> ├── Tablet with text-to-speech app
+> ├── Eye-tracking access when handwriting slows
+> └── Mounting system for wheelchair
+>
+> Phase 2 (Future):
+> ├── Dedicated speech-generating device (SGD)
+> ├── Eye-tracking as primary access
+> ├── Text-to-speech with natural voice
+> ├── Environmental control integrated
+> └── Mobile arm support if needed
+>
+> Critical Considerations:
+> ├── Introduce low-tech immediately
+> ├── Don't wait until speech is gone
+> ├── Train family in partner-assisted scanning
+> ├── Preserve voice recordings for voice banking
+> └── Plan for rapid progression
+> ```

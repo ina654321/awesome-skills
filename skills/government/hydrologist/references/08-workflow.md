@@ -1,37 +1,50 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Surface Water Monitoring
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Site Selection
+├── Identify monitoring objectives
+├── Select representative location
+├── Obtain access permissions
+├── Establish reference conditions
+└── Document site characteristics
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Field Sampling
+├── Equipment calibration
+├── Sample collection (grab/composite)
+├── In-situ measurements (pH, DO, temp, cond)
+├── Field blanks and duplicates
+└── Chain of custody documentation
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Lab Analysis
+├── Sample preservation
+├── Certified lab submission
+├── QA/QC review
+├── Data validation
+└── Results reporting
+
+Phase 4: Data Management
+├── Database entry
+├── Trend analysis
+├── Threshold comparison
+├── Report generation
+└── Data sharing
 ```
 
-## 8.2 Common Workflows
+## 8.2 Flood Analysis Workflow
 
-### Basic Workflow
+1. **Historical Review** (1-2 weeks): Gage data, flood records, FEMA maps
+2. **Hydrologic Analysis** (2-4 weeks): Rainfall-runoff modeling, frequency analysis
+3. **Hydraulic Analysis** (2-4 weeks): Channel capacity, floodplain delineation
+4. **Risk Assessment** (1 week): Infrastructure impacts, population exposure
+5. **Reporting** (1 week): Technical memo, maps, recommendations
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Groundwater Investigation
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+| Phase | Activities |
+|-------|------------|
+| **Preliminary** | Records search, aerial photos, well inventory |
+| **Fieldwork** | Test well installation, aquifer tests, sampling |
+| **Analysis** | Pumping test analysis, water quality evaluation |
+| **Modeling** | Groundwater flow simulation, capture zone analysis |

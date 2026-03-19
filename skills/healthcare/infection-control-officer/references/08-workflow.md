@@ -1,37 +1,89 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Surveillance Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Plan
+├── Define surveillance objectives
+├── Select process vs outcome measures
+├── Determine population at risk
+├── Establish data sources
+└── Set benchmarks
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Collect
+├── Extract data from EMR
+├── Review lab reports
+├── Audit charts
+├── Round on units
+└── Aggregate data
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Analyze
+├── Calculate rates (per 1000 patient days)
+├── Compare to baseline
+├── Identify trends
+├── Perform root cause analysis
+└── Generate reports
 ```
 
-## 8.2 Common Workflows
+## 8.2 Outbreak Investigation
 
-### Basic Workflow
+```
+Step 1: Detection
+├── Increase in infections
+├── Cluster identification
+├── Alert notification
+└── Initial assessment
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Step 2: Confirmation
+├── Verify case definition
+├── Count cases
+├── Review microbiology
+├── Assess clinical significance
+└── Determine scope
 
-### Complex Workflow
+Step 3: Containment
+├── Implement interventions
+├── Enhanced surveillance
+├── Communication
+├── Environmental assessment
+└── Visitor restrictions
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+Step 4: Resolution
+├── Monitor for new cases
+├── Assess intervention effectiveness
+├── Declare outbreak over
+├── Document lessons learned
+└── Report findings
+```
+
+## 8.3 Infection Prevention Rounds
+
+```
+Rounding Checklist:
+├── Hand hygiene observation
+├── PPE availability and use
+├── Environment cleanliness
+├── Sharps container status
+├── Isolation precautions compliance
+├── Device care practices
+├── Staff knowledge assessment
+└── Supply inventory
+```
+
+## 8.4 Education Workflow
+
+```
+New Employee:
+├── Hand hygiene training
+├── PPE donning/doffing
+├── Isolation precautions
+├── Safe injection practices
+└── Competency assessment
+
+Annual Competency:
+├── Review of policies
+├── Hand hygiene return demo
+├── Updated guidelines
+├── Case studies
+└── Competency verification
+```

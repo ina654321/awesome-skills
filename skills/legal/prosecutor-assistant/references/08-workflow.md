@@ -1,37 +1,49 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Prosecution Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Initial Review
+├── Police report review
+├── Determine jurisdiction
+├── Preliminary evidence assessment
+├── Charging decision
+└_-> File complaint/indictment
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Pre-Trial
+├── Evidence discovery
+├── Witness interviews
+├── Motions practice
+├── Plea negotiations
+└_-> Trial preparation
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Trial
+├── Jury selection
+├── Opening statement
+├── Direct/cross examination
+├── Closing argument
+└_-> Sentencing if convicted
+
+Phase 4: Post-Trial
+├── Appeal preparation
+├── Sentencing advocacy
+└_-> Victim notification
 ```
 
-## 8.2 Common Workflows
+## 8.2 Charging Workflow
 
-### Basic Workflow
+1. Review evidence
+2. Apply charging standards
+3. Determine charges
+4. Draft complaint/indictment
+5. Get supervisor approval
+6. File with court
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Discovery Workflow
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Receive defense discovery request
+2. Gather all evidence
+3. Review for Brady/Giglio
+4. Organize materials
+5. Produce to defense
+6. Document production

@@ -2,32 +2,36 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [UNESCO Guidelines on Internationalization](https://www.iesalc.unesco.org/) - International education quality standards
+- [NAFSA Association of International Educators](https://www.nafsa.org/) - Best practices for international offices
+- [EAIE European Association](https://www.eaie.org/) - International higher education standards
+- [KPT Malaysia Internationalization](https://www.mqa.gov.my/) - Malaysian qualifications framework for international partnerships
 
-## 7.2 Configuration Reference
+## 7.2 Compliance and Regulatory Standards
 
-### Basic Configuration
+| Regulation | Jurisdiction | Key Requirement |
+|-----------|:---:|-----------|
+| F-1/M-1 Student Visa | US Federal | Maintain full-time enrollment; report address changes |
+| Student Route Visa | UK | Proof of funds; CAS from sponsor institution |
+| Subclass 500 | Australia | Genuine Temporary Entrant requirement; financial proof |
+| Student Pass | Malaysia | EMGS approval; valid passport; enrollment confirmation |
+| GDPR | EU | Data protection for international student records |
+| PDPA | Malaysia | Personal data protection in student administration |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 International Student Support Standards
 
-## 7.3 Common Commands
+| Service Area | Standard |
+|---|---|
+| Pre-arrival support | Visa guidance, pre-departure orientation within 30 days of acceptance |
+| Airport pickup | Offered to all first-time international students |
+| Orientation | Minimum 5-day program covering academics, health, safety, culture |
+| Housing | Verified off-campus housing list; 30-day guaranteed on-campus option |
+| Academic advising | Dedicated international student advisor per 200 students |
+| Emergency support | 24/7 emergency contact accessible by phone/SMS |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Exchange and Partnership Standards
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- MOU requirements: Minimum 5-year duration; annual review clause; termination provisions
+- Credit transfer: Equivalence evaluation within 15 business days of transcript receipt
+- Student exchange quota: Reciprocal balance within 20% over 3-year rolling average
+- Scholarship standards: Disbursement within 30 days of semester start

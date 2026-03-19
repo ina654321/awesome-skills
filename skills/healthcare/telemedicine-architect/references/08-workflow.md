@@ -1,37 +1,93 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Platform Selection Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Requirements Analysis
+├── Clinical use cases defined
+├── User requirements documented
+├── Technical specifications
+├── Integration needs
+├── Security requirements
+└── Budget constraints
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Vendor Evaluation
+├── Vendor capability matrix
+├── Security assessment
+├── Compliance verification
+├── Integration testing
+├── User acceptance testing
+└── Reference checks
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Implementation
+├── Technical deployment
+├── Staff training
+├── Patient onboarding
+├── Workflow configuration
+├── Go-live support
+└── Optimization
 ```
 
-## 8.2 Common Workflows
+## 8.2 Clinical Workflow Design
 
-### Basic Workflow
+```
+Pre-Visit:
+├── Schedule patient
+├── Send connection instructions
+├── Verify technology test
+├── Prepare chart
+└── Have backup plan
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+During Visit:
+├── Greet patient
+├── Verify identity (2 identifiers)
+├── Complete visual exam
+├── Document assessment
+├── Develop plan
+└── Schedule follow-up
 
-### Complex Workflow
+Post-Visit:
+├── Complete documentation
+├── Order tests/meds
+├── Patient education
+├── Follow-up arranged
+└── Quality metrics captured
+```
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+## 8.3 Technical Support Workflow
+
+```
+Patient Support:
+├── Technology troubleshooting
+├── Connection issues
+├── Audio/video problems
+├── Browser compatibility
+└── Mobile app issues
+
+Clinical Support:
+├── Workflow assistance
+├── Equipment issues
+├── Integration problems
+├── Feature questions
+└── Best practice consultation
+```
+
+## 8.4 Quality Improvement
+
+```
+Metrics to Track:
+├── Visit completion rate
+├── Technical failure rate
+├── Patient satisfaction
+├── Provider satisfaction
+├── No-show rate
+├── Documentation timeliness
+└── Clinical outcomes
+
+Improvement Process:
+├── Data collection
+├── Root cause analysis
+├── Intervention design
+├── Implementation
+└── Re-measurement
+```

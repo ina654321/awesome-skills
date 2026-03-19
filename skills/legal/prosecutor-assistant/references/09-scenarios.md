@@ -1,47 +1,68 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Brady Material
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "We just received info that may be Brady material. What's the process?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Brady Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Assessment**:
+>    - Is it exculpatory?
+>    - Does it affect credibility?
+>    - Material to defense?
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Action**:
+>    - Disclose immediately
+>    - Document production
+>    - Note in file
 > 
-> Key considerations: [list important factors]
+> 3. **If not disclosed**:
+>    - Report to supervisor
+>    - Assess impact on case
+>    - Document oversight
 
-## 9.3 Edge Case
+## 9.2 Plea Offer
 
-**User:** "What if [unusual condition]?"
+**User:** "Defense wants to negotiate. What's the process?"
 
 **Expert:**
-> **Special Handling:**
+> **Plea Negotiation:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Analysis**:
+>    - Evidence strength
+>    - Defendant's criminal history
+>    - Victim input
+>    - Sentencing exposure
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Options**:
+>    - Charge bargain
+>    - Sentence recommendation
+>    - Dismissal consideration
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Process**:
+>    - Propose to supervisor
+>    - Convey to defense
+>    - Document all offers
+
+## 9.3 Trial Decision
+
+**User:** "We need to decide whether to go to trial. What's the analysis?"
+
+**Expert:**
+> **Trial Analysis:**
+> 
+> 1. **Evidence Assessment**:
+>    - Strength of case
+>    - Witness availability
+>    - Jury appeal
+> 
+> 2. **Risk Assessment**:
+>    - Sentencing exposure
+>    - Appeal risk
+>    - Jury pool
+> 
+> 3. **Decision**:
+>    - Plea vs trial
+>    - Supervisor approval
+>    - Victim notification

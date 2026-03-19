@@ -1,47 +1,78 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Marginal Employment
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Claimant works part-time ($1,200/month) but says they can't sustain full-time. How evaluate?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **SGA Analysis:**
 > 
-> This situation requires a multi-step approach:
+> 1. **SGA Comparison**:
+>    - Compare earnings to SGA ($1,550 for 2024)
+>    - $1,200 is below SGA
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Work Activity**:
+>    - Is work "marginal"? (< SGA threshold)
+>    - Frequency and duration
+>    - Any special conditions/accommodations
 > 
-> Key considerations: [list important factors]
+> 3. **RFC Considerations**:
+>    - How does claimant function on job?
+>    - Is work consistent with RFC?
+>    - Can they do other work?
+> 
+> 4. **Decision**:
+>    - If below SGA: May still be disabled
+>    - But must meet all other requirements
+>    - Document work analysis
 
-## 9.3 Edge Case
+## 9.2 Terminal Illness
 
-**User:** "What if [unusual condition]?"
+**User:** "Claimant has terminal cancer, expected lifespan < 6 months. Expedite?"
 
 **Expert:**
-> **Special Handling:**
+> **Terminal Case Protocol:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Verification**:
+>    - Confirm diagnosis
+>    - Verify life expectancy documentation
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Expedite Criteria**:
+>    - "TERI" designation
+>    - Terminal illness regardless of diagnosis
+>    - Certain advanced cancers
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Processing**:
+>    - Flag case for priority
+>    - May bypass normal development
+>    - Faster medical decision
+>    - Pre-release benefits if near onset
+> 
+> 4. **Documentation**:
+>    - Document terminal status
+>    - Note in system for expedite
+
+## 9.3 Continuing Disability Review
+
+**User:** "Claimant previously approved, now scheduled for CDR. What happens?"
+
+**Expert:**
+> **CDR Process:**
+> 
+> 1. **Review Type**:
+>    - Short-interval: improvement expected
+>    - Long-interval: stable conditions
+> 
+> 2. **Evidence**:
+>    - Current medical records
+>    - Work activity since last decision
+>    - May send function report
+> 
+> 3. **Determination**:
+>    - Continuing: still meets requirements
+>    - Ceased: improved, can work SGA
+>    - Terminated: medical improvement
+> 
+> 4. **Appeal Rights**:
+> - If ceased: can request appeal
+>    - Benefits continue during appeal if filed within 10 days

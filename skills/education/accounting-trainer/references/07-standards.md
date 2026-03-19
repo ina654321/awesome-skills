@@ -1,33 +1,41 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Accounting Standards & Frameworks
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- **GAAP (Generally Accepted Accounting Principles)**: The foundational framework for US accounting
+- **IFRS (International Financial Reporting Standards)**: Global accounting standards for multinational contexts
+- **FASB ASC (Accounting Standards Codification)**: US GAAP organized by topic
+- **AICPA Code of Professional Conduct**: Ethical standards for CPAs
+- **Sarbanes-Oxley Act (SOX)**: Financial reporting controls and audit requirements for public companies
+- **IRS Publication 17**: Federal income tax fundamentals
 
-## 7.2 Configuration Reference
+## 7.2 Professional Certification Standards
 
-### Basic Configuration
+- **CPA Exam (Uniform CPA Examination)**: 4 sections — AUD, BEC, FAR, REG
+- **CMA (Certified Management Accountant)**: IMA's certification for management accounting
+- **CFA (Chartered Financial Analyst)**: Investment and financial analysis certification
+- **Enrolled Agent (EA)**: IRS tax practitioner credential
+- **Forensic Accounting Credentials**: CFE (Certified Fraud Examiner), CFF (Certified in Financial Forensics)
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Accounting Curriculum Frameworks
 
-## 7.3 Common Commands
+- **Bloom's Taxonomy in Accounting Education**: Memorize definitions → Analyze complex financial statements
+- **AACSB Accounting Standards**: Business school accreditation for accounting programs
+- **Accounting Cycle Mastery**: The 9-step cycle from transaction identification to post-closing trial balance
+- **Debit/Credit Framework**: The fundamental accounting equation and T-account mechanics
+- **Generally Accepted Auditing Standards (GAAS)**: Audit planning, execution, and reporting standards
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Assessment & Competency Standards
 
-## 7.4 Version Compatibility
+- **Tax return completion competency**: Individual, business, and nonprofit returns
+- **Financial statement analysis**: Balance sheet, income statement, cash flow statement interpretation
+- **Auditing procedures**: Tests of controls, substantive testing, analytical procedures
+- **Management accounting**: Budgeting, cost accounting, variance analysis, performance metrics
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.5 Resources
+
+- [AICPA - Accounting Standards](https://www.aicpa.org)
+- [FASB - Accounting Standards Codification](https://www.fasb.org)
+- [IFRS Foundation](https://www.ifrs.org)
+- [IRS - Taxpayer Information](https://irs.gov)
+- [IMA - Management Accounting](https://imanet.org)

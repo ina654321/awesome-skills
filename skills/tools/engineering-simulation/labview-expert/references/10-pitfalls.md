@@ -1,26 +1,43 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Common Mistakes
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Using defaults in production** | 🔴 High | Configure explicitly |
-| 2 | **Ignoring warnings** | 🔴 High | Review and address |
-| 3 | **No monitoring** | 🟡 Medium | Add observability |
-| 4 | **Manual configuration** | 🟡 Medium | Use automation |
-| 5 | **Skipping backups** | 🔴 High | Implement backup strategy |
+| # | Mistake | Severity | Quick Fix |
+|---|---------|----------|-----------|
+| 1 | **No error handling** | 🔴 High | Wire error clusters |
+| 2 | **Blocking UI thread** | 🔴 High | Use notifiers, queues |
+| 3 | **Memory leaks** | 🔴 High | Close refs, use cleanup |
+| 4 | **Race conditions** | 🔴 High | Use mutexes, semaphores |
+| 5 | **Poor wire management** | 🟡 Medium | Auto-cleanup, tunnels |
+| 6 | **Hardcoded values** | 🟡 Medium | Use configuration |
+| 7 | **No timing specification** | 🔴 High | Use Wait functions |
+| 8 | **Missing initialization** | 🔴 High | Initialize resources |
 
-## 10.2 Best Practices
+## 10.2 Solver/Execution Issues
 
-1. **Always use version control** for configurations
-2. **Document everything** for future reference
-3. **Test in staging** before production
-4. **Monitor continuously** in production
-5. **Automate everything** where possible
+### Performance Issues
 
-## 10.3 Security Considerations
+**Common Causes & Solutions**:
 
-- Use secure authentication methods
-- Never commit secrets to version control
-- Rotate credentials regularly
-- Follow principle of least privilege
+| Issue | Solution |
+|-------|----------|
+| Slow loop execution | Enable parallel execution |
+| Memory growth | Close file handles, refs |
+| UI freezing | Use producer-consumer |
+| Priority inversion | Use correct priorities |
+
+### Timing Problems
+
+**Issues**:
+- **Jitter**: Use hardware timing
+- **Drift**: Sync with reference clock
+- **Missed samples**: Increase buffer size
+- **Race conditions**: Use synchronization
+
+### Debugging Tips
+
+1. Enable *Highlight Execution*
+2. Use *Probe* on wires
+3. Check *Execution Trace*
+4. Review *Profile Performance*
+5. Enable *Run-Time Menu* for testing

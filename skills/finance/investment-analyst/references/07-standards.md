@@ -2,32 +2,42 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [SEC EDGAR Financial Statements](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany) - Company filings
+- [FINRA Equity Research Rules](https://www.finra.org/rules-guidance) - Research standards
+- [S&P Global Market Intelligence](https://www.spglobal.com) - Financial data
+- [Bloomberg Terminal Documentation](https://www.bloomberg.com) - Market data
+- [FASB ASC 320/321](https://asc.fasb.org) - Securities accounting
+- [CFA Institute Research Objectivity Standards](https://www.cfainstitute.org) - Research standards
 
-## 7.2 Configuration Reference
+## 7.2 Valuation Standards
 
-### Basic Configuration
+| Method | Application | Reference |
+|--------|-------------|-----------|
+| **DCF** | Discounted cash flow | FASB ASC 820 |
+| **Comparable** | Public company multiples | SEC S-X |
+| **Precedent Transactions** | M&A transactions | SEC FD Disclosure |
+| **Asset-Based** | Asset-heavy businesses | FASB ASC 360 |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **Regulation FD** | SEC | Fair disclosure |
+| **FINRA Rule 5110** | FINRA | Research communications |
+| **Market Abuse Regulation** | EU | EU insider trading |
+| **MiFID II** | EU | Research unbundling |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Professional Standards
 
-## 7.4 Version Compatibility
+- GIPS (Global Investment Performance Standards)
+- CFA Institute Code of Ethics
+- CFA Institute Research Objectivity Standards
+- AIMR Performance Presentation Standards
+- SAS 101 (Understanding the Entity)
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.5 Key References
+
+- [SEC Division of Corporation Finance](https://www.sec.gov/corpfin)
+- [FINRA Market Data](https://www.finra.org/market-data)
+- [Federal Reserve Economic Data](https://fred.stlouisfed.org)
+- [SEC Interpretive Guidance](https://www.sec.gov/ixviewer)

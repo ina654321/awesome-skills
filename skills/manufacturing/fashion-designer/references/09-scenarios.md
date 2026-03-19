@@ -1,47 +1,23 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Fit Issue
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Prototype doesn't fit model properly.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Pin adjustments
+2. Document changes
+3. Update pattern
+4. Resample
 
-## 9.2 Complex Scenario
+## 9.2 Material Substitution
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+Original fabric unavailable.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Source alternatives
+2. Test drape/behavior
+3. Adjust construction
+4. Update specs

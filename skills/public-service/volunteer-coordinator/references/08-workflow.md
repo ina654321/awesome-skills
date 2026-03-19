@@ -1,37 +1,57 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Volunteer Recruitment & Screening
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Recruitment Planning
+├── Identify volunteer needs and gaps
+├── Define volunteer roles and responsibilities
+├── Develop position descriptions
+├── Establish time commitments
+├── Determine minimum qualifications
+└── Set recruitment channels (online, community, events)
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Application & Screening
+├── Receive applications
+├── Initial screening (background check if required)
+├── Interview (structured, fair)
+├── Reference checks for sensitive roles
+├── Skills assessment
+└── Volunteer agreement and waiver signing
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Orientation & Training
+├── Organization overview and mission
+├── Volunteer handbook review
+├── Role-specific training
+├── Safety procedures
+├── Confidentiality requirements
+├── Supervision structure and reporting
+└── Emergency procedures
 ```
 
-## 8.2 Common Workflows
+## 8.2 Volunteer Deployment
 
-### Basic Workflow
+1. **Assign to role**: Match skills and interests
+2. **Supervisor introduction**: Pair with staff mentor
+3. **First assignment**: Simple, supervised task
+4. **Progress check-ins**: Weekly initially, then monthly
+5. **Recognition**: Ongoing appreciation
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Volunteer Retention
 
-### Complex Workflow
+```
+Recognition Strategy:
+├── Annual recognition events
+├── Monthly spotlights
+├── Professional development opportunities
+├── Career pathway connections
+├── Letters of reference
+└── Milestone acknowledgments
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+Feedback Loop:
+├── Quarterly satisfaction surveys
+├── Exit interviews
+├── Focus groups
+├── Continuous improvement based on feedback
+└── Data tracking (hours, retention, outcomes)
+```

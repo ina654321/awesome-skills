@@ -1,37 +1,18 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Planning Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Mine Planning
+1. Define orebody model
+2. Design mining method
+3. Develop production schedule
+4. Design infrastructure
+5. Estimate costs
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+## 8.2 Design Workflow
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
-
-## 8.2 Common Workflows
-
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Engineering Design
+1. Develop plans and sections
+2. Specify equipment
+3. Design support systems
+4. Prepare specifications

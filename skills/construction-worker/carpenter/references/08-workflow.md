@@ -1,37 +1,45 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Layout Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Measurement Process
+1. Review plans and specifications
+2. Establish reference line (baseline)
+3. Measure and mark locations
+4. Square corners (3-4-5 rule)
+5. Verify all dimensions
+6. Mark plates before cutting
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Framing Sequence
+1. Cut plates
+2. Mark stud locations
+3. Assemble walls on floor
+4. Raise walls
+5. Align and brace
+6. Install headers and cripples
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+## 8.2 Installation Workflow
 
-## 8.2 Common Workflows
+### Wall Framing
+1. Install bottom plate
+2. Install top plate (singly, then double)
+3. Install studs at 16" o.c.
+4. Install headers at openings
+5. Install cripple studs
+6. Check plumb and level
 
-### Basic Workflow
+### Floor Framing
+1. Install rim joists
+2. Install floor joists at 16" o.c.
+3. Install blocking as needed
+4. Install subfloor ( stagger joints)
+5. Fasten per schedule
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Quality Control
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Inspection Points
+- Stud spacing: 16" o.c. max
+- Header size: per span tables
+- Nailing: per schedule
+- Squaring: 3-4-5 rule
+- Level/plumb: within tolerance

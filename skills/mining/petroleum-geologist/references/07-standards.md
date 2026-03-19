@@ -1,33 +1,33 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Regulatory Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### BLM/State Regulations
+| Regulation | Application |
+|------------|-------------|
+| ONRR | Royalty reporting |
+| State OC | Oil commission |
+| BLM | Leasing |
 
-## 7.2 Configuration Reference
+### API Standards
+| Standard | Application |
+|----------|-------------|
+| RP 10D | Casing running |
+| SGP1 | Well testing |
+| 11V2 | Tubing |
 
-### Basic Configuration
+## 7.2 Logging Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Mud Log Parameters
+- Lithology description
+- Gas readings (C1-C5)
+- Drilling parameters
+- Sample collection
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Wireline Logs
+| Log | Information |
+|-----|-------------|
+| Gamma Ray | Lithology |
+| Resistivity | Fluid type |
+| Density | Porosity |
+| Neutron | Porosity |

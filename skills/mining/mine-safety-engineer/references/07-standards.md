@@ -1,33 +1,33 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 MSHA Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Key Regulations
+| Standard | Application |
+|----------|-------------|
+| 30 CFR 57/56 | Metal/nonmetal mining |
+| 30 CFR 48 | Training |
+| 30 CFR 50 | Accident reporting |
 
-## 7.2 Configuration Reference
-
-### Basic Configuration
-
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
+### Required Programs
+| Program | Requirement |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| Part 46 | Annual refresher |
+| Part 48 | New task training |
+| HazCom | Hazard communication |
+| PPE | Personal protection |
 
-## 7.4 Version Compatibility
+## 7.2 Safety Standards
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Exposure Limits
+| Hazard | Limit |
+|--------|-------|
+| Noise | 85 dBA TWA |
+| Dust (silica) | 10 μg/m3 |
+| Diesel particulates | 160 μg/m3 |
+
+### Inspection Frequency
+- Daily: Workplace inspection
+- Weekly: Fire equipment
+- Monthly: Emergency escape
+- Annual: Comprehensive

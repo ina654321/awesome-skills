@@ -1,37 +1,59 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Preoperative Assessment
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Review
+├── Anesthesia consultation note
+├── Medical history and comorbidities
+├── Current medications (anticoagulants, ACE inhibitors)
+├── Allergies and prior anesthetic history
+├── Airway examination (Mallampati, thyromental distance)
+└── Functional capacity (METs)
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Optimization
+├── Labs and imaging review
+├── Medication adjustments
+├── NPO verification
+├── IV access assessment
+└── Anesthesia plan documentation
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Consent
+├── Discussion of anesthesia options
+├── Risks and benefits explained
+├── Questions answered
+└── Signed consent obtained
 ```
 
-## 8.2 Common Workflows
+## 8.2 Airway Management Algorithm
 
-### Basic Workflow
+| Situation | Technique |
+|-----------|-----------|
+| Normal airway | Direct laryngoscopy (Mac 3/4) |
+| Difficult airway | Video laryngoscopy first |
+| C-spine precaution | Awake fiberoptic intubation |
+| Failed intubation | LMA as bridge; surgical airway |
+| Can't intubate/oxygenate | Emergency cricothyrotomy |
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 General Anesthesia Induction
 
-### Complex Workflow
+```
+Standard Induction:
+1. Preoxygenate 3-5 minutes (100% O2)
+2. IV induction agent (propofol 2-3 mg/kg)
+3. Opioid (fentanyl 1-2 mcg/kg)
+4. Neuromuscular blocker (rocuronium 0.6-1.2 mg/kg)
+5. Laryngoscopy after TOF count = 0
+6. ETT placement confirmed (EtCO2 waveform)
+7. Secure tube at appropriate depth
+```
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+## 8.4 Emergency Response
+
+| Emergency | Immediate Action |
+|-----------|----------------|
+| Laryngospasm | 100% O2, jaw thrust, deepen anesthesia |
+| Bronchospasm | 100% O2, albuterol, epinephrine |
+| Hypotension | IV fluid bolus, vasopressor |
+| Arrhythmia | Identify type, treat per ACLS |
+| Malignant hyperthermia | Stop triggers, dantrolene, cool patient |

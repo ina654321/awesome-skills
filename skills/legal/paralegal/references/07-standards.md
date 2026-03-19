@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [ABA Model Rules](https://www.americanbar.org) - Professional responsibility
+- [Federal Rules of Civil Procedure](https://www.uscourts.gov) - Court rules
+- [Local Court Rules](https://www.uscourts.gov) - Jurisdiction rules
+- [NALA Standards](https://www.nala.org) - Paralegal certification
 
-## 7.2 Configuration Reference
+## 7.2 Legal Research Standards
 
-### Basic Configuration
+| Source | Application | Access |
+|--------|-------------|--------|
+| **Westlaw** | Primary legal research | Subscription |
+| **LexisNexis** | Legal research | Subscription |
+| **Court websites** | Case law | Free |
+| ** statutes** | Statutory law | Free |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Rule | Authority | Application |
+|------|-----------|-------------|
+| **Paralegal Certification** | State | Licensing |
+| **ABA Guidelines** | ABA | Ethics |
+| **Work Product Doctrine** | Courts | Privileged materials |
+| **Conflict Checking** | State bars | Ethics compliance |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [American Bar Association](https://www.americanbar.org)
+- [NALA Information Center](https://www.nala.org)
+- [National Federation of Paralegal](https://www.paralegals.org)
+- [Law Technology Today](https://www.lawtechnology.org)

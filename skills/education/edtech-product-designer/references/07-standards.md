@@ -2,32 +2,41 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [ISTE Standards for Students](https://www.iste.org/standards/students) - International Society for Technology in Education framework
+- [Universal Design for Learning Guidelines](https://udlguidelines.cast.org/) - CAST UDL framework
+- [SPRKD Framework](https://sprkd.org/) - Student-centered product design for education
+- [EdTech Malaysia Framework](https://www.moe.gov.my/) - National education technology standards
 
-## 7.2 Configuration Reference
+## 7.2 UX/Product Design Standards
 
-### Basic Configuration
+| Element | Standard |
+|---------|----------|
+| WCAG accessibility | Level AA compliance minimum |
+| Response time | < 3 second load for core content |
+| Mobile-first design | Optimized for 375px viewport |
+| Data privacy | FERPA / PDPA compliant data handling |
+| COPTA compliance | Age-appropriate design for under-13 users |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Learning Design Frameworks
 
-## 7.3 Common Commands
+### Bloom's Taxonomy (Cognitive Levels)
+1. Remember — Recall facts, basic concepts
+2. Understand — Explain ideas or concepts
+3. Apply — Use information in new situations
+4. Analyze — Draw connections among ideas
+5. Evaluate — Justify a decision or action
+6. Create — Produce new or original work
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+### ADDIE Model
+- **A**nalyze — Identify learning needs and audience
+- **D**esign — Define objectives and assessment strategies
+- **D**evelop — Create content and media assets
+- **I**mplement — Deploy to target users
+- **E**valuate — Test effectiveness, gather feedback, iterate
 
-## 7.4 Version Compatibility
+## 7.4 Key Pedagogical Principles
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- Spaced repetition over massed practice
+- Immediate feedback loops increase retention by 20-30%
+- Cognitive load: minimize extraneous processing
+- Social learning: collaborative tasks outperform solitary ones for complex skills

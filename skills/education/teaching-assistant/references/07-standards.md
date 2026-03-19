@@ -2,32 +2,37 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [Danielson's Framework for Teaching](https://danielsonframework.org/) - Charlotte Danielson's comprehensive framework for teacher evaluation
+- [Classroom Assessment for Student Learning (CASTL)](https://www.behavioraltech.org/) - Center for Assessment and Learning standards
+- [Marzano Focused Teacher Evaluation Model](https://www.marzano.com/) - Robert Marzano's research-based teacher evaluation
+- [NAEYC Developmentally Appropriate Practice](https://www.naeyc.org/resources/topics/dap) - National Association for the Education of Young Children DAP standards
 
-## 7.2 Configuration Reference
+## 7.2 Teacher Competency Standards
 
-### Basic Configuration
+| Domain | Key Indicators |
+|--------|----------------|
+| Classroom Environment | Positive relationships; organized physical space; clear expectations |
+| Instruction | Learning objectives; instructional strategies; questioning techniques |
+| Assessment | Formative assessment use; data-driven instruction; feedback quality |
+| Professional Responsibilities | Communication with families; record-keeping; professional development |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Feedback and Correction Framework
 
-## 7.3 Common Commands
+| Term | Definition | Example |
+|------|-----------|---------|
+| Correction | Specific redirection to correct error | "The pattern here is 'verb + -ing,' not 'to + verb'" |
+| Prompt | Partial information to trigger correct response | "Remember, this verb is...?" (student completes) |
+| Reprimand | Negative response to misbehavior | Minimally intrusive; private whenever possible |
+| Praise | Affirmation of correct behavior/effort | Specific: "Your thesis statement clearly previews your argument" |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Teacher Evaluation Rubric (Sample)
 
-## 7.4 Version Compatibility
+### Domain 1: Classroom Environment
+| Unsatisfactory | Basic | Proficient | Distinguished |
+|:---:|:---:|:---:|:---:|
+| Students off-task; no procedures | Partial procedures; inconsistent management | Positive environment; effective procedures | Student self-regulation; supportive community |
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Domain 2: Instruction
+| Unsatisfactory | Basic | Proficient | Distinguished |
+|:---:|:---:|:---:|:---:|
+| No learning objectives; chaotic instruction | Objectives present; instruction uneven | Clear objectives; engaging instruction | Student-centered; differentiated; students self-direct |

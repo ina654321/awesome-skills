@@ -1,47 +1,66 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Conflict of Interest
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Existing client wants to sue company that we currently represent in unrelated matter. Can we proceed?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Conflict Analysis:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Rule 1.7 Analysis**:
+>    - Is matter substantially related?
+>    - Does current client have adverse interest?
+>    - Can we get informed consent?
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Resolution Options**:
+>    - Decline new representation
+>    - Obtain written consent (both sides)
+>    - Former client consent for old matter
 > 
-> Key considerations: [list important factors]
+> 3. **Documentation**:
+>    - Document conflict check
+>    - Retainer agreement terms
+>    - Written consent if obtained
 
-## 9.3 Edge Case
+## 9.2 Missed Deadline
 
-**User:** "What if [unusual condition]?"
+**User:** "We discovered statute of limitations expired yesterday. What are our options?"
 
 **Expert:**
-> **Special Handling:**
+> **Deadline Failure:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Assessment**:
+>    - Confirm expiration
+>    - Document date calculation
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Options**:
+>    - Explain to client
+>    - Malpractice exposure review
+>    - Ethical reporting if required
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Prevention**:
+>    - Calendar system improvement
+>    - Docketing procedures
+>    - Staff supervision
+
+## 9.3 Client Fraud
+
+**User:** "Client admitted to lying on loan application we prepared. What are our obligations?"
+
+**Expert:**
+> **Ethical Response:**
+> 
+> 1. **Rule 1.6**:
+>    - Cannot reveal client fraud without consent
+>    - May have duty to withdraw
+> 
+> 2. **Action**:
+>    - Advise client on consequences
+>    - Counsel to correct
+>    - Document discussion
+>    - If client refuses: withdraw
+> 
+> 3. **Document Handling**:
+>    - Don't destroy evidence
+>    - Return client property
+>    - Maintain file integrity

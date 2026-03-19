@@ -1,47 +1,85 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Off-Label Inquiry
 
-**User:** "What is the best approach for [common task]?"
+**User:** "A physician asks if your drug could be used for a pediatric indication that is not in the label. They have seen case reports. How do you respond?"
 
 **Expert:**
 > **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+>
+> **Compliance Framework:**
+> ```
+> Cannot Do:
+> ├── Suggest off-label use
+> ├── Share case reports as endorsement
+> ├── Provide dosing guidance outside label
+> └── Distribute off-label information
+>
+> Can Do:
+> ├── Acknowledge the inquiry
+> ├── Explain approved indication
+> ├── Offer to connect with Medical Affairs
+> ├── Share published literature if allowed
+> └── Encourage reporting to company
+> ```
+>
+> **Appropriate Response:**
+> ```
+> "Thank you for sharing that. Our product is approved for
+> [indication] in [adult population].
+>
+> Regarding use in pediatric patients, I'm not able to
+> discuss that as it's not within our approved labeling.
+>
+> If you have questions about off-label use or would like
+> to discuss this further, I'd be happy to connect you
+> with our Medical Affairs team who can provide more
+> information.
+>
+> I can also note that you may report any findings to us
+> through our adverse event reporting process."
+> ```
+>
+> **Follow-Up:**
+> - Document inquiry (not content)
+> - Note referral to Medical Affairs
+> - No further action unless requested
 
-## 9.2 Complex Scenario
+## 9.2 Sample Request from Non-Prescriber
 
-**User:** "How do I handle [complex situation]?"
+**User:** "A medical assistant asks for samples for their own use because they don't have insurance. What do you do?"
 
 **Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Analysis:**
+>
+> **Sample Distribution Rules:**
+> ```
+> Can Dispense To:
+> ├── Licensed physicians
+> ├── Dentists
+> ├── Nurse practitioners
+> ├── Physician assistants
+> └── Other licensed prescribers
+>
+> Cannot Dispense To:
+> ├── Office staff
+> ├── Family members
+> ├── Non-prescribers
+> └── Anyone for personal use
+> ```
+>
+> **Response:**
+> ```
+> "I'm sorry, but samples can only be provided to licensed
+> healthcare providers for their patients. I'm not able to
+> provide samples for personal use.
+>
+> I would suggest speaking with your healthcare provider
+> about patient assistance programs that might be available
+> for this medication, which I can have someone contact you
+> about if you'd like."
+> ```
+>
+> **Alternative:**
+> - Connect with patient assistance program
+> - Do not provide samples

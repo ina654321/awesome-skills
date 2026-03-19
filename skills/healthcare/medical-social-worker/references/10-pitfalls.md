@@ -1,27 +1,76 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Assessment Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Impact | Prevention |
+|---------|--------|------------|
+| Superficial assessment | Missed needs | Comprehensive evaluation |
+| Not involving patient | Self-determination | Patient-centered approach |
+| Ignoring cultural factors | Ineffective intervention | Cultural humility |
+| Rushing discharge | Readmission | Adequate planning time |
 
-## 10.2 Best Practices
+## 10.2 Documentation Deficiencies
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Error | Consequence | Solution |
+|-------|-------------|----------|
+| Missing assessments | Compliance issues | Timeline adherence |
+| Vague problem statements | Unclear goals | Specific, measurable |
+| No progress notes | No billing | Monthly documentation |
+| Unclear discharge plan | Care gaps | Comprehensive planning |
 
-## 10.3 Quality Checklist
+## 10.3 Ethical Violations
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+```
+Violations:
+├── Confidentiality breach
+├── Dual relationship
+├── Paternalism vs. self-determination
+├── Boundary violations
+├── Financial exploitation
+└── Discrimination
+
+Prevention:
+├── Ethics training
+├── Supervision
+├── Clear boundaries
+├── Patient advocacy
+```
+
+## 10.4 Interdisciplinary Failures
+
+| Failure | Impact | Solution |
+|---------|--------|----------|
+| Poor communication | Fragmented care | Team conferences |
+| Not invited to rounds | Missed input | Advocate for presence |
+| Unclear responsibilities | Gaps | Role clarity |
+| Conflict with team | Standoff | De-escalation skills |
+
+## 10.5 Resource Limitations
+
+```
+Challenges:
+├── Limited time for complex cases
+├── Community resource gaps
+├── Insurance coverage barriers
+├── Housing scarcity
+└── Transportation issues
+
+Solutions:
+├── Prioritize based on complexity
+├── Maintain resource directory
+├── Advocate for patient assistance
+├── Coordinate with community programs
+```
+
+## 10.6 Quality Checklist
+
+- [ ] Bio-psycho-social assessment completed
+- [ ] Patient/family engaged in planning
+- [ ] Problems identified and documented
+- [ ] Goals are measurable
+- [ ] Interventions appropriate
+- [ ] Care team coordinated
+- [ ] Community resources linked
+- [ ] Follow-up arranged
+- [ ] Documentation timely
+- [ ] Ethical standards maintained

@@ -1,47 +1,72 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Light Failure During Storm
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Primary light out during storm. Backup didn't activate. What to do?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Emergency Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Immediate Actions**:
+>    - Don't risk personal safety
+>    - Attempt field repair if safe
+>    - Report to sector immediately
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Notification**:
+>    - USCG Sector/Navigation Center
+>    - Local mariners via VHF
+>    - Coast Guard station
+>    - Update Light List
 > 
-> Key considerations: [list important factors]
+> 3. **Documentation**:
+>    - Time of failure
+>    - Attempted fixes
+>    - Weather conditions
+> 
+> 4. **Follow-up**:
+>    - Repair when safe
+>    - Prevent future occurrence
+>    - Document incident
 
-## 9.3 Edge Case
+## 9.2 Foreign Vessel Near Aid
 
-**User:** "What if [unusual condition]?"
+**User:** "Foreign cargo vessel appearing to use unlit aid as mooring. How to respond?"
 
 **Expert:**
-> **Special Handling:**
+> **Authority Considerations:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Observe and Document**:
+>    - Note vessel name, flag
+>    - Record activity
+>    - Photograph if safe
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Report**:
+>    - Notify USCG Sector
+>    - Document observations
+>    - Let enforcement handle
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **No Direct Action**:
+>    - Cannot board foreign vessel without authority
+>    - Only USCG can enforce
+
+## 9.3 Public Access Request
+
+**User:** "Tourist wants to climb lighthouse for photos. Is this allowed?"
+
+**Expert:**
+> **Access Management:**
+> 
+> 1. **Check Policy**:
+>    - USCG access restrictions
+>    - Historical site rules
+>    - Coast Guard Station procedures
+> 
+> 2. **Safety Considerations**:
+>    - Is it safe to allow?
+>    - Any hazardous conditions?
+>    - Supervision needed?
+> 
+> 3. **Response**:
+>    - If open to public: allow
+>    - If restricted: explain and redirect
+>    - Don't allow unsafe access

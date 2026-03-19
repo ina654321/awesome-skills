@@ -1,47 +1,49 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Chemical Mix-Up Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+You accidentally used toilet cleaner on a mirror. There are streaks and slight damage to the surface.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Clean immediately with appropriate cleaner
+2. Report damage to supervisor
+3. Document what happened
+4. Review chemical handling procedures
+5. Implement better labeling system
 
-## 9.2 Complex Scenario
+### Prevention
+- Color-coded labels
+- Keep chemicals in original containers
+- Read labels before use
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Supply Shortage Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+You run out of toilet paper in the middle of cleaning. No more in the storage room.
 
-## 9.3 Edge Case
+### Steps
+1. Check other nearby restrooms for extra
+2. Notify supervisor immediately
+3. Make note to restock next shift
+4. Provide alternative (paper towels) temporarily
+5. Put in maintenance request
 
-**User:** "What if [unusual condition]?"
+### Prevention
+- Check supplies at start of shift
+- Report low inventory before it runs out
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Biohazard Scenario
+
+### Situation
+You find blood or other bodily fluid in a restroom. Someone may have been injured.
+
+### Steps
+1. Do not touch without proper PPE
+2. Mark area and restrict access
+3. Call supervisor or hazmat team
+4. Document location and situation
+5. Wait for trained personnel
+
+### Safety First
+Never handle bodily fluids without proper training and equipment.

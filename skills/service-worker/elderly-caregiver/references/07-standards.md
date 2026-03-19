@@ -1,33 +1,24 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Elder Care Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Programs
+- [Older Americans Act](https://acl.gov/about-acl/authorizing-statutes/older-americans-act): Comprehensive elder care framework
+- [Medicare](https://www.medicare.gov/): Federal health insurance for 65+
+- [Medicaid](https://www.medicaid.gov/): Federal-state program for low-income elderly
+- [VA Aid & Attendance](https://www.va.gov/pension/aid-attendance-housebound/): Enhanced pension for veterans
 
-## 7.2 Configuration Reference
+### Caregiver Standards
+| Standard | Authority | Focus |
+|----------|----------|-------|
+| **Elder Justice Act** | DOJ/ACL | Elder abuse prevention |
+| **Long-Term Care** | CMS | Nursing home quality |
+| **HIPAA** | HHS | Health information privacy |
+| **ADL Assessment** | Medicare | Functional assessment |
 
-### Basic Configuration
+## 7.2 Safety & Falls Prevention
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [CDC STEADI](https://www.cdc.gov/steadi/): Older adult fall prevention
+- [AHRQ Guidelines](https://www.ahrq.gov/): Patient safety in nursing homes
+- [OSHA Healthcare](https://www.osha.gov/healthcare): Worker safety in elder care
+- [Elder Abuse CDC](https://www.cdc.gov/elder-abuse/): Recognizing and reporting

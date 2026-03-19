@@ -1,27 +1,35 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Prosecution Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Late response** | 🔴 High | Calendar system |
+| 2 | **Broad claims** | 🟡 Medium | Narrow appropriately |
+| 3 | **Inadequate support** | 🔴 High | Detailed spec |
 
-## 10.2 Best Practices
+## 10.2 Drafting Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Claim scope issues** | 🔴 High | Proper claiming |
+| 2 | **Specification gaps** | 🔴 High | Enable claims |
+| 3 | **Continuation errors** | 🔴 High | Proper chain |
 
-## 10.3 Quality Checklist
+## 10.3 Ethics Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Candor violations** | 🔴 High | Full disclosure |
+| 2 | **Conflict of interest** | 🔴 High | Check conflicts |
+| 3 | **Fee disputes** | 🟡 Medium | Clear billing |
+
+## 10.4 Quality Checklist
+
+- [ ] Prior art searched
+- [ ] Claims supported
+- [ ] Deadlines met
+- [ ] Client informed
+- [ ] Ethics followed
+- [ ] File complete
+- [ ] Prosecution tracked

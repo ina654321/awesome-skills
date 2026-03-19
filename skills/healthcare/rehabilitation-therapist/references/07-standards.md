@@ -1,33 +1,63 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Rehabilitation Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [CMS Therapy Standards](https://www.cms.gov) - Medicare therapy requirements
+- [CARF Standards](https://www.carf.org) - Commission on Accreditation of Rehabilitation Facilities
+- [APTA Guidelines](https://www.apta.org) - American Physical Therapy Association
+- [AOTA Standards](https://www.aota.org) - American Occupational Therapy Association
+- [Joint Commission](https://www.jointcommission.org) - Accreditation standards
 
-## 7.2 Configuration Reference
+## 7.2 Functional Assessment
 
-### Basic Configuration
+```
+ICF Model:
+├── Body functions/structures
+├── Activities (personal, household, community)
+├── Participation (social, work, leisure)
+└── Contextual factors (environmental, personal)
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+Functional Measures:
+├── FIM (Functional Independence Measure)
+├── Barthel Index
+├── Berg Balance Scale
+├── Timed Up and Go
+├── 6-Minute Walk Test
+└── ADL assessments
 ```
 
-## 7.3 Common Commands
+## 7.3 Treatment Standards
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Plan of Care Requirements:
+├── Diagnosis
+├── Long-term goals (SMART)
+├── Short-term goals
+├── Treatment modalities
+├── Frequency and duration
+└── Expected outcomes
 
-## 7.4 Version Compatibility
+Documentation:
+├── Initial evaluation
+├── Progress notes (weekly)
+├── Reassessments (every 10 visits or 30 days)
+├── Discharge summary
+└── Functional outcome reporting
+```
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.4 Medical Necessity
+
+```
+Medicare Criteria:
+├── Requires skilled therapy
+├── Safe and effective treatment
+├── Complex habilitation needs
+├── Clinical judgment required
+└── Documented functional progress
+
+Coverage:
+├── Inpatient rehab: 3-hour daily therapy minimum
+├── Outpatient: Based on medical necessity
+├── Home health: Homebound status required
+└── SNF: Part A vs Part B
+```

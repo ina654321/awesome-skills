@@ -1,33 +1,65 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Rehabilitation Engineering Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [RESNA Standards](https://www.resna.org) - Rehabilitation Engineering Society
+- [ISO 9999](https://www.iso.org) - Assistive products classification
+- [FDA Medical Devices](https://www.fda.gov) - Device regulations
+- [CMS DME Coverage](https://www.cms.gov) - Durable medical equipment
+- [ISO 16982](https://www.iso.org) - Usability of assistive products
 
-## 7.2 Configuration Reference
+## 7.2 Assistive Technology Assessment
 
-### Basic Configuration
+```
+Assessment Domains:
+├── Physical function
+├── Cognitive function
+├── Sensory function
+├── Environmental factors
+├── Activity needs
+└── User preferences
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+Functional Levels:
+├── Bed mobility
+├── Transfers
+├── Wheelchair mobility
+├── Self-care
+├── Communication
+└── Computer access
 ```
 
-## 7.3 Common Commands
+## 7.3 Wheelchair Standards
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Wheelchair Categories:
+├── Manual (standard, lightweight, ultra-lightweight)
+├── Power (standard, custom, standing)
+├── Scooters
+└── Specialty (sports, beach, pediatric)
 
-## 7.4 Version Compatibility
+Funding Requirements:
+├── Medicare K0001-K0108
+├── Medicaid coverage
+├── Private insurance
+└── Veterans coverage
+```
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.4 Environmental Controls
+
+```
+Access Methods:
+├── Direct selection
+├── Scanning
+├── Morse code
+├── Eye tracking
+├── Brain-computer interface
+└── Voice control
+
+Smart Home Integration:
+├── Lighting control
+├── Thermostat
+├── Door locks
+├── Television
+├── Phone/call system
+└── Environmental control unit
+```

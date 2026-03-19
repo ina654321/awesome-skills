@@ -1,27 +1,42 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Research Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Outdated law** | 🔴 High | Current case check |
+| 2 | **Wrong jurisdiction** | 🔴 High | Verify jurisdiction |
+| 3 | **Incomplete research** | 🔴 High | Thorough search |
 
-## 10.2 Best Practices
+## 10.2 Document Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Cite errors** | 🔴 High | Double-check |
+| 2 | **Formatting issues** | 🟡 Medium | Court rules |
+| 3 | **Missed deadlines** | 🔴 High | Calendar system |
 
-## 10.3 Quality Checklist
+## 10.3 Ethics Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Unauthorized practice** | 🔴 High | Stay in scope |
+| 2 | **Conflict of interest** | 🔴 High | Check conflicts |
+| 3 | **Confidentiality breach** | 🔴 High | Protect info |
+
+## 10.4 Communication Pitfalls
+
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Contact with opposing** | 🟡 Medium | Get approval |
+| 2 | **Client without attorney** | 🟡 Medium | Proper protocol |
+
+## 10.5 Quality Checklist
+
+- [ ] Instructions clear
+- [ ] Research complete
+- [ ] Citations accurate
+- [ ] Deadlines met
+- [ ] Documents organized
+- [ ] Confidentiality maintained
+- [ ] Ethics followed

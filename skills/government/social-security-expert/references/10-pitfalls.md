@@ -1,27 +1,38 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Determination Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Inadequate development** | 🔴 High | Complete evidence request |
+| 2 | **Wrong date of onset** | 🔴 High | Careful onset analysis |
+| 3 | **Ignoring work activity** | 🔴 High | Query earnings record |
+| 4 | **Grid misuse** | 🔴 High | Proper Grid application |
+| 5 | **Incomplete RFC** | 🟡 Medium | Document all limitations |
 
-## 10.2 Best Practices
+## 10.2 Medical Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Clinical Issues:**
+- Missing objective evidence
+- Ignoring treating source
+- Wrong CE specialty
+- Inadequate function analysis
 
-## 10.3 Quality Checklist
+## 10.3 Documentation Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Record Problems:**
+- Incomplete file documentation
+- No rationale in determination
+- Missing evidence
+- Late processing
+
+## 10.4 Quality Checklist
+
+- [ ] All medical evidence obtained
+- [ ] RFC properly assessed
+- [ ] Work activity checked
+- [ ] Grid correctly applied
+- [ ] Onset date properly established
+- [ ] Determination fully documented
+- [ ] Appeal rights explained
+- [ ] System updated correctly

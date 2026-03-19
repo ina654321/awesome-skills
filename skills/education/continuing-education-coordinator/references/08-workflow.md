@@ -1,37 +1,76 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Needs Assessment
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Gap Analysis
+├── Identify knowledge/skills gaps
+├── Analyze performance issues
+├── Assess organizational needs
+├── Survey target audience
+└── Review regulatory requirements
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
-
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 2: Curriculum Design
+├── Define learning objectives
+├── Select instructional methods
+├── Develop content outline
+├── Create materials
+└── Design assessments
 ```
 
-## 8.2 Common Workflows
+## 8.2 Program Development
 
-### Basic Workflow
+```
+Content Creation:
+├── Expert subject matter review
+├── Instructional design review
+├── Pilot testing
+├── Revision based on feedback
+└── Final approval
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Logistics Planning:
+├── Schedule development
+├── Venue/virtual platform selection
+├── Registration system
+├── Marketing and promotion
+├── Attendee communications
+└── Certificates/credits
+```
 
-### Complex Workflow
+## 8.3 Program Delivery
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Live Program:
+├── Instructor preparation
+├── Materials distribution
+├── Registration and check-in
+├── Session facilitation
+├── Q&A management
+└── Evaluation collection
+
+Virtual Program:
+├── Platform setup
+├── Technical rehearsal
+├── Facilitator training
+├── Engagement strategies
+├── Breakout rooms
+└── Recording management
+```
+
+## 8.4 Evaluation and Compliance
+
+```
+Post-Program:
+├── Learning assessment
+├── Participant evaluations
+├── Competency verification
+├── Certificate generation
+└── Credit reporting
+
+Compliance:
+├── Attendance verification
+├── Post-test requirements
+├── Credit hour calculation
+├── Accreditation documentation
+└── Record retention
+```

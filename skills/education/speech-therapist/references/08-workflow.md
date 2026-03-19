@@ -1,37 +1,56 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Speech-Language Evaluation Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Step 1: Referral and Case History (before evaluation)
+├── Review referral from physician, teacher, or parent
+├── Request school records, medical history, prior therapy notes
+├── Send parent/caregiver questionnaire (developmental history, concerns, bilingual status)
+└── Determine bilingual assessment needs: must assess in dominant language
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Step 2: Standardized Assessment (60-90 minutes)
+├── Screening: vision, hearing, oral mechanism
+├── Standardized tests: domain-specific (articulation, language, fluency)
+├── Criterion-referenced tasks: curriculum-based samples if needed
+├── Language sampling: 50-100 utterance sample (play or conversation)
+└── Standard scores vs. percentile rank vs. age equivalents — know the difference
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Step 3: Analysis and Interpretation
+├── Calculate standard scores, confidence intervals, percentile ranks
+├── Identify patterns vs. isolated errors
+├── Determine severity: mild, mild-moderate, moderate, severe, profound
+├── Rule out/discern: disorder vs. difference vs. delay
+├── Address bilingual considerations: is score valid across languages?
+└── Formulate diagnostic impression
+
+Step 4: Report Writing and Parent Conference
+├── Present findings using plain language (not jargon)
+├── Explain how diagnosis affects education (educational impact statement)
+├── Present goals and recommendations
+├── Discuss eligibility (if school-based)
+└── Determine therapy frequency and setting
 ```
 
-## 8.2 Common Workflows
+## 8.2 Treatment Session Workflow
 
-### Basic Workflow
+### Standard 45-60 Minute Session
+1. **Warm-up (5 min)**: Review previous session; carryover check
+2. **Drill (15-20 min)**: Structured practice on target sound/structure with feedback
+3. **Application (15 min)**: Use target in sentences, conversation, or functional context
+4. **Generalization (10 min)**: Structured activity requiring spontaneous use
+5. **Wrap-up (5 min)**: Review what was practiced; preview homework; positive reinforcement
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Data Collection Protocol
+- **Probe data**: At beginning of each session — measure current level without cueing (3 trials)
+- **Treatment data**: During drill — mark correct/incorrect on data sheet
+- **Generalization data**: At end of session — spontaneous use in unstructured context
+- **Graph weekly**: Plot weekly probe data to track progress toward goal
 
-### Complex Workflow
+## 8.3 Discharge Decision Workflow
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Goal met: Target achieved for 2 consecutive data points (or criterion met)
+2. Plateau: No progress for 3 consecutive data points despite intervention adjustment
+3. Parent/student choice: Informed decision with full understanding of implications
+4. Transfer: Student moving to new setting
+5. **Do NOT discharge** just because session count limit reached — if goals aren't met, extend

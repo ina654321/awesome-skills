@@ -1,33 +1,38 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 CBP Regulations & Legal Framework
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Regulations
+- [19 CFR](https://www.ecfr.gov/current/title-19): Customs Regulations
+- [19 U.S.C. Chapter 12](https://uscode.house.gov/view.xhtml?path=/prelim@title19&edition=prelim): Customs Duties
+- [Tariff Act of 1930](https://uscode.house.gov/view.xhtml?path=/prelim@title19/part1/chapter2&edition=prelim): Importation regulations
+- [Trade Facilitation and Trade Enforcement Act](https://www.cbp.gov/trade/trade-facilitation): TFTEA 2015
 
-## 7.2 Configuration Reference
+### CBP Directives
+| Directive | Application |
+|-----------|-------------|
+| **CBP Directive 3340-001** | Border search authority |
+| **CBP Directive 3340-004** | Inspection of electronic devices |
+| **CBP Form 6059B** | Customs declaration |
+| **19 CFR Part 122** | Air and sea clearance |
 
-### Basic Configuration
+## 7.2 Trade Enforcement Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Import Requirements
+- [HTSUS](https://hts.usitc.gov/): Harmonized Tariff Schedule
+- [CBP Binding Rulings](https://csreg.cbp.gov/): Pre-entry classification
+- [Section 321](https://www.cbp.gov/trade/entry-summary/section-321): De minimis exemption
+- [Section 232](https://www.commerce.gov/page/section-232): National security tariffs
 
-## 7.3 Common Commands
+### Intellectual Property
+- [TRIPS Agreement](https://www.wto.org/trade_eu/topics_e/links_e/links_world_bank_e.htm): Trade-related IP rights
+- [CBP IPR Enforcement](https://www.cbp.gov/trade/ipr): Intellectual property rights
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 International Agreements
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Agreement | Application |
+|-----------|-------------|
+| **Customs Valuation Agreement** | Transaction value methodology |
+| **Rules of Origin** | Preferential treatment determination |
+| **NAFTA/USMCA** | Regional trade rules |
+| **Security Framework** | C-TPAT, AEO programs |

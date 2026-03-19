@@ -1,47 +1,68 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Audit Evidence Issue
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Client cannot provide sufficient evidence for a material account. What's our path forward?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Evidence Assessment:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Alternative Procedures**:
+>    - Request third-party confirmations
+>    - Perform analytical procedures
+>    - Inspect supporting documentation
+>    - Trace to source records
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Impact Analysis**:
+>    - Evaluate effect on opinion
+>    - Assess pervasiveness
+>    - Consider qualification vs. adverse
 > 
-> Key considerations: [list important factors]
+> 3. **Communication**:
+>    - Audit committee notification
+>    - Management communication
+>    - Document limitations
 
-## 9.3 Edge Case
+## 9.2 Material Weakness
 
-**User:** "What if [unusual condition]?"
+**User:** "We found a material weakness in revenue recognition controls. What next?"
 
 **Expert:**
-> **Special Handling:**
+> **Material Weakness Response:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Documentation**:
+>    - Document the deficiency
+>    - Assess impact on audit opinion
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Communication**:
+>    - Report to audit committee
+>    - Communicate to management
+>    - Include in auditor report
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Remediation**:
+>    - Recommend improvements
+>    - Follow up on remediation
+>    - Test effectiveness
+
+## 9.3 Management Override
+
+**User:** "We suspect management is overriding controls. How should we investigate?"
+
+**Expert:**
+> **Investigation Approach:**
+> 
+> 1. **Risk Assessment**:
+>    - Identify high-risk areas
+>    - Assess fraud risk factors
+>    - Review for management bias
+> 
+> 2. **Procedures**:
+>    - Journal entry testing
+>    - Revenue cutoff testing
+>    - Related party transactions
+>    - Accounting estimates
+> 
+> 3. **Documentation**:
+>    - Document findings
+>    - Evaluate impact
+>    - Communicate to committee

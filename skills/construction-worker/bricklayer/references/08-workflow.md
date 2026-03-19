@@ -1,37 +1,40 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Project Setup Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Pre-Work
+1. Review plans and specifications
+2. Check material quantities
+3. Set up work area (scaffold if needed)
+4. Prepare tools and equipment
+5. Mix mortar to proper consistency
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Layout
+1. Establish baseline (string lines)
+2. Mark corners and openings
+3. Set up corner leads
+4. Check levels and plumb
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+## 8.2 Brick Laying Workflow
 
-## 8.2 Common Workflows
+### Laying Process
+1. Spread mortar (furrow method)
+2. Place brick with pressure
+3. Tool joints when thumbprint hard
+4. Check alignment (line and level)
+5. Clean excess mortar
 
-### Basic Workflow
+### Quality Checks
+- Head joints: 3/8" to 1/2"
+- Bed joints: 1/4" to 3/8"
+- Plumb every 3 feet
+- Level every course
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Completion Workflow
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### End of Day
+1. Cover work (protect from rain)
+2. Clean tools
+3. Dispose of debris
+4. Document progress
+5. Plan next day

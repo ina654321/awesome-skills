@@ -2,32 +2,33 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [SOA Exam Syllabus](https://www.soa.org/education) - Actuarial exams
+- [CAS Actuarial Standards](https://www.casact.org) - Casualty actuarial
+- [NAIC Actuarial Guidelines](https://www.naic.org) - Insurance regulation
+- [Actuarial Standards of Practice](https://www.actuarialstandardsboard.org) - ASOPs
+- [Academy of Actuaries](https://www.actuary.org) - US professionalism
 
-## 7.2 Configuration Reference
+## 7.2 Actuarial Standards
 
-### Basic Configuration
+| Standard | Body | Application |
+|----------|------|-------------|
+| **ASOP 1** | ASB | Recommending insurance rates |
+| **ASOP 7** | ASB | Catastrophe modeling |
+| **ASOP 25** | ASB | Credibility procedures |
+| **ASOP 43** | ASB | Property valuation |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **Statutory Accounting** | NAIC | Insurance reporting |
+| **Actuarial Opinion** | State regulators | Annual statement |
+| **PBR** | NAIC | Principle-based reserves |
+| **VM-20** | NAIC | Life insurance reserves |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [Society of Actuaries](https://www.soa.org)
+- [Casualty Actuarial Society](https://www.casact.org)
+- [American Academy of Actuaries](https://www.actuary.org)
+- [NAIC Insurance Regulation](https://www.naic.org)

@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [USPTO](https://www.uspto.gov) - Patent and trademark
+- [Copyright Office](https://www.copyright.gov) - Copyright registration
+- [Lanham Act](https://www.law.cornell.edu) - Trademark law
+- [17 USC](https://www.law.cornell.edu) - Copyright law
 
-## 7.2 Configuration Reference
+## 7.2 IP Laws
 
-### Basic Configuration
+| Law | Protection | Term |
+|-----|------------|------|
+| **35 USC** | Patents | 20 years |
+| **15 USC 1051** | Trademarks | Indefinite |
+| **17 USC 101** | Copyrights | Life + 70 years |
+| **35 USC 16** | Trade secrets | Indefinite |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 International IP
 
-## 7.3 Common Commands
+| Treaty | Application |
+|--------|-------------|
+| **Paris Convention** | Priority rights |
+| **Madrid Protocol** | International marks |
+| **PCT** | International patents |
+| **Berne Convention** | Copyright |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [World Intellectual Property Organization](https://www.wipo.int)
+- [IP Law Blog](https://www.iptoday.com)
+- [Managing Intellectual Property](https://www.managingip.com)
+- [INTA](https://www.inta.org)

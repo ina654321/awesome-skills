@@ -1,33 +1,34 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Infrastructure Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Design Standards
+| Standard | Application |
+|----------|-------------|
+| AASHTO | Roads and bridges |
+| ASCE 7 | Structural loads |
+| ASTM | Materials |
+| AWWA | Water systems |
 
-## 7.2 Configuration Reference
+### Municipal Codes
+- Local building codes
+- Zoning ordinances
+- Subdivision regulations
+- Stormwater management
 
-### Basic Configuration
+## 7.2 Public Works Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Road Design
+| Element | Standard |
+|---------|----------|
+| Lane width | 12 feet typical |
+| Shoulder | 4-8 feet |
+| Design speed | Based on context |
+| Superelevation | Max 6-8% |
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Water/Sewer
+| Parameter | Standard |
+|-----------|----------|
+| Pipe depth | 4-6 feet minimum |
+| Velocity | 2-10 fps |
+| Manhole spacing | 400-500 feet |

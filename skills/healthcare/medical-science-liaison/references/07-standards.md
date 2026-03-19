@@ -1,33 +1,46 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Medical Science Liaison Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [MSL Society](https://www.mslsociety.org) - Professional organization standards
+- [PhRMA Code](https://www.phrma.org/codes) - Industry code of conduct
+- [FDA Regulations](https://www.fda.gov) - Regulatory compliance
+- [Sunshine Act](https://www.cms.gov/OpenPayments) - Transparency requirements
+- [EFPI Guidelines](https://www.efpi.org) - European MSL standards
 
-## 7.2 Configuration Reference
+## 7.2 Scientific Communication
 
-### Basic Configuration
-
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+```
+Publication Hierarchy:
+├── Original research (peer-reviewed)
+├── Systematic reviews/meta-analyses
+├── Clinical guidelines (NCCN, ASCO, ADA)
+├── Expert consensus statements
+└── Medical affairs educational materials
 ```
 
-## 7.3 Common Commands
+## 7.3 Stakeholder Mapping
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| Stakeholder | Needs | Engagement Strategy |
+|-------------|-------|-------------------|
+| KOLs | Recognition, research support | Scientific exchange |
+| Investigators | Study design, publication | Research collaboration |
+| Payers | Clinical value, outcomes | Health economics data |
+| Formulary | Cost-effectiveness | Budget impact analysis |
 
-## 7.4 Version Compatibility
+## 7.4 Compliance Requirements
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+```
+Sunshine Act Reporting:
+├── Payments to physicians
+├── Research funding
+├── Travel and entertainment
+├── Educational materials provided
+└── Ownership interests
+
+FDA Compliance:
+├── Promotional vs. non-promotional
+├── Off-label communication rules
+├── Scientific exchange guidelines
+└── Fair balance requirements
+```

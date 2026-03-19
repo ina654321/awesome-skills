@@ -1,33 +1,37 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 EPA Regulations
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Key Acts
+| Act | Purpose |
+|-----|---------|
+| Clean Air Act | Air quality standards |
+| Clean Water Act | Water pollution control |
+| RCRA | Hazardous waste management |
+| CERCLA | Superfund cleanup |
+| TSCA | Chemical regulation |
 
-## 7.2 Configuration Reference
+### Permits
+| Type | Agency |
+|------|--------|
+| NPDES | EPA/State |
+| Air Quality | EPA/State |
+| Stormwater | State |
+| RCRA Permit | EPA |
 
-### Basic Configuration
+## 7.2 Engineering Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Design Standards
+| Standard | Application |
+|----------|-------------|
+| ASTM | Material specifications |
+| AWWA | Water/wastewater |
+| ASCE | Civil/environmental |
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Treatment Standards
+| Parameter | Typical Limit |
+|------------|---------------|
+| BOD | 10-30 mg/L |
+| TSS | 10-30 mg/L |
+| Ammonia | 1-10 mg/L |
+| Phosphorus | 1-5 mg/L |

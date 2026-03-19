@@ -1,47 +1,24 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Out-of-Spec Result
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Stability sample fails assay.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Verify result
+2. Investigate root cause
+3. Assess impact
+4. Implement corrective action
+5. Document
 
-## 9.2 Complex Scenario
+## 9.2 Method Transfer Issue
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+QC cannot reproduce R&D method.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Review method
+2. Train QC
+3. Optimize if needed
+4. Validate transfer

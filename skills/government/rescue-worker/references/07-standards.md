@@ -1,33 +1,37 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Emergency Response Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Frameworks
+- [NIMS](https://www.fema.gov/national-incident-management-system): National Incident Management System
+- [ICS Resources](https://www.fema.gov/incident-command-system-resources): Incident Command System
+- [National Response Framework](https://www.fema.gov/national-response-framework): Federal emergency coordination
+- [44 CFR](https://www.ecfr.gov/current/title-44): Emergency Management Regulations
 
-## 7.2 Configuration Reference
+### OSHA Standards
+| Standard | Application |
+|----------|-------------|
+| **29 CFR 1910.120** | Hazardous waste operations (HAZWOPER) |
+| **29 CFR 1910.134** | Respiratory protection |
+| **29 CFR 1910.146** | Permit-required confined spaces |
+| **29 CFR 1910.1200** | Hazard communication |
 
-### Basic Configuration
+## 7.2 Search & Rescue Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### National SAR Guidelines
+- [NASAR Standards](https://www.nasar.org/): National Association for Search and Rescue
+- [FEMA Urban Search & Rescue](https://www.fema.gov/urban-search-rescue): US&R Response system
+- [NFPA 1001](https://www.nfpa.org/codes-and-standards): Fire Fighter Professional Qualifications
 
-## 7.3 Common Commands
+### FEMA Protocols
+- [Incident Command System](https://training.fema.gov/emiweb/ics/): ICS-100, ICS-200, ICS-300, ICS-400
+- [Emergency Operations Center](https://www.fema.gov/emergency-operations-center): EOC activation protocols
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Equipment & Training Standards
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Standard | Source |
+|---------|--------|
+| **PPE Requirements** | OSHA 29 CFR |
+| **Rescue Equipment** | NFPA 1983 |
+| **Training Requirements** | FEMA US&R |
+| **Communication** | APCO/NPSTC |

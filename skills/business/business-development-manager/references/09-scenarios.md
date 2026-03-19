@@ -1,47 +1,67 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Competitive Deal
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "We're in a competitive deal against a much larger competitor. How do we win?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Competitive Strategy:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Differentiation**:
+>    - Focus on unique strengths
+>    - Highlight value over price
+>    - Show relevant case studies
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Tactics**:
+>    - Find the decision maker
+>    - Expose competitor weaknesses
+>    - Accelerate timeline
 > 
-> Key considerations: [list important factors]
+> 3. **Approach**:
+>    - Offer pilot/poc
+>    - Add additional value
+>    - Senior exec involvement
 
-## 9.3 Edge Case
+## 9.2 Price Objection
 
-**User:** "What if [unusual condition]?"
+**User:** "Prospect says we're 30% more expensive than competitor. How to respond?"
 
 **Expert:**
-> **Special Handling:**
+> **Price Objection:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Understanding**:
+>    - Ask what included in comparison
+>    - Understand their priorities
+>    - Identify value gaps
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Response**:
+>    - Focus on total cost/benefit
+>    - Show ROI calculation
+>    - Reference similar wins
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Options**:
+>    - Offer customization
+>    - Consider multi-year
+>    - Add more value
+
+## 9.3 Decision Delays
+
+**User:** "Deal stuck in procurement for months. How to accelerate?"
+
+**Expert:**
+> **Acceleration Strategy:**
+> 
+> 1. **Diagnosis**:
+>    - Identify blockers
+>    - Understand concerns
+>    - Map internal politics
+> 
+> 2. **Actions**:
+>    - Add new champions
+>    - Address concerns directly
+>    - Escalate appropriately
+> 
+> 3. **Approach**:
+>    - Offer executive meeting
+>    - Provide case studies
+>    - Set timeline expectations

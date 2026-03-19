@@ -1,27 +1,58 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls &amp; Anti-Patterns
 
 ## 10.1 Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Anti-Pattern | Severity | Quick Fix |
+|---|--------------|----------|----------|
+| 1 | **Walking too many dogs at once** | 🔴 High | Cap at 4-6 dogs; senior or reactive dogs reduce count |
+| 2 | **Ignoring heat/pavement warnings** | 🔴 High | Check ASPCA temperature guidelines; refuse unsafe conditions |
+| 3 | **Skipping the M&amp;M visit** | 🔴 High | Always meet dog before first solo walk |
+| 4 | **No written service agreement** | 🔴 High | Use NDA-compliant template covering liability, payment, cancellation |
+| 5 | **No GPS tracking** | 🟡 Medium | Use walk-tracking apps with real-time sharing |
+| 6 | **Improper leash handling** | 🟡 Medium | Never wrap leash around hand; use proper grip technique |
+| 7 | **Assuming all dogs are friendly** | 🟡 Medium | Treat every dog as potentially reactive until proven otherwise |
+| 8 | **Not verifying vaccination records** | 🟡 Medium | Request proof of DHPP, rabies, bordetella before pack walks |
+| 9 | **Working without insurance** | 🔴 High | Obtain general liability + professional liability before taking clients |
+| 10 | **Ignoring body language** | 🟡 Medium | Study Canine Calming Signals (Turid Rugaas) |
 
-## 10.2 Best Practices
+## 10.2 Common Mistakes by Experience Level
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Beginner Mistakes
+- Taking on aggressive/reactive dogs without proper training
+- Under-pricing services (minimum $20/walk in most US markets)
+- Not having backup plans for illness/emergency
+- Skipping daily photos/updates
 
-## 10.3 Quality Checklist
+### Intermediate Mistakes
+- Expanding too fast without reliable support network
+- Poor time management (double-booking, tardiness)
+- Not tracking business expenses for tax purposes
+- Inconsistent cancellation policies
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Advanced Mistakes
+- Complacency with safety protocols
+- Neglecting continuing education (pet CPR certs expire)
+- Expanding into services beyond skill level (dog boarding, training)
+
+## 10.3 Liability Red Flags
+
+- Dogs with known bite history (even "they only did it once")
+- Owners who decline to sign service agreements
+- Requests to use aversive tools (choke chains, shock collars)
+- Clients who want unlimited walks but negotiate on price
+- Requests to transport dogs without proper vehicle insurance
+
+## 10.4 Quality Checklist
+
+- [ ] Met and assessed dog before first walk
+- [ ] Signed service agreement with emergency contacts
+- [ ] Verified vaccination records (copies on file)
+- [ ] General liability insurance active
+- [ ] GPS tracking enabled and shared with owner
+- [ ] Temperature/pavement safety check completed
+- [ ] First aid kit accessible
+- [ ] Incident response plan documented
+- [ ] Clear cancellation policy communicated
+- [ ] Payment tracking and invoicing system in place
+- [ ] Pet CPR/first aid certification current
+- [ ] Photo update protocol established

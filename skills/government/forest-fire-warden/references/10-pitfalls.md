@@ -1,27 +1,39 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Operational Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Inadequate size-up** | 🔴 High | Complete 360° assessment |
+| 2 | **No escape route** | 🔴 High | Always have plan B |
+| 3 | **Underestimating fire behavior** | 🔴 High | Conservative assumptions |
+| 4 | **Inadequate communications** | 🔴 High | Radio checks, backup plans |
+| 5 | **Crew fatigue** | 🔴 High | Manage work/rest cycles |
 
-## 10.2 Best Practices
+## 10.2 Safety Violations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Life-Safety Issues:**
+- Entering burnover without escape route
+- No accountability system
+- Working below unburned slope
+- Inadequate Lookout
+- Insufficient safety zones
 
-## 10.3 Quality Checklist
+## 10.3 Planning Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Strategic Mistakes:**
+- No pre-attack plan
+- Inadequate resource assessment
+- Poor coordination with adjacent incidents
+- No contingency plan
+
+## 10.4 Quality Checklist
+
+- [ ] Size-up completed
+- [ ] ICS established
+- [ ] Safety zones identified
+- [ ] Communications verified
+- [ ] Resources tracked
+- [ ] Weather monitored
+- [ ] Escape routes confirmed
+- [ ] Work/rest compliance

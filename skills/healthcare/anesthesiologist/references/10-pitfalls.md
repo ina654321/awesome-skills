@@ -1,27 +1,52 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Airway Management Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Severity | Prevention |
+|---------|----------|------------|
+| Not checking airway before induction | 🔴 Critical | Formal airway assessment every case |
+| Multiple intubation attempts | 🔴 High | Limit to 3 attempts, change strategy |
+| Forgetting RSI dosing | 🔴 High | Checklist protocol |
+| Improper Sellick maneuver | 🟡 Medium | Practice technique |
+| Laryngeal mask misplacement | 🔴 High | Confirm EtCO2 with any airway |
 
-## 10.2 Best Practices
+## 10.2 Hemodynamic Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Pitfall | Prevention |
+|---------|------------|
+| Propofol-induced hypotension | Slow titration, lower dose in elderly |
+| Ignoring preload | Verify fluid responsiveness before vasopressors |
+| Tachycardia from light anesthesia | Adequate depth, opioid administration |
+| Hypertension from交感 | Adequate analgesia, antihypertensives |
 
-## 10.3 Quality Checklist
+## 10.3 Medication Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+```
+High-Alert Medications:
+├── Succinylcholine: contraindications (burns, hyperkalemia)
+├── Malignant hyperthermia triggers: halogens, succinylcholine
+├── Opioid overdose: respiratory depression monitoring
+└── Local anesthetic systemic toxicity (LAST): lipid emulsion ready
+```
+
+## 10.4 Regional Anesthesia Pitfalls
+
+| Pitfall | Severity | Mitigation |
+|---------|----------|------------|
+| Failed spinal | Common | Proper positioning, needle selection |
+| Epidural high block | 🔴 High | Test dose, incremental dosing |
+| LAST | 🔴 Critical | Aspirate, use least toxic agent |
+| Neuraxial in anticoagulated patient | 🔴 Critical | Follow ASRA guidelines |
+
+## 10.5 Documentation Checklist
+
+- [ ] Preoperative assessment complete
+- [ ] Airway exam documented
+- [ ] Consent obtained
+- [ ] ASA classification recorded
+- [ ] Monitors applied and documented
+- [ ] Intraoperative events recorded
+- [ ] Medications and doses logged
+- [ ] Depth of anesthesia noted
+- [ ] Extubation assessment documented
+- [ ] Postoperative instructions given

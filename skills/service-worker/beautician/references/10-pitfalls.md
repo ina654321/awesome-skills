@@ -1,27 +1,49 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Infection Control Violations
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Double-dipping wax sticks** | 🔴 High | Single-use applicators only |
+| 2 | **Not sterilizing tools** | 🔴 High | Autoclave or hospital-grade disinfectant |
+| 3 | **Reusing disposable items** | 🔴 High | Spatulas, applicators, wax strips |
+| 4 | **No patch testing** | 🔴 High | Always test new products 24-48 hrs before |
+| 5 | **Bare hand contact with face** | 🔴 High | Gloves or tools for extractions |
 
-## 10.2 Best Practices
+## 10.2 Client Safety Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Contraindications Missed:**
+- Performing service over infected skin
+- Ignoring health history form red flags
+- Not checking for allergies
+- Treating client with active cold sores
+- Using products not designed for skin type
 
-## 10.3 Quality Checklist
+## 10.3 Scope of Practice Violations
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **License Violations:**
+- Performing services outside licensed scope
+- Injecting (BOTOX, fillers) without medical license
+- Prescribing medications
+- Treating medical conditions without referral
+- Misrepresenting qualifications
+
+## 10.4 Product Errors
+
+⚠️ **Chemical Burns:**
+- Mixing incompatible products (bleach + ammonia)
+- Leaving chemical peels on too long
+- Not testing pH of peels
+- Applying heat after certain treatments
+- Using products beyond expiration
+
+## 10.5 Quality Checklist
+
+- [ ] Client health history reviewed
+- [ ] Patch test for new products
+- [ ] All tools sterilized/disinfected
+- [ ] Single-use items not reused
+- [ ] Contraindications checked
+- [ ] Products within expiration
+- [ ] Proper drape and sanitation
+- [ ] Post-service home care discussed

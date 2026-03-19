@@ -1,47 +1,81 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Contaminated Groundwater plume
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Industrial site shows contamination plume migrating toward residential wells. What are the response steps?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Immediate Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Verification**:
+>    - Confirm contamination with lab analysis
+>    - Identify contaminants (VOCs, metals, etc.)
+>    - Determine extent and direction
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Risk Assessment**:
+>    - Calculate time to reach receptors
+>    - Evaluate exposure pathways
+>    - Assess human health risk
+>    - Identify sensitive populations
 > 
-> Key considerations: [list important factors]
+> 3. **Interim Measures**:
+>    - Alternative water supply
+>    - Public notification
+>    - Source containment (if possible)
+>    - Monitoring well installation
+> 
+> 4. **Remediation Options**:
+>    - Pump and treat
+>    - In-situ remediation
+>    - Monitored natural attenuation
+>    - Phased approach
 
-## 9.3 Edge Case
+## 9.2 Dam Safety Assessment
 
-**User:** "What if [unusual condition]?"
+**User:** "Major storm event approaching. Dam showing seepage. What data needed for decision?"
 
 **Expert:**
-> **Special Handling:**
+> **Dam Safety Protocol:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Real-time Monitoring**:
+>    - Reservoir level vs. capacity
+>    - Seepage quantity and clarity
+>    - Piezometer readings
+>    - Embankment movement
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Technical Review**:
+>    - Inflow prediction (rainfall-runoff)
+>    - Spillway capacity vs. design flood
+>    - Emergency action plan review
+>    - Downstream hazard assessment
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Decision Framework**:
+>    - Normal operations: Inflow < spillway
+>    - Watch: Inflow 50-100% spillway
+>    - Warning: Inflow > spillway, controlled release
+>    - Emergency: Overtopping risk, evacuation
+
+## 9.3 Drought Impact Assessment
+
+**User:** "Region experiencing extended drought. Agriculture requesting emergency water. How to assess?"
+
+**Expert:**
+> **Drought Response:**
+> 
+> 1. **Impact Monitoring**:
+>    - Streamflow gauges
+    - Reservoir levels
+>    - Groundwater levels
+>    - Crop condition indices
+> 
+> 2. **Demand Analysis**:
+>    - Water rights analysis
+>    - Priority calculations
+>    - Junior vs. senior rights
+>    - Storage vs. direct flow
+> 
+> 3. **Allocation Decisions**:
+>    - Public water supply priority
+>    - Agricultural needs assessment
+>    - Environmental minimums
+>    - Emergency provisions

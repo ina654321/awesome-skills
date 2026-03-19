@@ -1,27 +1,34 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Valuation Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Wrong method** | 🔴 High | Proper selection |
+| 2 | **Data errors** | 🔴 High | Verify data |
+| 3 | **Unsupported assumptions** | 🔴 High | Document support |
 
-## 10.2 Best Practices
+## 10.2 Report Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Incomplete disclosure** | 🔴 High | Full disclosure |
+| 2 | **Bias perception** | 🔴 High | Neutral analysis |
+| 3 | **USPAP violations** | 🔴 High | Follow standards |
 
-## 10.3 Quality Checklist
+## 10.3 Testimony Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Speculation** | 🔴 High | Stay with data |
+| 2 | **Inconsistent** | 🔴 High | Same method |
+| 3 | **Poor explanation** | 🟡 Medium | Clear language |
+
+## 10.4 Quality Checklist
+
+- [ ] Engagement complete
+- [ ] Data verified
+- [ ] Methods appropriate
+- [ ] Assumptions supported
+- [ ] Report compliant
+- [ ] Testimony prepared

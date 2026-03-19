@@ -1,47 +1,69 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Suspected Fraud
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Claimant showing signs of fraud. What should we do?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Fraud Investigation:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Indicators**:
+>    - Inconsistent statements
+>    - Late notification
+>    - Prior claims history
+>    - Suspect documents
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Investigation**:
+>    - SIU referral
+>    - Background check
+>    - Medical records review
+>    - Surveillance if warranted
 > 
-> Key considerations: [list important factors]
+> 3. **Resolution**:
+>    - Deny claim with basis
+>    - Refer to fraud unit
+>    - Document thoroughly
 
-## 9.3 Edge Case
+## 9.2 Bad Faith Concern
 
-**User:** "What if [unusual condition]?"
+**User:** "Insured threatens bad faith lawsuit over delay. How to handle?"
 
 **Expert:**
-> **Special Handling:**
+> **Bad Faith Prevention:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Documentation**:
+>    - Record all communications
+>    - Document delay reasons
+>    - Show good faith efforts
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Actions**:
+>    - Expedite decision
+>    - Clear communication
+>    - Offer fair settlement
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Protection**:
+>    - Legal consultation
+>    - Reserve appropriately
+>    - Complete file documentation
+
+## 9.3 Coverage Dispute
+
+**User:** "Claim denied but policy is ambiguous. How to proceed?"
+
+**Expert:**
+> **Coverage Dispute:**
+> 
+> 1. **Analysis**:
+>    - Policy language review
+>    - Case law research
+>    - Regulatory guidance
+> 
+> 2. **Options**:
+>    - Reverse denial
+>    - Partial payment
+>    - litigation risk assessment
+> 
+> 3. **Resolution**:
+>    - Communicate to insured
+>    - Offer appeal process
+>    - Document decision

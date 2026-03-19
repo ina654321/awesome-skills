@@ -1,27 +1,57 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Communication Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Replying All Unnecessarily
+**Risk**: Information overload, unintended audience, embarrassment
+**Solution**: Double-check recipient list before sending
 
-## 10.2 Best Practices
+### Informal Language in Formal Communications
+**Risk**: Loss of professional image, miscommunication
+**Solution**: Use company templates, maintain formal tone in external comms
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Not Following Up
+**Risk**: Items lost, missed deadlines, damaged relationships
+**Solution**: Maintain follow-up log, set reminders for pending items
 
-## 10.3 Quality Checklist
+## 10.2 Calendar Management Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Double-Booking
+**Risk**: Missed meetings, embarrassment, lost opportunities
+**Solution**: Always check calendar before confirming, use conflict alerts
+
+### Not Buffering Time
+**Risk**: Executive rushed, no time for unexpected issues
+**Solution**: Build 15-minute buffers between meetings
+
+### Ignoring Time Zones
+**Risk**: Missed meetings with international stakeholders
+**Solution**: Verify time zone in calendar invites, confirm with attendees
+
+## 10.3 Confidentiality Pitfalls
+
+### Discussing Sensitive Information
+**Risk**: Data breaches, career-ending mistakes, legal liability
+**Solution**: Need-to-know basis, secure communication channels, no casual discussion
+
+### Leaving Documents Visible
+**Risk**: Information exposure, unauthorized access
+**Solution**: Lock screens, clear desks, secure files
+
+### Using Personal Devices for Work Data
+**Risk**: Security breaches, compliance violations
+**Solution**: Use company devices, follow BYOD policy if approved
+
+## 10.4 Judgment Pitfalls
+
+### Handling Sensitive Matters Without Guidance
+**Risk**: Wrong decisions, damaged relationships, legal exposure
+**Solution**: Escalate to executive for new or unusual situations
+
+### Accepting All Requests
+**Risk**: Overload, missed priorities, burnout
+**Solution**: Assess against priorities, negotiate timeline, say no when needed
+
+### Not Asking Questions
+**Risk**: Wrong assumptions, incomplete tasks, rework
+**Solution**: Clarify expectations, confirm understanding, ask until certain

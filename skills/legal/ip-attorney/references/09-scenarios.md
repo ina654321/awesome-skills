@@ -1,47 +1,69 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Infringement Claim
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Competitor using our trademark. What's our options?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Infringement Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Assessment**:
+>    - Analyze likelihood of confusion
+>    - Document infringement
+>    - Assess damages
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Options**:
+>    - Cease and desist
+>    - Negotiation
+>    - Opposition/cancellation
+>    - Litigation
 > 
-> Key considerations: [list important factors]
+> 3. **Selection**:
+>    - Based on costs/benefits
+>    - Business goals
+>    - Evidence strength
 
-## 9.3 Edge Case
+## 9.2 Trade Secret Misappropriation
 
-**User:** "What if [unusual condition]?"
+**User:** "Ex-employee joined competitor with our data. What's next?"
 
 **Expert:**
-> **Special Handling:**
+> **Trade Secret Protection:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Evidence**:
+>    - Document data access
+>    - Identify misappropriation
+>    - Calculate damages
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Options**:
+>    - Injunctive relief
+>    - Damages
+>    - Criminal referral
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Action**:
+>    - Immediate legal action
+>    - Preserve evidence
+>    - Notify competitor
+
+## 9.3 Licensing Agreement
+
+**User:** "Need to license our technology. Key terms?"
+
+**Expert:**
+> **License Terms:**
+> 
+> 1. **Essential Terms**:
+>    - Scope of license
+>    - Territory and duration
+>    - Royalty structure
+>    - Field of use
+> 
+> 2. **Protective Terms**:
+>    - Audit rights
+>    - Termination
+>    - Liability limits
+> 
+> 3. **Execution**:
+>    - Negotiate terms
+>    - Legal review
+>    - Execute

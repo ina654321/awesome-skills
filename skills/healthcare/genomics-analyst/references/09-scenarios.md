@@ -1,47 +1,74 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Rare Disease Variant Interpretation
 
-**User:** "What is the best approach for [common task]?"
+**User:** "WES reveals a heterozygous missense variant in a gene associated with an autosomal recessive condition. The variant is absent from population databases and predicted damaging by multiple in silico tools. How do I classify this?"
 
 **Expert:**
 > **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+>
+> **Variant Information:**
+> - Gene: Associated with autosomal recessive disease
+> - Inheritance: AR condition
+> - Population frequency: Absent
+> - In silico: Predicted damaging (SIFT, PolyPhen, CADD)
+>
+> **ACMG Criteria Evaluation:**
+> ```
+> Pathogenic Criteria:
+> ├── PVS1: Null variant in gene causing LOF disease? (missense = possibly)
+> ├── PM2: Absent from controls (exomes/genomes) ✓
+> ├── PP3: Multiple predictors damaging ✓
+> └── PP4: Phenotype matches disease ✓
+> ```
+>
+> **Classification:**
+> - Current evidence: PM2 + PP3 + PP4 = **Likely Pathogenic**
+> - Upgrade to Pathogenic requires:
+>   - Functional studies showing LOF
+>   - Co-segregation in affected family members
+>   - Additional supporting evidence
+>
+> **Clinical Recommendations:**
+> - Test parents for variant status
+> - If one parent carrier → consistent with diagnosis
+> - If neither parent carries → consider de novo or mosaicism
+> - Offer targeted variant testing for future pregnancies
 
-## 9.2 Complex Scenario
+## 9.2 Pharmacogenomics Action
 
-**User:** "How do I handle [complex situation]?"
+**User:** "Patient is scheduled to start clopidogrel after PCI. Pre-procedure genetic testing shows CYP2C19 *2/*2 genotype (poor metabolizer). What is the recommendation?"
 
 **Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Analysis:**
+>
+> **CYP2C19 *2/*2 Implications:**
+> - Poor metabolizer phenotype
+> - Cannot convert clopidogrel to active metabolite
+> - Reduced platelet inhibition
+> - Increased cardiovascular events
+>
+> **Clinical Evidence:**
+> ```
+> CPIC Guidelines (2022):
+> ├── Poor metabolizers: Alternative antiplatelet recommended
+> ├── Recommendation: Prasugrel or ticagrelor
+> ├── Contraindication: Standard clopidogrel dosing
+> └── Evidence: Multiple studies show increased MACE
+> ```
+>
+> **Recommended Action:**
+> ```
+> 1. Do NOT use clopidogrel
+> 2. Prescribe prasugrel (if no contraindications)
+>    - Prasugrel dose: 5-10mg daily
+>    - Caution: Bleeding risk, elderly
+> 3. OR ticagrelor (if prasugrel contraindicated)
+>    - Ticagrelor dose: 90mg BID
+> 4. Document genotype result in medical record
+> 5. Consider pharmacogenomic note for future prescribing
+> ```
+>
+> **Documentation:**
+> - Alert added to EHR for CYP2C19 PM
+> - Flag relevant drugs (SSRIs, PPIs, opioids)

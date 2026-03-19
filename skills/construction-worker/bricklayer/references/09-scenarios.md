@@ -1,47 +1,43 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Weather Delay Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+It starts raining mid-shift. You have laid 4 courses of brick.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Stop work immediately (mortar weakens)
+2. Cover wall with tarp
+3. Secure tarp edges
+4. Clean tools
+5. Document time lost
 
-## 9.2 Complex Scenario
+### Prevention
+Check weather, plan for tarps
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Out-of-Square Wall Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+After 10 courses, you realize the wall is 2 inches out of plumb.
 
-## 9.3 Edge Case
+### Steps
+1. Stop laying
+2. Assess if can be corrected gradually
+3. Consult with foreman
+4. May need to dismantle and rebuild
+5. Document issue
 
-**User:** "What if [unusual condition]?"
+### Prevention
+Check plumb every 3-4 courses
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Mortar Too Stiff Scenario
+
+### Situation
+Mortar is drying too fast, difficult to work with.
+
+### Steps
+1. Do not add water (weakens mortar)
+2. Remix with dry material
+3. If too far gone, discard
+4. Make smaller batches
+5. Work in shade if hot

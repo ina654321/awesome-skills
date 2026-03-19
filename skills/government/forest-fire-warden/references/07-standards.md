@@ -1,33 +1,31 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Wildland Fire Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Fire Management
+- [National Fire Plan](https://www.nifc.gov/): National interagency fire policy
+- [FEMA Fire Management](https://www.fema.gov/fire): Federal fire assistance
+- [36 CFR Part 18](https://www.ecfr.gov/current/title-36/chapterI/part18): Fire management on public lands
 
-## 7.2 Configuration Reference
+### Incident Command
+| Standard | Application |
+|-----------|-------------|
+| **ICS-100** | Basic incident command |
+| **ICS-200** | Single resource tactics |
+| **ICS-300** | Multi-agency coordination |
+| **ICS-400** | Complex incidents |
 
-### Basic Configuration
+## 7.2 Fire Behavior Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### NWCG Standards
+- [NFDRS](https://www.nfdrs.org/): Fire danger rating system
+- [Fuels Management](https://www.nwcg.gov/publications): Wildland fire fighting
+- [S-190](https://www.nwcg.gov/publications): Fire behavior training
+- [S-130](https://www.nwcg.gov/publications): Basic fire fighter
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Weather Standards
+| Resource | Application |
+|----------|-------------|
+| **Spot Weather** | Tactical fire forecasts |
+| **Fire Weather Watch** | Red flag conditions |
+| **Incident Meteorologist** | On-site forecasting |

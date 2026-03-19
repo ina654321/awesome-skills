@@ -1,47 +1,70 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Structuring Detection
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Customer is making multiple $9,900 deposits. What's the procedure?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Structuring Response:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Assessment**:
+>    - Document transaction pattern
+>    - Review account history
+>    - Check for common scheme
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Actions**:
+>    - Process normally (no tipping off)
+>    - File SAR within 30 days
+>    - Document observations
+>    - Notify supervisor
 > 
-> Key considerations: [list important factors]
+> 3. **Continued Monitoring**:
+>    - Flag account
+>    - Enhanced review
+>    - Consider closure
 
-## 9.3 Edge Case
+## 9.2 Suspected Fraud
 
-**User:** "What if [unusual condition]?"
+**User:** "Customer presenting someone else's check. What should we do?"
 
 **Expert:**
-> **Special Handling:**
+> **Fraud Prevention:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Immediate Actions**:
+>    - Do not cash/check
+>    - Request additional ID
+>    - Keep customer occupied
+>    - Alert supervisor
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Documentation**:
+>    - Record all details
+>    - Note physical description
+>    - Preserve check
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Resolution**:
+>    - Contact account holder
+>    - File fraud report
+>    - Law enforcement if needed
+
+## 9.3 Sanctions Hit
+
+**User:** "Customer name matches OFAC list. What's the protocol?"
+
+**Expert:**
+> **OFAC Protocol:**
+> 
+> 1. **Verification**:
+>    - Confirm match vs. false positive
+>    - Review additional identifiers
+>    - Do not process transaction
+> 
+> 2. **Actions**:
+>    - Immediately notify compliance
+>    - Freeze transaction
+>    - Document fully
+>    - No customer notification
+> 
+> 3. **Escalation**:
+>    - Compliance officer review
+>    - OFAC guidance
+>    - Potential reporting

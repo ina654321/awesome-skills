@@ -1,27 +1,77 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Material Handling Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Severity | Prevention |
+|---------|----------|------------|
+| Using expired materials | 🔴 High | Inventory rotation system |
+| Improper storage conditions | 🔴 High | Temperature/humidity monitoring |
+| Cross-contamination of materials | 🟡 Medium | Dedicated instruments per material |
+| Incorrect liquid/powder ratios | 🔴 High | Follow manufacturer instructions |
 
-## 10.2 Best Practices
+## 10.2 Fabrication Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Pitfall | Result | Correction |
+|---------|--------|------------|
+| Insufficient tooth reduction | Poor aesthetics | Re-prep or add ceramic |
+| Over-contoured margins | Plaque retention | Grind and polish |
+| Under-contoured margins | Poor emergence | Add ceramic |
+| Poor occlusion | TMJ issues | Adjust contacts |
 
-## 10.3 Quality Checklist
+## 10.3 Communication Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+```
+Common Issues:
+├── Unclear shade communication
+├── Missing prescription information
+├── Material not specified
+├── No photos provided
+└── Emergency contact unavailable
+
+Prevention:
+├── Use standardized prescription forms
+├── Require photos for complex cases
+├── Confirm shade via photos for confirmation
+└── Keep emergency contact on file
+```
+
+## 10.4 Quality Control Failures
+
+| Checkpoint Missed | Consequence | Solution |
+|-------------------|-------------|----------|
+| Framework fit check | Ill-fitting restoration | Verify before ceramic |
+| Shade verification | Wrong shade delivered | Photo documentation |
+| Occlusion check | High spots, fracture | Articulator check |
+| Surface finish | Plaque accumulation | Polish all surfaces |
+
+## 10.5 Turnaround Time Issues
+
+```
+Causes:
+├── Case complexity underestimated
+├── Material delays
+├── Equipment malfunction
+├── Staff shortage
+
+Solutions:
+├── Realistic timeline assessment
+├── Buffer time for complex cases
+├── Preventive equipment maintenance
+└── Cross-training for coverage
+```
+
+## 10.6 Infection Control Breaches
+
+```
+Critical Points:
+├── Impression disinfection
+├── Model disinfection
+├── Finished prosthesis packaging
+└── Staff PPE compliance
+
+Prevention:
+├── Written infection control protocol
+├── Disinfectant efficacy verification
+├── Staff training records
+└── Regular audits
+```

@@ -1,26 +1,47 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Common Mistakes
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Using defaults in production** | 🔴 High | Configure explicitly |
-| 2 | **Ignoring warnings** | 🔴 High | Review and address |
-| 3 | **No monitoring** | 🟡 Medium | Add observability |
-| 4 | **Manual configuration** | 🟡 Medium | Use automation |
-| 5 | **Skipping backups** | 🔴 High | Implement backup strategy |
+| # | Mistake | Severity | Quick Fix |
+|---|---------|----------|-----------|
+| 1 | **No contact stabilization** | 🔴 High | Add small friction or stabilize |
+| 2 | **Wrong element type** | 🔴 High | Select appropriate family |
+| 3 | **Poor mesh in stress gradients** | 🔴 High | Refine in high stress regions |
+| 4 | **Ignoring material nonlinearity** | 🔴 High | Use NLGEOM, proper plasticity |
+| 5 | **Insufficient convergence tolerance** | 🟡 Medium | Tighten tolerances |
+| 6 | **Missing boundary conditions** | 🔴 High | Review free DOFs |
+| 7 | **Units inconsistency** | 🔴 High | Use consistent units |
+| 8 | **No initial increment estimate** | 🟡 Medium | Specify initial increment |
 
-## 10.2 Best Practices
+## 10.2 Solver Convergence Issues
 
-1. **Always use version control** for configurations
-2. **Document everything** for future reference
-3. **Test in staging** before production
-4. **Monitor continuously** in production
-5. **Automate everything** where possible
+### Convergence Failures
 
-## 10.3 Security Considerations
+**Symptoms**: Analysis terminates, severe discontinuity
 
-- Use secure authentication methods
-- Never commit secrets to version control
-- Rotate credentials regularly
-- Follow principle of least privilege
+**Common Causes & Solutions**:
+
+| Cause | Solution |
+|-------|----------|
+| Unstable contact | Use contact stabilization |
+| Element distortion | Refine mesh, use adaptive |
+| Plastic instability | Use Riks method |
+| Snap-through | Use staticriks, arc-length |
+| Hourglassing (explicit) | Use hourglass control |
+
+### Slow Convergence
+
+**Solutions**:
+1. Use automatic time stepping
+2. Increase number of iterations
+3. Use line search option
+4. Adjust convergence criteria
+5. Check for rigid body motion
+
+### Explicit Stability
+
+**Common Issues**:
+- **Hourglass modes**: Use enhanced hourglass
+- **Energy errors**: Check total energy balance
+- **Penetration**: Refine contact, reduce time step
+- **Mass scaling**: Use minimally, understand effect

@@ -1,33 +1,28 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Navigation Aids Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Regulations
+- [33 CFR Part 62](https://www.ecfr.gov/current/title-33/part62): Aids to navigation
+- [33 CFR Part 66](https://www.ecfr.gov/current/title-33/part66): Private aids to navigation
+- [US Coast Guard Light List](https://www.navcen.uscg.gov/): Published light list
 
-## 7.2 Configuration Reference
+### USCG Standards
+| Standard | Application |
+|-----------|-------------|
+| **Light List** | Characteristics of aids |
+| **Chart 1** | Symbols and abbreviations |
+| **Aids to Navigation Manual** | USCG procedures |
 
-### Basic Configuration
+## 7.2 Equipment Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Lighting
+- [Illuminated Range](https://www.navcen.uscg.gov/): Light characteristics
+- [Visibility Ranges](https://www.navcen.uscg.gov/): Distance calculation
 
-## 7.3 Common Commands
-
-| Command | Description |
+### Safety Standards
+| Element | Requirement |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| **Optics** | Properly aligned |
+| **Power** | Reliable backup |
+| **Structure** | Stable foundation |

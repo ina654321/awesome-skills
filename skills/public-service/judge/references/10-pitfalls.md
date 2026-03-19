@@ -1,27 +1,38 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Judicial Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Ex parte communication** | 🔴 High | Strict protocol |
+| 2 | **Bias/Prejudice** | 🔴 High | Recusal if any doubt |
+| 3 | **Incomplete reasoning** | 🟡 Medium | Written rulings |
+| 4 | **Delayed ruling** | 🟡 Medium | Meet deadlines |
+| 5 | **Improper sua sponte** | 🟡 Medium | Follow procedure |
 
-## 10.2 Best Practices
+## 10.2 Due Process Violations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Constitutional Issues:**
+- Inadequate notice
+- No opportunity to respond
+- Biased decision-maker
+- Incomplete hearing
 
-## 10.3 Quality Checklist
+## 10.3 Procedural Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Case Management:**
+- Missing deadlines
+- Wrong standard applied
+- Inadequate record
+- Improper ex parte order
+
+## 10.4 Quality Checklist
+
+- [ ] Jurisdiction proper
+- [ ] Notice adequate
+- [ ] All parties heard
+- [ ] Ruling explained
+- [ ] Record complete
+- [ ] Bias concerns addressed
+- [ ] Code of conduct followed
+- [ ] Decisions timely

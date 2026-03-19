@@ -1,47 +1,72 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Unclaimed Body
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Deceased has no family or identified next of kin. No one claims the body. What to do?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Unclaimed Remains Protocol:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Attempt Locate**:
+>    - Search for family contacts
+>    - Check property for emergency contacts
+>    - Social services notification
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Legal Steps**:
+>    - Publish newspaper notice
+>    - Wait statutory period
+>    - May need court order
 > 
-> Key considerations: [list important factors]
+> 3. **Disposition**:
+>    - County indigent burial
+>    - Anatomical donation (if eligible)
+>    - Cremation after waiting period
+> 
+> 4. **Documentation**:
+>    - All attempts documented
+>    - Court order if required
+>    - Death certificate notation
 
-## 9.3 Edge Case
+## 9.2 Infectious Disease Death
 
-**User:** "What if [unusual condition]?"
+**User:** "Decedent died of COVID-19. Family wants traditional open casket. Is this allowed?"
 
 **Expert:**
-> **Special Handling:**
+> **Infectious Remains Handling:**
 > 
-> In this case, standard procedures need modification:
+> 1. **CDC Guidelines**:
+>    - Follow current CDC guidance
+>    - Embalming generally safe
+>    - Open casket may be allowed with precautions
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Staff Protection**:
+>    - Enhanced PPE required
+>    - Limited exposure time
+>    - Additional sanitation
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Family Communication**:
+>    - Explain risks and precautions
+>    - Let family make informed decision
+>    - Document discussion
+
+## 9.3 Religious Objection to Autopsy
+
+**User:** "Family refuses autopsy based on religious beliefs. Death is under investigation. How handle?"
+
+**Expert:**
+> **Conflict Resolution:**
+> 
+> 1. **Legal Authority**:
+>    - Medical Examiner can order autopsy
+>    - Religious objections don't override authority
+>    - Court can limit scope
+> 
+> 2. **Negotiation**:
+> - Request minimal external examination
+>    - Consider imaging alternatives
+>    - Explain what information needed
+> 
+> 3. **Compromise Options**:
+>    - Limited internal examination
+>    - MRI/CT imaging instead
+>    - External only with tissue samples

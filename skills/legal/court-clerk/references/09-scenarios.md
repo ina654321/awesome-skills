@@ -1,47 +1,68 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Missing Service
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Plaintiff can't serve defendant. What are the options?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Service Issues:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Options**:
+>    - Alternative service
+>    - Service by publication
+>    - Extension requests
+>    - Dismissal consideration
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Process**:
+>    - Motion for alternative
+>    - Show efforts made
+>    - Judge approval
 > 
-> Key considerations: [list important factors]
+> 3. **Documentation**:
+>    - Document attempts
+>    - File with court
+>    - Update docket
 
-## 9.3 Edge Case
+## 9.2 Sealed Document
 
-**User:** "What if [unusual condition]?"
+**User:** "Party wants document sealed. What's the process?"
 
 **Expert:**
-> **Special Handling:**
+> **Sealing:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Requirements**:
+>    - Motion to seal
+>    - Show good cause
+>    - Specify what to seal
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Process**:
+>    - File motion
+>    - Notice to parties
+>    - Judge review
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Execution**:
+>    - If granted: seal
+>    - Restrict access
+>    - Update docket
+
+## 9.3 Filing Error
+
+**User:** "Attorney filed in wrong court. What's the process?"
+
+**Expert:**
+> **Filing Error:**
+> 
+> 1. **Options**:
+>    - Transfer
+>    - Re-file in correct
+>    - Consolidate
+> 
+> 2. **Actions**:
+>    - Identify error
+>    - Notify parties
+>    - Get court direction
+> 
+> 3. **Resolution**:
+>    - Return to party
+>    - Transfer if appropriate
+>    - Document in record

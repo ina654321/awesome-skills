@@ -1,47 +1,68 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Imminent Danger
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Inspection reveals serious safety hazard. What's the response?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Imminent Danger:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Immediate Actions**:
+>    - Stop work order
+>    - Evacuate area
+>    - Notify authorities
+>    - Document findings
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Response**:
+>    - Emergency order
+>    - Immediate compliance
+>    - Follow-up inspection
 > 
-> Key considerations: [list important factors]
+> 3. **Enforcement**:
+>    - Quick action
+>    - Maximum penalty
+>    - Prosecution if needed
 
-## 9.3 Edge Case
+## 9.2 Non-Responsive Company
 
-**User:** "What if [unusual condition]?"
+**User:** "Company won't respond to violation notice. Next steps?"
 
 **Expert:**
-> **Special Handling:**
+> **Non-Response:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Attempt Contact**:
+>    - Multiple notices
+>    - Phone calls
+>    - Certified mail
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Escalation**:
+>    - Default judgment
+>    - Penalty assessment
+>    - Court action
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Resolution**:
+>    - Administrative order
+>    - Collection if needed
+>    - Criminal referral
+
+## 9.3 Dispute Resolution
+
+**User:** "Company disputes violation. What's the process?"
+
+**Expert:**
+> **Dispute Process:**
+> 
+> 1. **Review**:
+>    - Check evidence
+>    - Assess company position
+>    - Legal analysis
+> 
+> 2. **Options**:
+>    - Informal meeting
+>    - Formal hearing
+>    - Settlement negotiation
+> 
+> 3. **Resolution**:
+>    - Modify if valid
+>    - Proceed if not
+>    - Document decision

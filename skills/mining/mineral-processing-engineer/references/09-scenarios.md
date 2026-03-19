@@ -1,47 +1,24 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Recovery Below Target
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Plant recovery is 10% below design.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Sample process streams
+2. Identify losses
+3. Adjust reagents
+4. Modify grinding
+5. Optimize
 
-## 9.2 Complex Scenario
+## 9.2 Equipment Failure
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+Critical crusher down unexpectedly.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Assess damage
+2. Arrange repair/replacement
+3. Adjust plant throughput
+4. Communicate to management

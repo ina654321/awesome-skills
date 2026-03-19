@@ -1,33 +1,50 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Building Codes
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### IBC Requirements
+| Code | Application |
+|------|-------------|
+| 2304 | Wood construction |
+| 2305 | General construction requirements |
+| 2308 | Light-frame construction |
 
-## 7.2 Configuration Reference
+### IRC Requirements
+| Section | Application |
+|----------|-------------|
+| R502 | Floor framing |
+| R602 | Wall framing |
+| R803 | Roof framing |
 
-### Basic Configuration
+## 7.2 Lumber Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Standard Sizes
+| Nominal | Actual | Use |
+|---------|--------|-----|
+| 2x4 | 1.5" x 3.5" | Studs |
+| 2x6 | 1.5" x 5.5" | Headers, joists |
+| 2x8 | 1.5" x 7.25" | Floor joists |
+| 2x10 | 1.5" x 9.25" | Floor joists, headers |
+| 2x12 | 1.5" x 11.25" | Floor joists |
 
-## 7.3 Common Commands
+### Wood Species
+- SPF (Spruce-Pine-Fir): Standard framing
+- Douglas Fir: Higher load capacity
+- Southern Yellow Pine: High strength
+- Pressure-treated: Ground contact
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Fastener Standards
 
-## 7.4 Version Compatibility
+### Nail Schedule (Standard Framing)
+| Application | Size/Type |
+|-------------|-----------|
+| Wall studs | 16d common |
+| Top plate | 10d common @ 6" o.c. |
+| Bottom plate | 10d common @ 12" o.c. |
+| Headers | 10d @ 12" o.c. |
+| Subfloor | 8d @ 6" o.c. |
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Screw Applications
+- Deck screws: Exterior wood
+- Drywall screws: Interior use
+- Structural screws: Load connections

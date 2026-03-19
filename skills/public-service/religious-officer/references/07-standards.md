@@ -1,33 +1,25 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Military Chaplaincy Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Chaplain Corps Regulations
+- [DoD Directive 1300.17](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/130017p.pdf): Accommodation of Religious Practices
+- [DoD Instruction 1300.06](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/130006p.pdf): Conscientious Objectors
+- [AR 165-1](https://armypubs.army.mil/): Army Chaplain Corps activities
+- [OPNAVINST 1730.1](https://www.navy.mil/): Navy Chaplain Corps
+- [AFI 52-101](https://www.e-publishing.af.mil/): Air Force Chaplain Corps
 
-## 7.2 Configuration Reference
+### First Amendment Framework
+| Principle | Application |
+|-----------|-------------|
+| **Free Exercise Clause** | Cannot discriminate against religious practice |
+| **Establishment Clause** | Cannot prefer one religion over another |
+| **Military Necessity** | Can limit practice if mission requires |
+| **Least Restrictive Means** | Must accommodate if possible |
 
-### Basic Configuration
+## 7.2 pastoral Care Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [Clinical Pastoral Education](https://www.cpe.org/): CPE standards for chaplain training
+- [Military Community Ministry](https://www.usccb.org/): Military diocesan standards
+- [VA Chaplain Center](https://www.va.gov/chaplain/): VA chaplaincy standards
+- [ICCA Standards](https://www.iccaf.org/): Int'l Conference of Christian Chaplains

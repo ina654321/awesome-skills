@@ -1,27 +1,34 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Filing Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Missed deadlines** | 🔴 High | Calendar system |
+| 2 | **Inadequate search** | 🔴 High | Comprehensive search |
+| 3 | **Specification errors** | 🟡 Medium | Review carefully |
 
-## 10.2 Best Practices
+## 10.2 Enforcement Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Laches defense** | 🔴 High | Timely enforcement |
+| 2 | **Inadequate evidence** | 🔴 High | Document properly |
+| 3 | **Overlitigation** | 🟡 Medium | Cost-benefit analysis |
 
-## 10.3 Quality Checklist
+## 10.3 Transaction Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Unclear terms** | 🔴 High | Specific terms |
+| 2 | **Inadequate due diligence** | 🔴 High | Full review |
+| 3 | **Missing protection** | 🟡 Medium | Complete agreements |
+
+## 10.4 Quality Checklist
+
+- [ ] Search completed
+- [ ] Application filed correctly
+- [ ] Deadlines tracked
+- [ ] Maintenance done
+- [ ] Infringement monitored
+- [ ] Transactions protected

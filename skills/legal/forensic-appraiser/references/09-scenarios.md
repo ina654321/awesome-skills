@@ -1,47 +1,67 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Divorce Valuation
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Need business valuation for divorce. What's the approach?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Divorce Valuation:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Engagement**:
+>    - Meet with attorney
+>    - Define scope
+>    - Identify community vs separate
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Analysis**:
+>    - Review financials
+>    - Assess non-market terms
+>    - Consider discounts
 > 
-> Key considerations: [list important factors]
+> 3. **Report**:
+>    - Clear methodology
+>    - Address controls
+>    - Support findings
 
-## 9.3 Edge Case
+## 9.2 Minority Discount
 
-**User:** "What if [unusual condition]?"
+**User:** "Client wants minority discount for gift. What's reasonable?"
 
 **Expert:**
-> **Special Handling:**
+> **Discount Analysis:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Factors**:
+>    - Control vs minority
+>    - Marketability
+>    - Company-specific
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Assessment**:
+>    - Compare to data
+>    - Consider restrictions
+>    - Document rationale
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Application**:
+>    - Market approach
+>    - Option pricing
+>    - Subject to discounts
+
+## 9.3 Challenge on Cross
+
+**User:** "Opposing expert used different method. How to respond?"
+
+**Expert:**
+> **Cross Response:**
+> 
+> 1. **Preparation**:
+>    - Review their report
+>    - Prepare explanation
+>    - Anticipate questions
+> 
+> 2. **Response**:
+>    - Explain methodology
+>    - Show support
+>    - Address criticism
+> 
+> 3. **Approach**:
+>    - Stay professional
+>    - Acknowledge differences
+>    - Defend conclusions

@@ -1,37 +1,42 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Seismic Monitoring
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Data Collection
+├── Process seismometer data
+├── Identify earthquake location
+├── Calculate magnitude
+├── Determine depth
+└── Classify event type
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Analysis
+├── Determine source mechanism
+├── Calculate intensity distribution
+├── Compare to historical events
+├── Identify foreshocks/aftershocks
+└── Assess tsunami potential
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Communication
+├── Generate products
+├── Issue alerts
+├── Coordinate with partners
+├── Brief emergency management
+└── Update public information
 ```
 
-## 8.2 Common Workflows
+## 8.2 Hazard Assessment
 
-### Basic Workflow
+1. **Seismic Source**: Identify faults, recurrence
+2. **Ground Motion**: Calculate amplification
+3. **Exposure**: Population, infrastructure
+4. **Risk**: Combine hazard and exposure
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Earthquake Response
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+| Phase | Activities |
+|-------|------------|
+| **Immediate** | Location, magnitude, tsunami alert |
+| **Shaking** | Ground motion mapping |
+| **Damage** | Information collection |
+| **Recovery** | Aftershock forecasting |

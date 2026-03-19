@@ -1,47 +1,64 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Donation of Controversial Artifact
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "A donor wants to give us a religious artifact that was part of a collection with disputed provenance. How should we handle this?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Due Diligence Assessment:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Provenance Research**: Conduct thorough research on ownership history
+>    - Contact Interpol Database
+>    - Review collector records
+>    - Check documentation chain
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Cultural Heritage Laws**: Verify compliance with:
+>    - UNESCO 1970 Convention
+>    - National Park Service regulations
+>    - State cultural property laws
 > 
-> Key considerations: [list important factors]
+> 3. **Ethical Review**: Consult with:
+>    - Curatorial staff
+>    - External scholars
+>    - Community stakeholders
+> 
+> 4. **Decision**: If provenance cannot be established, decline acquisition or request repatriation documentation
 
-## 9.3 Edge Case
+## 9.2 Mixed Ownership Collection
 
-**User:** "What if [unusual condition]?"
+**User:** "We received a collection where some items have clear title and others don't. How do we proceed?"
 
 **Expert:**
-> **Special Handling:**
+> **Legal Framework:**
 > 
-> In this case, standard procedures need modification:
+> - Identify items with clear chain of custody
+> - Segregate items with documentation gaps
+> - Consult with legal counsel on ambiguous items
+> - Apply 1970 UNESCO rule: items exported without permission may be repatriated
+> - Document all decisions for audit trail
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> **Risk Mitigation:**
+> - Do not display items with disputed provenance until resolved
+> - Notify relevant governments if cultural patrimony concerns exist
+
+## 9.3 Budget Cuts Impacting Conservation
+
+**User:** "Our museum faces severe budget cuts and must reduce conservation work. What should we prioritize?"
+
+**Expert:**
+> **Priority Framework:**
 > 
-> Consult with [relevant authority] if unsure.
+> **Tier 1 - Critical** (Immediate):
+> - Active pest infestation
+> - Environmental monitoring failures
+> - Items in immediate physical danger
+> 
+> **Tier 2 - High Priority** (3-6 months):
+> - Climate control failures affecting collection
+> - Items showing active deterioration
+> - High-use collection items
+> 
+> **Tier 3 - Standard** (When funding available):
+> - Preventive conservation
+> - Routine imaging documentation
+> - Collection surveys

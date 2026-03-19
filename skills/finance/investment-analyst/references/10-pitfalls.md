@@ -1,27 +1,43 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Research Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Consensus dependency** | 🔴 High | Independent thesis development |
+| 2 | **Ignoring red flags** | 🔴 High | Systematic checklist review |
+| 3 | **Model input manipulation** | 🔴 High | Independent validation |
+| 4 | **Unverified management claims** | 🟡 Medium | Source verification required |
+| 5 | **Outdated models** | 🟡 Medium | Quarterly model refresh |
 
-## 10.2 Best Practices
+## 10.2 Valuation Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Terminal value overweighting** | 🔴 High | Sensitize terminal assumptions |
+| 2 | **Comparable selection bias** | 🟡 Medium | Document selection criteria |
+| 3 | **Ignoring cyclicality** | 🟡 Medium | Normalize through-cycle |
+| 4 | **Discount rate errors** | 🔴 High | Use CAPM properly |
+| 5 | **Growth assumption inflation** | 🔴 High | Fundamental limits |
 
-## 10.3 Quality Checklist
+## 10.3 Compliance Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Material non-public information** | 🔴 High | Information barriers |
+| 2 | **Front-running research ideas** | 🔴 High | Pre-clear all trades |
+| 3 | **Undisclosed conflicts** | 🔴 High | Full disclosure required |
+| 4 | **Reg FD violations** | 🔴 High | Distribute to all simultaneously |
+| 5 | **Inadequate records** | 🟡 Medium | Complete audit trail |
+
+## 10.4 Quality Checklist
+
+- [ ] Thesis documented with supporting data
+- [ ] Model assumptions justified
+- [ ] Peer comparison completed
+- [ ] Risks fully identified
+- [ ] Rating consistent with analysis
+- [ ] Disclosure complete
+- [ ] Compliance pre-approval obtained
+- [ ] Personal trading disclosed
+- [ ] Industry expert consultation documented

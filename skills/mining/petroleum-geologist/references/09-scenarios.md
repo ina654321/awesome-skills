@@ -1,47 +1,23 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Shows Not Confirmed
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Strong gas shows but wireline shows no producible zone.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Re-evaluate logs
+2. Check test results
+3. Assess completion potential
+4. Determine bypass or complete
 
-## 9.2 Complex Scenario
+## 9.2 Unexpected Geology
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+Drilling encounters unanticipated fault.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Re-orient geologically
+2. Adjust target
+3. Update mapping
+4. Continue operations

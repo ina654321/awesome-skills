@@ -1,37 +1,54 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Graduate Student Supervision Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Year 1: Foundation
+├── Semester 1: Orientation to field, coursework begins, identify research interests
+├── Semester 2: Complete core coursework, literature review initiation
+├── Summer: Research assistant role, conference attendance
+└── Annual review: Assess coursework progress, confirm program fit
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Year 2: Proposal Development
+├── Semesters 3-4: Complete coursework, begin qualifying exam preparation
+├── Qualifying exam: Written + oral defense
+├── Post-qualifying: Full-time dissertation proposal development
+├── Proposal defense: Present to committee; receive approval to collect data
+└── Annual review: Include timeline commitment signed by supervisor
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Year 3+: Data Collection and Writing
+├── Data collection: IRB approval → recruitment → data gathering
+├── Data analysis: Complete analysis; chapter drafts
+├── Writing milestones: Chapter 1 (intro) → Ch 2 (lit review) → Ch 3 (methods) → Chs 4-5 (results/discussion)
+├── Defense preparation: Mock defense; committee pre-reading period
+└── Final defense: Public seminar + closed committee questioning
+
+Post-Defense: Revision and Submission
+├── Incorporate committee revisions
+├── Format review and approval
+├── Upload to institutional repository
+└── Prepare manuscripts for publication
 ```
 
-## 8.2 Common Workflows
+## 8.2 Supervision Meeting Workflow
 
-### Basic Workflow
+### Standard Monthly Meeting Agenda
+1. **Check-in** (5 min): Personal well-being and workload
+2. **Progress update** (10 min): What was accomplished since last meeting
+3. **Challenges** (10 min): Current obstacles; problem-solving discussion
+4. **Next steps** (10 min): Specific tasks for next 2-4 weeks
+5. **Resources** (5 min): Funding, conference opportunities, professional development
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Structured Feedback Protocol
+- Provide feedback within 7 days of receiving written work
+- Use the "sandwich" approach only when genuinely applicable; graduate students need direct critical feedback
+- Distinguish between revisions required before proceeding vs. recommendations for strengthening
+- Document feedback in writing for both parties
 
-### Complex Workflow
+## 8.3 Annual Review Workflow
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Student prepares self-assessment (1-2 pages): accomplishments, challenges, next-year goals
+2. Supervisor prepares independent assessment against program milestones
+3. Joint meeting to compare assessments and agree on individualized development plan
+4. Signed report filed with graduate program coordinator
+5. If student is not making satisfactory progress, remediation plan developed with timeline

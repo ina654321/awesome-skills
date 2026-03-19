@@ -1,33 +1,24 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Cleaning Safety Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### OSHA Standards
+- [OSHA Hazard Communication](https://www.osha.gov/hazcom): Chemical labeling and SDS
+- [OSHA Bloodborne Pathogens](https://www.osha.gov/bloodborne-pathogens): Exposure control
+- [OSHA Personal Protective Equipment](https://www.osha.gov/ppe): PPE requirements
+- [EPA Registered Disinfectants](https://www.epa.gov/pesticides): Hospital-grade disinfectants
 
-## 7.2 Configuration Reference
+### Green Cleaning Standards
+| Standard | Authority | Focus |
+|----------|----------|-------|
+| **Green Seal** | Green Seal Inc. | Eco-friendly products |
+| **EPA Safer Choice** | EPA | Safer ingredient screening |
+| **LEED** | USGBC | Green building cleaning standards |
+| **ISSA 600 Series** | ISSA | Cleaning industry standards |
 
-### Basic Configuration
+## 7.2 Cleaning Chemistry
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [CDC Cleaning Guidance](https://www.cdc.gov/infection-control/): Healthcare cleaning protocols
+- [EPA Disinfectant Use](https://www.epa.gov/pesticides): Proper disinfectant use
+- [Food Safety](https://www.fsis.usda.gov/): Kitchen sanitization
+- [Asthma-Safe Products](https://www.lung.org/): Less hazardous cleaning

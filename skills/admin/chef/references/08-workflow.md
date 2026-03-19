@@ -1,37 +1,52 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Pre-Service Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Daily Opening Tasks
+1. **Inventory Check**: Review pars, check walk-ins
+2. **Prep List**: Create prep list from menu needs
+3. **Team Briefing**: Assign stations, discuss specials
+4. **Equipment Check**: Test equipment operation
+5. **Mise en Place**: Prepare all components
+6. **Sanitation Check**: Verify clean station
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Prep Sequence
+1. Thaw proteins (if needed) - 24 hours in cooler
+2. Start long-cook items (stocks, braises)
+3. Prep vegetables and proteins
+4. Prepare sauces and bases
+5. Set up mise en place for service
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+## 8.2 Service Workflow
 
-## 8.2 Common Workflows
+### Order Flow
+1. Order received from expediter
+2. Chef calls ticket, assigns to station
+3. Station cooks components in sequence
+4. Plating with proper presentation
+5. Plate checked by expo (quality check)
+6. Service to table
 
-### Basic Workflow
+### Communication
+- "In the window" = 2 minutes to plating
+- "Fire" = start cooking
+- "Pick up" = plate is ready
+- All day = entire ticket at once
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Rush Management
+- Prioritize tickets by order received
+- Communicate delays to expediter
+- Simplify if overwhelmed
+- Keep expo informed of timing
 
-### Complex Workflow
+## 8.3 Post-Service Workflow
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Closing Tasks
+1. Complete all tickets
+2. Break down stations
+3. Sanitize all surfaces
+4. Label and date leftovers
+5. Rotate stock (FIFO)
+6. Deep clean equipment
+7. Complete prep list for next day
+8. Check walk-in temperatures

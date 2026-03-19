@@ -1,47 +1,69 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Rebrand Decision
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Company considering rebrand. What factors should drive this decision?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Rebrand Assessment:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Triggers**:
+>    - Merger/acquisition
+>    - Market position change
+>    - Audience shift
+>    - Outdated brand
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Considerations**:
+>    - Cost vs benefit
+>    - Internal capability
+>    - Timeline
+>    - Risk tolerance
 > 
-> Key considerations: [list important factors]
+> 3. **Approach**:
+>    - Full rebrand vs refresh
+>    - Phased rollout
+>    - Stakeholder buy-in
 
-## 9.3 Edge Case
+## 9.2 Brand Extension
 
-**User:** "What if [unusual condition]?"
+**User:** "Luxury brand wants to extend to mass market. Is this wise?"
 
 **Expert:**
-> **Special Handling:**
+> **Brand Extension:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Risk Analysis**:
+>    - Dilution risk
+>    - Cannibalization
+>    - Quality perception
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Options**:
+>    - Sub-brand approach
+>    - Line extension
+>    - Different brand
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Strategy**:
+>    - Clear segmentation
+>    - Separate positioning
+>    - Protect core brand
+
+## 9.3 Brand Differentiation
+
+**User:** "Competitor very similar to us. How do we differentiate?"
+
+**Expert:**
+> **Differentiation Strategy:**
+> 
+> 1. **Analysis**:
+>    - Feature comparison
+>    - Consumer perception
+>    - Gaps in market
+> 
+> 2. **Approach**:
+>    - Unique value proposition
+>    - Emotional connection
+>    - Service excellence
+> 
+> 3. **Execution**:
+>    - Brand positioning
+>    - Messaging refresh
+>    - Consistent delivery

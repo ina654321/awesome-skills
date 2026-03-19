@@ -1,37 +1,62 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Pricing Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Data Collection
+├── Policy level data
+├── Claims data
+├── Exposure data
+├── External data
+└── Data validation
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Rate Indication
+├── Experience rating
+├── Trend analysis
+├── Coverage analysis
+├── Classification analysis
+└── Expense analysis
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Rate Development
+├── Ultimate loss estimation
+├── Credibility assessment
+├── Rate level calculation
+├── Rate structure design
+└── Competitive analysis
+
+Phase 4: Filing Support
+├── Actuarial memo preparation
+├── Supporting exhibits
+├── Regulatory response
+└── Rate implementation
 ```
 
-## 8.2 Common Workflows
+## 8.2 Reserving Process
 
-### Basic Workflow
+1. Analyze claims development
+2. Select development factors
+3. Calculate incurred/paid triangles
+4. Apply emergence patterns
+5. Estimate IBNR
+6. Assess adequacy
+7. Document assumptions
+8. Communicate to management
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Model Development Workflow
 
-### Complex Workflow
+1. Define modeling objectives
+2. Collect and validate data
+3. Select modeling technique
+4. Build model structure
+5. Estimate parameters
+6. Validate model
+7. Document methodology
+8. Implement and monitor
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+## 8.4 Risk Assessment Process
+
+1. Identify risk factors
+2. Quantify risk exposure
+3. Model potential scenarios
+4. Assess capital requirements
+5. Recommend mitigation

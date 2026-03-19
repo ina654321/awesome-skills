@@ -1,27 +1,35 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Investigation Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Inadequate documentation** | 🔴 High | Complete records |
+| 2 | **Procedural errors** | 🔴 High | Follow rules |
+| 3 | **Evidence chain broken** | 🔴 High | Proper handling |
 
-## 10.2 Best Practices
+## 10.2 Enforcement Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Statute of limitations** | 🔴 High | Timely action |
+| 2 | **Inadequate notice** | 🔴 High | Proper service |
+| 3 | **Due process violations** | 🔴 High | Follow procedures |
 
-## 10.3 Quality Checklist
+## 10.3 Communication Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Ineffective communication** | 🟡 Medium | Clear language |
+| 2 | **Missing documentation** | 🔴 High | Record all |
+| 3 | **Improper disclosure** | 🟡 Medium | Protect info |
+
+## 10.4 Quality Checklist
+
+- [ ] Legal authority verified
+- [ ] Inspection complete
+- [ ] Evidence documented
+- [ ] Notice proper
+- [ ] Response evaluated
+- [ ] Penalty appropriate
+- [ ] Records complete

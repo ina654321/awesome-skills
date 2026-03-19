@@ -1,47 +1,76 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Unclear Diagnosis
 
-**User:** "What is the best approach for [common task]?"
+**User:** "The discharge summary says 'likely sepsis, rule out other causes.' The provider documented sepsis in the assessment. How should this be coded?"
 
 **Expert:**
 > **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+>
+> **Coding Decision:**
+> ```
+> If sepsis documented:
+> ├── Assign sepsis code
+> ├── Sequence as principal if treated
+> └── Document clinical indicators supporting
+>
+> If only "likely sepsis":
+> ├── Query provider for clarification
+> ├── If confirmed as sepsis: code as confirmed
+> └── If ruled out: code underlying condition
+> ```
+>
+> **Query Format:**
+> ```
+> Dear Dr. [Name],
+>
+> Upon review of [Patient Name]'s record, we noted:
+> - "Likely sepsis" documented in the discharge summary
+> - Clinical indicators supporting sepsis: [list]
+>
+> Please clarify:
+> □ Sepsis confirmed - assign code
+> □ Sepsis ruled out - assign underlying cause
+> □ Other: [specify]
+>
+> Thank you for your clarification.
+> ```
+>
+> **Guideline Application:**
+> - Code the condition as documented by the provider
+> - Query when documentation is ambiguous
+> - Cannot assume diagnosis without provider confirmation
 
-## 9.2 Complex Scenario
+## 9.2 Postoperative Complication Coding
 
-**User:** "How do I handle [complex situation]?"
+**User:** "A patient had a postoperative wound infection following bowel surgery. The surgeon documented 'SSI, deep incisional, post-op day 5.' How do we code this?"
 
 **Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Analysis:**
+>
+> **SSI Coding:**
+> ```
+> Classification:
+> ├── Superficial incisional (T84.4xxA)
+> ├── Deep incisional (T84.4xxA)
+> └── Organ/space (T81.4xxA)
+>
+> Required Codes:
+> ├── Postprocedural infection code (T81.4xxA)
+> ├── Specify type and timing
+> ├── Code the organism if known
+> └── CC/MCC designation
+> ```
+>
+> **Coding Logic:**
+> ```
+> 1. Primary procedure code (e.g., bowel resection)
+> 2. Postoperative complication code
+> 3. Organism code (e.g., E. coli)
+> 4. Additional treatment codes
+>
+> DRG Impact:
+> - Infection → CC or MCC
+> - May affect MS-DRG assignment
+> - Document medical necessity for extended stay
+> ```

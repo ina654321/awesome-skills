@@ -1,27 +1,38 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Compliance Failures
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **FTC price disclosure violation** | 🔴 High | Provide itemized price list |
+| 2 | **Unauthorized disposition** | 🔴 High | Get proper authorization |
+| 3 | **Wrong death certificate** | 🟡 Medium | Verify all information |
+| 4 | **Infectious handling error** | 🔴 High | Follow OSHA guidelines |
+| 5 | **Contract disputes** | 🟡 Medium | Clear preneed documentation |
 
-## 10.2 Best Practices
+## 10.2 Professional Violations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Ethical Issues:**
+- Misrepresenting services
+- Unclaimed remains mishandling
+- Unauthorized professional practice
+- Price deception
 
-## 10.3 Quality Checklist
+## 10.3 Documentation Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Legal Issues:**
+- Missing authorizations
+- Incomplete death certificates
+- No cremation authorization
+- Unsecured personal property
+
+## 10.4 Quality Checklist
+
+- [ ] Price list provided (FTC)
+- [ ] Proper authorizations obtained
+- [ ] Death certificate complete
+- [ ] Health department notified
+- [ ] Cemetery/crematory coordinated
+- [ ] Family counseled
+- [ ] Records maintained
+- [ ] License current

@@ -1,47 +1,53 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Suspicious Person Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+An individual is loitering in the parking garage, looking into vehicles.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Observe from distance, do not confront directly
+2. Note description (clothing, height, distinguishing features)
+3. Note actions and location
+4. Report to supervisor and dispatch
+5. If approached, maintain professional distance
+6. Do not physically detain unless imminent threat
 
-## 9.2 Complex Scenario
+### Documentation
+- Time and location of observations
+- Description and behavior
+- Actions taken
+- Police notification (if applicable)
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 After-Hours Access Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+An employee requests access to the building at 2 AM for urgent work.
 
-## 9.3 Edge Case
+### Steps
+1. Verify employee identity against HR list
+2. Confirm approval from supervisor (call if needed)
+3. Log entry purpose and expected duration
+4. Issue after-hours access badge
+5. Monitor during presence if possible
+6. Log departure time
 
-**User:** "What if [unusual condition]?"
+### Escalation
+If supervisor cannot be reached, contact security manager or on-call manager.
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Alarm Activation Scenario
+
+### Situation
+Burglar alarm triggers in the server room at 3 AM.
+
+### Steps
+1. Note zone and location
+2. Approach cautiously from safe distance
+3. Observe for signs of intrusion
+4. Do not enter alone if evidence of break-in
+5. Dispatch police if signs of forced entry
+6. Wait for police to clear area
+7. Document all findings
+
+### Key Point
+Never put yourself in danger. Wait for police for unknown indoor threats.

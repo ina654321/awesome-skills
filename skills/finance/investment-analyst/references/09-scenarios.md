@@ -1,47 +1,72 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Short Seller Research
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "We're short a stock that just announced a major contract. How do we reassess?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Reassessment Framework:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Contract Analysis**:
+>    - Verify contract terms and conditions
+>    - Assess revenue recognition timeline
+>    - Evaluate customer creditworthiness
+>    - Compare to consensus expectations
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Model Adjustment**:
+>    - Update revenue projections
+>    - Adjust probability of success
+>    - Recalculate fair value
 > 
-> Key considerations: [list important factors]
+> 3. **Decision**:
+>    - Maintain/close short position
+>    - Adjust stop-loss levels
+>    - Consider hedging strategies
 
-## 9.3 Edge Case
+## 9.2 Fraud Red Flag Discovery
 
-**User:** "What if [unusual condition]?"
+**User:** "During due diligence, we found revenue recognition irregularities. What's next?"
 
 **Expert:**
-> **Special Handling:**
+> **Fraud Investigation:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Documentation**:
+>    - Document all red flags found
+>    - Preserve all related work papers
+>    - Avoid alerting company contacts
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Analysis**:
+>    - Compare to peer metrics
+>    - Review segment reporting
+>    - Analyze working capital trends
+>    - Check for round-tripping
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Action**:
+>    - Escalate to senior coverage
+>    - Consider rating change
+>    - Document findings in research
+>    - Report per compliance requirements
+
+## 9.3 Downgrade Decision
+
+**User:** "Company's new product launch failed. Should we downgrade?"
+
+**Expert:**
+> **Fundamental Review:**
+> 
+> 1. **Impact Assessment**:
+>    - Revenue impact estimate
+>    - Market share implications
+>    - Competitive response
+>    - Management credibility
+> 
+> 2. **Model Revision**:
+>    - Reduce growth assumptions
+>    - Increase risk premium
+>    - Extend timeline to recovery
+>    - Recalculate price target
+> 
+> 3. **Recommendation**:
+>    - Maintain/change rating
+>    - Adjust price target
+>    - Update risk factors

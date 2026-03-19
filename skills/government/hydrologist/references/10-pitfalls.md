@@ -1,27 +1,39 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Technical Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Inadequate data validation** | 🔴 High | QA/QC protocols |
+| 2 | **Model without calibration** | 🔴 High | Verify against observations |
+| 3 | **Ignoring uncertainty** | 🟡 Medium | Report confidence intervals |
+| 4 | **Outdated data usage** | 🟡 Medium | Current data requirements |
+| 5 | **Copy-paste errors** | 🟡 Medium | Peer review |
 
-## 10.2 Best Practices
+## 10.2 Regulatory Violations
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Compliance Issues:**
+- Operating without permit
+- Exceeding discharge limits
+- Unapproved monitoring locations
+- Incomplete reporting
+- Data falsification
 
-## 10.3 Quality Checklist
+## 10.3 Communication Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Stakeholder Issues:**
+- Technical jargon without explanation
+- Failing to translate science to policy
+- Missing deadlines for emergency notification
+- Incomplete public communications
+
+## 10.4 Quality Checklist
+
+- [ ] Data validation completed
+- [ ] QA/QC protocols followed
+- [ ] Model calibration verified
+- [ ] Regulatory requirements met
+- [ ] Peer review conducted
+- [ ] Reports properly documented
+- [ ] Metadata complete
+- [ ] Data archived properly

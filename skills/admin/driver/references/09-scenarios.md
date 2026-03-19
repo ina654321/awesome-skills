@@ -1,47 +1,47 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Traffic Delay Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Major accident causes 3-hour delay on route. Will exceed delivery window.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Notify dispatch immediately
+2. Document delay (photos, news)
+3. Update customer on new ETA
+4. Check hours of service status
+5. Find safe place to wait if needed
 
-## 9.2 Complex Scenario
+### Key Point
+Communication prevents cascade of issues.
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Vehicle Problem Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Check engine light comes on, vehicle losing power.
 
-## 9.3 Edge Case
+### Steps
+1. Pull over safely as soon as possible
+2. Do not continue driving (risk damage)
+3. Call dispatch with location
+4. Document issue with photos
+5. Wait for assistance or tow
 
-**User:** "What if [unusual condition]?"
+### Safety First
+Never ignore warning signs or continue driving with mechanical issues.
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Delivery Issue Scenario
+
+### Situation
+Customer refuses delivery, claims damage.
+
+### Steps
+1. Do not argue or accept fault
+2. Document customer's concerns in writing
+3. Take photos of packaging and damage
+4. Contact dispatch
+5. Do not leave until resolved
+6. File incident report
+
+### Key Point
+Document everything, never admit liability.

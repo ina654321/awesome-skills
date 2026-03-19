@@ -1,33 +1,30 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Earthquake Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Regulations
+- [NEHRP](https://www.nehrp.gov/): National Earthquake Hazards Reduction Program
+- [ASCE 7](https://www.asce.org/structural-engineering/asce-7-standards): Seismic design standards
+- [ seismic Safety Act](https://www.conservation.ca.gov/cgs): State seismic safety
 
-## 7.2 Configuration Reference
+### USGS Standards
+| Standard | Application |
+|-----------|-------------|
+| **National Seismic Hazard Maps** | Building code |
+| **CEUS Catalog** | Earthquake database |
+| **Did You Feel It?** | Community intensity |
 
-### Basic Configuration
+## 7.2 Building Codes
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Seismic Provisions
+- [IBC](https://www.iccsafe.org/): International Building Code
+- [ASCE 7-22](https://www.asce.org/structural-engineering/asce-7-standards): Minimum design loads
+- [Seismic Design Categories](https://www.fema.gov/earthquake): SDC determination
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Risk Categories
+| Category | Seismic Importance |
+|----------|-------------------|
+| **I** | Minimal risk |
+| **II** | Standard risk |
+| **III** | High risk |
+| **IV** | Essential facilities |

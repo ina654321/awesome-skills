@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [State Pawnshop Regulations](https://www.ncsl.org) - State licensing
+- [Federal Trade Commission](https://www.ftc.gov) - Consumer protection
+- [FinCEN PAwnshop Rules](https://www.fincen.gov) - AML requirements
+- [National Pawnbrokers Association](https://www.nationalpawnbrokers.com) - Industry standards
 
-## 7.2 Configuration Reference
+## 7.2 Regulatory Framework
 
-### Basic Configuration
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **State Licensing** | State regulator | Operating license |
+| **Interest Rate Caps** | State law | Rate limitations |
+| **Hold Periods** | State law | Redemption period |
+| **Recordkeeping** | State/Fed | Transaction records |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Transaction Requirements
 
-## 7.3 Common Commands
+| Item | Documentation | Holding Period |
+|------|---------------|----------------|
+| **Personal property** | ID + signature | 30-90 days |
+| **Firearms** | Background check | Varies by state |
+| **Electronics** | ID verification | Standard |
+| **Jewelry** | ID + description | Standard |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [NPA Consumer Resources](https://www.nationalpawnbrokers.com)
+- [State Gaming Commission](https://www.nigc.gov)
+- [Better Business Bureau](https://www.bbb.org)
+- [State Attorney General](https://www.naag.org)

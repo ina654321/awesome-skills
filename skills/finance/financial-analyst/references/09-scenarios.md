@@ -1,47 +1,66 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Merger Analysis
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Company is acquiring a competitor. How do we analyze the deal?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **M&A Analysis:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Strategic Assessment**:
+>    - Synergy potential
+>    - Market share impact
+>    - Integration challenges
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Financial Analysis**:
+>    - Accretion/dilution analysis
+>    - DCF valuation
+>    - Comparable transactions
 > 
-> Key considerations: [list important factors]
+> 3. **Recommendation**:
+>    - Fair value estimate
+>    - Risk factors
+>    - Investment decision
 
-## 9.3 Edge Case
+## 9.2 Credit Analysis
 
-**User:** "What if [unusual condition]?"
+**User:** "Bank is considering a loan to this company. What's our recommendation?"
 
 **Expert:**
-> **Special Handling:**
+> **Credit Assessment:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Financial Analysis**:
+>    - Cash flow coverage
+>    - Leverage ratios
+>    - Working capital
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Qualitative Factors**:
+>    - Management quality
+>    - Industry outlook
+>    - Competitive position
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Recommendation**:
+>    - Approve/decline
+>    - Terms and conditions
+>    - Monitoring requirements
+
+## 9.3 Distressed Company
+
+**User:** "Company is showing signs of financial distress. What's the analysis?"
+
+**Expert:**
+> **Distressed Analysis:**
+> 
+> 1. **Assessment**:
+>    - Covenant breach analysis
+>    - Liquidity evaluation
+>    - Operational issues
+> 
+> 2. **Options**:
+>    - Restructuring potential
+>    - Sale possibilities
+>    - Bankruptcy scenarios
+> 
+> 3. **Recommendation**:
+>    - Exit/recovery analysis
+>    - Timeline estimation

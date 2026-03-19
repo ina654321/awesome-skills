@@ -1,27 +1,37 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Cash Handling Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
+| # | Pitfall | Severity | Quick Fix |
 |---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| 1 | **Short drawer** | 🔴 High | Count accurately |
+| 2 | **Counterfeit passed** | 🔴 High | Verify bills |
+| 3 | **Change errors** | 🔴 High | Double count |
+| 4 | **Unsecured cash** | 🔴 High | Keep drawer secure |
 
-## 10.2 Best Practices
+## 10.2 Security Pitfalls
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Card fraud accepted** | 🔴 High | Verify ID |
+| 2 | **Return fraud** | 🔴 High | Check policy |
+| 3 | **Theft** | 🔴 High | Keep drawer secure |
 
-## 10.3 Quality Checklist
+## 10.3 Customer Service Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+| # | Pitfall | Severity | Quick Fix |
+|---|----------------------|-----------------|---------------------|
+| 1 | **Rude to customers** | 🟡 Medium | Professionalism |
+| 2 | **Pricing errors** | 🟡 Medium | Scan carefully |
+| 3 | **Receipt issues** | 🟡 Medium | Always provide |
+
+## 10.4 Quality Checklist
+
+- [ ] Drawer count accurate
+- [ ] Bills verified
+- [ ] Change correct
+- [ ] Receipts provided
+- [ ] Policy followed
+- [ ] Security maintained
+- [ ] Customer satisfied
+- [ ] Reports completed

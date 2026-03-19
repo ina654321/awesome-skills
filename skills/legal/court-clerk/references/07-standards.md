@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [Federal Rules of Civil Procedure](https://www.uscourts.gov) - Federal procedure
+- [State Court Rules](https://www.ncsconline.org) - State procedures
+- [Court Records Standards](https://www.uscourts.gov) - Record keeping
+- [E-Filing Standards](https://www.uscourts.gov) - Electronic filing
 
-## 7.2 Configuration Reference
+## 7.2 Court Procedures
 
-### Basic Configuration
+| Rule | Application | Reference |
+|------|-------------|-----------|
+| **FRCP** | Federal civil | US Courts |
+| **FRCrimP** | Federal criminal | US Courts |
+| **Evidence** | Federal rules | US Courts |
+| **Local Rules** | District-specific | Each court |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Area | Authority | Application |
+|------|-----------|-------------|
+| **Records Retention** | State/Federal | Archive rules |
+| **E-Filing** | Courts | Electronic |
+| **Confidentiality** | Court rules | Sealed docs |
+| **Public Access** | Court rules | Access |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [US Courts](https://www.uscourts.gov)
+- [National Center for State Courts](https://www.ncsc.org)
+- [Court Technology](https://www.ncsc.org)
+- [National Judicial College](https://www.judges.org)

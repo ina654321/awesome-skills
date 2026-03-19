@@ -1,27 +1,66 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Causation Assessment Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Impact | Prevention |
+|---------|--------|------------|
+| Premature causation opinion | Wrong claim decision | Gather all facts |
+| Ignoring pre-existing conditions | Inaccurate apportionment | Document pre-existing |
+| Inadequate mechanism review | Wrong determination | Detailed history |
+| Not obtaining records | Incomplete picture | Request records |
 
-## 10.2 Best Practices
+## 10.2 Documentation Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Error | Consequence | Prevention |
+|-------|-------------|------------|
+| Vague work restrictions | Employer confusion | Specific restrictions |
+| Missing essential elements | Claims dispute | Checklist use |
+| Illegible forms | Not enforceable | Electronic or legible |
+| Not dated/timed | Timeline issues | Complete all fields |
 
-## 10.3 Quality Checklist
+## 10.3 MRO Process Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+```
+Common Mistakes:
+├── Premature reporting
+├── Inadequate explanation review
+├── Chain of custody errors
+├── Not following up on positives
+└── Confidentiality breaches
+
+Prevention:
+├── Verify all procedures
+├── Document review process
+├── Follow DOT regulations
+└── Maintain confidentiality
+```
+
+## 10.4 Fitness for Duty Mistakes
+
+| Mistake | Risk | Solution |
+|---------|------|----------|
+| Over-restricting | Unnecessary job loss | Objective assessment |
+| Under-restricting | Re-injury | Match to job demands |
+| Ignoring medications | Safety issue | Assess medication effects |
+| Not considering accommodation | Discrimination | ADA compliance |
+
+## 10.5 Communication Failures
+
+| Failure | Impact | Prevention |
+|---------|--------|------------|
+| Not communicating with employer | Delayed RTW | Proactive updates |
+| Communication with wrong party | Privacy breach | Verify authorization |
+| Unclear restrictions | Implementation issues | Specific language |
+
+## 10.6 Quality Checklist
+
+- [ ] Complete history obtained
+- [ ] Physical examination thorough
+- [ ] Work-relatedness addressed
+- [ ] Restrictions specific and clear
+- [ ] Treatment plan documented
+- [ ] Communication documented
+- [ ] Forms completed correctly
+- [ ] Follow-up scheduled
+- [ ] Workers comp paperwork filed
+- [ ] AMA guidelines followed

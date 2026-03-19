@@ -1,37 +1,49 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Petition Intake Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Receipt
+├── Log petition in tracking system
+├── Verify required fields complete
+├── Date stamp all documents
+├── Assign unique case number
+└── Route to appropriate office
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Initial Review
+├── Jurisdiction determination
+├── Timeliness check (statute of limitations)
+├── Standing verification
+├── Completeness review
+└── Duplicate detection
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Assignment
+├── Assign to appropriate reviewer
+├── Set response deadline
+├── Notify petitioner of receipt
+├── Request additional info if needed
+└── Preliminary legal review
+
+Phase 4: Substantive Review
+├── Research applicable law/regulation
+├── Analyze facts and arguments
+├── Consult with subject matter experts
+├── Draft preliminary response
+└── Review and approval
 ```
 
-## 8.2 Common Workflows
+## 8.2 Response Preparation
 
-### Basic Workflow
+1. **Research** (1-3 days): Applicable regulations, precedent cases
+2. **Drafting** (2-5 days): Response with findings and decision
+3. **Review** (1-2 days): Supervisor review for accuracy
+4. **Finalization** (1 day): Legal review if needed
+5. **Issuance** (1 day): Send to petitioner, update tracking
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Appeal Process
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+| Level | Timeline | Review |
+|-------|----------|--------|
+| **Initial** | 30-90 days | Program office |
+| **Administrative** | 30-60 days | Agency review |
+| **Judicial** | Variable | Court review |

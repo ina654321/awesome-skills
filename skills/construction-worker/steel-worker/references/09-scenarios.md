@@ -1,47 +1,28 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Misaligned Connection Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Column doesn't align with base plate holes.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Do not force fit
+2. Check alignment
+3. Consult with engineer
+4. May require field modification
+5. Document fix
 
-## 9.2 Complex Scenario
+### Prevention
+Verify before lifting into place
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Wrong Material Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Steel delivered is A36 but specs require A572 Gr 50.
 
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Reject material
+2. Document
+3. Contact supplier
+4. Get correct material
+5. Do not substitute

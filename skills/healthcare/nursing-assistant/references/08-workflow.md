@@ -1,37 +1,83 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Daily Care Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Morning Care:
+├── Answer call lights promptly
+├── Assist with morning care
+├── Help with toileting
+├── Change Briefs/attends PRN
+├── Help with positioning
+├── Set up breakfast
+└── Document intake
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Midday Care:
+├── Lunch assistance
+├── Toileting rounds
+├── Position changes q2h
+├── Activity encouragement
+└── Document output
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Evening Care:
+├── Dinner assistance
+├── Evening hygiene
+├── Back care and position
+├── Prepare for sleep
+└── Document status
 ```
 
-## 8.2 Common Workflows
+## 8.2 Vital Signs Workflow
 
-### Basic Workflow
+```
+Measurement Steps:
+1. Verify patient identity
+2. Wash hands
+3. Gather equipment
+4. Explain procedure
+5. Measure accurately
+6. Document immediately
+7. Report abnormal findings
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Frequency:
+├── Routine: Per care plan
+├── PRN: As ordered
+├── Post-procedure: Per orders
+└── Change in condition: Notify nurse
+```
 
-### Complex Workflow
+## 8.3 Safety Rounds
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Hourly Rounds:
+├── Patient positioning
+├── Pain assessment
+├── Personal needs
+├── Environment safety
+└── Call light within reach
+
+Fall Prevention:
+├── Bed in lowest position
+├── Locks on bed/wheelchair
+├── Non-slip footwear
+├── Clear pathways
+└── Adequate lighting
+```
+
+## 8.4 Transfer/Discharge Workflow
+
+```
+Pre-Transfer:
+├── Gather personal items
+├── Verify destination
+├── Document belongings
+├── Assist with dressing
+└── Communicate with receiving unit
+
+Discharge:
+├── Help pack belongings
+├── Transport to discharge area
+├── Give belongings to family
+├── Document discharge completion
+└── Clean room for next patient
+```

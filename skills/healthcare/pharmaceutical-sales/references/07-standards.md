@@ -1,33 +1,60 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Pharmaceutical Sales Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [PhRMA Code](https://www.phrma.org/codes) - Marketing code of conduct
+- [FDCA Regulations](https://www.fda.gov) - Food, Drug, and Cosmetic Act
+- [Sunshine Act](https://www.cms.gov/OpenPayments) - Transparency requirements
+- [FDA Fair Balance](https://www.fda.gov) - Promotional requirements
+- [State Gift Laws](https://www.cms.gov) - State-specific regulations
 
-## 7.2 Configuration Reference
+## 7.2 Approved Messaging
 
-### Basic Configuration
+```
+Product Label Requirements:
+├── Approved indications only
+├── Contraindications stated
+├── Warnings and precautions
+├── Adverse reactions
+├── Dosage and administration
+└── Boxed warning if applicable
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+What Cannot Be Done:
+├── Promoting off-label use
+├── Misrepresenting efficacy
+├── Minimizing risks
+├── Making unsubstantiated claims
+└── Using false or misleading comparisons
 ```
 
-## 7.3 Common Commands
+## 7.3 Call Documentation
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Required Documentation:
+├── Healthcare provider identification
+├── Call date and duration
+├── Discussion topics
+├── Samples dispensed
+├── Materials left
+├── Any commitments made
+└── Next call planned
+```
 
-## 7.4 Version Compatibility
+## 7.4 Sample Handling
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+```
+Sample Accountability:
+├── Secure storage
+├── Temperature monitoring
+├── Perpetual inventory
+├── Lot number tracking
+├── Expiration date monitoring
+└── DEA requirements (controlled)
+
+Distribution Requirements:
+├── Only to licensed practitioners
+├── Document receipt
+├── Patient name not required
+├── Reasonable quantities
+└── No sale or barter
+```

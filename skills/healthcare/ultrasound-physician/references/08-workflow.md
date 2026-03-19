@@ -1,37 +1,55 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Obstetric Ultrasound Protocol
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+First Trimester (6-14 weeks):
+```
+Indications:
+├── Dating pregnancy
+├── Bleeding/pain evaluation
+├── Screening for aneuploidy
+└── Viability assessment
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
-
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Technique:
+├── Transabdominal approach
+├── Transvaginal if needed
+├── Measure CRL for dating
+├── Document fetal heart rate
+├── Assess for multiples
+└── Screen for gross anomalies
 ```
 
-## 8.2 Common Workflows
+Second Trimester (18-22 weeks):
+```
+Complete Anatomic Survey:
+├── Systematic approach
+├── Document all structures
+├── Standard measurements
+├── Image quality assessment
+├── Correlate with maternal anatomy
+└── Biometric measurements
 
-### Basic Workflow
+Special Assessments:
+├── Cervical length (TV)
+├── Placental location
+├── Umbilical cord vessels
+├── Amniotic fluid volume
+└── Biophysical profile if indicated
+```
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Third Trimester:
+```
+Growth Assessment:
+├── BPD, HC, AC, FL
+├── Estimated fetal weight
+├── Growth velocity
+├── Amniotic fluid
+└── Placental maturation
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+Doppler Studies:
+├── Umbilical artery
+├── MCA peak systolic velocity
+├── Uterine arteries
+└── Ductus venosus
+```

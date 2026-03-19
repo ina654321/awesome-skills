@@ -1,27 +1,53 @@
-# Common Pitfalls & Anti-Patterns
+# Common Pitfalls
 
-## 10.1 Anti-Patterns
+## 10.1 Installation Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### Improper Slope
+**Risk**: Slow drainage, clogs
+**Solution**: 1/4" per foot minimum
 
-## 10.2 Best Practices
+### Wrong Pipe for Application
+**Risk**: Failure, leaks, code violation
+**Solution**: Use correct material for use
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### Inadequate Support
+**Risk**: Sagging, stress on joints
+**Solution**: Support per code (4' max spacing)
 
-## 10.3 Quality Checklist
+## 10.2 Testing Pitfalls
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+### Skipping Pressure Test
+**Risk**: Leaks discovered after cover
+**Solution**: Test before closing walls
+
+### Not Checking Trap Seal
+**Risk**: Sewer gas entry, fails inspection
+**Solution**: Verify trap holds water
+
+### Ignoring Vent Issues
+**Risk**: Slow drains, gurgling
+**Solution**: Ensure proper vent connection
+
+## 10.3 Safety Pitfalls
+
+### Solvent Fumes
+**Risk**: Respiratory issues, fire
+**Solution**: Ventilate, no open flames
+
+### Improper Lifting
+**Risk**: Back injuries
+**Solution**: Use helpers, mechanical aids
+
+### Working in Confined Space
+**Risk**: Asphyxiation, falls
+**Solution**: Follow permit-required space rules
+
+## 10.4 Material Pitfalls
+
+### Using Wrong Joint Compound
+**Risk**: Leaks, chemical reaction
+**Solution**: Match compound to pipe type
+
+### Not Cleaning Before Solder
+**Risk**: Weak joint
+**Solution**: Clean with sandcloth/fit

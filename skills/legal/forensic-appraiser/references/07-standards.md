@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [USPAP Standards](https://www.appraisalfoundation.org) - Appraisal standards
+- [ASA Standards](https://www.appraisersoc.org) - Society standards
+- [IRS Ruling 59-60](https://www.irs.gov) - Business valuation
+- [Court Rules](https://www.uscourts.gov) - Expert testimony
 
-## 7.2 Configuration Reference
+## 7.2 Valuation Standards
 
-### Basic Configuration
+| Method | Application | Standard |
+|--------|-------------|----------|
+| **Income** | Present value | DCF |
+| **Market** | Comparables | Sales |
+| **Asset** | Asset-based | NAV |
+| **Hybrid** | Multiple | Combined |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **USPAP** | ASB | Appraisal ethics |
+| **State Licensing** | State | Appraiser license |
+| **Court Rules** | Federal/State | Expert rules |
+| **IRC 170** | IRS | Charitable assets |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [Appraisal Foundation](https://www.appraisalfoundation.org)
+- [ASA](https://www.appraisersoc.org)
+- [Business Valuation Resources](https://www.bvresources.com)
+- [NACVA](https://www.nacva.com)

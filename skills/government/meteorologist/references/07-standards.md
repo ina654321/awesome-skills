@@ -1,33 +1,30 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Weather Service Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Federal Weather
+- [NWS Directives](https://www.weather.gov/directives/): National Weather Service
+- [NOAA Directives](https://www.noaa.gov/organization/administrative/directives): NOAA policy
+- [NWS Product Specifications](https://www.nws.noaa.gov/): Forecast products
 
-## 7.2 Configuration Reference
+### Forecast Standards
+| Product | Standard |
+|---------|----------|
+| **Watches** | 12-48 hours ahead |
+| **Warnings** | Real-time to 6 hours |
+| **Forecasts** | 7-day outlook |
+| **Advisories** | When criteria met |
 
-### Basic Configuration
+## 7.2 Observation Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### NWS Observing
+- [ASOS](https://www.weather.gov/asos/): Automated surface observation
+- [Radiosondes](https://www.weather.gov/upperair/): Upper air observations
+- [Radar](https://www.ncdc.noaa.gov/radar/): NEXRAD network
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Verification Standards
+| Metric | Standard |
+|--------|----------|
+| **PoP** | Percentage correct |
+| **Temperature** | Within 3°F |
+| **Wind** | Within 10 mph |

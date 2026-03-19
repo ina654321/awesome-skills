@@ -1,37 +1,67 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Credit Rating Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Initial Screening
+├── Determine rating eligibility
+├── Identify relevant rating criteria
+├── Collect preliminary information
+└── Establish rating team
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Quantitative Analysis
+├── Financial statement analysis
+├── Ratio analysis (liquidity, leverage, coverage)
+├── Cash flow analysis
+├── Industry comparative analysis
+└── Stress testing scenarios
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Qualitative Analysis
+├── Business model assessment
+├── Management evaluation
+├── Competitive position analysis
+├── Market environment review
+└── Regulatory factors
+
+Phase 4: Rating Committee
+├── Draft rating proposal
+├── Internal peer review
+├── Rating committee presentation
+├── Final rating determination
+└── Rating rationale documentation
+
+Phase 5: Publication
+├── Rating publication
+├── Press release
+├── Rating report distribution
+└── Surveillance schedule
 ```
 
-## 8.2 Common Workflows
+## 8.2 Sovereign Rating Workflow
 
-### Basic Workflow
+1. Macroeconomic data collection
+2. Fiscal policy assessment
+3. Monetary policy analysis
+4. External sector evaluation
+5. Political risk assessment
+6. Institutional strength review
+7. Comparable sovereign analysis
+8. Rating committee preparation
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Corporate Rating Workflow
 
-### Complex Workflow
+1. Management meeting preparation
+2. Financial projections review
+3. Industry outlook assessment
+4. Competitive positioning analysis
+5. Debt structure review
+6. Debt service capability analysis
+7. Covenant compliance review
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+## 8.4 Surveillance Process
+
+- Quarterly financial monitoring
+- Annual review cycle
+- Event-driven reviews
+- Rating watch monitoring
+- Portfolio review updates

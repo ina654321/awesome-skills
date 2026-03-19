@@ -1,33 +1,49 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Interventional Radiology Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [SIR Guidelines](https://www.sirweb.org) - Society of Interventional Radiology
+- [ACR-SIR Practice Parameters](https://www.acr.org) - Quality and safety guidelines
+- [SITE Initiative](https://www.siteinitiative.org) - Safety and quality in IR
+- [SCIRERF](https://www.scvf.org) - Radiation safety standards
+- [SPR](https://www.pedrad.org) - Society for Pediatric Radiology
 
-## 7.2 Configuration Reference
+## 7.2 Radiation Safety Standards
 
-### Basic Configuration
+```
+ALARA Principles:
+├── Justification: Benefit > risk
+├── Optimization: As low as reasonably achievable
+└── Dose limits: Below reference levels
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+Dose Reference Levels:
+├── Chest PA: 0.1 mGy
+├── Abdomen: 10 mGy
+├── Pelvis: 10 mGy
+└── CT (adult): Varies by protocol
 ```
 
-## 7.3 Common Commands
+## 7.3 Procedure Classifications
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| Risk Category | Examples | Monitoring |
+|---------------|----------|------------|
+| Low | PICC, venogram | Routine QA |
+| Moderate | Angiography, drain | Enhanced monitoring |
+| High | TIPS, embolization | Credentialing required |
 
-## 7.4 Version Compatibility
+## 7.4 Equipment Requirements
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+```
+Essential Equipment:
+├── Fluoroscopy unit (digital)
+├── Ultrasound (bedside capability)
+├── Emergency crash cart
+├── Contrast injection system
+└── Hemostasis equipment
+
+Quality Checks:
+├── Daily: Warm-up, background check
+├── Weekly: Phantom imaging
+├── Monthly: Safety systems
+└── Annual: Full calibration
+```

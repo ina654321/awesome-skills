@@ -2,32 +2,35 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [WHO Baby-Friendly Hospital Initiative](https://www.who.int/health-topics/breastfeeding) - Global breastfeeding standards and Ten Steps
+- [La Leche League International](https://llli.org/) - Mother-to-mother breastfeeding support and education
+- [ACNM Midwifery Standards](https://www.midwife.org/) - American College of Nurse-Midwives practice standards
+- [NICE Postnatal Care Guidelines](https://www.nice.org.uk/guidance/ng194) - UK National Institute for Health and Care Excellence maternal care standards
 
-## 7.2 Configuration Reference
+## 7.2 Clinical Skills Standards
 
-### Basic Configuration
+| Skill | Standard | Competency Marker |
+|-------|----------|:----------------:|
+| Breastfeeding assessment | LATCH score ≥ 7/10 at each feed | Certified lactation consultant observation |
+| Newborn vital signs | HR 100-160, RR 30-60, Temp 36.5-37.5°C | Documented in chart |
+| Postpartum assessment | BUBBLEHE every 8 hours | RN assessment with documentation |
+| Rooming-in support | Mother-infant dyad together 23+ hours/day | Staffing plan supports this |
+| Skin-to-skin | Minimum 1 hour uninterrupted immediately postpartum | Protocol documented |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Maternal Health Reference Values
 
-## 7.3 Common Commands
+| Parameter | Normal Range | Action Threshold |
+|-----------|:------------:|:----------------:|
+| Blood loss (vaginal) | <500 mL | >500 mL requires intervention |
+| Blood loss (C-section) | <1000 mL | >1000 mL requires intervention |
+| Fundal height | Decreases 1cm/day postpartum | No change = retained products |
+| Lochia progression | Rubra → Serosa → Alba | Offensive odor = infection |
+| Blood pressure | Return to pre-pregnancy by 6 weeks | Sustained HTN = investigate |
+| Hemoglobin | Should normalize by 6 weeks postpartum | Persistent anemia = supplement |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Training Certification Standards
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- Certified Lactation Counselor (CLC): 52-hour training, competency exam
+- International Board Certified Lactation Consultant (IBCLC): Health science + lactation education + clinical practice hours
+- BLS for Healthcare Providers: Renewal every 2 years
+- Fetal heart monitoring: NRP or equivalent certification required for delivery attendance

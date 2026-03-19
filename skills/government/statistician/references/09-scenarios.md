@@ -1,47 +1,87 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Significant Data Discrepancy
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Our survey shows 15% unemployment but administrative data shows 8%. Stakeholder questioning results. How to reconcile?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Reconciliation Process:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Definition Differences**:
+>    - Survey: BLS definition (actively seeking work)
+>    - Admin: INSURANCE data (receiving benefits)
+>    - Time reference differences
+>    - Population coverage
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Methodology Review**:
+>    - Sample design representativeness
+>    - Response rates
+>    - Weighting methodology
+>    - Estimation procedures
 > 
-> Key considerations: [list important factors]
+> 3. **Validation**:
+>    - Compare with adjacent periods
+>    - Check against other surveys (CPS)
+>    - Geographic breakdown analysis
+>    - Demographic cross-tabs
+> 
+> 4. **Communication**:
+>    - Explain definitional differences clearly
+>    - Provide context for stakeholders
+>    - Document methodological choices
 
-## 9.3 Edge Case
+## 9.2 Small Area Estimation
 
-**User:** "What if [unusual condition]?"
+**User:** "Policy team needs county-level estimates but our sample only supports state-level. What's the approach?"
 
 **Expert:**
-> **Special Handling:**
+> **Small Area Estimation:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Direct Estimates**:
+>    - Calculate domain-specific estimates
+>    - Assess reliability (CV, sample size)
+>    - Identify unstable domains
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Model-Based Methods**:
+>    - Fay-Herriot models (area-level)
+>    - Mixed models (unit-level)
+>    - Use auxiliary data (census, administrative)
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Validation**:
+>    - Cross-validation
+>    - Compare to known totals
+>    - Assess RMSE and bias
+> 
+> 4. **Output**:
+> - Provide estimates with confidence intervals
+>    - Flag unreliable estimates
+>    - Document methodology
+
+## 9.3 Disclosure Review
+
+**User:** "External researcher requesting microdata with detailed geographic identifiers. How to handle?"
+
+**Expert:**
+> **Disclosure Protocol:**
+> 
+> 1. **Legal Framework**:
+>    - Title 26 confidentiality
+>    - Census Act provisions
+>    - Data sharing agreements
+> 
+> 2. **Disclosure Methods**:
+>    - Data swapping
+>    - Perturbation
+>    - Aggregation
+>    - Suppression of key variables
+> 
+> 3. **Approval Process**:
+>    - Disclosure review board
+>    - Risk assessment
+>    - Licensed research facility
+>    - Secure remote access
+> 
+> 4. **Output Options**:
+>    - Public use file (restricted)
+>    - Synthetic data
+>    - Tabulations only

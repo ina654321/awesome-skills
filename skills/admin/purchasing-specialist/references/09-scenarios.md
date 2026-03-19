@@ -1,47 +1,52 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Emergency Purchase Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Production line is down due to failed equipment. Supplier can ship replacement in 2 days, but standard lead time is 2 weeks. Cost is 40% higher than normal.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Verify emergency with production manager
+2. Document justification (line down = lost revenue)
+3. Get verbal approval from VP (follow up with email)
+4. Process PO with emergency flag
+5. Expedite delivery, confirm shipping tracking
+6. Document cost premium for audit trail
 
-## 9.2 Complex Scenario
+### Key Point
+Emergency purchases require post-approval documentation within 24 hours.
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Supplier Quality Issue Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Received shipment does not meet specifications. Vendor claims product is within acceptable range and refuses to accept return.
 
-## 9.3 Edge Case
+### Steps
+1. Document defect with photos and measurements
+2. Check PO terms for inspection requirements
+3. Notify vendor in writing within 48 hours
+4. Quarantine defective material (prevent use)
+5. Request RMA or credit
+6. Escalate to supplier quality if unresolved
 
-**User:** "What if [unusual condition]?"
+### Resolution Path
+QA → Supplier Contact → Account Manager → VP of Procurement → Legal
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Price Increase Request Scenario
+
+### Situation
+Long-term supplier requests 15% price increase due to raw material costs. Contract pricing is locked for 6 more months.
+
+### Steps
+1. Review contract terms for price adjustment clauses
+2. Request detailed cost breakdown from supplier
+3. Research market pricing for alternatives
+4. Evaluate cost impact and budget implications
+5. Negotiate (aim for <10% or extended contract)
+6. Escalate if impact exceeds budget authority
+
+### Options
+- Accept increase (if unavoidable)
+- Renegotiate contract terms
+- Transition to alternate supplier
+- Issue RFP for competitive pricing

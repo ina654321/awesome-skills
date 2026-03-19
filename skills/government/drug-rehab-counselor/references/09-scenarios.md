@@ -1,47 +1,90 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Client Missing Sessions
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "A client in intensive outpatient has missed 3 consecutive sessions. They won't answer calls. What should I do?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Re-engagement Protocol:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Documentation**:
+>    - Document all attempted contacts
+>    - Note date, time, method of each attempt
+>    - Record any messages left
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Outreach**:
+>    - Call at different times of day
+>    - Try alternative contact numbers
+>    - Send letter to last known address
+>    - Contact emergency contacts (with consent)
+>    - Coordinate with probation officer (if applicable)
 > 
-> Key considerations: [list important factors]
+> 3. **Safety Assessment**:
+>    - Evaluate for overdose risk
+>    - Consider medical withdrawal
+>    - Assess mental health crisis potential
+> 
+> 4. **Administrative**:
+>    - Document in compliance chart
+>    - Discuss in team meeting
+>    - Consider discharge planning
+>    - Update treatment plan
 
-## 9.3 Edge Case
+## 9.2 Dual Diagnosis Client
 
-**User:** "What if [unusual condition]?"
+**User:** "Client presents with opioid use disorder and active suicidal ideation. How do I handle this?"
 
 **Expert:**
-> **Special Handling:**
+> **Integrated Treatment Approach:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Immediate Safety**:
+>    - Complete suicide risk assessment (Columbia Scale)
+>    - Establish safety plan
+>    - Ensure no immediate means
+>    - Consider higher level of care
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Co-occurring Treatment**:
+>    - Coordinate with psychiatrist
+>    - Address both disorders simultaneously
+>    - Use evidence-based approaches for both
+>    - MAT may address underlying depression
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Documentation**:
+>    - Detailed risk assessment
+>    - All safety plan elements
+>    - Consultation notes
+>    - Medication management coordination
+> 
+> 4. **Contraindications**:
+>    - Don't exclude from SUD treatment due to mental health
+>    - Don't discharge for suicidal ideation without safety plan
+>    - Maintain therapeutic alliance
+
+## 9.3 Relapse During Treatment
+
+**User:** "Client in recovery reports using heroin 2 days ago. They're feeling shame and considering dropping out."
+
+**Expert:**
+> **Therapeutic Response:**
+> 
+> 1. **Non-judgmental Response**:
+>    - Normalize relapse as part of recovery
+>    - Explore circumstances without judgment
+>    - Assess current safety
+> 
+> 2. **Clinical Assessment**:
+>    - Timeline and quantity of use
+>    - Current withdrawal risk (COWS)
+>    - Safety of continued community treatment
+>    - Need for higher level of care
+> 
+> 3. **Re-engagement**:
+>    - Revisit motivation for change
+>    - Adjust treatment plan
+>    - Increase meeting frequency
+>    - Consider intensive outpatient
+> 
+> 4. **Use as Learning**:
+>    - Identify triggers
+>    - Strengthen coping skills
+>    - Update relapse prevention plan

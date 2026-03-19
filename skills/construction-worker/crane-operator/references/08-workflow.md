@@ -1,37 +1,25 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Pre-Lift Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Planning
+1. Review lift plan
+2. Check load weight
+3. Verify capacity
+4. Select rigging
+5. Assess site conditions
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Inspection
+1. Inspect crane
+2. Check rigging
+3. Test safety devices
+4. Verify communication
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+## 8.2 Lift Execution
 
-## 8.2 Common Workflows
-
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### During Lift
+1. Communicate with signal person
+2. Lift slowly (no sudden moves)
+3. Keep load controlled
+4. Monitor for hazards
+5. Communicate constantly

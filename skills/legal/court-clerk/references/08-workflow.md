@@ -1,37 +1,52 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Case Processing
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Filing
+├── Receive complaint
+├── Verify filing fee
+├── Assign case number
+├── Index and docketing
+└_-> Distribute to judge
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Service
+├── Issue summons
+├── Verify service
+├── Monitor response
+├── Track deadlines
+└_-> Update docket
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Discovery
+├── Receive discovery
+├── File with court
+├── Monitor disputes
+├── Manage deadlines
+└_-> Resolution
+
+Phase 4: Disposition
+├── Receive motions
+├── Prepare orders
+├── Schedule hearings
+├── Document outcomes
+└_-> Close case
 ```
 
-## 8.2 Common Workflows
+## 8.2 Calendar Management
 
-### Basic Workflow
+1. Receive hearing request
+2. Check judge availability
+3. Coordinate parties
+4. Issue notice
+5. Update docket
+6. Conduct hearing
+7. Document outcome
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Records Management
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Receive documents
+2. Verify format
+3. Scan if needed
+4. Index properly
+5. Store securely
+6. Retrieve on request

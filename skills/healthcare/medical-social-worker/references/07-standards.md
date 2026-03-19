@@ -1,33 +1,43 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Medical Social Work Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [NASW Standards](https://www.socialworkers.org) - National Association of Social Workers
+- [CSWE Competencies](https://www.cswe.org) - Council on Social Work Education
+- [Joint Commission](https://www.jointcommission.org) - Hospital accreditation standards
+- [CMS Conditions of Participation](https://www.cms.gov) - Social work services
+- [HIPAA](https://www.hhs.gov/hipaa/index.html) - Privacy regulations
 
-## 7.2 Configuration Reference
+## 7.2 Assessment Standards
 
-### Basic Configuration
-
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+```
+Bio-Psycho-Social Assessment:
+├── Biological: Health status, ADLs, pain
+├── Psychological: Cognition, mood, coping
+├── Social: Family, support, finances
+├── Cultural: Values, beliefs, practices
+├── Spiritual: Religious practices, meaning
+└── Environmental: Housing, safety, resources
 ```
 
-## 7.3 Common Commands
+## 7.3 Documentation Standards
 
-| Command | Description |
+| Element | Requirement |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| Initial assessment | Within 24-48 hours |
+| Problem list | Identified psychosocial needs |
+| Treatment plan | Goals and interventions |
+| Progress notes | Monthly minimum, by contact |
+| Discharge plan | Documented and communicated |
 
-## 7.4 Version Compatibility
+## 7.4 Ethical Standards
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+```
+NASW Code of Ethics:
+├── Self-determination
+├── Confidentiality
+├── Dual relationships
+├── Competence
+├── Integrity
+└── Social justice
+```

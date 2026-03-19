@@ -1,37 +1,83 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Workers Compensation Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Initial Visit
+├── Document mechanism of injury
+├── Perform physical examination
+├── Establish diagnosis
+├── Initiate treatment plan
+├── Complete work status form
+└── Schedule follow-up
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Treatment Phase
+├── Monitor progress
+├── Adjust restrictions as indicated
+├── Authorize additional treatment
+├── Communicate with employer
+└── Document functional status
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Resolution
+├── Final impairment rating
+├── Maximum medical improvement
+├── Return-to-work recommendations
+├── Permanent restrictions if applicable
+└── Close claim documentation
 ```
 
-## 8.2 Common Workflows
+## 8.2 DOT Physical Workflow
 
-### Basic Workflow
+```
+Required Components:
+├── Vision (20/40 each eye)
+├── Hearing (40dB, 35dB corrected)
+├── Blood pressure management
+├── Insulin-dependent diabetes review
+├── Seizure disorder assessment
+├── Physical examination
+└── Drug testing (if required)
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Certification Periods:
+├── 2 years: All requirements met
+├── 1 year: Managed hypertension
+├── 3 months: Elevated BP
+└── 3 months: New onset diabetes
+```
 
-### Complex Workflow
+## 8.3 Return to Work Process
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Assessment:
+├── Compare work demands to capabilities
+├── Identify functional limitations
+├── Assess workplace accommodations
+├── Determine restrictions
+└── Evaluate need for transitional duty
+
+Documentation:
+├── Specific restrictions
+├── Duration of restrictions
+├── Re-evaluation date
+├── Accommodations needed
+└── Progressive return plan
+```
+
+## 8.4 Medical Review Officer Workflow
+
+```
+Process:
+1. Receive specimen
+2. Verify chain of custody
+3. Review test results
+4. Assess medical explanation
+5. Report results to employer
+6. Refer for confirmatory testing if needed
+
+Decision Categories:
+├── Negative: No further action
+├── Positive with explanation: Evaluate
+├── Positive without explanation: Report
+├── Adulterated: Report
+└── Substituted: Report
+```

@@ -1,33 +1,77 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Professional Nursing Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [ANA Scope and Standards](https://www.nursingworld.org) - American Nurses Association
+- [QSEN Competencies](https://qsen.org) - Quality and Safety Education
+- [AORN Guidelines](https://www.aorn.org) - Perioperative standards
+- [ONS Standards](https://www.ons.org) - Oncology nursing
+- [AACN Standards](https://www.aacn.org) - Critical care nursing
 
-## 7.2 Configuration Reference
+## 7.2 Scope of Practice
 
-### Basic Configuration
+```
+RN Responsibilities:
+├── Assessment and prioritization
+├── Care planning and delegation
+├── Medication administration
+├── Patient education
+├── Care coordination
+└── Evaluation of outcomes
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+LPN/VN Responsibilities:
+├── Basic care under supervision
+├── Medication administration (scope)
+├── Wound care
+├── Documentation
+└── Vital signs
 ```
 
-## 7.3 Common Commands
+## 7.3 Nursing Process
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Assessment:
+├── Collect data systematically
+├── Objective vs subjective
+├── Physical assessment
+├── Review systems
+└── Document findings
 
-## 7.4 Version Compatibility
+Diagnosis:
+├── Analyze data
+├── Identify problems
+├── NANDA nursing diagnoses
+└── Prioritize
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+Planning:
+├── Set goals with patient
+├── Identify interventions
+├── Document plan of care
+└── Communicate to team
+
+Implementation:
+├── Execute interventions
+├── Delegate appropriately
+├── Document interventions
+└── Provide education
+
+Evaluation:
+├── Assess outcomes
+├── Compare to goals
+├── Modify plan as needed
+└── Reassess
+```
+
+## 7.4 Critical Values
+
+```
+Notify Provider Immediately:
+├── Temp >104°F or <95°F
+├── HR >140 or <40
+├── RR >30 or <8
+├── BP >180/110 or <90/60
+├── SpO2 <90%
+├── Blood glucose <50 or >400
+├── Acute change in LOC
+└── Chest pain, uncontrolled pain
+```

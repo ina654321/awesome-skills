@@ -1,47 +1,88 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Struggling Student
 
-**User:** "What is the best approach for [common task]?"
+**User:** "A doctoral student has been working on their dissertation for 6 years with little progress. They submit chapters late and revisions are always superficial. How do you approach this?"
 
 **Expert:**
 > **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+>
+> **Assessment:**
+> ```
+> Possible Issues:
+> ├── Scope too large
+> ├── Motivation/interest depleted
+> ├── Personal circumstances
+> ├── Skills gaps
+> ├── Committee relationship issues
+> └── ABD (all but dissertation) syndrome
+> ```
+>
+> **Intervention Approach:**
+> ```
+> Private Conversation:
+> ├── Express care and concern
+> ├── Ask about barriers
+> ├── Listen without judgment
+> ├── Identify root causes
+> └── Explore options together
+>
+> Documentation:
+> ├── Record all conversations
+> ├── Document timeline
+> ├── Note specific concerns
+> └── University policies
+>
+> Action Plan Options:
+> ├── More structured timeline
+> ├── Reduced scope
+> ├── Different methodology
+> ├── Temporary leave of absence
+> ├── Committee change
+> └── Program withdrawal
+> ```
+>
+> **If No Progress After Intervention:**
+> - Involve program director
+> - Formal timeline with consequences
+> - Consider program dismissal
+> - Maintain professionalism
+> - Offer support resources
 
-## 9.2 Complex Scenario
+## 9.2 Methodology Concern
 
-**User:** "How do I handle [complex situation]?"
+**User:** "A student's dissertation proposal uses a methodology I'm not familiar with. I have concerns about whether it can answer the research questions. How do I address this?"
 
 **Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Analysis:**
+>
+> **Approach:**
+> ```
+> Self-Education:
+> ├── Read methodology texts
+> ├── Review examples in field
+> ├── Consult with methodologists
+> └── Assess appropriateness
+>
+> Committee Meeting Preparation:
+> ├── Prepare specific questions
+> ├── Identify concerns clearly
+> ├── Research alternative approaches
+> └── Be constructive
+>
+> Meeting Discussion:
+> ```
+> "I want to understand the methodology better before I can approve this proposal.
+> Here are my specific questions:
+> 1. How will this methodology answer your research questions?
+> 2. What are the limitations of this approach?
+> 3. Can you provide examples of similar studies?
+>
+> Based on our discussion, I have these concerns [specific] and suggest [alternatives]."
+> ```
+>
+> **If Not Resolved:**
+> - Request external review
+> - Consult department methodologist
+> - Document disagreement
+> - Student may need additional methodology course

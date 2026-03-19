@@ -1,37 +1,87 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Surgical Pathology Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Gross Examination
+├── Verify specimen identity
+├── Document size and description
+├── Identify and describe lesions
+├── Select representative sections
+├── Process appropriately
+└── Document in gross description
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Processing
+├── Fixation (10% NBF)
+├── Embedding (paraffin)
+├── Sectioning (4-6 microns)
+├── Staining (H&E)
+└── Cover slipping
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Microscopic Examination
+├── Low power survey
+├── Systematic examination
+├── Identify pathology
+├── Assess margins if applicable
+├── Document findings
+└── Render diagnosis
 ```
 
-## 8.2 Common Workflows
+## 8.2 Cytopathology Workflow
 
-### Basic Workflow
+```
+Pap Smear (Bethesda):
+├── Adequacy assessment
+├── Epithelial cell abnormalities
+├── Non-neoplastic findings
+├── Other abnormalities
+└── Educational notes
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+Fine Needle Aspiration:
+├── Clinical history
+├── Specimen adequacy
+├── Cytomorphology
+├── Diagnosis
+└── Molecular studies if needed
+```
 
-### Complex Workflow
+## 8.3 Frozen Section Workflow
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+```
+Pre-Operation:
+├── Verify patient/specimen
+├── Clinical question
+├── Expected findings
+└── Communicate with surgeon
+
+During Frozen:
+├── Gross examination
+├── Rapid freeze
+├── Section and stain
+├── Microscopic examination
+└── Render preliminary diagnosis
+
+Post-Frozen:
+├── Complete permanent sections
+├── Compare with frozen
+├── Resolve any discrepancies
+└── Final diagnosis
+```
+
+## 8.4 Molecular Pathology
+
+```
+Test Types:
+├── PCR (DNA/RNA)
+├── FISH
+├── Next-generation sequencing
+├── IHC for predictive markers
+└── Flow cytometry
+
+Indications:
+├── Cancer diagnosis
+├── Prognostic markers
+├── Predictive markers (HER2, PD-L1)
+├── Targeted therapy selection
+└── Monitoring
+```

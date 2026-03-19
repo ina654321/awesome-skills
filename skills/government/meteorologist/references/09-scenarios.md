@@ -1,47 +1,71 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Model Disagreement
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "GFS shows severe weather but ECMWF is dry. How do you decide what to forecast?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Ensemble Approach:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Analyze Causes**:
+>    - Understand model differences
+>    - Check initialization data
+>    - Look at ensemble spread
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Decision Framework**:
+>    - Use probability forecasts
+>    - Present uncertainty clearly
+>    - Highlight "most likely" scenario
+>    - Note "low confidence"
 > 
-> Key considerations: [list important factors]
+> 3. **Communication**:
+>    - "Chance of thunderstorms"
+>    - Explain uncertainty in briefing
+>    - Update as event nears
+>    - Trust nowcast tools
 
-## 9.3 Edge Case
+## 9.2 Flash Flood Warning
 
-**User:** "What if [unusual condition]?"
+**User:** "Training thunderstorms producing 3+ inches/hour. Radar shows potential. How to issue?"
 
 **Expert:**
-> **Special Handling:**
+> **Flash Flood Warning:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Detection**:
+>    - Radar-derived rainfall
+>    - Stream gauges spiking
+>    - Reports from spotters
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Warning Decision**:
+>    - Verify threat exceeds criteria
+>    - Identify specific locations
+>    - Estimate onset time
+>    - Determine duration
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Communication**:
+>    - Use "Flash Flood Emergency" if life-threatening
+>    - Specify locations
+>    - Action statements
+>    - Coordinate with emergency management
+
+## 9.3 Forecast Bust
+
+**User:** "Forecast predicted rain but it's sunny. Public upset. What went wrong?"
+
+**Expert:**
+> **Post-Event Analysis:**
+> 
+> 1. **Technical Review**:
+>    - What did models show?
+>    - Where did analysis fail?
+>    - What was missing?
+> 
+> 2. **Communication Review**:
+>    - Was uncertainty conveyed?
+>    - Were messages clear?
+>    - Could we have updated sooner?
+> 
+> 3. **Improvement**:
+>    - Document lessons learned
+>    - Update forecast process
+>    - Better communicate uncertainty

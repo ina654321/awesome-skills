@@ -1,47 +1,25 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Stuck Pipe
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+String becomes stuck in hole.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Stop operations
+2. Attempt to free (jar, pump)
+3. Calculate stuck point
+4. Plan recovery
+5. Document incident
 
-## 9.2 Complex Scenario
+## 9.2 Kick
 
-**User:** "How do I handle [complex situation]?"
+### Situation
+Influx detected in well.
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+### Steps
+1. Recognize indicators
+2. Close BOP
+3. Circulate out kick
+4. Weight up mud
+5. Investigate cause

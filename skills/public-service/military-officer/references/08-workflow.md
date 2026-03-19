@@ -1,37 +1,59 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Command Leadership Workflow
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Mission Planning
+├── Receive and analyze mission
+├── Conduct mission analysis (METT-TC)
+│   ├── Mission
+│   ├── Enemy
+│   ├── Terrain and weather
+│   ├── Troops and support available
+│   ├── Time available
+│   └── Civil considerations
+├── Develop courses of action
+├── Subordinate unit tasking
+└── Coordinate supporting plans
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Operations Execution
+├── Brief subordinates
+├── Establish command posts
+├── Conduct rehearsals
+├── Execute the plan
+├── Maintain situational awareness
+└── Document decisions (military decision journal)
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: After-Action Review
+├── Conduct AAR with all participants
+├── Document lessons learned
+├── Submit required reports
+├── Address personnel issues
+└── Update SOPs based on experience
 ```
 
-## 8.2 Common Workflows
+## 8.2 Disciplinary Process
 
-### Basic Workflow
+1. **Identify misconduct**: Observe or receive report
+2. **Article 15 vs. Court-Martial**: Assess severity and evidence
+3. **Notify suspect**: Procedural rights advisement
+4. **Conduct investigation**: Gather facts
+5. **Make disposition**: NJP, court-martial, or referral
+6. **Document outcome**: Complete all required forms
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Personnel Management
 
-### Complex Workflow
+```
+New Accession Processing:
+├── Welcome briefing
+├── Administrative in-processing
+├── Equipment issue
+├── Training schedule assignment
+└── Initial counseling session
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+Evaluation Cycle:
+├── Quarterly performance feedback
+├── Mid-term counseling (rater)
+├── Annual evaluation (rater, senior rater)
+└── Promotion board preparation
+```

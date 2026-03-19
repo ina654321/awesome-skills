@@ -1,33 +1,53 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Professional Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Communication Standards
+| Element | Standard |
+|---------|----------|
+| Phone | Answer within 3 rings, use company script |
+| Email | Respond within 24 hours |
+| In-Person | Greet within 10 seconds |
+| Voicemail | Return calls within 4 hours |
 
-## 7.2 Configuration Reference
+### Information Security
+| Classification | Handling |
+|----------------|----------|
+| Public | No restrictions |
+| Internal | Do not share externally |
+| Confidential | Access limited to need-to-know |
+| Restricted | Named persons only |
 
-### Basic Configuration
+## 7.2 Phone System
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Call Handling Standards
+| Type | Procedure |
+|------|------------|
+| Direct calls | Answer with name and company |
+| Transfers | Announce caller, give context |
+| Hold | Ask permission, check back in 1 min |
+| Voicemail | State name, reason, callback number |
 
-## 7.3 Common Commands
+### Standard Phrases
+- "Thank you for calling [Company]"
+- "May I ask who is calling?"
+- "Please hold while I connect you"
+- "I'll make sure they get your message"
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Visitor Management
 
-## 7.4 Version Compatibility
+### Check-In Process
+1. Verify identity and purpose
+2. Check appointment/visitor log
+3. Issue visitor badge
+4. Notify host
+5. Escort or direct to location
+6. Log exit time on departure
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Restricted Access
+| Badge Color | Access Level |
+|-------------|--------------|
+| Red | Escort only |
+| Yellow | Limited areas |
+| Green | Full access |
+| Contractor | Designated areas |

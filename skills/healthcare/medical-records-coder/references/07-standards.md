@@ -1,33 +1,52 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Coding Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [ICD-10-CM Official Guidelines](https://www.cdc.gov/nchs/icd/icd10cm.htm) - Diagnosis coding rules
+- [CPT Assistant](https://www.ama-assn.org/amaone/cpt-assistant-current-procedural-terminology) - CPT guidance
+- [ICD-10-PCS](https://www.cms.gov/medicare/coding-billing/medicare-global-codes-dme/coding-icd-10-procedure-codes) - Procedure coding
+- [HCPCS Level II](https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system) - Supplies and services
+- [NCCI Edits](https://www.cms.gov/medicare/coding-billing/national-correct-coding-initiative-ncci) - Bundling rules
 
-## 7.2 Configuration Reference
+## 7.2 E/M Coding Levels
 
-### Basic Configuration
+| History | Exam | MDM | Code Level |
+|---------|------|-----|------------|
+| Problem focused | Problem focused | Straightforward | 99211-99213 |
+| Expanded problem | Expanded problem | Low complexity | 99214 |
+| Detailed | Detailed | Moderate complexity | 99215 |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+## 7.3 Documentation Requirements
+
+```
+Chief Complaint:
+├── Document reason for encounter
+├── Patient's words in quotation marks
+└── Timing of symptoms
+
+History of Present Illness:
+├── Location, quality, severity
+├── Duration, timing, context
+├── Modifying factors
+├── Associated symptoms
+└── Occurrence (ROS)
+
+Review of Systems:
+├── Constitutional
+├── All other organ systems
+└── Related and unrelated symptoms
 ```
 
-## 7.3 Common Commands
+## 7.4 MS-DRG Assignment
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Principal Diagnosis:
+├── Established after study
+├── Principal condition treated
+└── Most resource-intensive
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+Secondary Diagnoses:
+├── Comorbidities (affect complexity)
+├── Complications
+└── Major complications ( MCC)
+```

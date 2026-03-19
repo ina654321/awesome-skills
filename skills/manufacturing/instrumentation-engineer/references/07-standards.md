@@ -1,33 +1,32 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 ISA Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Instrumentation Standards
+| Standard | Application |
+|----------|-------------|
+| ISA 50.00.01 | Terminology |
+| ISA 51.00.01 | Graphics |
+| ISA 5.00.01 | Loop diagrams |
 
-## 7.2 Configuration Reference
+### Process Measurement
+| Variable | Typical Range |
+|----------|---------------|
+| Temperature | -200 to 1500°F |
+| Pressure | 0-5000 psig |
+| Flow | 0-10000 gpm |
+| Level | 0-100% |
 
-### Basic Configuration
+## 7.2 Calibration Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Accuracy Requirements
+| Loop Type | Accuracy |
+|-----------|----------|
+| Critical | 0.5% |
+| Standard | 1% |
+| Non-critical | 2% |
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Documentation
+- Calibration records
+- Loop checks
+- Loop tuning

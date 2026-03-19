@@ -1,33 +1,30 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Legal Ethics Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Model Rules of Professional Conduct
+- [ABA Model Rules](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/): MRPC
+- [Rule 1.1](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1 Competence/): Competence
+- [Rule 1.3](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_3 Diligence/): Diligence
+- [Rule 1.4](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_4 Communication/): Communication
 
-## 7.2 Configuration Reference
+### Confidentiality
+| Rule | Application |
+|------|-------------|
+| **Rule 1.6** | Confidentiality |
+| **Rule 1.9** | Former client conflicts |
+| **Rule 1.7** | Current client conflicts |
 
-### Basic Configuration
+## 7.2 Legal Research Standards
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Federal Sources
+- [US Code](https://uscode.house.gov/): US statutory law
+- [CFR](https://www.ecfr.gov/): Federal regulations
+- [Supreme Court](https://www.supremecourt.gov/): SCOTUS opinions
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Secondary Sources
+| Source | Use |
+|--------|-----|
+| **ALR** | Annotations |
+| **Am Jur** | Treatises |
+| **Law Reviews** | Analysis |

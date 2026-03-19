@@ -1,47 +1,44 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Angry Caller Scenario
 
-**User:** "What is the best approach for [common task]?"
+### Situation
+Caller is upset about a bill and demanding to speak to a manager immediately.
 
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+### Steps
+1. Listen without interrupting
+2. Acknowledge their frustration
+3. Apologize for the inconvenience
+4. Gather details about the issue
+5. Attempt to resolve or transfer to manager
+6. If transferring, brief manager on issue
 
-## 9.2 Complex Scenario
+### Key Point
+Stay calm and professional, do not take it personally.
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Unauthorized Visitor Scenario
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+### Situation
+Someone shows up claiming to have a meeting with an employee, but you have no record of the appointment.
 
-## 9.3 Edge Case
+### Steps
+1. Do not let them wander
+2. Contact the employee to verify
+3. If unverified, ask to reschedule
+4. If insistent, contact security
+5. Do not give access without verification
 
-**User:** "What if [unusual condition]?"
+### Safety First
+It's better to be cautious than allow unauthorized access.
 
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+## 9.3 Sensitive Information Scenario
+
+### Situation
+Someone calls asking about an employee - is they in? What is their schedule?
+
+### Steps
+1. Do not provide employee schedules
+2. Do not confirm employee presence without approval
+3. Take caller information and forward to employee
+4. Let employee decide if they want to connect
+5. Refer media inquiries to communications

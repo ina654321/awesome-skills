@@ -2,32 +2,40 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [IDEA 2004 IEP Requirements](https://sites.ed.gov/idea/) - Individuals with Disabilities Education Act Individualized Education Program standards
+- [CEC Council for Exceptional Children](https://www.cec.sped.org/) - Professional standards for special educators
+- [IRIS Center Modules](https://iris.peabody.vanderbilt.edu/) - Free professional development for special education
+- [CAST UDL Guidelines](https://udlguidelines.cast.org/) - Universal Design for Learning framework for inclusive instruction
 
-## 7.2 Configuration Reference
+## 7.2 Disability Categories and Eligibility
 
-### Basic Configuration
+| Category | Typical Eligibility Criteria | Documentation Required |
+|----------|------------------------------|------------------------|
+| Specific Learning Disability | 1.5-2.0 SD discrepancy or RtI poor response | Cognitive testing, achievement testing, adaptive behavior |
+| Autism Spectrum Disorder | Social communication deficits + restricted behaviors | Medical diagnosis + classroom observation |
+| Intellectual Disability | IQ < 70-75 + adaptive deficits | Cognitive assessment, adaptive behavior scale |
+| Emotional/Behavioral Disorder | Social-emotional functioning below peers | Behavioral rating scales, functional behavior assessment |
+| Speech-Language Impairment | Communication disorder affecting education | Speech-language evaluation |
+| Other Health Impairment (ADHD) | Limited alertness impacting learning | Medical documentation, behavioral data |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 IEP Components (Required by Law)
 
-## 7.3 Common Commands
+1. Present levels of academic achievement and functional performance (PLOP)
+2. Annual goals (measurable, specific)
+3. Special education and related services
+4. Supplementary aids and services
+5. Program modifications and supports for school personnel
+6. Accommodations and modifications in assessment
+7. Least restrictive environment (LRE) statement
+8. Transition services (beginning at age 16)
+9. Date and duration of services
+10. Measurement of progress and reporting to parents
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Assessment Accommodations Standards
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- Testing accommodations must be listed in IEP to be provided
+- Accommodations do NOT change the construct being assessed
+- Universal tools: available to all students (e.g., noise buffers)
+- Designated supports: for identified students (e.g., extended time)
+- Accommodations: for students with disabilities (e.g., reader, scribe)
+- Modifications: change the standard being assessed (requires significant disability determination)

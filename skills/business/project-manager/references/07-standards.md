@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [PMBOK Guide](https://www.pmi.org) - Project management body of knowledge
+- [PRINCE2 Methodology](https://www.axelos.com) - UK government standard
+- [Agile Practice Guide](https://www.pmi.org) - Agile framework
+- [ISO 21500](https://www.iso.org) - International standards
 
-## 7.2 Configuration Reference
+## 7.2 Project Methodologies
 
-### Basic Configuration
+| Methodology | Application | Framework |
+|-------------|-------------|-----------|
+| **Waterfall** | Traditional projects | Sequential |
+| **Agile/Scrum** | Iterative projects | Sprints |
+| **Kanban** | Continuous delivery | Flow-based |
+| **Hybrid** | Complex projects | Mixed |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Certification Standards
 
-## 7.3 Common Commands
+| Certification | Body | Focus |
+|---------------|------|-------|
+| **PMP** | PMI | General PM |
+| **PRINCE2** | AXELOS | Process-based |
+| **CSM** | Scrum Alliance | Agile |
+| **ACP** | PMI | Agile |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [Project Management Institute](https://www.pmi.org)
+- [PM Network](https://www.pmnetwork.com)
+- [Harvard Business Review](https://hbr.org)
+- [McKinsey Insights](https://www.mckinsey.com)

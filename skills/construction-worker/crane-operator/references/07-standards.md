@@ -1,33 +1,33 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Crane Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### OSHA Requirements
+| Standard | Application |
+|----------|-------------|
+| 1926.1417 | Operation |
+| 1926.1418 | Signal person qualifications |
+| 1926.1419 | Qualifications |
 
-## 7.2 Configuration Reference
+### ASME Standards
+| B30.5 | Mobile and locomotive cranes |
+| B30.3 | Overhead/ gantry cranes |
+| B30.9 | Slings |
 
-### Basic Configuration
+## 7.2 Operator Requirements
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Certification
+| Type | Requirement |
+|------|-------------|
+| Operator | Licensed/certified for capacity |
+| Signal Person | Qualified per OSHA |
+| Rigger | Qualified to select/inspect |
 
-## 7.3 Common Commands
-
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Daily Inspection (Crane)
+- Operating mechanisms
+- Control systems
+- Safety devices
+- Hydraulic system
+- Wire rope
+- Hooks
+- Outriggers

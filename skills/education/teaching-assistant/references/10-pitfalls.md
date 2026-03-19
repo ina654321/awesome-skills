@@ -2,26 +2,33 @@
 
 ## 10.1 Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Anti-Pattern | Severity | Quick Fix |
+|---|---------------|:---:|-----------|
+| 1 | **Speaking for the teacher** | High | Support student voice — don't translate student responses for the teacher |
+| 2 | **Over-helping (scaffolding too much)** | High | Gradual release: I do → we do → you do. Always aim for independence |
+| 3 | **Managing behavior by isolating students** | High | In-class proximity, private warnings — never single out publicly |
+| 4 | **Doing the student's work for them** | High | Facilitate, don't complete. Ask guiding questions, don't give answers |
+| 5 | **Confiding in students about adult conflicts** | High | Students need to trust that adults are a stable support |
 
-## 10.2 Best Practices
+## 10.2 Professional Conduct Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+1. **Dressing inappropriately**: TAs are professional role models — follow the school's dress code strictly
+2. **Using personal devices in class**: Phone use during instruction undermines your presence
+3. **Talking negatively about colleagues or school**: Students overhear everything; maintain professional language
+4. **Administering medication or medical procedures without training**: Know your scope; delegate medical tasks to trained staff
+5. **Socializing with students outside school**: Maintain appropriate boundaries; this includes social media
 
 ## 10.3 Quality Checklist
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+- [ ] Arrive 10 minutes before students to review lesson plan with lead teacher
+- [ ] Prepared materials for small group and individual support sessions
+- [ ] Data collected on student learning during each observation/support session
+- [ ] Student work samples documented and shared with lead teacher
+- [ ] IEP/504 accommodations implemented correctly for assigned students
+- [ ] Behavior interventions applied per BIP with fidelity
+- [ ] All interactions with students documented (if working with high-needs students)
+- [ ] Communication log with lead teacher updated daily
+- [ ] Attended professional development sessions required for the role
+- [ ] Maintained student confidentiality in all communications and records
+- [ ] Referred student concerns to appropriate staff (counselor, nurse, administrator)
+- [ ] Participated in parent-teacher conferences as observer or note-taker if requested

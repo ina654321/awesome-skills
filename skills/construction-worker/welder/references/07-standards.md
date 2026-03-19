@@ -1,33 +1,32 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Welding Codes
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### AWS Standards
+| Code | Application |
+|------|-------------|
+| D1.1 | Structural welding - steel |
+| D1.3 | Sheet steel |
+| D1.4 | Reinforcing steel |
+| D1.5 | Bridge welding |
+| A2.4 | Welding symbols |
 
-## 7.2 Configuration Reference
-
-### Basic Configuration
-
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
+### ASME Codes
+| Section | Application |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| IX | Welding qualifications |
+| VIII | Pressure vessels |
 
-## 7.4 Version Compatibility
+## 7.2 Welder Qualification
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Testing Requirements
+| Test | Application |
+|------|-------------|
+| Plate (Groove) | 1G, 2G, 3G positions |
+| Pipe | 5G, 6G positions |
+| Unlimited | All positions |
+
+### Certification
+- Current AWS or ASME certification
+- Employer test (WPS required)
+- Code-specific qualification

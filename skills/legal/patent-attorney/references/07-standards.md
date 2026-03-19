@@ -2,32 +2,31 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [USPTO Manual of Examining Procedure](https://www.uspto.gov) - Patent prosecution
+- [35 USC Patent Laws](https://www.law.cornell.edu) - Patent statute
+- [37 CFR Rules](https://www.ecfr.gov) - Patent regulations
+- [MPEP](https://www.uspto.gov) - Examining procedures
 
-## 7.2 Configuration Reference
+## 7.2 Patent Laws
 
-### Basic Configuration
+| Law | Application | Reference |
+|-----|-------------|-----------|
+| **35 USC 101** | Patentable subject matter | USPTO |
+| **35 USC 102** | Novelty | USPTO |
+| **35 USC 103** | Non-obviousness | USPTO |
+| **35 USC 112** | Written description | USPTO |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Patent Types
 
-## 7.3 Common Commands
+| Type | Term | Requirements |
+|------|------|--------------|
+| **Utility** | 20 years | Novel, useful, non-obvious |
+| **Design** | 15 years | Ornamental design |
+| **Plant** | 20 years | New plant variety |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [USPTO](https://www.uspto.gov)
+- [Patent Trial and Appeal Board](https://www.uspto.gov/ptab)
+- [WIPO](https://www.wipo.int)
+- [Federal Circuit](https://www.cafc.uscourts.gov)

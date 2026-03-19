@@ -1,27 +1,70 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Administration Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Severity | Prevention |
+|---------|----------|------------|
+| Wrong vaccine | 🔴 Critical | Verify 3 times |
+| Wrong route | 🔴 High | Know proper route |
+| Wrong site | 🟡 Medium | Follow guidelines |
+| Wrong age | 🔴 High | Check schedule |
+| Expired vaccine | 🔴 High | Check expiration |
 
-## 10.2 Best Practices
+## 10.2 Screening Errors
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Error | Impact | Prevention |
+|-------|--------|------------|
+| Missed contraindication | Patient harm | Systematic screening |
+| Over-reassuring | Harm | Know true contraindications |
+| Ignoring precautions | Risk | Know precautions |
+| Missing immunosuppression | Severe | Ask about conditions |
 
-## 10.3 Quality Checklist
+## 10.3 Documentation Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+```
+Common Issues:
+├── Missing lot number
+├── Wrong vaccine documented
+├── VIS not given
+├── Not reported to IIS
+├── Patient card not updated
+└── Consent missing
+
+Prevention:
+├── Document in real-time
+├── Double-check entries
+├── Standard documentation form
+├── Electronic record use
+└── Verify accuracy before leaving
+```
+
+## 10.4 Storage/Handling Errors
+
+| Error | Impact | Prevention |
+|-------|--------|------------|
+| Temperature excursion | Wasted vaccines | Monitor continuously |
+| Expired vaccine given | Effectiveness | Check before admin |
+| Improper reconstitution | Ineffective | Follow instructions |
+| Light-sensitive vaccine exposed | Degraded | Proper handling |
+
+## 10.5 Communication Failures
+
+| Failure | Impact | Prevention |
+|---------|--------|------------|
+| Not explaining VIS | Patient right | Always provide |
+| Missing aftercare instructions | Delayed reaction | Verbal + written |
+| Not addressing concerns | Vaccine hesitancy | Education |
+| Wrong information | Harm | Know facts |
+
+## 10.6 Quality Checklist
+
+- [ ] Screening complete
+- [ ] Contraindications checked
+- [ ] VIS provided
+- [ ] Consent obtained
+- [ ] Right patient, right vaccine
+- [ ] Right route, right site
+- [ ] Proper technique
+- [ ] 15-30 minute observation
+- [ ] Documented in IIS
+- [ ] Patient card updated

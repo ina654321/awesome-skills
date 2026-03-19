@@ -1,27 +1,49 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Volunteer Management Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Treating volunteers like free labor** | 🔴 High | Value volunteers, give meaningful work |
+| 2 | **No clear roles** | 🔴 High | Write position descriptions |
+| 3 | **Inadequate supervision** | 🔴 High | Assign dedicated supervisor |
+| 4 | **Inconsistent policies** | 🟡 Medium | Written handbook, applied equally |
+| 5 | **No recognition** | 🟡 Medium | Regular, meaningful appreciation |
 
-## 10.2 Best Practices
+## 10.2 Legal & Risk Issues
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Liability Exposure:**
+- Negligent hiring/retainment (background checks)
+- Volunteer injuries on premises
+- Volunteers causing harm to clients
+- Confidentiality breaches
+- Volunteers making unauthorized commitments
 
-## 10.3 Quality Checklist
+## 10.3 Safety Failures
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Common Risks:**
+- Not providing proper safety training
+- Volunteers working without supervision
+- Unsafe equipment use
+- Not documenting volunteer hours (OSHA)
+- Missing emergency procedures
+
+## 10.4 Operational Mistakes
+
+⚠️ **Common Issues:**
+- Over-reliance on a few key volunteers (key person risk)
+- Not tracking volunteer impact (can't measure program)
+- Poor communication (unclear expectations)
+- Ignoring volunteer feedback
+- Burning out dedicated volunteers
+
+## 10.5 Quality Checklist
+
+- [ ] Volunteer handbook and policies written
+- [ ] Background checks completed for all roles
+- [ ] Position descriptions for every role
+- [ ] Orientation and training completed
+- [ ] Supervisor assigned to every volunteer
+- [ ] Regular check-ins scheduled
+- [ ] Recognition program in place
+- [ ] Volunteer impact tracked and reported

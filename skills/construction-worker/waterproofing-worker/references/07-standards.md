@@ -1,33 +1,32 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Waterproofing Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### ASTM Standards
+| Standard | Application |
+|----------|-------------|
+| C836 | Liquid-applied membrane |
+| C898 | Bentonite waterproofing |
+| D1970 | Self-adhering sheet |
 
-## 7.2 Configuration Reference
-
-### Basic Configuration
-
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
-
-## 7.3 Common Commands
-
-| Command | Description |
+### IBC Requirements
+| Section | Application |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+| 1403 | Weather protection |
+| 1404 | Materials |
 
-## 7.4 Version Compatibility
+## 7.2 System Types
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Systems
+| Type | Application |
+|------|-------------|
+| Fluid-applied | Foundation walls, roofs |
+| Sheet membrane | Below grade |
+| Bentonite | Foundation walls |
+| Cementitious | Interior waterproofing |
+
+### Coverage
+| System | Thickness | Coverage |
+|--------|-----------|----------|
+| Fluid membrane | 60-90 mils | 15-25 sq ft/gal |
+| Sheet | 60 mils | Per manufacturer |

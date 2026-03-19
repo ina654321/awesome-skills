@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [NNA Notary Standards](https://www.nationalnotary.org) - Industry standards
+- [State Notary Laws](https://www.nals.org) - State requirements
+- [Uniform Law on Notarial Acts](https://www.uniform lawcommission.org) - Model act
+- [APA Notary Guidelines](https://www.notaries.org) - Best practices
 
-## 7.2 Configuration Reference
+## 7.2 Notarial Acts
 
-### Basic Configuration
+| Act | Requirements | Documentation |
+|-----|--------------|---------------|
+| **Acknowledgment** | Signer appears, ID verified | Certificate |
+| **Jurats** | Oath/affirmation, sworn | Certificate |
+| **Copy Certification** | True copy verification | Certificate |
+| **Signature Witnessing** | ID verification | Certificate |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **State Notary Laws** | Secretary of State | Licensing |
+| **Remote Notarization** | State law | Online notarization |
+| **Identity Verification** | State law | ID requirements |
+| **Journal Requirements** | State law | Record keeping |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [National Notary Association](https://www.nationalnotary.org)
+- [American Notary Association](https://www.notaries.org)
+- [Secretary of State](https://www.nass.org)
+- [NNA Education](https://www.nationalnotary.org)

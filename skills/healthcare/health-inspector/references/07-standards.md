@@ -1,33 +1,42 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Public Health Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [FDA Food Code](https://www.fda.gov/food/retail-food-protection/fda-food-code) - Food safety standards
+- [CDC Environmental Health](https://www.cdc.gov/environmental/index.html) - Environmental health guidelines
+- [OSHA Standards](https://www.osha.gov) - Workplace safety regulations
+- [EPA Regulations](https://www.epa.gov/laws-regulations) - Environmental protection
+- [State Health Codes](https://www.cdc.gov/publichealthgateway/lawreview/index.html) - State-specific requirements
 
-## 7.2 Configuration Reference
+## 7.2 Inspection Standards
 
-### Basic Configuration
+| Facility Type | Inspection Frequency | Key Focus Areas |
+|---------------|---------------------|----------------|
+| Restaurants | 2-4 times/year | Food temps, sanitation, hygiene |
+| Hotels | Annual | Water, ventilation, pest control |
+| Swimming pools | Quarterly | Water quality, safety features |
+| Childcare | Annual | Safety, nutrition, staffing ratios |
+| Healthcare | Varies | IC, environment, safety |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+## 7.3 Violation Classification
+
+```
+Priority Violations:
+├── Corrected on site (COS) - Immediate risk
+├── Time to correct documented
+├── Re-inspection required if needed
+
+Non-Priority Violations:
+├── Documented for record
+├── Corrected during inspection
+├── Tracked for pattern analysis
 ```
 
-## 7.3 Common Commands
+## 7.4 Enforcement Actions
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| Level | Action | Trigger |
+|-------|--------|---------|
+| Warning letter | Written notice | First violation |
+| Fine | Monetary penalty | Repeated violations |
+| Closure | Facility shutdown | Imminent health hazard |
+| Permit revocation | License removal | Pattern of non-compliance |

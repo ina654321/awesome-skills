@@ -1,33 +1,67 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Doctoral Education Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [CGS Standards](https://cgsnet.org) - Council of Graduate Schools
+- [APA Dissertation Guidelines](https://www.apa.org) - Psychology programs
+- [Dissertation Committees](https://gradschool.edu) - Best practices
+- [IRB Requirements](https://oirp.arizona.edu) - Research ethics
+- [Academic Integrity](https://integrity.si.edu) - Research ethics
 
-## 7.2 Configuration Reference
+## 7.2 Dissertation Formats
 
-### Basic Configuration
+```
+Traditional Format:
+├── Chapter 1: Introduction
+├── Chapter 2: Literature Review
+├── Chapter 3: Methodology
+├── Chapter 4: Results
+├── Chapter 5: Discussion
+└── References, Appendices
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+Alternative Formats:
+├── Article-format dissertation
+├── Creative dissertation
+├── Portfolio dissertation
+├── Hybrid formats
+└── Field-specific variations
 ```
 
-## 7.3 Common Commands
+## 7.3 Committee Roles
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```
+Chair:
+├── Primary mentor
+├── Oversees entire process
+├── Sets milestones
+└── Determines readiness
 
-## 7.4 Version Compatibility
+Members:
+├── Subject matter expertise
+├── Methodology expertise
+├── Content review
+└── Alternative perspectives
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+Outside Member:
+├── Required by some programs
+├── Quality assurance
+└── External perspective
+```
+
+## 7.4 Defense Standards
+
+```
+Components:
+├── Public presentation (30-60 min)
+├── Committee questions (1-2 hours)
+├── Revision requirements
+├── Final approval
+└── Archive requirements
+
+Evaluation Criteria:
+├── Contribution to field
+├── Methodology rigor
+├── Writing quality
+├── Defense performance
+└── Originality
+```

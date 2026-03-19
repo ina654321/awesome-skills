@@ -1,27 +1,69 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Wrong Patient/Site Errors
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| Pitfall | Severity | Prevention |
+|---------|----------|------------|
+| Skipping verification | 🔴 Critical | Universal Protocol |
+| Unmarked surgical site | 🔴 Critical | Mandatory marking |
+| Distracted time-out | 🔴 Critical | Focus and stop |
+| Assumption without verification | 🔴 Critical | Two identifiers always |
 
-## 10.2 Best Practices
+## 10.2 Sterile Field Breaches
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+| Breach | Risk | Correction |
+|--------|------|------------|
+| Sterile field touched | Contamination | Re-scrub if possible |
+| Mask below nose | Infection risk | Adjust immediately |
+| Gown front touched | Contamination | Change gown |
+| Back table touched | Contamination | Re-setup |
+| Moisture penetration | Contamination | Replace item |
 
-## 10.3 Quality Checklist
+## 10.3 Count Errors
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
+```
+Common Issues:
+├── Counting while distracted
+├── Not counting with partner
+├── Not documenting immediately
+├── Skipping counts for "quick" cases
+└── Ignoring initial count error
+
+Prevention:
+├── Mandatory counting partner
+├── Verbal counting aloud
+├── Visual confirmation
+├── Document in real-time
+└── Zero tolerance for errors
+```
+
+## 10.4 Specimen Handling Errors
+
+| Error | Impact | Prevention |
+|-------|--------|------------|
+| Wrong patient | Catastrophic | Two identifiers |
+| Wrong laterality | Wrong diagnosis | Verify site |
+| Specimen contamination | Invalid result | Proper handling |
+| Incomplete labeling | Unidentifiable | Complete form |
+
+## 10.5 Communication Failures
+
+| Failure | Risk | Prevention |
+|---------|------|------------|
+| Incomplete handoff | Patient harm | Standardized handoff |
+| Assumptions made | Errors | Verify |
+| Informal communication | Misunderstanding | Documented |
+| Silence when concerned | Missed safety issue | Stop the line |
+
+## 10.6 Quality Checklist
+
+- [ ] Patient verification complete
+- [ ] Surgical site marked
+- [ ] Time-out performed
+- [ ] Counts correct
+- [ ] Specimen labeled correctly
+- [ ] Sterile technique maintained
+- [ ] Handoff complete
 - [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+- [ ] Incident reports filed if needed
+- [ ] Post-procedure verification done

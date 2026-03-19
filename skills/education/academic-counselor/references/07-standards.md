@@ -1,33 +1,40 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Professional Counseling Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- **ASCA National Model** (4 components: Foundation, Delivery System, Management System, Accountability)
+- **ASCA Professional Standards & Competencies** for school counselors
+- **CACREP Standards**: Council for Accreditation of Counseling and Related Programs
+- **NBCC Standards**: National Board for Certified Counselors ethical guidelines
+- **Tdap Framework**: Teachable moment, develop plan, assess, practice
 
-## 7.2 Configuration Reference
+## 7.2 Academic Counseling Frameworks
 
-### Basic Configuration
+- **ICAP (Individual Career Academic Plan)**: Goal-setting, career exploration, post-secondary planning
+- **College Readiness Standards** (ACT/SAT alignment, CCSS benchmarks)
+- **A-G Requirements**: University of California/CSU entrance requirements
+- **NCAA Clearinghouse Requirements**: For student-athlete college eligibility
+- **Dual enrollment and articulated credit policies**
+- **FAFSA and financial aid literacy standards**
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Social-Emotional Learning Standards
 
-## 7.3 Common Commands
+- **CASEL 5 Core Competencies**: Self-awareness, self-management, social awareness, relationship skills, responsible decision-making
+- **RULER Approach** (Yale Center for Emotional Intelligence): Recognizing, Understanding, Labeling, Expressing, Regulating
+- **PBIS** (Positive Behavioral Interventions and Supports) alignment
+- **Trauma-informed practices**: ACEs awareness, safety and stabilization
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Assessment Tools & Norms
 
-## 7.4 Version Compatibility
+- **Standardized assessments**: PSAT, SAT, ACT, ASVAB, CLT
+- **Aptitude and interest inventories**: O*NET, Strong Interest Inventory, MBTI, CliftonStrengths
+- **GPA and class rank calculations**; weighted vs. unweighted
+- **College application timelines**: Early Action, Early Decision, Regular Decision, Rolling
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+## 7.5 Resources
+
+- [ASCA - School Counselor Professional Standards](https://schoolcounselor.org)
+- [College Board - BigFuture Platform](https://bigfuture.collegeboard.org)
+- [Mapping Your Future - Career & College Planning](https://mappingyourfuture.org)
+- [JED Foundation - Mental Health Standards](https://jedfoundation.org)
+- [NCDA - Career Development Framework](https://ncda.org)

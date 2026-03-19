@@ -1,47 +1,88 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Suspected Contraband Concealment
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Traveler shows signs of nervousness, inconsistent story about trip purpose. Found unusual items in luggage. How proceed?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Secondary Inspection Protocol:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Documentation Hold**: Maintain all travel documents
+> 2. **Detailed Questioning**:
+>    - Travel purpose and itinerary
+>    - Source of funds for trip
+>    - Contents knowledge and ownership
+>    - Return destination and timeline
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 3. **Physical Search**:
+>    - Pat-down search
+>    - Full baggage examination
+>    - Secondary inspection room
+>    - Same-gender search required
 > 
-> Key considerations: [list important factors]
+> 4. **Detection Tools**:
+>    - X-ray of suspicious items
+> - Canine team request
+>    - Physical search of body cavities only with medical personnel
+> 
+> 5. **Documentation**:
+>    - Write detailed incident report
+>    - Photographs of evidence
+>    - Chain of custody forms
 
-## 9.3 Edge Case
+## 9.2 Cross-Border Currency Violation
 
-**User:** "What if [unusual condition]?"
+**User:** "Traveler declares $8,000 but we find $15,000 in various locations. How is this handled?"
 
 **Expert:**
-> **Special Handling:**
+> **Currency Seizure Process:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Initial Action**:
+>    - Segregate currency
+>    - Do not return to traveler
+>    - Notify supervisor
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Forfeiture Authority**:
+>    - 31 USC 5317: Currency seizure
+>    - 31 CFR 1010.100: Reporting requirements
+>    - 31 CFR 1010.200: Structuring prohibition
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Procedures**:
+>    - Form 6050: Currency seizure report
+>    - Notice of seizure (within 5 days)
+>    - Petition rights explained (30 days)
+>    - Referral to OFO for review
+> 
+> 4. **Documentation Required**:
+>    - Exact amount and denomination
+>    - Serial numbers (if sequential)
+>    - Location found in luggage
+>    - All witness statements
+
+## 9.3 Intellectual Property Violation
+
+**User:** "Found 50 counterfeit handbags with trademark logos. What are the procedures?"
+
+**Expert:**
+> **IPR Seizure Protocol:**
+> 
+> 1. **Verification**:
+>    - Contact trademark owner representative (24/7 hotline)
+>    - Confirm counterfeit status
+>    - Obtain authentication letter
+> 
+> 2. **Seizure Authority**:
+>    - 19 CFR 133.23: Trademark infringement
+>    - Notify trademark owner
+>    - Hold for 30 days for civil action
+> 
+> 3. **Destruction Options**:
+>    - Abandonment by owner
+>    - Forfeiture to government
+>    - Donation to charity (with permission)
+> 
+> 4. **Documentation**:
+>    - Detailed inventory
+>    - Photographs
+>    - Chain of custody
+>    - Trademark verification

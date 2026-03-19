@@ -1,47 +1,86 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Night Float Call Issue
 
-**User:** "What is the best approach for [common task]?"
+**User:** "You are on night float and receive a page that a patient is hypotensive. The on-call attending is unavailable. The patient is on your team but you haven't seen them today. What do you do?"
 
 **Expert:**
 > **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
+>
+> **Immediate Assessment:**
+> ```
+> 1. Go see the patient immediately
+> 2. Assess ABCs
+> 3. Evaluate patient directly
+> 4. Do not rely solely on nurse report
+> ```
+>
+> **Step-by-Step:**
+> ```
+> 1. Patient Assessment:
+> ├── Vital signs (BP, HR, O2 sat, temp)
+> ├── Mental status
+> ├── Volume status (skin turgor, mucous membranes)
+> ├── Medications (antihypertensives, diuretics)
+> └── Recent procedures/changes
+>
+> 2. Stabilization:
+> ├── ABCs - airway, breathing, circulation
+> ├── IV fluids if hypotensive
+> ├── Oxygen if needed
+> └── Monitoring
+>
+> 3. Communication:
+> ├── Attempt to reach attending
+> ├── If no response, escalate to senior/chief
+> ├── Document your assessment and actions
+> └── Consider rapid response if unstable
+>
+> 4. Documentation:
+> └── Document your findings, interventions, and attempts to contact attending
+> ```
+>
+> **Key Principle:**
+> - Patient safety comes first
+> - You are responsible for your patients
+> - Escalate when needed
+> - Document everything
 
-## 9.2 Complex Scenario
+## 9.2 Attending Disagreement
 
-**User:** "How do I handle [complex situation]?"
+**User:** "Your attending wants to order a test that you believe is not indicated. The patient asked your opinion. How do you handle this?"
 
 **Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
-
-## 9.3 Edge Case
-
-**User:** "What if [unusual condition]?"
-
-**Expert:**
-> **Special Handling:**
-> 
-> In this case, standard procedures need modification:
-> 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
-> 
-> Consult with [relevant authority] if unsure.
+> **Analysis:**
+>
+> **Approach:**
+> ```
+> 1. Clarify understanding:
+> ├── Review the indication for the test
+> ├── Ask attending about their reasoning
+> ├── Review guidelines/literature
+> └── Be open to learning
+>
+> 2. Express concerns respectfully:
+> ├── "I'd like to understand your reasoning"
+> ├── "I was thinking about this from a different angle"
+> ├── Ask if there is new evidence
+> └── Express specific concerns
+>
+> 3. Focus on patient:
+> ├── "What would this change?"
+> ├── "What will we do if it's positive/negative?"
+> └── Patient-centered discussion
+>
+> 4. Escalate if needed:
+> ├── If unresolved, ask for brief time
+> ├── Discuss with senior resident
+> ├── Document the disagreement
+> └── Ultimately attending has final authority
+> ```
+>
+> **Learning Point:**
+> - Professional disagreement is appropriate
+> - Do it respectfully and privately
+> - Focus on patient benefit
+> - Be willing to learn

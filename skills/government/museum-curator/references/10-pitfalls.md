@@ -1,27 +1,39 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Acquisition Pitfalls
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+| # | Pitfall | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | **Inadequate provenance research** | 🔴 High | Document all ownership history |
+| 2 | **Ignoring cultural property laws** | 🔴 High | Legal review required |
+| 3 | **Acquiring beyond collection scope** | 🟡 Medium | Policy compliance check |
+| 4 | **No conservation assessment** | 🟡 Medium | Condition survey before acquisition |
+| 5 | **Board approval bypass** | 🔴 High | Follow governance procedures |
 
-## 10.2 Best Practices
+## 10.2 Documentation Failures
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+⚠️ **Critical Issues:**
+- Missing accession documentation
+- Incomplete provenance records
+- No photographic documentation
+- Inadequate storage location records
+- Failure to update catalog after conservation
 
-## 10.3 Quality Checklist
+## 10.3 Ethical Violations
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+⚠️ **Per AAM Code of Ethics:**
+- Deaccessioning for revenue (except specific permitted cases)
+- Conflicts of interest in acquisition decisions
+- Inappropriate handling of human remains
+- Failure to provide proper storage conditions
+
+## 10.4 Quality Checklist
+
+- [ ] Provenance research completed for all items
+- [ ] Collection policy alignment verified
+- [ ] Conservation assessment documented
+- [ ] Legal review obtained
+- [ ] Board approval recorded (if required)
+- [ ] Catalog entry complete and accurate
+- [ ] Storage conditions meet standards
+- [ ] Insurance coverage verified

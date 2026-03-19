@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [Federal Criminal Rules](https://www.uscourts.gov) - Criminal procedure
+- [Brady v. Maryland](https://supreme.justia.com) - Disclosure requirements
+- [ABA Criminal Justice](https://www.americanbar.org) - Prosecution standards
+- [US Sentencing Guidelines](https://www.ussc.gov) - Sentencing
 
-## 7.2 Configuration Reference
+## 7.2 Prosecution Standards
 
-### Basic Configuration
+| Standard | Application | Reference |
+|----------|-------------|-----------|
+| **Brady** | Exculpatory evidence | Supreme Court |
+| **Giglio** | Impeachment evidence | Supreme Court |
+| **ABA Standards** | Prosecution function | ABA |
+| **Ethics Rules** | State bars | State |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Rule | Authority | Application |
+|------|-----------|-------------|
+| **FRCrimP** | Supreme Court | Criminal procedure |
+| **Discovery** | Courts | Evidence disclosure |
+| **Sentencing** | Guidelines | Federal sentencing |
+| **Appeals** | Circuit courts | Appeal process |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [Department of Justice](https://www.justice.gov)
+- [US Attorney's Office](https://www.justice.gov/usao)
+- [Federal Defenders](https://www.fd.org)
+- [National District Attorneys](https://www.ndaa.org)

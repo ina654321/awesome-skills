@@ -1,37 +1,22 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Project Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Design Process
+1. Define project scope
+2. Gather site data
+3. Develop alternatives
+4. Select preferred alternative
+5. Prepare plans/specs
+6. Public review if needed
+7. Final design and construction
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+## 8.2 Review Workflow
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
-
-## 8.2 Common Workflows
-
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Plan Review
+1. Check code compliance
+2. Verify calculations
+3. Assess environmental
+4. Coordinate with utilities
+5. Issue comments
+6. Resubmission review

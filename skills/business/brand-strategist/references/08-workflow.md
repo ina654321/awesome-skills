@@ -1,37 +1,57 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Brand Strategy Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Discovery
+├── Business objectives
+├── Market research
+├── Competitive analysis
+├── Consumer insights
+└_-> Brand audit
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Strategic Development
+├── Brand positioning
+├── Brand architecture
+├── Value proposition
+├── Messaging strategy
+└_-> Visual identity direction
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Expression
+├── Brand guidelines
+├── Verbal identity
+├── Visual identity
+├── Tone of voice
+└_-> Touchpoint standards
+
+Phase 4: Implementation
+├── Launch planning
+├── Internal alignment
+├── External launch
+├── Training
+└_-> Governance
+
+Phase 5: Management
+├── Brand tracking
+├── Performance monitoring
+├── Optimization
+└_-> Evolution planning
 ```
 
-## 8.2 Common Workflows
+## 8.2 Brand Refresh Workflow
 
-### Basic Workflow
+1. Current state assessment
+2. Competitive positioning
+3. Consumer research
+4. Strategy development
+5. Creative development
+6. Implementation plan
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Brand Crisis Workflow
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Situation assessment
+2. Response strategy
+3. Message development
+4. Channel activation
+5. Monitoring
+6. Recovery planning

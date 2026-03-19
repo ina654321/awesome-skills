@@ -2,32 +2,32 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [AICPA Professional Standards](https://www.aicpa.org) - CPA ethics
+- [IRS Circular 230](https://www.irs.gov) - Tax practice
+- [FASB Accounting Standards](https://asc.fasb.org) - Financial reporting
+- [State Board of Accountancy](https://www.nasba.org) - Licensing
 
-## 7.2 Configuration Reference
+## 7.2 Professional Standards
 
-### Basic Configuration
+| Standard | Body | Application |
+|----------|------|-------------|
+| **AICPA Code of Ethics** | AICPA | Professional conduct |
+| **IRS Circular 230** | Treasury | Tax practice |
+| **GAAP** | FASB | Financial reporting |
+| **GAAS** | AICPA | Audit standards |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **SOX Section 404** | PCAOB | Internal controls |
+| **SEC Reporting** | SEC | Public company audit |
+| **State Licensing** | State Board | Practice permit |
+| **Peer Review** | AICPA | Quality control |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [AICPA Professional Standards](https://www.aicpa.org)
+- [IRS Circular 230](https://www.irs.gov)
+- [NASBA](https://www.nasba.org)
+- [FASB Standards](https://asc.fasb.org)

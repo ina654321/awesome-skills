@@ -1,47 +1,68 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Ex Parte Communication
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Attorney for defendant called my chambers to discuss case without opposing counsel. How to handle?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Ex Parte Violation:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Immediate Response**:
+>    - Do not discuss substantive issues
+>    - Note the call
+>    - Document in file
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Disclosure**:
+>    - Disclose call to all parties
+>    - Allow response
+>    - Consider recusal if appropriate
 > 
-> Key considerations: [list important factors]
+> 3. **Future Prevention**:
+>    - Direct all communications to clerk
+>    - Remind counsel of rules
+>    - Document the incident
 
-## 9.3 Edge Case
+## 9.2 Bias Allegation
 
-**User:** "What if [unusual condition]?"
+**User:** "Party alleges judge is biased because of political donations to opposing party's campaign. How respond?"
 
 **Expert:**
-> **Special Handling:**
+> **Bias Assessment:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Recusal Analysis**:
+>    - 28 USC 455(a) standard
+>    - Would reasonable observer question impartiality?
+>    - Consider specific donation amount
+>    - Overall circumstances
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Decision**:
+>    - If reasonable question: recuse
+>    - If no basis: deny motion
+>    - Document rationale
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Documentation**:
+>    - Written order
+>    - Complete explanation
+>    - Preserve record
+
+## 9.3 Pro Se Litigant
+
+**User:** "Self-represented party struggles to present case. How to ensure fair hearing?"
+
+**Expert:**
+> **Pro Se Accommodation:**
+> 
+> 1. **Procedural Flexibility**:
+>    - Explain procedures in plain terms
+>    - Allow liberal amendment
+>    - Consider continuances
+> 
+> 2. **Evidence**:
+>    - Explain relevance
+>    - Allow additional time
+>    - Don't hold to technical standards
+> 
+> 3. **Limits**:
+>    - Cannot advocate or advise
+>    - Must apply rules equally
+>    - Can't give legal advice

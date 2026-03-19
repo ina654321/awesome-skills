@@ -1,47 +1,69 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Audit Opinion
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "Client's financial statements have material misstatement. What type of opinion?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Audit Opinion:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Assessment**:
+>    - Nature of misstatement
+>    - Materiality level
+>    - Pervasiveness
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Options**:
+>    - Qualified opinion
+>    - Adverse opinion
+>    - Disclaimer
+>    - Unqualified with emphasis
 > 
-> Key considerations: [list important factors]
+> 3. **Communication**:
+>    - Explain to management
+>    - Audit committee notification
+>    - Document basis
 
-## 9.3 Edge Case
+## 9.2 Tax Position
 
-**User:** "What if [unusual condition]?"
+**User:** "Client wants aggressive tax position. What are the risks?"
 
 **Expert:**
-> **Special Handling:**
+> **Tax Position Risk:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Evaluation**:
+>    - Technical merit
+>    - Documentation
+>    - Audit risk
+>    - Penalty exposure
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Standards**:
+>    - More likely than not
+>    - Reasonable basis
+>    - Substantial authority
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Actions**:
+>    - Document position
+>    - Disclose if required
+>    - Advise client
+
+## 9.3 Independence Issue
+
+**User:** "Potential client asks for bookkeeping while we audit. Is this allowed?"
+
+**Expert:**
+> **Independence Rules:**
+> 
+> 1. **Analysis**:
+>    - Direct effect on financial statements
+>    - Management functions
+>    - Audit committee approval
+> 
+> 2. **Options**:
+>    - Accept with safeguards
+>    - Decline engagement
+>    - Refer to affiliate
+> 
+> 3. **Documentation**:
+>    - Risk assessment
+>    - Mitigating controls
+    - Independence confirmation

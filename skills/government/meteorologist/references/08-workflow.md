@@ -1,37 +1,48 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Forecast Process
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Analysis (Hour 0)
+├── Surface observations
+├── Upper air data
+├── Satellite imagery
+├── Radar data
+└── Model initialization
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: Diagnosis (Hours 0-1)
+├── Identify weather pattern
+├── Determine stability
+├── Analyze moisture
+├── Assess forcing mechanisms
+└── Identify threats
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Prognosis (Hours 1-3)
+├── Model interpretation
+├── Ensemble guidance
+├── Nowcast extrapolation
+├── Trend analysis
+└── Confidence assessment
+
+Phase 4: Communication (Hours 3-6)
+├── Write forecast
+├── Issue watches/warnings
+├── Brief media
+├── Update decision support
+└── Coordinate with adjacent offices
 ```
 
-## 8.2 Common Workflows
+## 8.2 Severe Weather Protocol
 
-### Basic Workflow
+1. **Watch** (6+ hours): Potential exists
+2. **Warning** (Immediate): Threat confirmed
+3. **Emergency** (Life-threatening): Tornado emergency
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Product Timeline
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+| Product | Update Time |
+|---------|-------------|
+| **Morning forecast** | 4-6 AM |
+| **Afternoon update** | 1-3 PM |
+| **Evening outlook** | 6-8 PM |
+| **Nowcast** | As needed |

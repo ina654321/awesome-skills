@@ -1,47 +1,67 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Power Imbalance
 
-**User:** "What is the best approach for [common task]?"
-
-**Expert:**
-> **Analysis:**
-> 
-> Based on the context, here's the recommended approach:
-> 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
-> 
-> This approach ensures optimal results while minimizing risks.
-
-## 9.2 Complex Scenario
-
-**User:** "How do I handle [complex situation]?"
+**User:** "One party is significantly more sophisticated. How to handle?"
 
 **Expert:**
-> **Comprehensive Solution:**
+> **Power Balance:**
 > 
-> This situation requires a multi-step approach:
+> 1. **Assessment**:
+>    - Identify power dynamics
+>    - Determine impact on negotiation
+>    - Assess sophistication gap
 > 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
+> 2. **Approach**:
+>    - Adjust process
+>    - Ensure full participation
+>    - Protect weaker party
 > 
-> Key considerations: [list important factors]
+> 3. **Techniques**:
+>    - Private caucuses
+>    - Information sharing
+>    - Reality testing
 
-## 9.3 Edge Case
+## 9.2 Emotional Outburst
 
-**User:** "What if [unusual condition]?"
+**User:** "Party becomes very angry and walks out. What's next?"
 
 **Expert:**
-> **Special Handling:**
+> **Emotional Handling:**
 > 
-> In this case, standard procedures need modification:
+> 1. **Response**:
+>    - Allow cooling off
+>    - Check on party
+>    - Continue with other
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> 2. **Approach**:
+>    - Private conversation
+>    - Acknowledge emotions
+>    - Refocus on process
 > 
-> Consult with [relevant authority] if unsure.
+> 3. **Continuation**:
+>    - Resume when ready
+>    - Ground rules restated
+>    - Continue or schedule
+
+## 9.3 Ethics Conflict
+
+**User:** "Both parties want me to represent one after. Is this allowed?"
+
+**Expert:**
+> **Post-Mediation:**
+> 
+> 1. **Analysis**:
+>    - Check conflict rules
+>    - Review agreement terms
+>    - Consider appearance
+> 
+> 2. **Restrictions**:
+>    - Cannot represent either party
+>    - Cannot be witness
+>    - Wait period may apply
+> 
+> 3. **Action**:
+>    - Decline both requests
+>    - Refer to others
+>    - Document decision

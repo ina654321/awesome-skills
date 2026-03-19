@@ -1,37 +1,26 @@
-# Standard Workflow
+# Workflow Reference
 
-## 8.1 Getting Started
+## 8.1 Assessment Workflow
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Field Survey
+1. Define survey area and protocol
+2. Obtain permits (if needed)
+3. Conduct field surveys
+4. Document findings
+5. Analyze data
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Reporting
+1. Compile species lists
+2. Assess habitat quality
+3. Identify impacts
+4. Develop mitigation
+5. Submit report
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+## 8.2 Impact Assessment Workflow
 
-## 8.2 Common Workflows
-
-### Basic Workflow
-
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
-
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Impact Analysis
+1. Define project footprint
+2. Identify sensitive resources
+3. Assess direct/indirect impacts
+4. Determine significance
+5. Recommend mitigation

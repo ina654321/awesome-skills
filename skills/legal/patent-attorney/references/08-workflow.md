@@ -1,37 +1,51 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Patent Prosecution
 
 ```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+Phase 1: Application Prep
+├── Client interview
+├── Invention disclosure
+├── Prior art search
+├── Claims drafting
+└_-> Application filing
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+Phase 2: USPTO Examination
+├── Initial filing
+├── Office action response
+├── Examiner interviews
+├── Amendments
+└_-> Appeal if needed
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
+Phase 3: Allowance
+├── Notice of allowance
+├── Issue fee payment
+├── Patent grant
+└_-> Certificate issuance
+
+Phase 4: Maintenance
+├── Maintenance fees
+├── Monitoring
+├── Potential infringement
+└_-> Portfolio management
 ```
 
-## 8.2 Common Workflows
+## 8.2 Application Workflow
 
-### Basic Workflow
+1. Client consultation
+2. Prior art search
+3. Draft specification
+4. Draft claims
+5. File application
+6. Track prosecution
+7. Respond to office actions
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+## 8.3 Litigation Workflow
 
-### Complex Workflow
-
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+1. Infringement analysis
+2. Evidence gathering
+3. Complaint drafting
+4. Discovery
+5. Expert witnesses
+6. Trial preparation
+7. Trial/settlement

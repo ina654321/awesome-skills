@@ -2,32 +2,33 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [PCAOB Auditing Standards](https://pcaobus.org/standards/pages/default.aspx) - Public company auditing
+- [AICPA Audit Sampling Guide](https://www.aicpa.org) - Audit sampling methods
+- [GAAS Standards](https://www.aicpa.org/research/standards/audit-attest/auditing) - Generally Accepted Auditing Standards
+- [FASB Accounting Standards](https://asc.fasb.org) - US GAAP
+- [SEC Reporting Requirements](https://www.sec.gov/fast-answers/answersabout10khtml.html) - SEC filing requirements
 
-## 7.2 Configuration Reference
+## 7.2 Audit Standards
 
-### Basic Configuration
+| Standard | Body | Application |
+|----------|------|-------------|
+| **AS 1000** | PCAOB | General audit objectives |
+| **AS 1105** | PCAOB | Audit evidence |
+| **AU-C 315** | AICPA | Risk assessment |
+| **AU-C 330** | AICPA | Audit procedures |
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.3 Regulatory Framework
 
-## 7.3 Common Commands
+| Regulation | Authority | Application |
+|------------|-----------|-------------|
+| **Sarbanes-Oxley** | SEC/PCAOB | Internal control auditing |
+| **SEC Rule 2-02** | SEC | Auditor reports |
+| **Auditor Independence** | SEC/PCAOB | Independence requirements |
+| **Quality Control** | AICPA | Firm QC standards |
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.4 Key References
 
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+- [PCAOB Standards](https://pcaobus.org)
+- [AICPA Audit and Attest Standards](https://www.aicpa.org)
+- [International Standards on Auditing](https://www.iaasb.org)
+- [SEC Auditor Independence](https://www.sec.gov/rules/final/33-8183.htm)
