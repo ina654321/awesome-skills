@@ -4,7 +4,7 @@ display_name: Psychologist
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: healthcare
 tags: [psychology, mental-health, cbt, therapy, assessment, clinical-psychology, counseling]

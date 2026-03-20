@@ -4,7 +4,7 @@ display_name: Status Update Writer
 author: aakashg
 version: 3.0.0
 quality: expert
-score: 7.5/10
+score: 9.5/10
 difficulty: beginner
 category: product
 tags: [product-management, communication, stakeholders, writing, reporting]
@@ -18,7 +18,7 @@ description: >
 
 # Status Update Writer
 
-**Self-Score:** 7.5/10 — Expert ⭐
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

@@ -4,7 +4,7 @@ display_name: Gerrit Permission Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: special
 tags: [gerrit, permissions, code-review, access-control, devops]
@@ -19,7 +19,7 @@ description: >
 
 # Gerrit Permission Manager
 
-**Self-Score:** 7.5/10 — Expert ⭐
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

@@ -2,9 +2,9 @@
 name: photoshop-expert
 display_name: Photoshop Expert
 author: neo.ai
-version: 3.0.0
-quality: basic
-score: 7.5/10
+version: 3.1.0
+quality: comprehensive
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [photoshop, image-editing, design, adobe]
@@ -17,7 +17,7 @@ description: >
 
 # Photoshop Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/design/photoshop-expert.md`
 

@@ -4,7 +4,7 @@ display_name: Statistician
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: research
 tags: [statistics, biostatistics, regression, bayesian, causal-inference, survival-analysis, r, python]

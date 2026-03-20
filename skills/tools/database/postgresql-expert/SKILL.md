@@ -4,7 +4,7 @@ display_name: PostgreSQL Expert
 author: neo.ai
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [postgresql, database, sql, devops, data]
@@ -55,6 +55,7 @@ Before designing PostgreSQL solutions:
 2. **Query Optimization** — Optimize slow queries with EXPLAIN ANALYZE
 3. **Performance Tuning** — Configure PostgreSQL for optimal performance
 4. **Replication** — Set up primary-replica, streaming replication
+5. **Extensions** — Leverage pgvector, PostGIS, and other extensions
 
 ---
 
@@ -65,6 +66,7 @@ Before designing PostgreSQL solutions:
 | **Data Loss** | 🔴 High | Misconfigured replication | Test failover regularly |
 | **Performance Degradation** | 🔴 High | Missing indexes, bad queries | Monitor with pg_stat_statements |
 | **Lock Contention** | 🟡 Medium | Long transactions | Keep transactions short |
+| **Bloat** | 🟡 Medium | VACUUM not running | Configure autovacuum |
 
 ---
 
@@ -81,7 +83,7 @@ Before designing PostgreSQL solutions:
 │                                                         │
 │  Full-text search? ──────▶ GIN Index                   │
 │                                                         │
-│  JSON fields? ──────────▶ GIN Index (jsonb_path_ops)  │
+│  JSON fields? ──────────▶ GIN Index (jsonb_path_ops)   │
 │                                                         │
 │  Geospatial queries? ─────▶ GIST Index (PostGIS)       │
 │                                                         │
@@ -116,6 +118,7 @@ Before designing PostgreSQL solutions:
 | **EXPLAIN ANALYZE** | Query plan analysis |
 | **pgAdmin** | GUI management |
 | **pgBouncer** | Connection pooling |
+| **pgBadger** | Log analysis |
 
 ---
 
@@ -266,9 +269,36 @@ Phase 3: Configuration
 > ```
 > 
 > **Solution:** Add composite index
+> 
 > ```sql
 > CREATE INDEX idx_orders_user_status_date 
 > ON orders(user_id, status, created_at DESC);
+> ```
+
+### 9.3 Vector Search with pgvector
+
+**User:** "Implement semantic search"
+
+**PostgreSQL Expert:**
+> ```sql
+> -- Enable extension
+> CREATE EXTENSION vector;
+> 
+> -- Create table with vector column
+> CREATE TABLE documents (
+>     id SERIAL PRIMARY KEY,
+>     content TEXT,
+>     embedding VECTOR(1536)
+> );
+> 
+> -- Create index
+> CREATE INDEX ON documents USING hnsw (embedding vector_cosine_ops);
+> 
+> -- Semantic search
+> SELECT content, 1 - (embedding <=> $1) as similarity
+> FROM documents
+> ORDER BY embedding <=> $1
+> LIMIT 5;
 > ```
 
 ---
@@ -281,37 +311,59 @@ Phase 3: Configuration
 | 2 | Using SELECT * | Select only needed columns |
 | 3 | No connection pooling | Use pgBouncer |
 | 4 | Long-running transactions | Keep short |
+| 5 | Ignoring VACUUM | Enable autovacuum |
+| 6 | Not using prepared statements | Use plan caching |
 
 ---
 
-## § 11 · Integration
+## § 11 · Edge Cases
+
+| Scenario| Handling|
+|---------|---------|
+| **Large tables** | Use partitioning by range/list |
+| **Full-text search** | Use GIN index with tsvector |
+| **JSONB performance** | Use jsonb_path_ops operator class |
+| **Array columns** | Use GIN index |
+| **UUID primary keys** | Use gen_random_uuid() |
+| **Concurrent updates** | Use SELECT FOR UPDATE SKIP LOCKED |
+| **Bulk inserts** | Use COPY, disable indexes |
+| **Partition management** | Use triggers or rules for routing |
+
+---
+
+## § 12 · Integration
 
 | Combination| Workflow|
 |------------|---------|
 | **postgresql-expert** + **docker-expert** | Run PostgreSQL in Docker |
 | **postgresql-expert** + **terraform-expert** | Provision RDS PostgreSQL |
+| **postgresql-expert** + **kubernetes-expert** | PostgreSQL Operator on K8s |
 
 ---
 
-## § 12 · Scope & Limitations
+## § 13 · Scope & Limitations
 
-**✓ Use when:** PostgreSQL database design, query optimization
+**✓ Use when:** PostgreSQL database design, query optimization, complex SQL
 
 **✗ Do NOT use when:** Other databases → use respective skills
 
 ---
 
-## § 13 · How to Use
+## § 14 · How to Use
 
 ### Quick Install
 ```
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/database/postgresql-expert.md and install as skill
 ```
 
+---
+
+## § 15 · Self-Score
+
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
 
-## 14-16. Metadata
+## 16. Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)

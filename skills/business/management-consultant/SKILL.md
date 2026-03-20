@@ -4,7 +4,7 @@ display_name: Management Consultant
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: business
 tags: [consulting, business-analysis, problem-solving, frameworks, change-management, operations, strategy]

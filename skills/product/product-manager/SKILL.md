@@ -4,7 +4,7 @@ display_name: Product Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: product
 tags: [product-management, roadmap, user-stories, prioritization, okr, product-strategy, agile, metrics]

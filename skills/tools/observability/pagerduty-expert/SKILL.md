@@ -4,7 +4,7 @@ display_name: PagerDuty Expert
 author: neo.ai
 version: 3.0.0
 quality: comprehensive
-score: 8.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [pagerduty, on-call, incident-management, alerting, sre, devops]
@@ -18,7 +18,7 @@ description: >
 
 # PagerDuty Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/pagerduty-expert.md`
 

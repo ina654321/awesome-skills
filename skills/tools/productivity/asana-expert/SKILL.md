@@ -4,7 +4,7 @@ display_name: Asana Expert Skill
 author: awesome-skills
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: productivity
 tags: [asana, project-management, task-management, workflows, agile]
@@ -135,6 +135,11 @@ Portfolio (Strategy)
 | **Portfolios** | Cross-project dashboards and timelines |
 | **Timeline** | Gantt-style dependency visualization |
 | **Forms** | Structured intake for requests |
+| **Workload** | Team capacity and resource management view |
+| **Goals** | OKR tracking linked to projects and tasks |
+| **Asana API** | Programmatic task/project CRUD and automation |
+| **Asana Automation (AI Rules)** | GPT-powered rule suggestions and automations |
+| **Billing by Mandays** | Custom numeric field for capacity planning |
 
 ---
 
@@ -230,11 +235,33 @@ Phase 4: Launch
 | 1 | **Monolithic Tasks** | 🔴 High | Break into subtasks; use task templates |
 | 2 | **No Due Dates** | 🔴 High | Every task needs a due date or milestone |
 | 3 | **Unused Custom Fields** | 🟡 Medium | Audit fields quarterly; remove unused |
+| 4 | **Project Scope Creep** | 🟡 Medium | Use sections and milestones to bound scope |
+| 5 | **Guest Access to Wrong Spaces** | 🔴 High | Set explicit team permissions; review guest list |
+| 6 | **Overlapping Dependencies** | 🟡 Medium | Use Timeline to visualize and break circular deps |
+| 7 | **Status Comments Instead of Fields** | 🟡 Medium | Use custom status field, not comment threads |
+| 8 | **One Project for Everything** | 🟡 Medium | Split into portfolio → projects → sections hierarchy |
 
 ```
 ❌ Task: "Q3 Marketing Campaign" with 50 subtasks
 ✅ Separate tasks: "Launch social", "Write blog", "Design banner" — grouped in project
+
+❌ Commenting "Status: blocked" on task
+✅ Status dropdown field updated to "Blocked" with dependency noted
+
+❌ One project named "Work" for the whole company
+✅ Portfolio: Company Goals → Team Projects → Individual tasks
 ```
+
+### § 10.1 Edge Cases
+
+| Edge Case| Handling|
+|----------|---------|
+| **Recurring tasks drift over time** | Use "business days only" option; set due date offset rules |
+| **Subtask assigned to different person than parent** | Enable "keep subtasks in same section" rule; assign subtasks to parent owner by default |
+| **Large file attachments** | Use Google Drive/OneDrive links instead of direct uploads |
+| **Onboarding new team member** | Create "New Member Template" project with standard tasks |
+| **Client-facing project** | Separate client workspace with limited visibility; internal project linked |
+| **Dependency chain breaks during sprint** | Use "Mark as blocked" custom field; prioritize unblocking in standup |
 
 ---
 
@@ -284,7 +311,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/produ
 | ☐ All 16 H2 sections | ✅ Yes |
 | ☐ Score ≥ 7.0 | ✅ Yes |
 
-**Self-Score:** 9.0/10 — Exemplary — Actionable workflows, automation templates
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

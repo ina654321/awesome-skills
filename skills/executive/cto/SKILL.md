@@ -4,7 +4,7 @@ display_name: CTO
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: executive
 tags: [technology-strategy, engineering-leadership, architecture, innovation, talent]

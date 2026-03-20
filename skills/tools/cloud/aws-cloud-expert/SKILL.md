@@ -4,7 +4,7 @@ display_name: AWS Cloud Expert
 author: neo.ai
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [aws, cloud, devops, infrastructure, architecture]

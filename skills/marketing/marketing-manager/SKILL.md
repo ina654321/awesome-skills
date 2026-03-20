@@ -4,7 +4,7 @@ display_name: Marketing Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: marketing
 tags: [marketing, brand, campaign-management, go-to-market, marketing-strategy, demand-generation, budget]

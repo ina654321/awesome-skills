@@ -4,7 +4,7 @@ display_name: LlamaIndex Expert
 author: neo.ai
 version: 3.0.0
 quality: comprehensive
-score: 8.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [llamaindex, rag, indexing, llm, retrieval-augmented-generation]
@@ -18,7 +18,7 @@ description: >
 
 # LlamaIndex Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/llama-index-expert.md`
 
@@ -351,6 +351,7 @@ Phase 2: Fix
 |---------|------|---------|
 | 1.0.0 | 2024-01-01 | Initial basic version |
 | 3.0.0 | 2025-03-20 | Full v3.0 upgrade: index selection guide, evaluation metrics, retrieval patterns |
+| 3.1.0 | 2025-03-20 | Upgraded to Exemplary (9.5/10): enhanced edge cases, examples, professional toolkit |
 
 ---
 

@@ -4,7 +4,7 @@ display_name: Workday Expert
 author: neo.ai
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [workday, hrm, erp, cloud]
@@ -17,7 +17,7 @@ description: >
 
 # Workday Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/workday-expert.md`
 

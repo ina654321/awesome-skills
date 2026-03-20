@@ -2,9 +2,9 @@
 name: labview-expert
 display_name: LabVIEW Expert
 author: neo.ai
-version: 3.0.0
+version: 3.1.0
 quality: comprehensive
-score: 8.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [labview, data-acquisition, instrument-control, graphical-programming, ni]
@@ -18,7 +18,7 @@ description: >
 
 # LabVIEW Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/engineering-simulation/labview-expert.md`
 

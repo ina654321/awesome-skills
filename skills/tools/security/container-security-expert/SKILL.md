@@ -4,7 +4,7 @@ display_name: Container Security Expert
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [trivy, snyk, security, container-scanning, kubernetes, docker, vulnerability]
@@ -20,7 +20,7 @@ description: >
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.0/10** | **Last Updated: 2026-03-20**
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/security/container-security-expert/SKILL.md`
 

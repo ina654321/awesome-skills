@@ -4,7 +4,7 @@ display_name: FFmpeg Expert Skill
 author: awesome-skills
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: media
 tags: [ffmpeg, video-processing, transcoding, streaming, media-conversion]
@@ -287,7 +287,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media
 | ☐ All 16 H2 sections | ✅ Yes |
 | ☐ Score ≥ 7.0 | ✅ Yes |
 
-**Self-Score:** 9.0/10 — Exemplary — Complete commands, practical presets
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

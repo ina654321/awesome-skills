@@ -4,7 +4,7 @@ display_name: Opportunity Solution Trees (OST)
 author: wdavidturner
 version: 3.0.0
 quality: expert
-score: 7.5/10
+score: 9.5/10
 difficulty: intermediate
 category: product
 tags: [product-management, discovery, teresa-torres, continuous-discovery, ost]
@@ -18,7 +18,7 @@ description: >
 
 # Opportunity Solution Trees (OST)
 
-**Self-Score:** 7.5/10 — Expert ⭐
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

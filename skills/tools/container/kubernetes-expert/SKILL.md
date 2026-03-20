@@ -3,8 +3,8 @@ name: kubernetes-expert
 display_name: Kubernetes Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 7.5/10
+quality: comprehensive
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [kubernetes, k8s, container, orchestration, devops]

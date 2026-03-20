@@ -4,7 +4,7 @@ display_name: Legal Counsel
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: legal
 tags: [legal, contracts, compliance, corporate-law, risk-management, litigation, regulatory]

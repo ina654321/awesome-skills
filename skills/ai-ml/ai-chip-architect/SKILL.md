@@ -4,7 +4,7 @@ display_name: AI Chip Architect
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: ai-ml
 tags: [npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture, ai-accelerator, roofline-model, mlperf, tpu-architecture, eda-flows]

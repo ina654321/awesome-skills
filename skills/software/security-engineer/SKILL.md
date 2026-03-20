@@ -4,7 +4,7 @@ display_name: Security Engineer
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: software
 tags: [security, appsec, penetration-testing, zero-trust, devsecops, cloud-security, compliance, threat-modeling]

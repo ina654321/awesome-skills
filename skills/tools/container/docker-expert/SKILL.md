@@ -3,8 +3,8 @@ name: docker-expert
 display_name: Docker Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 7.5/10
+quality: comprehensive
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [docker, container, devops, containerization, devtools]

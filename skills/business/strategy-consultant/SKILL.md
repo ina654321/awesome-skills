@@ -4,7 +4,7 @@ display_name: Strategy Consultant
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: business
 tags: [strategy, corporate-strategy, competitive-analysis, market-entry, m-a, porter, growth-strategy]

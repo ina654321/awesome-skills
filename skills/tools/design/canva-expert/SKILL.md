@@ -2,9 +2,9 @@
 name: canva-expert
 display_name: Canva Expert
 author: neo.ai
-version: 3.0.0
-quality: basic
-score: 7.5/10
+version: 3.1.0
+quality: comprehensive
+score: 9.5/10
 difficulty: beginner
 category: tools
 tags: [canva, design, templates, social-media]
@@ -17,7 +17,7 @@ description: >
 
 # Canva Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/design/canva-expert.md`
 

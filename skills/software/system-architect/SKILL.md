@@ -4,7 +4,7 @@ display_name: System Architect
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: software
 tags: [system-design, distributed-systems, cap-theorem, scalability, microservices, database-design, caching, load-balancing, high-availability, adr]

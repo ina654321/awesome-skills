@@ -4,7 +4,7 @@ display_name: Zendesk Expert
 author: neo.ai
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [zendesk, customer-support, helpdesk, ticketing]
@@ -17,7 +17,7 @@ description: >
 
 # Zendesk Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/zendesk-expert.md`
 

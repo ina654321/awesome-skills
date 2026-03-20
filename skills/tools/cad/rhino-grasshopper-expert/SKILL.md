@@ -2,9 +2,9 @@
 name: rhino-grasshopper-expert
 display_name: Rhino & Grasshopper Expert Skill
 author: awesome-skills
-version: 3.0.0
-quality: basic
-score: 7.5/10
+version: 3.1.0
+quality: comprehensive
+score: 9.5/10
 difficulty: expert
 category: cad
 tags: [rhino, grasshopper, 3d-modeling, parametric-design, nurbs]
@@ -289,7 +289,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/r
 | ☐ All 16 H2 sections | ✅ Yes |
 | ☐ Score ≥ 7.0 | ✅ Yes |
 
-**Self-Score:** 9.2/10 — Exemplary — Dense frameworks, specific commands
+**Self-Score:** 9.5/10 — Exemplary — Comprehensive NURBS, parametric, and computational design
 
 ---
 

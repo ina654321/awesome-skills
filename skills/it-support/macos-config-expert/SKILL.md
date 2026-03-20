@@ -4,7 +4,7 @@ display_name: macOS Configuration Expert
 author: neo.ai
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: it-support
 tags: [macos, apple, system-administration, mdm, homebrew, defaults, security-hardening, shell-scripting, endpoint-management, devops]

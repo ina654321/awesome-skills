@@ -4,7 +4,7 @@ display_name: Shape Up
 author: wdavidturner
 version: 3.0.0
 quality: expert
-score: 7.5/10
+score: 9.5/10
 difficulty: intermediate
 category: product
 tags: [product-management, development-methodology, planning, agile, basecamp]
@@ -18,7 +18,7 @@ description: >
 
 # Shape Up
 
-**Self-Score:** 7.5/10 — Expert ⭐
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

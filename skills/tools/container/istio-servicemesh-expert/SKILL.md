@@ -4,7 +4,7 @@ display_name: Istio Service Mesh Expert
 author: neo.ai
 version: 3.0.0
 quality: comprehensive
-score: 8.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [istio, servicemesh, kubernetes, networking, mtls, observability]
@@ -18,7 +18,7 @@ description: >
 
 # Istio Service Mesh Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/container/istio-servicemesh-expert.md`
 

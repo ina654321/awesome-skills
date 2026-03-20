@@ -4,7 +4,7 @@ display_name: Redis Expert
 author: neo.ai
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [redis, cache, database, nosql, devops]
@@ -55,6 +55,7 @@ Before using Redis:
 2. **Caching Strategies** — Design effective cache patterns
 3. **Performance** — Optimize for sub-millisecond latency
 4. **Clustering** — Set up Redis Cluster for scaling
+5. **Lua Scripting** — Implement atomic operations
 
 ---
 
@@ -65,6 +66,7 @@ Before using Redis:
 | **Data Loss** | 🔴 High | No persistence + restart | Use AOF/RDB |
 | **Memory Issues** | 🔴 High | OOM errors | Set maxmemory policy |
 | **Keys Explosion** | 🟡 Medium | Too many keys | Use proper TTL, key patterns |
+| **Hot Keys** | 🟡 Medium | Single key overloaded | Use hash tags for sharding |
 
 ---
 
@@ -85,13 +87,13 @@ Before using Redis:
 │                                                         │
 │  Unique set ───────▶ SET (tags, unique users)          │
 │                                                         │
-│  Sorted set ───────▶ ZSET (leaderboard, ranked)        │
+│  Sorted set ───────▶ ZSET (leaderboard, ranked)       │
 │                                                         │
 │  Hash ─────────────▶ HASH (objects)                    │
 │                                                         │
-│  Time series ──────▶ TS (Redis Stack)                   │
+│  Time series ──────▶ TS (Redis Stack)                  │
 │                                                         │
-│  Vector search ────▶ SEARCH (Redis Stack)              │
+│  Vector search ────▶ SEARCH (Redis Stack)             │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -122,6 +124,7 @@ Before using Redis:
 | **RedisInsight** | GUI visualization |
 | **redis-cli --bigkeys** | Find large keys |
 | **redis-cli --scan** | Key pattern scanning |
+| **redis-cli --latency** | Latency monitoring |
 
 ---
 
@@ -132,15 +135,11 @@ Before using Redis:
 ```python
 # Cache-aside pattern
 def get_user(user_id):
-    # Check cache first
     cached = redis.get(f"user:{user_id}")
     if cached:
         return json.loads(cached)
     
-    # Fetch from DB
     user = db.query("SELECT * FROM users WHERE id = ?", user_id)
-    
-    # Store in cache with TTL
     redis.setex(f"user:{user_id}", 3600, json.dumps(user))
     return user
 
@@ -220,12 +219,11 @@ Phase 3: Optimization
 >     'roles': user.roles
 > }
 > redis.hset(f"session:{session_id}", mapping=session_data)
-> redis.expire(f"session:{session_id}", 86400)  # 24 hours
+> redis.expire(f"session:{session_id}", 86400)
 > 
 > # Get session
 > session = redis.hgetall(f"session:{session_id}")
 > if not session:
->     # Session expired or invalid
 >     return None
 > 
 > # Extend session on activity
@@ -244,20 +242,46 @@ Phase 3: Optimization
 >     now = time.time()
 >     window_key = f"ratelimit:{key}"
 >     
->     # Remove old entries
-> redis.zremrangebyscore(window_key, 0, now - window)
->     
->     # Count requests in window
+>     redis.zremrangebyscore(window_key, 0, now - window)
 >     count = redis.zcard(window_key)
 >     
 >     if count >= limit:
 >         return False
 >     
->     # Add current request
 >     redis.zadd(window_key, {str(now): now})
 >     redis.expire(window_key, window)
 >     
 >     return True
+> ```
+
+### 9.3 Distributed Locking
+
+**User:** "Implement distributed locks"
+
+**Redis Expert:**
+> **Redlock pattern:**
+> 
+> ```python
+> def acquire_lock(redis_client, lock_name, ttl=10, retry=3):
+>     lock_key = f"lock:{lock_name}"
+>     lock_value = str(uuid.uuid4())
+>     
+>     for _ in range(retry):
+>         if redis_client.set(lock_key, lock_value, nx=True, ex=ttl):
+>             return lock_value
+>         time.sleep(0.1)
+>     return None
+
+> def release_lock(redis_client, lock_name, lock_value):
+>     lock_key = f"lock:{lock_name}"
+>     script = """
+>     if redis.call("get", KEYS[1]) == ARGV[1] then
+>         return redis.call("del", KEYS[1])
+>     else
+>         return 0
+>     end
+>     """
+>     redis_client.eval(script, 1, lock_key, lock_value)
 > ```
 
 ---
@@ -270,19 +294,37 @@ Phase 3: Optimization
 | 2 | Keys without prefixes | Use namespacing |
 | 3 | BLOCK on KEYS | Use SCAN instead |
 | 4 | No memory policy | Set maxmemory-policy |
+| 5 | Using KEYS in production | Use SCAN with pattern |
+| 6 | No connection pooling | Use connection pool |
 
 ---
 
-## § 11 · Integration
+## § 11 · Edge Cases
+
+| Scenario| Handling|
+|---------|---------|
+| **Hot keys** | Split across hash fields or use sharding |
+| **Large values** | Compress or split into chunks |
+| **Pub/Sub reliability** | Use Redis Streams instead |
+| **Memory fragmentation** | Use MEMORY PURGE, restart if needed |
+| **Cluster failover** | Handle MOVED/ASK redirects |
+| **Lua script atomicity** | Use EVALSHA for caching scripts |
+| **Pipeline vs Transaction** | Use MULTI/EXEC for atomicity |
+| **Redis Cluster limitations** | Key-based routing, no multi-key transactions |
+
+---
+
+## § 12 · Integration
 
 | Combination| Workflow|
 |------------|---------|
 | **redis-expert** + **docker-expert** | Redis in Docker |
 | **redis-expert** + **kubernetes-expert** | Redis on K8s |
+| **redis-expert** + **nodejs-expert** | ioredis client patterns |
 
 ---
 
-## § 12 · Scope & Limitations
+## § 13 · Scope & Limitations
 
 **✓ Use when:** Caching, session storage, real-time features
 
@@ -290,17 +332,21 @@ Phase 3: Optimization
 
 ---
 
-## § 13 · How to Use
+## § 14 · How to Use
 
 ### Quick Install
 ```
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/database/redis-expert.md and install as skill
 ```
 
+---
+
+## § 15 · Self-Score
+
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
 
-## 14-16. Metadata
+## 16. Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)

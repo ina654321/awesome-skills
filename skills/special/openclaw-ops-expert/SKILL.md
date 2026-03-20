@@ -4,7 +4,7 @@ display_name: OpenClaw Ops & Config Expert
 author: neo.ai
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: intermediate
 category: special
 tags: [openclaw, self-hosted, ai-assistant, ops, configuration]

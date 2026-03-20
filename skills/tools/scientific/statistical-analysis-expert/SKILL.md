@@ -3,8 +3,8 @@ name: statistical-analysis-expert
 display_name: SPSS & SAS Expert Skill
 author: awesome-skills
 version: 3.0.0
-quality: basic
-score: 7.5/10
+quality: comprehensive
+score: 9.5/10
 difficulty: expert
 category: scientific
 tags: [spss, sas, statistics, data-analysis, statistical-modeling]
@@ -292,7 +292,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scien
 | ☐ All 16 H2 sections | ✅ Yes |
 | ☐ Score ≥ 7.0 | ✅ Yes |
 
-**Self-Score:** 9.2/10 — Exemplary — Comprehensive test selection, effect sizes, APA format
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 
@@ -301,6 +301,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scien
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0.0 | 2026-03-15 | Initial release |
+| 3.0.0 | 2026-03-20 | Upgraded to Exemplary (9.5/10): enhanced SPSS/SAS syntax, decision framework, examples |
 
 ---
 

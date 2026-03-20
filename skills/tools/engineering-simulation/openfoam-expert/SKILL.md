@@ -2,9 +2,9 @@
 name: openfoam-expert
 display_name: OpenFOAM Expert
 author: neo.ai
-version: 3.0.0
+version: 3.1.0
 quality: comprehensive
-score: 8.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [openfoam, cfd, fluid-dynamics, open-source, computational-fluid-dynamics]
@@ -18,7 +18,7 @@ description: >
 
 # OpenFOAM Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/engineering-simulation/openfoam-expert.md`
 

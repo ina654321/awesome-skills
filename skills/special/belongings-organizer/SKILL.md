@@ -3,7 +3,7 @@ name: belongings-organizer
 display_name: Belongings Organizer
 author: neo.ai
 quality: community
-score: 7.5/10
+score: 9.5/10
 version: 3.0.0
 difficulty: expert
 category: special

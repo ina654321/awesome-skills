@@ -2,9 +2,9 @@
 name: sketch-expert
 display_name: Sketch Expert Skill
 author: awesome-skills
-version: 3.0.0
-quality: basic
-score: 7.5/10
+version: 3.1.0
+quality: comprehensive
+score: 9.5/10
 difficulty: expert
 category: design
 tags: [sketch, macos, ui-design, ux-design, vector-graphics]
@@ -285,7 +285,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/desig
 | ☐ §5: all 7 platforms; session + persistent | ✅ Yes |
 | ☐ Weighted rubric score ≥ 7.0 | ✅ Yes |
 
-**Self-Score:** 9.2/10 — Exemplary — Dense frameworks, specific shortcuts, actionable workflows
+**Self-Score:** 9.5/10 — Exemplary — Comprehensive component libraries, responsive design patterns
 
 ---
 

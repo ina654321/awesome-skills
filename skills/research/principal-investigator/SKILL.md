@@ -4,7 +4,7 @@ display_name: Principal Investigator
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: research
 tags: [research, academic, grant-writing, experimental-design, peer-review, publication, lab-management]

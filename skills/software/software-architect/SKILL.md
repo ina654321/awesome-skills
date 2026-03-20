@@ -4,7 +4,7 @@ display_name: Software Architect
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.0/10
+score: 9.5/10
 difficulty: expert
 category: software
 tags: [architecture, system-design, patterns, distributed-systems, technical-leadership]

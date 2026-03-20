@@ -4,7 +4,7 @@ display_name: Miro Expert Skill
 author: awesome-skills
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: productivity
 tags: [miro, whiteboard, collaboration, workshops, brainstorming]
@@ -141,6 +141,12 @@ Closing (15%)
 | **Voting** | Anonymous dot voting for prioritization |
 | **Mind Map** | Structured brainstorming with hierarchy |
 | **Card Sort** | Organize information architecture |
+| **Workshop Bot** | AI-powered facilitation and real-time synthesis |
+| **Present Mode** | Focused presenter view with spotlight and laser pointer |
+| **Frame Navigation** | Jump between frames; build presentation flows |
+| **Presentation Builder** | Auto-generate slide deck from board sections |
+| **Video Conferencing** | Built-in Zoom/Meet integration for in-board sessions |
+| **DevConnect** | Link sticky notes to Jira/Linear issues for tracking |
 
 ---
 
@@ -237,11 +243,34 @@ Phase 4: Follow-up
 | 1 | **Free-form Canvas** | 🔴 High | Use frames to create sections |
 | 2 | **Long Sticky Notes** | 🟡 Medium | One idea per note; 3-5 words |
 | 3 | **No Time Management** | 🟡 Medium | Use built-in timer for each activity |
+| 4 | **No Legend or Key** | 🟡 Medium | Add legend frame explaining colors and symbols |
+| 5 | **Overlapping Sticky Notes** | 🟡 Medium | Use smart alignment; keep notes spaced |
+| 6 | **Static Board After Workshop** | 🟡 Medium | Assign action items from sticky notes to Jira/Linear |
+| 7 | **Too Many Colors** | 🟡 Medium | Max 5 colors; consistent meaning per color |
+| 8 | **Not Exporting Results** | 🟡 Medium | Export to PDF/PNG or sync to documentation |
 
 ```
 ❌ Write paragraphs on sticky notes
 ✅ One idea, 3-5 words, color-coded by theme
+
+❌ Board used once and never revisited
+✅ Assign owners to sticky notes; schedule review sessions
+
+❌ All participants drawing on same area simultaneously
+✅ Assign quadrants to individuals or breakout groups
 ```
+
+### § 10.1 Edge Cases
+
+| Edge Case| Handling|
+|----------|---------|
+| **Timezone differences** | Use async workshops: assign frames to regions; synthesize results |
+| **Introvert participants** | Use anonymous voting; allow async sticky note contributions |
+| **Controversial topics** | Use "Silent sorting" activity to prevent anchoring bias |
+| **Large group (20+)** | Break into breakout boards; one facilitator per group |
+| **Subject matter experts absent** | Pre-interview and present findings as "Research Frame" |
+| **Board becomes too large** | Split into multi-board project; link boards with arrows |
+| **Copyright concerns** | Use shapes and text instead of copying competitor logos |
 
 ---
 
@@ -292,7 +321,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/produ
 | ☐ §5: all 7 platforms | ✅ Yes |
 | ☐ Score ≥ 7.0 | ✅ Yes |
 
-**Self-Score:** 9.1/10 — Exemplary — Dense frameworks, specific workflows, actionable templates
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

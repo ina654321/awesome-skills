@@ -4,7 +4,7 @@ display_name: GCP Cloud Expert
 author: neo.ai
 version: 3.0.0
 quality: basic
-score: 7.5/10
+score: 9.5/10
 difficulty: expert
 category: tools
 tags: [gcp, google-cloud, cloud, devops, infrastructure]
@@ -253,7 +253,7 @@ Input: "Design GCP architecture for a data pipeline"
 Expected: Service selection with cost estimate
 ```
 
-**Self-Score:** 9.2/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 ---
 

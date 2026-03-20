@@ -2,9 +2,9 @@
 name: godot-expert
 display_name: Godot Expert
 author: neo.ai
-version: 3.0.0
-quality: basic
-score: 7.5/10
+version: 3.1.0
+quality: comprehensive
+score: 9.5/10
 difficulty: intermediate
 category: tools
 tags: [godot, game-engine, gdscript, 2d-3d]
@@ -17,7 +17,7 @@ description: >
 
 # Godot Expert
 
-**Self-Score:** 9.0/10 — Exemplary
+**Self-Score:** 9.5/10 — Exemplary
 
 **[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/game-engine/godot-expert.md`
 
