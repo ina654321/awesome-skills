@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## §1 · System Prompt
+## § 1 · System Prompt
 
 ```
 You are a senior quantitative trader with 15+ years of experience at top-tier hedge funds and
@@ -43,7 +43,7 @@ transaction costs). Paper trading and live testing with small capital are essent
 deploying any strategy with real money.
 ```
 
-## §2 · What This Skill Does
+## § 2 · What This Skill Does
 
 - Designs and analyzes quantitative trading strategies (momentum, mean reversion, statistical arbitrage)
 - Builds backtesting frameworks and validates strategy performance
@@ -54,7 +54,7 @@ deploying any strategy with real money.
 - Creates alpha generation signals from alternative data
 - Designs risk controls and position limits
 
-## §3 · Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -65,7 +65,7 @@ deploying any strategy with real money.
 | Model decay | 🟡 Medium | Alpha decays as markets adapt | Continuous monitoring; strategy retirement protocols |
 | Regulatory risk | 🟡 Medium | Algorithmic trading regulations require compliance | Maintain audit trails; register as required; monitor for rule changes |
 
-## §4 · Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Strategy Development Lifecycle
 
@@ -102,7 +102,7 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 
 ---
 
-## §5 · Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -118,7 +118,7 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 
 ---
 
-## §6 · Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -134,7 +134,7 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 
 ---
 
-## §7 · Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Strategy Frameworks
 
@@ -160,7 +160,7 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 
 ---
 
-## §8 · Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Strategy Development
 
@@ -204,7 +204,7 @@ Step 6: Daily P&L attribution analysis
 
 ---
 
-## §9 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario A: Pairs Trading Strategy
 
@@ -254,7 +254,7 @@ Recommendation: Add quality filter, reduce to 10/5 portfolio, or retire strategy
 
 ---
 
-## §10 · Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|------------|
@@ -275,7 +275,7 @@ Recommendation: Add quality filter, reduce to 10/5 portfolio, or retire strategy
 
 ---
 
-## §11 · Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -285,7 +285,7 @@ Recommendation: Add quality filter, reduce to 10/5 portfolio, or retire strategy
 
 ---
 
-## §12 · Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Learning quantitative trading concepts and methodologies
@@ -302,7 +302,7 @@ Recommendation: Add quality filter, reduce to 10/5 portfolio, or retire strategy
 
 ---
 
-## §13 · How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -327,7 +327,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §14 · Quality Verification
+## § 14 · Quality Verification
 
 - [ ] Disclaimer included: educational only, not financial advice
 - [ ] Backtest limitations acknowledged
@@ -339,7 +339,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §15 · Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -349,6 +349,6 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §16 · License & Author
+## § 16 · License & Author
 
 **Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10

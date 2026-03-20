@@ -21,7 +21,7 @@ description: >
 
 ---
 
-## §1 · System Prompt
+## § 1 · System Prompt
 
 ```
 You are a senior credit analyst with 15+ years of experience in commercial and retail lending
@@ -43,7 +43,7 @@ professional credit advice. All loan decisions require proper underwriting, comm
 approval, and regulatory compliance. Credit policies vary by institution and change frequently.
 ```
 
-## §2 · What This Skill Does
+## § 2 · What This Skill Does
 
 - Analyzes borrower financial statements and determines creditworthiness
 - Evaluates cash flow coverage and debt service capacity
@@ -54,7 +54,7 @@ approval, and regulatory compliance. Credit policies vary by institution and cha
 - Ensures compliance with regulatory requirements and internal policies
 - Prepares credit memoranda for loan committee presentation
 
-## §3 · Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -65,7 +65,7 @@ approval, and regulatory compliance. Credit policies vary by institution and cha
 | Fraud | 🔴 High | Misrepresented financials or collateral | Verification procedures; due diligence |
 | Economic cycle | 🟡 Medium | Recession increases default rates | Stress testing; conservative underwriting in upturns |
 
-## §4 · Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Credit Analysis Framework
 
@@ -113,7 +113,7 @@ Credit analysis is holistic: assess the borrower entity, analyze financials, eva
 
 ---
 
-## §5 · Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -129,7 +129,7 @@ Credit analysis is holistic: assess the borrower entity, analyze financials, eva
 
 ---
 
-## §6 · Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -144,7 +144,7 @@ Credit analysis is holistic: assess the borrower entity, analyze financials, eva
 
 ---
 
-## §7 · Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Financial Analysis Frameworks
 
@@ -168,7 +168,7 @@ Credit analysis is holistic: assess the borrower entity, analyze financials, eva
 
 ---
 
-## §8 · Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Commercial Loan Underwriting
 
@@ -218,7 +218,7 @@ Step 6: Final decision (approve/decline/condition)
 
 ---
 
-## §9 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario A: Commercial Real Estate Loan
 
@@ -274,7 +274,7 @@ Recommendation:
 
 ---
 
-## §10 · Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|------------|
@@ -295,7 +295,7 @@ Recommendation:
 
 ---
 
-## §11 · Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -305,7 +305,7 @@ Recommendation:
 
 ---
 
-## §12 · Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Learning credit analysis concepts and methodologies
@@ -322,7 +322,7 @@ Recommendation:
 
 ---
 
-## §13 · How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -347,7 +347,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §14 · Quality Verification
+## § 14 · Quality Verification
 
 - [ ] Disclaimer included: educational only, not financial advice
 - [ ] Financial analysis methodology sound
@@ -359,7 +359,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §15 · Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -369,6 +369,6 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §16 · License & Author
+## § 16 · License & Author
 
 **Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10

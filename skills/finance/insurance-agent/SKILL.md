@@ -21,7 +21,7 @@ description: >
 
 ---
 
-## §1 · System Prompt
+## § 1 · System Prompt
 
 ```
 You are a licensed insurance agent with 10+ years of experience in personal and commercial
@@ -44,7 +44,7 @@ a qualified agent who can assess their specific situation. Verify licensing requ
 for your jurisdiction.
 ```
 
-## §2 · What This Skill Does
+## § 2 · What This Skill Does
 
 - Conducts comprehensive needs analysis for individuals and businesses
 - Explains insurance products, coverage options, and policy provisions
@@ -55,7 +55,7 @@ for your jurisdiction.
 - Reviews existing coverage and identifies optimization opportunities
 - Explains the insurance buying process and application requirements
 
-## §3 · Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -65,7 +65,7 @@ for your jurisdiction.
 | Coverage gaps | 🔴 High | Uncovered events lead to unexpected losses | Review all exposures; recommend comprehensive coverage |
 | Outdated coverage | 🟡 Medium | Changing circumstances require policy updates | Annual policy review; trigger events (marriage, new home, etc.) |
 
-## §4 · Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Insurance Buying Framework
 
@@ -112,7 +112,7 @@ The insurance buying process starts with understanding what clients need to prot
 
 ---
 
-## §5 · Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -128,7 +128,7 @@ The insurance buying process starts with understanding what clients need to prot
 
 ---
 
-## §6 · Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -143,7 +143,7 @@ The insurance buying process starts with understanding what clients need to prot
 
 ---
 
-## §7 · Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Coverage Frameworks
 
@@ -169,7 +169,7 @@ The insurance buying process starts with understanding what clients need to prot
 
 ---
 
-## §8 · Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 New Client Consultation
 
@@ -217,7 +217,7 @@ Step 7: Document all communications
 
 ---
 
-## §9 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario A: Family Needs Analysis
 
@@ -277,7 +277,7 @@ Risk Management:
 
 ---
 
-## §10 · Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|------------|
@@ -298,7 +298,7 @@ Risk Management:
 
 ---
 
-## §11 · Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -308,7 +308,7 @@ Risk Management:
 
 ---
 
-## §12 · Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Learning about insurance products and coverage options
@@ -325,7 +325,7 @@ Risk Management:
 
 ---
 
-## §13 · How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -350,7 +350,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §14 · Quality Verification
+## § 14 · Quality Verification
 
 - [ ] Disclaimer included: educational only, not professional advice
 - [ ] Coverage recommendations include limits and rationale
@@ -362,7 +362,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §15 · Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -372,6 +372,6 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §16 · License & Author
+## § 16 · License & Author
 
 **Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10

@@ -21,7 +21,7 @@ description: >
 
 ---
 
-## §1 · System Prompt
+## § 1 · System Prompt
 
 ```
 You are a senior fintech engineer with 15+ years of experience building financial technology
@@ -45,7 +45,7 @@ regulatory compliance, and professional engineering practices. Never implement f
 code without proper review and testing.
 ```
 
-## §2 · What This Skill Does
+## § 2 · What This Skill Does
 
 - Designs and architects financial technology systems and platforms
 - Implements payment processing pipelines (card, ACH, wire, RTP)
@@ -56,7 +56,7 @@ code without proper review and testing.
 - Builds regulatory compliance and reporting systems
 - Designs real-time transaction processing systems
 
-## §3 · Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -67,7 +67,7 @@ code without proper review and testing.
 | Smart contract bugs | 🔴 High | Irreversible blockchain transactions | Formal verification, audit, testnets first |
 | Integration failures | 🟡 Medium | Payment failures affect real customers | Robust error handling, reconciliation |
 
-## §4 · Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 FinTech Architecture Framework
 
@@ -122,7 +122,7 @@ FinTech systems require layered architecture with clear separation: presentation
 
 ---
 
-## §5 · Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -138,7 +138,7 @@ FinTech systems require layered architecture with clear separation: presentation
 
 ---
 
-## §6 · Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -155,7 +155,7 @@ FinTech systems require layered architecture with clear separation: presentation
 
 ---
 
-## §7 · Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Payment System Frameworks
 
@@ -179,7 +179,7 @@ FinTech systems require layered architecture with clear separation: presentation
 
 ---
 
-## §8 · Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Payment Integration
 
@@ -230,7 +230,7 @@ Step 8: Plan upgrade mechanism (if needed)
 
 ---
 
-## §9 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario A: Payment Gateway Integration
 
@@ -300,7 +300,7 @@ Security:
 
 ---
 
-## §10 · Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|------------|
@@ -321,7 +321,7 @@ Security:
 
 ---
 
-## §11 · Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -331,7 +331,7 @@ Security:
 
 ---
 
-## §12 · Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Learning fintech architecture and design patterns
@@ -348,7 +348,7 @@ Security:
 
 ---
 
-## §13 · How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -373,7 +373,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §14 · Quality Verification
+## § 14 · Quality Verification
 
 - [ ] Disclaimer included: educational only, not professional advice
 - [ ] Security best practices emphasized
@@ -385,7 +385,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §15 · Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -395,6 +395,6 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §16 · License & Author
+## § 16 · License & Author
 
 **Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10

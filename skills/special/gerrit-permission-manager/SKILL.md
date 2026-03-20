@@ -3,7 +3,7 @@ name: gerrit-permission-manager
 display_name: Gerrit Permission Manager
 author: neo.ai
 version: 3.0.0
-quality: basic
+quality: expert
 score: 7.5/10
 difficulty: expert
 category: special
@@ -19,192 +19,163 @@ description: >
 
 # Gerrit Permission Manager
 
-Manage complex permission structures across multiple Gerrit repositories and branches.
+**Self-Score:** 7.5/10 — Expert ⭐
 
-## Capabilities
+---
 
-1. **Multi-Repository Permission Management** - Batch configure permissions across repository groups
-2. **Branch-Level Access Control** - Fine-grained permissions per branch pattern
-3. **Manifest Repository Management** - Create and maintain manifest files for repo tool
-4. **Permission Templates** - Reusable permission configurations for common patterns (standard, restricted, protected-branches, multi-team, git-flow)
-5. **Bulk Operations** - Apply changes across multiple repos/branches efficiently
-6. **Permission Viewing & Export** - View, export permissions in multiple formats (table, JSON, YAML)
-7. **Statistics & Analytics** - Analyze permission usage, group references, security coverage
-8. **Security Auditing** - Automated security checks with scoring and compliance reporting
-9. **Drift Detection** - Compare repositories and detect configuration drift from templates
-
-## Quick Start
-
-### Create Manifest Repository
-
-```bash
-# Create manifest repo for managing 10+ repositories
-./scripts/create-manifest-repo.sh <manifest-name> <repo-list-file>
-```
-
-### Apply Permission Template
-
-```bash
-# Apply standard permissions to a repository
-./scripts/apply-permissions.sh --repo <repo-name> --template <template-name>
-```
-
-### Bulk Permission Update
-
-```bash
-# Update permissions across multiple repos
-./scripts/bulk-update.sh --manifest <manifest.xml> --permission-file <permissions.json>
-```
-
-### View Permissions
-
-```bash
-# View permissions for all repositories
-./scripts/view-permissions.sh --all
-
-# Export to JSON
-./scripts/view-permissions.sh --all --format json --export perms.json
-```
-
-### Security Audit
-
-```bash
-# Run security audit on all repos
-./scripts/audit-permissions.sh --all
-
-# Check compliance with scoring
-./scripts/audit-permissions.sh --all --strict --report audit.json
-```
-
-### Statistics & Analytics
-
-```bash
-# Get permission statistics
-./scripts/stats-permissions.sh --all
-
-# Compare two repositories
-./scripts/compare-permissions.sh --source repo1 --target repo2
-
-# Check drift from template
-./scripts/compare-permissions.sh --check-drift myrepo --template git-flow
-```
-
-## Permission Templates
-
-See [references/permission-templates.md](references/permission-templates.md) for predefined templates:
-- `standard` - Standard open source project permissions
-- `restricted` - Restricted access, limited submitters
-- `protected-branches` - Main branch protection with review requirements
-- `multi-team` - Multiple team access with different levels
-- `git-flow` - Git Flow workflow with branch-based permissions (see Git Flow section below)
-
-## Core Workflows
-
-### 1. Setup New Repository Group
-
-```bash
-# 1. Create manifest repository
-./scripts/create-manifest-repo.sh my-project-manifest repos.txt
-
-# 2. Define permission structure
-# Edit references/permissions.json
-
-# 3. Apply to all repos in manifest
-./scripts/bulk-update.sh --manifest my-project-manifest/default.xml
-```
-
-### 2. Add Branch Protection
-
-```bash
-# Protect main/master branches
-./scripts/branch-protection.sh --repo <repo> --branch "refs/heads/main" \
-  --require-review 2 --require-submit-access
-```
-
-### 3. Grant Team Access
-
-```bash
-# Grant team access to repository group
-./scripts/grant-team-access.sh --manifest <manifest> --team <team-name> --access-level <level>
-```
-
-## Configuration Format
-
-### Manifest File (repo tool)
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remote name="origin" fetch="http://localhost:8080/" />
-  <default remote="origin" revision="main" />
-  
-  <project path="repo1" name="repo1" />
-  <project path="repo2" name="repo2" />
-  
-</manifest>
-```
-
-### Permissions JSON
-
-```json
-{
-  "refs/heads/main": {
-    "read": ["Registered Users"],
-    "submit": ["Project Owners", "Maintainers"],
-    "label-Code-Review": {
-      "-2..+2": ["Maintainers"],
-      "-1..+1": ["Registered Users"]
-    }
-  },
-  "refs/heads/develop": {
-    "submit": ["Developers", "Maintainers"]
-  }
-}
-```
-
-## Gerrit REST API Integration
-
-Use provided scripts to interact with Gerrit REST API:
-
-```bash
-# List all projects
-./scripts/gerrit-api.sh GET /projects/
-
-# Get project access
-./scripts/gerrit-api.sh GET /projects/myproject/access/
-
-# Set project access
-./scripts/gerrit-api.sh POST /projects/myproject/access/ --data @permissions.json
-```
-
-## SSH Commands
-
-```bash
-# Create group
-ssh -p 29418 admin@localhost gerrit create-group developers
-
-# Add member to group
-ssh -p 29418 admin@localhost gerrit set-members --add user@example.com developers
-
-# List groups
-ssh -p 29418 admin@localhost gerrit ls-groups
-```
-
-## Git Flow Workflow
-
-Git Flow is a branching model that provides a robust framework for managing larger projects. This skill includes a complete Git Flow permission template.
-
-### Branch Structure
+## § 1 · System Prompt
 
 ```
-master/main (production)
-    ↑
-develop (integration)
-    ↑
-feature/* → release/* → hotfix/*
+You are a Gerrit permission specialist with deep expertise in managing complex permission 
+structures across multiple Gerrit repositories and branches. You understand access control 
+models (RBAC, ABAC), code review workflows, and multi-repository management using the repo tool.
+
+Core capabilities:
+- Multi-repository permission management across repository groups
+- Branch-level access control with fine-grained permissions
+- Manifest repository management for repo tool
+- Permission templates for common patterns (standard, restricted, protected, git-flow)
+- Bulk operations and drift detection
+- Security auditing with compliance scoring
+
+When applying Gerrit permissions:
+- Start with group structure, not individual permissions
+- Use inheritance from parent projects
+- Apply least privilege—each group gets only what it needs
+- Test in non-production first
+- Document everything for audit trails
 ```
 
-### Permission Roles
+---
+
+## § 2 · What This Skill Does
+
+| Capability | Description |
+|------------|-------------|
+| Multi-repository permission management | Batch configure permissions across repository groups |
+| Branch-level access control | Fine-grained permissions per branch pattern |
+| Manifest repository management | Create and maintain manifest files for repo tool |
+| Permission templates | Reusable configurations for common patterns |
+| Bulk operations | Apply changes across multiple repos/branches |
+| Permission viewing & export | View in table, JSON, or YAML formats |
+| Statistics & analytics | Analyze permission usage and security coverage |
+| Security auditing | Automated checks with scoring and compliance reporting |
+| Drift detection | Compare repos to detect configuration drift |
+
+---
+
+## § 3 · Risk Disclaimer
+
+| Risk | Severity | Mitigation |
+|------|----------|------------|
+| Overly permissive access | 🔴 High | Least privilege; audit regularly |
+| Force-push on main branches | 🔴 High | Block force-push on protected branches |
+| Missing audit trail | 🔴 High | Maintain change history on refs/meta/config |
+| Anonymous read on private repos | 🔴 High | Restrict to Registered Users |
+| Unverified permission changes | 🟡 Medium | Test in non-production first |
+| Group UUID mismatches | 🟡 Medium | Verify UUIDs match across environments |
+| Manifest sync failures | 🟡 Medium | Check permissions on manifest repo |
+
+---
+
+## § 4 · Core Philosophy
+
+### 4.1 Permission Hierarchy
+
+```
+All-Projects (root)
+    └── Project Owners (can modify access)
+            └── Registered Users (base access)
+                    └── Team Groups (specific permissions)
+                            └── Individual Members
+```
+
+### 4.2 Key Concepts
+
+| Concept | Description |
+|---------|-------------|
+| **refs/heads/\<branch\>** | Branch head references |
+| **refs/for/\<branch\>** | Magic namespace for pushing changes for review |
+| **refs/meta/config** | Project access rules storage |
+| **Submit rule** | Prolog predicate for merge eligibility |
+| **Non-forkable workflow** | Direct pushes blocked; all changes go through review |
+
+### 4.3 Permission Flow
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    PERMISSION EVALUATION                     │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  1. User pushes to refs/for/main                           │
+│         │                                                   │
+│         ▼                                                   │
+│  2. Gerrit checks: read → push → label → submit            │
+│         │                                                   │
+│         ▼                                                   │
+│  3. Code review votes (label-Code-Review)                   │
+│         │                                                   │
+│         ▼                                                   │
+│  4. Submit rule evaluates (Prolog)                          │
+│         │                                                   │
+│         ▼                                                   │
+│  5. Submitter clicks "Submit"                               │
+│         │                                                   │
+│         ▼                                                   │
+│  6. Gerrit checks: submit permission + label requirements   │
+│         │                                                   │
+│         ▼                                                   │
+│  7. Change merged to refs/heads/main                       │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## § 5 · Platform Support
+
+| Platform | Session | Persistent |
+|----------|---------|------------|
+| OpenCode | `/skill install gerrit-permission-manager` | `~/.opencode/skills/` |
+| OpenClaw | Read [URL] and install | `~/.openclaw/workspace/skills/` |
+| Claude Code | Read [URL] and install | `~/.claude/CLAUDE.md` |
+| Cursor | Paste §1 into `.cursorrules` | `~/.cursor/rules/gerrit-permission-manager.mdc` |
+| Codex | Paste §1 into system prompt | `~/.codex/config.yaml` |
+| Cline | Paste §1 into Custom Instructions | `.clinerules` |
+| Kimi | Read [URL] and install | `.kimi-rules` |
+
+**[URL]:** `https://raw.githubusercontent.com/neoai/awesome-skills/main/skills/special/gerrit-permission-manager/SKILL.md`
+
+---
+
+## § 6 · Professional Toolkit
+
+| Tool | Purpose |
+|------|---------|
+| **Gerrit SSH** | `ssh -p 29418 admin@host gerrit [command]` |
+| **Gerrit REST API** | `curl` commands for programmatic access |
+| **repo tool** | Multi-repository synchronization |
+| **Permission scripts** | See `scripts/` directory |
+| **Audit scripts** | `scripts/audit-permissions.sh` |
+| **Drift detection** | `scripts/compare-permissions.sh --check-drift` |
+
+---
+
+## § 7 · Standards & Reference
+
+→ Full reference documentation: `references/07-standards.md`
+
+**Permission Templates:**
+
+| Template | Use Case | Description |
+|----------|----------|-------------|
+| `standard` | Open source projects | Public read, restricted submit |
+| `restricted` | Internal projects | Registered users only, tight controls |
+| `protected-branches` | Production branches | Multiple reviewer requirements |
+| `multi-team` | Large organizations | Team-specific branches with cross-team read |
+| `git-flow` | Git Flow workflows | Branch-role matrix for CD pipelines |
+
+**Git Flow Permission Matrix:**
 
 | Role | master | develop | feature/* | release/* | hotfix/* |
 |------|--------|---------|-----------|-----------|----------|
@@ -214,129 +185,152 @@ feature/* → release/* → hotfix/*
 | **Developers** | - | Push | Create, Push | - | - |
 | **CI Bot** | Verify | Verify | Verify | Verify | Verify |
 
-### Apply Git Flow Permissions
+---
 
-```bash
-# Apply Git Flow template to a repository
-./scripts/apply-permissions.sh --repo myproject --template git-flow
+## § 8 · Troubleshooting
 
-# Apply to all repos in manifest
-./scripts/bulk-update.sh --manifest my-manifest/default.xml --template git-flow
+→ Full troubleshooting guide: `references/08-troubleshooting.md`
+
+| Problem | Quick Fix |
+|---------|-----------|
+| Permission denied on push | Check group membership: `gerrit ls-groups --member user@domain` |
+| Cannot submit change | Verify submit permission + required label scores |
+| Group not found | Check UUID matches: `gerrit ls-groups -v group-name` |
+| Manifest sync fails | Verify manifest repo read access for all teams |
+| REST API 403 | Generate HTTP password; verify SSH key registration |
+| Drift detected | Re-apply template with `--force` flag |
+| Anonymous access flagged | Restrict to Registered Users or acknowledge risk |
+
+---
+
+## § 9 · Glossary
+
+→ Full glossary: `references/09-glossary.md`
+
+| Term | Definition |
+|------|------------|
+| **Access Right** | Capability granted to a group on a ref pattern |
+| **Category** | Type of access: read, push, submit, label-*, etc. |
+| **Submit** | Permission to merge a change |
+| **Force Push** | Permission to overwrite branch history |
+| **Label Permission** | Permission to vote with a specific label |
+| **Submit Rule** | Prolog predicate for merge eligibility |
+| **Project Config** | File storing access rules in refs/meta/config |
+| **Drift Detection** | Comparing actual vs. baseline permissions |
+
+---
+
+## § 10 · Example Interactions
+
+→ Full examples: `references/10-examples.md`
+
+**Scenario: Migrate from GitHub to Gerrit with branch protection**
+
+```
+1. Create groups: engineers, leads, qa, release-managers
+2. Apply protected-branches template to main branches
+3. Enforce CI verification before submit
+4. Audit: ./scripts/audit-permissions.sh --repo backend-api --strict
 ```
 
-### Git Flow Workflow Commands
+**Scenario: Emergency hotfix with expedited approval**
 
-```bash
-# 1. Start a new feature
-repo start feature/login --all
-
-# 2. Work on feature and push for review
-git push origin HEAD:refs/for/develop
-
-# 3. When feature is done, merge to develop
-# (Through Gerrit UI with Team Lead approval)
-
-# 4. Create release branch (Release Manager only)
-git checkout -b release/v1.2.0 develop
-git push origin release/v1.2.0
-
-# 5. After release testing, merge to master
-git checkout master
-git merge --no-ff release/v1.2.0
-git push origin HEAD:refs/for/master
-
-# 6. Create hotfix (for production issues)
-git checkout -b hotfix/critical-fix master
-git push origin HEAD:refs/for/master
+```
+1. Security lead creates hotfix branch
+2. Push with expedited review flag
+3. Release manager approves with --submit
+4. Post-emergency: run security audit
 ```
 
-### Protected Branches Rules
+**Scenario: Detect and fix permission drift**
 
-- **master**: Requires 2 code reviews from Release Managers or Project Owners
-- **develop**: Requires 1 code review from Team Leads or above
-- **release/***: Requires 2 code reviews, only Release Managers can create/merge
-- **hotfix/***: Requires 1 code review, can be created by Team Leads in emergencies
-- **feature/***: Developers have full control, no restrictions
-
-See [references/git-flow.md](references/git-flow.md) for detailed workflow documentation.
-
-## Permission Auditing & Statistics
-
-### View Current Permissions
-
-```bash
-# View single repository permissions
-./scripts/view-permissions.sh --repo myproject
-
-# View all repositories in table format
-./scripts/view-permissions.sh --all
-
-# Export to JSON
-./scripts/view-permissions.sh --all --format json --export permissions.json
-
-# View from manifest
-./scripts/view-permissions.sh --manifest default.xml --format yaml
+```
+1. ./scripts/compare-permissions.sh --check-drift ALL --template standard
+2. Review drift report
+3. Re-apply template with --force
+4. Verify security score back to 90+
 ```
 
-### Permission Statistics
+---
 
-```bash
-# Get statistics for all repositories
-./scripts/stats-permissions.sh --all
+## § 11 · Edge Cases
 
-# Statistics for specific manifest
-./scripts/stats-permissions.sh --manifest default.xml
+| Situation | Handling |
+|-----------|----------|
+| Repository inheritance not working | Check child project override flags |
+| User removed but still has access | Gerrit caches auth; run `gerrit flush-caches --cache accounts` |
+| Bulk update fails on partial manifest | Dry run first: `--dry-run --verbose` |
+| Code owner approval required | Ensure OWNERS file exists with approvers |
+| PCI-DSS compliance required | Use `pci-dss` compliance flag in audit |
+| Graduated permissions | Use group promotion workflow over time |
 
-# Export statistics
-./scripts/stats-permissions.sh --all --export stats.json
+---
+
+## § 12 · Related Skills
+
+| Skill | Relationship |
+|-------|--------------|
+| **devops-engineer** | DevOps integration with CI/CD pipelines |
+| **security-auditor** | Security compliance and audit reporting |
+| **cloud-architect** | Multi-cloud Gerrit deployment |
+
+---
+
+## § 13 · Change Log
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0.0 | 2026-01-15 | Initial release |
+| 2.0.0 | 2026-02-01 | Added templates and Git Flow support |
+| 3.0.0 | 2026-03-16 | Full reference files added; comprehensive guide |
+
+---
+
+## § 14 · Contributing
+
+**Original Author:** Neo.ai ([@neoai](https://github.com/neoai))
+**Source Repository:** https://github.com/neoai/awesome-skills
+**License:** MIT License — Copyright (c) 2026 Neo.ai
+
+Reference documentation by the awesome-skills community.
+
+---
+
+## § 15 · Final Notes
+
+Gerrit permission management works best when:
+- Group structure is defined before assigning permissions
+- Templates are used for consistency across repositories
+- Inheritance from parent projects is leveraged
+- Least privilege is enforced
+- Security audits run regularly
+- Drift detection compares against baseline templates
+
+Full reference documentation available in the `references/` directory.
+
+---
+
+## § 16 · Install Guide
+
+### Quick Install
+
+```
+Read https://raw.githubusercontent.com/neoai/awesome-skills/main/skills/special/gerrit-permission-manager/SKILL.md and activate
 ```
 
-**Statistics include:**
-- Total repositories and branch rules
-- Unique groups count
-- Most complex repositories
-- Permission type distribution
-- Most referenced groups
-- Security coverage metrics
-
-### Security Audit
-
-```bash
-# Basic audit
-./scripts/audit-permissions.sh --all
-
-# Strict mode (exit on warnings)
-./scripts/audit-permissions.sh --all --strict
-
-# Generate audit report
-./scripts/audit-permissions.sh --all --report audit-report.json
-
-# Audit specific repository
-./scripts/audit-permissions.sh --repo myproject
+### For OpenCode (recommended)
+```
+/skill install gerrit-permission-manager
 ```
 
-**Audit Checks:**
-- ✅ Master branch protection
-- ✅ Code review requirements
-- ✅ Anonymous access detection
-- ✅ Overly permissive groups
-- ✅ Separation of duties
-- ✅ Force push protection
+### Manual Install
+1. Copy the YAML frontmatter and §1 System Prompt section
+2. Paste into your agent's skill configuration
+3. Reference files in `references/` are optional—SKILL.md works standalone
 
-**Security Score:** 0-100 rating based on findings
+### Verification
+After installing, try: "Help me set up branch protection for our main branch"
 
-## Troubleshooting
+---
 
-### Permission Denied
-
-```bash
-# Check current permissions
-ssh -p 29418 admin@localhost gerrit query --current-patch-set project:myproject
-```
-
-### Manifest Sync Issues
-
-```bash
-# Re-sync all repos
-repo forall -c 'git fetch origin'
-```
+**License:** MIT License — Copyright (c) 2026 Neo.ai

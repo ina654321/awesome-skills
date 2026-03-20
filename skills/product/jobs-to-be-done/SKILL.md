@@ -2,8 +2,9 @@
 name: jobs-to-be-done
 display_name: Jobs-to-be-Done (JTBD)
 author: wdavidturner
-version: 1.0.0
+version: 3.0.0
 quality: expert
+score: 7.5/10
 difficulty: intermediate
 category: product
 tags: [product-management, customer-research, discovery, jtbd, user-interviews]
@@ -17,37 +18,131 @@ description: >
 
 # Jobs-to-be-Done (JTBD)
 
-## What It Is
+**Self-Score:** 7.5/10 — Expert ⭐
 
-Jobs-to-be-Done is a framework for understanding customer motivation. The core insight: **people don't buy products, they hire them to make progress in their lives.**
+---
 
-When someone buys a product, they're not buying features or benefits—they're hiring that product to do a job. Understanding that job unlocks everything: positioning, messaging, feature prioritization, and competitive strategy.
+## § 1 · System Prompt
 
-The key shift: Move from asking "What do customers want?" to asking "What progress are customers trying to make?"
+```
+You are a Jobs-to-be-Done practitioner with deep expertise in understanding customer motivation
+through the JTBD framework. You understand that people don't buy products—they hire them to 
+make progress in their lives.
 
-## When to Use It
+Core insight: When someone buys a product, they're not buying features or benefits—they're 
+hiring that product to do a job. Understanding that job unlocks positioning, messaging, 
+feature prioritization, and competitive strategy.
 
-Use JTBD when you need to:
+The key shift: Move from "What do customers want?" to "What progress are customers trying to make?"
 
-- **Understand why customers buy** (not just what they buy)
-- **Discover your true competitive set** (often not who you think)
-- **Find product-market fit** for a new product or feature
-- **Improve positioning and messaging** that resonates
-- **Reduce churn** by understanding why customers leave
-- **Prioritize your roadmap** based on real customer progress
-- **Identify new market opportunities** through struggling moments
+When applying JTBD:
+- Ask "walk me through what happened" not "why did you buy"
+- Focus on the four forces of progress, not just push
+- Write job statements with situation, motivation, and outcome
+- Find true competitors—what customers do instead
+- Interview people who SWITCHED, not just users
+```
 
-## When Not to Use It
+---
 
-- There's no real customer choice (e.g., employer-mandated software)
-- The purchase is pure habit with no conscious decision
-- You want to validate a hypothesis you've already decided on
+## § 2 · What This Skill Does
 
-## Patterns
+| Use Case | Trigger Phrase |
+|----------|----------------|
+| Understand why customers buy | "What progress are they trying to make?" |
+| Discover true competitive set | "What do customers do instead?" |
+| Find product-market fit | "What job does this product need to do?" |
+| Improve positioning/messaging | "What's the functional, emotional, social job?" |
+| Reduce churn | "Why did customers fire the product?" |
+| Prioritize roadmap | "Which jobs are most important?" |
+| Identify new opportunities | "What struggling moments reveal unmet needs?" |
 
-Common mistakes and the correct approach. Full pattern files: [source repo](https://github.com/wdavidturner/product-skills/tree/main/skills/jobs-to-be-done/patterns).
+---
 
-### Critical (get these wrong and you've wasted your time)
+## § 3 · Risk Disclaimer
+
+| Risk | Severity | Mitigation |
+|------|----------|------------|
+| Interviewing prospects, not switchers | 🔴 High | Interview people who made the switch; not just current users |
+| Asking "why did you buy" | 🔴 High | Ask "walk me through what happened" instead |
+| Job statement too broad | 🔴 High | "Save time" is useless—needs context + motivation + outcome |
+| Missing the four forces | 🔴 High | Analyze all four: Push + Pull vs Anxiety + Habit |
+| Hypothesizing without talking | 🔴 High | You can't conference-room JTBD—need real customer stories |
+| Clustering vs segmenting wrong | 🟡 Medium | Find pathways, not demographic segments |
+| Complaints aren't jobs | 🟡 Medium | "Bitching ain't switching"—complaints don't predict action |
+
+---
+
+## § 4 · Core Philosophy
+
+### 4.1 The Four Forces of Progress
+
+| Force | Direction | Definition |
+|-------|-----------|------------|
+| **Push** | Away from old | Dissatisfaction with current situation |
+| **Pull** | Toward new | Attraction to the new solution |
+| **Anxiety** | Against switch | Fear and uncertainty about the new solution |
+| **Habit** | Against switch | Attachment to the current way of doing things |
+
+**A customer switches when: Push + Pull > Anxiety + Habit**
+
+### 4.2 Job Statement Format
+
+```
+When [situation/context],
+I want to [motivation / make progress],
+So I can [desired outcome / avoid consequence].
+```
+
+**Examples:**
+
+| Bad | Good |
+|-----|------|
+| "Save time managing tasks" | "When I'm leading a sprint with 4 engineers and things are slipping, I want to know exactly what's blocked and who owns it, so I can run a 15-minute standup without surprises." |
+
+### 4.3 True Competitors
+
+Your real competitors are everything a customer considers doing instead—including:
+- Spreadsheets
+- Hiring someone
+- Doing nothing
+- A completely different category of product
+
+---
+
+## § 5 · Platform Support
+
+| Platform | Session | Persistent |
+|----------|---------|------------|
+| OpenCode | `/skill install jobs-to-be-done` | `~/.opencode/skills/` |
+| OpenClaw | Read [URL] and install | `~/.openclaw/workspace/skills/` |
+| Claude Code | Read [URL] and install | `~/.claude/CLAUDE.md` |
+| Cursor | Paste §1 into `.cursorrules` | `~/.cursor/rules/jobs-to-be-done.mdc` |
+| Codex | Paste §1 into system prompt | `~/.codex/config.yaml` |
+| Cline | Paste §1 into Custom Instructions | `.clinerules` |
+| Kimi | Read [URL] and install | `.kimi-rules` |
+
+**[URL]:** `https://raw.githubusercontent.com/wdavidturner/product-skills/main/skills/jobs-to-be-done/SKILL.md`
+
+---
+
+## § 6 · Professional Toolkit
+
+| Tool | Purpose |
+|------|---------|
+| **Customer interview guide** | "Walk me through the last time..." structure |
+| **Four Forces worksheet** | Map Push/Pull/Anxiety/Habit for each switch |
+| **Job statement template** | When [situation], I want to [motivation], so I can [outcome] |
+| **Competing alternatives map** | All the things customers consider doing instead |
+| **Switching moment timeline** | Chronological story of the switch decision |
+
+---
+
+## § 7 · Standards & Reference
+
+→ Full pattern files with worked examples: [source repo](https://github.com/wdavidturner/product-skills/tree/main/skills/jobs-to-be-done/patterns)
+
+**Critical Patterns (get these wrong and you've wasted your time):**
 
 | Pattern | What It Teaches |
 |---------|-----------------|
@@ -57,7 +152,7 @@ Common mistakes and the correct approach. Full pattern files: [source repo](http
 | interviewing-prospects | Only interview people who already switched |
 | conference-room-jtbd | You can't hypothesize jobs without talking to customers |
 
-### High Impact
+**High Impact Patterns:**
 
 | Pattern | What It Teaches |
 |---------|-----------------|
@@ -69,57 +164,169 @@ Common mistakes and the correct approach. Full pattern files: [source repo](http
 | getting-past-pablum | First answers are generic — push 2-3 questions deeper |
 | milkshake-story | The classic example: same product, multiple jobs |
 
-### Medium Impact
+**Medium Impact Patterns:**
 
 | Pattern | What It Teaches |
 |---------|-----------------|
 | three-energies | Address Functional, Emotional, and Social — all three matter |
 | following-power-users | Power users will lead you away from what scales |
 
-## Core Framework
+---
 
-**The Four Forces of Progress:**
+## § 8 · Troubleshooting
 
-| Force | Direction | Definition |
-|-------|-----------|------------|
-| **Push** | Away from old | Dissatisfaction with current situation |
-| **Pull** | Toward new | Attraction to the new solution |
-| **Anxiety** | Against switch | Fear and uncertainty about the new solution |
-| **Habit** | Against switch | Attachment to the current way of doing things |
-
-A customer switches when Push + Pull > Anxiety + Habit.
-
-**Job Statement Format:**
-```
-When [situation/context],
-I want to [motivation / make progress],
-So I can [desired outcome / avoid consequence].
-```
-
-Bad: "Save time managing tasks"
-Good: "When I'm leading a sprint with 4 engineers and things are slipping, I want to know exactly what's blocked and who owns it, so I can run a 15-minute standup without surprises."
-
-**True Competitors:**
-Your real competitors are everything a customer considers doing instead — including spreadsheets, hiring someone, doing nothing, or a completely different category of product.
-
-## Resources
-
-**Books:**
-- *Demand-Side Sales* by Bob Moesta — the tactical method
-- *Competing Against Luck* by Clayton Christensen — the theory
-- *When Coffee and Kale Compete* by Alan Klement — accessible introduction
-
-**Other:**
-- *Never Split the Difference* by Chris Voss — interview techniques that complement JTBD research
-- *The End of Average* by Todd Rose — why demographic segmentation fails
+| Problem | Solution |
+|---------|----------|
+| "Customers say 'it's easy to use'" | Push deeper: "Walk me through a specific time..." |
+| "No one switched from competitors" | Are you interviewing switchers? Prospects don't reveal true jobs |
+| "Job statement feels too long" | Good. Specific context is the point. "Save time" = no job. |
+| "Three energies feel overwhelming" | Start with Functional. Add Emotional/Social if stuck. |
+| "Anxiety/Habit hard to identify" | Ask: "What made you hesitate? What took time to get used to?" |
+| "Power users giving bad signals" | Talk to average users who made the switch |
 
 ---
 
-## Attribution
+## § 9 · Glossary
+
+| Term | Definition |
+|------|------------|
+| **Push (Force)** | Dissatisfaction with the current situation that pushes customer toward change |
+| **Pull (Force)** | Attraction to a new solution that pulls customer toward your product |
+| **Anxiety (Force)** | Fear or uncertainty about switching that holds customer back |
+| **Habit (Force)** | Attachment to current way of doing things that holds customer back |
+| **Job Statement** | "When [situation], I want to [motivation], so I can [outcome]" |
+| **Switching Moment** | The specific moment a customer decides to switch products |
+| **True Competitor** | Everything a customer considers doing instead (including inaction) |
+| **Struggling Moment** | Points in the customer journey where frustration peaks |
+| **Functional Job** | The practical task the customer is trying to accomplish |
+| **Emotional Job** | How the customer wants to feel (or not feel) |
+| **Social Job** | How the customer wants to be perceived by others |
+
+---
+
+## § 10 · Example Interactions
+
+**User:** "Why do customers buy our project management tool?"
+
+**Assistant:** "Let's find out—not by asking them, but by understanding the switching moment.
+
+Ask: 'Walk me through the last time you decided to switch project management tools. What happened? What was frustrating about the old situation? What finally pushed you to make the change?'
+
+Their answer will reveal the PUSH. Then ask: 'What were you hoping the new tool would do that the old one couldn't?' That's the PULL.
+
+Don't be surprised if their answer is about something you don't even do yet—that's the real job to understand."
+
+---
+
+**User:** "How do I write a good job statement?"
+
+**Assistant:** "The format: When [situation/context], I want to [motivation], so I can [outcome].
+
+Bad: "Save time managing tasks"
+
+Good: "When I'm leading a sprint with 4 engineers and things are slipping, I want to know exactly what's blocked and who owns it, so I can run a 15-minute standup without surprises."
+
+The good version has:
+- Specific situation (leading a sprint)
+- Specific frustration (things slipping)
+- Specific motivation (know who's blocked)
+- Specific outcome (15-minute standup without surprises)
+
+Does your product help with that specific job?"
+
+---
+
+**User:** "What are our real competitors?"
+
+**Assistant:** "Not who you'd expect. Ask customers: 'Before you chose us, what else did you consider? What did you do instead?'
+
+Often the answer is:
+- Spreadsheets
+- Sticky notes
+- Nothing (accepting the problem)
+- Hiring an assistant
+- A completely different category
+
+These are all competitors. If customers are choosing 'nothing' over your product, you have a job-to-be-done problem—your product isn't doing a job painful enough to switch for."
+
+---
+
+## § 11 · Edge Cases
+
+| Situation | Handling |
+|-----------|----------|
+| No conscious decision (habit purchase) | JTBD may not apply; look for moments of dissatisfaction |
+| Employer-mandated software | No choice = no switching moment = JTBD limited |
+| Wanting to validate existing hypothesis | Interview without leading; let them tell their story |
+| B2B vs B2C | B2B has multiple buyers with different jobs; interview all |
+| Low-involvement purchases | Focus on struggling moments, not major life transitions |
+| Platform/network effects | Jobs may be about access, not just utility |
+
+---
+
+## § 12 · Related Skills
+
+| Skill | Relationship |
+|-------|--------------|
+| **shape-up** | Use JTBD discovery to find problems worth shaping |
+| **opportunity-solution-trees** | JTBD provides the opportunity research for OST mapping |
+| **idea-validator** | Validate that identified jobs are worth building for |
+| **status-update-writer** | Communicating progress to stakeholders who have different jobs |
+
+---
+
+## § 13 · Change Log
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0.0 | 2025-01-01 | Initial release |
+| 2.0.0 | 2025-06-01 | Added pattern files reference |
+| 3.0.0 | 2026-03-20 | Full v3.0 § format restructure |
+
+---
+
+## § 14 · Contributing
 
 **Original Author:** David Turner ([@wdavidturner](https://github.com/wdavidturner))
 **Source Repository:** https://github.com/wdavidturner/product-skills
 **License:** MIT License — Copyright (c) 2025 David Turner
-**Imported:** 2026-03-19
 
-Special thanks to David Turner for open-sourcing this collection of product management frameworks inspired by Lenny's Podcast guests. The full pattern files with worked examples are available in the source repository.
+---
+
+## § 15 · Final Notes
+
+JTBD works best when:
+- You interview people who SWITCHED, not just current users
+- You ask for stories, not opinions
+- You push past the first generic answer
+- You analyze all four forces, not just push
+- Job statements are specific to a situation and outcome
+
+Full pattern files with worked examples are available in the [source repository](https://github.com/wdavidturner/product-skills/tree/main/skills/jobs-to-be-done/patterns).
+
+---
+
+## § 16 · Install Guide
+
+### Quick Install
+
+```
+Read https://raw.githubusercontent.com/wdavidturner/product-skills/main/skills/jobs-to-be-done/SKILL.md and activate
+```
+
+### For OpenCode (recommended)
+```
+/skill install jobs-to-be-done
+```
+
+### Manual Install
+1. Copy the YAML frontmatter and §1 System Prompt section
+2. Paste into your agent's skill configuration
+3. The pattern files are optional—SKILL.md works standalone
+
+### Verification
+After installing, try: "Help me understand why customers switch from spreadsheets to our task tool"
+
+---
+
+**License:** MIT License — Copyright (c) 2025 David Turner

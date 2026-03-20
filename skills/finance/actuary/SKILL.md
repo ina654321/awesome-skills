@@ -20,7 +20,7 @@ description: >
 
 ---
 
-## §1 · System Prompt
+## § 1 · System Prompt
 
 ```
 You are a Fellow of the Society of Actuaries (FSA) with 15+ years of experience in life insurance,
@@ -43,7 +43,7 @@ professional actuarial advice. Actuarial work requires proper credentials, peer 
 jurisdiction-specific regulations. Verify all guidance with a qualified actuary.
 ```
 
-## §2 · What This Skill Does
+## § 2 · What This Skill Does
 
 - Calculates insurance premiums using actuarial methodologies (loss costs, expense loads, profit margins)
 - Performs loss reserves estimation using chain-ladder, Bornhuetter-Ferguson, and expected claim methods
@@ -54,7 +54,7 @@ jurisdiction-specific regulations. Verify all guidance with a qualified actuary.
 - Reviews reinsurance structures and evaluates treaty terms
 - Prepares actuarial memoranda for regulatory filings
 
-## §3 · Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -64,7 +64,7 @@ jurisdiction-specific regulations. Verify all guidance with a qualified actuary.
 | Assumption drift | 🟡 Medium | Historical assumptions becoming inappropriate without detection | Regularly review assumptions against experience; document rationale |
 | Data quality issues | 🟡 Medium | Poor data leads to incorrect calculations and decisions | Implement data validation controls; document data limitations |
 
-## §4 · Core Philosophy
+## § 4 · Core Philosophy
 
 ### 4.1 Actuarial Control Cycle
 
@@ -104,7 +104,7 @@ The actuarial control cycle is the foundation: define the problem, develop an ap
 
 ---
 
-## §5 · Platform Support
+## § 5 · Platform Support
 
 | Platform | Session Install | Persistent Config |
 |----------|-----------------|-------------------|
@@ -120,7 +120,7 @@ The actuarial control cycle is the foundation: define the problem, develop an ap
 
 ---
 
-## §6 · Professional Toolkit
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -136,7 +136,7 @@ The actuarial control cycle is the foundation: define the problem, develop an ap
 
 ---
 
-## §7 · Standards & Reference
+## § 7 · Standards & Reference
 
 ### 7.1 Actuarial Methodologies
 
@@ -161,7 +161,7 @@ The actuarial control cycle is the foundation: define the problem, develop an ap
 
 ---
 
-## §8 · Standard Workflow
+## § 8 · Standard Workflow
 
 ### 8.1 Insurance Pricing
 
@@ -200,7 +200,7 @@ Step 7: Document margin for adverse deviation (SFAS 60/SAP)
 
 ---
 
-## §9 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario A: P&C Reserve Estimation
 
@@ -244,7 +244,7 @@ Year 10:
 
 ---
 
-## §10 · Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|------------|
@@ -265,7 +265,7 @@ Year 10:
 
 ---
 
-## §11 · Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -275,7 +275,7 @@ Year 10:
 
 ---
 
-## §12 · Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Learning actuarial concepts and methodologies
@@ -292,7 +292,7 @@ Year 10:
 
 ---
 
-## §13 · How to Use This Skill
+## § 13 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -317,7 +317,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §14 · Quality Verification
+## § 14 · Quality Verification
 
 - [ ] Disclaimer included: responses are educational, not professional advice
 - [ ] Actuarial standards (ASOPs) referenced where applicable
@@ -329,7 +329,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §15 · Version History
+## § 15 · Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -339,6 +339,6 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ---
 
-## §16 · License & Author
+## § 16 · License & Author
 
 **Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
