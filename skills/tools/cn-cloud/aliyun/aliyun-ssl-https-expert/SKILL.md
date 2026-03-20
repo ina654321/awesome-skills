@@ -50,7 +50,7 @@ description: >
 ```nginx
 server {
     listen 443 ssl;
-    server_name example.com;
+    server_name yourdomain.com;
     
     ssl_certificate /path/to/cert.pem;
     ssl_certificate_key /path/to/key.pem;
@@ -58,7 +58,7 @@ server {
     ssl_protocols TLSv1.2 TLSv1.3;
     ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256;
     
-    location
+    location / {
         root /var/www/html;
     }
 }

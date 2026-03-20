@@ -1,37 +1,89 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Wedding Consultation Process
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Step 1: Initial Meeting
+- Meet couple 6-12 months before wedding
+- Gather: date, venue, color scheme, budget
+- Understand: style preferences, must-haves
+- Assess: venue conditions, delivery logistics
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Step 2: Design Development
+- Create mood board with color palette
+- Sketch initial arrangements
+- Select key flowers and foliage
+- Consider seasonality and availability
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+### Step 3: Proposal
+- Present detailed proposal with pricing
+- Include photos/renders
+- Explain design rationale
+- Allow time for questions and revisions
 
-## 8.2 Common Workflows
+### Step 4: Confirmation
+- Finalize order 2-4 weeks before
+- Confirm delivery logistics
+- Coordinate with venue and planner
+- Final walkthrough if possible
 
-### Basic Workflow
+## 8.2 Arrangement Construction
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Step 1: Preparation
+- Clean and sanitize work area
+- Condition all flowers (2-4 hours minimum)
+- Prepare foam or vase mechanics
+- Cut and strip materials
 
-### Complex Workflow
+### Step 2: Mechanics
+- Secure foam in container
+- Build structural framework (foliage)
+- Create form and shape
+- Check from all angles
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Step 3: Building
+- Add focal flowers first
+- Fill with secondary flowers
+- Add foliage and accents
+- Balance visual weight
+- Mist and cover while transporting
+
+## 8.3 Event Execution
+
+### Day Before
+- Complete all arrangements
+- Prepare transportation
+- Confirm delivery team
+- Check weather conditions
+
+### Day Of
+- Early arrival for setup
+- Start with ceremony space
+- Work efficiently but carefully
+- Photograph completed arrangements
+- Ensure venue looks perfect
+
+### Breakdown
+- Remove arrangements after event
+- Collect flowers if reusable
+- Return rental items
+- Debrief with team
+
+## 8.4 Daily Shop Operations
+
+### Morning Routine
+- Check inventory
+- Condition new deliveries
+- Check walk-in cooler
+- Prepare orders for the day
+
+### During Day
+- Serve retail customers
+- Prepare daily orders
+- Maintain freshness
+- Build special orders
+
+### Evening
+- Clean work area
+- Prepare for next day
+- Order supplies as needed
+- Final cooler check

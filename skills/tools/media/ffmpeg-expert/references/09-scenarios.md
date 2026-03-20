@@ -1,43 +1,107 @@
 # Scenario Examples
 
-## 9.1 Basic Usage
+## 9.1 Video Optimization for Web
 
-**User:** "How do I get started with this tool?"
+**User:** "How do I optimize a video for web playback?"
 
-**Expert:**
-> **Getting Started:**
-> 
-> 1. Install the tool
-> 2. Configure basic settings
-> 3. Run your first command
-> 
+**FFmpeg Expert:**
+> **Web Optimization:**
+>
 > ```bash
-> tool init
-> tool config set key value
-> tool run
+> # H.264 with good quality
+> ffmpeg -i input.mov \
+>   -c:v libx264 \
+>   -crf 23 \            # Quality (18-28 typical)
+>   -preset medium \      # Encoding speed
+>   -profile:v high \    # H.264 profile
+>   -level 4.0 \         # Compatibility
+>   -pix_fmt yuv420p \   # Color space
+>   -c:a aac \
+>   -b:a 128k \          # Audio bitrate
+>   -movflags +faststart \  # Web optimization
+>   output.mp4
+>
+> # Alternative: VP9 for better compression
+> ffmpeg -i input.mov \
+>   -c:v libvpx-vp9 \
+>   -crf 30 \
+>   -b:v 0 \            # Constant quality mode
+>   -c:a libopus \
+>   -b:a 128k \
+>   output.webm
 > ```
 
-## 9.2 Production Setup
+## 9.2 Thumbnail Generation
 
-**User:** "How do I set this up for production?"
+**User:** "How do I extract thumbnails from a video?"
 
-**Expert:**
-> **Production Checklist:**
-> 
-> - [ ] Configure environment variables
-> - [ ] Set up authentication
-> - [ ] Configure logging
-> - [ ] Set up monitoring
-> - [ ] Document configuration
+**FFmpeg Expert:**
+> **Thumbnail Extraction:**
+>
+> ```bash
+> # Single frame at specific time
+> ffmpeg -i video.mp4 -ss 00:00:05 -frames:v 1 thumb.jpg
+>
+> # Multiple frames at intervals
+> ffmpeg -i video.mp4 \
+>   -vf "fps=1,scale=320:-1" \
+>   -q:v 2 \
+>   thumbs_%03d.jpg
+>
+> # Sprite sheet for preview
+> ffmpeg -i video.mp4 \
+>   -vf "fps=1,scale=160:-1,tile=10x10" \
+>   -frames:v 100 \
+>   sprite.jpg
+> ```
 
-## 9.3 Troubleshooting
+## 9.3 Screen Recording
 
-**User:** "The tool is not working correctly"
+**User:** "How do I record my screen?"
 
-**Expert:**
-> **Troubleshooting Steps:**
-> 
-> 1. Check logs
-> 2. Verify configuration
-> 3. Check network connectivity
-> 4. Review error messages
+**FFmpeg Expert:**
+> **Screen Capture:**
+>
+> ```bash
+> # X11 (Linux)
+> ffmpeg -f x11grab -framerate 30 \
+>   -video_size 1920x1080 \
+>   -i :0.0 \
+>   -c:v libx264 -preset ultrafast \
+>   screenrecording.mp4
+>
+> # macOS
+> ffmpeg -f avfoundation -framerate 30 \
+>   -i "CaptureScreen0:none" \
+>   -c:v libx264 -preset ultrafast \
+>   screenrecording.mp4
+>
+> # With audio (macOS)
+> ffmpeg -f avfoundation -framerate 30 \
+>   -i "CaptureScreen0:none+CaptureAudio1" \
+>   -c:v libx264 -preset ultrafast \
+>   -c:a aac \
+>   screenrecording.mp4
+>
+> # Windows (GDIGrab)
+> ffmpeg -f gdigrab -framerate 30 \
+>   -i desktop \
+>   -c:v libx264 -preset ultrafast \
+>   screenrecording.mp4
+> ```
+
+## 9.4 Video Stabilization
+
+**User:** "How do I stabilize shaky footage?"
+
+**FFmpeg Expert:**
+> **Stabilization:**
+>
+> ```bash
+> # Two-pass stabilization
+> ffmpeg -i shaky.mp4 -vf vidstabdetect=shakiness=10:accuracy=15 -f null -
+> ffmpeg -i shaky.mp4 -vf vidstabtransform=smoothing=10:input=transforms.trf output.mp4
+>
+> # One-pass (less accurate but faster)
+> ffmpeg -i shaky.mp4 -vf "deshake" output.mp4
+> ```

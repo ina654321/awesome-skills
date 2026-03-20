@@ -1,26 +1,75 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Common Mistakes
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Using defaults in production** | 🔴 High | Configure explicitly |
-| 2 | **Ignoring warnings** | 🔴 High | Review and address |
-| 3 | **No monitoring** | 🟡 Medium | Add observability |
-| 4 | **Manual configuration** | 🟡 Medium | Use automation |
-| 5 | **Skipping backups** | 🔴 High | Implement backup strategy |
+| # | Mistake | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | Not preallocating arrays | 🔴 High | Initialize with `zeros`, `NaN`, `cell` |
+| 2 | Using loops instead of vectorization | 🟡 Medium | Use `.` operators, `arrayfun` |
+| 3 | Comparing floats with `==` | 🔴 High | Use tolerance: `abs(a-b) < eps` |
+| 4 | Not clearing variables in loops | 🟡 Medium | Use `clear` or unique names |
+| 5 | Magic numbers in code | 🟡 Medium | Use constants |
+| 6 | No input validation | 🟡 Medium | Use `arguments` block |
 
-## 10.2 Best Practices
+## 10.2 Anti-Patterns
 
-1. **Always use version control** for configurations
-2. **Document everything** for future reference
-3. **Test in staging** before production
-4. **Monitor continuously** in production
-5. **Automate everything** where possible
+### Loop vs Vectorization
 
-## 10.3 Security Considerations
+```matlab
+% BAD: Slow loop
+result = zeros(1, 10000);
+for i = 1:10000
+    result(i) = sin(i * 0.1);
+end
 
-- Use secure authentication methods
-- Never commit secrets to version control
-- Rotate credentials regularly
-- Follow principle of least privilege
+% GOOD: Vectorized
+result = sin(0.1:0.1:1000);
+
+% GOOD: arrayfun for complex operations
+result = arrayfun(@(x) complexFunc(x), input);
+```
+
+### Variable Naming
+
+```matlab
+% BAD: Unclear names
+x = 5;
+y = 10;
+z = x * y;
+
+% GOOD: Descriptive names
+width = 5;
+height = 10;
+area = width * height;
+```
+
+## 10.3 Performance Tips
+
+| Technique | Use Case | Command |
+|-----------|----------|---------|
+| Preallocation | Loop-heavy code | `zeros`, `NaN`, `cell` |
+| Vectorization | Loop replacements | `.^`, `.*`, `./` |
+| GPU arrays | Large matrix ops | `gpuArray`, `gather` |
+| Parallel | Embarrassingly parallel | `parfor`, `spmd` |
+
+## 10.4 Best Practices
+
+```
+Code Organization:
+□ Use functions for reusable code
+□ Group related code in scripts
+□ Use meaningful variable names
+□ Add header comments
+
+Performance:
+□ Preallocate all arrays
+□ Vectorize when possible
+□ Use appropriate data types
+□ Clear unused variables
+
+Error Handling:
+□ Validate inputs
+□ Use try-catch for risky operations
+□ Provide meaningful error messages
+□ Log errors for debugging
+```

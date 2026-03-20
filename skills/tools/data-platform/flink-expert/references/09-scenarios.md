@@ -1,211 +1,126 @@
-# Scenario Examples
+# Glossary
 
-## 9.1 Real-World Use Cases
+## Core Flink Concepts
 
-### Streaming Analytics Pipeline
+### JobManager
+The master process that coordinates Flink applications. Responsibilities: scheduling tasks, coordinating checkpoints, managing task executors, recovering from failures. Contains the ResourceManager and Dispatcher.
 
-**User:** "I need to compute real-time user session metrics from Kafka events"
+### TaskManager
+Worker node that executes tasks (subtasks). Registers with JobManager, reports slot availability, and executes dataflow operators. Multiple TMs per cluster.
 
-**Expert:**
-```sql
--- Step 1: Define sessionized source with watermark
-CREATE TABLE user_events (
-    user_id STRING,
-    event_type STRING,
-    url STRING,
-    ts TIMESTAMP(3),
-    WATERMARK FOR ts AS ts - INTERVAL '30' SECOND
-) WITH (
-    'connector' = 'kafka',
-    'topic' = 'user_clickstream',
-    'properties.bootstrap.servers' = 'kafka:9092',
-    'format' = 'json'
-);
+### Slot
+A unit of resource allocation on a TaskManager. Each slot represents a fixed amount of memory and a fraction of CPU. Number of slots per TM = `taskmanager.numberOfTaskSlots`.
 
--- Step 2: Sessionize with gap detection
-INSERT INTO session_metrics
-SELECT
-    user_id,
-    TUMBLE_START(ts, INTERVAL '5' MINUTE) AS session_start,
-    TUMBLE_END(ts, INTERVAL '5' MINUTE) AS session_end,
-    COUNT(*) AS event_count,
-    COUNT(DISTINCT url) AS pages_visited,
-    COUNT(DISTINCT event_type) AS distinct_actions
-FROM user_events
-GROUP BY
-    user_id,
-    TUMBLE(ts, INTERVAL '5' MINUTE);
-```
+### Parallelism
+The number of parallel instances of an operator. Set per-operator or globally via `parallelism.default`. Total tasks = parallelism × operator count.
 
-### CDC → Lakehouse Streaming Pipeline
+### DataStream
+The core API for building unbounded stream processing pipelines. Supports transformations: map, filter, flatMap, keyBy, window, union.
 
-**User:** "Sync PostgreSQL changes to Iceberg in real-time"
+### Table API / SQL
+Declarative relational API for streaming and batch data. Unified for both batch and stream processing. Operates on Tables and uses Catalyst-like optimization.
 
-**Expert:**
-```sql
--- PostgreSQL CDC source using Debezium format
-CREATE TABLE pg_orders (
-    id STRING,
-    order_id STRING,
-    customer_id STRING,
-    total_amount DECIMAL(10,2),
-    status STRING,
-    updated_at TIMESTAMP(3),
-    WATERMARK FOR updated_at AS updated_at - INTERVAL '5' SECOND
-) WITH (
-    'connector' = 'kafka',
-    'topic' = 'orders_cdc',
-    'properties.bootstrap.servers' = 'kafka:9092',
-    'properties.group.id' = 'flink-pg-cdc',
-    'format' = 'debezium-json',
-    'debezium-json.schema-include' = 'true'
-);
+### State
+The data maintained by stateful operators across events. Managed state is handled by Flink; operator state is managed by the user. State is checkpointed for fault tolerance.
 
--- Step 2: Write to Iceberg
-CREATE TABLE iceberg_orders (
-    id STRING,
-    order_id STRING,
-    customer_id STRING,
-    total_amount DECIMAL(10,2),
-    status STRING,
-    updated_at TIMESTAMP,
-    PRIMARY KEY (id) NOT ENFORCED
-) PARTITIONED BY (days(updated_at));
+### Keyed State
+State scoped to a key (from keyBy). Maintained per key, automatically partitioned by Flink. Types: ValueState, ListState, MapState, AggregatingState.
 
-INSERT INTO iceberg_orders
-SELECT id, order_id, customer_id, total_amount, status, updated_at
-FROM pg_orders;
-```
+### Operator State
+State shared across all instances of an operator (no key). Types: ListState, UnionListState, BroadcastState.
 
-### Real-time Fraud Detection
+### Checkpoint
+A consistent snapshot of Flink state (operator state + keyed state) stored in a configured storage (S3, HDFS, etc.). Enables exactly-once processing and recovery from failures.
 
-**User:** "Detect suspicious transactions within a sliding time window"
+### Savepoint
+A manually triggered, user-named checkpoint. Used for planned upgrades, job migration, and blue-green deployments. Does not expire automatically.
 
-**Expert:**
-```java
-DataStream<Transaction> transactions = env
-    .fromSource(KafkaSource..., WatermarkStrategy.forMonotonousTimestamps(), "Kafka")
-    .keyBy(Transaction::getAccountId)
-    .window(SlidingEventTimeWindows.of(Time.minutes(10), Time.minutes(1)))
-    .process(new FraudDetectionFunction());
+### Exactly-Once Semantics
+Flink's strongest processing guarantee. Every event is processed exactly once, even in the presence of failures. Achieved via distributed snapshots (Chandy-Lamport algorithm).
 
-public class FraudDetectionFunction extends KeyedProcessFunction<String, Transaction, Alert> {
-    @Override
-    public void processElement(Transaction tx, Context ctx, Collector<Alert> out) {
-        // Count transactions in window
-        // Check velocity thresholds
-        // Emit alert if threshold exceeded
-    }
-}
-```
+### At-Least-Once Semantics
+Events may be processed more than once (duplicates possible) but no events are lost. Achieved by checkpointing sources with periodic offsets.
 
-## 9.2 Scaling Scenarios
+### Watermark
+A marker that declares all events with timestamp < watermark are considered "on time". Used to handle out-of-order events in event time processing.
 
-### Scaling from 1M → 100M events/day
+### Event Time
+Processing time based on the timestamp embedded in the event itself. Requires watermarks to handle late data. Deterministic and reproducible.
 
-| Dimension | Initial (1M/day) | Scaled (100M/day) |
-|-----------|-----------------|-------------------|
-| Parallelism | 2 | 64 |
-| TaskSlots per TM | 4 | 8 |
-| TaskManagers | 2 | 16 |
-| Checkpoint interval | 5 min | 1 min |
-| State backend | HashMap | RocksDB |
-| Network buffer | default | 8192 |
-| TM heap | 1024m | 4096m |
+### Processing Time
+Processing time based on the wall clock of the Flink operator. Non-deterministic, but simpler. Not suitable for billing or compliance.
 
-```yaml
-# Scaled flink-conf.yaml
-taskmanager.numberOfTaskSlots: 8
-taskmanager.memory.process.size: 6144m
-parallelism.default: 64
-state.backend: rocksdb
-state.backend.rocksdb.memory.managed: true
-state.backend.incremental: true
-execution.checkpointing.interval: 60s
-```
+### Window
+A grouping of events for aggregation over time or count. Types: Tumbling (fixed size, non-overlapping), Sliding (overlapping), Session (gap-based), Global (single per key).
 
-### Dynamic Scaling with Reactive Mode
+### Allowed Lateness
+The amount of time a window continues to accept late events after the watermark passes the window end. Late events within this window trigger late-fire; after, they are dropped or side-output.
 
-```bash
-# Enable reactive mode for autoscaling
-./bin/start-cluster.sh --configmap flink-configmap --reactive-mode
-```
+### Side Output
+A secondary output stream for late events, errors, or out-of-band data. Allows capturing events that would otherwise be dropped.
 
-```yaml
-# kubernetes-deployment.yaml for reactive mode
-env:
-  - name: FLINK_REACTIVE_MODE
-    value: "true"
-  - name: FLINK_PLUGINS_DIR
-    value: /opt/flink/plugins
-resources:
-  requests:
-    memory: "4Gi"
-    cpu: "2"
-  limits:
-    memory: "8Gi"
-    cpu: "4"
-```
+### ProcessFunction
+The low-level operator API providing fine-grained control over time and state. Extends `KeyedProcessFunction`, `CoProcessFunction`, etc.
 
-## 9.3 Integration Scenarios
+### CEP (Complex Event Processing)
+Pattern matching over event streams. Uses `CEP.pattern()` API to detect sequences, alternations, and quantifiers in event flows.
 
-### Flink + Apache Iceberg (Lakehouse)
+### RocksDB State Backend
+An embedded key-value store for large state. Persists to local disk/network storage. Supports incremental checkpoints. Default for production stateful jobs.
 
-```sql
--- Create Iceberg table in SQL
-CREATE TABLE iceberg_events (
-    event_id STRING,
-    event_type STRING,
-    user_id STRING,
-    payload STRING,
-    event_time TIMESTAMP
-) PARTITIONED BY (days(event_time), bucket(16, user_id))
-TBLPROPERTIES (
-    'format-version' = '2',
-    'write.distribution-mode' = 'hash',
-    'write.metadata.delete-after-commit.enabled' = 'true'
-);
+### HashMap State Backend
+In-memory state backend. Faster than RocksDB but limited by heap size. Best for small state and fast access requirements.
 
--- MERGE into Iceberg (upsert pattern)
-MERGE INTO iceberg_events AS target
-USING source_events AS source
-ON target.event_id = source.event_id
-WHEN MATCHED THEN UPDATE SET *
-WHEN NOT MATCHED THEN INSERT *;
-```
+### Broadcast State
+Special operator state that is replicated to all parallel instances. Used for broadcasting rules, configurations, or reference data to all operators.
 
-### Flink + dbt (Data Transformation)
+### Flink SQL Gateway
+REST API server for executing Flink SQL queries interactively. Supports session management, statement execution, and result retrieval.
 
-```bash
-# Flink can read from views created by dbt on Iceberg/Delta tables
-# Use Flink SQL to expose dbt-managed tables as streaming sources
-CREATE TEMPORARY VIEW user_metrics AS
-SELECT * FROM iceberg_catalog.analytics.user_metrics;
+### Catalog
+A metadata store for tables, views, and functions. Flink ships with in-memory catalog; supports HiveCatalog, JDBCCatalog, GenericInMemoryCatalog.
 
--- Flink consumes dbt-transformed data in real-time
-INSERT INTO metrics_sink
-SELECT user_segment, COUNT(*), SUM(revenue)
-FROM user_metrics
-GROUP BY user_segment;
-```
+### Table Factory
+A pluggable mechanism for creating TableSource and TableSink based on string identifiers and properties. Used by connectors.
 
-### Flink + ML Inference
+### Watermark Strategy
+Defines how watermarks are extracted from events and how out-of-orderliness is handled. Configured via `WatermarkStrategy`.
 
-```java
-// Online feature store integration
-DataStream<PredictionRequest> requests = env
-    .addSource(new KafkaSource<>("feature-events"))
-    .map(json -> parseRequest(json));
+### Chandy-Lamport Algorithm
+The distributed snapshot algorithm used by Flink for consistent checkpoints. Coordinates barriers from sources through the DAG.
 
-DataStream<PredictionResult> predictions = requests
-    .keyBy(req -> req.getUserId())
-    .process(new AsyncFunction<PredictionRequest, PredictionResult>() {
-        @Override
-        public AsyncFunction<PredictionRequest, PredictionResult> {
-            // Call ML serving endpoint asynchronously
-            // Enrich with features from Redis feature store
-        }
-    });
+### Kubernetes Operator (Flink Operator)
+K8s-native operator for managing Flink deployments. Handles pod creation, savepoints, upgrades, and scaling declaratively.
 
-predictions.addSink(new KafkaSink<>("predictions"));
-```
+### Reactive Mode
+Autoscaling mode where TaskManagers are added/removed based on job load. Available in Kubernetes deployments.
+
+## CLI Reference
+
+| Command | Purpose |
+|---------|---------|
+| `./bin/flink run` | Submit a Flink job |
+| `./bin/flink list` | List running jobs |
+| `./bin/flink cancel` | Cancel a running job |
+| `./bin/flink savepoint` | Trigger a savepoint |
+| `./bin/flink stop` | Stop gracefully (with savepoint) |
+| `./bin/flink modify` | Rescale or reconfigure job |
+| `./bin/flink historyserver` | Start history server |
+| `./bin/sql-gateway.sh start` | Start SQL Gateway |
+| `./bin/start-cluster.sh` | Start local cluster |
+| `./bin/stop-cluster.sh` | Stop local cluster |
+
+## Key Metrics
+
+| Metric | Description |
+|--------|-------------|
+| `currentInputWatermark` | Lowest watermark received from upstream |
+| `currentProcessingTime` | Current processing time |
+| `numRecordsInPerSecond` | Input throughput |
+| `numRecordsOutPerSecond` | Output throughput |
+| `numLateRecordsDropped` | Late records dropped |
+| `lastCheckpointDuration` | Last checkpoint time |
+| `lastCheckpointSize` | Last checkpoint size |
+| `numberOfInProgressCheckpoints` | Concurrent checkpoints |
+| `numberOfCompletedCheckpoints` | Completed checkpoint count |
+| `numberOfFailedCheckpoints` | Failed checkpoint count |

@@ -1,26 +1,77 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 Common Mistakes
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Using defaults in production** | 🔴 High | Configure explicitly |
-| 2 | **Ignoring warnings** | 🔴 High | Review and address |
-| 3 | **No monitoring** | 🟡 Medium | Add observability |
-| 4 | **Manual configuration** | 🟡 Medium | Use automation |
-| 5 | **Skipping backups** | 🔴 High | Implement backup strategy |
+| # | Mistake | Severity | Prevention |
+|---|---------|----------|------------|
+| 1 | Not using check mode | 🔴 High | Always `--check` before apply |
+| 2 | Using `shell` instead of modules | 🔴 High | Prefer dedicated modules |
+| 3 | Not idempotent tasks | 🔴 High | Design for re-runnability |
+| 4 | Hardcoding secrets | 🔴 High | Use Ansible Vault |
+| 5 | Ignoring changed_when | 🟡 Medium | Set proper change detection |
+| 6 | Not using tags | 🟡 Medium | Enable selective execution |
 
-## 10.2 Best Practices
+## 10.2 Anti-Patterns
 
-1. **Always use version control** for configurations
-2. **Document everything** for future reference
-3. **Test in staging** before production
-4. **Monitor continuously** in production
-5. **Automate everything** where possible
+### Shell vs Modules
 
-## 10.3 Security Considerations
+```yaml
+# BAD: Using shell
+- name: Install package
+  shell: apt-get install -y nginx
 
-- Use secure authentication methods
-- Never commit secrets to version control
-- Rotate credentials regularly
-- Follow principle of least privilege
+# GOOD: Using apt module
+- name: Install package
+  apt:
+    name: nginx
+    state: present
+```
+
+### Password Security
+
+```yaml
+# BAD: Plain text password
+- name: Create user
+  user:
+    name: app
+    password: "secret123"
+
+# GOOD: Encrypted password
+- name: Create user
+  user:
+    name: app
+    password: "{{ vault_app_password }}"
+
+# In vault file:
+# vault_app_password: "encrypted_value"
+```
+
+## 10.3 Performance Anti-Patterns
+
+| Anti-Pattern | Solution |
+|--------------|----------|
+| Serial execution | Use `strategy: free` |
+| No pipelining | Enable `pipelining=True` in ansible.cfg |
+| Not using fact caching | Enable `gathering=smart fact_caching=redis` |
+
+## 10.4 Best Practices
+
+```
+Playbooks:
+□ Use roles for organization
+□ Keep playbooks short
+□ Use tags for selective runs
+□ Handle failures gracefully
+
+Variables:
+□ Use meaningful names
+□ Scope appropriately (host/group/role)
+□ Document variables
+□ Use Vault for secrets
+
+Tasks:
+□ Use modules over shell
+□ Idempotent by design
+□ Check mode compatible
+□ Descriptive names
+```

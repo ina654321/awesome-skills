@@ -1,36 +1,89 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Script Development Workflow
 
 ```
-Phase 1: Installation
-├── Install tool
-├── Configure environment
-└── Verify installation
+Phase 1: Planning
+├── Define problem clearly
+├── Identify inputs/outputs
+└── Plan algorithm steps
 
-Phase 2: Basic Usage
-├── Create first project
-├── Run basic commands
-└── Review output
+Phase 2: Development
+├── Write script structure
+├── Implement core logic
+├── Add error handling
+└── Document with comments
 
-Phase 3: Production Ready
-├── Configure for production
-├── Set up monitoring
-└── Document usage
+Phase 3: Testing
+├── Test with known values
+├── Verify edge cases
+├── Benchmark performance
+└── Refine if needed
+
+Phase 4: Deployment
+├── Clean up code
+├── Create function wrapper
+└── Share with team
 ```
 
-## 8.2 Common Workflows
+## 8.2 Data Analysis Workflow
 
-### Basic Workflow
+```
+Step 1: Import Data
+data = readtable('data.csv');
+data = readmatrix('data.csv');
 
-1. Initialize the tool
-2. Configure settings
-3. Execute commands
-4. Review results
+Step 2: Clean Data
+data = rmmissing(data);
+data = fillmissing(data, 'linear');
 
-### Production Workflow
+Step 3: Analyze
+mean_val = mean(data.Variable);
+std_val = std(data.Variable);
 
-1. Review requirements
-2. Configure environment
-3. Execute with proper flags
-4. Monitor and optimize
+Step 4: Visualize
+plot(data.Time, data.Value)
+xlabel('Time')
+ylabel('Value')
+title('Results')
+```
+
+## 8.3 Function Development
+
+```matlab
+function output = myFunction(input1, input2)
+    arguments
+        input1 double {mustBeNonnegative}
+        input2 double {mustBeNonempty}
+    end
+    
+    % Validate inputs
+    if input1 > 100
+        warning('Input1 is unusually large');
+    end
+    
+    % Core computation
+    output = input1 * input2;
+    
+    % Post-processing
+    output = round(output, 4);
+end
+```
+
+## 8.4 Simulink Workflow
+
+```
+Step 1: Create Model
+new_system('myModel')
+open_system('myModel')
+
+Step 2: Add Blocks
+add_block('simulink/Sources/Constant', 'myModel/Input')
+add_block('simulink/Math Operations/Gain', 'myModel/Gain')
+
+Step 3: Connect and Configure
+add_line('myModel', 'Input/1', 'Gain/1')
+
+Step 4: Simulate
+sim('myModel')
+```

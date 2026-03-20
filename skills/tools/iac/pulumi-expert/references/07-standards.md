@@ -2,32 +2,95 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [Pulumi Documentation](https://www.pulumi.com/docs/)
+- [Pulumi Registry](https://www.pulumi.com/registry/)
+- [Pulumi API Reference](https://www.pulumi.com/docs/reference/)
+- [Pulumi GitHub](https://github.com/pulumi/pulumi)
+- [Pulumi Examples](https://github.com/pulumi/examples)
 
-## 7.2 Configuration Reference
+## 7.2 Project Structure
 
-### Basic Configuration
-
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
+```
+my-infra/
+├── Pulumi.yaml
+├── Pulumi.dev.yaml
+├── Pulumi.prod.yaml
+├── index.ts                 # Main entry
+├── tsconfig.json
+├── package.json
+└── infrastructure/
+    ├── vpc/
+    │   ├── index.ts
+    │   └── config.ts
+    ├── compute/
+    │   ├── index.ts
+    │   └── config.ts
+    └── databases/
+        ├── index.ts
+        └── config.ts
 ```
 
-## 7.3 Common Commands
+## 7.3 Configuration Reference
+
+```typescript
+// Pulumi.yaml
+name: my-infra
+runtime: typescript
+description: Infrastructure as Code
+
+// Stack config (Pulumi.dev.yaml)
+config:
+  environment:
+    value: development
+  aws:region:
+    value: us-west-2
+```
+
+## 7.4 Common Providers
+
+| Provider | Package | Use Case |
+|----------|---------|---------|
+| AWS | `@pulumi/aws` | AWS resources |
+| Azure | `@pulumi/azure-native` | Azure resources |
+| GCP | `@pulumi/gcp` | Google Cloud |
+| Kubernetes | `@pulumi/kubernetes` | K8s resources |
+| Docker | `@pulumi/docker` | Containers |
+
+## 7.5 Core Functions
+
+```typescript
+import * as pulumi from "@pulumi/pulumi";
+import * as aws from "@pulumi/aws";
+
+// Get config
+const config = new pulumi.Config();
+const environment = config.require("environment");
+
+// Create resources
+const vpc = new aws.ec2.Vpc("main", {
+    cidrBlock: "10.0.0.0/16",
+    tags: { Name: `${environment}-vpc` }
+});
+
+// Export outputs
+export const vpcId = vpc.id;
+export const vpcCidr = vpc.cidrBlock;
+```
+
+## 7.6 Version Compatibility
+
+| Pulumi Version | TypeScript | Node.js | Notes |
+|---------------|-----------|---------|-------|
+| 3.x | 4.x-5.x | 18+ | Current |
+| 2.x | 3.x-4.x | 14+ | Legacy |
+
+## 7.7 CLI Commands
 
 | Command | Description |
 |---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
-
-## 7.4 Version Compatibility
-
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+| `pulumi new` | Create new project |
+| `pulumi up` | Deploy changes |
+| `pulumi preview` | Preview changes |
+| `pulumi destroy` | Remove resources |
+| `pulumi stack ls` | List stacks |
+| `pulumi config get` | Get config value |

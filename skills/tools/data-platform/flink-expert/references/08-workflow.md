@@ -1,169 +1,218 @@
-# Standard Workflow
+# Troubleshooting Guide
 
-## 8.1 Development Workflow (Local → Cluster)
+## 8.1 Common Failures
 
-```
-Local Development
-├── 1. IDE Setup
-│   ├── Import flink-quickstarts as Maven/Gradle project
-│   ├── Set breakpoints in DataStream/Table API code
-│   └── Configure RemoteExecutor for local MiniCluster debugging
-│
-├── 2. Local Testing with MiniCluster
-│   ├── DataStream: EmbeddedExecutionEnvironment
-│   ├── Table: TableEnvironment in local mode
-│   └── Use test harnesses for stateful operators
-│
-├── 3. SQL Development (SQL Gateway)
-│   ├── Start ./bin/sql-gateway.sh
-│   ├── Connect DBeaver/JdbcClient to localhost:8083
-│   ├── Iterate DDL/DML queries
-│   └── Validate with local Kafka/Postgres docker
-│
-└── 4. Submit to Cluster
-    ├── ./bin/flink run -d ./target/your-job.jar
-    └── Monitor via http://jobmanager:8081
+### Checkpoint & State Failures
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `CheckpointExponentialBackoffNano - Checkpoint Coordinator received` | Checkpoint timeout, TM overloaded | Increase `execution.checkpointing.timeout`, check state size |
+| `Could not materialize checkpoint stream` | RocksDB write buffer full | Increase `state.backend.rocksdb.writebuffer.size`, enable incremental checkpoint |
+| `java.io.IOException: Too many open files` | File descriptor limit on TM | Increase `ulimit -n`, check RocksDB `max_open_files` |
+| `Exception in RPC` | TM lost, network partition | Increase `taskmanager.network.memory.fraction`, check network |
+| `State migration error after savepoint` | Schema changed incompatible | Use `state.schemaEvolution` or restart from latest checkpoint |
+
+```bash
+# Check checkpoint history
+curl http://jobmanager:8081/jobs/<job-id>/checkpoints
+
+# Restart from checkpoint
+./bin/flink run -s checkpoint_path ./job.jar
+
+# Restart from savepoint
+./bin/flink run -d -s s3://bucket/savepoints/<path> ./job.jar
 ```
 
-### Local Development Example
+### Watermark & Late Data Issues
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| Late events silently dropped | Watermark too aggressive | Increase watermark grace period: `ts - INTERVAL '5' MINUTE` |
+| Aggregation never fires | Watermark not advancing | Check timestamp extraction; events may be out of order |
+| Late data in metrics | `allowedLateness` not set | Set `allowedLateness` on window |
+
+```sql
+-- Set proper watermark and allowed lateness
+CREATE TABLE events (
+    user_id STRING,
+    ts TIMESTAMP(3),
+    WATERMARK FOR ts AS ts - INTERVAL '5' SECOND
+) WITH ('connector' = 'kafka', ...);
+
+-- In DataStream API
+TumblingEventTimeWindows.of(Time.minutes(5))
+    .allowedLateness(Time.minutes(1))  -- Keep state for late data
+    .sideOutputLateData(lateOutputTag)  -- Capture late events
+```
+
+### Memory & Resource Issues
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `OutOfMemoryError: RocksDB` | State too large | Enable `state.backend.rocksdb.memory.managed`, increase TM memory |
+| `Native memory allocation failure` | Off-heap memory limit | Increase `taskmanager.memory.task.heap.size`, use `state.backend.rocksdb.memory.managed` |
+| `TaskManager JVM heap exhausted` | Too many parallel tasks | Reduce `parallelism.default`, increase TM heap |
+| `TM OOMKilled (exit 137)` | K8s memory limit exceeded | Increase container memory: `taskmanager.memory.process.size` |
+
+```yaml
+# Kubernetes TM resource config
+taskmanager.memory.process.size: 4g
+taskmanager.memory.managed.size: 2g
+taskmanager.numberOfTaskSlots: 4
+```
+
+### Job Failure & Restart
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `Job submitted but status became FAILED` | JAR version mismatch | Re-upload JAR, check Flink version compatibility |
+| `No resources available to schedule tasks` | Not enough TM slots | Add TMs, reduce parallelism, increase slots per TM |
+| `Deployment failed: OOMKilled` | K8s memory limit | Increase memory limits in deployment |
+| `Slot request not satisfiable` | TM slots exhausted | Check active job slots, wait for resource |
+
+## 8.2 Performance Tuning
+
+### State Backend Selection
+
+```yaml
+# HashMap (for small state, fastest)
+state.backend: hashmap
+# Best for: < 100MB state, stateless-ish jobs, state access heavy
+
+# RocksDB (for large state, persistent)
+state.backend: rocksdb
+state.backend.incremental: true
+state.backend.rocksdb.memory.managed: true
+state.backend.rocksdb.writebuffer.size: 64mb
+state.backend.rocksdb.writebuffer.count: 4
+state.backend.rocksdb.compaction.level.maxsize-level-base: 320MB
+
+# TTL for state cleanup
+state TTL:
+  time_characteristics: EventTime
+  default_szie: 128
+  cleanup_in_rdbstate_handle_increment_filter_nanos: 60000000000
+```
+
+### Parallelism & Resource Allocation
 
 ```java
-// Debug with MiniCluster
-public class LocalDebugTest {
-    public static void main(String[] args) throws Exception {
-        Configuration config = new Configuration();
-        config.setInteger("local.number-taskmanagers", 2);
-        config.setInteger("taskmanager.parallelism.default", 2);
+// Optimal parallelism formula
+// parallelism = max_throughput / (records_per_second_per_slot)
+int sourceParallelism = Math.min(sourcePartitionCount, maxParallelism);
+int operatorParallelism = Math.max(numTaskSlots, desiredThroughput / recordsPerSecond);
 
-        MiniClusterWithClientResource cluster =
-            new MiniClusterWithClientResource(new MiniClusterResourceConfiguration.Builder()
-                .setConfiguration(config)
-                .setNumberTaskManagers(2)
-                .setNumberSlotsPerTaskManager(4)
-                .build());
+// Set per-operator parallelism
+env.fromSource(kafka, watermarkStrategy, "Kafka Source")
+    .setParallelism(4)
+    .keyBy(...)
+    .process(new Processor())
+    .setParallelism(8)
+    .sinkTo(kafkaSink)
+    .setParallelism(4);
 
-        cluster.before();
+// Or via SQL
+INSERT INTO sink SELECT ... FROM source
+/*+ OPTIONS('sink.parallelism'='8') */;
+```
 
-        StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        // Your pipeline here...
+### Network Buffer Tuning
 
-        env.execute("Debug Pipeline");
+```yaml
+# flink-conf.yaml - high-throughput jobs
+taskmanager.network.memory.fraction: 0.15
+taskmanager.network.memory.min: 256mb
+taskmanager.network.memory.max: 1gb
 
-        cluster.after();
+# For high-cardinality keyBy (> 10K keys)
+taskmanager.network.memory.fraction: 0.25
+
+# Boundedness
+execution.checkpointing.mode: EXACTLY_ONCE
+execution.checkpointing.interval: 1min
+execution.checkpointing.timeout: 10min
+execution.checkpointing.max-concurrent-checkpoints: 1
+execution.checkpointing.min-pause: 30s
+```
+
+### RocksDB Tuning
+
+```yaml
+# High-throughput state access
+state.backend.rocksdb.memory.managed: true
+state.backend.rocksdb.memory.managed.fraction: 0.4
+state.backend.rocksdb.checkpoint.transfer.thread.num: 4
+
+# Compact state access (for frequent updates)
+state.backend.rocksdb.state-backend-config:
+  "state.backend.rocksdb.log.file":
+    "state.backend.rocksdb.log.file"
+  "state.backend.rocksdb.db.options":
+    "state.backend.rocksdb.db.options"
+
+# Bloom filters for point lookups
+state.backend.rocksdb.bloom.filters.enabled: true
+```
+
+## 8.3 Monitoring & Debugging
+
+### Key Metrics
+
+| Metric | Alert | Description |
+|--------|-------|-------------|
+| `currentInputWatermark` | Lagging behind `currentEventTime` | Watermark stagnation |
+| `numRecordsOutPerSecond` | Zero on healthy path | Throughput drop |
+| `lateRecordsDropped` | > 0 consistently | Late data issue |
+| `checkpointAlignmentDuration` | > 100ms | Checkpoint alignment delay |
+| `lastCheckpointDuration` | > 5min for incremental | Checkpoint too slow |
+| `fullRestarts` | Any | Job restarted |
+
+### Debug with REST API
+
+```bash
+# Job details
+curl http://jm:8081/jobs/<job-id>
+
+# Exceptions
+curl http://jm:8081/jobs/<job-id>/exceptions
+
+# Vertices (operators)
+curl http://jm:8081/jobs/<job-id>/vertices
+
+# Task manager metrics
+curl http://jm:8081/taskmanagers
+
+# Backpressure (since Flink 1.13)
+curl http://jm:8081/jobs/<job-id>/vertices/<vertex-id>/backpressure
+```
+
+### Logging
+
+```java
+import org.apache.flink.api.common.eventtime.WatermarkStrategy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+// Enable debug logging for specific operators
+public class MyProcessor extends KeyedProcessFunction<String, Event, Result> {
+    private static final Logger LOG = LoggerFactory.getLogger(MyProcessor.class);
+    
+    @Override
+    public void processElement(Event e, Context ctx, Collector<Result> out) {
+        LOG.debug("Processing event: key={}, ts={}", e.getKey(), e.getTimestamp());
+        // ...
     }
 }
 ```
 
-## 8.2 Deployment / Production Workflow
+## 8.4 Known Issues & Fixes
 
-```
-Production Deployment
-├── 1. Build Artifact
-│   ├── mvn clean package -DskipTests (JAR with dependencies)
-│   ├── Verify flink version in uber-jar manifest
-│   └── Upload to S3/GCS/Artifactory
-│
-├── 2. Pre-deployment Checks
-│   ├── Verify savepoint of previous job
-│   ├── Validate state.backend = rocksdb
-│   ├── Check checkpoint/savepoint bucket accessible
-│   └── Confirm parallelism and TM slot counts
-│
-├── 3. Deploy Job
-│   ├── Option A: Flink Dashboard (JAR upload)
-│   ├── Option B: CLI: ./bin/flink run -d -p 4 s3://bucket/job.jar
-│   └── Option C: SQL Gateway: CREATE JOB AS SELECT ...
-│
-├── 4. State Migration (if schema change)
-│   ├── Take savepoint: ./bin/flink savepoint <job-id> s3://savepoints/
-│   ├── Stop old job
-│   ├── Deploy new job with -s <savepoint-path>
-│   └── Validate state compatibility
-│
-└── 5. HA Failover
-    └── Job restarts automatically on TM failure; JM failover via Kubernetes
-```
-
-### CI/CD Pipeline Example (GitHub Actions)
-
-```yaml
-# .github/workflows/flink-deploy.yml
-- name: Package Flink Job
-  run: mvn clean package -DskipTests -B
-
-- name: Upload JAR to S3
-  run: aws s3 cp target/my-flink-job.jar s3://$BUCKET/flink-jobs/
-
-- name: Trigger savepoint and deploy
-  run: |
-    JOB_ID=$(./flink list -r | grep my-job | awk '{print $2}')
-    ./flink savepoint $JOB_ID s3://$BUCKET/savepoints/
-    # Deploy new version
-    ./flink run -d -s s3://$BUCKET/savepoints/latest ./flink-jobs/my-flink-job.jar
-```
-
-## 8.3 Monitoring & Observability
-
-```
-Monitoring Stack
-├── Flink Dashboard (built-in)
-│   ├── Job graph visualization
-│   ├── Checkpoint statistics
-│   ├── TM/JobManager metrics
-│   └── Task manager logs
-│
-├── Metrics Reporter (Prometheus)
-│   ├── flink_taskmanager_job_task_numRecordsOutPerSecond
-│   ├── flink_taskmanager_status_Heap_Memory_Used
-│   ├── flink_jobmanager_job_uptime
-│   └── flink_taskmanager_job_task_currentInputWatermark
-│
-└── Logging
-    ├── TaskManager: logs/flink-{user}-taskmanager-{host}.log
-    ├── JobManager: logs/flink-{user}-jobmanager-{host}.log
-    └── Use log4j.properties to configure log levels
-```
-
-### Metrics Configuration
-
-```yaml
-# flink-conf.yaml
-metrics.reporter.prom.class: org.apache.flink.metrics.prometheus.PrometheusReporter
-metrics.reporter.prom.port: 9250
-metrics.reporter.prom.interval: 10 SECONDS
-
-# Enable specific metric groups
-metrics.reporter.slf4j.class: org.apache.flink.metrics.slf4j.Slf4jReporter
-metrics.reporter.slf4j.interval: 1 MINUTES
-metrics.reporter.slf4j.scope.variables.include: job_name,task_name
-```
-
-### Alerting Rules (Prometheus)
-
-```yaml
-# Prometheus alert rules
-groups:
-  - name: flink
-    rules:
-      - alert: FlinkJobDown
-        expr: flink_jobmanager_job_uptime == 0
-        for: 1m
-        labels:
-          severity: critical
-        annotations:
-          summary: "Flink job {{ $labels.job_name }} is down"
-
-      - alert: FlinkCheckpointFailure
-        expr: rate(flink_jobmanager_job_numberOfFailedCheckpoints[5m]) > 0
-        for: 2m
-        labels:
-          severity: warning
-        annotations:
-          summary: "Checkpoint failures detected for {{ $labels.job_name }}"
-
-      - alert: FlinkHighMemoryUsage
-        expr: flink_taskmanager_Status_JVM_Memory_Heap_Used / flink_taskmanager_Status_JVM_Memory_Heap_Max > 0.85
-        for: 5m
-        labels:
-          severity: warning
-```
+| Issue | Versions | Fix |
+|-------|----------|-----|
+| `Checkpoint declined: not enough slots` | All | Reduce parallelism, increase `taskmanager.numberOfTaskSlots` |
+| `RocksDB snapshot failed: native memory` | 1.14-1.18 | Enable `state.backend.rocksdb.memory.managed` |
+| `Table/SQL join on non-equal keys causes full shuffle` | Pre-1.17 | Upgrade to 1.17+ for broadcast join support |
+| `Kafka source doesn't commit offsets` | 1.15-1.16 | Use Flink checkpointing for offset management |
+| `State size exceeds RocksDB max size` | All | Use `state.backend.rocksdb.memory.managed=true` |
+| `PyFlink memory leak in loops` | 1.15-1.17 | Disable Python object reuse: `python.fn-execution.memory.managed=false` |
+| `Savepoint with state deleted after resume` | Pre-1.18 | Upgrade to 1.18+ with improved savepoint compatibility |

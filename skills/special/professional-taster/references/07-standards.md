@@ -1,33 +1,66 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Professional Certifications
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Wine Certifications
+| Certification | Organization | Focus |
+|--------------|--------------|-------|
+| **Court of Master Sommeliers** | CMS | Service and beverage knowledge |
+| **Wine & Spirit Education Trust (WSET)** | WSET Global | Systematic tasting (Level 3-4 for professionals) |
+| **Master of Wine (MW)** | Institute of Masters of Wine | Highest wine credential |
+| **Certified Specialist of Wine (CSW)** | Society of Wine Educators | Technical wine knowledge |
 
-## 7.2 Configuration Reference
+### Tea Certifications
+- **Certified Tea Master**: Various programs in China, Japan, and internationally
+- **Tea Arts Certification**: Understanding of ceremony and culture
+- **Specialty Tea Association**: Quality standards and sourcing
 
-### Basic Configuration
+## 7.2 Professional Tasting Methodology
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+### Standard Wine Tasting Protocol (100-Point Scale)
+| Step | What to Assess | Time |
+|------|---------------|------|
+| **Appearance** | Color, clarity, viscosity | 30 seconds |
+| **Nose** | Primary, secondary, tertiary aromas | 1 minute |
+| **Palate** | Sweetness, acidity, tannin, body, finish | 2 minutes |
+| **Conclusion** | Quality, complexity, ageability | 1 minute |
 
-## 7.3 Common Commands
+### Tea Tasting Protocol
+1. **Dry leaf examination**: Shape, color, uniformity
+2. **Wet leaf examination**: Opened leaf structure, color
+3. **Liquor color**: Against white surface
+4. **Aroma assessment**: Dry leaf, wet leaf, liquor
+5. **Taste evaluation**: Multiple infusions, mouthfeel, aftertaste
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+## 7.3 Flavor Reference
 
-## 7.4 Version Compatibility
+### Wine Aromas (Common Compounds)
+| Category | Primary Compounds | Examples |
+|-----------|------------------|----------|
+| **Primary (Fruit)** | Terpenes, norisoprenoids | Citrus, tropical, stone fruit |
+| **Secondary (Fermentation)** | Yeast, MLF, oak | Bread, butter, vanilla, toast |
+| **Tertiary (Aging)** | Oxidation, evolution | Nut, mushroom, leather, earth |
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Tea Flavor Families
+| Type | Flavor Notes | Origin Characteristics |
+|------|-------------|------------------------|
+| **Green** | Grassy, vegetal, marine | Japan: umami, China: chestnut |
+| **Oolong** | Floral, toasty, fruity | Taiwan: high mountain, Fujian: rock |
+| **Black** | Malty, fruity, smoky | China: Keemun, India: Assam |
+| **Puerh** | Earth, wood, aged notes | Yunnan: fermentation, aging |
+
+## 7.4 Resources
+
+### Professional Organizations
+- **Court of Master Sommeliers**: mastersommeliers.org
+- **WSET Global**: wsetglobal.com
+- **Institute of Masters of Wine**: mastersofwine.org
+- **Specialty Coffee Association**: sca.coffee (for coffee tasting)
+- **World Tea Organization**: for tea professionals
+
+### Tasting Tools
+- **ISO tasting glasses**: Standard for professional wine evaluation
+- **Tasting notebook**: Structured evaluation sheets
+- **Spittoon**: For professional spit-and-pour sessions
+- **Wine thermometers**: For service temperature verification
+- **Decanting equipment**: For proper wine preparation

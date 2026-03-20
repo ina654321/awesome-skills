@@ -1,47 +1,109 @@
 # Scenario Examples
 
-## 9.1 Common Scenario
+## 9.1 Scenario: Wine Fault Identification
 
-**User:** "What is the best approach for [common task]?"
+**User:** "I opened a bottle of wine that smells like wet newspaper or a wet dog. Is this normal or is the wine bad?"
 
-**Expert:**
-> **Analysis:**
+**Professional Taster:**
+> **That's Cork Taint (TCA) — the wine is flawed:**
 > 
-> Based on the context, here's the recommended approach:
+> **Identification:**
+> - Wet newspaper, musty, damp basement, wet dog
+> - Smell diminishes fruit and freshness
+> - Can affect just one bottle (cork-specific) or entire case (cellar contamination)
 > 
-> 1. First step with rationale
-> 2. Second step with rationale
-> 3. Third step with rationale
+> **What happened:**
+> - TCA (2,4,6-Trichloroanisole) is caused by cork or wood contamination with chlorine compounds
+> - It masks the wine's natural aromatics
+> - Completely harmless but makes wine unpleasant
 > 
-> This approach ensures optimal results while minimizing risks.
+> **What to do:**
+> 1. Don't drink it — unpleasant experience
+> 2. Return to store or restaurant if recently purchased
+> 3. Cork taint is accepted grounds for refund
+> 4. Note: Vintage doesn't matter — even expensive wines can be corked
+> 
+> **Prevention for collectors:**
+> - Store wines properly (no musty environments)
+> - Use DIAM corks (guaranteed TCA-free)
+> - For valuable bottles: smell cork before drinking
 
-## 9.2 Complex Scenario
+---
 
-**User:** "How do I handle [complex situation]?"
+## 9.2 Scenario: Tea Processing Question
 
-**Expert:**
-> **Comprehensive Solution:**
-> 
-> This situation requires a multi-step approach:
-> 
-> 1. Initial assessment
-> 2. Risk evaluation
-> 3. Implementation strategy
-> 4. Monitoring and adjustment
-> 
-> Key considerations: [list important factors]
+**User:** "I bought two oolong teas from the same vendor but they taste completely different. One is green and floral, the other is dark and toasty. Why?"
 
-## 9.3 Edge Case
+**Professional Taster:**
+> **This is likely different oxidation levels:**
+> 
+> **Understanding Oolong Spectrum:**
+> 
+> **Light Oolong (30-40% oxidation):**
+> - High mountain Taiwanese style
+> - Green, floral, orchid, lily notes
+> - Softer, more like green tea
+> 
+> **Dark Oolong (70-90% oxidation):**
+> - Traditional Fujian style (Tieguanyin)
+> - Toasty, nutty, darker fruit notes
+> - Heavier mouthfeel
+> 
+> **Why Same Vendor, Different Profiles:**
+> 1. **Different tea gardens/elevation**
+> 2. **Different oxidation levels during processing**
+> 3. **Different roast levels** (some are baked to deepen flavor)
+> 4. **Different harvest season** (spring vs. winter)
+> 
+> **What to Ask Vendor:**
+> - "What is the oxidation level?"
+> - "Is this lightly or heavily roasted?"
+> - "What elevation was this grown at?"
+> 
+> **My Recommendation:**
+> - Try both in gongfu style to fully experience the complexity
+> - Light oolongs: 175°F, 30-45 second infusions
+> - Dark oolongs: 195°F, 45-60 second infusions
 
-**User:** "What if [unusual condition]?"
+---
 
-**Expert:**
-> **Special Handling:**
+## 9.3 Scenario: Building a Wine Collection on a Budget
+
+**User:** "I want to start building a small wine collection. I have $500 to spend. What should I focus on?"
+
+**Professional Taster:**
+> **Great starting point — let me help you think strategically:**
 > 
-> In this case, standard procedures need modification:
+> **Investment vs. Drinking Wines:**
 > 
-> - Consider [alternative approach 1]
-> - Consider [alternative approach 2]
-> - Document any deviations from standard process
+> **If you want wines to drink:**
+> - Focus on quality at each price point
+> - Buy multiple bottles of wines you enjoy
+> - Don't buy for investment — buy for pleasure
 > 
-> Consult with [relevant authority] if unsure.
+> **Recommended Allocation ($500):**
+> 
+> **Option A: Versatile Cellar ($500)**
+> - 2 bottles quality red at $50 each: $100
+> - 4 bottles mid-range at $25 each: $100
+> - 6 bottles everyday at $15 each: $90
+> - Save $210 for mixed selection or special occasions
+> 
+> **Option B: Quality Focus ($500)**
+> - 5-6 bottles excellent wines at $80-100 each
+> - Focus on recognized regions: Burgundy, Rhône, Loire, Piedmont
+> 
+> **Key Advice:**
+> 
+> 1. **Learn what you like** — drink widely before committing
+> 2. **Start with regions** — Bordeaux, Napa, Burgundy (easier to find consistent quality)
+> 3. **Store properly** — wine cooler at 55°F, or drink within 6 months
+> 4. **Keep records** — note what you drank and liked
+> 
+> **Starter Recommendations by Style:**
+> | Style | Budget Choice | Quality Choice |
+> |-------|-------------|----------------|
+> | **Red Burgundy** | Louis Jadot Beaujolais Villages | Gevrey-Chambertin villages |
+> | **Bordeaux** | Cru Bourgeois | Saint-Émilion |
+> | **Italian Red** | Chianti Classico | Barolo (age worthy) |
+> | **White Burgundy** | Mâcon-Villages | Puligny-Montrachet |

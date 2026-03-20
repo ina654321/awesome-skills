@@ -1,33 +1,52 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## 7.1 Informal Science Education Standards
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+### Professional Organizations
+- [ASTC](https://www.astc.org/) — Association of Science-Technology Centers
+- [NISE Network](https://www.nisenet.org/) — Informal science education network
+- [NAEYC](https://www.naeyc.org/) — Early childhood education standards
 
-## 7.2 Configuration Reference
+### Learning Frameworks
+- [4E Framework](https://informalscience.org/) — Engage, Explore, Explain, Elaborate
+- [Inquiry-Based Learning](https://www.nsf.gov/) — Hands-on investigation
+- [Constructivism](https://www.learning-theories.com/) — Learning through experience
 
-### Basic Configuration
+### Evaluation Resources
+- [Visitor Studies Association](https://www.visitorstudies.org/) — Visitor research
+- [IMLS](https://www.imls.gov/) — Institute of Museum and Library Services
 
-```yaml
-# Example configuration
-name: example
-version: 1.0.0
-```
+## 7.2 Educational Standards
 
-## 7.3 Common Commands
+### National Standards
+- [NGSS](https://www.nextgenscience.org/) — Next Generation Science Standards
+- [Common Core](https://www.corestandards.org/) — Literacy standards
+- [State Standards](https://www.ed.gov/) — K-12 education standards
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+### Museum-Specific Standards
+- [AAM Standards](https://www.aam-us.org/) — American Alliance of Museums
+- [Center for Advancement of Informal Science Education](https://informalscience.org/)
 
-## 7.4 Version Compatibility
+## 7.3 Accessibility & Inclusion
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+### Universal Design
+- [Universal Design for Learning](https://udlguidelines.cast.org/) — CAST guidelines
+- [ADA Compliance](https://www.ada.gov/) — Accessibility requirements
+- [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) — Web accessibility
+
+### Diverse Audiences
+- Language access guidelines
+- Cultural sensitivity frameworks
+- Age-appropriate adaptation
+- Sensory considerations
+
+## 7.4 Safety Standards
+
+### Lab Safety
+- [OSHA](https://www.osha.gov/) — Occupational safety
+- [ACS Safety](https://www.acs.org/) — Chemistry safety
+- [Physics Lab Safety](https://www.aapt.org/) — Physics safety
+
+### Visitor Safety
+- [Museum safety protocols](https://www.cpsc.gov/) — Consumer product safety
+- [Emergency procedures](https://www.fema.gov/) — Emergency management

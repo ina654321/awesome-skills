@@ -2,32 +2,85 @@
 
 ## 7.1 Official Documentation
 
-- [Official Docs](https://example.com/docs)
-- [API Reference](https://example.com/api)
-- [Best Practices](https://example.com/best-practices)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [Workflow Syntax Reference](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
+- [Expression Syntax](https://docs.github.com/en/actions/learn-github-actions/expressions)
+- [Context Reference](https://docs.github.com/en/actions/learn-github-actions/contexts)
+- [Actions Marketplace](https://github.com/marketplace?type=actions)
 
-## 7.2 Configuration Reference
+## 7.2 Workflow Syntax
 
-### Basic Configuration
+### Triggers
 
 ```yaml
-# Example configuration
-name: example
-version: 1.0.0
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'src/**'
+      - 'package.json'
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, closed]
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        options: [staging, production]
 ```
 
-## 7.3 Common Commands
+### Job Configuration
 
-| Command | Description |
-|---------|-------------|
-| `example init` | Initialize new project |
-| `example build` | Build the project |
-| `example deploy` | Deploy to production |
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    continue-on-error: false
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - id: version
+        run: echo "version=1.0.0" >> $GITHUB_OUTPUT
+```
 
-## 7.4 Version Compatibility
+### Matrix Strategy
 
-| Version | Status | Notes |
-|---------|--------|-------|
-| 1.0.x | Supported | Legacy |
-| 2.0.x | Current | Recommended |
-| 3.0.x | Beta | Testing |
+```yaml
+strategy:
+  fail-fast: false
+  matrix:
+    node: [16, 18, 20]
+    os: [ubuntu-latest, windows-latest]
+    include:
+      - node: 20
+        os: ubuntu-latest
+        coverage: true
+```
+
+## 7.3 Best Practices
+
+| Practice | Description |
+|----------|-------------|
+| **Pin versions** | Use `@v4` not `@latest` for actions |
+| **Add timeout** | Prevent stuck builds with `timeout-minutes` |
+| **Cache dependencies** | Use built-in cache in setup actions |
+| **Fail fast** | Lint before tests, unit before integration |
+| **Use environments** | Protect production deployments |
+
+## 7.4 Permissions
+
+```yaml
+permissions:
+  contents: read
+  actions: read
+  statuses: read
+  deployments: write
+  security-events: write
+```
+
+Minimum required permissions for typical workflows. Use [permissions calculator](https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token).

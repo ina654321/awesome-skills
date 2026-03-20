@@ -1,200 +1,230 @@
 # Scenario Examples
 
-## 9.1 IT Service Management Scenarios
+## 9.1 Basic Usage
 
-### Scenario: Major Incident Response
-
-> **User:** "We just had a full outage of our ERP system. 500 users affected. How do I handle this in ServiceNow?"
+**User:** "How do I get started with ServiceNow?"
 
 **Expert:**
-> **Major Incident Procedure:**
+> **Getting Started:**
 >
-> 1. **Create Major Incident Record**
->    - Category: `major_incident`
->    - Impact: `1 - Enterprise`
->    - Urgency: `1 - Critical`
->    - Check "Major Incident" checkbox → auto-assigns to MIM (Major Incident Manager)
->
-> 2. **Notify Stakeholders via Flow Designer**
->    ```
->    Trigger: MI created
->        ├─ Email: IT Leadership (role: itil_admin)
->        ├─ Teams/Slack: #it-major-incidents channel
->        └─ Page: On-call manager via PagerDuty spoke
->    ```
->
-> 3. **Create Child Incidents per Affected Area**
->    - Network → child incident
->    - Database → child incident
->    - Application → child incident
->    - Link via `parent_incident` field
->
-> 4. **War Room Collaboration**
->    - Use `incident.chat` field for real-time notes
->    - Post updates every 15 minutes
->    - Update `known_error` in Knowledge Base
->
-> 5. **Resolution & Post-Incident Review**
->    - Create PIR (Post Incident Review) task
->    - Link to problem record for root cause analysis
->    - Document lessons learned
-
-### Scenario: Cireson Integration for ITSM
-
-> **User:** "We're using Cireson for our ITSM portal. How do we sync ServiceNow incidents?"
-
-**Expert:**
-> **Cireson-Servicenow Integration Setup:**
->
-> 1. Install Cireson SCSM Connector on ServiceNow MID Server
-> 2. Configure connector: Source `incident` table → Target SCSM `System.WorkItem.Incident`
-> 3. Field mapping:
->    ```
->    SN.short_description → SCSM.Title
->    SN.caller_id.email → SCSM.AffectedUser.Email
->    SN.assignment_group → SCSM.TierQueue
->    SN.state → SCSM.Status (map: 1→New, 2→Active, 3→Awaiting, 6→Resolved, 7→Closed)
->    ```
-> 4. Enable change request sync for SC requests
-> 5. Schedule: Real-time sync via MID Server polling every 5 minutes
-
-## 9.2 HR & Finance Workflows
-
-### Scenario: Employee Onboarding via HR Service Management
-
-> **User:** "How do I automate the employee onboarding request flow from Workday to ServiceNow?"
-
-**Expert:**
-> **Onboarding Flow:**
->
-> ```
-> Workday HCM → Integration Hub REST spoke → ServiceNow HR Service
->                                                       │
->                                           ┌───────────┼───────────┐
->                                    Provision AD   Setup Laptop   Assign Badge
->                                        │              │              │
->                                    Task created   Task created   Task created
->                                        │              │              │
->                                        └──────────────┼──────────────┘
->                                                       │
->                                              All tasks complete
->                                                       │
->                                              Onboarding Complete task
->                                                       │
->                                              Notify HR Manager
-> ```
->
-> 1. **Workday Integration:** REST import set from Workday Worker API
-> 2. **Trigger:** New `sys_user` record with `u_employee_type=onboarding`
-> 3. **Flow Designer:** Create parallel tasks for IT, Security, Facilities
-> 4. **Deadline:** Each task SLA = start_date - 5 business days
-> 5. **Completion:** Task group `All complete` → triggers welcome email
-
-### Scenario: Expense Report Approval
-
-> **User:** "Set up an expense report approval that routes based on amount thresholds."
-
-**Expert:**
-> **Approval Routing Logic:**
+> 1. Access your ServiceNow instance
+> 2. Navigate to the application
+> 3. Create your first record
 >
 > ```javascript
-> // Before Business Rule on expense_report
-> (function executeRule(current, previous) {
-    
->     var amount = current.amount.getDecimalValue();
->     var user = current.requested_by;
->     var dept = user.department;
+> // Create incident via script
+> var inc = new GlideRecord('incident');
+> inc.initialize();
+> inc.short_description = 'Issue description';
+> inc.category = 'software';
+> inc.insert();
+> ```
+
+## 9.2 Incident Management
+
+**User:** "How do I create and manage incidents in ServiceNow?"
+
+**Expert:**
+> **Incident Workflow:**
+>
+> ```javascript
+> // Create incident
+> var inc = new GlideRecord('incident');
+> inc.initialize();
+> inc.short_description = 'User cannot login';
+> inc.description = 'User receives error when logging in';
+> inc.caller_id = '6816f79cc0a8016401c5a33be04be441'; // User sys_id
+> inc.category = 'software';
+> inc.subcategory = 'access';
+> inc.priority = 2;
+> inc.urgency = 2;
+> inc.impact = 2;
+> var sysId = inc.insert();
+> ```
+
+> **Update Incident:**
+> ```javascript
+> var inc = new GlideRecord('incident');
+> inc.get('INC0012345');
+> inc.state = 2; // In Progress
+> inc.assigned_to = 'some_user_sys_id';
+> inc.work_notes = 'Working on the issue';
+> inc.update();
+> ```
+
+> **Close Incident:**
+> ```javascript
+> var inc = new GlideRecord('incident');
+> inc.get('INC0012345');
+> inc.state = 7; // Closed
+> inc.resolution_notes = 'Fixed by resetting password';
+> inc.update();
+> ```
+
+## 9.3 Change Management
+
+**User:** "How do I create a change request?"
+
+**Expert:**
+> **Change Request Workflow:**
+>
+> ```javascript
+> // Create change request
+> var change = new GlideRecord('change_request');
+> change.initialize();
+> change.short_description = 'Upgrade database server';
+> change.description = 'Upgrade production MySQL from 5.7 to 8.0';
+> change.type = 'normal';
+> change.risk = 'medium';
+> change.category = 'database';
+> change.planned_start_date = '2024-03-15 02:00:00';
+> change.planned_end_date = '2024-03-15 06:00:00';
+> change.insert();
+> ```
+
+## 9.4 Script Include
+
+**User:** "How do I create a reusable script include?"
+
+**Expert:**
+> **Script Include:**
+>
+> ```javascript
+> var MyAppUtils = Class.create();
+> MyAppUtils.prototype = {
+>     initialize: function() {},
+>
+>     getUserInfo: function(userId) {
+>         var user = new GlideRecord('sys_user');
+>         if (user.get(userId)) {
+>             return {
+>                 name: user.getDisplayValue('name'),
+>                 email: user.email,
+>                 department: user.department.getDisplayValue()
+>             };
+>         }
+>         return null;
+>     },
+>
+>     createIncident: function(shortDesc, description, callerId) {
+>         var inc = new GlideRecord('incident');
+>         inc.initialize();
+>         inc.short_description = shortDesc;
+>         inc.description = description;
+>         inc.caller_id = callerId;
+>         return inc.insert();
+>     },
+>
+>     type: 'MyAppUtils'
+> };
+> ```
+
+## 9.5 REST API Integration
+
+**User:** "How do I integrate with external APIs?"
+
+**Expert:**
+> **Outbound REST:**
+>
+> ```javascript
+> var r = new sn_ws.RESTMessageV2('External API', 'Get Tickets');
+> r.setHttpMethod('GET');
+> r.setEndpoint('https://api.example.com/tickets');
+> r.setRequestHeader('Authorization', 'Bearer ' + gs.getProperty('api.token'));
+> r.setRequestHeader('Content-Type', 'application/json');
+>
+> var response = r.execute();
+> var status = response.getStatusCode();
+> var body = response.getBody();
+> ```
+
+> **Inbound REST (Scripted REST API):**
+>
+> ```javascript
+> (function process(/\* RESTAPIRequest\*/ request, /\* RESTAPIResponse\*/ response) {
+>     var data = request.body.data;
 >     
->     if (amount <= 500) {
->         current.approval = 'direct_manager';
->         current.u_approver = user.manager;
->     } else if (amount <= 5000) {
->         current.approval = 'dept_head';
->         current.u_approver = dept.dept_head;
->     } else {
->         current.approval = 'finance_director';
->         current.u_approver = 'finance_director_group';
+>     var inc = new GlideRecord('incident');
+>     inc.initialize();
+>     inc.short_description = data.short_description;
+>     inc.description = data.description;
+>     inc.caller_id = data.caller_email;
+>     var sysId = inc.insert();
+>     
+>     response.setStatus(201);
+>     response.setBody({ sys_id: sysId, status: 'created' });
+> })(request, response);
+> ```
+
+## 9.6 Flow Designer
+
+**User:** "How do I create a flow in ServiceNow?"
+
+**Expert:**
+> **Flow Creation:**
+>
+> 1. **Trigger**: Record created or updated on incident table
+> 2. **Condition**: Priority = 1 (Critical)
+> 3. **Actions**:
+>    - Notify on-call manager via email
+>    - Create task for escalation team
+>    - Update assignment group
+>    - Add work note
+
+> **Flow Example (Pseudo-code):**
+> ```
+> When incident.priority = 1 AND incident.created
+>     DO:
+>       - Send Email: To = assigned_to.manager, Subject = "Critical Incident"
+>       - Create Task: "Escalation Review" assigned to Security Team
+>       - Update Field: assigned_group = "Tier 2 Support"
+>       - Add Work Note: "Auto-escalated due to critical priority"
+> ```
+
+## 9.7 Business Rule
+
+**User:** "How do I create a business rule?"
+
+**Expert:**
+> **Business Rule Example:**
+>
+> ```javascript
+> // Before business rule on Incident
+> (function executeRule(current, previous) {
+>     // Auto-assign high priority incidents
+>     if (current.priority == 1 && current.assigned_to.nil()) {
+>         current.assigned_to = 'support_group';
+>         current.assignment_group = 'Level 2 Support';
 >     }
 >     
->     current.state = 'pending_approval';
-    
+>     // Set initial values
+>     if (current.isNewRecord()) {
+>         current.u_first_response_due = gs.nowDateTime();
+>     }
 > })(current, previous);
 > ```
 
-## 9.3 Support Ticketing Workflows
+## 9.8 ACL (Access Control)
 
-### Scenario: Automated Ticket Routing via NLP
-
-> **User:** "We get thousands of tickets a day. How can we auto-categorize and route them?"
+**User:** "How do I create an ACL?"
 
 **Expert:**
-> **Intelligent Routing with Now Assist:**
+> **ACL Example:**
 >
-> 1. Enable `com.snc.knowledge.intelligence` plugin
-> 2. Train model on 6+ months of historical tickets
-> 3. Configure prediction:
->    ```
->    Predict: Category (from 50 historical categories)
->    Predict: Assignment Group (from incident.cmdb_ci + description)
->    Predict: Priority (based on keywords + user impact tier)
->    ```
-> 4. Confidence threshold: ≥ 80% → auto-assign; < 80% → queue review
-> 5. Human-in-the-loop: Agent can override → feedback loop improves model
->
-> **Fallback Rule Engine:**
+> ```javascript
+> // ACL: Read access to incident assigned to current user
+> (function runScript(ctrl, req) {
+>     // Allow if user is assigned to the incident
+>     if (current.assigned_to == gs.getUserID()) {
+>         return true;
+>     }
+>     
+>     // Allow if user is in the assignment group
+>     var gr = new GlideRecord('sys_user_grmember');
+>     gr.addQuery('user', gs.getUserID());
+>     gr.addQuery('group', current.assignment_group);
+>     gr.query();
+>     
+>     return gr.getRowCount() > 0;
+> })(acl, request);
 > ```
-> if (short_description.contains('password')) → Assignment: IAM Team
-> if (category == 'Hardware' && subcategory == 'Laptop') → Assignment: Hardware Ops
-> if (caller.department == 'Finance') → Assignment: Finance IT Support
-> ```
-
-### Scenario: Customer Service Management (CSM) Entitlement Check
-
-> **User:** "We want to check product entitlements before opening a support case."
-
-**Expert:**
-> **Entitlement Check Flow:**
->
-> ```
-> Customer submits case via CSM Portal
->         │
->         ├─ Flow: Look up entitlement
->         │   GET /api/crm/entitlements?customer_id={caller_id}
->         │
->         ├─ Response: { product: "Enterprise Suite", status: "active", tier: "Premium" }
->         │
->         ├─ If active → Create case, assign to Premium Support queue, SLA: 2 hours
->         └─ If expired → 
->              Case created with note: "Your entitlement expired on {date}"
->              Redirect to renewal offer page
->              Route to Sales queue
-> ```
-
-### Scenario: SLA Breach Notification
-
-> **User:** "How do I set up proactive SLA breach notifications at 75% and 90%?"
-
-**Expert:**
-> **SLA Breach Warning Flow:**
->
-> 1. Configure SLA Definition with breach warning schedule:
->    ```properties
->    # System Property: SLA warning thresholds
->    com.snc.sla.warning.percentage=75,90
->    com.snc.sla.notification.recipients=assigned_to,assignment_group.manager
->    ```
-> 2. **Flow Designer** trigger: `SLA Milestone Warning Event`
->    ```
->    Event: sla.marker.warning
->        │
->        ├─ Condition: milestone.name == "Response Time"
->        │   │
->        │   ├─ If percentage >= 75 AND < 90:
->        │   │   └── Email to assigned_to: "Approaching SLA breach in {remaining} minutes"
->        │   │
->        │   └─ If percentage >= 90:
->        │       └── Email + Push notification
->        │       └── Escalate to assignment_group.manager
->        │       └── Add work note: "SLA breach imminent - escalated at 90%"
->    ```
-> 3. SLA Breach Event: `sla.marker.breach` → notify leadership + create audit log

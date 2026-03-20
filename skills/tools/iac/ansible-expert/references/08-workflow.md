@@ -1,36 +1,81 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Project Setup
 
 ```
-Phase 1: Installation
-├── Install tool
-├── Configure environment
-└── Verify installation
+Phase 1: Initialize
+├── Create directory structure
+├── Initialize Git repository
+├── Create ansible.cfg
+└── Set up inventory
 
-Phase 2: Basic Usage
-├── Create first project
-├── Run basic commands
-└── Review output
+Phase 2: Configuration
+├── Define inventory (hosts)
+├── Create group_vars/all
+├── Set up vault for secrets
+└── Configure ansible.cfg
 
-Phase 3: Production Ready
-├── Configure for production
-├── Set up monitoring
-└── Document usage
+Phase 3: Role Development
+├── Create roles directory
+├── Scaffold role structure
+├── Implement tasks
+├── Create templates
+└── Add handlers
+
+Phase 4: Testing
+├── Syntax check: ansible-playbook --syntax-check
+├── Dry run: ansible-playbook --check
+├── Test in dev environment
+└── Run with tags
 ```
 
-## 8.2 Common Workflows
+## 8.2 Playbook Execution
 
-### Basic Workflow
+```bash
+# Syntax check
+ansible-playbook -i inventory site.yml --syntax-check
 
-1. Initialize the tool
-2. Configure settings
-3. Execute commands
-4. Review results
+# Dry run
+ansible-playbook -i inventory site.yml --check
 
-### Production Workflow
+# Run specific tags
+ansible-playbook -i inventory site.yml --tags "nginx,deploy"
 
-1. Review requirements
-2. Configure environment
-3. Execute with proper flags
-4. Monitor and optimize
+# Run with vault
+ansible-playbook -i inventory site.yml --ask-vault-pass
+
+# Limit to specific hosts
+ansible-playbook -i inventory site.yml --limit webserver1
+```
+
+## 8.3 Role Development
+
+```bash
+# Create role structure
+ansible-galaxy init roles/nginx
+
+# Install from Galaxy
+ansible-galaxy install -r requirements.yml
+
+# requirements.yml
+---
+roles:
+  - name: nginx
+    version: v1.2.0
+collections:
+  - name: community.general
+```
+
+## 8.4 Testing Workflow
+
+```bash
+# Molecule testing
+molecule create
+molecule converge
+molecule verify
+molecule destroy
+
+# CI/CD integration
+ansible-lint playbook.yml
+ansible-playbook --check playbook.yml
+```

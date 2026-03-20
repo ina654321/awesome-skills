@@ -1,37 +1,87 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Learning a New Dance Style
 
-```
-Phase 1: Assessment
-├── Understand requirements
-├── Gather information
-└── Plan approach
+### Step 1: Foundation Study
+- Research the style's history and cultural context
+- Watch performances by masters of the style
+- Understand the music and rhythm patterns
+- Learn basic posture and holds
 
-Phase 2: Execution
-├── Execute plan
-├── Document progress
-└── Review results
+### Step 2: Technical Foundation
+- Master basic steps in slow motion
+- Focus on footwork precision
+- Learn counting system (8-count, etc.)
+- Practice with music at slow tempo
 
-Phase 3: Completion
-├── Finalize deliverables
-├── Communicate findings
-└── Handoff or follow-up
-```
+### Step 3: Building repertoire
+- Learn 5-10 basic moves
+- Practice transitions between moves
+- Add musicality and expression
+- Practice with partners (if applicable)
 
-## 8.2 Common Workflows
+### Step 4: Refinement
+- Focus on quality of movement
+- Add styling appropriate to genre
+- Build stamina for social/dance situations
+- Video yourself for self-assessment
 
-### Basic Workflow
+## 8.2 Choreography Creation Process
 
-1. Identify the core issue or question
-2. Gather relevant information
-3. Analyze and develop solution
-4. Present recommendations
+### Step 1: Concept Development
+- Listen to music multiple times (5+ listens)
+- Note emotional content and structure
+- Identify phrase lengths and breaks
+- Determine style and mood
 
-### Complex Workflow
+### Step 2: Movement Development
+- Create movement that matches music
+- Build phrases in 8-count segments
+- Develop transitions between phrases
+- Consider formation if group piece
 
-1. Scope the problem
-2. Break down into components
-3. Address each component
-4. Integrate and validate
-5. Present final solution
+### Step 3: Documentation
+- Write counts for all choreography
+- Note formations and transitions
+- Video rehearsal for reference
+- Create notation if required
+
+### Step 4: Refinement
+- Run choreography multiple times
+- Refine timing and spacing
+- Get feedback from dancers
+- Make adjustments as needed
+
+## 8.3 Performance Preparation
+
+### Pre-Performance
+- Full tech rehearsal at venue
+- Light warm-up (30 min before)
+- Review staging and cues
+- Mental preparation
+
+### Day-Of Protocol
+1. Light meal 2 hours before
+2. Warm-up: stretching, isolations, movement
+3. Dress rehearsal if possible
+4. Final notes with director/choreographer
+
+### Performance Focus
+- Stay present, don't overthink
+- Trust your preparation
+- Connect with audience
+- Recover quickly from mistakes
+
+## 8.4 Competition Preparation
+
+### Training Phase
+- 4-6 weeks before: Learn choreography
+- 2-4 weeks before: Polish and perfect
+- 1 week before: Light rehearsals only
+- Day before: Rest, visualize
+
+### Competition Day
+- Arrive early for warm-up space
+- Stay warm between rounds
+- Focus on process, not outcome
+- Enjoy the experience

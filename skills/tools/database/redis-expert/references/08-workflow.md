@@ -1,36 +1,187 @@
 # Standard Workflow
 
-## 8.1 Getting Started
+## 8.1 Installation & Setup
 
-```
-Phase 1: Installation
-├── Install tool
-├── Configure environment
-└── Verify installation
+### Install Redis
 
-Phase 2: Basic Usage
-├── Create first project
-├── Run basic commands
-└── Review output
+```bash
+# Ubuntu/Debian
+sudo apt install redis-server
 
-Phase 3: Production Ready
-├── Configure for production
-├── Set up monitoring
-└── Document usage
+# macOS
+brew install redis
+
+# Start service
+sudo systemctl start redis
+sudo systemctl enable redis
 ```
 
-## 8.2 Common Workflows
+### Basic Commands
 
-### Basic Workflow
+```bash
+# Connect
+redis-cli
 
-1. Initialize the tool
-2. Configure settings
-3. Execute commands
-4. Review results
+# Test
+PING
 
-### Production Workflow
+# String operations
+SET mykey "Hello"
+GET mykey
 
-1. Review requirements
-2. Configure environment
-3. Execute with proper flags
-4. Monitor and optimize
+# Key operations
+KEYS *
+DEL mykey
+EXISTS mykey
+
+# TTL operations
+SET mykey "value"
+EXPIRE mykey 60
+TTL mykey
+```
+
+### Configuration
+
+```bash
+# Runtime config
+CONFIG SET maxmemory 2gb
+CONFIG SET maxmemory-policy allkeys-lru
+
+# Persistence
+CONFIG SET save "900 1 300 10 60 10000"
+CONFIG SET appendonly yes
+CONFIG SET appendfsync everysec
+```
+
+## 8.2 Data Operations
+
+### Strings
+
+```bash
+SET key value
+GET key
+INCR counter
+INCRBY counter 10
+APPEND key "suffix"
+STRLEN key
+```
+
+### Hashes
+
+```bash
+HSET user:1 name "John"
+HGET user:1 name
+HGETALL user:1
+HINCRBY user:1 age 1
+HDEL user:1 field
+```
+
+### Lists
+
+```bash
+LPUSH mylist "first"
+RPUSH mylist "last"
+LPOP mylist
+RPOP mylist
+LRANGE mylist 0 -1
+```
+
+### Sets
+
+```bash
+SADD myset "member1"
+SMEMBERS myset
+SISMEMBER myset "member1"
+SCARD myset
+SINTER set1 set2
+```
+
+### Sorted Sets
+
+```bash
+ZADD leaderboard 100 "player1"
+ZADD leaderboard 200 "player2"
+ZRANGE leaderboard 0 -1 WITHSCORES
+ZREVRANGE leaderboard 0 9 WITHSCORES
+ZRANK leaderboard "player1"
+```
+
+## 8.3 Pipeline & Transactions
+
+### Pipeline
+
+```bash
+# Send multiple commands at once
+redis-cli PIPELINE
+SET key1 value1
+GET key1
+SET key2 value2
+GET key2
+EOF
+```
+
+### Transactions
+
+```bash
+MULTI
+SET key1 value1
+GET key1
+SET key2 value2
+GET key2
+EXEC
+```
+
+### Lua Scripts
+
+```bash
+EVAL "return redis.call('GET', KEYS[1])" 1 mykey
+EVALSHA "sha1_hash" 1 mykey
+```
+
+## 8.4 Pub/Sub
+
+### Subscribe
+
+```bash
+SUBSCRIBE mychannel
+PSUBSCRIBE pattern*
+UNSUBSCRIBE mychannel
+```
+
+### Publish
+
+```bash
+PUBLISH mychannel "message"
+```
+
+## 8.5 Server Management
+
+### Monitoring
+
+```bash
+# Monitor live commands
+MONITOR
+
+# Slow log
+SLOWLOG GET 10
+
+# Info
+INFO
+INFO memory
+INFO replication
+```
+
+### Maintenance
+
+```bash
+# Background save
+BGSAVE
+
+# Rewrite AOF
+BGREWRITEAOF
+
+# Shutdown
+SHUTDOWN
+SHUTDOWN SAVE
+SHUTDOWN NOSAVE
+```

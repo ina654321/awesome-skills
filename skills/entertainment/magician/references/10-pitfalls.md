@@ -1,27 +1,88 @@
 # Common Pitfalls & Anti-Patterns
 
-## 10.1 Anti-Patterns
+## 10.1 High-Severity Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Skipping assessment** | 🔴 High | Always assess first |
-| 2 | **Ignoring risks** | 🔴 High | Document and mitigate |
-| 3 | **No documentation** | 🟡 Medium | Document all steps |
-| 4 | **Assuming without data** | 🟡 Medium | Verify assumptions |
-| 5 | **Overcomplicating** | 🟡 Medium | Keep it simple |
+### 🔴 Anti-Pattern 1: Revealing Secrets
+```
+❌ BAD: Explaining how tricks work to impress audience
+✅ GOOD: Protect the magic; entertain, don't educate
+```
+**Why it matters**: Revealing secrets ruins the wonder; it's unprofessional and damages the art.
 
-## 10.2 Best Practices
+### 🔴 Anti-Pattern 2: Performing Untested Material
+```
+❌ BAD: Trying a new trick at a paid gig
+✅ GOOD: Practice until mastered before performing professionally
+```
+**Why it matters**: Audience pays for entertainment, not your practice session.
 
-1. **Always assess before acting**
-2. **Document your reasoning**
-3. **Consider multiple perspectives**
-4. **Validate with data**
-5. **Communicate clearly**
+### 🔴 Anti-Pattern 3: Rushed Performance
+```
+❌ BAD: Racing through effects without pauses
+✅ GOOD: Pacing allows wonder; silence is powerful
+```
+**Why it matters**: Rushed magic feels nervous; the pause creates anticipation.
 
-## 10.3 Quality Checklist
+### 🔴 Anti-Pattern 4: Over-Explaining
+```
+❌ BAD: Narrating every move
+✅ GOOD: Let the magic speak; minimal patter
+```
+**Why it matters**: Too much talk distracts; the wonder is in the effect, not the explanation.
 
-- [ ] Requirements clearly defined
-- [ ] Risks identified and mitigated
-- [ ] Documentation complete
-- [ ] Quality standards met
-- [ ] Stakeholder approval obtained
+## 10.2 Medium-Severity Anti-Patterns
+
+### 🟡 Anti-Pattern 5: Bad Helper Selection
+```
+❌ BAD: Picking the drunk person most likely to cause trouble
+✅ GOOD: Choose willing, enthusiastic helpers
+```
+
+### 🟡 Anti-Pattern 6: Same Old Tricks
+```
+❌ BAD: Performing the same 5 tricks for 10 years
+✅ GOOD: Evolve repertoire; add new material regularly
+```
+
+### 🟡 Anti-Pattern 7: No Backup Plan
+```
+❌ BAD: No plan B if equipment fails
+✅ GOOD: Always have backup; simple tricks in pocket
+```
+
+### 🟡 Anti-Pattern 8: Ignoring Venue Constraints
+```
+❌ BAD: Planning stage magic in a close-up setting
+✅ GOOD: Match magic to venue and audience size
+```
+
+## 10.3 Best Practices Checklist
+
+### Before Performance
+- [ ] Venue details confirmed
+- [ ] Equipment checked and backed up
+- [ ] Appropriate magic selected for audience
+- [ ] Arrived 30+ minutes early
+- [ ] Practiced within last week
+
+### During Performance
+- [ ] Building rapport before starting
+- [ ] Strong opening effect
+- [ ] Good pacing and pauses
+- [ ] Eye contact and connection
+- [ ] Strong memorable closer
+
+### After Performance
+- [ ] Professional exit
+- [ ] Thank client if appropriate
+- [ ] Payment handled
+- [ ] Follow up with thank-you
+
+## 10.4 Red Flags to Watch For
+
+| Red Flag | Risk Level | Action |
+|----------|------------|--------|
+| Deck miscounts mid-effect | High | Cover smoothly or abort |
+| Audience member knows method | Medium | Change approach; don't confirm |
+| Equipment failure | Medium | Have backup; stay calm |
+| Obnoxious spectator | Medium | Redirect; use less vulnerable effects |
