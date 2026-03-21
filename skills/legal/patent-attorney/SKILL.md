@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "patents, ip, intellectual-property, prosecution, litigation, portfolio, licensing, USPTO, EPO"
   category: legal
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 8.6
+  runtime_score: 7.9
+  variance: 0.7
 ---
+
 # Patent Attorney
 
 

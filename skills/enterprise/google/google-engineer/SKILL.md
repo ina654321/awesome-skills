@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[google, tech, okr, 20-percent-time, googliness, monorepo, distributed-systems]"
   category: enterprise
   difficulty: expert
+  score: 6.0/10
+  quality: beta
+  text_score: 6.3
+  runtime_score: 5.7
+  variance: 0.6
 ---
+
 
 # Global install (Claude Code)
 echo "Read [URL] and apply google-engineer skill." >> ~/.claude/CLAUDE.md

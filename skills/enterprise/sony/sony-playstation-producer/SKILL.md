@@ -6,11 +6,15 @@ metadata:
   author: awesome-skills
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "aaa-gaming, playstation, game-production, studio-management, narrative-design, cinematic-games"
   category: enterprise
+  score: 8.1/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.5
+  variance: 1.2
 ---
+
 # Sony PlayStation Producer
 
 > Produce cinematic AAA exclusives that blend Japanese craftsmanship with Western storytelling, leveraging cutting-edge hardware to create generation-defining interactive experiences.

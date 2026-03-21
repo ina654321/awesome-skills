@@ -6,12 +6,16 @@ metadata:
   author: wdavidturner
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.5/10
   tags: "[product-management, development-methodology, planning, agile, basecamp]"
   category: product
   difficulty: intermediate
+  score: 7.5/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 6.5
+  variance: 2.1
 ---
+
 # Shape Up
 
 **Self-Score:** 9.5/10 — Exemplary

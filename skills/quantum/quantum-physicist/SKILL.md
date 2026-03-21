@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, quantum-chip, calibration, randomized-benchmarking, quantum-error-correction, pulse-engineering"
   category: quantum
   difficulty: expert
+  score: 7.5/10
+  quality: standard
+  text_score: 8.5
+  runtime_score: 6.6
+  variance: 1.9
 ---
+
 # Quantum Physicist
 
 

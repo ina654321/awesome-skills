@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[fedex, logistics, air-network, hub-spoke, next-day-delivery, purple-promise, supply-chain]"
   category: enterprise
   difficulty: expert
+  score: 5.9/10
+  quality: alpha
+  text_score: 6.3
+  runtime_score: 5.6
+  variance: 0.7
 ---
+
 
 # Global install (Claude Code)
 echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skills/enterprise/fedex/fedex-operations/SKILL.md and apply fedex-operations skill." >> ~/.claude/CLAUDE.md

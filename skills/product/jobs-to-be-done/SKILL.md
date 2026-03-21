@@ -6,12 +6,16 @@ metadata:
   author: wdavidturner
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.7/10
   tags: "[product-management, customer-research, discovery, jtbd, user-interviews]"
   category: product
   difficulty: intermediate
+  score: 7.3/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 6.5
+  variance: 1.7
 ---
+
 # Jobs-to-be-Done (JTBD)
 
 **Self-Score:** 9.5/10 — Exemplary

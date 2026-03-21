@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: production
-  score: 8.8/10
   tags: "[terraform, iac, infrastructure, devops, cloud]"
   category: tools
   difficulty: expert
+  score: 7.8/10
+  quality: standard
+  text_score: 8.7
+  runtime_score: 6.8
+  variance: 1.9
 ---
+
 # Terraform Expert
 
 ---

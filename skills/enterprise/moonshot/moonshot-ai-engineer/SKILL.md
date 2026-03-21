@@ -6,12 +6,16 @@ metadata:
   author: kimi-community
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "[moonshot, kimi, llm-engineering, chinese-nlp, long-context]"
   category: enterprise
   difficulty: expert
+  score: 7.7/10
+  quality: standard
+  text_score: 7.8
+  runtime_score: 7.7
+  variance: 0.1
 ---
+
 # Moonshot AI (月之暗面) Engineer
 
 ---

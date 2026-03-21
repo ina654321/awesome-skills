@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "construction, engineering, structural, structural-analysis, load-calculation, seismic-design, steel, concrete, foundations"
   category: construction
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.3
+  variance: 1.4
 ---
+
 # Structural Engineer
 
 

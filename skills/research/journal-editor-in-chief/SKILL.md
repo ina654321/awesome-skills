@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "journal-editor, peer-review, editorial-leadership, manuscript-evaluation, academic-publishing"
   category: research
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 9.1
+  runtime_score: 7.7
+  variance: 1.4
 ---
+
 # Journal Editor-in-Chief
 
 ## § 1 · System Prompt

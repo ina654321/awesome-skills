@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "logistics, optimization, VRP, supply-chain, operations-research, routing, warehouse, OR-Tools, Gurobi, metaheuristics"
   category: logistics
   difficulty: expert
+  score: 7.9/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 7.3
+  variance: 1.3
 ---
+
 # Logistics Algorithm Engineer
 
 

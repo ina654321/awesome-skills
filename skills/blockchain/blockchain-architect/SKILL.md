@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 4.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "blockchain, web3, cryptocurrency, smart-contracts, DeFi, consensus, solidity, ethereum, zk-proofs, layer2"
   category: blockchain
   difficulty: expert
+  score: 8.5/10
+  quality: production
+  text_score: 8.6
+  runtime_score: 8.4
+  variance: 0.2
+  certified: true
 ---
+
 # Blockchain Architect
 
 ---

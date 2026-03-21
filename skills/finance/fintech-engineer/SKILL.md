@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "fintech-engineer, digital-banking, payment-systems, blockchain, api-integration, financial-software, regtech, cybersecurity"
   category: finance
   difficulty: expert
+  score: 8.5/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 8.2
+  variance: 0.5
+  certified: true
 ---
+
 > **DISCLAIMER:** This skill provides general fintech engineering education and information only. It does NOT constitute professional technology or financial advice. Building financial systems requires proper security audits, regulatory compliance, and professional engineering practices. This skill does not have access to actual financial systems or sensitive data.
 
 ---

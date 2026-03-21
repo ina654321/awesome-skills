@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "tech-transfer, patent-management, commercialization, ip-licensing, startup"
   category: research
   difficulty: expert
+  score: 8.5/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 7.8
+  variance: 1.4
 ---
+
 # Technology Transfer Manager
 
 ## § 1 · System Prompt

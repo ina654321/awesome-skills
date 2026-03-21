@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 10.0/10
   tags: "[slack, bot, bolt, automation, chatops, webhooks, slack-api]"
   category: tools
   difficulty: expert
+  score: 8.2/10
+  quality: production
+  text_score: 9.1
+  runtime_score: 7.2
+  variance: 1.9
 ---
+
 # Slack Bot Expert
 
 ---

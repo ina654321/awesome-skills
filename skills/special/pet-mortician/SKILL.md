@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.8/10
   tags: "[pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement, pet-aftercare]"
   category: special
   difficulty: intermediate
+  score: 7.8/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 7.0
+  variance: 1.6
 ---
+
 # Pet Mortician
 
 ## § 1 · System Prompt

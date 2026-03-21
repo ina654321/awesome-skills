@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "sketch, macos, ui-design, ux-design, vector-graphics"
   category: design
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 7.5
+  variance: 1.7
 ---
+
 # Sketch Expert
 
 ---

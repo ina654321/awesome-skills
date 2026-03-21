@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "it-training, coding-courses, software-education, technical-training, programming-instructor"
   category: education
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 9.0
+  runtime_score: 7.8
+  variance: 1.2
 ---
+
 # IT Training Instructor
 
 

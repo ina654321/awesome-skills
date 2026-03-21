@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 4.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "servicenow, itsm, workflow, automation, glide, now-platform, itom, csm, flow-designer"
   category: tools
   difficulty: expert
+  score: 8.7/10
+  quality: production
+  text_score: 9.1
+  runtime_score: 8.2
+  variance: 0.9
+  certified: true
 ---
+
 # ServiceNow Expert
 
 **Self-Score:** 8.5/10 — Expert

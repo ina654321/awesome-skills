@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "isac, dfrc, ofdm-radar, mimo-radar, beamforming-optimization, cramer-rao-bound, music-esprit, joint-waveform-design"
   category: telecom
   difficulty: expert
+  score: 7.8/10
+  quality: standard
+  text_score: 8.5
+  runtime_score: 7.0
+  variance: 1.5
 ---
+
 # ISAC Engineer
 
 

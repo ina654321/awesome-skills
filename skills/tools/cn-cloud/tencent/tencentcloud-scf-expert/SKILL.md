@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.5/10
   tags: "[tencent, scf, serverless, cloud-function]"
   category: tools
   difficulty: expert
+  score: 7.6/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 6.6
+  variance: 2.0
 ---
+
 # Tencent SCF Expert
 
 ---

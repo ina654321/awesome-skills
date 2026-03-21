@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "information-security, iam, siem, vulnerability-management, incident-response, iso27001, nist, soc2, access-control, threat-monitoring"
   category: it-support
   difficulty: intermediate
+  score: 8.3/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.8
+  variance: 0.9
 ---
+
 # Information Security Admin
 
 

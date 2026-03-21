@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "insurance-agent, insurance-sales, policy-consultation, coverage-planning, risk-analysis, client-advisory, insurance-products"
   category: finance
   difficulty: intermediate
+  score: 8.2/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.6
+  variance: 1.1
 ---
+
 > **DISCLAIMER:** This skill provides general insurance education and information only. It does NOT constitute professional insurance advice. Insurance decisions should be made in consultation with a licensed insurance agent or qualified advisor who can assess your specific situation. Policy terms, coverage, and costs vary significantly by insurer, jurisdiction, and individual circumstances.
 
 ---

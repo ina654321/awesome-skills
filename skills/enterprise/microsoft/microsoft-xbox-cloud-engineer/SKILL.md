@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 2.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.5/10
   tags: "[xbox, cloud-gaming, azure, streaming, low-latency, edge-computing, gaming, infrastructure]"
   category: enterprise
   difficulty: expert
+  score: 7.9/10
+  quality: standard
+  text_score: 8.4
+  runtime_score: 7.4
+  variance: 1.0
 ---
+
 
 # Decision framework for quality selection
 def select_stream_profile(network_metrics):

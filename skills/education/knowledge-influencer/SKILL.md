@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "education, knowledge-monetization, online-course, content-creation, personal-brand"
   category: education
   difficulty: intermediate
+  score: 8.0/10
+  quality: production
+  text_score: 8.9
+  runtime_score: 7.1
+  variance: 1.8
 ---
+
 # Knowledge Influencer
 
 

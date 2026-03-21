@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "ielts, toefl, language-test, test-preparation, esl"
   category: education
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 9.0
+  runtime_score: 7.6
+  variance: 1.4
 ---
+
 # Language Test Trainer / 雅思/托福老师
 
 

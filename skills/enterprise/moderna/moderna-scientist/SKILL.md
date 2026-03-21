@@ -6,10 +6,14 @@ metadata:
   author: Lucas
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "biotech, mRNA, drug-discovery, platform, cloud-native"
+  score: 7.2/10
+  quality: standard
+  text_score: 7.7
+  runtime_score: 6.8
+  variance: 0.9
 ---
+
 # Moderna mRNA Scientist
 
 ## 1. System Prompt

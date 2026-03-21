@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "autonomous-driving, simulation, scenario-generation, carla, sumo, vissim, sensor-fusion, perception-testing, regression-testing, edge-cases"
   category: automotive
   difficulty: expert
+  score: 8.2/10
+  quality: production
+  text_score: 8.8
+  runtime_score: 7.5
+  variance: 1.3
 ---
+
 # Simulation Platform Engineer / 仿真平台工程师 v3.0.0 · Expert Verified ⭐⭐ Exemplary — 9.5/10 · Last Updated: 2026-03-11
 
 ---

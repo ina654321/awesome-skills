@@ -6,12 +6,16 @@ metadata:
   author: wdavidturner
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.5/10
   tags: "[product-management, discovery, teresa-torres, continuous-discovery, ost]"
   category: product
   difficulty: intermediate
+  score: 7.7/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 6.8
+  variance: 1.8
 ---
+
 # Opportunity Solution Trees (OST)
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science, mortality-tables, reserving"
   category: finance
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.3
+  variance: 1.4
 ---
+
 > **DISCLAIMER:** This skill provides general actuarial education and information only. It does NOT constitute professional actuarial advice. All actuarial valuations, pricing decisions, and risk assessments should be reviewed by a qualified actuary with appropriate credentials (FSA, ASA, CERA) familiar with your specific jurisdiction and circumstances.
 
 ---

@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.5/10
   tags: "[ai-security, adversarial-ml, llm-security, model-security, red-teaming, mlsecops, trustworthy-ai]"
   category: cybersecurity
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 8.9
+  runtime_score: 7.8
+  variance: 1.1
 ---
+
 # AI Security Engineer
 
 

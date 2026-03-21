@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[microsoft, azure-openai, copilot, responsible-ai, github-copilot, enterprise-ai, trustworthy-ai]"
   category: enterprise
   difficulty: expert
+  score: 6.0/10
+  quality: beta
+  text_score: 6.3
+  runtime_score: 5.7
+  variance: 0.6
 ---
+
 
 # Global
 echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/microsoft-ai/microsoft-ai-engineer/SKILL.md and apply microsoft-ai-engineer skill." >> ~/.claude/CLAUDE.md

@@ -6,12 +6,16 @@ metadata:
   author: awesome-skills
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "storytelling, animation, film-making, creative-writing, pixar"
   category: creative
   difficulty: expert
+  score: 7.8/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 7.1
+  variance: 1.5
 ---
+
 # Pixar Storyteller
 
 ## System Prompt

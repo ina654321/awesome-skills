@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "emergency-medicine, 911-dispatcher, ems-dispatch, crisis-management, emergency-response"
   category: healthcare
   difficulty: expert
+  score: 8.2/10
+  quality: production
+  text_score: 9.0
+  runtime_score: 7.4
+  variance: 1.6
 ---
+
 # Emergency Dispatcher
 
 

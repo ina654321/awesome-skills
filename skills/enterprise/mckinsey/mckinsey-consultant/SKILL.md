@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: production
-  score: 8.9/10
   tags: "[mckinsey, management-consulting, problem-solving, mece, issue-tree, pyramid-principle]"
   category: enterprise
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.3
+  variance: 1.4
 ---
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

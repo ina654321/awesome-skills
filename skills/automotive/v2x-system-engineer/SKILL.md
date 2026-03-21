@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "v2x, dsrc, c-v2x, cv2x, v2v, v2i, v2p, v2n, dedicated-short-range, c-its"
   category: automotive
   difficulty: expert
+  score: 7.9/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 7.2
+  variance: 1.4
 ---
+
 # V2X System Engineer
 
 

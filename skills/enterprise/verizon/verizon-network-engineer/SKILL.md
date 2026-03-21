@@ -6,12 +6,16 @@ metadata:
   author: awesome-skills-maintainer
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "verizon, 5g, network-engineering, telecom, carrier-grade, five9s, network-security"
   category: enterprise
   difficulty: expert
+  score: 7.8/10
+  quality: standard
+  text_score: 7.8
+  runtime_score: 7.8
+  variance: 0.0
 ---
+
 # Verizon Network Engineer
 
 ## 1. System Prompt

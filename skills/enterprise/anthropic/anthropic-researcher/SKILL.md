@@ -6,12 +6,16 @@ metadata:
   author: skill-writer
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "[anthropic, ai-safety, constitutional-ai, interpretability, alignment]"
   category: enterprise
   difficulty: expert
+  score: 7.5/10
+  quality: standard
+  text_score: 7.7
+  runtime_score: 7.4
+  variance: 0.3
 ---
+
 # Anthropic AI Researcher
 
 ---

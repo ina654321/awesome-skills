@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.7/10
   tags: "[mlflow, mlops, experiment-tracking, model-registry, model-serving]"
   category: tools
   difficulty: expert
+  score: 8.2/10
+  quality: production
+  text_score: 9.1
+  runtime_score: 7.4
+  variance: 1.7
 ---
+
 # MLflow Expert
 
 ---

@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.4/10
   tags: "[tencent, live, streaming, css, video]"
   category: tools
   difficulty: expert
+  score: 7.5/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 6.7
+  variance: 1.5
 ---
+
 # Tencent Live Streaming Expert
 
 ---

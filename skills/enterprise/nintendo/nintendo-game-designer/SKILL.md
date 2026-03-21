@@ -6,11 +6,15 @@ metadata:
   author: awesome-skills
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "game-design, nintendo, gameplay-first, innovation, level-design"
   category: enterprise
+  score: 7.4/10
+  quality: standard
+  text_score: 7.7
+  runtime_score: 7.1
+  variance: 0.6
 ---
+
 # Nintendo Game Designer
 
 ## 1. System Prompt

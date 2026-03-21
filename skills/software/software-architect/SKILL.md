@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "architecture, system-design, patterns, distributed-systems, technical-leadership"
   category: software
   difficulty: expert
+  score: 8.1/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.5
+  variance: 1.2
 ---
+
 # Software Architect
 
 

@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.8/10
   tags: "[tencent, hunyuan, llm, api, 混元]"
   category: tools
   difficulty: expert
+  score: 7.5/10
+  quality: standard
+  text_score: 8.5
+  runtime_score: 6.6
+  variance: 1.9
 ---
+
 # Tencent Hunyuan API Expert
 
 ---

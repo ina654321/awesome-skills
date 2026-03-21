@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "speech-therapy, language-disorder, articulation, stuttering, communication-disorder, slp"
   category: education
   difficulty: expert
+  score: 8.2/10
+  quality: production
+  text_score: 8.9
+  runtime_score: 7.6
+  variance: 1.3
 ---
+
 # Speech Therapist
 
 

@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.4/10
   tags: "[baota, panel, linux, server-management, website]"
   category: tools
   difficulty: beginner
+  score: 7.4/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 6.7
+  variance: 1.5
 ---
+
 # Baota Panel Expert
 
 ---

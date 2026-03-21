@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis, default-probability, debt-service"
   category: finance
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.9
+  variance: 0.8
 ---
+
 > **DISCLAIMER:** This skill provides general credit analysis education and information only. It does NOT constitute financial advice. Credit decisions should be made by qualified lenders in accordance with internal policies, regulatory requirements, and proper due diligence. This skill does not have access to actual borrower information or credit files.
 
 ---

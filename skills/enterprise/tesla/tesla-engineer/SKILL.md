@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.5.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[tesla, first-principles, ownership, innovation, mission-driven, engineering-culture, elon-musk, sustainable-energy]"
   category: enterprise
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 8.8
+  runtime_score: 7.9
+  variance: 0.9
 ---
+
 # Tesla Engineer
 
 

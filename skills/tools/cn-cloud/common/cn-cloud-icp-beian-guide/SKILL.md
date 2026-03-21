@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.5/10
   tags: "[icp-beian, beian, china, website, compliance]"
   category: tools
   difficulty: beginner
+  score: 7.9/10
+  quality: standard
+  text_score: 8.9
+  runtime_score: 7.0
+  variance: 1.9
 ---
+
 # CN Cloud ICP Beian Guide
 
 ---

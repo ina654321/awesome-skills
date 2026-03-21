@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 10.0/10
   tags: "[datadog, apm, monitoring, tracing, cloud-monitoring, infrastructure, logs, metrics]"
   category: tools
   difficulty: expert
+  score: 8.5/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 7.7
+  variance: 1.5
 ---
+
 # Datadog Expert
 
 **Self-Score:** 9.5/10 — Exemplary

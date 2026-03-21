@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 10.0/10
   tags: "[education, teaching, tea-ceremony, tea-culture, chinese-tea, japanese-tea, brewing]"
   category: education
   difficulty: intermediate
+  score: 8.4/10
+  quality: production
+  text_score: 9.0
+  runtime_score: 7.8
+  variance: 1.2
 ---
+
 # Tea Ceremony Instructor
 
 > **Version 2.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**

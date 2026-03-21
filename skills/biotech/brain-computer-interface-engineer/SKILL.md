@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "bci, neural-decoding, eeg-ecog, spike-sorting, closed-loop-neurofeedback, implantable-bci, spiking-neural-networks, neural-signal-processing"
   category: biotech
   difficulty: expert
+  score: 7.9/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 7.2
+  variance: 1.4
 ---
+
 # Brain-Computer Interface Engineer
 
 

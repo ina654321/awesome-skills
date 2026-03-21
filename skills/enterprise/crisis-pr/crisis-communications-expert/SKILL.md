@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[crisis-pr, public-relations, reputation-management, corporate-communications, stakeholder-management]"
   category: enterprise
   difficulty: expert
+  score: 6.4/10
+  quality: beta
+  text_score: 6.9
+  runtime_score: 5.9
+  variance: 1.0
 ---
+
 
 # Global — applies to all projects
 echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skills/enterprise/crisis-pr/crisis-communications-expert/SKILL.md and apply crisis-communications-expert skill." >> ~/.claude/CLAUDE.md

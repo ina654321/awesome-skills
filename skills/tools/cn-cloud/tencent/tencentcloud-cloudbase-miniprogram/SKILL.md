@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.5/10
   tags: "[tencent, cloudbase, miniprogram, wechat, serverless, cloud-function, database]"
   category: tools
   difficulty: intermediate
+  score: 7.8/10
+  quality: standard
+  text_score: 8.4
+  runtime_score: 7.3
+  variance: 1.1
 ---
+
 # Tencent CloudBase Expert
 
 > 腾讯云云开发(CloudBase)专家，专注于微信小程序serverless后端开发。帮助开发者快速构建免运维的小程序应用。

@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.0/10
   tags: "[amazon, leadership-principles, customer-obsession, working-backwards, ownership, frugality, innovation]"
   category: enterprise
   difficulty: expert
+  score: 7.9/10
+  quality: standard
+  text_score: 8.7
+  runtime_score: 7.1
+  variance: 1.6
 ---
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

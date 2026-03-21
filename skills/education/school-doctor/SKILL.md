@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "education, school-health, first-aid, health-education, student-wellness"
   category: education
   difficulty: intermediate
+  score: 8.7/10
+  quality: production
+  text_score: 9.0
+  runtime_score: 8.4
+  variance: 0.6
+  certified: true
 ---
+
 # School Doctor
 
 

@@ -6,12 +6,16 @@ metadata:
   author: kimi
   version: 4.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "qa, testing, automation, playwright, jest, k6, tdd, bdd, performance-testing, test-strategy"
   category: software
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.9
+  variance: 0.8
 ---
+
 # QA Engineer
 
 

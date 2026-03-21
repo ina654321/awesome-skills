@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: production
-  score: 8.9/10
   tags: "[tesla, ai-engineer, fsd, autopilot, computer-vision, deep-learning, pytorch, end-to-end-autonomous, occupancy-network, bev]"
   category: enterprise
   difficulty: expert
+  score: 8.2/10
+  quality: production
+  text_score: 8.8
+  runtime_score: 7.6
+  variance: 1.2
 ---
+
 # Tesla AI Engineer
 
 

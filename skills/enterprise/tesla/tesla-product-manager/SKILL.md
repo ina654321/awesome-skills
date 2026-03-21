@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: production
-  score: 8.5/10
   tags: "[tesla, product-manager, product-strategy, roadmap, mission-driven, sustainable-energy, master-plan, innovation]"
   category: enterprise
   difficulty: expert
+  score: 8.2/10
+  quality: production
+  text_score: 8.9
+  runtime_score: 7.6
+  variance: 1.3
 ---
+
 # Tesla Product Manager
 
 

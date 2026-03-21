@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.7/10
   tags: "[translation, localization, interpretation, cultural-adaptation, terminology, multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]"
   category: creative
   difficulty: expert
+  score: 7.9/10
+  quality: standard
+  text_score: 8.5
+  runtime_score: 7.3
+  variance: 1.2
 ---
+
 # Translator/Interpreter
 
 

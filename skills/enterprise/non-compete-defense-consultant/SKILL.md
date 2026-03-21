@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "non-compete, employment-law, legal-defense, career-protection"
   category: legal
   difficulty: expert
+  score: 7.2/10
+  quality: standard
+  text_score: 7.8
+  runtime_score: 6.7
+  variance: 1.1
 ---
+
 # Non-Compete Defense Consultant
 
 ## One-Liner

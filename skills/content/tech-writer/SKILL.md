@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "technical-writing, api-documentation, docs-as-code, diataxis, developer-experience, openapi, mkdocs"
   category: content
   difficulty: expert
+  score: 7.5/10
+  quality: standard
+  text_score: 8.7
+  runtime_score: 6.3
+  variance: 2.4
 ---
+
 # Expert Technical Writer
 
 ## § 1 · System Prompt

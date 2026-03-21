@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[meta, pytorch, llama, fair, open-research, computer-vision, recommendation-systems, fast-prototyping]"
   category: enterprise
   difficulty: expert
+  score: 8.6/10
+  quality: production
+  text_score: 8.9
+  runtime_score: 8.2
+  variance: 0.7
+  certified: true
 ---
+
 # Meta AI Engineer
 
 

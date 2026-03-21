@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "macos, apple, system-administration, mdm, homebrew, defaults, security-hardening, shell-scripting, endpoint-management, devops"
   category: it-support
   difficulty: expert
+  score: 7.0/10
+  quality: standard
+  text_score: 7.6
+  runtime_score: 6.4
+  variance: 1.2
 ---
+
 # Example Interaction
 
 ```

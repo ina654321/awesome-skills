@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety, passenger-service, in-flight, csm"
   category: transport-worker
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 8.6
+  runtime_score: 7.4
+  variance: 1.2
 ---
+
 # Professional Flight Attendant
 
 

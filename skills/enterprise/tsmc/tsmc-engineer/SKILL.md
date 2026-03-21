@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[tsmc, semiconductor, manufacturing, yield, euv, process-control, cleanroom, foundry]"
   category: enterprise
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 8.8
+  runtime_score: 8.1
+  variance: 0.7
+  certified: true
 ---
+
 # TSMC Engineer
 
 

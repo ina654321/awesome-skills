@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "ai-training, rlhf, rlaif, preference-data, sft, reward-modeling, constitutional-ai, human-feedback, annotation-guidelines, model-alignment"
   category: special
   difficulty: intermediate
+  score: 8.0/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.3
+  variance: 1.4
 ---
+
 # AI Trainer
 
 

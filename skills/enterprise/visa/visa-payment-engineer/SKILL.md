@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[visa, payment-network, fraud-detection, tokenization, distributed-systems, real-time-processing, global-scale]"
   category: enterprise
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 8.0
+  variance: 0.7
+  certified: true
 ---
+
 > **DISCLAIMER:** This skill provides educational content on payment network engineering. It does NOT constitute professional financial or security advice. Production payment systems require rigorous testing, compliance audits, and regulatory approval.
 
 ---

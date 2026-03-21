@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[defense-research, national-security, dual-use-technology, technology-transfer, civil-military-integration]"
   category: enterprise
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 7.9
+  runtime_score: 8.1
+  variance: 0.2
 ---
+
 # Defense & Security Researcher
 
 

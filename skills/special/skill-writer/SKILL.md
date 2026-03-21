@@ -6,10 +6,14 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 5.0.2
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "[skills, creation, quality, architecture, evaluation]"
+  score: 7.4/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 6.6
+  variance: 1.6
 ---
+
 # 🚀 Skill Writer v5
 
 > Professional skill creation with 4-level learning, 6-dimension quality, and self-consistent standards.

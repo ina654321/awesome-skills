@@ -6,11 +6,15 @@ metadata:
   author: Enterprise Skills Framework
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "morgan-stanley, investment-banking, managing-director, m-and-a, capital-markets, wealth-management, fiduciary, cross-border, fairness-opinion, advisory"
   category: financial_services
+  score: 8.0/10
+  quality: production
+  text_score: 8.1
+  runtime_score: 7.9
+  variance: 0.2
 ---
+
 # § 2 · System Prompt
 
 ## § 1 · System Prompt

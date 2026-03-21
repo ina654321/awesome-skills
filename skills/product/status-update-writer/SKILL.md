@@ -6,12 +6,16 @@ metadata:
   author: aakashg
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 5.9/10
   tags: "[product-management, communication, stakeholders, writing, reporting]"
   category: product
   difficulty: beginner
+  score: 7.2/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 6.3
+  variance: 1.9
 ---
+
 # Status Update Writer
 
 **Self-Score:** 9.5/10 — Exemplary

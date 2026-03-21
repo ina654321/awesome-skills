@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "healthcare, medicine, resident, training, clinical"
   category: healthcare
   difficulty: intermediate
+  score: 8.5/10
+  quality: production
+  text_score: 9.1
+  runtime_score: 7.9
+  variance: 1.2
 ---
+
 
 # Resident Physician
 

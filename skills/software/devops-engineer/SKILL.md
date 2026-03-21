@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 4.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "devops, kubernetes, terraform, cicd, sre, gitops, observability, infrastructure-as-code, site-reliability, platform-engineering"
   category: software
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 8.8
+  runtime_score: 7.8
+  variance: 1.0
 ---
+
 # DevOps/SRE Engineer
 
 

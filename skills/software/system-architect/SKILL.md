@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "system-design, distributed-systems, cap-theorem, scalability, microservices, database-design, caching, load-balancing, high-availability, adr"
   category: software
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 6.9
+  variance: 2.3
 ---
+
 # System Architect
 
 

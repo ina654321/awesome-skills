@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.7/10
   tags: "[lakehouse, delta-lake, apache-iceberg, databricks, data-lake]"
   category: tools
   difficulty: expert
+  score: 8.6/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 7.9
+  variance: 1.3
 ---
+
 # Lakehouse Expert
 
 **Self-Score:** 9.5/10 — Exemplary

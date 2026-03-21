@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.7/10
   tags: "[cuda, gpu, nvidia, parallel-computing, kernel]"
   category: tools
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 7.6
+  variance: 1.6
 ---
+
 # CUDA Expert
 
 ---

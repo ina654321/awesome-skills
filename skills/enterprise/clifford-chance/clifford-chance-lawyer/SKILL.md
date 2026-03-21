@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: production
-  score: 8.7/10
   tags: "[clifford-chance, magic-circle, international-law, deal-team, excellence, client-focus]"
   category: enterprise
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.9
+  variance: 0.8
 ---
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

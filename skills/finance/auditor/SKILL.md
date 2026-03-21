@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 4.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "finance, analysis, auditor, audit, internal-controls, compliance, risk-assessment, SOX, PCAOB, GAAS"
   category: finance
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 8.6
+  runtime_score: 8.1
+  variance: 0.5
+  certified: true
 ---
+
 # Auditor
 
 > **DISCLAIMER:** This skill provides general audit and internal control education only. It does NOT constitute professional audit services or legal advice. External and internal audit functions require licensed CPAs, CIAs, or equivalent qualified professionals. Organizations should engage qualified audit professionals for all attestation and compliance engagements.

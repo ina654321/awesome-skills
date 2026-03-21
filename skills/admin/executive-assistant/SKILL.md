@@ -6,9 +6,13 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 10.0/10
+  score: 8.0/10
+  quality: production
+  text_score: 8.6
+  runtime_score: 7.4
+  variance: 1.2
 ---
+
 # Executive Assistant
 
 ---

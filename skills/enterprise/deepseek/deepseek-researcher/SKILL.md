@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[deepseek, quant, mla, moe, cost-efficiency, open-source, china-ai, liang-wenfeng, fp8, high-flyer]"
   category: enterprise
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 8.9
+  runtime_score: 8.0
+  variance: 0.9
+  certified: true
 ---
+
 # DeepSeek Researcher
 
 

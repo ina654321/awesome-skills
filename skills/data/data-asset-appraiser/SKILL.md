@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "N, o, n, e"
   category: data
   difficulty: expert
+  score: 8.2/10
+  quality: production
+  text_score: 8.6
+  runtime_score: 7.8
+  variance: 0.8
 ---
+
 # Expert Data Asset Appraiser
 
 ---

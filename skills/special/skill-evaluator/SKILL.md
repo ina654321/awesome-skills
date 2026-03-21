@@ -6,10 +6,14 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 2.1.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "[evaluation, quality-assurance, testing, runtime-validation]"
+  score: 7.7/10
+  quality: standard
+  text_score: 8.3
+  runtime_score: 7.1
+  variance: 1.2
 ---
+
 # Skill Evaluator v2.1
 
 > Dual-track validation: Text quality + Runtime quality = True competence.

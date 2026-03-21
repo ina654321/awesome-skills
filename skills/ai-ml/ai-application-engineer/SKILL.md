@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "rag, langchain, vector-databases, prompt-engineering, agent-frameworks, llm-integration, production-ai"
   category: ai-ml
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 8.8
+  runtime_score: 7.2
+  variance: 1.6
 ---
+
 # AI Application Engineer
 
 

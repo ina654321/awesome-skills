@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "fusion360, cad, cam, 3d-printing, parametric-modeling"
   category: cad
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 9.1
+  runtime_score: 7.8
+  variance: 1.3
 ---
+
 # Fusion 360 Expert
 
 ---

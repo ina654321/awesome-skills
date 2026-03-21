@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.7/10
   tags: "[photoshop, image-editing, design, adobe]"
   category: tools
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 7.3
+  variance: 1.9
 ---
+
 # Photoshop Expert
 
 **Self-Score:** 9.5/10 — Exemplary

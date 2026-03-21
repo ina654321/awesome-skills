@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: production
-  score: 8.7/10
   tags: "[kubernetes, k8s, container, orchestration, devops]"
   category: tools
   difficulty: expert
+  score: 7.6/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 6.7
+  variance: 1.9
 ---
+
 # Kubernetes Expert
 
 ---

@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[alibaba, 中供铁军, customer-first, 双11, embrace-change, six-vein-sword, extreme-scale]"
   category: enterprise
   difficulty: expert
+  score: 5.9/10
+  quality: alpha
+  text_score: 6.3
+  runtime_score: 5.5
+  variance: 0.8
 ---
+
 
 # Global install (Claude Code)
 echo "Read [URL] and apply alibaba-engineer skill." >> ~/.claude/CLAUDE.md

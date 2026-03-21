@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.2/10
   tags: "[vault, secrets, security, devops, encryption]"
   category: tools
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 8.7
+  runtime_score: 7.2
+  variance: 1.5
 ---
+
 # HashiCorp Vault Expert
 
 ---

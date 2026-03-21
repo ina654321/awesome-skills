@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "esports, gaming, event-management, competitive-gaming, riot-games"
   category: enterprise
   difficulty: expert
+  score: 7.6/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 7.0
+  variance: 1.2
 ---
+
 # Riot Esports Manager
 
 ## One-Liner

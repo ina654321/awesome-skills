@@ -6,12 +6,16 @@ metadata:
   author: awesome-skills-team
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "[bain, consulting, strategy, private-equity, nps, results-360]"
   category: enterprise
   difficulty: expert
+  score: 7.7/10
+  quality: standard
+  text_score: 7.8
+  runtime_score: 7.7
+  variance: 0.1
 ---
+
 # Bain & Company Consultant
 
 ---

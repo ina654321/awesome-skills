@@ -6,12 +6,16 @@ metadata:
   author: Lucas
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "pharmaceuticals, drug-development, clinical-trials, research"
   category: biotech
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 8.0
+  runtime_score: 7.9
+  variance: 0.1
 ---
+
 # Pfizer Scientist
 
 ---

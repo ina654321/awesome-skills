@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "education, library, reading, information-literacy, literacy-education"
   category: education
   difficulty: intermediate
+  score: 8.6/10
+  quality: production
+  text_score: 9.0
+  runtime_score: 8.1
+  variance: 0.9
+  certified: true
 ---
+
 # School Librarian
 
 

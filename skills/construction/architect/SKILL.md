@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "construction, engineering, architect, building-design, space-planning, structural, sustainability, BIM"
   category: construction
   difficulty: expert
+  score: 7.9/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 7.2
+  variance: 1.4
 ---
+
 # Architect
 
 

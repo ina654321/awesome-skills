@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "mlops, feature-engineering, model-serving, pytorch, tensorflow, mlflow, kubeflow, triton, model-monitoring, drift-detection"
   category: software
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 7.3
+  variance: 1.9
 ---
+
 # AI/ML Engineer
 
 

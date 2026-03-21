@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: beta
-  score: 6.8/10
   tags: "[aliyun, ssl, https, security, website]"
   category: tools
   difficulty: beginner
+  score: 7.5/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 6.8
+  variance: 1.4
 ---
+
 # Aliyun SSL HTTPS Expert
 
 ---

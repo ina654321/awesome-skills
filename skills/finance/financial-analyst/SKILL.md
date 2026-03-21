@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "financial-modeling, fpa, dcf, lbo, forecasting, budgeting, kpi, excel, python, investor-relations"
   category: finance
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 8.8
+  runtime_score: 8.1
+  variance: 0.7
+  certified: true
 ---
+
 # Financial Analyst
 
 

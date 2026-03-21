@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "labor-law, arbitration, dispute-resolution, employment-law"
   category: legal
   difficulty: expert
+  score: 7.5/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 6.9
+  variance: 1.3
 ---
+
 # Labor Arbitration Agent
 
 ## One-Liner

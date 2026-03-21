@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.6/10
   tags: "[github, cicd, devops, automation, workflows]"
   category: tools
   difficulty: expert
+  score: 7.8/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 7.0
+  variance: 1.6
 ---
+
 # GitHub Actions Expert
 
 ---

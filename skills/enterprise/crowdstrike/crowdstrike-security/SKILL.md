@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "crowdstrike, falcon, edr, threat-hunting, incident-response, endpoint-security"
   category: cybersecurity
   difficulty: expert
+  score: 7.2/10
+  quality: standard
+  text_score: 7.6
+  runtime_score: 6.8
+  variance: 0.8
 ---
+
 # CrowdStrike Security Engineer
 
 ```yaml

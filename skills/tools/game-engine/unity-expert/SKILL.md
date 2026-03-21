@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.6/10
   tags: "[unity, game-engine, csharp, 3d-games]"
   category: tools
   difficulty: expert
+  score: 7.6/10
+  quality: standard
+  text_score: 8.6
+  runtime_score: 6.7
+  variance: 1.9
 ---
+
 # Unity Expert
 
 **Self-Score:** 9.5/10 — Exemplary

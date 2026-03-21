@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 10.0/10
   tags: "[design, graphic-design, branding, freelance, creative]"
   category: freelancer
   difficulty: intermediate
+  score: 8.4/10
+  quality: production
+  text_score: 9.1
+  runtime_score: 7.7
+  variance: 1.4
 ---
+
 # Professional Freelance Designer
 
 ---

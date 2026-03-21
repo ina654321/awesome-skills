@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: production
-  score: 8.7/10
   tags: "[tesla, software-engineer, ota, embedded, firmware, full-stack, vehicle-software, energy-software, ci-cd]"
   category: enterprise
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 8.9
+  runtime_score: 7.9
+  variance: 1.0
 ---
+
 # Tesla Software Engineer
 
 

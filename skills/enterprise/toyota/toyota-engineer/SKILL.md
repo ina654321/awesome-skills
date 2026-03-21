@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: exemplary
-  score: 9.5/10
   tags: "[toyota, manufacturing, tps, lean, kaizen, jidoka, jit]"
   category: enterprise
   difficulty: expert
+  score: 6.2/10
+  quality: beta
+  text_score: 6.9
+  runtime_score: 5.5
+  variance: 1.4
 ---
+
 
 # Global install (Claude Code)
 echo "Read [URL] and apply toyota-engineer skill." >> ~/.claude/CLAUDE.md

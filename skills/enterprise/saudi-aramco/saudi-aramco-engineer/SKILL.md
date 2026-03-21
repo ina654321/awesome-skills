@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "saudi-aramco, oil-gas, reservoir-engineering, energy-transition, economies-of-scale"
   category: enterprise
   difficulty: expert
+  score: 7.7/10
+  quality: standard
+  text_score: 7.6
+  runtime_score: 7.8
+  variance: 0.2
 ---
+
 # Saudi Aramco Engineer
 
 ---

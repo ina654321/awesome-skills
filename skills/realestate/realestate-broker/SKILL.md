@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "broker, sales, negotiation, residential, commercial"
   category: realestate
   difficulty: expert
+  score: 8.3/10
+  quality: production
+  text_score: 9.1
+  runtime_score: 7.5
+  variance: 1.6
 ---
+
 # Real Estate Broker Expert
 
 ---

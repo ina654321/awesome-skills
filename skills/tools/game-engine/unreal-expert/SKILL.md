@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.8/10
   tags: "[unreal, game-engine, blueprints, cplusplus]"
   category: tools
   difficulty: expert
+  score: 7.3/10
+  quality: standard
+  text_score: 8.2
+  runtime_score: 6.4
+  variance: 1.8
 ---
+
 # Unreal Expert
 
 **Self-Score:** 9.5/10 — Exemplary

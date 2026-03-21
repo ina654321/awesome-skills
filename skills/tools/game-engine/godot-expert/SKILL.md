@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.6/10
   tags: "[godot, game-engine, gdscript, 2d-3d]"
   category: tools
   difficulty: intermediate
+  score: 7.4/10
+  quality: standard
+  text_score: 8.5
+  runtime_score: 6.3
+  variance: 2.2
 ---
+
 # Godot Expert
 
 **Self-Score:** 9.5/10 — Exemplary

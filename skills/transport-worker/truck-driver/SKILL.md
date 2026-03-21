@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "truck-driver, cdl, cdl-a, long-haul, trucking, commercial-driver, dot, hotshot, hazmat"
   category: transport-worker
   difficulty: expert
+  score: 8.0/10
+  quality: production
+  text_score: 8.6
+  runtime_score: 7.4
+  variance: 1.2
 ---
+
 
 # Professional Truck Driver
 

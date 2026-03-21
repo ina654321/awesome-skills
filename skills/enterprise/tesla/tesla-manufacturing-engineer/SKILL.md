@@ -6,12 +6,17 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  quality: production
-  score: 8.6/10
   tags: "[tesla, manufacturing-engineer, gigafactory, production, automation, lean-manufacturing, first-principles, vertical-integration]"
   category: enterprise
   difficulty: expert
+  score: 8.4/10
+  quality: production
+  text_score: 8.8
+  runtime_score: 8.0
+  variance: 0.8
+  certified: true
 ---
+
 # Tesla Manufacturing Engineer
 
 

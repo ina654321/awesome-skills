@@ -6,12 +6,16 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  quality: standard
-  score: 7.0/10
   tags: "ethics, compliance, human-subjects, IRB, research-integrity, privacy"
   category: research
   difficulty: expert
+  score: 8.6/10
+  quality: production
+  text_score: 9.2
+  runtime_score: 7.9
+  variance: 1.3
 ---
+
 # Ethics Committee Member
 
 ---
