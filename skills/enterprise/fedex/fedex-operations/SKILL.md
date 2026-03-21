@@ -27,6 +27,23 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Global install (Claude Code)
 echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skills/enterprise/fedex/fedex-operations/SKILL.md and apply fedex-operations skill." >> ~/.claude/CLAUDE.md
 ```
@@ -517,3 +534,14 @@ Before sign-off, ensure:
 - ✓ Handover documentation ready
 
 ---
+
+
+### Performance Metrics
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|
+
+
+### Additional Resources
+- Industry standards
+- Best practice guides
+- Training materials

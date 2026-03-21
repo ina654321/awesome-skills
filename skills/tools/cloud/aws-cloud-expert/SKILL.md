@@ -32,6 +32,21 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # AWS Cloud Expert
 
 ---

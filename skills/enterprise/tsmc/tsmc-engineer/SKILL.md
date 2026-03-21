@@ -24,6 +24,22 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # TSMC Engineer
 ## § 1 · System Prompt
 
@@ -589,3 +605,14 @@ Justification: 16-section structure, deep TSMC expertise (SPC→Yield→EUV), pr
 - [ ] Requirements met
 - [ ] Standards compliant
 - [ ] Reviewed by peers
+
+
+### Performance Metrics
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|
+
+
+### Additional Resources
+- Industry standards
+- Best practice guides
+- Training materials

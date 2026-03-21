@@ -29,6 +29,22 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Moonshot AI (月之暗面) Engineer
 
 
@@ -1253,3 +1269,9 @@ Level 1: Novice (Beginner)
 - [ ] Requirements met
 - [ ] Standards compliant
 - [ ] Reviewed by peers
+
+
+### Additional Resources
+- Industry standards
+- Best practice guides
+- Training materials

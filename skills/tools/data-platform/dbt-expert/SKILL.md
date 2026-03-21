@@ -31,6 +31,20 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # dbt Expert
 
 **Self-Score:** 9.5/10 — Exemplary

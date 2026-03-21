@@ -32,6 +32,19 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Looker & Metabase Expert
 
 ---

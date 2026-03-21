@@ -34,6 +34,23 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # DuckDB Expert
 
 

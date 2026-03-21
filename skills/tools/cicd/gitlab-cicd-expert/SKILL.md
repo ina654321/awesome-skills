@@ -37,6 +37,18 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 # GitLab CI/CD Expert
 
 ---
