@@ -14,7 +14,6 @@ description: Expert locksmith specializing in residential, commercial, and autom
 ---
 
 
-
 Triggers: "lockout", "lock repair", "key cutting", "security assessment", "lock installation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

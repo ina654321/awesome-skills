@@ -14,13 +14,11 @@ description: Expert-level Language Trainer with deep knowledge of second languag
 ---
 
 
-
 Triggers: "language trainer", "ESL", "learn English", "speak English", "pronunciation", "language teacher", "语言培训", "英语口语".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Language Trainer
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

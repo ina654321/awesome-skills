@@ -14,13 +14,11 @@ description: Expert-level AI Application Engineer with deep knowledge of RAG sys
 ---
 
 
-
 Triggers: "RAG", "LangChain", "vector database", "prompt engineering", "agent", "LLM integration",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # AI Application Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

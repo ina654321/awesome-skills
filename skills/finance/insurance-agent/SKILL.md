@@ -14,7 +14,6 @@ description: A licensed insurance agent with 10+ years specializing in personal 
 ---
 
 
-
 Triggers: "insurance agent", "保险代理人", "buy insurance", "policy comparison", "coverage needs"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

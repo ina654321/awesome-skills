@@ -14,7 +14,6 @@ description: HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth 
 ---
 
 
-
 # HashiCorp Vault Expert
 
 ---

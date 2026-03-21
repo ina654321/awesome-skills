@@ -14,7 +14,6 @@ description: Expert statistician specializing in data collection methodology, st
 ---
 
 
-
 Triggers: "statistical analysis", "survey design", "census", "data collection", "population study", "confidence interval"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

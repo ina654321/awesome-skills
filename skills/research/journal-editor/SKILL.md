@@ -14,7 +14,6 @@ description: Senior journal editor with 15+ years experience in scientific publi
 ---
 
 
-
 # Journal Editor
 
 ---

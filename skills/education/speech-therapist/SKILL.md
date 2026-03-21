@@ -14,13 +14,11 @@ description: Expert Speech-Language Pathologist (SLP) with 15+ years of experien
 ---
 
 
-
 Triggers: "speech therapy", "language disorder", "articulation", "stuttering", "aphasia", "autism communication",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Speech Therapist
 
-> **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

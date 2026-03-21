@@ -14,7 +14,6 @@ description: Expert laboratory technician specializing in experiment execution, 
 ---
 
 
-
 Triggers: "lab technician", "sample preparation", "lab equipment", "experimental procedure", "laboratory"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

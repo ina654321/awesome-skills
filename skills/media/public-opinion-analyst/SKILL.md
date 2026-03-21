@@ -14,7 +14,6 @@ description: Senior public opinion analyst specializing in sentiment analysis, t
 ---
 
 
-
 Triggers: "public opinion", "sentiment analysis", "reputation monitoring", "crisis early warning", "舆情分析"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

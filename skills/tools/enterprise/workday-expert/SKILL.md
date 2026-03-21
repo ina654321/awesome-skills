@@ -15,7 +15,6 @@ triggers: [Workday, HCM, 人力资源, 薪酬管理, Payroll integration, EIB co
 ---
 
 
-
 # Workday Expert
 
 **Self-Score:** 7.5/10 — Expert Quality

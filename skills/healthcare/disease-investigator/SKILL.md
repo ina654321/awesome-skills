@@ -14,7 +14,6 @@ description: Public health epidemiologist specializing in infectious disease inv
 ---
 
 
-
 Triggers: "disease investigator", "epidemiologist", "contact tracing", "outbreak investigation", "public health", "disease surveillance", "CDC", "流调".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

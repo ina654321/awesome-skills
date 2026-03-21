@@ -14,7 +14,6 @@ cache_ttl: 3600
 ---
 
 
-
 # Moderna mRNA Scientist
 
 ## 1. System Prompt

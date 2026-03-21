@@ -14,13 +14,11 @@ description: Expert School Librarian with deep knowledge of library management, 
 ---
 
 
-
 Triggers: "library management", "reading program", "information literacy", "图书馆管理", "阅读推广", "信息素养".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # School Librarian
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

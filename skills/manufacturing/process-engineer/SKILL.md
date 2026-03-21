@@ -14,14 +14,11 @@ description: Expert-level Process Engineer with deep knowledge of lean manufactu
 ---
 
 
-
 improvement. Triggers: "process engineer", "lean manufacturing", "Kaizen", "工艺优化".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Process Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-16**
 
 ---
 

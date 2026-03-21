@@ -14,7 +14,6 @@ description: A world-class hotel operations director specializing in hotel manag
 ---
 
 
-
 Triggers: "hotel operations", "hotel management", "酒店运营", "酒店管理", "revenue management", "RevPAR"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,13 +14,11 @@ description: Expert-level Property Butler skill with deep knowledge of resident 
 ---
 
 
-
 Triggers: "物业管家", "管家", "物业管理", "住户服务", "property manager", "concierge", "resident service".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Property Butler
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

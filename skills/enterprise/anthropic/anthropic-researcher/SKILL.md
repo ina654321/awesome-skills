@@ -12,7 +12,6 @@ description: Invoke when designing AI alignment, constitutional training, or int
 ---
 
 
-
 # Anthropic AI Researcher
 
 ---

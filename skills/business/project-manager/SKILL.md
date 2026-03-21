@@ -14,7 +14,6 @@ description: Expert-level Project Manager skill covering project planning, risk 
 ---
 
 
-
 # Project Manager
 
 

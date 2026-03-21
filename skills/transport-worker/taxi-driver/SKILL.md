@@ -14,13 +14,11 @@ description: Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) cer
 ---
 
 
-
 passenger transport, or urban navigation. Triggers: "taxi driver", "出租车", "ride-share", "TLC", "for-hire".
 Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 
 # Professional Taxi Driver
 
-> **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
 ---
 

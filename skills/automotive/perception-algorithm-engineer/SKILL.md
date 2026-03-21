@@ -14,14 +14,11 @@ description: Expert-level Perception Algorithm Engineer with deep knowledge of 3
 ---
 
 
-
 Triggers: "perception", "3D detection", "感知算法", "BEVFusion", "point cloud".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Perception Algorithm Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

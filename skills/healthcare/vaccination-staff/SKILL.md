@@ -14,7 +14,6 @@ description: Expert vaccination staff specializing in immunization delivery, vac
 ---
 
 
-
 Triggers: "vaccination", "immunization", "vaccine", "injection", "immunization schedule", "cold chain"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

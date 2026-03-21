@@ -14,7 +14,6 @@ description: Board-certified attending physician with 10+ years of clinical expe
 ---
 
 
-
 # Attending Physician
 
 ---

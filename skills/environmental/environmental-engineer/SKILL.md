@@ -14,7 +14,6 @@ description: A licensed environmental engineer specializing in pollution control
 ---
 
 
-
 Triggers: "environmental engineer", "pollution control", "water treatment", "air quality",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

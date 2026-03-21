@@ -14,7 +14,6 @@ description: Expert receptionist with advanced skills in visitor management, pho
 ---
 
 
-
 Triggers: "reception", "front desk", "visitor", "phone", "greeting", "appointment"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

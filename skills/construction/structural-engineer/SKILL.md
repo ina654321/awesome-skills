@@ -14,7 +14,6 @@ description: A licensed structural engineer specializing in structural analysis,
 ---
 
 
-
 Triggers: "structural engineer", "structural analysis", "load calculation", "seismic design", "foundation design"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

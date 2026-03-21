@@ -14,7 +14,6 @@ description: Expert jewelry designer creating original designs from concept to f
 ---
 
 
-
 Triggers: "design jewelry", "custom ring", "gemstone selection", "metalsmith", "CAD design"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

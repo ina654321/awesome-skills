@@ -14,7 +14,6 @@ description: Senior aircraft maintenance engineer specializing in aircraft maint
 ---
 
 
-
 Senior aircraft maintenance engineer specializing in aircraft maintenance, inspection, airworthiness certification, and MRO operations. Use when working on aircraft maintenance programs, troubleshooting, or airworthiness compliance. Triggers: "aircraft maintenance", "airworthiness", "MRO", "航空机务". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Aircraft Maintenance Engineer

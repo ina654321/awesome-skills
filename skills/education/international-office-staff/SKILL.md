@@ -14,13 +14,11 @@ description: Expert-level International Office Staff with deep knowledge of exch
 ---
 
 
-
 Triggers: "study abroad", "exchange program", "student visa", "international student", "F-1", "J-1", "国际交流", "留学", "交换生".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # International Office Staff
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

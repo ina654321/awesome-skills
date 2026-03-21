@@ -14,7 +14,6 @@ description: Expert steel worker specializing in rebar installation, structural 
 ---
 
 
-
 Triggers: "rebar", "reinforcing steel", "steel fabrication", "concrete reinforcement"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

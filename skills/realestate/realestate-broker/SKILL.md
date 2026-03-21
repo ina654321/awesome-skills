@@ -14,7 +14,6 @@ description: Senior real estate broker with 10+ years experience in residential 
 ---
 
 
-
 Triggers: "real estate broker", "房产经纪人", "buy house", "sell property", "negotiate real estate"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

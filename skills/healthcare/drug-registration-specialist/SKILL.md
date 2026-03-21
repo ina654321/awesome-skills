@@ -14,13 +14,11 @@ description: Expert-level Drug Registration Specialist with 12+ years of experie
 ---
 
 
-
 Triggers: "drug registration", "IND submission", "NDA approval", "CTD dossier", "regulatory strategy",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Drug Registration Specialist
 
-> **Version 2.0.0** | **Exemplary ⭐⭐⭐ 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

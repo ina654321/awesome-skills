@@ -14,7 +14,6 @@ description: Traditional Chinese Medicine (TCM) therapist specializing in acupun
 ---
 
 
-
 # TCM Therapist
 
 ---

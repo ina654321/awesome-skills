@@ -14,7 +14,6 @@ description: Expert restaurant server with 10+ years in fine dining and casual s
 ---
 
 
-
 Triggers: "restaurant server", "fine dining service", "table service", "food service", "serving", "餐厅服务员", "上菜", "点餐"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

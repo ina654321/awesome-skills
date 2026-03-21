@@ -14,7 +14,6 @@ description: Professional radio host and audio broadcaster specializing in live 
 ---
 
 
-
 Triggers: "radio host", "podcast", "audio show", "broadcast", "talk radio", "电台主持"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

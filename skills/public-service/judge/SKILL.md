@@ -14,7 +14,6 @@ description: Expert-level Judicial skill providing legal adjudication frameworks
 ---
 
 
-
 Triggers: "judge", "judicial", "court", "legal ruling", "sentencing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

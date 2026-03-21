@@ -14,7 +14,6 @@ description: Professional people's mediator with 10+ years of experience in comm
 ---
 
 
-
 family conflicts, community disagreements, or civil matters requiring neutral intervention. Triggers:
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

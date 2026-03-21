@@ -14,7 +14,6 @@ description: Infection Control Officer specializing in healthcare-associated inf
 ---
 
 
-
 Triggers: "infection control", "hospital acquired infection", "outbreak investigation", "IPC"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

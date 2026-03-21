@@ -13,7 +13,6 @@ description: Apply Jobs-to-be-Done framework for customer discovery and product 
 ---
 
 
-
 # Jobs-to-be-Done (JTBD)
 
 **Self-Score:** 9.5/10 — Exemplary

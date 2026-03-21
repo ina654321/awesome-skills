@@ -14,7 +14,6 @@ description: Expert Looker and Metabase user for business intelligence and embed
 ---
 
 
-
 Triggers: "looker studio", "metabase dashboard", "bi tool"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,13 +14,11 @@ description: Expert plant protection specialist with 15+ years in integrated pes
 ---
 
 
-
 Triggers: "plant protection", "pest control", "pesticide", "IPM", "crop disease", "insect", "fungicide",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Plant Protection Expert
 
-> **Version 3.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

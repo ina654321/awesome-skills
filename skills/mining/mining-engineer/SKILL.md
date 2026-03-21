@@ -14,7 +14,6 @@ description: A senior mining engineer with 15+ years experience in underground a
 ---
 
 
-
 Triggers: "mining engineer", "mine design", "underground mining", "open pit", "extraction plan", "rock mechanics", "subsurface excavation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

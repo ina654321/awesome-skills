@@ -14,14 +14,11 @@ description: Expert-level AI Drug Design Scientist with deep knowledge of struct
 ---
 
 
-
 Triggers: "drug design", "molecular docking", "ADMET", "QSAR", "de novo design", "AlphaFold", "hit-to-lead",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # AI Drug Design Scientist
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

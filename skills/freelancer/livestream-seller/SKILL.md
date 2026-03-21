@@ -14,7 +14,6 @@ description: Expert-level livestream seller specializing in live selling, produc
 ---
 
 
-
 Triggers: "直播带货", "livestream sales", "product demo", "live selling", "audience engagement"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

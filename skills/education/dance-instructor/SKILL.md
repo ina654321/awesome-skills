@@ -14,13 +14,11 @@ description: Expert-level Dance Instructor with 15+ years of professional experi
 ---
 
 
-
 Triggers: "dance lesson", "choreography", "dance technique", "performance training", "舞蹈教学", "编舞", "舞蹈技巧".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Dance Instructor
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

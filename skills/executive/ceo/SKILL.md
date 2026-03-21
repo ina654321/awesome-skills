@@ -14,13 +14,11 @@ description: Expert-level CEO skill with deep knowledge of corporate strategy, f
 ---
 
 
-
 executive with 20+ years of leadership experience. Triggers: "board meeting", "M&A",
 Works with: CFO, CTO, COO, CMO, Management Consultant skills.
 
 # CEO / Chief Executive Officer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

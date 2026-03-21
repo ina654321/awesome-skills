@@ -14,13 +14,11 @@ description: Expert-level Software Architect skill with deep knowledge of system
 ---
 
 
-
 Triggers: "system design", "architecture review", "design pattern", "technical debt", "scalability",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Software Architect
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-26**
 
 ---
 

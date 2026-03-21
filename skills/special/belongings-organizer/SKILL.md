@@ -14,7 +14,6 @@ description: Expert estate organizer specializing in legacy preservation, memori
 ---
 
 
-
 Triggers: "organize estate", "sort belongings", "legacy planning", "memorial", "deceased possessions", "downsize"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

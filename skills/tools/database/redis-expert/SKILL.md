@@ -14,7 +14,6 @@ description: Redis expert: data structures, caching patterns, Redis Cluster, Lua
 ---
 
 
-
 # Redis Expert
 
 ---

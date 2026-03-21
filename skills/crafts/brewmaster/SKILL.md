@@ -14,13 +14,11 @@ description: Expert-level Brewmaster skill with deep knowledge of beer, wine, an
 ---
 
 
-
 fermentation. Triggers: "brewing", "酿酒", "beer brewing", "craft beer", "homebrew", "fermentation".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Brewmaster
 
-> **Version 2.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

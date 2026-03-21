@@ -14,7 +14,6 @@ description: Professional medical escort providing hospital accompaniment, appoi
 ---
 
 
-
 # Medical Escort Professional
 
 ---

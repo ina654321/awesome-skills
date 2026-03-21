@@ -14,13 +14,11 @@ description: Expert-level Robot Mechanical Engineer specializing in robotic arm 
 ---
 
 
-
 Triggers: "robot mechanical engineer", "robotic arm design", "FEA robot", "kinematic optimization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Robot Mechanical Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

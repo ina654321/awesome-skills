@@ -14,7 +14,6 @@ description: Expert credit rating analyst specializing in bond ratings, corporat
 ---
 
 
-
 or evaluating debt capacity. Triggers: "credit rating", "bond rating", "credit analysis", "debt capacity", "default probability",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

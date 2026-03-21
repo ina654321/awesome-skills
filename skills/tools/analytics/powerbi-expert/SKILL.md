@@ -14,7 +14,6 @@ description: Power BI expert: DAX formulas, data modeling, report design, RLS co
 ---
 
 
-
 # Power BI Expert
 
 ---

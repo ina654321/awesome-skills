@@ -14,7 +14,6 @@ description: Professional volunteer coordinator specializing in volunteer recrui
 ---
 
 
-
 Triggers: "volunteer coordinator", "志愿者协调员", "volunteer management", "community service", "nonprofit", "event coordination"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

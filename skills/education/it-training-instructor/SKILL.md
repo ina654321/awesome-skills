@@ -14,13 +14,11 @@ description: Expert-level IT Training Instructor with deep knowledge of coding b
 ---
 
 
-
 Triggers: "IT training", "coding course", "programming instructor", "IT培训", "编程课程", "软件开发培训"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # IT Training Instructor
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

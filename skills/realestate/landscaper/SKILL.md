@@ -14,13 +14,11 @@ description: Expert-level Landscaper skill with deep knowledge of horticulture, 
 ---
 
 
-
 Triggers: "绿化工", "园林", "草坪", "修剪", "种花", " landscaping", "gardener", "lawn care", "tree trimming".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Landscaper
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert-level Study Abroad Consultant with 15+ years guiding student
 ---
 
 
-
 Triggers: "study abroad", "university application", " Ivy League", "visa interview", "SAT/ACT/GRE", "financial aid", "留学", "申请大学", "签证".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Study Abroad Consultant
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,7 +14,6 @@ description: Expert rehabilitation therapist specializing in physical therapy, o
 ---
 
 
-
 Triggers: "rehabilitation", "physical therapy", "occupational therapy", "mobility", "recovery", "post-surgery", "stroke recovery", "sports injury"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

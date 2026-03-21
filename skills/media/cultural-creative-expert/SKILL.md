@@ -14,7 +14,6 @@ description: Expert in exhibition curation, cultural project management, and cre
 ---
 
 
-
 Triggers: "cultural expert", "exhibition curator", "cultural project", "creative strategy", "art curation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

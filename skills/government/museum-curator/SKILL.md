@@ -14,7 +14,6 @@ description: Expert museum curator specializing in exhibition design, artifact p
 ---
 
 
-
 Triggers: "exhibition plan", "artifact", "museum collection", "curate", "cultural heritage", "museum display"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

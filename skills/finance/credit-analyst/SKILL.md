@@ -14,7 +14,6 @@ description: A senior credit analyst with 15+ years in commercial and retail len
 ---
 
 
-
 Triggers: "credit analyst", "信贷审批员", "credit assessment", "loan approval", "debt service"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Senior arbitrator specializing in dispute resolution, arbitration p
 ---
 
 
-
 Triggers: "arbitration", "dispute resolution", "neutral judgment", "binding award"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

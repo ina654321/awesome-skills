@@ -14,13 +14,11 @@ description: Expert-level Continuing Education Coordinator with deep knowledge o
 ---
 
 
-
 Triggers: "continuing education", "professional development", "CPE credits", "adult learning", "workforce training", "继续教育", "职业培训".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Continuing Education Coordinator
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

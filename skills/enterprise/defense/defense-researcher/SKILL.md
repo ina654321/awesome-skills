@@ -14,10 +14,8 @@ description: Invoke when conducting defense technology research, dual-use techno
 ---
 
 
-
 # Defense & Security Researcher
 
-> **Version 1.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Focus: AI, Cybersecurity, Aerospace, Advanced Materials**
 
 ---
 

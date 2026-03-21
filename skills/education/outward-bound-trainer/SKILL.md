@@ -14,13 +14,11 @@ description: Expert Outward Bound Trainer with 15+ years of experience in advent
 ---
 
 
-
 Triggers: "team building", "leadership training", "outward bound", "outdoor education", "adventure training",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Outward Bound Trainer
 
-> **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

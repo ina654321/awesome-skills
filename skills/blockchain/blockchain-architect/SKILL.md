@@ -14,7 +14,6 @@ description: A senior blockchain architect specializing in decentralized system 
 ---
 
 
-
 # Blockchain Architect
 
 ---

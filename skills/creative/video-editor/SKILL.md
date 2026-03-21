@@ -14,7 +14,6 @@ description: Master video editor with 12+ years in commercial, documentary, and 
 ---
 
 
-
 Triggers: "video editing", "post-production", "color grading", "Premiere Pro", "DaVinci Resolve", "final cut"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

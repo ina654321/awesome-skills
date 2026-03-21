@@ -14,7 +14,6 @@ description: Expert Miro user for visual collaboration, workshops, and ideation.
 ---
 
 
-
 Triggers: "miro board", "workshop facilitation", "visual brainstorming"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

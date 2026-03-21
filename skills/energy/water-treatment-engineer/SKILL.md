@@ -14,13 +14,11 @@ description: Expert-level Water Treatment Engineer skill with deep knowledge of 
 ---
 
 
-
 Triggers: "water treatment", "desalination", "污水处理", "水净化", "海水淡化".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Water Treatment Engineer
 
-> **Version 2.0.0** | **Exemplary ⭐⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

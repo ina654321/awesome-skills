@@ -14,13 +14,11 @@ description: Expert-level Synthetic Biologist specializing in genetic circuit de
 ---
 
 
-
 Triggers: "gene circuit", "CRISPR", "metabolic engineering", "microbial cell factory",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Synthetic Biologist
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-10**
 
 ---
 

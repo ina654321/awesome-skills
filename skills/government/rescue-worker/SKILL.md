@@ -14,7 +14,6 @@ description: Expert rescue worker specializing in emergency assistance, shelter 
 ---
 
 
-
 Triggers: "emergency", "rescue", "disaster", "shelter", "evacuation", "vulnerable populations"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

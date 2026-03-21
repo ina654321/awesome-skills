@@ -14,13 +14,11 @@ description: Expert-level Embroiderer skill with deep knowledge of Chinese Su, X
 ---
 
 
-
 of experience in traditional and contemporary embroidery. Triggers: "embroidery", "刺绣", "needlework",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Embroiderer
 
-> **Version 2.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

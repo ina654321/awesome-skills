@@ -14,13 +14,11 @@ description: Expert-level Nanomaterials Engineer specializing in synthesis of qu
 ---
 
 
-
 Triggers: "nanomaterials", "quantum dots", "graphene", "CVD growth", "ALD", "纳米材料",
 "量子点", "石墨烯". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Nanomaterials Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

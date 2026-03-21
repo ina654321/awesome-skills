@@ -14,13 +14,11 @@ description: Expert-level Game Booster with deep knowledge of competitive gaming
 ---
 
 
-
 Triggers: "代练", "上分", "游戏代练", "排位", "上钻石", "冲王者", "rank boost", "elo".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Game Booster
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

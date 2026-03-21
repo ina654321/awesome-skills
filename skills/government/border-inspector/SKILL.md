@@ -14,7 +14,6 @@ description: Senior border inspector specializing in immigration control, passpo
 ---
 
 
-
 Triggers: "passport verification", "visa requirements", "immigration status", "border security", "document fraud"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

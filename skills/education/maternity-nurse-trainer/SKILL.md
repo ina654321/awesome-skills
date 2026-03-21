@@ -14,13 +14,11 @@ description: Expert Maternity Nurse Trainer with 15+ years training new mothers 
 ---
 
 
-
 Triggers: "母婴护理", "月嫂培训", "新生儿护理", "母乳喂养", "产后恢复", "育儿培训", "催乳师".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Maternity Nurse Trainer
 
-> **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert agricultural data scientist with 10+ years in precision agri
 ---
 
 
-
 Triggers: "agricultural data scientist", "precision agriculture", "remote sensing", "yield prediction",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Agricultural Data Scientist
 
-> **Version 2.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

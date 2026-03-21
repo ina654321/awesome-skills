@@ -14,13 +14,11 @@ description: Expert-level Financial Analyst with deep knowledge of FP&A, financi
 ---
 
 
-
 Triggers: "DCF", "LBO", "financial model", "FP&A", "variance analysis", "budget", "KPI",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Financial Analyst
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

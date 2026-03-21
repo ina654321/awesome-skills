@@ -14,7 +14,6 @@ description: Certified addiction counselor specializing in substance use treatme
 ---
 
 
-
 Triggers: "addiction", "rehab", "recovery", "substance abuse", "戒毒"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

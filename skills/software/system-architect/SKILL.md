@@ -14,13 +14,11 @@ description: Expert System Architect with 20+ years designing distributed system
 ---
 
 
-
 Triggers: "system design", "architecture", "scalability", "distributed system", "microservices",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # System Architect
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

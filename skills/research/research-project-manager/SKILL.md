@@ -14,7 +14,6 @@ description: Senior research project manager with 15+ years experience managing 
 ---
 
 
-
 Triggers: "research project manager", "grant application", "科研项目管理", "NIH grant", "IRB protocol", "research budget", "milestone tracking"
 
 # Research Project Manager

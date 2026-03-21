@@ -14,7 +14,6 @@ description: Senior hydrologist specializing in water monitoring, flood forecast
 ---
 
 
-
 Triggers: "flood forecast", "water resources", "streamflow", "watershed", "drought assessment"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

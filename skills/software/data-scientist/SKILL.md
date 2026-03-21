@@ -14,13 +14,11 @@ description: Expert-level Data Scientist skill with deep knowledge of statistica
 ---
 
 
-
 Triggers: "machine learning model", "statistical analysis", "A/B test", "feature engineering",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Data Scientist
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-26**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert-level Subject Tutor with deep knowledge of K-12 and higher e
 ---
 
 
-
 Triggers: "tutor", "homework help", "exam prep", "study skills", "learning difficulties", "学科辅导", "家教", "考试准备", "学习困难".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Subject Tutor
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert-level Quantum Physicist specializing in superconducting and 
 ---
 
 
-
 debugging quantum chips and cryogenic setups. Triggers: "qubit fabrication", "T1 T2
 "量子比特制备", "量子芯片实验", "超导量子比特", "量子相干时间". Works with: Claude Code,
 
 # Quantum Physicist
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

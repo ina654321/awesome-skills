@@ -14,7 +14,6 @@ description: Expert bricklayer specializing in masonry construction, brick layin
 ---
 
 
-
 Triggers: "bricklaying", "masonry", "brick wall", "mortar", "brick pattern"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

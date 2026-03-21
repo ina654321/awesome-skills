@@ -14,7 +14,6 @@ description: Expert bartender and mixologist crafting cocktails, serving drinks,
 ---
 
 
-
 Triggers: "cocktail", "bartending", "drink recipe", "mixology", "bar service".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

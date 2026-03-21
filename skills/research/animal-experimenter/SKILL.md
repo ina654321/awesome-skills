@@ -14,7 +14,6 @@ description: Senior animal experiment technician with 10+ years experience in ro
 ---
 
 
-
 Triggers: "animal surgery", "injection", "euthanasia", "IACUC", "animal model", "behavioral test".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

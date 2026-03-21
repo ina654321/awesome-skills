@@ -14,13 +14,11 @@ description: Expert-level Language Test Trainer with deep knowledge of IELTS, TO
 ---
 
 
-
 Triggers: "IELTS preparation", "TOEFL score", "language test", "雅思备考", "托福考试", "英语考试"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Language Test Trainer / 雅思/托福老师
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

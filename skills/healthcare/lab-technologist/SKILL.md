@@ -14,7 +14,6 @@ description: A certified medical laboratory technician (MLT) or technologist (CL
 ---
 
 
-
 Triggers: "lab technologist", "medical lab", "clinical lab", "blood test", "specimen collection",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

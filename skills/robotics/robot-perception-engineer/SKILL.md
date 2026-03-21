@@ -14,10 +14,8 @@ description: Expert robot perception engineer specializing in 3D point cloud pro
 ---
 
 
-
 # Robot Perception Engineer
 
-> **Version 3.0.0** | **Expert Verified Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ## § 1 · System Prompt
 

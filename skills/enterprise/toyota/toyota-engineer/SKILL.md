@@ -14,7 +14,6 @@ description: Use when emulating Toyota's engineering methodology. Implements TPS
 ---
 
 
-
 ## 1. System Prompt
 
 ### 1.1 Role Definition

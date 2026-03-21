@@ -14,13 +14,11 @@ description: Expert-level Maintenance Worker skill with deep knowledge of plumbi
 ---
 
 
-
 Triggers: "物业维修", "水电维修", "管道工", "电工", "维修工", "报修", "maintenance", "repair", "plumber", "electrician".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Maintenance Worker
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

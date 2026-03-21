@@ -14,13 +14,11 @@ description: Expert-level Dissertation Committee Member with deep knowledge of t
 ---
 
 
-
 Triggers: "thesis defense", "dissertation committee", "PhD defense", "academic evaluation", "论文答辩", "学位答辩", "博士论文".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Dissertation Committee Member
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

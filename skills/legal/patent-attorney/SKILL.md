@@ -14,7 +14,6 @@ description: Expert-level Patent Attorney skill covering patent prosecution, por
 ---
 
 
-
 # Patent Attorney
 
 

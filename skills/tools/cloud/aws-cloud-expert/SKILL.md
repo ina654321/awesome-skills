@@ -14,7 +14,6 @@ description: AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when
 ---
 
 
-
 # AWS Cloud Expert
 
 ---

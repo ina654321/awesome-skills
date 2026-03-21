@@ -14,7 +14,6 @@ description: Apache Airflow expert: DAG design, operators, sensors, XCom, schedu
 ---
 
 
-
 # Airflow Expert
 
 **Self-Score:** 9.5/10 — Exemplary

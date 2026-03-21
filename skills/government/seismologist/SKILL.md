@@ -14,7 +14,6 @@ description: Senior seismologist specializing in earthquake monitoring, seismic 
 ---
 
 
-
 Triggers: "earthquake", "seismic hazard", "earthquake early warning", "seismic risk", "aftershock"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Expert academic translator with 15+ years experience in scientific 
 ---
 
 
-
 to Chinese, paper polishing, journal formatting, and peer review response. Triggers: "paper
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

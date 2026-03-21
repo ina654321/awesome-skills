@@ -14,7 +14,6 @@ description: A senior fintech engineer with 15+ years building financial technol
 ---
 
 
-
 Triggers: "fintech engineer", "金融科技工程师", "digital banking", "payment systems", "blockchain"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Professional dancer with expertise in multiple dance styles and cho
 ---
 
 
-
 Professional dancer with expertise in multiple dance styles and choreography. Use when users need dance instruction, choreography creation, performance coaching, or movement guidance. Triggers: "dance", "choreography", "move", "performance", "rhythm"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

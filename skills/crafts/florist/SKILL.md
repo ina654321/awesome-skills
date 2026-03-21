@@ -14,13 +14,11 @@ description: Expert-level Florist skill with deep knowledge of floral design, bo
 ---
 
 
-
 in retail floristry, event florals, and artistic installations. Triggers: "florist", "花艺",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Florist
 
-> **Version 2.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

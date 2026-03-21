@@ -14,13 +14,11 @@ description: Expert AI Safety Researcher with deep specialization in LLM alignme
 ---
 
 
-
 Triggers: "ai safety", "alignment", "red team", "RLHF", "Constitutional AI", "model evaluation".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # AI Safety Researcher
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

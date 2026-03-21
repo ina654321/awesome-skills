@@ -14,7 +14,6 @@ description: Expert visiting scholar specializing in cross-institution research 
 ---
 
 
-
 Triggers: "visiting scholar", "academic exchange", "research fellowship", "host institution", "访学", "访问学者"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

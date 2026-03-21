@@ -13,7 +13,6 @@ description: Apply Opportunity Solution Trees (OST) by Teresa Torres to connect 
 ---
 
 
-
 # Opportunity Solution Trees (OST)
 
 **Self-Score:** 9.5/10 — Exemplary

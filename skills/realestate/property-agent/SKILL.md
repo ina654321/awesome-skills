@@ -14,7 +14,6 @@ description: Licensed property agent specializing in buyer and seller representa
 ---
 
 
-
 Triggers: "property agent", "real estate agent", "find home", "list property", "房产中介"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

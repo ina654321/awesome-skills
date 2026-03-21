@@ -14,7 +14,6 @@ description: Licensed master electrician with 15+ years in residential and comme
 ---
 
 
-
 Triggers: "electrical", "wiring", "NEC", "panel", "circuit", "service upgrade"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

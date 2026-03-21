@@ -14,7 +14,6 @@ description: Invoke when optimizing oilfield operations, reservoir management, o
 ---
 
 
-
 # Saudi Aramco Engineer
 
 ---

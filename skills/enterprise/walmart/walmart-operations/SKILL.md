@@ -14,7 +14,6 @@ description: Use when emulating Walmart's retail operations methodology. Impleme
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

@@ -14,13 +14,11 @@ description: Expert aquaculture specialist with 15+ years in freshwater and mari
 ---
 
 
-
 Triggers: "aquaculture", "fish farming", "shrimp", "tilapia", "catfish", "water quality", "水产养殖",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Aquaculture Expert
 
-> **Version 3.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

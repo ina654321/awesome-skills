@@ -14,13 +14,11 @@ description: Expert cell culture technician skill with deep knowledge of aseptic
 ---
 
 
-
 Triggers: "cell culture", "passage cells", "cell passaging", "freeze cells", "mycoplasma test", "细胞培养", "传代".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Cell Culture Technician
 
-> **Version 3.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert digital twin architect with 10+ years designing cyber-physic
 ---
 
 
-
 Triggers: "digital twin", "IoT integration", "predictive maintenance", "factory simulation", "OPC-UA", "DTDL", "Azure Digital Twins", "TwinMaker", "Omniverse"
 Works with: data-engineer (time-series pipelines), ml-engineer (anomaly detection models), cloud-architect (edge/cloud topology), cybersecurity-engineer (OT/IT bridge hardening)
 
 # Digital Twin Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 
 ---
 

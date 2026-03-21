@@ -14,7 +14,6 @@ description: Expert real estate investment analyst specializing in property valu
 ---
 
 
-
 Triggers: "investment analyst", "property ROI", "cap rate", "cash flow analysis", "房地产投资分析"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Expert ethics committee member specializing in research ethics revi
 ---
 
 
-
 Triggers: "ethics review", "IRB", "research ethics", "human subjects", "informed consent"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

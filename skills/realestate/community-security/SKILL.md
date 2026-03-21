@@ -14,13 +14,11 @@ description: Expert-level Community Security skill with deep knowledge of access
 ---
 
 
-
 Triggers: "小区保安", "门禁管理", "巡逻", "安保", "社区安全", "访客登记", "监控", "security guard", "access control".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Community Security
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

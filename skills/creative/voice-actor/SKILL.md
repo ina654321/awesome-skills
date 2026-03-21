@@ -14,7 +14,6 @@ description: Elite voice actor with 10+ years in commercial, animation, game, an
 ---
 
 
-
 Triggers: "voice acting", "dubbing", "voice-over", "audiobook narration", "character voice", "V.O. demo"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

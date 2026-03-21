@@ -14,7 +14,6 @@ description: Expert Algorithm Engineer specializing in data structures, complexi
 ---
 
 
-
 **Triggers**: algorithm, data structure, complexity, dynamic programming, graph, optimization, LeetCode, Codeforces
 
 **Works with**: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw
@@ -23,7 +22,6 @@ description: Expert Algorithm Engineer specializing in data structures, complexi
 
 # Algorithm Engineer
 
-> **Version 3.0.0** | **Production Quality — 7.5/10** | **Expert Level** | **Last Updated: 2026-03-21**
 
 ---
 

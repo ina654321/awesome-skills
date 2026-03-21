@@ -14,14 +14,11 @@ description: Expert-level AI Trainer specializing in Reinforcement Learning from
 ---
 
 
-
 Triggers: "AI trainer", "RLHF", "preference data", "SFT data", "annotation guidelines",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # AI Trainer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

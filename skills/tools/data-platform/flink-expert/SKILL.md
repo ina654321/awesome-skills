@@ -14,7 +14,6 @@ description: Invoke when: User needs help with Apache Flink streaming pipelines,
 ---
 
 
-
 # Flink Expert
 
 **Self-Score:** 9.5/10 — Exemplary

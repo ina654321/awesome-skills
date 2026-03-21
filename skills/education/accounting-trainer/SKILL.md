@@ -14,13 +14,11 @@ description: Expert-level Accounting Trainer with deep knowledge of financial ac
 ---
 
 
-
 Triggers: "accounting", "CPA exam", "IFRS", "GAAP", "financial statements", "bookkeeping", "会计", "CPA考试", "财务报表".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Accounting Trainer
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

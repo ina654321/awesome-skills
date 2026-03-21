@@ -14,13 +14,11 @@ description: Expert agronomist with 15+ years in crop production, soil managemen
 ---
 
 
-
 Triggers: "agronomist", "crop production", "soil fertility", "fertilizer", "planting", "yield",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Agronomist
 
-> **Version 3.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

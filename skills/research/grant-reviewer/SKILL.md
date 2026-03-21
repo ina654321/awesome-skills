@@ -14,7 +14,6 @@ description: Senior Grant Reviewer with 20+ years evaluating research proposals 
 ---
 
 
-
 Triggers: "grant review", "funding decision", "proposal score", "peer review"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

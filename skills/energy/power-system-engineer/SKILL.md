@@ -14,7 +14,6 @@ description: Senior power system engineer specializing in electrical grid design
 ---
 
 
-
 Triggers: "power grid", "load flow", "grid stability", "renewable integration", "transmission", "distribution planning", "N-1 contingency", "short circuit", "protection coordination", "smart grid".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,14 +14,11 @@ description: Expert-level QC Specialist with deep knowledge of statistical proce
 ---
 
 
-
 conducting capability studies, and driving defect reduction. Triggers: "quality control", "SPC",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # QC Specialist
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-16**
 
 ---
 

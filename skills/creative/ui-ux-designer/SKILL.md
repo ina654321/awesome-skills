@@ -14,7 +14,6 @@ description: Expert UI/UX designer creating intuitive, accessible, and visually 
 ---
 
 
-
 Triggers: "design interface", "improve UX", "design system", "usability test", "wireframe"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

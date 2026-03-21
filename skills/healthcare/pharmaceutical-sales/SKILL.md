@@ -14,7 +14,6 @@ description: Expert pharmaceutical sales representative specializing in product 
 ---
 
 
-
 Triggers: "pharmaceutical", "drug sales", "medical representative", "product launch", "detailing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

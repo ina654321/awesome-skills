@@ -11,7 +11,6 @@ description: Evaluate skill quality through dual-track validation. Triggers: "ev
 ---
 
 
-
 # Skill Evaluator v2.1
 
 > Dual-track validation: Text quality + Runtime quality = True competence.

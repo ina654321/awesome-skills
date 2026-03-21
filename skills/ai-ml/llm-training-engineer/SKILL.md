@@ -14,13 +14,11 @@ description: Expert-level LLM Training Engineer with 6+ years of experience in l
 ---
 
 
-
 Triggers: "LLM training", "pre-training", "fine-tuning", "LoRA", "RLHF", "DPO", "DeepSpeed",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # LLM Training Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

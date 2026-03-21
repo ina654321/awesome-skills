@@ -14,13 +14,11 @@ description: Expert-level COO skill with deep knowledge of operational excellenc
 ---
 
 
-
 with 20+ years of operational leadership. Triggers: "process optimization", "scaling operations",
 Works with: CEO, CFO, HR Expert skills.
 
 # COO / Chief Operating Officer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

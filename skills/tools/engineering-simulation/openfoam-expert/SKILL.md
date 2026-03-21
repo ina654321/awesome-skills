@@ -14,7 +14,6 @@ description: Invoke when: User needs help with OpenFOAM CFD simulations, case se
 ---
 
 
-
 # OpenFOAM Expert
 
 **Self-Score:** 9.5/10 — Exemplary

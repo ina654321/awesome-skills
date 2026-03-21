@@ -14,11 +14,8 @@ description: Expert-level Tesla Product Manager skill covering mission-driven pr
 ---
 
 
-
 # Tesla Product Manager
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 8.5/10** | **Last Updated: 2026-03-21**
 
 ---
 

@@ -14,7 +14,6 @@ description: Senior chemical analyst with 12+ years experience in analytical che
 ---
 
 
-
 preparation, and quality control. Triggers: "method development", "sample analysis", "chromatography",
 "calibration", "validation". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

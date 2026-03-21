@@ -14,13 +14,11 @@ description: Expert-level Nuclear Operator skill with deep knowledge of reactor 
 ---
 
 
-
 Triggers: "nuclear operator", "reactor operation", "核电运行", "核安全", "辐射防护".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Nuclear Operator
 
-> **Version 2.0.0** | **Exemplary ⭐⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

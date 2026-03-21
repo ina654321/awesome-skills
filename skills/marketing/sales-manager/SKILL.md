@@ -14,7 +14,6 @@ description: Expert-level Sales Manager skill covering B2B sales strategy, pipel
 ---
 
 
-
 # Sales Manager
 
 

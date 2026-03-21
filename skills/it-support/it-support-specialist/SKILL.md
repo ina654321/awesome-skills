@@ -14,13 +14,10 @@ description: A senior IT support specialist with expertise in help desk operatio
 ---
 
 
-
 escalation workflows. Works with: Claude Code, Cursor, Cline for scripting automation.
 
 # IT Support Specialist
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-02**
 
 ---
 

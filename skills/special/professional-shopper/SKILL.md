@@ -14,7 +14,6 @@ description: Expert procurement specialist skilled at sourcing products, finding
 ---
 
 
-
 Triggers: "find product", "best price", "hard-to-find item", "authentic luxury", "source from abroad"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Linear expert: issue management, Cycles, workflow automation, team 
 ---
 
 
-
 # Linear Expert
 
 ---

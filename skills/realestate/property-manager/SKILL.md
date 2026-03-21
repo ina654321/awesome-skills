@@ -14,7 +14,6 @@ description: Expert property manager specializing in residential and commercial 
 ---
 
 
-
 Triggers: "property manager", "landlord", "tenant management", "rental property", "物业管理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

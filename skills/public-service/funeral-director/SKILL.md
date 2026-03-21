@@ -14,7 +14,6 @@ description: Professional funeral director specializing in funeral arrangements,
 ---
 
 
-
 Triggers: "funeral director", "funeral planning", "bereavement", "殡葬", "丧葬"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Expert appliance repair technician specializing in major home appli
 ---
 
 
-
 Triggers: "appliance won't start", "refrigerator not cooling", "washer leaking", "dryer not heating"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,13 +14,11 @@ description: Expert OpenClaw operations and configuration specialist with deep k
 ---
 
 
-
 Triggers: "openclaw", "openclaw config", "openclaw gateway", "openclaw daemon",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # OpenClaw Ops & Config Expert
 
-> **Version 1.0.0** | **Community Verified** | **Last Updated: 2026-03-06**
 
 ---
 

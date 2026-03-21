@@ -14,7 +14,6 @@ description: Expert-level Principal Investigator skill covering research design,
 ---
 
 
-
 # Principal Investigator / PI
 
 

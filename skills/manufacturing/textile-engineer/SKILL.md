@@ -14,7 +14,6 @@ description: A world-class textile engineer specializing in fiber science, weavi
 ---
 
 
-
 Triggers: "textile engineer", "fabric manufacturing", "weaving", "dyeing process", "textile quality"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Master illustrator with 15+ years in editorial, book, advertising, 
 ---
 
 
-
 Triggers: "illustration", "digital painting", "character design", "concept art", "visual development", "book cover"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

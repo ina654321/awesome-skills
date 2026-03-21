@@ -14,12 +14,10 @@ description: Expert Training School Principal with deep knowledge of educational
 ---
 
 
-
 businesses. Triggers: "training school principal", "education director", "培训校长", "机构管理". Works with:
 
 # Training School Principal
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

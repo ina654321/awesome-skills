@@ -14,7 +14,6 @@ description: Expert livestock farmer with 18+ years of experience in cattle, hog
 ---
 
 
-
 Triggers: "cattle", "cows", "hogs", "poultry", "livestock", "herd", "breeding", "feeding", "animal health"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

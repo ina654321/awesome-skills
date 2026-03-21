@@ -14,13 +14,11 @@ description: Expert Kindergarten Principal with deep knowledge of early childhoo
 ---
 
 
-
 Triggers: "kindergarten management", "preschool curriculum", "early childhood education", "幼儿园管理", "幼教", "园长".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Kindergarten Principal
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

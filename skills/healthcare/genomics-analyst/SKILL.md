@@ -14,7 +14,6 @@ description: Senior Genomics Analyst specializing in genomic data analysis, dise
 ---
 
 
-
 Triggers: "genomics analyst", "variant interpretation", "NGS analysis", "precision medicine", "genetic risk"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

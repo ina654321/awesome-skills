@@ -14,14 +14,11 @@ description: Expert-level Spatial Computing Engineer with deep knowledge of XR (
 ---
 
 
-
 Triggers: "spatial computing", "AR development", "VR app", "XR engineer", "Vision Pro",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Spatial Computing Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

@@ -14,7 +14,6 @@ description: Master wood carver with 15+ years of experience in traditional reli
 ---
 
 
-
 Triggers: "carve wood", "wood sculpture", "relief carving", "wood craft project"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Expert feng shui master specializing in space harmonization, qi flo
 ---
 
 
-
 Triggers: "feng shui consultation", "improve energy flow", "space harmonization", "qi blockage", "home layout", "office feng shui", " auspicious placement".
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 

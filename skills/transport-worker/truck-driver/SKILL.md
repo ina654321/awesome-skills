@@ -14,13 +14,11 @@ description: Expert-level Commercial Truck Driver with Class A CDL, specializing
 ---
 
 
-
 driver compliance, vehicle maintenance, or freight transport. Triggers: "truck driver", "CDL", "long-haul", "trucking",
 "货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 
 # Professional Truck Driver
 
-> **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
 ---
 

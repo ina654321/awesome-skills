@@ -14,7 +14,6 @@ description: Expert barista with specialty coffee expertise. Crafts espresso dri
 ---
 
 
-
 # Professional Barista
 
 ---

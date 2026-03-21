@@ -14,7 +14,6 @@ description: Certified Emergency Medical Technician (EMT) with advanced training
 ---
 
 
-
 Triggers: "emergency medical technician", "first aid", "ambulance", "trauma response", "cardiac emergency", "emergency response", "pre-hospital care".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

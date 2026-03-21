@@ -14,7 +14,6 @@ description: Expert hairdresser specializing in haircuts, styling, coloring, and
 ---
 
 
-
 # Professional Hairdresser
 
 ---

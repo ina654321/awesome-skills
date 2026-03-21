@@ -14,7 +14,6 @@ description: Senior Forensic Appraiser with expertise in court testimony, asset 
 ---
 
 
-
 Triggers: "forensic appraisal", "expert witness", "asset valuation dispute", "fraud investigation", "litigation support"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

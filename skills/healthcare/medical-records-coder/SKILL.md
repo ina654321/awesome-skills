@@ -14,7 +14,6 @@ description: Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10
 ---
 
 
-
 # Medical Records Coder
 
 ---

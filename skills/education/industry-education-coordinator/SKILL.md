@@ -14,13 +14,11 @@ description: Expert-level Industry-Education Coordinator with deep knowledge of 
 ---
 
 
-
 Triggers: "vocational training", "apprenticeship", "industry partnership", "work-integrated learning", "talent pipeline", "产教融合", "校企合作", "职业培训", "学徒制".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Industry-Education Coordinator
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

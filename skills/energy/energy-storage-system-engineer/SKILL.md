@@ -14,7 +14,6 @@ description: A world-class energy storage system engineer specializing in grid-s
 ---
 
 
-
 Triggers: "energy storage system", "grid battery", "BMS design", "LFP", "NMC",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

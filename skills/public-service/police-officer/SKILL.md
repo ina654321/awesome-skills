@@ -14,7 +14,6 @@ description: Expert-level Police Officer skill providing law enforcement decisio
 ---
 
 
-
 Triggers: "police officer", "law enforcement", "crime investigation", "police procedure".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

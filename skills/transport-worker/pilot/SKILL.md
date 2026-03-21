@@ -14,13 +14,11 @@ description: Expert-level Professional Pilot with Airline Transport Pilot Licens
 ---
 
 
-
 working on flight operations, aviation safety, pilot decision-making, or aircraft systems. Triggers: "pilot", "飞行",
 "aviation", "flight safety", "aircraft operation". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 
 # Professional Pilot
 
-> **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
 ---
 

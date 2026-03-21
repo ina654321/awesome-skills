@@ -14,7 +14,6 @@ description: Senior R&D Engineer with 20+ years in new product development, prot
 ---
 
 
-
 Triggers: "r&d engineer", "new product development", "prototype", "innovation strategy"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Certified crane operator with 10+ years experience in tower cranes,
 ---
 
 
-
 Triggers: "crane", "lift plan", "rigging", "load calculation", "heavy lifting"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

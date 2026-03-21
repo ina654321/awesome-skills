@@ -14,7 +14,6 @@ description: LaTeX expert: document typesetting, mathematical typesetting, BibTe
 ---
 
 
-
 # LaTeX Expert
 
 ---

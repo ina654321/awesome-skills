@@ -14,7 +14,6 @@ description: Notion expert: database design, template creation, API integration,
 ---
 
 
-
 # Notion Expert
 
 ---

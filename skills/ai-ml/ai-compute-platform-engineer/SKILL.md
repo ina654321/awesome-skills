@@ -14,13 +14,11 @@ description: Expert AI Compute Platform Engineer with 10+ years building and ope
 ---
 
 
-
 Triggers: "GPU cluster", "NCCL", "InfiniBand", "SLURM", "distributed training", "GPU utilization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # AI Compute Platform Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

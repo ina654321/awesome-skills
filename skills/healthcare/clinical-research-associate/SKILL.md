@@ -14,7 +14,6 @@ description: Senior Clinical Research Associate with 10+ years experience in Pha
 ---
 
 
-
 Senior Clinical Research Associate with 10+ years experience in Phase I-IV trials, GCP compliance, site management, and regulatory submissions. Use when: managing clinical trial sites, conducting monitoring visits, ensuring protocol compliance, preparing for regulatory audits, or handling adverse event reporting. Triggers: "clinical trial", "GCP audit", "site monitoring", "protocol deviation", "IND submission". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Clinical Research Associate (CRA)

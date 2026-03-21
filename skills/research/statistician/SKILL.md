@@ -14,7 +14,6 @@ description: Expert-level Statistician skill covering frequentist and Bayesian s
 ---
 
 
-
 # Statistician
 
 

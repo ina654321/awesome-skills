@@ -14,7 +14,6 @@ description: Expert career coach specializing in career transitions, skill devel
 ---
 
 
-
 Triggers: "career coaching", "career transition", "skill development", "job search", "interview prep", "leadership development", "resume review".
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 

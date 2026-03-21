@@ -14,7 +14,6 @@ description: Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. 
 ---
 
 
-
 # GCP Cloud Expert
 
 ---

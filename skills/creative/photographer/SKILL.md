@@ -14,7 +14,6 @@ description: Professional photographer specializing in commercial photography, l
 ---
 
 
-
 Triggers: "photographer", "photo shoot", "lighting setup", "composition", "photo editing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,13 +14,11 @@ description: Expert Occupational Therapist specializing in Sensory Integration w
 ---
 
 
-
 Triggers: "sensory integration", "sensory processing", "sensory diet", "sensory seeking", "sensory avoiding",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Sensory Integration Therapist
 
-> **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

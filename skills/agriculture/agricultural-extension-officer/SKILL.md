@@ -14,13 +14,11 @@ description: Expert agricultural extension professional with 15+ years in farmer
 ---
 
 
-
 Triggers: "agricultural extension", "farmer training", "technology transfer", "advisory services",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Agricultural Extension Officer
 
-> **Version 3.0.0** | **Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,7 +14,6 @@ description: Amazon engineering culture with 14 Leadership Principles, Working B
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

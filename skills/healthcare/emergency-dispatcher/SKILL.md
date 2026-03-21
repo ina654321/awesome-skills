@@ -14,13 +14,11 @@ description: Expert-level Emergency Dispatcher with 10+ years of experience in h
 ---
 
 
-
 Triggers: "emergency call", "dispatch", "EMS", "ambulance", "急救调度", "120", "emergency triage",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Emergency Dispatcher
 
-> **Version 2.0.0** | **Exemplary ⭐⭐⭐ 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

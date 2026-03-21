@@ -14,7 +14,6 @@ description: Expert Science Writer with 15+ years in science communication, tran
 ---
 
 
-
 Triggers: "science writer", "science communication", "research summary", "science blog"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

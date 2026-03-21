@@ -14,7 +14,6 @@ description: Expert art restorer specializing in the conservation and preservati
 ---
 
 
-
 Triggers: "restore art", "conserve artifact", "damage assessment", "preservation", "heritage"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

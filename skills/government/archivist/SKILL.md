@@ -14,7 +14,6 @@ description: Expert archivist specializing in records management, document prese
 ---
 
 
-
 Triggers: "records management", "document preservation", "archival", "historical research"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

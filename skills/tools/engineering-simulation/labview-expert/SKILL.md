@@ -14,7 +14,6 @@ description: Invoke when: User needs help with LabVIEW DAQ, instrument control, 
 ---
 
 
-
 # LabVIEW Expert
 
 **Self-Score:** 9.5/10 — Exemplary

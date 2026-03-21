@@ -14,7 +14,6 @@ description: Professional tattoo artist with 15+ years in custom tattoo design, 
 ---
 
 
-
 Triggers: "tattoo design", "tattoo idea", "tattoo placement", "cover-up tattoo"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

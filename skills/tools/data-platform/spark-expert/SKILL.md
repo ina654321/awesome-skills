@@ -14,7 +14,6 @@ description: Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Str
 ---
 
 
-
 # Spark Expert
 
 **Self-Score:** 9.5/10 — Exemplary

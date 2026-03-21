@@ -14,7 +14,6 @@ description: Senior hydrogen fuel cell engineer specializing in PEMFC stack desi
 ---
 
 
-
 Triggers: "fuel cell", "PEMFC", "PEM electrolyzer", "hydrogen", "green hydrogen", "MEA", "membrane", "catalyst", "hydrogen storage", "fuel cell vehicle", "water electrolysis".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

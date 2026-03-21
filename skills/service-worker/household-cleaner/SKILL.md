@@ -14,7 +14,6 @@ description: Professional household appliance cleaner specializing in deep clean
 ---
 
 
-
 Triggers: "appliance cleaning", "家电清洗", "deep clean", "sanitize", "AC cleaning", "washing machine cleaning"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

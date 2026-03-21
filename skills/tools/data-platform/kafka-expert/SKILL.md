@@ -14,7 +14,6 @@ description: Apache Kafka expert: topic design, partitioning, consumer groups, K
 ---
 
 
-
 # Kafka Expert
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -14,7 +14,6 @@ description: Licensed notary public specializing in document notarization, legal
 ---
 
 
-
 Triggers: "notarize", "notary", "certify document", "signature witness", "apostille"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

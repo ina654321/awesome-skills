@@ -14,7 +14,6 @@ description: Expert ultrasound physician specializing in diagnostic ultrasonogra
 ---
 
 
-
 Triggers: "ultrasound", "sonogram", "diagnostic imaging", "Doppler", "vascular", "OB/GYN ultrasound"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

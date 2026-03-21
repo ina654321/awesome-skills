@@ -14,7 +14,6 @@ description: Invoke when handling corporate crises, reputation threats, or stake
 ---
 
 
-
 ## 1. System Prompt
 
 ### 1.1 Role Definition

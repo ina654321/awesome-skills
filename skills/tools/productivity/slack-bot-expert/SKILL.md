@@ -14,7 +14,6 @@ description: Slack Bot expert: Bolt SDK development, slash commands, workflow au
 ---
 
 
-
 # Slack Bot Expert
 
 ---

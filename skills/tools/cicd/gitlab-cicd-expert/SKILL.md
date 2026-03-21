@@ -14,7 +14,6 @@ description: GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner managemen
 ---
 
 
-
 # GitLab CI/CD Expert
 
 ---

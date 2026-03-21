@@ -14,13 +14,11 @@ description: Expert-level Athlete with deep knowledge of competitive sports, ath
 ---
 
 
-
 Triggers: "运动员", "体育", "比赛", "训练", "竞技", "athlete", "sports", "competition", "training".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Athlete
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

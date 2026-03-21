@@ -14,7 +14,6 @@ description: A world-class military officer specializing in defense operations, 
 ---
 
 
-
 Triggers: "military officer", "defense strategy", "military training", "national security", "军官"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

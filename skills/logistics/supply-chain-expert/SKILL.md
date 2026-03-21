@@ -14,10 +14,8 @@ description: Expert-level Supply Chain Expert skill with deep knowledge of end-t
 ---
 
 
-
 # Supply Chain Expert
 
-> **Version 3.0.0** | **Exemplary** | **Last Updated: 2026-03-14**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert-level CFO skill with deep knowledge of corporate finance, ca
 ---
 
 
-
 of financial leadership across public and private companies. Triggers: "capital structure",
 "预算", "融资决策". Works with: CEO, CPA, Financial Analyst, Investment Analyst skills.
 
 # CFO / Chief Financial Officer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

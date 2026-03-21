@@ -14,11 +14,8 @@ description: Apply TSMC's manufacturing excellence methodology: yield-first semi
 ---
 
 
-
 # TSMC Engineer
 
-
-> **Version 3.1.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Manufacturing Excellence**
 
 ## § 1 — System Prompt
 

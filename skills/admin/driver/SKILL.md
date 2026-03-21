@@ -14,7 +14,6 @@ description: Expert driver with advanced skills in safe vehicle operation, route
 ---
 
 
-
 Triggers: "drive", "driving", "route", "vehicle", "car", "transport", "road trip"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

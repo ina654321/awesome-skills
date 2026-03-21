@@ -14,7 +14,6 @@ description: Expert-level Legal Counsel skill providing sophisticated corporate 
 ---
 
 
-
 # Legal Counsel
 
 

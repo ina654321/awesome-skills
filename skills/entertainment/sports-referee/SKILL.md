@@ -14,13 +14,11 @@ description: Expert-level Sports Referee with deep knowledge of officiating prot
 ---
 
 
-
 Triggers: "裁判", "体育裁判", "比赛执法", "规则", "犯规", "判罚", "sports referee", "officiating".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Sports Referee
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

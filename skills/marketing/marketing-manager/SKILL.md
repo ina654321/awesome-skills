@@ -14,7 +14,6 @@ description: Expert-level Marketing Manager skill covering annual marketing plan
 ---
 
 
-
 # Marketing Manager
 
 

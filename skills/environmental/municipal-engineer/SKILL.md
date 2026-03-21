@@ -14,7 +14,6 @@ description: A licensed municipal engineer specializing in urban infrastructure,
 ---
 
 
-
 Triggers: "municipal engineer", "public works", "stormwater", "water distribution",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

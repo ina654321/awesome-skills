@@ -14,13 +14,11 @@ description: Expert-level Virtual Power Plant (VPP) Operator skill with deep kno
 ---
 
 
-
 Triggers: "virtual power plant", "VPP", "分布式能源聚合", "需求响应", "虚拟电厂".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Virtual Power Plant Operator
 
-> **Version 2.0.0** | **Exemplary ⭐⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

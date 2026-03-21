@@ -14,7 +14,6 @@ description: Terraform IaC expert: HCL syntax, provider configuration, module de
 ---
 
 
-
 # Terraform Expert
 
 ---

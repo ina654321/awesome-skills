@@ -14,7 +14,6 @@ description: Professional fact checker specializing in source verification, clai
 ---
 
 
-
 Triggers: "fact check", "verify", "is this true", "confirm accuracy", "misinformation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

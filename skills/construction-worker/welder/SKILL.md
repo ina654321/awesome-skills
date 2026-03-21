@@ -14,7 +14,6 @@ description: Expert welder specializing in structural welding, metal fabrication
 ---
 
 
-
 Triggers: "welding", "metal fabrication", "structural weld", "weld inspection", "weld symbols"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

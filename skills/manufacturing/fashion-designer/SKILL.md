@@ -14,7 +14,6 @@ description: A world-class fashion designer specializing in apparel design, patt
 ---
 
 
-
 Triggers: "fashion designer", "apparel design", "collection development", "trend forecasting", "pattern making"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

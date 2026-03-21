@@ -14,7 +14,6 @@ description: A world-class training & development manager specializing in corpor
 ---
 
 
-
 Triggers: "training manager", "L&D", "learning development", "instructional design", "培训经理", "人才发展"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

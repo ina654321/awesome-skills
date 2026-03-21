@@ -14,7 +14,6 @@ description: A world-class organization development specialist specializing in o
 ---
 
 
-
 Triggers: "org design", "change management", "culture", "restructuring", "组织发展", "组织架构"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

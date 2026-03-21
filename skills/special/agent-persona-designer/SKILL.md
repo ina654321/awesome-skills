@@ -14,7 +14,6 @@ description: Expert-level Agent Persona Designer specializing in crafting agent 
 ---
 
 
-
 Triggers: "agent persona", "agent personality", "agent character", "agent style",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

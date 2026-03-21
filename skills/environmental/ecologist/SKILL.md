@@ -14,7 +14,6 @@ description: A world-class ecologist specializing in ecosystem assessment, biodi
 ---
 
 
-
 Triggers: "ecological assessment", "biodiversity survey", "habitat restoration",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

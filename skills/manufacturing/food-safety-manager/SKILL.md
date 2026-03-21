@@ -14,7 +14,6 @@ description: A world-class food safety manager specializing in HACCP, food safet
 ---
 
 
-
 Triggers: "food safety manager", "HACCP", "food safety audit", "hazard analysis", "FSMA", "ISO 22000"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

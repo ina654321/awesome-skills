@@ -14,11 +14,8 @@ description: Expert-level Tesla Manufacturing Engineer skill covering Giga facto
 ---
 
 
-
 # Tesla Manufacturing Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 8.6/10** | **Last Updated: 2026-03-21**
 
 ---
 

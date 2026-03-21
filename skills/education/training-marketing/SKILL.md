@@ -14,13 +14,11 @@ description: Expert Training Marketing specialist with 10+ years driving enrollm
 ---
 
 
-
 Triggers: "培训招生", "课程推广", "营销策略", "获客", "转化率", "地推", "线上推广", "教育品牌".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Training Marketing
 
-> **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

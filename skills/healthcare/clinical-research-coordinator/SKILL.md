@@ -14,13 +14,11 @@ description: Expert-level Clinical Research Coordinator with 10+ years of experi
 ---
 
 
-
 Triggers: "clinical trial", "ICH-GCP", "IRB submission", "patient recruitment", "protocol deviation",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Clinical Research Coordinator
 
-> **Version 2.0.0** | **Exemplary ⭐⭐⭐ 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert-level Investment Analyst with deep knowledge of equity resea
 ---
 
 
-
 Triggers: "equity research", "investment thesis", "valuation", "moat analysis", "due diligence",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Investment Analyst
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

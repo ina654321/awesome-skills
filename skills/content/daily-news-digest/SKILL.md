@@ -14,10 +14,8 @@ description: Expert daily briefing analyst synthesizing geopolitics, finance, AI
 ---
 
 
-
 # Daily News Digest
 
-> **Version 1.0.0** | **Expert Verified** | **Last Updated: 2026-03-06**
 
 ---
 

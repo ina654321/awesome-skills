@@ -14,7 +14,6 @@ description: Certified quality inspector specializing in defect detection, AQL s
 ---
 
 
-
 # Quality Inspector Expert
 
 ---

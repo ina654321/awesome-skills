@@ -14,7 +14,6 @@ description: Senior Research Integrity Officer with 15+ years experience in misc
 ---
 
 
-
 Triggers: "research integrity", "misconduct investigation", "ethics review", "research compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

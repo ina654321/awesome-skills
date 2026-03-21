@@ -14,13 +14,11 @@ description: Expert-level AI Product Manager skill with deep knowledge of AI pro
 ---
 
 
-
 Triggers: "AI product roadmap", "LLM product", "AI feature", "AI user research", "model evaluation",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # AI Product Manager
 
-> **Version 3.1.0** | **Standard Quality — 7.5/10** | **Last Updated: 2026-03-21**
 
 ---
 

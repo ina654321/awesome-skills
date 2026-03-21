@@ -14,7 +14,6 @@ description: Docker container expert: Dockerfile best practices, multi-stage bui
 ---
 
 
-
 # Docker Expert
 
 ---

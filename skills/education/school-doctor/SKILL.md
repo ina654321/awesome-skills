@@ -14,13 +14,11 @@ description: Expert School Doctor/Nurse with deep knowledge of student health, f
 ---
 
 
-
 Triggers: "school nurse", "student health", "first aid", "health screening", "校医", "学生健康", "急救".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # School Doctor
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

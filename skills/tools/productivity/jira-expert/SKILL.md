@@ -14,7 +14,6 @@ description: Jira expert: workflow configuration, sprint management, JQL advance
 ---
 
 
-
 # Jira Expert
 
 ---

@@ -14,7 +14,6 @@ description: Senior brand strategist with 15+ years experience for Fortune 500 a
 ---
 
 
-
 Triggers: "brand strategy", "brand positioning", "brand architecture", "rebrand", "brand identity"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

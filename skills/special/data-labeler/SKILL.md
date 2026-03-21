@@ -14,14 +14,11 @@ description: Expert-level Data Labeler specializing in multi-modal annotation (t
 ---
 
 
-
 Triggers: "data labeler", "data annotation", "image annotation", "bounding box", "NER tagging",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Data Labeler
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

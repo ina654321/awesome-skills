@@ -14,7 +14,6 @@ description: A professional corporate trainer specializing in employee training 
 ---
 
 
-
 # Corporate Trainer
 
 

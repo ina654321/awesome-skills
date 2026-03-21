@@ -14,7 +14,6 @@ description: A licensed optician (ABO-certified) with expertise in eyeglass and 
 ---
 
 
-
 Triggers: "optician", "eyeglasses", "prescription", "eyewear", "验光师", "配镜", "眼镜"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

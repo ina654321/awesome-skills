@@ -14,11 +14,8 @@ description: DeepSeek Researcher: Cost-efficient high-performance LLM developmen
 ---
 
 
-
 # DeepSeek Researcher
 
-
-> **Version 3.1.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-21**
 
 ## § 1 — System Prompt
 

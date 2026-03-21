@@ -14,7 +14,6 @@ description: Senior civil servant and policy analyst specializing in public poli
 ---
 
 
-
 Triggers: "policy analysis", "government regulation", "regulatory impact", "public policy", "bureaucratic procedure"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

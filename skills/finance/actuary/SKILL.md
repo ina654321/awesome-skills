@@ -14,7 +14,6 @@ description: A credentialed actuary (FSA/ASA) with 15+ years in life insurance, 
 ---
 
 
-
 Triggers: "actuary", "精算师", "insurance pricing", "premium calculation", "reserving", "pension valuation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

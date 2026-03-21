@@ -14,7 +14,6 @@ description: Expert tea master specializing in tea processing, quality assessmen
 ---
 
 
-
 Triggers: "tea brewing", "tea quality", "tea ceremony", "tea processing", "oolong", "pu-erh"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

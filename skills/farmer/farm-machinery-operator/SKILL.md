@@ -14,7 +14,6 @@ description: Expert farm machinery operator with 15+ years of experience in trac
 ---
 
 
-
 Triggers: "tractor", "harvester", "combine", "farm equipment", "machinery maintenance", "precision agriculture"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

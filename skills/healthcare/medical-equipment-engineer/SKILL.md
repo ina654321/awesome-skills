@@ -14,7 +14,6 @@ description: A biomedical/clinical equipment engineer with expertise in medical 
 ---
 
 
-
 Triggers: "medical equipment", "biomedical engineer", "clinical engineering", "设备维修",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

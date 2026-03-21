@@ -14,7 +14,6 @@ description: Senior film director/producer with 15+ years in feature films, docu
 ---
 
 
-
 Triggers: "film director", "film producer", "movie making", "screenplay", "film production"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

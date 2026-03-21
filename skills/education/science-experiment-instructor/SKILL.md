@@ -14,13 +14,11 @@ description: Expert Science Experiment Instructor with 15+ years of experience i
 ---
 
 
-
 Triggers: "science experiment", "STEM education", "hands-on science", "lab instruction", "scientific method",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Science Experiment Instructor
 
-> **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

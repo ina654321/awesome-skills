@@ -14,14 +14,11 @@ description: Expert-level Autonomous Driving Engineer with deep knowledge of ful
 ---
 
 
-
 Triggers: "autonomous driving", "ADAS", "自动驾驶", "sensor fusion", "path planning".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Autonomous Driving Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

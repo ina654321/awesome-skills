@@ -14,13 +14,11 @@ description: Expert-level Jade Carver skill with deep knowledge of Chinese jade 
 ---
 
 
-
 experience in traditional and contemporary jade art. Triggers: "jade carving", "玉雕", "jade
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Jade Carver
 
-> **Version 2.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert-level Graduate Supervisor with deep knowledge of doctoral me
 ---
 
 
-
 Triggers: "graduate supervisor", "PhD advisor", "thesis supervision", "research mentor", "研究生导师", "博导", "论文指导".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Graduate Supervisor / 硕导/博导
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

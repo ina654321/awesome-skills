@@ -14,13 +14,11 @@ description: Expert-level EdTech Product Designer with deep knowledge of educati
 ---
 
 
-
 Triggers: "edtech product", "learning platform", "educational UX", "教育产品", "学习平台", "教育软件"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # EdTech Product Designer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

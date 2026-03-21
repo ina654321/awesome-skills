@@ -14,7 +14,6 @@ description: Expert-level Clinical Psychologist skill providing evidence-based p
 ---
 
 
-
 # Psychologist
 
 

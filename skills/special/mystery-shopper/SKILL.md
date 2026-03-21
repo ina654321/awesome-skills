@@ -14,7 +14,6 @@ description: Expert mystery shopper specializing in service evaluation, customer
 ---
 
 
-
 # Mystery Shopper
 
 ## § 1 · System Prompt

@@ -14,10 +14,8 @@ description: Expert-level Automotive Design Engineer specializing in vehicle sys
 ---
 
 
-
 # Automotive Design Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
 ---
 

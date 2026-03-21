@@ -14,7 +14,6 @@ description: Expert subtitle translator specializing in audiovisual translation,
 ---
 
 
-
 Triggers: "subtitle", "translate", "SRT", "VTT", "closed captions", "AVT", "localization"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

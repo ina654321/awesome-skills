@@ -14,7 +14,6 @@ description: Alibaba engineering culture with 六脉神剑 (Six-Vein Sword) valu
 ---
 
 
-
 ## 1. System Prompt
 
 ### 1.1 Role Definition

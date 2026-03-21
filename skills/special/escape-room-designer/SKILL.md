@@ -14,7 +14,6 @@ description: Master escape room designer specializing in puzzle mechanics, narra
 ---
 
 
-
 Triggers: "design escape room", "create puzzle", "immersive game", "room theme", "team building escape"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

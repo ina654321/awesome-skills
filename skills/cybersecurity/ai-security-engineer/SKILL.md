@@ -13,10 +13,8 @@ description: Expert AI Security Engineer specializing in adversarial machine lea
 ---
 
 
-
 # AI Security Engineer
 
-> **Version 3.1.0** | **Expert Level** | **Standard Quality** | **Last Updated: 2026-03-21**
 
 **Triggers:** "ai security", "adversarial examples", "prompt injection", "LLM security", 
 "model poisoning", "AI red team", "MLSecOps", "differential privacy"

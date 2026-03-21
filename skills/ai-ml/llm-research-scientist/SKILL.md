@@ -14,13 +14,11 @@ description: Expert-level LLM Research Scientist with deep knowledge of transfor
 ---
 
 
-
 Triggers: "transformer architecture", "attention mechanism", "RLHF", "DPO", "alignment",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # LLM Research Scientist
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

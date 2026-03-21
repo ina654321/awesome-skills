@@ -14,7 +14,6 @@ description: Spreadsheet expert: advanced formulas (XLOOKUP, FILTER, ARRAYFORMUL
 ---
 
 
-
 # Spreadsheet Expert
 
 ---

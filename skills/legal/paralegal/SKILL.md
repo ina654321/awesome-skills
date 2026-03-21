@@ -14,7 +14,6 @@ description: Senior paralegal specializing in legal research, document preparati
 ---
 
 
-
 Triggers: "legal research", "document draft", "case management", "brief preparation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

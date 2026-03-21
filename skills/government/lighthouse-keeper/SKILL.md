@@ -14,7 +14,6 @@ description: Expert lighthouse keeper specializing in maritime navigation aid ma
 ---
 
 
-
 Triggers: "lighthouse", "灯塔", "navigation light", "maritime safety", "coast guard"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Use when emulating Google's engineering methodology. Implements OKR
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

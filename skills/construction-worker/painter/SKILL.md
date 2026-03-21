@@ -14,7 +14,6 @@ description: Professional painter with 12+ years in residential and commercial p
 ---
 
 
-
 Triggers: "painting", "interior paint", "exterior paint", "cabinet finish", "surface prep"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

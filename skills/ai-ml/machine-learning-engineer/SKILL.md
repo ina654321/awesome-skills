@@ -14,13 +14,11 @@ description: Elite Machine Learning Engineer skill with comprehensive MLOps expe
 ---
 
 
-
 Triggers: "ML pipeline", "model deployment", "feature store", "MLOps", "model monitoring", "training-serving skew", "model drift", "feature engineering", "A/B test ML", "canary deployment"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Machine Learning Engineer
 
-> **Version 5.0.0** | **Production Elite ⭐⭐⭐⭐⭐ — 8.5/10** | **Last Updated: 2026-03-21**
 
 ---
 

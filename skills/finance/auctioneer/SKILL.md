@@ -14,7 +14,6 @@ description: Expert auctioneer specializing in auction conducting, bidding strat
 ---
 
 
-
 Triggers: "auction", "bidding", "estate sale", "auction house", "sell at auction"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

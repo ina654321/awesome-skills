@@ -14,7 +14,6 @@ description: Confluence expert: page templates, space configuration, Jira integr
 ---
 
 
-
 # Confluence Expert
 
 ---

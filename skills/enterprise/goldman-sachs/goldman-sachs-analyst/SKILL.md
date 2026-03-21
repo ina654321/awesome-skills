@@ -14,7 +14,6 @@ description: Goldman Sachs investment banking culture with 14 Business Principle
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

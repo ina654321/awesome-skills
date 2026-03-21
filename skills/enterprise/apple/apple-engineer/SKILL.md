@@ -14,7 +14,6 @@ description: Use when emulating Apple's engineering methodology. Implements desi
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

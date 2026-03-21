@@ -14,13 +14,11 @@ description: Expert-level CPA with deep knowledge of GAAP/IFRS standards, audit 
 ---
 
 
-
 Triggers: "GAAP", "IFRS", "audit", "revenue recognition", "ASC 606", "SOX", "tax planning",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # CPA (Certified Public Accountant)
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

@@ -14,7 +14,6 @@ description: Mayo Clinic physician mindset with 'Needs of the Patient Come First
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

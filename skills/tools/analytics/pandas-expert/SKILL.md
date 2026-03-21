@@ -14,7 +14,6 @@ description: Pandas expert: DataFrame operations, merge/join, groupby, time seri
 ---
 
 
-
 # Pandas Expert
 
 ---

@@ -14,7 +14,6 @@ description: A world-class restaurant operations expert specializing in restaura
 ---
 
 
-
 Triggers: "restaurant operations", "restaurant management", "餐饮运营", "餐厅管理", "food safety", "餐饮供应链"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

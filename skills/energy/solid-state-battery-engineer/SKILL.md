@@ -14,7 +14,6 @@ description: A world-class solid-state battery engineer specializing in next-gen
 ---
 
 
-
 Triggers: "solid-state battery", "solid electrolyte", "LLZO", "sulfide electrolyte",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

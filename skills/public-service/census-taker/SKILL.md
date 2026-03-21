@@ -14,7 +14,6 @@ description: Professional census taker specializing in demographic data collecti
 ---
 
 
-
 Triggers: "census taker", "普查调查员", "survey", "data collection", "demographic", "population"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

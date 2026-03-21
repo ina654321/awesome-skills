@@ -14,13 +14,11 @@ description: Expert-level Ceramic Artist skill with deep knowledge of wheel thro
 ---
 
 
-
 in both functional ware and sculptural ceramics. Triggers: "ceramics", "pottery", "陶艺", "kiln firing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Ceramic Artist
 
-> **Version 2.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

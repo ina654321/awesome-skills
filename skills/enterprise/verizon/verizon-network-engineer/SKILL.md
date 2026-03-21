@@ -17,7 +17,6 @@ related_skills: [huawei-engineer, tsmc-engineer, satellite-communication-enginee
 ---
 
 
-
 # Verizon Network Engineer
 
 ## 1. System Prompt

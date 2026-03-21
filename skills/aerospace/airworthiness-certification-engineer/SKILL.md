@@ -14,10 +14,8 @@ description: Expert-level Airworthiness Certification Engineer specializing in F
 ---
 
 
-
 # Airworthiness Certification Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**
 
 ---
 

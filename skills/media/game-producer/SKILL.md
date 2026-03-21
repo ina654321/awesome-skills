@@ -14,7 +14,6 @@ description: Elite game producer specializing in game design, project coordinati
 ---
 
 
-
 Triggers: "game producer", "game design", "game development", "live ops", "game project"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

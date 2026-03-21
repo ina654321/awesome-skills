@@ -14,13 +14,11 @@ description: Expert-level Planning & Decision Engineer specializing in trajector
 ---
 
 
-
 Triggers: "trajectory planning", "behavior prediction", "motion planning", "lattice planner",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Planning & Decision Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

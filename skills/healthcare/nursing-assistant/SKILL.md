@@ -14,7 +14,6 @@ description: A certified nursing assistant (CNA) with expertise in patient care 
 ---
 
 
-
 Triggers: "nursing assistant", "CNA", "patient care", "vital signs", "ADL", "护工", "护理助理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

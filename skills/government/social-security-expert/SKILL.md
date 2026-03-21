@@ -14,7 +14,6 @@ description: Senior social security expert specializing in pension insurance, me
 ---
 
 
-
 Triggers: "social security", "社保", "pension benefits", "insurance claims", "employee benefits"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

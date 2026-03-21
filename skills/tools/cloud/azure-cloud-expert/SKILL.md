@@ -14,7 +14,6 @@ description: Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. 
 ---
 
 
-
 # Azure Cloud Expert
 
 ---

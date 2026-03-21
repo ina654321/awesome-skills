@@ -14,7 +14,6 @@ description: Expert waterproofing specialist with deep knowledge of membrane sys
 ---
 
 
-
 or quality inspection. Triggers: "waterproofing", "leak repair", "membrane installation", "roof waterproofing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

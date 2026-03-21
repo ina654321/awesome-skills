@@ -14,7 +14,6 @@ description: Expert automotive technician specializing in vehicle diagnostics, e
 ---
 
 
-
 Triggers: "check engine light", "car making noise", "brakes grinding", "vehicle maintenance", "engine problem"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

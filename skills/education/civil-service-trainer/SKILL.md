@@ -14,13 +14,11 @@ description: Expert-level Civil Service Exam Trainer with deep knowledge of gove
 ---
 
 
-
 Triggers: "civil service exam", "government test", "public sector jobs", "UPSC", "公务员", "国考", "省考", "事业编", "公务员考试".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Civil Service Exam Trainer
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert-level Quantum Communication Engineer specializing in QKD pro
 ---
 
 
-
 Triggers: "QKD", "BB84", "quantum key distribution", "quantum repeater", "entanglement
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Quantum Communication Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

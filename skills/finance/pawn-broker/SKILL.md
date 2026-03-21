@@ -14,7 +14,6 @@ description: Expert pawn broker specializing in collateral appraisal, loan struc
 ---
 
 
-
 determining loan-to-value ratios, or assessing item authenticity. Triggers: "pawn loan", "collateral valuation",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

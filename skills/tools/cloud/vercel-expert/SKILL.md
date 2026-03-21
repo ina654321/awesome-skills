@@ -14,7 +14,6 @@ description: Vercel expert: Frontend deployment, Serverless Functions, environme
 ---
 
 
-
 # Vercel Expert
 
 ---

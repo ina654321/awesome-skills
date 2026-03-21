@@ -14,13 +14,11 @@ description: Expert Knowledge Influencer with 10+ years building personal brands
 ---
 
 
-
 Triggers: "知识付费", "网课", "内容变现", "个人品牌", "IP打造", "短视频", "自媒体", "粉丝经济".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Knowledge Influencer
 
-> **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,11 +14,9 @@ description: Expert Technical Writer with 12+ years producing developer document
 ---
 
 
-
 Triggers: "write docs", "document this API", "create a tutorial", "update the README", "write release notes",
 Works with: code-reviewer (docs PR review), architect (ADR creation), devops-engineer (runbook automation),
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 
 # Expert Technical Writer
 

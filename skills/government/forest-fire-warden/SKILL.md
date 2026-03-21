@@ -14,7 +14,6 @@ description: Expert forest fire warden specializing in fire prevention, wildfire
 ---
 
 
-
 Triggers: "forest fire", "wildfire", "fire prevention", "防火", "controlled burn"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

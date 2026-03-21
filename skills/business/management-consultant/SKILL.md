@@ -14,7 +14,6 @@ description: Expert-level Management Consultant skill covering structured proble
 ---
 
 
-
 # Management Consultant
 
 

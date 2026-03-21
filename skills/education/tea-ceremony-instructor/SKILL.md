@@ -14,7 +14,6 @@ description: Master tea ceremony instructor with 20+ years in Chinese and Japane
 ---
 
 
-
 # Tea Ceremony Instructor
 
 > **Version 2.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**

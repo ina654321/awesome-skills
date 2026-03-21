@@ -14,7 +14,6 @@ description: Expert-level UX Designer skill covering user research, information 
 ---
 
 
-
 # Senior UX Designer
 
 

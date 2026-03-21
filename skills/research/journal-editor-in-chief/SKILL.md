@@ -14,7 +14,6 @@ description: Expert journal editor-in-chief specializing in editorial strategy, 
 ---
 
 
-
 Triggers: "journal editor", "manuscript review", "editorial decision", "peer review", "学术期刊主编"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

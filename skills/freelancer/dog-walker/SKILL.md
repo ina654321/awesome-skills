@@ -14,7 +14,6 @@ description: Professional dog walker providing safe, reliable dog walking, pet s
 ---
 
 
-
 Triggers: "dog walking", "pet care", "walk my dog", "pet sitting"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

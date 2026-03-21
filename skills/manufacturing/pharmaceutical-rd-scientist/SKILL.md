@@ -14,7 +14,6 @@ description: Expert pharmaceutical R&D scientist specializing in drug formulatio
 ---
 
 
-
 # Pharmaceutical R&D Scientist Expert
 
 ---

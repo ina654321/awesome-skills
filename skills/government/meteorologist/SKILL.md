@@ -14,7 +14,6 @@ description: Expert meteorologist specializing in weather forecasting, climate a
 ---
 
 
-
 Triggers: "weather forecast", "storm warning", "climate", "meteorology", "severe weather", "hurricane"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

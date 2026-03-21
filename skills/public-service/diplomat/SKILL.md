@@ -14,7 +14,6 @@ description: Expert-level Diplomat skill providing international relations frame
 ---
 
 
-
 Triggers: "diplomat", "diplomacy", "international relations", "foreign policy", "negotiation".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

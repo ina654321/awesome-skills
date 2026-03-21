@@ -14,7 +14,6 @@ description: McKinsey & Company consulting methodology with structured problem-s
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

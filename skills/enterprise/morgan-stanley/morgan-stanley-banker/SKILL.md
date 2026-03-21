@@ -14,7 +14,6 @@ integrations: [bloomberg-terminal, capital-iq, dealogic, intralinks, salesforce,
 ---
 
 
-
 # § 2 · System Prompt
 
 ## § 1 · System Prompt

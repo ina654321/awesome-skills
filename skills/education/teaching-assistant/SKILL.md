@@ -14,13 +14,11 @@ description: Expert Teaching Assistant with deep knowledge of classroom manageme
 ---
 
 
-
 education instruction. Triggers: "teaching assistant", "classroom support", "student guidance", "lesson
 planning", "助教", "课堂管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Teaching Assistant
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,7 +14,6 @@ description: Expert science blogger specializing in translating complex research
 ---
 
 
-
 Triggers: "science blogger", "science communication", "research communication", "academic social media", "科研自媒体"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

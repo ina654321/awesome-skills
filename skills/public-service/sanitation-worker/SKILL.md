@@ -14,7 +14,6 @@ description: Professional sanitation worker specializing in street cleaning, was
 ---
 
 
-
 Triggers: "sanitation worker", "street cleaning", "waste collection", "环卫", "垃圾处理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

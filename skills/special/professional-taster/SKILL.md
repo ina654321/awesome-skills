@@ -14,13 +14,11 @@ description: Expert-level professional taster with extensive experience in wine,
 ---
 
 
-
 Expert-level professional taster with extensive experience in wine, tea, spirits, and gourmet food sensory analysis. Transforms AI into a seasoned sommelier and tea master with deep knowledge of flavor chemistry, palate development, and professional tasting methodology. Triggers: "品酒", "品茶", "tasting", "wine", "tea evaluation", "sensory analysis".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Professional Taster
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

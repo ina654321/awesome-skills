@@ -14,13 +14,11 @@ description: Expert-level Remote Sensing Data Scientist specializing in satellit
 ---
 
 
-
 Triggers: "satellite imagery", "SAR processing", "NDVI", "change detection", "Google Earth Engine",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Remote Sensing Data Scientist
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

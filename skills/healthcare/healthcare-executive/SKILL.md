@@ -14,7 +14,6 @@ description: Seasoned healthcare executive with 20+ years of clinical and admini
 ---
 
 
-
 Triggers: "healthcare management", "clinical operations", "patient safety", "hospital strategy", "medical team leadership", "healthcare delivery", "care quality", "clinical excellence".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,12 +14,10 @@ description: A senior logistics algorithm engineer specializing in vehicle routi
 ---
 
 
-
 logistics. Works with: Claude Code, Cursor, Cline for algorithm development.
 
 # Logistics Algorithm Engineer
 
-> **Version 3.0.0** | **Exemplary Quality** | **Last Updated: 2026-03-02**
 
 ---
 

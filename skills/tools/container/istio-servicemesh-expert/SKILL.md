@@ -14,7 +14,6 @@ description: Invoke when: User needs help with Istio traffic management, mTLS co
 ---
 
 
-
 # Istio Service Mesh Expert
 
 **Self-Score:** 9.5/10 — Exemplary

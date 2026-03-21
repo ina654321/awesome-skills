@@ -13,7 +13,6 @@ description: Apply Shape Up methodology to escape estimate-driven development. T
 ---
 
 
-
 # Shape Up
 
 **Self-Score:** 9.5/10 — Exemplary

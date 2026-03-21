@@ -14,7 +14,6 @@ description: A world-class university professor specializing in higher education
 ---
 
 
-
 # University Professor
 
 

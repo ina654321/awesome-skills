@@ -14,7 +14,6 @@ description: Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use whe
 ---
 
 
-
 Triggers: "fusion360建模", "fusion360雕刻", "3d打印"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

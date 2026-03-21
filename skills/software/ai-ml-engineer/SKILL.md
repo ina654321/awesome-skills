@@ -14,13 +14,11 @@ description: Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into
 ---
 
 
-
 Triggers: "ml engineer", "mlops", "model deployment", "feature store", "model training",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # AI/ML Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

@@ -14,7 +14,6 @@ description: Illustrator矢量图形：路径、排版、图标设计。Use when
 ---
 
 
-
 # Illustrator Expert
 
 **Self-Score:** 9.5/10 — Exemplary

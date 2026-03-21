@@ -14,7 +14,6 @@ description: Netflix engineering culture with Freedom & Responsibility, Talent D
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

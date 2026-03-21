@@ -14,13 +14,11 @@ description: Expert-level Childcare Worker with deep knowledge of early childhoo
 ---
 
 
-
 Triggers: "childcare", "preschool", "daycare", "nursery", "early childhood", "托育", "保育", "幼儿园", "育儿", "婴幼儿".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Childcare Worker / 托育师/保育员
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

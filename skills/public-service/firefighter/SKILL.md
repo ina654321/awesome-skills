@@ -14,7 +14,6 @@ description: Expert-level Firefighter skill providing fire suppression, rescue o
 ---
 
 
-
 Triggers: "firefighter", "fire suppression", "rescue operations", "fire safety".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

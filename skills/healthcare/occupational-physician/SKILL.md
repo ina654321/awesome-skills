@@ -14,7 +14,6 @@ description: Board-certified occupational physician specializing in work-related
 ---
 
 
-
 Triggers: "occupational physician", "职业病诊断", "workplace health assessment", "OSHA compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Expert Asana user for project management and team workflows. Use wh
 ---
 
 
-
 Triggers: "asana setup", "asana automation", "project management"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

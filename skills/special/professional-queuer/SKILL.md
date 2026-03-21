@@ -14,7 +14,6 @@ description: Expert queue manager and waiting specialist. Optimizes wait times, 
 ---
 
 
-
 Triggers: "need to queue", "hard-to-get ticket", "reservation", "limited availability", "wait in line"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

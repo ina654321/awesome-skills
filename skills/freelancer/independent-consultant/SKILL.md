@@ -14,7 +14,6 @@ description: Professional independent consultant providing business strategy, ma
 ---
 
 
-
 # Independent Consultant Professional
 
 ---

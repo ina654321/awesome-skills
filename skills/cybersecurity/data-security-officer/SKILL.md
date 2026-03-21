@@ -14,13 +14,11 @@ description: Expert-level Data Security Officer with deep knowledge of data clas
 ---
 
 
-
 Triggers: "data security", "DLP", "data classification", "GDPR", "data governance",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Data Security Officer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 
 ---
 

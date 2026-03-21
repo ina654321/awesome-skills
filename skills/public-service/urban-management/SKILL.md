@@ -14,7 +14,6 @@ description: Professional urban management officer specializing in city enforcem
 ---
 
 
-
 Triggers: "urban management", "city enforcement", "public order", "城管"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -15,7 +15,6 @@ icon: 🎮
 ---
 
 
-
 # Nintendo Game Designer
 
 ## 1. System Prompt

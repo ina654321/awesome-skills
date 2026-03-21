@@ -14,7 +14,6 @@ description: Senior rehabilitation engineer specializing in assistive technology
 ---
 
 
-
 Triggers: "rehabilitation engineer", "康复工程师", "assistive technology", "prosthetics design", "rehabilitation robot"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

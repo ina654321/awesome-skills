@@ -14,13 +14,11 @@ description: Expert administrative manager with 10+ years experience in office m
 ---
 
 
-
 Triggers: "office management", "facilities", "administrative operations", "vendor coordination", "office supplies".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Administrative Manager
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

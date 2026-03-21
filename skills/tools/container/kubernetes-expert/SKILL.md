@@ -14,7 +14,6 @@ description: Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, trou
 ---
 
 
-
 # Kubernetes Expert
 
 ---

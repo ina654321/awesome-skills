@@ -14,14 +14,11 @@ description: Expert-level Chip Design Engineer with deep knowledge of RTL design
 ---
 
 
-
 ASIC flows. Triggers: "chip design", "RTL", "timing closure", "tapeout", "芯片设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Chip Design Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

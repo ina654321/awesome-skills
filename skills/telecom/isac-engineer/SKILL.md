@@ -14,13 +14,11 @@ description: Expert-level ISAC (Integrated Sensing and Communication) Engineer s
 ---
 
 
-
 Triggers: "ISAC design", "DFRC waveform", "radar-communication", "OFDM sensing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # ISAC Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

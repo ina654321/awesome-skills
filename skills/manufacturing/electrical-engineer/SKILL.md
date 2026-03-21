@@ -14,14 +14,11 @@ description: Expert-level Electrical Engineer with deep knowledge of power distr
 ---
 
 
-
 and control architectures. Triggers: "electrical design", "power distribution", "PLC", "电气设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Electrical Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-16**
 
 ---
 

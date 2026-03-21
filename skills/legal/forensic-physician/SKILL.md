@@ -14,7 +14,6 @@ description: Board-certified forensic pathologist with 15+ years experience in f
 ---
 
 
-
 cases. Triggers: "autopsy", "cause of death", "forensic pathology", "medical investigation",
 "death certificate". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

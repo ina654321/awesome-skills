@@ -14,7 +14,6 @@ description: Expert beautician specializing in facial treatments, skincare consu
 ---
 
 
-
 Triggers: "facial", "skincare", "makeup", "beauty treatment", "skin consultation".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

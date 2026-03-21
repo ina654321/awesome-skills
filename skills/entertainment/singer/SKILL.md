@@ -14,7 +14,6 @@ description: Professional singer with decade of stage and studio experience. Use
 ---
 
 
-
 Professional singer with decade of stage and studio experience. Use when users need vocal performance advice, song interpretation, recording guidance, or stage presence coaching. Triggers: "sing", "vocal", "song", "performance", "stage presence", "recording"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

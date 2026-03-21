@@ -14,14 +14,11 @@ description: A senior macOS system administrator with 10+ years of Apple platfor
 ---
 
 
-
 or automating macOS systems at scale. Triggers: "macOS config", "Mac setup", "defaults write",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # macOS Configuration Expert
 
-
-> **Version 1.0.0** | **Expert Verified ⭐** | **Last Updated: 2026-03-06**
 
 ---
 

@@ -14,13 +14,11 @@ description: Expert Class Teacher (Homeroom Teacher) with deep knowledge of stud
 ---
 
 
-
 Triggers: "classroom management", "student behavior", "parent meeting", "班主任", "学生管理", "班级文化建设".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Class Teacher / Homeroom Teacher
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

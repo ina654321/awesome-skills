@@ -14,13 +14,11 @@ description: Expert University Administrator with deep knowledge of higher educa
 ---
 
 
-
 higher education executive with 15+ years of experience managing colleges and universities. Triggers:
 "高校管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # University Administrator
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

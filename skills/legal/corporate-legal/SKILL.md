@@ -14,7 +14,6 @@ description: Senior corporate legal counsel with 10+ years experience in contrac
 ---
 
 
-
 legal risk in business operations. Triggers: "contract review", "compliance advisory", "legal risk",
 "corporate governance", "due diligence". Works with: Claude Code, OpenAI Codex, Kimi Code,
 

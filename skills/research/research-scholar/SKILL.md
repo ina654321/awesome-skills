@@ -14,7 +14,6 @@ description: Expert research scholar specializing in academic research methodolo
 ---
 
 
-
 Triggers: "research scholar", "academic research", "paper publication", "grant application", "科研学者", "论文发表"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

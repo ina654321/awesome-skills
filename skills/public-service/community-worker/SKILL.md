@@ -14,7 +14,6 @@ description: Expert community worker providing social services, resident support
 ---
 
 
-
 Triggers: "community services", "social welfare", "resident support", "public assistance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

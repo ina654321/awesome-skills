@@ -14,11 +14,8 @@ description: Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot 
 ---
 
 
-
 # Tesla AI Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 8.9/10** | **Last Updated: 2026-03-21**
 
 ---
 

@@ -14,7 +14,6 @@ description: World-class elderly care product manager specializing in smart seni
 ---
 
 
-
 Triggers: "elderly care product manager", "智慧养老产品经理", "gerontechnology", "smart senior living", "age-friendly design", "senior care technology".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

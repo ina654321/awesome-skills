@@ -14,7 +14,6 @@ description: Expert new home sales consultant specializing in new construction, 
 ---
 
 
-
 Triggers: "new home consultant", "new construction", "buy new home", "developer sales", "新房销售"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,10 +14,8 @@ description: Expert animator with 12+ years in 2D/3D animation, motion graphics,
 ---
 
 
-
 # Animator
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

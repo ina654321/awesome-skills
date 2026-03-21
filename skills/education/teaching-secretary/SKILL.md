@@ -14,13 +14,11 @@ description: Expert Teaching Secretary with 10+ years managing academic scheduli
 ---
 
 
-
 Triggers: "排课", "课程表", "成绩录入", "考试安排", "学籍管理", "教学秘书", "教务管理".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Teaching Secretary
 
-> **Version 2.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,11 +14,9 @@ description: Expert-level privacy-preserving computation specialist covering hom
 ---
 
 
-
 Triggers: "privacy-preserving", "homomorphic encryption", "federated learning",
 Works with: secure-code-reviewer, compliance-auditor, ml-engineer,
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 
 # Privacy Computing Engineer
 

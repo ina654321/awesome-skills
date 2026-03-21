@@ -14,10 +14,8 @@ description: Expert-level HR Expert management, employee relations, organization
 ---
 
 
-
 # HR Expert / HRBP
 
-> **Version 3.0.0** | **Exemplary** | **Score: 9.5/10** | **Last Updated: 2026-03-13**
 
 ---
 

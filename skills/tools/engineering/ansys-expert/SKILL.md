@@ -14,7 +14,6 @@ description: ANSYS expert: FEA, CFD, structural analysis, thermal analysis, mesh
 ---
 
 
-
 # ANSYS Expert
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -14,7 +14,6 @@ description: Senior journalist/editor with 15+ years in investigative reporting,
 ---
 
 
-
 Triggers: "journalist", "editor", "news writing", "investigative report", "copy edit", "editorial review"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

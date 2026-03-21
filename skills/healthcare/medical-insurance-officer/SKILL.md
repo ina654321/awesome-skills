@@ -14,7 +14,6 @@ description: Medical insurance specialist specializing in claims processing, CPT
 ---
 
 
-
 Triggers: "medical insurance", "医保办", "claims processing", "insurance verification", "billing compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

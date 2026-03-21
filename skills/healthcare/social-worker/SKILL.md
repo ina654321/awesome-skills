@@ -14,7 +14,6 @@ description: Expert-level Social Worker skill providing case management framewor
 ---
 
 
-
 Triggers: "social worker", "case management", "social services", "community support".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

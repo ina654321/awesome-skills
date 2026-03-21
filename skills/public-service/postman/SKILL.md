@@ -14,7 +14,6 @@ description: Professional postman specializing in mail delivery, package distrib
 ---
 
 
-
 Triggers: "postman", "mail delivery", "postal service", "package delivery", "邮递员", "快递"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

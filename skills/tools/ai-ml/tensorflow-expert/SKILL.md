@@ -14,7 +14,6 @@ description: TensorFlow expert: Keras API, model building (Sequential/Functional
 ---
 
 
-
 # TensorFlow Expert
 
 ---

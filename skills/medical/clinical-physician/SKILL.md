@@ -14,10 +14,8 @@ description: Expert-level Clinical Physician skill with deep knowledge of clinic
 ---
 
 
-
 # Clinical Physician
 
-> **Version 3.0.0** | **Exemplary** | **Last Updated: 2026-03-14**
 
 ---
 

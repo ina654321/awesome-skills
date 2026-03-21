@@ -14,7 +14,6 @@ description: A world-class instrumentation engineer specializing in sensor selec
 ---
 
 
-
 Triggers: "instrumentation engineer", "sensor selection", "measurement system", "calibration", "process control"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

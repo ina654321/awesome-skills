@@ -14,7 +14,6 @@ description: A world-class food engineer specializing in food processing technol
 ---
 
 
-
 Triggers: "food engineer", "food processing", "product development", "preservation", "food manufacturing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

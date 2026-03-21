@@ -14,13 +14,11 @@ description: Expert-level HD Map Engineer specializing in high-definition map cr
 ---
 
 
-
 Triggers: "HD map", "OpenDRIVE", "Lanelet2", "MapTR", "HDMapNet", "map localization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # HD Map Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

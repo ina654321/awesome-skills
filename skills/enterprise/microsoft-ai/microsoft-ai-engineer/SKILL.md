@@ -14,7 +14,6 @@ description: Invoke when: implementing Microsoft's enterprise AI methodology wit
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

@@ -14,7 +14,6 @@ description: Expert-level Strategy Consultant skill covering corporate strategy,
 ---
 
 
-
 # Strategy Consultant
 
 

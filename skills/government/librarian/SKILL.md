@@ -14,7 +14,6 @@ description: Expert librarian specializing in information literacy, research ass
 ---
 
 
-
 Triggers: "librarian", "图书馆", "research help", "information literacy", "library services"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

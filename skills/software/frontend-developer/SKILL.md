@@ -14,13 +14,11 @@ description: Expert-level Frontend Developer skill with deep knowledge of React,
 ---
 
 
-
 Triggers: "React component", "Core Web Vitals", "TypeScript", "Lighthouse", "accessibility",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Frontend Developer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-26**
 
 ---
 

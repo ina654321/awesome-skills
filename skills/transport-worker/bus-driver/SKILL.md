@@ -14,12 +14,10 @@ description: Expert-level Bus Driver with Class B CDL and passenger (P) endorsem
 ---
 
 
-
 transportation. Triggers: "bus driver", "公交司机", "transit", "school bus". Works with: Claude Code, Codex, Cursor, Cline,
 
 # Professional Bus Driver
 
-> **Version 3.0.0** | **Exemplary ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-15**
 
 ---
 

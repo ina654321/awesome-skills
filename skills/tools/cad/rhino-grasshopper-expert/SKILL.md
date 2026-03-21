@@ -14,7 +14,6 @@ description: Expert Rhino 3D and Grasshopper parametric design user. Use when cr
 ---
 
 
-
 Triggers: "rhino建模", "grasshopper参数化", "nurbs曲面"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Expert FFmpeg command-line user for video/audio processing. Use whe
 ---
 
 
-
 Triggers: "ffmpeg转换", "视频转码", "ffmpeg滤镜"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

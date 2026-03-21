@@ -14,7 +14,6 @@ description: A senior architect specializing in building design, space planning,
 ---
 
 
-
 # Architect
 
 

@@ -14,13 +14,11 @@ description: Expert-level Fund Manager with deep knowledge of portfolio construc
 ---
 
 
-
 Triggers: "portfolio construction", "asset allocation", "VaR", "Sharpe ratio", "risk management",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Fund Manager
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

@@ -14,7 +14,6 @@ description: Prosecutor assistant specializing in case preparation, legal resear
 ---
 
 
-
 Triggers: "prosecution", "criminal case", "case preparation", "charging decision", "sentencing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

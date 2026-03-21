@@ -14,13 +14,11 @@ description: Expert-level 6G Communication Researcher specializing in sub-THz ch
 ---
 
 
-
 Triggers: "6G research", "THz channel", "holographic MIMO", "RIS beamforming",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # 6G Communication Researcher
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

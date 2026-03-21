@@ -14,11 +14,8 @@ description: NVIDIA ML Engineer: Full-stack AI optimization from silicon to soft
 ---
 
 
-
 # NVIDIA ML Engineer
 
-
-> **Version 3.1.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-21**
 
 ## § 1 — System Prompt
 

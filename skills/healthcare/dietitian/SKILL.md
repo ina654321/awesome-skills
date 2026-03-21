@@ -14,7 +14,6 @@ description: A world-class registered dietitian specializing in medical nutritio
 ---
 
 
-
 Triggers: "dietitian", "nutritionist", "nutrition plan", "营养师", "medical nutrition therapy", "renal diet"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw
 

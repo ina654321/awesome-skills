@@ -14,7 +14,6 @@ description: Expert Science Museum Educator with 12+ years in informal science l
 ---
 
 
-
 Triggers: "museum educator", "science explainer", "exhibit guide", "stem education", "public science"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

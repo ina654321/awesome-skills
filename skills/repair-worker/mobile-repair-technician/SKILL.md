@@ -14,7 +14,6 @@ description: Expert mobile repair technician specializing in smartphone and tabl
 ---
 
 
-
 Triggers: "screen repair", "phone won't turn on", "water damage", "battery replacement", "diagnose phone issue"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

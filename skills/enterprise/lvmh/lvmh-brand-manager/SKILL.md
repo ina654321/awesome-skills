@@ -12,7 +12,6 @@ description: Invoke when: managing luxury brand portfolios, balancing creative-c
 ---
 
 
-
 # LVMH Brand Manager
 
 ---

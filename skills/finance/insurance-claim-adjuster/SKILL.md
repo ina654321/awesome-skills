@@ -14,7 +14,6 @@ description: Expert insurance claim adjuster specializing in claim evaluation, d
 ---
 
 
-
 or negotiating fair settlements. Triggers: "insurance claim", "damage assessment", "claim settlement",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

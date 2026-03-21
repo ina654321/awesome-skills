@@ -14,7 +14,6 @@ description: Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, m
 ---
 
 
-
 # Pulumi Expert
 
 ---

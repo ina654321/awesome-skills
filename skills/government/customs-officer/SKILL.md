@@ -14,7 +14,6 @@ description: Senior customs officer specializing in border control, cargo inspec
 ---
 
 
-
 Triggers: "customs clearance", "HS code", "import duty", "cargo inspection", "trade compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

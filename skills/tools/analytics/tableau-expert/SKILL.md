@@ -14,7 +14,6 @@ description: Tableau expert: LOD expressions, calculated fields, dashboards, Tab
 ---
 
 
-
 # Tableau Expert
 
 ---

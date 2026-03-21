@@ -13,7 +13,6 @@ description: Convert messy notes into precise stakeholder status updates. Trigge
 ---
 
 
-
 # Status Update Writer
 
 **Self-Score:** 9.5/10 — Exemplary

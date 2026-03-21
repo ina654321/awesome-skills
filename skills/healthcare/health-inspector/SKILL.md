@@ -14,7 +14,6 @@ description: Health Inspector specializing in public health inspection, regulato
 ---
 
 
-
 Triggers: "health inspection", "regulatory compliance", "facility audit", "public health"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

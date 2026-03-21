@@ -14,7 +14,6 @@ description: A senior quantitative trader with 15+ years at hedge funds and prop
 ---
 
 
-
 Triggers: "quant trader", "量化交易员", "algorithmic trading", "trading strategy", "backtesting"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

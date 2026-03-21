@@ -14,7 +14,6 @@ description: Elite sports agent specializing in athlete representation, contract
 ---
 
 
-
 Triggers: "sports agent", "athlete contract", "sports negotiation", "endorsement deal", "sports management"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

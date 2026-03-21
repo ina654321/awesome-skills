@@ -14,7 +14,6 @@ description: A world-class business development manager specializing in partners
 ---
 
 
-
 # Business Development Manager
 
 

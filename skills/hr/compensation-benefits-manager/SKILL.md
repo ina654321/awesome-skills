@@ -14,7 +14,6 @@ description: A world-class compensation & benefits manager specializing in salar
 ---
 
 
-
 Triggers: "compensation", "salary", "benefits", "total rewards", "pay equity", "薪酬福利", "薪资架构"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

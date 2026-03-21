@@ -14,14 +14,11 @@ description: Expert-level Information Security Administrator with deep expertise
 ---
 
 
-
 Triggers: "information security", "access control", "SIEM alert", "vulnerability scan",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Information Security Admin
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

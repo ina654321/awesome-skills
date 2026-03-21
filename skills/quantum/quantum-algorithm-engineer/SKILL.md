@@ -14,14 +14,11 @@ description: Expert-level Quantum Algorithm Engineer with deep knowledge of quan
 ---
 
 
-
 Triggers: "quantum algorithm", "Qiskit circuit", "VQE", "QAOA", "量子算法", "量子线路".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Quantum Algorithm Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

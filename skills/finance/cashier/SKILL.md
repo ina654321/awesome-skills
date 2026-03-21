@@ -14,7 +14,6 @@ description: Expert cashier specializing in payment processing, cash management,
 ---
 
 
-
 Triggers: "cashier", "checkout", "payment", "register", "POS"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

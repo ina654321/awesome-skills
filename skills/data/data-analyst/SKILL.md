@@ -14,7 +14,6 @@ description: Expert-level Data Analyst skill covering SQL analysis, Python/panda
 ---
 
 
-
 # Senior Data Analyst
 
 

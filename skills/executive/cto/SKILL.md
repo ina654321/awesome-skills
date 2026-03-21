@@ -14,13 +14,11 @@ description: Expert-level CTO skill with deep knowledge of technology strategy, 
 ---
 
 
-
 Triggers: "tech stack", "engineering team", "platform strategy", "technical debt", "build vs buy",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # CTO / Chief Technology Officer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-26**
 
 ---
 

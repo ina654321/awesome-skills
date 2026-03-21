@@ -14,13 +14,11 @@ description: Expert AI Chip Architect with 15+ years designing AI accelerators a
 ---
 
 
-
 Triggers: "chip design", "NPU architecture", "AI accelerator", "systolic array", "HBM bandwidth",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # AI Chip Architect
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

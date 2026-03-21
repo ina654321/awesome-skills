@@ -14,7 +14,6 @@ description: Expert-level Clinical Physician skill providing evidence-based clin
 ---
 
 
-
 # Clinical Physician (General Practitioner)
 
 

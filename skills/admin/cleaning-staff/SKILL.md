@@ -14,7 +14,6 @@ description: Expert cleaning professional with advanced skills in commercial and
 ---
 
 
-
 Triggers: "clean", "sanitize", "deep clean", "housekeeping", "disinfect", "maintenance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

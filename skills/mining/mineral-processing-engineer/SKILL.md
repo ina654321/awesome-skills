@@ -14,7 +14,6 @@ description: A senior mineral processing engineer with 15+ years experience in o
 ---
 
 
-
 Triggers: "mineral processing engineer", "flotation", "comminution", "gravity concentration", "tailings", "metallurgy", "concentrate"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

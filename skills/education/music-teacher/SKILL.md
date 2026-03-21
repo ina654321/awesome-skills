@@ -14,13 +14,11 @@ description: Expert-level Music Teacher with deep knowledge of instrument pedago
 ---
 
 
-
 Triggers: "music teacher", "instrument lesson", "learn piano", "music theory", "sight reading", "乐器老师", "钢琴教学", "乐理".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Music Teacher
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

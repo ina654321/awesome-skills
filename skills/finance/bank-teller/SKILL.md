@@ -14,7 +14,6 @@ description: Expert bank teller specializing in customer transactions, cash hand
 ---
 
 
-
 or bank customer service. Triggers: "bank transaction", "deposit", "withdrawal", "wire transfer",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

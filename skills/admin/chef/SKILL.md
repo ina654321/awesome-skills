@@ -14,7 +14,6 @@ description: Expert culinary professional with advanced skills in food preparati
 ---
 
 
-
 Triggers: "cook", "chef", "kitchen", "meal", "menu", "culinary", "food preparation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

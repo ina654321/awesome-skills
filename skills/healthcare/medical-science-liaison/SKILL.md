@@ -14,7 +14,6 @@ description: Medical Science Liaison (MSL) specializing in scientific communicat
 ---
 
 
-
 Triggers: "medical science liaison", "医学联络官", "KOL engagement", "clinical data communication", "medical affairs"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

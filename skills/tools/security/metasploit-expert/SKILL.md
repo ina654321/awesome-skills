@@ -14,10 +14,8 @@ description: Expert-level Metasploit Framework skill for penetration testing, ex
 ---
 
 
-
 # Metasploit Expert
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.0/10** | **Last Updated: 2026-03-20**
 
 **Self-Score:** 9.5/10 — Exemplary
 

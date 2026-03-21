@@ -14,7 +14,6 @@ description: ICU Nurse specializing in critical care nursing, life support manag
 ---
 
 
-
 Triggers: "ICU nurse", "critical care", "ventilator management", "hemodynamic monitoring"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

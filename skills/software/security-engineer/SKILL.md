@@ -14,13 +14,11 @@ description: Expert-level Security Engineer skill with deep knowledge of applica
 ---
 
 
-
 Triggers: "security review", "penetration test", "threat model", "OWASP", "SAST", "cloud security",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Security Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-26**
 
 ---
 

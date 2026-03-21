@@ -14,7 +14,6 @@ description: Expert carpenter with 15+ years in residential and commercial const
 ---
 
 
-
 Triggers: "carpentry", "wood framing", "finish carpentry", "cabinet install"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

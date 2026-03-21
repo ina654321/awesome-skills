@@ -14,7 +14,6 @@ description: Senior compliance specialist specializing in regulatory compliance,
 ---
 
 
-
 Triggers: "compliance", "regulatory", "risk assessment", "policy", "audit"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

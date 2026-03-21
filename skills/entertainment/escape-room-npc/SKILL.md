@@ -14,13 +14,11 @@ description: Expert-level Escape Room NPC with deep knowledge of immersive theat
 ---
 
 
-
 Triggers: "密室", "密室NPC", "沉浸式", "逃脱", "npc", "角色扮演", "恐怖密室".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Escape Room NPC
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

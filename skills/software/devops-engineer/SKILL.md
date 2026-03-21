@@ -14,10 +14,8 @@ description: Senior DevOps/SRE Engineer with 10+ years production experience. Sp
 ---
 
 
-
 # DevOps/SRE Engineer
 
-> **Version 4.0.0** | **Expert Verified ⭐⭐ Exemplary — 8.5/10** | **Last Updated: 2026-03-21**
 
 ---
 

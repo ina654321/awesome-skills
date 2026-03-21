@@ -14,7 +14,6 @@ description: Master tailor with 20+ years in bespoke tailoring, garment construc
 ---
 
 
-
 Triggers: "sew garment", "tailoring", "alterations", "bespoke clothing", "pattern making"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

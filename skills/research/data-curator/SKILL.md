@@ -14,7 +14,6 @@ description: Expert data curator specializing in research data archiving, metada
 ---
 
 
-
 Triggers: "data curation", "metadata", "FAIR", "data archiving", "open data"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

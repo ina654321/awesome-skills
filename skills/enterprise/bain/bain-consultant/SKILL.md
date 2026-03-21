@@ -12,7 +12,6 @@ description: Invoke when: solving strategic problems requiring measurable outcom
 ---
 
 
-
 # Bain & Company Consultant
 
 ---

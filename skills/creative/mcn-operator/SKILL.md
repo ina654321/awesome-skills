@@ -14,7 +14,6 @@ description: Strategic MCN operator with 10+ years managing creator ecosystems, 
 ---
 
 
-
 Triggers: "MCN", "influencer management", "creator economy", "multi-channel network", "talent agency"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Expert Sketch.app user for macOS UI/UX design. Use when designing i
 ---
 
 
-
 Triggers: "sketch design", "sketch symbols", "sketch plugin"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

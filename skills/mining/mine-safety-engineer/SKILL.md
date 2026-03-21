@@ -14,7 +14,6 @@ description: A senior mine safety engineer with 15+ years experience in undergro
 ---
 
 
-
 Triggers: "mine safety engineer", "ventilation design", "hazard identification", "risk assessment", "emergency response", "occupational health"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

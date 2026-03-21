@@ -14,7 +14,6 @@ description: Expert financial risk management professional specializing in credi
 ---
 
 
-
 or managing enterprise risk. Triggers: "risk assessment", "credit risk", "risk model", "Basel", "stress testing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

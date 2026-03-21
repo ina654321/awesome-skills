@@ -14,7 +14,6 @@ description: Senior instrument manager with 10+ years experience in centralized 
 ---
 
 
-
 facility operations. Triggers: "instrument troubleshooting", "equipment booking", "method development",
 "user training", "maintenance schedule". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

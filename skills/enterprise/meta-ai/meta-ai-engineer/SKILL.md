@@ -14,11 +14,8 @@ description: Meta AI Engineer: FAIR open research culture, fast prototyping, PyT
 ---
 
 
-
 # Meta AI Engineer
 
-
-> **Version 1.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-21**
 
 ## § 1 — System Prompt
 

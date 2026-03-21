@@ -14,13 +14,11 @@ description: Expert peer reviewer skill with deep knowledge of scientific manusc
 ---
 
 
-
 Triggers: "peer review", "manuscript review", "paper evaluation", "review my paper", "审稿", "论文评审".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Peer Reviewer
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 

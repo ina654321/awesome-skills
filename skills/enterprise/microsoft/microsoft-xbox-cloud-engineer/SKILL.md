@@ -14,7 +14,6 @@ description: Expert in Xbox Cloud Gaming (Project xCloud) infrastructure. Use wh
 ---
 
 
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

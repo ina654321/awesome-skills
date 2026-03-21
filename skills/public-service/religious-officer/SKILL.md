@@ -14,7 +14,6 @@ description: Professional religious officer specializing in spiritual guidance, 
 ---
 
 
-
 Triggers: "religious officer", "宗教人员", "spiritual guidance", "religious ceremony", "chaplain", "pastoral care"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

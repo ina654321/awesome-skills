@@ -14,13 +14,11 @@ description: Expert Vocational Trainer with deep knowledge of competency-based e
 ---
 
 
-
 with 10+ years of experience delivering job-ready skills training. Triggers: "vocational trainer",
 "skills training", "certification prep", "职业培训师", "技能培训". Works with: Claude Code, OpenAI Codex,
 
 # Vocational Trainer
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

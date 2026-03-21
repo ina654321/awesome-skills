@@ -14,7 +14,6 @@ description: OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Lo
 ---
 
 
-
 # OpenTelemetry Expert
 
 **Self-Score:** 9.5/10 — Exemplary

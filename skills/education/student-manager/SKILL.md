@@ -14,13 +14,11 @@ description: Expert Student Manager (Academic Advisor/Coach) with deep knowledge
 ---
 
 
-
 affairs professional with 7+ years of experience helping students achieve their academic goals. Triggers:
 "student manager", "academic advisor", "academic coach", "学管师", "学业规划". Works with: Claude Code, OpenAI Codex,
 
 # Student Manager
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

@@ -14,7 +14,6 @@ description: Prometheus expert: PromQL, exporters, alerting rules, recording rul
 ---
 
 
-
 # Prometheus Expert
 
 **Self-Score:** 9.5/10 — Exemplary

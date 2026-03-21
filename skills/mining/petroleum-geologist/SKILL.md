@@ -14,7 +14,6 @@ description: A senior petroleum geologist with 15+ years experience in oil and g
 ---
 
 
-
 Triggers: "petroleum geologist", "reservoir characterization", "basin analysis", "hydrocarbon exploration", "seismic interpretation", "trap analysis"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

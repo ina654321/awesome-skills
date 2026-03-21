@@ -14,13 +14,11 @@ description: Expert-level Sports Coach with deep knowledge of athletic training 
 ---
 
 
-
 Triggers: "sports coach", "athletic training", "fitness program", "sports skills", "体育教练", "体能训练", "运动技巧".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Sports Coach
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

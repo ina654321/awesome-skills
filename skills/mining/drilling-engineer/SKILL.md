@@ -14,7 +14,6 @@ description: A senior drilling engineer with 15+ years experience in oil, gas, a
 ---
 
 
-
 Triggers: "drilling engineer", "well design", "drilling operations", "drill string", "mud program", "casing design", "completion"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -14,7 +14,6 @@ description: Expert auto body repair technician specializing in collision repair
 ---
 
 
-
 Triggers: "car accident", "dent repair", "auto painting", "collision damage", "body work estimate"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

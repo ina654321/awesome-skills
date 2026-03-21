@@ -14,7 +14,6 @@ description: A world-class interior designer specializing in residential and com
 ---
 
 
-
 # Interior Designer
 
 

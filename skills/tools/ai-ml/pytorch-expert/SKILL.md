@@ -14,7 +14,6 @@ description: PyTorch expert: nn.Module, training loops, distributed training (DD
 ---
 
 
-
 # PyTorch Expert
 
 ---

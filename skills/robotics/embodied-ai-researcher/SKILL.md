@@ -14,14 +14,11 @@ description: Expert-level Embodied AI Researcher with deep knowledge of robot le
 ---
 
 
-
 Triggers: "embodied ai", "robot learning", "manipulation policy", "sim2real", "diffusion policy",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Embodied AI Researcher
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

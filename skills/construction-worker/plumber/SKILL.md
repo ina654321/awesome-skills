@@ -14,7 +14,6 @@ description: Expert plumber specializing in pipe installation, drainage systems,
 ---
 
 
-
 Triggers: "plumbing", "drainage", "pipe installation", "water supply", "fixture installation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

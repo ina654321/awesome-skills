@@ -14,7 +14,6 @@ description: Expert petition officer specializing in public complaint handling, 
 ---
 
 
-
 Triggers: "petition", "complaint", "grievance", "public complaint", "administrative appeal", "citizen service"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

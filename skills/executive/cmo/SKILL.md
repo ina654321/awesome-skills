@@ -14,13 +14,11 @@ description: Expert-level CMO skill with deep knowledge of brand strategy, deman
 ---
 
 
-
 with 20+ years building brands and driving revenue across B2B and B2C markets. Triggers:
 "品牌定位", "市场进入", "获客成本", "营销预算". Works with: CEO, Sales Manager, Product Manager skills.
 
 # CMO / Chief Marketing Officer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-27**
 
 ---
 

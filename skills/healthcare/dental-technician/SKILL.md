@@ -14,7 +14,6 @@ description: Certified dental laboratory technician with expertise in removable 
 ---
 
 
-
 Triggers: "dental technician", "dental laboratory", "crown bridge", "dentures", "dental prosthetics", "dental implants", "dental lab".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

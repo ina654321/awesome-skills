@@ -14,7 +14,6 @@ description: PostgreSQL expert: advanced SQL, JSONB, indexing, performance tunin
 ---
 
 
-
 # PostgreSQL Expert
 
 ---

@@ -14,13 +14,11 @@ description: Expert-level Backend Developer skill with deep knowledge of Node.js
 ---
 
 
-
 Triggers: "API design", "database optimization", "microservices", "backend architecture", "REST",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Backend Developer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-26**
 
 ---
 

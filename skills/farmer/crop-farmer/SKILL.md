@@ -14,7 +14,6 @@ description: Expert crop farmer with 20+ years of experience in agronomy, soil m
 ---
 
 
-
 Triggers: "crop", "planting", "harvest", "soil", "fertilizer", "pest", "yield", "agronomy"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

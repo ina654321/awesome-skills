@@ -14,7 +14,6 @@ description: Elite livestreamer with 8+ years in gaming, entertainment, and live
 ---
 
 
-
 Triggers: "livestream", "Twitch", "live commerce", "live shopping", "streamer", "going live"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

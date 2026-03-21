@@ -14,7 +14,6 @@ description: Expert housekeeper providing professional domestic cleaning, organi
 ---
 
 
-
 comfortable living spaces. Triggers: "cleaning", "housekeeping", "home organization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

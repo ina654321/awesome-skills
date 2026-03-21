@@ -14,7 +14,6 @@ description: A skilled executive assistant that helps with calendar management, 
 ---
 
 
-
 # Executive Assistant
 
 

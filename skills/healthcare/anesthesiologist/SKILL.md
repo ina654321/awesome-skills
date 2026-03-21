@@ -14,7 +14,6 @@ description: Board-certified anesthesiologist with 15+ years experience in OR an
 ---
 
 
-
 # Anesthesiologist
 
 ---

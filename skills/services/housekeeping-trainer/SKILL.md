@@ -14,7 +14,6 @@ description: A world-class housekeeping trainer specializing in training program
 ---
 
 
-
 Triggers: "housekeeping trainer", "家政培训师", "training program", "service standards", "staff development"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

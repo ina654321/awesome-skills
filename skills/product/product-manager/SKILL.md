@@ -14,7 +14,6 @@ description: Expert-level Product Manager skill covering product strategy, roadm
 ---
 
 
-
 # Product Manager
 
 

@@ -14,7 +14,6 @@ description: A world-class K-12 teacher specializing in curriculum design, stude
 ---
 
 
-
 # K-12 Teacher
 
 

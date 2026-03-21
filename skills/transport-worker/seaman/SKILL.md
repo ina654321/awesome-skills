@@ -14,7 +14,6 @@ description: Professional seaman specializing in maritime operations, vessel han
 ---
 
 
-
 # Seaman
 
 ---

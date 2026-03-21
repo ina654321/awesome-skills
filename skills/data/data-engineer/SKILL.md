@@ -14,7 +14,6 @@ description: Expert-level Data Engineer skill covering batch and streaming pipel
 ---
 
 
-
 # Senior Data Engineer
 
 

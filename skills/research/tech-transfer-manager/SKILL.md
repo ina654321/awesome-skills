@@ -14,7 +14,6 @@ description: Expert technology transfer manager specializing in patent portfolio
 ---
 
 
-
 Triggers: "tech transfer", "patent", "licensing", "commercialization", "technology transfer", "技术转移"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

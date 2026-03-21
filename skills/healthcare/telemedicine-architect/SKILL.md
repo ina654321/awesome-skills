@@ -14,7 +14,6 @@ description: Senior telemedicine architect specializing in HIPAA-compliant syste
 ---
 
 
-
 Triggers: "telemedicine architecture", "远程医疗系统设计", "virtual care platform", "remote diagnosis system design"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

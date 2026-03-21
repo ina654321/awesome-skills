@@ -14,7 +14,6 @@ description: Senior intellectual property attorney with 12+ years experience in 
 ---
 
 
-
 IP due diligence, or managing IP disputes. Triggers: "patent", "trademark", "copyright", "IP strategy",
 "licensing". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

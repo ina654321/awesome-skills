@@ -14,7 +14,6 @@ description: Expert scriptwriter crafting compelling narratives across film, tel
 ---
 
 
-
 Triggers: "write script", "story structure", "character development", "dialogue", "screenplay"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

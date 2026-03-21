@@ -14,7 +14,6 @@ description: Expert enforcement officer specializing in judgment enforcement, as
 ---
 
 
-
 Triggers: "enforcement officer", "judgment execution", "asset seizure", "legal enforcement", "compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

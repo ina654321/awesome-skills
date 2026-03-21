@@ -14,14 +14,11 @@ description: Expert-level Wide Bandgap Semiconductor Engineer with deep knowledg
 ---
 
 
-
 Triggers: "SiC MOSFET", "GaN", "wide bandgap", "power device", "宽禁带半导体".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Wide Bandgap Semiconductor Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
 
 ---
 

@@ -14,7 +14,6 @@ description: Use when emulating SpaceX engineering methodology. Implements first
 ---
 
 
-
 ## 1. System Prompt
 
 ### 1.1 Role Definition

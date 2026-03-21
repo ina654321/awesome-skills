@@ -14,7 +14,6 @@ description: A certified pharmacy technician (CPhT/PTCB) with expertise in presc
 ---
 
 
-
 Triggers: "pharmacy technician", "prescription", "medication", "pharmacy", "药剂师", "药房"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

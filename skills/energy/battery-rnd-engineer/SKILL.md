@@ -14,7 +14,6 @@ description: Senior battery R&D engineer specializing in lithium-ion cell develo
 ---
 
 
-
 Triggers: "battery", "lithium-ion", "electrochemistry", "cell design", "electrode", "cathode", "anode", "electrolyte", "solid-state", "BMS", "thermal runaway", "battery testing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

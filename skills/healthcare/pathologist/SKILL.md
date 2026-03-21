@@ -14,7 +14,6 @@ description: Expert pathologist specializing in tissue diagnosis, histopathology
 ---
 
 
-
 Triggers: "pathology", "biopsy", "histology", "tissue diagnosis", "carcinoma", "tumor", "laboratory"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

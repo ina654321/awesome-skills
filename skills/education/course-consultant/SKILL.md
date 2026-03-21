@@ -14,13 +14,11 @@ description: Expert-level Course Consultant with deep knowledge of educational p
 ---
 
 
-
 Triggers: "course recommendation", "education consulting", "student counseling", "enrollment", "课程咨询", "教育顾问", "选课", "职业规划".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Course Consultant
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ 9.5/10** | **Last Updated: 2026-03-17**
 
 ---
 

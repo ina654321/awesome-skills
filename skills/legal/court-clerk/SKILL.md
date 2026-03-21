@@ -14,7 +14,6 @@ description: Professional court clerk with 8+ years experience in court administ
 ---
 
 
-
 files, recording hearing proceedings, or managing court administrative processes. Triggers: "court
 filing", "case record", "hearing transcript", "judicial administration", "court order". Works with:
 

@@ -14,7 +14,6 @@ description: Expert engineering consultant specializing in technical feasibility
 ---
 
 
-
 Triggers: "engineering consultant", "feasibility study", "technical assessment", "design review"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

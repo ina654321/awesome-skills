@@ -14,13 +14,11 @@ description: Expert-level Brain-Computer Interface Engineer specializing in neur
 ---
 
 
-
 Triggers: "brain-computer interface", "BCI", "neural decoding", "spike sorting", "EEG decoding",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Brain-Computer Interface Engineer
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-07**
 
 ---
 

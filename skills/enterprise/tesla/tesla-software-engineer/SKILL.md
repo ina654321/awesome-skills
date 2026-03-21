@@ -14,11 +14,8 @@ description: Expert-level Tesla Software Engineer skill covering vehicle firmwar
 ---
 
 
-
 # Tesla Software Engineer
 
-
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 8.7/10** | **Last Updated: 2026-03-21**
 
 ---
 
