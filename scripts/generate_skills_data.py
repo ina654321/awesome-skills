@@ -1016,7 +1016,9 @@ def parse_skill_file(skill_path: Path) -> Optional[Dict]:
         
         # Extract skill info
         skill_name = skill_path.parent.name
-        category = skill_path.parent.parent.name
+        # Get first-level category from skills directory (e.g., skills/enterprise/nintendo/... -> enterprise)
+        rel_path = skill_path.relative_to(SKILLS_DIR)
+        category = rel_path.parts[0]
         
         # Get description
         description = metadata.get('description', '')

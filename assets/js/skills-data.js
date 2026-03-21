@@ -1,5 +1,5 @@
 // Auto-generated skills data
-// Generated: 2026-03-21T21:01:49.922121
+// Generated: 2026-03-21T21:36:14.276991
 // Total skills: 649
 
 const allSkills = [
@@ -494,922 +494,922 @@ const allSkills = [
     {
         "id": "elasticsearch-expert",
         "name": "Elasticsearch Expert",
-        "category": "database",
-        "icon": "🗃️",
-        "desc": "Elasticsearch专家：映射设计、查询DSL、聚合分析、集群管理。Use when building search systems, log analysis, or full-text...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/database/elasticsearch-expert/SKILL.md and install elasticsearch-expert skill"
+        "category": "tools",
+        "icon": "🔧",
+        "desc": "Elasticsearch：、DSL、、。Use when building search systems, log analysis, or full-text search. Trigger...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/elasticsearch-expert/SKILL.md and install elasticsearch-expert skill"
     },
     {
         "id": "postgresql-expert",
         "name": "PostgreSQL Expert",
-        "category": "database",
-        "icon": "🗃️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Us...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/database/postgresql-expert/SKILL.md and install postgresql-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/postgresql-expert/SKILL.md and install postgresql-expert skill"
     },
     {
         "id": "mysql-expert",
         "name": "MySQL Expert",
-        "category": "database",
-        "icon": "🗃️",
-        "desc": "MySQL专家：索引优化、InnoDB、复制配置、性能调优。Use when managing MySQL databases, optimizing queries, or setting u...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/database/mysql-expert/SKILL.md and install mysql-expert skill"
+        "category": "tools",
+        "icon": "🔧",
+        "desc": "MySQL：、InnoDB、、。Use when managing MySQL databases, optimizing queries, or setting up replication....",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/mysql-expert/SKILL.md and install mysql-expert skill"
     },
     {
         "id": "clickhouse-expert",
         "name": "ClickHouse Expert",
-        "category": "database",
-        "icon": "🗃️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Expert-level ClickHouse database skill covering columnar storage, MergeTree engine families, mate...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/database/clickhouse-expert/SKILL.md and install clickhouse-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/clickhouse-expert/SKILL.md and install clickhouse-expert skill"
     },
     {
         "id": "duckdb-expert",
         "name": "DuckDB Expert",
-        "category": "database",
-        "icon": "🗃️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Expert-level DuckDB skill for embedded OLAP analytics, Parquet/CSV direct querying, and high-perf...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/database/duckdb-expert/SKILL.md and install duckdb-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/duckdb-expert/SKILL.md and install duckdb-expert skill"
     },
     {
         "id": "mongodb-expert",
         "name": "MongoDB Expert",
-        "category": "database",
-        "icon": "🗃️",
-        "desc": "MongoDB专家：文档设计、聚合管道、索引策略、分片集群。Use when designing MongoDB schemas, writing aggregation pipelines, ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/database/mongodb-expert/SKILL.md and install mongodb-expert skill"
+        "category": "tools",
+        "icon": "🔧",
+        "desc": "MongoDB：、、、。Use when designing MongoDB schemas, writing aggregation pipelines, or managing cluste...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/mongodb-expert/SKILL.md and install mongodb-expert skill"
     },
     {
         "id": "redis-expert",
         "name": "Redis Expert",
-        "category": "database",
-        "icon": "🗃️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/database/redis-expert/SKILL.md and install redis-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/redis-expert/SKILL.md and install redis-expert skill"
     },
     {
         "id": "sketch-expert",
         "name": "Sketch Expert Skill",
-        "category": "design",
-        "icon": "🎨",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design sys...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/sketch-expert/SKILL.md and install sketch-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/sketch-expert/SKILL.md and install sketch-expert skill"
     },
     {
         "id": "photoshop-expert",
         "name": "Photoshop Expert",
-        "category": "design",
-        "icon": "🎨",
-        "desc": "Photoshop图像处理：图层、蒙版、合成。Use when editing images with Photoshop. Triggers: 'Photoshop', '图像处理', '设计...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/photoshop-expert/SKILL.md and install photoshop-expert skill"
+        "category": "tools",
+        "icon": "🔧",
+        "desc": "Photoshop：、、。Use when editing images with Photoshop. Triggers: 'Photoshop', '', ''. Works with: C...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/photoshop-expert/SKILL.md and install photoshop-expert skill"
     },
     {
         "id": "canva-expert",
         "name": "Canva Expert",
-        "category": "design",
-        "icon": "🎨",
-        "desc": "Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: 'Canva', '设计', '模板'. Works wit...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/canva-expert/SKILL.md and install canva-expert skill"
+        "category": "tools",
+        "icon": "🔧",
+        "desc": "Canva：、、。Use when creating designs with Canva. Triggers: 'Canva', '', ''. Works with: Claude Code...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/canva-expert/SKILL.md and install canva-expert skill"
     },
     {
         "id": "illustrator-expert",
         "name": "Illustrator Expert",
-        "category": "design",
-        "icon": "🎨",
-        "desc": "Illustrator矢量图形：路径、排版、图标设计。Use when creating vector graphics. Triggers: 'Illustrator', '矢量图形', '图...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/illustrator-expert/SKILL.md and install illustrator-expert skill"
+        "category": "tools",
+        "icon": "🔧",
+        "desc": "Illustrator：、、。Use when creating vector graphics. Triggers: 'Illustrator', '', ''. Works with: Cl...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/illustrator-expert/SKILL.md and install illustrator-expert skill"
     },
     {
         "id": "figma-expert",
         "name": "Figma Expert",
-        "category": "design",
-        "icon": "🎨",
-        "desc": "Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, proto...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/figma-expert/SKILL.md and install figma-expert skill"
+        "category": "tools",
+        "icon": "🔧",
+        "desc": "Figma：、Auto Layout、、Dev Mode、。Use when designing UI, creating design systems, prototyping interac...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/figma-expert/SKILL.md and install figma-expert skill"
     },
     {
         "id": "blender-expert",
         "name": "Blender Expert",
-        "category": "design",
-        "icon": "🎨",
-        "desc": "Blender 3D建模：建模、材质、渲染、动画。Use when creating 3D content. Triggers: 'Blender', '3D建模', '渲染'. Works w...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/design/blender-expert/SKILL.md and install blender-expert skill"
+        "category": "tools",
+        "icon": "🔧",
+        "desc": "Blender 3D：、、、。Use when creating 3D content. Triggers: 'Blender', '3D', ''. Works with: Claude Co...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/blender-expert/SKILL.md and install blender-expert skill"
     },
     {
         "id": "servicenow-expert",
         "name": "ServiceNow Expert",
-        "category": "enterprise",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "ServiceNow平台专家：ITSM核心模块配置、Flow Designer工作流自动化、GlideRecord脚本开发、ACL权限管理。Use when configuring Servic...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/servicenow-expert/SKILL.md and install servicenow-expert skill"
+        "desc": "ServiceNow：ITSM、Flow Designer、GlideRecord、ACL。Use when configuring ServiceNow, building workflows...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/servicenow-expert/SKILL.md and install servicenow-expert skill"
     },
     {
         "id": "workday-expert",
         "name": "Workday Expert",
-        "category": "enterprise",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Workday HCM platform expert. Handles HR data management, payroll, Business Process workflows, RES...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/workday-expert/SKILL.md and install workday-expert skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/workday-expert/SKILL.md and install workday-expert skill"
     },
     {
         "id": "zendesk-expert",
         "name": "Zendesk Expert",
-        "category": "enterprise",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Zendesk客服系统：工单、工作流、自动化。Use when managing customer support. Triggers: 'Zendesk', '客服', '工单系统'. Wor...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/zendesk-expert/SKILL.md and install zendesk-expert skill"
+        "desc": "Zendesk：、、。Use when managing customer support. Triggers: 'Zendesk', '', ''. Works with: Claude Co...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/zendesk-expert/SKILL.md and install zendesk-expert skill"
     },
     {
         "id": "salesforce-expert",
         "name": "Salesforce Expert",
-        "category": "enterprise",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or deve...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/salesforce-expert/SKILL.md and install salesforce-expert skill"
+        "desc": "Salesforce：Sales Cloud、Flow、Apex、。Use when managing CRM, building automations, or developing on S...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/salesforce-expert/SKILL.md and install salesforce-expert skill"
     },
     {
         "id": "burpsuite-expert",
         "name": "Burp Suite Expert",
-        "category": "security",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert-level Burp Suite skill for web application penetration testing, vulnerability scanning, an...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/security/burpsuite-expert/SKILL.md and install burpsuite-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/burpsuite-expert/SKILL.md and install burpsuite-expert skill"
     },
     {
         "id": "metasploit-expert",
         "name": "Metasploit Expert",
-        "category": "security",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert-level Metasploit Framework skill for penetration testing, exploit development, and post-ex...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/security/metasploit-expert/SKILL.md and install metasploit-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/metasploit-expert/SKILL.md and install metasploit-expert skill"
     },
     {
         "id": "container-security-expert",
         "name": "Container Security Expert",
-        "category": "security",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanni...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/security/container-security-expert/SKILL.md and install container-security-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/container-security-expert/SKILL.md and install container-security-expert skill"
     },
     {
         "id": "nmap-expert",
         "name": "Nmap Expert",
-        "category": "security",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert-level Nmap skill for network reconnaissance, port scanning, service detection, and securit...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/security/nmap-expert/SKILL.md and install nmap-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/nmap-expert/SKILL.md and install nmap-expert skill"
     },
     {
         "id": "vault-secrets-expert",
         "name": "HashiCorp Vault Expert",
-        "category": "security",
+        "category": "tools",
         "icon": "🔧",
         "desc": "HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing sec...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/security/vault-secrets-expert/SKILL.md and install vault-secrets-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/vault-secrets-expert/SKILL.md and install vault-secrets-expert skill"
     },
     {
         "id": "aliyun-fc-serverless",
         "name": "Aliyun Function Compute Expert",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云函数计算FC：Serverless函数开发、触发器配置、事件驱动。Use when building serverless applications with Aliyun Functio...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-fc-serverless/SKILL.md and install aliyun-fc-serverless skill"
+        "desc": "FC：Serverless、、。Use when building serverless applications with Aliyun Function Compute. Triggers:...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-fc-serverless/SKILL.md and install aliyun-fc-serverless skill"
     },
     {
         "id": "aliyun-ecs-website-starter",
         "name": "Aliyun ECS Website Starter",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云ECS轻量服务器建站：购买服务器、安装宝塔、部署WordPress。Use when starting a website, setting up WordPress, or gettin...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-ecs-website-starter/SKILL.md and install aliyun-ecs-website-starter skill"
+        "desc": "ECS：、、WordPress。Use when starting a website, setting up WordPress, or getting started with cloud....",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-ecs-website-starter/SKILL.md and install aliyun-ecs-website-starter skill"
     },
     {
         "id": "aliyun-ssl-https-expert",
         "name": "Aliyun SSL HTTPS Expert",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云SSL证书：免费DV证书申请、Nginx/Apache配置、HTTPS启用。Use when securing websites, setting up HTTPS, or configu...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-ssl-https-expert/SKILL.md and install aliyun-ssl-https-expert skill"
+        "desc": "SSL：DV、Nginx/Apache、HTTPS。Use when securing websites, setting up HTTPS, or configuring SSL certif...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-ssl-https-expert/SKILL.md and install aliyun-ssl-https-expert skill"
     },
     {
         "id": "aliyun-qwen-api",
         "name": "Aliyun Qwen API Expert",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云通义千问API：模型选择、调用示例、成本优化。Use when calling Qwen LLM API or selecting models. Triggers: '通义千问', 'Q...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-qwen-api/SKILL.md and install aliyun-qwen-api skill"
+        "desc": "API：、、。Use when calling Qwen LLM API or selecting models. Triggers: '', 'Qwen', 'API', 'LLM'. Wor...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-qwen-api/SKILL.md and install aliyun-qwen-api skill"
     },
     {
         "id": "aliyun-bailian-ai-expert",
         "name": "Aliyun Bailian AI Expert",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云百炼Model Studio：可视化RAG搭建、企业知识库问答、AI应用开发。Use when building RAG applications, enterprise knowledg...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-bailian-ai-expert/SKILL.md and install aliyun-bailian-ai-expert skill"
+        "desc": "Model Studio：RAG、、AI。Use when building RAG applications, enterprise knowledge bases, or AI chatbo...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-bailian-ai-expert/SKILL.md and install aliyun-bailian-ai-expert skill"
     },
     {
         "id": "aliyun-cdn-expert",
         "name": "Aliyun CDN Expert",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云CDN专家：加速配置、缓存策略、HTTPS、回源优化。Use when configuring CDN acceleration, cache rules, or optimizing d...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-cdn-expert/SKILL.md and install aliyun-cdn-expert skill"
+        "desc": "CDN：、、HTTPS、。Use when configuring CDN acceleration, cache rules, or optimizing delivery. Triggers...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-cdn-expert/SKILL.md and install aliyun-cdn-expert skill"
     },
     {
         "id": "aliyun-oss-expert",
         "name": "Aliyun OSS Expert",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云OSS对象存储：存储桶配置、文件上传、CDN加速、防盗链。Use when storing files in the cloud, setting up CDN, or building ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-oss-expert/SKILL.md and install aliyun-oss-expert skill"
+        "desc": "OSS：、、CDN、。Use when storing files in the cloud, setting up CDN, or building file services. Trigge...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-oss-expert/SKILL.md and install aliyun-oss-expert skill"
     },
     {
         "id": "aliyun-rds-starter",
         "name": "Aliyun RDS Starter",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云RDS入门：购买配置、连接访问、备份恢复。Use when getting started with Aliyun RDS. Triggers: 'RDS', '云数据库', '阿里云数据...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-rds-starter/SKILL.md and install aliyun-rds-starter skill"
+        "desc": "RDS：、、。Use when getting started with Aliyun RDS. Triggers: 'RDS', '', ''. Works with: Claude Code...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-rds-starter/SKILL.md and install aliyun-rds-starter skill"
     },
     {
         "id": "aliyun-cloud-expert",
         "name": "Aliyun Cloud Expert",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云专家：ECS/RDS/OSS/ACK全服务，架构设计，成本优化。Use when designing Aliyun architecture, selecting services, or...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-cloud-expert/SKILL.md and install aliyun-cloud-expert skill"
+        "desc": "：ECS/RDS/OSS/ACK，，。Use when designing Aliyun architecture, selecting services, or optimizing cost...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-cloud-expert/SKILL.md and install aliyun-cloud-expert skill"
     },
     {
         "id": "aliyun-domain-beian-expert",
         "name": "Aliyun Domain & ICP Beian Expert",
-        "category": "aliyun",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "阿里云域名注册与ICP备案：域名购买、实名认证、备案流程、DNS解析。Use when buying domains, completing ICP beian, or setting up D...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/aliyun/aliyun-domain-beian-expert/SKILL.md and install aliyun-domain-beian-expert skill"
+        "desc": "ICP：、、、DNS。Use when buying domains, completing ICP beian, or setting up DNS. Triggers: '', 'ICP',...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aliyun-domain-beian-expert/SKILL.md and install aliyun-domain-beian-expert skill"
     },
     {
         "id": "volcengine-coze-expert",
         "name": "Volcengine Coze Expert",
-        "category": "volcengine",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "火山引擎扣子(Coze)专家：零代码搭建AI智能体、知识库问答、Bot配置。Use when creating AI agents without coding, building chatbo...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/volcengine/volcengine-coze-expert/SKILL.md and install volcengine-coze-expert skill"
+        "desc": "(Coze)：AI、、Bot。Use when creating AI agents without coding, building chatbots, or setting up knowl...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/volcengine-coze-expert/SKILL.md and install volcengine-coze-expert skill"
     },
     {
         "id": "volcengine-doubao-api",
         "name": "Volcengine Doubao API Expert",
-        "category": "volcengine",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "火山引擎豆包大模型API调用：模型选择、Token计算、成本优化。Use when calling Doubao API, selecting models, or optimizing cos...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/volcengine/volcengine-doubao-api/SKILL.md and install volcengine-doubao-api skill"
+        "desc": "API：、Token、。Use when calling Doubao API, selecting models, or optimizing costs. Triggers: 'API', ...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/volcengine-doubao-api/SKILL.md and install volcengine-doubao-api skill"
     },
     {
         "id": "cn-cloud-selection-advisor",
         "name": "CN Cloud Selection Advisor",
-        "category": "common",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "国内云选型指南：阿里云/腾讯云/火山引擎对比，根据场景选择最佳平台。Use when selecting cloud provider in China, comparing prices, o...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/common/cn-cloud-selection-advisor/SKILL.md and install cn-cloud-selection-advisor skill"
+        "desc": "：//，。Use when selecting cloud provider in China, comparing prices, or choosing right services. Tr...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud-selection-advisor/SKILL.md and install cn-cloud-selection-advisor skill"
     },
     {
         "id": "cn-cloud-icp-beian-guide",
         "name": "CN Cloud ICP Beian Guide",
-        "category": "common",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "国内云ICP备案全流程：备案条件、所需材料、提交流程、审核时间。Use when completing ICP beian for websites in China. Triggers: 'I...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/common/cn-cloud-icp-beian-guide/SKILL.md and install cn-cloud-icp-beian-guide skill"
+        "desc": "ICP：、、、。Use when completing ICP beian for websites in China. Triggers: 'ICP', '', '', ''. Works w...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cn-cloud-icp-beian-guide/SKILL.md and install cn-cloud-icp-beian-guide skill"
     },
     {
         "id": "baota-panel-expert",
         "name": "Baota Panel Expert",
-        "category": "common",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "宝塔面板专家：Linux服务器可视化管理、建站、数据库管理、SSL配置。Use when managing Linux servers, setting up websites, or conf...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/common/baota-panel-expert/SKILL.md and install baota-panel-expert skill"
+        "desc": "：Linux、、、SSL。Use when managing Linux servers, setting up websites, or configuring panels. Trigger...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/baota-panel-expert/SKILL.md and install baota-panel-expert skill"
     },
     {
         "id": "tencentcloud-cos-expert",
         "name": "Tencent COS Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯云COS对象存储：存储桶配置、权限管理、CDN加速。Use when storing files, building static websites, or CDN distribution...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-cos-expert/SKILL.md and install tencentcloud-cos-expert skill"
+        "desc": "COS：、、CDN。Use when storing files, building static websites, or CDN distribution. Triggers: 'COS',...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-cos-expert/SKILL.md and install tencentcloud-cos-expert skill"
     },
     {
         "id": "tencentcloud-lighthouse-website",
         "name": "Tencent Lighthouse Website Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯云轻量服务器建站：购买、配置宝塔、部署网站。Use when building websites on Tencent Cloud, setting up WordPress, or get...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-lighthouse-website/SKILL.md and install tencentcloud-lighthouse-website skill"
+        "desc": "：、、。Use when building websites on Tencent Cloud, setting up WordPress, or getting started with cl...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-lighthouse-website/SKILL.md and install tencentcloud-lighthouse-website skill"
     },
     {
         "id": "tencentcloud-hunyuan-api",
         "name": "Tencent Hunyuan API Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯混元大模型API：模型调用、多模态理解、费用说明。Use when calling Tencent Hunyuan LLM API. Triggers: '混元', 'Hunyuan', '...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-hunyuan-api/SKILL.md and install tencentcloud-hunyuan-api skill"
+        "desc": "API：、、。Use when calling Tencent Hunyuan LLM API. Triggers: '', 'Hunyuan', 'API', 'LLM'. Works wit...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-hunyuan-api/SKILL.md and install tencentcloud-hunyuan-api skill"
     },
     {
         "id": "tencentcloud-trtc-expert",
         "name": "Tencent TRTC Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯云实时音视频TRTC：实时通话、直播连麦、音视频SDK接入。Use when building real-time video/audio applications. Triggers: '...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-trtc-expert/SKILL.md and install tencentcloud-trtc-expert skill"
+        "desc": "TRTC：、、SDK。Use when building real-time video/audio applications. Triggers: 'TRTC', '', '', ''. Wo...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-trtc-expert/SKILL.md and install tencentcloud-trtc-expert skill"
     },
     {
         "id": "tencentcloud-cloudbase-miniprogram",
         "name": "Tencent CloudBase Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯云云开发(CloudBase)专家：小程序后端、云函数、云数据库、云存储。Triggers: '云开发', 'CloudBase', '小程序后端', '微信云开发'.",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-cloudbase-miniprogram/SKILL.md and install tencentcloud-cloudbase-miniprogram skill"
+        "desc": "(CloudBase)：、、、。Triggers: '', 'CloudBase', '', ''.",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-cloudbase-miniprogram/SKILL.md and install tencentcloud-cloudbase-miniprogram skill"
     },
     {
         "id": "tencentcloud-domain-ssl",
         "name": "Tencent Domain & SSL Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯云域名与SSL：域名购买、DNSPod解析、免费证书。Use when managing domains and SSL on Tencent Cloud. Triggers: '域名', ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-domain-ssl/SKILL.md and install tencentcloud-domain-ssl skill"
+        "desc": "SSL：、DNSPod、。Use when managing domains and SSL on Tencent Cloud. Triggers: '', 'DNSPod', 'SSL', '...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-domain-ssl/SKILL.md and install tencentcloud-domain-ssl skill"
     },
     {
         "id": "tencentcloud-scf-expert",
         "name": "Tencent SCF Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯云云函数SCF：Serverless函数、定时触发、事件驱动。Use when building serverless applications with Tencent Cloud Fun...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-scf-expert/SKILL.md and install tencentcloud-scf-expert skill"
+        "desc": "SCF：Serverless、、。Use when building serverless applications with Tencent Cloud Functions. Triggers...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-scf-expert/SKILL.md and install tencentcloud-scf-expert skill"
     },
     {
         "id": "tencentcloud-vod-expert",
         "name": "Tencent VOD Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯云VOD：视频上传、转码、播放器、防盗链。Use when building video on demand platforms. Triggers: 'VOD', '视频点播', '转码'...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-vod-expert/SKILL.md and install tencentcloud-vod-expert skill"
+        "desc": "VOD：、、、。Use when building video on demand platforms. Triggers: 'VOD', '', '', ''. Works with: Cla...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-vod-expert/SKILL.md and install tencentcloud-vod-expert skill"
     },
     {
         "id": "tencentcloud-live-streaming",
         "name": "Tencent Live Streaming Expert",
-        "category": "tencent",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "腾讯云直播CSS：推拉流、OBS配置、录制转码。Use when building live streaming applications. Triggers: '直播', 'CSS', '推流...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencentcloud-live-streaming/SKILL.md and install tencentcloud-live-streaming skill"
+        "desc": "CSS：、OBS、。Use when building live streaming applications. Triggers: '', 'CSS', '', 'OBS'. Works wi...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tencentcloud-live-streaming/SKILL.md and install tencentcloud-live-streaming skill"
     },
     {
         "id": "unreal-expert",
         "name": "Unreal Engine Expert",
-        "category": "game-engine",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Unreal Engine：C++、Blueprint、游戏开发。Use when building games with Unreal. Triggers: 'Unreal', '游戏引擎',...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/game-engine/unreal-expert/SKILL.md and install unreal-expert skill"
+        "desc": "Unreal Engine：C++、Blueprint、。Use when building games with Unreal. Triggers: 'Unreal', '', 'Bluepr...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/unreal-expert/SKILL.md and install unreal-expert skill"
     },
     {
         "id": "godot-expert",
         "name": "Godot Expert",
-        "category": "game-engine",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Godot游戏引擎：GDScript、2D/3D游戏。Use when building games with Godot. Triggers: 'Godot', '游戏引擎', 'GDScri...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/game-engine/godot-expert/SKILL.md and install godot-expert skill"
+        "desc": "Godot：GDScript、2D/3D。Use when building games with Godot. Triggers: 'Godot', '', 'GDScript'. Works...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/godot-expert/SKILL.md and install godot-expert skill"
     },
     {
         "id": "unity-expert",
         "name": "Unity Expert",
-        "category": "game-engine",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Unity游戏引擎：C#脚本、组件、URP。Use when building games with Unity. Triggers: 'Unity', '游戏开发', 'C#'. Works ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/game-engine/unity-expert/SKILL.md and install unity-expert skill"
+        "desc": "Unity：C#、、URP。Use when building games with Unity. Triggers: 'Unity', '', 'C#'. Works with: Claude...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/unity-expert/SKILL.md and install unity-expert skill"
     },
     {
         "id": "datadog-expert",
         "name": "Datadog Expert",
-        "category": "observability",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Datadog专家：APM、基础设施监控、日志管理。Use when monitoring applications with Datadog. Triggers: 'Datadog', 'AP...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/observability/datadog-expert/SKILL.md and install datadog-expert skill"
+        "desc": "Datadog：APM、、。Use when monitoring applications with Datadog. Triggers: 'Datadog', 'APM', '', '', ...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/datadog-expert/SKILL.md and install datadog-expert skill"
     },
     {
         "id": "elk-stack-expert",
         "name": "ELK Stack Expert",
-        "category": "observability",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Tri...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/observability/elk-stack-expert/SKILL.md and install elk-stack-expert skill"
+        "desc": "ELK Stack：Elasticsearch、Logstash、Kibana。Use when building log analytics with ELK Stack. Triggers:...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/elk-stack-expert/SKILL.md and install elk-stack-expert skill"
     },
     {
         "id": "prometheus-expert",
         "name": "Prometheus Expert",
-        "category": "observability",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monito...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/observability/prometheus-expert/SKILL.md and install prometheus-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/prometheus-expert/SKILL.md and install prometheus-expert skill"
     },
     {
         "id": "opentelemetry-expert",
         "name": "OpenTelemetry Expert",
-        "category": "observability",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with Ope...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/observability/opentelemetry-expert/SKILL.md and install opentelemetry-expert skill"
+        "desc": "OpenTelemetry：SDK、Collector、Trace/Metric/Log。Use when implementing observability with OpenTelemet...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/opentelemetry-expert/SKILL.md and install opentelemetry-expert skill"
     },
     {
         "id": "pagerduty-expert",
         "name": "PagerDuty Expert",
-        "category": "observability",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workf...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/observability/pagerduty-expert/SKILL.md and install pagerduty-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/pagerduty-expert/SKILL.md and install pagerduty-expert skill"
     },
     {
         "id": "grafana-expert",
         "name": "Grafana Expert",
-        "category": "observability",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring da...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/observability/grafana-expert/SKILL.md and install grafana-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/grafana-expert/SKILL.md and install grafana-expert skill"
     },
     {
         "id": "jenkins-expert",
         "name": "Jenkins Expert",
-        "category": "cicd",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Pl...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cicd/jenkins-expert/SKILL.md and install jenkins-expert skill"
+        "desc": "Jenkins expert: Pipeline (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Plug...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/jenkins-expert/SKILL.md and install jenkins-expert skill"
     },
     {
         "id": "github-actions-expert",
         "name": "GitHub Actions Expert",
-        "category": "cicd",
+        "category": "tools",
         "icon": "🔧",
         "desc": "GitHub Actions expert: workflow YAML, custom actions, matrix builds, secrets management, reusable...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cicd/github-actions-expert/SKILL.md and install github-actions-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/github-actions-expert/SKILL.md and install github-actions-expert skill"
     },
     {
         "id": "gitlab-cicd-expert",
         "name": "GitLab CI/CD Expert",
-        "category": "cicd",
+        "category": "tools",
         "icon": "🔧",
         "desc": "GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optim...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cicd/gitlab-cicd-expert/SKILL.md and install gitlab-cicd-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/gitlab-cicd-expert/SKILL.md and install gitlab-cicd-expert skill"
     },
     {
         "id": "helm-expert",
         "name": "Helm Expert",
-        "category": "container",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library cha...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/container/helm-expert/SKILL.md and install helm-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/helm-expert/SKILL.md and install helm-expert skill"
     },
     {
         "id": "docker-expert",
         "name": "Docker Expert",
-        "category": "container",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/container/docker-expert/SKILL.md and install docker-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/docker-expert/SKILL.md and install docker-expert skill"
     },
     {
         "id": "istio-servicemesh-expert",
         "name": "Istio Service Mesh Expert",
-        "category": "container",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh secu...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/container/istio-servicemesh-expert/SKILL.md and install istio-servicemesh-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/istio-servicemesh-expert/SKILL.md and install istio-servicemesh-expert skill"
     },
     {
         "id": "kubernetes-expert",
         "name": "Kubernetes Expert",
-        "category": "container",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deployin...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/container/kubernetes-expert/SKILL.md and install kubernetes-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/kubernetes-expert/SKILL.md and install kubernetes-expert skill"
     },
     {
         "id": "fusion360-expert",
         "name": "Fusion 360 Expert Skill",
-        "category": "cad",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/fusion360-expert/SKILL.md and install fusion360-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/fusion360-expert/SKILL.md and install fusion360-expert skill"
     },
     {
         "id": "revit-bim-expert",
         "name": "Revit BIM Expert",
-        "category": "cad",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Revit BIM建筑信息模型：族、施工图、协同。Use when doing BIM modeling. Triggers: 'Revit', 'BIM', '建筑信息模型'. Works w...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/revit-bim-expert/SKILL.md and install revit-bim-expert skill"
+        "desc": "Revit BIM：、、。Use when doing BIM modeling. Triggers: 'Revit', 'BIM', ''. Works with: Claude Code, ...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/revit-bim-expert/SKILL.md and install revit-bim-expert skill"
     },
     {
         "id": "solidworks-expert",
         "name": "SolidWorks Expert",
-        "category": "cad",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "SolidWorks机械设计：零件、装配体、工程图。Use when creating mechanical designs. Triggers: 'SolidWorks', 'CAD', '机...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/solidworks-expert/SKILL.md and install solidworks-expert skill"
+        "desc": "SolidWorks：、、。Use when creating mechanical designs. Triggers: 'SolidWorks', 'CAD', ''. Works with...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/solidworks-expert/SKILL.md and install solidworks-expert skill"
     },
     {
         "id": "autocad-expert",
         "name": "AutoCAD Expert",
-        "category": "cad",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "AutoCAD工程制图：2D图纸、图层、标注。Use when creating engineering drawings. Triggers: 'AutoCAD', '工程制图', 'CAD'...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/autocad-expert/SKILL.md and install autocad-expert skill"
+        "desc": "AutoCAD：2D、、。Use when creating engineering drawings. Triggers: 'AutoCAD', '', 'CAD'. Works with: ...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/autocad-expert/SKILL.md and install autocad-expert skill"
     },
     {
         "id": "rhino-grasshopper-expert",
         "name": "Rhino & Grasshopper Expert Skill",
-        "category": "cad",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, param...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/rhino-grasshopper-expert/SKILL.md and install rhino-grasshopper-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/rhino-grasshopper-expert/SKILL.md and install rhino-grasshopper-expert skill"
     },
     {
         "id": "ansible-expert",
         "name": "Ansible Expert",
-        "category": "iac",
+        "category": "tools",
         "icon": "🔧",
-        "desc": "Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automat...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/iac/ansible-expert/SKILL.md and install ansible-expert skill"
+        "desc": "Ansible expert: Playbook, , , Inventory, Ansible Tower/AWX, Jinja2。Use when automating infrastruc...",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ansible-expert/SKILL.md and install ansible-expert skill"
     },
     {
         "id": "terraform-expert",
         "name": "Terraform Expert",
-        "category": "iac",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Terraform IaC expert: HCL syntax, provider configuration, module design, state management, worksp...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/iac/terraform-expert/SKILL.md and install terraform-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/terraform-expert/SKILL.md and install terraform-expert skill"
     },
     {
         "id": "pulumi-expert",
         "name": "Pulumi Expert",
-        "category": "iac",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud deployment, Pulumi ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/iac/pulumi-expert/SKILL.md and install pulumi-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/pulumi-expert/SKILL.md and install pulumi-expert skill"
     },
     {
         "id": "wandb-expert",
         "name": "Weights & Biases Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboar...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/wandb-expert/SKILL.md and install wandb-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/wandb-expert/SKILL.md and install wandb-expert skill"
     },
     {
         "id": "mlflow-expert",
         "name": "MLflow Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "MLflow expert: experiment tracking, model registry, autologging, MLflow Projects, MLflow Models, ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/mlflow-expert/SKILL.md and install mlflow-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/mlflow-expert/SKILL.md and install mlflow-expert skill"
     },
     {
         "id": "llm-serving-expert",
         "name": "LLM Serving Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ)...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/llm-serving-expert/SKILL.md and install llm-serving-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/llm-serving-expert/SKILL.md and install llm-serving-expert skill"
     },
     {
         "id": "sklearn-expert",
         "name": "Scikit-learn Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Scikit-learn expert: Pipeline, feature engineering, hyperparameter tuning, model selection, ensem...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/sklearn-expert/SKILL.md and install sklearn-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/sklearn-expert/SKILL.md and install sklearn-expert skill"
     },
     {
         "id": "llama-index-expert",
         "name": "LlamaIndex Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/llama-index-expert/SKILL.md and install llama-index-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/llama-index-expert/SKILL.md and install llama-index-expert skill"
     },
     {
         "id": "cuda-expert",
         "name": "CUDA Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence, st...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/cuda-expert/SKILL.md and install cuda-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cuda-expert/SKILL.md and install cuda-expert skill"
     },
     {
         "id": "pytorch-expert",
         "name": "PyTorch Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, tor...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/pytorch-expert/SKILL.md and install pytorch-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/pytorch-expert/SKILL.md and install pytorch-expert skill"
     },
     {
         "id": "jupyter-expert",
         "name": "Jupyter Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Jupyter expert: magic commands, nbconvert, JupyterLab extensions, remote setup, ipywidgets, profi...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/jupyter-expert/SKILL.md and install jupyter-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/jupyter-expert/SKILL.md and install jupyter-expert skill"
     },
     {
         "id": "tensorflow-expert",
         "name": "TensorFlow Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops,...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/tensorflow-expert/SKILL.md and install tensorflow-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tensorflow-expert/SKILL.md and install tensorflow-expert skill"
     },
     {
         "id": "huggingface-expert",
         "name": "Hugging Face Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantizat...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/huggingface-expert/SKILL.md and install huggingface-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/huggingface-expert/SKILL.md and install huggingface-expert skill"
     },
     {
         "id": "langchain-expert",
         "name": "LangChain Expert",
-        "category": "ai-ml",
-        "icon": "🤖",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calli...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/langchain-expert/SKILL.md and install langchain-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/langchain-expert/SKILL.md and install langchain-expert skill"
     },
     {
         "id": "vercel-expert",
         "name": "Vercel Expert",
-        "category": "cloud",
-        "icon": "☁️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview depl...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cloud/vercel-expert/SKILL.md and install vercel-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/vercel-expert/SKILL.md and install vercel-expert skill"
     },
     {
         "id": "cloudflare-expert",
         "name": "Cloudflare Expert",
-        "category": "cloud",
-        "icon": "☁️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cloud/cloudflare-expert/SKILL.md and install cloudflare-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cloudflare-expert/SKILL.md and install cloudflare-expert skill"
     },
     {
         "id": "azure-cloud-expert",
         "name": "Azure Cloud Expert",
-        "category": "cloud",
-        "icon": "☁️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure archi...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cloud/azure-cloud-expert/SKILL.md and install azure-cloud-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/azure-cloud-expert/SKILL.md and install azure-cloud-expert skill"
     },
     {
         "id": "aws-cloud-expert",
         "name": "AWS Cloud Expert",
-        "category": "cloud",
-        "icon": "☁️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture,...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cloud/aws-cloud-expert/SKILL.md and install aws-cloud-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/aws-cloud-expert/SKILL.md and install aws-cloud-expert skill"
     },
     {
         "id": "gcp-cloud-expert",
         "name": "GCP Cloud Expert",
-        "category": "cloud",
-        "icon": "☁️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP archite...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cloud/gcp-cloud-expert/SKILL.md and install gcp-cloud-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/gcp-cloud-expert/SKILL.md and install gcp-cloud-expert skill"
     },
     {
         "id": "dbt-expert",
         "name": "dbt Expert",
-        "category": "data-platform",
+        "category": "tools",
         "icon": "🔧",
         "desc": "dbt (data build tool) expert: model design, ref/source, testing, macros, dbt Cloud, incremental m...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/data-platform/dbt-expert/SKILL.md and install dbt-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/dbt-expert/SKILL.md and install dbt-expert skill"
     },
     {
         "id": "lakehouse-expert",
         "name": "Lakehouse Expert",
-        "category": "data-platform",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table fo...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/data-platform/lakehouse-expert/SKILL.md and install lakehouse-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/lakehouse-expert/SKILL.md and install lakehouse-expert skill"
     },
     {
         "id": "airflow-expert",
         "name": "Apache Airflow Expert",
-        "category": "data-platform",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Apache Airflow expert: DAG design, operators, sensors, XCom, scheduling, dynamic mapping, branchi...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/data-platform/airflow-expert/SKILL.md and install airflow-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/airflow-expert/SKILL.md and install airflow-expert skill"
     },
     {
         "id": "spark-expert",
         "name": "Apache Spark Expert",
-        "category": "data-platform",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/data-platform/spark-expert/SKILL.md and install spark-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/spark-expert/SKILL.md and install spark-expert skill"
     },
     {
         "id": "flink-expert",
         "name": "Apache Flink Expert",
-        "category": "data-platform",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP p...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/data-platform/flink-expert/SKILL.md and install flink-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/flink-expert/SKILL.md and install flink-expert skill"
     },
     {
         "id": "kafka-expert",
         "name": "Apache Kafka Expert",
-        "category": "data-platform",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, s...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/data-platform/kafka-expert/SKILL.md and install kafka-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/kafka-expert/SKILL.md and install kafka-expert skill"
     },
     {
         "id": "labview-expert",
         "name": "LabVIEW Expert",
-        "category": "engineering-simulation",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-progra...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/engineering-simulation/labview-expert/SKILL.md and install labview-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/labview-expert/SKILL.md and install labview-expert skill"
     },
     {
         "id": "abaqus-expert",
         "name": "Abaqus Expert",
-        "category": "engineering-simulation",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/engineering-simulation/abaqus-expert/SKILL.md and install abaqus-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/abaqus-expert/SKILL.md and install abaqus-expert skill"
     },
     {
         "id": "openfoam-expert",
         "name": "OpenFOAM Expert",
-        "category": "engineering-simulation",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turb...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/engineering-simulation/openfoam-expert/SKILL.md and install openfoam-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/openfoam-expert/SKILL.md and install openfoam-expert skill"
     },
     {
         "id": "comsol-expert",
         "name": "COMSOL Expert",
-        "category": "engineering-simulation",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Invoke when: User needs help with COMSOL multiphysics coupling, parametric sweeps, or physics-bas...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/engineering-simulation/comsol-expert/SKILL.md and install comsol-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/comsol-expert/SKILL.md and install comsol-expert skill"
     },
     {
         "id": "matlab-expert",
         "name": "MATLAB Expert",
-        "category": "engineering",
-        "icon": "⚙️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep lear...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/engineering/matlab-expert/SKILL.md and install matlab-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/matlab-expert/SKILL.md and install matlab-expert skill"
     },
     {
         "id": "ansys-expert",
         "name": "ANSYS Expert",
-        "category": "engineering",
-        "icon": "⚙️",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite e...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/engineering/ansys-expert/SKILL.md and install ansys-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ansys-expert/SKILL.md and install ansys-expert skill"
     },
     {
         "id": "pandas-expert",
         "name": "Pandas Expert",
-        "category": "analytics",
-        "icon": "📈",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Pandas expert: DataFrame operations, merge/join, groupby, time series, performance optimization. ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/analytics/pandas-expert/SKILL.md and install pandas-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/pandas-expert/SKILL.md and install pandas-expert skill"
     },
     {
         "id": "tableau-expert",
         "name": "Tableau Expert",
-        "category": "analytics",
-        "icon": "📈",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optim...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/analytics/tableau-expert/SKILL.md and install tableau-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/tableau-expert/SKILL.md and install tableau-expert skill"
     },
     {
         "id": "powerbi-expert",
         "name": "Power BI Expert",
-        "category": "analytics",
-        "icon": "📈",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Power BI expert: DAX formulas, data modeling, report design, RLS configuration. Use when building...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/analytics/powerbi-expert/SKILL.md and install powerbi-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/powerbi-expert/SKILL.md and install powerbi-expert skill"
     },
     {
         "id": "looker-metabase-expert",
         "name": "Looker & Metabase Expert Skill",
-        "category": "analytics",
-        "icon": "📈",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Expert Looker and Metabase user for business intelligence and embedded analytics. Use when buildi...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/analytics/looker-metabase-expert/SKILL.md and install looker-metabase-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/looker-metabase-expert/SKILL.md and install looker-metabase-expert skill"
     },
     {
         "id": "r-statistics-expert",
         "name": "R Statistics Expert",
-        "category": "analytics",
-        "icon": "📈",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "R statistics expert: tidyverse, ggplot2, statistical modeling, hypothesis testing, regression ana...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/analytics/r-statistics-expert/SKILL.md and install r-statistics-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/r-statistics-expert/SKILL.md and install r-statistics-expert skill"
     },
     {
         "id": "spreadsheet-expert",
         "name": "Spreadsheet Expert",
-        "category": "analytics",
-        "icon": "📈",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Spreadsheet expert: advanced formulas (XLOOKUP, FILTER, ARRAYFORMULA), pivot tables, Power Query,...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/analytics/spreadsheet-expert/SKILL.md and install spreadsheet-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/spreadsheet-expert/SKILL.md and install spreadsheet-expert skill"
     },
     {
         "id": "asana-expert",
         "name": "Asana Expert Skill",
-        "category": "productivity",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert Asana user for project management and team workflows. Use when managing projects, setting ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/asana-expert/SKILL.md and install asana-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/asana-expert/SKILL.md and install asana-expert skill"
     },
     {
         "id": "slack-bot-expert",
         "name": "Slack Bot Expert",
-        "category": "productivity",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Slack Bot expert: Bolt SDK development, slash commands, workflow automation, webhook integrations...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/slack-bot-expert/SKILL.md and install slack-bot-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/slack-bot-expert/SKILL.md and install slack-bot-expert skill"
     },
     {
         "id": "miro-expert",
         "name": "Miro Expert Skill",
-        "category": "productivity",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/miro-expert/SKILL.md and install miro-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/miro-expert/SKILL.md and install miro-expert skill"
     },
     {
         "id": "confluence-expert",
         "name": "Confluence Expert",
-        "category": "productivity",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/confluence-expert/SKILL.md and install confluence-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/confluence-expert/SKILL.md and install confluence-expert skill"
     },
     {
         "id": "jira-expert",
         "name": "Jira Expert",
-        "category": "productivity",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automat...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/jira-expert/SKILL.md and install jira-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/jira-expert/SKILL.md and install jira-expert skill"
     },
     {
         "id": "linear-expert",
         "name": "Linear Expert",
-        "category": "productivity",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. U...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/linear-expert/SKILL.md and install linear-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/linear-expert/SKILL.md and install linear-expert skill"
     },
     {
         "id": "notion-expert",
         "name": "Notion Expert",
-        "category": "productivity",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Notion expert: database design, template creation, API integration, team workflows, formulas, rel...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/productivity/notion-expert/SKILL.md and install notion-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/notion-expert/SKILL.md and install notion-expert skill"
     },
     {
         "id": "numpy-scipy-expert",
         "name": "NumPy/SciPy Expert",
-        "category": "scientific",
+        "category": "tools",
         "icon": "🔧",
         "desc": "NumPy/SciPy expert: array operations, linear algebra, FFT, signal processing, optimization, inter...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scientific/numpy-scipy-expert/SKILL.md and install numpy-scipy-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/numpy-scipy-expert/SKILL.md and install numpy-scipy-expert skill"
     },
     {
         "id": "statistical-analysis-expert",
         "name": "SPSS & SAS Expert Skill",
-        "category": "scientific",
+        "category": "tools",
         "icon": "🔧",
         "desc": "Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypot...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scientific/statistical-analysis-expert/SKILL.md and install statistical-analysis-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/statistical-analysis-expert/SKILL.md and install statistical-analysis-expert skill"
     },
     {
         "id": "latex-expert",
         "name": "LaTeX Expert",
-        "category": "scientific",
+        "category": "tools",
         "icon": "🔧",
         "desc": "LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations,...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scientific/latex-expert/SKILL.md and install latex-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/latex-expert/SKILL.md and install latex-expert skill"
     },
     {
         "id": "ffmpeg-expert",
         "name": "FFmpeg Expert Skill",
-        "category": "media",
-        "icon": "📺",
+        "category": "tools",
+        "icon": "🔧",
         "desc": "Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extr...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/ffmpeg-expert/SKILL.md and install ffmpeg-expert skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ffmpeg-expert/SKILL.md and install ffmpeg-expert skill"
     },
     {
         "id": "composite-materials-engineer",
@@ -1536,7 +1536,7 @@ const allSkills = [
         "name": "Embroiderer",
         "category": "crafts",
         "icon": "🔧",
-        "desc": "Expert-level Embroiderer skill with deep knowledge of Chinese Su, Xiang, Yue, and蜀绣 traditions, a...",
+        "desc": "Expert-level Embroiderer skill with deep knowledge of Chinese Su, Xiang, Yue, and traditions, as ...",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/embroiderer/SKILL.md and install embroiderer skill"
     },
     {
@@ -1576,7 +1576,7 @@ const allSkills = [
         "name": "Ai Security Engineer",
         "category": "cybersecurity",
         "icon": "🔒",
-        "desc": "Expert AI Security Engineer specializing in adversarial machine learning, LLM security, model sup...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cybersecurity/ai-security-engineer/SKILL.md and install ai-security-engineer skill"
     },
     {
@@ -1686,34 +1686,34 @@ const allSkills = [
     {
         "id": "apple-engineer",
         "name": "Apple Engineer",
-        "category": "apple",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when emulating Apple's engineering methodology. Implements design-led product development wit...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/apple/apple-engineer/SKILL.md and install apple-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/apple-engineer/SKILL.md and install apple-engineer skill"
     },
     {
         "id": "meta-ai-engineer",
         "name": "Meta AI Engineer",
-        "category": "meta-ai",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Meta AI Engineer: FAIR open research culture, fast prototyping, PyTorch-first development, LLaMA ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/meta-ai/meta-ai-engineer/SKILL.md and install meta-ai-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/meta-ai-engineer/SKILL.md and install meta-ai-engineer skill"
     },
     {
         "id": "moderna-scientist",
         "name": "Moderna mRNA Scientist",
-        "category": "moderna",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Design mRNA therapeutics using Moderna's platform approach, cloud-native infrastructure, and Desi...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/moderna/moderna-scientist/SKILL.md and install moderna-scientist skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/moderna-scientist/SKILL.md and install moderna-scientist skill"
     },
     {
         "id": "moonshot-ai-engineer",
-        "name": "Moonshot AI (月之暗面) Engineer",
-        "category": "moonshot",
+        "name": "Moonshot Ai Engineer",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Invoke when building AI for Chinese market, optimizing 200K+ token contexts, or product-first LLM...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/moonshot/moonshot-ai-engineer/SKILL.md and install moonshot-ai-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/moonshot-ai-engineer/SKILL.md and install moonshot-ai-engineer skill"
     },
     {
         "id": "non-compete-defense-consultant",
@@ -1726,250 +1726,250 @@ const allSkills = [
     {
         "id": "crowdstrike-security",
         "name": "Crowdstrike Security",
-        "category": "crowdstrike",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crowdstrike/crowdstrike-security/SKILL.md and install crowdstrike-security skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/crowdstrike-security/SKILL.md and install crowdstrike-security skill"
     },
     {
         "id": "riot-esports-manager",
         "name": "Riot Esports Manager",
-        "category": "riot",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/riot/riot-esports-manager/SKILL.md and install riot-esports-manager skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/riot-esports-manager/SKILL.md and install riot-esports-manager skill"
     },
     {
         "id": "huawei-engineer",
         "name": "Huawei Engineer",
-        "category": "huawei",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/huawei/huawei-engineer/SKILL.md and install huawei-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/huawei-engineer/SKILL.md and install huawei-engineer skill"
     },
     {
         "id": "amazon-engineer",
         "name": "Amazon Engineer",
-        "category": "amazon",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Amazon engineering culture with 14 Leadership Principles, Working Backwards methodology, 6-page m...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/amazon/amazon-engineer/SKILL.md and install amazon-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/amazon-engineer/SKILL.md and install amazon-engineer skill"
     },
     {
         "id": "fedex-operations",
-        "name": "FedEx Operations Manager",
-        "category": "fedex",
+        "name": "Fedex Operations",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when managing express logistics, air network optimization, or time-definite delivery operatio...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/fedex/fedex-operations/SKILL.md and install fedex-operations skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/fedex-operations/SKILL.md and install fedex-operations skill"
     },
     {
         "id": "tsmc-engineer",
-        "name": "TSMC Engineer",
-        "category": "tsmc",
+        "name": "Tsmc Engineer",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Apply TSMC's manufacturing excellence methodology: yield-first semiconductor production, SPC stat...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tsmc/tsmc-engineer/SKILL.md and install tsmc-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/tsmc-engineer/SKILL.md and install tsmc-engineer skill"
     },
     {
         "id": "bcg-consultant",
-        "name": "BCG Consultant",
-        "category": "bcg",
+        "name": "Bcg Consultant",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when emulating BCG's strategy consulting methodology. Implements Growth-Share Matrix, Experie...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/bcg/bcg-consultant/SKILL.md and install bcg-consultant skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/bcg-consultant/SKILL.md and install bcg-consultant skill"
     },
     {
         "id": "mayo-physician",
         "name": "Mayo Clinic Physician",
-        "category": "mayo-clinic",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Mayo Clinic physician mindset with 'Needs of the Patient Come First' philosophy, integrated pract...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mayo-clinic/mayo-physician/SKILL.md and install mayo-physician skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/mayo-physician/SKILL.md and install mayo-physician skill"
     },
     {
         "id": "google-engineer",
         "name": "Google Engineer",
-        "category": "google",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when emulating Google's engineering methodology. Implements OKR-driven development with monor...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/google/google-engineer/SKILL.md and install google-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/google-engineer/SKILL.md and install google-engineer skill"
     },
     {
         "id": "microsoft-xbox-cloud-engineer",
         "name": "Microsoft Xbox Cloud Engineer",
-        "category": "microsoft",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Expert in Xbox Cloud Gaming (Project xCloud) infrastructure. Use when: designing low-latency game...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/microsoft/microsoft-xbox-cloud-engineer/SKILL.md and install microsoft-xbox-cloud-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/microsoft-xbox-cloud-engineer/SKILL.md and install microsoft-xbox-cloud-engineer skill"
     },
     {
         "id": "unitree-robotics-engineer",
         "name": "Unitree Robotics Engineer",
-        "category": "unitree",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/unitree/unitree-robotics-engineer/SKILL.md and install unitree-robotics-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/unitree-robotics-engineer/SKILL.md and install unitree-robotics-engineer skill"
     },
     {
         "id": "goldman-sachs-analyst",
         "name": "Goldman Sachs Analyst",
-        "category": "goldman-sachs",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Goldman Sachs investment banking culture with 14 Business Principles, risk management excellence,...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/goldman-sachs/goldman-sachs-analyst/SKILL.md and install goldman-sachs-analyst skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/goldman-sachs-analyst/SKILL.md and install goldman-sachs-analyst skill"
     },
     {
         "id": "tesla-software-engineer",
         "name": "Tesla Software Engineer",
-        "category": "tesla",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Expert-level Tesla Software Engineer skill covering vehicle firmware, OTA infrastructure, full-st...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tesla/tesla-software-engineer/SKILL.md and install tesla-software-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/tesla-software-engineer/SKILL.md and install tesla-software-engineer skill"
     },
     {
         "id": "tesla-product-manager",
         "name": "Tesla Product Manager",
-        "category": "tesla",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Expert-level Tesla Product Manager skill covering mission-driven product strategy, sustainable en...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tesla/tesla-product-manager/SKILL.md and install tesla-product-manager skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/tesla-product-manager/SKILL.md and install tesla-product-manager skill"
     },
     {
         "id": "tesla-ai-engineer",
         "name": "Tesla AI Engineer",
-        "category": "tesla",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot development, end-to-end neural...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tesla/tesla-ai-engineer/SKILL.md and install tesla-ai-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/tesla-ai-engineer/SKILL.md and install tesla-ai-engineer skill"
     },
     {
         "id": "tesla-engineer",
         "name": "Tesla Engineer",
-        "category": "tesla",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Expert-level Tesla Engineer mindset and methodology skill covering First Principles thinking, the...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tesla/tesla-engineer/SKILL.md and install tesla-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/tesla-engineer/SKILL.md and install tesla-engineer skill"
     },
     {
         "id": "tesla-manufacturing-engineer",
         "name": "Tesla Manufacturing Engineer",
-        "category": "tesla",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Expert-level Tesla Manufacturing Engineer skill covering Giga factory design, production system o...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tesla/tesla-manufacturing-engineer/SKILL.md and install tesla-manufacturing-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/tesla-manufacturing-engineer/SKILL.md and install tesla-manufacturing-engineer skill"
     },
     {
         "id": "lelo-product-designer",
         "name": "Lelo Product Designer",
-        "category": "lelo",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/lelo/lelo-product-designer/SKILL.md and install lelo-product-designer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/lelo-product-designer/SKILL.md and install lelo-product-designer skill"
     },
     {
         "id": "pixar-storyteller",
         "name": "Pixar Storyteller",
-        "category": "pixar",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/pixar/pixar-storyteller/SKILL.md and install pixar-storyteller skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/pixar-storyteller/SKILL.md and install pixar-storyteller skill"
     },
     {
         "id": "alibaba-engineer",
         "name": "Alibaba Engineer",
-        "category": "alibaba",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Alibaba engineering culture with 六脉神剑 (Six-Vein Sword) values, 中供铁军 (Iron Army) methodology, and ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/alibaba/alibaba-engineer/SKILL.md and install alibaba-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/alibaba-engineer/SKILL.md and install alibaba-engineer skill"
     },
     {
         "id": "deepseek-researcher",
         "name": "DeepSeek Researcher",
-        "category": "deepseek",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "DeepSeek Researcher: Cost-efficient high-performance LLM development, MLA architecture, DeepSeekM...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/deepseek/deepseek-researcher/SKILL.md and install deepseek-researcher skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/deepseek-researcher/SKILL.md and install deepseek-researcher skill"
     },
     {
         "id": "visa-payment-engineer",
         "name": "Visa Payment Engineer",
-        "category": "visa",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Visa payment network engineering at global scale. Four-party model, 24k+ TPS, <100ms latency, rea...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/visa/visa-payment-engineer/SKILL.md and install visa-payment-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/visa-payment-engineer/SKILL.md and install visa-payment-engineer skill"
     },
     {
         "id": "nintendo-game-designer",
         "name": "Nintendo Game Designer",
-        "category": "nintendo",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Design innovative, polished games following Nintendo's gameplay-first philosophy",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/nintendo/nintendo-game-designer/SKILL.md and install nintendo-game-designer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/nintendo-game-designer/SKILL.md and install nintendo-game-designer skill"
     },
     {
         "id": "lvmh-brand-manager",
-        "name": "LVMH Brand Manager",
-        "category": "lvmh",
+        "name": "Lvmh Brand Manager",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Invoke when: managing luxury brand portfolios, balancing creative-commercial tensions, implementi...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/lvmh/lvmh-brand-manager/SKILL.md and install lvmh-brand-manager skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/lvmh-brand-manager/SKILL.md and install lvmh-brand-manager skill"
     },
     {
         "id": "clifford-chance-lawyer",
         "name": "Clifford Chance Lawyer",
-        "category": "clifford-chance",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Clifford Chance Magic Circle law firm culture with deal team excellence, international practice, ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/clifford-chance/clifford-chance-lawyer/SKILL.md and install clifford-chance-lawyer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/clifford-chance-lawyer/SKILL.md and install clifford-chance-lawyer skill"
     },
     {
         "id": "walmart-operations",
-        "name": "Walmart Retail Operations",
-        "category": "walmart",
+        "name": "Walmart Operations",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when emulating Walmart's retail operations methodology. Implements EDLP pricing, cross-dockin...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/walmart/walmart-operations/SKILL.md and install walmart-operations skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/walmart-operations/SKILL.md and install walmart-operations skill"
     },
     {
         "id": "toyota-engineer",
         "name": "Toyota Engineer",
-        "category": "toyota",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when emulating Toyota's engineering methodology. Implements TPS (Toyota Production System) wi...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/toyota/toyota-engineer/SKILL.md and install toyota-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/toyota-engineer/SKILL.md and install toyota-engineer skill"
     },
     {
         "id": "supercell-cell-producer",
         "name": "Supercell Cell Producer",
-        "category": "supercell",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/supercell/supercell-cell-producer/SKILL.md and install supercell-cell-producer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/supercell-cell-producer/SKILL.md and install supercell-cell-producer skill"
     },
     {
         "id": "netflix-engineer",
         "name": "Netflix Engineer",
-        "category": "netflix",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Netflix engineering culture with Freedom & Responsibility, Talent Density, and Context Not Contro...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/netflix/netflix-engineer/SKILL.md and install netflix-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/netflix-engineer/SKILL.md and install netflix-engineer skill"
     },
     {
         "id": "mckinsey-consultant",
         "name": "McKinsey Consultant",
-        "category": "mckinsey",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "McKinsey & Company consulting methodology with structured problem-solving, MECE framework, Pyrami...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mckinsey/mckinsey-consultant/SKILL.md and install mckinsey-consultant skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/mckinsey-consultant/SKILL.md and install mckinsey-consultant skill"
     },
     {
         "id": "nvidia-ml-engineer",
         "name": "NVIDIA ML Engineer",
-        "category": "nvidia",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "NVIDIA ML Engineer: Full-stack AI optimization from silicon to software. CUDA kernel tuning, cuDN...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/nvidia/nvidia-ml-engineer/SKILL.md and install nvidia-ml-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/nvidia-ml-engineer/SKILL.md and install nvidia-ml-engineer skill"
     },
     {
         "id": "crisis-negotiator",
@@ -1982,10 +1982,10 @@ const allSkills = [
     {
         "id": "verizon-network-engineer",
         "name": "Verizon Network Engineer",
-        "category": "verizon",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Design, deploy, and maintain carrier-grade 5G/4G/LTE networks with 99.999% reliability, network s...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/verizon/verizon-network-engineer/SKILL.md and install verizon-network-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/verizon-network-engineer/SKILL.md and install verizon-network-engineer skill"
     },
     {
         "id": "labor-arbitration-agent",
@@ -2005,131 +2005,131 @@ const allSkills = [
     },
     {
         "id": "bain-consultant",
-        "name": "Bain & Company Consultant",
-        "category": "bain",
+        "name": "Bain Consultant",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Invoke when: solving strategic problems requiring measurable outcomes, private equity due diligen...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/bain/bain-consultant/SKILL.md and install bain-consultant skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/bain-consultant/SKILL.md and install bain-consultant skill"
     },
     {
         "id": "jpmorgan-banker",
-        "name": "JPMorgan Banker",
-        "category": "jpmorgan",
+        "name": "Jpmorgan Banker",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when emulating JPMorgan's universal banking methodology. Implements relationship-based adviso...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/jpmorgan/jpmorgan-banker/SKILL.md and install jpmorgan-banker skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/jpmorgan-banker/SKILL.md and install jpmorgan-banker skill"
     },
     {
         "id": "tencent-gaas-manager",
         "name": "Tencent Gaas Manager",
-        "category": "tencent",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tencent/tencent-gaas-manager/SKILL.md and install tencent-gaas-manager skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/tencent-gaas-manager/SKILL.md and install tencent-gaas-manager skill"
     },
     {
         "id": "anthropic-researcher",
-        "name": "Anthropic AI Researcher",
-        "category": "anthropic",
+        "name": "Anthropic Researcher",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Invoke when designing AI alignment, constitutional training, or interpretability research. Provid...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/anthropic/anthropic-researcher/SKILL.md and install anthropic-researcher skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/anthropic-researcher/SKILL.md and install anthropic-researcher skill"
     },
     {
         "id": "defense-researcher",
-        "name": "Defense & Security Researcher",
-        "category": "defense",
+        "name": "Defense Researcher",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Invoke when conducting defense technology research, dual-use technology assessment, or national s...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/defense/defense-researcher/SKILL.md and install defense-researcher skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/defense-researcher/SKILL.md and install defense-researcher skill"
     },
     {
         "id": "morgan-stanley-banker",
         "name": "Morgan Stanley Banker",
-        "category": "morgan-stanley",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Morgan Stanley Investment Banking Managing Director persona with 25+ years of experience in M&A a...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/morgan-stanley/morgan-stanley-banker/SKILL.md and install morgan-stanley-banker skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/morgan-stanley-banker/SKILL.md and install morgan-stanley-banker skill"
     },
     {
         "id": "deepmind-researcher",
         "name": "DeepMind Researcher",
-        "category": "deepmind",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "DeepMind Researcher: AGI through deep understanding, AlphaGo/AlphaZero RL, AlphaFold scientific d...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/deepmind/deepmind-researcher/SKILL.md and install deepmind-researcher skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/deepmind-researcher/SKILL.md and install deepmind-researcher skill"
     },
     {
         "id": "saudi-aramco-engineer",
         "name": "Saudi Aramco Engineer",
-        "category": "saudi-aramco",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Invoke when optimizing oilfield operations, reservoir management, or energy transition strategy. ...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/saudi-aramco/saudi-aramco-engineer/SKILL.md and install saudi-aramco-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/saudi-aramco-engineer/SKILL.md and install saudi-aramco-engineer skill"
     },
     {
         "id": "disney-imagineer",
         "name": "Disney Imagineer",
-        "category": "disney",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when emulating Disney Imagineering methodology. Implements Imagineering (imagination + engine...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/disney/disney-imagineer/SKILL.md and install disney-imagineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/disney-imagineer/SKILL.md and install disney-imagineer skill"
     },
     {
         "id": "f1-pit-crew-engineer",
         "name": "F1 Pit Crew Engineer",
-        "category": "f1",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/f1/f1-pit-crew-engineer/SKILL.md and install f1-pit-crew-engineer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/f1-pit-crew-engineer/SKILL.md and install f1-pit-crew-engineer skill"
     },
     {
         "id": "microsoft-ai-engineer",
-        "name": "Microsoft AI Engineer",
-        "category": "microsoft-ai",
+        "name": "Microsoft Ai Engineer",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Invoke when: implementing Microsoft's enterprise AI methodology with Azure OpenAI, Copilot integr...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/microsoft-ai/microsoft-ai-engineer/SKILL.md and install microsoft-ai-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/microsoft-ai-engineer/SKILL.md and install microsoft-ai-engineer skill"
     },
     {
         "id": "pfizer-scientist",
         "name": "Pfizer Scientist",
-        "category": "pfizer",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/pfizer/pfizer-scientist/SKILL.md and install pfizer-scientist skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/pfizer-scientist/SKILL.md and install pfizer-scientist skill"
     },
     {
         "id": "openai-researcher",
         "name": "OpenAI Researcher",
-        "category": "openai",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.), RLHF/Constitut...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/openai/openai-researcher/SKILL.md and install openai-researcher skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/openai-researcher/SKILL.md and install openai-researcher skill"
     },
     {
         "id": "crisis-communications-expert",
         "name": "Crisis Communications Expert",
-        "category": "crisis-pr",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Invoke when handling corporate crises, reputation threats, or stakeholder communications. Impleme...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crisis-pr/crisis-communications-expert/SKILL.md and install crisis-communications-expert skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/crisis-communications-expert/SKILL.md and install crisis-communications-expert skill"
     },
     {
         "id": "sony-playstation-producer",
         "name": "Sony Playstation Producer",
-        "category": "sony",
+        "category": "enterprise",
         "icon": "🔧",
         "desc": "Produce cinematic AAA games that define console generations through narrative excellence, technic...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/sony/sony-playstation-producer/SKILL.md and install sony-playstation-producer skill"
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/sony-playstation-producer/SKILL.md and install sony-playstation-producer skill"
     },
     {
         "id": "spacex-engineer",
-        "name": "SpaceX Engineer",
-        "category": "spacex",
+        "name": "Spacex Engineer",
+        "category": "enterprise",
         "icon": "🔧",
-        "desc": "Use when emulating SpaceX engineering methodology. Implements first-principles engineering with r...",
-        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/spacex/spacex-engineer/SKILL.md and install spacex-engineer skill"
+        "desc": "",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/spacex-engineer/SKILL.md and install spacex-engineer skill"
     },
     {
         "id": "livestock-farmer",
@@ -3120,7 +3120,7 @@ const allSkills = [
         "name": "Calligraphy Instructor",
         "category": "education",
         "icon": "🎓",
-        "desc": "Master calligraphy instructor with 20+ years in Chinese calligraphy (楷书、行书、草书、隶书、篆书) and brush pa...",
+        "desc": "Master calligraphy instructor with 20+ years in Chinese calligraphy (、、、、) and brush painting. Tr...",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/calligraphy-instructor/SKILL.md and install calligraphy-instructor skill"
     },
     {
@@ -3896,7 +3896,7 @@ const allSkills = [
         "name": "Skill Evaluator",
         "category": "special",
         "icon": "🔧",
-        "desc": "Evaluate skill quality through dual-track validation. Triggers: \"evaluate skill\", \"test skill\", \"...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-evaluator/SKILL.md and install skill-evaluator skill"
     },
     {
@@ -3968,7 +3968,7 @@ const allSkills = [
         "name": "Skill Writer",
         "category": "special",
         "icon": "🔧",
-        "desc": "Create, review, score, and upgrade skills. Triggers: \"write skill\", \"create skill\", \"review skill...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and install skill-writer skill"
     },
     {
@@ -4872,7 +4872,7 @@ const allSkills = [
         "name": "Mover",
         "category": "service-worker",
         "icon": "🔧",
-        "desc": "Expert mover with 10+ years in residential and commercial moving. Specializes in furniture handli...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/mover/SKILL.md and install mover skill"
     },
     {
@@ -4888,7 +4888,7 @@ const allSkills = [
         "name": "Pet Groomer",
         "category": "service-worker",
         "icon": "🔧",
-        "desc": "Expert pet groomer with 10+ years specializing in dog and cat grooming, breed-specific haircuts, ...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/pet-groomer/SKILL.md and install pet-groomer skill"
     },
     {
@@ -4896,7 +4896,7 @@ const allSkills = [
         "name": "Tour Guide",
         "category": "service-worker",
         "icon": "🔧",
-        "desc": "Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours. Specializes ...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/tour-guide/SKILL.md and install tour-guide skill"
     },
     {
@@ -4904,7 +4904,7 @@ const allSkills = [
         "name": "Elderly Caregiver",
         "category": "service-worker",
         "icon": "🔧",
-        "desc": "A world-class elderly caregiver specializing in senior care, dementia care, activities of daily l...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/elderly-caregiver/SKILL.md and install elderly-caregiver skill"
     },
     {
@@ -4912,7 +4912,7 @@ const allSkills = [
         "name": "Nail Technician",
         "category": "service-worker",
         "icon": "🔧",
-        "desc": "Expert nail technician with 10+ years specializing in manicures, pedicures, nail art, gel/acrylic...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/nail-technician/SKILL.md and install nail-technician skill"
     },
     {
@@ -4952,7 +4952,7 @@ const allSkills = [
         "name": "Restaurant Server",
         "category": "service-worker",
         "icon": "🔧",
-        "desc": "Expert restaurant server with 10+ years in fine dining and casual service. Specializes in table m...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/restaurant-server/SKILL.md and install restaurant-server skill"
     },
     {
@@ -4960,7 +4960,7 @@ const allSkills = [
         "name": "Confinement Nanny",
         "category": "service-worker",
         "icon": "🔧",
-        "desc": "A world-class confinement nanny specializing in postpartum maternal care, newborn care, lactation...",
+        "desc": "",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/service-worker/confinement-nanny/SKILL.md and install confinement-nanny skill"
     },
     {
