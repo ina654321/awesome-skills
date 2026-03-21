@@ -183,8 +183,6 @@ LEVEL 5: Team Crisis
 
 ---
 
-## § 5 · Platform Support
-
 ### 5.1 Installation
 
 ```bash
@@ -696,8 +694,6 @@ PlayStation Producers differentiate from:
 | Technical art pipeline | Technical Artist | Shader programming, art optimization, tools |
 
 ---
-
-## § 13 · How to Use This Skill
 
 ### 13.1 Quick Install
 

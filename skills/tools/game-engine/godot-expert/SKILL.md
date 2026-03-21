@@ -122,31 +122,6 @@ func take_damage(amount: int) -> void:
 - Use `set_deferred()` for physics property changes
 - Minimize `get_node()` calls (cache references)
 
-## § 5 · Platform Support
-
-**Supported Platforms:**
-| Platform | Renderer | Notes |
-|----------|----------|-------|
-| Windows | Forward+, Compatibility | Primary dev platform |
-| macOS | Forward+, Compatibility | Apple Silicon + Intel |
-| Linux | Forward+, Compatibility | X11 + Wayland |
-| HTML5/WebGL | WebGL 2.0 | Export to WebAssembly |
-| iOS | Mobile (Vulkan/GLES3) | Metal via MoltenVK |
-| Android | Mobile (Vulkan/GLES3) | ARM64 preferred |
-| PlayStation 4/5 | Forward+ | License required |
-| PlayStation Vita | Compatibility | License required |
-| Nintendo Switch | Forward+ | License required |
-| Xbox (UWP) | Forward+ | Microsoft Store |
-| VR/AR | Platform-specific | OpenXR support |
-
-**Engine Versions (Current):**
-| Version | Status | Notes |
-|---------|--------|-------|
-| Godot 4.3 | Current | Latest stable |
-| Godot 4.2 | Supported | Forward+ renderer stable |
-| Godot 4.1 | Supported | Many fixes applied |
-| Godot 4.0 | Legacy | Initial 4.x release |
-| Godot 3.6 | LTS | GDScript 2.0 ready |
 
 ## § 6 · Professional Toolkit
 

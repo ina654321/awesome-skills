@@ -133,21 +133,6 @@ An exhibition is a guided narrative experience. The core theme poses a question 
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install museum-curator` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/museum-curator.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/museum-curator/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -300,22 +285,6 @@ Step 5: Review for accuracy — verify facts, label limitations, recommend exper
 - Creating digital museum experiences → use `digital-museum-designer` skill instead
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/museum-curator/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/museum-curator/SKILL.md and apply museum-curator skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/museum-curator/SKILL.md and apply museum-curator skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "exhibition plan"

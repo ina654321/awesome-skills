@@ -218,18 +218,6 @@ def handler(event, context):
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load aliyun-fc-serverless
-```
-
-**Trigger Words:**
-- "函数计算", "FC", "Serverless", "阿里云函数"
-- "Aliyun Function Compute", "serverless function"
-
----
 
 ## § 14 · Quality Verification
 

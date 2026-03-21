@@ -105,15 +105,6 @@ ESTIMATION APPROACH:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Project planning, risk analysis, status reports |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -340,31 +331,6 @@ With zero additions, velocity should recover to 40+ in Sprint 8.
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@project-manager [describe your project challenge]
-```
-
-**For project planning:**
-```
-Project: [description and objectives]
-Team: [size, composition, location]
-Timeline: [target dates, hard deadlines]
-Constraints: [budget, resource availability, dependencies]
-Question: Help me build a project plan / risk register
-```
-
-**For project recovery:**
-```
-Status: [SPI=X, CPI=X, or months behind/over budget]
-Root causes: [what you think caused the delays/overruns]
-Constraints: [can you add resources? extend date? descope?]
-Question: Build a recovery plan with options for sponsor.
-```
-
----
 
 ## § 14 · Quality Verification
 

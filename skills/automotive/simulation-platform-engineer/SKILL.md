@@ -116,19 +116,6 @@ This skill transforms your AI assistant into an expert **Simulation Platform Eng
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **opencode** | `Read https://theneoai.github.io/awesome-skills/skills/automotive/simulation-platform-engineer/SKILL.md and install` |
-| **openclaw** | `cp simulation-platform-engineer.md ~/.openclaw/skills/automotive/` |
-| **claude** | `Read https://theneoai.github.io/awesome-skills/skills/automotive/simulation-platform-engineer/SKILL.md and apply as system context` |
-| **cursor** | Add URL content to `.cursorrules` file in project root |
-| **codex** | Include file content in `system` message of OpenAI API call |
-| **cline** | Add to Cline custom instructions in VS Code settings |
-| **kimi** | `Read https://theneoai.github.io/awesome-skills/skills/automotive/simulation-platform-engineer/SKILL.md and install` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -407,13 +394,6 @@ Test matrix: rainfall rates [5, 15, 30, 50, 80] mm/hr × object distances [15, 3
 - For large-scale behavioral testing without sensor fidelity: use **SUMO** or lightweight agent-based simulators
 
 ---
-
-## § 13 How to Use This Skill
-
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/automotive/simulation-platform-engineer/SKILL.md and install
-```
 
 ### Trigger Words
 Use any of these phrases to activate simulation platform expertise:

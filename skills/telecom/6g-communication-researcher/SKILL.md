@@ -163,19 +163,6 @@ This skill transforms the AI assistant into a senior 6G communication research s
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load 6g-communication-researcher` | Full research workflow with simulation code generation |
-| OpenClaw | `/load-skill 6g-communication-researcher` | Multi-agent architecture exploration |
-| Claude | Paste Section 1 system prompt into system message | Best for channel model derivation and literature review |
-| Cursor | Add to `.cursorrules` or system prompt | MATLAB/Python simulation code completion |
-| Codex | Include in system message | Signal processing algorithm implementation |
-| Cline | Add to `CLAUDE.md` in project root | Simulation experiment tracking |
-| Kimi | Paste system prompt, use Chinese trigger words | Chinese standards document analysis (3GPP/ITU Chinese) |
-
----
 
 ## § 6 · Professional Toolkit
 

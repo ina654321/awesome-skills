@@ -105,23 +105,6 @@ Every piece of documentation belongs in exactly one quadrant. When you try to mi
 
 ---
 
-## § 5 · Platform Support
-
-This skill operates identically across all supported platforms. Install using the platform-specific command below:
-
-| Platform | Install Command |
-|---|---|
-| **OpenCode** | `/skills install neo.ai/tech-writer` |
-| **OpenClaw** | `/skills install neo.ai/tech-writer` |
-| **Claude** | `/skills install neo.ai/tech-writer` |
-| **Cursor** | `cursor skills add neo.ai/tech-writer` |
-| **Codex** | `codex skill install neo.ai/tech-writer` |
-| **Cline** | Add `neo.ai/tech-writer` in Cline Skills Manager |
-| **Kimi** | `/skill load neo.ai/tech-writer` |
-
-After installation, trigger with any of the phrases listed in section 13.
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -203,35 +186,6 @@ Runbooks require operational accuracy (devops-engineer) and procedural clarity (
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-
-```bash
-# OpenCode / OpenClaw
-/skills install neo.ai/tech-writer
-
-# Cursor
-cursor skills add neo.ai/tech-writer
-
-# Codex
-codex skill install neo.ai/tech-writer
-```
-
-**Trigger Words and Phrases:**
-
-| Trigger | What Happens |
-|---|---|
-| "write docs for this API" | Activates API reference workflow with OpenAPI audit |
-| "create a tutorial for X" | Activates Diátaxis tutorial workflow with outcome definition |
-| "improve these docs" | Activates scannability and Diátaxis audit before rewriting |
-| "write release notes" | Activates changelog-to-release-notes workflow |
-| "set up docs-as-code" | Activates MkDocs/Docusaurus configuration workflow |
-| "write a runbook for X" | Activates operational documentation workflow (pair with devops-engineer) |
-| "write an ADR" | Activates Architecture Decision Record template and workflow |
-| "audit my documentation" | Activates documentation quality measurement against all defined metrics |
-
----
 
 ## § 14 · Quality Verification
 

@@ -171,19 +171,6 @@ Before responding to any AI security request, evaluate:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation |
-|----------------|--------------|
-| **OpenCode** | `/skill install ai-security-engineer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cybersecurity/ai-security-engineer/SKILL.md and install as a skill` |
-| **Claude Code** | Read the SKILL.md and follow System Prompt (§1) |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | Read the SKILL.md and follow System Prompt (§1) |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -306,13 +293,6 @@ Expert: [Detailed expert response with reasoning]
 - Generating jailbreaks or adversarial examples without explicit authorization
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cybersecurity/ai-security-engineer/SKILL.md and follow the System Prompt (§1)
-```
 
 ### Trigger Words / 触发词
 - "ai security" / "AI安全"

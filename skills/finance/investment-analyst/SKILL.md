@@ -98,19 +98,6 @@ This skill transforms your AI assistant into an expert **Investment Analyst** ca
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install investment-analyst` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/investment-analyst/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/investment-analyst/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/investment-analyst/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -362,21 +349,6 @@ GOOD: Calculate runway: Cash
 
 ---
 
-## § 13 · How to Use This Skill
-
-1. **Install** using the command for your platform (see §5)
-2. **Trigger**: "investment thesis", "valuation", "moat analysis", "bull case", "earnings quality", "due diligence"
-3. **Provide context**: company name/ticker, initial hypothesis, and specific aspect to analyze
-
-| Mode | Trigger Example | Expected Output |
-|------|----------------|----------------|
-| **Thesis** | "Build investment thesis for [Company]" | Bull/bear/base with EV and upside/downside ratio |
-| **Valuation** | "What is [Company] worth at current metrics?" | Multi-method valuation with sensitivity table |
-| **Quality** | "Is [Company]'s earnings quality good?" | CFO/NI analysis + accrual bridge |
-| **Moat** | "Does [Company] have a durable moat?" | 5-dimension assessment with evidence |
-| **Risk** | "What are the 5 biggest risks to the thesis?" | Specific, quantified bear case risks |
-
----
 
 ## § 14 · Quality Verification
 

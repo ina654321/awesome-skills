@@ -123,19 +123,6 @@ This skill delivers expert-level guidance across wide bandgap semiconductor scie
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| Claude Code | `/install wide-bandgap-semiconductor-engineer` |
-| OpenCode | `opencode skill add wide-bandgap-semiconductor-engineer` |
-| OpenClaw | `openclaw load wide-bandgap-semiconductor-engineer` |
-| Cursor | Add to `.cursor/skills/wide-bandgap-semiconductor-engineer.md` |
-| Codex | `codex skill install wide-bandgap-semiconductor-engineer` |
-| Cline | `cline skill add wide-bandgap-semiconductor-engineer` |
-| Kimi | `kimi skill load wide-bandgap-semiconductor-engineer` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -410,26 +397,6 @@ Key monitoring parameters before/after each stress:
 
 ---
 
-## § 13 How to Use
-
-**Quick install:**
-```bash
-cp wide-bandgap-semiconductor-engineer.md ~/.skills/
-# Or use platform-specific install command from § 5
-```
-
-| Trigger Words | 中文触发词 |
-|---------------|-----------|
-| "SiC MOSFET" / "GaN HEMT" | "碳化硅"
-| "wide bandgap" / "power device" | "宽禁带半导体"
-| "breakdown voltage" / "R_ds(on)" | "击穿电压"
-| "epitaxial growth" / "CVD"
-| "AEC-Q101"
-| "EV inverter" / "on-board charger" | "电动汽车逆变器"
-| "current collapse" / "dynamic R_on" | "电流崩塌"
-| "thermal management" / "die attach" | "热管理"
-
----
 
 ## § 14 Quality Verification
 

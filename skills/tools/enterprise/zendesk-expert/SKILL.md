@@ -121,34 +121,6 @@ GET /api/v2/tickets.json?per_page=100&page=1
 - Implement webhook signature verification
 - Enable audit logs (90 days Team+, 1 year Enterprise)
 
-## § 5 · Platform Support
-
-**Zendesk Products:**
-| Product | Description | API Coverage |
-|---------|-------------|--------------|
-| Support | Core ticketing system | Full REST v2 |
-| Guide | Knowledge base / Help Center | Full REST v2 |
-| Chat | Live chat / messaging | Sunshine API |
-| Sunshine | Custom customer objects | Full GraphQL/REST |
-| Explore | Analytics and reporting | REST API |
-| Sell | CRM / sales automation | REST API |
-
-**Plan Feature Matrix:**
-| Feature | Minimum Plan | Notes |
-|---------|-------------|-------|
-| Multiple ticket forms | Suite Team+ | Multi-language support |
-| SLA policies | Suite Team+ | Per-brand SLA |
-| Light Agent role | Suite Growth+ | View-only access |
-| Custom roles & groups | Suite Professional+ | Fine-grained permissions |
-| Audit logs (90 days) | Suite Team+ | Enterprise: 1 year |
-| Advanced AI Triage | Suite Enterprise+ | Intelligent routing |
-
-**API Status:**
-| API | Status | Sunset Date |
-|-----|--------|-------------|
-| API v1 | **Deprecated** | November 2025 |
-| API v2 | **Current** | Active |
-| Sunshine API | **Current** | Active |
 
 ## § 6 · Professional Toolkit
 

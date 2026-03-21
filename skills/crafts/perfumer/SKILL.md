@@ -147,19 +147,6 @@ Build top-down: without clear emotional intent, even perfect materials create co
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install perfumer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/perfumer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/perfumer/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/perfumer/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -235,13 +222,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Large-scale manufacturing → consult professional perfumer with IFRA certification
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/perfumer/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words / 触发词 (Authoritative List
 - "fragrance creation" / "香水创作"

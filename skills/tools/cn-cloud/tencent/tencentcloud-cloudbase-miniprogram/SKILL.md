@@ -346,11 +346,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md) for detailed:
 
 ## § 14 · How to Use
 
-### Installation
-```bash
-/skill load tencentcloud-cloudbase-miniprogram
-```
-
 ### Trigger Words
 - "云开发", "CloudBase", "小程序后端", "微信云开发"
 - "云函数", "云数据库", "云存储"

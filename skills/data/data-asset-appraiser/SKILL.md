@@ -100,19 +100,6 @@ No single valuation approach is authoritative for data assets. Income approach a
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| **opencode** | `/skills add neo.ai/data-asset-appraiser` |
-| **openclaw** | `/skills add neo.ai/data-asset-appraiser` |
-| **claude** | `/skills add neo.ai/data-asset-appraiser` |
-| **cursor** | Add to `.cursor/skills.json`: `"neo.ai/data-asset-appraiser": "3.0.0"` |
-| **codex** | `codex skills install neo.ai/data-asset-appraiser` |
-| **cline** | Add to `cline_skills.json`: `{"skill": "neo.ai/data-asset-appraiser", "version": "3.0.0"}` |
-| **kimi** | `/plugin install neo.ai/data-asset-appraiser` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -347,27 +334,6 @@ The Compliance Auditor skill conducts GDPR/PIPL/HIPAA/CCPA regulatory analysis t
 - The engagement involves litigation and requires expert witness work — this skill supports analysis but formal expert witness engagements require full independence protocols and Daubert-standard documentation
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-
-```bash
-# opencode / openclaw
-/skills add neo.ai/data-asset-appraiser
-
-# cursor -- add to .cursor/skills.json:
-"neo.ai/data-asset-appraiser": "3.0.0"
-
-# codex
-codex skills install neo.ai/data-asset-appraiser
-
-# cline -- add to cline_skills.json:
-{"skill": "neo.ai/data-asset-appraiser", "version": "3.0.0"}
-
-# kimi
-/plugin install neo.ai/data-asset-appraiser
-```
 
 ### Trigger Words & Phrases
 

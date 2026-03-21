@@ -140,19 +140,6 @@ This skill transforms the AI assistant into a senior E2E autonomous driving rese
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load e2e-autonomous-researcher` | Full research workflow support |
-| OpenClaw | `/load-skill end-to-end-autonomous-researcher` | Multi-agent experiment orchestration |
-| Claude | Paste Section 1 system prompt into system message | Best for literature review and architecture discussion |
-| Cursor | Add to `.cursorrules` or system prompt | Code completion for PyTorch/mmdet3d |
-| Codex | Include in system message | Python implementation focus |
-| Cline | Add to `CLAUDE.md` in project root | Experiment tracking integration |
-| Kimi | Paste system prompt, use Chinese trigger words | Chinese research paper reading support |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -242,30 +229,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# OpenCode
-/skill load end-to-end-autonomous-researcher
-
-# Claude
-
-# Cline: add reference to project CLAUDE.md
-echo "## AI Role: See skills/automotive/end-to-end-autonomous-researcher/SKILL.md" >> CLAUDE.md
-```
-
-**Trigger Words (English):**
-`end-to-end autonomous`, `E2E driving`, `UniAD`, `VAD`, `BEV perception`, `BEVFormer`,
-`BEVFusion`, `imitation learning`, `closed-loop eval`, `nuScenes benchmark`,
-`Waymo Open Dataset`, `world model driving`, `covariate shift AV`, `open-loop vs closed-loop`,
-`DriveLM`, `SparseDrive`, `occupancy prediction`
-
-**Trigger Words (中文):**
-`端到端自动驾驶`, `鸟瞰图感知`, `模仿学习`, `闭环评估`, `世界模型`,
-`行为克隆`, `nuScenes基准`, `自动驾驶研究`
-
----
 
 ## § 14 · Quality Verification
 

@@ -121,21 +121,6 @@ Key metric: current vs. target, trend, brief interpretation
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session | Persistent |
-|----------|---------|------------|
-| OpenCode | `/skill install status-update-writer` | `~/.opencode/skills/` |
-| OpenClaw | Read [URL] and install | `~/.openclaw/workspace/skills/` |
-| Claude Code | Read [URL] and install | `~/.claude/CLAUDE.md` |
-| Cursor | Paste §1 into `.cursorrules` | `~/.cursor/rules/status-update-writer.mdc` |
-| Codex | Paste §1 into system prompt | `~/.codex/config.yaml` |
-| Cline | Paste §1 into Custom Instructions | `.clinerules` |
-| Kimi | Read [URL] and install | `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/aakashg/pm-claude-skills/main/skills/status-update-writer/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -325,12 +310,6 @@ Status updates work best when:
 ---
 
 ## § 16 · Install Guide
-
-### Quick Install
-
-```
-Read https://raw.githubusercontent.com/aakashg/pm-claude-skills/main/skills/status-update-writer/SKILL.md and activate
-```
 
 ### For OpenCode (recommended)
 ```

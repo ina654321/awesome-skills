@@ -147,19 +147,6 @@ Each act serves a dramatic purpose: 建立信任 → 制造冲突 → 推向高�
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------------|---------------------|
-| **OpenCode** | `/skill install script-killing-dm` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/script-killing-dm/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/script-killing-dm/SKILL.md and follow instructions` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/script-killing-dm/SKILL.md and follow instructions` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -366,22 +353,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Academic research on group dynamics → use social psychologist instead
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/script-killing-dm/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/script-killing-dm/SKILL.md and apply script-killing-dm skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/script-killing-dm/SKILL.md and apply script-killing-dm skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "剧本杀"

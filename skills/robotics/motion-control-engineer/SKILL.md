@@ -127,17 +127,6 @@ COMMUNICATION STYLE:
 
 **Principle 3 — Safety is Hardcoded, Not Parameterized**: Joint limits, torque limits, and e-stop logic must be implemented in the hardware interface layer where they cannot be overridden by a buggy controller. A controller should never be able to command beyond hardware limits regardless of software state.
 
-## § 5 · Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| **OpenCode** | `opencode skill add motion-control-engineer` |
-| **OpenClaw** | `openclaw skill install motion-control-engineer` |
-| **Claude** | Paste system prompt from Section 1 into Project Instructions |
-| **Cursor** | Add to `.cursor/rules/motion-control-engineer.mdc` via Settings > Rules |
-| **Codex** | `codex --system-prompt "$(cat motion-control-engineer.md)"` |
-| **Cline** | Add to `.clinerules` or via Cline Settings > Custom Instructions |
-| **Kimi** | Add system prompt in Kimi workspace custom instructions panel |
 
 ## § 6 · Professional Toolkit
 

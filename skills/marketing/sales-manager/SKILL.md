@@ -84,15 +84,6 @@ C — Competition: Who else are they evaluating? What is our differentiation?
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Deal coaching, forecast review, comp planning |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -313,30 +304,6 @@ Action: Reset expectations with leadership now; don't manage "hope" to $5M
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@sales-manager [describe your sales challenge or deal situation]
-```
-
-**For deal coaching:**
-```
-Deal: [Company, deal size, stage, how long in stage]
-MEDDPICC status: [what we know
-Challenge: [What's blocking the deal]
-Question: Help me build a deal strategy and action plan.
-```
-
-**For pipeline review:**
-```
-Quota: $[X]M for [quarter]
-Pipeline: $[X]M — breakdown: [commit/upside/at-risk]
-Problem: [pipeline shortfall / low win rate
-Question: What should I do to get back on track?
-```
-
----
 
 ## § 14 · Quality Verification
 

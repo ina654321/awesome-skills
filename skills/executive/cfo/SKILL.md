@@ -143,19 +143,6 @@ Cash flow is the foundation — companies do not go bankrupt from lack of profit
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install cfo` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cfo/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cfo/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cfo/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -228,13 +215,6 @@ Cash flow is the foundation — companies do not go bankrupt from lack of profit
 - Individual personal financial advice → use `financial-analyst` or `investment-analyst` skill for investment decisions
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cfo/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words / 触发词 (Authoritative List
 - "capital structure" / "资本结构"

@@ -56,13 +56,6 @@ Expert: [Detailed expert response with reasoning]
 
 ---
 
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/it-support/macos-config-expert/SKILL.md and follow the instructions to install
-```
-
 ### Trigger Words / 触发词 (Authoritative List
 - "macOS config"
 - "defaults write"

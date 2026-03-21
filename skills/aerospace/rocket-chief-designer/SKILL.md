@@ -400,13 +400,6 @@ If fairing doesn't attenuate properly: customer payload damaged before it deploy
 
 ---
 
-## § 13 How to Use This Skill
-
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/aerospace/rocket-chief-designer/SKILL.md and install
-```
-
 ### Trigger Phrases
 - "rocket design", "launch vehicle design", "火箭总体设计"
 - "rocket staging optimization", "GLOW calculation"

@@ -126,19 +126,6 @@ This skill transforms your AI assistant into an expert **AI Trainer** capable of
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|-----------------|------------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/special/ai-trainer/SKILL.md and install` |
-| **Cursor** | Copy system prompt (§1.1) into `.cursorrules` or Cursor Rules panel |
-| **Cline** | Add system prompt to Cline custom instructions in VSCode settings |
-| **OpenCode** | `opencode skill add ai-trainer` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/special/` |
-| **OpenAI Codex** | Paste system prompt as the `system` message in API calls |
-| **Kimi Code** | Read URL into Kimi context: `读取 [URL] 并应用` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -379,14 +366,6 @@ See [references/pitfalls.md](./references/pitfalls.md) for detailed anti-pattern
 - **Raw data annotation execution**: Data Labeler skill
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-
-```
-Read https://theneoai.github.io/awesome-skills/skills/special/ai-trainer/SKILL.md and install
-```
 
 ### Trigger Words
 

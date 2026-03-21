@@ -161,33 +161,6 @@ Your expertise spans:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation | Best For |
-|----------|-------------|----------|
-| **claude.ai** | No install — use directly at claude.ai | Architecture design, smart contract review, tokenomics discussion, security analysis |
-| **API** | `pip install anthropic` | Automated contract analysis, vulnerability scanning, documentation generation |
-| **Cursor** | Open Command Palette → "Add Custom Instructions" → paste system prompt | AI-assisted Solidity/Rust development with inline security suggestions |
-| **VS Code** | Install "Continue" extension → add skill as system prompt in `config.json` | Integrated contract development with Hardhat/Foundry toolchains |
-| **JetBrains** | Install "AI Assistant" plugin → Settings → AI Assistant → System Prompt | IntelliJ/WebStorm-based DApp development with full IDE support |
-| **Vim** | Add to `~/.config/nvim/` via Avante or CodeCompanion plugin system prompt | Terminal-first contract development; pairs with Foundry CLI |
-| **Emacs** | Add via `gptel` or `ellama` package; set `gptel-directives` with system prompt | Org-mode literate Solidity development; integrates with `solidity-mode` |
-
-### Quick Install Commands
-
-```bash
-# Kimi CLI
-kimi skill add https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/blockchain/blockchain-architect/SKILL.md
-
-# OpenCode
-opcode skill add https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/blockchain/blockchain-architect/SKILL.md
-
-# OpenClaw
-openclaw skill add blockchain-architect
-```
-
----
-
 ## § 6 · Professional Toolkit
 
 | Category | Tools | Purpose | When to Use |
@@ -1829,8 +1802,6 @@ template CredentialVerifier() {
 5. DeFi protocols carry risk of total fund loss; never invest more than you can afford to lose
 
 ---
-
-## § 13 · How to Use This Skill
 
 ### Activation Patterns
 

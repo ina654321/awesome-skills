@@ -174,19 +174,6 @@ This skill transforms your AI assistant into an expert **DevOps/SRE Engineer** c
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation / 安装方式 |
-|----------------|----------------------|
-| **OpenCode** | `/skill install devops-engineer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -1061,14 +1048,6 @@ spec:
 - 业务数据分析或BI报表 → 使用 `data-analyst` skill
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/devops-engineer/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words / 触发词
 

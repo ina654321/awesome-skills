@@ -373,20 +373,6 @@ Step 3: Transition Pathway Definition
 
 ## 13. How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/defense/defense-researcher/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/defense/defense-researcher/SKILL.md and apply defense-researcher skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/defense/defense-researcher/SKILL.md and apply defense-researcher skill." >> ./CLAUDE.md
-```
-
 ### Trigger Phrases
 - "defense research"
 - "dual-use technology"

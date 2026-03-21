@@ -149,19 +149,6 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **OpenCode** | `/skill install algorithm-engineer` |
-| **OpenClaw** | `Read SKILL.md URL and install as skill` |
-| **Claude Code** | Paste System Prompt (§1) into system prompt |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read SKILL.md URL and follow instructions` |
-
----
 
 ## § 6 · Domain Knowledge
 

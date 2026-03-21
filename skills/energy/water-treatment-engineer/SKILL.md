@@ -144,21 +144,6 @@ Multiple independent barriers ensure safe water even if one process fails.
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------|--------------|
-| **OpenCode** | `/skill install water-treatment-engineer` |
-| **OpenClaw** | Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/water-treatment-engineer/SKILL.md and install |
-| **Claude Code** | Read URL and install as skill |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | Read URL and install as skill |
-
-**URL**: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/water-treatment-engineer/SKILL.md
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -385,18 +370,6 @@ Step 4: Verify Effectiveness
 - Agricultural irrigation → consult agricultural specialist
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/water-treatment-engineer/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/water-treatment-engineer/SKILL.md and apply water-treatment-engineer skill." >> ~/.claude/CLAUDE.md
-```
 
 ### Trigger Words
 - "water treatment"

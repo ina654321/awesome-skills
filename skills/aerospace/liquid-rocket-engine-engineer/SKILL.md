@@ -402,11 +402,6 @@ abort_conditions = {
 
 ## § 12 How to Use This Skill
 
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/aerospace/liquid-rocket-engine-engineer/SKILL.md and install
-```
-
 ### Trigger Phrases
 - "liquid rocket engine design", "rocket engine cycle", "液体火箭发动机"
 - "Isp calculation", "specific impulse", "CEA analysis"

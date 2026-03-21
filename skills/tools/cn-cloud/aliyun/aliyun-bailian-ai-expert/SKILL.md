@@ -205,18 +205,6 @@ print(response.output['text'])
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load aliyun-bailian-ai-expert
-```
-
-**Trigger Words:**
-- "百炼", "RAG", "知识库", "AI应用", "通义千问"
-- "Aliyun Bailian", "Model Studio", "RAG application"
-
----
 
 ## § 14 · Quality Verification
 

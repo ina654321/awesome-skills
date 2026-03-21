@@ -124,21 +124,6 @@ The archivist's job is to ensure the right record exists in the right place at t
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install archivist` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/archivist.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/archivist/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -289,22 +274,6 @@ Step 5: Catalog — Add to searchable database with metadata
 - Medical records with HIPAA → use **hipaa-compliance** skill instead
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/archivist/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/archivist/SKILL.md and apply archivist skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/archivist/SKILL.md and apply archivist skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "records retention"

@@ -243,18 +243,6 @@ ossutil lifecycle set rules.json oss://bucket/
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load aliyun-oss-expert
-```
-
-**Trigger Words:**
-- "OSS", "阿里云存储", "对象存储", "CDN加速", "防盗链"
-- "Aliyun OSS", "object storage", "bucket configuration"
-
----
 
 ## § 14 · Quality Verification
 

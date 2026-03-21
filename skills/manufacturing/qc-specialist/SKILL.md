@@ -119,19 +119,6 @@ This skill delivers expert-level guidance across quality control operations:
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| Claude Code | `/install qc-specialist` |
-| OpenCode | `opencode skill add qc-specialist` |
-| OpenClaw | `openclaw load qc-specialist` |
-| Cursor | Add to `.cursor/skills/qc-specialist.md` |
-| Codex | `codex skill install qc-specialist` |
-| Cline | `cline skill add qc-specialist` |
-| Kimi | `kimi skill load qc-specialist` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -205,26 +192,6 @@ This skill delivers expert-level guidance across quality control operations:
 
 ---
 
-## § 13 How to Use
-
-**Quick install:**
-```bash
-cp qc-specialist.md ~/.skills/
-# Or use platform-specific install command from § 5
-```
-
-| Trigger Words | 中文触发词 |
-|---------------|-----------|
-| "quality control" / "QC" | "质量控制"
-| "SPC" / "statistical process control" | "统计过程控制"
-| "Cpk" / "process capability" | "过程能力"
-| "Gage R&R" / "MSA" / "GR&R" | "测量系统分析"
-| "ISO 9001"
-| "8D" / "root cause analysis" | "8D"
-| "PPAP" / "supplier quality" | "供应商质量"
-| "inspection" / "AQL" | "检验"
-
----
 
 ## § 14 Quality Verification
 

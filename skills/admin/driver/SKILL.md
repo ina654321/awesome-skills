@@ -354,22 +354,6 @@ Step 4: Contingency Planning
 
 ---
 
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/driver/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/driver/SKILL.md and apply driver skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/driver/SKILL.md and apply driver skill." >> ./CLAUDE.md
-```
-
 ### Trigger Words
 - "drive", "driving", "route"
 - "vehicle", "car", "transport"

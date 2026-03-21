@@ -126,21 +126,6 @@ Technical foundation supports all other layers. Build from bottom up. Each layer
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install singer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/singer.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -283,22 +268,6 @@ Step 5: Warm up specifically—15 minutes minimum before stage
 - User wants to write songs → use songwriter skill
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and apply singer skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/singer/SKILL.md and apply singer skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "vocal"

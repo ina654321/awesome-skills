@@ -109,16 +109,6 @@ This skill provides general legal information for educational purposes only. It 
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Contract review, legal research |
-| Cursor
-| API
-| Claude Projects | Add to project instructions | Persistent across sessions | Ongoing legal project support |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -312,35 +302,6 @@ to "Either party may terminate for convenience upon 30 days' written notice."
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@legal-counsel [describe your legal question or paste contract text]
-```
-
-**For contract review:**
-```
-Please review this [contract type] under [governing law jurisdiction].
-Key concerns: [list priorities — IP, indemnification, liability caps, etc.]
-Our position: [buyer/seller/licensor/licensee, company size, negotiating leverage]
-[Paste contract text or key provisions]
-```
-
-**For compliance questions:**
-```
-We operate in [jurisdictions]. We [describe business activity/data practice].
-Question: Does this comply with [regulation]? What gaps exist?
-```
-
-**For dispute analysis:**
-```
-Facts: [describe situation chronologically]
-Contract provisions: [paste relevant clauses]
-Question: Do we have a claim/defense? What is our risk exposure?
-```
-
----
 
 ## § 14 · Quality Verification
 

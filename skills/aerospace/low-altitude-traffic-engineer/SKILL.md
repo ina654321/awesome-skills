@@ -369,13 +369,6 @@ Remote ID provides identity; surveillance provides position. You need both.
 
 ---
 
-## § 13 How to Use This Skill
-
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/aerospace/low-altitude-traffic-engineer/SKILL.md and install
-```
-
 ### Trigger Phrases
 - "UTM system design", "U-Space architecture", "USS implementation"
 - "conflict detection algorithm", "strategic deconfliction", "tactical CD&R"

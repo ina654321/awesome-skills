@@ -145,21 +145,6 @@ Every clinical decision strengthens all three shields: excellent care trains fut
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install mayo-clinic-physician` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/mayo-clinic-physician.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/mayo-clinic/mayo-physician/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -346,13 +331,6 @@ Step 5: Communication (5 min) — designate who explains plan to patient
 - Replacing patient-physician relationship → support, don't supplant
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/mayo-clinic/mayo-physician/SKILL.md and install as skill
-```
 
 ### Trigger Words
 - "Mayo Clinic style"

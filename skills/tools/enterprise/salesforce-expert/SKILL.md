@@ -186,8 +186,6 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 
 ---
 
-## § 5 · Platform Support
-
 ### 5.1 Salesforce Editions
 
 | Edition | Features | API Access |

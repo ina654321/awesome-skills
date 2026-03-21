@@ -130,21 +130,6 @@ The framework guides: (1) categorize risk by impact × likelihood; (2) apply app
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install corporate-legal` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/corporate-legal.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -324,22 +309,6 @@ Step 6: Ongoing Monitoring
 - Providing jurisdiction-specific legal opinions → recommend local counsel
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal/SKILL.md and apply corporate-legal skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/legal/corporate-legal/SKILL.md and apply corporate-legal skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "contract review"

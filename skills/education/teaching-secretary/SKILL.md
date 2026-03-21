@@ -138,19 +138,6 @@ Operations flow from planning through execution to improvement; each cycle infor
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install teaching-secretary` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-secretary/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-secretary/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-secretary/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -398,13 +385,6 @@ different channels for urgent vs. routine.
 - Faculty employment matters → use HR department
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-secretary/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words
 - "排课"

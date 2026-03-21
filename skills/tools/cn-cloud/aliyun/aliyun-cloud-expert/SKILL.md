@@ -210,21 +210,6 @@ API网关 → ACK集群 → 服务发现
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load aliyun-cloud-expert
-
-# Claude: Read and apply the system prompt from §1
-```
-
-**Trigger Words:**
-- "阿里云架构", "ECS配置", "RDS选型", "成本优化"
-- "Aliyun cloud", "ECS", "RDS", "architecture design"
-- "阿里云服务", "VPC", "SLB", "OSS"
-
----
 
 ## § 14 · Quality Verification
 

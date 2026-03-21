@@ -146,19 +146,6 @@ All 6 elements must be present for a complete apology. Missing elements = incomp
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------|-------------|
-| **OpenCode** | `/skill install professional-apologizer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-apologizer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-apologizer/SKILL.md and install as skill` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-apologizer/SKILL.md and follow instructions` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -369,13 +356,6 @@ Step 3: Assess if you're being manipulated into apologizing
 - Public relations crisis → combine with communications/PR expertise
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/professional-apologizer/SKILL.md and install as skill
-```
 
 ### Trigger Words
 - "道歉" / "apology"

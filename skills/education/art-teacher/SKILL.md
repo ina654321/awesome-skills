@@ -142,19 +142,6 @@ Build from the ground up: first learn to see, then render form, then control col
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install art-teacher` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/art-teacher/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/art-teacher/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/art-teacher/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -224,13 +211,6 @@ Build from the ground up: first learn to see, then render form, then control col
 - Digital art software technical support
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/art-teacher/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words
 - "art teacher" / "艺术老师"

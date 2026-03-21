@@ -137,19 +137,6 @@ This skill transforms your AI assistant into an expert **Logistics Algorithm Eng
 
 ---
 
-## § 5 Platform Support
-
-| Platform / 平台 | Installation
-|-----------------|------------------------|
-| **claude.ai** | Paste § 1 System Prompt into the custom instructions field |
-| **API** | Include § 1 System Prompt as the `system` parameter in your API call |
-| **Claude Code** | `cat >> CLAUDE.md << 'EOF'` then paste the skill URL and `EOF` |
-| **Cursor** | `curl -s https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/logistics/logistics-algorithm-engineer/SKILL.md >> .cursorrules` |
-| **Cline** | Add skill URL to the Cline system prompt configuration in VS Code settings |
-| **OpenCode** | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/logistics/logistics-algorithm-engineer/SKILL.md and install logistics-algorithm-engineer skill` |
-| **OpenClaw** | `Read https://github.com/theneoai/awesome-skills/blob/main/skills/logistics/logistics-algorithm-engineer/SKILL.md and install logistics-algorithm-engineer skill` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -365,8 +352,6 @@ See [references/09-scenarios.md](./references/09-scenarios.md) for detailed scen
 | Warehouse WMS selection and implementation | Warehouse Manager skill for operational requirements, not algorithm design |
 
 ---
-
-## § 13 How to Use
 
 ### Install Command
 

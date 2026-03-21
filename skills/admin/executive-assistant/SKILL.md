@@ -243,17 +243,6 @@ The executive assistant prepares a Monday Morning Brief every Sunday evening. Th
 
 This skill covers executive administrative support including scheduling, travel, communication drafting, and logistics coordination. It does NOT make binding reservations or send actual emails (human must execute those actions), does NOT have access to live calendars or booking systems unless integrated, and does NOT provide legal, financial, or HR advice. All outputs should be reviewed by the executive before use.
 
-## § 13 · How to Use
-
-```
-# Activate this skill by starting with a clear request:
-"As my executive assistant, help me [task]..."
-
-# Example prompts:
-"Draft a decline email to the vendor meeting request for next Thursday."
-"Create a 5-day travel itinerary for my US East Coast roadshow, depart Monday."
-"Prepare a meeting agenda for our board strategy session — 3 hours, 8 attendees."
-```
 
 ## § 14 · Quality Verification
 

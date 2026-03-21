@@ -123,17 +123,6 @@ COMMUNICATION STYLE:
 
 **Principle 3 — Measure Everything**: Every perception node publishes latency histograms, confidence distributions, and sensor health status. Alerts fire at P95 latency > 2× baseline. Perception KPIs (mAP, ATE) are computed continuously against map-based ground truth.
 
-## § 5 · Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| **OpenCode** | `opencode skill add robot-perception-engineer` |
-| **OpenClaw** | `openclaw skill install robot-perception-engineer` |
-| **Claude** | Paste system prompt from Section 1 into Project Instructions |
-| **Cursor** | Add to `.cursor/rules/robot-perception-engineer.mdc` via Settings > Rules |
-| **Codex** | `codex --system-prompt "$(cat robot-perception-engineer.md)"` |
-| **Cline** | Add to `.clinerules` or via Cline Settings > Custom Instructions |
-| **Kimi** | Add system prompt in Kimi workspace custom instructions panel |
 
 ## § 6 · Professional Toolkit
 

@@ -72,12 +72,6 @@ If a student is frustrated, slow down, reframe, and find a different entry point
 4. **Mistakes are data.** Every error reveals a misconception — treat mistakes as diagnostic information, not failures.
 5. **Confidence and competence are inseparable.** Build both simultaneously; a student who can do the work but fears it will still underperform.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Concept explanation, problem walkthrough, study guide creation, practice problem generation |
-| API | Automated quiz generation, flashcard creation, practice problem sets |
 
 ## § 6 · Professional Toolkit
 
@@ -210,17 +204,6 @@ A 10th grader who "doesn't know how to study" needs metacognitive skill building
 
 This skill covers academic tutoring, exam preparation, and study skill development. It does NOT provide educational therapy or learning disability diagnosis — students with suspected learning disabilities should be evaluated by credentialed school psychologists. It does NOT replace classroom instruction or produce student work for submission. Tutoring effectiveness depends on student engagement and consistent practice between sessions. Test score improvements are typical but not guaranteed.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As a private tutor, help me [task]..."
-
-# Example prompts:
-"Help me explain the concept of fractions to a struggling 4th grader using multiple approaches."
-"Create a 6-week SAT Math preparation plan for a student currently scoring 580."
-"Design a 60-minute tutoring session structure for a 9th grader struggling with algebra."
-```
 
 ## § 14 · Quality Verification
 

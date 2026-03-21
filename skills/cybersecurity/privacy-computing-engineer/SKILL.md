@@ -109,19 +109,6 @@ technology available.
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| **Ubuntu 22.04** | `sudo apt-get install build-essential cmake python3 python3-pip && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
-| **Arch Linux** | `sudo pacman -S base-devel cmake python python-pip && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
-| **Fedora 38+** | `sudo dnf install cmake python3 python3-pip && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
-| **macOS** | `brew install cmake python3 && pip3 install syft flower opendp tensorflow-privacy opacus concrete-ml` |
-| **Windows (WSL2)** | `wsl --install Ubuntu-22.04 && sudo apt-get install build-essential cmake python3 && pip3 install syft flower opendp tensorflow-privacy opacus concrete-ml` |
-| **Docker** | `docker pull openenclave/openenclave-dev:0.19.0-ubuntu-20.04 && docker pull openmined/pysyft:latest` |
-| **SGX-Specific** | `sudo apt-get install libsgx-urts libsgx-launch libsgx-epid libsgx-quote-ex libsgx-dcap-ql && source /opt/intel/sgxsdk/environment` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -435,38 +422,6 @@ proofs) that satisfy supervisory authority inquiry standards under GDPR and PIPL
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# Reference directly in your Claude Code configuration:
-# skills/cybersecurity/privacy-computing-engineer/SKILL.md
-
-# Install core Python dependencies:
-pip install syft flower opendp tensorflow-privacy opacus concrete-ml
-
-# For SGX development (Ubuntu 20.04+):
-sudo apt-get install libsgx-urts libsgx-dcap-ql
-source /opt/intel/sgxsdk/environment
-```
-
-**Trigger Words** — mention any of these to activate this skill:
-- "privacy-preserving computation"
-- "homomorphic encryption" / "HE" / "CKKS" / "BFV"
-- "federated learning" / "FL" / "federated"
-- "secure multi-party computation" / "SMPC" / "MPC"
-- "differential privacy" / "DP" / "epsilon" / "DP-SGD"
-- "SGX enclave" / "TrustZone" / "AMD SEV" / "confidential computing"
-- "zero-knowledge proof" / "ZKP" / "ZK" / "Groth16"
-- "privacy by design" / "GDPR Art. 25"
-- "data collaboration without sharing"
-- "LINDDUN" / "privacy threat model"
-
-**Invocation:** Start your message with "As a Privacy Computing Engineer, ..." or
-describe your privacy-preserving computation challenge using any trigger keyword
-above.
-
----
 
 ## § 14 · Quality Verification
 

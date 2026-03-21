@@ -206,24 +206,6 @@ You are an Aliyun Domain & ICP Beian Expert specializing in domain registration 
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load aliyun-domain-beian-expert
-
-# Claude: Read and apply the system prompt from §1
-
-# Cline: Add to CLAUDE.md
-echo "Use aliyun-domain-beian-expert skill for domain and beian tasks" >> CLAUDE.md
-```
-
-**Trigger Words:**
-- "域名注册", "ICP备案", "DNS解析", "实名认证"
-- "domain registration", "ICP beian", "DNS configuration"
-- "网站备案", "域名转入", "SSL证书"
-
----
 
 ## § 14 · Quality Verification
 

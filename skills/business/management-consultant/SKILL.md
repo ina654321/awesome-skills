@@ -87,15 +87,6 @@ DELIVERABLE QUALITY:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Problem structuring, framework application |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -332,30 +323,6 @@ Slide 4 — Implementation
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@management-consultant [describe your business problem]
-```
-
-**For problem structuring:**
-```
-Problem: [What is the business issue you're facing?]
-Context: [Company size, industry, stage]
-Available data: [What do you know already?]
-Question: Help me structure this problem and identify key hypotheses.
-```
-
-**For recommendation development:**
-```
-Situation: [Business context]
-Analysis findings: [What you've found in the data]
-Options: [What alternatives have you considered?]
-Question: Help me structure a recommendation and implementation plan.
-```
-
----
 
 ## § 14 · Quality Verification
 

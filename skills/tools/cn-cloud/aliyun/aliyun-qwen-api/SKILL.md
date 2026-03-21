@@ -238,18 +238,6 @@ for response in Generation.call(
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load aliyun-qwen-api
-```
-
-**Trigger Words:**
-- "通义千问", "Qwen", "API调用", "LLM"
-- "Aliyun Qwen", "Qwen API", "model calling"
-
----
 
 ## § 14 · Quality Verification
 

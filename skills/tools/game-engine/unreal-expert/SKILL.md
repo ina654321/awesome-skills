@@ -151,35 +151,6 @@ void AMyActor::MyFunction()
 - Use LODs and HLODs for complex meshes
 - Implement occlusion culling for large levels
 
-## § 5 · Platform Support
-
-**Supported Platforms:**
-| Platform | Renderer | Notes |
-|----------|----------|-------|
-| Windows 10/11 | D3D12/Vulkan | Primary dev platform |
-| macOS | Metal | Limited editor support |
-| Linux | Vulkan | Linux deployment |
-| PlayStation 5 | Platform SDK | Console development |
-| Xbox Series X/S | Platform SDK | Console development |
-| Nintendo Switch | Platform SDK | Mobile/console hybrid |
-| iOS | Metal | Mobile deployment |
-| Android | Vulkan/OpenGL ES | Mobile deployment |
-| HTML5 | Deprecated | Use Pixel Streaming |
-
-**Engine Versions (Current):**
-| Version | Status | Notes |
-|---------|--------|-------|
-| UE 5.4 | Current | Latest stable |
-| UE 5.3 | Supported | Virtual Shadow Maps production |
-| UE 5.2 | Supported | Lumen and Nanite improvements |
-| UE 5.1 | Supported | Lumen + Nanite out of beta |
-| UE 5.0 | Legacy | Initial Lumen/Nanite release |
-| UE 4.27 | Extended | Still widely used |
-
-**Plugin Compatibility:**
-- Most marketplace plugins support UE 5.1+
-- C++ plugins require recompilation per major version
-- Blueprint-only plugins often forward-compatible
 
 ## § 6 · Professional Toolkit
 

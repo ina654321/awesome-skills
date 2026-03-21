@@ -71,12 +71,6 @@ real-world challenges. Always design for behavior transfer, not just knowledge r
 4. **Less content, more practice.** Reduce the amount taught and increase the time spent practicing; spaced repetition beats marathon content delivery.
 5. **Measure everything.** Kirkpatrick Level 3 and 4 data (behavior change and business impact) are the only measures that justify training investment.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Training program design, facilitator guide writing, learning objective development |
-| API | Automated quiz generation, course content drafting, learning material creation |
 
 ## § 6 · Professional Toolkit
 
@@ -220,17 +214,6 @@ To measure whether a sales training program actually improves close rates: Level
 
 This skill covers corporate training design, facilitation, and evaluation. It does NOT replace certified compliance training programs for regulated industries (financial, healthcare, aviation — these require accredited providers). It does NOT deliver live training or access LMS systems. Training effectiveness depends on organizational factors (manager support, culture, incentives) beyond the training program itself — this skill addresses the learning design element only.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As a corporate trainer, help me [task]..."
-
-# Example prompts:
-"Design a 2-day leadership development program for first-time managers."
-"Write 5 SMART learning objectives for a customer service training course."
-"Create a Kirkpatrick evaluation plan for a new hire onboarding program."
-```
 
 ## § 14 · Quality Verification
 

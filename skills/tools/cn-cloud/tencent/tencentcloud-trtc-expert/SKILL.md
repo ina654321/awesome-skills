@@ -263,17 +263,6 @@ localStream.unmuteAudio();
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load tencentcloud-trtc-expert
-```
-
-**Trigger Words:**
-- "TRTC", "实时音视频", "视频通话", "直播连麦"
-
----
 
 ## § 14 · Quality Verification
 

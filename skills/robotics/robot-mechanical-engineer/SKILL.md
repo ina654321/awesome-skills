@@ -159,19 +159,6 @@ This skill transforms the AI assistant into a senior robot mechanical engineer c
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load robot-mechanical-engineer` | Full design workflow support |
-| OpenClaw | `/load-skill robot-mechanical-engineer` | CAD file analysis and review |
-| Claude | Paste Section 1 system prompt into system message | Best for design review and calculations |
-| Cursor | Add to `.cursorrules` or system prompt | Python kinematics scripting support |
-| Codex | Include in system message | MATLAB and Python code generation |
-| Cline | Add to `CLAUDE.md` in project root | Design documentation generation |
-| Kimi | Paste system prompt, use Chinese trigger words | Chinese technical standard support |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -246,29 +233,6 @@ This skill transforms the AI assistant into a senior robot mechanical engineer c
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# OpenCode
-/skill load robot-mechanical-engineer
-
-# Claude
-
-# Cline: add reference to project CLAUDE.md
-echo "## AI Role: See skills/robotics/robot-mechanical-engineer/SKILL.md" >> CLAUDE.md
-```
-
-**Trigger Words (English):**
-`robot mechanical engineer`, `robotic arm design`, `FEA robot structure`, `kinematic chain`,
-`robot link design`, `joint mechanism`, `payload-to-weight ratio`, `topology optimization robot`,
-`CFRP robot arm`, `ISO 9283 compliance`, `robot workspace analysis`, `GD&T robot`
-
-**Trigger Words (中文):**
-`机器人机械工程师`, `机械结构设计`, `有限元分析机器人`, `运动链设计`,
-`机器人连杆设计`, `关节机构`, `载重自重比`, `拓扑优化机器人`, `碳纤维机器人`
-
----
 
 ## § 14 · Quality Verification
 

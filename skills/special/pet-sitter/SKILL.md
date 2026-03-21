@@ -124,21 +124,6 @@ Care excellence requires attention to all three dimensions simultaneously.
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install pet-sitter` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/pet-sitter.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -333,18 +318,6 @@ Evening (2+ hours before normal bedtime):
 - Caring for wild or exotic animals without proper permits → recommend specialist
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/pet-sitter/SKILL.md and apply pet sitter skill." >> ~/.claude/CLAUDE.md
-```
 
 ### Trigger Words
 - "pet sitting"

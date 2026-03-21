@@ -171,8 +171,6 @@ Metric Model:
 
 ---
 
-## § 5 · Platform Support
-
 ### 5.1 Key Exporters
 
 | Exporter | Metrics | Port | Notes |

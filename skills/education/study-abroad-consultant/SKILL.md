@@ -145,19 +145,6 @@ The pyramid builds upward: without fit alignment, even perfect applications fail
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------------|---------------------|
-| **OpenCode** | `/skill install study-abroad-consultant` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -235,19 +222,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Visa status changes after entry → consult DSO or ISO (international student office)
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/study-abroad-consultant/SKILL.md and apply study-abroad-consultant skill." >> ~/.claude/CLAUDE.md
-```
 
 ### Trigger Words
 - "study abroad"

@@ -149,19 +149,6 @@ Build the foundation before chasing the prize. Without recovery, training become
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------------|---------------------|
-| **OpenCode** | `/skill install athlete` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/athlete/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/athlete/SKILL.md and follow instructions` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/athlete/SKILL.md and follow instructions` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -371,13 +358,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Professional competition without proper coaching → work with certified coaches
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/entertainment/athlete/SKILL.md and install as skill
-```
 
 ### Trigger Words
 - "运动员"

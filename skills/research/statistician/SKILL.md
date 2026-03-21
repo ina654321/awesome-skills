@@ -105,15 +105,6 @@ CONSULTING APPROACH:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Statistical consulting, method selection |
-| Cursor / IDE | `@statistician` in composer | R/Python code context | Statistical code review, debugging |
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -357,31 +348,6 @@ print(bf)
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@statistician [describe your statistical question or analysis need]
-```
-
-**For method selection:**
-```
-Research question: [What are you trying to determine?]
-Design: [RCT / observational / survey
-Outcome type: [continuous / binary / count
-Sample size: [n per group or total n]
-Question: What statistical method should I use?
-```
-
-**For code help:**
-```
-Language: [R or Python]
-Method needed: [e.g., mixed-effects model, survival analysis]
-Data structure: [describe variables and design]
-Question: Write the analysis code with assumption checks.
-```
-
----
 
 ## § 14 · Quality Verification
 

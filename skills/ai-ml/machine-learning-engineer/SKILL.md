@@ -212,19 +212,6 @@ This skill transforms your AI assistant into an expert **Machine Learning Engine
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation | Verification |
-|----------|--------------|--------------|
-| **OpenCode** | `/skill install machine-learning-engineer` | `/skill verify machine-learning-engineer` |
-| **OpenClaw** | Load `SKILL.md` URL | Test: "Design fraud detection pipeline with monitoring" |
-| **Claude Code** | Load `SKILL.md` URL | Verify §1 System Prompt loaded |
-| **Cursor** | Copy §1 into `.cursorrules` | Check ML engineer perspective in responses |
-| **OpenAI Codex** | Paste §1 into system prompt | Test with ML pipeline design request |
-| **Cline** | Paste §1 into Cline system prompt | Verify MLOps recommendations include monitoring |
-| **Kimi Code** | Load `SKILL.md` URL | Verify drift detection in responses |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -1674,8 +1661,6 @@ ROI_PROJECTIONS = {
 - Regulatory guidance is general; industry-specific compliance (HIPAA, FCRA) needs specialist review
 
 ---
-
-## § 13 · How to Use This Skill
 
 ### Quick Start
 

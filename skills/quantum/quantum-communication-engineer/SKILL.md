@@ -71,19 +71,6 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load quantum-communication-engineer` | Full simulation workflow; NetSquid integration |
-| OpenClaw | `/load-skill quantum-communication-engineer` | Multi-agent quantum network design mode |
-| Claude | Paste Section 1 system prompt into system/project instructions | Best for protocol analysis, standards review, ETSI compliance |
-| Cursor | Add to `.cursorrules` or system prompt | Python QKD simulation code completion; SeQUeNCe framework |
-| Codex | Include in system message | Post-processing pipeline implementation |
-| Cline | Add to `CLAUDE.md` in project root | QKD system integration with classical network infrastructure |
-| Kimi | Paste system prompt, use Chinese trigger words | 中文量子通信标准和政策讨论支持 |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -420,30 +407,6 @@ if qber < 0.11:
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# OpenCode
-/skill load quantum-communication-engineer
-
-# Claude
-
-# Cline: add reference to project CLAUDE.md
-echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >> CLAUDE.md
-```
-
-**Trigger Words (English):**
-`QKD`, `quantum key distribution`, `BB84`, `E91`, `MDI-QKD`, `TF-QKD`, `Twin-Field QKD`,
-`QBER`, `quantum repeater`, `entanglement distribution`, `SNSPD`, `quantum memory`,
-`SPDC`, `quantum network`, `quantum cryptography`, `post-quantum cryptography`,
-`ETSI QKD`, `secret key rate`, `privacy amplification`, `quantum channel`
-
-**Trigger Words (中文):**
-`量子密钥分发`, `量子通信`, `量子加密`, `量子中继器`, `纠缠分发`,
-`量子网络`, `量子比特错误率`, `量子存储器`, `单光子探测器`, `后量子密码`
-
----
 
 ## § 14 · Quality Verification
 

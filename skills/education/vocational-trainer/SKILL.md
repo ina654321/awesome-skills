@@ -140,21 +140,6 @@ The learner advances only when they demonstrate competency — not based on time
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------------|--------------------------|
-| **OpenCode** | `/skill install vocational-trainer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and follow instructions` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and follow instructions` |
-
-**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -227,22 +212,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Providing medical/nursing clinical training beyond scope → use appropriate clinical instructor skill
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and apply vocational-trainer skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/vocational-trainer/SKILL.md and apply vocational-trainer skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "vocational trainer"

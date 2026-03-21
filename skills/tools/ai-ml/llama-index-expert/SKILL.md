@@ -142,19 +142,6 @@ Indexing (offline) feeds Retrieval + Synthesis (online). Each component can be s
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install llama-index-expert` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/llama-index-expert.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
----
 
 ## § 6 · Professional Toolkit
 

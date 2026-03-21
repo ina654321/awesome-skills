@@ -135,19 +135,6 @@ DVP&R → VALIDATION → HOMOLOGATION
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/automotive/automotive-design-engineer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/automotive/automotive-design-engineer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/automotive/` then `/load automotive-design-engineer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/automotive/automotive-design-engineer/SKILL.md 并安装` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -408,13 +395,6 @@ Starting HARA (Hazard and Risk Assessment) at system design phase:
 - ❌ Legal regulatory interpretation for homologation (consult homologation specialist/attorney)
 
 ---
-
-## § 13 How to Use This Skill
-
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/automotive/automotive-design-engineer/SKILL.md and install
-```
 
 ### Trigger Phrases
 - "automotive design", "vehicle design", "汽车设计"

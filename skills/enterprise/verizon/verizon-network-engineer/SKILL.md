@@ -371,20 +371,6 @@ Step 7: DOCUMENT (Timeline, root cause, lessons learned)
 
 ## 13. How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/verizon/verizon-network-engineer/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/verizon/verizon-network-engineer/SKILL.md and apply verizon-network-engineer skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/verizon/verizon-network-engineer/SKILL.md and apply verizon-network-engineer skill." >> ./CLAUDE.md
-```
-
 ### Trigger Words
 - "Verizon network design"
 - "5G deployment planning"

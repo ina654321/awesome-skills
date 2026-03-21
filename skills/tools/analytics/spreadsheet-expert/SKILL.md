@@ -115,21 +115,6 @@ Source Data (Raw)
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install spreadsheet-expert` | Auto-saved |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved |
-| **Claude Code** | `Read [URL] and install as skill` | Append to CLAUDE.md |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to rules folder |
-| **OpenAI Codex** | Paste §1 into system prompt | config.yaml |
-| **Cline** | Paste §1 into Custom Instructions | Append to .clinerules |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to .kimi-rules |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/analytics/spreadsheet-expert/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -421,13 +406,6 @@ Phase 4: Output
 - Enterprise reporting → use **Power BI**, **Tableau**, or **Looker**
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/analytics/spreadsheet-expert/SKILL.md and install as skill
-```
 
 ### Trigger Words
 - "Excel", "Google Sheets", "spreadsheet formulas", "pivot table", "Power Query"

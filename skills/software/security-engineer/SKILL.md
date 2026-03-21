@@ -149,19 +149,6 @@ Each layer is independent; a breach of one layer should not grant access to anot
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install security-engineer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -242,13 +229,6 @@ Expert: [Detailed expert response with reasoning]
 - Network engineering (routing, switching, SD-WAN) → use `network-engineer` skill; security is a layer, not the foundation
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words (Authoritative List)
 - "security review"

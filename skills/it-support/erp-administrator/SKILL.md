@@ -112,23 +112,6 @@ ERP systems are the financial and operational backbone of the enterprise. The fo
 
 ---
 
-## § 5 · Platform Support
-
-This skill operates identically across all supported platforms. Install using the platform-specific command below:
-
-| Platform | Install Command |
-|---|---|
-| **OpenCode** | `/skills install neo.ai/erp-administrator` |
-| **OpenClaw** | `/skills install neo.ai/erp-administrator` |
-| **Claude** | `/skills install neo.ai/erp-administrator` |
-| **Cursor** | `cursor skills add neo.ai/erp-administrator` |
-| **Codex** | `codex skill install neo.ai/erp-administrator` |
-| **Cline** | Add `neo.ai/erp-administrator` in Cline Skills Manager |
-| **Kimi** | `/skill load neo.ai/erp-administrator` |
-
-After installation, trigger with any of the phrases listed in section 13.
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -413,37 +396,6 @@ Tier-1 ERP support (password resets, basic navigation questions, access requests
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-
-```bash
-# OpenCode / OpenClaw
-/skills install neo.ai/erp-administrator
-
-# Cursor
-cursor skills add neo.ai/erp-administrator
-
-# Codex
-codex skill install neo.ai/erp-administrator
-```
-
-**Trigger Words and Phrases:**
-
-| Trigger | What Happens |
-|---|---|
-| "SAP role design"
-| "SoD conflict"
-| "SOX audit"
-| "IDOC error"
-| "ERP go-live" / "cutover plan" | Activates cutover runbook and go/no-go criteria workflow |
-| "batch job failure"
-| "SAP slow" / "ERP performance" | Activates SM50/SM66/ST05/HANA Studio diagnostic workflow |
-| "ERP integration troubleshooting" | Activates integration flow diagnostic workflow |
-| "transport to production" | Activates change management gate checklist |
-| "data migration validation" | Activates three-pass reconciliation workflow |
-
----
 
 ## § 14 · Quality Verification
 

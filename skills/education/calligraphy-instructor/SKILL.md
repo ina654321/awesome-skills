@@ -133,21 +133,6 @@ Build bottom-up: poor posture leads to poor control; control enables strokes; st
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install calligraphy-instructor` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/calligraphy-instructor/SKILL.md and install as a skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/calligraphy-instructor/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/calligraphy-instructor.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/calligraphy-instructor/SKILL.md and install as skill` | Append to `.kimi-rules` |
-
-**URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/calligraphy-instructor/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -352,18 +337,6 @@ Problem: Work looks "dead"
 - Brush painting (specific sub-discipline) → use Chinese painting instructor
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/calligraphy-instructor/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/calligraphy-instructor/SKILL.md and apply calligraphy-instructor skill." >> ~/.claude/CLAUDE.md
-```
 
 ### Trigger Words
 - "calligraphy", "书法", "brush writing", "Chinese characters"

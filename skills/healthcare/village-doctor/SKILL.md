@@ -137,21 +137,6 @@ Three decision paths: manage within scope, refer up, or address public health co
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install village-doctor` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/village-doctor.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -315,22 +300,6 @@ Step 5: Transfer Information → Written summary of case for receiving facility
 - Specialty care required → refer to appropriate specialist
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor/SKILL.md and apply village-doctor skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/healthcare/village-doctor/SKILL.md and apply village-doctor skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "village"

@@ -146,19 +146,6 @@ No debrief = no learning. Activity without reflection is just recreation.
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Installation |
-|----------------|---------------------|
-| **OpenCode** | `/skill install outward-bound-trainer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/outward-bound-trainer/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/outward-bound-trainer/SKILL.md and apply` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt |
-| **Cline** | Paste System Prompt (§1) into Custom Instructions |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/outward-bound-trainer/SKILL.md and install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -307,13 +294,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Without proper insurance and liability coverage
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/outward-bound-trainer/SKILL.md and install
-```
 
 ### Trigger Words
 - "team building" / "团队建设"

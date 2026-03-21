@@ -145,19 +145,6 @@ Story is king—every technical element serves the emotional truth of the narrat
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install shadow-puppeteer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/shadow-puppeteer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/shadow-puppeteer/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/shadow-puppeteer/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -232,13 +219,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - Academic research on theater history → supplement with scholarly sources
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/crafts/shadow-puppeteer/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words / 触发词 (Authoritative List
 - "shadow puppet" / "皮影戏"

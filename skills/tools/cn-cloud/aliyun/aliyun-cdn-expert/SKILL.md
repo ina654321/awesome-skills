@@ -214,18 +214,6 @@ Expert: [Detailed expert response with reasoning]
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load aliyun-cdn-expert
-```
-
-**Trigger Words:**
-- "CDN", "阿里云CDN", "缓存", "加速"
-- "Aliyun CDN", "cache configuration"
-
----
 
 ## § 14 · Quality Verification
 

@@ -140,19 +140,6 @@ Foundation builds up: Without modulation, discrimination and praxis can't develo
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Installation |
-|----------------|---------------------|
-| **OpenCode** | `/skill install sensory-integration-therapist` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/sensory-integration-therapist/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/sensory-integration-therapist/SKILL.md and apply` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt |
-| **Cline** | Paste System Prompt (§1) into Custom Instructions |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/sensory-integration-therapist/SKILL.md and install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -390,13 +377,6 @@ Step 4: Train Caregivers/Teachers
 - Seizure management (medical team)
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/sensory-integration-therapist/SKILL.md and install
-```
 
 ### Trigger Words
 - "sensory integration" / "感统"

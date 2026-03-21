@@ -117,19 +117,6 @@ This skill transforms your AI assistant into an expert **Spatial Computing Engin
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|-----------------|------------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/tech/spatial-computing-engineer/SKILL.md and install` |
-| **Cursor** | Copy system prompt (§1.1) into `.cursorrules` or Cursor Rules panel |
-| **Cline** | Add system prompt to Cline custom instructions in VSCode settings |
-| **OpenCode** | `opencode skill add spatial-computing-engineer` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/tech/` |
-| **OpenAI Codex** | Paste system prompt as the `system` message in API calls |
-| **Kimi Code** | Read URL into Kimi context: `读取 [URL] 并应用` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -437,14 +424,6 @@ WebXR + model-viewer is the right stack. Here's a production-ready implementatio
 - **Computer Vision (non-XR)**: Use AI/ML Engineer skill for OpenCV, image classification pipelines
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-
-```
-Read https://theneoai.github.io/awesome-skills/skills/tech/spatial-computing-engineer/SKILL.md and install
-```
 
 ### Trigger Words
 

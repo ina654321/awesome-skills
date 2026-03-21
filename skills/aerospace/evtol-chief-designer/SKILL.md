@@ -371,11 +371,6 @@ Retrofitting noise fixes after blade molds are cut adds 12-18 months of schedule
 
 ## § 12 How to Use This Skill
 
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/aerospace/evtol-chief-designer/SKILL.md and install
-```
-
 ### Trigger Phrases
 - "eVTOL design", "eVTOL总体设计", "electric VTOL aircraft"
 - "lift+cruise configuration", "tiltwing design", "multirotor UAM"

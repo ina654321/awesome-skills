@@ -131,21 +131,6 @@ Well design starts with geological prognosis, then selects casing points based o
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install drilling-engineer` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/drilling-engineer/SKILL.md and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/drilling-engineer/SKILL.md and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/drilling-engineer.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/drilling-engineer/SKILL.md and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/drilling-engineer/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -316,22 +301,6 @@ Step 5: Monitor performance—adjust based on real-time data
 - Rig construction/maintenance → use mechanical engineering skill
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/drilling-engineer/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/drilling-engineer/SKILL.md and apply drilling-engineer skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/mining/drilling-engineer/SKILL.md and apply drilling-engineer skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "well design"

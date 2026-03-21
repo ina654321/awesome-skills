@@ -378,13 +378,6 @@ Design implications:
 
 ---
 
-## § 13 How to Use This Skill
-
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/aerospace/space-mission-planner/SKILL.md and install
-```
-
 ### Trigger Phrases
 - "space mission design", "mission architecture", "航天任务规划"
 - "delta-V budget", "orbital mechanics", "trajectory design"

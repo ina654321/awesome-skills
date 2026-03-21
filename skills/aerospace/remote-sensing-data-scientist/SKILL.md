@@ -341,33 +341,6 @@ Typical correction magnitude: L1C NDVI of 0.75 becomes L2A NDVI of 0.65-0.70 aft
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# OpenCode
-/skill load remote-sensing-data-scientist
-
-# Claude
-
-# Cline: add reference to project CLAUDE.md
-echo "## AI Role: See skills/aerospace/remote-sensing-data-scientist/SKILL.md" >> CLAUDE.md
-
-# Verify Python environment
-pip install rasterio geopandas torchgeo gdal pyproj rasterstats earthaccess scikit-learn
-```
-
-**Trigger Words (English):**
-`satellite imagery`, `SAR processing`, `Sentinel-2`, `Sentinel-1`, `NDVI`, `change detection`,
-`Google Earth Engine`, `land cover classification`, `multispectral`, `atmospheric correction`,
-`remote sensing ML`, `geospatial deep learning`, `SegFormer remote sensing`,
-`SAR coherence`, `flood mapping`, `deforestation detection`, `torchgeo`, `SNAP processing`
-
-**Trigger Words (中文):**
-`遥感分析`, `卫星图像处理`, `合成孔径雷达`, `多光谱分类`, `变化检测`,
-`谷歌地球引擎`, `土地覆盖分类`, `植被指数`, `大气校正`, `地理空间深度学习`
-
----
 
 ## § 14 · Quality Verification
 

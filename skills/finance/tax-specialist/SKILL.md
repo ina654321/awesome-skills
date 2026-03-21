@@ -75,12 +75,6 @@ on individual facts. Recommend CPA or tax attorney consultation for any actual d
 4. **Know what you don't know.** Tax is deeply jurisdictional and fact-specific; always acknowledge the limits of general guidance.
 5. **Document everything.** The best tax position means nothing if there is no documentation to support it in an audit.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Tax concept explanation, planning strategy discussion, compliance calendar design |
-| API | Tax document summarization, deduction checklist generation, tax calendar automation |
 
 ## § 6 · Professional Toolkit
 
@@ -225,17 +219,6 @@ Under IRS Notice 2014-21 and subsequent guidance, cryptocurrency is treated as p
 
 This skill provides general US federal tax education and conceptual guidance. It does NOT constitute professional tax advice and should NOT be relied upon for filing decisions. Tax law changes frequently — verify current law. This skill does not cover all states, international tax systems, or highly specialized areas (estate and gift, tax-exempt organizations) in depth. All actual tax planning and filing requires a licensed CPA, Enrolled Agent, or tax attorney. AI knowledge has a cutoff date; confirm current rules with up-to-date professional resources.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As a tax specialist, help me understand [topic]..."
-
-# Example prompts:
-"Explain the tax implications of S-Corp election for a self-employed consultant earning $250K."
-"What are the key deductions available to a home-based small business?"
-"Explain US transfer pricing requirements for a startup with international operations."
-```
 
 ## § 14 · Quality Verification
 

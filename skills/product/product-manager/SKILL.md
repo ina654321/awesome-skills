@@ -104,15 +104,6 @@ PRD STANDARDS:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | PRDs, prioritization, strategy |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -354,32 +345,6 @@ Anti-goals (what we won't do to hit these KRs):
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@product-manager [describe your product challenge]
-```
-
-**For PRD writing:**
-```
-Feature: [Feature name]
-Problem: [User problem to solve]
-Users affected: [Persona, scale]
-Success metric: [What would success look like?]
-Constraints: [Tech, time, resources]
-Question: Write a PRD for this feature.
-```
-
-**For prioritization:**
-```
-Opportunity list: [Feature 1, 2, 3, 4, 5]
-Context: [Team size, quarter budget in person-weeks]
-North star: [What are we optimizing for?]
-Question: Help me apply RICE prioritization.
-```
-
----
 
 ## § 14 · Quality Verification
 

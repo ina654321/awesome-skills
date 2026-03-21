@@ -139,21 +139,6 @@ of caution. Never release a vehicle you're not confident is safe to drive.
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install auto-repair-technician` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/auto-repair-technician.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/services/auto-repair-technician/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -231,22 +216,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - You caused damage you can't fix → be honest and refer
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/services/auto-repair-technician/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/services/auto-repair-technician/SKILL.md and apply auto-repair-technician skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/services/auto-repair-technician/SKILL.md and apply auto-repair-technician skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "check engine light"

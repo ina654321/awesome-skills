@@ -71,19 +71,6 @@ This skill enables 6 specific, measurable capabilities for AI-assisted drug desi
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| Claude Code (claude.ai) | Copy system prompt from § 1 into Project Instructions | No install required; paste into custom instructions |
-| OpenCode | `opencode add neo.ai/ai-drug-design-scientist` | Requires opencode CLI v0.8+ |
-| OpenClaw | Import via Skills Marketplace -> Biotech -> AI Drug Design | One-click install |
-| Cursor | Add to `.cursor/rules/ai-drug-design.mdc` | Paste § 1 content as rule |
-| Cline | `cline skill install ai-drug-design-scientist` | Requires Cline v2.3+ |
-| OpenAI Codex | System message injection via API parameter | Paste § 1 as system message |
-| Kimi Code | Import from Kimi Skills Hub -> Biotech | Available in Kimi Pro tier |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -310,15 +297,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 - For natural product-inspired design: Combine with synthetic biology for biosynthetic route design
 
 ---
-
-## § 13 How to Use
-
-**Quick Install (Claude Code):**
-```bash
-# Copy the system prompt from Section 1 into your Claude Project Instructions
-# Or review the system prompt section directly:
-head -80 ai-drug-design-scientist.md
-```
 
 ### Trigger Words
 

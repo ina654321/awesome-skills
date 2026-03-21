@@ -377,11 +377,6 @@ Country-specific requirements NOT covered by BASA:
 
 ## § 12 How to Use This Skill
 
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/aerospace/airworthiness-certification-engineer/SKILL.md and install
-```
-
 ### Trigger Phrases
 - "airworthiness certification", "适航认证", "type certificate"
 - "DO-178C compliance", "DO-178C DAL", "software certification aviation"

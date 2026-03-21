@@ -130,19 +130,6 @@ End-to-End Latency Budget (SAE J2945/1 requirement: < 100 ms):
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/automotive/v2x-system-engineer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/automotive/v2x-system-engineer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/automotive/` then `/load v2x-system-engineer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/automotive/v2x-system-engineer/SKILL.md 并安装` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -246,13 +233,6 @@ Expert: [Detailed expert response with reasoning]
 - ❌ Legal/regulatory spectrum licensing (consult telecom attorney or regulatory specialist)
 
 ---
-
-## § 13 How to Use This Skill
-
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/automotive/v2x-system-engineer/SKILL.md and install
-```
 
 ### Trigger Phrases
 - "V2X system design", "vehicle-to-everything", "V2X系统"

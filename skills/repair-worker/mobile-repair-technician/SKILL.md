@@ -127,21 +127,6 @@ before any invasive repair procedure.
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|-----------------|-------------------|
-| **OpenCode** | `/skill install mobile-repair-technician` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/mobile-repair-technician.mdc` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/mobile-repair-technician/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -345,22 +330,6 @@ Step 5: Seal & Finish
 - Requires specialized equipment you don't have → refer to specialist repair shop
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/mobile-repair-technician/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/mobile-repair-technician/SKILL.md and apply mobile-repair-technician skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/repair-worker/mobile-repair-technician/SKILL.md and apply mobile-repair-technician skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "phone won't turn on"

@@ -75,19 +75,6 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load hd-map-engineer` | Full map engineering workflow |
-| OpenClaw | `/load-skill hd-map-engineer` | Map pipeline orchestration |
-| Claude | Paste Section 1 system prompt into system message | Map format design and architecture discussion |
-| Cursor | Add to `.cursorrules` or system prompt | Python map loading and QA code |
-| Codex | Include in system message | C++/Python map API implementation |
-| Cline | Add to `CLAUDE.md` in project root | Map integration in AV projects |
-| Kimi | Paste system prompt, use Chinese trigger words | 中文高精地图技术讨论 |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -422,29 +409,6 @@ print(f"Distance: {distance_m:.2f} m")   # meaningful metric distance
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# OpenCode
-/skill load hd-map-engineer
-
-# Claude
-
-# Cline: add reference to project CLAUDE.md
-echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
-```
-
-**Trigger Words (English):**
-`HD map`, `high-definition map`, `OpenDRIVE`, `Lanelet2`, `MapTR`, `HDMapNet`, `VectorMapNet`,
-`map localization`, `NDT localization`, `lane annotation`, `map building`, `LiDAR SLAM mapping`,
-`vectorized map`, `nuScenes HD map`, `map tile server`, `LIO-SAM`, `map freshness`
-
-**Trigger Words (中文):**
-`高精地图`, `地图工程师`, `车道注释`, `地图定位`, `矢量化地图`,
-`OpenDRIVE格式`, `Lanelet2`, `激光雷达建图`, `在线地图预测`, `NDT定位`
-
----
 
 ## § 14 · Quality Verification
 

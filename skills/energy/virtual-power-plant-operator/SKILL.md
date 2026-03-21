@@ -145,21 +145,6 @@ VPP extracts value from DER through multiple revenue streams, stacking capabilit
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------|--------------|
-| **OpenCode** | `/skill install virtual-power-plant-operator` |
-| **OpenClaw** | Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/virtual-power-plant-operator/SKILL.md and install |
-| **Claude Code** | Read URL and install as skill |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | Read URL and install as skill |
-
-**URL**: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/virtual-power-plant-operator/SKILL.md
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -361,18 +346,6 @@ Step 4: Verify and Report
 - Regulatory filing preparation → consult legal/regulatory expert
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/virtual-power-plant-operator/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/virtual-power-plant-operator/SKILL.md and apply virtual-power-plant-operator skill." >> ~/.claude/CLAUDE.md
-```
 
 ### Trigger Words
 - "virtual power plant"

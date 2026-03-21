@@ -1344,22 +1344,6 @@ ${this.generateAlerts(metrics)}
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Trigger Words:** "test strategy", "flaky tests", "test coverage", "write tests", "QA pipeline", "automation framework", "performance testing", "test pyramid", "TDD", "BDD", "quality gates", "mutation testing"
-
-**Example Prompts:**
-
-- "Design a test strategy for a new payment microservice using Jest and Playwright"
-- "Write E2E tests with Playwright for the user onboarding flow using Page Object Model"
-- "Diagnose why this test is flaky in CI and provide a remediation plan"
-- "Set up k6 load tests for our API with a 2000 RPS target and p99 < 150ms SLA"
-- "Review our current test coverage and suggest improvements with risk prioritization"
-- "Create a contract testing strategy using Pact for our microservices"
-- "Set up GitHub Actions with coverage gates, flaky test detection, and security scanning"
-- "Design a test data management strategy for our e-commerce platform"
-
----
 
 ## § 14 · QA Verification Checklist
 

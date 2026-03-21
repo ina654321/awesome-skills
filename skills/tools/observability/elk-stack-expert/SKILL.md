@@ -132,8 +132,6 @@ This skill provides comprehensive guidance for ELK Stack platform operations:
 
 ---
 
-## § 5 · Platform Support
-
 ### 5.1 Elasticsearch Versions & Features
 
 | Version | Release | Key Features |

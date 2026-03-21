@@ -407,20 +407,6 @@ Step 5: Validate
 
 ## § 14 — How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/openai/openai-researcher/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/openai/openai-researcher/SKILL.md and apply openai-researcher skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/openai/openai-researcher/SKILL.md and apply openai-researcher skill." >> ./CLAUDE.md
-```
-
 ### Trigger Words
 - "OpenAI research"
 - "AGI development"

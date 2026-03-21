@@ -135,21 +135,6 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------------|--------------------------|
-| **OpenCode** | `/skill install teaching-assistant` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and follow instructions` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and follow instructions` |
-
-**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -346,22 +331,6 @@ Step 4: Follow Up
 - Managing school budgets or facilities → use `school-administrator` skill instead
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and apply teaching-assistant skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/teaching-assistant/SKILL.md and apply teaching-assistant skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "teaching assistant"

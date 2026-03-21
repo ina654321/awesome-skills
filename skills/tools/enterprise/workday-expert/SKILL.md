@@ -161,22 +161,6 @@ grant_type=client_credentials&client_id=xxx&client_secret=yyy
 
 ---
 
-## § 5 · Platform Support
-
-| Module | API Coverage |
-|--------|--------------|
-| Core HCM | Full REST v2 |
-| Payroll | Full REST v2 |
-| Time & Absence | Full REST v2 |
-| Benefits | Full REST v2 |
-| Financials | Full REST v2 |
-| Prism Analytics | REST + Atom Feed |
-
-**Version Compatibility:**
-- **Current:** v44.0 / 2026 R1 (Jan 2026)
-- **Next:** v45.0 / 2026 R2 (May 2026)
-
----
 
 ## § 6 · Professional Toolkit
 

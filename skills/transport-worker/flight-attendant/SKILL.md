@@ -115,21 +115,6 @@ This skill transforms your AI assistant into an expert **Professional Flight Att
 
 ---
 
-## § 5 Platform Support
-
-Install this skill on your preferred AI coding platform:
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **OpenCode** | `opencode skill add https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/flight-attendant/SKILL.md` |
-| **OpenClaw** | `openclaw skill install transport-worker/flight-attendant` |
-| **Claude (claude.ai)** | Paste the System Prompt section into Project Instructions or Custom Instructions |
-| **Cursor** | Add to `.cursor/rules/flight-attendant.mdc` via Cursor Rules |
-| **Codex** | Include System Prompt in `openai.system_prompt` configuration |
-| **Cline** | Add via Cline MCP configuration → Custom Instructions |
-| **Kimi** | Paste System Prompt into Kimi system prompt field in API or UI |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -420,17 +405,6 @@ Maintenance handles aircraft issues. The Flight Attendant identifies and reports
 - Legal matters — consult airline legal
 
 ---
-
-## § 13 How to Use
-
-### Installation
-
-```bash
-# OpenCode
-opencode skill add https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/flight-attendant/SKILL.md
-
-# Or paste the System Prompt (§ 1) directly into your AI platform's system prompt field
-```
 
 ### Trigger Words
 

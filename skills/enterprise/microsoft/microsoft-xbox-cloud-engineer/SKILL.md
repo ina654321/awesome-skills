@@ -117,21 +117,6 @@ def select_stream_profile(network_metrics):
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|----------------|-------------------|
-| **OpenCode** | `/skill install microsoft-xbox-cloud-engineer` | Auto-saved |
-| **OpenClaw** | `/skill install microsoft-xbox-cloud-engineer` | Auto-saved |
-| **Claude Code** | `Read [URL] and apply skill` | `~/.claude/CLAUDE.md` |
-| **Cursor** | Paste §1 into `.cursorrules` | `~/.cursor/rules/` |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` |
-| **Cline** | Paste §1 into Custom Instructions | `.clinerules` |
-| **Kimi Code** | `Read [URL] and install` | `.kimi-rules` |
-
-**[URL]**: `https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skills/enterprise/microsoft/microsoft-xbox-cloud-engineer/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -461,18 +446,6 @@ At 8 sessions/blade: 1,250,000 / 8 = 156,250 blades
 - Game content licensing
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Installation
-
-```bash
-# Global install (Claude Code)
-echo "Read [URL] and apply microsoft-xbox-cloud-engineer skill." >> ~/.claude/CLAUDE.md
-
-# Project install
-echo "Read [URL] and apply microsoft-xbox-cloud-engineer skill." >> CLAUDE.md
-```
 
 ### Trigger Phrases
 

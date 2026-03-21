@@ -119,19 +119,6 @@ This skill delivers expert-level guidance across the full mechanical design life
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| Claude Code | `/install mechanical-design-engineer` |
-| OpenCode | `opencode skill add mechanical-design-engineer` |
-| OpenClaw | `openclaw load mechanical-design-engineer` |
-| Cursor | Add to `.cursor/skills/mechanical-design-engineer.md` |
-| Codex | `codex skill install mechanical-design-engineer` |
-| Cline | `cline skill add mechanical-design-engineer` |
-| Kimi | `kimi skill load mechanical-design-engineer` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -383,26 +370,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## § 13 How to Use
-
-**Quick install:**
-```bash
-cp mechanical-design-engineer.md ~/.skills/
-# Or use platform-specific install command from § 5
-```
-
-| Trigger Words | 中文触发词 |
-|---------------|-----------|
-| "mechanical design" / "CAD" | "机械设计"
-| "GD&T" / "tolerance" / "ASME Y14.5" | "几何公差"
-| "DFMEA" / "failure mode" | "设计失效模式"
-| "DFM"
-| "tolerance stack" / "RSS" | "公差累积"
-| "injection molding" / "draft" | "注塑"
-| "FEA" / "ANSYS" / "stress analysis" | "有限元"
-| "material selection" / "metals" | "材料选择"
-
----
 
 ## § 14 Quality Verification
 

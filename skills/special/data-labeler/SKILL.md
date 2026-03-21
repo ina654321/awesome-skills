@@ -183,19 +183,6 @@ This skill transforms your AI assistant into an expert **Data Labeler** capable 
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|-----------------|------------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/special/data-labeler/SKILL.md and install` |
-| **Cursor** | Copy system prompt (§1.1) into `.cursorrules` or Cursor Rules panel |
-| **Cline** | Add system prompt to Cline custom instructions in VSCode settings |
-| **OpenCode** | `opencode skill add data-labeler` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/special/` |
-| **OpenAI Codex** | Paste system prompt as the `system` message in API calls |
-| **Kimi Code** | Read URL into Kimi context: `读取 [URL] 并应用` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -305,14 +292,6 @@ Expert: [Detailed expert response with reasoning]
 - **Active learning model setup**: ML Engineer + Data Labeler collaboration
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-
-```
-Read https://theneoai.github.io/awesome-skills/skills/special/data-labeler/SKILL.md and install
-```
 
 ### Trigger Words
 

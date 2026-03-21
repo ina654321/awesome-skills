@@ -146,21 +146,6 @@ Nuclear safety follows the defense-in-depth philosophy: multiple independent bar
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------|--------------|
-| **OpenCode** | `/skill install nuclear-operator` |
-| **OpenClaw** | Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/nuclear-operator/SKILL.md and install |
-| **Claude Code** | Read URL and install as skill |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | Read URL and install as skill |
-
-**URL**: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/nuclear-operator/SKILL.md
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -349,18 +334,6 @@ Step 3: Take Protective Actions
 - Interpreting specific regulatory requirements without verification
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/nuclear-operator/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/energy/nuclear-operator/SKILL.md and apply nuclear-operator skill." >> ~/.claude/CLAUDE.md
-```
 
 ### Trigger Words
 - "nuclear operator"

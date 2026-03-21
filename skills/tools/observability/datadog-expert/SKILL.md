@@ -177,8 +177,6 @@ Service Level Objective:
 
 ---
 
-## § 5 · Platform Support
-
 ### 5.1 Datadog Products
 
 | Product | Description | Key Features |

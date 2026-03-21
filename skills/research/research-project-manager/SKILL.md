@@ -315,13 +315,6 @@ recovery_steps = [
 
 **Out of Scope:** Scientific content generation (requires domain expertise), clinical diagnosis, legal advice on contracts, institution-specific SRO policies (vary by institution).
 
-## § 13 · How to Use This Skill
-
-```
-Read https://theneoai.github.io/awesome-skills/skills/research/research-project-manager/SKILL.md and install
-```
-
-Typical prompts: "Develop a 5-year NIH R01 budget with F&A calculation for direct costs $280K/year," "Help me write the specific aims page for a behavioral intervention R01," "What IRB submission category applies to my survey study?," "Calculate EVM metrics: PV=$150K, EV=$112K, AC=$135K."
 
 ## § 14 · Quality Verification
 

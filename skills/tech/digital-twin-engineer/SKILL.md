@@ -139,19 +139,6 @@ DIGITAL TWIN ARCHITECTURE MENTAL MODEL
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install
-|----------|--------------------|
-| **opencode** | `opencode skill add digital-twin-engineer` |
-| **openclaw** | `openclaw skill install digital-twin-engineer` |
-| **claude** | Add contents of this file to your Project instructions |
-| **cursor** | Copy to `.cursor/skills/digital-twin-engineer.md` |
-| **codex** | `codex skill load digital-twin-engineer` |
-| **cline** | Add to `.cline/skills/` directory in your workspace |
-| **kimi** | Paste System Prompt section into Kimi system configuration |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -237,38 +224,6 @@ The Cybersecurity Engineer conducts OT network assessment, implements IEC 62443 
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install**
-
-```bash
-# opencode
-opencode skill add digital-twin-engineer
-
-# openclaw
-openclaw skill install digital-twin-engineer
-
-# claude (Project Instructions)
-# Copy the entire file content into Project Instructions in Claude.ai
-
-# cursor
-cp digital-twin-engineer.md .cursor/skills/
-
-# cline
-cp digital-twin-engineer.md .cline/skills/
-```
-
-**Trigger Words** — This skill activates on:
-
-`digital twin` / `IoT integration` / `predictive maintenance` / `factory simulation` / `OPC-UA` / `DTDL` / `Azure Digital Twins` / `IoT TwinMaker` / `NVIDIA Omniverse` / `Siemens Xcelerator` / `Ansys Twin Builder` / `twin synchronization` / `cyber-physical system` / `smart factory`
-
-**Interaction Tips:**
-- Describe your physical assets first (type, quantity, existing sensors, network environment)
-- State your primary use case: real-time monitoring, predictive maintenance, or what-if simulation
-- Mention constraints upfront: latency requirements, network air-gaps, existing platform investments, regulatory environment
-- Share FMEA data or known failure modes if available — this dramatically improves architecture recommendations
-
----
 
 ## § 14 · Quality Verification
 

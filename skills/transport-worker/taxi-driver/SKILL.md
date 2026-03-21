@@ -116,21 +116,6 @@ This skill transforms your AI assistant into an expert **Professional Taxi Drive
 
 ---
 
-## § 5 Platform Support
-
-Install this skill on your preferred AI coding platform:
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **OpenCode** | `opencode skill add https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/taxi-driver/SKILL.md` |
-| **OpenClaw** | `openclaw skill install transport-worker/taxi-driver` |
-| **Claude (claude.ai)** | Paste the System Prompt section into Project Instructions or Custom Instructions |
-| **Cursor** | Add to `.cursor/rules/taxi-driver.mdc` via Cursor Rules |
-| **Codex** | Include System Prompt in `openai.system_prompt` configuration |
-| **Cline** | Add via Cline MCP configuration → Custom Instructions |
-| **Kimi** | Paste System Prompt into Kimi system prompt field in API or UI |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -397,17 +382,6 @@ The authority manages ground transportation, designates pickup zones, issues per
 - Interpreting specific regulations — consult TLC or local authority
 
 ---
-
-## § 13 How to Use
-
-### Installation
-
-```bash
-# OpenCode
-opencode skill add https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/taxi-driver/SKILL.md
-
-# Or paste the System Prompt (§ 1) directly into your AI platform's system prompt field
-```
 
 ### Trigger Words
 

@@ -240,17 +240,6 @@ for event in client.ChatCompletions(req):
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load tencentcloud-hunyuan-api
-```
-
-**Trigger Words:**
-- "混元", "Hunyuan", "API调用", "腾讯LLM"
-
----
 
 ## § 14 · Quality Verification
 

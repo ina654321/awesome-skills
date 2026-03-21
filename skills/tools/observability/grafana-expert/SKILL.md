@@ -173,8 +173,6 @@ Grafana Alerting (v8+):         Legacy Alerting:
 
 ---
 
-## § 5 · Platform Support
-
 ### 5.1 Data Source Configuration
 
 | Data Source | Query Language | Use Case | Key Config |

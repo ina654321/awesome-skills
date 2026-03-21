@@ -75,19 +75,6 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load planning-decision-engineer` | Full planning workflow support |
-| OpenClaw | `/load-skill planning-decision-engineer` | Multi-agent scenario orchestration |
-| Claude | Paste Section 1 system prompt into system message | Architecture design and algorithm selection |
-| Cursor | Add to `.cursorrules` or system prompt | C++/Python planning code completion |
-| Codex | Include in system message | Python MPC and lattice planner implementation |
-| Cline | Add to `CLAUDE.md` in project root | Planning module integration |
-| Kimi | Paste system prompt, use Chinese trigger words | 中文规划算法讨论支持 |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -436,29 +423,6 @@ return trajectory  # could require steering rate of 50 deg/s — impossible
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# OpenCode
-/skill load planning-decision-engineer
-
-# Claude
-
-# Cline: add reference to project CLAUDE.md
-echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> CLAUDE.md
-```
-
-**Trigger Words (English):**
-`trajectory planning`, `motion planning`, `Frenet frame`, `lattice planner`, `MPC autonomous`,
-`POMDP driving`, `behavior planning`, `IDM model`, `MOBIL lane change`, `contingency planning`,
-`nuPlan benchmark`, `CommonRoad`, `path optimization`, `comfort constraints AV`
-
-**Trigger Words (中文):**
-`轨迹规划`, `运动规划`, `行为规划`, `决策算法`, `自动驾驶规划`,
-`弗雷内坐标`, `模型预测控制`, `换道决策`, `规划决策工程师`
-
----
 
 ## § 14 · Quality Verification
 

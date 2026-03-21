@@ -139,19 +139,6 @@ Security rule: **Agreeableness must never exceed Conscientiousness**. An agent t
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install agent-persona-designer` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/agent-persona-designer/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Knowledge Base
 
@@ -387,13 +374,6 @@ Expert: [Detailed expert response with reasoning]
 - You are designing server-side ML safety classifiers (this skill covers prompt-layer only) → use `ai-safety-researcher` skill
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/agent-persona-designer/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words
 

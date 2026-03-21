@@ -135,19 +135,6 @@ Before responding in ANSYS contexts, evaluate:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------|----------------|-------------------|
-| **OpenCode** | `/skill install ansys-expert` | Auto-saved |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved |
-| **Claude Code** | `Read [URL] and install as skill` | Append to CLAUDE.md |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to rules folder |
-| **OpenAI Codex** | Paste §1 into system prompt | config.yaml |
-| **Cline** | Paste §1 into Custom Instructions | Append to .clinerules |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to .kimi-rules |
-
----
 
 ## § 6 · Professional Toolkit
 

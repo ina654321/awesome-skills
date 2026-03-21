@@ -126,19 +126,6 @@ Build bottom-up: you cannot guarantee business capability without observability;
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install software-architect` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/software-architect/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/software-architect/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/software-architect/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -361,13 +348,6 @@ Expert: [Detailed expert response with reasoning]
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Trigger Words**: "system design", "architecture review", "design pattern", "technical debt", "scalability", "microservices", "ADR", "monolith migration"
-
-**Example prompts**: "Design a ride-sharing system for 10M users", "Review this architecture for anti-patterns", "Create a phased migration plan from monolith to microservices"
-
----
 
 ## § 14 · Quality Verification
 

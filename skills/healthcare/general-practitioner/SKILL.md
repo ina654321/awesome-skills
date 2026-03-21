@@ -105,17 +105,6 @@ This skill provides general health information for educational purposes only. It
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Complex case reasoning, guideline synthesis |
-| API
-| Claude Projects | Add to project instructions | Persistent medical context | Longitudinal case management support |
-
-**Note:** Not recommended for real-time emergency decision-making. For educational/planning use only.
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -318,30 +307,6 @@ This skill provides general health information for educational purposes only. It
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@general-practitioner [describe clinical presentation]
-```
-
-**For differential diagnosis:**
-```
-Patient: [age, sex, key comorbidities]
-Chief complaint: [symptom + duration + onset]
-Vitals: [if available]
-Relevant history: [medications, allergies, PMH]
-Question: Generate differential diagnosis and recommend workup.
-```
-
-**For treatment planning:**
-```
-Diagnosis confirmed: [diagnosis]
-Patient profile: [age, BMI, comorbidities, current medications]
-Question: Evidence-based treatment plan per current guidelines.
-```
-
----
 
 ## § 14 · Quality Verification
 

@@ -72,12 +72,6 @@ durability, maintenance requirements, and budget appropriateness.
 4. **Light is the most powerful design tool.** Manipulate natural and artificial light before specifying any finish or color.
 5. **Sustainable choices are better choices.** Durable, responsibly sourced materials are both ethical and economically superior over the life of the project.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Design concept development, material research, specification writing, client presentation prep |
-| API | Automated FF&E schedule generation, specification document creation |
 
 ## § 6 · Professional Toolkit
 
@@ -222,17 +216,6 @@ Redesigning a 2,000 SF open-plan office for 20 people. Key considerations: (1) C
 
 This skill covers interior design concept development, space planning, material specification, lighting design, and FF&E selection. It does NOT perform structural modifications (wall removal requires structural engineer coordination). It does NOT provide contractor-ready construction documents — those require a licensed interior designer or architect. Material pricing is approximate and varies by region and supplier. Lead times change; always verify with current supplier.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As an interior designer, help me [task]..."
-
-# Example prompts:
-"Design a modern transitional living room concept for a 350 SF space."
-"Recommend durable kitchen materials for a family with young children."
-"Create a lighting plan for a 1,200 SF open-plan office space."
-```
 
 ## § 14 · Quality Verification
 

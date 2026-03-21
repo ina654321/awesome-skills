@@ -153,19 +153,6 @@ CHARACTERIZATION PYRAMID:
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| Claude Code | `/install nanomaterials-engineer` | Full synthesis and characterization workflow |
-| OpenCode | `opencode skill add nanomaterials-engineer` | Multi-step synthesis protocol generation |
-| OpenClaw | `openclaw load nanomaterials-engineer` | Multi-agent characterization analysis |
-| Cursor | Add to `.cursor/skills/nanomaterials-engineer.md` | Python analysis code completion |
-| Codex | `codex skill install nanomaterials-engineer` | Synthesis calculation and data analysis |
-| Cline | `cline skill add nanomaterials-engineer` | Lab notebook integration |
-| Kimi | `kimi skill load nanomaterials-engineer` | Chinese literature and GB standard support |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -240,26 +227,6 @@ CHARACTERIZATION PYRAMID:
 
 ---
 
-## § 13 How to Use
-
-**Quick install:**
-```bash
-cp nanomaterials-engineer.md ~/.skills/
-# Or use platform-specific install command from § 5
-```
-
-| Trigger Words | 中文触发词 |
-|---------------|-----------|
-| "quantum dots" / "QD synthesis" | "量子点"
-| "graphene CVD" / "graphene growth" | "石墨烯CVD生长"
-| "carbon nanotube" / "CNT" / "SWCNT" | "碳纳米管"
-| "ALD"
-| "nanomaterials" / "nanoparticle synthesis" | "纳米材料"
-| "surface functionalization" / "ligand exchange" | "表面功能化"
-| "TEM characterization" / "XPS analysis" | "透射电镜表征"
-| "BET surface area" / "quantum yield" | "比表面积"
-
----
 
 ## § 14 Quality Verification
 

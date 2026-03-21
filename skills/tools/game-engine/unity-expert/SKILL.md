@@ -154,38 +154,6 @@ public class GameManager : MonoBehaviour
 - Use structs for data that doesn't need GC
 - Profile with Profiler window regularly
 
-## § 5 · Platform Support
-
-**Supported Platforms:**
-| Platform | Renderer | Notes |
-|----------|----------|-------|
-| Windows | DirectX 12/11 | Primary dev platform |
-| macOS | Metal | Apple Silicon native |
-| Linux | OpenGL/Vulkan | Limited editor support |
-| WebGL | WebAssembly | Build for web |
-| iOS | Metal | ARKit integration |
-| Android | Vulkan/OpenGL ES | ARM64 recommended |
-| PlayStation 4/5 | Platform SDK | Pro license required |
-| Xbox One/Series | Platform SDK | ID@Xbox program |
-| Nintendo Switch | Platform SDK | Unity Pro + add-on |
-| VR/AR | Platform SDK | XR Interaction Toolkit |
-
-**Engine Versions (Current):**
-| Version | Status | Notes |
-|---------|--------|-------|
-| 2022.3 LTS | Recommended | Long-term support |
-| 2023.1 | Current | Latest features |
-| 2021.3 LTS | Supported | Extended support |
-| 2020.3 LTS | Legacy | Still functional |
-
-**Package Compatibility:**
-| Package | Min Version | Notes |
-|---------|-------------|-------|
-| URP | 12.0+ | Unity 2021+ |
-| HDRP | 12.0+ | DX12/Metal required |
-| XR Interaction Toolkit | 2.0+ | VR/AR development |
-| Addressables | 1.19+ | Asset loading |
-| Entities (ECS) | 1.0+ | DOTS framework |
 
 ## § 6 · Professional Toolkit
 

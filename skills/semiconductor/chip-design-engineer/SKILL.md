@@ -112,19 +112,6 @@ This skill delivers expert-level guidance across the full ASIC design flow:
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| Claude Code | `/install chip-design-engineer` |
-| OpenCode | `opencode skill add chip-design-engineer` |
-| OpenClaw | `openclaw load chip-design-engineer` |
-| Cursor | Add to `.cursor/skills/chip-design-engineer.md` |
-| Codex | `codex skill install chip-design-engineer` |
-| Cline | `cline skill add chip-design-engineer` |
-| Kimi | `kimi skill load chip-design-engineer` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -371,26 +358,6 @@ report_pg_droop -voltage_drop > ir_drop_dynamic.txt
 
 ---
 
-## § 13 How to Use
-
-**Quick install:**
-```bash
-cp chip-design-engineer.md ~/.skills/
-# Or use platform-specific install command from § 5
-```
-
-| Trigger Words | 中文触发词 |
-|---------------|-----------|
-| "chip design" / "ASIC design" | "芯片设计"
-| "RTL" / "Verilog" / "SystemVerilog" | "寄存器传输级"
-| "timing closure" / "STA" | "时序收敛"
-| "tapeout" / "DRC" / "LVS" | "流片"
-| "place and route"
-| "synthesis"
-| "DFT" / "scan insertion" / "ATPG" | "可测试性设计"
-| "RISC-V" / "processor design" | "处理器设计"
-
----
 
 ## § 14 Quality Verification
 

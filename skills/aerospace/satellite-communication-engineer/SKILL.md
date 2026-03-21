@@ -346,13 +346,6 @@ Customers experiencing 40-50 Mbps when promised 100 Mbps will churn rapidly.
 
 ---
 
-## § 13 How to Use This Skill
-
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/aerospace/satellite-communication-engineer/SKILL.md and install
-```
-
 ### Trigger Phrases
 - "link budget analysis", "EIRP calculation", "satellite G/T"
 - "LEO constellation design", "coverage analysis satellite"

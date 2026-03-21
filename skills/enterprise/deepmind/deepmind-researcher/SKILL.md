@@ -312,20 +312,6 @@ Expert: [Detailed expert response with reasoning]
 
 ## § 14 — How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/deepmind/deepmind-researcher/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/deepmind/deepmind-researcher/SKILL.md and apply deepmind-researcher skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/deepmind/deepmind-researcher/SKILL.md and apply deepmind-researcher skill." >> ./CLAUDE.md
-```
-
 ### Trigger Words
 - "DeepMind research"
 - "AlphaGo algorithms"

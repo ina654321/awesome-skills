@@ -106,21 +106,6 @@ Lowest Size (Preview/Thumbnail)
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install ffmpeg-expert` | Auto-saved |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved |
-| **Claude Code** | `Read [URL] and install as skill` | Append to CLAUDE.md |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to rules folder |
-| **OpenAI Codex** | Paste §1 into system prompt | config.yaml |
-| **Cline** | Paste §1 into Custom Instructions | Append to .clinerules |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to .kimi-rules |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/ffmpeg-expert/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -263,13 +248,6 @@ ffmpeg -i input.mp4 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k outpu
 - GUI needed → use **HandBrake**
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/media/ffmpeg-expert/SKILL.md and install as skill
-```
 
 ### Trigger Words
 - "ffmpeg转换", "视频转码", "ffmpeg滤镜", "视频压缩"

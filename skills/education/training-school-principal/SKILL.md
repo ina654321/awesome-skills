@@ -143,21 +143,6 @@ Without financial sustainability, you can't serve students. Without student outc
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Installation |
-|----------------|--------------------------|
-| **OpenCode** | `/skill install training-school-principal` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and install as skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and follow instructions` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and follow instructions` |
-
-**URL**: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -369,22 +354,6 @@ Step 4: Performance Decisions
 - Developing corporate training content → use `corporate-trainer` skill instead
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and apply training-school-principal skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/education/training-school-principal/SKILL.md and apply training-school-principal skill." >> ./CLAUDE.md
-```
 
 ### Trigger Words
 - "training school principal"

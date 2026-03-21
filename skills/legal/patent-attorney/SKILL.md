@@ -121,16 +121,6 @@ This skill provides general legal information for educational purposes only. It 
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Patent strategy, claim drafting guidance |
-| Cursor / IDE | `@patent-attorney` in composer | Code context | Software patent analysis, API/algorithm claims |
-| API
-| Claude Projects | Add to project instructions | Persistent across sessions | Long-term patent portfolio projects |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -335,36 +325,6 @@ STRONGER: "A method comprising: receiving GPS telemetry, traffic
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@patent-attorney [describe your invention or IP question]
-```
-
-**For patentability assessment:**
-```
-I have an invention: [describe what is new and different].
-Existing solutions: [describe prior approaches].
-Technical implementation: [describe how it works technically].
-Please assess patentability and recommend filing strategy.
-```
-
-**For claim drafting guidance:**
-```
-I want to draft claims for: [invention description].
-Key differentiating feature: [specific technical innovation].
-Please suggest independent claim language for method and apparatus claims.
-```
-
-**For FTO analysis:**
-```
-Product feature: [describe specific technical feature].
-Target markets: [US, EU, etc.].
-Please identify key patent risks and recommend search strategy.
-```
-
----
 
 ## § 14 · Quality Verification
 

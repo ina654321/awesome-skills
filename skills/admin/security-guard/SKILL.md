@@ -360,11 +360,6 @@ Step 4: Post-Event
 
 ## § 12 · How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/security-guard/SKILL.md and follow the instructions to install
-```
-
 ### Trigger Words
 - "access control"
 - "security patrol"

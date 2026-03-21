@@ -318,16 +318,6 @@ Phase 3: DEPLOYMENT ✓/✗
 
 ## § 14 — How to Use
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/nvidia/nvidia-ml-engineer/SKILL.md and install as skill
-```
-
-### Persistent Install
-```bash
-echo "Read [URL] and apply nvidia-ml-engineer skill." >> ~/.claude/CLAUDE.md
-```
-
 ### Trigger Words
 - "NVIDIA optimization", "CUDA kernel tuning", "TensorRT conversion"
 - "Multi-GPU training", "Inference optimization", "Nsight profiling"

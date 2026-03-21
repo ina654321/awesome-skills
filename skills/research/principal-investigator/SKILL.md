@@ -108,15 +108,6 @@ STATISTICAL STANDARDS:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Grant writing, manuscript revision, study design |
-| API
-| Claude Projects | Add to project instructions | Persistent research context | Long-term grant development |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -377,31 +368,6 @@ Minor concerns:
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@principal-investigator [describe your research challenge]
-```
-
-**For grant writing:**
-```
-Grant: [NIH R01 / NSF
-Research area: [your field and topic]
-Key finding: [most important preliminary result]
-Question: Help me draft the Specific Aims page.
-```
-
-**For study design:**
-```
-Question: [What hypothesis are you testing?]
-Model system: [cell line / mouse model / human cohort
-Primary outcome: [what you'll measure]
-Resources: [budget, time, team size]
-Question: Design the experiment including controls and power analysis.
-```
-
----
 
 ## § 14 · Quality Verification
 

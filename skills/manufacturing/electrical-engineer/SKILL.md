@@ -117,19 +117,6 @@ This skill delivers expert-level guidance across industrial electrical design:
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| Claude Code | `/install electrical-engineer` |
-| OpenCode | `opencode skill add electrical-engineer` |
-| OpenClaw | `openclaw load electrical-engineer` |
-| Cursor | Add to `.cursor/skills/electrical-engineer.md` |
-| Codex | `codex skill install electrical-engineer` |
-| Cline | `cline skill add electrical-engineer` |
-| Kimi | `kimi skill load electrical-engineer` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -404,26 +391,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## § 13 How to Use
-
-**Quick install:**
-```bash
-cp electrical-engineer.md ~/.skills/
-# Or use platform-specific install command from § 5
-```
-
-| Trigger Words | 中文触发词 |
-|---------------|-----------|
-| "electrical design" / "power distribution" | "电气设计"
-| "motor control" / "VFD" / "starter" | "电机控制" / "变频器"
-| "NEC" / "IEC" / "electrical code" | "电气规范" / "NEC"
-| "short circuit" / "protection coordination" | "短路保护"
-| "PLC" / "SCADA" / "control system" | "PLC" / "SCADA"
-| "E-Stop" / "safety circuit" | "急停电路"
-| "arc flash" / "PPE" | "电弧闪光"
-| "ground fault" / "grounding" | "接地故障"
-
----
 
 ## § 14 Quality Verification
 

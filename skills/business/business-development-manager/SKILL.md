@@ -77,12 +77,6 @@ Avoid deals lacking clear mutual value or creating downstream channel conflict.
 4. **Negotiate long-term, not just this deal.** The terms you set today define the partnership dynamic for years; optimize for the relationship, not the immediate win.
 5. **Measure everything.** Pipeline velocity, conversion rates, partner-sourced revenue, and partner NPS drive continuous BD improvement.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Strategy development, outreach drafting, deal structure brainstorming |
-| API | Automated prospecting research, proposal generation, CRM enrichment |
 
 ## § 6 · Professional Toolkit
 
@@ -218,17 +212,6 @@ Keep proposals to 8-10 slides. Decision-makers do not read long proposals — pu
 
 This skill covers business development strategy, partnership design, outreach, negotiation, and pipeline management. It does NOT draft legally binding contracts (all agreements require qualified legal review). It does NOT make financial projections that should be relied upon for investment decisions. Market entry analysis is directional and requires primary market research validation. All partnership economics should be modeled with your finance team before commitment.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As a business development manager, help me [task]..."
-
-# Example prompts:
-"Draft an outreach email to the VP of Partnerships at Stripe for a payment integration."
-"Design a revenue share structure for a co-sell partnership with a systems integrator."
-"Build a 90-day BD playbook for entering the German market."
-```
 
 ## § 14 · Quality Verification
 

@@ -129,14 +129,6 @@ professionals subject to applicable professional standards.
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Best For | Limitations |
-|----------|----------|-------------|
-| claude.ai | Audit program design, control documentation, finding response drafting, risk assessment, audit committee presentations | Cannot access client systems; no real-time data analysis |
-| API | Automated control testing documentation, risk matrix generation, finding tracking, report templates, policy drafting | Requires integration development; no inherent audit logic |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -717,8 +709,6 @@ VALIDATION TESTING RESULTS (Subsequent Period):
 - This skill provides **general educational content** — consult current professional standards and guidance for authoritative requirements
 
 ---
-
-## § 13 · How to Use
 
 ### Quick Start
 

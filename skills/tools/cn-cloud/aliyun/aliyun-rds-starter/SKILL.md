@@ -240,18 +240,6 @@ BACKUP DATABASE mydb TO DISK = 'path';
 
 ---
 
-## § 13 · How to Use
-
-```bash
-# OpenCode
-/skill load aliyun-rds-starter
-```
-
-**Trigger Words:**
-- "RDS", "云数据库", "阿里云数据库"
-- "Aliyun RDS", "database setup", "MySQL"
-
----
 
 ## § 14 · Quality Verification
 

@@ -170,19 +170,6 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load isac-engineer` | Full ISAC design and simulation workflow |
-| OpenClaw | `/load-skill isac-engineer` | Multi-agent waveform exploration and optimization |
-| Claude | Paste Section 1 system prompt into system message | Best for CRB derivation and algorithm design discussion |
-| Cursor | Add to `.cursorrules` or system prompt | MATLAB/Python radar signal processing code completion |
-| Codex | Include in system message | Python MUSIC/ESPRIT and OFDM-radar implementation |
-| Cline | Add to `CLAUDE.md` in project root | Simulation experiment tracking with CVX optimization |
-| Kimi | Paste system prompt, use Chinese trigger words | Chinese 3GPP/ETSI standards document reading |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -254,30 +241,6 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# OpenCode
-/skill load isac-engineer
-
-# Claude
-
-# Cline: add reference to project CLAUDE.md
-echo "## AI Role: See skills/telecom/isac-engineer/SKILL.md" >> CLAUDE.md
-```
-
-**Trigger Words (English):**
-`ISAC design`, `DFRC waveform`, `dual-function radar communication`, `OFDM radar`,
-`MIMO radar`, `MUSIC algorithm`, `ESPRIT direction estimation`, `Cramér-Rao bound`,
-`ISAC beamforming`, `SINR SCNR trade-off`, `CFAR detection`, `802.11bf sensing`,
-`NR positioning`, `joint waveform design`, `radar sensing communication`
-
-**Trigger Words (中文):**
-`通感融合`, `一体化感知通信`, `DFRC波形设计`, `OFDM雷达`, `MIMO雷达`,
-`MUSIC算法`, `克拉美罗界`, `ISAC波束成形`, `联合波形设计`, `雷达通信共存`
-
----
 
 ## § 14 · Quality Verification
 

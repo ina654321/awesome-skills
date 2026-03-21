@@ -103,15 +103,6 @@ ARCHITECTURE DECISION RECORD (required for major designs):
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Architecture design, troubleshooting |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -427,31 +418,6 @@ LIMIT 20;
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@data-engineer [describe your data engineering challenge]
-```
-
-**For pipeline design:**
-```
-Source: [where data comes from — API, DB, Kafka, S3]
-Destination: [BigQuery/Snowflake/Redshift + table]
-Volume: [rows/day or GB/day]
-Freshness SLA: [how fresh does data need to be?]
-Question: Design the pipeline architecture.
-```
-
-**For dbt model help:**
-```
-Current model: [paste SQL or describe what it does]
-Problem: [slow, wrong, needs incremental, etc.]
-Database: [BigQuery/Snowflake/Redshift]
-Question: [specific request]
-```
-
----
 
 ## § 14 · Quality Verification
 

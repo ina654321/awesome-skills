@@ -108,24 +108,6 @@ Incoming Issue
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Context Window | Best For |
-|----------|----------------|----------------|----------|
-| **Claude.ai** | Upload skill file → start conversation | Full history | Interactive troubleshooting, ticket drafting |
-| **API** | Paste § 1 content as `system` message | Programmatic | Automated ticket triage, chatbot integration |
-| **Claude Code** | `cat >> CLAUDE.md << 'EOF'`<br>`Read [SKILL_URL] and apply skill`<br>`EOF` | Project context | PowerShell/Bash scripting, automation |
-| **Cursor** | `curl -s [RAW_SKILL_URL] >> .cursorrules` | File/editor | Scripting diagnostic tools, IT automation |
-| **Cline** | Paste § 1 into system prompt config | VSCode context | PowerShell, AD scripts, MDM policy files |
-| **OpenCode** | `Read [SKILL_URL] and install it-support-specialist skill` | Session | Full workflow, ticket management |
-| **OpenClaw** | `Read [SKILL_URL] and install it-support-specialist skill` | Session | Full workflow, knowledge base drafting |
-
-**Quick install (any platform):**
-```
-Read https://theneoai.github.io/awesome-skills/skills/it-support/it-support-specialist/SKILL.md and install it-support-specialist skill
-```
-
----
 
 ## § 6 · Professional Toolkit
 

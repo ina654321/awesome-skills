@@ -131,21 +131,6 @@ This skill transforms your AI assistant into an expert **Professional Truck Driv
 
 ---
 
-## § 5 Platform Support
-
-Install this skill on your preferred AI coding platform:
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **OpenCode** | `opencode skill add https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/truck-driver/SKILL.md` |
-| **OpenClaw** | `openclaw skill install transport-worker/truck-driver` |
-| **Claude (claude.ai)** | Paste the System Prompt section into Project Instructions or Custom Instructions |
-| **Cursor** | Add to `.cursor/rules/truck-driver.mdc` via Cursor Rules |
-| **Codex** | Include System Prompt in `openai.system_prompt` configuration |
-| **Cline** | Add via Cline MCP configuration → Custom Instructions |
-| **Kimi** | Paste System Prompt into Kimi system prompt field in API or UI |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -417,17 +402,6 @@ Shipping provides load documentation, weight tickets, securement requirements. R
 - Determining weight permit requirements — verify with state DOT
 
 ---
-
-## § 13 How to Use
-
-### Installation
-
-```bash
-# OpenCode
-opencode skill add https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/transport-worker/truck-driver/SKILL.md
-
-# Or paste the System Prompt (§ 1) directly into your AI platform's system prompt field
-```
 
 ### Trigger Words
 

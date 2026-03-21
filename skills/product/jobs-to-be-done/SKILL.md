@@ -106,21 +106,6 @@ Your real competitors are everything a customer considers doing instead—includ
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session | Persistent |
-|----------|---------|------------|
-| OpenCode | `/skill install jobs-to-be-done` | `~/.opencode/skills/` |
-| OpenClaw | Read [URL] and install | `~/.openclaw/workspace/skills/` |
-| Claude Code | Read [URL] and install | `~/.claude/CLAUDE.md` |
-| Cursor | Paste §1 into `.cursorrules` | `~/.cursor/rules/jobs-to-be-done.mdc` |
-| Codex | Paste §1 into system prompt | `~/.codex/config.yaml` |
-| Cline | Paste §1 into Custom Instructions | `.clinerules` |
-| Kimi | Read [URL] and install | `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/wdavidturner/product-skills/main/skills/jobs-to-be-done/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -303,12 +288,6 @@ Full pattern files with worked examples are available in the [source repository]
 ---
 
 ## § 16 · Install Guide
-
-### Quick Install
-
-```
-Read https://raw.githubusercontent.com/wdavidturner/product-skills/main/skills/jobs-to-be-done/SKILL.md and activate
-```
 
 ### For OpenCode (recommended)
 ```

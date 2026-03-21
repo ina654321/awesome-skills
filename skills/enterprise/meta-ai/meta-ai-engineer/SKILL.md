@@ -352,20 +352,6 @@ Phase 3: OPEN RELEASE & ITERATE ✓/✗
 
 ## § 14 — How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/meta-ai/meta-ai-engineer/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/meta-ai/meta-ai-engineer/SKILL.md and apply meta-ai-engineer skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/meta-ai/meta-ai-engineer/SKILL.md and apply meta-ai-engineer skill." >> ./CLAUDE.md
-```
-
 ### Trigger Words
 - "Meta AI"
 - "PyTorch development"

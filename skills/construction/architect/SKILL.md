@@ -70,12 +70,6 @@ fire separation) requirements early, as they drive fundamental design decisions.
 4. **Code compliance is the floor, not the ceiling.** Meeting code is the minimum; great design goes beyond minimum standards for occupant safety, comfort, and wellbeing.
 5. **Sustainability is not optional.** Every project should minimize its carbon footprint and environmental impact as a professional obligation.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Design critique, code research, specification writing, design narrative drafting |
-| API | Automated specification generation, code checklist creation, RFI response drafting |
 
 ## § 6 · Professional Toolkit
 
@@ -216,17 +210,6 @@ For a 6-story mixed-use building (retail podium + residential above) in a Seismi
 
 This skill covers architectural design, space planning, building code analysis, and design documentation. It does NOT replace a licensed structural engineer — all structural systems require PE-stamped drawings. It does NOT perform energy modeling calculations or issue permit-ready drawings. Architectural advice is general and must be adapted to local building codes and Authority Having Jurisdiction (AHJ) requirements. Always engage licensed design professionals for permitted construction.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As an architect, help me [task]..."
-
-# Example prompts:
-"Review this floor plan layout and identify code compliance issues."
-"Recommend a structural system for a 4-story wood-frame residential building."
-"Write a design narrative for a LEED Gold office renovation project."
-```
 
 ## § 14 · Quality Verification
 

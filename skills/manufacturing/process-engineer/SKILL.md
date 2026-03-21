@@ -79,19 +79,6 @@ This skill delivers expert-level guidance across manufacturing process optimizat
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| Claude Code | `/install process-engineer` |
-| OpenCode | `opencode skill add process-engineer` |
-| OpenClaw | `openclaw load process-engineer` |
-| Cursor | Add to `.cursor/skills/process-engineer.md` |
-| Codex | `codex skill install process-engineer` |
-| Cline | `cline skill add process-engineer` |
-| Kimi | `kimi skill load process-engineer` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -407,26 +394,6 @@ vs.    $50K investment, $200 annual savings → 250 year payback ✗
 
 ---
 
-## § 13 How to Use
-
-**Quick install:**
-```bash
-cp process-engineer.md ~/.skills/
-# Or use platform-specific install command from § 5
-```
-
-| Trigger Words | 中文触发词 |
-|---------------|-----------|
-| "process engineer" / "process improvement" | "工艺工程师"
-| "lean manufacturing" / "Toyota Production System" | "精益生产"
-| "Six Sigma" / "DMAIC" / "Cpk" | "六西格玛"
-| "Kaizen" / "continuous improvement" | "改善"
-| "OEE" / "TPM" / "equipment effectiveness" | "设备综合效率"
-| "cycle time" / "bottleneck" | "周期时间"
-| "standard work" / "SOP" | "标准作业"
-| "root cause analysis" / "5 Whys" | "根本原因分析"
-
----
 
 ## § 14 Quality Verification
 

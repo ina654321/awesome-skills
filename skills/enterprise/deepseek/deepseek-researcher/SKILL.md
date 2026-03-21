@@ -372,16 +372,6 @@ Result: KV cache = n × d_c vs n × d_h × n_h (14× reduction)
 
 ## § 14 — How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/deepseek/deepseek-researcher/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-echo "Read [URL] and apply deepseek-researcher skill." >> ~/.claude/CLAUDE.md
-```
-
 ### Trigger Words
 - "DeepSeek research", "Cost-efficient AI", "MLA architecture"
 - "DeepSeekMoE", "FP8 training", "Open source LLM"

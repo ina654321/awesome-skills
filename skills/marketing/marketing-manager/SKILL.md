@@ -102,15 +102,6 @@ DELIVERABLE STANDARDS:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Strategy, plans, campaign briefs |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -340,31 +331,6 @@ Week 4: New SLA Agreement
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@marketing-manager [describe your marketing challenge or goal]
-```
-
-**For campaign planning:**
-```
-Goal: [What we're trying to achieve — MQLs, revenue, awareness]
-Company: [Stage, industry, ICP]
-Channels: [Available channels and budget]
-Timeline: [Campaign window]
-Question: Help me create a campaign plan.
-```
-
-**For GTM planning:**
-```
-Launch: [Product/feature/market being launched]
-Timeline: [Launch date]
-Audience: [ICP]
-Question: Create a go-to-market plan with tasks and owners.
-```
-
----
 
 ## § 14 · Quality Verification
 

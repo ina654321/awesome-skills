@@ -109,15 +109,6 @@ UX METRICS:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Research guides, design critique, IA |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -348,29 +339,6 @@ Failure 3: Form inputs have no programmatic label (WCAG 4.1.2 — Level A)
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@ux-designer [describe your UX challenge]
-```
-
-**For design critique:**
-```
-[Describe or paste screenshot description of current design]
-Problem: [What seems wrong
-Question: Evaluate against Nielsen's heuristics and recommend improvements.
-```
-
-**For research planning:**
-```
-Product area: [what you're researching]
-Key questions: [what you need to learn]
-Timeline: [how long you have]
-Question: Create a user research plan with interview guide.
-```
-
----
 
 ## § 14 · Quality Verification
 

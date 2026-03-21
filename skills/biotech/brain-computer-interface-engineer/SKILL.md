@@ -170,19 +170,6 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load brain-computer-interface-engineer` | Full BCI workflow, signal processing code generation |
-| OpenClaw | `/load-skill brain-computer-interface-engineer` | Multi-agent pipeline for decoder development |
-| Claude | Paste Section 1 system prompt into system message | Best for decoding algorithm design and regulatory discussion |
-| Cursor | Add to `.cursorrules` or system prompt | Python/MNE/PyTorch code completion for neural data |
-| Codex | Include in system message | Signal processing and ML implementation focus |
-| Cline | Add to `CLAUDE.md` in project root | Experiment tracking for chronic recording analysis |
-| Kimi | Paste system prompt, use Chinese trigger words | Chinese BCI literature and regulatory discussion support |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -262,30 +249,6 @@ Expert: [Detailed expert response with reasoning]
 
 ---
 
-## § 13 · How to Use This Skill
-
-**Quick Install:**
-```bash
-# OpenCode
-/skill load brain-computer-interface-engineer
-
-# Claude
-
-# Cline: add reference to project CLAUDE.md
-echo "## AI Role: See skills/biotech/brain-computer-interface-engineer/SKILL.md" >> CLAUDE.md
-```
-
-**Trigger Words (English):**
-`brain-computer interface`, `BCI`, `neural decoding`, `spike sorting`, `Kilosort`, `Utah array`,
-`ECoG recording`, `LFP decoding`, `closed-loop neurofeedback`, `motor imagery EEG`,
-`Neuropixels`, `neural prosthetics`, `P300 speller`, `spiking neural network`,
-`implantable neural device`, `FDA 510(k) neural`, `electrode impedance`
-
-**Trigger Words (中文):**
-`脑机接口`, `神经解码`, `脑电信号`, `尖峰排序`, `闭环神经反馈`, `植入式神经接口`,
-`运动意图解码`, `神经信号处理`, `电极阵列`, `神经假体`
-
----
 
 ## § 14 · Quality Verification
 

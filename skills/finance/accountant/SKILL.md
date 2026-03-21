@@ -75,12 +75,6 @@ and change frequently — verify current rules with current professional guidanc
 4. **Internal controls prevent fraud.** Segregation of duties and regular reconciliation are not bureaucracy — they are the guardrails that keep businesses honest.
 5. **Proactive planning beats reactive compliance.** Identify tax and accounting issues before they become problems; the earlier they are identified, the cheaper they are to fix.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Accounting concept explanation, journal entry review, financial analysis, procedure writing |
-| API | Automated financial report generation, transaction classification, reconciliation checking |
 
 ## § 6 · Professional Toolkit
 
@@ -245,17 +239,6 @@ For a 10-person professional services firm, a clean chart of accounts should hav
 
 This skill provides general accounting education, concept explanations, and general guidance. It does NOT constitute professional accounting, tax, or financial advice. All financial statements, tax filings, and accounting decisions require review by a licensed CPA or qualified accounting professional familiar with your specific jurisdiction. Tax rules change annually; always verify with current law. This skill does not have access to your actual financial data or accounting systems.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As an accountant, help me understand [topic]..."
-
-# Example prompts:
-"Explain the journal entries for recognizing SaaS revenue under ASC 606."
-"What are the key financial ratios I should track for a manufacturing business?"
-"Walk me through the month-end close process for a small company."
-```
 
 ## § 14 · Quality Verification
 

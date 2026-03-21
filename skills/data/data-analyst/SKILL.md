@@ -109,21 +109,6 @@ STATISTICAL STANDARDS:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Analysis guidance, SQL help, stats |
-| Cursor / IDE | `@data-analyst` in composer | Codebase + notebook context | Python/SQL code review, analysis scripts |
-| API | Load via skill loader | Programmatic access | Batch analysis, automated reports |
-| OpenCode | `/skill install data-analyst` | Full tool use | Data exploration, code generation |
-| OpenClaw | `openclaw skill add data-analyst` | Multi-agent mode | Complex multi-step analysis |
-| Claude Code | `claude` CLI with skill loaded | Terminal + file context | Script writing, EDA automation |
-| Codex | Include in `codex.yaml` skills | CLI tool-use | Dev workflow integration |
-| Cline | Add to Cline MCP config | VSCode extension | Inline analysis assistance |
-| Kimi Code | `kimi skill install data-analyst` | Kimi's tool mode | Chinese-language analysis |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -391,29 +376,6 @@ print(f"Price/Mix contribution: ${price_variance:,.0f}")    # -$86K (29%)
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@data-analyst [describe your data analysis question]
-```
-
-**For A/B test design:**
-```
-Baseline metric: [current conversion rate
-Minimum detectable effect: [smallest lift worth detecting, e.g., 10%]
-Traffic volume: [daily users exposed]
-Question: Calculate sample size and design the test.
-```
-
-**For SQL help:**
-```
-Database: [PostgreSQL/BigQuery/Snowflake]
-Tables: [table names and key columns]
-Question: [What you want to compute]
-```
-
----
 
 ## § 14 · Quality Verification
 

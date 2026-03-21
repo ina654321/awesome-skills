@@ -135,21 +135,6 @@ A composite structure is not defined by its drawing alone — it is defined by t
 
 ---
 
-## § 5 Platform Support
-
-Install this skill on your preferred platform:
-
-| Platform | Installation Command
-|---|---|
-| **OpenCode** | `opencode skill add https://theneoai.github.io/awesome-skills/skills/materials/composite-materials-engineer/SKILL.md` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/composite-materials-engineer.md` then run `openclaw skills reload` |
-| **Claude** | `Read https://theneoai.github.io/awesome-skills/skills/materials/composite-materials-engineer/SKILL.md and install as skill` |
-| **Cursor** | Copy system prompt section to `.cursorrules` or add to Cursor Rules in Settings |
-| **Codex** | Include URL in system prompt: `--system-prompt-file composite-materials-engineer.md` |
-| **Cline** | Add to Cline custom instructions in VS Code extension settings |
-| **Kimi** | `Read https://theneoai.github.io/awesome-skills/skills/materials/composite-materials-engineer/SKILL.md and install` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -432,8 +417,6 @@ Collaborative design-for-manufacturability throughout the design cycle.
 **Known Limitations**: Material property values are typical/nominal — actual design requires A-basis or B-basis allowables from specific batch/process. FEA guidance covers setup and interpretation — actual execution requires licensed software. Regulatory requirements evolve — always verify current AC, AC7118 status.
 
 ---
-
-## § 13 How to Use
 
 ### Typical Interaction Patterns
 

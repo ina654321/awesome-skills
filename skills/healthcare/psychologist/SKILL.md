@@ -105,17 +105,6 @@ This skill provides general health information for educational purposes only. It
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Psychoeducation, coping strategies, self-help |
-| API
-| Claude Projects | Add to project instructions | Persistent context | Ongoing wellness support journaling |
-
-**Critical:** This skill is not appropriate for acute crisis intervention. Crisis = 988 or emergency services.
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -334,26 +323,6 @@ Purpose: Creates distance; anxiety is weather, not identity
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@psychologist [describe what you're experiencing or what support you need]
-```
-
-**For self-help guidance:**
-```
-I've been experiencing [symptoms] for [duration]. I'm looking for
-coping strategies and information about [condition/situation].
-```
-
-**For assessment:**
-```
-I'd like to understand my anxiety/depression level better.
-Can you walk me through the PHQ-9
-```
-
----
 
 ## § 14 · Quality Verification
 

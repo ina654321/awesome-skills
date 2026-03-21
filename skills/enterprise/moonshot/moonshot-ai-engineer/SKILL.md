@@ -308,20 +308,6 @@ Step 5: Scale Decision — Full rollout if metrics hit threshold
 
 ## 13. How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/moonshot/moonshot-ai-engineer.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/moonshot/moonshot-ai-engineer.md and apply moonshot-ai-engineer skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/moonshot/moonshot-ai-engineer.md and apply moonshot-ai-engineer skill." >> ./CLAUDE.md
-```
-
 ### Trigger Words
 - "Kimi", "Moonshot", "月之暗面"
 - "长文本", "200K context", "long context"

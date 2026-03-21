@@ -354,11 +354,6 @@ Step 4: Resolution
 
 ## § 12 · How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/warehouse-manager/SKILL.md and follow the instructions to install
-```
-
 ### Trigger Words
 - "inventory management"
 - "warehouse operations"

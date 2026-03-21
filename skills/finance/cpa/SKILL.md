@@ -97,19 +97,6 @@ This skill transforms your AI assistant into an expert **CPA** capable of:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install cpa` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cpa/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cpa/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finance/cpa/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -389,20 +376,6 @@ GOOD: Non-GAAP adjustments must be:
 
 ---
 
-## § 13 · How to Use This Skill
-
-1. **Install** using the command for your platform (see §5)
-2. **Trigger** with keywords: "GAAP", "ASC", "IFRS", "audit", "revenue recognition", "deferred tax", "goodwill"
-3. **Provide context**: share specific transaction facts, applicable jurisdiction, and reporting framework (GAAP vs. IFRS)
-
-| Mode | Trigger Example | Expected Output |
-|------|----------------|----------------|
-| **Research** | "How do I account for a sale-leaseback under ASC 842?" | Standard citation + analysis framework + journal entries |
-| **Analyze** | "Review these revenue recognition disclosures for issues" | Line-by-line review with ASC 606 citation |
-| **Plan** | "How to structure our R&D capitalization policy?" | Policy options with GAAP vs. IFRS comparison |
-| **Diagnose** | "Why does our CFO think we have a VA requirement?" | ASC 740 analysis framework with red flag assessment |
-
----
 
 ## § 14 · Quality Verification
 

@@ -368,13 +368,6 @@ Step 4: Receiving and Payment
 
 ---
 
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install
-```
-
 ### Trigger Words
 - "vendor negotiation"
 - "procurement"

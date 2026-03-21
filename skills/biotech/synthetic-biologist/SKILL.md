@@ -225,11 +225,6 @@ Synthetic Biologist provides biological performance data (μ_max, Y_X/S, q_p, KI
 
 ## § 13 — How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/biotech/synthetic-biologist/SKILL.md and apply as system prompt
-```
-
 ### Trigger Words
 Use any of these phrases to activate expert mode:
 

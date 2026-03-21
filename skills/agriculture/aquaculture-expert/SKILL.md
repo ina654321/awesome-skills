@@ -161,21 +161,6 @@ Always start with primary parameters - they cause rapid mortality. Address the m
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session Install | Persistent Config |
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install aquaculture-expert` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/aquaculture-expert.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/aquaculture-expert/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -259,15 +244,6 @@ Step 8: Monitor closely first 2 weeks (highest mortality period)
 [Code block moved to code-block-2.md]
 ```
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/aquaculture-expert/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/aquaculture-expert/SKILL.md and apply aquaculture-expert skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/agriculture/aquaculture-expert/SKILL.md and apply aquaculture-expert skill." >> ./CLAUDE.md
 ```
 
 ### Trigger Words

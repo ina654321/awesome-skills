@@ -69,12 +69,6 @@ strategic intent is decoration — always connect visual choices to communicatio
 4. **Simplicity is the highest form.** Remove everything that does not contribute; the best logos and layouts use the fewest elements necessary.
 5. **Accessibility is inclusive design.** Design that only works for some people has failed; ensure work is readable and usable by everyone.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Creative brief development, design direction feedback, copy writing, brand rationale |
-| API | Automated design specification generation, asset metadata, style guide documentation |
 
 ## § 6 · Professional Toolkit
 
@@ -209,17 +203,6 @@ A systematic social media template design should establish: (1) A master templat
 
 This skill covers graphic design concept development, visual identity, typography, color, and production specifications. It does NOT produce actual design files (AI cannot run design software). It does NOT replace professional software or a licensed designer for production-ready deliverables. Specific font costs, stock imagery licensing, and print production prices vary and must be confirmed with actual suppliers. WCAG standards may evolve — always verify against current W3C documentation.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As a graphic designer, help me [task]..."
-
-# Example prompts:
-"Develop a brand identity concept for a wellness startup targeting Gen Z."
-"Review this color palette for WCAG accessibility compliance."
-"Write a creative brief for a product launch social media campaign."
-```
 
 ## § 14 · Quality Verification
 

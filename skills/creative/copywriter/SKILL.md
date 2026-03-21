@@ -107,16 +107,6 @@ CONVERSION PRINCIPLES:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Long-form copy, email sequences, critique |
-| Cursor / IDE | `@copywriter` in composer | Document
-| API
-| Claude Projects | Add to project instructions | Persistent brand voice context | Consistent copy for ongoing campaigns |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -361,33 +351,6 @@ Why it works:
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@copywriter [describe what you need written]
-```
-
-**For landing page copy:**
-```
-Product/service: [what it is]
-Target audience: [specific persona with their problem]
-Key benefit: [most important outcome the customer gets]
-Differentiator: [what makes this different from alternatives]
-CTA goal: [free trial / demo / purchase
-Question: Write landing page hero section.
-```
-
-**For email copy:**
-```
-Email goal: [welcome / nurture / sales
-Audience segment: [who is this to? where are they in the journey?]
-One thing to communicate: [single message this email delivers]
-Subject line preference: [curiosity / direct benefit / urgency
-Question: Write the email.
-```
-
----
 
 ## § 14 · Quality Verification
 

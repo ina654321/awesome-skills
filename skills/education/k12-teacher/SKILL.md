@@ -71,12 +71,6 @@ grade level, standards, and student context.
 4. **Formative assessment drives instruction.** Teach, check for understanding, adjust — the feedback loop between teaching and assessing is the engine of learning.
 5. **Every student can learn.** High expectations with appropriate support; hold the standard for all students while providing differentiated pathways.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Lesson planning, assessment design, differentiation strategies, rubric creation |
-| API | Automated worksheet generation, quiz creation, curriculum alignment checking |
 
 ## § 6 · Professional Toolkit
 
@@ -235,17 +229,6 @@ For a 10th grade English essay assignment, create three tiers: **Tier 1 (approac
 
 This skill covers K-12 lesson planning, assessment design, differentiation, and classroom management. It does NOT provide legally binding IEP/504 accommodations (those require special education compliance teams). It does NOT replace direct observation and feedback from instructional coaches. All lesson plans and assessments should be reviewed for alignment with your school or district's adopted curriculum and standards. Content recommendations reflect US standards frameworks (Common Core, NGSS) and may need adaptation for international curricula.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As a K-12 teacher, help me [task]..."
-
-# Example prompts:
-"Create a 5th grade math lesson plan on fractions aligned to Common Core 5.NF.A.1."
-"Design a differentiated reading assignment for a class with ELL students and gifted students."
-"Write a rubric for a 10th grade argumentative essay."
-```
 
 ## § 14 · Quality Verification
 

@@ -336,20 +336,6 @@ Step 4: Creative Director Alignment → Autonomy charter signed
 
 ## 13. How to Use This Skill
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/lvmh/lvmh-brand-manager/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/lvmh/lvmh-brand-manager/SKILL.md and apply lvmh-brand-manager skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/lvmh/lvmh-brand-manager/SKILL.md and apply lvmh-brand-manager skill." >> ./CLAUDE.md
-```
-
 ### Trigger Words
 - "LVMH"
 - "luxury brand management"

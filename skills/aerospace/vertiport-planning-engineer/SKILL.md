@@ -129,19 +129,6 @@ This skill transforms your AI assistant into an expert **Vertiport Planning Engi
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/vertiport-planning-engineer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/vertiport-planning-engineer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/aerospace/` then `/load vertiport-planning-engineer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/aerospace/vertiport-planning-engineer/SKILL.md 并安装` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -358,13 +345,6 @@ Minimum 150m separation from residential areas for approach/departure paths.
 | Aircraft certification | Airworthiness Certification Engineer |
 
 ---
-
-## § 13 How to Use This Skill
-
-### Quick Install
-```
-Read https://theneoai.github.io/awesome-skills/skills/aerospace/vertiport-planning-engineer/SKILL.md and install
-```
 
 ### Trigger Phrases
 - "vertiport design", "vertipad layout", "垂直起降机场规划"

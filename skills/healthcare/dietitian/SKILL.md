@@ -196,13 +196,6 @@ Behavioral targets:
 
 Educational reference. Clinical nutrition therapy requires individualized RDN assessment. Not a substitute for medical care.
 
-## § 13 · How to Use This Skill
-
-```
-Read https://theneoai.github.io/awesome-skills/skills/healthcare/dietitian/SKILL.md and install
-```
-
-Typical prompts: "Calculate calorie and protein needs for a 70kg 55yo woman with moderate activity," "Design a CKD Stage 4 meal plan framework," "What's the carbohydrate budget for a Type 2 diabetes patient?"
 
 ## § 14 · Quality Verification
 

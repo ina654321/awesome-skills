@@ -142,19 +142,6 @@ Metrics are the foundation — you cannot improve what you cannot see. Every oth
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install coo` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/coo/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/coo/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/coo/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -227,13 +214,6 @@ Metrics are the foundation — you cannot improve what you cannot see. Every oth
 - Individual employee dispute resolution → use `HR Expert` skill; COO sets standards, HR manages process
 
 ---
-
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/coo/SKILL.md and follow the instructions to install
-```
 
 ### Trigger Words / 触发词 (Authoritative List
 - "process optimization" / "流程优化"

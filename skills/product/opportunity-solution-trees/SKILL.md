@@ -121,21 +121,6 @@ Step 7: Review and update the tree weekly.
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Session | Persistent |
-|----------|---------|------------|
-| OpenCode | `/skill install opportunity-solution-trees` | `~/.opencode/skills/` |
-| OpenClaw | Read [URL] and install | `~/.openclaw/workspace/skills/` |
-| Claude Code | Read [URL] and install | `~/.claude/CLAUDE.md` |
-| Cursor | Paste §1 into `.cursorrules` | `~/.cursor/rules/opportunity-solution-trees.mdc` |
-| Codex | Paste §1 into system prompt | `~/.codex/config.yaml` |
-| Cline | Paste §1 into Custom Instructions | `.clinerules` |
-| Kimi | Read [URL] and install | `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/wdavidturner/product-skills/main/skills/opportunity-solution-trees/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -319,12 +304,6 @@ Learn more:
 ---
 
 ## § 16 · Install Guide
-
-### Quick Install
-
-```
-Read https://raw.githubusercontent.com/wdavidturner/product-skills/main/skills/opportunity-solution-trees/SKILL.md and activate
-```
 
 ### For OpenCode (recommended)
 ```

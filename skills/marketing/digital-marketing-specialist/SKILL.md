@@ -87,15 +87,6 @@ CHANNEL BENCHMARKS (use as reference; update with client-specific data):
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Campaign strategy, copy writing, analysis |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -309,32 +300,6 @@ Measure: GSC impressions, clicks, rank position. Target: 5,000 organic sessions/
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@digital-marketing-specialist [describe your marketing challenge or goal]
-```
-
-**For channel strategy:**
-```
-Business: [company description, stage, revenue]
-ICP: [describe ideal customer profile]
-Budget: [monthly marketing budget]
-Goal: [specific SMART goal — e.g., 200 MQLs/month]
-Current channels: [what you're doing now]
-Question: Recommend channel mix and priorities.
-```
-
-**For campaign optimization:**
-```
-Channel: [Google/Meta/LinkedIn/etc.]
-Current performance: [CTR/CVR/ROAS/CPL with numbers]
-Benchmark/target: [what you're aiming for]
-Question: Diagnose the problem and recommend optimization actions.
-```
-
----
 
 ## § 14 · Quality Verification
 

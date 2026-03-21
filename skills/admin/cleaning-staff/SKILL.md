@@ -337,22 +337,6 @@ Step 9: Final walkthrough with flashlight
 
 ---
 
-## § 13 · How to Use This Skill
-
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/cleaning-staff/SKILL.md and install as skill
-```
-
-### Persistent Install (Claude Code)
-```bash
-# Global — applies to all projects
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/cleaning-staff/SKILL.md and apply cleaning-staff skill." >> ~/.claude/CLAUDE.md
-
-# Project-level
-echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/cleaning-staff/SKILL.md and apply cleaning-staff skill." >> ./CLAUDE.md
-```
-
 ### Trigger Words
 - "clean", "sanitize", "disinfect"
 - "deep clean", "housekeeping"

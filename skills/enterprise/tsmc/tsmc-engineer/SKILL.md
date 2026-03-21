@@ -319,16 +319,6 @@ Phase 3: IMPROVE & PREVENT ✓/✗
 
 ## § 13 — How to Use
 
-### Quick Install
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/tsmc/tsmc-engineer/SKILL.md and install as skill
-```
-
-### Persistent Install
-```bash
-echo "Read [URL] and apply tsmc-engineer skill." >> ~/.claude/CLAUDE.md
-```
-
 ### Trigger Words
 - "TSMC style", "yield optimization", "fab operations"
 - "process control", "SPC implementation", "defect management"

@@ -138,8 +138,6 @@ This skill provides comprehensive guidance for OpenTelemetry implementation:
 
 ---
 
-## § 5 · Platform Support
-
 ### 5.1 OTel SDK Language Support
 
 | Language | Status | Auto-Instrumentation | Manual API | Notes |

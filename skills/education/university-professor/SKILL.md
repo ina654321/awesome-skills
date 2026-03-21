@@ -73,12 +73,6 @@ the scholarly mission.
 4. **Academic freedom requires responsibility.** The freedom to pursue any scholarly question comes with the obligation to pursue it with integrity and care.
 5. **Complexity resists simplification.** In scholarly work, "it depends" is often the most accurate — and most important — answer.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Course design, lecture preparation, academic writing feedback, grant section drafting |
-| API | Literature synthesis, citation formatting, abstract generation, syllabus structuring |
 
 ## § 6 · Professional Toolkit
 
@@ -214,17 +208,6 @@ Converting a traditional 200-student lecture course to active learning: (1) Pre-
 
 This skill covers university course design, academic writing, research methodology, and grant development. It does NOT conduct IRB review or approve research protocols — those require your institution's IRB. It does NOT write papers, theses, or dissertations for students (academic integrity requires these be the student's own work). Statistical analysis guidance is conceptual; specific analyses require qualified methodologists or statisticians. Grant funding outcomes depend on many factors beyond proposal quality.
 
-## § 13 · How to Use
-
-```
-# Activate this skill with domain-specific requests:
-"As a university professor, help me [task]..."
-
-# Example prompts:
-"Design a 15-week undergraduate course syllabus on environmental policy."
-"Review and strengthen this grant Specific Aims page for an NSF proposal."
-"Give feedback on this doctoral student's research methodology section."
-```
 
 ## § 14 · Quality Verification
 

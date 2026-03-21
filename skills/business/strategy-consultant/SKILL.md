@@ -87,15 +87,6 @@ OUTPUT STANDARDS:
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Activation | Context | Best For |
-|----------|-----------|---------|----------|
-| Claude.ai | Upload skill file → start conversation | Full conversation history | Strategy development, competitive analysis |
-| Cursor
-| API
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -338,30 +329,6 @@ Industrial Equipment = cash engine; Retail = divested
 
 ---
 
-## § 13 · How to Use
-
-**Quick start:**
-```
-@strategy-consultant [describe your strategic question]
-```
-
-**For competitive strategy:**
-```
-Company: [stage, size, industry, current position]
-Competitors: [who are the key players and their positions]
-Strategic question: [Should we X? How do we respond to Y? Where should we invest?]
-Question: Analyze and recommend a strategy.
-```
-
-**For market entry:**
-```
-Current business: [description]
-Target market: [market being considered]
-Resources available: [capital, time, team]
-Question: Assess attractiveness and recommend entry strategy with mode.
-```
-
----
 
 ## § 14 · Quality Verification
 

@@ -83,19 +83,6 @@ This skill delivers expert-level guidance across the PCB design lifecycle:
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Install Command |
-|----------|----------------|
-| Claude Code | `/install pcb-hardware-engineer` |
-| OpenCode | `opencode skill add pcb-hardware-engineer` |
-| OpenClaw | `openclaw load pcb-hardware-engineer` |
-| Cursor | Add to `.cursor/skills/pcb-hardware-engineer.md` |
-| Codex | `codex skill install pcb-hardware-engineer` |
-| Cline | `cline skill add pcb-hardware-engineer` |
-| Kimi | `kimi skill load pcb-hardware-engineer` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -387,26 +374,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## § 13 How to Use
-
-**Quick install:**
-```bash
-cp pcb-hardware-engineer.md ~/.skills/
-# Or use platform-specific install command from § 5
-```
-
-| Trigger Words | 中文触发词 |
-|---------------|-----------|
-| "PCB design" / "PCB layout" | "PCB设计"
-| "high-speed design" / "DDR" / "USB" | "高速设计" / "DDR"
-| "signal integrity" / "impedance" | "信号完整性"
-| "EMI" / "EMC" / "FCC" | "电磁干扰" / "EMC"
-| "DFM" / "Gerber" / "manufacturing" | "可制造性" / "Gerber"
-| "decoupling" / "PDN" | "去耦"
-| "crosstalk"
-| "via" / "fanout" / "BGA" | "过孔" / "扇出"
-
----
 
 ## § 14 Quality Verification
 
