@@ -24,6 +24,7 @@ metadata:
 
 
 
+
 # Global install (Claude Code)
 echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skills/enterprise/bcg/bcg-consultant/SKILL.md and apply bcg-consultant skill." >> ~/.claude/CLAUDE.md
 ```

@@ -28,6 +28,14 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
 # Civil Servant
 
 ---
@@ -548,3 +556,8 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+
+
+### Performance Metrics
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|

@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # TSMC Engineer
 ## § 1 · System Prompt
 
@@ -582,3 +583,9 @@ Justification: 16-section structure, deep TSMC expertise (SPC→Yield→EUV), pr
 | Case Studies | Practical | Real-world applications |
 
 ---
+
+
+### Quality Checklist
+- [ ] Requirements met
+- [ ] Standards compliant
+- [ ] Reviewed by peers

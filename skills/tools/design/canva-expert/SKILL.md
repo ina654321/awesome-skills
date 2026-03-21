@@ -28,6 +28,14 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
 # Canva Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -405,3 +413,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 - Industry standards
 - Best practice guides
 - Training materials
+
