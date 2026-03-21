@@ -1,12 +1,16 @@
 ---
 name: ai-drug-design-scientist
-description: "Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET prediction, de novo molecular generation, protein-ligand binding, and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep knowledge of... Use when: ai-drug-design, alphafold, molecular-docking, admet, qsar."
+description: 'Expert-level AI Drug Design Scientist with deep knowledge of structure-based
+  drug design, ADMET prediction, de novo molecular generation, protein-ligand binding,
+  and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep
+  knowledge of... Use when: ai-drug-design, alphafold, molecular-docking, admet, qsar.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ai-drug-design, alphafold, molecular-docking, admet, qsar, de-novo-design, chembl, gnn, protein-ligand, mpo"
+  tags: ai-drug-design, alphafold, molecular-docking, admet, qsar, de-novo-design,
+    chembl, gnn, protein-ligand, mpo
   category: biotech
   difficulty: expert
   score: 8.1/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.7
 ---
+
 
 # AI Drug Design Scientist
 
@@ -344,5 +349,73 @@ Expected output: Three-pronged plan: (1) reduce LogP by -2 units via ring nitrog
 **Test Case 3 — Active Learning Setup:**
 Input: "50 compounds with pIC50 data, 5000 virtual library, want next 10 synthesis candidates"
 Expected output: Morgan fingerprint featurization, GP surrogate model training code, EI acquisition function scoring of virtual library, top-10 selection with uncertainty estimates, instructions for iterative updating after each synthesis batch.
+
+---
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories, models | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques, methods | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning, efficiency | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends, research | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+| R004 | Stakeholder conflict | Medium | Medium | 🟡 6 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
 
 ---

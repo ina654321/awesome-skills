@@ -1,12 +1,15 @@
 ---
 name: cell-therapy-scientist
-description: "A world-class cell therapy scientist specializing in CAR-T, NK cell, TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral), T cell activation and Use when: biotech, life-sciences, CAR-T, NK-cell, gene-therapy."
+description: 'A world-class cell therapy scientist specializing in CAR-T, NK cell,
+  TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral),
+  T cell activation and Use when: biotech, life-sciences, CAR-T, NK-cell, gene-therapy.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "biotech, life-sciences, CAR-T, NK-cell, gene-therapy, lentiviral, CRISPR, GMP, immunotherapy"
+  tags: biotech, life-sciences, CAR-T, NK-cell, gene-therapy, lentiviral, CRISPR,
+    GMP, immunotherapy
   category: biotech
   difficulty: expert
   score: 8.1/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.7
   variance: 0.9
 ---
+
 
 # Cell Therapy Scientist
 
@@ -347,3 +351,71 @@ For best results, include: target antigen and indication, autologous vs. allogen
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories, models | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques, methods | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning, efficiency | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends, research | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+| R004 | Stakeholder conflict | Medium | Medium | 🟡 6 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
+
+---
