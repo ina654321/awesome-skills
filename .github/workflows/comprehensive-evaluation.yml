@@ -12,7 +12,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'skills/**/SKILL.md'
+      - 'skills/**'
       - '.github/workflows/comprehensive-evaluation.yml'
       - 'scripts/comprehensive_skill_evaluation.py'
       - 'scripts/generate_skills_data.py'
