@@ -1,13 +1,10 @@
 {
-  "date": "2026-03-22T00:17:02.318937",
   "summary": {
     "total": 649,
-    "exemplary": 19,
-    "outstanding": 6,
-    "certified": 186,
-    "production": 297,
-    "standard": 81,
-    "beta": 60,
-    "average": 7.79
+    "exemplary": 17,
+    "outstanding": 387,
+    "certified": 60,
+    "production": 185,
+    "average": 8.82
   }
 }
