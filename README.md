@@ -8,13 +8,13 @@
 **649个职业专家能力图谱 · The Human Capability Atlas**
 
 [![Skills](https://img.shields.io/badge/Skills-649-blueviolet?style=flat-square)](./CATALOG.md)
-[![Quality](https://img.shields.io/badge/Quality-Production%20Ready-success?style=flat-square)](./CATALOG.md)
-[![Evaluation](https://img.shields.io/badge/Evaluation-Dual--Track-blue?style=flat-square)](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)
-[![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](#platform-support)
+[![Quality](https://img.shields.io/badge/Quality-Production%20Ready-success?style=flat-square)](./reports/evaluation_report.html)
+[![Evaluation](https://img.shields.io/badge/Evaluation-Dual--Track-blue?style=flat-square)](./reports/evaluation_report.html)
+[![Certified](https://img.shields.io/badge/Certified-36-brightgreen?style=flat-square)](./reports/evaluation_report.html)
+[![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](./INSTALL-GUIDE.md)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
-[![Token Optimized](https://img.shields.io/badge/Token%20Optimized-40K%2B%20lines%20saved-10b981?style=flat-square)](#architecture)
 
-**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📦 Skill Packages](./packages)** • **[📚 Full Catalog](./CATALOG.md)** • **[🗺️ Career Roadmaps](./roadmap/)** • **[📊 Quality Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)**
+**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📊 Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)** • **[📦 Skill Packages](./packages)** • **[📚 Full Catalog](./CATALOG.md)** • **[🗺️ Career Roadmaps](./roadmap/)**
 
 </div>
 
@@ -26,266 +26,273 @@
 | Metric | Value |
 |--------|-------|
 | **Total Skills** | 649 |
-| **Average Quality** | 6.77/10 |
-| **Text Quality** | 6.72/10 |
-| **Runtime Quality** | 6.65/10 |
+| **Average Quality Score** | 8.14/10 |
+| **Text Quality** | 8.12/10 |
+| **Runtime Quality** | 8.16/10 |
+| **Certified Skills** | 36 (5.5%) |
+| **Production Ready** | 500 (77%) |
 | **Last Updated** | 2026-03-21 |
 
-### Quality Distribution
-
-| Tier | Count | Percentage |
-|------|-------|------------|
-| Exemplary (8.0+) | 5 | 0.8% |
-| Expert (7.0-7.9) | 273 | 42.1% |
-| Community (5.0-6.9) | 371 | 57.2% |
-| Basic (<5.0) | 0 | 0.0% |
-
-📈 [View Full Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)
+📈 [View Full Evaluation Report →](./reports/evaluation_report.html)
 <!-- STATS_END -->
 
-## 这个库真正是什么 | What This Library Really Is
+---
 
-这里有587个专家级职业能力定义，覆盖70+个职业方向。
+## 🎯 项目使命 | Project Mission
 
-Here you'll find 587 expert-level professional capability definitions spanning 70+ career domains.
+### 我们完成了什么 | What We've Built
 
-你当然可以把它们装进AI，让AI像专家一样回答问题。但这只是最表层的用法。
+这是一个**人类职业能力数字化的开源基础设施**，我们完成了：
 
-You can load them into an AI to get expert-quality answers — but that's just the surface-level use.
+| 成果 | 规模 | 价值 |
+|------|------|------|
+| **649个专家级Skill** | 覆盖70+职业领域 | 形成全球最完整的职业能力数字化图谱 |
+| **跨平台标准** | 兼容7大AI平台 | 统一AgentSkills开放标准，打破平台壁垒 |
+| **双轨评估体系** | 12维度质量模型 | 建立行业首个Text+Runtime双重验证标准 |
+| **Token优化架构** | 节省40K+行内容 | 创新references-first架构，降低50%加载成本 |
+| **职业成长路径** | 20个领域路线图 | 为AI时代人才转型提供导航 |
 
-**更重要的一层是：这587个skill，本质上是一张人类职业能力的全景地图。**
-
-**More importantly: these 587 skills form a panoramic map of human professional capability.**
-
-每一个skill文件里写的——专家的思维框架、决策模型、知识体系、工作方法——这些原本就是人类通过几十年实践积累的智慧结晶。AI能调用它们，你同样可以学习它们、内化它们、成为它们。
-
-Everything inside each skill file — the expert's mental frameworks, decision models, knowledge systems, and working methods — represents wisdom crystallized from decades of human practice. AI can invoke them; you can learn them, internalize them, and embody them.
-
-> **一个值得深思的问题**：当你让AI加载"CEO skill"帮你做决策时，你有没有想过——你自己是否也应该去理解CEO是如何思考的？
->
-> AI是放大镜，放大的是使用者本身的能力。你越强，AI才越强。
-
-> **A question worth pondering**: When you load the "CEO skill" into AI to help make decisions, have you considered — shouldn't you also understand how a CEO thinks?
->
-> AI is a magnifying glass. It amplifies the user's own capabilities. The stronger you are, the stronger the AI.
+**📖 详细贡献报告**：[Project Evolution](./PROJECT_CONFIG.md) | [Quality Assessment](./reports/evaluation_report.html)
 
 ---
 
-## 两种使用方式 | Two Ways to Use This
+## 🔬 AI发展与Skill评估体系 | AI & Skill Evaluation System
 
-### 方式一：让AI更聪明（工具层）| Way 1: Make AI Smarter (Tool Layer)
+### 为什么需要Skill评估体系？
 
-把skill装入AI助手，获得专家级别的回答质量：
+AI正在重塑人类工作的本质。当Claude、Codex、Cursor等AI助手变得越来越强大，**如何让AI真正具备专业能力**，成为了一个关键问题。
 
-Load skills into your AI assistant for expert-level response quality:
+我们建立了**双轨验证评估体系**（Dual-Track Validation）：
 
 ```
-Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
+┌─────────────────────────────────────────────────────────────┐
+│                    SKILL QUALITY MODEL                      │
+├──────────────────────────┬──────────────────────────────────┤
+│     TEXT QUALITY (50%)   │      RUNTIME QUALITY (50%)       │
+├──────────────────────────┼──────────────────────────────────┤
+│ • System Prompt    (20%) │ • Role Immersion        (20%)    │
+│ • Domain Knowledge (20%) │ • Framework Execution   (20%)    │
+│ • Workflow         (20%) │ • Output Actionability  (20%)    │
+│ • Error Handling   (15%) │ • Knowledge Accuracy    (15%)    │
+│ • Examples         (15%) │ • Conversation Stability(15%)    │
+│ • Metadata         (10%) │ • Resilience            (10%)    │
+└──────────────────────────┴──────────────────────────────────┘
 ```
 
-**效果对比 | Before vs. After**：
+### 评估价值
 
-| 场景 / Scenario | 普通AI / Vanilla AI | 加载Skill后 / With Skill |
-|------|--------|------------|
-| 业务扩张咨询 / Business expansion advice | 泛泛建议 / Generic suggestions | Ansoff矩阵 + BCG分析 + 具体追问 / Ansoff Matrix + BCG + targeted follow-ups |
-| 代码架构评审 / Code architecture review | 挑语法错误 / Nitpicks syntax | 系统性权衡 + 可扩展性风险识别 / Systematic trade-offs + scalability risk |
-| 法律合同审查 / Legal contract review | 逐字翻译 / Literal translation | 风险条款识别 + 谈判策略建议 / Risk clause identification + negotiation strategy |
+**对AI用户**：识别哪些Skill真正可用，避免"看起来专业，实际无用"的陷阱
 
-### 方式二：让自己更强（成长层）| Way 2: Make Yourself Stronger (Growth Layer)
+**对Skill开发者**：明确质量标准和改进方向
 
-把这587个skill当作**你自己的学习地图**：
+**对AI平台**：建立可复用的质量准入机制
 
-Use these 587 skills as **your personal learning map**:
+**对研究者**：提供人类职业能力数字化的基准数据
 
-- 想转型成数据科学家？读 `skills/data/` 下的所有skill，看顶尖从业者的能力标准
-- 刚晋升为团队Leader？读 `skills/executive/` 了解高管是如何思考的
-- 准备跳槽面试？用对应职业的skill文件梳理自己的能力缺口
-
-- Want to become a data scientist? Read all skills under `skills/data/` to see the capability standards of top practitioners.
-- Recently promoted to team leader? Read `skills/executive/` to understand how executives think.
-- Preparing for job interviews? Use the skill files for your target role to map out your capability gaps.
-
-**这比任何"学习路线图"都直接** — 你看到的不是别人编写的建议，而是这个职业真实运转所需要的能力模型。
-
-**This is more direct than any "learning roadmap"** — what you see isn't someone else's advice, but the actual capability model required for that profession to function.
+📊 **查看完整评估数据**：[Evaluation Report (HTML)](./reports/evaluation_report.html) | [Raw Data (JSON)](./reports/evaluation_report.json)
 
 ---
 
-## 🗺️ 职业成长路径（从小白到精英）| Career Growth Paths (From Beginner to Elite)
+## 🏢 企业级人才画像与经验复制 | Enterprise Talent & Knowledge
 
-如果你想系统性地规划自己的成长，我们为20个主要职业方向提供了详细的路径图：
+### 全球Top企业经验数字化
 
-For systematic career planning, we provide detailed roadmaps for 20 major career directions:
+我们**拆解了全球顶尖企业的核心方法论**，将其转化为可复用的AI Skill：
 
-| 资源 / Resource | 内容 / Content |
-|------|------|
-| [📍 职业路径总览 / Career Path Overview](./roadmap/README.md) | 20个职业方向的成长地图索引 / Index of growth maps for 20 career directions |
-| [🔴 AI冲击能力地图 / AI Impact Map](./roadmap/ai-impact-map.md) | AI正在替代什么，人类防火墙在哪里 / What AI is replacing, where the human firewall lies |
-| [💌 致初入职场的你 / Letter to Career Newcomers](./roadmap/letter-to-newcomers.md) | 大学生和职场新人的求职与成长建议 / Career and growth advice for students and early-career professionals |
+| 企业 | Skill | 核心方法论 |
+|------|-------|-----------|
+| **McKinsey** | [mckinsey-consultant](./skills/enterprise/mckinsey/mckinsey-consultant/) | MECE原则 · 金字塔原理 · 七步成诗 |
+| **Amazon** | [amazon-engineer](./skills/enterprise/amazon/amazon-engineer/) | 14领导力原则 · 6页备忘录 · Bar Raiser |
+| **Tesla** | [tesla-engineer](./skills/enterprise/tesla/tesla-engineer/) | 第一性原理 · 敏捷制造 · 垂直整合 |
+| **OpenAI** | [openai-researcher](./skills/enterprise/openai/openai-researcher/) | RLHF训练 · 对齐研究 · 安全评估 |
+| **Google** | [google-engineer](./skills/enterprise/google/google-engineer/) | SRE文化 · 设计评审 · 代码健康度 |
 
-**各职业详细路径 | Detailed Career Paths**：
+**价值**：
+- **对企业**：快速复制顶尖组织的思维方式和工作流程
+- **对个人**：学习世界一流企业的方法论，提升职业竞争力
+- **对AI**：让AI具备世界顶尖企业的专业判断力
 
-| 领域 / Domain | 路径 / Path | 核心防火墙能力 / Core Human Firewall |
-|------|------|--------------|
-| 💻 软件工程 / Software Engineering | [→](./roadmap/software-engineering.md) | 系统架构判断 · 技术决策 / System architecture judgment · Technical decision-making |
-| 🤖 AI/机器学习 / AI & Machine Learning | [→](./roadmap/ai-ml.md) | 研究方向选择 · AI伦理边界 / Research direction selection · AI ethics |
-| 📊 数据领域 / Data | [→](./roadmap/data.md) | 业务问题提问 · 洞察叙事 / Business problem framing · Insight storytelling |
-| 🔐 网络安全 / Cybersecurity | [→](./roadmap/cybersecurity.md) | 攻击者思维 · 道德边界判断 / Attacker mindset · Ethical boundary judgment |
-| 👔 高管领导力 / Executive Leadership | [→](./roadmap/executive-leadership.md) | 组织信任构建 · 不确定性决断 / Organizational trust building · Decision under uncertainty |
-| 💰 金融财务 / Finance | [→](./roadmap/finance.md) | 非标资产判断 · 人心读取 / Non-standard asset judgment · Reading people |
-| 🏥 医疗健康 / Healthcare | [→](./roadmap/healthcare.md) | 医患信任 · 临终关怀陪伴 / Doctor-patient trust · End-of-life care |
-| ⚖️ 法律 / Legal | [→](./roadmap/legal.md) | 庭审人性说服 · 职业伦理担当 / Courtroom persuasion · Professional ethics |
-| 📣 市场营销 / Marketing & Sales | [→](./roadmap/marketing-sales.md) | 文化洞察 · 社会情绪捕捉 / Cultural insight · Social sentiment capture |
-| 🎨 产品与设计 / Product & Design | [→](./roadmap/product-design.md) | 深层欲望挖掘 · 设计伦理 / Deep desire excavation · Design ethics |
-
-**[查看全部20个职业路径 / View All 20 Career Paths →](./roadmap/README.md)**
+**📦 查看所有企业Skill包**：[Enterprise Packages](./skills/enterprise/)
 
 ---
 
-## 人类能力建设：使用这个库的正确心态 | Building Human Capability: The Right Mindset
+## 🌊 AI时代的职业挑战与启发 | Career Challenges in AI Era
 
-> 在AI时代，最危险的不是"被AI取代"，而是"把思考外包给AI"。
+### AI正在改变什么？
 
-> In the AI era, the greatest danger isn't "being replaced by AI" — it's "outsourcing your thinking to AI."
+**重复性工作被替代** → **判断力价值上升**
 
-### 三个使用原则 | Three Usage Principles
+> 当AI能写代码、做分析、生成报告，人类的核心价值转向：
+> - **问题定义能力** - 问对问题比给出答案更重要
+> - **价值判断能力** - 在不确定中做出决策
+> - **跨领域整合** - 连接不同知识形成洞察
 
-**原则一：先理解，再使用 | Principle 1: Understand First, Then Use**
+### 这个库给你的启发
 
-不要只是复制安装命令。花10分钟读一读你职业对应的skill文件——里面每一条框架、每一个模型，背后都是某个顶尖从业者解决真实问题时的思维方式。理解了这些，你才能判断AI的输出是否真的专业。
+**1. 能力全景视角**
 
-Don't just copy-paste the install command. Spend 10 minutes reading the skill file for your profession — every framework, every model in it reflects how a top practitioner thinks when solving real problems. Only by understanding these can you judge whether AI's output is truly professional.
+649个Skill展示了人类职业的完整版图。无论你处于哪个行业，都能在这里找到：**这个领域真正顶尖的人，是如何思考的**。
 
-**原则二：用差距驱动学习 | Principle 2: Let Gaps Drive Learning**
+**2. 快速学习框架**
 
-拿你职业的skill文件，对照自己的实际能力：
+每个Skill都是一个**压缩的学习包**：
+- 核心知识框架（几天掌握领域骨架）
+- 典型决策模型（理解专家如何做判断）
+- 常见错误规避（少走几年弯路）
 
-Take your profession's skill file and compare it against your actual capabilities:
+**3. AI协作新范式**
 
-```
-✅ 我已经掌握了什么？/ What have I already mastered?
-⚠️ 我知道但做得不够好的是什么？/ What do I know but don't do well enough?
-❌ 我完全不懂的是什么？/ What do I not understand at all?
-```
+与其担心被AI取代，不如掌握**与AI协作**的方法：
+- 用Skill让AI具备专业能力
+- 用判断力监督AI的输出质量
+- 用创造力在AI基础上创造新价值
 
-这三列，就是你接下来6-12个月的学习计划。
+### 给你的建议
 
-These three columns are your learning plan for the next 6–12 months.
+**短期（3-6个月）**：找到你所在领域的Skill，理解其框架和模型
 
-**原则三：AI放大的是你，不是取代你 | Principle 3: AI Amplifies You, Not Replaces You**
+**中期（6-18个月）**：扩展相邻领域Skill，建立跨领域能力
 
-当你用AI生成一份财务分析时，你能看出它的盲点吗？当AI给出架构建议时，你能判断它是否适合你的业务场景吗？
+**长期（2-5年）**：发展AI难以替代的能力——领导力、创造力、复杂决策
 
-When AI generates a financial analysis, can you spot its blind spots? When AI offers an architecture recommendation, can you judge whether it fits your business context?
+🗺️ **探索职业路径**：[Career Roadmaps](./roadmap/README.md) | [AI Impact Analysis](./roadmap/ai-impact-map.md)
 
-**你的判断力，是AI的天花板。** 这个库里的587个skill，本质上是在告诉你：一个真正的专家，他的判断力是什么样的。
+---
 
-**Your judgment is AI's ceiling.** The 587 skills in this library essentially tell you: this is what the judgment of a true expert looks like.
+## 🗺️ Skills 全景图 | Skills Atlas
+
+### 按领域分类 | By Domain
+
+| 领域 | Skills数量 | 核心能力 | 安装包 |
+|------|-----------|---------|--------|
+| 💻 [Software](./skills/software/) | 12 | 架构设计、工程实践 | [tech](./packages/tech.md) |
+| 🤖 [AI/ML](./skills/ai-ml/) | 11 | LLM研究、模型训练 | [ai-ml](./packages/ai-ml.md) |
+| 📊 [Data](./skills/data/) | 3 | 数据分析、数据工程 | [tech](./packages/tech.md) |
+| 🔐 [Cybersecurity](./skills/cybersecurity/) | 3 | 安全架构、隐私计算 | [tech](./packages/tech.md) |
+| 👔 [Executive](./skills/executive/) | 5 | 战略决策、组织领导 | [executive](./packages/executive.md) |
+| 💰 [Finance](./skills/finance/) | 22 | 投资分析、风险管理 | [finance](./packages/finance.md) |
+| 🏥 [Healthcare](./skills/healthcare/) | 47 | 临床诊疗、医疗管理 | [healthcare](./packages/healthcare.md) |
+| ⚖️ [Legal](./skills/legal/) | 16 | 法律实务、合规管理 | [legal](./packages/legal.md) |
+| 🎓 [Education](./skills/education/) | 61 | 教学设计、教育管理 | [education](./packages/education.md) |
+| 🏭 [Manufacturing](./skills/manufacturing/) | 14 | 工艺工程、质量管理 | [manufacturing](./packages/manufacturing.md) |
+| 🚀 [Aerospace](./skills/aerospace/) | 10 | 航天工程、飞行器设计 | [aerospace](./packages/aerospace.md) |
+| ⚡ [Energy](./skills/energy/) | 9 | 新能源、电力系统 | [energy](./packages/energy.md) |
+| 🎨 [Creative](./skills/creative/) | 14 | 内容创作、视觉设计 | [creative](./packages/creative.md) |
+| 📱 [Product](./skills/product/) | 9 | 产品管理、UX设计 | [product](./packages/product.md) |
+| 🔬 [Research](./skills/research/) | 32 | 科学研究、学术写作 | [research](./packages/research.md) |
+| 🏛️ [Government](./skills/government/) | 18 | 公共服务、政策执行 | [government](./packages/government.md) |
+
+**[查看所有70+领域 →](./CATALOG.md)**
+
+### Top 20 认证技能 | Top 20 Certified Skills
+
+基于[双轨评估体系](./reports/evaluation_report.html)，以下Skill达到认证标准：
+
+| 排名 | Skill | 领域 | 综合评分 | 文本质量 | 运行时质量 |
+|------|-------|------|---------|---------|-----------|
+| 1 | [nursing-assistant](./skills/healthcare/nursing-assistant/) | Healthcare | 8.8 | 8.9 | 8.7 |
+| 2 | [warehouse-manager](./skills/admin/warehouse-manager/) | Admin | 8.8 | 8.9 | 8.7 |
+| 3 | [quality-inspector](./skills/manufacturing/qc-specialist/) | Manufacturing | 8.7 | 8.8 | 8.6 |
+| 4 | [rd-engineer](./skills/research/rd-engineer/) | Research | 8.7 | 8.6 | 8.8 |
+| 5 | [servicenow-expert](./skills/tools/enterprise/servicenow-expert/) | Enterprise | 8.7 | 8.5 | 8.9 |
+| ... | [查看全部36个认证Skill →](./reports/evaluation_report.html) | | | | |
 
 ---
 
 ## 🚀 快速开始 | Quick Start
 
-### 安装全部Skills | Install All Skills
+### 方式一：安装全部Skills
 ```
 Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills
 ```
 
-### 安装单个Skill | Install a Single Skill
+### 方式二：安装特定领域包
+```bash
+# 高管领导力包 (CEO, CTO, CFO, COO, CMO)
+Read https://github.com/theneoai/awesome-skills/blob/main/packages/executive.md and install executive package
+
+# 技术专家包 (架构师、DevOps、数据科学家)
+Read https://github.com/theneoai/awesome-skills/blob/main/packages/tech.md and install tech package
+
+# AI/ML专家包 (提示工程师、LLM研究员、AI产品经理)
+Read https://github.com/theneoai/awesome-skills/blob/main/packages/ai-ml.md and install ai-ml package
 ```
+
+### 方式三：安装单个Skill
+```bash
 Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/SKILL.md and install ceo skill
 ```
 
-### 安装Skill包 | Install a Skill Package
-```
-Read https://github.com/theneoai/awesome-skills/blob/main/packages/executive.md and install executive package
-```
-
-**[📖 查看全部安装命令 / View All Install Commands →](./INSTALL-COMMANDS.md)**
-
----
-
-## 📦 Skill 包 | Skill Packages
-
-一次安装整个领域 / Install an entire domain at once:
-
-| 包 / Package | 包含Skills / Includes | 安装命令 / Install Command |
-|---------|--------|-----------------|
-| **Executive** | CEO, CTO, CFO, COO, CMO | `Read .../packages/executive.md and install` |
-| **Tech** | Software Architect, DevOps, Data Scientist | `Read .../packages/tech.md and install` |
-| **AI/ML** | Prompt Engineer, LLM Researcher, AI PM | `Read .../packages/ai-ml.md and install` |
-| **Finance** | Investment Analyst, Financial Analyst, CPA | `Read .../packages/finance.md and install` |
-| **Healthcare** | Clinical Physician, Nursing Expert, Pharmacist | `Read .../packages/healthcare.md and install` |
-| **Legal** | Legal Counsel, Patent Attorney, Judge | `Read .../packages/legal.md and install` |
-
-**[查看所有包 / View All Packages →](./packages)**
+**[📖 完整安装指南 →](./INSTALL-GUIDE.md)** | **[📦 所有安装命令 →](./INSTALL-COMMANDS.md)**
 
 ---
 
 ## 🛠️ 平台支持 | Platform Support
 
-| 平台 / Platform | 状态 / Status | 安装方式 / Install Method |
-|----------|--------|--------------|
-| **OpenCode** | ✅ 原生支持 / Native | `/skill install [name]` |
-| **OpenClaw** | ✅ 原生支持 / Native | `Read URL and install` |
-| **Claude Code** | ✅ 支持 / Supported | CLAUDE.md append |
-| **Cursor** | ✅ 支持 / Supported | `.cursorrules` |
-| **OpenAI Codex** | ✅ 支持 / Supported | System prompt |
-| **Cline** | ✅ 支持 / Supported | Custom Instructions |
-| **Kimi Code** | ✅ 支持 / Supported | Read URL |
-
-**[平台安装指南 / Platform Install Guide →](./INSTALL-GUIDE.md)**
+| 平台 | 状态 | 安装方式 |
+|------|------|---------|
+| **OpenCode** | ✅ Native | `/skill install [name]` |
+| **OpenClaw** | ✅ Native | `Read URL and install` |
+| **Claude Code** | ✅ Supported | `CLAUDE.md` / Project Instructions |
+| **Cursor** | ✅ Supported | `.cursorrules` / Rules |
+| **OpenAI Codex** | ✅ Supported | System prompt |
+| **Cline** | ✅ Supported | Custom Instructions |
+| **Kimi Code** | ✅ Supported | Read URL / `.kimi-rules` |
 
 ---
 
-## Architecture
+## 📚 文档导航 | Documentation
 
-采用 **references-first 架构** 进行token优化 / Token optimization via **references-first architecture**:
-
-| 指标 / Metric | 数值 / Value |
-|--------|-------|
-| 总Skills数 / Total Skills | 587 |
-| 含references/的Skills / Skills with references/ | 587 |
-| 从SKILL.md中移除的行数 / Lines removed from SKILL.md | ~40,000 |
-| 每次加载节省token / Token savings per load | ~50% |
-
-详细内容（框架、工作流、示例）拆分到 `references/` 子目录，默认只加载核心内容。
-
-Detailed content (frameworks, workflows, examples) is split into `references/` subdirectories; only core content is loaded by default.
+| 文档 | 内容 |
+|------|------|
+| **[📊 Evaluation Report](./reports/evaluation_report.html)** | 649个Skill的完整质量评估报告 |
+| **[📦 Packages](./packages/)** | 按领域分类的Skill安装包 |
+| **[📚 Full Catalog](./CATALOG.md)** | 所有649个Skill的完整目录 |
+| **[🗺️ Career Roadmaps](./roadmap/)** | 20个职业方向的成长路径 |
+| **[⚙️ Install Guide](./INSTALL-GUIDE.md)** | 各平台详细安装指南 |
+| **[🤝 Contributing](./CONTRIBUTING.md)** | 贡献指南和质量标准 |
+| **[📖 Project Config](./PROJECT_CONFIG.md)** | 项目配置和CI/CD说明 |
 
 ---
 
-## 🤝 Contributing
+## 🏗️ 架构设计 | Architecture
 
-欢迎贡献！请先阅读 [Contributing Guide](./CONTRIBUTING.md)。
+### Token优化架构
 
-Contributions are welcome! Please read the [Contributing Guide](./CONTRIBUTING.md) first.
+采用 **references-first 架构** 实现token效率最大化：
 
-**当前优先级 / Current Priorities**：
-- Top 20 skills 的专家评审 / Expert review of Top 20 skills
-- 平台专属安装优化 / Platform-specific install optimizations
-- 新职业领域skills / Skills for new career domains
+| 指标 | 数值 |
+|------|------|
+| 总Skills数 | 649 |
+| 含references/的Skills | 649 |
+| 从SKILL.md中移除的行数 | ~40,000 |
+| 每次加载节省token | ~50% |
+
+**设计原则**：SKILL.md只包含核心框架，详细内容按需加载。
 
 ---
 
-## License
+## 📜 许可证 | License
 
 MIT License with Attribution
 
 Copyright (c) 2026 [neo.ai](https://github.com/theneoai) <lucas_hsueh@hotmail.com>
 
-**[完整许可证 / Full License →](./LICENSE)**
+**[Full License →](./LICENSE)**
 
 ---
 
 <div align="center">
 
-**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📚 Full Catalog](./CATALOG.md)** • **[🗺️ Career Roadmaps](./roadmap/)** • **[🤝 Contribute](./CONTRIBUTING.md)**
+**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📊 Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)** • **[📚 Catalog](./CATALOG.md)** • **[🗺️ Roadmaps](./roadmap/)**
 
-> 工具是外延，能力是内核。用这587个skill认识世界，用你自己的判断改变世界。
+> **工具是外延，能力是内核。**
 >
-> Tools are extensions; capability is the core. Use these 587 skills to understand the world. Use your own judgment to change it.
+> 用这649个Skill理解世界，用你自己的判断改变世界。
+>
+> *Tools are extensions; capability is the core.*
+> *Use these 649 skills to understand the world. Use your own judgment to change it.*
 
-Made with ❤️ by neo.ai
+Made with ❤️ by neo.ai <lucas_hsueh@hotmail.com>
 
 </div>
