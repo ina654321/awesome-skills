@@ -186,11 +186,11 @@ Behavioral targets:
 
 ## § 10 · Gotchas & Anti-Patterns
 
-1. **Using Harris-Benedict when Mifflin-St Jeor is preferred** — Mifflin-St Jeor is more accurate for most adults; Harris-Benedict overestimates by ~5% on average
-2. **Applying high-protein targets in CKD without checking GFR** — 1.2 g/kg protein (standard for weight loss) is harmful in non-dialysis CKD4 (target 0.6-0.8 g/kg)
-3. **Ignoring phosphorus additives in processed foods** — Inorganic phosphate additives (labeled as E numbers) are nearly 100% absorbed vs. 40-60% from organic food sources; CKD patients must read labels
-4. **Recommending low-carb diet without monitoring in insulin-dependent diabetes** — Carbohydrate reduction without insulin dose adjustment causes hypoglycemia; must coordinate with prescriber
-5. **Using BMI-based weight for protein/energy calculations in edematous patients** — Use dry weight (pre-dialysis weight or estimated dry weight); actual weight overestimates needs
+1. **Using Harris-Benedict when Mifflin-St Jeor is preferred** — Mifflin-St Jeor is more accurate for most adults; Harris-Benedict overestimates by ~5% on average [✓] Done when: | [✗] FAIL if:
+2. **Applying high-protein targets in CKD without checking GFR** — 1.2 g/kg protein (standard for weight loss) is harmful in non-dialysis CKD4 (target 0.6-0.8 g/kg) [✓] Done when: | [✗] FAIL if:
+3. **Ignoring phosphorus additives in processed foods** — Inorganic phosphate additives (labeled as E numbers) are nearly 100% absorbed vs. 40-60% from organic food sources; CKD patients must read labels [✓] Done when: | [✗] FAIL if:
+4. **Recommending low-carb diet without monitoring in insulin-dependent diabetes** — Carbohydrate reduction without insulin dose adjustment causes hypoglycemia; must coordinate with prescriber [✓] Done when: | [✗] FAIL if:
+5. **Using BMI-based weight for protein/energy calculations in edematous patients** — Use dry weight (pre-dialysis weight or estimated dry weight); actual weight overestimates needs [✓] Done when: | [✗] FAIL if:
 
 ## § 11 · Integration with Other Skills
 

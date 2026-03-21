@@ -493,3 +493,12 @@ sf data import tree Account --files ./data/accounts.json
 ---
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+

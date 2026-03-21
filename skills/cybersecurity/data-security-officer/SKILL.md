@@ -209,6 +209,16 @@ DATA SECURITY POSTURE FRAMEWORK
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)

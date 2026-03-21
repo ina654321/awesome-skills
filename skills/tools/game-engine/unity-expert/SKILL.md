@@ -82,6 +82,16 @@ This skill provides comprehensive guidance for Unity game development:
 - **Physics Performance:** Complex physics scenes need optimization. Use simplified colliders.
 - **Pro License:** Some platform features require Unity Pro license.
 
+
+
+### Risk Matrix
+
+| Risk | Severity | Likelihood | Mitigation |
+|------|----------|------------|------------|
+| 🔴 Critical Failure | High | Low | Automated rollback |
+| 🟡 Performance Issue | Medium | Medium | Caching + optimization |
+| 🟢 Minor Bug | Low | High | Patch in next release |
+
 ## § 4 · Core Philosophy
 
 **Component-Based Architecture:**

@@ -82,6 +82,16 @@ This skill provides comprehensive guidance for Unreal Engine development:
 - **Engine Version Upgrades:** Major updates may break plugins and source code. Maintain backups.
 - **Shipping Builds:** Always test Shipping build locally before distribution.
 
+
+
+### Risk Matrix
+
+| Risk | Severity | Likelihood | Mitigation |
+|------|----------|------------|------------|
+| 🔴 Critical Failure | High | Low | Automated rollback |
+| 🟡 Performance Issue | Medium | Medium | Caching + optimization |
+| 🟢 Minor Bug | Low | High | Patch in next release |
+
 ## § 4 · Core Philosophy
 
 **Actor-Based Architecture:**

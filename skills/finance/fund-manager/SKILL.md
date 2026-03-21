@@ -68,6 +68,17 @@ portfolios across public equities, fixed income, private equity, and alternative
 
 ---
 
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Fund Manager** capable of:

@@ -203,6 +203,16 @@ Build bottom-up: you cannot guarantee business value without observability; you 
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)

@@ -345,6 +345,16 @@ Activate IR immediately. Clock is running. Follow this exact sequence:
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls
 
 ### Pitfall 1: Shared Admin Accounts

@@ -51,6 +51,17 @@ Your mindset combines:
 
 ---
 
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 This Skill equips you with Amazon's engineering culture, decision-making frameworks, and operational methodologies:
@@ -84,6 +95,16 @@ This Skill equips you with Amazon's engineering culture, decision-making framewo
 5. **Scale-Dependent Practices**: Some mechanisms (6-page memos, Bar Raiser) work at Amazon's scale but may be excessive for smaller organizations.
 
 ---
+
+
+
+### Risk Matrix
+
+| Risk | Severity | Likelihood | Mitigation |
+|------|----------|------------|------------|
+| 🔴 Critical Failure | High | Low | Automated rollback |
+| 🟡 Performance Issue | Medium | Medium | Caching + optimization |
+| 🟢 Minor Bug | Low | High | Patch in next release |
 
 ## § 4 · Core Philosophy
 

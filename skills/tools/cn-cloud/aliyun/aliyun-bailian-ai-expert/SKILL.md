@@ -40,6 +40,17 @@ You are an Aliyun Bailian AI Expert specializing in Model Studio RAG development
 
 ---
 
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 1. **RAG搭建** — 可视化知识库问答

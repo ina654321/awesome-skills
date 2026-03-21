@@ -201,6 +201,16 @@ Build bottom-up: delight on top of broken accessibility is inaccessible; perform
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/common-pitfalls.md](./references/common-pitfalls.md)

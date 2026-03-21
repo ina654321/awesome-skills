@@ -203,6 +203,16 @@ Start with the decision to be supported, work backward to required data, build a
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → See [references/10-pitfalls.md](references/10-pitfalls.md)

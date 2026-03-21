@@ -149,29 +149,29 @@ Output: Brand Audit Report (30-page max) with:
 PROJECT: [Campaign name and objective]
 DEADLINE: [Final delivery date; milestones]
 
-1. BACKGROUND: Why are we doing this? What context does the creative team need?
+1. BACKGROUND: Why are we doing this? What context does the creative team need? [✓] Done when: | [✗] FAIL if:
 
-2. OBJECTIVE: One clear, measurable goal
+2. OBJECTIVE: One clear, measurable goal [✓] Done when: | [✗] FAIL if:
    Example: "Increase brand consideration among 25-40 urban professionals by 5pp in Q3"
 
-3. TARGET AUDIENCE:
+3. TARGET AUDIENCE: [✓] Done when: | [✗] FAIL if:
    Primary: [Specific demographic + psychographic profile]
    Secondary: [If applicable]
    Insight: "[Quote or verbatim that captures the tension we're resolving]"
 
-4. SINGLE-MINDED MESSAGE: One sentence the audience should walk away believing.
+4. SINGLE-MINDED MESSAGE: One sentence the audience should walk away believing. [✓] Done when: | [✗] FAIL if:
    (If you can't say it in one sentence, it's not single-minded enough)
 
-5. SUPPORT
+5. SUPPORT [✓] Done when: | [✗] FAIL if:
 
-6. TONE & MANNER: [3 adjectives that describe how it should feel; 3 that it must NOT feel]
+6. TONE & MANNER: [3 adjectives that describe how it should feel; 3 that it must NOT feel] [✓] Done when: | [✗] FAIL if:
 
-7. MANDATORY ELEMENTS: Legal disclaimers, brand lockups, call-to-action requirements
+7. MANDATORY ELEMENTS: Legal disclaimers, brand lockups, call-to-action requirements [✓] Done when: | [✗] FAIL if:
 
-8. WHAT SUCCESS LOOKS LIKE: Specific metric, measurement method, timeline
+8. WHAT SUCCESS LOOKS LIKE: Specific metric, measurement method, timeline [✓] Done when: | [✗] FAIL if:
    Example: "5pp lift in aided recall vs. pre-campaign baseline in brand tracker"
 
-9. WHAT WE'RE NOT DOING: Scope constraints; what's explicitly out of bounds
+9. WHAT WE'RE NOT DOING: Scope constraints; what's explicitly out of bounds [✓] Done when: | [✗] FAIL if:
 ```
 
 ✓ Brief approved by CMO and brand director before creative development begins
@@ -237,23 +237,23 @@ def calculate_brand_health_score(metrics):
 
 **Repositioning Approach:**
 ```
-1. Research: JTBD interviews with 25-35 segment
+1. Research: JTBD interviews with 25-35 segment [✓] Done when: | [✗] FAIL if:
    Finding: "When I'm trying to feel in control of my financial future, I want a partner
    who speaks my language — not a bank that makes me feel like I'm failing."
    → Insight: Category uses fear and complexity; opportunity = empowerment + simplicity
 
-2. Positioning statement (updated):
+2. Positioning statement (updated): [✓] Done when: | [✗] FAIL if:
    "For ambitious young professionals who feel overwhelmed by financial complexity,
    [Brand] is the financial partner that turns financial anxiety into confidence
    because we translate complexity into clear next steps."
    (vs. old: "Trusted financial expertise for over 30 years")
 
-3. Brand Identity Prism update:
+3. Brand Identity Prism update: [✓] Done when: | [✗] FAIL if:
    Keep: Culture (stability, reliability — earned over 30 years)
    Refresh: Personality (authoritative → approachable mentor), Tone (formal → direct/warm)
    New: Reflection (I use this brand = I'm financially responsible and smart, not old)
 
-4. Campaign: "Your money, your terms"
+4. Campaign: "Your money, your terms" [✓] Done when: | [✗] FAIL if:
    Channel: Instagram/TikTok short-form financial education + podcast sponsorships
    Metric: Consideration among 25-35 from 12% → 20% in 12 months
 ```
@@ -305,9 +305,9 @@ is in 4 time zones and async feels like shouting into a void."
 SINGLE-MINDED MESSAGE: "[Brand] eliminates the standup meeting — so your team ships more."
 
 RTBs:
-1. AI generates standup summaries from Jira/GitHub activity (no manual input)
-2. Works across time zones: morning digest for each team member's timezone
-3. 47 minutes saved per person per week (beta user data)
+1. AI generates standup summaries from Jira/GitHub activity (no manual input) [✓] Done when: | [✗] FAIL if:
+2. Works across time zones: morning digest for each team member's timezone [✓] Done when: | [✗] FAIL if:
+3. 47 minutes saved per person per week (beta user data) [✓] Done when: | [✗] FAIL if:
 
 TONE: Direct, slightly irreverent, tech-forward. NOT: corporate, feature-list-focused, generic.
 

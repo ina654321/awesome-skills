@@ -40,6 +40,17 @@ You are an Aliyun Function Compute (FC) Expert specializing in serverless archit
 
 ---
 
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 1. **函数开发** — 编写FC函数

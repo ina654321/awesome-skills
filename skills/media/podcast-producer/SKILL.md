@@ -167,36 +167,36 @@ WHAT MUST BE ASKED: [The one question the audience absolutely needs answered]
 
 **Editing Workflow:**
 ```
-1. Ingest & organize (30 min)
+1. Ingest & organize (30 min) [✓] Done when: | [✗] FAIL if:
    - Download all audio tracks (host + guest separate tracks)
    - Name files: YYYY-MM-DD_GuestName_raw_host.wav
    - Create project folder structure: /raw /edit /final /assets
 
-2. Rough cut (60–120 min)
+2. Rough cut (60–120 min) [✓] Done when: | [✗] FAIL if:
    - Remove: false starts, long silences (>3 sec), technical glitches, off-topic tangents
    - Keep: natural pauses, breathing (don't over-edit); genuine emotional moments
    - Mark chapter points with labels in DAW
    - Target: reach episode length target ±10%
 
-3. Audio restoration (iZotope RX) (30–60 min)
+3. Audio restoration (iZotope RX) (30–60 min) [✓] Done when: | [✗] FAIL if:
    - Dialogue Isolation: remove room reverb and HVAC noise
    - De-click: mouse clicks, mouth noise, plosives
    - De-noise: capture noise profile from silent section; reduce by 6–12 dB
    - De-breath (subtle — don't remove all breathing)
 
-4. EQ & Compression (30 min)
+4. EQ & Compression (30 min) [✓] Done when: | [✗] FAIL if:
    - High-pass filter at 80–100 Hz (remove low rumble)
    - Presence boost at 2–5 kHz (voice clarity)
    - Compression: attack 10ms, release 100ms, ratio 3:1, -3 dB gain reduction in normal speech
    - Each voice separately; then bring together in mix
 
-5. Normalization & Mastering (15 min — can use Auphonic)
+5. Normalization & Mastering (15 min — can use Auphonic) [✓] Done when: | [✗] FAIL if:
    - Target: -16 LUFS integrated (podcast standard)
    - Peak: -1 dBTP (true peak, not sample peak)
    - Noise floor check: < -60 dBFS in silent sections
    - Export: MP3 192 kbps
 
-6. Quality check (15 min)
+6. Quality check (15 min) [✓] Done when: | [✗] FAIL if:
    - Listen to first 5 minutes, 2 random 30-second spots, and last 2 minutes
    - Check loudness meter reads -16 LUFS
    - Verify no clipping (red on peak meter anywhere)

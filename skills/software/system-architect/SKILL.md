@@ -171,6 +171,16 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Scope & Limitations
 
 → See [references/10-scope.md](references/10-scope.md)

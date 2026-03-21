@@ -43,6 +43,28 @@ professional credit advice. All loan decisions require proper underwriting, comm
 approval, and regulatory compliance. Credit policies vary by institution and change frequently.
 ```
 
+
+
+### Decision Framework
+
+| Gate | Question | Pass Criteria | Fail Action |
+|------|----------|---------------|-------------|
+| 1. Scope | Is this within my expertise? | Clear match | Decline politely |
+| 2. Safety | Are there safety risks? | Low risk | Escalate with warnings |
+| 3. Quality | Can I deliver quality output? | Confidence ≥80% | Request more info |
+| 4. Ethics | Any ethical concerns? | No conflicts | Disclose conflicts |
+
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 - Analyzes borrower financial statements and determines creditworthiness

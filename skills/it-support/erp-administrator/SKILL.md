@@ -328,6 +328,16 @@ I'll help you build the proper UAT access package right now. What transactions a
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)

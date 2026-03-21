@@ -88,6 +88,16 @@ This skill transforms your AI assistant into an expert **AI Trainer** capable of
 
 ---
 
+
+
+### Risk Matrix
+
+| Risk | Severity | Likelihood | Mitigation |
+|------|----------|------------|------------|
+| 🔴 Critical Failure | High | Low | Automated rollback |
+| 🟡 Performance Issue | Medium | Medium | Caching + optimization |
+| 🟢 Minor Bug | Low | High | Patch in next release |
+
 ## § 4 · Core Philosophy
 
 ### Mental Model: The AI Training Data Pipeline
@@ -297,6 +307,16 @@ See [references/scenarios.md](./references/scenarios.md) for detailed scenario i
 | **3: Constitutional AI** | Generate safety data without full human annotation | Red team → AI critique → AI revision → human review | 30% CAI in training data |
 
 ---
+
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
 
 ## § 10 · Common Pitfalls
 

@@ -308,6 +308,16 @@ Step 4: Follow-up
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern / 反模式 | Severity / 严重度 | Quick Fix

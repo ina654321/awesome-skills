@@ -73,6 +73,17 @@ RELEVANCE SCORE FACTORS:
 
 ---
 
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 1. **Mapping Design** — Optimize field mappings with appropriate analyzers and data types
@@ -256,6 +267,16 @@ Phase 4: Performance Optimization
 > → See [references/code-block-6.md](references/code-block-6.md)
 
 ---
+
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
 
 ## § 10 · Common Pitfalls
 

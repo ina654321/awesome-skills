@@ -313,6 +313,16 @@ Phase 3: Validation & Governance (Day 8–14 and ongoing)
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → **Detailed anti-patterns moved to [`references/pitfalls.md`](references/pitfalls.md)**

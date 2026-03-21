@@ -238,6 +238,16 @@ Phase 3: VALIDATION & PUBLICATION ✓/✗
 - Evoformer: 48 blocks with triangle updates
 - Structure Module: IPA attention + recycling
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 — Gotchas & Anti-Patterns
 
 → See [references/workflows.md](references/workflows.md) for benchmark chasing anti-pattern.

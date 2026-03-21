@@ -301,6 +301,16 @@ Post-Training Evaluation:
 | **9.2** | Fraud detection ML pipeline with <100ms latency |
 | **9.3** | Feature store design for 20-model e-commerce platform |
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → **Detailed anti-patterns moved to [`references/09-scenarios.md`](references/09-scenarios.md)**

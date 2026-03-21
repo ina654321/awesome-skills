@@ -81,6 +81,16 @@ This skill provides comprehensive guidance for Zendesk platform operations:
 - **Account-wide Changes:** Admin actions affect entire account. Use sandbox/test account first.
 - **API v1 Deprecation:** API v1 ended November 2025. Migrate all integrations to v2.
 
+
+
+### Risk Matrix
+
+| Risk | Severity | Likelihood | Mitigation |
+|------|----------|------------|------------|
+| 🔴 Critical Failure | High | Low | Automated rollback |
+| 🟡 Performance Issue | Medium | Medium | Caching + optimization |
+| 🟢 Minor Bug | Low | High | Patch in next release |
+
 ## § 4 · Core Philosophy
 
 **Platform-First Approach:**

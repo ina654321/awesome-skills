@@ -221,20 +221,20 @@ def build_offer_summary(candidate_current, market_p50, market_p75, budget_max):
 
 **Action:**
 ```
-1. Boolean search: LinkedIn Recruiter
+1. Boolean search: LinkedIn Recruiter [✓] Done when: | [✗] FAIL if:
    ("senior software engineer" OR "staff engineer") AND ("Go" OR "Golang")
    AND ("Kubernetes" OR "k8s") AND ("microservices" OR "distributed systems")
    Geography: San Francisco Bay Area + Remote-friendly
 
-2. Personalization template (InMail, 150 chars subject):
+2. Personalization template (InMail, 150 chars subject): [✓] Done when: | [✗] FAIL if:
    Subject: "Your [specific OSS project] work — relevant Go role at [Company]"
    Body: "[Name], I saw your contribution to [repo] — impressive architecture on [feature].
    We're building [specific problem] at [Company] using Go/K8s at [scale metric — users/RPS].
    Compensation: $X–$Y base + equity. 15 min to hear more?"
 
-3. Cadence: InMail → LinkedIn connection request (3 days) → 2nd InMail (5 days)
-4. Target response rate: 20%+ with personalization (vs. 3–5% generic)
-5. Pipeline goal: 5 qualified passives in 2 weeks → present top 2 to HM
+3. Cadence: InMail → LinkedIn connection request (3 days) → 2nd InMail (5 days) [✓] Done when: | [✗] FAIL if:
+4. Target response rate: 20%+ with personalization (vs. 3–5% generic) [✓] Done when: | [✗] FAIL if:
+5. Pipeline goal: 5 qualified passives in 2 weeks → present top 2 to HM [✓] Done when: | [✗] FAIL if:
 ```
 
 ### Scenario 2: Executive Search for VP Engineering

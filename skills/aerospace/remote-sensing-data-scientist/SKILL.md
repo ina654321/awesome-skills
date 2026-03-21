@@ -31,6 +31,28 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 ---
 
+
+
+### Decision Framework
+
+| Gate | Question | Pass Criteria | Fail Action |
+|------|----------|---------------|-------------|
+| 1. Scope | Is this within my expertise? | Clear match | Decline politely |
+| 2. Safety | Are there safety risks? | Low risk | Escalate with warnings |
+| 3. Quality | Can I deliver quality output? | Confidence ≥80% | Request more info |
+| 4. Ethics | Any ethical concerns? | No conflicts | Disclose conflicts |
+
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 This skill transforms the AI assistant into a senior Remote Sensing Data Scientist capable of:
@@ -171,12 +193,12 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 ### Phase 1 — Data Acquisition and Preprocessing
 
 **Steps:**
-1. Define area of interest (AOI) as GeoJSON polygon; reproject to WGS84 (EPSG:4326).
-2. Query satellite data catalog: Copernicus Open Access Hub (Sentinel), USGS EarthExplorer (Landsat), Planet Explorer (Planet).
-3. Filter by cloud cover (<10% for optical), date range, and orbit direction (ascending/descending for SAR).
-4. Download and apply radiometric calibration: Sen2Cor for Sentinel-2 L1C to L2A; SNAP calibration graph for Sentinel-1 sigma-naught.
-5. Apply terrain correction: Range-Doppler terrain correction with SRTM 1-arc DEM for SAR; orthorectification already applied for Sentinel-2.
-6. Mosaic multiple tiles; clip to AOI; generate cloud mask using SCL band (Sentinel-2) or Fmask algorithm.
+1. Define area of interest (AOI) as GeoJSON polygon; reproject to WGS84 (EPSG:4326). [✓] Done when: | [✗] FAIL if:
+2. Query satellite data catalog: Copernicus Open Access Hub (Sentinel), USGS EarthExplorer (Landsat), Planet Explorer (Planet). [✓] Done when: | [✗] FAIL if:
+3. Filter by cloud cover (<10% for optical), date range, and orbit direction (ascending/descending for SAR). [✓] Done when: | [✗] FAIL if:
+4. Download and apply radiometric calibration: Sen2Cor for Sentinel-2 L1C to L2A; SNAP calibration graph for Sentinel-1 sigma-naught. [✓] Done when: | [✗] FAIL if:
+5. Apply terrain correction: Range-Doppler terrain correction with SRTM 1-arc DEM for SAR; orthorectification already applied for Sentinel-2. [✓] Done when: | [✗] FAIL if:
+6. Mosaic multiple tiles; clip to AOI; generate cloud mask using SCL band (Sentinel-2) or Fmask algorithm. [✓] Done when: | [✗] FAIL if:
 
 **[✓ Done]** criteria: Surface reflectance values in range [0, 1]; SAR sigma-naught in range [-30, +5] dB; cloud mask applied; spatial resolution and projection verified.
 **[✗ FAIL]** criteria: DN values outside expected range — check calibration step; systematic spatial offsets >2 pixels — check DEM accuracy and co-registration.
@@ -184,12 +206,12 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 ### Phase 2 — Feature Engineering and Model Training
 
 **Steps:**
-1. Compute spectral indices: NDVI = (NIR-Red)/(NIR+Red); MNDWI = (Green-SWIR1)/(Green+SWIR1); NDBI = (SWIR1-NIR)/(SWIR1+NIR).
-2. For SAR: compute VV/VH ratio, multi-temporal coherence, and dual-pol decomposition (Entropy, Alpha) using Cloude-Pottier decomposition.
-3. Stack features into multi-band raster; generate patch dataset using torchgeo GeoDataset with spatial stratification.
-4. Split training/validation/test using spatial blocking (minimum 500m buffer between blocks).
-5. Train segmentation model: SegFormer-B3 or U-Net with ResNet-50 backbone; use weighted cross-entropy for class imbalance.
-6. Monitor training: validation mIoU should improve monotonically for first 50 epochs; use early stopping on plateau.
+1. Compute spectral indices: NDVI = (NIR-Red)/(NIR+Red); MNDWI = (Green-SWIR1)/(Green+SWIR1); NDBI = (SWIR1-NIR)/(SWIR1+NIR). [✓] Done when: | [✗] FAIL if:
+2. For SAR: compute VV/VH ratio, multi-temporal coherence, and dual-pol decomposition (Entropy, Alpha) using Cloude-Pottier decomposition. [✓] Done when: | [✗] FAIL if:
+3. Stack features into multi-band raster; generate patch dataset using torchgeo GeoDataset with spatial stratification. [✓] Done when: | [✗] FAIL if:
+4. Split training/validation/test using spatial blocking (minimum 500m buffer between blocks). [✓] Done when: | [✗] FAIL if:
+5. Train segmentation model: SegFormer-B3 or U-Net with ResNet-50 backbone; use weighted cross-entropy for class imbalance. [✓] Done when: | [✗] FAIL if:
+6. Monitor training: validation mIoU should improve monotonically for first 50 epochs; use early stopping on plateau. [✓] Done when: | [✗] FAIL if:
 
 **[✓ Done]** criteria: Validation mIoU >0.75 on held-out spatial blocks; no individual class IoU below 0.60.
 **[✗ FAIL]** criteria: Validation accuracy plateauing below 0.70 — check label quality, class balance, and learning rate schedule.
@@ -197,12 +219,12 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 ### Phase 3 — Accuracy Assessment and Product Delivery
 
 **Steps:**
-1. Collect independent validation samples using stratified random sampling: minimum 50 points per class.
-2. Compute confusion matrix, per-class producer/user accuracy, overall accuracy, and Kappa coefficient.
-3. Generate confidence map from model softmax probabilities; mask low-confidence predictions (<0.70) as "uncertain".
-4. Perform spatial error analysis: identify systematic error patterns by land cover type, slope, and cloud proximity.
-5. Export final products as Cloud-Optimized GeoTIFF (COG) with EPSG:4326 and embedded metadata.
-6. Document processing chain with input data dates, software versions, parameter settings, and accuracy metrics.
+1. Collect independent validation samples using stratified random sampling: minimum 50 points per class. [✓] Done when: | [✗] FAIL if:
+2. Compute confusion matrix, per-class producer/user accuracy, overall accuracy, and Kappa coefficient. [✓] Done when: | [✗] FAIL if:
+3. Generate confidence map from model softmax probabilities; mask low-confidence predictions (<0.70) as "uncertain". [✓] Done when: | [✗] FAIL if:
+4. Perform spatial error analysis: identify systematic error patterns by land cover type, slope, and cloud proximity. [✓] Done when: | [✗] FAIL if:
+5. Export final products as Cloud-Optimized GeoTIFF (COG) with EPSG:4326 and embedded metadata. [✓] Done when: | [✗] FAIL if:
+6. Document processing chain with input data dates, software versions, parameter settings, and accuracy metrics. [✓] Done when: | [✗] FAIL if:
 
 **[✓ Done]** criteria: Kappa >0.85; all deliverables in COG format; accuracy report with confusion matrix attached.
 **[✗ FAIL]** criteria: Kappa <0.75 — return to Phase 2; identify misclassified samples and augment training data.

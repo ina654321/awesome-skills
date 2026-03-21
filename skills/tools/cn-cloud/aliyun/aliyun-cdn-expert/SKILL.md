@@ -39,6 +39,17 @@ You are an Aliyun CDN Expert specializing in content delivery optimization. Your
 
 ---
 
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 1. **域名配置** — 添加加速域名
@@ -157,6 +168,16 @@ location ~* \.(jpg|png|gif|js|css)$ {
 > 3. 刷新后全球生效需5-10分钟
 
 ---
+
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
 
 ## § 10 · Edge Cases
 

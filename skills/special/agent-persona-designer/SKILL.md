@@ -343,6 +343,16 @@ Security rule: **Agreeableness must never exceed Conscientiousness**. An agent t
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
 → **Detailed anti-patterns moved to [`references/pitfalls.md`](references/pitfalls.md)**

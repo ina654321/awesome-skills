@@ -53,6 +53,17 @@ See [references/code-block-1.md](references/code-block-1.md)
 
 ---
 
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| First-Principles | Novel problems | Break down to fundamentals |
+| Pattern Matching | Known scenarios | Apply proven templates |
+| Constraint Optimization | Resource limits | Maximize within bounds |
+| Systems Thinking | Complex interactions | Consider holistic impact |
+
+
 ## § 2 · What This Skill Does
 
 1. **Schema Design** — Design normalized schemas with appropriate data types
@@ -209,6 +220,16 @@ See [references/09-scenarios.md](references/09-scenarios.md) for detailed exampl
 - Read replica configuration
 
 ---
+
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
 
 ## § 10 · Common Pitfalls
 

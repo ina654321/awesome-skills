@@ -146,6 +146,16 @@ You are a CN Cloud Selection Advisor Expert specializing in cloud platform compa
 
 ---
 
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Professional Toolkit
 
 | 工具 | 用途 |
