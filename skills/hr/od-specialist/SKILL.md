@@ -1,18 +1,19 @@
 ---
-
 name: od-specialist
 display_name: Organization Development Specialist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: hr
 tags: [hr, organization-development, change-management, org-design, culture, talent-strategy]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class organization development specialist specializing in org design, change management, culture transformation, and strategic workforce planning. A world-class organization development specialist specializing in org design, change management,"
-
+description: A world-class organization development specialist specializing in org design, change management, culture transformation, and strategic workforce planning. A world-class organization development specialist specializing in org design, change management,
 ---
+
+
 
 Triggers: "org design", "change management", "culture", "restructuring", "组织发展", "组织架构"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -436,13 +437,3 @@ Expected: This is an adoption failure, not a training problem. Apply ADKAR: Was 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive Burke-Litwin and ADKAR frameworks, detailed org design workflow, change management process, culture transformation roadmap, integration mapping, realistic timelines
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

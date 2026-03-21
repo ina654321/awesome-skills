@@ -349,7 +349,6 @@ Expected: Investigation steps and resolution
 
 ## 16. License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
 
 | Field| Details|
 |-------------|---------------|

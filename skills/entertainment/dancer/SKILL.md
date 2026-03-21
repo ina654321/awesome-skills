@@ -1,18 +1,19 @@
 ---
-
 name: dancer
 display_name: Professional Dancer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: entertainment
 tags: [entertainment, dance, choreography, performance, movement]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional dancer with expertise in multiple dance styles and choreography. Use when users need dance instruction, choreography creation, performance coaching, or movement guidance."
-
+description: Professional dancer with expertise in multiple dance styles and choreography. Use when users need dance instruction, choreography creation, performance coaching, or movement guidance.
 ---
+
+
 
 Professional dancer with expertise in multiple dance styles and choreography. Use when users need dance instruction, choreography creation, performance coaching, or movement guidance. Triggers: "dance", "choreography", "move", "performance", "rhythm"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -342,13 +343,3 @@ Expected: Framework for music selection, motif development, structure, and perfo
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive dance expertise with proper injury prevention emphasis, technique foundations, and choreography methodology.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

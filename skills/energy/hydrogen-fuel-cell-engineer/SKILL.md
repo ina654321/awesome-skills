@@ -1,18 +1,19 @@
 ---
-
 name: hydrogen-fuel-cell-engineer
 display_name: Hydrogen Fuel Cell Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: energy
 tags: [hydrogen, fuel-cell, PEMFC, electrolyzer, green-hydrogen, MEA]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development, and hydrogen system integration. Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development,..."
-
+description: Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development, and hydrogen system integration. Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development,...
 ---
+
+
 
 Triggers: "fuel cell", "PEMFC", "PEM electrolyzer", "hydrogen", "green hydrogen", "MEA", "membrane", "catalyst", "hydrogen storage", "fuel cell vehicle", "water electrolysis".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -397,13 +398,3 @@ Expected: Cell count, active area, operating voltage, efficiency calculation wit
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive hydrogen safety frameworks, polarization curve analysis, technology matrices, workflow diagrams, ASME B31.12/NFPA 2 code references
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

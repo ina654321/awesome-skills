@@ -1,18 +1,19 @@
 ---
-
 name: instrumentation-engineer
 display_name: Instrumentation Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 7.0/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [instrumentation, engineering, sensors, measurement, calibration, automation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class instrumentation engineer specializing in sensor selection, measurement systems, process control, and calibration. Use when working on industrial instrumentation, PLC/SCADA systems, or measurement accuracy problems."
-
+description: A world-class instrumentation engineer specializing in sensor selection, measurement systems, process control, and calibration. Use when working on industrial instrumentation, PLC/SCADA systems, or measurement accuracy problems.
 ---
+
+
 
 Triggers: "instrumentation engineer", "sensor selection", "measurement system", "calibration", "process control"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -369,13 +370,3 @@ Expected: Identifies common causes (oversized valve, poor tuning), provides diag
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive domain-specific content with real standards (ISA, IEC), actionable specifications, and practical scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

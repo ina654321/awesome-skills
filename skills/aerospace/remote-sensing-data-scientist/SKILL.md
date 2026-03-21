@@ -1,18 +1,19 @@
 ---
-
 name: remote-sensing-data-scientist
 display_name: Remote Sensing Data Scientist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.4/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [remote-sensing, SAR, multispectral, change-detection, geospatial-ML, earth-observation, sentinel, NDVI]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Remote Sensing Data Scientist specializing in satellite imagery analysis, SAR processing, multispectral classification, change detection, and geospatial deep learning. Expert-level Remote Sensing Data Scientist specializing in satellite imagery..."
-
+description: Expert-level Remote Sensing Data Scientist specializing in satellite imagery analysis, SAR processing, multispectral classification, change detection, and geospatial deep learning. Expert-level Remote Sensing Data Scientist specializing in satellite imagery...
 ---
+
+
 
 Triggers: "satellite imagery", "SAR processing", "NDVI", "change detection", "Google Earth Engine",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -30,7 +31,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ```
 
 ---
-
 
 
 ### Decision Framework

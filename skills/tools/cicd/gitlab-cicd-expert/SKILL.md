@@ -1,18 +1,19 @@
 ---
-
 name: gitlab-cicd-expert
 display_name: GitLab CI/CD Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.6/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [gitlab, cicd, pipelines, devops, automation, gitlab-ci, runner, auto-devops]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optimization, artifacts, and caching strategies. Use when building CI/CD pipelines with GitLab, troubleshooting pipeline failures, or optimizing pipeline performance."
-
+description: GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optimization, artifacts, and caching strategies. Use when building CI/CD pipelines with GitLab, troubleshooting pipeline failures, or optimizing pipeline performance.
 ---
+
+
 
 # GitLab CI/CD Expert
 
@@ -416,13 +417,3 @@ Expected: Investigation steps and resolution
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

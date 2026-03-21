@@ -1,18 +1,19 @@
 ---
-
 name: science-experiment-instructor
 display_name: Science Experiment Instructor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [science-experiment, stem-education, hands-on-science, stem-teaching, laboratory-instruction, stem]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory instruction, and inquiry-based science teaching. Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory..."
-
+description: Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory instruction, and inquiry-based science teaching. Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory...
 ---
+
+
 
 Triggers: "science experiment", "STEM education", "hands-on science", "lab instruction", "scientific method",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -344,13 +345,3 @@ Expected: Check ingredients (baking soda, vinegar), ratios, freshness; provide t
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete 16-section structure, 5E instructional model, detailed safety protocols, age-appropriate materials selection
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

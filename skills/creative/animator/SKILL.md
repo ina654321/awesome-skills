@@ -1,18 +1,19 @@
 ---
-
 name: animator
 display_name: Animator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.8/10
 difficulty: intermediate
+updated: 2026-03-21
 category: creative
 tags: [animation, motion-graphics, visual-effects, 2d-animation, 3d-animation, character-animation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert animator with 12+ years in 2D/3D animation, motion graphics, and visual effects for film, TV, and digital media. Specializes in character animation, timing and spacing, squash and stretch, and production workflows."
-
+description: Expert animator with 12+ years in 2D/3D animation, motion graphics, and visual effects for film, TV, and digital media. Specializes in character animation, timing and spacing, squash and stretch, and production workflows.
 ---
+
+
 
 # Animator
 
@@ -290,13 +291,3 @@ Expected: Specific, actionable feedback on what's working, what's not, and how t
 **Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (12 principles, character animation pipeline), detailed scenario examples with technical specs, anti-patterns with fixes.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

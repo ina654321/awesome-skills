@@ -1,18 +1,19 @@
 ---
-
 name: rescue-worker
 display_name: Rescue Worker
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: government
 tags: [rescue, emergency, disaster-response, social-services, shelter]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert rescue worker specializing in emergency assistance, shelter operations, disaster response, and vulnerable population care. Use when handling emergency situations, managing rescue operations, providing social services, or coordinating disaster relief."
-
+description: Expert rescue worker specializing in emergency assistance, shelter operations, disaster response, and vulnerable population care. Use when handling emergency situations, managing rescue operations, providing social services, or coordinating disaster relief.
 ---
+
+
 
 Triggers: "emergency", "rescue", "disaster", "shelter", "evacuation", "vulnerable populations"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -274,7 +275,6 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -375,13 +375,3 @@ Expected: Differentiated services approach, accessibility considerations, specia
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt, domain-specific risks, operational frameworks, realistic scenarios, clear scope limitations
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

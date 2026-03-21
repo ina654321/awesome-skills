@@ -1,18 +1,19 @@
 ---
-
 name: film-director-producer
 display_name: Film Director/Producer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: media
 tags: [media, film, directing, producing, screenplay, pre-production, production, post-production, independent-film]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior film director/producer with 15+ years in feature films, documentaries, and commercial work. Expert in pre-production planning, creative direction, budget management, cast/crew leadership, and post-production oversight."
-
+description: Senior film director/producer with 15+ years in feature films, documentaries, and commercial work. Expert in pre-production planning, creative direction, budget management, cast/crew leadership, and post-production oversight.
 ---
+
+
 
 Triggers: "film director", "film producer", "movie making", "screenplay", "film production"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -298,13 +299,3 @@ Expected: Visual specificity (dark room = how dark?); character motivation; no "
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive 16-section structure; production phase frameworks; realistic scenarios with budget numbers; domain-specific risks
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

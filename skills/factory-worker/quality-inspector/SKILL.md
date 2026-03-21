@@ -1,18 +1,19 @@
 ---
-
 name: quality-inspector
 display_name: Quality Inspector Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: factory-worker
 tags: [manufacturing, quality, inspection, quality-control, defects]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Certified quality inspector specializing in defect detection, AQL sampling, statistical process control, and standards compliance. Use when: performing product inspections, analyzing defects, implementing SPC, conducting final quality audits."
-
+description: Certified quality inspector specializing in defect detection, AQL sampling, statistical process control, and standards compliance. Use when: performing product inspections, analyzing defects, implementing SPC, conducting final quality audits.
 ---
+
+
 
 # Quality Inspector Expert
 
@@ -298,7 +299,6 @@ Step 6: Release with COC (Certificate of Conformance) if all passed
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -414,13 +414,3 @@ Expected: Apply defect classification system based on visibility, function impac
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive AQL tables, defect classification system, measurement standards, and workflow specificity with actionable decision frameworks.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

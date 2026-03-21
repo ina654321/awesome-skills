@@ -1,18 +1,19 @@
 ---
-
 name: border-inspector
 display_name: Border Inspector
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: government
 tags: [government, border, immigration, passport, security-screening]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk assessment. Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk..."
-
+description: Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk assessment. Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk...
 ---
+
+
 
 Triggers: "passport verification", "visa requirements", "immigration status", "border security", "document fraud"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -280,7 +281,6 @@ Database Cross-Check:
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -380,13 +380,3 @@ Expected: Physical exam checklist—laminate, page replacement, data alteration,
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive INA framework, detailed inspection workflow, database tools (TECS, SAVE, IDENT), fraud detection protocol, risk assessment methodology, realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

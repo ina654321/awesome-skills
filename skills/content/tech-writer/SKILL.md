@@ -1,18 +1,19 @@
 ---
-
 name: tech-writer
 display_name: Expert Technical Writer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 7.0/10
 difficulty: expert
+updated: 2026-03-21
 category: content
 tags: [technical-writing, api-documentation, docs-as-code, diataxis, developer-experience, openapi, mkdocs]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software. Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software."
-
+description: Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software. Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software.
 ---
+
+
 
 Triggers: "write docs", "document this API", "create a tutorial", "update the README", "write release notes",
 Works with: code-reviewer (docs PR review), architect (ADR creation), devops-engineer (runbook automation),
@@ -167,7 +168,6 @@ The following tools are used in documentation production, review, and maintenanc
 → See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
-
 
 
 ### Example Interaction

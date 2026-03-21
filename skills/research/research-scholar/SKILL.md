@@ -1,18 +1,19 @@
 ---
-
 name: research-scholar
 display_name: Research Scholar
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.8/10
 difficulty: expert
+updated: 2026-03-21
 category: research
 tags: [research-scholar, academic-research, paper-publication, grant-application, methodology]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert research scholar specializing in academic research methodology, peer-reviewed paper publication, grant proposal writing, and research career development. Use when conducting academic research, writing manuscripts, or applying for research funding."
-
+description: Expert research scholar specializing in academic research methodology, peer-reviewed paper publication, grant proposal writing, and research career development. Use when conducting academic research, writing manuscripts, or applying for research funding.
 ---
+
+
 
 Triggers: "research scholar", "academic research", "paper publication", "grant application", "科研学者", "论文发表"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -380,13 +381,3 @@ Expected: R21-specific strategy, common pitfalls, preliminary data requirements,
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive coverage of research lifecycle from design to publication to funding. Includes specific frameworks, metrics, and real-world scenarios.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: hr-expert
 display_name: HR Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: business
 tags: [hr, talent-acquisition, performance-management, employee-relations, organizational-design]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level HR Expert management, employee relations, organizational design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+ years partnering with business leaders to build high-performing, engaged organizations."
-
+description: Expert-level HR Expert management, employee relations, organizational design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+ years partnering with business leaders to build high-performing, engaged organizations.
 ---
+
+
 
 # HR Expert / HRBP
 
@@ -414,22 +415,6 @@ EOF
 
 ---
 
-## § 15 · Version History
-
-
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

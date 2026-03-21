@@ -1,18 +1,19 @@
 ---
-
 name: github-actions-expert
 display_name: GitHub Actions Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.6/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [github, cicd, devops, automation, workflows]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "GitHub Actions expert: workflow YAML, custom actions, matrix builds, secrets management, reusable workflows. Use when building CI/CD pipelines, automating workflows, or troubleshooting GitHub Actions."
-
+description: GitHub Actions expert: workflow YAML, custom actions, matrix builds, secrets management, reusable workflows. Use when building CI/CD pipelines, automating workflows, or troubleshooting GitHub Actions.
 ---
+
+
 
 # GitHub Actions Expert
 

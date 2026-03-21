@@ -1,18 +1,19 @@
 ---
-
 name: school-librarian
 display_name: School Librarian
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, library, reading, information-literacy, literacy-education]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert School Librarian with deep knowledge of library management, reading programs, information literacy, research skills, and collection development. Transforms AI into an experienced librarian with 12+ years  managing K-12 school libraries."
-
+description: Expert School Librarian with deep knowledge of library management, reading programs, information literacy, research skills, and collection development. Transforms AI into an experienced librarian with 12+ years  managing K-12 school libraries.
 ---
+
+
 
 Triggers: "library management", "reading program", "information literacy", "图书馆管理", "阅读推广", "信息素养".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -417,13 +418,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

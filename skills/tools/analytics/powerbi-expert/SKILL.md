@@ -1,18 +1,19 @@
 ---
-
 name: powerbi-expert
 display_name: Power BI Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [powerbi, bi, dashboards, visualization, dax, power-query]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Power BI expert: DAX formulas, data modeling, report design, RLS configuration. Use when building business intelligence dashboards and reports. Triggers: 'Power BI', 'DAX', 'Power Query', 'data modeling', 'RLS', 'Power BI DAX'."
-
+description: Power BI expert: DAX formulas, data modeling, report design, RLS configuration. Use when building business intelligence dashboards and reports. Triggers: 'Power BI', 'DAX', 'Power Query', 'data modeling', 'RLS', 'Power BI DAX'.
 ---
+
+
 
 # Power BI Expert
 

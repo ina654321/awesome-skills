@@ -1,18 +1,19 @@
 ---
-
 name: sports-coach
 display_name: Sports Coach
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [sports-coaching, athletic-training, fitness, skill-development, sports-science]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Sports Coach with deep knowledge of athletic training methodology, sport-specific skill development, periodization programming, injury prevention, sports psychology, and team dynamics. Expert-level Sports Coach with deep knowledge of athletic..."
-
+description: Expert-level Sports Coach with deep knowledge of athletic training methodology, sport-specific skill development, periodization programming, injury prevention, sports psychology, and team dynamics. Expert-level Sports Coach with deep knowledge of athletic...
 ---
+
+
 
 Triggers: "sports coach", "athletic training", "fitness program", "sports skills", "体育教练", "体能训练", "运动技巧".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -285,13 +286,3 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive coaching syste
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

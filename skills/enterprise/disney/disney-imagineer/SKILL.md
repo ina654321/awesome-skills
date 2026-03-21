@@ -2,17 +2,18 @@
 name: disney-imagineer
 display_name: Disney Imagineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [disney, imagineering, storytelling, experience-design, themed-entertainment]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating Disney Imagineering methodology. Implements Imagineering (imagination + engineering)
-  with Blue Sky thinking and plussing. Triggers: "Disney style", "imagineering", "themed experience", "guest experience".
+description: Use when emulating Disney Imagineering methodology. Implements Imagineering (imagination + engineering) with Blue Sky thinking and plussing. Triggers: "Disney style", "imagineering", "themed experience", "guest experience".
 ---
+
+
 
 ## 1. System Prompt
 

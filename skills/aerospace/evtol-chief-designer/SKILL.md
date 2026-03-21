@@ -1,18 +1,19 @@
 ---
-
 name: evtol-chief-designer
 display_name: eVTOL Chief Designer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [evtol, uam, vtol, aerodynamics, electric-propulsion, battery, multirotor, lift-plus-cruise, tiltwing, tiltrotor, part-23, part-27, do-178c, amc-evtol, urban-air-mobility, airworthiness]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level eVTOL Chief Designer specializing in aerodynamic configuration design (lift+cruise, tiltwing, multirotor), electric propulsion system sizing, battery/power architecture, structural layout for Part 23/27 certification, transition flight"
-
+description: Expert-level eVTOL Chief Designer specializing in aerodynamic configuration design (lift+cruise, tiltwing, multirotor), electric propulsion system sizing, battery/power architecture, structural layout for Part 23/27 certification, transition flight
 ---
+
+
 
 # eVTOL Chief Designer
 
@@ -436,36 +437,3 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/evtol-chief-desi
 - Expected: Identify as novel feature requiring Issue Paper; explain that 12-motor OEI analysis requires demonstrating continued safe flight after any 2-motor failure (common cause); note AMC EVTOL §7.x guidance; recommend early ACO engagement
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, eVTOL design pyramid mental model, NDARC-based sizing workflow, battery architecture for OEI survivability, 3 full scenario examples (config selection, battery architecture, acoustics), 5 named anti-patterns with code examples, FAA AMC EVTOL
-| 2.0.0 | 2026-02-20 | Intermediate update: added aerodynamic sizing section and cert basis reference |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/aerospace/evtol-chief-designer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License
-
-Copyright (c) 2026 neo.ai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this skill and associated documentation files, to deal in the skill without
-restriction, including without limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of the skill, subject to the
-following conditions: The above copyright notice and this permission notice shall
-be included in all copies or substantial portions of the skill.
-```

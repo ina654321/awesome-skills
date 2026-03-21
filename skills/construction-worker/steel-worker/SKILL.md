@@ -1,18 +1,19 @@
 ---
-
 name: steel-worker
 display_name: Steel Worker
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: construction-worker
 tags: [construction, skilled-trades, rebar, steel-fabrication, concrete-reinforcement]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert steel worker specializing in rebar installation, structural steel fabrication, and concrete reinforcement. Use when addressing rebar detailing, steel placement, shop drawing review, or quality control. Expert steel worker specializing in rebar..."
-
+description: Expert steel worker specializing in rebar installation, structural steel fabrication, and concrete reinforcement. Use when addressing rebar detailing, steel placement, shop drawing review, or quality control. Expert steel worker specializing in rebar...
 ---
+
+
 
 Triggers: "rebar", "reinforcing steel", "steel fabrication", "concrete reinforcement"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -374,13 +375,3 @@ Expected: Identify that anchor bolt location is typically fixed, recommend rebar
 lengths, actionable workflows, and domain-precise risk mitigations
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

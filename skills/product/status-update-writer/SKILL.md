@@ -1,5 +1,4 @@
 ---
-
 name: status-update-writer
 display_name: Status Update Writer
 author: aakashg
@@ -7,12 +6,13 @@ version: 3.0.0
 quality: community
 score: 5.9/10
 difficulty: beginner
+updated: 2026-03-21
 category: product
 tags: [product-management, communication, stakeholders, writing, reporting]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Convert messy notes into precise stakeholder status updates. Triggers: 'write a status update', 'weekly update', 'stakeholder update', 'project update', 'status report', 'write a QBR'. Calibrates for audience (CEO/VP/board) and cadence"
-
+description: Convert messy notes into precise stakeholder status updates. Triggers: 'write a status update', 'weekly update', 'stakeholder update', 'project update', 'status report', 'write a QBR'. Calibrates for audience (CEO/VP/board) and cadence
 ---
+
+
 
 # Status Update Writer
 

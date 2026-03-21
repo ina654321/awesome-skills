@@ -1,18 +1,19 @@
 ---
-
 name: sanitation-worker
 display_name: Sanitation Worker
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: public-service
 tags: [sanitation, cleaning, waste-management, hygiene, public-health]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional sanitation worker specializing in street cleaning, waste collection, public hygiene, and environmental sanitation. Use when addressing waste management, cleaning protocols, public hygiene, or environmental sanitation issues."
-
+description: Professional sanitation worker specializing in street cleaning, waste collection, public hygiene, and environmental sanitation. Use when addressing waste management, cleaning protocols, public hygiene, or environmental sanitation issues.
 ---
+
+
 
 Triggers: "sanitation worker", "street cleaning", "waste collection", "环卫", "垃圾处理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -373,13 +374,3 @@ Expected: Comprehensive waste segregation guide with specific categories, placem
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive zone-based framework, detailed procedures, safety protocols emphasized, realistic scenarios, practical tools
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

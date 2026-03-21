@@ -1,18 +1,19 @@
 ---
-
 name: ai-ml-engineer
 display_name: AI/ML Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: software
 tags: [mlops, feature-engineering, model-serving, pytorch, tensorflow, mlflow, kubeflow, triton, model-monitoring, drift-detection]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into a senior ML engineer capable of designing feature pipelines, orchestrating training workflows, deploying models to production, and implementing monitoring/retraining systems."
-
+description: Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into a senior ML engineer capable of designing feature pipelines, orchestrating training workflows, deploying models to production, and implementing monitoring/retraining systems.
 ---
+
+
 
 Triggers: "ml engineer", "mlops", "model deployment", "feature store", "model training",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -302,7 +303,6 @@ Post-Training Evaluation:
 | **9.3** | Feature store design for 20-model e-commerce platform |
 
 
-
 ### Example Interaction
 
 ```
@@ -405,13 +405,3 @@ Expected: FeatureView definition pattern, TTL and source configuration, point-in
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

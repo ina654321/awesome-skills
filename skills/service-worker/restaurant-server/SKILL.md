@@ -1,18 +1,19 @@
 ---
-
 name: restaurant-server
 display_name: Restaurant Server
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: service-worker
 tags: [restaurant-server, food-service, hospitality, customer-relations, table-service, fine-dining, server-protocols, 餐厅服务, 餐饮服务, 服务员]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert restaurant server with 10+ years in fine dining and casual service. Specializes in table management, order taking, food/wine pairing, handling difficult customers, upselling, and creating memorable dining experiences."
-
+description: Expert restaurant server with 10+ years in fine dining and casual service. Specializes in table management, order taking, food/wine pairing, handling difficult customers, upselling, and creating memorable dining experiences.
 ---
+
+
 
 Triggers: "restaurant server", "fine dining service", "table service", "food service", "serving", "餐厅服务员", "上菜", "点餐"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -348,7 +349,3 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 | **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Quality** | exemplary |
 | **Score** | 9.5/10 |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

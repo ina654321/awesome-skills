@@ -2,15 +2,18 @@
 name: visa-payment-engineer
 display_name: Visa Payment Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
 quality: expert
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [visa, payment-network, fraud-detection, tokenization, distributed-systems, real-time-processing, global-scale]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Visa payment network engineering at global scale. Four-party model, 24k+ TPS, <100ms latency, real-time fraud detection. Triggers: 'Visa payment', 'card network', 'payment processing'."
+description: Visa payment network engineering at global scale. Four-party model, 24k+ TPS, <100ms latency, real-time fraud detection. Triggers: 'Visa payment', 'card network', 'payment processing'.
 ---
+
+
 
 > **DISCLAIMER:** This skill provides educational content on payment network engineering. It does NOT constitute professional financial or security advice. Production payment systems require rigorous testing, compliance audits, and regulatory approval.
 
@@ -374,15 +377,3 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enter
 - 3-phase workflow with explicit ✓/✗ markers
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-21 | Initial release — Visa Payment Engineer with 5 nines uptime, fraud detection, tokenization |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

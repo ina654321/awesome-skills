@@ -1,18 +1,19 @@
 ---
-
 name: podcast-producer
 display_name: Podcast Producer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: media
 tags: [media, podcast, audio-production, content-strategy, interview, editing, distribution, Spotify, RSS]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class podcast producer specializing in show concept development, episode production workflow, interview preparation, audio editing (noise reduction, EQ, compression, normalization), show"
-
+description: A world-class podcast producer specializing in show concept development, episode production workflow, interview preparation, audio editing (noise reduction, EQ, compression, normalization), show
 ---
+
+
 
 # Podcast Producer
 

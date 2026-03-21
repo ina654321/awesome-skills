@@ -1,18 +1,19 @@
 ---
-
 name: cn-cloud-selection-advisor
 display_name: CN Cloud Selection Advisor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.7/10
 difficulty: beginner
+updated: 2026-03-21
 category: tools
 tags: [cloud-selection, aliyun, tencent, volcengine, china]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "国内云选型指南：阿里云/腾讯云/火山引擎对比，根据场景选择最佳平台。Use when selecting cloud provider in China, comparing prices, or choosing right services. Triggers: '云选型', '阿里云还是腾讯云', '火山引擎', '云计算选择'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 国内云选型指南：阿里云/腾讯云/火山引擎对比，根据场景选择最佳平台。Use when selecting cloud provider in China, comparing prices, or choosing right services. Triggers: '云选型', '阿里云还是腾讯云', '火山引擎', '云计算选择'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # CN Cloud Selection Advisor
 
@@ -147,7 +148,6 @@ You are a CN Cloud Selection Advisor Expert specializing in cloud platform compa
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -229,21 +229,6 @@ Expert: [Detailed expert response with reasoning]
 
 **Self-Score:** 9.5/10 — Exemplary
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

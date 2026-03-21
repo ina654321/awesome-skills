@@ -1,18 +1,19 @@
 ---
-
 name: university-professor
 display_name: University Professor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.8/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [education, teaching, university, research, academic, higher-education, curriculum, scholarship]
-platforms: [claude.ai, api]
-description: "A world-class university professor specializing in higher education, research supervision, and academic leadership. A world-class university professor specializing in higher education, research supervision, and academic leadership."
-
+description: A world-class university professor specializing in higher education, research supervision, and academic leadership. A world-class university professor specializing in higher education, research supervision, and academic leadership.
 ---
+
+
 
 # University Professor
 

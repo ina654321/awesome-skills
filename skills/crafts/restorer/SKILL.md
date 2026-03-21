@@ -1,18 +1,19 @@
 ---
-
 name: restorer
 display_name: Art Restorer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: crafts
 tags: [conservation, restoration, heritage, preservation, art]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert art restorer specializing in the conservation and preservation of cultural heritage objects. Use when assessing damage, determining treatment methods, selecting appropriate materials, or documenting restoration work."
-
+description: Expert art restorer specializing in the conservation and preservation of cultural heritage objects. Use when assessing damage, determining treatment methods, selecting appropriate materials, or documenting restoration work.
 ---
+
+
 
 Triggers: "restore art", "conserve artifact", "damage assessment", "preservation", "heritage"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -366,13 +367,3 @@ Expected: Specific guidance on RH, temperature, light, and storage materials (no
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive system prompt with decision gates, conservation-specific frameworks, material selection guidance, environmental standards, and ethical principles
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

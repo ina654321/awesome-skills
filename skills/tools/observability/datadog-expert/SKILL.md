@@ -1,18 +1,19 @@
 ---
-
 name: datadog-expert
 display_name: Datadog Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [datadog, apm, monitoring, tracing, cloud-monitoring, infrastructure, logs, metrics]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Datadog专家：APM、基础设施监控、日志管理。Use when monitoring applications with Datadog. Triggers: 'Datadog', 'APM', '监控', '性能监控', '分布式追踪', '日志分析'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: Datadog专家：APM、基础设施监控、日志管理。Use when monitoring applications with Datadog. Triggers: 'Datadog', 'APM', '监控', '性能监控', '分布式追踪', '日志分析'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Datadog Expert
 
@@ -466,7 +467,6 @@ json {
 
 ---
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 ### Example Interaction
 

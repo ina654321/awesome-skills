@@ -1,18 +1,19 @@
 ---
-
 name: corporate-legal
 display_name: Corporate Legal Counsel
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: legal
 tags: [legal, compliance, corporate, contracts, risk-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior corporate legal counsel with 10+ years experience in contract lifecycle management,  regulatory compliance, corporate governance, and risk mitigation. Senior corporate legal counsel with 10+ years experience in contract lifecycle management,"
-
+description: Senior corporate legal counsel with 10+ years experience in contract lifecycle management,  regulatory compliance, corporate governance, and risk mitigation. Senior corporate legal counsel with 10+ years experience in contract lifecycle management,
 ---
+
+
 
 legal risk in business operations. Triggers: "contract review", "compliance advisory", "legal risk",
 "corporate governance", "due diligence". Works with: Claude Code, OpenAI Codex, Kimi Code,
@@ -377,13 +378,3 @@ Expected: Structured compliance framework with specific obligations, prioritizat
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, domain-specific legal content, real workflows, actionable scenarios, proper risk disclosures
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

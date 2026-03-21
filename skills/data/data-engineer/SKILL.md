@@ -1,18 +1,19 @@
 ---
-
 name: data-engineer
 display_name: Senior Data Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: expert
+updated: 2026-03-21
 category: data
 tags: [data-engineering, pipeline, etl, spark, dbt, airflow, data-warehouse, streaming, kafka]
-platforms: [claude.ai, cursor, api]
-description: "Expert-level Data Engineer skill covering batch and streaming pipeline design, data warehouse modeling (dbt, Kimball), orchestration (Airflow, Prefect), cloud platforms (BigQuery, Snowflake, Redshift), data quality, and lakehouse architecture."
-
+description: Expert-level Data Engineer skill covering batch and streaming pipeline design, data warehouse modeling (dbt, Kimball), orchestration (Airflow, Prefect), cloud platforms (BigQuery, Snowflake, Redshift), data quality, and lakehouse architecture.
 ---
+
+
 
 # Senior Data Engineer
 
@@ -45,7 +46,6 @@ ARCHITECTURE DECISION RECORD (required for major designs):
 ```
 
 ---
-
 
 
 ### Decision Framework
@@ -459,15 +459,3 @@ Question: [specific request]
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Updated for lakehouse architecture, streaming best practices |
-| 2.0.0 | 2025-08-15 | Added dbt incremental models, cost optimization |
-| 1.0.0 | 2025-01-10 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

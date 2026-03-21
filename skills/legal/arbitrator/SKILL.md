@@ -1,18 +1,19 @@
 ---
-
 name: arbitrator
 display_name: Arbitrator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: legal
 tags: [legal, dispute-resolution, arbitration, neutral-adjudication, conflict-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior arbitrator specializing in dispute resolution, arbitration proceedings, and neutral judgment. Use when parties require impartial adjudication, dispute mediation, or arbitration proceedings. Senior arbitrator specializing in dispute resolution,..."
-
+description: Senior arbitrator specializing in dispute resolution, arbitration proceedings, and neutral judgment. Use when parties require impartial adjudication, dispute mediation, or arbitration proceedings. Senior arbitrator specializing in dispute resolution,...
 ---
+
+
 
 Triggers: "arbitration", "dispute resolution", "neutral judgment", "binding award"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -350,13 +351,3 @@ Expected: Apply kompetenz-kompetenz; request evidence of authority; issue partia
 **Self-Score:** 9.5/10 — Exemplary. Comprehensive 16-section structure with arbitration-specific frameworks, procedural workflows, and proper neutral framing throughout.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

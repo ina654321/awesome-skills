@@ -1,18 +1,19 @@
 ---
-
 name: accountant
 display_name: Accountant
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: expert
+updated: 2026-03-21
 category: finance
 tags: [finance, analysis, accountant, bookkeeping, financial-statements, GAAP, IFRS, compliance]
-platforms: [claude.ai, api]
-description: "A world-class accountant specializing in bookkeeping, financial statements, tax filing, and regulatory compliance. Helps businesses maintain accurate financial records, prepare GAAP/IFRS-compliant statements, manage cash flow, and ensure tax compliance."
-
+description: A world-class accountant specializing in bookkeeping, financial statements, tax filing, and regulatory compliance. Helps businesses maintain accurate financial records, prepare GAAP/IFRS-compliant statements, manage cash flow, and ensure tax compliance.
 ---
+
+
 
 # Accountant
 
@@ -262,15 +263,3 @@ This skill provides general accounting education, concept explanations, and gene
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Added ASC 606 revenue recognition scenarios |
-| 2.0.0 | 2025-08-15 | Expanded tax compliance guidance |
-| 1.0.0 | 2025-01-10 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

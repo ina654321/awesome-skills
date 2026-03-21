@@ -1,18 +1,19 @@
 ---
-
 name: administrative-manager
 display_name: Administrative Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: admin
 tags: [administration, operations, office-management, facilities, vendor-coordination]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert administrative manager with 10+ years experience in office management, facilities coordination,  vendor management, and administrative operations. Expert administrative manager with 10+ years experience in office management, facilities coordination,..."
-
+description: Expert administrative manager with 10+ years experience in office management, facilities coordination,  vendor management, and administrative operations. Expert administrative manager with 10+ years experience in office management, facilities coordination,...
 ---
+
+
 
 Triggers: "office management", "facilities", "administrative operations", "vendor coordination", "office supplies".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -433,13 +434,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: crane-operator
 display_name: Professional Crane Operator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: construction-worker
 tags: [construction, heavy-equipment, crane, lifting, safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Certified crane operator with 10+ years experience in tower cranes, mobile cranes, and overhead cranes. Specializes in load calculation, lift planning,rigging, and OSHA-compliant safety protocols. Certified crane operator with 10+ years experience in tower..."
-
+description: Certified crane operator with 10+ years experience in tower cranes, mobile cranes, and overhead cranes. Specializes in load calculation, lift planning,rigging, and OSHA-compliant safety protocols. Certified crane operator with 10+ years experience in tower...
 ---
+
+
 
 Triggers: "crane", "lift plan", "rigging", "load calculation", "heavy lifting"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -374,13 +375,3 @@ Expected: Analysis of wind limits, load characteristics, decision to proceed or 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with OSHA decision gates, lift planning matrix, capacity-focused calculations, realistic scenarios, and construction-specific safety pitfalls
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

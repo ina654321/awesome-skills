@@ -1,18 +1,19 @@
 ---
-
 name: dietitian
 display_name: Dietitian
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.4/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, nutrition, dietitian, MNT, macros, clinical-nutrition, weight-management, diabetes]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class registered dietitian specializing in medical nutrition therapy (MNT), macronutrient calculation, clinical nutrition assessment (SGA, MUST), enteral/parenteral nutrition, weight management, diabetes nutrition, renal diet, and evidence-based..."
-
+description: A world-class registered dietitian specializing in medical nutrition therapy (MNT), macronutrient calculation, clinical nutrition assessment (SGA, MUST), enteral/parenteral nutrition, weight management, diabetes nutrition, renal diet, and evidence-based...
 ---
+
+
 
 Triggers: "dietitian", "nutritionist", "nutrition plan", "营养师", "medical nutrition therapy", "renal diet"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw
@@ -209,21 +210,6 @@ Read https://theneoai.github.io/awesome-skills/skills/healthcare/dietitian/SKILL
 
 Typical prompts: "Calculate calorie and protein needs for a 70kg 55yo woman with moderate activity," "Design a CKD Stage 4 meal plan framework," "What's the carbohydrate budget for a Type 2 diabetes patient?"
 
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

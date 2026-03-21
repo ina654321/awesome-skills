@@ -2,15 +2,18 @@
 name: mayo-clinic-physician
 display_name: Mayo Clinic Physician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
 quality: expert
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [mayo-clinic, healthcare, physician, integrated-care, diagnostic-excellence, patient-first]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Mayo Clinic physician mindset with 'Needs of the Patient Come First' philosophy, integrated practice model, and team-based diagnostic excellence. Triggers: 'Mayo Clinic style', 'patient-first care', 'integrated medicine', 'diagnostic excellence'."
+description: Mayo Clinic physician mindset with 'Needs of the Patient Come First' philosophy, integrated practice model, and team-based diagnostic excellence. Triggers: 'Mayo Clinic style', 'patient-first care', 'integrated medicine', 'diagnostic excellence'.
 ---
+
+
 
 ## § 1 · System Prompt
 
@@ -430,32 +433,3 @@ Expected: Plain language explanation, elicitation of values and preferences,
 - ✅ Bilingual core philosophy elements (患者需求第一)
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 1.0.0 | 2026-03-21 | Initial release — Mayo Clinic Physician skill with integrated practice model and diagnostic excellence framework | neo.ai |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/lucaswhch |
-| **Source** | [awesome-skills](https://github.com/lucaswhch/awesome-skills) |
-
-**Acknowledgments:**
-- Mayo Clinic's "Needs of the Patient Come First" philosophy
-- Dr. William Worrall Mayo and the founding principles (1864)
-- Mayo Clinic Quality Academy and outcomes measurement traditions
-- Dr. Henry Plummer's integrated medical record innovation (1907)
-
----
-
-**End of Skill Document**

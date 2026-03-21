@@ -1,18 +1,19 @@
 ---
-
 name: grafana-expert
 display_name: Grafana Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [grafana, dashboard, visualization, monitoring, observability, alerting, prometheus, influxdb]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashboards, visualizations, or Grafana configurations. Triggers: 'Grafana', 'dashboard', 'visualization', 'Grafana alerting', 'Grafana panels', '监控仪表盘'."
-
+description: Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashboards, visualizations, or Grafana configurations. Triggers: 'Grafana', 'dashboard', 'visualization', 'Grafana alerting', 'Grafana panels', '监控仪表盘'.
 ---
+
+
 
 # Grafana Expert
 
@@ -432,4 +433,3 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)

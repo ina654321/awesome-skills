@@ -1,18 +1,19 @@
 ---
-
 name: court-clerk
 display_name: Court Clerk
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: beginner
+updated: 2026-03-21
 category: legal
 tags: [legal, court, administrative, records, transcription]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional court clerk with 8+ years experience in court administration, records management,  hearing transcription, and judicial support. Professional court clerk with 8+ years experience in court administration, records management, hearing transcription,..."
-
+description: Professional court clerk with 8+ years experience in court administration, records management,  hearing transcription, and judicial support. Professional court clerk with 8+ years experience in court administration, records management, hearing transcription,...
 ---
+
+
 
 files, recording hearing proceedings, or managing court administrative processes. Triggers: "court
 filing", "case record", "hearing transcript", "judicial administration", "court order". Works with:
@@ -380,13 +381,3 @@ Expected: Process for accessing case records, authorization requirements, fees, 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive court clerk content, document workflows, proper procedural guidance, neutrality in handling parties, risk disclaimers
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

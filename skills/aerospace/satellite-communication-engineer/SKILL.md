@@ -1,18 +1,19 @@
 ---
-
 name: satellite-communication-engineer
 display_name: Satellite Communication Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [satellite, satcom, leo, geo, meo, link-budget, rf-engineering, dvb-s2x, iridium, starlink, oneweb, ground-station, eirp, g-t, modulation, fec, interference, itu, fcc-licensing, antenna, payload]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T, Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2 waveform engineering, ground station design, RF interference analysis, ITU coordination, FCC/OFCOM..."
-
+description: Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T, Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2 waveform engineering, ground station design, RF interference analysis, ITU coordination, FCC/OFCOM...
 ---
+
+
 
 # Satellite Communication Engineer
 
@@ -410,27 +411,3 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/satellite-commun
 - Expected: Compute EIRP (2W = 3 dBW; 45cm at 30GHz ≈ 42 dBi; EIRP = 45 dBW); compute PFD at GEO arc; compare to ITU RR Appendix 5 limit for Ka uplink; advise on compliance
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, link chain mental model, complete Ka-band link budget template, ITU P.618 rain fade framework, 3 full scenario examples (terminal sizing, GSO interference coordination, TCP optimization), 5 named anti-patterns, DVB-S2X waveform reference, ITU coordination timeline |
-| 2.0.0 | 2026-02-20 | Intermediate update: added link budget section and regulatory references |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/aerospace/satellite-communication-engineer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-```

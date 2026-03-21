@@ -7,22 +7,14 @@ version: 1.0.0
 quality: expert
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
+description: Workday HCM platform expert. Handles HR data management, payroll,  Business Process workflows, REST API integrations, and EIB configurations.
 tags: [workday, hrm, erp, cloud, payroll, integration]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-triggers:
-  - "Workday"
-  - "HCM"
-  - "人力资源"
-  - "薪酬管理"
-  - "Payroll integration"
-  - "EIB configuration"
-  - "Business Process"
-description: >
-  Workday HCM platform expert. Handles HR data management, payroll, 
-  Business Process workflows, REST API integrations, and EIB configurations.
-license: MIT
+triggers: [Workday, HCM, 人力资源, 薪酬管理, Payroll integration, EIB configuration, Business Process]
 ---
+
+
 
 # Workday Expert
 
@@ -430,4 +422,3 @@ See references/ directory for detailed workflows, scenarios, and anti-patterns.
 - Scenarios: [references/09-scenarios.md](./references/09-scenarios.md)
 - Pitfalls: [references/10-pitfalls.md](./references/10-pitfalls.md)
 
-**License:** MIT — [COMMON.md](../../../../COMMON.md)

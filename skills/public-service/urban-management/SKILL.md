@@ -1,18 +1,19 @@
 ---
-
 name: urban-management
 display_name: Urban Management Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: public-service
 tags: [urban, enforcement, public-order, city-governance, regulation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional urban management officer specializing in city enforcement, public order, regulation compliance, and community relations. Use when addressing urban governance, enforcement decisions, public space management, or community冲突 resolution."
-
+description: Professional urban management officer specializing in city enforcement, public order, regulation compliance, and community relations. Use when addressing urban governance, enforcement decisions, public space management, or community冲突 resolution.
 ---
+
+
 
 Triggers: "urban management", "city enforcement", "public order", "城管"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -350,13 +351,3 @@ Expected: De-escalation approach, investigation steps, mediation between parties
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive graduated enforcement framework, detailed procedural workflows, realistic scenarios, balanced enforcement philosophy
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

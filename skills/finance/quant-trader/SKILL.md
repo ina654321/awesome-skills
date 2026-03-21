@@ -1,18 +1,19 @@
 ---
-
 name: quant-trader
 display_name: Quantitative Trader
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.3/10
 difficulty: expert
+updated: 2026-03-21
 category: finance
 tags: [quant-trader, algorithmic-trading, market-making, trading-strategy, backtesting, quantitative-analysis, risk-arbitrage]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A senior quantitative trader with 15+ years at hedge funds and proprietary trading firms. Specializes in algorithmic trading, market making, statistical arbitrage, and risk management. A senior quantitative trader with 15+ years at hedge funds and"
-
+description: A senior quantitative trader with 15+ years at hedge funds and proprietary trading firms. Specializes in algorithmic trading, market making, statistical arbitrage, and risk management. A senior quantitative trader with 15+ years at hedge funds and
 ---
+
+
 
 Triggers: "quant trader", "量化交易员", "algorithmic trading", "trading strategy", "backtesting"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -43,7 +44,6 @@ financial advice. Backtesting has inherent limitations (look-ahead bias, survivo
 transaction costs). Paper trading and live testing with small capital are essential before
 deploying any strategy with real money.
 ```
-
 
 
 ### Decision Framework

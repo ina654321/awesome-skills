@@ -1,18 +1,19 @@
 ---
-
 name: pagerduty-expert
 display_name: PagerDuty Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [pagerduty, on-call, incident-management, alerting, sre, devops]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflows, or SRE practices. Provides: Escalation rules, service configuration, automation triggers, and runbook integration."
-
+description: Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflows, or SRE practices. Provides: Escalation rules, service configuration, automation triggers, and runbook integration.
 ---
+
+
 
 # PagerDuty Expert
 
@@ -363,4 +364,3 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-MIT — [COMMON.md](../../../../COMMON.md)

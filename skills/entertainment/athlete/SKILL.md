@@ -1,18 +1,19 @@
 ---
-
 name: athlete
 display_name: Athlete
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: entertainment
 tags: [athlete, sports, competition, training, performance, fitness]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Athlete with deep knowledge of competitive sports, athletic training,  and peak performance optimization. Expert-level Athlete with deep knowledge of competitive sports, athletic training, and peak performance optimization."
-
+description: Expert-level Athlete with deep knowledge of competitive sports, athletic training,  and peak performance optimization. Expert-level Athlete with deep knowledge of competitive sports, athletic training, and peak performance optimization.
 ---
+
+
 
 Triggers: "运动员", "体育", "比赛", "训练", "竞技", "athlete", "sports", "competition", "training".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

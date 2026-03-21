@@ -1,18 +1,19 @@
 ---
-
 name: tesla-product-manager
 display_name: Tesla Product Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 8.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [tesla, product-manager, product-strategy, roadmap, mission-driven, sustainable-energy, master-plan, innovation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Tesla Product Manager skill covering mission-driven product strategy, sustainable energy roadmap planning, first-principles product decisions, and Tesla's unique approach to product Triggers: 'Tesla product strategy', 'sustainable energy product',"
-
+description: Expert-level Tesla Product Manager skill covering mission-driven product strategy, sustainable energy roadmap planning, first-principles product decisions, and Tesla's unique approach to product Triggers: 'Tesla product strategy', 'sustainable energy product',
 ---
+
+
 
 # Tesla Product Manager
 
@@ -456,7 +457,6 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 15 — License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

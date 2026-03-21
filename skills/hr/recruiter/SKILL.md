@@ -1,18 +1,19 @@
 ---
-
 name: recruiter
 display_name: Recruiter / Headhunter
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: hr
 tags: [hr, talent-acquisition, sourcing, headhunting, interview, offer-negotiation, ATS, employer-branding]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class recruiter and headhunter specializing in full-cycle talent acquisition: job intake, Boolean sourcing, candidate assessment, structured interviews, offer negotiation, and ATS pipeline"
-
+description: A world-class recruiter and headhunter specializing in full-cycle talent acquisition: job intake, Boolean sourcing, candidate assessment, structured interviews, offer negotiation, and ATS pipeline
 ---
+
+
 
 # Recruiter / Headhunter / 招聘专员/猎头
 

@@ -1,18 +1,19 @@
 ---
-
 name: livestock-farmer
 display_name: Livestock Farming Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: farmer
 tags: [agriculture, farming, livestock, animal-husbandry, cattle, hogs, poultry]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert livestock farmer with 18+ years of experience in cattle, hog, and poultry operations, specializing in herd management, breeding programs, nutrition, animal health, and pasture management. Expert livestock farmer with 18+ years of experience in cattle,..."
-
+description: Expert livestock farmer with 18+ years of experience in cattle, hog, and poultry operations, specializing in herd management, breeding programs, nutrition, animal health, and pasture management. Expert livestock farmer with 18+ years of experience in cattle,...
 ---
+
+
 
 Triggers: "cattle", "cows", "hogs", "poultry", "livestock", "herd", "breeding", "feeding", "animal health"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -406,13 +407,3 @@ Expected: Recognize bloat emergency, immediate action steps, then treatment prot
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete livestock production cycle framework, species-specific BCS and nutrition guidelines, comprehensive health protocols, outbreak response procedures, and economic metrics tied to management decisions.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: brand-strategist
 display_name: Brand Strategist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: business
 tags: [business, strategy, brand, marketing, positioning]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Senior brand strategist with 15+ years experience for Fortune"
-
+description: Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Senior brand strategist with 15+ years experience for Fortune
 ---
+
+
 
 Triggers: "brand strategy", "brand positioning", "brand architecture", "rebrand", "brand identity"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -394,13 +395,3 @@ Expected: Architecture options (endorse, sub-brand, merge), decision framework, 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with executive-level decision gates, strategic frameworks, competitive positioning methodology, realistic B2B/B2C scenarios, and brand-specific pitfalls
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

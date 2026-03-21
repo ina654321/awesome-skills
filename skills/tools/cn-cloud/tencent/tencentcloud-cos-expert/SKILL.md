@@ -1,18 +1,19 @@
 ---
-
 name: tencentcloud-cos-expert
 display_name: Tencent COS Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.4/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [tencent, cos, storage, cloud, object-storage]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "腾讯云COS对象存储：存储桶配置、权限管理、CDN加速。Use when storing files, building static websites, or CDN distribution. Triggers: 'COS', '腾讯云存储', '对象存储', 'CDN'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 腾讯云COS对象存储：存储桶配置、权限管理、CDN加速。Use when storing files, building static websites, or CDN distribution. Triggers: 'COS', '腾讯云存储', '对象存储', 'CDN'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Tencent COS Expert
 

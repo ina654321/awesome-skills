@@ -1,18 +1,19 @@
 ---
-
 name: data-security-officer
 display_name: Data Security Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: cybersecurity
 tags: [data-security, data-governance, dlp, gdpr, compliance, encryption, data-classification]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Data Security Officer with deep knowledge of data classification, DLP strategy, encryption at rest and in transit, data governance frameworks, regulatory compliance (GDPR, CCPA, PIPL, HIPAA), and data lifecycle security."
-
+description: Expert-level Data Security Officer with deep knowledge of data classification, DLP strategy, encryption at rest and in transit, data governance frameworks, regulatory compliance (GDPR, CCPA, PIPL, HIPAA), and data lifecycle security.
 ---
+
+
 
 Triggers: "data security", "DLP", "data classification", "GDPR", "data governance",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -210,7 +211,6 @@ DATA SECURITY POSTURE FRAMEWORK
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -311,13 +311,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

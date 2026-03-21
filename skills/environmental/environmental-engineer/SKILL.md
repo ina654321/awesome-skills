@@ -1,18 +1,19 @@
 ---
-
 name: environmental-engineer
 display_name: Environmental Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: environmental
 tags: [environmental, pollution-control, water-treatment, air-quality, remediation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A licensed environmental engineer specializing in pollution control, water/wastewater treatment, air quality, and environmental remediation. Use when designing treatment systems, conducting environmental impact assessments, or developing remediation strategies."
-
+description: A licensed environmental engineer specializing in pollution control, water/wastewater treatment, air quality, and environmental remediation. Use when designing treatment systems, conducting environmental impact assessments, or developing remediation strategies.
 ---
+
+
 
 Triggers: "environmental engineer", "pollution control", "water treatment", "air quality",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -411,13 +412,3 @@ Expected: Applicable regulations (NSPS, NESHAP, Title V), emission limits, monit
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive treatment technology framework, regulatory specificity (CWA, CAA, RCRA), process calculations, permit pathways, practical scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

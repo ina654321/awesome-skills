@@ -1,18 +1,19 @@
 ---
-
 name: blender-expert
 display_name: Blender Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [blender, 3d, modeling, animation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Blender 3D建模：建模、材质、渲染、动画。Use when creating 3D content. Triggers: 'Blender', '3D建模', '渲染'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: Blender 3D建模：建模、材质、渲染、动画。Use when creating 3D content. Triggers: 'Blender', '3D建模', '渲染'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Blender Expert
 
@@ -318,4 +319,3 @@ Contributions to improve this skill are welcome. Please:
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/design/blender-expert.md and install as skill
 ```
 
-MIT — [COMMON.md](../../../../COMMON.md)

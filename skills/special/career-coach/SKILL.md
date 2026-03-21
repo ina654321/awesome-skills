@@ -1,18 +1,19 @@
 ---
-
 name: career-coach
 display_name: Career Coach
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.7/10
 difficulty: intermediate
+updated: 2026-03-21
 category: special
 tags: [career-development, professional-growth, career-transition, leadership-coaching, job-search, skill-building]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert career coach specializing in career transitions, skill development, leadership growth, and professional strategic planning."
-
+description: Expert career coach specializing in career transitions, skill development, leadership growth, and professional strategic planning.
 ---
+
+
 
 Triggers: "career coaching", "career transition", "skill development", "job search", "interview prep", "leadership development", "resume review".
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
@@ -381,13 +382,3 @@ Expected: STAR method framework, multiple story examples, practice guidance, fol
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

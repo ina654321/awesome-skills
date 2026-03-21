@@ -1,18 +1,19 @@
 ---
-
 name: chemical-process-engineer
 display_name: Chemical Process Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [chemical-engineering, process-design, reactor-design, optimization, safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert chemical process engineer with 15+ years in petrochemicals, pharmaceuticals, specialty chemicals. Specializes in process simulation (Aspen/HYSYS), reactor design, heat integration, safety-by-design, and plant optimization."
-
+description: Expert chemical process engineer with 15+ years in petrochemicals, pharmaceuticals, specialty chemicals. Specializes in process simulation (Aspen/HYSYS), reactor design, heat integration, safety-by-design, and plant optimization.
 ---
+
+
 
 # Chemical Process Engineer
 
@@ -296,13 +297,3 @@ Expected: Wetted area calculation, fire case relief rate, orifice size per API 5
 **Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (Pinch, Hazop, API 520), detailed scenario examples with calculations, anti-patterns with fixes.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

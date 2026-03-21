@@ -1,18 +1,19 @@
 ---
-
 name: pulumi-expert
 display_name: Pulumi Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.6/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [pulumi, iac, typescript, python, go, cloud, infrastructure, multi-cloud, Pulumi-Fluent, Pulumi-ESC]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud deployment, Pulumi ESC (Environments, Secrets, and Configuration), Stack references."
-
+description: Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud deployment, Pulumi ESC (Environments, Secrets, and Configuration), Stack references.
 ---
+
+
 
 # Pulumi Expert
 
@@ -466,13 +467,3 @@ Expected: Investigation steps and resolution
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

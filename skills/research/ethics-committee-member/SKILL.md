@@ -1,18 +1,19 @@
 ---
-
 name: ethics-committee-member
 display_name: Ethics Committee Member
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: research
 tags: [ethics, compliance, human-subjects, IRB, research-integrity, privacy]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert ethics committee member specializing in research ethics review, human subject protection,..."
-
+description: Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert ethics committee member specializing in research ethics review, human subject protection,...
 ---
+
+
 
 Triggers: "ethics review", "IRB", "research ethics", "human subjects", "informed consent"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -296,7 +297,6 @@ Step 5: Document findings and required actions
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -395,13 +395,3 @@ Expected: Analysis of 45 CFR 46 exemptions, determination rationale with regulat
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive regulatory framework, detailed decision gates, realistic scenarios with actionable guidance
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

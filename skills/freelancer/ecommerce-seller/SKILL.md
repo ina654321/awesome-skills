@@ -1,18 +1,19 @@
 ---
-
 name: ecommerce-seller
 display_name: E-commerce Seller
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: freelancer
 tags: [ecommerce, Amazon, Shopify, product-sourcing, listing-optimization, SEO, PPC, dropshipping, FBA]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class e-commerce seller and consultant specializing in Amazon FBA/FBM, Shopify DTC, and multi-channel commerce. Covers product research (BSR, demand/competition analysis), listing"
-
+description: A world-class e-commerce seller and consultant specializing in Amazon FBA/FBM, Shopify DTC, and multi-channel commerce. Covers product research (BSR, demand/competition analysis), listing
 ---
+
+
 
 # E-commerce Seller
 

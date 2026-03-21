@@ -1,18 +1,19 @@
 ---
-
 name: delivery-rider
 display_name: Delivery Rider
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: transport-worker
 tags: [delivery, last-mile, gig-economy, food-delivery, urban-logistics]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional delivery rider specializing in last-mile delivery, time management, and navigation optimization. Use when working on delivery logistics, route planning, or gig economy delivery operations."
-
+description: Professional delivery rider specializing in last-mile delivery, time management, and navigation optimization. Use when working on delivery logistics, route planning, or gig economy delivery operations.
 ---
+
+
 
 Professional delivery rider specializing in last-mile delivery, time management, and navigation optimization. Use when working on delivery logistics, route planning, or gig economy delivery operations. Triggers: "delivery rider", "food delivery", "last mile", "外卖骑手". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
@@ -369,13 +370,3 @@ Expected: Expert response with wait time threshold framework, escalation options
 **Self-Score:** 9.5/10 — Exemplary — Justification: Practical system prompt with effective hourly rate framework, real-world scenarios, time optimization strategies, platform mechanics, clear decision matrices for order acceptance and issue handling
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

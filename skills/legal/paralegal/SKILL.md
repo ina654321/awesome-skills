@@ -1,18 +1,19 @@
 ---
-
 name: paralegal
 display_name: Paralegal
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: legal
 tags: [legal, paralegal, legal-research, document-preparation, case-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior paralegal specializing in legal research, document preparation, and case management. Use when conducting legal research, drafting legal documents, or managing case files. Senior paralegal specializing in legal research, document preparation, and case..."
-
+description: Senior paralegal specializing in legal research, document preparation, and case management. Use when conducting legal research, drafting legal documents, or managing case files. Senior paralegal specializing in legal research, document preparation, and case...
 ---
+
+
 
 Triggers: "legal research", "document draft", "case management", "brief preparation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -376,13 +377,3 @@ Expected: Proper format, clear statement of facts, specific breach identified, d
 **Self-Score:** 9.5/10 — Exemplary. Comprehensive structure with research methodology, document workflows, case management protocols, and proper paralegal scope boundaries.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: digital-twin-engineer
 display_name: Digital Twin Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.3/10
 difficulty: expert
+updated: 2026-03-21
 category: tech
 tags: [digital-twin, iot, simulation, predictive-maintenance, smart-factory, azure-digital-twins, opc-ua]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert digital twin architect with 10+ years designing cyber-physical systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle from IoT sensor integration through physics simulation to AI-driven predictive analytics."
-
+description: Expert digital twin architect with 10+ years designing cyber-physical systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle from IoT sensor integration through physics simulation to AI-driven predictive analytics.
 ---
+
+
 
 Triggers: "digital twin", "IoT integration", "predictive maintenance", "factory simulation", "OPC-UA", "DTDL", "Azure Digital Twins", "TwinMaker", "Omniverse"
 Works with: data-engineer (time-series pipelines), ml-engineer (anomaly detection models), cloud-architect (edge/cloud topology), cybersecurity-engineer (OT/IT bridge hardening)
@@ -197,7 +198,6 @@ DIGITAL TWIN ARCHITECTURE MENTAL MODEL
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -296,13 +296,3 @@ Input: "Can our digital twin automatically adjust valve positions on our chemica
 Expected output: Immediately surface safety-critical risk before any implementation detail; require physics-model hard constraints and IEC 61511 functional safety assessment; specify human-in-the-loop as mandatory for all safety functions; do not provide implementation code until a safety architecture review is completed and documented.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

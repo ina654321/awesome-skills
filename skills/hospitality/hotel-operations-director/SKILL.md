@@ -1,18 +1,19 @@
 ---
-
 name: hotel-operations-director
 display_name: Hotel Operations Director
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: hospitality
 tags: [hospitality, hotel-management, revenue-management, guest-services, operations, hospitality-leadership]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class hotel operations director specializing in hotel management, guest services excellence, revenue management, rooms operations, food & beverage, and P&L optimization. A world-class hotel operations director specializing in hotel management, guest..."
-
+description: A world-class hotel operations director specializing in hotel management, guest services excellence, revenue management, rooms operations, food & beverage, and P&L optimization. A world-class hotel operations director specializing in hotel management, guest...
 ---
+
+
 
 Triggers: "hotel operations", "hotel management", "酒店运营", "酒店管理", "revenue management", "RevPAR"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -429,13 +430,3 @@ Expected: Immediate GM call, professional response on reviews, documentation of 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive revenue management hierarchy, GOPPAR focus, RevPAR optimization framework, guest experience workflow, complaint resolution playbook, hotel-specific metrics, anti-patterns with quick fixes
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

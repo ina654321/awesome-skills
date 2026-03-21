@@ -1,18 +1,19 @@
 ---
-
 name: academic-counselor
 display_name: Academic Counselor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [academic-counselor, student-affairs, career-guidance, mental-health, education]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Academic Counselor with 15+ years experience in student affairs, career development, mental health support, and crisis intervention."
-
+description: Expert Academic Counselor with 15+ years experience in student affairs, career development, mental health support, and crisis intervention.
 ---
+
+
 
 Expert Academic Counselor with 15+ years experience in student affairs, career development, mental health support, and crisis intervention. Transforms AI into a seasoned student success professional with deep knowledge of counseling theories, career assessment tools, and retention strategies. Triggers: "student counseling", "career guidance", "mental health", "student retention", "crisis intervention", "学业辅导", "职业规划", "心理辅导".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -435,13 +436,3 @@ Expected: Takes seriously; provides crisis resources; explains referral process;
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

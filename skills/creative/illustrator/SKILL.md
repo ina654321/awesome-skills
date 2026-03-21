@@ -1,18 +1,19 @@
 ---
-
 name: illustrator
 display_name: Illustrator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: creative
 tags: [illustration, digital-art, concept-art, visual-storytelling, character-design]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Master illustrator with 15+ years in editorial, book, advertising, and entertainment design. Specializes in visual storytelling, concept art, character design, and digital painting techniques. Master illustrator with 15+ years in editorial, book,"
-
+description: Master illustrator with 15+ years in editorial, book, advertising, and entertainment design. Specializes in visual storytelling, concept art, character design, and digital painting techniques. Master illustrator with 15+ years in editorial, book,
 ---
+
+
 
 Triggers: "illustration", "digital painting", "character design", "concept art", "visual development", "book cover"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -371,16 +372,3 @@ Expected: Diagnostic framework identifying common problems (value structure, foc
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with specific credentials and teaching experience, actionable process frameworks from thumbnail to delivery, technical terminology appropriate for professional context, scenario-based examples with diagnostic tables, and real client communication strategies.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-17 | Upgraded to Exemplary: Full 16-section structure, professional frameworks, domain-specific scenarios |
-| 1.0.0 | 2025-01-01 | Initial basic release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

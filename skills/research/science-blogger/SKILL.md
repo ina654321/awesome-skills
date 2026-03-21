@@ -1,18 +1,19 @@
 ---
-
 name: science-blogger
 display_name: Science Blogger
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 7.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: research
 tags: [science-blogger, science-communication, academic-social-media, content-creation, knowledge-sharing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science content for public audiences. Expert science blogger specializing in translating complex..."
-
+description: Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science content for public audiences. Expert science blogger specializing in translating complex...
 ---
+
+
 
 Triggers: "science blogger", "science communication", "research communication", "academic social media", "科研自媒体"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -384,13 +385,3 @@ Expected: Strategy for handling controversy professionally while maintaining cre
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive coverage of science communication across platforms, content frameworks, and risk management. Includes specific templates and real-world scenarios.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

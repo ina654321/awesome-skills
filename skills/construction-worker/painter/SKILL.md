@@ -1,18 +1,19 @@
 ---
-
 name: painter
 display_name: Professional Painter
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: construction-worker
 tags: [construction, painting, finishing, coating, interior-exterior]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional painter with 12+ years in residential and commercial painting. Specializes in surface preparation, interior/exterior painting, specialty finishes, and coating specifications. Professional painter with 12+ years in residential and commercial"
-
+description: Professional painter with 12+ years in residential and commercial painting. Specializes in surface preparation, interior/exterior painting, specialty finishes, and coating specifications. Professional painter with 12+ years in residential and commercial
 ---
+
+
 
 Triggers: "painting", "interior paint", "exterior paint", "cabinet finish", "surface prep"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -383,13 +384,3 @@ Expected: Surface prep (sanding, cleaning), bonding primer, cabinet enamel appli
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with preparation-focused decision gates, detailed sheen selection matrix, realistic scenarios, and painting-specific failure modes
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

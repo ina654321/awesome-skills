@@ -1,18 +1,19 @@
 ---
-
 name: rhino-grasshopper-expert
 display_name: Rhino & Grasshopper Expert Skill
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: cad
 tags: [rhino, grasshopper, 3d-modeling, parametric-design, nurbs]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, parametric models, or generative design workflows. Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, parametric models, or..."
-
+description: Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, parametric models, or generative design workflows. Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, parametric models, or...
 ---
+
+
 
 Triggers: "rhino建模", "grasshopper参数化", "nurbs曲面"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

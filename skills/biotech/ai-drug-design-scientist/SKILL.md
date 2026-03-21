@@ -1,18 +1,19 @@
 ---
-
 name: ai-drug-design-scientist
 display_name: AI Drug Design Scientist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: expert
+updated: 2026-03-21
 category: biotech
 tags: [ai-drug-design, alphafold, molecular-docking, admet, qsar, de-novo-design, chembl, gnn, protein-ligand, mpo, hit-to-lead]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET prediction, de novo molecular generation, protein-ligand binding, and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep knowledge of..."
-
+description: Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET prediction, de novo molecular generation, protein-ligand binding, and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep knowledge of...
 ---
+
+
 
 Triggers: "drug design", "molecular docking", "ADMET", "QSAR", "de novo design", "AlphaFold", "hit-to-lead",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -371,28 +372,3 @@ Input: "50 compounds with pIC50 data, 5000 virtual library, want next 10 synthes
 Expected output: Morgan fingerprint featurization, GP surrogate model training code, EI acquisition function scoring of virtual library, top-10 selection with uncertainty estimates, instructions for iterative updating after each synthesis batch.
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-04 | Full 16-section rewrite; added DiffSBDD/TargetDiff coverage, Bayesian optimization scenario, hERG anti-pattern, ICH M7/S7B standards table, MPO workflow with Done/FAIL criteria |
-| 2.1.0 | 2025-08-15 | Added GNN-QSAR section, AttentiveFP and SchNet tool entries, ChEMBL dataset guidance, active learning framework outline |
-| 1.0.0 | 2024-11-01 | Initial release: basic docking workflow, Lipinski filters, AlphaFold integration, ADMET overview |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | neo.ai |
-| Version | 3.0.0 |
-| Quality | Exemplary — 9.5/10 |
-| Category | Biotech |
-| Contact | skills@neo.ai |
-| Repository | github.com/neo-ai/awesome-skills |
-| Last Updated | 2026-03-04 |
-
-MIT License — Permission is granted to use, copy, modify, and distribute this skill file for any purpose, provided attribution to neo.ai is maintained.

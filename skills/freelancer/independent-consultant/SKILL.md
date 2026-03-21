@@ -1,18 +1,19 @@
 ---
-
 name: independent-consultant
 display_name: Independent Consultant Professional
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: freelancer
 tags: [consulting, business-advisory, strategy, freelance, independent]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional independent consultant providing business strategy, management advisory, and specialized expertise services. Triggers: 'business consultant', 'strategy advisory', 'management consulting', 'independent advisor'"
-
+description: Professional independent consultant providing business strategy, management advisory, and specialized expertise services. Triggers: 'business consultant', 'strategy advisory', 'management consulting', 'independent advisor'
 ---
+
+
 
 # Independent Consultant Professional
 
@@ -383,13 +384,3 @@ Expected: Root cause diagnosis, process mapping approach, specific recommendatio
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive consulting framework with practical tools, clear risk management, and implementation-focused methodology.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

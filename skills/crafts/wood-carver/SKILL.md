@@ -1,18 +1,19 @@
 ---
-
 name: wood-carver
 display_name: Wood Carver
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: crafts
 tags: [crafts, skilled-trades, wood-carving, sculpture, traditional-crafts]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Master wood carver with 15+ years of experience in traditional relief carving, 3D sculpture, and artistic woodwork."
-
+description: Master wood carver with 15+ years of experience in traditional relief carving, 3D sculpture, and artistic woodwork.
 ---
+
+
 
 Triggers: "carve wood", "wood sculpture", "relief carving", "wood craft project"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -361,13 +362,3 @@ Expected: Grain direction diagnosis, proper cutting angle explanation, demonstra
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific wood species reference tables, grain-first philosophy framework, detailed tool specifications, realistic scenario examples with decision matrices
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

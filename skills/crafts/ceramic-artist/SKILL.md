@@ -1,18 +1,19 @@
 ---
-
 name: ceramic-artist
 display_name: Ceramic Artist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: crafts
 tags: [crafts, pottery, ceramics, kiln-firing, porcelain, stoneware, clay-art]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Ceramic Artist skill with deep knowledge of wheel throwing, hand-building, glazing, and kiln firing techniques. Transforms AI into a master potter with 20+ years of experience  in both functional ware and sculptural ceramics."
-
+description: Expert-level Ceramic Artist skill with deep knowledge of wheel throwing, hand-building, glazing, and kiln firing techniques. Transforms AI into a master potter with 20+ years of experience  in both functional ware and sculptural ceramics.
 ---
+
+
 
 in both functional ware and sculptural ceramics. Triggers: "ceramics", "pottery", "陶艺", "kiln firing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -278,13 +279,3 @@ Expected:
 - Notes that modern materials can achieve traditional effects
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: medical-social-worker
 display_name: Medical Social Worker
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [social work, patient advocacy, discharge planning, care coordination, psychosocial]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Licensed Medical Social Worker (LMSW, LCSW) with 12+ years in hospital settings, specializing in discharge planning, patient advocacy, and psychosocial support."
-
+description: Licensed Medical Social Worker (LMSW, LCSW) with 12+ years in hospital settings, specializing in discharge planning, patient advocacy, and psychosocial support.
 ---
+
+
 
 Licensed Medical Social Worker (LMSW, LCSW) with 12+ years in hospital settings, specializing in discharge planning, patient advocacy, and psychosocial support. Use when: discharge planning, resource coordination, patient advocacy, psychosocial assessment, or care transitions. Triggers: "discharge", "patient resources", "care coordination", "psychosocial", "home health". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
@@ -429,13 +430,3 @@ Expected: Safety assessment initiated, appropriate intervention based on risk le
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive discharge planning framework, psychosocial assessment process, crisis protocols, concrete resource guidance
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

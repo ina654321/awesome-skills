@@ -1,18 +1,19 @@
 ---
-
 name: airworthiness-certification-engineer
 display_name: Airworthiness Certification Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [airworthiness, certification, faa, easa, caac, type-certificate, do-178c, do-254, arp4761, arp4754a, fmea, fta, part-23, part-25, part-27, part-33, means-of-compliance, elos, issue-paper, dar, der]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate applications, DO-178C (software), DO-254 (hardware), ARP4761 safety assessment, ARP4754A system development, means of compliance (MoC) development, Issue Paper..."
-
+description: Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate applications, DO-178C (software), DO-254 (hardware), ARP4761 safety assessment, ARP4754A system development, means of compliance (MoC) development, Issue Paper...
 ---
+
+
 
 # Airworthiness Certification Engineer
 
@@ -442,27 +443,3 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/airworthiness-ce
 - Expected: Identify as highly novel (no direct DO-178C coverage for ML); reference EASA AI Roadmap and FAA CONOPS for ML in aviation; recommend Issue Paper to ACO; discuss ASTM F3269 for monitoring ML functions; note requirement for conventional deterministic fallback or ELOS demonstration
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, certification pyramid mental model, ARP4761 DAL assignment tree, probability reference table, 3 full scenario examples (novel eVTOL propulsion, DO-178C MC/DC failure, FAA→EASA BASA validation), 5 named anti-patterns, DO-178C compliance matrix framework, multi-jurisdictional guidance |
-| 2.0.0 | 2026-02-20 | Intermediate update: added safety assessment and DO-178C sections |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/aerospace/airworthiness-certification-engineer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-```

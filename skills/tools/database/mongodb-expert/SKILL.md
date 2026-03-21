@@ -1,18 +1,19 @@
 ---
-
 name: mongodb-expert
 display_name: MongoDB Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.1/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [mongodb, nosql, database, aggregation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "MongoDB专家：文档设计、聚合管道、索引策略、分片集群。Use when designing MongoDB schemas, writing aggregation pipelines, or managing clusters. Triggers: 'MongoDB', '文档数据库', '聚合管道', '分片'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: MongoDB专家：文档设计、聚合管道、索引策略、分片集群。Use when designing MongoDB schemas, writing aggregation pipelines, or managing clusters. Triggers: 'MongoDB', '文档数据库', '聚合管道', '分片'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # MongoDB Expert
 
@@ -272,7 +273,6 @@ See [references/09-scenarios.md](references/09-scenarios.md) for detailed exampl
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -346,8 +346,3 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 16 · Metadata
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

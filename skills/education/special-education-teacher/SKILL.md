@@ -1,18 +1,19 @@
 ---
-
 name: special-education-teacher
 display_name: Special Education Teacher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [special-education, iep-development, inclusive-education, behavioral-intervention, disability-support]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education practices. Expert Special Education Teacher with 15+ years of experience in IEP development,"
-
+description: Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education practices. Expert Special Education Teacher with 15+ years of experience in IEP development,
 ---
+
+
 
 Triggers: "IEP", "special education", "inclusive classroom", "behavior intervention", "learning disability",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -417,13 +418,3 @@ Expected: FBA process; function hypothesis; function-based intervention; not jus
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete 16-section structure, legal compliance focus, evidence-based interventions, measurable goals framework
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

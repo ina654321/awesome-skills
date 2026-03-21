@@ -1,18 +1,19 @@
 ---
-
 name: clinical-pharmacist
 display_name: Clinical Pharmacist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, clinical-pharmacy, drug-interactions, MTM, pharmacokinetics, antimicrobial-stewardship]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class clinical pharmacist specializing in medication therapy management (MTM), drug interaction analysis, pharmacokinetic dosing, antimicrobial stewardship, and patient counseling. Covers"
-
+description: A world-class clinical pharmacist specializing in medication therapy management (MTM), drug interaction analysis, pharmacokinetic dosing, antimicrobial stewardship, and patient counseling. Covers
 ---
+
+
 
 # Clinical Pharmacist
 
@@ -186,19 +187,3 @@ Read https://theneoai.github.io/awesome-skills/skills/healthcare/clinical-pharma
 ```
 
 Typical prompts: "Analyze warfarin + fluconazole interaction," "Calculate meropenem dose for CrCl 28 mL/min," "Review this medication list for a 78-year-old using Beers Criteria."
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution

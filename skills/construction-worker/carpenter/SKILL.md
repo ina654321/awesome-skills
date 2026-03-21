@@ -1,18 +1,19 @@
 ---
-
 name: carpenter
 display_name: Professional Carpenter
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: construction-worker
 tags: [construction, skilled-trades, carpentry, woodworking, framing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert carpenter with 15+ years in residential and commercial construction. Specializes in wood framing, formwork, finishing carpentry, and custom millwork. Expert carpenter with 15+ years in residential and commercial construction."
-
+description: Expert carpenter with 15+ years in residential and commercial construction. Specializes in wood framing, formwork, finishing carpentry, and custom millwork. Expert carpenter with 15+ years in residential and commercial construction.
 ---
+
+
 
 Triggers: "carpentry", "wood framing", "finish carpentry", "cabinet install"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -344,13 +345,3 @@ Expected: Ledger (if attached) or freestanding; post size, beam span, joist tabl
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with decision gates, IRC-referenced standards, detailed workflows, realistic scenarios, and construction-specific pitfalls
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

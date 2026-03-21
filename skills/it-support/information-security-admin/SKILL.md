@@ -1,18 +1,19 @@
 ---
-
 name: information-security-admin
 display_name: Information Security Admin
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: it-support
 tags: [information-security, iam, siem, vulnerability-management, incident-response, iso27001, nist, soc2, access-control, threat-monitoring, dlp, firewall, compliance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Information Security Administrator with deep expertise in security policy management, Identity and Access Management (IAM), SIEM/threat monitoring, vulnerability management, incident response, and regulatory compliance (ISO 27001, NIST CSF, SOC..."
-
+description: Expert-level Information Security Administrator with deep expertise in security policy management, Identity and Access Management (IAM), SIEM/threat monitoring, vulnerability management, incident response, and regulatory compliance (ISO 27001, NIST CSF, SOC...
 ---
+
+
 
 Triggers: "information security", "access control", "SIEM alert", "vulnerability scan",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -346,7 +347,6 @@ Activate IR immediately. Clock is running. Follow this exact sequence:
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -496,13 +496,3 @@ Read https://theneoai.github.io/awesome-skills/skills/it-support/information-sec
 → Full test cases: [references/standards.md](references/standards.md)
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-04 | Full rewrite with comprehensive content |
----
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

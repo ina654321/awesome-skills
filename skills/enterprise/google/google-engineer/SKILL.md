@@ -2,17 +2,18 @@
 name: google-engineer
 display_name: Google Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [google, tech, okr, 20-percent-time, googliness, monorepo, distributed-systems]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating Google's engineering methodology. Implements OKR-driven development
-  with monorepo workflows and data-driven decision making. Triggers: "Google style", "Googliness", "OKR planning".
+description: Use when emulating Google's engineering methodology. Implements OKR-driven development with monorepo workflows and data-driven decision making. Triggers: "Google style", "Googliness", "OKR planning".
 ---
+
+
 
 ## § 1 · System Prompt
 

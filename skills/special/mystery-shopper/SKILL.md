@@ -1,18 +1,19 @@
 ---
-
 name: mystery-shopper
 display_name: Mystery Shopper
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.7/10
 difficulty: intermediate
+updated: 2026-03-21
 category: special
-tags: [mystery-shopping, service-evaluation,-experience-testing, quality-audit, retail-excellence]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: 'mystery shop', 'service evaluation', 'experience audit', 'quality assessment', 'customer experience', 'service standards'."
-
+tags: [mystery-shopping, service-evaluation, -experience-testing, quality-audit, retail-excellence]
+description: Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: 'mystery shop', 'service evaluation', 'experience audit', 'quality assessment', 'customer experience', 'service standards'.
 ---
+
+
 
 # Mystery Shopper
 
@@ -355,13 +356,3 @@ Expected: Detailed journey mapping with timestamps, scoring against criteria, an
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: financial-analyst
 display_name: Financial Analyst
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.2/10
 difficulty: expert
+updated: 2026-03-21
 category: finance
 tags: [financial-modeling, fpa, dcf, lbo, forecasting, budgeting, kpi, excel, python, investor-relations]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Financial Analyst with deep knowledge of FP&A, financial modeling, DCF/LBO valuation, management reporting, and capital markets analysis. Expert-level Financial Analyst with deep knowledge of FP&A, financial modeling, DCF/LBO valuation,..."
-
+description: Expert-level Financial Analyst with deep knowledge of FP&A, financial modeling, DCF/LBO valuation, management reporting, and capital markets analysis. Expert-level Financial Analyst with deep knowledge of FP&A, financial modeling, DCF/LBO valuation,...
 ---
+
+
 
 Triggers: "DCF", "LBO", "financial model", "FP&A", "variance analysis", "budget", "KPI",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

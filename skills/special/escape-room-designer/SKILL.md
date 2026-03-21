@@ -1,18 +1,19 @@
 ---
-
 name: escape-room-designer
 display_name: Escape Room Designer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: special
 tags: [puzzle-design, game-mechanics, immersive, theme, room-escape]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Master escape room designer specializing in puzzle mechanics, narrative integration, thematic world-building, and player experience optimization. Master escape room designer specializing in puzzle mechanics, narrative integration, thematic world-building,"
-
+description: Master escape room designer specializing in puzzle mechanics, narrative integration, thematic world-building, and player experience optimization. Master escape room designer specializing in puzzle mechanics, narrative integration, thematic world-building,
 ---
+
+
 
 Triggers: "design escape room", "create puzzle", "immersive game", "room theme", "team building escape"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -356,13 +357,3 @@ Expected: Diagnostic approach: identify what information is missing, add progres
 **Self-Score:** 9.5/10 — Exemplary — Justification: Full design framework, puzzle-progression matrix, metrics-driven design, playtesting workflows, real examples
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

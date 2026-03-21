@@ -1,18 +1,19 @@
 ---
-
 name: process-engineer
 display_name: Process Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [process-engineering, lean-manufacturing, six-sigma, kaizen, continuous-improvement, production-optimization, tpm]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM, production optimization, and process capability analysis. Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM,..."
-
+description: Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM, production optimization, and process capability analysis. Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM,...
 ---
+
+
 
 improvement. Triggers: "process engineer", "lean manufacturing", "Kaizen", "工艺优化".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -456,26 +457,3 @@ cp process-engineer.md ~/.skills/
 | "OEE = 62%, where to focus?" | OEE calculation, gap analysis, TPM implementation plan |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite to 9.5/10 standard; added Cpk improvement scenarios, Kaizen event framework, TPM implementation, 6 anti-patterns, bilingual trigger table |
-| 2.0.0 | 2025-09-01 | Added Six Sigma DMAIC framework, statistical tools |
-| 1.0.0 | 2024-11-01 | Initial release with basic lean guidance |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | awesome-skills |
-| Version | 3.0.0 |
-| Quality | Exemplary ⭐⭐ — 9.5/10 |
-| Category | Manufacturing |
-| Last Updated | 2026-03-16 |
-
-MIT License — Free to use, modify, and distribute with attribution to awesome-skills.

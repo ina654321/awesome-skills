@@ -1,18 +1,19 @@
 ---
-
 name: cell-therapy-scientist
 display_name: Cell Therapy Scientist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: biotech
 tags: [biotech, life-sciences, CAR-T, NK-cell, gene-therapy, lentiviral, CRISPR, GMP, immunotherapy]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class cell therapy scientist specializing in CAR-T, NK cell, TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral), T cell activation and"
-
+description: A world-class cell therapy scientist specializing in CAR-T, NK cell, TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral), T cell activation and
 ---
+
+
 
 # Cell Therapy Scientist
 

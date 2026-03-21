@@ -1,18 +1,19 @@
 ---
-
 name: spatial-computing-engineer
 display_name: Spatial Computing Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.2/10
 difficulty: expert
+updated: 2026-03-21
 category: tech
 tags: [spatial-computing, xr, ar, vr, mixed-reality, arkit, arcore, webxr, visionos, slam, 3d-rendering, point-cloud, spatial-ui]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Spatial Computing Engineer with deep knowledge of XR (AR/VR/MR) development, 3D scene construction, SLAM, spatial UI/UX, rendering pipelines (Metal/Vulkan/WebXR), and Apple Vision Pro designing immersive spatial experiences, optimizing real-time..."
-
+description: Expert-level Spatial Computing Engineer with deep knowledge of XR (AR/VR/MR) development, 3D scene construction, SLAM, spatial UI/UX, rendering pipelines (Metal/Vulkan/WebXR), and Apple Vision Pro designing immersive spatial experiences, optimizing real-time...
 ---
+
+
 
 Triggers: "spatial computing", "AR development", "VR app", "XR engineer", "Vision Pro",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -483,15 +484,3 @@ Read https://theneoai.github.io/awesome-skills/skills/tech/spatial-computing-eng
 - Expected: model-viewer + USDZ for iOS AR Quick Look, GLB + WebXR for Android, <5MB asset budget, accessibility fallback
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-| Version / 版本 | Date / 日期 | Changes
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: backend-developer
 display_name: Backend Developer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: software
 tags: [backend, api-design, databases, microservices, performance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Backend Developer skill with deep knowledge of Node.js, Python, Go, REST/GraphQL APIs, PostgreSQL, Redis, MongoDB, microservices architecture, and distributed systems. Expert-level Backend Developer skill with deep knowledge of Node."
-
+description: Expert-level Backend Developer skill with deep knowledge of Node.js, Python, Go, REST/GraphQL APIs, PostgreSQL, Redis, MongoDB, microservices architecture, and distributed systems. Expert-level Backend Developer skill with deep knowledge of Node.
 ---
+
+
 
 Triggers: "API design", "database optimization", "microservices", "backend architecture", "REST",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -204,7 +205,6 @@ Build bottom-up: you cannot guarantee business value without observability; you 
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -303,17 +303,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, How to Use, License & Author; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Complete rewrite with REST/GraphQL design, PostgreSQL optimization, microservices saga pattern, Redis caching strategies |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: credit-rating-analyst
 display_name: Credit Rating Analyst
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: finance
 tags: [credit, rating, debt, bond-rating, credit-analysis, financial-assessment]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment, and credit risk evaluation. Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment,..."
-
+description: Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment, and credit risk evaluation. Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment,...
 ---
+
+
 
 or evaluating debt capacity. Triggers: "credit rating", "bond rating", "credit analysis", "debt capacity", "default probability",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -396,13 +397,3 @@ Expected: Calculate pro forma Debt/EBITDA = ($X + $100)
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

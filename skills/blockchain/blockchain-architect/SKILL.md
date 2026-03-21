@@ -1,18 +1,19 @@
 ---
-
 name: blockchain-architect
 display_name: Blockchain Architect
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 4.0.0
 quality: expert
 score: 8.5/10
 difficulty: expert
+updated: 2026-03-21
 category: blockchain
 tags: [blockchain, web3, cryptocurrency, smart-contracts, DeFi, consensus, solidity, ethereum, zk-proofs, layer2, tokenomics, security-audit]
-platforms: [claude.ai, api, cursor, vscode, jetbrains, vim, emacs]
-description: "A senior blockchain architect specializing in decentralized system design, smart contract development, and enterprise blockchain solutions. Expert in DeFi protocols, ZK-proof systems, and cross-chain architectures."
-
+description: A senior blockchain architect specializing in decentralized system design, smart contract development, and enterprise blockchain solutions. Expert in DeFi protocols, ZK-proof systems, and cross-chain architectures.
 ---
+
+
 
 # Blockchain Architect
 
@@ -1895,102 +1896,3 @@ Before delivering any architectural recommendation, verify:
 - [ ] Bug bounty program configured (Immunefi/Sherlock)
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 1.0.0 | 2024-01-15 | Initial release with basic smart contract guidance | neo.ai |
-| 2.0.0 | 2024-05-20 | Added DeFi protocols, tokenomics, and L2 scaling | neo.ai |
-| 3.0.0 | 2024-09-10 | Added ZK-proofs, account abstraction, expanded toolkits | neo.ai |
-| 3.1.0 | 2026-03-21 | Restructured to 16-section format, added risk matrix, complete workflow phases | neo.ai |
-| 4.0.0 | 2026-03-21 | **Major rewrite:** 8 Gate decision framework, 5 thinking patterns, expanded domain knowledge, 3 detailed scenarios with full Solidity code, enhanced security documentation | neo.ai |
-
-### Breaking Changes
-
-- v3.0.0: Replaced generic security section with detailed risk matrix
-- v3.1.0: Migrated from 14-section to 16-section format per quality standards
-- v4.0.0: Expanded from 7 to 8 decision gates, added formal verification requirements, enhanced all code examples
-
-### Upcoming Improvements
-
-- [ ] Add support for Move language (Aptos/Sui) patterns with code examples
-- [ ] Expand ZK section with STARK-specific guidance and Cairo examples
-- [ ] Add Intent-centric architecture patterns (ERC-7521)
-- [ ] Include cross-chain messaging (CCIP, LayerZero) deep dives with code
-- [ ] Add MEV-aware design patterns and PBS integration
-
----
-
-## § 16 · License & Author
-
-### License
-
-```
-MIT License
-
-Copyright (c) 2024-2026 neo.ai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### Skill Information
-
-| Attribute | Value |
-|-----------|-------|
-| Name | blockchain-architect |
-| Display Name | Blockchain Architect |
-| Version | 4.0.0 |
-| Quality Score | 8.5/10 |
-| Difficulty | Expert |
-| Category | Blockchain |
-| Last Updated | 2026-03-21 |
-| Primary Maintainer | neo.ai |
-
-### Tags
-
-blockchain, web3, cryptocurrency, smart-contracts, DeFi, consensus, solidity, ethereum, zk-proofs, layer2, tokenomics, security-audit
-
-### Platforms
-
-claude.ai, api, cursor, vscode, jetbrains, vim, emacs
-
-### Dependencies
-
-- No external skill dependencies
-- References local files in `references/` directory for extended standards
-
-### Maintenance
-
-- Review cycle: Quarterly
-- Primary maintainer: neo.ai
-- Quality audit: Annual
-- Security updates: As needed for critical vulnerability disclosures
-
-### Related Resources
-
-| Resource | Location | Purpose |
-|----------|----------|---------|
-| Standards Reference | `./references/standards-reference.md` | Extended ERC/EIP standard details |
-| Common Pitfalls | `./references/common-pitfalls.md` | Extended anti-patterns and security issues |
-| Standards Checklist | `./references/standards.md` | Full audit checklist templates |
-
----
-
-*This skill document follows the 16-section v3.0 standard format. For format specification, see SKILL-AUDIT-REPORT.md and SKILL-IMPROVEMENT-PLAN.md in the project root.*

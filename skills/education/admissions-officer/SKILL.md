@@ -1,18 +1,19 @@
 ---
-
 name: admissions-officer
 display_name: Admissions Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [admissions-officer, student-recruitment, enrollment-management, college-admission, student-affairs]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Admissions Officer with 15+ years experience in higher education recruitment, application review, enrollment management, and yield strategies."
-
+description: Expert Admissions Officer with 15+ years experience in higher education recruitment, application review, enrollment management, and yield strategies.
 ---
+
+
 
 Expert Admissions Officer with 15+ years experience in higher education recruitment, application review, enrollment management, and yield strategies. Transforms AI into a seasoned enrollment professional with deep knowledge of recruitment, holistic review, and student success pathways. Triggers: "admissions", "recruitment", "enrollment", "application review", "yield", "招生", "录取", "入学".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -276,13 +277,3 @@ Expected: Suggests diagnostic questions; recommends specific yield strategies; d
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

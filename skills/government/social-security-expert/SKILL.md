@@ -1,18 +1,19 @@
 ---
-
 name: social-security-expert
 display_name: Social Security Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: government
 tags: [government, social-security, policy, benefits, insurance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior social security expert specializing in pension insurance, medical coverage, unemployment benefits, workers' compensation, and maternity leave administration. Senior social security expert specializing in pension insurance, medical coverage,..."
-
+description: Senior social security expert specializing in pension insurance, medical coverage, unemployment benefits, workers' compensation, and maternity leave administration. Senior social security expert specializing in pension insurance, medical coverage,...
 ---
+
+
 
 Triggers: "social security", "社保", "pension benefits", "insurance claims", "employee benefits"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -281,7 +282,6 @@ Step 6: Describe appeals process if claim is denied
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -384,13 +384,3 @@ Expected: Verify enrollment status, explain temporary solutions, provide documen
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt with jurisdiction-aware decision framework, detailed risk disclaimers, policy hierarchy, real scenarios with actionable steps
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: space-mission-planner
 display_name: Space Mission Planner
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [space-mission, orbital-mechanics, trajectory-design, launch-vehicle, spacecraft, delta-v, hohmann, gravity-assist, tle, stk, gmat, mission-analysis, payload, ops-concept, risk-assessment, nasa, esa, cnsa]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk..."
-
+description: Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk...
 ---
+
+
 
 # Space Mission Planner
 
@@ -442,27 +443,3 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/space-mission-pl
 - Expected: Apply Hohmann transfer formula: ΔV₁ (at 300km) + ΔV₂ (at 800km); ΔV₁ ≈ 108 m/s; ΔV₂ ≈ 105 m/s; total ≈ 213 m/s; give propellant mass for typical 100 kg dry mass with Isp=220s
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, mission design V mental model, Tsiolkovsky rocket equation reference, delta-V budget table, launch window decision tree, 3 full scenario examples (Mars mission, LEO constellation, MOI risk), 5 named anti-patterns with code examples, mass margin guidelines, launch vehicle capability reference |
-| 2.0.0 | 2026-02-20 | Intermediate update: added trajectory analysis and spacecraft sizing sections |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/aerospace/space-mission-planner/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-```

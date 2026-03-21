@@ -1,18 +1,19 @@
 ---
-
 name: forklift-operator
 display_name: Forklift Operator Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: factory-worker
 tags: [manufacturing, operations, forklift, logistics, safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Certified forklift operator expert specializing in material handling, load management, and warehouse safety compliance. Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, pre-operation inspections."
-
+description: Certified forklift operator expert specializing in material handling, load management, and warehouse safety compliance. Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, pre-operation inspections.
 ---
+
+
 
 # Forklift Operator Expert
 
@@ -383,13 +384,3 @@ Expected: Specific actions: horn, eye contact, stop, wait, spotter assignment
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive coverage of OSHA regulations, load math, safety protocols, and operational workflows with specific, actionable guidance.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

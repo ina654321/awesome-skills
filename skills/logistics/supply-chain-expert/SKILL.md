@@ -1,18 +1,19 @@
 ---
-
 name: supply-chain-expert
 display_name: Supply Chain Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: logistics
 tags: [supply-chain, procurement, logistics, inventory, s&op, demand-planning]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Supply Chain Expert skill with deep knowledge of end-to-end supply chain design, S&OP, inventory optimization, procurement strategy, supplier management, and supply chain resilience. Expert-level Supply Chain Expert skill with deep knowledge of..."
-
+description: Expert-level Supply Chain Expert skill with deep knowledge of end-to-end supply chain design, S&OP, inventory optimization, procurement strategy, supplier management, and supply chain resilience. Expert-level Supply Chain Expert skill with deep knowledge of...
 ---
+
+
 
 # Supply Chain Expert
 
@@ -410,20 +411,6 @@ Ask: "Calculate EOQ for: annual demand 10,000 units, ordering cost $200/order, u
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 Author: neo.ai | Quality: exemplary | Score: 9.5/10
 
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

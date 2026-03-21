@@ -1,18 +1,19 @@
 ---
-
 name: ai-product-manager
 display_name: AI Product Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: standard
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: ai-ml
 tags: [ai-product, product-strategy, llm-products, user-research, roadmap]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product development, user research for AI products, and managing the unique challenges of ML-powered features."
-
+description: Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product development, user research for AI products, and managing the unique challenges of ML-powered features.
 ---
+
+
 
 Triggers: "AI product roadmap", "LLM product", "AI feature", "AI user research", "model evaluation",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -373,7 +374,6 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -538,19 +538,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.1.0 | 2026-03-21 | Restructured to 16-section standard format; enhanced §8 Standard Workflow with [✓] Done/[✗] FAIL criteria; expanded §9 Scenario Examples with 3 complete cases; updated §3 Risk Documentation with full mitigation column |
-| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
-
-Author: neo.ai

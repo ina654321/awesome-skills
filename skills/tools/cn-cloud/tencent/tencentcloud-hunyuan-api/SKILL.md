@@ -1,18 +1,19 @@
 ---
-
 name: tencentcloud-hunyuan-api
 display_name: Tencent Hunyuan API Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.8/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [tencent, hunyuan, llm, api, 混元]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "腾讯混元大模型API：模型调用、多模态理解、费用说明。Use when calling Tencent Hunyuan LLM API. Triggers: '混元', 'Hunyuan', 'API调用', '腾讯LLM'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 腾讯混元大模型API：模型调用、多模态理解、费用说明。Use when calling Tencent Hunyuan LLM API. Triggers: '混元', 'Hunyuan', 'API调用', '腾讯LLM'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Tencent Hunyuan API Expert
 

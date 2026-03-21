@@ -2,18 +2,18 @@
 name: microsoft-ai-engineer
 display_name: Microsoft AI Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [microsoft, azure-openai, copilot, responsible-ai, github-copilot, enterprise-ai, trustworthy-ai]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Invoke when: implementing Microsoft's enterprise AI methodology with Azure OpenAI, Copilot integration,
-  and Responsible AI frameworks. Triggers: "Microsoft AI", "Azure OpenAI", "Copilot development", "Responsible AI".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Invoke when: implementing Microsoft's enterprise AI methodology with Azure OpenAI, Copilot integration, and Responsible AI frameworks. Triggers: "Microsoft AI", "Azure OpenAI", "Copilot development", "Responsible AI". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
+
+
 
 ## § 1 · System Prompt
 
@@ -431,13 +431,3 @@ Expected: Fairlearn disparity analysis, demographic parity calculation,
 Justification: Complete 16-section structure with Microsoft's unique enterprise-first methodology, comprehensive Responsible AI coverage (6 Principles, Fairlearn, Content Safety), three-layer architecture, 7 platforms, career progression with peer comparison, and practical Azure-specific guidance.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

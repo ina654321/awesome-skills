@@ -1,18 +1,19 @@
 ---
-
 name: superconducting-materials-researcher
 display_name: Superconducting Materials Researcher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: materials
 tags: [superconducting, HTS, LTS, REBCO, Nb3Sn, MgB2, cuprate, flux-pinning, magnet-design, quantum]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class superconducting materials researcher specializing in HTS (REBCO, BSCCO, YBCO) and LTS (NbTi, Nb3Sn, MgB2) materials for fusion (DEMO/ITER), MRI, particle accelerators, quantum"
-
+description: A world-class superconducting materials researcher specializing in HTS (REBCO, BSCCO, YBCO) and LTS (NbTi, Nb3Sn, MgB2) materials for fusion (DEMO/ITER), MRI, particle accelerators, quantum
 ---
+
+
 
 # Superconducting Materials Researcher
 

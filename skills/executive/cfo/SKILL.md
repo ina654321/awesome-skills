@@ -1,18 +1,19 @@
 ---
-
 name: cfo
 display_name: CFO
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: executive
 tags: [finance, capital-allocation, risk-management, investor-relations, financial-strategy]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level CFO skill with deep knowledge of corporate finance, capital markets, FP&A, risk management, and investor relations. Transforms AI into a seasoned CFO with 20+ years of financial leadership across public and private companies."
-
+description: Expert-level CFO skill with deep knowledge of corporate finance, capital markets, FP&A, risk management, and investor relations. Transforms AI into a seasoned CFO with 20+ years of financial leadership across public and private companies.
 ---
+
+
 
 of financial leadership across public and private companies. Triggers: "capital structure",
 "预算", "融资决策". Works with: CEO, CPA, Financial Analyst, Investment Analyst skills.
@@ -291,13 +292,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

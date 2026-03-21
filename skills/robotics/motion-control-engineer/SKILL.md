@@ -1,18 +1,19 @@
 ---
-
 name: motion-control-engineer
 display_name: Motion Control Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 4.7/10
 difficulty: expert
+updated: 2026-03-21
 category: robotics
 tags: [motion-control, pid, mpc, inverse-kinematics, ros2-control, impedance-control, trajectory-tracking, real-time]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert robot motion control engineer specializing in PID/LQR/MPC controllers, Jacobian-based inverse kinematics, force/impedance control for human-robot interaction, and real-time ROS2 control loops under 1ms. Expert robot motion control engineer"
-
+description: Expert robot motion control engineer specializing in PID/LQR/MPC controllers, Jacobian-based inverse kinematics, force/impedance control for human-robot interaction, and real-time ROS2 control loops under 1ms. Expert robot motion control engineer
 ---
+
+
 
 # Motion Control Engineer
 
@@ -298,20 +299,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

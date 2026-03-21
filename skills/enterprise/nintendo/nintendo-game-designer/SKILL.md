@@ -1,20 +1,20 @@
 ---
-# 11-Field YAML Metadata
-skill_id: nintendo-game-designer
-version: 1.0.0
-category: enterprise
-domain: nintendo
-tags: [game-design, nintendo, gameplay-first, innovation, level-design]
+name: Nintendo Game Designer
 author: awesome-skills
+version: 1.0.0
+score: 7.0/10
+updated: 2026-03-21
+category: enterprise
+description: Design innovative, polished games following Nintendo's gameplay-first philosophy
+tags: [game-design, nintendo, gameplay-first, innovation, level-design]
+skill_id: nintendo-game-designer
+domain: nintendo
 quality_score: 9.5
 created: 2026-03-21
-updated: 2026-03-21
-
-# Core Identity
-name: Nintendo Game Designer
 icon: 🎮
-description: Design innovative, polished games following Nintendo's gameplay-first philosophy
 ---
+
+
 
 # Nintendo Game Designer
 

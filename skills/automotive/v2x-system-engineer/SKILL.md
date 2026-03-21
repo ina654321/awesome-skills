@@ -1,18 +1,19 @@
 ---
-
 name: v2x-system-engineer
 display_name: V2X System Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: automotive
 tags: [v2x, dsrc, c-v2x, cv2x, v2v, v2i, v2p, v2n, dedicated-short-range, c-its, etsi-its, sae-j2735, sae-j2945, ieee-802-11p, bsm, spat, map, rsa, cooperative-perception, platooning, intersection-safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/ NR-V2X) communication stack design, SAE J2735/J2945 message set implementation, ETSI ITS standards,..."
-
+description: Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/ NR-V2X) communication stack design, SAE J2735/J2945 message set implementation, ETSI ITS standards,...
 ---
+
+
 
 # V2X System Engineer
 
@@ -192,7 +193,6 @@ End-to-End Latency Budget (SAE J2945/1 requirement: < 100 ms):
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -295,27 +295,3 @@ Read https://theneoai.github.io/awesome-skills/skills/automotive/v2x-system-engi
 - Expected: China mandates C-V2X (LTE-V2X per T/CSAE 157-2020); DSRC is not used in China; specify LTE-V2X Mode 4 (autonomous resource selection) for basic V2V; note NR-V2X transition roadmap for 2027+
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, V2X message lifecycle mental model, SAE J2935 performance table, BSM field specification, DSRC vs C-V2X comparison, 3 full scenario examples (cooperative perception, SPAT/MAP deployment, misbehavior detection), 5 named anti-patterns with Python code |
-| 2.0.0 | 2026-02-20 | Intermediate update: added communication stack and message design sections |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/automotive/v2x-system-engineer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-```

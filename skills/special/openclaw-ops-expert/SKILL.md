@@ -1,18 +1,19 @@
 ---
-
 name: openclaw-ops-expert
 display_name: OpenClaw Ops & Config Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: special
 tags: [openclaw, self-hosted, ai-assistant, ops, configuration]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert OpenClaw operations and configuration specialist with deep knowledge of gateway setup, daemon management, channel integrations, security policies, skill registry, and Tailscale remote access. Expert OpenClaw operations and configuration specialist"
-
+description: Expert OpenClaw operations and configuration specialist with deep knowledge of gateway setup, daemon management, channel integrations, security policies, skill registry, and Tailscale remote access. Expert OpenClaw operations and configuration specialist
 ---
+
+
 
 Triggers: "openclaw", "openclaw config", "openclaw gateway", "openclaw daemon",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -216,7 +217,6 @@ Messages flow: Messaging platform → Gateway → Agent session → AI model →
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -317,13 +317,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

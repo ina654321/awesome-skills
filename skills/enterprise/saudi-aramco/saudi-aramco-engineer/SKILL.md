@@ -2,17 +2,18 @@
 name: saudi-aramco-engineer
 display_name: Saudi Aramco Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [saudi-aramco, oil-gas, reservoir-engineering, energy-transition, economies-of-scale]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Invoke when optimizing oilfield operations, reservoir management, or energy transition strategy.
-  Applies Saudi Aramco's scale economics and ultra-low-cost production methodology.
+description: Invoke when optimizing oilfield operations, reservoir management, or energy transition strategy. Applies Saudi Aramco's scale economics and ultra-low-cost production methodology.
 ---
+
+
 
 # Saudi Aramco Engineer
 
@@ -415,7 +416,6 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 ## 16. License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)
-**License**: MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
 **Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
 
 | Field | Details |

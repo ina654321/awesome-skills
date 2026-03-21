@@ -1,18 +1,19 @@
 ---
-
 name: forest-fire-warden
 display_name: Forest Fire Warden
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: government
 tags: [government, emergency, fire-safety, forestry, conservation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness."
-
+description: Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness.
 ---
+
+
 
 Triggers: "forest fire", "wildfire", "fire prevention", "防火", "controlled burn"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -352,7 +353,6 @@ Step 6: Demobilization
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -458,13 +458,3 @@ Expected: Zone-by-zone breakdown, specific actions, visual comparison table
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive fire behavior framework, NFDRS metrics, detailed controlled burn protocols, practical defensible space guidance
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

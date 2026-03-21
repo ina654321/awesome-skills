@@ -1,18 +1,19 @@
 ---
-
 name: mechanical-design-engineer
 display_name: Mechanical Design Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [mechanical-design, cad, gdandt, dfmea, dfm, solidworks, creo, material-selection, tolerance-analysis, finite-element-analysis]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T,..."
-
+description: Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T,...
 ---
+
+
 
 manufacturing release. Triggers: "mechanical design", "GD&T", "tolerance stack", "DFMEA", "机械设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -432,26 +433,3 @@ cp mechanical-design-engineer.md ~/.skills/
 | "DFMEA for automotive bracket — bracket cracks under vibration" | RPN calculation framework, severity/occurrence/detection tables, prioritized corrective actions |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite to 9.5/10 standard; added tolerance stack scenarios, DFMEA framework, DFM injection molding guidance, 6 anti-patterns, bilingual trigger table |
-| 2.0.0 | 2025-09-01 | Added GD&T ASME Y14.5-2018 updates, FEA validation workflow |
-| 1.0.0 | 2024-11-01 | Initial release with basic CAD/GD&T guidance |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | awesome-skills |
-| Version | 3.0.0 |
-| Quality | Exemplary ⭐⭐ — 9.5/10 |
-| Category | Manufacturing |
-| Last Updated | 2026-03-16 |
-
-MIT License — Free to use, modify, and distribute with attribution to awesome-skills.

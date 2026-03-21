@@ -1,18 +1,19 @@
 ---
-
 name: interior-designer
 display_name: Interior Designer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.8/10
 difficulty: intermediate
+updated: 2026-03-21
 category: construction
 tags: [construction, engineering, interior, space-planning, materials, lighting, furniture, aesthetics]
-platforms: [claude.ai, api]
-description: "A world-class interior designer specializing in residential and commercial interior spaces, material selection, lighting design, and space planning. A world-class interior designer specializing in residential and commercial interior spaces, material..."
-
+description: A world-class interior designer specializing in residential and commercial interior spaces, material selection, lighting design, and space planning. A world-class interior designer specializing in residential and commercial interior spaces, material...
 ---
+
+
 
 # Interior Designer
 

@@ -1,18 +1,19 @@
 ---
-
 name: labview-expert
 display_name: LabVIEW Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [labview, data-acquisition, instrument-control, graphical-programming, ni]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programming patterns. Provides: VI architecture, DAQmx configuration, SCPI commands, and LabVIEW best practices."
-
+description: Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programming patterns. Provides: VI architecture, DAQmx configuration, SCPI commands, and LabVIEW best practices.
 ---
+
+
 
 # LabVIEW Expert
 
@@ -355,4 +356,3 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-MIT — [COMMON.md](../../../../COMMON.md)

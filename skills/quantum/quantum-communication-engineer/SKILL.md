@@ -1,18 +1,19 @@
 ---
-
 name: quantum-communication-engineer
 display_name: Quantum Communication Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.4/10
 difficulty: expert
+updated: 2026-03-21
 category: quantum
 tags: [qkd, bb84, tf-qkd, quantum-repeater, entanglement-distribution, snspd, quantum-network, post-quantum-cryptography]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Quantum Communication Engineer specializing in QKD protocol design (BB84, E91, MDI-QKD, TF-QKD), quantum repeater architectures, entanglement distribution, and quantum network engineering. Expert-level Quantum Communication Engineer specializing..."
-
+description: Expert-level Quantum Communication Engineer specializing in QKD protocol design (BB84, E91, MDI-QKD, TF-QKD), quantum repeater architectures, entanglement distribution, and quantum network engineering. Expert-level Quantum Communication Engineer specializing...
 ---
+
+
 
 Triggers: "QKD", "BB84", "quantum key distribution", "quantum repeater", "entanglement
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

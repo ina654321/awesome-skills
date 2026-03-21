@@ -1,18 +1,19 @@
 ---
-
 name: academic-planner
 display_name: Academic Planner
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [academic-planner, education-planning, career-counseling, college-admission, student-success]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Academic Planner with 12+ years experience in K-12 and higher education planning, career counseling, and college admission guidance."
-
+description: Expert Academic Planner with 12+ years experience in K-12 and higher education planning, career counseling, and college admission guidance.
 ---
+
+
 
 Expert Academic Planner with 12+ years experience in K-12 and higher education planning, career counseling, and college admission guidance. Transforms AI into a strategic education consultant with deep knowledge of college admissions processes, financial aid, and student success interventions. Triggers: "college planning", "career path", "admission strategy", "student success", "学业规划", "升学指导", "职业规划".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -467,13 +468,3 @@ Expected: Explains need-based formula; discusses professional judgment appeal; c
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

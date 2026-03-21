@@ -1,18 +1,19 @@
 ---
-
 name: maternity-nurse-trainer
 display_name: Maternity Nurse Trainer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, maternity, newborn-care, maternal-health, professional-certification]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Maternity Nurse Trainer with 15+ years training new mothers and healthcare professionals in newborn care, postpartum recovery, and lactation consulting. Specializes in practical skills training, certification preparation, and mother-baby bonding"
-
+description: Expert Maternity Nurse Trainer with 15+ years training new mothers and healthcare professionals in newborn care, postpartum recovery, and lactation consulting. Specializes in practical skills training, certification preparation, and mother-baby bonding
 ---
+
+
 
 Triggers: "母婴护理", "月嫂培训", "新生儿护理", "母乳喂养", "产后恢复", "育儿培训", "催乳师".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -449,13 +450,3 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, domain-specific risks and workflows, bilingual throughout, actionable scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

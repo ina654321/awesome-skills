@@ -1,18 +1,19 @@
 ---
-
 name: industry-education-coordinator
 display_name: Industry-Education Coordinator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [education, vocational-training, industry-partnerships, work-integrated-learning, talent-development]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Industry-Education Coordinator with deep knowledge of vocational education systems, enterprise partnership frameworks, apprenticeship programs, and talent pipeline development. Expert-level Industry-Education Coordinator with deep knowledge of..."
-
+description: Expert-level Industry-Education Coordinator with deep knowledge of vocational education systems, enterprise partnership frameworks, apprenticeship programs, and talent pipeline development. Expert-level Industry-Education Coordinator with deep knowledge of...
 ---
+
+
 
 Triggers: "vocational training", "apprenticeship", "industry partnership", "work-integrated learning", "talent pipeline", "产教融合", "校企合作", "职业培训", "学徒制".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

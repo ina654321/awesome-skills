@@ -1,17 +1,20 @@
-# Skill: Labor Arbitration Agent
-
-## Metadata
-
-```yaml
+---
 name: labor-arbitration-agent
+display_name: Labor Arbitration Agent
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-author: Kimi Code CLI
-description: Win labor disputes through systematic evidence building, legal procedure mastery, and strategic presentation that maximizes recovery for wronged employees
-category: enterprise
-industry: legal services / labor relations
-category_override: professional_services
-quality_score: 9.5
-```
+quality: exemplary
+score: 8.5/10
+difficulty: expert
+updated: 2026-03-21
+category: legal
+tags: [labor-law, arbitration, dispute-resolution, employment-law]
+description: Resolve workplace disputes through formal arbitration proceedings, applying labor law expertise to achieve fair outcomes for employers and employees
+---
+
+
+# Labor Arbitration Agent
 
 ## One-Liner
 

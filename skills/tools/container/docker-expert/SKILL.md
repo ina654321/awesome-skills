@@ -1,18 +1,19 @@
 ---
-
 name: docker-expert
 display_name: Docker Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.6/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [docker, container, devops, containerization, devtools]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security hardening. Use when containerizing applications, optimizing Dockerfiles, or troubleshooting container issues."
-
+description: Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security hardening. Use when containerizing applications, optimizing Dockerfiles, or troubleshooting container issues.
 ---
+
+
 
 # Docker Expert
 
@@ -413,13 +414,3 @@ Expected: Root cause analysis and fix
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

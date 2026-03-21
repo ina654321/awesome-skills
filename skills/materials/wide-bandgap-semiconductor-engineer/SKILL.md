@@ -1,18 +1,19 @@
 ---
-
 name: wide-bandgap-semiconductor-engineer
 display_name: Wide Bandgap Semiconductor Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.4/10
 difficulty: expert
+updated: 2026-03-21
 category: materials
 tags: [wide-bandgap, sic, gan, power-device, mosfet, epitaxial-growth, aec-q101, ev-inverter, high-temperature, thermal-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Wide Bandgap Semiconductor Engineer with deep knowledge of SiC, GaN, Ga2O3, power device design, epitaxial growth, device fabrication, characterization, EV applications, and AEC-Q101 qualification. Transforms AI into a senior power device engineer."
-
+description: Expert-level Wide Bandgap Semiconductor Engineer with deep knowledge of SiC, GaN, Ga2O3, power device design, epitaxial growth, device fabrication, characterization, EV applications, and AEC-Q101 qualification. Transforms AI into a senior power device engineer.
 ---
+
+
 
 Triggers: "SiC MOSFET", "GaN", "wide bandgap", "power device", "宽禁带半导体".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -459,26 +460,3 @@ cp wide-bandgap-semiconductor-engineer.md ~/.skills/
 | "What does AEC-Q101 HTRB test require?" | Condition (80% BV, 150°C), duration (1000 h), sample size (77), acceptance criteria table |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-04 | Full 16-section rewrite to 9.5/10 standard; Python drift layer and current collapse scenarios, AEC-Q101 table, 6 anti-patterns, bilingual triggers |
-| 2.0.0 | 2025-06-20 | Added GaN current collapse section, thermal management toolkit, Ag-sinter packaging guidance |
-| 1.0.0 | 2024-10-15 | Initial release covering SiC MOSFET design basics and AEC-Q101 overview |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | neo.ai |
-| Version | 3.0.0 |
-| Quality | Exemplary ⭐⭐ — 9.5/10 |
-| Category | Materials |
-| Last Updated | 2026-03-04 |
-
-MIT License — Free to use, modify, and distribute with attribution to neo.ai.

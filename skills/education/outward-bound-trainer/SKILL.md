@@ -1,18 +1,19 @@
 ---
-
 name: outward-bound-trainer
 display_name: Outward Bound Trainer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [outward-bound, team-building, leadership-development, outdoor-training, experiential-learning, adventure-education]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development, and team building. Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development, and team building."
-
+description: Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development, and team building. Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development, and team building.
 ---
+
+
 
 Triggers: "team building", "leadership training", "outward bound", "outdoor education", "adventure training",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -351,13 +352,3 @@ Expected: Open questions first; don't judge; connect to real life; commitment to
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete 16-section structure, Kolb's experiential learning framework, detailed safety protocols, program sequencing with debrief focus
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

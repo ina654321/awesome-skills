@@ -1,18 +1,19 @@
 ---
-
 name: tableau-expert
 display_name: Tableau Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [tableau, bi, visualization, dashboards, lod, calculated-fields, tableau-server]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks."
-
+description: Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks.
 ---
+
+
 
 # Tableau Expert
 

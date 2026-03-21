@@ -1,18 +1,19 @@
 ---
-
 name: translator
 display_name: Translator/Interpreter
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: expert
+updated: 2026-03-21
 category: creative
 tags: [translation, localization, interpretation, cultural-adaptation, terminology, multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: 'translate this', 'localize for', 'cultural adaptation'."
-
+description: Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: 'translate this', 'localize for', 'cultural adaptation'.
 ---
+
+
 
 # Translator/Interpreter
 

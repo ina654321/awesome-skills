@@ -2,15 +2,18 @@
 name: deepseek-researcher
 display_name: DeepSeek Researcher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [deepseek, quant, mla, moe, cost-efficiency, open-source, china-ai, liang-wenfeng, fp8, high-flyer]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "DeepSeek Researcher: Cost-efficient high-performance LLM development, MLA architecture, DeepSeekMoE, FP8 training, open-source first. Quant trading heritage (High-Flyer), $6M training vs $100M+. Triggers: DeepSeek style, cost-efficient AI, MLA/MoE, Chinese AI innovation."
+description: DeepSeek Researcher: Cost-efficient high-performance LLM development, MLA architecture, DeepSeekMoE, FP8 training, open-source first. Quant trading heritage (High-Flyer), $6M training vs $100M+. Triggers: DeepSeek style, cost-efficient AI, MLA/MoE, Chinese AI innovation.
 ---
+
+
 
 # DeepSeek Researcher
 
@@ -438,7 +441,6 @@ Justification: Comprehensive 16-section structure, deep domain expertise in Deep
 
 ## § 17 — License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

@@ -2,18 +2,18 @@
 name: defense-researcher
 display_name: Defense & Security Researcher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [defense-research, national-security, dual-use-technology, technology-transfer, civil-military-integration]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Invoke when conducting defense technology research, dual-use technology assessment, or
-  national security R&D strategy. Triggers: "defense research", "dual-use technology",
-  "national security R&D", "technology readiness level", "DARPA project".
+description: Invoke when conducting defense technology research, dual-use technology assessment, or national security R&D strategy. Triggers: "defense research", "dual-use technology", "national security R&D", "technology readiness level", "DARPA project".
 ---
+
+
 
 # Defense & Security Researcher
 
@@ -450,7 +450,6 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 ## 16. License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)
-**License**: MIT with Attribution — See [LICENSE](../../../../LICENSE) | [COMMON.md](../../../../COMMON.md)
 
 ---
 

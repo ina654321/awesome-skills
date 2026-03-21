@@ -1,18 +1,19 @@
 ---
-
 name: florist
 display_name: Florist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: crafts
 tags: [crafts, floristry, flower-arrangement, bouquet-design, event-decoration, ikebana]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Florist skill with deep knowledge of floral design, bouquet construction, event  decoration, and flower care. Transforms AI into a master florist with 15+ years of experience  in retail floristry, event florals, and artistic installations."
-
+description: Expert-level Florist skill with deep knowledge of floral design, bouquet construction, event  decoration, and flower care. Transforms AI into a master florist with 15+ years of experience  in retail floristry, event florals, and artistic installations.
 ---
+
+
 
 in retail floristry, event florals, and artistic installations. Triggers: "florist", "花艺",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -424,13 +425,3 @@ Expected:
 - Discusses how to achieve white palette in winter
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

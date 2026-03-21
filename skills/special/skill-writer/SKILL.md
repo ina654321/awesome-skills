@@ -1,16 +1,16 @@
 ---
 name: skill-writer
-version: 5.0.2
-quality: exemplary
-description: >
-  Create, review, score, and upgrade skills.
-  Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill",
-  "start beginner", "start quick", "start standard", "start expert".
-tags: [skills, creation, quality, architecture, evaluation]
 author: neo.ai
 contact: lucas_hsueh@hotmail.com
-license: MIT
+version: 5.0.2
+quality: exemplary
+score: 7.0/10
+updated: 2026-03-21
+tags: [skills, creation, quality, architecture, evaluation]
+description: Create, review, score, and upgrade skills. Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill", "start beginner", "start quick", "start standard", "start expert".
 ---
+
+
 
 # 🚀 Skill Writer v5
 

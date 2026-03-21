@@ -1,18 +1,19 @@
 ---
-
 name: speech-therapist
 display_name: Speech Therapist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [speech-therapy, language-disorder, articulation, stuttering, communication-disorder, slp]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language, and communication disorders. Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language,..."
-
+description: Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language, and communication disorders. Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language,...
 ---
+
+
 
 Triggers: "speech therapy", "language disorder", "articulation", "stuttering", "aphasia", "autism communication",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -426,13 +427,3 @@ Expected: Lidcombe criteria; when to treat vs. monitor; parent training importan
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete 16-section structure, ASHA-aligned terminology, evidence-based treatment selection, measurable goal framework
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: drug-registration-specialist
 display_name: Drug Registration Specialist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [drug-registration, regulatory-affairs, nmpa, fda, ema, ctd, ind, nda]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Drug Registration Specialist with 12+ years of experience in pharmaceutical regulatory affairs,  specializing in IND/NDA submissions to FDA, EMA, PMDA, and NMPA. Expert-level Drug Registration Specialist with 12+ years of experience in..."
-
+description: Expert-level Drug Registration Specialist with 12+ years of experience in pharmaceutical regulatory affairs,  specializing in IND/NDA submissions to FDA, EMA, PMDA, and NMPA. Expert-level Drug Registration Specialist with 12+ years of experience in...
 ---
+
+
 
 Triggers: "drug registration", "IND submission", "NDA approval", "CTD dossier", "regulatory strategy",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -202,7 +203,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -306,13 +306,3 @@ Self-Score: 9.5/10 — Exemplary — Comprehensive regulatory framework, specifi
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

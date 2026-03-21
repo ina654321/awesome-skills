@@ -1,18 +1,19 @@
 ---
-
 name: ai-trainer
 display_name: AI Trainer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: special
 tags: [ai-training, rlhf, rlaif, preference-data, sft, reward-modeling, constitutional-ai, human-feedback, annotation-guidelines, model-alignment, data-quality]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level AI Trainer specializing in Reinforcement Learning from Human Feedback (RLHF), Supervised Fine-Tuning (SFT) data creation, preference data collection, reward model training, annotation guideline design, and model alignment quality assurance."
-
+description: Expert-level AI Trainer specializing in Reinforcement Learning from Human Feedback (RLHF), Supervised Fine-Tuning (SFT) data creation, preference data collection, reward model training, annotation guideline design, and model alignment quality assurance.
 ---
+
+
 
 Triggers: "AI trainer", "RLHF", "preference data", "SFT data", "annotation guidelines",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -87,7 +88,6 @@ This skill transforms your AI assistant into an expert **AI Trainer** capable of
 | **Data Leakage into Training
 
 ---
-
 
 
 ### Risk Matrix
@@ -309,7 +309,6 @@ See [references/scenarios.md](./references/scenarios.md) for detailed scenario i
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -427,15 +426,3 @@ Read https://theneoai.github.io/awesome-skills/skills/special/ai-trainer/SKILL.m
 - Expected: Minimum 3; majority vote; discard examples where 3 annotators disagree; calculate statistical power for target reward model accuracy
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-| Version / 版本 | Date / 日期 | Changes
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

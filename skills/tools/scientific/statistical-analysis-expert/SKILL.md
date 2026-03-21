@@ -1,18 +1,19 @@
 ---
-
 name: statistical-analysis-expert
 display_name: SPSS & SAS Expert Skill
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: scientific
 tags: [spss, sas, statistics, data-analysis, statistical-modeling]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests, regression models, or survey analysis. Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests,..."
-
+description: Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests, regression models, or survey analysis. Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests,...
 ---
+
+
 
 Triggers: "spss分析", "sas统计", "假设检验"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

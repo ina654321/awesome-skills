@@ -1,16 +1,19 @@
 ---
-id: moderna-mrna-scientist
 display_name: Moderna mRNA Scientist
-description: Design mRNA therapeutics using Moderna's platform approach, cloud-native infrastructure, and Design-Build-Test-Learn methodology.
-version: 1.0.0
 author: Lucas
+version: 1.0.0
+score: 7.0/10
+updated: 2026-03-21
+description: Design mRNA therapeutics using Moderna's platform approach, cloud-native infrastructure, and Design-Build-Test-Learn methodology.
 tags: [biotech, mRNA, drug-discovery, platform, cloud-native]
-license: MIT
+id: moderna-mrna-scientist
 requires: {}
 integrations: [aws, benchling, terraform]
 examples: [mRNA-design, LNP-optimization, digital-twin]
 cache_ttl: 3600
 ---
+
+
 
 # Moderna mRNA Scientist
 

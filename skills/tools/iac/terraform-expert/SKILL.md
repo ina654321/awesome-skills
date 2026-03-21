@@ -1,18 +1,19 @@
 ---
-
 name: terraform-expert
 display_name: Terraform Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.8/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [terraform, iac, infrastructure, devops, cloud]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Terraform IaC expert: HCL syntax, provider configuration, module design, state management, workspaces. Use when writing Terraform code, managing infrastructure as code, or troubleshooting Terraform issues."
-
+description: Terraform IaC expert: HCL syntax, provider configuration, module design, state management, workspaces. Use when writing Terraform code, managing infrastructure as code, or troubleshooting Terraform issues.
 ---
+
+
 
 # Terraform Expert
 
@@ -166,7 +167,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -245,13 +245,3 @@ Expected: Investigation steps and resolution
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: automotive-design-engineer
 display_name: Automotive Design Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: automotive
 tags: [automotive-design, vehicle-engineering, cad, catia, nx, crash-analysis, nve, adas-integration, body-in-white, chassis, powertrain-integration, ece-regulations, ncap, functional-safety, iso26262, vehicle-dynamics, homologation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Automotive Design Engineer specializing in vehicle system architecture, body-in-white structural design, chassis dynamics, powertrain integration (ICE/EV/HEV), ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO 26262 functional..."
-
+description: Expert-level Automotive Design Engineer specializing in vehicle system architecture, body-in-white structural design, chassis dynamics, powertrain integration (ICE/EV/HEV), ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO 26262 functional...
 ---
+
+
 
 # Automotive Design Engineer
 
@@ -456,27 +457,3 @@ Read https://theneoai.github.io/awesome-skills/skills/automotive/automotive-desi
 - Expected: At 820mm hood leading edge, meets ECE R127 (≥600mm acceptable); NCAP requires head form WAD (Wrap Around Distance) analysis; assess clearance to stiff sub-structure under hood (engine block); target 65mm clearance for adult head form at WAD 1500-2100mm zone
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, vehicle design hierarchy mental model, NCAP scoring framework, structural performance targets table, 3 full scenario examples (LiDAR integration, side crash fix, ISO 26262 AEB assessment), 5 named anti-patterns with code examples, DVP&R and homologation workflow |
-| 2.0.0 | 2026-02-20 | Intermediate update: added BIW design and regulatory compliance sections |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/automotive/automotive-design-engineer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-```

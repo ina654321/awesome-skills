@@ -1,18 +1,19 @@
 ---
-
 name: dissertation-committee-member
 display_name: Dissertation Committee Member
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [dissertation, thesis-defense, academic-evaluation, degree-committee, PhD]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Dissertation Committee Member with deep knowledge of thesis defense protocols, academic evaluation standards, IRB compliance, and degree awarding procedures. Expert-level Dissertation Committee Member with deep knowledge of thesis defense..."
-
+description: Expert-level Dissertation Committee Member with deep knowledge of thesis defense protocols, academic evaluation standards, IRB compliance, and degree awarding procedures. Expert-level Dissertation Committee Member with deep knowledge of thesis defense...
 ---
+
+
 
 Triggers: "thesis defense", "dissertation committee", "PhD defense", "academic evaluation", "论文答辩", "学位答辩", "博士论文".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -377,13 +378,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

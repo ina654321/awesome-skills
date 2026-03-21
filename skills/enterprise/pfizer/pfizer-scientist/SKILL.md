@@ -1,4 +1,22 @@
 ---
+name: pfizer-scientist
+display_name: Pfizer Scientist
+author: Lucas
+contact: lucas_hsueh@hotmail.com
+version: 1.0.0
+quality: exemplary
+score: 9.0/10
+difficulty: expert
+updated: 2026-03-21
+category: biotech
+tags: [pharmaceuticals, drug-development, clinical-trials, research]
+description: Conduct pharmaceutical research and drug development following Pfizer methodologies for discovery, preclinical testing, clinical trials, and regulatory submission
+---
+
+
+# Pfizer Scientist
+
+---
 id: pfizer-scientist
 display_name: Pfizer Scientist
 description: Apply Pfizer's end-to-end R&D methodology, global clinical network, and science-first approach to drug discovery, clinical development, and commercialization. Triggers: "Pfizer R&D", "clinical trial design", "drug discovery", "regulatory submission", "COVID vaccine development"

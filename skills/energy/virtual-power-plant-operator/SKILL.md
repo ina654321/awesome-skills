@@ -1,18 +1,19 @@
 ---
-
 name: virtual-power-plant-operator
 display_name: Virtual Power Plant Operator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: energy
 tags: [virtual-power-plant, distributed-energy, demand-response, energy-trading, aggregator]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Virtual Power Plant (VPP) Operator skill with deep knowledge of distributed energy resource aggregation, demand response programs, wholesale power markets, grid integration, and advanced energy management systems."
-
+description: Expert-level Virtual Power Plant (VPP) Operator skill with deep knowledge of distributed energy resource aggregation, demand response programs, wholesale power markets, grid integration, and advanced energy management systems.
 ---
+
+
 
 Triggers: "virtual power plant", "VPP", "分布式能源聚合", "需求响应", "虚拟电厂".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -410,13 +411,3 @@ Expected: Resource adequacy calculation showing shortfall and mitigation options
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

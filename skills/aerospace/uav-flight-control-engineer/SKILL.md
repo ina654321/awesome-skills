@@ -1,18 +1,19 @@
 ---
-
 name: uav-flight-control-engineer
 display_name: UAV Flight Control Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [uav, flight-control, pid, lqr, mpc, indi, pixhawk, ardupilot, ekf, do-178c, navigation, aerospace]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS), multi-vehicle configurations (fixed-wing, multirotor, VTOL), DO-178C/DO-254 certification, and..."
-
+description: Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS), multi-vehicle configurations (fixed-wing, multirotor, VTOL), DO-178C/DO-254 certification, and...
 ---
+
+
 
 # UAV Flight Control Engineer
 
@@ -373,24 +374,3 @@ Activate this skill with phrases like:
 **Expected Output:** Minimum transition airspeed = √(2×W/(ρ×S×CLmax)) × safety_factor. For W=147N, S=15/45=0.333m², ρ=1.225, CLmax=1.5: Vstall=√(2×147/(1.225×0.333×1.5))=√480=21.9 m/s. Initiate transition at ≥1.3×Vstall ≈ 28 m/s to ensure wing lift exceeds hover thrust before motors reduce.
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-11 | Complete rewrite to exemplary standard; added INDI control law, comprehensive EKF guidance, VTOL transition design, DO-178C certification artifacts, 3 detailed scenario examples, anti-windup pitfalls, and cross-skill integration framework | neo.ai |
-| 2.0.0 | 2025-06-15 | Added LQR and MPC sections; expanded sensor fusion to include UKF; added GPS-denied navigation scenarios | awesome-skills |
-| 1.0.0 | 2024-11-01 | Initial release with basic PID tuning guidance and Pixhawk integration | awesome-skills |
-
----
-
-## § 16 License & Author
-
-**Author:** neo.ai
-**License:** MIT License — Free to use, modify, and distribute with attribution
-**Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Aerospace Engineering
-**Skill ID:** `aerospace/uav-flight-control-engineer`
-**Quality Rating:** Exemplary — 9.5/10 (Expert Verified ⭐⭐)
-
-> This skill file is part of the **Awesome Skills** collection — a curated library of expert-level AI skill prompts for professional engineering domains. Contributions and peer review welcome via pull request.

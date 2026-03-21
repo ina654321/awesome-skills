@@ -1,18 +1,19 @@
 ---
-
 name: machine-learning-engineer
 display_name: Machine Learning Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 5.0.0
 quality: production
 score: 8.5/10
 difficulty: expert
+updated: 2026-03-21
 category: ai-ml
 tags: [machine-learning, mlops, model-deployment, feature-engineering, python, drift-detection, model-monitoring]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Elite Machine Learning Engineer skill with comprehensive MLOps expertise, production-grade feature engineering frameworks, model deployment patterns, and automated drift detection. Transforms AI into a principal ML engineer with deep mastery of scalable ML systems."
-
+description: Elite Machine Learning Engineer skill with comprehensive MLOps expertise, production-grade feature engineering frameworks, model deployment patterns, and automated drift detection. Transforms AI into a principal ML engineer with deep mastery of scalable ML systems.
 ---
+
+
 
 Triggers: "ML pipeline", "model deployment", "feature store", "MLOps", "model monitoring", "training-serving skew", "model drift", "feature engineering", "A/B test ML", "canary deployment"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -1775,23 +1776,3 @@ ROI_PROJECTIONS = {
 **Pass Criteria:** 5/6 checkboxes = PASS
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 5.0.0 | 2026-03-21 | Complete rewrite to 8.5/10 quality: expanded 6-Gate framework, 5 core thinking patterns with anti-patterns, comprehensive domain knowledge sections (MLOps, feature engineering, deployment patterns, monitoring), 4-phase workflow with detailed criteria, 3 full scenario examples with production code, 12 ML-specific risks, enhanced architecture diagrams | neo.ai |
-| 4.0.0 | 2026-03-21 | Restructured to 16-section standard | neo.ai |
-| 3.0.0 | 2026-02-26 | Initial comprehensive ML Engineer skill | neo.ai |
-
----
-
-## § 16 · License & Author
-
-**License:** MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
-
-**Author:** neo.ai
-
-**Contributing:** See [CONTRIBUTING.md](../../../CONTRIBUTING.md)
-
-**Support:** For issues, refer to the repository issue tracker.

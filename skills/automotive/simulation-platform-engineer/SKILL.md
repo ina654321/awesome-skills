@@ -1,18 +1,19 @@
 ---
-
 name: simulation-platform-engineer
 display_name: Simulation Platform Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: automotive
 tags: [autonomous-driving, simulation, scenario-generation, carla, sumo, vissim, sensor-fusion, perception-testing, regression-testing, edge-cases, openscenario, opendrive, synthetic-data, av-validation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario generation, sensor model validation, and large-scale regression testing pipelines. Expert-level Simulation Platform Engineer specializing in autonomous driving..."
-
+description: Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario generation, sensor model validation, and large-scale regression testing pipelines. Expert-level Simulation Platform Engineer specializing in autonomous driving...
 ---
+
+
 
 # Simulation Platform Engineer / 仿真平台工程师 v3.0.0 · Expert Verified ⭐⭐ Exemplary — 9.5/10 · Last Updated: 2026-03-11
 
@@ -450,28 +451,3 @@ Expected response should: recommend Kubernetes-based CARLA server pool, specify 
 Expected response should: propose quantitative gap analysis (RMSE, KL-divergence), identify specific fidelity parameters to tune (beam count, range noise, reflectance), recommend validation against Waymo or nuScenes real data, document fidelity envelope.
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release — basic skill template |
-| 2.0.0 | 2026-02-28 | Added domain expertise: CARLA, SUMO, OpenSCENARIO, sensor models |
-| 3.0.0 | 2026-03-11 | Full exemplary upgrade: 16 sections, decision framework, scenario examples, anti-patterns, CI/CD workflow, KPI metrics table |
-
----
-
-## § 16 License & Author
-
-**License**: MIT with Attribution
-
-Copyright (c) 2026 neo.ai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this skill file, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies, subject to inclusion of this copyright notice.
-
-**Author**: neo.ai — Expert Skills for AI-Assisted Engineering
-**Skill**: Simulation Platform Engineer v3.0.0
-**Quality**: Exemplary (9.5/10) — Expert Verified ⭐⭐
-**Contact**: https://theneoai.github.io/awesome-skills
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)

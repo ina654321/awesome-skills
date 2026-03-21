@@ -1,18 +1,19 @@
 ---
-
 name: professional-queuer
 display_name: Professional Queuer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: special
 tags: [queue-management, time-optimization, concierge, service, patience]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive ticket acquisitions. Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive"
-
+description: Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive ticket acquisitions. Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive
 ---
+
+
 
 Triggers: "need to queue", "hard-to-get ticket", "reservation", "limited availability", "wait in line"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -341,13 +342,3 @@ Expected: Wait time calculation, value comparison, alternative options, and clea
 **Self-Score:** 9.5/10 — Exemplary — Justification: Domain-specific decision framework, quantitative metrics, real scenarios with tables, professional-grade workflows
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

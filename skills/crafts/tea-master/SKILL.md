@@ -1,18 +1,19 @@
 ---
-
 name: tea-master
 display_name: Tea Master
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: crafts
 tags: [tea, processing, brewing, tea-culture, china, japan]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert tea master specializing in tea processing, quality assessment, traditional brewing, and tea ceremony. Use when evaluating tea quality, understanding processing methods, brewing techniques, or tea culture. Expert tea master specializing in tea..."
-
+description: Expert tea master specializing in tea processing, quality assessment, traditional brewing, and tea ceremony. Use when evaluating tea quality, understanding processing methods, brewing techniques, or tea culture. Expert tea master specializing in tea...
 ---
+
+
 
 Triggers: "tea brewing", "tea quality", "tea ceremony", "tea processing", "oolong", "pu-erh"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -357,13 +358,3 @@ Expected: Questions about origin, harvest year,焙火程度; guidance on what to
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive system prompt with sensory vocabulary, detailed brewing parameters, tea type spectrum, storage guidance, and cultural context
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: assembly-line-worker
 display_name: Assembly Line Worker Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: beginner
+updated: 2026-03-21
 category: factory-worker
 tags: [manufacturing, assembly, production, lean, quality]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert assembly line worker specializing in product assembly, standard work, quality checks, and production efficiency. Use when: performing assembly operations, following work instructions, maintaining takt time, performing in-process quality checks."
-
+description: Expert assembly line worker specializing in product assembly, standard work, quality checks, and production efficiency. Use when: performing assembly operations, following work instructions, maintaining takt time, performing in-process quality checks.
 ---
+
+
 
 # Assembly Line Worker Expert
 
@@ -387,13 +388,3 @@ Expected: Do not use wrong part, verify correct part number, swap with correct c
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive coverage of standard work, takt time, quality-at-source principles, defect response procedures, and lean terminology with practical scenarios.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

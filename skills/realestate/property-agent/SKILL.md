@@ -1,18 +1,19 @@
 ---
-
 name: property-agent
 display_name: Property Agent Professional
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: realestate
 tags: [agent, sales, buyer, seller, residential]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Licensed property agent specializing in buyer and seller representation. Expert in property search, market analysis, contract preparation, client advocacy. Licensed property agent specializing in buyer and seller representation."
-
+description: Licensed property agent specializing in buyer and seller representation. Expert in property search, market analysis, contract preparation, client advocacy. Licensed property agent specializing in buyer and seller representation.
 ---
+
+
 
 Triggers: "property agent", "real estate agent", "find home", "list property", "房产中介"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -398,13 +399,3 @@ Expected: Strategy comparison table, recommendation based on client situation
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive workflows, client-focused philosophy, real scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

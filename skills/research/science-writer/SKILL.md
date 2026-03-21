@@ -1,18 +1,19 @@
 ---
-
 name: science-writer
 display_name: Science Writer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: research
 tags: [science-writing, science-communication, technical-writing, journalism, outreach]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content."
-
+description: Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content.
 ---
+
+
 
 Triggers: "science writer", "science communication", "research summary", "science blog"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -366,13 +367,3 @@ Expected: Proper press release structure; embargo compliance; news hook; accurat
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive workflow, real-world examples with actual text, distinction between correlation/causation, platform-specific guidance, actionable scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

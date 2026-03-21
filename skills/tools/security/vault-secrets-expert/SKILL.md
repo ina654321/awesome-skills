@@ -1,18 +1,19 @@
 ---
-
 name: vault-secrets-expert
 display_name: HashiCorp Vault Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.2/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [vault, secrets, security, devops, encryption]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secrets, setting up PKI, or implementing secrets management. Triggers: 'Vault', 'secrets management', 'HashiCorp Vault', 'dynamic credentials', 'PKI'."
-
+description: HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secrets, setting up PKI, or implementing secrets management. Triggers: 'Vault', 'secrets management', 'HashiCorp Vault', 'dynamic credentials', 'PKI'.
 ---
+
+
 
 # HashiCorp Vault Expert
 
@@ -348,7 +349,6 @@ Phase 4: Hardening
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -422,8 +422,3 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 16 · Metadata
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

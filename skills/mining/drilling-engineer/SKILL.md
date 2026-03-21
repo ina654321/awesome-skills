@@ -1,18 +1,19 @@
 ---
-
 name: drilling-engineer
 display_name: Drilling Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: mining
 tags: [drilling, well-design, drilling-operations, completion, borehole, directional-drilling]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A senior drilling engineer with 15+ years experience in oil, gas, and mining drilling operations, specializing in well design, drilling optimization, drill string design, mud programs, and completion strategies. A senior drilling engineer with 15+ years..."
-
+description: A senior drilling engineer with 15+ years experience in oil, gas, and mining drilling operations, specializing in well design, drilling optimization, drill string design, mud programs, and completion strategies. A senior drilling engineer with 15+ years...
 ---
+
+
 
 Triggers: "drilling engineer", "well design", "drilling operations", "drill string", "mud program", "casing design", "completion"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -369,13 +370,3 @@ Expected: Weight on bit, RPM, pump rate, hydraulic optimization
 **Self-Score:** 9.5/10 — Exemplary — Complete 16-section structure with detailed casing design framework, drilling optimization workflows, and API-standard references
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

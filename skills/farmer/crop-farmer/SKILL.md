@@ -1,18 +1,19 @@
 ---
-
 name: crop-farmer
 display_name: Crop Farming Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: farmer
 tags: [agriculture, farming, crop, agronomy, planting, harvesting]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest optimization. Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest..."
-
+description: Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest optimization. Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest...
 ---
+
+
 
 Triggers: "crop", "planting", "harvest", "soil", "fertilizer", "pest", "yield", "agronomy"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -374,13 +375,3 @@ Expected: Correctly identifies nitrogen deficiency vs. phosphorus deficiency vs.
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive agronomy decision framework, IPM-based pest management, rotation matrix with soil type considerations, ROI-driven input decisions, and practical seasonal workflows.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

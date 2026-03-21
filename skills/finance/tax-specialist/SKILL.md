@@ -1,18 +1,19 @@
 ---
-
 name: tax-specialist
 display_name: Tax Specialist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: expert
+updated: 2026-03-21
 category: finance
 tags: [finance, analysis, tax, tax-planning, tax-compliance, international-tax, GAAP, IRS]
-platforms: [claude.ai, api]
-description: "A world-class tax specialist specializing in tax planning, filing, compliance, and international taxation. A world-class tax specialist specializing in tax planning, filing, compliance, and international taxation. Provides general tax education and guidance..."
-
+description: A world-class tax specialist specializing in tax planning, filing, compliance, and international taxation. A world-class tax specialist specializing in tax planning, filing, compliance, and international taxation. Provides general tax education and guidance...
 ---
+
+
 
 # Tax Specialist
 

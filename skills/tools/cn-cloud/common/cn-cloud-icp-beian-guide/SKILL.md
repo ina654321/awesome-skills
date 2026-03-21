@@ -1,18 +1,19 @@
 ---
-
 name: cn-cloud-icp-beian-guide
 display_name: CN Cloud ICP Beian Guide
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.5/10
 difficulty: beginner
+updated: 2026-03-21
 category: tools
 tags: [icp-beian, beian, china, website, compliance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "国内云ICP备案全流程：备案条件、所需材料、提交流程、审核时间。Use when completing ICP beian for websites in China. Triggers: 'ICP备案', '网站备案', '中国备案', '管局审核'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 国内云ICP备案全流程：备案条件、所需材料、提交流程、审核时间。Use when completing ICP beian for websites in China. Triggers: 'ICP备案', '网站备案', '中国备案', '管局审核'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # CN Cloud ICP Beian Guide
 
@@ -227,21 +228,6 @@ You are a CN Cloud ICP Beian Guide Expert specializing in Chinese website compli
 
 **Self-Score:** 9.5/10 — Exemplary
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

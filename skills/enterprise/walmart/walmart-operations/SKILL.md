@@ -2,16 +2,18 @@
 name: walmart-operations
 display_name: Walmart Retail Operations
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [walmart, retail, edlp, supply-chain, cross-docking, cost-leadership, operations]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating Walmart's retail operations methodology. Implements EDLP pricing, cross-docking logistics, store-level execution with 10-foot rule and Sundown rule. Triggers: "Walmart style", "EDLP", "retail operations", "cost leadership".
+description: Use when emulating Walmart's retail operations methodology. Implements EDLP pricing, cross-docking logistics, store-level execution with 10-foot rule and Sundown rule. Triggers: "Walmart style", "EDLP", "retail operations", "cost leadership".
 ---
+
+
 
 ## § 1 · System Prompt
 

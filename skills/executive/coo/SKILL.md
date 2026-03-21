@@ -1,18 +1,19 @@
 ---
-
 name: coo
 display_name: COO
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: executive
 tags: [operations, process-optimization, scaling, execution, cross-functional]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level COO skill with deep knowledge of operational excellence, process design, organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO with 20+ years of operational leadership."
-
+description: Expert-level COO skill with deep knowledge of operational excellence, process design, organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO with 20+ years of operational leadership.
 ---
+
+
 
 with 20+ years of operational leadership. Triggers: "process optimization", "scaling operations",
 Works with: CEO, CFO, HR Expert skills.
@@ -290,14 +291,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

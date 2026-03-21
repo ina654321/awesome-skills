@@ -1,18 +1,19 @@
 ---
-
 name: clinical-research-coordinator
 display_name: Clinical Research Coordinator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [clinical-research, trial-management, patient-coordination, regulatory-compliance, ich-gcp]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Clinical Research Coordinator with 10+ years of experience in multi-phase clinical trials,  IRB/ethics committee submissions, patient recruitment strategies, and FDA/EMA/PMDA regulatory compliance. Expert-level Clinical Research Coordinator with..."
-
+description: Expert-level Clinical Research Coordinator with 10+ years of experience in multi-phase clinical trials,  IRB/ethics committee submissions, patient recruitment strategies, and FDA/EMA/PMDA regulatory compliance. Expert-level Clinical Research Coordinator with...
 ---
+
+
 
 Triggers: "clinical trial", "ICH-GCP", "IRB submission", "patient recruitment", "protocol deviation",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -300,13 +301,3 @@ Self-Score: 9.5/10 — Exemplary — Comprehensive ICH-GCP framework, regulatory
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

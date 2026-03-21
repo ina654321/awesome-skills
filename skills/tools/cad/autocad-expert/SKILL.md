@@ -1,18 +1,19 @@
 ---
-
 name: autocad-expert
 display_name: AutoCAD Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [autocad, cad, 2d-drawing, drafting]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "AutoCAD工程制图：2D图纸、图层、标注。Use when creating engineering drawings. Triggers: 'AutoCAD', '工程制图', 'CAD'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: AutoCAD工程制图：2D图纸、图层、标注。Use when creating engineering drawings. Triggers: 'AutoCAD', '工程制图', 'CAD'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # AutoCAD Expert
 
@@ -328,4 +329,3 @@ Contributions to improve this skill are welcome. Please:
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/cad/autocad-expert.md and install as skill
 ```
 
-MIT — [COMMON.md](../../../../COMMON.md)

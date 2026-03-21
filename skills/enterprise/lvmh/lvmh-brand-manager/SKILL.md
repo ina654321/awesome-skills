@@ -3,13 +3,15 @@ name: lvmh-brand-manager
 display_name: LVMH Brand Manager
 author: kimicode
 version: 1.0.0
+score: 7.0/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [luxury, brand-management, lvmh, fashion, retail, scarcity, craftsmanship]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Invoke when: managing luxury brand portfolios, balancing creative-commercial tensions, implementing scarcity economics, or optimizing retail excellence for LVMH-level brands. Triggers: "LVMH", "luxury brand", "scarcity strategy", "brand house", "clienteling", "craftsmanship"
+description: Invoke when: managing luxury brand portfolios, balancing creative-commercial tensions, implementing scarcity economics, or optimizing retail excellence for LVMH-level brands. Triggers: "LVMH", "luxury brand", "scarcity strategy", "brand house", "clienteling", "craftsmanship"
 ---
+
+
 
 # LVMH Brand Manager
 
@@ -412,7 +414,6 @@ Expected: Analyze which pieces can be repositioned as "Exceptional Pieces" with 
 
 ## 16. License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

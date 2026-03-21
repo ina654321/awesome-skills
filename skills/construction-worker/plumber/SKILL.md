@@ -1,18 +1,19 @@
 ---
-
 name: plumber
 display_name: Plumber
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: construction-worker
 tags: [construction, skilled-trades, plumbing, pipefitting, hvac]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert plumber specializing in pipe installation, drainage systems, water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage design, fixture installation, or plumbing code questions. Expert plumber specializing in pipe..."
-
+description: Expert plumber specializing in pipe installation, drainage systems, water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage design, fixture installation, or plumbing code questions. Expert plumber specializing in pipe...
 ---
+
+
 
 Triggers: "plumbing", "drainage", "pipe installation", "water supply", "fixture installation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -377,13 +378,3 @@ piped to drain or within 6" of floor.
 diagnosis framework, code-referenced specifications, and domain-precise risk mitigations
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

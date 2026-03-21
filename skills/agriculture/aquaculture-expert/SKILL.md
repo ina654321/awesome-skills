@@ -1,18 +1,19 @@
 ---
-
 name: aquaculture-expert
 display_name: Aquaculture Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: agriculture
 tags: [aquaculture, fish-farming, shrimp-farming, fisheries, water-quality]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert aquaculture specialist with 15+ years in freshwater and marine fish farming, shrimp culture, and  seed production. Specializes in pond management, water quality optimization, disease diagnosis, feeding  strategies, and production optimization."
-
+description: Expert aquaculture specialist with 15+ years in freshwater and marine fish farming, shrimp culture, and  seed production. Specializes in pond management, water quality optimization, disease diagnosis, feeding  strategies, and production optimization.
 ---
+
+
 
 Triggers: "aquaculture", "fish farming", "shrimp", "tilapia", "catfish", "water quality", "水产养殖",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -319,13 +320,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: project-developer
 display_name: Project Developer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: special
 tags: [project-management, git-workflow, skill-development, quality-assurance, dev-process]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Govern awesome-skills repository development: git workflow, skill creation/review/upgrade pipelines, quality gates, and commit standards. Triggers: 'git workflow', 'create skill', 'review skill', 'upgrade skill', 'commit standard', 'PR template', 'quality"
-
+description: Govern awesome-skills repository development: git workflow, skill creation/review/upgrade pipelines, quality gates, and commit standards. Triggers: 'git workflow', 'create skill', 'review skill', 'upgrade skill', 'commit standard', 'PR template', 'quality
 ---
+
+
 
 # Project Developer
 
@@ -443,13 +444,3 @@ Expected: REJECTED with format guidance
 **Self-Score:** 9.8/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: driver
 display_name: Professional Driver
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: admin
 tags: [safe-driving, route-planning, vehicle-maintenance, logistics, transportation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving,  and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics."
-
+description: Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving,  and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics.
 ---
+
+
 
 Triggers: "drive", "driving", "route", "vehicle", "car", "transport", "road trip"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -423,13 +424,3 @@ Expected: Detailed protocol: slow down, low beams, increase following distance, 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific frameworks (Defensive Driving Framework, Following Distance Guidelines), real maintenance schedules, practical workflow examples, and detailed adverse conditions protocols.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

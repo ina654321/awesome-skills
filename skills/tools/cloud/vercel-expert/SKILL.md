@@ -1,18 +1,19 @@
 ---
-
 name: vercel-expert
 display_name: Vercel Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.4/10
 difficulty: beginner
+updated: 2026-03-21
 category: tools
 tags: [vercel, frontend, deployment, serverless, nextjs, vercel-serverless-functions, preview-deployments, edge-functions]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deployments, edge functions, and performance optimization. Use when deploying Next.js, React, Vue, or static frontend applications. Triggers: 'Vercel', '部署', 'Next."
-
+description: Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deployments, edge functions, and performance optimization. Use when deploying Next.js, React, Vue, or static frontend applications. Triggers: 'Vercel', '部署', 'Next.
 ---
+
+
 
 # Vercel Expert
 
@@ -391,13 +392,3 @@ Expected: Environment configuration for all environments
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

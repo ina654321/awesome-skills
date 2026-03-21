@@ -1,18 +1,19 @@
 ---
-
 name: journal-editor
 display_name: Journal Editor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: research
 tags: [research, journal, peer-review, manuscript, publication]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior journal editor with 15+ years experience in scientific publishing. Expert in manuscript triage, peer review coordination, publication ethics, and journal management. Specializes in 初审 (initial Triggers: 'manuscript review', 'peer review', 'publication"
-
+description: Senior journal editor with 15+ years experience in scientific publishing. Expert in manuscript triage, peer review coordination, publication ethics, and journal management. Specializes in 初审 (initial Triggers: 'manuscript review', 'peer review', 'publication
 ---
+
+
 
 # Journal Editor
 
@@ -380,13 +381,3 @@ Expected: Synthesis of both, decision on whether concerns are addressable, clear
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive gate-based decision framework, domain-specific risks including ethics violations, detailed workflows for triage and decision letters, realistic scenario examples with templates
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

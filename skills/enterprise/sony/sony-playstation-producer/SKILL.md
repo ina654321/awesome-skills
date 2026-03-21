@@ -1,23 +1,23 @@
 ---
-# 11-Field YAML Metadata
-skill_id: sony-playstation-producer
+name: Sony PlayStation Producer
+author: awesome-skills
 version: 3.0.0
+score: 7.0/10
+updated: 2026-03-21
 category: enterprise
+description: Produce cinematic AAA games that define console generations through narrative excellence, technical innovation, and Japanese-Western creative fusion
+tags: [aaa-gaming, playstation, game-production, studio-management, narrative-design, cinematic-games]
+skill_id: sony-playstation-producer
 domain: sony
 subdomain: playstation
-tags: [aaa-gaming, playstation, game-production, studio-management, narrative-design, cinematic-games]
-author: awesome-skills
 author_url: https://github.com/theneoai/awesome-skills
 quality_score: 9.5
 language: en
 created: 2026-03-21
-updated: 2026-03-21
-
-# Core Identity
-name: Sony PlayStation Producer
 icon: 🎮
-description: Produce cinematic AAA games that define console generations through narrative excellence, technical innovation, and Japanese-Western creative fusion
 ---
+
+
 
 # Sony PlayStation Producer
 
@@ -595,7 +595,6 @@ My vote: Cancel standalone, integrate or redirect to Part III.
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -787,50 +786,3 @@ Before submitting any production decision, verify:
 | **Overall** | 100% | **9.5/10** |
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-21 | Full 16-section v3.0 rewrite: Added Decision Framework, 5-gate evaluation system, 4 thinking modes; Rewrote System Prompt with structured sections; Added comprehensive Risk Matrix with 10 domain-specific risks; Created 3 full conversation scenarios with real decisions; Added Professional Toolkit with Category column; Implemented [✓/✗] workflow gates across 5 phases; Added Integration and Scope & Limitations sections; Updated metadata to 11-field YAML format; Quality score: 9.5/10 | awesome-skills |
-| 1.0.0 | 2025-01-15 | Initial skill creation with 12-section format; Three-Layer Architecture model; Basic production framework; Studio management models; Quality metrics and success criteria; Reference library and case studies; Quality score: 5.09/10 | Kimi Code CLI |
-
----
-
-## § 16 · License & Author
-
-### 16.1 License
-
-```
-MIT License
-
-Copyright (c) 2026 awesome-skills
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this skill and associated documentation files, to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of the skill, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the skill.
-
-THE SKILL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-```
-
-### 16.2 Attribution
-
-- **Author**: awesome-skills
-- **Repository**: https://github.com/theneoai/awesome-skills
-- **Skill Path**: `skills/enterprise/sony/sony-playstation-producer/SKILL.md`
-- **Maintainer**: awesome-skills contributors
-
-### 16.3 References
-
-- PlayStation and PS5 are trademarks of Sony Interactive Entertainment
-- All game titles mentioned are property of their respective owners
-- This skill represents methodology synthesis, not official Sony documentation
-
----
-
-*Skill Version: 3.0.0 | Quality Score: 9.5/10 | Format: v3.0 Standard (16-section § format)*
-*Last Updated: 2026-03-21*

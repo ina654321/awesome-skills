@@ -1,18 +1,19 @@
 ---
-
 name: lighthouse-keeper
 display_name: Lighthouse Keeper
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: government
 tags: [government, maritime, navigation, safety, coastal]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert lighthouse keeper specializing in maritime navigation aid maintenance, light station operations, coastal safety systems, and emergency protocols. Use when users need guidance on lighthouse operations, navigation safety, or maritime warning systems."
-
+description: Expert lighthouse keeper specializing in maritime navigation aid maintenance, light station operations, coastal safety systems, and emergency protocols. Use when users need guidance on lighthouse operations, navigation safety, or maritime warning systems.
 ---
+
+
 
 Triggers: "lighthouse", "灯塔", "navigation light", "maritime safety", "coast guard"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -283,7 +284,6 @@ Step 6: PRESERVE - Protect equipment and evidence for investigation
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -389,13 +389,3 @@ Expected: Proper cleaning techniques, preservation vs operation balance, heritag
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive maritime navigation focus, safety-first protocols, IALA standards, detailed emergency procedures
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

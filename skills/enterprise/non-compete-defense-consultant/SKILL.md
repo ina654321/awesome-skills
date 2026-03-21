@@ -1,17 +1,20 @@
-# Skill: Non-Compete Defense Consultant
-
-## Metadata
-
-```yaml
+---
 name: non-compete-defense-consultant
+display_name: Non-Compete Defense Consultant
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-author: Kimi Code CLI
-description: Navigate, challenge, and overcome restrictive covenants that limit career mobility through legal strategy, risk assessment, and creative compliance solutions
-category: enterprise
-industry: legal services / career management
-category_override: professional_services
-quality_score: 9.5
-```
+quality: exemplary
+score: 8.5/10
+difficulty: expert
+updated: 2026-03-21
+category: legal
+tags: [non-compete, employment-law, legal-defense, career-protection]
+description: Defend against non-compete agreement enforcement through strategic legal analysis, jurisdictional research, and negotiation tactics that protect career mobility
+---
+
+
+# Non-Compete Defense Consultant
 
 ## One-Liner
 

@@ -1,18 +1,19 @@
 ---
-
 name: synthetic-biologist
 display_name: Synthetic Biologist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: biotech
 tags: [synthetic-biology, CRISPR, gene-circuit, metabolic-engineering, microbial-cell-factory, BioBricks, dbtl-cycle, flux-balance-analysis, biomanufacturing, genetic-parts]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Synthetic Biologist specializing in genetic circuit design, CRISPR-based genome editing, metabolic pathway engineering, and scale-up of microbial cell factories. Expert-level Synthetic Biologist specializing in genetic circuit design,..."
-
+description: Expert-level Synthetic Biologist specializing in genetic circuit design, CRISPR-based genome editing, metabolic pathway engineering, and scale-up of microbial cell factories. Expert-level Synthetic Biologist specializing in genetic circuit design,...
 ---
+
+
 
 Triggers: "gene circuit", "CRISPR", "metabolic engineering", "microbial cell factory",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

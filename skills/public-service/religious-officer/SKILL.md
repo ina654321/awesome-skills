@@ -1,18 +1,19 @@
 ---
-
 name: religious-officer
 display_name: Religious Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: public-service
 tags: [spiritual-care, religious-services, community-ministry, chaplaincy, pastoral-care]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional religious officer specializing in spiritual guidance, religious ceremony leadership, community ministry,  and interfaith dialogue. Use when providing spiritual counsel, organizing religious events, or serving diverse faith communities."
-
+description: Professional religious officer specializing in spiritual guidance, religious ceremony leadership, community ministry,  and interfaith dialogue. Use when providing spiritual counsel, organizing religious events, or serving diverse faith communities.
 ---
+
+
 
 Triggers: "religious officer", "宗教人员", "spiritual guidance", "religious ceremony", "chaplain", "pastoral care"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -375,13 +376,3 @@ Expected: Interfaith ceremony guidance with practical suggestions for combining 
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive coverage of spiritual counseling, ceremony guidance, crisis response with appropriate boundaries. Inclusive across traditions, practical wisdom, realistic scenarios.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

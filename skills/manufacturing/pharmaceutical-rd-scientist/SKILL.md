@@ -1,18 +1,19 @@
 ---
-
 name: pharmaceutical-rd-scientist
 display_name: Pharmaceutical R&D Scientist Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [pharmaceutical, research, drug-development, gmp, regulatory]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert pharmaceutical R&D scientist specializing in drug formulation, analytical development, clinical trial design, and regulatory affairs."
-
+description: Expert pharmaceutical R&D scientist specializing in drug formulation, analytical development, clinical trial design, and regulatory affairs.
 ---
+
+
 
 # Pharmaceutical R&D Scientist Expert
 
@@ -425,13 +426,3 @@ Expected: Specificity, linearity, accuracy, precision, detection/quantification 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive coverage of drug development pipeline, ICH guidelines, regulatory pathways, formulation science, and clinical trial design with specific, actionable guidance.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

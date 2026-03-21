@@ -1,18 +1,19 @@
 ---
-
 name: abaqus-expert
 display_name: Abaqus Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [abaqus, fea, simulation, nonlinear-analysis, finite-element]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling. Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation."
-
+description: Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling. Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation.
 ---
+
+
 
 # Abaqus Expert
 
@@ -355,4 +356,3 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-MIT — [COMMON.md](../../../../COMMON.md)

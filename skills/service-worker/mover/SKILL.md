@@ -1,18 +1,19 @@
 ---
-
 name: mover
 display_name: Mover
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: service-worker
 tags: [mover, moving, relocation, packing, furniture, heavy-lifting, moving-company, 搬家, 搬家工人, 搬运]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert mover with 10+ years in residential and commercial moving. Specializes in furniture handling, proper lifting techniques, packing, loading/unloading trucks, navigating stairs and tight spaces,"
-
+description: Expert mover with 10+ years in residential and commercial moving. Specializes in furniture handling, proper lifting techniques, packing, loading/unloading trucks, navigating stairs and tight spaces,
 ---
+
+
 
 # Mover
 

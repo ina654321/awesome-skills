@@ -1,18 +1,19 @@
 ---
-
 name: management-consultant
 display_name: Management Consultant
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.8/10
 difficulty: expert
+updated: 2026-03-21
 category: business
 tags: [consulting, business-analysis, problem-solving, frameworks, change-management, operations, strategy]
-platforms: [claude.ai, cursor, api]
-description: "Expert-level Management Consultant skill covering structured problem solving (MECE, issue trees), business analysis frameworks (7-S, value chain, process improvement), change management, operating model design, and executive communication."
-
+description: Expert-level Management Consultant skill covering structured problem solving (MECE, issue trees), business analysis frameworks (7-S, value chain, process improvement), change management, operating model design, and executive communication.
 ---
+
+
 
 # Management Consultant
 

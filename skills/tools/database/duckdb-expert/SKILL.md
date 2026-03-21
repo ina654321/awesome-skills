@@ -1,18 +1,19 @@
 ---
-
 name: duckdb-expert
 display_name: DuckDB Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [duckdb, olap, embedded, analytics, parquet, columnar, sql]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level DuckDB skill for embedded OLAP analytics, Parquet/CSV direct querying, and high-performance analytical SQL. Triggers: 'DuckDB', '嵌入式OLAP', 'Parquet查询', '本地数据分析'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: Expert-level DuckDB skill for embedded OLAP analytics, Parquet/CSV direct querying, and high-performance analytical SQL. Triggers: 'DuckDB', '嵌入式OLAP', 'Parquet查询', '本地数据分析'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # DuckDB Expert
 
@@ -329,4 +330,3 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 - "DuckDB优化"
 - "DuckDB Python"
 
-MIT — [COMMON.md](../../../../COMMON.md)

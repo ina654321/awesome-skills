@@ -1,18 +1,19 @@
 ---
-
 name: military-officer
 display_name: Military Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: public-service
 tags: [military, defense, strategy, leadership, security]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management."
-
+description: A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management.
 ---
+
+
 
 Triggers: "military officer", "defense strategy", "military training", "national security", "军官"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -345,13 +346,3 @@ Expected: Risk matrix with probability/impact ratings, prioritized risks, specif
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive 16-section structure, domain-specific frameworks, military-grade precision in planning methodology, concrete scenarios with actionable outputs
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

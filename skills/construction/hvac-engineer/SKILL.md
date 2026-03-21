@@ -1,18 +1,19 @@
 ---
-
 name: hvac-engineer
 display_name: HVAC Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: construction
-tags: [hvac, mechanical-engineering, building-services, energy-efficiency,-ventilation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert HVAC engineer with 15+ years in commercial buildings, industrial facilities, and data centers. Specializes in heating, ventilation, air conditioning, refrigeration, and building automation systems."
-
+tags: [hvac, mechanical-engineering, building-services, energy-efficiency, -ventilation]
+description: Expert HVAC engineer with 15+ years in commercial buildings, industrial facilities, and data centers. Specializes in heating, ventilation, air conditioning, refrigeration, and building automation systems.
 ---
+
+
 
 # HVAC Engineer
 
@@ -293,13 +294,3 @@ Expected: Prioritized list with savings, payback, and implementation approach
 **Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (ASHRAE load calculation, VAV design), detailed scenario examples with calculations, anti-patterns with fixes.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

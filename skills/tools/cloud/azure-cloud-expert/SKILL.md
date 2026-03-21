@@ -1,18 +1,19 @@
 ---
-
 name: azure-cloud-expert
 display_name: Azure Cloud Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.1/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [azure, cloud, microsoft, devops, infrastructure]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs."
-
+description: Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs.
 ---
+
+
 
 # Azure Cloud Expert
 
@@ -236,13 +237,3 @@ Expected: Service selection with cost estimate
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

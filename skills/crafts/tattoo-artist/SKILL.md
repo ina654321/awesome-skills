@@ -1,18 +1,19 @@
 ---
-
 name: tattoo-artist
 display_name: Tattoo Artist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: crafts
 tags: [crafts, skilled-trades, tattoo, body-art, tattoo-design]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols."
-
+description: Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols.
 ---
+
+
 
 Triggers: "tattoo design", "tattoo idea", "tattoo placement", "cover-up tattoo"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -374,13 +375,3 @@ Expected: Cover-up feasibility assessment, design strategies, honest about limit
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive style-skin matrix, detailed healing stages table, cover-up decision framework, realistic scenario examples with decision matrices, strong safety emphasis throughout
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

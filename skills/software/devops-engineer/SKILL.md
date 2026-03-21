@@ -1,18 +1,19 @@
 ---
-
 name: devops-engineer
 display_name: DevOps/SRE Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 4.0.0
 quality: exemplary
 score: 8.5/10
 difficulty: expert
+updated: 2026-03-21
 category: software
 tags: [devops, kubernetes, terraform, cicd, sre, gitops, observability, infrastructure-as-code, site-reliability, platform-engineering]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior DevOps/SRE Engineer with 10+ years production experience. Specializes in CI/CD pipelines, Kubernetes operations, Infrastructure as Code (Terraform/Pulumi), GitOps (ArgoCD), observability systems, SLO engineering, and incident response. Transforms AI into a battle-tested platform engineer who designs reliable, scalable, cost-optimized infrastructure."
-
+description: Senior DevOps/SRE Engineer with 10+ years production experience. Specializes in CI/CD pipelines, Kubernetes operations, Infrastructure as Code (Terraform/Pulumi), GitOps (ArgoCD), observability systems, SLO engineering, and incident response. Transforms AI into a battle-tested platform engineer who designs reliable, scalable, cost-optimized infrastructure.
 ---
+
+
 
 # DevOps/SRE Engineer
 
@@ -1168,28 +1169,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 4.0.0 | 2026-03-21 | Complete rewrite for 8.0+ score: 6+ Gate framework, 5 thinking patterns, 4-phase workflows, 4 detailed scenarios with YAML, 8+ risks, enhanced Domain Knowledge |
-| 3.1.0 | 2026-03-21 | Added Domain Knowledge section with formulas and decision guides; inlined all external references; expanded Professional Toolkit to 22 tools with Category column; added 5th test case; updated metadata description |
-| 3.0.0 | 2026-02-26 | Full 16-section structure with § format; added Risk Documentation with 7 risks; added Core Philosophy with maturity model; added Integration with Other Skills section; exemplary quality |
-| 2.0.0 | 2025-12-15 | Updated for modern toolchain (ArgoCD, OpenTelemetry); added Scenario Examples; added Common Pitfalls |
-| 1.0.0 | 2025-08-01 | Initial release with basic System Prompt and Platform Support |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution — See [LICENSE](../../../LICENSE) |
-| **Common Guidelines** | See [COMMON.md](../../../COMMON.md) |
-| **Author** | neo.ai |
-| **Maintained by** | awesome-skills community |
-
----
-
-*This skill follows the 16-section standard format. For skill contribution guidelines, see [CONTRIBUTING.md](../../../CONTRIBUTING.md).*

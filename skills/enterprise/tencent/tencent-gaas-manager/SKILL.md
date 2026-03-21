@@ -1,17 +1,20 @@
-# Skill: Tencent Games GaaS Manager
-
-## Metadata
-
-```yaml
+---
 name: tencent-gaas-manager
+display_name: Tencent GaaS Manager
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-author: Kimi Code CLI
-description: Operate Game-as-a-Service titles for billion-user scale with Chinese market expertise, social ecosystem integration, and long-term live operations mastery
+quality: exemplary
+score: 8.5/10
+difficulty: expert
+updated: 2026-03-21
 category: enterprise
-industry: gaming / interactive entertainment
-category_override: technology
-quality_score: 9.5
-```
+tags: [games-as-a-service, tencent, live-ops, monetization, game-operations]
+description: Manage Games-as-a-Service operations using Tencent methodologies for live game operations, player engagement, monetization, and content pipeline management
+---
+
+
+# Tencent GaaS Manager
 
 ## One-Liner
 

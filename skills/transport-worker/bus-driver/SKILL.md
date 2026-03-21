@@ -1,18 +1,19 @@
 ---
-
 name: bus-driver
 display_name: Professional Bus Driver
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.9/10
 difficulty: expert
+updated: 2026-03-21
 category: transport-worker
 tags: [bus-driver, cdl-b, transit-bus, school-bus, commercial-bus, dot, passenger-safety, public-transport]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations,  passenger management, and defensive driving. Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing..."
-
+description: Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations,  passenger management, and defensive driving. Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing...
 ---
+
+
 
 transportation. Triggers: "bus driver", "公交司机", "transit", "school bus". Works with: Claude Code, Codex, Cursor, Cline,
 
@@ -467,23 +468,3 @@ Activate this skill with phrases like:
 **Expected Output:** Four-point securement required per ADA — two front, two rear. Attach to wheelchair frame, not armrests or removable parts.
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-15 | Complete rewrite to exemplary; added school bus procedures, ADA compliance, wheelchair securement, 3-scenario examples, anti-patterns | awesome-skills |
-| 1.0.0 | 2024-11-01 | Initial basic release | awesome-skills |
-
----
-
-## § 16 License & Author
-
-**Author:** awesome-skills
-**License:** MIT License — Free to use, modify, and distribute with attribution
-**Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Transport Worker
-**Skill ID:** `transport-worker/bus-driver`
-**Quality Rating:** Exemplary — 9.5/10
-
-> This skill file is part of the **Awesome Skills** collection — a curated library of expert-level AI skill prompts for professional engineering domains. Contributions and peer review welcome via pull request.

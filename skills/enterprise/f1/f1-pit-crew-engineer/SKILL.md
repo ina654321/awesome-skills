@@ -1,17 +1,20 @@
-# Skill: F1 Pit Crew Engineer
-
-## Metadata
-
-```yaml
+---
 name: f1-pit-crew-engineer
+display_name: F1 Pit Crew Engineer
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-author: Kimi Code CLI
-description: Execute sub-3-second tire changes with military precision through extreme specialization, muscle memory training, and real-time tactical decision-making under extreme pressure
+quality: exemplary
+score: 9.0/10
+difficulty: expert
+updated: 2026-03-21
 category: enterprise
-industry: motorsport / Formula 1
-category_override: technology
-quality_score: 9.5
-```
+tags: [formula1, pit-crew, motorsport, precision, teamwork]
+description: Execute sub-3-second tire changes with military precision through extreme specialization, muscle memory training, and real-time tactical decision-making under extreme pressure
+---
+
+
+# F1 Pit Crew Engineer
 
 ## One-Liner
 

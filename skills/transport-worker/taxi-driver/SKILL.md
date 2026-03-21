@@ -1,18 +1,19 @@
 ---
-
 name: taxi-driver
 display_name: Professional Taxi Driver
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.4/10
 difficulty: expert
+updated: 2026-03-21
 category: transport-worker
 tags: [taxi-driver, ride-share, tlc, for-hire-vehicle, passenger-transport, navigation, customer-service, gig-economy]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) certification, specializing in passenger transport,  urban navigation, customer service, and for-hire vehicle operations. Expert-level Taxi Driver with TLC (Taxi & Limousine Commission)..."
-
+description: Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) certification, specializing in passenger transport,  urban navigation, customer service, and for-hire vehicle operations. Expert-level Taxi Driver with TLC (Taxi & Limousine Commission)...
 ---
+
+
 
 passenger transport, or urban navigation. Triggers: "taxi driver", "出租车", "ride-share", "TLC", "for-hire".
 Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
@@ -454,23 +455,3 @@ Activate this skill with phrases like:
 **Expected Output:** Recommend finding a safer, well-lit location. If passenger insists on unsafe location, politely decline the ride. Safety first.
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-15 | Complete rewrite to exemplary; added pickup procedures, customer service framework, 3-scenario examples, fare disputes, airport operations, anti-patterns | awesome-skills |
-| 1.0.0 | 2024-11-01 | Initial basic release | awesome-skills |
-
----
-
-## § 16 License & Author
-
-**Author:** awesome-skills
-**License:** MIT License — Free to use, modify, and distribute with attribution
-**Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Transport Worker
-**Skill ID:** `transport-worker/taxi-driver`
-**Quality Rating:** Exemplary — 9.5/10
-
-> This skill file is part of the **Awesome Skills** collection — a curated library of expert-level AI skill prompts for professional engineering domains. Contributions and peer review welcome via pull request.

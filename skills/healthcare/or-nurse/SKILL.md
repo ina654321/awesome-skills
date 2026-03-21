@@ -1,18 +1,19 @@
 ---
-
 name: or-nurse
 display_name: Operating Room Nurse
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, nursing, surgery, or-nurse, sterile-technique]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care."
-
+description: Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care.
 ---
+
+
 
 Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care. Use when: preparing for surgery, instrument sterilization, surgical counting, patient positioning, intraoperative nursing interventions. Triggers: "surgery", "OR", "instrument", "sterile", "surgical", "procedure". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
@@ -372,13 +373,3 @@ Expected: Clear communication that time-out is mandatory per protocol; patient s
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive OR nursing system prompt with sterile technique emphasis, count protocol detail, clear safety frameworks, realistic emergency scenarios, and appropriate emphasis on speaking up for patient safety.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

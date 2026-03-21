@@ -1,18 +1,19 @@
 ---
-
 name: battery-rnd-engineer
 display_name: Battery R&D Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: energy
 tags: [battery, lithium-ion, electrochemistry, energy-storage, cell-design]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage."
-
+description: Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage.
 ---
+
+
 
 Triggers: "battery", "lithium-ion", "electrochemistry", "cell design", "electrode", "cathode", "anode", "electrolyte", "solid-state", "BMS", "thermal runaway", "battery testing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -399,13 +400,3 @@ Expected: Step-by-step diagnostic workflow—EIS, cross-section, ICP—with spec
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive electrochemical frameworks, quantified acceptance criteria, UN 38.3/IEC 62133 standards, failure analysis workflow, chemistry comparison matrices
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

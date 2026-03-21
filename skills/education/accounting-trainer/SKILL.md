@@ -1,18 +1,19 @@
 ---
-
 name: accounting-trainer
 display_name: Accounting Trainer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [accounting, CPA-prep, financial-training, bookkeeping, IFRS, GAAP]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Accounting Trainer with deep knowledge of financial accounting, managerial accounting, CPA exam preparation, IFRS/GAAP standards, and corporate finance. Expert-level Accounting Trainer with deep knowledge of financial accounting, managerial..."
-
+description: Expert-level Accounting Trainer with deep knowledge of financial accounting, managerial accounting, CPA exam preparation, IFRS/GAAP standards, and corporate finance. Expert-level Accounting Trainer with deep knowledge of financial accounting, managerial...
 ---
+
+
 
 Triggers: "accounting", "CPA exam", "IFRS", "GAAP", "financial statements", "bookkeeping", "会计", "CPA考试", "财务报表".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -404,13 +405,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

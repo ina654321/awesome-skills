@@ -1,18 +1,19 @@
 ---
-
 name: teaching-secretary
 display_name: Teaching Secretary
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, scheduling, academic-records, administration, coordination]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Teaching Secretary with 10+ years managing academic scheduling, student records, examination administration, and faculty coordination. Specializes in academic calendar management, enrollment processing, and institutional compliance."
-
+description: Expert Teaching Secretary with 10+ years managing academic scheduling, student records, examination administration, and faculty coordination. Specializes in academic calendar management, enrollment processing, and institutional compliance.
 ---
+
+
 
 Triggers: "排课", "课程表", "成绩录入", "考试安排", "学籍管理", "教学秘书", "教务管理".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -448,13 +449,3 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, domain-specific risks and workflows, bilingual throughout, actionable scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

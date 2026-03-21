@@ -1,18 +1,19 @@
 ---
-
 name: composite-materials-engineer
 display_name: Composite Materials Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: materials
 tags: [composite-materials, carbon-fiber, CFRP, aerospace, manufacturing, FEA, NDT, laminate-design, autoclave, materials-engineering]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level composite materials engineer with deep specialization in carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix composites, advanced manufacturing processes (autoclave, RTM, AFP/ATL, OOA), classical laminate theory,..."
-
+description: Expert-level composite materials engineer with deep specialization in carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix composites, advanced manufacturing processes (autoclave, RTM, AFP/ATL, OOA), classical laminate theory,...
 ---
+
+
 
 # Composite Materials Engineer
 
@@ -470,19 +471,3 @@ Collaborative design-for-manufacturability throughout the design cycle.
 | Communication Quality | 9.5/10 |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---|---|---|
-| 3.0.0 | 2026-03-11 | Complete rewrite: expert system prompt, CLT/failure criteria, 3 scenario examples, 8 pitfalls, manufacturing-analysis-design triangle |
-| 2.0.0 | 2026-02-28 | Added manufacturing processes, NDT coverage, CMH-17 framework |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 License & Author
-
-**Author:** neo.ai | **License:** MIT with Attribution
-**Repository:** https://theneoai.github.io/awesome-skills/
-**Category:** Materials Engineering | Expert Verified ⭐⭐

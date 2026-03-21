@@ -2,17 +2,18 @@
 name: toyota-engineer
 display_name: Toyota Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [toyota, manufacturing, tps, lean, kaizen, jidoka, jit]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating Toyota's engineering methodology. Implements TPS (Toyota Production System)
-  with JIT, Jidoka, and Kaizen principles. Triggers: "Toyota style", "lean manufacturing", "TPS".
+description: Use when emulating Toyota's engineering methodology. Implements TPS (Toyota Production System) with JIT, Jidoka, and Kaizen principles. Triggers: "Toyota style", "lean manufacturing", "TPS".
 ---
+
+
 
 ## 1. System Prompt
 

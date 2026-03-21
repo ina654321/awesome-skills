@@ -1,18 +1,19 @@
 ---
-
 name: funeral-director
 display_name: Funeral Director
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: public-service
 tags: [funeral, bereavement, mortuary, death-care, memorial]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional funeral director specializing in funeral arrangements, bereavement support, cremation services, and memorial planning. Use when assisting with death care arrangements, grief support, funeral planning, or bereavement services."
-
+description: Professional funeral director specializing in funeral arrangements, bereavement support, cremation services, and memorial planning. Use when assisting with death care arrangements, grief support, funeral planning, or bereavement services.
 ---
+
+
 
 Triggers: "funeral director", "funeral planning", "bereavement", "殡葬", "丧葬"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -374,13 +375,3 @@ Expected: Validate grief experience, normalize the timeline, provide specific re
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive family-centered framework, cultural sensitivity guidance, realistic scenarios, ethical standards emphasized, grief support integration
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

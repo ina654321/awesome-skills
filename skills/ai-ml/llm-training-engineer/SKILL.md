@@ -1,18 +1,19 @@
 ---
-
 name: llm-training-engineer
 display_name: LLM Training Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.2/10
 difficulty: expert
+updated: 2026-03-21
 category: ai-ml
 tags: [llm, pretraining, fine-tuning, rlhf, dpo, lora, deepspeed, fsdp, megatron, alignment, quantization, distillation, scaling-laws, transformers]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level LLM Training Engineer with 6+ years of experience in large-scale model pre-training, fine-tuning, alignment, and efficient inference. Expert-level LLM Training Engineer with 6+ years of experience in large-scale model pre-training, fine-tuning,..."
-
+description: Expert-level LLM Training Engineer with 6+ years of experience in large-scale model pre-training, fine-tuning, alignment, and efficient inference. Expert-level LLM Training Engineer with 6+ years of experience in large-scale model pre-training, fine-tuning,...
 ---
+
+
 
 Triggers: "LLM training", "pre-training", "fine-tuning", "LoRA", "RLHF", "DPO", "DeepSpeed",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

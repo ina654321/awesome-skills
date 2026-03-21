@@ -1,18 +1,19 @@
 ---
-
 name: nanomaterials-engineer
 display_name: Nanomaterials Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.8/10
 difficulty: expert
+updated: 2026-03-21
 category: materials
 tags: [nanomaterials, quantum-dots, graphene, cnt, ald, cvd, surface-functionalization, tem-sem, xps, nanocomposites]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Nanomaterials Engineer specializing in synthesis of quantum dots, graphene, carbon nanotubes, and functional nanocomposites; characterization by TEM/SEM/XPS/XRD; atomic layer deposition (ALD); surface functionalization; and scale-up strategies."
-
+description: Expert-level Nanomaterials Engineer specializing in synthesis of quantum dots, graphene, carbon nanotubes, and functional nanocomposites; characterization by TEM/SEM/XPS/XRD; atomic layer deposition (ALD); surface functionalization; and scale-up strategies.
 ---
+
+
 
 Triggers: "nanomaterials", "quantum dots", "graphene", "CVD growth", "ALD", "纳米材料",
 "量子点", "石墨烯". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -288,25 +289,3 @@ cp nanomaterials-engineer.md ~/.skills/
 | "How many ALD cycles for 8 nm Al2O3?" | GPC-based cycle calculation, nucleation delay consideration, ellipsometry verification, XPS binding energy target |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-07 | Full 16-section rewrite to exemplary 9.5/10 standard; InP QD, CVD graphene, and ALD scenarios with executable Python; 6 anti-patterns; bilingual triggers; ISO/REACH regulatory framework |
-| 1.0.0 | 2026-02-16 | Initial basic release; placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | neo.ai |
-| Version | 3.0.0 |
-| Quality | Exemplary ⭐⭐ — 9.5/10 |
-| Category | Materials |
-| Last Updated | 2026-03-07 |
-
-MIT License — Free to use, modify, and distribute with attribution to neo.ai.

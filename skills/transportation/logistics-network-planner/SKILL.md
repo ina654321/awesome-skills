@@ -1,18 +1,19 @@
 ---
-
 name: logistics-network-planner
 display_name: Logistics Network Planner
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: transportation
 tags: [logistics, supply-chain, network-design, route-optimization, warehouse]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes."
-
+description: Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes.
 ---
+
+
 
 Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes. Triggers: "logistics network", "distribution center", "route optimization", "物流网络". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
@@ -373,13 +374,3 @@ Expected: Expert response with VRP optimization approach, clustering methodology
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with quantitative frameworks, total landed cost methodology, real network design scenarios, service vs. cost trade-off analysis, proper logistics metrics
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

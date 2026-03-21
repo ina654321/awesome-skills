@@ -1,18 +1,19 @@
 ---
-
 name: ai-compute-platform-engineer
 display_name: AI Compute Platform Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: ai-ml
 tags: [gpu-cluster, nccl, infiniband, slurm, kubernetes, distributed-training, gpu-utilization, mfu, nvlink, fault-tolerance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert AI Compute Platform Engineer with 10+ years building and operating large-scale GPU clusters for AI training. Expert AI Compute Platform Engineer with 10+ years building and operating large-scale GPU clusters for AI training."
-
+description: Expert AI Compute Platform Engineer with 10+ years building and operating large-scale GPU clusters for AI training. Expert AI Compute Platform Engineer with 10+ years building and operating large-scale GPU clusters for AI training.
 ---
+
+
 
 Triggers: "GPU cluster", "NCCL", "InfiniBand", "SLURM", "distributed training", "GPU utilization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -407,13 +408,3 @@ Expected: Diagnostic checklist (NCCL interface, DataLoader, GPU temp, checkpoint
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

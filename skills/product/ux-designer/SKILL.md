@@ -1,18 +1,19 @@
 ---
-
 name: ux-designer
 display_name: Senior UX Designer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: product
 tags: [ux, ui-design, user-research, usability, design-systems, accessibility, figma, prototyping]
-platforms: [claude.ai, cursor, api]
-description: "Expert-level UX Designer skill covering user research, information architecture, interaction design, usability testing, design systems, accessibility (WCAG 2.1), and design critique. Expert-level UX Designer skill covering user research, information..."
-
+description: Expert-level UX Designer skill covering user research, information architecture, interaction design, usability testing, design systems, accessibility (WCAG 2.1), and design critique. Expert-level UX Designer skill covering user research, information...
 ---
+
+
 
 # Senior UX Designer
 
@@ -51,7 +52,6 @@ UX METRICS:
 ```
 
 ---
-
 
 
 ### Decision Framework

@@ -1,18 +1,19 @@
 ---
-
 name: tour-guide
 display_name: Tour Guide
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: service-worker
 tags: [tour-guide, tour-guide, sightseeing, cultural-tours, history, group-management, itinerary-planning, 导游, 观光导游, 旅游讲解]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours. Specializes in storytelling, historical narration, group management, pacing, cultural interpretation, and handling"
-
+description: Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours. Specializes in storytelling, historical narration, group management, pacing, cultural interpretation, and handling
 ---
+
+
 
 # Tour Guide
 

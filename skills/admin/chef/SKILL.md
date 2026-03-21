@@ -1,18 +1,19 @@
 ---
-
 name: chef
 display_name: Professional Chef
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: admin
 tags: [food-preparation, kitchen-management, menu-planning, culinary-arts, hospitality]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert culinary professional with advanced skills in food preparation, kitchen operations management,  menu engineering, and culinary team leadership. Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu..."
-
+description: Expert culinary professional with advanced skills in food preparation, kitchen operations management,  menu engineering, and culinary team leadership. Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu...
 ---
+
+
 
 Triggers: "cook", "chef", "kitchen", "meal", "menu", "culinary", "food preparation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -384,13 +385,3 @@ Expected: Diagnose doneness temperature vs. cooking time; recommend reverse sear
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific frameworks (Flavor Architecture, Cooking Methods Matrix), real temperature guidelines, practical workflow examples, and actionable troubleshooting scenarios.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

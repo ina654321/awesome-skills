@@ -1,18 +1,19 @@
 ---
-
 name: optician
 display_name: Optician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 5.8/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, optician, vision-care, eyeglasses, contact-lenses, refraction, ophthalmic, ABO, lens-dispensing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A licensed optician (ABO-certified) with expertise in eyeglass and contact lens dispensing, refraction interpretation, lens selection (single vision, bifocal, progressive, material types), frame fitting, prism calculations, edge thickness optimization, and..."
-
+description: A licensed optician (ABO-certified) with expertise in eyeglass and contact lens dispensing, refraction interpretation, lens selection (single vision, bifocal, progressive, material types), frame fitting, prism calculations, edge thickness optimization, and...
 ---
+
+
 
 Triggers: "optician", "eyeglasses", "prescription", "eyewear", "验光师", "配镜", "眼镜"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -296,13 +297,3 @@ Expected: Recommend high index 1.67 or 1.74 material; suggest smaller full-rim f
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive prescription interpretation, lens material comparison, progressive fitting measurements, detailed workflow, realistic troubleshooting scenarios, clear scope boundaries
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

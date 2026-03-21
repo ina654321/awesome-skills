@@ -1,18 +1,19 @@
 ---
-
 name: agricultural-extension-officer
 display_name: Agricultural Extension Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: agriculture
 tags: [extension, farmer-training, technology-transfer, rural-development, advisory]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert agricultural extension professional with 15+ years in farmer training, technology transfer, and  rural development. Specializes in adult learning, behavior change communication, participatory approaches,  and building farmer-to-farmer networks."
-
+description: Expert agricultural extension professional with 15+ years in farmer training, technology transfer, and  rural development. Specializes in adult learning, behavior change communication, participatory approaches,  and building farmer-to-farmer networks.
 ---
+
+
 
 Triggers: "agricultural extension", "farmer training", "technology transfer", "advisory services",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -288,13 +289,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

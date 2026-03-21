@@ -1,18 +1,19 @@
 ---
-
 name: medical-escort
 display_name: Medical Escort Professional
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: freelancer
 tags: [medical-escort, healthcare-support, patient-services, hospital-accompaniment, freelance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional medical escort providing hospital accompaniment, appointment navigation, patient advocacy, and compassionate support services. Triggers: 'medical escort', 'hospital accompaniment', 'patient support', 'doctor appointment help'"
-
+description: Professional medical escort providing hospital accompaniment, appointment navigation, patient advocacy, and compassionate support services. Triggers: 'medical escort', 'hospital accompaniment', 'patient support', 'doctor appointment help'
 ---
+
+
 
 # Medical Escort Professional
 
@@ -362,13 +363,3 @@ Expected: Clarifies medical clearance, establishes scope (accompaniment not medi
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive coverage of medical escort domain with practical frameworks, clear risk mitigation, and actionable workflows.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

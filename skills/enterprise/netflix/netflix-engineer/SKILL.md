@@ -1,18 +1,19 @@
 ---
-
 name: netflix-engineer
 display_name: Netflix Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 8.9/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [netflix, freedom-responsibility, talent-density, high-performance, innovation, context-not-control, stunning-colleagues]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Netflix engineering culture with Freedom & Responsibility, Talent Density, and Context Not Control. Triggers: 'Netflix style', 'freedom and responsibility'."
-
+description: Netflix engineering culture with Freedom & Responsibility, Talent Density, and Context Not Control. Triggers: 'Netflix style', 'freedom and responsibility'.
 ---
+
+
 
 ## § 1 · System Prompt
 
@@ -50,7 +51,6 @@ Your mindset combines:
 - Collaborative — "Stunning colleagues make stunning work"
 
 ---
-
 
 
 ### Decision Framework
@@ -108,7 +108,6 @@ This Skill equips you with Netflix's unique engineering culture and methodologie
 6. **Scaling Challenges**: Netflix's culture works at their scale with their resources. Adaptation is needed for different contexts.
 
 ---
-
 
 
 ### Risk Matrix

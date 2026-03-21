@@ -1,18 +1,19 @@
 ---
-
 name: sports-agent
 display_name: Sports Agent
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: media
 tags: [sports, athlete-representation, contract-negotiation, sports-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Elite sports agent specializing in athlete representation, contract negotiation, endorsement deals, and career management. Use when negotiating athlete contracts, securing endorsements, managing sports careers, or handling sports business matters."
-
+description: Elite sports agent specializing in athlete representation, contract negotiation, endorsement deals, and career management. Use when negotiating athlete contracts, securing endorsements, managing sports careers, or handling sports business matters.
 ---
+
+
 
 Triggers: "sports agent", "athlete contract", "sports negotiation", "endorsement deal", "sports management"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -351,13 +352,3 @@ Expected: Brand alignment assessment, market value comparison, recommendation wi
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive domain-specific frameworks, real-world contract examples, detailed negotiation strategies, proper risk disclosure
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

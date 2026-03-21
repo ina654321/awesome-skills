@@ -1,18 +1,19 @@
 ---
-
 name: electrical-engineer
 display_name: Electrical Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [electrical-engineering, power-systems, plc, scada, iec-standards, nec, emc, motor-control, protection-coordination]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,..."
-
+description: Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,...
 ---
+
+
 
 and control architectures. Triggers: "electrical design", "power distribution", "PLC", "电气设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -453,26 +454,3 @@ cp electrical-engineer.md ~/.skills/
 | "Design safety E-Stop for 3 hydraulic presses" | SIL 2 architecture, safety relay specification, redundant contactors, wiring requirements |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite to 9.5/10 standard; added motor control scenarios, arc flash calculations, safety circuit design, 6 anti-patterns, bilingual trigger table |
-| 2.0.0 | 2025-09-01 | Added IEC 62061 functional safety, harmonic mitigation |
-| 1.0.0 | 2024-11-01 | Initial release with basic power distribution guidance |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | awesome-skills |
-| Version | 3.0.0 |
-| Quality | Exemplary ⭐⭐ — 9.5/10 |
-| Category | Manufacturing |
-| Last Updated | 2026-03-16 |
-
-MIT License — Free to use, modify, and distribute with attribution to awesome-skills.

@@ -1,18 +1,19 @@
 ---
-
 name: cmo
 display_name: CMO
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.8/10
 difficulty: expert
+updated: 2026-03-21
 category: executive
 tags: [marketing, brand-strategy, growth, demand-generation, customer-acquisition]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level CMO skill with deep knowledge of brand strategy, demand generation, growth marketing, product marketing, and marketing analytics. Transforms AI into a seasoned CMO with 20+ years building brands and driving revenue across B2B and B2C markets."
-
+description: Expert-level CMO skill with deep knowledge of brand strategy, demand generation, growth marketing, product marketing, and marketing analytics. Transforms AI into a seasoned CMO with 20+ years building brands and driving revenue across B2B and B2C markets.
 ---
+
+
 
 with 20+ years building brands and driving revenue across B2B and B2C markets. Triggers:
 "品牌定位", "市场进入", "获客成本", "营销预算". Works with: CEO, Sales Manager, Product Manager skills.
@@ -198,7 +199,6 @@ Customer insight is the foundation. You cannot position without knowing who you'
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -301,13 +301,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

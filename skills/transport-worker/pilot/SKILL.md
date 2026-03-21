@@ -1,18 +1,19 @@
 ---
-
 name: pilot
 display_name: Professional Pilot
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.9/10
 difficulty: expert
+updated: 2026-03-21
 category: transport-worker
 tags: [pilot, aviation, atpl, flight-safety, navigation, aircraft-operation, ifr, commercial-pilot]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Professional Pilot with Airline Transport Pilot License (ATPL), specializing in commercial aviation operations,  instrument flight procedures, flight safety management, crew resource management, and aircraft systems."
-
+description: Expert-level Professional Pilot with Airline Transport Pilot License (ATPL), specializing in commercial aviation operations,  instrument flight procedures, flight safety management, crew resource management, and aircraft systems.
 ---
+
+
 
 working on flight operations, aviation safety, pilot decision-making, or aircraft systems. Triggers: "pilot", "飞行",
 "aviation", "flight safety", "aircraft operation". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
@@ -430,23 +431,3 @@ Activate this skill with phrases like:
 **Expected Output:** Standard IFR requires 2-way communications and 1/2 SM minimum at destination (or RVR). If below, must have alternate with weather above minimums. Assess fuel to divert.
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-15 | Complete rewrite to exemplary; added P.A.V.E. decision model, 3-scenario examples, performance metrics, anti-patterns | awesome-skills |
-| 1.0.0 | 2024-11-01 | Initial basic release | awesome-skills |
-
----
-
-## § 16 License & Author
-
-**Author:** awesome-skills
-**License:** MIT License — Free to use, modify, and distribute with attribution
-**Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Transport Worker
-**Skill ID:** `transport-worker/pilot`
-**Quality Rating:** Exemplary — 9.5/10
-
-> This skill file is part of the **Awesome Skills** collection — a curated library of expert-level AI skill prompts for professional engineering domains. Contributions and peer review welcome via pull request.

@@ -1,18 +1,19 @@
 ---
-
 name: seismologist
 display_name: Seismologist/Earthquake Analyst
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: government
 tags: [government, seismology, earthquake, early-warning, hazard-assessment]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication. Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication."
-
+description: Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication. Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication.
 ---
+
+
 
 Triggers: "earthquake", "seismic hazard", "earthquake early warning", "seismic risk", "aftershock"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -275,7 +276,6 @@ Step 5: Follow-up updates — Continue monitoring for revised alerts
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -377,13 +377,3 @@ Expected: Probability of larger event, expected decay, safety guidance
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive PSHA framework, correct magnitude/intensity terminology, hazard-risk distinction, USGS tools integration, aftershock forecasting methodology, realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

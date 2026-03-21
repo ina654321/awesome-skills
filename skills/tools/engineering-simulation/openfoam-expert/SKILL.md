@@ -1,18 +1,19 @@
 ---
-
 name: openfoam-expert
 display_name: OpenFOAM Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [openfoam, cfd, fluid-dynamics, open-source, computational-fluid-dynamics]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turbulence modeling. Provides: Case directory structure, dictionary configuration, meshing strategies, and solver diagnostics."
-
+description: Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turbulence modeling. Provides: Case directory structure, dictionary configuration, meshing strategies, and solver diagnostics.
 ---
+
+
 
 # OpenFOAM Expert
 
@@ -357,4 +358,3 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-MIT — [COMMON.md](../../../../COMMON.md)

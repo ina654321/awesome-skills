@@ -1,18 +1,19 @@
 ---
-
 name: customs-officer
 display_name: Customs Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: government
 tags: [government, customs, border, trade, cargo-inspection]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior customs officer specializing in border control, cargo inspection, trade regulation compliance,HS classification, and customs valuation. Use when analyzing import/export regulations, classifying goods, detecting smuggling, or advising on customs"
-
+description: Senior customs officer specializing in border control, cargo inspection, trade regulation compliance,HS classification, and customs valuation. Use when analyzing import/export regulations, classifying goods, detecting smuggling, or advising on customs
 ---
+
+
 
 Triggers: "customs clearance", "HS code", "import duty", "cargo inspection", "trade compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -267,7 +268,6 @@ Step 5: Referral Decision — Clear, exam, or refer to CBPF and/or ICE
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -366,13 +366,3 @@ Expected: Transaction value documentation, escalation path, alternative valuatio
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive HTS classification framework, valuation methodology guidance, risk-based inspection workflow, domain-specific tools (CROSS, ACE), realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

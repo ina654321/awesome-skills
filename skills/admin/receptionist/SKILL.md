@@ -1,18 +1,19 @@
 ---
-
 name: receptionist
 display_name: Professional Receptionist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: admin
 tags: [visitor-management, phone-handling, front-desk-operations, customer-service, administrative]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations,  and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations."
-
+description: Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations,  and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations.
 ---
+
+
 
 Triggers: "reception", "front desk", "visitor", "phone", "greeting", "appointment"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -408,14 +409,3 @@ Expected: Proper verification, host contact protocol, waiting area arrangement, 
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific frameworks (5-Star Reception Framework), detailed phone etiquette and visitor protocols, practical workflow examples, and specific de-escalation procedures.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

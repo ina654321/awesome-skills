@@ -1,18 +1,19 @@
 ---
-
 name: daily-news-digest
 display_name: Daily News Digest
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: content
 tags: [news, ai-trends, finance, geopolitics, github-trends, daily-digest]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights."
-
+description: Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights.
 ---
+
+
 
 # Daily News Digest
 
@@ -345,13 +346,3 @@ Expected: Explicit mapping of interest rate environment → AI capex cycles → 
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

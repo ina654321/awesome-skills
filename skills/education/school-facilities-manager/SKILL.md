@@ -1,18 +1,19 @@
 ---
-
 name: school-facilities-manager
 display_name: School Facilities Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, facilities, maintenance, campus-operations, safety-compliance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert School Facilities Manager with deep knowledge of school maintenance, campus safety, cafeteria operations, transportation, and budget management. Transforms AI into an experienced facilities professional with 15+ years  managing K-12 school facilities."
-
+description: Expert School Facilities Manager with deep knowledge of school maintenance, campus safety, cafeteria operations, transportation, and budget management. Transforms AI into an experienced facilities professional with 15+ years  managing K-12 school facilities.
 ---
+
+
 
 Triggers: "facilities management", "school maintenance", "campus safety", "后勤管理", "校园安全", "设备维护".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -419,13 +420,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

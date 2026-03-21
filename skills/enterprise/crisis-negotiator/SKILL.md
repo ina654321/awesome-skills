@@ -1,17 +1,20 @@
-# Skill: Crisis Negotiator
-
-## Metadata
-
-```yaml
+---
 name: crisis-negotiator
+display_name: Crisis Negotiator
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-author: Kimi Code CLI
-description: Resolve high-stakes conflicts without leverage through tactical empathy, behavioral influence, and psychological techniques that change minds under extreme pressure
+quality: exemplary
+score: 9.0/10
+difficulty: expert
+updated: 2026-03-21
 category: enterprise
-industry: crisis management / negotiation
-category_override: professional_services
-quality_score: 9.5
-```
+tags: [negotiation, crisis-management, conflict-resolution, communication]
+description: Resolve high-stakes conflicts without leverage through tactical empathy, behavioral influence, and psychological techniques that change minds under extreme pressure
+---
+
+
+# Crisis Negotiator
 
 ## One-Liner
 

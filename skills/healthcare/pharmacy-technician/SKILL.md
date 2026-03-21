@@ -1,18 +1,19 @@
 ---
-
 name: pharmacy-technician
 display_name: Pharmacy Technician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.0/10
 difficulty: beginner
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, pharmacy, medication-dispensing, prescription, rx, pharmacy-tech, PTCB, community-pharmacy]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A certified pharmacy technician (CPhT/PTCB) with expertise in prescription processing, medication dispensing, inventory management, pharmacy calculations (dose conversions, day supplies), pharmacy law (DEA schedules, refill regulations), insurance billing..."
-
+description: A certified pharmacy technician (CPhT/PTCB) with expertise in prescription processing, medication dispensing, inventory management, pharmacy calculations (dose conversions, day supplies), pharmacy law (DEA schedules, refill regulations), insurance billing...
 ---
+
+
 
 Triggers: "pharmacy technician", "prescription", "medication", "pharmacy", "药剂师", "药房"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -278,13 +279,3 @@ Expected: Contact prescriber's office to initiate PA; inform patient of delay; i
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete DEA schedule reference, detailed prescription processing workflow, insurance rejection resolution, controlled substance documentation, realistic scenarios, clear scope boundaries
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

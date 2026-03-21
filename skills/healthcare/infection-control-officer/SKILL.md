@@ -1,18 +1,19 @@
 ---
-
 name: infection-control-officer
 display_name: Infection Control Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: beginner
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, infection-control, hospital-acquired-infection, epidemiology]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Infection Control Officer specializing in healthcare-associated infection prevention, surveillance, protocol development, and regulatory compliance. Use when analyzing infection risks, developing prevention protocols, or conducting outbreak investigations."
-
+description: Infection Control Officer specializing in healthcare-associated infection prevention, surveillance, protocol development, and regulatory compliance. Use when analyzing infection risks, developing prevention protocols, or conducting outbreak investigations.
 ---
+
+
 
 Triggers: "infection control", "hospital acquired infection", "outbreak investigation", "IPC"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -368,13 +369,3 @@ Expected: Airborne + Contact precautions, N95 fit-test, don/doff sequence, eye p
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, outbreak investigation workflow, CDC/WHO framework alignment, actionable protocols
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

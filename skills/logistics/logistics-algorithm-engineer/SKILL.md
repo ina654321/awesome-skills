@@ -1,18 +1,19 @@
 ---
-
 name: logistics-algorithm-engineer
 display_name: Logistics Algorithm Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.6/10
 difficulty: expert
+updated: 2026-03-21
 category: logistics
 tags: [logistics, optimization, VRP, supply-chain, operations-research, routing, warehouse, OR-Tools, Gurobi, metaheuristics, last-mile, network-design]
-platforms: [claude.ai, api, claude-code, cursor, cline, opencode, openclaw]
-description: "A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse optimization, facility location, network design, and real-time dispatch. A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse..."
-
+description: A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse optimization, facility location, network design, and real-time dispatch. A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse...
 ---
+
+
 
 logistics. Works with: Claude Code, Cursor, Cline for algorithm development.
 
@@ -449,47 +450,3 @@ Expected output:
 - Runtime <30 seconds on standard laptop
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 1.0.0 | 2026-02-16 | Initial template-based release: basic VRP overview, solver table, placeholder sections | awesome-skills |
-| 2.0.0 | 2026-02-24 | Substantive technical upgrade: full OR-Tools CVRP code, warehouse slotting formulation, MILP network design formulation, common pitfalls list, metrics table | awesome-skills |
-| 3.0.0 | 2026-03-02 | Exemplary quality rewrite: full 16-section structure; 4-subsection system prompt with decision framework, thinking patterns, communication style; 6 specific capabilities with measurable outcomes; 6 domain-specific risks with severity; ASCII optimization pipeline diagram; 3 core principles; all 7 platforms with install commands; 11-tool expanded toolkit with OSRM, Kafka, Airflow, AnyLogic; algorithm complexity reference table; 5 performance metrics with formulas and targets; 3-phase workflow with pass/fail gates and code templates; 3 full scenario examples (VRPTW 500-stop, warehouse slotting QAP, stochastic facility location); 6 named anti-patterns with BAD/GOOD/why; 4 skill integrations; scope/limitations with alternatives; trigger words list; self-checklist + 3 test cases | neo.ai |
-
----
-
-## § 16 License and Author
-
-**Author**: neo.ai
-**Quality Tier**: Exemplary (9.5/10)
-**Category**: Logistics
-**Difficulty**: Expert
-
-**License**: MIT License with Attribution
-
-```
-MIT License
-
-Copyright (c) 2026 neo.ai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this skill and associated documentation files, to deal in the skill without
-restriction, including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the skill, and
-to permit persons to whom the skill is furnished to do so, subject to the
-following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the skill.
-
-THE SKILL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-
-Attribution: Please retain the author credit (neo.ai) when redistributing
-or building upon this skill.
-```
-
-Full license: [../../LICENSE](../../LICENSE)

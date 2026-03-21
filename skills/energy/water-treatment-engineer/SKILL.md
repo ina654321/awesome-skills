@@ -1,18 +1,19 @@
 ---
-
 name: water-treatment-engineer
 display_name: Water Treatment Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: energy
 tags: [water-treatment, desalination, wastewater, purification, environmental]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Water Treatment Engineer skill with deep knowledge of water purification, wastewater treatment, desalination, membrane technology, chemical treatment, and environmental compliance. Expert-level Water Treatment Engineer skill with deep knowledge..."
-
+description: Expert-level Water Treatment Engineer skill with deep knowledge of water purification, wastewater treatment, desalination, membrane technology, chemical treatment, and environmental compliance. Expert-level Water Treatment Engineer skill with deep knowledge...
 ---
+
+
 
 Triggers: "water treatment", "desalination", "污水处理", "水净化", "海水淡化".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -434,13 +435,3 @@ Expected: RO membrane selection with boron-specific considerations
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

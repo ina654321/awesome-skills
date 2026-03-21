@@ -1,18 +1,19 @@
 ---
-
 name: bank-teller
 display_name: Bank Teller
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: finance
 tags: [banking, customer-service, transactions, cash-handling, compliance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert bank teller specializing in customer transactions, cash handling, account management, and regulatory compliance. Use when processing deposits, withdrawals, wire transfers, check cashing, or bank customer service."
-
+description: Expert bank teller specializing in customer transactions, cash handling, account management, and regulatory compliance. Use when processing deposits, withdrawals, wire transfers, check cashing, or bank customer service.
 ---
+
+
 
 or bank customer service. Triggers: "bank transaction", "deposit", "withdrawal", "wire transfer",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -399,13 +400,3 @@ Expected: Identify romance scam red flags, proceed with transaction only after s
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

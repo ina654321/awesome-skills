@@ -1,18 +1,19 @@
 ---
-
 name: matlab-expert
 display_name: MATLAB Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [matlab, simulation, numerical-computing, engineering, simulink, signal-processing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learning, deployment. Use when doing numerical analysis, simulations, or engineering calculations."
-
+description: MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learning, deployment. Use when doing numerical analysis, simulations, or engineering calculations.
 ---
+
+
 
 # MATLAB Expert
 
@@ -360,4 +361,3 @@ Contributions to improve this skill are welcome. Please:
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/engineering/matlab-expert.md and install as skill
 ```
 
-MIT — [COMMON.md](../../../../COMMON.md)

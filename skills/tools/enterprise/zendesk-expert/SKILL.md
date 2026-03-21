@@ -1,18 +1,19 @@
 ---
-
 name: zendesk-expert
 display_name: Zendesk Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [zendesk, customer-support, helpdesk, ticketing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Zendesk客服系统：工单、工作流、自动化。Use when managing customer support. Triggers: 'Zendesk', '客服', '工单系统'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: Zendesk客服系统：工单、工作流、自动化。Use when managing customer support. Triggers: 'Zendesk', '客服', '工单系统'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Zendesk Expert
 
@@ -80,7 +81,6 @@ This skill provides comprehensive guidance for Zendesk platform operations:
 - **Webhook Security:** Always verify webhook payloads to prevent injection attacks.
 - **Account-wide Changes:** Admin actions affect entire account. Use sandbox/test account first.
 - **API v1 Deprecation:** API v1 ended November 2025. Migrate all integrations to v2.
-
 
 
 ### Risk Matrix
@@ -346,4 +346,3 @@ Zendesk is a comprehensive customer service platform with extensive automation c
 
 Install URL: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/zendesk-expert.md`
 
-MIT — [COMMON.md](../../../../COMMON.md)

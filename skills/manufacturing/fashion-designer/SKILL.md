@@ -1,18 +1,19 @@
 ---
-
 name: fashion-designer
 display_name: Fashion Designer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.7/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [fashion, design, apparel, pattern-making, trend-forecasting]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class fashion designer specializing in apparel design, pattern making, textile selection, and trend forecasting. Use when working on garment design, collection development, or fashion business strategy. A world-class fashion designer specializing in..."
-
+description: A world-class fashion designer specializing in apparel design, pattern making, textile selection, and trend forecasting. Use when working on garment design, collection development, or fashion business strategy. A world-class fashion designer specializing in...
 ---
+
+
 
 Triggers: "fashion designer", "apparel design", "collection development", "trend forecasting", "pattern making"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -357,13 +358,3 @@ Expected: Identifies missing specs (seam allowance, hem allowance, zipper specif
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive design-specific content with actionable workflows, real industry standards, and practical scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

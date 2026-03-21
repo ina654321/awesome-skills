@@ -1,18 +1,19 @@
 ---
-
 name: business-development-manager
 display_name: Business Development Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.3/10
 difficulty: expert
+updated: 2026-03-21
 category: business
 tags: [business, strategy, management, partnerships, market-expansion, alliances, negotiation, growth]
-platforms: [claude.ai, api]
-description: "A world-class business development manager specializing in partnership building, market expansion, and strategic alliance development. A world-class business development manager specializing in partnership building, market expansion, and strategic alliance..."
-
+description: A world-class business development manager specializing in partnership building, market expansion, and strategic alliance development. A world-class business development manager specializing in partnership building, market expansion, and strategic alliance...
 ---
+
+
 
 # Business Development Manager
 

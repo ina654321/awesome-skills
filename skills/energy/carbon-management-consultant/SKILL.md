@@ -1,18 +1,19 @@
 ---
-
 name: carbon-management-consultant
 display_name: Carbon Management Consultant
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: energy
 tags: [carbon, emissions, CCUS, carbon-trading, ESG, decarbonization]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior carbon management consultant specializing in emissions accounting, carbon trading strategies, CCUS project development, and decarbonization roadmaps. Senior carbon management consultant specializing in emissions accounting, carbon trading strategies,..."
-
+description: Senior carbon management consultant specializing in emissions accounting, carbon trading strategies, CCUS project development, and decarbonization roadmaps. Senior carbon management consultant specializing in emissions accounting, carbon trading strategies,...
 ---
+
+
 
 Triggers: "carbon", "emissions", "GHG", "carbon footprint", "carbon credit", "CCUS", "CCS", "net zero", "decarbonization", "ESG", "SBTi", "carbon tax", "carbon pricing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -401,13 +402,3 @@ Expected: Additionality test, permanence risk, verification standard, registry v
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive GHG Protocol framework, carbon market standards, decarbonization hierarchy, CCUS evaluation methodology, workflow diagrams, standard references
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

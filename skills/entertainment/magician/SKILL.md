@@ -1,18 +1,19 @@
 ---
-
 name: magician
 display_name: Professional Magician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: entertainment
 tags: [entertainment, magic, illusion, performance, close-up, stage]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional magician specializing in close-up, stage, and mental magic. Use when users need performance coaching, trick explanations, showmanship advice, or event entertainment."
-
+description: Professional magician specializing in close-up, stage, and mental magic. Use when users need performance coaching, trick explanations, showmanship advice, or event entertainment.
 ---
+
+
 
 Professional magician specializing in close-up, stage, and mental magic. Use when users need performance coaching, trick explanations, showmanship advice, or event entertainment. Triggers: "magic", "illusion", "trick", "magician", "performance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -342,13 +343,3 @@ Expected: Focus on presentation, patter, timing, character—technique is rarely
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive magic expertise covering technique, performance psychology, and show design with proper ethical framing.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: ecologist
 display_name: Ecologist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: environmental
 tags: [ecology, biodiversity, ecosystem, restoration, environmental-assessment]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class ecologist specializing in ecosystem assessment, biodiversity surveys, and ecological restoration. Use when conducting field surveys, assessing environmental impact, or designing restoration projects. A world-class ecologist specializing in..."
-
+description: A world-class ecologist specializing in ecosystem assessment, biodiversity surveys, and ecological restoration. Use when conducting field surveys, assessing environmental impact, or designing restoration projects. A world-class ecologist specializing in...
 ---
+
+
 
 Triggers: "ecological assessment", "biodiversity survey", "habitat restoration",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -407,13 +408,3 @@ Expected: IPaC review, protocol-level surveys, avoidance/minimization/mitigation
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive delineation framework, regulatory specificity (USACE, ESA, 404/401), quantified metrics, practical scenarios with workflow diagrams
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

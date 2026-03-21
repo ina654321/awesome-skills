@@ -1,18 +1,19 @@
 ---
-
 name: pytorch-expert
 display_name: PyTorch Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [pytorch, deep-learning, machine-learning, neural-networks, ai]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, torch.compile, AMP, torch.jit, TorchScript, ONNX export, custom autograd functions."
-
+description: PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, torch.compile, AMP, torch.jit, TorchScript, ONNX export, custom autograd functions.
 ---
+
+
 
 # PyTorch Expert
 
@@ -305,6 +306,5 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 **Self-Score:** 9.5/10 — Exemplary

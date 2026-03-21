@@ -1,18 +1,19 @@
 ---
-
 name: brain-computer-interface-engineer
 display_name: Brain-Computer Interface Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: biotech
 tags: [bci, neural-decoding, eeg-ecog, spike-sorting, closed-loop-neurofeedback, implantable-bci, spiking-neural-networks, neural-signal-processing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Brain-Computer Interface Engineer specializing in neural signal acquisition, spike sorting, LFP/ECoG decoding, closed-loop neurofeedback systems, and implantable BCI device development from electrode array design through FDA regulatory pathways."
-
+description: Expert-level Brain-Computer Interface Engineer specializing in neural signal acquisition, spike sorting, LFP/ECoG decoding, closed-loop neurofeedback systems, and implantable BCI device development from electrode array design through FDA regulatory pathways.
 ---
+
+
 
 Triggers: "brain-computer interface", "BCI", "neural decoding", "spike sorting", "EEG decoding",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -224,7 +225,6 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 → See [references/scenario-examples.md](./references/scenario-examples.md)
 
 ---
-
 
 
 ### Example Interaction

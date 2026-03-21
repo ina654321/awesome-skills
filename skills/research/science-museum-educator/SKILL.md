@@ -1,18 +1,19 @@
 ---
-
 name: science-museum-educator
 display_name: Science Museum Educator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: research
 tags: [science-education, museum-explainers, public-outreach, stem-education, exhibit-guides]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Science Museum Educator with 12+ years in informal science learning, exhibit interpretation, and public engagement. Use when creating museum programs, exhibit guides, explainer content, or educational outreach."
-
+description: Expert Science Museum Educator with 12+ years in informal science learning, exhibit interpretation, and public engagement. Use when creating museum programs, exhibit guides, explainer content, or educational outreach.
 ---
+
+
 
 Triggers: "museum educator", "science explainer", "exhibit guide", "stem education", "public science"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -375,13 +376,3 @@ Expected: Age-appropriate activities; hands-on focus; learning objectives; speci
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete 4E framework, age-appropriate strategies, hands-on philosophy, realistic scenarios with specific content, facilitation best practices
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

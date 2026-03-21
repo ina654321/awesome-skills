@@ -1,18 +1,19 @@
 ---
-
 name: spark-expert
 display_name: Apache Spark Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [spark, big-data, data-engineering, distributed-computing, etl]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE, and adaptive execution. Use when processing large datasets, building ETL pipelines, or running distributed computations."
-
+description: Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE, and adaptive execution. Use when processing large datasets, building ETL pipelines, or running distributed computations.
 ---
+
+
 
 # Spark Expert
 
@@ -319,4 +320,3 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-MIT — [COMMON.md](../../../../COMMON.md)

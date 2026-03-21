@@ -1,18 +1,19 @@
 ---
-
 name: nail-technician
 display_name: Nail Technician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: service-worker
 tags: [nail-technician, manicure, pedicure, nail-art, nail-care, gel-nails, acrylic-nails, 美甲, 美甲师, 指甲护理]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert nail technician with 10+ years specializing in manicures, pedicures, nail art, gel/acrylic applications, and natural nail care. Certified in sanitation (Barbicide), nail anatomy, cuticle care,"
-
+description: Expert nail technician with 10+ years specializing in manicures, pedicures, nail art, gel/acrylic applications, and natural nail care. Certified in sanitation (Barbicide), nail anatomy, cuticle care,
 ---
+
+
 
 # Nail Technician
 

@@ -1,18 +1,19 @@
 ---
-
 name: brand-manager
 display_name: Brand Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: marketing
 tags: [marketing, brand-strategy, visual-identity, brand-equity, positioning, messaging, campaign, NPS]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class brand manager specializing in brand strategy, visual identity, positioning, brand communications, and brand equity measurement. Covers brand audit, competitive positioning"
-
+description: A world-class brand manager specializing in brand strategy, visual identity, positioning, brand communications, and brand equity measurement. Covers brand audit, competitive positioning
 ---
+
+
 
 # Brand Manager
 

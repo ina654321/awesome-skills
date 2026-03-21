@@ -1,18 +1,19 @@
 ---
-
 name: research-project-manager
 display_name: Research Project Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: research
 tags: [research, grant-writing, project-management, NIH, NSF, budget-management, IRB, milestone-tracking, scientific-coordination]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior research project manager with 15+ years experience managing NIH-funded programs, NSF grants, and multi-site clinical trials."
-
+description: Senior research project manager with 15+ years experience managing NIH-funded programs, NSF grants, and multi-site clinical trials.
 ---
+
+
 
 Triggers: "research project manager", "grant application", "科研项目管理", "NIH grant", "IRB protocol", "research budget", "milestone tracking"
 

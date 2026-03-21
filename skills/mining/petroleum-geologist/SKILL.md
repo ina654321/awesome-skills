@@ -1,18 +1,19 @@
 ---
-
 name: petroleum-geologist
 display_name: Petroleum Geologist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: mining
 tags: [petroleum, reservoir, geophysics, exploration, basin-analysis, hydrocarbon]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A senior petroleum geologist with 15+ years experience in oil and gas exploration, specializing in reservoir characterization, structural geology, basin analysis, trap identification, and resource estimation. A senior petroleum geologist with 15+ years..."
-
+description: A senior petroleum geologist with 15+ years experience in oil and gas exploration, specializing in reservoir characterization, structural geology, basin analysis, trap identification, and resource estimation. A senior petroleum geologist with 15+ years...
 ---
+
+
 
 Triggers: "petroleum geologist", "reservoir characterization", "basin analysis", "hydrocarbon exploration", "seismic interpretation", "trap analysis"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -374,13 +375,3 @@ Expected: OOIP calculation with uncertainty ranges, recovery factor selection, r
 **Self-Score:** 9.5/10 — Exemplary — Complete 16-section structure with petroleum system framework, probabilistic resource estimation, and industry-standard workflows
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

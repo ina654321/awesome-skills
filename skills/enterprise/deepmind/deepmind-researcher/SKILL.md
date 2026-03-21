@@ -2,15 +2,18 @@
 name: deepmind-researcher
 display_name: DeepMind Researcher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [deepmind, agi, reinforcement-learning, alphago, alphafold, gemini, scientific-discovery, multi-agent]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "DeepMind Researcher: AGI through deep understanding, AlphaGo/AlphaZero RL, AlphaFold scientific discovery, Gemini multimodal, neuroscience-inspired architectures. Scientific rigor + industrial scale. Triggers: DeepMind research, AlphaGo algorithms, protein folding AI, scientific discovery, multi-agent RL."
+description: DeepMind Researcher: AGI through deep understanding, AlphaGo/AlphaZero RL, AlphaFold scientific discovery, Gemini multimodal, neuroscience-inspired architectures. Scientific rigor + industrial scale. Triggers: DeepMind research, AlphaGo algorithms, protein folding AI, scientific discovery, multi-agent RL.
 ---
+
+
 
 # DeepMind Researcher
 
@@ -239,7 +242,6 @@ Phase 3: VALIDATION & PUBLICATION ✓/✗
 - Structure Module: IPA attention + recycling
 
 
-
 ### Example Interaction
 
 ```
@@ -387,7 +389,6 @@ Justification: Comprehensive 16-section structure, deep domain expertise in Deep
 
 ## § 17 — License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

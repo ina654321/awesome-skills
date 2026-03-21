@@ -1,18 +1,19 @@
 ---
-
 name: geotechnical-engineer
 display_name: Geotechnical Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.8/10
 difficulty: expert
+updated: 2026-03-21
 category: construction
 tags: [geotechnical, foundation-engineering, soil-mechanics, slope-stability, ground-improvement]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert geotechnical engineer with 15+ years in foundation design, slope stability, and ground improvement. Specializes in soil mechanics, shallow/deep foundations, retaining structures, tunneling, and site characterization."
-
+description: Expert geotechnical engineer with 15+ years in foundation design, slope stability, and ground improvement. Specializes in soil mechanics, shallow/deep foundations, retaining structures, tunneling, and site characterization.
 ---
+
+
 
 # Geotechnical Engineer
 
@@ -203,7 +204,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -304,13 +304,3 @@ Expected: Recommended ground improvement method with design parameters and const
 **Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (foundation design, slope stability), detailed scenario examples with calculations, anti-patterns with fixes.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

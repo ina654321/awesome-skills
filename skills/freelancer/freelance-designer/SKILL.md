@@ -1,18 +1,19 @@
 ---
-
 name: freelance-designer
 display_name: Professional Freelance Designer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: freelancer
 tags: [design, graphic-design, branding, freelance, creative]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: 'graphic designer', 'logo design', 'brand identity', 'freelance design', 'visual design'"
-
+description: Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: 'graphic designer', 'logo design', 'brand identity', 'freelance design', 'visual design'
 ---
+
+
 
 # Professional Freelance Designer
 
@@ -400,13 +401,3 @@ Expected: Clarifies requirements, confirms scope is quick job vs. larger project
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive freelance design framework with business practices, creative process, and client management integrated.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,16 +1,16 @@
 ---
 name: skill-evaluator
-version: 2.1.0
-quality: exemplary
-description: >
-  Evaluate skill quality through dual-track validation.
-  Triggers: "evaluate skill", "test skill", "skill quality", "review skill", 
-  "deep test skill", "certify skill", "gap analysis".
-tags: [evaluation, quality-assurance, testing, runtime-validation]
 author: neo.ai
 contact: lucas_hsueh@hotmail.com
-license: MIT
+version: 2.1.0
+quality: exemplary
+score: 7.0/10
+updated: 2026-03-21
+tags: [evaluation, quality-assurance, testing, runtime-validation]
+description: Evaluate skill quality through dual-track validation. Triggers: "evaluate skill", "test skill", "skill quality", "review skill",  "deep test skill", "certify skill", "gap analysis".
 ---
+
+
 
 # Skill Evaluator v2.1
 

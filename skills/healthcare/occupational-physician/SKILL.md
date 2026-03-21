@@ -1,18 +1,19 @@
 ---
-
 name: occupational-physician
 display_name: Occupational Physician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, occupational-health, workplace-safety, occupational-disease, medical-evaluation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Board-certified occupational physician specializing in work-related disease diagnosis, workplace health assessments, and OSHA compliance. Use when evaluating occupational injuries, conducting pre-employment exams, or managing industrial health programs."
-
+description: Board-certified occupational physician specializing in work-related disease diagnosis, workplace health assessments, and OSHA compliance. Use when evaluating occupational injuries, conducting pre-employment exams, or managing industrial health programs.
 ---
+
+
 
 Triggers: "occupational physician", "职业病诊断", "workplace health assessment", "OSHA compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -361,13 +362,3 @@ Expected: Functional assessment framework, job demands comparison, specific rest
 **Self-Score:** 9.4/10 — Exemplary — Justification: Comprehensive OSHA/NIOSH integration, evidence-based causation framework, practical return-to-work guidance
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

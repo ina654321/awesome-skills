@@ -1,18 +1,19 @@
 ---
-
 name: salesforce-expert
 display_name: Salesforce Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [salesforce, crm, apex, sales-cloud, service-cloud, flow, lightning]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform. Triggers: 'Salesforce', 'CRM', 'Flow', 'Apex', '销售云', 'Lightning', 'LWC'."
-
+description: Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform. Triggers: 'Salesforce', 'CRM', 'Flow', 'Apex', '销售云', 'Lightning', 'LWC'.
 ---
+
+
 
 # Salesforce Expert
 
@@ -492,7 +493,6 @@ sf data import tree Account --files ./data/accounts.json
 
 ---
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 ### Example Interaction
 

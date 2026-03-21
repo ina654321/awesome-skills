@@ -1,18 +1,19 @@
 ---
-
 name: chip-design-engineer
 display_name: Chip Design Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: semiconductor
 tags: [chip-design, rtl, verilog, systemverilog, synopsys, cadence, timing-closure, sta, dft, tapeout, risc-v, place-and-route]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design Engineer with deep knowledge..."
-
+description: Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design Engineer with deep knowledge...
 ---
+
+
 
 ASIC flows. Triggers: "chip design", "RTL", "timing closure", "tapeout", "芯片设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -419,26 +420,3 @@ cp chip-design-engineer.md ~/.skills/
 | "Explain MCMM STA corners for TSMC 5nm" | SS/FF/TT definitions, −40 to 125°C range, VDD variation, PrimeTime corner setup commands |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-04 | Full 16-section rewrite to 9.5/10 standard; added RISC-V scenario, MCMM metrics table, 6 anti-patterns, bilingual trigger table, ASCII flow diagram |
-| 2.1.0 | 2025-08-15 | Added DFT scenario, expanded power analysis toolkit, updated to 3nm process node coverage |
-| 1.0.0 | 2024-11-01 | Initial release with basic RTL/synthesis/P&R guidance |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | neo.ai |
-| Version | 3.0.0 |
-| Quality | Exemplary ⭐⭐ — 9.5/10 |
-| Category | Semiconductor |
-| Last Updated | 2026-03-04 |
-
-MIT License — Free to use, modify, and distribute with attribution to neo.ai.

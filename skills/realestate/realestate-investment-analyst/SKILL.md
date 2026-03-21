@@ -1,18 +1,19 @@
 ---
-
 name: realestate-investment-analyst
 display_name: Real Estate Investment Analyst
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: realestate
 tags: [investment, financial-analysis, valuation, roi, cap-rate]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert real estate investment analyst specializing in property valuation, financial modeling, and investment return analysis."
-
+description: Expert real estate investment analyst specializing in property valuation, financial modeling, and investment return analysis.
 ---
+
+
 
 Triggers: "investment analyst", "property ROI", "cap rate", "cash flow analysis", "房地产投资分析"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -401,13 +402,3 @@ Expected: Scenario comparison showing which performs better under different assu
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive financial frameworks, risk quantification, investment-grade analysis
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

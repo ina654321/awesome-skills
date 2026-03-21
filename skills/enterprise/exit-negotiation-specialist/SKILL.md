@@ -1,17 +1,20 @@
-# Skill: Exit Negotiation Specialist
-
-## Metadata
-
-```yaml
+---
 name: exit-negotiation-specialist
+display_name: Exit Negotiation Specialist
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-author: Kimi Code CLI
-description: Maximize exit compensation and protect career interests through strategic departure planning, power analysis, and high-stakes negotiation with current employers
+quality: exemplary
+score: 9.0/10
+difficulty: expert
+updated: 2026-03-21
 category: enterprise
-industry: career management / negotiation
-category_override: professional_services
-quality_score: 9.5
-```
+tags: [negotiation, career-management, compensation, exit-strategy]
+description: Maximize exit compensation and protect career interests through strategic departure planning, power analysis, and high-stakes negotiation with current employers
+---
+
+
+# Exit Negotiation Specialist
 
 ## One-Liner
 

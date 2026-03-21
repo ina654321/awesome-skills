@@ -1,18 +1,19 @@
 ---
-
 name: security-engineer
 display_name: Security Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: software
 tags: [security, appsec, penetration-testing, zero-trust, devsecops, cloud-security, compliance, threat-modeling]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Security Engineer skill with deep knowledge of application security, cloud security, penetration testing, incident response, Zero Trust architecture, and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS)."
-
+description: Expert-level Security Engineer skill with deep knowledge of application security, cloud security, penetration testing, incident response, Zero Trust architecture, and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS).
 ---
+
+
 
 Triggers: "security review", "penetration test", "threat model", "OWASP", "SAST", "cloud security",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -205,7 +206,6 @@ Each layer is independent; a breach of one layer should not grant access to anot
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -304,14 +304,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

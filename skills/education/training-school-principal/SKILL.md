@@ -1,18 +1,19 @@
 ---
-
 name: training-school-principal
 display_name: Training School Principal
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [education, training-center, school-management, operations, business-development, edtech]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Training School Principal with deep knowledge of educational operations, business development, instructor management, curriculum oversight, and regulatory compliance for private training institutions. Expert Training School Principal with deep..."
-
+description: Expert Training School Principal with deep knowledge of educational operations, business development, instructor management, curriculum oversight, and regulatory compliance for private training institutions. Expert Training School Principal with deep...
 ---
+
+
 
 businesses. Triggers: "training school principal", "education director", "培训校长", "机构管理". Works with:
 
@@ -429,13 +430,3 @@ Expected:
 - Never: use student tuition funds for operations (illegal in many jurisdictions)
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

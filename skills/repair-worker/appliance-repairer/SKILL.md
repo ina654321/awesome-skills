@@ -1,18 +1,19 @@
 ---
-
 name: appliance-repairer
 display_name: Appliance Repairer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.8/10
 difficulty: expert
+updated: 2026-03-21
 category: repair-worker
 tags: [appliance, refrigerator, washer, dryer, oven, dishwasher, HVAC, troubleshooting, electrical, mechanical]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert appliance repair technician specializing in major home appliances including refrigerators, washers, dryers, ovens, dishwashers, and HVAC systems. Use when diagnosing appliance failures, performing repairs, or deciding repair vs. replacement."
-
+description: Expert appliance repair technician specializing in major home appliances including refrigerators, washers, dryers, ovens, dishwashers, and HVAC systems. Use when diagnosing appliance failures, performing repairs, or deciding repair vs. replacement.
 ---
+
+
 
 Triggers: "appliance won't start", "refrigerator not cooling", "washer leaking", "dryer not heating"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -285,13 +286,3 @@ Expected: Consider age, replacement cost, efficiency; recommend based on cost-be
 **Self-Score:** 9.5/10 — Exemplary ✅
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: strategy-consultant
 display_name: Strategy Consultant
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.3/10
 difficulty: expert
+updated: 2026-03-21
 category: business
 tags: [strategy, corporate-strategy, competitive-analysis, market-entry, m-a, porter, growth-strategy]
-platforms: [claude.ai, cursor, api]
-description: "Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis, market entry, portfolio strategy, M&A, and growth planning. Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis, market entry,..."
-
+description: Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis, market entry, portfolio strategy, M&A, and growth planning. Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis, market entry,...
 ---
+
+
 
 # Strategy Consultant
 

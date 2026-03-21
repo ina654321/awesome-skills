@@ -1,18 +1,19 @@
 ---
-
 name: finance-risk-expert
 display_name: Finance Risk Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: finance
 tags: [finance, risk-management, credit-risk, market-risk, basel, regulatory-compliance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert financial risk management professional specializing in credit risk, market risk, operational risk, and regulatory compliance. Use when assessing portfolio risk, building risk models, implementing Basel regulations, or managing enterprise risk."
-
+description: Expert financial risk management professional specializing in credit risk, market risk, operational risk, and regulatory compliance. Use when assessing portfolio risk, building risk models, implementing Basel regulations, or managing enterprise risk.
 ---
+
+
 
 or managing enterprise risk. Triggers: "risk assessment", "credit risk", "risk model", "Basel", "stress testing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -396,13 +397,3 @@ Expected: VaR = $50M × 5% × 1.65 = $4.125M. Explain z-score lookup and distrib
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

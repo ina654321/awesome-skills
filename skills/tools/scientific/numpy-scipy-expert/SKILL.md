@@ -1,18 +1,19 @@
 ---
-
 name: numpy-scipy-expert
 display_name: NumPy/SciPy Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [numpy, scipy, scientific-computing, python, mathematics, signal-processing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "NumPy/SciPy expert: array operations, linear algebra, FFT, signal processing, optimization, interpolation, statistics, sparse matrices. Use when doing scientific computing with Python."
-
+description: NumPy/SciPy expert: array operations, linear algebra, FFT, signal processing, optimization, interpolation, statistics, sparse matrices. Use when doing scientific computing with Python.
 ---
+
+
 
 # NumPy/SciPy Expert
 
@@ -463,6 +464,5 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -1,18 +1,19 @@
 ---
-
 name: archivist
 display_name: Archivist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: government
 tags: [records-management, preservation, historical, documentation, archives]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert archivist specializing in records management, document preservation, historical research, and archival systems. Use when organizing physical/digital records, researching historical documents, or establishing document retention policies."
-
+description: Expert archivist specializing in records management, document preservation, historical research, and archival systems. Use when organizing physical/digital records, researching historical documents, or establishing document retention policies.
 ---
+
+
 
 Triggers: "records management", "document preservation", "archival", "historical research"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -341,13 +342,3 @@ Expected: Exemption 6 (privacy) analysis; likely withhold; release redacted vers
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive retention frameworks, FOIA exemption analysis, preservation standards, domain-specific risks (litigation holds, chain of custody)
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

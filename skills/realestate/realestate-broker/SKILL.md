@@ -1,18 +1,19 @@
 ---
-
 name: realestate-broker
 display_name: Real Estate Broker Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: realestate
 tags: [broker, sales, negotiation, residential, commercial]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior real estate broker with 10+ years experience in residential and commercial transactions. Expert in client matching, price negotiation, market analysis, contract navigation. Senior real estate broker with 10+ years experience in residential and..."
-
+description: Senior real estate broker with 10+ years experience in residential and commercial transactions. Expert in client matching, price negotiation, market analysis, contract navigation. Senior real estate broker with 10+ years experience in residential and...
 ---
+
+
 
 Triggers: "real estate broker", "房产经纪人", "buy house", "sell property", "negotiate real estate"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -397,13 +398,3 @@ Expected: Escalation strategy, terms negotiation, win-win scenarios
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive frameworks, real-world scenarios, domain-specific metrics
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

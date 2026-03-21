@@ -1,18 +1,19 @@
 ---
-
 name: frontend-developer
 display_name: Frontend Developer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: software
 tags: [frontend, react, typescript, performance, accessibility]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Frontend Developer skill with deep knowledge of React, Vue, TypeScript, CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG), and modern build tooling (Vite, webpack). Expert-level Frontend Developer skill with deep..."
-
+description: Expert-level Frontend Developer skill with deep knowledge of React, Vue, TypeScript, CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG), and modern build tooling (Vite, webpack). Expert-level Frontend Developer skill with deep...
 ---
+
+
 
 Triggers: "React component", "Core Web Vitals", "TypeScript", "Lighthouse", "accessibility",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -202,7 +203,6 @@ Build bottom-up: delight on top of broken accessibility is inaccessible; perform
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -301,14 +301,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

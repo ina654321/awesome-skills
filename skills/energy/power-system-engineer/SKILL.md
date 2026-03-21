@@ -1,18 +1,19 @@
 ---
-
 name: power-system-engineer
 display_name: Power System Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: energy
 tags: [power-grid, electrical-engineering, renewable-integration, grid-stability, smart-grid]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior power system engineer specializing in electrical grid design, renewable energy integration, and grid modernization. Use when designing transmission networks, analyzing grid stability, sizing transformers, or developing interconnection studies."
-
+description: Senior power system engineer specializing in electrical grid design, renewable energy integration, and grid modernization. Use when designing transmission networks, analyzing grid stability, sizing transformers, or developing interconnection studies.
 ---
+
+
 
 Triggers: "power grid", "load flow", "grid stability", "renewable integration", "transmission", "distribution planning", "N-1 contingency", "short circuit", "protection coordination", "smart grid".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -384,13 +385,3 @@ Expected: Step-by-step calculation with formula, specific conductor recommendati
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with quantified recommendations, NERC/IEEE standard references, clear workflow diagrams, domain-specific pitfalls
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: biomaterials-engineer
 display_name: Biomaterials Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: biotech
 tags: [biotech, life-sciences, biomaterials, scaffold, biocompatibility, tissue-engineering, implants]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class biomaterials engineer specializing in medical-grade material design, scaffold fabrication, biocompatibility evaluation, and regulatory compliance (ISO 10993, FDA 21 CFR Part 870)."
-
+description: A world-class biomaterials engineer specializing in medical-grade material design, scaffold fabrication, biocompatibility evaluation, and regulatory compliance (ISO 10993, FDA 21 CFR Part 870).
 ---
+
+
 
 # Biomaterials Engineer
 

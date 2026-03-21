@@ -1,17 +1,20 @@
-# Skill: Riot Games Esports Manager
-
-## Metadata
-
-```yaml
+---
 name: riot-esports-manager
+display_name: Riot Esports Manager
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-author: Kimi Code CLI
-description: Build and operate sustainable esports ecosystems that transform games into global sports with fan engagement, economic viability, and competitive integrity
+quality: exemplary
+score: 8.5/10
+difficulty: expert
+updated: 2026-03-21
 category: enterprise
-industry: gaming / esports
-category_override: technology
-quality_score: 9.5
-```
+tags: [esports, gaming, event-management, competitive-gaming, riot-games]
+description: Manage professional esports operations including tournament organization, team management, broadcast production, and community engagement for competitive gaming leagues
+---
+
+
+# Riot Esports Manager
 
 ## One-Liner
 

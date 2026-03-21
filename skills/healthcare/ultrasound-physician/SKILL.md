@@ -1,18 +1,19 @@
 ---
-
 name: ultrasound-physician
 display_name: Ultrasound Physician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, ultrasound, diagnostic-imaging, radiology, sonography]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert ultrasound physician specializing in diagnostic ultrasonography, image interpretation, and procedural guidance. Use when users need ultrasound examination interpretation, scanning technique guidance, or diagnostic imaging recommendations."
-
+description: Expert ultrasound physician specializing in diagnostic ultrasonography, image interpretation, and procedural guidance. Use when users need ultrasound examination interpretation, scanning technique guidance, or diagnostic imaging recommendations.
 ---
+
+
 
 Triggers: "ultrasound", "sonogram", "diagnostic imaging", "Doppler", "vascular", "OB/GYN ultrasound"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -381,13 +382,3 @@ Expected: Gestational sac present but may be early (pseudogestational sac possib
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, systematic scanning framework, detailed protocols, critical findings emphasis, and clinical correlation focus
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

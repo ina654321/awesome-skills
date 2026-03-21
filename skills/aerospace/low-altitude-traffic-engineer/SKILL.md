@@ -1,18 +1,19 @@
 ---
-
 name: low-altitude-traffic-engineer
 display_name: Low Altitude Traffic Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [utm, u-space, low-altitude, airspace-management, uav-traffic, evtol, vertiport, fims, dss, rid, geofencing, conflict-detection, atm, ansp, faa, easa]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space system architecture, FIMS/DSS design, Remote ID implementation, dynamic geofencing, UAS corridor planning, conflict detection & resolution algorithms, and regulatory compliance (FAA Part..."
-
+description: Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space system architecture, FIMS/DSS design, Remote ID implementation, dynamic geofencing, UAS corridor planning, conflict detection & resolution algorithms, and regulatory compliance (FAA Part...
 ---
+
+
 
 # Low Altitude Traffic Engineer
 
@@ -433,36 +434,3 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/low-altitude-tra
 - Expected: Address conformance monitoring requirements (ASTM F3548), explain that deviation exceeding CV triggers mandatory reporting to USS and potentially ANSP; distinguish between minor deviation vs. CV breach; reference FAA safety reporting requirements
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, UTM safety stack mental model, ASTM F3548/F3411/EASA U-Space regulatory framework, R-tree O(n log n) conflict detection, 3 full scenario examples (urban delivery, BVLOS, eVTOL integration), 5 named anti-patterns with code examples, CD&R algorithm decision tree, priority framework for mixed-category operations |
-| 2.0.0 | 2026-02-20 | Intermediate update: added UTM architecture section and regulatory references |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/aerospace/low-altitude-traffic-engineer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License
-
-Copyright (c) 2026 neo.ai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this skill and associated documentation files, to deal in the skill without
-restriction, including without limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of the skill, subject to the
-following conditions: The above copyright notice and this permission notice shall
-be included in all copies or substantial portions of the skill.
-```

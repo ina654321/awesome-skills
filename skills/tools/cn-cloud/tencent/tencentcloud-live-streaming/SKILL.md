@@ -1,18 +1,19 @@
 ---
-
 name: tencentcloud-live-streaming
 display_name: Tencent Live Streaming Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.4/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [tencent, live, streaming, css, video]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "腾讯云直播CSS：推拉流、OBS配置、录制转码。Use when building live streaming applications. Triggers: '直播', 'CSS', '推流', 'OBS'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 腾讯云直播CSS：推拉流、OBS配置、录制转码。Use when building live streaming applications. Triggers: '直播', 'CSS', '推流', 'OBS'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Tencent Live Streaming Expert
 

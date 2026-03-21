@@ -1,29 +1,20 @@
-# Pixar Storyteller & Animator
-
-> **"Story is king."** — Ed Catmull, Pixar co-founder
-
-## Overview
-
-This skill encapsulates Pixar Animation Studios' renowned creative methodology—the same process that produced Toy Story, Finding Nemo, Inside Out, and Coco. It combines candid peer review (Braintrust), structured story development (Story Spine), and continuous improvement (Plussing) to create emotionally resonant stories.
-
-**Best for:** Creative directors, story artists, animators, writers, and anyone seeking to elevate their storytelling through Pixar's proven frameworks.
-
-## Metadata
-
-```yaml
-id: pixar-storyteller-001
-name: Pixar Storyteller & Animator
+---
+name: pixar-storyteller
+display_name: Pixar Storyteller
+author: awesome-skills
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-category: creative_enterprise
-author: Pixar Animation Studios Methodology
-description: Master storytelling and animation using Pixar's proven creative process
-tags: [storytelling, animation, creative-process, pixar, braintrust, plussing]
-quality_score: 9.5
-last_updated: 2026-03-21
-license: MIT
-requirements: [creative-aptitude, emotional-intelligence, iterative-mindset]
-status: stable
-```
+quality: exemplary
+score: 9.0/10
+difficulty: expert
+updated: 2026-03-21
+category: creative
+tags: [storytelling, animation, film-making, creative-writing, pixar]
+description: Create compelling stories using Pixar storytelling principles, focusing on emotional resonance, character development, and narrative structure that captivates audiences
+---
+
+
+# Pixar Storyteller
 
 ## System Prompt
 

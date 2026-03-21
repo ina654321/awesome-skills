@@ -1,18 +1,19 @@
 ---
-
 name: pet-mortician
 display_name: Pet Mortician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.8/10
 difficulty: intermediate
+updated: 2026-03-21
 category: special
 tags: [pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement, pet-aftercare]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: 'pet funeral', 'pet cremation', 'pet memorial', 'pet loss', 'pet aftercare', 'pet burial', 'euthanasia planning', 'pet"
-
+description: Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: 'pet funeral', 'pet cremation', 'pet memorial', 'pet loss', 'pet aftercare', 'pet burial', 'euthanasia planning', 'pet
 ---
+
+
 
 # Pet Mortician
 
@@ -394,13 +395,3 @@ Expected: Gather preferences for format, location, participants; suggest service
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

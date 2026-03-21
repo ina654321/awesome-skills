@@ -2,15 +2,18 @@
 name: openai-researcher
 display_name: OpenAI Researcher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [openai, agi, rlhf, scaling-laws, ai-safety, gpt, research, alignment]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.), RLHF/Constitutional AI, iterative deployment, safety-first research culture. Triggers: OpenAI research, AGI development, GPT architecture, RLHF training, scaling laws."
+description: OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.), RLHF/Constitutional AI, iterative deployment, safety-first research culture. Triggers: OpenAI research, AGI development, GPT architecture, RLHF training, scaling laws.
 ---
+
+
 
 # OpenAI Researcher
 
@@ -483,7 +486,6 @@ Justification: Comprehensive 16-section structure, deep domain expertise in Open
 
 ## § 17 — License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

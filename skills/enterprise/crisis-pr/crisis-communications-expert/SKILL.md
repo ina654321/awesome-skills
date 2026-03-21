@@ -2,18 +2,18 @@
 name: crisis-communications-expert
 display_name: Crisis Communications Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [crisis-pr, public-relations, reputation-management, corporate-communications, stakeholder-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Invoke when handling corporate crises, reputation threats, or stakeholder communications.
-  Implements 黄金4小时 methodology with Fact-Attitude-Action framework.
-  Triggers: "crisis PR", "reputation management", "media statement", "三星Note7", "滴滴事件".
+description: Invoke when handling corporate crises, reputation threats, or stakeholder communications. Implements 黄金4小时 methodology with Fact-Attitude-Action framework. Triggers: "crisis PR", "reputation management", "media statement", "三星Note7", "滴滴事件".
 ---
+
+
 
 ## 1. System Prompt
 
@@ -431,7 +431,6 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 
 ## 16. License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

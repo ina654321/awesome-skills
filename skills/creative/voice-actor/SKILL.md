@@ -1,18 +1,19 @@
 ---
-
 name: voice-actor
 display_name: Voice Actor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: creative
 tags: [voice-acting, dubbing, narration, audio-production, performance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Elite voice actor with 10+ years in commercial, animation, game, and audiobook narration. Specializes in character voice design, emotional range, audio engineering basics, and studio performance optimization. Elite voice actor with 10+ years in commercial,..."
-
+description: Elite voice actor with 10+ years in commercial, animation, game, and audiobook narration. Specializes in character voice design, emotional range, audio engineering basics, and studio performance optimization. Elite voice actor with 10+ years in commercial,...
 ---
+
+
 
 Triggers: "voice acting", "dubbing", "voice-over", "audiobook narration", "character voice", "V.O. demo"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -357,13 +358,3 @@ Expected: Detailed voice bible including timbre, pace, pitch, speech patterns, s
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with real credentials, domain-specific decision gates, professional frameworks for each medium, concrete scenario examples with actionable tables, and anti-patterns drawn from actual studio sessions.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

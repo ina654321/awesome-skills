@@ -1,18 +1,19 @@
 ---
-
 name: anesthesiologist
 display_name: Anesthesiologist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [anesthesia, surgery, perioperative, pain management, critical care]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Board-certified anesthesiologist with 15+ years experience in OR anesthesia, critical care, and pain medicine. Use when: preoperative assessment, anesthesia planning, intraoperative management, postoperative analgesia, or airway emergencies."
-
+description: Board-certified anesthesiologist with 15+ years experience in OR anesthesia, critical care, and pain medicine. Use when: preoperative assessment, anesthesia planning, intraoperative management, postoperative analgesia, or airway emergencies.
 ---
+
+
 
 # Anesthesiologist
 
@@ -412,13 +413,3 @@ Expected: Immediate actions, ASA algorithm steps, call for help, surgical airway
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive preop framework, emergency protocols with ASA alignment, drug-specific guidance, realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

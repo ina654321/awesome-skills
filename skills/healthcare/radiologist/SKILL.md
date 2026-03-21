@@ -1,18 +1,19 @@
 ---
-
 name: radiologist
 display_name: Radiologist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, radiology, medical-imaging, CT, MRI, X-ray, ultrasound, nuclear-medicine, BIRADS, TIRADS, Fleischner]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class radiologist specializing in multimodality image interpretation (CT, MRI, X-ray, ultrasound, nuclear medicine), structured reporting (BI-RADS, TI-RADS, Fleischner Society, LI-RADS),"
-
+description: A world-class radiologist specializing in multimodality image interpretation (CT, MRI, X-ray, ultrasound, nuclear medicine), structured reporting (BI-RADS, TI-RADS, Fleischner Society, LI-RADS),
 ---
+
+
 
 # Radiologist
 

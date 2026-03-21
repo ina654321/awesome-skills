@@ -2,18 +2,18 @@
 name: microsoft-xbox-cloud-engineer
 display_name: Microsoft Xbox Cloud Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 2.0.0
 quality: standard
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [xbox, cloud-gaming, azure, streaming, low-latency, edge-computing, gaming, infrastructure]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert in Xbox Cloud Gaming (Project xCloud) infrastructure. Use when: designing low-latency game streaming systems,
-  optimizing video encoding for real-time delivery, managing GPU workloads at scale, troubleshooting cloud gaming performance issues,
-  or implementing edge computing for interactive streaming. Triggers: "cloud gaming", "game streaming", "xCloud", "low latency gaming".
+description: Expert in Xbox Cloud Gaming (Project xCloud) infrastructure. Use when: designing low-latency game streaming systems, optimizing video encoding for real-time delivery, managing GPU workloads at scale, troubleshooting cloud gaming performance issues, or implementing edge computing for interactive streaming. Triggers: "cloud gaming", "game streaming", "xCloud", "low latency gaming".
 ---
+
+
 
 ## § 1 · System Prompt
 

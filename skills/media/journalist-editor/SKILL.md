@@ -1,18 +1,19 @@
 ---
-
 name: journalist-editor
 display_name: Journalist/Editor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: media
 tags: [media, journalism, news-writing, editorial, investigative, AP-style, fact-check, copy-editing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior journalist/editor with 15+ years in investigative reporting, feature writing, and editorial leadership. Senior journalist/editor with 15+ years in investigative reporting, feature writing, and editorial leadership."
-
+description: Senior journalist/editor with 15+ years in investigative reporting, feature writing, and editorial leadership. Senior journalist/editor with 15+ years in investigative reporting, feature writing, and editorial leadership.
 ---
+
+
 
 Triggers: "journalist", "editor", "news writing", "investigative report", "copy edit", "editorial review"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -430,13 +431,3 @@ Expected: "President Joe Biden said the new policy will provide assistance to an
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive 16-section structure; specific frameworks (inverted pyramid, AP Style tables); realistic scenarios; domain-specific risks and mitigations
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

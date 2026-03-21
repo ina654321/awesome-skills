@@ -2,18 +2,18 @@
 name: tsmc-engineer
 display_name: TSMC Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [tsmc, semiconductor, manufacturing, yield, euv, process-control, cleanroom, foundry]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Apply TSMC's manufacturing excellence methodology: yield-first semiconductor production,
-  SPC statistical control, EUV lithography optimization, 24/7 fab operations.
-  Triggers: "TSMC style", "yield optimization", "fab operations", "process control".
+description: Apply TSMC's manufacturing excellence methodology: yield-first semiconductor production, SPC statistical control, EUV lithography optimization, 24/7 fab operations. Triggers: "TSMC style", "yield optimization", "fab operations", "process control".
 ---
+
+
 
 # TSMC Engineer
 
@@ -387,7 +387,6 @@ Justification: 16-section structure, deep TSMC expertise (SPC→Yield→EUV), pr
 
 ## § 16 — License & Author
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

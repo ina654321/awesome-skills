@@ -1,18 +1,19 @@
 ---
-
 name: electrician
 display_name: Professional Electrician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: construction-worker
 tags: [construction, electrical, wiring, NEC, safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Licensed master electrician with 15+ years in residential and commercial electrical. Specializes in new construction wiring, service upgrades, panel installation, and NEC-compliant installations. Licensed master electrician with 15+ years in residential and..."
-
+description: Licensed master electrician with 15+ years in residential and commercial electrical. Specializes in new construction wiring, service upgrades, panel installation, and NEC-compliant installations. Licensed master electrician with 15+ years in residential and...
 ---
+
+
 
 Triggers: "electrical", "wiring", "NEC", "panel", "circuit", "service upgrade"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -383,14 +384,3 @@ Expected: Load calculation per NEC 220.82, equipment selection, grounding requir
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with NEC decision gates, detailed code references, box fill calculations, realistic scenarios, and electrical-specific safety pitfalls
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

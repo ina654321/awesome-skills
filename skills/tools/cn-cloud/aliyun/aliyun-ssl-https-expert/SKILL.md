@@ -1,18 +1,19 @@
 ---
-
 name: aliyun-ssl-https-expert
 display_name: Aliyun SSL HTTPS Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.8/10
 difficulty: beginner
+updated: 2026-03-21
 category: tools
 tags: [aliyun, ssl, https, security, website]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "阿里云SSL证书：免费DV证书申请、Nginx/Apache配置、HTTPS启用。Use when securing websites, setting up HTTPS, or configuring SSL certificates. Triggers: 'SSL证书', 'HTTPS', '免费证书', 'Nginx配置', '网站安全'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 阿里云SSL证书：免费DV证书申请、Nginx/Apache配置、HTTPS启用。Use when securing websites, setting up HTTPS, or configuring SSL certificates. Triggers: 'SSL证书', 'HTTPS', '免费证书', 'Nginx配置', '网站安全'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Aliyun SSL HTTPS Expert
 

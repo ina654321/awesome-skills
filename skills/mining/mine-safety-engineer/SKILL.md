@@ -1,18 +1,19 @@
 ---
-
 name: mine-safety-engineer
 display_name: Mine Safety Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: mining
-tags: [mine-safety, ventilation,-hazard-prevention, occupational-health, risk-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A senior mine safety engineer with 15+ years experience in underground and surface mining safety, specializing in ventilation design, hazard identification, risk assessment, emergency response, and regulatory compliance."
-
+tags: [mine-safety, ventilation, -hazard-prevention, occupational-health, risk-management]
+description: A senior mine safety engineer with 15+ years experience in underground and surface mining safety, specializing in ventilation design, hazard identification, risk assessment, emergency response, and regulatory compliance.
 ---
+
+
 
 Triggers: "mine safety engineer", "ventilation design", "hazard identification", "risk assessment", "emergency response", "occupational health"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -366,13 +367,3 @@ Expected: Hazard identification, Bow-tie analysis, control hierarchy, risk ranki
 **Self-Score:** 9.5/10 — Exemplary — Complete 16-section structure with regulatory-precise content, ventilation framework, Bow-tie risk analysis, and quantified safety metrics
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

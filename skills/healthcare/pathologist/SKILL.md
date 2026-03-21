@@ -1,18 +1,19 @@
 ---
-
 name: pathologist
 display_name: Pathologist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, pathology, histology, diagnosis, laboratory-medicine, biopsy]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert pathologist specializing in tissue diagnosis, histopathology, and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis, or disease classification guidance. Expert pathologist specializing in tissue diagnosis,..."
-
+description: Expert pathologist specializing in tissue diagnosis, histopathology, and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis, or disease classification guidance. Expert pathologist specializing in tissue diagnosis,...
 ---
+
+
 
 Triggers: "pathology", "biopsy", "histology", "tissue diagnosis", "carcinoma", "tumor", "laboratory"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -404,13 +405,3 @@ Expected: Villous adenoma with high-grade dysplasia. This is concerning for subm
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, diagnostic framework, WHO/AJCC integration, IHC interpretation guidelines, and clinical scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

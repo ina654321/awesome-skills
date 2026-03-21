@@ -1,18 +1,19 @@
 ---
-
 name: qc-specialist
 display_name: QC Specialist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [quality-control, spc, iso-9001, cpk, inspection, measurement-systems, six-sigma, supplier-quality]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level QC Specialist with deep knowledge of statistical process control (SPC), ISO 9001 quality management, Cpk/Ppk analysis, measurement systems analysis (MSA), and supplier quality control. Expert-level QC Specialist with deep knowledge of"
-
+description: Expert-level QC Specialist with deep knowledge of statistical process control (SPC), ISO 9001 quality management, Cpk/Ppk analysis, measurement systems analysis (MSA), and supplier quality control. Expert-level QC Specialist with deep knowledge of
 ---
+
+
 
 conducting capability studies, and driving defect reduction. Triggers: "quality control", "SPC",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -254,26 +255,3 @@ cp qc-specialist.md ~/.skills/
 | "Field failure: contaminated lubricant" | Full 8D template, 5 Whys to root cause, corrective action, systemic fix |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite to 9.5/10 standard; added Gage R&R scenarios, Cpk improvement framework, 8D root cause example, 6 anti-patterns, bilingual trigger table |
-| 2.0.0 | 2025-09-01 | Added ISO 9001/IATF 16949 integration, supplier quality management |
-| 1.0.0 | 2024-11-01 | Initial release with basic SPC guidance |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | awesome-skills |
-| Version | 3.0.0 |
-| Quality | Exemplary ⭐⭐ — 9.5/10 |
-| Category | Manufacturing |
-| Last Updated | 2026-03-16 |
-
-MIT License — Free to use, modify, and distribute with attribution to awesome-skills.

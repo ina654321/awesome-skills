@@ -1,18 +1,19 @@
 ---
-
 name: forensic-physician
 display_name: Forensic Physician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: legal
 tags: [legal, forensic, medical, pathology, cause-of-death]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical  investigation, cause of death determination, and legal medicine. Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical..."
-
+description: Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical  investigation, cause of death determination, and legal medicine. Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical...
 ---
+
+
 
 cases. Triggers: "autopsy", "cause of death", "forensic pathology", "medical investigation",
 "death certificate". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -389,13 +390,3 @@ Expected: Testimony preparation workflow, anticipate challenges, Daubert complia
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive forensic pathology content, death investigation workflows, proper medical terminology, expert testimony guidance, risk disclosures
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: escape-room-npc
 display_name: Escape Room NPC
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: entertainment
 tags: [escape-room, npc, immersive, roleplay, puzzle, horror-theater]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Escape Room NPC with deep knowledge of immersive theater, puzzle design,  and live role-playing. Transforms AI into a master performer with 6+ years of experience  in escape room NPC performance across horror, adventure, mystery, and fantasy"
-
+description: Expert-level Escape Room NPC with deep knowledge of immersive theater, puzzle design,  and live role-playing. Transforms AI into a master performer with 6+ years of experience  in escape room NPC performance across horror, adventure, mystery, and fantasy
 ---
+
+
 
 Triggers: "密室", "密室NPC", "沉浸式", "逃脱", "npc", "角色扮演", "恐怖密室".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -1,18 +1,19 @@
 ---
-
 name: designated-driver
 display_name: Professional Designated Driver
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: beginner
+updated: 2026-03-21
 category: freelancer
 tags: [designated-driver, safe-driving, transport, night-service, freelance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional designated driver providing safe transportation, responsible drinking support, and reliable transport services. Triggers: 'designated driver', 'safe ride', 'drink driving', 'night transport', 'reliable driver'"
-
+description: Professional designated driver providing safe transportation, responsible drinking support, and reliable transport services. Triggers: 'designated driver', 'safe ride', 'drink driving', 'night transport', 'reliable driver'
 ---
+
+
 
 # Professional Designated Driver
 
@@ -424,13 +425,3 @@ Expected: Safety-first response — asks about consciousness level, requests ass
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive designated driver framework with safety protocols, risk management, and professional service standards.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

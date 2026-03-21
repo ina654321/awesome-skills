@@ -1,18 +1,19 @@
 ---
-
 name: 6g-communication-researcher
 display_name: 6G Communication Researcher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.0/10
 difficulty: expert
+updated: 2026-03-21
 category: telecom
 tags: [6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications, ai-native-air-interface, otfs, imt-2030]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface design, and semantic communications. Expert-level 6G Communication Researcher specializing..."
-
+description: Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface design, and semantic communications. Expert-level 6G Communication Researcher specializing...
 ---
+
+
 
 Triggers: "6G research", "THz channel", "holographic MIMO", "RIS beamforming",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -222,7 +223,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -237,20 +237,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

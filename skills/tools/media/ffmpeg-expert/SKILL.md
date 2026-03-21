@@ -1,18 +1,19 @@
 ---
-
 name: ffmpeg-expert
 display_name: FFmpeg Expert Skill
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: media
 tags: [ffmpeg, video-processing, transcoding, streaming, media-conversion]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or batch processing media files. Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or..."
-
+description: Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or batch processing media files. Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or...
 ---
+
+
 
 Triggers: "ffmpeg转换", "视频转码", "ffmpeg滤镜"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

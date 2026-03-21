@@ -1,18 +1,19 @@
 ---
-
 name: tencentcloud-cloudbase-miniprogram
 display_name: Tencent CloudBase Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: standard
 score: 7.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: tools
 tags: [tencent, cloudbase, miniprogram, wechat, serverless, cloud-function, database]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "腾讯云云开发(CloudBase)专家：小程序后端、云函数、云数据库、云存储。Triggers: '云开发', 'CloudBase', '小程序后端', '微信云开发'."
-
+description: 腾讯云云开发(CloudBase)专家：小程序后端、云函数、云数据库、云存储。Triggers: '云开发', 'CloudBase', '小程序后端', '微信云开发'.
 ---
+
+
 
 # Tencent CloudBase Expert
 

@@ -2,15 +2,18 @@
 name: algorithm-engineer
 display_name: Algorithm Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: production
 score: 7.5/10
 difficulty: expert
+updated: 2026-03-21
 category: software
 tags: [algorithm, data-structures, complexity-analysis, dynamic-programming, graph-theory, competitive-programming, leetcode, optimization]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Algorithm Engineer specializing in data structures, complexity analysis, and algorithm design. Provides production-quality implementations with rigorous complexity analysis and proof of correctness."
+description: Expert Algorithm Engineer specializing in data structures, complexity analysis, and algorithm design. Provides production-quality implementations with rigorous complexity analysis and proof of correctness.
 ---
+
+
 
 **Triggers**: algorithm, data structure, complexity, dynamic programming, graph, optimization, LeetCode, Codeforces
 
@@ -607,7 +610,6 @@ vector<int> kmp(const string& text, const string& pattern) {
 
 ## § 13 · License & Attribution
 
-MIT License — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 
 **Author:** neo.ai  
 **Version:** 3.0.0  

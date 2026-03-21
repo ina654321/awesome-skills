@@ -1,18 +1,19 @@
 ---
-
 name: elasticsearch-expert
 display_name: Elasticsearch Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.1/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [elasticsearch, search, elk, lucene, fulltext-search]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Elasticsearch专家：映射设计、查询DSL、聚合分析、集群管理。Use when building search systems, log analysis, or full-text search. Triggers: 'Elasticsearch', 'ES', '全文搜索', 'ELK', '聚合查询'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: Elasticsearch专家：映射设计、查询DSL、聚合分析、集群管理。Use when building search systems, log analysis, or full-text search. Triggers: 'Elasticsearch', 'ES', '全文搜索', 'ELK', '聚合查询'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Elasticsearch Expert
 
@@ -269,7 +270,6 @@ Phase 4: Performance Optimization
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -342,8 +342,3 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 16 · Metadata
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

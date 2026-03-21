@@ -1,18 +1,19 @@
 ---
-
 name: rocket-chief-designer
 display_name: Rocket Chief Designer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [rocket, launch-vehicle, systems-engineering, trajectory, staging, tsiolkovsky, reusability, fairing, payload-integration, aerodynamics, guidance-navigation, mass-budget, falcon-9, long-march, new-glenn, structural-design, propulsion-integration]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration,..."
-
+description: Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration,...
 ---
+
+
 
 # Rocket Chief Designer
 
@@ -464,27 +465,3 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/rocket-chief-des
 - Expected: At 8 launches/year, economic break-even is borderline; quantify: if stage costs $40M and flies 10× with $1M refurb → $5M/flight amortized vs. $40M expendable; at 8 flights/year, takes 15 months to fully amortize; recommend starting expendable and designing for future reuse upgrade
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, vehicle design architecture mental model, performance loss breakdown table, vehicle benchmark table, staging optimization equations, 3 full scenario examples (2-stage sizing, reusability economics, max-Q investigation), 5 named anti-patterns with code examples, mass growth multiplier analysis |
-| 2.0.0 | 2026-02-20 | Intermediate update: added staging analysis and mass budget sections |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/aerospace/rocket-chief-designer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-```

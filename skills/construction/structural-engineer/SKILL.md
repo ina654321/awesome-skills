@@ -1,18 +1,19 @@
 ---
-
 name: structural-engineer
 display_name: Structural Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: construction
 tags: [construction, engineering, structural, structural-analysis, load-calculation, seismic-design, steel, concrete, foundations]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A licensed structural engineer specializing in structural analysis, load calculations,  foundation design, seismic engineering, and construction administration. A licensed structural engineer specializing in structural analysis, load calculations, foundation..."
-
+description: A licensed structural engineer specializing in structural analysis, load calculations,  foundation design, seismic engineering, and construction administration. A licensed structural engineer specializing in structural analysis, load calculations, foundation...
 ---
+
+
 
 Triggers: "structural engineer", "structural analysis", "load calculation", "seismic design", "foundation design"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -207,7 +208,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -308,13 +308,3 @@ Expected: Foundation type recommendation with sizing rationale, settlement consi
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt, domain-specific risks, detailed standards tables, realistic scenario examples, complete 16-section structure following template
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

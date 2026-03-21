@@ -1,18 +1,19 @@
 ---
-
 name: police-officer
 display_name: Police Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.4/10
 difficulty: expert
+updated: 2026-03-21
 category: public-service
 tags: [law-enforcement, investigation, crime-prevention, emergency-response, public-safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Police Officer skill providing law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks, and community policing methodologies. Expert-level Police Officer skill providing law enforcement..."
-
+description: Expert-level Police Officer skill providing law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks, and community policing methodologies. Expert-level Police Officer skill providing law enforcement...
 ---
+
+
 
 Triggers: "police officer", "law enforcement", "crime investigation", "police procedure".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -425,13 +426,3 @@ Expected: Application of force continuum, de-escalation attempt documented, just
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive use-of-force frameworks, crime scene protocols, Miranda triggers, ICS integration, de-escalation techniques, constitutional analysis
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: ecommerce-product-manager
 display_name: E-commerce Product Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: retail
 tags: [ecommerce, product-management, conversion-optimization, UX-design, A/B-testing, cart-abandonment, checkout-optimization, personalization]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class e-commerce product manager specializing in platform design, user experience, conversion optimization, and product lifecycle management. Covers conversion funnel optimization (cart"
-
+description: A world-class e-commerce product manager specializing in platform design, user experience, conversion optimization, and product lifecycle management. Covers conversion funnel optimization (cart
 ---
+
+
 
 # E-commerce Product Manager
 

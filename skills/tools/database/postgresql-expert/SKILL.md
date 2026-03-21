@@ -1,18 +1,19 @@
 ---
-
 name: postgresql-expert
 display_name: PostgreSQL Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.1/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [postgresql, database, sql, devops, data]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL."
-
+description: PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL.
 ---
+
+
 
 # PostgreSQL Expert
 
@@ -231,7 +232,6 @@ See [references/09-scenarios.md](references/09-scenarios.md) for detailed exampl
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -303,8 +303,3 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 16 · Metadata
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

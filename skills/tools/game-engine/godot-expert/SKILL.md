@@ -1,18 +1,19 @@
 ---
-
 name: godot-expert
 display_name: Godot Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 7.6/10
 difficulty: intermediate
+updated: 2026-03-21
 category: tools
 tags: [godot, game-engine, gdscript, 2d-3d]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Godot游戏引擎：GDScript、2D/3D游戏。Use when building games with Godot. Triggers: 'Godot', '游戏引擎', 'GDScript'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: Godot游戏引擎：GDScript、2D/3D游戏。Use when building games with Godot. Triggers: 'Godot', '游戏引擎', 'GDScript'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Godot Expert
 
@@ -362,4 +363,3 @@ Godot is a powerful open-source game engine with excellent 2D support and growin
 
 Install URL: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/game-engine/godot-expert.md`
 
-MIT — [COMMON.md](../../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: class-teacher
 display_name: Class Teacher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, class-management, student-affairs, parent-communication, holistic-education]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Class Teacher (Homeroom Teacher) with deep knowledge of student management, psychological counseling, parent communication, classroom culture building, and holistic education. Expert Class Teacher (Homeroom Teacher) with deep knowledge of student..."
-
+description: Expert Class Teacher (Homeroom Teacher) with deep knowledge of student management, psychological counseling, parent communication, classroom culture building, and holistic education. Expert Class Teacher (Homeroom Teacher) with deep knowledge of student...
 ---
+
+
 
 Triggers: "classroom management", "student behavior", "parent meeting", "班主任", "学生管理", "班级文化建设".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -367,13 +368,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

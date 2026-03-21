@@ -1,18 +1,19 @@
 ---
-
 name: flink-expert
 display_name: Apache Flink Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [flink, streaming, data-engineering, real-time, apache]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns. Provides: DataStream API, Table API, job configuration, and checkpoint strategies."
-
+description: Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns. Provides: DataStream API, Table API, job configuration, and checkpoint strategies.
 ---
+
+
 
 # Flink Expert
 
@@ -392,4 +393,3 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-MIT — [COMMON.md](../../../../COMMON.md)

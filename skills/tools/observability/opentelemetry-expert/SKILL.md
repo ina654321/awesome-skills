@@ -1,18 +1,19 @@
 ---
-
 name: opentelemetry-expert
 display_name: OpenTelemetry Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [opentelemetry, observability, tracing, metrics, logs, otel, opentelemetry-collector, instrumentation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: 'OpenTelemetry', 'OTel', '可观测性', '分布式追踪', 'OTel Collector', 'instrumentation'."
-
+description: OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: 'OpenTelemetry', 'OTel', '可观测性', '分布式追踪', 'OTel Collector', 'instrumentation'.
 ---
+
+
 
 # OpenTelemetry Expert
 
@@ -440,4 +441,3 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)

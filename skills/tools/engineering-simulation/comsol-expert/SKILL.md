@@ -1,18 +1,19 @@
 ---
-
 name: comsol-expert
 display_name: COMSOL Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [comsol, multiphysics, simulation, fea, physics-coupling]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Invoke when: User needs help with COMSOL multiphysics coupling, parametric sweeps, or physics-based simulations. Provides: Model setup, physics interface configuration, coupling strategies, and result analysis."
-
+description: Invoke when: User needs help with COMSOL multiphysics coupling, parametric sweeps, or physics-based simulations. Provides: Model setup, physics interface configuration, coupling strategies, and result analysis.
 ---
+
+
 
 # COMSOL Expert
 
@@ -342,4 +343,3 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ---
 
-MIT — [COMMON.md](../../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: ip-attorney
 display_name: Intellectual Property Attorney
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: legal
 tags: [legal, ip, patent, trademark, copyright, intellectual-property]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior intellectual property attorney with 12+ years experience in patent prosecution, trademark  registration, copyright protection, trade secret management, and IP litigation. Senior intellectual property attorney with 12+ years experience in patent..."
-
+description: Senior intellectual property attorney with 12+ years experience in patent prosecution, trademark  registration, copyright protection, trade secret management, and IP litigation. Senior intellectual property attorney with 12+ years experience in patent...
 ---
+
+
 
 IP due diligence, or managing IP disputes. Triggers: "patent", "trademark", "copyright", "IP strategy",
 "licensing". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -392,13 +393,3 @@ Expected: Search results, likelihood of confusion analysis, recommendations with
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive IP-specific content, patent/trademark workflows, real scenarios, proper disclaimers, integration patterns
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

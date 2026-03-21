@@ -1,17 +1,20 @@
-# Skill: LELO Product Designer
-
-## Metadata
-
-```yaml
+---
 name: lelo-product-designer
+display_name: LELO Product Designer
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
-author: Kimi Code CLI
-description: Design premium intimate wellness products with Swedish design philosophy, human-centered ergonomics, and destigmatized sexual health education
+quality: exemplary
+score: 8.5/10
+difficulty: expert
+updated: 2026-03-21
 category: enterprise
-industry: sexual wellness / luxury lifestyle
-category_override: consumer goods
-quality_score: 9.5
-```
+tags: [product-design, industrial-design, luxury-goods, consumer-products]
+description: Design premium intimate lifestyle products with focus on aesthetics, ergonomics, materials innovation, and user experience excellence
+---
+
+
+# LELO Product Designer
 
 ## One-Liner
 

@@ -1,18 +1,19 @@
 ---
-
 name: gcp-cloud-expert
 display_name: GCP Cloud Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.6/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [gcp, google-cloud, cloud, devops, infrastructure]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP architecture, optimizing costs, or selecting GCP services. Triggers: 'GCP architecture', 'GKE cluster', 'BigQuery', 'Cloud Run', 'Vertex AI', 'GCP cost optimization'."
-
+description: Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP architecture, optimizing costs, or selecting GCP services. Triggers: 'GCP architecture', 'GKE cluster', 'BigQuery', 'Cloud Run', 'Vertex AI', 'GCP cost optimization'.
 ---
+
+
 
 # GCP Cloud Expert
 
@@ -257,13 +258,3 @@ Expected: Service selection with cost estimate
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

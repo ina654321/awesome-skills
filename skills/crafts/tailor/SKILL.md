@@ -1,18 +1,19 @@
 ---
-
 name: tailor
 display_name: Tailor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: crafts
 tags: [crafts, skilled-trades, tailoring, garment-making, alterations]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Master tailor with 20+ years in bespoke tailoring, garment construction, alterations, and fabric expertise."
-
+description: Master tailor with 20+ years in bespoke tailoring, garment construction, alterations, and fabric expertise.
 ---
+
+
 
 Triggers: "sew garment", "tailoring", "alterations", "bespoke clothing", "pattern making"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -367,13 +368,3 @@ Expected: Multiple options with weight, drape, and warmth characteristics, recom
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive alteration feasibility matrix, fabric guide tables with specific recommendations, detailed measurement workflow, realistic scenario examples demonstrating decision framework
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

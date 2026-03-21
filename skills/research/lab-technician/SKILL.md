@@ -1,18 +1,19 @@
 ---
-
 name: lab-technician
 display_name: Laboratory Technician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: research
 tags: [laboratory, experiment, sample-preparation, data-recording, equipment-operation, safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording. Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate..."
-
+description: Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording. Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate...
 ---
+
+
 
 Triggers: "lab technician", "sample preparation", "lab equipment", "experimental procedure", "laboratory"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -379,13 +380,3 @@ Expected: Systematic troubleshooting, corrective actions, documentation requirem
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive procedural guidance, detailed QC framework, realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

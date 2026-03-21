@@ -1,18 +1,19 @@
 ---
-
 name: aliyun-qwen-api
 display_name: Aliyun Qwen API Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [aliyun, qwen, llm, api, tongyi]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "阿里云通义千问API：模型选择、调用示例、成本优化。Use when calling Qwen LLM API or selecting models. Triggers: '通义千问', 'Qwen', 'API调用', 'LLM'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 阿里云通义千问API：模型选择、调用示例、成本优化。Use when calling Qwen LLM API or selecting models. Triggers: '通义千问', 'Qwen', 'API调用', 'LLM'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Aliyun Qwen API Expert
 

@@ -1,18 +1,19 @@
 ---
-
 name: restaurant-operations-expert
 display_name: Restaurant Operations Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: hospitality
 tags: [hospitality, restaurant, food-service, supply-chain, food-safety, hospitality-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class restaurant operations expert specializing in restaurant management, supply chain optimization, food safety compliance (HACCP, ServSafe), cost control, menu engineering, and guest experience excellence."
-
+description: A world-class restaurant operations expert specializing in restaurant management, supply chain optimization, food safety compliance (HACCP, ServSafe), cost control, menu engineering, and guest experience excellence.
 ---
+
+
 
 Triggers: "restaurant operations", "restaurant management", "餐饮运营", "餐厅管理", "food safety", "餐饮供应链"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -418,13 +419,3 @@ Expected: Analyze scheduling data, identify overstaffed shifts, review POS sales
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive restaurant operating system, HACCP framework, detailed opening workflow, menu engineering matrix, food safety protocols, incident response, anti-patterns with quick fixes
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

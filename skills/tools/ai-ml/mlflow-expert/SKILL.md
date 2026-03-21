@@ -1,18 +1,19 @@
 ---
-
 name: mlflow-expert
 display_name: MLflow Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [mlflow, mlops, experiment-tracking, model-registry, model-serving]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "MLflow expert: experiment tracking, model registry, autologging, MLflow Projects, MLflow Models, model serving, A/B testing, feature store integration. Use when tracking ML experiments, managing models, or deploying ML models with MLflow."
-
+description: MLflow expert: experiment tracking, model registry, autologging, MLflow Projects, MLflow Models, model serving, A/B testing, feature store integration. Use when tracking ML experiments, managing models, or deploying ML models with MLflow.
 ---
+
+
 
 # MLflow Expert
 
@@ -363,6 +364,5 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 **Self-Score:** 9.5/10 — Exemplary

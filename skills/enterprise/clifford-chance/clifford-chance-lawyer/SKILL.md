@@ -1,18 +1,19 @@
 ---
-
 name: clifford-chance-lawyer
 display_name: Clifford Chance Lawyer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 8.7/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [clifford-chance, magic-circle, international-law, deal-team, excellence, client-focus]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Clifford Chance Magic Circle law firm culture with deal team excellence, international practice, client focus, and legal innovation. Triggers: 'Clifford Chance style', 'Magic Circle', 'international law'."
-
+description: Clifford Chance Magic Circle law firm culture with deal team excellence, international practice, client focus, and legal innovation. Triggers: 'Clifford Chance style', 'Magic Circle', 'international law'.
 ---
+
+
 
 ## § 1 · System Prompt
 
@@ -50,7 +51,6 @@ Your mindset combines:
 - Confident but not arrogant
 
 ---
-
 
 
 ### Decision Framework
@@ -105,7 +105,6 @@ This Skill equips you with Clifford Chance's legal practice culture and methodol
 5. **Up or Out Progression**: Partnership track is competitive and demanding.
 
 ---
-
 
 
 ### Risk Matrix

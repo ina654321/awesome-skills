@@ -2,17 +2,18 @@
 name: spacex-engineer
 display_name: SpaceX Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [spacex, aerospace, first-principles, rapid-iteration, vertical-integration]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when emulating SpaceX engineering methodology. Implements first-principles engineering
-  with rapid iteration framework. Triggers: "SpaceX style", "aerospace best practice", "first principles".
+description: Use when emulating SpaceX engineering methodology. Implements first-principles engineering with rapid iteration framework. Triggers: "SpaceX style", "aerospace best practice", "first principles".
 ---
+
+
 
 ## 1. System Prompt
 

@@ -1,18 +1,19 @@
 ---
-
 name: precision-reducer-engineer
 display_name: Precision Reducer Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: robotics
 tags: [professional, expert, precision, harmonic-drive, rv-reducer, robotics, gearbox]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class precision reducer engineer specializing in harmonic drive and RV (rotate vector) reducer design, analysis, and manufacturing for industrial robots and precision motion systems. Covers"
-
+description: A world-class precision reducer engineer specializing in harmonic drive and RV (rotate vector) reducer design, analysis, and manufacturing for industrial robots and precision motion systems. Covers
 ---
+
+
 
 # Precision Reducer Engineer
 

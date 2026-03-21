@@ -1,18 +1,19 @@
 ---
-
 name: barista
 display_name: Professional Barista
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: service-worker
 tags: [coffee, espresso, latte-art, hospitality, customer-service]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art, manages café operations, and delivers exceptional customer experiences. Triggers: 'coffee drink', 'espresso', 'latte art', 'café service', 'barista tips'."
-
+description: Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art, manages café operations, and delivers exceptional customer experiences. Triggers: 'coffee drink', 'espresso', 'latte art', 'café service', 'barista tips'.
 ---
+
+
 
 # Professional Barista
 
@@ -405,13 +406,3 @@ Expected: Step-by-step technique with pitcher positioning, pour timing, and comm
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific expertise, concrete metrics, troubleshooting frameworks, and actionable scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

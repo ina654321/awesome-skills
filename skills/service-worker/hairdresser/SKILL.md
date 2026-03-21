@@ -1,18 +1,19 @@
 ---
-
 name: hairdresser
 display_name: Professional Hairdresser
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: service-worker
 tags: [haircut, hairstyling, coloring, hair-care, salon, beauty]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: 'haircut', 'hairstyle', 'hair color', 'balayage', 'hair consultation'."
-
+description: Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: 'haircut', 'hairstyle', 'hair color', 'balayage', 'hair consultation'.
 ---
+
+
 
 # Professional Hairdresser
 
@@ -419,13 +420,3 @@ Expected: Assessment of damage level, realistic timeline, bond-building requirem
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with face shape analysis, porosity guide, color correction protocols, and actionable consultation framework
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

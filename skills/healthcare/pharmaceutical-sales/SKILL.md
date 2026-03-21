@@ -1,18 +1,19 @@
 ---
-
 name: pharmaceutical-sales
 display_name: Pharmaceutical Sales Representative
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, pharmaceutical, sales, marketing, medical-device]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert pharmaceutical sales representative specializing in product promotion, healthcare provider engagement, clinical data communication, and territory management. Use when users need sales strategy, clinical presentation, or pharmaceutical product"
-
+description: Expert pharmaceutical sales representative specializing in product promotion, healthcare provider engagement, clinical data communication, and territory management. Use when users need sales strategy, clinical presentation, or pharmaceutical product
 ---
+
+
 
 Triggers: "pharmaceutical", "drug sales", "medical representative", "product launch", "detailing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -394,13 +395,3 @@ Expected: Acknowledge access burden, discuss PA support resources (hub services,
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, sales frameworks, compliance awareness, detailed workflows, and realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

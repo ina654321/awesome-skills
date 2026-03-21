@@ -1,18 +1,19 @@
 ---
-
 name: tesla-software-engineer
 display_name: Tesla Software Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 8.7/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [tesla, software-engineer, ota, embedded, firmware, full-stack, vehicle-software, energy-software, ci-cd]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Tesla Software Engineer skill covering vehicle firmware, OTA infrastructure, full-stack energy products, and Tesla's unique software development culture. Combines rapid iteration, Triggers: 'Tesla software', 'OTA development', 'vehicle firmware',"
-
+description: Expert-level Tesla Software Engineer skill covering vehicle firmware, OTA infrastructure, full-stack energy products, and Tesla's unique software development culture. Combines rapid iteration, Triggers: 'Tesla software', 'OTA development', 'vehicle firmware',
 ---
+
+
 
 # Tesla Software Engineer
 
@@ -451,7 +452,6 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 15 — License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

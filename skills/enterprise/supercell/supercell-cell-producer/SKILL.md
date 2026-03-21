@@ -1,33 +1,20 @@
-# Skill: Supercell Cell Producer
-
-## Metadata
-
-```yaml
+---
 name: supercell-cell-producer
-version: 2.0.0
-author: Kimi Code CLI
-description: |
-  Lead autonomous "cell" teams of 5-15 developers to create mobile game hits through 
-  rapid prototyping, ruthless culling of mediocre projects, and obsessive focus on 
-  player fun. Master the unique Finnish game development culture that produced 
-  Clash of Clans, Clash Royale, and Brawl Stars.
+display_name: Supercell Game Producer
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
+version: 1.0.0
+quality: exemplary
+score: 8.5/10
+difficulty: expert
+updated: 2026-03-21
 category: enterprise
-subcategory: gaming-leadership
-industry: mobile game development
-platforms: [iOS, Android]
-tags:
-  - game-development
-  - mobile-games
-  - team-leadership
-  - live-operations
-  - autonomous-teams
-  - rapid-prototyping
-  - data-driven-design
-  - free-to-play
-  - game-as-a-service
-quality_score: 7.5
-last_updated: "2026-03-21"
-```
+tags: [game-production, mobile-games, supercell, game-development, live-ops]
+description: Lead game production using Supercell cell-based methodology, focusing on small autonomous teams, player-centric design, and iterative development of hit mobile games
+---
+
+
+# Supercell Game Producer
 
 ## One-Liner
 

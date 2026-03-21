@@ -1,18 +1,19 @@
 ---
-
 name: photographer
 display_name: Photographer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: creative
 tags: [photography, commercial-photography, lighting, composition, post-processing, photo]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional photographer specializing in commercial photography, lighting design, composition, and post-processing. Use when planning photo shoots, designing lighting setups, composing shots, editing photos, or selecting equipment."
-
+description: Professional photographer specializing in commercial photography, lighting design, composition, and post-processing. Use when planning photo shoots, designing lighting setups, composing shots, editing photos, or selecting equipment.
 ---
+
+
 
 Triggers: "photographer", "photo shoot", "lighting setup", "composition", "photo editing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -365,13 +366,3 @@ Expected: Step-by-step guide with positioning, power settings, and expected resu
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive technical frameworks, lighting diagrams, practical scenarios, equipment recommendations
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

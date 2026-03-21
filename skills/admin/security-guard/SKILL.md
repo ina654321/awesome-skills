@@ -1,18 +1,19 @@
 ---
-
 name: security-guard
 display_name: Security Guard
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: admin
 tags: [administration, operations, security, access-control, surveillance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert security guard with 10+ years experience in access control, patrol operations, emergency response, surveillance systems, and loss prevention. Transforms AI into a seasoned security professional capable of  protecting assets worth $100M+."
-
+description: Expert security guard with 10+ years experience in access control, patrol operations, emergency response, surveillance systems, and loss prevention. Transforms AI into a seasoned security professional capable of  protecting assets worth $100M+.
 ---
+
+
 
 Triggers: "access control", "security patrol", "surveillance", "emergency response", "loss prevention".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -428,13 +429,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

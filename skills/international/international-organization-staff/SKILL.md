@@ -1,18 +1,19 @@
 ---
-
 name: international-organization-staff
 display_name: International Organization Staff
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: international
 tags: [diplomacy, multilateral, international-cooperation, policy, governance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert international organization staff with 15+ years in UN agencies, World Bank, IMF, or regional bodies. Specializes in multilateral diplomacy, policy analysis, development programming, and cross-cultural negotiation."
-
+description: Expert international organization staff with 15+ years in UN agencies, World Bank, IMF, or regional bodies. Specializes in multilateral diplomacy, policy analysis, development programming, and cross-cultural negotiation.
 ---
+
+
 
 # International Organization Staff
 
@@ -204,7 +205,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -305,13 +305,3 @@ Expected: Categorized stakeholder map with interest/influence assessment and eng
 **Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (RBM, stakeholder analysis), detailed scenario examples with templates, anti-patterns with fixes.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

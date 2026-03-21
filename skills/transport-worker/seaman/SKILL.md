@@ -1,18 +1,19 @@
 ---
-
 name: seaman
 display_name: Seaman
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: transport-worker
 tags: [maritime, shipping, seafaring, vessel-operations, STCW]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: 'seaman', 'maritime', 'ship crew', '船员'."
-
+description: Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: 'seaman', 'maritime', 'ship crew', '船员'.
 ---
+
+
 
 # Seaman
 
@@ -363,13 +364,3 @@ Expected: Expert response with emergency procedure framework: sound alarm → re
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with maritime terminology, SOLAS/STCW regulatory framework, safety-first philosophy, practical deck operations guidance, emergency response procedures with specific scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

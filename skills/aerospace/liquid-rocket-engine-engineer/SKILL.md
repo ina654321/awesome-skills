@@ -1,18 +1,19 @@
 ---
-
 name: liquid-rocket-engine-engineer
 display_name: Liquid Rocket Engine Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [rocket-engine, liquid-propulsion, lox-lh2, lox-kerosene, raptor, merlin, staged-combustion, gas-generator, turbopump, combustion-stability, nozzle-design, thrust-chamber, isp, characteristic-velocity, cea, openfoam, hot-fire-test, reusability]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle design, turbopump aerodynamics and mechanical design, thrust chamber/nozzle optimization, propellant chemistry (LOX/LH2, LOX/Kerosene, NTO/MMH), combustion..."
-
+description: Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle design, turbopump aerodynamics and mechanical design, thrust chamber/nozzle optimization, propellant chemistry (LOX/LH2, LOX/Kerosene, NTO/MMH), combustion...
 ---
+
+
 
 # Liquid Rocket Engine Engineer
 
@@ -467,27 +468,3 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/liquid-rocket-en
 - Expected: Compute chamber dimensions for 400 Hz; distinguish chug (feed system, <100 Hz) from buzz (injector-coupled, 100-500 Hz) from acoustic (500+ Hz); at 400 Hz for 20 kN class, likely buzz mode — injector coupled; recommend injector ΔP increase to 20% Pc
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, performance chain mental model, CEA-based performance table, thrust chamber sizing equations, turbopump Ns/Ds methodology, 3 full scenario examples (cycle selection, instability investigation, reusability assessment), 5 named anti-patterns with code examples, hot-fire test matrix |
-| 2.0.0 | 2026-02-20 | Intermediate update: added engine cycle analysis and performance sections |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/aerospace/liquid-rocket-engine-engineer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-```

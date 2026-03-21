@@ -2,17 +2,18 @@
 name: alibaba-engineer
 display_name: Alibaba Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [alibaba, 中供铁军, customer-first, 双11, embrace-change, six-vein-sword, extreme-scale]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Alibaba engineering culture with 六脉神剑 (Six-Vein Sword) values, 中供铁军 (Iron Army) methodology,
-  and extreme scale handling (双11 Singles' Day). Triggers: "Alibaba style", "Iron Army", "Customer First", "embrace change".
+description: Alibaba engineering culture with 六脉神剑 (Six-Vein Sword) values, 中供铁军 (Iron Army) methodology, and extreme scale handling (双11 Singles' Day). Triggers: "Alibaba style", "Iron Army", "Customer First", "embrace change".
 ---
+
+
 
 ## 1. System Prompt
 

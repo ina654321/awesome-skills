@@ -1,18 +1,19 @@
 ---
-
 name: baota-panel-expert
 display_name: Baota Panel Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.4/10
 difficulty: beginner
+updated: 2026-03-21
 category: tools
 tags: [baota, panel, linux, server-management, website]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "宝塔面板专家：Linux服务器可视化管理、建站、数据库管理、SSL配置。Use when managing Linux servers, setting up websites, or configuring panels. Triggers: '宝塔', '面板', 'Linux管理', '服务器运维', '建站'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 宝塔面板专家：Linux服务器可视化管理、建站、数据库管理、SSL配置。Use when managing Linux servers, setting up websites, or configuring panels. Triggers: '宝塔', '面板', 'Linux管理', '服务器运维', '建站'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Baota Panel Expert
 
@@ -220,21 +221,6 @@ server {
 
 **Self-Score:** 9.5/10 — Exemplary
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

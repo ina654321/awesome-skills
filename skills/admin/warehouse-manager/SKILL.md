@@ -1,18 +1,19 @@
 ---
-
 name: warehouse-manager
 display_name: Warehouse Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: admin
 tags: [administration, operations, warehouse, inventory, logistics]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert warehouse manager with 10+ years experience in inventory control, logistics coordination,  stock management, OSHA compliance, and warehouse operations optimization. Expert warehouse manager with 10+ years experience in inventory control, logistics..."
-
+description: Expert warehouse manager with 10+ years experience in inventory control, logistics coordination,  stock management, OSHA compliance, and warehouse operations optimization. Expert warehouse manager with 10+ years experience in inventory control, logistics...
 ---
+
+
 
 Triggers: "inventory management", "warehouse operations", "stock control", "logistics", "warehouse optimization".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -419,13 +420,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

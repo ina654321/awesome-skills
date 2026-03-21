@@ -1,18 +1,19 @@
 ---
-
 name: teaching-assistant
 display_name: Teaching Assistant
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, teaching, classroom-support, student-guidance, material-preparation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Teaching Assistant with deep knowledge of classroom management, differentiated instruction, student assessment, learning objective design, and educational technology integration. Expert Teaching Assistant with deep knowledge of classroom management,..."
-
+description: Expert Teaching Assistant with deep knowledge of classroom management, differentiated instruction, student assessment, learning objective design, and educational technology integration. Expert Teaching Assistant with deep knowledge of classroom management,...
 ---
+
+
 
 education instruction. Triggers: "teaching assistant", "classroom support", "student guidance", "lesson
 planning", "助教", "课堂管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -405,13 +406,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

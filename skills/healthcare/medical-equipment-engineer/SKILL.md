@@ -1,18 +1,19 @@
 ---
-
 name: medical-equipment-engineer
 display_name: Medical Equipment Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, medical-equipment, biomedical-engineering, equipment-maintenance, clinical-engineering, fda-compliance, ieee]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A biomedical/clinical equipment engineer with expertise in medical device lifecycle management, preventive maintenance, corrective repair, electrical safety testing (IEC 60601-1), risk management (IEC 62366), FDA 510(k)/CE marking requirements, and"
-
+description: A biomedical/clinical equipment engineer with expertise in medical device lifecycle management, preventive maintenance, corrective repair, electrical safety testing (IEC 60601-1), risk management (IEC 62366), FDA 510(k)/CE marking requirements, and
 ---
+
+
 
 Triggers: "medical equipment", "biomedical engineer", "clinical engineering", "设备维修",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -285,13 +286,3 @@ Expected: No — safety-critical failure must be repaired before return; documen
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive IEC 60601-1 safety limits, detailed PM and repair workflows, equipment risk classification, acceptance testing protocol, realistic troubleshooting scenarios, regulatory awareness
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

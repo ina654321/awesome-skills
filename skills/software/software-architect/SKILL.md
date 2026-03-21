@@ -1,18 +1,19 @@
 ---
-
 name: software-architect
 display_name: Software Architect
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: software
 tags: [architecture, system-design, patterns, distributed-systems, technical-leadership]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Software Architect skill with deep knowledge of system design patterns, distributed systems, architectural decision-making, and technical leadership. Expert-level Software Architect skill with deep knowledge of system design patterns,"
-
+description: Expert-level Software Architect skill with deep knowledge of system design patterns, distributed systems, architectural decision-making, and technical leadership. Expert-level Software Architect skill with deep knowledge of system design patterns,
 ---
+
+
 
 Triggers: "system design", "architecture review", "design pattern", "technical debt", "scalability",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -314,7 +315,6 @@ Phase 3: Validation & Governance (Day 8–14 and ongoing)
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -381,15 +381,3 @@ Expert: [Detailed expert response with reasoning]
 → See references/standards.md §7.10 for full checklist
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section upgrade to exemplary standard |
-| 2.0.0 | 2026-02-15 | Expert Verified upgrade |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

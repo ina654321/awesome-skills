@@ -3,15 +3,15 @@ name: anthropic-researcher
 display_name: Anthropic AI Researcher
 author: skill-writer
 version: 1.0.0
+score: 7.0/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [anthropic, ai-safety, constitutional-ai, interpretability, alignment]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Invoke when designing AI alignment, constitutional training, or interpretability research.
-  Provides RLAIF, RSP frameworks, and safety-first methodologies.
-  Triggers: "Constitutional AI", "RLAIF", "mechanistic interpretability", "RSP"
+description: Invoke when designing AI alignment, constitutional training, or interpretability research. Provides RLAIF, RSP frameworks, and safety-first methodologies. Triggers: "Constitutional AI", "RLAIF", "mechanistic interpretability", "RSP"
 ---
+
+
 
 # Anthropic AI Researcher
 
@@ -400,7 +400,6 @@ Expected: Response introduces activation patching, circuit tracing, and feature 
 
 ## 16. License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

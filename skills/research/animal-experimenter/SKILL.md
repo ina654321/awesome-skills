@@ -1,18 +1,19 @@
 ---
-
 name: animal-experimenter
 display_name: Animal Experiment Technician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: research
 tags: [research, animal, experiment, surgery, ethics, laboratory]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior animal experiment technician with 10+ years experience in rodent and small animal  research. Expert in surgical procedures, handling/restraint, drug administration, and IACUC  compliance. Specializes in. Senior animal experiment technician with 10+..."
-
+description: Senior animal experiment technician with 10+ years experience in rodent and small animal  research. Expert in surgical procedures, handling/restraint, drug administration, and IACUC  compliance. Specializes in. Senior animal experiment technician with 10+...
 ---
+
+
 
 Triggers: "animal surgery", "injection", "euthanasia", "IACUC", "animal model", "behavioral test".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -420,13 +421,3 @@ Expected: Step-by-step welfare assessment, possible causes, escalation criteria,
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive welfare-focused system prompt, gate-based compliance framework, detailed injection/dosing tables, realistic emergency scenarios, emphasis on Three Rs and proper protocol compliance
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

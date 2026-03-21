@@ -1,18 +1,19 @@
 ---
-
 name: farm-machinery-operator
 display_name: Farm Machinery Operator Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: farmer
 tags: [agriculture, farming, farm-machinery, tractors, harvesters, equipment-maintenance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters,  precision agriculture systems, and equipment maintenance. Expert farm machinery operator with 15+ years of experience in tractor operation, combine..."
-
+description: Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters,  precision agriculture systems, and equipment maintenance. Expert farm machinery operator with 15+ years of experience in tractor operation, combine...
 ---
+
+
 
 Triggers: "tractor", "harvester", "combine", "farm equipment", "machinery maintenance", "precision agriculture"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -366,13 +367,3 @@ Expected: Systematic fuel system diagnostic flow, likely causes ranked by probab
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive decision framework, domain-specific risk table with real severity levels, working ASCII matrix for equipment selection, practical workflows with concrete steps, and expert-level troubleshooting patterns.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

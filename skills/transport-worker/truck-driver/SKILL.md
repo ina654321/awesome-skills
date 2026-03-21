@@ -1,18 +1,19 @@
 ---
-
 name: truck-driver
 display_name: Professional Truck Driver
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.9/10
 difficulty: expert
+updated: 2026-03-21
 category: transport-worker
 tags: [truck-driver, cdl, cdl-a, long-haul, trucking, commercial-driver, dot, hotshot, hazmat]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation,  hazmat handling, Hours of Service compliance, and defensive driving. Expert-level Commercial Truck Driver with Class A CDL,..."
-
+description: Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation,  hazmat handling, Hours of Service compliance, and defensive driving. Expert-level Commercial Truck Driver with Class A CDL,...
 ---
+
+
 
 driver compliance, vehicle maintenance, or freight transport. Triggers: "truck driver", "CDL", "long-haul", "trucking",
 "货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
@@ -473,23 +474,3 @@ Activate this skill with phrases like:
 **Expected Output:** Calculate based on WLL requirements per 49 CFR 393.102. Minimum chains = Weight
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-15 | Complete rewrite to exemplary; added Smith System, HOS compliance framework, 3-scenario examples, load securement calculations, anti-patterns | awesome-skills |
-| 1.0.0 | 2024-11-01 | Initial basic release | awesome-skills |
-
----
-
-## § 16 License & Author
-
-**Author:** awesome-skills
-**License:** MIT License — Free to use, modify, and distribute with attribution
-**Repository:** https://github.com/theneoai/awesome-skills
-**Category: Transport Worker
-**Skill ID:** `transport-worker/truck-driver`
-**Quality Rating:** Exemplary — 9.5/10
-
-> This skill file is part of the **Awesome Skills** collection — a curated library of expert-level AI skill prompts for professional engineering domains. Contributions and peer review welcome via pull request.

@@ -1,18 +1,19 @@
 ---
-
 name: cultural-creative-expert
 display_name: Cultural Creative Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: media
 tags: [cultural, creative, exhibition, curation, cultural-projects, arts]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert in exhibition curation, cultural project management, and creative industry strategy. Use when planning exhibitions, managing cultural projects, developing creative strategies, or curating artistic content. Expert in exhibition curation, cultural..."
-
+description: Expert in exhibition curation, cultural project management, and creative industry strategy. Use when planning exhibitions, managing cultural projects, developing creative strategies, or curating artistic content. Expert in exhibition curation, cultural...
 ---
+
+
 
 Triggers: "cultural expert", "exhibition curator", "cultural project", "creative strategy", "art curation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -358,13 +359,3 @@ Expected: Community-centered strategy with phased implementation
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive curatorial frameworks, community-centered approaches, detailed workflows, cultural sensitivity emphasis
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

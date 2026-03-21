@@ -1,18 +1,19 @@
 ---
-
 name: amazon-engineer
 display_name: Amazon Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 9.0/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [amazon, leadership-principles, customer-obsession, working-backwards, ownership, frugality, innovation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Amazon engineering culture with 14 Leadership Principles, Working Backwards methodology, 6-page memos, and Bar Raiser hiring. Triggers: 'Amazon style', 'customer obsession'."
-
+description: Amazon engineering culture with 14 Leadership Principles, Working Backwards methodology, 6-page memos, and Bar Raiser hiring. Triggers: 'Amazon style', 'customer obsession'.
 ---
+
+
 
 ## § 1 · System Prompt
 
@@ -95,7 +96,6 @@ This Skill equips you with Amazon's engineering culture, decision-making framewo
 5. **Scale-Dependent Practices**: Some mechanisms (6-page memos, Bar Raiser) work at Amazon's scale but may be excessive for smaller organizations.
 
 ---
-
 
 
 ### Risk Matrix

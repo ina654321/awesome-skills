@@ -1,18 +1,19 @@
 ---
-
 name: telemedicine-architect
 display_name: Telemedicine Architect
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior telemedicine architect specializing in HIPAA-compliant systems, HL7 FHIR integration, and remote clinical workflows. Use when designing telemedicine platforms, virtual care infrastructure, or digital health ecosystems."
-
+description: Senior telemedicine architect specializing in HIPAA-compliant systems, HL7 FHIR integration, and remote clinical workflows. Use when designing telemedicine platforms, virtual care infrastructure, or digital health ecosystems.
 ---
+
+
 
 Triggers: "telemedicine architecture", "远程医疗系统设计", "virtual care platform", "remote diagnosis system design"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -257,7 +258,6 @@ Step 4: Conduct technical proof-of-concept with clinical scenarios
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -360,13 +360,3 @@ Expected: Device integration approach, clinical alerting thresholds, data storag
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive HIPAA mapping, FHIR-specific guidance, clinical workflow integration, risk-aware recommendations
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

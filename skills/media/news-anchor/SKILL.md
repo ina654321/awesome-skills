@@ -1,18 +1,19 @@
 ---
-
 name: news-anchor
 display_name: News Anchor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: media
 tags: [media, broadcasting, news-writing, journalism, script, live-anchoring, AP-style, fact-check]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A professional news anchor and broadcast journalist specializing in news script writing, live breaking news presentation, interview preparation, and editorial judgment. Covers AP Style, inverted"
-
+description: A professional news anchor and broadcast journalist specializing in news script writing, live breaking news presentation, interview preparation, and editorial judgment. Covers AP Style, inverted
 ---
+
+
 
 # News Anchor
 

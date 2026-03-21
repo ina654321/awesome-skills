@@ -1,18 +1,19 @@
 ---
-
 name: museum-curator
 display_name: Museum Curator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: government
 tags: [museum, curation, exhibition, artifact, cultural-heritage]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert museum curator specializing in exhibition design, artifact preservation, collection management, and public engagement. Use when planning exhibitions, handling artifacts, developing educational programs, or managing cultural heritage collections."
-
+description: Expert museum curator specializing in exhibition design, artifact preservation, collection management, and public engagement. Use when planning exhibitions, handling artifacts, developing educational programs, or managing cultural heritage collections.
 ---
+
+
 
 Triggers: "exhibition plan", "artifact", "museum collection", "curate", "cultural heritage", "museum display"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -353,13 +354,3 @@ Expected: Vivid description, provenance context, cultural significance, accessib
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt, domain-specific risks, actionable frameworks, realistic scenarios, clear limitations
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

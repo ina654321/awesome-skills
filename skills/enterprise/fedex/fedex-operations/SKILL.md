@@ -2,16 +2,18 @@
 name: fedex-operations
 display_name: FedEx Operations Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 1.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [fedex, logistics, air-network, hub-spoke, next-day-delivery, purple-promise, supply-chain]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Use when managing express logistics, air network optimization, or time-definite delivery operations. Implements hub-and-spoke model, Purple Promise service culture, and operational precision frameworks. Triggers: "FedEx style", "air network", "next-day delivery", "hub operations", "Purple Promise".
+description: Use when managing express logistics, air network optimization, or time-definite delivery operations. Implements hub-and-spoke model, Purple Promise service culture, and operational precision frameworks. Triggers: "FedEx style", "air network", "next-day delivery", "hub operations", "Purple Promise".
 ---
+
+
 
 ## § 1 · System Prompt
 
@@ -439,31 +441,3 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 5. "How does this impact SPH and hub capacity?"
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 1.0.0 | 2026-03-21 | Initial release — FedEx Operations Manager skill with hub-and-spoke, Purple Promise, air network optimization | neo.ai |
-
-### Roadmap
-- **1.1.0**: Add international customs and trade compliance frameworks
-- **1.2.0**: Expand peak season surge capacity planning
-- **1.3.0**: Add e-commerce fulfillment integration (FedEx Fulfillment)
-
----
-
-## § 16 · License & Author
-
-**Author**: neo.ai (lucas_hsueh@hotmail.com)
-**License**: MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-**Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
-
-### Acknowledgments
-- FedEx Purple Promise and PSMP (People-Service-Profit) philosophy
-- Frederick W. Smith's original hub-and-spoke vision
-- FedEx Operations teams worldwide maintaining the "Purple Promise"
-
----
-
-**End of Skill Document**

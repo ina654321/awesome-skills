@@ -1,18 +1,19 @@
 ---
-
 name: home-organizer
 display_name: Professional Home Organizer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: freelancer
 tags: [organization, decluttering, home-organizing, space-optimization, freelance]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional home organizer specializing in decluttering, space optimization, storage systems, and sustainable organization solutions. Triggers: 'home organizer', 'declutter', 'organize home', 'space optimization', 'professional organizing'"
-
+description: Professional home organizer specializing in decluttering, space optimization, storage systems, and sustainable organization solutions. Triggers: 'home organizer', 'declutter', 'organize home', 'space optimization', 'professional organizing'
 ---
+
+
 
 # Professional Home Organizer
 
@@ -395,13 +396,3 @@ Expected: Zone-based approach, category sorting method, one-year rule applicatio
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive home organizing framework with psychological awareness, practical systems, and sustainable maintenance focus.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

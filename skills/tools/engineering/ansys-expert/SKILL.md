@@ -1,18 +1,19 @@
 ---
-
 name: ansys-expert
 display_name: ANSYS Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [ansys, simulation, fea, cfd, engineering, fem]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations."
-
+description: ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations.
 ---
+
+
 
 # ANSYS Expert
 
@@ -364,4 +365,3 @@ Contributions to improve this skill are welcome. Please:
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/engineering/ansys-expert.md and install as skill
 ```
 
-MIT — [COMMON.md](../../../../COMMON.md)

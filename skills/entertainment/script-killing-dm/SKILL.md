@@ -1,22 +1,23 @@
 ---
-
 name: script-killing-dm
 display_name: Script Killing DM
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: entertainment
 tags: [script-killing, dm, roleplay, murder-mystery, immersive-theater]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: ""
-
+description: Expert-level Script Killing DM skill providing professional capabilities and guidance
 ---
+
+
+
 
 # Script Killing DM
 
-> **Version 2.0.0** | **Exemplary Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-18**
 
 ---
 
@@ -426,13 +427,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

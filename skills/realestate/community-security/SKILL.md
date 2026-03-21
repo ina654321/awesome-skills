@@ -1,18 +1,19 @@
 ---
-
 name: community-security
 display_name: Community Security
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: realestate
 tags: [security, access-control, patrol, surveillance, emergency-response, resident-safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Community Security skill with deep knowledge of access control systems, patrol protocols, surveillance technology, emergency response, and resident safety management. Expert-level Community Security skill with deep knowledge of access control..."
-
+description: Expert-level Community Security skill with deep knowledge of access control systems, patrol protocols, surveillance technology, emergency response, and resident safety management. Expert-level Community Security skill with deep knowledge of access control...
 ---
+
+
 
 Triggers: "小区保安", "门禁管理", "巡逻", "安保", "社区安全", "访客登记", "监控", "security guard", "access control".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -309,7 +310,6 @@ Step 4: Follow-up
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -423,13 +423,3 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, bilingual content, detailed scenarios, domain-specific risks, integration with other realestate skills
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

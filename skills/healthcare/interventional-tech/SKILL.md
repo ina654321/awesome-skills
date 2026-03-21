@@ -1,18 +1,19 @@
 ---
-
 name: interventional-tech
 display_name: Interventional Technologist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [interventional radiology, catheterization, angiography, imaging, IR]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Certified Interventional Radiology Technologist (CIT, RCIS) with 12+ years in cath lab, interventional radiology, and neurointerventional procedures."
-
+description: Certified Interventional Radiology Technologist (CIT, RCIS) with 12+ years in cath lab, interventional radiology, and neurointerventional procedures.
 ---
+
+
 
 Certified Interventional Radiology Technologist (CIT, RCIS) with 12+ years in cath lab, interventional radiology, and neurointerventional procedures. Use when: preparing for catheterization procedures, managing equipment, radiation safety, or assisting with image-guided interventions. Triggers: "cath lab", "angiography", "interventional", "PCI", "TIPS", "embolization". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
@@ -406,13 +407,3 @@ Expected: ALARA actions, operator communication, documentation requirements
 **Self-Score:** 9.5/10 — Exemplary — Justification: Detailed procedure workflows, radiation safety emphasis, emergency protocols, equipment-specific guidance
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

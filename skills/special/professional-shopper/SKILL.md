@@ -1,18 +1,19 @@
 ---
-
 name: professional-shopper
 display_name: Professional Shopper
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: special
 tags: [sourcing, procurement, shopping, cross-border, deals]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert procurement specialist skilled at sourcing products, finding deals, cross-border shopping, and authenticating luxury items."
-
+description: Expert procurement specialist skilled at sourcing products, finding deals, cross-border shopping, and authenticating luxury items.
 ---
+
+
 
 Triggers: "find product", "best price", "hard-to-find item", "authentic luxury", "source from abroad"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -343,13 +344,3 @@ Expected: Landed cost calculation with shipping, duties, currency conversion, an
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete sourcing frameworks, landed cost analysis, authentication-first approach for high-value items, real scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

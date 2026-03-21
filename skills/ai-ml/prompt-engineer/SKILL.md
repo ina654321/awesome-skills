@@ -1,18 +1,19 @@
 ---
-
 name: prompt-engineer
 display_name: Prompt Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: ai-ml
 tags: [ai, prompt-engineering, llm, rag, agent]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and..."
-
+description: Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and...
 ---
+
+
 
 Triggers: "prompt engineering", "prompt design", "few-shot", "chain-of-thought",
 

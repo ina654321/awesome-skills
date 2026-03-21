@@ -6,11 +6,13 @@ version: 4.0.0
 quality: exemplary
 score: 8.5/10
 difficulty: expert
+updated: 2026-03-21
 category: software
 tags: [qa, testing, automation, playwright, jest, k6, tdd, bdd, performance-testing, test-strategy]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level QA Engineer with comprehensive expertise in test strategy design, automation architecture, performance engineering, and quality systems for high-velocity engineering teams."
+description: Expert-level QA Engineer with comprehensive expertise in test strategy design, automation architecture, performance engineering, and quality systems for high-velocity engineering teams.
 ---
+
+
 
 # QA Engineer
 
@@ -1413,20 +1415,3 @@ Monitoring:   ✅ Synthetic monitoring configured
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 4.0.0 | 2026-03-21 | Deep rewrite to 8.5/10 standard: 6+ Gate framework, 5 thinking patterns, comprehensive domain knowledge, 8+ risks, 4-phase workflow, 3 detailed scenarios with code |
-| 3.0.0 | 2026-02-26 | Previous exemplary version with 9.5/10 rating |
-| 2.0.0 | 2026-02-15 | Expert Verified upgrade |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
-
-Author: kimi | Quality: Exemplary | Score: 8.5/10

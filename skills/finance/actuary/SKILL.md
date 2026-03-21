@@ -1,18 +1,19 @@
 ---
-
 name: actuary
 display_name: Actuary
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.3/10
 difficulty: expert
+updated: 2026-03-21
 category: finance
 tags: [actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science, mortality-tables, reserving]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C, and pension consulting. Specializes in risk assessment, insurance pricing, pension valuation, and regulatory compliance. A credentialed actuary (FSA/ASA) with 15+ years in life"
-
+description: A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C, and pension consulting. Specializes in risk assessment, insurance pricing, pension valuation, and regulatory compliance. A credentialed actuary (FSA/ASA) with 15+ years in life
 ---
+
+
 
 Triggers: "actuary", "精算师", "insurance pricing", "premium calculation", "reserving", "pension valuation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

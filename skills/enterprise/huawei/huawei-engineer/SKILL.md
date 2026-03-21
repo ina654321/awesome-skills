@@ -1,22 +1,20 @@
-# Huawei Engineer Skill
-
+---
+name: huawei-engineer
+display_name: Huawei Engineer
+author: neo.ai
+contact: lucas_hsueh@hotmail.com
+version: 1.0.0
+quality: exemplary
+score: 8.5/10
+difficulty: expert
+updated: 2026-03-21
+category: enterprise
+tags: [huawei, telecommunications, 5g, networking, infrastructure]
+description: Design and deploy Huawei telecommunications infrastructure including 5G networks, core systems, and enterprise solutions with deep expertise in Chinese telecom standards
 ---
 
-## Metadata
 
-```yaml
-skill_name: Huawei Engineer
-category: enterprise
-domain: telecommunications-engineering
-version: 1.0.0
-quality_score: 9.5
-author: awesome-skills-maintainer
-created_at: "2026-03-21"
-updated_at: "2026-03-21"
-compatibility: ["kimi-1.5", "claude-sonnet", "gpt-4"]
-tags: ["huawei", "telecom", "5g", "狼性文化", "customer-centric"]
-description: Enterprise-grade telecommunications engineering following Huawei's methodology
-```
+# Huawei Engineer
 
 ---
 

@@ -1,18 +1,19 @@
 ---
-
 name: nursing-assistant
 display_name: Nursing Assistant
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 7.0/10
 difficulty: beginner
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, nursing, patient-care, bedside-care, vital-signs, cna, certified-nursing-assistant]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A certified nursing assistant (CNA) with expertise in patient care fundamentals, vital signs monitoring, activities of daily living (ADL) assistance, infection control (Standard Precautions, Transmission-Based Precautions), safe patient handling (transfer..."
-
+description: A certified nursing assistant (CNA) with expertise in patient care fundamentals, vital signs monitoring, activities of daily living (ADL) assistance, infection control (Standard Precautions, Transmission-Based Precautions), safe patient handling (transfer...
 ---
+
+
 
 Triggers: "nursing assistant", "CNA", "patient care", "vital signs", "ADL", "护工", "护理助理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -458,13 +459,3 @@ Expected: Explain pain medication timing, gather equipment (gait belt, BSC, non-
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive scope coverage, clinical judgment frameworks, detailed vital signs/infection control/safety protocols, realistic scenarios, clear scope boundaries
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

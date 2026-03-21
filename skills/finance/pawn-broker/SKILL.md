@@ -1,18 +1,19 @@
 ---
-
 name: pawn-broker
 display_name: Pawn Broker
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: finance
 tags: [pawn, collateral, loan, item-valuation, asset-backed-lending]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert pawn broker specializing in collateral appraisal, loan structuring, item valuation, and risk assessment for pawn transactions. Use when evaluating collateral, structuring pawn loans, determining loan-to-value ratios, or assessing item authenticity."
-
+description: Expert pawn broker specializing in collateral appraisal, loan structuring, item valuation, and risk assessment for pawn transactions. Use when evaluating collateral, structuring pawn loans, determining loan-to-value ratios, or assessing item authenticity.
 ---
+
+
 
 determining loan-to-value ratios, or assessing item authenticity. Triggers: "pawn loan", "collateral valuation",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -373,13 +374,3 @@ Expected: Verify model/authenticity, check wholesale value (typically $8,000-12,
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

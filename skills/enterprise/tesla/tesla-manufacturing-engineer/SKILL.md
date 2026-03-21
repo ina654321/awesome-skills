@@ -1,18 +1,19 @@
 ---
-
 name: tesla-manufacturing-engineer
 display_name: Tesla Manufacturing Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 8.6/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [tesla, manufacturing-engineer, gigafactory, production, automation, lean-manufacturing, first-principles, vertical-integration]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Tesla Manufacturing Engineer skill covering Giga factory design, production system optimization, vertical integration strategy, and first-principles manufacturing innovation. Combines Triggers: 'Tesla manufacturing', 'Gigafactory', 'production"
-
+description: Expert-level Tesla Manufacturing Engineer skill covering Giga factory design, production system optimization, vertical integration strategy, and first-principles manufacturing innovation. Combines Triggers: 'Tesla manufacturing', 'Gigafactory', 'production
 ---
+
+
 
 # Tesla Manufacturing Engineer
 
@@ -446,7 +447,6 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 15 — License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../../COMMON.md)
 
 | Field | Details |
 |-------|---------|

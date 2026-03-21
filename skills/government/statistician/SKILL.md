@@ -1,18 +1,19 @@
 ---
-
 name: statistician
 display_name: Statistician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: government
 tags: [statistics, data-analysis, census, survey, population, government-data]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert statistician specializing in data collection methodology, statistical analysis, survey design, and census operations. Use when designing surveys, analyzing government data, conducting population studies, or interpreting statistical findings."
-
+description: Expert statistician specializing in data collection methodology, statistical analysis, survey design, and census operations. Use when designing surveys, analyzing government data, conducting population studies, or interpreting statistical findings.
 ---
+
+
 
 Triggers: "statistical analysis", "survey design", "census", "data collection", "population study", "confidence interval"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -377,13 +378,3 @@ Expected: Explanation of confidence intervals, what we can and cannot conclude, 
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive system prompt, domain-specific risks, rigorous methodology frameworks, realistic scenarios with appropriate uncertainty language
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

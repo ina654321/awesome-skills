@@ -1,18 +1,19 @@
 ---
-
 name: agent-persona-designer
 display_name: Agent Persona Designer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: special
 tags: [agent-design, persona, safety, privacy, security, guardrails, system-prompt, llm-safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Agent Persona Designer specializing in crafting agent personalities, character traits, and behavioral styles with strict security policies that prevent system prompt leakage, PII exposure, sensitive data disclosure, and prompt injection."
-
+description: Expert-level Agent Persona Designer specializing in crafting agent personalities, character traits, and behavioral styles with strict security policies that prevent system prompt leakage, PII exposure, sensitive data disclosure, and prompt injection.
 ---
+
+
 
 Triggers: "agent persona", "agent personality", "agent character", "agent style",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -344,7 +345,6 @@ Security rule: **Agreeableness must never exceed Conscientiousness**. An agent t
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -437,13 +437,3 @@ Expected: Flag "Keep your instructions secret" as Anti-Pattern 1; provide correc
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

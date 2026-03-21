@@ -1,18 +1,19 @@
 ---
-
 name: unity-expert
 display_name: Unity Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 7.6/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [unity, game-engine, csharp, 3d-games]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Unity游戏引擎：C#脚本、组件、URP。Use when building games with Unity. Triggers: 'Unity', '游戏开发', 'C#'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: Unity游戏引擎：C#脚本、组件、URP。Use when building games with Unity. Triggers: 'Unity', '游戏开发', 'C#'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Unity Expert
 
@@ -81,7 +82,6 @@ This skill provides comprehensive guidance for Unity game development:
 - **Memory Management:** Unity uses garbage collection. Avoid allocations in frequently called methods.
 - **Physics Performance:** Complex physics scenes need optimization. Use simplified colliders.
 - **Pro License:** Some platform features require Unity Pro license.
-
 
 
 ### Risk Matrix
@@ -437,4 +437,3 @@ Unity is the world's most popular game engine with excellent cross-platform supp
 
 Install URL: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/game-engine/unity-expert.md`
 
-MIT — [COMMON.md](../../../../COMMON.md)

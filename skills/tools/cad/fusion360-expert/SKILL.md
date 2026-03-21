@@ -1,18 +1,19 @@
 ---
-
 name: fusion360-expert
 display_name: Fusion 360 Expert Skill
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: cad
 tags: [fusion360, cad, cam, 3d-printing, parametric-modeling]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, creating 3D prints, or preparing CNC manufacturing. Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, creating 3D..."
-
+description: Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, creating 3D prints, or preparing CNC manufacturing. Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use when designing mechanical parts, creating 3D...
 ---
+
+
 
 Triggers: "fusion360建模", "fusion360雕刻", "3d打印"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

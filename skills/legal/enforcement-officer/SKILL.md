@@ -1,18 +1,19 @@
 ---
-
 name: enforcement-officer
 display_name: Enforcement Officer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: legal
 tags: [legal, enforcement, compliance, judgment-execution, asset-seizure, regulatory]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert enforcement officer specializing in judgment enforcement, asset identification and seizure, legal compliance, and regulatory execution. Use when executing court judgments, locating assets, enforcing legal orders, or ensuring regulatory compliance."
-
+description: Expert enforcement officer specializing in judgment enforcement, asset identification and seizure, legal compliance, and regulatory execution. Use when executing court judgments, locating assets, enforcing legal orders, or ensuring regulatory compliance.
 ---
+
+
 
 Triggers: "enforcement officer", "judgment execution", "asset seizure", "legal enforcement", "compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -392,13 +393,3 @@ Expected: Explanation of exemption process, verification steps, legal framework
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive enforcement framework, clear decision gates, procedural precision, realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

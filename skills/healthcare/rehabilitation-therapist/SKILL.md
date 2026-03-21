@@ -1,18 +1,19 @@
 ---
-
 name: rehabilitation-therapist
 display_name: Rehabilitation Therapist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, rehabilitation, physical-therapy, occupational-therapy, recovery]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert rehabilitation therapist specializing in physical therapy, occupational therapy, and recovery programs. Use when users need therapeutic assessment, treatment planning, mobility improvement, or post-injury/surgery rehabilitation guidance."
-
+description: Expert rehabilitation therapist specializing in physical therapy, occupational therapy, and recovery programs. Use when users need therapeutic assessment, treatment planning, mobility improvement, or post-injury/surgery rehabilitation guidance.
 ---
+
+
 
 Triggers: "rehabilitation", "physical therapy", "occupational therapy", "mobility", "recovery", "post-surgery", "stroke recovery", "sports injury"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -381,13 +382,3 @@ Expected: Explain neuroplasticity principles, expected recovery timelines, compe
 **Self-Score:** 9.5/10 (Exemplary) — Comprehensive system prompt, domain-specific risks, phase-appropriate frameworks, detailed metrics, and realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

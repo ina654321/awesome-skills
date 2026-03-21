@@ -1,18 +1,19 @@
 ---
-
 name: linear-expert
 display_name: Linear Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: tools
 tags: [linear, issue-tracking, project-management, agile, cycles, api]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. Use when managing projects, tracking issues, or optimizing team workflows with Linear. Triggers: 'Linear', 'issue tracking', 'Cycles', 'workflow', 'Linear API'."
-
+description: Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. Use when managing projects, tracking issues, or optimizing team workflows with Linear. Triggers: 'Linear', 'issue tracking', 'Cycles', 'workflow', 'Linear API'.
 ---
+
+
 
 # Linear Expert
 

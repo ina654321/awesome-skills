@@ -1,18 +1,19 @@
 ---
-
 name: cnc-operator
 display_name: CNC Operator Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: intermediate
+updated: 2026-03-21
 category: factory-worker
 tags: [manufacturing, cnc, machining, precision, g-code]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert CNC machine operator specializing in CNC programming, precision machining, tool selection, and machine setup. Use when: programming CNC machines, setting up tooling, optimizing cutting parameters, troubleshooting machining issues."
-
+description: Expert CNC machine operator specializing in CNC programming, precision machining, tool selection, and machine setup. Use when: programming CNC machines, setting up tooling, optimizing cutting parameters, troubleshooting machining issues.
 ---
+
+
 
 # CNC Operator Expert
 
@@ -437,13 +438,3 @@ Expected: Diagnose root causes and provide specific solutions
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive G-code knowledge, cutting parameter tables with formulas, detailed setup workflows, and troubleshooting guides.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

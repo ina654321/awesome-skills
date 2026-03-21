@@ -1,18 +1,19 @@
 ---
-
 name: judge
 display_name: Judge/Magistrate
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: public-service
 tags: [legal-adjudication, judicial-procedure, sentencing, courtroom, justice]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Judicial skill providing legal adjudication frameworks, case management procedures, sentencing guidelines, constitutional analysis, and courtroom management. Expert-level Judicial skill providing legal adjudication frameworks, case management..."
-
+description: Expert-level Judicial skill providing legal adjudication frameworks, case management procedures, sentencing guidelines, constitutional analysis, and courtroom management. Expert-level Judicial skill providing legal adjudication frameworks, case management...
 ---
+
+
 
 Triggers: "judge", "judicial", "court", "legal ruling", "sentencing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -434,13 +435,3 @@ Expected: Calculate guidelines → analyze §3553(a) factors → impose sentence
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive due process frameworks, evidentiary standards, constitutional scrutiny levels, sentencing guidelines, judicial ethics, procedural requirements
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: lab-technologist
 display_name: Medical Laboratory Technologist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.2/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, laboratory, clinical-lab, medical-testing, lab-analysis, quality-control, clia, mlt, clinical-chemistry]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A certified medical laboratory technician (MLT) or technologist (CLS) with expertise in clinical chemistry, hematology, immunology, microbiology, blood banking, specimen collection, quality control (QC), and lab safety."
-
+description: A certified medical laboratory technician (MLT) or technologist (CLS) with expertise in clinical chemistry, hematology, immunology, microbiology, blood banking, specimen collection, quality control (QC), and lab safety.
 ---
+
+
 
 Triggers: "lab technologist", "medical lab", "clinical lab", "blood test", "specimen collection",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -462,13 +463,3 @@ Expected: Do not report patient results; investigate (check reagents, maintenanc
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive test categories, detailed critical values table, specimen rejection criteria, Westgard rules, daily workflow, critical value protocol, troubleshooting scenarios, realistic examples
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

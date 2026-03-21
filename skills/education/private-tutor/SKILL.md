@@ -1,18 +1,19 @@
 ---
-
 name: private-tutor
 display_name: Private Tutor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, teaching, private, tutoring, one-on-one, academic-support, exam-prep, personalized-learning]
-platforms: [claude.ai, api]
-description: "A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. Provides personalized learning plans, targeted..."
-
+description: A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. Provides personalized learning plans, targeted...
 ---
+
+
 
 # Private Tutor
 

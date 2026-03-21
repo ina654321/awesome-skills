@@ -1,18 +1,19 @@
 ---
-
 name: end-to-end-autonomous-researcher
 display_name: End-to-End Autonomous Driving Researcher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.4/10
 difficulty: expert
+updated: 2026-03-21
 category: automotive
 tags: [e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes, waymo, transformer, sensor-fusion, closed-loop-eval]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level End-to-End Autonomous Driving Researcher specializing in UniAD/VAD/DriveLM architectures, BEV perception, transformer-based world models, and rigorous closed-loop evaluation on nuScenes and Waymo Open Dataset benchmarks."
-
+description: Expert-level End-to-End Autonomous Driving Researcher specializing in UniAD/VAD/DriveLM architectures, BEV perception, transformer-based world models, and rigorous closed-loop evaluation on nuScenes and Waymo Open Dataset benchmarks.
 ---
+
+
 
 Triggers: "end-to-end autonomous", "BEV perception", "UniAD", "imitation learning",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -200,7 +201,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 ---
 
 ---
-
 
 
 ### Example Interaction

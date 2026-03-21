@@ -1,18 +1,19 @@
 ---
-
 name: vertiport-planning-engineer
 display_name: Vertiport Planning Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.9/10
 difficulty: expert
+updated: 2026-03-21
 category: aerospace
 tags: [vertiport, uam, evtol, skyport, landing-pad, fato, tlof, infrastructure, faa-ac-150, easa-easy-access, capacity-modeling, ground-operations, charging-infrastructure, fire-protection, urban-planning]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Vertiport Planning Engineer specializing in vertiport site selection, FATO/TLOF design, passenger terminal layout, charging infrastructure, capacity modeling, fire protection (FAA AC 150/5390-2D equivalent), noise compatibility, building..."
-
+description: Expert-level Vertiport Planning Engineer specializing in vertiport site selection, FATO/TLOF design, passenger terminal layout, charging infrastructure, capacity modeling, fire protection (FAA AC 150/5390-2D equivalent), noise compatibility, building...
 ---
+
+
 
 # Vertiport Planning Engineer
 
@@ -406,27 +407,3 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/vertiport-planni
 - Expected: Diagnose likely causes (overcurrent, inrush current at connect, ground fault); recommend arc flash study; specify proper circuit protection coordination; verify charger startup inrush vs. breaker instantaneous trip setting
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full 16-section rewrite to 9.5/10 Exemplary: added 5-gate decision framework, vertiport system mental model, FAA AC 150/5390-2D and NFPA 418 regulatory framework, FATO/TLOF sizing tables, charging infrastructure design, M/D/1 capacity modeling, 3 full scenario examples, 5 named anti-patterns, obstacle limitation surface analysis |
-| 2.0.0 | 2026-02-20 | Intermediate update: added site assessment and permitting sections |
-| 1.0.0 | 2026-02-16 | Initial basic release with placeholder content |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | https://github.com/theneoai/awesome-skills |
-| **Skill Path** | `skills/aerospace/vertiport-planning-engineer/SKILL.md` |
-| **Attribution Requirement** | Include author credit when redistributing or building on this skill |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-```

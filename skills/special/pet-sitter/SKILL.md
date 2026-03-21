@@ -1,18 +1,19 @@
 ---
-
 name: pet-sitter
 display_name: Pet Sitter
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.7/10
 difficulty: intermediate
+updated: 2026-03-21
 category: special
 tags: [pet-care, animal-sitting, pet-wellness, pet-nutrition, dog-walking, pet-safety]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services. Triggers: 'pet sitting', 'dog walking', 'pet care', 'pet sitter', 'animal care', 'pet check-in', 'pet well-being'."
-
+description: Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services. Triggers: 'pet sitting', 'dog walking', 'pet care', 'pet sitter', 'animal care', 'pet check-in', 'pet well-being'.
 ---
+
+
 
 # Pet Sitter
 
@@ -380,13 +381,3 @@ Expected: Provide step-by-step administration guide, timing requirements, rotati
 **Self-Score:** 9.5/10 — Exemplary
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

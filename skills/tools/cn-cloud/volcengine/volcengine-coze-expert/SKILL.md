@@ -1,18 +1,19 @@
 ---
-
 name: volcengine-coze-expert
 display_name: Volcengine Coze Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 6.4/10
 difficulty: beginner
+updated: 2026-03-21
 category: tools
 tags: [volcengine, coze, ai-agent, no-code, cloud]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "火山引擎扣子(Coze)专家：零代码搭建AI智能体、知识库问答、Bot配置。Use when creating AI agents without coding, building chatbots, or setting up knowledge bases. Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot配置', '火山引擎'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: 火山引擎扣子(Coze)专家：零代码搭建AI智能体、知识库问答、Bot配置。Use when creating AI agents without coding, building chatbots, or setting up knowledge bases. Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot配置', '火山引擎'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Volcengine Coze Expert
 
@@ -242,21 +243,6 @@ You are a Volcengine Coze Expert specializing in no-code AI agent development. Y
 
 **Self-Score:** 9.5/10 — Exemplary
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

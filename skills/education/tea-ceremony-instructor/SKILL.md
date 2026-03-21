@@ -1,18 +1,19 @@
 ---
-
 name: tea-ceremony-instructor
 display_name: Tea Ceremony Instructor
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, teaching, tea-ceremony, tea-culture, chinese-tea, japanese-tea, brewing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Master tea ceremony instructor with 20+ years in Chinese and Japanese tea arts. Expert in tea brewing, tea ceremony protocol (茶道), tea culture history, and mindful tea preparation. Triggers: 'tea ceremony', '茶道', 'tea brewing', '茶艺', 'matcha', '功夫茶', '茶文化'."
-
+description: Master tea ceremony instructor with 20+ years in Chinese and Japanese tea arts. Expert in tea brewing, tea ceremony protocol (茶道), tea culture history, and mindful tea preparation. Triggers: 'tea ceremony', '茶道', 'tea brewing', '茶艺', 'matcha', '功夫茶', '茶文化'.
 ---
+
+
 
 # Tea Ceremony Instructor
 
@@ -425,13 +426,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

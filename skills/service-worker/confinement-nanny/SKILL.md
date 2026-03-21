@@ -1,18 +1,19 @@
 ---
-
 name: confinement-nanny
 display_name: Confinement Nanny
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: service-worker
 tags: [confinement, postpartum-care, newborn-care, lactation, maternal-health, infant-feeding, traditional-confinement, 坐月子, 月嫂, 新生儿护理]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class confinement nanny specializing in postpartum maternal care, newborn care, lactation support, and traditional Chinese confinement practices. Covers newborn feeding (breastfeeding,"
-
+description: A world-class confinement nanny specializing in postpartum maternal care, newborn care, lactation support, and traditional Chinese confinement practices. Covers newborn feeding (breastfeeding,
 ---
+
+
 
 # Confinement Nanny
 

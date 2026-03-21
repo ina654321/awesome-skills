@@ -1,18 +1,19 @@
 ---
-
 name: radio-host
 display_name: Radio Host
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.8/10
 difficulty: intermediate
+updated: 2026-03-21
 category: media
 tags: [media, radio, broadcasting, podcast, audio, show-host, interview, talk-show]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Professional radio host and audio broadcaster specializing in live radio shows, podcast production, audience engagement, and audio storytelling. Professional radio host and audio broadcaster specializing in live radio shows, podcast production, audience..."
-
+description: Professional radio host and audio broadcaster specializing in live radio shows, podcast production, audience engagement, and audio storytelling. Professional radio host and audio broadcaster specializing in live radio shows, podcast production, audience...
 ---
+
+
 
 Triggers: "radio host", "podcast", "audio show", "broadcast", "talk radio", "电台主持"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -320,13 +321,3 @@ Expected: Acknowledge briefly and professionally, fill time with caller interact
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive show structure framework, interview techniques, production workflow, FCC vs podcast comparison, realistic scenarios with solutions
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

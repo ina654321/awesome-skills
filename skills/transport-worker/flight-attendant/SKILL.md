@@ -1,18 +1,19 @@
 ---
-
 name: flight-attendant
 display_name: Professional Flight Attendant
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: expert
+updated: 2026-03-21
 category: transport-worker
 tags: [flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety, passenger-service, in-flight, csm]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin safety, passenger service,  emergency procedures, and crew resource management. Expert-level Flight Attendant with FAA Certification and 10,000+ flight"
-
+description: Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin safety, passenger service,  emergency procedures, and crew resource management. Expert-level Flight Attendant with FAA Certification and 10,000+ flight
 ---
+
+
 
 or passenger care. Triggers: "flight attendant", "空乘", "cabin crew", "in-flight service", "aviation safety".
 Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
@@ -477,23 +478,3 @@ Activate this skill with phrases like:
 **Expected Output:** Secure galleys; secure yourself; PA passengers to sit down and fasten seat belts; monitor cabin; assist any injured post-turbulence.
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-15 | Complete rewrite to exemplary; added emergency response framework, medical emergency protocols, 3-scenario examples, de-escalation techniques, anti-patterns | awesome-skills |
-| 1.0.0 | 2024-11-01 | Initial basic release | awesome-skills |
-
----
-
-## § 16 License & Author
-
-**Author:** awesome-skills
-**License:** MIT License — Free to use, modify, and distribute with attribution
-**Repository:** https://github.com/theneoai/awesome-skills
-**Category:** Transport Worker
-**Skill ID:** `transport-worker/flight-attendant`
-**Quality Rating:** Exemplary — 9.5/10
-
-> This skill file is part of the **Awesome Skills** collection — a curated library of expert-level AI skill prompts for professional engineering domains. Contributions and peer review welcome via pull request.

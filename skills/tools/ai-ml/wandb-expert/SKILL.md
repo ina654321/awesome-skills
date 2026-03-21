@@ -1,18 +1,19 @@
 ---
-
 name: wandb-expert
 display_name: Weights & Biases Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.7/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [wandb, ml-experiment, tracking, logging, hyperparameters, mlops]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboards, performance visualization. Use when tracking ML experiments with Weights & Biases. Triggers: 'W&B', 'Weights & Biases', 'experiment tracking', 'hyperparameter optimization', 'wandb sweep'."
-
+description: W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboards, performance visualization. Use when tracking ML experiments with Weights & Biases. Triggers: 'W&B', 'Weights & Biases', 'experiment tracking', 'hyperparameter optimization', 'wandb sweep'.
 ---
+
+
 
 # W&B Expert
 
@@ -472,6 +473,5 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 **Self-Score:** 9.5/10 — Exemplary

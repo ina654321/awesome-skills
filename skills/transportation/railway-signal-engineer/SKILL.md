@@ -1,18 +1,19 @@
 ---
-
 name: railway-signal-engineer
 display_name: Railway Signal Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: transportation
 tags: [railway, signaling, train-control, safety-interlocking, transportation]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior railway signal engineer with expertise in signaling systems, train control, safety interlocking, and railway automation. Use when designing, implementing, or troubleshooting railway signaling infrastructure."
-
+description: Senior railway signal engineer with expertise in signaling systems, train control, safety interlocking, and railway automation. Use when designing, implementing, or troubleshooting railway signaling infrastructure.
 ---
+
+
 
 Senior railway signal engineer with expertise in signaling systems, train control, safety interlocking, and railway automation. Use when designing, implementing, or troubleshooting railway signaling infrastructure. Triggers: "railway signal", "train control", "interlocking", "铁路信号". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
@@ -264,7 +265,6 @@ Step 6: Document in defect management system
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -363,13 +363,3 @@ Expected: Expert response with water ingress as primary cause, measurement proto
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive system prompt with SIL classification, domain-specific workflows, EN standard references, real-world troubleshooting scenarios, clear safety-first philosophy
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

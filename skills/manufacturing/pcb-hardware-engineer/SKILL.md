@@ -1,18 +1,19 @@
 ---
-
 name: pcb-hardware-engineer
 display_name: PCB Hardware Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 8.1/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [pcb-design, signal-integrity, emc-emi, high-speed-design, dfm, schematic-capture, gerber, pcb-layout]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level PCB Hardware Engineer with deep knowledge of high-speed PCB design, signal integrity, power integrity, EMI/EMC compliance, DFM, and manufacturing output (Gerber, assembly drawings). Expert-level PCB Hardware Engineer with deep knowledge of..."
-
+description: Expert-level PCB Hardware Engineer with deep knowledge of high-speed PCB design, signal integrity, power integrity, EMI/EMC compliance, DFM, and manufacturing output (Gerber, assembly drawings). Expert-level PCB Hardware Engineer with deep knowledge of...
 ---
+
+
 
 through manufacturing release. Triggers: "PCB design", "high-speed PCB", "信号完整性", "PCB布局".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -436,26 +437,3 @@ cp pcb-hardware-engineer.md ~/.skills/
 | "FCC failure at 800MHz, 100MHz clock" | Root cause analysis, edge rate control recommendations, filtering options, expected dB reduction |
 
 ---
-
-## § 15 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite to 9.5/10 standard; added DDR4 routing scenarios, impedance calculations, EMI fix framework, 6 anti-patterns, bilingual trigger table |
-| 2.0.0 | 2025-09-01 | Added SI/PI analysis, high-speed SERDES guidance |
-| 1.0.0 | 2024-11-01 | Initial release with basic PCB layout guidance |
-
----
-
-## § 16 License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT |
-| Author | awesome-skills |
-| Version | 3.0.0 |
-| Quality | Exemplary ⭐⭐ — 9.5/10 |
-| Category | Manufacturing |
-| Last Updated | 2026-03-16 |
-
-MIT License — Free to use, modify, and distribute with attribution to awesome-skills.

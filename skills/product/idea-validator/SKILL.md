@@ -1,5 +1,4 @@
 ---
-
 name: idea-validator
 display_name: Idea Validator
 author: aakashg
@@ -7,12 +6,13 @@ version: 3.0.0
 quality: community
 score: 6.8/10
 difficulty: beginner
+updated: 2026-03-21
 category: product
 tags: [product-management, validation, ideation, startup, discovery]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Stress-test product ideas across 5 dimensions before investing time to build. Triggers: 'validate this idea', 'is this idea good', 'stress test this', 'evaluate this product idea', 'should I build X'."
-
+description: Stress-test product ideas across 5 dimensions before investing time to build. Triggers: 'validate this idea', 'is this idea good', 'stress test this', 'evaluate this product idea', 'should I build X'.
 ---
+
+
 
 # Idea Validator
 

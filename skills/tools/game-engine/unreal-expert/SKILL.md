@@ -1,18 +1,19 @@
 ---
-
 name: unreal-expert
 display_name: Unreal Engine Expert
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 7.8/10
 difficulty: expert
+updated: 2026-03-21
 category: tools
 tags: [unreal, game-engine, blueprints, cplusplus]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Unreal Engine：C++、Blueprint、游戏开发。Use when building games with Unreal. Triggers: 'Unreal', '游戏引擎', 'Blueprint'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
-
+description: Unreal Engine：C++、Blueprint、游戏开发。Use when building games with Unreal. Triggers: 'Unreal', '游戏引擎', 'Blueprint'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 ---
+
+
 
 # Unreal Expert
 
@@ -81,7 +82,6 @@ This skill provides comprehensive guidance for Unreal Engine development:
 - **Blueprint-C++ Boundary:** Changes to C++ headers require editor restart. Use BlueprintCallable for quick iteration.
 - **Engine Version Upgrades:** Major updates may break plugins and source code. Maintain backups.
 - **Shipping Builds:** Always test Shipping build locally before distribution.
-
 
 
 ### Risk Matrix
@@ -379,4 +379,3 @@ Unreal Engine 5 offers cutting-edge rendering with Nanite and Lumen, but require
 
 Install URL: `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/game-engine/unreal-expert.md`
 
-MIT — [COMMON.md](../../../../COMMON.md)

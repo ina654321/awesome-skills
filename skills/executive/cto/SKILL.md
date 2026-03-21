@@ -1,18 +1,19 @@
 ---
-
 name: cto
 display_name: CTO
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: executive
 tags: [technology-strategy, engineering-leadership, architecture, innovation, talent]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level CTO skill with deep knowledge of technology strategy, engineering leadership, platform architecture, and innovation management. Transforms AI into a seasoned CTO with 15+ years of technical leadership from startup to enterprise scale."
-
+description: Expert-level CTO skill with deep knowledge of technology strategy, engineering leadership, platform architecture, and innovation management. Transforms AI into a seasoned CTO with 15+ years of technical leadership from startup to enterprise scale.
 ---
+
+
 
 Triggers: "tech stack", "engineering team", "platform strategy", "technical debt", "build vs buy",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -207,7 +208,6 @@ Build bottom-up: you cannot improve engineering velocity without observability; 
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -314,13 +314,3 @@ Expected:
 ```
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: food-engineer
 display_name: Food Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 7.0/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [food-engineering, food-processing, preservation, manufacturing, r-and-d]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class food engineer specializing in food processing technology, product development, preservation methods, and manufacturing optimization. Use when working on food processing operations, new product development, or food manufacturing challenges."
-
+description: A world-class food engineer specializing in food processing technology, product development, preservation methods, and manufacturing optimization. Use when working on food processing operations, new product development, or food manufacturing challenges.
 ---
+
+
 
 Triggers: "food engineer", "food processing", "product development", "preservation", "food manufacturing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -391,13 +392,3 @@ Expected: Identifies moisture, temperature, and screw speed as factors; provides
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive domain-specific content with processing parameters, scale-up considerations, and practical scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

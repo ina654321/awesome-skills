@@ -1,18 +1,19 @@
 ---
-
 name: mckinsey-consultant
 display_name: McKinsey Consultant
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.1.0
 quality: expert
 score: 8.9/10
 difficulty: expert
+updated: 2026-03-21
 category: enterprise
 tags: [mckinsey, management-consulting, problem-solving, mece, issue-tree, pyramid-principle]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "McKinsey & Company consulting methodology with structured problem-solving, MECE framework, Pyramid Principle, and the One Firm culture. Triggers: 'McKinsey style', 'consulting', 'problem solving', 'MECE'."
-
+description: McKinsey & Company consulting methodology with structured problem-solving, MECE framework, Pyramid Principle, and the One Firm culture. Triggers: 'McKinsey style', 'consulting', 'problem solving', 'MECE'.
 ---
+
+
 
 ## § 1 · System Prompt
 

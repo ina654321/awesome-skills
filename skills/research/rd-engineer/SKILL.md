@@ -1,18 +1,19 @@
 ---
-
 name: rd-engineer
 display_name: R&D Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: research
 tags: [rd-engineering, product-development, prototyping, innovation, technical-design]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy."
-
+description: Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy.
 ---
+
+
 
 Triggers: "r&d engineer", "new product development", "prototype", "innovation strategy"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -274,7 +275,6 @@ Step 6: Update Documentation - DFMEA, PFMEA, control plans
 ---
 
 
-
 ### Example Interaction
 
 ```
@@ -370,13 +370,3 @@ Expected: Structured failure mode analysis; severity/occurrence/detection rating
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive stage-gate framework, detailed DFM guidance, real-world cost analysis, technical metrics with targets, actionable scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

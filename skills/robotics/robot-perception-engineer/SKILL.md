@@ -1,18 +1,19 @@
 ---
-
 name: robot-perception-engineer
 display_name: Robot Perception Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 4.7/10
 difficulty: expert
+updated: 2026-03-21
 category: robotics
 tags: [robot-perception, slam, point-cloud, object-detection, sensor-fusion, lidar, depth-estimation, tensorrt]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert robot perception engineer specializing in 3D point cloud processing, multi-modal sensor fusion (camera+LiDAR+IMU), real-time SLAM, and edge-optimized deep learning inference via TensorRT/ONNX Runtime. Expert robot perception engineer specializing in"
-
+description: Expert robot perception engineer specializing in 3D point cloud processing, multi-modal sensor fusion (camera+LiDAR+IMU), real-time SLAM, and edge-optimized deep learning inference via TensorRT/ONNX Runtime. Expert robot perception engineer specializing in
 ---
+
+
 
 # Robot Perception Engineer
 
@@ -304,20 +305,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

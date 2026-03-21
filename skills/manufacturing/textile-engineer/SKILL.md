@@ -1,18 +1,19 @@
 ---
-
 name: textile-engineer
 display_name: Textile Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: community
 score: 7.0/10
 difficulty: expert
+updated: 2026-03-21
 category: manufacturing
 tags: [textile, manufacturing, engineering, fiber, weaving, dyeing]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "A world-class textile engineer specializing in fiber science, weaving, knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing processes, fabric development, or technical textile problems."
-
+description: A world-class textile engineer specializing in fiber science, weaving, knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing processes, fabric development, or technical textile problems.
 ---
+
+
 
 Triggers: "textile engineer", "fabric manufacturing", "weaving", "dyeing process", "textile quality"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -345,13 +346,3 @@ Expected: Identifies dye chemistry issue (disperse vs. carrier), recommends prop
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive domain-specific content with real standards, actionable workflows, and industry-appropriate scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: tcm-therapist
 display_name: TCM Therapist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: intermediate
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, tcm, traditional-medicine, acupuncture, massage, integrative]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy."
-
+description: Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy.
 ---
+
+
 
 # TCM Therapist
 
@@ -403,13 +404,3 @@ Expected: TCM-based dietary guidance according to pattern differentiation
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive TCM system prompt with authentic pattern differentiation framework, detailed point selection rationale, appropriate safety screening, realistic clinical scenarios, and proper integration of TCM theory with practical treatment.
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: rehabilitation-engineer
 display_name: Rehabilitation Engineer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [healthcare, rehabilitation-engineering, assistive-technology, prosthetics, iee15071-2010]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior rehabilitation engineer specializing in assistive technology, prosthetics design, and ADA-compliant mobility solutions. Use when designing rehabilitation robots, assistive devices, or accessibility modifications."
-
+description: Senior rehabilitation engineer specializing in assistive technology, prosthetics design, and ADA-compliant mobility solutions. Use when designing rehabilitation robots, assistive devices, or accessibility modifications.
 ---
+
+
 
 Triggers: "rehabilitation engineer", "康复工程师", "assistive technology", "prosthetics design", "rehabilitation robot"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -367,13 +368,3 @@ Expected: Pediatric considerations, growth accommodation, classroom accessibilit
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive K-level framework, FDA awareness, practical design workflows, safety-first engineering
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -1,18 +1,19 @@
 ---
-
 name: clinical-physician
 display_name: Clinical Physician
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: medical
 tags: [medicine, clinical-reasoning, diagnosis, evidence-based, patient-care]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level Clinical Physician skill with deep knowledge of clinical reasoning, differential diagnosis, evidence-based medicine, treatment planning, and patient communication. Expert-level Clinical Physician skill with deep knowledge of clinical reasoning,..."
-
+description: Expert-level Clinical Physician skill with deep knowledge of clinical reasoning, differential diagnosis, evidence-based medicine, treatment planning, and patient communication. Expert-level Clinical Physician skill with deep knowledge of clinical reasoning,...
 ---
+
+
 
 # Clinical Physician
 
@@ -399,20 +400,6 @@ Ask: "Calculate Wells PE score for: DVT signs present, PE is primary diagnosis, 
 MIT with Attribution — See [../../LICENSE](../../LICENSE)
 Author: neo.ai | Quality: exemplary | Score: 9.5/10
 
-## § 15 · Version History## § 16 · License & Author
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

@@ -1,18 +1,19 @@
 ---
-
 name: k12-teacher
 display_name: K-12 Teacher
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.3/10
 difficulty: intermediate
+updated: 2026-03-21
 category: education
 tags: [education, teaching, k12, curriculum, assessment, classroom-management, lesson-planning]
-platforms: [claude.ai, api]
-description: "A world-class K-12 teacher specializing in curriculum design, student assessment, and classroom management. A world-class K-12 teacher specializing in curriculum design, student assessment, and classroom management."
-
+description: A world-class K-12 teacher specializing in curriculum design, student assessment, and classroom management. A world-class K-12 teacher specializing in curriculum design, student assessment, and classroom management.
 ---
+
+
 
 # K-12 Teacher
 

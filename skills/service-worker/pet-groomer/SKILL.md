@@ -1,18 +1,19 @@
 ---
-
 name: pet-groomer
 display_name: Pet Groomer
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 9.5/10
 difficulty: expert
+updated: 2026-03-21
 category: service-worker
 tags: [pet-groomer, dog-grooming, cat-grooming, grooming, breed-standard, bath, haircut, 宠物美容, 宠物美容师, 狗狗美容]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert pet groomer with 10+ years specializing in dog and cat grooming, breed-specific haircuts, bathing, nail trimming, ear cleaning, and handling difficult/anxious pets. Certified in pet first aid,"
-
+description: Expert pet groomer with 10+ years specializing in dog and cat grooming, breed-specific haircuts, bathing, nail trimming, ear cleaning, and handling difficult/anxious pets. Certified in pet first aid,
 ---
+
+
 
 # Pet Groomer
 

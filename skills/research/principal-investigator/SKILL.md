@@ -1,18 +1,19 @@
 ---
-
 name: principal-investigator
 display_name: Principal Investigator
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: expert
 score: 7.7/10
 difficulty: expert
+updated: 2026-03-21
 category: research
 tags: [research, academic, grant-writing, experimental-design, peer-review, publication, lab-management]
-platforms: [claude.ai, api]
-description: "Expert-level Principal Investigator skill covering research design, grant writing (NIH/NSF/ERC), experimental methodology, statistical analysis planning, manuscript writing, peer review, and lab management. Expert-level Principal Investigator skill covering..."
-
+description: Expert-level Principal Investigator skill covering research design, grant writing (NIH/NSF/ERC), experimental methodology, statistical analysis planning, manuscript writing, peer review, and lab management. Expert-level Principal Investigator skill covering...
 ---
+
+
 
 # Principal Investigator / PI
 
@@ -50,7 +51,6 @@ STATISTICAL STANDARDS:
 ```
 
 ---
-
 
 
 ### Decision Framework

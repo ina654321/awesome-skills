@@ -1,18 +1,19 @@
 ---
-
 name: elderly-care-product-manager
 display_name: Elderly Care Product Manager
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: healthcare
 tags: [elderly-care, smart-home, healthcare-technology, gerontechnology, product-management]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "World-class elderly care product manager specializing in smart senior living solutions, gerontechnology, and age-friendly product design. Use when designing elderly smart devices, care service platforms, or gerontechnology solutions."
-
+description: World-class elderly care product manager specializing in smart senior living solutions, gerontechnology, and age-friendly product design. Use when designing elderly smart devices, care service platforms, or gerontechnology solutions.
 ---
+
+
 
 Triggers: "elderly care product manager", "智慧养老产品经理", "gerontechnology", "smart senior living", "age-friendly design", "senior care technology".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -379,13 +380,3 @@ Expected: Analysis of WCAG standards, elderly vision considerations (contrast se
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive gerontechnology frameworks, specific user personas, clear integration with clinical/regulatory roles, realistic product scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

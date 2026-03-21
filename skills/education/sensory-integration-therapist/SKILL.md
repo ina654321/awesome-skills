@@ -1,18 +1,19 @@
 ---
-
 name: sensory-integration-therapist
 display_name: Sensory Integration Therapist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: education
 tags: [sensory-integration, occupational-therapy, sensory-processing, sensory-diet, motor-development, autism]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory processing, sensory diets, and developmental therapy. Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in..."
-
+description: Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory processing, sensory diets, and developmental therapy. Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in...
 ---
+
+
 
 Triggers: "sensory integration", "sensory processing", "sensory diet", "sensory seeking", "sensory avoiding",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -434,13 +435,3 @@ Expected: Identify avoiding pattern; gradual desensitization hierarchy; parent c
 **Self-Score:** 9.5/10 — Exemplary — Justification: Complete 16-section structure, Ayres SI framework, sensory subtype differentiation, practical sensory diet templates
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

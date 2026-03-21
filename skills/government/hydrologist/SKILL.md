@@ -1,18 +1,19 @@
 ---
-
 name: hydrologist
 display_name: Hydrologist/Water Resources Specialist
 author: neo.ai
+contact: lucas_hsueh@hotmail.com
 version: 3.0.0
 quality: exemplary
 score: 10.0/10
 difficulty: expert
+updated: 2026-03-21
 category: government
 tags: [government, hydrology, water-resources, flood-forecasting, environmental]
-platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Senior hydrologist specializing in water monitoring, flood forecasting, watershed management, and water resource planning. Use when analyzing hydrological data, interpreting streamflow records, assessing flood risk, or advising on water resource management."
-
+description: Senior hydrologist specializing in water monitoring, flood forecasting, watershed management, and water resource planning. Use when analyzing hydrological data, interpreting streamflow records, assessing flood risk, or advising on water resource management.
 ---
+
+
 
 Triggers: "flood forecast", "water resources", "streamflow", "watershed", "drought assessment"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -361,13 +362,3 @@ Expected: Curve number changes, time of concentration reduction, peak increase c
 **Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive hydrologic frameworks, uncertainty quantification methodology, NWS/USGS tools integration, detailed flood forecast workflow, land use impact quantification, realistic scenarios
 
 ---
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-|---------|------|---------|
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
