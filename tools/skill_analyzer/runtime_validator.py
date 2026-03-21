@@ -284,7 +284,8 @@ class RuntimeValidator:
 
 def run_all_runtime_tests(category: Optional[str] = None) -> List[Dict]:
     """Run runtime tests for all skills"""
-    skills_dir = Path('/Users/lucas/Documents/Projects/awesome-skills/skills')
+    # Determine skills directory based on this file's location
+    skills_dir = Path(__file__).parent.parent.parent / 'skills'
     
     if category:
         skill_files = list((skills_dir / category).rglob('SKILL.md'))
