@@ -563,7 +563,9 @@
         </div>
     </div>
     
-    <div class="category-filters" id="categoryFilters">
+    <div class="controls">
+        <input type="text" class="search-box" id="searchBox" placeholder="Search skills..." oninput="filterSkills()">
+        <div class="category-filters" id="categoryFilters">
             <button class="filter-btn active" data-category="all" onclick="filterByCategory('all')">All</button>
             <button class="filter-btn" data-category="education" onclick="filterByCategory('education')">Education</button>
             <button class="filter-btn" data-category="healthcare" onclick="filterByCategory('healthcare')">Healthcare</button>
@@ -623,6 +625,7 @@
             <button class="filter-btn" data-category="international" onclick="filterByCategory('international')">International</button>
             <button class="filter-btn" data-category="tools" onclick="filterByCategory('tools')">Tools</button>
         </div>
+    </div>
     
     <main class="skills-container">
         <div class="skills-grid" id="skillsGrid"></div>
