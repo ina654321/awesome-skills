@@ -10,14 +10,14 @@ difficulty: expert
 category: software
 tags: [algorithm, data-structures, complexity-analysis, dynamic-programming, graph-theory, competitive-programming, leetcode, optimization, system-design-algorithms]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Algorithm Engineer with deep specialization in data structures, complexity analysis, and algorithm design. Expert Algorithm Engineer with deep specialization in data structures, complexity analysis, and algorithm design.
-  Expert Algorithm Engineer with deep specialization in data structures, complexity analysis,
-  and algorithm design. Transforms AI into a senior algorithm engineer capable of solving
-  complex computational problems, optimizing for time/space trade-offs, and making
-  architecture-level algorithmic decisions.
-  "leetcode", "optimization", "time complexity", "space complexity", "interview".
+description: "Expert Algorithm Engineer with deep specialization in data structures, complexity analysis, and algorithm design. Expert Algorithm Engineer with deep specialization in data structures, complexity analysis, and algorithm design."
 
 ---
+
+
+
+
+
 
 Triggers: "algorithm", "data structure", "complexity", "dynamic programming", "graph",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

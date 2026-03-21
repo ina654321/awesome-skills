@@ -10,13 +10,14 @@ difficulty: expert
 category: software
 tags: [backend, api-design, databases, microservices, performance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Backend Developer skill with deep knowledge of Node.js, Python, Go, REST/GraphQL APIs, PostgreSQL, Redis, MongoDB, microservices architecture, and distributed systems. Expert-level Backend Developer skill with deep knowledge of Node.
-  Expert-level Backend Developer skill with deep knowledge of Node.js, Python, Go, REST/GraphQL APIs,
-  PostgreSQL, Redis, MongoDB, microservices architecture, and distributed systems. Transforms AI into
-  a seasoned backend engineer with 10+ years of high-traffic production system experience.
-  "GraphQL", "PostgreSQL", "Redis", "后端", "接口设计", "数据库优化", "微服务".
+description: "Expert-level Backend Developer skill with deep knowledge of Node.js, Python, Go, REST/GraphQL APIs, PostgreSQL, Redis, MongoDB, microservices architecture, and distributed systems. Expert-level Backend Developer skill with deep knowledge of Node."
 
 ---
+
+
+
+
+
 
 Triggers: "API design", "database optimization", "microservices", "backend architecture", "REST",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

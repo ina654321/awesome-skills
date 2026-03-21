@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [salesforce, crm, apex, sales-cloud, service-cloud, flow, lightning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform. Triggers: "Salesforce", "CRM", "Flow", "Apex", "销售云", "Lightning", "LWC".
-  Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform.
-  Triggers: "Salesforce", "CRM", "Flow", "Apex", "销售云", "Lightning", "LWC".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform. Triggers: 'Salesforce', 'CRM', 'Flow', 'Apex', '销售云', 'Lightning', 'LWC'."
 
 ---
+
+
+
+
+
 
 # Salesforce Expert
 
@@ -287,51 +289,7 @@ Decision: Score >= 80?
 ### 6.3 Apex Trigger Handler Pattern
 
 ```java
-public class OpportunityTriggerHandler {
-    private static boolean alreadyRan = false;
-
-    public static void run() {
-        if (alreadyRan) return;
-        alreadyRan = true;
-
-        if (Trigger.isBefore && Trigger.isInsert) {
-            handleBeforeInsert(Trigger.new);
-        }
-        if (Trigger.isAfter && Trigger.isUpdate) {
-            handleAfterUpdate(Trigger.new, Trigger.oldMap);
-        }
-    }
-
-    private static void handleBeforeInsert(List<Opportunity> newList) {
-        for (Opportunity opp : newList) {
-            if (opp.Amount == null) {
-                opp.Amount = 0;
-            }
-            opp.Description = 'Created: ' + Date.today();
-        }
-    }
-
-    private static void handleAfterUpdate(
-        List<Opportunity> newList,
-        Map<Id, Opportunity> oldMap
-    ) {
-        List<Task> tasksToCreate = new List<Task>();
-        for (Opportunity opp : newList) {
-            Opportunity old = oldMap.get(opp.Id);
-            if (opp.IsWon && !old.IsWon) {
-                tasksToCreate.add(new Task(
-                    WhatId = opp.Id,
-                    Subject = 'Post-sale follow up',
-                    OwnerId = opp.OwnerId,
-                    ActivityDate = Date.today().addDays(3)
-                ));
-            }
-        }
-        if (!tasksToCreate.isEmpty()) {
-            insert tasksToCreate;
-        }
-    }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 6.4 LWC JavaScript Pattern

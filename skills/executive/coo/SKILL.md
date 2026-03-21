@@ -10,12 +10,14 @@ difficulty: expert
 category: executive
 tags: [operations, process-optimization, scaling, execution, cross-functional]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level COO skill with deep knowledge of operational excellence, process design, organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO with 20+ years of operational leadership.
-  Expert-level COO skill with deep knowledge of operational excellence, process design,
-  organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO
-  "OKR design", "supply chain", "bottleneck", "流程优化", "运营规模化", "供应链", "效率提升".
+description: "Expert-level COO skill with deep knowledge of operational excellence, process design, organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO with 20+ years of operational leadership."
 
 ---
+
+
+
+
+
 
 with 20+ years of operational leadership. Triggers: "process optimization", "scaling operations",
 Works with: CEO, CFO, HR Expert skills.

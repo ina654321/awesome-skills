@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [gitlab, cicd, pipelines, devops, automation, gitlab-ci, runner, auto-devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optimization, artifacts, and caching strategies. Use when building CI/CD pipelines with GitLab, troubleshooting pipeline failures, or optimizing pipeline performance.
-  GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optimization, artifacts, and caching strategies. Use when building CI/CD pipelines with GitLab, troubleshooting pipeline failures, or optimizing pipeline performance.
-  Triggers: "GitLab CI", "gitlab-ci", "Pipeline", "Auto DevOps", "GitLab Runner", "gitlab-ci.yml".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner management, Auto DevOps, pipeline optimization, artifacts, and caching strategies. Use when building CI/CD pipelines with GitLab, troubleshooting pipeline failures, or optimizing pipeline performance."
 
 ---
+
+
+
+
+
 
 # GitLab CI/CD Expert
 
@@ -161,87 +163,7 @@ Before designing a GitLab CI pipeline:
 ### 7.1 CI Pipeline Template
 
 ```yaml
-stages:
-  - lint
-  - build
-  - test
-  - security
-  - deploy
-
-variables:
-  DOCKER_DRIVER: overlay2
-  DOCKER_TLS_CERTDIR: "/certs"
-  NODE_VERSION: "20"
-
-default:
-  image: node:${NODE_VERSION}
-  cache:
-    key: ${CI_COMMIT_REF_SLUG}
-    paths:
-      - node_modules/
-  retry:
-    max: 2
-    when:
-      - runner_system_failure
-      - stuck_or_timeout_failure
-
-lint:
-  stage: lint
-  script:
-    - npm ci
-    - npm run lint
-  allow_failure: false
-
-build:
-  stage: build
-  script:
-    - npm ci
-    - npm run build
-  artifacts:
-    paths:
-      - dist/
-    expire_in: 1 week
-
-test:
-  stage: test
-  script:
-    - npm ci
-    - npm run test
-  coverage: '/Statements\s*:\s*([^%]+)/'
-  artifacts:
-    reports:
-      junit: junit.xml
-      coverage_report:
-        coverage_format: cobertura
-        path: coverage/cobertura-coverage.xml
-
-security:
-  stage: security
-  script:
-    - npm audit --audit-level=high
-  allow_failure: true
-
-deploy:
-  stage: deploy
-  script:
-    - echo "Deploying to $CI_ENVIRONMENT_SLUG"
-    - ./deploy.sh
-  environment:
-    name: production
-    url: https://example.com
-    on_stop: stop_deploy
-  only:
-    - main
-  when: manual
-
-stop_deploy:
-  stage: deploy
-  script:
-    - echo "Stopping deployment"
-  environment:
-    name: production
-    action: stop
-  when: manual
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Docker Build Template
@@ -265,60 +187,7 @@ build:docker:
 ### 7.3 Multi-Stage Deployment Template
 
 ```yaml
-stages:
-  - build
-  - test
-  - staging
-  - production
-
-build:
-  stage: build
-  script:
-    - npm ci
-    - npm run build
-  artifacts:
-    paths:
-      - dist/
-
-test:unit:
-  stage: test
-  script:
-    - npm ci
-    - npm run test:unit
-  coverage: '/Coverage:\s*\d+\.\d+%/'
-
-test:e2e:
-  stage: test
-  script:
-    - npm ci
-    - npm run test:e2e
-  services:
-    - postgres:15
-  variables:
-    POSTGRES_DB: test
-    POSTGRES_USER: test
-    POSTGRES_PASSWORD: test
-
-deploy:staging:
-  stage: staging
-  script:
-    - ./deploy.sh staging
-  environment:
-    name: staging
-    url: https://staging.example.com
-  only:
-    - main
-
-deploy:production:
-  stage: production
-  script:
-    - ./deploy.sh production
-  environment:
-    name: production
-    url: https://example.com
-  when: manual
-  only:
-    - main
+[Code block moved to code-block-2.md]
 ```
 
 ---

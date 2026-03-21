@@ -1,4 +1,5 @@
 ---
+
 name: mongodb-expert
 display_name: MongoDB Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [mongodb, nosql, database, aggregation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  MongoDB专家：文档设计、聚合管道、索引策略、分片集群。Use when designing MongoDB schemas, writing aggregation pipelines, or managing clusters.
-  Triggers: "MongoDB", "文档数据库", "聚合管道", "分片".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "MongoDB专家：文档设计、聚合管道、索引策略、分片集群。Use when designing MongoDB schemas, writing aggregation pipelines, or managing clusters. Triggers: 'MongoDB', '文档数据库', '聚合管道', '分片'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # MongoDB Expert
 
@@ -209,125 +213,19 @@ db.orders.aggregate([
 ```
 
 ```javascript
-// Faceted search pattern
-db.products.aggregate([
-  { $match: { category: "electronics" } },
-  { $facet: {
-      categories: [
-        { $group: { _id: "$subcategory", count: { $sum: 1 } } },
-        { $sort: { count: -1 } }
-      ],
-      priceRanges: [
-        { $bucket: {
-            groupBy: "$price",
-            boundaries: [0, 50, 100, 200, Infinity],
-            default: "Other",
-            output: { count: { $sum: 1 } }
-          }
-        }
-      ],
-      stats: [
-        { $group: {
-            _id: null,
-            avgPrice: { $avg: "$price" },
-            minPrice: { $min: "$price" },
-            maxPrice: { $max: "$price" }
-          }
-        }
-      ],
-      topBrands: [
-        { $group: { _id: "$brand", count: { $sum: 1 } } },
-        { $sort: { count: -1 } },
-        { $limit: 5 }
-      ]
-    }
-  }
-])
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Schema Design Patterns
 
 ```javascript
-// Polymorphic pattern - single collection for different types
-db.items.insertMany([
-  {
-    type: "book",
-    title: "The Great Gatsby",
-    author: "F. Scott Fitzgerald",
-    isbn: "978-0743273565"
-  },
-  {
-    type: "dvd",
-    title: "Inception",
-    director: "Christopher Nolan",
-    runtime_minutes: 148
-  }
-])
-
-// Attribute pattern - for sparse, evolving attributes
-db.products.insertOne({
-  name: "Laptop",
-  base_price: 999,
-  attributes: [
-    { key: "RAM", value: "16GB" },
-    { key: "Storage", value: "512GB SSD" },
-    { key: "CPU", value: "Intel i7" }
-  ]
-})
-
-// Bucket pattern - for time-series data
-db.metrics.insertOne({
-  sensor_id: "sensor_001",
-  period_start: ISODate("2024-01-01T00:00:00Z"),
-  period_end: ISODate("2024-01-01T01:00:00Z"),
-  readings: [
-    { timestamp: ISODate("2024-01-01T00:00:00Z"), value: 22.5 },
-    { timestamp: ISODate("2024-01-01T00:15:00Z"), value: 22.8 }
-  ],
-  aggregations: {
-    avg: 22.6,
-    min: 22.1,
-    max: 23.2
-  }
-})
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.3 Index Creation Patterns
 
 ```javascript
-// Compound index (order matters!)
-// Query: db.orders.find({ status: "pending" }).sort({ created_at: -1 })
-// Correct: status comes first (equality), then sort field
-db.orders.createIndex({ status: 1, created_at: -1 })
-
-// Covered query index
-db.users.createIndex(
-  { email: 1 },
-  { unique: true, projection: { email: 1, name: 1, _id: 0 } }
-)
-
-// Partial index (only index documents matching filter)
-db.orders.createIndex(
-  { customer_id: 1, created_at: -1 },
-  { partialFilterExpression: { status: "pending" } }
-)
-
-// TTL index - auto-delete documents after expiration
-db.sessions.createIndex(
-  { created_at: 1 },
-  { expireAfterSeconds: 86400 } // 24 hours
-)
-
-// Wildcard index - for dynamic fields
-db.products.createIndex(
-  { "specs.$**": 1 }
-)
-
-// Text index with weights
-db.articles.createIndex(
-  { title: "text", body: "text", tags: "text" },
-  { weights: { title: 10, tags: 5, body: 1 } }
-)
+[Code block moved to code-block-2.md]
 ```
 
 ---
@@ -596,7 +494,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 16. Metadata
+## § 16 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 

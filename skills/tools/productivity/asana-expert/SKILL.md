@@ -10,10 +10,14 @@ difficulty: expert
 category: productivity
 tags: [asana, project-management, task-management, workflows, agile]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Asana user for project management and team workflows. Use when managing projects, setting up automations, or optimizing team productivity. Expert Asana user for project management and team workflows. Use when managing projects, setting up automations,...
-  Expert Asana user for project management and team workflows. Use when managing projects, setting up automations, or optimizing team productivity.
+description: "Expert Asana user for project management and team workflows. Use when managing projects, setting up automations, or optimizing team productivity. Expert Asana user for project management and team workflows. Use when managing projects, setting up automations,..."
 
 ---
+
+
+
+
+
 
 Triggers: "asana setup", "asana automation", "project management"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

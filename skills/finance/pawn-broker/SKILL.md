@@ -10,12 +10,14 @@ difficulty: expert
 category: finance
 tags: [pawn, collateral, loan, item-valuation, asset-backed-lending]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert pawn broker specializing in collateral appraisal, loan structuring, item valuation, and risk assessment for pawn transactions. Use when evaluating collateral, structuring pawn loans, determining loan-to-value ratios, or assessing item authenticity.
-  Expert pawn broker specializing in collateral appraisal, loan structuring, item valuation, and
-  risk assessment for pawn transactions. Use when evaluating collateral, structuring pawn loans,
-  "pawn item appraisal", "pawn shop", "pledge", "asset-backed loan", "item authentication".
+description: "Expert pawn broker specializing in collateral appraisal, loan structuring, item valuation, and risk assessment for pawn transactions. Use when evaluating collateral, structuring pawn loans, determining loan-to-value ratios, or assessing item authenticity."
 
 ---
+
+
+
+
+
 
 determining loan-to-value ratios, or assessing item authenticity. Triggers: "pawn loan", "collateral valuation",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

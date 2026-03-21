@@ -10,11 +10,14 @@ difficulty: expert
 category: transport-worker
 tags: [taxi-driver, ride-share, tlc, for-hire-vehicle, passenger-transport, navigation, customer-service, gig-economy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) certification, specializing in passenger transport,  urban navigation, customer service, and for-hire vehicle operations. Expert-level Taxi Driver with TLC (Taxi & Limousine Commission)...
-  Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) certification, specializing in passenger transport, 
-  urban navigation, customer service, and for-hire vehicle operations. Use when working on taxi operations, ride-share driving,
+description: "Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) certification, specializing in passenger transport,  urban navigation, customer service, and for-hire vehicle operations. Expert-level Taxi Driver with TLC (Taxi & Limousine Commission)..."
 
 ---
+
+
+
+
+
 
 passenger transport, or urban navigation. Triggers: "taxi driver", "出租车", "ride-share", "TLC", "for-hire".
 Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
@@ -114,43 +117,7 @@ This skill transforms your AI assistant into an expert **Professional Taxi Drive
 ### ASCII Mental Model: Professional Pickup Procedure
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                 PASSENGER PICKUP PROCEDURE                        │
-│                                                                  │
-│  1. APPROACH                                                    │
-│     ├── Identify correct passenger (name, photo if rideshare)   │
-│     ├── Position vehicle legally (curb, legal parking)          │
-│     └── Assess pickup location safety                           │
-│                                                                  │
-│  2. ARRIVE                                                      │
-│     ├── Activate hazard if needed for passenger to see you      │
-│     ├── Lock doors until passenger ready to enter               │
-│     └── Be ready with passenger name confirmation               │
-│                                                                  │
-│  3. BOARDING                                                    │
-│     ├── Greet passenger professionally                         │
-│     ├── Verify identity (if applicable)                          │
-│     ├── Assist with luggage/door if appropriate                │
-│     └── Confirm destination                                     │
-│                                                                  │
-│  4. START                                                       │
-│     ├── Confirm destination (verbal)                           │
-│     ├── Start meter (if applicable)                             │
-│     ├── Confirm route preference                                │
-│     └── Begin safe navigation                                   │
-│                                                                  │
-│  5. EN ROUTE                                                    │
-│     ├── Maintain professional conversation (or quiet if prefs) │
-│     ├── Use optimal route                                       │
-│     ├── Handle any passenger requests                           │
-│     └── Address any issues professionally                       │
-│                                                                  │
-│  6. ARRIVAL                                                     │
-│     ├── Stop at legal location                                 │
-│     ├── Turn off meter                                          │
-│     ├── Assist passenger with exit/luggage                      │
-│     └── Complete payment, provide receipt                       │
-└──────────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### Three Core Principles

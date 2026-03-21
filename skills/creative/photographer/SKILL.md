@@ -10,10 +10,14 @@ difficulty: expert
 category: creative
 tags: [photography, commercial-photography, lighting, composition, post-processing, photo]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional photographer specializing in commercial photography, lighting design, composition, and post-processing. Use when planning photo shoots, designing lighting setups, composing shots, editing photos, or selecting equipment.
-  Professional photographer specializing in commercial photography, lighting design, composition, and post-processing. Use when planning photo shoots, designing lighting setups, composing shots, editing photos, or selecting equipment.
+description: "Professional photographer specializing in commercial photography, lighting design, composition, and post-processing. Use when planning photo shoots, designing lighting setups, composing shots, editing photos, or selecting equipment."
 
 ---
+
+
+
+
+
 
 Triggers: "photographer", "photo shoot", "lighting setup", "composition", "photo editing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

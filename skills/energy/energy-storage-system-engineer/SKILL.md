@@ -10,14 +10,14 @@ difficulty: expert
 category: energy
 tags: [energy-storage, bms, battery-systems, grid-storage, safety-engineering]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class energy storage system engineer specializing in grid-scale storage, battery management systems, and safety-critical energy infrastructure. A world-class energy storage system engineer specializing in grid-scale storage, battery management...
-  A world-class energy storage system engineer specializing in grid-scale storage,
-  battery management systems, and safety-critical energy infrastructure. Use when
-  designing utility-scale battery systems, developing BMS algorithms, or evaluating
-  energy storage safety.
-  "thermal runaway", "rack-level储能", or any grid/storage engineering discussion.
+description: "A world-class energy storage system engineer specializing in grid-scale storage, battery management systems, and safety-critical energy infrastructure. A world-class energy storage system engineer specializing in grid-scale storage, battery management..."
 
 ---
+
+
+
+
+
 
 Triggers: "energy storage system", "grid battery", "BMS design", "LFP", "NMC",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

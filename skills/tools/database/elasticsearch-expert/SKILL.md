@@ -1,4 +1,5 @@
 ---
+
 name: elasticsearch-expert
 display_name: Elasticsearch Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [elasticsearch, search, elk, lucene, fulltext-search]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Elasticsearch专家：映射设计、查询DSL、聚合分析、集群管理。Use when building search systems, log analysis, or full-text search.
-  Triggers: "Elasticsearch", "ES", "全文搜索", "ELK", "聚合查询".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Elasticsearch专家：映射设计、查询DSL、聚合分析、集群管理。Use when building search systems, log analysis, or full-text search. Triggers: 'Elasticsearch', 'ES', '全文搜索', 'ELK', '聚合查询'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Elasticsearch Expert
 
@@ -186,122 +190,19 @@ RELEVANCE SCORE FACTORS:
 ### 7.1 Index Mapping Examples
 
 ```json
-{
-  "settings": {
-    "number_of_shards": 3,
-    "number_of_replicas": 1,
-    "analysis": {
-      "analyzer": {
-        "custom_analyzer": {
-          "type": "custom",
-          "tokenizer": "standard",
-          "filter": ["lowercase", "stop", "snowball"]
-        }
-      }
-    }
-  },
-  "mappings": {
-    "properties": {
-      "title": {
-        "type": "text",
-        "analyzer": "standard",
-        "fields": {
-          "keyword": { "type": "keyword" },
-          "autocomplete": {
-            "type": "text",
-            "analyzer": "autocomplete"
-          }
-        }
-      },
-      "content": {
-        "type": "text",
-        "analyzer": "standard"
-      },
-      "status": { "type": "keyword" },
-      "created_at": { "type": "date" },
-      "tags": { "type": "keyword" },
-      "location": { "type": "geo_point" }
-    }
-  }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Query DSL Patterns
 
 ```json
-{
-  "query": {
-    "bool": {
-      "must": [
-        { "match": { "title": "search query" } }
-      ],
-      "should": [
-        { "match": { "description": { "query": "search", "boost": 2 } } }
-      ],
-      "filter": [
-        { "term": { "status": "published" } },
-        { "range": { "created_at": { "gte": "now-1M" } } }
-      ],
-      "must_not": [
-        { "term": { "featured": true } }
-      ],
-      "minimum_should_match": 1
-    }
-  },
-  "post_filter": {
-    "terms": { "category": ["tech", "news"] }
-  },
-  "highlight": {
-    "fields": {
-      "title": {},
-      "content": { "fragment_size": 150 }
-    }
-  },
-  "aggs": {
-    "categories": {
-      "terms": { "field": "category", "size": 10 }
-    }
-  }
-}
+[Code block moved to code-block-2.md]
 ```
 
 ### 7.3 Aggregation Examples
 
 ```json
-{
-  "aggs": {
-    "sales_over_time": {
-      "date_histogram": {
-        "field": "date",
-        "calendar_interval": "month"
-      },
-      "aggs": {
-        "revenue": { "sum": { "field": "amount" } },
-        "avg_price": { "avg": { "field": "price" } }
-      }
-    },
-    "top_categories": {
-      "terms": {
-        "field": "category",
-        "size": 5,
-        "order": { "revenue": "desc" }
-      },
-      "aggs": {
-        "revenue": { "sum": { "field": "amount" } }
-      }
-    },
-    "price_ranges": {
-      "range": {
-        "field": "price",
-        "ranges": [
-          { "key": "budget", "to": 50 },
-          { "key": "mid", "from": 50, "to": 200 },
-          { "key": "premium", "from": 200 }
-        ]
-      }
-    }
-  }
-}
+[Code block moved to code-block-3.md]
 ```
 
 ---
@@ -603,7 +504,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 16. Metadata
+## § 16 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 

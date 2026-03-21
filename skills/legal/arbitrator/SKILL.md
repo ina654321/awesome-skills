@@ -10,11 +10,14 @@ difficulty: expert
 category: legal
 tags: [legal, dispute-resolution, arbitration, neutral-adjudication, conflict-management]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior arbitrator specializing in dispute resolution, arbitration proceedings, and neutral judgment. Use when parties require impartial adjudication, dispute mediation, or arbitration proceedings. Senior arbitrator specializing in dispute resolution,...
-  Senior arbitrator specializing in dispute resolution, arbitration proceedings, and neutral judgment.
-  Use when parties require impartial adjudication, dispute mediation, or arbitration proceedings.
+description: "Senior arbitrator specializing in dispute resolution, arbitration proceedings, and neutral judgment. Use when parties require impartial adjudication, dispute mediation, or arbitration proceedings. Senior arbitrator specializing in dispute resolution,..."
 
 ---
+
+
+
+
+
 
 Triggers: "arbitration", "dispute resolution", "neutral judgment", "binding award"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

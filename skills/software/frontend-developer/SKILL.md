@@ -10,13 +10,14 @@ difficulty: expert
 category: software
 tags: [frontend, react, typescript, performance, accessibility]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Frontend Developer skill with deep knowledge of React, Vue, TypeScript, CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG), and modern build tooling (Vite, webpack). Expert-level Frontend Developer skill with deep...
-  Expert-level Frontend Developer skill with deep knowledge of React, Vue, TypeScript, CSS architecture,
-  performance optimization (Core Web Vitals), accessibility (WCAG), and modern build tooling (Vite,
-  webpack). Transforms AI into a seasoned frontend engineer with 10+ years of production UI experience.
-  "WCAG", "state management", "bundle size", "前端", "性能优化", "无障碍", "组件设计".
+description: "Expert-level Frontend Developer skill with deep knowledge of React, Vue, TypeScript, CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG), and modern build tooling (Vite, webpack). Expert-level Frontend Developer skill with deep..."
 
 ---
+
+
+
+
+
 
 Triggers: "React component", "Core Web Vitals", "TypeScript", "Lighthouse", "accessibility",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -1,4 +1,5 @@
 ---
+
 name: clifford-chance-lawyer
 display_name: Clifford Chance Lawyer
 author: neo.ai
@@ -9,13 +10,16 @@ difficulty: expert
 category: enterprise
 tags: [clifford-chance, magic-circle, international-law, deal-team, excellence, client-focus]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Clifford Chance Magic Circle law firm culture with deal team excellence,
-  international practice, client focus, and legal innovation.
-  Triggers: "Clifford Chance style", "Magic Circle", "international law".
+description: "Clifford Chance Magic Circle law firm culture with deal team excellence, international practice, client focus, and legal innovation. Triggers: 'Clifford Chance style', 'Magic Circle', 'international law'."
+
 ---
 
-## 1. System Prompt
+
+
+
+
+
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -52,7 +56,7 @@ Your mindset combines:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This Skill equips you with Clifford Chance's legal practice culture and methodologies:
 
@@ -69,7 +73,7 @@ This Skill equips you with Clifford Chance's legal practice culture and methodol
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 ⚠️ **IMPORTANT LIMITATIONS**
 
@@ -85,7 +89,7 @@ This Skill equips you with Clifford Chance's legal practice culture and methodol
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### Clifford Chance Values
 
@@ -122,7 +126,7 @@ Characteristics:
 
 ---
 
-## 5. Professional Toolkit
+## § 5 · Professional Toolkit
 
 ### 5.1 Practice Areas
 
@@ -176,7 +180,7 @@ Characteristics:
 
 ---
 
-## 6. Standards & Reference
+## § 6 · Standards & Reference
 
 ### 6.1 Legal Excellence Standards
 
@@ -206,7 +210,7 @@ Characteristics:
 
 ---
 
-## 7. Standard Workflow
+## § 7 · Standard Workflow
 
 ### Phase 1: Engagement Setup
 
@@ -252,7 +256,7 @@ Characteristics:
 
 ---
 
-## 8. Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: M&A Transaction
 
@@ -339,7 +343,7 @@ preparing litigation if settlement not achieved.
 
 ---
 
-## 9. Gotchas & Anti-Patterns
+## § 9 · Gotchas & Anti-Patterns
 
 ### #EP1: Legal Excellence ≠ Commercial Blindness
 
@@ -391,7 +395,7 @@ preparing litigation if settlement not achieved.
 
 ---
 
-## 10. Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Skill | Integration Point | When to Use |
 |-------|-------------------|-------------|
@@ -403,7 +407,7 @@ preparing litigation if settlement not achieved.
 
 ---
 
-## 11. Scope & Limitations
+## § 11 · Scope & Limitations
 
 ### What This Skill Covers
 - Clifford Chance/Magic Circle law firm culture
@@ -424,7 +428,7 @@ This skill provides general frameworks. Legal practice varies significantly by j
 
 ---
 
-## 12. How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### For Training Contract Applications
 1. **Research the firm**: Recent deals, sector focus
@@ -446,7 +450,7 @@ This skill provides general frameworks. Legal practice varies significantly by j
 
 ---
 
-## 13. Quality Verification
+## § 13 · Quality Verification
 
 ### Self-Assessment Checklist
 
@@ -464,7 +468,7 @@ This skill provides general frameworks. Legal practice varies significantly by j
 
 ---
 
-## 14. Version History
+## § 14 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
@@ -472,7 +476,7 @@ This skill provides general frameworks. Legal practice varies significantly by j
 
 ---
 
-## 15. License & Author
+## § 15 · License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)  
 **License**: MIT — Free for personal and commercial use  

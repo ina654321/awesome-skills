@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [tableau, bi, visualization, dashboards, lod, calculated-fields, tableau-server]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks.
-  Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks.
-  Triggers: "Tableau", "LOD", "calculated field", "dashboard", "Tableau Server", "Tableau Prep".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks."
 
 ---
+
+
+
+
+
 
 # Tableau Expert
 

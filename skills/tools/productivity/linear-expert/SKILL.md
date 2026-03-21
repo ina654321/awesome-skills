@@ -10,12 +10,14 @@ difficulty: intermediate
 category: tools
 tags: [linear, issue-tracking, project-management, agile, cycles, api]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. Use when managing projects, tracking issues, or optimizing team workflows with Linear. Triggers: "Linear", "issue tracking", "Cycles", "workflow", "Linear API".
-  Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. Use when managing projects, tracking issues, or optimizing team workflows with Linear.
-  Triggers: "Linear", "issue tracking", "Cycles", "workflow", "Linear API".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Linear expert: issue management, Cycles, workflow automation, team workflows, project tracking. Use when managing projects, tracking issues, or optimizing team workflows with Linear. Triggers: 'Linear', 'issue tracking', 'Cycles', 'workflow', 'Linear API'."
 
 ---
+
+
+
+
+
 
 # Linear Expert
 
@@ -179,109 +181,13 @@ After Cycle:
 ### 7.1 Linear GraphQL API
 
 ```graphql
-# Get issues in current cycle
-query GetCycleIssues($cycleId: String!) {
-  cycle(id: $cycleId) {
-    id
-    name
-    startsAt
-    endsAt
-    issues {
-      nodes {
-        id
-        identifier
-        title
-        priority
-        state { name }
-        assignee { name email }
-        estimate { value }
-        labels { nodes { name color } }
-      }
-    }
-  }
-}
-
-# Create issue via API
-mutation CreateIssue($title: String!, $teamId: String!, $priority: Int) {
-  issueCreate(input: {
-    title: $title
-    teamId: $teamId
-    priority: $priority
-  }) {
-    success
-    issue { id identifier }
-  }
-}
-
-# Update issue state
-mutation UpdateIssueState($issueId: String!, $stateId: String!) {
-  issueUpdate(id: $issueId, input: { stateId: $stateId }) {
-    success
-  }
-}
-
-# Bulk close issues at cycle end
-mutation CloseIssues($issueIds: [String!]!) {
-  issueArchive(ids: $issueIds) {
-    success
-  }
-}
-
-# Search issues
-query SearchIssues($query: String!) {
-  issues(
-    filter: {
-      or: [
-        { title: { contains: $query } },
-        { identifier: { contains: $query } }
-      ]
-    }
-  ) {
-    nodes {
-      id identifier title state { name }
-    }
-  }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Automations (Linear Workflow Rules)
 
 ```yaml
-# Automation 1: Auto-assign to sprint owner
-trigger:
-  - type: issueCreated
-    filter: 
-      state: { name: "Ready" }
-actions:
-  - type: updateIssue
-    assignTo: "{{project.owner}}"
-
-# Automation 2: Notify Slack when priority set to urgent
-trigger:
-  - type: issuePriorityChanged
-    to: 0  # Urgent
-actions:
-  - type: createComment
-    content: "🔴 This issue is now urgent. Please address immediately."
-  - type: sendNotification
-    channel: "#engineering"
-
-# Automation 3: Move completed issues to Done
-trigger:
-  - type: issueStateChanged
-    to: { name: "Completed" }
-actions:
-  - type: updateIssue
-    state: { name: "Done" }
-
-# Automation 4: Auto-label by project
-trigger:
-  - type: issueCreated
-    filter:
-      project: { name: "Mobile App" }
-actions:
-  - type: addLabel
-    label: "mobile"
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.3 Issue Templates

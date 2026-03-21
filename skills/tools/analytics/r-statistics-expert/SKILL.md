@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [r, statistics, data-analysis, tidyverse, ggplot2, modeling]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: R statistics expert: tidyverse, ggplot2, statistical modeling, hypothesis testing, regression analysis. Use when doing statistical analysis, data visualization, or predictive modeling with R.
-  R statistics expert: tidyverse, ggplot2, statistical modeling, hypothesis testing, regression analysis. Use when doing statistical analysis, data visualization, or predictive modeling with R.
-  Triggers: "R", "tidyverse", "ggplot2", "statistical analysis", "regression", "hypothesis test".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "R statistics expert: tidyverse, ggplot2, statistical modeling, hypothesis testing, regression analysis. Use when doing statistical analysis, data visualization, or predictive modeling with R."
 
 ---
+
+
+
+
+
 
 # R Statistics Expert
 
@@ -162,129 +164,19 @@ broom::tidy()  # Model → Tidy data frame
 ### 7.1 Tidyverse Data Manipulation
 
 ```r
-library(tidyverse)
-
-# Reading and initial checks
-df <- read_csv("data.csv", show_col_types = FALSE) |>
-  type_convert()
-
-# Filtering and selecting
-df_clean <- df |>
-  filter(
-    !is.na(outcome),
-    age >= 18,
-    date >= as.Date("2024-01-01")
-  ) |>
-  select(id, age, gender, contains("score"), date)
-
-# Creating new columns
-df_clean <- df_clean |>
-  mutate(
-    bmi = weight / (height / 100)^2,
-    bmi_category = case_when(
-      bmi < 18.5 ~ "underweight",
-      bmi < 25 ~ "normal",
-      bmi < 30 ~ "overweight",
-      TRUE ~ "obese"
-    ),
-    log_income = log(income + 1)
-  )
-
-# Group-by summaries
-summary_stats <- df_clean |>
-  group_by(bmi_category, gender) |>
-  summarise(
-    n = n(),
-    mean_score = mean(score, na.rm = TRUE),
-    sd_score = sd(score, na.rm = TRUE),
-    median_score = median(score, na.rm = TRUE),
-    se = sd_score / sqrt(n),
-    .groups = "drop"
-  ) |>
-  mutate(
-    ci_lower = mean_score - 1.96 * se,
-    ci_upper = mean_score + 1.96 * se
-  )
-
-# Pivoting
-df_wide <- df_clean |>
-  pivot_wider(names_from = timepoint, values_from = score)
-
-df_long <- df_wide |>
-  pivot_longer(cols = c(pre, post, followup),
-               names_to = "timepoint", values_to = "score")
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Statistical Modeling
 
 ```r
-library(broom)
-library(lme4)
-library(survival)
-
-# Linear regression
-fit_lm <- lm(score ~ age + gender + treatment, data = df_clean)
-tidy(fit_lm, conf.int = TRUE, conf.level = 0.95)
-glance(fit_lm)  # R², AIC, residual diagnostics
-
-# Logistic regression
-fit_glm <- glm(outcome ~ age + bmi_category + treatment,
-               data = df_clean, family = binomial())
-tidy(fit_glm, exponentiate = TRUE, conf.int = TRUE)
-# Odds ratios: exp(estimate) = odds ratio
-
-# Mixed-effects model (repeated measures)
-fit_lmer <- lmer(score ~ treatment + (1|subject_id) + (1|site),
-                 data = df_clean)
-tidy(fit_lmer, effects = "fixed")
-tidy(fit_lmer, effects = "ran_pars")
-
-# Survival analysis
-fit_surv <- survfit(Surv(time, event) ~ treatment, data = df_clean)
-ggsurvplot(fit_surv, data = df_clean, conf.int = TRUE)
-coxph(Surv(time, event) ~ treatment + age, data = df_clean) |>
-  tidy(exponentiate = TRUE)
-
-# ANOVA
-fit_aov <- aov(score ~ treatment * gender + Error(subject), data = df_clean)
-summary(fit_aov)
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.3 Data Visualization
 
 ```r
-library(ggplot2)
-library(viridis)
-library(patchwork)
-
-# Distribution plot
-ggplot(df_clean, aes(x = score, fill = treatment)) +
-  geom_density(alpha = 0.6) +
-  geom_vline(aes(xintercept = mean(score)), linetype = "dashed") +
-  scale_fill_viridis(discrete = TRUE) +
-  labs(title = "Score Distribution by Treatment",
-       x = "Score", y = "Density", fill = "Treatment") +
-  theme_minimal(base_size = 12)
-
-# Boxplot with jitter
-ggplot(df_clean, aes(x = treatment, y = score, color = gender)) +
-  geom_boxplot(outlier.shape = NA) +
-  geom_jitter(alpha = 0.3, width = 0.2) +
-  stat_summary(fun = "mean", geom = "point", size = 3, shape = 4) +
-  facet_wrap(~bmi_category, scales = "free_y") +
-  theme_classic()
-
-# Time series
-df_clean |>
-  group_by(date, treatment) |>
-  summarise(daily_mean = mean(score, na.rm = TRUE), .groups = "drop") |>
-  ggplot(aes(x = date, y = daily_mean, color = treatment)) +
-  geom_line() +
-  geom_ribbon(aes(ymin = daily_mean - sd(score), ymax = daily_mean + sd(score),
-                  fill = treatment), alpha = 0.2, linetype = 0) +
-  scale_color_brewer(palette = "Set1") +
-  labs(title = "Score Over Time", x = "Date", y = "Mean Score") +
-  theme_minimal()
+[Code block moved to code-block-2.md]
 ```
 
 ---

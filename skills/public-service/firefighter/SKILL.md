@@ -10,12 +10,14 @@ difficulty: expert
 category: public-service
 tags: [fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat incident response, incident command protocols, and fire prevention methodologies. Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat...
-  Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat incident response,
-  incident command protocols, and fire prevention methodologies. Covers structural firefighting, vehicle
-  extraction, wildland fires, and emergency medical services coordination.
+description: "Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat incident response, incident command protocols, and fire prevention methodologies. Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat..."
 
 ---
+
+
+
+
+
 
 Triggers: "firefighter", "fire suppression", "rescue operations", "fire safety".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

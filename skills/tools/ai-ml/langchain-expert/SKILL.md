@@ -10,14 +10,14 @@ difficulty: expert
 category: tools
 tags: [langchain, llm, rag, ai-application, chains, agents]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calling, memory, callbacks, output parsers, retrieval strategies. Use when building LLM applications, RAG systems, or AI agents with LangChain.
-  LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines,
-  tool calling, memory, callbacks, output parsers, retrieval strategies. Use when building LLM applications,
-  RAG systems, or AI agents with LangChain.
-  Triggers: "LangChain", "LCEL", "RAG", "chain", "agent", "vector store", "LLM application".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calling, memory, callbacks, output parsers, retrieval strategies. Use when building LLM applications, RAG systems, or AI agents with LangChain."
 
 ---
+
+
+
+
+
 
 # LangChain Expert
 

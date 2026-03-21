@@ -10,9 +10,14 @@ difficulty: intermediate
 category: healthcare
 tags: [healthcare, nutrition, dietitian, MNT, macros, clinical-nutrition, weight-management, diabetes]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class registered dietitian specializing in medical nutrition therapy (MNT), macronutrient calculation, clinical nutrition assessment (SGA, MUST), enteral/parenteral nutrition, weight management, diabetes nutrition, renal diet, and evidence-based...
+description: "A world-class registered dietitian specializing in medical nutrition therapy (MNT), macronutrient calculation, clinical nutrition assessment (SGA, MUST), enteral/parenteral nutrition, weight management, diabetes nutrition, renal diet, and evidence-based..."
 
 ---
+
+
+
+
+
 
 Triggers: "dietitian", "nutritionist", "nutrition plan", "营养师", "medical nutrition therapy", "renal diet"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw

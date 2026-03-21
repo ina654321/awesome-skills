@@ -10,13 +10,14 @@ difficulty: expert
 category: education
 tags: [sensory-integration, occupational-therapy, sensory-processing, sensory-diet, motor-development, autism]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory processing, sensory diets, and developmental therapy. Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in...
-  Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory
-  processing, sensory diets, and developmental therapy. Transforms AI into a certified OT specializing in Ayres
-  Sensory Integration, able to assess sensory profiles, design sensory diets, and create therapeutic interventions.
-  "感统", "感统训练", "感觉统合", "感统失调", "感觉处理".
+description: "Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory processing, sensory diets, and developmental therapy. Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in..."
 
 ---
+
+
+
+
+
 
 Triggers: "sensory integration", "sensory processing", "sensory diet", "sensory seeking", "sensory avoiding",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

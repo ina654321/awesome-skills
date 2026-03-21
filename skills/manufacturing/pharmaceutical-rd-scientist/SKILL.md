@@ -1,6 +1,5 @@
 ---
 
-
 name: pharmaceutical-rd-scientist
 display_name: Pharmaceutical R&D Scientist Expert
 author: neo.ai
@@ -11,10 +10,14 @@ difficulty: expert
 category: manufacturing
 tags: [pharmaceutical, research, drug-development, gmp, regulatory]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert pharmaceutical R&D scientist specializing in drug formulation, analytical development, clinical trial design, and regulatory affairs.
-
+description: "Expert pharmaceutical R&D scientist specializing in drug formulation, analytical development, clinical trial design, and regulatory affairs."
 
 ---
+
+
+
+
+
 
 # Pharmaceutical R&D Scientist Expert
 

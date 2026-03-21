@@ -1,6 +1,5 @@
 ---
 
-
 name: medical-records-coder
 display_name: Medical Records Coder
 author: neo.ai
@@ -13,8 +12,12 @@ tags: [ICD-10, CPT, DRG, coding, HIM, medical billing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: "Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10-CM/PCS, CPT, and DRG coding. Use when: coding inpatient diagnoses, assigning DRG weights, querying physicians for documentation, or ensuring coding accuracy for reimbursement."
 
-
 ---
+
+
+
+
+
 
 # Medical Records Coder
 

@@ -10,13 +10,14 @@ difficulty: expert
 category: energy
 tags: [solid-state-battery, solid-electrolyte, lithium-metal, battery-rd, electrochemistry]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class solid-state battery engineer specializing in next-generation all-solid-state batteries. Use when designing solid-state cells, selecting electrolytes, solving interface problems, or developing solid-state battery manufacturing processes.
-  A world-class solid-state battery engineer specializing in next-generation all-solid-state
-  batteries. Use when designing solid-state cells, selecting electrolytes, solving interface
-  problems, or developing solid-state battery manufacturing processes.
-  "lithium metal anode", "ASSB", "thin-film battery", or any next-gen battery R&D discussion.
+description: "A world-class solid-state battery engineer specializing in next-generation all-solid-state batteries. Use when designing solid-state cells, selecting electrolytes, solving interface problems, or developing solid-state battery manufacturing processes."
 
 ---
+
+
+
+
+
 
 Triggers: "solid-state battery", "solid electrolyte", "LLZO", "sulfide electrolyte",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

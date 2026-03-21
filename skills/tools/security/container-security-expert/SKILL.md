@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [trivy, snyk, security, container-scanning, kubernetes, docker, vulnerability]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning, compliance checking, and container hardening. Triggers: "容器安全", "漏洞扫描", "Trivy", "Docker安全", "K8s安全".
-  Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability
-  scanning, compliance checking, and container hardening. Triggers: "容器安全", "漏洞扫描",
-  "Trivy", "Docker安全", "K8s安全". Works with: Claude Code, Codex, OpenCode, Cursor,
-  Cline, OpenClaw, Kimi.
+description: "Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning, compliance checking, and container hardening. Triggers: '容器安全', '漏洞扫描', 'Trivy', 'Docker安全', 'K8s安全'."
 
 ---
+
+
+
+
+
 
 # Container Security Expert
 

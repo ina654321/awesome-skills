@@ -10,12 +10,14 @@ difficulty: expert
 category: services
 tags: [training, housekeeping, service-standards, career-development, professional-coaching]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class housekeeping trainer specializing in training program design, service standard development,  and professional career coaching for domestic service professionals. A world-class housekeeping trainer specializing in training program design, service...
-  A world-class housekeeping trainer specializing in training program design, service standard development, 
-  and professional career coaching for domestic service professionals. Use when developing training curricula, 
-  setting service quality standards, or mentoring housekeeping staff.
+description: "A world-class housekeeping trainer specializing in training program design, service standard development,  and professional career coaching for domestic service professionals. A world-class housekeeping trainer specializing in training program design,"
 
 ---
+
+
+
+
+
 
 Triggers: "housekeeping trainer", "家政培训师", "training program", "service standards", "staff development"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

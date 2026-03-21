@@ -10,10 +10,14 @@ difficulty: expert
 category: creative
 tags: [video-editing, post-production, color-grading, motion-graphics, av-sync]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows. Master video editor with 12+ years in commercial,...
-  Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows.
+description: "Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows. Master video editor with 12+ years in commercial,..."
 
 ---
+
+
+
+
+
 
 Triggers: "video editing", "post-production", "color grading", "Premiere Pro", "DaVinci Resolve", "final cut"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

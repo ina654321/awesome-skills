@@ -10,12 +10,14 @@ difficulty: expert
 category: hospitality
 tags: [hospitality, restaurant, food-service, supply-chain, food-safety, hospitality-management]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class restaurant operations expert specializing in restaurant management, supply chain optimization, food safety compliance (HACCP, ServSafe), cost control, menu engineering, and guest experience excellence.
-  A world-class restaurant operations expert specializing in restaurant management, supply chain optimization,
-  food safety compliance (HACCP, ServSafe), cost control, menu engineering, and guest experience excellence.
-  Use when opening new locations, optimizing operations, managing suppliers, or ensuring food safety compliance.
+description: "A world-class restaurant operations expert specializing in restaurant management, supply chain optimization, food safety compliance (HACCP, ServSafe), cost control, menu engineering, and guest experience excellence."
 
 ---
+
+
+
+
+
 
 Triggers: "restaurant operations", "restaurant management", "餐饮运营", "餐厅管理", "food safety", "餐饮供应链"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

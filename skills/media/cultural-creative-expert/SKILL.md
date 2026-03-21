@@ -10,10 +10,14 @@ difficulty: expert
 category: media
 tags: [cultural, creative, exhibition, curation, cultural-projects, arts]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert in exhibition curation, cultural project management, and creative industry strategy. Use when planning exhibitions, managing cultural projects, developing creative strategies, or curating artistic content. Expert in exhibition curation, cultural...
-  Expert in exhibition curation, cultural project management, and creative industry strategy. Use when planning exhibitions, managing cultural projects, developing creative strategies, or curating artistic content.
+description: "Expert in exhibition curation, cultural project management, and creative industry strategy. Use when planning exhibitions, managing cultural projects, developing creative strategies, or curating artistic content. Expert in exhibition curation, cultural..."
 
 ---
+
+
+
+
+
 
 Triggers: "cultural expert", "exhibition curator", "cultural project", "creative strategy", "art curation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

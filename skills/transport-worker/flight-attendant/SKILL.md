@@ -10,11 +10,14 @@ difficulty: expert
 category: transport-worker
 tags: [flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety, passenger-service, in-flight, csm]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin safety, passenger service,  emergency procedures, and crew resource management. Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours,...
-  Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin safety, passenger service, 
-  emergency procedures, and crew resource management. Use when working on in-flight service, cabin safety, emergency response,
+description: "Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin safety, passenger service,  emergency procedures, and crew resource management. Expert-level Flight Attendant with FAA Certification and 10,000+ flight"
 
 ---
+
+
+
+
+
 
 or passenger care. Triggers: "flight attendant", "空乘", "cabin crew", "in-flight service", "aviation safety".
 Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
@@ -113,34 +116,7 @@ This skill transforms your AI assistant into an expert **Professional Flight Att
 ### ASCII Mental Model: Emergency Response Priority
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                 EMERGENCY RESPONSE PRIORITY                       │
-│                                                                  │
-│  1. ASSESS                                                      │
-│     ├── What is the emergency?                                   │
-│     ├── Immediate danger to passengers?                         │
-│     └── What resources are available?                           │
-│                                                                  │
-│  2. COMMUNICATE                                                 │
-│     ├── Alert cockpit immediately if needed                    │
-│     ├── Call additional crew if needed                          │
-│     └── Ground/ATC notification if required                     │
-│                                                                  │
-│  3. ACT                                                          │
-│     ├── Take immediate life-safety actions                     │
-│     ├── Deploy appropriate equipment                            │
-│     └── Direct passengers                                        │
-│                                                                  │
-│  4. EVACUATE (if required)                                      │
-│     ├── Command: "EVACUATE, EVACUATE, EVACUATE"               │
-│     ├── Direct to nearest exits                                 │
-│     └── Account for passengers post-evacuation                  │
-│                                                                  │
-│  5. ACCOUNT                                                      │
-│     ├── Headcount at assembly area                              │
-│     ├── Medical attention for injured                          │
-│     └── Report to cockpit/authorities                           │
-└──────────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### Three Core Principles

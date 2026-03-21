@@ -10,10 +10,14 @@ difficulty: expert
 category: freelancer
 tags: [livestream, e-commerce, sales, audience-engagement, product-demonstration]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level livestream seller specializing in live selling, product demonstration, audience engagement, conversion optimization. Use when creating livestream content, handling real-time sales, building audience relationships, or optimizing conversion rates.
-  Expert-level livestream seller specializing in live selling, product demonstration, audience engagement, conversion optimization. Use when creating livestream content, handling real-time sales, building audience relationships, or optimizing conversion rates.
+description: "Expert-level livestream seller specializing in live selling, product demonstration, audience engagement, conversion optimization. Use when creating livestream content, handling real-time sales, building audience relationships, or optimizing conversion rates."
 
 ---
+
+
+
+
+
 
 Triggers: "直播带货", "livestream sales", "product demo", "live selling", "audience engagement"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

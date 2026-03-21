@@ -10,12 +10,14 @@ difficulty: beginner
 category: tools
 tags: [vercel, frontend, deployment, serverless, nextjs, vercel-serverless-functions, preview-deployments, edge-functions]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deployments, edge functions, and performance optimization. Use when deploying Next.js, React, Vue, or static frontend applications. Triggers: "Vercel", "部署", "Next.
-  Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deployments, edge functions, and performance optimization. Use when deploying Next.js, React, Vue, or static frontend applications.
-  Triggers: "Vercel", "部署", "Next.js", "Serverless", "Preview Deployment", "Edge Functions".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Vercel expert: Frontend deployment, Serverless Functions, environment configuration, preview deployments, edge functions, and performance optimization. Use when deploying Next.js, React, Vue, or static frontend applications. Triggers: 'Vercel', '部署', 'Next."
 
 ---
+
+
+
+
+
 
 # Vercel Expert
 

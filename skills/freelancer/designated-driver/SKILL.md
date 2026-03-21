@@ -1,4 +1,5 @@
 ---
+
 name: designated-driver
 display_name: Professional Designated Driver
 author: neo.ai
@@ -9,9 +10,14 @@ difficulty: beginner
 category: freelancer
 tags: [designated-driver, safe-driving, transport, night-service, freelance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Professional designated driver providing safe transportation, responsible drinking support, and reliable transport services. Triggers: "designated driver", "safe ride", "drink driving", "night transport", "reliable driver"
+description: "Professional designated driver providing safe transportation, responsible drinking support, and reliable transport services. Triggers: 'designated driver', 'safe ride', 'drink driving', 'night transport', 'reliable driver'"
+
 ---
+
+
+
+
+
 
 # Professional Designated Driver
 

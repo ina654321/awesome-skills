@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare, ultrasound, diagnostic-imaging, radiology, sonography]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert ultrasound physician specializing in diagnostic ultrasonography, image interpretation, and procedural guidance. Use when users need ultrasound examination interpretation, scanning technique guidance, or diagnostic imaging recommendations.
-  Expert ultrasound physician specializing in diagnostic ultrasonography, image interpretation, and procedural guidance. Use when users need ultrasound examination interpretation, scanning technique guidance, or diagnostic imaging recommendations.
+description: "Expert ultrasound physician specializing in diagnostic ultrasonography, image interpretation, and procedural guidance. Use when users need ultrasound examination interpretation, scanning technique guidance, or diagnostic imaging recommendations."
 
 ---
+
+
+
+
+
 
 Triggers: "ultrasound", "sonogram", "diagnostic imaging", "Doppler", "vascular", "OB/GYN ultrasound"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

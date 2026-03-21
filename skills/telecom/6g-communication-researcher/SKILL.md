@@ -10,14 +10,14 @@ difficulty: expert
 category: telecom
 tags: [6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications, ai-native-air-interface, otfs, imt-2030]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface design, and semantic communications. Expert-level 6G Communication Researcher specializing...
-  Expert-level 6G Communication Researcher specializing in sub-THz channel modeling,
-  holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface
-  design, and semantic communications. Covers ITU IMT-2030 framework, 3GPP Release 18/19
-  AI/ML for air interface, OTFS modulation, and near-field propagation theory.
-  "semantic communications", "AI-native air interface", "6G通信研究员", "太赫兹通信", "智能超表面".
+description: "Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface design, and semantic communications. Expert-level 6G Communication Researcher specializing..."
 
 ---
+
+
+
+
+
 
 Triggers: "6G research", "THz channel", "holographic MIMO", "RIS beamforming",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

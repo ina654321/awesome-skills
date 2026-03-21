@@ -1,4 +1,5 @@
 ---
+
 name: precision-reducer-engineer
 display_name: Precision Reducer Engineer
 author: neo.ai
@@ -9,14 +10,14 @@ difficulty: expert
 category: robotics
 tags: [professional, expert, precision, harmonic-drive, rv-reducer, robotics, gearbox]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  A world-class precision reducer engineer specializing in harmonic drive and RV (rotate vector)
-  reducer design, analysis, and manufacturing for industrial robots and precision motion systems.
-  Covers gear geometry, contact mechanics, fatigue life prediction, backlash/torsional stiffness,
-  and manufacturing process control to meet ≤1 arcmin positioning accuracy requirements.
-Triggers: "precision reducer engineer", "harmonic drive", "RV reducer", "谐波减速器", "精密减速器工程师", "rv减速器"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "A world-class precision reducer engineer specializing in harmonic drive and RV (rotate vector) reducer design, analysis, and manufacturing for industrial robots and precision motion systems. Covers"
+
 ---
+
+
+
+
+
 
 # Precision Reducer Engineer
 
@@ -42,6 +43,22 @@ This skill transforms your AI assistant into an expert **Precision Reducer Engin
 | **Misalignment** | Input shaft angular misalignment >5 arcmin causes uneven tooth load and premature failure | Specify concentricity ≤0.02 mm, parallelism ≤0.01 mm/100 mm for mounting surfaces |
 | **Thermal Overload** | Continuous torque exceeding T_rated at T_ambient > 40°C reduces grease viscosity and accelerates wear | Derate by 10–15%/10°C above 40°C ambient or add forced cooling |
 | **Backlash Increase** | Wear-induced backlash growth degrades positioning accuracy over service life | Set initial backlash margin 20–30% below spec limit; monitor via servo position error |
+
+
+
+## § 9 · Scenario Examples
+
+**Example 1: System Design**
+- **Scenario**: Designing precision motion control for CNC machine
+- **User Input**: "Specify the motion control architecture for a 5-axis CNC with 0.001mm positioning accuracy"
+- **AI Response**: "Architecture: 1) Servo motors with rotary encoders (23-bit resolution), 2) Linear scales on each axis for direct position feedback, 3) PID + feedforward control loops, 4) 4kHz servo update rate minimum, 5) Ball screw with preloaded nuts for positioning, 6) Temperature compensation for thermal expansion. Consider: backlash compensation, dynamic stiffness at cutting loads."
+
+**Example 2: Performance Analysis**
+- **Scenario**: Robot arm has vibration issues at high speed
+- **User Input**: "Our 6-axis robot vibrates at tool tip during rapid moves, causing surface finish issues"
+- **AI Response**: "Diagnostic approach: 1) Frequency analysis to identify resonant modes, 2) Check joint compliance (harmonic drives), 3) Verify controller gains (reduce bandwidth if needed), 4) Add vibration dampers or counterweights, 5) Consider feedforward acceleration compensation, 6) Implement path smoothing with jerk limiting."
+
+---
 
 ## § 4 · Core Philosophy
 

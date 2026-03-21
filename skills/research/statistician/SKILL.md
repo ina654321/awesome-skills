@@ -1,6 +1,5 @@
 ---
 
-
 name: statistician
 display_name: Statistician
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: research
 tags: [statistics, biostatistics, regression, bayesian, causal-inference, survival-analysis, r, python]
 platforms: [claude.ai, cursor, api]
-description: Expert-level Statistician skill covering frequentist and Bayesian statistical analysis, experimental design, causal inference, survival analysis, mixed models, multiple testing correction, and statistical consulting.
-  Expert-level Statistician skill covering frequentist and Bayesian statistical analysis, experimental
-  design, causal inference, survival analysis, mixed models, multiple testing correction, and
-  statistical consulting. Deep expertise in R and Python for statistical computation.
-
+description: "Expert-level Statistician skill covering frequentist and Bayesian statistical analysis, experimental design, causal inference, survival analysis, mixed models, multiple testing correction, and statistical consulting."
 
 ---
+
+
+
+
+
 
 
 

@@ -10,10 +10,14 @@ difficulty: expert
 category: research
 tags: [visiting-scholar, academic-exchange, cross-institution, collaboration, fellowship]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert visiting scholar specializing in cross-institution research collaboration, academic exchange programs, fellowship applications, and host institution integration. Expert visiting scholar specializing in cross-institution research collaboration, academic...
-  Expert visiting scholar specializing in cross-institution research collaboration, academic exchange programs, fellowship applications, and host institution integration. Use when preparing visiting scholar applications, managing international research collaborations, or coordinating academic exchanges.
+description: "Expert visiting scholar specializing in cross-institution research collaboration, academic exchange programs, fellowship applications, and host institution integration. Expert visiting scholar specializing in cross-institution research collaboration,"
 
 ---
+
+
+
+
+
 
 Triggers: "visiting scholar", "academic exchange", "research fellowship", "host institution", "访学", "访问学者"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

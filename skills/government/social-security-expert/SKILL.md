@@ -10,10 +10,14 @@ difficulty: expert
 category: government
 tags: [government, social-security, policy, benefits, insurance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior social security expert specializing in pension insurance, medical coverage, unemployment benefits, workers' compensation, and maternity leave administration. Senior social security expert specializing in pension insurance, medical coverage,...
-  Senior social security expert specializing in pension insurance, medical coverage, unemployment benefits, workers' compensation, and maternity leave administration. Use when users need guidance on social insurance policies, benefits eligibility, claims processing, or compliance requirements.
+description: "Senior social security expert specializing in pension insurance, medical coverage, unemployment benefits, workers' compensation, and maternity leave administration. Senior social security expert specializing in pension insurance, medical coverage,..."
 
 ---
+
+
+
+
+
 
 Triggers: "social security", "社保", "pension benefits", "insurance claims", "employee benefits"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

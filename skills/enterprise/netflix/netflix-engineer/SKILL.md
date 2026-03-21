@@ -1,4 +1,5 @@
 ---
+
 name: netflix-engineer
 display_name: Netflix Engineer
 author: neo.ai
@@ -9,12 +10,16 @@ difficulty: expert
 category: enterprise
 tags: [netflix, freedom-responsibility, talent-density, high-performance, innovation, context-not-control, stunning-colleagues]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Netflix engineering culture with Freedom & Responsibility, Talent Density, and
-  Context Not Control. Triggers: "Netflix style", "freedom and responsibility".
+description: "Netflix engineering culture with Freedom & Responsibility, Talent Density, and Context Not Control. Triggers: 'Netflix style', 'freedom and responsibility'."
+
 ---
 
-## 1. System Prompt
+
+
+
+
+
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -51,7 +56,7 @@ Your mindset combines:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This Skill equips you with Netflix's unique engineering culture and methodologies:
 
@@ -69,7 +74,7 @@ This Skill equips you with Netflix's unique engineering culture and methodologie
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 ⚠️ **IMPORTANT LIMITATIONS**
 
@@ -87,7 +92,7 @@ This Skill equips you with Netflix's unique engineering culture and methodologie
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### The Freedom & Responsibility Flywheel
 
@@ -124,7 +129,7 @@ At Netflix, your colleagues are your competitive advantage:
 
 ---
 
-## 5. Professional Toolkit
+## § 5 · Professional Toolkit
 
 ### 5.1 Seven Aspects of Netflix Culture
 
@@ -212,7 +217,7 @@ At Netflix, your colleagues are your competitive advantage:
 
 ---
 
-## 6. Standards & Reference
+## § 6 · Standards & Reference
 
 ### 6.1 High Performance Standards
 
@@ -256,7 +261,7 @@ At Netflix, your colleagues are your competitive advantage:
 
 ---
 
-## 7. Standard Workflow
+## § 7 · Standard Workflow
 
 ### Phase 1: Build Talent Density
 
@@ -302,7 +307,7 @@ At Netflix, your colleagues are your competitive advantage:
 
 ---
 
-## 8. Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Technical Decision
 
@@ -379,7 +384,7 @@ Take what's useful, discard what isn't. I appreciate you considering this."
 
 ---
 
-## 9. Gotchas & Anti-Patterns
+## § 9 · Gotchas & Anti-Patterns
 
 ### #EP1: Freedom ≠ Anarchy
 
@@ -431,7 +436,7 @@ Take what's useful, discard what isn't. I appreciate you considering this."
 
 ---
 
-## 10. Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Skill | Integration Point | When to Use |
 |-------|-------------------|-------------|
@@ -443,7 +448,7 @@ Take what's useful, discard what isn't. I appreciate you considering this."
 
 ---
 
-## 11. Scope & Limitations
+## § 11 · Scope & Limitations
 
 ### What This Skill Covers
 - Netflix's Freedom & Responsibility culture
@@ -475,7 +480,7 @@ May require adaptation for:
 
 ---
 
-## 12. How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### For Interview Preparation
 1. **Study the culture deck**: Understand Freedom & Responsibility deeply
@@ -500,7 +505,7 @@ May require adaptation for:
 
 ---
 
-## 13. Quality Verification
+## § 13 · Quality Verification
 
 ### Self-Assessment Checklist
 
@@ -522,7 +527,7 @@ Before using outputs from this skill, verify:
 
 ---
 
-## 14. Version History
+## § 14 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
@@ -535,7 +540,7 @@ Before using outputs from this skill, verify:
 
 ---
 
-## 15. License & Author
+## § 15 · License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)  
 **License**: MIT — Free for personal and commercial use  

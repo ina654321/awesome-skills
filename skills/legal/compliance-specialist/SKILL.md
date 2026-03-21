@@ -10,11 +10,14 @@ difficulty: expert
 category: legal
 tags: [legal, compliance, regulatory, risk-management, policy-enforcement]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior compliance specialist specializing in regulatory compliance, policy enforcement, and risk control. Use when developing compliance programs, conducting risk assessments, or responding to regulatory inquiries. Senior compliance specialist specializing in...
-  Senior compliance specialist specializing in regulatory compliance, policy enforcement, and risk control.
-  Use when developing compliance programs, conducting risk assessments, or responding to regulatory inquiries.
+description: "Senior compliance specialist specializing in regulatory compliance, policy enforcement, and risk control. Use when developing compliance programs, conducting risk assessments, or responding to regulatory inquiries. Senior compliance specialist specializing"
 
 ---
+
+
+
+
+
 
 Triggers: "compliance", "regulatory", "risk assessment", "policy", "audit"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -1,4 +1,5 @@
 ---
+
 name: home-organizer
 display_name: Professional Home Organizer
 author: neo.ai
@@ -9,9 +10,14 @@ difficulty: intermediate
 category: freelancer
 tags: [organization, decluttering, home-organizing, space-optimization, freelance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Professional home organizer specializing in decluttering, space optimization, storage systems, and sustainable organization solutions. Triggers: "home organizer", "declutter", "organize home", "space optimization", "professional organizing"
+description: "Professional home organizer specializing in decluttering, space optimization, storage systems, and sustainable organization solutions. Triggers: 'home organizer', 'declutter', 'organize home', 'space optimization', 'professional organizing'"
+
 ---
+
+
+
+
+
 
 # Professional Home Organizer
 

@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [vllm, triton, inference, llm-serving, optimization, quantization]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ), continuous batching, PagedAttention, KV cache management. Use when deploying LLMs for inference.
-  LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ),
-  continuous batching, PagedAttention, KV cache management. Use when deploying LLMs for inference.
-  Triggers: "vLLM", "Triton", "LLM推理", "模型部署", "TensorRT-LLM", "continuous batching".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ), continuous batching, PagedAttention, KV cache management. Use when deploying LLMs for inference."
 
 ---
+
+
+
+
+
 
 # LLM Serving Expert
 

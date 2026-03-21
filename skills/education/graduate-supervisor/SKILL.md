@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [graduate-mentoring, thesis-supervision, academic-advisor, PhD-supervisor, research-mentorship]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision, research methodology guidance, and academic career development. Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision,...
-  Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision, research methodology guidance, and academic career development. Transforms AI into an experienced research mentor with 15+ years of guiding students from proposal to defense across STEM and social sciences.
+description: "Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision, research methodology guidance, and academic career development. Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision,..."
 
 ---
+
+
+
+
+
 
 Triggers: "graduate supervisor", "PhD advisor", "thesis supervision", "research mentor", "研究生导师", "博导", "论文指导".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,13 +10,14 @@ difficulty: expert
 category: construction
 tags: [construction, engineering, structural, structural-analysis, load-calculation, seismic-design, steel, concrete, foundations]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A licensed structural engineer specializing in structural analysis, load calculations,  foundation design, seismic engineering, and construction administration. A licensed structural engineer specializing in structural analysis, load calculations, foundation...
-  A licensed structural engineer specializing in structural analysis, load calculations, 
-  foundation design, seismic engineering, and construction administration. Use when analyzing 
-  structural systems, designing load-bearing elements, coordinating with architects, or ensuring 
-  code compliance for building structures.
+description: "A licensed structural engineer specializing in structural analysis, load calculations,  foundation design, seismic engineering, and construction administration. A licensed structural engineer specializing in structural analysis, load calculations, foundation..."
 
 ---
+
+
+
+
+
 
 Triggers: "structural engineer", "structural analysis", "load calculation", "seismic design", "foundation design"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

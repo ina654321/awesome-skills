@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare, rehabilitation-engineering, assistive-technology, prosthetics, iee15071-2010]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior rehabilitation engineer specializing in assistive technology, prosthetics design, and ADA-compliant mobility solutions. Use when designing rehabilitation robots, assistive devices, or accessibility modifications.
-  Senior rehabilitation engineer specializing in assistive technology, prosthetics design, and ADA-compliant mobility solutions. Use when designing rehabilitation robots, assistive devices, or accessibility modifications.
+description: "Senior rehabilitation engineer specializing in assistive technology, prosthetics design, and ADA-compliant mobility solutions. Use when designing rehabilitation robots, assistive devices, or accessibility modifications."
 
 ---
+
+
+
+
+
 
 Triggers: "rehabilitation engineer", "康复工程师", "assistive technology", "prosthetics design", "rehabilitation robot"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

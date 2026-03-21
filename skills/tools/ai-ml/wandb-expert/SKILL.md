@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [wandb, ml-experiment, tracking, logging, hyperparameters, mlops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboards, performance visualization. Use when tracking ML experiments with Weights & Biases. Triggers: "W&B", "Weights & Biases", "实验追踪", "超参优化", "wandb sweep".
-  W&B expert: experiment tracking, hyperparameter search, artifact management, sweep,
-  team dashboards, performance visualization. Use when tracking ML experiments with Weights & Biases.
-  Triggers: "W&B", "Weights & Biases", "实验追踪", "超参优化", "wandb sweep".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboards, performance visualization. Use when tracking ML experiments with Weights & Biases. Triggers: 'W&B', 'Weights & Biases', '实验追踪', '超参优化', 'wandb sweep'."
 
 ---
+
+
+
+
+
 
 # W&B Expert
 

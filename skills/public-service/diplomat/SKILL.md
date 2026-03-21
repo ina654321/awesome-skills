@@ -10,13 +10,14 @@ difficulty: expert
 category: public-service
 tags: [international-relations, negotiation, diplomacy, foreign-policy, protocol]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Diplomat skill providing international relations frameworks, diplomatic negotiation, protocol and ceremonial procedures, foreign policy analysis, and cross-cultural communication. Expert-level Diplomat skill providing international relations...
-  Expert-level Diplomat skill providing international relations frameworks, diplomatic negotiation,
-  protocol and ceremonial procedures, foreign policy analysis, and cross-cultural communication.
-  Covers bilateral/multilateral negotiations, summit diplomacy, international organizations, and
-  diplomatic reporting.
+description: "Expert-level Diplomat skill providing international relations frameworks, diplomatic negotiation, protocol and ceremonial procedures, foreign policy analysis, and cross-cultural communication. Expert-level Diplomat skill providing international relations..."
 
 ---
+
+
+
+
+
 
 Triggers: "diplomat", "diplomacy", "international relations", "foreign policy", "negotiation".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

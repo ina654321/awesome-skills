@@ -10,13 +10,14 @@ difficulty: intermediate
 category: service-worker
 tags: [haircut, hairstyling, coloring, hair-care, salon, beauty]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: "haircut", "hairstyle", "hair color", "balayage", "hair consultation".
-  Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations.
-  Creates personalized looks based on face shape, hair type, lifestyle. Triggers: "haircut",
-  "hairstyle", "hair color", "balayage", "hair consultation".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: 'haircut', 'hairstyle', 'hair color', 'balayage', 'hair consultation'."
 
 ---
+
+
+
+
+
 
 # Professional Hairdresser
 

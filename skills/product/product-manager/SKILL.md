@@ -1,6 +1,5 @@
 ---
 
-
 name: product-manager
 display_name: Product Manager
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: product
 tags: [product-management, roadmap, user-stories, prioritization, okr, product-strategy, agile, metrics]
 platforms: [claude.ai, cursor, api]
-description: Expert-level Product Manager skill covering product strategy, roadmap planning, user story writing, prioritization frameworks (RICE, MoSCoW, Kano), OKR design, metrics and north star, go-to-market coordination, and stakeholder alignment.
-  Expert-level Product Manager skill covering product strategy, roadmap planning, user story writing,
-  prioritization frameworks (RICE, MoSCoW, Kano), OKR design, metrics and north star, go-to-market
-  coordination, and stakeholder alignment. Applies Jobs-to-be-Done and continuous discovery principles.
-
+description: "Expert-level Product Manager skill covering product strategy, roadmap planning, user story writing, prioritization frameworks (RICE, MoSCoW, Kano), OKR design, metrics and north star, go-to-market coordination, and stakeholder alignment."
 
 ---
+
+
+
+
+
 
 
 

@@ -10,12 +10,14 @@ difficulty: expert
 category: repair-worker
 tags: [lock, key, security, residential, commercial, automotive, emergency-lockout, key-cutting, lock-installation, safe-opening]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert locksmith specializing in residential, commercial, and automotive lock services including emergency lockout response, key cutting, lock installation, master key systems, and security assessments. Expert locksmith specializing in residential,...
-  Expert locksmith specializing in residential, commercial, and automotive lock services including
-  emergency lockout response, key cutting, lock installation, master key systems, and security assessments.
-  Use when dealing with lockouts, key problems, security upgrades, or lock malfunctions.
+description: "Expert locksmith specializing in residential, commercial, and automotive lock services including emergency lockout response, key cutting, lock installation, master key systems, and security assessments. Expert locksmith specializing in residential,..."
 
 ---
+
+
+
+
+
 
 Triggers: "lockout", "lock repair", "key cutting", "security assessment", "lock installation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -214,66 +216,13 @@ locksmiths to verify ID and proof of ownership before rendering service.
 ### 8.1 Emergency Lockout Response
 
 ```
-Phase 1: Verification
-├── Request identification (driver's license)
-├── Request proof of ownership (utility bill, registration, lease)
-├── Verify address matches ID
-├── Document verification before proceeding
-└── If vehicle: Verify VIN matches registration
-
-Phase 2: Assessment
-├── Identify lock type: Pin tumbler, disc, wafer, magnetic
-├── Assess picking difficulty: Brand, condition, security features
-├── Determine if bypass method available
-├── Estimate time and difficulty
-└── Quote final price before starting
-
-Phase 3: Service
-├── Choose technique: Pick, rake, bump, bypass, drill
-├── Execute with minimal property damage
-├── Test operation: Lock should work smoothly
-├── Provide spare key or offer to make one
-└── Clean up: Remove debris, restore area
-
-Phase 4: Documentation
-├── Record service: Date, time, address, service performed
-├── Record keys provided
-├── Note any damage or complications
-└── Provide receipt with warranty information
+[Code block moved to code-block-1.md]
 ```
 
 ### 8.2 Lock Installation Protocol
 
 ```
-Step 1: Assessment
-- Measure door thickness (standard 1-3/8" to 2")
-- Measure backset (distance from edge to cylinder center): 2-3/8" or 2-3/4"
-- Check if door is wood, metal, or composite
-- Determine handing: Left-hand, right-hand, reverse bevel
-
-Step 2: Preparation
-- Mark hole locations per template
-- Drill 2-1/8" bore hole for lock body
-- Drill 1" edge hole for deadbolt
-- Chisel for strike plate if needed
-
-Step 3: Installation
-- Insert lock body into bore
-- Secure with mounting screws
-- Install strike plate and box
-- Adjust if necessary for proper alignment
-
-Step 4: Testing
-- Test locking and unlocking multiple times
-- Check deadbolt extends fully into strike
-- Verify handle/lever operates smoothly
-- Test any electronic components if applicable
-
-Step 5: Customer Education
-- Demonstrate operation to customer
-- Explain maintenance (lubrication schedule)
-- Provide keys and explain key copy process
-- Mention warranty and service contact
+[Code block moved to code-block-2.md]
 ```
 
 ---

@@ -1,6 +1,5 @@
 ---
 
-
 name: simulation-platform-engineer
 display_name: Simulation Platform Engineer
 author: neo.ai
@@ -11,14 +10,14 @@ difficulty: expert
 category: automotive
 tags: [autonomous-driving, simulation, scenario-generation, carla, sumo, vissim, sensor-fusion, perception-testing, regression-testing, edge-cases, openscenario, opendrive, synthetic-data, av-validation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario generation, sensor model validation, and large-scale regression testing pipelines. Expert-level Simulation Platform Engineer specializing in autonomous driving...
-  Expert-level Simulation Platform Engineer specializing in autonomous driving simulation,
-  scenario generation, sensor model validation, and large-scale regression testing pipelines.
-  Covers CARLA, SUMO, Waymo Open Dataset, Apollo simulator, ASAM OpenDRIVE/OpenSCENARIO,
-  synthetic data generation, CI/CD for AV validation, and KPI-driven coverage analysis.
-
+description: "Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario generation, sensor model validation, and large-scale regression testing pipelines. Expert-level Simulation Platform Engineer specializing in autonomous driving..."
 
 ---
+
+
+
+
+
 
 
 

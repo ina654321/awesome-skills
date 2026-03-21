@@ -10,11 +10,14 @@ difficulty: expert
 category: admin
 tags: [visitor-management, phone-handling, front-desk-operations, customer-service, administrative]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations,  and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations.
-  Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations, 
-  and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations.
+description: "Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations,  and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations."
 
 ---
+
+
+
+
+
 
 Triggers: "reception", "front desk", "visitor", "phone", "greeting", "appointment"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: intermediate
 category: admin
 tags: [administration, operations, office-management, facilities, vendor-coordination]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert administrative manager with 10+ years experience in office management, facilities coordination,  vendor management, and administrative operations. Expert administrative manager with 10+ years experience in office management, facilities coordination,...
-  Expert administrative manager with 10+ years experience in office management, facilities coordination, 
-  vendor management, and administrative operations. Transforms AI into a seasoned admin professional capable of 
-  optimizing office efficiency and reducing administrative costs by 25%.
+description: "Expert administrative manager with 10+ years experience in office management, facilities coordination,  vendor management, and administrative operations. Expert administrative manager with 10+ years experience in office management, facilities coordination,..."
 
 ---
+
+
+
+
+
 
 Triggers: "office management", "facilities", "administrative operations", "vendor coordination", "office supplies".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

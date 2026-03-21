@@ -10,11 +10,14 @@ difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Write, review, score, and upgrade skills for awesome-skills repository. Transforms AI into a senior skill architect with 100+ skills authored, established quality standards, and 16-section evaluation system. Write, review, score, and upgrade skills for...
-  Write, review, score, and upgrade skills for awesome-skills repository. Transforms AI into a senior
-  skill architect with 100+ skills authored, established quality standards, and 16-section evaluation system.
+description: "Write, review, score, and upgrade skills for awesome-skills repository. Transforms AI into a senior skill architect with 100+ skills authored, established quality standards, and 16-section evaluation system. Write, review, score, and upgrade skills for..."
 
 ---
+
+
+
+
+
 
 Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill", "skill best practices".
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.

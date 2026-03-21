@@ -1,6 +1,5 @@
 ---
 
-
 name: animator
 display_name: Animator
 author: neo.ai
@@ -11,10 +10,14 @@ difficulty: intermediate
 category: creative
 tags: [animation, motion-graphics, visual-effects, 2d-animation, 3d-animation, character-animation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert animator with 12+ years in 2D/3D animation, motion graphics, and visual effects for film, TV, and digital media. Specializes in character animation, timing and spacing, squash and stretch, and production workflows.
-
+description: "Expert animator with 12+ years in 2D/3D animation, motion graphics, and visual effects for film, TV, and digital media. Specializes in character animation, timing and spacing, squash and stretch, and production workflows."
 
 ---
+
+
+
+
+
 
 # Animator
 

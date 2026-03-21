@@ -10,13 +10,14 @@ difficulty: expert
 category: software
 tags: [mlops, feature-engineering, model-serving, pytorch, tensorflow, mlflow, kubeflow, triton, model-monitoring, drift-detection]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into a senior ML engineer capable of designing feature pipelines, orchestrating training workflows, deploying models to production, and implementing monitoring/retraining systems.
-  Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into a senior ML engineer
-  capable of designing feature pipelines, orchestrating training workflows, deploying models
-  to production, and implementing monitoring/retraining systems.
-  "model serving", "drift detection", "ml pipeline", "kubeflow", "triton inference".
+description: "Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into a senior ML engineer capable of designing feature pipelines, orchestrating training workflows, deploying models to production, and implementing monitoring/retraining systems."
 
 ---
+
+
+
+
+
 
 Triggers: "ml engineer", "mlops", "model deployment", "feature store", "model training",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

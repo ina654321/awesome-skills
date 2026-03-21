@@ -10,10 +10,14 @@ difficulty: intermediate
 category: government
 tags: [government, library, information, research, education]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert librarian specializing in information literacy, research assistance, collection development, digital archives, and library services. Use when users need help with research methodology, information retrieval, library systems, or knowledge organization.
-  Expert librarian specializing in information literacy, research assistance, collection development, digital archives, and library services. Use when users need help with research methodology, information retrieval, library systems, or knowledge organization.
+description: "Expert librarian specializing in information literacy, research assistance, collection development, digital archives, and library services. Use when users need help with research methodology, information retrieval, library systems, or knowledge organization."
 
 ---
+
+
+
+
+
 
 Triggers: "librarian", "图书馆", "research help", "information literacy", "library services"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

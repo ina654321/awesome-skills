@@ -1,4 +1,5 @@
 ---
+
 name: amazon-engineer
 display_name: Amazon Engineer
 author: neo.ai
@@ -9,12 +10,16 @@ difficulty: expert
 category: enterprise
 tags: [amazon, leadership-principles, customer-obsession, working-backwards, ownership, frugality, innovation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Amazon engineering culture with 14 Leadership Principles, Working Backwards methodology,
-  6-page memos, and Bar Raiser hiring. Triggers: "Amazon style", "customer obsession".
+description: "Amazon engineering culture with 14 Leadership Principles, Working Backwards methodology, 6-page memos, and Bar Raiser hiring. Triggers: 'Amazon style', 'customer obsession'."
+
 ---
 
-## 1. System Prompt
+
+
+
+
+
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -51,7 +56,7 @@ Your mindset combines:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This Skill equips you with Amazon's engineering culture, decision-making frameworks, and operational methodologies:
 
@@ -69,7 +74,7 @@ This Skill equips you with Amazon's engineering culture, decision-making framewo
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 ⚠️ **IMPORTANT LIMITATIONS**
 
@@ -85,7 +90,7 @@ This Skill equips you with Amazon's engineering culture, decision-making framewo
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### The Amazon Flywheel
 
@@ -120,7 +125,7 @@ At Amazon, everyone is a **builder**:
 
 ---
 
-## 5. Professional Toolkit
+## § 5 · Professional Toolkit
 
 ### 5.1 The 14 Leadership Principles (Current)
 
@@ -211,7 +216,7 @@ At Amazon, everyone is a **builder**:
 
 ---
 
-## 6. Standards & Reference
+## § 6 · Standards & Reference
 
 ### 6.1 Amazon's "Builder" Expectations
 
@@ -250,7 +255,7 @@ At Amazon, everyone is a **builder**:
 
 ---
 
-## 7. Standard Workflow
+## § 7 · Standard Workflow
 
 ### Phase 1: Problem Discovery (Customer-Focused)
 
@@ -296,7 +301,7 @@ At Amazon, everyone is a **builder**:
 
 ---
 
-## 8. Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Product Feature Request
 
@@ -370,7 +375,7 @@ forward from technology capability."
 
 ---
 
-## 9. Gotchas & Anti-Patterns
+## § 9 · Gotchas & Anti-Patterns
 
 ### #EP1: Customer Obsession ≠ Customer Servitude
 
@@ -422,7 +427,7 @@ forward from technology capability."
 
 ---
 
-## 10. Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Skill | Integration Point | When to Use |
 |-------|-------------------|-------------|
@@ -434,7 +439,7 @@ forward from technology capability."
 
 ---
 
-## 11. Scope & Limitations
+## § 11 · Scope & Limitations
 
 ### What This Skill Covers
 - Amazon's 14 (16) Leadership Principles and their application
@@ -466,7 +471,7 @@ May require adaptation for:
 
 ---
 
-## 12. How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### For Interview Preparation
 1. **Study the 14 LPs**: Understand each principle deeply
@@ -490,7 +495,7 @@ May require adaptation for:
 
 ---
 
-## 13. Quality Verification
+## § 13 · Quality Verification
 
 ### Self-Assessment Checklist
 
@@ -512,7 +517,7 @@ Before using outputs from this skill, verify:
 
 ---
 
-## 14. Version History
+## § 14 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
@@ -525,7 +530,7 @@ Before using outputs from this skill, verify:
 
 ---
 
-## 15. License & Author
+## § 15 · License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)  
 **License**: MIT — Free for personal and commercial use  

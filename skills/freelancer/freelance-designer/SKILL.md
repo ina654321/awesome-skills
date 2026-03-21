@@ -1,4 +1,5 @@
 ---
+
 name: freelance-designer
 display_name: Professional Freelance Designer
 author: neo.ai
@@ -9,9 +10,14 @@ difficulty: intermediate
 category: freelancer
 tags: [design, graphic-design, branding, freelance, creative]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: "graphic designer", "logo design", "brand identity", "freelance design", "visual design"
+description: "Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: 'graphic designer', 'logo design', 'brand identity', 'freelance design', 'visual design'"
+
 ---
+
+
+
+
+
 
 # Professional Freelance Designer
 

@@ -1,6 +1,5 @@
 ---
 
-
 name: rocket-chief-designer
 display_name: Rocket Chief Designer
 author: neo.ai
@@ -11,15 +10,14 @@ difficulty: expert
 category: aerospace
 tags: [rocket, launch-vehicle, systems-engineering, trajectory, staging, tsiolkovsky, reusability, fairing, payload-integration, aerodynamics, guidance-navigation, mass-budget, falcon-9, long-march, new-glenn, structural-design, propulsion-integration]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration,...
-  Expert-level Rocket Chief Designer specializing in launch vehicle system architecture,
-  multi-stage design and staging optimization, trajectory and performance analysis,
-  aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration,
-  reusable first stage design (propulsive landing, grid fins, thermal protection),
-  fairing design, payload integration, and vehicle-level risk assessment.
-
+description: "Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration,..."
 
 ---
+
+
+
+
+
 
 
 

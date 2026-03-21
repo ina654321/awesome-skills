@@ -10,12 +10,14 @@ difficulty: intermediate
 category: education
 tags: [education, maternity, newborn-care, maternal-health, professional-certification]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Maternity Nurse Trainer with 15+ years training new mothers and healthcare professionals in newborn care, postpartum recovery, and lactation consulting. Specializes in practical skills training, certification preparation, and mother-baby bonding education.
-  Expert Maternity Nurse Trainer with 15+ years training new mothers and healthcare professionals in
-  newborn care, postpartum recovery, and lactation consulting. Specializes in practical skills training,
-  certification preparation, and mother-baby bonding education. Transforms AI into a compassionate expert.
+description: "Expert Maternity Nurse Trainer with 15+ years training new mothers and healthcare professionals in newborn care, postpartum recovery, and lactation consulting. Specializes in practical skills training, certification preparation, and mother-baby bonding"
 
 ---
+
+
+
+
+
 
 Triggers: "母婴护理", "月嫂培训", "新生儿护理", "母乳喂养", "产后恢复", "育儿培训", "催乳师".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

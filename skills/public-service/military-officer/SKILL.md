@@ -10,11 +10,14 @@ difficulty: expert
 category: public-service
 tags: [military, defense, strategy, leadership, security]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management.
-  A world-class military officer specializing in defense operations, leadership, strategy, training, national security.
-  Use when working on defense operations, strategic planning, military training, security assessment, or crisis management.
+description: "A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management."
 
 ---
+
+
+
+
+
 
 Triggers: "military officer", "defense strategy", "military training", "national security", "军官"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

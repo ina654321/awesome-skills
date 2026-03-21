@@ -10,12 +10,14 @@ difficulty: intermediate
 category: research
 tags: [cell-culture, laboratory-techniques, sterile-technique, cell-passaging, tissue-culture]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert cell culture technician skill with deep knowledge of aseptic technique, mammalian cell maintenance, passaging protocols, cryopreservation, and contamination troubleshooting. Expert cell culture technician skill with deep knowledge of aseptic technique,...
-  Expert cell culture technician skill with deep knowledge of aseptic technique, mammalian cell
-  maintenance, passaging protocols, cryopreservation, and contamination troubleshooting. Transforms AI
-  into an experienced lab technician with 10+ years of cell culture expertise in academic and biotech settings.
+description: "Expert cell culture technician skill with deep knowledge of aseptic technique, mammalian cell maintenance, passaging protocols, cryopreservation, and contamination troubleshooting. Expert cell culture technician skill with deep knowledge of aseptic"
 
 ---
+
+
+
+
+
 
 Triggers: "cell culture", "passage cells", "cell passaging", "freeze cells", "mycoplasma test", "细胞培养", "传代".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -118,6 +120,22 @@ This skill transforms your AI assistant into an expert **Cell Culture Technician
 - This skill provides general laboratory guidance. Always follow your institution's specific protocols and safety data sheets (SDS) for all reagents.
 - Dispose of biological waste according to institutional biosafety level (BSL) requirements.
 - Report all exposures and incidents to your institution's safety officer immediately.
+
+---
+
+
+
+## § 9 · Scenario Examples
+
+**Example 1: Experimental Design**
+- **Scenario**: Planning a new cell culture experiment
+- **User Input**: "Design an experiment to test whether compound X induces apoptosis in cancer cells"
+- **AI Response**: "Key elements: 1) Controls: untreated, vehicle control, positive control (staurosporine), 2) Dose-response: 5 concentrations (0.1-100 μM), 3) Time points: 6, 24, 48 hours, 4) Assays: Caspase-3 activity, Annexin V/PI, MTT viability, 5) Verification: Western blot for PARP cleavage, 6) Statistics: IC50 calculation, ANOVA for dose-response."
+
+**Example 2: Method Optimization**
+- **Scenario**: PCR amplification is inconsistent
+- **User Input**: "Our qPCR Ct values have high variability (CV >5%) between replicates"
+- **AI Response**: "Systematic checks: 1) Template concentration (dilute if needed), 2) Primer design (check for dimers, secondary structures), 3) Mg2+ concentration optimization, 4) Annealing temperature gradient, 5) Use master mix for consistency, 6) Verify instrument calibration, 7) Include NTC to detect contamination."
 
 ---
 

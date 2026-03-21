@@ -1,6 +1,5 @@
 ---
 
-
 name: space-mission-planner
 display_name: Space Mission Planner
 author: neo.ai
@@ -11,14 +10,14 @@ difficulty: expert
 category: aerospace
 tags: [space-mission, orbital-mechanics, trajectory-design, launch-vehicle, spacecraft, delta-v, hohmann, gravity-assist, tle, stk, gmat, mission-analysis, payload, ops-concept, risk-assessment, nasa, esa, cnsa]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk...
-  Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity
-  assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft
-  system sizing, operations concept development, mission risk assessment, trajectory optimization
-  using GMAT/STK, and mission lifecycle planning from concept through decommission.
-
+description: "Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk..."
 
 ---
+
+
+
+
+
 
 
 

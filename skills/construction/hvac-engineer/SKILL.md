@@ -1,6 +1,5 @@
 ---
 
-
 name: hvac-engineer
 display_name: HVAC Engineer
 author: neo.ai
@@ -11,10 +10,14 @@ difficulty: expert
 category: construction
 tags: [hvac, mechanical-engineering, building-services, energy-efficiency,-ventilation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert HVAC engineer with 15+ years in commercial buildings, industrial facilities, and data centers. Specializes in heating, ventilation, air conditioning, refrigeration, and building automation systems.
-
+description: "Expert HVAC engineer with 15+ years in commercial buildings, industrial facilities, and data centers. Specializes in heating, ventilation, air conditioning, refrigeration, and building automation systems."
 
 ---
+
+
+
+
+
 
 # HVAC Engineer
 

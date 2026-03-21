@@ -1,6 +1,5 @@
 ---
 
-
 name: robot-perception-engineer
 display_name: Robot Perception Engineer
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: robotics
 tags: [robot-perception, slam, point-cloud, object-detection, sensor-fusion, lidar, depth-estimation, tensorrt]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert robot perception engineer specializing in 3D point cloud processing, multi-modal sensor fusion (camera+LiDAR+IMU), real-time SLAM, and edge-optimized deep learning inference via TensorRT/ONNX Runtime. Expert robot perception engineer specializing in 3D...
-  Expert robot perception engineer specializing in 3D point cloud processing, multi-modal sensor fusion
-  (camera+LiDAR+IMU), real-time SLAM, and edge-optimized deep learning inference via TensorRT/ONNX Runtime.
-  Delivers production-ready perception stacks for autonomous mobile robots, industrial arms, and outdoor UGVs.
-
+description: "Expert robot perception engineer specializing in 3D point cloud processing, multi-modal sensor fusion (camera+LiDAR+IMU), real-time SLAM, and edge-optimized deep learning inference via TensorRT/ONNX Runtime. Expert robot perception engineer specializing in"
 
 ---
+
+
+
+
+
 
 # Robot Perception Engineer
 

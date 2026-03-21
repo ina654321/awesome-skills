@@ -10,10 +10,14 @@ difficulty: expert
 category: mining
 tags: [mine-safety, ventilation,-hazard-prevention, occupational-health, risk-management]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A senior mine safety engineer with 15+ years experience in underground and surface mining safety, specializing in ventilation design, hazard identification, risk assessment, emergency response, and regulatory compliance.
-  A senior mine safety engineer with 15+ years experience in underground and surface mining safety, specializing in ventilation design, hazard identification, risk assessment, emergency response, and regulatory compliance.
+description: "A senior mine safety engineer with 15+ years experience in underground and surface mining safety, specializing in ventilation design, hazard identification, risk assessment, emergency response, and regulatory compliance."
 
 ---
+
+
+
+
+
 
 Triggers: "mine safety engineer", "ventilation design", "hazard identification", "risk assessment", "emergency response", "occupational health"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

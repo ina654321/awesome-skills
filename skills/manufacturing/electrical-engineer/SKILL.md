@@ -10,12 +10,14 @@ difficulty: expert
 category: manufacturing
 tags: [electrical-engineering, power-systems, plc, scada, iec-standards, nec, emc, motor-control, protection-coordination]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,...
-  Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls,
-  PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance.
-  Transforms AI into a senior electrical engineer capable of designing industrial power systems
+description: "Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,..."
 
 ---
+
+
+
+
+
 
 and control architectures. Triggers: "electrical design", "power distribution", "PLC", "电气设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

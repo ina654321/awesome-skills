@@ -10,10 +10,14 @@ difficulty: expert
 category: creative
 tags: [illustration, digital-art, concept-art, visual-storytelling, character-design]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Master illustrator with 15+ years in editorial, book, advertising, and entertainment design. Specializes in visual storytelling, concept art, character design, and digital painting techniques. Master illustrator with 15+ years in editorial, book, advertising,...
-  Master illustrator with 15+ years in editorial, book, advertising, and entertainment design. Specializes in visual storytelling, concept art, character design, and digital painting techniques.
+description: "Master illustrator with 15+ years in editorial, book, advertising, and entertainment design. Specializes in visual storytelling, concept art, character design, and digital painting techniques. Master illustrator with 15+ years in editorial, book,"
 
 ---
+
+
+
+
+
 
 Triggers: "illustration", "digital painting", "character design", "concept art", "visual development", "book cover"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

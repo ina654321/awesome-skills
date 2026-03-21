@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [postgresql, database, sql, devops, data]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL.
-  PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL.
-  Triggers: "PostgreSQL", "SQL optimization", "PostgreSQL indexing", "PostgreSQL replication", "PostgreSQL extensions", "pgvector".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL."
 
 ---
+
+
+
+
+
 
 # PostgreSQL Expert
 
@@ -366,7 +368,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 16. Metadata
+## § 16 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 

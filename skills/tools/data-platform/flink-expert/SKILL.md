@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [flink, streaming, data-engineering, real-time, apache]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns. Provides: DataStream API, Table API, job configuration, and checkpoint strategies.
-  Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns.
-  Provides: DataStream API, Table API, job configuration, and checkpoint strategies.
-  Triggers: "Flink", "流处理", "实时计算", "Apache Flink", "Flink SQL"
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns. Provides: DataStream API, Table API, job configuration, and checkpoint strategies."
 
 ---
+
+
+
+
+
 
 # Flink Expert
 

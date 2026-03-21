@@ -10,10 +10,14 @@ difficulty: expert
 category: creative
 tags: [ui-ux, design, interface, user-experience, prototyping]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert UI/UX designer creating intuitive, accessible, and visually compelling interfaces through user-centered design methodology. Use when designing interfaces, improving user experience, conducting usability testing, or creating design systems.
-  Expert UI/UX designer creating intuitive, accessible, and visually compelling interfaces through user-centered design methodology. Use when designing interfaces, improving user experience, conducting usability testing, or creating design systems.
+description: "Expert UI/UX designer creating intuitive, accessible, and visually compelling interfaces through user-centered design methodology. Use when designing interfaces, improving user experience, conducting usability testing, or creating design systems."
 
 ---
+
+
+
+
+
 
 Triggers: "design interface", "improve UX", "design system", "usability test", "wireframe"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

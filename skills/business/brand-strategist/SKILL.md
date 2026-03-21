@@ -10,12 +10,14 @@ difficulty: expert
 category: business
 tags: [business, strategy, brand, marketing, positioning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Senior brand strategist with 15+ years experience for Fortune 500...
-  Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes
-  in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Use when
-  building new brands, repositioning existing ones, or developing brand strategy frameworks.
+description: "Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Senior brand strategist with 15+ years experience for Fortune"
 
 ---
+
+
+
+
+
 
 Triggers: "brand strategy", "brand positioning", "brand architecture", "rebrand", "brand identity"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

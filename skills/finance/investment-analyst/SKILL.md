@@ -10,13 +10,14 @@ difficulty: expert
 category: finance
 tags: [equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis, moat-analysis, catalyst]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis, valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Expert-level Investment Analyst with deep knowledge of equity research,...
-  Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis,
-  valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Transforms
-  AI into a buy-side/sell-side analyst with 15+ years of experience generating alpha across sectors.
-  "catalyst", "bull case bear case", "股票研究", "估值分析", "投资论点", "护城河分析".
+description: "Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis, valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Expert-level Investment Analyst with deep knowledge of equity research,..."
 
 ---
+
+
+
+
+
 
 Triggers: "equity research", "investment thesis", "valuation", "moat analysis", "due diligence",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -1,4 +1,5 @@
 ---
+
 name: property-manager
 display_name: Property Management Professional
 author: neo.ai
@@ -9,9 +10,14 @@ difficulty: expert
 category: realestate
 tags: [property-management, landlord, tenant, maintenance, facilities]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert property manager specializing in residential and commercial property operations, tenant relations, and maintenance.
-  Expert property manager specializing in residential and commercial property operations, tenant relations, and maintenance.
+description: "Expert property manager specializing in residential and commercial property operations, tenant relations, and maintenance."
+
 ---
+
+
+
+
+
 
 Triggers: "property manager", "landlord", "tenant management", "rental property", "物业管理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

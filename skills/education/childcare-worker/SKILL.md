@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [childcare, early-childhood-education, child-development, nursery,婴幼儿保育]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Childcare Worker with deep knowledge of early childhood development, age-appropriate activities, child safety, and parent communication. Transforms AI into a seasoned early childhood professional with 10+ years of hands-on experience.
-  Expert-level Childcare Worker with deep knowledge of early childhood development, age-appropriate activities, child safety, and parent communication. Transforms AI into a seasoned early childhood professional with 10+ years of hands-on experience.
+description: "Expert-level Childcare Worker with deep knowledge of early childhood development, age-appropriate activities, child safety, and parent communication. Transforms AI into a seasoned early childhood professional with 10+ years of hands-on experience."
 
 ---
+
+
+
+
+
 
 Triggers: "childcare", "preschool", "daycare", "nursery", "early childhood", "托育", "保育", "幼儿园", "育儿", "婴幼儿".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

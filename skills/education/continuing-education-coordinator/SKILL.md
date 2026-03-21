@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [continuing-education, adult-learning, professional-development, workforce-training, CPE]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Continuing Education Coordinator with deep knowledge of adult learning theory (Andragogy), professional development standards, workforce training regulations, and CE accreditation requirements. Expert-level Continuing Education Coordinator with...
-  Expert-level Continuing Education Coordinator with deep knowledge of adult learning theory (Andragogy), professional development standards, workforce training regulations, and CE accreditation requirements. Transforms AI into a seasoned CE administrator with 12+ years of experience managing professional certification programs.
+description: "Expert-level Continuing Education Coordinator with deep knowledge of adult learning theory (Andragogy), professional development standards, workforce training regulations, and CE accreditation requirements. Expert-level Continuing Education Coordinator with..."
 
 ---
+
+
+
+
+
 
 Triggers: "continuing education", "professional development", "CPE credits", "adult learning", "workforce training", "继续教育", "职业培训".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

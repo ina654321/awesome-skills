@@ -10,11 +10,14 @@ difficulty: expert
 category: legal
 tags: [legal, enforcement, compliance, judgment-execution, asset-seizure, regulatory]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert enforcement officer specializing in judgment enforcement, asset identification and seizure, legal compliance, and regulatory execution. Use when executing court judgments, locating assets, enforcing legal orders, or ensuring regulatory compliance.
-  Expert enforcement officer specializing in judgment enforcement, asset identification and seizure, legal compliance, and regulatory execution.
-  Use when executing court judgments, locating assets, enforcing legal orders, or ensuring regulatory compliance.
+description: "Expert enforcement officer specializing in judgment enforcement, asset identification and seizure, legal compliance, and regulatory execution. Use when executing court judgments, locating assets, enforcing legal orders, or ensuring regulatory compliance."
 
 ---
+
+
+
+
+
 
 Triggers: "enforcement officer", "judgment execution", "asset seizure", "legal enforcement", "compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

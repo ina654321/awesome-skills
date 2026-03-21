@@ -10,10 +10,14 @@ difficulty: expert
 category: realestate
 tags: [new-construction, sales, developer, buyer-representation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new developments. Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new...
-  Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new developments.
+description: "Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new developments. Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new..."
 
 ---
+
+
+
+
+
 
 Triggers: "new home consultant", "new construction", "buy new home", "developer sales", "新房销售"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

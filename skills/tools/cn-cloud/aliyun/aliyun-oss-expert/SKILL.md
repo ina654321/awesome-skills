@@ -1,4 +1,5 @@
 ---
+
 name: aliyun-oss-expert
 display_name: Aliyun OSS Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [aliyun, oss, storage, cloud, s3]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  阿里云OSS对象存储：存储桶配置、文件上传、CDN加速、防盗链。Use when storing files in the cloud, setting up CDN, or building file services.
-  Triggers: "OSS", "阿里云存储", "对象存储", "CDN加速", "防盗链".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "阿里云OSS对象存储：存储桶配置、文件上传、CDN加速、防盗链。Use when storing files in the cloud, setting up CDN, or building file services. Triggers: 'OSS', '阿里云存储', '对象存储', 'CDN加速', '防盗链'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Aliyun OSS Expert
 

@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [lakehouse, delta-lake, apache-iceberg, databricks, data-lake]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table format optimization. Provides: Schema evolution, time-travel queries, Z-ordering, and data pipeline best practices.
-  Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table format optimization.
-  Provides: Schema evolution, time-travel queries, Z-ordering, and data pipeline best practices.
-  Triggers: "Lakehouse", "Delta Lake", "Iceberg", "数据湖屋", "ACID事务"
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table format optimization. Provides: Schema evolution, time-travel queries, Z-ordering, and data pipeline best practices."
 
 ---
+
+
+
+
+
 
 # Lakehouse Expert
 

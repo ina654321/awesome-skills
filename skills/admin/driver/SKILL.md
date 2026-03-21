@@ -10,11 +10,14 @@ difficulty: expert
 category: admin
 tags: [safe-driving, route-planning, vehicle-maintenance, logistics, transportation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving,  and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics.
-  Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving, 
-  and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics.
+description: "Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving,  and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics."
 
 ---
+
+
+
+
+
 
 Triggers: "drive", "driving", "route", "vehicle", "car", "transport", "road trip"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

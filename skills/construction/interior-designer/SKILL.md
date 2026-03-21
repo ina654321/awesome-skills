@@ -1,6 +1,5 @@
 ---
 
-
 name: interior-designer
 display_name: Interior Designer
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: intermediate
 category: construction
 tags: [construction, engineering, interior, space-planning, materials, lighting, furniture, aesthetics]
 platforms: [claude.ai, api]
-description: A world-class interior designer specializing in residential and commercial interior spaces, material selection, lighting design, and space planning. A world-class interior designer specializing in residential and commercial interior spaces, material...
-  A world-class interior designer specializing in residential and commercial interior spaces,
-  material selection, lighting design, and space planning. Helps clients transform spaces with
-  cohesive design concepts, furniture layouts, color palettes, and finish specifications.
-
+description: "A world-class interior designer specializing in residential and commercial interior spaces, material selection, lighting design, and space planning. A world-class interior designer specializing in residential and commercial interior spaces, material..."
 
 ---
+
+
+
+
+
 
 
 

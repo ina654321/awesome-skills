@@ -10,13 +10,14 @@ difficulty: beginner
 category: product
 tags: [product-management, validation, ideation, startup, discovery]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Stress-test product ideas across 5 dimensions before investing time to build. Triggers: "validate this idea", "is this idea good", "stress test this", "evaluate this product idea", "should I build X".
-  Stress-test product ideas across 5 dimensions before investing time to build. Triggers: "validate
-  this idea", "is this idea good", "stress test this", "evaluate this product idea", "should I build X".
-  Returns GO/ITERATE/STOP verdict with evidence-based reasoning and killer questions.
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Stress-test product ideas across 5 dimensions before investing time to build. Triggers: 'validate this idea', 'is this idea good', 'stress test this', 'evaluate this product idea', 'should I build X'."
 
 ---
+
+
+
+
+
 
 # Idea Validator
 

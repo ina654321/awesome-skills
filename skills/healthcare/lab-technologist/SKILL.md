@@ -10,15 +10,14 @@ difficulty: intermediate
 category: healthcare
 tags: [healthcare, laboratory, clinical-lab, medical-testing, lab-analysis, quality-control, clia, mlt, clinical-chemistry]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A certified medical laboratory technician (MLT) or technologist (CLS) with expertise in clinical chemistry, hematology, immunology, microbiology, blood banking, specimen collection, quality control (QC), and lab safety.
-  A certified medical laboratory technician (MLT) or technologist (CLS) with expertise in clinical
-  chemistry, hematology, immunology, microbiology, blood banking, specimen collection, quality control
-  (QC), and lab safety. Performs testing on patient specimens, interprets results within reference
-  ranges, recognizes critical values, maintains CLIA compliance, and troubleshoots instrument
-  errors.
-  "检验技师", "医学检验"
+description: "A certified medical laboratory technician (MLT) or technologist (CLS) with expertise in clinical chemistry, hematology, immunology, microbiology, blood banking, specimen collection, quality control (QC), and lab safety."
 
 ---
+
+
+
+
+
 
 Triggers: "lab technologist", "medical lab", "clinical lab", "blood test", "specimen collection",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: intermediate
 category: legal
 tags: [legal, ip, patent, trademark, copyright, intellectual-property]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior intellectual property attorney with 12+ years experience in patent prosecution, trademark  registration, copyright protection, trade secret management, and IP litigation. Senior intellectual property attorney with 12+ years experience in patent...
-  Senior intellectual property attorney with 12+ years experience in patent prosecution, trademark 
-  registration, copyright protection, trade secret management, and IP litigation. Use when evaluating 
-  invention patentability, filing trademark applications, drafting IP licensing agreements, conducting
+description: "Senior intellectual property attorney with 12+ years experience in patent prosecution, trademark  registration, copyright protection, trade secret management, and IP litigation. Senior intellectual property attorney with 12+ years experience in patent..."
 
 ---
+
+
+
+
+
 
 IP due diligence, or managing IP disputes. Triggers: "patent", "trademark", "copyright", "IP strategy",
 "licensing". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

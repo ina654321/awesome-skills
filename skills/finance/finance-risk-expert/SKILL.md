@@ -10,12 +10,14 @@ difficulty: expert
 category: finance
 tags: [finance, risk-management, credit-risk, market-risk, basel, regulatory-compliance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert financial risk management professional specializing in credit risk, market risk, operational risk, and regulatory compliance. Use when assessing portfolio risk, building risk models, implementing Basel regulations, or managing enterprise risk.
-  Expert financial risk management professional specializing in credit risk, market risk, operational risk,
-  and regulatory compliance. Use when assessing portfolio risk, building risk models, implementing Basel regulations,
-  "portfolio risk", "VaR", "expected loss", "risk management", "compliance", "risk analytics".
+description: "Expert financial risk management professional specializing in credit risk, market risk, operational risk, and regulatory compliance. Use when assessing portfolio risk, building risk models, implementing Basel regulations, or managing enterprise risk."
 
 ---
+
+
+
+
+
 
 or managing enterprise risk. Triggers: "risk assessment", "credit risk", "risk model", "Basel", "stress testing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

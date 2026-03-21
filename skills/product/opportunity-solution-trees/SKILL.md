@@ -10,13 +10,14 @@ difficulty: intermediate
 category: product
 tags: [product-management, discovery, teresa-torres, continuous-discovery, ost]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Apply Opportunity Solution Trees (OST) by Teresa Torres to connect outcomes to customer needs. Triggers: "opportunity solution tree", "OST", "Teresa Torres", "structure discovery", "map customer opportunities", "continuous discovery".
-  Apply Opportunity Solution Trees (OST) by Teresa Torres to connect outcomes to customer needs.
-  Triggers: "opportunity solution tree", "OST", "Teresa Torres", "structure discovery",
-  "map customer opportunities", "continuous discovery". Returns: outcome-opportunity-solution tree.
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Apply Opportunity Solution Trees (OST) by Teresa Torres to connect outcomes to customer needs. Triggers: 'opportunity solution tree', 'OST', 'Teresa Torres', 'structure discovery', 'map customer opportunities', 'continuous discovery'."
 
 ---
+
+
+
+
+
 
 # Opportunity Solution Trees (OST)
 

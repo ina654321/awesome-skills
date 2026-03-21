@@ -10,10 +10,14 @@ difficulty: expert
 category: energy
 tags: [gas, pipeline, natural-gas, distribution, CS4, pressure-regulation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and gas safety. Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and...
-  Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and gas safety. Use when designing gas distribution networks, sizing regulators, specifying pipeline materials, or developing safety management systems.
+description: "Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and gas safety. Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and..."
 
 ---
+
+
+
+
+
 
 Triggers: "gas", "pipeline", "natural gas", "distribution", "pressure regulation", "CS4", "metering", "gas safety", "odorization", "cathodic protection", "ASME B31.8".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

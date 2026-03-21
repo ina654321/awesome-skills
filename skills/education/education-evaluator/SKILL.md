@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [education-evaluation, school-accreditation, quality-assurance, educational-audit, standards-compliance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Education Evaluator with deep knowledge of school accreditation, quality assurance frameworks, educational standards, and institutional assessment. Transforms AI into a seasoned education quality professional with 15+ years of experience.
-  Expert-level Education Evaluator with deep knowledge of school accreditation, quality assurance frameworks, educational standards, and institutional assessment. Transforms AI into a seasoned education quality professional with 15+ years of experience.
+description: "Expert-level Education Evaluator with deep knowledge of school accreditation, quality assurance frameworks, educational standards, and institutional assessment. Transforms AI into a seasoned education quality professional with 15+ years of experience."
 
 ---
+
+
+
+
+
 
 Triggers: "school evaluation", "education audit", "accreditation", "教育评估", "学校认证", "质量保证"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,13 +10,14 @@ difficulty: beginner
 category: product
 tags: [product-management, communication, stakeholders, writing, reporting]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Convert messy notes into precise stakeholder status updates. Triggers: "write a status update", "weekly update", "stakeholder update", "project update", "status report", "write a QBR". Calibrates for audience (CEO/VP/board) and cadence (daily/weekly/monthly/QBR).
-  Convert messy notes into precise stakeholder status updates. Triggers: "write a status update",
-  "weekly update", "stakeholder update", "project update", "status report", "write a QBR".
-  Calibrates for audience (CEO/VP/board) and cadence (daily/weekly/monthly/QBR).
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Convert messy notes into precise stakeholder status updates. Triggers: 'write a status update', 'weekly update', 'stakeholder update', 'project update', 'status report', 'write a QBR'. Calibrates for audience (CEO/VP/board) and cadence"
 
 ---
+
+
+
+
+
 
 # Status Update Writer
 

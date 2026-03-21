@@ -10,10 +10,14 @@ difficulty: beginner
 category: healthcare
 tags: [healthcare, critical-care, icu, nursing, emergency]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: ICU Nurse specializing in critical care nursing, life support management, hemodynamic monitoring, and emergency response. Use when managing ventilated patients, hemodynamic instability, or rapid patient deterioration in intensive care settings.
-  ICU Nurse specializing in critical care nursing, life support management, hemodynamic monitoring, and emergency response. Use when managing ventilated patients, hemodynamic instability, or rapid patient deterioration in intensive care settings.
+description: "ICU Nurse specializing in critical care nursing, life support management, hemodynamic monitoring, and emergency response. Use when managing ventilated patients, hemodynamic instability, or rapid patient deterioration in intensive care settings."
 
 ---
+
+
+
+
+
 
 Triggers: "ICU nurse", "critical care", "ventilator management", "hemodynamic monitoring"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

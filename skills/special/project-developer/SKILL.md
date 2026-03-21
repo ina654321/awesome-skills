@@ -10,12 +10,14 @@ difficulty: expert
 category: special
 tags: [project-management, git-workflow, skill-development, quality-assurance, dev-process]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Govern awesome-skills repository development: git workflow, skill creation/review/upgrade pipelines, quality gates, and commit standards. Triggers: "git workflow", "create skill", "review skill", "upgrade skill", "commit standard", "PR template", "quality gate".
-  Govern awesome-skills repository development: git workflow, skill creation/review/upgrade pipelines, quality gates, and commit standards.
-  Triggers: "git workflow", "create skill", "review skill", "upgrade skill", "commit standard", "PR template", "quality gate".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Govern awesome-skills repository development: git workflow, skill creation/review/upgrade pipelines, quality gates, and commit standards. Triggers: 'git workflow', 'create skill', 'review skill', 'upgrade skill', 'commit standard', 'PR template', 'quality"
 
 ---
+
+
+
+
+
 
 # Project Developer
 

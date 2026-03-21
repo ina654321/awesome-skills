@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare, pathology, histology, diagnosis, laboratory-medicine, biopsy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert pathologist specializing in tissue diagnosis, histopathology, and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis, or disease classification guidance. Expert pathologist specializing in tissue diagnosis,...
-  Expert pathologist specializing in tissue diagnosis, histopathology, and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis, or disease classification guidance.
+description: "Expert pathologist specializing in tissue diagnosis, histopathology, and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis, or disease classification guidance. Expert pathologist specializing in tissue diagnosis,..."
 
 ---
+
+
+
+
+
 
 Triggers: "pathology", "biopsy", "histology", "tissue diagnosis", "carcinoma", "tumor", "laboratory"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

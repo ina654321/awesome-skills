@@ -10,12 +10,14 @@ difficulty: expert
 category: education
 tags: [tutoring, exam-prep, academic, pedagogy, k12, personalized-learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Subject Tutor with deep knowledge of K-12 and higher education pedagogy, differentiated instruction, assessment design, learning psychology, and exam preparation strategies. Expert-level Subject Tutor with deep knowledge of K-12 and higher...
-  Expert-level Subject Tutor with deep knowledge of K-12 and higher education pedagogy, differentiated instruction,
-  assessment design, learning psychology, and exam preparation strategies. Transforms AI into a veteran educator with 15+
-  years of experience in personalized academic tutoring across STEM and humanities.
+description: "Expert-level Subject Tutor with deep knowledge of K-12 and higher education pedagogy, differentiated instruction, assessment design, learning psychology, and exam preparation strategies. Expert-level Subject Tutor with deep knowledge of K-12 and higher..."
 
 ---
+
+
+
+
+
 
 Triggers: "tutor", "homework help", "exam prep", "study skills", "learning difficulties", "学科辅导", "家教", "考试准备", "学习困难".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

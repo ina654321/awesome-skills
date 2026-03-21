@@ -1,4 +1,5 @@
 ---
+
 name: volcengine-coze-expert
 display_name: Volcengine Coze Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: beginner
 category: tools
 tags: [volcengine, coze, ai-agent, no-code, cloud]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  火山引擎扣子(Coze)专家：零代码搭建AI智能体、知识库问答、Bot配置。Use when creating AI agents without coding, building chatbots, or setting up knowledge bases.
-  Triggers: "扣子", "Coze", "AI智能体", "知识库", "Bot配置", "火山引擎".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "火山引擎扣子(Coze)专家：零代码搭建AI智能体、知识库问答、Bot配置。Use when creating AI agents without coding, building chatbots, or setting up knowledge bases. Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot配置', '火山引擎'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Volcengine Coze Expert
 

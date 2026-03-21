@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [ansible, automation, devops, configuration-management, playbook, ansible-roles, ansible-galaxy, tower, awx]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating infrastructure configuration, deployment, or configuration management with Ansible.
-  Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating infrastructure configuration, deployment, or configuration management with Ansible.
-  Triggers: "Ansible", "playbook", "自动化", "配置管理", "ansible-galaxy", "ansible-role".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating infrastructure configuration, deployment, or configuration management with Ansible."
 
 ---
+
+
+
+
+
 
 # Ansible Expert
 
@@ -150,94 +152,13 @@ roles/
 ### 7.1 Basic Playbook Template
 
 ```yaml
----
-- name: Common Server Configuration
-  hosts: webservers
-  become: yes
-  vars:
-    ntp_server: pool.ntp.org
-  
-  tasks:
-    - name: Update apt cache
-      apt:
-        update_cache: yes
-        cache_valid_time: 3600
-      when: ansible_os_family == "Debian"
-    
-    - name: Install common packages
-      package:
-        name:
-          - vim
-          - curl
-          - git
-        state: present
-    
-    - name: Configure NTP
-      template:
-        src: ntp.conf.j2
-        dest: /etc/ntp.conf
-        owner: root
-        group: root
-        mode: '0644'
-      notify: restart ntp
-    
-    - name: Start and enable services
-      service:
-        name: "{{ item }}"
-        state: started
-        enabled: yes
-      loop:
-        - nginx
-        - fail2ban
-
-  handlers:
-    - name: restart ntp
-      service:
-        name: ntp
-        state: restarted
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Role Example - Nginx
 
 ```yaml
-# roles/nginx/tasks/main.yml
----
-- name: Install Nginx
-  package:
-    name: nginx
-    state: present
-
-- name: Create nginx config
-  template:
-    src: nginx.conf.j2
-    dest: /etc/nginx/nginx.conf
-    owner: root
-    group: root
-    mode: '0644'
-    validate: nginx -t -c %s
-  notify: reload nginx
-
-- name: Enable site configuration
-  template:
-    src: site.conf.j2
-    dest: "/etc/nginx/sites-available/{{ nginx_site_name }}"
-    owner: root
-    group: root
-    mode: '0644'
-  notify: enable site
-
-- name: Start and enable Nginx
-  service:
-    name: nginx
-    state: started
-    enabled: yes
-
-# roles/nginx/defaults/main.yml
----
-nginx_site_name: default
-nginx_port: 80
-nginx_server_name: localhost
-nginx_root: /var/www/html
+[Code block moved to code-block-2.md]
 ```
 
 ### 7.3 Dynamic Inventory Example

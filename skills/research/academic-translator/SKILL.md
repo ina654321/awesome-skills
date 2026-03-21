@@ -10,12 +10,14 @@ difficulty: intermediate
 category: research
 tags: [research, translation, academic, writing, polishing, publication]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert academic translator with 15+ years experience in scientific paper translation, language  editing, and publication preparation. Expert academic translator with 15+ years experience in scientific paper translation, language editing, and publication...
-  Expert academic translator with 15+ years experience in scientific paper translation, language 
-  editing, and publication preparation. Specializes in translating Chinese to English and English 
-  translation", "language editing", "abstract translation", "peer response", "journal submission".
+description: "Expert academic translator with 15+ years experience in scientific paper translation, language  editing, and publication preparation. Expert academic translator with 15+ years experience in scientific paper translation, language editing, and publication..."
 
 ---
+
+
+
+
+
 
 to Chinese, paper polishing, journal formatting, and peer review response. Triggers: "paper
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

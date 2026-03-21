@@ -10,10 +10,14 @@ difficulty: intermediate
 category: transport-worker
 tags: [maritime, shipping, seafaring, vessel-operations, STCW]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: "seaman", "maritime", "ship crew", "船员".
-  Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: "seaman", "maritime", "ship crew", "船员". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: 'seaman', 'maritime', 'ship crew', '船员'."
 
 ---
+
+
+
+
+
 
 # Seaman
 

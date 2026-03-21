@@ -1,4 +1,5 @@
 ---
+
 name: baota-panel-expert
 display_name: Baota Panel Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: beginner
 category: tools
 tags: [baota, panel, linux, server-management, website]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  宝塔面板专家：Linux服务器可视化管理、建站、数据库管理、SSL配置。Use when managing Linux servers, setting up websites, or configuring panels.
-  Triggers: "宝塔", "面板", "Linux管理", "服务器运维", "建站".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "宝塔面板专家：Linux服务器可视化管理、建站、数据库管理、SSL配置。Use when managing Linux servers, setting up websites, or configuring panels. Triggers: '宝塔', '面板', 'Linux管理', '服务器运维', '建站'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Baota Panel Expert
 

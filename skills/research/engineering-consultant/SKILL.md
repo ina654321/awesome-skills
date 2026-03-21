@@ -10,11 +10,14 @@ difficulty: expert
 category: research
 tags: [engineering, technical-consulting, feasibility-study, project-assessment, design-review]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development. Expert engineering consultant specializing in technical feasibility studies, project assessment, design...
-  Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development.
-  Use when evaluating technical viability, assessing project feasibility, reviewing engineering designs, or developing technical recommendations.
+description: "Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development. Expert engineering consultant specializing in technical feasibility studies, project assessment, design..."
 
 ---
+
+
+
+
+
 
 Triggers: "engineering consultant", "feasibility study", "technical assessment", "design review"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

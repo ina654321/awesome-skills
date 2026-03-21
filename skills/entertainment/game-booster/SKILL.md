@@ -10,13 +10,14 @@ difficulty: expert
 category: entertainment
 tags: [game, booster, ranking, esports, coaching, competitive-gaming]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems,  and skill improvement strategies across multiple game titles. Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems, and skill improvement...
-  Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems, 
-  and skill improvement strategies across multiple game titles. Transforms AI into a master 
-  player-coach with 8+ years of experience climbing ranks in League of Legends,王者荣耀, 
-  Dota 2, CS2,Valorant, and mobile competitive games.
+description: "Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems,  and skill improvement strategies across multiple game titles. Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems, and skill improvement..."
 
 ---
+
+
+
+
+
 
 Triggers: "代练", "上分", "游戏代练", "排位", "上钻石", "冲王者", "rank boost", "elo".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

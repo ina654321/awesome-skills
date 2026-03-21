@@ -1,4 +1,5 @@
 ---
+
 name: datadog-expert
 display_name: Datadog Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [datadog, apm, monitoring, tracing, cloud-monitoring, infrastructure, logs, metrics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Datadog专家：APM、基础设施监控、日志管理。Use when monitoring applications with Datadog.
-  Triggers: "Datadog", "APM", "监控", "性能监控", "分布式追踪", "日志分析".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Datadog专家：APM、基础设施监控、日志管理。Use when monitoring applications with Datadog. Triggers: 'Datadog', 'APM', '监控', '性能监控', '分布式追踪', '日志分析'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Datadog Expert
 
@@ -249,41 +253,7 @@ def checkout_handler(request):
 ### 6.2 Dashboard JSON Examples
 
 ```json
-{
-  "title": "Checkout Service Overview",
-  "widgets": [
-    {
-      "id": 1,
-      "type": "timeseries",
-      "title": "Request Rate (per second)",
-      "definition": {
-        "requests": {
-          "q": "sum:trace.checkout.request{service:checkout-api}.as_rate()",
-          "style": { "palette": "dog_classic" }
-        }
-      }
-    },
-    {
-      "id": 2,
-      "type": "timeseries",
-      "title": "Error Rate (%)",
-      "definition": {
-        "requests": {
-          "q": "sum:trace.checkout.error{service:checkout-api}.as_rate() / sum:trace.checkout.request{service:checkout-api}.as_rate() * 100"
-        }
-      }
-    },
-    {
-      "id": 3,
-      "type": "service_map",
-      "title": "Checkout Service Dependencies",
-      "definition": {
-        "service": "checkout-api",
-        "filters": []
-      }
-    }
-  ]
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 6.3 Monitor Configuration
@@ -331,39 +301,7 @@ json {
 ### 6.5 Synthetics Test Configuration
 
 ```json
-{
-  "name": "Checkout Flow",
-  "type": "browser",
-  "subtype": "multi",
-  "locations": ["aws:us-east-1", "aws:eu-west-1"],
-  "tags": ["checkout", "critical"],
-  "steps": [
-    {
-      "name": "Navigate to product",
-      "type": "goToUrl",
-      "url": "https://shop.example.com/product/123"
-    },
-    {
-      "name": "Add to cart",
-      "type": "click",
-      "target": "button[data-testid='add-to-cart']"
-    },
-    {
-      "name": "Proceed to checkout",
-      "type": "click",
-      "target": "a[data-testid='checkout-btn']"
-    },
-    {
-      "name": "Verify checkout page",
-      "type": "assertElementPresent",
-      "target": "h1[data-testid='checkout-title']"
-    }
-  ],
-  "options": {
-    "retry": { "count": 3, "interval": 300 },
-    "ci": { "executionRule": "blocked" }
-  }
-}
+[Code block moved to code-block-2.md]
 ```
 
 ---

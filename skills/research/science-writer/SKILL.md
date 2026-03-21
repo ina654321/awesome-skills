@@ -10,10 +10,14 @@ difficulty: intermediate
 category: research
 tags: [science-writing, science-communication, technical-writing, journalism, outreach]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content.
-  Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content.
+description: "Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content."
 
 ---
+
+
+
+
+
 
 Triggers: "science writer", "science communication", "research summary", "science blog"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

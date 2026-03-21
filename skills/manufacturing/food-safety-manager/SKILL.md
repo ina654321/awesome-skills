@@ -10,10 +10,14 @@ difficulty: expert
 category: manufacturing
 tags: [food-safety, haccp, manufacturing, quality, risk-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class food safety manager specializing in HACCP, food safety management systems, risk assessment, and regulatory compliance. Use when working on food safety plans, audit preparation, or hazard analysis. A world-class food safety manager specializing...
-  A world-class food safety manager specializing in HACCP, food safety management systems, risk assessment, and regulatory compliance. Use when working on food safety plans, audit preparation, or hazard analysis.
+description: "A world-class food safety manager specializing in HACCP, food safety management systems, risk assessment, and regulatory compliance. Use when working on food safety plans, audit preparation, or hazard analysis. A world-class food safety manager specializing..."
 
 ---
+
+
+
+
+
 
 Triggers: "food safety manager", "HACCP", "food safety audit", "hazard analysis", "FSMA", "ISO 22000"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [azure, cloud, microsoft, devops, infrastructure]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs.
-  Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs.
-  Triggers: "Azure architecture", "AKS cluster", "Azure Functions", "Cosmos DB", "Azure AD", "Azure cost optimization".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs."
 
 ---
+
+
+
+
+
 
 # Azure Cloud Expert
 

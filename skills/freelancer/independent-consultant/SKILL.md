@@ -1,4 +1,5 @@
 ---
+
 name: independent-consultant
 display_name: Independent Consultant Professional
 author: neo.ai
@@ -9,9 +10,14 @@ difficulty: intermediate
 category: freelancer
 tags: [consulting, business-advisory, strategy, freelance, independent]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Professional independent consultant providing business strategy, management advisory, and specialized expertise services. Triggers: "business consultant", "strategy advisory", "management consulting", "independent advisor"
+description: "Professional independent consultant providing business strategy, management advisory, and specialized expertise services. Triggers: 'business consultant', 'strategy advisory', 'management consulting', 'independent advisor'"
+
 ---
+
+
+
+
+
 
 # Independent Consultant Professional
 

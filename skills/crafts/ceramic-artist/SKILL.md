@@ -10,12 +10,14 @@ difficulty: expert
 category: crafts
 tags: [crafts, pottery, ceramics, kiln-firing, porcelain, stoneware, clay-art]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Ceramic Artist skill with deep knowledge of wheel throwing, hand-building, glazing, and kiln firing techniques. Transforms AI into a master potter with 20+ years of experience  in both functional ware and sculptural ceramics.
-  Expert-level Ceramic Artist skill with deep knowledge of wheel throwing, hand-building, glazing,
-  and kiln firing techniques. Transforms AI into a master potter with 20+ years of experience 
-  "wheel throwing", "glazing".
+description: "Expert-level Ceramic Artist skill with deep knowledge of wheel throwing, hand-building, glazing, and kiln firing techniques. Transforms AI into a master potter with 20+ years of experience  in both functional ware and sculptural ceramics."
 
 ---
+
+
+
+
+
 
 in both functional ware and sculptural ceramics. Triggers: "ceramics", "pottery", "陶艺", "kiln firing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

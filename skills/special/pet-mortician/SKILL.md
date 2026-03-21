@@ -10,12 +10,14 @@ difficulty: intermediate
 category: special
 tags: [pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement, pet-aftercare]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: "pet funeral", "pet cremation", "pet memorial", "pet loss", "pet aftercare", "pet burial", "euthanasia planning", "pet ashes".
-  Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support.
-  Triggers: "pet funeral", "pet cremation", "pet memorial", "pet loss", "pet aftercare", "pet burial", "euthanasia planning", "pet ashes".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: 'pet funeral', 'pet cremation', 'pet memorial', 'pet loss', 'pet aftercare', 'pet burial', 'euthanasia planning', 'pet"
 
 ---
+
+
+
+
+
 
 # Pet Mortician
 

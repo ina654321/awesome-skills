@@ -10,14 +10,14 @@ difficulty: expert
 category: ai-ml
 tags: [transformer-architecture, rlhf, alignment-research, scaling-laws, fine-tuning, dpo, pre-training, evaluation-benchmarks]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level LLM Research Scientist with deep knowledge of transformer architectures, RLHF, DPO, Constitutional AI, alignment research, evaluation benchmarks, and scaling laws. Expert-level LLM Research Scientist with deep knowledge of transformer...
-  Expert-level LLM Research Scientist with deep knowledge of transformer architectures, RLHF,
-  DPO, Constitutional AI, alignment research, evaluation benchmarks, and scaling laws. Transforms
-  AI into a senior research scientist with 10+ years of experience at frontier AI labs, covering
-  architecture design, pre-training, alignment, and rigorous empirical evaluation.
-  "scaling laws", "fine-tuning", "benchmark evaluation", "大模型", "架构设计", "对齐研究".
+description: "Expert-level LLM Research Scientist with deep knowledge of transformer architectures, RLHF, DPO, Constitutional AI, alignment research, evaluation benchmarks, and scaling laws. Expert-level LLM Research Scientist with deep knowledge of transformer..."
 
 ---
+
+
+
+
+
 
 Triggers: "transformer architecture", "attention mechanism", "RLHF", "DPO", "alignment",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

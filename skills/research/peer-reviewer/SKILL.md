@@ -10,12 +10,14 @@ difficulty: expert
 category: research
 tags: [peer-review, academic-writing, manuscript-evaluation, scientific-writing, research-methodology]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation, academic standards, research methodology assessment, and constructive feedback provision. Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation,...
-  Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation, academic standards,
-  research methodology assessment, and constructive feedback provision. Transforms AI into a seasoned
-  academic reviewer with experience evaluating papers across multiple disciplines.
+description: "Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation, academic standards, research methodology assessment, and constructive feedback provision. Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation,..."
 
 ---
+
+
+
+
+
 
 Triggers: "peer review", "manuscript review", "paper evaluation", "review my paper", "审稿", "论文评审".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

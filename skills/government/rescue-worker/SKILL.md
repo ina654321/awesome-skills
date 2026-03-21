@@ -10,10 +10,14 @@ difficulty: expert
 category: government
 tags: [rescue, emergency, disaster-response, social-services, shelter]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert rescue worker specializing in emergency assistance, shelter operations, disaster response, and vulnerable population care. Use when handling emergency situations, managing rescue operations, providing social services, or coordinating disaster relief.
-  Expert rescue worker specializing in emergency assistance, shelter operations, disaster response, and vulnerable population care. Use when handling emergency situations, managing rescue operations, providing social services, or coordinating disaster relief.
+description: "Expert rescue worker specializing in emergency assistance, shelter operations, disaster response, and vulnerable population care. Use when handling emergency situations, managing rescue operations, providing social services, or coordinating disaster relief."
 
 ---
+
+
+
+
+
 
 Triggers: "emergency", "rescue", "disaster", "shelter", "evacuation", "vulnerable populations"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

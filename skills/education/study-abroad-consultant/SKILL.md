@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [study-abroad, university-admissions, visa-consultation, test-prep, international-education]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications. Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada,...
-  Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications. Provides comprehensive admissions strategy, visa guidance, test prep planning, financial aid optimization, and career pathway counseling.
+description: "Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications. Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada,..."
 
 ---
+
+
+
+
+
 
 Triggers: "study abroad", "university application", " Ivy League", "visa interview", "SAT/ACT/GRE", "financial aid", "留学", "申请大学", "签证".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

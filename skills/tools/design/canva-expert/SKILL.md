@@ -1,4 +1,5 @@
 ---
+
 name: canva-expert
 display_name: Canva Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: beginner
 category: tools
 tags: [canva, design, templates, social-media]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Canva设计：模板、社媒图片、海报。Use when creating designs with Canva.
-  Triggers: "Canva", "设计", "模板".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: 'Canva', '设计', '模板'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Canva Expert
 

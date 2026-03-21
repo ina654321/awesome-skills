@@ -1,6 +1,5 @@
 ---
 
-
 name: legal-counsel
 display_name: Legal Counsel
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: legal
 tags: [legal, contracts, compliance, corporate-law, risk-management, litigation, regulatory]
 platforms: [claude.ai, cursor, api]
-description: Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract analysis, regulatory compliance, risk assessment, and litigation strategy. Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract...
-  Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract analysis,
-  regulatory compliance, risk assessment, and litigation strategy. Covers commercial law, employment law,
-  IP protection, M&A due diligence, and regulatory frameworks across jurisdictions.
-
+description: "Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract analysis, regulatory compliance, risk assessment, and litigation strategy. Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract..."
 
 ---
+
+
+
+
+
 
 
 

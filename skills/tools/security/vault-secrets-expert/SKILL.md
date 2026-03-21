@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [vault, secrets, security, devops, encryption]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secrets, setting up PKI, or implementing secrets management. Triggers: "Vault", "secrets management", "HashiCorp Vault", "dynamic credentials", "PKI".
-  HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secrets, setting up PKI, or implementing secrets management.
-  Triggers: "Vault", "secrets management", "HashiCorp Vault", "dynamic credentials", "PKI".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secrets, setting up PKI, or implementing secrets management. Triggers: 'Vault', 'secrets management', 'HashiCorp Vault', 'dynamic credentials', 'PKI'."
 
 ---
+
+
+
+
+
 
 # HashiCorp Vault Expert
 
@@ -182,72 +184,13 @@ Before designing Vault solutions:
 ### 7.1 KV Secrets Engine
 
 ```bash
-# Enable KV v2
-vault secrets enable -path=secret kv-v2
-
-# Write secret with multiple fields
-vault kv put secret/myapp/database \
-    username=admin \
-    password=secret123 \
-    connection_string="postgresql://..."
-
-# Read secret
-vault kv get secret/myapp/database
-
-# Read specific version
-vault kv get -version=2 secret/myapp/database
-
-# Delete secret (soft delete)
-vault kv delete secret/myapp/database
-
-# Permanently delete
-vault kv destroy -versions=2 secret/myapp/database
-
-# Check metadata
-vault kv metadata get secret/myapp/database
-
-# Configure metadata settings
-vault kv metadata put -max-versions=5 -delete-version-after=90d secret/myapp/database
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Policy Examples
 
 ```hcl
-# policy: myapp-read.hcl
-# Read access to myapp secrets
-path "secret/data/myapp/*" {
-    capabilities = ["read"]
-}
-
-path "secret/metadata/myapp/*" {
-    capabilities = ["list"]
-}
-
-# policy: myapp-write.hcl
-# Full access to myapp secrets
-path "secret/data/myapp/*" {
-    capabilities = ["create", "update", "read", "delete"]
-}
-
-path "secret/metadata/myapp/*" {
-    capabilities = ["read", "delete"]
-}
-
-# policy: database-admin.hcl
-# Dynamic database credentials
-path "database/creds/myapp-role" {
-    capabilities = ["read"]
-}
-
-# policy: pki-reader.hcl
-# Read certificates
-path "pki/cert/ca" {
-    capabilities = ["read"]
-}
-
-path "pki/issue/myapp-domain" {
-    capabilities = ["create", "update"]
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.3 Kubernetes Authentication
@@ -600,7 +543,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 16. Metadata
+## § 16 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 

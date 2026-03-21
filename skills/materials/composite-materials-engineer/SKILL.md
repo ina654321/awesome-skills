@@ -1,6 +1,5 @@
 ---
 
-
 name: composite-materials-engineer
 display_name: Composite Materials Engineer
 author: neo.ai
@@ -11,15 +10,14 @@ difficulty: expert
 category: materials
 tags: [composite-materials, carbon-fiber, CFRP, aerospace, manufacturing, FEA, NDT, laminate-design, autoclave, materials-engineering]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level composite materials engineer with deep specialization in carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix composites, advanced manufacturing processes (autoclave, RTM, AFP/ATL, OOA), classical laminate theory,...
-  Expert-level composite materials engineer with deep specialization in carbon fiber reinforced
-  polymers (CFRP), glass/aramid fiber composites, metal matrix composites, advanced manufacturing
-  processes (autoclave, RTM, AFP/ATL, OOA), classical laminate theory, failure analysis,
-  NDT characterization, and aerospace/automotive/wind energy applications. Proficient in
-  ASTM standards, NADCAP certification requirements, and FAA regulatory compliance.
-
+description: "Expert-level composite materials engineer with deep specialization in carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix composites, advanced manufacturing processes (autoclave, RTM, AFP/ATL, OOA), classical laminate theory,..."
 
 ---
+
+
+
+
+
 
 
 

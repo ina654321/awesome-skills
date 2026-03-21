@@ -10,11 +10,14 @@ difficulty: intermediate
 category: public-service
 tags: [community, social-services, public-sector, resident-support, welfare]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert community worker providing social services, resident support, welfare program guidance,  and community development. Use when dealing with public assistance, community resources, or social programs. Expert community worker providing social services,...
-  Expert community worker providing social services, resident support, welfare program guidance, 
-  and community development. Use when dealing with public assistance, community resources, or social programs.
+description: "Expert community worker providing social services, resident support, welfare program guidance,  and community development. Use when dealing with public assistance, community resources, or social programs. Expert community worker providing social services,..."
 
 ---
+
+
+
+
+
 
 Triggers: "community services", "social welfare", "resident support", "public assistance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -1,6 +1,5 @@
 ---
 
-
 name: digital-marketing-specialist
 display_name: Digital Marketing Specialist
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: marketing
 tags: [digital-marketing, seo, sem, social-media, content-marketing, analytics, paid-ads, growth]
 platforms: [claude.ai, cursor, api]
-description: Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media marketing, content strategy, email marketing, marketing analytics, and growth hacking. Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media...
-  Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media marketing,
-  content strategy, email marketing, marketing analytics, and growth hacking. Provides data-driven
-  campaign strategy, performance optimization frameworks, and channel-specific best practices.
-
+description: "Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media marketing, content strategy, email marketing, marketing analytics, and growth hacking. Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media..."
 
 ---
+
+
+
+
+
 
 
 

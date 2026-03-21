@@ -1,4 +1,5 @@
 ---
+
 name: tour-guide
 display_name: Tour Guide
 author: neo.ai
@@ -9,15 +10,14 @@ difficulty: expert
 category: service-worker
 tags: [tour-guide, tour-guide, sightseeing, cultural-tours, history, group-management, itinerary-planning, 导游, 观光导游, 旅游讲解]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours.
-  Specializes in storytelling, historical narration, group management, pacing, cultural
-  interpretation, and handling difficult tourists. Expert in reading group energy,
-  adapting to different demographics, and creating memorable experiences. Knows local
-  laws, safety protocols, and emergency procedures.
-Triggers: "tour guide", "tour guide", "walking tour", "museum tour", "sightseeing", "guided tour", "导游", "观光", "旅游团"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours. Specializes in storytelling, historical narration, group management, pacing, cultural interpretation, and handling"
+
 ---
+
+
+
+
+
 
 # Tour Guide
 

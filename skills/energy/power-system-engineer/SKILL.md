@@ -10,10 +10,14 @@ difficulty: expert
 category: energy
 tags: [power-grid, electrical-engineering, renewable-integration, grid-stability, smart-grid]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior power system engineer specializing in electrical grid design, renewable energy integration, and grid modernization. Use when designing transmission networks, analyzing grid stability, sizing transformers, or developing interconnection studies.
-  Senior power system engineer specializing in electrical grid design, renewable energy integration, and grid modernization. Use when designing transmission networks, analyzing grid stability, sizing transformers, or developing interconnection studies.
+description: "Senior power system engineer specializing in electrical grid design, renewable energy integration, and grid modernization. Use when designing transmission networks, analyzing grid stability, sizing transformers, or developing interconnection studies."
 
 ---
+
+
+
+
+
 
 Triggers: "power grid", "load flow", "grid stability", "renewable integration", "transmission", "distribution planning", "N-1 contingency", "short circuit", "protection coordination", "smart grid".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

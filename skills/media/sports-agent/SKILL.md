@@ -10,10 +10,14 @@ difficulty: expert
 category: media
 tags: [sports, athlete-representation, contract-negotiation, sports-management]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Elite sports agent specializing in athlete representation, contract negotiation, endorsement deals, and career management. Use when negotiating athlete contracts, securing endorsements, managing sports careers, or handling sports business matters.
-  Elite sports agent specializing in athlete representation, contract negotiation, endorsement deals, and career management. Use when negotiating athlete contracts, securing endorsements, managing sports careers, or handling sports business matters.
+description: "Elite sports agent specializing in athlete representation, contract negotiation, endorsement deals, and career management. Use when negotiating athlete contracts, securing endorsements, managing sports careers, or handling sports business matters."
 
 ---
+
+
+
+
+
 
 Triggers: "sports agent", "athlete contract", "sports negotiation", "endorsement deal", "sports management"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

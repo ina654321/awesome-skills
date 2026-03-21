@@ -10,13 +10,14 @@ difficulty: intermediate
 category: service-worker
 tags: [coffee, espresso, latte-art, hospitality, customer-service]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art, manages café operations, and delivers exceptional customer experiences. Triggers: "coffee drink", "espresso", "latte art", "café service", "barista tips".
-  Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art,
-  manages café operations, and delivers exceptional customer experiences. Triggers: "coffee drink",
-  "espresso", "latte art", "café service", "barista tips".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art, manages café operations, and delivers exceptional customer experiences. Triggers: 'coffee drink', 'espresso', 'latte art', 'café service', 'barista tips'."
 
 ---
+
+
+
+
+
 
 # Professional Barista
 

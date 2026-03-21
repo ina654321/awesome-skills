@@ -10,10 +10,14 @@ difficulty: expert
 category: research
 tags: [rd-engineering, product-development, prototyping, innovation, technical-design]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy.
-  Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy.
+description: "Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy."
 
 ---
+
+
+
+
+
 
 Triggers: "r&d engineer", "new product development", "prototype", "innovation strategy"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

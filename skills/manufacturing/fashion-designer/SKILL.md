@@ -10,10 +10,14 @@ difficulty: expert
 category: manufacturing
 tags: [fashion, design, apparel, pattern-making, trend-forecasting]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class fashion designer specializing in apparel design, pattern making, textile selection, and trend forecasting. Use when working on garment design, collection development, or fashion business strategy. A world-class fashion designer specializing in...
-  A world-class fashion designer specializing in apparel design, pattern making, textile selection, and trend forecasting. Use when working on garment design, collection development, or fashion business strategy.
+description: "A world-class fashion designer specializing in apparel design, pattern making, textile selection, and trend forecasting. Use when working on garment design, collection development, or fashion business strategy. A world-class fashion designer specializing in..."
 
 ---
+
+
+
+
+
 
 Triggers: "fashion designer", "apparel design", "collection development", "trend forecasting", "pattern making"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,14 +10,14 @@ difficulty: expert
 category: environmental
 tags: [ecology, biodiversity, ecosystem, restoration, environmental-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class ecologist specializing in ecosystem assessment, biodiversity surveys, and ecological restoration. Use when conducting field surveys, assessing environmental impact, or designing restoration projects. A world-class ecologist specializing in...
-  A world-class ecologist specializing in ecosystem assessment, biodiversity surveys,
-  and ecological restoration. Use when conducting field surveys, assessing environmental
-  impact, or designing restoration projects.
-  "wetland delineation", "species at risk", "ecosystem services", "EIA", or any
-  ecological consulting discussion.
+description: "A world-class ecologist specializing in ecosystem assessment, biodiversity surveys, and ecological restoration. Use when conducting field surveys, assessing environmental impact, or designing restoration projects. A world-class ecologist specializing in..."
 
 ---
+
+
+
+
+
 
 Triggers: "ecological assessment", "biodiversity survey", "habitat restoration",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [jira, project-management, agile, scrum, jql, issue-tracking, workflow]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation, and permissions. Use when managing projects, configuring workflows, or tracking issues in Jira.
-  Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation, and permissions. Use when managing projects, configuring workflows, or tracking issues in Jira.
-  Triggers: "Jira", "JQL", "Sprint", "workflow", "automation", "Jira query", "issue tracking".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation, and permissions. Use when managing projects, configuring workflows, or tracking issues in Jira."
 
 ---
+
+
+
+
+
 
 # Jira Expert
 
@@ -157,84 +159,13 @@ Epic (large feature, multiple sprints)
 ### 7.1 JQL Advanced Queries
 
 ```jql
--- Complex filter: Issues assigned to me in current sprint
-project = ENG AND sprint IN openSprints() AND assignee = currentUser() ORDER BY priority DESC
-
--- Epics with incomplete stories
-project = ENG AND issuetype = Epic AND "Epic Status" != Done AND issueFunction in linkedIssuesOf("issue IN issuesInEpics()")
-
--- Issues updated in last week by specific user
-project = ENG AND updatedBy(username) >= -7d AND updatedBy(username) <= 0d ORDER BY updated DESC
-
--- Stories with story points not estimated
-project = ENG AND issuetype = Story AND "Story Points" IS EMPTY AND sprint IN openSprints()
-
--- Blocked issues across projects
-project IN (ENG, DATA, PLATFORM) AND status = Blocked ORDER BY updated DESC
-
--- Issue velocity: completed stories per sprint
-issuetype = Story AND status = Done AND sprint IN closedSprints() AND assignee = currentUser()
-ORDER BY sprint DESC
-
--- Cross-project search with labels
-labels IN (urgent, security) ORDER BY created DESC
-
--- Issues due this week
-duedate <= 7d AND duedate >= 0d AND status NOT IN (Done, Closed) ORDER BY duedate ASC
-
--- Parent epic progress
-issueFunction in linkedIssuesOf("key = ENG-123") AND issuetype IN (Story, Bug, Task)
-
--- Recently resolved with comments
-status CHANGED TO Done AFTER -30d AND commentCount > 0 ORDER BY resolved DESC
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Automation Rules (Jira Cloud Automation)
 
 ```yaml
-# Rule 1: Auto-assign when story moves to "In Progress"
-trigger:
-  type: issue transitioned
-  to: "In Progress"
-conditions:
-  - type: issueTypeCondition
-    value: Story
-  - type: assigneeCondition
-    operator: NOT_SET
-actions:
-  - type: assignIssueAction
-    value: "{{issue.assignee}}"
-    # Fallback to sprint owner if no assignee
-  - type: set_FIELDValue
-    field: Sprint
-    value: "{{sprint.current}}"
-
-# Rule 2: Notify team when priority is set to Critical
-trigger:
-  type: fieldValueChanged
-  field: Priority
-  to: Critical
-conditions:
-  - type: projectCondition
-    value: ENG
-actions:
-  - type: addLabelAction
-    label: critical-priority
-  - type: sendWebhookAction
-    url: "https://slack.webhook/..."
-    # Webhook payload for Slack notification
-
-# Rule 3: Auto-close resolved issues after 7 days
-trigger:
-  type: issue transitioned
-  to: Done
-conditions:
-  - type: issueTypeCondition
-    value: Bug
-actions:
-  - type: transitionIssueAction
-    to: Closed
-    delay: 7d
+[Code block moved to code-block-2.md]
 ```
 
 ### 7.3 Workflow Transition Configuration

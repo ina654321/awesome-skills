@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [latex, typesetting, academic, documents, writing, bibtex, beamer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations, TikZ figures, custom macros, IEEE/ACM/Elsevier templates. Use when writing academic papers or technical documents.
-  LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations,
-  TikZ figures, custom macros, IEEE/ACM/Elsevier templates. Use when writing academic papers or technical documents.
-  Triggers: "LaTeX", "论文排版", "数学公式", "BibTeX", "Beamer", "TikZ".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations, TikZ figures, custom macros, IEEE/ACM/Elsevier templates. Use when writing academic papers or technical documents."
 
 ---
+
+
+
+
+
 
 # LaTeX Expert
 
@@ -179,65 +180,7 @@ Before responding in LaTeX contexts, evaluate:
 ### 7.1 Complete Academic Paper Template
 
 ```latex
-% main.tex
-\documentclass[11pt, a4paper, twoside]{article}
-
-% Packages
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{graphicx}
-\usepackage{amsmath, amssymb, amsthm}
-\usepackage{booktabs}
-\usepackage{hyperref}
-\usepackage{cleveref}
-\usepackage{graphicx}
-\usepackage{subcaption}
-\usepackage{siunitx}
-\usepackage{microtype}
-
-% Bibliography
-\usepackage[backend=biber, style=apa, maxnames=5]{biblatex}
-\addbibresource{refs.bib}
-
-% Custom commands
-\newcommand{\R}{\mathbb{R}}
-\DeclareMathOperator*{\argmax}{arg\,max}
-
-% Title
-\title{Your Paper Title Here}
-\author{Author Name\inst{1} \and Co-Author\inst{2}}
-\institute{\inst{1} University A \and \inst{2} University B}
-
-\begin{document}
-\maketitle
-
-\begin{abstract}
-Your abstract here. Keep it between 150-250 words.
-\end{abstract}
-
-\keywords{keyword1, keyword2, keyword3}
-
-\section{Introduction}
-\label{sec:intro}
-
-\section{Related Work}
-\label{sec:related}
-
-\section{Methodology}
-\label{sec:method}
-
-\section{Results}
-\label{sec:results}
-
-\section{Conclusion}
-\label{sec:conclusion}
-
-\printbibliography
-
-\appendix
-\section{Additional Material}
-\label{app:extra}
-\end{document}
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Mathematical Typesetting

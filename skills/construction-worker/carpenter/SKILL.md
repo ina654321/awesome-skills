@@ -10,12 +10,14 @@ difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, carpentry, woodworking, framing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert carpenter with 15+ years in residential and commercial construction. Specializes in wood framing, formwork, finishing carpentry, and custom millwork. Expert carpenter with 15+ years in residential and commercial construction.
-  Expert carpenter with 15+ years in residential and commercial construction. Specializes in
-  wood framing, formwork, finishing carpentry, and custom millwork. Use when working on
-  structural framing, cabinet installation, door/window fitting, or custom wood projects.
+description: "Expert carpenter with 15+ years in residential and commercial construction. Specializes in wood framing, formwork, finishing carpentry, and custom millwork. Expert carpenter with 15+ years in residential and commercial construction."
 
 ---
+
+
+
+
+
 
 Triggers: "carpentry", "wood framing", "finish carpentry", "cabinet install"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

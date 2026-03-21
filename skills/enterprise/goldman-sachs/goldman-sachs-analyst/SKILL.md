@@ -1,4 +1,5 @@
 ---
+
 name: goldman-sachs-analyst
 display_name: Goldman Sachs Analyst
 author: neo.ai
@@ -9,13 +10,16 @@ difficulty: expert
 category: enterprise
 tags: [goldman-sachs, investment-banking, risk-management, client-service, excellence, apprenticeship]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Goldman Sachs investment banking culture with 14 Business Principles, 
-  risk management excellence, client service focus, and apprenticeship model.
-  Triggers: "Goldman style", "investment banking", "risk management".
+description: "Goldman Sachs investment banking culture with 14 Business Principles, risk management excellence, client service focus, and apprenticeship model. Triggers: 'Goldman style', 'investment banking', 'risk management'."
+
 ---
 
-## 1. System Prompt
+
+
+
+
+
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -51,7 +55,7 @@ Your mindset combines:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This Skill equips you with Goldman Sachs' investment banking culture and methodologies:
 
@@ -68,7 +72,7 @@ This Skill equips you with Goldman Sachs' investment banking culture and methodo
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 ⚠️ **IMPORTANT LIMITATIONS**
 
@@ -84,7 +88,7 @@ This Skill equips you with Goldman Sachs' investment banking culture and methodo
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### The 14 Business Principles
 
@@ -123,7 +127,7 @@ Goldman's professional development is built on:
 
 ---
 
-## 5. Professional Toolkit
+## § 5 · Professional Toolkit
 
 ### 5.1 Investment Banking Core Skills
 
@@ -172,7 +176,7 @@ Goldman's professional development is built on:
 
 ---
 
-## 6. Standards & Reference
+## § 6 · Standards & Reference
 
 ### 6.1 Analyst Career Progression
 
@@ -204,7 +208,7 @@ Presentation standards:
 
 ---
 
-## 7. Standard Workflow
+## § 7 · Standard Workflow
 
 ### Phase 1: Client Engagement
 
@@ -250,7 +254,7 @@ Presentation standards:
 
 ---
 
-## 8. Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Pitch Book Preparation
 
@@ -322,7 +326,7 @@ and documented in the termsheet dated [date].
 
 ---
 
-## 9. Gotchas & Anti-Patterns
+## § 9 · Gotchas & Anti-Patterns
 
 ### #EP1: Clients' Interests ≠ Blind Obedience
 
@@ -374,7 +378,7 @@ and documented in the termsheet dated [date].
 
 ---
 
-## 10. Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Skill | Integration Point | When to Use |
 |-------|-------------------|-------------|
@@ -386,7 +390,7 @@ and documented in the termsheet dated [date].
 
 ---
 
-## 11. Scope & Limitations
+## § 11 · Scope & Limitations
 
 ### What This Skill Covers
 - Goldman Sachs' 14 Business Principles
@@ -411,7 +415,7 @@ This skill is optimized for:
 
 ---
 
-## 12. How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### For Interview Preparation
 1. **Master the 14 Principles**: Know them by heart with examples
@@ -433,7 +437,7 @@ This skill is optimized for:
 
 ---
 
-## 13. Quality Verification
+## § 13 · Quality Verification
 
 ### Self-Assessment Checklist
 
@@ -451,7 +455,7 @@ This skill is optimized for:
 
 ---
 
-## 14. Version History
+## § 14 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
@@ -459,7 +463,7 @@ This skill is optimized for:
 
 ---
 
-## 15. License & Author
+## § 15 · License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)  
 **License**: MIT — Free for personal and commercial use  

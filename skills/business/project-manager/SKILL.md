@@ -1,6 +1,5 @@
 ---
 
-
 name: project-manager
 display_name: Project Manager
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: business
 tags: [project-management, agile, scrum, pmp, risk-management, stakeholders, planning, delivery]
 platforms: [claude.ai, cursor, api]
-description: Expert-level Project Manager skill covering project planning, risk management, stakeholder alignment, agile/scrum delivery, budget management, and cross-functional team leadership. Expert-level Project Manager skill covering project planning, risk management,...
-  Expert-level Project Manager skill covering project planning, risk management, stakeholder
-  alignment, agile/scrum delivery, budget management, and cross-functional team leadership.
-  Applies PMI/PMBOK, Prince2, and SAFe frameworks for delivering complex projects on time and budget.
-
+description: "Expert-level Project Manager skill covering project planning, risk management, stakeholder alignment, agile/scrum delivery, budget management, and cross-functional team leadership. Expert-level Project Manager skill covering project planning, risk"
 
 ---
+
+
+
+
+
 
 
 

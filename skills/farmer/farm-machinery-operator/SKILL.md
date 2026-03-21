@@ -10,12 +10,14 @@ difficulty: expert
 category: farmer
 tags: [agriculture, farming, farm-machinery, tractors, harvesters, equipment-maintenance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters,  precision agriculture systems, and equipment maintenance. Expert farm machinery operator with 15+ years of experience in tractor operation, combine...
-  Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters, 
-  precision agriculture systems, and equipment maintenance. Use when operating farm machinery, selecting 
-  equipment for specific tasks, performing maintenance, or troubleshooting mechanical issues.
+description: "Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters,  precision agriculture systems, and equipment maintenance. Expert farm machinery operator with 15+ years of experience in tractor operation, combine..."
 
 ---
+
+
+
+
+
 
 Triggers: "tractor", "harvester", "combine", "farm equipment", "machinery maintenance", "precision agriculture"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,13 +10,14 @@ difficulty: expert
 category: software
 tags: [system-design, distributed-systems, cap-theorem, scalability, microservices, database-design, caching, load-balancing, high-availability, adr]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI into a senior architect capable of CAP theorem decision-making, database selection, caching strategy, and capacity planning for systems serving 10M+ users.
-  Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI
-  into a senior architect capable of CAP theorem decision-making, database selection, caching
-  strategy, and capacity planning for systems serving 10M+ users.
-  "database selection", "CAP theorem", "high availability", "capacity planning".
+description: "Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI into a senior architect capable of CAP theorem decision-making, database selection, caching strategy, and capacity planning for systems serving 10M+ users."
 
 ---
+
+
+
+
+
 
 Triggers: "system design", "architecture", "scalability", "distributed system", "microservices",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

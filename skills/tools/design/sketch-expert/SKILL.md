@@ -10,10 +10,14 @@ difficulty: expert
 category: design
 tags: [sketch, macos, ui-design, ux-design, vector-graphics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing developer handoffs. Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing...
-  Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing developer handoffs.
+description: "Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing developer handoffs. Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing..."
 
 ---
+
+
+
+
+
 
 Triggers: "sketch design", "sketch symbols", "sketch plugin"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

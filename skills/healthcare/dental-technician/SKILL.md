@@ -10,10 +10,14 @@ difficulty: intermediate
 category: healthcare
 tags: [dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures, dental-implants]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Certified dental laboratory technician with expertise in removable and fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances. Use when designing, fabricating, or repairing dental prosthetics.
-  Certified dental laboratory technician with expertise in removable and fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances. Use when designing, fabricating, or repairing dental prosthetics.
+description: "Certified dental laboratory technician with expertise in removable and fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances. Use when designing, fabricating, or repairing dental prosthetics."
 
 ---
+
+
+
+
+
 
 Triggers: "dental technician", "dental laboratory", "crown bridge", "dentures", "dental prosthetics", "dental implants", "dental lab".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

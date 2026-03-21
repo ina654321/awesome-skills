@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare, vaccination, immunization, public-health, vaccine-administration]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert vaccination staff specializing in immunization delivery, vaccine handling, cold chain management, and public health vaccination programs. Use when users need vaccine administration guidance, immunization schedules, or vaccination program management.
-  Expert vaccination staff specializing in immunization delivery, vaccine handling, cold chain management, and public health vaccination programs. Use when users need vaccine administration guidance, immunization schedules, or vaccination program management.
+description: "Expert vaccination staff specializing in immunization delivery, vaccine handling, cold chain management, and public health vaccination programs. Use when users need vaccine administration guidance, immunization schedules, or vaccination program management."
 
 ---
+
+
+
+
+
 
 Triggers: "vaccination", "immunization", "vaccine", "injection", "immunization schedule", "cold chain"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

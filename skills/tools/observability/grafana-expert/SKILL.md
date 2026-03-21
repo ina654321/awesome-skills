@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [grafana, dashboard, visualization, monitoring, observability, alerting, prometheus, influxdb]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashboards, visualizations, or Grafana configurations. Triggers: "Grafana", "dashboard", "visualization", "Grafana alerting", "Grafana panels", "监控仪表盘".
-  Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashboards, visualizations, or Grafana configurations.
-  Triggers: "Grafana", "dashboard", "visualization", "Grafana alerting", "Grafana panels", "监控仪表盘".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashboards, visualizations, or Grafana configurations. Triggers: 'Grafana', 'dashboard', 'visualization', 'Grafana alerting', 'Grafana panels', '监控仪表盘'."
 
 ---
+
+
+
+
+
 
 # Grafana Expert
 
@@ -223,240 +225,19 @@ Grafana Alerting (v8+):         Legacy Alerting:
 ### 6.1 PromQL Query Templates
 
 ```promql
-# Rate with correct interval (prevents gaps)
-rate(http_requests_total{service="checkout"}[$__rate_interval])
-
-# Availability (success rate)
-1 - (
-  rate(http_requests_total{service="checkout", status=~"5.."}[$__rate_interval])
-  /
-  rate(http_requests_total{service="checkout"}[$__rate_interval])
-)
-
-# Latency percentiles (p50, p95, p99)
-histogram_quantile(0.50, rate(http_request_duration_seconds_bucket{service="checkout"}[$__rate_interval]))
-histogram_quantile(0.95, rate(http_request_duration_seconds_bucket{service="checkout"}[$__rate_interval]))
-histogram_quantile(0.99, rate(http_request_duration_seconds_bucket{service="checkout"}[$__rate_interval]))
-
-# Current vs 7-day comparison
-# Legend: {{instance}}
-current: rate(http_requests_total{service="checkout"}[5m])
-7d_ago: rate(http_requests_total{service="checkout"}[5m] offset 7d)
-ratio: current / (rate(http_requests_total{service="checkout"}[5m] offset 7d))
-
-# CPU usage percentage
-100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle", instance="$instance"}[$__rate_interval])) * 100)
-
-# Memory usage percentage
-100 * (1 - (
-  avg by (instance) (node_memory_MemAvailable_bytes{instance="$instance"})
-  /
-  avg by (instance) (node_memory_MemTotal_bytes{instance="$instance"})
-))
-
-# Active connections
-sum(tcp_heap_size{instance="$instance"})
-
-# Error rate with labels
-sum by (service, status) (rate(http_requests_total{status=~"5.."}[$__rate_interval]))
+[Code block moved to code-block-1.md]
 ```
 
 ### 6.2 Dashboard JSON Examples
 
 ```json
-{
-  "title": "Checkout Service - SLO Dashboard",
-  "uid": "checkout-slo",
-  "tags": ["checkout", "slo", "production"],
-  "timezone": "browser",
-  "refresh": "30s",
-  "panels": [
-    {
-      "id": 1,
-      "title": "Request Rate",
-      "type": "timeseries",
-      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
-      "targets": [
-        {
-          "expr": "sum by (service) (rate(http_requests_total{service=\"checkout\", environment=\"$environment\"}[$__rate_interval]))",
-          "legendFormat": "{{service}}"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "reqps",
-          "custom": {
-            "lineWidth": 2,
-            "fillOpacity": 10,
-            "gradientMode": "none"
-          },
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              { "color": "green", "value": null }
-            ]
-          }
-        }
-      },
-      "options": {
-        "legend": {
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "single"
-        }
-      }
-    },
-    {
-      "id": 2,
-      "title": "Error Rate (%)",
-      "type": "timeseries",
-      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
-      "targets": [
-        {
-          "expr": "100 * (\n  sum by (service) (rate(http_requests_total{service=\"checkout\", status=~\"5..\", environment=\"$environment\"}[$__rate_interval]))\n  /\n  sum by (service) (rate(http_requests_total{service=\"checkout\", environment=\"$environment\"}[$__rate_interval]))\n)",
-          "legendFormat": "{{service}} - Error Rate"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "percent",
-          "custom": {
-            "lineWidth": 2
-          },
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              { "color": "green", "value": null },
-              { "color": "yellow", "value": 1 },
-              { "color": "red", "value": 5 }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "id": 3,
-      "title": "Latency Percentiles",
-      "type": "timeseries",
-      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
-      "targets": [
-        {
-          "expr": "histogram_quantile(0.50, sum by (le, service) (rate(http_request_duration_seconds_bucket{service=\"checkout\", environment=\"$environment\"}[$__rate_interval]))) * 1000",
-          "legendFormat": "p50"
-        },
-        {
-          "expr": "histogram_quantile(0.95, sum by (le, service) (rate(http_request_duration_seconds_bucket{service=\"checkout\", environment=\"$environment\"}[$__rate_interval]))) * 1000",
-          "legendFormat": "p95"
-        },
-        {
-          "expr": "histogram_quantile(0.99, sum by (le, service) (rate(http_request_duration_seconds_bucket{service=\"checkout\", environment=\"$environment\"}[$__rate_interval]))) * 1000",
-          "legendFormat": "p99"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "ms",
-          "custom": {
-            "lineWidth": 2
-          }
-        }
-      }
-    },
-    {
-      "id": 4,
-      "title": "SLO Gauge - 99.9% Availability",
-      "type": "stat",
-      "gridPos": { "h": 8, "w": 4, "x": 12, "y": 8 },
-      "targets": [
-        {
-          "expr": "100 * (1 - (\n  sum(rate(http_requests_total{service=\"checkout\", status=~\"5..\", environment=\"$environment\"}[1h]))\n  /\n  sum(rate(http_requests_total{service=\"checkout\", environment=\"$environment\"}[1h]))\n))"
-        }
-      ],
-      "fieldConfig": {
-        "defaults": {
-          "unit": "percentunit",
-          "decimals": 3,
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              { "color": "red", "value": null },
-              { "color": "yellow", "value": 0.999 },
-              { "color": "green", "value": 0.9999 }
-            ]
-          }
-        }
-      },
-      "options": {
-        "colorMode": "value",
-        "graphMode": "none",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": ["lastNotNull"]
-        }
-      }
-    }
-  ],
-  "templating": {
-    "list": [
-      {
-        "name": "environment",
-        "type": "query",
-        "query": "label_values(up, environment)",
-        "multi": false,
-        "includeAll": false
-      },
-      {
-        "name": "service",
-        "type": "query",
-        "query": "label_values(up{environment=\"$environment\"}, job)",
-        "multi": true,
-        "includeAll": true
-      }
-    ]
-  }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 6.3 Alert Rule YAML (Grafonnet)
 
 ```jsonnet
-local grafonnet = import 'grafonnet.libsonnet';
-
-local prometheus = grafonnet.prometheus;
-local alertGroup = prometheus.alertGroup;
-
-local myAlert = prometheus.alert.new(
-  name='CheckoutErrorRate',
-  message='Checkout service error rate is above 1%',
-  conditions=[
-    prometheus.query.threshold(
-      expr='100 * (sum(rate(http_requests_total{service="checkout", status=~"5.."}[$__rate_interval])) / sum(rate(http_requests_total{service="checkout"}[$__rate_interval]))) > 1',
-      refID='A',
-      operator=prometheus.query.operators.greater_than,
-      for='5m',
-    ),
-  ],
-  labels={
-    severity: 'critical',
-    service: 'checkout',
-    team: 'platform',
-  },
-  annotations={
-    summary: 'Checkout error rate exceeds 1%',
-    description: 'Current error rate: {{ $values.A }}%',
-    runbook_url: 'https://wiki.example.com/runbooks/checkout-error-rate',
-  },
-);
-
-grafonnet.prometheus.ruleGroup.new(
-  name='checkout-alerts',
-  rules=[
-    myAlert,
-  ],
-  interval='1m',
-)
+[Code block moved to code-block-2.md]
 ```
 
 ### 6.4 Loki Log Query Examples

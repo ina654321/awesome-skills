@@ -10,12 +10,14 @@ difficulty: expert
 category: farmer
 tags: [agriculture, farming, crop, agronomy, planting, harvesting]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest optimization. Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest...
-  Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control,
-  and harvest optimization. Use when asking about crop selection, planting schedules, soil health, fertilizer application,
-  pest management, or yield optimization.
+description: "Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest optimization. Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest..."
 
 ---
+
+
+
+
+
 
 Triggers: "crop", "planting", "harvest", "soil", "fertilizer", "pest", "yield", "agronomy"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: expert
 category: semiconductor
 tags: [chip-design, rtl, verilog, systemverilog, synopsys, cadence, timing-closure, sta, dft, tapeout, risc-v, place-and-route]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design Engineer with deep knowledge...
-  Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog,
-  logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process
-  nodes (5nm/3nm). Transforms AI into a senior VLSI engineer capable of guiding full front-to-back
+description: "Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design Engineer with deep knowledge..."
 
 ---
+
+
+
+
+
 
 ASIC flows. Triggers: "chip design", "RTL", "timing closure", "tapeout", "芯片设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

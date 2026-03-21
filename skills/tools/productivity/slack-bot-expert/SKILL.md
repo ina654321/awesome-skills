@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [slack, bot, bolt, automation, chatops, webhooks, slack-api]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Slack Bot expert: Bolt SDK development, slash commands, workflow automation, webhook integrations, and ChatOps patterns. Use when building Slack bots, automating notifications, or creating ChatOps workflows.
-  Slack Bot expert: Bolt SDK development, slash commands, workflow automation, webhook integrations, and ChatOps patterns. Use when building Slack bots, automating notifications, or creating ChatOps workflows.
-  Triggers: "Slack Bot", "Bolt SDK", "Slack integration", "ChatOps", "slash command", "webhook".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Slack Bot expert: Bolt SDK development, slash commands, workflow automation, webhook integrations, and ChatOps patterns. Use when building Slack bots, automating notifications, or creating ChatOps workflows."
 
 ---
+
+
+
+
+
 
 # Slack Bot Expert
 
@@ -163,206 +165,19 @@ Slack Response (message, modal, notification)
 ### 7.1 Bolt Python — Core Patterns
 
 ```python
-import os
-from slack_bolt import App
-from slack_bolt.adapter.socket_mode import SocketModeHandler
-
-app = App(token=os.environ["SLACK_BOT_TOKEN"], 
-         signing_secret=os.environ["SLACK_SIGNING_SECRET"])
-
-# Message listener (respond to specific patterns)
-@app.message(":wave:")
-def say_hello(message, say):
-    user = message["user"]
-    say(f"Hi <@{user}>! 👋 How can I help you today?")
-
-# Message with regex filter
-@app.message(re.compile("(deploy|deploy) (.+)"))
-def handle_deploy(message, say, context):
-    environment = context["matches"][1]
-    say(f"🚀 Deploying to *{environment}*... (simulated)")
-    # Trigger deployment logic
-    # Respond with result
-
-# Slash command
-@app.command("/standup")
-def handle_standup(ack, respond, command):
-    ack()  # Acknowledge immediately
-    user = command["user_name"]
-    respond(f"📋 Thanks <@{user}>! Submit your standup using the form below.",
-           blocks=[standup_form_blocks()])
-
-# Shortcut (message action or global shortcut)
-@app.shortcut("create_incident")
-def handle_incident_shortcut(ack, client, shortcut):
-    ack()
-    client.views_open(
-        trigger_id=shortcut["trigger_id"],
-        view=incident_form_modal()
-    )
-
-# View submission (modal form)
-@app.view("incident_modal")
-def handle_incident_submission(ack, client, view, say):
-    ack()
-    title = view["state"]["values"]["title_block"]["title_input"]["value"]
-    severity = view["state"]["values"]["severity_block"]["severity_input"]["selected_option"]["value"]
-    
-    # Create incident in tracking system
-    # Notify #incidents channel
-    say(
-        channel="C123456",
-        text=f"🚨 *New Incident Created*\nTitle: {title}\nSeverity: {severity}",
-        blocks=[
-            {"type": "section", "text": {"type": "mrkdwn", "text": f"*Incident: {title}*"}},
-            {"type": "section", "text": {"type": "mrkdwn", "text": f"*Severity:* {severity}"}},
-            {"type": "actions", "elements": [
-                {"type": "button", "text": {"type": "plain_text", "text": "Acknowledge"}, "action_id": "ack_incident"},
-                {"type": "button", "text": {"type": "plain_text", "text": "Resolve"}, "action_id": "resolve_incident"}
-            ]}
-        ]
-    )
-
-# Button click handler
-@app.action("ack_incident")
-def handle_ack(ack, client, action):
-    ack()
-    client.chat_update(
-        channel=action["channel"]["id"],
-        ts=action["message_ts"],
-        text="✅ Incident acknowledged"
-    )
-
-# Event listener (e.g., when user joins channel)
-@app.event("member_joined_channel")
-def handle_member_joined(event, say):
-    if event["channel"] == "C123456":  # onboarding channel
-        say(channel=event["user"], text="Welcome! 🎉 Here's how to get started...")
-
-# Workflow step callback (for Workflow Builder)
-@app.workflow_step_completed_callback("send_to_channel")
-def workflow_completed(ack):
-    ack()
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Block Kit Message Builders
 
 ```python
-def build_deploy_message(status, environment, deployer, version):
-    status_emoji = "✅" if status == "success" else "❌"
-    status_text = "Successful" if status == "success" else "Failed"
-    
-    return {
-        "blocks": [
-            {
-                "type": "header",
-                "text": {"type": "plain_text", "text": f"🚀 Deploy {status_text} — {environment}"}
-            },
-            {
-                "type": "section",
-                "fields": [
-                    {"type": "mrkdwn", "text": f"*Environment:*\n{environment}"},
-                    {"type": "mrkdwn", "text": f"*Version:*\n{version}"},
-                    {"type": "mrkdwn", "text": f"*Deployed by:*\n{deployer}"},
-                    {"type": "mrkdwn", "text": f"*Status:*\n{status_emoji} {status_text}"}
-                ]
-            },
-            {"type": "divider"},
-            {
-                "type": "actions",
-                "elements": [
-                    {"type": "button", "text": {"type": "plain_text", "text": "View Logs"}, "url": f"https://logs.example.com/{version}"},
-                    {"type": "button", "text": {"type": "plain_text", "text": "Rollback"}, "action_id": "rollback"}
-                ]
-            }
-        ]
-    }
-
-def standup_form_blocks():
-    return [
-        {"type": "input", "block_id": "yesterday", "label": {"type": "plain_text", "text": "What did you do yesterday?"}, "element": {"type": "plain_text_input", "action_id": "yesterday_input", "multiline": True}},
-        {"type": "input", "block_id": "today", "label": {"type": "plain_text", "text": "What will you do today?"}, "element": {"type": "plain_text_input", "action_id": "today_input", "multiline": True}},
-        {"type": "input", "block_id": "blockers", "label": {"type": "plain_text", "text": "Any blockers?"}, "element": {"type": "plain_text_input", "action_id": "blockers_input", "multiline": True}}
-    ]
-
-def incident_form_modal():
-    return {
-        "type": "modal",
-        "callback_id": "incident_modal",
-        "title": {"type": "plain_text", "text": "Create Incident"},
-        "submit": {"type": "plain_text", "text": "Create"},
-        "blocks": [
-            {"type": "input", "block_id": "title_block", "label": {"type": "plain_text", "text": "Title"}, "element": {"type": "plain_text_input", "action_id": "title_input"}},
-            {"type": "input", "block_id": "severity_block", "label": {"type": "plain_text", "text": "Severity"}, "element": {"type": "static_select", "action_id": "severity_input", "options": [
-                {"text": {"type": "plain_text", "text": "P1 - Critical"}, "value": "P1"},
-                {"text": {"type": "plain_text", "text": "P2 - High"}, "value": "P2"},
-                {"text": {"type": "plain_text", "text": "P3 - Medium"}, "value": "P3"}
-            ]}}
-        ]
-    }
+[Code block moved to code-block-2.md]
 ```
 
 ### 7.3 Webhook Patterns
 
 ```python
-# Incoming Webhook — Send messages from external systems
-import requests
-
-def send_webhook_message(channel_webhook_url, message):
-    payload = {
-        "text": message,
-        "blocks": [
-            {"type": "section", "text": {"type": "mrkdwn", "text": message}}
-        ]
-    }
-    response = requests.post(channel_webhook_url, json=payload)
-    response.raise_for_status()
-
-# GitHub webhook → Slack (Flask example)
-from flask import Flask, request, jsonify
-import hmac, hashlib, os
-
-app = Flask(__name__)
-
-@app.route("/github-webhook", methods=["POST"])
-def github_webhook():
-    # Verify signature
-    signature = request.headers.get("X-Hub-Signature-256")
-    if not hmac.compare_digest(
-        f"sha256={hmac.new(os.environ['GITHUB_WEBHOOK_SECRET'].encode(), request.data, hashlib.sha256).hexdigest()}",
-        signature or ""
-    ):
-        return jsonify({"error": "Invalid signature"}), 401
-    
-    event = request.headers.get("X-GitHub-Event")
-    data = request.json
-    
-    if event == "push":
-        branch = data["ref"].split("/")[-1]
-        commits = data["commits"]
-        author = commits[-1]["author"]["name"]
-        message = commits[-1]["message"]
-        url = data["repository"]["html_url"]
-        
-        send_webhook_message(
-            os.environ["DEVOPS_WEBHOOK"],
-            f"📦 *Push to `{branch}`*\n{author}: {message}\n<{url}|View on GitHub>"
-        )
-    
-    elif event == "pull_request":
-        pr = data["pull_request"]
-        action = data["action"]
-        title = pr["title"]
-        author = pr["user"]["login"]
-        url = pr["html_url"]
-        
-        emoji = "✅" if pr["merged"] else "🔀"
-        send_webhook_message(
-            os.environ["DEVOPS_WEBHOOK"],
-            f"{emoji} *PR {action}:* <{url}|{title}> by @{author}"
-        )
-    
-    return jsonify({"ok": True})
+[Code block moved to code-block-3.md]
 ```
 
 ---
@@ -372,37 +187,7 @@ def github_webhook():
 ### 8.1 Bot Development Process
 
 ```
-Phase 1: Design
-├── Define bot's purpose and user interactions
-├── Map all message types and expected responses
-├── Design Block Kit message layouts
-└── Plan OAuth scopes and permissions
-
-Phase 2: Setup
-├── Create Slack App in api.slack.com/apps
-├── Enable Socket Mode (dev) or HTTP endpoints (prod)
-├── Install to workspace; get bot token
-├── Configure bot token scopes
-└── Set up ngrok or hosting (Railway/fly.io)
-
-Phase 3: Development
-├── Initialize Bolt app (Python or TypeScript)
-├── Register listeners (message, command, action, event)
-├── Build Block Kit payloads
-├── Handle view submissions
-└── Implement error handling and logging
-
-Phase 4: Testing
-├── Test with Socket Mode locally
-├── Use Block Kit Builder for preview
-├── Test all interaction paths (button clicks, modals)
-└── Test rate limiting and error scenarios
-
-Phase 5: Deployment
-├── Deploy bot to hosting (Railway, Fly.io, AWS Lambda)
-├── Configure environment variables (tokens, secrets)
-├── Set up Slack app manifest for easy distribution
-└── Monitor with logging (Datadog, Sentry)
+[Code block moved to code-block-1.md]
 ```
 
 ---

@@ -1,4 +1,5 @@
 ---
+
 name: cell-therapy-scientist
 display_name: Cell Therapy Scientist
 author: neo.ai
@@ -9,15 +10,14 @@ difficulty: expert
 category: biotech
 tags: [biotech, life-sciences, CAR-T, NK-cell, gene-therapy, lentiviral, CRISPR, GMP, immunotherapy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  A world-class cell therapy scientist specializing in CAR-T, NK cell, TCR-T, and TIL therapy
-  R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral), T cell activation and
-  transduction, CAR construct engineering (scFv, 4-1BB vs. CD28 co-stimulation), process development
-  (closed-system manufacturing, Miltenyi CliniMACS, Lonza Cocoon), QC/QA release testing,
-  and IND-enabling studies for FDA/EMA regulatory approval.
-Triggers: "cell therapy scientist", "CAR-T design", "lentiviral transduction", "细胞治疗科学家", "CAR-T", "NK cell therapy"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "A world-class cell therapy scientist specializing in CAR-T, NK cell, TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral), T cell activation and"
+
 ---
+
+
+
+
+
 
 # Cell Therapy Scientist
 
@@ -43,6 +43,22 @@ This skill transforms your AI assistant into an expert **Cell Therapy Scientist*
 | **Replication-Competent Retrovirus (RCR)** | Recombination during vector production → RCR contamination → uncontrolled spread | SIN vector design; routine RCR testing (S+L^- assay) per FDA guidance; 3-plasmid split packaging |
 | **On-Target Off-Tumor Toxicity** | CAR recognizes antigen on normal tissues (e.g., HER2 on cardiac cells) | Preclinical cross-reactivity study; tumor-specific co-stimulation (tandem CAR, logic-gated CAR); low-affinity scFv design |
 | **Manufacturing Failure
+
+
+
+## § 9 · Scenario Examples
+
+**Example 1: Research Protocol Design**
+- **Scenario**: Lab needs to establish new cell culture protocol
+- **User Input**: "Design a protocol for establishing primary hepatocyte cultures from mouse liver"
+- **AI Response**: "Key steps: 1) Obtain IACUC approval for tissue collection, 2) Prepare perfusion equipment and collagenase solution, 3) Perform two-step collagenase perfusion via portal vein, 4) Liberate cells through mechanical disruption, 5) Purify via Percoll gradient centrifugation, 6) Assess viability via trypan blue (>90% threshold), 7) Plate on collagen-coated dishes in William's E medium."
+
+**Example 2: Troubleshooting Experiment**
+- **Scenario**: Cell transfection efficiency is low
+- **User Input**: "Our lipofection transfection efficiency is only 15%, expected 40%. How to improve?"
+- **AI Response**: "Systematic troubleshooting: 1) Verify plasmid purity (A260/280 >1.8), 2) Check cell confluence at transfection (70-80% optimal), 3) Optimize DNA:lipid ratio (typically 1:2 to 1:3), 4) Try alternative transfection agents (PEI for hard-to-transfect cells), 5) Consider viral vectors for primary cells."
+
+---
 
 ## § 4 · Core Philosophy
 
@@ -114,42 +130,7 @@ Gate 5: Manufacturing scale?
 
 **scFv Selection & Affinity Optimization:**
 ```python
-# CAR-T construct component specification checklist
-def car_construct_spec(target_antigen, indication):
-    """
-    Generate CAR construct specification based on target and indication.
-    Returns recommended component choices with rationale.
-    """
-    spec = {
-        'scFv': {
-            'orientation': 'VH-linker-VL (preferred) or VL-linker-VH (test both)',
-            'linker': '(G4S)3 = GGGGSGGGGSGGGGSGGGGS (15-mer Whitlow linker)',
-            'affinity_target': '1-30 nM Kd (lower affinity → reduced on-target/off-tumor)',
-            'humanization': 'Required for clinical (CDR-grafting, Kabat numbering)',
-        },
-        'signal_peptide': 'CD8α signal peptide (MALPVTALLLPLALLLHAARP)',
-        'hinge_transmembrane': {
-            'hematologic': 'CD8α hinge + CD8α TM (reduces tonic signaling vs. CD28)',
-            'solid_tumor': 'CD28 hinge + CD28 TM (enhances clustering, activation)',
-        },
-        'co_stimulatory_domain': {
-            '4-1BB': 'Persistence, memory formation, mitochondrial biogenesis (heme-ALL, DLBCL)',
-            'CD28': 'Rapid killing, high peak expansion (solid tumors, aggressive ALL)',
-            'OX40': 'Investigational: Th1/Th17 bias, anti-exhaustion',
-        },
-        'signaling_domain': 'CD3ζ (ITAMs ×3; standard for all approved CARs)',
-        'safety_features': ['EGFRt (cetuximab-mediated depletion)', 'iCaspase9 (AP20187-inducible)',
-                             'RQR8 (CD34+CD20 epitope, rituximab depletion)'],
-    }
-    return spec
-
-# Codon optimization and sequence verification
-GOLDEN_GATE_ASSEMBLY_CHECK = [
-    "Verify no BsaI sites in insert (Golden Gate cloning)",
-    "Check Kozak sequence: GCCACC before ATG start codon",
-    "Confirm signal peptide cleavage: SignalP 6.0 prediction",
-    "Verify CAR surface expression by flow before functional assays",
-]
+[Code block moved to code-block-1.md]
 ```
 
 **Lentiviral Vector Titer Qualification:**
@@ -194,96 +175,12 @@ def lentiviral_titer_specification():
 
 **T Cell Activation → Transduction → Expansion Protocol:**
 ```python
-# Day-by-day manufacturing timeline (autologous CAR-T)
-MANUFACTURING_TIMELINE = {
-    'Day -1': 'Apheresis (leukapheresis): target ≥ 1×10^9 PBMC; CD3 ≥ 30% preferred',
-    'Day 0': [
-        'PBMC isolation (Ficoll/CliniMACS Buffy Coat Preparation Set)',
-        'T cell count: target 2×10^8 CD3+ T cells for stimulation',
-        'Activation: anti-CD3/CD28 TransAct (Miltenyi, 1:100 dilution) in TexMACS GMP',
-        'Flask: G-REX 10M or CliniMACS Prodigy TS closed system',
-    ],
-    'Day 2': [
-        'Check activation markers: CD25+CD69+ ≥ 70% (flow cytometry)',
-        'Transduction: add lentiviral vector at MOI 5–10 (targeting VCN 1–3)',
-        'Optional: spinoculation 800×g, 90 min, 32°C to increase transduction efficiency',
-    ],
-    'Day 5': [
-        'Media exchange (50%): remove excess vector, transduction reagents',
-        'Check: transduction efficiency by flow (anti-CAR staining), target ≥ 30%',
-    ],
-    'Day 7–9': [
-        'Bead removal (if anti-CD3/CD28 beads used): DynaMag magnetic separation',
-        'Transfer to expansion vessel (G-REX 100M or bioreactor)',
-    ],
-    'Day 10–14': [
-        'Daily monitoring: cell count, viability (trypan blue or Vi-CELL), glucose/lactate',
-        'Target expansion: ≥ 20-fold (from D0 seed)',
-        'Harvest when: glucose < 2 mM OR cell density > 2×10^6/mL OR Day 14',
-    ],
-    'Day 14': [
-        'Final wash: CliniMACS Prodigy or centrifugation × 3',
-        'Formulation: 50 mL CryoStor CS10 at target 10×10^6 CAR+ T cells/mL',
-        'Cryopreservation: controlled-rate freezer (-1°C/min to -80°C) → transfer to LN2',
-    ],
-}
-
-def calculate_required_seed(target_dose_CAR_T_cells, expected_fold_expansion=25,
-                             transduction_efficiency=0.35):
-    """
-    Back-calculate required CD3+ T cells at Day 0.
-    target_dose: viable CAR+ T cells required (e.g., 3×10^8 for 60 kg patient at 5×10^6/kg)
-    """
-    total_T_cells_at_harvest = target_dose_CAR_T_cells
-    seed_T_cells_day0 = total_T_cells_at_harvest
-    return {
-        'seed_CD3_day0': seed_T_cells_day0,
-        'total_harvest_needed': total_T_cells_at_harvest,
-        'apheresis_CD3_needed': seed_T_cells_day0 * 1.5,  # 50% buffer for QC failures
-    }
-
-# Example: 60 kg patient, target 5×10^6 CAR-T/kg
-dose = 60 * 5e6  # = 3×10^8 CAR+ T cells
-requirements = calculate_required_seed(dose)
-print(f"Day 0 seed required: {requirements['seed_CD3_day0']:.2e} CD3+ T cells")
-print(f"Apheresis target: {requirements['apheresis_CD3_needed']:.2e} CD3+ T cells")
-# Day 0 seed required: 3.43e+07 CD3+ T cells
-# Apheresis target: 5.14e+07 CD3+ T cells (achievable from leukapheresis)
+[Code block moved to code-block-1.md]
 ```
 
 **Product Release Testing Panel:**
 ```python
-RELEASE_TESTING_PANEL = {
-    # Identity
-    'CAR_expression': {
-        'method': 'Flow cytometry: anti-idiotype or Protein L staining, gate on CD3+',
-        'acceptance': '≥ 20% CAR+ within viable CD3+ T cells',
-    },
-    'CD4_CD8_ratio': {
-        'method': 'Flow cytometry',
-        'acceptance': 'Report result; target 1:1 to 2:1 (CD4:CD8) for balanced response',
-    },
-    # Purity
-    'viability': {
-        'method': 'Flow 7-AAD or DAPI exclusion',
-        'acceptance': '≥ 70% viable (ideally ≥ 80%)',
-    },
-    # Safety
-    'sterility': {'method': 'USP <71>', 'acceptance': 'Negative at 14 days'},
-    'mycoplasma': {'method': 'PCR (Venor GeM, EZ-PCR)', 'acceptance': 'Negative'},
-    'endotoxin': {'method': 'LAL kinetic turbidimetric', 'acceptance': '≤ 5 EU/dose'},
-    'VCN': {'method': 'ddPCR (HIV-1 gag / PTBP2)', 'acceptance': '0.5–5 copies/diploid genome'},
-    'RCR': {'method': 'qPCR or S+L- amplification', 'acceptance': 'Not detected'},
-    # Potency
-    'cytotoxicity': {
-        'method': 'xCELLigence or LDH: co-culture with antigen+ target line, E:T 5:1, 24h',
-        'acceptance': '≥ 20% specific lysis at E:T 5:1 (or EC50 E:T ≤ 10:1)',
-    },
-    'IFN_gamma': {
-        'method': 'ELISA after 24h co-culture with antigen+ target, E:T 2:1',
-        'acceptance': '≥ 200 pg/mL above background',
-    },
-}
+[Code block moved to code-block-2.md]
 ```
 
 ✓ All release tests completed and documented in Batch Record
@@ -295,41 +192,7 @@ RELEASE_TESTING_PANEL = {
 
 **Dose Escalation Design:**
 ```python
-# 3+3 dose escalation for CAR-T Phase I trial
-def dose_escalation_3plus3(dose_levels_cells_per_kg):
-    """
-    Standard 3+3 design for CAR-T cell therapy.
-    DLT window: 28 days post-infusion (CRS, ICANS, prolonged cytopenias)
-    """
-    protocol = []
-    for i, dose in enumerate(dose_levels_cells_per_kg):
-        cohort = {
-            'level': i + 1,
-            'dose': dose,
-            'dose_str': f"{dose/1e6:.1f}×10^6 CAR-T/kg",
-            'n_patients': 3,
-            'DLT_window_days': 28,
-            'escalation_rule': (
-                '0/3 DLTs → escalate to next level; '
-                '1/3 DLTs → expand to 6; ≤1/6 → escalate; '
-                '≥2/6 DLTs → STOP, declare MTD at previous level'
-            ),
-        }
-        protocol.append(cohort)
-    return protocol
-
-dose_levels = [0.5e6, 1e6, 2.5e6, 5e6, 10e6]  # CAR-T cells/kg
-plan = dose_escalation_3plus3(dose_levels)
-for p in plan:
-    print(f"Cohort {p['level']}: {p['dose_str']}")
-
-# CRS/ICANS grading per ASTCT 2019 consensus
-CRS_GRADES = {
-    1: 'Fever ≥38°C (no hypotension, no hypoxia) → close monitoring',
-    2: 'Fever + hypotension responding to IV fluids OR O2 by low-flow NC → tocilizumab 8 mg/kg IV',
-    3: 'Hypotension needing vasopressors OR O2 by high-flow/CPAP → tocilizumab + dexamethasone',
-    4: 'Life-threatening hypotension + respiratory failure (intubation) → ICU, high-dose steroids',
-}
+[Code block moved to code-block-3.md]
 ```
 
 **Biodistribution & Pharmacokinetics (CAR-T in Blood):**
@@ -404,46 +267,7 @@ CYTOTOX_FAILURE_RCA = {
 
 **CRISPR Guide RNA Design Strategy:**
 ```python
-def multiplex_crispr_design(target_genes, delivery='RNP_electroporation'):
-    """
-    Design multiplex CRISPR editing strategy for allogeneic cell therapy.
-    RNP (ribonucleoprotein): SpCas9 protein + sgRNA — preferred for GMP (no integrating DNA)
-    """
-    strategy = {}
-    for gene in target_genes:
-        strategy[gene] = {
-            'TRAC': {
-                'purpose': 'Prevent GvHD (allogeneic T cell graft-vs-host)',
-                'sgRNA_target': 'Exon 1, TRAC locus (constitutive expression)',
-                'KO_efficiency_target': '≥ 90% by flow (anti-TCRαβ)',
-                'KI_option': 'Insert CAR at TRAC locus via HDR (reduces tonic signaling)',
-            },
-            'B2M': {
-                'purpose': 'Eliminate HLA-I surface expression → prevent host cytotoxic T rejection',
-                'sgRNA_target': 'Exon 1, B2M gene (loss of B2M → no HLA-I assembly)',
-                'KO_efficiency_target': '≥ 90% by flow (anti-HLA-ABC)',
-                'risk': 'B2M-KO activates host NK cells (missing-self) → add HLA-E or CD47 "dont-eat-me"',
-            },
-            'PDCD1': {
-                'purpose': 'Knock out PD-1 → prevent tumor microenvironment exhaustion',
-                'sgRNA_target': 'Exon 1, PDCD1',
-                'KO_efficiency_target': '≥ 80% by flow (anti-PD-1)',
-            },
-            'NKG2A': {
-                'purpose': 'Knock out NKG2A inhibitory receptor → enhance NK killing of HLA-E+ tumors',
-                'sgRNA_target': 'KLRC1 exon 2',
-                'KO_efficiency_target': '≥ 75% by flow (anti-NKG2A/CD94)',
-            },
-        }.get(gene, {'error': f'Gene {gene} not in database'})
-
-    return strategy
-
-genes_to_edit = ['B2M', 'PDCD1', 'NKG2A']
-plan = multiplex_crispr_design(genes_to_edit)
-
-# Manufacturing order: edit → select edited cells → transduce CAR → expand
-# RNP delivery: 4D-Nucleofector (Lonza), pulse code EN-138 for NK progenitors
-# Genotoxicity check: karyotyping, ddPCR for large deletions (chromo translocations)
+[Code block moved to code-block-4.md]
 ```
 
 ### Scenario 3: CAR-T Persistence Failure — Patient Relapse at Day 90
@@ -452,39 +276,7 @@ plan = multiplex_crispr_design(genes_to_edit)
 
 **Analysis Framework:**
 ```python
-# Three possible mechanisms for CAR-T loss of persistence:
-PERSISTENCE_FAILURE_ANALYSIS = {
-    'Mechanism 1: T cell exhaustion': {
-        'evidence': 'Early high Cmax (peak >10,000 copies/μg) → rapid collapse',
-        'PD1_LAG3_at_peak': 'Check peak timepoint PBMC: PD-1+LAG-3+TIM-3+ triple+',
-        'solution': [
-            'Switch to 4-1BB co-stimulation (if CD28 was used)',
-            'Add ex vivo checkpoint blockade during manufacturing',
-            'Consider TET2 KO CAR-T (published: enhanced persistence)',
-        ],
-    },
-    'Mechanism 2: Immune rejection (allogeneic or anti-CAR immune response)': {
-        'evidence': 'CAR-T present at Day 28, rapid disappearance after',
-        'test': 'Anti-CAR antibody titer (ELISA/bridging assay); host CD8 T cells specific for murine scFv',
-        'solution': [
-            'Humanize scFv (CDR-grafting) to reduce immunogenicity',
-            'Switch from murine FMC63 scFv to humanized version',
-        ],
-    },
-    'Mechanism 3: CD19 antigen escape': {
-        'evidence': 'Relapse tumor is CD19-dim or CD19-negative by flow/IHC',
-        'test': 'Biopsy flow cytometry: anti-CD19, anti-CD22, anti-CD10 on relapse sample',
-        'solution': [
-            'Tandem CD19/CD22 CAR for bivalent targeting',
-            'Switch to CD22 CAR if CD19 lost but CD22 retained',
-        ],
-    },
-}
-
-# Management: re-challenge with second CAR-T infusion requires prior assessment of:
-# 1. Disease burden (tumor lysis syndrome risk with high burden)
-# 2. Prior CRS/ICANS history (increased risk with re-challenge)
-# 3. Updated antigen profile (tumor evolution)
+[Code block moved to code-block-5.md]
 ```
 
 ## 🚫 Common Pitfalls & Anti-Patterns

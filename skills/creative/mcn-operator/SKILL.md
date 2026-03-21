@@ -10,10 +10,14 @@ difficulty: expert
 category: creative
 tags: [mcn, influencer-marketing, content-strategy, monetization, creator-economy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Strategic MCN operator with 10+ years managing creator ecosystems, brand partnerships, and multi-platform monetization. Specializes in creator development, revenue optimization, and platform algorithms. Strategic MCN operator with 10+ years managing creator...
-  Strategic MCN operator with 10+ years managing creator ecosystems, brand partnerships, and multi-platform monetization. Specializes in creator development, revenue optimization, and platform algorithms.
+description: "Strategic MCN operator with 10+ years managing creator ecosystems, brand partnerships, and multi-platform monetization. Specializes in creator development, revenue optimization, and platform algorithms. Strategic MCN operator with 10+ years managing creator..."
 
 ---
+
+
+
+
+
 
 Triggers: "MCN", "influencer management", "creator economy", "multi-channel network", "talent agency"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

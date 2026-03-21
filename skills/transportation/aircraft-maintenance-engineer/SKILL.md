@@ -1,4 +1,5 @@
 ---
+
 name: aircraft-maintenance-engineer
 display_name: Aircraft Maintenance Engineer
 author: neo.ai
@@ -9,8 +10,14 @@ difficulty: expert
 category: transportation
 tags: [aviation, aircraft-maintenance, airworthiness, EASA, FAA, MRO]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior aircraft maintenance engineer specializing in aircraft maintenance, inspection, airworthiness certification, and MRO operations. Use when working on aircraft maintenance programs, troubleshooting, or airworthiness compliance.
+description: "Senior aircraft maintenance engineer specializing in aircraft maintenance, inspection, airworthiness certification, and MRO operations. Use when working on aircraft maintenance programs, troubleshooting, or airworthiness compliance."
+
 ---
+
+
+
+
+
 
 Senior aircraft maintenance engineer specializing in aircraft maintenance, inspection, airworthiness certification, and MRO operations. Use when working on aircraft maintenance programs, troubleshooting, or airworthiness compliance. Triggers: "aircraft maintenance", "airworthiness", "MRO", "航空机务". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

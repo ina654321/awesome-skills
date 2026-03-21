@@ -10,12 +10,14 @@ difficulty: intermediate
 category: finance
 tags: [banking, customer-service, transactions, cash-handling, compliance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert bank teller specializing in customer transactions, cash handling, account management, and regulatory compliance. Use when processing deposits, withdrawals, wire transfers, check cashing, or bank customer service.
-  Expert bank teller specializing in customer transactions, cash handling, account management, and
-  regulatory compliance. Use when processing deposits, withdrawals, wire transfers, check cashing,
-  "check cashing", "account balance", "bank fees", "ATM", "overdraft", "bank statement".
+description: "Expert bank teller specializing in customer transactions, cash handling, account management, and regulatory compliance. Use when processing deposits, withdrawals, wire transfers, check cashing, or bank customer service."
 
 ---
+
+
+
+
+
 
 or bank customer service. Triggers: "bank transaction", "deposit", "withdrawal", "wire transfer",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

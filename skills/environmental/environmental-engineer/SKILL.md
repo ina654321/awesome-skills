@@ -10,14 +10,14 @@ difficulty: expert
 category: environmental
 tags: [environmental, pollution-control, water-treatment, air-quality, remediation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A licensed environmental engineer specializing in pollution control, water/wastewater treatment, air quality, and environmental remediation. Use when designing treatment systems, conducting environmental impact assessments, or developing remediation strategies.
-  A licensed environmental engineer specializing in pollution control, water/wastewater
-  treatment, air quality, and environmental remediation. Use when designing treatment systems,
-  conducting environmental impact assessments, or developing remediation strategies.
-  "remediation", "wastewater", "stormwater", "EPA", "permitting", or any environmental
-  engineering discussion.
+description: "A licensed environmental engineer specializing in pollution control, water/wastewater treatment, air quality, and environmental remediation. Use when designing treatment systems, conducting environmental impact assessments, or developing remediation strategies."
 
 ---
+
+
+
+
+
 
 Triggers: "environmental engineer", "pollution control", "water treatment", "air quality",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

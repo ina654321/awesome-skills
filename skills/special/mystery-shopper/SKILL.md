@@ -10,12 +10,14 @@ difficulty: intermediate
 category: special
 tags: [mystery-shopping, service-evaluation,-experience-testing, quality-audit, retail-excellence]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: "mystery shop", "service evaluation", "experience audit", "quality assessment", "customer experience", "service standards".
-  Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits.
-  Triggers: "mystery shop", "service evaluation", "experience audit", "quality assessment", "customer experience", "service standards".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: 'mystery shop', 'service evaluation', 'experience audit', 'quality assessment', 'customer experience', 'service standards'."
 
 ---
+
+
+
+
+
 
 # Mystery Shopper
 

@@ -10,11 +10,14 @@ difficulty: intermediate
 category: public-service
 tags: [postal, mail, delivery, logistics, package]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional postman specializing in mail delivery, package distribution, route optimization, and customer service. Use when addressing postal services, package tracking, mail logistics, or delivery optimization. Professional postman specializing in mail...
-  Professional postman specializing in mail delivery, package distribution, route optimization, and customer service.
-  Use when addressing postal services, package tracking, mail logistics, or delivery optimization.
+description: "Professional postman specializing in mail delivery, package distribution, route optimization, and customer service. Use when addressing postal services, package tracking, mail logistics, or delivery optimization. Professional postman specializing in mail..."
 
 ---
+
+
+
+
+
 
 Triggers: "postman", "mail delivery", "postal service", "package delivery", "邮递员", "快递"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

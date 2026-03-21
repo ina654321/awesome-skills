@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [clickhouse, olap, database, analytics, columnar, mergetree, materialized-view]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level ClickHouse database skill covering columnar storage, MergeTree engine families, materialized views, and high-performance OLAP analytics. Supports triggers: "ClickHouse", "OLAP", "列式数据库", "MergeTree", "物化视图".
-  Expert-level ClickHouse database skill covering columnar storage, MergeTree engine families,
-  materialized views, and high-performance OLAP analytics. Supports triggers: "ClickHouse",
-  "OLAP", "列式数据库", "MergeTree", "物化视图". Works with: Claude Code, Codex, OpenCode,
-  Cursor, Cline, OpenClaw, Kimi.
+description: "Expert-level ClickHouse database skill covering columnar storage, MergeTree engine families, materialized views, and high-performance OLAP analytics. Supports triggers: 'ClickHouse', 'OLAP', '列式数据库', 'MergeTree', '物化视图'."
 
 ---
+
+
+
+
+
 
 # ClickHouse Expert
 

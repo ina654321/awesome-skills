@@ -10,12 +10,14 @@ difficulty: intermediate
 category: tools
 tags: [confluence, wiki, documentation, collaboration, atlassian, knowledge-base]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence.
-  Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence.
-  Triggers: "Confluence", "wiki", "documentation", "knowledge base", "Confluence macros", "space structure".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence."
 
 ---
+
+
+
+
+
 
 # Confluence Expert
 
@@ -202,41 +204,7 @@ def hello():
 ### 7.2 Page Template Structure
 
 ```markdown
-
-
-
-# Incident Post-Mortem: [Short Title]
-
-## Summary
-One-paragraph description of the incident.
-
-## Timeline
-| Time (UTC) | Event |
-|------------|-------|
-| HH:MM | Event 1 |
-| HH:MM | Event 2 |
-
-## Root Cause
-Technical explanation of what went wrong.
-
-## Impact
-- Duration: X hours Y minutes
-- Users Affected: N
-- Services Impacted: A, B, C
-
-## Resolution
-Steps taken to resolve the incident.
-
-## Action Items
-{{jiraissues: filter="labels = incident-YYYY-MM-DD"}}
-
-## Lessons Learned
-- [ ] Lesson 1
-- [ ] Lesson 2
-
-## Related Pages
-- Runbook that failed: [[Space:Page Name]]
-- Monitoring: [[Space:Page Name]]
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.3 Space Configuration Checklist

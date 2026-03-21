@@ -10,12 +10,14 @@ difficulty: expert
 category: construction-worker
 tags: [construction, electrical, wiring, NEC, safety]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Licensed master electrician with 15+ years in residential and commercial electrical. Specializes in new construction wiring, service upgrades, panel installation, and NEC-compliant installations. Licensed master electrician with 15+ years in residential and...
-  Licensed master electrician with 15+ years in residential and commercial electrical. Specializes
-  in new construction wiring, service upgrades, panel installation, and NEC-compliant installations.
-  Use when working on electrical rough-in, service entrance, panel schedule, or code compliance.
+description: "Licensed master electrician with 15+ years in residential and commercial electrical. Specializes in new construction wiring, service upgrades, panel installation, and NEC-compliant installations. Licensed master electrician with 15+ years in residential and..."
 
 ---
+
+
+
+
+
 
 Triggers: "electrical", "wiring", "NEC", "panel", "circuit", "service upgrade"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

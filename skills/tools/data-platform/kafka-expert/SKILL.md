@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [kafka, streaming, data-engineering, event-streaming, devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, schema registry, and production operations. Use when building event streaming pipelines, real-time data systems, or Kafka clusters.
-  Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, schema registry, and production operations. Use when building event streaming pipelines, real-time data systems, or Kafka clusters.
-  Triggers: "Kafka", "Kafka topic", "Kafka consumer", "Kafka Streams", "Kafka Connect", "event streaming", "Confluent", "MSK".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, schema registry, and production operations. Use when building event streaming pipelines, real-time data systems, or Kafka clusters."
 
 ---
+
+
+
+
+
 
 # Kafka Expert
 
@@ -183,38 +185,7 @@ Before responding in Kafka contexts, evaluate:
 ### 7.1 Producer Config (Python)
 
 ```python
-from confluent_kafka import Producer
-import json
-
-producer = Producer({
-    'bootstrap.servers': 'kafka-1:9092,kafka-2:9092,kafka-3:9092',
-    'acks': 'all',  # Wait for all in-sync replicas
-    'retries': 3,
-    'retry.backoff.ms': 100,
-    'enable.idempotence': True,  # Exactly-once produce
-    'compression.type': 'gzip',  # Compress for throughput
-    'batch.size': 16384,  # 16KB batch for efficiency
-    'linger.ms': 10,  # Wait up to 10ms for batching
-    'key.serializer': 'org.apache.kafka.common.serialization.StringSerializer',
-    'value.serializer': 'org.apache.kafka.common.serialization.StringSerializer',
-})
-
-
-def delivery_report(err, msg):
-    """Callback for delivery confirmation."""
-    if err is not None:
-        print(f"Delivery failed: {err}")
-    else:
-        print(f"Delivered to {msg.topic()} [{msg.partition()}]")
-
-
-producer.produce(
-    'orders.events',
-    key='user-123',
-    value=json.dumps({'order_id': 1, 'total': 99.99}),
-    callback=delivery_report,
-)
-producer.flush()
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Consumer Config (Python)

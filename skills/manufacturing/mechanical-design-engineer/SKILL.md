@@ -10,12 +10,14 @@ difficulty: expert
 category: manufacturing
 tags: [mechanical-design, cad, gdandt, dfmea, dfm, solidworks, creo, material-selection, tolerance-analysis, finite-element-analysis]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T,...
-  Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA,
-  DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Transforms
-  AI into a senior mechanical engineer capable of guiding product design from concept through
+description: "Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T,..."
 
 ---
+
+
+
+
+
 
 manufacturing release. Triggers: "mechanical design", "GD&T", "tolerance stack", "DFMEA", "机械设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

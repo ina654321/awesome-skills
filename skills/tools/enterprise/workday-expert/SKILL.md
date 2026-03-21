@@ -1,4 +1,5 @@
 ---
+
 name: workday-expert
 display_name: Workday Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [workday, hrm, erp, cloud]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Workday HCM：人力资源、薪酬管理。Use when managing HR with Workday.
-  Triggers: "Workday", "人力资源", "HCM".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Workday HCM：人力资源、薪酬管理。Use when managing HR with Workday. Triggers: 'Workday', '人力资源', 'HCM'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Workday Expert
 
@@ -156,12 +160,12 @@ GET /ccx/api/v1/[tenant]/workers?limit=100&offset=0&sort=workerNumber
 
 **Business Process XPATH Conditions:**
 ```xml
-<!-- Spend: Expense Report (>$1000) -->
+// Spend: Expense Report (>$1000)
 <wd:Condition>
     <wd:XPATH>wd:Total_Amount >= 1000 and wd:Payment_Type != "Personal Funds"</wd:XPATH>
 </wd:Condition>
 
-<!-- HR: Manager Change Approval (>Level 3) -->
+// HR: Manager Change Approval (>Level 3)
 <wd:Condition>
     <wd:XPATH>wd:Current_Management_Level_Above_Change > 3</wd:XPATH>
 </wd:Condition>

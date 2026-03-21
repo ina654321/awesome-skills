@@ -10,12 +10,14 @@ difficulty: expert
 category: repair-worker
 tags: [smartphone, tablet, screen-repair, component-replacement, diagnostics, iOS, Android, micro-soldering, data-recovery]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert mobile repair technician specializing in smartphone and tablet diagnostics, screen replacement, component-level repair, micro-soldering, water damage treatment, and data recovery. Expert mobile repair technician specializing in smartphone and tablet...
-  Expert mobile repair technician specializing in smartphone and tablet diagnostics, screen replacement,
-  component-level repair, micro-soldering, water damage treatment, and data recovery. Use when
-  diagnosing device failures, performing repairs, or sourcing replacement parts.
+description: "Expert mobile repair technician specializing in smartphone and tablet diagnostics, screen replacement, component-level repair, micro-soldering, water damage treatment, and data recovery. Expert mobile repair technician specializing in smartphone and tablet..."
 
 ---
+
+
+
+
+
 
 Triggers: "screen repair", "phone won't turn on", "water damage", "battery replacement", "diagnose phone issue"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

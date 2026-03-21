@@ -1,4 +1,5 @@
 ---
+
 name: aliyun-cdn-expert
 display_name: Aliyun CDN Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [aliyun, cdn, acceleration, performance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  阿里云CDN专家：加速配置、缓存策略、HTTPS、回源优化。Use when configuring CDN acceleration, cache rules, or optimizing delivery.
-  Triggers: "CDN", "阿里云CDN", "缓存", "加速".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "阿里云CDN专家：加速配置、缓存策略、HTTPS、回源优化。Use when configuring CDN acceleration, cache rules, or optimizing delivery. Triggers: 'CDN', '阿里云CDN', '缓存', '加速'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Aliyun CDN Expert
 

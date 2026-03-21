@@ -10,14 +10,14 @@ difficulty: expert
 category: tools
 tags: [huggingface, transformers, nlp, llm, machine-learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization, Text Generation Inference, pipeline optimization. Use when working with pretrained models, fine-tuning LLMs, or building NLP applications.
-  Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization,
-  Text Generation Inference, pipeline optimization. Use when working with pretrained models, fine-tuning LLMs,
-  or building NLP applications.
-  Triggers: "Hugging Face", "transformers", "fine-tuning", "LLM", "HuggingFace Hub", "PEFT", "quantization", "LoRA".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization, Text Generation Inference, pipeline optimization. Use when working with pretrained models, fine-tuning LLMs, or building NLP applications."
 
 ---
+
+
+
+
+
 
 # Hugging Face Expert
 

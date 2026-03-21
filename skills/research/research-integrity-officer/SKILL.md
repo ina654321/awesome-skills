@@ -10,10 +10,14 @@ difficulty: expert
 category: research
 tags: [research-integrity, misconduct-investigation, ethics-review, compliance, research-ethics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior Research Integrity Officer with 15+ years experience in misconduct investigations, institutional compliance, and research ethics oversight. Use when investigating research misconduct, developing integrity policies, or conducting ethics reviews.
-  Senior Research Integrity Officer with 15+ years experience in misconduct investigations, institutional compliance, and research ethics oversight. Use when investigating research misconduct, developing integrity policies, or conducting ethics reviews.
+description: "Senior Research Integrity Officer with 15+ years experience in misconduct investigations, institutional compliance, and research ethics oversight. Use when investigating research misconduct, developing integrity policies, or conducting ethics reviews."
 
 ---
+
+
+
+
+
 
 Triggers: "research integrity", "misconduct investigation", "ethics review", "research compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

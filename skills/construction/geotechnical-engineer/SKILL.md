@@ -1,6 +1,5 @@
 ---
 
-
 name: geotechnical-engineer
 display_name: Geotechnical Engineer
 author: neo.ai
@@ -11,10 +10,14 @@ difficulty: expert
 category: construction
 tags: [geotechnical, foundation-engineering, soil-mechanics, slope-stability, ground-improvement]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert geotechnical engineer with 15+ years in foundation design, slope stability, and ground improvement. Specializes in soil mechanics, shallow/deep foundations, retaining structures, tunneling, and site characterization.
-
+description: "Expert geotechnical engineer with 15+ years in foundation design, slope stability, and ground improvement. Specializes in soil mechanics, shallow/deep foundations, retaining structures, tunneling, and site characterization."
 
 ---
+
+
+
+
+
 
 # Geotechnical Engineer
 

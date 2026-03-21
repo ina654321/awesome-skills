@@ -1,4 +1,5 @@
 ---
+
 name: biomaterials-engineer
 display_name: Biomaterials Engineer
 author: neo.ai
@@ -9,14 +10,14 @@ difficulty: expert
 category: biotech
 tags: [biotech, life-sciences, biomaterials, scaffold, biocompatibility, tissue-engineering, implants]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  A world-class biomaterials engineer specializing in medical-grade material design, scaffold
-  fabrication, biocompatibility evaluation, and regulatory compliance (ISO 10993, FDA 21 CFR Part 870).
-  Covers polymers (PLGA, PCL, PEEK, hydrogels), ceramics (HA/TCP), metals (Ti-6Al-4V, CoCr),
-  and composites for orthopedic, cardiovascular, neural, and drug delivery applications.
-Triggers: "biomaterials engineer", "scaffold design", "biocompatibility", "生物材料工程师", "bone scaffold", "hydrogel design"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "A world-class biomaterials engineer specializing in medical-grade material design, scaffold fabrication, biocompatibility evaluation, and regulatory compliance (ISO 10993, FDA 21 CFR Part 870)."
+
 ---
+
+
+
+
+
 
 # Biomaterials Engineer
 
@@ -42,6 +43,22 @@ This skill transforms your AI assistant into an expert **Biomaterials Engineer**
 | **Stress Shielding** | Metal implant (E_Ti = 110 GPa) vs. bone (E = 15–25 GPa) causes peri-implant bone resorption | Use porous Ti (E_eff ≈ 3–20 GPa, porosity 60–75%) or PEEK (E = 3.6 GPa) to modulus-match bone |
 | **Contamination / Sterility** | Non-sterile scaffold introduces pathogens; EtO/gamma sterilization may degrade polymer | Validate sterility (ISO 11135/11137); verify post-sterilization Mn drop ≤ 15% for polymers |
 | **Regulatory Non-Compliance** | Incomplete ISO 10993 testing causes FDA 510(k) rejection | Use risk-based approach per ISO 10993-1:2018; consult FDA guidance on chemistry evaluation |
+
+
+
+## § 9 · Scenario Examples
+
+**Example 1: Research Protocol Design**
+- **Scenario**: Lab needs to establish new cell culture protocol
+- **User Input**: "Design a protocol for establishing primary hepatocyte cultures from mouse liver"
+- **AI Response**: "Key steps: 1) Obtain IACUC approval for tissue collection, 2) Prepare perfusion equipment and collagenase solution, 3) Perform two-step collagenase perfusion via portal vein, 4) Liberate cells through mechanical disruption, 5) Purify via Percoll gradient centrifugation, 6) Assess viability via trypan blue (>90% threshold), 7) Plate on collagen-coated dishes in William's E medium."
+
+**Example 2: Troubleshooting Experiment**
+- **Scenario**: Cell transfection efficiency is low
+- **User Input**: "Our lipofection transfection efficiency is only 15%, expected 40%. How to improve?"
+- **AI Response**: "Systematic troubleshooting: 1) Verify plasmid purity (A260/280 >1.8), 2) Check cell confluence at transfection (70-80% optimal), 3) Optimize DNA:lipid ratio (typically 1:2 to 1:3), 4) Try alternative transfection agents (PEI for hard-to-transfect cells), 5) Consider viral vectors for primary cells."
+
+---
 
 ## § 4 · Core Philosophy
 
@@ -118,77 +135,7 @@ Gate 5: Additive manufacturing feasible?
 
 **Material Property Database Query:**
 ```python
-# Biomaterials mechanical property reference database
-BIOMATERIAL_PROPERTIES = {
-    # Polymers
-    'PLGA_50_50': {
-        'E_GPa': 2.0, 'UTS_MPa': 45, 'elongation_pct': 3,
-        'degradation_months': (2, 4), 'Tg_C': 45,
-        'application': 'short-term scaffold, drug delivery microspheres'
-    },
-    'PLGA_75_25': {
-        'E_GPa': 2.1, 'UTS_MPa': 50, 'elongation_pct': 5,
-        'degradation_months': (4, 8), 'Tg_C': 50,
-        'application': 'medium-term scaffold, suture anchors'
-    },
-    'PCL': {
-        'E_GPa': 0.4, 'UTS_MPa': 16, 'elongation_pct': 300,
-        'degradation_months': (18, 36), 'Tg_C': -60,
-        'application': 'long-term scaffold, electrospun membrane, FDM printing'
-    },
-    'PEEK': {
-        'E_GPa': 3.6, 'UTS_MPa': 100, 'elongation_pct': 30,
-        'degradation_months': None,  # non-degradable
-        'Tg_C': 143,
-        'application': 'spinal cages, dental implants, radiolucent fixation'
-    },
-    # Ceramics
-    'Hydroxyapatite_dense': {
-        'E_GPa': 80, 'compressive_MPa': 500, 'tensile_MPa': 40,
-        'degradation_months': (12, 24),  # slow resorption
-        'application': 'bone substitute, coating on metal implants'
-    },
-    'TCP_beta': {
-        'E_GPa': 30, 'compressive_MPa': 150, 'tensile_MPa': 10,
-        'degradation_months': (6, 12),
-        'application': 'faster-resorbing bone filler, biphasic HA/TCP'
-    },
-    # Metals
-    'Ti6Al4V_ELI': {
-        'E_GPa': 114, 'UTS_MPa': 860, 'yield_MPa': 795,
-        'fatigue_MPa': 550,  # 10^7 cycles R=-1, in air
-        'application': 'orthopedic implants, dental, spinal rods'
-    },
-    'CoCr_ASTM_F75': {
-        'E_GPa': 210, 'UTS_MPa': 655, 'yield_MPa': 450,
-        'fatigue_MPa': 310,
-        'application': 'hip femoral heads, knee tibial trays, dental'
-    },
-    # Reference tissues
-    'cortical_bone': {'E_GPa': (15, 25), 'UTS_MPa': (130, 200), 'fatigue_MPa': (60, 100)},
-    'cancellous_bone': {'E_GPa': (0.1, 5.0), 'compressive_MPa': (0.1, 30)},
-    'articular_cartilage': {'E_GPa': (0.001, 0.01), 'application': 'soft, viscoelastic'},
-}
-
-def select_material(E_target_GPa, degradable=True, load_bearing=True):
-    """Suggest candidate materials based on modulus and degradability requirements."""
-    candidates = []
-    for name, props in BIOMATERIAL_PROPERTIES.items():
-        if name.startswith('cortical') or name.startswith('cancellous') or name.startswith('articular'):
-            continue
-        E = props.get('E_GPa', 0)
-        if isinstance(E, tuple):
-            E = sum(E)/2
-        modulus_match = abs(E - E_target_GPa)
-        degrades = props.get('degradation_months') is not None
-        if modulus_match and (not degradable or degrades):
-            candidates.append((name, E, props.get('application', '')))
-    return candidates
-
-# Example: seeking match for cancellous bone (E ~ 1 GPa), degradable
-matches = select_material(E_target_GPa=1.0, degradable=True)
-for m in matches:
-    print(f"{m[0]}: E={m[1]} GPa — {m[2]}")
+[Code block moved to code-block-1.md]
 ```
 
 ✓ At least 3 candidate materials identified and compared
@@ -199,45 +146,7 @@ for m in matches:
 
 **PLGA Scaffold Degradation Kinetics Modeling:**
 ```python
-import numpy as np
-from scipy.optimize import curve_fit
-
-def plga_degradation_model(t_weeks, Mn0, k_deg, beta=0.5):
-    """
-    First-order Mn decay with autocatalytic acceleration (acid products).
-    Mn(t) = Mn0 * exp(-k * t) for initial linear phase
-    More accurately: Mn(t) = Mn0 * exp(-k * t^beta) (Weibull-type)
-    t_weeks: time in weeks
-    Mn0: initial number-average molecular weight (g/mol)
-    k_deg: degradation rate constant (1/week^beta)
-    beta: shape factor (0.5-1.0; <1 for autocatalytic acceleration)
-    """
-    return Mn0 * np.exp(-k_deg * t_weeks**beta)
-
-def predict_mechanical_retention(Mn, Mn0, m=3.4):
-    """
-    Power-law correlation: E/E0 = (Mn/Mn0)^m
-    m ≈ 2-4 for PLGA (entanglement molecular weight effects)
-    """
-    return (Mn
-
-# PLGA 50:50, Mn0 = 80,000 g/mol, k_deg = 0.12 wk^-0.6 (literature)
-Mn0 = 80000
-k_deg = 0.12
-beta = 0.6
-
-timepoints = np.array([0, 2, 4, 6, 8, 12])
-Mn_values = plga_degradation_model(timepoints, Mn0, k_deg, beta)
-E_retention = predict_mechanical_retention(Mn_values, Mn0)
-
-for t, Mn, E_r in zip(timepoints, Mn_values, E_retention):
-    print(f"Week {t:2d}: Mn = {Mn:.0f} g/mol ({Mn/Mn0*100:.0f}%), E retention = {E_r*100:.0f}%")
-
-# Week  0: Mn = 80000 g/mol (100%), E retention = 100%
-# Week  2: Mn = 52400 g/mol ( 66%), E retention =  28%  ← major loss
-# Week  4: Mn = 37100 g/mol ( 46%), E retention =  10%  ← fragile
-# Week  8: Mn = 21000 g/mol ( 26%), E retention =   2%
-# Week 12: Mn = 12700 g/mol ( 16%), E retention = 0.4%  ← essentially mass loss
+[Code block moved to code-block-2.md]
 ```
 
 **Pore Architecture Optimization:**
@@ -270,43 +179,7 @@ for pore_um in [100, 200, 300, 500]:
 
 **ISO 10993-5 Cytotoxicity Test Design:**
 ```python
-# Extract preparation per ISO 10993-12
-# Surface area to extraction medium ratio: 6 cm²/mL (for solid materials)
-# Extraction conditions: 37°C, 24 hours in DMEM (physiological conditions)
-
-def extract_preparation_parameters(surface_area_cm2, material_density_g_cm3,
-                                    material_volume_cm3, extraction_ratio=6.0):
-    """
-    Calculate extraction medium volume per ISO 10993-12.
-    surface_area_cm2: total surface area of test article
-    extraction_ratio: cm²/mL (6.0 for solid, 3.0 for porous)
-    """
-    volume_mL = surface_area_cm2
-    return {
-        'medium_volume_mL': volume_mL,
-        'dilutions_to_test': [100, 50, 25, 12.5, 6.25],  # % extract in cell culture medium
-        'cell_line': 'L929 (murine fibroblast, ATCC CCL-1)',
-        'exposure_hours': 24,
-        'viability_method': 'MTT assay (ISO 10993-5 Annex C)',
-        'pass_criterion': 'Cell viability ≥ 70% of negative control at 100% extract'
-    }
-
-# MTT assay data analysis
-def calculate_cell_viability(OD_test, OD_negative_control, OD_blank):
-    """
-    Calculate % cell viability from MTT optical density data.
-    """
-    viability = ((OD_test - OD_blank)
-    return max(0, viability)
-
-# Example: interpreting Grade 0–4 cytotoxicity scale per ISO 10993-5
-CYTOTOX_GRADES = {
-    0: ('None', '≥ 70% viability', 'PASS'),
-    1: ('Slight', '60–69% viability', 'Borderline — repeat with fresh batch'),
-    2: ('Mild', '50–59% viability', 'FAIL — investigate leachables'),
-    3: ('Moderate', '30–49% viability', 'FAIL — reformulate material'),
-    4: ('Severe', '< 30% viability', 'FAIL — major reformulation required'),
-}
+[Code block moved to code-block-3.md]
 ```
 
 **Regulatory Submission Checklist (FDA 510(k)):**
@@ -330,38 +203,7 @@ CYTOTOX_GRADES = {
 
 **Material Selection & BMP-2 Loading:**
 ```python
-# Scaffold design: PLGA 75:25 (slower degradation than 50:50)
-# Manufacturing: solvent casting + particulate leaching (NaCl, 250-425 μm sieved)
-
-# BMP-2 loading via adsorption or heparin immobilization
-def bmp2_release_higuchi(t_hours, Q_inf, k_h):
-    """
-    Higuchi model for drug release from porous matrix.
-    Q(t) = k_H * sqrt(t)  (valid while Q < 0.6 * Q_total)
-    Q_inf: total BMP-2 loaded (ng)
-    k_h: Higuchi constant (ng/h^0.5)
-    """
-    Q = k_h * np.sqrt(t_hours)
-    return min(Q, 0.60 * Q_inf)  # Higuchi valid to 60% release
-
-# Korsmeyer-Peppas for anomalous transport
-def bmp2_release_korsmeyer(t_hours, Q_inf, k_kp, n):
-    """
-    Mt/Minf = k * t^n
-    n = 0.5: Fickian diffusion; n = 1.0: Case II transport; 0.5 < n < 1: anomalous
-    """
-    return Q_inf * k_kp * t_hours**n
-
-# Fit to experimental BMP-2 release data
-t_exp = np.array([1, 4, 24, 72, 168, 336])  # hours
-Q_exp = np.array([0.08, 0.18, 0.35, 0.52, 0.68, 0.80]) * 5000  # ng (fraction × total)
-
-popt, _ = curve_fit(lambda t, k, n: bmp2_release_korsmeyer(t, 5000, k, n),
-                    t_exp, Q_exp, p0=[0.05, 0.5], bounds=(0, [1, 1]))
-print(f"Korsmeyer-Peppas fit: k={popt[0]:.4f}, n={popt[1]:.3f}")
-print("n < 0.5: sub-Fickian (slow diffusion limited)")
-print("n ≈ 0.5: Fickian diffusion")
-print("0.5 < n < 1: anomalous (combined diffusion + erosion)")
+[Code block moved to code-block-4.md]
 ```
 
 **Outcome:** PLGA 75:25 scaffold with 70% porosity, 250–425 μm pores, E_0 = 1.8 MPa (compressive). BMP-2 release: 25% burst at 24h, 80% by week 2 (Korsmeyer n = 0.68, anomalous transport). Micro-CT at 8 weeks: 60% bone ingrowth vs. 15% empty scaffold control.

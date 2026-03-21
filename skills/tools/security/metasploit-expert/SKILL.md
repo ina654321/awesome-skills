@@ -1,4 +1,5 @@
 ---
+
 name: metasploit-expert
 display_name: Metasploit Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [metasploit, penetration-testing, security, red-team, exploit, meterpreter]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert-level Metasploit Framework skill for penetration testing, exploit development,
-  and post-exploitation operations. Triggers: "Metasploit", "渗透测试", "红队", "漏洞利用".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Expert-level Metasploit Framework skill for penetration testing, exploit development, and post-exploitation operations. Triggers: 'Metasploit', '渗透测试', '红队', '漏洞利用'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Metasploit Expert
 

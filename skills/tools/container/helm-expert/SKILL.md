@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [helm, kubernetes, k8s, package-manager, devops, charts]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts, and production deployment patterns. Use when creating Helm charts, managing releases, or configuring Kubernetes applications with Helm.
-  Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts, and production deployment patterns. Use when creating Helm charts, managing releases, or configuring Kubernetes applications with Helm.
-  Triggers: "Helm", "Helm chart", "helm template", "helm install", "helm upgrade", "Kubernetes部署", "helmfile".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts, and production deployment patterns. Use when creating Helm charts, managing releases, or configuring Kubernetes applications with Helm."
 
 ---
+
+
+
+
+
 
 # Helm Expert
 
@@ -207,229 +209,25 @@ annotations:
 ### 7.2 values.yaml with Environment Sections
 
 ```yaml
-# Default values.yaml
-replicaCount: 1
-
-image:
-  repository: myapp
-  tag: "1.0.0"
-  pullPolicy: IfNotPresent
-  pullSecrets: []
-
-service:
-  type: ClusterIP
-  port: 80
-
-ingress:
-  enabled: true
-  className: "nginx"
-  annotations:
-    cert-manager.io/cluster-issuer: letsencrypt-prod
-  hosts:
-    - host: myapp.example.com
-      paths:
-        - path: /
-          pathType: Prefix
-  tls:
-    - secretName: myapp-tls
-      hosts:
-        - myapp.example.com
-
-resources:
-  limits:
-    cpu: 500m
-    memory: 512Mi
-  requests:
-    cpu: 100m
-    memory: 128Mi
-
-autoscaling:
-  enabled: false
-  minReplicas: 1
-  maxReplicas: 10
-  targetCPUUtilizationPercentage: 70
-
-nodeSelector: {}
-
-tolerations: []
-
-affinity: {}
-
-config:
-  LOG_LEVEL: info
-  DATABASE_URL: ""
-
-# Development overrides
-dev:
-  replicaCount: 1
-  image:
-    tag: "dev-latest"
-  ingress:
-    enabled: false
-  resources:
-    limits:
-      memory: 256Mi
-  config:
-    LOG_LEVEL: debug
-
-# Production overrides
-prod:
-  replicaCount: 3
-  image:
-    tag: "1.0.0"
-  autoscaling:
-    enabled: true
-  resources:
-    limits:
-      cpu: 2000m
-      memory: 2Gi
-  config:
-    DATABASE_URL: "postgresql://prod-db:5432/myapp"
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.3 Named Templates (_helpers.tpl)
 
 ```yaml
-# templates/_helpers.tpl
-{{/*
-Expand the name of the chart.
-*/}}
-{{- define "myapp.name" -}}
-{{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
-{{- end }}
-
-{{/*
-Create a default fully qualified app name.
-*/}}
-{{- define "myapp.fullname" -}}
-{{- $name := default .Chart.Name .Values.nameOverride }}
-{{- if .Values.fullnameOverride }}
-{{- .Values.fullnameOverride | trunc 63 | trimSuffix "-" }}
-{{- else }}
-{{- printf "%s-%s" .Release.Name $name | trunc 63 | trimSuffix "-" }}
-{{- end }}
-{{- end }}
-
-{{/*
-Common labels.
-*/}}
-{{- define "myapp.labels" -}}
-helm.sh/chart: {{ include "myapp.name" . }}
-{{ include "myapp.selectorLabels" . }}
-{{- if .Chart.AppVersion }}
-app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
-{{- end }}
-app.kubernetes.io/managed-by: {{ .Release.Service }}
-{{- end }}
-
-{{/*
-Selector labels.
-*/}}
-{{- define "myapp.selectorLabels" -}}
-app.kubernetes.io/name: {{ include "myapp.name" . }}
-app.kubernetes.io/instance: {{ .Release.Name }}
-{{- end }}
-
-{{/*
-Create the name of the service account to use.
-*/}}
-{{- define "myapp.serviceAccountName" -}}
-{{- if .Values.serviceAccount.create }}
-{{- default (include "myapp.fullname" .) .Values.serviceAccount.name }}
-{{- else }}
-{{- default "default" .Values.serviceAccount.name }}
-{{- end }}
-{{- end }}
+[Code block moved to code-block-2.md]
 ```
 
 ### 7.4 Deployment Template
 
 ```yaml
-# templates/deployment.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: {{ include "myapp.fullname" . }}
-  labels:
-    {{- include "myapp.labels" . | nindent 4 }}
-spec:
-  replicas: {{ .Values.replicaCount }}
-  selector:
-    matchLabels:
-      {{- include "myapp.selectorLabels" . | nindent 6 }}
-  template:
-    metadata:
-      labels:
-        {{- include "myapp.selectorLabels" . | nindent 8 }}
-      annotations:
-        checksum/config: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
-    spec:
-      serviceAccountName: {{ include "myapp.serviceAccountName" . }}
-      securityContext:
-        {{- toYaml .Values.podSecurityContext | nindent 8 }}
-      containers:
-        - name: {{ .Chart.Name }}
-          securityContext:
-            {{- toYaml .Values.securityContext | nindent 12 }}
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
-          ports:
-            - name: http
-              containerPort: {{ .Values.service.port }}
-              protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /health
-              port: http
-          readinessProbe:
-            httpGet:
-              path: /ready
-              port: http
-          resources:
-            {{- toYaml .Values.resources | nindent 12 }}
-          env:
-            {{- range $key, $value := .Values.config }}
-            - name: {{ $key }}
-              value: {{ $value | quote }}
-            {{- end }}
-          volumeMounts:
-            - name: config
-              mountPath: /app/config
-              readOnly: true
-      volumes:
-        - name: config
-          configMap:
-            name: {{ include "myapp.fullname" . }}-config
+[Code block moved to code-block-3.md]
 ```
 
 ### 7.5 Helm Hook (Database Migration)
 
 ```yaml
-# templates/job-migrate.yaml
-apiVersion: batch/v1
-kind: Job
-metadata:
-  name: {{ include "myapp.fullname" . }}-migrate
-  labels:
-    {{- include "myapp.labels" . | nindent 4 }}
-  annotations:
-    # This is what defines this resource as a hook
-    "helm.sh/hook": pre-upgrade,pre-rollback
-    "helm.sh/hook-weight": "-1"  # Run before other hooks
-    "helm.sh/hook-delete-policy": before-hook-creation,hook-succeeded
-spec:
-  template:
-    spec:
-      restartPolicy: Never
-      containers:
-        - name: migrate
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-          command: ["python", "manage.py", "migrate"]
-          env:
-            {{- range $key, $value := .Values.config }}
-            - name: {{ $key }}
-              value: {{ $value | quote }}
-            {{- end }}
+[Code block moved to code-block-1.md]
 ```
 
 ---

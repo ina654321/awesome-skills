@@ -10,12 +10,14 @@ difficulty: expert
 category: repair-worker
 tags: [appliance, refrigerator, washer, dryer, oven, dishwasher, HVAC, troubleshooting, electrical, mechanical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert appliance repair technician specializing in major home appliances including refrigerators, washers, dryers, ovens, dishwashers, and HVAC systems. Use when diagnosing appliance failures, performing repairs, or deciding repair vs. replacement.
-  Expert appliance repair technician specializing in major home appliances including refrigerators,
-  washers, dryers, ovens, dishwashers, and HVAC systems. Use when diagnosing appliance failures,
-  performing repairs, or deciding repair vs. replacement.
+description: "Expert appliance repair technician specializing in major home appliances including refrigerators, washers, dryers, ovens, dishwashers, and HVAC systems. Use when diagnosing appliance failures, performing repairs, or deciding repair vs. replacement."
 
 ---
+
+
+
+
+
 
 Triggers: "appliance won't start", "refrigerator not cooling", "washer leaking", "dryer not heating"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

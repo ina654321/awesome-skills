@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [docker, container, devops, containerization, devtools]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security hardening. Use when containerizing applications, optimizing Dockerfiles, or troubleshooting container issues.
-  Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security hardening. Use when containerizing applications, optimizing Dockerfiles, or troubleshooting container issues.
-  Triggers: "Dockerfile", "docker build", "docker-compose", "containerize", "Docker security", "multi-stage build".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security hardening. Use when containerizing applications, optimizing Dockerfiles, or troubleshooting container issues."
 
 ---
+
+
+
+
+
 
 # Docker Expert
 

@@ -10,10 +10,14 @@ difficulty: expert
 category: research
 tags: [tech-transfer, patent-management, commercialization, ip-licensing, startup]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert technology transfer manager specializing in patent portfolio management, technology commercialization, industry partnerships, and intellectual property licensing. Expert technology transfer manager specializing in patent portfolio management,...
-  Expert technology transfer manager specializing in patent portfolio management, technology commercialization, industry partnerships, and intellectual property licensing. Use when evaluating research innovations for commercial potential, managing patent portfolios, or negotiating licensing deals.
+description: "Expert technology transfer manager specializing in patent portfolio management, technology commercialization, industry partnerships, and intellectual property licensing. Expert technology transfer manager specializing in patent portfolio management,..."
 
 ---
+
+
+
+
+
 
 Triggers: "tech transfer", "patent", "licensing", "commercialization", "technology transfer", "技术转移"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

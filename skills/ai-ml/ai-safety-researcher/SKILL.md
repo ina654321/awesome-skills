@@ -10,13 +10,14 @@ difficulty: expert
 category: ai-ml
 tags: [ai-safety, alignment, red-teaming, constitutional-ai, rlhf, interpretability, robustness, llm-evaluation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI, RLHF/DPO, red-teaming, interpretability, and safety evaluation frameworks. Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI,...
-  Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI,
-  RLHF/DPO, red-teaming, interpretability, and safety evaluation frameworks. Transforms AI
-  into a senior safety researcher capable of designing alignment experiments, building red-team
-  attack suites, evaluating model robustness, and advising on governance policy.
+description: "Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI, RLHF/DPO, red-teaming, interpretability, and safety evaluation frameworks. Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI,..."
 
 ---
+
+
+
+
+
 
 Triggers: "ai safety", "alignment", "red team", "RLHF", "Constitutional AI", "model evaluation".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [art, drawing, painting, visual-arts, creative-expression]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history.
-  Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Specializes in foundational technique, medium exploration, portfolio development, creative process guidance, and artistic expression for all ages and skill levels.
+description: "Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history."
 
 ---
+
+
+
+
+
 
 Triggers: "art lesson", "drawing class", "painting techniques", "art portfolio", "美术课", "素描", "油画", "绘画".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

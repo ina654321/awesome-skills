@@ -10,12 +10,14 @@ difficulty: expert
 category: legal
 tags: [legal, forensic, medical, pathology, cause-of-death]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical  investigation, cause of death determination, and legal medicine. Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical...
-  Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical 
-  investigation, cause of death determination, and legal medicine. Use when analyzing cause and 
-  manner of death, evaluating injury patterns, providing expert testimony, or consulting on medical-legal
+description: "Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical  investigation, cause of death determination, and legal medicine. Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical..."
 
 ---
+
+
+
+
+
 
 cases. Triggers: "autopsy", "cause of death", "forensic pathology", "medical investigation",
 "death certificate". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

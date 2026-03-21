@@ -1,4 +1,5 @@
 ---
+
 name: mysql-expert
 display_name: MySQL Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [mysql, database, sql, innodb, replication]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  MySQL专家：索引优化、InnoDB、复制配置、性能调优。Use when managing MySQL databases, optimizing queries, or setting up replication.
-  Triggers: "MySQL", "索引", "InnoDB", "主从复制", "性能优化".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "MySQL专家：索引优化、InnoDB、复制配置、性能调优。Use when managing MySQL databases, optimizing queries, or setting up replication. Triggers: 'MySQL', '索引', 'InnoDB', '主从复制', '性能优化'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # MySQL Expert
 
@@ -51,32 +55,7 @@ Before designing MySQL solutions:
 ### 1.3 InnoDB Deep Dive
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              INNODB ARCHITECTURE                         │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  Row Storage                                            │
-│  ├── Clustered primary key index                       │
-│  ├── Secondary indexes point to PK                    │
-│  ├── Variable-length columns stored off-page           │
-│  └── COMPACT vs DYNAMIC row format                     │
-│                                                         │
-│  Tablespaces                                            │
-│  ├── System tablespace (ibdata1)                       │
-│  ├── File-per-table (default in 5.6+)                  │
-│  ├── General tablespace                                │
-│  └── Undo tablespace                                   │
-│                                                         │
-│  Buffer Pool                                            │
-│  ├── LRU eviction policy                               │
-│  ├── Change buffer for secondary indexes              │
-│  └── Adaptive hash index                               │
-│                                                         │
-│  Transaction Log                                        │
-│  ├── Redo log (ib_logfile0/1)                         │
-│  └── Undo segments                                     │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ---
@@ -107,67 +86,13 @@ Before designing MySQL solutions:
 ### 4.1 Index Type Selection
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              INDEX TYPE SELECTION                        │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  B-TREE (default)                                       │
-│  ├── Range queries (=, <, >, BETWEEN)                  │
-│  ├── Prefix matching (LIKE 'abc%')                    │
-│  └── Sorted result sets                                │
-│                                                         │
-│  HASH                                                    │
-│  ├── Exact match (=, IN())                             │
-│  ├── Memory engine only                                │
-│  └── No range queries                                  │
-│                                                         │
-│  FULLTEXT                                               │
-│  ├── Text search (MATCH AGAINST)                      │
-│  ├── InnoDB/MyISAM support                             │
-│  └── Natural language or Boolean mode                  │
-│                                                         │
-│  SPATIAL (R-tree)                                      │
-│  ├── Geospatial queries (GIS)                         │
-│  ├── InnoDB 5.7+ support                               │
-│  └── ST_ functions                                     │
-│                                                         │
-│  COMPOSITE                                              │
-│  ├── Multiple columns                                  │
-│  ├── Column order matters!                             │
-│  └── Equality first, range last                        │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### 4.2 Data Type Selection
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│              DATA TYPE GUIDELINES                       │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  Integers                                              │
-│  ├── TINYINT (1 byte) - 127 / 255 unsigned             │
-│  ├── SMALLINT (2 bytes) - 32K / 65K                    │
-│  ├── INT (4 bytes) - 2B / 4B                           │
-│  └── BIGINT (8 bytes) - huge                          │
-│                                                         │
-│  Strings                                               │
-│  ├── CHAR - fixed length, pad trimmed                  │
-│  ├── VARCHAR - variable, 1-2 bytes length prefix     │
-│  ├── TEXT - no max, no full index                     │
-│  └── ENUM - stored as integer                         │
-│                                                         │
-│  Dates                                                  │
-│  ├── DATETIME - fixed 8 bytes, no timezone             │
-│  ├── TIMESTAMP - 4 bytes, UTC, auto-update            │
-│  └── DATE - 3 bytes for dates only                    │
-│                                                         │
-│  Decimals                                              │
-│  ├── DECIMAL - exact precision math                    │
-│  └── DOUBLE - approximate, faster                     │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
+[Code block moved to code-block-2.md]
 ```
 
 ---
@@ -249,68 +174,13 @@ ORDER BY o.created_at DESC;
 ### 7.3 Replication Configuration
 
 ```sql
--- Primary configuration
-[mysqld]
-server-id = 1
-log-bin = mysql-bin
-binlog_format = ROW
-binlog_row_image = FULL
-gtid_mode = ON
-enforce_gtid_consistency = ON
-sync_binlog = 1
-innodb_flush_log_at_trx_commit = 1
-
--- Replica configuration
-[mysqld]
-server-id = 2
-relay-log = relay-bin
-read_only = ON
-super_read_only = ON
-log_replica_updates = ON
-replica_parallel_workers = 4
-replica_parallel_type = LOGICAL_CLOCK
-
--- GTID-based replication
-CHANGE REPLICATION SOURCE TO
-    SOURCE_HOST = 'primary-host',
-    SOURCE_USER = 'replication_user',
-    SOURCE_PASSWORD = 'password',
-    SOURCE_AUTO_POSITION = 1;
+[Code block moved to code-block-3.md]
 ```
 
 ### 7.4 Performance Tuning
 
 ```sql
--- Key InnoDB settings for high performance
-SET GLOBAL innodb_buffer_pool_size = 4294967296; -- 4GB
-SET GLOBAL innodb_log_file_size = 1073741824; -- 1GB
-SET GLOBAL innodb_flush_log_at_trx_commit = 1;
-SET GLOBAL innodb_flush_method = O_DIRECT;
-SET GLOBAL long_query_time = 1;
-
--- Analyze table for accurate statistics
-ANALYZE TABLE orders;
-
--- Check index usage
-SELECT
-    OBJECT_SCHEMA,
-    OBJECT_NAME,
-    INDEX_NAME,
-    TABLE_SCANS,
-    ROW_READS
-FROM performance_schema.table_io_waits_summary_by_index_usage
-WHERE OBJECT_SCHEMA = 'ecommerce'
-ORDER BY TABLE_SCANS DESC;
-
--- Identify unused indexes
-SELECT
-    OBJECT_SCHEMA,
-    OBJECT_NAME,
-    INDEX_NAME
-FROM performance_schema.table_io_waits_summary_by_index_usage
-WHERE INDEX_NAME IS NOT NULL
-  AND COUNT_STAR = 0
-  AND OBJECT_SCHEMA = 'ecommerce';
+[Code block moved to code-block-2.md]
 ```
 
 ---
@@ -547,7 +417,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 16. Metadata
+## § 16 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 

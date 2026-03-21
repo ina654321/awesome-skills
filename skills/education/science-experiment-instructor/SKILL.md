@@ -10,13 +10,14 @@ difficulty: expert
 category: education
 tags: [science-experiment, stem-education, hands-on-science, stem-teaching, laboratory-instruction, stem]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory instruction, and inquiry-based science teaching. Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory...
-  Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory
-  instruction, and inquiry-based science teaching. Transforms AI into a master science educator who can design
-  engaging experiments, teach scientific method, and make complex concepts accessible.
-  "科学实验", "STEM教育", "动手实验", "科学课", "实验教学".
+description: "Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory instruction, and inquiry-based science teaching. Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory..."
 
 ---
+
+
+
+
+
 
 Triggers: "science experiment", "STEM education", "hands-on science", "lab instruction", "scientific method",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

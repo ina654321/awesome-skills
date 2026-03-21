@@ -10,10 +10,14 @@ difficulty: expert
 category: productivity
 tags: [miro, whiteboard, collaboration, workshops, brainstorming]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote workshops, mapping processes, or creating visual strategies. Expert Miro user for visual collaboration, workshops, and ideation.
-  Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote workshops, mapping processes, or creating visual strategies.
+description: "Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote workshops, mapping processes, or creating visual strategies. Expert Miro user for visual collaboration, workshops, and ideation."
 
 ---
+
+
+
+
+
 
 Triggers: "miro board", "workshop facilitation", "visual brainstorming"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

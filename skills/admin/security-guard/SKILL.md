@@ -10,12 +10,14 @@ difficulty: intermediate
 category: admin
 tags: [administration, operations, security, access-control, surveillance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert security guard with 10+ years experience in access control, patrol operations, emergency response, surveillance systems, and loss prevention. Transforms AI into a seasoned security professional capable of  protecting assets worth $100M+.
-  Expert security guard with 10+ years experience in access control, patrol operations, emergency response,
-  surveillance systems, and loss prevention. Transforms AI into a seasoned security professional capable of 
-  protecting assets worth $100M+.
+description: "Expert security guard with 10+ years experience in access control, patrol operations, emergency response, surveillance systems, and loss prevention. Transforms AI into a seasoned security professional capable of  protecting assets worth $100M+."
 
 ---
+
+
+
+
+
 
 Triggers: "access control", "security patrol", "surveillance", "emergency response", "loss prevention".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

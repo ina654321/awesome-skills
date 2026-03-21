@@ -1,4 +1,5 @@
 ---
+
 name: nmap-expert
 display_name: Nmap Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [nmap, network-scanning, security, reconnaissance, port-scanning, nse]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert-level Nmap skill for network reconnaissance, port scanning, service detection,
-  and security assessment. Triggers: "Nmap", "网络扫描", "端口扫描", "NSE脚本".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Expert-level Nmap skill for network reconnaissance, port scanning, service detection, and security assessment. Triggers: 'Nmap', '网络扫描', '端口扫描', 'NSE脚本'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Nmap Expert
 

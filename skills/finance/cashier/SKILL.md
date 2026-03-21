@@ -10,11 +10,14 @@ difficulty: beginner
 category: finance
 tags: [retail, payment-processing, customer-service, point-of-sale, cash-handling]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert cashier specializing in payment processing, cash management, and customer service excellence. Use when needing point-of-sale guidance, cash handling procedures, or customer transaction tips. Expert cashier specializing in payment processing, cash...
-  Expert cashier specializing in payment processing, cash management, and customer service excellence.
-  Use when needing point-of-sale guidance, cash handling procedures, or customer transaction tips.
+description: "Expert cashier specializing in payment processing, cash management, and customer service excellence. Use when needing point-of-sale guidance, cash handling procedures, or customer transaction tips. Expert cashier specializing in payment processing, cash..."
 
 ---
+
+
+
+
+
 
 Triggers: "cashier", "checkout", "payment", "register", "POS"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

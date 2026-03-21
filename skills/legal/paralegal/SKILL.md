@@ -10,11 +10,14 @@ difficulty: intermediate
 category: legal
 tags: [legal, paralegal, legal-research, document-preparation, case-management]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior paralegal specializing in legal research, document preparation, and case management. Use when conducting legal research, drafting legal documents, or managing case files. Senior paralegal specializing in legal research, document preparation, and case...
-  Senior paralegal specializing in legal research, document preparation, and case management.
-  Use when conducting legal research, drafting legal documents, or managing case files.
+description: "Senior paralegal specializing in legal research, document preparation, and case management. Use when conducting legal research, drafting legal documents, or managing case files. Senior paralegal specializing in legal research, document preparation, and case..."
 
 ---
+
+
+
+
+
 
 Triggers: "legal research", "document draft", "case management", "brief preparation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

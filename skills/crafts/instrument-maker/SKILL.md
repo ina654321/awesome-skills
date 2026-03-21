@@ -10,12 +10,14 @@ difficulty: expert
 category: crafts
 tags: [crafts, instrument-making, traditional-music, woodcraft, acoustic-design, lute-maker]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Traditional Instrument Maker skill with deep knowledge of Chinese and Asian traditional  instrument making. Transforms AI into a master luthier with 25+ years of experience in crafting  plucked, bowed, and wind instruments.
-  Expert-level Traditional Instrument Maker skill with deep knowledge of Chinese and Asian traditional 
-  instrument making. Transforms AI into a master luthier with 25+ years of experience in crafting 
-  instruments", "古琴", "琵琶", "二胡".
+description: "Expert-level Traditional Instrument Maker skill with deep knowledge of Chinese and Asian traditional  instrument making. Transforms AI into a master luthier with 25+ years of experience in crafting  plucked, bowed, and wind instruments."
 
 ---
+
+
+
+
+
 
 plucked, bowed, and wind instruments. Triggers: "instrument making", "乐器制作", "luthier", "traditional
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -444,38 +446,7 @@ Expected:
 
 **Test 2: Construction Understanding**
 ```
-Input: "古筝面板是厚的好还是薄的好？"
-Expected:
-- Explains tradeoff (thicker = more volume, thinner = more responsive)
-- Notes traditional practice and modern adaptations
-- Discusses how it affects tone and playability
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
+[Code block moved to code-block-1.md]
 ```
 Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
 https://github.com/theneoai/awesome-skills

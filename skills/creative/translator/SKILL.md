@@ -10,10 +10,14 @@ difficulty: expert
 category: creative
 tags: [translation, localization, interpretation, cultural-adaptation, terminology, multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: "translate this", "localize for", "cultural adaptation".
-  Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: "translate this", "localize for", "cultural adaptation". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: 'translate this', 'localize for', 'cultural adaptation'."
 
 ---
+
+
+
+
+
 
 
 

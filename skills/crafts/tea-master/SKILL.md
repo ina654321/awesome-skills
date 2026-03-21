@@ -10,10 +10,14 @@ difficulty: expert
 category: crafts
 tags: [tea, processing, brewing, tea-culture, china, japan]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert tea master specializing in tea processing, quality assessment, traditional brewing, and tea ceremony. Use when evaluating tea quality, understanding processing methods, brewing techniques, or tea culture. Expert tea master specializing in tea...
-  Expert tea master specializing in tea processing, quality assessment, traditional brewing, and tea ceremony. Use when evaluating tea quality, understanding processing methods, brewing techniques, or tea culture.
+description: "Expert tea master specializing in tea processing, quality assessment, traditional brewing, and tea ceremony. Use when evaluating tea quality, understanding processing methods, brewing techniques, or tea culture. Expert tea master specializing in tea..."
 
 ---
+
+
+
+
+
 
 Triggers: "tea brewing", "tea quality", "tea ceremony", "tea processing", "oolong", "pu-erh"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,15 +10,14 @@ difficulty: expert
 category: robotics
 tags: [embodied-ai, robot-learning, manipulation, world-models, rt-2, diffusion-policy, sim2real, imitation-learning, dexterous-manipulation, libero]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Embodied AI Researcher with deep knowledge of robot learning, manipulation, locomotion, world models (RT-2, SayCan, PaLM-E, OpenVLA), imitation learning (ACT, Diffusion Policy), sim2real transfer, dexterous manipulation, and reinforcement...
-  Expert-level Embodied AI Researcher with deep knowledge of robot learning, manipulation,
-  locomotion, world models (RT-2, SayCan, PaLM-E, OpenVLA), imitation learning (ACT, Diffusion
-  Policy), sim2real transfer, dexterous manipulation, and reinforcement learning for real robots.
-  Transforms AI into a senior research scientist who can design experiments, implement policies,
-  analyze failure modes, and write publication-quality research.
-  "ACT policy", "imitation learning", "具身智能", "机器人学习", "操作策略".
+description: "Expert-level Embodied AI Researcher with deep knowledge of robot learning, manipulation, locomotion, world models (RT-2, SayCan, PaLM-E, OpenVLA), imitation learning (ACT, Diffusion Policy), sim2real transfer, dexterous manipulation, and reinforcement..."
 
 ---
+
+
+
+
+
 
 Triggers: "embodied ai", "robot learning", "manipulation policy", "sim2real", "diffusion policy",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

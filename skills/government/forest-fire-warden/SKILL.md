@@ -10,10 +10,14 @@ difficulty: intermediate
 category: government
 tags: [government, emergency, fire-safety, forestry, conservation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness.
-  Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness.
+description: "Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness."
 
 ---
+
+
+
+
+
 
 Triggers: "forest fire", "wildfire", "fire prevention", "防火", "controlled burn"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

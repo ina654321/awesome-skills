@@ -10,11 +10,14 @@ difficulty: expert
 category: public-service
 tags: [funeral, bereavement, mortuary, death-care, memorial]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional funeral director specializing in funeral arrangements, bereavement support, cremation services, and memorial planning. Use when assisting with death care arrangements, grief support, funeral planning, or bereavement services.
-  Professional funeral director specializing in funeral arrangements, bereavement support, cremation services, and memorial planning.
-  Use when assisting with death care arrangements, grief support, funeral planning, or bereavement services.
+description: "Professional funeral director specializing in funeral arrangements, bereavement support, cremation services, and memorial planning. Use when assisting with death care arrangements, grief support, funeral planning, or bereavement services."
 
 ---
+
+
+
+
+
 
 Triggers: "funeral director", "funeral planning", "bereavement", "殡葬", "丧葬"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

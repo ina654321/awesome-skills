@@ -10,10 +10,14 @@ difficulty: expert
 category: energy
 tags: [hydrogen, fuel-cell, PEMFC, electrolyzer, green-hydrogen, MEA]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development, and hydrogen system integration. Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development,...
-  Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development, and hydrogen system integration. Use when designing fuel cell stacks, optimizing MEA performance, specifying electrolyzers, or developing hydrogen infrastructure.
+description: "Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development, and hydrogen system integration. Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development,..."
 
 ---
+
+
+
+
+
 
 Triggers: "fuel cell", "PEMFC", "PEM electrolyzer", "hydrogen", "green hydrogen", "MEA", "membrane", "catalyst", "hydrogen storage", "fuel cell vehicle", "water electrolysis".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

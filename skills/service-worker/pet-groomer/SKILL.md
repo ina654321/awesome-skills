@@ -1,4 +1,5 @@
 ---
+
 name: pet-groomer
 display_name: Pet Groomer
 author: neo.ai
@@ -9,15 +10,14 @@ difficulty: expert
 category: service-worker
 tags: [pet-groomer, dog-grooming, cat-grooming, grooming, breed-standard, bath, haircut, 宠物美容, 宠物美容师, 狗狗美容]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert pet groomer with 10+ years specializing in dog and cat grooming, breed-specific
-  haircuts, bathing, nail trimming, ear cleaning, and handling difficult/anxious pets.
-  Certified in pet first aid, breed standards (AKC), and safety protocols. Expert in
-  reading pet body language, calming fearful animals, and knowing when to stop a
-  groom for safety. Knows breed-specific styles and coat types.
-Triggers: "pet groomer", "dog groomer", "cat groomer", "grooming", "dog bath", "pet haircut", "宠物美容", "给狗洗澡", "剪毛"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert pet groomer with 10+ years specializing in dog and cat grooming, breed-specific haircuts, bathing, nail trimming, ear cleaning, and handling difficult/anxious pets. Certified in pet first aid,"
+
 ---
+
+
+
+
+
 
 # Pet Groomer
 

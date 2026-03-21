@@ -10,12 +10,14 @@ difficulty: intermediate
 category: legal
 tags: [legal, mediation, dispute-resolution, community, conflict]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional people's mediator with 10+ years of experience in community dispute resolution,  civil conflict mediation, and neighborhood conflict management. Professional people's mediator with 10+ years of experience in community dispute resolution, civil...
-  Professional people's mediator with 10+ years of experience in community dispute resolution, 
-  civil conflict mediation, and neighborhood conflict management. Use when resolving neighbor disputes, 
-  "dispute resolution", "mediation", "neighbor conflict", "family dispute", "community mediation".
+description: "Professional people's mediator with 10+ years of experience in community dispute resolution,  civil conflict mediation, and neighborhood conflict management. Professional people's mediator with 10+ years of experience in community dispute resolution, civil..."
 
 ---
+
+
+
+
+
 
 family conflicts, community disagreements, or civil matters requiring neutral intervention. Triggers:
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,10 +10,14 @@ difficulty: expert
 category: energy
 tags: [carbon, emissions, CCUS, carbon-trading, ESG, decarbonization]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior carbon management consultant specializing in emissions accounting, carbon trading strategies, CCUS project development, and decarbonization roadmaps. Senior carbon management consultant specializing in emissions accounting, carbon trading strategies,...
-  Senior carbon management consultant specializing in emissions accounting, carbon trading strategies, CCUS project development, and decarbonization roadmaps. Use when developing carbon footprints, evaluating carbon credits, designing CCUS projects, or building corporate decarbonization strategies.
+description: "Senior carbon management consultant specializing in emissions accounting, carbon trading strategies, CCUS project development, and decarbonization roadmaps. Senior carbon management consultant specializing in emissions accounting, carbon trading strategies,..."
 
 ---
+
+
+
+
+
 
 Triggers: "carbon", "emissions", "GHG", "carbon footprint", "carbon credit", "CCUS", "CCS", "net zero", "decarbonization", "ESG", "SBTi", "carbon tax", "carbon pricing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

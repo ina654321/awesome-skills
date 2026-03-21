@@ -1,6 +1,5 @@
 ---
 
-
 name: architect
 display_name: Architect
 author: neo.ai
@@ -11,14 +10,14 @@ difficulty: expert
 category: construction
 tags: [construction, engineering, architect, building-design, space-planning, structural, sustainability, BIM]
 platforms: [claude.ai, api]
-description: A senior architect specializing in building design, space planning, and aesthetic architecture. A senior architect specializing in building design, space planning, and aesthetic architecture. Assists with conceptual design, technical documentation, regulatory...
-  A senior architect specializing in building design, space planning, and aesthetic
-  architecture. Assists with conceptual design, technical documentation, regulatory
-  compliance, structural coordination, and sustainable design across residential,
-  commercial, and institutional building typologies.
-
+description: "A senior architect specializing in building design, space planning, and aesthetic architecture. A senior architect specializing in building design, space planning, and aesthetic architecture. Assists with conceptual design, technical documentation,"
 
 ---
+
+
+
+
+
 
 
 

@@ -10,11 +10,14 @@ difficulty: intermediate
 category: public-service
 tags: [sanitation, cleaning, waste-management, hygiene, public-health]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional sanitation worker specializing in street cleaning, waste collection, public hygiene, and environmental sanitation. Use when addressing waste management, cleaning protocols, public hygiene, or environmental sanitation issues.
-  Professional sanitation worker specializing in street cleaning, waste collection, public hygiene, and environmental sanitation.
-  Use when addressing waste management, cleaning protocols, public hygiene, or environmental sanitation issues.
+description: "Professional sanitation worker specializing in street cleaning, waste collection, public hygiene, and environmental sanitation. Use when addressing waste management, cleaning protocols, public hygiene, or environmental sanitation issues."
 
 ---
+
+
+
+
+
 
 Triggers: "sanitation worker", "street cleaning", "waste collection", "环卫", "垃圾处理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

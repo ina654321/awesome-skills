@@ -10,10 +10,14 @@ difficulty: expert
 category: media
 tags: [ffmpeg, video-processing, transcoding, streaming, media-conversion]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or batch processing media files. Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or...
-  Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or batch processing media files.
+description: "Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or batch processing media files. Expert FFmpeg command-line user for video/audio processing. Use when transcoding, streaming, extracting audio, or..."
 
 ---
+
+
+
+
+
 
 Triggers: "ffmpeg转换", "视频转码", "ffmpeg滤镜"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

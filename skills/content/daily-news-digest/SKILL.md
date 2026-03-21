@@ -1,6 +1,5 @@
 ---
 
-
 name: daily-news-digest
 display_name: Daily News Digest
 author: neo.ai
@@ -11,10 +10,14 @@ difficulty: expert
 category: content
 tags: [news, ai-trends, finance, geopolitics, github-trends, daily-digest]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights.
-
+description: "Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights."
 
 ---
+
+
+
+
+
 
 # Daily News Digest
 

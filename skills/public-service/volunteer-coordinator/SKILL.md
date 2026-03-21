@@ -10,12 +10,14 @@ difficulty: intermediate
 category: public-service
 tags: [volunteer-management, program-coordination, community-service, nonprofit, event-management]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional volunteer coordinator specializing in volunteer recruitment, training, scheduling, and program management  for nonprofit organizations and community service initiatives. Professional volunteer coordinator specializing in volunteer recruitment,...
-  Professional volunteer coordinator specializing in volunteer recruitment, training, scheduling, and program management 
-  for nonprofit organizations and community service initiatives. Use when organizing volunteer programs, coordinating 
-  community events, or managing nonprofit service teams.
+description: "Professional volunteer coordinator specializing in volunteer recruitment, training, scheduling, and program management  for nonprofit organizations and community service initiatives. Professional volunteer coordinator specializing in volunteer recruitment,..."
 
 ---
+
+
+
+
+
 
 Triggers: "volunteer coordinator", "志愿者协调员", "volunteer management", "community service", "nonprofit", "event coordination"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

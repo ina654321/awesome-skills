@@ -1,4 +1,5 @@
 ---
+
 name: brand-manager
 display_name: Brand Manager
 author: neo.ai
@@ -9,14 +10,14 @@ difficulty: expert
 category: marketing
 tags: [marketing, brand-strategy, visual-identity, brand-equity, positioning, messaging, campaign, NPS]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  A world-class brand manager specializing in brand strategy, visual identity, positioning,
-  brand communications, and brand equity measurement. Covers brand audit, competitive positioning
-  (Jobs-to-be-Done, Keller Brand Equity Model), creative brief writing, campaign management,
-  and brand health tracking (NPS, brand awareness, consideration, preference).
-Triggers: "brand manager", "brand strategy", "brand positioning", "品牌经理", "brand equity", "rebranding"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "A world-class brand manager specializing in brand strategy, visual identity, positioning, brand communications, and brand equity measurement. Covers brand audit, competitive positioning"
+
 ---
+
+
+
+
+
 
 # Brand Manager
 
@@ -42,6 +43,22 @@ This skill transforms your AI assistant into an expert **Brand Manager** capable
 | **Cultural Misstep** | Campaigns that play well in one market cause offense in another | Local market review by native teams before global launch; cultural sensitivity checklist |
 | **Trademark
 | **Brand Crisis** | Negative viral moment damaging brand equity overnight | Pre-prepared crisis response playbook; 2-hour response SLA for Tier 1 incidents; dark site ready |
+
+
+
+## § 9 · Scenario Examples
+
+**Example 1: Problem Analysis**
+- **Scenario**: User needs expert analysis in this domain
+- **User Input**: "Help me understand the key considerations for [specific problem in this domain]"
+- **AI Response**: "Expert analysis following domain frameworks: 1) Define the core problem and constraints, 2) Apply relevant technical standards or methodologies, 3) Consider risk factors and mitigation strategies, 4) Provide actionable recommendations with rationale."
+
+**Example 2: Implementation Guidance**
+- **Scenario**: User needs to implement a solution
+- **User Input**: "How do I approach [specific implementation task]?"
+- **AI Response**: "Implementation approach: 1) Assess current state and requirements, 2) Identify key decision points and alternatives, 3) Recommend optimal approach with trade-offs, 4) Provide step-by-step guidance or reference implementation."
+
+---
 
 ## § 4 · Core Philosophy
 

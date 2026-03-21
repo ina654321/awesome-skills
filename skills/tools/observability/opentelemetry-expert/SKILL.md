@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [opentelemetry, observability, tracing, metrics, logs, otel, opentelemetry-collector, instrumentation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: "OpenTelemetry", "OTel", "可观测性", "分布式追踪", "OTel Collector", "instrumentation".
-  OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry.
-  Triggers: "OpenTelemetry", "OTel", "可观测性", "分布式追踪", "OTel Collector", "instrumentation".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: 'OpenTelemetry', 'OTel', '可观测性', '分布式追踪', 'OTel Collector', 'instrumentation'."
 
 ---
+
+
+
+
+
 
 # OpenTelemetry Expert
 
@@ -132,137 +134,13 @@ This skill provides comprehensive guidance for OpenTelemetry implementation:
 ### 4.1 OpenTelemetry Signals Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    OpenTelemetry Signals                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  ┌─────────────────────────────────────────────────────────────┐ │
-│  │                    Application Code                           │ │
-│  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐          │ │
-│  │  │   Traces    │  │   Metrics   │  │    Logs     │          │ │
-│  │  │  (Spans)    │  │  (T&M+G+H) │  │ (Structured)│          │ │
-│  │  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘          │ │
-│  └─────────┼────────────────┼────────────────┼──────────────────┘ │
-│            │                │                │                     │
-│            ▼                ▼                ▼                     │
-│  ┌─────────────────────────────────────────────────────────────┐ │
-│  │              OpenTelemetry SDK (per language)                │ │
-│  │  Auto-instrumentation + Manual API                           │ │
-│  └──────────────────────────┬──────────────────────────────────┘ │
-│                             │                                      │
-│            ┌────────────────┴────────────────┐                      │
-│            ▼                               ▼                      │
-│  ┌─────────────────┐             ┌─────────────────┐               │
-│  │  Direct Export   │             │  OTel Collector │               │
-│  │  (OTLP/gRPC)    │             │  (Recommended)  │               │
-│  └────────┬────────┘             └────────┬────────┘               │
-│           │                              │                          │
-│           ▼                              ▼                          │
-│  ┌─────────────────────────────────────────────────────────────┐   │
-│  │                    Backends                                   │   │
-│  │  Jaeger · Tempo · Honeycomb · Datadog · New Relic · AWS X-Ray│   │
-│  └─────────────────────────────────────────────────────────────┘   │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### 4.2 Collector Pipeline Architecture
 
 ```yaml
-# Complete OTel Collector Pipeline
-receivers:
-  otlp:
-    protocols:
-      grpc:
-        endpoint: 0.0.0.0:4317
-      http:
-        endpoint: 0.0.0.0:4318
-
-  prometheus:
-    config:
-      scrape_configs:
-        - job_name: 'app-metrics'
-          static_configs:
-            - targets: ['app:8889']
-
-  jaeger:
-    protocols:
-      thrift_http:
-        endpoint: 0.0.0.0:14268
-
-processors:
-  batch:
-    timeout: 5s
-    send_batch_size: 1024
-
-  memory_limiter:
-    check_interval: 1s
-    limit_mib: 512
-    spike_limit_mib: 128
-
-  k8sattributes:
-    passthrough: false
-    extract:
-      metadata:
-        - k8s.namespace.name
-        - k8s.deployment.name
-        - k8s.pod.name
-        - k8s.container.name
-
-  resource:
-    attributes:
-      - action: upsert
-        key: deployment.environment
-        value: production
-
-  filter/traces:
-    traces:
-      exclude:
-        match_type: strict
-        resource_attributes:
-          - key: k8s.container.name
-            value: 'sidecar-proxy'
-
-exporters:
-  otlp/tempo:
-    endpoint: tempo:4317
-    tls:
-      insecure: false
-      cert_file: /certs/client.crt
-      key_file: /certs/client.key
-
-  prometheus/remotewrite:
-    endpoint: prometheus:9090/api/v1/write
-    external_labels:
-      cluster: prod
-      environment: ${DEPLOY_ENV}
-
-  logging:
-    verbosity: detailed
-
-extensions:
-  health_check:
-    endpoint: 0.0.0.0:13133
-  zpages:
-    endpoint: 0.0.0.0:55679
-  pprof:
-    endpoint: 0.0.0.0:1777
-
-service:
-  extensions: [health_check, zpages, pprof]
-  pipelines:
-    traces:
-      receivers: [otlp, jaeger]
-      processors: [memory_limiter, batch, k8sattributes, resource, filter/traces]
-      exporters: [otlp/tempo, logging]
-    metrics:
-      receivers: [otlp, prometheus]
-      processors: [memory_limiter, batch, resource]
-      exporters: [prometheus/remotewrite, logging]
-    logs:
-      receivers: [otlp]
-      processors: [memory_limiter, batch, resource]
-      exporters: [otlp/tempo, logging]
+[Code block moved to code-block-1.md]
 ```
 
 ---
@@ -323,311 +201,31 @@ service:
 ### 6.1 Python SDK Setup
 
 ```python
-# requirements.txt
-opentelemetry-api
-opentelemetry-sdk
-opentelemetry-exporter-otlp-proto-grpc
-opentelemetry-instrumentation-flask
-opentelemetry-instrumentation-requests
-opentelemetry-instrumentation-logging
-
-# app.py
-from opentelemetry import trace
-from opentelemetry.sdk.trace import TracerProvider
-from opentelemetry.sdk.trace.export import BatchSpanProcessor
-from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
-from opentelemetry.sdk.resources import Resource, SERVICE_NAME, SERVICE_VERSION, DEPLOYMENT_ENVIRONMENT
-from opentelemetry.semconv.resource import ResourceAttributes
-from opentelemetry.instrumentation.flask import FlaskInstrumentor
-from opentelemetry.instrumentation.requests import RequestsInstrumentor
-
-# Resource with standard attributes
-resource = Resource.create({
-    SERVICE_NAME: "checkout-api",
-    SERVICE_VERSION: "1.2.3",
-    DEPLOYMENT_ENVIRONMENT: "production",
-    ResourceAttributes.HOST_NAME: "host-123",
-})
-
-# Configure tracing provider
-trace.set_tracer_provider(TracerProvider(resource=resource))
-tracer_provider = trace.get_tracer_provider()
-
-# Export to Collector via OTLP
-otlp_exporter = OTLPSpanExporter(
-    endpoint="http://otel-collector:4317",
-    insecure=True,
-)
-tracer_provider.add_span_processor(BatchSpanProcessor(otlp_exporter))
-
-# Get tracer
-tracer = trace.get_tracer(__name__)
-
-# Instrument Flask
-app = Flask(__name__)
-FlaskInstrumentor().instrument_app(app)
-RequestsInstrumentor().instrument()
-
-# Manual span example
-@app.route("/checkout")
-def checkout():
-    with tracer.start_as_current_span("checkout.process") as span:
-        span.set_attribute("checkout.cart_id", request.args.get("cart_id"))
-        span.set_attribute("user.id", current_user.id)
-        
-        with tracer.start_as_current_span("checkout.validate_cart"):
-            # Validation logic
-            pass
-        
-        with tracer.start_as_current_span("checkout.payment"):
-            span.set_attribute("payment.method", "credit_card")
-            # Payment processing
-            pass
-        
-        return "OK"
+[Code block moved to code-block-1.md]
 ```
 
 ### 6.2 Java SDK Setup
 
 ```java
-// pom.xml dependencies
-// opentelemetry-api, opentelemetry-sdk, opentelemetry-sdk-extension-autoconfigure
-// opentelemetry-exporter-otlp, opentelemetry-instrumentation (for auto)
-
-// javaagent startup
-// java -javaagent:opentelemetry-javaagent.jar \
-//      -Dotel.service.name=checkout-service \
-//      -Dotel.resource.attributes=deployment.environment=production \
-//      -Dotel.exporter.otlp.endpoint=http://otel-collector:4317 \
-//      -Dotel.traces.sampler=parentbased_traceidratio \
-//      -Dotel.traces.sampler.param=0.1 \
-//      -jar checkout.jar
-
-// application.properties (Spring Boot)
-otel.service.name=checkout-service
-otel.resource.attributes=deployment.environment=production,cloud.region=us-east-1
-otel.exporter.otlp.endpoint=http://otel-collector:4317
-otel.traces.exporter=otlp
-otel.metrics.exporter=otlp
-otel.logs.exporter=otlp
-
-// Manual span in Java
-import io.opentelemetry.api.trace.Tracer;
-import io.opentelemetry.api.trace.Span;
-
-Tracer tracer = GlobalOpenTelemetry.getTracer("checkout-api");
-
-Span span = tracer.spanBuilder("checkout.process")
-    .setAttribute("cart.id", cartId)
-    .setAttribute("user.id", userId)
-    .startSpan();
-
-try (Scope scope = span.makeCurrent()) {
-    // Business logic
-    span.setAttribute("payment.method", "credit_card");
-    // ...
-} catch (Exception e) {
-    span.recordException(e);
-    span.setStatus(StatusCode.ERROR);
-    throw e;
-} finally {
-    span.end();
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 6.3 Node.js SDK Setup
 
 ```javascript
-// npm packages
-// @opentelemetry/api, @opentelemetry/sdk-node
-// @opentelemetry/auto-instrumentations-node
-// @opentelemetry/exporter-trace-otlp-grpc
-
-// instrumentation.js
-const { NodeSDK } = require('@opentelemetry/sdk-node');
-const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-grpc');
-const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
-const { Resource } = require('@opentelemetry/resources');
-const { SemanticResourceAttributes } = require('@opentelemetry/semantic-conventions');
-
-const sdk = new NodeSDK({
-  resource: new Resource({
-    [SemanticResourceAttributes.SERVICE_NAME]: 'checkout-api',
-    [SemanticResourceAttributes.SERVICE_VERSION]: '1.2.3',
-    [SemanticResourceAttributes.DEPLOYMENT_ENVIRONMENT]: 'production',
-  }),
-  traceExporter: new OTLPTraceExporter({
-    url: 'http://otel-collector:4317',
-  }),
-  instrumentations: [
-    getNodeAutoInstrumentations({
-      '@opentelemetry/instrumentation-fs': { enabled: false },
-    }),
-  ],
-});
-
-sdk.start();
-
-// Manual span
-const tracer = otel.trace.getTracer('checkout-api');
-
-function processCheckout(cartId, userId) {
-  return tracer.startActiveSpan('checkout.process', async (span) => {
-    span.setAttribute('cart.id', cartId);
-    span.setAttribute('user.id', userId);
-    
-    try {
-      const payment = await tracer.startActiveSpan('checkout.payment', async (paymentSpan) => {
-        paymentSpan.setAttribute('payment.method', 'credit_card');
-        return await processPayment(cartId);
-      });
-      
-      span.setStatus({ code: SpanStatusCode.OK });
-      return payment;
-    } catch (error) {
-      span.recordException(error);
-      span.setStatus({ code: SpanStatusCode.ERROR });
-      throw error;
-    } finally {
-      span.end();
-    }
-  });
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 6.4 Go SDK Setup
 
 ```go
-// go.mod
-// go.opentelemetry.io/otel
-// go.opentelemetry.io/otel/sdk
-// go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
-// go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
-
-package main
-
-import (
-    "context"
-    "log"
-    
-    "go.opentelemetry.io/otel"
-    "go.opentelemetry.io/otel/attribute"
-    "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
-    "go.opentelemetry.io/otel/sdk/resource"
-    sdktrace "go.opentelemetry.io/otel/sdk/trace"
-    semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
-    "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
-)
-
-func main() {
-    ctx := context.Background()
-    
-    // Create OTLP exporter
-    exporter, err := otlptracegrpc.New(ctx,
-        otlptracegrpc.WithEndpoint("otel-collector:4317"),
-        otlptracegrpc.WithInsecure(),
-    )
-    if err != nil {
-        log.Fatal(err)
-    }
-    
-    // Create resource
-    res, err := resource.New(ctx,
-        resource.WithAttributes(
-            semconv.ServiceName("checkout-service"),
-            semconv.ServiceVersion("1.2.3"),
-            semconv.DeploymentEnvironment("production"),
-        ),
-    )
-    
-    // Create tracer provider
-    tp := sdktrace.NewTracerProvider(
-        sdktrace.WithBatcher(exporter),
-        sdktrace.WithResource(res),
-        sdktrace.WithSampler(sdktrace.TraceIDRatioBased(0.1)),
-    )
-    defer tp.Shutdown(ctx)
-    
-    otel.SetTracerProvider(tp)
-}
-
-// Manual span in Go
-func processCheckout(ctx context.Context, cartID, userID string) error {
-    tracer := otel.Tracer("checkout-api")
-    
-    ctx, span := tracer.Start(ctx, "checkout.process",
-        trace.WithAttributes(
-            attribute.String("cart.id", cartID),
-            attribute.String("user.id", userID),
-        ),
-    )
-    defer span.End()
-    
-    err := doCheckout(ctx, cartID)
-    if err != nil {
-        span.RecordError(err)
-        span.SetStatus(codes.Error, err.Error())
-        return err
-    }
-    
-    return nil
-}
+[Code block moved to code-block-2.md]
 ```
 
 ### 6.5 Custom Metrics Example
 
 ```python
-from opentelemetry import metrics
-from opentelemetry.sdk.metrics import MeterProvider
-from opentelemetry.sdk.metrics.export import PeriodicExportingMetricReader
-from opentelemetry.exporter.otlp.proto.grpc.metric_exporter import OTLPMetricExporter
-
-# Setup meter provider
-meter_provider = MeterProvider(
-    resource=resource,
-    metric_readers=[
-        PeriodicExportingMetricReader(
-            OTLPMetricExporter(endpoint="http://otel-collector:4317"),
-            export_interval_millis=60000,
-        )
-    ],
-)
-metrics.set_meter_provider(meter_provider)
-
-# Get meter and create instruments
-meter = metrics.get_meter("checkout-api")
-
-# Counter for request count
-request_counter = meter.create_counter(
-    name="http.requests",
-    description="Total HTTP requests",
-    unit="1",
-)
-
-# Histogram for request duration
-request_histogram = meter.create_histogram(
-    name="http.request.duration",
-    description="HTTP request duration in milliseconds",
-    unit="ms",
-)
-
-# Gauge for active connections
-active_connections = meter.create_up_down_counter(
-    name="checkout.active_connections",
-    description="Number of active connections",
-    unit="1",
-)
-
-# Use instruments in code
-def handle_request(request):
-    active_connections.add(1)
-    request_counter.add(1, {"http.method": request.method, "http.status_code": 200})
-    
-    with request_histogram.record_time():
-        result = process(request)
-    
-    active_connections.add(-1)
-    return result
+[Code block moved to code-block-2.md]
 ```
 
 ---

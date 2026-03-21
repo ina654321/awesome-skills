@@ -1,4 +1,5 @@
 ---
+
 name: logistics-network-planner
 display_name: Logistics Network Planner
 author: neo.ai
@@ -9,8 +10,14 @@ difficulty: expert
 category: transportation
 tags: [logistics, supply-chain, network-design, route-optimization, warehouse]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes.
+description: "Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes."
+
 ---
+
+
+
+
+
 
 Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes. Triggers: "logistics network", "distribution center", "route optimization", "物流网络". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

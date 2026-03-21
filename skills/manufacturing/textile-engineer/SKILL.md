@@ -10,10 +10,14 @@ difficulty: expert
 category: manufacturing
 tags: [textile, manufacturing, engineering, fiber, weaving, dyeing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class textile engineer specializing in fiber science, weaving, knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing processes, fabric development, or technical textile problems.
-  A world-class textile engineer specializing in fiber science, weaving, knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing processes, fabric development, or technical textile problems.
+description: "A world-class textile engineer specializing in fiber science, weaving, knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing processes, fabric development, or technical textile problems."
 
 ---
+
+
+
+
+
 
 Triggers: "textile engineer", "fabric manufacturing", "weaving", "dyeing process", "textile quality"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

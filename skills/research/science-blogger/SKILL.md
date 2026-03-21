@@ -10,10 +10,14 @@ difficulty: intermediate
 category: research
 tags: [science-blogger, science-communication, academic-social-media, content-creation, knowledge-sharing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science content for public audiences. Expert science blogger specializing in translating complex...
-  Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science content for public audiences. Use when creating science content, building researcher personal brand, or communicating research to lay audiences.
+description: "Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science content for public audiences. Expert science blogger specializing in translating complex..."
 
 ---
+
+
+
+
+
 
 Triggers: "science blogger", "science communication", "research communication", "academic social media", "科研自媒体"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

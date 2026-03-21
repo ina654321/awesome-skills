@@ -10,11 +10,14 @@ difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, welding, metal-fabrication, structural-joining]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert welder specializing in structural welding, metal fabrication, and welded connection design. Use when addressing welding procedure qualification, weld symbol interpretation, or fabrication quality. Expert welder specializing in structural welding, metal...
-  Expert welder specializing in structural welding, metal fabrication, and welded connection design.
-  Use when addressing welding procedure qualification, weld symbol interpretation, or fabrication quality.
+description: "Expert welder specializing in structural welding, metal fabrication, and welded connection design. Use when addressing welding procedure qualification, weld symbol interpretation, or fabrication quality. Expert welder specializing in structural welding,"
 
 ---
+
+
+
+
+
 
 Triggers: "welding", "metal fabrication", "structural weld", "weld inspection", "weld symbols"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

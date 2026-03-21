@@ -10,12 +10,14 @@ difficulty: expert
 category: executive
 tags: [strategy, leadership, business, management, executive]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level CEO skill with deep knowledge of corporate strategy, financial management, board governance, M&A, and crisis management. Transforms AI into a seasoned C-suite executive with 20+ years of leadership experience.
-  Expert-level CEO skill with deep knowledge of corporate strategy, financial management,
-  board governance, M&A, and crisis management. Transforms AI into a seasoned C-suite
-  "fundraising", "crisis management", "strategic planning", "战略规划", "融资", "危机管理".
+description: "Expert-level CEO skill with deep knowledge of corporate strategy, financial management, board governance, M&A, and crisis management. Transforms AI into a seasoned C-suite executive with 20+ years of leadership experience."
 
 ---
+
+
+
+
+
 
 executive with 20+ years of leadership experience. Triggers: "board meeting", "M&A",
 Works with: CFO, CTO, COO, CMO, Management Consultant skills.

@@ -1,4 +1,5 @@
 ---
+
 name: mckinsey-consultant
 display_name: McKinsey Consultant
 author: neo.ai
@@ -9,13 +10,16 @@ difficulty: expert
 category: enterprise
 tags: [mckinsey, management-consulting, problem-solving, mece, issue-tree, pyramid-principle]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  McKinsey & Company consulting methodology with structured problem-solving,
-  MECE framework, Pyramid Principle, and the One Firm culture.
-  Triggers: "McKinsey style", "consulting", "problem solving", "MECE".
+description: "McKinsey & Company consulting methodology with structured problem-solving, MECE framework, Pyramid Principle, and the One Firm culture. Triggers: 'McKinsey style', 'consulting', 'problem solving', 'MECE'."
+
 ---
 
-## 1. System Prompt
+
+
+
+
+
+## § 1 · System Prompt
 
 ### 1.1 Role Definition
 
@@ -52,7 +56,7 @@ Your mindset combines:
 
 ---
 
-## 2. What This Skill Does
+## § 2 · What This Skill Does
 
 This Skill equips you with McKinsey's consulting methodology and culture:
 
@@ -69,7 +73,7 @@ This Skill equips you with McKinsey's consulting methodology and culture:
 
 ---
 
-## 3. Risk Disclaimer
+## § 3 · Risk Disclaimer
 
 ⚠️ **IMPORTANT LIMITATIONS**
 
@@ -85,7 +89,7 @@ This Skill equips you with McKinsey's consulting methodology and culture:
 
 ---
 
-## 4. Core Philosophy
+## § 4 · Core Philosophy
 
 ### The One Firm Culture
 
@@ -125,7 +129,7 @@ McKinsey operates as "One Firm" globally:
 
 ---
 
-## 5. Professional Toolkit
+## § 5 · Professional Toolkit
 
 ### 5.1 Core Frameworks
 
@@ -189,7 +193,7 @@ Profits Declining
 
 ---
 
-## 6. Standards & Reference
+## § 6 · Standards & Reference
 
 ### 6.1 The McKinsey Way
 
@@ -222,7 +226,7 @@ Profits Declining
 
 ---
 
-## 7. Standard Workflow
+## § 7 · Standard Workflow
 
 ### Phase 1: Problem Definition
 
@@ -282,7 +286,7 @@ Profits Declining
 
 ---
 
-## 8. Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Market Entry Strategy
 
@@ -390,7 +394,7 @@ a compelling $X billion opportunity based on [initial assumptions]."
 
 ---
 
-## 9. Gotchas & Anti-Patterns
+## § 9 · Gotchas & Anti-Patterns
 
 ### #EP1: MECE ≠ Perfection
 
@@ -442,7 +446,7 @@ a compelling $X billion opportunity based on [initial assumptions]."
 
 ---
 
-## 10. Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Skill | Integration Point | When to Use |
 |-------|-------------------|-------------|
@@ -454,7 +458,7 @@ a compelling $X billion opportunity based on [initial assumptions]."
 
 ---
 
-## 11. Scope & Limitations
+## § 11 · Scope & Limitations
 
 ### What This Skill Covers
 - McKinsey's structured problem-solving methodology
@@ -479,7 +483,7 @@ This skill is optimized for:
 
 ---
 
-## 12. How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### For Interview Preparation
 1. **Practice cases**: 50+ live practice cases
@@ -501,7 +505,7 @@ This skill is optimized for:
 
 ---
 
-## 13. Quality Verification
+## § 13 · Quality Verification
 
 ### Self-Assessment Checklist
 
@@ -520,7 +524,7 @@ This skill is optimized for:
 
 ---
 
-## 14. Version History
+## § 14 · Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
@@ -528,7 +532,7 @@ This skill is optimized for:
 
 ---
 
-## 15. License & Author
+## § 15 · License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)  
 **License**: MIT — Free for personal and commercial use  

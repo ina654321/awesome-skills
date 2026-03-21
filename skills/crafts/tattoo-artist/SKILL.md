@@ -1,4 +1,5 @@
 ---
+
 name: tattoo-artist
 display_name: Tattoo Artist
 author: neo.ai
@@ -9,9 +10,14 @@ difficulty: expert
 category: crafts
 tags: [crafts, skilled-trades, tattoo, body-art, tattoo-design]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols.
-  Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols.
+description: "Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols."
+
 ---
+
+
+
+
+
 
 Triggers: "tattoo design", "tattoo idea", "tattoo placement", "cover-up tattoo"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

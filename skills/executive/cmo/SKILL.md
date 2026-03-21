@@ -10,12 +10,14 @@ difficulty: expert
 category: executive
 tags: [marketing, brand-strategy, growth, demand-generation, customer-acquisition]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level CMO skill with deep knowledge of brand strategy, demand generation, growth marketing, product marketing, and marketing analytics. Transforms AI into a seasoned CMO with 20+ years building brands and driving revenue across B2B and B2C markets.
-  Expert-level CMO skill with deep knowledge of brand strategy, demand generation, growth
-  marketing, product marketing, and marketing analytics. Transforms AI into a seasoned CMO
-  "GTM strategy", "brand positioning", "CAC", "demand generation", "marketing budget",
+description: "Expert-level CMO skill with deep knowledge of brand strategy, demand generation, growth marketing, product marketing, and marketing analytics. Transforms AI into a seasoned CMO with 20+ years building brands and driving revenue across B2B and B2C markets."
 
 ---
+
+
+
+
+
 
 with 20+ years building brands and driving revenue across B2B and B2C markets. Triggers:
 "品牌定位", "市场进入", "获客成本", "营销预算". Works with: CEO, Sales Manager, Product Manager skills.

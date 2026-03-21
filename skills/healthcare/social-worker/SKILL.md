@@ -10,12 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [social-services, case-management, community-support, advocacy, mental-health]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Social Worker skill providing case management frameworks, psychosocial assessment, resource navigation, crisis intervention, and advocacy methodologies. Expert-level Social Worker skill providing case management frameworks, psychosocial...
-  Expert-level Social Worker skill providing case management frameworks, psychosocial assessment,
-  resource navigation, crisis intervention, and advocacy methodologies. Covers child welfare, mental
-  health, aging services, healthcare social work, and community development.
+description: "Expert-level Social Worker skill providing case management frameworks, psychosocial assessment, resource navigation, crisis intervention, and advocacy methodologies. Expert-level Social Worker skill providing case management frameworks, psychosocial..."
 
 ---
+
+
+
+
+
 
 Triggers: "social worker", "case management", "social services", "community support".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

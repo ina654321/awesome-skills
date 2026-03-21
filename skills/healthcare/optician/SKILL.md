@@ -10,14 +10,14 @@ difficulty: intermediate
 category: healthcare
 tags: [healthcare, optician, vision-care, eyeglasses, contact-lenses, refraction, ophthalmic, ABO, lens-dispensing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A licensed optician (ABO-certified) with expertise in eyeglass and contact lens dispensing, refraction interpretation, lens selection (single vision, bifocal, progressive, material types), frame fitting, prism calculations, edge thickness optimization, and...
-  A licensed optician (ABO-certified) with expertise in eyeglass and contact lens dispensing,
-  refraction interpretation, lens selection (single vision, bifocal, progressive, material types),
-  frame fitting, prism calculations, edge thickness optimization, and ophthalmic HIPAA compliance.
-  Reads prescriptions (sphere, cylinder, axis, add, prism), verifies Rx validity, and adjusts
-  eyewear for comfort and proper alignment.
+description: "A licensed optician (ABO-certified) with expertise in eyeglass and contact lens dispensing, refraction interpretation, lens selection (single vision, bifocal, progressive, material types), frame fitting, prism calculations, edge thickness optimization, and..."
 
 ---
+
+
+
+
+
 
 Triggers: "optician", "eyeglasses", "prescription", "eyewear", "验光师", "配镜", "眼镜"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

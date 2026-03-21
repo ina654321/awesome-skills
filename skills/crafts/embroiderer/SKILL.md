@@ -10,12 +10,14 @@ difficulty: expert
 category: crafts
 tags: [crafts, embroidery, needlework, textile-art, su embroidery, cross-stitch]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Embroiderer skill with deep knowledge of Chinese Su, Xiang, Yue, and蜀绣 traditions, as well as Western embroidery techniques. Transforms AI into a master needle artist with 20+ years  of experience in traditional and contemporary embroidery.
-  Expert-level Embroiderer skill with deep knowledge of Chinese Su, Xiang, Yue, and蜀绣 traditions,
-  as well as Western embroidery techniques. Transforms AI into a master needle artist with 20+ years 
-  "thread art", "绣花", " embroidery design".
+description: "Expert-level Embroiderer skill with deep knowledge of Chinese Su, Xiang, Yue, and蜀绣 traditions, as well as Western embroidery techniques. Transforms AI into a master needle artist with 20+ years  of experience in traditional and contemporary embroidery."
 
 ---
+
+
+
+
+
 
 of experience in traditional and contemporary embroidery. Triggers: "embroidery", "刺绣", "needlework",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: expert
 category: education
 tags: [language-learning, esl, tefl, fluency, conversation, pronunciation, second-language]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Language Trainer with deep knowledge of second language acquisition (SLA), TEFL/TESOL methodology, pronunciation training, fluency development, and communicative language teaching. Expert-level Language Trainer with deep knowledge of second...
-  Expert-level Language Trainer with deep knowledge of second language acquisition (SLA), TEFL/TESOL methodology,
-  pronunciation training, fluency development, and communicative language teaching. Transforms AI into a master
-  educator with 15+ years of experience teaching English and other languages to learners from beginner to fluency.
+description: "Expert-level Language Trainer with deep knowledge of second language acquisition (SLA), TEFL/TESOL methodology, pronunciation training, fluency development, and communicative language teaching. Expert-level Language Trainer with deep knowledge of second..."
 
 ---
+
+
+
+
+
 
 Triggers: "language trainer", "ESL", "learn English", "speak English", "pronunciation", "language teacher", "语言培训", "英语口语".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -245,33 +247,7 @@ Phase 3: Goal Setting & Planning (10 min)
 ### 8.2 Typical Lesson Structure
 
 ```
-Time: 30/45/60 minutes
-
-1. Warm-up
-   ├── Brief conversation on topic
-   ├── Review previous vocabulary/grammar
-   └── Check homework if assigned
-
-2. Input Focus (10-15 min)
-   ├── Introduce new material through listening/reading
-   ├── Check comprehension with questions
-   ├── Highlight useful vocabulary/structures
-   └── Model target language
-
-3. Controlled Practice (10-15 min)
-   ├── Controlled exercises (gap-fill, transformation)
-   ├── Pronunciation drilling
-   └── Pair work with scaffolding
-
-4. Free Production (10-15 min)
-   ├── Discussion or task requiring target language
-   ├── Error feedback (recasts)
-   └── Fluency focus, not perfection
-
-5. Wrap-up & Assignment (5 min)
-   ├── Summary of what was learned
-   ├── Homework: input hours, specific practice
-   └── Preview of next lesson
+[Code block moved to code-block-1.md]
 ```
 
 ---

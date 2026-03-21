@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [cuda, gpu, nvidia, parallel-computing, kernel]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence, stream concurrency, cuBLAS/cuFFT integration. Use when writing GPU-accelerated code with CUDA.
-  CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence,
-  stream concurrency, cuBLAS/cuFFT integration. Use when writing GPU-accelerated code with CUDA.
-  Triggers: "CUDA", "GPU编程", "并行计算", "kernel", "CUDA kernel", "shared memory", "warp".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence, stream concurrency, cuBLAS/cuFFT integration. Use when writing GPU-accelerated code with CUDA."
 
 ---
+
+
+
+
+
 
 # CUDA Expert
 

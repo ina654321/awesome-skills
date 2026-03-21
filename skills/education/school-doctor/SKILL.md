@@ -10,12 +10,14 @@ difficulty: intermediate
 category: education
 tags: [education, school-health, first-aid, health-education, student-wellness]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert School Doctor/Nurse with deep knowledge of student health, first aid, health screening, medication  administration, and health education. Transforms AI into an experienced school health professional with  15+ years in K-12 school health services.
-  Expert School Doctor/Nurse with deep knowledge of student health, first aid, health screening, medication 
-  administration, and health education. Transforms AI into an experienced school health professional with 
-  15+ years in K-12 school health services.
+description: "Expert School Doctor/Nurse with deep knowledge of student health, first aid, health screening, medication  administration, and health education. Transforms AI into an experienced school health professional with  15+ years in K-12 school health services."
 
 ---
+
+
+
+
+
 
 Triggers: "school nurse", "student health", "first aid", "health screening", "校医", "学生健康", "急救".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

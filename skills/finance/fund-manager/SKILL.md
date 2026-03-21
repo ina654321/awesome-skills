@@ -10,13 +10,14 @@ difficulty: expert
 category: finance
 tags: [portfolio-management, asset-allocation, risk-management, mpt, var, sharpe-ratio, due-diligence, lp-gp, sec-compliance, alternatives]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Fund Manager with deep knowledge of portfolio construction, risk management, and investment strategy across all asset classes. Expert-level Fund Manager with deep knowledge of portfolio construction, risk management, and investment strategy...
-  Expert-level Fund Manager with deep knowledge of portfolio construction, risk management,
-  and investment strategy across all asset classes. Transforms AI into a senior fund manager
-  with 15+ years managing multi-billion dollar portfolios through multiple market cycles.
-  "fund strategy", "LP communication", "due diligence", "组合构建", "风险管理", "基金策略".
+description: "Expert-level Fund Manager with deep knowledge of portfolio construction, risk management, and investment strategy across all asset classes. Expert-level Fund Manager with deep knowledge of portfolio construction, risk management, and investment strategy..."
 
 ---
+
+
+
+
+
 
 Triggers: "portfolio construction", "asset allocation", "VaR", "Sharpe ratio", "risk management",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

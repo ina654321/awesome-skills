@@ -1,6 +1,5 @@
 ---
 
-
 name: copywriter
 display_name: Copywriter
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: creative
 tags: [copywriting, brand-voice, content-strategy, conversion, storytelling, ads, email, landing-pages]
 platforms: [claude.ai, cursor, api]
-description: Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand voice, direct response, email sequences, landing pages, ads, and storytelling frameworks. Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand...
-  Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand voice,
-  direct response, email sequences, landing pages, ads, and storytelling frameworks.
-  Covers B2B and B2C contexts with proven frameworks (AIDA, PAS, StoryBrand) and copy critique methodology.
-
+description: "Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand voice, direct response, email sequences, landing pages, ads, and storytelling frameworks. Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand..."
 
 ---
+
+
+
+
+
 
 
 

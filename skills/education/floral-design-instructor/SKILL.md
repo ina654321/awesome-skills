@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [floral, flower-arrangement, design, horticulture, artistic-expression]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and botanical art. Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and...
-  Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and botanical art. Specializes in floral mechanics, color theory, seasonal arrangements, wedding compositions, and business development for floral professionals.
+description: "Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and botanical art. Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and..."
 
 ---
+
+
+
+
+
 
 Triggers: "floral design", "flower arrangement", "wedding flowers", "floral business", "花艺", "插花", "婚礼花艺".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

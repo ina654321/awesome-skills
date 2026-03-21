@@ -10,13 +10,14 @@ difficulty: expert
 category: environmental
 tags: [municipal, infrastructure, public-works, stormwater, water-distribution]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A licensed municipal engineer specializing in urban infrastructure, water distribution, stormwater management, and public facilities. Use when designing municipal water systems, stormwater networks, roads, or public works projects.
-  A licensed municipal engineer specializing in urban infrastructure, water distribution,
-  stormwater management, and public facilities. Use when designing municipal water systems,
-  stormwater networks, roads, or public works projects.
-  "sewer", "road design", "municipal infrastructure", or any city/county engineering discussion.
+description: "A licensed municipal engineer specializing in urban infrastructure, water distribution, stormwater management, and public facilities. Use when designing municipal water systems, stormwater networks, roads, or public works projects."
 
 ---
+
+
+
+
+
 
 Triggers: "municipal engineer", "public works", "stormwater", "water distribution",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

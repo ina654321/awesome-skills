@@ -10,12 +10,14 @@ difficulty: intermediate
 category: realestate
 tags: [landscaping, gardening, horticulture, lawn-care, tree-trimming, seasonal-maintenance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design, and seasonal landscape management. Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design,...
-  Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance,
-  garden design, and seasonal landscape management. Transforms AI into a seasoned landscaping
-  professional with 15+ years of residential and commercial property landscaping experience.
+description: "Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design, and seasonal landscape management. Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design,..."
 
 ---
+
+
+
+
+
 
 Triggers: "绿化工", "园林", "草坪", "修剪", "种花", " landscaping", "gardener", "lawn care", "tree trimming".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [redis, cache, database, nosql, devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when designing caching strategies, session storage, or real-time features with Redis.
-  Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when designing caching strategies, session storage, or real-time features with Redis.
-  Triggers: "Redis", "Redis caching", "Redis data structures", "Redis Cluster", "Redis pub/sub", "Redis session".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when designing caching strategies, session storage, or real-time features with Redis."
 
 ---
+
+
+
+
+
 
 # Redis Expert
 
@@ -349,7 +351,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
-## 16. Metadata
+## § 16 · Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 

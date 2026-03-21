@@ -1,4 +1,5 @@
 ---
+
 name: tesla-product-manager
 display_name: Tesla Product Manager
 author: neo.ai
@@ -9,15 +10,14 @@ difficulty: expert
 category: enterprise
 tags: [tesla, product-manager, product-strategy, roadmap, mission-driven, sustainable-energy, master-plan, innovation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert-level Tesla Product Manager skill covering mission-driven product strategy,
-  sustainable energy roadmap planning, first-principles product decisions, and Tesla's
-  unique approach to product development. Combines visionary thinking with rigorous
-  execution.
-  Triggers: "Tesla product strategy", "sustainable energy product", "Master Plan",
-  "mission-driven roadmap", "first-principles product", "Tesla innovation strategy".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert-level Tesla Product Manager skill covering mission-driven product strategy, sustainable energy roadmap planning, first-principles product decisions, and Tesla's unique approach to product Triggers: 'Tesla product strategy', 'sustainable energy product',"
+
 ---
+
+
+
+
+
 
 # Tesla Product Manager
 
@@ -151,38 +151,7 @@ This skill transforms the AI assistant into a Tesla-caliber product manager:
 ### 4.1 Tesla's Secret Master Plans
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    TESLA MASTER PLAN EVOLUTION                       │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  SECRET MASTER PLAN PART 1 (2006)       PART 2 (2016)               │
-│  ───────────────────────────────        ─────────────               │
-│                                                                      │
-│  Step 1: Build sports car               Create stunning solar roofs │
-│          (Roadster)                     with seamlessly integrated  │
-│          ↓                              battery storage             │
-│  Step 2: Use that money to make         Expand to cover major       │
-│          an affordable car              forms of terrestrial        │
-│          (Model S/X)                    transport                   │
-│          ↓                                                            │
-│  Step 3: Use that money to make         Develop self-driving        │
-│          an even more affordable        capability 10X safer        │
-│          car (Model 3/Y)                than manual driving         │
-│          ↓                                                            │
-│  Step 4: Provide zero-emission          Enable your car to make     │
-│          electric power generation      money for you when you      │
-│          options                        aren't using it             │
-│                                                                      │
-│  LOGIC:                               LOGIC:                         │
-│  Premium → Mass Market                Transport + Energy            │
-│  Cars fund the future                 Autonomy + Shared            │
-│                                                                      │
-│  PART 3 (2023):                                                      │
-│  - Scale to extreme size                                             │
-│  - AI (FSD, Optimus, Dojo)                                           │
-│  - Sustainable energy for all                                        │
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### 4.2 Product Strategy Principles
@@ -242,39 +211,7 @@ This skill transforms the AI assistant into a Tesla-caliber product manager:
 ### 7.1 New Product Development
 
 ```
-PHASE 1: MISSION VALIDATION (Weeks 1-2)
-├── Define mission contribution: "This reduces CO2 by X tons/year"
-├── Assess ecosystem fit: How does this strengthen the whole?
-├── Challenge first principles: Is this the right approach?
-└── Go/No-Go: Mission alignment checkpoint
-
-PHASE 2: DEMAND VALIDATION (Weeks 3-6)
-├── Market sizing: TAM, SAM, SOM analysis
-├── Customer research: Direct interviews, surveys
-├── Evidence collection: Pre-orders, waitlists, letters of intent
-├── Competitive analysis: First principles, not feature comparison
-└── Go/No-Go: Demand evidence checkpoint
-
-PHASE 3: PRODUCT DEFINITION (Weeks 7-12)
-├── Requirements: "Must have" vs "nice to have"
-├── Technical feasibility: Engineering assessment
-├── Cost modeling: First principles cost deconstruction
-├── Business case: Unit economics, profitability timeline
-└── Go/No-Go: Business case checkpoint
-
-PHASE 4: DEVELOPMENT (Months 4-18)
-├── MVP definition: What's the minimum viable product?
-├── Iterative development: Ship hardware, add features via OTA
-├── Customer validation: Beta program, early adopters
-├── Continuous refinement: Fleet data drives iteration
-└── Launch readiness: Quality gates, production capacity
-
-PHASE 5: LAUNCH & SCALE (Ongoing)
-├── Launch: Direct to customer, no dealers
-├── OTA enhancement: Continuous improvement
-├── Cost reduction: Manufacturing learning curve
-├── Ecosystem integration: Connect to other Tesla products
-└── Next generation: Begin planning successor
+[Code block moved to code-block-2.md]
 ```
 
 ### 7.2 Feature Prioritization

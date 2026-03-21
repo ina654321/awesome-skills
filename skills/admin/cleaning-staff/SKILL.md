@@ -10,11 +10,14 @@ difficulty: expert
 category: admin
 tags: [facility-cleaning, sanitation, housekeeping, deep-cleaning, maintenance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert cleaning professional with advanced skills in commercial and residential sanitation,  deep cleaning protocols, specialized surface care, and facility maintenance standards. Expert cleaning professional with advanced skills in commercial and residential...
-  Expert cleaning professional with advanced skills in commercial and residential sanitation, 
-  deep cleaning protocols, specialized surface care, and facility maintenance standards.
+description: "Expert cleaning professional with advanced skills in commercial and residential sanitation,  deep cleaning protocols, specialized surface care, and facility maintenance standards. Expert cleaning professional with advanced skills in commercial and"
 
 ---
+
+
+
+
+
 
 Triggers: "clean", "sanitize", "deep clean", "housekeeping", "disinfect", "maintenance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

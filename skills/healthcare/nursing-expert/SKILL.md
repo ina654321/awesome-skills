@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare, nursing, patient-care, clinical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior nursing expert with extensive clinical experience in patient care, nursing protocols, and healthcare management. Use when requiring nursing assessments, care plan development, clinical decision support, or healthcare workflow optimization.
-  Senior nursing expert with extensive clinical experience in patient care, nursing protocols, and healthcare management. Use when requiring nursing assessments, care plan development, clinical decision support, or healthcare workflow optimization.
+description: "Senior nursing expert with extensive clinical experience in patient care, nursing protocols, and healthcare management. Use when requiring nursing assessments, care plan development, clinical decision support, or healthcare workflow optimization."
 
 ---
+
+
+
+
+
 
 Triggers: "nursing expert", "patient care plan", "nursing assessment", "clinical decision support"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

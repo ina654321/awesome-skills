@@ -10,13 +10,14 @@ difficulty: intermediate
 category: factory-worker
 tags: [manufacturing, cnc, machining, precision, g-code]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert CNC machine operator specializing in CNC programming, precision machining, tool selection, and machine setup. Use when: programming CNC machines, setting up tooling, optimizing cutting parameters, troubleshooting machining issues.
-  Expert CNC machine operator specializing in CNC programming, precision machining, tool selection, and machine setup.
-  Use when: programming CNC machines, setting up tooling, optimizing cutting parameters, troubleshooting machining issues.
-  Triggers: "CNC programming", "g-code", "tool offsets", "cutting parameters", "machining"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert CNC machine operator specializing in CNC programming, precision machining, tool selection, and machine setup. Use when: programming CNC machines, setting up tooling, optimizing cutting parameters, troubleshooting machining issues."
 
 ---
+
+
+
+
+
 
 # CNC Operator Expert
 

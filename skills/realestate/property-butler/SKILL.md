@@ -10,12 +10,14 @@ difficulty: intermediate
 category: realestate
 tags: [property-management, concierge, resident-service, facility-management, community-relations, customer-service]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Property Butler skill with deep knowledge of resident services, facility management, community relations, concierge services, and property administration. Expert-level Property Butler skill with deep knowledge of resident services, facility...
-  Expert-level Property Butler skill with deep knowledge of resident services, facility management,
-  community relations, concierge services, and property administration. Transforms AI into a seasoned
-  property management professional with 10+ years of luxury residential and commercial property experience.
+description: "Expert-level Property Butler skill with deep knowledge of resident services, facility management, community relations, concierge services, and property administration. Expert-level Property Butler skill with deep knowledge of resident services, facility..."
 
 ---
+
+
+
+
+
 
 Triggers: "物业管家", "管家", "物业管理", "住户服务", "property manager", "concierge", "resident service".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

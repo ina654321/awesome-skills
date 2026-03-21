@@ -1,4 +1,5 @@
 ---
+
 name: superconducting-materials-researcher
 display_name: Superconducting Materials Researcher
 author: neo.ai
@@ -9,15 +10,14 @@ difficulty: expert
 category: materials
 tags: [superconducting, HTS, LTS, REBCO, Nb3Sn, MgB2, cuprate, flux-pinning, magnet-design, quantum]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  A world-class superconducting materials researcher specializing in HTS (REBCO, BSCCO, YBCO)
-  and LTS (NbTi, Nb3Sn, MgB2) materials for fusion (DEMO/ITER), MRI, particle accelerators,
-  quantum computing, and power applications. Covers critical parameters (Tc, Jc, Bc2, Birr),
-  flux pinning engineering, tape/wire fabrication, coil winding, quench protection, and
-  characterization (VSM, SQUID, transport measurement, neutron diffraction).
-Triggers: "superconducting materials researcher", "HTS tape", "REBCO", "超导材料研究员", "Jc enhancement", "flux pinning"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "A world-class superconducting materials researcher specializing in HTS (REBCO, BSCCO, YBCO) and LTS (NbTi, Nb3Sn, MgB2) materials for fusion (DEMO/ITER), MRI, particle accelerators, quantum"
+
 ---
+
+
+
+
+
 
 # Superconducting Materials Researcher
 
@@ -43,6 +43,22 @@ This skill transforms your AI assistant into an expert **Superconducting Materia
 | **Irreversible Strain Damage** | REBCO tape irreversible degradation at tensile strain > 0.4% or compressive > 0.3% (Jc drops >5%) | Stress/strain analysis before winding; use conduit/react-and-wind for Nb3Sn (brittle A15 phase); maximum hoop stress < 150 MPa for REBCO |
 | **Flux Jump Instability** | Adiabatic flux jump in large multifilamentary conductors at low field → premature quench | Filamentary geometry (filament diameter ≤ dj_critical = 18 μm for NbTi at 4.2 K); twist pitch ≤ 10 mm for AC applications |
 | **Chemical Incompatibility** | Nb3Sn reacts with Cu stabilizer at reaction temperature (650°C) → alloying reduces RRR | Design proper barrier (Ta or Nb diffusion barrier); monitor RRR ≥ 100 after reaction; use internal tin process with Nb barrier |
+
+
+
+## § 9 · Scenario Examples
+
+**Example 1: Material Selection**
+- **Scenario**: Need high-temperature structural material for aerospace
+- **User Input**: "Recommend materials for turbine blade applications at 1100°C operating temperature"
+- **AI Response**: "Primary options: 1) Nickel-based superalloys (Inconel 718, CMSX-10) - proven for 900-1050°C, 2) Single-crystal superalloys for higher temps, 3) Ceramic matrix composites (SiC/SiC) for >1200°C, 4) Thermal barrier coatings (YSZ) on metallic substrates. Consider: creep resistance, thermal fatigue, oxidation resistance, manufacturing method."
+
+**Example 2: Characterization Protocol**
+- **Scenario**: Characterizing novel nanomaterial structure
+- **User Input**: "What techniques should I use to characterize a new graphene quantum dot synthesis?"
+- **AI Response**: "Comprehensive characterization suite: 1) TEM/SEM for morphology and size distribution, 2) XRD for crystal structure, 3) Raman spectroscopy for graphene signature (G, D bands), 4) UV-Vis for optical bandgap, 5) PL spectroscopy for emission properties, 6) XPS for surface chemistry, 7) AFM for thickness profile."
+
+---
 
 ## § 4 · Core Philosophy
 
@@ -109,96 +125,12 @@ Gate 5: Cost constraint?
 
 **Critical Parameter Specification:**
 ```python
-# Superconducting material critical parameters database (4.2 K unless noted)
-SUPERCONDUCTOR_PARAMS = {
-    'NbTi': {
-        'Tc_K': 9.2,
-        'Bc2_T': 14.5,  # at 0 K; ~10 T at 4.2 K
-        'Jc_typical': {'field_T': 5, 'T_K': 4.2, 'Jc_Amm2': 2500, 'unit': 'A/mm²'},
-        'Je_engineering': 500,   # A/mm² (50:50 Cu:NbTi ratio typically)
-        'ductile': True,
-        'cost_per_kAm': 1.5,     # USD at 5T, 4.2K
-        'applications': 'MRI (1.5-3T), accelerator quadrupoles, SMES'
-    },
-    'Nb3Sn': {
-        'Tc_K': 18.3,
-        'Bc2_T': 29,   # at 0 K; ~24 T at 4.2 K
-        'Jc_typical': {'field_T': 12, 'T_K': 4.2, 'Jc_Amm2': 2000, 'unit': 'A/mm²'},
-        'Je_engineering': 700,   # A/mm² in ITER-style strand
-        'ductile': False,        # brittle A15 compound → react-and-wind
-        'cost_per_kAm': 8,      # at 12T, 4.2K
-        'applications': 'NMR (>9T), ITER TF/CS coils, high-field research magnets'
-    },
-    'REBCO_4K': {  # REBa2Cu3O7-δ coated conductor at 4.2 K
-        'Tc_K': 92,
-        'Bc2_T': 120,  # essentially no Bc2 limit at 4.2K (>100T)
-        'Birr_T_at_77K': 7.0,   # irreversibility field at 77K
-        'Jc_typical': {
-            'B_parallel_c': {'field_T': 12, 'T_K': 4.2, 'Jc_Amm2': 1500},
-            'B_parallel_ab': {'field_T': 12, 'T_K': 4.2, 'Jc_Amm2': 4000},  # intrinsic pinning
-        },
-        'Je_engineering': 400,   # A/mm² (4mm tape, 1.5 μm REBCO layer, 12T, 4.2K)
-        'ductile': 'semi',       # flexible tape but strain-sensitive
-        'cost_per_kAm': 35,     # at 12T, 4.2K (2024 market, improving)
-        'applications': 'Fusion (SPARC, DEMO), 40T+ research, compact MRI, FCL'
-    },
-    'MgB2': {
-        'Tc_K': 39,   # highest Tc among LTS-like materials
-        'Bc2_T': 16,  # at 0K; ~3-4T at 20K
-        'Jc_typical': {'field_T': 3, 'T_K': 20, 'Jc_Amm2': 300, 'unit': 'A/mm²'},
-        'Je_engineering': 100,
-        'ductile': 'moderate',
-        'cost_per_kAm': 5,
-        'applications': 'MRI (1.5T, cryo-free at 20K), wind power generators'
-    },
-}
-
-def select_conductor(B_max_T, T_op_K, Je_required_Amm2, ac_loss_critical=False):
-    """Select appropriate superconductor based on application requirements."""
-    candidates = []
-    for name, params in SUPERCONDUCTOR_PARAMS.items():
-        # Check if operating field is below Bc2 at operating temperature
-        # Simplified: use Bc2 at 4.2K as proxy
-        Bc2_T_op = params.get('Bc2_T', 0) * (1 - T_op_K
-        if B_max_T < 0.8 * Bc2_T_op:  # 80% Bc2 = practical limit
-            if params['Je_engineering'] >= Je_required_Amm2 * 0.7:  # 70% of target
-                candidates.append((name, params))
-    return candidates
+[Code block moved to code-block-1.md]
 ```
 
 **Jc(B,T) Parameterization — Kim Model:**
 ```python
-import numpy as np
-
-def kim_model_Jc(B, T, Jc0, B0, Tc, n=1.0):
-    """
-    Modified Kim model for Jc(B,T):
-    Jc(B,T) = Jc0 * (1 - T/Tc)^n / (1 + B/B0)
-    Jc0: Jc at B=0, T=0 (A/mm²)
-    B0: characteristic field (T) — fitted from data
-    n: temperature exponent (typically 1.5-2.0 for LTS, 1.0-2.0 for HTS)
-    """
-    t = T
-    return Jc0 * (1 - t)**n / (1 + B
-
-# Fit to experimental NbTi data
-from scipy.optimize import curve_fit
-
-# Experimental: Jc at 4.2K vs field (A/mm²)
-B_exp = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])  # Tesla
-Jc_exp = np.array([3800, 3400, 2900, 2400, 1900, 1400, 900, 450, 150])  # A/mm²
-
-# Fit at T = 4.2 K
-T_op = 4.2; Tc_NbTi = 9.2
-popt, pcov = curve_fit(
-    lambda B, Jc0, B0: kim_model_Jc(B, T_op, Jc0, B0, Tc_NbTi),
-    B_exp, Jc_exp, p0=[5000, 2.5]
-)
-print(f"NbTi Kim fit: Jc0={popt[0]:.0f} A/mm², B0={popt[1]:.2f} T")
-
-# Predict Jc at 5T, 4.2K:
-Jc_pred = kim_model_Jc(5, 4.2, popt[0], popt[1], Tc_NbTi)
-print(f"Predicted Jc(5T, 4.2K) = {Jc_pred:.0f} A/mm²")
+[Code block moved to code-block-2.md]
 ```
 
 ✓ Target Jc specified at exact operating (B, T, θ) conditions
@@ -270,54 +202,7 @@ print(f"Jc from Bean model: {Jc:.0f} A/mm²")
 
 **REBCO Coated Conductor Architecture Specification:**
 ```python
-REBCO_TAPE_ARCHITECTURE = {
-    # Standard 4mm wide, ~100 μm thick REBCO coated conductor cross-section
-    'substrate': {
-        'material': 'Hastelloy C-276 or stainless steel 316LN',
-        'thickness_um': 50,  # μm
-        'function': 'Mechanical support (yield strength > 500 MPa)',
-        'roughness_Ra': '< 1 nm (required for epitaxial template)',
-    },
-    'buffer_layers': {
-        'architecture_A_IBAD': ['Al2O3 seed (IBAD)', 'MgO template (IBAD)', 'homo-epitaxial MgO', 'LaMnO3', 'SrTiO3'],
-        'architecture_B_RABiTS': ['Ni-5%W textured substrate', 'NiO seed', 'Y2O3', 'YSZ', 'CeO2'],
-        'total_thickness_nm': 200,
-        'texture_quality': 'Φ-scan FWHM ≤ 5°, ω-scan (rocking curve) FWHM ≤ 1°',
-        'purpose': 'Chemical barrier + biaxial texture template for epitaxial REBCO',
-    },
-    'REBCO_layer': {
-        'material': 'GdBCO or YBCO (Gd gives higher Jc near Tc)',
-        'thickness_um': 1.0,   # 1.0–2.0 μm typical
-        'deposition': 'PLD (pulsed laser deposition) or MOCVD',
-        'dopants': 'BZO (1-2 mol%) or BHO (BaHfO3, 1-2 mol%) for flux pinning nanorods',
-        'Jc_self_field_77K': '≥ 3 MA/cm²',  # 3000 A/mm² self-field at 77K
-    },
-    'Ag_overlayer': {
-        'thickness_um': 2,
-        'function': 'Oxidation protection during post-deposition oxygen annealing; contact layer',
-    },
-    'Cu_stabilizer': {
-        'thickness_um': 20,    # electroplated
-        'function': 'Normal-state current bypass (quench protection), RRR ≥ 100',
-    },
-}
-
-def rebco_tape_engineering_Jc(REBCO_thickness_um, tape_width_mm, tape_thickness_um,
-                                Jc_material_Amm2):
-    """
-    Calculate engineering current density Je for REBCO tape.
-    Je = Jc_material × (REBCO cross-section)
-    """
-    A_REBCO = REBCO_thickness_um * 1e-3 * tape_width_mm  # mm²
-    A_tape = tape_width_mm * tape_thickness_um * 1e-3    # mm²
-    fill_factor = A_REBCO
-    Je = Jc_material_Amm2 * fill_factor
-    return Je, fill_factor
-
-Je, ff = rebco_tape_engineering_Jc(1.5, 4.0, 100, Jc_material_Amm2=1500)  # 12T, 4.2K
-print(f"Fill factor: {ff:.3f} ({ff*100:.1f}%), Je = {Je:.0f} A/mm²")
-# Fill factor: 0.015 (1.5%), Je = 22 A/mm²  ← note: low fill factor is the key challenge
-# → 4mm tape Ic at 12T, 4.2K: Je × A_tape = 22 × (4 × 0.1) = 8.8 A/mm² → Ic = 350 A
+[Code block moved to code-block-3.md]
 ```
 
 ✓ Tape texture quality confirmed by XRD (Φ FWHM ≤ 5°)

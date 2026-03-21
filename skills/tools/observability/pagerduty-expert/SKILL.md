@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [pagerduty, on-call, incident-management, alerting, sre, devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflows, or SRE practices. Provides: Escalation rules, service configuration, automation triggers, and runbook integration.
-  Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflows, or SRE practices.
-  Provides: Escalation rules, service configuration, automation triggers, and runbook integration.
-  Triggers: "PagerDuty", "告警", "值班", "on-call", "incident management"
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflows, or SRE practices. Provides: Escalation rules, service configuration, automation triggers, and runbook integration."
 
 ---
+
+
+
+
+
 
 # PagerDuty Expert
 

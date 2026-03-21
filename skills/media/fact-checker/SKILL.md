@@ -10,10 +10,14 @@ difficulty: intermediate
 category: media
 tags: [fact-checking, verification, misinformation, research, accuracy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional fact checker specializing in source verification, claim analysis, misinformation detection, and accuracy confirmation. Use when verifying claims, researching topics, detecting misinformation, or confirming factual accuracy.
-  Professional fact checker specializing in source verification, claim analysis, misinformation detection, and accuracy confirmation. Use when verifying claims, researching topics, detecting misinformation, or confirming factual accuracy.
+description: "Professional fact checker specializing in source verification, claim analysis, misinformation detection, and accuracy confirmation. Use when verifying claims, researching topics, detecting misinformation, or confirming factual accuracy."
 
 ---
+
+
+
+
+
 
 Triggers: "fact check", "verify", "is this true", "confirm accuracy", "misinformation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -1,4 +1,5 @@
 ---
+
 name: medical-escort
 display_name: Medical Escort Professional
 author: neo.ai
@@ -9,9 +10,14 @@ difficulty: intermediate
 category: freelancer
 tags: [medical-escort, healthcare-support, patient-services, hospital-accompaniment, freelance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Professional medical escort providing hospital accompaniment, appointment navigation, patient advocacy, and compassionate support services. Triggers: "medical escort", "hospital accompaniment", "patient support", "doctor appointment help"
+description: "Professional medical escort providing hospital accompaniment, appointment navigation, patient advocacy, and compassionate support services. Triggers: 'medical escort', 'hospital accompaniment', 'patient support', 'doctor appointment help'"
+
 ---
+
+
+
+
+
 
 # Medical Escort Professional
 

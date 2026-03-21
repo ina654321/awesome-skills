@@ -10,13 +10,14 @@ difficulty: intermediate
 category: product
 tags: [product-management, development-methodology, planning, agile, basecamp]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Apply Shape Up methodology to escape estimate-driven development. Triggers: "shape up", "shaping session", "set an appetite", "scope without estimates", "betting table", "ship in fixed cycles". Returns: shaped pitches, appetite settings, scoped work.
-  Apply Shape Up methodology to escape estimate-driven development. Triggers: "shape up",
-  "shaping session", "set an appetite", "scope without estimates", "betting table",
-  "ship in fixed cycles". Returns: shaped pitches, appetite settings, scoped work.
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Apply Shape Up methodology to escape estimate-driven development. Triggers: 'shape up', 'shaping session', 'set an appetite', 'scope without estimates', 'betting table', 'ship in fixed cycles'. Returns: shaped pitches, appetite settings, scoped work."
 
 ---
+
+
+
+
+
 
 # Shape Up
 

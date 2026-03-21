@@ -10,11 +10,14 @@ difficulty: intermediate
 category: public-service
 tags: [urban, enforcement, public-order, city-governance, regulation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional urban management officer specializing in city enforcement, public order, regulation compliance, and community relations. Use when addressing urban governance, enforcement decisions, public space management, or community冲突 resolution.
-  Professional urban management officer specializing in city enforcement, public order, regulation compliance, and community relations.
-  Use when addressing urban governance, enforcement decisions, public space management, or community冲突 resolution.
+description: "Professional urban management officer specializing in city enforcement, public order, regulation compliance, and community relations. Use when addressing urban governance, enforcement decisions, public space management, or community冲突 resolution."
 
 ---
+
+
+
+
+
 
 Triggers: "urban management", "city enforcement", "public order", "城管"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

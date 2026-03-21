@@ -10,12 +10,14 @@ difficulty: intermediate
 category: tools
 tags: [notion, productivity, wiki, database, project-management, api, templates]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Notion expert: database design, template creation, API integration, team workflows, formulas, relations. Use when organizing knowledge, managing projects, or building wikis in Notion.
-  Notion expert: database design, template creation, API integration, team workflows, formulas, relations. Use when organizing knowledge, managing projects, or building wikis in Notion.
-  Triggers: "Notion", "database", "relations", "formulas", "API", "templates", "wiki".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Notion expert: database design, template creation, API integration, team workflows, formulas, relations. Use when organizing knowledge, managing projects, or building wikis in Notion."
 
 ---
+
+
+
+
+
 
 # Notion Expert
 
@@ -176,48 +178,7 @@ Before responding, evaluate:
 ### 7.1 Notion Formulas
 
 ```notion
--- Basic math and conditional
-prop("Revenue") - prop("Cost")
-
--- IF statement
-if(prop("Status") == "Done", "✅", "⏳")
-
--- Nested IF with SWITCH (cleaner)
-switch(prop("Priority"),
-  "High", "🔴",
-  "Medium", "🟡",
-  "Low", "🟢",
-  "⚪"
-)
-
--- Date calculations
-dateBetween(prop("Due Date"), now(), "days")  -- Days until due
-dateBetween(now(), prop("Start Date"), "days")  -- Days since start
-
--- Conditional with date
-if(dateBetween(prop("Due Date"), now(), "days") < 0,
-  "🔴 Overdue",
-  if(dateBetween(prop("Due Date"), now(), "days") < 3,
-    "🟡 Due Soon",
-    "✅ On Track"
-  )
-)
-
--- Concatenate with formatting
-"Project: " + prop("Name") + " | Status: " + prop("Status")
-
--- Count related items (Rollup)
--- Use Rollup property on relation, count()
-prop("Tasks").length()
-
--- Boolean conditions
-and(prop("Revenue") > 10000, prop("Status") == "Active")
-
--- Text manipulation
-slice(prop("Name"), 0, 50)  -- First 50 chars
-contains(prop("Tags"), "urgent")  -- Boolean check
-replace(prop("Name"), "old", "new")  -- Find and replace
-lower(prop("Name"))  -- Lowercase
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Database Views
@@ -248,69 +209,7 @@ Color: Type
 ### 7.3 Notion API Patterns
 
 ```javascript
-// Node.js / Notion SDK
-const { Client } = require('@notionhq/client');
-
-const notion = new Client({ auth: process.env.NOTION_TOKEN });
-
-// Query database with filters
-async function getActiveProjects() {
-  const response = await notion.databases.query({
-    database_id: process.env.PROJECTS_DB,
-    filter: {
-      property: 'Status',
-      select: { equals: 'Active' }
-    },
-    sorts: [{ property: 'Due Date', direction: 'ascending' }]
-  });
-  return response.results;
-}
-
-// Create a new page in database
-async function createTask(data) {
-  await notion.pages.create({
-    parent: { database_id: process.env.TASKS_DB },
-    properties: {
-      Name: { title: [{ text: { content: data.title } }] },
-      Status: { select: { name: 'Backlog' } },
-      Priority: { select: { name: data.priority || 'Medium' } },
-      Project: { relation: [{ id: data.projectId }] },
-      'Due Date': { date: { start: data.dueDate } }
-    },
-    children: [
-      {
-        object: 'block',
-        type: 'heading_2',
-        heading_2: { rich_text: [{ text: { content: 'Description' } }] }
-      },
-      {
-        object: 'block',
-        type: 'paragraph',
-        paragraph: { rich_text: [{ text: { content: data.description } }] }
-      }
-    ]
-  });
-}
-
-// Update page properties
-async function updateTaskStatus(pageId, status) {
-  await notion.pages.update({
-    page_id: pageId,
-    properties: {
-      Status: { select: { name: status } }
-    }
-  });
-}
-
-// Search pages
-async function searchPages(query) {
-  const response = await notion.search({
-    query: query,
-    filter: { value: 'page', property: 'object' },
-    sort: { direction: 'descending', timestamp: 'last_edited_time' }
-  });
-  return response.results;
-}
+[Code block moved to code-block-1.md]
 ```
 
 ---

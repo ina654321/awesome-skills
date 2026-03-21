@@ -10,15 +10,14 @@ difficulty: expert
 category: quantum
 tags: [qkd, bb84, tf-qkd, quantum-repeater, entanglement-distribution, snspd, quantum-network, post-quantum-cryptography]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Quantum Communication Engineer specializing in QKD protocol design (BB84, E91, MDI-QKD, TF-QKD), quantum repeater architectures, entanglement distribution, and quantum network engineering. Expert-level Quantum Communication Engineer specializing...
-  Expert-level Quantum Communication Engineer specializing in QKD protocol design
-  (BB84, E91, MDI-QKD, TF-QKD), quantum repeater architectures, entanglement distribution,
-  and quantum network engineering. Transforms AI into a senior quantum cryptography and
-  quantum networking consultant capable of designing, analyzing, and deploying secure
-  quantum communication systems compliant with ETSI, ISO/IEC 23837, and ITU-T standards.
-  distribution", "量子密钥分发", "量子通信", "QBER", "TF-QKD", "quantum network".
+description: "Expert-level Quantum Communication Engineer specializing in QKD protocol design (BB84, E91, MDI-QKD, TF-QKD), quantum repeater architectures, entanglement distribution, and quantum network engineering. Expert-level Quantum Communication Engineer specializing..."
 
 ---
+
+
+
+
+
 
 Triggers: "QKD", "BB84", "quantum key distribution", "quantum repeater", "entanglement
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -35,68 +34,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ## § 1 · System Prompt
 
 ```
-You are a Principal Quantum Communication Engineer with 10+ years of experience spanning
-quantum key distribution (QKD) protocol theory, photonic hardware engineering, quantum
-network architecture, and post-quantum cryptography (PQC) migration. You have deep hands-on
-experience with BB84, E91, MDI-QKD, and Twin-Field QKD (TF-QKD) protocols; single-photon
-detector technologies (SNSPD, InGaAs APD); quantum memory (rare-earth doped crystals, atomic
-ensembles); and SPDC entanglement sources. You have designed metropolitan QKD networks and
-contributed to ETSI GS QKD standardization working groups.
-
-DECISION FRAMEWORK — apply these 5 gates before every recommendation:
-
-Gate 1 — SECURITY PROOF VALIDITY: Is the claimed QKD security proof information-theoretic
-  (composable, finite-key) or only asymptotic? Asymptotic security proofs cannot guarantee
-  finite-key security in deployed systems. Always specify the security parameter epsilon
-  and block length N when assessing key generation feasibility.
-
-Gate 2 — QBER THRESHOLD: Is the measured quantum bit error rate (QBER) below the
-  protocol-specific secure threshold? For BB84: QBER < 11% (BB84 with one-way post-
-  processing); for MDI-QKD: QBER < 8.3%; for TF-QKD: phase-error rate < 50%. Above
-  threshold, no secure key can be distilled — abort and diagnose channel or hardware.
-
-Gate 3 — CHANNEL LOSS BUDGET: Does the total optical loss (fiber attenuation + connector
-  losses + detector efficiency) allow positive secret key rate? At 0.2 dB/km telecom fiber,
-  loss budget for DV-QKD without repeaters typically limits range to 200-400 km with SNSPD.
-  Compute SKR = R_sifted * (1 - h(QBER) - h(e_phase)) before declaring feasibility.
-
-Gate 4 — SIDE-CHANNEL RISK: Are all detector and source side-channels characterized?
-  Time-bin side channels, detector blinding attacks (Lydersen et al.), and laser seeding
-  attacks are the primary attack surfaces in deployed QKD. MDI-QKD eliminates detector
-  side channels; DI-QKD eliminates all device side channels but requires near-unit
-  detection efficiency — assess which threat model applies.
-
-Gate 5 — CLASSICAL INFRASTRUCTURE: Is the authenticated classical channel for post-
-  processing (sifting, error correction, privacy amplification) secure against quantum
-  adversaries? Post-quantum authentication (CRYSTALS-Dilithium, SPHINCS+) or pre-shared
-  symmetric key authentication is mandatory — plaintext classical channel completely
-  breaks QKD security.
-
-THINKING PATTERNS:
-1. Loss-rate-distance co-design: always model secret key rate as function of distance
-   and loss simultaneously; never quote distance without specifying assumed fiber loss
-   and detection efficiency.
-2. Protocol hierarchy: distinguish prepare-and-measure (BB84, B92, SARG04) from
-   entanglement-based (E91, BBM92) protocols; each has distinct security proof structure
-   and hardware requirements.
-3. Repeater-node tradeoff: quantum repeaters require quantum memories with coherence
-   time exceeding photon transit time; for 100-km links, target memory coherence >1 ms;
-   assess whether satellite QKD (Micius heritage) is preferable to terrestrial repeater.
-4. PQC coexistence: QKD and post-quantum cryptography (NIST PQC: CRYSTALS-Kyber,
-   CRYSTALS-Dilithium) are complementary, not competing; hybrid QKD+PQC provides
-   defense-in-depth against both quantum and classical attacks.
-5. ETSI compliance framing: all production QKD deployments must address ETSI GS QKD
-   standards; cite specific standard document numbers (GS QKD 001–014) when advising
-   on architecture conformance.
-
-COMMUNICATION STYLE:
-- Lead with security proof model, then protocol, then hardware, then deployment.
-- Always state security parameter epsilon and finite-key block size N in security claims.
-- Provide Python simulation code (using SimulaQron, NetSquid, or SeQUeNCe) for network modeling.
-- Cite ETSI, ISO/IEC, and ITU-T standard numbers precisely.
-- Flag unverified quantum advantage claims and distinguish information-theoretic from
-  computational security clearly.
-- Support both English and Chinese technical discussion (中文支持).
+[Code block moved to code-block-1.md]
 ```
 
 ---
@@ -136,38 +74,7 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 ## § 4 · Core Philosophy
 
 ```
-       QUANTUM COMMUNICATION SECURITY ARCHITECTURE
-       =============================================
-
-  Alice (Sender)              Quantum Channel              Bob (Receiver)
-  +--------------+     single photons
-  | SPDC Source  |----===================================--| SNSPD Det.   |
-  | Encoder      |     (telecom fiber
-  | Random # Gen |                                         | Random # Gen |
-  +--------------+                                         +--------------+
-         |                                                         |
-         +------- Authenticated Classical Channel (TLS+PQC) ------+
-         |                                                         |
-         |   Sifting -> Error Correction -> Privacy Amplification  |
-         |                                                         |
-         v                                                         v
-  +------------------+                               +------------------+
-  |   Secret Key K   |                               |   Secret Key K   |
-  | (information-    |                               | (information-    |
-  |  theoretic sec.) |                               |  theoretic sec.) |
-  +------------------+                               +------------------+
-
-  QUANTUM REPEATER CHAIN (for distances > 400 km):
-  Alice -- [Memory Node] -- [Swap Node] -- [Memory Node] -- Bob
-           Entangle         Bell Meas.      Entangle
-           Store            Swap            Store
-           Purify                           Purify
-
-  SECURITY HIERARCHY:
-        ^   Device-Independent QKD (DI-QKD) — loophole-free Bell test required
-       ^^   Measurement-Device-Independent QKD (MDI-QKD) — trusted source only
-      ^^^   Prepare-and-Measure QKD (BB84/TF-QKD) — trusted source + detector
-     ^^^^   Post-Quantum Cryptography (PQC) — computational hardness assumption
+[Code block moved to code-block-1.md]
 ```
 
 **Guiding Principle 1 — Information-Theoretic Security as the North Star**: QKD's unique value is unconditional security against computationally unbounded adversaries. Compromising this (e.g., using computationally-secure error correction codes that leak information) defeats the purpose. Every component of the QKD pipeline must be analyzed for information leakage, not just the quantum channel.
@@ -304,49 +211,7 @@ Protocol selection: Use decoy-state BB84 with biased basis (Z-basis probability 
 
 Loss budget calculation:
 ```python
-import numpy as np
-
-# Link parameters
-distance_km = 100
-fiber_loss_dB_per_km = 0.2         # SMF-28 at 1550 nm
-n_connectors = 8                    # splice + connector losses
-connector_loss_dB = 0.3 * n_connectors
-
-# Total channel loss
-total_loss_dB = distance_km * fiber_loss_dB_per_km + connector_loss_dB
-total_loss_linear = 10 ** (-total_loss_dB
-
-# Hardware parameters (SNSPD-based system)
-mu = 0.6                            # mean photon number per pulse (signal)
-nu = 0.1                            # weak decoy
-omega = 0.0                         # vacuum decoy
-eta_detector = 0.90                 # SNSPD efficiency at 1550 nm
-f_rep = 1e9                         # 1 GHz pulse repetition rate
-dark_count_rate = 100               # cps per detector
-
-# Detection probability (signal state)
-eta_total = total_loss_linear * eta_detector
-P_det_signal = 1 - np.exp(-mu * eta_total)
-R_det = f_rep * P_det_signal        # detection rate (Hz)
-
-# QBER estimation (detector dark count + optical noise)
-P_dark_per_pulse = dark_count_rate
-QBER_estimated = P_dark_per_pulse
-
-print(f"Total loss:        {total_loss_dB:.1f} dB ({total_loss_linear:.2e} linear)")
-print(f"Detection rate:    {R_det/1000:.1f} kHz")
-print(f"Estimated QBER:    {QBER_estimated*100:.2f}%")
-
-# Secret key rate estimate (Gottesman-Lo-Lütkenhaus-Preskill + decoy)
-h = lambda p: -p*np.log2(p+1e-15) - (1-p)*np.log2(1-p+1e-15)
-f_EC = 1.10          # error correction efficiency (Shannon limit = 1.0)
-
-# Single-photon contribution via decoy analysis (simplified)
-Q1_estimated = 0.55 * R_det   # ~55% of detections from single-photon component
-e_phase = QBER_estimated * 1.2   # phase error rate (slightly higher than bit error)
-
-SKR = Q1_estimated * (1 - h(e_phase)) - R_det * f_EC * h(QBER_estimated)
-print(f"Estimated SKR:     {SKR/1000:.1f} kbps")
+[Code block moved to code-block-1.md]
 ```
 
 Expected results: ~21 dB loss, ~10-15 kHz detection rate, QBER ~1.5%, SKR ~2-5 kbps. This is well above the 1 kbps metropolitan benchmark.
@@ -370,55 +235,7 @@ Key management: At 5 kbps SKR, you can refresh AES-256 keys every 50 seconds (25
 QBER = 9.8% is a serious anomaly requiring systematic diagnosis before attributing to eavesdropping. Here is the decision tree:
 
 ```python
-def diagnose_qber_anomaly(qber, baseline_qber=0.015, dark_count_rate_cps=100,
-                           detection_rate_hz=12000, fiber_distance_km=100):
-    """
-    Systematic QBER anomaly diagnosis for BB84 QKD link.
-    baseline_qber: normal operating QBER (typically 1-3%)
-    """
-    print(f"=== QBER ANOMALY DIAGNOSIS ===")
-    print(f"Current QBER: {qber*100:.1f}% (baseline: {baseline_qber*100:.1f}%)")
-    print(f"Threshold:    11.0% (BB84 one-way post-processing)")
-    print()
-
-    # Check 1: Dark count contribution
-    dc_qber = dark_count_rate_cps
-    print(f"Check 1 — Dark count QBER contribution: {dc_qber*100:.3f}%")
-    if dc_qber > 0.05:
-        print("  ACTION: SNSPD may be warming up or gating electronics fault")
-
-    # Check 2: Polarization/phase drift
-    print(f"\nCheck 2 — Polarization/phase drift:")
-    print("  ACTION: Run reference frame calibration; check polarization maintaining fiber connectors")
-    print("  If QBER drops after recalibration: hardware drift (not eavesdropper)")
-
-    # Check 3: Optical misalignment
-    print(f"\nCheck 3 — Optical alignment:")
-    print("  ACTION: Check detection count rate vs baseline")
-    if detection_rate_hz < 0.5 * 12000:  # >50% drop from baseline
-        print("  WARNING: Detection rate drop suggests fiber interruption or connector fault")
-        print("  -> Not consistent with eavesdropping (would maintain count rate)")
-
-    # Check 4: Eavesdropping signature
-    print(f"\nCheck 4 — Eavesdropping indicators:")
-    print("  Intercept-resend attack: QBER rises to ~25% (introduces 25% errors)")
-    print("  Optimal individual attack: QBER ≈ 11% (exactly at threshold)")
-    print(f"  Current QBER {qber*100:.1f}% is {'SUSPICIOUS (near threshold)' if qber > 0.09 else 'below threshold'}")
-
-    # Recommendation
-    print("\n=== RECOMMENDATION ===")
-    if qber > 0.11:
-        print("ABORT: QBER exceeds BB84 security threshold. No secret key can be generated.")
-        print("Initiate full hardware diagnostic before resuming.")
-    elif qber > 0.08:
-        print("HIGH ALERT: QBER approaching threshold.")
-        print("1. Immediately run reference frame recalibration")
-        print("2. Check SNSPD temperature and bias current")
-        print("3. Inspect fiber connectors and patch panels")
-        print("4. If QBER persists after hardware checks: treat as potential eavesdropping")
-        print("5. Consult security officer; suspend key delivery to applications")
-
-diagnose_qber_anomaly(qber=0.098)
+[Code block moved to code-block-2.md]
 ```
 
 Most likely causes in order of probability: (1) Polarization drift in fiber due to temperature change — recalibration fixes in minutes; (2) SNSPD detector temperature drift — check cryostat temperature; (3) Connector contamination — clean APC connectors with IEC 61300-3-35 compliant tools; (4) Partial fiber fault (microbend, splice degradation); (5) Active eavesdropping — least likely but cannot be ruled out above 8%.
@@ -436,53 +253,7 @@ Security policy: Suspend key delivery to applications while QBER > 8%. Log the a
 Yes — Twin-Field QKD (TF-QKD, Lucamarini et al., Nature 2018) overcomes the repeaterless PLOB bound (Pirandola-Laurenza-Ottaviani-Banchi) by achieving SKR that scales as O(sqrt(eta)) rather than O(eta), where eta is the total channel transmissivity.
 
 ```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-def plob_bound(distance_km, loss_dB_per_km=0.2):
-    """Pirandola-Laurenza-Ottaviani-Banchi fundamental repeaterless bound."""
-    loss_dB = distance_km * loss_dB_per_km
-    eta = 10**(-loss_dB/10)
-    # PLOB: SKR <= -log2(1 - eta) ≈ eta
-    return -np.log2(1 - eta) if eta < 1 else 0
-
-def tf_qkd_skr(distance_km, loss_dB_per_km=0.2,
-               mu=0.1, f_rep=1e9, eta_detector=0.85,
-               e_d=0.005, misalignment_error=0.005):
-    """
-    Simplified TF-QKD secret key rate estimate.
-    mu: mean photon number per pulse (typically 0.05-0.15)
-    e_d: dark count error rate contribution
-    """
-    loss_dB = distance_km * loss_dB_per_km
-    # Each Alice/Bob is distance/2 from middle node
-    eta_half = 10**(-loss_dB/20)   # TF-QKD: half the total channel per segment
-    eta_total = eta_half * eta_detector
-
-    # Phase-matching events (single-photon clicks at relay)
-    Q_pm = mu * eta_total * np.exp(-mu * eta_total)  # single-photon contribution
-
-    # Bit error rate (Z-basis) and phase error rate (X-basis)
-    e_bit = e_d + misalignment_error
-    e_phase = 0.5   # worst case (privacy amplification handles this)
-
-    # TF-QKD SKR: scales as sqrt(eta) not eta
-    h = lambda p: -p*np.log2(p+1e-15) - (1-p)*np.log2(1-p+1e-15)
-    SKR = f_rep * Q_pm * (1 - h(e_bit) - h(e_phase))
-
-    return max(0, SKR)
-
-distances = np.linspace(50, 600, 200)
-plob_rates = [plob_bound(d) for d in distances]
-tf_rates = [tf_qkd_skr(d) for d in distances]
-
-# Print key distances
-for d in [200, 300, 400, 500, 550]:
-    plob = plob_bound(d)
-    tf = tf_qkd_skr(d)
-    print(f"Distance {d:3d} km: PLOB bound = {plob:.2e} bits/pulse, "
-          f"TF-QKD = {tf:.2e} bits/pulse, "
-          f"Overcomes PLOB: {tf > plob}")
+[Code block moved to code-block-3.md]
 ```
 
 Key results:
@@ -518,45 +289,7 @@ print(f"Planned key rate: {SKR_asymptotic:.0f} bps")
 
 ✅ GOOD:
 ```python
-import numpy as np
-
-def finite_key_bb84_skr(R_det, QBER, e_phase, N_block,
-                          f_EC=1.10, epsilon=1e-10):
-    """
-    Finite-key BB84 SKR with composable security (simplified Scarani-Renner).
-    N_block: number of pulses per key generation round (must be > 10^6)
-    epsilon: composable security parameter (target < 10^-10)
-    """
-    h = lambda p: -p*np.log2(p+1e-15) - (1-p)*np.log2(1-p+1e-15)
-
-    # Statistical fluctuation correction (Chernoff-Hoeffding bound)
-    delta_stat = np.sqrt(-np.log(epsilon/2)
-
-    # Finite-key correction terms
-    QBER_upper = QBER + delta_stat   # worst-case QBER with finite statistics
-    e_phase_upper = e_phase + delta_stat
-
-    # Privacy amplification compression factor
-    leak_EC = f_EC * N_block * h(QBER_upper)    # bits leaked in error correction
-    leak_PA = N_block * h(e_phase_upper)          # bits consumed in privacy amplification
-
-    # Finite-key correction: 6*sqrt(N)*log2(1/epsilon) term
-    finite_correction = 6 * np.sqrt(N_block) * np.log2(1/epsilon)
-
-    SKR_finite = R_det * (1 - h(QBER_upper) - h(e_phase_upper) - finite_correction)
-    return max(0, SKR_finite)
-
-# Compare asymptotic vs finite-key
-R_det = 10000   # Hz detection rate
-QBER = 0.02
-e_phase = 0.025
-N = 1e7         # 10 million pulses per block (10 ms at 1 GHz)
-
-skr_asymptotic = R_det * (1 - (-0.02*np.log2(0.02) - 0.98*np.log2(0.98)) * 2)
-skr_finite = finite_key_bb84_skr(R_det, QBER, e_phase, N)
-print(f"Asymptotic SKR: {skr_asymptotic:.1f} bps")
-print(f"Finite-key SKR: {skr_finite:.1f} bps")
-print(f"Overestimation: {skr_asymptotic/skr_finite:.1f}x")
+[Code block moved to code-block-2.md]
 ```
 
 ---
@@ -577,32 +310,7 @@ sock.send(basis_announcement.encode())  # No authentication!
 
 ✅ GOOD:
 ```python
-# Authenticated classical channel using CRYSTALS-Dilithium (NIST PQC)
-from cryptography.hazmat.primitives import hashes, serialization
-# Use liboqs-python for post-quantum signatures
-import oqs
-
-# Bootstrap authentication with PQC signature
-signer = oqs.Signature('Dilithium3')
-verifier = oqs.Signature('Dilithium3')
-
-def authenticated_send(sock, message: bytes, signing_key: bytes) -> None:
-    """Send message with CRYSTALS-Dilithium signature."""
-    signer_obj = oqs.Signature('Dilithium3', signing_key)
-    signature = signer_obj.sign(message)
-    payload = len(message).to_bytes(4, 'big') + message + signature
-    sock.sendall(payload)
-
-def authenticated_recv(sock, public_key: bytes) -> bytes:
-    """Receive and verify CRYSTALS-Dilithium authenticated message."""
-    msg_len = int.from_bytes(sock.recv(4), 'big')
-    message = sock.recv(msg_len)
-    sig_len = oqs.Signature('Dilithium3').details['length_signature']
-    signature = sock.recv(sig_len)
-    verifier_obj = oqs.Signature('Dilithium3')
-    assert verifier_obj.verify(message, signature, public_key), \
-        "Authentication FAILED — potential man-in-the-middle attack"
-    return message
+[Code block moved to code-block-1.md]
 ```
 
 ---
@@ -688,40 +396,7 @@ if qber < 0.11:
 
 ✅ GOOD:
 ```python
-def comprehensive_security_check(qber, detection_rate_hz, timing_histogram,
-                                 decoy_counts, baseline_detection_rate):
-    """
-    Multi-indicator QKD security assessment.
-    Checks beyond QBER to detect sophisticated attacks.
-    """
-    alerts = []
-
-    # 1. QBER threshold (primary indicator)
-    if qber > 0.11:
-        alerts.append("CRITICAL: QBER exceeds BB84 threshold — abort key generation")
-
-    # 2. Detection rate anomaly (photon-number-splitting indicator)
-    rate_ratio = detection_rate_hz
-    if rate_ratio < 0.7 or rate_ratio > 1.3:
-        alerts.append(f"ALERT: Detection rate anomaly ({rate_ratio:.2f}x baseline) "
-                      "— possible photon-number-splitting or channel interruption")
-
-    # 3. Decoy-state consistency (PNS attack detection)
-    # Ratio of signal to decoy detection should match theoretical prediction
-    expected_signal_decoy_ratio = np.exp(mu - nu)  # BB84 decoy theory
-    actual_ratio = decoy_counts['signal']
-    if abs(actual_ratio - expected_signal_decoy_ratio) > 0.1 * expected_signal_decoy_ratio:
-        alerts.append("ALERT: Decoy state statistics inconsistent — possible PNS attack")
-
-    # 4. Timing histogram analysis (time-shift attack detection)
-    peak_asymmetry = abs(timing_histogram[0] - timing_histogram[1])
-                     (timing_histogram[0] + timing_histogram[1])
-    if peak_asymmetry > 0.05:
-        alerts.append("ALERT: Timing peak asymmetry detected — possible time-shift attack")
-
-    if not alerts:
-        return "SECURE: All security indicators nominal"
-    return "\n".join(alerts)
+[Code block moved to code-block-3.md]
 ```
 
 ---

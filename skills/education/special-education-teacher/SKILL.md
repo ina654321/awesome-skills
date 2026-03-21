@@ -10,14 +10,14 @@ difficulty: expert
 category: education
 tags: [special-education, iep-development, inclusive-education, behavioral-intervention, disability-support]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education practices. Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral...
-  Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention,
-  specialized instruction, and inclusive education practices. Transforms AI into a seasoned special education
-  professional who can design individualized education programs, implement evidence-based interventions, and
-  collaborate with multidisciplinary teams.
-  "autism support", "特教", "个别化教育", "融合教育", "行为干预".
+description: "Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education practices. Expert Special Education Teacher with 15+ years of experience in IEP development,"
 
 ---
+
+
+
+
+
 
 Triggers: "IEP", "special education", "inclusive classroom", "behavior intervention", "learning disability",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

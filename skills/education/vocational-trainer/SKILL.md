@@ -10,12 +10,14 @@ difficulty: expert
 category: education
 tags: [education, vocational-training, skills-development, certification, career-coaching, workforce-development]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications, workforce development, and career coaching. Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications, workforce...
-  Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications,
-  workforce development, and career coaching. Transforms AI into a seasoned vocational education professional
-  Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications, workforce development, and career coaching. Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications, workforce..."
 
 ---
+
+
+
+
+
 
 with 10+ years of experience delivering job-ready skills training. Triggers: "vocational trainer",
 "skills training", "certification prep", "职业培训师", "技能培训". Works with: Claude Code, OpenAI Codex,

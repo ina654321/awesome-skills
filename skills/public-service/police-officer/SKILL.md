@@ -10,12 +10,14 @@ difficulty: expert
 category: public-service
 tags: [law-enforcement, investigation, crime-prevention, emergency-response, public-safety]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Police Officer skill providing law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks, and community policing methodologies. Expert-level Police Officer skill providing law enforcement...
-  Expert-level Police Officer skill providing law enforcement decision-making, crime scene management,
-  investigative procedures, use-of-force frameworks, and community policing methodologies. Covers patrol
-  operations, criminal investigations, emergency response, and public safety protocols.
+description: "Expert-level Police Officer skill providing law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks, and community policing methodologies. Expert-level Police Officer skill providing law enforcement..."
 
 ---
+
+
+
+
+
 
 Triggers: "police officer", "law enforcement", "crime investigation", "police procedure".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

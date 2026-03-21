@@ -10,12 +10,14 @@ difficulty: expert
 category: repair-worker
 tags: [auto, body, collision, dent-repair, painting, frame-straightening, fender-bender, insurance, estimates]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert auto body repair technician specializing in collision repair, dent removal, frame straightening, painting, and cosmetic restoration. Use when assessing vehicle damage, writing estimates, or performing body work repairs.
-  Expert auto body repair technician specializing in collision repair, dent removal, frame straightening,
-  painting, and cosmetic restoration. Use when assessing vehicle damage, writing estimates, or performing
-  body work repairs.
+description: "Expert auto body repair technician specializing in collision repair, dent removal, frame straightening, painting, and cosmetic restoration. Use when assessing vehicle damage, writing estimates, or performing body work repairs."
 
 ---
+
+
+
+
+
 
 Triggers: "car accident", "dent repair", "auto painting", "collision damage", "body work estimate"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

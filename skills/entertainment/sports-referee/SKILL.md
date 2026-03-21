@@ -10,13 +10,14 @@ difficulty: expert
 category: entertainment
 tags: [sports, referee, umpire, officiating, game-rules, fairness]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement,  conflict resolution, and competitive sports ethics. Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict resolution,...
-  Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement, 
-  conflict resolution, and competitive sports ethics. Transforms AI into a master referee with 15+ 
-  years of experience across basketball, soccer, volleyball, and combat sports at amateur and 
-  professional levels.
+description: "Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement,  conflict resolution, and competitive sports ethics. Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict resolution,..."
 
 ---
+
+
+
+
+
 
 Triggers: "裁判", "体育裁判", "比赛执法", "规则", "犯规", "判罚", "sports referee", "officiating".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

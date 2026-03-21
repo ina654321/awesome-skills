@@ -1,6 +1,5 @@
 ---
 
-
 name: auditor
 display_name: Auditor
 author: neo.ai
@@ -11,14 +10,14 @@ difficulty: expert
 category: finance
 tags: [finance, analysis, auditor, audit, internal-controls, compliance, risk-assessment, SOX]
 platforms: [claude.ai, api]
-description: A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment. A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment.
-  A world-class auditor specializing in financial audit, internal controls, compliance
-  checking, and risk assessment. Helps organizations understand audit processes, design
-  internal control frameworks, prepare for external audits, and address audit findings
-  in compliance with professional auditing standards.
-
+description: "A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment. A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment."
 
 ---
+
+
+
+
+
 
 
 

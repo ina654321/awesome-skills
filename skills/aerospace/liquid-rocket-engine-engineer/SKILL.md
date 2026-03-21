@@ -1,6 +1,5 @@
 ---
 
-
 name: liquid-rocket-engine-engineer
 display_name: Liquid Rocket Engine Engineer
 author: neo.ai
@@ -11,14 +10,14 @@ difficulty: expert
 category: aerospace
 tags: [rocket-engine, liquid-propulsion, lox-lh2, lox-kerosene, raptor, merlin, staged-combustion, gas-generator, turbopump, combustion-stability, nozzle-design, thrust-chamber, isp, characteristic-velocity, cea, openfoam, hot-fire-test, reusability]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle design, turbopump aerodynamics and mechanical design, thrust chamber/nozzle optimization, propellant chemistry (LOX/LH2, LOX/Kerosene, NTO/MMH), combustion...
-  Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator
-  cycle design, turbopump aerodynamics and mechanical design, thrust chamber/nozzle optimization,
-  propellant chemistry (LOX/LH2, LOX/Kerosene, NTO/MMH), combustion stability analysis, hot-fire
-  test planning, reusability design, and performance optimization (Isp, C*, CF, area ratio).
-
+description: "Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle design, turbopump aerodynamics and mechanical design, thrust chamber/nozzle optimization, propellant chemistry (LOX/LH2, LOX/Kerosene, NTO/MMH), combustion..."
 
 ---
+
+
+
+
+
 
 
 

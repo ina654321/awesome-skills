@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [jenkins, cicd, automation, pipelines, devops, jenkinsfile, shared-libraries, jenkins-agents]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Plugin Configuration, Blue Ocean. Use when building CI/CD pipelines with Jenkins, creating shared libraries, or managing Jenkins agents.
-  Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Plugin Configuration, Blue Ocean. Use when building CI/CD pipelines with Jenkins, creating shared libraries, or managing Jenkins agents.
-  Triggers: "Jenkins", "Pipeline", "CI/CD", "自动化构建", "Jenkinsfile", "Shared Library".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Plugin Configuration, Blue Ocean. Use when building CI/CD pipelines with Jenkins, creating shared libraries, or managing Jenkins agents."
 
 ---
+
+
+
+
+
 
 # Jenkins Expert
 
@@ -160,111 +162,7 @@ Before designing a Jenkins pipeline:
 ### 7.1 Declarative Pipeline Template
 
 ```groovy
-pipeline {
-    agent {
-        docker {
-            image 'node:20-alpine'
-            args '-v /home/jenkins/workspace:/home/jenkins/workspace'
-        }
-    }
-    
-    options {
-        buildDiscarder(logRotator(numToKeepStr: '30'))
-        timeout(time: 30, unit: 'MINUTES')
-        timestamps()
-    }
-    
-    environment {
-        NODE_VERSION = '20'
-        NPM_CONFIG_CACHE = 'npm-cache'
-    }
-    
-    stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-        
-        stage('Install Dependencies') {
-            steps {
-                sh 'npm ci'
-            }
-        }
-        
-        stage('Lint') {
-            steps {
-                sh 'npm run lint'
-            }
-            post {
-                always {
-                    junit 'junit.xml'
-                }
-            }
-        }
-        
-        stage('Test') {
-            parallel {
-                stage('Unit Tests') {
-                    steps {
-                        sh 'npm run test:unit'
-                    }
-                }
-                stage('Integration Tests') {
-                    steps {
-                        sh 'npm run test:integration'
-                    }
-                }
-            }
-            post {
-                always {
-                    junit 'junit.xml'
-                    publishHTML target: [
-                        reportDir: 'coverage',
-                        reportFiles: 'index.html',
-                        reportName: 'Coverage Report'
-                    ]
-                }
-            }
-        }
-        
-        stage('Build') {
-            steps {
-                sh 'npm run build'
-            }
-            post {
-                success {
-                    archiveArtifacts artifacts: 'dist/**', fingerprint: true
-                }
-            }
-        }
-        
-        stage('Deploy') {
-            when {
-                branch 'main'
-            }
-            steps {
-                sh './deploy.sh production'
-            }
-        }
-    }
-    
-    post {
-        always {
-            cleanWs()
-        }
-        success {
-            emailext subject: "Build Success: ${env.JOB_NAME}",
-                     body: "Build ${env.BUILD_NUMBER} succeeded",
-                     recipientProviders: [culprits(), requestor()]
-        }
-        failure {
-            emailext subject: "Build Failed: ${env.JOB_NAME}",
-                     body: "Build ${env.BUILD_NUMBER} failed",
-                     recipientProviders: [culprits(), requestor()]
-        }
-    }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Shared Library Structure
@@ -289,48 +187,7 @@ resources/
 ### 7.3 Kubernetes Agent Configuration
 
 ```groovy
-podTemplate(
-    label: 'jenkins-agent',
-    imagePullPolicy: 'IfNotPresent',
-    containers: [
-        containerTemplate(
-            name: 'jnlp',
-            image: 'jenkins/inbound-agent:latest',
-            workingDir: '/home/jenkins/agent',
-            resourceRequestCpu: '500m',
-            resourceLimitCpu: '1000m',
-            resourceRequestMemory: '512Mi',
-            resourceLimitMemory: '1Gi'
-        ),
-        containerTemplate(
-            name: 'node',
-            image: 'node:20-alpine',
-            command: 'cat',
-            ttyEnabled: true
-        ),
-        containerTemplate(
-            name: 'docker',
-            image: 'docker:24-dind',
-            command: 'dockerd-entrypoint.sh',
-            ttyEnabled: true,
-            privileged: true
-        )
-    ]
-) {
-    node('jenkins-agent') {
-        stage('Build') {
-            container('node') {
-                sh 'npm ci && npm run build'
-            }
-        }
-        
-        stage('Build Docker') {
-            container('docker') {
-                sh 'docker build -t myapp:latest .'
-            }
-        }
-    }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ---

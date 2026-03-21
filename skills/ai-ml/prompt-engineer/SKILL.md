@@ -10,12 +10,14 @@ difficulty: expert
 category: ai-ml
 tags: [ai, prompt-engineering, llm, rag, agent]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and...
-  Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs,
-  evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows.
-  "RAG", "agent workflow", "system prompt", "prompt optimization", "AI application".
+description: "Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and..."
 
 ---
+
+
+
+
+
 
 Triggers: "prompt engineering", "prompt design", "few-shot", "chain-of-thought",
 

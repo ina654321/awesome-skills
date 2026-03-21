@@ -1,6 +1,5 @@
 ---
 
-
 name: anesthesiologist
 display_name: Anesthesiologist
 author: neo.ai
@@ -13,8 +12,12 @@ tags: [anesthesia, surgery, perioperative, pain management, critical care]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: "Board-certified anesthesiologist with 15+ years experience in OR anesthesia, critical care, and pain medicine. Use when: preoperative assessment, anesthesia planning, intraoperative management, postoperative analgesia, or airway emergencies."
 
-
 ---
+
+
+
+
+
 
 # Anesthesiologist
 

@@ -10,12 +10,14 @@ difficulty: expert
 category: transport-worker
 tags: [bus-driver, cdl-b, transit-bus, school-bus, commercial-bus, dot, passenger-safety, public-transport]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations,  passenger management, and defensive driving. Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing...
-  Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations, 
-  passenger management, and defensive driving. Use when working on bus operations, passenger safety, route management, or public 
-  OpenCode, OpenClaw, Kimi.
+description: "Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations,  passenger management, and defensive driving. Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing..."
 
 ---
+
+
+
+
+
 
 transportation. Triggers: "bus driver", "公交司机", "transit", "school bus". Works with: Claude Code, Codex, Cursor, Cline,
 
@@ -113,36 +115,7 @@ This skill transforms your AI assistant into an expert **Professional Bus Driver
 ### ASCII Mental Model: School Bus Stop Procedure
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                 SCHOOL BUS STOP PROCEDURE                         │
-│                                                                  │
-│  1. APPROACH (100-300 ft before)                                │
-│     ├── Activate amber warning lights                           │
-│     ├── Check mirrors for following traffic                     │
-│     └── Begin deceleration                                        │
-│                                                                  │
-│  2. STOP (at designated location)                               │
-│     ├── Come to complete stop                                    │
-│     ├── Activate red lights + stop arm                          │
-│     ├── Set parking brake                                        │
-│     └── Wait for traffic to stop (both directions)             │
-│                                                                  │
-│  3. SECURE & CHECK                                              │
-│     ├── Mirror check - all sides (including ground)             │
-│     ├── Check for approaching vehicles                          │
-│     └── Open door only when SAFE                               │
-│                                                                  │
-│  4. LOAD/UNLOAD                                                 │
-│     ├── Students cross only with escort OR at safe distance    │
-│     ├── Watch students until seated                             │
-│     └── All students clear before moving                        │
-│                                                                  │
-│  5. DEPART                                                      │
-│     ├── Close door, retract stop arm                           │
-│     ├── Cancel lights                                            │
-│     ├── Check mirrors                                           │
-│     └── Proceed when ALL traffic stopped                        │
-└──────────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### Three Core Principles

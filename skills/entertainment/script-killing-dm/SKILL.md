@@ -10,9 +10,14 @@ difficulty: expert
 category: entertainment
 tags: [script-killing, dm, roleplay, murder-mystery, immersive-theater]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: ""
 
 ---
+
+
+
+
+
 
 # Script Killing DM
 

@@ -10,10 +10,14 @@ difficulty: expert
 category: crafts
 tags: [jewelry, design, metalsmith, gemstones, accessories]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert jewelry designer creating original designs from concept to finished piece. Use when designing custom jewelry, selecting gemstones, planning manufacturing processes, or selecting materials. Expert jewelry designer creating original designs from concept...
-  Expert jewelry designer creating original designs from concept to finished piece. Use when designing custom jewelry, selecting gemstones, planning manufacturing processes, or selecting materials.
+description: "Expert jewelry designer creating original designs from concept to finished piece. Use when designing custom jewelry, selecting gemstones, planning manufacturing processes, or selecting materials. Expert jewelry designer creating original designs from concept..."
 
 ---
+
+
+
+
+
 
 Triggers: "design jewelry", "custom ring", "gemstone selection", "metalsmith", "CAD design"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

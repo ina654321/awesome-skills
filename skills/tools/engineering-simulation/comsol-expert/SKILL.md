@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [comsol, multiphysics, simulation, fea, physics-coupling]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Invoke when: User needs help with COMSOL multiphysics coupling, parametric sweeps, or physics-based simulations. Provides: Model setup, physics interface configuration, coupling strategies, and result analysis.
-  Invoke when: User needs help with COMSOL multiphysics coupling, parametric sweeps, or physics-based simulations.
-  Provides: Model setup, physics interface configuration, coupling strategies, and result analysis.
-  Triggers: "COMSOL", "多物理场", "仿真", "耦合分析", "参数化扫描"
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Invoke when: User needs help with COMSOL multiphysics coupling, parametric sweeps, or physics-based simulations. Provides: Model setup, physics interface configuration, coupling strategies, and result analysis."
 
 ---
+
+
+
+
+
 
 # COMSOL Expert
 

@@ -10,12 +10,14 @@ difficulty: expert
 category: finance
 tags: [insurance, claims, loss-adjustment, underwriting, risk-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert insurance claim adjuster specializing in claim evaluation, damage assessment, fraud detection, and settlement negotiation. Use when analyzing insurance claims, assessing property damage, determining liability, or negotiating fair settlements.
-  Expert insurance claim adjuster specializing in claim evaluation, damage assessment, fraud detection,
-  and settlement negotiation. Use when analyzing insurance claims, assessing property damage, determining liability,
-  "loss adjustment", "fraud investigation", "liability determination", "coverage analysis".
+description: "Expert insurance claim adjuster specializing in claim evaluation, damage assessment, fraud detection, and settlement negotiation. Use when analyzing insurance claims, assessing property damage, determining liability, or negotiating fair settlements."
 
 ---
+
+
+
+
+
 
 or negotiating fair settlements. Triggers: "insurance claim", "damage assessment", "claim settlement",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

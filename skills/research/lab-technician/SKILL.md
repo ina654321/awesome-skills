@@ -10,11 +10,14 @@ difficulty: intermediate
 category: research
 tags: [laboratory, experiment, sample-preparation, data-recording, equipment-operation, safety]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording. Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate...
-  Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording.
-  Use when setting up laboratory experiments, preparing samples, operating analytical instruments, or documenting experimental data.
+description: "Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording. Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate..."
 
 ---
+
+
+
+
+
 
 Triggers: "lab technician", "sample preparation", "lab equipment", "experimental procedure", "laboratory"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

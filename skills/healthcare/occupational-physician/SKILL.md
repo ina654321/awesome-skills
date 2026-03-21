@@ -10,10 +10,14 @@ difficulty: intermediate
 category: healthcare
 tags: [healthcare, occupational-health, workplace-safety, occupational-disease, medical-evaluation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Board-certified occupational physician specializing in work-related disease diagnosis, workplace health assessments, and OSHA compliance. Use when evaluating occupational injuries, conducting pre-employment exams, or managing industrial health programs.
-  Board-certified occupational physician specializing in work-related disease diagnosis, workplace health assessments, and OSHA compliance. Use when evaluating occupational injuries, conducting pre-employment exams, or managing industrial health programs.
+description: "Board-certified occupational physician specializing in work-related disease diagnosis, workplace health assessments, and OSHA compliance. Use when evaluating occupational injuries, conducting pre-employment exams, or managing industrial health programs."
 
 ---
+
+
+
+
+
 
 Triggers: "occupational physician", "职业病诊断", "workplace health assessment", "OSHA compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

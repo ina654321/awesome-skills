@@ -10,14 +10,14 @@ difficulty: expert
 category: automotive
 tags: [trajectory-planning, behavior-prediction, motion-planning, mpc, pomdp, frenet-frame, lattice-planner, idm, contingency-planning, nuplan]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior prediction, decision algorithms, and motion planning for autonomous vehicles. Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior...
-  Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior
-  prediction, decision algorithms, and motion planning for autonomous vehicles. Transforms AI
-  into a senior planning engineer capable of designing Frenet-frame lattice planners, POMDP
-  decision frameworks, MPC trajectory optimizers, and hybrid rule-learned decision systems.
-  "MPC", "POMDP", "Frenet frame", "规划决策", "轨迹规划", "行为预测".
+description: "Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior prediction, decision algorithms, and motion planning for autonomous vehicles. Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior..."
 
 ---
+
+
+
+
+
 
 Triggers: "trajectory planning", "behavior prediction", "motion planning", "lattice planner",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -34,50 +34,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ## § 1 · System Prompt
 
 ```
-You are a Principal Planning & Decision Engineer with 10+ years of experience in autonomous
-vehicle motion planning, covering classical sampling-based methods, optimization-based
-approaches, and modern learning-augmented hybrid systems. You have contributed to production
-highway and urban planning stacks, published research on POMDP-based decision making and
-contingency planning at ICRA/IROS/IV, and have hands-on experience benchmarking on nuPlan,
-CommonRoad, and CARLA at scale.
-
-DECISION FRAMEWORK — apply these 5 gates before every planning recommendation:
-
-Gate 1 — SAFETY GUARANTEE: Does the proposed trajectory satisfy hard safety constraints
-  at all time steps — no collision with predicted agent envelopes, no infeasibility of
-  the kinematic model? Any trajectory violating hard constraints is rejected immediately.
-Gate 2 — PREDICTION COMPATIBILITY: Is the planning algorithm correctly consuming the
-  full multi-modal prediction distribution, not just the most-likely mode? Plans optimized
-  against a single predicted future fail when agents take the minority mode.
-Gate 3 — COMFORT BOUNDS: Do all generated trajectories satisfy comfort constraints —
-  longitudinal jerk < 5 m/s³, lateral acceleration < 3 m/s², lateral jerk < 2 m/s³?
-  Violating these is a quality regression even if safe.
-Gate 4 — REAL-TIME FEASIBILITY: Is the proposed algorithm executable within the planning
-  budget (10-20 Hz for reactive planning, 1-2 Hz for behavior planning)? Complexity must
-  match hardware budget.
-Gate 5 — FALLBACK AVAILABILITY: Is there always a defined fallback trajectory available
-  (e.g., constant deceleration to stop) when the primary planner returns no solution?
-  Planners must never return empty — safety fallback is mandatory.
-
-THINKING PATTERNS:
-1. Frenet-Frame First — decompose planning into longitudinal (s) and lateral (d) in
-   Frenet coordinates along a reference path before formulating optimization problems.
-2. Prediction-Planning Coupling — treat agent behavior as a conditional distribution
-   P(a_i | ego_plan); avoid plans that are optimal only under fixed-agent assumptions.
-3. Contingency Awareness — maintain at least 2 parallel plan branches for high-uncertainty
-   scenarios (e.g., ambiguous agent at intersection). Commit only when uncertainty resolves.
-4. Comfort as a First-Class Metric — jerk and lateral acceleration are not optional;
-   they directly determine passenger experience and motion sickness in L4 robotaxi.
-5. Benchmark Grounding — always compare proposed approaches against nuPlan PDM-Closed or
-   CommonRoad benchmarks to calibrate claims about planning quality.
-
-COMMUNICATION STYLE:
-- Lead with safety (constraint satisfaction), then optimality, then comfort.
-- Use Frenet-frame notation (s, d, ṡ, d̈) for all trajectory discussions.
-- Provide Python pseudo-code for non-trivial algorithms and cost functions.
-- Distinguish rule-based, sampling-based, optimization-based, and learning-based methods.
-- Cite specific algorithms and papers (e.g., Werling et al. 2010, MPDM, EPSILON, nuPlan PDM).
-- Support both English and Chinese technical discussion (中文支持).
+[Code block moved to code-block-1.md]
 ```
 
 ---
@@ -119,42 +76,7 @@ This skill transforms the AI assistant into a senior planning and decision engin
 ## § 4 · Core Philosophy
 
 ```
-         PLANNING & DECISION STACK ARCHITECTURE
-         =======================================
-
-  Perception/Prediction Layer
-  +-----------+   +---------------------------+
-  | Object    |   | Trajectory Prediction     |
-  | Tracks    |-->| P(τ_i | context) per agent|
-  +-----------+   +---------------------------+
-        |                    |
-        v                    v
-  +-----------------------------------------------+
-  |           BEHAVIOR PLANNER                     |
-  |  Scene State Machine: LaneFollow
-  |  / Intersection / MergeIn
-  +---------------------+-------------------------+
-                        |  scene context + behavior mode
-  +---------------------v-------------------------+
-  |         MOTION PLANNER                         |
-  |  Frenet-Frame Lattice | Optimization | MPC     |
-  |  Generate N candidate trajectories             |
-  |  Score: J = w_s*J_safety + w_c*J_comfort +    |
-  |             w_e*J_efficiency + w_r*J_reference |
-  +---------------------+-------------------------+
-                        |  optimal trajectory τ*
-  +---------------------v-------------------------+
-  |            TRAJECTORY CONTROLLER               |
-  |   MPC / Stanley
-  |   Output: steering angle, throttle, brake      |
-  +-----------------------------------------------+
-                        |
-  FALLBACK: constant-decel trajectory always available
-  CONTINGENCY: parallel branch for uncertainty scenarios
-
-  PLANNING COORDINATE SYSTEMS:
-    Cartesian (x,y,θ)  ←→  Frenet (s,d,ṡ,ḋ,s̈,d̈)
-    Reference path defines s-axis; d is lateral offset
+[Code block moved to code-block-1.md]
 ```
 
 **4.1 Guiding Principles:**
@@ -282,134 +204,7 @@ Start with the Frenet-frame lattice approach from Werling et al. (ICRA 2010) —
 **Core concept:** Convert the planning problem from Cartesian (x, y, θ) to Frenet coordinates (s, d) along a reference path (e.g., lane centerline). In Frenet space, s is progress along the road and d is lateral offset. Planning quintic polynomials in s(t) and d(t) independently produces smooth, kinematically consistent trajectories.
 
 ```python
-import numpy as np
-from dataclasses import dataclass
-from typing import List, Optional
-
-@dataclass
-class FrenetState:
-    s: float; s_dot: float; s_ddot: float  # longitudinal
-    d: float; d_dot: float; d_ddot: float  # lateral
-
-@dataclass
-class FrenetTrajectory:
-    t: np.ndarray       # time samples
-    s: np.ndarray       # longitudinal position
-    d: np.ndarray       # lateral position
-    s_dot: np.ndarray   # longitudinal velocity
-    d_dot: np.ndarray   # lateral velocity
-    s_ddot: np.ndarray  # longitudinal acceleration
-    d_ddot: np.ndarray  # lateral acceleration
-    jerk_s: np.ndarray  # longitudinal jerk
-    jerk_d: np.ndarray  # lateral jerk
-    cost: float = 0.0
-
-def quintic_polynomial(p0, v0, a0, p1, v1, a1, T):
-    """Solve for quintic polynomial coefficients given boundary conditions."""
-    A = np.array([
-        [T**3,    T**4,    T**5   ],
-        [3*T**2,  4*T**3,  5*T**4 ],
-        [6*T,    12*T**2, 20*T**3 ],
-    ])
-    b = np.array([
-        p1 - (p0 + v0*T + 0.5*a0*T**2),
-        v1 - (v0 + a0*T),
-        a1 - a0
-    ])
-    c3, c4, c5 = np.linalg.solve(A, b)
-    return np.array([p0, v0, 0.5*a0, c3, c4, c5])  # a0..a5
-
-def sample_trajectory(ego: FrenetState, T: float,
-                      s_f: float, d_f: float,
-                      v_f: float = 0.0, n_samples: int = 100) -> FrenetTrajectory:
-    """Generate a single Frenet trajectory with given terminal conditions."""
-    t = np.linspace(0, T, n_samples)
-
-    # Longitudinal quintic (reach s_f at v_f with 0 accel)
-    cs = quintic_polynomial(ego.s, ego.s_dot, ego.s_ddot, s_f, v_f, 0.0, T)
-    # Lateral quintic (reach d_f with 0 vel, 0 accel = steady lane)
-    cd = quintic_polynomial(ego.d, ego.d_dot, ego.d_ddot, d_f, 0.0, 0.0, T)
-
-    def poly_eval(c, t):
-        return sum(c[i] * t**i for i in range(6))
-    def poly_deriv(c, t, order):
-        dc = [i * c[i] for i in range(1, 6)]  # first derivative coeffs
-        for _ in range(order - 1):
-            dc = [i * dc[i] for i in range(1, len(dc))]
-        return sum(dc[i] * t**i for i in range(len(dc)))
-
-    s_arr   = np.array([poly_eval(cs, ti) for ti in t])
-    s_dot   = np.array([poly_deriv(cs, ti, 1) for ti in t])
-    s_ddot  = np.array([poly_deriv(cs, ti, 2) for ti in t])
-    jerk_s  = np.array([poly_deriv(cs, ti, 3) for ti in t])
-    d_arr   = np.array([poly_eval(cd, ti) for ti in t])
-    d_dot   = np.array([poly_deriv(cd, ti, 1) for ti in t])
-    d_ddot  = np.array([poly_deriv(cd, ti, 2) for ti in t])
-    jerk_d  = np.array([poly_deriv(cd, ti, 3) for ti in t])
-
-    return FrenetTrajectory(t, s_arr, d_arr, s_dot, d_dot, s_ddot, d_ddot, jerk_s, jerk_d)
-
-
-def compute_trajectory_cost(traj: FrenetTrajectory,
-                             obstacles: list,
-                             target_speed: float,
-                             d_target: float,
-                             w_jerk: float = 0.1,
-                             w_speed: float = 1.0,
-                             w_lateral: float = 0.5,
-                             w_safety: float = 10.0) -> float:
-    """
-    Composite cost function: jerk + speed deviation + lateral offset + safety.
-    Returns float cost (lower = better), or np.inf if hard constraint violated.
-    """
-    # Hard constraint: comfort bounds
-    if np.any(np.abs(traj.jerk_s) > 5.0):  # longitudinal jerk limit
-        return np.inf
-    if np.any(np.abs(traj.d_ddot) > 3.0):  # lateral accel limit
-        return np.inf
-    if np.any(traj.s_dot < 0):             # no reversing
-        return np.inf
-
-    # Soft costs
-    jerk_cost    = w_jerk  * (np.mean(traj.jerk_s**2) + np.mean(traj.jerk_d**2))
-    speed_cost   = w_speed * np.mean((traj.s_dot - target_speed)**2)
-    lateral_cost = w_lateral * (traj.d[-1] - d_target)**2
-
-    # Safety cost: minimum distance to obstacles (TTC-based)
-    safety_cost = 0.0
-    for obs in obstacles:
-        min_dist = min(np.sqrt((s - obs.s)**2 + (d - obs.d)**2)
-                       for s, d in zip(traj.s, traj.d))
-        if min_dist < 1.0:   # hard collision constraint
-            return np.inf
-        safety_cost += w_safety * np.exp(-min_dist
-
-    return jerk_cost + speed_cost + lateral_cost + safety_cost
-
-
-def generate_optimal_trajectory(ego: FrenetState,
-                                obstacles: list,
-                                target_speed: float,
-                                d_targets: list = [0.0],       # candidate lane offsets
-                                T_range: list = [3.0, 4.0, 5.0],  # planning horizons
-                                v_f_range: list = None) -> Optional[FrenetTrajectory]:
-    """
-    Sample lattice of trajectories over (T, d_f, v_f); return lowest-cost feasible one.
-    """
-    if v_f_range is None:
-        v_f_range = np.linspace(max(0, target_speed - 3), target_speed + 1, 5)
-
-    best_traj, best_cost = None, np.inf
-    for T in T_range:
-        for d_f in d_targets:
-            for v_f in v_f_range:
-                s_f = ego.s + ego.s_dot * T + 0.5 * ego.s_ddot * T**2  # dead-reckoning
-                traj = sample_trajectory(ego, T, s_f, d_f, v_f)
-                cost = compute_trajectory_cost(traj, obstacles, target_speed, d_f)
-                if cost < best_cost:
-                    best_cost, best_traj = cost, traj
-
-    return best_traj  # None if all infeasible — caller must use safety fallback
+[Code block moved to code-block-1.md]
 ```
 
 **Sampling strategy:** For highway lane-keep: d_targets = [-3.75, 0.0, 3.75] (current lane, left lane, right lane offset from centerline). T_range = [3, 4, 5] seconds. v_f_range = linspace(0, v_target + 2, 7). This gives 3 × 3 × 7 = 63 candidates per cycle, computable in < 5ms in NumPy.
@@ -428,34 +223,7 @@ This is a classic hysteresis failure — the planner's lane-change cost is near 
 
 **Fix 1 — Committed Planning with Hysteresis:**
 ```python
-class HysteresisDecisionManager:
-    """Prevent decision oscillation via commit window and cost hysteresis."""
-    def __init__(self, commit_duration: float = 3.0, cost_hysteresis: float = 0.3):
-        self.commit_duration = commit_duration     # hold decision for N seconds
-        self.cost_hysteresis = cost_hysteresis     # LC must beat LK by this margin
-        self.current_decision = 'LANE_KEEP'
-        self.commit_time_remaining = 0.0
-        self.dt = 0.1
-
-    def update(self, cost_lane_keep: float, cost_lane_change: float) -> str:
-        # Decrement commit timer
-        self.commit_time_remaining = max(0.0, self.commit_time_remaining - self.dt)
-
-        # During commit window, stay with current decision
-        if self.commit_time_remaining > 0:
-            return self.current_decision
-
-        # Require lane change to beat lane keep by hysteresis margin
-        if (self.current_decision == 'LANE_KEEP' and
-                cost_lane_change < cost_lane_keep - self.cost_hysteresis):
-            self.current_decision = 'LANE_CHANGE'
-            self.commit_time_remaining = self.commit_duration
-        elif (self.current_decision == 'LANE_CHANGE' and
-                cost_lane_keep < cost_lane_change - self.cost_hysteresis):
-            self.current_decision = 'LANE_KEEP'
-            self.commit_time_remaining = self.commit_duration
-
-        return self.current_decision
+[Code block moved to code-block-1.md]
 ```
 
 **Fix 2 — Smooth Cost via Rolling Average:** Instead of using instant prediction snapshot for cost, use a rolling 1-second average of the prediction to dampen high-frequency prediction noise before it enters the cost function.
@@ -475,74 +243,7 @@ The combination of hysteresis + smoothed prediction + commit window typically el
 This requires contingency planning — maintaining two parallel trajectory branches simultaneously until the ambiguity resolves, then committing to the branch that matches observed agent behavior.
 
 ```python
-import numpy as np
-from dataclasses import dataclass
-from typing import List
-
-@dataclass
-class ContingencyBranch:
-    name: str
-    agent_hypothesis: str     # 'yield' or 'proceed'
-    probability: float        # P(hypothesis | observations so far)
-    ego_trajectory: object    # FrenetTrajectory
-    cost: float
-
-class ContingencyPlanner:
-    """
-    Maintain N branches for K agent intent hypotheses.
-    Commit only when P(dominant hypothesis) > threshold.
-    """
-    def __init__(self, commit_threshold: float = 0.85, min_commit_ttc: float = 3.0):
-        self.commit_threshold = commit_threshold
-        self.min_commit_ttc = min_commit_ttc
-        self.branches: List[ContingencyBranch] = []
-        self.committed_branch = None
-
-    def update_beliefs(self, agent_observation: dict) -> None:
-        """Bayesian update: P(hypothesis | obs) ∝ P(obs | hypothesis) * P(hypothesis)."""
-        for branch in self.branches:
-            # Likelihood model: does observed agent acceleration match hypothesis?
-            if branch.agent_hypothesis == 'yield':
-                # Yielding agent decelerates; high likelihood if obs accel < -0.5 m/s²
-                likelihood = self._likelihood_yield(agent_observation)
-            else:  # 'proceed'
-                likelihood = self._likelihood_proceed(agent_observation)
-            branch.probability *= likelihood
-
-        # Normalize
-        total = sum(b.probability for b in self.branches)
-        for branch in self.branches:
-            branch.probability /= (total + 1e-8)
-
-    def _likelihood_yield(self, obs: dict) -> float:
-        accel = obs.get('longitudinal_accel', 0.0)
-        speed = obs.get('speed', 5.0)
-        if accel < -0.5 and speed < 2.0:
-            return 0.9   # strong yield evidence
-        elif accel < 0.0:
-            return 0.6
-        else:
-            return 0.2   # proceeding behavior, unlikely yield
-
-    def _likelihood_proceed(self, obs: dict) -> float:
-        return 1.0 - self._likelihood_yield(obs)
-
-    def get_safe_trajectory(self, current_ttc: float) -> object:
-        """
-        Return trajectory from committed branch if confidence high enough,
-        else return the trajectory safe against BOTH hypotheses (conservative).
-        """
-        # Check if we should commit
-        dominant = max(self.branches, key=lambda b: b.probability)
-        if (dominant.probability >= self.commit_threshold and
-                current_ttc > self.min_commit_ttc):
-            self.committed_branch = dominant
-            return dominant.ego_trajectory
-
-        # Not yet committed: return the branch with lower progress but safe against both
-        # This is the "safe-against-all" conservative trajectory
-        conservative = min(self.branches, key=lambda b: b.cost)
-        return conservative.ego_trajectory
+[Code block moved to code-block-2.md]
 ```
 
 **Decision logic:** Once P(yield) > 0.85 AND TTC > 3s, commit to the proceed trajectory. If still ambiguous when TTC < 2s, always defer — the conservative (slow/stop) branch is executed.
@@ -711,31 +412,7 @@ return trajectory  # could require steering rate of 50 deg/s — impossible
 
 ✅ GOOD:
 ```python
-def check_kinematic_feasibility(trajectory, max_steer_angle=35.0,
-                                 max_steer_rate=20.0, wheelbase=2.7):
-    """Verify trajectory satisfies bicycle model constraints."""
-    for i in range(len(trajectory) - 1):
-        dt = trajectory.t[i+1] - trajectory.t[i]
-        v = trajectory.s_dot[i]
-        kappa = trajectory.curvature[i]  # 1/R
-
-        # Maximum steering angle: tan(delta) = kappa * wheelbase
-        delta = np.degrees(np.arctan(kappa * wheelbase))
-        if abs(delta) > max_steer_angle:
-            return False, f"Steering angle {delta:.1f}° exceeds limit {max_steer_angle}°"
-
-        # Maximum steering rate
-        if i > 0:
-            delta_prev = np.degrees(np.arctan(trajectory.curvature[i-1] * wheelbase))
-            steer_rate = abs(delta - delta_prev)
-            if steer_rate > max_steer_rate:
-                return False, f"Steer rate {steer_rate:.1f} deg/s exceeds {max_steer_rate}"
-    return True, "OK"
-
-traj = optimize_smooth_path(waypoints)
-feasible, reason = check_kinematic_feasibility(traj)
-if not feasible:
-    traj = replan_with_tighter_curvature_bound(waypoints)
+[Code block moved to code-block-2.md]
 ```
 
 **Why it matters:** Trajectory optimizers can produce geometrically smooth paths that require physically impossible steering angles at speed. Sending such trajectories to the controller causes oscillatory tracking errors and potential loss of control.

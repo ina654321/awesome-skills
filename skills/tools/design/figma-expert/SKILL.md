@@ -10,10 +10,14 @@ difficulty: expert
 category: tools
 tags: [figma, ui-design, ux-design, prototyping, design-system, component-library]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping interactions, or handing off to developers. Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping...
-  Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping interactions, or handing off to developers.
+description: "Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping interactions, or handing off to developers. Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping..."
 
 ---
+
+
+
+
+
 
 Triggers: "Figma", "UI设计", "组件", "设计系统", "原型", "Auto Layout", "Dev Mode"
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.

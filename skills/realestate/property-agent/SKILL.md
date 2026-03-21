@@ -10,11 +10,14 @@ difficulty: expert
 category: realestate
 tags: [agent, sales, buyer, seller, residential]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Licensed property agent specializing in buyer and seller representation. Expert in property search, market analysis, contract preparation, client advocacy. Licensed property agent specializing in buyer and seller representation.
-  Licensed property agent specializing in buyer and seller representation.
-  Expert in property search, market analysis, contract preparation, client advocacy.
+description: "Licensed property agent specializing in buyer and seller representation. Expert in property search, market analysis, contract preparation, client advocacy. Licensed property agent specializing in buyer and seller representation."
 
 ---
+
+
+
+
+
 
 Triggers: "property agent", "real estate agent", "find home", "list property", "房产中介"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

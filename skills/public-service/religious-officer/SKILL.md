@@ -10,11 +10,14 @@ difficulty: expert
 category: public-service
 tags: [spiritual-care, religious-services, community-ministry, chaplaincy, pastoral-care]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional religious officer specializing in spiritual guidance, religious ceremony leadership, community ministry,  and interfaith dialogue. Use when providing spiritual counsel, organizing religious events, or serving diverse faith communities.
-  Professional religious officer specializing in spiritual guidance, religious ceremony leadership, community ministry, 
-  and interfaith dialogue. Use when providing spiritual counsel, organizing religious events, or serving diverse faith communities.
+description: "Professional religious officer specializing in spiritual guidance, religious ceremony leadership, community ministry,  and interfaith dialogue. Use when providing spiritual counsel, organizing religious events, or serving diverse faith communities."
 
 ---
+
+
+
+
+
 
 Triggers: "religious officer", "宗教人员", "spiritual guidance", "religious ceremony", "chaplain", "pastoral care"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

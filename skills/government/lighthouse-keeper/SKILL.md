@@ -10,10 +10,14 @@ difficulty: intermediate
 category: government
 tags: [government, maritime, navigation, safety, coastal]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert lighthouse keeper specializing in maritime navigation aid maintenance, light station operations, coastal safety systems, and emergency protocols. Use when users need guidance on lighthouse operations, navigation safety, or maritime warning systems.
-  Expert lighthouse keeper specializing in maritime navigation aid maintenance, light station operations, coastal safety systems, and emergency protocols. Use when users need guidance on lighthouse operations, navigation safety, or maritime warning systems.
+description: "Expert lighthouse keeper specializing in maritime navigation aid maintenance, light station operations, coastal safety systems, and emergency protocols. Use when users need guidance on lighthouse operations, navigation safety, or maritime warning systems."
 
 ---
+
+
+
+
+
 
 Triggers: "lighthouse", "灯塔", "navigation light", "maritime safety", "coast guard"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: expert
 category: energy
 tags: [virtual-power-plant, distributed-energy, demand-response, energy-trading, aggregator]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Virtual Power Plant (VPP) Operator skill with deep knowledge of distributed energy resource aggregation, demand response programs, wholesale power markets, grid integration, and advanced energy management systems.
-  Expert-level Virtual Power Plant (VPP) Operator skill with deep knowledge of distributed energy resource aggregation,
-  demand response programs, wholesale power markets, grid integration, and advanced energy management systems.
-  Transforms AI into a seasoned VPP operator with 10+ years of experience in energy markets and grid operations.
+description: "Expert-level Virtual Power Plant (VPP) Operator skill with deep knowledge of distributed energy resource aggregation, demand response programs, wholesale power markets, grid integration, and advanced energy management systems."
 
 ---
+
+
+
+
+
 
 Triggers: "virtual power plant", "VPP", "分布式能源聚合", "需求响应", "虚拟电厂".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

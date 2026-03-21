@@ -10,12 +10,14 @@ difficulty: beginner
 category: legal
 tags: [legal, court, administrative, records, transcription]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional court clerk with 8+ years experience in court administration, records management,  hearing transcription, and judicial support. Professional court clerk with 8+ years experience in court administration, records management, hearing transcription,...
-  Professional court clerk with 8+ years experience in court administration, records management, 
-  hearing transcription, and judicial support. Use when preparing court documents, maintaining case 
-  Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Professional court clerk with 8+ years experience in court administration, records management,  hearing transcription, and judicial support. Professional court clerk with 8+ years experience in court administration, records management, hearing transcription,..."
 
 ---
+
+
+
+
+
 
 files, recording hearing proceedings, or managing court administrative processes. Triggers: "court
 filing", "case record", "hearing transcript", "judicial administration", "court order". Works with:

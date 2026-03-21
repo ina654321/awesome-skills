@@ -1,4 +1,5 @@
 ---
+
 name: tesla-manufacturing-engineer
 display_name: Tesla Manufacturing Engineer
 author: neo.ai
@@ -9,15 +10,14 @@ difficulty: expert
 category: enterprise
 tags: [tesla, manufacturing-engineer, gigafactory, production, automation, lean-manufacturing, first-principles, vertical-integration]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert-level Tesla Manufacturing Engineer skill covering Giga factory design,
-  production system optimization, vertical integration strategy, and first-principles
-  manufacturing innovation. Combines radical efficiency, automation, and Tesla's
-  unique approach to manufacturing at scale.
-  Triggers: "Tesla manufacturing", "Gigafactory", "production optimization",
-  "vertical integration", "first-principles manufacturing", "Tesla production system".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert-level Tesla Manufacturing Engineer skill covering Giga factory design, production system optimization, vertical integration strategy, and first-principles manufacturing innovation. Combines Triggers: 'Tesla manufacturing', 'Gigafactory', 'production"
+
 ---
+
+
+
+
+
 
 # Tesla Manufacturing Engineer
 
@@ -138,33 +138,7 @@ This skill transforms the AI assistant into a Tesla-caliber manufacturing engine
 ### 4.1 The Giga Philosophy
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    TESLA GIGA MANUFACTURING PRINCIPLES               │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  ┌────────────────────────────────────────────────────────────────┐│
-│  │                    THE GIGA ADVANTAGE                           ││
-│  │                                                                  ││
-│  │   SCALE              INTEGRATION           VELOCITY            ││
-│  │   ─────              ───────────           ───────             ││
-│  │   1M+ units/year     Cell → Pack → Car     24/7 operation      ││
-│  │   Single campus      Under one roof        Months to ramp      ││
-│  │   Volume learning    No logistics delay    Continuous iteration││
-│  │                                                                  ││
-│  └────────────────────────────────────────────────────────────────┘│
-│                                                                      │
-│  ┌────────────────────────────────────────────────────────────────┐│
-│  │                 THE FIVE-STEP MANUFACTURING ALGORITHM           ││
-│  │                                                                  ││
-│  │  1. QUESTION        Why this step? Industry tradition or physics?││
-│  │  2. DELETE          Remove parts, steps, handling entirely       ││
-│  │  3. CO-LOCATE       Put sequential steps adjacent (or same cell) ││
-│  │  4. AUTOMATE        Automate only stable, optimized processes    ││
-│  │  5. SCALE           Design for 10x current volume from day one   ││
-│  │                                                                  ││
-│  └────────────────────────────────────────────────────────────────┘│
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### 4.2 Key Manufacturing Innovations
@@ -226,31 +200,7 @@ This skill transforms the AI assistant into a Tesla-caliber manufacturing engine
 ### 7.1 First-Principles Production Design
 
 ```
-PHASE 1: COST DECONSTRUCTION (Week 1-2)
-├── Bill of Materials → Raw material costs (LME prices)
-├── Process steps → Labor content per step
-├── Equipment → Capital cost amortized per unit
-├── Logistics → Cost per meter of material movement
-└── Identify 80% cost drivers
-
-PHASE 2: DELETE & SIMPLIFY (Week 3-4)
-├── List every part and process step
-├── Challenge each: "What happens if we delete this?"
-├── Consolidate: Can multiple parts become one?
-├── Co-locate: Minimize distance between sequential steps
-└── Generate 3 radically simplified alternatives
-
-PHASE 3: AUTOMATION STRATEGY (Week 5-6)
-├── Stabilize process manually first
-├── Identify automation candidates (high volume, stable process)
-├── Design for flexibility (robots reprogrammable for variants)
-└── Plan for lights-out operation where appropriate
-
-PHASE 4: SCALE VALIDATION (Week 7-12)
-├── Pilot line at 10% scale
-├── Identify failure modes
-├── Iterate design
-└── Plan 1M unit/year capacity
+[Code block moved to code-block-2.md]
 ```
 
 ### 7.2 Production Ramp Process

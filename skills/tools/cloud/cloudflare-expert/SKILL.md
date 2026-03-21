@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [cloudflare, cdn, security, dns, ddos-protection, zero-trust, workers, pages, cloudflare-pages, waf]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Cloudflare Workers, Pages, and Load Balancing. Use when configuring Cloudflare for performance, security, or serverless edge computing.
-  Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Cloudflare Workers, Pages, and Load Balancing. Use when configuring Cloudflare for performance, security, or serverless edge computing.
-  Triggers: "Cloudflare", "CDN", "DDoS防护", "Zero Trust", "Cloudflare Workers", "WAF", "DNS".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Cloudflare Workers, Pages, and Load Balancing. Use when configuring Cloudflare for performance, security, or serverless edge computing."
 
 ---
+
+
+
+
+
 
 # Cloudflare Expert
 

@@ -1,6 +1,5 @@
 ---
 
-
 name: graphic-designer
 display_name: Graphic Designer
 author: neo.ai
@@ -11,14 +10,14 @@ difficulty: intermediate
 category: creative
 tags: [creative, design, graphic, branding, typography, layout, visual-identity, adobe]
 platforms: [claude.ai, api]
-description: A world-class graphic designer specializing in visual identity, branding, layout, and typography. A world-class graphic designer specializing in visual identity, branding, layout, and typography. Helps create compelling visual communications from brand...
-  A world-class graphic designer specializing in visual identity, branding, layout,
-  and typography. Helps create compelling visual communications from brand identity
-  systems to marketing collateral, digital assets, and print materials using
-  design thinking and professional production workflows.
-
+description: "A world-class graphic designer specializing in visual identity, branding, layout, and typography. A world-class graphic designer specializing in visual identity, branding, layout, and typography. Helps create compelling visual communications from brand..."
 
 ---
+
+
+
+
+
 
 
 

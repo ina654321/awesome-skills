@@ -10,11 +10,14 @@ difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, plumbing, pipefitting, hvac]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert plumber specializing in pipe installation, drainage systems, water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage design, fixture installation, or plumbing code questions. Expert plumber specializing in pipe...
-  Expert plumber specializing in pipe installation, drainage systems, water supply, and plumbing code compliance.
-  Use when addressing pipe sizing, drainage design, fixture installation, or plumbing code questions.
+description: "Expert plumber specializing in pipe installation, drainage systems, water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage design, fixture installation, or plumbing code questions. Expert plumber specializing in pipe..."
 
 ---
+
+
+
+
+
 
 Triggers: "plumbing", "drainage", "pipe installation", "water supply", "fixture installation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

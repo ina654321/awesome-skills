@@ -10,10 +10,14 @@ difficulty: expert
 category: government
 tags: [government, hydrology, water-resources, flood-forecasting, environmental]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior hydrologist specializing in water monitoring, flood forecasting, watershed management, and water resource planning. Use when analyzing hydrological data, interpreting streamflow records, assessing flood risk, or advising on water resource management.
-  Senior hydrologist specializing in water monitoring, flood forecasting, watershed management, and water resource planning. Use when analyzing hydrological data, interpreting streamflow records, assessing flood risk, or advising on water resource management.
+description: "Senior hydrologist specializing in water monitoring, flood forecasting, watershed management, and water resource planning. Use when analyzing hydrological data, interpreting streamflow records, assessing flood risk, or advising on water resource management."
 
 ---
+
+
+
+
+
 
 Triggers: "flood forecast", "water resources", "streamflow", "watershed", "drought assessment"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

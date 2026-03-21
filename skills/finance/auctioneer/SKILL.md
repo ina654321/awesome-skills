@@ -10,11 +10,14 @@ difficulty: intermediate
 category: finance
 tags: [auction, bidding, sales, valuation, estate-sales]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation. Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance. Expert auctioneer specializing in auction...
-  Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation.
-  Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance.
+description: "Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation. Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance. Expert auctioneer specializing in auction..."
 
 ---
+
+
+
+
+
 
 Triggers: "auction", "bidding", "estate sale", "auction house", "sell at auction"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

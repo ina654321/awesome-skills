@@ -10,10 +10,14 @@ difficulty: expert
 category: research
 tags: [grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies. Senior Grant Reviewer with 20+ years evaluating...
-  Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies.
+description: "Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies. Senior Grant Reviewer with 20+ years evaluating..."
 
 ---
+
+
+
+
+
 
 Triggers: "grant review", "funding decision", "proposal score", "peer review"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

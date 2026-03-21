@@ -1,4 +1,5 @@
 ---
+
 name: cn-cloud-selection-advisor
 display_name: CN Cloud Selection Advisor
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: beginner
 category: tools
 tags: [cloud-selection, aliyun, tencent, volcengine, china]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  国内云选型指南：阿里云/腾讯云/火山引擎对比，根据场景选择最佳平台。Use when selecting cloud provider in China, comparing prices, or choosing right services.
-  Triggers: "云选型", "阿里云还是腾讯云", "火山引擎", "云计算选择".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "国内云选型指南：阿里云/腾讯云/火山引擎对比，根据场景选择最佳平台。Use when selecting cloud provider in China, comparing prices, or choosing right services. Triggers: '云选型', '阿里云还是腾讯云', '火山引擎', '云计算选择'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # CN Cloud Selection Advisor
 

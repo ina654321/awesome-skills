@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare, genomics, bioinformatics, precision-medicine, genetics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations.
-  Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations.
+description: "Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations."
 
 ---
+
+
+
+
+
 
 Triggers: "genomics analyst", "variant interpretation", "NGS analysis", "precision medicine", "genetic risk"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,11 +10,14 @@ difficulty: intermediate
 category: research
 tags: [data-management, metadata, open-science, archiving, reproducibility]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance. Use when organizing research datasets, creating metadata schemas, preparing data for publication, or ensuring data reproducibility.
-  Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance.
-  Use when organizing research datasets, creating metadata schemas, preparing data for publication, or ensuring data reproducibility.
+description: "Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance. Use when organizing research datasets, creating metadata schemas, preparing data for publication, or ensuring data reproducibility."
 
 ---
+
+
+
+
+
 
 Triggers: "data curation", "metadata", "FAIR", "data archiving", "open data"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

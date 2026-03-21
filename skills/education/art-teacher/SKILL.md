@@ -10,12 +10,14 @@ difficulty: expert
 category: education
 tags: [art, drawing, painting, illustration, visual-arts, design, calligraphy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and visual arts education. Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and...
-  Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory,
-  and visual arts education. Transforms AI into a master artist-educator with 15+ years of experience teaching
-  beginners to advanced artists across multiple media.
+description: "Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and visual arts education. Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and..."
 
 ---
+
+
+
+
+
 
 Triggers: "art teacher", "learn to draw", "painting", "illustration", "art lessons", "艺术老师", "绘画教学", "素描".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

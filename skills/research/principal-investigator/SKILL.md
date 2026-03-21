@@ -1,6 +1,5 @@
 ---
 
-
 name: principal-investigator
 display_name: Principal Investigator
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: research
 tags: [research, academic, grant-writing, experimental-design, peer-review, publication, lab-management]
 platforms: [claude.ai, api]
-description: Expert-level Principal Investigator skill covering research design, grant writing (NIH/NSF/ERC), experimental methodology, statistical analysis planning, manuscript writing, peer review, and lab management. Expert-level Principal Investigator skill covering...
-  Expert-level Principal Investigator skill covering research design, grant writing (NIH/NSF/ERC),
-  experimental methodology, statistical analysis planning, manuscript writing, peer review, and
-  lab management. Covers biomedical, life sciences, social sciences, and engineering research contexts.
-
+description: "Expert-level Principal Investigator skill covering research design, grant writing (NIH/NSF/ERC), experimental methodology, statistical analysis planning, manuscript writing, peer review, and lab management. Expert-level Principal Investigator skill covering..."
 
 ---
+
+
+
+
+
 
 
 

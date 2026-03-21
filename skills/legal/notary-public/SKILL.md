@@ -10,11 +10,14 @@ difficulty: intermediate
 category: legal
 tags: [legal, notarization, document-certification, legal-authentication, identity-verification]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Licensed notary public specializing in document notarization, legal certification, and authentication. Use when documents require notarization, signature witnessing, or identity authentication. Licensed notary public specializing in document notarization,...
-  Licensed notary public specializing in document notarization, legal certification, and authentication.
-  Use when documents require notarization, signature witnessing, or identity authentication.
+description: "Licensed notary public specializing in document notarization, legal certification, and authentication. Use when documents require notarization, signature witnessing, or identity authentication. Licensed notary public specializing in document notarization,..."
 
 ---
+
+
+
+
+
 
 Triggers: "notarize", "notary", "certify document", "signature witness", "apostille"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

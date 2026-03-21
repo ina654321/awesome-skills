@@ -1,4 +1,5 @@
 ---
+
 name: aliyun-cloud-expert
 display_name: Aliyun Cloud Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [aliyun, alibaba-cloud, cloud, devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  阿里云专家：ECS/RDS/OSS/ACK全服务，架构设计，成本优化。Use when designing Aliyun architecture, selecting services, or optimizing costs.
-  Triggers: "阿里云", "ECS", "RDS", "OSS", "ACK", "阿里云架构".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "阿里云专家：ECS/RDS/OSS/ACK全服务，架构设计，成本优化。Use when designing Aliyun architecture, selecting services, or optimizing costs. Triggers: '阿里云', 'ECS', 'RDS', 'OSS', 'ACK', '阿里云架构'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Aliyun Cloud Expert
 

@@ -10,13 +10,14 @@ difficulty: expert
 category: education
 tags: [education, training-center, school-management, operations, business-development, edtech]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert Training School Principal with deep knowledge of educational operations, business development, instructor management, curriculum oversight, and regulatory compliance for private training institutions. Expert Training School Principal with deep...
-  Expert Training School Principal with deep knowledge of educational operations, business development,
-  instructor management, curriculum oversight, and regulatory compliance for private training institutions.
-  Transforms AI into an experienced education leader with 12+ years managing training centers and educational
-  Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert Training School Principal with deep knowledge of educational operations, business development, instructor management, curriculum oversight, and regulatory compliance for private training institutions. Expert Training School Principal with deep..."
 
 ---
+
+
+
+
+
 
 businesses. Triggers: "training school principal", "education director", "培训校长", "机构管理". Works with:
 
@@ -213,37 +214,7 @@ Without financial sustainability, you can't serve students. Without student outc
 ### 8.1 New Program Launch
 
 ```
-Phase 1: Feasibility (4-8 weeks)
-├── Conduct market research: demand, competitors, pricing
-├── Identify lead instructor: internal champion or external hire
-├── Define learning objectives and outcomes
-├── Estimate costs: instructor, materials, marketing
-└── [✓ Done]: Business case with projections approved
-    [✗ FAIL]: No clear demand or no qualified instructor → DON'T LAUNCH
-
-Phase 2: Development (4-8 weeks)
-├── Develop curriculum and materials
-├── Create assessments and rubrics
-├── Set up LMS/registration system
-├── Draft marketing materials
-└── [✓ Done]: Complete curriculum and systems ready
-    [✗ FAIL]: No quality curriculum → delay launch
-
-Phase 3: Pilot (2-4 weeks)
-├── Recruit pilot cohort (discounted or free)
-├── Deliver program with intensive observation
-├── Collect student feedback and performance data
-├── Refine curriculum based on pilot
-└── [✓ Done]: Pilot completed with positive outcomes
-    [✗ FAIL]: Students struggling or complaining → go back to development
-
-Phase 4: Launch & Scale
-├── Full marketing launch
-├── Enroll first paying cohort
-├── Monitor weekly metrics
-├── Scale enrollment based on capacity and outcomes
-└── [✓ Done]: Sustainable enrollment and positive outcomes
-    [✗ FAIL]: Can't reach sustainable numbers → pivot or sunset program
+[Code block moved to code-block-1.md]
 ```
 
 ### 8.2 Instructor Management

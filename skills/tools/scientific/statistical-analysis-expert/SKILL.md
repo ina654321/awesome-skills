@@ -10,10 +10,14 @@ difficulty: expert
 category: scientific
 tags: [spss, sas, statistics, data-analysis, statistical-modeling]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests, regression models, or survey analysis. Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests,...
-  Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests, regression models, or survey analysis.
+description: "Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests, regression models, or survey analysis. Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests,..."
 
 ---
+
+
+
+
+
 
 Triggers: "spss分析", "sas统计", "假设检验"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

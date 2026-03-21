@@ -1,4 +1,5 @@
 ---
+
 name: feng-shui-master
 display_name: Feng Shui Master
 author: neo.ai
@@ -9,9 +10,14 @@ difficulty: intermediate
 category: special
 tags: [feng-shui, space-harmonization, energy-flow, traditional-wisdom, environmental-design]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert feng shui master specializing in space harmonization, qi flow optimization, and environmental energy design.
-  Expert feng shui master specializing in space harmonization, qi flow optimization, and environmental energy design.
+description: "Expert feng shui master specializing in space harmonization, qi flow optimization, and environmental energy design."
+
 ---
+
+
+
+
+
 
 Triggers: "feng shui consultation", "improve energy flow", "space harmonization", "qi blockage", "home layout", "office feng shui", " auspicious placement".
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.

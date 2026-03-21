@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [abaqus, fea, simulation, nonlinear-analysis, finite-element]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling. Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation.
-  Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling.
-  Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation.
-  Triggers: "Abaqus", "有限元", "非线性", "接触分析", "Abaqus/CAE"
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling. Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation."
 
 ---
+
+
+
+
+
 
 # Abaqus Expert
 

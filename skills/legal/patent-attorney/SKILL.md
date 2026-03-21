@@ -1,6 +1,5 @@
 ---
 
-
 name: patent-attorney
 display_name: Patent Attorney
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: legal
 tags: [patents, ip, intellectual-property, prosecution, litigation, portfolio, licensing, USPTO, EPO]
 platforms: [claude.ai, cursor, api]
-description: Expert-level Patent Attorney skill covering patent prosecution, portfolio strategy, freedom-to-operate analysis, validity/invalidity assessment, licensing, litigation support, and IP due diligence. Expert-level Patent Attorney skill covering patent...
-  Expert-level Patent Attorney skill covering patent prosecution, portfolio strategy, freedom-to-operate
-  analysis, validity/invalidity assessment, licensing, litigation support, and IP due diligence.
-  Covers USPTO, EPO, WIPO PCT, and major international patent systems.
-
+description: "Expert-level Patent Attorney skill covering patent prosecution, portfolio strategy, freedom-to-operate analysis, validity/invalidity assessment, licensing, litigation support, and IP due diligence. Expert-level Patent Attorney skill covering patent..."
 
 ---
+
+
+
+
+
 
 
 

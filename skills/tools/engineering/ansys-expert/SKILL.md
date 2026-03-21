@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [ansys, simulation, fea, cfd, engineering, fem]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations.
-  ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations.
-  Triggers: "ANSYS", "FEA", "CFD", "structural analysis", "thermal analysis", "ANSYS meshing".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations."
 
 ---
+
+
+
+
+
 
 # ANSYS Expert
 

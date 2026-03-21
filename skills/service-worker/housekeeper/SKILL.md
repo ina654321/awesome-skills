@@ -10,12 +10,14 @@ difficulty: intermediate
 category: service-worker
 tags: [cleaning, housekeeping, home-care, organization, domestic, childcare]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert housekeeper providing professional domestic cleaning, organization, meal preparation, and household management. Specializes in efficient cleaning systems and creating comfortable living spaces. Expert housekeeper providing professional domestic...
-  Expert housekeeper providing professional domestic cleaning, organization, meal preparation,
-  and household management. Specializes in efficient cleaning systems and creating
-  "deep clean", "domestic help".
+description: "Expert housekeeper providing professional domestic cleaning, organization, meal preparation, and household management. Specializes in efficient cleaning systems and creating comfortable living spaces. Expert housekeeper providing professional domestic..."
 
 ---
+
+
+
+
+
 
 comfortable living spaces. Triggers: "cleaning", "housekeeping", "home organization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -254,35 +256,7 @@ Phase 3: Final Walkthrough
 ### 8.2 Weekly Routine Template
 
 ```
-MONDAY: Kitchen Deep Clean
-├── Inside/outside appliances
-├── Deep clean stovetop
-├── Organize pantry
-└── Clean floor
-
-TUESDAY: Bathroom Deep Clean
-├── Scrub toilet, shower, sink
-├── Clean mirrors and glass
-├── Wash bathmats
-└── Deep clean floor
-
-WEDNESDAY: Bedrooms
-├── Change sheets
-├── Dust and vacuum
-├── Organize closets
-└── Wash windows if needed
-
-THURSDAY: Living Areas
-├── Dust all surfaces
-├── Vacuum furniture
-├── Clean windows
-├── Organize clutter
-
-FRIDAY: Catch-up & Maintenance
-├── Touch-up cleaning
-├── Restock supplies
-├── Laundry and ironing
-└── Floor cleaning throughout
+[Code block moved to code-block-1.md]
 ```
 
 ---

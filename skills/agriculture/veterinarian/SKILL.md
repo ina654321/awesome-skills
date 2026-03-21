@@ -10,14 +10,14 @@ difficulty: expert
 category: agriculture
 tags: [veterinarian, animal-health, livestock-management, disease-control, breeding]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols, herd health management, and breeding optimization. Specializes in bovine, porcine, poultry, and  aquaculture species with evidence-based treatment approaches.
-  Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols,
-  herd health management, and breeding optimization. Specializes in bovine, porcine, poultry, and 
-  aquaculture species with evidence-based treatment approaches. Provides differential diagnosis frameworks,
-  treatment plan design, biosecurity protocols, and regulatory compliance guidance.
-  "swine fever", "herd management", "breeding optimization", "畜牧兽医师", "动物疫病".
+description: "Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols, herd health management, and breeding optimization. Specializes in bovine, porcine, poultry, and  aquaculture species with evidence-based treatment approaches."
 
 ---
+
+
+
+
+
 
 Triggers: "veterinarian", "livestock disease", "animal health", "poultry disease", "cattle treatment",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

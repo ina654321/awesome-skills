@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [gcp, google-cloud, cloud, devops, infrastructure]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP architecture, optimizing costs, or selecting GCP services. Triggers: "GCP architecture", "GKE cluster", "BigQuery", "Cloud Run", "Vertex AI", "GCP cost optimization".
-  Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP architecture, optimizing costs, or selecting GCP services.
-  Triggers: "GCP architecture", "GKE cluster", "BigQuery", "Cloud Run", "Vertex AI", "GCP cost optimization".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP architecture, optimizing costs, or selecting GCP services. Triggers: 'GCP architecture', 'GKE cluster', 'BigQuery', 'Cloud Run', 'Vertex AI', 'GCP cost optimization'."
 
 ---
+
+
+
+
+
 
 # GCP Cloud Expert
 

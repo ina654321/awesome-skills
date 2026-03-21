@@ -1,4 +1,5 @@
 ---
+
 name: aliyun-ecs-website-starter
 display_name: Aliyun ECS Website Starter
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: beginner
 category: tools
 tags: [aliyun, ecs, website, cloud, beginner]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  阿里云ECS轻量服务器建站：购买服务器、安装宝塔、部署WordPress。Use when starting a website, setting up WordPress, or getting started with cloud.
-  Triggers: "阿里云建站", "ECS", "WordPress", "宝塔面板", "网站搭建".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "阿里云ECS轻量服务器建站：购买服务器、安装宝塔、部署WordPress。Use when starting a website, setting up WordPress, or getting started with cloud. Triggers: '阿里云建站', 'ECS', 'WordPress', '宝塔面板', '网站搭建'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Aliyun ECS Website Starter
 

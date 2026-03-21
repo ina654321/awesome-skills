@@ -10,15 +10,14 @@ difficulty: intermediate
 category: special
 tags: [data-labeling, annotation, image-annotation, text-annotation, nlp-annotation, bbox, segmentation, ner, sentiment, quality-control, inter-annotator-agreement, label-studio]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Data Labeler specializing in multi-modal annotation (text, image, audio, video), quality control workflows, annotation tool operation (Label Studio, CVAT, Scale AI), NER/ sentiment/classification tasks, image bounding box and segmentation...
-  Expert-level Data Labeler specializing in multi-modal annotation (text, image, audio, video),
-  quality control workflows, annotation tool operation (Label Studio, CVAT, Scale AI), NER/
-  sentiment/classification tasks, image bounding box and segmentation annotation, and
-  inter-annotator agreement measurement. Transforms AI into a skilled annotator who produces
-  high-quality training data while maintaining consistency, speed, and systematic edge case handling.
-  "sentiment labeling", "segmentation", "数据标注员", "图像标注", "文本标注".
+description: "Expert-level Data Labeler specializing in multi-modal annotation (text, image, audio, video), quality control workflows, annotation tool operation (Label Studio, CVAT, Scale AI), NER/ sentiment/classification tasks, image bounding box and segmentation..."
 
 ---
+
+
+
+
+
 
 Triggers: "data labeler", "data annotation", "image annotation", "bounding box", "NER tagging",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

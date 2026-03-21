@@ -1,4 +1,5 @@
 ---
+
 name: elk-stack-expert
 display_name: ELK Stack Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: expert
 category: tools
 tags: [elk, elasticsearch, logstash, kibana, logging, elastic, observability, siem]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack.
-  Triggers: "ELK", "日志分析", "Elasticsearch", "Kibana", "Logstash", "Elastic Stack".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Triggers: 'ELK', '日志分析', 'Elasticsearch', 'Kibana', 'Logstash', 'Elastic Stack'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # ELK Stack Expert
 
@@ -131,164 +135,19 @@ This skill provides comprehensive guidance for ELK Stack platform operations:
 ### 4.1 Index Lifecycle Management (ILM)
 
 ```
-Index Lifecycle: hot → warm → cold → delete (or searchable_snapshot)
-
-┌─────────────────────────────────────────────────────────────┐
-│  ILM Policy for Application Logs                              │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  hot (0-7 days):                                             │
-│    - Primary/replica: 1 shard, 1 replica                     │
-│    - Refresh interval: 1s                                    │
-│    - Roll over when: size > 50GB OR docs > 20M              │
-│                                                              │
-│  warm (7-30 days):                                           │
-│    - Shrink to 1 primary shard                              │
-│    - Force merge to 1 segment                                │
-│    - Move to warm nodes (HDD)                                │
-│                                                              │
-│  cold (30-90 days):                                          │
-│    - Move to cold nodes (larger HDDs)                        │
-│    - Reduce replicas to 0                                    │
-│    - Optionally freeze                                       │
-│                                                              │
-│  delete (90+ days):                                          │
-│    - Delete index                                            │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### 4.2 Logstash Pipeline Pattern
 
 ```ruby
-input {
-  beats {
-    port => 5044
-    ssl => true
-    ssl_certificate => "/etc/logstash/ssl/logstash.crt"
-    ssl_key => "/etc/logstash/ssl/logstash.key"
-  }
-  kafka {
-    bootstrap_servers => "kafka:9092"
-    topics => ["app-logs", "access-logs"]
-    group_id => "logstash-consumers"
-    codec => json
-  }
-}
-
-filter {
-  if [log][file][path] =~ /access\.log/ {
-    grok {
-      match => { "message" => '%{IPORHOST:client_ip} %{USER:ident} %{USER:auth} \[%{HTTPDATE:timestamp}\] "%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:http_version}" %{NUMBER:status:int} %{NUMBER:bytes:int}' }
-      tag_on_failure => ["_grokparsefailure_access"]
-    }
-    date {
-      match => [ "timestamp", "dd/MMM/yyyy:HH:mm:ss Z" ]
-      target => "@timestamp"
-    }
-    geoip {
-      source => "client_ip"
-      target => "geoip"
-    }
-    useragent {
-      source => "user_agent"
-      target => "ua"
-    }
-  }
-
-  if [log][file][path] =~ /error\.log/ {
-    grok {
-      match => { "message" => '(?m)^%{TIMESTAMP_ISO8601:timestamp} %{LOGLEVEL:level} %{NOTSPACE:logger} - %{GREEDYDATA:message}' }
-      tag_on_failure => ["_grokparsefailure_error"]
-    }
-    mutate {
-      add_field => { "severity" => "%{level}" }
-    }
-  }
-
-  mutate {
-    add_field => { "environment" => "production" }
-    remove_field => [ "host" ]  # Remove nested host object
-  }
-}
-
-output {
-  if "error" in [tags] {
-    elasticsearch {
-      hosts => ["https://es-hot-1:9200", "https://es-hot-2:9200"]
-      index => "app-logs-error-%{+YYYY.MM.dd}"
-      user => "logstash_writer"
-      password => "${ES_PASSWORD}"
-      ssl_certificate_verification => true
-    }
-  } else {
-    elasticsearch {
-      hosts => ["https://es-hot-1:9200", "https://es-hot-2:9200"]
-      index => "app-logs-%{+YYYY.MM.dd}"
-      user => "logstash_writer"
-      password => "${ES_PASSWORD}"
-      ilm_enabled => true
-      ilm_rollover_alias => "app-logs"
-      ilm_pattern => "000001"
-      ilm_policy => "app-logs-policy"
-    }
-  }
-  
-  # Debug output
-  stdout { codec => rubydebug }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ### 4.3 Elasticsearch Index Template
 
 ```json
-{
-  "index_patterns": ["app-logs-*"],
-  "template": {
-    "settings": {
-      "number_of_shards": 1,
-      "number_of_replicas": 1,
-      "index.lifecycle.name": "app-logs-policy",
-      "index.lifecycle.rollover_alias": "app-logs",
-      "refresh_interval": "5s",
-      "analysis": {
-        "analyzer": {
-          "path_analyzer": {
-            "type": "custom",
-            "tokenizer": "path_hierarchy"
-          }
-        }
-      }
-    },
-    "mappings": {
-      "dynamic": "strict",
-      "properties": {
-        "@timestamp": { "type": "date" },
-        "log.level": { "type": "keyword" },
-        "message": { "type": "text", "analyzer": "standard" },
-        "trace.id": { "type": "keyword" },
-        "span.id": { "type": "keyword" },
-        "service.name": { "type": "keyword" },
-        "service.version": { "type": "keyword" },
-        "environment": { "type": "keyword" },
-        "host.name": { "type": "keyword" },
-        "client_ip": { "type": "ip" },
-        "geoip": {
-          "properties": {
-            "city_name": { "type": "keyword" },
-            "country_name": { "type": "keyword" },
-            "location": { "type": "geo_point" }
-          }
-        },
-        "http.request.method": { "type": "keyword" },
-        "http.request.path": { "type": "keyword" },
-        "http.response.status_code": { "type": "short" },
-        "error.exception": { "type": "text" },
-        "error.type": { "type": "keyword" }
-      }
-    }
-  }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ---
@@ -415,96 +274,13 @@ Elements:
 ### 6.3 Filebeat Configuration
 
 ```yaml
-filebeat.inputs:
-  - type: log
-    enabled: true
-    paths:
-      - /var/log/application/*.log
-      - /var/log/application/error/*.log
-    multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
-    multiline.negate: true
-    multiline.match: after
-    json.keys_under_root: true
-    json.add_error_key: true
-    fields:
-      application: my-app
-      environment: production
-    fields_under_root: true
-
-  - type: container
-    paths:
-      - /var/log/containers/*.log
-    processors:
-      - add_kubernetes_metadata:
-          host: ${NODE_NAME}
-          matchers:
-            - logs_path:
-                logs_path: "/var/log/containers/"
-
-processors:
-  - add_host_metadata:
-      when.not.contains.tags: forwarded
-  - add_cloud_metadata: ~
-  - add_docker_metadata: ~
-
-output.elasticsearch:
-  hosts: ["https://es-hot-1:9200"]
-  username: "filebeat_writer"
-  password: "${FILEBEAT_PASSWORD}"
-  ssl.certificate_authorities: ["/etc/filebeat/ca.crt"]
-  index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"
-
-setup.ilm.enabled: true
-setup.ilm.rollover_alias: "filebeat"
-setup.ilm.pattern: "{now/d}-000001"
-setup.ilm.policy_name: "filebeat-policy"
-
-setup.kibana:
-  host: "https://kibana:5601"
+[Code block moved to code-block-2.md]
 ```
 
 ### 6.4 ILM Policy Definition
 
 ```json
-PUT /_ilm/policy/app-logs-policy
-{
-  "policy": {
-    "phases": {
-      "hot": {
-        "min_age": "0ms",
-        "actions": {
-          "rollover": {
-            "max_age": "7d",
-            "max_primary_shard_size": "50gb"
-          },
-          "set_priority": { "priority": 100 }
-        }
-      },
-      "warm": {
-        "min_age": "7d",
-        "actions": {
-          "shrink": { "number_of_shards": 1 },
-          "forcemerge": { "max_num_segments": 1 },
-          "set_priority": { "priority": 50 },
-          "readonly": {}
-        }
-      },
-      "cold": {
-        "min_age": "30d",
-        "actions": {
-          "set_priority": { "priority": 0 },
-          "allocate": { "require": { "data": "cold" } }
-        }
-      },
-      "delete": {
-        "min_age": "90d",
-        "actions": {
-          "delete": {}
-        }
-      }
-    }
-  }
-}
+[Code block moved to code-block-1.md]
 ```
 
 ---

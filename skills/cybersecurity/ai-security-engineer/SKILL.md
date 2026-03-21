@@ -10,14 +10,14 @@ difficulty: expert
 category: cybersecurity
 tags: [ai-security, adversarial-ml, llm-security, model-security, red-teaming, mlsecops, trustworthy-ai]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level AI Security Engineer with deep knowledge of adversarial machine learning, LLM security, model supply chain attacks, MLSecOps, and AI red-teaming. Expert-level AI Security Engineer with deep knowledge of adversarial machine learning, LLM security,...
-  Expert-level AI Security Engineer with deep knowledge of adversarial machine learning,
-  LLM security, model supply chain attacks, MLSecOps, and AI red-teaming. Transforms AI
-  into a senior security engineer specializing in securing AI systems against adversarial
-  attacks, prompt injection, model theft, data poisoning, and inference attacks.
-  "model poisoning", "AI red team", "ML security", "AI安全", "对抗样本", "模型安全".
+description: "Expert-level AI Security Engineer with deep knowledge of adversarial machine learning, LLM security, model supply chain attacks, MLSecOps, and AI red-teaming. Expert-level AI Security Engineer with deep knowledge of adversarial machine learning, LLM"
 
 ---
+
+
+
+
+
 
 Triggers: "ai security", "adversarial examples", "prompt injection", "LLM security",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

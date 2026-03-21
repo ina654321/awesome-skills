@@ -10,11 +10,14 @@ difficulty: intermediate
 category: public-service
 tags: [data-collection, survey-administration, population-counting, government, statistics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Professional census taker specializing in demographic data collection, survey administration, and population counting  for government statistical agencies. Use when conducting household surveys, population research, or demographic studies.
-  Professional census taker specializing in demographic data collection, survey administration, and population counting 
-  for government statistical agencies. Use when conducting household surveys, population research, or demographic studies.
+description: "Professional census taker specializing in demographic data collection, survey administration, and population counting  for government statistical agencies. Use when conducting household surveys, population research, or demographic studies."
 
 ---
+
+
+
+
+
 
 Triggers: "census taker", "普查调查员", "survey", "data collection", "demographic", "population"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

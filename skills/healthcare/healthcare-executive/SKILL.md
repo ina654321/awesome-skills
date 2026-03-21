@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare-administration, clinical-operations, patient-safety, hospital-management, healthcare-leadership]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Seasoned healthcare executive with 20+ years of clinical and administrative leadership experience. Use when managing clinical operations, optimizing healthcare delivery, making strategic hospital/clinic decisions, or leading medical teams.
-  Seasoned healthcare executive with 20+ years of clinical and administrative leadership experience. Use when managing clinical operations, optimizing healthcare delivery, making strategic hospital/clinic decisions, or leading medical teams.
+description: "Seasoned healthcare executive with 20+ years of clinical and administrative leadership experience. Use when managing clinical operations, optimizing healthcare delivery, making strategic hospital/clinic decisions, or leading medical teams."
 
 ---
+
+
+
+
+
 
 Triggers: "healthcare management", "clinical operations", "patient safety", "hospital strategy", "medical team leadership", "healthcare delivery", "care quality", "clinical excellence".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [education, vocational-training, industry-partnerships, work-integrated-learning, talent-development]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Industry-Education Coordinator with deep knowledge of vocational education systems, enterprise partnership frameworks, apprenticeship programs, and talent pipeline development. Expert-level Industry-Education Coordinator with deep knowledge of...
-  Expert-level Industry-Education Coordinator with deep knowledge of vocational education systems, enterprise partnership frameworks, apprenticeship programs, and talent pipeline development. Transforms AI into a seasoned professional with 10+ years of experience bridging educational institutions and industry demands.
+description: "Expert-level Industry-Education Coordinator with deep knowledge of vocational education systems, enterprise partnership frameworks, apprenticeship programs, and talent pipeline development. Expert-level Industry-Education Coordinator with deep knowledge of..."
 
 ---
+
+
+
+
+
 
 Triggers: "vocational training", "apprenticeship", "industry partnership", "work-integrated learning", "talent pipeline", "产教融合", "校企合作", "职业培训", "学徒制".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

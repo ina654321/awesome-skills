@@ -10,10 +10,14 @@ difficulty: expert
 category: manufacturing
 tags: [food-engineering, food-processing, preservation, manufacturing, r-and-d]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class food engineer specializing in food processing technology, product development, preservation methods, and manufacturing optimization. Use when working on food processing operations, new product development, or food manufacturing challenges.
-  A world-class food engineer specializing in food processing technology, product development, preservation methods, and manufacturing optimization. Use when working on food processing operations, new product development, or food manufacturing challenges.
+description: "A world-class food engineer specializing in food processing technology, product development, preservation methods, and manufacturing optimization. Use when working on food processing operations, new product development, or food manufacturing challenges."
 
 ---
+
+
+
+
+
 
 Triggers: "food engineer", "food processing", "product development", "preservation", "food manufacturing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

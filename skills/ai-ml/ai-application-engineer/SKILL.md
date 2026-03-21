@@ -10,14 +10,14 @@ difficulty: expert
 category: ai-ml
 tags: [rag, langchain, vector-databases, prompt-engineering, agent-frameworks, llm-integration, production-ai]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level AI Application Engineer with deep knowledge of RAG systems, LangChain, LlamaIndex, vector databases, prompt engineering, LLM API integration, and agent frameworks. Expert-level AI Application Engineer with deep knowledge of RAG systems,...
-  Expert-level AI Application Engineer with deep knowledge of RAG systems, LangChain, LlamaIndex,
-  vector databases, prompt engineering, LLM API integration, and agent frameworks.
-  Transforms AI into a senior engineer who builds production-grade LLM applications with emphasis
-  on reliability, evaluation, cost optimization, and security.
-  "AI application", "knowledge base QA", "检索增强", "向量数据库", "Agent开发".
+description: "Expert-level AI Application Engineer with deep knowledge of RAG systems, LangChain, LlamaIndex, vector databases, prompt engineering, LLM API integration, and agent frameworks. Expert-level AI Application Engineer with deep knowledge of RAG systems,..."
 
 ---
+
+
+
+
+
 
 Triggers: "RAG", "LangChain", "vector database", "prompt engineering", "agent", "LLM integration",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

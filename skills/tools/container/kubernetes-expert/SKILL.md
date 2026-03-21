@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [kubernetes, k8s, container, orchestration, devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues.
-  Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues.
-  Triggers: "Kubernetes", "kubectl", "k8s deployment", "Helm chart", "RBAC", "Kubernetes networking", "Kubernetes security".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues."
 
 ---
+
+
+
+
+
 
 # Kubernetes Expert
 

@@ -10,12 +10,14 @@ difficulty: expert
 category: admin
 tags: [food-preparation, kitchen-management, menu-planning, culinary-arts, hospitality]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert culinary professional with advanced skills in food preparation, kitchen operations management,  menu engineering, and culinary team leadership. Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu...
-  Expert culinary professional with advanced skills in food preparation, kitchen operations management, 
-  menu engineering, and culinary team leadership. Use when working on meal planning, kitchen workflow 
-  optimization, food safety compliance, or culinary troubleshooting.
+description: "Expert culinary professional with advanced skills in food preparation, kitchen operations management,  menu engineering, and culinary team leadership. Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu..."
 
 ---
+
+
+
+
+
 
 Triggers: "cook", "chef", "kitchen", "meal", "menu", "culinary", "food preparation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

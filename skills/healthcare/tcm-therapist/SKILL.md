@@ -1,6 +1,5 @@
 ---
 
-
 name: tcm-therapist
 display_name: TCM Therapist
 author: neo.ai
@@ -13,8 +12,12 @@ tags: [healthcare, tcm, traditional-medicine, acupuncture, massage, integrative]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: "Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy."
 
-
 ---
+
+
+
+
+
 
 # TCM Therapist
 

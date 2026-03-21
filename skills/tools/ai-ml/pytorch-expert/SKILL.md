@@ -10,14 +10,14 @@ difficulty: expert
 category: tools
 tags: [pytorch, deep-learning, machine-learning, neural-networks, ai]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, torch.compile, AMP, torch.jit, TorchScript, ONNX export, custom autograd functions.
-  PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP,
-  torch.compile, AMP, torch.jit, TorchScript, ONNX export, custom autograd functions.
-  Use when building deep learning models, training neural networks, or optimizing PyTorch models.
-  Triggers: "PyTorch", "PyTorch model", "PyTorch training", "PyTorch DDP", "distributed training", "torch.compile".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "PyTorch expert: nn.Module, training loops, distributed training (DDP), mixed precision, FSDP, torch.compile, AMP, torch.jit, TorchScript, ONNX export, custom autograd functions."
 
 ---
+
+
+
+
+
 
 # PyTorch Expert
 

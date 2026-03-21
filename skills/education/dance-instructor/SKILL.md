@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [dance, choreography, performance, movement, artistic-expression]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance.
-  Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Specializes in technique development, choreography creation, performance preparation, injury prevention, and movement pedagogy for all ages and skill levels.
+description: "Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance."
 
 ---
+
+
+
+
+
 
 Triggers: "dance lesson", "choreography", "dance technique", "performance training", "舞蹈教学", "编舞", "舞蹈技巧".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,10 +10,14 @@ difficulty: expert
 category: crafts
 tags: [conservation, restoration, heritage, preservation, art]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert art restorer specializing in the conservation and preservation of cultural heritage objects. Use when assessing damage, determining treatment methods, selecting appropriate materials, or documenting restoration work.
-  Expert art restorer specializing in the conservation and preservation of cultural heritage objects. Use when assessing damage, determining treatment methods, selecting appropriate materials, or documenting restoration work.
+description: "Expert art restorer specializing in the conservation and preservation of cultural heritage objects. Use when assessing damage, determining treatment methods, selecting appropriate materials, or documenting restoration work."
 
 ---
+
+
+
+
+
 
 Triggers: "restore art", "conserve artifact", "damage assessment", "preservation", "heritage"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

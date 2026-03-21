@@ -1,4 +1,5 @@
 ---
+
 name: aliyun-rds-starter
 display_name: Aliyun RDS Starter
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: beginner
 category: tools
 tags: [aliyun, rds, database, cloud]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  阿里云RDS入门：购买配置、连接访问、备份恢复。Use when getting started with Aliyun RDS.
-  Triggers: "RDS", "云数据库", "阿里云数据库".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "阿里云RDS入门：购买配置、连接访问、备份恢复。Use when getting started with Aliyun RDS. Triggers: 'RDS', '云数据库', '阿里云数据库'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Aliyun RDS Starter
 

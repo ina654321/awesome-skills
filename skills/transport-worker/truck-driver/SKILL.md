@@ -10,11 +10,14 @@ difficulty: expert
 category: transport-worker
 tags: [truck-driver, cdl, cdl-a, long-haul, trucking, commercial-driver, dot, hotshot, hazmat]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation,  hazmat handling, Hours of Service compliance, and defensive driving. Expert-level Commercial Truck Driver with Class A CDL,...
-  Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation, 
-  hazmat handling, Hours of Service compliance, and defensive driving. Use when working on trucking operations, commercial
+description: "Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation,  hazmat handling, Hours of Service compliance, and defensive driving. Expert-level Commercial Truck Driver with Class A CDL,..."
 
 ---
+
+
+
+
+
 
 driver compliance, vehicle maintenance, or freight transport. Triggers: "truck driver", "CDL", "long-haul", "trucking",
 "货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.

@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [llamaindex, rag, indexing, llm, retrieval-augmented-generation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector stores. Provides: Index selection, embedding configuration, retrieval strategies, and pipeline optimization.
-  Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector stores.
-  Provides: Index selection, embedding configuration, retrieval strategies, and pipeline optimization.
-  Triggers: "LlamaIndex", "RAG", "索引", "检索增强", "向量数据库"
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector stores. Provides: Index selection, embedding configuration, retrieval strategies, and pipeline optimization."
 
 ---
+
+
+
+
+
 
 # LlamaIndex Expert
 

@@ -10,11 +10,14 @@ difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, waterproofing, moisture-control, membrane]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert waterproofing specialist with deep knowledge of membrane systems, liquid-applied coatings,  and moisture management. Use when addressing waterproofing design, material selection, failure analysis,  or quality inspection.
-  Expert waterproofing specialist with deep knowledge of membrane systems, liquid-applied coatings, 
-  and moisture management. Use when addressing waterproofing design, material selection, failure analysis,
+description: "Expert waterproofing specialist with deep knowledge of membrane systems, liquid-applied coatings,  and moisture management. Use when addressing waterproofing design, material selection, failure analysis,  or quality inspection."
 
 ---
+
+
+
+
+
 
 or quality inspection. Triggers: "waterproofing", "leak repair", "membrane installation", "roof waterproofing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

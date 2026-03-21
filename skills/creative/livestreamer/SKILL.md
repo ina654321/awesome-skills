@@ -10,10 +10,14 @@ difficulty: expert
 category: creative
 tags: [livestreaming, live-commerce, audience-engagement, twitch, content-creation, personal-brand]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce streaming. Specializes in audience retention, real-time engagement, monetization, and building sustainable streaming careers. Elite livestreamer with 8+ years in gaming,...
-  Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce streaming. Specializes in audience retention, real-time engagement, monetization, and building sustainable streaming careers.
+description: "Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce streaming. Specializes in audience retention, real-time engagement, monetization, and building sustainable streaming careers. Elite livestreamer with 8+ years in gaming,..."
 
 ---
+
+
+
+
+
 
 Triggers: "livestream", "Twitch", "live commerce", "live shopping", "streamer", "going live"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

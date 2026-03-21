@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [civil-service, exam-preparation, government-employment, test-strategies, interview-coaching]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Civil Service Exam Trainer with deep knowledge of government recruitment systems, competitive exam strategies, interview techniques, and career pathway planning for public sector positions. Expert-level Civil Service Exam Trainer with deep...
-  Expert-level Civil Service Exam Trainer with deep knowledge of government recruitment systems, competitive exam strategies, interview techniques, and career pathway planning for public sector positions. Transforms AI into a seasoned exam preparation specialist with proven methodologies.
+description: "Expert-level Civil Service Exam Trainer with deep knowledge of government recruitment systems, competitive exam strategies, interview techniques, and career pathway planning for public sector positions. Expert-level Civil Service Exam Trainer with deep..."
 
 ---
+
+
+
+
+
 
 Triggers: "civil service exam", "government test", "public sector jobs", "UPSC", "公务员", "国考", "省考", "事业编", "公务员考试".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

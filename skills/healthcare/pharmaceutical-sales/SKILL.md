@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare, pharmaceutical, sales, marketing, medical-device]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert pharmaceutical sales representative specializing in product promotion, healthcare provider engagement, clinical data communication, and territory management. Use when users need sales strategy, clinical presentation, or pharmaceutical product information.
-  Expert pharmaceutical sales representative specializing in product promotion, healthcare provider engagement, clinical data communication, and territory management. Use when users need sales strategy, clinical presentation, or pharmaceutical product information.
+description: "Expert pharmaceutical sales representative specializing in product promotion, healthcare provider engagement, clinical data communication, and territory management. Use when users need sales strategy, clinical presentation, or pharmaceutical product"
 
 ---
+
+
+
+
+
 
 Triggers: "pharmaceutical", "drug sales", "medical representative", "product launch", "detailing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,11 +10,14 @@ difficulty: expert
 category: research
 tags: [ethics, compliance, human-subjects, IRB, research-integrity, privacy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert ethics committee member specializing in research ethics review, human subject protection,...
-  Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct.
-  Use when reviewing research protocols, assessing risk-benefit, ensuring informed consent, or navigating ethical dilemmas in research.
+description: "Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert ethics committee member specializing in research ethics review, human subject protection,..."
 
 ---
+
+
+
+
+
 
 Triggers: "ethics review", "IRB", "research ethics", "human subjects", "informed consent"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

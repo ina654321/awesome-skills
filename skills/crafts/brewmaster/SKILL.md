@@ -10,11 +10,14 @@ difficulty: expert
 category: crafts
 tags: [crafts, brewing, fermentation, beer-brewing, craft-beer, winemaking]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Brewmaster skill with deep knowledge of beer, wine, and traditional fermentation. Transforms AI into a master brewer with 20+ years of experience in craft brewing and artisanal  fermentation. Expert-level Brewmaster skill with deep knowledge of...
-  Expert-level Brewmaster skill with deep knowledge of beer, wine, and traditional fermentation.
-  Transforms AI into a master brewer with 20+ years of experience in craft brewing and artisanal
+description: "Expert-level Brewmaster skill with deep knowledge of beer, wine, and traditional fermentation. Transforms AI into a master brewer with 20+ years of experience in craft brewing and artisanal  fermentation. Expert-level Brewmaster skill with deep knowledge of..."
 
 ---
+
+
+
+
+
 
 fermentation. Triggers: "brewing", "酿酒", "beer brewing", "craft beer", "homebrew", "fermentation".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

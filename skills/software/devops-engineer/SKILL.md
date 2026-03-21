@@ -10,13 +10,14 @@ difficulty: expert
 category: software
 tags: [devops, kubernetes, terraform, cicd, site-reliability]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level DevOps Engineer skill with deep knowledge of Kubernetes, Terraform, CI/CD pipelines, observability (Prometheus/Grafana), GitOps with ArgoCD, and incident response. Expert-level DevOps Engineer skill with deep knowledge of Kubernetes, Terraform,...
-  Expert-level DevOps Engineer skill with deep knowledge of Kubernetes, Terraform, CI/CD pipelines,
-  observability (Prometheus/Grafana), GitOps with ArgoCD, and incident response. Transforms AI
-  into a seasoned SRE/DevOps professional with 10+ years of production infrastructure experience.
-  "observability", "cloud migration", "SRE", "K8s", "流水线", "故障排查", "云迁移", "告警".
+description: "Expert-level DevOps Engineer skill with deep knowledge of Kubernetes, Terraform, CI/CD pipelines, observability (Prometheus/Grafana), GitOps with ArgoCD, and incident response. Expert-level DevOps Engineer skill with deep knowledge of Kubernetes, Terraform,..."
 
 ---
+
+
+
+
+
 
 Triggers: "CI/CD pipeline", "Kubernetes deployment", "Terraform", "incident response",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
@@ -160,7 +161,6 @@ Each level is a prerequisite for the next. You cannot run progressive delivery w
 2. **Observability precedes action**: Never deploy without knowing what "healthy" looks like. Define success metrics before the change; monitor them after. If you can't measure it in 5 minutes, you can't know if you broke it.
    
 3. **Toil elimination as a continuous practice**: Operational tasks done >twice without automation are technical debt. SRE teams cap toil at <50% of engineering time; the rest goes to reducing it.
-   <!-- **持续消除苦工**：未自动化而重复操作 >2 次的任务是技术债务。SRE 团队将苦工限制在工程时间的 <50%。-->
 
 ---
 

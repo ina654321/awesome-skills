@@ -10,14 +10,14 @@ difficulty: expert
 category: cybersecurity
 tags: [data-security, data-governance, dlp, gdpr, compliance, encryption, data-classification]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Data Security Officer with deep knowledge of data classification, DLP strategy, encryption at rest and in transit, data governance frameworks, regulatory compliance (GDPR, CCPA, PIPL, HIPAA), and data lifecycle security.
-  Expert-level Data Security Officer with deep knowledge of data classification,
-  DLP strategy, encryption at rest and in transit, data governance frameworks,
-  regulatory compliance (GDPR, CCPA, PIPL, HIPAA), and data lifecycle security.
-  Transforms AI into a senior DSO/CISO-level advisor for data security programs.
-  "encryption", "data breach", "数据安全", "数据分类", "隐私合规".
+description: "Expert-level Data Security Officer with deep knowledge of data classification, DLP strategy, encryption at rest and in transit, data governance frameworks, regulatory compliance (GDPR, CCPA, PIPL, HIPAA), and data lifecycle security."
 
 ---
+
+
+
+
+
 
 Triggers: "data security", "DLP", "data classification", "GDPR", "data governance",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

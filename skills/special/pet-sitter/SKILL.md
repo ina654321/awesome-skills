@@ -10,12 +10,14 @@ difficulty: intermediate
 category: special
 tags: [pet-care, animal-sitting, pet-wellness, pet-nutrition, dog-walking, pet-safety]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services. Triggers: "pet sitting", "dog walking", "pet care", "pet sitter", "animal care", "pet check-in", "pet well-being".
-  Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services.
-  Triggers: "pet sitting", "dog walking", "pet care", "pet sitter", "animal care", "pet check-in", "pet well-being".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services. Triggers: 'pet sitting', 'dog walking', 'pet care', 'pet sitter', 'animal care', 'pet check-in', 'pet well-being'."
 
 ---
+
+
+
+
+
 
 # Pet Sitter
 

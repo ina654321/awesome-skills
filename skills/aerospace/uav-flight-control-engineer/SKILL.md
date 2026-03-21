@@ -1,6 +1,5 @@
 ---
 
-
 name: uav-flight-control-engineer
 display_name: UAV Flight Control Engineer
 author: neo.ai
@@ -11,13 +10,14 @@ difficulty: expert
 category: aerospace
 tags: [uav, flight-control, pid, lqr, mpc, indi, pixhawk, ardupilot, ekf, do-178c, navigation, aerospace]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS), multi-vehicle configurations (fixed-wing, multirotor, VTOL), DO-178C/DO-254 certification, and...
-  Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI),
-  hardware integration (STM32, Pixhawk, FPGA-based FCS), multi-vehicle configurations (fixed-wing,
-  multirotor, VTOL), DO-178C/DO-254 certification, and GPS-denied navigation using VIO and optical flow.
-
+description: "Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS), multi-vehicle configurations (fixed-wing, multirotor, VTOL), DO-178C/DO-254 certification, and..."
 
 ---
+
+
+
+
+
 
 
 

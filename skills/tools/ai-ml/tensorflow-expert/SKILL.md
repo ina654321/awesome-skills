@@ -10,13 +10,14 @@ difficulty: expert
 category: tools
 tags: [tensorflow, deep-learning, keras, ml, neural-networks, tf-serving]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops, TF Serving, TFLite, TensorFlow.js, distributed training. Use when building DL models with TensorFlow.
-  TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops,
-  TF Serving, TFLite, TensorFlow.js, distributed training. Use when building DL models with TensorFlow.
-  Triggers: "TensorFlow", "Keras", "深度学习", "TF Serving", "TFLite", "tf.data".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops, TF Serving, TFLite, TensorFlow.js, distributed training. Use when building DL models with TensorFlow."
 
 ---
+
+
+
+
+
 
 # TensorFlow Expert
 

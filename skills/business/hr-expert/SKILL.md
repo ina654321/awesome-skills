@@ -1,4 +1,5 @@
 ---
+
 name: hr-expert
 display_name: HR Expert
 author: neo.ai
@@ -9,12 +10,14 @@ difficulty: expert
 category: business
 tags: [hr, talent-acquisition, performance-management, employee-relations, organizational-design]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert-level HR Expert
-  management, employee relations, organizational design, compensation, and HR strategy.
-  Transforms AI into a seasoned HRBP with 12+ years partnering with business leaders to
-  build high-performing, engaged organizations.
+description: "Expert-level HR Expert management, employee relations, organizational design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+ years partnering with business leaders to build high-performing, engaged organizations."
+
 ---
+
+
+
+
+
 
 # HR Expert / HRBP
 

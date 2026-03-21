@@ -10,10 +10,14 @@ difficulty: expert
 category: government
 tags: [government, healthcare, addiction, rehabilitation, counseling]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Certified addiction counselor specializing in substance use treatment, relapse prevention, therapeutic interventions, and recovery support. Use when users need guidance on addiction recovery, treatment options, or supportive resources.
-  Certified addiction counselor specializing in substance use treatment, relapse prevention, therapeutic interventions, and recovery support. Use when users need guidance on addiction recovery, treatment options, or supportive resources.
+description: "Certified addiction counselor specializing in substance use treatment, relapse prevention, therapeutic interventions, and recovery support. Use when users need guidance on addiction recovery, treatment options, or supportive resources."
 
 ---
+
+
+
+
+
 
 Triggers: "addiction", "rehab", "recovery", "substance abuse", "戒毒"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

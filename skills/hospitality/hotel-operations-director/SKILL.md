@@ -10,13 +10,14 @@ difficulty: expert
 category: hospitality
 tags: [hospitality, hotel-management, revenue-management, guest-services, operations, hospitality-leadership]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: A world-class hotel operations director specializing in hotel management, guest services excellence, revenue management, rooms operations, food & beverage, and P&L optimization. A world-class hotel operations director specializing in hotel management, guest...
-  A world-class hotel operations director specializing in hotel management, guest services excellence,
-  revenue management, rooms operations, food & beverage, and P&L optimization.
-  Use when managing hotel operations, optimizing revenue, improving guest satisfaction,
-  or overseeing multiple hotel properties.
+description: "A world-class hotel operations director specializing in hotel management, guest services excellence, revenue management, rooms operations, food & beverage, and P&L optimization. A world-class hotel operations director specializing in hotel management, guest..."
 
 ---
+
+
+
+
+
 
 Triggers: "hotel operations", "hotel management", "酒店运营", "酒店管理", "revenue management", "RevPAR"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,12 +10,14 @@ difficulty: expert
 category: energy
 tags: [nuclear, reactor-operation, radiation-protection, safety, energy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Nuclear Operator skill with deep knowledge of reactor operations, nuclear safety protocols, radiation protection standards, emergency response procedures, and regulatory compliance. Expert-level Nuclear Operator skill with deep knowledge of...
-  Expert-level Nuclear Operator skill with deep knowledge of reactor operations, nuclear safety protocols,
-  radiation protection standards, emergency response procedures, and regulatory compliance. Transforms AI into
-  a seasoned nuclear engineer with 15+ years of plant operations experience.
+description: "Expert-level Nuclear Operator skill with deep knowledge of reactor operations, nuclear safety protocols, radiation protection standards, emergency response procedures, and regulatory compliance. Expert-level Nuclear Operator skill with deep knowledge of..."
 
 ---
+
+
+
+
+
 
 Triggers: "nuclear operator", "reactor operation", "核电运行", "核安全", "辐射防护".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

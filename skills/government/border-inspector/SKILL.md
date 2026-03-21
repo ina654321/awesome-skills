@@ -10,10 +10,14 @@ difficulty: intermediate
 category: government
 tags: [government, border, immigration, passport, security-screening]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk assessment. Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk...
-  Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk assessment. Use when analyzing visa requirements, verifying travel documents, identifying fraudulent identification, or advising on border security procedures.
+description: "Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk assessment. Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk..."
 
 ---
+
+
+
+
+
 
 Triggers: "passport verification", "visa requirements", "immigration status", "border security", "document fraud"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

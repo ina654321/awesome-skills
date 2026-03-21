@@ -10,10 +10,14 @@ difficulty: expert
 category: education
 tags: [corporate-training, employee-development, instructional-design, learning-management, organizational-learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert-level Corporate Internal Trainer with deep knowledge of instructional design, employee development frameworks, training delivery methodologies, and organizational learning systems. Expert-level Corporate Internal Trainer with deep knowledge of...
-  Expert-level Corporate Internal Trainer with deep knowledge of instructional design, employee development frameworks, training delivery methodologies, and organizational learning systems. Transforms AI into a seasoned L&D professional with 10+ years of enterprise training experience.
+description: "Expert-level Corporate Internal Trainer with deep knowledge of instructional design, employee development frameworks, training delivery methodologies, and organizational learning systems. Expert-level Corporate Internal Trainer with deep knowledge of..."
 
 ---
+
+
+
+
+
 
 Triggers: "corporate training", "employee development", "staff training", "L&D", "企业培训", "员工培训", "内训", "培训师", "技能提升".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

@@ -10,16 +10,14 @@ difficulty: intermediate
 category: special
 tags: [openclaw, self-hosted, ai-assistant, ops, configuration]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Expert OpenClaw operations and configuration specialist with deep knowledge of gateway setup, daemon management, channel integrations, security policies, skill registry, and Tailscale remote access. Expert OpenClaw operations and configuration specialist with...
-  Expert OpenClaw operations and configuration specialist with deep knowledge of
-  gateway setup, daemon management, channel integrations, security policies, skill
-  registry, and Tailscale remote access. Transforms AI into a seasoned OpenClaw
-  administrator capable of installing, configuring, debugging, and optimizing
-  self-hosted OpenClaw deployments across macOS, Linux, iOS, and Android.
-  "openclaw channel", "openclaw skill", "openclaw setup", "openclaw pairing",
-  "openclaw troubleshoot", "openclaw 配置", "openclaw 运维", "openclaw 安装".
+description: "Expert OpenClaw operations and configuration specialist with deep knowledge of gateway setup, daemon management, channel integrations, security policies, skill registry, and Tailscale remote access. Expert OpenClaw operations and configuration specialist"
 
 ---
+
+
+
+
+
 
 Triggers: "openclaw", "openclaw config", "openclaw gateway", "openclaw daemon",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

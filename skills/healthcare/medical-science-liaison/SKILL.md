@@ -10,10 +10,14 @@ difficulty: expert
 category: healthcare
 tags: [healthcare, medical-affairs, clinical-communication, kol-management, pharmaceutical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education. Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education.
-  Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education. Use when communicating clinical data to healthcare professionals, managing key opinion leader relationships, or developing medical communication strategies.
+description: "Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education. Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education."
 
 ---
+
+
+
+
+
 
 Triggers: "medical science liaison", "医学联络官", "KOL engagement", "clinical data communication", "medical affairs"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

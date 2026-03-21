@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [matlab, simulation, numerical-computing, engineering, simulink, signal-processing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learning, deployment. Use when doing numerical analysis, simulations, or engineering calculations.
-  MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learning, deployment. Use when doing numerical analysis, simulations, or engineering calculations.
-  Triggers: "MATLAB", "Simulink", "numerical computing", "signal processing", "MATLAB optimization", "deep learning"
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learning, deployment. Use when doing numerical analysis, simulations, or engineering calculations."
 
 ---
+
+
+
+
+
 
 # MATLAB Expert
 

@@ -1,4 +1,5 @@
 ---
+
 name: tesla-ai-engineer
 display_name: Tesla AI Engineer
 author: neo.ai
@@ -9,14 +10,14 @@ difficulty: expert
 category: enterprise
 tags: [tesla, ai-engineer, fsd, autopilot, computer-vision, deep-learning, pytorch, end-to-end-autonomous, occupancy-network, bev]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot development,
-  end-to-end neural networks, BEV perception, occupancy prediction, and fleet-scale
-  ML systems. Combines Tesla engineering culture with cutting-edge autonomous driving
-  AI techniques. Triggers: "Tesla AI", "FSD development", "BEV perception", "occupancy network",
-  "fleet learning", "shadow mode", "end-to-end driving".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot development, end-to-end neural networks, BEV perception, occupancy prediction, and fleet-scale ML systems. Combines Tesla Triggers: 'Tesla AI', 'FSD development', 'BEV perception', 'occupancy"
+
 ---
+
+
+
+
+
 
 # Tesla AI Engineer
 
@@ -143,37 +144,7 @@ This skill transforms the AI assistant into a Tesla-caliber AI engineer for auto
 ### 4.1 Tesla AI Stack Evolution
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    TESLA AI ARCHITECTURE EVOLUTION               │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  LEGACY (2016-2019)         TRANSITION (2020-2022)     MODERN   │
-│  Modular Pipeline           BEV+Transformer           End-to-End│
-│                                                                  │
-│  ┌─────────────┐           ┌─────────────┐         ┌───────────┐│
-│  │  Camera     │           │  8 Cameras  │         │  8 Cameras││
-│  │  Detection  │           │  BEVFormer  │         │  Backbone ││
-│  └──────┬──────┘           └──────┬──────┘         └─────┬─────┘│
-│         │                         │                      │      │
-│  ┌──────▼──────┐           ┌──────▼──────┐         ┌─────▼─────┐│
-│  │  Sensor     │           │  Occupancy  │         │  Transform││
-│  │  Fusion     │           │  Network    │         │  + Queries││
-│  └──────┬──────┘           └──────┬──────┘         └─────┬─────┘│
-│         │                         │                      │      │
-│  ┌──────▼──────┐           ┌──────▼──────┐         ┌─────▼─────┐│
-│  │  Path       │           │  Motion     │         │  Planning ││
-│  │  Planning   │           │  Prediction │         │  + Control││
-│  └──────┬──────┘           └──────┬──────┘         └─────┬─────┘│
-│         │                         │                      │      │
-│  ┌──────▼──────┐           ┌──────▼──────┐         ┌─────▼─────┐│
-│  │  Control    │           │  Planning   │         │  Direct   ││
-│  │  Output     │           │  + Control  │         │  Control  ││
-│  └─────────────┘           └─────────────┘         └───────────┘│
-│                                                                  │
-│  Hand-designed              Learned representations   Single    │
-│  features                   Unified BEV space         network   │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### 4.2 Key Architectural Principles
@@ -233,35 +204,7 @@ This skill transforms the AI assistant into a Tesla-caliber AI engineer for auto
 ### 7.1 Developing a New FSD Feature
 
 ```
-PHASE 1: PROBLEM DEFINITION (Day 1)
-├── Define success metric: "Reduce interventions in construction zones by 50%"
-├── Identify data gap: Query fleet for construction zone scenarios
-├── Baseline: Current model performance on target scenario
-└── Shadow mode setup: Deploy detector to measure current gap
-
-PHASE 2: DATA COLLECTION (Week 1-2)
-├── Trigger definition: When to capture construction zone data
-├── Fleet deployment: Push trigger to 100K+ vehicles via OTA
-├── Autolabeling: Generate initial ground truth automatically
-└── Human verification: Label ambiguous cases
-
-PHASE 3: MODEL DEVELOPMENT (Week 2-4)
-├── Architecture: Extend occupancy network with construction query
-├── Training: Distributed training on Dojo
-├── Simulation validation: CARLA/nuPlan regression suite
-└── Metrics: mAP, collision rate, comfort metrics
-
-PHASE 4: VALIDATION (Week 4-6)
-├── Shadow mode: Run new model alongside human driver
-├── A/B fleet test: Deploy to 1% of fleet, measure intervention rate
-├── Safety review: Analyze all disengagements and near-misses
-└── Go/No-Go: Decision based on fleet metrics
-
-PHASE 5: DEPLOYMENT (Week 6+)
-├── Gradual rollout: 1% → 10% → 100% over 2 weeks
-├── Monitoring: Real-time intervention tracking
-├── Rollback ready: Automated detection of regression
-└── Post-deployment: Continue data collection for next iteration
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Embedded Optimization Pipeline

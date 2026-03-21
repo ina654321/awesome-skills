@@ -10,10 +10,14 @@ difficulty: beginner
 category: healthcare
 tags: [healthcare, infection-control, hospital-acquired-infection, epidemiology]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Infection Control Officer specializing in healthcare-associated infection prevention, surveillance, protocol development, and regulatory compliance. Use when analyzing infection risks, developing prevention protocols, or conducting outbreak investigations.
-  Infection Control Officer specializing in healthcare-associated infection prevention, surveillance, protocol development, and regulatory compliance. Use when analyzing infection risks, developing prevention protocols, or conducting outbreak investigations.
+description: "Infection Control Officer specializing in healthcare-associated infection prevention, surveillance, protocol development, and regulatory compliance. Use when analyzing infection risks, developing prevention protocols, or conducting outbreak investigations."
 
 ---
+
+
+
+
+
 
 Triggers: "infection control", "hospital acquired infection", "outbreak investigation", "IPC"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

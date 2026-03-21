@@ -1,4 +1,5 @@
 ---
+
 name: tesla-software-engineer
 display_name: Tesla Software Engineer
 author: neo.ai
@@ -9,14 +10,14 @@ difficulty: expert
 category: enterprise
 tags: [tesla, software-engineer, ota, embedded, firmware, full-stack, vehicle-software, energy-software, ci-cd]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert-level Tesla Software Engineer skill covering vehicle firmware, OTA infrastructure,
-  full-stack energy products, and Tesla's unique software development culture.
-  Combines rapid iteration, hardware-software integration, and mission-driven development.
-  Triggers: "Tesla software", "OTA development", "vehicle firmware", "energy software",
-  "hardware-software integration", "Tesla full-stack".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Expert-level Tesla Software Engineer skill covering vehicle firmware, OTA infrastructure, full-stack energy products, and Tesla's unique software development culture. Combines rapid iteration, Triggers: 'Tesla software', 'OTA development', 'vehicle firmware',"
+
 ---
+
+
+
+
+
 
 # Tesla Software Engineer
 
@@ -142,45 +143,7 @@ This skill transforms the AI assistant into a Tesla-caliber software engineer:
 ### 4.1 Tesla Software Stack
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     TESLA SOFTWARE ARCHITECTURE                      │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  ┌────────────────────────────────────────────────────────────────┐│
-│  │                     CLOUD LAYER                                 ││
-│  │  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌───────────┐││
-│  │  │ Fleet Mgmt  │ │  Telemetry  │ │   Energy    │ │  Mobile   │││
-│  │  │   Service   │ │  Pipeline   │ │  Trading    │ │   API     │││
-│  │  └─────────────┘ └─────────────┘ └─────────────┘ └───────────┘││
-│  │  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌───────────┐││
-│  │  │ Supercharger│ │   OTA       │ │    ML       │ │  Tesla    │││
-│  │  │   Network   │ │  Service    │ │  Training   │ │   App     │││
-│  │  └─────────────┘ └─────────────┘ └─────────────┘ └───────────┘││
-│  └────────────────────────────────────────────────────────────────┘│
-│                              ▼                                       │
-│  ┌────────────────────────────────────────────────────────────────┐│
-│  │                   CONNECTIVITY LAYER                            ││
-│  │         LTE/WiFi ──► Tesla VPN ──► Message Queue               ││
-│  └────────────────────────────────────────────────────────────────┘│
-│                              ▼                                       │
-│  ┌────────────────────────────────────────────────────────────────┐│
-│  │                    VEHICLE LAYER                                ││
-│  │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────┐││
-│  │  │  FSD     │ │  Vehicle │ │  Powertrain│ │  Thermal │ │Infotain│││
-│  │  │Computer  │ │ Dynamics │ │Controller│ │ Management│ │ -ment  │││
-│  │  └──────────┘ └──────────┘ └──────────┘ └──────────┘ └────────┘││
-│  │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────┐││
-│  │  │  Body    │ │  BMS     │ │  Charger │ │ Autopilot│ │ Safety │││
-│  │  │Controller│ │(Battery) │ │  Control │ │  Stack   │ │Systems │││
-│  │  └──────────┘ └──────────┘ └──────────┘ └──────────┘ └────────┘││
-│  └────────────────────────────────────────────────────────────────┘│
-│                              ▼                                       │
-│  ┌────────────────────────────────────────────────────────────────┐│
-│  │                   HARDWARE ABSTRACTION                          ││
-│  │              Linux/QNX ──► Hardware Drivers ──► CAN/Ethernet   ││
-│  └────────────────────────────────────────────────────────────────┘│
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
+[Code block moved to code-block-1.md]
 ```
 
 ### 4.2 Key Architectural Principles
@@ -269,40 +232,7 @@ PHASE 4: POST-DEPLOYMENT (Ongoing)
 ### 7.2 Firmware Development Process
 
 ```
-Step 1: Requirements
-  Hardware interface specification
-  Real-time constraints (deadlines, jitter)
-  Safety requirements (ASIL level)
-
-Step 2: Architecture
-  Static memory allocation
-  Deterministic scheduling
-  Error handling strategy
-  Watchdog configuration
-
-Step 3: Implementation
-  MISRA C/C++ compliance
-  No dynamic memory in critical path
-  Comprehensive unit tests
-  Hardware-in-the-loop testing
-
-Step 4: Validation
-  Static analysis (Coverity, etc.)
-  Fault injection testing
-  EMC/ESD testing
-  Long-running stress tests
-
-Step 5: Integration
-  Vehicle-level integration
-  System testing
-  Track testing
-  Shadow mode validation
-
-Step 6: Release
-  OTA package creation
-  Rollback procedure defined
-  Monitoring dashboards configured
-  Staged rollout execution
+[Code block moved to code-block-2.md]
 ```
 
 ---

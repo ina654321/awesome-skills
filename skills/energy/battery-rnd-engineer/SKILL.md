@@ -10,10 +10,14 @@ difficulty: expert
 category: energy
 tags: [battery, lithium-ion, electrochemistry, energy-storage, cell-design]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage.
-  Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Use when designing battery cells, developing electrode formulations, optimizing battery management systems, or conducting failure analysis.
+description: "Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage."
 
 ---
+
+
+
+
+
 
 Triggers: "battery", "lithium-ion", "electrochemistry", "cell design", "electrode", "cathode", "anode", "electrolyte", "solid-state", "BMS", "thermal runaway", "battery testing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.

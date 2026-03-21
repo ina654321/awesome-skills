@@ -10,12 +10,14 @@ difficulty: expert
 category: tools
 tags: [spark, big-data, data-engineering, distributed-computing, etl]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE, and adaptive execution. Use when processing large datasets, building ETL pipelines, or running distributed computations.
-  Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE, and adaptive execution. Use when processing large datasets, building ETL pipelines, or running distributed computations.
-  Triggers: "Spark", "Spark DataFrame", "Spark SQL", "Spark performance", "PySpark", "Spark streaming", "Structured Streaming", "Databricks".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE, and adaptive execution. Use when processing large datasets, building ETL pipelines, or running distributed computations."
 
 ---
+
+
+
+
+
 
 # Spark Expert
 
@@ -187,125 +189,19 @@ Before responding in Spark contexts, evaluate:
 ### 7.1 DataFrame Operations
 
 ```python
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import *
-from pyspark.sql.types import *
-
-spark = SparkSession.builder \
-    .appName("ETL Pipeline") \
-    .config("spark.sql.shuffle.partitions", 200) \
-    .config("spark.sql.adaptive.enabled", True) \
-    .config("spark.sql.adaptive.coalescePartitions.enabled", True) \
-    .getOrCreate()
-
-# Read with explicit schema (never infer)
-schema = StructType([
-    StructField("order_id", StringType(), False),
-    StructField("customer_id", StringType(), False),
-    StructField("amount", DoubleType(), False),
-    StructField("status", StringType(), True),
-    StructField("created_at", TimestampType(), False),
-])
-
-df = spark.read \
-    .schema(schema) \
-    .parquet("s3://data/orders/")
-
-# Transform with filter-early pattern
-result = df \
-    .filter(col("status") == "completed") \
-    .filter(col("created_at") >= lit("2024-01-01")) \
-    .groupBy("customer_id", "status") \
-    .agg(
-        sum("amount").alias("total_spent"),
-        count("*").alias("order_count"),
-        avg("amount").alias("avg_order_value"),
-    )
-
-# Broadcast join for small dimension
-result = result.join(
-    broadcast(dim_customers.select("customer_id", "customer_name")),
-    "customer_id"
-)
-
-# Write with partitioning and compression
-result.write \
-    .mode("overwrite") \
-    .option("compression", "snappy") \
-    .partitionBy("year", "month") \
-    .parquet("s3://output/analytics/orders_summary/")
+[Code block moved to code-block-1.md]
 ```
 
 ### 7.2 Streaming with Watermark
 
 ```python
-from pyspark.sql.functions import *
-
-streaming_df = spark.readStream \
-    .format("kafka") \
-    .option("kafka.bootstrap.servers", "kafka:9092") \
-    .option("subscribe", "orders.events") \
-    .option("startingOffsets", "latest") \
-    .load()
-
-parsed = streaming_df \
-    .select(from_json(col("value").cast("string"), order_schema).alias("data")) \
-    .select("data.*")
-
-# Tumbling window aggregation with watermark
-agg = parsed \
-    .withWatermark("created_at", "5 minutes") \
-    .groupBy(
-        window("created_at", "5 minutes"),
-        "customer_id"
-    ) \
-    .agg(
-        count("*").alias("order_count"),
-        sum("amount").alias("total_amount"),
-    )
-
-# Write to console for testing, or Delta for production
-query = agg.writeStream \
-    .format("delta") \
-    .outputMode("append") \
-    .option("checkpointLocation", "s3://checkpoints/orders_agg/") \
-    .table("analytics.orders_5min")
+[Code block moved to code-block-2.md]
 ```
 
 ### 7.3 Advanced SQL Patterns
 
 ```python
-# Window function for running total
-df.withColumn(
-    "running_total",
-    sum("amount").over(Window.partitionBy("customer_id").orderBy("created_at"))
-)
-
-# Lead/Lag for comparison
-df.withColumn("prev_amount", lag("amount", 1).over(Window.partitionBy("customer_id").orderBy("created_at")))
-
-# UDF (avoid when possible, use pandas_udf for performance)
-from pyspark.sql.functions import udf
-
-@udf(returnType=StringType())
-def classify_order(amount):
-    if amount < 50:
-        return "small"
-    elif amount < 200:
-        return "medium"
-    return "large"
-
-df.withColumn("order_size", classify_order("amount"))
-
-# Pandas UDF (vectorized, much faster)
-from pyspark.sql.functions import pandas_udf
-import pandas as pd
-
-@pandas_udf(DoubleType())
-def calculate_discount(pdf: pd.Series) -> pd.Series:
-    return pdf * 0.1
-
-df.withColumn("discount", calculate_discount(col("amount")))
+[Code block moved to code-block-3.md]
 ```
 
 ---

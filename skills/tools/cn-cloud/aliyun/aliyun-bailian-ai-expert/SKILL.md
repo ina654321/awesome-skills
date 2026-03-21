@@ -1,4 +1,5 @@
 ---
+
 name: aliyun-bailian-ai-expert
 display_name: Aliyun Bailian AI Expert
 author: neo.ai
@@ -9,11 +10,14 @@ difficulty: beginner
 category: tools
 tags: [aliyun, bailian, llm, rag, ai-application]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  阿里云百炼Model Studio：可视化RAG搭建、企业知识库问答、AI应用开发。Use when building RAG applications, enterprise knowledge bases, or AI chatbots.
-  Triggers: "百炼", "RAG", "知识库", "AI应用", "通义千问".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "阿里云百炼Model Studio：可视化RAG搭建、企业知识库问答、AI应用开发。Use when building RAG applications, enterprise knowledge bases, or AI chatbots. Triggers: '百炼', 'RAG', '知识库', 'AI应用', '通义千问'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+
 ---
+
+
+
+
+
 
 # Aliyun Bailian AI Expert
 
