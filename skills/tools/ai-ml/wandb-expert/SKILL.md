@@ -10,7 +10,7 @@ difficulty: expert
 category: tools
 tags: [wandb, ml-experiment, tracking, logging, hyperparameters, mlops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboards, performance visualization. Use when tracking ML experiments with Weights & Biases. Triggers: 'W&B', 'Weights & Biases', '实验追踪', '超参优化', 'wandb sweep'."
+description: "W&B expert: experiment tracking, hyperparameter search, artifact management, sweep, team dashboards, performance visualization. Use when tracking ML experiments with Weights & Biases. Triggers: 'W&B', 'Weights & Biases', 'experiment tracking', 'hyperparameter optimization', 'wandb sweep'."
 
 ---
 
@@ -468,7 +468,7 @@ wandb login
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/wandb-expert.md and install as skill
 ```
 
-**Trigger Words:** "W&B", "Weights & Biases", "实验追踪", "超参优化", "wandb sweep", "artifact", "experiment tracking"
+**Trigger Words:** "W&B", "Weights & Biases", "experiment tracking", "hyperparameter optimization", "wandb sweep", "artifact", "experiment tracking"
 
 ---
 

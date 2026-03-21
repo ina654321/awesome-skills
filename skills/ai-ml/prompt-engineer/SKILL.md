@@ -202,46 +202,6 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 ---
 
-## § 12 · Scope & Limitations
-
-**Use this skill when:**
-
-- Designing system prompts, few-shot examples, or chain-of-thought prompts for any task
-- Diagnosing prompt failures (hallucination, format non-compliance, off-topic responses)
-- Building RAG context injection patterns and retrieval quality checklists
-- Designing agent tool-calling architectures and planning loops
-- Creating LLM-as-judge evaluation pipelines and regression test suites
-- Defending against prompt injection and building output guardrails
-
-**Do NOT use this skill when:**
-
-- Building the RAG retrieval infrastructure → use AI Application Engineer
-- Training or fine-tuning LLM models → use LLM Training Engineer
-- Making architecture decisions about LLM model design → use LLM Research Scientist
-- Designing system security beyond LLM prompt security → use Security Engineer
-
----
-
-## § 13 · How to Use This Skill
-
-### Quick Start
-
-1. **Install** using the command for your platform (see §5)
-2. **Trigger** with keywords: "prompt engineering", "few-shot", "chain-of-thought", "RAG context", "agent prompt", "system prompt"
-3. **Provide context**: share the task, target model, current prompt if any, and sample inputs/outputs
-
-### Interaction Modes
-
-| Mode | Trigger Example | Expected Output |
-|------|----------------|----------------|
-| **Design** | "Design a few-shot prompt for invoice extraction" | Full prompt with schema, examples, and validation plan |
-| **Diagnose** | "My prompt adds info not in the source document" | Root cause (hallucination) + 3 fix options in priority order |
-| **Optimize** | "Improve this prompt: [prompt text]" | Before/after with diff explanation and A/B test recommendation |
-| **Eval** | "How do I measure if my prompt improved?" | Eval framework design with specific metrics |
-| **Security** | "How do I prevent prompt injection?" | Multi-layer defense with code examples |
-
----
-
 ## § 4 · Prompt Pattern Reference
 
 ### 4.1 Core Patterns
@@ -402,27 +362,9 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## § 8 · Platform Installation
-
-See [references/08-workflow.md](references/08-workflow.md)
-
----
-
----
-
-## § 9 · Quality Verification Checklist
-
-See [references/09-scenarios.md](references/09-scenarios.md)
-
----
-
----
-
 ## § 10 · Integration with Other Skills
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
-
----
 
 ---
 
@@ -434,6 +376,46 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 | 2.1.0 | 2026-02-25 | Added Quality Verification Checklist (16 items), Integration section (4 skill combinations) |
 | 2.0.0 | 2026-02-19 | Expert Verified upgrade: §1 System Prompt, decision framework, RAG patterns, eval framework, scenario examples |
 | 1.0.0 | 2026-02-16 | Initial release with basic patterns and process |
+
+---
+
+## § 12 · Scope & Limitations
+
+**Use this skill when:**
+
+- Designing system prompts, few-shot examples, or chain-of-thought prompts for any task
+- Diagnosing prompt failures (hallucination, format non-compliance, off-topic responses)
+- Building RAG context injection patterns and retrieval quality checklists
+- Designing agent tool-calling architectures and planning loops
+- Creating LLM-as-judge evaluation pipelines and regression test suites
+- Defending against prompt injection and building output guardrails
+
+**Do NOT use this skill when:**
+
+- Building the RAG retrieval infrastructure → use AI Application Engineer
+- Training or fine-tuning LLM models → use LLM Training Engineer
+- Making architecture decisions about LLM model design → use LLM Research Scientist
+- Designing system security beyond LLM prompt security → use Security Engineer
+
+---
+
+## § 13 · How to Use This Skill
+
+### Quick Start
+
+1. **Install** using the command for your platform (see §5)
+2. **Trigger** with keywords: "prompt engineering", "few-shot", "chain-of-thought", "RAG context", "agent prompt", "system prompt"
+3. **Provide context**: share the task, target model, current prompt if any, and sample inputs/outputs
+
+### Interaction Modes
+
+| Mode | Trigger Example | Expected Output |
+|------|----------------|----------------|
+| **Design** | "Design a few-shot prompt for invoice extraction" | Full prompt with schema, examples, and validation plan |
+| **Diagnose** | "My prompt adds info not in the source document" | Root cause (hallucination) + 3 fix options in priority order |
+| **Optimize** | "Improve this prompt: [prompt text]" | Before/after with diff explanation and A/B test recommendation |
+| **Eval** | "How do I measure if my prompt improved?" | Eval framework design with specific metrics |
+| **Security** | "How do I prevent prompt injection?" | Multi-layer defense with code examples |
 
 ---
 
@@ -474,14 +456,6 @@ https://github.com/theneoai/awesome-skills
 
 ---
 
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist

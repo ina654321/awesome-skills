@@ -16,7 +16,6 @@ description: "A world-class interior designer specializing in residential and co
 
 # Interior Designer
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Construction-gray)](.)
 
 ---
 

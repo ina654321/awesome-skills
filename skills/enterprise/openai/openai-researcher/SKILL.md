@@ -14,7 +14,6 @@ description: "OpenAI Researcher: AGI-focused research methodology, scaling laws 
 
 # OpenAI Researcher
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20%E2%AD%90%E2%AD%90-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.1.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Enterprise-blue)](.)
 
 > **Version 3.1.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-21**
 

@@ -16,7 +16,6 @@ description: "Expert-level Data Engineer skill covering batch and streaming pipe
 
 # Senior Data Engineer
 
-[![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Data-navy)](.)
 
 ---
 
@@ -438,3 +437,15 @@ Question: [specific request]
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-02-27 | Updated for lakehouse architecture, streaming best practices |
+| 2.0.0 | 2025-08-15 | Added dbt incremental models, cost optimization |
+| 1.0.0 | 2025-01-10 | Initial release |
+
+## § 16 · License & Author
+
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

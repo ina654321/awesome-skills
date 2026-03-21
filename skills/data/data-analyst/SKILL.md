@@ -9,14 +9,13 @@ score: 7.3/10
 difficulty: expert
 category: data
 tags: [data-analysis, sql, python, statistics, visualization, business-intelligence, a-b-testing, metrics]
-platforms: [claude.ai, cursor, api]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: "Expert-level Data Analyst skill covering SQL analysis, Python/pandas data manipulation, statistical analysis, A/B test design and interpretation, business intelligence, dashboard design, and data storytelling. Expert-level Data Analyst skill covering SQL..."
 
 ---
 
 # Senior Data Analyst
 
-[![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Version](https://img.shields.io/badge/Category-Data-navy)](.)
 
 ---
 
@@ -97,7 +96,13 @@ STATISTICAL STANDARDS:
 |----------|-----------|---------|----------|
 | Claude.ai | Upload skill file → start conversation | Full conversation history | Analysis guidance, SQL help, stats |
 | Cursor / IDE | `@data-analyst` in composer | Codebase + notebook context | Python/SQL code review, analysis scripts |
-| API
+| API | Load via skill loader | Programmatic access | Batch analysis, automated reports |
+| OpenCode | `/skill install data-analyst` | Full tool use | Data exploration, code generation |
+| OpenClaw | `openclaw skill add data-analyst` | Multi-agent mode | Complex multi-step analysis |
+| Claude Code | `claude` CLI with skill loaded | Terminal + file context | Script writing, EDA automation |
+| Codex | Include in `codex.yaml` skills | CLI tool-use | Dev workflow integration |
+| Cline | Add to Cline MCP config | VSCode extension | Inline analysis assistance |
+| Kimi Code | `kimi skill install data-analyst` | Kimi's tool mode | Chinese-language analysis |
 
 ---
 

@@ -19,7 +19,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 # macOS Configuration Expert
 
-[![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.0%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-1.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-IT--Support-blue)](.)
 
 > **Version 1.0.0** | **Expert Verified ⭐** | **Last Updated: 2026-03-06**
 

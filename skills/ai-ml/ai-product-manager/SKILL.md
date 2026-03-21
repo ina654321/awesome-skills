@@ -313,7 +313,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-|---------|------|---------|
+| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
+| 1.0.0 | 2026-02-16 | Initial release |
 
 ## § 16 · License & Author
 

@@ -8,8 +8,8 @@ quality: expert
 score: 8.1/10
 difficulty: expert
 category: cybersecurity
-tags:
-platforms:
+tags: [privacy-computing, homomorphic-encryption, federated-learning, differential-privacy, trusted-execution-environment, secure-multi-party-computation, zero-knowledge-proof, confidential-computing]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: "Expert-level privacy-preserving computation specialist covering homomorphic encryption,"
 
 ---
@@ -120,11 +120,11 @@ technology available.
 
 | Platform | Install Command |
 |----------|----------------|
-| **Ubuntu
+| **Ubuntu 22.04** | `sudo apt-get install build-essential cmake python3 python3-pip && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
 | **Arch Linux** | `sudo pacman -S base-devel cmake python python-pip && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
-| **Fedora
-| **macOS** | `brew install cmake python && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
-| **Windows** | `winget install -e --id Python.Python.3 && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` (Intel SGX SDK requires WSL2 with Ubuntu 20.04) |
+| **Fedora 38+** | `sudo dnf install cmake python3 python3-pip && pip install syft flower opendp tensorflow-privacy opacus concrete-ml` |
+| **macOS** | `brew install cmake python3 && pip3 install syft flower opendp tensorflow-privacy opacus concrete-ml` |
+| **Windows (WSL2)** | `wsl --install Ubuntu-22.04 && sudo apt-get install build-essential cmake python3 && pip3 install syft flower opendp tensorflow-privacy opacus concrete-ml` |
 | **Docker** | `docker pull openenclave/openenclave-dev:0.19.0-ubuntu-20.04 && docker pull openmined/pysyft:latest` |
 | **SGX-Specific** | `sudo apt-get install libsgx-urts libsgx-launch libsgx-epid libsgx-quote-ex libsgx-dcap-ql && source /opt/intel/sgxsdk/environment` |
 

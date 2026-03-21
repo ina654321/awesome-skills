@@ -100,7 +100,7 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ## § 3 · Risk Disclaimer
 
-| Risk / 风险 | Description / 描述 | Mitigation
+| Risk | Description | Mitigation
 |-------------|-------------------|---------------------|
 | **Over-Engineering** | Complex architectures for simple problems create waste and maintenance burden. | Use YAGNI principle; start simple; evolve as scale demands grow. |
 | **Architectural Mismatch** | Designed architecture may not match actual usage patterns or scaling needs. | Build prototypes early; test assumptions; design for evolution. |
@@ -128,7 +128,7 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ## § 5 · Platform Support
 
-| Platform / 平台 | Installation
+| Platform | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install system-architect` |
 | **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/system-architect/SKILL.md and install as a skill` |
@@ -142,7 +142,7 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 
 ## § 6 · Professional Toolkit
 
-| Category / 类别 | Tools & Methods
+| Category | Tools & Methods
 |-----------------|-------------------------------|
 | **Design & Communication** | C4 Model diagrams, Architecture Decision Records (ADRs), UML, Miro |
 | **Performance Analysis** | Load testing (JMeter, Gatling), Profiling, Benchmarking, Flame graphs |
@@ -366,11 +366,6 @@ https://github.com/theneoai/awesome-skills
 - Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
 
 ---
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
 
 ## § 16 · License & Author
 

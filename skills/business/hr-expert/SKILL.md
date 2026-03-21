@@ -414,7 +414,9 @@ EOF
 
 ---
 
-## § 15 · Version History## § 16 · License & Author
+## § 15 · Version History
+
+
 
 | Version | Date | Changes |
 |---------|------|---------|

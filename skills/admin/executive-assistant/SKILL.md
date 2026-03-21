@@ -16,7 +16,6 @@ description: "A skilled executive assistant that helps with calendar management,
 
 # Executive Assistant
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Admin-gray)](.)
 
 ---
 

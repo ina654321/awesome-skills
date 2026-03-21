@@ -286,55 +286,49 @@ Flakiness Rate → Action Required:
 
 ## § 8 · Standard Workflow
 
-### Workflow 1: New Feature Test Strategy
+### Phase 1: New Feature Test Strategy
 
-```
-[Code block moved to code-block-1.md]
-```
+| Step | Activity | Output |
+|------|----------|--------|
+| 1 | Requirements review — identify testable requirements | Testable requirements doc |
+| 2 | Risk matrix — probability × impact per feature | Risk-prioritized test list |
+| 3 | Test pyramid design — Unit:Integration:E2E ratio | Pyramid diagram with coverage targets |
+| 4 | Framework setup — fixtures, Page Objects, test data factories | Runnable test skeleton |
+| 5 | CI gate definition — coverage %, must-pass suites | GitHub Actions pipeline config |
 
-### Workflow 2: Defect Investigation
+### Phase 2: Defect Investigation
 
-```
-[Code block moved to code-block-2.md]
-```
+| Step | Activity | Action |
+|------|----------|--------|
+| 1 | Reproduce — confirm bug with minimal test | Failing test written |
+| 2 | Isolate — find root cause (not just symptom) | Root cause identified |
+| 3 | Fix — write fix with regression test | Test passes |
+| 4 | Verify — run full suite, check for side effects | CI green |
 
 ---
 
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](./references/09-scenarios.md) for detailed scenario implementations, code examples, and anti-patterns.
+→ **Detailed scenarios**: [`references/09-scenarios.md`](references/09-scenarios.md)
 
-### Quick Reference
-
-| Scenario | Context | Approach | Outcome |
-|----------|---------|----------|---------|
-| **1: Coverage from 10%** | Legacy codebase, < 10% coverage, need 80% | 3-phase: stop bleeding → cover critical paths → ratchet threshold | 80% coverage without stopping features |
-| **2: Flaky E2E (30%)** | E2E suite unreliable, tests disabled in CI | 3-step: quarantine → root cause → measure regression | Restore CI trust, < 5% flakiness |
-| **3: Performance Testing** | New feature, expect 10x traffic | Define SLOs → smoke/load/stress/soak pyramid | p99 < 2000ms, 1000 RPS sustained |
-| **4: Implementation vs Behavior** | 30 tests break on refactor despite correct behavior | Test WHAT returns, not HOW it works | Refactor-safe tests |
-
-### Anti-Patterns Summary
-
-| Pitfall | Bad Pattern | Fix |
-|---------|-------------|-----|
-| 🔴 High | Arbitrary sleep in E2E | Wait for actual conditions |
-| 🔴 High | Shared mutable state | Each test creates isolated data |
-| 🟡 Medium | Coverage as goal (not quality) | Mutation testing + meaningful assertions |
-| 🟡 Medium | Skip non-functional testing | k6 smoke + ZAP in required CI stages |
-| 🟡 Medium | Giant flat test files | Page Object Model + describe blocks |
+| Scenario | Approach | Outcome |
+|----------|----------|---------|
+| Coverage from 10% | 3-phase: stop bleeding → critical paths → ratchet threshold | 80% coverage |
+| Flaky E2E (30%) | Quarantine → root cause → measure regression | < 5% flakiness |
+| Performance Testing | k6 smoke/load/stress/soak pyramid | p99 < 2000ms, 1000 RPS |
 
 ---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-See [references/09-scenarios.md](./references/09-scenarios.md) for detailed anti-pattern code examples.
+→ **Detailed anti-patterns**: [`references/09-scenarios.md`](references/09-scenarios.md)
 
 | Category | Issue | Prevention |
 |----------|-------|------------|
-| **E2E** | `waitForTimeout` instead of condition waits | Rule: "If you type sleep, ask what am I waiting for?" |
-| **Test Data** | Global users/data shared across tests | Factory pattern with auto-teardown |
-| **Coverage** | Testing to hit % not catch bugs | Mutation testing (Stryker), meaningful assertions |
-| **CI/CD** | No perf/security gates | k6 smoke + ZAP as required stages |
+| **E2E** | `waitForTimeout` instead of condition waits | "If you type sleep, ask what am I waiting for?" |
+| **Test Data** | Global shared state across tests | Factory pattern with auto-teardown |
+| **Coverage** | Testing to hit % not catch bugs | Mutation testing (Stryker); meaningful assertions |
+| **CI/CD** | No perf/security gates | k6 smoke + ZAP as required CI stages |
 | **Structure** | 500-line flat test files | POM + describe blocks + shared fixtures |
 
 ---
@@ -381,67 +375,9 @@ See [references/09-scenarios.md](./references/09-scenarios.md) for detailed anti
 
 ## § 13 · How to Use This Skill
 
-### Installation
+**Trigger Words**: "test strategy", "flaky tests", "test coverage", "write tests", "QA pipeline", "automation framework", "performance testing"
 
-**Universal (any AI assistant)
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/qa-engineer/SKILL.md and apply
-```
-
-**Claude Code
-```bash
-mkdir -p ~/.claude/skills
-curl -o ~/.claude/skills/qa-engineer.md \
-  https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/qa-engineer/SKILL.md
-```
-
-**OpenClaw:**
-```bash
-mkdir -p ~/.openclaw/skills/qa-engineer
-curl -o ~/.openclaw/skills/qa-engineer/SKILL/SKILL.md \
-  https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/qa-engineer/SKILL.md
-```
-
-**Cursor / Cline
-```bash
-# Add to your project's .cursor/rules or .clinerules
-curl -o .cursor/rules/qa-engineer.md \
-  https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/qa-engineer/SKILL.md
-```
-
-### Usage Patterns
-
-**For test strategy planning:**
-
-```
-"I'm building a [feature/product/migration]. Tech stack: [stack].
-Current coverage: [%]. Team size: [N engineers].
-Design a test strategy with coverage targets, test types, and CI gates."
-```
-
-**For writing tests:**
-
-```
-"Write [unit/integration/E2E/load] tests for this code: [paste code].
-Target: [Jest/Playwright/pytest/k6]. Coverage goal: [80%].
-Include: happy path, error paths, edge cases."
-```
-
-**For flaky test diagnosis:**
-
-```
-"This E2E test is flaky (fails ~20% in CI, passes locally).
-Here's the test: [paste]. Here's the CI failure log: [paste].
-Diagnose and fix."
-```
-
-**For performance testing:**
-
-```
-"Set up k6 load tests for [endpoint].
-SLOs: p95 < [Xms], error rate < [Y%], throughput: [Z RPS].
-Include smoke, load, and stress test scripts."
-```
+**Example prompts**: "Design a test strategy for a payment feature", "Write E2E tests with Playwright for login flow", "Diagnose why this test is flaky in CI", "Set up k6 load tests for our API"
 
 ---
 
@@ -450,36 +386,11 @@ Include smoke, load, and stress test scripts."
 ### Before Merging a PR
 
 ```
-Test Coverage:
-  ✅ New features have unit tests (≥ 80% coverage of new code)
-  ✅ Bug fixes have regression tests (test proves the bug is fixed)
-  ✅ API changes have integration tests
-  ✅ Critical user flows have E2E coverage
-
-Test Quality:
-  ✅ Test names describe behavior, not implementation
-     ("returns 404 when user not found" not "calls getUserById")
-  ✅ No new test.skip() without a linked ticket
-  ✅ No sleep() or waitForTimeout() calls (use explicit waits)
-  ✅ Tests clean up after themselves (no leftover test data)
-  ✅ No mock/spy assertions on internal implementation details
-
-CI Health:
-  ✅ All existing tests pass (no regressions introduced)
-  ✅ E2E tests pass with 0 retries (not relying on retries to pass)
-  ✅ Coverage gate passes without new exclusions
-  ✅ Total test suite runs in < 15 minutes
-
-Non-Functional:
-  ✅ No new critical accessibility violations (axe-core)
-  ✅ Performance gate passes if endpoint is in hot path
-  ✅ Security scan clean (no new HIGH/CRITICAL findings)
-```
-
-### Test Health Quick Commands
-
-```bash
-[Code block moved to code-block-3.md]
+Coverage:   ✅ Unit tests ≥ 80% new code  ✅ Bug fixes have regression tests
+Quality:    ✅ Test names describe behavior  ✅ No sleep() or waitForTimeout()
+            ✅ Tests clean up after themselves  ✅ No skip() without ticket
+CI Health:  ✅ All tests pass  ✅ E2E pass with 0 retries  ✅ Suite < 15 min
+Non-Func:   ✅ No new critical a11y violations  ✅ Perf gate passes  ✅ Security clean
 ```
 
 ---
@@ -488,7 +399,9 @@ Non-Functional:
 
 | Version | Date | Changes |
 |---------|------|---------|
-|---------|------|---------|
+| 3.0.0 | 2026-02-26 | Full 16-section upgrade to exemplary standard |
+| 2.0.0 | 2026-02-15 | Expert Verified upgrade |
+| 1.0.0 | 2026-02-16 | Initial release |
 
 ## § 16 · License & Author
 

@@ -364,7 +364,7 @@ Submit issues or PRs at: https://github.com/theneoai/awesome-skills
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/ai-ml/llm-serving-expert.md and install as skill
 ```
 
-**Trigger Words:** "vLLM", "Triton", "LLM推理", "模型部署", "TensorRT-LLM", "continuous batching", "PagedAttention", "quantization", "GPTQ", "AWQ"
+**Trigger Words:** "vLLM", "Triton", "LLM inference", "model deployment", "TensorRT-LLM", "continuous batching", "PagedAttention", "quantization", "GPTQ", "AWQ"
 
 ---
 

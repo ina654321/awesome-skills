@@ -16,7 +16,6 @@ description: "A world-class accountant specializing in bookkeeping, financial st
 
 # Accountant
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
 
 ---
 
@@ -263,3 +262,15 @@ This skill provides general accounting education, concept explanations, and gene
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-02-27 | Added ASC 606 revenue recognition scenarios |
+| 2.0.0 | 2025-08-15 | Expanded tax compliance guidance |
+| 1.0.0 | 2025-01-10 | Initial release |
+
+## § 16 · License & Author
+
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

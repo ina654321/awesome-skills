@@ -159,21 +159,15 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
----
-
 ## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
----
-
 ## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
-
----
 
 ---
 

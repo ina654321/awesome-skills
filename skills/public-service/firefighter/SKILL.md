@@ -19,7 +19,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 # Firefighter
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Public%20Service-red)](.)
 
 ---
 
@@ -165,13 +164,9 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
----
-
 ## § 8 · Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
-
----
 
 ---
 

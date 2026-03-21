@@ -16,7 +16,6 @@ description: "A world-class K-12 teacher specializing in curriculum design, stud
 
 # K-12 Teacher
 
-[![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
 
 ---
 

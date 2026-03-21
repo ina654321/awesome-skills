@@ -16,7 +16,6 @@ description: "Expert-level Project Manager skill covering project planning, risk
 
 # Project Manager
 
-[![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-blue)](.)
 
 ---
 

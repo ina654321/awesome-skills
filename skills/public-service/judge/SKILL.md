@@ -19,7 +19,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 # Judge/Magistrate
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Public%20Service-red)](.)
 
 ---
 

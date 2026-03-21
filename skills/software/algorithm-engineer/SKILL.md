@@ -388,13 +388,24 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ## § 10 · Common Pitfalls
 
+| # | Pitfall | Why It Matters | Prevention |
+|---|---------|---------------|------------|
+| 1 | **Integer Overflow** — `int a = 100000; int b = a * a;` overflows silently | Silent data corruption | Use `int64_t`; understand overflow in intermediate products |
+| 2 | **Off-by-One Errors** — Loop boundaries, binary search `lo`/`hi` | Correct algorithm fails on edge cases | Draw 3-element example; test n=0, n=1, n=2 |
+| 3 | **Floating Point Equality** — `if (x == 0.1)` is unreliable | Equality checks on floats rarely work | Use `fabs(x - 0.1) < 1e-9` or integer arithmetic |
+| 4 | **Modifying While Iterating** — Erasing from container during loop | Iterator invalidation | Collect items to erase first; or use erase-remove idiom |
+| 5 | **Shallow vs Deep Copy** — Copying a vector of pointers | Copies pointers, not objects | Use value types or explicit deep copy |
+| 6 | **Incorrect Base Case** — Wrong DP or recursion base | Wrong subproblems cascade into wrong answer | Prove base cases cover all leaf nodes |
+| 7 | **Wrong Graph Representation** — Adjacency matrix for n=10⁵ nodes | 40GB memory; will crash | Use adjacency list O(V+E) space |
+| 8 | **Ignoring Negative Weights** — Dijkstra on negative-edge graphs | Wrong results; Dijkstra requires non-negative | Use Bellman-Ford; detect negative cycles |
+| 9 | **Stack Overflow in DFS** — Recursive DFS on n=10⁶ | Exceeds default stack depth | Use iterative BFS/stack-based DFS |
+| 10 | **Premature Optimization** — O(n log n) with large constant vs O(n²) | Complexity class ≠ actual performance | Profile before optimizing |
+
 ---
 
-## § 9 · Scenario Examples
+## § 11 · Scenario Examples
 
-→ **Detailed scenarios moved to [`references/scenarios.md`](references/scenarios.md)**
-
-### Quick Reference
+→ **Detailed scenarios**: [`references/scenarios.md`](references/scenarios.md)
 
 | Scenario | Problem | Solution |
 |----------|---------|----------|
@@ -402,20 +413,9 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 | **Closest Pair** | O(n²) too slow | Divide & Conquer → O(n log n) |
 | **Top-K Stream** | Memory budget | Count-Min Sketch + Min-Heap |
 
-1. **Integer Overflow**: `int a = 100000; int b = a * a;` overflows silently — use `int64_t`
-2. **Off-by-One Errors**: Loop boundaries, array indexing, binary search `lo`/`hi` invariants
-3. **Floating Point Equality**: `if (x == 0.1)` is unreliable — use `fabs(x - 0.1) < 1e-9`
-4. **Modifying While Iterating**: Erasing from a container during loop invalidates iterators
-5. **Shallow vs Deep Copy**: Copying a vector of pointers does not copy pointed-to objects
-6. **Incorrect Base Case**: Missing or wrong base case causes incorrect DP or infinite recursion
-7. **Wrong Graph Representation**: Using adjacency matrix for n=10⁵ nodes → 40GB memory
-8. **Ignoring Negative Weights**: Using Dijkstra on graphs with negative edges gives wrong results
-9. **Stack Overflow in DFS**: Recursive DFS on n=10⁶ nodes exceeds default stack depth — use iterative
-10. **Premature Optimization**: Optimize only after profiling; O(n log n) with large constant may be slower than O(n²) for small n
-
 ---
 
-## § 11 · Integration with Other Skills
+## § 12 · Integration with Other Skills
 
 | Combination / 组合 | Workflow / 工作流 | Result
 |-------------------|-----------------|--------------|
@@ -426,7 +426,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## § 13 · Scope & Limitations
+## § 12 · Scope & Limitations
 
 **Use this skill when:**
 - Solving competitive programming or technical interview problems with complexity constraints
@@ -442,6 +442,22 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
+## § 13 · How to Use This Skill
+
+**Trigger Words**: "algorithm", "data structure", "complexity", "dynamic programming", "graph", "optimization", "LeetCode", "Codeforces", "competitive programming"
+
+**For problem solving**: Paste the problem description with constraints. I will provide complexity analysis, algorithm design, and working code.
+
+**For optimization**: Describe the current approach and its bottlenecks. I will analyze complexity and suggest improvements.
+
+---
+
 ## § 14 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
+
+---
+
+## § 15 · License & Author
+
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

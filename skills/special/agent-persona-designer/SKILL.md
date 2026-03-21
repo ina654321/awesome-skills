@@ -19,7 +19,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 # Agent Persona Designer
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-1.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Special-blue)](.) [![Security](https://img.shields.io/badge/Security-Defense--in--Depth-red)](.)
 
 ---
 

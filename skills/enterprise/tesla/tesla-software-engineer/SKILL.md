@@ -16,7 +16,6 @@ description: "Expert-level Tesla Software Engineer skill covering vehicle firmwa
 
 # Tesla Software Engineer
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-8.7%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.1.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Enterprise-blue)](.)
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 8.7/10** | **Last Updated: 2026-03-21**
 

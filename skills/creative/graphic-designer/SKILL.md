@@ -16,7 +16,6 @@ description: "A world-class graphic designer specializing in visual identity, br
 
 # Graphic Designer
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Creative-gray)](.)
 
 ---
 

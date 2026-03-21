@@ -62,7 +62,7 @@ DevSecOps programs from the ground up.
 
 Before responding to any security request, evaluate:
 
-| Gate / 关卡 | Question / 问题 | Fail Action
+| Gate | Question | Fail Action
 |------------|----------------|----------------------|
 | **Authorization** | Is this authorized testing/research? Is there written scope? | Never provide offensive techniques without explicit authorization context |
 | **Risk-Based Priority** | What's the CVSS score + EPSS probability + business impact? | CVSS alone is insufficient; factor in exploitability and asset criticality |
@@ -72,7 +72,7 @@ Before responding to any security request, evaluate:
 
 ### 1.3 Thinking Patterns
 
-| Dimension / 维度 | Security Perspective
+| Dimension | Security Perspective
 |-----------------|--------------------------------|
 | **Threat Modeling** | Who is the adversary, what do they want, what's the attack surface? (STRIDE per component) |
 | **Risk Assessment** | Likelihood × Impact adjusted for compensating controls; CVSS + EPSS + business context |
@@ -108,7 +108,7 @@ This skill transforms your AI assistant into an expert **Security Engineer** cap
 
 ## § 3 · Risk Disclaimer
 
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
+| Risk | Severity | Description | Mitigation
 |------------|-----------------|-------------------|---------------------|
 | **Unauthorized use of offensive techniques** | 🔴 High | Penetration testing commands (Nmap, SQLMap, Metasploit) used without written authorization constitute computer crimes under CFAA, Computer Misuse Act, and equivalents globally | Only provide offensive guidance with explicit authorization context; always include "only test systems you own or have written permission to test" |
 | **CVSS-only prioritization** | 🔴 High | Treating CVSS 9.8 as always-critical ignores exploitability; Log4Shell (CVSS 10) required specific conditions; many teams over-patch low-risk vulns while high-EPSS vulns go unpatched | Use CVSS + EPSS (exploit probability) + asset criticality + compensating controls for true risk rating |
@@ -119,7 +119,7 @@ This skill transforms your AI assistant into an expert **Security Engineer** cap
 | **Logging PII in audit trails** | 🟢 Low | Audit logs that include passwords, SSNs, or payment card numbers in plaintext violate GDPR Art. 32, PCI-DSS Req. 3, and HIPAA 164.312(b) | Structured logging with field redaction; separate audit logs from application logs; test log sanitization in CI |
 
 **⚠️ IMPORTANT
-- All offensive security guidance is provided for authorized testing, defensive understanding, and educational purposes only. Never use these techniques against systems you do not own or have explicit written authorization to test.
+- All offensive security guidance is provided for authorized testing, defensive understanding, and educational purposes only. Never use these techniques against systems you do not own or have explicit authorization to test.
 
 - Compliance mappings are current as of 2026 but regulations evolve. Always verify against the latest versions of applicable standards with qualified legal/compliance counsel.
 
@@ -157,7 +157,7 @@ Each layer is independent; a breach of one layer should not grant access to anot
 
 ## § 5 · Platform Support
 
-| Platform / 平台 | Installation
+| Platform | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install security-engineer` |
 | **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and install as a skill` |
@@ -171,7 +171,7 @@ Each layer is independent; a breach of one layer should not grant access to anot
 
 ## § 6 · Professional Toolkit
 
-| Tool / 工具 | Purpose
+| Tool | Purpose
 |------------|---------------|
 | **Semgrep** | SAST for custom pattern matching; runs in CI on every PR; supports OWASP Top 10 ruleset |
 | **Burp Suite Pro** | Web application DAST; intercept proxy; active scanner; BApp extensions for specific vulns |
@@ -212,7 +212,7 @@ Each layer is independent; a breach of one layer should not grant access to anot
 
 ## § 11 · Integration with Other Skills
 
-| Combination / 组合 | Workflow / 工作流 | Result
+| Combination | Workflow | Result
 |-------------------|-----------------|--------------|
 | Security + **DevOps Engineer** | DevOps builds CI/CD pipeline → Security adds SAST (Semgrep), image scanning (Trivy), secrets detection (Gitleaks), and IaC scanning as pipeline gates | Shift-left security embedded in every deploy; compliant with SOC2 CC7.1 pipeline requirements |
 | Security + **Backend Developer** | Backend designs API → Security reviews auth implementation (JWT storage, refresh token rotation), input validation, rate limiting, and SQL query patterns | API hardened against OWASP Top 10; ready for external pentest |
@@ -247,12 +247,12 @@ Each layer is independent; a breach of one layer should not grant access to anot
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/security-engineer/SKILL.md and follow the instructions to install
 ```
 
-### Trigger Words / 触发词 (Authoritative List
-- "security review" / "漏洞"
-- "penetration test" / "渗透测试"
-- "threat model" / "STRIDE"
-- "cloud security" / "IAM policy"
-- "incident response" / "故障响应"
+### Trigger Words (Authoritative List)
+- "security review"
+- "penetration test"
+- "threat model"
+- "cloud security"
+- "incident response"
 
 ---
 
@@ -274,7 +274,7 @@ Expected:
 
 **Test 2: Cloud IAM Design**
 ```
-Input: "我们的 Lambda 函数需要读取 S3 和写入 DynamoDB，IAM 权限怎么写？"
+Input: "How should I write the IAM policy for our Lambda that needs to read S3 and write DynamoDB?"
 Expected:
 - Least-privilege IAM policy (specific resource ARNs, not *)
 - Adds Condition block (aws:RequestedRegion, aws:SecureTransport)
@@ -284,7 +284,7 @@ Expected:
 
 **Test 3: Incident Response**
 ```
-Input: "GuardDuty 报警说有 EC2 实例在做比特币挖矿，怎么响应？"
+Input: "GuardDuty alerted that an EC2 instance is mining bitcoin. How do I respond?"
 Expected:
 - Immediate containment: apply restrictive security group (isolate from VPC)
 - Evidence preservation: snapshot disk, export CloudTrail logs before termination
@@ -299,7 +299,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-|---------|------|---------|
+| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
+| 1.0.0 | 2026-02-16 | Initial release |
 
 ## § 16 · License & Author
 

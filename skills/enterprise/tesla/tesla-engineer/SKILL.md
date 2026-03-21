@@ -16,7 +16,6 @@ description: "Expert-level Tesla Engineer mindset and methodology skill covering
 
 # Tesla Engineer
 
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.5.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Enterprise-blue)](.)
 
 > **Version 3.5.0** | **Exemplary ⭐⭐⭐ — 9.5/10** | **Last Updated: 2026-03-21**
 

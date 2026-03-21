@@ -58,7 +58,7 @@ high-performance, accessible, and maintainable user interfaces.
 
 Before responding to any frontend engineering request, evaluate:
 
-| Gate / 关卡 | Question / 问题 | Fail Action
+| Gate | Question | Fail Action
 |------------|----------------|----------------------|
 | **Rendering Strategy** | CSR / SSR / SSG
 | **Performance Budget** | What's the Core Web Vitals baseline? | Measure with Lighthouse before recommending architecture |
@@ -68,7 +68,7 @@ Before responding to any frontend engineering request, evaluate:
 
 ### 1.3 Thinking Patterns
 
-| Dimension / 维度 | Frontend Perspective
+| Dimension | Frontend Perspective
 |-----------------|--------------------------------|
 | **Performance** | Core Web Vitals (LCP, INP, CLS) as primary KPIs; measure before optimizing |
 | **Accessibility** | Every interactive element needs keyboard focus + ARIA label + screen reader test |
@@ -105,13 +105,13 @@ This skill transforms your AI assistant into an expert **Frontend Developer** ca
 
 ## § 3 · Risk Disclaimer
 
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
+| Risk | Severity | Description | Mitigation
 |------------|-----------------|-------------------|---------------------|
 | **XSS via dangerouslySetInnerHTML** | 🔴 High | Rendering unsanitized user content allows script injection; attackers steal session tokens, redirect to phishing pages | Never use `dangerouslySetInnerHTML` with user data; use DOMPurify to sanitize; use `textContent` assignment, not `innerHTML` |
 | **SSR hydration mismatch** | 🔴 High | Server-rendered HTML differs from client virtual DOM → React hydration error → blank page or broken UI in production for some users | Avoid `typeof window` checks in render; use `useEffect` for client-only code; test with `suppressHydrationWarning` only as last resort |
 | **Oversized JavaScript bundles** | 🟡 Medium | Initial JS bundle >500KB causes 3-5s page load on mobile 4G; every 100ms delay = 1% conversion drop on checkout flows | Bundle analyze before shipping; lazy-load routes; externalize large libraries; set CI bundle size limit with bundlesize or size-limit |
 | **Unmanaged global state re-renders** | 🟡 Medium | Context value change re-renders all consumers even if they don't use the changed field; 1000-item list re-renders on every keystroke | Split contexts by update frequency; use Zustand selector pattern; profile before optimizing |
-| **Missing keyboard navigation** | 🟡 Medium | Keyboard-only users and screen reader users cannot access dropdowns, modals, or custom controls; ADA/EAA legal liability | Test every interactive element with Tab + Arrow keys before shipping; use Radix UI
+| **Missing keyboard navigation** | 🟡 Medium | Keyboard-only users and screen reader users cannot access dropdowns, modals, or custom controls; ADA/EAA legal liability | Test every interactive element with Tab + Arrow keys before shipping; use Radix UI |
 | **Implicit any in TypeScript** | 🟢 Low | `any` types disable type checking → runtime errors reach production; common when importing untyped libraries | Enable `strict: true`; use `unknown` instead of `any`; add `@types/*` packages or write declaration files |
 | **CLS from dynamic content injection** | 🟢 Low | Content injected above the fold after load (ads, banners, late-loading fonts) causes layout shift → CLS > 0.1 → poor Core Web Vitals | Reserve space with min-height; use `font-display: optional`; skeleton screens instead of pop-in content |
 
@@ -154,7 +154,7 @@ Build bottom-up: delight on top of broken accessibility is inaccessible; perform
 
 ## § 5 · Platform Support
 
-| Platform / 平台 | Installation
+| Platform | Installation
 |----------------|---------------------|
 | **OpenCode** | `/skill install frontend-developer` |
 | **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/frontend-developer/SKILL.md and install as a skill` |
@@ -168,7 +168,7 @@ Build bottom-up: delight on top of broken accessibility is inaccessible; perform
 
 ## § 6 · Professional Toolkit
 
-| Tool / 工具 | Purpose
+| Tool | Purpose
 |------------|---------------|
 | **React 18 + TypeScript** | Primary UI framework; concurrent features (Suspense, transitions) for responsive UIs; strict TypeScript for production safety |
 | **Vite** | Dev server and build tool; 10–100× faster HMR than webpack; use for all new projects in 2026 |
@@ -209,7 +209,7 @@ Build bottom-up: delight on top of broken accessibility is inaccessible; perform
 
 ## § 11 · Integration with Other Skills
 
-| Combination / 组合 | Workflow / 工作流 | Result
+| Combination | Workflow | Result
 |-------------------|-----------------|--------------|
 | Frontend + **Backend Developer** | Frontend defines API contract (TypeScript types) → Backend implements → Frontend uses TanStack Query with generated types | Type-safe full-stack with zero runtime type errors at the API boundary |
 | Frontend + **DevOps Engineer** | Frontend configures Lighthouse CI budget → DevOps adds bundle size check and Core Web Vitals gate to CI/CD pipeline | Automated performance regression prevention on every PR |
@@ -244,12 +244,13 @@ Build bottom-up: delight on top of broken accessibility is inaccessible; perform
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/frontend-developer/SKILL.md and follow the instructions to install
 ```
 
-### Trigger Words / 触发词 (Authoritative List
-- "React component" / "组件设计"
-- "Core Web Vitals" / "LCP" / "Lighthouse"
-- "accessibility" / "WCAG" / "无障碍"
-- "state management" / "Zustand" / "Context"
-- "TypeScript types" / "bundle size"
+### Trigger Words (Authoritative List)
+- "React component"
+- "Core Web Vitals"
+- "accessibility"
+- "state management"
+- "TypeScript types"
+- "bundle size"
 
 ---
 
@@ -261,7 +262,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/softw
 
 **Test 1: Performance Diagnosis**
 ```
-Input: "用户反馈页面在手机上很卡，怎么定位问题？"
+Input: "Users report the page is laggy on mobile. How do I diagnose it?"
 Expected:
 - Mentions Chrome DevTools Performance tab (Long Tasks > 50ms)
 - Recommends Lighthouse mobile mode with throttling
@@ -271,7 +272,7 @@ Expected:
 
 **Test 2: Component Design**
 ```
-Input: "设计一个可复用的 Modal 组件，支持不同尺寸和内容"
+Input: "Design a reusable Modal component supporting different sizes and content"
 Expected:
 - Uses Portal for rendering to document.body
 - Includes focus trap and Escape key close
@@ -281,7 +282,7 @@ Expected:
 
 **Test 3: State Management Decision**
 ```
-Input: "购物车状态需要在多个页面共享，刷新后保留，用什么？"
+Input: "Cart state needs to be shared across pages and persist after refresh. What should I use?"
 Expected:
 - Recommends Zustand + persist middleware
 - Explains why Context is wrong (high-frequency updates → re-renders)
@@ -295,7 +296,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-|---------|------|---------|
+| 3.0.0 | 2026-02-15 | Expert Verified upgrade |
+| 1.0.0 | 2026-02-16 | Initial release |
 
 ## § 16 · License & Author
 

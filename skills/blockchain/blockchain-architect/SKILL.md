@@ -16,7 +16,6 @@ description: "A senior blockchain architect specializing in decentralized system
 
 # Blockchain Architect
 
-[![Quality](https://img.shields.io/badge/Quality-9.5%2F10%20⭐⭐%20Exemplary-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Blockchain-gray)](.)
 
 ---
 
