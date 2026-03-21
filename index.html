@@ -563,14 +563,11 @@
         </div>
     </div>
     
-    <div class="controls">
-        <input type="text" class="search-box" id="searchBox" placeholder="Search skills..." oninput="filterSkills()">
-        $1
+    <div class="category-filters" id="categoryFilters">
             <button class="filter-btn active" data-category="all" onclick="filterByCategory('all')">All</button>
             <button class="filter-btn" data-category="education" onclick="filterByCategory('education')">Education</button>
             <button class="filter-btn" data-category="healthcare" onclick="filterByCategory('healthcare')">Healthcare</button>
             <button class="filter-btn" data-category="research" onclick="filterByCategory('research')">Research</button>
-            <button class="filter-btn" data-category="ai-ml" onclick="filterByCategory('ai-ml')">AI/ML</button>
             <button class="filter-btn" data-category="special" onclick="filterByCategory('special')">Special</button>
             <button class="filter-btn" data-category="finance" onclick="filterByCategory('finance')">Finance</button>
             <button class="filter-btn" data-category="government" onclick="filterByCategory('government')">Government</button>
@@ -578,120 +575,54 @@
             <button class="filter-btn" data-category="legal" onclick="filterByCategory('legal')">Legal</button>
             <button class="filter-btn" data-category="public-service" onclick="filterByCategory('public-service')">Public Service</button>
             <button class="filter-btn" data-category="service-worker" onclick="filterByCategory('service-worker')">Service Worker</button>
-            <button class="filter-btn" data-category="media" onclick="filterByCategory('media')">Media</button>
             <button class="filter-btn" data-category="manufacturing" onclick="filterByCategory('manufacturing')">Manufacturing</button>
             <button class="filter-btn" data-category="creative" onclick="filterByCategory('creative')">Creative</button>
-            <button class="filter-btn" data-category="aliyun" onclick="filterByCategory('aliyun')">Aliyun</button>
-            <button class="filter-btn" data-category="tencent" onclick="filterByCategory('tencent')">Tencent</button>
+            <button class="filter-btn" data-category="media" onclick="filterByCategory('media')">Media</button>
             <button class="filter-btn" data-category="energy" onclick="filterByCategory('energy')">Energy</button>
             <button class="filter-btn" data-category="entertainment" onclick="filterByCategory('entertainment')">Entertainment</button>
             <button class="filter-btn" data-category="software" onclick="filterByCategory('software')">Software</button>
             <button class="filter-btn" data-category="aerospace" onclick="filterByCategory('aerospace')">Aerospace</button>
-            <button class="filter-btn" data-category="realestate" onclick="filterByCategory('realestate')">Realestate</button>
+            <button class="filter-btn" data-category="realestate" onclick="filterByCategory('realestate')">Real Estate</button>
             <button class="filter-btn" data-category="admin" onclick="filterByCategory('admin')">Admin</button>
+            <button class="filter-btn" data-category="ai-ml" onclick="filterByCategory('ai-ml')">AI/ML</button>
             <button class="filter-btn" data-category="construction-worker" onclick="filterByCategory('construction-worker')">Construction Worker</button>
-            <button class="filter-btn" data-category="enterprise" onclick="filterByCategory('enterprise')">Enterprise</button>
             <button class="filter-btn" data-category="automotive" onclick="filterByCategory('automotive')">Automotive</button>
             <button class="filter-btn" data-category="freelancer" onclick="filterByCategory('freelancer')">Freelancer</button>
             <button class="filter-btn" data-category="agriculture" onclick="filterByCategory('agriculture')">Agriculture</button>
-            <button class="filter-btn" data-category="database" onclick="filterByCategory('database')">Database</button>
-            <button class="filter-btn" data-category="productivity" onclick="filterByCategory('productivity')">Productivity</button>
             <button class="filter-btn" data-category="product" onclick="filterByCategory('product')">Product</button>
             <button class="filter-btn" data-category="transport-worker" onclick="filterByCategory('transport-worker')">Transport Worker</button>
-            <button class="filter-btn" data-category="design" onclick="filterByCategory('design')">Design</button>
-            <button class="filter-btn" data-category="observability" onclick="filterByCategory('observability')">Observability</button>
-            <button class="filter-btn" data-category="data-platform" onclick="filterByCategory('data-platform')">Data Platform</button>
-            <button class="filter-btn" data-category="analytics" onclick="filterByCategory('analytics')">Analytics</button>
             <button class="filter-btn" data-category="business" onclick="filterByCategory('business')">Business</button>
             <button class="filter-btn" data-category="biotech" onclick="filterByCategory('biotech')">Biotech</button>
-            <button class="filter-btn" data-category="security" onclick="filterByCategory('security')">Security</button>
-            <button class="filter-btn" data-category="cad" onclick="filterByCategory('cad')">Cad</button>
-            <button class="filter-btn" data-category="cloud" onclick="filterByCategory('cloud')">Cloud</button>
-            <button class="filter-btn" data-category="tesla" onclick="filterByCategory('tesla')">Tesla</button>
             <button class="filter-btn" data-category="robotics" onclick="filterByCategory('robotics')">Robotics</button>
             <button class="filter-btn" data-category="mining" onclick="filterByCategory('mining')">Mining</button>
             <button class="filter-btn" data-category="construction" onclick="filterByCategory('construction')">Construction</button>
             <button class="filter-btn" data-category="executive" onclick="filterByCategory('executive')">Executive</button>
             <button class="filter-btn" data-category="factory-worker" onclick="filterByCategory('factory-worker')">Factory</button>
-            <button class="filter-btn" data-category="container" onclick="filterByCategory('container')">Container</button>
-            <button class="filter-btn" data-category="engineering-simulation" onclick="filterByCategory('engineering-simulation')">Engineering Simulation</button>
             <button class="filter-btn" data-category="materials" onclick="filterByCategory('materials')">Materials</button>
             <button class="filter-btn" data-category="repair-worker" onclick="filterByCategory('repair-worker')">Repair Worker</button>
+            <button class="filter-btn" data-category="enterprise" onclick="filterByCategory('enterprise')">Enterprise</button>
             <button class="filter-btn" data-category="hr" onclick="filterByCategory('hr')">HR</button>
             <button class="filter-btn" data-category="marketing" onclick="filterByCategory('marketing')">Marketing</button>
             <button class="filter-btn" data-category="it-support" onclick="filterByCategory('it-support')">IT Support</button>
             <button class="filter-btn" data-category="quantum" onclick="filterByCategory('quantum')">Quantum</button>
             <button class="filter-btn" data-category="transportation" onclick="filterByCategory('transportation')">Transportation</button>
-            <button class="filter-btn" data-category="common" onclick="filterByCategory('common')">Common</button>
-            <button class="filter-btn" data-category="game-engine" onclick="filterByCategory('game-engine')">Game Engine</button>
-            <button class="filter-btn" data-category="cicd" onclick="filterByCategory('cicd')">Cicd</button>
-            <button class="filter-btn" data-category="iac" onclick="filterByCategory('iac')">Iac</button>
-            <button class="filter-btn" data-category="scientific" onclick="filterByCategory('scientific')">Scientific</button>
             <button class="filter-btn" data-category="cybersecurity" onclick="filterByCategory('cybersecurity')">Security</button>
             <button class="filter-btn" data-category="farmer" onclick="filterByCategory('farmer')">Farmer</button>
             <button class="filter-btn" data-category="environmental" onclick="filterByCategory('environmental')">Environmental</button>
             <button class="filter-btn" data-category="telecom" onclick="filterByCategory('telecom')">Telecom</button>
             <button class="filter-btn" data-category="data" onclick="filterByCategory('data')">Data</button>
             <button class="filter-btn" data-category="hospitality" onclick="filterByCategory('hospitality')">Hospitality</button>
-            <button class="filter-btn" data-category="volcengine" onclick="filterByCategory('volcengine')">Volcengine</button>
-            <button class="filter-btn" data-category="engineering" onclick="filterByCategory('engineering')">Engineering</button>
             <button class="filter-btn" data-category="content" onclick="filterByCategory('content')">Content</button>
             <button class="filter-btn" data-category="retail" onclick="filterByCategory('retail')">Retail</button>
             <button class="filter-btn" data-category="tech" onclick="filterByCategory('tech')">Tech</button>
             <button class="filter-btn" data-category="logistics" onclick="filterByCategory('logistics')">Logistics</button>
             <button class="filter-btn" data-category="services" onclick="filterByCategory('services')">Services</button>
-            <button class="filter-btn" data-category="apple" onclick="filterByCategory('apple')">Apple</button>
-            <button class="filter-btn" data-category="meta-ai" onclick="filterByCategory('meta-ai')">Meta Ai</button>
-            <button class="filter-btn" data-category="moderna" onclick="filterByCategory('moderna')">Moderna</button>
-            <button class="filter-btn" data-category="moonshot" onclick="filterByCategory('moonshot')">Moonshot</button>
-            <button class="filter-btn" data-category="crowdstrike" onclick="filterByCategory('crowdstrike')">Crowdstrike</button>
-            <button class="filter-btn" data-category="riot" onclick="filterByCategory('riot')">Riot</button>
-            <button class="filter-btn" data-category="huawei" onclick="filterByCategory('huawei')">Huawei</button>
-            <button class="filter-btn" data-category="amazon" onclick="filterByCategory('amazon')">Amazon</button>
-            <button class="filter-btn" data-category="fedex" onclick="filterByCategory('fedex')">Fedex</button>
-            <button class="filter-btn" data-category="tsmc" onclick="filterByCategory('tsmc')">Tsmc</button>
-            <button class="filter-btn" data-category="bcg" onclick="filterByCategory('bcg')">Bcg</button>
-            <button class="filter-btn" data-category="mayo-clinic" onclick="filterByCategory('mayo-clinic')">Mayo Clinic</button>
-            <button class="filter-btn" data-category="google" onclick="filterByCategory('google')">Google</button>
-            <button class="filter-btn" data-category="microsoft" onclick="filterByCategory('microsoft')">Microsoft</button>
-            <button class="filter-btn" data-category="unitree" onclick="filterByCategory('unitree')">Unitree</button>
-            <button class="filter-btn" data-category="goldman-sachs" onclick="filterByCategory('goldman-sachs')">Goldman Sachs</button>
-            <button class="filter-btn" data-category="lelo" onclick="filterByCategory('lelo')">Lelo</button>
-            <button class="filter-btn" data-category="pixar" onclick="filterByCategory('pixar')">Pixar</button>
-            <button class="filter-btn" data-category="alibaba" onclick="filterByCategory('alibaba')">Alibaba</button>
-            <button class="filter-btn" data-category="deepseek" onclick="filterByCategory('deepseek')">Deepseek</button>
-            <button class="filter-btn" data-category="visa" onclick="filterByCategory('visa')">Visa</button>
-            <button class="filter-btn" data-category="nintendo" onclick="filterByCategory('nintendo')">Nintendo</button>
-            <button class="filter-btn" data-category="lvmh" onclick="filterByCategory('lvmh')">Lvmh</button>
-            <button class="filter-btn" data-category="clifford-chance" onclick="filterByCategory('clifford-chance')">Clifford Chance</button>
-            <button class="filter-btn" data-category="walmart" onclick="filterByCategory('walmart')">Walmart</button>
-            <button class="filter-btn" data-category="toyota" onclick="filterByCategory('toyota')">Toyota</button>
-            <button class="filter-btn" data-category="supercell" onclick="filterByCategory('supercell')">Supercell</button>
-            <button class="filter-btn" data-category="netflix" onclick="filterByCategory('netflix')">Netflix</button>
-            <button class="filter-btn" data-category="mckinsey" onclick="filterByCategory('mckinsey')">Mckinsey</button>
-            <button class="filter-btn" data-category="nvidia" onclick="filterByCategory('nvidia')">Nvidia</button>
-            <button class="filter-btn" data-category="verizon" onclick="filterByCategory('verizon')">Verizon</button>
-            <button class="filter-btn" data-category="bain" onclick="filterByCategory('bain')">Bain</button>
-            <button class="filter-btn" data-category="jpmorgan" onclick="filterByCategory('jpmorgan')">Jpmorgan</button>
-            <button class="filter-btn" data-category="anthropic" onclick="filterByCategory('anthropic')">Anthropic</button>
-            <button class="filter-btn" data-category="defense" onclick="filterByCategory('defense')">Defense</button>
-            <button class="filter-btn" data-category="morgan-stanley" onclick="filterByCategory('morgan-stanley')">Morgan Stanley</button>
-            <button class="filter-btn" data-category="deepmind" onclick="filterByCategory('deepmind')">Deepmind</button>
-            <button class="filter-btn" data-category="saudi-aramco" onclick="filterByCategory('saudi-aramco')">Saudi Aramco</button>
-            <button class="filter-btn" data-category="disney" onclick="filterByCategory('disney')">Disney</button>
-            <button class="filter-btn" data-category="f1" onclick="filterByCategory('f1')">F1</button>
-            <button class="filter-btn" data-category="microsoft-ai" onclick="filterByCategory('microsoft-ai')">Microsoft Ai</button>
-            <button class="filter-btn" data-category="pfizer" onclick="filterByCategory('pfizer')">Pfizer</button>
-            <button class="filter-btn" data-category="openai" onclick="filterByCategory('openai')">Openai</button>
-            <button class="filter-btn" data-category="crisis-pr" onclick="filterByCategory('crisis-pr')">Crisis Pr</button>
-            <button class="filter-btn" data-category="sony" onclick="filterByCategory('sony')">Sony</button>
-            <button class="filter-btn" data-category="spacex" onclick="filterByCategory('spacex')">Spacex</button>
             <button class="filter-btn" data-category="semiconductor" onclick="filterByCategory('semiconductor')">Semiconductor</button>
             <button class="filter-btn" data-category="blockchain" onclick="filterByCategory('blockchain')">Blockchain</button>
             <button class="filter-btn" data-category="medical" onclick="filterByCategory('medical')">Medical</button>
             <button class="filter-btn" data-category="international" onclick="filterByCategory('international')">International</button>
-        $2
-    </div>
+            <button class="filter-btn" data-category="tools" onclick="filterByCategory('tools')">Tools</button>
+        </div>
     
     <main class="skills-container">
         <div class="skills-grid" id="skillsGrid"></div>
