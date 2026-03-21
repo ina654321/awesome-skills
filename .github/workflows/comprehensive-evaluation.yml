@@ -15,6 +15,9 @@ on:
       - 'skills/**/SKILL.md'
       - '.github/workflows/comprehensive-evaluation.yml'
       - 'scripts/comprehensive_skill_evaluation.py'
+      - 'scripts/generate_skills_data.py'
+      - 'scripts/update_category_filters.py'
+      - 'scripts/update_project_files.py'
 
 jobs:
   # ============================================================================
@@ -116,6 +119,12 @@ jobs:
       
       - name: Update README and index.html
         run: python3 scripts/update_project_files.py
+      
+      - name: Update category filters
+        run: |
+          echo "Updating category filters..."
+          python3 scripts/update_category_filters.py
+          echo "Category filters updated"
       
       - name: Commit and push updates
         run: |
