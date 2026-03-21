@@ -1,10 +1,10 @@
 {
-  "round": 51,
-  "date": "2026-03-22T01:43:53.767619",
+  "round": 52,
+  "date": "2026-03-22T01:43:59.591684",
   "summary": {
-    "total": 647,
+    "total": 649,
     "exemplary": 0,
-    "average": 7.83
+    "average": 7.82
   },
   "results": [
     {
@@ -6440,6 +6440,22 @@
       "filepath": "skills/entertainment/sports-referee/SKILL.md"
     },
     {
+      "name": "game-booster",
+      "path": "skills/entertainment/game-booster/SKILL.md",
+      "score": 8.48,
+      "scores": {
+        "sp": 10,
+        "dk": 9.3,
+        "wf": 10,
+        "eh": 7.5,
+        "ex": 10
+      },
+      "sections": 19,
+      "tables": 144,
+      "scenarios": 4,
+      "filepath": "skills/entertainment/game-booster/SKILL.md"
+    },
+    {
       "name": "magician",
       "path": "skills/entertainment/magician/SKILL.md",
       "score": 8.48,
@@ -8806,6 +8822,22 @@
       "tables": 135,
       "scenarios": 4,
       "filepath": "skills/aerospace/evtol-chief-designer/SKILL.md"
+    },
+    {
+      "name": "airworthiness-certification-engineer",
+      "path": "skills/aerospace/airworthiness-certification-engineer/SKILL.md",
+      "score": 6.64,
+      "scores": {
+        "sp": 3,
+        "dk": 9.3,
+        "wf": 10,
+        "eh": 7.5,
+        "ex": 7
+      },
+      "sections": 19,
+      "tables": 126,
+      "scenarios": 4,
+      "filepath": "skills/aerospace/airworthiness-certification-engineer/SKILL.md"
     },
     {
       "name": "low-altitude-traffic-engineer",
