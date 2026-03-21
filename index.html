@@ -789,7 +789,7 @@
             const skill = allSkills.find(s => s.id === skillId);
             if (skill) {
                 navigator.clipboard.writeText(skill.command).then(() => {
-                    alert(`✅ ${skill.name} command copied to clipboard!\n\nPaste it in your Kimi Code CLI to install.`);
+                    alert('Copied to clipboard!');
                 });
             }
         }
