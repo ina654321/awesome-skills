@@ -1,23 +1,48 @@
 <!-- Awesome Skills - Expert AI Skills Library
-     587 Expert Skills for AI Assistants -->
+     649 Expert Skills for AI Assistants -->
 
 <div align="center">
 
 # Awesome Skills
 
-**587个职业专家能力图谱 · The Human Capability Atlas**
+**649个职业专家能力图谱 · The Human Capability Atlas**
 
-[![Skills](https://img.shields.io/badge/Skills-587-blueviolet?style=flat-square)](./CATALOG.md)
-[![Quality](https://img.shields.io/badge/Quality-Exemplary%20%E2%AD%90%E2%AD%90%20%E2%AD%90%E2%AD%90%20%E2%AD%90-9.5%2F10-gold?style=flat-square)](./CATALOG.md)
+[![Skills](https://img.shields.io/badge/Skills-649-blueviolet?style=flat-square)](./CATALOG.md)
+[![Quality](https://img.shields.io/badge/Quality-Production%20Ready-success?style=flat-square)](./CATALOG.md)
+[![Evaluation](https://img.shields.io/badge/Evaluation-Dual--Track-blue?style=flat-square)](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)
 [![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](#platform-support)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 [![Token Optimized](https://img.shields.io/badge/Token%20Optimized-40K%2B%20lines%20saved-10b981?style=flat-square)](#architecture)
 
-**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📦 Skill Packages](./packages)** • **[📚 Full Catalog](./CATALOG.md)** • **[🗺️ Career Roadmaps](./roadmap/)**
+**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📦 Skill Packages](./packages)** • **[📚 Full Catalog](./CATALOG.md)** • **[🗺️ Career Roadmaps](./roadmap/)** • **[📊 Quality Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)**
 
 </div>
 
 ---
+
+<!-- STATS_START -->
+## 📊 Project Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Skills** | 649 |
+| **Categories** | 70+ |
+| **Average Quality** | 6.77/10 |
+| **Text Quality** | 6.72/10 |
+| **Runtime Quality** | 6.65/10 |
+| **Last Updated** | 2026-03-21 |
+
+### Quality Distribution
+
+| Tier | Count | Percentage |
+|------|-------|------------|
+| Exemplary (8.0+) | 5 | 0.8% |
+| Expert (7.0-7.9) | 273 | 42.1% |
+| Community (5.0-6.9) | 371 | 57.1% |
+| Basic (<5.0) | 0 | 0% |
+
+📈 [View Full Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)
+<!-- STATS_END -->
 
 ## 这个库真正是什么 | What This Library Really Is
 

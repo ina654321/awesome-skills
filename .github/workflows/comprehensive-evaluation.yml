@@ -1,0 +1,203 @@
+# Comprehensive Skill Evaluation - Dual-Track Quality Assessment
+# Evaluates all skills using skill-evaluator methodology
+
+name: Comprehensive Skill Evaluation
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # Daily at 4 AM UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**/SKILL.md'
+      - '.github/workflows/comprehensive-evaluation.yml'
+
+jobs:
+  evaluate:
+    name: Evaluate Skills
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml rich
+      
+      - name: Run comprehensive evaluation
+        run: |
+          python3 scripts/comprehensive_skill_evaluation.py \
+            --output reports/evaluation_report.json \
+            --format both
+      
+      - name: Upload evaluation results
+        uses: actions/upload-artifact@v4
+        with:
+          name: evaluation-report
+          path: |
+            reports/evaluation_report.json
+            reports/evaluation_report.html
+          retention-days: 30
+      
+      - name: Display results in Actions
+        run: |
+          python3 << 'PYTHON_EOF'
+          import json
+          
+          with open('reports/evaluation_report.json') as f:
+              data = json.load(f)
+          
+          summary = data['summary']
+          
+          print("="*70)
+          print("📊 COMPREHENSIVE SKILL EVALUATION RESULTS")
+          print("="*70)
+          print()
+          print(f"Total Skills Evaluated: {summary['total_skills']}")
+          print()
+          print("📈 Quality Scores:")
+          print(f"  Text Quality:     {summary['text_quality']['average']:.2f}/10")
+          print(f"  Runtime Quality:  {summary['runtime_quality']['average']:.2f}/10")
+          print(f"  Dual-Track:       {summary['dual_track']['average']:.2f}/10")
+          print()
+          print("🏆 Certification Status:")
+          for status, count in summary['certifications'].items():
+              pct = count / summary['total_skills'] * 100
+              print(f"  {status}: {count} ({pct:.1f}%)")
+          print()
+          print("📋 Top 5 Skills:")
+          top5 = sorted(data['evaluations'], key=lambda x: -x['dual_track_score'])[:5]
+          for i, skill in enumerate(top5, 1):
+              print(f"  {i}. {skill['skill_name']}: {skill['dual_track_score']:.2f} "
+                    f"(T:{skill['text_quality']['overall']:.1f} R:{skill['runtime_quality']['overall']:.1f})")
+          print()
+          print("⚠️  Bottom 5 Skills (Need Improvement):")
+          bottom5 = sorted(data['evaluations'], key=lambda x: x['dual_track_score'])[:5]
+          for i, skill in enumerate(bottom5, 1):
+              print(f"  {i}. {skill['skill_name']}: {skill['dual_track_score']:.2f}")
+              if skill['recommendations']:
+                  print(f"     → {skill['recommendations'][0]}")
+          print()
+          print("="*70)
+          print(f"📄 Full HTML Report: reports/evaluation_report.html")
+          print("="*70)
+          PYTHON_EOF
+      
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./reports
+          destination_dir: reports
+          keep_files: true
+
+  update-dashboard:
+    name: Update Dashboard
+    runs-on: ubuntu-latest
+    needs: evaluate
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Download evaluation results
+        uses: actions/download-artifact@v4
+        with:
+          name: evaluation-report
+          path: reports
+      
+      - name: Update README with latest stats
+        run: |
+          python3 << 'PYTHON_EOF'
+          import json
+          import re
+          from datetime import datetime
+          
+          # Load evaluation data
+          with open('reports/evaluation_report.json') as f:
+              data = json.load(f)
+          
+          summary = data['summary']
+          
+          # Read README
+          with open('README.md') as f:
+              readme = f.read()
+          
+          # Update stats badge section
+          stats_section = f"""<!-- STATS_START -->
+## 📊 Project Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Skills** | {summary['total_skills']} |
+| **Average Quality** | {summary['dual_track']['average']:.2f}/10 |
+| **Text Quality** | {summary['text_quality']['average']:.2f}/10 |
+| **Runtime Quality** | {summary['runtime_quality']['average']:.2f}/10 |
+| **Last Updated** | {datetime.now().strftime('%Y-%m-%d')} |
+
+### Quality Distribution
+
+| Tier | Count | Percentage |
+|------|-------|------------|
+| Exemplary (8.0+) | {summary['tiers'].get('exemplary', 0)} | {summary['tiers'].get('exemplary', 0) / summary['total_skills'] * 100:.1f}% |
+| Expert (7.0-7.9) | {summary['tiers'].get('expert', 0)} | {summary['tiers'].get('expert', 0) / summary['total_skills'] * 100:.1f}% |
+| Community (5.0-6.9) | {summary['tiers'].get('community', 0)} | {summary['tiers'].get('community', 0) / summary['total_skills'] * 100:.1f}% |
+| Basic (<5.0) | {summary['tiers'].get('basic', 0)} | {summary['tiers'].get('basic', 0) / summary['total_skills'] * 100:.1f}% |
+
+📈 [View Full Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)
+<!-- STATS_END -->"""
+          
+          # Replace stats section
+          pattern = r'<!-- STATS_START -->.*?<!-- STATS_END -->'
+          if re.search(pattern, readme, re.DOTALL):
+              readme = re.sub(pattern, stats_section, readme, flags=re.DOTALL)
+          else:
+              # Insert after first heading
+              readme = re.sub(r'(^(# .*\n))', r'\1\n' + stats_section + '\n', readme)
+          
+          # Write back
+          with open('README.md', 'w') as f:
+              f.write(readme)
+          
+          print("✅ README updated with latest statistics")
+          PYTHON_EOF
+      
+      - name: Update index.html dashboard
+        run: |
+          python3 << 'PYTHON_EOF'
+          import json
+          from pathlib import Path
+          
+          # Load evaluation data
+          with open('reports/evaluation_report.json') as f:
+              data = json.load(f)
+          
+          # Create a JavaScript data file for the website
+          js_data = f"""
+window.SKILL_STATS = {json.dumps(data['summary'], indent=2)};
+window.SKILL_EVALUATIONS = {json.dumps(data['evaluations'][:50], indent=2)};  // Top 50
+"""
+          
+          Path('assets/js/skill-stats.js').write_text(js_data)
+          print("✅ Skill stats JavaScript file created")
+          PYTHON_EOF
+      
+      - name: Commit updates
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md assets/js/skill-stats.js reports/
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update evaluation reports and dashboard [ci skip]"
+          git push
