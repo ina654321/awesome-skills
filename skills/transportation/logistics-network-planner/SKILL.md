@@ -12,7 +12,6 @@ metadata:
   category: transportation
   difficulty: expert
 ---
-Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes. Triggers: "logistics network", "distribution center", "route optimization", "物流网络". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Logistics Network Planner
 

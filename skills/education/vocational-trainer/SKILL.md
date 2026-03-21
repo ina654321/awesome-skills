@@ -12,9 +12,6 @@ metadata:
   category: education
   difficulty: expert
 ---
-with 10+ years of experience delivering job-ready skills training. Triggers: "vocational trainer",
-"skills training", "certification prep", "职业培训师", "技能培训". Works with: Claude Code, OpenAI Codex,
-
 # Vocational Trainer
 
 

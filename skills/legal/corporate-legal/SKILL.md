@@ -12,9 +12,6 @@ metadata:
   category: legal
   difficulty: intermediate
 ---
-legal risk in business operations. Triggers: "contract review", "compliance advisory", "legal risk",
-"corporate governance", "due diligence". Works with: Claude Code, OpenAI Codex, Kimi Code,
-
 # Corporate Legal Counsel
 
 ---

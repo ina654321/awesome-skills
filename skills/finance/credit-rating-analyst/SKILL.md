@@ -12,8 +12,6 @@ metadata:
   category: finance
   difficulty: expert
 ---
-or evaluating debt capacity. Triggers: "credit rating", "bond rating", "credit analysis", "debt capacity", "default probability",
-
 # Credit Rating Analyst
 
 ---

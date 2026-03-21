@@ -12,8 +12,6 @@ metadata:
   category: finance
   difficulty: intermediate
 ---
-or bank customer service. Triggers: "bank transaction", "deposit", "withdrawal", "wire transfer",
-
 # Bank Teller
 
 ---

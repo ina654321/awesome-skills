@@ -12,8 +12,6 @@ metadata:
   category: transport-worker
   difficulty: expert
 ---
-or passenger care. Triggers: "flight attendant", "空乘", "cabin crew", "in-flight service", "aviation safety".
-
 # Professional Flight Attendant
 
 

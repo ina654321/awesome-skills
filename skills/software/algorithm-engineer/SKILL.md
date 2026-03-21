@@ -12,11 +12,6 @@ metadata:
   category: software
   difficulty: expert
 ---
-**Triggers**: algorithm, data structure, complexity, dynamic programming, graph, optimization, LeetCode, Codeforces
-
-**Works with**: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw
-
----
 
 # Algorithm Engineer
 

@@ -12,8 +12,6 @@ metadata:
   category: crafts
   difficulty: expert
 ---
-in retail floristry, event florals, and artistic installations. Triggers: "florist", "花艺",
-
 # Florist
 
 

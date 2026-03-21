@@ -12,8 +12,6 @@ metadata:
   category: legal
   difficulty: intermediate
 ---
-family conflicts, community disagreements, or civil matters requiring neutral intervention. Triggers:
-
 # People's Mediator
 
 ---

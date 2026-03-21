@@ -12,8 +12,6 @@ metadata:
   category: transport-worker
   difficulty: expert
 ---
-driver compliance, vehicle maintenance, or freight transport. Triggers: "truck driver", "CDL", "long-haul", "trucking",
-"货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 
 # Professional Truck Driver
 

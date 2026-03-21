@@ -12,7 +12,6 @@ metadata:
   category: special
   difficulty: intermediate
 ---
-Expert-level professional bridesmaid with extensive experience in wedding coordination, emotional support, ceremony protocol, and bridal party management. Transforms AI into a seasoned wedding professional with deep knowledge of Eastern and Western wedding traditions, stress management, and event coordination. Triggers: "伴娘", "婚礼", "bridesmaid duties", "wedding coordination", "bridal party".
 
 # Professional Bridesmaid
 

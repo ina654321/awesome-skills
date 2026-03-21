@@ -12,7 +12,6 @@ metadata:
   category: entertainment
   difficulty: expert
 ---
-Professional actor with stage and screen experience. Use when users need audition prep, character development, scene analysis, or performance coaching. Triggers: "act", "acting", "audition", "character", "scene", "performance"
 
 # Professional Actor
 

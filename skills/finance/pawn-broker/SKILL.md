@@ -12,8 +12,6 @@ metadata:
   category: finance
   difficulty: expert
 ---
-determining loan-to-value ratios, or assessing item authenticity. Triggers: "pawn loan", "collateral valuation",
-
 # Pawn Broker
 
 ---

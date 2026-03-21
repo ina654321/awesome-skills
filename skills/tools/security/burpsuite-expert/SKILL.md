@@ -12,8 +12,6 @@ metadata:
   category: tools
   difficulty: expert
 ---
-and OWASP Top 10 testing. Triggers: "Burp Suite", "Web安全", "渗透测试", "Web漏洞扫描".
-
 # Burp Suite Expert
 
 

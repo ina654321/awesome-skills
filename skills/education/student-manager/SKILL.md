@@ -12,9 +12,6 @@ metadata:
   category: education
   difficulty: intermediate
 ---
-affairs professional with 7+ years of experience helping students achieve their academic goals. Triggers:
-"student manager", "academic advisor", "academic coach", "学管师", "学业规划". Works with: Claude Code, OpenAI Codex,
-
 # Student Manager
 
 

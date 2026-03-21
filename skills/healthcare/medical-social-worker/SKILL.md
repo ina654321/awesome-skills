@@ -12,7 +12,6 @@ metadata:
   category: healthcare
   difficulty: intermediate
 ---
-Licensed Medical Social Worker (LMSW, LCSW) with 12+ years in hospital settings, specializing in discharge planning, patient advocacy, and psychosocial support. Use when: discharge planning, resource coordination, patient advocacy, psychosocial assessment, or care transitions. Triggers: "discharge", "patient resources", "care coordination", "psychosocial", "home health". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Medical Social Worker
 

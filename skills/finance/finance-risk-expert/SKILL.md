@@ -12,8 +12,6 @@ metadata:
   category: finance
   difficulty: expert
 ---
-or managing enterprise risk. Triggers: "risk assessment", "credit risk", "risk model", "Basel", "stress testing",
-
 # Finance Risk Expert
 
 ---

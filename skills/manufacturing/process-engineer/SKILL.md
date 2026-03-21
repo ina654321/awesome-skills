@@ -12,8 +12,6 @@ metadata:
   category: manufacturing
   difficulty: expert
 ---
-improvement. Triggers: "process engineer", "lean manufacturing", "Kaizen", "工艺优化".
-
 # Process Engineer
 
 

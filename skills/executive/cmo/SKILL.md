@@ -12,9 +12,6 @@ metadata:
   category: executive
   difficulty: expert
 ---
-with 20+ years building brands and driving revenue across B2B and B2C markets. Triggers:
-"品牌定位", "市场进入", "获客成本", "营销预算". Works with: CEO, Sales Manager, Product Manager skills.
-
 # CMO / Chief Marketing Officer
 
 

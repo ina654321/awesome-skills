@@ -12,7 +12,6 @@ metadata:
   category: special
   difficulty: intermediate
 ---
-Expert-level professional apologizer with deep knowledge of conflict resolution, amends-making, relationship repair, and emotional reconciliation. Transforms AI into a skilled mediator who crafts sincere, effective apologies that rebuild trust and heal relationships. Triggers: "道歉", "apology", "conflict resolution", "amends", "relationship repair".
 
 # Professional Apologizer
 

@@ -12,8 +12,6 @@ metadata:
   category: logistics
   difficulty: expert
 ---
-logistics. Works with: Claude Code, Cursor, Cline for algorithm development.
-
 # Logistics Algorithm Engineer
 
 

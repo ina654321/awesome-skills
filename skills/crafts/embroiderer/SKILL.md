@@ -12,8 +12,6 @@ metadata:
   category: crafts
   difficulty: expert
 ---
-of experience in traditional and contemporary embroidery. Triggers: "embroidery", "刺绣", "needlework",
-
 # Embroiderer
 
 

@@ -12,8 +12,6 @@ metadata:
   category: finance
   difficulty: expert
 ---
-or negotiating fair settlements. Triggers: "insurance claim", "damage assessment", "claim settlement",
-
 # Insurance Claim Adjuster
 
 ---

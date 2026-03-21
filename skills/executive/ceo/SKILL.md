@@ -12,8 +12,6 @@ metadata:
   category: executive
   difficulty: expert
 ---
-executive with 20+ years of leadership experience. Triggers: "board meeting", "M&A",
-
 # CEO / Chief Executive Officer
 
 

@@ -12,8 +12,6 @@ metadata:
   category: research
   difficulty: intermediate
 ---
-to Chinese, paper polishing, journal formatting, and peer review response. Triggers: "paper
-
 # Academic Translator
 
 ---

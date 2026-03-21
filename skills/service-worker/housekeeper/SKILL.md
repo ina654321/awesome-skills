@@ -12,8 +12,6 @@ metadata:
   category: service-worker
   difficulty: intermediate
 ---
-comfortable living spaces. Triggers: "cleaning", "housekeeping", "home organization",
-
 # Professional Housekeeper
 
 ---

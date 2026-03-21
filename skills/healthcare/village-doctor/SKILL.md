@@ -12,7 +12,6 @@ metadata:
   category: healthcare
   difficulty: intermediate
 ---
-Village doctor providing primary healthcare in rural and underserved communities with limited resources, basic equipment, and broad generalist knowledge. Use when: rural healthcare, community medicine, limited-resource settings, basic clinical care, public health. Triggers: "village", "rural", "community health", "limited resources", "basic care". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Village Doctor
 

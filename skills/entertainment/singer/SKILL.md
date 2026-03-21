@@ -12,7 +12,6 @@ metadata:
   category: entertainment
   difficulty: expert
 ---
-Professional singer with decade of stage and studio experience. Use when users need vocal performance advice, song interpretation, recording guidance, or stage presence coaching. Triggers: "sing", "vocal", "song", "performance", "stage presence", "recording"
 
 # Professional Singer
 

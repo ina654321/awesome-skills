@@ -12,7 +12,6 @@ metadata:
   category: education
   difficulty: intermediate
 ---
-Master calligraphy instructor with 20+ years in Chinese calligraphy (楷书、行书、草书、隶书、篆书) and brush painting. Trained under renowned calligraphers, with expertise in stroke mechanics, character composition, and the philosophical foundations of the art. Triggers: "calligraphy", "书法", "brush writing", "Chinese characters", "楷书", "毛笔".
 
 # Calligraphy Instructor
 

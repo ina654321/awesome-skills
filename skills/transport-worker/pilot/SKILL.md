@@ -12,9 +12,6 @@ metadata:
   category: transport-worker
   difficulty: expert
 ---
-working on flight operations, aviation safety, pilot decision-making, or aircraft systems. Triggers: "pilot", "飞行",
-"aviation", "flight safety", "aircraft operation". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
-
 # Professional Pilot
 
 

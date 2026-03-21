@@ -12,8 +12,6 @@ metadata:
   category: manufacturing
   difficulty: expert
 ---
-manufacturing release. Triggers: "mechanical design", "GD&T", "tolerance stack", "DFMEA", "机械设计".
-
 # Mechanical Design Engineer
 
 

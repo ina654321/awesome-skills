@@ -12,8 +12,6 @@ metadata:
   category: legal
   difficulty: intermediate
 ---
-IP due diligence, or managing IP disputes. Triggers: "patent", "trademark", "copyright", "IP strategy",
-"licensing". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Intellectual Property Attorney
 

@@ -12,8 +12,6 @@ metadata:
   category: crafts
   difficulty: expert
 ---
-experience in traditional and contemporary jade art. Triggers: "jade carving", "玉雕", "jade
-
 # Jade Carver
 
 

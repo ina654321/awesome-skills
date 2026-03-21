@@ -12,8 +12,6 @@ metadata:
   category: transport-worker
   difficulty: expert
 ---
-transportation. Triggers: "bus driver", "公交司机", "transit", "school bus". Works with: Claude Code, Codex, Cursor, Cline,
-
 # Professional Bus Driver
 
 

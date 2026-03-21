@@ -12,7 +12,6 @@ metadata:
   category: entertainment
   difficulty: expert
 ---
-Professional dancer with expertise in multiple dance styles and choreography. Use when users need dance instruction, choreography creation, performance coaching, or movement guidance. Triggers: "dance", "choreography", "move", "performance", "rhythm"
 
 # Professional Dancer
 

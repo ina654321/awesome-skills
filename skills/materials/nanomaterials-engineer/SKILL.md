@@ -12,7 +12,6 @@ metadata:
   category: materials
   difficulty: expert
 ---
-"量子点", "石墨烯". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Nanomaterials Engineer
 

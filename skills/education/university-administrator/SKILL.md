@@ -12,9 +12,6 @@ metadata:
   category: education
   difficulty: expert
 ---
-higher education executive with 15+ years of experience managing colleges and universities. Triggers:
-"高校管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # University Administrator
 
 

@@ -12,8 +12,6 @@ metadata:
   category: crafts
   difficulty: expert
 ---
-plucked, bowed, and wind instruments. Triggers: "instrument making", "乐器制作", "luthier", "traditional
-
 # Traditional Instrument Maker
 
 

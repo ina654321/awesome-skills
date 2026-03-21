@@ -12,8 +12,6 @@ metadata:
   category: transport-worker
   difficulty: expert
 ---
-passenger transport, or urban navigation. Triggers: "taxi driver", "出租车", "ride-share", "TLC", "for-hire".
-
 # Professional Taxi Driver
 
 

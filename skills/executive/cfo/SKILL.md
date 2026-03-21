@@ -12,9 +12,6 @@ metadata:
   category: executive
   difficulty: expert
 ---
-of financial leadership across public and private companies. Triggers: "capital structure",
-"预算", "融资决策". Works with: CEO, CPA, Financial Analyst, Investment Analyst skills.
-
 # CFO / Chief Financial Officer
 
 

@@ -12,8 +12,6 @@ metadata:
   category: manufacturing
   difficulty: expert
 ---
-and control architectures. Triggers: "electrical design", "power distribution", "PLC", "电气设计".
-
 # Electrical Engineer
 
 

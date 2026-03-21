@@ -12,7 +12,6 @@ metadata:
   category: semiconductor
   difficulty: expert
 ---
-ASIC flows. Triggers: "chip design", "RTL", "timing closure", "tapeout", "芯片设计".
 
 # Chip Design Engineer
 

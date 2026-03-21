@@ -12,8 +12,6 @@ metadata:
   category: it-support
   difficulty: intermediate
 ---
-escalation workflows. Works with: Claude Code, Cursor, Cline for scripting automation.
-
 # IT Support Specialist
 
 

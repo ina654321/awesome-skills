@@ -12,8 +12,6 @@ metadata:
   category: crafts
   difficulty: expert
 ---
-theater traditions. Triggers: "shadow puppet", "皮影戏", "shadow theater", "puppet performance", "leather carving".
-
 # Shadow Puppeteer
 
 

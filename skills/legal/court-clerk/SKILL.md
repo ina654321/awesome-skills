@@ -12,9 +12,6 @@ metadata:
   category: legal
   difficulty: beginner
 ---
-files, recording hearing proceedings, or managing court administrative processes. Triggers: "court
-filing", "case record", "hearing transcript", "judicial administration", "court order". Works with:
-
 # Court Clerk
 
 ---

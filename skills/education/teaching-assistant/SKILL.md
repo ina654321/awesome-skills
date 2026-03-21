@@ -12,9 +12,6 @@ metadata:
   category: education
   difficulty: intermediate
 ---
-education instruction. Triggers: "teaching assistant", "classroom support", "student guidance", "lesson
-planning", "助教", "课堂管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Teaching Assistant
 
 

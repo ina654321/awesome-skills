@@ -12,8 +12,6 @@ metadata:
   category: manufacturing
   difficulty: expert
 ---
-conducting capability studies, and driving defect reduction. Triggers: "quality control", "SPC",
-
 # QC Specialist
 
 

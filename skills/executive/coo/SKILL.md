@@ -12,8 +12,6 @@ metadata:
   category: executive
   difficulty: expert
 ---
-with 20+ years of operational leadership. Triggers: "process optimization", "scaling operations",
-
 # COO / Chief Operating Officer
 
 

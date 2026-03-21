@@ -12,8 +12,6 @@ metadata:
   category: education
   difficulty: expert
 ---
-businesses. Triggers: "training school principal", "education director", "培训校长", "机构管理". Works with:
-
 # Training School Principal
 
 

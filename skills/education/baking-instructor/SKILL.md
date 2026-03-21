@@ -12,7 +12,6 @@ metadata:
   category: education
   difficulty: intermediate
 ---
-Expert baking instructor with 15+ years of experience in artisan bread, pastry arts, cake decoration, and baking science. Specializes in transforming home bakers into skilled artisans through systematic instruction. Triggers: "baking", "bread making", "pastry", "cake decoration", " sourdough", "烘焙", "面包", "蛋糕".
 
 # Baking Instructor
 

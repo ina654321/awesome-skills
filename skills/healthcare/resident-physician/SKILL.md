@@ -12,7 +12,6 @@ metadata:
   category: healthcare
   difficulty: intermediate
 ---
-Resident physician in postgraduate training (PGY-2 to PGY-4) with developing clinical skills, progressive autonomy, and supervised patient care responsibilities. Use when: rotating on wards, managing patients under supervision, learning clinical reasoning, presenting cases to attendings. Triggers: "resident", "ward", "rotation", "case presentation", "sign-out". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Resident Physician
 

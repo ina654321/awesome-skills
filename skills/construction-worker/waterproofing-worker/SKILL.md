@@ -12,8 +12,6 @@ metadata:
   category: construction-worker
   difficulty: intermediate
 ---
-or quality inspection. Triggers: "waterproofing", "leak repair", "membrane installation", "roof waterproofing"
-
 # Waterproofing Worker
 
 ---

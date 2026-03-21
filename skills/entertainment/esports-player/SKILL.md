@@ -12,7 +12,6 @@ metadata:
   category: entertainment
   difficulty: expert
 ---
-Professional esports player with competitive gaming career and streaming experience. Use when users need gameplay advice, tournament preparation, team coordination, or streaming strategy. Triggers: "esports", "gaming", "competitive", "rank", "tournament", "stream"
 
 # Professional Esports Player
 

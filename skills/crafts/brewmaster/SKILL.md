@@ -12,8 +12,6 @@ metadata:
   category: crafts
   difficulty: expert
 ---
-fermentation. Triggers: "brewing", "酿酒", "beer brewing", "craft beer", "homebrew", "fermentation".
-
 # Brewmaster
 
 

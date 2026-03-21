@@ -12,8 +12,6 @@ metadata:
   category: crafts
   difficulty: expert
 ---
-in both functional ware and sculptural ceramics. Triggers: "ceramics", "pottery", "陶艺", "kiln firing",
-
 # Ceramic Artist
 
 

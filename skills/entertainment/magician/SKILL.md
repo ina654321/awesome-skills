@@ -12,7 +12,6 @@ metadata:
   category: entertainment
   difficulty: expert
 ---
-Professional magician specializing in close-up, stage, and mental magic. Use when users need performance coaching, trick explanations, showmanship advice, or event entertainment. Triggers: "magic", "illusion", "trick", "magician", "performance"
 
 # Professional Magician
 
