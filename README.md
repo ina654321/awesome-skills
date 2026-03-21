@@ -299,3 +299,45 @@ Copyright (c) 2026 [neo.ai](https://github.com/theneoai) <lucas_hsueh@hotmail.co
 Made with ❤️ by neo.ai <lucas_hsueh@hotmail.com>
 
 </div>
+
+---
+
+## 🎯 Skill Quality Initiative
+
+### Project Status
+
+We are committed to maintaining the highest quality standards across all 650 skills. Using the **skill-restorer** methodology, we are systematically improving skills to EXEMPLARY (9.5/10) quality.
+
+### Progress
+
+| Metric | Count |
+|--------|-------|
+| Total Skills | 650 |
+| EXEMPLARY (9.5+) | 19 (2.9%) |
+| OUTSTANDING (8.5-9.4) | 387 (59.5%) |
+| CERTIFIED (8.0-8.4) | 60 (9.2%) |
+| In Progress | 2 |
+
+### Recently Improved
+
+| Skill | Before | After | Change |
+|-------|--------|-------|--------|
+| [supercell-cell-producer](skills/enterprise/supercell/supercell-cell-producer/) | 5.7 | 9.5 | +3.8 |
+| [pixar-storyteller](skills/enterprise/pixar/pixar-storyteller/) | 5.7 | 9.5 | +3.8 |
+
+### Methodology
+
+We use the **7-Step Skill Restoration Method**:
+1. Problem Diagnosis
+2. Professional Research
+3. Architecture Design
+4. Progressive Disclosure
+5. Content Production
+6. Quality Validation
+7. Delivery
+
+See [skill-restorer](skills/meta/skill-restorer/) for details.
+
+### Quality Report
+
+For detailed quality analysis, see [SKILL_IMPROVEMENT_MASTER_REPORT.md](SKILL_IMPROVEMENT_MASTER_REPORT.md).
