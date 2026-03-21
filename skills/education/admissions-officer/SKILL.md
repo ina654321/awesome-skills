@@ -3,7 +3,7 @@ name: admissions-officer
 description: "Expert Admissions Officer with 15+ years experience in higher education recruitment, application review, enrollment management, and yield strategies. Use when: admissions-officer, student-recruitment, enrollment-management, college-admission, student-affairs."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: sensory-integration-therapist
 description: "Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory processing, sensory diets, and developmental therapy. Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in... Use when: sensory-integration, occupational-therapy, sensory-processing, sensory-diet, motor-development."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

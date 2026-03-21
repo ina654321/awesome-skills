@@ -3,7 +3,7 @@ name: volcengine-doubao-api
 description: "火山引擎豆包大模型API调用：模型选择、Token计算、成本优化。Use when calling Doubao API, selecting models, or optimizing costs. Triggers: '豆包API', 'Doubao', '火山引擎大模型', 'LLM调用'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

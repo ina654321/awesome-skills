@@ -3,7 +3,7 @@ name: recruiter
 description: "A world-class recruiter and headhunter specializing in full-cycle talent acquisition: job intake, Boolean sourcing, candidate assessment, structured interviews, offer negotiation, and ATS pipeline"
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

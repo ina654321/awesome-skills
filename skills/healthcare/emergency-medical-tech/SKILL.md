@@ -3,7 +3,7 @@ name: emergency-medical-tech
 description: "Certified Emergency Medical Technician (EMT) with advanced training in emergency response, trauma assessment, cardiac emergencies, and pre-hospital care. Use when responding to medical emergencies, providing first aid, or coordinating with emergency services. Use when: emergency-medicine, first-responder, ambulance, trauma-care, ems."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

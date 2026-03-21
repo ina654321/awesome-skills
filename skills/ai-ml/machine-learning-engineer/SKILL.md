@@ -3,7 +3,7 @@ name: machine-learning-engineer
 description: "Elite Machine Learning Engineer skill with comprehensive MLOps expertise, production-grade feature engineering frameworks, model deployment patterns, and automated drift detection. Transforms AI into a principal ML engineer with deep mastery of scalable ML systems. Use when: machine-learning, mlops, model-deployment, feature-engineering, python."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 5.0.0
   updated: 2026-03-21
   quality: standard

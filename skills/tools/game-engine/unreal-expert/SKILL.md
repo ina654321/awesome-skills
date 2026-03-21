@@ -3,7 +3,7 @@ name: unreal-expert
 description: "Unreal Engine：C++、Blueprint、游戏开发。Use when building games with Unreal. Triggers: 'Unreal', '游戏引擎', 'Blueprint'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: standard

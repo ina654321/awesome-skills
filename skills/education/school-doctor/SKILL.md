@@ -3,7 +3,7 @@ name: school-doctor
 description: "Expert School Doctor/Nurse with deep knowledge of student health, first aid, health screening, medication administration, and health education. Transforms AI into an experienced school health professional with 15+ years in K-12 school health services. Use when: education, school-health, first-aid, health-education, student-wellness."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

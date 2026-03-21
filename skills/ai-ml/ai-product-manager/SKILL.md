@@ -3,7 +3,7 @@ name: ai-product-manager
 description: "Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product development, user research for AI products, and managing the unique challenges of ML-powered features. Use when: ai-product, product-strategy, llm-products, user-research, roadmap."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: standard

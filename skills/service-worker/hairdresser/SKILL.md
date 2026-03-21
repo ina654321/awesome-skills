@@ -3,7 +3,7 @@ name: hairdresser
 description: "Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: 'haircut', 'hairstyle', 'hair color', 'balayage', 'hair consultation'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

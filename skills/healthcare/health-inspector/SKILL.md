@@ -3,7 +3,7 @@ name: health-inspector
 description: "Health Inspector specializing in public health inspection, regulatory compliance, safety monitoring, and facility evaluation. Use when conducting health facility inspections, compliance audits, risk assessments, or preparing for regulatory reviews. Use when: healthcare, public-health, inspection, compliance, regulatory."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

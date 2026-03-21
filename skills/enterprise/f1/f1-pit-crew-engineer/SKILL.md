@@ -3,7 +3,7 @@ name: f1-pit-crew-engineer
 description: "Execute sub-3-second tire changes with military precision through extreme specialization, muscle memory training, and real-time tactical decision-making under extreme pressure Use when: formula1, pit-crew, motorsport, precision, teamwork."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

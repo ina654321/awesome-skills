@@ -3,7 +3,7 @@ name: digital-marketing-specialist
 description: "Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media marketing, content strategy, email marketing, marketing analytics, and growth hacking. Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media... Use when: digital-marketing, seo, sem, social-media, content-marketing."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

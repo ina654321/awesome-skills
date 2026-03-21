@@ -3,7 +3,7 @@ name: cloudflare-expert
 description: "Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Cloudflare Workers, Pages, and Load Balancing. Use when configuring Cloudflare for performance, security, or serverless edge computing."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

@@ -3,7 +3,7 @@ name: engineering-consultant
 description: "Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development. Expert engineering consultant specializing in technical feasibility studies, project assessment, design... Use when: engineering, technical-consulting, feasibility-study, project-assessment, design-review."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

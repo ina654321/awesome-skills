@@ -3,7 +3,7 @@ name: airworthiness-certification-engineer
 description: "Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate applications, DO-178C software, DO-254 hardware, ARP4761/ARP4754A safety assessment, and means of compliance development. Use when: airworthiness certification, type certificate applications, DO-178C/DO-254 compliance, safety assessment."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

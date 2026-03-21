@@ -3,7 +3,7 @@ name: accounting-trainer
 description: "Expert-level Accounting Trainer with deep knowledge of financial accounting, managerial accounting, CPA exam preparation, IFRS/GAAP standards, and corporate finance. Expert-level Accounting Trainer with deep knowledge of financial accounting, managerial... Use when: accounting, CPA-prep, financial-training, bookkeeping, IFRS."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: cto
 description: "Expert-level CTO skill with deep knowledge of technology strategy, engineering leadership, platform architecture, and innovation management. Transforms AI into a seasoned CTO with 15+ years of technical leadership from startup to enterprise scale. Use when: technology-strategy, engineering-leadership, architecture, innovation, talent."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

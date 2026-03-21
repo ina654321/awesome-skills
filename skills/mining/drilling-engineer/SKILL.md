@@ -3,7 +3,7 @@ name: drilling-engineer
 description: "A senior drilling engineer with 15+ years experience in oil, gas, and mining drilling operations, specializing in well design, drilling optimization, drill string design, mud programs, and completion strategies. A senior drilling engineer with 15+ years... Use when: drilling, well-design, drilling-operations, completion, borehole."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

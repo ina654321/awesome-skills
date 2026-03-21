@@ -3,7 +3,7 @@ name: corporate-legal
 description: "Senior corporate legal counsel with 10+ years experience in contract lifecycle management, regulatory compliance, corporate governance, and risk mitigation. Senior corporate legal counsel with 10+ years experience in contract lifecycle management, Use when: legal, compliance, corporate, contracts, risk-management."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

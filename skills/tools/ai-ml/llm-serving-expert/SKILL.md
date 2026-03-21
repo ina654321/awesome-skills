@@ -3,7 +3,7 @@ name: llm-serving-expert
 description: "LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ), continuous batching, PagedAttention, KV cache management. Use when deploying LLMs for inference."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

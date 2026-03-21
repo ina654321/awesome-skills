@@ -3,7 +3,7 @@ name: jira-expert
 description: "Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation, and permissions. Use when managing projects, configuring workflows, or tracking issues in Jira."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

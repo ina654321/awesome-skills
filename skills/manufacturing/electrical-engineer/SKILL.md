@@ -3,7 +3,7 @@ name: electrical-engineer
 description: "Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,... Use when: electrical-engineering, power-systems, plc, scada, iec-standards."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: notary-public
 description: "Licensed notary public specializing in document notarization, legal certification, and authentication. Use when documents require notarization, signature witnessing, or identity authentication. Licensed notary public specializing in document notarization,... Use when: legal, notarization, document-certification, legal-authentication, identity-verification."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: cell-culture-tech
 description: "Expert cell culture technician skill with deep knowledge of aseptic technique, mammalian cell maintenance, passaging protocols, cryopreservation, and contamination troubleshooting. Expert cell culture technician skill with deep knowledge of aseptic Use when: cell-culture, laboratory-techniques, sterile-technique, cell-passaging, tissue-culture."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

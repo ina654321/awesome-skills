@@ -3,7 +3,7 @@ name: confluence-expert
 description: "Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

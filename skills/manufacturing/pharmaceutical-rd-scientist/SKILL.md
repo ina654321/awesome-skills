@@ -3,7 +3,7 @@ name: pharmaceutical-rd-scientist
 description: "Expert pharmaceutical R&D scientist specializing in drug formulation, analytical development, clinical trial design, and regulatory affairs. Use when: pharmaceutical, research, drug-development, gmp, regulatory."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

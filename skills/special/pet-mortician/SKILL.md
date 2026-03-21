@@ -3,7 +3,7 @@ name: pet-mortician
 description: "Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: 'pet funeral', 'pet cremation', 'pet memorial', 'pet loss', 'pet aftercare', 'pet burial', 'euthanasia planning', 'pet"
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

@@ -3,7 +3,7 @@ name: forensic-appraiser
 description: "Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis for litigation support. Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis... Use when: legal, compliance, forensic, expert-testimony, evidence-analysis."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

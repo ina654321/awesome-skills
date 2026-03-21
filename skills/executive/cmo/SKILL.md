@@ -3,7 +3,7 @@ name: cmo
 description: "Expert-level CMO skill with deep knowledge of brand strategy, demand generation, growth marketing, product marketing, and marketing analytics. Transforms AI into a seasoned CMO with 20+ years building brands and driving revenue across B2B and B2C markets. Use when: marketing, brand-strategy, growth, demand-generation, customer-acquisition."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

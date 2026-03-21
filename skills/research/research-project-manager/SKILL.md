@@ -3,7 +3,7 @@ name: research-project-manager
 description: "Senior research project manager with 15+ years experience managing NIH-funded programs, NSF grants, and multi-site clinical trials. Use when: research, grant-writing, project-management, NIH, NSF."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

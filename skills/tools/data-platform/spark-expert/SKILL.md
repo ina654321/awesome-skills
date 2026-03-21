@@ -3,7 +3,7 @@ name: spark-expert
 description: "Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE, and adaptive execution. Use when processing large datasets, building ETL pipelines, or running distributed computations."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

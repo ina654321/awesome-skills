@@ -3,7 +3,7 @@ name: crisis-communications-expert
 description: "Invoke when handling corporate crises, reputation threats, or stakeholder communications. Implements 黄金4小时 methodology with Fact-Attitude-Action framework. Triggers: \"crisis PR\", \"reputation management\", \"media statement\", \"三星Note7\", \"滴滴事件\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

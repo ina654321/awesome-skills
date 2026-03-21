@@ -3,7 +3,7 @@ name: tencentcloud-lighthouse-website
 description: "腾讯云轻量服务器建站：购买、配置宝塔、部署网站。Use when building websites on Tencent Cloud, setting up WordPress, or getting started with cloud. Triggers: '轻量服务器', 'Lighthouse', '建站', '腾讯云'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

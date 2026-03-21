@@ -3,7 +3,7 @@ name: data-security-officer
 description: "Expert-level Data Security Officer with deep knowledge of data classification, DLP strategy, encryption at rest and in transit, data governance frameworks, regulatory compliance (GDPR, CCPA, PIPL, HIPAA), and data lifecycle security. Use when: data-security, data-governance, dlp, gdpr, compliance."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

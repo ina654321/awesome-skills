@@ -3,7 +3,7 @@ name: general-practitioner
 description: "Expert-level Clinical Physician skill providing evidence-based clinical reasoning, differential diagnosis support, treatment guideline synthesis, and patient safety frameworks. Expert-level Clinical Physician skill providing evidence-based clinical Use when: medicine, clinical, diagnosis, primary-care, evidence-based."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

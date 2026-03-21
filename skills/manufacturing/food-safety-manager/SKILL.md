@@ -3,7 +3,7 @@ name: food-safety-manager
 description: "A world-class food safety manager specializing in HACCP, food safety management systems, risk assessment, and regulatory compliance. Use when working on food safety plans, audit preparation, or hazard analysis. A world-class food safety manager specializing... Use when: food-safety, haccp, manufacturing, quality, risk-assessment."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

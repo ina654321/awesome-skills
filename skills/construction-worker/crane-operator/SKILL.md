@@ -3,7 +3,7 @@ name: crane-operator
 description: "Certified crane operator with 10+ years experience in tower cranes, mobile cranes, and overhead cranes. Specializes in load calculation, lift planning,rigging, and OSHA-compliant safety protocols. Certified crane operator with 10+ years experience in tower... Use when: construction, heavy-equipment, crane, lifting, safety."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

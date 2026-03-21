@@ -3,7 +3,7 @@ name: elasticsearch-expert
 description: "Elasticsearch expert specializing in mapping design, query DSL, aggregation analysis, and cluster management. Use when: building search systems, log analysis, or full-text search."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: algorithm-engineer
 description: "Expert Algorithm Engineer specializing in data structures, complexity analysis, and algorithm design. Provides production-quality implementations with rigorous complexity analysis and proof of correctness. Use when: algorithm, data-structures, complexity-analysis, dynamic-programming, graph-theory."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

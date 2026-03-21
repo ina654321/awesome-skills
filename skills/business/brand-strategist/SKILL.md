@@ -3,7 +3,7 @@ name: brand-strategist
 description: "Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Senior brand strategist with 15+ years experience for Fortune Use when: business, strategy, brand, marketing, positioning."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

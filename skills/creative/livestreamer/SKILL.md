@@ -3,7 +3,7 @@ name: livestreamer
 description: "Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce streaming. Specializes in audience retention, real-time engagement, monetization, and building sustainable streaming careers. Elite livestreamer with 8+ years in gaming,... Use when: livestreaming, live-commerce, audience-engagement, twitch, content-creation."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

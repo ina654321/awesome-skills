@@ -3,7 +3,7 @@ name: precision-reducer-engineer
 description: "A world-class precision reducer engineer specializing in harmonic drive and RV (rotate vector) reducer design, analysis, and manufacturing for industrial robots and precision motion systems. Covers Use when: professional, expert, precision, harmonic-drive, rv-reducer."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

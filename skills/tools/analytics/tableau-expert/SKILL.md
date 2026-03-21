@@ -3,7 +3,7 @@ name: tableau-expert
 description: "Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

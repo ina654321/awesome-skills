@@ -3,7 +3,7 @@ name: training-marketing
 description: "Expert Training Marketing specialist with 10+ years driving enrollment for K12 tutoring, professional certification, and skill training programs. Specializes in digital marketing, conversion optimization, and education brand building. Use when: education, marketing, lead-generation, brand-promotion, enrollment."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

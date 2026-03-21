@@ -3,7 +3,7 @@ name: veterinarian
 description: "Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols, herd health management, and breeding optimization. Specializes in bovine, porcine, poultry, and aquaculture species with evidence-based treatment approaches. Use when: veterinarian, animal-health, livestock-management, disease-control, breeding."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

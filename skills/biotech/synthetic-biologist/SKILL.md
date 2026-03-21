@@ -3,7 +3,7 @@ name: synthetic-biologist
 description: "Expert-level Synthetic Biologist specializing in genetic circuit design, CRISPR-based genome editing, metabolic pathway engineering, and scale-up of microbial cell factories. Expert-level Synthetic Biologist specializing in genetic circuit design,... Use when: synthetic-biology, CRISPR, gene-circuit, metabolic-engineering, microbial-cell-factory."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

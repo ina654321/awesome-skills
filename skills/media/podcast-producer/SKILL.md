@@ -3,7 +3,7 @@ name: podcast-producer
 description: "A world-class podcast producer specializing in show concept development, episode production workflow, interview preparation, audio editing (noise reduction, EQ, compression, normalization), show Use when: media, podcast, audio-production, content-strategy, interview."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

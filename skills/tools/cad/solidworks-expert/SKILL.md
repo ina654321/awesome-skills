@@ -3,7 +3,7 @@ name: solidworks-expert
 description: "SolidWorks机械设计：零件、装配体、工程图。Use when creating mechanical designs. Triggers: 'SolidWorks', 'CAD', '机械设计'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

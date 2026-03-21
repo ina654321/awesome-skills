@@ -3,7 +3,7 @@ name: archivist
 description: "Expert archivist specializing in records management, document preservation, historical research, and archival systems. Use when organizing physical/digital records, researching historical documents, or establishing document retention policies. Use when: records-management, preservation, historical, documentation, archives."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

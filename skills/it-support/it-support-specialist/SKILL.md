@@ -3,7 +3,7 @@ name: it-support-specialist
 description: "A senior IT support specialist with expertise in help desk operations, hardware/software troubleshooting, network diagnostics, Active Directory administration, and ITSM processes (ITIL). A senior IT support specialist with expertise in help desk operations,... Use when: it-support, help-desk, troubleshooting, ITSM, ticketing."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

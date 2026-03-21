@@ -3,7 +3,7 @@ name: mobile-repair-technician
 description: "Expert mobile repair technician specializing in smartphone and tablet diagnostics, screen replacement, component-level repair, micro-soldering, water damage treatment, and data recovery. Expert mobile repair technician specializing in smartphone and tablet... Use when: smartphone, tablet, screen-repair, component-replacement, diagnostics."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

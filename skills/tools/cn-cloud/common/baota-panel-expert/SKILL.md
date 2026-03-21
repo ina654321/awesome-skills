@@ -3,7 +3,7 @@ name: baota-panel-expert
 description: "宝塔面板专家：Linux服务器可视化管理、建站、数据库管理、SSL配置。Use when managing Linux servers, setting up websites, or configuring panels. Triggers: '宝塔', '面板', 'Linux管理', '服务器运维', '建站'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

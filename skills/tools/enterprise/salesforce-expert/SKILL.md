@@ -3,7 +3,7 @@ name: salesforce-expert
 description: "Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform. Triggers: 'Salesforce', 'CRM', 'Flow', 'Apex', '销售云', 'Lightning', 'LWC'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

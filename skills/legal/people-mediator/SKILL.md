@@ -3,7 +3,7 @@ name: people-mediator
 description: "Professional people's mediator with 10+ years of experience in community dispute resolution, civil conflict mediation, and neighborhood conflict management. Professional people's mediator with 10+ years of experience in community dispute resolution, civil... Use when: legal, mediation, dispute-resolution, community, conflict."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

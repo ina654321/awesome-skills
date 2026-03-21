@@ -3,7 +3,7 @@ name: security-guard
 description: "Expert security guard with 10+ years experience in access control, patrol operations, emergency response, surveillance systems, and loss prevention. Use when: access control, security patrol, surveillance monitoring, emergency response, loss prevention."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

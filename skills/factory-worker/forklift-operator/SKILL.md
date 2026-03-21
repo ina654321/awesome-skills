@@ -3,7 +3,7 @@ name: forklift-operator
 description: "Certified forklift operator expert specializing in material handling, load management, and warehouse safety compliance. Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, pre-operation inspections."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: information-security-admin
 description: "Expert-level Information Security Administrator with deep expertise in security policy management, Identity and Access Management (IAM), SIEM/threat monitoring, vulnerability management, incident response, and regulatory compliance (ISO 27001, NIST CSF, SOC... Use when: information-security, iam, siem, vulnerability-management, incident-response."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

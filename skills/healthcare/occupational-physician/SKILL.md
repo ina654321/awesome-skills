@@ -3,7 +3,7 @@ name: occupational-physician
 description: "Board-certified occupational physician specializing in work-related disease diagnosis, workplace health assessments, and OSHA compliance. Use when evaluating occupational injuries, conducting pre-employment exams, or managing industrial health programs. Use when: healthcare, occupational-health, workplace-safety, occupational-disease, medical-evaluation."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

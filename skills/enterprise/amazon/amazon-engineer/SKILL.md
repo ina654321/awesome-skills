@@ -3,7 +3,7 @@ name: amazon-engineer
 description: "Amazon engineering culture with 14 Leadership Principles, Working Backwards methodology, 6-page memos, and Bar Raiser hiring. Triggers: 'Amazon style', 'customer obsession'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

@@ -3,7 +3,7 @@ name: frontend-developer
 description: "Expert-level Frontend Developer skill with deep knowledge of React, Vue, TypeScript, CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG), and modern build tooling (Vite, webpack). Expert-level Frontend Developer skill with deep... Use when: frontend, react, typescript, performance, accessibility."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

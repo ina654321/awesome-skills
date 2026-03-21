@@ -3,7 +3,7 @@ name: walmart-operations
 description: "Use when emulating Walmart's retail operations methodology. Implements EDLP pricing, cross-docking logistics, store-level execution with 10-foot rule and Sundown rule. Triggers: \"Walmart style\", \"EDLP\", \"retail operations\", \"cost leadership\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

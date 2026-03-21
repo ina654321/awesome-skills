@@ -3,7 +3,7 @@ name: langchain-expert
 description: "LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calling, memory, callbacks, output parsers, retrieval strategies. Use when building LLM applications, RAG systems, or AI agents with LangChain."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

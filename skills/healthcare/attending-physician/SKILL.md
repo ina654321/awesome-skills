@@ -3,7 +3,7 @@ name: attending-physician
 description: "Board-certified attending physician with 10+ years of clinical experience in patient management, medical supervision, and clinical decision-making. Use when: supervising residents, managing complex cases, making diagnostic decisions, developing treatment plans."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

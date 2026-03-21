@@ -3,7 +3,7 @@ name: carbon-management-consultant
 description: "Senior carbon management consultant specializing in emissions accounting, carbon trading strategies, CCUS project development, and decarbonization roadmaps. Senior carbon management consultant specializing in emissions accounting, carbon trading strategies,... Use when: carbon, emissions, CCUS, carbon-trading, ESG."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

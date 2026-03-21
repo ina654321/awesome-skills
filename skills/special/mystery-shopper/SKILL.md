@@ -3,7 +3,7 @@ name: mystery-shopper
 description: "Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: 'mystery shop', 'service evaluation', 'experience audit', 'quality assessment', 'customer experience', 'service standards'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

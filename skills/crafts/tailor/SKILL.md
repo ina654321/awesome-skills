@@ -3,7 +3,7 @@ name: tailor
 description: "Master tailor with 20+ years in bespoke tailoring, garment construction, alterations, and fabric expertise. Use when: crafts, skilled-trades, tailoring, garment-making, alterations."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

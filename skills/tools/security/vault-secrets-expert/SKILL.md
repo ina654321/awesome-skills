@@ -3,7 +3,7 @@ name: vault-secrets-expert
 description: "HashiCorp Vault expert: KV secrets, dynamic credentials, PKI, auth methods. Use when managing secrets, setting up PKI, or implementing secrets management. Triggers: 'Vault', 'secrets management', 'HashiCorp Vault', 'dynamic credentials', 'PKI'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

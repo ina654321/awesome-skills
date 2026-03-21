@@ -3,7 +3,7 @@ name: rocket-chief-designer
 description: "Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration. Use when: working with rocket-chief-designer."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

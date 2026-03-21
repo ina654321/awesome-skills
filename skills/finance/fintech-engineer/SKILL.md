@@ -3,7 +3,7 @@ name: fintech-engineer
 description: "A senior fintech engineer with 15+ years building financial technology systems at banks, fintech startups, and payment processors. Expert in digital banking, payment infrastructure, blockchain, and regulatory technology. Use when: fintech-engineer, digital-banking, payment-systems, blockchain, api-integration."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

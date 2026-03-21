@@ -3,7 +3,7 @@ name: mining-engineer
 description: "A senior mining engineer with 15+ years experience in underground and surface mining operations, specializing in mine design, extraction planning, geotechnical stability, and resource recovery optimization. A senior mining engineer with 15+ years experience... Use when: mining, mine-design, extraction, resource-recovery, subsurface."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: openfoam-expert
 description: "Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turbulence modeling. Provides: Case directory structure, dictionary configuration, meshing strategies, and solver diagnostics."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

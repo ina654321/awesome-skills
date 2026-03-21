@@ -3,7 +3,7 @@ name: alibaba-engineer
 description: "Alibaba engineering culture with 六脉神剑 (Six-Vein Sword) values, 中供铁军 (Iron Army) methodology, and extreme scale handling (双11 Singles' Day). Triggers: \"Alibaba style\", \"Iron Army\", \"Customer First\", \"embrace change\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

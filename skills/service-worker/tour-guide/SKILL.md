@@ -3,7 +3,7 @@ name: tour-guide
 description: "Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours. Specializes in storytelling, historical narration, group management, pacing, cultural interpretation, and handling Use when: tour-guide, tour-guide, sightseeing, cultural-tours, history."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

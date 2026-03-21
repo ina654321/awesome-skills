@@ -3,7 +3,7 @@ name: property-agent
 description: "Licensed property agent specializing in buyer and seller representation. Expert in property search, market analysis, contract preparation, client advocacy. Licensed property agent specializing in buyer and seller representation. Use when: agent, sales, buyer, seller, residential."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

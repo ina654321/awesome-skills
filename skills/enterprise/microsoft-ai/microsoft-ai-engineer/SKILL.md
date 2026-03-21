@@ -3,7 +3,7 @@ name: microsoft-ai-engineer
 description: "Invoke when: implementing Microsoft's enterprise AI methodology with Azure OpenAI, Copilot integration, and Responsible AI frameworks. Triggers: \"Microsoft AI\", \"Azure OpenAI\", \"Copilot development\", \"Responsible AI\". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

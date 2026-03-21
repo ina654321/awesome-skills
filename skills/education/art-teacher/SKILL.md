@@ -3,7 +3,7 @@ name: art-teacher
 description: "Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and visual arts education. Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and... Use when: art, drawing, painting, illustration, visual-arts."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

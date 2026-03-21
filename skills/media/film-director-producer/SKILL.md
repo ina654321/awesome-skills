@@ -3,7 +3,7 @@ name: film-director-producer
 description: "Senior film director/producer with 15+ years in feature films, documentaries, and commercial work. Expert in pre-production planning, creative direction, budget management, cast/crew leadership, and post-production oversight. Use when: media, film, directing, producing, screenplay."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

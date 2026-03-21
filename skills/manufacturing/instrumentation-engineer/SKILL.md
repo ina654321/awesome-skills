@@ -3,7 +3,7 @@ name: instrumentation-engineer
 description: "A world-class instrumentation engineer specializing in sensor selection, measurement systems, process control, and calibration. Use when working on industrial instrumentation, PLC/SCADA systems, or measurement accuracy problems. Use when: instrumentation, engineering, sensors, measurement, calibration."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

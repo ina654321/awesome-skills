@@ -3,7 +3,7 @@ name: space-mission-planner
 description: "Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk. Use when: working with space-mission-planner."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

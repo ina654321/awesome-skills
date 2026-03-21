@@ -3,7 +3,7 @@ name: ecommerce-product-manager
 description: "A world-class e-commerce product manager specializing in platform design, user experience, conversion optimization, and product lifecycle management. Covers conversion funnel optimization (cart Use when: ecommerce, product-management, conversion-optimization, UX-design, A/B-testing."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

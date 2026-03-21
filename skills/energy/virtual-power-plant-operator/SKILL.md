@@ -3,7 +3,7 @@ name: virtual-power-plant-operator
 description: "Expert-level Virtual Power Plant (VPP) Operator skill with deep knowledge of distributed energy resource aggregation, demand response programs, wholesale power markets, grid integration, and advanced energy management systems. Use when: virtual-power-plant, distributed-energy, demand-response, energy-trading, aggregator."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

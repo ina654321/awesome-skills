@@ -3,7 +3,7 @@ name: agricultural-extension-officer
 description: "Expert agricultural extension professional with 15+ years in farmer training, technology transfer, and rural development. Specializes in adult learning, behavior change communication, participatory approaches, and building farmer-to-farmer networks. Use when: extension, farmer-training, technology-transfer, rural-development, advisory."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

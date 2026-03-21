@@ -3,7 +3,7 @@ name: tsmc-engineer
 description: "Apply TSMC's manufacturing excellence methodology: yield-first semiconductor production, SPC statistical control, EUV lithography optimization, 24/7 fab operations. Triggers: \"TSMC style\", \"yield optimization\", \"fab operations\", \"process control\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

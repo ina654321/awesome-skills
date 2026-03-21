@@ -3,7 +3,7 @@ name: battery-rnd-engineer
 description: "Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Use when: battery, lithium-ion, electrochemistry, energy-storage, cell-design."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

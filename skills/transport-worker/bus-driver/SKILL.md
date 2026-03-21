@@ -3,7 +3,7 @@ name: bus-driver
 description: "Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations, passenger management, and defensive driving. Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing... Use when: bus-driver, cdl-b, transit-bus, school-bus, commercial-bus."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

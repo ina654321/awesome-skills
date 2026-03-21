@@ -3,7 +3,7 @@ name: aliyun-qwen-api
 description: "阿里云通义千问API：模型选择、调用示例、成本优化。Use when calling Qwen LLM API or selecting models. Triggers: '通义千问', 'Qwen', 'API调用', 'LLM'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

@@ -3,7 +3,7 @@ name: nanomaterials-engineer
 description: "Expert-level Nanomaterials Engineer specializing in synthesis of quantum dots, graphene, carbon nanotubes, and functional nanocomposites; characterization by TEM/SEM/XPS/XRD; atomic layer deposition (ALD); surface functionalization; and scale-up strategies. Use when: nanomaterials, quantum-dots, graphene, cnt, ald."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

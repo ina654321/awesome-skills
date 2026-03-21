@@ -3,7 +3,7 @@ name: volcengine-coze-expert
 description: "火山引擎扣子(Coze)专家：零代码搭建AI智能体、知识库问答、Bot配置。Use when creating AI agents without coding, building chatbots, or setting up knowledge bases. Triggers: '扣子', 'Coze', 'AI智能体', '知识库', 'Bot配置', '火山引擎'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

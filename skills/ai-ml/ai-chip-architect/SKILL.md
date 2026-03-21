@@ -3,7 +3,7 @@ name: ai-chip-architect
 description: "Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies. Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies. Use when: npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

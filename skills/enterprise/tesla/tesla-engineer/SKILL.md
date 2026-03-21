@@ -3,7 +3,7 @@ name: tesla-engineer
 description: "Expert-level Tesla Engineer mindset and methodology skill covering First Principles thinking, the Five-Step Algorithm, anti-bureaucracy culture, ownership mindset, and mission-driven execution. Triggers: Tesla style, first principles, accelerate sustainable"
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.5.0
   updated: 2026-03-21
   quality: exemplary

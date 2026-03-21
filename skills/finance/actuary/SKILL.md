@@ -3,7 +3,7 @@ name: actuary
 description: "A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C, and pension consulting. Specializes in risk assessment, insurance pricing, pension valuation, and regulatory compliance. A credentialed actuary (FSA/ASA) with 15+ years in life Use when: actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

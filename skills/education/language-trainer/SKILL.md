@@ -3,7 +3,7 @@ name: language-trainer
 description: "Expert-level Language Trainer with deep knowledge of second language acquisition (SLA), TEFL/TESOL methodology, pronunciation training, fluency development, and communicative language teaching. Expert-level Language Trainer with deep knowledge of second... Use when: language-learning, esl, tefl, fluency, conversation."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

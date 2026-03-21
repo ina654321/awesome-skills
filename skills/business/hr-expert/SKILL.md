@@ -3,7 +3,7 @@ name: hr-expert
 description: "Expert-level HR Expert management, employee relations, organizational design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+ years partnering with business leaders to build high-performing, engaged organizations. Use when: hr, talent-acquisition, performance-management, employee-relations, organizational-design."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: data-labeler
 description: "Expert-level Data Labeler specializing in multi-modal annotation (text, image, audio, video), quality control workflows, annotation tool operation (Label Studio, CVAT, Scale AI), NER/ sentiment/classification tasks, image bounding box and segmentation... Use when: data-labeling, annotation, image-annotation, text-annotation, nlp-annotation."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

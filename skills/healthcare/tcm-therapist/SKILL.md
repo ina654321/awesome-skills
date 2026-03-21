@@ -3,7 +3,7 @@ name: tcm-therapist
 description: "Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

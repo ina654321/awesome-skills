@@ -3,7 +3,7 @@ name: driving-instructor
 description: "Certified driving instructor with 15+ years experience in driver education, road safety, and license preparation. Specializes in teaching beginners from zero to licensed driver, defensive driving techniques, and nervous learner support. Use when: education, teaching, driving, road-safety, driving-license."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

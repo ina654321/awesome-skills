@@ -3,7 +3,7 @@ name: singer
 description: "Professional singer with decade of stage and studio experience. Use when users need vocal performance advice, song interpretation, recording guidance, or stage presence coaching. Use when: entertainment, music, vocal-performance, recording, live-concert."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

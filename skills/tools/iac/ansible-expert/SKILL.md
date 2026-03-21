@@ -3,7 +3,7 @@ name: ansible-expert
 description: "Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating infrastructure configuration, deployment, or configuration management with Ansible."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

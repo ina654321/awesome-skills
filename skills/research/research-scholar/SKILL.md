@@ -3,7 +3,7 @@ name: research-scholar
 description: "Expert research scholar specializing in academic research methodology, peer-reviewed paper publication, grant proposal writing, and research career development. Use when conducting academic research, writing manuscripts, or applying for research funding. Use when: research-scholar, academic-research, paper-publication, grant-application, methodology."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

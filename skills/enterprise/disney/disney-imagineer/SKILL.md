@@ -3,7 +3,7 @@ name: disney-imagineer
 description: "Use when emulating Disney Imagineering methodology. Implements Imagineering (imagination + engineering) with Blue Sky thinking and plussing. Triggers: \"Disney style\", \"imagineering\", \"themed experience\", \"guest experience\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

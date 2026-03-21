@@ -3,7 +3,7 @@ name: spreadsheet-expert
 description: "Spreadsheet expert: advanced formulas (XLOOKUP, FILTER, ARRAYFORMULA), pivot tables, Power Query, Apps Script automation. Use when analyzing data, building financial models, or automating spreadsheets."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

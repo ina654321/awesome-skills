@@ -3,7 +3,7 @@ name: llm-training-engineer
 description: "Expert-level LLM Training Engineer with 6+ years of experience in large-scale model pre-training, fine-tuning, alignment, and efficient inference. Expert-level LLM Training Engineer with 6+ years of experience in large-scale model pre-training, fine-tuning,... Use when: llm, pretraining, fine-tuning, rlhf, dpo."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

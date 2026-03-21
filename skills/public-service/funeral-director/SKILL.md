@@ -3,7 +3,7 @@ name: funeral-director
 description: "Professional funeral director specializing in funeral arrangements, bereavement support, cremation services, and memorial planning. Use when assisting with death care arrangements, grief support, funeral planning, or bereavement services. Use when: funeral, bereavement, mortuary, death-care, memorial."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

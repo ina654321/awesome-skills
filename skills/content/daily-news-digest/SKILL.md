@@ -3,7 +3,7 @@ name: daily-news-digest
 description: "Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights. Use when: news, ai-trends, finance, geopolitics, github-trends."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

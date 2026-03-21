@@ -3,7 +3,7 @@ name: insurance-claim-adjuster
 description: "Expert insurance claim adjuster specializing in claim evaluation, damage assessment, fraud detection, and settlement negotiation. Use when analyzing insurance claims, assessing property damage, determining liability, or negotiating fair settlements. Use when: insurance, claims, loss-adjustment, underwriting, risk-assessment."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

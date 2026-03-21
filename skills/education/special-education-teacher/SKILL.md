@@ -3,7 +3,7 @@ name: special-education-teacher
 description: "Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education practices. Expert Special Education Teacher with 15+ years of experience in IEP development, Use when: special-education, iep-development, inclusive-education, behavioral-intervention, disability-support."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

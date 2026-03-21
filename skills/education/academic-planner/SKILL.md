@@ -3,7 +3,7 @@ name: academic-planner
 description: "Expert Academic Planner with 12+ years experience in K-12 and higher education planning, career counseling, and college admission guidance. Use when: academic-planner, education-planning, career-counseling, college-admission, student-success."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

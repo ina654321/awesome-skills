@@ -3,7 +3,7 @@ name: elk-stack-expert
 description: "ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Triggers: 'ELK', '日志分析', 'Elasticsearch', 'Kibana', 'Logstash', 'Elastic Stack'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

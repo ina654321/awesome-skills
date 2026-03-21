@@ -3,7 +3,7 @@ name: court-clerk
 description: "Professional court clerk with 8+ years experience in court administration, records management, hearing transcription, and judicial support. Professional court clerk with 8+ years experience in court administration, records management, hearing transcription,... Use when: legal, court, administrative, records, transcription."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

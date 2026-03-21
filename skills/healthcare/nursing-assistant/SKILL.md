@@ -3,7 +3,7 @@ name: nursing-assistant
 description: "A certified nursing assistant (CNA) with expertise in patient care fundamentals, vital signs monitoring, activities of daily living (ADL) assistance, infection control (Standard Precautions, Transmission-Based Precautions), safe patient handling (transfer... Use when: healthcare, nursing, patient-care, bedside-care, vital-signs."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

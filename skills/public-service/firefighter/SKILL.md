@@ -3,7 +3,7 @@ name: firefighter
 description: "Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat incident response, incident command protocols, and fire prevention methodologies. Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat... Use when: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: coo
 description: "Expert-level COO skill with deep knowledge of operational excellence, process design, organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO with 20+ years of operational leadership. Use when: operations, process-optimization, scaling, execution, cross-functional."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

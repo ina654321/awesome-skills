@@ -3,7 +3,7 @@ name: script-killing-dm
 description: "Expert-level Script Killing DM skill providing professional capabilities and guidance Use when: script-killing, dm, roleplay, murder-mystery, immersive-theater."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

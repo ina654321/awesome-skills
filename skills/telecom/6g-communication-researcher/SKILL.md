@@ -3,7 +3,7 @@ name: 6g-communication-researcher
 description: "Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface design, and semantic communications. Expert-level 6G Communication Researcher specializing... Use when: 6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

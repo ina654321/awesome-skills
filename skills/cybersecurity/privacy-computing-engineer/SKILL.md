@@ -3,7 +3,7 @@ name: privacy-computing-engineer
 description: "Expert-level privacy-preserving computation specialist covering homomorphic encryption, Use when: privacy-computing, homomorphic-encryption, federated-learning, differential-privacy, trusted-execution-environment."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

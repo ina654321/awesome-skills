@@ -3,7 +3,7 @@ name: university-administrator
 description: "Expert University Administrator with deep knowledge of higher education policy, accreditation, enrollment management, financial aid, academic affairs, and institutional compliance. Expert University Administrator with deep knowledge of higher education... Use when: education, university, administration, policy, compliance."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

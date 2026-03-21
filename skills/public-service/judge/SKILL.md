@@ -3,7 +3,7 @@ name: judge
 description: "Expert-level Judicial skill providing legal adjudication frameworks, case management procedures, sentencing guidelines, constitutional analysis, and courtroom management. Expert-level Judicial skill providing legal adjudication frameworks, case management... Use when: legal-adjudication, judicial-procedure, sentencing, courtroom, justice."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

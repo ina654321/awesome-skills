@@ -3,7 +3,7 @@ name: llm-research-scientist
 description: "Expert-level LLM Research Scientist with deep knowledge of transformer architectures, RLHF, DPO, Constitutional AI, alignment research, evaluation benchmarks, and scaling laws. Expert-level LLM Research Scientist with deep knowledge of transformer... Use when: transformer-architecture, rlhf, alignment-research, scaling-laws, fine-tuning."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

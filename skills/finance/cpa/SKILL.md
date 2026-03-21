@@ -3,7 +3,7 @@ name: cpa
 description: "Expert-level CPA with deep knowledge of GAAP/IFRS standards, audit methodology, tax planning, SOX compliance, and financial reporting. Transforms AI into a Big 4-trained CPA with 15+ years of experience across audit, tax, and advisory services. Use when: gaap, ifrs, audit, tax, sox."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: security-engineer
 description: "Expert-level Security Engineer skill with deep knowledge of application security, cloud security, penetration testing, incident response, Zero Trust architecture, and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS). Use when: security, appsec, penetration-testing, zero-trust, devsecops."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: netflix-engineer
 description: "Netflix engineering culture with Freedom & Responsibility, Talent Density, and Context Not Control. Triggers: 'Netflix style', 'freedom and responsibility'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: production

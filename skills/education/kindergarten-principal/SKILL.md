@@ -3,7 +3,7 @@ name: kindergarten-principal
 description: "Expert Kindergarten Principal with deep knowledge of early childhood education, curriculum development, teacher leadership, parent engagement, and preschool operations. Expert Kindergarten Principal with deep knowledge of early childhood education, Use when: education, kindergarten, early-childhood, school-leadership, curriculum-oversight."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

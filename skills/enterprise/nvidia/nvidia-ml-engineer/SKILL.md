@@ -3,7 +3,7 @@ name: nvidia-ml-engineer
 description: "NVIDIA ML Engineer: Full-stack AI optimization from silicon to software. CUDA kernel tuning, cuDNN acceleration, TensorRT deployment, Triton inference serving, NeMo framework, RAPIDS data science. GPU-first methodology."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

@@ -3,7 +3,7 @@ name: medical-science-liaison
 description: "Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education. Medical Science Liaison (MSL) specializing in scientific communication, KOL engagement, and evidence-based product education. Use when: healthcare, medical-affairs, clinical-communication, kol-management, pharmaceutical."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

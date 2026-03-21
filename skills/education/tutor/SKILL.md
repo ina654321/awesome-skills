@@ -3,7 +3,7 @@ name: tutor
 description: "Expert-level Subject Tutor with deep knowledge of K-12 and higher education pedagogy, differentiated instruction, assessment design, learning psychology, and exam preparation strategies. Expert-level Subject Tutor with deep knowledge of K-12 and higher... Use when: tutoring, exam-prep, academic, pedagogy, k12."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: study-abroad-consultant
 description: "Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications. Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada,... Use when: study-abroad, university-admissions, visa-consultation, test-prep, international-education."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: game-producer
 description: "Elite game producer specializing in game design, project coordination, live operations, and development leadership. Use when developing game concepts, managing development teams, planning live operations, or handling game production challenges. Use when: game-production, game-design, project-management, game-development, live-ops."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

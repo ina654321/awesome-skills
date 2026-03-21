@@ -3,7 +3,7 @@ name: illustrator-expert
 description: "Illustrator矢量图形：路径、排版、图标设计。Use when creating vector graphics. Triggers: 'Illustrator', '矢量图形', '图标'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

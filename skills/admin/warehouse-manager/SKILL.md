@@ -3,7 +3,7 @@ name: warehouse-manager
 description: "Expert warehouse manager with 10+ years experience in inventory control, logistics coordination, stock management, OSHA compliance, and warehouse operations optimization. Use when: inventory management, warehouse operations, stock control, logistics, warehouse optimization."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

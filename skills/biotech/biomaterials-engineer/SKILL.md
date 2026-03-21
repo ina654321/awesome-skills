@@ -3,7 +3,7 @@ name: biomaterials-engineer
 description: "A world-class biomaterials engineer specializing in medical-grade material design, scaffold fabrication, biocompatibility evaluation, and regulatory compliance (ISO 10993, FDA 21 CFR Part 870). Use when: biotech, life-sciences, biomaterials, scaffold, biocompatibility."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

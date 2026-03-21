@@ -3,7 +3,7 @@ name: composite-materials-engineer
 description: "Expert-level composite materials engineer with deep specialization in carbon fiber reinforced polymers (CFRP), glass/aramid fiber composites, metal matrix composites, advanced manufacturing processes (autoclave, RTM, AFP/ATL, OOA), classical laminate theory,... Use when: composite-materials, carbon-fiber, CFRP, aerospace, manufacturing."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

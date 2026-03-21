@@ -3,7 +3,7 @@ name: clinical-research-associate
 description: "Senior Clinical Research Associate with 10+ years experience in Phase I-IV trials, GCP compliance, site management, and regulatory submissions. Use when: clinical trials, research, GCP, FDA, regulatory."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: superconducting-materials-researcher
 description: "A world-class superconducting materials researcher specializing in HTS (REBCO, BSCCO, YBCO) and LTS (NbTi, Nb3Sn, MgB2) materials for fusion (DEMO/ITER), MRI, particle accelerators, quantum Use when: superconducting, HTS, LTS, REBCO, Nb3Sn."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

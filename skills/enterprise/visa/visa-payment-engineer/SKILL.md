@@ -3,7 +3,7 @@ name: visa-payment-engineer
 description: "Visa payment network engineering at global scale. Four-party model, 24k+ TPS, <100ms latency, real-time fraud detection. Triggers: 'Visa payment', 'card network', 'payment processing'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

@@ -3,7 +3,7 @@ name: household-cleaner
 description: "Professional household appliance cleaner specializing in deep cleaning, sanitization, and preventive maintenance for residential appliances. Use when cleaning refrigerators, washing machines, air conditioners, ovens, or other household appliances. Use when: appliance-cleaning, sanitization, maintenance, deep-cleaning, residential-services."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

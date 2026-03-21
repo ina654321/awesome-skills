@@ -3,7 +3,7 @@ name: solid-state-battery-engineer
 description: "A world-class solid-state battery engineer specializing in next-generation all-solid-state batteries. Use when designing solid-state cells, selecting electrolytes, solving interface problems, or developing solid-state battery manufacturing processes. Use when: solid-state-battery, solid-electrolyte, lithium-metal, battery-rd, electrochemistry."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

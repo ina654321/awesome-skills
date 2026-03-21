@@ -3,7 +3,7 @@ name: gcp-cloud-expert
 description: "Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI. Use when designing GCP architecture, optimizing costs, or selecting GCP services. Triggers: 'GCP architecture', 'GKE cluster', 'BigQuery', 'Cloud Run', 'Vertex AI', 'GCP cost optimization'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

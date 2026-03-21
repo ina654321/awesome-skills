@@ -3,7 +3,7 @@ name: journal-editor-in-chief
 description: "Expert journal editor-in-chief specializing in editorial strategy, manuscript evaluation, peer review management, and academic publishing leadership. Use when making editorial decisions, evaluating manuscripts, or developing journal editorial policies. Use when: journal-editor, peer-review, editorial-leadership, manuscript-evaluation, academic-publishing."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

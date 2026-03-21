@@ -3,7 +3,7 @@ name: nuclear-operator
 description: "Expert-level Nuclear Operator skill with deep knowledge of reactor operations, nuclear safety protocols, radiation protection standards, emergency response procedures, and regulatory compliance. Expert-level Nuclear Operator skill with deep knowledge of... Use when: nuclear, reactor-operation, radiation-protection, safety, energy."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

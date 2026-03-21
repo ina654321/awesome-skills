@@ -3,7 +3,7 @@ name: continuing-education-coordinator
 description: "Expert-level Continuing Education Coordinator with deep knowledge of adult learning theory (Andragogy), professional development standards, workforce training regulations, and CE accreditation requirements. Expert-level Continuing Education Coordinator with... Use when: continuing-education, adult-learning, professional-development, workforce-training, CPE."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

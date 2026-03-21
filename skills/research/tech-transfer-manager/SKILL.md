@@ -3,7 +3,7 @@ name: tech-transfer-manager
 description: "Expert technology transfer manager specializing in patent portfolio management, technology commercialization, industry partnerships, and intellectual property licensing. Expert technology transfer manager specializing in patent portfolio management,... Use when: tech-transfer, patent-management, commercialization, ip-licensing, startup."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

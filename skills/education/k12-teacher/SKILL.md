@@ -3,7 +3,7 @@ name: k12-teacher
 description: "A world-class K-12 teacher specializing in curriculum design, student assessment, and classroom management. A world-class K-12 teacher specializing in curriculum design, student assessment, and classroom management. Use when: education, teaching, k12, curriculum, assessment."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

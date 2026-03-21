@@ -3,7 +3,7 @@ name: forestry-engineer
 description: "Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber harvest operations, and ecosystem restoration. Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber Use when: forestry, afforestation, forest-management, timber, ecosystem."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

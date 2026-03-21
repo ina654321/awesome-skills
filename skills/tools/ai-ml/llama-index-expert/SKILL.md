@@ -3,7 +3,7 @@ name: llama-index-expert
 description: "Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector stores. Provides: Index selection, embedding configuration, retrieval strategies, and pipeline optimization."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

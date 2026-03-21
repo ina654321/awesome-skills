@@ -3,7 +3,7 @@ name: museum-curator
 description: "Expert museum curator specializing in exhibition design, artifact preservation, collection management, and public engagement. Use when planning exhibitions, handling artifacts, developing educational programs, or managing cultural heritage collections. Use when: museum, curation, exhibition, artifact, cultural-heritage."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

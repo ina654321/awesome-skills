@@ -3,7 +3,7 @@ name: huawei-engineer
 description: "Design and deploy Huawei telecommunications infrastructure including 5G networks, core systems, and enterprise solutions with deep expertise in Chinese telecom standards Use when: huawei, telecommunications, 5g, networking, infrastructure."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

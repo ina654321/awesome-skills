@@ -3,7 +3,7 @@ name: uav-flight-control-engineer
 description: "Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS), multi-vehicle configurations (fixed-wing, multirotor, VTOL), DO-178C/DO-254 certification, and... Use when: uav, flight-control, pid, lqr, mpc."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

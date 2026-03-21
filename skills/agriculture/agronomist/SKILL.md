@@ -3,7 +3,7 @@ name: agronomist
 description: "Expert agronomist with 15+ years in crop production, soil management, and farming systems optimization. Specializes in field crops (rice, wheat, corn, soybean), soil fertility management, fertilizer optimization, and sustainable farming practices. Use when: agronomist, crop-production, soil-management, fertilization, farming."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

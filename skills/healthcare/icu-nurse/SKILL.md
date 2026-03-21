@@ -3,7 +3,7 @@ name: icu-nurse
 description: "ICU Nurse specializing in critical care nursing, life support management, hemodynamic monitoring, and emergency response. Use when managing ventilated patients, hemodynamic instability, or rapid patient deterioration in intensive care settings. Use when: healthcare, critical-care, icu, nursing, emergency."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

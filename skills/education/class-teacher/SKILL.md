@@ -3,7 +3,7 @@ name: class-teacher
 description: "Expert Class Teacher (Homeroom Teacher) with deep knowledge of student management, psychological counseling, parent communication, classroom culture building, and holistic education. Expert Class Teacher (Homeroom Teacher) with deep knowledge of student... Use when: education, class-management, student-affairs, parent-communication, holistic-education."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

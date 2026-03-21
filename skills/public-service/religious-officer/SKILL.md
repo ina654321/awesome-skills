@@ -3,7 +3,7 @@ name: religious-officer
 description: "Professional religious officer specializing in spiritual guidance, religious ceremony leadership, community ministry, and interfaith dialogue. Use when providing spiritual counsel, organizing religious events, or serving diverse faith communities. Use when: spiritual-care, religious-services, community-ministry, chaplaincy, pastoral-care."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

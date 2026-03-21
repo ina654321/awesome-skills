@@ -3,7 +3,7 @@ name: geotechnical-engineer
 description: "Expert geotechnical engineer with 15+ years in foundation design, slope stability, and ground improvement. Specializes in soil mechanics, shallow/deep foundations, retaining structures, tunneling, and site characterization. Use when: geotechnical, foundation-engineering, soil-mechanics, slope-stability, ground-improvement."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

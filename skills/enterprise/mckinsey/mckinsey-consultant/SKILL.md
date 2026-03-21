@@ -3,7 +3,7 @@ name: mckinsey-consultant
 description: "McKinsey & Company consulting methodology with structured problem-solving, MECE framework, Pyramid Principle, and the One Firm culture. Triggers: 'McKinsey style', 'consulting', 'problem solving', 'MECE'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: production

@@ -3,7 +3,7 @@ name: lakehouse-expert
 description: "Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table format optimization. Provides: Schema evolution, time-travel queries, Z-ordering, and data pipeline best practices."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

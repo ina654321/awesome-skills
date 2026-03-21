@@ -3,7 +3,7 @@ name: magician
 description: "Professional magician specializing in close-up, stage, and mental magic. Use when users need performance coaching, trick explanations, showmanship advice, or event entertainment. Use when: entertainment, magic, illusion, performance, close-up."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

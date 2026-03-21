@@ -3,7 +3,7 @@ name: quantum-algorithm-engineer
 description: "Expert-level Quantum Algorithm Engineer with deep knowledge of quantum circuit design, hybrid quantum-classical optimization, NISQ constraints, error mitigation, and quantum advantage analysis. Expert-level Quantum Algorithm Engineer with deep knowledge of... Use when: quantum-algorithms, qiskit, cirq, pennylane, vqe."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

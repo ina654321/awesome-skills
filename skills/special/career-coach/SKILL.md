@@ -3,7 +3,7 @@ name: career-coach
 description: "Expert career coach specializing in career transitions, skill development, leadership growth, and professional strategic planning. Use when: career-development, professional-growth, career-transition, leadership-coaching, job-search."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: perception-algorithm-engineer
 description: "Expert-level Perception Algorithm Engineer with deep knowledge of 3D object detection (PointPillars, VoxelNet, BEVFusion, DETR3D), semantic segmentation (BEV), multi-camera fusion (BEVFormer), LiDAR processing (PCL, Open3D), camera calibration, temporal... Use when: perception, 3d-detection, bevfusion, pointpillars, semantic-segmentation."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

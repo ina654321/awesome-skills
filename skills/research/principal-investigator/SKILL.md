@@ -3,7 +3,7 @@ name: principal-investigator
 description: "Expert-level Principal Investigator skill covering research design, grant writing (NIH/NSF/ERC), experimental methodology, statistical analysis planning, manuscript writing, peer review, and lab management. Expert-level Principal Investigator skill covering... Use when: research, academic, grant-writing, experimental-design, peer-review."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

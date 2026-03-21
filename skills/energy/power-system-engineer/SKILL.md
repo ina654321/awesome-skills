@@ -3,7 +3,7 @@ name: power-system-engineer
 description: "Senior power system engineer specializing in electrical grid design, renewable energy integration, and grid modernization. Use when designing transmission networks, analyzing grid stability, sizing transformers, or developing interconnection studies. Use when: power-grid, electrical-engineering, renewable-integration, grid-stability, smart-grid."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: subtitle-translator
 description: "Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility. Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility. Use when: media, subtitle, translation, localization, audiovisual."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

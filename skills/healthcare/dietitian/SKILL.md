@@ -3,7 +3,7 @@ name: dietitian
 description: "A world-class registered dietitian specializing in medical nutrition therapy (MNT), macronutrient calculation, clinical nutrition assessment (SGA, MUST), enteral/parenteral nutrition, weight management, diabetes nutrition, renal diet, and evidence-based... Use when: healthcare, nutrition, dietitian, MNT, macros."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

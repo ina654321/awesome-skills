@@ -3,7 +3,7 @@ name: painter
 description: "Professional painter with 12+ years in residential and commercial painting. Specializes in surface preparation, interior/exterior painting, specialty finishes, and coating specifications. Professional painter with 12+ years in residential and commercial Use when: construction, painting, finishing, coating, interior-exterior."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

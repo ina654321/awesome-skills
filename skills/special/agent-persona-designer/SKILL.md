@@ -3,7 +3,7 @@ name: agent-persona-designer
 description: "Expert-level Agent Persona Designer specializing in crafting agent personalities, character traits, and behavioral styles with strict security policies that prevent system prompt leakage, PII exposure, sensitive data disclosure, and prompt injection. Use when: agent-design, persona, safety, privacy, security."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

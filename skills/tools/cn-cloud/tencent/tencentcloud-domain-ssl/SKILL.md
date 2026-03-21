@@ -3,7 +3,7 @@ name: tencentcloud-domain-ssl
 description: "腾讯云域名与SSL：域名购买、DNSPod解析、免费证书。Use when managing domains and SSL on Tencent Cloud. Triggers: '域名', 'DNSPod', 'SSL证书', '腾讯云'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

@@ -3,7 +3,7 @@ name: escape-room-designer
 description: "Master escape room designer specializing in puzzle mechanics, narrative integration, thematic world-building, and player experience optimization. Master escape room designer specializing in puzzle mechanics, narrative integration, thematic world-building, Use when: puzzle-design, game-mechanics, immersive, theme, room-escape."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

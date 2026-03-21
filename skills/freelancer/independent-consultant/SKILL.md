@@ -3,7 +3,7 @@ name: independent-consultant
 description: "Professional independent consultant providing business strategy, management advisory, and specialized expertise services. Triggers: 'business consultant', 'strategy advisory', 'management consulting', 'independent advisor'"
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

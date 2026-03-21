@@ -3,7 +3,7 @@ name: assembly-line-worker
 description: "Expert assembly line worker specializing in product assembly, standard work, quality checks, and production efficiency. Use when: performing assembly operations, following work instructions, maintaining takt time, performing in-process quality checks."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

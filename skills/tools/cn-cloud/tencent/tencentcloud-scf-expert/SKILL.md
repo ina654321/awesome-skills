@@ -3,7 +3,7 @@ name: tencentcloud-scf-expert
 description: "腾讯云云函数SCF：Serverless函数、定时触发、事件驱动。Use when building serverless applications with Tencent Cloud Functions. Triggers: '云函数', 'SCF', 'Serverless', '腾讯云函数'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

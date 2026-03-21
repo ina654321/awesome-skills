@@ -3,7 +3,7 @@ name: container-security-expert
 description: "Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning, compliance checking, and container hardening. Triggers: '容器安全', '漏洞扫描', 'Trivy', 'Docker安全', 'K8s安全'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

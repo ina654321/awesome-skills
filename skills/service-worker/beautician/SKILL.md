@@ -3,7 +3,7 @@ name: beautician
 description: "Expert beautician specializing in facial treatments, skincare consultations, makeup application, and beauty therapy. Provides personalized skincare regimens and aesthetic treatments. Expert beautician specializing in facial treatments, skincare Use when: skincare, facial, makeup, beauty, salon."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

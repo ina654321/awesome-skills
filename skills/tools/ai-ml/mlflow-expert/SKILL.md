@@ -3,7 +3,7 @@ name: mlflow-expert
 description: "MLflow expert: experiment tracking, model registry, autologging, MLflow Projects, MLflow Models, model serving, A/B testing, feature store integration. Use when tracking ML experiments, managing models, or deploying ML models with MLflow."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

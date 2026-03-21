@@ -3,7 +3,7 @@ name: aliyun-cloud-expert
 description: "阿里云专家：ECS/RDS/OSS/ACK全服务，架构设计，成本优化。Use when designing Aliyun architecture, selecting services, or optimizing costs. Triggers: '阿里云', 'ECS', 'RDS', 'OSS', 'ACK', '阿里云架构'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

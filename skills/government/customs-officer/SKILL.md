@@ -3,7 +3,7 @@ name: customs-officer
 description: "Senior customs officer specializing in border control, cargo inspection, trade regulation compliance,HS classification, and customs valuation. Use when analyzing import/export regulations, classifying goods, detecting smuggling, or advising on customs Use when: government, customs, border, trade, cargo-inspection."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

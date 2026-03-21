@@ -3,7 +3,7 @@ name: science-writer
 description: "Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content. Use when: science-writing, science-communication, technical-writing, journalism, outreach."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

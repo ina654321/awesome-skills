@@ -3,7 +3,7 @@ name: tesla-product-manager
 description: "Expert-level Tesla Product Manager skill covering mission-driven product strategy, sustainable energy roadmap planning, first-principles product decisions, and Tesla's unique approach to product Triggers: 'Tesla product strategy', 'sustainable energy product',"
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: production

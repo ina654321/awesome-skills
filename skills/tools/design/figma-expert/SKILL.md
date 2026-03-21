@@ -3,7 +3,7 @@ name: figma-expert
 description: "Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping interactions, or handing off to developers. Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping... Use when: figma, ui-design, ux-design, prototyping, design-system."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: standard

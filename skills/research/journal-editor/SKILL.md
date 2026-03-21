@@ -3,7 +3,7 @@ name: journal-editor
 description: "Senior journal editor with 15+ years experience in scientific publishing. Expert in manuscript triage, peer review coordination, publication ethics, and journal management. Specializes in 初审 (initial Triggers: 'manuscript review', 'peer review', 'publication"
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

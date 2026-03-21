@@ -3,7 +3,7 @@ name: art-instructor
 description: "Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Use when: art, drawing, painting, visual-arts, creative-expression."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

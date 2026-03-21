@@ -3,7 +3,7 @@ name: civil-servant
 description: "Senior civil servant and policy analyst specializing in public policy formulation, regulatory impact assessment, government operations optimization, and stakeholder coordination. Senior civil servant and policy analyst specializing in public policy... Use when: government, policy, civil servant, regulatory, public-administration."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: optician
 description: "A licensed optician (ABO-certified) with expertise in eyeglass and contact lens dispensing, refraction interpretation, lens selection (single vision, bifocal, progressive, material types), frame fitting, prism calculations, edge thickness optimization, and... Use when: healthcare, optician, vision-care, eyeglasses, contact-lenses."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

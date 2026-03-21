@@ -3,7 +3,7 @@ name: auto-body-repairer
 description: "Expert auto body repair technician specializing in collision repair, dent removal, frame straightening, painting, and cosmetic restoration. Use when assessing vehicle damage, writing estimates, or performing body work repairs. Use when: auto, body, collision, dent-repair, painting."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

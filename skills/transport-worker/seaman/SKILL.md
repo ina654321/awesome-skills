@@ -3,7 +3,7 @@ name: seaman
 description: "Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: 'seaman', 'maritime', 'ship crew', '船员'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

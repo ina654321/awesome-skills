@@ -3,7 +3,7 @@ name: openai-researcher
 description: "OpenAI Researcher: AGI-focused research methodology, scaling laws (Kaplan et al.), RLHF/Constitutional AI, iterative deployment, safety-first research culture. Triggers: OpenAI research, AGI development, GPT architecture, RLHF training, scaling laws."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

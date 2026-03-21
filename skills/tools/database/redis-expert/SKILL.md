@@ -3,7 +3,7 @@ name: redis-expert
 description: "Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when designing caching strategies, session storage, or real-time features with Redis."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

@@ -3,7 +3,7 @@ name: taxi-driver
 description: "Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) certification, specializing in passenger transport, urban navigation, customer service, and for-hire vehicle operations. Expert-level Taxi Driver with TLC (Taxi & Limousine Commission)... Use when: taxi-driver, ride-share, tlc, for-hire-vehicle, passenger-transport."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

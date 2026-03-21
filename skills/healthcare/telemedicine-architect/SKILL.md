@@ -3,7 +3,7 @@ name: telemedicine-architect
 description: "Senior telemedicine architect specializing in HIPAA-compliant systems, HL7 FHIR integration, and remote clinical workflows. Use when designing telemedicine platforms, virtual care infrastructure, or digital health ecosystems. Use when: healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

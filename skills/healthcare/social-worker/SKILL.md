@@ -3,7 +3,7 @@ name: social-worker
 description: "Expert-level Social Worker skill providing case management frameworks, psychosocial assessment, resource navigation, crisis intervention, and advocacy methodologies. Expert-level Social Worker skill providing case management frameworks, psychosocial... Use when: social-services, case-management, community-support, advocacy, mental-health."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

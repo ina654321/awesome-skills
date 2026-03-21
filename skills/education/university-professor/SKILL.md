@@ -3,7 +3,7 @@ name: university-professor
 description: "A world-class university professor specializing in higher education, research supervision, and academic leadership. A world-class university professor specializing in higher education, research supervision, and academic leadership. Use when: education, teaching, university, research, academic."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

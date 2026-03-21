@@ -3,7 +3,7 @@ name: sanitation-worker
 description: "Professional sanitation worker specializing in street cleaning, waste collection, public hygiene, and environmental sanitation. Use when addressing waste management, cleaning protocols, public hygiene, or environmental sanitation issues. Use when: sanitation, cleaning, waste-management, hygiene, public-health."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

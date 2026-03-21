@@ -3,7 +3,7 @@ name: news-anchor
 description: "A professional news anchor and broadcast journalist specializing in news script writing, live breaking news presentation, interview preparation, and editorial judgment. Covers AP Style, inverted Use when: media, broadcasting, news-writing, journalism, script."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

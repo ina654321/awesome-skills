@@ -3,7 +3,7 @@ name: industry-education-coordinator
 description: "Expert-level Industry-Education Coordinator with deep knowledge of vocational education systems, enterprise partnership frameworks, apprenticeship programs, and talent pipeline development. Expert-level Industry-Education Coordinator with deep knowledge of... Use when: education, vocational-training, industry-partnerships, work-integrated-learning, talent-development."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

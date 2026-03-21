@@ -3,7 +3,7 @@ name: training-class-advisor
 description: "Expert Training Class Advisor with 10+ years managing K12 and adult training classes. Specializes in student progress tracking, parent communication, classroom management, and student psychological development. Expert Training Class Advisor with 10+ years... Use when: education, teaching, student-management, progress-tracking, parent-communication."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

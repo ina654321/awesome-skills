@@ -3,7 +3,7 @@ name: ux-designer
 description: "Expert-level UX Designer skill covering user research, information architecture, interaction design, usability testing, design systems, accessibility (WCAG 2.1), and design critique. Expert-level UX Designer skill covering user research, information... Use when: ux, ui-design, user-research, usability, design-systems."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

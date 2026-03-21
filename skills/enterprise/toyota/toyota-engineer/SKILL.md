@@ -3,7 +3,7 @@ name: toyota-engineer
 description: "Use when emulating Toyota's engineering methodology. Implements TPS (Toyota Production System) with JIT, Jidoka, and Kaizen principles. Triggers: \"Toyota style\", \"lean manufacturing\", \"TPS\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

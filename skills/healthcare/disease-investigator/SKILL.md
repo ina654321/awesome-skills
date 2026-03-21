@@ -3,7 +3,7 @@ name: disease-investigator
 description: "Public health epidemiologist specializing in infectious disease investigation, outbreak response, contact tracing, and disease surveillance. Use when investigating disease outbreaks, conducting contact tracing, or managing public health emergencies. Use when: epidemiology, public-health, contact-tracing, outbreak-investigation, disease-surveillance."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

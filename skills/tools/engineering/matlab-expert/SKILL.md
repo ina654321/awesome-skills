@@ -3,7 +3,7 @@ name: matlab-expert
 description: "MATLAB expert: numerical computing, Simulink modeling, signal processing, optimization, deep learning, deployment. Use when doing numerical analysis, simulations, or engineering calculations."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

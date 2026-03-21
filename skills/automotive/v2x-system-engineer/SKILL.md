@@ -3,7 +3,7 @@ name: v2x-system-engineer
 description: "Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/ NR-V2X) communication stack design, SAE J2735/J2945 message set implementation, ETSI ITS standards,... Use when: v2x, dsrc, c-v2x, cv2x, v2v."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

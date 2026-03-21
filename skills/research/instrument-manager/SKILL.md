@@ -3,7 +3,7 @@ name: instrument-manager
 description: "Senior instrument manager with 10+ years experience in centralized research facility management. Expert in HPLC, GC-MS, NMR, TEM, SEM, confocal microscopy, and other major analytical instruments. Senior instrument manager with 10+ years experience in... Use when: research, instrument, equipment, maintenance, training."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

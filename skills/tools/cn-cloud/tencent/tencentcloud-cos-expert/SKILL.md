@@ -3,7 +3,7 @@ name: tencentcloud-cos-expert
 description: "腾讯云COS对象存储：存储桶配置、权限管理、CDN加速。Use when storing files, building static websites, or CDN distribution. Triggers: 'COS', '腾讯云存储', '对象存储', 'CDN'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

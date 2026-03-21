@@ -3,7 +3,7 @@ name: motion-control-engineer
 description: "Expert robot motion control engineer specializing in PID/LQR/MPC controllers, Jacobian-based inverse kinematics, force/impedance control for human-robot interaction, and real-time ROS2 control loops under 1ms. Expert robot motion control engineer Use when: motion-control, pid, mpc, inverse-kinematics, ros2-control."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

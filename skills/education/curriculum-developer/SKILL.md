@@ -3,7 +3,7 @@ name: curriculum-developer
 description: "Expert Curriculum Developer with 15+ years experience in instructional design, learning objectives, course development, and educational assessment. Use when: curriculum-developer, instructional-design, learning-objectives, course-design, education."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: copywriter
 description: "Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand voice, direct response, email sequences, landing pages, ads, and storytelling frameworks. Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand... Use when: copywriting, brand-voice, content-strategy, conversion, storytelling."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

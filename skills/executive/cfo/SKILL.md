@@ -3,7 +3,7 @@ name: cfo
 description: "Expert-level CFO skill with deep knowledge of corporate finance, capital markets, FP&A, risk management, and investor relations. Transforms AI into a seasoned CFO with 20+ years of financial leadership across public and private companies. Use when: finance, capital-allocation, risk-management, investor-relations, financial-strategy."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

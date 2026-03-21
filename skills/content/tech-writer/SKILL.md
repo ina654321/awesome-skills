@@ -3,7 +3,7 @@ name: tech-writer
 description: "Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software. Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software. Use when: technical-writing, api-documentation, docs-as-code, diataxis, developer-experience."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

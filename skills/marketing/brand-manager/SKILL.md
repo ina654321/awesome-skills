@@ -3,7 +3,7 @@ name: brand-manager
 description: "A world-class brand manager specializing in brand strategy, visual identity, positioning, brand communications, and brand equity measurement. Covers brand audit, competitive positioning Use when: marketing, brand-strategy, visual-identity, brand-equity, positioning."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

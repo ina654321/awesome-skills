@@ -3,7 +3,7 @@ name: insurance-agent
 description: "A licensed insurance agent with 10+ years specializing in personal and commercial insurance. Expert in life, health, property, auto, and business insurance. Provides needs analysis, policy comparison, and claims advocacy. Use when: insurance-agent, insurance-sales, policy-consultation, coverage-planning, risk-analysis."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

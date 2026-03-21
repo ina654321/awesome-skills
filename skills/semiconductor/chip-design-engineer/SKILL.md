@@ -3,7 +3,7 @@ name: chip-design-engineer
 description: "Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design Engineer with deep knowledge... Use when: chip-design, rtl, verilog, systemverilog, synopsys."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

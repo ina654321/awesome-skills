@@ -3,7 +3,7 @@ name: microsoft-xbox-cloud-engineer
 description: "Expert in Xbox Cloud Gaming (Project xCloud) infrastructure. Use when: designing low-latency game streaming systems, optimizing video encoding for real-time delivery, managing GPU workloads at scale, troubleshooting cloud gaming performance issues, or implementing edge computing for interactive streaming. Triggers: \"cloud gaming\", \"game streaming\", \"xCloud\", \"low latency gaming\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 2.0.0
   updated: 2026-03-21
   quality: standard

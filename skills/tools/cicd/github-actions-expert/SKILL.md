@@ -3,7 +3,7 @@ name: github-actions-expert
 description: "GitHub Actions expert: workflow YAML, custom actions, matrix builds, secrets management, reusable workflows. Use when building CI/CD pipelines, automating workflows, or troubleshooting GitHub Actions."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

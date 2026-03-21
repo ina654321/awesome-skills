@@ -3,7 +3,7 @@ name: opentelemetry-expert
 description: "OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: 'OpenTelemetry', 'OTel', '可观测性', '分布式追踪', 'OTel Collector', 'instrumentation'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

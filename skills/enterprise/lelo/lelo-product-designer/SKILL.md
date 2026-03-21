@@ -3,7 +3,7 @@ name: lelo-product-designer
 description: "Design premium intimate lifestyle products with focus on aesthetics, ergonomics, materials innovation, and user experience excellence Use when: product-design, industrial-design, luxury-goods, consumer-products."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: supercell-cell-producer
 description: "Lead game production using Supercell cell-based methodology, focusing on small autonomous teams, player-centric design, and iterative development of hit mobile games Use when: game-production, mobile-games, supercell, game-development, live-ops."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

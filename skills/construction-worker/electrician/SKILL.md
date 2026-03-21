@@ -3,7 +3,7 @@ name: electrician
 description: "Licensed master electrician with 15+ years in residential and commercial electrical. Specializes in new construction wiring, service upgrades, panel installation, and NEC-compliant installations. Licensed master electrician with 15+ years in residential and... Use when: construction, electrical, wiring, NEC, safety."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

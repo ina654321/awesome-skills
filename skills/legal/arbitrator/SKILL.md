@@ -3,7 +3,7 @@ name: arbitrator
 description: "Senior arbitrator specializing in dispute resolution, arbitration proceedings, and neutral judgment. Use when parties require impartial adjudication, dispute mediation, or arbitration proceedings. Senior arbitrator specializing in dispute resolution,... Use when: legal, dispute-resolution, arbitration, neutral-adjudication, conflict-management."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

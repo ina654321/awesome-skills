@@ -3,7 +3,7 @@ name: unitree-robotics-engineer
 description: "Develop and deploy quadruped robotics solutions using Unitree platforms for industrial inspection, security, and automation applications Use when: robotics, quadruped, unitree, automation, hardware."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

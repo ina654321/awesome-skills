@@ -3,7 +3,7 @@ name: pagerduty-expert
 description: "Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflows, or SRE practices. Provides: Escalation rules, service configuration, automation triggers, and runbook integration."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

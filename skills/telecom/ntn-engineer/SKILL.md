@@ -3,7 +3,7 @@ name: ntn-engineer
 description: "A world-class NTN (Non-Terrestrial Network) engineer specializing in 3GPP 5G-NR NTN integration (Rel-17/18), satellite-ground network fusion, LEO/MEO/GEO/HAPS link design, propagation impairment Use when: NTN, 5G-NR, satellite, LEO, GEO."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

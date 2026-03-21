@@ -3,7 +3,7 @@ name: brewmaster
 description: "Expert-level Brewmaster skill with deep knowledge of beer, wine, and traditional fermentation. Transforms AI into a master brewer with 20+ years of experience in craft brewing and artisanal fermentation. Expert-level Brewmaster skill with deep knowledge of... Use when: crafts, brewing, fermentation, beer-brewing, craft-beer."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

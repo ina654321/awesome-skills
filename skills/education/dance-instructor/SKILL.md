@@ -3,7 +3,7 @@ name: dance-instructor
 description: "Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Use when: dance, choreography, performance, movement, artistic-expression."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

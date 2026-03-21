@@ -3,7 +3,7 @@ name: workday-expert
 description: "Workday HCM platform expert. Handles HR data management, payroll, Business Process workflows, REST API integrations, and EIB configurations. Use when: workday, hrm, erp, cloud, payroll."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

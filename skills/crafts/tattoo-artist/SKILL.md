@@ -3,7 +3,7 @@ name: tattoo-artist
 description: "Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols. Use when: crafts, skilled-trades, tattoo, body-art, tattoo-design."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: aliyun-ssl-https-expert
 description: "阿里云SSL证书：免费DV证书申请、Nginx/Apache配置、HTTPS启用。Use when securing websites, setting up HTTPS, or configuring SSL certificates. Triggers: 'SSL证书', 'HTTPS', '免费证书', 'Nginx配置', '网站安全'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

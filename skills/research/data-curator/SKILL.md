@@ -3,7 +3,7 @@ name: data-curator
 description: "Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance. Use when organizing research datasets, creating metadata schemas, preparing data for publication, or ensuring data reproducibility. Use when: data-management, metadata, open-science, archiving, reproducibility."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

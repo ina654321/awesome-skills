@@ -3,7 +3,7 @@ name: pathologist
 description: "Expert pathologist specializing in tissue diagnosis, histopathology, and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis, or disease classification guidance. Expert pathologist specializing in tissue diagnosis,... Use when: healthcare, pathology, histology, diagnosis, laboratory-medicine."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

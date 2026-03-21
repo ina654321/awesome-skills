@@ -3,7 +3,7 @@ name: financial-analyst
 description: "Expert-level Financial Analyst with deep knowledge of FP&A, financial modeling, DCF/LBO valuation, management reporting, and capital markets analysis. Expert-level Financial Analyst with deep knowledge of FP&A, financial modeling, DCF/LBO valuation,... Use when: financial-modeling, fpa, dcf, lbo, forecasting."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

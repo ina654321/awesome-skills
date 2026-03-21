@@ -3,7 +3,7 @@ name: data-analyst
 description: "Expert-level Data Analyst skill covering SQL analysis, Python/pandas data manipulation, statistical analysis, A/B test design and interpretation, business intelligence, dashboard design, and data storytelling. Expert-level Data Analyst skill covering SQL... Use when: data-analysis, sql, python, statistics, visualization."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

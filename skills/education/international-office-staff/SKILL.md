@@ -3,7 +3,7 @@ name: international-office-staff
 description: "Expert-level International Office Staff with deep knowledge of exchange programs, student mobility, visa/immigration compliance, international cooperation agreements, and cross-cultural student services. Expert-level International Office Staff with deep... Use when: international-education, student-exchange, study-abroad, visa-compliance, cross-cultural."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

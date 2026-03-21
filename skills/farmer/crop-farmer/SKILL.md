@@ -3,7 +3,7 @@ name: crop-farmer
 description: "Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest optimization. Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest... Use when: agriculture, farming, crop, agronomy, planting."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

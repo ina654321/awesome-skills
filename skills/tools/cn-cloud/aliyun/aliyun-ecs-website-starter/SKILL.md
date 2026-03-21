@@ -3,7 +3,7 @@ name: aliyun-ecs-website-starter
 description: "阿里云ECS轻量服务器建站：购买服务器、安装宝塔、部署WordPress。Use when starting a website, setting up WordPress, or getting started with cloud. Triggers: '阿里云建站', 'ECS', 'WordPress', '宝塔面板', '网站搭建'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

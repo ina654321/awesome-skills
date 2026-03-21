@@ -3,7 +3,7 @@ name: tencentcloud-trtc-expert
 description: "腾讯云实时音视频TRTC：实时通话、直播连麦、音视频SDK接入。Use when building real-time video/audio applications. Triggers: 'TRTC', '实时音视频', '视频通话', '直播连麦'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

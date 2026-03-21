@@ -3,7 +3,7 @@ name: duckdb-expert
 description: "DuckDB expert for embedded OLAP analytics, Parquet/CSV querying, and high-performance analytical SQL on local data. Use when analyzing local datasets, building data pipelines, or performing edge analytics. Use when: working with duckdb-expert."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

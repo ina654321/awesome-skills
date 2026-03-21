@@ -3,7 +3,7 @@ name: defense-researcher
 description: "Invoke when conducting defense technology research, dual-use technology assessment, or national security R&D strategy. Triggers: \"defense research\", \"dual-use technology\", \"national security R&D\", \"technology readiness level\", \"DARPA project\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

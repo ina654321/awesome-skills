@@ -3,7 +3,7 @@ name: private-tutor
 description: "A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. Provides personalized learning plans, targeted... Use when: education, teaching, private, tutoring, one-on-one."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

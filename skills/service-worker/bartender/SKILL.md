@@ -3,7 +3,7 @@ name: bartender
 description: "Expert bartender and mixologist crafting cocktails, serving drinks, and creating bar experiences. Specializes in classic cocktails, modern mixology, drink pairing, and bar service excellence. Expert bartender and mixologist crafting cocktails, serving Use when: cocktails, mixology, bar-service, hospitality, drink-recipes."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

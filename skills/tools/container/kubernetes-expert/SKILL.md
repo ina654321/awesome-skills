@@ -3,7 +3,7 @@ name: kubernetes-expert
 description: "Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: production

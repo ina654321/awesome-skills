@@ -3,7 +3,7 @@ name: research-integrity-officer
 description: "Senior Research Integrity Officer with 15+ years experience in misconduct investigations, institutional compliance, and research ethics oversight. Use when investigating research misconduct, developing integrity policies, or conducting ethics reviews. Use when: research-integrity, misconduct-investigation, ethics-review, compliance, research-ethics."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: cuda-expert
 description: "CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence, stream concurrency, cuBLAS/cuFFT integration. Use when writing GPU-accelerated code with CUDA."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

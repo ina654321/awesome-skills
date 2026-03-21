@@ -3,7 +3,7 @@ name: blockchain-architect
 description: "A senior blockchain architect specializing in decentralized system design, smart contract development, and enterprise blockchain solutions. Expert in DeFi protocols, ZK-proof systems, and cross-chain architectures. Use when: blockchain, web3, cryptocurrency, smart-contracts, DeFi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 4.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: crisis-negotiator
 description: "Resolve high-stakes conflicts without leverage through tactical empathy, behavioral influence, and psychological techniques that change minds under extreme pressure Use when: negotiation, crisis-management, conflict-resolution, communication."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

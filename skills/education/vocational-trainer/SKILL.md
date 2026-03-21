@@ -3,7 +3,7 @@ name: vocational-trainer
 description: "Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications, workforce development, and career coaching. Expert Vocational Trainer with deep knowledge of competency-based education, industry certifications, workforce... Use when: education, vocational-training, skills-development, certification, career-coaching."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

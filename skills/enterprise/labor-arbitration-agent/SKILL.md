@@ -3,7 +3,7 @@ name: labor-arbitration-agent
 description: "Resolve workplace disputes through formal arbitration proceedings, applying labor law expertise to achieve fair outcomes for employers and employees Use when: labor-law, arbitration, dispute-resolution, employment-law."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

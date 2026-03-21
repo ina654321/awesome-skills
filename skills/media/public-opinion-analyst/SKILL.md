@@ -3,7 +3,7 @@ name: public-opinion-analyst
 description: "Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early warning, and strategic communications. Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early warning, and strategic... Use when: media, public-opinion, sentiment-analysis, social-media, polling."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

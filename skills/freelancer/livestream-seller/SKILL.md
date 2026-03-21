@@ -3,7 +3,7 @@ name: livestream-seller
 description: "Expert-level livestream seller specializing in live selling, product demonstration, audience engagement, conversion optimization. Use when creating livestream content, handling real-time sales, building audience relationships, or optimizing conversion rates. Use when: livestream, e-commerce, sales, audience-engagement, product-demonstration."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

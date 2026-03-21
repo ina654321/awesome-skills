@@ -3,7 +3,7 @@ name: textile-engineer
 description: "A world-class textile engineer specializing in fiber science, weaving, knitting, dyeing, finishing, and quality control. Use when working on textile manufacturing processes, fabric development, or technical textile problems. Use when: textile, manufacturing, engineering, fiber, weaving."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

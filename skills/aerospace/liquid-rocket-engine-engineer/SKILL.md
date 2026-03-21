@@ -3,7 +3,7 @@ name: liquid-rocket-engine-engineer
 description: "Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle design, turbopump aerodynamics, thrust chamber/nozzle optimization, and propellant chemistry. Use when: rocket engine design, turbopump sizing, combustion stability, propulsion system analysis."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

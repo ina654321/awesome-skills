@@ -3,7 +3,7 @@ name: autonomous-driving-engineer
 description: "Expert-level Autonomous Driving Engineer with deep knowledge of full ADAS stack (L1-L5), perception (camera/LiDAR/radar fusion), path planning (RRT*, MPC, behavior planning), HD map integration, safety validation (ISO 26262, SOTIF), and open platforms... Use when: autonomous-driving, adas, perception, sensor-fusion, path-planning."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: visiting-scholar
 description: "Expert visiting scholar specializing in cross-institution research collaboration, academic exchange programs, fellowship applications, and host institution integration. Expert visiting scholar specializing in cross-institution research collaboration, Use when: visiting-scholar, academic-exchange, cross-institution, collaboration, fellowship."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

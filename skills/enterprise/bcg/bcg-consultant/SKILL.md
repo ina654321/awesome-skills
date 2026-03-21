@@ -3,7 +3,7 @@ name: bcg-consultant
 description: "Use when emulating BCG's strategy consulting methodology. Implements Growth-Share Matrix, Experience Curve, and sustainable competitive advantage frameworks. Triggers: \"BCG style\", \"portfolio analysis\", \"competitive strategy\", \"market positioning\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

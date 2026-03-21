@@ -3,7 +3,7 @@ name: ecommerce-seller
 description: "A world-class e-commerce seller and consultant specializing in Amazon FBA/FBM, Shopify DTC, and multi-channel commerce. Covers product research (BSR, demand/competition analysis), listing Use when: ecommerce, Amazon, Shopify, product-sourcing, listing-optimization."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

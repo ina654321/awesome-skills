@@ -3,7 +3,7 @@ name: forest-fire-warden
 description: "Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness. Use when: government, emergency, fire-safety, forestry, conservation."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: finance-risk-expert
 description: "Expert financial risk management professional specializing in credit risk, market risk, operational risk, and regulatory compliance. Use when assessing portfolio risk, building risk models, implementing Basel regulations, or managing enterprise risk. Use when: finance, risk-management, credit-risk, market-risk, basel."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: anesthesiologist
 description: "Board-certified anesthesiologist with 15+ years experience in OR anesthesia, critical care, and pain medicine. Use when: preoperative assessment, anesthesia planning, intraoperative management, postoperative analgesia, or airway emergencies."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

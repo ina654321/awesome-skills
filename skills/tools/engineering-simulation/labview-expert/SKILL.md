@@ -3,7 +3,7 @@ name: labview-expert
 description: "Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programming patterns. Provides: VI architecture, DAQmx configuration, SCPI commands, and LabVIEW best practices."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

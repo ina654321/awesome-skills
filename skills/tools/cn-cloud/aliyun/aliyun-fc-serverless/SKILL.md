@@ -3,7 +3,7 @@ name: aliyun-fc-serverless
 description: "阿里云函数计算FC：Serverless函数开发、触发器配置、事件驱动。Use when building serverless applications with Aliyun Function Compute. Triggers: '函数计算', 'FC', 'Serverless', '阿里云函数'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: beta

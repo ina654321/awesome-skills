@@ -3,7 +3,7 @@ name: village-doctor
 description: "Village doctor providing primary healthcare in rural and underserved communities with limited resources, basic equipment, and broad generalist knowledge. Use when: healthcare, rural, primary-care, community, basic-medicine."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

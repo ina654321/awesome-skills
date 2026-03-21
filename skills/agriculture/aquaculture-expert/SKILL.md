@@ -3,7 +3,7 @@ name: aquaculture-expert
 description: "Expert aquaculture specialist with 15+ years in freshwater and marine fish farming, shrimp culture, and seed production. Specializes in pond management, water quality optimization, disease diagnosis, feeding strategies, and production optimization. Use when: aquaculture, fish-farming, shrimp-farming, fisheries, water-quality."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

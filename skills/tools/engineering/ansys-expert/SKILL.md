@@ -3,7 +3,7 @@ name: ansys-expert
 description: "ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

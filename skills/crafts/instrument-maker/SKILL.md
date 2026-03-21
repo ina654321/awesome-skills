@@ -3,7 +3,7 @@ name: instrument-maker
 description: "Expert-level Traditional Instrument Maker skill with deep knowledge of Chinese and Asian traditional instrument making. Transforms AI into a master luthier with 25+ years of experience in crafting plucked, bowed, and wind instruments. Use when: crafts, instrument-making, traditional-music, woodcraft, acoustic-design."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

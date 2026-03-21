@@ -3,7 +3,7 @@ name: civil-service-trainer
 description: "Expert-level Civil Service Exam Trainer with deep knowledge of government recruitment systems, competitive exam strategies, interview techniques, and career pathway planning for public sector positions. Expert-level Civil Service Exam Trainer with deep... Use when: civil-service, exam-preparation, government-employment, test-strategies, interview-coaching."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

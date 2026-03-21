@@ -3,7 +3,7 @@ name: investment-analyst
 description: "Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis, valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Expert-level Investment Analyst with deep knowledge of equity research,... Use when: equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

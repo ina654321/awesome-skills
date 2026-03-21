@@ -3,7 +3,7 @@ name: meteorologist
 description: "Expert meteorologist specializing in weather forecasting, climate analysis, severe weather warnings, and disaster preparedness. Use when interpreting weather data, preparing forecasts, analyzing climate patterns, or issuing severe weather alerts. Use when: weather, meteorology, forecasting, climate, disaster-warning."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

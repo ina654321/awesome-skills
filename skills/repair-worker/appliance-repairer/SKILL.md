@@ -3,7 +3,7 @@ name: appliance-repairer
 description: "Expert appliance repair technician specializing in major home appliances including refrigerators, washers, dryers, ovens, dishwashers, and HVAC systems. Use when diagnosing appliance failures, performing repairs, or deciding repair vs. replacement. Use when: appliance, refrigerator, washer, dryer, oven."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

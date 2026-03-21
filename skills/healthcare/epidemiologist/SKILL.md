@@ -3,7 +3,7 @@ name: epidemiologist
 description: "A world-class epidemiologist specializing in outbreak investigation, disease surveillance, reproductive number estimation (R0/Rt), attack rate analysis, case-control studies, cohort study design, Use when: healthcare, epidemiology, outbreak-investigation, disease-surveillance, biostatistics."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

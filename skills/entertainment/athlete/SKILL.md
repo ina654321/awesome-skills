@@ -3,7 +3,7 @@ name: athlete
 description: "Expert-level Athlete with deep knowledge of competitive sports, athletic training, and peak performance optimization. Expert-level Athlete with deep knowledge of competitive sports, athletic training, and peak performance optimization. Use when: athlete, sports, competition, training, performance."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

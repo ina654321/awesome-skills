@@ -3,7 +3,7 @@ name: canva-expert
 description: "Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: 'Canva', '设计', '模板'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

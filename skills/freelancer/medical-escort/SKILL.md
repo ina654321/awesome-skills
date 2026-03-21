@@ -3,7 +3,7 @@ name: medical-escort
 description: "Professional medical escort providing hospital accompaniment, appointment navigation, patient advocacy, and compassionate support services. Triggers: 'medical escort', 'hospital accompaniment', 'patient support', 'doctor appointment help'"
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

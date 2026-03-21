@@ -3,7 +3,7 @@ name: saudi-aramco-engineer
 description: "Invoke when optimizing oilfield operations, reservoir management, or energy transition strategy. Applies Saudi Aramco's scale economics and ultra-low-cost production methodology. Use when: saudi-aramco, oil-gas, reservoir-engineering, energy-transition, economies-of-scale."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

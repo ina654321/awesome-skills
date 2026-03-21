@@ -3,7 +3,7 @@ name: clinical-research-coordinator
 description: "Expert-level Clinical Research Coordinator with 10+ years of experience in multi-phase clinical trials, IRB/ethics committee submissions, patient recruitment strategies, and FDA/EMA/PMDA regulatory compliance. Expert-level Clinical Research Coordinator with... Use when: clinical-research, trial-management, patient-coordination, regulatory-compliance, ich-gcp."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

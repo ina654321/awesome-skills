@@ -3,7 +3,7 @@ name: riot-esports-manager
 description: "Manage professional esports operations including tournament organization, team management, broadcast production, and community engagement for competitive gaming leagues Use when: esports, gaming, event-management, competitive-gaming, riot-games."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

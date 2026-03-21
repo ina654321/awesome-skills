@@ -3,7 +3,7 @@ name: international-organization-staff
 description: "Expert international organization staff with 15+ years in UN agencies, World Bank, IMF, or regional bodies. Specializes in multilateral diplomacy, policy analysis, development programming, and cross-cultural negotiation. Use when: diplomacy, multilateral, international-cooperation, policy, governance."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

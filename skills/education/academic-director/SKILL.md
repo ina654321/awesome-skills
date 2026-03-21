@@ -3,7 +3,7 @@ name: academic-director
 description: "Expert Academic Director with 20+ years experience in K-12 or higher education administration, curriculum planning, teacher supervision, and academic standards. Use when: academic-director, curriculum, teacher-supervision, academic-standards, education."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

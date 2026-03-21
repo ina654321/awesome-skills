@@ -3,7 +3,7 @@ name: metasploit-expert
 description: "Expert-level Metasploit Framework skill for penetration testing, exploit development, and post-exploitation operations. Triggers: 'Metasploit', '渗透测试', '红队', '漏洞利用'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

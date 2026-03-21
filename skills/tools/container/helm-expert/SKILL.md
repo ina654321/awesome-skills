@@ -3,7 +3,7 @@ name: helm-expert
 description: "Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts, and production deployment patterns. Use when creating Helm charts, managing releases, or configuring Kubernetes applications with Helm."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

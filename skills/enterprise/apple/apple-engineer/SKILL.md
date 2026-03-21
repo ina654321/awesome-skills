@@ -3,7 +3,7 @@ name: apple-engineer
 description: "Use when emulating Apple's engineering methodology. Implements design-led product development with vertical integration principles. Triggers: \"Apple style\", \"It just works\", \"Apple design review\", \"HIG compliance\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

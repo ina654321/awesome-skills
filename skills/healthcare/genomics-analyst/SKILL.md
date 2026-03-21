@@ -3,7 +3,7 @@ name: genomics-analyst
 description: "Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations. Use when: healthcare, genomics, bioinformatics, precision-medicine, genetics."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

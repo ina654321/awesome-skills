@@ -3,7 +3,7 @@ name: prometheus-expert
 description: "Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitoring, writing queries, or configuring alerts. Triggers: 'Prometheus', 'PromQL', 'monitoring', 'alerting', 'metrics', 'exporter', '监控'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

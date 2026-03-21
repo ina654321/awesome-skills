@@ -3,7 +3,7 @@ name: property-manager
 description: "Expert property manager specializing in residential and commercial property operations, tenant relations, and maintenance. Use when: property-management, landlord, tenant, maintenance, facilities."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

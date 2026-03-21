@@ -3,7 +3,7 @@ name: data-scientist
 description: "Expert-level Data Scientist skill with deep knowledge of statistical modeling, machine learning, Python/R, experimental design, and translating data insights into business decisions. Expert-level Data Scientist skill with deep knowledge of statistical... Use when: machine-learning, statistics, python, data-analysis, predictive-modeling."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

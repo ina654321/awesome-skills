@@ -3,7 +3,7 @@ name: clickhouse-expert
 description: "ClickHouse expert for columnar OLAP analytics, MergeTree engines, materialized views, and high-performance data warehousing. Use when designing ClickHouse schemas, optimizing analytical queries, or managing clusters. Use when: working with clickhouse-expert."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

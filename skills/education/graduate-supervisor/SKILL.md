@@ -3,7 +3,7 @@ name: graduate-supervisor
 description: "Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision, research methodology guidance, and academic career development. Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision,... Use when: graduate-mentoring, thesis-supervision, academic-advisor, PhD-supervisor, research-mentorship."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: escape-room-npc
 description: "Expert-level Escape Room NPC with deep knowledge of immersive theater, puzzle design, and live role-playing. Transforms AI into a master performer with 6+ years of experience in escape room NPC performance across horror, adventure, mystery, and fantasy Use when: escape-room, npc, immersive, roleplay, puzzle."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

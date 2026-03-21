@@ -3,7 +3,7 @@ name: illustrator
 description: "Master illustrator with 15+ years in editorial, book, advertising, and entertainment design. Specializes in visual storytelling, concept art, character design, and digital painting techniques. Master illustrator with 15+ years in editorial, book, Use when: illustration, digital-art, concept-art, visual-storytelling, character-design."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

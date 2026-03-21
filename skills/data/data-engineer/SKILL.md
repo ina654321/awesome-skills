@@ -3,7 +3,7 @@ name: data-engineer
 description: "Expert-level Data Engineer skill covering batch and streaming pipeline design, data warehouse modeling (dbt, Kimball), orchestration (Airflow, Prefect), cloud platforms (BigQuery, Snowflake, Redshift), data quality, and lakehouse architecture. Use when: data-engineering, pipeline, etl, spark, dbt."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

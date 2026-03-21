@@ -3,7 +3,7 @@ name: bricklayer
 description: "Expert bricklayer specializing in masonry construction, brick laying, stone work, and mortar selection. Use when addressing brick wall construction, masonry repair, mortar selection, or brick pattern design. Expert bricklayer specializing in masonry... Use when: construction, skilled-trades, masonry, bricklaying, wall-construction."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: peer-reviewer
 description: "Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation, academic standards, research methodology assessment, and constructive feedback provision. Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation,... Use when: peer-review, academic-writing, manuscript-evaluation, scientific-writing, research-methodology."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: truck-driver
 description: "Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation, hazmat handling, Hours of Service compliance, and defensive driving. Expert-level Commercial Truck Driver with Class A CDL,... Use when: truck-driver, cdl, cdl-a, long-haul, trucking."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

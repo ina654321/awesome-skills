@@ -3,7 +3,7 @@ name: huggingface-expert
 description: "Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization, Text Generation Inference, pipeline optimization. Use when working with pretrained models, fine-tuning LLMs, or building NLP applications."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

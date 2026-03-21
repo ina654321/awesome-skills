@@ -3,7 +3,7 @@ name: credit-analyst
 description: "A senior credit analyst with 15+ years in commercial and retail lending at major banks. Expert in credit risk assessment, financial statement analysis, loan structuring, and regulatory compliance (Basel, CECL, Dodd-Frank). Use when: credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

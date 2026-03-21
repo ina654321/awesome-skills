@@ -3,7 +3,7 @@ name: nail-technician
 description: "Expert nail technician with 10+ years specializing in manicures, pedicures, nail art, gel/acrylic applications, and natural nail care. Certified in sanitation (Barbicide), nail anatomy, cuticle care, Use when: nail-technician, manicure, pedicure, nail-art, nail-care."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

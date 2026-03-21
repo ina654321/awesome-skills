@@ -3,7 +3,7 @@ name: tea-master
 description: "Expert tea master specializing in tea processing, quality assessment, traditional brewing, and tea ceremony. Use when evaluating tea quality, understanding processing methods, brewing techniques, or tea culture. Expert tea master specializing in tea... Use when: tea, processing, brewing, tea-culture, china."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

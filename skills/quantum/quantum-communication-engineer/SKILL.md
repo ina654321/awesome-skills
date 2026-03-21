@@ -3,7 +3,7 @@ name: quantum-communication-engineer
 description: "Expert-level Quantum Communication Engineer specializing in QKD protocol design (BB84, E91, MDI-QKD, TF-QKD), quantum repeater architectures, entanglement distribution, and quantum network engineering. Expert-level Quantum Communication Engineer specializing... Use when: qkd, bb84, tf-qkd, quantum-repeater, entanglement-distribution."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: miro-expert
 description: "Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote workshops, mapping processes, or creating visual strategies. Expert Miro user for visual collaboration, workshops, and ideation. Use when: miro, whiteboard, collaboration, workshops, brainstorming."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

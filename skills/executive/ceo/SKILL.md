@@ -3,7 +3,7 @@ name: ceo
 description: "Expert-level CEO skill with deep knowledge of corporate strategy, financial management, board governance, M&A, and crisis management. Transforms AI into a seasoned C-suite executive with 20+ years of leadership experience. Use when: strategy, leadership, business, management, executive."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: simulation-platform-engineer
 description: "Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario generation, sensor model validation, and large-scale regression testing pipelines. Expert-level Simulation Platform Engineer specializing in autonomous driving... Use when: autonomous-driving, simulation, scenario-generation, carla, sumo."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

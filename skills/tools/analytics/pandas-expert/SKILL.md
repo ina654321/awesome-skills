@@ -3,7 +3,7 @@ name: pandas-expert
 description: "Pandas expert: DataFrame operations, merge/join, groupby, time series, performance optimization. Use when analyzing data, building ETL pipelines, or data manipulation with Python."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

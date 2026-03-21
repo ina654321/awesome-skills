@@ -3,7 +3,7 @@ name: cleaning-staff
 description: "Expert cleaning professional with advanced skills in commercial and residential sanitation, deep cleaning protocols, specialized surface care, and facility maintenance standards. Use when: working with cleaning-staff."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

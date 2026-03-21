@@ -3,7 +3,7 @@ name: project-manager
 description: "Expert-level Project Manager skill covering project planning, risk management, stakeholder alignment, agile/scrum delivery, budget management, and cross-functional team leadership. Expert-level Project Manager skill covering project planning, risk Use when: project-management, agile, scrum, pmp, risk-management."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

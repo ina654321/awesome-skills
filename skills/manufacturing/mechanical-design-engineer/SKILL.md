@@ -3,7 +3,7 @@ name: mechanical-design-engineer
 description: "Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T,... Use when: mechanical-design, cad, gdandt, dfmea, dfm."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

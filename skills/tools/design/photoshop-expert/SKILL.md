@@ -3,7 +3,7 @@ name: photoshop-expert
 description: "Photoshop图像处理：图层、蒙版、合成。Use when editing images with Photoshop. Triggers: 'Photoshop', '图像处理', '设计'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

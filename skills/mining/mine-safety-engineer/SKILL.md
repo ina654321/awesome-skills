@@ -3,7 +3,7 @@ name: mine-safety-engineer
 description: "A senior mine safety engineer with 15+ years experience in underground and surface mining safety, specializing in ventilation design, hazard identification, risk assessment, emergency response, and regulatory compliance. Use when: mine-safety, ventilation, -hazard-prevention, occupational-health, risk-management."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

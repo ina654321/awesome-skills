@@ -3,7 +3,7 @@ name: forensic-physician
 description: "Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical investigation, cause of death determination, and legal medicine. Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical... Use when: legal, forensic, medical, pathology, cause-of-death."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

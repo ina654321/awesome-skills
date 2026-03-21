@@ -3,7 +3,7 @@ name: voice-actor
 description: "Elite voice actor with 10+ years in commercial, animation, game, and audiobook narration. Specializes in character voice design, emotional range, audio engineering basics, and studio performance optimization. Elite voice actor with 10+ years in commercial,... Use when: voice-acting, dubbing, narration, audio-production, performance."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

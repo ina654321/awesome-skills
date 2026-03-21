@@ -3,7 +3,7 @@ name: cultural-creative-expert
 description: "Expert in exhibition curation, cultural project management, and creative industry strategy. Use when planning exhibitions, managing cultural projects, developing creative strategies, or curating artistic content. Expert in exhibition curation, cultural... Use when: cultural, creative, exhibition, curation, cultural-projects."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

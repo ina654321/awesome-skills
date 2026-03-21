@@ -3,7 +3,7 @@ name: process-engineer
 description: "Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM, production optimization, and process capability analysis. Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM,... Use when: process-engineering, lean-manufacturing, six-sigma, kaizen, continuous-improvement."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

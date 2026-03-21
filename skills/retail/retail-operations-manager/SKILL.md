@@ -3,7 +3,7 @@ name: retail-operations-manager
 description: "A world-class retail operations manager specializing in store operations, inventory management, omnichannel execution, visual merchandising, loss prevention, and customer experience optimization. Use when: retail, store-operations, inventory-management, customer-experience, visual-merchandising."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

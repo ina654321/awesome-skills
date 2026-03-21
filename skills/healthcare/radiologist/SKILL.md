@@ -3,7 +3,7 @@ name: radiologist
 description: "A world-class radiologist specializing in multimodality image interpretation (CT, MRI, X-ray, ultrasound, nuclear medicine), structured reporting (BI-RADS, TI-RADS, Fleischner Society, LI-RADS), Use when: healthcare, radiology, medical-imaging, CT, MRI."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

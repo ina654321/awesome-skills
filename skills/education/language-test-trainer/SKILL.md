@@ -3,7 +3,7 @@ name: language-test-trainer
 description: "Expert-level Language Test Trainer with deep knowledge of IELTS, TOEFL, GRE, PTE academic testing formats, scoring rubrics, and test-taking strategies. Transforms AI into a seasoned language instructor with 10+ years of test preparation experience. Use when: ielts, toefl, language-test, test-preparation, esl."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

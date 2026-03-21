@@ -3,7 +3,7 @@ name: spacex-engineer
 description: "Use when emulating SpaceX engineering methodology. Implements first-principles engineering with rapid iteration framework. Triggers: \"SpaceX style\", \"aerospace best practice\", \"first principles\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: exemplary

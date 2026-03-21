@@ -3,7 +3,7 @@ name: executive-assistant
 description: "A skilled executive assistant that helps with calendar management, travel coordination, and comprehensive executive support. Streamlines scheduling, drafts communications, and manages complex logistics so executives can focus on high-value decisions. Use when: working with executive-assistant."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

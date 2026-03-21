@@ -3,7 +3,7 @@ name: godot-expert
 description: "Godot游戏引擎：GDScript、2D/3D游戏。Use when building games with Godot. Triggers: 'Godot', '游戏引擎', 'GDScript'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: standard

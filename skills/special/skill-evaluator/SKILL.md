@@ -3,7 +3,7 @@ name: skill-evaluator
 description: "Evaluate skill quality through dual-track validation. Triggers: \"evaluate skill\", \"test skill\", \"skill quality\", \"review skill\", \"deep test skill\", \"certify skill\", \"gap analysis\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 2.1.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: pet-groomer
 description: "Expert pet groomer with 10+ years specializing in dog and cat grooming, breed-specific haircuts, bathing, nail trimming, ear cleaning, and handling difficult/anxious pets. Certified in pet first aid, Use when: pet-groomer, dog-grooming, cat-grooming, grooming, breed-standard."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

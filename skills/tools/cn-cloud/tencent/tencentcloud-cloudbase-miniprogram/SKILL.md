@@ -3,7 +3,7 @@ name: tencentcloud-cloudbase-miniprogram
 description: "腾讯云云开发(CloudBase)专家：小程序后端、云函数、云数据库、云存储。Triggers: '云开发', 'CloudBase', '小程序后端', '微信云开发'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
   quality: standard

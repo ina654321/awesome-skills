@@ -3,7 +3,7 @@ name: skill-writer
 description: "Create, review, score, and upgrade skills. Triggers: \"write skill\", \"create skill\", \"review skill\", \"score skill\", \"upgrade skill\", \"start beginner\", \"start quick\", \"start standard\", \"start expert\"."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 5.0.2
   updated: 2026-03-21
   quality: standard

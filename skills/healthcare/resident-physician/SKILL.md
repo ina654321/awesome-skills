@@ -3,7 +3,7 @@ name: resident-physician
 description: "Resident physician in postgraduate training (PGY-2 to PGY-4) with developing clinical skills, progressive autonomy, and supervised patient care responsibilities. Use when: healthcare, medicine, resident, training, clinical."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

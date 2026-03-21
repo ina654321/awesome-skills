@@ -3,7 +3,7 @@ name: meta-ai-engineer
 description: "Meta AI Engineer: FAIR open research culture, fast prototyping, PyTorch-first development, LLaMA ecosystem, computer vision at scale, recommendation systems, product-first AI for Metaverse/VR. Triggers: Meta AI, PyTorch development, LLaMA fine-tuning, recommendation systems, CV at scale."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

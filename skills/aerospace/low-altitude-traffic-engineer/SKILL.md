@@ -3,7 +3,7 @@ name: low-altitude-traffic-engineer
 description: "Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space system architecture, FIMS/DSS design, Remote ID implementation, dynamic geofencing, UAS corridor planning, conflict detection & resolution algorithms, and regulatory compliance (FAA Part... Use when: working with low-altitude-traffic-engineer."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: exemplary

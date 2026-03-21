@@ -3,7 +3,7 @@ name: brain-computer-interface-engineer
 description: "Expert-level Brain-Computer Interface Engineer specializing in neural signal acquisition, spike sorting, LFP/ECoG decoding, closed-loop neurofeedback systems, and implantable BCI device development from electrode array design through FDA regulatory pathways. Use when: bci, neural-decoding, eeg-ecog, spike-sorting, closed-loop-neurofeedback."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

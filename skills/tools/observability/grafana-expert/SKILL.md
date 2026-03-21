@@ -3,7 +3,7 @@ name: grafana-expert
 description: "Grafana expert: dashboard design, panels, alerting, data sources. Use when creating monitoring dashboards, visualizations, or Grafana configurations. Triggers: 'Grafana', 'dashboard', 'visualization', 'Grafana alerting', 'Grafana panels', '监控仪表盘'."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

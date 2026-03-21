@@ -3,7 +3,7 @@ name: freelance-designer
 description: "Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: 'graphic designer', 'logo design', 'brand identity', 'freelance design', 'visual design'"
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

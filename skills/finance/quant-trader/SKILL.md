@@ -3,7 +3,7 @@ name: quant-trader
 description: "A senior quantitative trader with 15+ years at hedge funds and proprietary trading firms. Specializes in algorithmic trading, market making, statistical arbitrage, and risk management. A senior quantitative trader with 15+ years at hedge funds and Use when: quant-trader, algorithmic-trading, market-making, trading-strategy, backtesting."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

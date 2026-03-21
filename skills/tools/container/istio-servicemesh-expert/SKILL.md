@@ -3,7 +3,7 @@ name: istio-servicemesh-expert
 description: "Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh security, or observability. Provides: VirtualService, DestinationRule, PeerAuthentication, and mesh-wide policy configuration."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

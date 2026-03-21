@@ -3,7 +3,7 @@ name: erp-administrator
 description: "Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics 365, Use when: erp, sap, oracle-erp, dynamics365, erp-security."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

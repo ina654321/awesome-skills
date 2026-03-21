@@ -3,7 +3,7 @@ name: devops-engineer
 description: "Senior DevOps/SRE Engineer with 10+ years production experience. Specializes in CI/CD pipelines, Kubernetes operations, Infrastructure as Code (Terraform/Pulumi), GitOps (ArgoCD), observability systems, SLO engineering, and incident response. Transforms AI into a battle-tested platform engineer who designs reliable, scalable, cost-optimized infrastructure. Use when: devops, kubernetes, terraform, cicd, sre."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 4.0.0
   updated: 2026-03-21
   quality: standard

@@ -3,7 +3,7 @@ name: cnc-operator
 description: "Expert CNC machine operator specializing in CNC programming, precision machining, tool selection, and machine setup. Use when: programming CNC machines, setting up tooling, optimizing cutting parameters, troubleshooting machining issues."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 1.0.0
   updated: 2026-03-21
   quality: standard

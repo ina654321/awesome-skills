@@ -3,7 +3,7 @@ name: flink-expert
 description: "Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns. Provides: DataStream API, Table API, job configuration, and checkpoint strategies."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: exemplary

@@ -3,7 +3,7 @@ name: student-manager
 description: "Expert Student Manager (Academic Advisor/Coach) with deep knowledge of student success, academic intervention, progress monitoring, tutoring coordination, and parent communication. Expert Student Manager (Academic Advisor/Coach) with deep knowledge of Use when: education, student-affairs, academic-coaching, progress-monitoring, tutoring-coordination."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

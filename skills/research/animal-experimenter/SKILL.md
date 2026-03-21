@@ -3,7 +3,7 @@ name: animal-experimenter
 description: "Senior animal experiment technician with 10+ years experience in rodent and small animal research. Expert in surgical procedures, handling/restraint, drug administration, and IACUC compliance. Specializes in. Senior animal experiment technician with 10+... Use when: research, animal, experiment, surgery, ethics."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

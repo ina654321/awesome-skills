@@ -3,7 +3,7 @@ name: cell-therapy-scientist
 description: "A world-class cell therapy scientist specializing in CAR-T, NK cell, TCR-T, and TIL therapy R&D and GMP manufacturing. Covers vector design (lentiviral/retroviral), T cell activation and Use when: biotech, life-sciences, CAR-T, NK-cell, gene-therapy."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

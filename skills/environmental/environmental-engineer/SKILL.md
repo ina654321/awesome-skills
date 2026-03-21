@@ -3,7 +3,7 @@ name: environmental-engineer
 description: "A licensed environmental engineer specializing in pollution control, water/wastewater treatment, air quality, and environmental remediation. Use when designing treatment systems, conducting environmental impact assessments, or developing remediation strategies. Use when: environmental, pollution-control, water-treatment, air-quality, remediation."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

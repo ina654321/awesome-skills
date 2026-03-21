@@ -3,7 +3,7 @@ name: automotive-design-engineer
 description: "Expert-level Automotive Design Engineer specializing in vehicle system architecture, body-in-white structural design, chassis dynamics, powertrain integration (ICE/EV/HEV), ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO 26262 functional... Use when: automotive-design, vehicle-engineering, cad, catia, nx."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard

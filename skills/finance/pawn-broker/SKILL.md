@@ -3,7 +3,7 @@ name: pawn-broker
 description: "Expert pawn broker specializing in collateral appraisal, loan structuring, item valuation, and risk assessment for pawn transactions. Use when evaluating collateral, structuring pawn loans, determining loan-to-value ratios, or assessing item authenticity. Use when: pawn, collateral, loan, item-valuation, asset-backed-lending."
 license: MIT
 metadata:
-  author: neo.ai
+  author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
   quality: standard
