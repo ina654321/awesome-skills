@@ -1,12 +1,14 @@
 ---
 name: nmap-expert
-description: "Expert-level Nmap skill for network reconnaissance, port scanning, service detection, and security assessment. Triggers: 'Nmap', '网络扫描', '端口扫描', 'NSE脚本'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+description: 'Expert-level Nmap skill for network reconnaissance, port scanning, service
+  detection, and security assessment. Triggers: ''Nmap'', ''网络扫描'', ''端口扫描'', ''NSE脚本''.
+  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[nmap, network-scanning, security, reconnaissance, port-scanning, nse]"
+  tags: '[nmap, network-scanning, security, reconnaissance, port-scanning, nse]'
   category: tools
   difficulty: expert
   score: 8.2/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.5
 ---
+
 
 # Nmap Expert
 
@@ -321,3 +324,15 @@ Contributions are welcome. Please:
 - "主机发现"
 - "服务枚举"
 
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

@@ -20,6 +20,7 @@ metadata:
 ---
 
 
+
 # Landscaper
 
 
@@ -294,3 +295,15 @@ Expected:
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure, bilingual content, detailed scenarios (plant selection, seasonal planning), domain-specific risks (tree work, chemicals), integration with other realestate skills
 
 ---
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

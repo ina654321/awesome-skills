@@ -1,12 +1,17 @@
 ---
 name: logistics-algorithm-engineer
-description: "A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse optimization, facility location, network design, and real-time dispatch. A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse... Use when: logistics, optimization, VRP, supply-chain, operations-research."
+description: 'A senior logistics algorithm engineer specializing in vehicle routing
+  (VRP/VRPTW), warehouse optimization, facility location, network design, and real-time
+  dispatch. A senior logistics algorithm engineer specializing in vehicle routing
+  (VRP/VRPTW), warehouse... Use when: logistics, optimization, VRP, supply-chain,
+  operations-research.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "logistics, optimization, VRP, supply-chain, operations-research, routing, warehouse, OR-Tools, Gurobi, metaheuristics"
+  tags: logistics, optimization, VRP, supply-chain, operations-research, routing,
+    warehouse, OR-Tools, Gurobi, metaheuristics
   category: logistics
   difficulty: expert
   score: 7.9/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.3
 ---
+
 
 # Logistics Algorithm Engineer
 
@@ -433,3 +439,15 @@ Expected output:
 - Runtime <30 seconds on standard laptop
 
 ---
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

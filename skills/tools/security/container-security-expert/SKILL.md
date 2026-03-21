@@ -1,12 +1,14 @@
 ---
 name: container-security-expert
-description: "Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning, compliance checking, and container hardening. Triggers: '容器安全', '漏洞扫描', 'Trivy', 'Docker安全', 'K8s安全'."
+description: 'Expert-level Container Security skill using Trivy, Snyk, and other tools
+  for vulnerability scanning, compliance checking, and container hardening. Triggers:
+  ''容器安全'', ''漏洞扫描'', ''Trivy'', ''Docker安全'', ''K8s安全''.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[trivy, snyk, security, container-scanning, kubernetes, docker, vulnerability]"
+  tags: '[trivy, snyk, security, container-scanning, kubernetes, docker, vulnerability]'
   category: tools
   difficulty: expert
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.3
 ---
+
 
 # Container Security Expert
 
@@ -349,3 +352,15 @@ Contributions are welcome. Please:
 - "供应链安全"
 - "Falco"
 
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

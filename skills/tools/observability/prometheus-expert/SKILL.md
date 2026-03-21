@@ -1,12 +1,16 @@
 ---
 name: prometheus-expert
-description: "Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitoring, writing queries, or configuring alerts. Triggers: 'Prometheus', 'PromQL', 'monitoring', 'alerting', 'metrics', 'exporter', '监控'."
+description: 'Prometheus expert: PromQL, exporters, alerting rules, recording rules.
+  Use when setting up monitoring, writing queries, or configuring alerts. Triggers:
+  ''Prometheus'', ''PromQL'', ''monitoring'', ''alerting'', ''metrics'', ''exporter'',
+  ''监控''.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[prometheus, monitoring, observability, metrics, alerting, promql, exporters, prometheus-operator]"
+  tags: '[prometheus, monitoring, observability, metrics, alerting, promql, exporters,
+    prometheus-operator]'
   category: tools
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.7
 ---
+
 
 # Prometheus Expert
 
@@ -433,3 +438,15 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

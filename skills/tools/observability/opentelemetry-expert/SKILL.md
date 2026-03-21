@@ -1,12 +1,15 @@
 ---
 name: opentelemetry-expert
-description: "OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: 'OpenTelemetry', 'OTel', '可观测性', '分布式追踪', 'OTel Collector', 'instrumentation'."
+description: 'OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing
+  observability with OpenTelemetry. Triggers: ''OpenTelemetry'', ''OTel'', ''可观测性'',
+  ''分布式追踪'', ''OTel Collector'', ''instrumentation''.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[opentelemetry, observability, tracing, metrics, logs, otel, opentelemetry-collector, instrumentation]"
+  tags: '[opentelemetry, observability, tracing, metrics, logs, otel, opentelemetry-collector,
+    instrumentation]'
   category: tools
   difficulty: expert
   score: 8.2/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.7
 ---
+
 
 # OpenTelemetry Expert
 
@@ -440,3 +444,15 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

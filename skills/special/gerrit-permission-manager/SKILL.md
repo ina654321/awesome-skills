@@ -1,12 +1,15 @@
 ---
 name: gerrit-permission-manager
-description: "Expert manager for Gerrit multi-repository and multi-branch permission configurations. Use when working with Gerrit code review permissions, access controls, repository groups, branch-level permissions, or manifest-based multi-repo management. Use when: gerrit, permissions, code-review, access-control, devops."
+description: 'Expert manager for Gerrit multi-repository and multi-branch permission
+  configurations. Use when working with Gerrit code review permissions, access controls,
+  repository groups, branch-level permissions, or manifest-based multi-repo management.
+  Use when: gerrit, permissions, code-review, access-control, devops.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  tags: "gerrit, permissions, code-review, access-control, devops"
+  tags: gerrit, permissions, code-review, access-control, devops
   category: special
   difficulty: expert
   score: 8.5/10
@@ -16,6 +19,7 @@ metadata:
   variance: 0.5
   certified: true
 ---
+
 
 # Gerrit Permission Manager
 
@@ -558,3 +562,15 @@ Expected response includes:
 ---
 
 **License:** MIT License — Copyright (c) 2026 Neo.ai
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

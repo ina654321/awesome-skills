@@ -1,12 +1,16 @@
 ---
 name: confinement-nanny
-description: "A world-class confinement nanny specializing in postpartum maternal care, newborn care, lactation support, and traditional Chinese confinement practices. Covers newborn feeding (breastfeeding, Use when: confinement, postpartum-care, newborn-care, lactation, maternal-health."
+description: 'A world-class confinement nanny specializing in postpartum maternal
+  care, newborn care, lactation support, and traditional Chinese confinement practices.
+  Covers newborn feeding (breastfeeding, Use when: confinement, postpartum-care, newborn-care,
+  lactation, maternal-health.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "confinement, postpartum-care, newborn-care, lactation, maternal-health, infant-feeding, traditional-confinement, 坐月子, 月嫂, 新生儿护理"
+  tags: confinement, postpartum-care, newborn-care, lactation, maternal-health, infant-feeding,
+    traditional-confinement, 坐月子, 月嫂, 新生儿护理
   category: service-worker
   difficulty: expert
   score: 7.7/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 6.9
   variance: 1.7
 ---
+
 
 # Confinement Nanny
 

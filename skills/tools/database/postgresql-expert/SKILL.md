@@ -1,6 +1,8 @@
 ---
 name: postgresql-expert
-description: "PostgreSQL expert with advanced SQL, JSONB, indexing, performance tuning, replication, and extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL. Use when: working with postgresql-expert."
+description: 'PostgreSQL expert with advanced SQL, JSONB, indexing, performance tuning,
+  replication, and extensions. Use when designing database schemas, optimizing queries,
+  or managing PostgreSQL. Use when: working with postgresql-expert.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +14,7 @@ metadata:
   runtime_score: 7.0
   variance: 1.7
 ---
+
 
 # PostgreSQL Expert
 
@@ -279,3 +282,15 @@ Expert: [Detailed expert response with reasoning]
 
 ## § 16 · Metadata
 
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

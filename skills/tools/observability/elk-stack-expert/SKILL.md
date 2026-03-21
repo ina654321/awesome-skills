@@ -1,12 +1,15 @@
 ---
 name: elk-stack-expert
-description: "ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log analytics with ELK Stack. Triggers: 'ELK', '日志分析', 'Elasticsearch', 'Kibana', 'Logstash', 'Elastic Stack'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+description: 'ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。Use when building log
+  analytics with ELK Stack. Triggers: ''ELK'', ''日志分析'', ''Elasticsearch'', ''Kibana'',
+  ''Logstash'', ''Elastic Stack''. Works with: Claude Code, Codex, OpenCode, Cursor,
+  Cline, OpenClaw, Kimi.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[elk, elasticsearch, logstash, kibana, logging, elastic, observability, siem]"
+  tags: '[elk, elasticsearch, logstash, kibana, logging, elastic, observability, siem]'
   category: tools
   difficulty: expert
   score: 8.1/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.1
   variance: 2.0
 ---
+
 
 # ELK Stack Expert
 
@@ -454,3 +458,15 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ---
 
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."

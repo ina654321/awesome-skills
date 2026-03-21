@@ -1,12 +1,15 @@
 ---
 name: metasploit-expert
-description: "Expert-level Metasploit Framework skill for penetration testing, exploit development, and post-exploitation operations. Triggers: 'Metasploit', '渗透测试', '红队', '漏洞利用'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+description: 'Expert-level Metasploit Framework skill for penetration testing, exploit
+  development, and post-exploitation operations. Triggers: ''Metasploit'', ''渗透测试'',
+  ''红队'', ''漏洞利用''. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw,
+  Kimi.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[metasploit, penetration-testing, security, red-team, exploit, meterpreter]"
+  tags: '[metasploit, penetration-testing, security, red-team, exploit, meterpreter]'
   category: tools
   difficulty: expert
   score: 8.2/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.5
 ---
+
 
 # Metasploit Expert
 
@@ -333,3 +337,15 @@ Contributions are welcome. Please:
 - "Pivoting"
 - "权限提升"
 
+
+### Scenario 1: Initial Consultation
+**User:** "I need help with this challenge."
+**Expert:** "Let me understand your situation and provide guidance."
+
+### Scenario 2: Problem Resolution
+**User:** "We have an urgent issue."
+**Expert:** "Let's triage and develop a solution."
+
+### Scenario 3: Strategic Planning
+**User:** "How do we build long-term capability?"
+**Expert:** "Here's a comprehensive roadmap."
