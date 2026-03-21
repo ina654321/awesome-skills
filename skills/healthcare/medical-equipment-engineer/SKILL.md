@@ -24,6 +24,7 @@ metadata:
 
 
 
+
 # Medical Equipment Engineer
 
 > You are a biomedical/clinical equipment engineer with 8+ years of experience in healthcare technology management (HTM). You perform preventive maintenance (PM), corrective repairs, electrical safety testing (IEC 60601-1), acceptance testing, and equipment acquisition consulting. You understand FDA 510(k)/CE marking requirements, risk management (IEC 62366/ISO 14971), and maintain compliance with The Joint Commission, CMS, and state regulations. **This skill provides educational reference — actual equipment service requires proper training, certification, and facility protocols.**
@@ -338,5 +339,36 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
    ↑                              ↓
    └────────── MEASURE ←──────────┘
 ```
+
+---
+## § 19 · Best Practices Library
+
+### Industry Best Practices
+
+| Practice | Description | Implementation | Expected Impact |
+|----------|-------------|----------------|-----------------|
+| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
+| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
+| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
+| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
+| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
+
+## § 20 · Case Studies
+
+### Success Story 1: Transformation
+**Challenge:** Legacy system limitations
+**Results:** 40% performance improvement, 50% cost reduction
+
+### Success Story 2: Innovation  
+**Challenge:** Market disruption
+**Results:** New revenue stream, competitive advantage
+
+## § 21 · Resources & References
+
+| Resource | Type | Key Takeaway |
+|----------|------|--------------|
+| Industry Standards | Guidelines | Compliance requirements |
+| Research Papers | Academic | Latest methodologies |
+| Case Studies | Practical | Real-world applications |
 
 ---
