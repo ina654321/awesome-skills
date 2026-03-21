@@ -41,51 +41,20 @@ jobs:
       - name: Run comprehensive evaluation
         id: evaluate
         run: |
-          echo "🔍 Starting comprehensive skill evaluation..."
+          echo "Starting comprehensive skill evaluation..."
           python3 scripts/comprehensive_skill_evaluation.py \
             --output reports/evaluation_report.json \
             --format both
-          echo "✅ Evaluation complete"
+          echo "Evaluation complete"
       
       - name: Generate skills data for website
         run: |
-          echo "🔍 Generating skills data..."
+          echo "Generating skills data..."
           python3 scripts/generate_skills_data.py
-          echo "✅ Skills data generated"
+          echo "Skills data generated"
       
       - name: Display evaluation summary
-        run: |
-          python3 << 'PYTHON_EOF'
-          import json
-          
-          with open('reports/evaluation_report.json') as f:
-              data = json.load(f)
-          
-          summary = data['summary']
-          
-          print("="*70)
-          print("📊 STEP 1 COMPLETE: EVALUATION RESULTS")
-          print("="*70)
-          print()
-          print(f"Total Skills Evaluated: {summary['total_skills']}")
-          print()
-          print("📈 Quality Scores:")
-          print(f"  Text Quality:     {summary['text_quality']['average']:.2f}/10")
-          print(f"  Runtime Quality:  {summary['runtime_quality']['average']:.2f}/10")
-          print(f"  Dual-Track:       {summary['dual_track']['average']:.2f}/10")
-          print()
-          print("🏆 Certification Status:")
-          for status, count in summary['certifications'].items():
-              pct = count / summary['total_skills'] * 100
-              print(f"  {status}: {count} ({pct:.1f}%)")
-          print()
-          print("📋 Top 5 Skills:")
-          top5 = sorted(data['evaluations'], key=lambda x: -x['dual_track_score'])[:5]
-          for i, skill in enumerate(top5, 1):
-              print(f"  {i}. {skill['skill_name']}: {skill['dual_track_score']:.2f}")
-          print()
-          print("="*70)
-          PYTHON_EOF
+        run: python3 scripts/display_evaluation_summary.py
       
       - name: Upload evaluation artifacts
         uses: actions/upload-artifact@v4
@@ -94,6 +63,7 @@ jobs:
           path: |
             reports/evaluation_report.json
             reports/evaluation_report.html
+            assets/js/skills-data.js
           retention-days: 30
 
   # ============================================================================
@@ -113,26 +83,18 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: evaluation-report
-          path: reports
+          path: .
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./reports
-          destination_dir: reports
-          keep_files: true
-      
-      - name: Verify Pages deployment
-        run: |
-          echo "✅ STEP 2 COMPLETE: GitHub Pages updated"
-          echo "📄 Report URL: https://theneoai.github.io/awesome-skills/reports/evaluation_report.html"
+          path: .
 
   # ============================================================================
-  # STEP 3: Update README & Project Config
+  # STEP 3: Update README & Project Config  
   # ============================================================================
   step3-update-config:
     name: "Step 3: Update README & Project Config"
@@ -150,144 +112,20 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: evaluation-report
-          path: reports
+          path: .
       
-      - name: Update README with latest stats
-        run: |
-          python3 << 'PYTHON_EOF'
-          import json
-          import re
-          from datetime import datetime
-          
-          # Load evaluation data
-          with open('reports/evaluation_report.json') as f:
-              data = json.load(f)
-          
-          summary = data['summary']
-          
-          # Read README
-          with open('README.md') as f:
-              readme = f.read()
-          
-          # Update stats section
-          stats_section = f"""<!-- STATS_START -->
-## 📊 Project Statistics
-
-| Metric | Value |
-|--------|-------|
-| **Total Skills** | {summary['total_skills']} |
-| **Average Quality** | {summary['dual_track']['average']:.2f}/10 |
-| **Text Quality** | {summary['text_quality']['average']:.2f}/10 |
-| **Runtime Quality** | {summary['runtime_quality']['average']:.2f}/10 |
-| **Last Updated** | {datetime.now().strftime('%Y-%m-%d')} |
-
-### Quality Distribution
-
-| Tier | Count | Percentage |
-|------|-------|------------|
-| Exemplary (8.0+) | {summary['tiers'].get('exemplary', 0)} | {summary['tiers'].get('exemplary', 0) / summary['total_skills'] * 100:.1f}% |
-| Expert (7.0-7.9) | {summary['tiers'].get('expert', 0)} | {summary['tiers'].get('expert', 0) / summary['total_skills'] * 100:.1f}% |
-| Community (5.0-6.9) | {summary['tiers'].get('community', 0)} | {summary['tiers'].get('community', 0) / summary['total_skills'] * 100:.1f}% |
-| Basic (<5.0) | {summary['tiers'].get('basic', 0)} | {summary['tiers'].get('basic', 0) / summary['total_skills'] * 100:.1f}% |
-
-📈 [View Full Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)
-<!-- STATS_END -->"""
-          
-          # Replace stats section
-          pattern = r'<!-- STATS_START -->.*?<!-- STATS_END -->'
-          if re.search(pattern, readme, re.DOTALL):
-              readme = re.sub(pattern, stats_section, readme, flags=re.DOTALL)
-          
-          # Write back
-          with open('README.md', 'w') as f:
-              f.write(readme)
-          
-          print("✅ README.md updated")
-          PYTHON_EOF
-      
-      - name: Update index.html stats
-        run: |
-          python3 << 'PYTHON_EOF'
-          import json
-          import re
-          
-          # Load evaluation data
-          with open('reports/evaluation_report.json') as f:
-              data = json.load(f)
-          
-          summary = data['summary']
-          
-          # Read index.html
-          with open('index.html') as f:
-              html = f.read()
-          
-          # Update stats
-          html = re.sub(r'<div class="stat-number">\d+</div><div class="stat-label">Skills</div>', 
-                        f'<div class="stat-number">{summary["total_skills"]}</div><div class="stat-label">Skills</div>', html)
-          
-          # Add or update quality stat
-          if 'Avg Quality' not in html:
-              # Add quality stat before closing stats div
-              html = re.sub(
-                  r'(<div class="stat"><div class="stat-number">7</div><div class="stat-label">Platforms</div></div>)',
-                  r'\1\n            <div class="stat"><div class="stat-number">{:.1f}</div><div class="stat-label">Avg Quality</div></div>'.format(summary['dual_track']['average']),
-                  html
-              )
-          else:
-              html = re.sub(
-                  r'<div class="stat-number">[\d.]+</div><div class="stat-label">Avg Quality</div>',
-                  f'<div class="stat-number">{summary["dual_track"]["average"]:.1f}</div><div class="stat-label">Avg Quality</div>',
-                  html
-              )
-          
-          # Write back
-          with open('index.html', 'w') as f:
-              f.write(html)
-          
-          print("✅ index.html updated")
-          PYTHON_EOF
-      
-      - name: Create JavaScript data file
-        run: |
-          python3 << 'PYTHON_EOF'
-          import json
-          from pathlib import Path
-          
-          # Load evaluation data
-          with open('reports/evaluation_report.json') as f:
-              data = json.load(f)
-          
-          # Create assets/js directory if not exists
-          Path('assets/js').mkdir(parents=True, exist_ok=True)
-          
-          # Create JavaScript data file
-          js_data = f"""// Auto-generated skill statistics
-window.SKILL_STATS = {json.dumps(data['summary'], indent=2)};
-window.SKILL_EVALUATIONS = {json.dumps(data['evaluations'][:50], indent=2)};
-window.EVALUATION_TIMESTAMP = "{datetime.now().isoformat()}";
-"""
-          
-          Path('assets/js/skill-stats.js').write_text(js_data)
-          print("✅ assets/js/skill-stats.js created")
-          PYTHON_EOF
+      - name: Update README and index.html
+        run: python3 scripts/update_project_files.py
       
       - name: Commit and push updates
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md index.html assets/js/ reports/
-          
           if git diff --staged --quiet; then
-            echo "ℹ️ No changes to commit"
+            echo "No changes to commit"
           else
-            git commit -m "chore: auto-update project stats and config [ci skip]
-
-- Update README.md with latest evaluation statistics
-- Update index.html with current skill counts and quality scores
-- Update assets/js/skill-stats.js with evaluation data
-- Sync reports to repository
-
-Generated by: Comprehensive Skill Evaluation workflow"
+            git commit -m "chore: auto-update project stats and config [ci skip]"
             git push
-            echo "✅ STEP 3 COMPLETE: README and project config updated"
+            echo "README and project config updated"
           fi
