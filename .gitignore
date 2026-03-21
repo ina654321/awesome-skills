@@ -1,19 +1,19 @@
-# 敏感信息
-.env
-.env.local
-*.key
-*.pem
-secrets/
-
-# 依赖
-node_modules/
-__pycache__/
-
-# 构建
-site/
-dist/
-
-# 临时文件
-tmp/
-*.tmp
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Logs
+*.log
