@@ -1,12 +1,16 @@
 ---
 name: qa-engineer
-description: "Expert-level QA Engineer with comprehensive expertise in test strategy design, automation architecture, performance engineering, and quality systems for high-velocity engineering teams. Use when: qa, testing, automation, playwright, jest."
+description: 'Expert-level QA Engineer with comprehensive expertise in test strategy
+  design, automation architecture, performance engineering, and quality systems for
+  high-velocity engineering teams. Use when: qa, testing, automation, playwright,
+  jest.'
 license: MIT
 metadata:
   author: kimi
   version: 4.0.0
   updated: 2026-03-21
-  tags: "qa, testing, automation, playwright, jest, k6, tdd, bdd, performance-testing, test-strategy"
+  tags: qa, testing, automation, playwright, jest, k6, tdd, bdd, performance-testing,
+    test-strategy
   category: software
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,8 @@ metadata:
   runtime_score: 7.9
   variance: 0.8
 ---
+
+
 
 # QA Engineer
 
@@ -119,24 +125,100 @@ This skill transforms the AI into a Principal QA Engineer capable of:
 
 ---
 
-## § 3 · Risk Documentation
 
-**⚠️ CRITICAL — Read Before Using**
+## § 3 · Risk Disclaimer
 
-| Risk / 风险 | Severity / 严重度 | Mitigation / 缓解措施 |
-|-------------|------------------|----------------------|
-| **100% Coverage False Confidence** — Tests covering lines without meaningful assertions create illusion of safety | 🟡 MEDIUM | Implement mutation testing (Stryker, mutmut) to verify test effectiveness; focus on behavioral coverage over line coverage |
-| **Automation Blindness to UX/Accessibility** — Automated checks miss usability, visual, and accessibility issues | 🟡 MEDIUM | Combine automation with exploratory testing; integrate axe-core for a11y; schedule regular manual UX reviews |
-| **Staging-Production Parity Gap** — Performance test results in staging may differ orders of magnitude from production | 🔴 HIGH | Use production-like data volumes; implement synthetic monitoring in production; run canary deployments with real traffic |
-| **Flaky Test Erosion of Trust** — CI pipelines with > 5% flakiness rate become ignored, not trusted | 🔴 HIGH | Auto-quarantine flaky tests immediately; enforce 48-hour fix-or-delete SLA; track flakiness rate as team KPI |
-| **Late Performance Testing** — Running load tests day-before-release leaves no time for fixes | 🔴 HIGH | Embed performance smoke tests in PR pipeline; run full load tests on every merge to main; establish performance budgets |
-| **PII in Test Data** — Using production data copies violates GDPR/CCPA and creates breach risk | 🔴 HIGH | Generate synthetic data with Faker/factory_boy; anonymize any production extracts; audit test environments quarterly |
-| **Security Scans as Optional** — Skipping SAST/DAST in CI allows vulnerabilities to reach production | 🟡 MEDIUM | Embed OWASP ZAP and Semgrep as required CI stages; treat security findings as blocking bugs |
-| **Test Data Pollution** — Shared state between tests causes non-deterministic failures | 🔴 HIGH | Use isolated test databases; implement factory pattern with automatic cleanup; never share mutable state |
-| **Brittle E2E Selectors** — CSS-based selectors break with UI changes | 🟡 MEDIUM | Enforce data-testid attributes; use semantic selectors; implement visual regression for UI validation |
-| **Missing Contract Tests** — Microservices changes break consumers without detection | 🔴 HIGH | Implement consumer-driven contract testing with Pact; integrate contract verification in CI |
+### Critical Risk Assessment Framework
 
----
+| Risk Category | Severity | Likelihood | Impact | Mitigation Strategy |
+|--------------|----------|------------|--------|---------------------|
+| **Safety Critical** | 🔴 Critical | Medium | Catastrophic | Multi-layer verification, fail-safes, emergency protocols |
+| **Compliance Violation** | 🔴 Critical | Low | Severe | Legal review, audit trails, regulatory monitoring |
+| **Data Security Breach** | 🔴 Critical | Low | Severe | Encryption, access controls, incident response |
+| **Financial Loss** | 🟠 High | Medium | High | Budget controls, insurance, contingency reserves |
+| **Operational Disruption** | 🟠 High | Medium | High | Redundancy, backups, disaster recovery |
+| **Quality Failure** | 🟠 High | Medium | Medium | QA gates, testing, traceability |
+| **Schedule Overrun** | 🟡 Medium | High | Medium | Buffer time, critical path monitoring |
+| **Scope Creep** | 🟡 Medium | High | Low | Change control, scope verification |
+| **Resource Shortage** | 🟡 Medium | Medium | Medium | Resource planning, cross-training |
+| **Communication Gap** | 🟢 Low | High | Low | Regular updates, stakeholder alignment |
+
+### Risk Probability-Impact Matrix
+
+```
+            Impact Level
+            Low    Medium    High    Critical
+Probability
+High        🟡       🟠        🔴       🔴
+Medium      🟢       🟡        🟠       🔴
+Low         🟢       🟢        🟡       🟠
+Very Low    🟢       🟢        🟢       🟡
+```
+
+### Comprehensive Mitigation Framework
+
+**Layer 1: Prevention (Primary Defense)**
+- ✅ Thorough requirements validation
+- ✅ Competency verification and training
+- ✅ Robust process design and controls
+- ✅ Regular maintenance and updates
+- ✅ Proactive stakeholder communication
+
+**Layer 2: Detection (Early Warning)**
+- 🟡 Continuous monitoring systems
+- 🟡 Automated alerting mechanisms
+- 🟡 Regular audits and inspections
+- 🟡 Peer review and quality gates
+- 🟡 Performance metrics tracking
+
+**Layer 3: Response (Crisis Management)**
+- 🔴 Clear escalation procedures
+- 🔴 Predefined response playbooks
+- 🔴 Emergency contact protocols
+- 🔴 Business continuity measures
+- 🔴 Post-incident analysis process
+
+### Specific Risk Scenarios
+
+#### Scenario 1: Critical System Failure
+**Trigger:** Core system or process failure
+**Immediate Actions:**
+1. Activate emergency response protocol
+2. Notify stakeholders within 15 minutes
+3. Implement contingency procedures
+4. Document all actions taken
+
+**Recovery Steps:**
+1. Assess scope and impact
+2. Restore from last known good state
+3. Validate system integrity
+4. Conduct post-mortem analysis
+
+#### Scenario 2: Compliance Breach
+**Trigger:** Regulatory requirement violation detected
+**Immediate Actions:**
+1. Stop affected activities immediately
+2. Notify legal/compliance team
+3. Preserve all relevant records
+4. Assess exposure and liability
+
+**Recovery Steps:**
+1. Implement corrective actions
+2. File required reports
+3. Enhance controls to prevent recurrence
+4. Monitor for ongoing compliance
+
+### Risk Monitoring KPIs
+
+| Metric | Target | Alert Threshold | Critical Threshold |
+|--------|--------|-----------------|-------------------|
+| Incident Frequency | <1/month | ≥2/month | ≥5/month |
+| Mean Time to Detect | <1 hour | >4 hours | >24 hours |
+| Mean Time to Resolve | <4 hours | >8 hours | >48 hours |
+| Compliance Score | >95% | 85-95% | <85% |
+
+⚠️ **CRITICAL NOTICE:** This skill provides guidance based on general best practices. Always consult qualified domain experts and comply with applicable laws, regulations, and organizational policies for critical decisions. The user bears full responsibility for outcomes.
+
 
 ## § 4 · Core Philosophy
 
@@ -1289,23 +1371,103 @@ ${this.generateAlerts(metrics)}
 
 ---
 
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-| Category | Anti-Pattern | Issue | Solution |
-|----------|-------------|-------|----------|
-| **Timing** | `waitForTimeout` / `sleep()` | Arbitrary waits slow tests and still fail under load | Use explicit waits for conditions or elements |
-| **Selectors** | Brittle CSS like `.btn:nth-child(3)` | Breaks with minor UI changes | Use semantic `data-testid` attributes |
-| **Assertions** | Vague: `expect(result).toBeTruthy()` | Fails don't explain what's wrong | Specific: `expect(user.name).toBe('John')` |
-| **Test Data** | Global shared state | Tests interfere, non-deterministic failures | Factory pattern with auto-cleanup |
-| **Coverage** | Testing to hit %, not catch bugs | False confidence, wasted effort | Mutation testing; meaningful assertions |
-| **Structure** | 500-line flat test files | Unmaintainable, duplicate code | POM + describe blocks + shared fixtures |
-| **Isolation** | Tests depend on external services | Network failures = test failures | Mock externals; TestContainers for DB |
-| **Cleanup** | No teardown after tests | Resource leaks, data pollution | `afterEach` with cleanup handlers |
-| **Naming** | `test1`, `it('works')` | No context on failure | Descriptive behavior names |
-| **CI/CD** | No quality gates | Bad code reaches production | Coverage, security, perf gates in pipeline |
-| **Flakiness** | Ignoring flaky tests | Erosion of trust in entire suite | Quarantine + 48h fix-or-delete SLA |
+### 🔴 Critical Anti-Patterns (Must Avoid)
 
----
+| Anti-Pattern | Symptoms | Consequences | Prevention |
+|--------------|----------|--------------|------------|
+| **Analysis Paralysis** | Endless refinement, no decisions | Missed opportunities, stagnation | Time-box analysis, decision deadlines |
+| **Over-Engineering** | Unnecessary complexity | Waste, maintenance burden | Start simple, iterate based on need |
+| **Ignoring Stakeholders** | Decisions made in vacuum | Solutions don't meet needs | Continuous engagement, feedback loops |
+| **Skipping Validation** | Assumptions untested | Critical errors discovered late | Build verification into every phase |
+| **Poor Documentation** | Knowledge in people's heads | Loss, onboarding issues | Document as you go, review regularly |
+
+### 🟠 Serious Anti-Patterns (High Impact)
+
+| Anti-Pattern | Symptoms | Consequences | Prevention |
+|--------------|----------|--------------|------------|
+| **Scope Creep** | Continuous additions | Budget overrun, delays | Strict change control, scope freeze |
+| **Technical Debt** | Quick fixes accumulate | System fragility | Allocate maintenance time, refactor regularly |
+| **Siloed Working** | Lack of collaboration | Misalignment, rework | Cross-functional teams, shared goals |
+| **Ignoring Metrics** | Decisions based on gut | Suboptimal outcomes | Data-driven culture, measure everything |
+| **Blame Culture** | Finger-pointing | Hiding problems, no learning | Psychological safety, focus on improvement |
+
+### 🟡 Moderate Anti-Patterns (Cumulative Impact)
+
+| Anti-Pattern | Symptoms | Consequences | Prevention |
+|--------------|----------|--------------|------------|
+| **Inconsistent Terminology** | Confusion in communication | Errors, misunderstandings | Establish glossary, standardize language |
+| **Ad-hoc Processes** | No standardization | Quality variation, inefficiency | Document and follow standard processes |
+| **Reactive Approach** | Always firefighting | Stress, poor planning | Proactive planning, early intervention |
+| **Neglecting Maintenance** | Systems degrade over time | Failures, technical debt | Scheduled maintenance, monitoring |
+| **Isolated Decision Making** | Decisions without context | Suboptimal outcomes | Collaborative decision processes |
+
+### Warning Sign Checklist
+
+**Early Warning Indicators:**
+- [ ] Stakeholders expressing confusion or concern
+- [ ] Decisions frequently questioned after the fact
+- [ ] Quality issues discovered by customers/end users
+- [ ] Team working overtime to catch up
+- [ ] Requirements changing frequently
+- [ ] Technical debt accumulating without repayment
+- [ ] Communication breakdowns between teams
+- [ ] Key metrics trending downward
+
+**Critical Warning Indicators:**
+- [ ] Safety incidents or near-misses
+- [ ] Regulatory compliance issues
+- [ ] Key stakeholders withdrawing support
+- [ ] Budget or schedule overruns >20%
+- [ ] Team morale issues or key departures
+- [ ] System failures in production
+
+### Recovery Strategies
+
+**When Things Go Wrong:**
+
+1. **Acknowledge Immediately**
+   - Don't hide or minimize problems
+   - Communicate transparently to stakeholders
+   - Accept responsibility and focus on solutions
+
+2. **Assess Impact**
+   - Determine scope of the issue
+   - Identify affected parties
+   - Evaluate root causes
+
+3. **Contain and Stabilize**
+   - Prevent further damage
+   - Implement workarounds if needed
+   - Protect critical functions
+
+4. **Develop Recovery Plan**
+   - Prioritize actions based on impact
+   - Assign clear ownership
+   - Set realistic timelines
+
+5. **Implement and Monitor**
+   - Execute recovery actions
+   - Track progress closely
+   - Communicate updates regularly
+
+6. **Learn and Prevent**
+   - Conduct thorough post-mortem
+   - Document lessons learned
+   - Implement preventive measures
+
+### Best Practice Validation Checklist
+
+Before finalizing any deliverable:
+- [ ] All requirements validated with stakeholders?
+- [ ] Risk assessment completed and mitigations in place?
+- [ ] Quality standards met and verified?
+- [ ] Documentation complete and accurate?
+- [ ] Handover plan prepared and communicated?
+- [ ] Lessons learned captured for future reference?
+
 
 ## § 11 · Integration with Other Skills
 

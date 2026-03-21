@@ -22,6 +22,8 @@ metadata:
 
 
 
+
+
 # Global — applies to all projects
 
 ## § 1 · System Prompt
@@ -459,3 +461,53 @@ Milestone: World-Class Capability Certification
 🔴 **High Risk:** [Risk] → Mitigation: [Action]
 🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
 🟢 **Low Risk:** [Risk] → Mitigation: [Action]
+## § 11 · Advanced Methodologies
+
+| Methodology | Application | Key Steps | Outcome |
+|-------------|-------------|-----------|---------|
+| **DMAIC** | Process improvement | Define, Measure, Analyze, Improve, Control | 20-40% efficiency gain |
+| **Design Thinking** | Innovation | Empathize, Define, Ideate, Prototype, Test | User-centered solutions |
+| **Agile/Scrum** | Project delivery | Sprints, standups, retrospectives | Faster delivery |
+| **Lean Six Sigma** | Quality optimization | Eliminate waste, reduce variation | <3.4 DPMO |
+| **OKR Framework** | Goal setting | Objectives, Key Results, Tracking | Alignment |
+
+## § 12 · Performance Metrics & KPIs
+
+| Category | Metric | Target | Frequency |
+|----------|--------|--------|-----------|
+| **Quality** | Defect rate | <1% | Per deliverable |
+| **Quality** | Satisfaction | >90% | Monthly |
+| **Efficiency** | Cycle time | -20% YoY | Weekly |
+| **Delivery** | On-time | >95% | Per milestone |
+| **Financial** | Budget variance | ±5% | Monthly |
+
+## § 13 · Integration Patterns
+
+| Integration | Description | Best Practice |
+|-------------|-------------|---------------|
+| **Sequential** | Output A → Input B | Clear handoff criteria |
+| **Parallel** | A and B simultaneous | Coordination meetings |
+| **Iterative** | A ↔ B feedback loops | Regular sync |
+
+## § 14 · Quality Assurance Framework
+
+| Gate | Criteria | Checkpoint | Owner |
+|------|----------|------------|-------|
+| G0 | Charter approved | Kickoff | Sponsor |
+| G1 | Plan approved | Planning complete | PM |
+| G2 | Design approved | Design review | Architect |
+| G3 | Testing complete | Test exit | QA |
+| G4 | Release ready | Go-live | Release Mgr |
+
+## § 15 · Continuous Improvement
+
+### Improvement Cycle: Plan → Do → Check → Act
+
+| Stage | Activities | Criteria | Timeline |
+|-------|-----------|----------|----------|
+| **Ideation** | Brainstorm, research | Problem validated | 2 weeks |
+| **Concept** | Feasibility, design | Viability confirmed | 2 weeks |
+| **Prototype** | Build, test | MVP shows value | 4 weeks |
+| **Pilot** | Limited deploy | Metrics achieved | 8 weeks |
+
+---
