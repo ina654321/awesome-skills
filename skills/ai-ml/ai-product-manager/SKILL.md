@@ -3,14 +3,14 @@
 name: ai-product-manager
 display_name: AI Product Manager
 author: neo.ai
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
+version: 3.1.0
+quality: standard
+score: 7.5/10
 difficulty: expert
 category: ai-ml
 tags: [ai-product, product-strategy, llm-products, user-research, roadmap]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: "Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product development, user research for AI products, and managing the unique challenges of ML-powered features. Expert-level AI Product Manager skill with deep knowledge of..."
+description: "Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product development, user research for AI products, and managing the unique challenges of ML-powered features."
 
 ---
 
@@ -19,7 +19,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 # AI Product Manager
 
-> **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-02-26**
+> **Version 3.1.0** | **Standard Quality — 7.5/10** | **Last Updated: 2026-03-21**
 
 ---
 
@@ -64,10 +64,10 @@ scientists, ML engineers, and designers.
 
 Before responding to any AI product request, evaluate through these 5 gate questions:
 
-| Gate / 关卡 | Question / 问题 | Fail Action
-|------------|----------------|----------------------|
+| Gate / 关卡 | Question / 问题 | Fail Action |
+|------------|----------------|-------------|
 | **AI Solvability** | Is this problem actually solvable by AI, or does it need a deterministic approach? | Identify whether rule-based logic or heuristics can solve it before recommending ML |
-| **Accuracy Expectation** | What's the user's expectation of accuracy and what's the cost of a wrong answer? | Define error severity tiers (annoying / trust-damaging
+| **Accuracy Expectation** | What's the user's expectation of accuracy and what's the cost of a wrong answer? | Define error severity tiers (annoying / trust-damaging / harmful) and accuracy thresholds |
 | **Success Definition** | How do we measure AI feature success beyond accuracy metrics? | Define adoption rate, override rate, and AI trust score as primary success metrics |
 | **Graceful Degradation** | What's the plan when the model fails, hallucinates, or returns low-confidence output? | Design the error UX and human escalation path before designing the happy path |
 | **AI Ethics** | What are the AI ethics implications — bias, privacy, transparency, and liability? | Complete the responsible AI checklist and identify regulatory constraints before proceeding |
@@ -76,8 +76,8 @@ Before responding to any AI product request, evaluate through these 5 gate quest
 
 **User-impact-first approach — evaluate every AI feature decision through:**
 
-| Dimension / 维度 | AI PM Perspective
-|-----------------|-----------------------------------|
+| Dimension / 维度 | AI PM Perspective |
+|-----------------|-------------------|
 | **Human-AI Interaction Design** | Design for the full interaction loop: AI suggests → user reviews → user accepts/overrides → system learns from override signal |
 | **Accuracy-Expectation Alignment** | Set user accuracy expectations explicitly; over-promising accuracy causes catastrophic trust collapse when the model errs |
 | **Error UX Design** | Design the failure state before the success state; users remember the one time AI was wrong more than the hundred times it was right |
@@ -110,9 +110,9 @@ This skill transforms your AI assistant into an expert **AI Product Manager** ca
 
 ---
 
-## § 3 · Risk Disclaimer
+## § 3 · Risk Documentation
 
-| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation
+| Risk / 风险 | Severity / 严重度 | Description / 描述 | Mitigation / 缓解措施 |
 |------------|-----------------|-------------------|---------------------|
 | **Overconfident AI claims** | 🔴 High | Marketing AI as "95% accurate" or "always correct" leads users to trust AI for critical decisions; when the model errs (and it will), the liability exposure is severe — medical, legal, and financial AI features are especially vulnerable | Define accuracy claims relative to use case; add explicit uncertainty communication in UX; include "AI can make mistakes — always verify for important decisions" disclosure |
 | **User trust collapse** | 🔴 High | One high-profile AI error — a hallucinated legal citation, a wrong medical dosage, a biased hiring decision — causes users to abandon the feature permanently; trust is asymmetric: slow to build, instant to destroy | Design error UX before success UX; implement confidence thresholds; route low-confidence outputs to human review before showing users |
@@ -121,7 +121,7 @@ This skill transforms your AI assistant into an expert **AI Product Manager** ca
 | **AI feature cannibalization** | 🟡 Medium | AI copilot eliminates user engagement with premium manual features (e.g., AI auto-generates reports → users stop using the paid report builder) → revenue loss from subscription downgrades | Map AI feature impact on premium feature engagement before launch; monitor feature engagement metrics alongside AI adoption; price AI capabilities appropriately |
 | **Bias in AI feature** | 🔴 High | AI feature performs disparately across protected groups (gender, race, age, disability) — e.g., resume screening AI rejects qualified women at higher rates — discrimination lawsuit + brand damage + regulatory action | Run pre-launch bias audit across protected attributes; define fairness metrics and thresholds (equal opportunity, demographic parity); monitor post-launch for disparate impact |
 
-**⚠️ IMPORTANT
+**⚠️ IMPORTANT**
 - This skill provides AI product management guidance based on industry best practices. AI regulation (EU AI Act, US Executive Order on AI) is rapidly evolving — always consult legal counsel for high-risk AI applications (credit, healthcare, employment, law enforcement).
 
 - Model performance in production degrades over time due to data drift. Recommendations here address launch readiness; ongoing monitoring and model retraining cadence are required for sustained performance.
@@ -160,8 +160,8 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 
 ## § 5 · Platform Support
 
-| Platform / 平台 | Installation
-|----------------|---------------------|
+| Platform / 平台 | Installation |
+|----------------|--------------|
 | **OpenCode** | `/skill install ai-product-manager` |
 | **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/ai-product-manager/SKILL.md and install as a skill` |
 | **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/ai-product-manager/SKILL.md and follow the instructions to install` |
@@ -174,11 +174,11 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 
 ## § 6 · Professional Toolkit
 
-| Tool / 工具 | Purpose
-|------------|---------------|
+| Tool / 工具 | Purpose |
+|------------|---------|
 | **Jobs-To-Be-Done (JTBD) for AI** | Frame user problems as jobs AI can do; identify the "progress" users seek; prevent AI feature for AI's sake |
 | **AI Feature Tiering Matrix** | Classify features as Copilot (AI suggests), Autopilot (AI acts), or Pilot (AI leads, human approves) to calibrate autonomy and trust requirements |
-| **Build / Buy
+| **Build / Buy / Fine-tune Decision Matrix** | Evaluate technical feasibility, cost, time-to-market, and data sensitivity to recommend the optimal approach |
 | **AI Evaluation Framework** | Three-layer evaluation: Offline (F1, ROUGE, human preference) → Shadow mode (prediction vs. ground truth) → Online A/B (adoption, override rate, business metrics) |
 | **Responsible AI Checklist** | Pre-launch gate: fairness audit, transparency review, privacy compliance, safety red-teaming, human escalation path validation |
 | **RICE Scoring (AI-adjusted)** | Standard RICE with AI-specific confidence penalties: -20% for data unreadiness, -30% for regulatory exposure, -20% for explainability requirement |
@@ -189,32 +189,264 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 
 ## § 7 · Standards & Reference
 
-→ See [references/standards-reference.md](./references/standards-reference.md)
+### 7.1 AI Feature Quality Standards
+
+| Metric Category | Metric | Good | Excellent |
+|----------------|--------|------|-----------|
+| **Adoption** | Feature adoption rate (30-day) | >30% | >50% |
+| **Trust** | Override rate | <30% | <15% |
+| **Accuracy** | User-reported accuracy | >75% | >90% |
+| **Engagement** | AI-assisted task completion | >2x baseline | >3x baseline |
+
+### 7.2 AI Ethics Standards
+
+- **Fairness**: Disparate impact ratio < 0.8 for any protected group
+- **Transparency**: AI-generated content must be labeled; confidence scores visible for high-stakes decisions
+- **Privacy**: PII scrubbing before model input; data retention policy documented
+- **Safety**: Human-in-the-loop for decisions affecting health, finance, employment, or legal status
+
+### 7.3 Reference Materials
+
+→ See [references/standards-reference.md](./references/standards-reference.md) for detailed standards documentation
 
 ---
 
 ## § 8 · Standard Workflow
 
-→ See [references/standard-workflow.md](./references/standard-workflow.md)
+### Phase 1: AI Opportunity Assessment
+
+**Objective**: Determine if AI is the right solution for the user problem
+
+| Step | Task | [✓] Done Standard | [✗] FAIL Criteria |
+|------|------|-------------------|-------------------|
+| 1.1 | Problem validation | User pain point documented with evidence (interviews, support tickets, churn data) | No evidence that users actually need this |
+| 1.2 | AI solvability check | Deterministic solutions ruled out; AI is the appropriate tool | Rule-based or heuristic solution would suffice |
+| 1.3 | Data availability | Training/evaluation data identified; volume, quality, recency assessed | Insufficient data or data quality issues unresolved |
+| 1.4 | Feasibility scoring | Technical feasibility scored; accuracy expectations align with state-of-the-art | Accuracy expectation exceeds theoretical limits |
+| 1.5 | Build/Buy decision | Build, buy, fine-tune, or partner decision made with trade-off analysis | No clear technical approach defined |
+
+**Output**: AI Opportunity Assessment Document with go/no-go recommendation
+
+### Phase 2: AI Feature Definition
+
+**Objective**: Define requirements with AI-specific considerations
+
+| Step | Task | [✓] Done Standard | [✗] FAIL Criteria |
+|------|------|-------------------|-------------------|
+| 2.1 | Feature tiering | AI autonomy level defined (Copilot/Autopilot/Pilot) | Autonomy level ambiguous or mismatched to risk |
+| 2.2 | Accuracy thresholds | Accuracy targets defined by error severity tier | Single accuracy target for all error types |
+| 2.3 | Latency SLOs | Response time requirements documented by use case | No latency requirements defined |
+| 2.4 | Error UX design | Failure states designed before success states | Only happy path designed |
+| 2.5 | Evaluation framework | Offline and online metrics defined with targets | Metrics undefined or unmeasurable |
+
+**Output**: AI PRD with model specs, evaluation criteria, and monitoring plan
+
+### Phase 3: Development & Evaluation
+
+**Objective**: Build and rigorously evaluate the AI feature
+
+| Step | Task | [✓] Done Standard | [✗] FAIL Criteria |
+|------|------|-------------------|-------------------|
+| 3.1 | Data pipeline | Data pipeline validated; quality checks automated | Data pipeline has manual steps or unvalidated |
+| 3.2 | Model training | Model trained; offline metrics meet targets | Offline metrics below acceptable threshold |
+| 3.3 | Shadow mode | Feature runs in shadow mode; predictions logged vs. ground truth | No shadow mode validation |
+| 3.4 | Bias audit | Fairness audit complete across protected attributes | Disparate impact detected without mitigation plan |
+| 3.5 | Red teaming | Safety red-teaming complete; adversarial cases documented | No safety testing performed |
+
+**Output**: Model Card, Evaluation Report, Bias Audit Results
+
+### Phase 4: Launch & Iterate
+
+**Objective**: Safely launch and continuously improve
+
+| Step | Task | [✓] Done Standard | [✗] FAIL Criteria |
+|------|------|-------------------|-------------------|
+| 4.1 | Canary launch | Feature launched to <5% users; metrics stable | Launch to 100% without validation |
+| 4.2 | Monitoring dashboard | Real-time metrics dashboard live: adoption, override, accuracy | No real-time monitoring in place |
+| 4.3 | Escalation path | Human escalation path documented and staffed | No human fallback for low-confidence outputs |
+| 4.4 | Rollout expansion | Gradual rollout based on metrics; kill switch defined | Rollout continues despite declining metrics |
+| 4.5 | Iteration plan | Feedback loop established; retraining cadence defined | No plan for continuous improvement |
+
+**Output**: Launch Report, Monitoring Dashboard, Iteration Roadmap
 
 ---
 
 ## § 9 · Scenario Examples
 
-→ See [references/scenario-examples.md](./references/scenario-examples.md)
+### Example 1: AI Writing Copilot for SaaS Product
+
+**Context**: A project management SaaS wants to add an AI writing assistant that helps users write task descriptions, comments, and status updates.
+
+**AI PM Analysis**:
+
+| Gate | Assessment |
+|------|------------|
+| **AI Solvability** | ✅ Yes — natural language generation is a core LLM capability; rule-based templates are insufficient for context-aware writing |
+| **Accuracy Expectation** | Users expect "good enough" first drafts (70-80% usable), not perfect final copy; cost of error is low (user edits the output) |
+| **Success Definition** | Adoption rate >40% in month 1; override rate <25%; user-reported time saved >30 seconds per use |
+| **Graceful Degradation** | Low-confidence outputs marked with "This suggestion may need editing"; always show the user's original text for comparison |
+| **AI Ethics** | No PII in training data; user content opt-in for model improvement; clear data retention policy |
+
+**Recommended Approach**:
+- **Feature Tier**: Copilot (AI suggests, user approves/edits)
+- **Model**: GPT-4 via API with custom prompt engineering
+- **Latency Target**: <2 seconds for first token
+- **Evaluation**: A/B test with 50/50 split; measure adoption, override rate, and task completion time
+
+**Launch Plan**:
+1. Shadow mode: Log suggestions without showing users (2 weeks)
+2. Internal dogfood: Employee testing with feedback collection (1 week)
+3. Beta launch: 5% of users with opt-in (2 weeks)
+4. Full rollout: Gradual expansion based on metrics
 
 ---
 
+### Example 2: AI-Powered Resume Screening Tool
+
+**Context**: An HR platform wants to add AI resume screening to help recruiters filter candidates faster.
+
+**AI PM Analysis**:
+
+| Gate | Assessment |
+|------|------------|
+| **AI Solvability** | ✅ Partial — matching resumes to job descriptions is an NLP task, but "best candidate" involves human judgment beyond resume content |
+| **Accuracy Expectation** | High — false negatives (rejecting qualified candidates) have serious legal and fairness implications; false positives are less harmful |
+| **Success Definition** | Recruiter time saved per job opening; diversity of candidate pipeline maintained; user satisfaction score >4/5 |
+| **Graceful Degradation** | Low-confidence matches flagged for manual review; never auto-reject — only auto-rank with human final decision |
+| **AI Ethics** | 🔴 High risk — hiring decisions affect protected classes; requires bias audit, disparate impact analysis, and human-in-the-loop |
+
+**Recommended Approach**:
+- **Feature Tier**: Pilot (AI ranks, human approves/rejects)
+- **Model**: Fine-tuned BERT on historical hiring data with fairness constraints
+- **Bias Requirements**: Disparate impact ratio >0.8 for gender, race, age; quarterly fairness audits
+- **Evaluation**: Offline (precision/recall by demographic group) → Shadow (ranking vs. human decisions) → Limited pilot
+
+**Critical Safeguards**:
+1. **Never auto-reject**: AI provides ranking; human makes all rejection decisions
+2. **Bias monitoring**: Real-time dashboard tracking selection rates by protected group
+3. **Explainability**: Each ranking includes explanation ("Matched on: skills X, Y, Z; years of experience")
+4. **Audit trail**: All AI-influenced decisions logged for compliance review
+
+**Risk Mitigation**:
+- Legal review before launch
+- Opt-in only for first 6 months
+- Kill switch if bias metrics exceed thresholds
+- Annual third-party fairness audit
+
+---
+
+### Example 3: Customer Support Chatbot
+
+**Context**: An e-commerce company wants to launch an AI chatbot to handle customer support inquiries, reducing support ticket volume.
+
+**AI PM Analysis**:
+
+| Gate | Assessment |
+|------|------------|
+| **AI Solvability** | ✅ Yes — FAQ answering, order tracking, return initiation are well-suited to LLMs with RAG; complex issues escalate to humans |
+| **Accuracy Expectation** | Medium-high — wrong answers about orders/payments damage trust; but escalation path limits risk |
+| **Success Definition** | Deflection rate (tickets resolved without human) >40%; customer satisfaction (CSAT) maintained >85%; escalation rate <20% |
+| **Graceless Degradation** | Intent confidence <0.7 → immediate human handoff; unknown intents logged for training; "I don't know" better than wrong answer |
+| **AI Ethics** | Medium risk — payment/account info requires authentication; ensure no PII leakage in logs; GDPR right to explanation |
+
+**Recommended Approach**:
+- **Feature Tier**: Autopilot with guardrails (AI handles defined intents; escalates on low confidence or sensitive topics)
+- **Architecture**: RAG with knowledge base + intent classifier + guardrail layer
+- **Intent Coverage**: Phase 1: Order status, returns, FAQs; Phase 2: Product recommendations, troubleshooting
+- **Evaluation**: Intent classification accuracy >90%; end-to-end resolution rate tracked weekly
+
+**Phased Rollout**:
+
+| Phase | Scope | Duration | Success Criteria |
+|-------|-------|----------|------------------|
+| 1 | Internal testing only | 2 weeks | No critical bugs; intent coverage validated |
+| 2 | Beta: 10% of users, non-logged-in only | 2 weeks | CSAT >80%; escalation rate <25% |
+| 3 | Expanding to 50% users | 2 weeks | Deflection rate >35%; no increase in support complaints |
+| 4 | Full rollout with all intents | Ongoing | Deflection rate >40%; CSAT maintained |
+
+**Safety Measures**:
+- **Guardrails**: Blocked topics (medical advice, legal advice, hate speech)
+- **Authentication**: Account-specific info requires verified login
+- **Escalation triggers**: Payment disputes, complaints, profanity, repeated failed intents
+- **Human handoff**: Seamless transition with conversation context preserved
+
+---
+
+
+
+### Example Interaction
+
+```
+User: [Example user request]
+
+Expert: [Detailed expert response with reasoning]
+```
+
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-→ See [references/common-pitfalls.md](./references/common-pitfalls.md)
+### Anti-Pattern 1: Accuracy Overpromising
+
+**Symptom**: PM promises stakeholders "95% accuracy" without validation
+
+**Why it fails**: Lab accuracy ≠ production accuracy; distribution shift, edge cases, and adversarial inputs reduce real-world performance
+
+**Solution**: 
+- Present accuracy as ranges ("we expect 75-85% based on benchmarks")
+- Separate "model accuracy" from "end-to-end task completion rate"
+- Define accuracy by error severity tier, not single number
+
+### Anti-Pattern 2: Launching Without Error UX
+
+**Symptom**: AI feature launches with beautiful success states but generic "something went wrong" for failures
+
+**Why it fails**: Users encounter AI errors frequently; poor error UX destroys trust faster than good success UX builds it
+
+**Solution**:
+- Design error states first in the product design process
+- Provide specific recovery actions ("Try rephrasing your question" vs. "Error")
+- Log error patterns for model improvement
+
+### Anti-Pattern 3: Measuring Vanity Metrics
+
+**Symptom**: Team celebrates "100K AI generations this month" without measuring if outputs were useful
+
+**Why it fails**: High usage can indicate users are regenerating repeatedly because outputs are low quality
+
+**Solution**:
+- Primary metric: Task completion rate with AI assistance
+- Secondary metric: Override/edit rate (lower is better)
+- Tertiary metric: User-reported satisfaction with AI output
+
+### Anti-Pattern 4: Ignoring Data Quality
+
+**Symptom**: Team focuses on model architecture while training data has labeling errors, selection bias, or outdated examples
+
+**Why it fails**: Garbage in, garbage out — model quality ceiling is determined by data quality
+
+**Solution**:
+- Data audit before model selection
+- Automated data quality checks in pipeline
+- Human review of edge cases in training data
+
+### Anti-Pattern 5: AI-First Problem Definition
+
+**Symptom**: "We have this great AI model — what can we use it for?"
+
+**Why it fails**: Technology in search of a problem rarely solves real user needs; results in solutions nobody asked for
+
+**Solution**:
+- Start with validated user pain points
+- Evaluate AI alongside other solution approaches
+- Kill projects where AI doesn't clearly improve the user outcome
+
+→ See [references/common-pitfalls.md](./references/common-pitfalls.md) for detailed anti-pattern documentation
 
 ---
 
 ## § 11 · Integration with Other Skills
 
-| Combination / 组合 | Workflow / 工作流 | Result
-|-------------------|-----------------|--------------|
+| Combination / 组合 | Workflow / 工作流 | Result |
+|-------------------|-----------------|--------|
 | AI PM + **ML Engineer** | AI PM defines success metrics, accuracy thresholds by error severity, and evaluation framework → ML Engineer implements model, evaluation pipeline, and monitoring; AI PM reviews offline results before authorizing shadow mode | AI feature with measurable quality gates at every stage; no shipping until evaluation criteria are met |
 | AI PM + **UX Designer** | AI PM defines error severity tiers and confidence thresholds → UX Designer designs AI suggestion UI, confidence communication patterns, error states, and escalation flows; AI PM reviews for user trust alignment | AI feature with explicitly designed success and failure UX; no generic "AI failed" screens |
 | AI PM + **Data Engineer** | AI PM defines data requirements (labels, volume, recency, coverage) and privacy constraints → Data Engineer builds labeling pipeline, feature store, and model monitoring infrastructure; AI PM signs off on data quality before training begins | Production-grade data pipeline with quality gates; model retraining cadence tied to drift alerts |
@@ -250,7 +482,7 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml/ai-product-manager/SKILL.md and follow the instructions to install
 ```
 
-### Trigger Words / 触发词 (Authoritative List
+### Trigger Words / 触发词
 - "AI product roadmap" / "AI产品路线图"
 - "LLM product" / "大模型产品" / "AI写作助手"
 - "AI feature" / "AI功能" / "AI推荐"
@@ -269,8 +501,6 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml
 ---
 
 ## § 14 · Quality Verification
-
-→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -313,9 +543,14 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.1.0 | 2026-03-21 | Restructured to 16-section standard format; enhanced §8 Standard Workflow with [✓] Done/[✗] FAIL criteria; expanded §9 Scenario Examples with 3 complete cases; updated §3 Risk Documentation with full mitigation column |
 | 3.0.0 | 2026-02-15 | Expert Verified upgrade |
 | 1.0.0 | 2026-02-16 | Initial release |
+
+---
 
 ## § 16 · License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
+
+Author: neo.ai

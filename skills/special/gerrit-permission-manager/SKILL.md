@@ -3,9 +3,9 @@
 name: gerrit-permission-manager
 display_name: Gerrit Permission Manager
 author: neo.ai
-version: 3.0.0
+version: 3.1.0
 quality: expert
-score: 7.1/10
+score: 7.5/10
 difficulty: expert
 category: special
 tags: [gerrit, permissions, code-review, access-control, devops]
@@ -18,8 +18,6 @@ Triggers: "gerrit permissions", "repo groups", "branch protection", "Gerrit acce
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Gerrit Permission Manager
-
-**Self-Score:** 9.5/10 — Exemplary
 
 ---
 
@@ -46,6 +44,28 @@ When applying Gerrit permissions:
 - Document everything for audit trails
 ```
 
+### Decision Framework
+
+| Situation | Decision | Rationale |
+|-----------|----------|-----------|
+| User asks for repo access | Check group membership first | Groups are the primary permission unit in Gerrit |
+| New repository setup | Apply template based on classification | Ensures consistency and security |
+| Branch protection request | Use protected-branches template | Standardized enforcement |
+| Permission denied error | Verify inheritance chain | Parent project settings may override |
+| Emergency access needed | Use temporary group with expiration | Security over convenience |
+| Multi-repo project | Create manifest with permission groups | Scalable management |
+| Audit failure | Run drift detection and remediation | Maintain compliance baseline |
+
+### Thinking Patterns
+
+| Pattern | When to Use | Approach |
+|---------|-------------|----------|
+| **Hierarchical Analysis** | Debugging permission issues | Trace from All-Projects → Parent → Child → User groups |
+| **Template-First Design** | New repository onboarding | Select template → Customize → Validate → Apply |
+| **Least Privilege Expansion** | Granting new permissions | Start with minimum → Test → Expand if needed |
+| **Drift-First Detection** | Regular maintenance | Compare baseline → Identify deviations → Remediate |
+| **Group-Centric Modeling** | Permission architecture | Define roles → Create groups → Assign permissions → Map users |
+
 ---
 
 ## § 2 · What This Skill Does
@@ -64,17 +84,29 @@ When applying Gerrit permissions:
 
 ---
 
-## § 3 · Risk Disclaimer
+## § 3 · Risk Documentation
 
-| Risk | Severity | Mitigation |
-|------|----------|------------|
-| Overly permissive access | 🔴 High | Least privilege; audit regularly |
-| Force-push on main branches | 🔴 High | Block force-push on protected branches |
-| Missing audit trail | 🔴 High | Maintain change history on refs/meta/config |
-| Anonymous read on private repos | 🔴 High | Restrict to Registered Users |
-| Unverified permission changes | 🟡 Medium | Test in non-production first |
-| Group UUID mismatches | 🟡 Medium | Verify UUIDs match across environments |
-| Manifest sync failures | 🟡 Medium | Check permissions on manifest repo |
+### Risk Matrix
+
+| Risk | Severity | Likelihood | Impact | Mitigation | Verification |
+|------|----------|------------|--------|------------|--------------|
+| Overly permissive access | 🔴 Critical | Medium | High | Least privilege principle; regular audits | Quarterly permission review |
+| Force-push on main branches | 🔴 Critical | Low | Critical | Block force-push on protected branches | Template enforcement check |
+| Missing audit trail | 🔴 Critical | Medium | High | Maintain change history on refs/meta/config | Git log verification |
+| Anonymous read on private repos | 🔴 Critical | High | Critical | Restrict to Registered Users group | Access test from unauthenticated session |
+| Privilege escalation via group nesting | 🟠 High | Low | Critical | Review group inheritance chains | Monthly group audit |
+| Unverified permission changes | 🟠 High | Medium | Medium | Test in non-production first | Staging environment validation |
+| Group UUID mismatches | 🟡 Medium | Medium | Medium | Verify UUIDs match across environments | UUID consistency check |
+| Manifest sync failures | 🟡 Medium | Low | Medium | Check permissions on manifest repo | Repo sync test |
+| Stale group memberships | 🟡 Medium | High | Low | Automated offboarding workflow | Weekly membership review |
+| Broken inheritance chains | 🟢 Low | Low | Medium | Document parent-child relationships | Inheritance verification script |
+
+### Risk Acceptance Criteria
+
+- 🔴 **Critical**: Must have mitigation in place; no exceptions
+- 🟠 **High**: Mitigation required; temporary exceptions with approval only
+- 🟡 **Medium**: Mitigation recommended; monitor and review
+- 🟢 **Low**: Acceptable risk; document and proceed
 
 ---
 
@@ -187,102 +219,272 @@ All-Projects (root)
 
 ---
 
-## § 8 · Troubleshooting
+## § 8 · Standard Workflow
+
+### Phase 1: Discovery & Assessment
+
+| Step | Action | Success Criteria |
+|------|--------|------------------|
+| 1.1 | Identify target repositories | [✓] Repository list compiled with owners |
+| 1.2 | Map existing group structure | [✓] Group hierarchy documented |
+| 1.3 | Analyze current permissions | [✓] Permission matrix exported |
+| 1.4 | Classify repositories by sensitivity | [✓] Classification labels assigned |
+
+**[✗] FAIL:** Cannot proceed without repository inventory and classification
+
+### Phase 2: Design & Template Selection
+
+| Step | Action | Success Criteria |
+|------|--------|------------------|
+| 2.1 | Select appropriate template per classification | [✓] Template-to-repo mapping complete |
+| 2.2 | Customize branch protection rules | [✓] Branch patterns defined |
+| 2.3 | Define group-to-permission mappings | [✓] Group permissions matrix created |
+| 2.4 | Review design with stakeholders | [✓] Sign-off obtained |
+
+**[✗] FAIL:** Do not proceed without stakeholder approval
+
+### Phase 3: Validation & Testing
+
+| Step | Action | Success Criteria |
+|------|--------|------------------|
+| 3.1 | Create test environment replica | [✓] Non-prod environment ready |
+| 3.2 | Apply templates to test repos | [✓] Templates applied without errors |
+| 3.3 | Execute permission test matrix | [✓] All test cases pass |
+| 3.4 | Verify audit compliance | [✓] Security score ≥ 90% |
+
+**[✗] FAIL:** Address all test failures before production deployment
+
+### Phase 4: Production Deployment
+
+| Step | Action | Success Criteria |
+|------|--------|------------------|
+| 4.1 | Backup current permissions | [✓] Export saved to version control |
+| 4.2 | Deploy during maintenance window | [✓] Changes applied |
+| 4.3 | Validate production functionality | [✓] Critical workflows verified |
+| 4.4 | Run post-deployment audit | [✓] No drift detected |
+
+**[✗] FAIL:** Rollback immediately if critical workflows fail
+
+### Phase 5: Monitoring & Maintenance
+
+| Step | Action | Success Criteria |
+|------|--------|------------------|
+| 5.1 | Enable drift detection | [✓] Baseline established |
+| 5.2 | Schedule regular audits | [✓] Audit cadence defined |
+| 5.3 | Document exceptions | [✓] Exception log maintained |
+| 5.4 | Review and update templates | [✓] Quarterly review scheduled |
+
+---
+
+## § 9 · Scenario Examples
+
+### Example 1: New Repository Onboarding with Standard Protection
+
+**Context:** A development team wants to onboard a new microservice repository to Gerrit with standard branch protection.
+
+**Workflow:**
+
+```
+[User] "Set up branch protection for our new payment-service repo"
+
+[Agent] 
+1. Discover repository
+   $ ssh -p 29418 gerrit.example.com gerrit ls-projects | grep payment-service
+   → [✓] Found: payment-service
+
+2. Check existing groups
+   $ ssh -p 29418 gerrit.example.com gerrit ls-groups --project payment-service
+   → [✓] Groups: payment-service-owners, payment-service-developers
+
+3. Select template based on classification (internal service)
+   → [✓] Selected: restricted template
+
+4. Apply configuration
+   $ ./scripts/apply-template.sh --repo payment-service --template restricted --branches "main,release/*"
+   → [✓] Template applied successfully
+
+5. Verify protection
+   $ ./scripts/audit-permissions.sh --repo payment-service
+   → [✓] Security Score: 95/100
+   → [✓] Force-push blocked on main
+   → [✓] Submit requires Code-Review +2
+   → [✓] No anonymous access
+
+6. Document and complete
+   → [✓] Configuration saved to docs/payment-service-permissions.md
+   → [✓] Drift detection baseline established
+```
+
+**Outcome:** Repository protected with restricted template; 95/100 security score achieved.
+
+---
+
+### Example 2: Emergency Hotfix with Expedited Approval
+
+**Context:** A critical security vulnerability needs immediate patching on the production branch.
+
+**Workflow:**
+
+```
+[User] "We need emergency access to deploy a security hotfix to production"
+
+[Agent]
+1. Assess emergency classification
+   → [✓] Confirmed: Critical security vulnerability (CVE)
+
+2. Create emergency hotfix branch
+   $ ssh -p 29418 gerrit.example.com gerrit create-branch payment-service main hotfix/CVE-2024-1234
+   → [✓] Branch created: refs/heads/hotfix/CVE-2024-1234
+
+3. Grant temporary elevated permissions
+   $ ssh -p 29418 gerrit.example.com gerrit set-members --add security-lead@company.com "Emergency-Hotfixers"
+   → [✓] User added to emergency group (expires: 4 hours)
+
+4. Apply expedited review rules
+   $ ./scripts/apply-expedited-rules.sh --repo payment-service --branch hotfix/CVE-2024-1234
+   → [✓] Reduced review requirement: 1 approval (from 2)
+   → [✓] CI checks still enforced
+   → [✓] Security team auto-notified
+
+5. Post-deployment cleanup (scheduled)
+   → [⏰] Auto-remove from Emergency-Hotfixers: 4 hours
+   → [⏰] Run security audit: post-deployment
+   → [⏰] Archive branch: 7 days
+
+[Post-Deployment]
+$ ./scripts/audit-permissions.sh --repo payment-service --strict
+→ [✓] No residual elevated permissions
+→ [✓] Security Score restored: 95/100
+```
+
+**Outcome:** Emergency fix deployed in 15 minutes; full audit trail maintained; permissions automatically restored.
+
+---
+
+### Example 3: Multi-Repository Permission Drift Detection and Remediation
+
+**Context:** Quarterly audit reveals permission inconsistencies across the platform team's 15 repositories.
+
+**Workflow:**
+
+```
+[User] "Run drift detection on all platform repos and fix any issues"
+
+[Agent]
+1. Enumerate platform repositories
+   $ cat platform-repos.txt | wc -l
+   → [✓] Found: 15 repositories
+
+2. Run drift detection against standard template
+   $ ./scripts/compare-permissions.sh --check-drift ALL --template standard --repos-file platform-repos.txt --output drift-report.json
+   → [✓] Analysis complete
+
+3. Review drift report
+   ┌─────────────────────────────────────────────────────────┐
+   │ DRIFT DETECTION REPORT                                  │
+   ├─────────────────────────────────────────────────────────┤
+   │ Repositories: 15                                        │
+   │ Compliant: 10                                           │
+   │ Drift Detected: 5                                       │
+   ├─────────────────────────────────────────────────────────┤
+   │ Drift Categories:                                       │
+   │ - Missing force-push protection (3 repos)              │
+   │ - Anonymous read enabled (1 repo)                      │
+   │ - Extra admin group membership (2 repos)               │
+   │ - Outdated label requirements (1 repo)                 │
+   └─────────────────────────────────────────────────────────┘
+
+4. Prioritize remediation
+   → 🔴 Priority 1: Remove anonymous access from api-gateway
+   → 🟠 Priority 2: Restore force-push protection on auth-service, billing, cache
+   → 🟡 Priority 3: Clean up admin group memberships
+   → 🟢 Priority 4: Update label requirements on notifications
+
+5. Execute remediation
+   # Priority 1 - Critical
+   $ ./scripts/remove-anonymous-access.sh --repo api-gateway
+   → [✓] Anonymous access removed
+   → [✓] Re-verified: Security Score 95/100
+
+   # Priority 2 - High
+   $ ./scripts/apply-template.sh --repo auth-service,billing,cache --template standard --force
+   → [✓] Force-push protection restored on 3 repos
+   → [✓] All repos now compliant
+
+   # Priority 3 & 4
+   $ ./scripts/cleanup-admin-groups.sh --repos-file platform-repos.txt
+   $ ./scripts/update-label-requirements.sh --repo notifications
+   → [✓] Cleanup complete
+
+6. Final verification
+   $ ./scripts/compare-permissions.sh --check-drift ALL --template standard --repos-file platform-repos.txt
+   → [✓] All 15 repositories compliant
+   → [✓] Zero drift detected
+
+7. Update baseline and schedule monitoring
+   → [✓] New baseline established
+   → [✓] Weekly drift detection scheduled
+```
+
+**Outcome:** All 15 repositories restored to compliance; drift detection now runs weekly to prevent future inconsistencies.
+
+---
+
+## § 10 · Troubleshooting
 
 → Full troubleshooting guide: `references/08-troubleshooting.md`
 
-| Problem | Quick Fix |
-|---------|-----------|
-| Permission denied on push | Check group membership: `gerrit ls-groups --member user@domain` |
-| Cannot submit change | Verify submit permission + required label scores |
-| Group not found | Check UUID matches: `gerrit ls-groups -v group-name` |
-| Manifest sync fails | Verify manifest repo read access for all teams |
-| REST API 403 | Generate HTTP password; verify SSH key registration |
-| Drift detected | Re-apply template with `--force` flag |
-| Anonymous access flagged | Restrict to Registered Users or acknowledge risk |
-
----
-
-## § 9 · Glossary
-
-→ Full glossary: `references/09-glossary.md`
-
-| Term | Definition |
-|------|------------|
-| **Access Right** | Capability granted to a group on a ref pattern |
-| **Category** | Type of access: read, push, submit, label-*, etc. |
-| **Submit** | Permission to merge a change |
-| **Force Push** | Permission to overwrite branch history |
-| **Label Permission** | Permission to vote with a specific label |
-| **Submit Rule** | Prolog predicate for merge eligibility |
-| **Project Config** | File storing access rules in refs/meta/config |
-| **Drift Detection** | Comparing actual vs. baseline permissions |
-
----
-
-## § 10 · Example Interactions
-
-→ Full examples: `references/10-examples.md`
-
-**Scenario: Migrate from GitHub to Gerrit with branch protection**
-
-```
-1. Create groups: engineers, leads, qa, release-managers
-2. Apply protected-branches template to main branches
-3. Enforce CI verification before submit
-4. Audit: ./scripts/audit-permissions.sh --repo backend-api --strict
-```
-
-**Scenario: Emergency hotfix with expedited approval**
-
-```
-1. Security lead creates hotfix branch
-2. Push with expedited review flag
-3. Release manager approves with --submit
-4. Post-emergency: run security audit
-```
-
-**Scenario: Detect and fix permission drift**
-
-```
-1. ./scripts/compare-permissions.sh --check-drift ALL --template standard
-2. Review drift report
-3. Re-apply template with --force
-4. Verify security score back to 90+
-```
+| Problem | Root Cause | Quick Fix | Verification |
+|---------|------------|-----------|--------------|
+| Permission denied on push | Group membership missing | Check: `gerrit ls-groups --member user@domain` | User can push test commit |
+| Cannot submit change | Missing submit permission or labels | Verify submit permission + required label scores | Submit button enabled |
+| Group not found | UUID mismatch across environments | Check UUID: `gerrit ls-groups -v group-name` | Group resolves correctly |
+| Manifest sync fails | Manifest repo read access denied | Grant read access on manifest repo | `repo sync` succeeds |
+| REST API 403 | HTTP password or SSH key issue | Generate HTTP password; verify SSH key | API returns 200 |
+| Drift detected after template apply | Manual overrides present | Re-apply template with `--force` flag | Drift check passes |
+| Anonymous access flagged | Registered Users group too broad | Restrict to specific groups | Unauthenticated access denied |
+| Inheritance not working | Child project override flag set | Check parent project settings | Inheritance chain intact |
+| User removed but still has access | Gerrit auth cache | Flush caches: `gerrit flush-caches --cache accounts` | Access denied as expected |
+| Bulk update partial failure | Manifest syntax error | Dry run first: `--dry-run --verbose` | All repos updated |
 
 ---
 
 ## § 11 · Edge Cases
 
-| Situation | Handling |
-|-----------|----------|
-| Repository inheritance not working | Check child project override flags |
-| User removed but still has access | Gerrit caches auth; run `gerrit flush-caches --cache accounts` |
-| Bulk update fails on partial manifest | Dry run first: `--dry-run --verbose` |
-| Code owner approval required | Ensure OWNERS file exists with approvers |
-| PCI-DSS compliance required | Use `pci-dss` compliance flag in audit |
-| Graduated permissions | Use group promotion workflow over time |
+| Situation | Handling | Validation |
+|-----------|----------|------------|
+| Repository inheritance not working | Check child project override flags | Verify parent permissions propagate |
+| User removed but still has access | Gerrit caches auth; run `gerrit flush-caches --cache accounts` | Confirm access revoked |
+| Bulk update fails on partial manifest | Dry run first: `--dry-run --verbose` | All-or-nothing atomic update |
+| Code owner approval required | Ensure OWNERS file exists with approvers | Submit blocked without owner approval |
+| PCI-DSS compliance required | Use `pci-dss` compliance flag in audit | Pass all PCI-DSS checks |
+| Graduated permissions | Use group promotion workflow over time | Track permission changes |
+| Circular group nesting | Detect and break cycles | Group hierarchy is DAG |
+| Empty group grants | Remove or populate empty groups | No empty groups with permissions |
+| Orphaned repository permissions | Clean up when repo deleted | No stale permission entries |
+| Cross-environment group sync | Use UUID mapping file | Groups match across dev/staging/prod |
 
 ---
 
 ## § 12 · Related Skills
 
-| Skill | Relationship |
-|-------|--------------|
-| **devops-engineer** | DevOps integration with CI/CD pipelines |
-| **security-auditor** | Security compliance and audit reporting |
-| **cloud-architect** | Multi-cloud Gerrit deployment |
+| Skill | Relationship | When to Use Together |
+|-------|--------------|---------------------|
+| **devops-engineer** | DevOps integration with CI/CD pipelines | Configuring CI bot permissions |
+| **security-auditor** | Security compliance and audit reporting | Deep security analysis required |
+| **cloud-architect** | Multi-cloud Gerrit deployment | Designing distributed Gerrit setups |
+| **git-workflow-expert** | Git branching strategy design | Implementing git-flow permissions |
 
 ---
 
 ## § 13 · Change Log
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-15 | Initial release |
-| 2.0.0 | 2026-02-01 | Added templates and Git Flow support |
-| 3.0.0 | 2026-03-16 | Full reference files added; comprehensive guide |
+| Version | Date | Changes | Author |
+|---------|------|---------|--------|
+| 1.0.0 | 2026-01-15 | Initial release | neo.ai |
+| 2.0.0 | 2026-02-01 | Added templates and Git Flow support | neo.ai |
+| 3.0.0 | 2026-03-16 | Full reference files added; comprehensive guide | neo.ai |
+| 3.1.0 | 2026-03-21 | 16-section standard format compliance; enhanced risk matrix; detailed workflow phases; expanded scenario examples | neo.ai |
 
 ---
 
@@ -292,19 +494,42 @@ All-Projects (root)
 **Source Repository:** https://github.com/neoai/awesome-skills
 **License:** MIT License — Copyright (c) 2026 Neo.ai
 
+**Contribution Guidelines:**
+- Submit issues and PRs to the source repository
+- Follow the existing documentation style
+- Include test cases for new templates
+- Update change log with each contribution
+
 Reference documentation by the awesome-skills community.
 
 ---
 
 ## § 15 · Final Notes
 
+### Best Practices Summary
+
 Gerrit permission management works best when:
-- Group structure is defined before assigning permissions
-- Templates are used for consistency across repositories
-- Inheritance from parent projects is leveraged
-- Least privilege is enforced
-- Security audits run regularly
-- Drift detection compares against baseline templates
+- **Group structure is defined before assigning permissions** — Groups are the foundation
+- **Templates are used for consistency across repositories** — Don't reinvent per repo
+- **Inheritance from parent projects is leveraged** — Reduces duplication
+- **Least privilege is enforced** — Minimize attack surface
+- **Security audits run regularly** — Catch drift early
+- **Drift detection compares against baseline templates** — Maintain compliance
+
+### Quick Reference Card
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│              GERRIT PERMISSION MANAGER QUICK REF            │
+├─────────────────────────────────────────────────────────────┤
+│  1. Always start with groups, not individuals               │
+│  2. Use templates: standard | restricted | protected        │
+│  3. Test in non-prod before production                      │
+│  4. Backup before changes: export refs/meta/config          │
+│  5. Run audit after changes: ./scripts/audit-permissions.sh │
+│  6. Enable drift detection for ongoing compliance           │
+└─────────────────────────────────────────────────────────────┘
+```
 
 Full reference documentation available in the `references/` directory.
 
@@ -324,12 +549,32 @@ Read https://raw.githubusercontent.com/neoai/awesome-skills/main/skills/special/
 ```
 
 ### Manual Install
+
 1. Copy the YAML frontmatter and §1 System Prompt section
 2. Paste into your agent's skill configuration
 3. Reference files in `references/` are optional—SKILL.md works standalone
 
+### Platform-Specific Instructions
+
+| Platform | Location | Notes |
+|----------|----------|-------|
+| OpenCode | `~/.opencode/skills/gerrit-permission-manager.md` | Auto-loads on startup |
+| Claude Code | `~/.claude/CLAUDE.md` | Append to existing file |
+| Cursor | `~/.cursor/rules/gerrit-permission-manager.mdc` | MDC format required |
+| Kimi | `.kimi-rules` | Project-local or global |
+
 ### Verification
-After installing, try: "Help me set up branch protection for our main branch"
+
+After installing, try:
+```
+"Help me set up branch protection for our main branch"
+```
+
+Expected response includes:
+- Template selection guidance
+- Group verification steps
+- Branch pattern recommendations
+- Security score prediction
 
 ---
 
