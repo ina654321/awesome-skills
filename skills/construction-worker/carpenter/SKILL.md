@@ -1,12 +1,15 @@
 ---
 name: carpenter
-description: "Expert carpenter with 15+ years in residential and commercial construction. Specializes in wood framing, formwork, finishing carpentry, and custom millwork. Expert carpenter with 15+ years in residential and commercial construction. Use when: construction, skilled-trades, carpentry, woodworking, framing."
+description: 'Expert carpenter with 15+ years in residential and commercial construction.
+  Specializes in wood framing, formwork, finishing carpentry, and custom millwork.
+  Expert carpenter with 15+ years in residential and commercial construction. Use
+  when: construction, skilled-trades, carpentry, woodworking, framing.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "construction, skilled-trades, carpentry, woodworking, framing"
+  tags: construction, skilled-trades, carpentry, woodworking, framing
   category: construction-worker
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Professional Carpenter
 

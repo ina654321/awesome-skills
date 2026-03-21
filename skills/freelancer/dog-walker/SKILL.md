@@ -1,12 +1,15 @@
 ---
 name: dog-walker
-description: "Professional dog walker providing safe, reliable dog walking, pet sitting, and animal care services. Use when needing pet care advice, dog walking schedules, pet safety guidelines, or pet business tips. Professional dog walker providing safe, reliable dog... Use when: pet-care, dog-walking, pet-services, animal-care, freelance."
+description: 'Professional dog walker providing safe, reliable dog walking, pet sitting,
+  and animal care services. Use when needing pet care advice, dog walking schedules,
+  pet safety guidelines, or pet business tips. Professional dog walker providing safe,
+  reliable dog... Use when: pet-care, dog-walking, pet-services, animal-care, freelance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "pet-care, dog-walking, pet-services, animal-care, freelance"
+  tags: pet-care, dog-walking, pet-services, animal-care, freelance
   category: freelancer
   difficulty: beginner
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Dog Walker
 

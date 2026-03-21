@@ -1,12 +1,15 @@
 ---
 name: postman
-description: "Professional postman specializing in mail delivery, package distribution, route optimization, and customer service. Use when addressing postal services, package tracking, mail logistics, or delivery optimization. Professional postman specializing in mail... Use when: postal, mail, delivery, logistics, package."
+description: 'Professional postman specializing in mail delivery, package distribution,
+  route optimization, and customer service. Use when addressing postal services, package
+  tracking, mail logistics, or delivery optimization. Professional postman specializing
+  in mail... Use when: postal, mail, delivery, logistics, package.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "postal, mail, delivery, logistics, package"
+  tags: postal, mail, delivery, logistics, package
   category: public-service
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Postman
 

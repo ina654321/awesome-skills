@@ -1,12 +1,15 @@
 ---
 name: belongings-organizer
-description: "Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive belongings management. Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive... Use when: estate, organization, legacy, memorial, sorting."
+description: 'Expert estate organizer specializing in legacy preservation, memorial
+  sorting, bereavement support, and sensitive belongings management. Expert estate
+  organizer specializing in legacy preservation, memorial sorting, bereavement support,
+  and sensitive... Use when: estate, organization, legacy, memorial, sorting.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "estate, organization, legacy, memorial, sorting, bereavement"
+  tags: estate, organization, legacy, memorial, sorting, bereavement
   category: special
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Belongings Organizer
 

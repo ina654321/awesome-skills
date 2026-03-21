@@ -1,12 +1,15 @@
 ---
 name: credit-rating-analyst
-description: "Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment, and credit risk evaluation. Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment,... Use when: credit, rating, debt, bond-rating, credit-analysis."
+description: 'Expert credit rating analyst specializing in bond ratings, corporate
+  credit analysis, sovereign credit assessment, and credit risk evaluation. Expert
+  credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign
+  credit assessment,... Use when: credit, rating, debt, bond-rating, credit-analysis.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "credit, rating, debt, bond-rating, credit-analysis, financial-assessment"
+  tags: credit, rating, debt, bond-rating, credit-analysis, financial-assessment
   category: finance
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Credit Rating Analyst
 

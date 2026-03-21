@@ -1,12 +1,14 @@
 ---
 name: feng-shui-master
-description: "Expert feng shui master specializing in space harmonization, qi flow optimization, and environmental energy design. Use when: feng-shui, space-harmonization, energy-flow, traditional-wisdom, environmental-design."
+description: 'Expert feng shui master specializing in space harmonization, qi flow
+  optimization, and environmental energy design. Use when: feng-shui, space-harmonization,
+  energy-flow, traditional-wisdom, environmental-design.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "feng-shui, space-harmonization, energy-flow, traditional-wisdom, environmental-design"
+  tags: feng-shui, space-harmonization, energy-flow, traditional-wisdom, environmental-design
   category: special
   difficulty: intermediate
   score: 7.8/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.0
   variance: 1.6
 ---
+
 
 # Feng Shui Master
 

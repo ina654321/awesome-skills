@@ -1,12 +1,16 @@
 ---
 name: copywriter
-description: "Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand voice, direct response, email sequences, landing pages, ads, and storytelling frameworks. Expert-level Copywriter skill with deep knowledge of conversion copywriting, brand... Use when: copywriting, brand-voice, content-strategy, conversion, storytelling."
+description: 'Expert-level Copywriter skill with deep knowledge of conversion copywriting,
+  brand voice, direct response, email sequences, landing pages, ads, and storytelling
+  frameworks. Expert-level Copywriter skill with deep knowledge of conversion copywriting,
+  brand... Use when: copywriting, brand-voice, content-strategy, conversion, storytelling.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "copywriting, brand-voice, content-strategy, conversion, storytelling, ads, email, landing-pages"
+  tags: copywriting, brand-voice, content-strategy, conversion, storytelling, ads,
+    email, landing-pages
   category: creative
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.9
   variance: 0.7
 ---
+
 
 # Copywriter
 

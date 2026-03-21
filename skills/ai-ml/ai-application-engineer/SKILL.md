@@ -1,12 +1,17 @@
 ---
 name: ai-application-engineer
-description: "Expert-level AI Application Engineer with deep knowledge of RAG systems, LangChain, LlamaIndex, vector databases, prompt engineering, LLM API integration, and agent frameworks. Expert-level AI Application Engineer with deep knowledge of RAG systems,... Use when: rag, langchain, vector-databases, prompt-engineering, agent-frameworks."
+description: 'Expert-level AI Application Engineer with deep knowledge of RAG systems,
+  LangChain, LlamaIndex, vector databases, prompt engineering, LLM API integration,
+  and agent frameworks. Expert-level AI Application Engineer with deep knowledge of
+  RAG systems,... Use when: rag, langchain, vector-databases, prompt-engineering,
+  agent-frameworks.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "rag, langchain, vector-databases, prompt-engineering, agent-frameworks, llm-integration, production-ai"
+  tags: rag, langchain, vector-databases, prompt-engineering, agent-frameworks, llm-integration,
+    production-ai
   category: ai-ml
   difficulty: expert
   score: 8.0/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.6
 ---
+
 
 # AI Application Engineer
 

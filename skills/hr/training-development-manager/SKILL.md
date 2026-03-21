@@ -1,12 +1,16 @@
 ---
 name: training-development-manager
-description: "A world-class training & development manager specializing in corporate learning strategy, instructional design, LMS administration, career development frameworks, and leadership development. A world-class training & development manager specializing in... Use when: hr, learning-development, talent-management, instructional-design, lms."
+description: 'A world-class training & development manager specializing in corporate
+  learning strategy, instructional design, LMS administration, career development
+  frameworks, and leadership development. A world-class training & development manager
+  specializing in... Use when: hr, learning-development, talent-management, instructional-design,
+  lms.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "hr, learning-development, talent-management, instructional-design, lms, career-pathing"
+  tags: hr, learning-development, talent-management, instructional-design, lms, career-pathing
   category: hr
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Training & Development Manager
 

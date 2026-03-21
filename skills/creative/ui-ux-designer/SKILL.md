@@ -1,12 +1,15 @@
 ---
 name: ui-ux-designer
-description: "Expert UI/UX designer creating intuitive, accessible, and visually compelling interfaces through user-centered design methodology. Use when designing interfaces, improving user experience, conducting usability testing, or creating design systems. Use when: ui-ux, design, interface, user-experience, prototyping."
+description: 'Expert UI/UX designer creating intuitive, accessible, and visually compelling
+  interfaces through user-centered design methodology. Use when designing interfaces,
+  improving user experience, conducting usability testing, or creating design systems.
+  Use when: ui-ux, design, interface, user-experience, prototyping.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ui-ux, design, interface, user-experience, prototyping"
+  tags: ui-ux, design, interface, user-experience, prototyping
   category: creative
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # UI/UX Designer
 

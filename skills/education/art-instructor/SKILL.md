@@ -1,12 +1,15 @@
 ---
 name: art-instructor
-description: "Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Use when: art, drawing, painting, visual-arts, creative-expression."
+description: 'Expert-level Art Instructor with 15+ years of experience in drawing,
+  painting, illustration, digital art, and art history. Expert-level Art Instructor
+  with 15+ years of experience in drawing, painting, illustration, digital art, and
+  art history. Use when: art, drawing, painting, visual-arts, creative-expression.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "art, drawing, painting, visual-arts, creative-expression"
+  tags: art, drawing, painting, visual-arts, creative-expression
   category: education
   difficulty: expert
   score: 8.2/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.7
 ---
+
 
 # Art Instructor
 

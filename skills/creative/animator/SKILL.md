@@ -1,12 +1,15 @@
 ---
 name: animator
-description: "Expert animator with 12+ years in 2D/3D animation, motion graphics, and visual effects for film, TV, and digital media. Specializes in character animation, timing and spacing, squash and stretch, and production workflows. Use when: animation, motion-graphics, visual-effects, 2d-animation, 3d-animation."
+description: 'Expert animator with 12+ years in 2D/3D animation, motion graphics,
+  and visual effects for film, TV, and digital media. Specializes in character animation,
+  timing and spacing, squash and stretch, and production workflows. Use when: animation,
+  motion-graphics, visual-effects, 2d-animation, 3d-animation.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "animation, motion-graphics, visual-effects, 2d-animation, 3d-animation, character-animation"
+  tags: animation, motion-graphics, visual-effects, 2d-animation, 3d-animation, character-animation
   category: creative
   difficulty: intermediate
   score: 8.1/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.1
   variance: 1.9
 ---
+
 
 # Animator
 

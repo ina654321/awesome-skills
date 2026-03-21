@@ -1,12 +1,16 @@
 ---
 name: clinical-physician
-description: "Expert-level Clinical Physician skill with deep knowledge of clinical reasoning, differential diagnosis, evidence-based medicine, treatment planning, and patient communication. Expert-level Clinical Physician skill with deep knowledge of clinical reasoning,... Use when: medicine, clinical-reasoning, diagnosis, evidence-based, patient-care."
+description: 'Expert-level Clinical Physician skill with deep knowledge of clinical
+  reasoning, differential diagnosis, evidence-based medicine, treatment planning,
+  and patient communication. Expert-level Clinical Physician skill with deep knowledge
+  of clinical reasoning,... Use when: medicine, clinical-reasoning, diagnosis, evidence-based,
+  patient-care.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "medicine, clinical-reasoning, diagnosis, evidence-based, patient-care"
+  tags: medicine, clinical-reasoning, diagnosis, evidence-based, patient-care
   category: medical
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.3
 ---
+
 
 # Clinical Physician
 

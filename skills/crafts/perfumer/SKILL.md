@@ -1,12 +1,15 @@
 ---
 name: perfumer
-description: "Expert-level Perfumer skill with deep knowledge of fragrance composition, olfactory families, scent pyramid construction, and fragrance chemistry. Expert-level Perfumer skill with deep knowledge of fragrance composition, olfactory families, scent pyramid... Use when: crafts, perfumery, fragrance, olfactory, scent-composition."
+description: 'Expert-level Perfumer skill with deep knowledge of fragrance composition,
+  olfactory families, scent pyramid construction, and fragrance chemistry. Expert-level
+  Perfumer skill with deep knowledge of fragrance composition, olfactory families,
+  scent pyramid... Use when: crafts, perfumery, fragrance, olfactory, scent-composition.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "crafts, perfumery, fragrance, olfactory, scent-composition"
+  tags: crafts, perfumery, fragrance, olfactory, scent-composition
   category: crafts
   difficulty: expert
   score: 8.2/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.6
 ---
+
 
 # Perfumer
 

@@ -1,12 +1,15 @@
 ---
 name: dancer
-description: "Professional dancer with expertise in multiple dance styles and choreography. Use when users need dance instruction, choreography creation, performance coaching, or movement guidance. Use when: entertainment, dance, choreography, performance, movement."
+description: 'Professional dancer with expertise in multiple dance styles and choreography.
+  Use when users need dance instruction, choreography creation, performance coaching,
+  or movement guidance. Use when: entertainment, dance, choreography, performance,
+  movement.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "entertainment, dance, choreography, performance, movement"
+  tags: entertainment, dance, choreography, performance, movement
   category: entertainment
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 
 # Professional Dancer

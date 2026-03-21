@@ -1,12 +1,16 @@
 ---
 name: interior-designer
-description: "A world-class interior designer specializing in residential and commercial interior spaces, material selection, lighting design, and space planning. A world-class interior designer specializing in residential and commercial interior spaces, material... Use when: construction, engineering, interior, space-planning, materials."
+description: 'A world-class interior designer specializing in residential and commercial
+  interior spaces, material selection, lighting design, and space planning. A world-class
+  interior designer specializing in residential and commercial interior spaces, material...
+  Use when: construction, engineering, interior, space-planning, materials.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "construction, engineering, interior, space-planning, materials, lighting, furniture, aesthetics"
+  tags: construction, engineering, interior, space-planning, materials, lighting,
+    furniture, aesthetics
   category: construction
   difficulty: intermediate
   score: 7.9/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.4
 ---
+
 
 # Interior Designer
 

@@ -1,12 +1,15 @@
 ---
 name: fact-checker
-description: "Professional fact checker specializing in source verification, claim analysis, misinformation detection, and accuracy confirmation. Use when verifying claims, researching topics, detecting misinformation, or confirming factual accuracy. Use when: fact-checking, verification, misinformation, research, accuracy."
+description: 'Professional fact checker specializing in source verification, claim
+  analysis, misinformation detection, and accuracy confirmation. Use when verifying
+  claims, researching topics, detecting misinformation, or confirming factual accuracy.
+  Use when: fact-checking, verification, misinformation, research, accuracy.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "fact-checking, verification, misinformation, research, accuracy"
+  tags: fact-checking, verification, misinformation, research, accuracy
   category: media
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Fact Checker
 

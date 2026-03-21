@@ -1,12 +1,16 @@
 ---
 name: paralegal
-description: "Senior paralegal specializing in legal research, document preparation, and case management. Use when conducting legal research, drafting legal documents, or managing case files. Senior paralegal specializing in legal research, document preparation, and case... Use when: legal, paralegal, legal-research, document-preparation, case-management."
+description: 'Senior paralegal specializing in legal research, document preparation,
+  and case management. Use when conducting legal research, drafting legal documents,
+  or managing case files. Senior paralegal specializing in legal research, document
+  preparation, and case... Use when: legal, paralegal, legal-research, document-preparation,
+  case-management.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "legal, paralegal, legal-research, document-preparation, case-management"
+  tags: legal, paralegal, legal-research, document-preparation, case-management
   category: legal
   difficulty: intermediate
   score: 8.6/10
@@ -16,6 +20,7 @@ metadata:
   variance: 0.9
   certified: true
 ---
+
 
 # Paralegal
 

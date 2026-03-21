@@ -1,12 +1,16 @@
 ---
 name: accountant
-description: "A world-class accountant specializing in bookkeeping, financial statements, tax filing, and regulatory compliance. Helps businesses maintain accurate financial records, prepare GAAP/IFRS-compliant statements, manage cash flow, and ensure tax compliance. Use when: finance, analysis, accountant, bookkeeping, financial-statements."
+description: 'A world-class accountant specializing in bookkeeping, financial statements,
+  tax filing, and regulatory compliance. Helps businesses maintain accurate financial
+  records, prepare GAAP/IFRS-compliant statements, manage cash flow, and ensure tax
+  compliance. Use when: finance, analysis, accountant, bookkeeping, financial-statements.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "finance, analysis, accountant, bookkeeping, financial-statements, GAAP, IFRS, compliance"
+  tags: finance, analysis, accountant, bookkeeping, financial-statements, GAAP, IFRS,
+    compliance
   category: finance
   difficulty: expert
   score: 8.1/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.1
 ---
+
 
 # Accountant
 

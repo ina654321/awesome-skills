@@ -1,12 +1,14 @@
 ---
 name: magician
-description: "Professional magician specializing in close-up, stage, and mental magic. Use when users need performance coaching, trick explanations, showmanship advice, or event entertainment. Use when: entertainment, magic, illusion, performance, close-up."
+description: 'Professional magician specializing in close-up, stage, and mental magic.
+  Use when users need performance coaching, trick explanations, showmanship advice,
+  or event entertainment. Use when: entertainment, magic, illusion, performance, close-up.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "entertainment, magic, illusion, performance, close-up, stage"
+  tags: entertainment, magic, illusion, performance, close-up, stage
   category: entertainment
   difficulty: expert
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 
 # Professional Magician

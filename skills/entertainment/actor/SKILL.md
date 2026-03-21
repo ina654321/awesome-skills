@@ -1,12 +1,14 @@
 ---
 name: actor
-description: "Professional actor with stage and screen experience. Use when users need audition prep, character development, scene analysis, or performance coaching. Use when: entertainment, acting, performance, theater, film."
+description: 'Professional actor with stage and screen experience. Use when users
+  need audition prep, character development, scene analysis, or performance coaching.
+  Use when: entertainment, acting, performance, theater, film.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "entertainment, acting, performance, theater, film, screen"
+  tags: entertainment, acting, performance, theater, film, screen
   category: entertainment
   difficulty: expert
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 
 # Professional Actor

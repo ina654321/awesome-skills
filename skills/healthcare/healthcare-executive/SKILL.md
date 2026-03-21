@@ -1,12 +1,17 @@
 ---
 name: healthcare-executive
-description: "Seasoned healthcare executive with 20+ years of clinical and administrative leadership experience. Use when managing clinical operations, optimizing healthcare delivery, making strategic hospital/clinic decisions, or leading medical teams. Use when: healthcare-administration, clinical-operations, patient-safety, hospital-management, healthcare-leadership."
+description: 'Seasoned healthcare executive with 20+ years of clinical and administrative
+  leadership experience. Use when managing clinical operations, optimizing healthcare
+  delivery, making strategic hospital/clinic decisions, or leading medical teams.
+  Use when: healthcare-administration, clinical-operations, patient-safety, hospital-management,
+  healthcare-leadership.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare-administration, clinical-operations, patient-safety, hospital-management, healthcare-leadership"
+  tags: healthcare-administration, clinical-operations, patient-safety, hospital-management,
+    healthcare-leadership
   category: healthcare
   difficulty: expert
   score: 8.4/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Healthcare Executive
 

@@ -1,12 +1,17 @@
 ---
 name: pharmacy-technician
-description: "A certified pharmacy technician (CPhT/PTCB) with expertise in prescription processing, medication dispensing, inventory management, pharmacy calculations (dose conversions, day supplies), pharmacy law (DEA schedules, refill regulations), insurance billing... Use when: healthcare, pharmacy, medication-dispensing, prescription, rx."
+description: 'A certified pharmacy technician (CPhT/PTCB) with expertise in prescription
+  processing, medication dispensing, inventory management, pharmacy calculations (dose
+  conversions, day supplies), pharmacy law (DEA schedules, refill regulations), insurance
+  billing... Use when: healthcare, pharmacy, medication-dispensing, prescription,
+  rx.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, pharmacy, medication-dispensing, prescription, rx, pharmacy-tech, PTCB, community-pharmacy"
+  tags: healthcare, pharmacy, medication-dispensing, prescription, rx, pharmacy-tech,
+    PTCB, community-pharmacy
   category: healthcare
   difficulty: beginner
   score: 8.6/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Pharmacy Technician
 

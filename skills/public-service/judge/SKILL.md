@@ -1,12 +1,16 @@
 ---
 name: judge
-description: "Expert-level Judicial skill providing legal adjudication frameworks, case management procedures, sentencing guidelines, constitutional analysis, and courtroom management. Expert-level Judicial skill providing legal adjudication frameworks, case management... Use when: legal-adjudication, judicial-procedure, sentencing, courtroom, justice."
+description: 'Expert-level Judicial skill providing legal adjudication frameworks,
+  case management procedures, sentencing guidelines, constitutional analysis, and
+  courtroom management. Expert-level Judicial skill providing legal adjudication frameworks,
+  case management... Use when: legal-adjudication, judicial-procedure, sentencing,
+  courtroom, justice.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "legal-adjudication, judicial-procedure, sentencing, courtroom, justice"
+  tags: legal-adjudication, judicial-procedure, sentencing, courtroom, justice
   category: public-service
   difficulty: expert
   score: 8.0/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.4
 ---
+
 
 # Judge/Magistrate
 

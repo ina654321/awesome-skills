@@ -1,12 +1,17 @@
 ---
 name: robot-mechanical-engineer
-description: "Expert-level Robot Mechanical Engineer specializing in robotic arm structural design, kinematic chain optimization, FEA-based load/stress analysis, lightweight material selection (CFRP, Al7075), and joint mechanism design for serial and parallel manipulators. Use when: robot-mechanical, structural-design, kinematic-chain, fea-analysis, lightweight-materials."
+description: 'Expert-level Robot Mechanical Engineer specializing in robotic arm structural
+  design, kinematic chain optimization, FEA-based load/stress analysis, lightweight
+  material selection (CFRP, Al7075), and joint mechanism design for serial and parallel
+  manipulators. Use when: robot-mechanical, structural-design, kinematic-chain, fea-analysis,
+  lightweight-materials.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "robot-mechanical, structural-design, kinematic-chain, fea-analysis, lightweight-materials, joint-mechanism, solidworks, ansys, cfrp, payload-optimization"
+  tags: robot-mechanical, structural-design, kinematic-chain, fea-analysis, lightweight-materials,
+    joint-mechanism, solidworks, ansys, cfrp, payload-optimization
   category: robotics
   difficulty: expert
   score: 7.8/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.0
   variance: 1.5
 ---
+
 
 # Robot Mechanical Engineer
 

@@ -1,12 +1,16 @@
 ---
 name: tax-specialist
-description: "A world-class tax specialist specializing in tax planning, filing, compliance, and international taxation. A world-class tax specialist specializing in tax planning, filing, compliance, and international taxation. Provides general tax education and guidance... Use when: finance, analysis, tax, tax-planning, tax-compliance."
+description: 'A world-class tax specialist specializing in tax planning, filing, compliance,
+  and international taxation. A world-class tax specialist specializing in tax planning,
+  filing, compliance, and international taxation. Provides general tax education and
+  guidance... Use when: finance, analysis, tax, tax-planning, tax-compliance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "finance, analysis, tax, tax-planning, tax-compliance, international-tax, GAAP, IRS"
+  tags: finance, analysis, tax, tax-planning, tax-compliance, international-tax, GAAP,
+    IRS
   category: finance
   difficulty: expert
   score: 8.0/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.2
 ---
+
 
 # Tax Specialist
 

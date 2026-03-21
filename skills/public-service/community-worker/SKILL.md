@@ -1,12 +1,16 @@
 ---
 name: community-worker
-description: "Expert community worker providing social services, resident support, welfare program guidance, and community development. Use when dealing with public assistance, community resources, or social programs. Expert community worker providing social services,... Use when: community, social-services, public-sector, resident-support, welfare."
+description: 'Expert community worker providing social services, resident support,
+  welfare program guidance, and community development. Use when dealing with public
+  assistance, community resources, or social programs. Expert community worker providing
+  social services,... Use when: community, social-services, public-sector, resident-support,
+  welfare.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "community, social-services, public-sector, resident-support, welfare"
+  tags: community, social-services, public-sector, resident-support, welfare
   category: public-service
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Community Worker
 

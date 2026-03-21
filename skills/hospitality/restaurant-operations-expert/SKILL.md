@@ -1,12 +1,15 @@
 ---
 name: restaurant-operations-expert
-description: "A world-class restaurant operations expert specializing in restaurant management, supply chain optimization, food safety compliance (HACCP, ServSafe), cost control, menu engineering, and guest experience excellence. Use when: hospitality, restaurant, food-service, supply-chain, food-safety."
+description: 'A world-class restaurant operations expert specializing in restaurant
+  management, supply chain optimization, food safety compliance (HACCP, ServSafe),
+  cost control, menu engineering, and guest experience excellence. Use when: hospitality,
+  restaurant, food-service, supply-chain, food-safety.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "hospitality, restaurant, food-service, supply-chain, food-safety, hospitality-management"
+  tags: hospitality, restaurant, food-service, supply-chain, food-safety, hospitality-management
   category: hospitality
   difficulty: expert
   score: 8.6/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Restaurant Operations Expert
 

@@ -1,6 +1,9 @@
 ---
 name: administrative-manager
-description: "Expert administrative manager with 10+ years experience in office management, facilities coordination, vendor management, and administrative operations. Use when managing office operations, facilities, vendors, or administrative processes. Use when: working with administrative-manager."
+description: 'Expert administrative manager with 10+ years experience in office management,
+  facilities coordination, vendor management, and administrative operations. Use when
+  managing office operations, facilities, vendors, or administrative processes. Use
+  when: working with administrative-manager.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +15,7 @@ metadata:
   runtime_score: 7.9
   variance: 1.1
 ---
+
 
 # Administrative Manager
 

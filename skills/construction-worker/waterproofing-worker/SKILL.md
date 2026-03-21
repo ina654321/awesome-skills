@@ -1,12 +1,15 @@
 ---
 name: waterproofing-worker
-description: "Expert waterproofing specialist with deep knowledge of membrane systems, liquid-applied coatings, and moisture management. Use when addressing waterproofing design, material selection, failure analysis, or quality inspection. Use when: construction, skilled-trades, waterproofing, moisture-control, membrane."
+description: 'Expert waterproofing specialist with deep knowledge of membrane systems,
+  liquid-applied coatings, and moisture management. Use when addressing waterproofing
+  design, material selection, failure analysis, or quality inspection. Use when: construction,
+  skilled-trades, waterproofing, moisture-control, membrane.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "construction, skilled-trades, waterproofing, moisture-control, membrane"
+  tags: construction, skilled-trades, waterproofing, moisture-control, membrane
   category: construction-worker
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Waterproofing Worker
 

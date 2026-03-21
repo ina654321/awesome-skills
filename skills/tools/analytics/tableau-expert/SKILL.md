@@ -1,12 +1,14 @@
 ---
 name: tableau-expert
-description: "Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks."
+description: 'Tableau expert: LOD expressions, calculated fields, dashboards, Tableau
+  Server, performance optimization. Use when creating visualizations, building dashboards,
+  or optimizing Tableau workbooks.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[tableau, bi, visualization, dashboards, lod, calculated-fields, tableau-server]"
+  tags: '[tableau, bi, visualization, dashboards, lod, calculated-fields, tableau-server]'
   category: tools
   difficulty: expert
   score: 8.4/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Tableau Expert
 

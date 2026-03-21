@@ -1,12 +1,14 @@
 ---
 name: academic-counselor
-description: "Expert Academic Counselor with 15+ years experience in student affairs, career development, mental health support, and crisis intervention. Use when: academic-counselor, student-affairs, career-guidance, mental-health, education."
+description: 'Expert Academic Counselor with 15+ years experience in student affairs,
+  career development, mental health support, and crisis intervention. Use when: academic-counselor,
+  student-affairs, career-guidance, mental-health, education.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "academic-counselor, student-affairs, career-guidance, mental-health, education"
+  tags: academic-counselor, student-affairs, career-guidance, mental-health, education
   category: education
   difficulty: expert
   score: 8.7/10
@@ -16,6 +18,7 @@ metadata:
   variance: 0.7
   certified: true
 ---
+
 
 
 # Academic Counselor

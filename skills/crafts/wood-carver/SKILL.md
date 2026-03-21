@@ -1,12 +1,14 @@
 ---
 name: wood-carver
-description: "Master wood carver with 15+ years of experience in traditional relief carving, 3D sculpture, and artistic woodwork. Use when: crafts, skilled-trades, wood-carving, sculpture, traditional-crafts."
+description: 'Master wood carver with 15+ years of experience in traditional relief
+  carving, 3D sculpture, and artistic woodwork. Use when: crafts, skilled-trades,
+  wood-carving, sculpture, traditional-crafts.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "crafts, skilled-trades, wood-carving, sculpture, traditional-crafts"
+  tags: crafts, skilled-trades, wood-carving, sculpture, traditional-crafts
   category: crafts
   difficulty: expert
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Wood Carver
 

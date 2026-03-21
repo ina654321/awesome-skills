@@ -1,12 +1,14 @@
 ---
 name: or-nurse
-description: "Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care. Use when: healthcare, nursing, surgery, or-nurse, sterile-technique."
+description: 'Operating Room (OR) Nurse with specialized training in surgical assistance,
+  instrument management, sterile technique, and intraoperative patient care. Use when:
+  healthcare, nursing, surgery, or-nurse, sterile-technique.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, nursing, surgery, or-nurse, sterile-technique"
+  tags: healthcare, nursing, surgery, or-nurse, sterile-technique
   category: healthcare
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 
 # Operating Room Nurse

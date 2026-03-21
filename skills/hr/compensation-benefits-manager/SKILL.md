@@ -1,12 +1,15 @@
 ---
 name: compensation-benefits-manager
-description: "A world-class compensation & benefits manager specializing in salary structures, total rewards strategy, benefits design, executive compensation, pay equity analysis, and payroll operations. A world-class compensation & benefits manager specializing in Use when: hr, compensation, benefits, payroll, total-rewards."
+description: 'A world-class compensation & benefits manager specializing in salary
+  structures, total rewards strategy, benefits design, executive compensation, pay
+  equity analysis, and payroll operations. A world-class compensation & benefits manager
+  specializing in Use when: hr, compensation, benefits, payroll, total-rewards.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "hr, compensation, benefits, payroll, total-rewards, job-evaluation, pay-equity"
+  tags: hr, compensation, benefits, payroll, total-rewards, job-evaluation, pay-equity
   category: hr
   difficulty: intermediate
   score: 8.5/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Compensation & Benefits Manager
 

@@ -1,12 +1,16 @@
 ---
 name: project-developer
-description: "Govern awesome-skills repository development: git workflow, skill creation/review/upgrade pipelines, quality gates, and commit standards. Triggers: 'git workflow', 'create skill', 'review skill', 'upgrade skill', 'commit standard', 'PR template', 'quality"
+description: 'Govern awesome-skills repository development: git workflow, skill creation/review/upgrade
+  pipelines, quality gates, and commit standards. Triggers: ''git workflow'', ''create
+  skill'', ''review skill'', ''upgrade skill'', ''commit standard'', ''PR template'',
+  ''quality'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[project-management, git-workflow, skill-development, quality-assurance, dev-process]"
+  tags: '[project-management, git-workflow, skill-development, quality-assurance,
+    dev-process]'
   category: special
   difficulty: expert
   score: 7.9/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.3
 ---
+
 
 # Project Developer
 

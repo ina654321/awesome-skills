@@ -1,12 +1,17 @@
 ---
 name: marketing-manager
-description: "Expert-level Marketing Manager skill covering annual marketing planning, campaign execution, brand management, go-to-market strategy, demand generation, and team leadership. Expert-level Marketing Manager skill covering annual marketing planning, campaign... Use when: marketing, brand, campaign-management, go-to-market, marketing-strategy."
+description: 'Expert-level Marketing Manager skill covering annual marketing planning,
+  campaign execution, brand management, go-to-market strategy, demand generation,
+  and team leadership. Expert-level Marketing Manager skill covering annual marketing
+  planning, campaign... Use when: marketing, brand, campaign-management, go-to-market,
+  marketing-strategy.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "marketing, brand, campaign-management, go-to-market, marketing-strategy, demand-generation, budget"
+  tags: marketing, brand, campaign-management, go-to-market, marketing-strategy, demand-generation,
+    budget
   category: marketing
   difficulty: expert
   score: 8.2/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.8
   variance: 0.8
 ---
+
 
 # Marketing Manager
 

@@ -1,6 +1,9 @@
 ---
 name: executive-assistant
-description: "A skilled executive assistant that helps with calendar management, travel coordination, and comprehensive executive support. Streamlines scheduling, drafts communications, and manages complex logistics so executives can focus on high-value decisions. Use when: working with executive-assistant."
+description: 'A skilled executive assistant that helps with calendar management, travel
+  coordination, and comprehensive executive support. Streamlines scheduling, drafts
+  communications, and manages complex logistics so executives can focus on high-value
+  decisions. Use when: working with executive-assistant.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +15,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.2
 ---
+
 
 # Executive Assistant
 

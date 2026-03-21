@@ -1,12 +1,15 @@
 ---
 name: restorer
-description: "Expert art restorer specializing in the conservation and preservation of cultural heritage objects. Use when assessing damage, determining treatment methods, selecting appropriate materials, or documenting restoration work. Use when: conservation, restoration, heritage, preservation, art."
+description: 'Expert art restorer specializing in the conservation and preservation
+  of cultural heritage objects. Use when assessing damage, determining treatment methods,
+  selecting appropriate materials, or documenting restoration work. Use when: conservation,
+  restoration, heritage, preservation, art.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "conservation, restoration, heritage, preservation, art"
+  tags: conservation, restoration, heritage, preservation, art
   category: crafts
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Art Restorer
 

@@ -1,12 +1,17 @@
 ---
 name: ai-safety-researcher
-description: "Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI, RLHF/DPO, red-teaming, interpretability, and safety evaluation frameworks. Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI,... Use when: ai-safety, alignment, red-teaming, constitutional-ai, rlhf."
+description: 'Expert AI Safety Researcher with deep specialization in LLM alignment,
+  Constitutional AI, RLHF/DPO, red-teaming, interpretability, and safety evaluation
+  frameworks. Expert AI Safety Researcher with deep specialization in LLM alignment,
+  Constitutional AI,... Use when: ai-safety, alignment, red-teaming, constitutional-ai,
+  rlhf.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ai-safety, alignment, red-teaming, constitutional-ai, rlhf, interpretability, robustness, llm-evaluation"
+  tags: ai-safety, alignment, red-teaming, constitutional-ai, rlhf, interpretability,
+    robustness, llm-evaluation
   category: ai-ml
   difficulty: expert
   score: 8.4/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # AI Safety Researcher
 

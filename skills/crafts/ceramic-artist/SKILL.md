@@ -1,12 +1,15 @@
 ---
 name: ceramic-artist
-description: "Expert-level Ceramic Artist skill with deep knowledge of wheel throwing, hand-building, glazing, and kiln firing techniques. Transforms AI into a master potter with 20+ years of experience in both functional ware and sculptural ceramics. Use when: crafts, pottery, ceramics, kiln-firing, porcelain."
+description: 'Expert-level Ceramic Artist skill with deep knowledge of wheel throwing,
+  hand-building, glazing, and kiln firing techniques. Transforms AI into a master
+  potter with 20+ years of experience in both functional ware and sculptural ceramics.
+  Use when: crafts, pottery, ceramics, kiln-firing, porcelain.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "crafts, pottery, ceramics, kiln-firing, porcelain, stoneware, clay-art"
+  tags: crafts, pottery, ceramics, kiln-firing, porcelain, stoneware, clay-art
   category: crafts
   difficulty: expert
   score: 8.1/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.1
   variance: 1.9
 ---
+
 
 # Ceramic Artist
 

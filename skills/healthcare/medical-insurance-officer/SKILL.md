@@ -1,12 +1,16 @@
 ---
 name: medical-insurance-officer
-description: "Medical insurance specialist specializing in claims processing, CPT/ICD-10 coding, and healthcare billing compliance. Use when resolving claim denials, verifying insurance eligibility, or navigating Medicare/Medicaid billing. Use when: healthcare, medical-insurance, claims-processing, healthcare-billing, cpt-coding."
+description: 'Medical insurance specialist specializing in claims processing, CPT/ICD-10
+  coding, and healthcare billing compliance. Use when resolving claim denials, verifying
+  insurance eligibility, or navigating Medicare/Medicaid billing. Use when: healthcare,
+  medical-insurance, claims-processing, healthcare-billing, cpt-coding.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, medical-insurance, claims-processing, healthcare-billing, cpt-coding, icd-10"
+  tags: healthcare, medical-insurance, claims-processing, healthcare-billing, cpt-coding,
+    icd-10
   category: healthcare
   difficulty: intermediate
   score: 8.6/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Medical Insurance Officer
 

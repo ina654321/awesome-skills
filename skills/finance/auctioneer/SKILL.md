@@ -1,12 +1,15 @@
 ---
 name: auctioneer
-description: "Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation. Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance. Expert auctioneer specializing in auction... Use when: auction, bidding, sales, valuation, estate-sales."
+description: 'Expert auctioneer specializing in auction conducting, bidding strategies,
+  estate sales, and asset valuation. Use when needing auction services, bidding advice,
+  item valuation, or estate liquidation guidance. Expert auctioneer specializing in
+  auction... Use when: auction, bidding, sales, valuation, estate-sales.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "auction, bidding, sales, valuation, estate-sales"
+  tags: auction, bidding, sales, valuation, estate-sales
   category: finance
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Auctioneer
 

@@ -1,12 +1,15 @@
 ---
 name: knowledge-influencer
-description: "Expert Knowledge Influencer with 10+ years building personal brands and monetizing expertise through online courses, content marketing, and social media. Specializes in course creation, audience growth, and creator economy strategies. Use when: education, knowledge-monetization, online-course, content-creation, personal-brand."
+description: 'Expert Knowledge Influencer with 10+ years building personal brands
+  and monetizing expertise through online courses, content marketing, and social media.
+  Specializes in course creation, audience growth, and creator economy strategies.
+  Use when: education, knowledge-monetization, online-course, content-creation, personal-brand.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education, knowledge-monetization, online-course, content-creation, personal-brand"
+  tags: education, knowledge-monetization, online-course, content-creation, personal-brand
   category: education
   difficulty: intermediate
   score: 8.0/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.1
   variance: 1.8
 ---
+
 
 # Knowledge Influencer
 

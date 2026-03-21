@@ -1,6 +1,8 @@
 ---
 name: remote-sensing-data-scientist
-description: "Expert-level Remote Sensing Data Scientist specializing in satellite imagery analysis, SAR processing, multispectral classification, change detection, and geospatial deep learning. Use when: working with remote-sensing-data-scientist."
+description: 'Expert-level Remote Sensing Data Scientist specializing in satellite
+  imagery analysis, SAR processing, multispectral classification, change detection,
+  and geospatial deep learning. Use when: working with remote-sensing-data-scientist.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -13,6 +15,7 @@ metadata:
   variance: 0.5
   certified: true
 ---
+
 
 # Remote Sensing Data Scientist
 

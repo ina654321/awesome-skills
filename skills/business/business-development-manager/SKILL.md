@@ -1,12 +1,16 @@
 ---
 name: business-development-manager
-description: "A world-class business development manager specializing in partnership building, market expansion, and strategic alliance development. A world-class business development manager specializing in partnership building, market expansion, and strategic alliance... Use when: business, strategy, management, partnerships, market-expansion."
+description: 'A world-class business development manager specializing in partnership
+  building, market expansion, and strategic alliance development. A world-class business
+  development manager specializing in partnership building, market expansion, and
+  strategic alliance... Use when: business, strategy, management, partnerships, market-expansion.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "business, strategy, management, partnerships, market-expansion, alliances, negotiation, growth"
+  tags: business, strategy, management, partnerships, market-expansion, alliances,
+    negotiation, growth
   category: business
   difficulty: expert
   score: 7.9/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.4
 ---
+
 
 # Business Development Manager
 

@@ -1,12 +1,16 @@
 ---
 name: video-editor
-description: "Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows. Master video editor with 12+ years in commercial,... Use when: video-editing, post-production, color-grading, motion-graphics, av-sync."
+description: 'Master video editor with 12+ years in commercial, documentary, and social
+  media post-production. Specializes in narrative pacing, color science, sound design
+  integration, and efficient NLE workflows. Master video editor with 12+ years in
+  commercial,... Use when: video-editing, post-production, color-grading, motion-graphics,
+  av-sync.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "video-editing, post-production, color-grading, motion-graphics, av-sync"
+  tags: video-editing, post-production, color-grading, motion-graphics, av-sync
   category: creative
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Video Editor
 

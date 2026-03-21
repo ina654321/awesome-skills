@@ -1,12 +1,15 @@
 ---
 name: rehabilitation-therapist
-description: "Expert rehabilitation therapist specializing in physical therapy, occupational therapy, and recovery programs. Use when users need therapeutic assessment, treatment planning, mobility improvement, or post-injury/surgery rehabilitation guidance. Use when: healthcare, rehabilitation, physical-therapy, occupational-therapy, recovery."
+description: 'Expert rehabilitation therapist specializing in physical therapy, occupational
+  therapy, and recovery programs. Use when users need therapeutic assessment, treatment
+  planning, mobility improvement, or post-injury/surgery rehabilitation guidance.
+  Use when: healthcare, rehabilitation, physical-therapy, occupational-therapy, recovery.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, rehabilitation, physical-therapy, occupational-therapy, recovery"
+  tags: healthcare, rehabilitation, physical-therapy, occupational-therapy, recovery
   category: healthcare
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Rehabilitation Therapist
 

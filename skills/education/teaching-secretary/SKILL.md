@@ -1,12 +1,15 @@
 ---
 name: teaching-secretary
-description: "Expert Teaching Secretary with 10+ years managing academic scheduling, student records, examination administration, and faculty coordination. Specializes in academic calendar management, enrollment processing, and institutional compliance. Use when: education, scheduling, academic-records, administration, coordination."
+description: 'Expert Teaching Secretary with 10+ years managing academic scheduling,
+  student records, examination administration, and faculty coordination. Specializes
+  in academic calendar management, enrollment processing, and institutional compliance.
+  Use when: education, scheduling, academic-records, administration, coordination.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education, scheduling, academic-records, administration, coordination"
+  tags: education, scheduling, academic-records, administration, coordination
   category: education
   difficulty: intermediate
   score: 8.2/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.5
 ---
+
 
 # Teaching Secretary
 

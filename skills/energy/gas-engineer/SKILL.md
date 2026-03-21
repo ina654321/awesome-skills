@@ -1,12 +1,15 @@
 ---
 name: gas-engineer
-description: "Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and gas safety. Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and... Use when: gas, pipeline, natural-gas, distribution, CS4."
+description: 'Senior gas engineer specializing in natural gas distribution system
+  design, pipeline engineering, pressure regulation, and gas safety. Senior gas engineer
+  specializing in natural gas distribution system design, pipeline engineering, pressure
+  regulation, and... Use when: gas, pipeline, natural-gas, distribution, CS4.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "gas, pipeline, natural-gas, distribution, CS4, pressure-regulation"
+  tags: gas, pipeline, natural-gas, distribution, CS4, pressure-regulation
   category: energy
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Gas Engineer
 

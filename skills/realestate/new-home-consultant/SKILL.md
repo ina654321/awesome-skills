@@ -1,12 +1,15 @@
 ---
 name: new-home-consultant
-description: "Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new developments. Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new... Use when: new-construction, sales, developer, buyer-representation."
+description: 'Expert new home sales consultant specializing in new construction, developer
+  representation, and buyer advocacy in new developments. Expert new home sales consultant
+  specializing in new construction, developer representation, and buyer advocacy in
+  new... Use when: new-construction, sales, developer, buyer-representation.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "new-construction, sales, developer, buyer-representation"
+  tags: new-construction, sales, developer, buyer-representation
   category: realestate
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # New Home Sales Consultant
 

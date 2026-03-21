@@ -1,12 +1,15 @@
 ---
 name: hydrogen-fuel-cell-engineer
-description: "Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development, and hydrogen system integration. Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development,... Use when: hydrogen, fuel-cell, PEMFC, electrolyzer, green-hydrogen."
+description: 'Senior hydrogen fuel cell engineer specializing in PEMFC stack design,
+  membrane electrode assembly development, and hydrogen system integration. Senior
+  hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode
+  assembly development,... Use when: hydrogen, fuel-cell, PEMFC, electrolyzer, green-hydrogen.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "hydrogen, fuel-cell, PEMFC, electrolyzer, green-hydrogen, MEA"
+  tags: hydrogen, fuel-cell, PEMFC, electrolyzer, green-hydrogen, MEA
   category: energy
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Hydrogen Fuel Cell Engineer
 

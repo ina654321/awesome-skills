@@ -1,12 +1,17 @@
 ---
 name: investment-analyst
-description: "Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis, valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Expert-level Investment Analyst with deep knowledge of equity research,... Use when: equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence."
+description: 'Expert-level Investment Analyst with deep knowledge of equity research,
+  fundamental analysis, valuation (DCF/comps/transactions), investment thesis construction,
+  and due diligence. Expert-level Investment Analyst with deep knowledge of equity
+  research,... Use when: equity-research, valuation, fundamental-analysis, financial-modeling,
+  due-diligence.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis, moat-analysis, catalyst"
+  tags: equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence,
+    investment-thesis, moat-analysis, catalyst
   category: finance
   difficulty: expert
   score: 8.4/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.2
 ---
+
 
 # Investment Analyst
 

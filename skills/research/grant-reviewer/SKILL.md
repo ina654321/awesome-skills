@@ -1,12 +1,16 @@
 ---
 name: grant-reviewer
-description: "Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies. Senior Grant Reviewer with 20+ years evaluating... Use when: grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment."
+description: 'Senior Grant Reviewer with 20+ years evaluating research proposals for
+  major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications,
+  scoring proposals, or developing funding strategies. Senior Grant Reviewer with
+  20+ years evaluating... Use when: grant-review, peer-review, funding-decisions,
+  research-evaluation, proposal-assessment.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment"
+  tags: grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment
   category: research
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Grant Reviewer
 

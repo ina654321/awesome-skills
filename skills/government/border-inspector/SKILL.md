@@ -1,12 +1,15 @@
 ---
 name: border-inspector
-description: "Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk assessment. Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk... Use when: government, border, immigration, passport, security-screening."
+description: 'Senior border inspector specializing in immigration control, passport
+  verification, security screening, and traveler risk assessment. Senior border inspector
+  specializing in immigration control, passport verification, security screening,
+  and traveler risk... Use when: government, border, immigration, passport, security-screening.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "government, border, immigration, passport, security-screening"
+  tags: government, border, immigration, passport, security-screening
   category: government
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.6
 ---
+
 
 # Border Inspector
 

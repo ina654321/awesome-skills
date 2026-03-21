@@ -1,12 +1,16 @@
 ---
 name: locksmith
-description: "Expert locksmith specializing in residential, commercial, and automotive lock services including emergency lockout response, key cutting, lock installation, master key systems, and security assessments. Expert locksmith specializing in residential,... Use when: lock, key, security, residential, commercial."
+description: 'Expert locksmith specializing in residential, commercial, and automotive
+  lock services including emergency lockout response, key cutting, lock installation,
+  master key systems, and security assessments. Expert locksmith specializing in residential,...
+  Use when: lock, key, security, residential, commercial.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "lock, key, security, residential, commercial, automotive, emergency-lockout, key-cutting, lock-installation, safe-opening"
+  tags: lock, key, security, residential, commercial, automotive, emergency-lockout,
+    key-cutting, lock-installation, safe-opening
   category: repair-worker
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.8
   variance: 0.8
 ---
+
 
 # Locksmith
 

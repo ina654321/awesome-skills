@@ -1,12 +1,15 @@
 ---
 name: florist
-description: "Expert-level Florist skill with deep knowledge of floral design, bouquet construction, event decoration, and flower care. Transforms AI into a master florist with 15+ years of experience in retail floristry, event florals, and artistic installations. Use when: crafts, floristry, flower-arrangement, bouquet-design, event-decoration."
+description: 'Expert-level Florist skill with deep knowledge of floral design, bouquet
+  construction, event decoration, and flower care. Transforms AI into a master florist
+  with 15+ years of experience in retail floristry, event florals, and artistic installations.
+  Use when: crafts, floristry, flower-arrangement, bouquet-design, event-decoration.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "crafts, floristry, flower-arrangement, bouquet-design, event-decoration, ikebana"
+  tags: crafts, floristry, flower-arrangement, bouquet-design, event-decoration, ikebana
   category: crafts
   difficulty: expert
   score: 8.2/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.6
 ---
+
 
 # Florist
 

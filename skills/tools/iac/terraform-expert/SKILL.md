@@ -1,12 +1,14 @@
 ---
 name: terraform-expert
-description: "Terraform IaC expert: HCL syntax, provider configuration, module design, state management, workspaces. Use when writing Terraform code, managing infrastructure as code, or troubleshooting Terraform issues."
+description: 'Terraform IaC expert: HCL syntax, provider configuration, module design,
+  state management, workspaces. Use when writing Terraform code, managing infrastructure
+  as code, or troubleshooting Terraform issues.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[terraform, iac, infrastructure, devops, cloud]"
+  tags: '[terraform, iac, infrastructure, devops, cloud]'
   category: tools
   difficulty: expert
   score: 7.8/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 6.8
   variance: 1.9
 ---
+
 
 # Terraform Expert
 

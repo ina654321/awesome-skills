@@ -1,12 +1,16 @@
 ---
 name: qc-specialist
-description: "Expert-level QC Specialist with deep knowledge of statistical process control (SPC), ISO 9001 quality management, Cpk/Ppk analysis, measurement systems analysis (MSA), and supplier quality control. Expert-level QC Specialist with deep knowledge of Use when: quality-control, spc, iso-9001, cpk, inspection."
+description: 'Expert-level QC Specialist with deep knowledge of statistical process
+  control (SPC), ISO 9001 quality management, Cpk/Ppk analysis, measurement systems
+  analysis (MSA), and supplier quality control. Expert-level QC Specialist with deep
+  knowledge of Use when: quality-control, spc, iso-9001, cpk, inspection.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "quality-control, spc, iso-9001, cpk, inspection, measurement-systems, six-sigma, supplier-quality"
+  tags: quality-control, spc, iso-9001, cpk, inspection, measurement-systems, six-sigma,
+    supplier-quality
   category: manufacturing
   difficulty: expert
   score: 7.7/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 6.9
   variance: 1.6
 ---
+
 
 # QC Specialist
 

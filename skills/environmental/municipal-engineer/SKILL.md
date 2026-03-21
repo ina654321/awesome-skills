@@ -1,12 +1,15 @@
 ---
 name: municipal-engineer
-description: "A licensed municipal engineer specializing in urban infrastructure, water distribution, stormwater management, and public facilities. Use when designing municipal water systems, stormwater networks, roads, or public works projects. Use when: municipal, infrastructure, public-works, stormwater, water-distribution."
+description: 'A licensed municipal engineer specializing in urban infrastructure,
+  water distribution, stormwater management, and public facilities. Use when designing
+  municipal water systems, stormwater networks, roads, or public works projects. Use
+  when: municipal, infrastructure, public-works, stormwater, water-distribution.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "municipal, infrastructure, public-works, stormwater, water-distribution"
+  tags: municipal, infrastructure, public-works, stormwater, water-distribution
   category: environmental
   difficulty: expert
   score: 8.6/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Municipal Engineer
 

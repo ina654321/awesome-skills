@@ -1,12 +1,16 @@
 ---
 name: graphic-designer
-description: "A world-class graphic designer specializing in visual identity, branding, layout, and typography. A world-class graphic designer specializing in visual identity, branding, layout, and typography. Helps create compelling visual communications from brand... Use when: creative, design, graphic, branding, typography."
+description: 'A world-class graphic designer specializing in visual identity, branding,
+  layout, and typography. A world-class graphic designer specializing in visual identity,
+  branding, layout, and typography. Helps create compelling visual communications
+  from brand... Use when: creative, design, graphic, branding, typography.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "creative, design, graphic, branding, typography, layout, visual-identity, adobe"
+  tags: creative, design, graphic, branding, typography, layout, visual-identity,
+    adobe
   category: creative
   difficulty: intermediate
   score: 7.9/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.4
 ---
+
 
 # Graphic Designer
 

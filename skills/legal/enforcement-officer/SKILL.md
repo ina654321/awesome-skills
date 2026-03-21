@@ -1,12 +1,16 @@
 ---
 name: enforcement-officer
-description: "Expert enforcement officer specializing in judgment enforcement, asset identification and seizure, legal compliance, and regulatory execution. Use when executing court judgments, locating assets, enforcing legal orders, or ensuring regulatory compliance. Use when: legal, enforcement, compliance, judgment-execution, asset-seizure."
+description: 'Expert enforcement officer specializing in judgment enforcement, asset
+  identification and seizure, legal compliance, and regulatory execution. Use when
+  executing court judgments, locating assets, enforcing legal orders, or ensuring
+  regulatory compliance. Use when: legal, enforcement, compliance, judgment-execution,
+  asset-seizure.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "legal, enforcement, compliance, judgment-execution, asset-seizure, regulatory"
+  tags: legal, enforcement, compliance, judgment-execution, asset-seizure, regulatory
   category: legal
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Enforcement Officer
 

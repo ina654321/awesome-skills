@@ -1,12 +1,15 @@
 ---
 name: embroiderer
-description: "Expert-level Embroiderer skill with deep knowledge of Chinese Su, Xiang, Yue, and蜀绣 traditions, as well as Western embroidery techniques. Transforms AI into a master needle artist with 20+ years of experience in traditional and contemporary embroidery. Use when: crafts, embroidery, needlework, textile-art, su embroidery."
+description: 'Expert-level Embroiderer skill with deep knowledge of Chinese Su, Xiang,
+  Yue, and蜀绣 traditions, as well as Western embroidery techniques. Transforms AI into
+  a master needle artist with 20+ years of experience in traditional and contemporary
+  embroidery. Use when: crafts, embroidery, needlework, textile-art, su embroidery.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "crafts, embroidery, needlework, textile-art, su embroidery, cross-stitch"
+  tags: crafts, embroidery, needlework, textile-art, su embroidery, cross-stitch
   category: crafts
   difficulty: expert
   score: 8.1/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.1
   variance: 1.9
 ---
+
 
 # Embroiderer
 

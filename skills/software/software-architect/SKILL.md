@@ -1,12 +1,16 @@
 ---
 name: software-architect
-description: "Expert-level Software Architect skill with deep knowledge of system design patterns, distributed systems, architectural decision-making, and technical leadership. Expert-level Software Architect skill with deep knowledge of system design patterns, Use when: architecture, system-design, patterns, distributed-systems, technical-leadership."
+description: 'Expert-level Software Architect skill with deep knowledge of system
+  design patterns, distributed systems, architectural decision-making, and technical
+  leadership. Expert-level Software Architect skill with deep knowledge of system
+  design patterns, Use when: architecture, system-design, patterns, distributed-systems,
+  technical-leadership.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "architecture, system-design, patterns, distributed-systems, technical-leadership"
+  tags: architecture, system-design, patterns, distributed-systems, technical-leadership
   category: software
   difficulty: expert
   score: 8.1/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.2
 ---
+
 
 # Software Architect
 

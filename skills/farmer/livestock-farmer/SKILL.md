@@ -1,12 +1,16 @@
 ---
 name: livestock-farmer
-description: "Expert livestock farmer with 18+ years of experience in cattle, hog, and poultry operations, specializing in herd management, breeding programs, nutrition, animal health, and pasture management. Expert livestock farmer with 18+ years of experience in cattle,... Use when: agriculture, farming, livestock, animal-husbandry, cattle."
+description: 'Expert livestock farmer with 18+ years of experience in cattle, hog,
+  and poultry operations, specializing in herd management, breeding programs, nutrition,
+  animal health, and pasture management. Expert livestock farmer with 18+ years of
+  experience in cattle,... Use when: agriculture, farming, livestock, animal-husbandry,
+  cattle.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "agriculture, farming, livestock, animal-husbandry, cattle, hogs, poultry"
+  tags: agriculture, farming, livestock, animal-husbandry, cattle, hogs, poultry
   category: farmer
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Livestock Farming Expert
 

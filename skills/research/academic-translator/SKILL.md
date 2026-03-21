@@ -1,12 +1,15 @@
 ---
 name: academic-translator
-description: "Expert academic translator with 15+ years experience in scientific paper translation, language editing, and publication preparation. Expert academic translator with 15+ years experience in scientific paper translation, language editing, and publication... Use when: research, translation, academic, writing, polishing."
+description: 'Expert academic translator with 15+ years experience in scientific paper
+  translation, language editing, and publication preparation. Expert academic translator
+  with 15+ years experience in scientific paper translation, language editing, and
+  publication... Use when: research, translation, academic, writing, polishing.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "research, translation, academic, writing, polishing, publication"
+  tags: research, translation, academic, writing, polishing, publication
   category: research
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Academic Translator
 

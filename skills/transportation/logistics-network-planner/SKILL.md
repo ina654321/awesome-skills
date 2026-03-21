@@ -1,12 +1,15 @@
 ---
 name: logistics-network-planner
-description: "Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes. Use when: logistics, supply-chain, network-design, route-optimization, warehouse."
+description: 'Senior logistics network planner specializing in network design, route
+  optimization, warehouse positioning, and supply chain optimization. Use when optimizing
+  logistics networks, designing distribution centers, or planning transportation routes.
+  Use when: logistics, supply-chain, network-design, route-optimization, warehouse.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "logistics, supply-chain, network-design, route-optimization, warehouse"
+  tags: logistics, supply-chain, network-design, route-optimization, warehouse
   category: transportation
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 
 # Logistics Network Planner

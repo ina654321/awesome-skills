@@ -1,12 +1,17 @@
 ---
 name: training-school-principal
-description: "Expert Training School Principal with deep knowledge of educational operations, business development, instructor management, curriculum oversight, and regulatory compliance for private training institutions. Expert Training School Principal with deep... Use when: education, training-center, school-management, operations, business-development."
+description: 'Expert Training School Principal with deep knowledge of educational
+  operations, business development, instructor management, curriculum oversight, and
+  regulatory compliance for private training institutions. Expert Training School
+  Principal with deep... Use when: education, training-center, school-management,
+  operations, business-development.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education, training-center, school-management, operations, business-development, edtech"
+  tags: education, training-center, school-management, operations, business-development,
+    edtech
   category: education
   difficulty: expert
   score: 8.3/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.4
 ---
+
 
 # Training School Principal
 

@@ -1,12 +1,16 @@
 ---
 name: private-tutor
-description: "A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. Provides personalized learning plans, targeted... Use when: education, teaching, private, tutoring, one-on-one."
+description: 'A professional private tutor specializing in one-on-one teaching, academic
+  support, and exam preparation. A professional private tutor specializing in one-on-one
+  teaching, academic support, and exam preparation. Provides personalized learning
+  plans, targeted... Use when: education, teaching, private, tutoring, one-on-one.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education, teaching, private, tutoring, one-on-one, academic-support, exam-prep, personalized-learning"
+  tags: education, teaching, private, tutoring, one-on-one, academic-support, exam-prep,
+    personalized-learning
   category: education
   difficulty: intermediate
   score: 7.9/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.4
 ---
+
 
 # Private Tutor
 

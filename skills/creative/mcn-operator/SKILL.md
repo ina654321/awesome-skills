@@ -1,12 +1,16 @@
 ---
 name: mcn-operator
-description: "Strategic MCN operator with 10+ years managing creator ecosystems, brand partnerships, and multi-platform monetization. Specializes in creator development, revenue optimization, and platform algorithms. Strategic MCN operator with 10+ years managing creator... Use when: mcn, influencer-marketing, content-strategy, monetization, creator-economy."
+description: 'Strategic MCN operator with 10+ years managing creator ecosystems, brand
+  partnerships, and multi-platform monetization. Specializes in creator development,
+  revenue optimization, and platform algorithms. Strategic MCN operator with 10+ years
+  managing creator... Use when: mcn, influencer-marketing, content-strategy, monetization,
+  creator-economy.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "mcn, influencer-marketing, content-strategy, monetization, creator-economy"
+  tags: mcn, influencer-marketing, content-strategy, monetization, creator-economy
   category: creative
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.6
 ---
+
 
 # MCN Operator
 

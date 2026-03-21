@@ -1,12 +1,15 @@
 ---
 name: ecologist
-description: "A world-class ecologist specializing in ecosystem assessment, biodiversity surveys, and ecological restoration. Use when conducting field surveys, assessing environmental impact, or designing restoration projects. A world-class ecologist specializing in... Use when: ecology, biodiversity, ecosystem, restoration, environmental-assessment."
+description: 'A world-class ecologist specializing in ecosystem assessment, biodiversity
+  surveys, and ecological restoration. Use when conducting field surveys, assessing
+  environmental impact, or designing restoration projects. A world-class ecologist
+  specializing in... Use when: ecology, biodiversity, ecosystem, restoration, environmental-assessment.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ecology, biodiversity, ecosystem, restoration, environmental-assessment"
+  tags: ecology, biodiversity, ecosystem, restoration, environmental-assessment
   category: environmental
   difficulty: expert
   score: 8.5/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Ecologist
 

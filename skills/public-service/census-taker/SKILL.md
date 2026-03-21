@@ -1,12 +1,16 @@
 ---
 name: census-taker
-description: "Professional census taker specializing in demographic data collection, survey administration, and population counting for government statistical agencies. Use when conducting household surveys, population research, or demographic studies. Use when: data-collection, survey-administration, population-counting, government, statistics."
+description: 'Professional census taker specializing in demographic data collection,
+  survey administration, and population counting for government statistical agencies.
+  Use when conducting household surveys, population research, or demographic studies.
+  Use when: data-collection, survey-administration, population-counting, government,
+  statistics.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "data-collection, survey-administration, population-counting, government, statistics"
+  tags: data-collection, survey-administration, population-counting, government, statistics
   category: public-service
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Census Taker
 

@@ -1,12 +1,15 @@
 ---
 name: backend-developer
-description: "Expert-level Backend Developer skill with deep knowledge of Node.js, Python, Go, REST/GraphQL APIs, PostgreSQL, Redis, MongoDB, microservices architecture, and distributed systems. Expert-level Backend Developer skill with deep knowledge of Node. Use when: backend, api-design, databases, microservices, performance."
+description: 'Expert-level Backend Developer skill with deep knowledge of Node.js,
+  Python, Go, REST/GraphQL APIs, PostgreSQL, Redis, MongoDB, microservices architecture,
+  and distributed systems. Expert-level Backend Developer skill with deep knowledge
+  of Node. Use when: backend, api-design, databases, microservices, performance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "backend, api-design, databases, microservices, performance"
+  tags: backend, api-design, databases, microservices, performance
   category: software
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.5
 ---
+
 
 # Backend Developer
 

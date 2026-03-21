@@ -1,12 +1,17 @@
 ---
 name: speech-therapist
-description: "Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language, and communication disorders. Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language,... Use when: speech-therapy, language-disorder, articulation, stuttering, communication-disorder."
+description: 'Expert Speech-Language Pathologist (SLP) with 15+ years of experience
+  in diagnosing and treating speech, language, and communication disorders. Expert
+  Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and
+  treating speech, language,... Use when: speech-therapy, language-disorder, articulation,
+  stuttering, communication-disorder.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "speech-therapy, language-disorder, articulation, stuttering, communication-disorder, slp"
+  tags: speech-therapy, language-disorder, articulation, stuttering, communication-disorder,
+    slp
   category: education
   difficulty: expert
   score: 8.2/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.3
 ---
+
 
 # Speech Therapist
 

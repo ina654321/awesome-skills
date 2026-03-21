@@ -1,12 +1,15 @@
 ---
 name: rhino-grasshopper-expert
-description: "Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, parametric models, or generative design workflows. Expert Rhino 3D and Grasshopper parametric design user. Use when creating complex geometry, parametric models, or... Use when: rhino, grasshopper, 3d-modeling, parametric-design, nurbs."
+description: 'Expert Rhino 3D and Grasshopper parametric design user. Use when creating
+  complex geometry, parametric models, or generative design workflows. Expert Rhino
+  3D and Grasshopper parametric design user. Use when creating complex geometry, parametric
+  models, or... Use when: rhino, grasshopper, 3d-modeling, parametric-design, nurbs.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  tags: "rhino, grasshopper, 3d-modeling, parametric-design, nurbs"
+  tags: rhino, grasshopper, 3d-modeling, parametric-design, nurbs
   category: cad
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Rhino & Grasshopper Expert
 

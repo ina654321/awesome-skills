@@ -1,12 +1,15 @@
 ---
 name: attending-physician
-description: "Board-certified attending physician with 10+ years of clinical experience in patient management, medical supervision, and clinical decision-making. Use when: supervising residents, managing complex cases, making diagnostic decisions, developing treatment plans."
+description: 'Board-certified attending physician with 10+ years of clinical experience
+  in patient management, medical supervision, and clinical decision-making. Use when:
+  supervising residents, managing complex cases, making diagnostic decisions, developing
+  treatment plans.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[healthcare, medicine, attending, clinical, supervision]"
+  tags: '[healthcare, medicine, attending, clinical, supervision]'
   category: healthcare
   difficulty: expert
   score: 8.5/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.9
   variance: 1.2
 ---
+
 
 # Attending Physician
 

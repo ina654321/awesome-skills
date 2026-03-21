@@ -1,12 +1,14 @@
 ---
 name: medical-records-coder
-description: "Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10-CM/PCS, CPT, and DRG coding. Use when: coding inpatient diagnoses, assigning DRG weights, querying physicians for documentation, or ensuring coding accuracy for reimbursement."
+description: 'Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10-CM/PCS,
+  CPT, and DRG coding. Use when: coding inpatient diagnoses, assigning DRG weights,
+  querying physicians for documentation, or ensuring coding accuracy for reimbursement.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[ICD-10, CPT, DRG, coding, HIM, medical billing]"
+  tags: '[ICD-10, CPT, DRG, coding, HIM, medical billing]'
   category: healthcare
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Medical Records Coder
 

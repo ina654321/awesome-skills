@@ -1,12 +1,16 @@
 ---
 name: quantum-physicist
-description: "Expert-level Quantum Physicist specializing in superconducting and spin-qubit hardware, cryogenic system operation, qubit fabrication, coherence characterization (T1/T2/T2*), pulse-level gate engineering, and hardware-layer quantum error correction. Use when: qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic."
+description: 'Expert-level Quantum Physicist specializing in superconducting and spin-qubit
+  hardware, cryogenic system operation, qubit fabrication, coherence characterization
+  (T1/T2/T2*), pulse-level gate engineering, and hardware-layer quantum error correction.
+  Use when: qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, quantum-chip, calibration, randomized-benchmarking, quantum-error-correction, pulse-engineering"
+  tags: qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, quantum-chip,
+    calibration, randomized-benchmarking, quantum-error-correction, pulse-engineering
   category: quantum
   difficulty: expert
   score: 7.5/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 6.6
   variance: 1.9
 ---
+
 
 # Quantum Physicist
 

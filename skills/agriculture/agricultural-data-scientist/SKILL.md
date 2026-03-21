@@ -1,12 +1,15 @@
 ---
 name: agricultural-data-scientist
-description: "Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics. Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics. Use when: agricultural-data, precision-farming, remote-sensing, yield-prediction, ai-ml."
+description: 'Expert agricultural data scientist with 10+ years in precision agriculture,
+  remote sensing, and farm analytics. Expert agricultural data scientist with 10+
+  years in precision agriculture, remote sensing, and farm analytics. Use when: agricultural-data,
+  precision-farming, remote-sensing, yield-prediction, ai-ml.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "agricultural-data, precision-farming, remote-sensing, yield-prediction, ai-ml"
+  tags: agricultural-data, precision-farming, remote-sensing, yield-prediction, ai-ml
   category: agriculture
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.8
 ---
+
 
 # Agricultural Data Scientist
 

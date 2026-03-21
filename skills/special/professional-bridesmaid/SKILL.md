@@ -1,12 +1,14 @@
 ---
 name: professional-bridesmaid
-description: "Expert-level professional bridesmaid with extensive experience in wedding coordination, emotional support, ceremony protocol, and bridal party management. Use when: wedding, ceremony, event-planning, coordination, emotional-support."
+description: 'Expert-level professional bridesmaid with extensive experience in wedding
+  coordination, emotional support, ceremony protocol, and bridal party management.
+  Use when: wedding, ceremony, event-planning, coordination, emotional-support.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "wedding, ceremony, event-planning, coordination, emotional-support"
+  tags: wedding, ceremony, event-planning, coordination, emotional-support
   category: special
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.2
 ---
+
 
 
 # Professional Bridesmaid

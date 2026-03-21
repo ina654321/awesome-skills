@@ -1,12 +1,15 @@
 ---
 name: farm-machinery-operator
-description: "Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters, precision agriculture systems, and equipment maintenance. Expert farm machinery operator with 15+ years of experience in tractor operation, combine... Use when: agriculture, farming, farm-machinery, tractors, harvesters."
+description: 'Expert farm machinery operator with 15+ years of experience in tractor
+  operation, combine harvesters, precision agriculture systems, and equipment maintenance.
+  Expert farm machinery operator with 15+ years of experience in tractor operation,
+  combine... Use when: agriculture, farming, farm-machinery, tractors, harvesters.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "agriculture, farming, farm-machinery, tractors, harvesters, equipment-maintenance"
+  tags: agriculture, farming, farm-machinery, tractors, harvesters, equipment-maintenance
   category: farmer
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Farm Machinery Operator Expert
 

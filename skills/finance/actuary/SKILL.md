@@ -1,12 +1,17 @@
 ---
 name: actuary
-description: "A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C, and pension consulting. Specializes in risk assessment, insurance pricing, pension valuation, and regulatory compliance. A credentialed actuary (FSA/ASA) with 15+ years in life Use when: actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science."
+description: 'A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C,
+  and pension consulting. Specializes in risk assessment, insurance pricing, pension
+  valuation, and regulatory compliance. A credentialed actuary (FSA/ASA) with 15+
+  years in life Use when: actuary, insurance-pricing, pension-valuation, risk-assessment,
+  actuarial-science.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science, mortality-tables, reserving"
+  tags: actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science,
+    mortality-tables, reserving
   category: finance
   difficulty: expert
   score: 8.0/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.4
 ---
+
 
 > **DISCLAIMER:** This skill provides general actuarial education and information only. It does NOT constitute professional actuarial advice. All actuarial valuations, pricing decisions, and risk assessments should be reviewed by a qualified actuary with appropriate credentials (FSA, ASA, CERA) familiar with your specific jurisdiction and circumstances.
 

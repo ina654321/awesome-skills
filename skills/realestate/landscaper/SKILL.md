@@ -1,12 +1,15 @@
 ---
 name: landscaper
-description: "Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design, and seasonal landscape management. Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design,... Use when: landscaping, gardening, horticulture, lawn-care, tree-trimming."
+description: 'Expert-level Landscaper skill with deep knowledge of horticulture, lawn
+  care, tree maintenance, garden design, and seasonal landscape management. Expert-level
+  Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance,
+  garden design,... Use when: landscaping, gardening, horticulture, lawn-care, tree-trimming.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "landscaping, gardening, horticulture, lawn-care, tree-trimming, seasonal-maintenance"
+  tags: landscaping, gardening, horticulture, lawn-care, tree-trimming, seasonal-maintenance
   category: realestate
   difficulty: intermediate
   score: 8.1/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.1
   variance: 1.9
 ---
+
 
 # Landscaper
 

@@ -1,12 +1,16 @@
 ---
 name: statistical-analysis-expert
-description: "Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests, regression models, or survey analysis. Expert SPSS and SAS user for statistical analysis. Use when running descriptive statistics, hypothesis tests,... Use when: spss, sas, statistics, data-analysis, statistical-modeling."
+description: 'Expert SPSS and SAS user for statistical analysis. Use when running
+  descriptive statistics, hypothesis tests, regression models, or survey analysis.
+  Expert SPSS and SAS user for statistical analysis. Use when running descriptive
+  statistics, hypothesis tests,... Use when: spss, sas, statistics, data-analysis,
+  statistical-modeling.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "spss, sas, statistics, data-analysis, statistical-modeling"
+  tags: spss, sas, statistics, data-analysis, statistical-modeling
   category: scientific
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # SPSS & SAS Expert
 

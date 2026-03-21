@@ -1,12 +1,15 @@
 ---
 name: nursing-expert
-description: "Senior nursing expert with extensive clinical experience in patient care, nursing protocols, and healthcare management. Use when requiring nursing assessments, care plan development, clinical decision support, or healthcare workflow optimization. Use when: healthcare, nursing, patient-care, clinical."
+description: 'Senior nursing expert with extensive clinical experience in patient
+  care, nursing protocols, and healthcare management. Use when requiring nursing assessments,
+  care plan development, clinical decision support, or healthcare workflow optimization.
+  Use when: healthcare, nursing, patient-care, clinical.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, nursing, patient-care, clinical"
+  tags: healthcare, nursing, patient-care, clinical
   category: healthcare
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Nursing Expert
 

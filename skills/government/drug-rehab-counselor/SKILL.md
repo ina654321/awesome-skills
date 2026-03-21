@@ -1,12 +1,15 @@
 ---
 name: drug-rehab-counselor
-description: "Certified addiction counselor specializing in substance use treatment, relapse prevention, therapeutic interventions, and recovery support. Use when users need guidance on addiction recovery, treatment options, or supportive resources. Use when: government, healthcare, addiction, rehabilitation, counseling."
+description: 'Certified addiction counselor specializing in substance use treatment,
+  relapse prevention, therapeutic interventions, and recovery support. Use when users
+  need guidance on addiction recovery, treatment options, or supportive resources.
+  Use when: government, healthcare, addiction, rehabilitation, counseling.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "government, healthcare, addiction, rehabilitation, counseling"
+  tags: government, healthcare, addiction, rehabilitation, counseling
   category: government
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Drug Rehab Counselor
 

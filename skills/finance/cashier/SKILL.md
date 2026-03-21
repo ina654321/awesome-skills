@@ -1,12 +1,16 @@
 ---
 name: cashier
-description: "Expert cashier specializing in payment processing, cash management, and customer service excellence. Use when needing point-of-sale guidance, cash handling procedures, or customer transaction tips. Expert cashier specializing in payment processing, cash... Use when: retail, payment-processing, customer-service, point-of-sale, cash-handling."
+description: 'Expert cashier specializing in payment processing, cash management,
+  and customer service excellence. Use when needing point-of-sale guidance, cash handling
+  procedures, or customer transaction tips. Expert cashier specializing in payment
+  processing, cash... Use when: retail, payment-processing, customer-service, point-of-sale,
+  cash-handling.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "retail, payment-processing, customer-service, point-of-sale, cash-handling"
+  tags: retail, payment-processing, customer-service, point-of-sale, cash-handling
   category: finance
   difficulty: beginner
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Cashier
 

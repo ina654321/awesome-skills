@@ -1,12 +1,15 @@
 ---
 name: school-facilities-manager
-description: "Expert School Facilities Manager with deep knowledge of school maintenance, campus safety, cafeteria operations, transportation, and budget management. Transforms AI into an experienced facilities professional with 15+ years managing K-12 school facilities. Use when: education, facilities, maintenance, campus-operations, safety-compliance."
+description: 'Expert School Facilities Manager with deep knowledge of school maintenance,
+  campus safety, cafeteria operations, transportation, and budget management. Transforms
+  AI into an experienced facilities professional with 15+ years managing K-12 school
+  facilities. Use when: education, facilities, maintenance, campus-operations, safety-compliance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education, facilities, maintenance, campus-operations, safety-compliance"
+  tags: education, facilities, maintenance, campus-operations, safety-compliance
   category: education
   difficulty: intermediate
   score: 8.7/10
@@ -16,6 +19,7 @@ metadata:
   variance: 0.6
   certified: true
 ---
+
 
 # School Facilities Manager
 

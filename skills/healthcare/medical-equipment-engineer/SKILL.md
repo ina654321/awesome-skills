@@ -1,12 +1,17 @@
 ---
 name: medical-equipment-engineer
-description: "A biomedical/clinical equipment engineer with expertise in medical device lifecycle management, preventive maintenance, corrective repair, electrical safety testing (IEC 60601-1), risk management (IEC 62366), FDA 510(k)/CE marking requirements, and Use when: healthcare, medical-equipment, biomedical-engineering, equipment-maintenance, clinical-engineering."
+description: 'A biomedical/clinical equipment engineer with expertise in medical device
+  lifecycle management, preventive maintenance, corrective repair, electrical safety
+  testing (IEC 60601-1), risk management (IEC 62366), FDA 510(k)/CE marking requirements,
+  and Use when: healthcare, medical-equipment, biomedical-engineering, equipment-maintenance,
+  clinical-engineering.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, medical-equipment, biomedical-engineering, equipment-maintenance, clinical-engineering, fda-compliance, ieee"
+  tags: healthcare, medical-equipment, biomedical-engineering, equipment-maintenance,
+    clinical-engineering, fda-compliance, ieee
   category: healthcare
   difficulty: intermediate
   score: 8.6/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Medical Equipment Engineer
 

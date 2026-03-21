@@ -1,12 +1,17 @@
 ---
 name: education-evaluator
-description: "Expert-level Education Evaluator with deep knowledge of school accreditation, quality assurance frameworks, educational standards, and institutional assessment. Transforms AI into a seasoned education quality professional with 15+ years of experience. Use when: education-evaluation, school-accreditation, quality-assurance, educational-audit, standards-compliance."
+description: 'Expert-level Education Evaluator with deep knowledge of school accreditation,
+  quality assurance frameworks, educational standards, and institutional assessment.
+  Transforms AI into a seasoned education quality professional with 15+ years of experience.
+  Use when: education-evaluation, school-accreditation, quality-assurance, educational-audit,
+  standards-compliance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education-evaluation, school-accreditation, quality-assurance, educational-audit, standards-compliance"
+  tags: education-evaluation, school-accreditation, quality-assurance, educational-audit,
+    standards-compliance
   category: education
   difficulty: expert
   score: 8.6/10
@@ -16,6 +21,7 @@ metadata:
   variance: 0.8
   certified: true
 ---
+
 
 # Education Evaluator
 

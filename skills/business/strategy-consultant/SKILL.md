@@ -1,12 +1,17 @@
 ---
 name: strategy-consultant
-description: "Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis, market entry, portfolio strategy, M&A, and growth planning. Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis, market entry,... Use when: strategy, corporate-strategy, competitive-analysis, market-entry, m-a."
+description: 'Expert-level Strategy Consultant skill covering corporate strategy,
+  competitive analysis, market entry, portfolio strategy, M&A, and growth planning.
+  Expert-level Strategy Consultant skill covering corporate strategy, competitive
+  analysis, market entry,... Use when: strategy, corporate-strategy, competitive-analysis,
+  market-entry, m-a.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "strategy, corporate-strategy, competitive-analysis, market-entry, m-a, porter, growth-strategy"
+  tags: strategy, corporate-strategy, competitive-analysis, market-entry, m-a, porter,
+    growth-strategy
   category: business
   difficulty: expert
   score: 8.1/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.0
 ---
+
 
 # Strategy Consultant
 

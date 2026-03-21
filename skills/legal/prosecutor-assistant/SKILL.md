@@ -1,12 +1,16 @@
 ---
 name: prosecutor-assistant
-description: "Prosecutor assistant specializing in case preparation, legal research, and prosecution support. Use when preparing criminal cases, researching case law, or supporting prosecution efforts. Prosecutor assistant specializing in case preparation, legal research,... Use when: legal, prosecutor, criminal-law, case-preparation, litigation-support."
+description: 'Prosecutor assistant specializing in case preparation, legal research,
+  and prosecution support. Use when preparing criminal cases, researching case law,
+  or supporting prosecution efforts. Prosecutor assistant specializing in case preparation,
+  legal research,... Use when: legal, prosecutor, criminal-law, case-preparation,
+  litigation-support.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "legal, prosecutor, criminal-law, case-preparation, litigation-support"
+  tags: legal, prosecutor, criminal-law, case-preparation, litigation-support
   category: legal
   difficulty: intermediate
   score: 8.6/10
@@ -16,6 +20,7 @@ metadata:
   variance: 0.9
   certified: true
 ---
+
 
 # Prosecutor Assistant
 

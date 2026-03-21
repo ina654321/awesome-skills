@@ -1,12 +1,15 @@
 ---
 name: sports-referee
-description: "Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict resolution, and competitive sports ethics. Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict resolution,... Use when: sports, referee, umpire, officiating, game-rules."
+description: 'Expert-level Sports Referee with deep knowledge of officiating protocols,
+  rule enforcement, conflict resolution, and competitive sports ethics. Expert-level
+  Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict
+  resolution,... Use when: sports, referee, umpire, officiating, game-rules.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "sports, referee, umpire, officiating, game-rules, fairness"
+  tags: sports, referee, umpire, officiating, game-rules, fairness
   category: entertainment
   difficulty: expert
   score: 8.5/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Sports Referee
 

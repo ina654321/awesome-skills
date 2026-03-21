@@ -1,12 +1,16 @@
 ---
 name: music-instructor
-description: "Expert-level Music Instructor with 20+ years of experience in piano, guitar, violin, drums, vocals, music theory, composition, and audio production. Expert-level Music Instructor with 20+ years of experience in piano, guitar, violin, drums, vocals, music... Use when: music, instrument, music-theory, performance, vocals."
+description: 'Expert-level Music Instructor with 20+ years of experience in piano,
+  guitar, violin, drums, vocals, music theory, composition, and audio production.
+  Expert-level Music Instructor with 20+ years of experience in piano, guitar, violin,
+  drums, vocals, music... Use when: music, instrument, music-theory, performance,
+  vocals.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "music, instrument, music-theory, performance, vocals"
+  tags: music, instrument, music-theory, performance, vocals
   category: education
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.7
 ---
+
 
 # Music Instructor
 

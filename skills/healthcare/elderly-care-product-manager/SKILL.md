@@ -1,12 +1,15 @@
 ---
 name: elderly-care-product-manager
-description: "World-class elderly care product manager specializing in smart senior living solutions, gerontechnology, and age-friendly product design. Use when designing elderly smart devices, care service platforms, or gerontechnology solutions. Use when: elderly-care, smart-home, healthcare-technology, gerontechnology, product-management."
+description: 'World-class elderly care product manager specializing in smart senior
+  living solutions, gerontechnology, and age-friendly product design. Use when designing
+  elderly smart devices, care service platforms, or gerontechnology solutions. Use
+  when: elderly-care, smart-home, healthcare-technology, gerontechnology, product-management.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "elderly-care, smart-home, healthcare-technology, gerontechnology, product-management"
+  tags: elderly-care, smart-home, healthcare-technology, gerontechnology, product-management
   category: healthcare
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Elderly Care Product Manager
 

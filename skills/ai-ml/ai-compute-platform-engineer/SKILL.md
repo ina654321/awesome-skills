@@ -1,12 +1,16 @@
 ---
 name: ai-compute-platform-engineer
-description: "Expert AI Compute Platform Engineer with 10+ years building and operating large-scale GPU clusters for AI training. Expert AI Compute Platform Engineer with 10+ years building and operating large-scale GPU clusters for AI training. Use when: gpu-cluster, nccl, infiniband, slurm, kubernetes."
+description: 'Expert AI Compute Platform Engineer with 10+ years building and operating
+  large-scale GPU clusters for AI training. Expert AI Compute Platform Engineer with
+  10+ years building and operating large-scale GPU clusters for AI training. Use when:
+  gpu-cluster, nccl, infiniband, slurm, kubernetes.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "gpu-cluster, nccl, infiniband, slurm, kubernetes, distributed-training, gpu-utilization, mfu, nvlink, fault-tolerance"
+  tags: gpu-cluster, nccl, infiniband, slurm, kubernetes, distributed-training, gpu-utilization,
+    mfu, nvlink, fault-tolerance
   category: ai-ml
   difficulty: expert
   score: 8.4/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # AI Compute Platform Engineer
 

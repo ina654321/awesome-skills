@@ -1,12 +1,16 @@
 ---
 name: spatial-computing-engineer
-description: "Expert-level Spatial Computing Engineer with deep knowledge of XR (AR/VR/MR) development, 3D scene construction, SLAM, spatial UI/UX, rendering pipelines (Metal/Vulkan/WebXR), and Apple Vision Pro designing immersive spatial experiences, optimizing real-time... Use when: spatial-computing, xr, ar, vr, mixed-reality."
+description: 'Expert-level Spatial Computing Engineer with deep knowledge of XR (AR/VR/MR)
+  development, 3D scene construction, SLAM, spatial UI/UX, rendering pipelines (Metal/Vulkan/WebXR),
+  and Apple Vision Pro designing immersive spatial experiences, optimizing real-time...
+  Use when: spatial-computing, xr, ar, vr, mixed-reality.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "spatial-computing, xr, ar, vr, mixed-reality, arkit, arcore, webxr, visionos, slam"
+  tags: spatial-computing, xr, ar, vr, mixed-reality, arkit, arcore, webxr, visionos,
+    slam
   category: tech
   difficulty: expert
   score: 8.1/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.2
 ---
+
 
 # Spatial Computing Engineer
 

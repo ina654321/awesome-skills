@@ -1,12 +1,15 @@
 ---
 name: railway-signal-engineer
-description: "Senior railway signal engineer with expertise in signaling systems, train control, safety interlocking, and railway automation. Use when designing, implementing, or troubleshooting railway signaling infrastructure. Use when: railway, signaling, train-control, safety-interlocking, transportation."
+description: 'Senior railway signal engineer with expertise in signaling systems,
+  train control, safety interlocking, and railway automation. Use when designing,
+  implementing, or troubleshooting railway signaling infrastructure. Use when: railway,
+  signaling, train-control, safety-interlocking, transportation.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "railway, signaling, train-control, safety-interlocking, transportation"
+  tags: railway, signaling, train-control, safety-interlocking, transportation
   category: transportation
   difficulty: expert
   score: 8.6/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.9
   variance: 1.3
 ---
+
 
 
 # Railway Signal Engineer

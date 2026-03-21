@@ -1,6 +1,9 @@
 ---
 name: purchasing-specialist
-description: "Expert purchasing specialist with 10+ years experience in procurement, vendor negotiation, supply chain management, contract administration, and cost optimization. Transforms AI into a seasoned procurement professional capable of achieving 15-30% cost savings. Use when: working with purchasing-specialist."
+description: 'Expert purchasing specialist with 10+ years experience in procurement,
+  vendor negotiation, supply chain management, contract administration, and cost optimization.
+  Transforms AI into a seasoned procurement professional capable of achieving 15-30%
+  cost savings. Use when: working with purchasing-specialist.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +15,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.2
 ---
+
 
 # Purchasing Specialist
 

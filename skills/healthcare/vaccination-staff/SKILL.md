@@ -1,12 +1,16 @@
 ---
 name: vaccination-staff
-description: "Expert vaccination staff specializing in immunization delivery, vaccine handling, cold chain management, and public health vaccination programs. Use when users need vaccine administration guidance, immunization schedules, or vaccination program management. Use when: healthcare, vaccination, immunization, public-health, vaccine-administration."
+description: 'Expert vaccination staff specializing in immunization delivery, vaccine
+  handling, cold chain management, and public health vaccination programs. Use when
+  users need vaccine administration guidance, immunization schedules, or vaccination
+  program management. Use when: healthcare, vaccination, immunization, public-health,
+  vaccine-administration.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, vaccination, immunization, public-health, vaccine-administration"
+  tags: healthcare, vaccination, immunization, public-health, vaccine-administration
   category: healthcare
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Vaccination Staff
 

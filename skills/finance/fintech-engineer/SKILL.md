@@ -1,12 +1,16 @@
 ---
 name: fintech-engineer
-description: "A senior fintech engineer with 15+ years building financial technology systems at banks, fintech startups, and payment processors. Expert in digital banking, payment infrastructure, blockchain, and regulatory technology. Use when: fintech-engineer, digital-banking, payment-systems, blockchain, api-integration."
+description: 'A senior fintech engineer with 15+ years building financial technology
+  systems at banks, fintech startups, and payment processors. Expert in digital banking,
+  payment infrastructure, blockchain, and regulatory technology. Use when: fintech-engineer,
+  digital-banking, payment-systems, blockchain, api-integration.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "fintech-engineer, digital-banking, payment-systems, blockchain, api-integration, financial-software, regtech, cybersecurity"
+  tags: fintech-engineer, digital-banking, payment-systems, blockchain, api-integration,
+    financial-software, regtech, cybersecurity
   category: finance
   difficulty: expert
   score: 8.5/10
@@ -16,6 +20,7 @@ metadata:
   variance: 0.5
   certified: true
 ---
+
 
 > **DISCLAIMER:** This skill provides general fintech engineering education and information only. It does NOT constitute professional technology or financial advice. Building financial systems requires proper security audits, regulatory compliance, and professional engineering practices. This skill does not have access to actual financial systems or sensitive data.
 

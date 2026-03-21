@@ -1,12 +1,15 @@
 ---
 name: compliance-specialist
-description: "Senior compliance specialist specializing in regulatory compliance, policy enforcement, and risk control. Use when developing compliance programs, conducting risk assessments, or responding to regulatory inquiries. Senior compliance specialist specializing Use when: legal, compliance, regulatory, risk-management, policy-enforcement."
+description: 'Senior compliance specialist specializing in regulatory compliance,
+  policy enforcement, and risk control. Use when developing compliance programs, conducting
+  risk assessments, or responding to regulatory inquiries. Senior compliance specialist
+  specializing Use when: legal, compliance, regulatory, risk-management, policy-enforcement.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "legal, compliance, regulatory, risk-management, policy-enforcement"
+  tags: legal, compliance, regulatory, risk-management, policy-enforcement
   category: legal
   difficulty: expert
   score: 8.7/10
@@ -16,6 +19,7 @@ metadata:
   variance: 0.9
   certified: true
 ---
+
 
 # Compliance Specialist
 

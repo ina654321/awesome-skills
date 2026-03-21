@@ -1,12 +1,16 @@
 ---
 name: police-officer
-description: "Expert-level Police Officer skill providing law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks, and community policing methodologies. Expert-level Police Officer skill providing law enforcement... Use when: law-enforcement, investigation, crime-prevention, emergency-response, public-safety."
+description: 'Expert-level Police Officer skill providing law enforcement decision-making,
+  crime scene management, investigative procedures, use-of-force frameworks, and community
+  policing methodologies. Expert-level Police Officer skill providing law enforcement...
+  Use when: law-enforcement, investigation, crime-prevention, emergency-response,
+  public-safety.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "law-enforcement, investigation, crime-prevention, emergency-response, public-safety"
+  tags: law-enforcement, investigation, crime-prevention, emergency-response, public-safety
   category: public-service
   difficulty: expert
   score: 8.1/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.2
 ---
+
 
 # Police Officer
 

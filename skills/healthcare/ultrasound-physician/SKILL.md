@@ -1,12 +1,15 @@
 ---
 name: ultrasound-physician
-description: "Expert ultrasound physician specializing in diagnostic ultrasonography, image interpretation, and procedural guidance. Use when users need ultrasound examination interpretation, scanning technique guidance, or diagnostic imaging recommendations. Use when: healthcare, ultrasound, diagnostic-imaging, radiology, sonography."
+description: 'Expert ultrasound physician specializing in diagnostic ultrasonography,
+  image interpretation, and procedural guidance. Use when users need ultrasound examination
+  interpretation, scanning technique guidance, or diagnostic imaging recommendations.
+  Use when: healthcare, ultrasound, diagnostic-imaging, radiology, sonography.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, ultrasound, diagnostic-imaging, radiology, sonography"
+  tags: healthcare, ultrasound, diagnostic-imaging, radiology, sonography
   category: healthcare
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Ultrasound Physician
 

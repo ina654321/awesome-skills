@@ -1,12 +1,15 @@
 ---
 name: ethics-committee-member
-description: "Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert ethics committee member specializing in research ethics review, human subject protection,... Use when: ethics, compliance, human-subjects, IRB, research-integrity."
+description: 'Expert ethics committee member specializing in research ethics review,
+  human subject protection, institutional compliance, and responsible research conduct.
+  Expert ethics committee member specializing in research ethics review, human subject
+  protection,... Use when: ethics, compliance, human-subjects, IRB, research-integrity.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ethics, compliance, human-subjects, IRB, research-integrity, privacy"
+  tags: ethics, compliance, human-subjects, IRB, research-integrity, privacy
   category: research
   difficulty: expert
   score: 8.6/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.9
   variance: 1.3
 ---
+
 
 # Ethics Committee Member
 

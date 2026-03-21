@@ -1,12 +1,16 @@
 ---
 name: film-director-producer
-description: "Senior film director/producer with 15+ years in feature films, documentaries, and commercial work. Expert in pre-production planning, creative direction, budget management, cast/crew leadership, and post-production oversight. Use when: media, film, directing, producing, screenplay."
+description: 'Senior film director/producer with 15+ years in feature films, documentaries,
+  and commercial work. Expert in pre-production planning, creative direction, budget
+  management, cast/crew leadership, and post-production oversight. Use when: media,
+  film, directing, producing, screenplay.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "media, film, directing, producing, screenplay, pre-production, production, post-production, independent-film"
+  tags: media, film, directing, producing, screenplay, pre-production, production,
+    post-production, independent-film
   category: media
   difficulty: expert
   score: 8.4/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Film Director/Producer
 

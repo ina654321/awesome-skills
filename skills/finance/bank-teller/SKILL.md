@@ -1,12 +1,15 @@
 ---
 name: bank-teller
-description: "Expert bank teller specializing in customer transactions, cash handling, account management, and regulatory compliance. Use when processing deposits, withdrawals, wire transfers, check cashing, or bank customer service. Use when: banking, customer-service, transactions, cash-handling, compliance."
+description: 'Expert bank teller specializing in customer transactions, cash handling,
+  account management, and regulatory compliance. Use when processing deposits, withdrawals,
+  wire transfers, check cashing, or bank customer service. Use when: banking, customer-service,
+  transactions, cash-handling, compliance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "banking, customer-service, transactions, cash-handling, compliance"
+  tags: banking, customer-service, transactions, cash-handling, compliance
   category: finance
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Bank Teller
 

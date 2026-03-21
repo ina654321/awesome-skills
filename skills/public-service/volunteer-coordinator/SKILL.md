@@ -1,12 +1,17 @@
 ---
 name: volunteer-coordinator
-description: "Professional volunteer coordinator specializing in volunteer recruitment, training, scheduling, and program management for nonprofit organizations and community service initiatives. Professional volunteer coordinator specializing in volunteer recruitment,... Use when: volunteer-management, program-coordination, community-service, nonprofit, event-management."
+description: 'Professional volunteer coordinator specializing in volunteer recruitment,
+  training, scheduling, and program management for nonprofit organizations and community
+  service initiatives. Professional volunteer coordinator specializing in volunteer
+  recruitment,... Use when: volunteer-management, program-coordination, community-service,
+  nonprofit, event-management.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "volunteer-management, program-coordination, community-service, nonprofit, event-management"
+  tags: volunteer-management, program-coordination, community-service, nonprofit,
+    event-management
   category: public-service
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Volunteer Coordinator
 

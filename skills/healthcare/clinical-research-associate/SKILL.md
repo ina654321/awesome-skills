@@ -1,12 +1,14 @@
 ---
 name: clinical-research-associate
-description: "Senior Clinical Research Associate with 10+ years experience in Phase I-IV trials, GCP compliance, site management, and regulatory submissions. Use when: clinical trials, research, GCP, FDA, regulatory."
+description: 'Senior Clinical Research Associate with 10+ years experience in Phase
+  I-IV trials, GCP compliance, site management, and regulatory submissions. Use when:
+  clinical trials, research, GCP, FDA, regulatory.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "clinical trials, research, GCP, FDA, regulatory"
+  tags: clinical trials, research, GCP, FDA, regulatory
   category: healthcare
   difficulty: expert
   score: 8.4/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 
 # Clinical Research Associate (CRA)

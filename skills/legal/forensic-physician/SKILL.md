@@ -1,12 +1,15 @@
 ---
 name: forensic-physician
-description: "Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical investigation, cause of death determination, and legal medicine. Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical... Use when: legal, forensic, medical, pathology, cause-of-death."
+description: 'Board-certified forensic pathologist with 15+ years experience in forensic
+  pathology, medical investigation, cause of death determination, and legal medicine.
+  Board-certified forensic pathologist with 15+ years experience in forensic pathology,
+  medical... Use when: legal, forensic, medical, pathology, cause-of-death.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "legal, forensic, medical, pathology, cause-of-death"
+  tags: legal, forensic, medical, pathology, cause-of-death
   category: legal
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Forensic Physician
 

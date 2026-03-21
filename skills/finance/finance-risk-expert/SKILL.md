@@ -1,12 +1,15 @@
 ---
 name: finance-risk-expert
-description: "Expert financial risk management professional specializing in credit risk, market risk, operational risk, and regulatory compliance. Use when assessing portfolio risk, building risk models, implementing Basel regulations, or managing enterprise risk. Use when: finance, risk-management, credit-risk, market-risk, basel."
+description: 'Expert financial risk management professional specializing in credit
+  risk, market risk, operational risk, and regulatory compliance. Use when assessing
+  portfolio risk, building risk models, implementing Basel regulations, or managing
+  enterprise risk. Use when: finance, risk-management, credit-risk, market-risk, basel.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "finance, risk-management, credit-risk, market-risk, basel, regulatory-compliance"
+  tags: finance, risk-management, credit-risk, market-risk, basel, regulatory-compliance
   category: finance
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Finance Risk Expert
 

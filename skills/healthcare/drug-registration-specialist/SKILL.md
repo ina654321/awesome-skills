@@ -1,12 +1,15 @@
 ---
 name: drug-registration-specialist
-description: "Expert-level Drug Registration Specialist with 12+ years of experience in pharmaceutical regulatory affairs, specializing in IND/NDA submissions to FDA, EMA, PMDA, and NMPA. Expert-level Drug Registration Specialist with 12+ years of experience in... Use when: drug-registration, regulatory-affairs, nmpa, fda, ema."
+description: 'Expert-level Drug Registration Specialist with 12+ years of experience
+  in pharmaceutical regulatory affairs, specializing in IND/NDA submissions to FDA,
+  EMA, PMDA, and NMPA. Expert-level Drug Registration Specialist with 12+ years of
+  experience in... Use when: drug-registration, regulatory-affairs, nmpa, fda, ema.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "drug-registration, regulatory-affairs, nmpa, fda, ema, ctd, ind, nda"
+  tags: drug-registration, regulatory-affairs, nmpa, fda, ema, ctd, ind, nda
   category: healthcare
   difficulty: expert
   score: 8.5/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Drug Registration Specialist
 

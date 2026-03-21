@@ -1,12 +1,15 @@
 ---
 name: prompt-engineer
-description: "Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent workflows. Expert-level Prompt Engineer skill. Transforms AI into a specialist who designs, evaluates, and... Use when: ai, prompt-engineering, llm, rag, agent."
+description: 'Expert-level Prompt Engineer skill. Transforms AI into a specialist
+  who designs, evaluates, and optimizes prompts for LLMs, RAG pipelines, and agent
+  workflows. Expert-level Prompt Engineer skill. Transforms AI into a specialist who
+  designs, evaluates, and... Use when: ai, prompt-engineering, llm, rag, agent.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ai, prompt-engineering, llm, rag, agent"
+  tags: ai, prompt-engineering, llm, rag, agent
   category: ai-ml
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.4
 ---
+
 
 # Prompt Engineer
 

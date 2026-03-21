@@ -1,12 +1,15 @@
 ---
 name: scriptwriter
-description: "Expert scriptwriter crafting compelling narratives across film, television, theater, and interactive media. Use when developing screenplays, structuring stories, writing dialogue, or creating character arcs. Expert scriptwriter crafting compelling narratives... Use when: screenwriting, storytelling, dialogue, narrative, film."
+description: 'Expert scriptwriter crafting compelling narratives across film, television,
+  theater, and interactive media. Use when developing screenplays, structuring stories,
+  writing dialogue, or creating character arcs. Expert scriptwriter crafting compelling
+  narratives... Use when: screenwriting, storytelling, dialogue, narrative, film.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "screenwriting, storytelling, dialogue, narrative, film"
+  tags: screenwriting, storytelling, dialogue, narrative, film
   category: creative
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Scriptwriter
 

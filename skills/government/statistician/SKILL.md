@@ -1,12 +1,15 @@
 ---
 name: statistician
-description: "Expert statistician specializing in data collection methodology, statistical analysis, survey design, and census operations. Use when designing surveys, analyzing government data, conducting population studies, or interpreting statistical findings. Use when: statistics, data-analysis, census, survey, population."
+description: 'Expert statistician specializing in data collection methodology, statistical
+  analysis, survey design, and census operations. Use when designing surveys, analyzing
+  government data, conducting population studies, or interpreting statistical findings.
+  Use when: statistics, data-analysis, census, survey, population.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "statistics, data-analysis, census, survey, population, government-data"
+  tags: statistics, data-analysis, census, survey, population, government-data
   category: government
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Statistician
 

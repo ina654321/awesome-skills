@@ -1,12 +1,14 @@
 ---
 name: pandas-expert
-description: "Pandas expert: DataFrame operations, merge/join, groupby, time series, performance optimization. Use when analyzing data, building ETL pipelines, or data manipulation with Python."
+description: 'Pandas expert: DataFrame operations, merge/join, groupby, time series,
+  performance optimization. Use when analyzing data, building ETL pipelines, or data
+  manipulation with Python.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[pandas, python, data-analysis, dataframes, etl, time-series]"
+  tags: '[pandas, python, data-analysis, dataframes, etl, time-series]'
   category: tools
   difficulty: expert
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Pandas Expert
 

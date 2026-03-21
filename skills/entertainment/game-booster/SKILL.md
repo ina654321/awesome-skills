@@ -1,12 +1,15 @@
 ---
 name: game-booster
-description: "Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems, and skill improvement strategies across multiple game titles. Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems, and skill improvement... Use when: game, booster, ranking, esports, coaching."
+description: 'Expert-level Game Booster with deep knowledge of competitive gaming,
+  ranking systems, and skill improvement strategies across multiple game titles. Expert-level
+  Game Booster with deep knowledge of competitive gaming, ranking systems, and skill
+  improvement... Use when: game, booster, ranking, esports, coaching.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "game, booster, ranking, esports, coaching, competitive-gaming"
+  tags: game, booster, ranking, esports, coaching, competitive-gaming
   category: entertainment
   difficulty: expert
   score: 8.5/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Game Booster
 

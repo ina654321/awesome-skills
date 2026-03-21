@@ -1,12 +1,15 @@
 ---
 name: social-security-expert
-description: "Senior social security expert specializing in pension insurance, medical coverage, unemployment benefits, workers' compensation, and maternity leave administration. Senior social security expert specializing in pension insurance, medical coverage,... Use when: government, social-security, policy, benefits, insurance."
+description: 'Senior social security expert specializing in pension insurance, medical
+  coverage, unemployment benefits, workers'' compensation, and maternity leave administration.
+  Senior social security expert specializing in pension insurance, medical coverage,...
+  Use when: government, social-security, policy, benefits, insurance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "government, social-security, policy, benefits, insurance"
+  tags: government, social-security, policy, benefits, insurance
   category: government
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.6
 ---
+
 
 # Social Security Expert
 

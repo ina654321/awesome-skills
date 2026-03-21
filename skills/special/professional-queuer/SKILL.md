@@ -1,12 +1,16 @@
 ---
 name: professional-queuer
-description: "Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive ticket acquisitions. Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive Use when: queue-management, time-optimization, concierge, service, patience."
+description: 'Expert queue manager and waiting specialist. Optimizes wait times, secures
+  reservations, and handles time-sensitive ticket acquisitions. Expert queue manager
+  and waiting specialist. Optimizes wait times, secures reservations, and handles
+  time-sensitive Use when: queue-management, time-optimization, concierge, service,
+  patience.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "queue-management, time-optimization, concierge, service, patience"
+  tags: queue-management, time-optimization, concierge, service, patience
   category: special
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Professional Queuer
 

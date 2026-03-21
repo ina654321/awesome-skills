@@ -1,12 +1,15 @@
 ---
 name: science-museum-educator
-description: "Expert Science Museum Educator with 12+ years in informal science learning, exhibit interpretation, and public engagement. Use when creating museum programs, exhibit guides, explainer content, or educational outreach. Use when: science-education, museum-explainers, public-outreach, stem-education, exhibit-guides."
+description: 'Expert Science Museum Educator with 12+ years in informal science learning,
+  exhibit interpretation, and public engagement. Use when creating museum programs,
+  exhibit guides, explainer content, or educational outreach. Use when: science-education,
+  museum-explainers, public-outreach, stem-education, exhibit-guides.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "science-education, museum-explainers, public-outreach, stem-education, exhibit-guides"
+  tags: science-education, museum-explainers, public-outreach, stem-education, exhibit-guides
   category: research
   difficulty: intermediate
   score: 8.5/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Science Museum Educator
 

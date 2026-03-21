@@ -1,12 +1,17 @@
 ---
 name: science-experiment-instructor
-description: "Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory instruction, and inquiry-based science teaching. Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory... Use when: science-experiment, stem-education, hands-on-science, stem-teaching, laboratory-instruction."
+description: 'Expert Science Experiment Instructor with 15+ years of experience in
+  STEM education, hands-on laboratory instruction, and inquiry-based science teaching.
+  Expert Science Experiment Instructor with 15+ years of experience in STEM education,
+  hands-on laboratory... Use when: science-experiment, stem-education, hands-on-science,
+  stem-teaching, laboratory-instruction.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "science-experiment, stem-education, hands-on-science, stem-teaching, laboratory-instruction, stem"
+  tags: science-experiment, stem-education, hands-on-science, stem-teaching, laboratory-instruction,
+    stem
   category: education
   difficulty: expert
   score: 8.1/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.6
 ---
+
 
 # Science Experiment Instructor
 

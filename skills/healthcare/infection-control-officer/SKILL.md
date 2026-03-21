@@ -1,12 +1,16 @@
 ---
 name: infection-control-officer
-description: "Infection Control Officer specializing in healthcare-associated infection prevention, surveillance, protocol development, and regulatory compliance. Use when analyzing infection risks, developing prevention protocols, or conducting outbreak investigations. Use when: healthcare, infection-control, hospital-acquired-infection, epidemiology."
+description: 'Infection Control Officer specializing in healthcare-associated infection
+  prevention, surveillance, protocol development, and regulatory compliance. Use when
+  analyzing infection risks, developing prevention protocols, or conducting outbreak
+  investigations. Use when: healthcare, infection-control, hospital-acquired-infection,
+  epidemiology.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, infection-control, hospital-acquired-infection, epidemiology"
+  tags: healthcare, infection-control, hospital-acquired-infection, epidemiology
   category: healthcare
   difficulty: beginner
   score: 8.6/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 8.1
   variance: 1.0
 ---
+
 
 # Infection Control Officer
 

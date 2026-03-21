@@ -1,6 +1,9 @@
 ---
 name: receptionist
-description: "Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations, and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations. Use when: working with receptionist."
+description: 'Expert receptionist with advanced skills in visitor management, phone
+  etiquette, front desk operations, and administrative support. Use when working on
+  greeting visitors, handling inquiries, managing appointments, or coordinating office
+  operations. Use when: working with receptionist.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +15,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Professional Receptionist
 

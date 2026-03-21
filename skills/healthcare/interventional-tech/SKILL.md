@@ -1,12 +1,14 @@
 ---
 name: interventional-tech
-description: "Certified Interventional Radiology Technologist (CIT, RCIS) with 12+ years in cath lab, interventional radiology, and neurointerventional procedures. Use when: interventional radiology, catheterization, angiography, imaging, IR."
+description: 'Certified Interventional Radiology Technologist (CIT, RCIS) with 12+
+  years in cath lab, interventional radiology, and neurointerventional procedures.
+  Use when: interventional radiology, catheterization, angiography, imaging, IR.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "interventional radiology, catheterization, angiography, imaging, IR"
+  tags: interventional radiology, catheterization, angiography, imaging, IR
   category: healthcare
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.5
 ---
+
 
 
 # Interventional Technologist

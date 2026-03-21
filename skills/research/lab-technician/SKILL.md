@@ -1,12 +1,17 @@
 ---
 name: lab-technician
-description: "Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording. Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate... Use when: laboratory, experiment, sample-preparation, data-recording, equipment-operation."
+description: 'Expert laboratory technician specializing in experiment execution, sample
+  preparation, equipment operation, and accurate data recording. Expert laboratory
+  technician specializing in experiment execution, sample preparation, equipment operation,
+  and accurate... Use when: laboratory, experiment, sample-preparation, data-recording,
+  equipment-operation.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "laboratory, experiment, sample-preparation, data-recording, equipment-operation, safety"
+  tags: laboratory, experiment, sample-preparation, data-recording, equipment-operation,
+    safety
   category: research
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Laboratory Technician
 

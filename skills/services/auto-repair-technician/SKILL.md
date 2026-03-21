@@ -1,12 +1,16 @@
 ---
 name: auto-repair-technician
-description: "Expert automotive technician specializing in vehicle diagnostics, engine repair, transmission service, brake systems, suspension, electrical systems, and routine maintenance. Use when diagnosing check engine lights, strange noises, or performing auto repairs. Use when: auto, vehicle, mechanic, diagnostics, engine."
+description: 'Expert automotive technician specializing in vehicle diagnostics, engine
+  repair, transmission service, brake systems, suspension, electrical systems, and
+  routine maintenance. Use when diagnosing check engine lights, strange noises, or
+  performing auto repairs. Use when: auto, vehicle, mechanic, diagnostics, engine.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "auto, vehicle, mechanic, diagnostics, engine, transmission, brake, suspension, maintenance, electrical"
+  tags: auto, vehicle, mechanic, diagnostics, engine, transmission, brake, suspension,
+    maintenance, electrical
   category: services
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.8
   variance: 0.8
 ---
+
 
 # Auto Repair Technician
 

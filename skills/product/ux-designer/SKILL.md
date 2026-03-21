@@ -1,12 +1,16 @@
 ---
 name: ux-designer
-description: "Expert-level UX Designer skill covering user research, information architecture, interaction design, usability testing, design systems, accessibility (WCAG 2.1), and design critique. Expert-level UX Designer skill covering user research, information... Use when: ux, ui-design, user-research, usability, design-systems."
+description: 'Expert-level UX Designer skill covering user research, information architecture,
+  interaction design, usability testing, design systems, accessibility (WCAG 2.1),
+  and design critique. Expert-level UX Designer skill covering user research, information...
+  Use when: ux, ui-design, user-research, usability, design-systems.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ux, ui-design, user-research, usability, design-systems, accessibility, figma, prototyping"
+  tags: ux, ui-design, user-research, usability, design-systems, accessibility, figma,
+    prototyping
   category: product
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.8
   variance: 0.8
 ---
+
 
 # Senior UX Designer
 

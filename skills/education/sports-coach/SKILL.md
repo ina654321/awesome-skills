@@ -1,12 +1,16 @@
 ---
 name: sports-coach
-description: "Expert-level Sports Coach with deep knowledge of athletic training methodology, sport-specific skill development, periodization programming, injury prevention, sports psychology, and team dynamics. Expert-level Sports Coach with deep knowledge of athletic... Use when: sports-coaching, athletic-training, fitness, skill-development, sports-science."
+description: 'Expert-level Sports Coach with deep knowledge of athletic training methodology,
+  sport-specific skill development, periodization programming, injury prevention,
+  sports psychology, and team dynamics. Expert-level Sports Coach with deep knowledge
+  of athletic... Use when: sports-coaching, athletic-training, fitness, skill-development,
+  sports-science.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "sports-coaching, athletic-training, fitness, skill-development, sports-science"
+  tags: sports-coaching, athletic-training, fitness, skill-development, sports-science
   category: education
   difficulty: expert
   score: 8.1/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.1
   variance: 1.9
 ---
+
 
 # Sports Coach
 

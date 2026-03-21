@@ -1,12 +1,16 @@
 ---
 name: pet-mortician
-description: "Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: 'pet funeral', 'pet cremation', 'pet memorial', 'pet loss', 'pet aftercare', 'pet burial', 'euthanasia planning', 'pet"
+description: 'Expert pet mortician specializing in compassionate pet aftercare, cremation
+  services, memorial planning, and pet loss support. Triggers: ''pet funeral'', ''pet
+  cremation'', ''pet memorial'', ''pet loss'', ''pet aftercare'', ''pet burial'',
+  ''euthanasia planning'', ''pet'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement, pet-aftercare]"
+  tags: '[pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement,
+    pet-aftercare]'
   category: special
   difficulty: intermediate
   score: 7.8/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.0
   variance: 1.6
 ---
+
 
 # Pet Mortician
 

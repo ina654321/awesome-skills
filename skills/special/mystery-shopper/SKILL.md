@@ -1,12 +1,16 @@
 ---
 name: mystery-shopper
-description: "Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: 'mystery shop', 'service evaluation', 'experience audit', 'quality assessment', 'customer experience', 'service standards'."
+description: 'Expert mystery shopper specializing in service evaluation, customer
+  experience testing, and quality assurance audits. Triggers: ''mystery shop'', ''service
+  evaluation'', ''experience audit'', ''quality assessment'', ''customer experience'',
+  ''service standards''.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[mystery-shopping, service-evaluation, -experience-testing, quality-audit, retail-excellence]"
+  tags: '[mystery-shopping, service-evaluation, -experience-testing, quality-audit,
+    retail-excellence]'
   category: special
   difficulty: intermediate
   score: 7.8/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.0
   variance: 1.6
 ---
+
 
 # Mystery Shopper
 

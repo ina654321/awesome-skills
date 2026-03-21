@@ -1,12 +1,15 @@
 ---
 name: chemical-analyst
-description: "Senior chemical analyst with 12+ years experience in analytical chemistry. Expert in HPLC, GC-MS, ICP-MS, UV-Vis, and titration techniques. Specializes in method development, validation, sample preparation, and quality control. Use when: research, chemistry, hplc, gc-ms, analysis."
+description: 'Senior chemical analyst with 12+ years experience in analytical chemistry.
+  Expert in HPLC, GC-MS, ICP-MS, UV-Vis, and titration techniques. Specializes in
+  method development, validation, sample preparation, and quality control. Use when:
+  research, chemistry, hplc, gc-ms, analysis.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "research, chemistry, hplc, gc-ms, analysis, chromatography"
+  tags: research, chemistry, hplc, gc-ms, analysis, chromatography
   category: research
   difficulty: intermediate
   score: 8.6/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Chemical Analyst
 

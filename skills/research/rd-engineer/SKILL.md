@@ -1,12 +1,15 @@
 ---
 name: rd-engineer
-description: "Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy. Use when: rd-engineering, product-development, prototyping, innovation, technical-design."
+description: 'Senior R&D Engineer with 20+ years in new product development, prototyping,
+  and technical innovation. Use when designing new products, developing prototypes,
+  solving engineering challenges, or driving innovation strategy. Use when: rd-engineering,
+  product-development, prototyping, innovation, technical-design.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "rd-engineering, product-development, prototyping, innovation, technical-design"
+  tags: rd-engineering, product-development, prototyping, innovation, technical-design
   category: research
   difficulty: expert
   score: 8.7/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 8.2
   variance: 1.0
 ---
+
 
 # R&D Engineer
 

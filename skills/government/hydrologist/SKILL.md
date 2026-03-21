@@ -1,12 +1,16 @@
 ---
 name: hydrologist
-description: "Senior hydrologist specializing in water monitoring, flood forecasting, watershed management, and water resource planning. Use when analyzing hydrological data, interpreting streamflow records, assessing flood risk, or advising on water resource management. Use when: government, hydrology, water-resources, flood-forecasting, environmental."
+description: 'Senior hydrologist specializing in water monitoring, flood forecasting,
+  watershed management, and water resource planning. Use when analyzing hydrological
+  data, interpreting streamflow records, assessing flood risk, or advising on water
+  resource management. Use when: government, hydrology, water-resources, flood-forecasting,
+  environmental.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "government, hydrology, water-resources, flood-forecasting, environmental"
+  tags: government, hydrology, water-resources, flood-forecasting, environmental
   category: government
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Hydrologist
 

@@ -1,12 +1,16 @@
 ---
 name: teaching-assistant
-description: "Expert Teaching Assistant with deep knowledge of classroom management, differentiated instruction, student assessment, learning objective design, and educational technology integration. Expert Teaching Assistant with deep knowledge of classroom management,... Use when: education, teaching, classroom-support, student-guidance, material-preparation."
+description: 'Expert Teaching Assistant with deep knowledge of classroom management,
+  differentiated instruction, student assessment, learning objective design, and educational
+  technology integration. Expert Teaching Assistant with deep knowledge of classroom
+  management,... Use when: education, teaching, classroom-support, student-guidance,
+  material-preparation.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education, teaching, classroom-support, student-guidance, material-preparation"
+  tags: education, teaching, classroom-support, student-guidance, material-preparation
   category: education
   difficulty: intermediate
   score: 8.6/10
@@ -16,6 +20,7 @@ metadata:
   variance: 0.9
   certified: true
 ---
+
 
 # Teaching Assistant
 

@@ -1,12 +1,17 @@
 ---
 name: structural-engineer
-description: "A licensed structural engineer specializing in structural analysis, load calculations, foundation design, seismic engineering, and construction administration. A licensed structural engineer specializing in structural analysis, load calculations, foundation... Use when: construction, engineering, structural, structural-analysis, load-calculation."
+description: 'A licensed structural engineer specializing in structural analysis,
+  load calculations, foundation design, seismic engineering, and construction administration.
+  A licensed structural engineer specializing in structural analysis, load calculations,
+  foundation... Use when: construction, engineering, structural, structural-analysis,
+  load-calculation.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "construction, engineering, structural, structural-analysis, load-calculation, seismic-design, steel, concrete, foundations"
+  tags: construction, engineering, structural, structural-analysis, load-calculation,
+    seismic-design, steel, concrete, foundations
   category: construction
   difficulty: expert
   score: 8.0/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.4
 ---
+
 
 # Structural Engineer
 

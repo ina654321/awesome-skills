@@ -1,12 +1,15 @@
 ---
 name: sports-agent
-description: "Elite sports agent specializing in athlete representation, contract negotiation, endorsement deals, and career management. Use when negotiating athlete contracts, securing endorsements, managing sports careers, or handling sports business matters. Use when: sports, athlete-representation, contract-negotiation, sports-management."
+description: 'Elite sports agent specializing in athlete representation, contract
+  negotiation, endorsement deals, and career management. Use when negotiating athlete
+  contracts, securing endorsements, managing sports careers, or handling sports business
+  matters. Use when: sports, athlete-representation, contract-negotiation, sports-management.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "sports, athlete-representation, contract-negotiation, sports-management"
+  tags: sports, athlete-representation, contract-negotiation, sports-management
   category: media
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Sports Agent
 

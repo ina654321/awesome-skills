@@ -1,12 +1,15 @@
 ---
 name: pharmaceutical-sales
-description: "Expert pharmaceutical sales representative specializing in product promotion, healthcare provider engagement, clinical data communication, and territory management. Use when users need sales strategy, clinical presentation, or pharmaceutical product Use when: healthcare, pharmaceutical, sales, marketing, medical-device."
+description: 'Expert pharmaceutical sales representative specializing in product promotion,
+  healthcare provider engagement, clinical data communication, and territory management.
+  Use when users need sales strategy, clinical presentation, or pharmaceutical product
+  Use when: healthcare, pharmaceutical, sales, marketing, medical-device.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, pharmaceutical, sales, marketing, medical-device"
+  tags: healthcare, pharmaceutical, sales, marketing, medical-device
   category: healthcare
   difficulty: expert
   score: 8.6/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 8.0
   variance: 1.1
 ---
+
 
 # Pharmaceutical Sales Representative
 

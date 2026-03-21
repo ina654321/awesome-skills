@@ -1,12 +1,17 @@
 ---
 name: science-blogger
-description: "Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science content for public audiences. Expert science blogger specializing in translating complex... Use when: science-blogger, science-communication, academic-social-media, content-creation, knowledge-sharing."
+description: 'Expert science blogger specializing in translating complex research
+  into accessible content, building academic social media presence, and creating engaging
+  science content for public audiences. Expert science blogger specializing in translating
+  complex... Use when: science-blogger, science-communication, academic-social-media,
+  content-creation, knowledge-sharing.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "science-blogger, science-communication, academic-social-media, content-creation, knowledge-sharing"
+  tags: science-blogger, science-communication, academic-social-media, content-creation,
+    knowledge-sharing
   category: research
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Science Blogger
 

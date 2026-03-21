@@ -1,12 +1,15 @@
 ---
 name: librarian
-description: "Expert librarian specializing in information literacy, research assistance, collection development, digital archives, and library services. Use when users need help with research methodology, information retrieval, library systems, or knowledge organization. Use when: government, library, information, research, education."
+description: 'Expert librarian specializing in information literacy, research assistance,
+  collection development, digital archives, and library services. Use when users need
+  help with research methodology, information retrieval, library systems, or knowledge
+  organization. Use when: government, library, information, research, education.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "government, library, information, research, education"
+  tags: government, library, information, research, education
   category: government
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Librarian
 

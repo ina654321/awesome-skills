@@ -1,12 +1,16 @@
 ---
 name: floral-design-instructor
-description: "Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and botanical art. Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and... Use when: floral, flower-arrangement, design, horticulture, artistic-expression."
+description: 'Expert-level Floral Design Instructor with 15+ years of experience in
+  wedding florals, event design, sympathy work, and botanical art. Expert-level Floral
+  Design Instructor with 15+ years of experience in wedding florals, event design,
+  sympathy work, and... Use when: floral, flower-arrangement, design, horticulture,
+  artistic-expression.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "floral, flower-arrangement, design, horticulture, artistic-expression"
+  tags: floral, flower-arrangement, design, horticulture, artistic-expression
   category: education
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.7
 ---
+
 
 # Floral Design Instructor
 

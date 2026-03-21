@@ -1,12 +1,15 @@
 ---
 name: sketch-expert
-description: "Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing developer handoffs. Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing... Use when: sketch, macos, ui-design, ux-design, vector-graphics."
+description: 'Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces,
+  creating design systems, or preparing developer handoffs. Expert Sketch.app user
+  for macOS UI/UX design. Use when designing interfaces, creating design systems,
+  or preparing... Use when: sketch, macos, ui-design, ux-design, vector-graphics.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.1.0
   updated: 2026-03-21
-  tags: "sketch, macos, ui-design, ux-design, vector-graphics"
+  tags: sketch, macos, ui-design, ux-design, vector-graphics
   category: design
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.7
 ---
+
 
 # Sketch Expert
 

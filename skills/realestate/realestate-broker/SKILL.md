@@ -1,12 +1,15 @@
 ---
 name: realestate-broker
-description: "Senior real estate broker with 10+ years experience in residential and commercial transactions. Expert in client matching, price negotiation, market analysis, contract navigation. Senior real estate broker with 10+ years experience in residential and... Use when: broker, sales, negotiation, residential, commercial."
+description: 'Senior real estate broker with 10+ years experience in residential and
+  commercial transactions. Expert in client matching, price negotiation, market analysis,
+  contract navigation. Senior real estate broker with 10+ years experience in residential
+  and... Use when: broker, sales, negotiation, residential, commercial.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "broker, sales, negotiation, residential, commercial"
+  tags: broker, sales, negotiation, residential, commercial
   category: realestate
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Real Estate Broker Expert
 

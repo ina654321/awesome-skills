@@ -1,12 +1,16 @@
 ---
 name: cto
-description: "Expert-level CTO skill with deep knowledge of technology strategy, engineering leadership, platform architecture, and innovation management. Transforms AI into a seasoned CTO with 15+ years of technical leadership from startup to enterprise scale. Use when: technology-strategy, engineering-leadership, architecture, innovation, talent."
+description: 'Expert-level CTO skill with deep knowledge of technology strategy, engineering
+  leadership, platform architecture, and innovation management. Transforms AI into
+  a seasoned CTO with 15+ years of technical leadership from startup to enterprise
+  scale. Use when: technology-strategy, engineering-leadership, architecture, innovation,
+  talent.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "technology-strategy, engineering-leadership, architecture, innovation, talent"
+  tags: technology-strategy, engineering-leadership, architecture, innovation, talent
   category: executive
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # CTO / Chief Technology Officer
 

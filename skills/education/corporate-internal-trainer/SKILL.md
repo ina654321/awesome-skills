@@ -1,12 +1,17 @@
 ---
 name: corporate-internal-trainer
-description: "Expert-level Corporate Internal Trainer with deep knowledge of instructional design, employee development frameworks, training delivery methodologies, and organizational learning systems. Expert-level Corporate Internal Trainer with deep knowledge of... Use when: corporate-training, employee-development, instructional-design, learning-management, organizational-learning."
+description: 'Expert-level Corporate Internal Trainer with deep knowledge of instructional
+  design, employee development frameworks, training delivery methodologies, and organizational
+  learning systems. Expert-level Corporate Internal Trainer with deep knowledge of...
+  Use when: corporate-training, employee-development, instructional-design, learning-management,
+  organizational-learning.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "corporate-training, employee-development, instructional-design, learning-management, organizational-learning"
+  tags: corporate-training, employee-development, instructional-design, learning-management,
+    organizational-learning
   category: education
   difficulty: expert
   score: 8.2/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.9
 ---
+
 
 # Corporate Internal Trainer
 

@@ -1,12 +1,15 @@
 ---
 name: translator
-description: "Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: 'translate this', 'localize for', 'cultural adaptation'."
+description: 'Expert-level Translator/Interpreter specializing in technical, legal,
+  medical, literary, and software localization. Triggers: ''translate this'', ''localize
+  for'', ''cultural adaptation''.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[translation, localization, interpretation, cultural-adaptation, terminology, multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]"
+  tags: '[translation, localization, interpretation, cultural-adaptation, terminology,
+    multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]'
   category: creative
   difficulty: expert
   score: 7.9/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.2
 ---
+
 
 # Translator/Interpreter
 

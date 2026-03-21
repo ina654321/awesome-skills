@@ -1,12 +1,14 @@
 ---
 name: pulumi-expert
-description: "Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud deployment, Pulumi ESC (Environments, Secrets, and Configuration), Stack references."
+description: 'Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, multi-cloud
+  deployment, Pulumi ESC (Environments, Secrets, and Configuration), Stack references.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[pulumi, iac, typescript, python, go, cloud, infrastructure, multi-cloud, Pulumi-Fluent, Pulumi-ESC]"
+  tags: '[pulumi, iac, typescript, python, go, cloud, infrastructure, multi-cloud,
+    Pulumi-Fluent, Pulumi-ESC]'
   category: tools
   difficulty: expert
   score: 7.8/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.0
   variance: 1.6
 ---
+
 
 # Pulumi Expert
 

@@ -1,12 +1,15 @@
 ---
 name: jewelry-designer
-description: "Expert jewelry designer creating original designs from concept to finished piece. Use when designing custom jewelry, selecting gemstones, planning manufacturing processes, or selecting materials. Expert jewelry designer creating original designs from concept... Use when: jewelry, design, metalsmith, gemstones, accessories."
+description: 'Expert jewelry designer creating original designs from concept to finished
+  piece. Use when designing custom jewelry, selecting gemstones, planning manufacturing
+  processes, or selecting materials. Expert jewelry designer creating original designs
+  from concept... Use when: jewelry, design, metalsmith, gemstones, accessories.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "jewelry, design, metalsmith, gemstones, accessories"
+  tags: jewelry, design, metalsmith, gemstones, accessories
   category: crafts
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Jewelry Designer
 

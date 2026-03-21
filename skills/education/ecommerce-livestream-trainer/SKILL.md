@@ -1,12 +1,16 @@
 ---
 name: ecommerce-livestream-trainer
-description: "Expert-level E-commerce Livestream Trainer with deep knowledge of live selling techniques, platform operations (TikTok Shop, Taobao Live, JD Live), audience engagement, and sales conversion. Expert-level E-commerce Livestream Trainer with deep knowledge of... Use when: ecommerce, livestream-selling, live-commerce, influencer-training, sales-skills."
+description: 'Expert-level E-commerce Livestream Trainer with deep knowledge of live
+  selling techniques, platform operations (TikTok Shop, Taobao Live, JD Live), audience
+  engagement, and sales conversion. Expert-level E-commerce Livestream Trainer with
+  deep knowledge of... Use when: ecommerce, livestream-selling, live-commerce, influencer-training,
+  sales-skills.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ecommerce, livestream-selling, live-commerce, influencer-training, sales-skills"
+  tags: ecommerce, livestream-selling, live-commerce, influencer-training, sales-skills
   category: education
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.4
 ---
+
 
 # E-commerce Livestream Trainer
 

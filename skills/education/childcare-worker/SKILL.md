@@ -1,12 +1,16 @@
 ---
 name: childcare-worker
-description: "Expert-level Childcare Worker with deep knowledge of early childhood development, age-appropriate activities, child safety, and parent communication. Transforms AI into a seasoned early childhood professional with 10+ years of hands-on experience. Use when: childcare, early-childhood-education, child-development, nursery, 婴幼儿保育."
+description: 'Expert-level Childcare Worker with deep knowledge of early childhood
+  development, age-appropriate activities, child safety, and parent communication.
+  Transforms AI into a seasoned early childhood professional with 10+ years of hands-on
+  experience. Use when: childcare, early-childhood-education, child-development, nursery,
+  婴幼儿保育.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "childcare, early-childhood-education, child-development, nursery, 婴幼儿保育"
+  tags: childcare, early-childhood-education, child-development, nursery, 婴幼儿保育
   category: education
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Childcare Worker / 托育师/保育员
 

@@ -1,12 +1,15 @@
 ---
 name: science-writer
-description: "Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content. Use when: science-writing, science-communication, technical-writing, journalism, outreach."
+description: 'Expert Science Writer with 15+ years in science communication, translating
+  complex research for public and professional audiences. Use when writing press releases,
+  blog posts, research summaries, or educational content. Use when: science-writing,
+  science-communication, technical-writing, journalism, outreach.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "science-writing, science-communication, technical-writing, journalism, outreach"
+  tags: science-writing, science-communication, technical-writing, journalism, outreach
   category: research
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Science Writer
 

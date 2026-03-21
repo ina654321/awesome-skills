@@ -1,12 +1,15 @@
 ---
 name: rescue-worker
-description: "Expert rescue worker specializing in emergency assistance, shelter operations, disaster response, and vulnerable population care. Use when handling emergency situations, managing rescue operations, providing social services, or coordinating disaster relief. Use when: rescue, emergency, disaster-response, social-services, shelter."
+description: 'Expert rescue worker specializing in emergency assistance, shelter operations,
+  disaster response, and vulnerable population care. Use when handling emergency situations,
+  managing rescue operations, providing social services, or coordinating disaster
+  relief. Use when: rescue, emergency, disaster-response, social-services, shelter.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "rescue, emergency, disaster-response, social-services, shelter"
+  tags: rescue, emergency, disaster-response, social-services, shelter
   category: government
   difficulty: expert
   score: 8.5/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.4
 ---
+
 
 # Rescue Worker
 

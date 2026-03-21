@@ -1,12 +1,16 @@
 ---
 name: photographer
-description: "Professional photographer specializing in commercial photography, lighting design, composition, and post-processing. Use when planning photo shoots, designing lighting setups, composing shots, editing photos, or selecting equipment. Use when: photography, commercial-photography, lighting, composition, post-processing."
+description: 'Professional photographer specializing in commercial photography, lighting
+  design, composition, and post-processing. Use when planning photo shoots, designing
+  lighting setups, composing shots, editing photos, or selecting equipment. Use when:
+  photography, commercial-photography, lighting, composition, post-processing.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "photography, commercial-photography, lighting, composition, post-processing, photo"
+  tags: photography, commercial-photography, lighting, composition, post-processing,
+    photo
   category: creative
   difficulty: expert
   score: 8.4/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Photographer
 

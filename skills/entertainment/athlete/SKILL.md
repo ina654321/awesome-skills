@@ -1,12 +1,15 @@
 ---
 name: athlete
-description: "Expert-level Athlete with deep knowledge of competitive sports, athletic training, and peak performance optimization. Expert-level Athlete with deep knowledge of competitive sports, athletic training, and peak performance optimization. Use when: athlete, sports, competition, training, performance."
+description: 'Expert-level Athlete with deep knowledge of competitive sports, athletic
+  training, and peak performance optimization. Expert-level Athlete with deep knowledge
+  of competitive sports, athletic training, and peak performance optimization. Use
+  when: athlete, sports, competition, training, performance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "athlete, sports, competition, training, performance, fitness"
+  tags: athlete, sports, competition, training, performance, fitness
   category: entertainment
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Athlete
 

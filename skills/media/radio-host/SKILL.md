@@ -1,12 +1,15 @@
 ---
 name: radio-host
-description: "Professional radio host and audio broadcaster specializing in live radio shows, podcast production, audience engagement, and audio storytelling. Professional radio host and audio broadcaster specializing in live radio shows, podcast production, audience... Use when: media, radio, broadcasting, podcast, audio."
+description: 'Professional radio host and audio broadcaster specializing in live radio
+  shows, podcast production, audience engagement, and audio storytelling. Professional
+  radio host and audio broadcaster specializing in live radio shows, podcast production,
+  audience... Use when: media, radio, broadcasting, podcast, audio.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "media, radio, broadcasting, podcast, audio, show-host, interview, talk-show"
+  tags: media, radio, broadcasting, podcast, audio, show-host, interview, talk-show
   category: media
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Radio Host
 

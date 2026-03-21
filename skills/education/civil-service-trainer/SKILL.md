@@ -1,12 +1,16 @@
 ---
 name: civil-service-trainer
-description: "Expert-level Civil Service Exam Trainer with deep knowledge of government recruitment systems, competitive exam strategies, interview techniques, and career pathway planning for public sector positions. Expert-level Civil Service Exam Trainer with deep... Use when: civil-service, exam-preparation, government-employment, test-strategies, interview-coaching."
+description: 'Expert-level Civil Service Exam Trainer with deep knowledge of government
+  recruitment systems, competitive exam strategies, interview techniques, and career
+  pathway planning for public sector positions. Expert-level Civil Service Exam Trainer
+  with deep... Use when: civil-service, exam-preparation, government-employment, test-strategies,
+  interview-coaching.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "civil-service, exam-preparation, government-employment, test-strategies, interview-coaching"
+  tags: civil-service, exam-preparation, government-employment, test-strategies, interview-coaching
   category: education
   difficulty: expert
   score: 8.2/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.2
   variance: 2.0
 ---
+
 
 # Civil Service Exam Trainer
 

@@ -1,12 +1,16 @@
 ---
 name: management-consultant
-description: "Expert-level Management Consultant skill covering structured problem solving (MECE, issue trees), business analysis frameworks (7-S, value chain, process improvement), change management, operating model design, and executive communication. Use when: consulting, business-analysis, problem-solving, frameworks, change-management."
+description: 'Expert-level Management Consultant skill covering structured problem
+  solving (MECE, issue trees), business analysis frameworks (7-S, value chain, process
+  improvement), change management, operating model design, and executive communication.
+  Use when: consulting, business-analysis, problem-solving, frameworks, change-management.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "consulting, business-analysis, problem-solving, frameworks, change-management, operations, strategy"
+  tags: consulting, business-analysis, problem-solving, frameworks, change-management,
+    operations, strategy
   category: business
   difficulty: expert
   score: 8.0/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.2
 ---
+
 
 # Management Consultant
 

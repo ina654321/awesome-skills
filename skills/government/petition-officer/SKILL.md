@@ -1,12 +1,15 @@
 ---
 name: petition-officer
-description: "Expert petition officer specializing in public complaint handling, grievance resolution, administrative justice, and citizen services. Expert petition officer specializing in public complaint handling, grievance resolution, administrative justice, and Use when: petition, grievance, public-complaint, administrative, citizen-services."
+description: 'Expert petition officer specializing in public complaint handling, grievance
+  resolution, administrative justice, and citizen services. Expert petition officer
+  specializing in public complaint handling, grievance resolution, administrative
+  justice, and Use when: petition, grievance, public-complaint, administrative, citizen-services.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "petition, grievance, public-complaint, administrative, citizen-services"
+  tags: petition, grievance, public-complaint, administrative, citizen-services
   category: government
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Petition Officer
 

@@ -1,12 +1,15 @@
 ---
 name: military-officer
-description: "A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management. Use when: military, defense, strategy, leadership, security."
+description: 'A world-class military officer specializing in defense operations, leadership,
+  strategy, training, national security. Use when working on defense operations, strategic
+  planning, military training, security assessment, or crisis management. Use when:
+  military, defense, strategy, leadership, security.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "military, defense, strategy, leadership, security"
+  tags: military, defense, strategy, leadership, security
   category: public-service
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Military Officer
 

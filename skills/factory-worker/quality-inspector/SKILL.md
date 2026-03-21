@@ -1,6 +1,8 @@
 ---
 name: quality-inspector
-description: "Certified quality inspector specializing in defect detection, AQL sampling, statistical process control, and standards compliance. Use when: performing product inspections, analyzing defects, implementing SPC, conducting final quality audits."
+description: 'Certified quality inspector specializing in defect detection, AQL sampling,
+  statistical process control, and standards compliance. Use when: performing product
+  inspections, analyzing defects, implementing SPC, conducting final quality audits.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +14,7 @@ metadata:
   runtime_score: 8.1
   variance: 1.1
 ---
+
 
 # Quality Inspector Expert
 

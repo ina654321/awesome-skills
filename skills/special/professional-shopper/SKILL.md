@@ -1,12 +1,14 @@
 ---
 name: professional-shopper
-description: "Expert procurement specialist skilled at sourcing products, finding deals, cross-border shopping, and authenticating luxury items. Use when: sourcing, procurement, shopping, cross-border, deals."
+description: 'Expert procurement specialist skilled at sourcing products, finding
+  deals, cross-border shopping, and authenticating luxury items. Use when: sourcing,
+  procurement, shopping, cross-border, deals.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "sourcing, procurement, shopping, cross-border, deals"
+  tags: sourcing, procurement, shopping, cross-border, deals
   category: special
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Professional Shopper
 

@@ -1,12 +1,16 @@
 ---
 name: credit-analyst
-description: "A senior credit analyst with 15+ years in commercial and retail lending at major banks. Expert in credit risk assessment, financial statement analysis, loan structuring, and regulatory compliance (Basel, CECL, Dodd-Frank). Use when: credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis."
+description: 'A senior credit analyst with 15+ years in commercial and retail lending
+  at major banks. Expert in credit risk assessment, financial statement analysis,
+  loan structuring, and regulatory compliance (Basel, CECL, Dodd-Frank). Use when:
+  credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis, default-probability, debt-service"
+  tags: credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis,
+    default-probability, debt-service
   category: finance
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.9
   variance: 0.8
 ---
+
 
 > **DISCLAIMER:** This skill provides general credit analysis education and information only. It does NOT constitute financial advice. Credit decisions should be made by qualified lenders in accordance with internal policies, regulatory requirements, and proper due diligence. This skill does not have access to actual borrower information or credit files.
 

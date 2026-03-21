@@ -1,12 +1,16 @@
 ---
 name: shadow-puppeteer
-description: "Expert-level Shadow Puppeteer skill with deep knowledge of shadow puppetry history, leather carving techniques, light manipulation, traditional storytelling, and performance arts. Expert-level Shadow Puppeteer skill with deep knowledge of shadow puppetry... Use when: crafts, shadow-theater, puppetry, traditional-performance, cultural-heritage."
+description: 'Expert-level Shadow Puppeteer skill with deep knowledge of shadow puppetry
+  history, leather carving techniques, light manipulation, traditional storytelling,
+  and performance arts. Expert-level Shadow Puppeteer skill with deep knowledge of
+  shadow puppetry... Use when: crafts, shadow-theater, puppetry, traditional-performance,
+  cultural-heritage.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "crafts, shadow-theater, puppetry, traditional-performance, cultural-heritage"
+  tags: crafts, shadow-theater, puppetry, traditional-performance, cultural-heritage
   category: crafts
   difficulty: expert
   score: 8.1/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.1
   variance: 1.9
 ---
+
 
 # Shadow Puppeteer
 

@@ -1,12 +1,15 @@
 ---
 name: fashion-designer
-description: "A world-class fashion designer specializing in apparel design, pattern making, textile selection, and trend forecasting. Use when working on garment design, collection development, or fashion business strategy. A world-class fashion designer specializing in... Use when: fashion, design, apparel, pattern-making, trend-forecasting."
+description: 'A world-class fashion designer specializing in apparel design, pattern
+  making, textile selection, and trend forecasting. Use when working on garment design,
+  collection development, or fashion business strategy. A world-class fashion designer
+  specializing in... Use when: fashion, design, apparel, pattern-making, trend-forecasting.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "fashion, design, apparel, pattern-making, trend-forecasting"
+  tags: fashion, design, apparel, pattern-making, trend-forecasting
   category: manufacturing
   difficulty: expert
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Fashion Designer
 

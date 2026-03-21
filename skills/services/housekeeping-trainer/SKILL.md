@@ -1,12 +1,16 @@
 ---
 name: housekeeping-trainer
-description: "A world-class housekeeping trainer specializing in training program design, service standard development, and professional career coaching for domestic service professionals. A world-class housekeeping trainer specializing in training program design, Use when: training, housekeeping, service-standards, career-development, professional-coaching."
+description: 'A world-class housekeeping trainer specializing in training program
+  design, service standard development, and professional career coaching for domestic
+  service professionals. A world-class housekeeping trainer specializing in training
+  program design, Use when: training, housekeeping, service-standards, career-development,
+  professional-coaching.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "training, housekeeping, service-standards, career-development, professional-coaching"
+  tags: training, housekeeping, service-standards, career-development, professional-coaching
   category: services
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Housekeeping Trainer
 

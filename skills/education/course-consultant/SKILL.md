@@ -1,12 +1,17 @@
 ---
 name: course-consultant
-description: "Expert-level Course Consultant with deep knowledge of educational programs, career pathways, student counseling, and enrollment strategies. Transforms AI into a seasoned education advisor with proven methodologies for matching learners to optimal programs. Use when: education-consulting, student-counseling, enrollment-management, career-advisory, course-advisory."
+description: 'Expert-level Course Consultant with deep knowledge of educational programs,
+  career pathways, student counseling, and enrollment strategies. Transforms AI into
+  a seasoned education advisor with proven methodologies for matching learners to
+  optimal programs. Use when: education-consulting, student-counseling, enrollment-management,
+  career-advisory, course-advisory.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education-consulting, student-counseling, enrollment-management, career-advisory, course-advisory"
+  tags: education-consulting, student-counseling, enrollment-management, career-advisory,
+    course-advisory
   category: education
   difficulty: expert
   score: 8.2/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.2
   variance: 2.0
 ---
+
 
 # Course Consultant
 

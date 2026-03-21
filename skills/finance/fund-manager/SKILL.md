@@ -1,12 +1,17 @@
 ---
 name: fund-manager
-description: "Expert-level Fund Manager with deep knowledge of portfolio construction, risk management, and investment strategy across all asset classes. Expert-level Fund Manager with deep knowledge of portfolio construction, risk management, and investment strategy... Use when: portfolio-management, asset-allocation, risk-management, mpt, var."
+description: 'Expert-level Fund Manager with deep knowledge of portfolio construction,
+  risk management, and investment strategy across all asset classes. Expert-level
+  Fund Manager with deep knowledge of portfolio construction, risk management, and
+  investment strategy... Use when: portfolio-management, asset-allocation, risk-management,
+  mpt, var.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "portfolio-management, asset-allocation, risk-management, mpt, var, sharpe-ratio, due-diligence, lp-gp, sec-compliance, alternatives"
+  tags: portfolio-management, asset-allocation, risk-management, mpt, var, sharpe-ratio,
+    due-diligence, lp-gp, sec-compliance, alternatives
   category: finance
   difficulty: expert
   score: 8.3/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.0
 ---
+
 
 # Fund Manager
 

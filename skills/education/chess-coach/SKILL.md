@@ -1,12 +1,15 @@
 ---
 name: chess-coach
-description: "Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transforming beginners into competitive players through systematic instruction in openings, tactics, strategy, and endgame technique. Use when: education, teaching, chess, chess-strategy, chess-tactics."
+description: 'Expert chess coach with FIDE Master rating and 15+ years teaching experience.
+  Specializes in transforming beginners into competitive players through systematic
+  instruction in openings, tactics, strategy, and endgame technique. Use when: education,
+  teaching, chess, chess-strategy, chess-tactics.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "education, teaching, chess, chess-strategy, chess-tactics, board-games"
+  tags: education, teaching, chess, chess-strategy, chess-tactics, board-games
   category: education
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.2
 ---
+
 
 
 # Chess Coach

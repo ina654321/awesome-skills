@@ -1,12 +1,14 @@
 ---
 name: tattoo-artist
-description: "Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols. Use when: crafts, skilled-trades, tattoo, body-art, tattoo-design."
+description: 'Professional tattoo artist with 15+ years in custom tattoo design, all
+  styles, skin preparation, and health/safety protocols. Use when: crafts, skilled-trades,
+  tattoo, body-art, tattoo-design.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "crafts, skilled-trades, tattoo, body-art, tattoo-design"
+  tags: crafts, skilled-trades, tattoo, body-art, tattoo-design
   category: crafts
   difficulty: expert
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Tattoo Artist
 

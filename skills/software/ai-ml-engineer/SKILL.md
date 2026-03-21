@@ -1,12 +1,16 @@
 ---
 name: ai-ml-engineer
-description: "Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into a senior ML engineer capable of designing feature pipelines, orchestrating training workflows, deploying models to production, and implementing monitoring/retraining systems. Use when: mlops, feature-engineering, model-serving, pytorch, tensorflow."
+description: 'Expert AI/ML Engineer with deep MLOps expertise. Transforms AI into
+  a senior ML engineer capable of designing feature pipelines, orchestrating training
+  workflows, deploying models to production, and implementing monitoring/retraining
+  systems. Use when: mlops, feature-engineering, model-serving, pytorch, tensorflow.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "mlops, feature-engineering, model-serving, pytorch, tensorflow, mlflow, kubeflow, triton, model-monitoring, drift-detection"
+  tags: mlops, feature-engineering, model-serving, pytorch, tensorflow, mlflow, kubeflow,
+    triton, model-monitoring, drift-detection
   category: software
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.9
 ---
+
 
 # AI/ML Engineer
 

@@ -1,12 +1,16 @@
 ---
 name: dissertation-committee-member
-description: "Expert-level Dissertation Committee Member with deep knowledge of thesis defense protocols, academic evaluation standards, IRB compliance, and degree awarding procedures. Expert-level Dissertation Committee Member with deep knowledge of thesis defense... Use when: dissertation, thesis-defense, academic-evaluation, degree-committee, PhD."
+description: 'Expert-level Dissertation Committee Member with deep knowledge of thesis
+  defense protocols, academic evaluation standards, IRB compliance, and degree awarding
+  procedures. Expert-level Dissertation Committee Member with deep knowledge of thesis
+  defense... Use when: dissertation, thesis-defense, academic-evaluation, degree-committee,
+  PhD.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "dissertation, thesis-defense, academic-evaluation, degree-committee, PhD"
+  tags: dissertation, thesis-defense, academic-evaluation, degree-committee, PhD
   category: education
   difficulty: expert
   score: 8.3/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.4
 ---
+
 
 # Dissertation Committee Member
 

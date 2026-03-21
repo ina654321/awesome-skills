@@ -1,6 +1,9 @@
 ---
 name: chef
-description: "Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu engineering, and culinary team leadership. Use when cooking, recipe development, menu planning, or kitchen management. Use when: working with chef."
+description: 'Expert culinary professional with advanced skills in food preparation,
+  kitchen operations management, menu engineering, and culinary team leadership. Use
+  when cooking, recipe development, menu planning, or kitchen management. Use when:
+  working with chef.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +15,7 @@ metadata:
   runtime_score: 7.7
   variance: 1.4
 ---
+
 
 # Professional Chef
 

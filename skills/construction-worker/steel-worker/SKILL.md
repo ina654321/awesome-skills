@@ -1,12 +1,15 @@
 ---
 name: steel-worker
-description: "Expert steel worker specializing in rebar installation, structural steel fabrication, and concrete reinforcement. Use when addressing rebar detailing, steel placement, shop drawing review, or quality control. Expert steel worker specializing in rebar... Use when: construction, skilled-trades, rebar, steel-fabrication, concrete-reinforcement."
+description: 'Expert steel worker specializing in rebar installation, structural steel
+  fabrication, and concrete reinforcement. Use when addressing rebar detailing, steel
+  placement, shop drawing review, or quality control. Expert steel worker specializing
+  in rebar... Use when: construction, skilled-trades, rebar, steel-fabrication, concrete-reinforcement.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "construction, skilled-trades, rebar, steel-fabrication, concrete-reinforcement"
+  tags: construction, skilled-trades, rebar, steel-fabrication, concrete-reinforcement
   category: construction-worker
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Steel Worker
 

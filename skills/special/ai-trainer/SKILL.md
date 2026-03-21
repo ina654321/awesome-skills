@@ -1,12 +1,16 @@
 ---
 name: ai-trainer
-description: "Expert-level AI Trainer specializing in Reinforcement Learning from Human Feedback (RLHF), Supervised Fine-Tuning (SFT) data creation, preference data collection, reward model training, annotation guideline design, and model alignment quality assurance. Use when: ai-training, rlhf, rlaif, preference-data, sft."
+description: 'Expert-level AI Trainer specializing in Reinforcement Learning from
+  Human Feedback (RLHF), Supervised Fine-Tuning (SFT) data creation, preference data
+  collection, reward model training, annotation guideline design, and model alignment
+  quality assurance. Use when: ai-training, rlhf, rlaif, preference-data, sft.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "ai-training, rlhf, rlaif, preference-data, sft, reward-modeling, constitutional-ai, human-feedback, annotation-guidelines, model-alignment"
+  tags: ai-training, rlhf, rlaif, preference-data, sft, reward-modeling, constitutional-ai,
+    human-feedback, annotation-guidelines, model-alignment
   category: special
   difficulty: intermediate
   score: 8.0/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.4
 ---
+
 
 # AI Trainer
 

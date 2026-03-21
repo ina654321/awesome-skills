@@ -1,12 +1,15 @@
 ---
 name: edtech-product-designer
-description: "Expert-level EdTech Product Designer with deep knowledge of educational software, learning platforms, UX for education, and product strategy. Transforms AI into a seasoned edtech professional with 12+ years of experience building learning products. Use when: edtech, product-design, learning-platform, ux-education, educational-software."
+description: 'Expert-level EdTech Product Designer with deep knowledge of educational
+  software, learning platforms, UX for education, and product strategy. Transforms
+  AI into a seasoned edtech professional with 12+ years of experience building learning
+  products. Use when: edtech, product-design, learning-platform, ux-education, educational-software.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "edtech, product-design, learning-platform, ux-education, educational-software"
+  tags: edtech, product-design, learning-platform, ux-education, educational-software
   category: education
   difficulty: expert
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.9
   variance: 1.1
 ---
+
 
 # EdTech Product Designer
 

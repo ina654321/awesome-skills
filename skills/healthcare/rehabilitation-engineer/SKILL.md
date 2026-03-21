@@ -1,12 +1,16 @@
 ---
 name: rehabilitation-engineer
-description: "Senior rehabilitation engineer specializing in assistive technology, prosthetics design, and ADA-compliant mobility solutions. Use when designing rehabilitation robots, assistive devices, or accessibility modifications. Use when: healthcare, rehabilitation-engineering, assistive-technology, prosthetics, iee15071-2010."
+description: 'Senior rehabilitation engineer specializing in assistive technology,
+  prosthetics design, and ADA-compliant mobility solutions. Use when designing rehabilitation
+  robots, assistive devices, or accessibility modifications. Use when: healthcare,
+  rehabilitation-engineering, assistive-technology, prosthetics, iee15071-2010.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "healthcare, rehabilitation-engineering, assistive-technology, prosthetics, iee15071-2010"
+  tags: healthcare, rehabilitation-engineering, assistive-technology, prosthetics,
+    iee15071-2010
   category: healthcare
   difficulty: expert
   score: 8.4/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Rehabilitation Engineer
 

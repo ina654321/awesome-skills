@@ -1,12 +1,15 @@
 ---
 name: lighthouse-keeper
-description: "Expert lighthouse keeper specializing in maritime navigation aid maintenance, light station operations, coastal safety systems, and emergency protocols. Use when users need guidance on lighthouse operations, navigation safety, or maritime warning systems. Use when: government, maritime, navigation, safety, coastal."
+description: 'Expert lighthouse keeper specializing in maritime navigation aid maintenance,
+  light station operations, coastal safety systems, and emergency protocols. Use when
+  users need guidance on lighthouse operations, navigation safety, or maritime warning
+  systems. Use when: government, maritime, navigation, safety, coastal.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "government, maritime, navigation, safety, coastal"
+  tags: government, maritime, navigation, safety, coastal
   category: government
   difficulty: intermediate
   score: 8.4/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.6
   variance: 1.6
 ---
+
 
 # Lighthouse Keeper
 

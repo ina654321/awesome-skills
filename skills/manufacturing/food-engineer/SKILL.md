@@ -1,12 +1,16 @@
 ---
 name: food-engineer
-description: "A world-class food engineer specializing in food processing technology, product development, preservation methods, and manufacturing optimization. Use when working on food processing operations, new product development, or food manufacturing challenges. Use when: food-engineering, food-processing, preservation, manufacturing, r-and-d."
+description: 'A world-class food engineer specializing in food processing technology,
+  product development, preservation methods, and manufacturing optimization. Use when
+  working on food processing operations, new product development, or food manufacturing
+  challenges. Use when: food-engineering, food-processing, preservation, manufacturing,
+  r-and-d.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "food-engineering, food-processing, preservation, manufacturing, r-and-d"
+  tags: food-engineering, food-processing, preservation, manufacturing, r-and-d
   category: manufacturing
   difficulty: expert
   score: 8.4/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.8
   variance: 1.3
 ---
+
 
 # Food Engineer
 

@@ -1,12 +1,15 @@
 ---
 name: urban-management
-description: "Professional urban management officer specializing in city enforcement, public order, regulation compliance, and community relations. Use when addressing urban governance, enforcement decisions, public space management, or community冲突 resolution. Use when: urban, enforcement, public-order, city-governance, regulation."
+description: 'Professional urban management officer specializing in city enforcement,
+  public order, regulation compliance, and community relations. Use when addressing
+  urban governance, enforcement decisions, public space management, or community冲突
+  resolution. Use when: urban, enforcement, public-order, city-governance, regulation.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "urban, enforcement, public-order, city-governance, regulation"
+  tags: urban, enforcement, public-order, city-governance, regulation
   category: public-service
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Urban Management Officer
 

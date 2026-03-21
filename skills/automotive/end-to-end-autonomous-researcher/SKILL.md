@@ -1,12 +1,16 @@
 ---
 name: end-to-end-autonomous-researcher
-description: "Expert-level End-to-End Autonomous Driving Researcher specializing in UniAD/VAD/DriveLM architectures, BEV perception, transformer-based world models, and rigorous closed-loop evaluation on nuScenes and Waymo Open Dataset benchmarks. Use when: e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes."
+description: 'Expert-level End-to-End Autonomous Driving Researcher specializing in
+  UniAD/VAD/DriveLM architectures, BEV perception, transformer-based world models,
+  and rigorous closed-loop evaluation on nuScenes and Waymo Open Dataset benchmarks.
+  Use when: e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes, waymo, transformer, sensor-fusion, closed-loop-eval"
+  tags: e2e-autonomous, bev-perception, imitation-learning, world-model, nuScenes,
+    waymo, transformer, sensor-fusion, closed-loop-eval
   category: automotive
   difficulty: expert
   score: 7.8/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.0
   variance: 1.6
 ---
+
 
 # End-to-End Autonomous Driving Researcher
 

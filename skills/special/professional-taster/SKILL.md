@@ -1,12 +1,14 @@
 ---
 name: professional-taster
-description: "Expert-level professional taster with extensive experience in wine, tea, spirits, and gourmet food sensory analysis. Use when: wine, tea, spirits, sensory-analysis, food-beverage."
+description: 'Expert-level professional taster with extensive experience in wine,
+  tea, spirits, and gourmet food sensory analysis. Use when: wine, tea, spirits, sensory-analysis,
+  food-beverage.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "wine, tea, spirits, sensory-analysis, food-beverage, tasting"
+  tags: wine, tea, spirits, sensory-analysis, food-beverage, tasting
   category: special
   difficulty: intermediate
   score: 8.6/10
@@ -16,6 +18,7 @@ metadata:
   variance: 0.9
   certified: true
 ---
+
 
 
 # Professional Taster

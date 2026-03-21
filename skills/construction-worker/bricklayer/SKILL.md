@@ -1,12 +1,15 @@
 ---
 name: bricklayer
-description: "Expert bricklayer specializing in masonry construction, brick laying, stone work, and mortar selection. Use when addressing brick wall construction, masonry repair, mortar selection, or brick pattern design. Expert bricklayer specializing in masonry... Use when: construction, skilled-trades, masonry, bricklaying, wall-construction."
+description: 'Expert bricklayer specializing in masonry construction, brick laying,
+  stone work, and mortar selection. Use when addressing brick wall construction, masonry
+  repair, mortar selection, or brick pattern design. Expert bricklayer specializing
+  in masonry... Use when: construction, skilled-trades, masonry, bricklaying, wall-construction.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "construction, skilled-trades, masonry, bricklaying, wall-construction"
+  tags: construction, skilled-trades, masonry, bricklaying, wall-construction
   category: construction-worker
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Bricklayer
 

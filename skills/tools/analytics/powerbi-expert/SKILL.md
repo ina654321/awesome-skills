@@ -1,12 +1,14 @@
 ---
 name: powerbi-expert
-description: "Power BI expert: DAX formulas, data modeling, report design, RLS configuration. Use when building business intelligence dashboards and reports. Triggers: 'Power BI', 'DAX', 'Power Query', 'data modeling', 'RLS', 'Power BI DAX'."
+description: 'Power BI expert: DAX formulas, data modeling, report design, RLS configuration.
+  Use when building business intelligence dashboards and reports. Triggers: ''Power
+  BI'', ''DAX'', ''Power Query'', ''data modeling'', ''RLS'', ''Power BI DAX''.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "[powerbi, bi, dashboards, visualization, dax, power-query]"
+  tags: '[powerbi, bi, dashboards, visualization, dax, power-query]'
   category: tools
   difficulty: expert
   score: 8.3/10
@@ -15,6 +17,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Power BI Expert
 

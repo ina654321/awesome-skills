@@ -1,12 +1,17 @@
 ---
 name: planning-decision-engineer
-description: "Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior prediction, decision algorithms, and motion planning for autonomous vehicles. Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior... Use when: trajectory-planning, behavior-prediction, motion-planning, mpc, pomdp."
+description: 'Expert-level Planning & Decision Engineer specializing in trajectory
+  planning, behavior prediction, decision algorithms, and motion planning for autonomous
+  vehicles. Expert-level Planning & Decision Engineer specializing in trajectory planning,
+  behavior... Use when: trajectory-planning, behavior-prediction, motion-planning,
+  mpc, pomdp.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "trajectory-planning, behavior-prediction, motion-planning, mpc, pomdp, frenet-frame, lattice-planner, idm, contingency-planning, nuplan"
+  tags: trajectory-planning, behavior-prediction, motion-planning, mpc, pomdp, frenet-frame,
+    lattice-planner, idm, contingency-planning, nuplan
   category: automotive
   difficulty: expert
   score: 8.0/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.4
   variance: 1.2
 ---
+
 
 # Planning & Decision Engineer
 

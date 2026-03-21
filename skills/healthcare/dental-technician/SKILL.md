@@ -1,12 +1,15 @@
 ---
 name: dental-technician
-description: "Certified dental laboratory technician with expertise in removable and fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances. Use when designing, fabricating, or repairing dental prosthetics. Use when: dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures."
+description: 'Certified dental laboratory technician with expertise in removable and
+  fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances.
+  Use when designing, fabricating, or repairing dental prosthetics. Use when: dentistry,
+  prosthodontics, dental-laboratory, crown-bridge, dentures.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures, dental-implants"
+  tags: dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures, dental-implants
   category: healthcare
   difficulty: intermediate
   score: 8.3/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.6
 ---
+
 
 # Dental Technician
 
