@@ -1,125 +1,142 @@
-# Scenario Examples
+# QA Engineer — Scenario Examples & Anti-Patterns
 
-## 9.1 Scenario: Flaky Test Investigation
-
-**User:** "We have a Playwright test that's flaky — it passes most of the time but fails randomly in CI. What should I investigate?"
-
-**QA Engineer:**
-> **Common causes of flakiness:**
-> 
-> **1. Timing Issues (Most Common)**
-> - Test clicks button, immediately checks for result before page updates
-> - Fix: Use `waitForSelector` or `waitForResponse` instead of arbitrary delays
-> 
-> **2. Shared State**
-> - Multiple tests modifying same data
-> - Fix: Use test isolation; each test should create and clean up its own data
-> 
-> **3. Network Variability**
-> - API calls taking longer in CI than locally
-> - Fix: Add retry logic for network-dependent assertions; increase timeouts
-> 
-> **4. DOM Instability**
-> - Elements appearing/disappearing during test
-> - Fix: Wait for stable state; avoid testing animation states
-> 
-> **Investigation steps:**
-> 1. Run test 20 times locally — is it consistently passing?
-> 2. Check CI logs for timing of failures
-> 3. Add console logs to pinpoint exact failure point
-> 4. Check if failure is in specific environment or all environments
-> 
-> Can you share the failing test code? I can spot specific issues.
+This file contains detailed scenario implementations and anti-patterns referenced from SKILL.md §9 and §10.
 
 ---
 
-## 9.2 Scenario: Building Test Strategy for New Service
+## Scenario 1: Building Test Coverage from Near Zero
 
-**User:** "We're launching a new payment microservice. What test strategy should we implement?"
+**Context:** A team has < 10% test coverage on a 2-year-old codebase. The team wants to reach 80% without stopping feature work.
 
-**QA Engineer:**
-> **Recommended test pyramid for payments:**
-> 
-> **Unit Tests (80% of effort)**
-> - Test individual functions: fee calculation, currency conversion, validation
-> - Test edge cases: zero amounts, max amounts, invalid currencies
-> - Mock external dependencies (payment gateways)
-> 
-> **Integration Tests (15%)**
-> - Test database operations: save, retrieve, update transactions
-> - Test message queue: publish and consume payment events
-> - Test service-to-service communication
-> 
-> **E2E Tests (5%)**
-> - Critical happy path: submit payment → confirm → update balance
-> - High-risk scenarios: failed payment, timeout, retry
-> - **DO NOT** test edge cases in E2E
-> 
-> **Key testing areas:**
-> - Idempotency: submitting same payment twice should not charge twice
-> - Race conditions: concurrent payment attempts
-> - Data consistency: payment state matches across services
-> - Error handling: graceful degradation when dependencies fail
-> 
-> **Don't forget:**
-> - Security testing: PCI compliance basics
-> - Performance testing: payment processing under load
-> - Chaos testing: what happens when payment gateway is down?
+**QA Engineer Approach:**
+
+> **Incremental Coverage Strategy — "Ratchet and Don't Slip"**
+>
+> **Phase 1: Stop the bleeding (Week 1)**
+> - Add coverage threshold to CI: start at current baseline (e.g., 8%), fail if it drops
+> - Every new PR must include tests for new code — enforce with coverage diff check
+>
+> ```yaml
+> # .github/workflows/coverage-gate.yml
+> - name: Coverage check (new code must be 80%+ covered)
+>   run: |
+>     npx jest --coverage --coverageThreshold='{"global":{"lines":8}}'
+>     git diff origin/main --name-only | grep '\.ts$' > changed_files.txt
+>     npx diff-cover coverage/lcov.info --compare-branch=origin/main --fail-under=80
+> ```
+>
+> **Phase 2: Cover the critical paths (Weeks 2-6)**
+> - Identify top 10 most business-critical modules (payments, auth, data processing)
+> - Write tests for these first — 20% of the code often drives 80% of the risk
+> - Use mutation testing to check if existing tests are meaningful
+>
+> **Phase 3: Raise the bar incrementally (Months 2-6)**
+> - Each sprint, raise the global threshold by 2-5%
+> - Track coverage trend in Codecov — celebrate improvements in team retros
 
 ---
 
-## 9.3 Scenario: API Testing Strategy
+## Scenario 2: Eliminating Flaky E2E Tests
 
-**User:** "How do I set up automated API testing for our REST API? We use Jest for unit tests."
+**Context:** The E2E test suite has 30% flakiness rate. Engineers disable failing tests rather than fix them. CI is no longer trusted.
 
-**QA Engineer:**
-> **Recommended approach:**
-> 
-> **1. Choose your tools**
-> - Jest + Supertest for API testing (keeps you in one ecosystem)
-> - Or Postman/Newman for API-focused pipeline
-> 
-> **2. Structure your tests**
+**QA Engineer Approach:**
+
+> **Step 1: Quarantine immediately**
+> ```typescript
+> test.skip('FLAKY: checkout flow times out on payment step — JIRA QA-234', async ({ page }) => {});
+> test('payment flow', { retries: 3 }, async ({ page }) => {});
 > ```
-> /tests
->   /api
->     /users
->       create-user.test.js
->       get-user.test.js
->     /orders
->       create-order.test.js
->   fixtures/
->     users.js
+>
+> **Step 2: Root cause analysis**
+> - **Timing issues** → wait for actual conditions, not arbitrary sleeps
+> - **Test data collision** → each test creates isolated data
+> - **Network instability** → add explicit waits for API responses
+> - **Animations** → disable in Playwright config
+>
+> **Step 3: Measure and prevent regression**
+> - Track flakiness rate per test weekly
+> - Any test with > 5% flakiness rate gets a fix-or-delete decision
+
+---
+
+## Scenario 3: Performance Testing a New Feature
+
+**Context:** A new search feature is launching. The team has never done performance testing. The product expects 10x traffic growth.
+
+> **Define SLOs first:**
 > ```
-> 
-> **3. Test patterns**
-> - Happy path tests
-> - Validation error tests (400 responses)
-> - Authentication tests (401, 403)
-> - Not found tests (404)
-> - Edge cases (empty strings, max lengths, special characters)
-> 
-> **4. Example test structure**
+> - p50 response time < 100ms
+> - p95 response time < 500ms
+> - p99 response time < 2000ms
+> - Error rate < 0.1%
+> - Throughput: 1000 RPS sustained, 3000 RPS peak
+> ```
+>
+> **Test pyramid: Smoke → Load → Stress → Soak**
+>
 > ```javascript
-> describe('POST /users', () => {
->   it('should create user with valid data', async () => {
->     const res = await request(app)
->       .post('/users')
->       .send({ email: 'test@example.com', name: 'Test' });
->     expect(res.status).toBe(201);
->     expect(res.body).toHaveProperty('id');
->   });
-> 
->   it('should return 400 for invalid email', async () => {
->     const res = await request(app)
->       .post('/users')
->       .send({ email: 'invalid', name: 'Test' });
->     expect(res.status).toBe(400);
->   });
-> });
+> // k6 smoke test (5 VUs, 1 minute)
+> export const options = { vus: 5, duration: '1m',
+>   thresholds: { http_req_duration: ['p(99)<2000'] }
+> };
+>
+> // k6 load test (ramp to 1000 RPS)
+> export const options = {
+>   stages: [
+>     { duration: '5m', target: 500 },
+>     { duration: '10m', target: 1000 },
+>     { duration: '5m', target: 0 },
+>   ],
+> };
 > ```
-> 
-> **5. CI Integration**
-> - Run API tests against test/staging environment
-> - Use separate database that's reset between runs
-> - Don't run against production
+
+---
+
+## Scenario 4: Testing Implementation vs Behavior
+
+**❌ Anti-Pattern:**
+```typescript
+// These tests break on every refactoring, even if behavior is correct
+describe('PricingService', () => {
+  it('calls applyTierMultiplier with correct rate', () => {
+    const spy = jest.spyOn(pricingService, 'applyTierMultiplier');
+    pricingService.calculateDiscount(100, 'premium');
+    expect(spy).toHaveBeenCalledWith(0.9);
+  });
+});
+```
+
+**✅ Fix — Test behavior, not implementation:**
+```typescript
+describe('PricingService', () => {
+  describe('calculateDiscount', () => {
+    it('applies 10% discount for premium tier', () => {
+      const result = pricingService.calculateDiscount(100, 'premium');
+      expect(result).toBe(90);
+    });
+
+    it('applies 0% discount for standard tier', () => {
+      const result = pricingService.calculateDiscount(100, 'standard');
+      expect(result).toBe(100);
+    });
+
+    it('throws on invalid tier', () => {
+      expect(() => pricingService.calculateDiscount(100, 'invalid'))
+        .toThrow('Unknown tier: invalid');
+    });
+  });
+});
+```
+
+---
+
+## Anti-Patterns Quick Reference (§10)
+
+| Pitfall | Bad Pattern | Fix |
+|---------|-------------|-----|
+| **Arbitrary sleep** | `waitForTimeout(3000)` | Wait for actual condition |
+| **Shared mutable state** | Global test user shared across tests | Each test creates isolated data |
+| **Coverage as goal** | Test asserts `toBeDefined()` | Mutation testing, meaningful assertions |
+| **Skip non-functional** | No perf/security in CI | k6 smoke + ZAP in required stages |
+| **Giant test files** | 500-line flat test file | Page Object Model + describe blocks |

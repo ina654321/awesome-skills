@@ -302,314 +302,40 @@ Flakiness Rate → Action Required:
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Building Test Coverage from Near Zero
+See [references/09-scenarios.md](./references/09-scenarios.md) for detailed scenario implementations, code examples, and anti-patterns.
 
-**Context:** A team has < 10% test coverage on a 2-year-old codebase. The team wants to reach 80% without stopping feature work.
+### Quick Reference
 
-**QA Engineer Approach:**
+| Scenario | Context | Approach | Outcome |
+|----------|---------|----------|---------|
+| **1: Coverage from 10%** | Legacy codebase, < 10% coverage, need 80% | 3-phase: stop bleeding → cover critical paths → ratchet threshold | 80% coverage without stopping features |
+| **2: Flaky E2E (30%)** | E2E suite unreliable, tests disabled in CI | 3-step: quarantine → root cause → measure regression | Restore CI trust, < 5% flakiness |
+| **3: Performance Testing** | New feature, expect 10x traffic | Define SLOs → smoke/load/stress/soak pyramid | p99 < 2000ms, 1000 RPS sustained |
+| **4: Implementation vs Behavior** | 30 tests break on refactor despite correct behavior | Test WHAT returns, not HOW it works | Refactor-safe tests |
 
-> **Incremental Coverage Strategy — "Ratchet and Don't Slip"**
->
-> **Phase 1: Stop the bleeding (Week 1)**
-> - Add coverage threshold to CI: start at current baseline (e.g., 8%), fail if it drops
-> - Every new PR must include tests for new code — enforce with coverage diff check
->
-> ```yaml
-> # .github/workflows/coverage-gate.yml
-> - name: Coverage check (new code must be 80%+ covered)
->   run: |
->     npx jest --coverage --coverageThreshold='{"global":{"lines":8}}'
->     # Also check coverage of changed files using diff-cover
->     git diff origin/main --name-only | grep '\.ts$' > changed_files.txt
->     npx diff-cover coverage/lcov.info --compare-branch=origin/main --fail-under=80
-> ```
->
-> **Phase 2: Cover the critical paths (Weeks 2-6)**
-> - Identify top 10 most business-critical modules (payments, auth, data processing)
-> - Write tests for these first — 20% of the code often drives 80% of the risk
-> - Use mutation testing to check if existing tests are meaningful
->
-> ```bash
-> # Stryker mutation testing — finds tests that pass even with bugs
-> npx stryker run
-> # Look for low mutation score modules — those tests aren't catching real bugs
-> ```
->
-> **Phase 3: Raise the bar incrementally (Months 2-6)**
-> - Each sprint, raise the global threshold by 2-5%
-> - Track coverage trend in Codecov — celebrate improvements in team retros
-> - Refactor legacy code into testable units (dependency injection, pure functions)
->
-> **Anti-patterns to avoid:**
-> - Writing tests just to hit coverage numbers (testing getters/setters, trivial code)
-> - Excluding large chunks of code from coverage reports
-> - Prioritizing coverage % over test quality and meaningful assertions
+### Anti-Patterns Summary
 
-### Scenario 2: Eliminating Flaky E2E Tests
-
-**Context:** The E2E test suite has 30% flakiness rate. Engineers disable failing tests rather than fix them. CI is no longer trusted.
-
-**QA Engineer Approach:**
-
-> **Flaky Test Elimination — 3-Step Rescue Plan**
->
-> **Step 1: Quarantine immediately — don't let flaky tests block CI**
-> ```typescript
-> // Mark known flaky tests explicitly — visible, not swept under the rug
-> test.skip('FLAKY: checkout flow times out on payment step — JIRA QA-234', async ({ page }) => {
->   // ... test code preserved for fixing
-> });
->
-> // Playwright built-in retry for intermittent tests
-> test('payment flow', { retries: 3 }, async ({ page }) => {
->   // If this passes on retry, it's flaky — investigate
-> });
-> ```
->
-> **Step 2: Root cause analysis — 5 most common flakiness causes**
-> ```typescript
-> // CAUSE 1: Timing issues — never use arbitrary sleeps
-> // BAD
-> await page.waitForTimeout(3000);
->
-> // GOOD — wait for the actual condition
-> await page.waitForResponse(resp => resp.url().includes('/api/orders') && resp.status() === 201);
-> await expect(page.getByTestId('order-confirmation')).toBeVisible();
->
-> // CAUSE 2: Test data collision — tests sharing state
-> // BAD — global test user modified by multiple tests
-> // GOOD — each test creates its own isolated data
-> test('updates user profile', async ({ page, request }) => {
->   const user = await request.post('/api/test/users', {
->     data: { email: `test-${Date.now()}@example.com` }
->   });
->   // Use this user and clean up in afterEach
-> });
->
-> // CAUSE 3: Network instability — add explicit waits
-> await page.route('**/api/**', route => route.continue());
->
-> // CAUSE 4: Animations interfering with click targets — disable in tests
-> // playwright.config.ts
-> use: {
->   launchOptions: { args: ['--disable-animations'] },
-> }
-> ```
->
-> **Step 3: Measure and prevent regression**
-> - Track flakiness rate per test weekly
-> - Any test with > 5% flakiness rate gets a fix-or-delete decision within 2 weeks
-> - Add test health dashboard to team's engineering metrics
-
-### Scenario 3: Performance Testing a New Feature Before Release
-
-**Context:** A new search feature is launching. The team has never done performance testing. The product expects 10x traffic growth.
-
-**QA Engineer Approach:**
-
-> **Performance Testing Checklist for Search Feature**
->
-> **Step 1: Define performance requirements (before writing tests)**
-> ```
-> SLOs for Search API:
-> - p50 response time < 100ms
-> - p95 response time < 500ms
-> - p99 response time < 2000ms
-> - Error rate < 0.1%
-> - Throughput: 1000 RPS sustained, 3000 RPS peak
-> ```
->
-> **Step 2: Smoke test → Load test → Stress test → Soak test**
-> ```javascript
-> // k6/search-smoke.js — Quick validation (5 VUs, 1 minute)
-> export const options = { vus: 5, duration: '1m',
->   thresholds: { http_req_duration: ['p(99)<2000'] }
-> };
->
-> // k6/search-load.js — Normal expected load (ramp to 1000 RPS)
-> export const options = {
->   stages: [
->     { duration: '5m', target: 500 },
->     { duration: '10m', target: 1000 },
->     { duration: '5m', target: 0 },
->   ],
->   thresholds: {
->     http_req_duration: ['p(95)<500', 'p(99)<2000'],
->     http_req_failed: ['rate<0.001'],
->   }
-> };
->
-> // k6/search-stress.js — Find the breaking point
-> export const options = {
->   stages: [
->     { duration: '2m', target: 1000 },
->     { duration: '2m', target: 2000 },
->     { duration: '2m', target: 3000 },
->     { duration: '2m', target: 4000 },  // Expect failures here
->     { duration: '2m', target: 0 },
->   ],
->   thresholds: { http_req_failed: ['rate<0.1'] }  // Relaxed threshold for stress test
-> };
-> ```
->
-> **Step 3: Correlate with infrastructure metrics**
-> - Monitor DB query times during load test (slow queries identified under load)
-> - Watch for connection pool exhaustion (psycopg2.OperationalError
-> - Check cache hit rates (if cache is cold, performance will be misleading)
-> - Use distributed tracing (Jaeger/Zipkin) to find bottlenecks in the hot path
-
-### Scenario 4: Anti-Pattern — Testing Implementation Instead of Behavior
-
-**Context:** A developer writes unit tests that mock and assert on internal method calls. Every refactor breaks 30 tests even though the feature still works correctly.
-
-**The Anti-Pattern:**
-
-```typescript
-// ❌ ANTI-PATTERN: Testing implementation details
-// These tests break on every refactoring, even if behavior is correct
-
-describe('PricingService', () => {
-  it('calls applyTierMultiplier with correct rate', () => {
-    const spy = jest.spyOn(pricingService, 'applyTierMultiplier');
-    pricingService.calculateDiscount(100, 'premium');
-    // This test cares HOW it works, not WHAT it returns
-    expect(spy).toHaveBeenCalledWith(0.9);
-  });
-
-  it('calls discountRepository.save', async () => {
-    const saveSpy = jest.spyOn(discountRepo, 'save');
-    await pricingService.applyDiscount(order);
-    expect(saveSpy).toHaveBeenCalled();  // Tests the call, not the outcome
-  });
-});
-```
-
-**The QA Engineer Fix:**
-
-```typescript
-[Code block moved to code-block-2.md]
-```
+| Pitfall | Bad Pattern | Fix |
+|---------|-------------|-----|
+| 🔴 High | Arbitrary sleep in E2E | Wait for actual conditions |
+| 🔴 High | Shared mutable state | Each test creates isolated data |
+| 🟡 Medium | Coverage as goal (not quality) | Mutation testing + meaningful assertions |
+| 🟡 Medium | Skip non-functional testing | k6 smoke + ZAP in required CI stages |
+| 🟡 Medium | Giant flat test files | Page Object Model + describe blocks |
 
 ---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-### Pitfall 1: `sleep()` in E2E Tests
+See [references/09-scenarios.md](./references/09-scenarios.md) for detailed anti-pattern code examples.
 
-```typescript
-// ❌ BAD: Arbitrary sleep — flaky on slow machines, wastes time on fast ones
-await page.waitForTimeout(3000);
-await sleep(2000);
-
-// ✅ GOOD: Wait for the actual condition your test needs
-await page.waitForResponse(r => r.url().includes('/api/orders') && r.status() === 201);
-await expect(page.getByTestId('order-confirmation')).toBeVisible({ timeout: 10_000 });
-await page.waitForSelector('[data-testid="success-banner"]:not([aria-hidden])');
-// RULE: If you catch yourself typing "sleep", ask "what am I actually waiting for?"
-```
-
-### Pitfall 2: Shared Mutable State Between Tests
-
-```typescript
-// ❌ BAD: Tests share a user — one test's mutation bleeds into others
-let sharedUser: User;
-beforeAll(async () => {
-  sharedUser = await createUser({ email: 'shared@test.com', credits: 100 });
-});
-
-test('deducts credits on purchase', async () => {
-  await api.purchase(sharedUser.id, product);
-  const user = await api.getUser(sharedUser.id);
-  expect(user.credits).toBe(90);  // FLAKY: another test may have modified credits
-});
-
-// ✅ GOOD: Each test creates and owns its isolated data
-test('deducts credits on purchase', async () => {
-  const user = await createUser({ email: `test-${Date.now()}@example.com`, credits: 100 });
-  await api.purchase(user.id, product);
-  const updated = await api.getUser(user.id);
-  expect(updated.credits).toBe(90);
-  // Cleanup in afterEach or use factory with auto-teardown
-});
-```
-
-### Pitfall 3: 100% Coverage as the Goal
-
-```typescript
-// ❌ BAD: Test that "covers" a line but asserts nothing meaningful
-it('calls calculateTotal', () => {
-  const result = calculateTotal([]);
-  expect(result).toBeDefined();  // Always true — even if result is NaN or undefined
-});
-
-// Also bad: excluding code to hit the metric
-// jest.config.js: coveragePathIgnorePatterns: ['./src/legacy/', './src/utils/']
-
-// ✅ GOOD: Meaningful assertions that would fail if the logic broke
-it('returns 0 for empty cart', () => {
-  expect(calculateTotal([])).toBe(0);
-});
-it('sums item prices including tax', () => {
-  expect(calculateTotal([{ price: 100, qty: 2 }], { taxRate: 0.1 })).toBe(220);
-});
-// BONUS: Use mutation testing to verify your tests actually catch bugs
-// npx stryker run → mutation score > 70% is more valuable than 100% line coverage
-```
-
-### Pitfall 4: Skipping Non-Functional Testing
-
-```yaml
-# ❌ BAD: CI pipeline with no performance gate — "we'll load test later"
-jobs:
-  unit-tests: ...
-  e2e-tests: ...
-  deploy: needs: [e2e-tests]   # Ships with no performance or security validation
-
-# ✅ GOOD: Non-functional tests are required CI stages
-jobs:
-  unit-tests: ...
-  e2e-tests: ...
-  performance-gate:
-    needs: [e2e-tests]
-    steps:
-      - name: k6 smoke test
-        uses: grafana/k6-action@v0.3.1
-        with: { filename: tests/load/smoke.js }
-        env: { BASE_URL: ${{ secrets.STAGING_URL }} }
-  security-scan:
-    needs: [e2e-tests]
-    steps:
-      - run: docker run --rm -t owasp/zap2docker-stable zap-baseline.py -t $STAGING_URL
-  deploy:
-    needs: [performance-gate, security-scan]  # Cannot deploy without both passing
-```
-
-### Pitfall 5: Giant Test Files with No Structure
-
-```typescript
-// ❌ BAD: 500-line test file with flat structure and no helpers
-test('user can login', async () => { /* 50 lines of setup inline */ });
-test('user can register', async () => { /* duplicates setup from above */ });
-test('admin can delete user', async () => { /* more inline setup duplication */ });
-
-// ✅ GOOD: Organized with describe blocks, shared fixtures, Page Object Model
-describe('Authentication', () => {
-  let authHelper: AuthHelper;
-
-  beforeEach(async () => {
-    authHelper = new AuthHelper(page);
-  });
-
-  describe('Login', () => {
-    it('redirects to dashboard on success', async () => { /* focused, readable */ });
-    it('shows error for invalid credentials', async () => { /* one assertion */ });
-  });
-
-  describe('Registration', () => {
-    it('sends verification email after signup', async () => { /* focused */ });
-  });
-});
-```
+| Category | Issue | Prevention |
+|----------|-------|------------|
+| **E2E** | `waitForTimeout` instead of condition waits | Rule: "If you type sleep, ask what am I waiting for?" |
+| **Test Data** | Global users/data shared across tests | Factory pattern with auto-teardown |
+| **Coverage** | Testing to hit % not catch bugs | Mutation testing (Stryker), meaningful assertions |
+| **CI/CD** | No perf/security gates | k6 smoke + ZAP as required stages |
+| **Structure** | 500-line flat test files | POM + describe blocks + shared fixtures |
 
 ---
 

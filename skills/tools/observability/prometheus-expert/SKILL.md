@@ -346,35 +346,13 @@ curl -X POST http://localhost:9090/-/reload
 
 ## § 10 · Example Interactions
 
-### Example 1: Calculate SLO Error Budget
+→ **Detailed examples moved to [`references/09-examples.md`](references/09-examples.md)**
 
-**User:** "Help me calculate the error budget for our checkout service with a 99.9% availability SLO over 30 days"
-
-**Prometheus Expert:**
-> **Error Budget Calculation:**
->
-> **1. Query Current Error Rate:**
-> ```promql
-> # 30-day average error rate
-> 100 * (
->   1 - (
->     sum(
->       increase(http_requests_total{
->         service="checkout",
->         namespace="production",
->         status=~"2.."
->       }[30d])
->     )
->     /
->     sum(
->       increase(http_requests_total{
->         service="checkout",
->         namespace="production"
->       }[30d])
->     )
->   )
-> )
-> ```
+| Example | Description |
+|---------|-------------|
+| **Example 1** | SLO Error Budget calculation with PromQL queries |
+| **Example 2** | Blackbox monitoring for API endpoints |
+| **Example 3** | Kubernetes monitoring with Prometheus Operator |
 >
 > **2. Calculate Total Allowed Errors:**
 > ```promql
@@ -700,106 +678,18 @@ curl -X POST http://localhost:9090/-/reload
 
 ## § 11 · Edge Cases
 
-### 11.1 Special Scenarios
+→ **Detailed edge case solutions moved to [`references/09-examples.md`](references/09-examples.md)**
 
-**1. High Cardinality from Dynamic Pod Names**
-- Problem: Pod names include random suffixes, creating many unique labels
-- Solution: Use `pod_template_hash` label; remove unique suffix with relabeling
-```yaml
-relabel_configs:
-  - source_labels: [__meta_kubernetes_pod_label_pod_template_hash]
-    action: keep
-```
-
-**2. Metrics with Duplicate Time Series**
-- Problem: Same metric scraped from multiple paths
-- Solution: Use `honor_labels: true` or relabel to consolidate
-```yaml
-relabel_configs:
-  - source_labels: [__meta_kubernetes_pod_annotation_prometheus_io_path]
-    action: replace
-    target_label: metrics_path
-```
-
-**3. Missing Metrics from Batch Jobs**
-- Problem: Batch jobs complete before next scrape
-- Solution: Use Pushgateway for short-lived jobs
-```yaml
-- job_name: 'batch-jobs'
-  static_configs:
-    - targets: ['pushgateway:9091']
-  metrics_path: /metrics
-  relabel_configs:
-    - source_labels: [job]
-      action: replace
-      target_label: batch_job
-```
-
-**4. Querying Data Across Federations**
-- Problem: Need metrics from multiple Prometheus servers
-- Solution: Use Thanos or Federation
-```yaml
-- job_name: 'federate'
-  honor_labels: true
-  params:
-    match[]:
-      - '{job="kubernetes-nodes"}'
-  static_configs:
-    - targets: ['thanos-query:9090']
-```
-
-**5. Slow Query with Subqueries**
-- Problem: Subqueries cause memory/CPU spikes
-- Solution: Avoid subqueries; use recording rules
-```promql
-# Instead of subquery
-max_over_time(
-  rate(http_requests[5m])[1h:5m]
-)
-
-# Use recording rule
-record: job:http_requests_max:max5m
-expr: max_over_time(rate(http_requests[5m])[5m])
-
-# Then query
-max_over_time(job:http_requests_max:max5m[1h])
-```
-
-**6. Alert When Metric Disappears**
-- Problem: Alert should fire when service stops reporting
-- Solution: Use `absent()` function
-```promql
-alert: ServiceNotReporting
-  expr: absent(up{job="checkout"})
-  for: 5m
-```
-
-**7. Scrape Config for Sidecar Containers**
-- Problem: Sidecar shares pod but exposes different port
-- Solution: Use multiple scrape paths on same pod
-```yaml
-scrape_configs:
-  - job_name: 'app-with-sidecar'
-    kubernetes_sd_configs:
-      - role: pod
-    relabel_configs:
-      - source_labels: [__meta_kubernetes_pod_annotation_prometheus_io_scrape]
-        action: keep
-      - source_labels: [__meta_kubernetes_pod_annotation_prometheus_io_port]
-        action: replace
-        target_label: __param_target
-```
-
-**8. Handling Metric Name Conflicts**
-- Problem: Two exporters expose same metric name
-- Solution: Use `honor_labels: false` and relabel to differentiate
-```yaml
-relabel_configs:
-  - source_labels: [job]
-    regex: '(.+)'
-    replacement: '${1}_exporter'
-    target_label: exporter
-```
+| Scenario | Problem | Solution |
+|----------|---------|----------|
+| **High Cardinality** | Dynamic pod names create many unique labels | Use `pod_template_hash` label |
+| **Duplicate Metrics** | Same metric scraped multiple paths | `honor_labels: true` or relabel |
+| **Batch Job Metrics** | Short-lived jobs miss scrape | Pushgateway |
+| **Cross-Federation** | Multiple Prometheus servers | Thanos or Federation |
+| **Slow Subqueries** | Subqueries cause OOM | Recording rules instead |
+| **Missing Metrics** | Alert when service stops | `absent()` function |
+| **Sidecar Containers** | Multiple ports on same pod | Multiple scrape paths |
+| **Metric Conflicts** | Duplicate metric names | Relabel with prefix |
 
 ---
 
