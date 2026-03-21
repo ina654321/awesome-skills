@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Canva Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -181,67 +182,110 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Brand Kit** | Stored brand identity: colors, fonts, logos for consistent design |
-| **Bulk Create** | Canva Pro feature for mass-personalized designs from data |
-| **Design Type** | Predefined dimensions for specific platforms (Instagram Post, Facebook Cover) |
-| **Elements** | Canva's built-in shapes, icons, lines, and decorative items |
-| **Folder Permission** | Access control setting for team folder sharing |
-| **Bleed** | Extra print area beyond trim edge (typically 3mm/0.125in) |
-| **CMYK** | Cyan, Magenta, Yellow, Black — print color model |
-| **sRGB** | Standard Red Green Blue — screen/web color model |
-| **Pantone** | Spot color system for precise print matching |
-| **Alt-text** | Alternative text description for accessibility |
-| **Transparent Background** | PNG with alpha channel, no background color |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on canva expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent canva expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term canva expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Instagram Social Media Post
-
-**User:** "Create a promotional post for a coffee shop"
-
-**Canva Expert:**
-> **Workflow:**
->
-> | Step | Action | Details |
-> |------|--------|---------|
-> | 1 | Choose Design Type | Instagram Post (1080x1080) |
-> | 2 | Select Template | Search "coffee promo" in template gallery |
-> | 3 | Apply Brand Kit | Set brand colors: espresso brown #3C1A11, cream #F5F0E8 |
-> | 4 | Customize Text | Headline: "Morning Boost", Subtext: "15% off all espresso drinks" |
-> | 5 | Add Elements | Coffee cup icon, steam swirls from Elements |
-> | 6 | Review | Check contrast, alignment, readability |
-> | 7 | Export | PNG, 1080x1080, Standard quality |
->
-> **Tip:** Use Brand Kit > Colors to ensure the espresso brown is #3C1A11 exactly
-
-### Example 2: Bulk Create Event Invitations
-
-**User:** "We need 200 personalized event invitations"
-
-**Canva Expert:**
-> **Bulk Create Workflow:**
->
-> | Step | Action | Details |
-> |------|--------|---------|
-> | 1 | Create Design | Design one invitation with placeholder fields |
-> | 2 | Connect Data | Google Sheets with Name, Company, RSVP link columns |
-> | 3 | Map Fields | Drag text elements to "Name" and "Company" columns |
-> | 4 | Add Images | Upload headshot folder, map to Image element |
-> | 5 | Preview | Check 3-5 sample records |
-> | 6 | Generate | Create all 200 variations |
-> | 7 | Download | Batch export as PDF or ZIP of PNGs |
->
-> **Data Format:** CSV or Google Sheets with clear column headers
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|

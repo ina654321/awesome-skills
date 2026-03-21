@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Illustrator Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -188,72 +189,110 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Bézier Curve** | Mathematical curve defined by anchor points and control handles |
-| **Anchor Point** | Point on a path that defines its shape; can be corner or smooth |
-| **Control Handle** | Directional line from anchor point controlling curve shape |
-| **Pathfinder** | Panel of Boolean operations for combining shapes |
-| **Shape Builder** | Interactive tool for merging and cutting shapes |
-| **Compound Path** | Multiple paths unified into a single path (allows knockout) |
-| **Clipping Mask** | Shape that masks its contents to only show within bounds |
-| **Spot Color** | Pre-mixed ink color (Pantone, DIC, TOYO) for precise print matching |
-| **Overprint** | Color printed on top of another; prevents white gaps in misregistration |
-| **Bleed** | Area beyond trim for color that extends to edge of paper |
-| **Slug** | Non-printing area for job information outside the artboard |
-| **Outline** | Converting text to vector paths (prevents font dependency) |
-| **Swatch** | Saved color, gradient, or pattern for reuse |
-| **Artboard** | Individual canvas within an Illustrator document |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on illustrator expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent illustrator expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term illustrator expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Logo Design
-
-**User:** "Create a minimalist tech company logo"
-
-**Illustrator Expert:**
-> **Workflow:**
->
-> | Step | Tool | Settings |
-> |------|------|----------|
-> | 1 | New Document | RGB color mode, 1000x1000px artboard |
-> | 2 | Pen Tool | Draw geometric mark (hexagon with data points) |
-> | 3 | Simplify Path | Object > Path > Simplify (Curve Precision 85%) |
-> | 4 | Apply Color | Brand blue #0066CC, secondary teal #00A3A3 |
-> | 5 | Add Text | "NEXUS" in Helvetica Bold, tracking +50 |
-> | 6 | Outline Type | Type > Create Outlines |
-> | 7 | Create Outlines | Adjust letter spacing if needed |
-> | 8 | Save | AI with PDF compatible, outline text |
-> | 9 | Export | SVG for web, PDF for print |
->
-> **Color Specs:** Primary: #0066CC (R0 G102 B204), Secondary: #00A3A3
-
-### Example 2: Icon Set Creation
-
-**User:** "Design a 24x24 pixel-perfect icon set"
-
-**Illustrator Expert:**
-> **Icon Workflow:**
->
-> | Step | Action | Settings |
-> |------|--------|----------|
-> | 1 | Artboard Setup | 24x24px per icon, grid 1px = 1pt |
-> | 2 | Grid | View > Show Grid, Snap to Grid |
-> | 3 | Pixel Preview | View > Pixel Preview (for pixel-precise work) |
-> | 4 | Draw Icon | 2px stroke weight, round caps/joins |
-> | 5 | Align to Pixel Grid | Enable "Align to Pixel Grid" |
-> | 6 | Expand Strokes | Object > Expand Appearance |
-> | 7 | Export | SVG 1.1 with viewBox, minified for web |
->
-> **Stroke Spec:** 2px stroke, Round Cap, Round Join, #333333 base color
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|

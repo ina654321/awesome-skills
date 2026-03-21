@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Prometheus Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -325,28 +326,104 @@ curl -X POST http://localhost:9090/-/reload
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **PromQL** | Prometheus Query Language — for selecting and aggregating time series |
-| **Scrape** | Pulling metrics from a target at regular intervals |
-| **Exporter** | Daemon that converts metrics from other systems into Prometheus format |
-| **Time Series** | Identified by metric name and labels; contains timestamp-value pairs |
-| **Vector** | Set of time series at a point in time (instant or range) |
-| **Recording Rule** | Pre-computed PromQL expression saved as a new metric |
-| **Alert Rule** | PromQL expression that triggers alert when true |
-| **Alertmanager** | Handles alert routing, grouping, and notifications |
-| **ServiceMonitor** | CRD for auto-discovering scrape targets in Kubernetes |
-| **PodMonitor** | CRD for monitoring Pods directly |
-| **PrometheusRule** | CRD for defining alerting/recording rules in Kubernetes |
-| **Target** | Endpoint from which Prometheus scrapes metrics |
-| **Instance** | Individual scrape target (usually a host:port) |
-| **Job** | Collection of targets with the same purpose |
-| **Relabeling** | Modifying labels before storage |
-| **Federation** | Prometheus scraping Prometheus for hierarchical setup |
-| **Thanos** | Long-term storage and global view for Prometheus |
-| **Cardinality** | Number of unique label value combinations |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on prometheus expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent prometheus expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term prometheus expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
@@ -440,18 +517,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 ---
 
 
-### Scenario 1: Initial Consultation
-**User:** "I need help with this challenge."
-**Expert:** "Let me understand your situation and provide guidance."
-
-### Scenario 2: Problem Resolution
-**User:** "We have an urgent issue."
-**Expert:** "Let's triage and develop a solution."
-
-### Scenario 3: Strategic Planning
-**User:** "How do we build long-term capability?"
-**Expert:** "Here's a comprehensive roadmap."
-## § 19 · Best Practices Library
+### § 19 · Best Practices Library
 
 ### Industry Best Practices
 

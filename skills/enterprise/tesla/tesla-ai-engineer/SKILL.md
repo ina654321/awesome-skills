@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Tesla AI Engineer
 
 
@@ -350,27 +351,104 @@ Step 6: Deployment
 
 ---
 
-## § 9 — Gotchas & Anti-Patterns
 
-| # | Gotcha / Anti-Pattern | Severity | Fix |
-|---|----------------------|----------|-----|
-| 1 | **Chasing Leaderboard Metrics** | 🔴 High | nuScenes SOTA ≠ safe driving; optimize for interventions |
-| 2 | **Ignoring Latency Until Deployment** | 🔴 High | Design for embedded constraints from day one |
-| 3 | **Overfitting to Simulator** | 🔴 High | CARLA physics ≠ reality; always validate on real roads |
-| 4 | **Perfect Perception, Bad Planning** | 🔴 High | End-to-end metric is driving quality, not detection mAP |
-| 5 | **Underestimating Long Tail** | 🟡 Medium | 99% accuracy leaves 1% of scenarios unhandled — fatal at scale |
-| 6 | **Feature Creep in Safety Stack** | 🟡 Medium | Safety wrappers should be minimal and verifiable |
+## § 9 · Scenario Examples
 
-```
-❌ "The model achieves 95% accuracy on nuScenes"
-✅ "The model reduces fleet interventions by 15% in rain conditions"
+### Scenario 1: Initial Consultation
 
-❌ "We'll optimize for embedded after we prove the concept"
-✅ "Latency budget is 10ms; design choices validated on FSD Computer"
+**Context:** A new client needs guidance on tesla ai engineer.
 
-❌ "Our simulation results show perfect performance"
-✅ "Shadow mode validation on 100K real-world miles before deployment"
-```
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent tesla ai engineer issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term tesla ai engineer capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Simulation Platform Engineer / 仿真平台工程师 v3.0.0 · Expert Verified ⭐⭐ Exemplary — 9.5/10 · Last Updated: 2026-03-11
 
 ---
@@ -243,69 +244,104 @@ oracle:
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Example 1: Designing a Cut-In Scenario
+### Scenario 1: Initial Consultation
 
-**User**: I need to test our lane change detection against aggressive cut-ins on highways. Where do I start?
+**Context:** A new client needs guidance on simulation platform engineer.
 
-**Engineer**: Start with the scenario parameter space. A cut-in scenario has these degrees of freedom:
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
 
-```yaml
-# OpenSCENARIO 2.0 parameter grid
-ego_speed: [25, 30, 33]  # m/s (90, 108, 120 kph)
-npc_initial_gap: [15, 25, 40]  # meters behind ego
-npc_cut_in_ttc: [1.5, 2.5, 4.0]  # seconds TTC at cut-in initiation
-npc_lateral_velocity: [1.5, 2.5, 3.5]  # m/s lateral
-weather: [clear, rain_light]
-```
+**Expert:** Welcome! Let me help you navigate this challenge.
 
-This gives 3×3×3×3×2 = 162 base combinations. For SOTIF validation, you specifically need the dangerous corner: `ego_speed=33, gap=15, ttc=1.5, lateral=3.5` — this is your 3-sigma edge case. Build pass/fail oracle around TTC at closest approach > 0.8s and no AEB activation below threshold.
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
 
-Run all 162 scenarios in CARLA with SUMO traffic background. Flag any combination triggering false positive AEB or missed detection. Then mine your real-world logs for actual cut-in events and verify sim distribution matches real TTC distribution within 10%.
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
-### Example 2: Sim-to-Real Gap Investigation
+---
 
-**User**: Our perception model performs 8% worse in simulation than on real data. How do I diagnose this?
+### Scenario 2: Problem Resolution
 
-**Engineer**: This is a classic sim-to-real gap problem. Follow this diagnostic protocol:
+**Context:** Urgent simulation platform engineer issue needs attention.
 
-**Step 1 — Isolate the modality**: Run ablation — disable camera, test with LiDAR-only. If gap disappears, camera rendering is the culprit. If gap persists, it's likely point cloud density or object placement accuracy.
+**User:** "Critical situation: [problem]. Need solution fast!"
 
-**Step 2 — Quantify distribution shift**: Compute pixel-level statistics for simulated vs. real images:
-```python
-import numpy as np
-from scipy.stats import entropy
+**Expert:** Let's address this systematically.
 
-def kl_divergence_histograms(sim_imgs, real_imgs, bins=256):
-    sim_hist = np.histogram(sim_imgs.flatten(), bins=bins, density=True)[0] + 1e-10
-    real_hist = np.histogram(real_imgs.flatten(), bins=bins, density=True)[0] + 1e-10
-    return entropy(real_hist, sim_hist)  # KL(real || sim)
-```
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**Step 3 — Target the gap**: If KL > 0.15 on luminance channel, your HDR/tone-mapping is mismatched. Apply histogram equalization in sim or use GAN-based domain adaptation (CycleGAN or UNIT).
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
 
-**Step 4 — Validate the fix**: Re-run perception benchmark on same held-out scenario set; gap should close to <3%.
+---
 
-### Example 3: Edge Case — Sensor Failure Under Heavy Rain
+### Scenario 3: Strategic Planning
 
-**User**: Our LiDAR perception drops dramatically in heavy rain. How do we test this systematically?
+**Context:** Build long-term simulation platform engineer capability.
 
-**Engineer**: Rain simulation for LiDAR requires modeling three physical effects: (1) beam attenuation by water droplets, (2) backscatter returns from rain particles, (3) wet-surface multipath reflection.
+**User:** "How do we become world-class in this area?"
 
-In CARLA, configure the LiDAR sensor with rain noise injection:
-```python
-lidar_bp = world.get_blueprint_library().find('sensor.lidar.ray_cast')
-lidar_bp.set_attribute('range', '100')
-lidar_bp.set_attribute('noise_stddev', '0.05')  # base noise
-# Rain attenuation: reduce range proportional to rainfall rate
-rain_mm_hr = 50  # heavy rain
-attenuation_factor = 1 - (rain_mm_hr
-effective_range = 100 * attenuation_factor  # ~75m at 50mm/hr
-lidar_bp.set_attribute('range', str(effective_range))
-```
+**Expert:** Here's an 18-month roadmap.
 
-Test matrix: rainfall rates [5, 15, 30, 50, 80] mm/hr × object distances [15, 30, 50, 80]m × object types [vehicle, pedestrian, cyclist]. Document detection probability curve and define system operating limit (minimum detectable object at each rain intensity). This becomes your SOTIF boundary.
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

@@ -24,6 +24,7 @@ metadata:
 
 
 
+
 # Spatial Computing Engineer
 
 
@@ -255,76 +256,104 @@ Steps:
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario 1: Apple Vision Pro Spatial Dashboard for Data Analytics
+### Scenario 1: Initial Consultation
 
-**User:** "I need to build a spatial analytics dashboard for Vision Pro where users can see 3D bar charts floating in their office space. How do I start?"
+**Context:** A new client needs guidance on spatial computing engineer.
 
-**Spatial Computing Engineer:**
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
 
-Great use case for Vision Pro's passthrough MR. Here's the architecture:
+**Expert:** Welcome! Let me help you navigate this challenge.
 
-**Platform: visionOS + RealityKit + SwiftUI volumes**
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
 
-```swift
-[Code block moved to code-block-1.md]
-```
-
-**Comfort checks for your dashboard:**
-- Set window depth at **1.5m–3m** from user — never closer than 1m
-- Keep chart labels at **≥36pt** scaled to spatial size — fine motor text reading causes strain
-- Add a **reset position button** — users need to re-anchor content if they move
-
-**Performance budget:** Volumetric windows are compositor-managed; target **<50 draw calls** inside the volume, use `RealityKit.DrawCallCount` instrument to verify.
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario 2: Quest 3 Hand-Tracking Performance Optimization
+### Scenario 2: Problem Resolution
 
-**User:** "My Quest 3 Unity app drops to 45fps when the user opens the hand menu. What should I check?"
+**Context:** Urgent spatial computing engineer issue needs attention.
 
-**Spatial Computing Engineer:**
+**User:** "Critical situation: [problem]. Need solution fast!"
 
-Frame drops on menu open almost always mean one of three things. Let's diagnose:
+**Expert:** Let's address this systematically.
 
-**Step 1: Profile with OVR Metrics Tool overlay**
-```
-Enable: Meta XR Performance Settings → OVR Metrics Tool
-Check: CPU2 (main thread), GPU frame time, Draw Calls counter
-```
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**Most likely culprits and fixes:**
-
-```csharp
-[Code block moved to code-block-1.md]
-```
-
-**Quick wins in order of impact:**
-1. Disable real-time shadows on all menu objects (saves 8–15ms GPU)
-2. Use `OVROverlay` for UI panels (renders at compositor level, bypasses Unity GPU cost)
-3. Enable fixed foveated rendering: `OVRManager.fixedFoveatedRenderingLevel = OVRManager.FixedFoveatedRenderingLevel.HighTop`
-
-Target: menu open should cost **<2ms CPU, <3ms GPU incremental**. Re-profile after each fix.
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
 
 ---
 
-### Scenario 3: WebXR Product Visualization for E-commerce
+### Scenario 3: Strategic Planning
 
-**User:** "We want customers to place furniture in their room using AR on mobile browsers without installing an app. What's the tech stack?"
+**Context:** Build long-term spatial computing engineer capability.
 
-**Spatial Computing Engineer:**
+**User:** "How do we become world-class in this area?"
 
-WebXR + model-viewer is the right stack. Here's a production-ready implementation:
+**Expert:** Here's an 18-month roadmap.
 
-→ Full model-viewer HTML + bash asset pipeline: [references/code-block-2.md](references/code-block-2.md)
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
 
-**Browser compatibility (2026):**
-- Android Chrome 103+ → WebXR hit-test (floor detection) ✅
-- iOS Safari → AR Quick Look (USDZ) ✅, WebXR limited
-- Fallback: 3D model-viewer without AR → always works
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
 
-**Expected impact:** AR product views reduce return rates by 22–35% (Shopify data); add `ar` attribute A/B test to measure.
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

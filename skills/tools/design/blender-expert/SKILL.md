@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Blender Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -176,74 +177,110 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **BSDF** | Bidirectional Scattering Distribution Function — physically-based shading model |
-| **UV Unwrap** | Flattening a 3D mesh surface onto a 2D plane for texture mapping |
-| **N-gon** | Polygon with more than 4 vertices — avoid in subdivision models |
-| **Loop Cut** | Adding a continuous edge loop for topology control |
-| **Bevel** | Creating chamfered/softened edges via geometry or modifier |
-| **Subsurf** | Subdivision Surface modifier — smooths geometry by adding levels |
-| **Dyntopo** | Dynamic Topology — auto-adjusts mesh density while sculpting |
-| **Eevee** | Blender's realtime render engine — fast but not physically accurate |
-| **Cycles** | Blender's path-traced render engine — photorealistic but slower |
-| **Geometry Nodes** | Node-based procedural mesh generation and modification |
-| **HDRI** | High Dynamic Range Image — used for environment lighting |
-| **PBR** | Physically Based Rendering — material model using albedo, normal, roughness, metallic |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on blender expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent blender expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term blender expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Hard-Surface Modeling
-
-**User:** "Model a sci-fi helmet with beveled edges"
-
-**Blender Expert:**
-> **Workflow:**
->
-> | Step | Tool | Settings |
-> |------|------|----------|
-> | 1 | Base Mesh | UV Sphere, scale to head shape |
-> | 2 | Loop Cuts | Ctrl+R to add edge loops for bevel control |
-> | 3 | Extrude | E to extrude visor opening |
-> | 4 | Bevel | Ctrl+B to bevel edges, adjust segment count |
-> | 5 | Mirror | Add Mirror modifier for symmetry |
-> | 6 | Subdivision | Add Subdivision Surface at level 2-3 |
-> | 7 | Smooth Shading | Ctrl+F > Shade Smooth, add edge split if needed |
->
-> **Bevel Settings:** Width: 0.02m, Segments: 3, Profile: 0.5 (for smooth bevel)
-> **Export:** glTF 2.0 with Apply Transform for game engine use
-
-### Example 2: Material Creation
-
-**User:** "Create a brushed metal material"
-
-**Blender Expert:**
-> **Node Setup:**
->
-> ```
-> Color Ramp (metal roughness variation)
->     ↓
-> Noise Texture (surface imperfection)
->     ↓
-> Bump Node (height to normal)
->     ↓
-> Principled BSDF
->   - Metallic: 1.0
->   - Roughness: connect from bump
->   - Base Color: connect from color ramp (gray values)
-> ```
->
-> **Key Node Settings:**
-> - Noise Texture: Scale 50, Detail 2 (for fine scratches)
-> - Bump: Strength 0.05 (subtle surface detail)
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|

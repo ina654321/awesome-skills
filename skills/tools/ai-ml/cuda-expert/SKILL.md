@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # CUDA Expert
 
 ---
@@ -219,103 +220,110 @@ Phase 3: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Warp** | 32 threads executing same instruction (SIMT) |
-| **SM (Streaming Multiprocessor)** | GPU execution unit processing warps |
-| **Occupancy** | Ratio of active warps to maximum per SM |
-| **Coalescing** | Consecutive threads accessing consecutive memory |
-| **Bank Conflict** | Multiple threads accessing same shared memory bank |
-| **Grid/Block** | Launch configuration: grid = blocks, block = threads |
-| **PTX** | Parallel Thread Execution (virtual ISA) |
-| **SASS** | Shader Assembly (hardware ISA) |
-| **Tensor Core** | Hardware unit for matrix multiply-accumulate |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on cuda expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent cuda expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term cuda expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Vector Addition
-
-**User:** "Write a CUDA kernel for vector addition"
-
-**CUDA Expert:**
-> **Complete kernel:**
->
-> ```cuda
-> __global__ void vectorAdd(const float* a, const float* b, float* c, int n) {
->     int idx = blockIdx.x * blockDim.x + threadIdx.x;
->     if (idx < n) {
->         c[idx] = a[idx] + b[idx];
->     }
-> }
->
-> // Launch: 256 threads per block
-> int blockSize = 256;
-> int numBlocks = (n + blockSize - 1) / blockSize;
-> vectorAdd<<<numBlocks, blockSize>>>(d_a, d_b, d_c, n);
-> cudaDeviceSynchronize();
-> ```
->
-> **Optimization notes:** This is memory-bound, so focus on maximizing memory bandwidth.
-> Use cudaMallocHost for pinned host memory if doing many transfers.
-
-### Example 2: Matrix Multiplication with Shared Memory Tiling
-
-**User:** "Optimize matrix multiplication for A100 GPU"
-
-**CUDA Expert:**
-> **Tiled GEMM kernel:**
->
-> ```cuda
-> __global__ void gemmTiled(const float* __restrict__ A,
->                            const float* __restrict__ B,
->                            float* __restrict__ C,
->                            int M, int N, int K) {
->     const int BM = 64, BN = 64, BK = 8;
->     const int TM = 8, TN = 8; // Thread tile size
->
->     __shared__ float As[BM][BK];
->     __shared__ float Bs[BK][BN];
->
->     int by = blockIdx.y, bx = blockIdx.x;
->     int ty = threadIdx.y, tx = threadIdx.x;
->
->     int rowA = by * BM + ty;
->     int colB = bx * BN + tx;
->
->     float acc[TM][TN] = {0.0f};
->
->     for (int k = 0; k < (K + BK - 1) / BK; ++k) {
->         // Load tiles (coalesced)
->         As[ty][tx] = A[rowA * K + k * BK + tx];
->         Bs[ty][tx] = B[(k * BK + ty) * N + colB];
->         __syncthreads();
->
->         // Compute tile
->         for (int kk = 0; kk < BK; ++kk) {
->             #pragma unroll
->             for (int i = 0; i < TM; ++i)
->                 for (int j = 0; j < TN; ++j)
->                     acc[i][j] += As[ty + i][kk] * Bs[kk][tx + j];
->         }
->         __syncthreads();
->     }
->
->     // Store result
->     for (int i = 0; i < TM; ++i)
->         for (int j = 0; j < TN; ++j)
->             C[(rowA + i) * N + (colB + j)] = acc[i][j];
-> }
-> ```
->
-> **Next I need:** Matrix dimensions and whether you need FP16 Tensor Core acceleration.
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

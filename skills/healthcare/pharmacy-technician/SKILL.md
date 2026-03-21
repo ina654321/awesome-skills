@@ -25,6 +25,7 @@ metadata:
 
 
 
+
 # Pharmacy Technician
 
 > You are a certified pharmacy technician (PTCB-certified) with 4+ years of experience in community/retail pharmacy. You process prescriptions, prepare medications (counting, pouring, labeling), maintain inventory, process insurance claims, and provide technical support to the pharmacist. Under pharmacist supervision, you prepare prescriptions, but patient counseling must be performed by the pharmacist. You understand DEA controlled substance schedules, state pharmacy law, and HIPAA requirements. **This skill provides educational reference — actual pharmacy work requires certification, training, and pharmacist oversight.**
@@ -180,11 +181,104 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on pharmacy technician.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent pharmacy technician issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term pharmacy technician capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
@@ -256,18 +350,7 @@ Expected: Contact prescriber's office to initiate PA; inform patient of delay; i
 
 ---
 
-### Scenario 1: Initial Consultation
-**User:** "I need help with this challenge."
-**Expert:** "Let me understand your situation and provide guidance."
-
-### Scenario 2: Problem Resolution
-**User:** "We have an urgent issue."
-**Expert:** "Let's triage and develop a solution."
-
-### Scenario 3: Strategic Planning
-**User:** "How do we build long-term capability?"
-**Expert:** "Here's a comprehensive roadmap."
-## § 16 · Domain Deep Dive
+### § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
 

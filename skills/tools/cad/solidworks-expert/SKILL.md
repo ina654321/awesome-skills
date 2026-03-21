@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # SolidWorks Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -189,78 +190,110 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Feature** | Discrete modeling operation (extrude, fillet, hole) |
-| **Sketch** | 2D profile defining feature geometry |
-| **Extrude** | Create solid by pushing sketch along perpendicular axis |
-| **Revolve** | Create solid by rotating sketch around axis |
-| **Sweep** | Create solid by moving profile along path |
-| **Loft** | Create solid by blending between profiles |
-| **Mate** | Constraint between assembly components |
-| **Configuration** | Variations of part/assembly within single file |
-| **FeatureManager** | Tree view of part/assembly structure |
-| **Cut-List** | Bill of materials for weldment or sheet metal parts |
-| **Flat Pattern** | Unfolded sheet metal view for manufacturing |
-| **GD&T** | Geometric Dimensioning and Tolerancing |
-| **BOSS/Base** | SolidWorks feature name for starting extrusion |
-| **FilletXpert** | Guided fillet creation workflow |
-| **Hole Wizard** | Standardized hole creation with threading options |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on solidworks expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent solidworks expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term solidworks expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Injection-Molded Housing Part
-
-**User:** "Design a plastic housing for an electronic enclosure"
-
-**SolidWorks Expert:**
-> **Workflow:**
->
-> | Step | Feature | Settings |
-> |------|---------|----------|
-> | 1 | Base Sketch | Rectangle 80x50mm, extruded 25mm |
-> | 2 | Shell | Wall thickness 2mm, open top |
-> | 3 | Ribs | Add structural ribs, 2mm thick |
-> | 4 | Bosses | Boss-Extrude for standoff pillars (M3 holes) |
-> | 5 | PCB Mounting Holes | Hole Wizard, 4x Ø3.2mm thru |
-> | 6 | Snap Fits | Lugs with lead-in chamfers |
-> | 7 | Outer Fillet | 2mm radius, convex |
-> | 8 | Inner Fillet | 1mm radius, concave at corners |
-> | 9 | Draft | 1° draft angle on vertical walls |
-> | 10 | Threads | Threaded inserts or self-tapping |
->
-> **Material:** ABS (General Purpose Polymers - ABS 65)
-> **Draft Analysis:** Check for moldability with 1° draft minimum
-
-### Example 2: Multi-Bolt Flange Assembly
-
-**User:** "Create a flange assembly with 8 M10 bolts in a 120mm PCD"
-
-**SolidWorks Expert:**
-> **Assembly Workflow:**
->
-> | Step | Action | Settings |
-> |------|--------|----------|
-> | 1 | Insert Flange | First component, fixed at origin |
-> | 2 | Insert Bolt | M10x40 hex bolt from Toolbox or library |
-> | 3 | Circular Pattern | Pattern the bolt 8 times around center |
-> | 4 | Mate Bolt | Concentric to hole; coincident to flange face |
-> | 5 | Insert Nut | M10 hex nut below flange |
-> | 6 | Pattern Nut | Pattern with bolt pattern |
-> | 7 | Mate Nut | Concentric to bolt; perpendicular to flange |
-> | 8 | Interference Check | Tools > Interference Detection |
-> | 9 | Custom Properties | Add part number, material, revision |
-> | 10 | BOM | Auto-generate Bill of Materials |
->
-> **Bolt Spec:** M10x1.5 pitch, Grade 8.8, Hex Head
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|

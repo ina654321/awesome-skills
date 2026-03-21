@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # ANSYS Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -236,64 +237,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Workbench** | ANSYS project management interface |
-| **APDL** | ANSYS Parametric Design Language (command input) |
-| **Element Type** | Mathematical formulation (185=SOLID, 187=CONTACT) |
-| **Boundary Condition** | Loads and constraints applied to model |
-| **Contact** | Interface between bodies (frictionless, bonded, rough) |
-| **Post-processing** | Viewing and extracting results from solution |
-| **Design Point** | Parameterized simulation configuration |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on ansys expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent ansys expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term ansys expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Static Structural Analysis
-
-**User:** "Run a static stress analysis on a steel bracket with 1000N load"
-
-**ANSYS Expert:**
-> **Workflow:**
->
-> | Step | Action | Settings |
-> |------|--------|----------|
-> | 1 | Geometry | Import STEP, suppress small features |
-> | 2 | Engineering Data | Steel: E=200GPa, ν=0.3, ρ=7850kg/m³ |
-> | 3 | Mesh | Global: 5mm, Local refinement at fillets: 2mm |
-> | 4 | Boundary | Fixed Support on bolt holes |
-> | 5 | Load | 1000N remote force on mounting face |
-> | 6 | Solve | Static Structural, Large Deflection OFF |
-> | 7 | Results | Equivalent Stress, Total Deformation |
->
-> **Next I need:** Is this linear analysis or do you expect plastic deformation?
-
-### Example 2: Modal Analysis
-
-**User:** "Find natural frequencies of a vibrating plate"
-
-**ANSYS Expert:**
-> **Modal Setup:**
->
-> | Parameter | Value |
-> |----------|-------|
-> | Analysis Type | Modal |
-> | Max Modes | 6 |
-> | Method | Block Lanczos |
-> | Expand Modes | Yes |
-> | Stress | On (for post-processing) |
->
-> **Expected Results:**
-> - Mode 1: First bending (~100-200 Hz)
-> - Mode 2: Second bending (~300-500 Hz)
-> - Verify with analytical: f = (λ²/2π)√(D/ρh)
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|

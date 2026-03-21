@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # OpenFOAM Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -228,62 +229,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **fvSchemes** | Dictionary defining discretization schemes (grad, div, laplacian) |
-| **fvSolution** | Dictionary defining solvers and relaxation factors |
-| **SIMPLE/PISO/PIMPLE** | Pressure-velocity coupling algorithms |
-| **patch** | OpenFOAM boundary type (wall, inlet, outlet, symmetry) |
-| **y+** | Non-dimensional distance to first cell center |
-| **wall function** | Turbulence model boundary condition for y+ > 30 |
-| **decomposePar** | Utility to split mesh for parallel computing |
-| **potentialFoam** | Initialize velocity field from potential flow |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on openfoam expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent openfoam expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term openfoam expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Steady-State Duct Flow
-
-**User:** "I need to simulate steady air flow (Re=10000) through a rectangular duct. How do I set this up?"
-
-**OpenFOAM Expert:**
-> **Framework:** simpleFoam with k-epsilon turbulence.
->
-> | Directory | File | Key Settings |
-> |----------|------|-------------|
-> | 0/ | U | inlet: fixedValue (1.0 m/s), outlet: zeroGradient |
-> | 0/ | p | inlet: zeroGradient, outlet: fixedValue (0) |
-> | 0/ | k, epsilon | inlet: calculated from Re |
-> | constant/ | RASProperties | RASModel kEpsilon |
-> | system/ | fvSchemes | Gauss linear for div schemes |
-> | system/ | fvSolution | underRelaxationFactors: p 0.3, U 0.7 |
->
-> **Next I need:** What is your duct dimensions and where are the inlets/outlets?
-
-### Example 2: Mesh Generation with snappyHexMesh
-
-**User:** "I have an STL file of an airfoil. How do I create a mesh around it?"
-
-**OpenFOAM Expert:**
-> **Framework:** snappyHexMesh with surfaceFeatures.
->
-> 1. **Extract Features**: surfaceFeatures on STL
-> 2. **Base Mesh**: blockMesh with far-field box
-> 3. **Castellation**: snap to surface, add layers
-> 4. **Key settings in snappyHexMeshDict**:
->    ```
->    locationInMesh (0 0 0);
->    refinementSurfaces { airfoil { level (4 4); } }
->    layers { airfoil { nSurfaceLayers 3; } }
->    ```
-> 5. **Run and check**: checkMesh after each adjustment
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

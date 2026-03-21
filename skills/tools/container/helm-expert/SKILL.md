@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Helm Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -259,149 +260,110 @@ helm test myrelease -n mynamespace
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Chart** | Package of Kubernetes resources (Helm's unit of deployment) |
-| **Release** | Deployed instance of a chart in a cluster |
-| **Values** | Configuration that customizes chart templates |
-| **Template** | Go template file in `templates/` directory |
-| **Named Template** | Reusable template block defined with `{{ define }}` |
-| **Hook** | Kubernetes Job/Job that runs during Helm lifecycle |
-| **Library Chart** | Chart containing only shared templates (no resources) |
-| **Subchart** | Chart dependency included via Chart.yaml |
-| **Helmfile** | Declarative configuration for managing multiple releases |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on helm expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent helm expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term helm expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Creating a Production-Ready Chart
-
-**User:** "Create a Helm chart for a Python Flask API with PostgreSQL dependency, health checks, and production configuration."
-
-**Helm Expert:**
-> **Framework:** Complete chart with dependency, named templates, and environment overrides.
->
-> **Structure:**
-> ```
-> flask-api/
-> ├── Chart.yaml
-> ├── values.yaml
-> ├── values.prod.yaml
-> ├── values.dev.yaml
-> ├── templates/
-> │   ├── _helpers.tpl
-> │   ├── deployment.yaml
-> │   ├── service.yaml
-> │   ├── ingress.yaml
-> │   ├── configmap.yaml
-> │   ├── hpa.yaml
-> │   └── tests/
-> │       └── test-connection.yaml
-> └── .helmignore
-> ```
->
-> **Commands:**
-> ```bash
-> # Create chart
-> helm create flask-api
->
-> # Add dependency
-> helm dependency build ./flask-api
->
-> # Install with overrides
-> helm upgrade --install flask-api ./flask-api \
->   -n production \
->   -f ./flask-api/values.prod.yaml \
->   --wait --timeout 10m
-> ```
-
-### Example 2: Helmfile for Multi-Environment Deployments
-
-**User:** "How do I manage the same chart across dev, staging, and production environments?"
-
-**Helm Expert:**
-> **Framework:** Helmfile with environment-specific values and releases.
->
-> ```yaml
-> # helmfile.yaml
-> environments:
->   dev:
->     values:
->       - values.dev.yaml
->   staging:
->     values:
->       - values.staging.yaml
->   prod:
->     values:
->       - values.prod.yaml
->
-> releases:
->   - name: myapp
->     chart: ./charts/myapp
->     version: ~1.0.0
->     values:
->       - values.common.yaml
->       - {{ environment }}.yaml
->     secrets:
->       - {{ environment }}-secrets.gpg
->     namespaces:
->       - myapp-{{ environment }}
->
->   - name: postgresql
->     chart: bitnami/postgresql
->     version: 12.x.x
->     values:
->       - values.common.yaml
->       - {{ environment }}.yaml
-> ```
->
-> ```bash
-> # Deploy to environment
-> helmfile -e prod apply
->
-> # Diff before applying
-> helmfile -e prod diff
-> ```
-
-### Example 3: Writing Helm Tests
-
-**User:** "How do I write automated tests for my Helm chart?"
-
-**Helm Expert:**
-> **Framework:** Helm unittest plugin with Go test templates.
->
-> **templates/tests/test-connection.yaml:**
-> ```yaml
-> apiVersion: v1
-> kind: Pod
-> metadata:
->   name: "{{ include "myapp.fullname" . }}-test-connection"
->   labels:
->     {{- include "myapp.labels" . | nindent 4 }}
->   annotations:
->     "helm.sh/hook": test
->     "helm.sh/hook-delete-policy": before-hook-creation,hook-succeeded
-> spec:
->   restartPolicy: Never
->   containers:
->     - name: wget
->       image: curlimages/curl:latest
->       command: ['sh', '-c', 'wget --spider --timeout=5 {{ include "myapp.fullname" . }}:{{ .Values.service.port }}/health || exit 1']
-> ```
->
-> **Run tests:**
-> ```bash
-> helm test myrelease -n mynamespace
-> # or with unittest plugin
-> helm unittest ./mychart
-> ```
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

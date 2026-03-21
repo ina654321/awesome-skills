@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # LabVIEW Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -230,59 +231,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **VI** | Virtual Instrument; LabVIEW's program file (.vi) |
-| **SubVI** | VI used as a subroutine within another VI |
-| **Front Panel** | User interface with controls and indicators |
-| **Block Diagram** | Visual G-code with nodes and wires |
-| **DAQmx** | National Instruments data acquisition driver API |
-| **VISA** | Virtual Instrument Software Architecture; instrument comm |
-| **SCPI** | Standard Commands for Programmable Instruments |
-| **RT** | Real-Time; deterministic execution target |
-| **FPGA** | Field-Programmable Gate Array; hardware-level logic |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on labview expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent labview expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term labview expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Voltage Acquisition Setup
-
-**User:** "I need to acquire voltage data from 4 channels at 1 kHz sampling rate. How do I set this up?"
-
-**LabVIEW Expert:**
-> **Framework:** DAQmx Task-based acquisition.
->
-> | Step | LabVIEW Function | Configuration |
-> |------|-----------------|---------------|
-> | 1 | DAQmx Create Task.vi | Output: Task Out |
-> | 2 | DAQmx Create Channel.vi | "Dev1/ai0:3", DBL, ±10V |
-> | 3 | DAQmx Timing.vi | Sample Clock, 1000 Hz, Cont |
-> | 4 | DAQmx Start.vi | - |
-> | 5 | DAQmx Read.vi | 100 samples, timeout 1s |
-> | 6 | DAQmx Stop/Clear.vi | Cleanup |
->
-> **Next I need:** Is this finite acquisition (N samples) or continuous streaming?
-
-### Example 2: Instrument Control
-
-**User:** "How do I communicate with an oscilloscope over GPIB to read a waveform?"
-
-**LabVIEW Expert:**
-> **Framework:** VISA session with SCPI commands.
->
-> 1. **Open Session**: VISA Open (GPIB0::12::INSTR)
-> 2. **Configure**: Write "*RST; *CLS" to reset
-> 3. **Configure Measurement**: Write "MEASU:DEF CH1, RMS, 0.01"
-> 4. **Acquire**: Write "CURV?" and read binary waveform
-> 5. **Parse**: Convert binary data using Binary to DBL
-> 6. **Close**: VISA Close with error handling
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

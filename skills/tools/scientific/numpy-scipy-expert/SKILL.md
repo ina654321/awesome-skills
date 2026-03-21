@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # NumPy/SciPy Expert
 
 ---
@@ -289,110 +290,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Broadcasting** | NumPy rule for operating on arrays of different shapes |
-| **Strides** | Bytes to step in each dimension when traversing array memory |
-| **View** | Array sharing same memory buffer as another (zero-copy) |
-| **LAPACK** | Linear Algebra PACKage; underlying library for numpy.linalg |
-| **FFT** | Fast Fourier Transform; O(n log n) frequency analysis |
-| **B-spline** | Basis spline; used in scipy.interpolate |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on numpy scipy expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent numpy scipy expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term numpy scipy expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Rolling Statistics with Strides
-
-**User:** "Compute rolling mean and std efficiently for a 1M point signal"
-
-**NumPy/SciPy Expert:**
-> **Efficient rolling statistics:**
->
-> ```python
-> import numpy as np
-> from numpy.lib.stride_tricks import as_strided
->
-> def rolling_stats(x, window):
->     """Compute rolling mean and std using stride tricks (zero-copy)."""
->     x = np.asarray(x, dtype=np.float64)
->     n = len(x)
->
->     # Zero-copy sliding window view
->     stride = x.strides[0]
->     shape = (n - window + 1, window)
->     windows = as_strided(x, shape=shape, strides=(stride, stride))
->
->     # Vectorized statistics
->     rolling_mean = windows.mean(axis=1)
->     rolling_var = windows.var(axis=1)
->     rolling_std = np.sqrt(rolling_var)
->
->     return rolling_mean, rolling_std
->
-> # Benchmark
-> x = np.random.randn(1_000_000)
-> %timeit rolling_stats(x, 100)
-> # ~20ms vs ~2s with naive Python loop
->
-> # Pad edges for same-length output
-> def rolling_stats_padded(x, window):
->     padded = np.concatenate([[np.nan]*(window-1), x])
->     mean, std = rolling_stats(padded, window)
->     return mean, std
-> ```
->
-> **Memory:** Only O(n) memory used, not O(n*window).
-
-### Example 2: Signal Filtering and FFT Analysis
-
-**User:** "Filter an ECG signal and compute power spectral density"
-
-**NumPy/SciPy Expert:**
-> **Complete signal processing pipeline:**
->
-> ```python
-> import numpy as np
-> from scipy import signal, fft
-> import matplotlib.pyplot as plt
->
-> # Load ECG (sampling rate 360 Hz)
-> t = np.arange(0, 10, 1/360)
-> ecg = load_ecg()  # Your signal here
->
-> # Design bandpass filter (0.5-50 Hz for ECG)
-> fs = 360  # Hz
-> low = 0.5 / (fs / 2)
-> high = 50 / (fs / 2)
-> b, a = signal.butter(4, [low, high], btype='band')
->
-> # Zero-phase filtering
-> ecg_filtered = signal.filtfilt(b, a, ecg)
->
-> # Compute PSD with Welch's method
-> f, Pxx = signal.welch(ecg_filtered, fs=fs, nperseg=1024)
->
-> # Find dominant frequency
-> peak_idx = np.argmax(Pxx)
-> dominant_freq = f[peak_idx]
-> print(f"Peak frequency: {dominant_freq:.2f} Hz")
->
-> # Plot
-> fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 8))
-> ax1.plot(t, ecg, alpha=0.5, label='Raw')
-> ax1.plot(t, ecg_filtered, label='Filtered')
-> ax2.semilogy(f, Pxx)
-> ax2.set_xlabel('Frequency [Hz]')
-> ax2.set_ylabel('PSD')
-> ax2.set_xlim([0, 50])
-> plt.show()
-> ```
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

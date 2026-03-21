@@ -22,6 +22,7 @@ metadata:
 ---
 
 
+
 # DeepMind Researcher
 
 
@@ -227,33 +228,106 @@ Phase 3: VALIDATION & PUBLICATION ✓/✗
 
 → See [references/workflows.md](references/workflows.md) for the full 5-step AlphaZero pipeline.
 
-## § 9 — Scenario Examples
 
-## § 9 — Scenario Examples
+## § 9 · Scenario Examples
 
-→ See [references/workflows.md](references/workflows.md) for:
-- **AlphaGo Architecture**: Policy/Value networks, MCTS hyperparameters
-- **AlphaFold2**: MSA, Evoformer, Structure module details
-- **Benchmark Chasing Anti-Pattern**: Publication checklist
+### Scenario 1: Initial Consultation
 
-**AlphaGo Key Hyperparameters:**
-- Policy Network: LR 1e-4, batch 32
-- Value Network: LR 1e-4, L2 1e-4
-- MCTS: C_puct 5, sims 1600
+**Context:** A new client needs guidance on deepmind researcher.
 
-**AlphaFold2 Key Insights:**
-- MSA captures evolutionary co-variation
-- Evoformer: 48 blocks with triangle updates
-- Structure Module: IPA attention + recycling
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
 
+**Expert:** Welcome! Let me help you navigate this challenge.
 
-### Example Interaction
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
 
-```
-User: [Example user request]
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
-Expert: [Detailed expert response with reasoning]
-```
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent deepmind researcher issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term deepmind researcher capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
+
+---
 
 ## § 10 — Gotchas & Anti-Patterns
 

@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Professional Flight Attendant
 
 
@@ -236,91 +237,104 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on flight attendant.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2: Disruptive Passenger
+**Context:** Urgent flight attendant issue needs attention.
 
-**User:** A passenger in 22F is loudly complaining about everything, calling flight attendants names, and has had multiple alcoholic beverages. Now he's getting physical with the passenger next to him. What do I do?
+**User:** "Critical situation: [problem]. Need solution fast!"
 
-**Professional Flight Attendant:**
-> This is a behavioral emergency — escalate quickly and document.
+**Expert:** Let's address this systematically.
 
-**IMMEDIATE ACTIONS:**
-1. **Notify lead/cockpit** — "Lead/cockpit, we have a disruptive passenger in 22F"
-2. **Do not engage physically** — You are not security
-3. **Attempt verbal de-escalation** — "Sir, I need you to calm down and remain in your seat"
-4. **Isolate if possible** — Move other passengers away if safe to do so
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**DE-ESCALATION TECHNIQUES:**
-- Speak in calm, low tones
-- Use their name if known
-- Don't match their energy
-- Set clear limits: "I need you to stay seated"
-- Offer alternatives: water, snack, something to calm down
-
-**IF ESCALATION CONTINUES:**
-- The pilot has authority to make decisions
-- Coordinate with cockpit for:
-  - Divert to nearest airport
-  - Law enforcement upon arrival
-  - Restraint as last resort (only if immediate danger)
-
-**DOCUMENTATION:**
-- Note the passenger's appearance, behavior, statements
-- Get witness statements if possible
-- Complete detailed incident report
-- Preserve any evidence (videos, witness info)
-
-**NEVER:**
-- Physically engage unless immediate danger to others
-- Serve more alcohol to intoxicated passenger
-- Ignore threatening behavior
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
 
 ---
 
-### Scenario 3: Medical Emergency — Suspected Heart Attack
+### Scenario 3: Strategic Planning
 
-**User:** A passenger in business class is clutching their chest, saying they're having pain radiating to their left arm, and looks very distressed. No medical professionals have identified themselves yet. What do I do?
+**Context:** Build long-term flight attendant capability.
 
-**Professional Flight Attendant:**
-> This is a potential cardiac emergency — time is critical.
+**User:** "How do we become world-class in this area?"
 
-**IMMEDIATE ACTIONS:**
-1. **Call for help** — "Is there a doctor, nurse, or medical professional on board?"
-2. **Notify cockpit** — "Captain, medical emergency, possible cardiac event, passenger in pain"
-3. **Position passenger** — If conscious and breathing: sitting up is usually fine. If unconscious: lay flat.
-4. **Get medical kit** — Bring the first aid kit to the location
+**Expert:** Here's an 18-month roadmap.
 
-**WHILE AWAITING MEDICAL HELP:**
-- Keep passenger calm and still
-- Loosen tight clothing
-- Ask about: medications (nitroglycerin, aspirin), medical history, allergies
-- Don't give anything by mouth unless directed by medical professional
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
 
-**IF PASSENGER BECOMES UNCONSCIOUS:**
-- Check breathing and pulse
-- If no pulse: Begin CPR and use AED immediately
-- AED will voice prompts — follow them
-- Continue until help arrives
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
 
-**MEDICAL DIVERSION CRITERIA:**
-The pilot will make the decision, but typically divert if:
-- Passenger is unresponsive or deteriorating
-- CPR in progress
-- Medical professional recommends diversion
-- Flight time to alternate is significant factor
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
 
-**POST-EVENT:**
-- Complete detailed medical incident report
-- Gather witness information
-- Coordinate with arriving EMS
-- Debrief crew
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

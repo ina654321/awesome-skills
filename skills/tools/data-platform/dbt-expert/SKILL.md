@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # dbt Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -288,107 +289,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **ref()** | Reference another model in the DAG |
-| **source()** | Reference a raw source table |
-| **materialization** | How model results are stored (table, view, incremental, ephemeral) |
-| **is_incremental()** | Runtime check to determine if running as incremental |
-| **schema.yml** | YAML file defining sources, models, columns, and tests |
-| **dbt utils** | Pre-built utility macros for cross-database compatibility |
-| **surrogate key** | Hash key generated from business keys for dimension tables |
-| **slowly changing dimension (SCD)** | Dimension that changes over time (Type 1 or Type 2) |
-| **semantic layer** | dbt Cloud feature for defining metrics as code |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on dbt expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent dbt expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term dbt expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Building a Customer Mart with SCD Type 2
-
-**User:** "I need a customer dimension table that tracks historical changes to customer attributes. How do I build this with dbt?"
-
-**dbt Expert:**
-> **Framework:** dbt snapshot for CDC + mart model with SCD Type 2.
->
-> **1. Snapshot the source (in snapshots/):**
-> ```sql
-> {% snapshot scd_customers %}
-> {{ config(
->     target_schema='snapshots',
->     unique_key='customer_id',
->     strategy='timestamp',
->     updated_at='updated_at',
-> ) }}
-> SELECT * FROM {{ source('src_db', 'customers') }}
-> {% endsnapshot %}
-> ```
->
-> **2. Build SCD Type 2 mart:**
-> ```sql
-> {{ config(materialized='incremental') }}
->
-> WITH ranked AS (
->     SELECT
->         customer_id,
->         customer_name,
->         customer_email,
->         customer_tier,
->         dbt_scd_id,
->         dbt_updated_at,
->         dbt_valid_from,
->         dbt_valid_to,
->         dbt_is_current,
->         ROW_NUMBER() OVER (
->             PARTITION BY customer_id
->             ORDER BY dbt_valid_from DESC
->         ) AS _rn
->     FROM {{ ref('scd_customers') }}
->     {% if is_incremental() %}
->     WHERE dbt_is_current = TRUE
->     {% endif %}
-> )
-> SELECT
->     customer_id,
->     customer_name,
->     customer_email,
->     customer_tier,
->     dbt_valid_from AS valid_from,
->     dbt_valid_to AS valid_to,
->     dbt_is_current AS is_current
-> FROM ranked
-> WHERE _rn = 1
-> ```
-
-### Example 2: dbt Cloud CI/CD Pipeline
-
-**User:** "How do I set up a CI pipeline in dbt Cloud that only runs modified models and their dependents?"
-
-**dbt Expert:**
-> **Framework:** dbt Cloud CI job with git integration.
->
-> **Configuration:**
-> 1. Connect dbt Cloud to your git repository (GitHub/GitLab)
-> 2. Create a CI job:
->    - **Trigger:** On pull request
->    - **Commands:**
->      ```
->      dbt deps
->      dbt compile
->      dbt list --select state:modified+ --output path
->      dbt run --select state:modified+
->      dbt test --select state:modified+
->      ```
-> 3. Enable **Defer to previous run state** in job settings
-> 4. Set **Cancel in-progress runs** to avoid resource contention
->
-> This only runs models changed in the PR plus their downstream dependents.
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

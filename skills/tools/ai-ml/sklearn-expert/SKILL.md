@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Scikit-learn Expert
 
 ---
@@ -287,115 +288,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Pipeline** | Chained transformers and estimator with fit/predict API |
-| **ColumnTransformer** | Apply different transformers to different column groups |
-| **Cross-Validation** | Split data into folds; train on some, validate on others |
-| **GridSearchCV** | Exhaustively search hyperparameter grid |
-| **RandomizedSearchCV** | Sample from hyperparameter distributions |
-| **Feature Importance** | Measure of each feature's contribution to prediction |
-| **class_weight** | Weight samples inversely proportional to class frequency |
-| **partial_fit** | Incremental learning for large datasets |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on sklearn expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent sklearn expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term sklearn expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Customer Churn Prediction
-
-**User:** "Build a churn prediction model with sklearn"
-
-**Scikit-learn Expert:**
-> **Complete pipeline:**
->
-> ```python
-> from sklearn.pipeline import Pipeline
-> from sklearn.compose import ColumnTransformer
-> from sklearn.preprocessing import StandardScaler, OneHotEncoder
-> from sklearn.impute import SimpleImputer
-> from sklearn.ensemble import GradientBoostingClassifier
-> from sklearn.model_selection import cross_val_score, StratifiedKFold
->
-> # Define features
-> numeric = ['tenure', 'monthly_charges', 'total_charges', 'num_support_calls']
-> categorical = ['contract_type', 'internet_service', 'payment_method']
->
-> # Preprocessor
-> preprocessor = ColumnTransformer([
->     ('num', Pipeline([
->         ('imputer', SimpleImputer(strategy='median')),
->         ('scaler', StandardScaler())
->     ]), numeric),
->     ('cat', OneHotEncoder(handle_unknown='ignore'), categorical)
-> ])
->
-> # Pipeline
-> churn_pipeline = Pipeline([
->     ('preprocessor', preprocessor),
->     ('classifier', GradientBoostingClassifier(
->         n_estimators=200,
->         learning_rate=0.1,
->         max_depth=5,
->         random_state=42
->     ))
-> ])
->
-> # Stratified CV (important for imbalanced churn ~26%)
-> cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-> cv_scores = cross_val_score(churn_pipeline, X, y, cv=cv, scoring='roc_auc')
-> print(f"CV ROC-AUC: {cv_scores.mean():.3f} ± {cv_scores.std():.3f}")
->
-> churn_pipeline.fit(X_train, y_train)
-> ```
->
-> **Next I need:** Class imbalance ratio and acceptable false positive rate.
-
-### Example 2: Time Series Feature Engineering
-
-**User:** "Prepare time series data for sklearn regression"
-
-**Scikit-learn Expert:**
-> **Time series pipeline:**
->
-> ```python
-> import numpy as np
-> from sklearn.base import BaseEstimator, TransformerMixin
->
-> class TimeSeriesFeatureExtractor(BaseEstimator, TransformerMixin):
->     def __init__(self, target_col, lag_features=[1, 7, 30], window_sizes=[7, 30]):
->         self.target_col = target_col
->         self.lag_features = lag_features
->         self.window_sizes = window_sizes
->
->     def fit(self, X, y=None):
->         return self
->
->     def transform(self, X):
->         X = X.copy()
->         for lag in self.lag_features:
->             X[f'lag_{lag}'] = X[self.target_col].shift(lag)
->         for w in self.window_sizes:
->             X[f'rolling_mean_{w}'] = X[self.target_col].rolling(w).mean()
->             X[f'rolling_std_{w}'] = X[self.target_col].rolling(w).std()
->         X['date_month'] = X['date'].dt.month
->         X['date_dayofweek'] = X['date'].dt.dayofweek
->         return X.fillna(0)
->
-> ts_pipeline = Pipeline([
->     ('extractor', TimeSeriesFeatureExtractor(target_col='sales')),
->     ('preprocessor', StandardScaler()),
->     ('regressor', ElasticNetCV(l1_ratio=[0.1, 0.5, 0.9]))
-> ])
-> ```
->
-> **Next I need:** Target variable and prediction horizon.
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

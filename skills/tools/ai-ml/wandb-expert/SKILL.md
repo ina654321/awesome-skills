@@ -20,6 +20,7 @@ metadata:
 ---
 
 
+
 # W&B Expert
 
 ---
@@ -277,131 +278,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Run** | Single execution of training with specific config and logged metrics |
-| **Project** | Collection of related runs |
-| **Artifact** | Versioned object (dataset, model, checkpoint) |
-| **Sweep** | Automated hyperparameter search across multiple runs |
-| **Summary Metrics** | Final values logged per run (used for comparison) |
-| **wandb.log** | Record metrics during training at specific step |
-| **Weave** | W&B's lightweight observability framework for LLM apps |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on wandb expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent wandb expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term wandb expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: End-to-End PyTorch Training
-
-**User:** "Track my PyTorch training with W&B, log GPU memory, and save the best model"
-
-**W&B Expert:**
-> **Complete integration:**
->
-> ```python
-> import wandb
-> import torch
-> import torchvision.models as models
->
-> wandb.init(
->     project="image-classification",
->     name="efficientnet-b0-baseline",
->     config={
->         "model": "efficientnet_b0",
->         "dataset": "CIFAR-10",
->         "epochs": 50,
->         "batch_size": 128,
->         "lr": 0.001,
->         "weight_decay": 1e-4,
->     },
->     tags=["baseline", "cifar10"],
->
-> )
->
-> model = models.efficientnet_b0(weights="IMAGENET1K_V1")
-> model.classifier[-1] = torch.nn.Linear(model.classifier[-1].in_features, 10)
->
-> optimizer = torch.optim.AdamW(model.parameters(), lr=wandb.config.lr, weight_decay=wandb.config.weight_decay)
-> scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=50)
-> criterion = torch.nn.CrossEntropyLoss()
->
-> wandb.watch(model, log="all", log_freq=100)
->
-> best_acc = 0.0
-> for epoch in range(50):
->     train_loss, train_acc = train_epoch(model, train_loader, criterion, optimizer)
->     val_loss, val_acc = eval_epoch(model, val_loader, criterion)
->     scheduler.step()
->
->     wandb.log({
->         "train/loss": train_loss,
->         "train/accuracy": train_acc,
->         "val/loss": val_loss,
->         "val/accuracy": val_acc,
->         "lr": optimizer.param_groups[0]["lr"],
->         "gpu_memory_gb": torch.cuda.max_memory_allocated() / 1e9,
->     })
->
->     if val_acc > best_acc:
->         best_acc = val_acc
->         torch.save(model.state_dict(), "best_model.pt")
->         wandb.save("best_model.pt")
->
-> print(f"Best validation accuracy: {best_acc:.4f}")
-> wandb.finish()
-> ```
-
-### Example 2: Sweep for Hyperparameter Optimization
-
-**User:** "Run a Bayesian sweep for hyperparameter tuning of my LangChain app"
-
-**W&B Expert:**
-> **Sweep setup:**
->
-> ```python
-> # sweep_config.py
-> sweep_config = {
->     "method": "bayes",
->     "metric": {"name": "eval/success_rate", "goal": "maximize"},
->     "parameters": {
->         "temperature": {"min": 0.0, "max": 1.0},
->         "max_tokens": {"min": 50, "max": 500},
->         "top_p": {"min": 0.5, "max": 1.0},
->         "retriever_top_k": {"values": [3, 5, 10, 20]},
->         "chunk_size": {"values": [256, 512, 1024]},
->     }
-> }
->
-> sweep_id = wandb.sweep(sweep_config, project="rag-optimization", entity="my-team")
->
-> def train():
->     wandb.init()
->     config = wandb.config
->
->     rag_pipeline = build_rag_pipeline(
->         chunk_size=config.chunk_size,
->         retriever_top_k=config.retriever_top_k,
->     )
->
->     results = evaluate_rag(rag_pipeline, eval_dataset)
->
->     wandb.log({
->         "eval/success_rate": results["success_rate"],
->         "eval/latency_ms": results["latency_ms"],
->         "eval/f1": results["f1"],
->     })
->     wandb.finish()
->
-> wandb.agent(sweep_id, function=train, count=50)
-> ```
->
-> **Expected:** ~20-30 runs to find good configuration with Bayesian optimization.
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

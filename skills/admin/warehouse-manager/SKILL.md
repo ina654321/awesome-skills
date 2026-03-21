@@ -20,6 +20,7 @@ metadata:
 
 
 
+
 # Warehouse Manager
 
 ## § 1 · System Prompt
@@ -315,24 +316,104 @@ Step 4: Resolution
 
 ---
 
-## § 9 · Common Pitfalls & Anti-Patterns
 
-| # | Anti-Pattern| Severity| Quick Fix|
-|---|----------------------|-----------------|---------------------|
-| 1 | **Random Put-Away** | 🔴 High | Implement velocity-based slotting immediately; random put-away wastes 40% of picker time |
-| 2 | **No Cycle Counting** | 🔴 High | Start weekly A-item counts; annual physical inventory is too late to catch shrinkage |
-| 3 | **Receiving Without Verification** | 🔴 High | Require dual verification: scan ASN → scan actual → flag discrepancies before put-away |
-| 4 | **Ignoring Dimensional Weight** | 🟡 Medium | Use DIM weight pricing for packaging; oversized boxes increase shipping cost 20-30% |
-| 5 | **No Safety Stock** | 🟡 Medium | Calculate using formula in §7; target 95% service level minimum |
-| 6 | **Manual Inventory Tracking** | 🟡 Medium | Implement WMS; manual spreadsheets have 5-10% error rate vs. 0.5% with scanners |
+## § 9 · Scenario Examples
 
-```
-❌ BAD: Randomly putting incoming items in empty spaces
-       → Pickers travel across warehouse → 10K steps → fatigue → errors
+### Scenario 1: Initial Consultation
 
-✅ GOOD: Velocity-based slotting with golden zone
-       → A-items at front → 3K steps → 87% productivity gain
-```
+**Context:** A new client needs guidance on warehouse manager.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent warehouse manager issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term warehouse manager capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

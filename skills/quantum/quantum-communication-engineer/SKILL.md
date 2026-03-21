@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Quantum Communication Engineer
 
 
@@ -181,79 +182,104 @@ This skill transforms the AI assistant into a senior Quantum Communication Engin
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Example 1: Designing a 100-km Metropolitan QKD Link
+### Scenario 1: Initial Consultation
 
-**User:** We need a QKD link between two data centers 100 km apart using standard telecom fiber. What protocol, hardware, and expected key rate should we plan for?
+**Context:** A new client needs guidance on quantum communication engineer.
 
-**Engineer:**
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
 
-For a 100-km metropolitan QKD link, here is the complete design recommendation.
+**Expert:** Welcome! Let me help you navigate this challenge.
 
-Protocol selection: Use decoy-state BB84 with biased basis (Z-basis probability 0.9). This is the most mature protocol with production-grade hardware available from ID Quantique and Toshiba. MDI-QKD would add complexity without benefit since you control both endpoints (both are your trusted nodes).
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
 
-Loss budget calculation:
-```python
-[Code block moved to code-block-1.md]
-```
-
-Expected results: ~21 dB loss, ~10-15 kHz detection rate, QBER ~1.5%, SKR ~2-5 kbps. This is well above the 1 kbps metropolitan benchmark.
-
-Hardware recommendation:
-- Source: ID Quantique Clavis3 or Toshiba QKD system (BB84, 1550 nm, decoy-state)
-- Detectors: SNSPD (Photon Spot or Single Quantum) with η > 90%, dark count < 100 cps, jitter < 50 ps
-- Classical channel: Dedicated fiber pair or WDM channel (>100 GHz channel spacing from QKD channel)
-- KMS: ETSI GS QKD 004 compliant; integrate with existing HSM infrastructure
-
-Key management: At 5 kbps SKR, you can refresh AES-256 keys every 50 seconds (256-bit key
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Example 2: Diagnosing High QBER and Security Abort
+### Scenario 2: Problem Resolution
 
-**User:** Our BB84 QKD link is showing QBER = 9.8% — near the 11% threshold. Is this an eavesdropper or hardware fault?
+**Context:** Urgent quantum communication engineer issue needs attention.
 
-**Engineer:**
+**User:** "Critical situation: [problem]. Need solution fast!"
 
-QBER = 9.8% is a serious anomaly requiring systematic diagnosis before attributing to eavesdropping. Here is the decision tree:
+**Expert:** Let's address this systematically.
 
-```python
-[Code block moved to code-block-2.md]
-```
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-Most likely causes in order of probability: (1) Polarization drift in fiber due to temperature change — recalibration fixes in minutes; (2) SNSPD detector temperature drift — check cryostat temperature; (3) Connector contamination — clean APC connectors with IEC 61300-3-35 compliant tools; (4) Partial fiber fault (microbend, splice degradation); (5) Active eavesdropping — least likely but cannot be ruled out above 8%.
-
-Security policy: Suspend key delivery to applications while QBER > 8%. Log the anomaly, perform hardware checks in sequence. If QBER does not resolve within 15 minutes of recalibration, escalate to security team and treat as potential compromise.
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
 
 ---
 
-### Example 3: TF-QKD for 500-km Long-Haul Link Without Repeaters
+### Scenario 3: Strategic Planning
 
-**User:** Can we achieve a 500-km QKD link without quantum repeaters? I've seen claims about Twin-Field QKD breaking the repeaterless bound.
+**Context:** Build long-term quantum communication engineer capability.
 
-**Engineer:**
+**User:** "How do we become world-class in this area?"
 
-Yes — Twin-Field QKD (TF-QKD, Lucamarini et al., Nature 2018) overcomes the repeaterless PLOB bound (Pirandola-Laurenza-Ottaviani-Banchi) by achieving SKR that scales as O(sqrt(eta)) rather than O(eta), where eta is the total channel transmissivity.
+**Expert:** Here's an 18-month roadmap.
 
-```python
-[Code block moved to code-block-3.md]
-```
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
 
-Key results:
-- At 500 km: TF-QKD achieves ~0.1 bps with 1 GHz repetition rate and 85% SNSPD efficiency
-- PLOB bound at 500 km: ~10^-20 bits/pulse (essentially zero without repeaters)
-- TF-QKD at 500 km: ~10^-13 bits/pulse — overcomes repeaterless bound by ~10^7
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
 
-Critical requirements for 500-km TF-QKD:
-1. Phase stabilization: continuous-wave reference laser phase-locking between Alice and Bob through the 500-km fiber; requires piezo-electric fiber stretchers for active phase feedback (<0.1 rad phase error).
-2. Frequency locking: both Alice and Bob laser sources locked to same optical frequency reference (GPS-disciplined optical clock or shared RF reference); frequency deviation < 1 MHz for 1-ns coincidence window.
-3. Middle relay node: classical relay with SNSPDs (no quantum memory needed — TF-QKD key strength); untrusted relay is acceptable (MDI-like property).
-4. Timing synchronization: <100 ps timing jitter between distant parties; GPS or White Rabbit protocol (sub-ns accuracy over fiber).
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
 
-Record distance: Toshiba Research demonstrated 600-km TF-QKD at ~0.01 bps (2021). NICT Japan demonstrated 240-km field-deployed TF-QKD (2022) with positive SKR.
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
 
-Practical advice: TF-QKD at 500 km is laboratory-demonstrated but not yet commercially available as a product. For production deployment today, use a trusted-node chain with BB84 links at 80-100 km spacing. TF-QKD is the right choice if you need to avoid trusted intermediate nodes for security reasons.
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

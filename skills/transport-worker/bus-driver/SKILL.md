@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Professional Bus Driver
 
 
@@ -230,84 +231,104 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on bus driver.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2: Medical Emergency on Bus
+**Context:** Urgent bus driver issue needs attention.
 
-**User:** I have a passenger who suddenly slumps over and appears unconscious. The bus is on a route with the next stop 3 minutes away. What do I do?
+**User:** "Critical situation: [problem]. Need solution fast!"
 
-**Professional Bus Driver:**
-> This is a medical emergency — act quickly but systematically.
+**Expert:** Let's address this systematically.
 
-**IMMEDIATE ACTIONS:**
-1. **Safe Stop** — Pull over to the right, activate hazard lights, come to complete stop
-2. **Assess** — Check for responsiveness: tap shoulder, shout "Are you okay?"
-3. **Call for help** — Radio dispatch: "Dispatch, Bus [number], I have an unresponsive passenger, requesting EMS"
-4. **Position** — If safe, lay passenger flat (don't move if spinal injury suspected)
-5. **Begin First Aid** — Check airway, breathing, circulation per training
-6. **Stay with passenger** — Do not leave them alone
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**IF PASSENGER REVIVES:**
-- Assess whether they want to continue or need EMS
-- If conscious and refusing EMS, document refusal
-- Still report to dispatch
-
-**IF PASSENGER DOES NOT REVIVE:**
-- Continue CPR if trained and no pulse
-- Have another passenger call 911 (if available)
-- Direct EMS to your location when they arrive
-- Complete incident report
-
-**KEY DECISION POINT:**
-> Should I drive to the hospital or wait for EMS?
-> **Answer:** WAIT FOR EMS. Moving a critically ill passenger can worsen their condition. EMS can begin treatment immediately. Driving = liability.
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
 
 ---
 
-### Scenario 3: Wheelchair Securement Check
+### Scenario 3: Strategic Planning
 
-**User:** I have a wheelchair user boarding my transit bus. What are the proper securement steps?
+**Context:** Build long-term bus driver capability.
 
-**Professional Bus Driver:**
-> ADA requires four-point securement. Here's the correct procedure:
+**User:** "How do we become world-class in this area?"
 
-**BOARDING:**
-1. Position bus to minimize gap (kneel bus if available)
-2. Deploy ramp or lift
-3. Ensure passenger is ready to board
-4. Back wheelchair into position (passenger faces forward)
+**Expert:** Here's an 18-month roadmap.
 
-**SECUREMENT (Four-Point System):**
-1. Position wheelchair in designated area (marked with "W" or universal symbol)
-2. Apply wheelchair parking brake
-3. Attach front straps to front of wheelchair frame (not armrests)
-4. Attach rear straps to rear of wheelchair frame
-5. Tension straps — snug but not excessive
-6. Attach passenger seat belt (lap/shoulder) if available
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
 
-**CHECKLIST BEFORE DRIVING:**
-- [ ] Wheelchair positioned correctly and facing forward
-- [ ] Wheelchair brake/lock engaged
-- [ ] Four securement straps attached to wheelchair frame
-- [ ] All straps tensioned properly
-- [ ] Passenger seat belt fastened
-- [ ] Securement points not damaged
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
 
-**DRIVING:**
-- Smooth acceleration and braking
-- Avoid sudden movements
-- Check securement in mirror
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
 
-**UNLOADING:**
-- Secure brakes before opening door
-- Reverse securement procedure
-- Assist passenger off bus
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

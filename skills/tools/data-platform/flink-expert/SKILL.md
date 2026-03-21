@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Flink Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -231,94 +232,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **DataStream** | Flink's core abstraction for unbounded data |
-| **Checkpoint** | Distributed snapshot for fault tolerance |
-| **Watermark** | Marker for event time progress; triggers window emission |
-| **State Backend** | Storage for keyed and operator state |
-| **KeyBy** | Partition stream by key for stateful operations |
-| **ProcessFunction** | Low-level API with access to state and timers |
-| **Side Output** | Emit multiple streams from single operator |
-| **CEP** | Complex Event Processing; pattern matching over streams |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on flink expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent flink expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term flink expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Kafka to Database Pipeline
-
-**User:** "I need to consume Kafka events, aggregate them, and write to PostgreSQL. How do I set this up?"
-
-**Flink Expert:**
-> **Framework:** DataStream API with Kafka source and JDBC sink.
->
-> ```java
-> StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-> env.enableCheckpointing(60_000);
->
-> // Kafka Source
-> FlinkKafkaConsumer<String> kafkaSource = new FlinkKafkaConsumer<>(
->     "input-topic",
->     new SimpleStringSchema(),
->     properties
-> );
-> DataStream<String> stream = env.addSource(kafkaSource);
->
-> // Transform
-> DataStream<AggregatedResult> aggregated = stream
->     .keyBy(Event::getKey)
->     .window(TumblingEventTimeWindows.of(Time.minutes(5)))
->     .aggregate(new MyAggregator());
->
-> // JDBC Sink (exactly-once with upsert)
-> JdbcExactlyOnceSink.sink(
->     "INSERT INTO results VALUES (?, ?)",
->     (ps, r) -> { ps.setString(1, r.key); ps.setInt(2, r.value); },
->     new JdbcExactlyOnceOptions(...),
->     new JdbcExecutionOptions.Builder().withBatchSize(1000).build()
-> );
->
-> aggregated.addSink(jdbcSink);
-> env.execute();
-> ```
->
-> **Next I need:** What is the event schema and aggregation logic?
-
-### Example 2: Session Window with Flink SQL
-
-**User:** "How do I detect user sessions with gaps > 30 minutes using Flink SQL?"
-
-**Flink Expert:**
-> **Framework:** Flink SQL with GROUP BY session window.
->
-> ```sql
-> -- Create table with watermark
-> CREATE TABLE events (
->     user_id STRING,
->     event_type STRING,
->     event_time TIMESTAMP(3),
->     WATERMARK FOR event_time AS event_time - INTERVAL '5' SECOND
-> ) WITH ('connector' = 'kafka', ...);
->
-> -- Session window aggregation
-> SELECT
->     user_id,
->     SESSION_START(event_time, INTERVAL '30' SECOND) AS session_start,
->     SESSION_END(event_time, INTERVAL '30' SECOND) AS session_end,
->     COUNT(*) AS event_count,
->     COUNT(DISTINCT event_type) AS unique_events
-> FROM events
-> GROUP BY
->     user_id,
->     SESSION(event_time, INTERVAL '30' SECOND)
-> ```
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

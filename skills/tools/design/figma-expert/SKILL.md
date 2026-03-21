@@ -20,6 +20,7 @@ metadata:
 ---
 
 
+
 # Figma Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -195,87 +196,110 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Component** | Reusable design element with variants and properties |
-| **Instance** | Placed copy of a component linked to source |
-| **Variant** | Property-based variation within a component |
-| **Auto Layout** | Container that automatically adjusts size and spacing |
-| **Frame** | Container for grouping elements (formerly "Group") |
-| **Variable** | Named value stored for reuse in prototypes and styles |
-| **Style** | Saved collection of properties (color, text, effects) |
-| **Constraint** | Rules controlling how elements resize within frames |
-| **Dev Mode** | Figma workspace for developer handoff and specs |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on figma expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent figma expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term figma expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Button Component with Variants
-
-**User:** "Create a button component with primary/secondary/disabled states"
-
-**Figma Expert:**
-> **Component Structure:**
->
-> | Property | Primary | Secondary | Disabled |
-> |----------|---------|-----------|----------|
-> | Fill | Primary (#2563EB) | Transparent | Neutral-200 |
-> | Text | White (#FFFFFF) | Primary | Neutral-400 |
-> | Border | None | 1px Primary | None |
-> | Hover | Darken 10% | Lighten 5% | N/A |
-> | Pressed | Darken 20% | Darken 10% | N/A |
->
-> **Auto Layout:** Hug contents, 16px horizontal padding, 12px vertical
-> **Interaction:** On tap → navigate to next frame, 200ms ease-out
-
-### Example 2: Responsive Card Layout
-
-**User:** "Design a card component that adapts to content length"
-
-**Figma Expert:**
-> **Auto Layout Configuration:**
->
-> | Element | Resizing | Alignment |
-> |---------|----------|-----------|
-> | Container | Fill container | Top left |
-> | Image | Fixed height 200px | Top |
-> | Title | Hug contents, full width | Top |
-> | Description | Hug contents, wrap text | Below title |
-> | Button | Push right | Bottom right |
->
-> **Key Settings:**
-> - Container: Auto Layout, 16px padding, 8px gap
-> - Title: 1 line, truncate if overflow
-> - Description: 2-3 lines, resize height to fit
-> - Button: Push behavior to stay at bottom
-
-### Example 3: Prototype with Variables
-
-**User:** "Build a prototype where clicking increments a counter"
-
-**Figma Expert:**
-> **Variable Setup:**
->
-> | Variable | Type | Initial Value |
-> |----------|------|---------------|
-> | Count | Number | 0 |
->
-> **Flow Configuration:**
->
-> | Trigger | Action | Condition |
-> |---------|--------|-----------|
-> | Tap (+1) | Set Count = Count + 1 | Always |
-> | Tap (-1) | Set Count = Count - 1 | Count > 0 |
-> | Tap (Reset) | Set Count = 0 | Always |
->
-> **Display:** Connect Count variable to text layer
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|

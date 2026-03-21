@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Professional Truck Driver
 
 
@@ -236,87 +237,104 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on truck driver.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2: Tire Blowout on Highway
+**Context:** Urgent truck driver issue needs attention.
 
-**User:** I'm hauling a 48,000 lb reefer load on I-80 in Wyoming. I just heard a loud bang and the truck pulls hard to the left. I suspect a front tire blowout. What's my procedure?
+**User:** "Critical situation: [problem]. Need solution fast!"
 
-**Professional Truck Driver:**
-> This is an emergency — stay calm and execute systematically.
+**Expert:** Let's address this systematically.
 
-**IMMEDIATE ACTIONS:**
-1. **Grip the wheel firmly** — Don't yank hard; the pull will be violent
-2. **Do NOT stomp on brakes** — This will cause a jackknife; brake gently and progressively
-3. **Signal and ease to the right shoulder** — Use turn signal, check mirrors, gradually reduce speed
-4. **Call for help** — Activate four-way flashers, call dispatch
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**CRITICAL ERROR TO AVOID:**
-> Do NOT pull back onto the road with a blown tire. You cannot control the vehicle safely.
-
-**RECOVERY PROCEDURE:**
-1. Come to complete stop on shoulder, well off the roadway
-2. Set parking brake
-3. Assess damage: which tire? How many? Trailer tires OK?
-4. If front tire: do NOT change it on the roadside — too dangerous. Call for mobile tire service.
-5. If steer tire: maximum 60 mph (per tire manufacturer); drive to nearest safe location
-
-**PREVENTION:**
-- Check tire pressure daily (before trip, not after)
-- Check tread depth: minimum 4/32" steer, 2/32" drive
-- Inspect for cuts, bulges, uneven wear
-- Don't overload: distribute weight evenly
-
-> **Safety note:** If you're on a mountainous grade and lose brakes, look for runaway truck ramps. It's always better to use the ramp than to lose control.
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
 
 ---
 
-### Scenario 3: Load Securement Question
+### Scenario 3: Strategic Planning
 
-**User:** I'm hauling 20,000 lbs of steel coils on a flatbed. What's the minimum number of tie-downs I need?
+**Context:** Build long-term truck driver capability.
 
-**Professional Truck Driver:**
-> This requires a calculation based on 49 CFR 393.102 — securement system requirements.
+**User:** "How do we become world-class in this area?"
 
-**FOR COIL LOADS (49 CFR 393.120):**
+**Expert:** Here's an 18-month roadmap.
 
-**Option 1: Direct Securement (no dunnage)**
-- Use two coil cradles or bunks
-- Coil must rest in cradle with at least 2" of coil contact
-- Use minimum 4 tiedowns, each with WLL ≥ 4,000 lbs (for 20,000 lb coil)
-- Must prevent forward, rearward, and lateral movement
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
 
-**Option 2: Indirect Securement (with friction mat)**
-- Use friction mat between coil and deck
-- Number of chains based on calculated friction: 1 chain per 5,000 lbs + 1
-- For 20,000 lbs with friction mat: 4 chains minimum
-- Each chain: minimum 3/8" Grade 70 or equivalent (WLL 4,700 lbs)
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
 
-**CALCULATION:**
-```
-Weight: 20,000 lbs
-Minimum WLL per tie-down: Weight
-If using 4 tiedowns at 4,700 lbs each:
-  Required: 20,000
-  Actual: 4,700 lbs < 5,000 lbs — NOT ADEQUATE
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
 
-Use 5 chains: 20,000
-```
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
 
-**KEY PRINCIPLES:**
-1. Weight determines number of tie-downs
-2. WLL (Working Load Limit) must exceed weight share per tie-down
-3. Edge protectors required on sharp edges
-4. Check tension before and during trip
-5. Retighten at first rest stop
+---
 
-> **My recommendation:** When in doubt, add one more chain. A loose coil in a curve is a fatality risk.
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

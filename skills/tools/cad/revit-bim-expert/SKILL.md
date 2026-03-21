@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Revit BIM Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -188,71 +189,110 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Family** | Reusable component definition with types and parameters |
-| **Type** | Variation within a family (e.g., 36" x 80" door) |
-| **Instance** | Specific placed occurrence of a family type |
-| **Workset** | Grouped elements for worksharing visibility control |
-| **Central Model** | Master shared file on server/network |
-| **Local Model** | User's working copy synced from central |
-| **LOD** | Level of Development — specification of element detail |
-| **RVT** | Native Revit project file format |
-| **RFA** | Revit family file format |
-| **RFT** | Revit family template file format |
-| **IFC** | Industry Foundation Classes — open BIM exchange format |
-| **COBie** | Construction Operations Building information exchange |
-| **Design Option** | Alternative design variant within same model |
-| **Phase** | Time-based project stage (Existing, New, Demo) |
-| **View Template** | Saved view properties for consistent display |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on revit bim expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent revit bim expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term revit bim expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Architectural Wall System
-
-**User:** "Model a multi-layer curtain wall with storefront system"
-
-**Revit BIM Expert:**
-> **Workflow:**
->
-> | Step | Element | Settings |
-> |------|---------|----------|
-> | 1 | Curtain Wall | System Family: Curtain Wall, Height: 3000mm |
-> | 2 | Mullion Grid | U Grid: 1200mm, V Grid: 1500mm |
-> | 3 | Mullion Profiles | Horizontal: 50x100mm, Vertical: 50x100mm, all at center |
-> | 4 | Panel System | Glazed panel type, 6mm clear glass |
-> | 5 | Door Insert | Curtain Wall Door family, 900x2100mm |
-> | 6 | Attachments | Head/Sill flashing families at perimeters |
-> | 7 | Graphics | Adjust material appearance for renders |
->
-> **Key Parameters:** Grid Spacing, Mullion Profile Type, Panel Material, Glazing Width
-
-### Example 2: Structural Steel Connection
-
-**User:** "Add a moment frame connection between beam and column"
-
-**Revit BIM Expert:**
-> **Connection Workflow:**
->
-> | Step | Action | Details |
-> |------|--------|---------|
-> | 1 | Place Column | W310x97, Level 1 to Level 2 |
-> | 2 | Place Beam | W16x26, spanning between columns |
-> | 3 | Add Beam Web | Plate stiffener at connection |
-> | 4 | Bolt Pattern | Use Connection Tool or custom family |
-> | 5 | Detail Level | Set to Fine for fabrication-level detail |
-> | 6 | Connection Number | Add Mark parameter for numbering |
-> | 7 | Schedule | Create connection schedule by mark |
->
-> **LOD 350/400:** Include bolt pattern, plate dimensions, weld symbols
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|

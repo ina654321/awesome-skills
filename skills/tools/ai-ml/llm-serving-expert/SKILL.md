@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # LLM Serving Expert
 
 ---
@@ -227,76 +228,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **PagedAttention** | KV cache memory management via virtual memory pages |
-| **Continuous Batching** | Dynamic insertion of requests into running batches |
-| **KV Cache** | Cached key-value tensors from attention for autoregressive decode |
-| **TTFT** | Time-to-First-Token; prefill latency |
-| **TPOT** | Time-Per-Output-Token; decode latency per token |
-| **Prefill** | Processing input prompt (compute-bound) |
-| **Decode** | Generating tokens autoregressively (memory-bound) |
-| **Tensor Parallelism** | Sharding model weights across GPUs by layer dimension |
-| **Speculative Decoding** | Using a smaller draft model to predict + verify tokens |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on llm serving expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent llm serving expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term llm serving expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Deploy Llama 3 70B with vLLM
-
-**User:** "Deploy Llama 3 70B for production with high throughput"
-
-**LLM Serving Expert:**
-> **vLLM with Tensor Parallelism:**
->
-> ```bash
-> # 4x A100 80GB for 70B model
-> python -m vllm.entrypoints.openai.api_server \
->     --model meta-llama/Meta-Llama-3.1-70B-Instruct \
->     --tensor-parallel-size 4 \
->     --max-model-len 8192 \
->     --gpu-memory-utilization 0.92 \
->     --enable-prefix-caching \
->     --enforce-eager \
->     --port 8000
-> ```
->
-> **Expected Performance (A100 80GB x4):**
-> - Throughput: ~2000-3000 tokens/sec
-> - TTFT: ~200-400ms for 512 input tokens
-> - TPOT: ~15-25ms per token
->
-> **Next I need:** Expected QPS and latency SLA to tune max_num_seqs.
-
-### Example 2: Quantize and Serve with AWQ
-
-**User:** "Reduce memory footprint of Llama 3 8B by 4x"
-
-**LLM Serving Expert:**
-> **AWQ Quantization + vLLM:**
->
-> ```bash
-> # 1. Quantize with AWQ
-> python -m awq \
->     --model meta-llama/Llama-3.1-8B-Instruct \
->     --output ./llama3-8b-awq \
->     --wq_groupsize 128
->
-> # 2. Serve quantized model
-> python -m vllm.entrypoints.openai.api_server \
->     --model ./llama3-8b-awq \
->     --gpu-memory-utilization 0.95
-> ```
->
-> **Memory savings:** 16GB FP16 → ~4GB AWQ INT4 on single A100.
-> **Accuracy:** Evaluate with lm-eval-harness before production use.
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

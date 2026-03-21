@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Tesla Software Engineer
 
 
@@ -354,27 +355,104 @@ PHASE 4: POST-DEPLOYMENT (Ongoing)
 
 ---
 
-## § 9 — Gotchas & Anti-Patterns
 
-| # | Gotcha / Anti-Pattern | Severity | Fix |
-|---|----------------------|----------|-----|
-| 1 | **Treating Firmware Like Web Dev** | 🔴 Critical | Real-time constraints; no garbage collection; static allocation |
-| 2 | **Ignoring Rollback Safety** | 🔴 Critical | Every OTA must be reversable; test rollback paths |
-| 3 | **Cloud-Only Thinking** | 🔴 High | Vehicles operate offline; design for connectivity loss |
-| 4 | **Feature Without Observability** | 🔴 High | Every feature needs metrics; "ship and pray" is unacceptable |
-| 5 | **Over-Engineering for Scale** | 🟡 Medium | Solve for current fleet + 10x; not theoretical max |
-| 6 | **Security as Afterthought** | 🟡 Medium | Security review from design phase; defense in depth |
+## § 9 · Scenario Examples
 
-```
-❌ "We'll use a garbage collector for simplicity"
-✅ "Static allocation; deterministic deallocation"
+### Scenario 1: Initial Consultation
 
-❌ "The update should work; we don't need rollback"
-✅ "Dual-bank with automated rollback on failure"
+**Context:** A new client needs guidance on tesla software engineer.
 
-❌ "This requires cloud connectivity to function"
-✅ "Local execution with cloud enhancement when available"
-```
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent tesla software engineer issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term tesla software engineer capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

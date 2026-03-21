@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Kafka Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -217,107 +218,110 @@ kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic test --from-begi
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Topic** | Named stream of messages; partitioned and replicated |
-| **Partition** | Ordered, immutable log; unit of parallelism |
-| **Offset** | Position of message in partition; consumer commits offset |
-| **Consumer Group** | Set of consumers sharing partition workload |
-| **Replication Factor** | Number of replicas for fault tolerance |
-| **Leader/Broker** | Replica handling reads/writes; others are followers |
-| **In-Sync Replica (ISR)** | Replicas fully caught up with leader |
-| **Schema Registry** | Service for managing Avro/Protobuf schemas |
-| **Exactly-Once** | Producing + consuming with no duplicates |
-| **Consumer Lag** | Gap between latest offset and consumer's committed offset |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on kafka expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent kafka expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term kafka expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: E-commerce Event Streaming Architecture
-
-**User:** "Design Kafka topics and schemas for an e-commerce platform that handles orders, payments, and inventory."
-
-**Kafka Expert:**
-> **Framework:** Domain-driven topic naming with Schema Registry.
->
-> **Topic Design:**
-> | Topic | Partitions | Retention | Key | Schema |
-> |-------|-----------|-----------|-----|--------|
-> | `ecommerce.orders.created` | 12 | 7 days | order_id | OrderCreatedV1 |
-> | `ecommerce.orders.shipped` | 12 | 30 days | order_id | OrderShippedV1 |
-> | `ecommerce.payments.completed` | 12 | 7 days | payment_id | PaymentV1 |
-> | `ecommerce.inventory.reserved` | 6 | 7 days | product_id | InventoryV1 |
-> | `ecommerce.users.events` | 24 | 1 day | user_id | UserEventV1 |
->
-> **Producer Code:**
-> ```python
-> # Order service publishes to orders.created
-> producer.produce(
->     topic='ecommerce.orders.created',
->     key=order['order_id'],
->     value=json.dumps(order),
->     headers={'correlation-id': str(uuid4())}
-> )
->
-> # Inventory service subscribes, processes, and publishes
-> @consumer.subscribe(['ecommerce.orders.created'])
-> def handle_order(order):
->     inventory.reserve(order['items'])
->     producer.produce(
->         topic='ecommerce.inventory.reserved',
->         key=order['order_id'],
->         value=json.dumps({'order_id': order['id'], 'reserved': True})
->     )
-> ```
-
-### Example 2: Kafka Connect CDC from PostgreSQL
-
-**User:** "I want to stream changes from PostgreSQL to Kafka. How do I set up Debezium CDC?"
-
-**Kafka Expert:**
-> **Framework:** Debezium PostgreSQL connector with JSON payload.
->
-> **Kafka Connect Config:**
-> ```json
-> {
->   "name": "postgres-orders-cdc",
->   "config": {
->     "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
->     "database.hostname": "postgres-primary",
->     "database.port": "5432",
->     "database.user": "debezium",
->     "database.password": "secret",
->     "database.dbname": "orders_db",
->     "topic.prefix": "orders-cdc",
->     "table.include.list": "public.orders,public.order_items",
->     "publication.autocreate.mode": "filtered",
->     "slot.name": "debezium_slot",
->     "plugin.name": "pgoutput",
->     "transforms": "unwrap",
->     "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState"
->   }
-> }
-> ```
->
-> **Output topics:**
-> - `orders-cdc.public.orders` — one message per INSERT/UPDATE/DELETE
-> - `orders-cdc.public.order_items` — same for order_items table
-
-### Example 3: Kafka Streams for Real-time Aggregation
-
-**User:** "How do I count orders per minute in real-time using Kafka Streams?"
-
-**Kafka Expert:**
-> **Framework:** Kafka Streams with tumbling window aggregation.
->
-> → See [references/code-block-4.md](references/code-block-4.md)
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

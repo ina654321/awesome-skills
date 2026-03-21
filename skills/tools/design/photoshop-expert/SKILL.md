@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Photoshop Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -185,73 +186,110 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Layer** | Discrete stackable canvas element with independent properties |
-| **Layer Mask** | Grayscale canvas that controls layer visibility |
-| **Vector Mask** | Resolution-independent path that clips layer content |
-| **Smart Object** | Embedded or linked file preserved at original resolution |
-| **Adjustment Layer** | Non-destructive color/tonal change affecting layers below |
-| **Blending Mode** | Mathematical operation determining how layers interact |
-| **Clipping Mask** | Base layer that clips all layers above to its shape |
-| **Layer Comp** | Snapshot of layer states, visibility, and position |
-| **Frequency Separation** | Technique separating texture from color for retouching |
-| **Dodge/Burn** | Lighten or darken specific areas non-destructively |
-| **Content-Aware Fill** | AI-powered area filling from surrounding content |
-| **Refine Edge** | Advanced selection refinement for complex edges |
-| **Camera Raw** | Non-destructive RAW file processor built into Photoshop |
-| **ICC Profile** | Color profile describing color space of device/file |
-| **Halftone** | Print screening pattern simulating continuous tone |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on photoshop expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent photoshop expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term photoshop expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Portrait Retouching
-
-**User:** "Remove blemishes and smooth skin while keeping natural texture"
-
-**Photoshop Expert:**
-> **Workflow:**
->
-> | Step | Technique | Details |
-> |------|-----------|---------|
-> | 1 | Duplicate Base | Command/Ctrl+J to create working copy |
-> | 2 | Frequency Separation | Filter > Other > High Pass (texture) + Blur (tone) on separate layers |
-> | 3 | Heal Blemishes | Spot Healing Brush, Content-Aware, sample nearby clean skin |
-> | 4 | Dodge Dark Circles | Dodge tool, exposure 15%, on under-eye area |
-> | 5 | Burn Cheekbones | Burn tool, exposure 10%, deepen cheek contour |
-> | 6 | Clone Texture | Clone Stamp, sample clean texture onto blemish areas |
-> | 7 | Gaussian Blur (subtle) | Apply slight blur only to skin, mask off features |
-> | 8 | Final Dodge/Burn | Global luminosity adjustments with curves |
->
-> **Key Settings:** Healing Brush: Content-Aware; Clone Stamp: aligned sample
-
-### Example 2: Product Composite
-
-**User:** "Composite this watch onto a lifestyle photo"
-
-**Photoshop Expert:**
-> **Composite Workflow:**
->
-> | Step | Action | Settings |
-> |------|--------|----------|
-> | 1 | Open Source Files | Watch product shot + lifestyle background |
-> | 2 | Extract Watch | Pen Tool > Path, then Vector Mask |
-> | 3 | Place on Background | Position in scene; use Free Transform |
-> | 4 | Add Drop Shadow | Layer Style > Drop Shadow; match scene lighting |
-> | 5 | Color Match | Adjustment Layers > Hue/Saturation, Color Balance |
-> | 6 | Add Reflection | Duplicate watch, flip, lower opacity, mask ground contact |
-> | 7 | Match Grain | Add slight noise to watch layer to match background |
-> | 8 | Final Adjust | Curves adjustment for unified lighting |
->
-> **Export:** PNG with transparency for web; TIFF LZW for print archive
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|

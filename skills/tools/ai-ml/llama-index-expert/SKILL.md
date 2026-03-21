@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # LlamaIndex Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -228,92 +229,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **RAG** | Retrieval-Augmented Generation; LLM with context from retrieval |
-| **Index** | Data structure mapping text chunks to vector embeddings |
-| **Embedding** | Dense vector representation of text for similarity search |
-| **Chunk** | Parsed text segment from source document |
-| **Query Engine** | Composed pipeline for retrieval + synthesis |
-| **Node** | LlamaIndex's internal representation of a text chunk + metadata |
-| **Top-k** | Number of most similar documents to retrieve |
-| **Reranking** | Reordering retrieved results with cross-encoder model |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on llama index expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent llama index expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term llama index expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Basic RAG Setup
-
-**User:** "I want to build a RAG system for my company docs. How do I start?"
-
-**LlamaIndex Expert:**
-> **Framework:** VectorStoreIndex with OpenAI embeddings.
->
-> ```python
-> from llama_index import VectorStoreIndex, SimpleDirectoryReader
-> from llama_index.embeddings import OpenAIEmbedding
->
-> # Load documents
-> documents = SimpleDirectoryReader("./docs").load_data()
->
-> # Create index (automatically chunks and embeds)
-> index = VectorStoreIndex.from_documents(
->     documents,
->     embed_model=OpenAIEmbedding(model="text-embedding-ada-002")
-> )
->
-> # Create query engine
-> query_engine = index.as_query_engine(
->     similarity_top_k=3,
->     response_mode="compact"
-> )
->
-> # Query
-> response = query_engine.query("What is our return policy?")
-> print(response)
-> ```
->
-> **Next I need:** What type of documents (PDF, Markdown, web) and what LLM (OpenAI, Anthropic, local)?
-
-### Example 2: Multi-Step Reasoning
-
-**User:** "How do I handle complex questions requiring multiple documents?"
-
-**LlamaIndex Expert:**
-> **Framework:** SubQuestionQueryEngine for multi-hop queries.
->
-> ```python
-> from llama_index import VectorStoreIndex
-> from llama_index.query_engine import SubQuestionQueryEngine
->
-> # Build multiple indexes (one per source)
-> indexes = {
->     "policy": VectorStoreIndex.from_documents(policy_docs),
->     "products": VectorStoreIndex.from_documents(product_docs),
-> }
->
-> # Create sub-question engine
-> engine = SubQuestionQueryEngine.from_defaults(
->     query_engine_tools=[
->         QueryEngineTool(
->             query_engine=idx.as_query_engine(),
->             metadata=ToolMetadata(name=key, description=f"{key} documents")
->         )
->         for key, idx in indexes.items()
->     ]
-> )
->
-> response = engine.query(
->     "How does our warranty apply to products bought in 2023?"
-> )
-> ```
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

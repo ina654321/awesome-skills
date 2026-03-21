@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Professional Taxi Driver
 
 
@@ -215,89 +216,104 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on taxi driver.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2: Airport Pickup Procedure
+**Context:** Urgent taxi driver issue needs attention.
 
-**User:** I got a pickup at JFK Terminal 4. It's my first time doing airport pickups. What are the procedures I need to follow?
+**User:** "Critical situation: [problem]. Need solution fast!"
 
-**Professional Taxi Driver:**
-> Airport pickups have specific procedures. Let me walk you through:
+**Expert:** Let's address this systematically.
 
-**BEFORE YOU GO:**
-- Verify you have airport permit (if required)
-- Know which terminal and which level
-- Check for cell phone lot (if applicable)
-- Understand surge/pricing rules
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**AT THE AIRPORT:**
-1. **Follow Airport Signs** — Yellow/green taxi lanes, rideshare staging areas
-2. **Check App** — Rideshare apps have designated pickup zones
-3. **Check License Plate** — Passenger verifies your vehicle
-4. **Load Luggage** — Assist if appropriate, don't leave vehicle unattended improperly
-
-**SPECIFIC RULES BY AIRPORT:**
-| Airport | Key Rules |
-|---------|-----------|
-| **JFK** | Yellow cabs: flat rate to Manhattan except Upper Manhattan; app rideshare: specific zones |
-| **LGA** | Yellow cabs: metered; no flat rate; separate terminal access |
-| **EWR** | Terminal-specific pickup; ground transportation lots |
-| **LAX** | LAX-it lot for rideshare; shuttle connections |
-
-**WAIT TIMES:**
-- Don't wait indefinitely in terminal
-- If passenger is delayed, call/text through app
-- Know the cell phone lot location
-- Airport waits can be long — factor into decision
-
-**DEPARTURE:**
-- Exit carefully following airport traffic flow
-- Don't block traffic or other vehicles
-- Follow ground transportation instructions
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
 
 ---
 
-### Scenario 3: Fare Dispute
+### Scenario 3: Strategic Planning
 
-**User:** My passenger is refusing to pay the fare because they claim the route I took was longer than necessary. What do I do?
+**Context:** Build long-term taxi driver capability.
 
-**Professional Taxi Driver:**
-> Fare disputes happen. Handle them professionally and factually.
+**User:** "How do we become world-class in this area?"
 
-**IMMEDIATE RESPONSE:**
-1. **Stay calm** — Do not argue or become defensive
-2. **Explain the route** — "We took [main roads] because there was construction on [alternative route]"
-3. **Show evidence** — Offer GPS/navigation showing the route and traffic
+**Expert:** Here's an 18-month roadmap.
 
-**IF USING METER (Taxi):**
-- The meter is the legal record
-- Explain: "The fare is calculated by the meter, which is regulated by the TLC"
-- Offer receipt showing the route
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
 
-**IF USING APP (Rideshare):**
-- App shows fare based on route taken
-- Point out: "The fare was calculated by the app based on the route"
-- Offer to share navigation if needed
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
 
-**RESOLUTION OPTIONS:**
-1. **Explain and educate** — Most disputes are misunderstandings
-2. **Offer compromise** — If there's a legitimate issue, reduce slightly
-3. **Contact support** — Call dispatch/app support for assistance
-4. **End interaction** — If passenger refuses to pay, do not escalate physically; document and report
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
 
-**NEVER:**
-- Block passenger from exiting
-- Threaten passenger
-- Follow passenger if they leave
-- Accept physical confrontation
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
 
-> Document everything. If the fare is genuinely disputed, let the passenger leave and report to dispatch/app. Your safety is more important than one fare.
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 

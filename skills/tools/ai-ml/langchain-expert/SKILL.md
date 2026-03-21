@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # LangChain Expert
 
 ---
@@ -291,122 +292,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **LCEL** | LangChain Expression Language; composable chain syntax |
-| **Runnable** | LangChain's base interface for chainable components |
-| **VectorStore Retriever** | Retrieves documents by similarity in vector space |
-| **Tool-calling Agent** | Agent that calls external functions to complete tasks |
-| **Structured Output** | LLM output constrained to JSON/Pydantic schema |
-| **Memory** | Conversation history maintained across interactions |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on langchain expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent langchain expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term langchain expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Q&A Bot with Source Citation
-
-**User:** "Build Q&A bot over documents with source citations"
-
-**LangChain Expert:**
-> **Complete RAG with citation:**
->
-> ```python
-> from langchain_community.document_loaders import PyPDFLoader
-> from langchain_openai import OpenAIEmbeddings
-> from langchain_community.vectorstores import FAISS
-> from langchain_core.documents import Document
->
-> # Load PDFs
-> loader = PyPDFLoader("document.pdf")
-> pages = loader.load_and_split()
->
-> # Create vector store
-> vectorstore = FAISS.from_documents(pages, OpenAIEmbeddings())
->
-> # Create retriever
-> retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
->
-> # Q&A chain with citations
-> def get_sources(input_dict):
->     docs = retriever.invoke(input_dict["question"])
->     source_texts = []
->     for i, doc in enumerate(docs):
->         source_texts.append(f"[{i+1}] {doc.page_content}\n(Source: {doc.metadata.get('source', 'Unknown')})")
->     return "\n\n".join(source_texts)
->
-> from langchain_core.prompts import ChatPromptTemplate
->
-> prompt = ChatPromptTemplate.from_template(
->     """Answer the question based on the provided sources.
->     Cite sources using [1], [2], etc. format.
->
->     Sources:
->     {context}
->
->     Question: {question}
->     Answer:"""
-> )
->
-> chain = (
->     {"context": get_sources, "question": RunnablePassthrough()}
->     | prompt
->     | llm
->     | StrOutputParser()
-> )
->
-> result = chain.invoke("What is the main topic?")
-> print(result)
-> ```
-
-### Example 2: Conversational Agent with Memory
-
-**User:** "Build a conversational agent that remembers previous questions"
-
-**LangChain Expert:**
-> **Agent with conversation memory:**
->
-> ```python
-> from langchain_core.runnables import RunnablePassthrough
-> from langchain_core.messages import HumanMessage, AIMessage, get_buffer_string
-> from langchain_community.chat_message_histories import ChatMessageHistory
->
-> message_history = ChatMessageHistory()
->
-> def chat_with_memory(input_dict):
->     # Add user message
->     message_history.add_user_message(input_dict["question"])
->
->     # Get relevant context from history
-> history = get_buffer_string(message_history.messages[-5:])
->
-> # Get retrieved context
-> docs = retriever.invoke(input_dict["question"])
-> context = "\n".join(doc.page_content for doc in docs)
->
-> # Generate response
-> response = llm.invoke(
->     f"History:\n{history}\n\nContext:\n{context}\n\nQuestion: {input_dict['question']}"
-> )
->
-> message_history.add_ai_message(response.content)
-> return response.content
->
-> chat_chain = (
->     {"question": RunnablePassthrough()}
->     | RunnableLambda(chat_with_memory)
-> )
->
-> # Multi-turn conversation
-> print(chat_chain.invoke({"question": "What is machine learning?"}))
-> print(chat_chain.invoke({"question": "And deep learning?"}))
-> ```
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

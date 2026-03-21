@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # LaTeX Expert
 
 ---
@@ -267,137 +268,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **Preamble** | LaTeX commands between \documentclass and \begin{document} |
-| **Float** | Figure, table, or listing that LaTeX positions automatically |
-| **Aux File** | .aux file stores cross-reference information between runs |
-| **Biber** | Modern bibliography processor for biblatex (use instead of bibtex) |
-| **TikZ** | Package for creating vector graphics programmatically |
-| **PGFPlots** | Plotting library built on TikZ |
-| **\ cref** | cleveref's smart cross-reference command |
-| **Macro** | User-defined command created with \newcommand |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on latex expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent latex expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term latex expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: IEEE Paper with Equations and Figures
-
-**User:** "Write IEEE-format paper with mathematical equations and a figure"
-
-**LaTeX Expert:**
-> **IEEE Paper template:**
->
-> ```latex
-> \documentclass[compsoc, conference]{IEEEtran}
-> \usepackage{amsmath}
-> \usepackage{graphicx}
-> \usepackage{cite}
-> \usepackage{hyperref}
->
-> \title{Your Title}
->
-> \author{Author Name}
->
-> \begin{document}
-> \maketitle
->
-> \begin{abstract}
-> Abstract here.
-> \end{abstract}
->
-> \section{Introduction}
->
-> \section{Problem Formulation}
-> \label{sec:problem}
->
-> We consider the optimization problem:
-> \begin{mini}
->     {\theta}{\mathcal{L}(\theta)}
->     \label{eq:objective}
-> \end{mini}
-> where $\mathcal{L}: \Theta \to \R$ is convex.
->
-> \begin{figure}[tb]
->     \centering
->     \includegraphics[width=0.8\linewidth]{fig1.pdf}
->     \caption{System architecture overview}
->     \label{fig:architecture}
-> \end{figure}
->
-> \section{Results}
->
-> As shown in \ cref{fig:architecture}, our approach achieves
-> the performance described in \cref{eq:objective}.
->
-> \section{Conclusion}
->
-> \IEEEraisesectionheading{\section{Conclusion}\label{sec:conclusion}}
->
-> \end{document}
-> ```
-
-### Example 2: Beamer Presentation with Overlays
-
-**User:** "Create a Beamer presentation with bullet points that appear one by one"
-
-**LaTeX Expert:**
-> **Beamer template:**
->
-> ```latex
-> \documentclass{beamer}
-> \usetheme{Madrid}
-> \usepackage{animate}
->
-> \title{Presentation Title}
-> \author{Author Name}
-> \institute{Institution}
-> \date{\today}
->
-> \begin{document}
-> \frame{\titlepage}
->
-> \section{Introduction}
-> \frame{
->     \centering
->     \Large Introduction
-> }
->
-> \begin{frame}{Main Results}
->     \begin{itemize}
->         \item<1-> First point (always visible)
->         \item<2-> Second point (appears on click 2)
->         \item<3-> Third point (appears on click 3)
->         \item<4-> Fourth point (appears on click 4)
->     \end{itemize}
-> \end{frame}
->
-> \begin{frame}{Comparison}
->     \begin{columns}
->         \begin{column}{0.5\textwidth}
->             \centering
->             \includegraphics<1>[width=\linewidth]{fig_a.pdf}
->             \includegraphics<2>[width=\linewidth]{fig_b.pdf}
->         \end{column}
->         \begin{column}{0.5\textwidth}
->             \centering
->             \begin{block}{Key Finding}
->                 \only<1>{Method A is faster}
->                 \only<2>{Method B is more accurate}
->             \end{block}
->         \end{column}
->     \end{columns}
-> \end{frame}
->
-> \end{document}
-> ```
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

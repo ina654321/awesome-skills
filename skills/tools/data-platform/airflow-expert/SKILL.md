@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Airflow Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -256,60 +257,110 @@ Phase 2: Fix
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **DAG** | Directed Acyclic Graph — workflow definition in Airflow |
-| **Task** | Single unit of work (operator, sensor, or python_callable) |
-| **XCom** | Cross-communication — share data between tasks |
-| **Operator** | Defines what a task does (PythonOperator, BashOperator, etc.) |
-| **Sensor** | Task that waits for external event (FileSensor, HttpSensor) |
-| **DAG Run** | Single execution of a DAG at a specific logical_date |
-| **TaskFlow API** | Decorator-based DAG authoring with @dag and @task |
-| **Dynamic Task Mapping** | Create tasks at runtime based on input data |
-| **Pool** | Shared worker slot pool for controlling concurrency |
-| **catchup** | Whether Airflow runs missed DAG runs on restart |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on airflow expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent airflow expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term airflow expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Daily ETL DAG with Idempotency
-
-**User:** "Create a daily ETL DAG that extracts from an API, transforms, and loads to PostgreSQL. It must be idempotent."
-
-**Airflow Expert:**
-> **Framework:** TaskFlow API with idempotent load (upsert).
->
-> → See [references/code-block-2.md](references/code-block-2.md)
->
-> **Key decisions:**
-> - `catchup=False` prevents backfilling on restart
-> - `upsert` makes load idempotent (safe to re-run)
-> - XCom data kept minimal (list of dicts, not raw API response)
-
-### Example 2: Dynamic DAG with Multiple Destinations
-
-**User:** "I have 50 tables to sync from MySQL to BigQuery. How do I automate this without writing 50 separate DAGs?"
-
-**Airflow Expert:**
-> **Framework:** Dynamic Task Mapping with a configuration table.
->
-> → See [references/code-block-3.md](references/code-block-3.md)
-
-### Example 3: Branching Based on External Condition
-
-**User:** "How do I skip certain tasks when the source system is down?"
-
-**Airflow Expert:**
-> **Framework:** BranchPythonOperator with downstream skip.
->
-> → See [references/code-block-4.md](references/code-block-4.md)
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | # | Edge Case | Severity | Handling |
 |---|-----------|----------|----------|

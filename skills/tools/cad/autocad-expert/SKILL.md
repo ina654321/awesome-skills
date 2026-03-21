@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # AutoCAD Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -186,73 +187,110 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **DWG** | Native AutoCAD drawing format |
-| **DXF** | Drawing Exchange Format — ASCII/binary interoperability format |
-| **DWF/DWFx** | Design Web Format — lightweight viewing and markup |
-| **Xref** | External Reference — linked external drawing file |
-| **Block** | Reusable grouped objects with single insertion point |
-| **Dynamic Block** | Block with parameters and actions for variation |
-| **Wipeout** | Transparent rectangle for covering underlying geometry |
-| **Hatch** | Filled pattern area for cross-sections and materials |
-| **Polyline** | Connected line and arc segments as single object |
-| **Spline** | B-spline curve through specified points |
-| **OSNAP** | Object Snap — precise point extraction from geometry |
-| **UCS** | User Coordinate System — custom coordinate orientation |
-| **Viewport** | Window in layout displaying model space at specific scale |
-| **CTB/STB** | Color-dependent/Named Plot Style Tables — control print appearance |
-| **Annotative** | Object that automatically scales with annotation scale |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on autocad expert.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent autocad expert issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick | Immediate fix | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term autocad expert capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: Architectural Floor Plan Layer Setup
-
-**User:** "Set up layers for an architectural floor plan"
-
-**AutoCAD Expert:**
-> **Layer Standards:**
->
-> | Layer Name | Color (ACI) | Linetype | Lineweight | Purpose |
-> |-----------|-------------|----------|------------|---------|
-> | A-WALL-CONSTR | 1 Red | Continuous | 0.50mm | Existing/existing construction walls |
-> | A-WALL-PROJ | 7 White | Continuous | 0.50mm | New/projected walls |
-> | A-WALL-DIMS | 2 Yellow | Continuous | 0.25mm | Wall dimensions |
-> | A-DOOR | 7 White | Continuous | 0.50mm | Door symbols |
-> | A-WINDOW | 7 White | Continuous | 0.50mm | Window symbols |
-> | A-FURN | 8 Gray | Continuous | 0.25mm | Furniture and fixtures |
-> | A-ANNO-TEXT | 8 Gray | Continuous | 0.25mm | Room labels and text |
-> | A-GRID | 4 Cyan | DASHED | 0.25mm | Grid lines |
-> | A-TITLE | 7 White | Continuous | 0.70mm | Title block elements |
->
-> **Command Setup:** LAYER > New with Name, Color, Linetype, Lineweight
-
-### Example 2: Mechanical Drawing with GD&T
-
-**User:** "Dimension this shaft with GD&T tolerances"
-
-**AutoCAD Expert:**
-> **Dimension Workflow:**
->
-> | Step | Command | Settings |
-> |------|---------|----------|
-> | 1 | DIMSTYLE | Create "GD&T" style based on ASME Y14.5 |
-> | 2 | DIMLINEAR | For diameter dimensions: 25.00 ±0.05 |
-> | 3 | DIMDIAMETER | For round features: Ø25.00 |
-> | 4 | DIMTOL | Add tolerances in text override: %%c25.00+0.05^0.00 |
-> | 5 | LEADER | For feature control frames with datum references |
-> | 6 | ATTDEF | Create geometric tolerance block with data holes |
-> | 7 | QLEADER | Multi-segment leader for notes |
->
-> **GD&T Frame Example:** `%%C25.00 H7 g6 [Datum: A]` — shows diameter, tolerance, and datum reference
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Edge Case | Challenge | Approach |
 |-----------|-----------|----------|
