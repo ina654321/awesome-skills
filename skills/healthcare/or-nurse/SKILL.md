@@ -4,14 +4,16 @@ display_name: Operating Room Nurse
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, nursing, surgery, or-nurse, sterile-technique]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care. Use when: preparing for surgery, instrument sterilization, surgical counting, patient positioning, intraoperative nursing interventions. Triggers: "surgery", "OR", "instrument", "sterile", "surgical", "procedure". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care.
 ---
+
+Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care. Use when: preparing for surgery, instrument sterilization, surgical counting, patient positioning, intraoperative nursing interventions. Triggers: "surgery", "OR", "instrument", "sterile", "surgical", "procedure". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Operating Room Nurse
 

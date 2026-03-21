@@ -1,20 +1,24 @@
 ---
+
 name: skill-writer
 display_name: Skill Writer
 author: neo.ai
 version: 22.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.2/10
 difficulty: expert
 category: special
 tags: [skill-creation, documentation, meta-skill, quality-assurance, best-practices]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Write, review, score, and upgrade skills for awesome-skills repository. Transforms AI into a senior skill architect with 100+ skills authored, established quality standards, and 16-section evaluation system. Write, review, score, and upgrade skills for...
   Write, review, score, and upgrade skills for awesome-skills repository. Transforms AI into a senior
   skill architect with 100+ skills authored, established quality standards, and 16-section evaluation system.
-  Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill", "skill best practices".
-  Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
+
+Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill", "skill best practices".
+Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 
 # Skill Writer
 
@@ -169,15 +173,17 @@ Before writing or reviewing any skill, pass it through these gates:
 | Category | Tool | Purpose |
 |----------|------|---------|
 | **Install** | [assets/INSTALL.md](assets/INSTALL.md) | Per-platform install guide (session + persistent + uninstall + verification) |
-| **Template** | [assets/TEMPLATE.md](assets/TEMPLATE.md) | Official 16-section skill structure template |
+| **Templates** | [assets/TEMPLATE.md](assets/TEMPLATE.md) | Standard 16-section technical skill template |
+| | [assets/TEMPLATE-enterprise.md](assets/TEMPLATE-enterprise.md) | Company culture/methodology skill template (Tesla-style) |
+| **Scripts** | [scripts/skill-scorer.sh](scripts/skill-scorer.sh) | Auto-calculate SDI, section count, quality metrics |
 | **Workflow** | [references/workflow.md](references/workflow.md) | Phase-gate workflows: create (4 phases) · review (6 steps) · upgrade (6 checks) · audit cadence |
-| **Standards** | [references/standards.md](references/standards.md) | Full Quality Rubric, metadata spec, 16-section checklist, token budget rules |
+| **Standards** | [references/standards.md](references/standards.md) | Full Quality Rubric, SDI calculation, section symbols, URL validation |
 | **Design Patterns** | [references/design-patterns.md](references/design-patterns.md) | 5 structural patterns (Tool Wrapper/Generator/Reviewer/Inversion/Pipeline) · selection matrix · composition · Iron Laws |
 | **Scenarios** | [references/scenarios.md](references/scenarios.md) | 4 full conversation flows (creation, review, upgrade, rejection) |
-| **Anti-Patterns** | [references/anti-patterns.md](references/anti-patterns.md) | 9 classified anti-patterns with ❌/✅ fixes |
+| **Anti-Patterns** | [references/anti-patterns.md](references/anti-patterns.md) | 9 technical + 8 enterprise practice anti-patterns with ❌/✅ fixes |
 | **Changelog** | [references/changelog.md](references/changelog.md) | Full version history (v12+) |
-| **Exemplars** | `skills/executive/ceo/SKILL.md`, `skills/software/software-architect/SKILL.md` | Reference implementations |
-| **Validation** | `yamllint filename.md` or yaml-validator.com | YAML metadata validation |
+| **Exemplars** | `skills/executive/ceo/SKILL.md`<br>`skills/enterprise/tesla/tesla-engineer/SKILL.md` | Technical reference (9.5)<br>Enterprise reference (9.1) |
+| **Validation** | `yamllint filename.md`<br>`./scripts/skill-scorer.sh` | YAML metadata validation<br>Structural quality metrics |
 
 ---
 
@@ -190,7 +196,13 @@ Score = (Prompt×0.20) + (Domain×0.25) + (Workflow×0.15) + (Risk×0.10) + (Exa
 Expert ⭐ ≥ 7.0 | Exemplary ⭐⭐ ≥ 9.0
 ```
 
-**Platform Standards** — `references/standards.md §7.11`: all 7 platforms; session + persistent; `[URL]` defined once.
+**Section Symbols** — `references/standards.md §7.12`: use `## 1. Name` not `## § 1 — Name`.
+
+**URL Validation** — `references/standards.md §7.13`: check path matches file location exactly.
+
+**Structure Density Index (SDI)** — `references/standards.md §7.14`: calculate with `(Tables×3 + Code×2 + Lists×1) / (Lines/100)`.
+
+**Enterprise Practice Skills** — `references/standards.md §7.15`: special requirements for culture/methodology skills.
 
 **Token Budget Quick Reference** — full rules: `references/standards.md §7.9`
 

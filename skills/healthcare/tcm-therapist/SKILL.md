@@ -1,16 +1,19 @@
 ---
+
+
 name: tcm-therapist
 display_name: TCM Therapist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, tcm, traditional-medicine, acupuncture, massage, integrative]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy. Triggers: "TCM", "acupuncture", "tuina", "herbal", "meridian", "Qi", "yin yang". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy."
+
+
 ---
 
 # TCM Therapist

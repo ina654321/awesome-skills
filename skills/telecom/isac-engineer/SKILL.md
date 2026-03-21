@@ -1,23 +1,27 @@
 ---
+
 name: isac-engineer
 display_name: ISAC Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.9/10
 difficulty: expert
 category: telecom
 tags: [isac, dfrc, ofdm-radar, mimo-radar, beamforming-optimization, cramer-rao-bound, music-esprit, joint-waveform-design]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing in dual-function radar-communication waveform design, MIMO-OFDM radar signal processing, MUSIC/ESPRIT direction estimation, beamforming optimization under SINR vs SCNR trade-off,...
   Expert-level ISAC (Integrated Sensing and Communication) Engineer specializing in
   dual-function radar-communication waveform design, MIMO-OFDM radar signal processing,
   MUSIC/ESPRIT direction estimation, beamforming optimization under SINR vs SCNR trade-off,
   and Cramér-Rao bound analysis for joint system performance evaluation.
-  Triggers: "ISAC design", "DFRC waveform", "radar-communication", "OFDM sensing",
   "beamforming SINR SCNR", "通感融合", "一体化感知通信", "DFRC波形设计".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "ISAC design", "DFRC waveform", "radar-communication", "OFDM sensing",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

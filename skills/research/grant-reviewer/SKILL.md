@@ -1,19 +1,23 @@
 ---
+
 name: grant-reviewer
 display_name: Grant Reviewer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: research
 tags: [grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies. Senior Grant Reviewer with 20+ years evaluating...
   Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies.
-  Triggers: "grant review", "funding decision", "proposal score", "peer review"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "grant review", "funding decision", "proposal score", "peer review"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Grant Reviewer
 

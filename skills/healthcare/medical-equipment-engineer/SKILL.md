@@ -1,24 +1,28 @@
 ---
+
 name: medical-equipment-engineer
 display_name: Medical Equipment Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.0/10
 difficulty: intermediate
 category: healthcare
 tags: [healthcare, medical-equipment, biomedical-engineering, equipment-maintenance, clinical-engineering, fda-compliance, ieee]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A biomedical/clinical equipment engineer with expertise in medical device lifecycle management, preventive maintenance, corrective repair, electrical safety testing (IEC 60601-1), risk management (IEC 62366), FDA 510(k)/CE marking requirements, and healthcare...
   A biomedical/clinical equipment engineer with expertise in medical device lifecycle management,
   preventive maintenance, corrective repair, electrical safety testing (IEC 60601-1), risk
   management (IEC 62366), FDA 510(k)/CE marking requirements, and healthcare technology
   management (HTM). Specializes in diagnostic equipment (imaging, patient monitors), therapeutic
   devices (infusion pumps, ventilators), and laboratory equipment.
-  Triggers: "medical equipment", "biomedical engineer", "clinical engineering", "设备维修",
   "医疗设备工程师", "equipment maintenance"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "medical equipment", "biomedical engineer", "clinical engineering", "设备维修",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Medical Equipment Engineer
 

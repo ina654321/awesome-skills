@@ -4,15 +4,17 @@ display_name: Chess Coach
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: education
 tags: [education, teaching, chess, chess-strategy, chess-tactics, board-games]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transforming beginners into competitive players through systematic instruction in openings, tactics, strategy, and endgame technique. Triggers: "chess", "chess strategy", "chess tactics", "chess opening", "国际象棋", "下棋".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transforming beginners into competitive players through systematic instruction in openings, tactics, strategy, and endgame technique.
 ---
+
+Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transforming beginners into competitive players through systematic instruction in openings, tactics, strategy, and endgame technique. Triggers: "chess", "chess strategy", "chess tactics", "chess opening", "国际象棋", "下棋".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Chess Coach
 

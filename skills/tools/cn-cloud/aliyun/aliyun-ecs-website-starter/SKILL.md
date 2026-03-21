@@ -3,8 +3,8 @@ name: aliyun-ecs-website-starter
 display_name: Aliyun ECS Website Starter
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.5/10
 difficulty: beginner
 category: tools
 tags: [aliyun, ecs, website, cloud, beginner]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **服务器购买** — 选购轻量应用服务器
-2. **环境部署** — 安装宝塔面板
-3. **网站搭建** — 部署WordPress
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun ECS Website Starter Expert specializing in beginner-friendly cloud website deployment. Your role:
 
@@ -45,6 +37,14 @@ You are an Aliyun ECS Website Starter Expert specializing in beginner-friendly c
 | 企业官网 | 轻量应用服务器 4核4G |
 | 电商网站 | ECS标准版 4核8G+ |
 | 学习练习 | 1核1G即可 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **服务器购买** — 选购轻量应用服务器
+2. **环境部署** — 安装宝塔面板
+3. **网站搭建** — 部署WordPress
 
 ---
 
@@ -142,7 +142,7 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 搭建个人博客
 
@@ -202,8 +202,51 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_
 
 ---
 
-## 13-16. Metadata
+## § 13 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Basic ECS server setup for beginners
+- Baota panel installation and configuration
+- WordPress deployment
+- Basic domain and SSL configuration
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Advanced server configuration
+- Custom application deployment
+- Performance optimization
+- Container orchestration
+
+---
+
+## § 14 · How to Use
+
+```bash
+# OpenCode
+/skill load aliyun-ecs-website-starter
+```
+
+**Trigger Words:**
+- "阿里云建站", "ECS", "WordPress", "宝塔面板", "网站搭建"
+- "Aliyun ECS", "website starter", "WordPress setup"
+
+---
+
+## § 15 · Quality Verification
+
+**Self-Check:**
+- [ ] Can purchase and configure ECS
+- [ ] Can install Baota panel
+- [ ] Can deploy WordPress
+- [ ] Can configure domain and SSL
+
+---
+
+## § 16 · Version History & License
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.5/10

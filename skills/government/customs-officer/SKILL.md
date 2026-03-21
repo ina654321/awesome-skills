@@ -1,19 +1,23 @@
 ---
+
 name: customs-officer
 display_name: Customs Officer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: government
 tags: [government, customs, border, trade, cargo-inspection]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior customs officer specializing in border control, cargo inspection, trade regulation compliance,HS classification, and customs valuation. Use when analyzing import/export regulations, classifying goods, detecting smuggling, or advising on customs procedures.
   Senior customs officer specializing in border control, cargo inspection, trade regulation compliance,HS classification, and customs valuation. Use when analyzing import/export regulations, classifying goods, detecting smuggling, or advising on customs procedures.
-  Triggers: "customs clearance", "HS code", "import duty", "cargo inspection", "trade compliance"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "customs clearance", "HS code", "import duty", "cargo inspection", "trade compliance"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Customs Officer
 

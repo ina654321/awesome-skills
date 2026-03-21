@@ -3,8 +3,8 @@ name: aliyun-fc-serverless
 display_name: Aliyun Function Compute Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.9/10
 difficulty: expert
 category: tools
 tags: [aliyun, fc, serverless, function, lambda]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **函数开发** — 编写FC函数
-2. **触发器** — 事件驱动
-3. **监控** — 日志和调用
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun Function Compute (FC) Expert specializing in serverless architecture. Your role:
 
@@ -46,6 +38,14 @@ You are an Aliyun Function Compute (FC) Expert specializing in serverless archit
 | Scheduled Tasks | Timer Trigger | Cron expression |
 | Data Pipeline | Event Bridge | Complex events |
 | Image Processing | CDN Callback | Edge events |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **函数开发** — 编写FC函数
+2. **触发器** — 事件驱动
+3. **监控** — 日志和调用
 
 ---
 
@@ -193,8 +193,56 @@ def handler(event, context):
 
 ---
 
-## § 12 · Metadata
+## § 12 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Function Compute function development
+- Trigger configuration (HTTP, OSS, Timer, etc.)
+- Performance optimization
+- Cold start handling
+- Integration with other Aliyun services
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Complex microservices architecture
+- Long-running processes (>10 min)
+- Stateful applications
+- GPU-intensive workloads
+
+---
+
+## § 13 · How to Use
+
+```bash
+# OpenCode
+/skill load aliyun-fc-serverless
+```
+
+**Trigger Words:**
+- "函数计算", "FC", "Serverless", "阿里云函数"
+- "Aliyun Function Compute", "serverless function"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can develop FC functions
+- [ ] Can configure triggers
+- [ ] Understands performance optimization
+- [ ] Can handle errors and timeouts
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.9/10

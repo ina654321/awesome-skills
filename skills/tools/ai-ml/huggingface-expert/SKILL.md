@@ -1,20 +1,22 @@
 ---
+
 name: huggingface-expert
 display_name: Hugging Face Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [huggingface, transformers, nlp, llm, machine-learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization, Text Generation Inference, pipeline optimization. Use when working with pretrained models, fine-tuning LLMs, or building NLP applications.
   Hugging Face expert: Transformers, Datasets, PEFT (LoRA/QLoRA), model fine-tuning, GGUF quantization,
   Text Generation Inference, pipeline optimization. Use when working with pretrained models, fine-tuning LLMs,
   or building NLP applications.
   Triggers: "Hugging Face", "transformers", "fine-tuning", "LLM", "HuggingFace Hub", "PEFT", "quantization", "LoRA".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Hugging Face Expert

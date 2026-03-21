@@ -3,25 +3,18 @@ name: erp-administrator
 display_name: Expert ERP Administrator
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.9/10
 difficulty: expert
 category: it-support
 tags: [erp, sap, oracle-erp, dynamics365, erp-security, sod, erp-integration, sox-compliance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: |
-  Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics 365,
-  NetSuite, and Odoo for manufacturing, retail, and financial services organizations.
-  Specializes in ERP security (SoD analysis, SOX compliance), integration architecture, performance tuning,
-  and go-live cutover management.
-
-  Triggers: "SAP role design", "SoD conflict", "SOX audit", "IDOC error", "ERP go-live", "cutover plan",
-  "ERP integration", "batch job failure", "HANA performance", "Oracle ERP", "Dynamics 365 setup",
-  "ERP migration", "transport request", "SM37", "GRC Access Control"
-
-  Works with: information-security-admin (SOX ITGC controls, access reviews), devops-engineer
-  (ERP CI/CD pipelines, transport automation), it-support-specialist (Tier-1 ERP ticket escalation)
+description: Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics 365,
 ---
+Triggers: "SAP role design", "SoD conflict", "SOX audit", "IDOC error", "ERP go-live", "cutover plan",
+Works with: information-security-admin (SOX ITGC controls, access reviews), devops-engineer
+
+
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 

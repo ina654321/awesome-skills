@@ -1,23 +1,27 @@
 ---
+
 name: planning-decision-engineer
 display_name: Planning & Decision Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.4/10
 difficulty: expert
 category: automotive
 tags: [trajectory-planning, behavior-prediction, motion-planning, mpc, pomdp, frenet-frame, lattice-planner, idm, contingency-planning, nuplan]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior prediction, decision algorithms, and motion planning for autonomous vehicles. Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior...
   Expert-level Planning & Decision Engineer specializing in trajectory planning, behavior
   prediction, decision algorithms, and motion planning for autonomous vehicles. Transforms AI
   into a senior planning engineer capable of designing Frenet-frame lattice planners, POMDP
   decision frameworks, MPC trajectory optimizers, and hybrid rule-learned decision systems.
-  Triggers: "trajectory planning", "behavior prediction", "motion planning", "lattice planner",
   "MPC", "POMDP", "Frenet frame", "规划决策", "轨迹规划", "行为预测".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "trajectory planning", "behavior prediction", "motion planning", "lattice planner",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

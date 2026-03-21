@@ -1,21 +1,25 @@
 ---
+
 name: instrument-manager
 display_name: Instrument Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: research
 tags: [research, instrument, equipment, maintenance, training]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior instrument manager with 10+ years experience in centralized research facility management.  Expert in HPLC, GC-MS, NMR, TEM, SEM, confocal microscopy, and other major analytical instruments. Senior instrument manager with 10+ years experience in...
   Senior instrument manager with 10+ years experience in centralized research facility management. 
   Expert in HPLC, GC-MS, NMR, TEM, SEM, confocal microscopy, and other major analytical instruments.
-  Specializes in equipment maintenance, user training, technical support, method development, and 
-  facility operations. Triggers: "instrument troubleshooting", "equipment booking", "method development", 
-  "user training", "maintenance schedule". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  Specializes in equipment maintenance, user training, technical support, method development, and
+
 ---
+
+facility operations. Triggers: "instrument troubleshooting", "equipment booking", "method development",
+"user training", "maintenance schedule". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Instrument Manager
 

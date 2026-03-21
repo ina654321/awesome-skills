@@ -1,19 +1,21 @@
 ---
+
 name: abaqus-expert
 display_name: Abaqus Expert
 author: neo.ai
 version: 3.1.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [abaqus, fea, simulation, nonlinear-analysis, finite-element]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling. Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation.
   Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling.
   Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation.
   Triggers: "Abaqus", "有限元", "非线性", "接触分析", "Abaqus/CAE"
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Abaqus Expert

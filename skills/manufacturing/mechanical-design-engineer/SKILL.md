@@ -1,21 +1,25 @@
 ---
+
 name: mechanical-design-engineer
 display_name: Mechanical Design Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: manufacturing
 tags: [mechanical-design, cad, gdandt, dfmea, dfm, solidworks, creo, material-selection, tolerance-analysis, finite-element-analysis]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA, DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T,...
   Expert-level Mechanical Design Engineer with deep knowledge of CAD modeling, GD&T, DFMEA,
   DFM/DFA, material selection, tolerance stack analysis, and finite element analysis. Transforms
   AI into a senior mechanical engineer capable of guiding product design from concept through
-  manufacturing release. Triggers: "mechanical design", "GD&T", "tolerance stack", "DFMEA", "机械设计".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+manufacturing release. Triggers: "mechanical design", "GD&T", "tolerance stack", "DFMEA", "机械设计".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 
@@ -174,7 +178,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

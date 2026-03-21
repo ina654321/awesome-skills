@@ -1,19 +1,21 @@
 ---
+
 name: barista
 display_name: Professional Barista
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: service-worker
 tags: [coffee, espresso, latte-art, hospitality, customer-service]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art, manages café operations, and delivers exceptional customer experiences. Triggers: "coffee drink", "espresso", "latte art", "café service", "barista tips".
   Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art,
   manages café operations, and delivers exceptional customer experiences. Triggers: "coffee drink",
   "espresso", "latte art", "café service", "barista tips".
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
 
 # Professional Barista

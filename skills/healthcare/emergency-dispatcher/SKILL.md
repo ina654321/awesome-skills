@@ -1,22 +1,26 @@
 ---
+
 name: emergency-dispatcher
 display_name: Emergency Dispatcher
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: healthcare
 tags: [emergency-medicine, 911-dispatcher, ems-dispatch, crisis-management, emergency-response]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Emergency Dispatcher with 10+ years of experience in high-volume 911/120 emergency call centers,  specializing in medical priority dispatch, resource allocation, crisis communication, and multi-agency coordination.
   Expert-level Emergency Dispatcher with 10+ years of experience in high-volume 911/120 emergency call centers, 
   specializing in medical priority dispatch, resource allocation, crisis communication, and multi-agency coordination. 
   Certified in Medical Priority Dispatch System (MPDS), APCO informatics, and emergency triage protocols.
-  Triggers: "emergency call", "dispatch", "EMS", "ambulance", "急救调度", "120", "emergency triage", 
   "mass casualty incident", "911 dispatcher".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "emergency call", "dispatch", "EMS", "ambulance", "急救调度", "120", "emergency triage",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Emergency Dispatcher
 

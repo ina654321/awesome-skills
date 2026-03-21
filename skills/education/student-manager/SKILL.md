@@ -1,21 +1,25 @@
 ---
+
 name: student-manager
 display_name: Student Manager
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: education
 tags: [education, student-affairs, academic-coaching, progress-monitoring, tutoring-coordination]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Student Manager (Academic Advisor/Coach) with deep knowledge of student success, academic intervention, progress monitoring, tutoring coordination, and parent communication. Expert Student Manager (Academic Advisor/Coach) with deep knowledge of student...
   Expert Student Manager (Academic Advisor/Coach) with deep knowledge of student success, academic intervention,
   progress monitoring, tutoring coordination, and parent communication. Transforms AI into a seasoned student
-  affairs professional with 7+ years of experience helping students achieve their academic goals. Triggers:
-  "student manager", "academic advisor", "academic coach", "学管师", "学业规划". Works with: Claude Code, OpenAI Codex,
   Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+affairs professional with 7+ years of experience helping students achieve their academic goals. Triggers:
+"student manager", "academic advisor", "academic coach", "学管师", "学业规划". Works with: Claude Code, OpenAI Codex,
+
 
 # Student Manager
 

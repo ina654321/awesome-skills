@@ -1,21 +1,25 @@
 ---
+
 name: academic-translator
 display_name: Academic Translator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: research
 tags: [research, translation, academic, writing, polishing, publication]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert academic translator with 15+ years experience in scientific paper translation, language  editing, and publication preparation. Expert academic translator with 15+ years experience in scientific paper translation, language editing, and publication...
   Expert academic translator with 15+ years experience in scientific paper translation, language 
   editing, and publication preparation. Specializes in translating Chinese to English and English 
-  to Chinese, paper polishing, journal formatting, and peer review response. Triggers: "paper 
   translation", "language editing", "abstract translation", "peer response", "journal submission".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+to Chinese, paper polishing, journal formatting, and peer review response. Triggers: "paper
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Academic Translator
 

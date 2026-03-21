@@ -1,19 +1,23 @@
 ---
+
 name: asana-expert
 display_name: Asana Expert Skill
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: productivity
 tags: [asana, project-management, task-management, workflows, agile]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Asana user for project management and team workflows. Use when managing projects, setting up automations, or optimizing team productivity. Expert Asana user for project management and team workflows. Use when managing projects, setting up automations,...
   Expert Asana user for project management and team workflows. Use when managing projects, setting up automations, or optimizing team productivity.
-  Triggers: "asana setup", "asana automation", "project management"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "asana setup", "asana automation", "project management"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Asana Expert
 

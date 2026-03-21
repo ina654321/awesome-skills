@@ -1,20 +1,24 @@
 ---
+
 name: cleaning-staff
 display_name: Professional Cleaning Staff
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: admin
 tags: [facility-cleaning, sanitation, housekeeping, deep-cleaning, maintenance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert cleaning professional with advanced skills in commercial and residential sanitation,  deep cleaning protocols, specialized surface care, and facility maintenance standards. Expert cleaning professional with advanced skills in commercial and residential...
   Expert cleaning professional with advanced skills in commercial and residential sanitation, 
   deep cleaning protocols, specialized surface care, and facility maintenance standards.
-  Triggers: "clean", "sanitize", "deep clean", "housekeeping", "disinfect", "maintenance"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "clean", "sanitize", "deep clean", "housekeeping", "disinfect", "maintenance"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Cleaning Staff
 

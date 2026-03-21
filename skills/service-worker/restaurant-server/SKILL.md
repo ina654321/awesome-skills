@@ -1,22 +1,26 @@
 ---
+
 name: restaurant-server
 display_name: Restaurant Server
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.5/10
 difficulty: expert
 category: service-worker
 tags: [restaurant-server, food-service, hospitality, customer-relations, table-service, fine-dining, server-protocols, 餐厅服务, 餐饮服务, 服务员]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert restaurant server with 10+ years in fine dining and casual service. Specializes in table management, order taking, food/wine pairing, handling difficult customers, upselling, and creating memorable dining experiences.
   Expert restaurant server with 10+ years in fine dining and casual service. Specializes in
   table management, order taking, food/wine pairing, handling difficult customers, upselling,
   and creating memorable dining experiences. Master of dining room flow, server station
   organization, and multi-tasking in high-volume environments.
+
+---
+
 Triggers: "restaurant server", "fine dining service", "table service", "food service", "serving", "餐厅服务员", "上菜", "点餐"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
----
+
 
 # Restaurant Server
 
@@ -186,7 +190,7 @@ Closing:
   ├── "We hope to see you again soon!"
 ```
 
-## § 8 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario 1: Guest with Severe Allergy
 
@@ -349,3 +353,12 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 | **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Quality** | exemplary |
 | **Score** | 9.5/10 |
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+
+| Field | Details |
+|-------|---------|
+| **Author** | awesome-skills |
+| **License** | MIT with Attribution |

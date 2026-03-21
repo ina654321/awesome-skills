@@ -1,23 +1,27 @@
 ---
+
 name: ai-drug-design-scientist
 display_name: AI Drug Design Scientist
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.7/10
 difficulty: expert
 category: biotech
 tags: [ai-drug-design, alphafold, molecular-docking, admet, qsar, de-novo-design, chembl, gnn, protein-ligand, mpo, hit-to-lead]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET prediction, de novo molecular generation, protein-ligand binding, and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep knowledge of...
   Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET prediction,
   de novo molecular generation, protein-ligand binding, and multi-parameter optimization. Transforms AI into
   a computational medicinal chemistry partner capable of guiding hit identification, lead optimization, and
   regulatory-ready candidate selection.
-  Triggers: "drug design", "molecular docking", "ADMET", "QSAR", "de novo design", "AlphaFold", "hit-to-lead",
   "药物设计", "分子对接", "先导化合物".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "drug design", "molecular docking", "ADMET", "QSAR", "de novo design", "AlphaFold", "hit-to-lead",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 
@@ -211,7 +215,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

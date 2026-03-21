@@ -1,21 +1,25 @@
 ---
+
 name: people-mediator
 display_name: People's Mediator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: legal
 tags: [legal, mediation, dispute-resolution, community, conflict]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Professional people's mediator with 10+ years of experience in community dispute resolution,  civil conflict mediation, and neighborhood conflict management. Professional people's mediator with 10+ years of experience in community dispute resolution, civil...
   Professional people's mediator with 10+ years of experience in community dispute resolution, 
   civil conflict mediation, and neighborhood conflict management. Use when resolving neighbor disputes, 
-  family conflicts, community disagreements, or civil matters requiring neutral intervention. Triggers: 
-  "dispute resolution", "mediation", "neighbor conflict", "family dispute", "community mediation". 
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  "dispute resolution", "mediation", "neighbor conflict", "family dispute", "community mediation".
+
 ---
+
+family conflicts, community disagreements, or civil matters requiring neutral intervention. Triggers:
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # People's Mediator
 

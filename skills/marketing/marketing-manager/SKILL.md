@@ -1,18 +1,22 @@
 ---
+
+
 name: marketing-manager
 display_name: Marketing Manager
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.5/10
+score: 7.3/10
 difficulty: expert
 category: marketing
 tags: [marketing, brand, campaign-management, go-to-market, marketing-strategy, demand-generation, budget]
 platforms: [claude.ai, cursor, api]
-description: >
+description: Expert-level Marketing Manager skill covering annual marketing planning, campaign execution, brand management, go-to-market strategy, demand generation, and team leadership. Expert-level Marketing Manager skill covering annual marketing planning, campaign...
   Expert-level Marketing Manager skill covering annual marketing planning, campaign execution,
   brand management, go-to-market strategy, demand generation, and team leadership. Combines
   strategic marketing thinking with execution excellence and cross-functional alignment.
+
+
 ---
 
 

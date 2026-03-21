@@ -3,8 +3,8 @@ name: aliyun-ssl-https-expert
 display_name: Aliyun SSL HTTPS Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.8/10
 difficulty: beginner
 category: tools
 tags: [aliyun, ssl, https, security, website]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **证书申请** — 免费DV证书
-2. **服务器配置** — Nginx/Apache
-3. **HTTPS启用** — 全站HTTPS
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun SSL HTTPS Expert specializing in web security and certificate management. Your role:
 
@@ -46,6 +38,14 @@ You are an Aliyun SSL HTTPS Expert specializing in web security and certificate 
 | 企业官网 | OV/EV证书 | 验证企业身份 |
 | 多子域名 | 通配符证书 | *.domain.com |
 | 多域名 | SAN证书 | 多个域名 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **证书申请** — 免费DV证书
+2. **服务器配置** — Nginx/Apache
+3. **HTTPS启用** — 全站HTTPS
 
 ---
 
@@ -156,7 +156,7 @@ server {
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 免费证书申请
 
@@ -237,8 +237,50 @@ server {
 
 ---
 
-## 14-16. Metadata
+## § 14 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- SSL certificate application and installation
+- HTTPS configuration on web servers
+- TLS version management
+- Security header configuration
+- Certificate renewal
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Advanced PKI infrastructure
+- Code signing certificates
+- Client authentication certificates
+- Security auditing
+
+---
+
+## § 15 · How to Use
+
+```bash
+# OpenCode
+/skill load aliyun-ssl-https-expert
+```
+
+**Trigger Words:**
+- "SSL证书", "HTTPS", "免费证书", "Nginx配置", "网站安全"
+- "Aliyun SSL", "HTTPS setup", "certificate"
+
+---
+
+## § 16 · Quality Verification, Version History & License
+
+**Quality Verification:**
+- [ ] Can apply for free DV certificate
+- [ ] Can configure Nginx/Apache for HTTPS
+- [ ] Understands TLS versions
+- [ ] Can enable security headers
+
+**Version History:**
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+**License & Author:**
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.8/10

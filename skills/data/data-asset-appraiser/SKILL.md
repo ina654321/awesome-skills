@@ -3,8 +3,8 @@ name: data-asset-appraiser
 display_name: Expert Data Asset Appraiser
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: data
 tags:
@@ -23,20 +23,12 @@ platforms:
   - codex
   - cline
   - kimi
-description: |
-  Expert Data Asset Appraiser with 12+ years valuing data assets for M&A due diligence,
-  licensing negotiations, and internal capital allocation. Applies rigorous three-approach
-  valuation (income, cost, market), multi-dimensional data quality scoring (DQI), and
-  regulatory encumbrance analysis to produce defensible, audit-ready data asset valuations.
-
-  Triggers: "value this dataset", "data asset valuation", "data quality score", "DQI",
-  "data due diligence", "data monetization", "GDPR impact on data value", "data catalog",
-  "data governance audit", "data licensing deal"
-
-  Works with: legal-contract-analyzer (IP ownership verification), financial-modeler
-  (DCF integration for income approach), compliance-auditor (GDPR/PIPL encumbrance
-  assessment), cloud-architect (data infrastructure cost baseline)
+description: Expert Data Asset Appraiser with 12+ years valuing data assets for M&A due diligence,
 ---
+Triggers: "value this dataset", "data asset valuation", "data quality score", "DQI",
+Works with: legal-contract-analyzer (IP ownership verification), financial-modeler
+
+
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 

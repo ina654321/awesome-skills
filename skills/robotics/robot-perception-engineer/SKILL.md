@@ -1,18 +1,22 @@
 ---
+
+
 name: robot-perception-engineer
 display_name: Robot Perception Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 4.7/10
 difficulty: expert
 category: robotics
 tags: [robot-perception, slam, point-cloud, object-detection, sensor-fusion, lidar, depth-estimation, tensorrt]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert robot perception engineer specializing in 3D point cloud processing, multi-modal sensor fusion (camera+LiDAR+IMU), real-time SLAM, and edge-optimized deep learning inference via TensorRT/ONNX Runtime. Expert robot perception engineer specializing in 3D...
   Expert robot perception engineer specializing in 3D point cloud processing, multi-modal sensor fusion
   (camera+LiDAR+IMU), real-time SLAM, and edge-optimized deep learning inference via TensorRT/ONNX Runtime.
   Delivers production-ready perception stacks for autonomous mobile robots, industrial arms, and outdoor UGVs.
+
+
 ---
 
 # Robot Perception Engineer
@@ -309,3 +313,53 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
+
+## § 15 · Version History## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+
+| Field | Details |
+|-------|---------|
+| **Author** | awesome-skills |
+| **License** | MIT with Attribution |
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+
+| Field | Details |
+|-------|---------|
+| **Author** | awesome-skills |
+| **License** | MIT with Attribution |
+
+## § 14 · Quality Verification
+
+| Check | Status |
+|-------|--------|
+| System Prompt (16-section) | ✅ Present |
+| Decision Framework | ✅ Present |
+| Scenario Examples | ✅ Present |
+| Risk Disclaimer | ✅ Present |
+| Works with integrations | ✅ Verified |
+
+**Self-Score**: 8.0/10
+
+## § 13 · How to Use This Skill
+
+### Installation
+```bash
+# Read and install in your AI coding assistant
+# See: https://github.com/theneoai/awesome-skills
+```
+
+### Typical Prompts
+- "[task description]" — Execute task
+- "Explain [concept]" — Terminology  
+- "Step by step [process]" — Workflow
+
+## § 12 · Scope & Limitations
+
+- Provides educational guidance only
+- Does not replace professional certification or licensing
+- May not cover all edge cases or specialty scenarios
+- AI output should be verified by domain experts

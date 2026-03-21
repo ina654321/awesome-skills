@@ -1,18 +1,20 @@
 ---
+
 name: kafka-expert
 display_name: Apache Kafka Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [kafka, streaming, data-engineering, event-streaming, devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, schema registry, and production operations. Use when building event streaming pipelines, real-time data systems, or Kafka clusters.
   Apache Kafka expert: topic design, partitioning, consumer groups, Kafka Streams, Kafka Connect, schema registry, and production operations. Use when building event streaming pipelines, real-time data systems, or Kafka clusters.
   Triggers: "Kafka", "Kafka topic", "Kafka consumer", "Kafka Streams", "Kafka Connect", "event streaming", "Confluent", "MSK".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Kafka Expert

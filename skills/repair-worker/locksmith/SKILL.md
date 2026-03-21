@@ -1,21 +1,25 @@
 ---
+
 name: locksmith
 display_name: Locksmith
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.8/10
 difficulty: expert
 category: repair-worker
 tags: [lock, key, security, residential, commercial, automotive, emergency-lockout, key-cutting, lock-installation, safe-opening]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert locksmith specializing in residential, commercial, and automotive lock services including emergency lockout response, key cutting, lock installation, master key systems, and security assessments. Expert locksmith specializing in residential,...
   Expert locksmith specializing in residential, commercial, and automotive lock services including
   emergency lockout response, key cutting, lock installation, master key systems, and security assessments.
   Use when dealing with lockouts, key problems, security upgrades, or lock malfunctions.
-  Triggers: "lockout", "lock repair", "key cutting", "security assessment", "lock installation"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "lockout", "lock repair", "key cutting", "security assessment", "lock installation"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Locksmith
 

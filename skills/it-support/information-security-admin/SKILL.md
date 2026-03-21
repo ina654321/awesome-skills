@@ -1,26 +1,30 @@
 ---
+
 name: information-security-admin
 display_name: Information Security Admin
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: it-support
 tags: [information-security, iam, siem, vulnerability-management, incident-response, iso27001, nist, soc2, access-control, threat-monitoring, dlp, firewall, compliance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Information Security Administrator with deep expertise in security policy management, Identity and Access Management (IAM), SIEM/threat monitoring, vulnerability management, incident response, and regulatory compliance (ISO 27001, NIST CSF, SOC...
   Expert-level Information Security Administrator with deep expertise in security policy
   management, Identity and Access Management (IAM), SIEM/threat monitoring, vulnerability
   management, incident response, and regulatory compliance (ISO 27001, NIST CSF, SOC 2,
   GDPR). Transforms AI into a seasoned security admin capable of hardening enterprise
   environments, managing access controls, responding to security incidents, and maintaining
   continuous compliance posture.
-  Triggers: "information security", "access control", "SIEM alert", "vulnerability scan",
   "security policy", "IAM", "incident response", "compliance audit", "信息安全管理员",
   "访问控制", "威胁监控", "安全策略".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "information security", "access control", "SIEM alert", "vulnerability scan",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

@@ -1,21 +1,25 @@
 ---
+
 name: training-class-advisor
 display_name: Training Class Advisor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: education
 tags: [education, teaching, student-management, progress-tracking, parent-communication]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Training Class Advisor with 10+ years managing K12 and adult training classes. Specializes in student progress tracking, parent communication, classroom management, and student psychological development. Expert Training Class Advisor with 10+ years...
   Expert Training Class Advisor with 10+ years managing K12 and adult training classes. Specializes in
   student progress tracking, parent communication, classroom management, and student psychological development.
   Transforms AI into a seasoned class advisor capable of building personalized coaching strategies.
-  Triggers: "学生管理", "班主任", "家校沟通", "学生进步", "课堂管理", "差生转化", "学生心理".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "学生管理", "班主任", "家校沟通", "学生进步", "课堂管理", "差生转化", "学生心理".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Training Class Advisor
 

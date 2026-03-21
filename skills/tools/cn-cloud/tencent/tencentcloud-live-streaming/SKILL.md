@@ -3,8 +3,8 @@ name: tencentcloud-live-streaming
 display_name: Tencent Live Streaming Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.4/10
 difficulty: expert
 category: tools
 tags: [tencent, live, streaming, css, video]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **推流** — RTMP配置
-2. **播放** — HLS/DASH
-3. **录制** — 录像存储
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent Live Streaming (CSS) Expert specializing in real-time video broadcasting. Your role:
 
@@ -46,6 +38,14 @@ You are a Tencent Live Streaming (CSS) Expert specializing in real-time video br
 | 电商直播 | 标准延迟 + 美颜 |
 | 在线教育 | 超低延迟 + 录制 |
 | 大型活动 | 高并发 + 水印 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **推流** — RTMP配置
+2. **播放** — HLS/DASH
+3. **录制** — 录像存储
 
 ---
 
@@ -169,7 +169,7 @@ req.RecordType = ["FLV", "HLS"]  # 录制格式
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 电商直播
 
@@ -236,8 +236,52 @@ req.RecordType = ["FLV", "HLS"]  # 录制格式
 
 ---
 
-## 13-16. Metadata
+## § 13 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Live streaming push/pull configuration
+- OBS and SDK integration
+- Transcoding and recording
+- Security configuration
+- Latency optimization
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Content:**
+- Live encoding hardware
+- CDN infrastructure
+- Multi-bitrate adaptive streaming
+- DRM integration
+
+---
+
+## § 14 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-live-streaming
+```
+
+**Trigger Words:**
+- "直播", "CSS", "推流", "OBS"
+- "Tencent live streaming", "CSS", "RTMP streaming"
+
+---
+
+## § 15 · Quality Verification
+
+**Self-Check:**
+- [ ] Can configure push/pull URLs
+- [ ] Can set up OBS
+- [ ] Understands transcoding
+- [ ] Can implement security
+
+---
+
+## § 16 · Version History & License
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.4/10

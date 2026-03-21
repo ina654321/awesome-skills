@@ -1,18 +1,20 @@
 ---
+
 name: jira-expert
 display_name: Jira Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [jira, project-management, agile, scrum, jql, issue-tracking, workflow]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation, and permissions. Use when managing projects, configuring workflows, or tracking issues in Jira.
   Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation, and permissions. Use when managing projects, configuring workflows, or tracking issues in Jira.
   Triggers: "Jira", "JQL", "Sprint", "workflow", "automation", "Jira query", "issue tracking".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Jira Expert

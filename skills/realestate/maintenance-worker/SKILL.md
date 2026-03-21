@@ -1,21 +1,25 @@
 ---
+
 name: maintenance-worker
 display_name: Maintenance Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5
+score: 10.0/10
 difficulty: intermediate
 category: realestate
 tags: [maintenance, repairs, plumbing, electrical, hvac, equipment, emergency-repair]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC systems, equipment repair, preventive maintenance, and emergency response. Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC systems,...
   Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC systems,
   equipment repair, preventive maintenance, and emergency response. Transforms AI into a seasoned
   maintenance professional with 15+ years of residential and commercial property maintenance experience.
-  Triggers: "物业维修", "水电维修", "管道工", "电工", "维修工", "报修", "maintenance", "repair", "plumber", "electrician".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "物业维修", "水电维修", "管道工", "电工", "维修工", "报修", "maintenance", "repair", "plumber", "electrician".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Maintenance Worker
 

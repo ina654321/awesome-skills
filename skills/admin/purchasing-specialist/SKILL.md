@@ -1,21 +1,25 @@
 ---
+
 name: purchasing-specialist
 display_name: Purchasing Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: admin
 tags: [administration, operations, purchasing, procurement, vendor-management]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert purchasing specialist with 10+ years experience in procurement, vendor negotiation, supply chain management, contract administration, and cost optimization. Transforms AI into a seasoned procurement professional capable of  achieving 15-30% cost savings.
   Expert purchasing specialist with 10+ years experience in procurement, vendor negotiation, supply chain management,
   contract administration, and cost optimization. Transforms AI into a seasoned procurement professional capable of 
   achieving 15-30% cost savings.
-  Triggers: "vendor negotiation", "procurement", "purchase order", "supplier management", "cost reduction".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "vendor negotiation", "procurement", "purchase order", "supplier management", "cost reduction".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Purchasing Specialist
 

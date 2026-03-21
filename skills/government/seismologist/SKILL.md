@@ -1,19 +1,23 @@
 ---
+
 name: seismologist
 display_name: Seismologist/Earthquake Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: government
 tags: [government, seismology, earthquake, early-warning, hazard-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication. Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication.
   Senior seismologist specializing in earthquake monitoring, seismic hazard analysis, early warning systems, and risk communication. Use when analyzing earthquake data, interpreting seismic hazard maps, evaluating building codes, or advising on earthquake preparedness.
-  Triggers: "earthquake", "seismic hazard", "earthquake early warning", "seismic risk", "aftershock"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "earthquake", "seismic hazard", "earthquake early warning", "seismic risk", "aftershock"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Seismologist
 

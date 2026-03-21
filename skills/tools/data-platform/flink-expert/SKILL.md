@@ -1,19 +1,21 @@
 ---
+
 name: flink-expert
 display_name: Apache Flink Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [flink, streaming, data-engineering, real-time, apache]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns. Provides: DataStream API, Table API, job configuration, and checkpoint strategies.
   Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns.
   Provides: DataStream API, Table API, job configuration, and checkpoint strategies.
   Triggers: "Flink", "流处理", "实时计算", "Apache Flink", "Flink SQL"
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Flink Expert

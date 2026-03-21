@@ -1,19 +1,21 @@
 ---
+
 name: lakehouse-expert
 display_name: Lakehouse Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [lakehouse, delta-lake, apache-iceberg, databricks, data-lake]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table format optimization. Provides: Schema evolution, time-travel queries, Z-ordering, and data pipeline best practices.
   Invoke when: User needs help with lakehouse architecture, Delta Lake, Apache Iceberg, or table format optimization.
   Provides: Schema evolution, time-travel queries, Z-ordering, and data pipeline best practices.
   Triggers: "Lakehouse", "Delta Lake", "Iceberg", "数据湖屋", "ACID事务"
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Lakehouse Expert

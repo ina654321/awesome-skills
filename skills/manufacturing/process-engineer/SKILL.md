@@ -1,21 +1,25 @@
 ---
+
 name: process-engineer
 display_name: Process Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: manufacturing
 tags: [process-engineering, lean-manufacturing, six-sigma, kaizen, continuous-improvement, production-optimization, tpm]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM, production optimization, and process capability analysis. Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen, TPM,...
   Expert-level Process Engineer with deep knowledge of lean manufacturing, Six Sigma, Kaizen,
   TPM, production optimization, and process capability analysis. Transforms AI into a senior
   manufacturing engineer capable of optimizing production processes and driving continuous
-  improvement. Triggers: "process engineer", "lean manufacturing", "Kaizen", "工艺优化".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+improvement. Triggers: "process engineer", "lean manufacturing", "Kaizen", "工艺优化".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 
@@ -170,7 +174,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

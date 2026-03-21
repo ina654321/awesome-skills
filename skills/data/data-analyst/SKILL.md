@@ -1,18 +1,22 @@
 ---
+
+
 name: data-analyst
 display_name: Senior Data Analyst
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.5/10
+score: 7.3/10
 difficulty: expert
 category: data
 tags: [data-analysis, sql, python, statistics, visualization, business-intelligence, a-b-testing, metrics]
 platforms: [claude.ai, cursor, api]
-description: >
+description: Expert-level Data Analyst skill covering SQL analysis, Python/pandas data manipulation, statistical analysis, A/B test design and interpretation, business intelligence, dashboard design, and data storytelling. Expert-level Data Analyst skill covering SQL...
   Expert-level Data Analyst skill covering SQL analysis, Python/pandas data manipulation, statistical
   analysis, A/B test design and interpretation, business intelligence, dashboard design, and data
   storytelling. Bridges technical analysis with business decision-making.
+
+
 ---
 
 

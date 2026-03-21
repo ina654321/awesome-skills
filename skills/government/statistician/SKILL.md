@@ -1,19 +1,23 @@
 ---
+
 name: statistician
 display_name: Statistician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: government
 tags: [statistics, data-analysis, census, survey, population, government-data]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert statistician specializing in data collection methodology, statistical analysis, survey design, and census operations. Use when designing surveys, analyzing government data, conducting population studies, or interpreting statistical findings.
   Expert statistician specializing in data collection methodology, statistical analysis, survey design, and census operations. Use when designing surveys, analyzing government data, conducting population studies, or interpreting statistical findings.
-  Triggers: "statistical analysis", "survey design", "census", "data collection", "population study", "confidence interval"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "statistical analysis", "survey design", "census", "data collection", "population study", "confidence interval"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Statistician
 

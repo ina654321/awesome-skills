@@ -1,18 +1,20 @@
 ---
+
 name: notion-expert
 display_name: Notion Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: tools
 tags: [notion, productivity, wiki, database, project-management, api, templates]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Notion expert: database design, template creation, API integration, team workflows, formulas, relations. Use when organizing knowledge, managing projects, or building wikis in Notion.
   Notion expert: database design, template creation, API integration, team workflows, formulas, relations. Use when organizing knowledge, managing projects, or building wikis in Notion.
   Triggers: "Notion", "database", "relations", "formulas", "API", "templates", "wiki".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Notion Expert

@@ -3,8 +3,8 @@ name: aliyun-rds-starter
 display_name: Aliyun RDS Starter
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.4/10
 difficulty: beginner
 category: tools
 tags: [aliyun, rds, database, cloud]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **购买** — RDS实例配置
-2. **连接** — 内/外网访问
-3. **备份** — 自动备份设置
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun RDS Starter Expert specializing in cloud database deployment. Your role:
 
@@ -46,6 +38,14 @@ You are an Aliyun RDS Starter Expert specializing in cloud database deployment. 
 | Enterprise apps | PostgreSQL | 高级特性 |
 | Microsoft stack | SQL Server | Windows集成 |
 | WordPress | MySQL 5.7 | 兼容性好 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **购买** — RDS实例配置
+2. **连接** — 内/外网访问
+3. **备份** — 自动备份设置
 
 ---
 
@@ -157,7 +157,7 @@ BACKUP DATABASE mydb TO DISK = 'path';
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 WordPress连接RDS
 
@@ -215,18 +215,56 @@ BACKUP DATABASE mydb TO DISK = 'path';
 
 ---
 
-## § 12 · Performance Optimization
+## § 12 · Scope & Limitations
 
-| 优化项 | 方法 |
-|--------|------|
-| 索引优化 | 分析慢查询 |
-| 参数调整 | 配置缓冲池大小 |
-| 连接池 | 使用Druid/HikariCP |
+**In Scope:**
+- RDS instance selection and configuration
+- Database connection and access
+- Backup and recovery setup
+- Basic performance optimization
+- Read replica configuration
+
+**Out of Scope:**
+- Complex SQL query optimization
+- Database cluster architecture design
+- Data migration from non-MySQL databases
+- Advanced security configurations
 
 ---
 
-## 13-16. Metadata
+## § 13 · How to Use
 
-**Self-Score:** 9.5/10 — Exemplary
+```bash
+# OpenCode
+/skill load aliyun-rds-starter
+```
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Trigger Words:**
+- "RDS", "云数据库", "阿里云数据库"
+- "Aliyun RDS", "database setup", "MySQL"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can select appropriate RDS instance type
+- [ ] Can configure connectivity (whitelist, SSL)
+- [ ] Understands backup policies
+- [ ] Can connect via different methods
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.4/10

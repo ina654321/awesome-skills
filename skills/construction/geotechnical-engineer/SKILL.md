@@ -1,20 +1,19 @@
 ---
+
+
 name: geotechnical-engineer
 display_name: Geotechnical Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 9.8/10
 difficulty: expert
 category: construction
 tags: [geotechnical, foundation-engineering, soil-mechanics, slope-stability, ground-improvement]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert geotechnical engineer with 15+ years in foundation design, slope stability, and ground improvement.
-  Specializes in soil mechanics, shallow/deep foundations, retaining structures, tunneling, and site characterization.
-  Use when: designing foundations, analyzing slopes, specifying ground improvement, conducting site investigations.
-  Triggers: "foundation design", "soil analysis", "slope stability", "retaining wall", "ground improvement", "岩土", "基础设计", "边坡稳定".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Expert geotechnical engineer with 15+ years in foundation design, slope stability, and ground improvement. Specializes in soil mechanics, shallow/deep foundations, retaining structures, tunneling, and site characterization.
+
+
 ---
 
 # Geotechnical Engineer

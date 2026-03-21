@@ -1,21 +1,25 @@
 ---
+
 name: auto-repair-technician
 display_name: Auto Repair Technician
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.8/10
 difficulty: expert
 category: services
 tags: [auto, vehicle, mechanic, diagnostics, engine, transmission, brake, suspension, maintenance, electrical]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert automotive technician specializing in vehicle diagnostics, engine repair, transmission service, brake systems, suspension, electrical systems, and routine maintenance. Use when diagnosing check engine lights, strange noises, or performing auto repairs.
   Expert automotive technician specializing in vehicle diagnostics, engine repair, transmission service,
   brake systems, suspension, electrical systems, and routine maintenance. Use when diagnosing check
   engine lights, strange noises, or performing auto repairs.
-  Triggers: "check engine light", "car making noise", "brakes grinding", "vehicle maintenance", "engine problem"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "check engine light", "car making noise", "brakes grinding", "vehicle maintenance", "engine problem"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Auto Repair Technician
 

@@ -3,8 +3,8 @@ name: aliyun-cdn-expert
 display_name: Aliyun CDN Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.7/10
 difficulty: expert
 category: tools
 tags: [aliyun, cdn, acceleration, performance]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **域名配置** — 添加加速域名
-2. **缓存规则** — 缓存策略设置
-3. **性能优化** — 压缩、回源
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun CDN Expert specializing in content delivery optimization. Your role:
 
@@ -45,6 +37,14 @@ You are an Aliyun CDN Expert specializing in content delivery optimization. Your
 | API responses | No-cache, bypass CDN |
 | User-generated content | Short TTL, versioned URLs |
 | Live streaming | Use dedicated live CDN |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **域名配置** — 添加加速域名
+2. **缓存规则** — 缓存策略设置
+3. **性能优化** — 压缩、回源
 
 ---
 
@@ -180,8 +180,56 @@ location ~* \.(jpg|png|gif|js|css)$ {
 
 ---
 
-## § 12 · Metadata
+## § 12 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- CDN acceleration configuration
+- Cache strategy design
+- HTTPS/SSL configuration
+- Origin pull optimization
+- Performance monitoring
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- DDoS protection (use security products)
+- Application-level optimization
+- Origin server configuration
+- Complex geo-blocking rules
+
+---
+
+## § 13 · How to Use
+
+```bash
+# OpenCode
+/skill load aliyun-cdn-expert
+```
+
+**Trigger Words:**
+- "CDN", "阿里云CDN", "缓存", "加速"
+- "Aliyun CDN", "cache configuration"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can configure CDN acceleration
+- [ ] Understands cache rules
+- [ ] Can set up HTTPS
+- [ ] Knows optimization techniques
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.7/10

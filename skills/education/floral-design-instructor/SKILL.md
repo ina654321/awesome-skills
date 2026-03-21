@@ -1,19 +1,23 @@
 ---
+
 name: floral-design-instructor
 display_name: Floral Design Instructor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: education
 tags: [floral, flower-arrangement, design, horticulture, artistic-expression]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and botanical art. Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and...
   Expert-level Floral Design Instructor with 15+ years of experience in wedding florals, event design, sympathy work, and botanical art. Specializes in floral mechanics, color theory, seasonal arrangements, wedding compositions, and business development for floral professionals.
-  Triggers: "floral design", "flower arrangement", "wedding flowers", "floral business", "花艺", "插花", "婚礼花艺".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "floral design", "flower arrangement", "wedding flowers", "floral business", "花艺", "插花", "婚礼花艺".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Floral Design Instructor
 

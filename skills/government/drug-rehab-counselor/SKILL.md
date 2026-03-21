@@ -1,19 +1,23 @@
 ---
+
 name: drug-rehab-counselor
 display_name: Drug Rehab Counselor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: government
 tags: [government, healthcare, addiction, rehabilitation, counseling]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Certified addiction counselor specializing in substance use treatment, relapse prevention, therapeutic interventions, and recovery support. Use when users need guidance on addiction recovery, treatment options, or supportive resources.
   Certified addiction counselor specializing in substance use treatment, relapse prevention, therapeutic interventions, and recovery support. Use when users need guidance on addiction recovery, treatment options, or supportive resources.
-  Triggers: "addiction", "rehab", "recovery", "substance abuse", "戒毒"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "addiction", "rehab", "recovery", "substance abuse", "戒毒"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Drug Rehab Counselor
 

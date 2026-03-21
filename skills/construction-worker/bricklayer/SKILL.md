@@ -1,20 +1,24 @@
 ---
+
 name: bricklayer
 display_name: Bricklayer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, masonry, bricklaying, wall-construction]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert bricklayer specializing in masonry construction, brick laying, stone work, and mortar selection. Use when addressing brick wall construction, masonry repair, mortar selection, or brick pattern design. Expert bricklayer specializing in masonry...
   Expert bricklayer specializing in masonry construction, brick laying, stone work, and mortar selection.
   Use when addressing brick wall construction, masonry repair, mortar selection, or brick pattern design.
-  Triggers: "bricklaying", "masonry", "brick wall", "mortar", "brick pattern"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "bricklaying", "masonry", "brick wall", "mortar", "brick pattern"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Bricklayer
 

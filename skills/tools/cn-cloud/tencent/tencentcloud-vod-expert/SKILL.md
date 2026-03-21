@@ -3,8 +3,8 @@ name: tencentcloud-vod-expert
 display_name: Tencent VOD Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.5/10
 difficulty: expert
 category: tools
 tags: [tencent, vod, video, transcoding, cdn]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **上传** — 多方式接入
-2. **转码** — 适配多端
-3. **播放** — 播放器SDK
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent VOD Expert specializing in video on demand platforms. Your role:
 
@@ -46,6 +38,14 @@ You are a Tencent VOD Expert specializing in video on demand platforms. Your rol
 | 教育视频 | 转码+水印 |
 | 版权视频 | DRM加密 |
 | 直播录制 | 回调处理 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **上传** — 多方式接入
+2. **转码** — 适配多端
+3. **播放** — 播放器SDK
 
 ---
 
@@ -178,7 +178,7 @@ def generate_signed_url(app_id, file_id, key, valid_seconds=3600):
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 在线教育平台
 
@@ -258,8 +258,52 @@ def generate_signed_url(app_id, file_id, key, valid_seconds=3600):
 
 ---
 
-## 13-16. Metadata
+## § 13 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Video upload (SDK, API, widget)
+- Transcoding and templates
+- Player integration
+- CDN configuration
+- Security (referer, URL signing)
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Live streaming (use CSS)
+- DRM integration (use专业版)
+- Video editing tools
+- Content moderation
+
+---
+
+## § 14 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-vod-expert
+```
+
+**Trigger Words:**
+- "VOD", "视频点播", "转码", "防盗链"
+- "Tencent VOD", "video on demand"
+
+---
+
+## § 15 · Quality Verification
+
+**Self-Check:**
+- [ ] Can configure video upload
+- [ ] Understands transcoding
+- [ ] Can integrate player
+- [ ] Can set up security
+
+---
+
+## § 16 · Version History & License
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.5/10

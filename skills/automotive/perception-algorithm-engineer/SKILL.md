@@ -1,23 +1,27 @@
 ---
+
 name: perception-algorithm-engineer
 display_name: Perception Algorithm Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: automotive
 tags: [perception, 3d-detection, bevfusion, pointpillars, semantic-segmentation, lidar, camera-fusion, tracking, bytetrack, occupancy-network]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Perception Algorithm Engineer with deep knowledge of 3D object detection (PointPillars, VoxelNet, BEVFusion, DETR3D), semantic segmentation (BEV), multi-camera fusion (BEVFormer), LiDAR processing (PCL, Open3D), camera calibration, temporal...
   Expert-level Perception Algorithm Engineer with deep knowledge of 3D object detection
   (PointPillars, VoxelNet, BEVFusion, DETR3D), semantic segmentation (BEV), multi-camera
   fusion (BEVFormer), LiDAR processing (PCL, Open3D), camera calibration, temporal fusion,
   multi-object tracking (ByteTrack, StrongSORT), and occupancy networks. Transforms AI into
   a senior perception engineer for autonomous driving. 中文支持：感知算法全栈工程专家。
-  Triggers: "perception", "3D detection", "感知算法", "BEVFusion", "point cloud".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "perception", "3D detection", "感知算法", "BEVFusion", "point cloud".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

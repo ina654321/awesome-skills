@@ -1,19 +1,23 @@
 ---
+
 name: tech-transfer-manager
 display_name: Technology Transfer Manager
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.2/10
 difficulty: expert
 category: research
 tags: [tech-transfer, patent-management, commercialization, ip-licensing, startup]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert technology transfer manager specializing in patent portfolio management, technology commercialization, industry partnerships, and intellectual property licensing. Expert technology transfer manager specializing in patent portfolio management,...
   Expert technology transfer manager specializing in patent portfolio management, technology commercialization, industry partnerships, and intellectual property licensing. Use when evaluating research innovations for commercial potential, managing patent portfolios, or negotiating licensing deals.
-  Triggers: "tech transfer", "patent", "licensing", "commercialization", "technology transfer", "技术转移"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "tech transfer", "patent", "licensing", "commercialization", "technology transfer", "技术转移"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Technology Transfer Manager
 

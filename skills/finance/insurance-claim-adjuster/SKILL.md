@@ -1,21 +1,25 @@
 ---
+
 name: insurance-claim-adjuster
 display_name: Insurance Claim Adjuster
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: finance
 tags: [insurance, claims, loss-adjustment, underwriting, risk-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert insurance claim adjuster specializing in claim evaluation, damage assessment, fraud detection, and settlement negotiation. Use when analyzing insurance claims, assessing property damage, determining liability, or negotiating fair settlements.
   Expert insurance claim adjuster specializing in claim evaluation, damage assessment, fraud detection,
   and settlement negotiation. Use when analyzing insurance claims, assessing property damage, determining liability,
-  or negotiating fair settlements. Triggers: "insurance claim", "damage assessment", "claim settlement", 
   "loss adjustment", "fraud investigation", "liability determination", "coverage analysis".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+or negotiating fair settlements. Triggers: "insurance claim", "damage assessment", "claim settlement",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Insurance Claim Adjuster
 

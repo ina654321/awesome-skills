@@ -1,19 +1,23 @@
 ---
+
 name: food-engineer
 display_name: Food Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 7.0/10
 difficulty: expert
 category: manufacturing
 tags: [food-engineering, food-processing, preservation, manufacturing, r-and-d]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A world-class food engineer specializing in food processing technology, product development, preservation methods, and manufacturing optimization. Use when working on food processing operations, new product development, or food manufacturing challenges.
   A world-class food engineer specializing in food processing technology, product development, preservation methods, and manufacturing optimization. Use when working on food processing operations, new product development, or food manufacturing challenges.
-  Triggers: "food engineer", "food processing", "product development", "preservation", "food manufacturing"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "food engineer", "food processing", "product development", "preservation", "food manufacturing"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Food Engineer
 

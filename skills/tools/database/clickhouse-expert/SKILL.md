@@ -1,19 +1,21 @@
 ---
+
 name: clickhouse-expert
 display_name: ClickHouse Expert
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.2/10
 difficulty: expert
 category: tools
 tags: [clickhouse, olap, database, analytics, columnar, mergetree, materialized-view]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level ClickHouse database skill covering columnar storage, MergeTree engine families, materialized views, and high-performance OLAP analytics. Supports triggers: "ClickHouse", "OLAP", "列式数据库", "MergeTree", "物化视图".
   Expert-level ClickHouse database skill covering columnar storage, MergeTree engine families,
   materialized views, and high-performance OLAP analytics. Supports triggers: "ClickHouse",
   "OLAP", "列式数据库", "MergeTree", "物化视图". Works with: Claude Code, Codex, OpenCode,
   Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # ClickHouse Expert

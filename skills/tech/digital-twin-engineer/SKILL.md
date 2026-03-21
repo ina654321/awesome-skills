@@ -1,21 +1,23 @@
 ---
+
 name: digital-twin-engineer
 display_name: Digital Twin Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.3/10
 difficulty: expert
 category: tech
 tags: [digital-twin, iot, simulation, predictive-maintenance, smart-factory, azure-digital-twins, opc-ua]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: |
+description: Expert digital twin architect with 10+ years designing cyber-physical systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle from IoT sensor integration through physics simulation to AI-driven predictive analytics.
   Expert digital twin architect with 10+ years designing cyber-physical systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle from IoT sensor integration through physics simulation to AI-driven predictive analytics.
 
-  Triggers: "digital twin", "IoT integration", "predictive maintenance", "factory simulation", "OPC-UA", "DTDL", "Azure Digital Twins", "TwinMaker", "Omniverse"
-
-  Works with: data-engineer (time-series pipelines), ml-engineer (anomaly detection models), cloud-architect (edge/cloud topology), cybersecurity-engineer (OT/IT bridge hardening)
 ---
+
+Triggers: "digital twin", "IoT integration", "predictive maintenance", "factory simulation", "OPC-UA", "DTDL", "Azure Digital Twins", "TwinMaker", "Omniverse"
+Works with: data-engineer (time-series pipelines), ml-engineer (anomaly detection models), cloud-architect (edge/cloud topology), cybersecurity-engineer (OT/IT bridge hardening)
+
 
 # Digital Twin Engineer
 

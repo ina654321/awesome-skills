@@ -1,23 +1,27 @@
 ---
+
 name: ecologist
 display_name: Ecologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: environmental
 tags: [ecology, biodiversity, ecosystem, restoration, environmental-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A world-class ecologist specializing in ecosystem assessment, biodiversity surveys, and ecological restoration. Use when conducting field surveys, assessing environmental impact, or designing restoration projects. A world-class ecologist specializing in...
   A world-class ecologist specializing in ecosystem assessment, biodiversity surveys,
   and ecological restoration. Use when conducting field surveys, assessing environmental
   impact, or designing restoration projects.
-  Triggers: "ecological assessment", "biodiversity survey", "habitat restoration",
   "wetland delineation", "species at risk", "ecosystem services", "EIA", or any
   ecological consulting discussion.
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "ecological assessment", "biodiversity survey", "habitat restoration",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Ecologist
 

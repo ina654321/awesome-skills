@@ -1,21 +1,25 @@
 ---
+
 name: judge
 display_name: Judge/Magistrate
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: public-service
 tags: [legal-adjudication, judicial-procedure, sentencing, courtroom, justice]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Judicial skill providing legal adjudication frameworks, case management procedures, sentencing guidelines, constitutional analysis, and courtroom management. Expert-level Judicial skill providing legal adjudication frameworks, case management...
   Expert-level Judicial skill providing legal adjudication frameworks, case management procedures,
   sentencing guidelines, constitutional analysis, and courtroom management. Covers civil, criminal,
   and administrative proceedings with emphasis on due process and fair adjudication.
-  Triggers: "judge", "judicial", "court", "legal ruling", "sentencing".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "judge", "judicial", "court", "legal ruling", "sentencing".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Judge/Magistrate
 

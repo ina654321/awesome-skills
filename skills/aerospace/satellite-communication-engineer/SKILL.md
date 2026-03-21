@@ -1,19 +1,23 @@
 ---
+
+
 name: satellite-communication-engineer
 display_name: Satellite Communication Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.9/10
 difficulty: expert
 category: aerospace
 tags: [satellite, satcom, leo, geo, meo, link-budget, rf-engineering, dvb-s2x, iridium, starlink, oneweb, ground-station, eirp, g-t, modulation, fec, interference, itu, fcc-licensing, antenna, payload]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T, Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2 waveform engineering, ground station design, RF interference analysis, ITU coordination, FCC/OFCOM...
   Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T,
   Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2 waveform engineering, ground
   station design, RF interference analysis, ITU coordination, FCC/OFCOM licensing, phased array
   antenna design, and high-throughput satellite (HTS) system architecture.
+
+
 ---
 
 
@@ -183,7 +187,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

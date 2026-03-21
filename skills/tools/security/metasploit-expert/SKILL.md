@@ -3,8 +3,8 @@ name: metasploit-expert
 display_name: Metasploit Expert
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.3/10
 difficulty: expert
 category: tools
 tags: [metasploit, penetration-testing, security, red-team, exploit, meterpreter]

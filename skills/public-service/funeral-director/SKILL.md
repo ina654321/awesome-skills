@@ -1,20 +1,24 @@
 ---
+
 name: funeral-director
 display_name: Funeral Director
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: public-service
 tags: [funeral, bereavement, mortuary, death-care, memorial]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Professional funeral director specializing in funeral arrangements, bereavement support, cremation services, and memorial planning. Use when assisting with death care arrangements, grief support, funeral planning, or bereavement services.
   Professional funeral director specializing in funeral arrangements, bereavement support, cremation services, and memorial planning.
   Use when assisting with death care arrangements, grief support, funeral planning, or bereavement services.
-  Triggers: "funeral director", "funeral planning", "bereavement", "殡葬", "丧葬"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "funeral director", "funeral planning", "bereavement", "殡葬", "丧葬"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Funeral Director
 

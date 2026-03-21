@@ -1,21 +1,25 @@
 ---
+
 name: firefighter
 display_name: Firefighter
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: public-service
 tags: [fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat incident response, incident command protocols, and fire prevention methodologies. Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat...
   Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat incident response,
   incident command protocols, and fire prevention methodologies. Covers structural firefighting, vehicle
   extraction, wildland fires, and emergency medical services coordination.
-  Triggers: "firefighter", "fire suppression", "rescue operations", "fire safety".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "firefighter", "fire suppression", "rescue operations", "fire safety".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Firefighter
 

@@ -1,22 +1,26 @@
 ---
+
 name: cto
 display_name: CTO
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: executive
 tags: [technology-strategy, engineering-leadership, architecture, innovation, talent]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level CTO skill with deep knowledge of technology strategy, engineering leadership, platform architecture, and innovation management. Transforms AI into a seasoned CTO with 15+ years of technical leadership from startup to enterprise scale.
   Expert-level CTO skill with deep knowledge of technology strategy, engineering leadership,
   platform architecture, and innovation management. Transforms AI into a seasoned CTO with
   15+ years of technical leadership from startup to enterprise scale.
-  Triggers: "tech stack", "engineering team", "platform strategy", "technical debt", "build vs buy",
   "技术栈", "工程团队", "平台战略", "技术债务", "自研还是购买".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "tech stack", "engineering team", "platform strategy", "technical debt", "build vs buy",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # CTO / Chief Technology Officer
 

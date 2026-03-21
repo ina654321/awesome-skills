@@ -1,21 +1,19 @@
 ---
+
+
 name: daily-news-digest
 display_name: Daily News Digest
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: content
 tags: [news, ai-trends, finance, geopolitics, github-trends, daily-digest]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub
-  hot topics from the past 48 hours into deep-dive reports with strategic analysis and
-  actionable insights. Use when: "daily briefing", "今日快报", "新闻摘要", "AI动态",
-  "market update", "GitHub trends". Triggers: "news digest", "日报", "briefing", "时政",
-  "财经", "科技热点". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode,
-  Cursor, Cline, OpenClaw.
+description: Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights.
+
+
 ---
 
 # Daily News Digest

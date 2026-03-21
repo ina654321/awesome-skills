@@ -341,3 +341,183 @@ echo "Read [URL] and apply [skill-name] skill." >> ./CLAUDE.md
 | ☐ If skill needs user setup: config.json pattern documented in §8 or §13 | Workflow Actionability |
 | ☐ If skill stores state: uses `${CLAUDE_PLUGIN_DATA}` not skill directory | Workflow Actionability |
 | ☐ Zero self-inconsistencies: skill follows every rule it defines | System Prompt Depth |
+
+---
+
+## 7.12 Section Symbol Standard
+
+**Rule:** Use consistent section symbols throughout the skill.
+
+| Symbol | Usage | Example |
+|--------|-------|---------|
+| **—** (em dash, U+2014) | Section headers | `## 1. System Prompt` |
+| **·** (middle dot, U+00B7) | NOT used in this project | ❌ Avoid |
+| **-** (hyphen) | List items only | `- item` |
+| **–** (en dash) | NOT used | ❌ Avoid |
+
+**Format for H2 sections:**
+```markdown
+## 1. Section Name
+## 2. Section Name
+...
+## 16. License & Author
+```
+
+**Format for H3 subsections:**
+```markdown
+### 1.1 Subsection Name
+### 1.2 Subsection Name
+```
+
+**Validation:**
+```bash
+# Check for inconsistent symbols
+grep "^## " SKILL.md | grep -v "## [0-9]\+\." && echo "ERROR: Non-standard section format" || echo "PASS"
+```
+
+**Common Errors:**
+- ❌ `## § 1 — System Prompt` (Wrong: uses § and —)
+- ✅ `## 1. System Prompt` (Correct: uses number and period)
+
+---
+
+## 7.13 URL Path Validation
+
+**Rule:** Installation URLs must match the actual file path exactly.
+
+| Check | Correct | Incorrect |
+|-------|---------|-----------|
+| **File suffix** | `/SKILL.md` | `.md` (without folder) |
+| **Path structure** | `skills/{category}/{skill}/SKILL.md` | `skills/{category}/{skill}.md` |
+| **Category nesting** | No double categories | ❌ `automotive/enterprise/` |
+| **Raw URL domain** | `raw.githubusercontent.com` | `github.com` (blob page) |
+
+**Correct URL Format:**
+```
+https://raw.githubusercontent.com/{user}/{repo}/main/skills/{category}/{skill-name}/SKILL.md
+```
+
+**Validation Checklist:**
+- [ ] URL path matches actual file location
+- [ ] Uses `/SKILL.md` not just `.md`
+- [ ] No redundant category nesting
+- [ ] Uses raw.githubusercontent.com domain
+- [ ] [URL] shorthand defined once below table, not repeated
+
+**Token Saving:**
+- Define `[URL]:` once after the table
+- Use `[URL]` shorthand in table cells
+- Saves ~160 tokens per repetition
+
+---
+
+## 7.14 Structure Density Index (SDI)
+
+**Definition:** A metric for content information density.
+
+```
+SDI = (Tables × 3 + Code Blocks × 2 + Lists × 1) / (Total Lines ÷ 100)
+```
+
+| Component | Weight | Count Method |
+|-----------|--------|--------------|
+| **Tables** | 3 | `grep -c "^|" SKILL.md` |
+| **Code Blocks** | 2 | `grep -c "^\`\`\`" SKILL.md` |
+| **Lists** | 1 | `grep -c "^- " SKILL.md` |
+| **Total Lines** | - | `wc -l SKILL.md` |
+
+**SDI Targets:**
+
+| SDI | Rating | Interpretation |
+|-----|--------|----------------|
+| < 1.0 | Needs Work | Too much prose, low information density |
+| 1.0–2.0 | Good | Acceptable density |
+| 2.0–3.0 | Excellent | High density, easy to scan |
+| > 3.0 | Exceptional | Table-heavy, maximum density |
+
+**Enterprise Practice Skills:**
+- Target SDI ≥ 2.0
+- Tesla Skill average: 3.5
+- Use tables for frameworks, lists for steps
+
+**Example Comparison:**
+
+❌ **Low SDI (prose-heavy):**
+```markdown
+The first step is to question requirements. You should ask why each 
+requirement exists. Then delete unnecessary parts. Next simplify...
+```
+
+✅ **High SDI (table-driven):**
+```markdown
+| Step | Action | Key Question |
+|------|--------|--------------|
+| 1 | Question | Why does this requirement exist? |
+| 2 | Delete | What can we remove? |
+| 3 | Simplify | How do we make it elegant? |
+```
+
+---
+
+## 7.15 Enterprise Practice Skills — Special Requirements
+
+**Applies to:** Company culture, methodology, and best-practice skills (e.g., Tesla, Amazon, Netflix)
+
+### Adjusted Quality Rubric Weights
+
+For enterprise practice skills, adjust dimension weights:
+
+| Dimension | Technical | Enterprise | Reason |
+|-----------|-----------|------------|--------|
+| **Domain Knowledge** | 25% | **30%** | Culture/methodology understanding depth |
+| **Workflow** | 15% | **20%** | Decision frameworks are core value |
+| **Examples** | 20% | **25%** | Scenarios prove methodology effectiveness |
+| **System Prompt** | 20% | **10%** | Relatively less important (not technical ops) |
+| **Risk Docs** | 10% | 10% | No change |
+| **Metadata** | 10% | 5% | No change |
+
+### Required Elements
+
+**1. Dual-Perspective Design (§2)**
+Must explicitly state:
+- For job seekers: Interview preparation, resume guidance
+- For practitioners: Daily work decision support
+
+**2. Three-Layer Architecture (§4)**
+```
+Culture Layer       → Mission, values, cultural DNA
+Methodology Layer   → Decision frameworks, thinking patterns  
+Tool Layer          → Templates, checklists, actionable tools
+```
+
+**3. Source Attribution**
+- Required when based on public company information
+- Format: "Based on analysis of publicly available information..."
+- Prohibited: Internal confidential documents, leaked materials
+
+**4. Content Source Guidelines**
+
+| ✓ Acceptable | ✗ Unacceptable |
+|--------------|----------------|
+| Official job postings | Internal emails/documents |
+| Public earnings calls | Leaked communications |
+| Published books | Anonymous rumors |
+| Employee review sites | Competitor claims (unverified) |
+
+### Additional Verification Checks
+
+Add to §14 Quality Verification:
+
+| Check | Applies To |
+|-------|-----------|
+| ☐ Dual-perspective stated (job seeker + practitioner) | Enterprise only |
+| ☐ 3-layer architecture (culture → methodology → tools) | Enterprise only |
+| ☐ Source attribution included | Enterprise only |
+| ☐ Interview scenario examples | Enterprise only |
+| ☐ SDI ≥ 2.0 (table density) | All skills |
+| ☐ Section symbols consistent (1., not § 1 —) | All skills |
+| ☐ URL paths validated | All skills |
+
+---
+
+*End of Standards Reference*

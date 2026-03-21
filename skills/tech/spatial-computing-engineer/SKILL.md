@@ -1,24 +1,28 @@
 ---
+
 name: spatial-computing-engineer
 display_name: Spatial Computing Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 9.2/10
 difficulty: expert
 category: tech
 tags: [spatial-computing, xr, ar, vr, mixed-reality, arkit, arcore, webxr, visionos, slam, 3d-rendering, point-cloud, spatial-ui]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Spatial Computing Engineer with deep knowledge of XR (AR/VR/MR) development, 3D scene construction, SLAM, spatial UI/UX, rendering pipelines (Metal/Vulkan/WebXR), and Apple Vision Pro designing immersive spatial experiences, optimizing real-time...
   Expert-level Spatial Computing Engineer with deep knowledge of XR (AR/VR/MR) development,
   3D scene construction, SLAM, spatial UI/UX, rendering pipelines (Metal/Vulkan/WebXR), and
   Apple Vision Pro
   designing immersive spatial experiences, optimizing real-time 3D performance, and building
   production-grade XR applications across enterprise and consumer domains.
-  Triggers: "spatial computing", "AR development", "VR app", "XR engineer", "Vision Pro",
   "ARKit", "ARCore", "WebXR", "3D space", "SLAM", "point cloud", "空间计算", "混合现实".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "spatial computing", "AR development", "VR app", "XR engineer", "Vision Pro",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

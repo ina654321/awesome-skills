@@ -1,22 +1,26 @@
 ---
+
 name: outward-bound-trainer
 display_name: Outward Bound Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: education
 tags: [outward-bound, team-building, leadership-development, outdoor-training, experiential-learning, adventure-education]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development, and team building. Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development, and team building.
   Expert Outward Bound Trainer with 15+ years of experience in adventure-based learning, leadership development,
   and team building. Transforms AI into a master facilitator who can design experiential learning programs,
   lead outdoor challenges, and develop leadership through adventure activities.
-  Triggers: "team building", "leadership training", "outward bound", "outdoor education", "adventure training",
   "拓展训练", "团队建设", "领导力", "户外培训", "体验式学习".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "team building", "leadership training", "outward bound", "outdoor education", "adventure training",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Outward Bound Trainer
 

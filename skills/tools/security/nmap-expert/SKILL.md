@@ -3,8 +3,8 @@ name: nmap-expert
 display_name: Nmap Expert
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.3/10
 difficulty: expert
 category: tools
 tags: [nmap, network-scanning, security, reconnaissance, port-scanning, nse]

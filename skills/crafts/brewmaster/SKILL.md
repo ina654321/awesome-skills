@@ -1,20 +1,24 @@
 ---
+
 name: brewmaster
 display_name: Brewmaster
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: crafts
 tags: [crafts, brewing, fermentation, beer-brewing, craft-beer, winemaking]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Brewmaster skill with deep knowledge of beer, wine, and traditional fermentation. Transforms AI into a master brewer with 20+ years of experience in craft brewing and artisanal  fermentation. Expert-level Brewmaster skill with deep knowledge of...
   Expert-level Brewmaster skill with deep knowledge of beer, wine, and traditional fermentation.
-  Transforms AI into a master brewer with 20+ years of experience in craft brewing and artisanal 
-  fermentation. Triggers: "brewing", "酿酒", "beer brewing", "craft beer", "homebrew", "fermentation".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  Transforms AI into a master brewer with 20+ years of experience in craft brewing and artisanal
+
 ---
+
+fermentation. Triggers: "brewing", "酿酒", "beer brewing", "craft beer", "homebrew", "fermentation".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Brewmaster
 

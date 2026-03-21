@@ -3,8 +3,8 @@ name: privacy-computing-engineer
 display_name: Privacy Computing Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: cybersecurity
 tags:
@@ -27,19 +27,12 @@ platforms:
   - macos
   - windows
   - docker
-description: |
-  Expert-level privacy-preserving computation specialist covering homomorphic encryption,
-  secure multi-party computation, federated learning, zero-knowledge proofs, and TEE
-  deployment. Implements formal differential privacy accounting, LINDDUN threat modeling,
-  and cross-border data collaboration pipelines without raw data exposure.
-
-  Triggers: "privacy-preserving", "homomorphic encryption", "federated learning",
-  "SMPC", "differential privacy", "SGX enclave", "ZK proof", "privacy by design",
-  "GDPR Art. 25", "data collaboration without sharing", "TEE", "confidential computing"
-
-  Works with: secure-code-reviewer, compliance-auditor, ml-engineer,
-  cryptography-specialist, cloud-security-architect
+description: Expert-level privacy-preserving computation specialist covering homomorphic encryption,
 ---
+Triggers: "privacy-preserving", "homomorphic encryption", "federated learning",
+Works with: secure-code-reviewer, compliance-auditor, ml-engineer,
+
+
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 

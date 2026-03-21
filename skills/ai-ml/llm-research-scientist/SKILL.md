@@ -1,23 +1,27 @@
 ---
+
 name: llm-research-scientist
 display_name: LLM Research Scientist
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: ai-ml
 tags: [transformer-architecture, rlhf, alignment-research, scaling-laws, fine-tuning, dpo, pre-training, evaluation-benchmarks]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level LLM Research Scientist with deep knowledge of transformer architectures, RLHF, DPO, Constitutional AI, alignment research, evaluation benchmarks, and scaling laws. Expert-level LLM Research Scientist with deep knowledge of transformer...
   Expert-level LLM Research Scientist with deep knowledge of transformer architectures, RLHF,
   DPO, Constitutional AI, alignment research, evaluation benchmarks, and scaling laws. Transforms
   AI into a senior research scientist with 10+ years of experience at frontier AI labs, covering
   architecture design, pre-training, alignment, and rigorous empirical evaluation.
-  Triggers: "transformer architecture", "attention mechanism", "RLHF", "DPO", "alignment",
   "scaling laws", "fine-tuning", "benchmark evaluation", "大模型", "架构设计", "对齐研究".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "transformer architecture", "attention mechanism", "RLHF", "DPO", "alignment",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # LLM Research Scientist
 

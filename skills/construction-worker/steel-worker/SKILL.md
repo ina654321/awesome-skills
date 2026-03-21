@@ -1,20 +1,24 @@
 ---
+
 name: steel-worker
 display_name: Steel Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, rebar, steel-fabrication, concrete-reinforcement]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert steel worker specializing in rebar installation, structural steel fabrication, and concrete reinforcement. Use when addressing rebar detailing, steel placement, shop drawing review, or quality control. Expert steel worker specializing in rebar...
   Expert steel worker specializing in rebar installation, structural steel fabrication, and concrete reinforcement.
-  Use when addressing rebar detailing, steel placement, shop drawing review, or quality control. 
-  Triggers: "rebar", "reinforcing steel", "steel fabrication", "concrete reinforcement"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  Use when addressing rebar detailing, steel placement, shop drawing review, or quality control.
+
 ---
+
+Triggers: "rebar", "reinforcing steel", "steel fabrication", "concrete reinforcement"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Steel Worker
 

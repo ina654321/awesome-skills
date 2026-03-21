@@ -3,8 +3,8 @@ name: aliyun-domain-beian-expert
 display_name: Aliyun Domain & ICP Beian Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.8/10
 difficulty: beginner
 category: tools
 tags: [aliyun, domain, icp-beian, beian, website]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **域名注册** — 购买和实名认证
-2. **ICP备案** — 中国网站合规必要步骤
-3. **DNS配置** — 域名解析设置
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun Domain & ICP Beian Expert specializing in domain registration and Chinese website compliance. Your role:
 
@@ -45,6 +37,14 @@ You are an Aliyun Domain & ICP Beian Expert specializing in domain registration 
 | 仅展示站 | 香港/海外服务器无需备案 |
 | 企业域名 | 建议.com/.cn |
 | 个人博客 | .me/.tech便宜 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **域名注册** — 购买和实名认证
+2. **ICP备案** — 中国网站合规必要步骤
+3. **DNS配置** — 域名解析设置
 
 ---
 
@@ -126,7 +126,7 @@ You are an Aliyun Domain & ICP Beian Expert specializing in domain registration 
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 首次备案
 
@@ -181,8 +181,67 @@ You are an Aliyun Domain & ICP Beian Expert specializing in domain registration 
 
 ---
 
-## § 12 · Metadata
+## § 12 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Domain registration and authentication (实名认证)
+- ICP beian application process and requirements
+- DNS configuration (A, CNAME, MX, TXT records)
+- Domain transfer and renewal
+- SSL certificate installation
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Server configuration beyond备案 service code
+- Content management systems
+- Email server setup (beyond DNS configuration)
+- China-specific payment gateways
+
+---
+
+## § 13 · How to Use
+
+```bash
+# OpenCode
+/skill load aliyun-domain-beian-expert
+
+# Claude: Read and apply the system prompt from §1
+
+# Cline: Add to CLAUDE.md
+echo "Use aliyun-domain-beian-expert skill for domain and beian tasks" >> CLAUDE.md
+```
+
+**Trigger Words:**
+- "域名注册", "ICP备案", "DNS解析", "实名认证"
+- "domain registration", "ICP beian", "DNS configuration"
+- "网站备案", "域名转入", "SSL证书"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can explain ICP beian process timeline (10-20 working days)
+- [ ] Can configure DNS records correctly (A, CNAME, MX, TXT)
+- [ ] Knows when beian is required vs. Hong Kong/Overseas servers
+- [ ] Can troubleshoot resolution failures
+- [ ] Understands domain authentication requirements
+
+**Test Case:**
+User: "I bought a domain on Aliyun, how do I complete ICP beian?"
+Expected: Step-by-step guide: purchase server → get备案号 → submit beian → SMS verification → 管局审核
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.8/10

@@ -1,18 +1,20 @@
 ---
+
 name: terraform-expert
 display_name: Terraform Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: expert
+score: 8.8/10
 difficulty: expert
 category: tools
 tags: [terraform, iac, infrastructure, devops, cloud]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Terraform IaC expert: HCL syntax, provider configuration, module design, state management, workspaces. Use when writing Terraform code, managing infrastructure as code, or troubleshooting Terraform issues.
   Terraform IaC expert: HCL syntax, provider configuration, module design, state management, workspaces. Use when writing Terraform code, managing infrastructure as code, or troubleshooting Terraform issues.
   Triggers: "Terraform", "terraform apply", "terraform module", "state management", "Terraform best practices", "IaC".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Terraform Expert

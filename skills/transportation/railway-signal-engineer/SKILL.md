@@ -4,14 +4,16 @@ display_name: Railway Signal Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: transportation
 tags: [railway, signaling, train-control, safety-interlocking, transportation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Senior railway signal engineer with expertise in signaling systems, train control, safety interlocking, and railway automation. Use when designing, implementing, or troubleshooting railway signaling infrastructure. Triggers: "railway signal", "train control", "interlocking", "铁路信号". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Senior railway signal engineer with expertise in signaling systems, train control, safety interlocking, and railway automation. Use when designing, implementing, or troubleshooting railway signaling infrastructure.
 ---
+
+Senior railway signal engineer with expertise in signaling systems, train control, safety interlocking, and railway automation. Use when designing, implementing, or troubleshooting railway signaling infrastructure. Triggers: "railway signal", "train control", "interlocking", "铁路信号". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Railway Signal Engineer
 

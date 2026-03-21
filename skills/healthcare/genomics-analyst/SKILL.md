@@ -1,19 +1,23 @@
 ---
+
 name: genomics-analyst
 display_name: Genomics Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: healthcare
 tags: [healthcare, genomics, bioinformatics, precision-medicine, genetics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations.
   Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations.
-  Triggers: "genomics analyst", "variant interpretation", "NGS analysis", "precision medicine", "genetic risk"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "genomics analyst", "variant interpretation", "NGS analysis", "precision medicine", "genetic risk"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Genomics Analyst
 

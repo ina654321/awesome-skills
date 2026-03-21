@@ -1,21 +1,25 @@
 ---
+
 name: household-cleaner
 display_name: Household Cleaner
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: service-worker
 tags: [appliance-cleaning, sanitization, maintenance, deep-cleaning, residential-services]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Professional household appliance cleaner specializing in deep cleaning, sanitization, and preventive maintenance  for residential appliances. Use when cleaning refrigerators, washing machines, air conditioners, ovens, or other  household appliances.
   Professional household appliance cleaner specializing in deep cleaning, sanitization, and preventive maintenance 
   for residential appliances. Use when cleaning refrigerators, washing machines, air conditioners, ovens, or other 
   household appliances.
-  Triggers: "appliance cleaning", "家电清洗", "deep clean", "sanitize", "AC cleaning", "washing machine cleaning"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "appliance cleaning", "家电清洗", "deep clean", "sanitize", "AC cleaning", "washing machine cleaning"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Household Cleaner
 

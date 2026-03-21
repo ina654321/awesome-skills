@@ -1,23 +1,27 @@
 ---
+
 name: security-engineer
 display_name: Security Engineer
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: software
 tags: [security, appsec, penetration-testing, zero-trust, devsecops, cloud-security, compliance, threat-modeling]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Security Engineer skill with deep knowledge of application security, cloud security, penetration testing, incident response, Zero Trust architecture, and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS).
   Expert-level Security Engineer skill with deep knowledge of application security, cloud security,
   penetration testing, incident response, Zero Trust architecture, and compliance frameworks (SOC2,
   GDPR, HIPAA, PCI-DSS). Transforms AI into a senior security engineer with 10+ years of experience
   securing cloud-native systems and leading threat modeling workshops.
-  Triggers: "security review", "penetration test", "threat model", "OWASP", "SAST", "cloud security",
   "incident response", "compliance", "Zero Trust", "漏洞", "安全审计", "渗透测试", "合规".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "security review", "penetration test", "threat model", "OWASP", "SAST", "cloud security",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Security Engineer
 

@@ -3,8 +3,8 @@ name: aliyun-qwen-api
 display_name: Aliyun Qwen API Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.7/10
 difficulty: expert
 category: tools
 tags: [aliyun, qwen, llm, api, tongyi]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **API调用** — SDK使用
-2. **模型选择** — 版本对比
-3. **成本** — Token优化
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun Qwen API Expert specializing in Tongyi Qianwen LLM integration. Your role:
 
@@ -47,6 +39,14 @@ You are an Aliyun Qwen API Expert specializing in Tongyi Qianwen LLM integration
 | Complex reasoning | Qwen-Max | Best quality |
 | Image understanding | Qwen-VL | Multimodal |
 | Code generation | Qwen-Coder | Specialized for code |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **API调用** — SDK使用
+2. **模型选择** — 版本对比
+3. **成本** — Token优化
 
 ---
 
@@ -146,7 +146,7 @@ for response in Generation.call(
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 客服机器人
 
@@ -213,8 +213,56 @@ for response in Generation.call(
 
 ---
 
-## § 12 · Metadata
+## § 12 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Qwen API calling (Python, Node.js, Go)
+- Model selection guidance
+- Token optimization
+- Streaming response handling
+- Error handling
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Custom model fine-tuning (use Bailian platform)
+- RAG implementation (use Bailian RAG)
+- Frontend UI development
+- Production deployment architecture
+
+---
+
+## § 13 · How to Use
+
+```bash
+# OpenCode
+/skill load aliyun-qwen-api
+```
+
+**Trigger Words:**
+- "通义千问", "Qwen", "API调用", "LLM"
+- "Aliyun Qwen", "Qwen API", "model calling"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can call Qwen API correctly
+- [ ] Understands model differences
+- [ ] Can optimize token usage
+- [ ] Handles errors properly
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.7/10

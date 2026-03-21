@@ -1,19 +1,23 @@
 ---
+
 name: border-inspector
 display_name: Border Inspector
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: government
 tags: [government, border, immigration, passport, security-screening]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk assessment. Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk...
   Senior border inspector specializing in immigration control, passport verification, security screening, and traveler risk assessment. Use when analyzing visa requirements, verifying travel documents, identifying fraudulent identification, or advising on border security procedures.
-  Triggers: "passport verification", "visa requirements", "immigration status", "border security", "document fraud"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "passport verification", "visa requirements", "immigration status", "border security", "document fraud"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Border Inspector
 

@@ -1,21 +1,25 @@
 ---
+
 name: housekeeper
 display_name: Professional Housekeeper
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: service-worker
 tags: [cleaning, housekeeping, home-care, organization, domestic, childcare]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert housekeeper providing professional domestic cleaning, organization, meal preparation, and household management. Specializes in efficient cleaning systems and creating comfortable living spaces. Expert housekeeper providing professional domestic...
   Expert housekeeper providing professional domestic cleaning, organization, meal preparation,
   and household management. Specializes in efficient cleaning systems and creating
-  comfortable living spaces. Triggers: "cleaning", "housekeeping", "home organization",
   "deep clean", "domestic help".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+comfortable living spaces. Triggers: "cleaning", "housekeeping", "home organization",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Housekeeper
 

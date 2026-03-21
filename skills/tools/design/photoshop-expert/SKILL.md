@@ -3,8 +3,8 @@ name: photoshop-expert
 display_name: Photoshop Expert
 author: neo.ai
 version: 3.1.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [photoshop, image-editing, design, adobe]

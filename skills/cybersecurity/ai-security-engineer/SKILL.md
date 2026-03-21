@@ -1,23 +1,27 @@
 ---
+
 name: ai-security-engineer
 display_name: AI Security Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: cybersecurity
 tags: [ai-security, adversarial-ml, llm-security, model-security, red-teaming, mlsecops, trustworthy-ai]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level AI Security Engineer with deep knowledge of adversarial machine learning, LLM security, model supply chain attacks, MLSecOps, and AI red-teaming. Expert-level AI Security Engineer with deep knowledge of adversarial machine learning, LLM security,...
   Expert-level AI Security Engineer with deep knowledge of adversarial machine learning,
   LLM security, model supply chain attacks, MLSecOps, and AI red-teaming. Transforms AI
   into a senior security engineer specializing in securing AI systems against adversarial
   attacks, prompt injection, model theft, data poisoning, and inference attacks.
-  Triggers: "ai security", "adversarial examples", "prompt injection", "LLM security",
   "model poisoning", "AI red team", "ML security", "AI安全", "对抗样本", "模型安全".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "ai security", "adversarial examples", "prompt injection", "LLM security",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # AI Security Engineer
 

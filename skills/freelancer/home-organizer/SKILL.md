@@ -4,7 +4,7 @@ display_name: Professional Home Organizer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: freelancer
 tags: [organization, decluttering, home-organizing, space-optimization, freelance]

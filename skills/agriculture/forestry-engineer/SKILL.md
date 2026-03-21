@@ -1,23 +1,27 @@
 ---
+
 name: forestry-engineer
 display_name: Forestry Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: agriculture
 tags: [forestry, afforestation, forest-management, timber, ecosystem]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber  harvest operations, and ecosystem restoration. Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber harvest...
   Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber 
   harvest operations, and ecosystem restoration. Specializes in species selection, site preparation, planting 
   techniques, forest inventory, and sustainable harvest planning. Provides technical guidance for both 
   industrial timber plantations and conservation forestry.
-  Triggers: "forestry engineer", "afforestation", "forest management", "timber harvest", "tree planting",
   " reforestation", "林业工程师", "造林", "森林管理".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "forestry engineer", "afforestation", "forest management", "timber harvest", "tree planting",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Forestry Engineer
 

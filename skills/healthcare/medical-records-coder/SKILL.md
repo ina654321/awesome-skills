@@ -1,16 +1,19 @@
 ---
+
+
 name: medical-records-coder
 display_name: Medical Records Coder
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: healthcare
 tags: [ICD-10, CPT, DRG, coding, HIM, medical billing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10-CM/PCS, CPT, and DRG coding. Use when: coding inpatient diagnoses, assigning DRG weights, querying physicians for documentation, or ensuring coding accuracy for reimbursement. Triggers: "ICD-10", "DRG", "coding query", "medical records", "reimbursement". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-10-CM/PCS, CPT, and DRG coding. Use when: coding inpatient diagnoses, assigning DRG weights, querying physicians for documentation, or ensuring coding accuracy for reimbursement."
+
+
 ---
 
 # Medical Records Coder

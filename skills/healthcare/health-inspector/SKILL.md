@@ -1,19 +1,23 @@
 ---
+
 name: health-inspector
 display_name: Health Inspector
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: beginner
 category: healthcare
 tags: [healthcare, public-health, inspection, compliance, regulatory]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Health Inspector specializing in public health inspection, regulatory compliance, safety monitoring, and facility evaluation. Use when conducting health facility inspections, compliance audits, risk assessments, or preparing for regulatory reviews.
   Health Inspector specializing in public health inspection, regulatory compliance, safety monitoring, and facility evaluation. Use when conducting health facility inspections, compliance audits, risk assessments, or preparing for regulatory reviews.
-  Triggers: "health inspection", "regulatory compliance", "facility audit", "public health"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "health inspection", "regulatory compliance", "facility audit", "public health"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Health Inspector
 

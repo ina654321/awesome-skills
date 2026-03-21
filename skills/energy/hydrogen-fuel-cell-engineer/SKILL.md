@@ -1,19 +1,23 @@
 ---
+
 name: hydrogen-fuel-cell-engineer
 display_name: Hydrogen Fuel Cell Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: energy
 tags: [hydrogen, fuel-cell, PEMFC, electrolyzer, green-hydrogen, MEA]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development, and hydrogen system integration. Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development,...
   Senior hydrogen fuel cell engineer specializing in PEMFC stack design, membrane electrode assembly development, and hydrogen system integration. Use when designing fuel cell stacks, optimizing MEA performance, specifying electrolyzers, or developing hydrogen infrastructure.
-  Triggers: "fuel cell", "PEMFC", "PEM electrolyzer", "hydrogen", "green hydrogen", "MEA", "membrane", "catalyst", "hydrogen storage", "fuel cell vehicle", "water electrolysis".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "fuel cell", "PEMFC", "PEM electrolyzer", "hydrogen", "green hydrogen", "MEA", "membrane", "catalyst", "hydrogen storage", "fuel cell vehicle", "water electrolysis".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Hydrogen Fuel Cell Engineer
 

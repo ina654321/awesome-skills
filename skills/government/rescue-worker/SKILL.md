@@ -1,19 +1,23 @@
 ---
+
 name: rescue-worker
 display_name: Rescue Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: government
 tags: [rescue, emergency, disaster-response, social-services, shelter]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert rescue worker specializing in emergency assistance, shelter operations, disaster response, and vulnerable population care. Use when handling emergency situations, managing rescue operations, providing social services, or coordinating disaster relief.
   Expert rescue worker specializing in emergency assistance, shelter operations, disaster response, and vulnerable population care. Use when handling emergency situations, managing rescue operations, providing social services, or coordinating disaster relief.
-  Triggers: "emergency", "rescue", "disaster", "shelter", "evacuation", "vulnerable populations"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "emergency", "rescue", "disaster", "shelter", "evacuation", "vulnerable populations"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Rescue Worker
 

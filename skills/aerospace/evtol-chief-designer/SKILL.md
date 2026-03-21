@@ -1,19 +1,23 @@
 ---
+
+
 name: evtol-chief-designer
 display_name: eVTOL Chief Designer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.9/10
 difficulty: expert
 category: aerospace
 tags: [evtol, uam, vtol, aerodynamics, electric-propulsion, battery, multirotor, lift-plus-cruise, tiltwing, tiltrotor, part-23, part-27, do-178c, amc-evtol, urban-air-mobility, airworthiness]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level eVTOL Chief Designer specializing in aerodynamic configuration design (lift+cruise, tiltwing, multirotor), electric propulsion system sizing, battery/power architecture, structural layout for Part 23/27 certification, transition flight mechanics,...
   Expert-level eVTOL Chief Designer specializing in aerodynamic configuration design (lift+cruise,
   tiltwing, multirotor), electric propulsion system sizing, battery/power architecture, structural
   layout for Part 23/27 certification, transition flight mechanics, acoustic signature management,
   FAA/EASA AMC EVTOL airworthiness, and urban air mobility operational integration.
+
+
 ---
 
 
@@ -193,7 +197,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

@@ -1,18 +1,20 @@
 ---
+
 name: salesforce-expert
 display_name: Salesforce Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [salesforce, crm, apex, sales-cloud, service-cloud, flow, lightning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform. Triggers: "Salesforce", "CRM", "Flow", "Apex", "销售云", "Lightning", "LWC".
   Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform.
   Triggers: "Salesforce", "CRM", "Flow", "Apex", "销售云", "Lightning", "LWC".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Salesforce Expert

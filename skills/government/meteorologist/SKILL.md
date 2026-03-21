@@ -1,19 +1,23 @@
 ---
+
 name: meteorologist
 display_name: Meteorologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: government
 tags: [weather, meteorology, forecasting, climate, disaster-warning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert meteorologist specializing in weather forecasting, climate analysis, severe weather warnings, and disaster preparedness. Use when interpreting weather data, preparing forecasts, analyzing climate patterns, or issuing severe weather alerts.
   Expert meteorologist specializing in weather forecasting, climate analysis, severe weather warnings, and disaster preparedness. Use when interpreting weather data, preparing forecasts, analyzing climate patterns, or issuing severe weather alerts.
-  Triggers: "weather forecast", "storm warning", "climate", "meteorology", "severe weather", "hurricane"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "weather forecast", "storm warning", "climate", "meteorology", "severe weather", "hurricane"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Meteorologist
 

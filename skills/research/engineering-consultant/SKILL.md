@@ -1,20 +1,24 @@
 ---
+
 name: engineering-consultant
 display_name: Engineering Consultant
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: research
 tags: [engineering, technical-consulting, feasibility-study, project-assessment, design-review]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development. Expert engineering consultant specializing in technical feasibility studies, project assessment, design...
   Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development.
   Use when evaluating technical viability, assessing project feasibility, reviewing engineering designs, or developing technical recommendations.
-  Triggers: "engineering consultant", "feasibility study", "technical assessment", "design review"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "engineering consultant", "feasibility study", "technical assessment", "design review"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Engineering Consultant
 

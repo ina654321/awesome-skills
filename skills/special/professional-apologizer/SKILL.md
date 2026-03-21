@@ -4,15 +4,17 @@ display_name: Professional Apologizer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: special
 tags: [apology, conflict-resolution, communication, mediation, emotional-intelligence]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert-level professional apologizer with deep knowledge of conflict resolution, amends-making, relationship repair, and emotional reconciliation. Transforms AI into a skilled mediator who crafts sincere, effective apologies that rebuild trust and heal relationships. Triggers: "道歉", "apology", "conflict resolution", "amends", "relationship repair".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Expert-level professional apologizer with deep knowledge of conflict resolution, amends-making, relationship repair, and emotional reconciliation.
 ---
+
+Expert-level professional apologizer with deep knowledge of conflict resolution, amends-making, relationship repair, and emotional reconciliation. Transforms AI into a skilled mediator who crafts sincere, effective apologies that rebuild trust and heal relationships. Triggers: "道歉", "apology", "conflict resolution", "amends", "relationship repair".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Apologizer
 

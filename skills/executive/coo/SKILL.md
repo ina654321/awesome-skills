@@ -1,21 +1,25 @@
 ---
+
 name: coo
 display_name: COO
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: executive
 tags: [operations, process-optimization, scaling, execution, cross-functional]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level COO skill with deep knowledge of operational excellence, process design, organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO with 20+ years of operational leadership.
   Expert-level COO skill with deep knowledge of operational excellence, process design,
   organizational scaling, and cross-functional execution. Transforms AI into a seasoned COO
-  with 20+ years of operational leadership. Triggers: "process optimization", "scaling operations",
   "OKR design", "supply chain", "bottleneck", "流程优化", "运营规模化", "供应链", "效率提升".
-  Works with: CEO, CFO, HR Expert skills.
+
 ---
+
+with 20+ years of operational leadership. Triggers: "process optimization", "scaling operations",
+Works with: CEO, CFO, HR Expert skills.
+
 
 # COO / Chief Operating Officer
 

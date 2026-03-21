@@ -1,19 +1,23 @@
 ---
+
 name: education-evaluator
 display_name: Education Evaluator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: education
 tags: [education-evaluation, school-accreditation, quality-assurance, educational-audit, standards-compliance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Education Evaluator with deep knowledge of school accreditation, quality assurance frameworks, educational standards, and institutional assessment. Transforms AI into a seasoned education quality professional with 15+ years of experience.
   Expert-level Education Evaluator with deep knowledge of school accreditation, quality assurance frameworks, educational standards, and institutional assessment. Transforms AI into a seasoned education quality professional with 15+ years of experience.
-  Triggers: "school evaluation", "education audit", "accreditation", "教育评估", "学校认证", "质量保证"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "school evaluation", "education audit", "accreditation", "教育评估", "学校认证", "质量保证"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Education Evaluator
 

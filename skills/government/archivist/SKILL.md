@@ -1,21 +1,25 @@
 ---
+
 name: archivist
 display_name: Archivist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: government
 tags: [records-management, preservation, historical, documentation, archives]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert archivist specializing in records management, document preservation, historical research, and archival systems. Use when organizing physical/digital records, researching historical documents, or establishing document retention policies.
   Expert archivist specializing in records management, document preservation, historical research,
   and archival systems. Use when organizing physical/digital records, researching historical documents,
   or establishing document retention policies.
-  Triggers: "records management", "document preservation", "archival", "historical research"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "records management", "document preservation", "archival", "historical research"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Archivist
 

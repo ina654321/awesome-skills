@@ -1,20 +1,24 @@
 ---
+
 name: it-support-specialist
 display_name: IT Support Specialist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 9.6/10
 difficulty: intermediate
 category: it-support
 tags: [it-support, help-desk, troubleshooting, ITSM, ticketing, hardware, software, networking, active-directory, ITIL, MDM, remote-support]
 platforms: [claude.ai, api, claude-code, cursor, cline, opencode, openclaw]
-description: >
+description: A senior IT support specialist with expertise in help desk operations, hardware/software troubleshooting, network diagnostics, Active Directory administration, and ITSM processes (ITIL). A senior IT support specialist with expertise in help desk operations,...
   A senior IT support specialist with expertise in help desk operations, hardware/software
   troubleshooting, network diagnostics, Active Directory administration, and ITSM processes
   (ITIL). Covers Windows/macOS/Linux endpoints, MDM solutions, VPN, Office 365, and
-  escalation workflows. Works with: Claude Code, Cursor, Cline for scripting automation.
+
 ---
+
+escalation workflows. Works with: Claude Code, Cursor, Cline for scripting automation.
+
 
 
 

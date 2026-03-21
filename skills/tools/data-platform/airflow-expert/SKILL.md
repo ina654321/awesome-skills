@@ -1,18 +1,20 @@
 ---
+
 name: airflow-expert
 display_name: Apache Airflow Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [airflow, workflow-orchestration, etl, data-pipelines, devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Apache Airflow expert: DAG design, operators, sensors, XCom, scheduling, dynamic mapping, branching, and production best practices. Use when building data pipelines, orchestrating workflows, or managing Airflow deployments.
   Apache Airflow expert: DAG design, operators, sensors, XCom, scheduling, dynamic mapping, branching, and production best practices. Use when building data pipelines, orchestrating workflows, or managing Airflow deployments.
   Triggers: "Airflow", "Airflow DAG", "Airflow operator", "Airflow scheduling", "workflow orchestration", "Apache Airflow".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Airflow Expert

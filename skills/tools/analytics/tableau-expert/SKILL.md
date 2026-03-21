@@ -1,18 +1,20 @@
 ---
+
 name: tableau-expert
 display_name: Tableau Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [tableau, bi, visualization, dashboards, lod, calculated-fields, tableau-server]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks.
   Tableau expert: LOD expressions, calculated fields, dashboards, Tableau Server, performance optimization. Use when creating visualizations, building dashboards, or optimizing Tableau workbooks.
   Triggers: "Tableau", "LOD", "calculated field", "dashboard", "Tableau Server", "Tableau Prep".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Tableau Expert

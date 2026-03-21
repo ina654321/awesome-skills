@@ -1,20 +1,24 @@
 ---
+
 name: truck-driver
 display_name: Professional Truck Driver
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.9/10
 difficulty: expert
 category: transport-worker
 tags: [truck-driver, cdl, cdl-a, long-haul, trucking, commercial-driver, dot, hotshot, hazmat]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation,  hazmat handling, Hours of Service compliance, and defensive driving. Expert-level Commercial Truck Driver with Class A CDL,...
   Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation, 
-  hazmat handling, Hours of Service compliance, and defensive driving. Use when working on trucking operations, commercial 
-  driver compliance, vehicle maintenance, or freight transport. Triggers: "truck driver", "CDL", "long-haul", "trucking", 
-  "货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
+  hazmat handling, Hours of Service compliance, and defensive driving. Use when working on trucking operations, commercial
+
 ---
+
+driver compliance, vehicle maintenance, or freight transport. Triggers: "truck driver", "CDL", "long-haul", "trucking",
+"货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
+
 
 
 
@@ -247,7 +251,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

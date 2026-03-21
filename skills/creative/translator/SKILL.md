@@ -1,16 +1,18 @@
 ---
+
 name: translator
 display_name: Translator/Interpreter
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.7/10
 difficulty: expert
 category: creative
 tags: [translation, localization, interpretation, cultural-adaptation, terminology, multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: "translate this", "localize for", "cultural adaptation".
   Expert-level Translator/Interpreter specializing in technical, legal, medical, literary, and software localization. Triggers: "translate this", "localize for", "cultural adaptation". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
 
 

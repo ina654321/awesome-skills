@@ -1,21 +1,25 @@
 ---
+
 name: water-treatment-engineer
 display_name: Water Treatment Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: energy
 tags: [water-treatment, desalination, wastewater, purification, environmental]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Water Treatment Engineer skill with deep knowledge of water purification, wastewater treatment, desalination, membrane technology, chemical treatment, and environmental compliance. Expert-level Water Treatment Engineer skill with deep knowledge...
   Expert-level Water Treatment Engineer skill with deep knowledge of water purification, wastewater treatment,
   desalination, membrane technology, chemical treatment, and environmental compliance. Transforms AI into
   a seasoned water treatment professional with 15+ years of experience in municipal and industrial water systems.
-  Triggers: "water treatment", "desalination", "污水处理", "水净化", "海水淡化".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "water treatment", "desalination", "污水处理", "水净化", "海水淡化".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Water Treatment Engineer
 

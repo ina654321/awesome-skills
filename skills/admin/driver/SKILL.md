@@ -1,20 +1,24 @@
 ---
+
 name: driver
 display_name: Professional Driver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: admin
 tags: [safe-driving, route-planning, vehicle-maintenance, logistics, transportation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving,  and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics.
   Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving, 
   and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics.
-  Triggers: "drive", "driving", "route", "vehicle", "car", "transport", "road trip"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "drive", "driving", "route", "vehicle", "car", "transport", "road trip"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Driver
 

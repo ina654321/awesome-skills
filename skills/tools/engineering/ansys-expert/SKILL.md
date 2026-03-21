@@ -1,18 +1,20 @@
 ---
+
 name: ansys-expert
 display_name: ANSYS Expert
 author: neo.ai
 version: 3.1.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [ansys, simulation, fea, cfd, engineering, fem]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations.
   ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations.
   Triggers: "ANSYS", "FEA", "CFD", "structural analysis", "thermal analysis", "ANSYS meshing".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # ANSYS Expert

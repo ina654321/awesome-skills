@@ -1,18 +1,20 @@
 ---
+
 name: postgresql-expert
 display_name: PostgreSQL Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 9.1/10
 difficulty: expert
 category: tools
 tags: [postgresql, database, sql, devops, data]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL.
   PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL.
   Triggers: "PostgreSQL", "SQL optimization", "PostgreSQL indexing", "PostgreSQL replication", "PostgreSQL extensions", "pgvector".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # PostgreSQL Expert
@@ -367,3 +369,12 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 ## 16. Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+
+| Field | Details |
+|-------|---------|
+| **Author** | awesome-skills |
+| **License** | MIT with Attribution |

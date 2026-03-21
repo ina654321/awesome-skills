@@ -1,22 +1,26 @@
 ---
+
 name: software-architect
 display_name: Software Architect
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: software
 tags: [architecture, system-design, patterns, distributed-systems, technical-leadership]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Software Architect skill with deep knowledge of system design patterns, distributed systems, architectural decision-making, and technical leadership. Expert-level Software Architect skill with deep knowledge of system design patterns, distributed...
   Expert-level Software Architect skill with deep knowledge of system design patterns, distributed
   systems, architectural decision-making, and technical leadership. Transforms AI into a senior
   software architect with 12+ years experience designing large-scale systems.
-  Triggers: "system design", "architecture review", "design pattern", "technical debt", "scalability",
   "系统设计", "架构评审", "设计模式", "技术债", "可扩展性".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "system design", "architecture review", "design pattern", "technical debt", "scalability",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Software Architect
 

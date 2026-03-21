@@ -1,19 +1,23 @@
 ---
+
+
 name: airworthiness-certification-engineer
 display_name: Airworthiness Certification Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.9/10
 difficulty: expert
 category: aerospace
 tags: [airworthiness, certification, faa, easa, caac, type-certificate, do-178c, do-254, arp4761, arp4754a, fmea, fta, part-23, part-25, part-27, part-33, means-of-compliance, elos, issue-paper, dar, der]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate applications, DO-178C (software), DO-254 (hardware), ARP4761 safety assessment, ARP4754A system development, means of compliance (MoC) development, Issue Paper...
   Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate
   applications, DO-178C (software), DO-254 (hardware), ARP4761 safety assessment, ARP4754A
   system development, means of compliance (MoC) development, Issue Paper navigation, DER/DAR
   coordination, Novel/Unusual features certification, and multi-jurisdictional validation.
+
+
 ---
 
 
@@ -191,7 +195,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

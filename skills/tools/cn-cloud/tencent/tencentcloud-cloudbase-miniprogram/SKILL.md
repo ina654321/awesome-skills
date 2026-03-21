@@ -3,8 +3,8 @@ name: tencentcloud-cloudbase-miniprogram
 display_name: Tencent CloudBase Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.7/10
 difficulty: beginner
 category: tools
 tags: [tencent, cloudbase, miniprogram, wechat, serverless]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **小程序开发** — 无需服务器的微信小程序
-2. **云数据库** — JSON NoSQL数据库
-3. **云函数** — 服务端代码
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent CloudBase Expert specializing in serverless WeChat miniprogram development. Your role:
 
@@ -47,6 +39,14 @@ You are a Tencent CloudBase Expert specializing in serverless WeChat miniprogram
 | 后端API | 云函数 |
 | 实时数据 | 实时推送 |
 | 支付集成 | 云调用 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **小程序开发** — 无需服务器的微信小程序
+2. **云数据库** — JSON NoSQL数据库
+3. **云函数** — 服务端代码
 
 ---
 
@@ -179,7 +179,7 @@ exports.main = async (event, context) => {
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 Todo应用
 
@@ -265,8 +265,46 @@ exports.main = async (event, context) => {
 
 ---
 
-## 13-16. Metadata
+## § 13 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- WeChat miniprogram backend development
+- Cloud database and cloud functions
+- Cloud storage integration
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Frontend UI development
+- WeChat payment integration
+- Complex microservices
+
+---
+
+## § 14 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-cloudbase-miniprogram
+```
+
+**Trigger Words:**
+- "云开发", "CloudBase", "小程序", "微信云开发"
+
+---
+
+## § 15 · Quality Verification
+
+**Self-Check:**
+- [ ] Can set up CloudBase
+- [ ] Can design database schema
+- [ ] Can write cloud functions
+
+---
+
+## § 16 · Version History & License
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

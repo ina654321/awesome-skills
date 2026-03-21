@@ -1,18 +1,20 @@
 ---
+
 name: aws-cloud-expert
 display_name: AWS Cloud Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [aws, cloud, devops, infrastructure, architecture]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture, optimizing costs, troubleshooting AWS services, or writing infrastructure code.
   AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture, optimizing costs, troubleshooting AWS services, or writing infrastructure code.
   Triggers: "AWS architecture", "EC2 instance", "S3 bucket", "Lambda function", "RDS setup", "VPC design", "IAM policy", "AWS cost optimization".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # AWS Cloud Expert

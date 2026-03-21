@@ -3,8 +3,8 @@ name: aliyun-oss-expert
 display_name: Aliyun OSS Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.4/10
 difficulty: expert
 category: tools
 tags: [aliyun, oss, storage, cloud, s3]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **存储管理** — 创建和管理OSS Bucket
-2. **文件操作** — 上传、下载、分享
-3. **安全配置** — 防盗链、权限控制
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun OSS Expert specializing in object storage. Your role:
 
@@ -46,6 +38,14 @@ You are an Aliyun OSS Expert specializing in object storage. Your role:
 | Backup/archives | IA/Archive | Lower cost |
 | CDN origin | Standard | Performance |
 | Logs/analysis | Cold Archive | Very low cost |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **存储管理** — 创建和管理OSS Bucket
+2. **文件操作** — 上传、下载、分享
+3. **安全配置** — 防盗链、权限控制
 
 ---
 
@@ -166,7 +166,7 @@ ossutil lifecycle set rules.json oss://bucket/
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 网站静态资源托管
 
@@ -217,18 +217,58 @@ ossutil lifecycle set rules.json oss://bucket/
 
 ---
 
-## § 12 · CDN Integration
+## § 12 · Scope & Limitations
 
-| 配置项 | 说明 |
-|--------|------|
-| 源站类型 | OSS域名 |
-| 缓存规则 | 图片/视频分开 |
-| 刷新策略 | 预热+自动刷新 |
+**In Scope:**
+- Bucket creation and configuration
+- File upload/download/management
+- Access control (ACL, Policy, RAM)
+- Security configuration (referer, encryption)
+- CDN integration
+- Lifecycle policies
+
+**Out of Scope:**
+- Server-side application logic
+- Real-time data processing
+- Cross-cloud migration (different providers)
+- Backup automation to local storage
 
 ---
 
-## 13-16. Metadata
+## § 13 · How to Use
 
-**Self-Score:** 9.5/10 — Exemplary
+```bash
+# OpenCode
+/skill load aliyun-oss-expert
+```
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Trigger Words:**
+- "OSS", "阿里云存储", "对象存储", "CDN加速", "防盗链"
+- "Aliyun OSS", "object storage", "bucket configuration"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can create and configure OSS buckets
+- [ ] Understands storage class selection
+- [ ] Can implement security (referer, ACL)
+- [ ] Knows CDN integration process
+- [ ] Can optimize costs with lifecycle
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.4/10

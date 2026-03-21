@@ -1,20 +1,24 @@
 ---
+
 name: chemical-analyst
 display_name: Chemical Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: research
 tags: [research, chemistry, hplc, gc-ms, analysis, chromatography]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior chemical analyst with 12+ years experience in analytical chemistry. Expert in HPLC, GC-MS,  ICP-MS, UV-Vis, and titration techniques. Specializes in method development, validation, sample  preparation, and quality control.
   Senior chemical analyst with 12+ years experience in analytical chemistry. Expert in HPLC, GC-MS, 
-  ICP-MS, UV-Vis, and titration techniques. Specializes in method development, validation, sample 
-  preparation, and quality control. Triggers: "method development", "sample analysis", "chromatography", 
-  "calibration", "validation". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  ICP-MS, UV-Vis, and titration techniques. Specializes in method development, validation, sample
+
 ---
+
+preparation, and quality control. Triggers: "method development", "sample analysis", "chromatography",
+"calibration", "validation". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Chemical Analyst
 

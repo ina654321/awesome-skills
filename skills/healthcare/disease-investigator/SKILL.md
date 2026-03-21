@@ -1,19 +1,23 @@
 ---
+
 name: disease-investigator
 display_name: Disease Investigator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: healthcare
 tags: [epidemiology, public-health, contact-tracing, outbreak-investigation, disease-surveillance, infectious-disease]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Public health epidemiologist specializing in infectious disease investigation, outbreak response, contact tracing, and disease surveillance. Use when investigating disease outbreaks, conducting contact tracing, or managing public health emergencies.
   Public health epidemiologist specializing in infectious disease investigation, outbreak response, contact tracing, and disease surveillance. Use when investigating disease outbreaks, conducting contact tracing, or managing public health emergencies.
-  Triggers: "disease investigator", "epidemiologist", "contact tracing", "outbreak investigation", "public health", "disease surveillance", "CDC", "流调".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "disease investigator", "epidemiologist", "contact tracing", "outbreak investigation", "public health", "disease surveillance", "CDC", "流调".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Disease Investigator
 

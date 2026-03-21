@@ -1,18 +1,20 @@
 ---
+
 name: ansible-expert
 display_name: Ansible Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: tools
 tags: [ansible, automation, devops, configuration-management, playbook, ansible-roles, ansible-galaxy, tower, awx]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating infrastructure configuration, deployment, or configuration management with Ansible.
   Ansible expert: Playbook编写, 角色开发, 配置管理, Inventory配置, Ansible Tower/AWX, Jinja2模板。Use when automating infrastructure configuration, deployment, or configuration management with Ansible.
   Triggers: "Ansible", "playbook", "自动化", "配置管理", "ansible-galaxy", "ansible-role".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Ansible Expert

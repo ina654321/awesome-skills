@@ -1,21 +1,25 @@
 ---
+
 name: subtitle-translator
 display_name: Subtitle Translator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: media
 tags: [media, subtitle, translation, localization, audiovisual, closed-captions, timing, dubbing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility. Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility.
   Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility.
   Proficient in subtitle formats (SRT, VTT, ASS, SSA), timing standards, character limits, reading speed (CPS),
   and localization workflows for film, TV, streaming, and accessibility captions.
-  Triggers: "subtitle", "translate", "SRT", "VTT", "closed captions", "AVT", "localization"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "subtitle", "translate", "SRT", "VTT", "closed captions", "AVT", "localization"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Subtitle Translator
 

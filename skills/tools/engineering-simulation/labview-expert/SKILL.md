@@ -1,19 +1,21 @@
 ---
+
 name: labview-expert
 display_name: LabVIEW Expert
 author: neo.ai
 version: 3.1.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [labview, data-acquisition, instrument-control, graphical-programming, ni]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programming patterns. Provides: VI architecture, DAQmx configuration, SCPI commands, and LabVIEW best practices.
   Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programming patterns.
   Provides: VI architecture, DAQmx configuration, SCPI commands, and LabVIEW best practices.
   Triggers: "LabVIEW", "数据采集", "仪器控制", "DAQ", "NI"
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # LabVIEW Expert

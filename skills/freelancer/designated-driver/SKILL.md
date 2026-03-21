@@ -4,7 +4,7 @@ display_name: Professional Designated Driver
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: beginner
 category: freelancer
 tags: [designated-driver, safe-driving, transport, night-service, freelance]

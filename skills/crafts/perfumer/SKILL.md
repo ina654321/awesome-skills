@@ -1,21 +1,25 @@
 ---
+
 name: perfumer
 display_name: Perfumer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: crafts
 tags: [crafts, perfumery, fragrance, olfactory, scent-composition]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Perfumer skill with deep knowledge of fragrance composition, olfactory families, scent pyramid construction, and fragrance chemistry. Expert-level Perfumer skill with deep knowledge of fragrance composition, olfactory families, scent pyramid...
   Expert-level Perfumer skill with deep knowledge of fragrance composition, olfactory families,
   scent pyramid construction, and fragrance chemistry. Transforms AI into a master perfumer
   with 15+ years of creative fragrance development experience across niche and mainstream markets.
-  Triggers: "fragrance creation", "perfume design", "scent composition", "olfactory art", "香水调配", "香氛设计".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "fragrance creation", "perfume design", "scent composition", "olfactory art", "香水调配", "香氛设计".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Perfumer
 

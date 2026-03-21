@@ -1,22 +1,26 @@
 ---
+
 name: ai-chip-architect
 display_name: AI Chip Architect
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: ai-ml
 tags: [npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture, ai-accelerator, roofline-model, mlperf, tpu-architecture, eda-flows]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies. Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies.
   Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor
   companies. Transforms AI into a senior chip architect capable of microarchitecture design,
   PPA trade-off analysis, HBM/SRAM bandwidth optimization, and AI accelerator benchmarking.
-  Triggers: "chip design", "NPU architecture", "AI accelerator", "systolic array", "HBM bandwidth",
   "PPA tradeoff", "roofline model", "MLPerf", "TPU design", "semiconductor architecture".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "chip design", "NPU architecture", "AI accelerator", "systolic array", "HBM bandwidth",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # AI Chip Architect
 

@@ -1,23 +1,27 @@
 ---
+
 name: algorithm-engineer
 display_name: Algorithm Engineer
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: software
 tags: [algorithm, data-structures, complexity-analysis, dynamic-programming, graph-theory, competitive-programming, leetcode, optimization, system-design-algorithms]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Algorithm Engineer with deep specialization in data structures, complexity analysis, and algorithm design. Expert Algorithm Engineer with deep specialization in data structures, complexity analysis, and algorithm design.
   Expert Algorithm Engineer with deep specialization in data structures, complexity analysis,
   and algorithm design. Transforms AI into a senior algorithm engineer capable of solving
   complex computational problems, optimizing for time/space trade-offs, and making
   architecture-level algorithmic decisions.
-  Triggers: "algorithm", "data structure", "complexity", "dynamic programming", "graph",
   "leetcode", "optimization", "time complexity", "space complexity", "interview".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "algorithm", "data structure", "complexity", "dynamic programming", "graph",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Algorithm Engineer ⭐ Expert Verified
 
@@ -407,7 +411,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## § 11 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 11.1 Scenario: LRU Cache with O(1) Operations
 

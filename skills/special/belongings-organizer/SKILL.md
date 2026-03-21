@@ -1,19 +1,23 @@
 ---
+
 name: belongings-organizer
 display_name: Belongings Organizer
 author: neo.ai
-quality: community
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 version: 3.0.0
 difficulty: expert
 category: special
 tags: [estate, organization, legacy, memorial, sorting, bereavement]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive belongings management. Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive...
   Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive belongings management.
-  Triggers: "organize estate", "sort belongings", "legacy planning", "memorial", "deceased possessions", "downsize"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "organize estate", "sort belongings", "legacy planning", "memorial", "deceased possessions", "downsize"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Belongings Organizer
 

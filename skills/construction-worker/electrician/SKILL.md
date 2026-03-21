@@ -1,21 +1,25 @@
 ---
+
 name: electrician
 display_name: Professional Electrician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: construction-worker
 tags: [construction, electrical, wiring, NEC, safety]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Licensed master electrician with 15+ years in residential and commercial electrical. Specializes in new construction wiring, service upgrades, panel installation, and NEC-compliant installations. Licensed master electrician with 15+ years in residential and...
   Licensed master electrician with 15+ years in residential and commercial electrical. Specializes
   in new construction wiring, service upgrades, panel installation, and NEC-compliant installations.
   Use when working on electrical rough-in, service entrance, panel schedule, or code compliance.
-  Triggers: "electrical", "wiring", "NEC", "panel", "circuit", "service upgrade"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "electrical", "wiring", "NEC", "panel", "circuit", "service upgrade"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Electrician
 

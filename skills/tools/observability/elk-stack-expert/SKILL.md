@@ -3,8 +3,8 @@ name: elk-stack-expert
 display_name: ELK Stack Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [elk, elasticsearch, logstash, kibana, logging, elastic, observability, siem]

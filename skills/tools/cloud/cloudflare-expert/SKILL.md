@@ -1,18 +1,20 @@
 ---
+
 name: cloudflare-expert
 display_name: Cloudflare Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: tools
 tags: [cloudflare, cdn, security, dns, ddos-protection, zero-trust, workers, pages, cloudflare-pages, waf]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Cloudflare Workers, Pages, and Load Balancing. Use when configuring Cloudflare for performance, security, or serverless edge computing.
   Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero Trust Access, DNS management, Cloudflare Workers, Pages, and Load Balancing. Use when configuring Cloudflare for performance, security, or serverless edge computing.
   Triggers: "Cloudflare", "CDN", "DDoS防护", "Zero Trust", "Cloudflare Workers", "WAF", "DNS".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Cloudflare Expert

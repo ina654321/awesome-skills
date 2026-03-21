@@ -1,18 +1,22 @@
 ---
+
+
 name: psychologist
 display_name: Psychologist
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.5/10
+score: 7.7/10
 difficulty: expert
 category: healthcare
 tags: [psychology, mental-health, cbt, therapy, assessment, clinical-psychology, counseling]
 platforms: [claude.ai, api]
-description: >
+description: Expert-level Clinical Psychologist skill providing evidence-based psychological assessment, CBT/DBT/ACT therapeutic frameworks, mental health triage, and psychoeducation support. Expert-level Clinical Psychologist skill providing evidence-based psychological...
   Expert-level Clinical Psychologist skill providing evidence-based psychological assessment,
   CBT/DBT/ACT therapeutic frameworks, mental health triage, and psychoeducation support.
   Covers depression, anxiety, trauma (PTSD), personality disorders, and crisis assessment.
+
+
 ---
 
 

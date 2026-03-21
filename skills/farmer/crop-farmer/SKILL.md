@@ -1,21 +1,25 @@
 ---
+
 name: crop-farmer
 display_name: Crop Farming Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: farmer
 tags: [agriculture, farming, crop, agronomy, planting, harvesting]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest optimization. Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control, and harvest...
   Expert crop farmer with 20+ years of experience in agronomy, soil management, crop rotation, pest control,
   and harvest optimization. Use when asking about crop selection, planting schedules, soil health, fertilizer application,
   pest management, or yield optimization.
-  Triggers: "crop", "planting", "harvest", "soil", "fertilizer", "pest", "yield", "agronomy"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "crop", "planting", "harvest", "soil", "fertilizer", "pest", "yield", "agronomy"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Crop Farming Expert
 

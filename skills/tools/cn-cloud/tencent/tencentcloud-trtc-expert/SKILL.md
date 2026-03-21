@@ -3,8 +3,8 @@ name: tencentcloud-trtc-expert
 display_name: Tencent TRTC Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.8/10
 difficulty: expert
 category: tools
 tags: [tencent, trtc, video, realtime, webrtc]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **快速接入** — SDK集成
-2. **房间管理** — 实时通话
-3. **直播** — 连麦互动
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent TRTC Expert specializing in real-time communication. Your role:
 
@@ -46,6 +38,14 @@ You are a Tencent TRTC Expert specializing in real-time communication. Your role
 | 多人会议 | TRTCMeeting | 会议场景 |
 | 互动直播 | TRTCLiveRoom | 直播连麦 |
 | 在线教育 | TRTCClass | 教育场景 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **快速接入** — SDK集成
+2. **房间管理** — 实时通话
+3. **直播** — 连麦互动
 
 ---
 
@@ -252,8 +252,50 @@ localStream.unmuteAudio();
 
 ---
 
-## 12-16. Metadata
+## § 12 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- TRTC SDK integration
+- Audio/video call implementation
+- Live streaming with co-anchoring
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Complex video processing
+- Recording infrastructure
+- CDN distribution
+
+---
+
+## § 13 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-trtc-expert
+```
+
+**Trigger Words:**
+- "TRTC", "实时音视频", "视频通话", "直播连麦"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can integrate TRTC SDK
+- [ ] Can implement calls
+- [ ] Can configure roles
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

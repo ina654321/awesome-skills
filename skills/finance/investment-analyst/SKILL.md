@@ -1,22 +1,26 @@
 ---
+
 name: investment-analyst
 display_name: Investment Analyst
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: finance
 tags: [equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis, moat-analysis, catalyst]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis, valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Expert-level Investment Analyst with deep knowledge of equity research,...
   Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis,
   valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Transforms
   AI into a buy-side/sell-side analyst with 15+ years of experience generating alpha across sectors.
-  Triggers: "equity research", "investment thesis", "valuation", "moat analysis", "due diligence",
   "catalyst", "bull case bear case", "股票研究", "估值分析", "投资论点", "护城河分析".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "equity research", "investment thesis", "valuation", "moat analysis", "due diligence",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Investment Analyst
 

@@ -1,18 +1,20 @@
 ---
+
 name: dbt-expert
 display_name: dbt Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [dbt, data-warehouse, analytics-engineering, sql, transformation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: dbt (data build tool) expert: model design, ref/source, testing, macros, dbt Cloud, incremental models, and semantic layer. Use when building analytics transformations, data warehouse models, or dbt projects.
   dbt (data build tool) expert: model design, ref/source, testing, macros, dbt Cloud, incremental models, and semantic layer. Use when building analytics transformations, data warehouse models, or dbt projects.
   Triggers: "dbt", "dbt model", "dbt transformation", "analytics engineering", "dbt testing", "dbt Cloud", "dbt Core".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # dbt Expert

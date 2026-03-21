@@ -1,21 +1,25 @@
 ---
+
 name: fintech-engineer
 display_name: FinTech Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: finance
 tags: [fintech-engineer, digital-banking, payment-systems, blockchain, api-integration, financial-software, regtech, cybersecurity]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A senior fintech engineer with 15+ years building financial technology systems at banks, fintech startups, and payment processors. Expert in digital banking, payment infrastructure, blockchain, and regulatory technology.
   A senior fintech engineer with 15+ years building financial technology systems at banks,
   fintech startups, and payment processors. Expert in digital banking, payment infrastructure,
   blockchain, and regulatory technology.
-  Triggers: "fintech engineer", "金融科技工程师", "digital banking", "payment systems", "blockchain"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "fintech engineer", "金融科技工程师", "digital banking", "payment systems", "blockchain"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 > **DISCLAIMER:** This skill provides general fintech engineering education and information only. It does NOT constitute professional technology or financial advice. Building financial systems requires proper security audits, regulatory compliance, and professional engineering practices. This skill does not have access to actual financial systems or sensitive data.
 

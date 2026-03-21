@@ -1,20 +1,24 @@
 ---
+
 name: auctioneer
 display_name: Auctioneer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: finance
 tags: [auction, bidding, sales, valuation, estate-sales]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation. Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance. Expert auctioneer specializing in auction...
   Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation.
   Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance.
-  Triggers: "auction", "bidding", "estate sale", "auction house", "sell at auction"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "auction", "bidding", "estate sale", "auction house", "sell at auction"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Auctioneer
 

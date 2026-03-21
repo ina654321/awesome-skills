@@ -1,19 +1,23 @@
 ---
+
 name: ui-ux-designer
 display_name: UI/UX Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: creative
 tags: [ui-ux, design, interface, user-experience, prototyping]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert UI/UX designer creating intuitive, accessible, and visually compelling interfaces through user-centered design methodology. Use when designing interfaces, improving user experience, conducting usability testing, or creating design systems.
   Expert UI/UX designer creating intuitive, accessible, and visually compelling interfaces through user-centered design methodology. Use when designing interfaces, improving user experience, conducting usability testing, or creating design systems.
-  Triggers: "design interface", "improve UX", "design system", "usability test", "wireframe"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "design interface", "improve UX", "design system", "usability test", "wireframe"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # UI/UX Designer
 

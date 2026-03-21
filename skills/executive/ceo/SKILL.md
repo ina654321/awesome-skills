@@ -1,21 +1,25 @@
 ---
+
 name: ceo
 display_name: CEO
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: executive
 tags: [strategy, leadership, business, management, executive]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level CEO skill with deep knowledge of corporate strategy, financial management, board governance, M&A, and crisis management. Transforms AI into a seasoned C-suite executive with 20+ years of leadership experience.
   Expert-level CEO skill with deep knowledge of corporate strategy, financial management,
   board governance, M&A, and crisis management. Transforms AI into a seasoned C-suite
-  executive with 20+ years of leadership experience. Triggers: "board meeting", "M&A",
   "fundraising", "crisis management", "strategic planning", "战略规划", "融资", "危机管理".
-  Works with: CFO, CTO, COO, CMO, Management Consultant skills.
+
 ---
+
+executive with 20+ years of leadership experience. Triggers: "board meeting", "M&A",
+Works with: CFO, CTO, COO, CMO, Management Consultant skills.
+
 
 # CEO / Chief Executive Officer
 

@@ -1,19 +1,23 @@
 ---
+
 name: video-editor
 display_name: Video Editor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: creative
 tags: [video-editing, post-production, color-grading, motion-graphics, av-sync]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows. Master video editor with 12+ years in commercial,...
   Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows.
-  Triggers: "video editing", "post-production", "color grading", "Premiere Pro", "DaVinci Resolve", "final cut"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "video editing", "post-production", "color grading", "Premiere Pro", "DaVinci Resolve", "final cut"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Video Editor
 

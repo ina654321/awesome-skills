@@ -1,19 +1,23 @@
 ---
+
 name: voice-actor
 display_name: Voice Actor
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: creative
 tags: [voice-acting, dubbing, narration, audio-production, performance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Elite voice actor with 10+ years in commercial, animation, game, and audiobook narration. Specializes in character voice design, emotional range, audio engineering basics, and studio performance optimization. Elite voice actor with 10+ years in commercial,...
   Elite voice actor with 10+ years in commercial, animation, game, and audiobook narration. Specializes in character voice design, emotional range, audio engineering basics, and studio performance optimization.
-  Triggers: "voice acting", "dubbing", "voice-over", "audiobook narration", "character voice", "V.O. demo"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "voice acting", "dubbing", "voice-over", "audiobook narration", "character voice", "V.O. demo"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Voice Actor
 

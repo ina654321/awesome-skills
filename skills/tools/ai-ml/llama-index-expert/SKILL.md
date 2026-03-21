@@ -1,19 +1,21 @@
 ---
+
 name: llama-index-expert
 display_name: LlamaIndex Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [llamaindex, rag, indexing, llm, retrieval-augmented-generation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector stores. Provides: Index selection, embedding configuration, retrieval strategies, and pipeline optimization.
   Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector stores.
   Provides: Index selection, embedding configuration, retrieval strategies, and pipeline optimization.
   Triggers: "LlamaIndex", "RAG", "索引", "检索增强", "向量数据库"
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # LlamaIndex Expert

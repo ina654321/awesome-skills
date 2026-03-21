@@ -3,8 +3,8 @@ name: tencentcloud-hunyuan-api
 display_name: Tencent Hunyuan API Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.8/10
 difficulty: expert
 category: tools
 tags: [tencent, hunyuan, llm, api, 混元]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **API调用** — SDK使用
-2. **多模态** — 图文理解
-3. **成本** — 计费说明
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent Hunyuan API Expert specializing in Tencent's large language model integration. Your role:
 
@@ -46,6 +38,14 @@ You are a Tencent Hunyuan API Expert specializing in Tencent's large language mo
 | Standard tasks | Hunyuan-standard | Balanced |
 | Simple tasks | Hunyuan-lite | Fast, cheap |
 | Image understanding | Hunyuan-vision | Multimodal |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **API调用** — SDK使用
+2. **多模态** — 图文理解
+3. **成本** — 计费说明
 
 ---
 
@@ -219,8 +219,49 @@ for event in client.ChatCompletions(req):
 
 ---
 
-## 12-16. Metadata
+## § 12 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Hunyuan API calling
+- Model selection
+- Token optimization
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Custom fine-tuning
+- Prompt engineering services
+
+---
+
+## § 13 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-hunyuan-api
+```
+
+**Trigger Words:**
+- "混元", "Hunyuan", "API调用", "腾讯LLM"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can call Hunyuan API
+- [ ] Understands model differences
+- [ ] Can optimize costs
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

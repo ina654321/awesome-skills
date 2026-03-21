@@ -1,19 +1,23 @@
 ---
+
 name: rd-engineer
 display_name: R&D Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: research
 tags: [rd-engineering, product-development, prototyping, innovation, technical-design]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy.
   Senior R&D Engineer with 20+ years in new product development, prototyping, and technical innovation. Use when designing new products, developing prototypes, solving engineering challenges, or driving innovation strategy.
-  Triggers: "r&d engineer", "new product development", "prototype", "innovation strategy"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "r&d engineer", "new product development", "prototype", "innovation strategy"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # R&D Engineer
 

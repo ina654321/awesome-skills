@@ -1,19 +1,21 @@
 ---
+
 name: tensorflow-expert
 display_name: TensorFlow Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [tensorflow, deep-learning, keras, ml, neural-networks, tf-serving]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops, TF Serving, TFLite, TensorFlow.js, distributed training. Use when building DL models with TensorFlow.
   TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops,
   TF Serving, TFLite, TensorFlow.js, distributed training. Use when building DL models with TensorFlow.
   Triggers: "TensorFlow", "Keras", "深度学习", "TF Serving", "TFLite", "tf.data".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # TensorFlow Expert

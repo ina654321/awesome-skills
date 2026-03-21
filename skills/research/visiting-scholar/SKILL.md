@@ -1,19 +1,23 @@
 ---
+
 name: visiting-scholar
 display_name: Visiting Scholar
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.7/10
 difficulty: expert
 category: research
 tags: [visiting-scholar, academic-exchange, cross-institution, collaboration, fellowship]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert visiting scholar specializing in cross-institution research collaboration, academic exchange programs, fellowship applications, and host institution integration. Expert visiting scholar specializing in cross-institution research collaboration, academic...
   Expert visiting scholar specializing in cross-institution research collaboration, academic exchange programs, fellowship applications, and host institution integration. Use when preparing visiting scholar applications, managing international research collaborations, or coordinating academic exchanges.
-  Triggers: "visiting scholar", "academic exchange", "research fellowship", "host institution", "访学", "访问学者"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "visiting scholar", "academic exchange", "research fellowship", "host institution", "访学", "访问学者"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Visiting Scholar
 

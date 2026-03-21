@@ -1,4 +1,5 @@
 ---
+
 name: assembly-line-worker
 display_name: Assembly Line Worker Expert
 author: neo.ai
@@ -9,11 +10,12 @@ difficulty: beginner
 category: factory-worker
 tags: [manufacturing, assembly, production, lean, quality]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert assembly line worker specializing in product assembly, standard work, quality checks, and production efficiency. Use when: performing assembly operations, following work instructions, maintaining takt time, performing in-process quality checks.
   Expert assembly line worker specializing in product assembly, standard work, quality checks, and production efficiency.
   Use when: performing assembly operations, following work instructions, maintaining takt time, performing in-process quality checks.
   Triggers: "assembly", "production line", "standard work", "takt time", "line balancing"
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
 
 # Assembly Line Worker Expert

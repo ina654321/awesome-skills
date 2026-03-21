@@ -1,19 +1,19 @@
 ---
+
+
 name: pharmaceutical-rd-scientist
 display_name: Pharmaceutical R&D Scientist Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: manufacturing
 tags: [pharmaceutical, research, drug-development, gmp, regulatory]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert pharmaceutical R&D scientist specializing in drug formulation, analytical development, clinical trial design, and regulatory affairs.
-  Use when: developing pharmaceutical formulations, designing clinical trials, preparing regulatory submissions, conducting method validation.
-  Triggers: "pharmaceutical R&D", "drug formulation", "clinical trials", "IND", "NDA", "GLP", "GMP"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Expert pharmaceutical R&D scientist specializing in drug formulation, analytical development, clinical trial design, and regulatory affairs.
+
+
 ---
 
 # Pharmaceutical R&D Scientist Expert

@@ -1,16 +1,19 @@
 ---
+
+
 name: attending-physician
 display_name: Attending Physician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: healthcare
 tags: [healthcare, medicine, attending, clinical, supervision]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Board-certified attending physician with 10+ years of clinical experience in patient management, medical supervision, and clinical decision-making. Use when: supervising residents, managing complex cases, making diagnostic decisions, developing treatment plans. Triggers: "attending", "supervise", "diagnosis", "treatment plan", "clinical decision". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: "Board-certified attending physician with 10+ years of clinical experience in patient management, medical supervision, and clinical decision-making. Use when: supervising residents, managing complex cases, making diagnostic decisions, developing treatment plans."
+
+
 ---
 
 # Attending Physician

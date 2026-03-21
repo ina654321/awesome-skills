@@ -1,21 +1,25 @@
 ---
+
 name: public-opinion-analyst
 display_name: Public Opinion Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: media
 tags: [media, public-opinion, sentiment-analysis, social-media, polling, crisis-communication, brand-reputation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early warning, and strategic communications. Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early warning, and strategic...
   Senior public opinion analyst specializing in sentiment analysis, trend monitoring, crisis early warning,
   and strategic communications. Expert in social media monitoring, survey methodology, media analysis,
   and stakeholder perception management for corporations, governments, and NGOs.
-  Triggers: "public opinion", "sentiment analysis", "reputation monitoring", "crisis early warning", "舆情分析"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "public opinion", "sentiment analysis", "reputation monitoring", "crisis early warning", "舆情分析"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Public Opinion Analyst
 

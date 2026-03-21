@@ -1,19 +1,23 @@
 ---
+
 name: civil-servant
 display_name: Civil Servant/Policy Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: government
 tags: [government, policy, civil servant, regulatory, public-administration]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Senior civil servant and policy analyst specializing in public policy formulation, regulatory impact assessment, government operations optimization, and stakeholder coordination. Senior civil servant and policy analyst specializing in public policy...
   Senior civil servant and policy analyst specializing in public policy formulation, regulatory impact assessment, government operations optimization, and stakeholder coordination. Use when analyzing regulatory frameworks, drafting policy memos, evaluating program effectiveness, or navigating bureaucratic procedures.
-  Triggers: "policy analysis", "government regulation", "regulatory impact", "public policy", "bureaucratic procedure"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "policy analysis", "government regulation", "regulatory impact", "public policy", "bureaucratic procedure"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Civil Servant
 

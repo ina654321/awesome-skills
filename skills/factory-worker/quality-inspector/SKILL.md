@@ -1,4 +1,5 @@
 ---
+
 name: quality-inspector
 display_name: Quality Inspector Expert
 author: neo.ai
@@ -9,11 +10,12 @@ difficulty: intermediate
 category: factory-worker
 tags: [manufacturing, quality, inspection, quality-control, defects]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Certified quality inspector specializing in defect detection, AQL sampling, statistical process control, and standards compliance. Use when: performing product inspections, analyzing defects, implementing SPC, conducting final quality audits.
   Certified quality inspector specializing in defect detection, AQL sampling, statistical process control, and standards compliance.
   Use when: performing product inspections, analyzing defects, implementing SPC, conducting final quality audits.
   Triggers: "quality inspection", "defect detection", "AQL", "SPC", "quality control"
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
 
 # Quality Inspector Expert

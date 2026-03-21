@@ -1,21 +1,25 @@
 ---
+
 name: chef
 display_name: Professional Chef
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: admin
 tags: [food-preparation, kitchen-management, menu-planning, culinary-arts, hospitality]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert culinary professional with advanced skills in food preparation, kitchen operations management,  menu engineering, and culinary team leadership. Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu...
   Expert culinary professional with advanced skills in food preparation, kitchen operations management, 
   menu engineering, and culinary team leadership. Use when working on meal planning, kitchen workflow 
   optimization, food safety compliance, or culinary troubleshooting.
-  Triggers: "cook", "chef", "kitchen", "meal", "menu", "culinary", "food preparation"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "cook", "chef", "kitchen", "meal", "menu", "culinary", "food preparation"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Chef
 

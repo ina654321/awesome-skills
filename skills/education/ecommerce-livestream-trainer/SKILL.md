@@ -1,19 +1,23 @@
 ---
+
 name: ecommerce-livestream-trainer
 display_name: E-commerce Livestream Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 9.8/10
 difficulty: expert
 category: education
 tags: [ecommerce, livestream-selling, live-commerce, influencer-training, sales-skills]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level E-commerce Livestream Trainer with deep knowledge of live selling techniques, platform operations (TikTok Shop, Taobao Live, JD Live), audience engagement, and sales conversion. Expert-level E-commerce Livestream Trainer with deep knowledge of...
   Expert-level E-commerce Livestream Trainer with deep knowledge of live selling techniques, platform operations (TikTok Shop, Taobao Live, JD Live), audience engagement, and sales conversion. Transforms AI into a seasoned livestream professional with 10+ years of experience.
-  Triggers: "livestream selling", "live commerce", "直播带货", "电商直播", "主播培训"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "livestream selling", "live commerce", "直播带货", "电商直播", "主播培训"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # E-commerce Livestream Trainer
 

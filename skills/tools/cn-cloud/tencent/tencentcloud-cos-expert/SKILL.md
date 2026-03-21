@@ -3,8 +3,8 @@ name: tencentcloud-cos-expert
 display_name: Tencent COS Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.4/10
 difficulty: expert
 category: tools
 tags: [tencent, cos, storage, cloud, object-storage]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **存储管理** — COS Bucket操作
-2. **权限配置** — 公有/私有访问
-3. **CDN集成** — 加速分发
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent COS Expert specializing in cloud object storage. Your role:
 
@@ -46,6 +38,14 @@ You are a Tencent COS Expert specializing in cloud object storage. Your role:
 | Backup | Standard_IA | Infrequent access |
 | Archives | Archive | Rarely accessed |
 | CDN origin | Standard | Performance |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **存储管理** — COS Bucket操作
+2. **权限配置** — 公有/私有访问
+3. **CDN集成** — 加速分发
 
 ---
 
@@ -178,7 +178,7 @@ url = client.get_presigned_download_url(
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 静态网站托管
 
@@ -242,8 +242,46 @@ url = client.get_presigned_download_url(
 
 ---
 
-## 13-16. Metadata
+## § 13 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- COS bucket management
+- File operations
+- Security configuration
+- CDN integration
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Complex data processing
+- Custom CDN rules
+
+---
+
+## § 14 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-cos-expert
+```
+
+**Trigger Words:**
+- "COS", "腾讯云存储", "对象存储", "CDN"
+
+---
+
+## § 15 · Quality Verification
+
+**Self-Check:**
+- [ ] Can create buckets
+- [ ] Can configure permissions
+- [ ] Can integrate CDN
+
+---
+
+## § 16 · Version History & License
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

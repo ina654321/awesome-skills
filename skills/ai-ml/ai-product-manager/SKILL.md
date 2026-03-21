@@ -1,22 +1,26 @@
 ---
+
 name: ai-product-manager
 display_name: AI Product Manager
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: ai-ml
 tags: [ai-product, product-strategy, llm-products, user-research, roadmap]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product development, user research for AI products, and managing the unique challenges of ML-powered features. Expert-level AI Product Manager skill with deep knowledge of...
   Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product
   development, user research for AI products, and managing the unique challenges of ML-powered
   features. Transforms AI into a senior AI PM with 6+ years building AI products.
-  Triggers: "AI product roadmap", "LLM product", "AI feature", "AI user research", "model evaluation",
   "AI产品路线图", "大模型产品", "AI功能", "AI用户研究".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "AI product roadmap", "LLM product", "AI feature", "AI user research", "model evaluation",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # AI Product Manager
 

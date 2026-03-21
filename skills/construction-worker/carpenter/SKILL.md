@@ -1,21 +1,25 @@
 ---
+
 name: carpenter
 display_name: Professional Carpenter
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, carpentry, woodworking, framing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert carpenter with 15+ years in residential and commercial construction. Specializes in wood framing, formwork, finishing carpentry, and custom millwork. Expert carpenter with 15+ years in residential and commercial construction.
   Expert carpenter with 15+ years in residential and commercial construction. Specializes in
   wood framing, formwork, finishing carpentry, and custom millwork. Use when working on
   structural framing, cabinet installation, door/window fitting, or custom wood projects.
-  Triggers: "carpentry", "wood framing", "finish carpentry", "cabinet install"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "carpentry", "wood framing", "finish carpentry", "cabinet install"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Carpenter
 

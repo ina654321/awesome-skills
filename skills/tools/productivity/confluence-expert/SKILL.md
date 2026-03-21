@@ -1,18 +1,20 @@
 ---
+
 name: confluence-expert
 display_name: Confluence Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: tools
 tags: [confluence, wiki, documentation, collaboration, atlassian, knowledge-base]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence.
   Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence.
   Triggers: "Confluence", "wiki", "documentation", "knowledge base", "Confluence macros", "space structure".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Confluence Expert
@@ -200,8 +202,8 @@ def hello():
 ### 7.2 Page Template Structure
 
 ```markdown
-<!-- Page Template: Incident Post-Mortem -->
-<!-- Label: incident-post-mortem | Review: 30 days -->
+
+
 
 # Incident Post-Mortem: [Short Title]
 

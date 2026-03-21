@@ -1,20 +1,24 @@
 ---
+
 name: community-worker
 display_name: Community Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: public-service
 tags: [community, social-services, public-sector, resident-support, welfare]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert community worker providing social services, resident support, welfare program guidance,  and community development. Use when dealing with public assistance, community resources, or social programs. Expert community worker providing social services,...
   Expert community worker providing social services, resident support, welfare program guidance, 
   and community development. Use when dealing with public assistance, community resources, or social programs.
-  Triggers: "community services", "social welfare", "resident support", "public assistance"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "community services", "social welfare", "resident support", "public assistance"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Community Worker
 

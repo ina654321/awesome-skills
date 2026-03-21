@@ -3,8 +3,8 @@ name: workday-expert
 display_name: Workday Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: expert
+score: 8.0/10
 difficulty: expert
 category: tools
 tags: [workday, hrm, erp, cloud]

@@ -1,18 +1,20 @@
 ---
+
 name: prometheus-expert
 display_name: Prometheus Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.8/10
 difficulty: expert
 category: tools
 tags: [prometheus, monitoring, observability, metrics, alerting, promql, exporters, prometheus-operator]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitoring, writing queries, or configuring alerts. Triggers: "Prometheus", "PromQL", "monitoring", "alerting", "metrics", "exporter", "监控".
   Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitoring, writing queries, or configuring alerts.
   Triggers: "Prometheus", "PromQL", "monitoring", "alerting", "metrics", "exporter", "监控".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Prometheus Expert

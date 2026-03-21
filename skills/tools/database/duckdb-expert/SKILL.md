@@ -3,7 +3,7 @@ name: duckdb-expert
 display_name: DuckDB Expert
 author: neo.ai
 version: 3.0.0
-quality: expert
+quality: exemplary
 score: 9.5/10
 difficulty: expert
 category: tools

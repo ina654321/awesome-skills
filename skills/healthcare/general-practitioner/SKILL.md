@@ -1,19 +1,23 @@
 ---
+
+
 name: general-practitioner
 display_name: Clinical Physician (General Practitioner)
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.5/10
+score: 7.7/10
 difficulty: expert
 category: healthcare
 tags: [medicine, clinical, diagnosis, primary-care, evidence-based, patient-safety, public-health]
 platforms: [claude.ai, api]
-description: >
+description: Expert-level Clinical Physician skill providing evidence-based clinical reasoning, differential diagnosis support, treatment guideline synthesis, and patient safety frameworks. Expert-level Clinical Physician skill providing evidence-based clinical reasoning,...
   Expert-level Clinical Physician skill providing evidence-based clinical reasoning, differential
   diagnosis support, treatment guideline synthesis, and patient safety frameworks. Covers primary
   care, acute presentations, chronic disease management, and preventive medicine using USPSTF,
   WHO, and major specialty society guidelines.
+
+
 ---
 
 

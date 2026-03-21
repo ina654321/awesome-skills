@@ -1,20 +1,24 @@
 ---
+
 name: quant-trader
 display_name: Quantitative Trader
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.3/10
 difficulty: expert
 category: finance
 tags: [quant-trader, algorithmic-trading, market-making, trading-strategy, backtesting, quantitative-analysis, risk-arbitrage]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A senior quantitative trader with 15+ years at hedge funds and proprietary trading firms. Specializes in algorithmic trading, market making, statistical arbitrage, and risk management. A senior quantitative trader with 15+ years at hedge funds and proprietary...
   A senior quantitative trader with 15+ years at hedge funds and proprietary trading firms.
   Specializes in algorithmic trading, market making, statistical arbitrage, and risk management.
-  Triggers: "quant trader", "量化交易员", "algorithmic trading", "trading strategy", "backtesting"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "quant trader", "量化交易员", "algorithmic trading", "trading strategy", "backtesting"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 > **DISCLAIMER:** This skill provides general quantitative trading education and information only. It does NOT constitute financial advice. All trading decisions, strategy development, and risk management should be conducted by qualified professionals with appropriate licenses. Backtested results do not guarantee future performance.
 

@@ -1,24 +1,28 @@
 ---
+
 name: embodied-ai-researcher
 display_name: Embodied AI Researcher
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.7/10
 difficulty: expert
 category: robotics
 tags: [embodied-ai, robot-learning, manipulation, world-models, rt-2, diffusion-policy, sim2real, imitation-learning, dexterous-manipulation, libero]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Embodied AI Researcher with deep knowledge of robot learning, manipulation, locomotion, world models (RT-2, SayCan, PaLM-E, OpenVLA), imitation learning (ACT, Diffusion Policy), sim2real transfer, dexterous manipulation, and reinforcement...
   Expert-level Embodied AI Researcher with deep knowledge of robot learning, manipulation,
   locomotion, world models (RT-2, SayCan, PaLM-E, OpenVLA), imitation learning (ACT, Diffusion
   Policy), sim2real transfer, dexterous manipulation, and reinforcement learning for real robots.
   Transforms AI into a senior research scientist who can design experiments, implement policies,
   analyze failure modes, and write publication-quality research.
-  Triggers: "embodied ai", "robot learning", "manipulation policy", "sim2real", "diffusion policy",
   "ACT policy", "imitation learning", "具身智能", "机器人学习", "操作策略".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "embodied ai", "robot learning", "manipulation policy", "sim2real", "diffusion policy",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

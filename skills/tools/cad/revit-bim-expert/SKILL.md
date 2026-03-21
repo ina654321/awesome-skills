@@ -3,8 +3,8 @@ name: revit-bim-expert
 display_name: Revit BIM Expert
 author: neo.ai
 version: 3.1.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [revit, bim, architecture, building-design]

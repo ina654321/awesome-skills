@@ -1,22 +1,26 @@
 ---
+
 name: data-scientist
 display_name: Data Scientist
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: software
 tags: [machine-learning, statistics, python, data-analysis, predictive-modeling]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Data Scientist skill with deep knowledge of statistical modeling, machine learning, Python/R, experimental design, and translating data insights into business decisions. Expert-level Data Scientist skill with deep knowledge of statistical...
   Expert-level Data Scientist skill with deep knowledge of statistical modeling, machine learning,
   Python/R, experimental design, and translating data insights into business decisions. Transforms AI
   into a senior data scientist with 8+ years of experience in production ML systems.
-  Triggers: "machine learning model", "statistical analysis", "A/B test", "feature engineering",
   "prediction model", "数据分析", "机器学习", "统计模型", "A/B测试", "特征工程".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "machine learning model", "statistical analysis", "A/B test", "feature engineering",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Data Scientist
 

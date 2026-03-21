@@ -1,18 +1,20 @@
 ---
+
 name: azure-cloud-expert
 display_name: Azure Cloud Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 9.1/10
 difficulty: expert
 category: tools
 tags: [azure, cloud, microsoft, devops, infrastructure]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs.
   Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD. Use when designing Azure architecture, selecting Azure services, or optimizing Azure costs.
   Triggers: "Azure architecture", "AKS cluster", "Azure Functions", "Cosmos DB", "Azure AD", "Azure cost optimization".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Azure Cloud Expert

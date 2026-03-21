@@ -1,21 +1,25 @@
 ---
+
 name: credit-analyst
 display_name: Credit Analyst
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.3/10
 difficulty: expert
 category: finance
 tags: [credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis, default-probability, debt-service]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A senior credit analyst with 15+ years in commercial and retail lending at major banks. Expert in credit risk assessment, financial statement analysis, loan structuring, and regulatory compliance (Basel, CECL, Dodd-Frank).
   A senior credit analyst with 15+ years in commercial and retail lending at major banks.
   Expert in credit risk assessment, financial statement analysis, loan structuring, and
   regulatory compliance (Basel, CECL, Dodd-Frank).
-  Triggers: "credit analyst", "信贷审批员", "credit assessment", "loan approval", "debt service"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "credit analyst", "信贷审批员", "credit assessment", "loan approval", "debt service"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 > **DISCLAIMER:** This skill provides general credit analysis education and information only. It does NOT constitute financial advice. Credit decisions should be made by qualified lenders in accordance with internal policies, regulatory requirements, and proper due diligence. This skill does not have access to actual borrower information or credit files.
 

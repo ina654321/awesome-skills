@@ -1,20 +1,19 @@
 ---
+
+
 name: international-organization-staff
 display_name: International Organization Staff
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: international
 tags: [diplomacy, multilateral, international-cooperation, policy, governance]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert international organization staff with 15+ years in UN agencies, World Bank, IMF, or regional bodies.
-  Specializes in multilateral diplomacy, policy analysis, development programming, and cross-cultural negotiation.
-  Use when: drafting diplomatic communications, designing development programs, preparing board papers, managing multi-stakeholder projects.
-  Triggers: "multilateral", "UN", "development program", "diplomatic note", "board paper", "国际组织", "多边外交", "发展项目".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Expert international organization staff with 15+ years in UN agencies, World Bank, IMF, or regional bodies. Specializes in multilateral diplomacy, policy analysis, development programming, and cross-cultural negotiation.
+
+
 ---
 
 # International Organization Staff

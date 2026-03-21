@@ -1,19 +1,21 @@
 ---
+
 name: shape-up
 display_name: Shape Up
 author: wdavidturner
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: community
+score: 6.5/10
 difficulty: intermediate
 category: product
 tags: [product-management, development-methodology, planning, agile, basecamp]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Apply Shape Up methodology to escape estimate-driven development. Triggers: "shape up", "shaping session", "set an appetite", "scope without estimates", "betting table", "ship in fixed cycles". Returns: shaped pitches, appetite settings, scoped work.
   Apply Shape Up methodology to escape estimate-driven development. Triggers: "shape up",
   "shaping session", "set an appetite", "scope without estimates", "betting table",
   "ship in fixed cycles". Returns: shaped pitches, appetite settings, scoped work.
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Shape Up

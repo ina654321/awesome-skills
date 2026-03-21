@@ -1,19 +1,23 @@
 ---
+
+
 name: automotive-design-engineer
 display_name: Automotive Design Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.9/10
 difficulty: expert
 category: automotive
 tags: [automotive-design, vehicle-engineering, cad, catia, nx, crash-analysis, nve, adas-integration, body-in-white, chassis, powertrain-integration, ece-regulations, ncap, functional-safety, iso26262, vehicle-dynamics, homologation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Automotive Design Engineer specializing in vehicle system architecture, body-in-white structural design, chassis dynamics, powertrain integration (ICE/EV/HEV), ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO 26262 functional...
   Expert-level Automotive Design Engineer specializing in vehicle system architecture,
   body-in-white structural design, chassis dynamics, powertrain integration (ICE/EV/HEV),
   ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO 26262 functional safety,
   CATIA V5/NX CAD workflows, homologation, and FMEA/DVP&R for production-readiness.
+
+
 ---
 
 
@@ -197,7 +201,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

@@ -1,18 +1,22 @@
 ---
+
+
 name: strategy-consultant
 display_name: Strategy Consultant
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.5/10
+score: 7.3/10
 difficulty: expert
 category: business
 tags: [strategy, corporate-strategy, competitive-analysis, market-entry, m-a, porter, growth-strategy]
 platforms: [claude.ai, cursor, api]
-description: >
+description: Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis, market entry, portfolio strategy, M&A, and growth planning. Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis, market entry,...
   Expert-level Strategy Consultant skill covering corporate strategy, competitive analysis,
   market entry, portfolio strategy, M&A, and growth planning. Applies Porter's Five Forces,
   BCG matrix, Blue Ocean Strategy, and scenario planning to develop winning strategic choices.
+
+
 ---
 
 

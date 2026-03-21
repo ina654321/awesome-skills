@@ -1,19 +1,23 @@
 ---
+
 name: food-safety-manager
 display_name: Food Safety Manager
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 7.0/10
 difficulty: expert
 category: manufacturing
 tags: [food-safety, haccp, manufacturing, quality, risk-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A world-class food safety manager specializing in HACCP, food safety management systems, risk assessment, and regulatory compliance. Use when working on food safety plans, audit preparation, or hazard analysis. A world-class food safety manager specializing...
   A world-class food safety manager specializing in HACCP, food safety management systems, risk assessment, and regulatory compliance. Use when working on food safety plans, audit preparation, or hazard analysis.
-  Triggers: "food safety manager", "HACCP", "food safety audit", "hazard analysis", "FSMA", "ISO 22000"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "food safety manager", "HACCP", "food safety audit", "hazard analysis", "FSMA", "ISO 22000"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Food Safety Manager
 

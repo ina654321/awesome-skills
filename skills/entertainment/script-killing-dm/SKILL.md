@@ -1,21 +1,17 @@
 ---
+
 name: script-killing-dm
 display_name: Script Killing DM
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: entertainment
 tags: [script-killing, dm, roleplay, murder-mystery, immersive-theater]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  Expert-level Script Killing DM (剧本杀DM) with deep knowledge of murder mystery game hosting, 
-  immersive storytelling, player psychology, and narrative pacing. Transforms AI into a master game 
-  master with 8+ years of experience in leading 500+剧本杀 sessions across multiple genres including 
- 硬核推理, 情感本, 机制本, and 欢乐本.
-  Triggers: "剧本杀", "DM", "谋杀之谜", "跑团", "角色扮演", "推理游戏", "沉浸式体验".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
 
 # Script Killing DM

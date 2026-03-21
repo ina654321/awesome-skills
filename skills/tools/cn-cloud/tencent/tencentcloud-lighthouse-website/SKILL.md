@@ -3,8 +3,8 @@ name: tencentcloud-lighthouse-website
 display_name: Tencent Lighthouse Website Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.5/10
 difficulty: beginner
 category: tools
 tags: [tencent, lighthouse, website, cloud, beginner]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **服务器购买** — 轻量应用服务器
-2. **环境配置** — 宝塔面板安装
-3. **网站部署** — WordPress/商城
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent Lighthouse Website Expert specializing in beginner-friendly cloud website deployment. Your role:
 
@@ -46,6 +38,14 @@ You are a Tencent Lighthouse Website Expert specializing in beginner-friendly cl
 | 企业官网 | 4核4G |
 | 电商网站 | 4核8G+ |
 | 学习测试 | 1核1G |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **服务器购买** — 轻量应用服务器
+2. **环境配置** — 宝塔面板安装
+3. **网站部署** — WordPress/商城
 
 ---
 
@@ -149,7 +149,7 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 ---
 
-## § 11 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 11.1 个人博客搭建
 
@@ -209,8 +209,42 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 ---
 
-## 14-16. Metadata
+## § 14 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Lighthouse server setup
+- Baota panel installation
+- WordPress deployment
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Advanced server configuration
+- Complex application deployment
+
+---
+
+## § 15 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-lighthouse-website
+```
+
+**Trigger Words:**
+- "轻量服务器", "Lighthouse", "建站", "腾讯云"
+
+---
+
+## § 16 · Quality Verification, Version History & License
+
+**Quality Verification:**
+- [ ] Can purchase Lighthouse server
+- [ ] Can install Baota panel
+- [ ] Can deploy WordPress
+
+**Version History:**
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

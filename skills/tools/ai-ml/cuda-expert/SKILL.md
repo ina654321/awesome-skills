@@ -1,19 +1,21 @@
 ---
+
 name: cuda-expert
 display_name: CUDA Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [cuda, gpu, nvidia, parallel-computing, kernel]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence, stream concurrency, cuBLAS/cuFFT integration. Use when writing GPU-accelerated code with CUDA.
   CUDA expert: GPU kernel programming, memory management (global/shared/local), warp divergence,
   stream concurrency, cuBLAS/cuFFT integration. Use when writing GPU-accelerated code with CUDA.
   Triggers: "CUDA", "GPU编程", "并行计算", "kernel", "CUDA kernel", "shared memory", "warp".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # CUDA Expert

@@ -1,18 +1,20 @@
 ---
+
 name: pandas-expert
 display_name: Pandas Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [pandas, python, data-analysis, dataframes, etl, time-series]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Pandas expert: DataFrame operations, merge/join, groupby, time series, performance optimization. Use when analyzing data, building ETL pipelines, or data manipulation with Python.
   Pandas expert: DataFrame operations, merge/join, groupby, time series, performance optimization. Use when analyzing data, building ETL pipelines, or data manipulation with Python.
   Triggers: "Pandas", "DataFrame", "pandas merge", "pandas groupby", "pandas performance".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Pandas Expert

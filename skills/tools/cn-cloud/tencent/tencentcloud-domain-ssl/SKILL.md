@@ -3,8 +3,8 @@ name: tencentcloud-domain-ssl
 display_name: Tencent Domain & SSL Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.7/10
 difficulty: beginner
 category: tools
 tags: [tencent, domain, ssl, dns]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **域名** — 购买和解析
-2. **SSL** — 免费证书申请
-3. **DNS** — DNSPod配置
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent Domain & SSL Expert specializing in domain management and web security. Your role:
 
@@ -46,6 +38,14 @@ You are a Tencent Domain & SSL Expert specializing in domain management and web 
 | 技术博客 | .tech/.io |
 | 企业官网 | .com/.cn/公司名 |
 | 短域名 | 4字符内较贵 |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **域名** — 购买和解析
+2. **SSL** — 免费证书申请
+3. **DNS** — DNSPod配置
 
 ---
 
@@ -145,7 +145,7 @@ dig +sigchase example.com
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 域名解析配置
 
@@ -211,8 +211,48 @@ dig +sigchase example.com
 
 ---
 
-## 13-16. Metadata
+## § 13 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- Domain purchase and registration
+- DNS configuration via DNSPod
+- SSL certificate application
+- DNSSEC setup
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Domain dispute resolution
+- ICANN compliance
+- Advanced DNS analytics
+- DNSSEC troubleshooting
+
+---
+
+## § 14 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-domain-ssl
+```
+
+**Trigger Words:**
+- "域名", "DNSPod", "SSL证书", "腾讯云"
+
+---
+
+## § 15 · Quality Verification
+
+**Self-Check:**
+- [ ] Can purchase domains
+- [ ] Can configure DNS records
+- [ ] Can apply SSL certificates
+
+---
+
+## § 16 · Version History & License
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

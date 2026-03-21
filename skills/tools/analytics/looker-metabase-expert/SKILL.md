@@ -1,19 +1,23 @@
 ---
+
 name: looker-metabase-expert
 display_name: Looker & Metabase Expert Skill
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: analytics
 tags: [looker, metabase, bi-tools, data-visualization, embedded-analytics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Looker and Metabase user for business intelligence and embedded analytics. Use when building dashboards, creating data models, or implementing self-service analytics. Expert Looker and Metabase user for business intelligence and embedded analytics.
   Expert Looker and Metabase user for business intelligence and embedded analytics. Use when building dashboards, creating data models, or implementing self-service analytics.
-  Triggers: "looker studio", "metabase dashboard", "bi tool"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "looker studio", "metabase dashboard", "bi tool"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Looker & Metabase Expert
 

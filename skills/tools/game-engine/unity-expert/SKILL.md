@@ -3,8 +3,8 @@ name: unity-expert
 display_name: Unity Expert
 author: neo.ai
 version: 3.1.0
-quality: comprehensive
-score: 9.5/10
+quality: expert
+score: 7.6/10
 difficulty: expert
 category: tools
 tags: [unity, game-engine, csharp, 3d-games]

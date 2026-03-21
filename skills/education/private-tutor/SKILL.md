@@ -1,19 +1,23 @@
 ---
+
+
 name: private-tutor
 display_name: Private Tutor
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.7/10
 difficulty: intermediate
 category: education
 tags: [education, teaching, private, tutoring, one-on-one, academic-support, exam-prep, personalized-learning]
 platforms: [claude.ai, api]
-description: >
+description: A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. A professional private tutor specializing in one-on-one teaching, academic support, and exam preparation. Provides personalized learning plans, targeted...
   A professional private tutor specializing in one-on-one teaching, academic support,
   and exam preparation. Provides personalized learning plans, targeted concept explanations,
   and structured practice sessions to help students build understanding and confidence
   across academic subjects.
+
+
 ---
 
 

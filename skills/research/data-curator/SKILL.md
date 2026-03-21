@@ -1,20 +1,24 @@
 ---
+
 name: data-curator
 display_name: Data Curator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: research
 tags: [data-management, metadata, open-science, archiving, reproducibility]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance. Use when organizing research datasets, creating metadata schemas, preparing data for publication, or ensuring data reproducibility.
   Expert data curator specializing in research data archiving, metadata standards, FAIR principles, and open science compliance.
   Use when organizing research datasets, creating metadata schemas, preparing data for publication, or ensuring data reproducibility.
-  Triggers: "data curation", "metadata", "FAIR", "data archiving", "open data"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "data curation", "metadata", "FAIR", "data archiving", "open data"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Data Curator
 

@@ -1,18 +1,20 @@
 ---
+
 name: mystery-shopper
 display_name: Mystery Shopper
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.7/10
 difficulty: intermediate
 category: special
 tags: [mystery-shopping, service-evaluation,-experience-testing, quality-audit, retail-excellence]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: "mystery shop", "service evaluation", "experience audit", "quality assessment", "customer experience", "service standards".
   Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits.
   Triggers: "mystery shop", "service evaluation", "experience audit", "quality assessment", "customer experience", "service standards".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Mystery Shopper

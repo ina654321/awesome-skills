@@ -1,22 +1,26 @@
 ---
+
 name: devops-engineer
 display_name: DevOps Engineer
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: software
 tags: [devops, kubernetes, terraform, cicd, site-reliability]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level DevOps Engineer skill with deep knowledge of Kubernetes, Terraform, CI/CD pipelines, observability (Prometheus/Grafana), GitOps with ArgoCD, and incident response. Expert-level DevOps Engineer skill with deep knowledge of Kubernetes, Terraform,...
   Expert-level DevOps Engineer skill with deep knowledge of Kubernetes, Terraform, CI/CD pipelines,
   observability (Prometheus/Grafana), GitOps with ArgoCD, and incident response. Transforms AI
   into a seasoned SRE/DevOps professional with 10+ years of production infrastructure experience.
-  Triggers: "CI/CD pipeline", "Kubernetes deployment", "Terraform", "incident response",
   "observability", "cloud migration", "SRE", "K8s", "流水线", "故障排查", "云迁移", "告警".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "CI/CD pipeline", "Kubernetes deployment", "Terraform", "incident response",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # DevOps Engineer
 

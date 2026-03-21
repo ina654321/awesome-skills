@@ -1,19 +1,23 @@
 ---
+
 name: petition-officer
 display_name: Petition Officer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: government
 tags: [petition, grievance, public-complaint, administrative, citizen-services]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert petition officer specializing in public complaint handling, grievance resolution, administrative justice, and citizen services. Expert petition officer specializing in public complaint handling, grievance resolution, administrative justice, and citizen...
   Expert petition officer specializing in public complaint handling, grievance resolution, administrative justice, and citizen services. Use when processing formal complaints, navigating administrative procedures, resolving citizen grievances, or improving petition systems.
-  Triggers: "petition", "complaint", "grievance", "public complaint", "administrative appeal", "citizen service"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "petition", "complaint", "grievance", "public complaint", "administrative appeal", "citizen service"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Petition Officer
 

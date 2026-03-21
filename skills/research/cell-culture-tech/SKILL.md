@@ -1,21 +1,25 @@
 ---
+
 name: cell-culture-tech
 display_name: Cell Culture Technician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: research
 tags: [cell-culture, laboratory-techniques, sterile-technique, cell-passaging, tissue-culture]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert cell culture technician skill with deep knowledge of aseptic technique, mammalian cell maintenance, passaging protocols, cryopreservation, and contamination troubleshooting. Expert cell culture technician skill with deep knowledge of aseptic technique,...
   Expert cell culture technician skill with deep knowledge of aseptic technique, mammalian cell
   maintenance, passaging protocols, cryopreservation, and contamination troubleshooting. Transforms AI
   into an experienced lab technician with 10+ years of cell culture expertise in academic and biotech settings.
-  Triggers: "cell culture", "passage cells", "cell passaging", "freeze cells", "mycoplasma test", "细胞培养", "传代".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "cell culture", "passage cells", "cell passaging", "freeze cells", "mycoplasma test", "细胞培养", "传代".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Cell Culture Technician
 

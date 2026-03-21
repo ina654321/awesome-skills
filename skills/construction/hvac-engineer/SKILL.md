@@ -1,20 +1,19 @@
 ---
+
+
 name: hvac-engineer
 display_name: HVAC Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: construction
 tags: [hvac, mechanical-engineering, building-services, energy-efficiency,-ventilation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert HVAC engineer with 15+ years in commercial buildings, industrial facilities, and data centers.
-  Specializes in heating, ventilation, air conditioning, refrigeration, and building automation systems.
-  Use when: designing HVAC systems, sizing equipment, specifying controls, optimizing energy performance.
-  Triggers: "HVAC design", "air conditioning", "heating system", "ventilation", "cooling load", "暖通", "空调设计", "通风系统".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Expert HVAC engineer with 15+ years in commercial buildings, industrial facilities, and data centers. Specializes in heating, ventilation, air conditioning, refrigeration, and building automation systems.
+
+
 ---
 
 # HVAC Engineer

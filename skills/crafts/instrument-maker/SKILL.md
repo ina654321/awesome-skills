@@ -1,21 +1,25 @@
 ---
+
 name: instrument-maker
 display_name: Traditional Instrument Maker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: crafts
 tags: [crafts, instrument-making, traditional-music, woodcraft, acoustic-design, lute-maker]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Traditional Instrument Maker skill with deep knowledge of Chinese and Asian traditional  instrument making. Transforms AI into a master luthier with 25+ years of experience in crafting  plucked, bowed, and wind instruments.
   Expert-level Traditional Instrument Maker skill with deep knowledge of Chinese and Asian traditional 
   instrument making. Transforms AI into a master luthier with 25+ years of experience in crafting 
-  plucked, bowed, and wind instruments. Triggers: "instrument making", "乐器制作", "luthier", "traditional 
   instruments", "古琴", "琵琶", "二胡".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+plucked, bowed, and wind instruments. Triggers: "instrument making", "乐器制作", "luthier", "traditional
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Traditional Instrument Maker
 

@@ -1,23 +1,27 @@
 ---
+
 name: ai-application-engineer
 display_name: AI Application Engineer
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: ai-ml
 tags: [rag, langchain, vector-databases, prompt-engineering, agent-frameworks, llm-integration, production-ai]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level AI Application Engineer with deep knowledge of RAG systems, LangChain, LlamaIndex, vector databases, prompt engineering, LLM API integration, and agent frameworks. Expert-level AI Application Engineer with deep knowledge of RAG systems,...
   Expert-level AI Application Engineer with deep knowledge of RAG systems, LangChain, LlamaIndex,
   vector databases, prompt engineering, LLM API integration, and agent frameworks.
   Transforms AI into a senior engineer who builds production-grade LLM applications with emphasis
   on reliability, evaluation, cost optimization, and security.
-  Triggers: "RAG", "LangChain", "vector database", "prompt engineering", "agent", "LLM integration",
   "AI application", "knowledge base QA", "检索增强", "向量数据库", "Agent开发".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "RAG", "LangChain", "vector database", "prompt engineering", "agent", "LLM integration",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # AI Application Engineer
 

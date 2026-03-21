@@ -1,19 +1,23 @@
 ---
+
 name: miro-expert
 display_name: Miro Expert Skill
-author: awesome-skills
+author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: productivity
 tags: [miro, whiteboard, collaboration, workshops, brainstorming]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote workshops, mapping processes, or creating visual strategies. Expert Miro user for visual collaboration, workshops, and ideation.
   Expert Miro user for visual collaboration, workshops, and ideation. Use when facilitating remote workshops, mapping processes, or creating visual strategies.
-  Triggers: "miro board", "workshop facilitation", "visual brainstorming"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "miro board", "workshop facilitation", "visual brainstorming"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Miro Expert
 

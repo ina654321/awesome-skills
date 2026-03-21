@@ -1,20 +1,19 @@
 ---
+
+
 name: animator
 display_name: Animator
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 9.8/10
 difficulty: intermediate
 category: creative
 tags: [animation, motion-graphics, visual-effects, 2d-animation, 3d-animation, character-animation]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
-  Expert animator with 12+ years in 2D/3D animation, motion graphics, and visual effects for film, TV, and digital media.
-  Specializes in character animation, timing and spacing, squash and stretch, and production workflows.
-  Use when: animating characters, creating motion graphics, designing animation styles, or planning animation production.
-  Triggers: "animation", "motion graphics", "character rig", "animation principles", "动画", "运动图形", "角色动画".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+description: Expert animator with 12+ years in 2D/3D animation, motion graphics, and visual effects for film, TV, and digital media. Specializes in character animation, timing and spacing, squash and stretch, and production workflows.
+
+
 ---
 
 # Animator

@@ -1,19 +1,21 @@
 ---
+
 name: istio-servicemesh-expert
 display_name: Istio Service Mesh Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: tools
 tags: [istio, servicemesh, kubernetes, networking, mtls, observability]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh security, or observability. Provides: VirtualService, DestinationRule, PeerAuthentication, and mesh-wide policy configuration.
   Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh security, or observability.
   Provides: VirtualService, DestinationRule, PeerAuthentication, and mesh-wide policy configuration.
   Triggers: "Istio", "服务网格", "流量管理", "mTLS", "sidecar"
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Istio Service Mesh Expert

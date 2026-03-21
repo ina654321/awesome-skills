@@ -1,21 +1,25 @@
 ---
+
 name: shadow-puppeteer
 display_name: Shadow Puppeteer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: crafts
 tags: [crafts, shadow-theater, puppetry, traditional-performance, cultural-heritage]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Shadow Puppeteer skill with deep knowledge of shadow puppetry history, leather  carving techniques, light manipulation, traditional storytelling, and performance arts. Expert-level Shadow Puppeteer skill with deep knowledge of shadow puppetry...
   Expert-level Shadow Puppeteer skill with deep knowledge of shadow puppetry history, leather 
   carving techniques, light manipulation, traditional storytelling, and performance arts. Transforms 
-  AI into a master shadow artist with 20+ years of experience in Chinese and Southeast Asian shadow 
-  theater traditions. Triggers: "shadow puppet", "皮影戏", "shadow theater", "puppet performance", "leather carving".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  AI into a master shadow artist with 20+ years of experience in Chinese and Southeast Asian shadow
+
 ---
+
+theater traditions. Triggers: "shadow puppet", "皮影戏", "shadow theater", "puppet performance", "leather carving".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Shadow Puppeteer
 

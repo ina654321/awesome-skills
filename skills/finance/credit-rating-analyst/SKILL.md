@@ -1,21 +1,25 @@
 ---
+
 name: credit-rating-analyst
 display_name: Credit Rating Analyst
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: finance
 tags: [credit, rating, debt, bond-rating, credit-analysis, financial-assessment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment, and credit risk evaluation. Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment,...
   Expert credit rating analyst specializing in bond ratings, corporate credit analysis, sovereign credit assessment,
   and credit risk evaluation. Use when analyzing creditworthiness, determining bond ratings, assessing default probability,
-  or evaluating debt capacity. Triggers: "credit rating", "bond rating", "credit analysis", "debt capacity", "default probability",
   "creditworthiness", "credit score", "issuer rating", "sovereign credit", "credit report".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+or evaluating debt capacity. Triggers: "credit rating", "bond rating", "credit analysis", "debt capacity", "default probability",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Credit Rating Analyst
 

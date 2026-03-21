@@ -1,19 +1,21 @@
 ---
+
 name: latex-expert
 display_name: LaTeX Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [latex, typesetting, academic, documents, writing, bibtex, beamer]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations, TikZ figures, custom macros, IEEE/ACM/Elsevier templates. Use when writing academic papers or technical documents.
   LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations,
   TikZ figures, custom macros, IEEE/ACM/Elsevier templates. Use when writing academic papers or technical documents.
   Triggers: "LaTeX", "论文排版", "数学公式", "BibTeX", "Beamer", "TikZ".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # LaTeX Expert

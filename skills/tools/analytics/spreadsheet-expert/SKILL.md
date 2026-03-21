@@ -1,18 +1,20 @@
 ---
+
 name: spreadsheet-expert
 display_name: Spreadsheet Expert
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [excel, google-sheets, spreadsheet, formulas, pivot-table, power-query, apps-script]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Spreadsheet expert: advanced formulas (XLOOKUP, FILTER, ARRAYFORMULA), pivot tables, Power Query, Apps Script automation. Use when analyzing data, building financial models, or automating spreadsheets.
   Spreadsheet expert: advanced formulas (XLOOKUP, FILTER, ARRAYFORMULA), pivot tables, Power Query, Apps Script automation. Use when analyzing data, building financial models, or automating spreadsheets.
   Triggers: "Excel", "Google Sheets", "spreadsheet formulas", "pivot table", "Power Query", "Apps Script", "VBA".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Spreadsheet Expert

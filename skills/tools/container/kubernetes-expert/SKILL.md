@@ -1,18 +1,20 @@
 ---
+
 name: kubernetes-expert
 display_name: Kubernetes Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: expert
+score: 8.7/10
 difficulty: expert
 category: tools
 tags: [kubernetes, k8s, container, orchestration, devops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues.
   Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues.
   Triggers: "Kubernetes", "kubectl", "k8s deployment", "Helm chart", "RBAC", "Kubernetes networking", "Kubernetes security".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Kubernetes Expert

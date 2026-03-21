@@ -1,20 +1,22 @@
 ---
+
 name: langchain-expert
 display_name: LangChain Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [langchain, llm, rag, ai-application, chains, agents]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calling, memory, callbacks, output parsers, retrieval strategies. Use when building LLM applications, RAG systems, or AI agents with LangChain.
   LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines,
   tool calling, memory, callbacks, output parsers, retrieval strategies. Use when building LLM applications,
   RAG systems, or AI agents with LangChain.
   Triggers: "LangChain", "LCEL", "RAG", "chain", "agent", "vector store", "LLM application".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # LangChain Expert

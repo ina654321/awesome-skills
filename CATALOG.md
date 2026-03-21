@@ -1,10 +1,55 @@
 # Awesome Skills - Full Catalog
 
-587 expert AI skills organized by category.
+594 expert AI skills organized by category.
 
 All skills follow the 16-section Exemplary template with ~50% token reduction via references/ architecture.
 
 These skills have been completely rewritten with professional depth — system prompts, knowledge frameworks, real code/templates, and scenario-based guidance:
+
+### Enterprise Practices — Tesla
+- [Tesla Engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) ⭐⭐ **9.1/10** — First Principles thinking, Five-Step Algorithm, Ownership, Anti-Bureaucracy, Mission-Driven Execution
+- [Tesla AI Engineer](./skills/enterprise/tesla/tesla-ai-engineer/SKILL.md) ⭐ **8.9/10** — FSD Development, BEV Perception, End-to-End Networks, Fleet Learning, Shadow Mode
+- [Tesla Software Engineer](./skills/enterprise/tesla/tesla-software-engineer/SKILL.md) ⭐ **8.7/10** — OTA Infrastructure, Vehicle Firmware, Cloud Services, Hardware-Software Integration
+- [Tesla Manufacturing Engineer](./skills/enterprise/tesla/tesla-manufacturing-engineer/SKILL.md) ⭐ **8.6/10** — Giga Factory Design, Vertical Integration, Megacasting, First-Principles Manufacturing
+- [Tesla Product Manager](./skills/enterprise/tesla/tesla-product-manager/SKILL.md) ⭐ **8.5/10** — Master Plan Strategy, Mission-Driven Roadmaps, Sustainable Energy Products, Ecosystem Integration
+
+### Enterprise Practices — Amazon
+- [Amazon Engineer](./skills/enterprise/amazon/amazon-engineer/SKILL.md) ⭐⭐ **9.0/10** — 14 Leadership Principles, Working Backwards, 6-Page Memos, Customer Obsession, Bar Raiser Hiring
+
+### Enterprise Practices — Netflix
+- [Netflix Engineer](./skills/enterprise/netflix/netflix-engineer/SKILL.md) ⭐ **8.9/10** — Freedom & Responsibility, Talent Density, Context Not Control, 4A Feedback, Stunning Colleagues
+
+### Enterprise Practices — Financial Services
+- [Goldman Sachs Analyst](./skills/enterprise/goldman-sachs/goldman-sachs-analyst/SKILL.md) ⭐ **8.8/10** — 14 Business Principles, Risk Management, Client Service, Investment Banking Excellence
+
+### Enterprise Practices — Management Consulting
+- [McKinsey Consultant](./skills/enterprise/mckinsey/mckinsey-consultant/SKILL.md) ⭐ **8.9/10** — MECE Framework, Issue Trees, Pyramid Principle, One Firm Culture
+
+### Enterprise Practices — Legal Services
+- [Clifford Chance Lawyer](./skills/enterprise/clifford-chance/clifford-chance-lawyer/SKILL.md) ⭐ **8.7/10** — Magic Circle Excellence, Deal Teams, International Practice, Client Focus
+
+### Enterprise Practices — Roadmap (In Development)
+> Target: 42 enterprise methodology skills covering top companies across all industries
+
+**Phase 0 (Q2 2026)** — Tech Giants
+- Google Engineer — 20% Time, Googliness, OKR (Planned)
+- ByteDance Engineer — 字节范, Context not Control (Planned)
+- Apple Engineer — Design-led, Product Excellence (Planned)
+
+**Phase 1 (Q3 2026)** — Hard Tech & Manufacturing
+- SpaceX Engineer — First Principles, Rapid Iteration (Planned)
+- Toyota Engineer — TPS, Kaizen, Lean Manufacturing (Planned)
+- OpenAI Researcher — Research Culture, Safety-First (Planned)
+
+**Phase 2 (Q4 2026)** — Finance & Professional Services
+- Goldman Sachs Analyst — Risk Management, Client Service (Planned)
+- JPMorgan Banker — Risk Control, Technology (Planned)
+- McKinsey Consultant — Issue Trees, MECE, Pyramid Principle (Planned)
+
+**Phase 3+ (2027)** — Healthcare, Education, Media, and more
+- Mayo Clinic Physician, Pixar Storyteller, Khan Academy Educator...
+
+📊 [View Full Industry Analysis](./skills/enterprise/INDUSTRY-ANALYSIS-AND-ROADMAP.md) | 📈 [View Development Tracker](./skills/enterprise/DEVELOPMENT-TRACKER.json)
 
 ### Executive
 - [CEO](./skills/executive/ceo/SKILL.md) ⭐ — Corporate strategy, board governance, M&A, crisis management
@@ -147,6 +192,13 @@ These skills have been completely rewritten with professional depth — system p
 - [Battery Engineer](./skills/energy/battery-rnd-engineer/SKILL.md) 📝
 - [EV Charging Infrastructure Engineer](./skills/automotive/ev-charging-engineer/SKILL.md) 📝
 - [Vehicle Safety Engineer](./skills/automotive/vehicle-safety-engineer/SKILL.md) 📝
+
+### Enterprise Practices — Tesla (5 skills)
+- [Tesla Engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) ⭐⭐ **9.1/10** — First Principles thinking, Five-Step Algorithm, Ownership, Anti-Bureaucracy, Mission-Driven Execution
+- [Tesla AI Engineer](./skills/enterprise/tesla/tesla-ai-engineer/SKILL.md) ⭐ **8.9/10** — FSD Development, BEV Perception, End-to-End Networks, Fleet Learning, Shadow Mode
+- [Tesla Software Engineer](./skills/enterprise/tesla/tesla-software-engineer/SKILL.md) ⭐ **8.7/10** — OTA Infrastructure, Vehicle Firmware, Cloud Services, Hardware-Software Integration
+- [Tesla Manufacturing Engineer](./skills/enterprise/tesla/tesla-manufacturing-engineer/SKILL.md) ⭐ **8.6/10** — Giga Factory Design, Vertical Integration, Megacasting, First-Principles Manufacturing
+- [Tesla Product Manager](./skills/enterprise/tesla/tesla-product-manager/SKILL.md) ⭐ **8.5/10** — Master Plan Strategy, Mission-Driven Roadmaps, Sustainable Energy Products, Ecosystem Integration
 
 ### Biotech & Healthcare (46 skills)
 - [Anesthesiologist](./skills/healthcare/anesthesiologist/SKILL.md) 📝

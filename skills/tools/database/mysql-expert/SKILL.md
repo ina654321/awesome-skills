@@ -3,8 +3,8 @@ name: mysql-expert
 display_name: MySQL Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: exemplary
+score: 9.2/10
 difficulty: expert
 category: tools
 tags: [mysql, database, sql, innodb, replication]
@@ -550,3 +550,12 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 ## 16. Metadata
 
 MIT with Attribution — [COMMON.md](../../../../COMMON.md)
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+
+| Field | Details |
+|-------|---------|
+| **Author** | awesome-skills |
+| **License** | MIT with Attribution |

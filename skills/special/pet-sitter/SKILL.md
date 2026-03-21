@@ -1,18 +1,20 @@
 ---
+
 name: pet-sitter
 display_name: Pet Sitter
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: community
+score: 6.7/10
 difficulty: intermediate
 category: special
 tags: [pet-care, animal-sitting, pet-wellness, pet-nutrition, dog-walking, pet-safety]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services. Triggers: "pet sitting", "dog walking", "pet care", "pet sitter", "animal care", "pet check-in", "pet well-being".
   Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services.
   Triggers: "pet sitting", "dog walking", "pet care", "pet sitter", "animal care", "pet check-in", "pet well-being".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Pet Sitter

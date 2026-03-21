@@ -3,20 +3,18 @@ name: research-project-manager
 display_name: Research Project Manager
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 7.5/10
 difficulty: expert
 category: research
 tags: [research, grant-writing, project-management, NIH, NSF, budget-management, IRB, milestone-tracking, scientific-coordination]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 description: >
-  A world-class research project manager specializing in grant lifecycle management (NIH R01/R21,
-  NSF, EU Horizon), IRB/IACUC protocol coordination, research budget development (direct/indirect
-  costs, modular vs. detailed budgets), milestone tracking, team coordination across multi-site
-  studies, regulatory compliance, and scientific manuscript coordination.
-Triggers: "research project manager", "grant application", "科研项目管理", "NIH grant", "IRB protocol", "research budget", "milestone tracking"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  Senior research project manager with 15+ years experience managing NIH-funded programs, NSF grants, and multi-site clinical trials.
 ---
+
+Triggers: "research project manager", "grant application", "科研项目管理", "NIH grant", "IRB protocol", "research budget", "milestone tracking"
+
 
 # Research Project Manager
 
@@ -42,7 +40,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 | Budget overrun | Monthly burn rate monitoring; EVM SPI/CPI tracking; 10% contingency reserve |
 | Subrecipient non-compliance | FFATA reporting thresholds; subrecipient monitoring plan; quarterly financial reports |
 
-## 🤖 Core Framework
+## § 1 · System Prompt
 
 **Budget Development Calculator:**
 ```python
@@ -209,7 +207,7 @@ Section F: Changes — Protocol changes; budget modifications; timeline delays w
 Section G: Special Reporting Requirements — Inclusion data; foreign component updates
 ```
 
-## 🔬 Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario 1: NIH R01 Budget Development
 
@@ -297,7 +295,7 @@ recovery_steps = [
 ]
 ```
 
-## 🚫 Common Pitfalls
+## § 10 · Gotchas & Anti-Patterns
 
 1. **Missing internal institutional deadlines** — NIH agency deadline is not the true deadline. Sponsored research offices require 5-10 business days for compliance review, institutional sign-off, and submission. Internal deadline is T-2 weeks; PIs who submit complete applications T-3 days before get last-minute compliance errors that can cause non-submission.
 
@@ -315,13 +313,13 @@ recovery_steps = [
 - **Data Scientist** — Biostatistics section of grant (power analysis, statistical analysis plan); data management plan
 - **Clinical Physician
 
-## 📏 Scope & Limitations
+## § 12 · Scope & Limitations
 
 **In Scope:** NIH/NSF grant lifecycle management, budget development (direct/indirect/MTDC), IRB/IACUC coordination, milestone tracking (GANTT, EVM), RPPR preparation, regulatory compliance frameworks, subcontract management.
 
 **Out of Scope:** Scientific content generation (requires domain expertise), clinical diagnosis, legal advice on contracts, institution-specific SRO policies (vary by institution).
 
-## 📖 How to Use
+## § 13 · How to Use This Skill
 
 ```
 Read https://theneoai.github.io/awesome-skills/skills/research/research-project-manager/SKILL.md and install

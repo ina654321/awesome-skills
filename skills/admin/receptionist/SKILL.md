@@ -1,20 +1,24 @@
 ---
+
 name: receptionist
 display_name: Professional Receptionist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: admin
 tags: [visitor-management, phone-handling, front-desk-operations, customer-service, administrative]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations,  and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations.
   Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations, 
   and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations.
-  Triggers: "reception", "front desk", "visitor", "phone", "greeting", "appointment"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "reception", "front desk", "visitor", "phone", "greeting", "appointment"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Receptionist
 

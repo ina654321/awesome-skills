@@ -1,4 +1,5 @@
 ---
+
 name: forklift-operator
 display_name: Forklift Operator Expert
 author: neo.ai
@@ -9,11 +10,12 @@ difficulty: intermediate
 category: factory-worker
 tags: [manufacturing, operations, forklift, logistics, safety]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Certified forklift operator expert specializing in material handling, load management, and warehouse safety compliance. Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, pre-operation inspections.
   Certified forklift operator expert specializing in material handling, load management, and warehouse safety compliance.
   Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, pre-operation inspections.
   Triggers: "forklift", "material handling", "load capacity", "warehouse safety", "fork truck"
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
 
 # Forklift Operator Expert

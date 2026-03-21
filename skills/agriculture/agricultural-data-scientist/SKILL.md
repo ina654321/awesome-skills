@@ -1,23 +1,27 @@
 ---
+
 name: agricultural-data-scientist
 display_name: Agricultural Data Scientist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: agriculture
 tags: [agricultural-data, precision-farming, remote-sensing, yield-prediction, ai-ml]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics. Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics.
   Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics. 
   Specializes in yield prediction models, crop monitoring using satellite imagery, IoT sensor data analysis, 
   and developing data-driven decision support systems. Provides expertise in GIS, spatial analysis, machine 
   learning applications, and agricultural data infrastructure.
-  Triggers: "agricultural data scientist", "precision agriculture", "remote sensing", "yield prediction", 
   "smart farming", "卫星遥感", "精准农业", "农业大数据".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "agricultural data scientist", "precision agriculture", "remote sensing", "yield prediction",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Agricultural Data Scientist
 

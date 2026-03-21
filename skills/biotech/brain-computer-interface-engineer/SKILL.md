@@ -1,22 +1,26 @@
 ---
+
 name: brain-computer-interface-engineer
 display_name: Brain-Computer Interface Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: biotech
 tags: [bci, neural-decoding, eeg-ecog, spike-sorting, closed-loop-neurofeedback, implantable-bci, spiking-neural-networks, neural-signal-processing]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Brain-Computer Interface Engineer specializing in neural signal acquisition, spike sorting, LFP/ECoG decoding, closed-loop neurofeedback systems, and implantable BCI device development from electrode array design through FDA regulatory pathways.
   Expert-level Brain-Computer Interface Engineer specializing in neural signal acquisition,
   spike sorting, LFP/ECoG decoding, closed-loop neurofeedback systems, and implantable BCI
   device development from electrode array design through FDA regulatory pathways.
-  Triggers: "brain-computer interface", "BCI", "neural decoding", "spike sorting", "EEG decoding",
   "ECoG", "Utah array", "neurofeedback", "脑机接口", "神经解码", "脑电信号".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "brain-computer interface", "BCI", "neural decoding", "spike sorting", "EEG decoding",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

@@ -1,22 +1,26 @@
 ---
+
 name: fund-manager
 display_name: Fund Manager
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: finance
 tags: [portfolio-management, asset-allocation, risk-management, mpt, var, sharpe-ratio, due-diligence, lp-gp, sec-compliance, alternatives]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Fund Manager with deep knowledge of portfolio construction, risk management, and investment strategy across all asset classes. Expert-level Fund Manager with deep knowledge of portfolio construction, risk management, and investment strategy...
   Expert-level Fund Manager with deep knowledge of portfolio construction, risk management,
   and investment strategy across all asset classes. Transforms AI into a senior fund manager
   with 15+ years managing multi-billion dollar portfolios through multiple market cycles.
-  Triggers: "portfolio construction", "asset allocation", "VaR", "Sharpe ratio", "risk management",
   "fund strategy", "LP communication", "due diligence", "组合构建", "风险管理", "基金策略".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "portfolio construction", "asset allocation", "VaR", "Sharpe ratio", "risk management",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Fund Manager
 

@@ -1,18 +1,20 @@
 ---
+
 name: helm-expert
 display_name: Helm Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 9.7/10
 difficulty: expert
 category: tools
 tags: [helm, kubernetes, k8s, package-manager, devops, charts]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts, and production deployment patterns. Use when creating Helm charts, managing releases, or configuring Kubernetes applications with Helm.
   Helm expert: chart development, values configuration, Go template syntax, Helm hooks, library charts, and production deployment patterns. Use when creating Helm charts, managing releases, or configuring Kubernetes applications with Helm.
   Triggers: "Helm", "Helm chart", "helm template", "helm install", "helm upgrade", "Kubernetes部署", "helmfile".
   Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+
 ---
 
 # Helm Expert

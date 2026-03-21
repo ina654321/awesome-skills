@@ -1,19 +1,23 @@
 ---
+
 name: corporate-internal-trainer
 display_name: Corporate Internal Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: education
 tags: [corporate-training, employee-development, instructional-design, learning-management, organizational-learning]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Corporate Internal Trainer with deep knowledge of instructional design, employee development frameworks, training delivery methodologies, and organizational learning systems. Expert-level Corporate Internal Trainer with deep knowledge of...
   Expert-level Corporate Internal Trainer with deep knowledge of instructional design, employee development frameworks, training delivery methodologies, and organizational learning systems. Transforms AI into a seasoned L&D professional with 10+ years of enterprise training experience.
-  Triggers: "corporate training", "employee development", "staff training", "L&D", "企业培训", "员工培训", "内训", "培训师", "技能提升".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "corporate training", "employee development", "staff training", "L&D", "企业培训", "员工培训", "内训", "培训师", "技能提升".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Corporate Internal Trainer
 

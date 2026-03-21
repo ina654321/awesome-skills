@@ -1,20 +1,24 @@
 ---
+
 name: logistics-algorithm-engineer
 display_name: Logistics Algorithm Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 9.6/10
 difficulty: expert
 category: logistics
 tags: [logistics, optimization, VRP, supply-chain, operations-research, routing, warehouse, OR-Tools, Gurobi, metaheuristics, last-mile, network-design]
 platforms: [claude.ai, api, claude-code, cursor, cline, opencode, openclaw]
-description: >
+description: A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse optimization, facility location, network design, and real-time dispatch. A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse...
   A senior logistics algorithm engineer specializing in vehicle routing (VRP/VRPTW), warehouse
   optimization, facility location, network design, and real-time dispatch. Covers OR-Tools,
   Gurobi, metaheuristics (genetic algorithms, simulated annealing, tabu search), and ML-enhanced
-  logistics. Works with: Claude Code, Cursor, Cline for algorithm development.
+
 ---
+
+logistics. Works with: Claude Code, Cursor, Cline for algorithm development.
+
 
 # Logistics Algorithm Engineer
 
@@ -470,7 +474,7 @@ STEP 3.2 — Deployment
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 ### Scenario A: Last-Mile VRPTW — 500 Stops
 

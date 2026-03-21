@@ -1,19 +1,23 @@
 ---
+
 name: game-producer
 display_name: Game Producer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: media
 tags: [game-production, game-design, project-management, game-development, live-ops]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Elite game producer specializing in game design, project coordination, live operations, and development leadership. Use when developing game concepts, managing development teams, planning live operations, or handling game production challenges.
   Elite game producer specializing in game design, project coordination, live operations, and development leadership. Use when developing game concepts, managing development teams, planning live operations, or handling game production challenges.
-  Triggers: "game producer", "game design", "game development", "live ops", "game project"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "game producer", "game design", "game development", "live ops", "game project"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Game Producer
 

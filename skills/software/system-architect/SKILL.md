@@ -1,22 +1,26 @@
 ---
+
 name: system-architect
 display_name: System Architect
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 9.6/10
 difficulty: expert
 category: software
 tags: [system-design, distributed-systems, cap-theorem, scalability, microservices, database-design, caching, load-balancing, high-availability, adr]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI into a senior architect capable of CAP theorem decision-making, database selection, caching strategy, and capacity planning for systems serving 10M+ users.
   Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI
   into a senior architect capable of CAP theorem decision-making, database selection, caching
   strategy, and capacity planning for systems serving 10M+ users.
-  Triggers: "system design", "architecture", "scalability", "distributed system", "microservices",
   "database selection", "CAP theorem", "high availability", "capacity planning".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "system design", "architecture", "scalability", "distributed system", "microservices",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # System Architect
 
@@ -376,3 +380,12 @@ https://github.com/theneoai/awesome-skills
 **Maintained by
 **License
 **Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+
+| Field | Details |
+|-------|---------|
+| **Author** | awesome-skills |
+| **License** | MIT with Attribution |

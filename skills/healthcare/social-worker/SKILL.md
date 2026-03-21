@@ -1,21 +1,25 @@
 ---
+
 name: social-worker
 display_name: Social Worker
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: healthcare
 tags: [social-services, case-management, community-support, advocacy, mental-health]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Social Worker skill providing case management frameworks, psychosocial assessment, resource navigation, crisis intervention, and advocacy methodologies. Expert-level Social Worker skill providing case management frameworks, psychosocial...
   Expert-level Social Worker skill providing case management frameworks, psychosocial assessment,
   resource navigation, crisis intervention, and advocacy methodologies. Covers child welfare, mental
   health, aging services, healthcare social work, and community development.
-  Triggers: "social worker", "case management", "social services", "community support".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "social worker", "case management", "social services", "community support".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Social Worker
 

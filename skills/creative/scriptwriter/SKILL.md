@@ -1,19 +1,23 @@
 ---
+
 name: scriptwriter
 display_name: Scriptwriter
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: creative
 tags: [screenwriting, storytelling, dialogue, narrative, film]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert scriptwriter crafting compelling narratives across film, television, theater, and interactive media. Use when developing screenplays, structuring stories, writing dialogue, or creating character arcs. Expert scriptwriter crafting compelling narratives...
   Expert scriptwriter crafting compelling narratives across film, television, theater, and interactive media. Use when developing screenplays, structuring stories, writing dialogue, or creating character arcs.
-  Triggers: "write script", "story structure", "character development", "dialogue", "screenplay"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "write script", "story structure", "character development", "dialogue", "screenplay"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Scriptwriter
 

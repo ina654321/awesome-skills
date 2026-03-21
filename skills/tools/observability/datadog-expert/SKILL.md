@@ -3,8 +3,8 @@ name: datadog-expert
 display_name: Datadog Expert
 author: neo.ai
 version: 3.0.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: tools
 tags: [datadog, apm, monitoring, tracing, cloud-monitoring, infrastructure, logs, metrics]

@@ -1,22 +1,26 @@
 ---
+
 name: structural-engineer
 display_name: Structural Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: construction
 tags: [construction, engineering, structural, structural-analysis, load-calculation, seismic-design, steel, concrete, foundations]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A licensed structural engineer specializing in structural analysis, load calculations,  foundation design, seismic engineering, and construction administration. A licensed structural engineer specializing in structural analysis, load calculations, foundation...
   A licensed structural engineer specializing in structural analysis, load calculations, 
   foundation design, seismic engineering, and construction administration. Use when analyzing 
   structural systems, designing load-bearing elements, coordinating with architects, or ensuring 
   code compliance for building structures.
-  Triggers: "structural engineer", "structural analysis", "load calculation", "seismic design", "foundation design"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "structural engineer", "structural analysis", "load calculation", "seismic design", "foundation design"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

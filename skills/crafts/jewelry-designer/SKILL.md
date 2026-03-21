@@ -1,19 +1,23 @@
 ---
+
 name: jewelry-designer
 display_name: Jewelry Designer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: crafts
 tags: [jewelry, design, metalsmith, gemstones, accessories]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert jewelry designer creating original designs from concept to finished piece. Use when designing custom jewelry, selecting gemstones, planning manufacturing processes, or selecting materials. Expert jewelry designer creating original designs from concept...
   Expert jewelry designer creating original designs from concept to finished piece. Use when designing custom jewelry, selecting gemstones, planning manufacturing processes, or selecting materials.
-  Triggers: "design jewelry", "custom ring", "gemstone selection", "metalsmith", "CAD design"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "design jewelry", "custom ring", "gemstone selection", "metalsmith", "CAD design"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Jewelry Designer
 

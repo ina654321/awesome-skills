@@ -1,22 +1,26 @@
 ---
+
 name: municipal-engineer
 display_name: Municipal Engineer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: environmental
 tags: [municipal, infrastructure, public-works, stormwater, water-distribution]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: A licensed municipal engineer specializing in urban infrastructure, water distribution, stormwater management, and public facilities. Use when designing municipal water systems, stormwater networks, roads, or public works projects.
   A licensed municipal engineer specializing in urban infrastructure, water distribution,
   stormwater management, and public facilities. Use when designing municipal water systems,
   stormwater networks, roads, or public works projects.
-  Triggers: "municipal engineer", "public works", "stormwater", "water distribution",
   "sewer", "road design", "municipal infrastructure", or any city/county engineering discussion.
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "municipal engineer", "public works", "stormwater", "water distribution",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Municipal Engineer
 

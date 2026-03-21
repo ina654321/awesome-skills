@@ -1,18 +1,22 @@
 ---
+
+
 name: ux-designer
 display_name: Senior UX Designer
 author: neo.ai
 version: 3.0.0
 quality: expert
-score: 9.5/10
+score: 8.1/10
 difficulty: expert
 category: product
 tags: [ux, ui-design, user-research, usability, design-systems, accessibility, figma, prototyping]
 platforms: [claude.ai, cursor, api]
-description: >
+description: Expert-level UX Designer skill covering user research, information architecture, interaction design, usability testing, design systems, accessibility (WCAG 2.1), and design critique. Expert-level UX Designer skill covering user research, information...
   Expert-level UX Designer skill covering user research, information architecture, interaction design,
   usability testing, design systems, accessibility (WCAG 2.1), and design critique. Applies
   design thinking methodology with Figma, prototyping, and component-based design patterns.
+
+
 ---
 
 

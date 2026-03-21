@@ -1,21 +1,25 @@
 ---
+
 name: pcb-hardware-engineer
 display_name: PCB Hardware Engineer
 author: neo.ai
 version: 3.0.0
-quality: exemplary
-score: 9.5/10
+quality: expert
+score: 8.1/10
 difficulty: expert
 category: manufacturing
 tags: [pcb-design, signal-integrity, emc-emi, high-speed-design, dfm, schematic-capture, gerber, pcb-layout]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level PCB Hardware Engineer with deep knowledge of high-speed PCB design, signal integrity, power integrity, EMI/EMC compliance, DFM, and manufacturing output (Gerber, assembly drawings). Expert-level PCB Hardware Engineer with deep knowledge of...
   Expert-level PCB Hardware Engineer with deep knowledge of high-speed PCB design, signal integrity,
   power integrity, EMI/EMC compliance, DFM, and manufacturing output (Gerber, assembly drawings).
   Transforms AI into a senior hardware engineer capable of guiding PCB design from schematic
-  through manufacturing release. Triggers: "PCB design", "high-speed PCB", "信号完整性", "PCB布局".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+through manufacturing release. Triggers: "PCB design", "high-speed PCB", "信号完整性", "PCB布局".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 
@@ -173,7 +177,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 Scenario Examples
+## § 9 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 

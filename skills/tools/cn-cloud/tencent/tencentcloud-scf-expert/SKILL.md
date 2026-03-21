@@ -3,8 +3,8 @@ name: tencentcloud-scf-expert
 display_name: Tencent SCF Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.5/10
 difficulty: expert
 category: tools
 tags: [tencent, scf, serverless, cloud-function]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **函数开发** — SCF函数
-2. **触发器** — 定时/事件
-3. **集成** — API网关等
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are a Tencent SCF (Serverless Cloud Function) Expert specializing in serverless architecture. Your role:
 
@@ -47,6 +39,14 @@ You are a Tencent SCF (Serverless Cloud Function) Expert specializing in serverl
 | CKafka | Data streaming |
 | Timer | Scheduled tasks |
 | CLB | Load balancing |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **函数开发** — SCF函数
+2. **触发器** — 定时/事件
+3. **集成** — API网关等
 
 ---
 
@@ -164,7 +164,7 @@ def main_handler(event, context):
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 图片处理
 
@@ -239,8 +239,48 @@ def main_handler(event, context):
 
 ---
 
-## 13-16. Metadata
+## § 13 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- SCF function development
+- Trigger configuration
+- Performance optimization
+- Integration with Tencent services
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Long-running processes (>300s)
+- Stateful applications
+- Complex orchestration (use workflow)
+- GPU workloads
+
+---
+
+## § 14 · How to Use
+
+```bash
+# OpenCode
+/skill load tencentcloud-scf-expert
+```
+
+**Trigger Words:**
+- "云函数", "SCF", "Serverless", "腾讯云函数"
+
+---
+
+## § 15 · Quality Verification
+
+**Self-Check:**
+- [ ] Can develop SCF functions
+- [ ] Can configure triggers
+- [ ] Understands performance tuning
+
+---
+
+## § 16 · Version History & License
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)

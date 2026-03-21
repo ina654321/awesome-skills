@@ -1,19 +1,23 @@
 ---
+
 name: sketch-expert
 display_name: Sketch Expert Skill
-author: awesome-skills
+author: neo.ai
 version: 3.1.0
-quality: comprehensive
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: design
 tags: [sketch, macos, ui-design, ux-design, vector-graphics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing developer handoffs. Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing...
   Expert Sketch.app user for macOS UI/UX design. Use when designing interfaces, creating design systems, or preparing developer handoffs.
-  Triggers: "sketch design", "sketch symbols", "sketch plugin"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "sketch design", "sketch symbols", "sketch plugin"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Sketch Expert
 

@@ -3,8 +3,8 @@ name: godot-expert
 display_name: Godot Expert
 author: neo.ai
 version: 3.1.0
-quality: comprehensive
-score: 9.5/10
+quality: expert
+score: 7.6/10
 difficulty: intermediate
 category: tools
 tags: [godot, game-engine, gdscript, 2d-3d]

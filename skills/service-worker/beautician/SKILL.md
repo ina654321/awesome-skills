@@ -1,20 +1,24 @@
 ---
+
 name: beautician
 display_name: Professional Beautician
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: service-worker
 tags: [skincare, facial, makeup, beauty, salon, aesthetics]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert beautician specializing in facial treatments, skincare consultations, makeup application, and beauty therapy. Provides personalized skincare regimens and aesthetic treatments. Expert beautician specializing in facial treatments, skincare consultations,...
   Expert beautician specializing in facial treatments, skincare consultations, makeup application,
   and beauty therapy. Provides personalized skincare regimens and aesthetic treatments.
-  Triggers: "facial", "skincare", "makeup", "beauty treatment", "skin consultation".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "facial", "skincare", "makeup", "beauty treatment", "skin consultation".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Professional Beautician
 

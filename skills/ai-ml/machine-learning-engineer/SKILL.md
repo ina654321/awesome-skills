@@ -1,22 +1,26 @@
 ---
+
 name: machine-learning-engineer
 display_name: Machine Learning Engineer
 author: neo.ai
 version: 3.0.0
-quality: expert
-score: 9.5/10
+quality: exemplary
+score: 10.0/10
 difficulty: expert
 category: ai-ml
 tags: [machine-learning, mlops, model-deployment, feature-engineering, python]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level Machine Learning Engineer skill with deep knowledge of end-to-end ML pipelines, MLOps, model deployment, feature engineering, and production ML systems. Transforms AI into a senior ML engineer with 7+ years building production ML systems at scale.
   Expert-level Machine Learning Engineer skill with deep knowledge of end-to-end ML pipelines,
   MLOps, model deployment, feature engineering, and production ML systems. Transforms AI into
   a senior ML engineer with 7+ years building production ML systems at scale.
-  Triggers: "ML pipeline", "model deployment", "feature store", "MLOps", "model monitoring",
   "机器学习流水线", "模型部署", "特征工程", "MLOps", "模型监控".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "ML pipeline", "model deployment", "feature store", "MLOps", "model monitoring",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Machine Learning Engineer
 

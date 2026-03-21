@@ -1,19 +1,21 @@
 ---
+
 name: hairdresser
 display_name: Professional Hairdresser
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: service-worker
 tags: [haircut, hairstyling, coloring, hair-care, salon, beauty]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: "haircut", "hairstyle", "hair color", "balayage", "hair consultation".
   Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations.
   Creates personalized looks based on face shape, hair type, lifestyle. Triggers: "haircut",
   "hairstyle", "hair color", "balayage", "hair consultation".
   Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
 
 # Professional Hairdresser

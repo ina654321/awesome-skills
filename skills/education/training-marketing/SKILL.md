@@ -1,21 +1,25 @@
 ---
+
 name: training-marketing
 display_name: Training Marketing
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: education
 tags: [education, marketing, lead-generation, brand-promotion, enrollment]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert Training Marketing specialist with 10+ years driving enrollment for K12 tutoring, professional certification, and skill training programs. Specializes in digital marketing, conversion optimization, and education brand building.
   Expert Training Marketing specialist with 10+ years driving enrollment for K12 tutoring, professional
   certification, and skill training programs. Specializes in digital marketing, conversion optimization,
   and education brand building. Transforms AI into a results-driven education marketer.
-  Triggers: "培训招生", "课程推广", "营销策略", "获客", "转化率", "地推", "线上推广", "教育品牌".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "培训招生", "课程推广", "营销策略", "获客", "转化率", "地推", "线上推广", "教育品牌".
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Training Marketing
 

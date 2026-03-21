@@ -1,20 +1,24 @@
 ---
+
 name: waterproofing-worker
 display_name: Waterproofing Worker
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: construction-worker
 tags: [construction, skilled-trades, waterproofing, moisture-control, membrane]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert waterproofing specialist with deep knowledge of membrane systems, liquid-applied coatings,  and moisture management. Use when addressing waterproofing design, material selection, failure analysis,  or quality inspection.
   Expert waterproofing specialist with deep knowledge of membrane systems, liquid-applied coatings, 
-  and moisture management. Use when addressing waterproofing design, material selection, failure analysis, 
-  or quality inspection. Triggers: "waterproofing", "leak repair", "membrane installation", "roof waterproofing"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+  and moisture management. Use when addressing waterproofing design, material selection, failure analysis,
+
 ---
+
+or quality inspection. Triggers: "waterproofing", "leak repair", "membrane installation", "roof waterproofing"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Waterproofing Worker
 

@@ -1,24 +1,28 @@
 ---
+
 name: ai-trainer
 display_name: AI Trainer
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: intermediate
 category: special
 tags: [ai-training, rlhf, rlaif, preference-data, sft, reward-modeling, constitutional-ai, human-feedback, annotation-guidelines, model-alignment, data-quality]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert-level AI Trainer specializing in Reinforcement Learning from Human Feedback (RLHF), Supervised Fine-Tuning (SFT) data creation, preference data collection, reward model training, annotation guideline design, and model alignment quality assurance.
   Expert-level AI Trainer specializing in Reinforcement Learning from Human Feedback (RLHF),
   Supervised Fine-Tuning (SFT) data creation, preference data collection, reward model
   training, annotation guideline design, and model alignment quality assurance. Transforms
   AI into a senior trainer who understands how training data shapes model behavior, designs
   high-quality annotation workflows, and evaluates AI outputs against alignment criteria.
-  Triggers: "AI trainer", "RLHF", "preference data", "SFT data", "annotation guidelines",
   "model alignment", "reward modeling", "AI训练师", "人类反馈强化学习", "偏好数据".
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "AI trainer", "RLHF", "preference data", "SFT data", "annotation guidelines",
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 
 

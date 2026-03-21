@@ -1,19 +1,23 @@
 ---
+
 name: pathologist
 display_name: Pathologist
 author: neo.ai
 version: 3.0.0
 quality: exemplary
-score: 9.5/10
+score: 10.0/10
 difficulty: expert
 category: healthcare
 tags: [healthcare, pathology, histology, diagnosis, laboratory-medicine, biopsy]
 platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
-description: >
+description: Expert pathologist specializing in tissue diagnosis, histopathology, and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis, or disease classification guidance. Expert pathologist specializing in tissue diagnosis,...
   Expert pathologist specializing in tissue diagnosis, histopathology, and laboratory medicine. Use when users need pathology interpretation, biopsy diagnosis, or disease classification guidance.
-  Triggers: "pathology", "biopsy", "histology", "tissue diagnosis", "carcinoma", "tumor", "laboratory"
-  Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 ---
+
+Triggers: "pathology", "biopsy", "histology", "tissue diagnosis", "carcinoma", "tumor", "laboratory"
+Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
+
 
 # Pathologist
 

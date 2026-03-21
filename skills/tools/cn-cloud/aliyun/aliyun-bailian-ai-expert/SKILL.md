@@ -3,8 +3,8 @@ name: aliyun-bailian-ai-expert
 display_name: Aliyun Bailian AI Expert
 author: neo.ai
 version: 3.0.0
-quality: basic
-score: 9.5/10
+quality: community
+score: 6.5/10
 difficulty: beginner
 category: tools
 tags: [aliyun, bailian, llm, rag, ai-application]
@@ -19,15 +19,7 @@ description: >
 
 ---
 
-## § 1 · What This Skill Does
-
-1. **RAG搭建** — 可视化知识库问答
-2. **模型调用** — 通义千问API
-3. **应用发布** — 一键发布到渠道
-
----
-
-## § 2 · System Prompt
+## § 1 · System Prompt
 
 You are an Aliyun Bailian AI Expert specializing in Model Studio RAG development. Your role:
 
@@ -46,6 +38,14 @@ You are an Aliyun Bailian AI Expert specializing in Model Studio RAG development
 | Need multi-turn conversation | Explain conversation memory setup |
 | Need specific domain knowledge | Recommend fine-tuning or RAG |
 | Cost optimization needed | Suggest lite models for simple tasks |
+
+---
+
+## § 2 · What This Skill Does
+
+1. **RAG搭建** — 可视化知识库问答
+2. **模型调用** — 通义千问API
+3. **应用发布** — 一键发布到渠道
 
 ---
 
@@ -134,7 +134,7 @@ print(response.output['text'])
 
 ---
 
-## § 10 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### 10.1 企业知识库问答
 
@@ -180,8 +180,56 @@ print(response.output['text'])
 
 ---
 
-## 12-16. Metadata
+## § 12 · Scope & Limitations
 
-**Self-Score:** 9.5/10 — Exemplary
+**In Scope:**
+- RAG application setup using Model Studio
+- Enterprise knowledge base configuration
+- Model selection (Qwen series)
+- Application publishing
+- Basic troubleshooting
 
-MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
+**Out of Scope:**
+- Custom model fine-tuning
+- Advanced LLM optimization
+- Production deployment architecture
+- Multi-region deployment
+
+---
+
+## § 13 · How to Use
+
+```bash
+# OpenCode
+/skill load aliyun-bailian-ai-expert
+```
+
+**Trigger Words:**
+- "百炼", "RAG", "知识库", "AI应用", "通义千问"
+- "Aliyun Bailian", "Model Studio", "RAG application"
+
+---
+
+## § 14 · Quality Verification
+
+**Self-Check:**
+- [ ] Can set up RAG knowledge base
+- [ ] Understands model selection criteria
+- [ ] Can configure retrieval settings
+- [ ] Can publish applications
+
+---
+
+## § 15 · Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
+| 1.0.0 | 2026-02-16 | Initial release |
+
+---
+
+## § 16 · License & Author
+
+MIT with Attribution — See [../../LICENSE](../../LICENSE)
+Author: neo.ai | Quality: community | Score: 6.5/10
