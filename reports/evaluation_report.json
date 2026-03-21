@@ -1,14 +1,14 @@
 {
-  "date": "2026-03-22T00:07:31.422937",
+  "date": "2026-03-22T00:11:54.869251",
   "summary": {
     "total": 649,
-    "exemplary": 17,
+    "exemplary": 19,
     "outstanding": 6,
-    "certified": 4,
-    "production": 360,
-    "standard": 123,
-    "beta": 139,
-    "average": 6.89
+    "certified": 178,
+    "production": 302,
+    "standard": 81,
+    "beta": 63,
+    "average": 7.63
   },
   "top_50": [
     {
@@ -114,22 +114,22 @@
       "sections": 20
     },
     {
+      "name": "nursing-assistant",
+      "score": 9.59,
+      "quality": "exemplary",
+      "sections": 15
+    },
+    {
+      "name": "lab-technologist",
+      "score": 9.59,
+      "quality": "exemplary",
+      "sections": 15
+    },
+    {
       "name": "mckinsey-consultant",
       "score": 9.22,
       "quality": "outstanding",
       "sections": 18
-    },
-    {
-      "name": "nursing-assistant",
-      "score": 9.22,
-      "quality": "outstanding",
-      "sections": 12
-    },
-    {
-      "name": "lab-technologist",
-      "score": 9.22,
-      "quality": "outstanding",
-      "sections": 12
     },
     {
       "name": "qa-engineer",
@@ -140,6 +140,18 @@
     {
       "name": "machine-learning-engineer",
       "score": 9.19,
+      "quality": "outstanding",
+      "sections": 15
+    },
+    {
+      "name": "information-security-admin",
+      "score": 9.11,
+      "quality": "outstanding",
+      "sections": 15
+    },
+    {
+      "name": "spatial-computing-engineer",
+      "score": 9.11,
       "quality": "outstanding",
       "sections": 15
     },
@@ -174,142 +186,130 @@
       "sections": 18
     },
     {
-      "name": "information-security-admin",
-      "score": 8.15,
-      "quality": "production",
-      "sections": 12
-    },
-    {
       "name": "purchasing-specialist",
-      "score": 8.03,
-      "quality": "production",
-      "sections": 13
-    },
-    {
-      "name": "spatial-computing-engineer",
-      "score": 8.0,
-      "quality": "production",
-      "sections": 12
-    },
-    {
-      "name": "servicenow-expert",
-      "score": 7.88,
-      "quality": "production",
+      "score": 8.69,
+      "quality": "certified",
       "sections": 16
     },
     {
-      "name": "tableau-expert",
-      "score": 7.88,
-      "quality": "production",
-      "sections": 12
-    },
-    {
-      "name": "corporate-legal",
-      "score": 7.88,
-      "quality": "production",
-      "sections": 12
-    },
-    {
-      "name": "postgresql-expert",
-      "score": 7.86,
-      "quality": "production",
+      "name": "agricultural-extension-officer",
+      "score": 8.66,
+      "quality": "certified",
       "sections": 15
     },
     {
-      "name": "agricultural-extension-officer",
-      "score": 7.85,
-      "quality": "production",
-      "sections": 12
-    },
-    {
-      "name": "meta-ai-engineer",
-      "score": 7.74,
-      "quality": "production",
-      "sections": 17
-    },
-    {
-      "name": "deepseek-researcher",
-      "score": 7.74,
-      "quality": "production",
-      "sections": 17
-    },
-    {
-      "name": "openai-researcher",
-      "score": 7.74,
-      "quality": "production",
-      "sections": 17
-    },
-    {
       "name": "cnc-operator",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "quality-inspector",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "assembly-line-worker",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "forklift-operator",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "ethics-committee-member",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "science-museum-educator",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "data-curator",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "peer-reviewer",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "chemical-analyst",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "science-blogger",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "science-writer",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     },
     {
       "name": "rd-engineer",
-      "score": 7.72,
-      "quality": "production",
-      "sections": 12
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
+    },
+    {
+      "name": "research-integrity-officer",
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
+    },
+    {
+      "name": "tech-transfer-manager",
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
+    },
+    {
+      "name": "visiting-scholar",
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
+    },
+    {
+      "name": "lab-technician",
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
+    },
+    {
+      "name": "engineering-consultant",
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
+    },
+    {
+      "name": "academic-translator",
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
+    },
+    {
+      "name": "grant-reviewer",
+      "score": 8.54,
+      "quality": "certified",
+      "sections": 15
     }
   ]
 }
