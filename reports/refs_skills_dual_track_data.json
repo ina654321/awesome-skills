@@ -1,0 +1,2331 @@
+{
+  "generated_at": "2026-03-22T02:08:55.422311",
+  "source": "refs",
+  "total_skills": 83,
+  "evaluations": [
+    {
+      "name": "n8n-node-configuration",
+      "file_path": "n8n-opencode-skills/skill/n8n-node-configuration/SKILL.md",
+      "category": "software",
+      "overall_score": 8.3375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.25
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 9.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 8.0,
+        "overall": 8.425
+      },
+      "variance": 0.1750000000000007,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "n8n-code-javascript",
+      "file_path": "n8n-opencode-skills/skill/n8n-code-javascript/SKILL.md",
+      "category": "software",
+      "overall_score": 8.375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.15
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 8.6
+      },
+      "variance": 0.4499999999999993,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "n8n-workflow-patterns",
+      "file_path": "n8n-opencode-skills/skill/n8n-workflow-patterns/SKILL.md",
+      "category": "software",
+      "overall_score": 8.475,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 8.5,
+        "metadata": 8.5,
+        "overall": 8.475
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 8.475
+      },
+      "variance": 0.0,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "n8n-code-python",
+      "file_path": "n8n-opencode-skills/skill/n8n-code-python/SKILL.md",
+      "category": "software",
+      "overall_score": 8.3625,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.075
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 9.0,
+        "overall": 8.65
+      },
+      "variance": 0.5750000000000011,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "n8n-expression-syntax",
+      "file_path": "n8n-opencode-skills/skill/n8n-expression-syntax/SKILL.md",
+      "category": "software",
+      "overall_score": 8.225000000000001,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 8.0,
+        "examples": 8.5,
+        "metadata": 8.5,
+        "overall": 8.225
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 8.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 8.225000000000001
+      },
+      "variance": 1.7763568394002505e-15,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "n8n-validation-expert",
+      "file_path": "n8n-opencode-skills/skill/n8n-validation-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 8.3125,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.075
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 9.0,
+        "overall": 8.55
+      },
+      "variance": 0.4750000000000014,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "n8n-mcp-tools-expert",
+      "file_path": "n8n-opencode-skills/skill/n8n-mcp-tools-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 8.225,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.174999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.275
+      },
+      "variance": 0.10000000000000142,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "mcp-evaluator",
+      "file_path": "skill-evaluator/evaluator-tools/skills/mcp-evaluator/SKILL.md",
+      "category": "software",
+      "overall_score": 8.525,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.975
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 9.0,
+        "resilience": 9.0,
+        "overall": 9.075000000000001
+      },
+      "variance": 1.1000000000000014,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "agent-skill-evaluator",
+      "file_path": "skill-evaluator/evaluator-tools/skills/agent-skill-evaluator/SKILL.md",
+      "category": "software",
+      "overall_score": 8.775,
+      "text_quality": {
+        "system_prompt": 8.5,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.275
+      },
+      "runtime_quality": {
+        "role_immersion": 8.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 9.0,
+        "resilience": 9.0,
+        "overall": 9.275
+      },
+      "variance": 1.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "code-polisher",
+      "file_path": "virtual-company-skills/skills/04-code-polisher/SKILL.md",
+      "category": "software",
+      "overall_score": 7.675,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.35
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 7.5,
+        "resilience": 7.0,
+        "overall": 8.0
+      },
+      "variance": 0.6500000000000004,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "frontend-architect",
+      "file_path": "virtual-company-skills/skills/12-frontend-architect/SKILL.md",
+      "category": "ai-ml",
+      "overall_score": 7.2,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.0
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 7.5,
+        "resilience": 6.5,
+        "overall": 7.4
+      },
+      "variance": 0.40000000000000036,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "docker-expert",
+      "file_path": "virtual-company-skills/skills/14-docker-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 7.425,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.199999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 7.0,
+        "resilience": 6.5,
+        "overall": 7.65
+      },
+      "variance": 0.45000000000000107,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "backend-architect",
+      "file_path": "virtual-company-skills/skills/13-backend-architect/SKILL.md",
+      "category": "software",
+      "overall_score": 7.699999999999999,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.674999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 7.0,
+        "resilience": 9.0,
+        "overall": 7.7250000000000005
+      },
+      "variance": 0.0500000000000016,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "data-engineer",
+      "file_path": "virtual-company-skills/skills/11-data-engineer/SKILL.md",
+      "category": "software",
+      "overall_score": 7.625,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.674999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 7.0,
+        "resilience": 7.5,
+        "overall": 7.575
+      },
+      "variance": 0.09999999999999876,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "security-reviewer",
+      "file_path": "virtual-company-skills/skills/05-security-reviewer/SKILL.md",
+      "category": "software",
+      "overall_score": 8.0375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.574999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 8.5,
+        "framework_execution": 8.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.5
+      },
+      "variance": 0.9250000000000007,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "bug-hunter",
+      "file_path": "virtual-company-skills/skills/02-bug-hunter/SKILL.md",
+      "category": "software",
+      "overall_score": 7.675000000000001,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 7.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.375
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 7.0,
+        "resilience": 7.5,
+        "overall": 7.9750000000000005
+      },
+      "variance": 0.6000000000000005,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "search-vector-architect",
+      "file_path": "virtual-company-skills/skills/23-search-vector-architect/SKILL.md",
+      "category": "ai-ml",
+      "overall_score": 7.3625,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.199999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 8.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 6.5,
+        "overall": 7.525
+      },
+      "variance": 0.32500000000000107,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "tech-lead",
+      "file_path": "virtual-company-skills/skills/00-tech-lead/SKILL.md",
+      "category": "software",
+      "overall_score": 7.6875,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.449999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 7.925000000000001
+      },
+      "variance": 0.4750000000000014,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "test-genius",
+      "file_path": "virtual-company-skills/skills/03-test-genius/SKILL.md",
+      "category": "software",
+      "overall_score": 8.075,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 8.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.725
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 8.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 7.0,
+        "resilience": 9.0,
+        "overall": 8.424999999999999
+      },
+      "variance": 0.6999999999999993,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "e2e-test-specialist",
+      "file_path": "virtual-company-skills/skills/22-e2e-test-specialist/SKILL.md",
+      "category": "software",
+      "overall_score": 7.975,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.075
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 8.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 7.875000000000001
+      },
+      "variance": 0.1999999999999984,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "legacy-archaeologist",
+      "file_path": "virtual-company-skills/skills/25-legacy-archaeologist/SKILL.md",
+      "category": "software",
+      "overall_score": 7.95,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.85
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.05
+      },
+      "variance": 0.20000000000000107,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "product-manager",
+      "file_path": "virtual-company-skills/skills/21-product-manager/SKILL.md",
+      "category": "software",
+      "overall_score": 7.5125,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.35
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 6.5,
+        "overall": 7.675000000000001
+      },
+      "variance": 0.32500000000000107,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "infra-architect",
+      "file_path": "virtual-company-skills/skills/09-infra-architect/SKILL.md",
+      "category": "software",
+      "overall_score": 7.375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.199999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 7.0,
+        "resilience": 6.5,
+        "overall": 7.55
+      },
+      "variance": 0.35000000000000053,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "workflow-orchestrator",
+      "file_path": "virtual-company-skills/skills/24-workflow-orchestrator/SKILL.md",
+      "category": "software",
+      "overall_score": 7.95,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.875
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 8.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 8.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.025
+      },
+      "variance": 0.15000000000000036,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "data-analyst",
+      "file_path": "virtual-company-skills/skills/16-data-analyst/SKILL.md",
+      "category": "software",
+      "overall_score": 7.487500000000001,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 7.0,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.15
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 7.825000000000001
+      },
+      "variance": 0.6750000000000007,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "mobile-architect",
+      "file_path": "virtual-company-skills/skills/17-mobile-architect/SKILL.md",
+      "category": "software",
+      "overall_score": 7.5375000000000005,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.199999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 8.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 7.875000000000002
+      },
+      "variance": 0.6750000000000025,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "observability-specialist",
+      "file_path": "virtual-company-skills/skills/19-observability-specialist/SKILL.md",
+      "category": "software",
+      "overall_score": 7.7,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.65
+      },
+      "runtime_quality": {
+        "role_immersion": 8.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 7.75
+      },
+      "variance": 0.09999999999999964,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "api-designer",
+      "file_path": "virtual-company-skills/skills/10-api-designer/SKILL.md",
+      "category": "software",
+      "overall_score": 7.3,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.0
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 7.0,
+        "resilience": 7.0,
+        "overall": 7.6
+      },
+      "variance": 0.5999999999999996,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "ci-config-helper",
+      "file_path": "virtual-company-skills/skills/08-ci-config-helper/SKILL.md",
+      "category": "software",
+      "overall_score": 7.874999999999999,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.674999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 7.0,
+        "resilience": 7.0,
+        "overall": 8.075
+      },
+      "variance": 0.40000000000000036,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "ux-designer",
+      "file_path": "virtual-company-skills/skills/20-ux-designer/SKILL.md",
+      "category": "ai-ml",
+      "overall_score": 7.575000000000001,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.65
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 7.500000000000001
+      },
+      "variance": 0.14999999999999947,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "doc-writer",
+      "file_path": "virtual-company-skills/skills/01-doc-writer/SKILL.md",
+      "category": "software",
+      "overall_score": 7.5875,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 7.0,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.15
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 7.0,
+        "resilience": 7.0,
+        "overall": 8.025
+      },
+      "variance": 0.875,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "skill-generator",
+      "file_path": "virtual-company-skills/skills/26-skill-generator/SKILL.md",
+      "category": "software",
+      "overall_score": 8.075,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 7.0,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.550000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.6
+      },
+      "variance": 1.049999999999999,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "migration-upgrader",
+      "file_path": "virtual-company-skills/skills/07-migration-upgrader/SKILL.md",
+      "category": "software",
+      "overall_score": 8.0625,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.574999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.549999999999999
+      },
+      "variance": 0.9749999999999996,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "performance-profiler",
+      "file_path": "virtual-company-skills/skills/06-performance-profiler/SKILL.md",
+      "category": "software",
+      "overall_score": 7.824999999999999,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.299999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 7.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.35
+      },
+      "variance": 1.0500000000000007,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "ml-engineer",
+      "file_path": "virtual-company-skills/skills/18-ml-engineer/SKILL.md",
+      "category": "software",
+      "overall_score": 7.5875,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.449999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 7.7250000000000005
+      },
+      "variance": 0.27500000000000124,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "k8s-orchestrator",
+      "file_path": "virtual-company-skills/skills/15-k8s-orchestrator/SKILL.md",
+      "category": "ai-ml",
+      "overall_score": 7.3625,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 7.5,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.1
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 7.5,
+        "resilience": 6.5,
+        "overall": 7.625
+      },
+      "variance": 0.5250000000000004,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "skill-creator",
+      "file_path": "openai-skills/skills/.system/skill-creator/SKILL.md",
+      "category": "software",
+      "overall_score": 8.85,
+      "text_quality": {
+        "system_prompt": 8.5,
+        "domain_knowledge": 9.5,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.575
+      },
+      "runtime_quality": {
+        "role_immersion": 8.0,
+        "framework_execution": 10.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 9.0,
+        "resilience": 7.5,
+        "overall": 9.125
+      },
+      "variance": 0.5500000000000007,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": false
+    },
+    {
+      "name": "skill-installer",
+      "file_path": "openai-skills/skills/.system/skill-installer/SKILL.md",
+      "category": "software",
+      "overall_score": 7.6499999999999995,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.574999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 8.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 7.725
+      },
+      "variance": 0.15000000000000036,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "openai-docs",
+      "file_path": "openai-skills/skills/.system/openai-docs/SKILL.md",
+      "category": "software",
+      "overall_score": 8.2375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.875
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.6
+      },
+      "variance": 0.7249999999999996,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "security-threat-model",
+      "file_path": "openai-skills/skills/.curated/security-threat-model/SKILL.md",
+      "category": "software",
+      "overall_score": 8.275,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.75
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.0,
+        "overall": 8.8
+      },
+      "variance": 1.0500000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "screenshot",
+      "file_path": "openai-skills/skills/.curated/screenshot/SKILL.md",
+      "category": "software",
+      "overall_score": 7.925000000000001,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.875
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 7.9750000000000005
+      },
+      "variance": 0.10000000000000053,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "sora",
+      "file_path": "openai-skills/skills/.curated/sora/SKILL.md",
+      "category": "software",
+      "overall_score": 8.5625,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 8.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.0
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 10.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 9.0,
+        "resilience": 8.5,
+        "overall": 9.125
+      },
+      "variance": 1.125,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "spreadsheet",
+      "file_path": "openai-skills/skills/.curated/spreadsheet/SKILL.md",
+      "category": "software",
+      "overall_score": 8.162500000000001,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.65
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 8.675
+      },
+      "variance": 1.0250000000000004,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "netlify-deploy",
+      "file_path": "openai-skills/skills/.curated/netlify-deploy/SKILL.md",
+      "category": "software",
+      "overall_score": 8.3125,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.25
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.375
+      },
+      "variance": 0.125,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "notion-meeting-intelligence",
+      "file_path": "openai-skills/skills/.curated/notion-meeting-intelligence/SKILL.md",
+      "category": "software",
+      "overall_score": 8.05,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 9.0,
+        "error_handling": 8.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.025
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 6.5,
+        "overall": 8.075000000000001
+      },
+      "variance": 0.05000000000000071,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "jupyter-notebook",
+      "file_path": "openai-skills/skills/.curated/jupyter-notebook/SKILL.md",
+      "category": "software",
+      "overall_score": 8.15,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.65
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 10.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.65
+      },
+      "variance": 1.0,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "figma-implement-design",
+      "file_path": "openai-skills/skills/.curated/figma-implement-design/SKILL.md",
+      "category": "software",
+      "overall_score": 8.462499999999999,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 7.5,
+        "metadata": 8.5,
+        "overall": 8.325
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.0,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 7.0,
+        "overall": 8.6
+      },
+      "variance": 0.27500000000000036,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "security-best-practices",
+      "file_path": "openai-skills/skills/.curated/security-best-practices/SKILL.md",
+      "category": "software",
+      "overall_score": 8.4375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.075
+      },
+      "runtime_quality": {
+        "role_immersion": 8.5,
+        "framework_execution": 9.5,
+        "output_actionability": 9.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.799999999999999
+      },
+      "variance": 0.7249999999999996,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "linear",
+      "file_path": "openai-skills/skills/.curated/linear/SKILL.md",
+      "category": "software",
+      "overall_score": 8.175,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.049999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 9.0,
+        "knowledge_accuracy": 8.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.3
+      },
+      "variance": 0.2500000000000018,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "frontend-skill",
+      "file_path": "openai-skills/skills/.curated/frontend-skill/SKILL.md",
+      "category": "software",
+      "overall_score": 7.875,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.875
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 8.5,
+        "output_actionability": 7.5,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 9.0,
+        "resilience": 7.0,
+        "overall": 7.875
+      },
+      "variance": 0.0,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aspnet-core",
+      "file_path": "openai-skills/skills/.curated/aspnet-core/SKILL.md",
+      "category": "software",
+      "overall_score": 8.25,
+      "text_quality": {
+        "system_prompt": 8.5,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.15
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.35
+      },
+      "variance": 0.1999999999999993,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "pdf",
+      "file_path": "openai-skills/skills/.curated/pdf/SKILL.md",
+      "category": "software",
+      "overall_score": 7.937499999999999,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.449999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 8.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.424999999999999
+      },
+      "variance": 0.9749999999999996,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "playwright",
+      "file_path": "openai-skills/skills/.curated/playwright/SKILL.md",
+      "category": "software",
+      "overall_score": 8.1,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.949999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 10.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.25
+      },
+      "variance": 0.3000000000000007,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "winui-app",
+      "file_path": "openai-skills/skills/.curated/winui-app/SKILL.md",
+      "category": "software",
+      "overall_score": 8.2375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.15
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 8.0,
+        "overall": 8.325000000000001
+      },
+      "variance": 0.1750000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "notion-research-documentation",
+      "file_path": "openai-skills/skills/.curated/notion-research-documentation/SKILL.md",
+      "category": "software",
+      "overall_score": 8.0125,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.975
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.05
+      },
+      "variance": 0.07500000000000107,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "speech",
+      "file_path": "openai-skills/skills/.curated/speech/SKILL.md",
+      "category": "software",
+      "overall_score": 8.337499999999999,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 8.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.925000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 10.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.749999999999998
+      },
+      "variance": 0.8249999999999975,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "develop-web-game",
+      "file_path": "openai-skills/skills/.curated/develop-web-game/SKILL.md",
+      "category": "software",
+      "overall_score": 8.375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.875
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 10.0,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 9.5,
+        "overall": 8.875
+      },
+      "variance": 1.0,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "slides",
+      "file_path": "openai-skills/skills/.curated/slides/SKILL.md",
+      "category": "software",
+      "overall_score": 8.1375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.65
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.625
+      },
+      "variance": 0.9749999999999996,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "chatgpt-apps",
+      "file_path": "openai-skills/skills/.curated/chatgpt-apps/SKILL.md",
+      "category": "software",
+      "overall_score": 8.6,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.049999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 10.0,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 9.15
+      },
+      "variance": 1.1000000000000014,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": false
+    },
+    {
+      "name": "figma",
+      "file_path": "openai-skills/skills/.curated/figma/SKILL.md",
+      "category": "software",
+      "overall_score": 8.0875,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 7.0,
+        "error_handling": 8.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.625
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 9.0,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 6.5,
+        "overall": 8.55
+      },
+      "variance": 0.9250000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "notion-knowledge-capture",
+      "file_path": "openai-skills/skills/.curated/notion-knowledge-capture/SKILL.md",
+      "category": "software",
+      "overall_score": 8.125,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.975
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 8.5,
+        "overall": 8.275
+      },
+      "variance": 0.3000000000000007,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "cloudflare-deploy",
+      "file_path": "openai-skills/skills/.curated/cloudflare-deploy/SKILL.md",
+      "category": "software",
+      "overall_score": 7.95,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 8.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.799999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.5,
+        "output_actionability": 7.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 8.100000000000001
+      },
+      "variance": 0.3000000000000025,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "vercel-deploy",
+      "file_path": "openai-skills/skills/.curated/vercel-deploy/SKILL.md",
+      "category": "ai-ml",
+      "overall_score": 7.762500000000001,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.65
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 7.875000000000001
+      },
+      "variance": 0.22500000000000053,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "render-deploy",
+      "file_path": "openai-skills/skills/.curated/render-deploy/SKILL.md",
+      "category": "software",
+      "overall_score": 8.5,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.25
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.75
+      },
+      "variance": 0.5,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "gh-fix-ci",
+      "file_path": "openai-skills/skills/.curated/gh-fix-ci/SKILL.md",
+      "category": "software",
+      "overall_score": 8.212499999999999,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 7.0,
+        "metadata": 8.5,
+        "overall": 7.949999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.5,
+        "overall": 8.475
+      },
+      "variance": 0.5250000000000004,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "notion-spec-to-implementation",
+      "file_path": "openai-skills/skills/.curated/notion-spec-to-implementation/SKILL.md",
+      "category": "software",
+      "overall_score": 8.05,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.975
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.125
+      },
+      "variance": 0.15000000000000036,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "doc",
+      "file_path": "openai-skills/skills/.curated/doc/SKILL.md",
+      "category": "software",
+      "overall_score": 8.05,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.449999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 8.0,
+        "framework_execution": 9.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.65
+      },
+      "variance": 1.200000000000001,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "yeet",
+      "file_path": "openai-skills/skills/.curated/yeet/SKILL.md",
+      "category": "software",
+      "overall_score": 7.6499999999999995,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.674999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 7.5,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 7.0,
+        "resilience": 7.5,
+        "overall": 7.625
+      },
+      "variance": 0.049999999999998934,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "openai-docs",
+      "file_path": "openai-skills/skills/.curated/openai-docs/SKILL.md",
+      "category": "software",
+      "overall_score": 8.2375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.875
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.6
+      },
+      "variance": 0.7249999999999996,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "sentry",
+      "file_path": "openai-skills/skills/.curated/sentry/SKILL.md",
+      "category": "software",
+      "overall_score": 7.4125,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.199999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 8.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 7.625
+      },
+      "variance": 0.4250000000000007,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "playwright-interactive",
+      "file_path": "openai-skills/skills/.curated/playwright-interactive/SKILL.md",
+      "category": "software",
+      "overall_score": 8.175,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.975
+      },
+      "runtime_quality": {
+        "role_immersion": 8.5,
+        "framework_execution": 9.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 8.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 8.0,
+        "overall": 8.375
+      },
+      "variance": 0.40000000000000036,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": true
+    },
+    {
+      "name": "transcribe",
+      "file_path": "openai-skills/skills/.curated/transcribe/SKILL.md",
+      "category": "software",
+      "overall_score": 7.725,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.299999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.15
+      },
+      "variance": 0.8500000000000014,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "gh-address-comments",
+      "file_path": "openai-skills/skills/.curated/gh-address-comments/SKILL.md",
+      "category": "software",
+      "overall_score": 7.4624999999999995,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 8.5,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.299999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.0,
+        "output_actionability": 7.5,
+        "knowledge_accuracy": 7.5,
+        "long_conversation_stability": 7.0,
+        "resilience": 7.5,
+        "overall": 7.625
+      },
+      "variance": 0.32500000000000107,
+      "has_references": false,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "security-ownership-map",
+      "file_path": "openai-skills/skills/.curated/security-ownership-map/SKILL.md",
+      "category": "software",
+      "overall_score": 8.125,
+      "text_quality": {
+        "system_prompt": 8.5,
+        "domain_knowledge": 8.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.949999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 7.0,
+        "overall": 8.299999999999999
+      },
+      "variance": 0.34999999999999964,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": false
+    },
+    {
+      "name": "imagegen",
+      "file_path": "openai-skills/skills/.curated/imagegen/SKILL.md",
+      "category": "software",
+      "overall_score": 8.524999999999999,
+      "text_quality": {
+        "system_prompt": 8.5,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 8.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 8.225
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 10.0,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.825
+      },
+      "variance": 0.5999999999999996,
+      "has_references": true,
+      "has_scripts": true,
+      "has_assets": true
+    },
+    {
+      "name": "claude-code-skills",
+      "file_path": "github-awesome-skills/.claude/skills/claude-code/SKILL.md",
+      "category": "software",
+      "overall_score": 7.487500000000001,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.35
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 7.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 7.625000000000001
+      },
+      "variance": 0.27500000000000124,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "agent-platforms",
+      "file_path": "github-awesome-skills/.claude/skills/platforms/SKILL.md",
+      "category": "software",
+      "overall_score": 7.2625,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.0
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 8.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 6.5,
+        "overall": 7.525
+      },
+      "variance": 0.5250000000000004,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "dev-tools-skills-guide",
+      "file_path": "github-awesome-skills/.claude/skills/dev-tools-skills/SKILL.md",
+      "category": "software",
+      "overall_score": 8.025,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 8.0,
+        "examples": 7.0,
+        "metadata": 8.5,
+        "overall": 8.0
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 8.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.0,
+        "overall": 8.05
+      },
+      "variance": 0.05000000000000071,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "skill-creation-guide",
+      "file_path": "github-awesome-skills/.claude/skills/skill-creation/SKILL.md",
+      "category": "software",
+      "overall_score": 7.887499999999999,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 9.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.574999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.0,
+        "resilience": 7.5,
+        "overall": 8.2
+      },
+      "variance": 0.625,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "marketing-skills-guide",
+      "file_path": "github-awesome-skills/.claude/skills/marketing-skills/SKILL.md",
+      "category": "software",
+      "overall_score": 7.9875,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 8.5,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.85
+      },
+      "runtime_quality": {
+        "role_immersion": 7.5,
+        "framework_execution": 8.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.125
+      },
+      "variance": 0.27500000000000036,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "security-skills-guide",
+      "file_path": "github-awesome-skills/.claude/skills/security-skills/SKILL.md",
+      "category": "software",
+      "overall_score": 7.4375,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 8.0,
+        "workflow": 7.0,
+        "error_handling": 6.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.199999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 6.5,
+        "overall": 7.675000000000001
+      },
+      "variance": 0.4750000000000014,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "ai-llm-skills-guide",
+      "file_path": "github-awesome-skills/.claude/skills/ai-llm-skills/SKILL.md",
+      "category": "software",
+      "overall_score": 7.775,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 9.0,
+        "workflow": 7.0,
+        "error_handling": 8.0,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.625
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 8.5,
+        "output_actionability": 7.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 7.925
+      },
+      "variance": 0.2999999999999998,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "awesome-skills-overview",
+      "file_path": "github-awesome-skills/.claude/skills/overview/SKILL.md",
+      "category": "software",
+      "overall_score": 7.5874999999999995,
+      "text_quality": {
+        "system_prompt": 7.0,
+        "domain_knowledge": 7.0,
+        "workflow": 7.0,
+        "error_handling": 7.5,
+        "examples": 6.5,
+        "metadata": 8.5,
+        "overall": 7.15
+      },
+      "runtime_quality": {
+        "role_immersion": 7.0,
+        "framework_execution": 7.0,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 7.0,
+        "overall": 8.024999999999999
+      },
+      "variance": 0.8749999999999982,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    }
+  ]
+}

@@ -1,0 +1,2807 @@
+{
+  "generated_at": "2026-03-22T02:08:55.286841",
+  "source": "project",
+  "total_skills": 100,
+  "evaluations": [
+    {
+      "name": "cnc-operator",
+      "file_path": "factory-worker/cnc-operator/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 9.5,
+        "overall": 9.775
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.05000000000000071,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "quality-inspector",
+      "file_path": "factory-worker/quality-inspector/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 9.5,
+        "overall": 9.775
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.05000000000000071,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "assembly-line-worker",
+      "file_path": "factory-worker/assembly-line-worker/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8375,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 9.5,
+        "overall": 9.775
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.125,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "forklift-operator",
+      "file_path": "factory-worker/forklift-operator/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8375,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 9.5,
+        "overall": 9.775
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.125,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aquaculture-expert",
+      "file_path": "agriculture/aquaculture-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.6125,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 9.5,
+        "overall": 9.55
+      },
+      "variance": 0.125,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "agricultural-extension-officer",
+      "file_path": "agriculture/agricultural-extension-officer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "agronomist",
+      "file_path": "agriculture/agronomist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.5625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.0,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.575
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 9.5,
+        "overall": 9.55
+      },
+      "variance": 0.02499999999999858,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "plant-protection-expert",
+      "file_path": "agriculture/plant-protection-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.6125,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 9.5,
+        "overall": 9.55
+      },
+      "variance": 0.125,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "agricultural-data-scientist",
+      "file_path": "agriculture/agricultural-data-scientist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.775,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.725
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.10000000000000142,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "forestry-engineer",
+      "file_path": "agriculture/forestry-engineer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.6125,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 9.5,
+        "overall": 9.55
+      },
+      "variance": 0.125,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "veterinarian",
+      "file_path": "agriculture/veterinarian/SKILL.md",
+      "category": "software",
+      "overall_score": 9.7125,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 10.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 9.5,
+        "long_conversation_stability": 9.5,
+        "resilience": 9.5,
+        "overall": 9.6
+      },
+      "variance": 0.22500000000000142,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "ethics-committee-member",
+      "file_path": "research/ethics-committee-member/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "science-museum-educator",
+      "file_path": "research/science-museum-educator/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.525
+      },
+      "variance": 0.3000000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "data-curator",
+      "file_path": "research/data-curator/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "cell-culture-tech",
+      "file_path": "research/cell-culture-tech/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8375,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 10.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.925
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 10.0,
+        "overall": 9.75
+      },
+      "variance": 0.1750000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "peer-reviewer",
+      "file_path": "research/peer-reviewer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "chemical-analyst",
+      "file_path": "research/chemical-analyst/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "science-blogger",
+      "file_path": "research/science-blogger/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "science-writer",
+      "file_path": "research/science-writer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "rd-engineer",
+      "file_path": "research/rd-engineer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "research-integrity-officer",
+      "file_path": "research/research-integrity-officer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.525
+      },
+      "variance": 0.3000000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "principal-investigator",
+      "file_path": "research/principal-investigator/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 10.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.925
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.425
+      },
+      "variance": 0.5,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "statistician",
+      "file_path": "research/statistician/SKILL.md",
+      "category": "software",
+      "overall_score": 9.625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.425
+      },
+      "variance": 0.40000000000000036,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "tech-transfer-manager",
+      "file_path": "research/tech-transfer-manager/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "research-scholar",
+      "file_path": "research/research-scholar/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "journal-editor",
+      "file_path": "research/journal-editor/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "research-project-manager",
+      "file_path": "research/research-project-manager/SKILL.md",
+      "category": "software",
+      "overall_score": 9.725000000000001,
+      "text_quality": {
+        "system_prompt": 9.0,
+        "domain_knowledge": 10.0,
+        "workflow": 10.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.725
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.725000000000001
+      },
+      "variance": 1.7763568394002505e-15,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "visiting-scholar",
+      "file_path": "research/visiting-scholar/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "lab-technician",
+      "file_path": "research/lab-technician/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "engineering-consultant",
+      "file_path": "research/engineering-consultant/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.525
+      },
+      "variance": 0.3000000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "academic-translator",
+      "file_path": "research/academic-translator/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "instrument-manager",
+      "file_path": "research/instrument-manager/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "animal-experimenter",
+      "file_path": "research/animal-experimenter/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "grant-reviewer",
+      "file_path": "research/grant-reviewer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "journal-editor-in-chief",
+      "file_path": "research/journal-editor-in-chief/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "biomaterials-engineer",
+      "file_path": "biotech/biomaterials-engineer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.625,
+      "text_quality": {
+        "system_prompt": 8.0,
+        "domain_knowledge": 10.0,
+        "workflow": 10.0,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.45
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.8
+      },
+      "variance": 0.3500000000000014,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "synthetic-biologist",
+      "file_path": "biotech/synthetic-biologist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.7625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 10.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.925
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 9.5,
+        "overall": 9.6
+      },
+      "variance": 0.32500000000000107,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "ai-drug-design-scientist",
+      "file_path": "biotech/ai-drug-design-scientist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.725000000000001,
+      "text_quality": {
+        "system_prompt": 9.0,
+        "domain_knowledge": 10.0,
+        "workflow": 10.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.725
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.725000000000001
+      },
+      "variance": 1.7763568394002505e-15,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "cell-therapy-scientist",
+      "file_path": "biotech/cell-therapy-scientist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.725000000000001,
+      "text_quality": {
+        "system_prompt": 9.0,
+        "domain_knowledge": 10.0,
+        "workflow": 10.0,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.65
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.8
+      },
+      "variance": 0.15000000000000036,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "brain-computer-interface-engineer",
+      "file_path": "biotech/brain-computer-interface-engineer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.75,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 10.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.925
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 10.0,
+        "overall": 9.575000000000001
+      },
+      "variance": 0.34999999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "restaurant-operations-expert",
+      "file_path": "hospitality/restaurant-operations-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "hotel-operations-director",
+      "file_path": "hospitality/hotel-operations-director/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aircraft-maintenance-engineer",
+      "file_path": "transportation/aircraft-maintenance-engineer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "logistics-network-planner",
+      "file_path": "transportation/logistics-network-planner/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "railway-signal-engineer",
+      "file_path": "transportation/railway-signal-engineer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "librarian",
+      "file_path": "government/librarian/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "lighthouse-keeper",
+      "file_path": "government/lighthouse-keeper/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "seismologist",
+      "file_path": "government/seismologist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "social-security-expert",
+      "file_path": "government/social-security-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "border-inspector",
+      "file_path": "government/border-inspector/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.525
+      },
+      "variance": 0.3000000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "archivist",
+      "file_path": "government/archivist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "meteorologist",
+      "file_path": "government/meteorologist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "petition-officer",
+      "file_path": "government/petition-officer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "forest-fire-warden",
+      "file_path": "government/forest-fire-warden/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "civil-servant",
+      "file_path": "government/civil-servant/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "statistician",
+      "file_path": "government/statistician/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.525
+      },
+      "variance": 0.3000000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "hydrologist",
+      "file_path": "government/hydrologist/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "drug-rehab-counselor",
+      "file_path": "government/drug-rehab-counselor/SKILL.md",
+      "category": "software",
+      "overall_score": 9.8625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "customs-officer",
+      "file_path": "government/customs-officer/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.525
+      },
+      "variance": 0.3000000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "rescue-worker",
+      "file_path": "government/rescue-worker/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "museum-curator",
+      "file_path": "government/museum-curator/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "elasticsearch-expert",
+      "file_path": "tools/database/elasticsearch-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712499999999999,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.0,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 9.5,
+        "overall": 9.674999999999999
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 10.0,
+        "overall": 9.75
+      },
+      "variance": 0.07500000000000107,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "postgresql-expert",
+      "file_path": "tools/database/postgresql-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.65,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 9.5,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.625
+      },
+      "variance": 0.05000000000000071,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "mysql-expert",
+      "file_path": "tools/database/mysql-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.65,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 9.5,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.625
+      },
+      "variance": 0.05000000000000071,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "clickhouse-expert",
+      "file_path": "tools/database/clickhouse-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.0,
+        "metadata": 9.5,
+        "overall": 9.625
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.725000000000001
+      },
+      "variance": 0.10000000000000142,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "duckdb-expert",
+      "file_path": "tools/database/duckdb-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.600000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.0,
+        "metadata": 9.5,
+        "overall": 9.525
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 9.5,
+        "overall": 9.675
+      },
+      "variance": 0.15000000000000036,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "mongodb-expert",
+      "file_path": "tools/database/mongodb-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.65,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 9.5,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.625
+      },
+      "variance": 0.05000000000000071,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "redis-expert",
+      "file_path": "tools/database/redis-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.600000000000001,
+      "text_quality": {
+        "system_prompt": 9.5,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.625
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 10.0,
+        "overall": 9.575000000000001
+      },
+      "variance": 0.049999999999998934,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "sketch-expert",
+      "file_path": "tools/design/sketch-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.712500000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "photoshop-expert",
+      "file_path": "tools/design/photoshop-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.575,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.65
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.5
+      },
+      "variance": 0.15000000000000036,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "canva-expert",
+      "file_path": "tools/design/canva-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.65
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.600000000000001
+      },
+      "variance": 0.049999999999998934,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "illustrator-expert",
+      "file_path": "tools/design/illustrator-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.575,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.65
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.5
+      },
+      "variance": 0.15000000000000036,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "figma-expert",
+      "file_path": "tools/design/figma-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.575,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.65
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.5
+      },
+      "variance": 0.15000000000000036,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "blender-expert",
+      "file_path": "tools/design/blender-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.55,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.0,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.65
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 9.5,
+        "overall": 9.45
+      },
+      "variance": 0.20000000000000107,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "servicenow-expert",
+      "file_path": "tools/enterprise/servicenow-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.675,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 8.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.525
+      },
+      "variance": 0.3000000000000007,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "workday-expert",
+      "file_path": "tools/enterprise/workday-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.825000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.825000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "zendesk-expert",
+      "file_path": "tools/enterprise/zendesk-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.6125,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.65
+      },
+      "runtime_quality": {
+        "role_immersion": 9.5,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 10.0,
+        "overall": 9.575000000000001
+      },
+      "variance": 0.07499999999999929,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "salesforce-expert",
+      "file_path": "tools/enterprise/salesforce-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.75,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.0,
+        "metadata": 10.0,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.15000000000000036,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "burpsuite-expert",
+      "file_path": "tools/security/burpsuite-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.6875,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.0,
+        "metadata": 10.0,
+        "overall": 9.575000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.8
+      },
+      "variance": 0.22499999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "metasploit-expert",
+      "file_path": "tools/security/metasploit-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.650000000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.0,
+        "metadata": 10.0,
+        "overall": 9.575000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.725000000000001
+      },
+      "variance": 0.15000000000000036,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "container-security-expert",
+      "file_path": "tools/security/container-security-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.7375,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.0,
+        "metadata": 10.0,
+        "overall": 9.575000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 10.0,
+        "resilience": 10.0,
+        "overall": 9.9
+      },
+      "variance": 0.3249999999999993,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "nmap-expert",
+      "file_path": "tools/security/nmap-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.625,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.0,
+        "metadata": 10.0,
+        "overall": 9.575000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 9.5,
+        "overall": 9.675
+      },
+      "variance": 0.09999999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "vault-secrets-expert",
+      "file_path": "tools/security/vault-secrets-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.775000000000002,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 10.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.725000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.5,
+        "resilience": 10.0,
+        "overall": 9.825000000000001
+      },
+      "variance": 0.09999999999999964,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-fc-serverless",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-fc-serverless/SKILL.md",
+      "category": "software",
+      "overall_score": 9.75,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 10.0,
+        "overall": 9.75
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-ecs-website-starter",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-ecs-website-starter/SKILL.md",
+      "category": "software",
+      "overall_score": 9.475000000000001,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.575000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.0,
+        "overall": 9.375
+      },
+      "variance": 0.20000000000000107,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-ssl-https-expert",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-ssl-https-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.587499999999999,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 9.5,
+        "workflow": 10.0,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.32500000000000107,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-qwen-api",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-qwen-api/SKILL.md",
+      "category": "software",
+      "overall_score": 9.55,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.2500000000000018,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-bailian-ai-expert",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-bailian-ai-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.587499999999999,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.32500000000000107,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-cdn-expert",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-cdn-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.75,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 10.0,
+        "overall": 9.75
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-oss-expert",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-oss-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.55,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.2500000000000018,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-rds-starter",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-rds-starter/SKILL.md",
+      "category": "software",
+      "overall_score": 9.55,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.675
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.2500000000000018,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-cloud-expert",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-cloud-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.587499999999999,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.32500000000000107,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "aliyun-domain-beian-expert",
+      "file_path": "tools/cn-cloud/aliyun/aliyun-domain-beian-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.587499999999999,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.32500000000000107,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "volcengine-coze-expert",
+      "file_path": "tools/cn-cloud/volcengine/volcengine-coze-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.5,
+      "text_quality": {
+        "system_prompt": 9.5,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.575000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.15000000000000213,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "volcengine-doubao-api",
+      "file_path": "tools/cn-cloud/volcengine/volcengine-doubao-api/SKILL.md",
+      "category": "software",
+      "overall_score": 9.5,
+      "text_quality": {
+        "system_prompt": 9.5,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.575000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.15000000000000213,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "cn-cloud-selection-advisor",
+      "file_path": "tools/cn-cloud/common/cn-cloud-selection-advisor/SKILL.md",
+      "category": "software",
+      "overall_score": 9.75,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 10.0,
+        "overall": 9.75
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "cn-cloud-icp-beian-guide",
+      "file_path": "tools/cn-cloud/common/cn-cloud-icp-beian-guide/SKILL.md",
+      "category": "software",
+      "overall_score": 9.75,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 10.0,
+        "overall": 9.75
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "baota-panel-expert",
+      "file_path": "tools/cn-cloud/common/baota-panel-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.5,
+      "text_quality": {
+        "system_prompt": 9.5,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.575000000000001
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.5,
+        "overall": 9.424999999999999
+      },
+      "variance": 0.15000000000000213,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "tencentcloud-cos-expert",
+      "file_path": "tools/cn-cloud/tencent/tencentcloud-cos-expert/SKILL.md",
+      "category": "software",
+      "overall_score": 9.375,
+      "text_quality": {
+        "system_prompt": 9.5,
+        "domain_knowledge": 9.5,
+        "workflow": 9.5,
+        "error_handling": 9.0,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.475
+      },
+      "runtime_quality": {
+        "role_immersion": 9.0,
+        "framework_execution": 9.5,
+        "output_actionability": 9.5,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 8.5,
+        "resilience": 9.0,
+        "overall": 9.275
+      },
+      "variance": 0.1999999999999993,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "tencentcloud-lighthouse-website",
+      "file_path": "tools/cn-cloud/tencent/tencentcloud-lighthouse-website/SKILL.md",
+      "category": "software",
+      "overall_score": 9.75,
+      "text_quality": {
+        "system_prompt": 10.0,
+        "domain_knowledge": 10.0,
+        "workflow": 9.5,
+        "error_handling": 9.5,
+        "examples": 9.5,
+        "metadata": 10.0,
+        "overall": 9.75
+      },
+      "runtime_quality": {
+        "role_immersion": 10.0,
+        "framework_execution": 9.5,
+        "output_actionability": 10.0,
+        "knowledge_accuracy": 10.0,
+        "long_conversation_stability": 9.0,
+        "resilience": 10.0,
+        "overall": 9.75
+      },
+      "variance": 0.0,
+      "has_references": true,
+      "has_scripts": false,
+      "has_assets": false
+    }
+  ]
+}

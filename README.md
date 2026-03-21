@@ -14,7 +14,7 @@
 [![Platforms](https://img.shields.io/badge/Platforms-7-success?style=flat-square)](./INSTALL-GUIDE.md)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 
-**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📊 Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.md)** • **[📦 Skill Packages](./packages)** • **[📚 Full Catalog](./CATALOG.md)** • **[🗺️ Career Roadmaps](./roadmap/)**
+**[🌐 Website](https://theneoai.github.io/awesome-skills/)** • **[📊 Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.md)** • **[🔬 Comprehensive Evaluation](./reports/COMPREHENSIVE_EVALUATION_REPORT.md)** • **[📦 Skill Packages](./packages)** • **[📚 Full Catalog](./CATALOG.md)** • **[🗺️ Career Roadmaps](./roadmap/)**
 
 </div>
 
@@ -246,6 +246,9 @@ Read https://github.com/theneoai/awesome-skills/blob/main/skills/executive/ceo/S
 | 文档 | 内容 |
 |------|------|
 | **[📊 Evaluation Report](./reports/evaluation_report.md)** | 649个Skill的完整质量评估报告 |
+| **[🔬 Comprehensive Evaluation](./reports/COMPREHENSIVE_EVALUATION_REPORT.md)** | 双轨评估 vs 社区安全评估对比报告 |
+| **[📈 Project Skills Report](./reports/project_skills_dual_track_report.md)** | 项目Skills双轨评估详细报告 |
+| **[📉 Refs Skills Report](./reports/refs_skills_dual_track_report.md)** | 外部导入Skills评估报告 |
 | **[📦 Packages](./packages/)** | 按领域分类的Skill安装包 |
 | **[📚 Full Catalog](./CATALOG.md)** | 所有649个Skill的完整目录 |
 | **[🗺️ Career Roadmaps](./roadmap/)** | 20个职业方向的成长路径 |
