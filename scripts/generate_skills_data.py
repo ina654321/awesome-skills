@@ -1054,6 +1054,7 @@ def generate_skills_data():
     print("🔍 Scanning all skills...")
     
     skills = []
+    seen_ids = {}  # Track seen IDs and their categories
     skill_files = list(SKILLS_DIR.rglob('**/SKILL.md'))
     
     print(f"Found {len(skill_files)} skill files")
@@ -1064,6 +1065,18 @@ def generate_skills_data():
         
         skill_data = parse_skill_file(skill_file)
         if skill_data:
+            # Handle duplicate IDs by adding category prefix
+            original_id = skill_data['id']
+            category = skill_data['category']
+            
+            if original_id in seen_ids:
+                # This ID already exists, make it unique
+                new_id = f"{category}-{original_id}"
+                skill_data['id'] = new_id
+                print(f"  ⚠️  Duplicate ID '{original_id}' found, renamed to '{new_id}'")
+            else:
+                seen_ids[original_id] = category
+            
             skills.append(skill_data)
     
     print(f"✅ Successfully parsed {len(skills)} skills")

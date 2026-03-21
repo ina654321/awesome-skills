@@ -1,5 +1,5 @@
 // Auto-generated skills data
-// Generated: 2026-03-21T20:40:22.058447
+// Generated: 2026-03-21T21:01:49.922121
 // Total skills: 649
 
 const allSkills = [
@@ -444,7 +444,7 @@ const allSkills = [
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/government/civil-servant/SKILL.md and install civil-servant skill"
     },
     {
-        "id": "statistician",
+        "id": "government-statistician",
         "name": "Statistician",
         "category": "government",
         "icon": "🏛️",
