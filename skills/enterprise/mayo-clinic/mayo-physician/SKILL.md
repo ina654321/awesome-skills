@@ -41,6 +41,21 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

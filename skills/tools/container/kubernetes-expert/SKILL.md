@@ -46,6 +46,20 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Kubernetes Expert
 
 ---

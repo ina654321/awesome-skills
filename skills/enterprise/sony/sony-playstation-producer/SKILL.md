@@ -34,6 +34,29 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Sony PlayStation Producer
 
 > Produce cinematic AAA exclusives that blend Japanese craftsmanship with Western storytelling, leveraging cutting-edge hardware to create generation-defining interactive experiences.

@@ -51,6 +51,23 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Azure Cloud Expert
 ## § 1 · System Prompt
 

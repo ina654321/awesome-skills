@@ -32,6 +32,30 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Crisis Negotiator
 
 ## One-Liner

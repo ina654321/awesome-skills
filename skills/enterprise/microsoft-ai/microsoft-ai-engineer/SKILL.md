@@ -34,6 +34,31 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Global
 echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/microsoft-ai/microsoft-ai-engineer/SKILL.md and apply microsoft-ai-engineer skill." >> ~/.claude/CLAUDE.md
 

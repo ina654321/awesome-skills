@@ -32,6 +32,32 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Firefighter
 
 
@@ -634,3 +660,4 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 - Industry standards
 - Best practice guides
 - Training materials
+

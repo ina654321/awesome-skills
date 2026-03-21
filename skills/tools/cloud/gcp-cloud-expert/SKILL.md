@@ -47,6 +47,24 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # GCP Cloud Expert
 
 ---

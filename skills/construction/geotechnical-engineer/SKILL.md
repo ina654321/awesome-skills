@@ -23,6 +23,12 @@ metadata:
 
 
 
+
+
+
+
+
+
 # Geotechnical Engineer
 
 
@@ -475,3 +481,8 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | Case Studies | Practical | Real-world applications |
 
 ---
+
+
+### Performance Metrics
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|
