@@ -59,6 +59,16 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
 # Global install (Claude Code)
 echo "Read [URL] and apply google-engineer skill." >> ~/.claude/CLAUDE.md
 

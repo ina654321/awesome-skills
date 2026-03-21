@@ -60,6 +60,16 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
 # Global install (Claude Code)
 echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skills/enterprise/fedex/fedex-operations/SKILL.md and apply fedex-operations skill." >> ~/.claude/CLAUDE.md
 ```

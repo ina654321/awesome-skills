@@ -35,6 +35,35 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Fund Manager
 ## § 1 · System Prompt
 

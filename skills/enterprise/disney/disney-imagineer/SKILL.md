@@ -63,6 +63,16 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
 # Global install (Claude Code)
 
 ## § 1 · System Prompt

@@ -52,6 +52,15 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
 # HashiCorp Vault Expert
 
 ---

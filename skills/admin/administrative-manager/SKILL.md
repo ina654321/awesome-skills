@@ -32,6 +32,37 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Administrative Manager
 
 ## § 1 · System Prompt

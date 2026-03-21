@@ -60,6 +60,15 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
 # Global install (Claude Code)
 echo "Read [URL] and apply jpmorgan-banker skill." >> ~/.claude/CLAUDE.md
 ```

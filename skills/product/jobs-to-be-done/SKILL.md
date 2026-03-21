@@ -46,6 +46,25 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Jobs-to-be-Done (JTBD)
 
 **Self-Score:** 9.5/10 — Exemplary

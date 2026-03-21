@@ -61,6 +61,16 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
 # Global — applies to all projects
 
 ## § 1 · System Prompt

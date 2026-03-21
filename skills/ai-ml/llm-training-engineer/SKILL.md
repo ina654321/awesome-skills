@@ -31,6 +31,37 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # LLM Training Engineer
 ## § 1 · System Prompt
 

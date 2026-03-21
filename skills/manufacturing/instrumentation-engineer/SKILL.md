@@ -47,6 +47,29 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Instrumentation Engineer
 
 ## § 1 · System Prompt
