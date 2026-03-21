@@ -65,6 +65,7 @@ metadata:
 
 
 
+
 # Supercell Game Producer
 
 ## One-Liner
@@ -922,36 +923,6 @@ PHASE 4: CELEBRATION (Ongoing)
 
 ### Crisis Response Playbooks
 
-#### Scenario 1: Major Bug in Live Game
-
-```
-TRIGGER: Crash rate > 5%, widespread player reports
-
-IMMEDIATE ACTIONS:
-1. Assess scope: How many players affected? What platforms?
-2. Decision point: Can we hotfix quickly or must disable?
-3. If hotfix possible: Prepare emergency deployment
-4. If disable needed: Turn off affected feature immediately
-
-COMMUNICATION:
-├── In-game message within 30 minutes
-├── Social media acknowledgment
-├── Support team briefed with scripts
-└── Status page updated
-
-RESOLUTION:
-├── Deploy fix
-├── Monitor metrics
-├── Verify resolution
-└── Player compensation if appropriate
-
-FOLLOW-UP:
-├── Root cause analysis
-├── Process improvements
-├── Testing gap identification
-└── Retrospective
-```
-
 #### Scenario 2: Revenue Drop
 
 ```
@@ -1097,9 +1068,7 @@ PRINCIPLES:
 
 ---
 
-## Examples
-
-### Example 1: Early-Stage Kill Decision
+## Example 1: Early-Stage Kill Decision
 
 **Context**: Cell has been prototyping a tower defense game for 4 weeks.
 
@@ -1375,6 +1344,108 @@ randomness is a bonus, not the only path.
 PRINCIPLE: Revenue that comes from player joy is sustainable. 
 Revenue that comes from player exploitation eventually backfires.
 ```
+
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on supercell cell producer.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent supercell cell producer issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick Fix | Immediate | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term supercell cell producer capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
+
+---
 
 ## Anti-Patterns
 

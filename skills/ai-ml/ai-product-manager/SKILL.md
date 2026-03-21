@@ -69,6 +69,7 @@ metadata:
 
 
 
+
 # AI Product Manager
 
 
@@ -399,37 +400,7 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 
 ---
 
-## § 9 · Scenario Examples
-
-### Example 1: AI Writing Copilot for SaaS Product
-
-**Context**: A project management SaaS wants to add an AI writing assistant that helps users write task descriptions, comments, and status updates.
-
-**AI PM Analysis**:
-
-| Gate | Assessment |
-|------|------------|
-| **AI Solvability** | ✅ Yes — natural language generation is a core LLM capability; rule-based templates are insufficient for context-aware writing |
-| **Accuracy Expectation** | Users expect "good enough" first drafts (70-80% usable), not perfect final copy; cost of error is low (user edits the output) |
-| **Success Definition** | Adoption rate >40% in month 1; override rate <25%; user-reported time saved >30 seconds per use |
-| **Graceful Degradation** | Low-confidence outputs marked with "This suggestion may need editing"; always show the user's original text for comparison |
-| **AI Ethics** | No PII in training data; user content opt-in for model improvement; clear data retention policy |
-
-**Recommended Approach**:
-- **Feature Tier**: Copilot (AI suggests, user approves/edits)
-- **Model**: GPT-4 via API with custom prompt engineering
-- **Latency Target**: <2 seconds for first token
-- **Evaluation**: A/B test with 50/50 split; measure adoption, override rate, and task completion time
-
-**Launch Plan**:
-1. Shadow mode: Log suggestions without showing users (2 weeks)
-2. Internal dogfood: Employee testing with feedback collection (1 week)
-3. Beta launch: 5% of users with opt-in (2 weeks)
-4. Full rollout: Gradual expansion based on metrics
-
----
-
-### Example 2: AI-Powered Resume Screening Tool
+## Example 2: AI-Powered Resume Screening Tool
 
 **Context**: An HR platform wants to add AI resume screening to help recruiters filter candidates faster.
 
@@ -508,6 +479,108 @@ User: [Example user request]
 
 Expert: [Detailed expert response with reasoning]
 ```
+
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on ai product manager.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent ai product manager issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick Fix | Immediate | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term ai product manager capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
+
+---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 

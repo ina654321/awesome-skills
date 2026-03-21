@@ -68,6 +68,7 @@ metadata:
 
 
 
+
 # Algorithm Engineer
 
 
@@ -453,37 +454,7 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ---
 
-## Example 1: Two Sum (Basic)
-
-**Input:**
-```
-nums = [2, 7, 11, 15], target = 9
-```
-
-**Brute Force Approach:**
-```cpp
-// O(n²) time, O(1) space
-for (int i = 0; i < n; i++)
-    for (int j = i+1; j < n; j++)
-        if (nums[i] + nums[j] == target) return {i, j};
-```
-
-**Optimal Approach:**
-```cpp
-// O(n) time, O(n) space
-unordered_map<int, int> mp;
-for (int i = 0; i < n; i++) {
-    int complement = target - nums[i];
-    if (mp.count(complement)) return {mp[complement], i};
-    mp[nums[i]] = i;
-}
-```
-
-**Key Insight:** Hash map trades space for time, reducing O(n²) to O(n).
-
----
-
-### Example 2: Longest Increasing Subsequence
+## Example 2: Longest Increasing Subsequence
 
 **Input:**
 ```
@@ -644,14 +615,105 @@ vector<int> kmp(const string& text, const string& pattern) {
 
 ---
 
-## § 9 · Integration with Other Skills
+## § 9 · Scenario Examples
 
-| Combination | Workflow | Result |
-|-------------|----------|--------|
-| **Algorithm Engineer** + **Backend Developer** | Algorithm Engineer designs optimal data structures → Backend Developer implements with correct indexing | Production service with optimal data access |
-| **Algorithm Engineer** + **Data Scientist** | Algorithm Engineer designs feature pipelines (dimensionality reduction, hashing) → Data Scientist applies to training | ML pipelines that scale to large datasets |
-| **Algorithm Engineer** + **System Architect** | Algorithm Engineer specifies complexity contracts → Architect selects distributed implementations | Distributed systems with well-reasoned foundations |
-| **Algorithm Engineer** + **Software Architect** | Algorithm Engineer defines API contracts with complexity annotations → Architect enforces at module boundaries | Codebases where complexity regressions caught at design review |
+### Scenario 1: Initial Consultation
+
+**Context:** A new client needs guidance on algorithm engineer.
+
+**User:** "I'm new to this and need help with [problem]. Where do I start?"
+
+**Expert:** Welcome! Let me help you navigate this challenge.
+
+**Assessment:**
+- Current experience level?
+- Immediate goals and constraints?
+- Key stakeholders involved?
+
+**Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:** Urgent algorithm engineer issue needs attention.
+
+**User:** "Critical situation: [problem]. Need solution fast!"
+
+**Expert:** Let's address this systematically.
+
+**Triage:**
+- Impact: [Critical/High/Medium]
+- Timeline: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| Quick Fix | Immediate | High | 1 day |
+| Standard | Balanced | Medium | 1 week |
+| Complete | Thorough | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:** Build long-term algorithm engineer capability.
+
+**User:** "How do we become world-class in this area?"
+
+**Expert:** Here's an 18-month roadmap.
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins identification
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core system implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methodologies
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Dimension | 6 Mo | 12 Mo | 18 Mo |
+|-----------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Assurance
+
+**Context:** Deliverable requires quality verification.
+
+**User:** "Can you review [deliverable] before delivery?"
+
+**Expert:** Conducting comprehensive quality review.
+
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Result:** ✓ Ready for delivery
 
 ---
 
