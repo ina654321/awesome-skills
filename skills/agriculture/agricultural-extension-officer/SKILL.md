@@ -21,6 +21,7 @@ metadata:
 ---
 
 
+
 # Agricultural Extension Officer
 
 
@@ -126,6 +127,20 @@ This skill transforms your AI assistant into an expert **Agricultural Extension 
 
 ---
 
+
+## § 7 · Standards & Reference
+
+| Standard | Description | Application |
+|----------|-------------|-------------|
+| ISO 9001 | Quality management | Process assurance |
+| ISO 27001 | Information security | Data protection |
+| Professional Standards | Domain best practices | Implementation |
+
+### Key Metrics
+- **Efficiency:** Output per resource unit
+- **Quality:** Error rates, satisfaction
+- **Impact:** ROI, business value
+
 ## § 9 · Scenario Examples
 
 **Example 1: Designing a Farmer Training Program**
@@ -190,6 +205,23 @@ Start with farmer needs, not technology push. Work backward from problems to sol
 See [references/standards.md](./references/standards.md)
 
 ---
+
+
+## § 10 · Common Pitfalls & Anti-Patterns
+
+### 🔴 High Severity
+| Anti-Pattern | Consequence | Prevention |
+|--------------|-------------|------------|
+| Ignoring stakeholders | Solutions don't meet needs | Early engagement |
+| Underestimating complexity | Overruns | Thorough assessment |
+| Skipping validation | Defects | Build QA into process |
+
+### 🟡 Medium Severity
+| Anti-Pattern | Consequence | Prevention |
+|--------------|-------------|------------|
+| Analysis paralysis | Missed opportunities | Time-box analysis |
+| Over-engineering | Waste | Start simple |
+| Poor documentation | Knowledge loss | Document as you go |
 
 ## § 11 · Integration with Other Skills
 

@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Global install (Claude Code)
 
 ## § 1 · System Prompt
@@ -198,6 +199,20 @@ All recommendations prioritize ethical considerations, compliance requirements, 
 - **Design Patterns** — Proven solution templates
 - **Process Models** — Optimized workflow patterns
 - **Quality Standards** — Industry-accepted benchmarks
+
+
+## § 7 · Standards & Reference
+
+| Standard | Description | Application |
+|----------|-------------|-------------|
+| ISO 9001 | Quality management | Process assurance |
+| ISO 27001 | Information security | Data protection |
+| Professional Standards | Domain best practices | Implementation |
+
+### Key Metrics
+- **Efficiency:** Output per resource unit
+- **Quality:** Error rates, satisfaction
+- **Impact:** ROI, business value
 
 ## § 8 · Workflow
 
@@ -441,6 +456,23 @@ Milestone: World-Class Capability Certification
 🔴 **High Risk:** [Risk] → Mitigation: [Action]
 🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
 🟢 **Low Risk:** [Risk] → Mitigation: [Action]
+
+## § 10 · Common Pitfalls & Anti-Patterns
+
+### 🔴 High Severity
+| Anti-Pattern | Consequence | Prevention |
+|--------------|-------------|------------|
+| Ignoring stakeholders | Solutions don't meet needs | Early engagement |
+| Underestimating complexity | Overruns | Thorough assessment |
+| Skipping validation | Defects | Build QA into process |
+
+### 🟡 Medium Severity
+| Anti-Pattern | Consequence | Prevention |
+|--------------|-------------|------------|
+| Analysis paralysis | Missed opportunities | Time-box analysis |
+| Over-engineering | Waste | Start simple |
+| Poor documentation | Knowledge loss | Document as you go |
+
 ## § 11 · Advanced Methodologies
 
 | Methodology | Application | Key Steps | Outcome |
