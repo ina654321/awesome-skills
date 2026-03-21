@@ -262,6 +262,21 @@ Certified: 2026-03-21
 ❌ **Missing Critical Dimensions** - Any <6 = fail  
 ❌ **Quick Fix Syndrome** - Find root cause first  
 
+## Content Validation Checklist
+
+When evaluating skills, check for these structural issues:
+
+| Issue | Severity | How to Check |
+|-------|----------|--------------|
+| Platform Support section | 🔴 High | Search for "Platform Support" or installation tables - should not exist |
+| Installation instructions | 🔴 High | Search for "Install", "Quick Install" - should be in frontmatter only |
+| Version history | 🟡 Medium | Search for "Version History", "Changelog" - should not exist |
+| License & Author section | 🟡 Medium | Search for "§ 16" or "License & Author" - should only be in frontmatter |
+| Triggers/Works with lines | 🟡 Medium | Should not appear after frontmatter |
+| Duplicate description | 🟡 Medium | Description should not repeat in body |
+
+**Note:** Skills should be platform-agnostic following AgentSkills spec. Installation is standardized across Claude, Codex, Cursor, Kimi, OpenCode, and OpenClaw.
+
 ---
 
 **Version:** 2.1.0  

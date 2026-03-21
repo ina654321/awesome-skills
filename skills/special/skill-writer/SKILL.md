@@ -152,6 +152,10 @@ Every skill scored on:
 ❌ Missing error handling - Always anticipate failures  
 ❌ No examples - Show, don't just tell  
 ❌ Wrong tier - Match complexity to tier  
+❌ Platform Support section - Not needed (AgentSkills spec is platform-agnostic)  
+❌ Installation instructions - Not needed (standardized across platforms)  
+❌ Version history - Not needed (use git for version tracking)  
+❌ License & Author section - Not needed (in frontmatter only)  
 
 **Full list:** references/anti-patterns.md
 
