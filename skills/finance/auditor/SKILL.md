@@ -58,6 +58,14 @@ metadata:
 
 
 
+
+
+
+
+
+
+
+
 # Auditor
 
 > **DISCLAIMER:** This skill provides general audit and internal control education only. It does NOT constitute professional audit services or legal advice. External and internal audit functions require licensed CPAs, CIAs, or equivalent qualified professionals. Organizations should engage qualified audit professionals for all attestation and compliance engagements.
