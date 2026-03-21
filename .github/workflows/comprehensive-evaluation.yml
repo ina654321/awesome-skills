@@ -1,5 +1,7 @@
-# Comprehensive Skill Evaluation - Dual-Track Quality Assessment
-# Evaluates all skills using skill-evaluator methodology
+# Comprehensive Skill Evaluation - 3-Step Pipeline
+# Step 1: Evaluate & Generate Report
+# Step 2: Update GitHub Pages
+# Step 3: Update README & Project Config
 
 name: Comprehensive Skill Evaluation
 
@@ -12,10 +14,14 @@ on:
     paths:
       - 'skills/**/SKILL.md'
       - '.github/workflows/comprehensive-evaluation.yml'
+      - 'scripts/comprehensive_skill_evaluation.py'
 
 jobs:
-  evaluate:
-    name: Evaluate Skills
+  # ============================================================================
+  # STEP 1: Evaluate Skills & Generate Report
+  # ============================================================================
+  step1-evaluate:
+    name: "Step 1: Evaluate & Generate Report"
     runs-on: ubuntu-latest
     
     steps:
@@ -33,21 +39,15 @@ jobs:
         run: pip install pyyaml rich
       
       - name: Run comprehensive evaluation
+        id: evaluate
         run: |
+          echo "🔍 Starting comprehensive skill evaluation..."
           python3 scripts/comprehensive_skill_evaluation.py \
             --output reports/evaluation_report.json \
             --format both
+          echo "✅ Evaluation complete"
       
-      - name: Upload evaluation results
-        uses: actions/upload-artifact@v4
-        with:
-          name: evaluation-report
-          path: |
-            reports/evaluation_report.json
-            reports/evaluation_report.html
-          retention-days: 30
-      
-      - name: Display results in Actions
+      - name: Display evaluation summary
         run: |
           python3 << 'PYTHON_EOF'
           import json
@@ -58,7 +58,7 @@ jobs:
           summary = data['summary']
           
           print("="*70)
-          print("📊 COMPREHENSIVE SKILL EVALUATION RESULTS")
+          print("📊 STEP 1 COMPLETE: EVALUATION RESULTS")
           print("="*70)
           print()
           print(f"Total Skills Evaluated: {summary['total_skills']}")
@@ -76,34 +76,62 @@ jobs:
           print("📋 Top 5 Skills:")
           top5 = sorted(data['evaluations'], key=lambda x: -x['dual_track_score'])[:5]
           for i, skill in enumerate(top5, 1):
-              print(f"  {i}. {skill['skill_name']}: {skill['dual_track_score']:.2f} "
-                    f"(T:{skill['text_quality']['overall']:.1f} R:{skill['runtime_quality']['overall']:.1f})")
-          print()
-          print("⚠️  Bottom 5 Skills (Need Improvement):")
-          bottom5 = sorted(data['evaluations'], key=lambda x: x['dual_track_score'])[:5]
-          for i, skill in enumerate(bottom5, 1):
               print(f"  {i}. {skill['skill_name']}: {skill['dual_track_score']:.2f}")
-              if skill['recommendations']:
-                  print(f"     → {skill['recommendations'][0]}")
           print()
-          print("="*70)
-          print(f"📄 Full HTML Report: reports/evaluation_report.html")
           print("="*70)
           PYTHON_EOF
       
+      - name: Upload evaluation artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: evaluation-report
+          path: |
+            reports/evaluation_report.json
+            reports/evaluation_report.html
+          retention-days: 30
+
+  # ============================================================================
+  # STEP 2: Update GitHub Pages
+  # ============================================================================
+  step2-update-pages:
+    name: "Step 2: Update GitHub Pages"
+    runs-on: ubuntu-latest
+    needs: step1-evaluate
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Download evaluation artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: evaluation-report
+          path: reports
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./reports
           destination_dir: reports
           keep_files: true
+      
+      - name: Verify Pages deployment
+        run: |
+          echo "✅ STEP 2 COMPLETE: GitHub Pages updated"
+          echo "📄 Report URL: https://theneoai.github.io/awesome-skills/reports/evaluation_report.html"
 
-  update-dashboard:
-    name: Update Dashboard
+  # ============================================================================
+  # STEP 3: Update README & Project Config
+  # ============================================================================
+  step3-update-config:
+    name: "Step 3: Update README & Project Config"
     runs-on: ubuntu-latest
-    needs: evaluate
+    needs: [step1-evaluate, step2-update-pages]
     if: github.ref == 'refs/heads/main'
     
     steps:
@@ -112,7 +140,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Download evaluation results
+      - name: Download evaluation artifacts
         uses: actions/download-artifact@v4
         with:
           name: evaluation-report
@@ -135,7 +163,7 @@ jobs:
           with open('README.md') as f:
               readme = f.read()
           
-          # Update stats badge section
+          # Update stats section
           stats_section = f"""<!-- STATS_START -->
 ## 📊 Project Statistics
 
@@ -163,18 +191,57 @@ jobs:
           pattern = r'<!-- STATS_START -->.*?<!-- STATS_END -->'
           if re.search(pattern, readme, re.DOTALL):
               readme = re.sub(pattern, stats_section, readme, flags=re.DOTALL)
-          else:
-              # Insert after first heading
-              readme = re.sub(r'(^(# .*\n))', r'\1\n' + stats_section + '\n', readme)
           
           # Write back
           with open('README.md', 'w') as f:
               f.write(readme)
           
-          print("✅ README updated with latest statistics")
+          print("✅ README.md updated")
           PYTHON_EOF
       
-      - name: Update index.html dashboard
+      - name: Update index.html stats
+        run: |
+          python3 << 'PYTHON_EOF'
+          import json
+          import re
+          
+          # Load evaluation data
+          with open('reports/evaluation_report.json') as f:
+              data = json.load(f)
+          
+          summary = data['summary']
+          
+          # Read index.html
+          with open('index.html') as f:
+              html = f.read()
+          
+          # Update stats
+          html = re.sub(r'<div class="stat-number">\d+</div><div class="stat-label">Skills</div>', 
+                        f'<div class="stat-number">{summary["total_skills"]}</div><div class="stat-label">Skills</div>', html)
+          
+          # Add or update quality stat
+          if 'Avg Quality' not in html:
+              # Add quality stat before closing stats div
+              html = re.sub(
+                  r'(<div class="stat"><div class="stat-number">7</div><div class="stat-label">Platforms</div></div>)',
+                  r'\1\n            <div class="stat"><div class="stat-number">{:.1f}</div><div class="stat-label">Avg Quality</div></div>'.format(summary['dual_track']['average']),
+                  html
+              )
+          else:
+              html = re.sub(
+                  r'<div class="stat-number">[\d.]+</div><div class="stat-label">Avg Quality</div>',
+                  f'<div class="stat-number">{summary["dual_track"]["average"]:.1f}</div><div class="stat-label">Avg Quality</div>',
+                  html
+              )
+          
+          # Write back
+          with open('index.html', 'w') as f:
+              f.write(html)
+          
+          print("✅ index.html updated")
+          PYTHON_EOF
+      
+      - name: Create JavaScript data file
         run: |
           python3 << 'PYTHON_EOF'
           import json
@@ -184,20 +251,37 @@ jobs:
           with open('reports/evaluation_report.json') as f:
               data = json.load(f)
           
-          # Create a JavaScript data file for the website
-          js_data = f"""
+          # Create assets/js directory if not exists
+          Path('assets/js').mkdir(parents=True, exist_ok=True)
+          
+          # Create JavaScript data file
+          js_data = f"""// Auto-generated skill statistics
 window.SKILL_STATS = {json.dumps(data['summary'], indent=2)};
-window.SKILL_EVALUATIONS = {json.dumps(data['evaluations'][:50], indent=2)};  // Top 50
+window.SKILL_EVALUATIONS = {json.dumps(data['evaluations'][:50], indent=2)};
+window.EVALUATION_TIMESTAMP = "{datetime.now().isoformat()}";
 """
           
           Path('assets/js/skill-stats.js').write_text(js_data)
-          print("✅ Skill stats JavaScript file created")
+          print("✅ assets/js/skill-stats.js created")
           PYTHON_EOF
       
-      - name: Commit updates
+      - name: Commit and push updates
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md assets/js/skill-stats.js reports/
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update evaluation reports and dashboard [ci skip]"
-          git push
+          git add README.md index.html assets/js/skill-stats.js reports/
+          
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            git commit -m "chore: auto-update project stats and config [ci skip]
+
+- Update README.md with latest evaluation statistics
+- Update index.html with current skill counts and quality scores
+- Update assets/js/skill-stats.js with evaluation data
+- Sync reports to repository
+
+Generated by: Comprehensive Skill Evaluation workflow"
+            git push
+            echo "✅ STEP 3 COMPLETE: README and project config updated"
+          fi
