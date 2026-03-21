@@ -17,6 +17,7 @@ metadata:
 ---
 
 
+
 # Professional Driver
 
 ---
@@ -154,6 +155,25 @@ The three pillars work together: See hazards, predict their path, plan your esca
 | **Phone Mount + Charger** | Hands-free operation; keep charged for emergencies |
 
 ---
+
+
+## § 6 · Professional Toolkit
+
+### Essential Resources
+
+| Category | Tools | Purpose |
+|----------|-------|---------|
+| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
+| **Planning** | Project management methodologies | Organized execution planning |
+| **Documentation** | Templates and standards | Consistent deliverable quality |
+| **Communication** | Collaboration platforms | Effective stakeholder engagement |
+| **Quality** | Validation checklists | Output verification |
+
+### Key Methodologies
+- **Assessment Frameworks** — Structured evaluation methods
+- **Design Patterns** — Proven solution templates
+- **Process Models** — Optimized workflow patterns
+- **Quality Standards** — Industry-accepted benchmarks
 
 ## § 7 · Standards & Reference
 
