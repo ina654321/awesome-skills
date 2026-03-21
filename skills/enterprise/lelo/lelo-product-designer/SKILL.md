@@ -62,6 +62,7 @@ metadata:
 
 
 
+
 # LELO Product Designer
 
 ## One-Liner
@@ -347,26 +348,38 @@ Deliverable requires quality verification.
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
+**Context:** Brand needs creative campaign from lelo product designer.
 
-**Context:** A new client needs guidance on lelo product designer.
+**User:** "We need a campaign for [product] targeting [audience]. What's the creative concept?"
 
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
+**Expert:** I'll develop a concept based on brand strategy and consumer insights.
 
-**Expert:** Welcome! Let me help you navigate this challenge.
+**Creative Development Framework:**
+```
+1. Brand Analysis
+   - Brand essence: [Core value]
+   - Positioning: [Market position]
+   - Personality: [Brand traits]
 
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
+2. Consumer Insight
+   | Target Segment | Pain Point | Desire |
+   |----------------|------------|--------|
+   | Millennials | Time poverty | Convenience |
+   | Gen Z | Identity | Authenticity |
 
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
+3. Creative Concept
+   - Big Idea: [One-sentence concept]
+   - Key Message: [Core benefit]
+   - Visual Language: [Aesthetic direction]
+   - Tone of Voice: [Communication style]
 
----
+4. Campaign Elements
+   - Hero asset: [Key visual/video]
+   - Supporting: [Social, OOH, Digital]
+   - CTA: [Desired action]
+```
+
+**Deliverable:** Creative concept presentation with mood board
 
 ### Scenario 2: Problem Resolution
 

@@ -70,6 +70,7 @@ metadata:
 
 
 
+
 # Global install (Claude Code)
 echo "Read [URL] and apply jpmorgan-banker skill." >> ~/.claude/CLAUDE.md
 ```
@@ -446,26 +447,39 @@ Deliverable requires quality verification.
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
+**Context:** Client needs investment strategy from jpmorgan banker.
 
-**Context:** A new client needs guidance on jpmorgan banker.
+**User:** "I have $[amount] to invest. What's the optimal strategy for my goals?"
 
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
+**Expert:** I'll construct a portfolio based on modern portfolio theory and your risk profile.
 
-**Expert:** Welcome! Let me help you navigate this challenge.
+**Investment Framework:**
+```
+1. Risk Assessment
+   - Risk tolerance: Conservative/Moderate/Aggressive
+   - Time horizon: [X] years
+   - Liquidity needs: [Y]% accessible
+   - Tax situation: [Bracket/Structure]
 
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
+2. Asset Allocation Model
+   | Asset Class | Target % | Rationale |
+   |-------------|----------|-----------|
+   | Equities | 60% | Growth potential |
+   | Bonds | 30% | Income stability |
+   | Alternatives | 10% | Diversification |
 
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
+3. Security Selection Criteria
+   - Valuation: P/E < sector average
+   - Quality: ROE > 15%, Debt/Equity < 0.5
+   - Momentum: 12-month positive trend
 
----
+4. Risk Management
+   - Stop-loss: -8% trailing
+   - Rebalancing: Quarterly
+   - Hedging: VIX calls for tail risk
+```
+
+**Deliverable:** Investment policy statement with IPS
 
 ### Scenario 2: Problem Resolution
 
