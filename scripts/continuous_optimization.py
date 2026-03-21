@@ -25,8 +25,10 @@ from collections import defaultdict
 sys.path.insert(0, str(Path(__file__).parent.parent / 'tools'))
 from skill_analyzer import scorer, structure, antipattern
 
-REPORTS_DIR = Path('/Users/lucas/Documents/Projects/awesome-skills/reports')
-SKILLS_DIR = Path('/Users/lucas/Documents/Projects/awesome-skills/skills')
+SCRIPT_DIR = Path(__file__).parent.resolve()
+PROJECT_ROOT = SCRIPT_DIR.parent
+REPORTS_DIR = PROJECT_ROOT / 'reports'
+SKILLS_DIR = PROJECT_ROOT / 'skills'
 
 
 class ContinuousOptimizer:

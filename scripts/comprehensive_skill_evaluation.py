@@ -20,11 +20,15 @@ from datetime import datetime
 from typing import Dict, List, Any
 from dataclasses import dataclass, asdict
 
-sys.path.insert(0, str(Path(__file__).parent.parent / 'tools'))
-from skill_analyzer import scorer, tokenizer, structure, antipattern
+# Determine paths based on script location
+SCRIPT_DIR = Path(__file__).parent.resolve()
+PROJECT_ROOT = SCRIPT_DIR.parent
+TOOLS_DIR = PROJECT_ROOT / 'tools'
+REPORTS_DIR = PROJECT_ROOT / 'reports'
+SKILLS_DIR = PROJECT_ROOT / 'skills'
 
-REPORTS_DIR = Path('/Users/lucas/Documents/Projects/awesome-skills/reports')
-SKILLS_DIR = Path('/Users/lucas/Documents/Projects/awesome-skills/skills')
+sys.path.insert(0, str(TOOLS_DIR))
+from skill_analyzer import scorer, tokenizer, structure, antipattern
 
 
 @dataclass

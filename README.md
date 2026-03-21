@@ -26,7 +26,6 @@
 | Metric | Value |
 |--------|-------|
 | **Total Skills** | 649 |
-| **Categories** | 70+ |
 | **Average Quality** | 6.77/10 |
 | **Text Quality** | 6.72/10 |
 | **Runtime Quality** | 6.65/10 |
@@ -38,8 +37,8 @@
 |------|-------|------------|
 | Exemplary (8.0+) | 5 | 0.8% |
 | Expert (7.0-7.9) | 273 | 42.1% |
-| Community (5.0-6.9) | 371 | 57.1% |
-| Basic (<5.0) | 0 | 0% |
+| Community (5.0-6.9) | 371 | 57.2% |
+| Basic (<5.0) | 0 | 0.0% |
 
 📈 [View Full Evaluation Report](https://theneoai.github.io/awesome-skills/reports/evaluation_report.html)
 <!-- STATS_END -->

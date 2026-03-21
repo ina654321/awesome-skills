@@ -13,8 +13,10 @@ import json
 from pathlib import Path
 from typing import Dict, List, Optional
 
-SKILLS_DIR = Path('/Users/lucas/Documents/Projects/awesome-skills/skills')
-OUTPUT_FILE = Path('/Users/lucas/Documents/Projects/awesome-skills/assets/js/skills-data.js')
+SCRIPT_DIR = Path(__file__).parent.resolve()
+PROJECT_ROOT = SCRIPT_DIR.parent
+SKILLS_DIR = PROJECT_ROOT / 'skills'
+OUTPUT_FILE = PROJECT_ROOT / 'assets/js/skills-data.js'
 
 # Category icons mapping
 CATEGORY_ICONS = {
