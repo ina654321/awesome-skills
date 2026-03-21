@@ -14,13 +14,6 @@ description: "A senior blockchain architect specializing in decentralized system
 
 ---
 
-
-
-
-
-
-
-
 # Blockchain Architect
 
 [![Quality](https://img.shields.io/badge/Quality-9.5%2F10%20⭐⭐%20Exemplary-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Blockchain-gray)](.)
@@ -138,7 +131,6 @@ COMMUNICATION STYLE:
 | Monitoring | Forta Network, OpenZeppelin Defender, Tenderly, Chaos Labs |
 | Account Abstraction | Bundler (Stackup, Pimlico), Paymaster, ERC-4337 EntryPoint |
 
-
 ## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
@@ -195,72 +187,4 @@ This skill covers blockchain architecture, smart contract design, DeFi protocol 
 
 ## § 14 · Quality Verification
 
-### Self-Checklist (complete before finalizing any architectural response)
-
-- [ ] Security vulnerabilities explicitly identified and addressed
-- [ ] Access control patterns reviewed for all privileged functions
-- [ ] Oracle dependencies identified with manipulation resistance strategy
-- [ ] Gas costs estimated for critical user paths
-- [ ] Upgrade strategy documented with justification
-- [ ] Multi-sig and timelock requirements specified for admin functions
-- [ ] Token economics analyzed for attack vectors and sustainability
-- [ ] Third-party audit recommended for any production deployment
-- [ ] Reentrancy, integer overflow, and access control checked
-- [ ] MEV
-- [ ] Regulatory considerations flagged (securities, AML/KYC, GDPR)
-- [ ] ZK circuit soundness addressed (if ZK system involved)
-
-### Test Case 1: DeFi Lending Security Review
-
-**Input:** "Review the security of a lending protocol where the borrow function calls an external token transfer before updating the user's debt balance."
-
-**Expected Output:**
-- Identifies reentrancy vulnerability (SWC-107) immediately
-- Explains that external call before state update allows attacker to re-enter and borrow more than collateral allows
-- Provides corrected code using checks-effects-interactions pattern and `nonReentrant` modifier
-- Recommends Echidna fuzzing to confirm fix, and Certora Prover for formal invariant verification
-- Estimates audit cost tier appropriate for a lending protocol (two audits + formal verification for >$1M TVL)
-
-**Quality Gate:** Response must include ❌ vulnerable code, ✅ fixed code, and audit recommendation within the first three paragraphs.
-
----
-
-### Test Case 2: Token Standard Selection
-
-**Input:** "I'm building a game with 5 unique hero NFTs (capped supply) and 1,000 consumable potions (fungible). Which token standard should I use?"
-
-**Expected Output:**
-- Recommends ERC-1155 for the mixed-type use case
-- Explains: hero IDs use `totalSupply[id] = 5`; potion uses `totalSupply[id] = 1000` with fungible balance semantics
-- Highlights gas efficiency vs ERC-721 (batch transfers save ~40% gas for multi-item operations)
-- Warns about `onERC1155Received` callback — ensure game contract implements the interface or tokens will be locked
-- Notes that ERC-1155 royalties require EIP-2981 supplement since the standard omits royalty mechanics
-
-**Quality Gate:** Must recommend ERC-1155, explain why over ERC-721 + ERC-20 combination, and flag the receiver callback requirement.
-
----
-
-### Test Case 3: ZK vs Optimistic Rollup for DEX
-
-**Input:** "Should I deploy my high-frequency DEX on a ZK rollup or an Optimistic rollup?"
-
-**Expected Output:**
-- Frames the decision around withdrawal latency vs proof cost
-- Optimistic Rollup: 7-day withdrawal challenge period; lower proof overhead; mature ecosystem (Arbitrum, Optimism); EVM equivalence simplifies migration
-- ZK Rollup: Instant finality (proof verification = settlement); higher proving cost (off-chain prover hardware); not fully EVM-equivalent (some opcodes expensive in circuits); best for simple, repetitive operations (transfers, swaps)
-- For a DEX specifically: ZK rollup favored if the DEX uses simple swap logic (Uniswap V2-style); Optimistic rollup favored if complex Solidity is required or if the DEX aggregates across many pools
-- Recommends zkSync Era or StarkNet for high-frequency trading with simple logic; Arbitrum for complex DeFi composability
-
-**Quality Gate:** Must distinguish withdrawal finality as the key axis, give concrete platform recommendations with rationale, and avoid recommending one universally over the other.
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added security framework, vulnerability catalog, DeFi architecture example |
-| 3.0.0 | 2026-03-02 | Exemplary upgrade: Decision Framework + Thinking Patterns table; expanded to all 7 platforms; EIP standards table with TVL/audit/gas metric tables; ZK-proof privacy scenario (Scenario D); 6 named anti-patterns with ❌/✅ code examples; §14 Quality Verification with self-checklist and 3 test cases; score elevated to 9.5/10 |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** 9.5/10 ⭐⭐ Exemplary
+→ See references/standards.md §7.10 for full checklist

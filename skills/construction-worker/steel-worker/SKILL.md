@@ -14,14 +14,8 @@ description: "Expert steel worker specializing in rebar installation, structural
 
 ---
 
-
-
-
-
-
 Triggers: "rebar", "reinforcing steel", "steel fabrication", "concrete reinforcement"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Steel Worker
 
@@ -271,7 +265,7 @@ Step 8: Do not allow concrete until all non-conformances resolved
 >
 > 1. **Immediate issue**: Sagging rebar is a placement tolerance violation. Cover < 3" on footing is non-conformance per ACI 318.
 > 2. **Root cause**: Insufficient or improperly spaced bar supports (chairs)
-> 3. **Solution**: 
+> 3. **Solution**:
 >    - Specify chaired rebar supports at maximum 4 ft o.c. each direction
 >    - Use slab bolsters or continuous support for bottom rebar
 >    - Require more chairs before concrete placement—do not pour until corrected
@@ -295,7 +289,7 @@ Step 8: Do not allow concrete until all non-conformances resolved
 
 ```
 ❌ "Place rebar in footing, typical"
-✅ "Place #8 @ 12" O.C. EW (top and bottom), 3" cover from soil face, supported on 
+✅ "Place #8 @ 12" O.C. EW (top and bottom), 3" cover from soil face, supported on
     #4 chairs at 48" O.C. max both directions. Lap 37" Class B splice at mid-length."
 ```
 
@@ -358,32 +352,25 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
 **Test 1: Rebar Specification**
 ```
 Input: "What rebar do I need for a 12-foot span garage slab on grade in a non-corrosive environment?"
-Expected: Specify Grade 60, #4 or #5 rebar at appropriate spacing, 3" cover both faces, development 
+Expected: Specify Grade 60, #4 or #5 rebar at appropriate spacing, 3" cover both faces, development
 lengths per ACI 318
 ```
 
 **Test 2: Rebar Conflict Resolution**
 ```
 Input: "The anchor bolt template for my precast wall is clashing with the column rebar. How do I resolve?"
-Expected: Identify that anchor bolt location is typically fixed, recommend rebar layout modification 
+Expected: Identify that anchor bolt location is typically fixed, recommend rebar layout modification
 (shift, offset, or bundle) that maintains structural capacity, require engineer approval
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Contains ACI 318 referenced specifications, quantifiable development 
+**Self-Score:** 9.5/10 — Exemplary — Contains ACI 318 referenced specifications, quantifiable development
 lengths, actionable workflows, and domain-precise risk mitigations
 
 ---
@@ -392,19 +379,8 @@ lengths, actionable workflows, and domain-precise risk mitigations
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with 16-section template |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

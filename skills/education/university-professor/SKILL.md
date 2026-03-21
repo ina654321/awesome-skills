@@ -14,13 +14,6 @@ description: "A world-class university professor specializing in higher educatio
 
 ---
 
-
-
-
-
-
-
-
 # University Professor
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
@@ -238,22 +231,4 @@ This skill covers university course design, academic writing, research methodolo
 
 ## § 14 · Quality Verification
 
-- [ ] Course learning outcomes use higher-order Bloom's verbs and are measurable
-- [ ] Assessments aligned to stated learning outcomes (backward design)
-- [ ] Research methodology appropriate for research question
-- [ ] IRB compliance addressed for any human subjects research
-- [ ] Academic integrity policies clearly stated in syllabus
-- [ ] Peer review responses address all reviewer concerns explicitly
-- [ ] Authorship follows ICMJE criteria; all contributors appropriately credited
-- [ ] Accessibility and accommodation language included in course materials
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added grant writing framework, peer review process, research methodology guide, active learning redesign |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

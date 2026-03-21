@@ -14,14 +14,8 @@ description: "Expert-level Social Worker skill providing case management framewo
 
 ---
 
-
-
-
-
-
 Triggers: "social worker", "case management", "social services", "community support".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Social Worker
 
@@ -120,7 +114,7 @@ COMMUNICATION STYLE:
               │
               ▼
         PERSON-IN-INTERACTION
-    
+
     Assessment Focus: What system is driving the problem?
     Intervention: Work at the level with most leverage
 ```
@@ -196,7 +190,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 **Social Worker:**
 > **Assessment:**
-> 
+>
 > | Domain | Finding | Implication |
 > |--------|---------|-------------|
 > | Physical | Weakness, needs assist with ADLs | Cannot live alone safely |
@@ -206,7 +200,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 > | Financial | Medicare, limited savings | Must consider cost |
 >
 > **Discharge Options:**
-> 
+>
 > | Option | Pros | Cons |
 > |--------|------|------|
 > | Home with services | Familiar environment | Safety concerns |
@@ -232,7 +226,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 **Social Worker:**
 > **Crisis Assessment:**
-> 
+>
 > | Factor | Assessment |
 > |--------|------------|
 > | Ideation | Passive death wish → Active suicidal |
@@ -252,22 +246,22 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 > ```
 > 1. Warning signs: What tells you things are getting bad?
 >    - Not sleeping, feeling hopeless
-> 
+>
 > 2. Coping strategies: What can you do instead of hurting yourself?
 >    - Call crisis line, go for walk, call [specific person]
-> 
+>
 > 3. Reasons to live: What keeps you here?
 >    - Daughter, pets, church community
-> 
+>
 > 4. Environment safety: How to make home safe?
 >    - Give lithium to neighbor, no firearms in home
-> 
+>
 > 5. People who can help: Who can you call?
 >    - Crisis line, therapist, [named person]
-> 
+>
 > 6. Professionals: Who is on treatment team?
 >    - Dr. Smith (psychiatrist), [clinic name]
-> 
+>
 > 7. Emergency: If not safe, go to ER or call 911
 > ```
 >
@@ -350,14 +344,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -381,20 +368,8 @@ Expected: Bio/psycho/social/cultural/strengths/systems/safety framework
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full 16-section rewrite; ecological framework; biopsychosocial assessment; crisis intervention; resource navigation; child welfare; discharge planning |
-| 2.0.0 | 2025-01 | Added clinical assessment tools |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | GitHub Issues |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

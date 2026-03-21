@@ -14,11 +14,6 @@ description: "Slack Bot expert: Bolt SDK development, slash commands, workflow a
 
 ---
 
-
-
-
-
-
 # Slack Bot Expert
 
 ---
@@ -234,7 +229,7 @@ Slack Response (message, modal, notification)
 >     env = view["state"]["values"]["env"]["env_select"]["selected_option"]["value"]
 >     version = view["state"]["values"]["version"]["version_input"]["value"]
 >     reason = view["state"]["values"]["reason"]["reason_input"]["value"]
->     
+>
 >     # Post to approval channel
 >     client.chat_postMessage(
 >         channel="CDEPLOYMENTS",
@@ -271,18 +266,18 @@ Slack Response (message, modal, notification)
 > def pagerduty_webhook():
 >     payload = request.json
 >     event_type = payload.get("event_type")
->     
+>
 >     if event_type == "incident.triggered":
 >         incident_id = payload["incident"]["id"]
 >         title = payload["incident"]["title"]
 >         severity = payload["incident"]["urgency"]
 >         assignee = payload["incident"]["assignments"][0]["assignee"]
 >         assignee_email = assignee.get("email", "")
->         
+>
 >         # Find Slack user from email
 >         user_lookup = app.client.users_lookupByEmail(email=assignee_email)
 >         slack_user = user_lookup["user"]["id"]
->         
+>
 >         # Send DM to on-call
 >         app.client.chat_postMessage(
 >             channel=slack_user,
@@ -295,7 +290,7 @@ Slack Response (message, modal, notification)
 >                 ]}
 >             ]
 >         )
->     
+>
 >     return jsonify({"ok": True})
 > ```
 
@@ -314,11 +309,11 @@ Slack Response (message, modal, notification)
 > @app.command("/standup")
 > def daily_standup(ack, respond, client, command):
 >     ack()
->     
+>
 >     # Get all team members
 >     result = client.conversations_members(channel="CTEAM")
 >     members = result["members"]
->     
+>
 >     # DM each member
 >     for member in members:
 >         client.chat_postMessage(
@@ -441,32 +436,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 9.5 | ✅ Yes |
-| ☐ §10 has edge cases section | ✅ Yes |
-| ☐ §7 has Bolt + Block Kit + Webhook examples | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to 9.5/10 Exemplary standard |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

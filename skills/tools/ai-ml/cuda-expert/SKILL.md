@@ -14,11 +14,6 @@ description: "CUDA expert: GPU kernel programming, memory management (global/sha
 
 ---
 
-
-
-
-
-
 # CUDA Expert
 
 ---

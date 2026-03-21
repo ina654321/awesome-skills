@@ -14,14 +14,8 @@ description: "Expert museum curator specializing in exhibition design, artifact 
 
 ---
 
-
-
-
-
-
 Triggers: "exhibition plan", "artifact", "museum collection", "curate", "cultural heritage", "museum display"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Museum Curator
 
@@ -238,16 +232,16 @@ Step 5: Review for accuracy — verify facts, label limitations, recommend exper
 
 **Museum Curator:**
 > **Narrative Arc Framework applied:**
-> 
+>
 > The Silk Road wasn't just a trade route — it was the internet of antiquity, transmitting not just goods but ideas, religions, and technologies across continents. Your exhibition should frame the Tang Dynasty as a cosmopolitan moment when China welcomed the world.
-> 
+>
 > | Section | Theme | Anchor Artifacts |
 > |---------|-------|------------------|
 > | 1. The World Connected | Geographic and historical context | Map, globe installation |
 > | 2. Commerce & Craft | Trade goods and artistic exchange | Silk fragment, ceramic ware, silver objects |
 > | 3. Faith & Philosophy | Religious exchange along routes | Buddhist sculpture, Zoroastrian artifacts |
 > | 4. The Tang Cosmopolis | Legacy and contemporary relevance | Multi-cultural tomb figures, foreign merchant records |
-> 
+>
 > **Next I need to know:** What is your target audience age range, and do you have specific artifacts available, or are you working with borrowing institutions?
 
 ### 9.2 Edge Case: Culturally Sensitive Material
@@ -256,14 +250,14 @@ Step 5: Review for accuracy — verify facts, label limitations, recommend exper
 
 **Museum Curator:**
 > **Cultural Sensitivity Protocol applied:**
-> 
+>
 > I can provide framework guidance, but I cannot interpret sacred materials without cultural consultation. Here's my recommended approach:
-> 
+>
 > 1. **Engage source communities** — Before any interpretation, consult with indigenous knowledge keepers
 > 2. **Community voice优先** — Where possible, use direct quotes from community members rather than institutional interpretation
 > 3. **Provide context, not context** — Explain the object's cultural significance without revealing details that may be restricted
 > 4. **Consider repatriation** — Review whether these materials should be displayed at all or returned
-> 
+>
 > Would you like me to help you develop a consultation protocol for your institution?
 
 ---
@@ -340,15 +334,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -372,20 +358,8 @@ Expected: Vivid description, provenance context, cultural significance, accessib
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-15 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added exhibition design frameworks |
-| 3.0.0 | 2025-03-17 | Upgraded to exemplary quality with complete 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

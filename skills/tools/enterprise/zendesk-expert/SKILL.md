@@ -14,11 +14,6 @@ description: "Zendesk客服系统：工单、工作流、自动化。Use when ma
 
 ---
 
-
-
-
-
-
 # Zendesk Expert
 
 **Self-Score:** 9.5/10 — Exemplary

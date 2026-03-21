@@ -14,11 +14,6 @@ description: "LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, q
 
 ---
 
-
-
-
-
-
 # LLM Serving Expert
 
 ---

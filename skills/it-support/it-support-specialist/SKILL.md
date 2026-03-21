@@ -14,17 +14,7 @@ description: "A senior IT support specialist with expertise in help desk operati
 
 ---
 
-
-
-
-
-
 escalation workflows. Works with: Claude Code, Cursor, Cline for scripting automation.
-
-
-
-
-
 
 # IT Support Specialist
 
@@ -616,97 +606,4 @@ Constraints: [Any GPO, security policy, or audit requirements to respect]
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Issue category identified (hardware / software / network / identity
-- [ ] Priority P1–P4 assigned with correct impact assessment
-- [ ] Data backup verified before any destructive action (reimage, disk replacement)
-- [ ] Identity verified before any account action (password reset, admin grant)
-- [ ] Every step taken documented in the ticket in real time with exact commands
-- [ ] User explicitly confirmed resolution before ticket closure
-- [ ] Root cause identified (or Problem record opened if not yet determined)
-- [ ] KB article referenced or drafted for future recurrence
-- [ ] Escalation (if needed) includes: issue summary, steps taken, exact output, user impact, urgency
-- [ ] SLA status monitored and communicated proactively if at risk of breach
-
-### Test Case 1: Simple Account Lockout
-
-**Input:** "I can't log into my computer. It says my account is locked."
-
-**Expected output:**
-- Identity verification before any action
-- Check AD for lockout: `Search-ADAccount -LockedOut | Where {$_.SamAccountName -eq 'jsmith'}`
-- Check lockout source (bad password attempts from which workstation) via event logs
-- Unlock account: `Unlock-ADAccount -Identity jsmith`
-- Advise user: confirm password is correct; check if Outlook or phone cached an old password
-- Confirm user can log in before closing
-- Document: cause (cached credentials on mobile device), fix, user confirmed
-
-**Pass criteria:** Resolution in < 10 minutes; identity verified; root cause (stale cached credentials) identified and communicated; KB-0019 referenced.
-
----
-
-### Test Case 2: VPN Cannot Connect — Intermittent
-
-**Input:** "My VPN connects sometimes but drops every 20–30 minutes. Working from home."
-
-**Expected output:**
-- Collect: VPN client version, OS, ISP type (cable/fiber/satellite — satellite → likely MTU issue), error message on disconnect
-- Check VPN client logs for disconnect reason
-- Test: ping VPN gateway during connected state; capture with Wireshark if available
-- Common cause check: MTU mismatch on home router (fix: set MTU to 1350 on VPN client or router)
-- Alternate diagnosis: Wi-Fi power management dropping adapter (fix: disable power management on NIC via Device Manager)
-- If unresolved: escalate to Tier 2 with logs, client version, home ISP type, MTU results
-
-**Pass criteria:** At least two specific diagnostic hypotheses with concrete test steps; MTU and power management anti-patterns both considered; escalation criteria clearly defined.
-
----
-
-### Test Case 3: New Employee Onboarding Checklist
-
-**Input:** "We have a new hire starting Monday. Name: Alex Chen, Department: Engineering, Manager: David Park."
-
-**Expected output structured checklist:**
-```
-Pre-arrival (by Thursday):
-  [ ] Create AD account: achen@company.com — per naming convention
-  [ ] Add to groups: Engineering-All, VPN-Users, Office365-E3, GitHub-Engineering
-  [ ] Provision O365 license; configure mailbox; set manager attribute
-  [ ] Configure MDM enrollment in Intune — assign Engineering device profile
-  [ ] Prepare laptop: Autopilot enrollment OR manual image — assign to achen in CMDB
-
-Day of start:
-  [ ] Email welcome message with: username, temp password, MFA setup link, IT help desk contact
-  [ ] Ensure laptop is at desk or ready for pickup; verify Wi-Fi and VPN access
-  [ ] Walk through: password change, MFA setup, VPN connection, Outlook, Teams
-
-Post-start (Day 3 follow-up):
-  [ ] Check in with Alex: any access issues?
-  [ ] Confirm all required application access (check with manager)
-  [ ] Close onboarding ticket only after Day 3 confirmation
-```
-
-**Pass criteria:** All JML steps covered; no action taken without HR-confirmed start date; ticket linked to RITM and HR case; CMDB updated with new asset assignment.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-02 | Full 16-section expert rewrite: Decision Framework (5 gates), Thinking Patterns (5 rows), complete ITIL 4 service desk model, SLA matrix, KPI targets, AD/PowerShell command reference, 3 full conversation scenarios (VPN+MFA, hardware failure, mass phishing reset), 6 anti-patterns with BAD/GOOD examples, 5-skill integration matrix, 3 test cases, professional toolkit (12 tools) |
-| 2.0.0 | 2024-09-15 | Added ITSM workflow section, escalation guidance, network diagnostic commands, basic scenario examples |
-| 1.0.0 | 2024-03-01 | Initial release — basic stub with role definition and generic troubleshooting guidance |
-
----
-
-## § 16 · License and Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use with attribution
-**Contributions:** Submit pull requests to the awesome-skills repository
-**Quality Tier:** Exemplary ⭐⭐ (peer-reviewed, production-validated — 9.5/10)
-**Repository:** https://github.com/theneoai/awesome-skills
-
----
-
-*IT Support Specialist v3.0.0 — neo.ai awesome-skills*
+→ See references/standards.md §7.10 for full checklist

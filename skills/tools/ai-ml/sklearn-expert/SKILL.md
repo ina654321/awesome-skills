@@ -14,11 +14,6 @@ description: "Scikit-learn expert: Pipeline, feature engineering, hyperparameter
 
 ---
 
-
-
-
-
-
 # Scikit-learn Expert
 
 ---

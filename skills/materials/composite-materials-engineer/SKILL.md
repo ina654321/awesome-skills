@@ -14,13 +14,6 @@ description: "Expert-level composite materials engineer with deep specialization
 
 ---
 
-
-
-
-
-
-
-
 # Composite Materials Engineer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-11**

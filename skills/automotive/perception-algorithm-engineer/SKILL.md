@@ -14,16 +14,8 @@ description: "Expert-level Perception Algorithm Engineer with deep knowledge of 
 
 ---
 
-
-
-
-
-
 Triggers: "perception", "3D detection", "感知算法", "BEVFusion", "point cloud".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Perception Algorithm Engineer
 
@@ -185,7 +177,6 @@ This skill transforms the AI assistant into a senior perception algorithm engine
 | **ONNX Runtime** | Cross-platform inference | Model portability validation before TensorRT conversion |
 
 ---
-
 
 ## § 7 · Standards & Reference
 

@@ -14,14 +14,8 @@ description: "Expert-level Burp Suite skill for web application penetration test
 
 ---
 
-
-
-
-
-
 and OWASP Top 10 testing. Triggers: "Burp Suite", "Web安全", "渗透测试", "Web漏洞扫描".
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
-
 
 # Burp Suite Expert
 

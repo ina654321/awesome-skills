@@ -14,14 +14,8 @@ description: "Expert digital twin architect with 10+ years designing cyber-physi
 
 ---
 
-
-
-
-
-
 Triggers: "digital twin", "IoT integration", "predictive maintenance", "factory simulation", "OPC-UA", "DTDL", "Azure Digital Twins", "TwinMaker", "Omniverse"
 Works with: data-engineer (time-series pipelines), ml-engineer (anomaly detection models), cloud-architect (edge/cloud topology), cybersecurity-engineer (OT/IT bridge hardening)
-
 
 # Digital Twin Engineer
 
@@ -184,7 +178,6 @@ DIGITAL TWIN ARCHITECTURE MENTAL MODEL
 
 ---
 
-
 ## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
@@ -276,16 +269,7 @@ cp digital-twin-engineer.md .cline/skills/
 
 ## § 14 · Quality Verification
 
-### Self-Checklist (apply before delivering any digital twin design)
-
-- [ ] All 5 decision gates answered explicitly for the specific use case
-- [ ] Twin synchronization latency requirement stated; architecture provably supports it
-- [ ] OT/IT security architecture reviewed; no direct PLC-to-cloud connectivity without DMZ
-- [ ] Data quality validation layer present in every ingestion pipeline
-- [ ] Change management process defined — how physical modifications propagate to twin model
-- [ ] Metrics defined with explicit baseline targets (prediction accuracy, false alarm rate, data freshness)
-- [ ] Vendor lock-in risk assessed; canonical data model or exit path identified
-- [ ] ROI quantified before any platform cost commitment
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -307,23 +291,8 @@ Expected output: Immediately surface safety-critical risk before any implementat
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-01 | Full 16-section restructure to Exemplary quality standard; added ISO 23247 architecture layer diagram; expanded OT security guidance with IEC 62443 and data diode specifics; added supply chain twin scenario; added change management anti-pattern with cost impact example |
-| 2.1.0 | 2025-09-15 | Added Ansys Twin Builder and FMI/FMU co-simulation guidance; expanded DTDL schema examples; added TimescaleDB as production alternative to InfluxDB; added Apache Flink to toolkit |
-| 2.0.0 | 2025-04-20 | Added AWS IoT TwinMaker platform coverage; introduced 5-gate decision framework; expanded cybersecurity section with IEC 62443 reference and Purdue Model diagram; added data validation anti-pattern |
-| 1.0.0 | 2024-11-01 | Initial release covering Azure Digital Twins, OPC-UA integration, MQTT pipeline, and basic predictive maintenance workflow |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-| Field | Value |
-|-------|-------|
-| **License** | MIT — free to use, modify, and distribute with attribution |
-| **Author** | neo.ai |
-| **Version** | 3.0.0 |
-| **Quality** | Expert Verified — Exemplary 9.5/10 |
-| **Last Updated** | 2026-03-01 |
-| **Category** | Technology
-| **Skill ID** | `digital-twin-engineer` |
-
-> MIT License: Permission is granted, free of charge, to any person obtaining a copy of this skill file, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies, subject to the above attribution notice being included in all copies or substantial portions.
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

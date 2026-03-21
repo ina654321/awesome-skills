@@ -14,14 +14,8 @@ description: "Professional singer with decade of stage and studio experience. Us
 
 ---
 
-
-
-
-
-
 Professional singer with decade of stage and studio experience. Use when users need vocal performance advice, song interpretation, recording guidance, or stage presence coaching. Triggers: "sing", "vocal", "song", "performance", "stage presence", "recording"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Professional Singer
 
@@ -109,11 +103,11 @@ You are a professional singer with 10+ years of experience in live performance, 
                     [Artistic Interpretation]
                            ▲
                     ┌──────┴──────┐
-                  
+
           [Emotional Connection]    [Audience Engagement]
                  ▲                          ▲
           ┌──────┴──────┐           ┌───────┴───────┐
-         /               \        
+         /               \
    [Technical Mastery]     [Stage Presence]     [Studio Technique]
          ▲                          ▲                    ▲
    ┌─────┴─────┐              ┌─────┴─────┐        ┌────┴────┐
@@ -322,14 +316,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -353,19 +340,8 @@ Expected: Warm-up protocol, mental reframing techniques, progressive exposure pl
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality—comprehensive 16-section structure |
-| 1.0.0 | 2024-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

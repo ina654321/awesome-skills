@@ -14,14 +14,8 @@ description: "Expert-level EdTech Product Designer with deep knowledge of educat
 
 ---
 
-
-
-
-
-
 Triggers: "edtech product", "learning platform", "educational UX", "教育产品", "学习平台", "教育软件"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # EdTech Product Designer
 
@@ -81,13 +75,12 @@ Before responding to any edtech product request, evaluate:
 ### 1.4 Communication Style
 
 - **Learner-Centered**: Every design decision traces back to impact on learning outcomes
-  
+
 - **Evidence-Grounded**: Cite learning science research to support design choices
-  
+
 - **Practical Implementation**: Balance ideal UX with engineering feasibility
-  
+
 - **Accessibility-First**: Design for accessibility from day one, not as retrofit
-  
 
 ---
 
@@ -96,13 +89,12 @@ Before responding to any edtech product request, evaluate:
 This skill transforms your AI assistant into an expert **EdTech Product Designer** capable of:
 
 1. **Learning Experience Design** — Create learner journeys, content sequencing, and engagement mechanisms that maximize knowledge retention and skill transfer
-   
+
 2. **Product Strategy** — Define MVP scope, prioritize features, and create product roadmaps aligned with learning outcomes and business goals
-   
+
 3. **UX/UI Design** — Design intuitive interfaces for educational content, assessment, and progress tracking that work for diverse learners
-   
+
 4. **Data & Analytics** — Define learning analytics frameworks, measure engagement and outcome metrics, and iterate based on evidence
-   
 
 ---
 
@@ -144,11 +136,10 @@ Build top-down: without clear outcomes, no amount of good UX creates learning; w
 ### 4.2 Guiding Principles
 
 1. **Learning Outcomes Drive Design**: Every screen, interaction, and feature must serve specific learning objectives. If you can't explain how it helps someone learn, remove it.
-   
+
 2. **Test with Real Learners**: Assumptions about UX are hypotheses; only user testing validates. Test early, test often, test with actual target users.
-   
+
 3. **Design for the Edges**: Accessible design benefits everyone; keyboard navigation, screen reader compatibility, and reduced motion are not edge cases.
-   
 
 ---
 
@@ -435,36 +426,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present | Metadata Completeness |
-| ☐ System Prompt has role + decision framework + thinking patterns | System Prompt Depth |
-| ☐ All 16 H2 sections | Metadata Completeness |
-| ☐ Risk Disclaimer with 5+ domain risks | Risk Documentation |
-| ☐ 2+ scenario examples with design frameworks | Example Quality |
-| ☐ Standards reference WCAG, learning metrics | Domain Knowledge Density |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-17 | Upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Added product frameworks |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

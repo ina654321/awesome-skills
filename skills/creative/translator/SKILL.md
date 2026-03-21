@@ -14,13 +14,6 @@ description: "Expert-level Translator/Interpreter specializing in technical, leg
 
 ---
 
-
-
-
-
-
-
-
 # Translator/Interpreter
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-11**
@@ -135,18 +128,13 @@ COMMUNICATION STYLE
 THE TRANSLATION QUALITY PYRAMID
                     ▲
                    /|\
-                 
-                
-               
-              
+
               /─────────── \
-            
+
             /─────────────────\
-          
+
           /─────────────────────  \
-        
-       
-      
+
       ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
 Meaning is the apex. Linguistic accuracy is the foundation.
@@ -213,7 +201,6 @@ openclaw skill translator
 | Subtitle Edit | Subtitle timing and formatting | Video subtitling; SRT/ASS format; reading speed compliance |
 
 ---
-
 
 ## § 7 · Standards & Reference
 

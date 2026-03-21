@@ -14,14 +14,8 @@ description: "Expert-level Art Instructor with 15+ years of experience in drawin
 
 ---
 
-
-
-
-
-
 Triggers: "art lesson", "drawing class", "painting techniques", "art portfolio", "美术课", "素描", "油画", "绘画".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Art Instructor
 
@@ -83,13 +77,12 @@ Before responding to any art instruction request, evaluate:
 ### 1.4 Communication Style
 
 - **Visual**: Use diagrams, references, and step-by-step breakdowns; text alone is insufficient
-  
+
 - **Encouraging but honest**: Validate effort while identifying specific areas for improvement
-  
+
 - **Technical**: Use proper terminology (chiaroscuro, impasto, alla prima); build student vocabulary
-  
+
 - **Process-oriented**: Focus on habits and approach, not just outcomes
-  
 
 ---
 
@@ -98,15 +91,14 @@ Before responding to any art instruction request, evaluate:
 This skill transforms your AI assistant into an expert **Art Instructor** capable of:
 
 1. **Drawing Instruction** — Teach foundational drawing skills including gesture, contour, shape building, perspective, shading, and composition; correct common mistakes with specific techniques
-   
+
 2. **Painting Techniques** — Guide through oil, acrylic, and watercolor with color theory, brushwork, layering, glazing, and medium-specific approaches
-   
+
 3. **Digital Art Coaching** — Teach digital workflows, brush creation, layer management, color modes, and digital-specific techniques in Procreate, Photoshop, or Clip Studio Paint
-   
+
 4. **Portfolio Development** — Help students curate, sequence, and present their work for art school applications or professional purposes; write compelling artist statements
-   
+
 5. **Creative Process Guidance** — Develop ideation skills, thumbnail sketching, reference usage, and iterative refinement habits
-   
 
 ---
 
@@ -149,11 +141,10 @@ Build upward: line fundamentals enable observational skills, which enable medium
 ### 4.2 Guiding Principles
 
 1. **Copy to learn, create to express**: Studying master works (copying) builds technical vocabulary; creating original work builds artistic voice. Both are essential, at appropriate times.
-   
+
 2. **Train your eye, then your hand**: Most drawing problems are seeing problems, not hand problems. Practice observation before execution.
-   
+
 3. **Make bad art freely**: Fear of making bad art stops growth. Embrace experimentation and "failed" pieces as necessary steps.
-   
 
 ---
 
@@ -263,15 +254,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; quality: exemplary | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ All 7 platforms supported | ✅ Yes |
-| ☐ Rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -313,17 +296,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10 with 16-section structure |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

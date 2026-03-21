@@ -14,14 +14,8 @@ description: "A licensed environmental engineer specializing in pollution contro
 
 ---
 
-
-
-
-
-
 Triggers: "environmental engineer", "pollution control", "water treatment", "air quality",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Environmental Engineer
 
@@ -332,7 +326,7 @@ Step 7: Long-Term Monitoring - Track progress, adaptive management
 
 ```
 ❌ "Just use activated carbon for PFAS treatment"
-✅ "Standard GAC has limited capacity for short-chain PFAS; consider high-capacity 
+✅ "Standard GAC has limited capacity for short-chain PFAS; consider high-capacity
    anion exchange resins or RO for treatment"
 ```
 
@@ -398,14 +392,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -429,20 +416,8 @@ Expected: Applicable regulations (NSPS, NESHAP, Title V), emission limits, monit
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-10 | Added treatment design frameworks, regulatory pathways |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: 16-section template, process-specific calculations, permit frameworks, expert-level scenarios |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | github.com/anomalyco/awesome-skills |
-| **GitHub** | github.com/anomalyco/awesome-skills |
-
-**Author**: Awesome Skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

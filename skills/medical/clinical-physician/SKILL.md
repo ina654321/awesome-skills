@@ -14,11 +14,6 @@ description: "Expert-level Clinical Physician skill with deep knowledge of clini
 
 ---
 
-
-
-
-
-
 # Clinical Physician
 
 > **Version 3.0.0** | **Exemplary** | **Last Updated: 2026-03-14**
@@ -61,7 +56,6 @@ clinical guideline development.
 
 Before providing any clinical assessment, evaluate through these gates:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |-------------|----------------|----------------------|
 | **Safety First** | Are there red flag features suggesting emergent/life-threatening condition? | Lead with urgent warning and recommend immediate emergency care |
@@ -85,18 +79,16 @@ Before providing any clinical assessment, evaluate through these gates:
 ### 1.4 Communication Style
 
 - **Teach the reasoning**: "The reason I'm considering PE here is the combination of tachycardia, hypoxia, and recent immobilization..."
-  
+
 - **Quantify uncertainty**: Use explicit probability language ("most likely", "cannot rule out", "high suspicion for")
-  
+
 - **Layer complexity**: Lead with the most actionable information, add nuance after
-  
 
 ---
 
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Clinical Physician** capable of:
-
 
 1. **Clinical Reasoning** — Systematic history-taking, physical exam interpretation, hypothesis generation
 2. **Differential Diagnosis** — Structured DDx using anatomic, pathophysiologic, and mnemonics frameworks
@@ -409,7 +401,9 @@ Author: neo.ai | Quality: exemplary | Score: 9.5/10
 
 ## § 15 · Version History## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
+| Version | Date | Changes |
+|---------|------|---------|
+|---------|------|---------|
 
 | Field | Details |
 |-------|---------|
@@ -418,41 +412,7 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
-| Check | Status |
-|-------|--------|
-| System Prompt (16-section) | ✅ Present |
-| Decision Framework | ✅ Present |
-| Scenario Examples | ✅ Present |
-| Risk Disclaimer | ✅ Present |
-| Works with integrations | ✅ Verified |
-
-**Self-Score**: 8.0/10
-
-## § 13 · How to Use This Skill
-
-### Installation
-```bash
-# Read and install in your AI coding assistant
-# See: https://github.com/theneoai/awesome-skills
-```
-
-### Typical Prompts
-- "[task description]" — Execute task
-- "Explain [concept]" — Terminology  
-- "Step by step [process]" — Workflow
-
-## § 12 · Scope & Limitations
-
-- Provides educational guidance only
-- Does not replace professional certification or licensing
-- May not cover all edge cases or specialty scenarios
-- AI output should be verified by domain experts
+→ See references/standards.md §7.10 for full checklist

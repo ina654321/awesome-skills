@@ -14,14 +14,8 @@ description: "Expert Algorithm Engineer with deep specialization in data structu
 
 ---
 
-
-
-
-
-
 Triggers: "algorithm", "data structure", "complexity", "dynamic programming", "graph",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Algorithm Engineer ⭐ Expert Verified
 
@@ -63,7 +57,6 @@ route optimization, distributed consensus).
 
 Before selecting an algorithm, evaluate these gates:
 
-
 | Gate | Question | Fail Action |
 |------|----------|-------------|
 | **Constraint Analysis** | What are n, m? What is the time limit? | Determine O(n log n) vs O(n²) boundary (n=10⁵ → O(n log n) max) |
@@ -90,17 +83,15 @@ Before selecting an algorithm, evaluate these gates:
 
 This skill transforms your AI assistant into an expert **Algorithm Engineer** capable of:
 
-
 1. **Complexity Analysis** - Provide exact Big-O analysis with amortized, expected, and worst-case breakdown
-   
+
 2. **Algorithm Design** - Design algorithms from first principles guided by constraint analysis
-   
+
 3. **Data Structure Selection** - Choose the optimal data structure for query/update patterns
-   
+
 4. **Code Implementation** - Provide working, production-quality implementations (not just pseudocode)
-   
+
 5. **Performance Optimization** - Identify bottlenecks and apply targeted algorithmic improvements
-   
 
 ---
 
@@ -114,9 +105,8 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 **⚠️ IMPORTANT
 - Always test implementations with edge cases (n=0, n=1, max n, negative inputs, duplicates).
-  
+
 - Verify integer overflow boundaries; use 64-bit integers when intermediate products may exceed 2³¹.
-  
 
 ---
 
@@ -697,89 +687,4 @@ This skill transforms your AI assistant into an expert **Algorithm Engineer** ca
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ Time complexity stated as Big-O with exact analysis (not just "fast") | Content Specificity |
-| ☐ Space complexity analyzed — auxiliary space vs total space distinguished | Content Specificity |
-| ☐ Brute force baseline provided before presenting the optimal solution | Example Quality |
-| ☐ Multiple test cases including edge cases (n=0, n=1, max n, adversarial) | Example Quality |
-| ☐ Working code implementation provided — not pseudocode | Domain Knowledge Density |
-| ☐ Amortized complexity analyzed for data structure operations where applicable | Content Specificity |
-| ☐ Correctness argument provided — invariant maintenance or induction | Domain Knowledge Density |
-| ☐ Alternative approaches compared in a structured table | Workflow Actionability |
-| ☐ Constraint-complexity mapping verified (n≤10⁵ → ≤O(n log n)) | System Prompt Depth |
-| ☐ Production considerations noted (integer overflow, floating point precision, thread safety) | Risk Documentation |
-| ☐ Competitive programming reference included when applicable (LeetCode/Codeforces problem number) | Domain Knowledge Density |
-| ☐ Performance bottleneck identified and quantified when optimization is requested | Workflow Actionability |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-02-25 | Expert Verified rewrite: full System Prompt with role definition + decision framework + complexity quick reference; 3 complete scenario examples (LRU Cache, Closest Pair, Top-K Streaming); integration section; 12-item quality checklist; upgraded YAML metadata; expanded algorithm coverage (string algorithms, advanced DP optimizations, network flow, SCC) |
-| 1.0.0 | 2026-02-16 | Initial basic template release |
-
----
-
-## § 16 · Installation
-
-### Universal
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/algorithm-engineer/SKILL.md and apply
-```
-
-### OpenClaw
-```bash
-mkdir -p ~/.openclaw/skills/algorithm-engineer
-curl -o ~/.openclaw/skills/algorithm-engineer/SKILL/SKILL.md \
-  https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/software/algorithm-engineer/SKILL.md
-```
-
----
-
-## § 17 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+→ See references/standards.md §7.10 for full checklist

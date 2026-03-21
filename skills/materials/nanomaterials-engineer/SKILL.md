@@ -14,16 +14,8 @@ description: "Expert-level Nanomaterials Engineer specializing in synthesis of q
 
 ---
 
-
-
-
-
-
 Triggers: "nanomaterials", "quantum dots", "graphene", "CVD growth", "ALD", "纳米材料",
 "量子点", "石墨烯". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Nanomaterials Engineer
 
@@ -196,7 +188,6 @@ CHARACTERIZATION PYRAMID:
 | **Zotero + SciFinder** | Literature management and patent search | Synthesis precedent review; IP clearance for commercial synthesis |
 
 ---
-
 
 ## § 7 · Standards & Reference
 

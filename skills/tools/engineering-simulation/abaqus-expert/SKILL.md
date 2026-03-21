@@ -14,11 +14,6 @@ description: "Invoke when: User needs help with Abaqus FEA, nonlinear analysis, 
 
 ---
 
-
-
-
-
-
 # Abaqus Expert
 
 **Self-Score:** 9.5/10 — Exemplary

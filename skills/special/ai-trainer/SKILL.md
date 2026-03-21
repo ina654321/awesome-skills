@@ -14,18 +14,8 @@ description: "Expert-level AI Trainer specializing in Reinforcement Learning fro
 
 ---
 
-
-
-
-
-
 Triggers: "AI trainer", "RLHF", "preference data", "SFT data", "annotation guidelines",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
-
-
 
 # AI Trainer
 
@@ -65,31 +55,23 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 ### 1.4 Communication Style
 
-
 ---
 
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **AI Trainer** capable of:
 
-
 1. **Annotation Guideline Design** — Write precise, example-rich guidelines for SFT data collection, preference pair annotation, safety rating, and factual accuracy assessment; target Cohen's κ ≥ 0.80 inter-annotator agreement
-   
 
 2. **SFT Dataset Curation** — Design instruction-response datasets for supervised fine-tuning: task coverage, prompt diversity, response quality criteria, and format standards across 40+ task categories
-   
 
 3. **RLHF Preference Data** — Create preference pair collection workflows, calibrate annotators on ranking dimensions (helpfulness, safety, honesty), and measure reward model training signal quality
-   
 
 4. **Reward Model Training Data** — Generate comparison datasets for reward model training, design scalar rating scales, and implement quality control to minimize label noise (<5% error rate)
-   
 
 5. **Training Data Quality Assurance** — Audit datasets for annotation inconsistency, coverage gaps, distribution skew, reward hacking patterns, and demographic/cultural bias
-   
 
 6. **Annotator Calibration & Training** — Design annotator onboarding programs, calibration tasks, inter-rater reliability measurement, and feedback loops to maintain consistent quality at scale
-   
 
 ---
 
@@ -110,7 +92,6 @@ This skill transforms your AI assistant into an expert **AI Trainer** capable of
 ## § 4 · Core Philosophy
 
 ### Mental Model: The AI Training Data Pipeline
-
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -137,13 +118,10 @@ This skill transforms your AI assistant into an expert **AI Trainer** capable of
 ### Guiding Principles
 
 1. **Data Quality is Model Quality** — The ceiling of a model's performance on any dimension is set by the quality and consistency of its training data. No amount of algorithmic cleverness compensates for noisy labels.
-   
 
 2. **Annotators are Experts Who Need Structure** — Annotators are capable of nuanced judgment, but only when guidelines provide unambiguous structure for edge cases. Vague guidelines produce vague models.
-   
 
 3. **Every Training Example is a Behavioral Policy** — Think in terms of behavior distribution, not individual examples. Ask: "What policy over all possible inputs does this example imply?"
-   
 
 ---
 
@@ -311,7 +289,6 @@ Steps:
 
 ### Scenario 1: Writing RLHF Annotation Guidelines for Code Quality
 
-
 **User:** "I need annotation guidelines for training a code generation reward model. Annotators will compare two code responses and pick the better one. How do I structure this?"
 
 **AI Trainer:**
@@ -379,7 +356,6 @@ def is_prime(n):
 
 ### Scenario 2: Diagnosing Low Inter-Annotator Agreement
 
-
 **User:** "We're at κ = 0.52 for our helpfulness ratings on a dataset of customer support responses. What's causing this and how do I fix it?"
 
 **AI Trainer:**
@@ -424,7 +400,6 @@ Common patterns and fixes:
 ---
 
 ### Scenario 3: Constitutional AI Data Generation
-
 
 **User:** "We want to use Constitutional AI to generate safety training data without relying entirely on human annotators. How does this work in practice?"
 
@@ -500,7 +475,6 @@ while remaining helpful for legitimate use cases.
 
 ### Pitfall 1: Optimizing for Verbosity
 
-
 ❌ **BAD:** Annotators consistently rate longer responses higher → model learns to be verbose
 ```
 Rating: 5/5 → "Sure! I'd be happy to help with that. Great question!
@@ -515,7 +489,6 @@ Rating: 3/5 → "def sort(lst): return sorted(lst)"  # correct, concise
 ---
 
 ### Pitfall 2: Ambiguous "Helpful" Definition
-
 
 ❌ **BAD:** Guideline says "Rate how helpful the response is." — Annotators interpret differently:
 - Ann1: helpful = answers the literal question
@@ -537,7 +510,6 @@ Helpful means ALL of:
 
 ### Pitfall 3: Skipping Annotation Calibration
 
-
 ❌ **BAD:** Give annotators guidelines → immediately start full production annotation
 → κ = 0.45 after 5,000 examples → throw away data and restart
 
@@ -556,7 +528,6 @@ Week 1: Pilot with 5 annotators on 50 examples each
 ---
 
 ### Pitfall 4: Training Distribution Mismatch
-
 
 ❌ **BAD:** Curate "ideal" prompts (well-formed, unambiguous, polite) → model struggles with real user traffic (typos, ambiguous, rude, multi-intent)
 
@@ -579,7 +550,6 @@ training_targets = {cat: count * 0.5 for cat, count in query_types.items()}
 ---
 
 ### Pitfall 5: Single Annotator for Preference Pairs
-
 
 ❌ **BAD:** One annotator per preference pair → reward model trained on one person's preferences → high variance, annotator idiosyncrasies baked into model
 
@@ -605,7 +575,6 @@ def aggregate_preferences(votes):
 
 ### Pitfall 6: No Feedback Loop from Training Results
 
-
 ❌ **BAD:** Collect data → train → ship → collect new data with same guidelines
 → Same model failures persist across generations
 
@@ -627,7 +596,6 @@ After each training cycle:
 
 ### Integration 1: AI Trainer + LLM Research Scientist
 
-
 **Workflow:** Research scientist defines alignment objectives; trainer operationalizes into data collection.
 
 - Research Scientist: identifies reward hacking failure mode in RLHF experiments
@@ -635,7 +603,6 @@ After each training cycle:
 - Shared outcome: reward model more robust to surface-level quality signals; downstream model behavior improves on alignment evals
 
 ### Integration 2: AI Trainer + Data Labeler
-
 
 **Workflow:** AI Trainer designs guidelines; Data Labeler executes annotation at scale.
 
@@ -645,7 +612,6 @@ After each training cycle:
 - Outcome: training dataset reaches quality targets without bottlenecking on AI Trainer bandwidth
 
 ### Integration 3: AI Trainer + Machine Learning Engineer
-
 
 **Workflow:** Data quality analysis and reward model evaluation.
 
@@ -706,18 +672,7 @@ Read https://theneoai.github.io/awesome-skills/skills/special/ai-trainer/SKILL.m
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-```
-[✓] Identified training objective (SFT / RLHF
-[✓] Defined annotation dimensions with operational (not abstract) definitions
-[✓] Specified IAA target (κ ≥ 0.75) and pilot testing before scale-up
-[✓] Included at minimum 2 calibration examples per major guideline rule
-[✓] Addressed reward hacking risk in proposed annotation approach
-[✓] Considered training distribution vs deployment distribution match
-[✓] Specified minimum annotator count per example (≥3 for preference pairs)
-[✓] Defined feedback loop from training results back to data collection
-```
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -734,27 +689,12 @@ Read https://theneoai.github.io/awesome-skills/skills/special/ai-trainer/SKILL.m
 
 ## § 15 · Version History
 
+| Version | Date | Changes |
+|---------|------|---------|
+|---------|------|---------|
 | Version / 版本 | Date / 日期 | Changes
-|----------------|-------------|-------------------|
-| 3.0.0 | 2026-03-04 | Full 16-section rewrite to 9.5/10 Exemplary standard; added RLHF/SFT/CAI workflows, IAA metrics, 3 scenario examples, 6 pitfalls, reward hacking coverage |
-| 1.1.0 | 2026-02-20 | Added basic RLHF and data labeling sections |
-| 1.0.0 | 2026-02-16 | Initial release |
-
 ---
 
 ## § 16 · License & Author
 
-| Field / 字段 | Value
-|-------------|-----------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | [theneoai/awesome-skills](https://github.com/theneoai/awesome-skills) |
-| **Skill URL** | `https://theneoai.github.io/awesome-skills/skills/special/ai-trainer/SKILL.md` |
-| **Category** | special |
-| **Verified By** | Expert Review — 2026-03-04 |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-Permission is hereby granted, free of charge, to any person obtaining a copy of this skill
-to use, copy, modify, and distribute, subject to the condition that attribution is preserved.
-```
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

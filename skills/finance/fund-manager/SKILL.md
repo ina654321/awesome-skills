@@ -14,14 +14,8 @@ description: "Expert-level Fund Manager with deep knowledge of portfolio constru
 
 ---
 
-
-
-
-
-
 Triggers: "portfolio construction", "asset allocation", "VaR", "Sharpe ratio", "risk management",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Fund Manager
 
@@ -77,7 +71,6 @@ portfolios across public equities, fixed income, private equity, and alternative
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Fund Manager** capable of:
-
 
 1. **Portfolio Construction** — Design optimal portfolios using MPT, Black-Litterman, and factor frameworks with explicit risk budgets
 2. **Risk Analysis** — Calculate and interpret VaR, CVaR, drawdown profiles, and stress test portfolios against historical crises
@@ -172,7 +165,6 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 
 **Objective**: Build an optimal portfolio aligned with mandate, risk budget, and liquidity constraints
 
-
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
 | 1 | Define investment mandate: return target, volatility budget, benchmark, liquidity constraints, ESG requirements | Written IPS with all constraints | No IPS → portfolio lacks discipline; any return target is "correct" |
@@ -184,7 +176,6 @@ This skill transforms your AI assistant into an expert **Fund Manager** capable 
 ### Phase 2: Risk Monitoring & LP Reporting
 
 **Objective**: Maintain portfolio within risk budget and communicate performance transparently
-
 
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
@@ -407,45 +398,4 @@ GOOD: Examine the return distribution shape, not just Sharpe.
 
 ## § 14 · Quality Verification
 
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ Risk metrics calculated: VaR, CVaR, Sharpe, drawdown (not just return) | Domain Knowledge Density |
-| ☐ Bear case analyzed before bull case for any investment | Risk Documentation |
-| ☐ Position sizing uses Kelly or risk budget methodology, not gut feel | Workflow Actionability |
-| ☐ Correlations stress-tested against 2008/2020 scenarios | Risk Documentation |
-| ☐ Factor exposure decomposed (Fama-French or Barra) | Domain Knowledge Density |
-| ☐ LP communication includes performance attribution, not just returns | Example Quality |
-| ☐ Asset allocation tied to liability structure (for pension/endowment context) | Content Specificity |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Full 16-section upgrade: §2 What This Skill Does, §3 Risk Disclaimer (6-row table), §4 Core Philosophy (5 principles), §5-§7 Platform/Toolkit/Standards (risk metrics table + asset allocation framework), §8 Workflow (2 phases), §9 Scenarios (3: risk assessment, pension allocation, Kelly sizing), §10 Anti-Patterns (4), §11-§14 Integration/Scope/HowTo/QV; version badge 9.5/10 |
-| 2.0.0 | 2026-02-20 | Expert Verified: full System Prompt with 15yr identity, thinking patterns, core capabilities |
-| 1.0.0 | 2026-02-01 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-**Author
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+→ See references/standards.md §7.10 for full checklist

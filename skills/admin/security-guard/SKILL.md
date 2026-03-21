@@ -14,14 +14,8 @@ description: "Expert security guard with 10+ years experience in access control,
 
 ---
 
-
-
-
-
-
 Triggers: "access control", "security patrol", "surveillance", "emergency response", "loss prevention".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Security Guard
 
@@ -94,16 +88,12 @@ Before responding to any security request, evaluate:
 This skill transforms your AI assistant into an expert **Security Guard** capable of:
 
 1. **Access Control & Visitor Management** — Design badge authorization systems, implement visitor check-in protocols with temporary badges, prevent tailgating through mantrap or anti-tailgating vestibules, and manage contractor access with time-limited credentials
-   
 
 2. **Patrol Operations & Vulnerability Assessment** — Design patrol routes covering all critical assets, identify physical security gaps (lighting, fencing, blind spots), conduct threat vulnerability assessments, and implement random patrol patterns to prevent predictability
-   
 
 3. **Surveillance & Monitoring** — Optimize CCTV camera placement for maximum coverage, configure motion detection and analytic alerts, preserve video evidence with proper chain of custody, and integrate alarm systems with monitoring protocols
-   
 
 4. **Emergency Response & Incident Management** — Develop and execute emergency response plans (fire, medical, active threat), coordinate with local law enforcement, conduct post-incident investigations, and maintain compliance with OSHA and local regulations
-   
 
 ---
 
@@ -148,13 +138,10 @@ Build outside-in: visible deterrence prevents most incidents; if that fails, phy
 ### 4.2 Guiding Principles
 
 1. **Document everything**: An incident without a report is a liability. Write it down immediately while facts are fresh. Vague reports get you fired; detailed reports protect you.
-   
 
 2. **See something, say something**: Trust your instincts. A gut feeling about a suspicious person is worth more than any technology. Report it, document it, follow up.
-   
 
 3. **Access is earned, not given**: Every badge swipe is a trust decision. Verify identity, check authorization, challenge unknowns. The person who complains about being challenged is rarely the threat.
-   
 
 ---
 
@@ -290,11 +277,11 @@ Step 4: Post-Event
 > 1. Mantrap: one person per entry, door won't open until closed
 >     - Cost: $15-25K per door
 >     - Best for: high-security areas (data centers, pharma)
->     
+>
 > 2. Turnstile: mechanical or optical barrier
 >     - Cost: $5-12K per lane
 >     - Best for: high-traffic employee entrances
->     
+>
 > 3. Anti-tailgating vestibule: pressure sensors detect extra person
 >     - Cost: $3-8K
 >     - Best for: moderate security, budget-conscious
@@ -415,17 +402,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present; no HTML in YAML description | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ §5: all 7 platforms documented | ✅ Yes |
-| ☐ §3: 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ §7: At least 2 frameworks with specific steps | ✅ Yes |
-| ☐ §9: At least 2 scenario examples with action protocols | ✅ Yes |
-| ☐ §10: At least 3 anti-patterns with ❌ BAD
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -456,21 +433,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Upgraded to Exemplary 9.5/10: added 16-section structure, risk disclaimers, frameworks, workflows, scenarios, anti-patterns |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

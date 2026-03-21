@@ -14,11 +14,6 @@ description: "Apache Kafka expert: topic design, partitioning, consumer groups, 
 
 ---
 
-
-
-
-
-
 # Kafka Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -214,10 +209,10 @@ while True:
             continue
         else:
             raise KafkaException(msg.error())
-    
+
     # Process message
     process(msg.value())
-    
+
     # Commit offset after successful processing
     consumer.commit(msg)
 ```

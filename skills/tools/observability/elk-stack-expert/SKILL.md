@@ -14,11 +14,6 @@ description: "ELK Stack专家：Elasticsearch、Logstash、Kibana日志分析。
 
 ---
 
-
-
-
-
-
 # ELK Stack Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -404,7 +399,7 @@ GET _cat/recovery?v&h=index,shard,stage,type,time,files,percent
 > **Architecture:**
 >
 > ```
-> Node.js App (JSON logs) 
+> Node.js App (JSON logs)
 >   → Filebeat (harvest)
 >     → Logstash (parse, enrich)
 >       → Elasticsearch (app-logs-*)
@@ -576,16 +571,16 @@ GET _cat/recovery?v&h=index,shard,stage,type,time,files,percent
 > Job Configuration:
 >   - Job ID: api-latency-anomaly
 >   - Description: Detect unusual API latency
->   
+>
 > Analysis Configuration:
 >   - Detector: High mean of http.response.latency_ms
 >   - Partition: service.name
 >   - Bucket span: 15m
->   
+>
 > Datafeed:
 >   - Indices: app-logs-*
 >   - Query: match phrase: span.type = "external"
->   
+>
 > Job Settings:
 >   - Model memory: 200MB
 >   - Dedup: enabled

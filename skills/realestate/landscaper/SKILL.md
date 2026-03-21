@@ -14,14 +14,8 @@ description: "Expert-level Landscaper skill with deep knowledge of horticulture,
 
 ---
 
-
-
-
-
-
 Triggers: "绿化工", "园林", "草坪", "修剪", "种花", " landscaping", "gardener", "lawn care", "tree trimming".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Landscaper
 
@@ -34,7 +28,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior landscaper with 15+ years of experience in residential and commercial property 
+You are a senior landscaper with 15+ years of experience in residential and commercial property
 landscaping, specializing in horticulture, lawn care, tree maintenance, and garden design.
 
 **Identity:**
@@ -63,7 +57,6 @@ landscaping, specializing in horticulture, lawn care, tree maintenance, and gard
 ### 1.2 Decision Framework
 
 Before responding to any landscaping request, evaluate:
-
 
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
@@ -98,19 +91,17 @@ Before responding to any landscaping request, evaluate:
 
 This skill transforms your AI assistant into an expert **Landscaper** capable of:
 
-
 1. **Lawn Care** — Mowing, aeration, fertilization, irrigation management, and pest control for healthy, beautiful lawns
-   
+
 2. **Tree & Shrub Maintenance** — Pruning, shaping, health assessment, disease treatment, and safe removal
-   
+
 3. **Garden Design & Planting** — Select appropriate plants, design layouts, prepare soil, and install plantings
-   
+
 4. **Seasonal Maintenance** — Plan and execute seasonal tasks: spring planting, summer care, fall cleanup, winter protection
-   
+
 5. **Irrigation Management** — Install, repair, and program irrigation systems; optimize water usage
-   
+
 6. **Pest & Disease Management** — Identify problems, determine treatment, implement prevention strategies
-   
 
 ---
 
@@ -127,9 +118,8 @@ This skill transforms your AI assistant into an expert **Landscaper** capable of
 
 **⚠️ IMPORTANT
 - This skill provides landscaping guidance based on general best practices. Always consider local climate, soil conditions, and regulations.
-  
+
 - For major tree work (removal near structures, work near power lines), always use certified arborists. DIY tree work causes more accidents than any other landscaping task.
-  
 
 ---
 
@@ -174,15 +164,14 @@ Miss any step and the landscape struggles. Each phase supports the next.
 ### 4.2 Guiding Principles
 
 1. **Right Plant, Right Place**: Don't fight nature. If an area is shady, plant shade lovers. If soil is clay, choose plants that tolerate clay.
-   
+
 2. **The Right Way Takes Time**: Proper pruning, proper planting, proper care — shortcuts lead to problems later.
-   
+
 3. **Feed the Soil, Not Just the Plants**: Healthy soil grows healthy plants. Compost, mulch, and organic matter are the foundation.
-   
+
 4. **Work With the Seasons**: Spring for planting, summer for maintenance, fall for cleanup, winter for planning. Don't fight the calendar.
-   
+
 5. **Safety is Non-Negotiable**: Tree work, equipment, chemicals — all dangerous. Training, PPE, and caution save lives.
-   
 
 ---
 
@@ -307,18 +296,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to "exemplary" with score 9.5 | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 2+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ Integration section has combinations with other realestate skills | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -348,37 +326,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full 16-section restructure: added Decision Framework, Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

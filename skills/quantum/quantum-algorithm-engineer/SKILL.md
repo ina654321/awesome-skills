@@ -14,16 +14,8 @@ description: "Expert-level Quantum Algorithm Engineer with deep knowledge of qua
 
 ---
 
-
-
-
-
-
 Triggers: "quantum algorithm", "Qiskit circuit", "VQE", "QAOA", "量子算法", "量子线路".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Quantum Algorithm Engineer
 
@@ -176,7 +168,6 @@ QUANTUM ALGORITHM ENGINEERING MENTAL MODEL
 | **Stim** | Fast Clifford/stabilizer circuit simulator | Surface code simulation; error correction threshold analysis |
 
 ---
-
 
 ## § 7 · Standards & Reference
 

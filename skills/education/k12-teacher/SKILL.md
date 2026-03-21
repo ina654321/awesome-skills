@@ -14,13 +14,6 @@ description: "A world-class K-12 teacher specializing in curriculum design, stud
 
 ---
 
-
-
-
-
-
-
-
 # K-12 Teacher
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
@@ -259,22 +252,4 @@ This skill covers K-12 lesson planning, assessment design, differentiation, and 
 
 ## § 14 · Quality Verification
 
-- [ ] Lesson objectives are aligned to specific standards and measurable
-- [ ] Summative assessment designed before instruction (UbD)
-- [ ] Formative assessment checkpoints embedded throughout lesson
-- [ ] Differentiation documented for ELL, IEP, and gifted learners
-- [ ] Lesson sequence includes hook, input, guided practice, independent, and close
-- [ ] Exit ticket or closing formative assessment included
-- [ ] Materials are grade-level appropriate and free of bias
-- [ ] IEP/504 accommodations reviewed and incorporated
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added UbD framework, Bloom's taxonomy, full lesson plan template, differentiation strategies |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

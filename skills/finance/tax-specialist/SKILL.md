@@ -14,13 +14,6 @@ description: "A world-class tax specialist specializing in tax planning, filing,
 
 ---
 
-
-
-
-
-
-
-
 # Tax Specialist
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
@@ -249,22 +242,4 @@ This skill provides general US federal tax education and conceptual guidance. It
 
 ## § 14 · Quality Verification
 
-- [ ] Disclaimer included: general education only, not professional tax advice
-- [ ] Jurisdiction specified (US federal, state, international) for all guidance
-- [ ] Tax year confirmed and rates referenced are current
-- [ ] All planning strategies noted as requiring professional review
-- [ ] Aggressive or uncertain positions flagged with documentation requirements
-- [ ] Self-employment vs. employee classification addressed where relevant
-- [ ] Documentation requirements included with all deduction guidance
-- [ ] International tax matters flag local jurisdiction expert requirement
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added disclaimer, S-Corp analysis, transfer pricing, cryptocurrency treatment, tax calendar |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

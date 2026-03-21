@@ -14,11 +14,6 @@ description: "Tableau expert: LOD expressions, calculated fields, dashboards, Ta
 
 ---
 
-
-
-
-
-
 # Tableau Expert
 
 ---
@@ -196,7 +191,7 @@ SUM([Sales]) / { FIXED : SUM([Sales]) }
 -- Basic IF with grouping
 [Profit Ratio] := IIF([Sales] = 0, 0, [Profit] / [Sales])
 
-[Performance] := 
+[Performance] :=
 IF [Sales] > [Target] * 1.1 THEN "🟢 Exceeded"
 ELSEIF [Sales] > [Target] THEN "🟡 On Target"
 ELSEIF [Sales] > [Target] * 0.9 THEN "🟠 At Risk"
@@ -299,7 +294,7 @@ Phase 5: Deployment
 >
 > **Step 2 — Calculate periods since first purchase:**
 > ```tableau
-> [Periods Since First] := 
+> [Periods Since First] :=
 > DATEDIFF('month', [Cohort Month], DATETRUNC('month', [Order Date]))
 > ```
 >
@@ -310,7 +305,7 @@ Phase 5: Deployment
 >
 > **Step 4 — Retention rate:**
 > ```tableau
-> [Retention Rate] := 
+> [Retention Rate] :=
 > COUNTD([Customer ID]) / { FIXED [Cohort Month] : COUNTD([Customer ID]) }
 > ```
 > - Format as percentage; green for >80%, red for <50%
@@ -337,7 +332,7 @@ Phase 5: Deployment
 >
 > **Step 3 — Create dynamic measure:**
 > ```tableau
-> [Dynamic Measure] := 
+> [Dynamic Measure] :=
 > CASE [pMeasure]
 >     WHEN "Sales" THEN SUM([Sales])
 >     WHEN "Profit" THEN SUM([Profit])
@@ -362,11 +357,11 @@ Phase 5: Deployment
 > **Calculated Fields:**
 > ```tableau
 > [Sales This Year] := SUM([Sales])
-> 
-> [Sales Last Year] := 
+>
+> [Sales Last Year] :=
 > DATEADD('month', -12, [Order Date])  -- In data source or USE ORDER DATE with offset
 > LOOKUP(SUM([Sales]), -12)  -- Table calculation approach
-> 
+>
 > [YoY Change] := (SUM([Sales]) - LOOKUP(SUM([Sales]), -12)) / ABS(LOOKUP(SUM([Sales]), -12))
 > ```
 >
@@ -467,32 +462,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 9.5 | ✅ Yes |
-| ☐ §10 has edge cases section | ✅ Yes |
-| ☐ §7 has LOD + calculated field + dashboard actions | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to 9.5/10 Exemplary standard |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

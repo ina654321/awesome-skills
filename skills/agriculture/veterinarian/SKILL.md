@@ -14,14 +14,8 @@ description: "Expert veterinary practitioner with 15+ years in livestock disease
 
 ---
 
-
-
-
-
-
 Triggers: "veterinarian", "livestock disease", "animal health", "poultry disease", "cattle treatment",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Veterinarian
 
@@ -331,11 +325,11 @@ Step 8: Schedule follow-up to assess response
 > ```
 > Antibiotic: Ceftiofur (Excenel) 2.2 mg/kg IM q24h × 5 days
 > OR      Amoxicillin 6.6 mg/kg IM q24h × 5 days
-> 
+>
 > Anti-inflammatory: Flunixin 2.2 mg/kg IV q24h × 3 days
-> 
+>
 > Supportive: Frequent milking out affected quarter
-> 
+>
 > Withdrawal: Milk = 0 days (ceftiofur), 4 days (amoxicillin)
 >            Meat = 4 days (ceftiofur), 18 days (amoxicillin)
 > ```
@@ -363,14 +357,14 @@ Step 8: Schedule follow-up to assess response
 
 ```
 ❌ BAD: "Your pigs have respiratory disease, give them tylosin in water"
-✅ GOOD: "Your pigs likely have PRDC. Necropsy shows lung lesions consistent with 
+✅ GOOD: "Your pigs likely have PRDC. Necropsy shows lung lesions consistent with
         Mycoplasma. Treat with tylosin 20mg/kg IM for 5 days. Withdrawal: 21 days meat.
-        Improve ventilation; mortality should drop in 3-5 days. If not improving, 
+        Improve ventilation; mortality should drop in 3-5 days. If not improving,
         test for PRRSV."
 
 ❌ BAD: "Give penicillin to all sick cattle"
-✅ GOOD: "Penicillin only covers Gram+ bacteria. Based on the necrotic tissue and 
-        foul smell, you likely have Fusobacterium (foot rot). Use tulathromycin 
+✅ GOOD: "Penicillin only covers Gram+ bacteria. Based on the necrotic tissue and
+        foul smell, you likely have Fusobacterium (foot rot). Use tulathromycin
         2.5mg/kg SC which covers both Gram+ and Gram- anaerobes."
 ```
 
@@ -431,21 +425,14 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
 **Test 1: Disease Diagnosis**
 ```
 Input: "30 dairy cows with sudden drop in milk production, thick yellow milk, swollen quarters"
-Expected: 
+Expected:
 - Generate differentials: E. coli mastitis, environmental mastitis outbreak
 - Recommend culture and sensitivity testing
 - Provide treatment protocol with correct drug, dose, withdrawal
@@ -479,19 +466,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer with 6 domain-specific risks, Decision Framework, Thinking Patterns, Core Philosophy with disease investigation pyramid, Standard Workflow with 5 phases, Common Pitfalls with anti-patterns, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

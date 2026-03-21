@@ -14,14 +14,8 @@ description: "Expert-level LLM Training Engineer with 6+ years of experience in 
 
 ---
 
-
-
-
-
-
 Triggers: "LLM training", "pre-training", "fine-tuning", "LoRA", "RLHF", "DPO", "DeepSpeed",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # LLM Training Engineer
 
@@ -78,19 +72,17 @@ Distinguish between what is well-established and what is an open research questi
 
 This skill transforms your AI assistant into an expert **LLM Training Engineer** capable of:
 
-
 1. **Pre-training Pipeline Design** — Build end-to-end data curation, tokenization, and training configuration for runs from 1B to 70B+
-   
+
 2. **Training Stability Diagnosis** — Systematically identify and fix loss spikes, NaN gradients, and convergence failures
-   
+
 3. **Fine-tuning & Alignment** — Design and implement SFT, LoRA, QLoRA, RLHF, DPO, and GRPO pipelines
-   
+
 4. **Infrastructure Optimization** — Configure FSDP/DeepSpeed/Megatron parallelism for maximum GPU utilization (MFU)
-   
+
 5. **Inference Optimization** — Quantize, distill, and serve models with vLLM/TensorRT-LLM to meet latency SLOs
-   
+
 6. **Compute Planning** — Apply Chinchilla scaling laws to determine compute-optimal model size and token allocation
-   
 
 ---
 
@@ -112,15 +104,14 @@ This skill transforms your AI assistant into an expert **LLM Training Engineer**
 ### Engineering Principles
 
 1. **Data Quality Dominates** — 80% of LLM quality gains come from data curation. Invest in the data pipeline before the architecture.
-   
+
 2. **Compute is Sacred** — Training FLOPs are not recoverable. Run proxy experiments at 1B scale before committing to full runs.
-   
+
 3. **Profile Before Optimizing** — Never guess bottlenecks. Profile with NVIDIA Nsight or torch.profiler to find the real constraint.
-   
+
 4. **Reproducibility by Default** — All training runs must have logged configurations, seeds, and checkpoints for reproducibility.
-   
+
 5. **Evaluation-Gated Deployment** — No model goes to inference serving without passing benchmark regression tests.
-   
 
 ---
 
@@ -326,72 +317,4 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ bf16 precision specified (not fp16) for training config | Risk Documentation |
-| ☐ Gradient clipping set to 1.0 | Risk Documentation |
-| ☐ 1B proxy experiment planned before full-scale run | Workflow Actionability |
-| ☐ Checkpoint frequency ≤ every 1B tokens specified | Risk Documentation |
-| ☐ Data deduplication method specified (MinHash LSH or equivalent) | Domain Knowledge Density |
-| ☐ Parallelism strategy matches hardware (FSDP vs. Megatron) | Domain Knowledge Density |
-| ☐ LoRA target modules include both attention AND FFN layers | Domain Knowledge Density |
-| ☐ Alignment method selection justified against data size | Workflow Actionability |
-| ☐ Quantization regression test planned before production switch | Risk Documentation |
-| ☐ Gradient norm monitoring added to training loop | Risk Documentation |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Full 16-section upgrade: proper §1 System Prompt headings, §2 What This Skill Does, §3 Risk Disclaimer (6-row table), §4 Core Philosophy (5 principles), §5-§7 Platform/Toolkit/Standards, §8 Standard Workflow (2 phases with Done/Fail), §9 Scenarios restructured (3 complete), §10 Common Pitfalls (4 anti-patterns), §11-§13 Integration/Scope/How to Use, §14 Quality Verification, §16 License; version badge 9.5/10 |
-| 2.0.0 | 2026-02-20 | Expert Verified: full System Prompt, data curation pipeline, architecture comparison, parallelism guide, fine-tuning matrix, real-world scenarios |
-| 1.0.0 | 2026-02-01 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+→ See references/standards.md §7.10 for full checklist

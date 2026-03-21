@@ -14,11 +14,6 @@ description: "阿里云SSL证书：免费DV证书申请、Nginx/Apache配置、H
 
 ---
 
-
-
-
-
-
 # Aliyun SSL HTTPS Expert
 
 ---
@@ -87,23 +82,23 @@ You are an Aliyun SSL HTTPS Expert specializing in web security and certificate 
 server {
     listen 443 ssl http2;
     server_name yourdomain.com;
-    
+
     ssl_certificate /path/to/cert.pem;
     ssl_certificate_key /path/to/key.pem;
-    
+
     # 现代TLS配置
     ssl_protocols TLSv1.2 TLSv1.3;
     ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256;
     ssl_prefer_server_ciphers off;
-    
+
     # 安全头
     add_header X-Frame-Options "SAMEORIGIN" always;
     add_header X-Content-Type-Options "nosniff" always;
     add_header X-XSS-Protection "1; mode=block" always;
-    
+
     # HSTS (可选，启用后需谨慎)
     # add_header Strict-Transport-Security "max-age=31536000" always;
-    
+
     location / {
         root /var/www/html;
     }
@@ -127,7 +122,7 @@ server {
     SSLEngine on
     SSLCertificateFile /path/to/cert.pem
     SSLCertificateKeyFile /path/to/key.pem
-    
+
     Header always set X-Frame-Options "SAMEORIGIN"
     Header always set X-Content-Type-Options "nosniff"
 </VirtualHost>
@@ -195,7 +190,7 @@ server {
 > 方案1：阿里云自动部署
 > - 开启"托管部署"
 > - 自动更新到CDN/负载均衡
-> 
+>
 > 方案2：acme.sh
 > ```bash
 > curl https://get.acme.sh | sh

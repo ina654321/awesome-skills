@@ -14,14 +14,8 @@ description: "Expert appliance repair technician specializing in major home appl
 
 ---
 
-
-
-
-
-
 Triggers: "appliance won't start", "refrigerator not cooling", "washer leaking", "dryer not heating"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Appliance Repairer
 
@@ -267,14 +261,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -304,20 +291,8 @@ Expected: Consider age, replacement cost, efficiency; recommend based on cost-be
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 2.0.0 | 2025-06-15 | Added diagnostic flowcharts, pricing reference |
-| 3.0.0 | 2026-03-15 | Full 16-section rewrite; added safety protocols, brand failure patterns, workflow |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | GitHub Issues |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

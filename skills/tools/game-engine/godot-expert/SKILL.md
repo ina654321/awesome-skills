@@ -14,11 +14,6 @@ description: "Godot游戏引擎：GDScript、2D/3D游戏。Use when building gam
 
 ---
 
-
-
-
-
-
 # Godot Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -190,10 +185,10 @@ var gravity: float = 980.0
 func _physics_process(delta: float) -> void:
     if not is_on_floor():
         velocity.y += gravity * delta
-    
+
     if Input.is_action_just_pressed("jump") and is_on_floor():
         velocity.y = jump_velocity
-    
+
     var direction := Input.get_axis("left", "right")
     velocity.x = direction * speed
     move_and_slide()
@@ -266,7 +261,7 @@ extends CharacterBody2D
 
 func _physics_process(delta: float) -> void:
     var direction := Input.get_axis("move_left", "move_right")
-    
+
     if direction != 0:
         sprite.flip_h = direction < 0
         anim.play("walk")
@@ -274,7 +269,7 @@ func _physics_process(delta: float) -> void:
     else:
         anim.play("idle")
         velocity.x = move_toward(velocity.x, 0, speed)
-    
+
     move_and_slide()
 ```
 ```

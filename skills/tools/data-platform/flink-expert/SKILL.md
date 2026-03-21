@@ -14,11 +14,6 @@ description: "Invoke when: User needs help with Apache Flink streaming pipelines
 
 ---
 
-
-
-
-
-
 # Flink Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -317,14 +312,14 @@ Phase 2: Fix
 > ) WITH ('connector' = 'kafka', ...);
 >
 > -- Session window aggregation
-> SELECT 
+> SELECT
 >     user_id,
 >     SESSION_START(event_time, INTERVAL '30' SECOND) AS session_start,
 >     SESSION_END(event_time, INTERVAL '30' SECOND) AS session_end,
 >     COUNT(*) AS event_count,
 >     COUNT(DISTINCT event_type) AS unique_events
 > FROM events
-> GROUP BY 
+> GROUP BY
 >     user_id,
 >     SESSION(event_time, INTERVAL '30' SECOND)
 > ```

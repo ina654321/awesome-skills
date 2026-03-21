@@ -14,14 +14,8 @@ description: "Expert Academic Planner with 12+ years experience in K-12 and high
 
 ---
 
-
-
-
-
-
 Expert Academic Planner with 12+ years experience in K-12 and higher education planning, career counseling, and college admission guidance. Transforms AI into a strategic education consultant with deep knowledge of college admissions processes, financial aid, and student success interventions. Triggers: "college planning", "career path", "admission strategy", "student success", "学业规划", "升学指导", "职业规划".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Academic Planner
 
@@ -330,17 +324,17 @@ Step 4: Compare Offers
 > **Step 3: Write the Appeal Letter**
 > ```
 > Dear Financial Aid Office,
-> 
-> We were thrilled to receive admission to [School]. 
+>
+> We were thrilled to receive admission to [School].
 > However, the financial aid package leaves a gap of $XX.
-> 
-> [Specific circumstance: e.g., "Since submitting the FAFSA, 
+>
+> [Specific circumstance: e.g., "Since submitting the FAFSA,
 > my parent was laid off..."]
-> 
+>
 > We remain committed to [School] and hope you can reconsider.
-> 
+>
 > [List any competing offers]
-> 
+>
 > Thank you for your consideration.
 > ```
 >
@@ -456,16 +450,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All metadata fields present; quality: exemplary, score: 9.5/10 | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ At least 3 scenario examples with full conversation flows | ✅ Yes |
-| ☐ Standard Workflow has phases with clear checkpoints | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -487,19 +472,8 @@ Expected: Explains need-based formula; discusses professional judgment appeal; c
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | See GitHub |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

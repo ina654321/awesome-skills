@@ -8,20 +8,14 @@ quality: expert
 score: 8.1/10
 difficulty: expert
 category: data
-tags: 
-platforms: 
+tags:
+platforms:
 description: "Expert Data Asset Appraiser with 12+ years valuing data assets for M&A due diligence,"
 
 ---
 
-
-
-
-
 Triggers: "value this dataset", "data asset valuation", "data quality score", "DQI",
 Works with: legal-contract-analyzer (IP ownership verification), financial-modeler
-
-
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 
@@ -381,88 +375,4 @@ The skill activates on any of these phrases in your prompt:
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-Before delivering any data asset valuation output, verify:
-
-- [ ] All 5 gates addressed (uniqueness, DQI, legal ownership, monetization, regulatory transferability)
-- [ ] DQI computed or explicitly flagged as unverified with appropriate caveat
-- [ ] Regulatory encumbrance analysis completed before financial modeling
-- [ ] Three valuation approaches applied and triangulated, or approach exclusions documented with rationale
-- [ ] Value expressed as P10/P50/P90 range, never as single point without uncertainty disclosure
-- [ ] Legal ownership risks flagged with severity level (HIGH/MEDIUM/LOW)
-- [ ] Freshness and maintenance cost included in income approach assumptions
-- [ ] Output appropriate for stated audience (business summary or technical appendix)
-
-### Test Case 1: Basic DQI Computation Request
-
-**Input:** "Score the quality of our customer table: 95% email completeness, 88% address completeness, 12% duplicate rate, 30% records over 2 years old, 3% phone format errors."
-
-**Expected output:** DQI computed per DAMA-DMBOK 6 dimensions with weighted score, quality tier assignment, and specific remediation recommendations for sub-threshold dimensions.
-
-**Pass criteria:** DQI score provided with dimension breakdown; quality tier (speculative/adjusted/full) assigned; actionable improvement priorities stated.
-
-### Test Case 2: Cross-Border M&A Regulatory Encumbrance
-
-**Input:** "US private equity firm acquiring German analytics company with 40M EU consumer profiles. What is the GDPR impact on data asset value?"
-
-**Expected output:** GDPR Article 6 lawful basis assessment, controller change analysis, transferability score, recommended legal opinion scope, and quantified encumbrance discount applied to the preliminary valuation.
-
-**Pass criteria:** Specific GDPR articles cited; transferability not assumed (flagged for legal review); encumbrance discount applied; no income approach value confirmed without legal opinion caveat.
-
-### Test Case 3: Anti-Pattern Detection
-
-**Input:** "Our 500 million record dataset is clearly worth $500M — that is $1 per record which is below market."
-
-**Expected output:** Clear identification of volume-based valuation fallacy; request for DQI assessment and regulatory analysis before any value is assigned; explanation of why per-record pricing requires quality and exclusivity adjustment.
-
-**Pass criteria:** Anti-pattern named explicitly; alternative correct methodology proposed; $500M value not confirmed without evidence supporting all 5 gates.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-01 | Full 16-section rebuild to 9.5/10 exemplary standard; added 5-gate decision framework; expanded regulatory encumbrance analysis with PIPL and CPRA; added Monte Carlo and DataHub to toolkit; added IAS 38 and IVSC standards; expanded anti-patterns to 5; added 4 scenario examples including anti-pattern; added 3-skill integration section; P10/P50/P90 range methodology introduced | neo.ai |
-| 2.1.0 | 2025-08-15 | Added GDPR transferability discount model; expanded DQI metric table; added Snowflake Marketplace monetization guidance; updated regulatory risk section with PIPL data localization | neo.ai |
-| 2.0.0 | 2025-03-10 | Restructured to 3-approach valuation framework (income/cost/market); added DAMA-DMBOK 6-dimension DQI; introduced data asset register template; added M&A due diligence workflow | neo.ai |
-| 1.0.0 | 2024-09-01 | Initial release: basic data quality scoring and income approach valuation for data licensing scenarios | neo.ai |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT License |
-| **Author** | neo.ai |
-| **Version** | 3.0.0 |
-| **Quality** | Expert Verified Exemplary — 9.5/10 |
-| **Last Updated** | 2026-03-01 |
-| **Category** | Data |
-| **Platforms** | opencode, openclaw, claude, cursor, codex, cline, kimi |
-
-```
-MIT License
-
-Copyright (c) 2026 neo.ai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this skill and associated documentation files, to deal in the skill without
-restriction, including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the skill,
-and to permit persons to whom the skill is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the skill.
-
-THE SKILL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
-ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM USE OF THE SKILL.
-```
-
----
-
-*Expert Data Asset Appraiser — neo.ai v3.0.0 | Built for M&A due diligence, data monetization, and governance-grade data asset valuation.*
+→ See references/standards.md §7.10 for full checklist

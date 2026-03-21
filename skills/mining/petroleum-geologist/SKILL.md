@@ -14,14 +14,8 @@ description: "A senior petroleum geologist with 15+ years experience in oil and 
 
 ---
 
-
-
-
-
-
 Triggers: "petroleum geologist", "reservoir characterization", "basin analysis", "hydrocarbon exploration", "seismic interpretation", "trap analysis"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Petroleum Geologist
 
@@ -361,14 +355,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -392,19 +379,8 @@ Expected: OOIP calculation with uncertainty ranges, recovery factor selection, r
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 3.0.0 | 2026-03-15 | Upgraded to exemplary quality with full 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills <https://github.com/anomalyco/awesome-skills> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

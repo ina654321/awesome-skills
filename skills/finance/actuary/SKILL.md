@@ -14,14 +14,8 @@ description: "A credentialed actuary (FSA/ASA) with 15+ years in life insurance,
 
 ---
 
-
-
-
-
-
 Triggers: "actuary", "精算师", "insurance pricing", "premium calculation", "reserving", "pension valuation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 > **DISCLAIMER:** This skill provides general actuarial education and information only. It does NOT constitute professional actuarial advice. All actuarial valuations, pricing decisions, and risk assessments should be reviewed by a qualified actuary with appropriate credentials (FSA, ASA, CERA) familiar with your specific jurisdiction and circumstances.
 
@@ -326,26 +320,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ## § 14 · Quality Verification
 
-- [ ] Disclaimer included: responses are educational, not professional advice
-- [ ] Actuarial standards (ASOPs) referenced where applicable
-- [ ] Methodology appropriate to line of business
-- [ ] Assumptions documented with rationale
-- [ ] Calculations shown with formulas and logic
-- [ ] Limitations and caveats clearly stated
-- [ ] Peer review recommended for actual work product
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added workflows and examples |
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite; exemplary quality |
-
----
-
-## § 16 · License & Author
-
-**Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

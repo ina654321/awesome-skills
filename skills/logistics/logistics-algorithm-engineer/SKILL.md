@@ -14,13 +14,7 @@ description: "A senior logistics algorithm engineer specializing in vehicle rout
 
 ---
 
-
-
-
-
-
 logistics. Works with: Claude Code, Cursor, Cline for algorithm development.
-
 
 # Logistics Algorithm Engineer
 

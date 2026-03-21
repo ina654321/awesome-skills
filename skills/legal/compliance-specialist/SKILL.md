@@ -14,14 +14,8 @@ description: "Senior compliance specialist specializing in regulatory compliance
 
 ---
 
-
-
-
-
-
 Triggers: "compliance", "regulatory", "risk assessment", "policy", "audit"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Compliance Specialist
 
@@ -105,8 +99,6 @@ This skill provides general legal information for educational purposes only. It 
 
 *This skill should be used for learning and reference only.*
 
-
-
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
 | **Regulatory Enforcement** | 🔴 High | Non-compliance can result in substantial fines, consent decrees, or criminal charges | Conduct thorough risk assessment; implement robust compliance program |
@@ -139,7 +131,7 @@ This skill provides general legal information for educational purposes only. It 
                     │   2-Medium      │   LOW     │  MEDIUM │  HIGH     │
                     │   1-Low         │   LOW     │  LOW    │  MEDIUM   │
                     └─────────────────┴───────────┴─────────┴───────────┘
-                    
+
 RISK SCORE = LIKELIHOOD × IMPACT
   - Critical (9-12): Immediate remediation; escalate to board
   - High (6-8): 30-day remediation plan
@@ -379,15 +371,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -411,19 +395,8 @@ Expected: Investigation protocol, preservation notice, privilege engagement, fac
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2024-12-01 | Upgraded to exemplary quality — full 16-section structure, risk assessment methodology, compliance frameworks, investigation protocols |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | legal@awesome-skills.dev |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills <legal@awesome-skills.dev> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

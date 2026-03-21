@@ -14,11 +14,6 @@ description: "Datadog专家：APM、基础设施监控、日志管理。Use when
 
 ---
 
-
-
-
-
-
 # Datadog Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -162,12 +157,12 @@ Service Level Objective:
   Target: 99.9% (error budget: 0.1%)
   Window: Rolling 30 days
   SLI: count(status=200) / count(status=*)
-  
+
   Alert Thresholds:
     Burn Rate (1h):  > 14.4x → Critical (pager)
     Burn Rate (6h):  > 6x    → Warning (slack)
     Burn Rate (3d):  > 2x    → Warning (slack)
-    
+
   Error Budget Policy:
     Budget > 50%:  Monitor mode (no alert)
     Budget < 50%:  Warning alert

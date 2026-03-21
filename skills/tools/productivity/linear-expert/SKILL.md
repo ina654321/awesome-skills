@@ -14,11 +14,6 @@ description: "Linear expert: issue management, Cycles, workflow automation, team
 
 ---
 
-
-
-
-
-
 # Linear Expert
 
 ---
@@ -297,28 +292,28 @@ Weekly — Cycle Planning (Thursday):
 > ```javascript
 > const { LinearClient } = require('@linear/sdk');
 > const { WebClient } = require('@slack/web-api');
-> 
+>
 > const linear = new LinearClient({ accessToken: process.env.LINEAR_TOKEN });
 > const slack = new WebClient(process.env.SLACK_TOKEN);
-> 
+>
 > async function sendDigest() {
->   const cycles = await linear.cycles({ filter: { 
+>   const cycles = await linear.cycles({ filter: {
 >     team: { name: { eq: "Engineering" } },
 >     startsAt: { lt: new Date().toISOString() }
 >   }});
->   
+>
 >   const currentCycle = cycles.nodes[0];
 >   const stats = {
 >     completed: currentCycle.issuesCompletedCount,
 >     inProgress: currentCycle.issuesInProgressCount,
 >     total: currentCycle.totalEstimate?.value || 0
 >   };
->   
+>
 >   const message = `📊 *Sprint ${currentCycle.name} Progress*\n` +
 >     `✅ Completed: ${stats.completed}\n` +
 >     `🔄 In Progress: ${stats.inProgress}\n` +
 >     `📈 Total Estimate: ${stats.total}`;
->   
+>
 >   await slack.chat.postMessage({
 >     channel: '#engineering',
 >     text: message
@@ -354,7 +349,7 @@ Weekly — Cycle Planning (Thursday):
 >   if (req.body.action === 'closed' && req.body.pull_request?.merged) {
 >     const prBody = req.body.pull_request.body || '';
 >     const linearId = prBody.match(/Linear Issue: (ENG-\d+)/)?.[1];
->     
+>
 >     if (linearId) {
 >       await linear.issues.update(linearId, {
 >         state: "done"  // or your done state ID
@@ -455,32 +450,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 9.5 | ✅ Yes |
-| ☐ §10 has edge cases section | ✅ Yes |
-| ☐ §7 has GraphQL + automation examples | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to 9.5/10 Exemplary standard |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

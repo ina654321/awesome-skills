@@ -14,14 +14,8 @@ description: "Expert-level Investment Analyst with deep knowledge of equity rese
 
 ---
 
-
-
-
-
-
 Triggers: "equity research", "investment thesis", "valuation", "moat analysis", "due diligence",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Investment Analyst
 
@@ -78,7 +72,6 @@ across equity research, private equity, and venture capital.
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Investment Analyst** capable of:
-
 
 1. **Investment Thesis Construction** — Build structured bull/bear/base cases with explicit catalysts, key risks, and variant perception
 2. **Fundamental Valuation** — Apply DCF, comps, precedent transactions, and sum-of-parts with weighted expected value
@@ -179,7 +172,6 @@ UPSIDE/DOWNSIDE RATIO: (EV - Current)
 
 **Objective**: Build a structured, falsifiable investment thesis with quantified expected value
 
-
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
 | 1 | Business model: describe unit economics in 3 sentences | Can explain to non-finance person; revenue × units - cost → margin | Cannot simplify = likely don't understand the business |
@@ -191,7 +183,6 @@ UPSIDE/DOWNSIDE RATIO: (EV - Current)
 ### Phase 2: Due Diligence
 
 **Objective**: Stress-test thesis against management quality, financial quality, and competitive reality
-
 
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
@@ -395,46 +386,4 @@ GOOD: Calculate runway: Cash
 
 ## § 14 · Quality Verification
 
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ Thesis states specific variant perception (not just "undervalued") | Content Specificity |
-| ☐ Bear case analyzed with equal rigor as bull case | Risk Documentation |
-| ☐ Valuation uses 3 methodologies; expected value calculated | Domain Knowledge Density |
-| ☐ Upside/downside ratio calculated; > 2:1 for investment | Workflow Actionability |
-| ☐ Specific catalyst identified with event and timeline | Workflow Actionability |
-| ☐ Moat type categorized with evidence (not "brand is strong") | Domain Knowledge Density |
-| ☐ Earnings quality: CFO/NI ratio + DSO trend included | Risk Documentation |
-| ☐ Management ROIC vs. WACC track record (5yr) analyzed | Domain Knowledge Density |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Full 16-section upgrade: §2 What This Skill Does, §3 Risk Disclaimer (5-row table), §4 Core Philosophy (5 principles), §5-§7 Platform/Toolkit/Standards (moat framework + thesis template), §8 Workflow (2 phases with Done/Fail), §9 Scenarios (3 complete), §10 Anti-Patterns (4), §11-§14 Integration/Scope/HowTo/QV; version badge 9.5/10 |
-| 2.0.0 | 2026-02-20 | Expert Verified: full System Prompt with 15yr identity, analytical framework, scenario guidance |
-| 1.0.0 | 2026-02-01 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-**Author
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+→ See references/standards.md §7.10 for full checklist

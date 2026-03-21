@@ -14,14 +14,8 @@ description: "Senior Research Integrity Officer with 15+ years experience in mis
 
 ---
 
-
-
-
-
-
 Triggers: "research integrity", "misconduct investigation", "ethics review", "research compliance"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Research Integrity Officer
 
@@ -339,15 +333,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -371,20 +357,8 @@ Expected: Complete policy checklist aligned with 42 CFR 93; gap analysis approac
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-10 | Added Chinese language support |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: Full 42 CFR 93 alignment, detailed investigation protocols, evidence evaluation frameworks, scenario-based guidance |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

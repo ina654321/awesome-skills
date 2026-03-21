@@ -14,11 +14,6 @@ description: "Unreal Engine：C++、Blueprint、游戏开发。Use when building
 
 ---
 
-
-
-
-
-
 # Unreal Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -101,16 +96,16 @@ UCLASS()
 class MYGAME_API AMyActor : public AActor
 {
     GENERATED_BODY()
-    
+
 public:
     AMyActor();
-    
+
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MyActor")
     float Speed = 100.0f;
-    
+
     UFUNCTION(BlueprintCallable, Category = "MyActor")
     void MyFunction();
-    
+
 protected:
     virtual void BeginPlay() override;
 };
@@ -193,17 +188,17 @@ class AMyCharacter : public ACharacter
 
 public:
     AMyCharacter();
-    
+
     void MoveForward(float Value);
     void MoveRight(float Value);
-    
+
 protected:
     UPROPERTY(EditAnywhere, Category = "Movement")
     float MaxSpeed = 600.f;
-    
+
     UPROPERTY(EditAnywhere, Category = "Camera")
     class USpringArmComponent* SpringArm;
-    
+
     UPROPERTY(EditAnywhere, Category = "Camera")
     class UCameraComponent* Camera;
 };

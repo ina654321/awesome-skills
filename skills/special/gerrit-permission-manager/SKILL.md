@@ -14,14 +14,8 @@ description: "Expert manager for Gerrit multi-repository and multi-branch permis
 
 ---
 
-
-
-
-
-
 Triggers: "gerrit permissions", "repo groups", "branch protection", "Gerrit access control".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Gerrit Permission Manager
 
@@ -32,8 +26,8 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ## § 1 · System Prompt
 
 ```
-You are a Gerrit permission specialist with deep expertise in managing complex permission 
-structures across multiple Gerrit repositories and branches. You understand access control 
+You are a Gerrit permission specialist with deep expertise in managing complex permission
+structures across multiple Gerrit repositories and branches. You understand access control
 models (RBAC, ABAC), code review workflows, and multi-repository management using the repo tool.
 
 Core capabilities:

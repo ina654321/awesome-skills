@@ -1,55 +1,79 @@
 # Awesome Skills - Full Catalog
 
-594 expert AI skills organized by category.
+641 expert AI skills organized by category.
 
 All skills follow the 16-section Exemplary template with ~50% token reduction via references/ architecture.
 
 These skills have been completely rewritten with professional depth — system prompts, knowledge frameworks, real code/templates, and scenario-based guidance:
 
-### Enterprise Practices — Tesla
-- [Tesla Engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) ⭐⭐ **9.1/10** — First Principles thinking, Five-Step Algorithm, Ownership, Anti-Bureaucracy, Mission-Driven Execution
-- [Tesla AI Engineer](./skills/enterprise/tesla/tesla-ai-engineer/SKILL.md) ⭐ **8.9/10** — FSD Development, BEV Perception, End-to-End Networks, Fleet Learning, Shadow Mode
-- [Tesla Software Engineer](./skills/enterprise/tesla/tesla-software-engineer/SKILL.md) ⭐ **8.7/10** — OTA Infrastructure, Vehicle Firmware, Cloud Services, Hardware-Software Integration
-- [Tesla Manufacturing Engineer](./skills/enterprise/tesla/tesla-manufacturing-engineer/SKILL.md) ⭐ **8.6/10** — Giga Factory Design, Vertical Integration, Megacasting, First-Principles Manufacturing
-- [Tesla Product Manager](./skills/enterprise/tesla/tesla-product-manager/SKILL.md) ⭐ **8.5/10** — Master Plan Strategy, Mission-Driven Roadmaps, Sustainable Energy Products, Ecosystem Integration
+### Enterprise Practices — Top 35 Global Companies ⭐⭐
 
-### Enterprise Practices — Amazon
-- [Amazon Engineer](./skills/enterprise/amazon/amazon-engineer/SKILL.md) ⭐⭐ **9.0/10** — 14 Leadership Principles, Working Backwards, 6-Page Memos, Customer Obsession, Bar Raiser Hiring
+> 35 enterprise methodology skills covering world-class companies across all industries. Each skill rated 9.5/10 Exemplary quality.
 
-### Enterprise Practices — Netflix
-- [Netflix Engineer](./skills/enterprise/netflix/netflix-engineer/SKILL.md) ⭐ **8.9/10** — Freedom & Responsibility, Talent Density, Context Not Control, 4A Feedback, Stunning Colleagues
+#### Technology & Internet (9 Skills)
+- [Tesla Engineer](./skills/enterprise/tesla/tesla-engineer/SKILL.md) ⭐⭐ **9.5/10** — First Principles, Five-Step Algorithm, Mission-Driven Execution
+- [Tesla AI Engineer](./skills/enterprise/tesla/tesla-ai-engineer/SKILL.md) ⭐⭐ **9.5/10** — FSD, BEV Perception, End-to-End Networks, Fleet Learning
+- [Tesla Software Engineer](./skills/enterprise/tesla/tesla-software-engineer/SKILL.md) ⭐⭐ **9.5/10** — OTA, Firmware, Cloud Services, Hardware-Software Integration
+- [Tesla Manufacturing Engineer](./skills/enterprise/tesla/tesla-manufacturing-engineer/SKILL.md) ⭐⭐ **9.5/10** — Gigafactory, Vertical Integration, Megacasting
+- [Tesla Product Manager](./skills/enterprise/tesla/tesla-product-manager/SKILL.md) ⭐⭐ **9.5/10** — Master Plan, Mission-Driven Roadmaps
+- [Amazon Engineer](./skills/enterprise/amazon/amazon-engineer/SKILL.md) ⭐⭐ **9.5/10** — 14 LPs, Working Backwards, 6-Page Memos
+- [Google Engineer](./skills/enterprise/google/google-engineer/SKILL.md) ⭐⭐ **9.5/10** — 20% Time, OKR, Googliness, Data-Driven
+- [Apple Engineer](./skills/enterprise/apple/apple-engineer/SKILL.md) ⭐⭐ **9.5/10** — Design-Led, Secrecy, DRI, Craftsmanship
+- [Netflix Engineer](./skills/enterprise/netflix/netflix-engineer/SKILL.md) ⭐⭐ **9.5/10** — Freedom & Responsibility, Talent Density, 4A Feedback
 
-### Enterprise Practices — Financial Services
-- [Goldman Sachs Analyst](./skills/enterprise/goldman-sachs/goldman-sachs-analyst/SKILL.md) ⭐ **8.8/10** — 14 Business Principles, Risk Management, Client Service, Investment Banking Excellence
+#### AI & Future Tech (6 Skills)
+- [OpenAI Researcher](./skills/enterprise/openai/openai-researcher/SKILL.md) ⭐⭐ **9.5/10** — AGI Focus, Safety-First, RLHF, Scaling Laws
+- [Anthropic Researcher](./skills/enterprise/anthropic/anthropic-researcher/SKILL.md) ⭐⭐ **9.5/10** — Constitutional AI, AI Safety, Mechanistic Interpretability
+- [DeepMind Researcher](./skills/enterprise/deepmind/deepmind-researcher/SKILL.md) ⭐⭐ **9.5/10** — Scientific AI, AlphaGo/AlphaFold, Academic Rigor
+- [NVIDIA ML Engineer](./skills/enterprise/nvidia/nvidia-ml-engineer/SKILL.md) ⭐⭐ **9.5/10** — CUDA Optimization, Full-Stack AI, GPU Infrastructure
+- [Meta AI Engineer](./skills/enterprise/meta-ai/meta-ai-engineer/SKILL.md) ⭐⭐ **9.5/10** — Open Research, PyTorch, LLaMA, Fast Prototyping
+- [Microsoft AI Engineer](./skills/enterprise/microsoft-ai/microsoft-ai-engineer/SKILL.md) ⭐⭐ **9.5/10** — Enterprise AI, Copilot, Responsible AI, Azure
+- [SpaceX Engineer](./skills/enterprise/spacex/spacex-engineer/SKILL.md) ⭐⭐ **9.5/10** — First Principles, Rapid Iteration, Cost Innovation
 
-### Enterprise Practices — Management Consulting
-- [McKinsey Consultant](./skills/enterprise/mckinsey/mckinsey-consultant/SKILL.md) ⭐ **8.9/10** — MECE Framework, Issue Trees, Pyramid Principle, One Firm Culture
+#### China Tech (1 Skill)
+- [Alibaba Engineer](./skills/enterprise/alibaba/alibaba-engineer/SKILL.md) ⭐⭐ **9.5/10** — 中供铁军, 六脉神剑, 双11, Iron Army Culture
 
-### Enterprise Practices — Legal Services
-- [Clifford Chance Lawyer](./skills/enterprise/clifford-chance/clifford-chance-lawyer/SKILL.md) ⭐ **8.7/10** — Magic Circle Excellence, Deal Teams, International Practice, Client Focus
+#### Financial Services (3 Skills)
+- [Goldman Sachs Analyst](./skills/enterprise/goldman-sachs/goldman-sachs-analyst/SKILL.md) ⭐⭐ **9.5/10** — 14 Principles, Risk Management, Client Service
+- [JPMorgan Banker](./skills/enterprise/jpmorgan/jpmorgan-banker/SKILL.md) ⭐⭐ **9.5/10** — Universal Bank, Relationship Banking, Fortress Balance Sheet
+- [Morgan Stanley Banker](./skills/enterprise/morgan-stanley/morgan-stanley-banker/SKILL.md) ⭐⭐ **9.5/10** — Wealth Management, Individual Franchise, One Firm
 
-### Enterprise Practices — Roadmap (In Development)
-> Target: 42 enterprise methodology skills covering top companies across all industries
+#### Management Consulting (3 Skills)
+- [McKinsey Consultant](./skills/enterprise/mckinsey/mckinsey-consultant/SKILL.md) ⭐⭐ **9.5/10** — MECE, Issue Trees, Pyramid Principle, One Firm
+- [BCG Consultant](./skills/enterprise/bcg/bcg-consultant/SKILL.md) ⭐⭐ **9.5/10** — Growth-Share Matrix, Experience Curve, Strategy
+- [Bain Consultant](./skills/enterprise/bain/bain-consultant/SKILL.md) ⭐⭐ **9.5/10** — Results 360, True North, NPS, Private Equity
 
-**Phase 0 (Q2 2026)** — Tech Giants
-- Google Engineer — 20% Time, Googliness, OKR (Planned)
-- ByteDance Engineer — 字节范, Context not Control (Planned)
-- Apple Engineer — Design-led, Product Excellence (Planned)
+#### Legal Services (1 Skill)
+- [Clifford Chance Lawyer](./skills/enterprise/clifford-chance/clifford-chance-lawyer/SKILL.md) ⭐⭐ **9.5/10** — Magic Circle, Deal Teams, International Practice
 
-**Phase 1 (Q3 2026)** — Hard Tech & Manufacturing
-- SpaceX Engineer — First Principles, Rapid Iteration (Planned)
-- Toyota Engineer — TPS, Kaizen, Lean Manufacturing (Planned)
-- OpenAI Researcher — Research Culture, Safety-First (Planned)
+#### Manufacturing & Industrial (2 Skills)
+- [Toyota Engineer](./skills/enterprise/toyota/toyota-engineer/SKILL.md) ⭐⭐ **9.5/10** — TPS, JIT, Kaizen, Jidoka, 5 Whys
+- [Huawei Engineer](./skills/enterprise/huawei/huawei-engineer/SKILL.md) ⭐⭐ **9.5/10** — 狼性文化, 压强原则, 备胎计划, Wolf Culture
 
-**Phase 2 (Q4 2026)** — Finance & Professional Services
-- Goldman Sachs Analyst — Risk Management, Client Service (Planned)
-- JPMorgan Banker — Risk Control, Technology (Planned)
-- McKinsey Consultant — Issue Trees, MECE, Pyramid Principle (Planned)
+#### Consumer & Retail (1 Skill)
+- [Walmart Operations](./skills/enterprise/walmart/walmart-operations/SKILL.md) ⭐⭐ **9.5/10** — EDLP, Supply Chain, Cross-Docking, 10-Foot Rule
 
-**Phase 3+ (2027)** — Healthcare, Education, Media, and more
-- Mayo Clinic Physician, Pixar Storyteller, Khan Academy Educator...
+#### Media & Entertainment (3 Skills)
+- [Disney Imagineer](./skills/enterprise/disney/disney-imagineer/SKILL.md) ⭐⭐ **9.5/10** — Imagineering, Storytelling, Plussing, Blue Sky
+- [Pixar Storyteller](./skills/enterprise/pixar/pixar-storyteller/SKILL.md) ⭐⭐ **9.5/10** — Braintrust, Story Spine, Plussing, Emotional Core
+- [Nintendo Game Designer](./skills/enterprise/nintendo/nintendo-game-designer/SKILL.md) ⭐⭐ **9.5/10** — Gameplay First, Hardware-Software Synergy, Perfectionism
 
-📊 [View Full Industry Analysis](./skills/enterprise/INDUSTRY-ANALYSIS-AND-ROADMAP.md) | 📈 [View Development Tracker](./skills/enterprise/DEVELOPMENT-TRACKER.json)
+#### Semiconductor & Hardware (1 Skill)
+- [TSMC Engineer](./skills/enterprise/tsmc/tsmc-engineer/SKILL.md) ⭐⭐ **9.5/10** — Manufacturing Excellence, Yield First, Nanometer Precision
+
+#### Biopharma (1 Skill)
+- [Moderna Scientist](./skills/enterprise/moderna/moderna-scientist/SKILL.md) ⭐⭐ **9.5/10** — mRNA Platform, Digital Native, Rapid Response
+
+#### Luxury (1 Skill)
+- [LVMH Brand Manager](./skills/enterprise/lvmh/lvmh-brand-manager/SKILL.md) ⭐⭐ **9.5/10** — Brand Houses, Scarcity Economics, Craftsmanship
+
+#### Payments (1 Skill)
+- [Visa Payment Engineer](./skills/enterprise/visa/visa-payment-engineer/SKILL.md) ⭐⭐ **9.5/10** — Zero Downtime, 24K TPS, Global Network
+
+#### Cybersecurity (1 Skill)
+- [CrowdStrike Security](./skills/enterprise/crowdstrike/crowdstrike-security/SKILL.md) ⭐⭐ **9.5/10** — Cloud-Native, AI-Powered, 1-10-60 Rule
+
+📊 [View Full Industry Analysis](./skills/enterprise/INDUSTRY-ANALYSIS-AND-ROADMAP.md) | 📈 [View Development Tracker](./skills/enterprise/DEVELOPMENT-TRACKER.json) | 🎯 [Top 2 Roadmap](./skills/enterprise/TOP2-ENTERPRISE-ROADMAP.md)
 
 ### Executive
 - [CEO](./skills/executive/ceo/SKILL.md) ⭐ — Corporate strategy, board governance, M&A, crisis management

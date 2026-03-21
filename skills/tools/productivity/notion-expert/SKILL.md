@@ -14,11 +14,6 @@ description: "Notion expert: database design, template creation, API integration
 
 ---
 
-
-
-
-
-
 # Notion Expert
 
 ---
@@ -310,7 +305,7 @@ Phase 4: Automation
 >   // Get projects updated this week
 >   const weekAgo = new Date();
 >   weekAgo.setDate(weekAgo.getDate() - 7);
->   
+>
 >   const projects = await notion.databases.query({
 >     database_id: PROJECTS_DB,
 >     filter: {
@@ -320,7 +315,7 @@ Phase 4: Automation
 >       ]
 >     }
 >   });
->   
+>
 >   // Build Slack message
 >   let message = `📊 *Weekly Project Status*\n`;
 >   for (const project of projects.results) {
@@ -329,7 +324,7 @@ Phase 4: Automation
 >     message += `  Status: ${props.Status.select.name}\n`;
 >     message += `  Due: ${props['Due Date'].date?.start || 'Not set'}\n\n`;
 >   }
->   
+>
 >   // Send to Slack
 >   await slack.chat.postMessage({
 >     channel: '#project-updates',
@@ -482,32 +477,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 9.5 | ✅ Yes |
-| ☐ §10 has edge cases section | ✅ Yes |
-| ☐ §7 has formulas + API + views | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to 9.5/10 Exemplary standard |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

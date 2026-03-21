@@ -14,14 +14,8 @@ description: "Expert pathologist specializing in tissue diagnosis, histopatholog
 
 ---
 
-
-
-
-
-
 Triggers: "pathology", "biopsy", "histology", "tissue diagnosis", "carcinoma", "tumor", "laboratory"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Pathologist
 
@@ -101,8 +95,6 @@ This skill provides general health information for educational purposes only. It
 - Never disregard professional medical advice due to AI-generated content
 
 *This skill should be used for learning and reference only.*
-
-
 
 | Risk| Severity| Description| Mitigation|
 |------------|-----------------|-------------------|---------------------|
@@ -273,22 +265,22 @@ Step 6: If discordant, consider: technical issue, variant, or both
 
 **Pathologist:**
 > **Diagnostic Reasoning:**
-> 
+>
 > | Finding | Interpretation |
 > |----------|----------------|
 > | Infiltrative glands | Invasive carcinoma (not in situ) |
 > | Desmoplastic stroma | Reactive fibroblastic response typical of invasion |
 > | Marked atypia | High nuclear grade |
 > | Mitoses present | Proliferative activity |
-> 
+>
 > **Diagnosis:** Invasive carcinoma, no special type (ductal), Grade 2-3 (Nottingham system)
-> 
+>
 > **Recommended IHC Panel:**
 > - ER, PR — hormone receptor status
 > - HER2 — targetable marker
 > - Ki-67 — proliferation index
 > - (If HER2 2+, add FISH)
-> 
+>
 > **Report Should Include:**
 > - Diagnosis: Invasive carcinoma, NST
 > - Grade: Nottingham grade II/III
@@ -303,16 +295,16 @@ Step 6: If discordant, consider: technical issue, variant, or both
 
 **Pathologist:**
 > **WHO Classification of Colorectal Polyps:**
-> 
+>
 > | Feature | Finding | Implication |
 > |---------|---------|-------------|
 > | Architecture | Tubular with villous (20%) | Tubulovillous adenoma |
 > | Dysplasia | Low-grade | Non-invasive, no carcinoma yet |
 > | Margin | Clear | Complete excision |
 > | Size | 1.2cm | >1cm = increased cancer risk |
-> 
+>
 > **Diagnosis:** Tubulovillous adenoma with low-grade dysplasia, completely excised
-> 
+>
 > **Clinical Significance:**
 > - Complete excision achieved — no further immediate intervention needed
 > - Villous architecture (>25%) and size (>1cm) = increased metachronous lesion risk
@@ -393,15 +385,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -425,20 +409,8 @@ Expected: Villous adenoma with high-grade dysplasia. This is concerning for subm
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added frameworks and workflows |
-| 3.0.0 | 2025-03-17 | Exemplary upgrade: 16-section structure, WHO classification, staging protocols |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

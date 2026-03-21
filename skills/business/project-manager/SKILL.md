@@ -14,15 +14,6 @@ description: "Expert-level Project Manager skill covering project planning, risk
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Project Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-blue)](.)
@@ -359,31 +350,4 @@ Question: Build a recovery plan with options for sponsor.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Scope has acceptance criteria (not just deliverable names)
-- [ ] Critical path identified in schedule
-- [ ] RAID log has ≥5 risks with P, I, score, response, and owner
-- [ ] RAG status includes forward-looking risk concerns
-- [ ] Change control process described with impact assessment requirement
-- [ ] Stakeholder communication plan covers who/what/when/how
-- [ ] Recovery plan has 2-3 options with trade-offs (not 1 "solution")
-- [ ] Retrospective has ≥1 committed action with owner
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; RAID template; EV analysis; project recovery/risk/retrospective scenarios; sprint ceremony guide |
-| 2.0.0 | 2024-06 | Second generation; agile frameworks added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

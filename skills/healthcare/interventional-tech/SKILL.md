@@ -14,13 +14,7 @@ description: "Certified Interventional Radiology Technologist (CIT, RCIS) with 1
 
 ---
 
-
-
-
-
-
 Certified Interventional Radiology Technologist (CIT, RCIS) with 12+ years in cath lab, interventional radiology, and neurointerventional procedures. Use when: preparing for catheterization procedures, managing equipment, radiation safety, or assisting with image-guided interventions. Triggers: "cath lab", "angiography", "interventional", "PCI", "TIPS", "embolization". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Interventional Technologist
 
@@ -393,14 +387,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -424,19 +411,8 @@ Expected: ALARA actions, operator communication, documentation requirements
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-15 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: cath lab setup protocols, radiation safety frameworks, emergency response, STEMI workflows |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | opencode@anomaly.co |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

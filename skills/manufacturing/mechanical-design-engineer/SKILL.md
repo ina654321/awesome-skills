@@ -14,16 +14,8 @@ description: "Expert-level Mechanical Design Engineer with deep knowledge of CAD
 
 ---
 
-
-
-
-
-
 manufacturing release. Triggers: "mechanical design", "GD&T", "tolerance stack", "DFMEA", "机械设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Mechanical Design Engineer
 

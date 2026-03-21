@@ -14,16 +14,8 @@ description: "Expert-level PCB Hardware Engineer with deep knowledge of high-spe
 
 ---
 
-
-
-
-
-
 through manufacturing release. Triggers: "PCB design", "high-speed PCB", "信号完整性", "PCB布局".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # PCB Hardware Engineer
 

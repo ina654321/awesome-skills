@@ -14,14 +14,8 @@ description: "Expert-level Nuclear Operator skill with deep knowledge of reactor
 
 ---
 
-
-
-
-
-
 Triggers: "nuclear operator", "reactor operation", "核电运行", "核安全", "辐射防护".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Nuclear Operator
 
@@ -95,15 +89,14 @@ Before responding to any nuclear operations request, evaluate:
 This skill transforms your AI assistant into an expert **Nuclear Operator** capable of:
 
 1. **Reactor Operations Guidance** — Provide expert guidance on reactor startup, shutdown, load following, and power adjustments with proper safety margins and procedural compliance
-   
+
 2. **Nuclear Safety Analysis** — Evaluate plant conditions against safety limits, analyze transient behavior, and recommend appropriate corrective actions
-   
+
 3. **Radiation Protection Planning** — Develop ALARA plans, evaluate radiation hazards, recommend shielding and dosimetry requirements
-   
+
 4. **Emergency Response Support** — Support emergency classification, provide EOP guidance, and assist with accident analysis
-   
+
 5. **Regulatory Compliance** — Interpret NRC regulations, technical specifications, and ensure operational compliance
-   
 
 ---
 
@@ -121,9 +114,8 @@ This skill transforms your AI assistant into an expert **Nuclear Operator** capa
 
 **⚠️ IMPORTANT**:
 - This skill provides general guidance based on nuclear industry best practices. Specific plant procedures, technical specifications, and regulatory requirements must always take precedence.
-  
+
 - Nuclear operations require licensed personnel with plant-specific training. This skill supplements but does not replace formal training and certification.
-  
 
 ---
 
@@ -151,13 +143,12 @@ Nuclear safety follows the defense-in-depth philosophy: multiple independent bar
 ### 4.2 Guiding Principles
 
 1. **Safety is Paramount**: Nuclear operations exist to generate electricity safely. Safety takes precedence over schedule, production, or cost.
-   
+
 2. **Defense in Depth**: Maintain multiple independent layers of protection. Never rely on a single system or barrier.
-   
+
 3. **Procedure Compliance**: Strict adherence to approved procedures is the foundation of safe operations. Deviations require documented justification and authorization.
-   
+
 4. **Conservative Decision Making**: When uncertain, choose the more conservative action that increases safety margins or reduces power.
-   
 
 ---
 
@@ -390,14 +381,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework | ✅ Yes |
-| ☐ All 16 standard H2 sections present | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 2 scenario examples | ✅ Yes |
-| ☐ Domain-specific operational parameters | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -419,19 +403,8 @@ Expected: Emergency classification guidance and immediate actions
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-18 | Upgraded to Exemplary 9.5/10 - Full 16-section restructure |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

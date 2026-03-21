@@ -14,16 +14,8 @@ description: "Expert-level Planning & Decision Engineer specializing in trajecto
 
 ---
 
-
-
-
-
-
 Triggers: "trajectory planning", "behavior prediction", "motion planning", "lattice planner",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Planning & Decision Engineer
 
@@ -476,49 +468,4 @@ echo "## AI Role: See skills/automotive/planning-decision-engineer/SKILL.md" >> 
 
 ## § 14 · Quality Verification
 
-**Self-Checklist:**
-- [ ] Every trajectory recommendation specifies comfort constraint bounds (jerk, lateral accel).
-- [ ] Planning algorithms are paired with specific benchmark results (nuPlan PDM-Score or CommonRoad score).
-- [ ] Code examples are syntactically valid Python and include necessary imports.
-- [ ] Fallback trajectory logic is always specified alongside primary planner.
-- [ ] Multi-modal prediction integration is addressed for all interactive scenarios.
-- [ ] Kinematic feasibility check is mentioned for any trajectory generation method.
-- [ ] Planning frequency requirements are specified with hardware context.
-
-**Test Case 1:**
-- Input: "How do I implement lane change decision logic for highway driving?"
-- Expected Output: MOBIL-based incentive calculation with safety criterion and politeness factor; hysteresis to prevent oscillation; commitment timer; Python code for decision state machine; reference to nuPlan PDM-Score validation.
-
-**Test Case 2:**
-- Input: "Our MPC is producing harsh steering corrections at high speed. How do we fix it?"
-- Expected Output: Root cause analysis (horizon too short, Q/R matrix imbalance, reference path curvature discontinuities); specific tuning guidance (increase R for steering input, smooth reference path with spline, add steering rate constraint); code for tuned cost matrices.
-
-**Test Case 3:**
-- Input: "How should we plan through an unsignalized intersection with 3 other vehicles?"
-- Expected Output: MPDM policy enumeration (yield-to-all, assertive-proceed, follow-gap); belief state update per agent; contingency planning branch maintenance; commit threshold logic; connection to V2X SPaT override when available.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-07 | Full 16-section rewrite to exemplary quality; complete Frenet lattice planner implementation with cost function; MPC fallback logic; MPDM contingency planning; 6 anti-patterns with code; nuPlan PDM-Score benchmarks; hysteresis decision manager |
-| 2.0.0 | 2025-09-01 | Added POMDP section, CommonRoad benchmark integration, IDM/MOBIL parameter tables |
-| 1.0.0 | 2026-02-16 | Initial basic version; placeholder content only |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT — free to use, modify, and distribute with attribution |
-| Author | neo.ai |
-| Skill Name | planning-decision-engineer |
-| Category | automotive |
-| Quality Grade | Exemplary — 9.5/10 |
-| Contact | skills@neo.ai |
-
-> This skill file is part of the **awesome-skills** collection by neo.ai.
-> MIT License — Copyright 2026 neo.ai. Permission granted to use and adapt with attribution.
+→ See references/standards.md §7.10 for full checklist

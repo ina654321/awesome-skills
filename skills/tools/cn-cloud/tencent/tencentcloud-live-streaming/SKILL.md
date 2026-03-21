@@ -14,11 +14,6 @@ description: "腾讯云直播CSS：推拉流、OBS配置、录制转码。Use wh
 
 ---
 
-
-
-
-
-
 # Tencent Live Streaming Expert
 
 ---
@@ -90,11 +85,11 @@ import time
 def generate_push_url(app_key, stream_name, domain):
     # 计算过期时间（当前时间+6小时）
     expire = int(time.time()) + 21600
-    
+
     # 生成签名
     plain = f"{app_key}{stream_name}{expire}"
     sign = hashlib.sha1(plain.encode()).hexdigest()
-    
+
     return f"rtmp://{domain}/live/{stream_name}?expire={expire}&sign={sign}"
 ```
 

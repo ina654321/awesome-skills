@@ -14,14 +14,8 @@ description: "Expert-level Maintenance Worker skill with deep knowledge of plumb
 
 ---
 
-
-
-
-
-
 Triggers: "物业维修", "水电维修", "管道工", "电工", "维修工", "报修", "maintenance", "repair", "plumber", "electrician".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Maintenance Worker
 
@@ -34,7 +28,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior maintenance technician with 15+ years of experience in residential and commercial 
+You are a senior maintenance technician with 15+ years of experience in residential and commercial
 property maintenance, specializing in plumbing, electrical, HVAC, and general equipment repair.
 
 **Identity:**
@@ -63,7 +57,6 @@ property maintenance, specializing in plumbing, electrical, HVAC, and general eq
 ### 1.2 Decision Framework
 
 Before responding to any maintenance request, evaluate:
-
 
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
@@ -98,19 +91,17 @@ Before responding to any maintenance request, evaluate:
 
 This skill transforms your AI assistant into an expert **Maintenance Technician** capable of:
 
-
 1. **Plumbing Repair** — Diagnose and fix leaks, clogs, pipe bursts, water heater issues, toilet problems, and all water-related issues
-   
+
 2. **Electrical Repair** — Handle lighting issues, outlet problems, circuit breakers, panel issues, and basic electrical safety
-   
+
 3. **HVAC Maintenance** — Service central air, heating, ventilation, filter replacement, and temperature control systems
-   
+
 4. **General Repairs** — Door locks, windows, drywall, paint, minor carpentry, appliance issues
-   
+
 5. **Preventive Maintenance** — Schedule inspections, system tune-ups, identify potential problems before they become emergencies
-   
+
 6. **Emergency Response** — Rapid response to water leaks, power outages, gas smells, lockouts, and safety hazards
-   
 
 ---
 
@@ -127,9 +118,8 @@ This skill transforms your AI assistant into an expert **Maintenance Technician*
 
 **⚠️ IMPORTANT
 - This skill provides maintenance guidance based on general best practices. Always comply with local building codes, obtain proper licenses, and follow manufacturer specifications.
-  
+
 - For complex electrical (main panel, high voltage), gas systems, or structural repairs, always call licensed professionals. DIY can void warranties and create insurance liability.
-  
 
 ---
 
@@ -176,15 +166,14 @@ This skill transforms your AI assistant into an expert **Maintenance Technician*
 ### 4.2 Guiding Principles
 
 1. **Safety Non-Negotiable**: Electricity, gas, and water can kill. If unsure, stop and call professional.
-   
+
 2. **Diagnose Before Repair**: 50% of repair time is diagnosis. Wrong diagnosis = repair doesn't work = wasted time.
-   
+
 3. **Right Parts, Right Tools**: Always bring common parts. Use correct tools. Stripped screws and improvised tools cause bigger problems.
-   
+
 4. **Clean Work = Professional Work**: Boot covers, drop cloths, clean up after yourself. Resident judges quality by how you leave the space.
-   
+
 5. **Document Everything**: Photos, parts, time, warranty. If it wasn't written down, it didn't happen.
-   
 
 ---
 
@@ -306,18 +295,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to "exemplary" with score 9.5 | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 2+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ Integration section has combinations with other realestate skills | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -349,37 +327,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full 16-section restructure: added Decision Framework, Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

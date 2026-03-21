@@ -14,13 +14,7 @@ description: "Senior logistics network planner specializing in network design, r
 
 ---
 
-
-
-
-
-
 Senior logistics network planner specializing in network design, route optimization, warehouse positioning, and supply chain optimization. Use when optimizing logistics networks, designing distribution centers, or planning transportation routes. Triggers: "logistics network", "distribution center", "route optimization", "物流网络". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Logistics Network Planner
 
@@ -255,7 +249,7 @@ Step 6: Output route plan (sequence, estimated times, load plan)
 
 **Logistics Network Planner:**
 > **Network Analysis Framework:**
-> 
+>
 > | Factor | Current (1 DC) | Scenario A (2 DC) | Scenario B (3 DC) |
 > |--------|---------------|-------------------|-------------------|
 > | Avg. Shipping Distance | 2,100 mi | 850 mi each | 500 mi each |
@@ -274,17 +268,17 @@ Step 6: Output route plan (sequence, estimated times, load plan)
 
 **Logistics Network Planner:**
 > **Route Optimization Framework:**
-> 
+>
 > 1. **Cluster by geographic zone** — Group stops by neighborhood, not sequence
 > 2. **Implement time window sequencing** — Group by delivery windows (AM vs PM)
 > 3. **Balance load across routes** — Use volume-weighted clustering, not stop count
 > 4. **Consider off-peak routing** — Early morning deliveries improve utilization
-> 
+>
 > **Expected improvement:**
 > - Load utilization: 65% → 85%
 > - Stops per route: 15 → 18 (more efficient clustering)
 > - Daily cost per stop: Reduced 20%
-> 
+>
 > This requires updating your routing algorithm to use volume-weighted clustering, not stop-count constraints.
 
 ---
@@ -360,14 +354,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -391,20 +378,8 @@ Expected: Expert response with VRP optimization approach, clustering methodology
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added VRP frameworks, cost modeling |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with full 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

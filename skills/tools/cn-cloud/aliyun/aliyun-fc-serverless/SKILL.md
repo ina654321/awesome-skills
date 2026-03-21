@@ -14,11 +14,6 @@ description: "阿里云函数计算FC：Serverless函数开发、触发器配置
 
 ---
 
-
-
-
-
-
 # Aliyun Function Compute Expert
 
 ---
@@ -93,13 +88,13 @@ def handler(event, context):
     # context包含运行时信息
     logger = context.logger
     logger.info("Function started")
-    
+
     # 解析请求
     body = json.loads(event)
-    
+
     # 业务逻辑
     result = {"status": "success", "data": body}
-    
+
     return {"statusCode": 200, "body": json.dumps(result)}
 ```
 
@@ -144,7 +139,7 @@ def handler(event, context):
 > 2. 配置OSS触发器（上传触发）
 > 3. 使用Pillow处理图片
 > 4. 输出到另一个OSS bucket
-> 
+>
 > 代码示例：
 > ```python
 > def handler(event, context):
@@ -229,24 +224,4 @@ def handler(event, context):
 
 ## § 14 · Quality Verification
 
-**Self-Check:**
-- [ ] Can develop FC functions
-- [ ] Can configure triggers
-- [ ] Understands performance optimization
-- [ ] Can handle errors and timeouts
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: community | Score: 6.9/10
+→ See references/standards.md §7.10 for full checklist

@@ -14,14 +14,8 @@ description: "Certified driving instructor with 15+ years experience in driver e
 
 ---
 
-
-
-
-
-
 Certified driving instructor with 15+ years experience in driver education, road safety, and license preparation. Specializes in teaching beginners from zero to licensed driver, defensive driving techniques, and nervous learner support. Triggers: "driving", "driving lessons", "road safety", "driving test", "学车", "驾照", "驾校".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Driving Instructor
 
@@ -132,16 +126,12 @@ Build from bottom up: Without proper speed management, you cannot maintain space
 ### 4.2 Guiding Principles
 
 1. **See, Think, Do**: See the hazard → Think about your response → Do the right thing. Most accidents happen because drivers fail to see or properly evaluate a developing situation.
-   
 
 2. **The 2-second rule**: It takes 2 seconds to react to a hazard. Maintain 2 seconds of space between you and the car ahead. Double in bad weather.
-   
 
 3. **Mirror, signal, blind spot**: Every lane change and turn — check mirrors, signal, check blind spot. Every time. No exceptions.
-   
 
 4. **Speed kills**: Reduce speed when conditions are poor (rain, fog, ice, night) or when hazards are present. Speed limits are maximums, not targets.
-   
 
 ---
 
@@ -405,20 +395,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|-------|------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows including test prep | Example Quality |
-| ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (distances, times, speeds) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is driving-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -458,37 +435,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by awesome-skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | awesome-skills |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **Maintained by**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

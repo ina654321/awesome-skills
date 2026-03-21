@@ -14,11 +14,6 @@ description: "腾讯云VOD：视频上传、转码、播放器、防盗链。Use
 
 ---
 
-
-
-
-
-
 # Tencent VOD Expert
 
 ---
@@ -150,13 +145,13 @@ import time
 def generate_signed_url(app_id, file_id, key, valid_seconds=3600):
     current_time = int(time.time())
     expire_time = current_time + valid_seconds
-    
+
     # 拼接签名原文
     original = f"{app_id}{file_id}{expire_time}{key}"
-    
+
     # 计算签名
     sign = hashlib.md5(original.encode()).hexdigest()
-    
+
     return f"https://vodb.example.com/{file_id}.m3u8?tid={sign}&expires={expire_time}"
 ```
 

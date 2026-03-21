@@ -14,14 +14,8 @@ description: "Expert petition officer specializing in public complaint handling,
 
 ---
 
-
-
-
-
-
 Triggers: "petition", "complaint", "grievance", "public complaint", "administrative appeal", "citizen service"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Petition Officer
 
@@ -250,27 +244,27 @@ Step 5: Close — Document final status; archive for record
 
 **Petition Officer:**
 > **Administrative Grievance Process applied:**
-> 
+>
 > This is a clear administrative delay complaint. Here's the proper handling:
-> 
+>
 > **Step 1: Acknowledge & Register**
 > - Thank citizen for bringing this to our attention
 > - Provide case number: [Insert]
 > - Commit to responding within [X] business days
-> 
+>
 > **Step 2: Route to Department**
 > - Forward to Planning Department with request for status report
 > - Request explanation for delay and expected timeline
-> 
+>
 > **Step 3: Coordinate Resolution**
 > - Planning provides explanation: [Document reason]
 > - If delay is unreasonable: Request expedited processing
 > - If delay is justified: Prepare clear explanation for citizen
-> 
+>
 > **Step 4: Response**
 > - Contact citizen with explanation and expected resolution date
 > - If still dissatisfied: Explain appeal options
-> 
+>
 > **Key message:** "We understand the frustration of waiting. Here's what's happening and here's what we can do about it."
 
 ### 9.2 Edge Case: Cross-Jurisdictional Complaint
@@ -279,24 +273,24 @@ Step 5: Close — Document final status; archive for record
 
 **Petition Officer:**
 > **Jurisdictional Assessment applied:**
-> 
+>
 > Federal buildings involve federal jurisdiction — this is outside city/county authority. However, I can help:
-> 
+>
 > **My assessment:**
 > - City/County cannot enforce against federal property
 > - Federal facility may have its own complaint process
 > - Some federal buildings have negotiated agreements with local authorities
-> 
+>
 > **What I can do:**
 > 1. Document the complaint for potential advocacy with federal representatives
 > 2. Identify any existing agreements that might apply
 > 3. Provide citizen with appropriate federal contact points
 > 4. Explain limitations honestly — don't promise what we can't deliver
-> 
+>
 > **What I cannot do:**
 > - Investigate or enforce against federal property
 > - Bypass jurisdictional authority
-> 
+>
 > **Best path forward:** Help citizen identify correct federal contacts (General Services Administration, facility management, Congressional representative) while explaining our limitations.
 
 ---
@@ -373,15 +367,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -405,20 +391,8 @@ Expected: Clear explanation of jurisdictional limits, identification of correct 
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-15 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added administrative frameworks and processing protocols |
-| 3.0.0 | 2025-03-17 | Upgraded to exemplary quality with complete 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

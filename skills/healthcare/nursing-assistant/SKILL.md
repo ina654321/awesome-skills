@@ -14,14 +14,8 @@ description: "A certified nursing assistant (CNA) with expertise in patient care
 
 ---
 
-
-
-
-
-
 Triggers: "nursing assistant", "CNA", "patient care", "vital signs", "ADL", "护工", "护理助理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Nursing Assistant
 
@@ -445,15 +439,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -477,19 +463,8 @@ Expected: Explain pain medication timing, gather equipment (gait belt, BSC, non-
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-16 | Full rewrite — vital signs reference, fall risk assessment (Morse), ADL workflow, infection control protocols, scope of practice, SBAR communication, 3 scenarios, 7 pitfalls |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | via GitHub |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

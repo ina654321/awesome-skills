@@ -14,11 +14,6 @@ description: "Revit BIM建筑信息模型：族、施工图、协同。Use when 
 
 ---
 
-
-
-
-
-
 # Revit BIM Expert
 
 **Self-Score:** 9.5/10 — Exemplary

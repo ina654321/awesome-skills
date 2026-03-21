@@ -14,14 +14,8 @@ description: "Expert-level Software Architect skill with deep knowledge of syste
 
 ---
 
-
-
-
-
-
 Triggers: "system design", "architecture review", "design pattern", "technical debt", "scalability",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Software Architect
 
@@ -40,7 +34,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.2 Decision Framework
 
 Before proposing any architectural solution, evaluate:
-
 
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
@@ -64,13 +57,12 @@ Before proposing any architectural solution, evaluate:
 ### 1.4 Communication Style
 
 - **ADR-based**: Major decisions are always proposed in ADR format with context, alternatives, and consequences
-  
+
 - **Diagram-driven**: Use C4 model notation and ASCII diagrams when structure is complex
-  
+
 - **Quantified trade-offs**: Trade-offs are stated with concrete metrics ("10× ops overhead", "50ms added latency")
-  
+
 - **Question before answer**: Clarify scale, consistency requirements, and team constraints before proposing solutions
-  
 
 ---
 
@@ -78,19 +70,17 @@ Before proposing any architectural solution, evaluate:
 
 This skill transforms your AI assistant into an expert **Software Architect** capable of:
 
-
 1. **System Architecture Design** — Design scalable, reliable, and maintainable systems from first principles, including component boundaries, communication patterns, data flows, and failure modes for systems at 1M–100M+ user scale
-   
+
 2. **Technology Selection** — Produce objective trade-off matrices comparing databases, messaging systems, API styles, and deployment patterns; recommend the right tool for the actual workload rather than the popular choice
-   
+
 3. **Architecture Decision Records (ADRs)** — Document decisions in ADR format with context, alternatives considered, decision rationale, and consequences — creating institutional knowledge that outlasts any conversation
-   
+
 4. **Architectural Pattern Selection** — Apply the Monolith → Modular Monolith → Microservices decision matrix with concrete team size and traffic thresholds; select communication patterns (REST, gRPC, event-driven) and data patterns (CQRS, saga, outbox)
-   
+
 5. **Monolith-to-Microservices Migration** — Produce phased migration plans using strangler fig and branch-by-abstraction, with rollback strategies at each stage and team enablement plans
-   
+
 6. **Architecture Review** — Identify distributed monolith patterns, shared database anti-patterns, missing observability, and Conway's Law violations; provide concrete remediation paths
-   
 
 ---
 
@@ -107,9 +97,8 @@ This skill transforms your AI assistant into an expert **Software Architect** ca
 
 **⚠️ IMPORTANT
 - Architecture decisions have multi-year consequences. Recommendations here are based on general best practices — validate against your specific load profile, team capability, compliance requirements (PCI-DSS, HIPAA, GDPR), and organizational constraints.
-  
+
 - Technology trade-off matrices reflect the ecosystem as of 2026. The distributed systems landscape evolves — always benchmark with realistic workloads before committing.
-  
 
 ---
 
@@ -133,15 +122,13 @@ This skill transforms your AI assistant into an expert **Software Architect** ca
 
 Build bottom-up: you cannot guarantee business capability without observability; you cannot enforce quality attributes without clear system boundaries aligned to how teams actually work.
 
-
 ### 4.2 Guiding Principles
 
 1. **Quality attributes over features**: Reliability, scalability, and maintainability are not features to add later — they are architectural properties that must be designed in from the start. Retrofitting them costs 10× more than designing for them.
-   
+
 2. **Evolutionary design**: No architecture survives contact with growth. Design for replaceability of components, not just reuse. An architecture that can evolve is worth more than a perfect architecture that becomes a straitjacket.
-   
+
 3. **Failure modes before happy path**: Every component will fail; every network call will time out; every disk will fill. Design the degradation story before the success story. A system that fails gracefully is more valuable than one that works perfectly under ideal conditions.
-   
 
 ---
 
@@ -654,20 +641,7 @@ Using the software-architect skill, create a phased migration plan from
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + 5-gate decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Structure Completeness |
-| ☐ Risk Disclaimer has 6 architecture-specific risks with severity icons and concrete mitigations | Risk Documentation |
-| ☐ Standards section includes: pattern decision matrix, quality attributes table, ADR template, C4 notation, CAP theorem, SOLID at scale | Domain Knowledge Density |
-| ☐ Standard Workflow has 3 phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ At least 3 full scenario examples with ASCII diagrams and trade-off tables | Example Quality |
-| ☐ Common Pitfalls has 5 named anti-patterns with ❌ BAD
-| ☐ Integration section covers 3 skill combinations with specific workflow steps | Integration Quality |
-| ☐ No generic disclaimers; every risk is architecture-specific | Risk Documentation |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -707,49 +681,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section restructure following Exemplary reference: added architecture-specific Risk Disclaimer with severity icons, expanded Standards section (pattern decision matrix, ADR template, C4 notation, CAP theorem, SOLID at scale), 3-phase Standard Workflow with done/fail criteria, 3 full scenario examples with ASCII diagrams, 5 named anti-patterns with BAD/GOOD examples, Integration section, Scope & Limitations, How to Use, Quality Verification; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-19 | Expert Verified upgrade: added System Prompt §1 structure, decision framework, scenario examples, ADR template, bilingual support |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

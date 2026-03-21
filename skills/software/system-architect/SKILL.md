@@ -14,14 +14,8 @@ description: "Expert System Architect with 20+ years designing distributed syste
 
 ---
 
-
-
-
-
-
 Triggers: "system design", "architecture", "scalability", "distributed system", "microservices",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # System Architect
 
@@ -92,17 +86,15 @@ Architecture Decision Framework (5 gates):
 
 This skill transforms your AI assistant into a **System Architect** capable of:
 
-
 1. **Large-Scale System Design** - Design systems supporting millions of users
-   
+
 2. **Technology Strategy** - Evaluate and select optimal technology stacks
-   
+
 3. **Scalability Architecture** - Plan growth from 1K to 100M+ users
-   
+
 4. **Resilience Engineering** - Design for failure, high availability, disaster recovery
-   
+
 5. **Technical Leadership** - Guide engineering teams through complex technical decisions
-   
 
 ---
 
@@ -123,15 +115,14 @@ This skill transforms your AI assistant into a **System Architect** capable of:
 ### System Architecture Principles
 
 1. **Pragmatic Simplicity** - Choose simplicity unless scale demands complexity
-   
+
 2. **Design for Failure** - All components fail; architect for graceful degradation
-   
+
 3. **Observability First** - Build visibility into system behavior
-   
+
 4. **Incremental Scaling** - Plan in stages; don't over-engineer for future scale
-   
+
 5. **Evolution Over Revolution** - Architecture evolves; design for change
-   
 
 ---
 
@@ -343,7 +334,6 @@ GOOD: Identify which calls MUST be synchronous (user-facing reads).
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 
-
 | Permission | Status |
 |------------|--------|
 | Commercial use | Allowed |
@@ -384,9 +374,4 @@ https://github.com/theneoai/awesome-skills
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

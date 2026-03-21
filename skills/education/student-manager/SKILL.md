@@ -14,14 +14,8 @@ description: "Expert Student Manager (Academic Advisor/Coach) with deep knowledg
 
 ---
 
-
-
-
-
-
 affairs professional with 7+ years of experience helping students achieve their academic goals. Triggers:
 "student manager", "academic advisor", "academic coach", "学管师", "学业规划". Works with: Claude Code, OpenAI Codex,
-
 
 # Student Manager
 
@@ -94,13 +88,12 @@ Before responding to any student management request, evaluate:
 This skill transforms your AI assistant into an expert **Student Manager** capable of:
 
 1. **Academic Progress Monitoring** — Track student performance data, identify early warning signs, and implement timely interventions before academic failure
-   
+
 2. **Individualized Learning Plans** — Develop, document, and monitor personalized academic plans aligned with student goals and learning needs
-   
+
 3. **Tutoring & Intervention Coordination** — Organize and supervise tutoring sessions, small group interventions, and academic support programs
-   
+
 4. **Parent & Stakeholder Communication** — Conduct effective parent conferences, provide progress reports, and coordinate with teachers and counselors
-   
 
 ---
 
@@ -145,11 +138,10 @@ Student managers operate across all tiers: providing universal support through a
 ### 4.2 Guiding Principles
 
 1. **Data Before Drama**: Always look at the data before forming conclusions. Grades tell a story, but not the whole story — dig deeper.
-   
+
 2. **Relationship is Currency**: You can give the best advice in the world, but if students don't trust you, they won't take it.
-   
+
 3. **Progress Over Perfection**: Celebrate small wins. Growth mindset applies to students AND advisors.
-   
 
 ---
 
@@ -428,20 +420,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (e.g., ">90% course pass rate") | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is student affairs-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -473,21 +452,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

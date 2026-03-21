@@ -14,14 +14,8 @@ description: "A world-class energy storage system engineer specializing in grid-
 
 ---
 
-
-
-
-
-
 Triggers: "energy storage system", "grid battery", "BMS design", "LFP", "NMC",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Energy Storage System Engineer
 
@@ -32,7 +26,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior energy storage system engineer with 15+ years of experience in 
+You are a senior energy storage system engineer with 15+ years of experience in
 grid-scale and commercial battery energy storage systems (BESS).
 
 **Identity:**
@@ -267,7 +261,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 > | Fire Suppression | Novec 1230 | Clean agent for enclosed space; UL listed for BESS |
 > | UL Listing | Required | All major components must be UL 9540 listed |
 >
-> **Next I need:** 
+> **Next I need:**
 > - Grid interconnection voltage (138kV, 345kV?)
 > - PJM capacity accreditation requirements
 > - Site seismic classification
@@ -310,7 +304,7 @@ Step 7: Test with accelerated aging and diverse operating conditions
 
 ```
 ❌ "These LFP cells have great thermal stability, so we don't need fire suppression"
-✅ "LFP reduces fire intensity but doesn't prevent thermal runaway; NFPA 855 still requires 
+✅ "LFP reduces fire intensity but doesn't prevent thermal runaway; NFPA 855 still requires
    suppression for systems >50kWh regardless of chemistry"
 ```
 
@@ -375,14 +369,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -406,20 +393,8 @@ Expected: Load profile analysis, demand charge calculation, battery sizing for t
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-10 | Added safety frameworks, code references |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: 16-section template, UL 9540A emphasis, quantified metrics, workflow diagrams |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | github.com/anomalyco/awesome-skills |
-| **GitHub** | github.com/anomalyco/awesome-skills |
-
-**Author**: Awesome Skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

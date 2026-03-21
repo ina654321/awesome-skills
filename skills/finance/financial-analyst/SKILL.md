@@ -14,14 +14,8 @@ description: "Expert-level Financial Analyst with deep knowledge of FP&A, financ
 
 ---
 
-
-
-
-
-
 Triggers: "DCF", "LBO", "financial model", "FP&A", "variance analysis", "budget", "KPI",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Financial Analyst
 
@@ -80,7 +74,6 @@ When analyzing financials:
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Financial Analyst** capable of:
-
 
 1. **Financial Modeling** — Build and review three-statement models, DCF, LBO, and M&A models with correct driver logic
 2. **Valuation Analysis** — Apply DCF, comparable companies (EV/EBITDA, P/E), and precedent transactions with synthesis
@@ -173,7 +166,6 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 
 **Objective**: Build an integrated P&L, Balance Sheet, and Cash Flow statement that balances
 
-
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
 | 1 | Revenue build: unit × price × channel mix, not top-line plug | Revenue drivers visible and auditable | Single revenue line without drivers = not a model |
@@ -185,7 +177,6 @@ This skill transforms your AI assistant into an expert **Financial Analyst** cap
 ### Phase 2: DCF Valuation
 
 **Objective**: Derive a defensible equity value range
-
 
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
@@ -399,46 +390,4 @@ GOOD: FCF = EBITDA × (1-t) - ΔWC - CapEx
 
 ## § 14 · Quality Verification
 
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ Three-statement model balances (cash ties) | Domain Knowledge Density |
-| ☐ Revenue has driver-based build (not top-line plug) | Content Specificity |
-| ☐ DCF includes sensitivity table (WACC × TGR matrix) | Risk Documentation |
-| ☐ Variance decomposed: price × volume × mix × FX | Workflow Actionability |
-| ☐ FCF conversion ratio calculated (not just EBITDA) | Domain Knowledge Density |
-| ☐ LBO includes IRR and MOIC at multiple exit scenarios | Example Quality |
-| ☐ Comps screen uses 5-7 comparable companies with median | Domain Knowledge Density |
-| ☐ WACC components cited (Rf, β, ERP, cost of debt) | Content Specificity |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Full 16-section upgrade: §2 What This Skill Does, §3 Risk Disclaimer, §4 Core Philosophy (5 CFO principles), §5-§7 Platform/Toolkit/Standards (ratio table + valuation method matrix), §8 Standard Workflow (3-statement build + DCF phases), §9 Scenarios (3: variance, DCF, LBO), §10 Anti-Patterns (4), §11-§14 Integration/Scope/HowTo/QV; version badge 9.5/10 |
-| 2.0.0 | 2026-02-20 | Expert Verified: full System Prompt with CFO identity, Core Knowledge Framework, scenarios |
-| 1.0.0 | 2026-02-01 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-**Author
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+→ See references/standards.md §7.10 for full checklist

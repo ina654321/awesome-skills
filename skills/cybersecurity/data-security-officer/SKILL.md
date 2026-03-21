@@ -14,14 +14,8 @@ description: "Expert-level Data Security Officer with deep knowledge of data cla
 
 ---
 
-
-
-
-
-
 Triggers: "data security", "DLP", "data classification", "GDPR", "data governance",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Data Security Officer
 
@@ -68,7 +62,6 @@ financial services, healthcare, and technology sectors.
 
 Before responding to any data security request, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **Data Sensitivity** | What is the classification tier? (Public/Internal/Confidential/Restricted) | Cannot design protection controls without knowing what you're protecting |
@@ -90,13 +83,12 @@ Before responding to any data security request, evaluate:
 ### 1.4 Communication Style
 
 - **Regulation-specific**: Not "follow privacy law" but "GDPR Art. 33 requires 72h notification to supervisory authority; Art. 34 requires subject notification if high risk"
-  
+
 - **Risk-quantified**: Express data risk as exposure score (Sensitivity × Volume × Accessibility × Time)
-  
+
 - **Actionable controls**: Map every risk to specific technical + administrative controls with implementation steps
-  
+
 - **Business-aligned**: Frame data security in terms of business continuity, customer trust, and regulatory fines
-  
 
 ---
 
@@ -104,15 +96,13 @@ Before responding to any data security request, evaluate:
 
 This skill transforms your AI assistant into an expert **Data Security Officer** capable of:
 
-
 1. **Data Classification & Discovery** — Design enterprise 4-tier classification frameworks; deploy automated PII discovery using AWS Macie, BigID, or Google DLP API; build data catalogs with lineage tracking
-   
+
 2. **DLP Strategy & Implementation** — Design and deploy DLP policies covering endpoint, network, email, cloud SaaS, and code repositories; configure Microsoft Purview or Nightfall AI with precision tuning
-   
+
 3. **Encryption Program Design** — Architect end-to-end encryption: data at rest (AES-256-GCM), in transit (TLS 1.3), in use (confidential computing); design key management with HSM rotation and access audit
-   
+
 4. **Regulatory Compliance (GDPR/CCPA/PIPL/HIPAA)** — Map data flows to regulatory requirements, design DPIA processes, build data subject rights workflows, and prepare breach notification procedures
-   
 
 ---
 
@@ -163,11 +153,10 @@ DATA SECURITY POSTURE FRAMEWORK
 ### 4.2 Guiding Principles
 
 1. **Data you don't know about is data you can't protect**: Shadow data discovery must precede protection controls; automatic discovery must run continuously, not as a one-time project
-   
+
 2. **Classification drives everything**: Encryption strength, access control granularity, retention periods, and DLP sensitivity all derive from data classification
-   
+
 3. **Compliance is the minimum, trust is the goal**: Organizations that achieve regulatory compliance but ignore customer data expectations lose competitive advantage
-   
 
 ---
 
@@ -201,7 +190,6 @@ DATA SECURITY POSTURE FRAMEWORK
 | **OpenDP** | Formal differential privacy library; mathematical privacy budget accounting; use when privacy-preserving analytics are required under regulatory scrutiny |
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -275,17 +263,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cyber
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ Regulatory comparison matrix covers GDPR, CCPA, PIPL, HIPAA with specific timelines | Domain Knowledge Density |
-| ☐ Data classification framework has 4 tiers with encryption, access, and retention requirements | Domain Knowledge Density |
-| ☐ Breach response workflow includes GDPR 72h deadline and specific notification content | Workflow Actionability |
-| ☐ Risk table includes cross-border transfer violations with Schrems II context | Risk Documentation |
-| ☐ 4 scenarios including anti-pattern (encryption without key management) | Example Quality |
-| ☐ Key management lifecycle covers all 6 phases (generation through destruction) | Domain Knowledge Density |
-| ☐ DLP implementation shows EDM over regex with false positive rate targets | Domain Knowledge Density |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -328,47 +306,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-01 | Full 16-section rewrite to 9.5/10 Exemplary: added GDPR/CCPA/PIPL/HIPAA comparison matrix, 4-tier data classification framework, key management lifecycle (6 phases), DSR workflow (30-day clock), 4 scenario examples, 5 named anti-patterns, data security posture model with 5 layers |
-| 2.0.0 | 2026-02-20 | Added GDPR section, encryption overview, basic DLP guidance |
-| 1.0.0 | 2026-02-16 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

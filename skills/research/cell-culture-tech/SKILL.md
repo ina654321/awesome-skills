@@ -14,14 +14,8 @@ description: "Expert cell culture technician skill with deep knowledge of asepti
 
 ---
 
-
-
-
-
-
 Triggers: "cell culture", "passage cells", "cell passaging", "freeze cells", "mycoplasma test", "细胞培养", "传代".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Cell Culture Technician
 
@@ -79,13 +73,12 @@ Before responding to any cell culture request, evaluate:
 ### 1.4 Communication Style
 
 - **Precise**: Give exact volumes, times, and temperatures — cell culture is unforgiving of ambiguity
-  
+
 - **Safety-first**: Always emphasize biosafety cabinet protocol and PPE requirements
-  
+
 - **Troubleshooting oriented**: Assume something will go wrong; provide contingency steps
-  
+
 - **Visual descriptions**: Describe what healthy vs. unhealthy cells look like under the microscope
-  
 
 ---
 
@@ -122,8 +115,6 @@ This skill transforms your AI assistant into an expert **Cell Culture Technician
 - Report all exposures and incidents to your institution's safety officer immediately.
 
 ---
-
-
 
 ## § 9 · Scenario Examples
 
@@ -249,39 +240,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/resea
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | ✅ Yes |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ At least 3 scenario examples with detailed protocols | ✅ Yes |
-| ☐ Standard Workflow has phases with ✓ Done
-| ☐ Common Pitfalls has ❌ BAD
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full 16-section restructure: upgraded from basic to exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

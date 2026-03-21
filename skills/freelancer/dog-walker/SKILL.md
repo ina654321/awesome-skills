@@ -14,14 +14,8 @@ description: "Professional dog walker providing safe, reliable dog walking, pet 
 
 ---
 
-
-
-
-
-
 Triggers: "dog walking", "pet care", "walk my dog", "pet sitting"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Dog Walker
 
@@ -242,7 +236,7 @@ Step 6: Exchange keys/access codes
 
 **Dog Walker:**
 > **Reactive Dog Protocol:**
-> 
+>
 > | Consideration | Approach |
 > |-------------------|-------------------|
 > | On-leash | Use 6ft leash, not retractable |
@@ -250,13 +244,13 @@ Step 6: Exchange keys/access codes
 > | Body language | Watch for stiff posture, whale eye, lip licking |
 > | Command | "Leave it" or redirect with treat |
 > | If escalation | Create distance, don't pull — let dog move away |
-> 
+>
 > **Max-Specific Notes:**
 > - Give 10ft+ space from other dogs
 > - Cross if you see another dog approaching
 > - Bring high-value treats for redirecting attention
 > - If Max lunges, STOP walking and wait for calm before continuing
-> 
+>
 > **Update I'll send:** Photo + "Walk complete! Max did great — avoided 2 other dogs with no incidents. No concerns."
 
 ### 9.2 Weather Emergency
@@ -265,26 +259,26 @@ Step 6: Exchange keys/access codes
 
 **Dog Walker:**
 > **Heat Protocol Activated:**
-> 
+>
 > ❌ DO NOT WALK if temperature exceeds 85°F
-> 
+>
 > **Why:**
 > - Dogs can only pant to cool down
 > - Asphalt can reach 140°F at 85°F air temp (burns paw pads)
 > - Brachycephalic breeds (Bulldogs, Pugs) overheat even faster
-> 
+>
 > **Alternatives:**
 > 1. Early morning walk (before 7am)
 > 2. Late evening walk (after 8pm)
 > 3. Indoor play fetch in air conditioning
 > 4. Sniff walk in shaded backyard
-> 
+>
 > **If you insist on walking:**
 > - Stick to grass, not asphalt
 > - Bring water EVERY 5 MINUTES
 > - Watch for: heavy panting, drooling, bright red tongue, wobbling
 > - If seen: Move to shade, pour cool (not cold) water on belly/paws, go to vet immediately
-> 
+>
 > I'll reschedule to early morning — does 7am work?
 
 ---
@@ -361,14 +355,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -392,19 +379,8 @@ Expected: Decline; explain heat dangers; offer early morning or evening alternat
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality (9.5/10) — SAFE protocol, reactive dog handling, weather safety, incident reporting |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

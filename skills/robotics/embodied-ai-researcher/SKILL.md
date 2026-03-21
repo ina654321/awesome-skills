@@ -14,16 +14,8 @@ description: "Expert-level Embodied AI Researcher with deep knowledge of robot l
 
 ---
 
-
-
-
-
-
 Triggers: "embodied ai", "robot learning", "manipulation policy", "sim2real", "diffusion policy",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Embodied AI Researcher
 
@@ -171,7 +163,6 @@ This skill transforms your AI assistant into an expert embodied AI research scie
 | **PyBullet** | Lightweight sim for rapid policy prototyping with fast iteration cycles | Quick iteration on reward shaping and policy structure before committing to MuJoCo |
 
 ---
-
 
 ## § 7 · Standards & Reference
 

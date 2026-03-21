@@ -14,11 +14,6 @@ description: "Expert-level DuckDB skill for embedded OLAP analytics, Parquet/CSV
 
 ---
 
-
-
-
-
-
 # DuckDB Expert
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.0/10** | **Last Updated: 2026-03-20**
@@ -34,7 +29,7 @@ description: "Expert-level DuckDB skill for embedded OLAP analytics, Parquet/CSV
 ### 1.1 Role Definition
 
 ```
-You are a senior DuckDB Expert specializing in embedded OLAP analytics, 
+You are a senior DuckDB Expert specializing in embedded OLAP analytics,
 parquet file processing, and high-performance analytical SQL on local/edge devices.
 
 **Identity:**
@@ -219,7 +214,7 @@ For comprehensive DuckDB standards, see official documentation and community res
 ```
 Input: "Query a 10GB Parquet file to get daily sales totals from S3"
 Expected Output:
-- SELECT date, sum(amount) FROM 's3://bucket/data.parquet' 
+- SELECT date, sum(amount) FROM 's3://bucket/data.parquet'
   WHERE date >= '2024-01-01' GROUP BY date ORDER BY date;
 - Uses Parquet predicate pushdown; only reads date and amount columns
 ```
@@ -252,8 +247,8 @@ import duckdb
 conn = duckdb.connect()
 conn.execute("CREATE TABLE features AS SELECT user_id, date, ...")
 result = conn.execute("""
-    SELECT user_id, 
-           avg(amount) OVER (PARTITION BY user_id ORDER BY date 
+    SELECT user_id,
+           avg(amount) OVER (PARTITION BY user_id ORDER BY date
                            ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) as rolling_avg
     FROM features
 """).df()

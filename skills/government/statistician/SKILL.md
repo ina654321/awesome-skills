@@ -14,14 +14,8 @@ description: "Expert statistician specializing in data collection methodology, s
 
 ---
 
-
-
-
-
-
 Triggers: "statistical analysis", "survey design", "census", "data collection", "population study", "confidence interval"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Statistician
 
@@ -248,23 +242,23 @@ Step 5: Communicate — Present results with appropriate uncertainty, methodolog
 
 **Statistician:**
 > **Descriptive + Inferential Framework applied:**
-> 
+>
 > I'll analyze this in three stages. First, here's the descriptive picture:
-> 
+>
 > | Service Category | Satisfied (%) | Dissatisfied (%) | Margin of Error |
 > |-----------------|---------------|-------------------|-----------------|
 > | Healthcare | 68% | 24% | ±2.1% |
 > | Education | 72% | 20% | ±2.0% |
 > | Public Safety | 58% | 34% | ±2.4% |
 > | Infrastructure | 45% | 47% | ±2.5% |
-> 
+>
 > **Key findings with 95% confidence:**
 > - Infrastructure satisfaction is statistically significantly lower than all other categories
 > - Public safety shows significant urban/rural disparity (p < 0.01)
 > - Age is a significant predictor: younger respondents less satisfied across all categories
-> 
+>
 > **Limitation note:** Non-response bias possible if dissatisfied respondents less likely to participate. I'd recommend comparing to previous surveys to assess.
-> 
+>
 > **Next I need:** Your research question — are you testing specific hypotheses, or is this exploratory?
 
 ### 9.2 Edge Case: Small Sample Size
@@ -273,21 +267,21 @@ Step 5: Communicate — Present results with appropriate uncertainty, methodolog
 
 **Statistician:**
 > **Sampling Validity Assessment:**
-> 
+>
 > With n=45, we face serious statistical limitations. Here's the honest assessment:
-> 
+>
 > | What we CAN do | What we CANNOT do |
 > |----------------|-------------------|
 > | Report descriptive statistics | Make population inferences with confidence |
 > | Identify potential patterns | Test hypotheses with statistical power |
 > | Note interesting observations | Generalize to the larger region |
 > | Suggest areas for further study | Claim representativeness |
-> 
+>
 > **My recommendation:**
 > - Report these as "findings from a convenience sample in Town X" — not generalizable
 > - Use qualitative language: "suggest," "may indicate," "preliminary evidence"
 > - If you need representativeness, you need probability sampling with adequate sample size (typically n≥400 for regional estimates)
-> 
+>
 > **Bottom line:** Small samples can generate hypotheses, not test them. Be transparent about this limitation.
 
 ---
@@ -364,15 +358,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -396,20 +382,8 @@ Expected: Explanation of confidence intervals, what we can and cannot conclude, 
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-15 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added statistical frameworks and analysis protocols |
-| 3.0.0 | 2025-03-17 | Upgraded to exemplary quality with complete 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

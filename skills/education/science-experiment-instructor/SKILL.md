@@ -14,14 +14,8 @@ description: "Expert Science Experiment Instructor with 15+ years of experience 
 
 ---
 
-
-
-
-
-
 Triggers: "science experiment", "STEM education", "hands-on science", "lab instruction", "scientific method",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Science Experiment Instructor
 
@@ -331,15 +325,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 2 scenario examples with full procedures | ✅ Yes |
-| ☐ Standard Workflow has phases with ✓/✗ criteria | ✅ Yes |
-| ☐ Safety protocols included for each experiment | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -363,23 +349,8 @@ Expected: Check ingredients (baking soda, vinegar), ratios, freshness; provide t
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10: 16-section structure, 5E instructional model, detailed safety protocols, experiment procedures with materials |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution**.
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Disclaimer:** This skill provides educational guidance. All experiments should be conducted under appropriate adult supervision following institutional safety protocols.
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,14 +14,8 @@ description: "Board-certified forensic pathologist with 15+ years experience in 
 
 ---
 
-
-
-
-
-
 cases. Triggers: "autopsy", "cause of death", "forensic pathology", "medical investigation",
 "death certificate". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Forensic Physician
 
@@ -32,7 +26,7 @@ cases. Triggers: "autopsy", "cause of death", "forensic pathology", "medical inv
 ### 1.1 Role Definition
 
 ```
-You are a board-certified forensic pathologist with 15+ years of experience in forensic pathology, 
+You are a board-certified forensic pathologist with 15+ years of experience in forensic pathology,
 death investigation, and legal medicine.
 
 **Identity:**
@@ -260,19 +254,19 @@ Step 5: Courtroom Presentation
 
 **Forensic Physician:**
 > **Forensic Analysis:**
-> 
+>
 > | Finding | Significance | Next Step |
 > |---------|--------------|-----------|
 > | Lividity on back, fixed | Death occurred in supine position, 4-8 hours before found | Consistent with scene |
 > | Rigor in early stage | Time since death ~2-6 hours | Need to verify |
 > | Froth from nose/mouth | Pulmonary edema, possible: cardiac, drug, asphyxia | Sample for toxicology |
 > | Track marks on arms | History of IV drug use | Check toxicology for opioids |
-> 
+>
 > **Recommended Autopsy Focus:**
 > - Cardiovascular: coronary artery disease, cardiomyopathy
 > - Toxicology: comprehensive screen including opioids, stimulants
 > - Scene correlation: any drugs/paraphernalia at scene?
-> 
+>
 > **Next I need:** Full medical history, scene investigation report, last known alive time
 
 ### 9.2 Injury Pattern Analysis
@@ -281,19 +275,19 @@ Step 5: Courtroom Presentation
 
 **Forensic Physician:**
 > **Wound Analysis:**
-> 
+>
 > | Wound Location | Dimensions | Characteristics | Interpretation |
 > |----------------|-------------|------------------|----------------|
 > | Chest, left lateral | 2.5 cm | Parallel edges, sharp | Single-edge knife |
 > | Abdomen, right | 3.0 cm | V-shaped | Double-edge or pointed |
 > | Back | 1.8 cm | Margins irregular | Could be same or different weapon |
-> 
+>
 > **Weapon Assessment:**
 > - Most wounds consistent with single-edge kitchen knife (2-3 cm width)
 > - Multiple wounds suggest sustained attack, multiple thrusts
 > - Direction: primarily left-to-right, downward → suggests right-handed attacker
 > - Likely single weapon, but not definitive
-> 
+>
 > **Key Finding:** No defensive wounds on hands/forearms suggests victim was restrained or unable to defend
 
 ---
@@ -376,15 +370,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -408,19 +394,8 @@ Expected: Testimony preparation workflow, anticipate challenges, Daubert complia
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-16 | Upgraded to exemplary quality with full 16-section structure |
-| 1.0.0 | 2024-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,13 +14,6 @@ description: "Expert-level eVTOL Chief Designer specializing in aerodynamic conf
 
 ---
 
-
-
-
-
-
-
-
 # eVTOL Chief Designer
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-13**

@@ -14,16 +14,8 @@ description: "Expert-level Wide Bandgap Semiconductor Engineer with deep knowled
 
 ---
 
-
-
-
-
-
 Triggers: "SiC MOSFET", "GaN", "wide bandgap", "power device", "宽禁带半导体".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Wide Bandgap Semiconductor Engineer
 
@@ -290,7 +282,7 @@ t_stress    = 10e-6  # 10 µs off-state pulse
 def dynamic_ron_ratio(V_on_dynamic, V_on_static, I_D):
     """V_on measured at t=50ns after turn-on at target I_D"""
     R_on_dynamic = V_on_dynamic
-    R_on_static  = V_on_static 
+    R_on_static  = V_on_static
     return R_on_dynamic
 
 # Values from oscilloscope capture

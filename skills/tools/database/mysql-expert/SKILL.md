@@ -14,11 +14,6 @@ description: "MySQL专家：索引优化、InnoDB、复制配置、性能调优�
 
 ---
 
-
-
-
-
-
 # MySQL Expert
 
 ---
@@ -224,7 +219,7 @@ Phase 4: Production Preparation
 
 **MySQL Expert:**
 > **Core Tables:**
-> 
+>
 > ```sql
 > CREATE TABLE customers (
 >     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -238,7 +233,7 @@ Phase 4: Production Preparation
 >     INDEX idx_email (email),
 >     INDEX idx_vip_created (is_vip, created_at)
 > ) ENGINE=InnoDB;
-> 
+>
 > CREATE TABLE products (
 >     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 >     sku VARCHAR(50) NOT NULL UNIQUE,
@@ -254,7 +249,7 @@ Phase 4: Production Preparation
 >     INDEX idx_active_price (is_active, price),
 >     FULLTEXT INDEX idx_search (name, description)
 > ) ENGINE=InnoDB;
-> 
+>
 > CREATE TABLE orders (
 >     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 >     order_number VARCHAR(20) NOT NULL UNIQUE,
@@ -267,7 +262,7 @@ Phase 4: Production Preparation
 >     INDEX idx_status_created (status, created_at),
 >     INDEX idx_created (created_at)
 > ) ENGINE=InnoDB;
-> 
+>
 > CREATE TABLE order_items (
 >     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 >     order_id BIGINT UNSIGNED NOT NULL,
@@ -280,9 +275,9 @@ Phase 4: Production Preparation
 >     FOREIGN KEY (product_id) REFERENCES products(id)
 > ) ENGINE=InnoDB;
 > ```
-> 
+>
 > **Sales Report Query:**
-> 
+>
 > ```sql
 > SELECT
 >     DATE(o.created_at) as sale_date,
@@ -303,28 +298,28 @@ Phase 4: Production Preparation
 
 **MySQL Expert:**
 > **Original Query:**
-> 
+>
 > ```sql
 > SELECT * FROM orders
 > WHERE YEAR(created_at) = 2024
 >   AND MONTH(created_at) = 1;
 > ```
-> 
+>
 > **Problem:** Forces full table scan (no index on function)
-> 
+>
 > **Solution:**
-> 
+>
 > ```sql
 > -- Use range condition
 > SELECT * FROM orders
 > WHERE created_at >= '2024-01-01'
 >   AND created_at < '2024-02-01';
-> 
+>
 > -- Verify with EXPLAIN
 > EXPLAIN SELECT * FROM orders
 > WHERE created_at >= '2024-01-01'
 >   AND created_at < '2024-02-01';
-> 
+>
 > -- Ensure index exists
 > CREATE INDEX idx_created_at ON orders(created_at);
 > ```
@@ -335,17 +330,17 @@ Phase 4: Production Preparation
 
 **MySQL Expert:**
 > **Architecture:**
-> 
+>
 > ```sql
 > -- Primary: writes + OLTP
 > -- Replica 1: reports + dashboards
 > -- Replica 2: backups + analytics
-> 
+>
 > -- On replica, run long-running queries without affecting primary
 > SET SESSION replica_skip_errors = 1062;
 > SET GLOBAL read_only = ON;
 > SET GLOBAL super_read_only = ON;
-> 
+>
 > -- Application connection routing
 > -- Use read replica for SELECT queries
 > -- Use primary for INSERT/UPDATE/DELETE
@@ -423,9 +418,4 @@ MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

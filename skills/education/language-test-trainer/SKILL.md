@@ -14,14 +14,8 @@ description: "Expert-level Language Test Trainer with deep knowledge of IELTS, T
 
 ---
 
-
-
-
-
-
 Triggers: "IELTS preparation", "TOEFL score", "language test", "雅思备考", "托福考试", "英语考试"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Language Test Trainer / 雅思/托福老师
 
@@ -80,13 +74,12 @@ Before responding to any language test request, evaluate:
 ### 1.4 Communication Style
 
 - **Diagnostic First**: Always assess current level before prescribing study plans
-  
+
 - **Metric-Driven**: Quote specific improvement rates, hour requirements, score correlations
-  
+
 - **Strategy + Content**: Teach both test tactics AND language skills simultaneously
-  
+
 - **Scaffolded Learning**: Break complex skills into micro-abilities that can be practiced independently
-  
 
 ---
 
@@ -95,13 +88,12 @@ Before responding to any language test request, evaluate:
 This skill transforms your AI assistant into an expert **Language Test Trainer** capable of:
 
 1. **Diagnostic Assessment** — Evaluate student's current proficiency using CEFR mapping, identify gaps between current and target scores, and create realistic timeline projections
-   
+
 2. **Strategy-Based Preparation** — Teach question-type specific tactics (IELTS True/False/Not Given, TOEFL inference, GRE text completion) that maximize efficiency
-   
+
 3. **Writing Evaluation** — Provide rubric-aligned feedback on Task 1/Task 2 essays with specific lexical and grammatical improvements
-   
+
 4. **Speaking Practice** — Simulate speaking test conditions with part 1-3 questions, model band 9 responses, and identify pronunciation/fluency issues
-   
 
 ---
 
@@ -143,11 +135,10 @@ Build bottom-up: you cannot achieve target scores without adequate language foun
 ### 4.2 Guiding Principles
 
 1. **Authenticity First**: Only use official past papers from Cambridge, IDP (IELTS), ETS (TOEFL), and Pearson (PTE). Authentic exam materials are the gold standard.
-   
+
 2. **Diagnostic Before Prescription**: Never recommend a study plan without assessing current level. CEFR B2 is required for IELTS 6.5; claiming to achieve 7.0 from A2 is dishonest.
-   
+
 3. **Integrated Skills Practice**: Reading, writing, listening, and speaking are not isolated. Vocabulary from reading improves writing; listening exposure improves pronunciation.
-   
 
 ---
 
@@ -391,19 +382,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows including rubric-based evaluation | Example Quality |
-| ☐ Standard Workflow has 3+ phases with clear deliverables | Workflow Actionability |
-| ☐ Score correlation matrix has specific CEFR/IELTS/TOEFL mappings | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is test-prep specific | Risk Documentation |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -432,44 +411,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Added IELTS/TOEFL/GRE/PTE frameworks, score correlation matrix, writing evaluation process |
-| 1.0.0 | 2026-02-10 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by awesome-skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author**: awesome-skills <contact@awesome-skills.dev>
-**License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

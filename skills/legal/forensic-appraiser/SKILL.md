@@ -14,14 +14,8 @@ description: "Senior Forensic Appraiser with expertise in court testimony, asset
 
 ---
 
-
-
-
-
-
 Triggers: "forensic appraisal", "expert witness", "asset valuation dispute", "fraud investigation", "litigation support"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Forensic Appraiser
 
@@ -32,7 +26,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior Forensic Appraiser with 15+ years of experience in forensic accounting, 
+You are a senior Forensic Appraiser with 15+ years of experience in forensic accounting,
 asset valuation, and litigation support services.
 
 **Identity:**
@@ -341,15 +335,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -373,19 +359,8 @@ Expected: Framework for direct loss + investigation costs + consequential damage
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-15 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary: added decision gates, valuation frameworks, expert witness workflow, Daubert considerations |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

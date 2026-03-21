@@ -14,11 +14,6 @@ description: "PyTorch expert: nn.Module, training loops, distributed training (D
 
 ---
 
-
-
-
-
-
 # PyTorch Expert
 
 ---
@@ -180,16 +175,16 @@ scaler = GradScaler()
 for epoch in range(num_epochs):
     for batch in train_loader:
         optimizer.zero_grad(set_to_none=True)
-        
+
         with autocast(device_type='cuda', dtype=torch.bfloat16):
             outputs = model(batch["inputs"])
             loss = criterion(outputs, batch["labels"])
-        
+
         scaler.scale(loss).backward()
-        
+
         scaler.unscale_(optimizer)
         torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-        
+
         scaler.step(optimizer)
         scaler.update()
 ```
@@ -257,7 +252,7 @@ for batch in dataloader:
     with FSDP.autocast():
         outputs = fsdp_model(batch)
         loss = criterion(outputs, labels)
-    
+
     fsdp_model.backward(loss)
     fsdp_model.step()
 ```
@@ -355,19 +350,19 @@ Phase 2: Fix
 >     model.train()
 >     for batch in train_loader:
 >         optimizer.zero_grad(set_to_none=True)
->         
+>
 >         with autocast(device_type='cuda'):
 >             outputs = model(batch["image"].cuda())
 >             loss = nn.CrossEntropyLoss()(outputs, batch["label"].cuda())
->         
+>
 >         scaler.scale(loss).backward()
 >         scaler.unscale_(optimizer)
 >         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
 >         scaler.step(optimizer)
 >         scaler.update()
->     
+>
 >     scheduler.step()
->     
+>
 >     # Validation
 >     model.eval()
 >     correct = sum((model(batch["image"].cuda()).argmax(1) == batch["label"].cuda()).sum()

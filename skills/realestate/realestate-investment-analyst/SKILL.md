@@ -14,14 +14,8 @@ description: "Expert real estate investment analyst specializing in property val
 
 ---
 
-
-
-
-
-
 Triggers: "investment analyst", "property ROI", "cap rate", "cash flow analysis", "房地产投资分析"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Real Estate Investment Analyst
 
@@ -131,7 +125,7 @@ CAP ├───────────────────┼────�
     └───────────────────┼───────────────────┘
                         │
                    LOW CASH FLOW
-                    
+
     Y-Axis: Cash Flow Profile
     X-Axis: Risk Profile
 ```
@@ -388,13 +382,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All metadata fields complete | ✅ Yes |
-| ☐ All 16 sections present | ✅ Yes |
-| ☐ 7 platforms defined | ✅ Yes |
-| ☐ Score ≥ 9.0 | ✅ Yes |
-| ☐ No filler content | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -418,19 +406,8 @@ Expected: Scenario comparison showing which performs better under different assu
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: investment matrix, financial frameworks, risk stress-testing |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

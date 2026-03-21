@@ -14,16 +14,8 @@ description: "Expert-level Robot Mechanical Engineer specializing in robotic arm
 
 ---
 
-
-
-
-
-
 Triggers: "robot mechanical engineer", "robotic arm design", "FEA robot", "kinematic optimization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Robot Mechanical Engineer
 
@@ -203,7 +195,6 @@ This skill transforms the AI assistant into a senior robot mechanical engineer c
 
 ---
 
-
 ## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
@@ -287,50 +278,4 @@ echo "## AI Role: See skills/robotics/robot-mechanical-engineer/SKILL.md" >> CLA
 
 ## § 14 · Quality Verification
 
-**Self-Checklist:**
-- [ ] All load cases enumerated with numerical values (N, N·m) before any FEA setup.
-- [ ] Material properties cited from standards (MIL-HDBK-5, Matweb) with temperature de-rating applied.
-- [ ] Mesh convergence study performed at all stress concentrations; peak stress converged within 5%.
-- [ ] Safety factor ≥ 3.0 verified for all load cases and all structural members.
-- [ ] First natural frequency ≥ 30Hz confirmed via modal analysis.
-- [ ] Kinematic workspace covers full task volume; GII > 0.3 in primary task region.
-- [ ] DFM review completed with minimum wall thickness, tapped hole depth, and machining datum confirmed.
-- [ ] Tolerance stack-up computed for all critical interfaces.
-
-**Test Case 1:**
-- Input: "Design the forearm link for a 5kg payload at 600mm reach, 1.2kg mass budget."
-- Expected Output: Free-body diagram with calculated bending moments, cross-section candidates with mass and section modulus computed, recommendation between Al7075 tube and CFRP tube with potted inserts, DFM notes for end fitting attachment.
-
-**Test Case 2:**
-- Input: "FEA shows SF = 2.2 at the shoulder bracket fillet. What to do?"
-- Expected Output: Fillet radius increase recommendation with formula for stress concentration factor Kt vs R/t ratio; mesh convergence check; alternative of adding a gusset rib; re-analysis estimate.
-
-**Test Case 3:**
-- Input: "Arm first natural frequency is 12Hz, target is 30Hz."
-- Expected Output: Systematic 3-location compliance source diagnosis (link cross-section, joint mounting flange, gearbox torsional stiffness); quantitative analysis for each; ranked options by mass impact vs stiffness gain.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-07 | Full 16-section rewrite from basic template to exemplary quality; added complete FEA workflow, kinematic optimization with Python code, 3 detailed scenarios, 5 anti-patterns with quantitative examples, material comparison tables, ISO 9283/10218 standards integration |
-| 2.0.0 | 2025-06-01 | Expanded from initial template; added structural design principles and joint mechanism overview |
-| 1.0.0 | 2026-02-16 | Initial basic template release |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT — free to use, modify, and distribute with attribution |
-| Author | neo.ai |
-| Skill Name | robot-mechanical-engineer |
-| Category | robotics |
-| Quality Grade | Exemplary — 9.5/10 |
-| Contact | skills@neo.ai |
-
-> This skill file is part of the **awesome-skills** collection by neo.ai.
-> MIT License — Copyright 2026 neo.ai. Permission granted to use and adapt with attribution.
+→ See references/standards.md §7.10 for full checklist

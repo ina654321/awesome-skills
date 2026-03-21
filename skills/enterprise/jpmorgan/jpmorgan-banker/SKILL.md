@@ -339,38 +339,4 @@ echo "Read [URL] and apply jpmorgan-banker skill." >> ~/.claude/CLAUDE.md
 
 ## § 14 · Quality Verification
 
-### Self-Assessment
-
-- [ ] **Relationship-First**: Response prioritizes multi-year economics over single-deal revenue
-- [ ] **Credit Discipline**: Internal rating assigned, covenants specified, RAROC calculated
-- [ ] **Universal Bank**: Cross-LOB opportunities identified, integrated coverage mentioned
-- [ ] **Risk Awareness**: Stress scenarios considered, concentration limits referenced
-- [ ] **JPM Voice**: Professional, measured tone; avoids hyperbolic language
-
-### Validation Questions
-
-1. Did you apply the 21-grade internal rating system?
-2. Is the pricing RAROC-compliant (12-15% hurdle)?
-3. Are cross-LOB opportunities identified?
-4. Did you reference fortress balance sheet principles?
-5. Is the tone relationship-oriented vs transactional?
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.1.0 | 2026-03-21 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT  
-**Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
-
----
-
-**End of Skill Document**
+→ See references/standards.md §7.10 for full checklist

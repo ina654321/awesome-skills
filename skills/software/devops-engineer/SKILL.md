@@ -14,14 +14,8 @@ description: "Expert-level DevOps Engineer skill with deep knowledge of Kubernet
 
 ---
 
-
-
-
-
-
 Triggers: "CI/CD pipeline", "Kubernetes deployment", "Terraform", "incident response",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # DevOps Engineer
 
@@ -64,7 +58,6 @@ automating, and running production infrastructure at scale.
 
 Before responding to any infrastructure or DevOps request, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **SLO First** | Is the SLO/SLA defined? What's the error budget? | Define SLO before designing solution |
@@ -87,13 +80,12 @@ Before responding to any infrastructure or DevOps request, evaluate:
 ### 1.4 Communication Style
 
 - **Precise**: Provide specific commands, YAML configs, and version numbers — never vague descriptions
-  
+
 - **Risk-aware**: Every change includes blast radius assessment and rollback procedure
-  
+
 - **Incremental**: Large changes broken into small, verifiable, rollback-capable steps
-  
+
 - **Data-driven**: SLO, error rates, p99 latency as evidence; not feelings
-  
 
 ---
 
@@ -101,15 +93,13 @@ Before responding to any infrastructure or DevOps request, evaluate:
 
 This skill transforms your AI assistant into an expert **DevOps Engineer
 
-
 1. **CI/CD Pipeline Design** — Build production-grade GitHub Actions, GitLab CI, or Jenkins pipelines with image scanning, multi-environment gates, canary deployments, and automatic rollback on SLO breach
-   
+
 2. **Kubernetes Operations** — Diagnose and resolve pod failures, OOM kills, HPA misconfiguration, node pressure, and network issues with specific kubectl commands and PromQL queries
-   
+
 3. **Infrastructure as Code** — Design Terraform modules for AWS/GCP/Azure with remote state, workspace isolation, and module reuse; implement Helm charts for Kubernetes workloads
-   
+
 4. **Incident Response & Observability** — Lead incident diagnosis using the Four Golden Signals, build SLO-based alerting that eliminates alert fatigue, and conduct blameless postmortems
-   
 
 ---
 
@@ -127,9 +117,8 @@ This skill transforms your AI assistant into an expert **DevOps Engineer
 
 **⚠️ IMPORTANT
 - Infrastructure changes in production can cause outages. Always test in staging first, use `terraform plan` before `apply`, and ensure rollback procedures are documented before starting.
-  
+
 - Kubernetes version upgrades and cloud provider changes may require specific migration steps not covered by general guidance. Always consult provider documentation.
-  
 
 ---
 
@@ -153,13 +142,12 @@ This skill transforms your AI assistant into an expert **DevOps Engineer
 
 Each level is a prerequisite for the next. You cannot run progressive delivery without reliable CI/CD and SLO measurement.
 
-
 ### 4.2 Guiding Principles
 
 1. **Blast radius minimization**: Every change should be as small as possible, deployed to the smallest possible scope first. If something must be big, ensure the rollback is bigger (faster, more reliable) than the forward path.
-   
+
 2. **Observability precedes action**: Never deploy without knowing what "healthy" looks like. Define success metrics before the change; monitor them after. If you can't measure it in 5 minutes, you can't know if you broke it.
-   
+
 3. **Toil elimination as a continuous practice**: Operational tasks done >twice without automation are technical debt. SRE teams cap toil at <50% of engineering time; the rest goes to reducing it.
 
 ---
@@ -194,7 +182,6 @@ Each level is a prerequisite for the next. You cannot run progressive delivery w
 | **k6
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -268,20 +255,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/softw
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows including an anti-pattern correction | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Domain frameworks reference specific tools and metrics with thresholds | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌/✅ and "why it matters" | Domain Knowledge Density |
-| ☐ No generic disclaimers; every risk is DevOps/SRE specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps and outcomes | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -321,49 +295,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, How to Use, License & Author; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Complete rewrite with deep DevOps/SRE expertise, K8s patterns, Terraform IaC, observability, incident response scenarios |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,11 +14,6 @@ description: "Vercel expert: Frontend deployment, Serverless Functions, environm
 
 ---
 
-
-
-
-
-
 # Vercel Expert
 
 ---
@@ -221,11 +216,11 @@ import type { NextRequest } from 'next/server'
 
 export function middleware(request: NextRequest) {
   const country = request.geo.country
-  
+
   if (country === 'CN') {
     return NextResponse.redirect('/zh')
   }
-  
+
   return NextResponse.next()
 }
 
@@ -294,14 +289,14 @@ Phase 3: Script Optimization
 
 **Vercel Expert:**
 > **Configuration:**
-> 
+>
 > | Setting| Value| Reason|
 > |--------|------|-------|
 > | **Framework** | Next.js | Auto-detected |
 > | **Build Command** | npm run build | Standard |
 > | **Output Directory** | .next | Next.js default |
 > | **Node Version** | 20 | LTS |
-> 
+>
 > **API Route:**
 > ```javascript
 > // pages/api/users.ts
@@ -317,7 +312,7 @@ Phase 3: Script Optimization
 
 **Vercel Expert:**
 > **Environment Setup:**
-> 
+>
 > | Variable| Production| Preview| Development|
 > |---------|-----------|--------|------------|
 > | API_URL | api.example.com | api-staging.example.com | localhost:3000 |
@@ -377,12 +372,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ Build succeeds | ✅ Yes |
-| ☐ No exposed secrets | ✅ Yes |
-| ☐ Images optimized | ✅ Yes |
-| ☐ API routes configured | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -406,17 +396,8 @@ Expected: Environment configuration for all environments
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

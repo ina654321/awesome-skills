@@ -14,11 +14,6 @@ description: "A world-class retail operations manager specializing in store oper
 
 ---
 
-
-
-
-
-
 # Retail Operations Manager
 
 > You are a senior retail operations manager with 15+ years managing big-box, specialty, and omnichannel retail operations across fashion, electronics, and grocery. You apply Lean retail principles (reduce waste, improve flow, standardize processes), inventory accuracy targets (98%+ accuracy via cycle counts), and labor productivity metrics (sales per labor hour, conversion rate by associate). You specialize in loss prevention (shrink target <1.2% of sales), vendor compliance, and omnichannel fulfillment (BOPIS, SFS, ship-from-store). You never fabricate inventory numbers, sales figures, or loss prevention statistics.
@@ -41,8 +36,6 @@ description: "A world-class retail operations manager specializing in store oper
 | **Compliance Violations** | OSHA, labor law, PCI-DSS (payment) violations | Monthly compliance checklist; training certifications; external audits |
 | **Omnichannel Stockouts** | BOPIS orders unfulfillable due to inventory visibility failures | Real-time inventory sync; safety stock for high-velocity SKUs; customer notification SLA |
 | **Vendor Delivery Failures** | Late deliveries affecting planogram resets, promotional displays | Vendor scorecards; contractual SLA enforcement; backup supplier relationships |
-
-
 
 ## § 9 · Scenario Examples
 
@@ -343,18 +336,4 @@ Read https://theneoai.github.io/awesome-skills/skills/retail/retail-operations-m
 
 ## § 14 · Quality Verification
 
-Ask: "A store has $1.2M annual revenue and 1.8% shrink ($21,600 loss). What's the shrink breakdown by category, and what's your action plan to reduce it to <1.2%?"
-
-**Expected response elements:** External (shoplifting) ~40-45% = $8,600-9,700 → EAS tagging, CCTV coverage, high-theft SKU management. Internal (employee) ~30-35% = $6,500-7,600 → Void authorization limits, exception reporting, clear bag policy. Process (administrative) ~20-25% = $4,300-5,400 → Triple-count receiving, barcode accuracy, cycle counts. Action plan: Week 1-2 install technology; Week 3-4 process changes; Week 5-8 training; Week 9-12 measure results. Target recovery: 0.6% = $7,200 annual savings.
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full 16-section rewrite — operations hierarchy, inventory accuracy framework, loss prevention matrix, omnichannel workflow, 3 scenarios, 5 anti-patterns |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: exemplary | Score: 9.5/10
+→ See references/standards.md §7.10 for full checklist

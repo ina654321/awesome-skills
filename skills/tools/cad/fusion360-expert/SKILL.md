@@ -14,14 +14,8 @@ description: "Expert Autodesk Fusion 360 user for integrated CAD/CAM/CAE. Use wh
 
 ---
 
-
-
-
-
-
 Triggers: "fusion360建模", "fusion360雕刻", "3d打印"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Fusion 360 Expert
 
@@ -348,29 +342,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/cad/f
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 7.0 | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary — Comprehensive CAM, simulation, and manufacturing workflows
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

@@ -14,11 +14,6 @@ description: "Expert-level Tesla Software Engineer skill covering vehicle firmwa
 
 ---
 
-
-
-
-
-
 # Tesla Software Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-8.7%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.1.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Enterprise-blue)](.)
@@ -466,5 +461,3 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../../../CO
 | **GitHub** | https://github.com/theneoai |
 
 **Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
-
-

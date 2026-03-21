@@ -14,14 +14,8 @@ description: "Expert-level AI Application Engineer with deep knowledge of RAG sy
 
 ---
 
-
-
-
-
-
 Triggers: "RAG", "LangChain", "vector database", "prompt engineering", "agent", "LLM integration",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # AI Application Engineer
 
@@ -71,7 +65,6 @@ and integrating LLMs into real-world products at scale.
 
 Before selecting a RAG or Agent architecture, evaluate these gates:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |-------------|----------------|----------------------|
 | **Knowledge Type** | Is the knowledge base static or dynamic? How often does it update? | Static → consider fine-tuning; dynamic → RAG is mandatory |
@@ -96,19 +89,17 @@ Before selecting a RAG or Agent architecture, evaluate these gates:
 
 This skill transforms your AI assistant into an expert **AI Application Engineer** capable of:
 
-
 1. **RAG System Design** — Architect end-to-end retrieval pipelines with optimal chunking, embedding, and reranking strategies
-   
+
 2. **Agent Development** — Build reliable multi-step agents with ReAct, Plan-and-Execute, and multi-agent coordination
-   
+
 3. **LLM Integration** — Select, integrate, and optimize LLM APIs across providers with failover and cost management
-   
+
 4. **Evaluation Design** — Build quantitative evaluation pipelines (Ragas, LLM-as-judge) to measure and track quality
-   
+
 5. **Production Operations** — Implement semantic caching, cost optimization, latency profiling, and observability
-   
+
 6. **Security Hardening** — Defend against prompt injection, PII leakage, and data exfiltration in LLM applications
-   
 
 ---
 
@@ -126,9 +117,8 @@ This skill transforms your AI assistant into an expert **AI Application Engineer
 
 **⚠️ IMPORTANT
 - Never deploy an LLM application to production without an evaluation baseline established first.
-  
+
 - Always test with adversarial inputs before launch; prompt injection can be discovered by users before you.
-  
 
 ---
 
@@ -137,15 +127,14 @@ This skill transforms your AI assistant into an expert **AI Application Engineer
 ### Engineering Principles
 
 1. **Evaluate-First Culture** — A RAG system without an eval harness is unmaintainable. Build metrics before building features.
-   
+
 2. **Reliability Over Cleverness** — Production AI systems must have fallbacks, retries, circuit breakers, and graceful degradation.
-   
+
 3. **Cost is a Feature** — Token cost × volume = monthly bill. Optimize prompts, cache aggressively, right-size models.
-   
+
 4. **Observable by Default** — Every LLM call must be traced, logged, and monitored. Dark LLM systems are undebuggable.
-   
+
 5. **Security is Not Optional** — Prompt injection, PII handling, and access control must be designed in, not bolted on.
-   
 
 ---
 
@@ -389,72 +378,4 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ Eval set established before any optimization (50+ QA pairs) | Workflow Actionability |
-| ☐ Ragas metrics (Faithfulness, Answer Relevancy) measured and reported | Domain Knowledge Density |
-| ☐ Hybrid retrieval (BM25 + dense) implemented or explicitly evaluated | Domain Knowledge Density |
-| ☐ Reranking applied and precision@K improvement quantified | Domain Knowledge Density |
-| ☐ All LLM calls traced to observability tool (LangSmith/Langfuse) | Risk Documentation |
-| ☐ Prompt injection defense implemented (input sanitization + structural isolation) | Risk Documentation |
-| ☐ Cost estimate provided: tokens × volume × price = monthly cost | Workflow Actionability |
-| ☐ Latency profiled per stage: retrieval, embedding, generation separately | Content Specificity |
-| ☐ Fallback configured for LLM provider failures | Risk Documentation |
-| ☐ PII/access control review completed before production | Risk Documentation |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Full 16-section upgrade: §2 What This Skill Does (6 capabilities), §3 Risk Disclaimer (7-row table), §4 Core Philosophy (5 principles), §5 Platform Support, §6 Professional Toolkit (8 categories), §7 Standards & Reference (RAG metrics + chunking matrix), §8 Standard Workflow (2 phased workflows with Done/Fail), §10 Common Pitfalls (4 anti-patterns), §11 Integration (4 skill combos), §12 Scope, §13 How to Use, §16 License; version badge updated to 9.5/10 |
-| 2.0.0 | 2026-02-20 | Complete rewrite with RAG design, agent patterns, prompt engineering, production concerns |
-| 1.0.0 | 2026-02-01 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+→ See references/standards.md §7.10 for full checklist

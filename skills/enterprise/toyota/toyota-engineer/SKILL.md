@@ -406,8 +406,8 @@ echo "Read [URL] and apply toyota-engineer skill." >> ./CLAUDE.md
 
 ## 16. License & Author
 
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT  
+**Author**: neo.ai (lucas_hsueh@hotmail.com)
+**License**: MIT
 **Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
 
 ---

@@ -14,11 +14,6 @@ description: "OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/L
 
 ---
 
-
-
-
-
-
 # OpenTelemetry Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -568,8 +563,8 @@ otelcol --config config.yaml --dry-run
 **OTel Expert:**
 > **Architecture:**
 > ```
-> React (Browser) 
->   → Backend API (Node.js) 
+> React (Browser)
+>   → Backend API (Node.js)
 >     → Database Service (Python)
 > ```
 >

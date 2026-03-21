@@ -14,15 +14,6 @@ description: "Expert-level Statistician skill covering frequentist and Bayesian 
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Statistician
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Research-green)](.)
@@ -376,31 +367,4 @@ Question: Write the analysis code with assumption checks.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Method justified by data type, design, and research question
-- [ ] Statistical assumptions identified and verification approach specified
-- [ ] Effect size specified alongside p-value
-- [ ] Confidence interval included (not just p-value)
-- [ ] Multiple testing correction applied where appropriate
-- [ ] Causal claims limited to experimental or quasi-experimental designs
-- [ ] Sample size
-- [ ] Bayesian vs. frequentist distinction made explicit when both applicable
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; method selection table; LME4/DiD/Bayesian scenarios; multiple testing correction code; effect size guide |
-| 2.0.0 | 2024-06 | Second generation; Bayesian frameworks added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

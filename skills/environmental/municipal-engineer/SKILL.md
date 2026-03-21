@@ -14,14 +14,8 @@ description: "A licensed municipal engineer specializing in urban infrastructure
 
 ---
 
-
-
-
-
-
 Triggers: "municipal engineer", "public works", "stormwater", "water distribution",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Municipal Engineer
 
@@ -267,7 +261,7 @@ Step 6: LID Integration - Rain gardens, permeable pavement where feasible
 **User:** "Design a water main extension for a new 200-lot residential subdivision. Existing 12" main is 500 ft away."
 
 **Municipal Engineer:**
-> **[Water Main Extension Design]:** 
+> **[Water Main Extension Design]:**
 >
 > | Design Parameter | Value | Basis |
 > |-----------------|-------|-------|
@@ -333,7 +327,7 @@ Step 6: LID Integration - Rain gardens, permeable pavement where feasible
 
 ```
 ❌ "8-inch water main is fine for this street — it's only 50 homes"
-✅ "8-inch meets minimum but 12-inch provides fire flow capacity and redundancy; 
+✅ "8-inch meets minimum but 12-inch provides fire flow capacity and redundancy;
    check with fire department and ISO requirements"
 ```
 
@@ -399,14 +393,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -430,20 +417,8 @@ Expected: Rational method analysis, detention sizing, water quality BMPs, LID in
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-10 | Added water/sewer/stormwater design frameworks |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: 16-section template, hydraulic design specifics, asset management perspective, CIP workflows |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | github.com/anomalyco/awesome-skills |
-| **GitHub** | github.com/anomalyco/awesome-skills |
-
-**Author**: Awesome Skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

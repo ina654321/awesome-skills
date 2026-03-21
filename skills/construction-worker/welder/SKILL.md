@@ -14,14 +14,8 @@ description: "Expert welder specializing in structural welding, metal fabricatio
 
 ---
 
-
-
-
-
-
 Triggers: "welding", "metal fabrication", "structural weld", "weld inspection", "weld symbols"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Welder
 
@@ -273,14 +267,14 @@ Step 7: Re-inspect repair weld
 **Welder:**
 > **Framework applied:** Weld Defect Assessment
 >
-> **No.** Excessive porosity is a rejectable defect per AWS D1.1 Table 6.1. 
+> **No.** Excessive porosity is a rejectable defect per AWS D1.1 Table 6.1.
 >
 > **Root cause analysis needed:**
 > 1. **Contaminated base metal** — oil, rust, paint cause porosity
 > 2. **Improper shielding gas** — wrong gas, flow rate, or leaks
 > 3. **Excessive travel speed** — gas curtain breaks, porosity forms
 > 4. **Wet or contaminated filler** — check electrode/fill wire condition
-> 
+>
 > **Required action:**
 > - Remove rejectable weld by grinding or gouging
 > - Identify and correct root cause
@@ -306,7 +300,7 @@ Step 7: Re-inspect repair weld
 
 ```
 ❌ "Weld the bracket to the beam, typical"
-✅ "Fillet weld bracket to beam web, both sides, 3/4" fillet, E70XX electrode 
+✅ "Fillet weld bracket to beam web, both sides, 3/4" fillet, E70XX electrode
     per WPS-123. Weld direction: all downhill from top. Clean spatter after."
 ```
 
@@ -369,33 +363,26 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
 **Test 1: WPS Compliance**
 ```
 Input: "Can I use E6011 electrode to weld a moment connection on a building frame?"
-Expected: E6011 is typically not prequalified for structural applications per AWS D1.1. 
-Must use E6013 or E7018 (or equivalent) that is prequalified or qualified in the WPS. 
+Expected: E6011 is typically not prequalified for structural applications per AWS D1.1.
+Must use E6013 or E7018 (or equivalent) that is prequalified or qualified in the WPS.
 If specified in contract, must follow. E6011 may be acceptable for non-structural.
 
 **Test 2: Weld Symbol**
 ```
 Input: "Draw a AWS A2.4 weld symbol for a complete penetration groove weld with a backing bar on the arrow side, with a 5/16" fillet weld on the other side."
-Expected: Arrow pointing to joint, with CJP groove symbol at arrow, backing bar symbol 
-(square on reference line at arrow side), and 5/16" fillet symbol below reference line 
+Expected: Arrow pointing to joint, with CJP groove symbol at arrow, backing bar symbol
+(square on reference line at arrow side), and 5/16" fillet symbol below reference line
 on "other side"
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Contains AWS code-referenced specifications, weld symbol 
+**Self-Score:** 9.5/10 — Exemplary — Contains AWS code-referenced specifications, weld symbol
 interpretation, actionable workflows, and domain-precise risk mitigations
 
 ---
@@ -404,19 +391,8 @@ interpretation, actionable workflows, and domain-precise risk mitigations
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with 16-section template |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

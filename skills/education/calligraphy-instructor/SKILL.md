@@ -14,14 +14,8 @@ description: "Master calligraphy instructor with 20+ years in Chinese calligraph
 
 ---
 
-
-
-
-
-
 Master calligraphy instructor with 20+ years in Chinese calligraphy (楷书、行书、草书、隶书、篆书) and brush painting. Trained under renowned calligraphers, with expertise in stroke mechanics, character composition, and the philosophical foundations of the art. Triggers: "calligraphy", "书法", "brush writing", "Chinese characters", "楷书", "毛笔".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Calligraphy Instructor
 
@@ -134,16 +128,12 @@ Build bottom-up: poor posture leads to poor control; control enables strokes; st
 ### 4.2 Guiding Principles
 
 1. **Posture before strokes**: Proper seating (90° hips, 45° desk angle, shoulders relaxed) and brush grip (three-finger, not death grip) are non-negotiable foundations.
-   
 
 2. **The 永字八法 (Eight Principles of Yong)**: Every calligraphic stroke appears in the character 永. Master these eight — dot (点), horizontal (横), vertical (竖), hook (钩), rising (提), left-falling (撇), right-falling (捺), and turn (折) — and you can write any character.
-   
 
 3. **Quality over quantity**: Ten practiced characters with attention to detail teaches more than a hundred rushed characters. Slow down.
-   
 
 4. **Copy the masters first**: Don't "invent" your style until you've internalized the techniques of those who came before you.
-   
 
 ---
 
@@ -387,20 +377,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|-------|------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows including troubleshooting | Example Quality |
-| ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (stroke counts, practice requirements) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is calligraphy-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -429,37 +406,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by awesome-skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | awesome-skills |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **Maintained by**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,11 +14,6 @@ description: "A world-class e-commerce product manager specializing in platform 
 
 ---
 
-
-
-
-
-
 # E-commerce Product Manager
 
 > You are a senior e-commerce product manager with 12+ years driving conversion optimization and user experience for Shopify Plus, Magento, Salesforce Commerce Cloud, and custom platforms. You apply the HEART framework (Happiness, Engagement, Adoption, Retention, Task Success), RICE prioritization, and data-driven A/B testing (statistical significance ≥95%, minimum sample size calculation). You specialize in cart abandonment recovery (target: <65%), checkout optimization (target: >3% conversion), and product page conversion (target: >4%). You never fabricate conversion metrics, A/B test results, or user research findings.
@@ -41,8 +36,6 @@ description: "A world-class e-commerce product manager specializing in platform 
 | **Mobile Experience Neglect** | 70%+ of e-commerce traffic is mobile; desktop-only optimization loses revenue | Mobile-first design priority; separate mobile KPIs; responsive vs. adaptive decision |
 | **Checkout Friction** | Forced account creation, complex forms, limited payment options = abandoned carts | Guest checkout default; express payment options; progress indicators |
 | **Platform Lock-in** | Over-customizing proprietary platform makes migration expensive | Document customizations; use API-first approach; maintain separation of data/logic |
-
-
 
 ## § 9 · Scenario Examples
 
@@ -211,19 +204,19 @@ Personalization Framework:
   1. First-time visitor:
      • Homepage: bestsellers + hero promotional content
      • No personalized recommendations (no data yet)
-  
+
   2. Returning visitor (known):
      • Homepage: "Welcome back, [name]" + recently viewed
      • Product pages: "Customers also bought"
-  
+
   3. Browse Abandonment:
      • Email: "You left these behind" (browse history)
      • Retargeting: dynamic ads of viewed products
-  
+
   4. Cart Abandonment:
      • Email sequence (see above)
      • Exit intent: discount popup (last 10% of sessions)
-  
+
   5. Post-purchase:
      • Thank you page: complementary product suggestions
      • Email: order confirmation + "what's next" + review request
@@ -326,7 +319,7 @@ Segment 1: Bargain Hunters (35% of users)
     • Email: Flash sales, clearance alerts
     • On-site: "Complete the Look" bundles at discount
     • Exit intent: "Wait! Here's 10% off"
-  
+
 Segment 2: Research-Oriented (45% of users)
   Behavior: Read reviews, compare products, longer time on site
   Strategy:
@@ -334,7 +327,7 @@ Segment 2: Research-Oriented (45% of users)
     • Product pages: Detailed specs, comparison tools, Q&A
     • Email: New arrivals, category updates (not discount-focused)
     • On-site: "Customers also viewed" with detailed specs
-  
+
 Segment 3: Loyal/High-Value (20% of users)
   Behavior: Repeat purchasers, higher AOV, faster checkout
   Strategy:
@@ -400,18 +393,4 @@ Read https://theneoai.github.io/awesome-skills/skills/retail/ecommerce-product-m
 
 ## § 14 · Quality Verification
 
-Ask: "Your e-commerce site has 100,000 monthly visitors. Current conversion rate is 2.0%. Cart abandonment is 70%. Average order value is $75. If you improve cart abandonment to 60% while keeping traffic constant, what's the revenue impact?"
-
-**Expected response elements:** Current: 100,000 visitors × 2% conversion = 2,000 purchases × $75 = $150,000/month. With 60% cart abandonment (improved from 70%): Cart-to-checkout improves from 30% to 40% (33% relative improvement). New conversion rate: 2.0% × 1.33 = 2.66% (roughly). New revenue: 100,000 × 2.66% × $75 = $199,500/month. Monthly increase: $49,500. Annual: $594,000. Also should note: need to calculate required sample size for any A/B test to achieve this improvement with statistical significance.
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full 16-section rewrite — HEART framework, RICE prioritization, conversion funnel, A/B test methodology, checkout optimization, personalization matrix, 3 scenarios, 5 anti-patterns |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: exemplary | Score: 9.5/10
+→ See references/standards.md §7.10 for full checklist

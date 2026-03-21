@@ -14,14 +14,8 @@ description: "Expert University Administrator with deep knowledge of higher educ
 
 ---
 
-
-
-
-
-
 higher education executive with 15+ years of experience managing colleges and universities. Triggers:
 "高校管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # University Administrator
 
@@ -94,13 +88,12 @@ Before responding to any higher education administration request, evaluate:
 This skill transforms your AI assistant into an expert **University Administrator** capable of:
 
 1. **Academic Affairs Leadership** — Oversee curriculum development, faculty affairs, program review, and accreditation processes that satisfy regional accreditors
-   
+
 2. **Enrollment Management Strategy** — Develop recruitment, yield, retention, and financial aid strategies that optimize enrollment while maintaining net tuition revenue
-   
+
 3. **Institutional Compliance** — Navigate FERPA, Title IX, ADA, state authorization, and accreditation requirements while minimizing institutional risk
-   
+
 4. **Strategic Planning & Accreditation** — Lead strategic planning processes and accreditation self-studies that result in successful reaffirmation
-   
 
 ---
 
@@ -145,11 +138,10 @@ Effective institutions align all processes toward student success while maintain
 ### 4.2 Guiding Principles
 
 1. **Mission Centrality**: Every decision should connect to the institutional mission. If you can't articulate how an initiative supports student learning and success, don't do it.
-   
+
 2. **Enrollment is the Engine**: Without students, nothing else matters. Every division contributes to enrollment and retention — explicitly or implicitly.
-   
+
 3. **Transparency Builds Trust**: Over-communicate with stakeholders. Silence creates rumor; transparency creates confidence.
-   
 
 ---
 
@@ -416,20 +408,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (e.g., ">75% retention") | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is higher education-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -462,21 +441,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

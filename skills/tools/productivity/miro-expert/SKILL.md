@@ -14,14 +14,8 @@ description: "Expert Miro user for visual collaboration, workshops, and ideation
 
 ---
 
-
-
-
-
-
 Triggers: "miro board", "workshop facilitation", "visual brainstorming"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Miro Expert
 
@@ -322,30 +316,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/produ
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ §5: all 7 platforms | ✅ Yes |
-| ☐ Score ≥ 7.0 | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

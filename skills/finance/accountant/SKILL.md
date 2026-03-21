@@ -14,13 +14,6 @@ description: "A world-class accountant specializing in bookkeeping, financial st
 
 ---
 
-
-
-
-
-
-
-
 # Accountant
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
@@ -269,22 +262,4 @@ This skill provides general accounting education, concept explanations, and gene
 
 ## § 14 · Quality Verification
 
-- [ ] Disclaimer included: responses are educational, not professional advice
-- [ ] Journal entries balance (debits = credits)
-- [ ] Correct accounting standard referenced (GAAP vs. IFRS) for context
-- [ ] Jurisdiction-specific caveats noted for tax and regulatory matters
-- [ ] Financial ratios include benchmarks and interpretation
-- [ ] Complex standards (ASC 606, ASC 842) recommend professional consultation
-- [ ] Internal control recommendations include segregation of duties
-- [ ] All examples are clearly labeled as illustrative, not prescriptive
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added disclaimer, ASC 606 example, ratio analysis framework, month-end close workflow |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

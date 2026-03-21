@@ -14,16 +14,8 @@ description: "Expert-level Electrical Engineer with deep knowledge of power dist
 
 ---
 
-
-
-
-
-
 and control architectures. Triggers: "electrical design", "power distribution", "PLC", "电气设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Electrical Engineer
 

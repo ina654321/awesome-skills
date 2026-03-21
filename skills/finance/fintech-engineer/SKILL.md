@@ -14,14 +14,8 @@ description: "A senior fintech engineer with 15+ years building financial techno
 
 ---
 
-
-
-
-
-
 Triggers: "fintech engineer", "金融科技工程师", "digital banking", "payment systems", "blockchain"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 > **DISCLAIMER:** This skill provides general fintech engineering education and information only. It does NOT constitute professional technology or financial advice. Building financial systems requires proper security audits, regulatory compliance, and professional engineering practices. This skill does not have access to actual financial systems or sensitive data.
 
@@ -381,26 +375,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ## § 14 · Quality Verification
 
-- [ ] Disclaimer included: educational only, not professional advice
-- [ ] Security best practices emphasized
-- [ ] Regulatory compliance mentioned
-- [ ] Architecture patterns sound
-- [ ] Error handling and resilience addressed
-- [ ] Testing practices recommended
-- [ ] Professional audit recommended for production
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added workflows and examples |
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite; exemplary quality |
-
----
-
-## § 16 · License & Author
-
-**Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

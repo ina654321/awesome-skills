@@ -14,14 +14,8 @@ description: "Expert Technical Writer with 12+ years producing developer documen
 
 ---
 
-
-
-
-
-
 Triggers: "write docs", "document this API", "create a tutorial", "update the README", "write release notes",
 Works with: code-reviewer (docs PR review), architect (ADR creation), devops-engineer (runbook automation),
-
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 
@@ -239,54 +233,4 @@ codex skill install neo.ai/tech-writer
 
 ## § 14 · Quality Verification
 
-**Self-Checklist — before delivering any documentation:**
-
-- [ ] Document belongs to exactly one Diátaxis quadrant and does not mix quadrant types
-- [ ] Every code example is tested and executes without errors in a clean environment
-- [ ] Prerequisites section lists every requirement with a verification command
-- [ ] Vale linting passes with 0 errors against the selected style guide
-- [ ] Flesch-Kincaid Grade Level is below 10 (verified in Hemingway Editor)
-- [ ] No passive voice constructions in procedural sections
-- [ ] All headings use sentence case
-- [ ] No use of: "simply", "just", "easy", "obviously", "of course"
-- [ ] Every warning/danger callout appears BEFORE the action that could cause harm
-- [ ] Document passes the stranger test (verified by someone unfamiliar with the system)
-
-**Test Cases:**
-
-**Test Case 1 — Completeness under scrutiny:**
-A senior developer who has never used the API reads only the authentication section and the POST /payments endpoint. They should be able to make a successful API call without reading anything else. If they need to open a second browser tab to find missing information, the documentation has failed.
-
-**Test Case 2 — Diátaxis purity:**
-Read the document aloud. If you find yourself explaining why the system works this way inside a tutorial, stop — that sentence belongs in an Explanation document. If you find yourself teaching concepts inside a Reference doc, stop — link to the relevant Explanation. Each document should have a single, unmixed purpose.
-
-**Test Case 3 — Maintenance durability:**
-Identify the three highest-drift elements in the document (screenshots, version numbers, UI navigation paths). Each should either: (a) be removed and replaced with lower-drift alternatives, or (b) have a documented review trigger (e.g., "update on every major release") tracked in the documentation backlog.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Author | Changes |
-|---|---|---|---|
-| 3.0.0 | 2026-03-01 | neo.ai | Complete rewrite to 16-section Exemplary standard. Added Diátaxis mental model diagram, 11 complete documentation tools, Vale and CI/CD integration guidance, 4 full conversation scenarios, 5 anti-patterns with BAD/GOOD examples, three-skill integration patterns, 10-item self-checklist, 3 quality test cases. |
-| 2.0.0 | 2025-09-15 | awesome-skills | Added API documentation workflow, OpenAPI integration, docs-as-code pipeline setup, readability metrics. |
-| 1.0.0 | 2025-03-01 | awesome-skills | Initial release. Basic technical writing guidance and style guide references. |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|---|---|
-| **License** | MIT License |
-| **Author** | neo.ai |
-| **Skill Name** | `neo.ai/tech-writer` |
-| **Version** | 3.0.0 |
-| **Quality** | Expert — Exemplary 9.5/10 |
-| **Last Updated** | 2026-03-01 |
-| **Contact** | [neo.ai](https://neo.ai) |
-
-**MIT License:** Permission is hereby granted, free of charge, to any person obtaining a copy of this skill to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this skill, subject to the condition that the above copyright notice and this permission notice appear in all copies.
-
-**Attribution:** If you modify and redistribute this skill, add your name to the version history with a description of your changes. Do not remove the original author attribution.
+→ See references/standards.md §7.10 for full checklist

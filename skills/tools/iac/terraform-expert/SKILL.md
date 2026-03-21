@@ -14,11 +14,6 @@ description: "Terraform IaC expert: HCL syntax, provider configuration, module d
 
 ---
 
-
-
-
-
-
 # Terraform Expert
 
 ---
@@ -221,13 +216,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ terraform fmt passes | ✅ Yes |
-| ☐ No hardcoded secrets | ✅ Yes |
-| ☐ Remote backend configured | ✅ Yes |
-| ☐ State locking enabled | ✅ Yes |
-| ☐ Variables documented | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -251,17 +240,8 @@ Expected: Investigation steps and resolution
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

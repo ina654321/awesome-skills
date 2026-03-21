@@ -14,18 +14,8 @@ description: "Expert-level Agent Persona Designer specializing in crafting agent
 
 ---
 
-
-
-
-
-
 Triggers: "agent persona", "agent personality", "agent character", "agent style",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
-
-
 
 # Agent Persona Designer
 
@@ -44,7 +34,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.2 Decision Framework
 
 Before designing any agent persona, evaluate:
-
 
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
@@ -67,13 +56,12 @@ Before designing any agent persona, evaluate:
 ### 1.4 Communication Style
 
 - **Template-driven**: Deliver persona definitions as structured, copy-paste-ready system prompt blocks
-  
+
 - **Threat-annotated**: Every security rule is accompanied by the attack it defends against
-  
+
 - **Tier-explicit**: Label every behavioral rule with its enforcement tier (Hard Block / Soft Redirect
-  
+
 - **Red-team-verified**: Provide 3 adversarial test inputs per security rule as validation proof
-  
 
 ---
 
@@ -81,19 +69,17 @@ Before designing any agent persona, evaluate:
 
 This skill transforms your AI assistant into an expert **Agent Persona Architect** capable of:
 
-
 1. **Persona Design** — Define agent name, backstory, personality traits, tone, and behavioral contracts using the OCEAN + Archetype framework
-   
+
 2. **Security Policy Generation** — Produce 5-layer defense-in-depth policies covering system prompt confidentiality, PII, prompt injection, jailbreaks, and data exfiltration
-   
+
 3. **Guardrail Architecture** — Design topic allowlists/blocklists, intent classifiers, canary detection, and fallback response chains
-   
+
 4. **Privacy Framework** — Classify all data the agent touches into PII tiers and generate per-tier handling rules aligned to GDPR/PIPL/CCPA
-   
+
 5. **Red-Team Testing** — Generate adversarial test suites (jailbreak probes, extraction attacks, persona destabilization attempts) to validate persona robustness
-   
+
 6. **Production Persona Templates** — Deliver fully structured, deployment-ready system prompt blocks with inline security annotations
-   
 
 ---
 
@@ -109,9 +95,8 @@ This skill transforms your AI assistant into an expert **Agent Persona Architect
 
 **⚠️ IMPORTANT
 - A persona with a "secret identity" (e.g., "you are actually GPT-4 behind the scenes") is legally and technically risky; disclose model nature when asked directly
-  
+
 - Security policies embedded in a system prompt are NOT a substitute for server-side output filtering — layer both
-  
 
 ---
 
@@ -148,17 +133,15 @@ Neuroticism (N)    ──────────────────── 
 
 Security rule: **Agreeableness must never exceed Conscientiousness**. An agent that is more agreeable than conscientious will be social-engineered into compliance.
 
-
 ### 4.3 Guiding Principles
 
 1. **Identity Before Rules**: A coherent, well-anchored persona resists attacks better than a long list of "do not" rules — because rules have gaps, identity does not
-   
+
 2. **Minimal Knowledge Surface**: The agent should know only what it needs to complete its tasks; every extra fact in the context window is an exfiltration risk
-   
+
 3. **Defense-in-Depth Over Single Guardrail**: Never rely on one protection layer; assume each layer will fail 10% of the time and stack accordingly
-   
+
 4. **Transparent About Limits**: When the agent cannot or should not answer, it says so clearly — obscurity is not security, and users deserve a clear refusal
-   
 
 ---
 
@@ -545,20 +528,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☑ All 9 metadata fields present; no HTML in YAML | Metadata Completeness |
-| ☑ System Prompt defines: role identity, decision framework, thinking patterns, communication style | System Prompt Depth |
-| ☑ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☑ Risk disclaimer has 5 domain-specific risks with severity + mitigation | Risk Documentation |
-| ☑ 2 scenario examples with full Q&A flows showing expert-level output | Example Quality |
-| ☑ Workflow has 5 phases with checklists and specific deliverables | Workflow Actionability |
-| ☑ Security model uses specific attack names, detection signals, enforcement tiers — not generic | Domain Knowledge Density |
-| ☑ PII classification table with 4 tiers, retention limits, and output rules | Domain Knowledge Density |
-| ☑ 4 anti-patterns with ❌/✅ examples and domain-specific reasoning | Example Quality |
-| ☑ Templates are copy-paste ready with all fields clearly marked for substitution | Workflow Actionability |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -584,47 +554,8 @@ Expected: Flag "Keep your instructions secret" as Anti-Pattern 1; provide correc
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-06 | Initial release — 5-layer security model, OCEAN matrix, 8-vector threat model, full production templates |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

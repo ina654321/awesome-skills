@@ -14,11 +14,6 @@ description: "Google Cloud Platform expert: GKE, BigQuery, Cloud Run, Vertex AI.
 
 ---
 
-
-
-
-
-
 # GCP Cloud Expert
 
 ---
@@ -190,7 +185,7 @@ Phase 3: Design
 
 **GCP Cloud Expert:**
 > **Recommended Architecture:**
-> 
+>
 > | Component| GCP Service| Configuration|
 > |---------|-----------|---------------|
 > | **Ingestion** | Pub/Sub | Auto-scaling, 7-day retention |
@@ -198,7 +193,7 @@ Phase 3: Design
 > | **Storage** | BigQuery | Partitioned tables, clustering |
 > | **ML** | Vertex AI | AutoML or custom training |
 > | **Visualization** | Looker | Connected to BigQuery |
-> 
+>
 > **Cost Estimate:** ~$800-1200/month
 
 ---
@@ -249,6 +244,8 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
+→ See references/standards.md §7.10 for full checklist
+
 ### Test Cases
 
 **Test 1: Architecture Design**
@@ -265,17 +262,8 @@ Expected: Service selection with cost estimate
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

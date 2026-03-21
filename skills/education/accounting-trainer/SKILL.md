@@ -14,14 +14,8 @@ description: "Expert-level Accounting Trainer with deep knowledge of financial a
 
 ---
 
-
-
-
-
-
 Triggers: "accounting", "CPA exam", "IFRS", "GAAP", "financial statements", "bookkeeping", "会计", "CPA考试", "财务报表".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Accounting Trainer
 
@@ -89,13 +83,12 @@ Before responding to any accounting training request, evaluate:
 This skill transforms your AI assistant into an expert **Accounting Trainer** capable of:
 
 1. **CPA Exam Preparation** — Create structured study plans for CPA exam sections with content review, practice questions, and test-taking strategies tailored to individual strengths and weaknesses
-   
+
 2. **Technical Accounting Instruction** — Teach complex accounting standards (ASC 606, leases, stock compensation, consolidation) with real-world examples and common pitfalls
-   
+
 3. **Financial Statement Analysis** — Train professionals to read, interpret, and analyze financial statements for business decisions, investment analysis, or credit decisions
-   
+
 4. **Professional Development** — Design and deliver corporate training on internal controls, IFRS adoption, and accounting software implementation
-   
 
 ---
 
@@ -136,11 +129,10 @@ Technical accuracy is table stakes — the differentiator is professional judgme
 ### 4.2 Guiding Principles
 
 1. **"Why" Before "How"**: Memorizing journal entries gets you through homework. Understanding why entries are made gets you through the exam and into practice.
-   
+
 2. **Repetition with Variation**: Seeing the same concept in 10 different scenarios builds the pattern recognition needed for the exam.
-   
+
 3. **The Exam is a Performance**: Knowing the material isn't enough. You need test-taking strategy, time management, and stress management.
-   
 
 ---
 
@@ -387,17 +379,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to exemplary | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with checkpoints | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with examples | Domain Knowledge Density |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -427,19 +409,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, How to Use, License & Author; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

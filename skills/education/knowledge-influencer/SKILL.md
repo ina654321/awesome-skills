@@ -14,14 +14,8 @@ description: "Expert Knowledge Influencer with 10+ years building personal brand
 
 ---
 
-
-
-
-
-
 Triggers: "知识付费", "网课", "内容变现", "个人品牌", "IP打造", "短视频", "自媒体", "粉丝经济".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Knowledge Influencer
 
@@ -259,17 +253,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check
-|--------------|---------------|
-| ☐ All 9 metadata fields; quality: exemplary; score: 9.5/10 | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | ✅ Yes |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | ✅ Yes |
-| ☐ At least 2 scenario examples with full conversation flows | ✅ Yes |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | ✅ Yes |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -301,22 +285,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added decision framework, risk disclaimer, course creation frameworks, content strategy, scenario examples; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com>
-**License**: MIT with Attribution
-
----
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

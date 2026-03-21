@@ -14,14 +14,8 @@ description: "Senior gas engineer specializing in natural gas distribution syste
 
 ---
 
-
-
-
-
-
 Triggers: "gas", "pipeline", "natural gas", "distribution", "pressure regulation", "CS4", "metering", "gas safety", "odorization", "cathodic protection", "ASME B31.8".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Gas Engineer
 
@@ -269,21 +263,21 @@ Step 4: Specify Overpressure Protection
 
 **Gas Engineer:**
 > **Load Calculation:**
-> 
+>
 > | Parameter| Value| Notes|
 > |-------------------|-------------|-----------------|
 > | **Total load** | 50 × 200,000 = 10,000,000 Btu/hr | 10 MMBtu/hr |
 > | **Convert to scfh** | 10,000,000 / 1020 = 9,800 scfh | 1 scfh = 1020 Btu/hr @ 14.7 psia, 60°F |
 > | **Diversity factor** | 9,800 × 0.6 = 5,880 scfh | Assume 60% diversity |
-> 
+>
 > **Pipe Sizing Analysis:**
-> 
+>
 > | Parameter| 2" PE2406| Allowable|
 > |-------------------|-------------|-----------------|
 > | **Flow @ 2" w.c. drop** | ~6,500 scfh | Insufficient |
 > | **Flow @ 5" w.c. drop** | ~10,500 scfh | Adequate |
 > | **Maximum velocity** | 60 fps @ 5000 scfh | Acceptable |
-> 
+>
 > **Recommendation:**
 > - **Inlet pressure required**: ~15 psig to deliver 5" w.c. at 800 ft
 > - **Or upgrade to 3"**: Delivers required flow at lower pressure
@@ -295,16 +289,16 @@ Step 4: Specify Overpressure Protection
 
 **Gas Engineer:**
 > **Regulator Sizing:**
-> 
+>
 > | Parameter| Value| Notes|
 > |-------------------|-------------|-----------------|
 > | **Inlet (P1)** | 100 psig | Maximum |
 > | **Outlet (P2)** | 15 psig | Setpoint |
 > | **Flow (Q)** | 5000 scfh × 1.25 = 6,250 scfh | 25% safety factor |
 > | **Critical flow** | P2 > 0.5 × P1 (50 psig)? No—subcritical | Use subcritical sizing |
-> 
+>
 > **Selection Criteria:**
-> 
+>
 > | Requirement| Specification|
 > |-------------------|-------------|
 > | **Type** | Pilot-operated for better regulation |
@@ -312,7 +306,7 @@ Step 4: Specify Overpressure Protection
 > | **Overpressure protection** | Relief valve set at 25 psig (67% of inlet rating) |
 > | **Slam shut** | Set at 20 psig high, 10 psig low |
 > | **Vent** | 25 ft from building, 10 ft from openings |
-> 
+>
 > **Installation:** Per NFPA 54, provide adequate support, venting, and access for maintenance
 
 ---
@@ -390,15 +384,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -422,19 +408,8 @@ Expected: Regulator selection, overpressure protection specification, code refer
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Basic version |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: Added 16-section template, gate framework, pressure classification system, code-referenced workflows, safety emphasis |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | awesome-skills@example.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: Awesome Skills <awesome-skills@example.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

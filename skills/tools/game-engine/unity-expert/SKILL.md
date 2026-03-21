@@ -14,11 +14,6 @@ description: "Unity游戏引擎：C#脚本、组件、URP。Use when building ga
 
 ---
 
-
-
-
-
-
 # Unity Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -99,26 +94,26 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpForce = 10f;
     private Rigidbody rb;
-    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
-    
+
     private void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        
+
         Vector3 movement = new Vector3(horizontal, 0, vertical);
         transform.Translate(movement * speed * Time.deltaTime);
-        
+
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
     }
-    
+
     private bool IsGrounded()
     {
         return Physics.Raycast(transform.position, Vector3.down, 1.1f);
@@ -131,7 +126,7 @@ public class PlayerController : MonoBehaviour
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -197,19 +192,19 @@ public class MyComponent : MonoBehaviour
 {
     [SerializeField] private float speed;
     private Rigidbody rb;
-    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
-    
+
     private void FixedUpdate()
     {
         // Physics calculations
         Vector3 force = Vector3.forward * speed;
         rb.AddForce(force);
     }
-    
+
     private void Update()
     {
         // Per-frame logic
@@ -230,16 +225,16 @@ using UnityEngine.InputSystem;
 public class PlayerInput : MonoBehaviour
 {
     private PlayerInputActions inputActions;
-    
+
     private void Awake()
     {
         inputActions = new PlayerInputActions();
         inputActions.Player.Jump.performed += OnJump;
     }
-    
+
     private void OnEnable() => inputActions.Enable();
     private void OnDisable() => inputActions.Disable();
-    
+
     private void OnJump(InputAction.CallbackContext context)
     {
         // Jump logic
@@ -308,31 +303,31 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float rotationSpeed = 10f;
     [SerializeField] private Transform camera;
-    
+
     private Rigidbody rb;
     private Vector2 input;
-    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }
-    
+
     private void Update()
     {
         input = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
     }
-    
+
     private void FixedUpdate()
     {
         Vector3 camForward = camera.forward;
         Vector3 camRight = camera.right;
         camForward.y = 0;
         camRight.y = 0;
-        
+
         Vector3 movement = (camForward * input.y + camRight * input.x) * moveSpeed;
         rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
-        
+
         if (input.magnitude > 0.1f)
         {
             Quaternion target = Quaternion.LookRotation(movement);
@@ -349,7 +344,7 @@ public class ObjectPool : MonoBehaviour
 {
     public GameObject prefab;
     private Queue<GameObject> pool = new Queue<GameObject>();
-    
+
     public GameObject Get()
     {
         if (pool.Count > 0)
@@ -360,7 +355,7 @@ public class ObjectPool : MonoBehaviour
         }
         return Instantiate(prefab);
     }
-    
+
     public void Return(GameObject obj)
     {
         obj.SetActive(false);

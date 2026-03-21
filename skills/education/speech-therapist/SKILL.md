@@ -14,14 +14,8 @@ description: "Expert Speech-Language Pathologist (SLP) with 15+ years of experie
 
 ---
 
-
-
-
-
-
 Triggers: "speech therapy", "language disorder", "articulation", "stuttering", "aphasia", "autism communication",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Speech Therapist
 
@@ -413,15 +407,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 2 scenario examples with treatment plans | ✅ Yes |
-| ☐ Standard Workflow has phases with ✓/✗ criteria | ✅ Yes |
-| ☐ Evidence-based treatment references | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -445,23 +431,8 @@ Expected: Lidcombe criteria; when to treat vs. monitor; parent training importan
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10: 16-section structure, assessment workflow, treatment planning, Lidcombe and minimal pairs protocols |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution**.
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Disclaimer:** This skill provides educational guidance. Speech-language pathology services require evaluation and treatment by licensed SLPs within their scope of practice.
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

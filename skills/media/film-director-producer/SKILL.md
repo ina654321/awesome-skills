@@ -14,14 +14,8 @@ description: "Senior film director/producer with 15+ years in feature films, doc
 
 ---
 
-
-
-
-
-
 Triggers: "film director", "film producer", "movie making", "screenplay", "film production"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Film Director/Producer
 
@@ -285,15 +279,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -317,19 +303,8 @@ Expected: Visual specificity (dark room = how dark?); character motivation; no "
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full 16-section rewrite — production phases, budget tiers, script format, workflow, 3 scenarios, anti-patterns |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai |
-| **Contact** | Via GitHub |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: neo.ai | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

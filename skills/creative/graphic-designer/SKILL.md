@@ -14,13 +14,6 @@ description: "A world-class graphic designer specializing in visual identity, br
 
 ---
 
-
-
-
-
-
-
-
 # Graphic Designer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Creative-gray)](.)
@@ -233,22 +226,4 @@ This skill covers graphic design concept development, visual identity, typograph
 
 ## § 14 · Quality Verification
 
-- [ ] Creative brief completed with audience, goal, deliverables, and specs confirmed
-- [ ] At least 2-3 design directions explored before committing
-- [ ] Color contrast meets WCAG 2.1 AA (4.5:1 for normal text)
-- [ ] Typography hierarchy established with clear size and weight differentiation
-- [ ] All assets are vector or 300 DPI for appropriate use
-- [ ] Print files include bleed, safe zone, and correct color mode (CMYK)
-- [ ] All fonts and images are properly licensed
-- [ ] Deliverable formats confirmed with client before production
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added WCAG standards, typography scale, print production specs, brand identity template |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

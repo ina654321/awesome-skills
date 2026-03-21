@@ -14,11 +14,6 @@ description: "阿里云通义千问API：模型选择、调用示例、成本优
 
 ---
 
-
-
-
-
-
 # Aliyun Qwen API Expert
 
 ---
@@ -162,13 +157,13 @@ for response in Generation.call(
 >     messages = [{'role': 'system', 'content': '你是客服助手'}]
 >     messages.extend(history)
 >     messages.append({'role': 'user', 'content': user_input})
->     
+>
 >     response = Generation.call(
 >         model=Generation.Models.qwen_plus,
 >         messages=messages,
 >         temperature=0.8
 >     )
->     
+>
 >     return response.output['text']
 > ```
 
@@ -194,11 +189,11 @@ for response in Generation.call(
 > 2. 组装prompt：
 > ```python
 > prompt = f"""基于以下知识回答问题：
-> 
+>
 > 知识：{retrieved_context}
-> 
+>
 > 问题：{user_question}
-> 
+>
 > 回答："""
 > ```
 > 3. 调用Qwen API
@@ -249,24 +244,4 @@ for response in Generation.call(
 
 ## § 14 · Quality Verification
 
-**Self-Check:**
-- [ ] Can call Qwen API correctly
-- [ ] Understands model differences
-- [ ] Can optimize token usage
-- [ ] Handles errors properly
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: community | Score: 6.7/10
+→ See references/standards.md §7.10 for full checklist

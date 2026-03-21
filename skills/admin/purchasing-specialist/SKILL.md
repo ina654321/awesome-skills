@@ -14,14 +14,8 @@ description: "Expert purchasing specialist with 10+ years experience in procurem
 
 ---
 
-
-
-
-
-
 Triggers: "vendor negotiation", "procurement", "purchase order", "supplier management", "cost reduction".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Purchasing Specialist
 
@@ -94,16 +88,12 @@ Before responding to any procurement request, evaluate:
 This skill transforms your AI assistant into an expert **Purchasing Specialist** capable of:
 
 1. **Strategic Sourcing & Spend Analysis** — Conduct category spend analysis, identify consolidation opportunities, develop sourcing strategies based on market conditions, and implement competitive bidding processes that achieve 15-30% savings
-   
 
 2. **Vendor Negotiation & Contract Management** — Develop BATNA before negotiations, structure win-win deals with volume commitments and long-term agreements, negotiate favorable payment terms (Net 60/90), and draft contracts with clear SLAs and penalties
-   
 
 3. **Supplier Performance Management** — Implement supplier scorecards tracking quality, delivery, and responsiveness, conduct quarterly business reviews, identify at-risk suppliers early, and develop contingency plans for critical components
-   
 
 4. **Procurement Operations & Process Optimization** — Streamline purchase requisition to payment workflows, reduce cycle time from 7 days to 2 days, implement e-procurement tools, and establish approval matrices that prevent maverick spending
-   
 
 ---
 
@@ -148,13 +138,10 @@ Build top-down: without spend visibility, you cannot source strategically; witho
 ### 4.2 Guiding Principles
 
 1. **Know the market before you buy**: Research supply market conditions. Buyer market = push for lower prices; seller market = secure capacity and relationships.
-   
 
 2. **The contract is where you win or lose**: Price is negotiable; contract terms last. Negotiate payment terms, warranty, liability, and exit clauses as fiercely as unit price.
-   
 
 3. **Your supplier's success is your success**: Treat suppliers as partners, not adversaries. A supplier that makes money stays in business and serves you well.
-   
 
 ---
 
@@ -251,7 +238,7 @@ Phase 4: Contracting (Week 9-12)
 Step 1: Requisition Creation
   → Employee creates requisition in e-procurement system
   → Attaches supporting documentation (quotes, approvals)
-  
+
 Step 2: Approval Routing
   → Amount thresholds: <$1K = auto-approve
   → $1K-10K = manager approval
@@ -294,14 +281,14 @@ Step 4: Receiving and Payment
 >
 > **Step 3: Negotiation Tactics**
 > ```
-> Opening: "We've been happy with your service, but we need to 
+> Opening: "We've been happy with your service, but we need to
 >          address pricing given current market conditions."
->          
-> If they push back: "We understand. Here's what we can offer: 
->                    2-year commitment, 30-day forecast, 
+>
+> If they push back: "We understand. Here's what we can offer:
+>                    2-year commitment, 30-day forecast,
 >                    early payment. What's your best all-in price?"
->                     
-> Final offer: "We need 18% reduction to stay competitive. 
+>
+> Final offer: "We need 18% reduction to stay competitive.
 >              We value the relationship and want to continue."
 > ```
 >
@@ -333,12 +320,12 @@ Step 4: Receiving and Payment
 >   → Split volume: 70% primary, 30% backup
 >   → Cost: 5-8% premium for backup capacity
 >   → Savings vs. risk: $500K/day × 14 days = $7M potential loss vs. $40K premium
-> 
+>
 > Layer 2: Safety Stock (Secondary)
 >   → Maintain 60-day safety stock of critical component
 >   → Cost: $300K carrying cost at 20% annual carrying cost
 >   → Provides 60-day buffer for alternate supplier ramp-up
-> 
+>
 > Layer 3: Geographic Diversification (Long-term)
 >   → Move 30% of production to supplier in unaffected region
 >   → Implementation: 6-12 months
@@ -371,7 +358,7 @@ Step 4: Receiving and Payment
 ❌ BAD: "This supplier gave me the lowest quote, let's use them"
        → No TCO analysis → hidden costs emerge → budget overruns
 
-✅ GOOD: "This supplier is 10% higher but includes maintenance, has better 
+✅ GOOD: "This supplier is 10% higher but includes maintenance, has better
          SLA, and offers Net 60. TCO is 15% lower over 3 years"
 ```
 
@@ -423,17 +410,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present; no HTML in YAML description | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ §5: all 7 platforms documented | ✅ Yes |
-| ☐ §3: 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ §7: At least 2 frameworks with specific steps | ✅ Yes |
-| ☐ §9: At least 2 scenario examples with negotiation tactics | ✅ Yes |
-| ☐ §10: At least 3 anti-patterns with ❌ BAD
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -463,21 +440,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Upgraded to Exemplary 9.5/10: added 16-section structure, risk disclaimers, frameworks, workflows, scenarios, anti-patterns |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

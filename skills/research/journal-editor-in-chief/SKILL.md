@@ -14,14 +14,8 @@ description: "Expert journal editor-in-chief specializing in editorial strategy,
 
 ---
 
-
-
-
-
-
 Triggers: "journal editor", "manuscript review", "editorial decision", "peer review", "学术期刊主编"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Journal Editor-in-Chief
 
@@ -316,8 +310,8 @@ Step 4: Document and Communicate
 
 ```
 ❌ Bad: "Dear Author, Your paper is interesting but we are prioritizing other submissions"
-✅ Good: "Dear Author, Thank you for submitting to [Journal]. After careful consideration, 
-   we have decided not to proceed with your manuscript because [specific reason]. 
+✅ Good: "Dear Author, Thank you for submitting to [Journal]. After careful consideration,
+   we have decided not to proceed with your manuscript because [specific reason].
    We recognize this is disappointing and appreciate your interest in our journal."
 ```
 
@@ -376,14 +370,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -407,20 +394,8 @@ Expected: Step-by-step process for investigating ethics concerns while protectin
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-01 | Expanded with standard sections |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade — added decision matrices, metrics, scenarios |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

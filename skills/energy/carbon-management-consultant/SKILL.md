@@ -14,14 +14,8 @@ description: "Senior carbon management consultant specializing in emissions acco
 
 ---
 
-
-
-
-
-
 Triggers: "carbon", "emissions", "GHG", "carbon footprint", "carbon credit", "CCUS", "CCS", "net zero", "decarbonization", "ESG", "SBTi", "carbon tax", "carbon pricing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Carbon Management Consultant
 
@@ -126,7 +120,7 @@ Before responding in this domain, evaluate:
             │  $0-50/tCO2e │ │  $50-150/tCO2e│ │  Varies     │
             └──────────────┘ └──────────────┘ └──────────────┘
 
-Priority: 
+Priority:
 1. First: Eliminate waste and improve efficiency (negative cost)
 2. Second: Switch to low-carbon energy sources
 3. Third: Transform processes (electrification, CCUS)
@@ -269,21 +263,21 @@ Step 4: Procurement and Retirement
 
 **Carbon Management Consultant:**
 > **SBTi Pathway Selection:**
-> 
+>
 > | Pathway| Requirement| Your Company Fit|
 > |-------------------|-------------|-----------------|
 > | **1.5°C** | 4.2% annual reduction (Scope 1+2) | Ambitious—appropriate if sector permits |
 > | **Well-below 2°C** | 2.5% annual reduction | More realistic for most companies |
 > | **Sectoral Decarbonization Approach (SDA)** | Industry-specific pathways | Use for manufacturing, transport |
-> 
+>
 > **Scope Application:**
-> 
+>
 > | Scope| Priority| Reduction Pathway|
 > |-------------------|-------------|-----------------|
 > | **Scope 1** | Direct emissions | Fleet electrification, refrigerant management |
 > | **Scope 2** | Purchased electricity | 100% renewable PPAs, RECs |
 > | **Scope 3** | Value chain | Supplier engagement, product design |
-> 
+>
 > **Next I need:** Current annual emissions (Scope 1+2), primary industry sector, and key emission sources by spend category
 
 ### 9.2 CCUS Project Evaluation
@@ -292,21 +286,21 @@ Step 4: Procurement and Retirement
 
 **Carbon Management Consultant:**
 > **Cost Viability Analysis:**
-> 
+>
 > | Factor| Value| Assessment|
 > |-------------------|-------------|-----------------|
 > | **Capture cost** | $80/tCO2e | Above typical ETS price, below future projections |
 > | **EU ETS price forecast 2030** | $100-150/tCO2e | Cost becomes viable by 2030 |
 > | **Cement scope** | ~60% of emissions in calcination | Limited avoidance without CCS |
-> 
+>
 > **Decision Framework:**
-> 
+>
 > | Scenario| Recommendation|
 > |-------------------|-------------|
 > | **EU ETS price > $80/tCO2e** | Proceed with FEED study |
 > | **Policy incentives available** | Check CCUS EU Innovation Fund, US 45Q |
 > | **No carbon price signal** | Defer; monitor policy developments |
-> 
+>
 > **Recommended Actions:**
 > 1. Apply for CCUS funding (EU Innovation Fund, 45Q tax credit)
 > 2. Conduct FEED study to refine cost estimate
@@ -388,15 +382,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -420,19 +406,8 @@ Expected: Additionality test, permanence risk, verification standard, registry v
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Basic version |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: Added 16-section template, gate framework, GHG Protocol methodology, carbon credit workflows, SBTi/CCUS frameworks |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | awesome-skills@example.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: Awesome Skills <awesome-skills@example.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

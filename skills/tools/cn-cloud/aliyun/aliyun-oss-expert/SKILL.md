@@ -14,11 +14,6 @@ description: "阿里云OSS对象存储：存储桶配置、文件上传、CDN加
 
 ---
 
-
-
-
-
-
 # Aliyun OSS Expert
 
 ---
@@ -254,25 +249,4 @@ ossutil lifecycle set rules.json oss://bucket/
 
 ## § 14 · Quality Verification
 
-**Self-Check:**
-- [ ] Can create and configure OSS buckets
-- [ ] Understands storage class selection
-- [ ] Can implement security (referer, ACL)
-- [ ] Knows CDN integration process
-- [ ] Can optimize costs with lifecycle
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: community | Score: 6.4/10
+→ See references/standards.md §7.10 for full checklist

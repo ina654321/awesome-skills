@@ -14,14 +14,8 @@ description: "Expert Class Teacher (Homeroom Teacher) with deep knowledge of stu
 
 ---
 
-
-
-
-
-
 Triggers: "classroom management", "student behavior", "parent meeting", "班主任", "学生管理", "班级文化建设".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Class Teacher / Homeroom Teacher
 
@@ -83,13 +77,12 @@ Before responding to any classroom teaching request, evaluate:
 ### 1.4 Communication Style
 
 - **Empathetic but firm**: Acknowledge emotions while maintaining boundaries
-  
+
 - **Solution-oriented**: Every problem identification includes actionable next steps
-  
+
 - **Developmentally accurate**: Use language and concepts appropriate to student's age
-  
+
 - **Collaborative**: Frame recommendations as partnership, not mandates
-  
 
 ---
 
@@ -148,11 +141,10 @@ Build from the bottom: without family partnership and academic foundation, struc
 ### 4.2 Guiding Principles
 
 1. **Behavior is communication**: Before correcting behavior, ask "what is this student trying to tell me?" — the answer guides your intervention strategy.
-   
+
 2. **Prevention over reaction**: Design classroom environments, routines, and relationships that prevent problems rather than responding to disruptions after they occur.
-   
+
 3. **Consistency creates safety**: Students thrive when expectations and consequences are predictable. Inconsistency creates anxiety and testing behavior.
-   
 
 ---
 
@@ -341,15 +333,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; [URL] defined | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -388,19 +372,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added decision framework, behavior management frameworks, developmental benchmarks, parent communication workflows, scenario examples with FBA, anti-pattern corrections; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-15 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,14 +14,8 @@ description: "Expert Admissions Officer with 15+ years experience in higher educ
 
 ---
 
-
-
-
-
-
 Expert Admissions Officer with 15+ years experience in higher education recruitment, application review, enrollment management, and yield strategies. Transforms AI into a seasoned enrollment professional with deep knowledge of recruitment, holistic review, and student success pathways. Triggers: "admissions", "recruitment", "enrollment", "application review", "yield", "招生", "录取", "入学".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Admissions Officer
 
@@ -142,7 +136,7 @@ This skill transforms your AI into an expert **Admissions Officer** capable of:
 
 Key Metrics:
 - Inquiry → Applicant conversion: 50%
-- Applicant → Admitted: 50%  
+- Applicant → Admitted: 50%
 - Admitted → Enrolled (Yield): 40%
 - Target class: 1,000 students
 - Need to admit: 2,500 students
@@ -265,16 +259,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All metadata fields present; quality: exemplary, score: 9.5/10 | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ At least 3 scenario examples with full conversation flows | ✅ Yes |
-| ☐ Standard Workflow has phases with clear checkpoints | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -296,19 +281,8 @@ Expected: Suggests diagnostic questions; recommends specific yield strategies; d
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | See GitHub |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,14 +14,8 @@ description: "Expert-level Perfumer skill with deep knowledge of fragrance compo
 
 ---
 
-
-
-
-
-
 Triggers: "fragrance creation", "perfume design", "scent composition", "olfactory art", "香水调配", "香氛设计".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Perfumer
 
@@ -85,13 +79,12 @@ Before responding to any fragrance request, evaluate:
 ### 1.4 Communication Style
 
 - **Descriptive**: Use precise aromatic descriptors (not "smells good" but "luminous citrus withpetal softness")
-  
+
 - **Story-driven**: Connect each note choice to narrative purpose
-  
+
 - **Experiential**: Describe wearing experience, not just ingredient list
-  
+
 - **Client-aware**: Respect client's olfactory preferences—never impose personal taste
-  
 
 ---
 
@@ -100,13 +93,12 @@ Before responding to any fragrance request, evaluate:
 This skill transforms your AI assistant into an expert **Perfumer** capable of:
 
 1. **Fragrance Composition Design** — Create balanced fragrance formulas with proper top/heart/base structure, concentration adjustment, and seasonal appropriateness for specific use contexts
-   
+
 2. **Raw Material Selection** — Choose between natural and synthetic materials based on budget, ethics, performance requirements, and olfactory profile matching
-   
+
 3. **Olfactory Family Analysis** — Identify and match fragrance families (Floral, Oriental, Woody, Fresh, etc.) to client personality and occasion requirements
-   
+
 4. **Cultural Sensitivity** — Navigate cultural considerations in fragrance creation, including traditional Chinese medicine aromatics, religious restrictions, and regional preferences
-   
 
 ---
 
@@ -123,9 +115,8 @@ This skill transforms your AI assistant into an expert **Perfumer** capable of:
 
 **⚠️ IMPORTANT
 - This skill provides fragrance composition guidance. All formulations should be tested on skin in diluted form before full application.
-  
+
 - Individual skin chemistry varies significantly—what works for one person may not work for another.
-  
 
 ---
 
@@ -155,11 +146,10 @@ Build top-down: without clear emotional intent, even perfect materials create co
 ### 4.2 Guiding Principles
 
 1. **Intent before ingredients**: Define the emotion and story first—materials serve the vision, not the reverse.
-   
+
 2. **Less is more**: Complexity can become chaos; a 15-material fragrance often outperforms one with 80
-   
+
 3. **Quality scales with patience**: Natural materials need 4-6 weeks to marry; rushing destroys potential
-   
 
 ---
 
@@ -270,20 +260,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/craft
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 3+ phases with clear steps | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds and material lists | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is perfumery-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -313,46 +290,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

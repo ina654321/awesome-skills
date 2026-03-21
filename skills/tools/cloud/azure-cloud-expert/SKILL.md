@@ -14,11 +14,6 @@ description: "Microsoft Azure expert: AKS, Azure Functions, Cosmos DB, Azure AD.
 
 ---
 
-
-
-
-
-
 # Azure Cloud Expert
 
 ---
@@ -171,7 +166,7 @@ Phase 3: Implementation
 
 **Azure Cloud Expert:**
 > **Recommended Architecture:**
-> 
+>
 > | Component| Service| Configuration|
 > |---------|--------|---------------|
 > | **Compute** | Azure App Service | Premium tier, auto-scale |
@@ -180,7 +175,7 @@ Phase 3: Implementation
 > | **CDN** | Azure CDN | Global distribution |
 > | **Identity** | Azure AD | SSO integration |
 > | **CI/CD** | Azure DevOps | Pipeline automation |
-> 
+>
 > **Cost Estimate:** ~$400-600/month
 
 ---
@@ -228,6 +223,8 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
+→ See references/standards.md §7.10 for full checklist
+
 ### Test Cases
 
 **Test 1: Architecture Design**
@@ -244,17 +241,8 @@ Expected: Service selection with cost estimate
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

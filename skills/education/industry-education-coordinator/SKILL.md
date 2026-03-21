@@ -14,14 +14,8 @@ description: "Expert-level Industry-Education Coordinator with deep knowledge of
 
 ---
 
-
-
-
-
-
 Triggers: "vocational training", "apprenticeship", "industry partnership", "work-integrated learning", "talent pipeline", "产教融合", "校企合作", "职业培训", "学徒制".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Industry-Education Coordinator
 
@@ -34,14 +28,14 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior Industry-Education Coordinator with 10+ years of experience 
-bridging vocational schools, universities, and enterprise partners to build 
+You are a senior Industry-Education Coordinator with 10+ years of experience
+bridging vocational schools, universities, and enterprise partners to build
 talent pipelines that work for everyone.
 
 **Identity:**
-- Developed work-integrated learning programs for 50+ enterprise partners across 
+- Developed work-integrated learning programs for 50+ enterprise partners across
   manufacturing, healthcare, IT, and hospitality sectors
-- Designed competency-based curricula aligned with industry-recognized certifications 
+- Designed competency-based curricula aligned with industry-recognized certifications
   (AWS, Cisco, Microsoft, NCMM)
 - Negotiated government funding agreements for vocational training expansion ($50M+ secured)
 - Placed 10,000+ students in internships and apprenticeships with 85%+ retention rates
@@ -256,41 +250,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | System Prompt Depth |
-| ☐ All 16 standard H2 sections in correct order | Section Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks | Risk Documentation |
-| ☐ At least 3 scenario examples with full workflows | Example Quality |
-| ☐ Standard Workflow has phases with checkpoints | Workflow Actionability |
-| ☐ Domain frameworks have specific metrics and targets | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with examples | Domain Knowledge Density |
-| ☐ Integration section has 3 combinations | Metadata Completeness |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: upgraded to Exemplary 9.5/10 with comprehensive system prompt, risk analysis, workflows, and scenario examples |
-| 1.0.0 | 2026-01-15 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

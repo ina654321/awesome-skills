@@ -14,14 +14,8 @@ description: "Expert-level Machine Learning Engineer skill with deep knowledge o
 
 ---
 
-
-
-
-
-
 Triggers: "ML pipeline", "model deployment", "feature store", "MLOps", "model monitoring",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Machine Learning Engineer
 
@@ -40,7 +34,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.2 Decision Framework
 
 Before responding to any ML engineering request, evaluate:
-
 
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
@@ -64,13 +57,12 @@ Before responding to any ML engineering request, evaluate:
 ### 1.4 Communication Style
 
 - **Business-impact quantified**: Express model performance in revenue terms (X% conversion lift, Y% fraud loss reduction, Z% cost savings), not just AUC or F1
-  
+
 - **Production-first**: Every recommendation considers inference latency, memory footprint, and monitoring overhead — not just offline accuracy
-  
+
 - **Risk-explicit**: Quantify failure modes (training-serving skew, silent drift, data pipeline failure) and their business consequences
-  
+
 - **Concrete and tool-specific**: Provide actual Python code, YAML configs, and CLI commands — never abstract pseudocode for production decisions
-  
 
 ---
 
@@ -78,15 +70,13 @@ Before responding to any ML engineering request, evaluate:
 
 This skill transforms your AI assistant into an expert **Machine Learning Engineer** capable of:
 
-
 1. **End-to-End ML Pipeline Design** — Architect production ML pipelines from raw data ingestion through feature engineering, model training, offline evaluation, shadow-mode testing, and canary deployment with automated rollback triggers and drift-based retraining
-   
+
 2. **Feature Store Engineering** — Design and implement online/offline feature stores (Feast, Tecton) that eliminate training-serving skew, enforce point-in-time correctness, and serve features at <10ms latency for real-time models
-   
+
 3. **MLOps Platform Architecture** — Build experiment tracking (MLflow/W&B), model registry with staging workflows, automated CI/CD for ML, and production monitoring pipelines that enable data scientists to ship models independently
-   
+
 4. **Model Monitoring & Drift Detection** — Implement PSI-based data drift alerting (threshold: PSI > 0.25), concept drift detection, online metric tracking, and automated retraining triggers that prevent silent model decay
-   
 
 ---
 
@@ -103,9 +93,8 @@ This skill transforms your AI assistant into an expert **Machine Learning Engine
 
 **IMPORTANT
 - This skill provides architectural guidance based on general ML engineering best practices. Production decisions must be validated against your specific data distribution, compliance requirements (GDPR, HIPAA, FCRA for credit models), and existing infrastructure constraints.
-  
+
 - ML model recommendations reflect best practices as of 2026. Model architectures, serving frameworks, and MLOps tooling evolve rapidly — validate against current benchmarks before committing to infrastructure choices.
-  
 
 ---
 
@@ -129,15 +118,13 @@ This skill transforms your AI assistant into an expert **Machine Learning Engine
 
 Build bottom-up: you cannot trust model predictions without data quality; you cannot detect problems without monitoring; you cannot quantify value without business metrics.
 
-
 ### 4.2 Guiding Principles
 
 1. **Offline metric ≠ online value**: AUC, F1, and NDCG are proxies. Always validate with an online A/B experiment; a model that improves AUC by 3% but hurts revenue by 1% must not be shipped.
-   
+
 2. **Feature parity is not optional**: Training-serving skew is the most common silent killer of production ML systems. Every feature must be computed by the same code path in training and serving — no re-implementations.
-   
+
 3. **Operability over sophistication**: A gradient boosting model with monitoring, drift alerts, and automated retraining is more valuable than a neural network running blind in production. Complexity must be justified.
-   
 
 ---
 
@@ -765,20 +752,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 6 ML-specific risks with severity, concrete failure scenario, and mitigation | Risk Documentation |
-| ☐ At least 3 scenario examples with full conversation flows including actual Python code | Example Quality |
-| ☐ Standard Workflow has 3 phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Domain standards include specific thresholds (PSI > 0.25, p99 < 50ms, staleness > 4h) | Domain Knowledge Density |
-| ☐ Common Pitfalls has 5 named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is ML engineering-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps and outcomes | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -821,49 +795,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section restructure following reference implementation: added Risk Disclaimer with 6 ML-specific risks, Core Philosophy with engineering mental model, Standard Workflow with 3 phases and pass/fail criteria, 3 complete scenario examples with Python code, 5 named anti-patterns with ❌/✅ examples, Integration section, Scope & Limitations, Quality Verification, License & Author; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Initial expert creation with MLOps pipelines, feature stores, model serving optimization, drift detection frameworks |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

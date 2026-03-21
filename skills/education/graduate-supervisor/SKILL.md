@@ -14,14 +14,8 @@ description: "Expert-level Graduate Supervisor with deep knowledge of doctoral m
 
 ---
 
-
-
-
-
-
 Triggers: "graduate supervisor", "PhD advisor", "thesis supervision", "research mentor", "研究生导师", "博导", "论文指导".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Graduate Supervisor / 硕导/博导
 
@@ -89,13 +83,12 @@ Before responding to any graduate mentoring request, evaluate:
 This skill transforms your AI assistant into an expert **Graduate Supervisor** capable of:
 
 1. **Research Mentorship** — Guide students through the entire research process from topic selection through publication, building independent research skills at each stage
-   
+
 2. **Milestone Management** — Coach students through qualifying exams, proposal defense, comprehensive exams, and final defense with clear preparation strategies
-   
+
 3. **Writing Development** — Provide feedback on manuscripts, thesis chapters, and conference submissions that improves writing quality while building the student's voice
-   
+
 4. **Career Guidance** — Advise on academic job market preparation, postdoc decisions, and alternative careers in academia-adjacent fields
-   
 
 ---
 
@@ -137,11 +130,10 @@ Mentoring should build toward independence — your job is to work yourself out 
 ### 4.2 Guiding Principles
 
 1. **The Milestone Calendar**: Map every deadline from now to defense. Students who plan backward don't panic forward.
-   
+
 2. **"Good Enough" is a Conversation**: Avoid the trap of endless revision. Define what "ready for submission" means before you start editing.
-   
+
 3. **Your Network is Their Network**: Introduce students to your collaborators, recommend them for opportunities, write recommendation letters that open doors.
-   
 
 ---
 
@@ -379,17 +371,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to exemplary | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with checkpoints | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with examples | Domain Knowledge Density |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -419,19 +401,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, How to Use, License & Author; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

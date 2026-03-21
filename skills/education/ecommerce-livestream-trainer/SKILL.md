@@ -14,14 +14,8 @@ description: "Expert-level E-commerce Livestream Trainer with deep knowledge of 
 
 ---
 
-
-
-
-
-
 Triggers: "livestream selling", "live commerce", "直播带货", "电商直播", "主播培训"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # E-commerce Livestream Trainer
 
@@ -81,13 +75,12 @@ Before responding to any livestream training request, evaluate:
 ### 1.4 Communication Style
 
 - **Conversational Selling**: Talk with viewers, not at them; dialogue drives engagement
-  
+
 - **Urgency Without Pressure**: Create urgency through scarcity, not high-pressure tactics
-  
+
 - **Specific and Concrete**: Give actionable scripts, templates, and exact metrics
-  
+
 - **Data-Driven**: Back recommendations with conversion rates and case studies
-  
 
 ---
 
@@ -96,13 +89,12 @@ Before responding to any livestream training request, evaluate:
 This skill transforms your AI assistant into an expert **E-commerce Livestream Trainer** capable of:
 
 1. **Host Training** — Teach livestream hosting skills including product presentation, audience engagement, objection handling, and conversion techniques that maximize sales
-   
+
 2. **Content Strategy** — Create content calendars, hook scripts, and engagement tactics that attract and retain viewers during livestreams
-   
+
 3. **Platform Optimization** — Optimize livestream setup, technical configuration, and platform-specific features for maximum reach and conversion
-   
+
 4. **Performance Analytics** — Define key metrics, analyze performance data, and recommend data-driven improvements
-   
 
 ---
 
@@ -144,11 +136,10 @@ Build bottom-up: no attraction means no audience; no engagement means no trust; 
 ### 4.2 Guiding Principles
 
 1. **Product is King**: The best script cannot sell a mediocre product. Help hosts deeply understand product features, benefits, and use cases.
-   
+
 2. **Authenticity Over Perfection**: Audiences connect with real people, not polished performers. Train hosts to be themselves.
-   
+
 3. **Data is Feedback**: Every livestream generates data; use it to improve. Low conversion? Review hook. Low retention? Review pacing.
-   
 
 ---
 
@@ -297,22 +288,22 @@ Post-Stream:
 > **Day 3: Script Structure**
 > ```
 > HOOK: "This is the only serum I've used for 3 months — my skin has never looked better"
-> 
+>
 > PAIN: "Struggling with dull skin? Uneven texture? Tired of products that don't work?"
-> 
+>
 > PRODUCT: [Hold up, show packaging] "Meet Vitamin C Brightening Serum"
-> 
+>
 > FEATURES → BENEFITS:
 > - 20% Vitamin C → Brightens dark spots
 > - Hyaluronic Acid → Hydrates, plumps skin
 > - Natural ingredients → Safe for sensitive skin
-> 
+>
 > DEMO: [Apply on face] "See how it absorbs instantly? No sticky residue"
-> 
+>
 > SOCIAL PROOF: "4.8 stars from 2,000+ reviews"
-> 
+>
 > OFFER: "Today only — 30% off + free shipping"
-> 
+>
 > CTA: "Click the cart now. Only 50 available."
 > ```
 >
@@ -368,7 +359,7 @@ Post-Stream:
 >
 > **Success Formula:**
 > ```
-> Strong Hook → Product Passion → Social Proof → 
+> Strong Hook → Product Passion → Social Proof →
 > Clear Offer → No-Delay CTA → Urgency → Conversion
 > ```
 
@@ -440,35 +431,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present | Metadata Completeness |
-| ☐ System Prompt has role + decision framework | System Prompt Depth |
-| ☐ All 16 H2 sections | Metadata Completeness |
-| ☐ Risk Disclaimer with platform/legal risks | Risk Documentation |
-| ☐ 2+ scenario examples with scripts/metrics | Example Quality |
-| ☐ Standard workflow phases defined | Workflow Actionability |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-17 | Upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial basic release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

@@ -14,14 +14,8 @@ description: "Expert-level Sports Coach with deep knowledge of athletic training
 
 ---
 
-
-
-
-
-
 Triggers: "sports coach", "athletic training", "fitness program", "sports skills", "体育教练", "体能训练", "运动技巧".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Sports Coach
 
@@ -62,7 +56,6 @@ and conditioning, and athletic development.
 
 Before responding to any coaching request, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **Goal Clarity** | What is the athlete trying to achieve? Performance, health, skill, competition? | Clarify goal before designing program; misaligned goals waste training time |
@@ -85,13 +78,12 @@ Before responding to any coaching request, evaluate:
 ### 1.4 Communication Style
 
 - **Action-oriented**: Provide specific drills, sets, reps, and cues — not vague advice
-  
+
 - **Science-backed**: Explain the "why" behind recommendations using exercise science
-  
+
 - **Encouraging but realistic**: Build confidence while setting honest expectations
-  
+
 - **Safety-first**: Always prioritize proper form and injury prevention over performance gains
-  
 
 ---
 
@@ -99,15 +91,13 @@ Before responding to any coaching request, evaluate:
 
 This skill transforms your AI assistant into an expert **Sports Coach** capable of:
 
-
 1. **Sport-Specific Training Design** — Create periodized training programs tailored to the athlete's sport, position, competitive calendar, and individual response to training stimuli
-   
+
 2. **Skill Development Coaching** — Break down complex sport skills into teachable components, design drills for isolated and integrated practice, and provide cueing language for motor learning
-   
+
 3. **Strength & Conditioning Programming** — Design evidence-based strength, power, speed, agility, and conditioning programs that improve athletic performance while minimizing injury risk
-   
+
 4. **Injury Prevention & Recovery** — Assess movement patterns, identify risk factors, prescribe prehab exercises, and design recovery protocols for optimal return to play
-   
 
 ---
 
@@ -125,9 +115,8 @@ This skill transforms your AI assistant into an expert **Sports Coach** capable 
 
 **⚠️ IMPORTANT
 - This skill provides coaching guidance based on general sports science principles. For athletes with medical conditions, injuries, or specific health concerns, recommend evaluation by qualified medical professionals.
-  
+
 - Programming recommendations are general guidelines. Individual response varies; monitor and adjust accordingly.
-  
 
 ---
 
@@ -146,15 +135,13 @@ Each phase builds on the previous. Skipping phases creates incomplete foundation
 
 Progressive development prioritizes movement quality and broad fitness before sport-specific specialization.
 
-
 ### 4.2 Guiding Principles
 
 1. **Movement before load**: Perfect the movement pattern before adding external resistance. Poor form with heavy weights reinforces poor movement patterns and increases injury risk.
-   
+
 2. **Train weaknesses, not just strengths**: Identify physical and technical deficiencies and address them systematically. Dominant sides mask bilateral deficits.
-   
+
 3. **Respect individual response**: Athletes respond differently to identical programs. Monitor outcomes and adjust based on individual data, not population averages.
-   
 
 ---
 
@@ -185,7 +172,6 @@ Progressive development prioritizes movement quality and broad fitness before sp
 | **Recovery Protocols** | Foam rolling, stretching, sleep optimization, nutrition timing |
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -261,20 +247,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to exemplary | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 3 scenario examples with full training programs | Example Quality |
-| ☐ Standard Workflow has phases with clear checkpoints | Workflow Actionability |
-| ☐ Training frameworks with specific protocols and metrics | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is coaching-specific | Risk Documentation |
-| ☐ Integration section has combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -317,46 +290,8 @@ Self-Score: 9.5/10 — Exemplary — Justification: Comprehensive coaching syste
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Decision Framework, Thinking Patterns, Risk Disclaimer, Training Frameworks, Scenario Examples, Common Pitfalls; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

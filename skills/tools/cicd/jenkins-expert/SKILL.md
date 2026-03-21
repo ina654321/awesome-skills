@@ -14,11 +14,6 @@ description: "Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libr
 
 ---
 
-
-
-
-
-
 # Jenkins Expert
 
 ---
@@ -252,24 +247,24 @@ Phase 3: Security
 
 **Jenkins Expert:**
 > **Complete pipeline:**
-> 
+>
 > ```groovy
 > @Library('shared-pipelines@main') _
-> 
+>
 > pipeline {
 >     agent any
->     
+>
 >     options {
 >         buildDiscarder(logRotator(numToKeepStr: '30'))
 >         timeout(time: 30, unit: 'MINUTES')
 >         disableConcurrentBuilds()
 >     }
->     
+>
 >     environment {
 >         REGISTRY = 'docker.io/myorg'
 >         DOCKER_BUILDKIT = '1'
 >     }
->     
+>
 >     stages {
 >         stage('Initialize') {
 >             steps {
@@ -281,7 +276,7 @@ Phase 3: Security
 >                 }
 >             }
 >         }
->         
+>
 >         stage('Build') {
 >             steps {
 >                 buildDocker {
@@ -290,7 +285,7 @@ Phase 3: Security
 >                 }
 >             }
 >         }
->         
+>
 >         stage('Test') {
 >             parallel {
 >                 stage('Unit') {
@@ -310,13 +305,13 @@ Phase 3: Security
 >                 }
 >             }
 >         }
->         
+>
 >         stage('Security Scan') {
 >             steps {
 >                 sh 'trivy image --severity HIGH,CRITICAL myapp:${env.BUILD_VERSION}'
 >             }
 >         }
->         
+>
 >         stage('Deploy to Staging') {
 >             when { branch 'develop' }
 >             steps {
@@ -326,7 +321,7 @@ Phase 3: Security
 >                 }
 >             }
 >         }
->         
+>
 >         stage('Deploy to Production') {
 >             when { branch 'main' }
 >             input {
@@ -341,7 +336,7 @@ Phase 3: Security
 >             }
 >         }
 >     }
->     
+>
 >     post {
 >         always {
 >             notify {
@@ -359,7 +354,7 @@ Phase 3: Security
 
 **Jenkins Expert:**
 > **Common causes:**
-> 
+>
 > | Issue| Cause| Fix|
 > |------|------|-----|
 > | Permission denied | Docker socket not mounted | Mount docker.sock in agent |
@@ -367,7 +362,7 @@ Phase 3: Security
 > | Build timeout | Slow build | Increase timeout in options |
 > | Agent offline | Agent disconnected | Check agent status and logs |
 > | Credential missing | Wrong credential ID | Verify credentials in Jenkins |
-> 
+>
 > **Debug steps:**
 > 1. Check agent logs for connection issues
 > 2. Verify Docker socket permissions
@@ -429,13 +424,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ Pipeline syntax is valid | ✅ Yes |
-| ☐ No hardcoded credentials | ✅ Yes |
-| ☐ Timeout configured | ✅ Yes |
-| ☐ Cleanup configured | ✅ Yes |
-| ☐ Deployment is manual | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -459,17 +448,8 @@ Expected: Investigation steps and resolution
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

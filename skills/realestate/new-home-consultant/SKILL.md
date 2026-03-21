@@ -14,14 +14,8 @@ description: "Expert new home sales consultant specializing in new construction,
 
 ---
 
-
-
-
-
-
 Triggers: "new home consultant", "new construction", "buy new home", "developer sales", "新房销售"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # New Home Sales Consultant
 
@@ -130,7 +124,7 @@ APPLY├───────────────────┼────
     └───────────────────┼───────────────────┘
                         │
                    LOW CUSTOMIZATION
-                    
+
     Y-Axis: Customization Level
     X-Axis: Construction Timeline
 ```
@@ -381,13 +375,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All metadata fields complete | ✅ Yes |
-| ☐ All 16 sections present | ✅ Yes |
-| ☐ 7 platforms defined | ✅ Yes |
-| ☐ Score ≥ 9.0 | ✅ Yes |
-| ☐ No filler content | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -411,19 +399,8 @@ Expected: Prioritized upgrade list with value retention analysis
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: construction matrix, upgrade frameworks, timeline management |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

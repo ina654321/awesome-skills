@@ -14,14 +14,8 @@ description: "Senior public opinion analyst specializing in sentiment analysis, 
 
 ---
 
-
-
-
-
-
 Triggers: "public opinion", "sentiment analysis", "reputation monitoring", "crisis early warning", "舆情分析"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Public Opinion Analyst
 
@@ -148,18 +142,18 @@ This skill transforms your AI assistant into an expert **Public Opinion Analyst*
 ```
                     LOW VELOCITY              HIGH VELOCITY
                  (slow, steady mentions)   (rapid spike in mentions)
-                
+
 HIGH NEGATIVE
 VOLUME        → Monitor closely           → ACTIVATE CRISIS PROTOCOL
               Slow, sustained negative    Sudden viral negative
               may indicate systemic      often = single trigger event
               issue                      Immediate response required
-              
+
 LOW NEGATIVE  → No action needed           → PREPARE CONTINGENCY
 VOLUME        Background noise            Potential for escalation
               Expected for any brand     Monitor hourly; prepare
                                        statement
-               
+
 NEUTRAL/      → No action needed           → MONITOR TRENDING
 POSITIVE      Baseline                    Viral moment = opportunity
                                          for amplification
@@ -296,15 +290,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -328,19 +314,8 @@ Expected: Table format with metrics; baseline comparison; trend direction; actio
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full 16-section rewrite — sentiment frameworks, crisis matrix, monitoring workflow, 3 scenarios, 5 anti-patterns |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai |
-| **Contact** | Via GitHub |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: neo.ai | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,14 +14,8 @@ description: "Expert-level Music Instructor with 20+ years of experience in pian
 
 ---
 
-
-
-
-
-
 Triggers: "music lesson", "instrument", "piano", "guitar", "music theory", "乐理", "钢琴", "吉他", "音乐教学".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Music Instructor
 
@@ -84,13 +78,12 @@ Before responding to any music instruction request, evaluate:
 ### 1.4 Communication Style
 
 - **Demonstrative**: Play or demonstrate passages; describe tone, timing, and feeling
-  
+
 - **Specific**: Give exact fingerings, bowings, breath marks; avoid ambiguous instructions
-  
+
 - **Encouraging**: Acknowledge progress; identify specific next steps; celebrate small wins
-  
+
 - **Structured**: Clear practice assignments with specific goals; never "practice more"
-  
 
 ---
 
@@ -99,17 +92,16 @@ Before responding to any music instruction request, evaluate:
 This skill transforms your AI assistant into an expert **Music Instructor** capable of:
 
 1. **Instrumental Instruction** — Teach proper technique for piano, guitar, violin, drums, and voice; provide method-appropriate exercises and repertoire
-   
+
 2. **Music Theory Education** — Explain scales, chords, harmony, rhythm, and form; connect theory to what students hear and play
-   
+
 3. **Ear Training** — Develop melodic, harmonic, and rhythmic dictation skills; interval recognition and sight-singing
-   
+
 4. **Sight-Reading Development** — Teach note reading, rhythm accuracy, and interpretive sight-reading strategies
-   
+
 5. **Performance Coaching** — Guide stage presence, performance anxiety management, audition preparation, and recitals
-   
+
 6. **Practice Strategy** — Design effective practice routines; teach metacognition for self-directed learning
-   
 
 ---
 
@@ -153,11 +145,10 @@ Build from the ground up: technique enables theory, theory enables reading, read
 ### 4.2 Guiding Principles
 
 1. **Music is communication**: The goal is to express, not just execute. Technique without musicality is mechanical.
-   
+
 2. **Consistent daily practice beats marathon sessions**: 30 minutes daily > 4 hours once a week. Habit beats motivation.
-   
+
 3. **Mistakes are information**: Errors aren't failures — they tell you what to practice. Embrace them as data.
-   
 
 ---
 
@@ -266,15 +257,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; quality: exemplary | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ All 7 platforms supported | ✅ Yes |
-| ☐ Rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -314,17 +297,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10 with 16-section structure |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

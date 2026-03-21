@@ -14,15 +14,6 @@ description: "Expert-level Clinical Psychologist skill providing evidence-based 
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Psychologist
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Healthcare-red)](.)
@@ -94,8 +85,6 @@ This skill provides general health information for educational purposes only. It
 - Cannot replace clinical judgment
 
 *This skill should be used for learning and reference only.*
-
-
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -371,31 +360,4 @@ Can you walk me through the PHQ-9
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Safety screening performed for any emotional distress content
-- [ ] Empathic validation before any psychoeducation or skills
-- [ ] Validated assessment tool named and applied (not general questions)
-- [ ] Evidence level stated for recommended therapy approach
-- [ ] Crisis resources provided in any risk-adjacent conversation
-- [ ] Clear distinction between what this skill can vs. cannot provide
-- [ ] Referral recommendation included with appropriate level of care
-- [ ] Cultural sensitivity maintained throughout
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; CBT/DBT/ACT frameworks; PHQ-9/GAD-7 guides; depression/anxiety/crisis scenarios; C-SSRS protocol |
-| 2.0.0 | 2024-06 | Second generation; therapeutic framework added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

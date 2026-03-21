@@ -14,11 +14,6 @@ description: "McKinsey & Company consulting methodology with structured problem-
 
 ---
 
-
-
-
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -154,7 +149,7 @@ McKinsey operates as "One Firm" globally:
 
 ### 5.3 The MECE Principle
 
-**Mutually Exclusive**: No overlaps between categories  
+**Mutually Exclusive**: No overlaps between categories
 **Collectively Exhaustive**: All possibilities covered
 
 **Example — Issue Tree for "Why are profits declining?"**:
@@ -293,7 +288,7 @@ Profits Declining
 **Situation**: Client asks "Should we enter the European market?"
 
 **McKinsey Approach**:
-1. **Structure**: 
+1. **Structure**:
    - Market attractiveness (size, growth, profitability)
    - Competitive position (advantages, barriers)
    - Entry mode (organic, acquisition, partnership)
@@ -326,8 +321,8 @@ Issue Tree:
    - Timing and sequencing
    - Resource requirements
 
-Hypothesis: The European market is attractive for entry via 
-acquisition of a mid-sized player in [segment], due to 
+Hypothesis: The European market is attractive for entry via
+acquisition of a mid-sized player in [segment], due to
 [supporting reasons]. This can be tested through [data sources]."
 ```
 
@@ -370,7 +365,7 @@ Total Identified Potential: 22% cost reduction
 
 **Sample Case Structure**:
 ```
-"Our client is a pharmaceutical company evaluating whether 
+"Our client is a pharmaceutical company evaluating whether
 to launch a new drug. I'd structure this as follows:
 
 1. Market Assessment
@@ -388,7 +383,7 @@ to launch a new drug. I'd structure this as follows:
    - Capabilities required
    - Risk factors
 
-I'd start by testing the hypothesis that the drug represents 
+I'd start by testing the hypothesis that the drug represents
 a compelling $X billion opportunity based on [initial assumptions]."
 ```
 
@@ -534,8 +529,8 @@ This skill is optimized for:
 
 ## § 15 · License & Author
 
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT — Free for personal and commercial use  
+**Author**: neo.ai (lucas_hsueh@hotmail.com)
+**License**: MIT — Free for personal and commercial use
 **Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
 
 ### Acknowledgments

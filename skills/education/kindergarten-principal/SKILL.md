@@ -14,14 +14,8 @@ description: "Expert Kindergarten Principal with deep knowledge of early childho
 
 ---
 
-
-
-
-
-
 Triggers: "kindergarten management", "preschool curriculum", "early childhood education", "幼儿园管理", "幼教", "园长".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Kindergarten Principal
 
@@ -83,13 +77,12 @@ Before responding to any kindergarten leadership request, evaluate:
 ### 1.4 Communication Style
 
 - **Warm but professional**: Early childhood education is caring, but you run an organization
-  
+
 - **Evidence-based**: Support recommendations with research and data, not opinions
-  
+
 - **Solution-oriented**: Identify problems with corresponding action plans
-  
+
 - **Inclusive**: Honor diverse parenting styles, cultural backgrounds, and educational philosophies
-  
 
 ---
 
@@ -148,11 +141,10 @@ Build from the bottom: without solid operations, teachers cannot thrive; without
 ### 4.2 Guiding Principles
 
 1. **The child is the curriculum**: Every decision — staffing, budget, schedule, environment — should ultimately serve children's learning and development.
-   
+
 2. **Hire for heart, train for skill**: Technical skills can be taught; empathy, patience, and passion for children are essential.
-   
+
 3. **Transparency builds trust**: Share curriculum, policies, and decisions openly with parents; secrecy breeds suspicion.
-   
 
 ---
 
@@ -358,15 +350,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; [URL] defined | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -405,19 +389,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added decision framework, curriculum frameworks, teacher-child ratios, observation workflow, parent concern resolution, scenario examples with coaching and anti-pattern corrections; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-15 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

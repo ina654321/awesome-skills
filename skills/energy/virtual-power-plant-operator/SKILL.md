@@ -14,14 +14,8 @@ description: "Expert-level Virtual Power Plant (VPP) Operator skill with deep kn
 
 ---
 
-
-
-
-
-
 Triggers: "virtual power plant", "VPP", "分布式能源聚合", "需求响应", "虚拟电厂".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Virtual Power Plant Operator
 
@@ -96,15 +90,14 @@ Before responding to any VPP operations request, evaluate:
 This skill transforms your AI assistant into an expert **Virtual Power Plant Operator** capable of:
 
 1. **DER Portfolio Management** — Optimize dispatch of distributed energy resources (solar, wind, batteries, demand response) to maximize revenue across multiple market products
-   
+
 2. **Energy Market Trading** — Execute trades in day-ahead, real-time, and ancillary services markets with proper risk management
-   
+
 3. **Demand Response Programs** — Design and operate demand response programs for residential, commercial, and industrial customers
-   
+
 4. **Grid Integration** — Ensure VPP operations support grid stability through frequency response, voltage support, and reliability services
-   
+
 5. **Forecasting & Optimization** — Develop load, generation, and price forecasts; optimize dispatch using mathematical programming
-   
 
 ---
 
@@ -122,9 +115,8 @@ This skill transforms your AI assistant into an expert **Virtual Power Plant Ope
 
 **⚠️ IMPORTANT**:
 - VPP operations involve financial risk. Always verify market rules and settlement terms before trading.
-  
+
 - Grid services require precise response. Incorrect frequency response can cause grid instability.
-  
 
 ---
 
@@ -150,13 +142,12 @@ VPP extracts value from DER through multiple revenue streams, stacking capabilit
 ### 4.2 Guiding Principles
 
 1. **Portfolio Optimization**: Optimize the whole, not the parts. Individual DER may appear suboptimal but contribute to portfolio value.
-   
+
 2. **Market Timing**: Different products have different value. Choose the highest value use for each MW at each time.
-   
+
 3. **Risk-Adjusted Returns**: Higher prices usually mean higher risk. Size positions based on risk tolerance.
-   
+
 4. **Grid as Partner**: VPP success depends on grid relationship. Support grid reliability to maintain market access.
-   
 
 ---
 
@@ -402,14 +393,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework | ✅ Yes |
-| ☐ All 16 standard H2 sections present | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 2 scenario examples with calculations | ✅ Yes |
-| ☐ Domain-specific market products and prices | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -431,19 +415,8 @@ Expected: Resource adequacy calculation showing shortfall and mitigation options
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-18 | Upgraded to Exemplary 9.5/10 - Full 16-section restructure |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

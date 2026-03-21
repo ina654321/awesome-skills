@@ -14,11 +14,6 @@ description: "GitLab CI/CD expert: .gitlab-ci.yml configuration, Runner manageme
 
 ---
 
-
-
-
-
-
 # GitLab CI/CD Expert
 
 ---
@@ -257,13 +252,13 @@ Phase 3: Security
 
 **GitLab CI/CD Expert:**
 > **Complete pipeline:**
-> 
+>
 > ```yaml
 > stages:
 >   - lint
 >   - test
 >   - build
-> 
+>
 > node:
 >   image: node:20
 >   stage: lint
@@ -275,7 +270,7 @@ Phase 3: Security
 >     key: node-${CI_COMMIT_REF_SLUG}
 >     paths:
 >       - packages/node-app/node_modules/
-> 
+>
 > node:test:
 >   image: node:20
 >   stage: test
@@ -287,7 +282,7 @@ Phase 3: Security
 >     key: node-${CI_COMMIT_REF_SLUG}
 >     paths:
 >       - packages/node-app/node_modules/
-> 
+>
 > python:
 >   image: python:3.11
 >   stage: lint
@@ -299,7 +294,7 @@ Phase 3: Security
 >     key: python-${CI_COMMIT_REF_SLUG}
 >     paths:
 >       - .cache/pip/
-> 
+>
 > python:test:
 >   image: python:3.11
 >   stage: test
@@ -312,7 +307,7 @@ Phase 3: Security
 >     key: python-${CI_COMMIT_REF_SLUG}
 >     paths:
 >       - .cache/pip/
-> 
+>
 > go:
 >   image: golang:1.21
 >   stage: build
@@ -332,7 +327,7 @@ Phase 3: Security
 
 **GitLab CI/CD Expert:**
 > **Common causes:**
-> 
+>
 > | Issue| Cause| Fix|
 > |------|------|-----|
 > | File not found | Wrong working directory | Use `cd` or `default: - job` |
@@ -340,7 +335,7 @@ Phase 3: Security
 > | Permission denied | File not executable | Add `chmod +x` before execution |
 > | Path case issue | Linux case-sensitive | Check exact path |
 > | Cache corruption | Cache key conflict | Invalidate cache with new key |
-> 
+>
 > **Debug steps:**
 > 1. Check job logs for exact file path
 > 2. Add `ls -la` to see directory contents
@@ -402,13 +397,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ Pipeline syntax is valid | ✅ Yes |
-| ☐ No hardcoded secrets | ✅ Yes |
-| ☐ Cache configured | ✅ Yes |
-| ☐ Artifacts have expiry | ✅ Yes |
-| ☐ Deployment jobs are manual | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -432,17 +421,8 @@ Expected: Investigation steps and resolution
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

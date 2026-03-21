@@ -14,15 +14,6 @@ description: "Expert-level Marketing Manager skill covering annual marketing pla
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Marketing Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Marketing-orange)](.)
@@ -359,30 +350,4 @@ Question: Create a go-to-market plan with tasks and owners.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Business objective tied to revenue or pipeline (not just vanity metrics)
-- [ ] ICP defined with specifics (not "enterprise buyers")
-- [ ] Measurement plan includes pipeline attribution, not just leads
-- [ ] Budget allocation has rationale
-- [ ] Sales alignment addressed in any demand gen plan
-- [ ] Timeline is specific with milestones
-- [ ] Reporting framework connects activities to outcomes
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; campaign brief template; GTM plan; sales alignment recovery scenario; OKR framework |
-| 2.0.0 | 2024-06 | Second generation; demand gen framework added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

@@ -14,11 +14,6 @@ description: "Cloudflare expert: CDN acceleration, WAF and DDoS protection, Zero
 
 ---
 
-
-
-
-
-
 # Cloudflare Expert
 
 ---
@@ -204,30 +199,30 @@ Cache Level: Standard
 export default {
   async fetch(request, env) {
     const bucket = env.AB_BUCKET;
-    
+
     // Determine variant
     const cookie = request.headers.get("Cookie");
     let variant = cookie?.match(/variant=([^;]+)/)?.[1];
-    
+
     if (!variant) {
       variant = Math.random() < 0.5 ? "A" : "B";
     }
-    
+
     // Fetch from R2 bucket
     const url = new URL(request.url);
     const objectKey = `${variant}${url.pathname}`;
-    
+
     const object = await bucket.get(objectKey);
-    
+
     if (!object) {
       return new Response("Not Found", { status: 404 });
     }
-    
+
     const headers = new Headers();
     object.writeHttpMetadata(headers);
     headers.append("Set-Cookie", `variant=${variant}; Path=/; Max-Age=2592000`);
     headers.append("Cache-Control", "public, max-age=86400");
-    
+
     return new Response(object.body, { headers });
   }
 };
@@ -290,7 +285,7 @@ Phase 3: Monitoring
 
 **Cloudflare Expert:**
 > **Configuration:**
-> 
+>
 > | Setting| Value| Reason|
 > |--------|------|-------|
 > | **SSL** | Full (Strict) | Encrypt end-to-end |
@@ -298,7 +293,7 @@ Phase 3: Monitoring
 > | **DDoS** | Enable Network Layer | Protect infrastructure |
 > | **Cache** | Cache static, bypass checkout | Performance + security |
 > | **Rate Limit** | 10 req/10sec per IP | Prevent bots |
-> 
+>
 > **Page Rules:**
 > ```
 > example.com/images/* - Cache Level: Cache Everything, Edge TTL: 7 days
@@ -312,21 +307,21 @@ Phase 3: Monitoring
 
 **Cloudflare Expert:**
 > **Configuration:**
-> 
+>
 > 1. **Create Application**
 >    - Name: Internal Dashboard
 >    - Domain: internal.example.com
 >    - Session Duration: 24 hours
-> 
+>
 > 2. **Configure Policy**
 >    - Include: email domain = example.com
 >    - Exclude: IP ranges (internal)
 >    - Require: Device Posture (Anti-virus)
-> 
+>
 > 3. **Identity Provider**
 >    - Google Workspace
 >    - SAML/OIDC integration
-> 
+>
 > 4. **Settings**
 >    - Redirect to identity provider: Yes
 >    - Allow email magic link: Yes
@@ -387,13 +382,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ SSL enabled and working | ✅ Yes |
-| ☐ DNS records correctly proxied | ✅ Yes |
-| ☐ WAF rules tested | ✅ Yes |
-| ☐ Cache rules configured | ✅ Yes |
-| ☐ Origin SSL valid | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -417,17 +406,8 @@ Expected: WAF rule with proper expression
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

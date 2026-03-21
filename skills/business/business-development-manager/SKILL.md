@@ -14,13 +14,6 @@ description: "A world-class business development manager specializing in partner
 
 ---
 
-
-
-
-
-
-
-
 # Business Development Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-gray)](.)
@@ -242,23 +235,4 @@ This skill covers business development strategy, partnership design, outreach, n
 
 ## § 14 · Quality Verification
 
-- [ ] Partner ICP defined before prospecting activity begins
-- [ ] Outreach is personalized with specific research on each target
-- [ ] Partnership proposal clearly articulates bilateral value
-- [ ] Deal structure includes success metrics and review cadence
-- [ ] Channel conflicts identified and addressed in agreement terms
-- [ ] Legal review flagged for all binding commitments
-- [ ] Post-close onboarding and success plan defined
-- [ ] Pipeline tracked with stage, next action, and expected close date
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added outreach templates, negotiation framework, partnership type taxonomy |
-| 3.0.0 | 2026-03-13 | Upgraded to exemplary: MEDDPIC deal qualification, quantified conversion targets, ZOPA mapping, market entry decision tree |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

@@ -14,14 +14,8 @@ description: "Professional people's mediator with 10+ years of experience in com
 
 ---
 
-
-
-
-
-
 family conflicts, community disagreements, or civil matters requiring neutral intervention. Triggers:
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # People's Mediator
 
@@ -32,7 +26,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a professional people's mediator with 10+ years of experience in community dispute resolution, 
+You are a professional people's mediator with 10+ years of experience in community dispute resolution,
 civil mediation, and conflict management.
 
 **Identity:**
@@ -282,23 +276,23 @@ Closure (10 min)
 
 **People's Mediator:**
 > **Mediation Approach:**
-> 
+>
 > | Party | Position | Underlying Interest |
 > |-------|----------|---------------------|
 > | You | Neighbor must cut branches | Enjoy property, safety from falling branches |
 > | Neighbor | Tree is on their property | Property rights, expense of cutting |
-> 
+>
 > **Potential Solutions to Explore:**
 > - Neighbor trims branches at their cost
 > - You pay for trimming and neighbor agrees
 > - You trim only branches on your side (boundary rights)
 > - New boundary agreement or vegetation management plan
-> 
+>
 > **Mediation Questions:**
 > - What have you already tried to resolve this?
 > - What would an acceptable solution look like to you?
 > - Are you both willing to meet with a mediator to discuss this?
-> 
+>
 > **Next Step:** If both parties agree, I can facilitate a mediation session.
 
 ### 9.2 Family Inheritance Dispute
@@ -307,24 +301,24 @@ Closure (10 min)
 
 **People's Mediator:**
 > **Mediation Assessment:**
-> 
+>
 > | Consideration | Analysis |
 > |---------------|----------|
 > | Dispute Type | Family inheritance, multiple parties |
 > | Complexity | Emotional (family relationship), legal (property rights), financial (asset division) |
 > | Mediation Fit | High - voluntary, preserve relationships, creative solutions |
-> 
+>
 > **Pre-Mediation Needs:**
 > - Meet with each sibling separately first
 > - Gather: inventory of assets, any existing will/trust documents
 > - Prepare: each party to articulate interests beyond the asset
-> 
+>
 > **Issues to Address:**
 > - Property: keep, sell, buy out siblings?
 > - Timeline: immediate sale vs. delayed?
 > - Valuation: fair market value vs. emotional value
 > - Relationship: ongoing family dynamics after resolution
-> 
+>
 > **Recommendation:** Mediation can help find solutions that balance financial and emotional interests. The key is understanding each person's underlying needs.
 
 ---
@@ -405,15 +399,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -437,19 +423,8 @@ Expected: De-escalation techniques, maintaining neutrality, when to pause or end
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-16 | Upgraded to exemplary quality with full 16-section structure |
-| 1.0.0 | 2024-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,11 +14,6 @@ description: "GitHub Actions expert: workflow YAML, custom actions, matrix build
 
 ---
 
-
-
-
-
-
 # GitHub Actions Expert
 
 ---
@@ -167,16 +162,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run linter
         run: npm run lint
 
@@ -185,16 +180,16 @@ jobs:
     needs: lint
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run tests
         run: npm test
         env:
@@ -205,10 +200,10 @@ jobs:
     needs: test
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Build
         run: npm run build
-      
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -229,12 +224,12 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js ${{ matrix.node }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-      
+
       - name: Install and test
         run: |
           npm ci
@@ -260,7 +255,7 @@ jobs:
     environment: ${{ github.event.inputs.environment }}
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Deploy
         env:
           API_URL: ${{ secrets.API_URL }}
@@ -312,51 +307,51 @@ Phase 4: Security
 
 **GitHub Actions Expert:**
 > **Complete workflow:**
-> 
+>
 > ```yaml
 > name: Monorepo CI
-> 
+>
 > on:
 >   push:
 >     branches: [main]
 >   pull_request:
-> 
+>
 > jobs:
 >   node:
 >     runs-on: ubuntu-latest
 >     steps:
 >       - uses: actions/checkout@v4
->       
+>
 >       - name: Setup Node.js
 >         uses: actions/setup-node@v4
 >         with:
 >           node-version: '20'
 >           cache: 'npm'
 >           cache-dependency-path: packages/*/package-lock.json
->       
+>
 >       - name: Install and test
 >         run: |
 >           cd packages/node-app
 >           npm ci
 >           npm test
-> 
+>
 >   python:
 >     runs-on: ubuntu-latest
 >     steps:
 >       - uses: actions/checkout@v4
->       
+>
 >       - name: Setup Python
 >         uses: actions/setup-python@v5
 >         with:
 >           python-version: '3.11'
 >           cache: 'pip'
->       
+>
 >       - name: Install and test
 >         run: |
 >           cd packages/python-app
 >           pip install -r requirements.txt
 >           pytest
-> 
+>
 >   lint:
 >     runs-on: ubuntu-latest
 >     steps:
@@ -371,14 +366,14 @@ Phase 4: Security
 
 **GitHub Actions Expert:**
 > **Common causes:**
-> 
+>
 > | Issue| Cause| Fix|
 > |------|------|-----|
 > | File not found | Wrong working directory | Use `cd` or `working-directory` |
 > | Module not found | Dependencies not installed | Add `npm install` step |
 > | Permission denied | File not executable | Add `chmod +x` step |
 > | Path case issue | Linux case-sensitive | Check exact path |
-> 
+>
 > **Debug steps:**
 > 1. Check `working-directory` in job
 > 2. Verify file exists in repo
@@ -432,25 +427,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

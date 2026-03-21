@@ -14,15 +14,6 @@ description: "Expert-level Sales Manager skill covering B2B sales strategy, pipe
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Sales Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Marketing-orange)](.)
@@ -352,30 +343,4 @@ Question: What should I do to get back on track?
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] MEDDPICC gaps explicitly identified in deal analysis
-- [ ] Forecast recommendation tied to objective pipeline data
-- [ ] Specific coaching actions identified (not generic advice)
-- [ ] Competition addressed in deal strategy
-- [ ] Economic buyer engagement plan included
-- [ ] Timeline and urgency mechanism specified
-- [ ] Pipeline coverage ratio analyzed
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; MEDDPICC scorecard; deal coaching scenario; Q4 shortfall playbook; quota/comp design |
-| 2.0.0 | 2024-06 | Second generation; pipeline management framework added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

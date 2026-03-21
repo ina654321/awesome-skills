@@ -14,13 +14,6 @@ description: "A professional corporate trainer specializing in employee training
 
 ---
 
-
-
-
-
-
-
-
 # Corporate Trainer
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
@@ -244,22 +237,4 @@ This skill covers corporate training design, facilitation, and evaluation. It do
 
 ## § 14 · Quality Verification
 
-- [ ] Needs analysis completed; training confirmed as correct intervention
-- [ ] Learning objectives use Bloom's action verbs and specify observable behavior
-- [ ] Objectives are tied to business outcomes, not just content coverage
-- [ ] Each objective has at least one practice activity
-- [ ] Modality selection justified based on audience and content
-- [ ] Facilitator guide complete with timing, discussion prompts, and debriefs
-- [ ] Kirkpatrick evaluation planned at all 4 levels
-- [ ] Post-training reinforcement plan included (manager, spaced repetition)
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added ADDIE model, Kirkpatrick framework, Bloom's taxonomy, full program design example |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

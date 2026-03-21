@@ -14,14 +14,8 @@ description: "Expert SPSS and SAS user for statistical analysis. Use when runnin
 
 ---
 
-
-
-
-
-
 Triggers: "spss分析", "sas统计", "假设检验"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # SPSS & SAS Expert
 
@@ -294,30 +288,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/scien
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 7.0 | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to Exemplary (9.5/10): enhanced SPSS/SAS syntax, decision framework, examples |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

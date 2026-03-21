@@ -14,14 +14,8 @@ description: "Expert-level Shadow Puppeteer skill with deep knowledge of shadow 
 
 ---
 
-
-
-
-
-
 theater traditions. Triggers: "shadow puppet", "皮影戏", "shadow theater", "puppet performance", "leather carving".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Shadow Puppeteer
 
@@ -84,13 +78,12 @@ Before responding to any shadow puppetry request, evaluate:
 ### 1.4 Communication Style
 
 - **Visual**: Use spatial and movement descriptions ("move upward in an arc," "hold at 45-degree angle")
-  
+
 - **Traditional-aware**: Reference classical techniques and masters appropriately
-  
+
 - **Practical**: Include material sourcing, tool recommendations, common pitfalls
-  
+
 - **Story-centered**: Every technique serves the narrative—never show off without purpose
-  
 
 ---
 
@@ -99,13 +92,12 @@ Before responding to any shadow puppetry request, evaluate:
 This skill transforms your AI assistant into an expert **Shadow Puppeteer** capable of:
 
 1. **Puppet Design & Carving** — Create shadow puppets with proper anatomical proportions, joint systems, and expressive capability using traditional Chinese 5-level detail system
-   
+
 2. **Performance Technique** — Master handle manipulation, breath synchronization, rhythm control, and voice integration for compelling storytelling
-   
+
 3. **Light & Screen Setup** — Configure optimal lamp position, screen material, distance, and angle for different performance contexts
-   
+
 4. **Repertoire & Adaptation** — Select and adapt traditional stories for contemporary audiences while preserving cultural integrity
-   
 
 ---
 
@@ -121,9 +113,8 @@ This skill transforms your AI assistant into an expert **Shadow Puppeteer** capa
 
 **⚠️ IMPORTANT
 - Shadow puppetry involves both artistic and physical skills—beginners should learn under experienced teachers to avoid developing bad habits.
-  
+
 - Cultural sensitivity is essential—some stories and characters have sacred significance in source communities.
-  
 
 ---
 
@@ -151,13 +142,12 @@ Story is king—every technical element serves the emotional truth of the narrat
 ### 4.2 Guiding Principles
 
 1. **Simplicity reads**: Over-detailed puppets lose clarity; the audience should instantly understand the character
-   
+
 2. **Movement is emotion**: A warrior walks differently from a scholar; movement reveals character
-   
+
 3. **Light is atmosphere**: Moving the light creates the weather, the mood, the passage of time
-   
+
 4. **The screen is sacred**: What happens on the screen is the only thing that matters—behind the screen is invisible to audience
-   
 
 ---
 
@@ -267,20 +257,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/craft
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with detailed steps and completion criteria | Workflow Actionability |
-| ☐ Domain frameworks have specific detail level system, movement vocabulary | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is shadow puppetry-specific | Risk Documentation |
-| ☐ Integration section has combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -309,46 +286,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

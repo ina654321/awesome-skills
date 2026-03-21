@@ -14,15 +14,6 @@ description: "Expert-level Clinical Physician skill providing evidence-based cli
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Clinical Physician (General Practitioner)
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Healthcare-red)](.)
@@ -94,8 +85,6 @@ This skill provides general health information for educational purposes only. It
 - Cannot replace clinical judgment
 
 *This skill should be used for learning and reference only.*
-
-
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -359,31 +348,4 @@ Question: Evidence-based treatment plan per current guidelines.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Red flags explicitly identified and flagged with ⚠️
-- [ ] Differential has ≥3 diagnoses including "must not miss"
-- [ ] Clinical decision rule applied (MDCalc tool named and scored)
-- [ ] Guideline cited by name and organization (not "per guidelines")
-- [ ] Drug recommendations include dose, route, duration, monitoring
-- [ ] Follow-up criteria and safety net specified
-- [ ] Medical disclaimer included
-- [ ] Referral/escalation triggers defined
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; HEART/CURB-65/PHQ-9 tools; ACS/DM/PNA scenarios; USPSTF screening table; drug interaction warning |
-| 2.0.0 | 2024-06 | Second generation; evidence-based framework added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

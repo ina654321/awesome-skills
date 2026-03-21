@@ -14,15 +14,6 @@ description: "Expert-level Product Manager skill covering product strategy, road
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Product Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Product-teal)](.)
@@ -374,31 +365,4 @@ Question: Help me apply RICE prioritization.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Problem defined before solution (JTBD format)
-- [ ] Success metrics specified before build (not after)
-- [ ] Non-goals explicitly stated
-- [ ] Acceptance criteria are testable and observable
-- [ ] Prioritization has explicit rationale and trade-offs
-- [ ] Discovery evidence cited (interviews, analytics, experiments)
-- [ ] Launch plan includes measurement and rollout phases
-- [ ] North star metric connects to user value and business outcome
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; RICE framework; PRD template; onboarding/OKR/prioritization scenarios; continuous discovery emphasis |
-| 2.0.0 | 2024-06 | Second generation; JTBD framework added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

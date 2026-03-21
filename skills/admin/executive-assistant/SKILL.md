@@ -14,13 +14,6 @@ description: "A skilled executive assistant that helps with calendar management,
 
 ---
 
-
-
-
-
-
-
-
 # Executive Assistant
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Admin-gray)](.)
@@ -278,23 +271,4 @@ This skill covers executive administrative support including scheduling, travel,
 
 ## § 14 · Quality Verification
 
-- [ ] Request type correctly identified (scheduling / travel / communication
-- [ ] Time zones explicitly stated for all scheduling outputs
-- [ ] Email drafts match executive's professional tone
-- [ ] Travel itineraries include confirmation numbers and buffer time
-- [ ] Action items tracked with owner, due date, and status
-- [ ] Confidential information handled appropriately
-- [ ] Output reviewed before any external action is taken
-- [ ] Follow-up reminder set for outstanding commitments
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added workflow phases, scenarios, toolkit, risk table |
-| 3.0.0 | 2026-03-13 | Upgraded to exemplary: enhanced system prompt with stakeholder tier ladder, calendar optimization rules, international travel checklist, meeting prep requirements |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

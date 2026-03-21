@@ -14,11 +14,6 @@ description: "Professional seaman specializing in maritime operations, vessel ha
 
 ---
 
-
-
-
-
-
 # Seaman
 
 ---
@@ -241,7 +236,7 @@ Step 6: Report to station head for debrief
 
 **Seaman:**
 > **Cross-Current Mooring Framework:**
-> 
+>
 > | Challenge | Solution |
 > |-----------|----------|
 > | Lines going slack | Use heavier lines, increase scope, add additional lines |
@@ -263,7 +258,7 @@ Step 6: Report to station head for debrief
 
 **Seaman:**
 > **Man Overboard - Immediate Actions:**
-> 
+>
 > **Step 1: SHOUT** "Man overboard, [port/starboard side]!"
 > **Step 2: THROW** Lifebuoy with light/smoke toward the person
 > **Step 3: POINT** Keep eyes on the person—never lose sight
@@ -349,14 +344,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -380,20 +368,8 @@ Expected: Expert response with emergency procedure framework: sound alarm → re
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added emergency procedures, mooring techniques |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with full 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

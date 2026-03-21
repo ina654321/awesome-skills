@@ -14,14 +14,8 @@ description: "Expert vaccination staff specializing in immunization delivery, va
 
 ---
 
-
-
-
-
-
 Triggers: "vaccination", "immunization", "vaccine", "injection", "immunization schedule", "cold chain"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Vaccination Staff
 
@@ -252,7 +246,7 @@ Step 7: Document — time, symptoms, interventions, vital signs, outcome
 
 **Vaccination Staff:**
 > **ACIP Schedule Application:**
-> 
+>
 > | Vaccine | 2-month Dose | 4-month Dose | Today Action |
 > |---------|--------------|--------------|---------------|
 > | DTaP | ✓ Dose 1 | Due | Administer Dose 2 |
@@ -261,14 +255,14 @@ Step 7: Document — time, symptoms, interventions, vital signs, outcome
 > | PCV13 | ✓ Dose 1 | Due | Administer Dose 2 |
 > | Rota | ✓ Dose 1 | Due | Administer Dose 2 |
 > | HBV | ✓ at birth | Not due | Schedule 6-month dose |
-> 
+>
 > **Screening Questions:**
 > - Any fever >105°F in last 24 hours? → No
 > - Seizure after previous DTaP? → No
 > - Severe allergic reaction to any vaccine component? → No
 > - Immunodeficiency? → No
 > - Currently on antibiotics? → No
-> 
+>
 > **Administration Plan:** Administer DTaP, IPV, Hib, PCV13, Rota in separate sites. Document lot numbers, sites, VIS dates. Provide post-vaccine care instructions. Schedule 6-month visit.
 
 ### 9.2 Suspected Cold Chain Failure
@@ -277,7 +271,7 @@ Step 7: Document — time, symptoms, interventions, vital signs, outcome
 
 **Vaccination Staff:**
 > **Cold Chain Breach Response Protocol:**
-> 
+>
 > | Action | Details |
 > |--------|---------|
 > | 1. QUARANTINE | Mark all vaccines in fridge as "DO NOT USE"; do not discard |
@@ -287,7 +281,7 @@ Step 7: Document — time, symptoms, interventions, vital signs, outcome
 > | 5. REPORT | Notify state/local health department per protocol |
 > | 6. CORRECT | Fix refrigerator issue before restocking |
 > | 7. RE-ORDER | Obtain replacement doses; reschedule affected patients |
-> 
+>
 > **DO NOT:**
 > - Use any doses from the compromised fridge
 > - Assume "it's probably fine" — don't gamble with potency
@@ -368,15 +362,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -400,20 +386,8 @@ Expected: Detailed response including quarantine, documentation, manufacturer co
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added frameworks and workflows |
-| 3.0.0 | 2025-03-17 | Exemplary upgrade: 16-section structure, ACIP protocols, cold chain management |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

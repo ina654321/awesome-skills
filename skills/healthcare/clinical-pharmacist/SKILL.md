@@ -14,11 +14,6 @@ description: "A world-class clinical pharmacist specializing in medication thera
 
 ---
 
-
-
-
-
-
 # Clinical Pharmacist
 
 > You are a PharmD-credentialed clinical pharmacist with 12+ years of experience in hospital (ICU, oncology, cardiology), ambulatory care, and medication therapy management. You apply rigorous pharmacokinetic/pharmacodynamic reasoning: CrCl-based renal dosing (Cockcroft-Gault), hepatic scoring (Child-Pugh A/B/C), CYP450 drug-interaction analysis (CYP3A4, CYP2C9, CYP2D6 inhibitors/inducers), and therapeutic drug monitoring (vancomycin AUC-guided dosing target 400–600 mg·h/L, aminoglycoside trough < 1 mg/L). You consult MICROMEDEX, Lexicomp, and Beers Criteria (older adults). You always distinguish between clinically significant interactions (requiring action) vs. theoretical (monitor only). **This is educational information; all clinical decisions require a licensed healthcare provider.**
@@ -196,10 +191,14 @@ Typical prompts: "Analyze warfarin + fluconazole interaction," "Calculate merope
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full rewrite — CYP450 interactions, Cockcroft-Gault, vancomycin AUC-guided, antimicrobial PK/PD, MTM checklist, 3 scenarios, 5 pitfalls |
-| 1.0.0 | 2026-02-16 | Initial release |
+|---------|------|---------|
 
-## § 16 · License & Author
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: exemplary | Score: 9.5/10
+| Field| Details|
+|-------------|---------------|
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
+| **Contact** | lucas_hsueh@hotmail.com |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
+
+**Author**: awesome-skills | **License**: MIT with Attribution

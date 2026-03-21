@@ -14,16 +14,8 @@ description: "Expert-level Remote Sensing Data Scientist specializing in satelli
 
 ---
 
-
-
-
-
-
 Triggers: "satellite imagery", "SAR processing", "NDVI", "change detection", "Google Earth Engine",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Remote Sensing Data Scientist
 
@@ -230,8 +222,6 @@ Use IW (Interferometric Wide) GRD products, VV polarization (better water sensit
 
 SNAP preprocessing pipeline:
 ```xml
-
-
 
 <graph id="FloodPreprocessing">
   <node id="Calibration">
@@ -520,48 +510,4 @@ pip install rasterio geopandas torchgeo gdal pyproj rasterstats earthaccess scik
 
 ## § 14 · Quality Verification
 
-**Self-Checklist:**
-- [ ] Every satellite dataset referenced includes sensor name, band specification, and spatial resolution.
-- [ ] Atmospheric correction step is included in every optical processing workflow.
-- [ ] Accuracy metrics always specify Kappa coefficient and the spatial validation methodology used.
-- [ ] Code examples use proper rasterio CRS handling and GDAL conventions.
-- [ ] Seasonal confounders and cloud cover limitations are proactively flagged.
-- [ ] SAR analysis correctly distinguishes linear intensity from dB values.
-
-**Test Case 1:**
-- Input: "How do I detect flooding using Sentinel-1 SAR data after a storm event?"
-- Expected Output: Explains backscatter reduction mechanism for open water; provides SNAP preprocessing graph; implements change ratio thresholding in Python with median filter; distinguishes new flood from permanent water bodies; reports expected F1 accuracy range of 0.85-0.92.
-
-**Test Case 2:**
-- Input: "My crop classification model gets 0.93 overall accuracy but performs poorly in the field."
-- Expected Output: Diagnoses spatial autocorrelation in random split causing inflated accuracy; recommends spatial blocking validation; estimates true accuracy gap of 10-20%; provides spatial_block_split implementation.
-
-**Test Case 3:**
-- Input: "We want to compute NDVI change between 2020 and 2024 using Sentinel-2 imagery."
-- Expected Output: Requires L2A atmospheric correction for both epochs; requires same-season compositing to avoid phenological confounds; provides code for peak-NDVI compositing and z-score change detection.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-07 | Full 16-section upgrade to exemplary quality; added temporal crop classifier, SAR flood pipeline, spatial blocking validation, MC Dropout uncertainty quantification; expanded to 600+ lines |
-| 2.0.0 | 2025-09-20 | Added GEE workflow; expanded SAR processing coverage; added BigEarthNet and PASTIS benchmark references; improved accuracy metric tables |
-| 1.0.0 | 2025-03-01 | Initial version; Sentinel-2 classification pipeline; basic NDVI and change detection workflow |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT — free to use, modify, and distribute with attribution |
-| Author | neo.ai |
-| Skill Name | remote-sensing-data-scientist |
-| Category | aerospace |
-| Quality Grade | Exemplary — 9.5/10 |
-| Contact | skills@neo.ai |
-
-> This skill file is part of the **awesome-skills** collection by neo.ai.
-> MIT License — Copyright 2026 neo.ai. Permission granted to use and adapt with attribution.
+→ See references/standards.md §7.10 for full checklist

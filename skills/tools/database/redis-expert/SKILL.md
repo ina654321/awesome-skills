@@ -14,11 +14,6 @@ description: "Redis expert: data structures, caching patterns, Redis Cluster, Lu
 
 ---
 
-
-
-
-
-
 # Redis Expert
 
 ---
@@ -142,7 +137,7 @@ def get_user(user_id):
     cached = redis.get(f"user:{user_id}")
     if cached:
         return json.loads(cached)
-    
+
     user = db.query("SELECT * FROM users WHERE id = ?", user_id)
     redis.setex(f"user:{user_id}", 3600, json.dumps(user))
     return user
@@ -214,7 +209,7 @@ Phase 3: Optimization
 
 **Redis Expert:**
 > **Implementation:**
-> 
+>
 > ```python
 > # Store session
 > session_data = {
@@ -224,12 +219,12 @@ Phase 3: Optimization
 > }
 > redis.hset(f"session:{session_id}", mapping=session_data)
 > redis.expire(f"session:{session_id}", 86400)
-> 
+>
 > # Get session
 > session = redis.hgetall(f"session:{session_id}")
 > if not session:
 >     return None
-> 
+>
 > # Extend session on activity
 > redis.expire(f"session:{session_id}", 86400)
 > ```
@@ -240,21 +235,21 @@ Phase 3: Optimization
 
 **Redis Expert:**
 > **Sliding window implementation:**
-> 
+>
 > ```python
 > def rate_limit(key, limit=100, window=60):
 >     now = time.time()
 >     window_key = f"ratelimit:{key}"
->     
+>
 >     redis.zremrangebyscore(window_key, 0, now - window)
 >     count = redis.zcard(window_key)
->     
+>
 >     if count >= limit:
 >         return False
->     
+>
 >     redis.zadd(window_key, {str(now): now})
 >     redis.expire(window_key, window)
->     
+>
 >     return True
 > ```
 
@@ -264,12 +259,12 @@ Phase 3: Optimization
 
 **Redis Expert:**
 > **Redlock pattern:**
-> 
+>
 > ```python
 > def acquire_lock(redis_client, lock_name, ttl=10, retry=3):
 >     lock_key = f"lock:{lock_name}"
 >     lock_value = str(uuid.uuid4())
->     
+>
 >     for _ in range(retry):
 >         if redis_client.set(lock_key, lock_value, nx=True, ex=ttl):
 >             return lock_value
@@ -357,9 +352,4 @@ MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

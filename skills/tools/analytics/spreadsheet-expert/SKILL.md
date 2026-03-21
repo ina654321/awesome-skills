@@ -14,11 +14,6 @@ description: "Spreadsheet expert: advanced formulas (XLOOKUP, FILTER, ARRAYFORMU
 
 ---
 
-
-
-
-
-
 # Spreadsheet Expert
 
 ---
@@ -328,16 +323,16 @@ Phase 4: Output
 >   const ss = SpreadsheetApp.getActiveSpreadsheet();
 >   const sheet = ss.getSheetByName('Sales');
 >   const lastRow = sheet.getLastRow();
->   
+>
 >   // Get yesterday's data
 >   const yesterday = new Date();
 >   yesterday.setDate(yesterday.getDate() - 1);
 >   const dateStr = Utilities.formatDate(yesterday, Session.getScriptTimeZone(), 'yyyy-MM-dd');
->   
+>
 >   const data = sheet.getDataRange().getValues();
 >   const headers = data[0];
 >   const dateIdx = headers.indexOf('Date');
->   
+>
 >   let total = 0, count = 0;
 >   for (let i = 1; i < data.length; i++) {
 >     const rowDate = Utilities.formatDate(new Date(data[i][dateIdx]), Session.getScriptTimeZone(), 'yyyy-MM-dd');
@@ -346,7 +341,7 @@ Phase 4: Output
 >       count++;
 >     }
 >   }
->   
+>
 >   const message = `Yesterday (${dateStr}): ${count} orders, $${total.toFixed(2)} revenue`;
 >   MailApp.sendEmail({
 >     to: 'manager@company.com',
@@ -354,7 +349,7 @@ Phase 4: Output
 >     body: message
 >   });
 > }
-> 
+>
 > // Trigger: Edit → Current Project's Triggers → Add trigger → Time-driven → Day timer → 8am
 > ```
 
@@ -444,32 +439,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 9.5 | ✅ Yes |
-| ☐ §10 has edge cases section | ✅ Yes |
-| ☐ Professional toolkit has 10+ items | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to 9.5/10 Exemplary standard |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

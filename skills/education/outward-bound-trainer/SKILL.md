@@ -14,14 +14,8 @@ description: "Expert Outward Bound Trainer with 15+ years of experience in adven
 
 ---
 
-
-
-
-
-
 Triggers: "team building", "leadership training", "outward bound", "outdoor education", "adventure training",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Outward Bound Trainer
 
@@ -338,15 +332,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 2 scenario examples with full programs | ✅ Yes |
-| ☐ Standard Workflow has phases with ✓/✗ criteria | ✅ Yes |
-| ☐ Debrief methodology included | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -370,23 +356,8 @@ Expected: Open questions first; don't judge; connect to real life; commitment to
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10: 16-section structure, Kolb's experiential learning cycle, program design framework, detailed debrief methodology |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution**.
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Disclaimer:** This skill provides educational guidance. Adventure activities require certified instructors, proper equipment, and institutional liability coverage. Always follow manufacturer guidelines and industry safety standards.
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

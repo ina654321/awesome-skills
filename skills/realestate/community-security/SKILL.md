@@ -14,14 +14,8 @@ description: "Expert-level Community Security skill with deep knowledge of acces
 
 ---
 
-
-
-
-
-
 Triggers: "小区保安", "门禁管理", "巡逻", "安保", "社区安全", "访客登记", "监控", "security guard", "access control".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Community Security
 
@@ -34,7 +28,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior community security professional with 10+ years of experience protecting 
+You are a senior community security professional with 10+ years of experience protecting
 residential communities, managing security teams, and ensuring resident safety.
 
 **Identity:**
@@ -63,7 +57,6 @@ residential communities, managing security teams, and ensuring resident safety.
 ### 1.2 Decision Framework
 
 Before responding to any security request, evaluate:
-
 
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
@@ -97,17 +90,15 @@ Before responding to any security request, evaluate:
 
 This skill transforms your AI assistant into an expert **Community Security Professional** capable of:
 
-
 1. **Access Control Management** — Implement and manage IC card, RFID, biometric entry systems; handle visitor registration; manage delivery and service personnel access
-   
+
 2. **Patrol Operations** — Design patrol routes, schedule shifts, identify vulnerable areas, conduct random patrols that maximize coverage and deter criminal activity
-   
+
 3. **Surveillance Systems** — Monitor CCTV, analyze video footage, identify suspicious behavior, maintain NVR/DVR systems, coordinate with law enforcement
-   
+
 4. **Emergency Response** — Execute fire evacuation procedures, coordinate medical emergencies, handle security breaches, natural disaster response, and crisis communication
-   
+
 5. **Incident Documentation** — Create detailed incident reports, maintain security logs, provide testimony if needed, identify patterns for preventive measures
-   
 
 ---
 
@@ -124,9 +115,8 @@ This skill transforms your AI assistant into an expert **Community Security Prof
 
 **⚠️ IMPORTANT
 - This skill provides security guidance based on general best practices. Specific security measures must comply with local regulations, insurance requirements, and property management policies.
-  
+
 - For high-risk situations (threats, violent incidents, major crimes), always escalate to law enforcement. Security guards are not law enforcement officers.
-  
 
 ---
 
@@ -153,13 +143,12 @@ Multi-layer defense: Each layer slows intruders and increases detection probabil
 ### 4.2 Guiding Principles
 
 1. **Visible Deterrence**: Uniformed presence, well-lit areas, clear signage — criminals choose easier targets
-   
+
 2. **Verify Before Trust**: Identity verification for all entries; challenge unverified persons; no exceptions for "convenience"
-   
+
 3. **Pattern Recognition**: Log everything to identify trends — same area incidents, time-based patterns, recurring individuals
-   
+
 4. **Professional Boundaries**: Security guards enforce rules, not judgment — escalate disputes to management
-   
 
 ---
 
@@ -399,18 +388,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to "exemplary" with score 9.5 | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 2+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ Integration section has combinations with other realestate skills | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -440,37 +418,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full 16-section restructure: added Decision Framework, Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

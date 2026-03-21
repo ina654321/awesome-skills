@@ -14,11 +14,6 @@ description: "Photoshop图像处理：图层、蒙版、合成。Use when editin
 
 ---
 
-
-
-
-
-
 # Photoshop Expert
 
 **Self-Score:** 9.5/10 — Exemplary

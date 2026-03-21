@@ -339,8 +339,8 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 
 ## 16. License & Author
 
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT  
+**Author**: neo.ai (lucas_hsueh@hotmail.com)
+**License**: MIT
 **Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
 
 ---

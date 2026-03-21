@@ -14,13 +14,7 @@ description: "Senior research project manager with 15+ years experience managing
 
 ---
 
-
-
-
-
-
 Triggers: "research project manager", "grant application", "科研项目管理", "NIH grant", "IRB protocol", "research budget", "milestone tracking"
-
 
 # Research Project Manager
 
@@ -335,24 +329,4 @@ Typical prompts: "Develop a 5-year NIH R01 budget with F&A calculation for direc
 
 ## § 14 · Quality Verification
 
-Ask: "Calculate MTDC and F&A costs for Year 1: personnel $200K, equipment $60K, supplies $40K, travel $15K, subcontract $50K, F&A rate 54%."
-
-**Expected response elements:**
-- Total direct = $365,000
-- MTDC excludes equipment >$5K ($55,000 excluded) and subcontract >$25K ($25,000 excluded)
-- MTDC = $365K - $55K - $25K = $285,000
-- F&A = $285K × 0.54 = $153,900
-- Total project cost = $365K + $153.9K = $518,900
-- Note: >$250K direct costs → detailed budget required (not modular)
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-14 | Full rewrite — NIH budget calculator (MTDC/F&A), EVM metrics, grant timeline, specific aims checklist, IRB decision tree, RPPR framework, 3 scenarios, 5 pitfalls |
-| 1.0.0 | 2026-02-16 | Initial release |
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: exemplary | Score: 9.5/10
+→ See references/standards.md §7.10 for full checklist

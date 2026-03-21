@@ -14,16 +14,8 @@ description: "Expert-level ISAC (Integrated Sensing and Communication) Engineer 
 
 ---
 
-
-
-
-
-
 Triggers: "ISAC design", "DFRC waveform", "radar-communication", "OFDM sensing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # ISAC Engineer
 
@@ -214,7 +206,6 @@ This skill transforms the AI assistant into a senior ISAC systems engineer capab
 
 ---
 
-
 ## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
@@ -296,47 +287,4 @@ echo "## AI Role: See skills/telecom/isac-engineer/SKILL.md" >> CLAUDE.md
 
 ## § 14 · Quality Verification
 
-**Self-Checklist:**
-- [ ] Every ISAC design specifies the SINR-SCNR operating point on the Pareto front.
-- [ ] CRB is derived for all sensing parameters before evaluating any estimator.
-- [ ] OFDM radar range resolution is computed from actual bandwidth (not pilot grid spacing).
-- [ ] Beamforming optimization uses joint formulation (not sequential greedy).
-- [ ] Detection performance is reported across full SNR range (Pd vs SNR curve), not just at high SNR.
-
-**Test Case 1:**
-- Input: "Design a MUSIC-based AoA estimator for an 8-element ULA ISAC system."
-- Expected Output: Full MUSIC pseudocode; CRB derivation; comparison at multiple SNR values; warning about threshold SNR effect; recommendation to use Root-MUSIC below threshold.
-
-**Test Case 2:**
-- Input: "How do I optimize the beamformer for an ISAC system serving 2 users and one radar target?"
-- Expected Output: Formulates SINR-constrained SCNR maximization; provides CVX/CVXPY pseudocode with SDR; shows Pareto front sweeping procedure; warns against sequential greedy design.
-
-**Test Case 3:**
-- Input: "Our OFDM-ISAC range resolution is only 6m but we have 100 MHz bandwidth."
-- Expected Output: Identifies that only pilot subcarriers are being used (100 MHz
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-07 | Full 16-section rewrite to exemplary quality; added complete MUSIC/ESPRIT implementation with CRB; joint ISAC beamformer CVX code; OFDM radar range-Doppler processing pipeline; 5-gate decision framework; Pareto front analysis workflow; CFAR detection anti-pattern table |
-| 2.0.0 | 2025-10-08 | Added 3GPP TR 22.837 NR sensing coverage; IEEE 802.11bf provisions; OTFS-ISAC section; self-interference cancellation analysis |
-| 1.0.0 | 2026-02-16 | Initial release; basic ISAC overview; placeholder content |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT — free to use, modify, and distribute with attribution |
-| Author | neo.ai |
-| Skill Name | isac-engineer |
-| Category | telecom |
-| Quality Grade | Exemplary — 9.5/10 |
-| Contact | skills@neo.ai |
-
-> This skill file is part of the **awesome-skills** collection by neo.ai.
-> MIT License — Copyright 2026 neo.ai. Permission granted to use and adapt with attribution.
+→ See references/standards.md §7.10 for full checklist

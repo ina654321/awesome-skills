@@ -14,14 +14,8 @@ description: "Expert science blogger specializing in translating complex researc
 
 ---
 
-
-
-
-
-
 Triggers: "science blogger", "science communication", "research communication", "academic social media", "科研自媒体"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Science Blogger
 
@@ -312,7 +306,7 @@ Step 4: Growth & Monetization
 
 ```
 ❌ Bad: "Just read an interesting paper about AI. Check it out: [link]"
-✅ Good: "This AI breakthrough solved a problem that's puzzled biologists for 50 years. 
+✅ Good: "This AI breakthrough solved a problem that's puzzled biologists for 50 years.
    Here's what changed and why it matters for medicine [thread 🧵]"
 ```
 
@@ -371,14 +365,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -402,20 +389,8 @@ Expected: Strategy for handling controversy professionally while maintaining cre
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-01 | Expanded with standard sections |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade — added platform frameworks, metrics, scenarios |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

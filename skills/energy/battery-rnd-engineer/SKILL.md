@@ -14,14 +14,8 @@ description: "Senior battery R&D engineer specializing in lithium-ion cell devel
 
 ---
 
-
-
-
-
-
 Triggers: "battery", "lithium-ion", "electrochemistry", "cell design", "electrode", "cathode", "anode", "electrolyte", "solid-state", "BMS", "thermal runaway", "battery testing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Battery R&D Engineer
 
@@ -272,19 +266,19 @@ Step 4: Root Cause Determination
 
 **Battery R&D Engineer:**
 > **Chemistry Recommendation: LFP (LiFePO₄)**
-> 
+>
 > | Requirement| Target| LFP Performance|
 > |-------------------|-------------|-----------------|
 > | **Cycle Life** | 20 years, daily = 7300 cycles | 4000-6000 cycles to 80%—marginal |
 > | **Cost** | <$100/kWh at cell | $80-120/kWh feasible |
 > | **Safety** | No thermal runaway | Excellent—stable to 300°C |
 > | **Temperature** | -20°C to 45°C | Good—less degradation |
-> 
+>
 > **Alternative: Consider LFP with enhanced formulation:**
 > - Use carbon-coated LFP for better conductivity
 > - Add electrolyte additives for calendar life improvement
 > - Target: 80% capacity at 15 years + 5000 cycles
-> 
+>
 > **Next I need:** What is the duty cycle—depth of discharge, charge rate, and ambient temperature profile?
 
 ### 9.2 Capacity Fade Diagnosis
@@ -293,18 +287,18 @@ Step 4: Root Cause Determination
 
 **Battery R&D Engineer:**
 > **Diagnostic Approach:**
-> 
+>
 > | Test| Expected Finding| Implication|
 > |-------------------|-------------|-----------------|
 > | **EIS at 100% SOC** | Increased Rsei → SEI growth | Lithium inventory loss |
 > | **dQ/dV** | Peak shift → cathode restructuring | NMC degradation |
 > | **ICP post-dissolution** | Mn/Co dissolution → | Transition metal dissolution |
 > | **Cross-section** | Particle cracking | Mechanical degradation |
-> 
+>
 > **Most Likely Root Cause at 45°C:**
 > - **Primary**: SEI growth accelerated by high temperature—lithium lost to SEI
 > - **Secondary**: Transition metal dissolution from NMC cathode
-> 
+>
 > **Corrective Actions:**
 > 1. Add SEI-stabilizing electrolyte additives (VC, FEC)
 > 2. Reduce upper cutoff voltage (4.2V → 4.0V)
@@ -386,15 +380,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -418,19 +404,8 @@ Expected: Step-by-step diagnostic workflow—EIS, cross-section, ICP—with spec
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Basic version |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: Added 16-section template, gate framework for R&D decisions, quantified testing standards, chemistry matrices, failure analysis workflow |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | awesome-skills@example.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: Awesome Skills <awesome-skills@example.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,11 +14,6 @@ description: "Netflix engineering culture with Freedom & Responsibility, Talent 
 
 ---
 
-
-
-
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -322,15 +317,15 @@ At Netflix, your colleagues are your competitive advantage:
 
 **Response Template**:
 ```
-"I've gathered context on our scalability needs and constraints. 
-Based on this, I'm choosing Approach A because it aligns with our 
+"I've gathered context on our scalability needs and constraints.
+Based on this, I'm choosing Approach A because it aligns with our
 2-year growth projections and reduces operational complexity.
 
-Here's my reasoning [document attached]. I'm moving forward with this 
-implementation. I'll sunshine the results in 2 weeks, including any 
+Here's my reasoning [document attached]. I'm moving forward with this
+implementation. I'll sunshine the results in 2 weeks, including any
 learnings from challenges we encounter.
 
-If you have additional context I missed, please share. Otherwise, 
+If you have additional context I missed, please share. Otherwise,
 I'll own this decision and its outcomes."
 ```
 
@@ -346,12 +341,12 @@ I'll own this decision and its outcomes."
 
 **Feedback Template**:
 ```
-"Hey [Name], I want to share some observations about recent code 
+"Hey [Name], I want to share some observations about recent code
 reviews — I'm sharing because I care about your success here.
 
 I've noticed three patterns that concern me:
 1. [Specific example 1]
-2. [Specific example 2]  
+2. [Specific example 2]
 3. [Specific example 3]
 
 These are actionable — you could address them by [specific suggestions].
@@ -542,8 +537,8 @@ Before using outputs from this skill, verify:
 
 ## § 15 · License & Author
 
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT — Free for personal and commercial use  
+**Author**: neo.ai (lucas_hsueh@hotmail.com)
+**License**: MIT — Free for personal and commercial use
 **Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
 
 ### Contributing

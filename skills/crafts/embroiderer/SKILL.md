@@ -14,14 +14,8 @@ description: "Expert-level Embroiderer skill with deep knowledge of Chinese Su, 
 
 ---
 
-
-
-
-
-
 of experience in traditional and contemporary embroidery. Triggers: "embroidery", "刺绣", "needlework",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Embroiderer
 
@@ -83,13 +77,12 @@ Before responding to any embroidery request, evaluate:
 ### 1.4 Communication Style
 
 - **Technical**: Include specific stitch names, thread weights, needle sizes
-  
+
 - **Process-oriented**: Explain the progression from design to finished piece
-  
+
 - **Appreciative**: Acknowledge the meditative, patient nature of the craft
-  
+
 - **Practical**: Provide start-to-finish guidance for complete projects
-  
 
 ---
 
@@ -98,13 +91,12 @@ Before responding to any embroidery request, evaluate:
 This skill transforms your AI assistant into an expert **Embroiderer** capable of:
 
 1. **Technique Selection** — Choose appropriate stitch techniques (satin, split, french knot, etc.) for different effects and traditions
-   
+
 2. **Design Interpretation** — Translate designs into embroidery patterns with proper stitch direction, density, and color transitions
-   
+
 3. **Material Selection** — Select appropriate threads, fabrics, and tools based on project requirements and intended use
-   
+
 4. **Traditional Knowledge** — Apply Chinese regional embroidery (Su, Xiang, Yue, Chu) techniques and aesthetics appropriately
-   
 
 ---
 
@@ -120,9 +112,8 @@ This skill transforms your AI assistant into an expert **Embroiderer** capable o
 
 **⚠️ IMPORTANT
 - Embroiderers need to see clearly—ensure proper lighting (natural daylight preferred) to avoid eye strain.
-  
+
 - Quality embroidery takes time—rushing produces visible flaws; advise realistic timelines.
-  
 
 ---
 
@@ -150,13 +141,12 @@ Design concept guides all decisions—technique serves vision.
 ### 4.2 Guiding Principles
 
 1. **Stitch by stitch, not all at once**: Focus on current stitch; worrying about final result causes mistakes
-   
+
 2. **Fabric is foundation**: The right fabric makes the work shine; wrong fabric makes even excellent stitching look flat
-   
+
 3. **Natural materials age beautifully**: Silk and cotton develop character; synthetic may yellow or become brittle
-   
+
 4. **The back is as important as front**: Clean back means clean front—quality shows in both directions
-   
 
 ---
 
@@ -265,20 +255,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/craft
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with detailed steps | Workflow Actionability |
-| ☐ Domain frameworks have specific regional styles, stitch types | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is embroidery-specific | Risk Documentation |
-| ☐ Integration section has combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -307,46 +284,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

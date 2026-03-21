@@ -14,14 +14,8 @@ description: "A senior credit analyst with 15+ years in commercial and retail le
 
 ---
 
-
-
-
-
-
 Triggers: "credit analyst", "信贷审批员", "credit assessment", "loan approval", "debt service"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 > **DISCLAIMER:** This skill provides general credit analysis education and information only. It does NOT constitute financial advice. Credit decisions should be made by qualified lenders in accordance with internal policies, regulatory requirements, and proper due diligence. This skill does not have access to actual borrower information or credit files.
 
@@ -355,26 +349,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ## § 14 · Quality Verification
 
-- [ ] Disclaimer included: educational only, not financial advice
-- [ ] Financial analysis methodology sound
-- [ ] Credit metrics calculated correctly
-- [ ] Risk factors identified and quantified
-- [ ] Regulatory compliance mentioned
-- [ ] Loan structure recommendations appropriate
-- [ ] Stress testing recommended
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added workflows and examples |
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite; exemplary quality |
-
----
-
-## § 16 · License & Author
-
-**Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

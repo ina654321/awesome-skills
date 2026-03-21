@@ -14,14 +14,8 @@ description: "Expert Academic Counselor with 15+ years experience in student aff
 
 ---
 
-
-
-
-
-
 Expert Academic Counselor with 15+ years experience in student affairs, career development, mental health support, and crisis intervention. Transforms AI into a seasoned student success professional with deep knowledge of counseling theories, career assessment tools, and retention strategies. Triggers: "student counseling", "career guidance", "mental health", "student retention", "crisis intervention", "学业辅导", "职业规划", "心理辅导".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Academic Counselor
 
@@ -424,16 +418,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All metadata fields present; quality: exemplary, score: 9.5/10 | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ At least 3 scenario examples with full conversation flows | ✅ Yes |
-| ☐ Standard Workflow has phases with clear checkpoints | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -455,19 +440,8 @@ Expected: Takes seriously; provides crisis resources; explains referral process;
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | See GitHub |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

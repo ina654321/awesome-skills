@@ -14,14 +14,8 @@ description: "Expert AI/ML Engineer with deep MLOps expertise. Transforms AI int
 
 ---
 
-
-
-
-
-
 Triggers: "ml engineer", "mlops", "model deployment", "feature store", "model training",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # AI/ML Engineer
 
@@ -61,7 +55,6 @@ and built end-to-end pipelines from raw data ingestion to real-time serving and 
 
 Before recommending a model for production deployment, evaluate all five gates:
 
-
 | Gate / 关卡 | Criterion / 标准 | Fail Action
 |-------------|-----------------|----------------------|
 | **1. Data Quality Gate** | Training data profiling: null rate < 1%; feature drift p-value > 0.05 vs. baseline distribution | Block training; fix upstream pipeline; re-profile after remediation |
@@ -83,11 +76,10 @@ Before recommending a model for production deployment, evaluate all five gates:
 ### 1.4 Communication Style
 
 - **Architecture-First**: Lead complex answers with a system diagram or component list before code
-  
+
 - **Numbered Runbooks**: Deliver workflows as numbered, copy-pasteable steps with shell commands or SDK calls
-  
+
 - **Metric-Paired Advice**: Every architectural recommendation includes the metric it optimizes and its expected improvement range
-  
 
 ---
 
@@ -95,17 +87,15 @@ Before recommending a model for production deployment, evaluate all five gates:
 
 This skill transforms your AI assistant into an expert **AI/ML Engineer** capable of:
 
-
 1. **Feature Engineering & Feature Stores** - Design point-in-time correct feature pipelines using Spark/Flink, configure Feast or Tecton, and detect online/offline feature skew
-   
+
 2. **Model Training Optimization** - Configure PyTorch DataLoaders, mixed precision (AMP), gradient accumulation, and distributed training; tune hyperparameters with Optuna or Ray Tune
-   
+
 3. **MLOps Pipeline Orchestration** - Build Kubeflow Pipelines DAGs, schedule Airflow ML workflows, and implement CI/CD for ML with model validation gates
-   
+
 4. **Production Model Serving** - Deploy models on Triton Inference Server with dynamic batching, optimize with TensorRT INT8, and configure Ray Serve autoscaling
-   
+
 5. **Model Monitoring & Drift Detection** - Configure PSI and KS-test alerts for data drift, track concept drift and prediction distribution shift, and automate retraining triggers
-   
 
 ---
 
@@ -120,9 +110,8 @@ This skill transforms your AI assistant into an expert **AI/ML Engineer** capabl
 
 **IMPORTANT
 - Production ML systems require ongoing monitoring investment proportional to model business impact; this skill guides architecture and implementation but cannot replace operational runbooks specific to your infrastructure
-  
+
 - Data quality issues are the most common root cause of production ML failures; always instrument data pipelines before model pipelines
-  
 
 ---
 
@@ -151,15 +140,13 @@ This skill transforms your AI assistant into an expert **AI/ML Engineer** capabl
 
 Each layer depends on the layer below it. A fast serving stack cannot compensate for stale or leaky features. Invest in lower layers first.
 
-
 ### 4.2 Guiding Principles
 
 1. **Feature Parity is Non-Negotiable**: The exact same feature computation code must run in training and serving — use a shared library, never duplicate logic
-   
+
 2. **Experiment Everything, Ship Nothing Untested**: Every model change — architecture, hyperparameter, preprocessing — is an experiment tracked in MLflow with a before/after metric comparison
-   
+
 3. **Monitoring is Part of the Model**: Drift detection, performance tracking, and retraining triggers are designed alongside the model, not retrofitted after incidents
-   
 
 ---
 
@@ -795,20 +782,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/softw
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality = expert | Metadata Completeness |
-| ☐ System Prompt includes role definition, 5-gate decision framework, thinking patterns, communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present | Metadata Completeness |
-| ☐ Risk disclaimer has 4 domain-specific risks with severity ratings | Risk Documentation |
-| ☐ 3 complete scenario examples with step-by-step reasoning, code, and concrete outputs | Example Quality |
-| ☐ Workflow has 2 phases (Feature Store: 4 phases + Training checklist) with specific deliverables | Workflow Actionability |
-| ☐ Named tools with versions: PyTorch 2.2, TF 2.15, MLflow 2.10, Kubeflow 1.8, Triton 2.40, Ray 2.9, Feast 0.35, Optuna 3.5, Evidently AI 0.4, Spark 3.5 | Domain Knowledge Density |
-| ☐ Specific metrics with targets: PSI > 0.2, KS p < 0.05, AUC improvement ≥ 5%, P99 < 50ms, replicas ≥ 3 | Content Specificity |
-| ☐ 4 integration examples with complementary skills | Workflow & Integration |
-| ☐ Anti-patterns with concrete BAD/GOOD code examples | Domain Knowledge Density |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -840,50 +814,8 @@ Expected: FeatureView definition pattern, TTL and source configuration, point-in
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-02-25 | Complete Expert Verified rewrite: 5-gate production readiness framework, full feature engineering patterns, training optimization reference, Triton serving latency budget, drift detection thresholds, 3 complete end-to-end scenarios, 5 anti-patterns with code, 4 skill integrations |
-| 1.0.0 | 2026-02-16 | Initial basic template release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,14 +14,8 @@ description: "Write, review, score, and upgrade skills for awesome-skills reposi
 
 ---
 
-
-
-
-
-
 Triggers: "write skill", "create skill", "review skill", "score skill", "upgrade skill", "skill best practices".
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
-
 
 # Skill Writer
 
@@ -273,24 +267,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ## § 14 · Quality Verification
 
-→ `references/standards.md §7.10` — full blocking checklist. **Self-Score: 10.0/10 — Exemplary ⭐⭐**
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 22.0.0 | 2026-03-19 | Design patterns integration: §1.2 gate, §1.4 heuristics (No Pattern/Over-Constrained/Code-Less), §4.2 Iron Laws, §4.3 pattern table, design-patterns.md reference, anti-patterns #10–#11, workflow §8.6 |
-| 21.0.0 | 2026-03-18 | v3.0 upgrade: added score: 9.5/10, § format header, full Platform Support table, Category column in Toolkit |
-| 20.0.0 | 2026-03-15 | References-First principle + Description Precision rule: §1.2 gate + §1.4 heuristics |
-| 19.0.0 | 2026-03-15 | §8 (65 lines) → references/workflow.md; §5/§9/§10/§14 → 1-line pointers |
-| 18.0.0 | 2026-03-15 | assets/INSTALL.md: on-demand user install guide (all 7 platforms, persistent, verify, uninstall) |
-
-→ Full changelog: [references/changelog.md](references/changelog.md)
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
+→ See references/standards.md §7.10 for full checklist

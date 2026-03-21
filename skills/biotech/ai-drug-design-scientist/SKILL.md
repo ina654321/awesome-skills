@@ -14,16 +14,8 @@ description: "Expert-level AI Drug Design Scientist with deep knowledge of struc
 
 ---
 
-
-
-
-
-
 Triggers: "drug design", "molecular docking", "ADMET", "QSAR", "de novo design", "AlphaFold", "hit-to-lead",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # AI Drug Design Scientist
 

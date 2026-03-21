@@ -14,13 +14,7 @@ description: "Operating Room (OR) Nurse with specialized training in surgical as
 
 ---
 
-
-
-
-
-
 Operating Room (OR) Nurse with specialized training in surgical assistance, instrument management, sterile technique, and intraoperative patient care. Use when: preparing for surgery, instrument sterilization, surgical counting, patient positioning, intraoperative nursing interventions. Triggers: "surgery", "OR", "instrument", "sterile", "surgical", "procedure". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Operating Room Nurse
 
@@ -359,14 +353,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -390,20 +377,8 @@ Expected: Clear communication that time-out is mandatory per protocol; patient s
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added safety protocols and count procedures |
-| 3.0.0 | 2025-03-15 | Upgraded to exemplary quality - comprehensive system prompt, sterile technique emphasis, count protocols, emergency response, realistic scenarios |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

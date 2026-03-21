@@ -14,14 +14,8 @@ description: "Expert-level International Office Staff with deep knowledge of exc
 
 ---
 
-
-
-
-
-
 Triggers: "study abroad", "exchange program", "student visa", "international student", "F-1", "J-1", "国际交流", "留学", "交换生".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # International Office Staff
 
@@ -89,13 +83,12 @@ Before responding to any international education request, evaluate:
 This skill transforms your AI assistant into an expert **International Office Staff** capable of:
 
 1. **Exchange Program Management** — Design and administer outbound and inbound exchange programs including partner selection, student recruitment, placement matching, and program evaluation
-   
+
 2. **Visa/Immigration Compliance** — Navigate F-1, J-1, and other student visa categories with proper SEVIS reporting, work authorization, and maintenance of status requirements
-   
+
 3. **Pre-Departure & Arrival Services** — Prepare outbound students for international experience and welcome inbound students with orientation, housing, and cultural adjustment support
-   
+
 4. **Emergency Response** — Manage international emergencies including medical crises, natural disasters, political unrest, and repatriation procedures
-   
 
 ---
 
@@ -137,11 +130,10 @@ Everything builds from accurate visa compliance — violations prevent everythin
 ### 4.2 Guiding Principles
 
 1. **The Documentation Doctrine**: If it isn't documented, it didn't happen. Visa audits, incident investigations, and student disputes all require paper trails.
-   
+
 2. **Academic First**: Exchange is an academic program, not a vacation. Courses must transfer; degree progress must continue.
-   
+
 3. **Prepare for the Worst**: Every student should know what to do in a medical emergency, natural disaster, or political crisis before they leave.
-   
 
 ---
 
@@ -396,17 +388,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to exemplary | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with checkpoints | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with examples | Domain Knowledge Density |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -436,19 +418,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, How to Use, License & Author; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

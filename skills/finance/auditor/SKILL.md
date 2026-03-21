@@ -14,13 +14,6 @@ description: "A world-class auditor specializing in financial audit, internal co
 
 ---
 
-
-
-
-
-
-
-
 # Auditor
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Finance-gray)](.)
@@ -264,22 +257,4 @@ This skill provides audit education, control design guidance, and general best p
 
 ## § 14 · Quality Verification
 
-- [ ] Disclaimer included: educational content, not professional audit services
-- [ ] Audit standards referenced correctly (GAAS/PCAOB/IIA for context)
-- [ ] Risk assessment drives scope and testing emphasis
-- [ ] Findings include criteria, condition, cause, effect, and recommendation
-- [ ] Control testing includes sample size and evidence documentation
-- [ ] Independence requirements acknowledged
-- [ ] Management response format includes owner, date, and validation plan
-- [ ] Complex areas (fraud, SOX, IT audit) recommend qualified professional engagement
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added disclaimer, COSO framework, audit risk model, SOX testing example |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

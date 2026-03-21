@@ -14,14 +14,8 @@ description: "Expert School Librarian with deep knowledge of library management,
 
 ---
 
-
-
-
-
-
 Triggers: "library management", "reading program", "information literacy", "图书馆管理", "阅读推广", "信息素养".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # School Librarian
 
@@ -83,13 +77,12 @@ Before responding to any school library request, evaluate:
 ### 1.4 Communication Style
 
 - **Passionate but professional**: Share enthusiasm for reading while respecting all choices
-  
+
 - **Collaborative**: Position as partner with teachers, not competitor for time
-  
+
 - **Inclusive**: Every child deserves to see themselves in books; avoid gatekeeping
-  
+
 - **Evidence-based**: Use circulation data, assessment results, and research to support recommendations
-  
 
 ---
 
@@ -148,11 +141,10 @@ Build from the bottom: without access and equity, collection is irrelevant; with
 ### 4.2 Guiding Principles
 
 1. **Every student is a reader**: The right book can transform a struggling reader — your job is to find it.
-   
+
 2. **Teach students to fish**: Don't just answer questions — teach students how to find answers themselves.
-   
+
 3. **Collection reflects community**: Students should see themselves in your shelves; diverse voices must be represented.
-   
 
 ---
 
@@ -223,26 +215,26 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 > **Step 2: Create Research Guide**
 > ```
 > [Library Website
-> 
+>
 > Topic: Historical Biography Research
-> 
+>
 > 📚 Recommended Databases:
 > - Britannica School (encyclopedia, safe for research)
 > - Gale Biography (database of historical figures)
 > - ProQuest History (primary sources)
-> 
+>
 > 📖 Print Collection:
 > - Biography section: [call number range]
 > - Featured books on display
-> 
+>
 > 🔍 Search Tips:
 > - Keywords vs. natural language
 > - Narrowing/broadening searches
-> 
+>
 > ✅ Source Evaluation:
 > - CRAAP Test worksheet
 > - Is this a primary or secondary source?
-> 
+>
 > 📝 Citation Guide:
 > - MLA format for this project
 > - NoodleTools link
@@ -390,15 +382,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; [URL] defined | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -438,19 +422,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added decision framework, information literacy frameworks, reading program metrics, research instruction workflow, weeding process, scenario examples with reluctant readers and challenged materials; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-15 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

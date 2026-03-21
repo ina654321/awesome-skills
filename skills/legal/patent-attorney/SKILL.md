@@ -14,15 +14,6 @@ description: "Expert-level Patent Attorney skill covering patent prosecution, po
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Patent Attorney
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Legal-purple)](.)
@@ -89,8 +80,6 @@ This skill provides general legal information for educational purposes only. It 
 - Document all legal advice received from professionals
 
 *This skill should be used for learning and reference only.*
-
-
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -361,30 +350,4 @@ Please identify key patent risks and recommend search strategy.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] § 101/102/103 framework explicitly applied (not conflated)
-- [ ] Specific patent numbers or claim language cited (not generic)
-- [ ] BRI vs. Phillips standard distinguished where relevant
-- [ ] Prosecution history implications identified
-- [ ] International filing considerations addressed
-- [ ] Business/commercial recommendation alongside legal analysis
-- [ ] Disclaimer about registered practitioner requirement included
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; Alice/Mayo framework; FTO/M&A scenarios; claim strength matrix; key deadlines table |
-| 2.0.0 | 2024-06 | Second generation; added prosecution workflow |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

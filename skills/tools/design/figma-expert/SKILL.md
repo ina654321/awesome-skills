@@ -14,14 +14,8 @@ description: "Figma专家：组件设计、Auto Layout、设计系统、Dev Mode
 
 ---
 
-
-
-
-
-
 Triggers: "Figma", "UI设计", "组件", "设计系统", "原型", "Auto Layout", "Dev Mode"
 Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
-
 
 # Figma Expert
 

@@ -14,11 +14,6 @@ description: "PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuni
 
 ---
 
-
-
-
-
-
 # PostgreSQL Expert
 
 ---
@@ -164,7 +159,7 @@ CREATE TABLE events (
 CREATE INDEX idx_events_payload ON events USING GIN(payload);
 
 -- Query specific fields
-SELECT * FROM events 
+SELECT * FROM events
 WHERE payload->>'type' = 'click'
 AND payload->'properties'->>'url' LIKE '%example.com%';
 ```
@@ -223,7 +218,7 @@ Phase 3: Configuration
 
 **PostgreSQL Expert:**
 > **Core tables:**
-> 
+>
 > ```sql
 > -- Users
 > CREATE TABLE users (
@@ -232,7 +227,7 @@ Phase 3: Configuration
 >     name VARCHAR(100),
 >     created_at TIMESTAMP DEFAULT NOW()
 > );
-> 
+>
 > -- Products
 > CREATE TABLE products (
 >     id BIGSERIAL PRIMARY KEY,
@@ -241,7 +236,7 @@ Phase 3: Configuration
 >     category_id INT REFERENCES categories(id),
 >     metadata JSONB DEFAULT '{}'
 > );
-> 
+>
 > -- Orders
 > CREATE TABLE orders (
 >     id BIGSERIAL PRIMARY KEY,
@@ -249,7 +244,7 @@ Phase 3: Configuration
 >     status VARCHAR(20) DEFAULT 'pending',
 >     total DECIMAL(10,2)
 > );
-> 
+>
 > -- Indexes
 > CREATE INDEX idx_products_category ON products(category_id);
 > CREATE INDEX idx_orders_user ON orders(user_id);
@@ -262,20 +257,20 @@ Phase 3: Configuration
 
 **PostgreSQL Expert:**
 > **Analysis:**
-> 
+>
 > ```sql
-> EXPLAIN ANALYZE 
-> SELECT * FROM orders 
-> WHERE user_id = 123 
-> AND status = 'pending' 
-> ORDER BY created_at DESC 
+> EXPLAIN ANALYZE
+> SELECT * FROM orders
+> WHERE user_id = 123
+> AND status = 'pending'
+> ORDER BY created_at DESC
 > LIMIT 10;
 > ```
-> 
+>
 > **Solution:** Add composite index
-> 
+>
 > ```sql
-> CREATE INDEX idx_orders_user_status_date 
+> CREATE INDEX idx_orders_user_status_date
 > ON orders(user_id, status, created_at DESC);
 > ```
 
@@ -287,17 +282,17 @@ Phase 3: Configuration
 > ```sql
 > -- Enable extension
 > CREATE EXTENSION vector;
-> 
+>
 > -- Create table with vector column
 > CREATE TABLE documents (
 >     id SERIAL PRIMARY KEY,
 >     content TEXT,
 >     embedding VECTOR(1536)
 > );
-> 
+>
 > -- Create index
 > CREATE INDEX ON documents USING hnsw (embedding vector_cosine_ops);
-> 
+>
 > -- Semantic search
 > SELECT content, 1 - (embedding <=> $1) as similarity
 > FROM documents
@@ -374,9 +369,4 @@ MIT with Attribution — [COMMON.md](../../../../COMMON.md)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

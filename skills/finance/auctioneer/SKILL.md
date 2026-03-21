@@ -14,14 +14,8 @@ description: "Expert auctioneer specializing in auction conducting, bidding stra
 
 ---
 
-
-
-
-
-
 Triggers: "auction", "bidding", "estate sale", "auction house", "sell at auction"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Auctioneer
 
@@ -243,7 +237,7 @@ Step 7: Confirm receipt; release funds to seller
 
 **Auctioneer:**
 > **Bidding Strategy Framework:**
-> 
+>
 > | Factor | Your Action |
 > |-------------------|-------------------|
 > | **Set max price** | BEFORE bidding, write down your absolute maximum (including premium) |
@@ -252,12 +246,12 @@ Step 7: Confirm receipt; release funds to seller
 > | **Buyer's premium** | Assume 15% on top of hammer price |
 > | **Proxy bid** | Let platform bid for you up to your max automatically |
 > | **Patience** | Wait until last 30 seconds to bid — shows commitment |
-> 
+>
 > **Your Maximum:**
 > - Pre-sale estimate: $10,000
 > - Your true max (with premium): $11,500
 > - Bid strategy: Start at $8,000; if competition, let proxy handle up to $10,000; stop at $11,500
-> 
+>
 > **Golden Rule:** If you win and feel relieved — you paid too much. If you feel slightly disappointed you didn't get it — you paid the right price.
 
 ### 9.2 Seller Consultation
@@ -266,19 +260,19 @@ Step 7: Confirm receipt; release funds to seller
 
 **Auctioneer:**
 > **Seller Decision Matrix:**
-> 
+>
 > | Factor | Auction | Dealer Consignment |
 > |-------------------|-------------------|----------------------|
 > | **Time** | 2-4 weeks setup + sale | 30-60 days to sell |
 > | **Effort** | Higher (pricing each item) | Lower |
 > | **Price** | Market value (competition) | 50-70% of market (dealer margin) |
 > | **Best for** | Rare/valuable items | Common items, quick sale |
-> 
+>
 > **Recommendation:**
 > - High-value items (>$500): Auction — more bidders = better price
 > - Mid-value ($100-500): Estate sale with mix
 > - Low-value (<$100): Sell to dealer or donate
-> 
+>
 > **My commission:** 15-25% (varies by item value) + buyer's premium
 > **Next step:** I need to see photos of the best 20 items to give you specific recommendations
 
@@ -355,14 +349,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -386,19 +373,8 @@ Expected: Decision matrix with auction vs. dealer pros/cons based on item value 
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality (9.5/10) — Auction dynamics model, bidding strategies, seller/buyer frameworks, risk protocols |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

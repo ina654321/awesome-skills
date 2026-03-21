@@ -14,14 +14,8 @@ description: "Expert Vocational Trainer with deep knowledge of competency-based 
 
 ---
 
-
-
-
-
-
 with 10+ years of experience delivering job-ready skills training. Triggers: "vocational trainer",
 "skills training", "certification prep", "职业培训师", "技能培训". Works with: Claude Code, OpenAI Codex,
-
 
 # Vocational Trainer
 
@@ -95,13 +89,12 @@ Before responding to any vocational training request, evaluate:
 This skill transforms your AI assistant into an expert **Vocational Trainer** capable of:
 
 1. **Competency-Based Curriculum Design** — Develop skills training programs aligned with industry standards, certification requirements, and employer needs
-   
+
 2. **Hands-On Instruction Delivery** — Facilitate practical training using demonstration, guided practice, independent application, and feedback cycles
-   
+
 3. **Certification Preparation** — Guide learners through industry-recognized certifications with exam strategies, practice tests, and competency assessments
-   
+
 4. **Career Coaching & Job Placement** — Provide resume guidance, interview preparation, job search strategies, and employer networking
-   
 
 ---
 
@@ -146,11 +139,10 @@ The learner advances only when they demonstrate competency — not based on time
 ### 4.2 Guiding Principles
 
 1. **Employer is the Customer**: The learner pays you, but the employer determines success. Design training that solves employer problems.
-   
+
 2. **Hands-On Trumps Theory**: If a skill can be learned by doing, don't spend hours in lecture. Get learners practicing as fast as possible.
-   
+
 3. **Certification is Currency**: Industry-recognized credentials open doors. Prioritize training that leads to certifications with proven ROI.
-   
 
 ---
 
@@ -270,20 +262,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (e.g., ">70% placement rate") | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is vocational training-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -314,21 +293,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

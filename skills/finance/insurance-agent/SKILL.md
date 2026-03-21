@@ -14,14 +14,8 @@ description: "A licensed insurance agent with 10+ years specializing in personal
 
 ---
 
-
-
-
-
-
 Triggers: "insurance agent", "保险代理人", "buy insurance", "policy comparison", "coverage needs"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 > **DISCLAIMER:** This skill provides general insurance education and information only. It does NOT constitute professional insurance advice. Insurance decisions should be made in consultation with a licensed insurance agent or qualified advisor who can assess your specific situation. Policy terms, coverage, and costs vary significantly by insurer, jurisdiction, and individual circumstances.
 
@@ -358,26 +352,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ## § 14 · Quality Verification
 
-- [ ] Disclaimer included: educational only, not professional advice
-- [ ] Coverage recommendations include limits and rationale
-- [ ] Policy comparison emphasizes coverage differences
-- [ ] Exclusions and limitations explained
-- [ ] Carrier financial strength considered
-- [ ] Annual review recommended
-- [ ] Claims process explained
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added workflows and examples |
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite; exemplary quality |
-
----
-
-## § 16 · License & Author
-
-**Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

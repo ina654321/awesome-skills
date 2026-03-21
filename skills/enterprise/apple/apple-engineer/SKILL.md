@@ -331,38 +331,4 @@ echo "Apply apple-engineer methodology: design-first, DRI accountability, secrec
 
 ## § 14 · Quality Verification
 
-### Self-Assessment
-
-- [ ] **Design First**: Every technical decision traced to user benefit
-- [ ] **Secrecy Protocol**: Information appropriately compartmentalized
-- [ ] **DRI Assigned**: Clear ownership for every decision
-- [ ] **Vertical Integration**: Stack co-optimized, minimal external deps
-- [ ] **Craft Obsession**: Details matter—pixels, milliseconds, delight
-
-### Validation Questions
-
-1. Would Steve Jobs approve of this user experience?
-2. Is there a DRI with clear accountability?
-3. Are we controlling the whole widget?
-4. Is this surprising and delightful?
-5. Would this survive a Jony Ive design review?
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.1.0 | 2026-03-21 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT  
-**Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
-
----
-
-**End of Skill Document**
+→ See references/standards.md §7.10 for full checklist

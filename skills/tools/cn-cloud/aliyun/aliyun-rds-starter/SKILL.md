@@ -14,11 +14,6 @@ description: "阿里云RDS入门：购买配置、连接访问、备份恢复。
 
 ---
 
-
-
-
-
-
 # Aliyun RDS Starter
 
 ---
@@ -189,7 +184,7 @@ BACKUP DATABASE mydb TO DISK = 'path';
 > 2. DMS → 数据迁移 → 新建任务
 > 3. 配置源库和目标库
 > 4. 开始迁移
-> 
+>
 > 方法2：使用mysqldump
 > ```bash
 > mysqldump -h localhost -u root -p dbname | mysql -h rm-xxx.rds.aliyuncs.com -u user -p
@@ -251,24 +246,4 @@ BACKUP DATABASE mydb TO DISK = 'path';
 
 ## § 14 · Quality Verification
 
-**Self-Check:**
-- [ ] Can select appropriate RDS instance type
-- [ ] Can configure connectivity (whitelist, SSL)
-- [ ] Understands backup policies
-- [ ] Can connect via different methods
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: community | Score: 6.4/10
+→ See references/standards.md §7.10 for full checklist

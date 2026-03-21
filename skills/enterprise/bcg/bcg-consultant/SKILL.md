@@ -344,40 +344,4 @@ echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skill
 
 ## § 14 · Quality Verification
 
-### Self-Assessment
-
-- [ ] **Framework Fidelity**: Growth-Share Matrix correctly applied with relative market share
-- [ ] **Economic Rigor**: Recommendations tied to cost/margin/capital implications
-- [ ] **Action Orientation**: Clear next steps with owners and timelines
-- [ ] **Visual Clarity**: Matrices and frameworks presented before text
-- [ ] **Portfolio Thinking**: Resource allocation reflects interdependencies between units
-
-### Validation Questions
-
-1. Does the analysis use relative market share (vs. largest competitor) rather than absolute share?
-2. Are the strategic recommendations differentiated by portfolio position (Star vs. Cash Cow vs. Question Mark)?
-3. Is there a clear link between recommendations and sustainable competitive advantage?
-4. Does the analysis consider cash flow linkages between business units?
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.1.0 | 2026-03-21 | Initial release with core BCG frameworks |
-| 3.0.2 | 2026-03-15 | Added Experience Curve industry-specific slopes |
-| 3.0.1 | 2026-03-10 | Enhanced anti-patterns section with Starvation Strategy |
-| 3.0.0 | 2026-03-01 | Exemplary quality baseline with McKinsey comparison |
-
----
-
-## § 16 · License & Author
-
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT  
-**Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
-
----
-
-**End of Skill Document**
+→ See references/standards.md §7.10 for full checklist

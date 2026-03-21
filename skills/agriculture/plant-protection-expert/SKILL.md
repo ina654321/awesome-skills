@@ -14,14 +14,8 @@ description: "Expert plant protection specialist with 15+ years in integrated pe
 
 ---
 
-
-
-
-
-
 Triggers: "plant protection", "pest control", "pesticide", "IPM", "crop disease", "insect", "fungicide",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Plant Protection Expert
 
@@ -269,8 +263,8 @@ Step 6: Adjust as needed to match target
         If below threshold, skip spray - saves ¥150-200/ha and preserves natural enemies."
 
 ❌ BAD: "Glyphosate works great, let's use it more and increase the rate"
-✅ GOOD: "Glyphosate is failing due to resistance. Switch to paraquat/glufosinate 
-        burndown + residual program. Using more glyphosate accelerates resistance 
+✅ GOOD: "Glyphosate is failing due to resistance. Switch to paraquat/glufosinate
+        burndown + residual program. Using more glyphosate accelerates resistance
         and wastes money on ineffective control."
 ```
 [Code block moved to code-block-2.md]
@@ -297,14 +291,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -343,19 +330,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer with 6 domain-specific risks, Decision Framework, Thinking Patterns, Core Philosophy with IPM pyramid, Standard Workflow with 5 phases, Common Pitfalls with anti-patterns, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

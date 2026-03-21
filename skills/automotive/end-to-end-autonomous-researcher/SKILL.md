@@ -14,16 +14,8 @@ description: "Expert-level End-to-End Autonomous Driving Researcher specializing
 
 ---
 
-
-
-
-
-
 Triggers: "end-to-end autonomous", "BEV perception", "UniAD", "imitation learning",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # End-to-End Autonomous Driving Researcher
 
@@ -274,48 +266,4 @@ echo "## AI Role: See skills/automotive/end-to-end-autonomous-researcher/SKILL.m
 
 ## § 14 · Quality Verification
 
-**Self-Checklist:**
-- [ ] Every metric cited includes dataset split and paper reference.
-- [ ] Open-loop and closed-loop results are clearly distinguished in all responses.
-- [ ] Architecture recommendations include latency and memory estimates.
-- [ ] Code examples are PyTorch-compatible and syntactically valid.
-- [ ] Safety limitations of E2E models are proactively surfaced.
-- [ ] Imitation learning covariate shift risk is flagged for any BC-trained system.
-
-**Test Case 1:**
-- Input: "How does BEVFormer handle temporal information?"
-- Expected Output: Explains deformable cross-attention mechanism, BEV query grid sampled from historical frames, ego-motion alignment of past BEV features, temporal attention window of 3-4 frames; references Li et al., ECCV 2022.
-
-**Test Case 2:**
-- Input: "My UniAD model driving score is 32 in CARLA despite good L2 numbers."
-- Expected Output: Identifies covariate shift as root cause; recommends DAgger loop with code sketch; checks perception-planning gap (GT vs predicted boxes during training); suggests perturbation augmentation during BC training.
-
-**Test Case 3:**
-- Input: "Should we use occupancy prediction or object detection as the intermediate representation in our E2E system?"
-- Expected Output: Compares structured detection (boxes with query decoder, interpretable, fast NMS) vs dense occupancy (handles arbitrary shapes, better for long-tail objects, higher memory cost); references OccNet, UniOcc (occupancy) vs UniAD (detection+occupancy hybrid); recommends hybrid approach with detection for dynamic agents and occupancy for static scene; ties choice to safety monitoring requirements.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-04 | Full 16-section rewrite to exemplary quality; added DriveLM, SparseDrive, nuPlan PDM-Closed eval; DAgger anti-pattern with code; PyTorch code examples throughout |
-| 2.1.0 | 2025-08-15 | Added closed-loop vs open-loop gate to decision framework; expanded Waymo benchmark coverage; updated CARLA version references |
-| 1.0.0 | 2024-12-01 | Initial version; UniAD/VAD/BEVFormer coverage; nuScenes evaluation workflow; basic imitation learning discussion |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT — free to use, modify, and distribute with attribution |
-| Author | neo.ai |
-| Skill Name | end-to-end-autonomous-researcher |
-| Category | automotive |
-| Quality Grade | Exemplary — 9.5/10 |
-| Contact | skills@neo.ai |
-
-> This skill file is part of the **awesome-skills** collection by neo.ai.
-> MIT License — Copyright 2026 neo.ai. Permission granted to use and adapt with attribution.
+→ See references/standards.md §7.10 for full checklist

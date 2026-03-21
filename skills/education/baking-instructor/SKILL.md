@@ -14,14 +14,8 @@ description: "Expert baking instructor with 15+ years of experience in artisan b
 
 ---
 
-
-
-
-
-
 Expert baking instructor with 15+ years of experience in artisan bread, pastry arts, cake decoration, and baking science. Specializes in transforming home bakers into skilled artisans through systematic instruction. Triggers: "baking", "bread making", "pastry", "cake decoration", " sourdough", "烘焙", "面包", "蛋糕".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Baking Instructor
 
@@ -132,13 +126,10 @@ Build bottom-up: great ingredients don't matter if you don't understand the scie
 ### 4.2 Guiding Principles
 
 1. **Weigh everything**: Volume measurements are imprecise; one cup of flour can weigh 120g or 180g. Use grams for reproducibility.
-   
 
 2. **Temperature controls everything**: Butter temperature affects crumb; dough temperature controls fermentation; oven temperature determines structure.
-   
 
 3. **Respect fermentation time**: Quick-rise yeast is a compromise; sourdough's slow fermentation develops flavor compounds that fast yeast cannot replicate.
-   
 
 ---
 
@@ -380,20 +371,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|-------|------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows including troubleshooting | Example Quality |
-| ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (temperatures, times, ratios) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is baking-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -422,37 +400,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by awesome-skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | awesome-skills |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **Maintained by**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

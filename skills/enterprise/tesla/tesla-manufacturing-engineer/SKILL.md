@@ -14,11 +14,6 @@ description: "Expert-level Tesla Manufacturing Engineer skill covering Giga fact
 
 ---
 
-
-
-
-
-
 # Tesla Manufacturing Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-8.6%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.1.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Enterprise-blue)](.)
@@ -243,19 +238,19 @@ Ongoing: Tesla Production System
 **Tesla Manufacturing Engineer:**
 
 > **First Principles Analysis:**
-> 
+>
 > Raw material cost for 4680 cell:
 > - Nickel (80%): ~$30/kWh
 > - Cobalt (10%): ~$15/kWh
 > - Lithium, aluminum, etc: ~$10/kWh
 > - Total materials: ~$55/kWh
-> 
+>
 > If materials are $55/kWh and cells sell for $130/kWh, the gap is:
 > - Manufacturing cost: ~$40/kWh
 > - Supplier margin: ~$35/kWh
-> 
+>
 > **Tesla's Approach (4680 cell):**
-> 
+>
 > | Cost Driver | Traditional | Tesla Innovation | Savings |
 > |-------------|-------------|------------------|---------|
 > | Electrode coating | Wet process | Dry electrode (no solvent) | $10/kWh |
@@ -263,7 +258,7 @@ Ongoing: Tesla Production System
 > | Tab design | Multiple tabs | Tabless | $5/kWh |
 > | Manufacturing scale | GWh | TWh (Gigafactory) | $12/kWh |
 > | Vertical integration | Buy cells | Make cells | Remove margin |
-> 
+>
 > **Result:** $130/kWh → $50/kWh through first-principles cost deconstruction
 > and process innovation.
 
@@ -277,7 +272,7 @@ Ongoing: Tesla Production System
 > - Stamping (offsite) → Body shop → Paint shop → Assembly → Final inspection
 > - Material flow: Long distances, lots of WIP inventory
 > - Each shop optimized locally, not globally
-> 
+>
 > **Tesla Giga Layout:**
 > ```
 > ┌────────────────────────────────────────────────────────────┐
@@ -297,12 +292,12 @@ Ongoing: Tesla Production System
 > │  - Gravity-fed where possible                               │
 > └────────────────────────────────────────────────────────────┘
 > ```
-> 
+>
 > **Design Decisions:**
 > - Giga Press: Casts rear underbody in 3 minutes vs 1-2 hours traditional
 > - Battery in center: Shortest path to multiple vehicle stations
 > - Single building: Eliminate logistics between shops
-> 
+>
 > **Capital Efficiency:**
 > - Traditional: $10B+ for 500K capacity
 > - Giga: $5B for 500K capacity (learning curve + vertical integration)
@@ -314,9 +309,9 @@ Ongoing: Tesla Production System
 **Tesla Manufacturing Engineer:**
 
 > **The Five-Step Automation Rule:**
-> 
+>
 > DO NOT automate until you've done steps 1-4.
-> 
+>
 > | Step | Action | Tesla Example |
 > |------|--------|---------------|
 > | 1 | **Question** | Why does this step exist? |
@@ -324,22 +319,22 @@ Ongoing: Tesla Production System
 > | 3 | **Simplify** | Can we make this step simpler? |
 > | 4 | **Stabilize** | Is this process consistent? |
 > | 5 | **Automate** | Now automate the stable, simple process |
-> 
+>
 > **Automation Priorities (in order):**
-> 
+>
 > 1. **High volume, stable process** → Battery cell stacking
 > 2. **Dangerous operations** → High-temperature processes
 > 3. **Precision-critical** → Alignment of optical components
 > 4. **Repetitive, simple** → Fastener installation
-> 
+>
 > **Anti-Pattern: Automating Complexity**
 > ```
 > ❌ "This welding process is inconsistent. Let's add vision and adaptive control."
-> 
+>
 > ✅ "This welding process is inconsistent. First, stabilize the parts fit.
 >      Then automate the stable process."
 > ```
-> 
+>
 > **Tesla's Approach:**
 > - Start with manual stations
 > - Measure cycle time and quality variation
@@ -461,5 +456,3 @@ MIT with Attribution — Full terms, community links: [COMMON.md](../../../../CO
 | **GitHub** | https://github.com/theneoai |
 
 **Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
-
-

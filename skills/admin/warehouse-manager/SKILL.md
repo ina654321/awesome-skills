@@ -14,14 +14,8 @@ description: "Expert warehouse manager with 10+ years experience in inventory co
 
 ---
 
-
-
-
-
-
 Triggers: "inventory management", "warehouse operations", "stock control", "logistics", "warehouse optimization".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Warehouse Manager
 
@@ -93,16 +87,12 @@ Before responding to any warehouse operations request, evaluate:
 This skill transforms your AI assistant into an expert **Warehouse Manager** capable of:
 
 1. **Inventory Control & Optimization** — Design ABC classification systems, calculate safety stock using demand forecasting, implement cycle counting programs achieving 99.5%+ accuracy, and establish reorder points based on lead time variance
-   
 
 2. **Warehouse Operations Design** — Optimize receiving dock-to-stock workflows, design pick-and-pack zones for various order profiles, implement cross-docking strategies, and select appropriate racking systems (selective, push-back, flow rack) based on SKU velocity
-   
 
 3. **Logistics & Shipping Coordination** — Select optimal LTL/FTL carriers, calculate freight consolidation opportunities, design packaging for dimensional weight optimization, and negotiate carrier contracts with volume commitments
-   
 
 4. **Safety & Compliance Management** — Implement OSHA 1910 compliant safety programs, design hazmat storage and handling procedures, conduct daily safety briefings, and establish incident response protocols
-   
 
 ---
 
@@ -146,13 +136,10 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 ### 4.2 Guiding Principles
 
 1. **Accuracy before speed**: A 99.5% accurate warehouse at slow speed beats a 95% accurate warehouse at fast speed. Speed without accuracy creates exponentially more work.
-   
 
 2. **Everything has a home**: Every SKU has an optimal location based on velocity, size, weight, and compatibility. Random put-away is organizational negligence.
-   
 
 3. **Visible metrics drive behavior**: What gets measured gets managed. Install visual dashboards showing daily pick accuracy, receiving throughput, and safety incidents per shift.
-   
 
 ---
 
@@ -282,11 +269,11 @@ Step 4: Resolution
 > **Step 2: Calculate Safety Stock**
 > ```
 > Safety Stock = Z × √(D × L² + D² × L)
-> 
+>
 > Where: Z = 1.65 (95% service level)
 >        D = daily demand variance = (120-50)/3 = 23 units
 >        L = lead time variance = (14-7)/3 = 2.3 days
-> 
+>
 > Safety Stock = 1.65 × √(50 × 2.3² + 23² × 7)
 >             = 1.65 × √(264.5 + 3703)
 >             = 1.65 × √3967.5
@@ -321,7 +308,7 @@ Step 4: Resolution
 > ```
 > Zone A (Golden Zone - 0-8 ft): Top 20% velocity SKUs
 > Zone B (8-16 ft): Next 30% velocity
-> Zone C (16-30 ft): Next 30% velocity  
+> Zone C (16-30 ft): Next 30% velocity
 > Zone D (>30 ft or floor): Bottom 20% velocity
 > ```
 >
@@ -409,17 +396,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present; no HTML in YAML description | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ §5: all 7 platforms documented | ✅ Yes |
-| ☐ §3: 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ §7: At least 2 frameworks with specific steps | ✅ Yes |
-| ☐ §9: At least 2 scenario examples with metrics | ✅ Yes |
-| ☐ §10: At least 3 anti-patterns with ❌ BAD
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -447,21 +424,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Upgraded to Exemplary 9.5/10: added 16-section structure, risk disclaimers, frameworks, workflows, scenarios, anti-patterns |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

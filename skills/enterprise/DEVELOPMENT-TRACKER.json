@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "lastUpdated": "2026-03-21",
   "totalTarget": 42,
-  "completed": 6,
-  "inProgress": 1,
-  "planned": 35,
+  "completed": 24,
+  "inProgress": 0,
+  "planned": 18,
   "phases": {
     "phase0": {
       "name": "科技互联网核心企业",

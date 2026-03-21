@@ -14,11 +14,6 @@ description: "Docker container expert: Dockerfile best practices, multi-stage bu
 
 ---
 
-
-
-
-
-
 # Docker Expert
 
 ---
@@ -280,43 +275,43 @@ Phase 4: Security Hardening
 
 **Docker Expert:**
 > **Recommended Dockerfile:**
-> 
+>
 > ```dockerfile
 > FROM tensorflow/serving:2.14.0 AS model
-> 
+>
 > # Build stage
 > FROM python:3.11-slim AS builder
 > WORKDIR /app
 > COPY requirements.txt .
 > RUN pip install --no-cache-dir -r requirements.txt
-> 
-> # Production stage  
+>
+> # Production stage
 > FROM python:3.11-slim
 > WORKDIR /app
-> 
+>
 > # Install runtime dependencies
 > RUN apt-get update && apt-get install -y --no-install-recommends \
 >     libgomp1 \
 >     && rm -rf /var/lib/apt/lists/*
-> 
+>
 > COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
 > COPY --from=builder /usr/local/bin /usr/local/bin
 > COPY --from=model /models /models
-> 
+>
 > COPY inference.py .
-> 
+>
 > # Security: run as non-root
 > RUN useradd -m -u 1000 appuser
 > USER appuser
-> 
+>
 > HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
 >     CMD python -c "import requests; requests.get('http://localhost:8501/v1/models/inference:predict')"
-> 
+>
 > CMD ["python", "inference.py"]
 > ```
-> 
+>
 > **Image size:** ~500MB (vs 2GB+ with full TensorFlow)
-> 
+>
 > **Security notes:**
 > - Non-root user
 > - Minimal runtime dependencies
@@ -328,13 +323,13 @@ Phase 4: Security Hardening
 
 **Docker Expert:**
 > **Common causes and fixes:**
-> 
+>
 > | Issue| Cause| Fix|
 > |------|------|-----|
 > | COPY failed | File doesn't exist in build context | Check build context path |
 > | Path not found | Wrong WORKDIR | Verify WORKDIR matches file location |
 > | .dockerignore too aggressive | File excluded | Review .dockerignore |
-> 
+>
 > **Debug steps:**
 > 1. Run `docker build --progress=plain` for detailed output
 > 2. Check `.dockerignore` isn't excluding necessary files
@@ -399,13 +394,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ Uses specific version tags | ✅ Yes |
-| ☐ Runs as non-root | ✅ Yes |
-| ☐ Includes healthcheck | ✅ Yes |
-| ☐ No secrets in layers | ✅ Yes |
-| ☐ Multi-stage for compiled | 🟡 Recommended |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -429,17 +418,8 @@ Expected: Root cause analysis and fix
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,14 +14,8 @@ description: "Expert-level Judicial skill providing legal adjudication framework
 
 ---
 
-
-
-
-
-
 Triggers: "judge", "judicial", "court", "legal ruling", "sentencing".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Judge/Magistrate
 
@@ -71,7 +65,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 
 ```
                     EVIDENCE STANDARD
-    
+
     Preponderance ←───────→ Beyond Reasonable Doubt
     (Civil: 51%)              (Criminal: 95%+)
           ↑
@@ -236,7 +230,7 @@ Step 4: Trial or Settlement
 
 **Judge:**
 > **Analysis:**
-> 
+>
 > **Fourth Amendment Issue:** Search and seizure
 > - **Standard:** Terry stop requires reasonable suspicion
 > - **Vehicle drift:** Could indicate simple traffic violation or impaired driving
@@ -264,7 +258,7 @@ Step 4: Trial or Settlement
 
 **Judge:**
 > **Federal Sentencing Guidelines Analysis:**
-> 
+>
 > | Factor | Calculation | Points |
 > |--------|-------------|--------|
 > | Base Offense Level | §2D1.1(c)(5) | 26 |
@@ -290,10 +284,10 @@ Step 4: Trial or Settlement
 > the offense of distributing 50 grams of methamphetamine is serious.
 > The Court has considered the §3553(a) factors. The guidelines
 > are properly calculated at 63-78 months.
-> 
+>
 > The Court GRANTS a downward variance based on defendant's
 > minimal criminal history, employment, and family ties.
-> 
+>
 > Sentence: 48 months custody, 4 years supervised release,
 > $100 special assessment.
 > ```
@@ -306,7 +300,7 @@ Step 4: Trial or Settlement
 
 **Judge:**
 > **Qualified Immunity Analysis:**
-> 
+>
 > **Two-Part Test:**
 > 1. **Constitutional Violation:** Did facts show clearly established right violated?
 > 2. **Objective Reasonableness:** Would reasonable officer believe conduct lawful?
@@ -325,12 +319,12 @@ Step 4: Trial or Settlement
 > **Ruling:**
 > ```
 > Defendant's Motion for Summary Judgment is DENIED.
-> 
+>
 > A reasonable jury could find that Officer Johnson's
 > takedown of a compliant, handcuffed suspect constituted
 > excessive force. The right to be free from such force
 > was clearly established at the time.
-> 
+>
 > Qualified immunity does not apply at this stage given
     the factual disputes. This case proceeds to trial.
 > ```
@@ -422,14 +416,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -453,20 +440,8 @@ Expected: Calculate guidelines → analyze §3553(a) factors → impose sentence
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full 16-section rewrite; evidentiary standards; constitutional scrutiny; sentencing frameworks; motion analysis; qualified immunity |
-| 2.0.0 | 2025-01 | Added civil procedure frameworks |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | GitHub Issues |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

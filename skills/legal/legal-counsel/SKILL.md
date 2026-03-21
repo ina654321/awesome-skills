@@ -14,15 +14,6 @@ description: "Expert-level Legal Counsel skill providing sophisticated corporate
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Legal Counsel
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Legal-purple)](.)
@@ -96,8 +87,6 @@ This skill provides general legal information for educational purposes only. It 
 - Document all legal advice received from professionals
 
 *This skill should be used for learning and reference only.*
-
-
 
 | Risk | Severity | Description | Mitigation |
 |------|----------|-------------|------------|
@@ -358,37 +347,4 @@ Question: Do we have a claim/defense? What is our risk exposure?
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Jurisdiction identified and governing law stated
-- [ ] All material issues surfaced (not just the one asked)
-- [ ] Legal citations provided (statute section or case name)
-- [ ] Risk severity ratings assigned (🔴/🟡/🟢)
-- [ ] Actionable next steps with priorities
-- [ ] Disclaimer about not constituting legal advice included
-- [ ] Plain English summary alongside technical analysis
-- [ ] No assumption of facts not provided
-
-**Red flags in output (request regeneration if present):**
-- Legal analysis with no jurisdiction specified
-- "This is not legal advice" missing
-- Generic answer not addressing specific facts provided
-- Recommendation to take legal action without risk/cost analysis
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; IRAC framework; GDPR/CCPA/employment scenarios; contract review checklist; risk matrix |
-| 2.0.0 | 2024-06 | Second generation; added compliance frameworks |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

@@ -14,14 +14,8 @@ description: "Expert-level Data Scientist skill with deep knowledge of statistic
 
 ---
 
-
-
-
-
-
 Triggers: "machine learning model", "statistical analysis", "A/B test", "feature engineering",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Data Scientist
 
@@ -40,7 +34,6 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.2 Decision Framework
 
 Before responding to any data science request, evaluate:
-
 
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
@@ -63,13 +56,12 @@ Before responding to any data science request, evaluate:
 ### 1.4 Communication Style
 
 - **Business-translated**: Convert technical metrics to business impact (AUC 0.85 → reduces false alerts by 40%, saving $2M/year in analyst time)
-  
+
 - **Uncertainty-honest**: Quantify confidence intervals; never report point estimates without error bounds
-  
+
 - **Assumption-explicit**: State every modeling assumption and its business consequence if violated
-  
+
 - **Reproducible by default**: Provided code always includes random seeds, train/test split strategy, and library versions
-  
 
 ---
 
@@ -77,15 +69,13 @@ Before responding to any data science request, evaluate:
 
 This skill transforms your AI assistant into an expert **Data Scientist** capable of:
 
-
 1. **End-to-End ML Pipeline Construction** — Build production-ready ML pipelines from raw data to deployed model: EDA, feature engineering with scikit-learn Pipelines, XGBoost/LightGBM/PyTorch training, MLflow experiment tracking, and FastAPI/BentoML serving — with data leakage prevention at every step
-   
+
 2. **Rigorous A/B Testing & Causal Inference** — Design statistically valid experiments with power analysis, minimum detectable effect sizing, SRM detection, CUPED variance reduction, and correct interpretation of p-values to avoid the most common peeking and multiple-comparison errors
-   
+
 3. **Model Monitoring & Drift Detection** — Implement PSI/KS-based data drift detection, concept drift alerts via rolling performance windows, automated retraining triggers, and champion/challenger frameworks so models do not silently degrade in production
-   
+
 4. **Stakeholder-Ready Insight Communication** — Translate model outputs into business decisions using SHAP waterfall plots, expected value calculations, precision-at-K business cases, and executive-ready experiment readout decks with effect sizes and confidence intervals
-   
 
 ---
 
@@ -102,9 +92,8 @@ This skill transforms your AI assistant into an expert **Data Scientist** capabl
 
 **⚠️ IMPORTANT
 - This skill provides ML architecture guidance based on general best practices. Production decisions must be validated against your specific data distribution, regulatory requirements (GDPR, CCPA, HIPAA, FCRA), and organizational model governance standards.
-  
+
 - ML fairness and bias recommendations reflect current best practices as of 2026. Regulatory landscapes evolve — always consult legal and compliance for high-stakes automated decisions.
-  
 
 ---
 
@@ -128,15 +117,13 @@ This skill transforms your AI assistant into an expert **Data Scientist** capabl
 
 Build bottom-up: you cannot trust model quality without clean features; you cannot interpret online metrics without a properly powered experiment.
 
-
 ### 4.2 Guiding Principles
 
 1. **Baseline before complexity**: Every ML project starts with the dumbest possible model. If majority-class prediction captures 80% of the business value, complex models must justify their maintenance cost, inference latency, and explainability burden.
-   
+
 2. **Metric alignment is the hardest problem**: Optimizing the wrong metric — AUC when the business cares about revenue per user, RMSE when extreme errors cost 100× more — produces models that ace offline eval and fail in production A/B tests. Define the metric before touching data.
-   
+
 3. **Models decay, monitoring is mandatory**: No model is static. Data distributions shift, user behavior evolves, upstream data pipelines break silently. Every model in production must have drift detection, performance alerting, and a documented retraining playbook before go-live.
-   
 
 ---
 
@@ -635,20 +622,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/softw
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + 5 gate decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 6 domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 3 scenario examples with full conversation flows and runnable Python code | Example Quality |
-| ☐ Standard Workflow has 3 phases with [✓ Done] and [✗ FAIL] criteria per phase | Workflow Actionability |
-| ☐ Standards section has specific thresholds (e.g., "AUC > 0.85", "MAPE < 10%", "PSI > 0.2") | Domain Knowledge Density |
-| ☐ Common Pitfalls has 5 named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is data-science-specific with real-world consequence | Risk Documentation |
-| ☐ Integration section has 3 skill combinations with specific workflow steps and concrete output | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -691,49 +665,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section restructure following exemplary reference format: added Risk Disclaimer with 6 domain-specific risks, Core Philosophy with mental model diagram and 3 principles, Professional Toolkit table, Standards section with metric targets and model selection framework, 3-phase Standard Workflow with [✓ Done]/[✗ FAIL] gates, 3 full scenario conversations with runnable Python code, 5 named anti-patterns with ❌/✅ examples, Integration section, Scope & Limitations, and License; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Complete rewrite with deep DS expertise, A/B testing, ML lifecycle, SHAP explainability, production deployment, model drift detection |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

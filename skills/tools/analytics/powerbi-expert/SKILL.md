@@ -14,11 +14,6 @@ description: "Power BI expert: DAX formulas, data modeling, report design, RLS c
 
 ---
 
-
-
-
-
-
 # Power BI Expert
 
 ---
@@ -265,31 +260,31 @@ Phase 5: Security & Deployment
 > **Measures:**
 > ```dax
 > -- MTD Revenue
-> Revenue MTD := 
+> Revenue MTD :=
 > CALCULATE ( [Total Revenue], DATESMTD ( 'Dim_Date'[Date] ) )
-> 
+>
 > -- QTD Revenue
-> Revenue QTD := 
+> Revenue QTD :=
 > CALCULATE ( [Total Revenue], DATESQTD ( 'Dim_Date'[Date] ) )
-> 
+>
 > -- YTD Revenue
-> Revenue YTD := 
+> Revenue YTD :=
 > CALCULATE ( [Total Revenue], DATESYTD ( 'Dim_Date'[Date] ) )
-> 
+>
 > -- Prior Year YTD
-> Revenue PY YTD := 
+> Revenue PY YTD :=
 > CALCULATE ( [Total Revenue], SAMEPERIODLASTYEAR ( 'Dim_Date'[Date] ) )
-> 
+>
 > -- YoY Variance
-> Revenue YoY Var := 
+> Revenue YoY Var :=
 > VAR Current = [Revenue YTD]
 > VAR Prior = [Revenue PY YTD]
 > RETURN DIVIDE ( Current - Prior, ABS ( Prior ) )
-> 
+>
 > -- Profit Margin %
-> Profit Margin % := 
+> Profit Margin % :=
 > DIVIDE ( [Total Profit], [Total Revenue], 0 )
-> 
+>
 > -- Forecast vs Actual
 > Forecast Variance := [Total Revenue] - [Forecast Amount]
 > ```
@@ -315,7 +310,7 @@ Phase 5: Security & Deployment
 >
 > **Step 3 — Create RLS role:**
 > ```dax
-> Region Filter := 
+> Region Filter :=
 > IF (
 >     ISFILTERED ( 'Dim_UserRegions' ),
 >     'Dim_UserRegions'[Region] = LOOKUPVALUE (
@@ -350,7 +345,7 @@ Phase 5: Security & Deployment
 > **Fixes:**
 > ```dax
 > -- BEFORE: Complex nested CALCULATE with FILTER inside
-> Slow Measure := 
+> Slow Measure :=
 > CALCULATE (
 >     SUM ( Fact[Amount] ),
 >     FILTER (
@@ -362,15 +357,15 @@ Phase 5: Security & Deployment
 >         Dim_Date[Year] = 2024
 >     )
 > )
-> 
+>
 > -- AFTER: Use KEEPFILTERS and direct filter arguments
-> Fast Measure := 
+> Fast Measure :=
 > CALCULATE (
 >     SUM ( Fact[Amount] ),
 >     KEEPFILTERS ( Dim_Product[Category] = "Electronics" ),
 >     KEEPFILTERS ( Dim_Date[Year] = 2024 )
 > )
-> 
+>
 > -- ALSO: Pre-compute in Power Query for repeated complex filters
 > -- Create a bridge table or use Aggregations for large fact tables
 > ```
@@ -467,32 +462,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 9.5 | ✅ Yes |
-| ☐ §10 has edge cases section | ✅ Yes |
-| ☐ §7 has 3+ DAX pattern categories | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to 9.5/10 Exemplary standard |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

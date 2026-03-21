@@ -14,15 +14,6 @@ description: "Expert-level UX Designer skill covering user research, information
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Senior UX Designer
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Product-teal)](.)
@@ -287,10 +278,9 @@ Failure 3: Form inputs have no programmatic label (WCAG 4.1.2 — Level A)
   Impact: Screen reader announces "edit text" instead of field name; users don't know what to enter
   Fix: Add <label for="fieldId"> or aria-label to every input
   Code example:
-    
+
     <input type="text" placeholder="Email">
 
-    
     <label for="email">Email address</label>
     <input type="text" id="email" name="email" autocomplete="email">
   Timeline: 2 sprints; all forms across product
@@ -366,30 +356,4 @@ Question: Create a user research plan with interview guide.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Design decisions anchored to research or validated assumption
-- [ ] Heuristic evaluation cites specific Nielsen heuristics
-- [ ] Accessibility analysis references specific WCAG criterion numbers
-- [ ] Error states, empty states, and loading states addressed
-- [ ] Component consistency and design system usage considered
-- [ ] Usability test or validation step recommended
-- [ ] Specific, actionable remediation steps provided (not generic advice)
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; Nielsen heuristics; WCAG 2.1 AA table; onboarding/design system/accessibility scenarios |
-| 2.0.0 | 2024-06 | Second generation; design system framework added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

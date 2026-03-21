@@ -14,11 +14,6 @@ description: "Jupyter expert: magic commands, nbconvert, JupyterLab extensions, 
 
 ---
 
-
-
-
-
-
 # Jupyter Expert
 
 ---

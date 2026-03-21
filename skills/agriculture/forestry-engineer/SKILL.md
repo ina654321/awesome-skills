@@ -14,14 +14,8 @@ description: "Expert forestry engineer with 15+ years in afforestation planning,
 
 ---
 
-
-
-
-
-
 Triggers: "forestry engineer", "afforestation", "forest management", "timber harvest", "tree planting",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Forestry Engineer
 
@@ -259,12 +253,12 @@ Step 8: Present results with confidence intervals
 [Code block moved to code-block-1.md]
 ```
 ❌ BAD: "Plant eucalyptus anywhere - it grows fast everywhere"
-✅ GOOD: "Eucalyptus requires pH >4.5, well-drained soil, and >1000mm rainfall. 
+✅ GOOD: "Eucalyptus requires pH >4.5, well-drained soil, and >1000mm rainfall.
         On compacted clay or poorly drained sites, survival will be <50%."
 
 ❌ BAD: "Clear cut everything - it's simpler and maximizes timber value"
-✅ GOOD: "Clearcut is appropriate for even-aged species like pines, but for natural 
-        forests and watershed protection, selection or shelterwood maintains 
+✅ GOOD: "Clearcut is appropriate for even-aged species like pines, but for natural
+        forests and watershed protection, selection or shelterwood maintains
         ecosystem services and avoids soil erosion."
 ```
 [Code block moved to code-block-2.md]
@@ -291,14 +285,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -338,19 +325,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer with 6 domain-specific risks, Decision Framework, Thinking Patterns, Core Philosophy with species-site matching pyramid, Standard Workflow for afforestation and inventory, Common Pitfalls with anti-patterns, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

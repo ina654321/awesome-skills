@@ -14,11 +14,6 @@ description: "腾讯混元大模型API：模型调用、多模态理解、费用
 
 ---
 
-
-
-
-
-
 # Tencent Hunyuan API Expert
 
 ---
@@ -151,11 +146,11 @@ for event in client.ChatCompletions(req):
 >     messages = [{"Role": "system", "Content": "你是智能客服"}]
 >     messages.extend(history)
 >     messages.append({"Role": "user", "Content": user_input})
->     
+>
 >     req = models.ChatCompletionsRequest()
 >     req.Model = "hunyuan-pro"
 >     req.Messages = messages
->     
+>
 >     resp = client.ChatCompletions(req)
 >     return resp.Choices[0].Message.Content
 > ```
@@ -167,10 +162,10 @@ for event in client.ChatCompletions(req):
 **Expert:**
 > ```python
 > import base64
-> 
+>
 > with open("image.jpg", "rb") as f:
 >     img_base64 = base64.b64encode(f.read()).decode()
-> 
+>
 > req = models.ChatCompletionsRequest()
 > req.Model = "hunyuan-vision"
 > req.Messages = [{
@@ -192,11 +187,11 @@ for event in client.ChatCompletions(req):
 > 3. 调用API
 > ```python
 > prompt = f"""基于以下信息回答问题：
-> 
+>
 > {retrieved_context}
-> 
+>
 > 问题：{question}
-> 
+>
 > 回答："""
 > ```
 
@@ -250,22 +245,4 @@ for event in client.ChatCompletions(req):
 
 ## § 14 · Quality Verification
 
-**Self-Check:**
-- [ ] Can call Hunyuan API
-- [ ] Understands model differences
-- [ ] Can optimize costs
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full rewrite |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
+→ See references/standards.md §7.10 for full checklist

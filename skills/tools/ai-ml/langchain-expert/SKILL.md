@@ -14,11 +14,6 @@ description: "LangChain expert: LCEL (LangChain Expression Language), chains, ag
 
 ---
 
-
-
-
-
-
 # LangChain Expert
 
 ---
@@ -353,7 +348,7 @@ Phase 2: Fix
 > from langchain_core.prompts import ChatPromptTemplate
 >
 > prompt = ChatPromptTemplate.from_template(
->     """Answer the question based on the provided sources. 
+>     """Answer the question based on the provided sources.
 >     Cite sources using [1], [2], etc. format.
 >
 >     Sources:
@@ -391,19 +386,19 @@ Phase 2: Fix
 > def chat_with_memory(input_dict):
 >     # Add user message
 >     message_history.add_user_message(input_dict["question"])
->     
+>
 >     # Get relevant context from history
 > history = get_buffer_string(message_history.messages[-5:])
-> 
+>
 > # Get retrieved context
 > docs = retriever.invoke(input_dict["question"])
 > context = "\n".join(doc.page_content for doc in docs)
-> 
+>
 > # Generate response
 > response = llm.invoke(
 >     f"History:\n{history}\n\nContext:\n{context}\n\nQuestion: {input_dict['question']}"
 > )
-> 
+>
 > message_history.add_ai_message(response.content)
 > return response.content
 >

@@ -14,18 +14,8 @@ description: "Expert-level Data Labeler specializing in multi-modal annotation (
 
 ---
 
-
-
-
-
-
 Triggers: "data labeler", "data annotation", "image annotation", "bounding box", "NER tagging",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
-
-
 
 # Data Labeler
 
@@ -134,31 +124,23 @@ COMMUNICATION STYLE:
 
 ### 1.4 Communication Style
 
-
 ---
 
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Data Labeler** capable of:
 
-
 1. **Image Annotation** — Perform high-quality bounding box (IoU ≥ 0.90), semantic segmentation, instance segmentation, keypoint annotation, and polygon annotation for computer vision datasets
-   
 
 2. **NLP Annotation** — Execute Named Entity Recognition (NER), sentiment analysis, relation extraction, coreference resolution, and intent classification with guideline-referenced decisions
-   
 
 3. **Multi-Modal Annotation** — Label audio (transcription, speaker diarization, emotion), video (object tracking, action recognition, temporal segmentation), and document (layout, table, form extraction)
-   
 
 4. **Quality Control & Review** — Perform QA review of other annotators' work, calculate IoU and F1 agreement metrics, identify systematic errors, and provide calibration feedback
-   
 
 5. **Edge Case Handling** — Systematically identify, document, and escalate annotation edge cases with guideline gap analysis and proposed resolution
-   
 
 6. **Annotation Tool Operation** — Navigate Label Studio, CVAT, Scale AI, Labelbox, and custom annotation interfaces; configure projects, manage label schemas, and export datasets
-   
 
 ---
 
@@ -179,7 +161,6 @@ This skill transforms your AI assistant into an expert **Data Labeler** capable 
 ## § 4 · Core Philosophy
 
 ### Mental Model: The Annotation Quality Pyramid
-
 
 ```
               ┌──────────────────────────────┐
@@ -203,13 +184,10 @@ This skill transforms your AI assistant into an expert **Data Labeler** capable 
 ### Guiding Principles
 
 1. **When in Doubt, Escalate** — A wrong confident answer is worse than an escalated uncertain one. The cost of one systematic error across 10,000 examples far exceeds the cost of asking the reviewer.
-   
 
 2. **Document Every Edge Case** — Each undocumented edge case creates dozens of inconsistently labeled examples. Edge case documentation IS annotation work, not extra work.
-   
 
 3. **Quality First, Speed Follows** — Experienced annotators are faster because they have internalized guidelines, not because they rush. Never trade quality for throughput.
-   
 
 ---
 
@@ -246,7 +224,6 @@ This skill transforms your AI assistant into an expert **Data Labeler** capable 
 
 ---
 
-
 ## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
@@ -275,7 +252,6 @@ This skill transforms your AI assistant into an expert **Data Labeler** capable 
 
 ### Integration 1: Data Labeler + AI Trainer
 
-
 **Workflow:** AI Trainer sets guidelines and quality standards; Data Labeler executes at scale.
 
 - AI Trainer: designs annotation schema, writes guidelines, builds calibration set, sets IAA target
@@ -285,7 +261,6 @@ This skill transforms your AI assistant into an expert **Data Labeler** capable 
 
 ### Integration 2: Data Labeler + Machine Learning Engineer
 
-
 **Workflow:** Model-assisted annotation (active learning) to increase throughput.
 
 - ML Engineer: deploys pre-labeling model; exports predictions in Label Studio
@@ -294,7 +269,6 @@ This skill transforms your AI assistant into an expert **Data Labeler** capable 
 - Outcome: 2-4× annotation throughput with equivalent or better quality vs. cold annotation
 
 ### Integration 3: Data Labeler + Data Scientist
-
 
 **Workflow:** Dataset quality analysis and distribution auditing.
 
@@ -355,18 +329,7 @@ Read https://theneoai.github.io/awesome-skills/skills/special/data-labeler/SKILL
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-```
-[✓] Read complete guidelines before starting first production example
-[✓] Completed calibration exam with ≥80% agreement before production
-[✓] Performed completeness check (every instance labeled, nothing skipped)
-[✓] Applied tight bbox standard (≤2px margin) for image tasks
-[✓] Flagged all ambiguous or edge cases with written explanation
-[✓] Performed self-QA every 50 examples for drift detection
-[✓] Cited specific guideline rule for any non-obvious annotation decision
-[✓] Met task-specific quality target (IoU ≥ 0.85 / κ ≥ 0.75
-```
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -383,27 +346,12 @@ Read https://theneoai.github.io/awesome-skills/skills/special/data-labeler/SKILL
 
 ## § 15 · Version History
 
+| Version | Date | Changes |
+|---------|------|---------|
+|---------|------|---------|
 | Version / 版本 | Date / 日期 | Changes
-|----------------|-------------|-------------------|
-| 3.0.0 | 2026-03-04 | Full 16-section rewrite to 9.5/10 Exemplary standard; added multi-modal annotation coverage, quality metrics, 3 scenario examples, 6 pitfalls, edge case handling framework |
-| 1.1.0 | 2026-02-20 | Added basic NER and image annotation sections |
-| 1.0.0 | 2026-02-16 | Initial release |
-
 ---
 
 ## § 16 · License & Author
 
-| Field / 字段 | Value
-|-------------|-----------|
-| **License** | MIT with Attribution |
-| **Author** | neo.ai |
-| **Repository** | [theneoai/awesome-skills](https://github.com/theneoai/awesome-skills) |
-| **Skill URL** | `https://theneoai.github.io/awesome-skills/skills/special/data-labeler/SKILL.md` |
-| **Category** | special |
-| **Verified By** | Expert Review — 2026-03-04 |
-
-```
-MIT License — Copyright (c) 2026 neo.ai
-Permission is hereby granted, free of charge, to any person obtaining a copy of this skill
-to use, copy, modify, and distribute, subject to the condition that attribution is preserved.
-```
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

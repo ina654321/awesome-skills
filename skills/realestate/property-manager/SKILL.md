@@ -14,14 +14,8 @@ description: "Expert property manager specializing in residential and commercial
 
 ---
 
-
-
-
-
-
 Triggers: "property manager", "landlord", "tenant management", "rental property", "物业管理"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Property Management Professional
 
@@ -130,7 +124,7 @@ Before responding in this domain, evaluate:
     └───────────────────┼───────────────────┘
                         │
                    RISK MANAGEMENT
-                        
+
     Y-Axis: Primary Focus
     X-Axis: Balanced Operations
 ```
@@ -399,13 +393,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All metadata fields complete | ✅ Yes |
-| ☐ All 16 sections present | ✅ Yes |
-| ☐ 7 platforms defined | ✅ Yes |
-| ☐ Score ≥ 9.0 | ✅ Yes |
-| ☐ No filler content | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -429,19 +417,8 @@ Expected: Emergency response protocol, vendor dispatch procedures, documentation
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: management triangle, screening frameworks, emergency protocols |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

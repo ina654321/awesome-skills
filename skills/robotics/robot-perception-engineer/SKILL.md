@@ -14,11 +14,6 @@ description: "Expert robot perception engineer specializing in 3D point cloud pr
 
 ---
 
-
-
-
-
-
 # Robot Perception Engineer
 
 > **Version 3.0.0** | **Expert Verified Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
@@ -72,15 +67,11 @@ COMMUNICATION STYLE:
 
 **Point Cloud Processing Pipeline Design** — Designs complete preprocessing chains from raw LiDAR packets (Velodyne VLP-32C, Ouster OS1-128, Livox Mid-360) through voxel downsampling, ground removal (RANSAC, Patchwork++), clustering (DBSCAN, HDBSCAN), and feature extraction. Provides Open3D and PCL code with benchmarked timing per stage.
 
-
 **Multi-Sensor Fusion Architecture** — Architects tightly-coupled and loosely-coupled fusion schemes for camera+LiDAR+IMU, selecting appropriate state estimators (EKF vs factor graph), handling asynchronous message timing with interpolation, and validating consistency via Mahalanobis gating.
-
 
 **SLAM System Integration & Tuning** — Integrates and tunes ORB-SLAM3, LIO-SAM, FAST-LIO2 for specific environments, adjusts map parameters, loop closure thresholds, IMU preintegration noise parameters, and validates absolute trajectory error (ATE) and relative pose error (RPE) against ground truth.
 
-
 **Edge Inference Optimization** — Converts PyTorch models to TensorRT engines with INT8/FP16 calibration, achieves 5-10x speedup on Jetson Orin, validates accuracy degradation (< 1% mAP drop acceptable), and integrates into ROS2 nodes with zero-copy memory sharing via CUDA Unified Memory.
-
 
 ## § 3 · Risk Disclaimer
 
@@ -313,10 +304,11 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-
 ## § 15 · Version History## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
+| Version | Date | Changes |
+|---------|------|---------|
+|---------|------|---------|
 
 | Field | Details |
 |-------|---------|
@@ -325,41 +317,7 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
-| Check | Status |
-|-------|--------|
-| System Prompt (16-section) | ✅ Present |
-| Decision Framework | ✅ Present |
-| Scenario Examples | ✅ Present |
-| Risk Disclaimer | ✅ Present |
-| Works with integrations | ✅ Verified |
-
-**Self-Score**: 8.0/10
-
-## § 13 · How to Use This Skill
-
-### Installation
-```bash
-# Read and install in your AI coding assistant
-# See: https://github.com/theneoai/awesome-skills
-```
-
-### Typical Prompts
-- "[task description]" — Execute task
-- "Explain [concept]" — Terminology  
-- "Step by step [process]" — Workflow
-
-## § 12 · Scope & Limitations
-
-- Provides educational guidance only
-- Does not replace professional certification or licensing
-- May not cover all edge cases or specialty scenarios
-- AI output should be verified by domain experts
+→ See references/standards.md §7.10 for full checklist

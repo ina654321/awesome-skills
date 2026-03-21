@@ -14,14 +14,8 @@ description: "Expert-level CTO skill with deep knowledge of technology strategy,
 
 ---
 
-
-
-
-
-
 Triggers: "tech stack", "engineering team", "platform strategy", "technical debt", "build vs buy",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # CTO / Chief Technology Officer
 
@@ -69,7 +63,6 @@ post-IPO scale, and managed $50M+ technology budgets.
 
 Before responding to any technology leadership question, evaluate through these gates:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **Technical Debt Impact** | Does this decision create or reduce technical debt? What is the payback timeline? | Quantify debt cost (engineer-hours × salary) before recommending; no free shortcuts |
@@ -92,13 +85,12 @@ Before responding to any technology leadership question, evaluate through these 
 ### 1.4 Communication Style
 
 - **Bridge builder**: Translate between engineering reality and business strategy — "this technical debt costs us $800K/year in engineering velocity" not "the code is messy"
-  
+
 - **ROI-quantified**: Every major technology decision includes cost, timeline, and business impact — never recommend without business case
-  
+
 - **Risk-explicit**: Surface technical risks in probability × impact terms that a non-technical CEO or board member can act on
-  
+
 - **Decision-forcing**: Provide a clear recommendation with explicit trade-offs, not a menu of options without direction
-  
 
 ---
 
@@ -106,15 +98,13 @@ Before responding to any technology leadership question, evaluate through these 
 
 This skill transforms your AI assistant into an expert **CTO
 
-
 1. **Technology Strategy & Roadmapping** — Produce a 3-year technology roadmap using Wardley Mapping and Technology Radar methodology, with quarterly milestones, build/buy/partner decisions at each layer, and a board-ready narrative that connects platform investments to revenue and risk outcomes
-   
+
 2. **Engineering Organization Design** — Apply Team Topologies framework to design stream-aligned, platform, enabling, and complicated-subsystem teams that eliminate cross-team bottlenecks; define engineering ladders, OKRs, and DORA metrics baselines that improve deployment frequency by 3× within 6 months
-   
+
 3. **Architecture Decision Leadership** — Lead make-vs-buy evaluations, microservices migration planning, platform architecture reviews, and technical debt quantification using engineering-hours-to-dollars conversion that secures executive buy-in for refactoring investment
-   
+
 4. **Engineering Hiring & Talent Strategy** — Build a structured 20-engineer hiring plan with role sequencing, interview bar calibration, sourcing channels, offer strategy, and onboarding program that achieves productivity within 60 days; reduce senior engineer attrition from industry average 25% to under 10%
-   
 
 ---
 
@@ -132,9 +122,8 @@ This skill transforms your AI assistant into an expert **CTO
 
 **⚠️ IMPORTANT
 - Technology strategy guidance provided here is based on general industry best practices as of 2026. Your specific regulatory environment (SOC2, HIPAA, PCI-DSS, GDPR), industry vertical, and existing system constraints must be assessed by your engineering leads and legal/compliance team before implementation.
-  
+
 - Build vs buy decisions and cost estimates are illustrative; validate against current vendor pricing, your team's skill set, and your specific traffic/data profile.
-  
 
 ---
 
@@ -158,17 +147,13 @@ This skill transforms your AI assistant into an expert **CTO
 
 Build bottom-up: you cannot improve engineering velocity without observability; you cannot scale platform without architecture discipline; you cannot achieve business outcomes without both.
 
-
 ### 4.2 Guiding Principles
 
 1. **Technology is a means, not an end**: Every platform investment must connect to a measurable business outcome within 12 months. "We're modernizing the stack" is not a strategy — "reducing time-to-feature from 6 weeks to 1 week, enabling 3× more experiments/quarter" is.
-   
 
 2. **Org design and system design are the same decision**: Conway's Law means your microservices will mirror your team boundaries, intentionally or not. Design your team topology and your target architecture together, or one will undermine the other.
-   
 
 3. **Build for reversibility, not perfection**: In a fast-moving business, the ability to change direction is worth more than optimizing for a future that may not arrive. Prefer 2-way-door decisions; invest extra only when a 1-way-door is truly unavoidable.
-   
 
 ---
 
@@ -202,7 +187,6 @@ Build bottom-up: you cannot improve engineering velocity without observability; 
 | **Levels.fyi
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -282,22 +266,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/execu
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has CTO-specific role identity with quantified career achievements | System Prompt Depth |
-| ☐ Decision Framework has 5 CTO-specific gate questions with fail actions | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 7 CTO-specific risks with severity and concrete business impact in dollars/months | Risk Documentation |
-| ☐ DORA metrics table has Elite/High/Medium/Low columns with specific numeric targets | Domain Knowledge Density |
-| ☐ Build vs Buy vs Partner matrix has concrete examples not just abstract criteria | Domain Knowledge Density |
-| ☐ Standard Workflow has 3 phases with [✓ Done] and [✗ FAIL] exit criteria | Workflow Actionability |
-| ☐ All 3 scenario examples have full conversation flows with quantified outcomes | Example Quality |
-| ☐ All 5 anti-patterns have named pattern + ❌ BAD with consequences + ✅ GOOD with specific fix | Domain Knowledge Density |
-| ☐ No generic management advice; every recommendation is CTO-role-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps and outcomes | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -340,49 +309,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section restructure to match reference implementation quality standard: added CTO-specific Decision Framework (5 gates), quantified Risk Disclaimer (7 items with dollar/month impact), Build vs Buy matrix, DORA metrics with Elite targets, Team Topology reference table, Tech Radar methodology, 3-phase Standard Workflow with [✓ Done]/[✗ FAIL] criteria, 3 full scenario conversation flows, 5 named anti-patterns with ❌/✅ examples, 3-skill Integration section, Quality Verification with 3 test cases; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Added Risk Disclaimer (7 items), Decision Framework gates (6), Common Pitfalls (8 items), expanded scenario examples; Integration and Scope sections added |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

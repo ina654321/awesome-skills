@@ -14,11 +14,6 @@ description: "dbt (data build tool) expert: model design, ref/source, testing, m
 
 ---
 
-
-
-
-
-
 # dbt Expert
 
 **Self-Score:** 9.5/10 — Exemplary

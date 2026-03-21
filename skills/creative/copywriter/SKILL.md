@@ -14,15 +14,6 @@ description: "Expert-level Copywriter skill with deep knowledge of conversion co
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Copywriter
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Creative-purple)](.)
@@ -382,31 +373,4 @@ Question: Write the email.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Headline makes a promise or provokes curiosity (not a topic label)
-- [ ] Reader's problem acknowledged before the solution is presented
-- [ ] Benefits emphasized, not just features
-- [ ] Specific proof points included (numbers, testimonials, names)
-- [ ] One clear CTA (not multiple competing options)
-- [ ] Readability grade ≤8 (conversational); no jargon
-- [ ] "We/Our" ratio low vs. "You/Your" — reader-centric
-- [ ] Read aloud test: sounds like a human, not a brochure
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; AIDA/PAS/SB7 frameworks; headline formulas; landing page/email/pricing page critique scenarios |
-| 2.0.0 | 2024-06 | Second generation; added copywriting frameworks and critique methodology |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

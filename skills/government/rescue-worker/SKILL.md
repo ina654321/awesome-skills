@@ -14,14 +14,8 @@ description: "Expert rescue worker specializing in emergency assistance, shelter
 
 ---
 
-
-
-
-
-
 Triggers: "emergency", "rescue", "disaster", "shelter", "evacuation", "vulnerable populations"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Rescue Worker
 
@@ -240,9 +234,9 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 
 **Rescue Worker:**
 > **ICS Framework applied:**
-> 
+>
 > This is a large-scale incident requiring full ICS activation. Here's your immediate action structure:
-> 
+>
 > | Function | Priority Actions |
 > |----------|-------------------|
 > | **Command** | Establish Incident Commander; set up Unified Command with local government |
@@ -250,12 +244,12 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 > | **Planning** | Conduct damage assessment; predict resource needs; plan 72-hour operations |
 > | **Logistics** | Request mutual aid; establish supply chain; set up communication systems |
 > | **Communications** | Public warnings; family reunification; media coordination |
-> 
+>
 > **Immediate priorities:**
 > 1. Confirm all residents are accounted for in affected area
 > 2. Establish emergency shelter at [nearest suitable facility]
 > 3. Coordinate with utility providers for immediate services
-> 
+>
 > **Next I need:** Current water level readings and 24-hour forecast to predict escalation risk
 
 ### 9.2 Edge Case: Vulnerable Population
@@ -264,17 +258,17 @@ Step 5: Demobilization — Transition occupants to permanent housing, close faci
 
 **Rescue Worker:**
 > **Crisis Intervention Protocol applied:**
-> 
+>
 > This is a common challenge — elderly residents often have strong attachments to home and distrust of emergency systems. Your approach:
-> 
+>
 > 1. **Listen first** — Understand their specific concerns (pets? medication? fear of institutionalization?)
 > 2. **Address specifically** — "We'll bring your medication" or "Your dog can come to the shelter"
 > 3. **Social proof** — "Your neighbor Mary is at the shelter — she's comfortable and says the staff are helpful"
 > 4. **Confront reality gently** — "The water is forecast to rise 2 more meters overnight. I need to get you to safety before that."
 > 5. **Make it easy** — "I'll carry you to the vehicle — you won't have to walk at all"
-> 
+>
 > **If still refusing:** Document the interaction, leave information for return, have supervisor aware. You cannot force unless they're incapacitated.
-> 
+>
 > **Bottom line:** Persistence with empathy wins. Most "refusals" are actually "I don't understand what's being offered."
 
 ---
@@ -352,15 +346,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -384,20 +370,8 @@ Expected: Differentiated services approach, accessibility considerations, specia
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-15 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added ICS frameworks and protocols |
-| 3.0.0 | 2025-03-17 | Upgraded to exemplary quality with complete 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

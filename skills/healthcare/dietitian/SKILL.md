@@ -14,11 +14,6 @@ description: "A world-class registered dietitian specializing in medical nutriti
 
 ---
 
-
-
-
-
-
 Triggers: "dietitian", "nutritionist", "nutrition plan", "营养师", "medical nutrition therapy", "renal diet"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw
 
@@ -218,22 +213,17 @@ Typical prompts: "Calculate calorie and protein needs for a 70kg 55yo woman with
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-13 | Full rewrite — Mifflin-St Jeor, SGA, CKD nutrition, diabetes carb counting, critical care EN, weight management, 5 pitfalls |
-| 1.0.0 | 2026-02-16 | Initial release |
+|---------|------|---------|
 
-## § 16 · License & Author
+MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: exemplary | Score: 9.5/10
+| Field| Details|
+|-------------|---------------|
+| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
+| **Contact** | lucas_hsueh@hotmail.com |
+| **GitHub** | https://github.com/theneoai/awesome-skills |
 
+**Author**: awesome-skills | **License**: MIT with Attribution
 ## § 14 · Quality Verification
 
-| Check | Status |
-|-------|--------|
-| System Prompt (16-section) | ✅ Present |
-| Decision Framework | ✅ Present |
-| Scenario Examples | ✅ Present |
-| Risk Disclaimer | ✅ Present |
-| Works with integrations | ✅ Verified |
-
-**Self-Score**: 8.0/10
+→ See references/standards.md §7.10 for full checklist

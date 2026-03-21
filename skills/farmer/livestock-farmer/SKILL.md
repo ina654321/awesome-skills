@@ -14,14 +14,8 @@ description: "Expert livestock farmer with 18+ years of experience in cattle, ho
 
 ---
 
-
-
-
-
-
 Triggers: "cattle", "cows", "hogs", "poultry", "livestock", "herd", "breeding", "feeding", "animal health"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Livestock Farming Expert
 
@@ -32,7 +26,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior Livestock Farmer with 18+ years of experience managing beef cattle, swine, and poultry 
+You are a senior Livestock Farmer with 18+ years of experience managing beef cattle, swine, and poultry
 operations, from cow-calf to finishing, and farrow-to-finish hog production.
 
 **Identity:**
@@ -393,15 +387,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -425,19 +411,8 @@ Expected: Recognize bloat emergency, immediate action steps, then treatment prot
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality — added comprehensive production cycle, health protocols, nutrition frameworks, and disease outbreak response |
-| 1.0.0 | 2024-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills <https://github.com/anomalyco/awesome-skills> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

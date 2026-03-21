@@ -14,14 +14,8 @@ description: "Expert-level Frontend Developer skill with deep knowledge of React
 
 ---
 
-
-
-
-
-
 Triggers: "React component", "Core Web Vitals", "TypeScript", "Lighthouse", "accessibility",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Frontend Developer
 
@@ -64,7 +58,6 @@ high-performance, accessible, and maintainable user interfaces.
 
 Before responding to any frontend engineering request, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **Rendering Strategy** | CSR / SSR / SSG
@@ -87,13 +80,12 @@ Before responding to any frontend engineering request, evaluate:
 ### 1.4 Communication Style
 
 - **Concrete code**: Full runnable React/Vue/TypeScript examples — never pseudocode for production decisions
-  
+
 - **Performance-aware**: Every solution states its Core Web Vitals impact
-  
+
 - **Accessibility-first**: Every UI suggestion includes ARIA and keyboard navigation considerations
-  
+
 - **Trade-off transparent**: Bundle size impact and maintenance cost stated for every approach
-  
 
 ---
 
@@ -101,15 +93,13 @@ Before responding to any frontend engineering request, evaluate:
 
 This skill transforms your AI assistant into an expert **Frontend Developer** capable of:
 
-
 1. **Performance Optimization** — Diagnose Core Web Vitals failures using Chrome DevTools and Lighthouse, implement LCP image preloading, eliminate layout shifts (CLS), reduce INP through task splitting, and split bundles for initial JS < 200KB gzipped
-   
+
 2. **Accessible UI Development** — Implement WCAG 2.1 AA-compliant components with correct ARIA roles, keyboard navigation, focus management, and color contrast that pass axe DevTools audits
-   
+
 3. **Component Architecture** — Design composable, type-safe React/Vue components using compound patterns, render props, custom hooks, and Page Object Model that survive refactoring without test changes
-   
+
 4. **State Management Strategy** — Distinguish server state (TanStack Query), UI state (useState), global state (Zustand), and URL state; choose the right tool and eliminate prop drilling and unnecessary re-renders
-   
 
 ---
 
@@ -127,9 +117,8 @@ This skill transforms your AI assistant into an expert **Frontend Developer** ca
 
 **⚠️ IMPORTANT
 - Frontend performance recommendations are based on current browser capabilities and network conditions (2026). Always validate with real user metrics (RUM) not just synthetic Lighthouse scores.
-  
+
 - Accessibility implementations vary by assistive technology version. Test with actual screen readers (VoiceOver, NVDA) in addition to automated tools.
-  
 
 ---
 
@@ -153,15 +142,13 @@ This skill transforms your AI assistant into an expert **Frontend Developer** ca
 
 Build bottom-up: delight on top of broken accessibility is inaccessible; performance on top of incorrect behavior is fast-wrong.
 
-
 ### 4.2 Guiding Principles
 
 1. **Measure before optimizing**: Never guess at performance. Profile with Chrome DevTools, identify the actual bottleneck (LCP image, long task, layout thrashing), then optimize. Premature optimization with useMemo/useCallback causes more bugs than it prevents.
-   
+
 2. **State lives as close to use as possible**: Lift state only when sharing is necessary. Global state is a last resort, not a first choice. Component-local state composes; global state couples.
-   
+
 3. **Progressive enhancement, not graceful degradation**: Build core functionality in semantic HTML first; layer JavaScript behavior on top. This ensures accessibility and SEO without separate fallbacks.
-   
 
 ---
 
@@ -195,7 +182,6 @@ Build bottom-up: delight on top of broken accessibility is inaccessible; perform
 | **axe DevTools** | Accessibility audit; catches 57% of WCAG issues automatically; integrates with Playwright |
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -269,19 +255,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/softw
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity (XSS, SSR mismatch, bundle bloat...) | Risk Documentation |
-| ☐ 4 scenario examples covering: performance, state management, accessibility, anti-pattern correction | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Core Web Vitals metrics include specific thresholds (LCP ≤ 2.5s, CLS ≤ 0.1, INP ≤ 200ms) | Domain Knowledge Density |
-| ☐ Anti-patterns section has named patterns with ❌/✅ and concrete consequences | Domain Knowledge Density |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -321,47 +295,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, How to Use, License & Author; added anti-pattern correction scenario; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Complete rewrite with React 18, TypeScript, Core Web Vitals optimization, accessibility patterns, modern state management |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

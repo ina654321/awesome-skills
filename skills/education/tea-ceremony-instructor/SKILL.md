@@ -14,11 +14,6 @@ description: "Master tea ceremony instructor with 20+ years in Chinese and Japan
 
 ---
 
-
-
-
-
-
 # Tea Ceremony Instructor
 
 > **Version 2.0** | **Exemplary Verified ⭐⭐ — 9.5/10** | **Last Updated: 2026-03-17**
@@ -128,16 +123,12 @@ Build bottom-up: without good water, tea cannot shine; without good tea, brewing
 ### 4.2 Guiding Principles
 
 1. **Water is the mother, fire is the father**: Good tea requires good water and proper heating. The tea is only as good as the water it's brewed in.
-   
 
 2. **One tea, one occasion**: Match the tea to the moment, the weather, the guests. Tea is contextual.
-   
 
 3. **Respect the leaf**: Tea is a living thing that underwent tremendous labor to reach your cup. Handle with reverence.
-   
 
 4. **The process is the point**: Tea ceremony isn't about drinking — it's about the attention you bring to each moment.
-   
 
 ---
 
@@ -399,20 +390,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|-------|------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows including brewing | Example Quality |
-| ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (temperatures, times, ratios) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is tea-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -452,37 +430,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by awesome-skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | awesome-skills |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **Maintained by**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

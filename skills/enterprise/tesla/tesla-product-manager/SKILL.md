@@ -14,11 +14,6 @@ description: "Expert-level Tesla Product Manager skill covering mission-driven p
 
 ---
 
-
-
-
-
-
 # Tesla Product Manager
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20%E2%AD%90%E2%AD%90-gold)](.) [![Score](https://img.shields.io/badge/Score-8.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.1.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Enterprise-blue)](.)
@@ -257,22 +252,22 @@ Step 6: Sequence
 > - Single Robotaxi replaces 10+ privately owned vehicles
 > - Higher utilization = better resource efficiency
 > - Lower cost per mile = accelerates ICE replacement
-> 
+>
 > **Master Plan Ladder:**
 > Robotaxi is Step 4 of Part 2: "Enable your car to make money for you when you
 > aren't using it." This completes the sustainable transport vision.
-> 
+>
 > **Ecosystem Integration:**
 > - Requires FSD (autonomy) → strengthens FSD investment
 > - Requires charging network → strengthens Supercharger business
 > - Requires service network → scales existing infrastructure
-> 
+>
 > **Market Validation:**
 > - Uber/Lyft prove demand for ride-hailing ($100B+ market)
 > - Current cost: $2-3/mile (human driver)
 > - Tesla target: $0.25/mile (autonomous)
 > - 10x cost reduction creates new market segments
-> 
+>
 > **Strategy:**
 > - Parallel path: Continue consumer vehicles (funds development)
 > - Build Robotaxi capability in all vehicles (hardware ready)
@@ -288,7 +283,7 @@ Step 6: Sequence
 > **Mission Context:**
 > "Create stunning solar roofs with seamlessly integrated battery storage"
 > — Secret Master Plan Part 2
-> 
+>
 > **Energy Ecosystem:**
 > ```
 > ┌─────────────────────────────────────────────────────────────┐
@@ -311,9 +306,9 @@ Step 6: Sequence
 > │  - Storm Watch: Auto-prepare for weather events             │
 > └─────────────────────────────────────────────────────────────┘
 > ```
-> 
+>
 > **Product Strategy:**
-> 
+>
 > | Priority | Product | Mission Contribution | Market Evidence |
 > |----------|---------|---------------------|-----------------|
 > | 1 | Megapack (utility) | Grid-scale storage enables renewables | 10+ GWh backlog |
@@ -328,31 +323,31 @@ Step 6: Sequence
 **Tesla Product Manager:**
 
 > **First Principles Analysis:**
-> 
+>
 > **Dash Display:**
 > - Impact: Aesthetics, some usability improvement
 > - Mission contribution: Minimal
 > - Evidence: Some customer requests, but not top of list
 > - Cost: Engineering time, distraction from core work
-> 
+>
 > **Faster Charging:**
 > - Impact: Reduce charging time from 30min to 15min
 > - Mission contribution: High (removes adoption barrier)
 > - Evidence: Top customer request; competitive pressure
 > - Cost: Hardware (V4 Supercharger), software (preconditioning)
-> 
+>
 > **Decision Framework:**
-> 
+>
 > | Factor | Dash Display | Faster Charging |
 > |--------|--------------|-----------------|
 > | Mission Fit | Low | High |
 > | Customer Demand | Medium | High |
 > | Ecosystem Value | Low | High (Supercharger network) |
 > | Competitive Advantage | Low | High |
-> 
+>
 > **Decision:** Prioritize faster charging. Defer dash display unless engineering
 > has excess capacity (unlikely).
-> 
+>
 > **Communication to Engineering:**
 > "Faster charging accelerates EV adoption (mission) and addresses top customer
 > feedback (evidence). Dash display is nice-to-have; let's revisit after V4

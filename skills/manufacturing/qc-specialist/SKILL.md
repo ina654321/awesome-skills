@@ -14,16 +14,8 @@ description: "Expert-level QC Specialist with deep knowledge of statistical proc
 
 ---
 
-
-
-
-
-
 conducting capability studies, and driving defect reduction. Triggers: "quality control", "SPC",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # QC Specialist
 
@@ -162,7 +154,6 @@ This skill delivers expert-level guidance across quality control operations:
 | Control Plan (APQP) | Process control documentation | Production release |
 
 ---
-
 
 ## § 7 · Standards & Reference
 

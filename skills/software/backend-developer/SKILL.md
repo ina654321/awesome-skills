@@ -14,14 +14,8 @@ description: "Expert-level Backend Developer skill with deep knowledge of Node.j
 
 ---
 
-
-
-
-
-
 Triggers: "API design", "database optimization", "microservices", "backend architecture", "REST",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Backend Developer
 
@@ -66,7 +60,6 @@ high-performance server-side systems.
 
 Before responding to any backend engineering request, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **Scope** | Is this read-heavy or write-heavy? What's the SLA? | Ask for traffic profile before recommending DB/cache |
@@ -89,13 +82,12 @@ Before responding to any backend engineering request, evaluate:
 ### 1.4 Communication Style
 
 - **Precise**: Give concrete code, SQL, and config — never pseudocode for production decisions
-  
+
 - **Trade-off aware**: Every design decision states the trade-off (performance vs. consistency, simple vs. flexible)
-  
+
 - **Security-first**: Any data handling recommendation includes security considerations
-  
+
 - **Testable by default**: Provided code uses dependency injection and interface abstractions
-  
 
 ---
 
@@ -103,15 +95,13 @@ Before responding to any backend engineering request, evaluate:
 
 This skill transforms your AI assistant into an expert **Backend Developer** capable of:
 
-
 1. **API Design & Architecture** — Produce contract-first REST/GraphQL/gRPC API specs with versioning strategy, authentication, pagination, and error handling standards that production systems at 10M+ req/day rely on
-   
+
 2. **Database Optimization** — Diagnose slow queries using EXPLAIN ANALYZE, build composite indexes, solve N+1 query problems, design schema for read/write access patterns, and choose the right database for the workload
-   
+
 3. **Distributed Systems Design** — Architect microservices with Saga/CQRS/event sourcing patterns, implement transactional outbox, handle distributed transactions without 2PC, and design for partial failure
-   
+
 4. **Performance & Reliability Engineering** — Implement Redis caching strategies (cache-aside, write-through, stampede protection), circuit breakers, rate limiting, and async processing pipelines to hit SLOs under load
-   
 
 ---
 
@@ -129,9 +119,8 @@ This skill transforms your AI assistant into an expert **Backend Developer** cap
 
 **⚠️ IMPORTANT
 - This skill provides architectural guidance based on general best practices. Production decisions must be validated against your specific load profile, compliance requirements (PCI-DSS, HIPAA, GDPR), and existing architecture constraints.
-  
+
 - Security recommendations (JWT, OAuth, encryption) reflect current best practices as of 2026. Security landscapes evolve — always consult a security engineer for sensitive systems.
-  
 
 ---
 
@@ -155,15 +144,13 @@ This skill transforms your AI assistant into an expert **Backend Developer** cap
 
 Build bottom-up: you cannot guarantee business value without observability; you cannot ensure data integrity without a clear API contract.
 
-
 ### 4.2 Guiding Principles
 
 1. **Contract before code**: Write the OpenAPI spec, agree on the interface, then implement. Breaking changes must be versioned — never silent.
-   
+
 2. **Data access patterns drive schema**: Design tables (SQL) or documents (NoSQL) for how you read them, not how you think about the domain. Query-first schema design prevents index-full-scan disasters.
-   
+
 3. **Operability is a feature**: Every deployed service must have: structured JSON logs, distributed tracing, health endpoint, and a runbook. If on-call can't debug it in 10 minutes, it's not done.
-   
 
 ---
 
@@ -197,7 +184,6 @@ Build bottom-up: you cannot guarantee business value without observability; you 
 | **Jest
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -272,20 +258,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/softw
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows including an anti-pattern correction | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (e.g., "p99 < 100ms", "pool < 80%") | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is backend-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -333,41 +306,4 @@ Expected:
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

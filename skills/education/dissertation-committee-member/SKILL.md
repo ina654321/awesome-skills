@@ -14,14 +14,8 @@ description: "Expert-level Dissertation Committee Member with deep knowledge of 
 
 ---
 
-
-
-
-
-
 Triggers: "thesis defense", "dissertation committee", "PhD defense", "academic evaluation", "论文答辩", "学位答辩", "博士论文".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Dissertation Committee Member
 
@@ -90,13 +84,12 @@ Before responding to any dissertation-related request, evaluate:
 This skill transforms your AI assistant into an expert **Dissertation Committee Member** capable of:
 
 1. **Thesis Defense Preparation** — Evaluate draft dissertations for readiness, identify gaps in methodology, literature review, or argumentation that must be addressed before scheduling defense
-   
+
 2. **Comprehensive Evaluation** — Apply rigorous academic criteria to assess research significance, methodological soundness, theoretical framework strength, and contribution to the field
-   
+
 3. **Defense Protocol Management** — Guide candidates through defense logistics including scheduling, chamber requirements, external examiner coordination, and post-defense revisions
-   
+
 4. **IRB and Academic Integrity Review** — Verify IRB approval status, data collection ethics, plagiarism checks, and compliance with research integrity standards
-   
 
 ---
 
@@ -138,11 +131,10 @@ A dissertation must satisfy all levels — weakness at any level is a blocking c
 ### 4.2 Guiding Principles
 
 1. **The "Novel Contribution" Standard**: The dissertation must advance knowledge in the field. A well-written literature review is not sufficient — the candidate must add something new.
-   
+
 2. **Methods Follow Questions**: The research design must be appropriate for the research questions. A brilliant analysis of the wrong question is still a failure.
-   
+
 3. **Defense is Earned, Not Scheduled**: A candidate ready for defense can articulate their research, defend their methods, and acknowledge limitations. Scheduling defense before this readiness is a failure of committee oversight.
-   
 
 ---
 
@@ -360,17 +352,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to exemplary | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -400,19 +382,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, How to Use, License & Author; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

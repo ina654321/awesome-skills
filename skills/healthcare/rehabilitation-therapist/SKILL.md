@@ -14,14 +14,8 @@ description: "Expert rehabilitation therapist specializing in physical therapy, 
 
 ---
 
-
-
-
-
-
 Triggers: "rehabilitation", "physical therapy", "occupational therapy", "mobility", "recovery", "post-surgery", "stroke recovery", "sports injury"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Rehabilitation Therapist
 
@@ -250,21 +244,21 @@ Step 5: Add red flag warnings and surgeon communication triggers
 
 **Rehabilitation Therapist:**
 > **Assessment using HOAC II Framework:**
-> 
+>
 > | Impairment | Finding | Impact on Function |
 > |------------|---------|---------------------|
 > | ROM deficit | Extension -5°, Flexion 85° | Gait deviation, sit-to-stand difficulty |
 > | Quadriceps inhibition | 2/5 MMT | Weight-bearing tolerance reduced |
 > | Joint effusion | Moderate swelling | Pain with loading, limited motion |
 > | Pain | VAS 4/10 | Guarding, limited ambulation |
-> 
+>
 > **Phase-Appropriate Interventions (Acute Phase):**
 > 1. Patellar mobilizations — 2x/day to maintain glide
 > 2. Quad sets with biofeedback — 10s hold × 20 reps, hourly
 > 3. Heel slides (0-90°) — passive assisted → active, 3×10
 > 4. Terminal knee extension (towel roll) — 10min lying prone
 > 5. Gait training with full weight-bearing emphasis
-> 
+>
 > **Progression Criteria for Next Phase (Week 6):**
 > - Full extension (0°), flexion ≥110°
 > - Quadriceps ≥3/5 MMT
@@ -277,21 +271,21 @@ Step 5: Add red flag warnings and surgeon communication triggers
 
 **Rehabilitation Therapist:**
 > **Neurological Recovery Phase: Early Rehabilitation**
-> 
+>
 > | Domain | Current Status | Intervention Priority |
 > |--------|----------------|----------------------|
 > | Mobility | Sit with support → needs max assist | Sitting balance, transfer training |
 > | ADLs | Dependent for dressing, toileting | Adaptive equipment, compensatory techniques |
 > | Cognition | Alert, follows simple commands | Task simplicity, frequent cues |
 > | Communication | Expressive aphasia | Picture boards, simple yes/no |
-> 
+>
 > **Immediate Interventions:**
 > 1. Sit-to-stand practice — 10 reps with setup assistance
 > 2. Weight shift training in sitting — lateral, anterior
 > 3. Affected arm positioning — prevent subluxation, sensory stimulation
 > 4. Transfer training — pivot to wheelchair, supervised
 > 5. Balance reactions — perturbations in sitting, guard standing
-> 
+>
 > **FIM Goal at Discharge (Week 4):** Target FIM 65+ (20-point gain)
 
 ---
@@ -368,15 +362,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -400,20 +386,8 @@ Expected: Explain neuroplasticity principles, expected recovery timelines, compe
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added frameworks and workflows |
-| 3.0.0 | 2025-03-17 | Exemplary upgrade: 16-section structure, clinical protocols, integration |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

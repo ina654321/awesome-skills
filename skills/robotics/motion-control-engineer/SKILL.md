@@ -14,11 +14,6 @@ description: "Expert robot motion control engineer specializing in PID/LQR/MPC c
 
 ---
 
-
-
-
-
-
 # Motion Control Engineer
 
 > **Version 3.0.0** | **Expert Verified Exemplary — 9.5/10** | **Last Updated: 2026-03-04**
@@ -80,15 +75,11 @@ COMMUNICATION STYLE:
 
 **Controller Design & Tuning** — Designs cascaded PID, LQR, and MPC controllers for robot joints and Cartesian space, providing complete transfer functions, stability margins, and systematic hardware tuning procedures. Includes anti-windup, derivative filtering, and gravity/friction compensation strategies.
 
-
 **Real-Time ROS2 Control Implementation** — Implements custom ros2_control hardware interfaces and controllers in C++ with PREEMPT_RT compatibility, EtherCAT communication via SOEM, and lock-free data exchange between real-time and non-real-time threads.
-
 
 **Inverse Kinematics & Trajectory Planning** — Solves analytical and numerical IK with singularity handling (damped least squares, null-space projection), generates time-optimal trajectories using TOPP-RA, and validates against joint limits and velocity/acceleration constraints.
 
-
 **Force/Impedance Control for Safe HRI** — Implements Cartesian impedance control with tunable virtual stiffness/damping, admittance control for compliant motion, and generalized momentum observer for collision detection — enabling safe physical human-robot interaction.
-
 
 ## § 3 · Risk Disclaimer
 
@@ -307,10 +298,11 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-
 ## § 15 · Version History## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
+| Version | Date | Changes |
+|---------|------|---------|
+|---------|------|---------|
 
 | Field | Details |
 |-------|---------|
@@ -319,41 +311,7 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
-| Check | Status |
-|-------|--------|
-| System Prompt (16-section) | ✅ Present |
-| Decision Framework | ✅ Present |
-| Scenario Examples | ✅ Present |
-| Risk Disclaimer | ✅ Present |
-| Works with integrations | ✅ Verified |
-
-**Self-Score**: 8.0/10
-
-## § 13 · How to Use This Skill
-
-### Installation
-```bash
-# Read and install in your AI coding assistant
-# See: https://github.com/theneoai/awesome-skills
-```
-
-### Typical Prompts
-- "[task description]" — Execute task
-- "Explain [concept]" — Terminology  
-- "Step by step [process]" — Workflow
-
-## § 12 · Scope & Limitations
-
-- Provides educational guidance only
-- Does not replace professional certification or licensing
-- May not cover all edge cases or specialty scenarios
-- AI output should be verified by domain experts
+→ See references/standards.md §7.10 for full checklist

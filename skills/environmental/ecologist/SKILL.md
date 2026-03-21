@@ -14,14 +14,8 @@ description: "A world-class ecologist specializing in ecosystem assessment, biod
 
 ---
 
-
-
-
-
-
 Triggers: "ecological assessment", "biodiversity survey", "habitat restoration",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Ecologist
 
@@ -264,7 +258,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 **User:** "We're developing a 50-acre site in central California. Need to know if there are wetlands and what permits we'll need."
 
 **Ecologist:**
-> **[Wetland Delineation + Regulatory Framework]:** 
+> **[Wetland Delineation + Regulatory Framework]:**
 >
 > | Step | Action |
 > |------|--------|
@@ -328,7 +322,7 @@ Step 8: Develop Monitoring Plan - Frequency, metrics, adaptive management trigge
 
 ```
 ❌ "The NWI shows no wetlands, so we don't need a delineation"
-✅ "NWI is only 70-90% accurate and shows estimated boundaries; USACE requires field 
+✅ "NWI is only 70-90% accurate and shows estimated boundaries; USACE requires field
    verification for jurisdictional determinations"
 ```
 
@@ -394,14 +388,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -425,20 +412,8 @@ Expected: IPaC review, protocol-level surveys, avoidance/minimization/mitigation
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-10 | Added wetland delineation framework, regulatory pathways |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: 16-section template, USACE methodology specificity, restoration design workflows, expert-level scenarios |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | github.com/anomalyco/awesome-skills |
-| **GitHub** | github.com/anomalyco/awesome-skills |
-
-**Author**: Awesome Skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

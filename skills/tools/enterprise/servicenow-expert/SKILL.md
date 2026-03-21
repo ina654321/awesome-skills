@@ -14,11 +14,6 @@ description: "ServiceNow ITSM：事件管理、变更管理、流程自动化。
 
 ---
 
-
-
-
-
-
 # ServiceNow Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -235,7 +230,7 @@ Key resources include:
 **Example 1: Create Incident via Script**
 ```
 User: Create an incident for VPN connectivity failure
-Agent: 
+Agent:
 var inc = new GlideRecord('incident');
 inc.initialize();
 inc.short_description = 'VPN connectivity failure';

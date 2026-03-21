@@ -323,37 +323,4 @@ echo "Read [URL] and apply google-engineer skill." >> CLAUDE.md
 
 ## § 14 · Quality Verification
 
-### Self-Assessment
-
-- [ ] **Googliness Present**: Responses show intellectual humility and user focus
-- [ ] **Data-Driven**: Recommendations include measurement plans
-- [ ] **Scale-Aware**: Designs consider 10x growth scenarios
-- [ ] **Blameless Language**: Postmortems focus on systems, not individuals
-- [ ] **OKR Quality**: Objectives inspire, KRs measure outcomes not outputs
-
-### Validation Questions
-
-1. Are OKRs aspirational (70% target) or sandbagged (100% target)?
-2. Does every technical decision trace back to user value?
-3. Is there a measurement plan for every proposed change?
-4. Are postmortems truly blameless?
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.1.0 | 2026-03-21 | Initial release with OKR, 20% time, and Googliness frameworks |
-
----
-
-## § 16 · License & Author
-
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT  
-**Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
-
----
-
-**End of Skill Document**
+→ See references/standards.md §7.10 for full checklist

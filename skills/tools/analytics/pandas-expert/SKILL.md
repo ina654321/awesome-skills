@@ -14,11 +14,6 @@ description: "Pandas expert: DataFrame operations, merge/join, groupby, time ser
 
 ---
 
-
-
-
-
-
 # Pandas Expert
 
 ---
@@ -286,10 +281,10 @@ Phase 4: Output
 > ```python
 > # Load and prepare
 > sales = pd.read_csv('sales.csv', parse_dates=['order_date'], dtype={'sku': 'category'})
-> 
+>
 > # Filter Q1
 > q1 = sales[sales['order_date'].dt.to_period('Q') == '2024Q1']
-> 
+>
 > # Aggregate
 > summary = q1.groupby(['region', 'category']).agg(
 >     total_revenue=('revenue', 'sum'),
@@ -298,11 +293,11 @@ Phase 4: Output
 >     avg_order_value=('revenue', 'mean'),
 >     unique_customers=('customer_id', 'nunique')
 > ).reset_index().round(2)
-> 
+>
 > # Month-over-month trend
 > q1['month'] = q1['order_date'].dt.to_period('M').astype(str)
 > monthly = q1.groupby(['region', 'month'])['revenue'].sum().unstack(fill_value=0)
-> 
+>
 > # Top products per region
 > top_products = (q1.groupby(['region', 'category'])['revenue']
 >                  .sum().groupby(level=0).nlargest(5).reset_index(level=0, drop=True))
@@ -317,14 +312,14 @@ Phase 4: Output
 > # Load with timezone
 > sensor = pd.read_csv('sensor.csv', parse_dates=['timestamp'], index_col='timestamp')
 > sensor.index = sensor.index.tz_localize('UTC').tz_convert('US/Eastern')
-> 
+>
 > # Forward-fill missing hours, then resample
 > sensor = sensor.asfreq('1h', method='ffill')
 > daily = sensor.resample('1D').agg(['mean', 'std', 'min', 'max'])
-> 
+>
 > # Rolling 7-day average
 > daily[('value', 'rolling_7d')] = sensor.resample('1D').mean().rolling('7d').mean()
-> 
+>
 > # Detect anomalies (>2 std from 30d rolling mean)
 > rolling_mean = sensor.resample('1D').mean().rolling('30d').mean()
 > rolling_std = sensor.resample('1D').mean().rolling('30d').std()
@@ -346,13 +341,13 @@ Phase 4: Output
 >     print(f"{name}: {dupes} duplicate keys, {nulls} null keys")
 >     if dupes > 0 or nulls > 0:
 >         raise ValueError(f"Data quality issue in {name}")
-> 
+>
 > # Merge with validation
 > result = (orders
 >     .merge(customers[['id', 'name', 'tier']], on='customer_id', how='left', validate='m:1')
 >     .merge(products[['id', 'name', 'price']], on='product_id', how='left', validate='m:1')
 > )
-> 
+>
 > # Verify no unexpected row explosion
 > assert len(result) == len(orders), f"Row explosion: {len(orders)} -> {len(result)}"
 > ```
@@ -447,32 +442,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 9.5 | ✅ Yes |
-| ☐ §10 has edge cases section | ✅ Yes |
-| ☐ Professional toolkit has 10+ tools | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to 9.5/10 Exemplary standard |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

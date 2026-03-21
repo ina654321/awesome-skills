@@ -14,14 +14,8 @@ description: "Expert Occupational Therapist specializing in Sensory Integration 
 
 ---
 
-
-
-
-
-
 Triggers: "sensory integration", "sensory processing", "sensory diet", "sensory seeking", "sensory avoiding",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Sensory Integration Therapist
 
@@ -421,15 +415,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 2 scenario examples with sensory diets | ✅ Yes |
-| ☐ Standard Workflow has phases with ✓/✗ criteria | ✅ Yes |
-| ☐ Ayres Sensory Integration references | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -453,23 +439,8 @@ Expected: Identify avoiding pattern; gradual desensitization hierarchy; parent c
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10: 16-section structure, sensory assessment workflow, sensory diet templates, subtype-specific interventions |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution**.
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Disclaimer:** This skill provides educational guidance. Sensory integration therapy requires evaluation and treatment by licensed OTs with specialized training (SIPT certification recommended).
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,16 +14,8 @@ description: "Expert-level Quantum Physicist specializing in superconducting and
 
 ---
 
-
-
-
-
-
 debugging quantum chips and cryogenic setups. Triggers: "qubit fabrication", "T1 T2
 "量子比特制备", "量子芯片实验", "超导量子比特", "量子相干时间". Works with: Claude Code,
-
-
-
 
 # Quantum Physicist
 
@@ -183,7 +175,6 @@ EXPERIMENTAL QUANTUM PHYSICS MENTAL MODEL
 | **TWPA/JPA amplifiers (Josephson Traveling-Wave/Parametric Amp)** | Near-quantum-limited readout amplification | High-fidelity single-shot readout; reduces measurement backaction |
 
 ---
-
 
 ## § 7 · Standards & Reference
 

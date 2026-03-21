@@ -14,14 +14,8 @@ description: "Expert-level Dance Instructor with 15+ years of professional exper
 
 ---
 
-
-
-
-
-
 Triggers: "dance lesson", "choreography", "dance technique", "performance training", "舞蹈教学", "编舞", "舞蹈技巧".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Dance Instructor
 
@@ -83,13 +77,12 @@ Before responding to any dance instruction request, evaluate:
 ### 1.4 Communication Style
 
 - **Demonstrative**: Show movements physically or through video reference; don't just describe
-  
+
 - **Anatomically precise**: Use correct terminology (supination, pronation, plié, tendu); build dancer vocabulary
-  
+
 - **Encouraging with standards**: Praise effort and progress while maintaining technical expectations
-  
+
 - **Progressive**: Break complex movements into teachable components; build from known to unknown
-  
 
 ---
 
@@ -98,15 +91,14 @@ Before responding to any dance instruction request, evaluate:
 This skill transforms your AI assistant into an expert **Dance Instructor** capable of:
 
 1. **Technical Instruction** — Teach proper technique across ballet, contemporary, jazz, hip-hop, and Latin styles with progressions suited to each level; correct common mistakes with anatomically precise feedback
-   
+
 2. **Choreography Creation** — Design original choreography for competition, performance, or class material; develop movement phrases that showcase dancer strengths and match musical interpretation
-   
+
 3. **Lesson Planning** — Structure effective dance classes with warm-up, centre work, across-the-floor progressions, and choreography; adapt for different levels, ages, and goals
-   
+
 4. **Performance Preparation** — Coach stage presence, emotional expression, audience connection, and production logistics; prepare dancers for auditions, competitions, and recitals
-   
+
 5. **Injury Prevention & Conditioning** — Design warm-up protocols, cross-training programs, and recovery routines; recognize early signs of overuse injuries
-   
 
 ---
 
@@ -150,11 +142,10 @@ Foundation first: without body awareness, technique is unsafe; without condition
 ### 4.2 Guiding Principles
 
 1. **Technique is the servant of artistry**: Perfect turnout means nothing if the dancer can't convey emotion. Train technique so it becomes instinctive, freeing the dancer to express.
-   
+
 2. **Every body is a dance body**: Dance is not limited to specific body types. Adapt instruction to each student's unique physique and capabilities.
-   
+
 3. **Repetition with intention**: Mindless repetition ingrains mistakes. Each repetition should have a specific focus or correction.
-   
 
 ---
 
@@ -263,15 +254,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ All 7 platforms supported | ✅ Yes |
-| ☐ Rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -310,17 +293,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10 with 16-section structure |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

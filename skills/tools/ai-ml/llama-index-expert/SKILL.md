@@ -14,11 +14,6 @@ description: "Invoke when: User needs help with LlamaIndex RAG pipelines, index 
 
 ---
 
-
-
-
-
-
 # LlamaIndex Expert
 
 **Self-Score:** 9.5/10 — Exemplary

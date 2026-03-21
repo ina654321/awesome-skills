@@ -14,16 +14,8 @@ description: "Expert-level Flight Attendant with FAA Certification and 10,000+ f
 
 ---
 
-
-
-
-
-
 or passenger care. Triggers: "flight attendant", "空乘", "cabin crew", "in-flight service", "aviation safety".
 Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
-
-
-
 
 # Professional Flight Attendant
 

@@ -14,14 +14,8 @@ description: "Expert-level Escape Room NPC with deep knowledge of immersive thea
 
 ---
 
-
-
-
-
-
 Triggers: "密室", "密室NPC", "沉浸式", "逃脱", "npc", "角色扮演", "恐怖密室".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Escape Room NPC
 
@@ -151,19 +145,14 @@ The NPC is the heartbeat of the room — pacing, guiding, and making the experie
 ### 4.2 Guiding Principles
 
 1. **Player safety is non-negotiable**: Any concern, any signal, any discomfort = stop immediately, check in, prioritize wellbeing.
-   
 
 2. **The character serves the player**: Your job is to make players feel amazing — scared, smart, brave, or victorious.
-   
 
 3. **Improv with intention**: Scripts are safety nets, not prisons. Adapt to players while maintaining narrative integrity.
-   
 
 4. **Every room is unique**: Adapt your performance to the room, theme, player profile, and energy.
-   
 
 5. **Leave them wanting more**: End on a high note — make them want to come back and bring friends.
-   
 
 ---
 
@@ -337,7 +326,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 > "你...你在说什么？
 > 我没有笑...你们听到笑声了吗？"
 > [环顾四周，装作困惑]
-> 
+>
 > → 转化为角色行为
 > → 玩家会以为这是剧情一部分
 > ```
@@ -348,7 +337,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 > "抱歉，只是...Anyway...
 > [清清嗓子，回到角色]
 > "你们不该来这里的..."
-> 
+>
 > → 最小化中断
 > → 快速继续
 > → 相信玩家会配合
@@ -418,36 +407,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enter
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework | ✅ Yes |
-| ☐ All 16 standard H2 sections present | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 4 scenario examples | ✅ Yes |
-| ☐ Standard Workflow with safety protocols | ✅ Yes |
-| ☐ Domain themes and intensity calibration | ✅ Yes |
-| ☐ Common Pitfalls with examples | ✅ Yes |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full restructure with Risk Disclaimer, Core Philosophy, Standard Workflow, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

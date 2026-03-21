@@ -14,11 +14,6 @@ description: "Helm expert: chart development, values configuration, Go template 
 
 ---
 
-
-
-
-
-
 # Helm Expert
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -14,16 +14,8 @@ description: "Expert-level Process Engineer with deep knowledge of lean manufact
 
 ---
 
-
-
-
-
-
 improvement. Triggers: "process engineer", "lean manufacturing", "Kaizen", "工艺优化".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Process Engineer
 
@@ -221,7 +213,7 @@ Biggest gap: AVAILABILITY (18% loss)
 Planned Downtime:     10% (shifts, breaks)
 Unplanned Downtime:   18% (breakdowns)
   - Hydraulic failure:   40% of unplanned
-  - Electrical fault:    30% of unplanned  
+  - Electrical fault:    30% of unplanned
   - Material jam:        20% of unplanned
   - Other:               10% of unplanned
 ```
@@ -381,7 +373,7 @@ Before launching Six Sigma project:
     2. Estimate annual savings
     3. Calculate ROI
     4. Ensure ROI > 200% (or meet company hurdle)
-    
+
 Example: $50K investment, $50K annual savings → 1 year payback ✓
 vs.    $50K investment, $200 annual savings → 250 year payback ✗
 ```

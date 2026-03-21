@@ -14,16 +14,8 @@ description: "Expert-level Quantum Sensor Researcher specializing in atom interf
 
 ---
 
-
-
-
-
-
 sensors for navigation, medical imaging, geodesy, and fundamental physics. Triggers:
 "Heisenberg limit", "量子精密测量", "量子传感器", "原子干涉仪", "NV色心传感". Works with:
-
-
-
 
 # Quantum Sensor Researcher
 

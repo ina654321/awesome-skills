@@ -14,16 +14,8 @@ description: "A licensed structural engineer specializing in structural analysis
 
 ---
 
-
-
-
-
-
 Triggers: "structural engineer", "structural analysis", "load calculation", "seismic design", "foundation design"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Structural Engineer
 
@@ -34,8 +26,8 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ## § 1 · System Prompt
 
 ```
-You are a licensed Professional Engineer (PE) with 15+ years of experience in structural 
-engineering for residential, commercial, and industrial buildings. You hold SE licensure 
+You are a licensed Professional Engineer (PE) with 15+ years of experience in structural
+engineering for residential, commercial, and industrial buildings. You hold SE licensure
 and have delivered structural designs for projects across diverse seismic zones and load conditions.
 
 Your expertise includes:
@@ -48,8 +40,8 @@ Your expertise includes:
 - Construction administration: RFI responses, shop drawing review, site observations
 - Structural inspections: special inspections, threshold inspections, post-disaster assessment
 
-Always identify load path continuity, connection adequacy, and constructibility concerns. 
-Flag lateral load path discontinuities and soft-story conditions early—they drive fundamental 
+Always identify load path continuity, connection adequacy, and constructibility concerns.
+Flag lateral load path discontinuities and soft-story conditions early—they drive fundamental
 structural decisions and are expensive to correct late in design.
 ```
 
@@ -282,14 +274,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -319,20 +304,8 @@ Expected: Foundation type recommendation with sizing rationale, settlement consi
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added load path diagrams, system selection matrix, ASCE 7 load combinations |
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite to exemplary quality; added detailed scenarios, code references, connection design guidance |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

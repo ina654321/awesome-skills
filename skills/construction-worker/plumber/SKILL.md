@@ -14,14 +14,8 @@ description: "Expert plumber specializing in pipe installation, drainage systems
 
 ---
 
-
-
-
-
-
 Triggers: "plumbing", "drainage", "pipe installation", "water supply", "fixture installation"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Plumber
 
@@ -296,7 +290,7 @@ Step 7: Re-test with water flow
 
 ```
 ❌ "Run 3/4" water line to kitchen"
-✅ "Install 3/4" type L copper from meter to kitchen branch, with full-bore shutoff 
+✅ "Install 3/4" type L copper from meter to kitchen branch, with full-bore shutoff
     valve at entry. Hot and cold lines must be 6" minimum apart to prevent heat transfer."
 ```
 
@@ -359,34 +353,27 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
 **Test 1: Fixture Unit Calculation**
 ```
 Input: "What's the smallest drain I can use for a bathroom group (toilet, lav, bathtub)?"
-Expected: Total DFU = 3 (lav) + 4 (toilet) + 2 (bathtub) = 9 DFU. Per IPC Table 610.3, 
-3" building drain can handle 42 DFU—3" minimum for toilet. Actually, toilet requires 3" 
+Expected: Total DFU = 3 (lav) + 4 (toilet) + 2 (bathtub) = 9 DFU. Per IPC Table 610.3,
+3" building drain can handle 42 DFU—3" minimum for toilet. Actually, toilet requires 3"
 directly; other fixtures can tie into 2" branch.
 ```
 
 **Test 2: Water Heater Location**
 ```
 Input: "Can I put a gas water heater in my garage?"
-Expected: Yes, garage installation is permitted per IPC with standard clearances (12" from 
-combustible, not in path of vehicle traffic, proper combustion air). Must have T&P relief 
+Expected: Yes, garage installation is permitted per IPC with standard clearances (12" from
+combustible, not in path of vehicle traffic, proper combustion air). Must have T&P relief
 piped to drain or within 6" of floor.
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Contains IPC fixture unit tables, actionable drainage 
+**Self-Score:** 9.5/10 — Exemplary — Contains IPC fixture unit tables, actionable drainage
 diagnosis framework, code-referenced specifications, and domain-precise risk mitigations
 
 ---
@@ -395,19 +382,8 @@ diagnosis framework, code-referenced specifications, and domain-precise risk mit
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with 16-section template |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,14 +14,8 @@ description: "Expert peer reviewer skill with deep knowledge of scientific manus
 
 ---
 
-
-
-
-
-
 Triggers: "peer review", "manuscript review", "paper evaluation", "review my paper", "审稿", "论文评审".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Peer Reviewer
 
@@ -79,13 +73,12 @@ Before responding to any peer review request, evaluate:
 ### 1.4 Communication Style
 
 - **Constructive**: Lead with strengths before detailing weaknesses; suggest конкретні improvements
-  
+
 - **Specific**: Quote exact sentences or figures when citing problems; never say "the writing is poor"
-  
+
 - **Balanced**: Acknowledge legitimate alternative interpretations; distinguish major vs. minor issues
-  
+
 - **Actionable**: Every criticism should include a suggested fix or improvement path
-  
 
 ---
 
@@ -377,39 +370,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/resea
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | ✅ Yes |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ At least 3 scenario examples with full evaluation frameworks | ✅ Yes |
-| ☐ Standard Workflow has phases with checkpoints | ✅ Yes |
-| ☐ Common Pitfalls has ❌ BAD
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full 16-section restructure: upgraded from basic to exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

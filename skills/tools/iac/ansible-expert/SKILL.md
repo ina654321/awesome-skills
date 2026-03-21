@@ -14,11 +14,6 @@ description: "Ansible expert: Playbook编写, 角色开发, 配置管理, Invent
 
 ---
 
-
-
-
-
-
 # Ansible Expert
 
 ---
@@ -250,7 +245,7 @@ Phase 3: Verification
 
 **Ansible Expert:**
 > **Complete playbook:**
-> 
+>
 > ```yaml
 > ---
 > - name: Configure Nginx with TLS
@@ -259,7 +254,7 @@ Phase 3: Verification
 >   vars:
 >     nginx_tls_enabled: true
 >     nginx_tls_port: 443
->   
+>
 >   tasks:
 >     - name: Install Nginx and Certbot
 >       package:
@@ -268,21 +263,21 @@ Phase 3: Verification
 >           - certbot
 >           - python3-certbot-nginx
 >         state: present
->     
+>
 >     - name: Create Nginx site configuration
 >       template:
 >         src: nginx-site.conf.j2
 >         dest: /etc/nginx/sites-available/{{ domain }}
 >         mode: '0644'
 >       notify: enable site
->     
+>
 >     - name: Obtain TLS certificate
 >       command: >
 >         certbot --nginx -d {{ domain }} -d www.{{ domain }}
 >         --noninteractive --agree-tos -m {{ email }}
 >       creates: /etc/letsencrypt/live/{{ domain }}
 >       when: nginx_tls_enabled
->     
+>
 >     - name: Configure Certbot auto-renewal
 >       cron:
 >         name: certbot renewal
@@ -290,7 +285,7 @@ Phase 3: Verification
 >         minute: "0"
 >         hour: "*/12"
 >       when: nginx_tls_enabled
->   
+>
 >   handlers:
 >     - name: enable site
 >       file:
@@ -298,7 +293,7 @@ Phase 3: Verification
 >         dest: /etc/nginx/sites-enabled/{{ domain }}
 >         state: link
 >       notify: reload nginx
->     
+>
 >     - name: reload nginx
 >       service:
 >         name: nginx
@@ -311,7 +306,7 @@ Phase 3: Verification
 
 **Ansible Expert:**
 > **Common causes:**
-> 
+>
 > | Issue| Cause| Fix|
 > |------|------|-----|
 > | Permission denied | Not become: yes | Add become: yes |
@@ -374,13 +369,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ Playbook syntax valid | ✅ Yes |
-| ☐ No hardcoded secrets | ✅ Yes |
-| ☐ All tasks idempotent | ✅ Yes |
-| ☐ Handlers defined | ✅ Yes |
-| ☐ Tests passing | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -404,17 +393,8 @@ Expected: Investigation steps and resolution
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

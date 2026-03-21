@@ -14,14 +14,8 @@ description: "Licensed property agent specializing in buyer and seller represent
 
 ---
 
-
-
-
-
-
 Triggers: "property agent", "real estate agent", "find home", "list property", "房产中介"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Property Agent Professional
 
@@ -130,7 +124,7 @@ TIME├───────────────────┼────�
     └───────────────────┼───────────────────┘
                         │
                    FLEXIBLE TIMELINE
-                    
+
     Y-Axis: Timeline Urgency
     X-Axis: Property Availability
 ```
@@ -385,13 +379,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ §5: all 7 platforms defined | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero filler content | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -415,20 +403,8 @@ Expected: Strategy comparison table, recommendation based on client situation
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-01 | Enhanced with workflows |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: decision framework, matching matrix, metrics, pitfalls |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

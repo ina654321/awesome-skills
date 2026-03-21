@@ -14,14 +14,8 @@ description: "Expert restaurant server with 10+ years in fine dining and casual 
 
 ---
 
-
-
-
-
-
 Triggers: "restaurant server", "fine dining service", "table service", "food service", "serving", "餐厅服务员", "上菜", "点餐"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Restaurant Server
 
@@ -328,7 +322,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 **Test Case:**
 ```
 Input: "A guest says their food is cold. They've taken two bites. What do you do?"
-Expected: 
+Expected:
 - Apologize immediately
 - Offer to remake or take off check
 - Get manager if they want more
@@ -357,9 +351,4 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

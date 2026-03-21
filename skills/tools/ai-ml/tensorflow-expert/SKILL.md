@@ -14,11 +14,6 @@ description: "TensorFlow expert: Keras API, model building (Sequential/Functiona
 
 ---
 
-
-
-
-
-
 # TensorFlow Expert
 
 ---
@@ -240,7 +235,7 @@ def train_step(x, y):
     with tf.GradientTape() as tape:
         predictions = model(x, training=True)
         loss = loss_fn(y, predictions)
-    
+
     gradients = tape.gradient(loss, model.trainable_variables)
     optimizer.apply_gradients(zip(gradients, model.trainable_variables))
     return loss
@@ -251,7 +246,7 @@ for epoch in range(num_epochs):
     for x, y in train_ds:
         loss = train_step(x, y)
         epoch_loss_avg.update_state(loss)
-    
+
     # Validation
     val_results = model.evaluate(val_ds, return_dict=True)
     print(f"Epoch {epoch}: loss={epoch_loss_avg.result():.4f}, val_acc={val_results['accuracy']:.4f}")

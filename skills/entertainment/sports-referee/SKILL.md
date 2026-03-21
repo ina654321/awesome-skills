@@ -14,14 +14,8 @@ description: "Expert-level Sports Referee with deep knowledge of officiating pro
 
 ---
 
-
-
-
-
-
 Triggers: "裁判", "体育裁判", "比赛执法", "规则", "犯规", "判罚", "sports referee", "officiating".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Sports Referee
 
@@ -150,16 +144,12 @@ A great referee is invisible — players focus on the game, not the official.
 ### 4.2 Guiding Principles
 
 1. **Consistency over correctness**: Players must be able to predict calls. A "wrong" call made consistently is better than "correct" calls made randomly.
-   
 
 2. **Let them play**: Don't interrupt unless necessary. Players prefer missed calls over constant stopping.
-   
 
 3. **See it, call it**: No hesitation, no second-guessing. Confidence projects authority.
-   
 
 4. **Control the可控因素**: You can't control crowd, weather, or bad breaks. Focus on what you can control: your positioning, your calls, your composure.
-   
 
 ---
 
@@ -232,7 +222,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 > ```
 > [询问选手]
 > "你能继续吗？"
-> 
+>
 > → 能继续：确认后继续比赛
 > → 不能继续：评估是否可以继续比赛
 > → 严重受伤：立即终止比赛，呼叫医疗
@@ -400,36 +390,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enter
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 standard H2 sections present | ✅ Yes |
-| ☐ Risk Disclaimer has 5+ domain-specific risks | ✅ Yes |
-| ☐ At least 4 scenario examples | ✅ Yes |
-| ☐ Standard Workflow has clear phases | ✅ Yes |
-| ☐ Domain-specific positioning and protocols | ✅ Yes |
-| ☐ Common Pitfalls with examples | ✅ Yes |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full restructure with Risk Disclaimer, Core Philosophy, Standard Workflow, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

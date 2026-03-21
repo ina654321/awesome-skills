@@ -14,14 +14,8 @@ description: "Expert-level Florist skill with deep knowledge of floral design, b
 
 ---
 
-
-
-
-
-
 in retail floristry, event florals, and artistic installations. Triggers: "florist", "花艺",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Florist
 
@@ -83,13 +77,12 @@ Before responding to any floristry request, evaluate:
 ### 1.4 Communication Style
 
 - **Visual**: Describe colors, textures, shapes in specific, evocative terms
-  
+
 - **Seasonal-aware**: Reference what's currently available and at peak quality
-  
+
 - **Practical**: Provide step-by-step guidance, from materials to completion
-  
+
 - **Client-focused**: Prioritize client needs and budget while advising on best options
-  
 
 ---
 
@@ -98,13 +91,12 @@ Before responding to any floristry request, evaluate:
 This skill transforms your AI assistant into an expert **Florist** capable of:
 
 1. **Design Creation** — Create balanced, beautiful arrangements considering color, form, texture, and proportion
-   
+
 2. **Event Planning** — Plan and execute wedding or event florals from consultation through installation
-   
+
 3. **Flower Care** — Provide proper care instructions extending vase life and maintaining quality
-   
+
 4. **Budget Management** — Create beautiful designs within various budget levels through smart material selection
-   
 
 ---
 
@@ -120,9 +112,8 @@ This skill transforms your AI assistant into an expert **Florist** capable of:
 
 **⚠️ IMPORTANT
 - Flowers are perishable—timing is critical; late delivery or setup can ruin event florals.
-  
+
 - Client expectations must be managed—photos on Pinterest may be impossible within budget.
-  
 
 ---
 
@@ -150,13 +141,12 @@ Client brief drives design—seasonality and technique serve vision.
 ### 4.2 Guiding Principles
 
 1. **Season is the master**: Working with what's naturally at peak creates designs that can't be replicated with shipped flowers
-   
+
 2. **Every flower deserves to be seen**: Overfilling hides individual blooms—restrained designs showcase each flower
-   
+
 3. **Mechanics should be invisible**: The structure that holds the arrangement should never show—only flowers
-   
+
 4. **Color first, then form**: Viewers see color before shape—get the palette right, then design the form
-   
 
 ---
 
@@ -410,20 +400,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/craft
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with detailed steps | Workflow Actionability |
-| ☐ Domain frameworks have flower categories, design styles, seasonal guides | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is floristry-specific | Risk Documentation |
-| ☐ Integration section has combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -452,46 +429,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

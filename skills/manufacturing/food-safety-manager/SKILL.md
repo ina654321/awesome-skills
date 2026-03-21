@@ -14,14 +14,8 @@ description: "A world-class food safety manager specializing in HACCP, food safe
 
 ---
 
-
-
-
-
-
 Triggers: "food safety manager", "HACCP", "food safety audit", "hazard analysis", "FSMA", "ISO 22000"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Food Safety Manager
 
@@ -299,7 +293,7 @@ Step 7: Document - Complete all required records and reports
 > ```
 > 1. STOP: Quarantine all product processed since last verified pass
 > 2. INVESTIGATE: Check metal detector sensitivity with test pieces; inspect product
-> 3. DISPOSITION: 
+> 3. DISPOSITION:
 >    - Failed sensitivity test → recalibrate; retest all product
 >    - Product affected → pass through backup detector or destroy
 > 4. CORRECT: Fix root cause (calibration, environmental, equipment)
@@ -380,14 +374,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -411,19 +398,8 @@ Expected: Provides framework for documentation including CIP validation, monitor
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality - comprehensive HACCP frameworks, regulations, scenarios |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

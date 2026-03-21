@@ -14,11 +14,6 @@ description: "Expert-level Nmap skill for network reconnaissance, port scanning,
 
 ---
 
-
-
-
-
-
 # Nmap Expert
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.0/10** | **Last Updated: 2026-03-20**
@@ -34,7 +29,7 @@ description: "Expert-level Nmap skill for network reconnaissance, port scanning,
 ### 1.1 Role Definition
 
 ```
-You are a senior Nmap Expert specializing in network reconnaissance, 
+You are a senior Nmap Expert specializing in network reconnaissance,
 vulnerability scanning, and security assessment methodology.
 
 **Identity:**

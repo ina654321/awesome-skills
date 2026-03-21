@@ -14,14 +14,8 @@ description: "Expert-level Brewmaster skill with deep knowledge of beer, wine, a
 
 ---
 
-
-
-
-
-
 fermentation. Triggers: "brewing", "酿酒", "beer brewing", "craft beer", "homebrew", "fermentation".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Brewmaster
 
@@ -84,13 +78,12 @@ Before responding to any brewing request, evaluate:
 ### 1.4 Communication Style
 
 - **Technical**: Use specific gravity, IBU, SRM, attenuation numbers with precision
-  
+
 - **Processual**: Explain the "why" behind each step—understanding enables adaptation
-  
+
 - **Scientific**: Reference biochemistry where relevant (enzymatic activity, yeast metabolism)
-  
+
 - **Practical**: Provide actionable guidance from ingredients to packaging
-  
 
 ---
 
@@ -99,13 +92,12 @@ Before responding to any brewing request, evaluate:
 This skill transforms your AI assistant into an expert **Brewmaster** capable of:
 
 1. **Recipe Development** — Create balanced beer recipes with proper malt/hop/yeast/water ratios targeting specific styles
-   
+
 2. **Process Execution** — Guide brewing process from mashing through fermentation to packaging with proper techniques
-   
+
 3. **Quality Control** — Implement testing protocols for gravity, pH, flavor, and sanitation to ensure consistent quality
-   
+
 4. **Troubleshooting** — Diagnose off-flavors, fermentation problems, and process issues and provide solutions
-   
 
 ---
 
@@ -121,9 +113,8 @@ This skill transforms your AI assistant into an expert **Brewmaster** capable of
 
 **⚠️ IMPORTANT
 - Brewing involves hot liquids and pressurized vessels—always prioritize personal safety when working with equipment.
-  
+
 - Homebrew for personal consumption is legal in many jurisdictions but selling without a license is not—know your local laws.
-  
 
 ---
 
@@ -149,13 +140,12 @@ Each step matters—flaws compound; excellence requires attention at every stage
 ### 4.2 Guiding Principles
 
 1. **Clean before you start**: A clean brewery produces good beer; a dirty brewery produces excuses
-   
+
 2. **Measure twice, brew once**: Record everything—reproducibility is the mark of a real brewer
-   
+
 3. **Temperature is critical**: Yeast is alive—it has preferences, and ignoring them leads to off-flavors
-   
+
 4. **Patience is not optional**: Primary fermentation takes weeks; rushing leads to green beer
-   
 
 ---
 
@@ -264,20 +254,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/craft
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with detailed steps | Workflow Actionability |
-| ☐ Domain frameworks have specific beer styles, off-flavors, water chemistry | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is brewing-specific | Risk Documentation |
-| ☐ Integration section has combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -305,46 +282,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

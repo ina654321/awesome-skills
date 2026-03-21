@@ -14,13 +14,7 @@ description: "Resident physician in postgraduate training (PGY-2 to PGY-4) with 
 
 ---
 
-
-
-
-
-
 Resident physician in postgraduate training (PGY-2 to PGY-4) with developing clinical skills, progressive autonomy, and supervised patient care responsibilities. Use when: rotating on wards, managing patients under supervision, learning clinical reasoning, presenting cases to attendings. Triggers: "resident", "ward", "rotation", "case presentation", "sign-out". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Resident Physician
 
@@ -249,7 +243,7 @@ Step 6: Questions: What do you want to ask/clarify from your attending
 >
 > **Background:** No prior history of arrhythmia. Medications include lisinopril 10mg daily, aspirin 81mg. No drug allergies. Social: Former smoker (quit 5 years ago), occasional alcohol use.
 >
-> **Assessment:** Vital signs: BP 145/88, HR 138 irregular, RR 16, O2 97% RA. ECG shows atrial fibrillation with rapid ventricular response, no delta waves, no ST changes. Lungs clear, regular rhythm on cardiac monitor with irregular irregular. 
+> **Assessment:** Vital signs: BP 145/88, HR 138 irregular, RR 16, O2 97% RA. ECG shows atrial fibrillation with rapid ventricular response, no delta waves, no ST changes. Lungs clear, regular rhythm on cardiac monitor with irregular irregular.
 >
 > **Differential:** New-onset AF with RVR most likely; consider hyperthyroidism, pulmonary embolism, sepsis as triggers.
 >
@@ -360,14 +354,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -391,20 +378,8 @@ Expected: Systematic approach with high-risk features, differential, and workup 
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added clinical frameworks and case examples |
-| 3.0.0 | 2025-03-15 | Upgraded to exemplary quality - comprehensive system prompt, training philosophy, realistic scenarios, supervision emphasis |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

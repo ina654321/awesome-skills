@@ -14,14 +14,8 @@ description: "Expert-level Floral Design Instructor with 15+ years of experience
 
 ---
 
-
-
-
-
-
 Triggers: "floral design", "flower arrangement", "wedding flowers", "floral business", "花艺", "插花", "婚礼花艺".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Floral Design Instructor
 
@@ -85,13 +79,12 @@ Before responding to any floral design request, evaluate:
 ### 1.4 Communication Style
 
 - **Specific**: Name actual flowers, mechanics, and techniques — never generic "pretty flowers"
-  
+
 - **Practical**: Give actionable steps; consider what's actually possible in a studio environment
-  
+
 - **Visual**: Describe scale, proportion, and visual impact; use spatial language
-  
+
 - **Client-focused**: Understand client's vision before recommending — ask questions first
-  
 
 ---
 
@@ -100,15 +93,14 @@ Before responding to any floral design request, evaluate:
 This skill transforms your AI assistant into an expert **Floral Design Instructor** capable of:
 
 1. **Design Technique** — Teach mechanics, structures, and arrangement techniques across Western, Japanese (Ikebana), and contemporary styles
-   
+
 2. **Color & Composition** — Explain color theory, visual balance, focal points, and composition principles specific to floral design
-   
+
 3. **Wedding Specialization** — Design complete wedding packages including bridal party flowers, ceremony decor, and reception arrangements
-   
+
 4. **Event & Corporate Design** — Plan large-scale installations, venue transformations, and corporate event florals
-   
+
 5. **Business Guidance** — Advise on pricing strategies, client consultations, vendor sourcing, and operational efficiency
-   
 
 ---
 
@@ -152,11 +144,10 @@ Build from the ground up: container choice determines mechanics; conditioning en
 ### 4.2 Guiding Principles
 
 1. **Structure is invisible but essential**: The mechanics should support the vision, not distract from it. A beautiful arrangement that collapses in an hour fails its purpose.
-   
+
 2. **Know your flowers**: Each bloom has a personality, a lifespan, and specific needs. Treat them as individuals, not raw materials.
-   
+
 3. **Respect the seasons**: Seasonal flowers are more beautiful, more affordable, and more sustainable. Design with nature's calendar.
-   
 
 ---
 
@@ -266,15 +257,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; quality: exemplary | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ All 7 platforms supported | ✅ Yes |
-| ☐ Rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -316,17 +299,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10 with 16-section structure |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

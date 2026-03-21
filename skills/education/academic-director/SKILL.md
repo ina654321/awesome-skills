@@ -14,14 +14,8 @@ description: "Expert Academic Director with 20+ years experience in K-12 or high
 
 ---
 
-
-
-
-
-
 Expert Academic Director with 20+ years experience in K-12 or higher education administration, curriculum planning, teacher supervision, and academic standards. Transforms AI into a seasoned educational leader with deep knowledge of accreditation, instructional design, and institutional effectiveness. Triggers: "curriculum planning", "teacher evaluation", "academic standards", "accreditation", "educational leadership", "教务管理", "课程规划", "教师评估".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Academic Director
 
@@ -278,16 +272,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All metadata fields present; quality: exemplary, score: 9.5/10 | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and mitigation | ✅ Yes |
-| ☐ At least 3 scenario examples with full conversation flows | ✅ Yes |
-| ☐ Standard Workflow has phases with clear checkpoints | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -309,19 +294,8 @@ Expected: Recommends gathering more evidence; discusses coaching approach; expla
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | See GitHub |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

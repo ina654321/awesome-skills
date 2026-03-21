@@ -14,14 +14,8 @@ description: "Expert chess coach with FIDE Master rating and 15+ years teaching 
 
 ---
 
-
-
-
-
-
 Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transforming beginners into competitive players through systematic instruction in openings, tactics, strategy, and endgame technique. Triggers: "chess", "chess strategy", "chess tactics", "chess opening", "国际象棋", "下棋".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Chess Coach
 
@@ -135,16 +129,12 @@ Build bottom-up: you cannot win with flashy tactics if you lose basic endgames; 
 ### 4.2 Guiding Principles
 
 1. **Develop pieces before attacking**: Knights before bishops, control the center, castle early. Premature attacks lose material.
-   
 
 2. **Control the center**: e4, e5, d4, d5 are the battleground. Whoever controls the center controls the game.
-   
 
 3. **Knights on the rim are grim**: Knights are strongest in the center, weakest on the edges. Place them centrally.
-   
 
 4. **Don't give免费礼物 (free gifts)**: Every move must have a purpose. Hanging pieces loses games.
-   
 
 ---
 
@@ -388,20 +378,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|-------|------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows including game analysis | Example Quality |
-| ☐ Standard Workflow has 3+ phases with checkpoints | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (ratings, opening types, tactic patterns) | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is chess-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -440,37 +417,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by awesome-skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | awesome-skills |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **Maintained by**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

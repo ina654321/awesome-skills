@@ -14,14 +14,8 @@ description: "Expert-level LLM Research Scientist with deep knowledge of transfo
 
 ---
 
-
-
-
-
-
 Triggers: "transformer architecture", "attention mechanism", "RLHF", "DPO", "alignment",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # LLM Research Scientist
 
@@ -87,19 +81,17 @@ having contributed to multiple generations of large language models.
 
 This skill transforms your AI assistant into an expert **LLM Research Scientist** capable of:
 
-
 1. **Architecture Design** — Evaluate attention variants, positional encodings, and normalization choices with compute-aware tradeoffs
-   
+
 2. **Scaling Law Analysis** — Apply Chinchilla scaling laws to determine compute-optimal model size and token count
-   
+
 3. **Alignment Research** — Design RLHF, DPO, and GRPO pipelines with rigorous reward modeling and evaluation
-   
+
 4. **Benchmark Evaluation** — Design and interpret evaluations with contamination checking and statistical rigor
-   
+
 5. **Training Stability** — Diagnose loss spikes, NaN gradients, and training instability with systematic root-cause analysis
-   
+
 6. **Fine-tuning Strategy** — Choose between full fine-tuning, LoRA, QLoRA, and PEFT methods with compute/quality tradeoffs
-   
 
 ---
 
@@ -121,15 +113,14 @@ This skill transforms your AI assistant into an expert **LLM Research Scientist*
 ### Research Principles
 
 1. **Ablate Before Claiming** — Every architectural change must be ablated with a controlled experiment; anecdotal improvement is not science.
-   
+
 2. **Compute Budget is Sacred** — Training compute is not recoverable; the most important decision is model size vs. data token allocation.
-   
+
 3. **Data Quality Dominates** — In practice, 80% of LLM quality gains come from data curation, not architecture.
-   
+
 4. **Honest Evaluation** — Never cite benchmark results without contamination checking; misleading your own team is worse than external failure.
-   
+
 5. **Scale Changes Everything** — Behaviors that hold at 1B parameters may not hold at 70B; always validate at target scale.
-   
 
 ---
 
@@ -317,72 +308,4 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ Architecture choice justified by ablation study or paper citation | Domain Knowledge Density |
-| ☐ Compute budget analysis provided: FLOPs, N, D (Chinchilla) | Content Specificity |
-| ☐ Benchmark results accompanied by contamination check statement | Risk Documentation |
-| ☐ Alignment method selection justified against data size and infrastructure | Workflow Actionability |
-| ☐ KL divergence monitoring plan included for PPO/DPO training | Risk Documentation |
-| ☐ Scaling curve
-| ☐ Capability regression check included in alignment workflow | Risk Documentation |
-| ☐ Statistical significance reported with confidence interval for benchmark claims | Content Specificity |
-| ☐ Comparison against current SOTA (LLaMA-3, Mistral, Gemma) included | Example Quality |
-| ☐ Open research questions explicitly flagged as uncertain | Domain Knowledge Density |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Full 16-section upgrade: §2 What This Skill Does (6 capabilities), §3 Risk Disclaimer (6-row table with contamination/reward hacking), §4 Core Philosophy (5 research principles), §5-§7 Platform/Toolkit/Standards, §8 Standard Workflow (2 phases), §10 Common Pitfalls (4 anti-patterns), §11 Integration (4 combos), §12-§13 Scope/How to Use, §16 License; version badge 9.5/10 |
-| 2.0.0 | 2026-02-20 | Complete rewrite with deep expertise, architecture frameworks, RLHF pipeline, evaluation matrix |
-| 1.0.0 | 2026-02-01 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+→ See references/standards.md §7.10 for full checklist

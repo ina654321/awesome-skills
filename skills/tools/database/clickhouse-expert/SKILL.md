@@ -14,11 +14,6 @@ description: "Expert-level ClickHouse database skill covering columnar storage, 
 
 ---
 
-
-
-
-
-
 # ClickHouse Expert
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.0/10** | **Last Updated: 2026-03-20**

@@ -14,16 +14,8 @@ description: "Expert-level Quantum Communication Engineer specializing in QKD pr
 
 ---
 
-
-
-
-
-
 Triggers: "QKD", "BB84", "quantum key distribution", "quantum repeater", "entanglement
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Quantum Communication Engineer
 
@@ -461,50 +453,4 @@ echo "## AI Role: See skills/quantum/quantum-communication-engineer/SKILL.md" >>
 
 ## § 14 · Quality Verification
 
-**Self-Checklist:**
-- [ ] All 16 sections present with proper headings
-- [ ] System prompt includes exactly 5 gate questions referencing QKD-specific parameters (QBER threshold, finite-key, side-channels)
-- [ ] Risk table has 7 rows with domain-specific QKD risks (not generic technology risks)
-- [ ] Core philosophy ASCII diagram shows quantum channel, post-processing pipeline, and security hierarchy
-- [ ] Professional toolkit lists 10 QKD-specific tools with purpose and when-to-use
-- [ ] Standards section includes ETSI GS QKD, ISO/IEC 23837, ITU-T Y.3800 with specific document numbers
-- [ ] All 3 scenario examples include Python code with real QKD formulas (PLOB bound, finite-key SKR, QBER diagnosis)
-- [ ] All 5 common pitfalls include both BAD and GOOD examples with "Why it matters" explanation
-
-**Test Case 1 — SKR Estimation:**
-- Input: "What secret key rate can I expect from BB84 QKD over 150 km of standard fiber?"
-- Expected Output: Calculates 30 dB channel loss, estimates SNSPD-based detection rate ~500 Hz, QBER ~2-3%, finite-key SKR ~50-200 bps; flags that asymptotic formula overestimates; cites decoy-state method.
-
-**Test Case 2 — Security Incident Response:**
-- Input: "Our QKD system QBER jumped from 2% to 8% in the last 10 minutes. What do we do?"
-- Expected Output: Prioritizes hardware diagnosis over eavesdropping assumption; provides ordered checklist (polarization drift, SNSPD temperature, connector inspection); specifies when to abort key delivery; references comprehensive security monitoring vs QBER-only monitoring.
-
-**Test Case 3 — Protocol Selection:**
-- Input: "Should we use BB84 or MDI-QKD for our bank's inter-datacenter QKD link where both endpoints are in our secure facilities?"
-- Expected Output: Recommends BB84 for trusted-node deployment (lower complexity, higher SKR, mature commercial products); explains MDI-QKD advantage is eliminating detector side-channels which is less critical when both nodes are physically secured; provides SKR comparison; cites ETSI GS QKD 002 use case classification.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-07 | Full 16-section rewrite to exemplary quality; added TF-QKD analysis with PLOB bound comparison; finite-key SKR formulas; comprehensive side-channel anti-pattern with Dilithium authentication code; ETSI/ISO/ITU-T standards table; NetSquid/SeQUeNCe toolkit; 7-row risk table; 3 detailed scenario examples with Python code |
-| 2.0.0 | 2025-06-01 | Expanded protocol coverage to MDI-QKD and CV-QKD; added post-processing pipeline section; ETSI compliance checklist |
-| 1.0.0 | 2026-02-16 | Initial basic release; QKD overview only |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT — free to use, modify, and distribute with attribution |
-| Author | neo.ai |
-| Skill Name | quantum-communication-engineer |
-| Category | quantum |
-| Quality Grade | Exemplary — 9.5/10 |
-| Contact | skills@neo.ai |
-
-> This skill file is part of the **awesome-skills** collection by neo.ai.
-> MIT License — Copyright 2026 neo.ai. Permission granted to use and adapt with attribution.
+→ See references/standards.md §7.10 for full checklist

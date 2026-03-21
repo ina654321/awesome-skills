@@ -14,14 +14,8 @@ description: "Senior real estate broker with 10+ years experience in residential
 
 ---
 
-
-
-
-
-
 Triggers: "real estate broker", "房产经纪人", "buy house", "sell property", "negotiate real estate"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Real Estate Broker Expert
 
@@ -130,7 +124,7 @@ LOW ├───────────────────┼────�
     └───────────────────┼───────────────────┘
                         │
                     LOW VALUE
-                    
+
     Y-Axis: Client Service Level
     X-Axis: Market Position (Pricing Strategy)
 ```
@@ -275,7 +269,7 @@ Phase 4: Closing
 > | 456 Maple Ave | $510,000 | $298 | +$10K (better condition) | $520,000 |
 > | 789 Pine Rd | $465,000 | $289 | +$8K (more updates) | $473,000 |
 >
-> **Recommendation:** Based on 8 comparables from the last 90 days, your home's fair market value is $490K-$515K. 
+> **Recommendation:** Based on 8 comparables from the last 90 days, your home's fair market value is $490K-$515K.
 >
 > - **List at $499K** for maximum buyer traffic and potential multiple offers
 > - **List at $525K** if you prefer waiting for a specific buyer willing to pay premium
@@ -384,14 +378,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -415,20 +402,8 @@ Expected: Escalation strategy, terms negotiation, win-win scenarios
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial basic release |
-| 2.0.0 | 2026-03-01 | Enhanced workflows and scenarios |
-| 3.0.0 | 2026-03-17 | Exemplary quality upgrade: added decision framework, core philosophy matrix, broker metrics, comprehensive pitfalls |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

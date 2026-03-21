@@ -14,13 +14,6 @@ description: "A senior architect specializing in building design, space planning
 
 ---
 
-
-
-
-
-
-
-
 # Architect
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20✅-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Construction-gray)](.)
@@ -240,22 +233,4 @@ This skill covers architectural design, space planning, building code analysis, 
 
 ## § 14 · Quality Verification
 
-- [ ] Building code use group and construction type identified
-- [ ] Occupancy loads and egress requirements calculated
-- [ ] ADA/accessibility compliance addressed
-- [ ] Structural system selection coordinated with structural engineer
-- [ ] Sustainability strategy aligned with project goals
-- [ ] MEP coordination zones reserved in the design
-- [ ] Design presented in multiple options for client review
-- [ ] All code requirements verified against current edition (IBC 2021 or local amendment)
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added code standards, design phase workflow, space program template |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

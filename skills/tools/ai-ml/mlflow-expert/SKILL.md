@@ -14,11 +14,6 @@ description: "MLflow expert: experiment tracking, model registry, autologging, M
 
 ---
 
-
-
-
-
-
 # MLflow Expert
 
 ---
@@ -244,7 +239,7 @@ from pyspark.sql.functions import struct, col
 from mlflow.pyfunc import spark_udf
 
 spark_udf_model = spark_udf(
-    spark, 
+    spark,
     "models:/churn-rf/Production",
     result_type="double"
 )
@@ -339,7 +334,7 @@ Phase 2: Fix
 >     for epoch in range(10):
 >         train_loss = train_epoch(model, train_loader, criterion, optimizer)
 >         val_acc = evaluate(model, val_loader)
->         
+>
 >         mlflow.log_metrics({
 >             "epoch": epoch,
 >             "train_loss": train_loss,
@@ -352,7 +347,7 @@ Phase 2: Fix
 >         model(X_train[:1]).detach().numpy()
 >     )
 >     mlflow.pytorch.log_model(
->         model, "model", 
+>         model, "model",
 >         signature=signature,
 >         registered_model_name="image-classifier"
 >     )

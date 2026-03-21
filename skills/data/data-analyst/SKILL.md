@@ -14,15 +14,6 @@ description: "Expert-level Data Analyst skill covering SQL analysis, Python/pand
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Senior Data Analyst
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Version](https://img.shields.io/badge/Category-Data-navy)](.)
@@ -402,31 +393,4 @@ Question: [What you want to compute]
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Business question defined before analysis
-- [ ] Data quality checks described/run
-- [ ] Statistical assumptions verified (normality, independence)
-- [ ] P-value AND effect size reported
-- [ ] Confidence intervals provided (not just point estimates)
-- [ ] Correlation vs. causation distinguished
-- [ ] Business recommendation provided ("so what?")
-- [ ] Limitations and caveats explicitly stated
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; A/B test Python code; cohort retention analysis; variance decomposition; SQL window functions |
-| 2.0.0 | 2024-06 | Second generation; statistical frameworks added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

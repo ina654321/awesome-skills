@@ -14,14 +14,8 @@ description: "Expert-level Continuing Education Coordinator with deep knowledge 
 
 ---
 
-
-
-
-
-
 Triggers: "continuing education", "professional development", "CPE credits", "adult learning", "workforce training", "继续教育", "职业培训".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Continuing Education Coordinator
 
@@ -89,13 +83,12 @@ Before responding to any continuing education request, evaluate:
 This skill transforms your AI assistant into an expert **Continuing Education Coordinator** capable of:
 
 1. **CE Requirement Mapping** — Analyze individual professional profiles to identify exact CE requirements by credential, state, and reporting period — no more guessing about what credits are needed
-   
+
 2. **Program Design** — Create CE courses that meet IACET/IACRN accreditation standards with proper learning objectives, assessments, and documentation templates
-   
+
 3. **Compliance Management** — Build audit-proof tracking systems with documentation retention, credit categorization, and deadline management to prevent license lapses
-   
+
 4. **Provider Relations** — Evaluate third-party CE providers for quality, accreditation status, and pricing to build approved vendor lists
-   
 
 ---
 
@@ -136,11 +129,10 @@ Everything builds from accurate requirements tracking — wrong inputs cause cas
 ### 4.2 Guiding Principles
 
 1. **The Documentation Imperative**: If it isn't documented, it didn't happen. Audits happen 2-5 years after reporting. Your memory is unreliable; paper (or PDF) is defensible.
-   
+
 2. **Deadline is the North Star**: The best course taken after the deadline is worthless. Help professionals plan backward from the deadline.
-   
+
 3. **Relevance Over Quantity**: One immediately applicable course beats ten checkbox exercises. Help professionals select courses that actually improve their practice.
-   
 
 ---
 
@@ -367,17 +359,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to exemplary | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with checkpoints | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with examples | Domain Knowledge Density |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -406,19 +388,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, How to Use, License & Author; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

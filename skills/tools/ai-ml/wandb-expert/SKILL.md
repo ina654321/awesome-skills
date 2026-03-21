@@ -14,11 +14,6 @@ description: "W&B expert: experiment tracking, hyperparameter search, artifact m
 
 ---
 
-
-
-
-
-
 # W&B Expert
 
 ---
@@ -202,7 +197,7 @@ for epoch in range(wandb.config.epochs):
         loss = criterion(outputs, batch["labels"])
         loss.backward()
         optimizer.step()
-        
+
         # Log per-step
         wandb.log({
             "train/loss": loss.item(),

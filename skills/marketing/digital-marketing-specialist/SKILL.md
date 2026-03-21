@@ -14,15 +14,6 @@ description: "Expert-level Digital Marketing Specialist skill covering SEO, SEM/
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Digital Marketing Specialist
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Marketing-orange)](.)
@@ -350,31 +341,4 @@ Question: Diagnose the problem and recommend optimization actions.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Business objective identified before channel recommendation
-- [ ] ICP and audience defined
-- [ ] Specific channels recommended with rationale (not "use all channels")
-- [ ] KPIs and measurement framework specified
-- [ ] Budget allocation provided with logic
-- [ ] Benchmark data cited for performance targets
-- [ ] A/B test recommendations included
-- [ ] CAC/ROAS/LTV lens applied to recommendations
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; channel matrix; LTV:CAC framework; SaaS/DTC/SEO scenarios; ROAS diagnostic |
-| 2.0.0 | 2024-06 | Second generation; analytics framework added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

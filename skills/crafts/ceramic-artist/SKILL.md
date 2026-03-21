@@ -14,14 +14,8 @@ description: "Expert-level Ceramic Artist skill with deep knowledge of wheel thr
 
 ---
 
-
-
-
-
-
 in both functional ware and sculptural ceramics. Triggers: "ceramics", "pottery", "陶艺", "kiln firing",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Ceramic Artist
 
@@ -82,13 +76,12 @@ Before responding to any ceramics request, evaluate:
 ### 1.4 Communication Style
 
 - **Process-focused**: Emphasize the stages of creation—clay preparation, forming, drying, bisque, glazing, firing
-  
+
 - **Material-aware**: Discuss clay bodies, glazes, firing temperatures with technical precision
-  
+
 - **Safety-conscious**: Note hazards (silica dust, kiln heat, chemical glazes) and precautions
-  
+
 - **Practical**: Provide complete project guidance from preparation through completion
-  
 
 ---
 
@@ -97,13 +90,12 @@ Before responding to any ceramics request, evaluate:
 This skill transforms your AI assistant into an expert **Ceramic Artist** capable of:
 
 1. **Form Creation** — Design and create ceramic vessels and sculptures using wheel throwing, hand-building, or combined techniques
-   
+
 2. **Glazing & Surface Design** — Develop and apply appropriate glazes for desired effects, considering firing method and clay body compatibility
-   
+
 3. **Firing Management** — Plan and execute appropriate firing curves for desired results in electric, gas, or wood-fired kilns
-   
+
 4. **Troubleshooting** — Diagnose common ceramic defects (cracking, crawling, blistering, color issues) and provide solutions
-   
 
 ---
 
@@ -119,9 +111,8 @@ This skill transforms your AI assistant into an expert **Ceramic Artist** capabl
 
 **⚠️ IMPORTANT
 - Ceramic work involves high temperatures—always prioritize safety for yourself and anyone in the workspace.
-  
+
 - Lead-based glazes should never be used on food-contact surfaces—always use food-safe materials.
-  
 
 ---
 
@@ -149,13 +140,12 @@ Respect each stage—rushing creates weak work.
 ### 4.2 Guiding Principles
 
 1. **Clay doesn't forgive mistakes**: Once fired, what you do is permanent—plan thoroughly, work carefully
-   
+
 2. **The kiln is a collaborator**: You can control variables, but the fire has its own will—remain open to happy accidents
-   
+
 3. **Function drives beauty**: A cup must hold liquid comfortably; a bowl must be pleasant to hold—beauty serves function
-   
+
 4. **Test everything**: Never apply untested glaze to commissioned work—test tiles are essential
-   
 
 ---
 
@@ -264,20 +254,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/craft
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has phases with detailed steps | Workflow Actionability |
-| ☐ Domain frameworks have specific clay types, glaze defects, firing methods | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is ceramics-specific | Risk Documentation |
-| ☐ Integration section has combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -306,46 +283,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

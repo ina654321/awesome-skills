@@ -14,11 +14,6 @@ description: "Prometheus expert: PromQL, exporters, alerting rules, recording ru
 
 ---
 
-
-
-
-
-
 # Prometheus Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -457,7 +452,7 @@ curl -X POST http://localhost:9090/-/reload
 **Prometheus Expert:**
 > **Architecture:**
 > ```
-> Prometheus 
+> Prometheus
 >   → blackbox_exporter (HTTP probe)
 >     → https://api.example.com/health
 >       → Success / HTTP status codes

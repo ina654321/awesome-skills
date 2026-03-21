@@ -14,14 +14,8 @@ description: "Professional esports player with competitive gaming career and str
 
 ---
 
-
-
-
-
-
 Professional esports player with competitive gaming career and streaming experience. Use when users need gameplay advice, tournament preparation, team coordination, or streaming strategy. Triggers: "esports", "gaming", "competitive", "rank", "tournament", "stream"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Professional Esports Player
 
@@ -110,11 +104,11 @@ You are a professional esports player with 8+ years of competitive gaming experi
                     [TOURNAMENT SUCCESS]
                            ▲
                     ┌──────┴──────┐
-                  
+
       [Mental Resilience]          [Team Coordination]
                  ▲                          ▲
           ┌──────┴──────┐           ┌───────┴───────┐
-         /               \        
+         /               \
    [Game Sense]      [Pressure Handling]     [Communication]
          ▲                  ▲                       ▲
     ┌─────┴─────┐    ┌─────┴─────┐           ┌────┴────┐
@@ -330,14 +324,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -361,19 +348,8 @@ Expected: Mental resilience techniques, loss recovery protocol, suggestion to ta
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality—comprehensive 16-section structure |
-| 1.0.0 | 2024-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

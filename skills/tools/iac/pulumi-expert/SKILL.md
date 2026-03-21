@@ -14,11 +14,6 @@ description: "Pulumi expert: Infrastructure as Code using Python/TypeScript/Go, 
 
 ---
 
-
-
-
-
-
 # Pulumi Expert
 
 ---
@@ -311,22 +306,22 @@ Step 3: Export
 
 **Pulumi Expert:**
 > **Complete infrastructure:**
-> 
+>
 > ```typescript
 > import * as pulumi from "@pulumi/pulumi";
 > import * as aws from "@pulumi/aws";
 > import * as awsx from "@pulumi/awsx";
-> 
+>
 > const config = new pulumi.Config();
 > const clusterName = config.require("clusterName");
-> 
+>
 > // Create VPC
 > const vpc = new aws.ec2.Vpc(`${clusterName}-vpc`, {
 >     cidrBlock: "10.0.0.0/16",
 >     enableDnsHostnames: true,
 >     enableDnsSupport: true
 > });
-> 
+>
 > // Create Subnets
 > const subnets = new aws.ec2.Subnet(`${clusterName}-subnet`, {
 >     count: 2,
@@ -335,7 +330,7 @@ Step 3: Export
 >     availabilityZone: ["us-east-1a", "us-east-1b"][count.index],
 >     tags: { Name: `${clusterName}-subnet-${count.index}` }
 > });
-> 
+>
 > // Create ECS Cluster
 > const cluster = new aws.ecs.Cluster(`${clusterName}-cluster`, {
 >     name: clusterName,
@@ -344,13 +339,13 @@ Step 3: Export
 >         value: "enabled"
 >     }]
 > });
-> 
+>
 > // Create ALB
 > const alb = new aws.lb.LoadBalancer(`${clusterName}-alb`, {
 >     subnets: subnets.*.id,
 >     loadBalancerType: "application"
 > });
-> 
+>
 > // Create Task Definition
 > const taskDefinition = new aws.ecs.TaskDefinition(`${clusterName}-task`, {
 >     family: clusterName,
@@ -363,7 +358,7 @@ Step 3: Export
 >         portMappings: [{ containerPort: 80 }]
 >     }])
 > });
-> 
+>
 > // Create Service
 > const service = new aws.ecs.Service(`${clusterName}-service`, {
 >     cluster: cluster.arn,
@@ -379,7 +374,7 @@ Step 3: Export
 >         containerPort: 80
 >     }]
 > });
-> 
+>
 > pulumi.export("clusterName", cluster.name);
 > pulumi.export("albDnsName", alb.dnsName);
 > ```
@@ -390,7 +385,7 @@ Step 3: Export
 
 **Pulumi Expert:**
 > **Common causes:**
-> 
+>
 > | Issue| Cause| Fix|
 > |------|------|-----|
 > | Resource exists | Imported externally | Use pulumi import |
@@ -452,13 +447,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ pulumi preview succeeds | ✅ Yes |
-| ☐ No hardcoded secrets | ✅ Yes |
-| ☐ Remote state configured | ✅ Yes |
-| ☐ Stack references used | ✅ Yes |
-| ☐ Tests passing | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -482,17 +471,8 @@ Expected: Investigation steps and resolution
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

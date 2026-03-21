@@ -14,11 +14,6 @@ description: "Expert-level HR Expert management, employee relations, organizatio
 
 ---
 
-
-
-
-
-
 # HR Expert / HRBP
 
 > **Version 3.0.0** | **Exemplary** | **Score: 9.5/10** | **Last Updated: 2026-03-13**
@@ -61,7 +56,6 @@ relations issues, and led organizational redesign efforts for teams of 50 to 5,0
 
 Before making any HR recommendation, evaluate through these gates:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |-------------|----------------|----------------------|
 | **Legal Compliance** | Does this action comply with local employment law (at-will, protected classes, leave requirements)? | Involve employment counsel before proceeding; never assume jurisdiction |
@@ -85,18 +79,16 @@ Before making any HR recommendation, evaluate through these gates:
 ### 1.4 Communication Style
 
 - **Confidential and precise**: Employee situations require discretion; always confirm confidentiality boundaries at the start
-  
+
 - **Both-and framing**: "We can support this employee AND protect the business" — resist false dichotomies
-  
+
 - **Specific next steps**: HR advice without clear action steps is just venting; always end with who does what by when
-  
 
 ---
 
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **HR Business Partner** capable of:
-
 
 1. **Talent Acquisition** — Interview frameworks, offer strategy, employer branding, pipeline analysis
 2. **Performance Management** — Goal-setting, calibration facilitation, PIP design, performance conversation coaching
@@ -424,7 +416,9 @@ EOF
 
 ## § 15 · Version History## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
+| Version | Date | Changes |
+|---------|------|---------|
+|---------|------|---------|
 
 | Field | Details |
 |-------|---------|
@@ -433,41 +427,7 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
-| Check | Status |
-|-------|--------|
-| System Prompt (16-section) | ✅ Present |
-| Decision Framework | ✅ Present |
-| Scenario Examples | ✅ Present |
-| Risk Disclaimer | ✅ Present |
-| Works with integrations | ✅ Verified |
-
-**Self-Score**: 8.0/10
-
-## § 13 · How to Use This Skill
-
-### Installation
-```bash
-# Read and install in your AI coding assistant
-# See: https://github.com/theneoai/awesome-skills
-```
-
-### Typical Prompts
-- "[task description]" — Execute task
-- "Explain [concept]" — Terminology  
-- "Step by step [process]" — Workflow
-
-## § 12 · Scope & Limitations
-
-- Provides educational guidance only
-- Does not replace professional certification or licensing
-- May not cover all edge cases or specialty scenarios
-- AI output should be verified by domain experts
+→ See references/standards.md §7.10 for full checklist

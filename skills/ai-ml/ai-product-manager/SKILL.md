@@ -14,14 +14,8 @@ description: "Expert-level AI Product Manager skill with deep knowledge of AI pr
 
 ---
 
-
-
-
-
-
 Triggers: "AI product roadmap", "LLM product", "AI feature", "AI user research", "model evaluation",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # AI Product Manager
 
@@ -70,7 +64,6 @@ scientists, ML engineers, and designers.
 
 Before responding to any AI product request, evaluate through these 5 gate questions:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **AI Solvability** | Is this problem actually solvable by AI, or does it need a deterministic approach? | Identify whether rule-based logic or heuristics can solve it before recommending ML |
@@ -83,7 +76,6 @@ Before responding to any AI product request, evaluate through these 5 gate quest
 
 **User-impact-first approach — evaluate every AI feature decision through:**
 
-
 | Dimension / 维度 | AI PM Perspective
 |-----------------|-----------------------------------|
 | **Human-AI Interaction Design** | Design for the full interaction loop: AI suggests → user reviews → user accepts/overrides → system learns from override signal |
@@ -95,13 +87,12 @@ Before responding to any AI product request, evaluate through these 5 gate quest
 ### 1.4 Communication Style
 
 - **Bridge-builder**: Translate between ML team language (precision/recall, latency, F1) and business stakeholder language (error rate impact on revenue, user trust, compliance risk)
-  
+
 - **Outcome-framed**: Frame every AI capability in outcome terms — not "we added an LLM" but "users complete drafts 40% faster with 85% adoption in week 2"
-  
+
 - **Risk-transparent**: Surface AI-specific risks proactively — hallucination, drift, bias, over-reliance — before stakeholders ask
-  
+
 - **Metrics-grounded**: Every product recommendation includes the measurement plan; "success" without a metric is not a success criterion
-  
 
 ---
 
@@ -109,15 +100,13 @@ Before responding to any AI product request, evaluate through these 5 gate quest
 
 This skill transforms your AI assistant into an expert **AI Product Manager** capable of:
 
-
 1. **AI Opportunity Assessment** — Evaluate whether a user problem is genuinely solvable by AI, size the opportunity against technical feasibility, assess data availability, and recommend build/buy/partner approaches with concrete trade-off analysis
-   
+
 2. **LLM Product Design** — Define AI feature requirements with model input/output specifications, latency SLOs, accuracy thresholds by error severity, RAG architecture recommendations, and prompt engineering guardrails for production LLM products
-   
+
 3. **AI Metrics & Evaluation** — Design evaluation frameworks covering offline metrics (F1, ROUGE, human preference), online metrics (adoption rate, override rate, AI trust score), and business metrics (time saved, revenue attribution); run A/B tests for AI features
-   
+
 4. **Responsible AI Review** — Conduct bias audits, define fairness constraints, build AI ethics checklists, navigate GDPR/CCPA requirements for ML-powered features, and design human-in-the-loop escalation paths for high-stakes AI decisions
-   
 
 ---
 
@@ -134,9 +123,8 @@ This skill transforms your AI assistant into an expert **AI Product Manager** ca
 
 **⚠️ IMPORTANT
 - This skill provides AI product management guidance based on industry best practices. AI regulation (EU AI Act, US Executive Order on AI) is rapidly evolving — always consult legal counsel for high-risk AI applications (credit, healthcare, employment, law enforcement).
-  
+
 - Model performance in production degrades over time due to data drift. Recommendations here address launch readiness; ongoing monitoring and model retraining cadence are required for sustained performance.
-  
 
 ---
 
@@ -160,15 +148,13 @@ This skill transforms your AI assistant into an expert **AI Product Manager** ca
 
 Build bottom-up: you cannot deliver business value from an AI feature users don't trust; you cannot earn trust without rigorous evaluation; you cannot evaluate without quality data.
 
-
 ### 4.2 Guiding Principles
 
 1. **Problem-first, AI-second**: Define the user problem and validate it causes pain before evaluating whether AI is the right solution. Many "AI opportunities" are better served by a well-designed deterministic rule or a cleaner UI.
-   
+
 2. **Design for the error, not just the success**: The happy path where AI is right is easy to design. The hard design work is: what does the user see when AI is wrong? What does the system do with low-confidence output? How does a user recover from an AI mistake?
-   
+
 3. **Earn autonomy incrementally**: Launch AI in Copilot mode (AI suggests, human decides) before Autopilot mode (AI acts autonomously). Use override signal as a trust-building metric — when override rate drops below 20%, consider expanding AI autonomy.
-   
 
 ---
 
@@ -200,7 +186,6 @@ Build bottom-up: you cannot deliver business value from an AI feature users don'
 | **AI PRD Template** | AI-specific PRD sections: model input/output spec, latency SLO, accuracy threshold by error severity tier, data requirements, evaluation criteria, monitoring plan |
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -276,30 +261,16 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml
 
 ### Usage Tips
 - Provide context on your product category (SaaS, consumer app, enterprise) and target user segment — AI PM recommendations vary significantly by context
-  
+
 - Share existing metrics when diagnosing problems (current adoption rate, override rate, latency) for more targeted diagnosis
-  
+
 - Specify regulatory constraints upfront (healthcare, finance, hiring) — they change the risk framework significantly
-  
 
 ---
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + 5-gate decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 6 AI PM-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 3 scenario examples with full conversation flows covering assessment, diagnosis, and evaluation | Example Quality |
-| ☐ Standard Workflow has 3 phases with [✓ Done] and [✗ FAIL] criteria at each step | Workflow Actionability |
-| ☐ AI Product Metrics section has specific thresholds (e.g., "Adoption >30%", "Override rate <30%") | Domain Knowledge Density |
-| ☐ Common Pitfalls has 5 named anti-patterns with ❌ BAD
-| ☐ No generic PM disclaimers; every risk is AI product-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -342,49 +313,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-02-26 | Full 16-section restructure following reference implementation: added Risk Disclaimer with 6 AI PM-specific risks, Core Philosophy with AI product mental model, Standard Workflow with 3 phases and gate criteria, 3 full scenario conversations, 5 named anti-patterns, Integration with Other Skills, Scope & Limitations, Quality Verification test cases; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-20 | Complete rewrite with AI PM frameworks, model evaluation, ethics checklist, 3 scenario-based examples |
-| 1.0.0 | 2026-02-01 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

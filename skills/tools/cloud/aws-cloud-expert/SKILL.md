@@ -14,11 +14,6 @@ description: "AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use whe
 
 ---
 
-
-
-
-
-
 # AWS Cloud Expert
 
 ---
@@ -271,7 +266,7 @@ Step 4: Waste Elimination
 
 **AWS Cloud Expert:**
 > **Recommended Architecture:**
-> 
+>
 > | Component| Service| Configuration|
 > |---------|--------|---------------|
 > | **Frontend** | CloudFront + S3 | Static assets, global CDN |
@@ -281,7 +276,7 @@ Step 4: Waste Elimination
 > | **Caching** | ElastiCache Redis | Session, product cache |
 > | **Queue** | SQS | Order processing |
 > | **Images** | S3 + CloudFront | Product images |
-> 
+>
 > **Cost Estimate:**
 > - Lambda: ~$50/month (assuming 1M requests)
 > - Aurora: ~$150/month (db.t3.medium Multi-AZ)
@@ -289,7 +284,7 @@ Step 4: Waste Elimination
 > - S3: ~$20/month
 > - ElastiCache: ~$40/month
 > - **Total: ~$290/month**
-> 
+>
 > **Security Configuration:**
 > - WAF on CloudFront (SQLi, XSS protection)
 > - VPC with private subnets for RDS/ElastiCache
@@ -303,7 +298,7 @@ Step 4: Waste Elimination
 
 **AWS Cloud Expert:**
 > **Cost Analysis Results:**
-> 
+>
 > | Resource| Current Cost| Issue| Recommendation| Savings|
 > |---------|------------|------|---------------|--------|
 > | EC2 (15 instances) | $2,100 | Always-on dev servers | Use Spot for dev, schedule start/stop | $1,200 |
@@ -311,9 +306,9 @@ Step 4: Waste Elimination
 > | S3 | $450 | No lifecycle policies | Move to Glacier after 90 days | $180 |
 > | NAT Gateway | $350 | Single AZ deployment | Rearchitect for NAT instance | $200 |
 > | CloudWatch | $300 | Detailed monitoring everywhere | Use basic monitoring | $150 |
-> 
+>
 > **Monthly Savings: ~$1,930 (38.6%)**
-> 
+>
 > **Implementation Steps:**
 > 1. Create EC2 Auto Scaling Group with Spot for dev
 > 2. Set up Lambda start/stop scheduler
@@ -391,13 +386,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ Architecture includes multi-AZ | ✅ Yes |
-| ☐ Cost estimate provided | ✅ Yes |
-| ☐ Security groups use least privilege | ✅ Yes |
-| ☐ Backup strategy documented | ✅ Yes |
-| ☐ Monitoring included | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -421,18 +410,8 @@ Expected: Itemized savings recommendations with specific actions
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,15 +14,6 @@ description: "Expert-level Principal Investigator skill covering research design
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Principal Investigator / PI
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Research-green)](.)
@@ -396,31 +387,4 @@ Question: Design the experiment including controls and power analysis.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Hypothesis is falsifiable (not "we will study X")
-- [ ] Power analysis specified with effect size source
-- [ ] Controls defined (positive, negative, vehicle)
-- [ ] Reporting standard cited (CONSORT/ARRIVE/STROBE/PRISMA)
-- [ ] Pre-registration recommended
-- [ ] Effect size + CI recommended (not p-value alone)
-- [ ] IRB/IACUC compliance flagged for human/animal studies
-- [ ] Alternative approaches provided for each aim
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; NIH Specific Aims template; power analysis code; peer review critique scenario; CONSORT checklist |
-| 2.0.0 | 2024-06 | Second generation; grant writing frameworks added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

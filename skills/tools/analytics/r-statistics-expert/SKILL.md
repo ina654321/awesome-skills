@@ -14,11 +14,6 @@ description: "R statistics expert: tidyverse, ggplot2, statistical modeling, hyp
 
 ---
 
-
-
-
-
-
 # R Statistics Expert
 
 ---
@@ -229,13 +224,13 @@ Phase 5: Reporting
 > library(lme4)
 > library(emmeans)
 > library(gt)
-> 
+>
 > # Mixed-effects model: treatment effect over time
 > model <- lmer(
 >   score ~ treatment * time + (1 | subject_id) + (1 | site),
 >   data = trial_data
 > )
-> 
+>
 > # Fixed effects table
 > effects_table <- tidy(model, effects = "fixed", conf.int = TRUE) |>
 >   filter(term != "(Intercept)") |>
@@ -248,14 +243,14 @@ Phase 5: Reporting
 >   cols_label(term = "Effect", estimate = "Coefficient",
 >              conf.low = "95% CI Lower", conf.high = "95% CI Upper",
 >              p.value = "p-value")
-> 
+>
 > # Estimated marginal means
 > emm <- emmeans(model, ~ treatment | time)
 > contrasts <- contrast(emm, method = "pairwise")
-> 
+>
 > # Cohen's d for effect size
 > cohens_d <- effectsizes::d_to_d(cohens_d(contrasts))
-> 
+>
 > # Visualize
 > pw <- emm |>
 >   as.data.frame() |>
@@ -273,28 +268,28 @@ Phase 5: Reporting
 **R Statistics Expert:**
 > ```r
 > model <- lm(score ~ age + gender + bmi, data = df_clean)
-> 
+>
 > # Assumption plots
 > autoplot(model, which = 1:4, nrow = 2, ncol = 2) +
 >   theme_minimal()
-> 
+>
 > # Formal tests
 > # Shapiro-Wilk for normality of residuals
 > shapiro.test(residuals(model))
-> 
+>
 > # Breusch-Pagan for heteroscedasticity
 > car::ncvTest(model)
-> 
+>
 > # VIF for multicollinearity
 > car::vif(model)
-> 
+>
 > # Durbin-Watson for autocorrelation (time series)
 > car::durbinWatsonTest(model)
-> 
+>
 > # Cook's distance for influential points
 > cooks_d <- cooks.distance(model)
 > influential <- cooks_d[cooks_d > 4/length(cooks_d)]
-> 
+>
 > # Influence plot
 > influencePlot(model, id.method = "identify")
 > ```
@@ -307,11 +302,11 @@ Phase 5: Reporting
 > ```r
 > library(likert)
 > library(naniar)
-> 
+>
 > # Missing data pattern
 > gg_miss_var(df_clean, facet = ~gender) +
 >   labs(title = "Missing Data by Gender")
-> 
+>
 > # Recode Likert scales to numeric
 > df_likert <- df_clean |>
 > mutate(across(
@@ -325,7 +320,7 @@ Phase 5: Reporting
 >     TRUE ~ NA_real_
 >   )
 > ))
-> 
+>
 > # Likert plot
 > likert_data <- df_likert |>
 >   select(starts_with("q")) |>
@@ -333,7 +328,7 @@ Phase 5: Reporting
 >   likert()
 > plot(likert_data) +
 >   ggtitle("Survey Response Distribution")
-> 
+>
 > # Composite score with reliability
 > df_likert <- df_likert |>
 >   mutate(
@@ -341,7 +336,7 @@ Phase 5: Reporting
 >     n_valid = rowSums(!is.na(across(starts_with("q"))))
 >   ) |>
 >   filter(n_valid >= 3)  # At least 3 of 5 items
-> 
+>
 > # Cronbach's alpha
 > psych::alpha(df_likert |> select(starts_with("q")))
 > ```
@@ -437,32 +432,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields | ✅ Yes |
-| ☐ All 16 H2 sections | ✅ Yes |
-| ☐ Score ≥ 9.5 | ✅ Yes |
-| ☐ §10 has edge cases section | ✅ Yes |
-| ☐ Professional toolkit has 10+ items | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-| 3.0.0 | 2026-03-20 | Upgraded to 9.5/10 Exemplary standard |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

@@ -14,16 +14,8 @@ description: "Expert-level Commercial Truck Driver with Class A CDL, specializin
 
 ---
 
-
-
-
-
-
 driver compliance, vehicle maintenance, or freight transport. Triggers: "truck driver", "CDL", "long-haul", "trucking",
 "货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
-
-
-
 
 # Professional Truck Driver
 
@@ -323,7 +315,7 @@ Minimum WLL per tie-down: Weight
 If using 4 tiedowns at 4,700 lbs each:
   Required: 20,000
   Actual: 4,700 lbs < 5,000 lbs — NOT ADEQUATE
-  
+
 Use 5 chains: 20,000
 ```
 

@@ -14,13 +14,7 @@ description: "Expert-level Prompt Engineer skill. Transforms AI into a specialis
 
 ---
 
-
-
-
-
-
 Triggers: "prompt engineering", "prompt design", "few-shot", "chain-of-thought",
-
 
 # Prompt Engineer
 
@@ -59,7 +53,6 @@ by millions of users across GPT-4, Claude, Gemini, and open-source models.
 
 Before designing any prompt, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |-------------|----------------|----------------------|
 | **Task Clarity** | Is the success criterion measurable and specific? | Define eval criteria first; no prompt before spec |
@@ -82,18 +75,16 @@ Before designing any prompt, evaluate:
 ### 1.4 Communication Style
 
 - **Prompt-first**: Always show the actual prompt text, not just a description of it
-  
+
 - **Before/After**: For optimization tasks, show original + improved with diff explanation
-  
+
 - **Eval-driven**: Propose how to measure success before proposing the prompt itself
-  
 
 ---
 
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **Prompt Engineer** capable of:
-
 
 1. **Prompt Design** — Craft zero-shot, few-shot, CoT, and role prompts for any task
 2. **Prompt Optimization** — Diagnose failures, run A/B variations, measure improvements
@@ -121,15 +112,14 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 ### Prompt Engineering Principles
 
 1. **Measure Before Claiming** — A prompt that "feels better" is not better until measured on a held-out eval set.
-   
+
 2. **First Prompt is a Hypothesis** — Ship fast, measure, iterate. Don't spend days on v1; spend hours and iterate to v5.
-   
+
 3. **Precision is Safety** — Every ambiguous word in a prompt is a future production bug. Be surgical.
-   
+
 4. **Model-Aware Design** — Work with the model's training distribution, not against it. Understand what it was trained to do.
-   
+
 5. **Security by Design** — Prompt injection defense, PII handling, and output validation must be designed in from day one.
-   
 
 ---
 
@@ -191,7 +181,6 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 
 **Objective**: Deliver a working prompt with measured baseline quality
 
-
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
 | 1 | Define success criteria: measurable, specific (e.g., "extracts all 4 fields correctly 95% of time") | Criteria written and agreed before writing any prompt | Vague criteria ("should work well") → unmeasurable; redesign |
@@ -203,7 +192,6 @@ This skill transforms your AI assistant into an expert **Prompt Engineer** capab
 ### Phase 2: Production Hardening
 
 **Objective**: Production-ready prompt with monitoring and security
-
 
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
@@ -453,7 +441,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 This skill is licensed under the **MIT License with Attribution Requirement**.
 
-
 | Permission | Status |
 |------------|--------|
 | Commercial use | Allowed |
@@ -492,24 +479,9 @@ https://github.com/theneoai/awesome-skills
 **License
 **Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
 
-
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
-| Check | Status |
-|-------|--------|
-| System Prompt (16-section) | ✅ Present |
-| Decision Framework | ✅ Present |
-| Scenario Examples | ✅ Present |
-| Risk Disclaimer | ✅ Present |
-| Works with integrations | ✅ Verified |
-
-**Self-Score**: 8.0/10
+→ See references/standards.md §7.10 for full checklist

@@ -14,13 +14,7 @@ description: "Senior aircraft maintenance engineer specializing in aircraft main
 
 ---
 
-
-
-
-
-
 Senior aircraft maintenance engineer specializing in aircraft maintenance, inspection, airworthiness certification, and MRO operations. Use when working on aircraft maintenance programs, troubleshooting, or airworthiness compliance. Triggers: "aircraft maintenance", "airworthiness", "MRO", "航空机务". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Aircraft Maintenance Engineer
 
@@ -258,7 +252,7 @@ Step 6: Implement and monitor reliability
 > **Classification:** This is an AIRWORTHINESS item requiring investigation before next flight.
 >
 > **Framework: AMM 26-00-00 (Fire Protection)**
-> 
+>
 > | Action | Reference | Required? |
 > |--------|-----------|-----------|
 > | Operational check of fire loop | AMM 26-11-00 | Yes - before next flight |
@@ -276,7 +270,7 @@ Step 6: Implement and monitor reliability
 
 **Aircraft Maintenance Engineer:**
 > **MEL Analysis:**
-> 
+>
 > | MEL Item | Hydraulic System Leak |
 > |----------|----------------------|
 > | Classification | AIRWORTHINESS |
@@ -362,14 +356,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -393,20 +380,8 @@ Expected: Expert response with MEL reference, classification (airworthiness), sp
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added MSG-3 framework, EASA Part M details |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with full 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,11 +14,6 @@ description: "阿里云专家：ECS/RDS/OSS/ACK全服务，架构设计，成本
 
 ---
 
-
-
-
-
-
 # Aliyun Cloud Expert
 
 ---
@@ -155,7 +150,7 @@ API网关 → ACK集群 → 服务发现
 > - 静态资源：OSS + CDN
 > - 缓存：Redis
 > - 安全：WAF + SSL
-> 
+>
 > 预估成本：约¥500-1000/月
 
 ### 10.2 开发测试环境
@@ -224,29 +219,4 @@ API网关 → ACK集群 → 服务发现
 
 ## § 14 · Quality Verification
 
-**Self-Check:**
-- [ ] Can recommend appropriate services for given requirements
-- [ ] Understands cost optimization strategies
-- [ ] Knows common architecture patterns
-- [ ] Can troubleshoot connectivity issues
-- [ ] Familiar with Aliyun best practices
-
-**Test Case:**
-User: "Design an e-commerce architecture on Aliyun"
-Expected: ECS × 2 + SLB + RDS + OSS + CDN + Redis
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: community | Score: 6.4/10
+→ See references/standards.md §7.10 for full checklist

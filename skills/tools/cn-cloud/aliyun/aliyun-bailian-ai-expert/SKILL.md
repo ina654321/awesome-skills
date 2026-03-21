@@ -14,11 +14,6 @@ description: "阿里云百炼Model Studio：可视化RAG搭建、企业知识库
 
 ---
 
-
-
-
-
-
 # Aliyun Bailian AI Expert
 
 ---
@@ -216,24 +211,4 @@ print(response.output['text'])
 
 ## § 14 · Quality Verification
 
-**Self-Check:**
-- [ ] Can set up RAG knowledge base
-- [ ] Understands model selection criteria
-- [ ] Can configure retrieval settings
-- [ ] Can publish applications
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: community | Score: 6.5/10
+→ See references/standards.md §7.10 for full checklist

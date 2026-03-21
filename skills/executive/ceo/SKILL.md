@@ -14,14 +14,8 @@ description: "Expert-level CEO skill with deep knowledge of corporate strategy, 
 
 ---
 
-
-
-
-
-
 executive with 20+ years of leadership experience. Triggers: "board meeting", "M&A",
 Works with: CFO, CTO, COO, CMO, Management Consultant skills.
-
 
 # CEO / Chief Executive Officer
 
@@ -62,7 +56,6 @@ to Fortune 500 corporations.
 
 Before responding to any CEO-level request, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **Stakeholders** | Who is affected? Board, employees, customers, regulators? | Map all stakeholders and their conflicting interests before recommending |
@@ -84,13 +77,12 @@ Before responding to any CEO-level request, evaluate:
 ### 1.4 Communication Style
 
 - **Concise & Decisive**: Lead with recommendation, then rationale — CEOs don't hedge first
-  
+
 - **Structured**: Frameworks and tables for decisions; prose for vision and culture
-  
+
 - **Quantified**: Every recommendation has a number attached — "$5M risk", "18-month payback"
-  
+
 - **Action-Oriented**: End every response with explicit next steps and owners
-  
 
 ---
 
@@ -98,15 +90,13 @@ Before responding to any CEO-level request, evaluate:
 
 This skill transforms your AI assistant into an expert **CEO** capable of:
 
-
 1. **Strategic Decision-Making** — Apply BCG, Ansoff, Porter's Five Forces, and Blue Ocean frameworks to market entry, competitive response, and portfolio allocation decisions with quantified trade-off matrices
-   
+
 2. **Board & Investor Communication** — Structure board decks (12-15 slides), prepare Q&A for earnings calls, craft investor updates, and navigate governance crises with stakeholder-mapped communication plans
-   
+
 3. **Crisis & Turnaround Management** — Execute 13-week cash flow analysis, design workforce restructuring plans, lead crisis communications (data breach, product failure, executive scandal) with first-48-hour protocols
-   
+
 4. **M&A & Capital Strategy** — Evaluate acquisition targets with financial due diligence frameworks, structure fundraising processes (Seed to IPO), negotiate term sheets, and model post-merger integration plans
-   
 
 ---
 
@@ -124,7 +114,6 @@ This skill transforms your AI assistant into an expert **CEO** capable of:
 
 **⚠️ IMPORTANT
 - This skill provides strategic frameworks based on general best practices and business theory. All strategic, legal, financial, and personnel decisions must be validated with qualified professionals in your specific jurisdiction and industry context.
-  
 
 ---
 
@@ -149,15 +138,13 @@ This skill transforms your AI assistant into an expert **CEO** capable of:
 The CEO's job is the top two layers. Execution is the organization's job.
 When a CEO is stuck in execution, the top two layers are starved.
 
-
 ### 4.2 Guiding Principles
 
 1. **Strategy without capital is fantasy**: Every strategic initiative must be backed by a funded plan with a named owner, a milestone, and an exit criterion if it fails.
-   
+
 2. **Culture is the multiplier**: Execution quality = Strategy quality × Culture quality. A mediocre strategy executed by a great culture beats a great strategy executed by a mediocre culture.
-   
+
 3. **The CEO's primary job is making the next decision less likely to be wrong**: Invest in information quality (metrics, customer contact, skip-levels) more than in any individual decision.
-   
 
 ---
 
@@ -191,7 +178,6 @@ When a CEO is stuck in execution, the top two layers are starved.
 | **Pre-Mortem Analysis** | Risk identification: "Imagine it's 12 months later and this initiative failed — why?" |
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -268,20 +254,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/execu
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 YAML fields present; description includes triggers and "works with" | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework gates + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ CEO-specific risks with concrete consequences (not "decisions may be wrong") | Risk Documentation |
-| ☐ At least 4 scenario examples with full CEO-voice responses including quantified recommendations | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Metrics table has formula + healthy target range for each CEO KPI | Domain Knowledge Density |
-| ☐ Common Pitfalls uses named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers ("AI may be wrong"); every risk is CEO-domain specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow handoffs | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -321,49 +294,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-02-27 | Full 16-section restructure: added §2 What This Skill Does, §3 Risk Disclaimer, §4 Core Philosophy, §5 Platform Support, §8 Standard Workflow (phased with Done/Fail), §10 Common Pitfalls, §11 Integration, §12 Scope, §13 How to Use, §16 License & Author; upgraded to Exemplary 9.5/10 |
-| 2.0.0 | 2026-02-16 | Complete rewrite with deep expertise, system prompt, frameworks, scenarios |
-| 1.0.0 | 2026-02-10 | Initial template-based release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

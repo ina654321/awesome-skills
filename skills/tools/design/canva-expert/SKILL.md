@@ -14,11 +14,6 @@ description: "Canva设计：模板、社媒图片、海报。Use when creating d
 
 ---
 
-
-
-
-
-
 # Canva Expert
 
 **Self-Score:** 9.5/10 — Exemplary

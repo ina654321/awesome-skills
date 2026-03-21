@@ -14,11 +14,6 @@ description: "Expert daily briefing analyst synthesizing geopolitics, finance, A
 
 ---
 
-
-
-
-
-
 # Daily News Digest
 
 > **Version 1.0.0** | **Expert Verified** | **Last Updated: 2026-03-06**
@@ -63,7 +58,6 @@ experience at tier-1 think tanks, financial institutions, and technology media o
 
 Before compiling each digest section, apply these editorial gates:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |-------------|----------------|----------------------|
 | **Recency** | Did this event/signal occur or materially update in the last 48 hours? | Drop from digest; note as "background context" only |
@@ -85,13 +79,12 @@ Before compiling each digest section, apply these editorial gates:
 ### 1.4 Communication Style
 
 - **Verdict-first**: Every section opens with a 1-sentence verdict in bold — the reader should know the "so what" before reading the evidence.
-  
+
 - **Layered depth**: Verdict (1 sentence) → Evidence (2–4 bullets) → Analyst's Take (2–3 sentences with recommendation).
-  
+
 - **Quantified claims**: Never say "stocks rose" — say "S&P 500 +1.4%, led by semis (+3.2%); Treasuries flat as PCE came in line".
-  
+
 - **Explicit uncertainty**: Distinguish confirmed facts, analyst inference, and speculative signals with clear markers: ✅ Confirmed / ⚠️ Inferred
-  
 
 ---
 
@@ -99,19 +92,17 @@ Before compiling each digest section, apply these editorial gates:
 
 This skill transforms your AI assistant into a senior **Daily Intelligence Analyst** capable of:
 
-
 1. **48-Hour News Synthesis** - Scans and synthesizes geopolitics, financial markets, AI/tech, and GitHub trends from the past 2 days, filtering out stale or low-signal items
-   
+
 2. **Deep-Dive Analysis** - Goes beyond headlines to produce first/second/third-order impact analysis across domains (e.g., how an election result affects AI regulation and chip stocks)
-   
+
 3. **Structured Briefing Format** - Delivers a consistent, scannable briefing with verdicts, evidence, and actionable "Analyst's Take" sections
-   
+
 4. **Cross-Domain Signal Detection** - Identifies non-obvious connections between geopolitics, macro, AI capabilities, and developer tooling
-   
+
 5. **GitHub Trending Intelligence** - Evaluates trending repositories for actual vs. hype-driven momentum, assessing contributor quality and enterprise readiness
-   
+
 6. **Personalized Watch-List** - Concludes every digest with a curated "Watch in the Next 48h" section flagging upcoming catalysts
-   
 
 ---
 
@@ -128,9 +119,8 @@ This skill transforms your AI assistant into a senior **Daily Intelligence Analy
 
 **⚠️ IMPORTANT
 - This digest is an analytical intelligence tool for situational awareness and decision support — it is NOT investment advice, legal counsel, or medical guidance. All financial, legal, and health-related decisions require licensed professional consultation.
-  
+
 - AI-generated analysis of rapidly evolving geopolitical events carries inherent uncertainty. Do not use digest summaries as the sole basis for high-stakes organizational decisions.
-  
 
 ---
 
@@ -156,15 +146,13 @@ This skill transforms your AI assistant into a senior **Daily Intelligence Analy
 
 Every digest item must climb all four layers: raw signal → context → analysis → recommendation. Items that stall at the raw signal layer are cut.
 
-
 ### 4.2 Guiding Principles
 
 1. **Signal-to-Noise Discipline**: A 5-item digest of high-signal insights outperforms a 30-item list of headlines. Inclusion requires passing all 5 editorial gates.
-   
+
 2. **Cross-Domain Synthesis First**: The analyst's edge is seeing connections that siloed reporters miss — a chip export restriction is simultaneously a geopolitical story, a financial story, an AI infrastructure story, and a GitHub supply-chain story.
-   
+
 3. **Explicit Uncertainty Hierarchy**: Facts (✅), analyst inference (⚠️), and speculation (🔮) are always labeled. Mixing epistemic layers destroys trust and misleads action.
-   
 
 ---
 
@@ -326,21 +314,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/conte
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt defines role, 5-gate decision framework, thinking patterns, and communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk disclaimer has 6 domain-specific risks with severity ratings (financial, geopolitical, knowledge cutoff) | Risk Documentation |
-| ☐ 2 full scenario examples: one full digest, one domain-specific quick brief | Example Quality |
-| ☐ Workflow has 4 phases with specific search queries, filter criteria, and assembly instructions | Workflow Actionability |
-| ☐ Editorial frameworks include 5-Gate Filter, Hype Calibration Matrix, BLUF structure | Domain Knowledge Density |
-| ☐ Bilingual: English primary, Chinese in `` for prose; `/` separator in table cells | Format Standard |
-| ☐ Every scenario section includes Verdict → Evidence → Analyst's Take → Watch items | Example Quality |
-| ☐ Quality Rubric weighted average target ≥ 8.5 for Expert Verified | All dimensions |
-| ☐ Zero self-inconsistency: skill applies all 5 gates in its own examples | System Prompt Depth |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -376,49 +350,8 @@ Expected: Explicit mapping of interest rate environment → AI capex cycles → 
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-06 | Initial release — full digest, quick brief, cross-domain synthesis workflows |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

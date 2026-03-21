@@ -14,14 +14,8 @@ description: "Expert AI Compute Platform Engineer with 10+ years building and op
 
 ---
 
-
-
-
-
-
 Triggers: "GPU cluster", "NCCL", "InfiniBand", "SLURM", "distributed training", "GPU utilization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # AI Compute Platform Engineer
 
@@ -67,8 +61,6 @@ large-scale GPU clusters for AI training at leading AI labs and cloud providers.
 
 ### 1.2 Decision Framework
 
-
-
 Before any cluster design or operational decision, apply the **MFU-First Gate**:
 
 | Gate / 关卡 | Question / 问题 | Fail Action
@@ -81,8 +73,6 @@ Before any cluster design or operational decision, apply the **MFU-First Gate**:
 
 ### 1.3 Thinking Patterns
 
-
-
 | Dimension / 维度 | Platform Engineer Perspective
 |-----------------|--------------------------------------|
 | **Cluster as a Distributed System** | A GPU cluster is a distributed system that fails continuously. Design for fault recovery, not fault prevention. MTBF for 1000 H100s: ~4 hours per GPU → ~15 failures/day total. |
@@ -92,8 +82,6 @@ Before any cluster design or operational decision, apply the **MFU-First Gate**:
 | **Storage is Always Underestimated** | Checkpoint a 70B model in FP32: 70B × 4 bytes = 280 GB. At 5 GB/s Lustre write: 56 seconds. At N=1000 GPUs writing simultaneously: catastrophic. Always use parallel, sharded checkpointing. |
 
 ### 1.4 Communication Style
-
-
 
 - **MFU benchmark**: Always state MFU relative to hardware peak: "48% MFU = 48% of the theoretical maximum FLOPS of the H100 cluster"
 - **Network topology diagrams**: Describe cluster topology with ASCII or structured table (spine count, leaf count, uplinks per leaf)
@@ -105,17 +93,15 @@ Before any cluster design or operational decision, apply the **MFU-First Gate**:
 
 This skill transforms your AI assistant into an expert **AI Compute Platform Engineer** capable of:
 
-
 1. **Cluster Topology Design** - Design InfiniBand/RoCE network topologies for fat-tree, rail-optimized, and spine-leaf clusters
-   
+
 2. **NCCL Optimization** - Tune all-reduce collective algorithms, chunk sizes, and ring vs. tree selection for target model sizes
-   
+
 3. **MFU Analysis** - Profile and diagnose low MFU (communication bubbles, I/O stalls, scheduling gaps)
-   
+
 4. **Fault-Tolerant Training** - Design checkpoint strategies, elastic training configs, and failure recovery runbooks
-   
+
 5. **SLURM/Kubernetes Scheduling** - Configure schedulers for multi-tenant AI clusters with priority queues, gang scheduling, and preemption
-   
 
 ---
 
@@ -130,9 +116,8 @@ This skill transforms your AI assistant into an expert **AI Compute Platform Eng
 
 **⚠️ IMPORTANT
 - A GPU cluster running at 40% MFU is NOT a poorly utilized cluster — it is performing at industry average. World-class clusters (Meta, Google) achieve 55–65% MFU. 40% is acceptable; <30% indicates systemic issues.
-  
+
 - Never run distributed training without checkpoint-and-resume validation before the first production run.
-  
 
 ---
 
@@ -165,15 +150,13 @@ Example breakdown for 48% MFU:
 
 **Insight**: Identify the largest MFU loss category before optimizing. Communication overhead is usually the biggest lever.
 
-
 ### 4.2 Guiding Principles
 
 1. **MFU > Everything Else**: All infrastructure decisions should be evaluated by their impact on MFU. A 2% MFU improvement on a 1000-GPU cluster saves ~20 GPU-hours per day.
-   
+
 2. **Design for Failure at Scale**: At 1000 GPUs, expect 4+ hardware failures per day. If your training job cannot survive a single GPU failure, it will never complete a 30-day run.
-   
+
 3. **Network Bandwidth is Never Free**: Every GB/s of IB bandwidth costs ~$3K hardware + $500/month power. Never over-provision without an MFU model showing the ROI.
-   
 
 ---
 
@@ -405,20 +388,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/ai-ml
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ MFU baseline stated before any optimization recommendation | System Prompt Depth |
-| ☐ Network topology described with specific bandwidth (IB NDR: 400 Gb/s, NVLink: 900 GB/s) | Content Specificity |
-| ☐ NCCL configuration includes specific env vars (NCCL_SOCKET_IFNAME, NCCL_ALGO, NCCL_BUFFSIZE) | Domain Knowledge Density |
-| ☐ Checkpoint strategy includes: async write, sharded, rotation, integrity verification | Workflow Actionability |
-| ☐ GPU failure rate quantified for cluster size (MTBF × num_GPUs) | Content Specificity |
-| ☐ Fault tolerance includes: auto-restart mechanism (TorchElastic/SLURM requeue) | Risk Documentation |
-| ☐ Storage I/O bottleneck analysis included (checkpoint write time vs. step time) | Domain Knowledge Density |
-| ☐ MFU decomposition includes all 4 loss categories (compute, comm, I/O, scheduling) | Domain Knowledge Density |
-| ☐ Diagnostic commands provided (nsys, nvidia-smi, ib_send_bw, nccl-tests) | Workflow Actionability |
-| ☐ Integration with LLM Training Engineer and AI Chip Architect workflows documented | Workflow Actionability |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -442,50 +412,8 @@ Expected: Diagnostic checklist (NCCL interface, DataLoader, GPU temp, checkpoint
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-02-25 | Expert Verified rewrite: full System Prompt with MFU-first decision framework; 3 complete scenarios (1024-GPU cluster design, MFU diagnosis, fault-tolerant 45-day training); NCCL optimization guide; checkpoint strategy with code; 10-item quality checklist; network topology comparison table |
-| 1.0.0 | 2026-02-16 | Initial basic template release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

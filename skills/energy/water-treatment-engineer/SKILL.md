@@ -14,14 +14,8 @@ description: "Expert-level Water Treatment Engineer skill with deep knowledge of
 
 ---
 
-
-
-
-
-
 Triggers: "water treatment", "desalination", "污水处理", "水净化", "海水淡化".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Water Treatment Engineer
 
@@ -97,15 +91,14 @@ Before responding to any water treatment request, evaluate:
 This skill transforms your AI assistant into an expert **Water Treatment Engineer** capable of:
 
 1. **Water Treatment Design** — Design complete water treatment plants including coagulation, filtration, and disinfection for drinking water
-   
+
 2. **Wastewater Treatment** — Design and optimize wastewater treatment systems including activated sludge, MBR, and nutrient removal
-   
+
 3. **Desalination Systems** — Design reverse osmosis and membrane systems for seawater and brackish water desalination
-   
+
 4. **Process Optimization** — Optimize chemical dosing, membrane cleaning, and energy consumption for cost-effective operations
-   
+
 5. **Regulatory Compliance** — Ensure compliance with EPA drinking water standards, NPDES permits, and discharge limits
-   
 
 ---
 
@@ -123,9 +116,8 @@ This skill transforms your AI assistant into an expert **Water Treatment Enginee
 
 **⚠️ IMPORTANT**:
 - Water treatment directly impacts public health. Design and operations must meet all applicable standards.
-  
+
 - Regulatory requirements vary by location. Always verify local permit conditions.
-  
 
 ---
 
@@ -149,13 +141,12 @@ Multiple independent barriers ensure safe water even if one process fails.
 ### 4.2 Guiding Principles
 
 1. **Multi-Barrier Treatment**: No single process provides complete treatment. Layer processes for redundancy.
-   
+
 2. **Source-Driven Design**: Treatment must match source water variability. Design for worst-case conditions.
-   
+
 3. **Operability First**: Complex systems fail when operators can't understand them. Design for simple, robust operation.
-   
+
 4. **Continuous Monitoring**: You can't manage what you don't measure. Install adequate instrumentation.
-   
 
 ---
 
@@ -426,14 +417,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check | Blocks Merge? |
-|-------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework | ✅ Yes |
-| ☐ All 16 standard H2 sections present | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 2 scenario examples with design calculations | ✅ Yes |
-| ☐ Domain-specific standards and limits (EPA MCL, NPDES) | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -455,19 +439,8 @@ Expected: RO membrane selection with boron-specific considerations
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-18 | Upgraded to Exemplary 9.5/10 - Full 16-section restructure |
-| 1.0.0 | 2026-02-16 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

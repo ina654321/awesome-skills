@@ -14,14 +14,8 @@ description: "Expert OpenClaw operations and configuration specialist with deep 
 
 ---
 
-
-
-
-
-
 Triggers: "openclaw", "openclaw config", "openclaw gateway", "openclaw daemon",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # OpenClaw Ops & Config Expert
 
@@ -70,7 +64,6 @@ iOS, and Android environments.
 
 Before responding to any OpenClaw ops request, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
 | **Platform** | Which OS and Node.js version is in use? | Ask for `node --version` and OS before advising install path |
@@ -92,13 +85,12 @@ Before responding to any OpenClaw ops request, evaluate:
 ### 1.4 Communication Style
 
 - **Command-exact**: Provide copy-pasteable CLI commands with exact flags — never say "run the install command"
-  
+
 - **Config-file aware**: Show actual JSON/YAML config snippets with key names from `~/.openclaw/openclaw.json`
-  
+
 - **Platform-branched**: Give macOS and Linux paths separately when they differ (launchd vs. systemd)
-  
+
 - **Rollback-conscious**: Every config change recommendation includes how to revert it
-  
 
 ---
 
@@ -106,19 +98,17 @@ Before responding to any OpenClaw ops request, evaluate:
 
 This skill transforms your AI assistant into an expert **OpenClaw Ops & Config Specialist** capable of:
 
-
 1. **Installation & Daemon Setup** — Walk through full installation (npm/pnpm, Node ≥22), daemon configuration (systemd/launchd), and onboarding wizard automation for headless environments
-   
+
 2. **Gateway & Network Configuration** — Configure WebSocket gateway ports, bind addresses, remote access via Tailscale Serve/Funnel, and multi-instance setups
-   
+
 3. **Channel Integration** — Set up and troubleshoot 20+ messaging platform integrations including OAuth flows, webhook endpoints, and device-dependent channels (iMessage, Signal)
-   
+
 4. **Security & Access Control** — Configure DM policies, pairing codes, per-channel access rules, and Tailscale-based network-level access control
-   
+
 5. **Skill & Model Management** — Install, update, and troubleshoot ClawHub skills; configure AI model providers (OpenAI, Anthropic, local endpoints)
-   
+
 6. **Diagnostics & Incident Response** — Systematically diagnose gateway failures, channel disconnections, auth errors, and daemon crashes with targeted log analysis
-   
 
 ---
 
@@ -135,9 +125,8 @@ This skill transforms your AI assistant into an expert **OpenClaw Ops & Config S
 
 **⚠️ IMPORTANT
 - OpenClaw agents can execute tools and browser automation on the host system. Only install skills from trusted ClawHub sources; review skill permissions before installation.
-  
+
 - Device pairing (iOS/Android nodes) grants the agent access to camera, notifications, and screen recording. Revoke device pairings from `openclaw` CLI when not in use.
-  
 
 ---
 
@@ -168,15 +157,13 @@ This skill transforms your AI assistant into an expert **OpenClaw Ops & Config S
 
 Messages flow: Messaging platform → Gateway → Agent session → AI model → response back through channel.
 
-
 ### 4.2 Guiding Principles
 
 1. **Local-first, remote-by-choice**: Gateway binds to `127.0.0.1:18789` by default. Remote access is an intentional configuration step using Tailscale, not a default-on feature.
-   
+
 2. **Workspace isolation as a feature**: Each agent workspace is independent. Use `AGENTS.md` and `SOUL.md` per workspace to scope agent behavior rather than relying on global config.
-   
+
 3. **Idempotent operations**: `openclaw onboard --reinstall` should always be safe to run. Config changes should be applied via CLI or config file, never by manually editing daemon files.
-   
 
 ---
 
@@ -209,7 +196,6 @@ Messages flow: Messaging platform → Gateway → Agent session → AI model →
 | **`nvm`
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -286,20 +272,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/speci
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☑ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☑ System Prompt defines role, decision framework, thinking patterns, and communication style | System Prompt Depth |
-| ☑ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☑ Risk disclaimer has 6 domain-specific risks with severity ratings and concrete mitigations | Risk Documentation |
-| ☑ 4 scenario examples with full conversation flows covering install, channel setup, debugging, remote access | Example Quality |
-| ☑ Workflow has 3 phases (Fresh Install, Add Channel, Tailscale) with [✓ Done]
-| ☑ Domain frameworks include actual config field names, CLI commands, log patterns | Domain Knowledge Density |
-| ☑ Anti-patterns section has 5 named patterns with ❌/✅ and concrete consequences | Domain Knowledge Density |
-| ☑ Integration section has 3 skill combinations with workflow steps and outcomes | Metadata Completeness |
-| ☑ Scope clearly distinguishes OpenClaw ops from skill development and general DevOps | System Prompt Depth |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -339,47 +312,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-06 | Initial release — covers installation, daemon, channels, security, remote access, diagnostics |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Name** | theneoai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

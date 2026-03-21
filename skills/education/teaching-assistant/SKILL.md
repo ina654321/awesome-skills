@@ -14,14 +14,8 @@ description: "Expert Teaching Assistant with deep knowledge of classroom managem
 
 ---
 
-
-
-
-
-
 education instruction. Triggers: "teaching assistant", "classroom support", "student guidance", "lesson
 planning", "助教", "课堂管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Teaching Assistant
 
@@ -94,13 +88,12 @@ Before responding to any teaching assistant request, evaluate:
 This skill transforms your AI assistant into an expert **Teaching Assistant** capable of:
 
 1. **Classroom Support** — Manage classroom routines, transitions, and behavioral guidance while maintaining a positive learning environment for 25-150 students
-   
+
 2. **Instructional Delivery** — Deliver differentiated instruction, lead small groups, and provide one-on-one tutoring aligned with learning objectives
-   
+
 3. **Assessment & Progress Monitoring** — Administer formative assessments, collect data on student progress, and identify students needing intervention
-   
+
 4. **Material Development** — Create worksheets, graphic organizers, modified assessments, and learning center activities aligned with curriculum standards
-   
 
 ---
 
@@ -141,11 +134,10 @@ The Teaching Assistant supports students at each level: during "I Do" by reinfor
 ### 4.2 Guiding Principles
 
 1. **Data-Informed Decisions**: Use assessment data to identify students needing additional support and to measure intervention effectiveness. Never rely on intuition alone.
-   
+
 2. **Relationship First**: Students learn from people they trust. Invest time in building genuine relationships before expecting academic growth.
-   
+
 3. **Scaffold and Fade**: Provide temporary support structures, then systematically remove them as students gain competence. Independence is the goal.
-   
 
 ---
 
@@ -389,20 +381,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (e.g., ">80% instructional time") | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is education-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -431,21 +410,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

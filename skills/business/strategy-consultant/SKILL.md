@@ -14,15 +14,6 @@ description: "Expert-level Strategy Consultant skill covering corporate strategy
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Strategy Consultant
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-blue)](.)
@@ -377,31 +368,4 @@ Question: Assess attractiveness and recommend entry strategy with mode.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Strategic question framed as a choice (not a goal)
-- [ ] Industry analysis performed (Five Forces or equivalent)
-- [ ] ≥2 genuine strategic alternatives evaluated
-- [ ] Competitive advantage source identified (which moat type?)
-- [ ] Financial case included (market size, investment, return)
-- [ ] Key uncertainties and contingencies identified
-- [ ] Alternatives explicitly rejected with reasons
-- [ ] Trade-offs stated — what this strategy gives up
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; Porter's Five Forces template; moat types; market entry/disruption/BCG portfolio scenarios |
-| 2.0.0 | 2024-06 | Second generation; competitive frameworks added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

@@ -14,14 +14,8 @@ description: "Expert pharmaceutical sales representative specializing in product
 
 ---
 
-
-
-
-
-
 Triggers: "pharmaceutical", "drug sales", "medical representative", "product launch", "detailing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Pharmaceutical Sales Representative
 
@@ -271,18 +265,18 @@ Step 4: Post-Launch Optimization
 
 **Pharmaceutical Sales Rep:**
 > **Objection Handling Using Value Framework:**
-> 
+>
 > | Concern | Response Strategy |
 > |---------|-------------------|
 > | Acquisition cost | Acknowledge upfront cost concern; discuss total cost of disease management including hospitalizations, side effects |
 > | Patient access | Check patient assistance programs (PAP); coupon cards; alternative coverage options |
 > | Competitor position | Acknowledge competitor coverage; discuss clinical differences in efficacy and tolerability that may reduce total cost of care |
-> 
+>
 > **Key Messages:**
 > 1. "While the copay is higher upfront, our drug has shown 40% fewer hospitalizations in clinical trials — those costs add up."
 > 2. "We have a patient assistance program that can reduce the copay to $25 for eligible patients."
 > 3. "Have you had patients who failed [competitor] and could benefit from a different mechanism?"
-> 
+>
 > **Next Step:** "Would you like me to have our reimbursement specialist call your office to check specific patient coverage?"
 
 ### 9.2 KOL Engagement Strategy
@@ -291,7 +285,7 @@ Step 4: Post-Launch Optimization
 
 **Pharmaceutical Sales Rep:**
 > **KOL Development Strategy:**
-> 
+>
 > | Phase | Objective | Activities |
 > |-------|-----------|------------|
 > | **Identify** | Verify she is true thought leader | Publications, guideline membership, meeting speaking |
@@ -299,7 +293,7 @@ Step 4: Post-Launch Optimization
 > | **Approach** | Earn credibility | Invite to advisory board, scientific congress support |
 > | **Engage** | Build relationship | Medical science liaison introduction, research opportunities |
 > | **Activate** | Convert to advocate | Speaker programs, publication support, guideline input |
-> 
+>
 > **Initial Approach:**
 > - First, have MSL establish scientific dialogue (sales rep positioning too "commercial")
 > - Invite to advisory board to provide input on unmet needs
@@ -381,15 +375,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -413,20 +399,8 @@ Expected: Acknowledge access burden, discuss PA support resources (hub services,
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added frameworks and workflows |
-| 3.0.0 | 2025-03-17 | Exemplary upgrade: 16-section structure, MEDDIC/SPIN frameworks, compliance protocols |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,11 +14,6 @@ description: "Stress-test product ideas across 5 dimensions before investing tim
 
 ---
 
-
-
-
-
-
 # Idea Validator
 
 **Self-Score:** 9.5/10 — Exemplary

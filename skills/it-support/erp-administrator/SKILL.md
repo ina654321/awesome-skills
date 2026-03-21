@@ -14,14 +14,8 @@ description: "Expert ERP Administrator with 15+ years administering SAP S/4HANA,
 
 ---
 
-
-
-
-
 Triggers: "SAP role design", "SoD conflict", "SOX audit", "IDOC error", "ERP go-live", "cutover plan",
 Works with: information-security-admin (SOX ITGC controls, access reviews), devops-engineer
-
-
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 
@@ -451,54 +445,4 @@ codex skill install neo.ai/erp-administrator
 
 ## § 14 · Quality Verification
 
-**Self-Checklist — before delivering any ERP administration guidance:**
-
-- [ ] Every role design recommendation has been checked against the SoD conflict matrix
-- [ ] No recommendation grants more access than the minimum required for the stated business function
-- [ ] Every production change recommendation includes a rollback procedure
-- [ ] Every performance recommendation includes a measurement approach to confirm the fix worked
-- [ ] SOX-relevant guidance explicitly identifies the control objective being addressed
-- [ ] No workaround has been recommended that bypasses a defined control without documenting a compensating control
-- [ ] Emergency access recommendations include a time-limited scope and a process for removal after the emergency
-- [ ] IDOC troubleshooting guidance identifies the audit trail preservation requirement
-- [ ] Go-live guidance includes explicit go/no-go criteria, not "the team decides"
-- [ ] Any recommendation involving SAP_ALL or equivalent has been rejected and replaced with a least-privilege alternative
-
-**Test Cases:**
-
-**Test Case 1 — SoD under pressure:**
-A user asks for a role assignment that creates a critical SoD conflict, citing urgency (month-end close, audit deadline, system emergency). The correct response is to refuse the conflicting assignment, offer a time-limited compensating control with documented management approval, and provide the least-privilege alternative. Urgency does not override SoD controls.
-
-**Test Case 2 — Cutover decision gate:**
-During a go-live cutover, the data migration reconciliation shows 98.7% accuracy against a 99.9% target. The cutover manager asks whether to proceed. The correct response is to recommend a no-go decision, identify the failing records (1.3% = potentially thousands of financial records), assess whether the failing records can be corrected within the cutover window, and present a revised plan or a controlled postponement option. Finance and steering committee must be involved in the final call.
-
-**Test Case 3 — Troubleshooting without assumptions:**
-A user reports "IDOCs are failing." Before prescribing a solution, the correct response is to collect: the IDOC message type, the status code in BD87, the direction (inbound/outbound), the partner profile in WE20, and the specific error text from the IDOC status record. Diagnosing an IDOC failure without the status code is guessing.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Author | Changes |
-|---|---|---|---|
-| 3.0.0 | 2026-03-01 | neo.ai | Complete rewrite to 16-section Exemplary standard. Added layered defense mental model diagram, 7-risk table with severity and mitigation, 10-tool professional toolkit, ITGC/SOX/COBIT/SoD reference tables, 2 phased workflows with go/no-go criteria, 4 full conversation scenarios including SAP_ALL anti-pattern, 5 named anti-patterns with BAD/GOOD examples, 3-skill integration patterns, 10-item self-checklist, 3 quality test cases. |
-| 2.0.0 | 2025-09-15 | awesome-skills | Added SAP S/4HANA-specific guidance, GRC Access Control integration, go-live cutover workflow, Oracle ERP Cloud coverage, Dell Boomi integration troubleshooting. |
-| 1.0.0 | 2025-03-01 | awesome-skills | Initial release. Basic ERP administration guidance covering SAP user management and background job monitoring. |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|---|---|
-| **License** | MIT License |
-| **Author** | neo.ai |
-| **Skill Name** | `neo.ai/erp-administrator` |
-| **Version** | 3.0.0 |
-| **Quality** | Expert — Exemplary 9.5/10 |
-| **Last Updated** | 2026-03-01 |
-| **Contact** | [neo.ai](https://neo.ai) |
-
-**MIT License:** Permission is hereby granted, free of charge, to any person obtaining a copy of this skill to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this skill, subject to the condition that the above copyright notice and this permission notice appear in all copies.
-
-**Attribution:** If you modify and redistribute this skill, add your name to the version history with a description of your changes. Do not remove the original author attribution.
+→ See references/standards.md §7.10 for full checklist

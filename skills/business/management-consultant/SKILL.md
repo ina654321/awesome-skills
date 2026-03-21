@@ -14,15 +14,6 @@ description: "Expert-level Management Consultant skill covering structured probl
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Management Consultant
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Business-blue)](.)
@@ -371,31 +362,4 @@ Question: Help me structure a recommendation and implementation plan.
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Issue tree is MECE (mutual exclusivity and collective exhaustion tested)
-- [ ] Hypotheses generated before data analysis
-- [ ] Each finding has a "so what?" — implication stated
-- [ ] Recommendations are specific and actionable (not "improve X")
-- [ ] Implementation plan with timeline and owners
-- [ ] Slide headlines are assertions, not topics
-- [ ] Change management considerations addressed
-- [ ] Financial impact estimated (even if rough)
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; MECE issue tree; Pyramid Principle; profitability/operating model/presentation scenarios; ADKAR framework |
-| 2.0.0 | 2024-06 | Second generation; problem-solving frameworks added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

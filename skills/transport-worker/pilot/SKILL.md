@@ -14,16 +14,8 @@ description: "Expert-level Professional Pilot with Airline Transport Pilot Licen
 
 ---
 
-
-
-
-
-
 working on flight operations, aviation safety, pilot decision-making, or aircraft systems. Triggers: "pilot", "飞行",
 "aviation", "flight safety", "aircraft operation". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
-
-
-
 
 # Professional Pilot
 
@@ -284,7 +276,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 Start Engine Failure After Takeoff
     │
     ├─► Can terrain be cleared? ──YES──► Continue to suitable airport
-    │                                     
+    │
     └─► NO ──► Must land straight ahead or within 35 ft obstacle clearance
               (may require immediate landing)
 ```

@@ -8,20 +8,14 @@ quality: expert
 score: 8.1/10
 difficulty: expert
 category: cybersecurity
-tags: 
-platforms: 
+tags:
+platforms:
 description: "Expert-level privacy-preserving computation specialist covering homomorphic encryption,"
 
 ---
 
-
-
-
-
 Triggers: "privacy-preserving", "homomorphic encryption", "federated learning",
 Works with: secure-code-reviewer, compliance-auditor, ml-engineer,
-
-
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.5/10** | **Last Updated: 2026-03-01**
 
@@ -668,79 +662,4 @@ above.
 
 ## § 14 · Quality Verification
 
-**Self-Checklist for Every Response:**
-- [ ] Adversarial model stated explicitly (semi-honest / malicious / covert
-- [ ] DP epsilon and delta values provided with calibration rationale, not just asserted.
-- [ ] Performance overhead estimated (not minimized) before recommending HE or SMPC.
-- [ ] Regulatory basis identified (GDPR article, PIPL provision, HIPAA rule).
-- [ ] Remote attestation requirement stated for all TEE recommendations.
-- [ ] Composition analysis performed for any multi-step DP mechanism.
-- [ ] Anti-patterns called out proactively when user describes FINO or epsilon theater.
-
-**Test Case 1 — DP Calibration:**
-Query: "We need DP training for 10,000 patients, 200 rounds, epsilon <= 5."
-Expected response: Opacus or TF Privacy recommendation; Renyi accountant
-configuration; noise multiplier sigma >= 1.0 derivation; sampling rate
-selection with privacy amplification; accuracy impact warning for clinical use.
-
-**Test Case 2 — TEE Architecture:**
-Query: "We want to process credit card numbers in an Azure SGX enclave."
-Expected response: TCB minimization guidance; DCAP attestation implementation
-steps; Foreshadow/SGAxe patch verification procedure; sealed storage policy
-(MRSIGNER vs MRENCLAVE); EPC size planning; key escrow for enclave migration.
-
-**Test Case 3 — Anti-Pattern Detection:**
-Query: "Our federated learning server aggregates hospital model weights — is this GDPR-compliant?"
-Expected response: FINO anti-pattern identification by name; gradient inversion
-attack explanation with citation; DPA obligation analysis under Art. 26/28; three
-concrete fixes (DP-SGD, secure aggregation, attestation).
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-01 | Full rewrite to 9.5/10 exemplary standard. Added 16-section structure, LINDDUN threat taxonomy table, 5-gate decision framework, Concrete ML and FATE in toolkit, FINO anti-pattern scenario, formal DP composition analysis, EU AI Act and PIPL coverage, complete TEE deployment pipeline with attestation steps, 5 named anti-patterns with code examples. |
-| 2.1.0 | 2025-06-15 | Added OpenFHE and Enarx to toolkit. Expanded TEE section with AMD SEV-SNP. Updated GDPR cross-border analysis for post-Schrems-II SCCs. |
-| 1.0.0 | 2026-02-16 | Initial release covering basic federated learning with PySyft and TF Privacy. Minimal HE coverage. No TEE or ZKP content. |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| **License** | MIT License |
-| **Author** | neo.ai |
-| **Skill Version** | 3.0.0 |
-| **Quality Rating** | Expert Verified — 9.5/10 Exemplary |
-| **Last Updated** | 2026-03-01 |
-| **Category** | Cybersecurity
-
-```
-MIT License
-
-Copyright (c) 2026 neo.ai
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this skill and associated documentation files, to deal in the skill without
-restriction, including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the skill,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the skill.
-
-THE SKILL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR SHALL
-NOT BE LIABLE FOR ANY CRYPTOGRAPHIC MISCONFIGURATION, REGULATORY PENALTY, OR
-DATA BREACH ARISING FROM USE OF THIS SKILL. ALL PRODUCTION DEPLOYMENTS HANDLING
-SENSITIVE PERSONAL DATA MUST BE REVIEWED BY QUALIFIED CRYPTOGRAPHERS AND PRIVACY
-COUNSEL BEFORE GO-LIVE.
-```
-
----
-
-*This skill was designed to bring formal privacy engineering rigor to Claude Code
-interactions. It does not replace qualified cryptographers, privacy lawyers, or
-security auditors for production systems handling sensitive personal data.*
+→ See references/standards.md §7.10 for full checklist

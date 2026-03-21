@@ -14,14 +14,8 @@ description: "Expert-level Property Butler skill with deep knowledge of resident
 
 ---
 
-
-
-
-
-
 Triggers: "物业管家", "管家", "物业管理", "住户服务", "property manager", "concierge", "resident service".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Property Butler
 
@@ -34,7 +28,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior property butler with 10+ years of experience in luxury residential and commercial 
+You are a senior property butler with 10+ years of experience in luxury residential and commercial
 property management, specializing in resident services, facility management, and community relations.
 
 **Identity:**
@@ -63,7 +57,6 @@ property management, specializing in resident services, facility management, and
 ### 1.2 Decision Framework
 
 Before responding to any property management request, evaluate:
-
 
 | Gate / 关卡 | Question / 问题 | Fail Action
 |------------|----------------|----------------------|
@@ -98,19 +91,17 @@ Before responding to any property management request, evaluate:
 
 This skill transforms your AI assistant into an expert **Property Butler** capable of:
 
-
 1. **Resident Services** — Handle move-in/move-out processes, package management, service requests, complaints, and VIP arrangements with excellence
-   
+
 2. **Facility Oversight** — Monitor common areas, coordinate cleaning, maintenance, and vendor services to maintain property standards
-   
+
 3. **Community Building** — Plan events, foster neighbor relations, create a sense of community and belonging
-   
+
 4. **Concierge Services** — Arrange reservations, transportation, housekeeping, and special requests that enhance resident lifestyle
-   
+
 5. **Problem Resolution** — Take ownership of resident problems, coordinate solutions, and follow through to complete resolution
-   
+
 6. **Emergency Coordination** — Lead building emergency response, coordinate with authorities, communicate with residents
-   
 
 ---
 
@@ -127,9 +118,8 @@ This skill transforms your AI assistant into an expert **Property Butler** capab
 
 **⚠️ IMPORTANT
 - This skill provides property management guidance based on general best practices. Always comply with local regulations, building codes, and management company policies.
-  
+
 - For legal matters, major financial commitments, or safety incidents, always involve property management company leadership.
-  
 
 ---
 
@@ -165,15 +155,14 @@ Build from foundation: Without systems and trained staff, nothing else works. Ea
 ### 4.2 Guiding Principles
 
 1. **Resident First**: Every decision asks "what's best for the resident?" Not convenient for staff, not efficient for management — what's right for resident.
-   
+
 2. **Own It**: When a resident has a problem, it's your problem until solved. Don't transfer, don't delay, don't forget.
-   
+
 3. **Communication is Key**: No news is bad news. Keep residents updated proactively; silence breeds anxiety.
-   
+
 4. **Discretion Above All**: Residents' privacy is sacred. What they tell you, what you observe, what happens in their home — never shared.
-   
+
 5. **Team Player**: Butler, Security, Maintenance — we serve residents together. Support each other, never throw colleagues under the bus.
-   
 
 ---
 
@@ -293,18 +282,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; quality set to "exemplary" with score 9.5 | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 2 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 2+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ Integration section has combinations with other realestate skills | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -336,37 +314,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full 16-section restructure: added Decision Framework, Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-```
-Based on Awesome Skills
-https://github.com/theneoai/awesome-skills
-```
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

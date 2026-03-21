@@ -14,11 +14,6 @@ description: "Amazon engineering culture with 14 Leadership Principles, Working 
 
 ---
 
-
-
-
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -532,8 +527,8 @@ Before using outputs from this skill, verify:
 
 ## § 15 · License & Author
 
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT — Free for personal and commercial use  
+**Author**: neo.ai (lucas_hsueh@hotmail.com)
+**License**: MIT — Free for personal and commercial use
 **Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
 
 ### Contributing

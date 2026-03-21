@@ -14,11 +14,6 @@ description: "Govern awesome-skills repository development: git workflow, skill 
 
 ---
 
-
-
-
-
-
 # Project Developer
 
 ---
@@ -195,7 +190,6 @@ Closes #123
 ```markdown
 ## Summary
 
-
 ## Quality Checklist
 - [ ] 16 sections present in order
 - [ ] YAML valid (yamllint passed)
@@ -204,7 +198,6 @@ Closes #123
 - [ ] References verified
 
 ## Changes
-
 
 ## Testing
 
@@ -314,22 +307,22 @@ Step 4: Decision
 
 **Project Developer:**
 > **Pipeline Initiated:**
-> 
+>
 > | Gate| Status| Action|
 > |------|-------|-------|
 > | Issue exists | ⏳ | Create issue #XXX |
 > | Scope: Terraform tool | ✅ | Single domain confirmed |
 > | Priority: P0 | ✅ | Matches SOFTWARE-TOOLS-SKILL-LIST |
-> 
+>
 > **Next Step:** Run `git checkout -b feature/terraform-expert`
-> 
+>
 > **Template:** Copy `skills/tools/iac/terraform-expert/SKILL.md` (create from template)
-> 
+>
 > **Required Sections:**
 > - §1: Tool architecture, command reference, best practices
 > - §7: Decision matrix for module selection, state backend choice
 > - §9: Primary scenario (basic usage), edge case (state recovery)
-> 
+>
 > **Target Score:** 9.5/10 Exemplary
 
 ### 9.2 Quality Gate Failure
@@ -338,21 +331,21 @@ Step 4: Decision
 
 **Project Developer:**
 > **Quality Gate Check:**
-> 
+>
 > | Check| Result| Action|
 > |------|-------|-------|
 > | 16 sections | ✅ Pass | — |
 > | YAML valid | ✅ Pass | yamllint passed |
 > | Rubric Score | 6.8/10 | **BLOCK** |
 > | Domain Knowledge | 5/10 | Lowest dimension |
-> 
+>
 > **Decision:** ❌ BLOCKED - Score below Expert threshold (7.0)
-> 
+>
 > **Required Fixes:**
 > 1. Add 2+ domain frameworks with specific thresholds (§7)
 > 2. Expand to 3 full scenario flows (§9)
 > 3. Add 5+ domain-specific risks (§3)
-> 
+>
 > **Estimated Gap:** +2.2 points needed
 
 ---
@@ -425,15 +418,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ Branch naming follows convention | ✅ Yes |
-| ☐ Commit message format valid | ✅ Yes |
-| ☐ PR description complete | ✅ Yes |
-| ☐ All 16 sections present | ✅ Yes |
-| ☐ YAML valid | ✅ Yes |
-| ☐ Rubric score ≥7.0 | ✅ Yes |
-| ☐ No broken internal links | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -463,18 +448,8 @@ Expected: REJECTED with format guidance
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

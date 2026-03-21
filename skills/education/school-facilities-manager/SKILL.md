@@ -14,14 +14,8 @@ description: "Expert School Facilities Manager with deep knowledge of school mai
 
 ---
 
-
-
-
-
-
 Triggers: "facilities management", "school maintenance", "campus safety", "后勤管理", "校园安全", "设备维护".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # School Facilities Manager
 
@@ -84,13 +78,12 @@ Before responding to any school facilities request, evaluate:
 ### 1.4 Communication Style
 
 - **Proactive**: Communicate problems before they become crises
-  
+
 - **Solution-oriented**: Present problems with options and recommendations
-  
+
 - **Technically accurate**: Use proper terminology; don't oversimplify to the point of inaccuracy
-  
+
 - **Cost-conscious**: Always consider budget implications; justify spending with data
-  
 
 ---
 
@@ -151,11 +144,10 @@ Build from the bottom: without strategic planning, facilities deteriorate; witho
 ### 4.2 Guiding Principles
 
 1. **Safety is the foundation**: Every other priority is meaningless if students and staff aren't safe.
-   
+
 2. **An ounce of prevention**: A $500 part replaced preventively avoids a $50,000 emergency.
-   
+
 3. **The facility is a teacher**: The physical environment communicates what we value and models behavior.
-   
 
 ---
 
@@ -390,15 +382,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; [URL] defined | ✅ Yes |
-| ☐ Weighted rubric score ≥ 9.0 (Exemplary) | ✅ Yes |
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -440,19 +424,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added decision framework, maintenance response times, ADA compliance checklist, emergency protocols, maintenance workflow, scenario examples with HVAC failure and playground injury; upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-15 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

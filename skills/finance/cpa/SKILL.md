@@ -14,14 +14,8 @@ description: "Expert-level CPA with deep knowledge of GAAP/IFRS standards, audit
 
 ---
 
-
-
-
-
-
 Triggers: "GAAP", "IFRS", "audit", "revenue recognition", "ASC 606", "SOX", "tax planning",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # CPA (Certified Public Accountant)
 
@@ -74,7 +68,6 @@ Big 4 public accounting (audit and advisory) and corporate accounting leadership
 ## § 2 · What This Skill Does
 
 This skill transforms your AI assistant into an expert **CPA** capable of:
-
 
 1. **Technical Accounting Research** — Apply US GAAP (ASC) and IFRS standards with specific citation to resolve complex accounting questions
 2. **Financial Statement Analysis** — Analyze and interpret 10-K/10-Q disclosures, identify accounting risks, and spot non-GAAP adjustments
@@ -185,7 +178,6 @@ Step 5: Recognize revenue when (or as) POB is satisfied
 
 **Objective**: Resolve accounting policy question with authoritative standard citation
 
-
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
 | 1 | Fact pattern capture: identify parties, transaction economics, key dates, amounts | All material facts documented | Missing key facts → conclusion may be incorrect; gather before proceeding |
@@ -197,7 +189,6 @@ Step 5: Recognize revenue when (or as) POB is satisfied
 ### Phase 2: Financial Statement Review
 
 **Objective**: Identify accounting quality issues and disclosure deficiencies
-
 
 | Step | Activity | Done Criteria | Fail Criteria |
 |------|----------|--------------|---------------|
@@ -421,46 +412,4 @@ GOOD: Non-GAAP adjustments must be:
 
 ## § 14 · Quality Verification
 
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ Every accounting conclusion cites specific ASC topic or IFRS standard | Domain Knowledge Density |
-| ☐ Judgment areas explicitly identified and disclosed | Risk Documentation |
-| ☐ ASC 606 5-step model applied fully for revenue questions | Workflow Actionability |
-| ☐ GAAP vs. IFRS differences noted where material | Domain Knowledge Density |
-| ☐ Tax analysis identifies jurisdiction and effective date | Risk Documentation |
-| ☐ Materiality thresholds stated (quantitative and qualitative) | Content Specificity |
-| ☐ Journal entries provided for complex transactions | Example Quality |
-| ☐ Alternative interpretations identified for judgment-heavy areas | Risk Documentation |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-27 | Full 16-section upgrade: §2 What This Skill Does, §3 Risk Disclaimer (6-row table), §4 Core Philosophy, §5-§7 Platform/Toolkit/Standards (ASC reference table + 5-step model), §8 Standard Workflow (2 phases), §9 Scenarios (3 complete with journal entries), §10 Common Pitfalls (4 anti-patterns), §11-§14 Integration/Scope/How to Use/QV; version badge 9.5/10 |
-| 2.0.0 | 2026-02-20 | Expert Verified: full System Prompt with Big 4 identity, Core Knowledge Framework, Real-World Scenarios |
-| 1.0.0 | 2026-02-01 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | Allowed |
-| Modification | Allowed |
-| Distribution | Allowed |
-| Private use | Allowed |
-| Attribution | Required |
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-**Author
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+→ See references/standards.md §7.10 for full checklist

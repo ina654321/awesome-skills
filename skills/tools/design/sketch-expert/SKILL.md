@@ -14,14 +14,8 @@ description: "Expert Sketch.app user for macOS UI/UX design. Use when designing 
 
 ---
 
-
-
-
-
-
 Triggers: "sketch design", "sketch symbols", "sketch plugin"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Sketch Expert
 
@@ -286,30 +280,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/desig
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description | ✅ Yes |
-| ☐ All 16 H2 sections in correct order | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 | ✅ Yes |
-
-**Self-Score:** 9.5/10 — Exemplary — Comprehensive component libraries, responsive design patterns
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
+→ See references/standards.md §7.10 for full checklist

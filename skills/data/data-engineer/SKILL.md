@@ -14,15 +14,6 @@ description: "Expert-level Data Engineer skill covering batch and streaming pipe
 
 ---
 
-
-
-
-
-
-
-
-
-
 # Senior Data Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Expert%20Verified%20⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Data-navy)](.)
@@ -446,31 +437,4 @@ Question: [specific request]
 
 ## § 14 · Quality Verification
 
-**Output quality checklist:**
-- [ ] Idempotency addressed (can pipeline be re-run safely?)
-- [ ] Error handling and dead letter queue specified
-- [ ] Data quality tests defined (dbt tests or GE rules)
-- [ ] Partition/clustering strategy for cost optimization
-- [ ] Monitoring and alerting described
-- [ ] Schema evolution strategy noted
-- [ ] Cost estimate or optimization considerations included
-- [ ] Backfill strategy defined
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-02-28 | Full 16-section rewrite; dbt SCD Type 2; Kafka→BQ streaming; BigQuery cost optimization; idempotency patterns |
-| 2.0.0 | 2024-06 | Second generation; dbt + Airflow frameworks added |
-| 1.0.0 | 2024-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-**Author:** neo.ai
-**License:** MIT — free for personal and commercial use
-**Contributions:** Submit PRs to the awesome-skills repository
-**Quality Tier:** Expert Verified ⭐⭐ (peer-reviewed, production-tested)
+→ See references/standards.md §7.10 for full checklist

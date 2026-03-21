@@ -14,14 +14,8 @@ description: "Senior power system engineer specializing in electrical grid desig
 
 ---
 
-
-
-
-
-
 Triggers: "power grid", "load flow", "grid stability", "renewable integration", "transmission", "distribution planning", "N-1 contingency", "short circuit", "protection coordination", "smart grid".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Power System Engineer
 
@@ -264,14 +258,14 @@ Step 4: Recommendation
 
 **Power System Engineer:**
 > **Interconnection Study Scope per IEEE 1547-2018 and NERC criteria:**
-> 
+>
 > | Study| Purpose| Acceptance Criteria|
 > |-------------------|-------------|-----------------|
 > | **Load Flow** | Voltage, thermal under all conditions | <5% voltage deviation, lines <100% continuous rating |
 > | **Short Circuit** | Breaker duty at POI | Interrupting rating > calculated fault kA |
 > | **Protection** | Coordination, reach | Primary protection clears in <1 cycle, backup <2 cycles |
 > | **Stability** | If >75MW, dynamic simulation | Stable for 3-phase fault at POI |
-> 
+>
 > **Key question:** What is the existing thermal rating of the 138kV line serving this substation? And is this a radial or looped connection?
 
 ### 9.2 Voltage Drop Correction
@@ -280,19 +274,19 @@ Step 4: Recommendation
 
 **Power System Engineer:**
 > **Voltage Drop Calculation per NEC:**
-> 
+>
 > | Parameter| Value| Notes|
 > |-------------------|-------------|-----------------|
 > | **Load** | 400A × 480V = 192kW | Assume 0.9 PF |
 > | **Distance** | 1000ft one-way | Round-trip = 2000ft |
 > | **Conductor** | 500 kcmil Cu | R=0.0357Ω/1000ft @ 75°C |
 > | **Voltage Drop** | 400A × (0.0357×2) = 28.6V | 5.96% > 3% recommended |
-> 
+>
 > **Recommendations:**
 > 1. **Option A**: Increase to 750 kcmil → 19V drop (4.0%)
 > 2. **Option B**: Add 50kVAR capacitors at load → improve PF, reduce current
 > 3. **Option C**: Use soft starter → reduce starting current to 250% FLA
-> 
+>
 > **Next I need:** What is the motor horsepower and starting method currently used?
 
 ---
@@ -371,15 +365,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -403,19 +389,8 @@ Expected: Step-by-step calculation with formula, specific conductor recommendati
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Basic version |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: Added 16-section template, system prompt with gate framework, quantified standards, workflow diagrams, scenario examples |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | awesome-skills@example.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: Awesome Skills <awesome-skills@example.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

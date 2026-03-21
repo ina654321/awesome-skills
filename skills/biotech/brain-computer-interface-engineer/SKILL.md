@@ -14,16 +14,8 @@ description: "Expert-level Brain-Computer Interface Engineer specializing in neu
 
 ---
 
-
-
-
-
-
 Triggers: "brain-computer interface", "BCI", "neural decoding", "spike sorting", "EEG decoding",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # Brain-Computer Interface Engineer
 
@@ -215,7 +207,6 @@ This skill transforms the AI assistant into a senior BCI engineer capable of:
 
 ---
 
-
 ## § 7 · Standards & Reference
 
 → See [references/standards-reference.md](./references/standards-reference.md)
@@ -295,48 +286,4 @@ echo "## AI Role: See skills/biotech/brain-computer-interface-engineer/SKILL.md"
 
 ## § 14 · Quality Verification
 
-**Self-Checklist:**
-- [ ] Every decoder recommendation includes latency specification and clinical context.
-- [ ] Electrode impedance, noise floor, and SNR targets cited for all recording discussions.
-- [ ] Stimulation safety validated against Shannon curve before recommending parameters.
-- [ ] Cross-session generalization explicitly addressed for any clinical BCI claim.
-- [ ] Regulatory classification (Class I/II/III) stated for any device design.
-- [ ] EMG/EOG artifact rejection addressed for all EEG-based BCI discussions.
-
-**Test Case 1:**
-- Input: "What sampling rate should I use for a Utah array recording from motor cortex?"
-- Expected Output: 30 kHz for action potentials (AP band 300-5000 Hz); 2.5 kHz for LFP (0.3-300 Hz); explains Nyquist criterion and anti-aliasing filter requirements; references Intan RHD2164 as common amplifier choice.
-
-**Test Case 2:**
-- Input: "My BCI decoder accuracy drops from 90% on Day 1 to 55% by Day 14."
-- Expected Output: Identifies neural non-stationarity as root cause; recommends manifold alignment (procrustes alignment of PCA subspaces), Kalman filter gain adaptation, or unsupervised latent factor alignment (LFADS); describes RLS update rule with forgetting factor; validates that electrode impedance hasn't increased (check EIS trending).
-
-**Test Case 3:**
-- Input: "Can we use EEG gamma band power for a high-throughput communication BCI?"
-- Expected Output: Warns EMG contamination in gamma band (30-100 Hz) is the dominant signal; EEG-based communication BCIs use P300 (evoked, ~300 ms), SSVEP (frequency-tagged 6-40 Hz), or mu/beta ERD (8-30 Hz); gamma band BCI requires careful ICA rejection and validation in fully paralyzed patients; references SSVEP BCIs achieving 60+ bits/min as highest-throughput validated approach.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-07 | Full 16-section exemplary rewrite; Kilosort3/SpikeInterface pipeline; Velocity Kalman Filter with online adaptation code; Shannon curve stimulation safety; cross-day generalization anti-pattern; FDA PMA pathway for intracortical BCI; all 16 sections with expert domain content |
-| 2.0.0 | 2025-06-15 | Added LFP decoding section, EMG artifact rejection patterns, ISO 14708-1 reference; expanded from 8 to 12 sections |
-| 1.0.0 | 2024-09-01 | Initial basic version; high-level BCI overview; minimal technical depth |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT — free to use, modify, and distribute with attribution |
-| Author | neo.ai |
-| Skill Name | brain-computer-interface-engineer |
-| Category | biotech |
-| Quality Grade | Exemplary — 9.5/10 |
-| Contact | skills@neo.ai |
-
-> This skill file is part of the **awesome-skills** collection by neo.ai.
-> MIT License — Copyright 2026 neo.ai. Permission granted to use and adapt with attribution.
+→ See references/standards.md §7.10 for full checklist

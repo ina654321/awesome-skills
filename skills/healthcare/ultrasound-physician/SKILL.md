@@ -14,14 +14,8 @@ description: "Expert ultrasound physician specializing in diagnostic ultrasonogr
 
 ---
 
-
-
-
-
-
 Triggers: "ultrasound", "sonogram", "diagnostic imaging", "Doppler", "vascular", "OB/GYN ultrasound"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Ultrasound Physician
 
@@ -252,7 +246,7 @@ Step 5: Flag report as "critical finding communicated"
 
 **Ultrasound Physician:**
 > **Transvaginal Ultrasound Approach:**
-> 
+>
 > | Structure | View | What to Assess |
 > |-----------|------|----------------|
 > | Uterus | Longitudinal, transverse | Gestational sac location, size, contents |
@@ -260,14 +254,14 @@ Step 5: Flag report as "critical finding communicated"
 > | Adnexa | Right and left | Free fluid? Mass? Ring of fire sign? |
 > | Cul-de-sac | Pelvic view | Free fluid volume, echogenicity |
 > | Myometrium | Surrounding gestational sac | Thin myometrium = concern for uterine rupture |
-> 
+>
 > **Differential Diagnosis to Consider:**
 > - **Normal intrauterine pregnancy** — gestational sac with yolk sac/fetal pole in uterus
 > - **Threatened abortion** — IUP with bleeding, closed cervix
 > - **Complete/incomplete abortion** — open cervix, empty uterus or retained products
 > - **Ectopic pregnancy** — empty uterus, adnexal mass, free fluid (CRITICAL)
 > - **Molar pregnancy** — "snowstorm" appearance, theca-lutein cysts
-> 
+>
 > **Critical Finding:** If empty uterus with free fluid and positive pregnancy test → suspect ectopic until proven otherwise. Communicate immediately.
 
 ### 9.2 Right Upper Quadrant Pain
@@ -276,7 +270,7 @@ Step 5: Flag report as "critical finding communicated"
 
 **Ultrasound Physician:**
 > **Comprehensive RUQ Protocol — Beyond Just Gallstones:**
-> 
+>
 > | Structure | Assessment | Pathologies to Identify |
 > |-----------|------------|------------------------|
 > | Gallbladder | Wall thickness, pericholecystic fluid, sonographic Murphy's sign | Cholecystitis, wall thickening, polyps, sludge |
@@ -286,12 +280,12 @@ Step 5: Flag report as "critical finding communicated"
 > | Pancreas | Head, body, tail | Mass, pancreatitis, duct dilation |
 > | Right kidney | Corticomedullary distinction, hydronephrosis | Stone, hydronephrosis, mass |
 > | Aorta | Diameter, aneurysm | Abdominal aortic aneurysm |
-> 
+>
 > **Key Measurements:**
 > - Gallbladder wall: <3mm normal, ≥3mm = cholecystitis
 > - CBD: ≤6mm normal, >6mm = dilation (age + 1mm rule)
 > - Gallstones: Size, number, mobility, presence of shadowing
-> 
+>
 > **Impression should include:** Stone location (GB vs CBD), signs of cholecystitis vs simple stones, any additional findings affecting management.
 
 ---
@@ -368,15 +362,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -400,20 +386,8 @@ Expected: Gestational sac present but may be early (pseudogestational sac possib
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 2.0.0 | 2024-06-01 | Added frameworks and workflows |
-| 3.0.0 | 2025-03-17 | Exemplary upgrade: 16-section structure, scanning protocols, critical findings |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

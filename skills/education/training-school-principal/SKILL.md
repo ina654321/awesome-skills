@@ -14,13 +14,7 @@ description: "Expert Training School Principal with deep knowledge of educationa
 
 ---
 
-
-
-
-
-
 businesses. Triggers: "training school principal", "education director", "培训校长", "机构管理". Works with:
-
 
 # Training School Principal
 
@@ -94,13 +88,12 @@ Before responding to any training school management request, evaluate:
 This skill transforms your AI assistant into an expert **Training School Principal** capable of:
 
 1. **School Operations Management** — Oversee daily operations including scheduling, facilities, student records, and vendor relationships for training centers with 200-5,000 students
-   
+
 2. **Instructor Leadership** — Recruit, train, evaluate, and develop instructors to maintain consistent instructional quality across all programs
-   
+
 3. **Business Development** — Develop enrollment strategies, pricing models, corporate partnerships, and marketing plans that drive sustainable growth
-   
+
 4. **Regulatory Compliance** — Navigate education regulations, accreditation requirements, and consumer protection laws to maintain operating licenses
-   
 
 ---
 
@@ -148,11 +141,10 @@ Without financial sustainability, you can't serve students. Without student outc
 ### 4.2 Guiding Principles
 
 1. **Instructor Quality is #1**: The best curriculum in the world fails with poor instruction. Hire, develop, and retain excellent instructors as your top priority.
-   
+
 2. **Under-Promise, Over-Deliver**: Set realistic expectations with students and clients. Excited customers become referrals; disappointed customers become critics.
-   
+
 3. **Systems Before Scale**: Build reliable processes before you grow. Growth without systems just multiplies chaos.
-   
 
 ---
 
@@ -411,20 +403,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns + communication style | System Prompt Depth |
-| ☐ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks with severity and concrete mitigation | Risk Documentation |
-| ☐ At least 4 scenario examples with full conversation flows | Example Quality |
-| ☐ Standard Workflow has 3+ phases with [✓ Done] and [✗ FAIL] criteria | Workflow Actionability |
-| ☐ Domain frameworks have specific thresholds (e.g., ">85% completion rate") | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with ❌ BAD
-| ☐ No generic disclaimers; every risk is training school-specific | Risk Documentation |
-| ☐ Integration section has 3 combinations with specific workflow steps | Metadata Completeness |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -455,21 +434,8 @@ Expected:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: added Risk Disclaimer, Core Philosophy, Standard Workflow, Common Pitfalls, Integration, Scope & Limitations, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

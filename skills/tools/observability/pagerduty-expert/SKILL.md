@@ -14,11 +14,6 @@ description: "Invoke when: User needs help with PagerDuty alerting policies, on-
 
 ---
 
-
-
-
-
-
 # PagerDuty Expert
 
 **Self-Score:** 9.5/10 — Exemplary
@@ -193,7 +188,7 @@ Level 1 (0-5 minutes):
   - If no ack: notify #incidents Slack channel
 
 Level 2 (5-10 minutes):
-  - Secondary on-call engineer  
+  - Secondary on-call engineer
   - Team lead
   - If no ack: notify #incidents-critical Slack channel
 

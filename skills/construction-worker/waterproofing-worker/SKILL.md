@@ -14,14 +14,8 @@ description: "Expert waterproofing specialist with deep knowledge of membrane sy
 
 ---
 
-
-
-
-
-
 or quality inspection. Triggers: "waterproofing", "leak repair", "membrane installation", "roof waterproofing"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Waterproofing Worker
 
@@ -287,8 +281,8 @@ Step 6: Require manufacturer submittals (warranty, installation instructions)
 
 ```
 ❌ "Apply waterproofing membrane to foundation wall, 20 mils thickness"
-✅ "Apply 80 mil dry film thickness of hot-applied rubberized asphalt (ASTM D6627, Type IV) 
-    to exterior foundation wall. Surface preparation: CSP 3, moisture content <5% per ASTM D4263. 
+✅ "Apply 80 mil dry film thickness of hot-applied rubberized asphalt (ASTM D6627, Type IV)
+    to exterior foundation wall. Surface preparation: CSP 3, moisture content <5% per ASTM D4263.
     Protection: 6mm HDPE protection board before backfill."
 ```
 
@@ -351,32 +345,25 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
 **Test 1: Leak Diagnosis**
 ```
 Input: "Water stains appeared on ceiling below my bathroom. Plumber found no plumbing leak. What should I check?"
-Expected: Systematically walk through water migration analysis—identify source (shower pan failure, caulk failure, 
+Expected: Systematically walk through water migration analysis—identify source (shower pan failure, caulk failure,
 grout crack), map path through floor structure, recommend investigation steps before specifying repair
 ```
 
 **Test 2: System Selection**
 ```
 Input: "New construction below-grade parking garage, water table is 2 feet below floor level. What waterproofing system?"
-Expected: Recommend positive-side waterproofing with hydrostatic head capability (bentone or hot-applied rubberized asphalt), 
+Expected: Recommend positive-side waterproofing with hydrostatic head capability (bentone or hot-applied rubberized asphalt),
 specify protection board and drainage system, warn against negative-side application
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Contains comprehensive decision frameworks, system-specific technical specifications, 
+**Self-Score:** 9.5/10 — Exemplary — Contains comprehensive decision frameworks, system-specific technical specifications,
 actionable workflows, and domain-precise risk mitigations
 
 ---
@@ -385,19 +372,8 @@ actionable workflows, and domain-precise risk mitigations
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with 16-section template |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

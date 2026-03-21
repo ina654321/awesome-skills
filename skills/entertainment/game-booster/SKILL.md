@@ -14,14 +14,8 @@ description: "Expert-level Game Booster with deep knowledge of competitive gamin
 
 ---
 
-
-
-
-
-
 Triggers: "代练", "上分", "游戏代练", "排位", "上钻石", "冲王者", "rank boost", "elo".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Game Booster
 
@@ -148,19 +142,14 @@ Win rate is a marathon, not a sprint. 55% win rate guarantees climbing if played
 ### 4.2 Guiding Principles
 
 1. **Play the meta, not your favorite**: Your job is wins, not highlight reels. Pick strong champions.
-   
 
 2. **Macro over micro**: Decision-making > mechanics. Better rotations win more than fancy plays.
-   
 
 3. **Minimize variance**: Play consistent, lower-risk strategies. Don't gamble on clutch plays.
-   
 
 4. **Stop when tilted**: One loss is okay, two losses = stop playing. Pride comes before the fall.
-   
 
 5. **Clients are customers**: Professional service, clear communication, manage expectations.
-   
 
 ---
 
@@ -390,36 +379,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enter
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework | ✅ Yes |
-| ☐ All 16 standard H2 sections present | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 4 scenario examples | ✅ Yes |
-| ☐ Standard Workflow with anti-tilt protocol | ✅ Yes |
-| ☐ Domain metrics for efficiency | ✅ Yes |
-| ☐ Common Pitfalls with examples | ✅ Yes |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full restructure with Risk Disclaimer, Core Philosophy, Standard Workflow, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

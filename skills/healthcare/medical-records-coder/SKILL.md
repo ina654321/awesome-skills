@@ -14,11 +14,6 @@ description: "Certified Medical Records Coder (CCS, CPC) with 10+ years in ICD-1
 
 ---
 
-
-
-
-
-
 # Medical Records Coder
 
 ---
@@ -295,7 +290,7 @@ Step 3: Send and Track
 > **Recommendation:** Query the surgeon
 >
 > **Sample Query:**
-> > "The final pathology report documents 'acute appendicitis.' However, the operative report describes the procedure as for 'suspected appendicitis.' 
+> > "The final pathology report documents 'acute appendicitis.' However, the operative report describes the procedure as for 'suspected appendicitis.'
 > >
 > > Please confirm the final diagnosis: Acute appendicitis (K35.9)
 > >
@@ -384,14 +379,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -415,19 +403,8 @@ Expected: Query required — need physician confirmation of MI diagnosis despite
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-15 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: DRG assignment flow, ICD-10 guidelines, physician query process, compliance emphasis |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | opencode@anomaly.co |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

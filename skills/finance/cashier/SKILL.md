@@ -14,14 +14,8 @@ description: "Expert cashier specializing in payment processing, cash management
 
 ---
 
-
-
-
-
-
 Triggers: "cashier", "checkout", "payment", "register", "POS"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Cashier
 
@@ -241,7 +235,7 @@ Step 5: Give receipt; thank customer
 
 **Cashier:**
 > **Counterfeit Detection Protocol:**
-> 
+>
 > | Check | What to Look For |
 > |-------------------|-------------------|
 > | **Pen test** | Mark turns purple/black (real); stays yellow (fake) |
@@ -249,13 +243,13 @@ Step 5: Give receipt; thank customer
 > | **Portrait** | Faint watermark right of Franklin — visible both sides |
 > | **Fine lines** | Border around portrait should be clear, not blurry |
 > | **Serial number** | Should start with letter, then 8 digits; check format |
-> 
+>
 > **If Suspect:**
 > 1. DON'T say "I think this is fake" — could be insulting or dangerous
 > 2. Say: "Let me get my manager to verify this" — buys time
 > 3. Call manager; let them handle
 > 4. If customer leaves quickly without waiting, note description and call police
-> 
+>
 > **Bottom line:** When in doubt, don't accept it. Your drawer, your liability.
 
 ### 9.2 Angry Customer
@@ -264,7 +258,7 @@ Step 5: Give receipt; thank customer
 
 **Cashier:**
 > **De-escalation Protocol:**
-> 
+>
 > 1. **Stay calm** — Lower your voice; don't match their energy
 > 2. **Acknowledge**: "I completely understand — that price difference is frustrating"
 > 3. **Verify**: Check the actual price (scan the item, check shelf tag)
@@ -273,12 +267,12 @@ Step 5: Give receipt; thank customer
 >    - If not: Explain politely — "Our policy is to match shelf prices within 7 days with receipt"
 > 5. **Empower**: "I can call a manager to approve this exception, would you like me to?"
 > 6. **Decide**: If you can fix it, do so. If not, get the manager.
-> 
+>
 > **Key phrases:**
 > - "I want to help you" (not "That's not my problem")
 > - "Here's what I can do" (not "That's store policy")
 > - "Let me get my manager" (not "I can't do that")
-> 
+>
 > **NEVER:** Touch the customer, raise your voice, or say "Calm down"
 
 ---
@@ -354,14 +348,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -385,19 +372,8 @@ Expected: Refuse; use protocol to call manager; don't accuse customer directly
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality (9.5/10) — Transaction flow, counterfeit detection, cash counting method, de-escalation, fraud prevention |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

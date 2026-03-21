@@ -14,11 +14,6 @@ description: "Blender 3D建模：建模、材质、渲染、动画。Use when cr
 
 ---
 
-
-
-
-
-
 # Blender Expert
 
 **Self-Score:** 9.5/10 — Exemplary

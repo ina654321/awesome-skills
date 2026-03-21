@@ -14,11 +14,6 @@ description: "阿里云域名注册与ICP备案：域名购买、实名认证、
 
 ---
 
-
-
-
-
-
 # Aliyun Domain & ICP Beian Expert
 
 ---
@@ -223,29 +218,4 @@ echo "Use aliyun-domain-beian-expert skill for domain and beian tasks" >> CLAUDE
 
 ## § 14 · Quality Verification
 
-**Self-Check:**
-- [ ] Can explain ICP beian process timeline (10-20 working days)
-- [ ] Can configure DNS records correctly (A, CNAME, MX, TXT)
-- [ ] Knows when beian is required vs. Hong Kong/Overseas servers
-- [ ] Can troubleshoot resolution failures
-- [ ] Understands domain authentication requirements
-
-**Test Case:**
-User: "I bought a domain on Aliyun, how do I complete ICP beian?"
-Expected: Step-by-step guide: purchase server → get备案号 → submit beian → SMS verification → 管局审核
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-15 | Full rewrite with proper 16-section structure |
-| 1.0.0 | 2026-02-16 | Initial release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-Author: neo.ai | Quality: community | Score: 6.8/10
+→ See references/standards.md §7.10 for full checklist

@@ -14,16 +14,8 @@ description: "Expert-level HD Map Engineer specializing in high-definition map c
 
 ---
 
-
-
-
-
-
 Triggers: "HD map", "OpenDRIVE", "Lanelet2", "MapTR", "HDMapNet", "map localization",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
 
 # HD Map Engineer
 
@@ -462,49 +454,4 @@ echo "## AI Role: See skills/automotive/hd-map-engineer/SKILL.md" >> CLAUDE.md
 
 ## § 14 · Quality Verification
 
-**Self-Checklist:**
-- [ ] Map format recommendations include explicit version (OpenDRIVE 1.6, Lanelet2 v1.2).
-- [ ] Localization accuracy targets are paired with map accuracy (total error budget computed).
-- [ ] Code examples specify coordinate systems explicitly (WGS84, UTM zone number).
-- [ ] Map freshness policy is addressed in any production deployment discussion.
-- [ ] Topology validation is specified alongside any map annotation workflow.
-- [ ] Online vs. offline map trade-offs are clearly articulated for the stated use case.
-- [ ] NDT fitness score thresholds are specified for localization confidence monitoring.
-
-**Test Case 1:**
-- Input: "How do I model a roundabout in Lanelet2?"
-- Expected Output: Lanelet2 topology with circulating lane lanelets forming a ring, entry/exit lanelets as yield-regulated approaches, pedestrian crossing lanelets at exits, Python code for creating the topology, note on circular routing graph handling in Lanelet2.
-
-**Test Case 2:**
-- Input: "Our NDT localization is losing accuracy in tunnel sections. What should we do?"
-- Expected Output: Diagnosis (loss of LiDAR diversity in featureless tunnel), mitigation (dense reflector markers in tunnel, pre-tunnel position initialization, IMU dead reckoning during tunnel traverse), NDT fitness monitoring threshold (< 0.4 = fallback to IMU), recovery strategy on exit.
-
-**Test Case 3:**
-- Input: "We want to use MapTR to avoid maintaining offline HD maps. Is that sufficient for L4 robotaxi?"
-- Expected Output: Accuracy comparison (MapTR ~67% mIoU vs. offline < 10cm lateral), specific failure modes (complex intersections, occluded markings, night), recommendation for offline HD map as primary with MapTR for gap coverage, evaluation protocol, minimum mIoU threshold.
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-07 | Full 16-section rewrite to exemplary quality; Lanelet2 intersection modeling code; NDT localization implementation with Open3D; MapTR evaluation pipeline; 5 anti-patterns with code; accuracy budget analysis; nuScenes HD map benchmark targets |
-| 2.0.0 | 2025-08-01 | Added MapTR/HDMapNet online prediction section; map freshness monitoring; OpenDRIVE vs Lanelet2 comparison table |
-| 1.0.0 | 2026-02-16 | Initial basic version; placeholder content only |
-
----
-
-## § 16 · License & Author
-
-| Field | Value |
-|-------|-------|
-| License | MIT — free to use, modify, and distribute with attribution |
-| Author | neo.ai |
-| Skill Name | hd-map-engineer |
-| Category | automotive |
-| Quality Grade | Exemplary — 9.5/10 |
-| Contact | skills@neo.ai |
-
-> This skill file is part of the **awesome-skills** collection by neo.ai.
-> MIT License — Copyright 2026 neo.ai. Permission granted to use and adapt with attribution.
+→ See references/standards.md §7.10 for full checklist

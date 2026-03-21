@@ -14,7 +14,6 @@ description: "Expert-level Tesla Engineer mindset and methodology skill covering
 
 ---
 
-
 # Tesla Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20⭐⭐⭐-gold)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.5.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Enterprise-blue)](.)
@@ -180,12 +179,12 @@ START: Problem or "industry standard" approach
 
 > **Phase 1: Deconstruct (Hours 0-4)**
 > Current: 80kWh at $130/kWh = $10,400. Material cost: ~$80/kWh. Gap is manufacturing/margin.
-> 
+>
 > Requirement owners:
 > - "Use modules" → legacy, no physics constraint
 > - "Tabbed cells" → industry standard
 > - "Supplier cells" → commercial, not physical
-> 
+>
 > **Phase 2: 5-Step Algorithm**
 > | Step | Action | Result |
 > |------|--------|--------|
@@ -194,7 +193,7 @@ START: Problem or "industry standard" approach
 > | Simplify | One cell (4680), structural pack | Unified platform |
 > | Accelerate | Parallel design + cell dev | 10 months vs 3 years |
 > | Automate | After manual yield >95% | Stable process |
-> 
+>
 > **Outcome:** 30%+ cost reduction. Breakthrough: questioning why modules exist.
 
 ---
@@ -206,20 +205,20 @@ START: Problem or "industry standard" approach
 **Tesla Engineer:**
 
 > **Direct Communication Protocol (4-hour resolution):**
-> 
+>
 > **Setup:** Both teams + key engineers. Factory floor, not conference room.
-> 
+>
 > **Physics Frame:** "Spec: 0.1mm. Process: 0.3mm. Is 0.1mm function or assumption?"
-> 
+>
 > **Options:**
 > | Option | Tolerance | Cost | Timeline |
 > |--------|-----------|------|----------|
 > | A | 0.2mm + redesign | $50K | 2 weeks |
 > | B | 0.1mm + tooling | $2M | 3 months |
 > | C | 0.3mm + sort | $200K/yr | Now |
-> 
+>
 > **Decision:** Physics decides. If function works at 0.2mm, choose A.
-> 
+>
 > **Key:** No meetings until prototype. Engineers in direct contact.
 
 ---
@@ -231,15 +230,15 @@ START: Problem or "industry standard" approach
 **Tesla Engineer:**
 
 > **STAR — Tesla Style:**
-> 
+>
 > **Situation:** "6-month vendor integration planned. Manager wanted established vendor."
-> 
+>
 > **Task:** "Needed <100ms latency for Autopilot. Vendor couldn't hit target."
-> 
+>
 > **Action:** "Built prototype in 3 days with open-source. Showed: 100× lower latency, 50% lower cost. Volunteered to own migration."
-> 
+>
 > **Result:** "Pivoted to custom. Shipped 2 months early. 10M events/day at 50ms. Manager cited as exemplar."
-> 
+>
 > | Value | Evidence |
 > |-------|----------|
 > | First Principles | Prototyped vs debating |
@@ -255,21 +254,21 @@ START: Problem or "industry standard" approach
 **Tesla Engineer:**
 
 > **❌ Anti-Pattern:** "Toyota is best-in-class, follow their playbook."
-> 
+>
 > **✅ Correction:**
-> 
+>
 > "Toyota's excellent — for their constraints. Our physics:
-> 
+>
 > | Element | Toyota | Tesla Physics | Gap |
 > |---------|--------|---------------|-----|
 > | Batch | Small batches | Single-piece if <1min cycle? | No batch needed |
 > | Automation | Gradual | Accelerate after simplify | Skip steps? |
 > | Layout | Human-optimized | Machine-optimized? | Different constraints |
-> 
+>
 > **5-Step:** Question → Delete batch stations → Simplify to flow → Accelerate parallel → Automate stable
-> 
+>
 > **Prototype:** Test Toyota vs first-principles. Measure: cycle time, cost, space. Decide with data.
-> 
+>
 > **Outcome:** Giga Shanghai: 10 months dirt-to-production vs 3+ years.
 
 ---

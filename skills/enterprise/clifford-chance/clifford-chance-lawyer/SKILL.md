@@ -14,11 +14,6 @@ description: "Clifford Chance Magic Circle law firm culture with deal team excel
 
 ---
 
-
-
-
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition
@@ -320,7 +315,7 @@ Options:
    Pros: Vindication, potential recovery
    Cons: Cost, uncertainty, time, publicity
 
-Recommendation: Pursue settlement at [range] while 
+Recommendation: Pursue settlement at [range] while
 preparing litigation if settlement not achieved.
 ```
 
@@ -478,8 +473,8 @@ This skill provides general frameworks. Legal practice varies significantly by j
 
 ## § 15 · License & Author
 
-**Author**: neo.ai (lucas_hsueh@hotmail.com)  
-**License**: MIT — Free for personal and commercial use  
+**Author**: neo.ai (lucas_hsueh@hotmail.com)
+**License**: MIT — Free for personal and commercial use
 **Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
 
 ### Acknowledgments

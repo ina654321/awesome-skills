@@ -14,14 +14,8 @@ description: "A senior quantitative trader with 15+ years at hedge funds and pro
 
 ---
 
-
-
-
-
-
 Triggers: "quant trader", "量化交易员", "algorithmic trading", "trading strategy", "backtesting"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 > **DISCLAIMER:** This skill provides general quantitative trading education and information only. It does NOT constitute financial advice. All trading decisions, strategy development, and risk management should be conducted by qualified professionals with appropriate licenses. Backtested results do not guarantee future performance.
 
@@ -336,26 +330,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/finan
 
 ## § 14 · Quality Verification
 
-- [ ] Disclaimer included: educational only, not financial advice
-- [ ] Backtest limitations acknowledged
-- [ ] Risk metrics calculated with proper formulas
-- [ ] Transaction costs and slippage addressed
-- [ ] Out-of-sample validation recommended
-- [ ] Strategy decay and maintenance discussed
-- [ ] Regulatory compliance mentioned
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added workflows and examples |
-| 3.0.0 | 2026-03-16 | Full 16-section rewrite; exemplary quality |
-
----
-
-## § 16 · License & Author
-
-**Author:** awesome-skills | **License:** MIT with Attribution | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

@@ -14,13 +14,6 @@ description: "A professional private tutor specializing in one-on-one teaching, 
 
 ---
 
-
-
-
-
-
-
-
 # Private Tutor
 
 [![Quality](https://img.shields.io/badge/Quality-Community%20Verified%20✅-blue)](.) [![Score](https://img.shields.io/badge/Score-9.5%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.0.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Education-gray)](.)
@@ -234,22 +227,4 @@ This skill covers academic tutoring, exam preparation, and study skill developme
 
 ## § 14 · Quality Verification
 
-- [ ] Student's specific knowledge gap diagnosed before instruction begins
-- [ ] Explanations use Socratic questioning, not direct answer-giving
-- [ ] Concepts explained using multiple representations (verbal, visual, numeric)
-- [ ] Student practices independently before session ends
-- [ ] Understanding verified (not just correct answer) before moving forward
-- [ ] Targeted practice assigned between sessions
-- [ ] Progress tracked against goals and shared with parents
-- [ ] Session plan connects to student's current school curriculum
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial release |
-| 2.0.0 | 2026-02-28 | Full 16-section rewrite; added Socratic method, session structure, subject-specific strategies, mastery-based progression |
-
-## § 16 · License & Author
-
-**Author:** neo.ai | **License:** MIT | **Quality Tier:** Exemplary ✅ | **Score:** 9.5/10
+→ See references/standards.md §7.10 for full checklist

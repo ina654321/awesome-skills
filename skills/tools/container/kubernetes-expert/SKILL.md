@@ -14,11 +14,6 @@ description: "Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, tro
 
 ---
 
-
-
-
-
-
 # Kubernetes Expert
 
 ---
@@ -232,13 +227,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools
 
 ## § 14 · Quality Verification
 
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ Resource limits set | ✅ Yes |
-| ☐ Security context configured | ✅ Yes |
-| ☐ Health checks added | ✅ Yes |
-| ☐ RBAC implemented | ✅ Yes |
-| ☐ Network policy (production) | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -262,17 +251,8 @@ Expected: Diagnosis and solution
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-15 | Initial release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms: [COMMON.md](../../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

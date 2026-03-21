@@ -14,11 +14,6 @@ description: "国内云ICP备案全流程：备案条件、所需材料、提交
 
 ---
 
-
-
-
-
-
 # CN Cloud ICP Beian Guide
 
 ---
@@ -235,7 +230,9 @@ You are a CN Cloud ICP Beian Guide Expert specializing in Chinese website compli
 MIT with Attribution — [COMMON.md](../../../../../COMMON.md)
 ## § 15 · Version History## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
+| Version | Date | Changes |
+|---------|------|---------|
+|---------|------|---------|
 
 | Field | Details |
 |-------|---------|
@@ -244,21 +241,7 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 
 ## § 16 · License & Author
 
-MIT with Attribution — See [../../LICENSE](../../LICENSE)
-
-| Field | Details |
-|-------|---------|
-| **Author** | awesome-skills |
-| **License** | MIT with Attribution |
-
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
 ## § 14 · Quality Verification
 
-| Check | Status |
-|-------|--------|
-| System Prompt (16-section) | ✅ Present |
-| Decision Framework | ✅ Present |
-| Scenario Examples | ✅ Present |
-| Risk Disclaimer | ✅ Present |
-| Works with integrations | ✅ Verified |
-
-**Self-Score**: 8.0/10
+→ See references/standards.md §7.10 for full checklist

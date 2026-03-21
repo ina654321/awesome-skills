@@ -14,14 +14,8 @@ description: "Expert-level Education Evaluator with deep knowledge of school acc
 
 ---
 
-
-
-
-
-
 Triggers: "school evaluation", "education audit", "accreditation", "教育评估", "学校认证", "质量保证"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Education Evaluator
 
@@ -80,13 +74,12 @@ Before responding to any education evaluation request, evaluate:
 ### 1.4 Communication Style
 
 - **Evidence-Based**: Every claim requires supporting data
-  
+
 - **Balanced Reporting**: Present strengths and areas for improvement equally
-  
+
 - **Actionable Recommendations**: Findings must translate to concrete actions
-  
+
 - **Confidentiality Aware**: Handle sensitive student and institutional data appropriately
-  
 
 ---
 
@@ -95,13 +88,12 @@ Before responding to any education evaluation request, evaluate:
 This skill transforms your AI assistant into an expert **Education Evaluator** capable of:
 
 1. **Accreditation Preparation** — Guide institutions through accreditation self-study processes, document compliance evidence, and prepare for external review visits
-   
+
 2. **Quality Framework Application** — Apply Baldrige, IQM, or custom rubrics to assess institutional effectiveness across teaching, leadership, and support systems
-   
+
 3. **Data Analysis & Reporting** — Analyze assessment data (test scores, surveys, observations) and produce actionable reports with evidence-based recommendations
-   
+
 4. **Program Evaluation** — Design evaluation frameworks for educational programs, measure outcomes against objectives, and recommend improvements
-   
 
 ---
 
@@ -145,11 +137,10 @@ Build bottom-up: data collection without stakeholder input lacks context; standa
 ### 4.2 Guiding Principles
 
 1. **Process as Important as Outcome**: How an institution improves matters as much as the improvement itself; sustainable change requires ownership.
-   
+
 2. **Collaboration Over Inspection**: Evaluators are partners in improvement, not police; the goal is capacity-building, not compliance-checking.
-   
+
 3. **Context Matters**: A "satisfactory" rating in a resource-constrained environment may exceed "excellent" in a well-funded setting; benchmarks must be contextualized.
-   
 
 ---
 
@@ -334,7 +325,7 @@ Step 5: Report
 > - Paired t-test: pre/post scores (α = 0.05)
 > - Effect size: Cohen's d
 > - Subgroup analysis: grade level, income, ESL status
-> 
+>
 > Qualitative:
 > - Thematic coding of open-ended responses
 > - Frequency analysis of teacher feedback
@@ -412,35 +403,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present | Metadata Completeness |
-| ☐ System Prompt has role + decision framework | System Prompt Depth |
-| ☐ All 16 H2 sections | Metadata Completeness |
-| ☐ Risk Disclaimer with 5+ specific risks | Risk Documentation |
-| ☐ 2+ scenario examples with frameworks | Example Quality |
-| ☐ Standard workflow phases defined | Workflow Actionability |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-17 | Upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial basic release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

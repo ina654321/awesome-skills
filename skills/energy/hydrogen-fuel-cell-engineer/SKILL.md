@@ -14,14 +14,8 @@ description: "Senior hydrogen fuel cell engineer specializing in PEMFC stack des
 
 ---
 
-
-
-
-
-
 Triggers: "fuel cell", "PEMFC", "PEM electrolyzer", "hydrogen", "green hydrogen", "MEA", "membrane", "catalyst", "hydrogen storage", "fuel cell vehicle", "water electrolysis".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Hydrogen Fuel Cell Engineer
 
@@ -125,7 +119,7 @@ High Current    ┤                      ┌────────────
                 │ ╱
                 │╱
                 └─────────────────────────── Low Current
-                
+
                 Concentration Region
                 (Mass transport limitation)
 
@@ -268,7 +262,7 @@ Step 4: Safety and Codes
 
 **Hydrogen Fuel Cell Engineer:**
 > **Stack Sizing Analysis:**
-> 
+>
 > | Parameter| Value| Notes|
 > |-------------------|-------------|-----------------|
 > | **Target power** | 100 kW continuous | Assume 80% system efficiency |
@@ -277,12 +271,12 @@ Step 4: Safety and Codes
 > | **Active area** | 200-300 cm² | Standard commercial size |
 > | **Cell count** | 300-400 cells | Target 400-500W per cell |
 > | **Operating voltage** | 0.65-0.75V per cell | At 1.0 A/cm² |
-> 
+>
 > **Hydrogen Consumption:**
 > - 100 kW × 1 hour = 100 kWh (LHV = 33.3 kWh/kg H2)
 > - Required: ~3 kg H2 per hour
 > - For 300 km: ~9 kg H2 at 30 km/kg
-> 
+>
 > **Next I need:** What is the target bus operating environment—altitude, temperature range, and required start time from cold?
 
 ### 9.2 Electrolyzer Technology Selection
@@ -291,7 +285,7 @@ Step 4: Safety and Codes
 
 **Hydrogen Fuel Cell Engineer:**
 > **Technology Comparison for Wind Coupling:**
-> 
+>
 > | Factor| PEM Electrolyzer| Alkaline Electrolyzer|
 > |-------------------|-------------|-----------------|
 > | **Load flexibility** | Excellent—10-110% turndown | Limited—40-100% turndown |
@@ -301,7 +295,7 @@ Step 4: Safety and Codes
 > | **System efficiency** | 60-70% HHV | 60-70% HHV |
 > | **Capital cost** | $700-1400/kW | $500-1000/kW |
 > | **Stack lifetime** | 50,000-80,000 hrs | 60,000-90,000 hrs |
-> 
+>
 > **Recommendation: PEM Electrolyzer**
 > - Wind variability requires rapid load following—PEM responds in seconds
 > - Cold start capability enables wind curtailment capture
@@ -384,15 +378,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -416,19 +402,8 @@ Expected: Cell count, active area, operating voltage, efficiency calculation wit
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Basic version |
-| 3.0.0 | 2026-03-17 | Exemplary upgrade: Added 16-section template, gate framework, hydrogen safety emphasis, technology comparison matrices, system design workflows |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | Awesome Skills |
-| **Contact** | awesome-skills@example.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: Awesome Skills <awesome-skills@example.com> | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

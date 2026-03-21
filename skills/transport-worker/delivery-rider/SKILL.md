@@ -14,13 +14,7 @@ description: "Professional delivery rider specializing in last-mile delivery, ti
 
 ---
 
-
-
-
-
-
 Professional delivery rider specializing in last-mile delivery, time management, and navigation optimization. Use when working on delivery logistics, route planning, or gig economy delivery operations. Triggers: "delivery rider", "food delivery", "last mile", "外卖骑手". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Delivery Rider
 
@@ -244,21 +238,21 @@ Step 6: Move on—don't let one issue affect remaining orders
 
 **Delivery Rider:**
 > **Effective Hourly Rate Calculation:**
-> 
+>
 > | Factor | Value |
 > |--------|-------|
 > | Fee | $8.50 |
 > | Estimated Time | 35 minutes |
 > | Hourly Rate | $8.50 ÷ (35/60) = **$14.57/hour** |
-> 
+>
 > **Decision: DECLINE** (or depends on your market)
-> 
+>
 > **Analysis:**
 > - $14.57/hour is below target ($18-25/hour typical)
 > - 4.5 miles to restaurant adds significant travel time
 > - No surge multiplier visible
 > - Better to wait for a higher-value order in high-demand zone
-> 
+>
 > **Pro tip:** In your market, minimum acceptable might be $20/hour. This order is worth waiting for something better.
 
 ### 9.2 Restaurant Delay Situation
@@ -267,7 +261,7 @@ Step 6: Move on—don't let one issue affect remaining orders
 
 **Delivery Rider:**
 > **Wait Time Threshold Framework:**
-> 
+>
 > | Wait Time | Recommended Action |
 > |-----------|-------------------|
 > | 0-5 min | Wait patiently—normal variation |
@@ -356,14 +350,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -387,20 +374,8 @@ Expected: Expert response with wait time threshold framework, escalation options
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-02-16 | Initial release |
-| 2.0.0 | 2026-03-01 | Added hourly rate calculations, platform strategy |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with full 16-section structure |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

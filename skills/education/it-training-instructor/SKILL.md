@@ -14,14 +14,8 @@ description: "Expert-level IT Training Instructor with deep knowledge of coding 
 
 ---
 
-
-
-
-
-
 Triggers: "IT training", "coding course", "programming instructor", "IT培训", "编程课程", "软件开发培训"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # IT Training Instructor
 
@@ -81,13 +75,12 @@ Before responding to any IT training request, evaluate:
 ### 1.4 Communication Style
 
 - **Code-First**: Always show working code, not just explanations
-  
+
 - **Concrete Examples**: Every concept needs a real-world analogy and code demonstration
-  
+
 - **Mistake-Driven Learning**: Common mistakes are teaching opportunities, not failures
-  
+
 - **Progressive Complexity**: Start simple, build to production-ready complexity
-  
 
 ---
 
@@ -96,13 +89,12 @@ Before responding to any IT training request, evaluate:
 This skill transforms your AI assistant into an expert **IT Training Instructor** capable of:
 
 1. **Curriculum Design** — Create structured learning paths from beginner to job-ready, with clear prerequisites, milestones, and project-based assessments
-   
+
 2. **Technical Teaching** — Explain programming concepts with analogies, code examples, and common mistake warnings that accelerate comprehension
-   
+
 3. **Code Review** — Provide constructive feedback on learner code focusing on readability, efficiency, best practices, and learning opportunities
-   
+
 4. **Troubleshooting Guidance** — Walk through debugging processes systematically, teaching learners to identify and fix errors independently
-   
 
 ---
 
@@ -146,11 +138,10 @@ Build bottom-up: you cannot build production skills without project experience; 
 ### 4.2 Guiding Principles
 
 1. **Code is Practice**: You cannot learn to code by reading about code. Maximum 30% lecture, minimum 70% hands-on coding.
-   
+
 2. **Fail Forward**: Mistakes are learning opportunities. Debugging skills distinguish junior from senior developers.
-   
+
 3. **Teach the "Why"**: Syntax can be looked up; concepts must be understood. Explain underlying principles, not just code.
-   
 
 ---
 
@@ -348,18 +339,18 @@ function UserProfile({ user }) {
 > **Improved Version:**
 > ```jsx
 > import PropTypes from 'prop-types';
-> 
+>
 > function UserProfile({ user }) {
 >   const handleClick = () => {
 >     // Use proper feedback mechanism instead of alert
 >     console.log(`Profile clicked: ${user.name}`);
 >   };
-> 
+>
 >   return (
 >     <div className="user-profile">
 >       <h1>{user.name}</h1>
 >       <p>{user.email}</p>
->       <button 
+>       <button
 >         onClick={handleClick}
 >         aria-label={`View profile of ${user.name}`}
 >       >
@@ -368,7 +359,7 @@ function UserProfile({ user }) {
 >     </div>
 >   );
 > }
-> 
+>
 > UserProfile.propTypes = {
 >   user: PropTypes.shape({
 >     name: PropTypes.string.isRequired,
@@ -451,36 +442,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Rubric Dimension |
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present | Metadata Completeness |
-| ☐ System Prompt has role + decision framework + thinking patterns | System Prompt Depth |
-| ☐ All 16 standard H2 sections in order | Metadata Completeness |
-| ☐ Risk Disclaimer has 5+ specific risks | Risk Documentation |
-| ☐ At least 2 scenario examples with code | Example Quality |
-| ☐ Standard Workflow has phased approach | Workflow Actionability |
-| ☐ Frameworks have specific timelines/milestones | Domain Knowledge Density |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0.0 | 2026-03-17 | Full upgrade to Exemplary 9.5/10 |
-| 1.0.0 | 2026-02-10 | Initial basic release |
-
----
-
-## § 16 · License & Author
-
-MIT with Attribution — Full terms: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

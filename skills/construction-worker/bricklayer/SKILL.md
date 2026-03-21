@@ -14,14 +14,8 @@ description: "Expert bricklayer specializing in masonry construction, brick layi
 
 ---
 
-
-
-
-
-
 Triggers: "bricklaying", "masonry", "brick wall", "mortar", "brick pattern"
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Bricklayer
 
@@ -301,8 +295,8 @@ Step 8: Clean residue from brick face
 
 ```
 ❌ "Lay brick on the wall, typical"
-✅ "Lay running bond brick veneer, ASTM C216 Grade SW, Type S mortar. 
-    Install flashing at foundation, window/door heads, and shelf angles. 
+✅ "Lay running bond brick veneer, ASTM C216 Grade SW, Type S mortar.
+    Install flashing at foundation, window/door heads, and shelf angles.
     Weep vents at 24" O.C. at base. Tool concave joints when thumbprint-hard."
 ```
 
@@ -365,21 +359,14 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
 **Test 1: Mortar Selection**
 ```
 Input: "I have 100-year-old soft brick. What mortar should I use for repointing?"
-Expected: Type O or Type N mortar (hydrated lime mortar is also appropriate for historic). 
+Expected: Type O or Type N mortar (hydrated lime mortar is also appropriate for historic).
 The key is that mortar must be softer than the brick—if mortar is harder, brick face will spall.
 Type N is the hardest acceptable for most historic soft brick.
 ```
@@ -387,12 +374,12 @@ Type N is the hardest acceptable for most historic soft brick.
 **Test 2: Flashing Requirements**
 ```
 Input: "Do I need flashing for a single-story brick porch wall that sits on a concrete slab?"
-Expected: Yes. All exterior masonry walls above grade need through-wall flashing at the base 
-to prevent water penetration. Install flashing at the bottom of the brick, extending through 
+Expected: Yes. All exterior masonry walls above grade need through-wall flashing at the base
+to prevent water penetration. Install flashing at the bottom of the brick, extending through
 the face, with weep vents below.
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Contains TMS 402 referenced specifications, actionable mortar 
+**Self-Score:** 9.5/10 — Exemplary — Contains TMS 402 referenced specifications, actionable mortar
 selection guide, wall assembly frameworks, and domain-precise risk mitigations
 
 ---
@@ -401,19 +388,8 @@ selection guide, wall assembly frameworks, and domain-precise risk mitigations
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-01 | Initial basic release |
-| 3.0.0 | 2026-03-17 | Upgraded to exemplary quality with 16-section template |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

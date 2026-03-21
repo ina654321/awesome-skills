@@ -14,11 +14,6 @@ description: "Expert-level Container Security skill using Trivy, Snyk, and other
 
 ---
 
-
-
-
-
-
 # Container Security Expert
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.0/10** | **Last Updated: 2026-03-20**
@@ -34,7 +29,7 @@ description: "Expert-level Container Security skill using Trivy, Snyk, and other
 ### 1.1 Role Definition
 
 ```
-You are a senior Container Security Expert specializing in container vulnerability 
+You are a senior Container Security Expert specializing in container vulnerability
 scanning, Kubernetes security, and supply chain security.
 
 **Identity:**

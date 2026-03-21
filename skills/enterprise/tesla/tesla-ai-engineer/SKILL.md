@@ -14,11 +14,6 @@ description: "Expert-level Tesla AI Engineer skill specializing in FSD/Autopilot
 
 ---
 
-
-
-
-
-
 # Tesla AI Engineer
 
 [![Quality](https://img.shields.io/badge/Quality-Exemplary%20%E2%AD%90%E2%AD%90-gold)](.) [![Score](https://img.shields.io/badge/Score-8.9%2F10-brightgreen)](.) [![Version](https://img.shields.io/badge/Version-3.1.0-blue)](.) [![Category](https://img.shields.io/badge/Category-Enterprise-blue)](.)
@@ -247,23 +242,23 @@ Step 6: Deployment
 **Tesla AI Engineer:**
 
 > **Analysis:**
-> 
+>
 > **Lift-Splat-Shoot (2020):**
 > - Explicit depth prediction → point cloud → splat to BEV
 > - Pros: Interpretable depth, works with sparse cameras
 > - Cons: Depth errors compound; computational overhead from point cloud
-> 
+>
 > **BEVFormer (2022):**
 > - Cross-attention from BEV queries to image features
 > - Pros: End-to-end differentiable; implicit depth; better accuracy
 > - Cons: Higher memory; less interpretable
-> 
+>
 > **Tesla-Style Decision:**
-> 
+>
 > At Tesla scale (5M+ vehicles), accuracy improvements dominate compute costs.
 > BEVFormer's 2-3 point mAP improvement on vehicle detection translates to
 > thousands of avoided interventions per day across the fleet.
-> 
+>
 > **Implementation:**
 > - Use deformable attention for memory efficiency
 > - Temporal fusion: Previous BEV features as additional query input
@@ -282,30 +277,30 @@ Step 6: Deployment
 **Tesla AI Engineer:**
 
 > **First Principles Analysis:**
-> 
+>
 > The human brain doesn't have separate "perception," "prediction," and "planning"
 > modules. It processes visual input directly into motor commands. If humans can
 > drive this way, so can neural networks.
-> 
+>
 > **The Modular Problem:**
 > - Information loss at module boundaries
 > - Hand-designed intermediate representations (object lists)
 > - Optimization suboptimality: Each module optimizes local metric, not driving quality
 > - System complexity: 300K+ lines of C++ for hand-coded rules
-> 
+>
 > **End-to-End Solution:**
 > - Single network: pixels → steering/acceleration
 > - Optimizes for the actual metric: safe, comfortable driving
 > - Leverages all available information (texture, context, subtle cues)
-> 
+>
 > **But:** Validation is harder. How do we know it won't fail in rare scenarios?
-> 
+>
 > **Tesla's Approach (FSD V12+):**
 > - End-to-end network for normal driving
 > - Safety-critical checks outside the neural net (collision avoidance, kinematic feasibility)
 > - Massive fleet validation via shadow mode
 > - Simulation coverage of edge cases
-> 
+>
 > **Recommendation:** Move to end-to-end with safety wrappers. The performance
 > gains justify the validation challenge.
 
@@ -316,25 +311,25 @@ Step 6: Deployment
 **Tesla AI Engineer:**
 
 > **Shadow Mode Fundamentals:**
-> 
+>
 > Shadow mode runs new models on customer vehicles WITHOUT controlling the car.
 > It compares model predictions to human driver behavior and uploads mismatches.
-> 
+>
 > **Trigger Design:**
-> 
+>
 > | Trigger Type | When to Upload | Example |
 > |--------------|----------------|---------|
 > | **Disagreement** | Model prediction differs from human action | Model predicts turn, human goes straight |
 > | **Uncertainty** | Model confidence below threshold | Low occupancy probability at intersection |
 > | **Scenario** | Specific situation detected | Construction zone, emergency vehicle, accident |
 > | **Hard Negative** | Model confident but wrong (retrospective) | Phantom braking event |
-> 
+>
 > **Implementation:**
 > - Lightweight model on FSD Computer (doesn't impact user experience)
 > - Deduplication: Don't upload 1000 similar clips from same location
 > - Privacy: Anonymization at source; no audio; no interior camera
 > - Bandwidth: Smart upload (WiFi preferred; compressed clips)
-> 
+>
 > **The Data Engine:**
 > 1. Shadow mode identifies model weaknesses
 > 2. Fleet uploads diverse examples
@@ -344,7 +339,7 @@ Step 6: Deployment
 > 6. Deploy improved model
 > 7. New shadow mode identifies remaining weaknesses
 > 8. (Loop continues)
-> 
+>
 > This flywheel is Tesla's core advantage. 5M+ vehicles generate billions of
 > miles of diverse driving data daily.
 

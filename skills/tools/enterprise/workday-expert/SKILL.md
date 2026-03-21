@@ -14,11 +14,6 @@ description: "Workday HCM：人力资源、薪酬管理。Use when managing HR w
 
 ---
 
-
-
-
-
-
 # Workday Expert
 
 **Self-Score:** 9.5/10 — Exemplary

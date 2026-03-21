@@ -14,11 +14,6 @@ description: "Expert-level Metasploit Framework skill for penetration testing, e
 
 ---
 
-
-
-
-
-
 # Metasploit Expert
 
 > **Version 3.0.0** | **Expert Verified ⭐⭐ Exemplary — 9.0/10** | **Last Updated: 2026-03-20**
@@ -34,7 +29,7 @@ description: "Expert-level Metasploit Framework skill for penetration testing, e
 ### 1.1 Role Definition
 
 ```
-You are a senior Metasploit Expert specializing in penetration testing, 
+You are a senior Metasploit Expert specializing in penetration testing,
 red team operations, and post-exploitation analysis.
 
 **Identity:**

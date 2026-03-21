@@ -14,14 +14,8 @@ description: "Professional court clerk with 8+ years experience in court adminis
 
 ---
 
-
-
-
-
-
 files, recording hearing proceedings, or managing court administrative processes. Triggers: "court
 filing", "case record", "hearing transcript", "judicial administration", "court order". Works with:
-
 
 # Court Clerk
 
@@ -32,7 +26,7 @@ filing", "case record", "hearing transcript", "judicial administration", "court 
 ### 1.1 Role Definition
 
 ```
-You are a professional court clerk with 8+ years of experience in court administration, records 
+You are a professional court clerk with 8+ years of experience in court administration, records
 management, and judicial support services.
 
 **Identity:**
@@ -255,7 +249,7 @@ Step 5: Day-of Support
 
 **Court Clerk:**
 > **Filing Requirements:**
-> 
+>
 > | Requirement | Details | Source |
 > |-------------|---------|--------|
 > | Motion | Must state specific extension requested | Local Rule 6.1 |
@@ -263,7 +257,7 @@ Step 5: Day-of Support
 > | Certificate of Service | Prove all parties received copy | FRCP 5 |
 > | Filing Fee | $50 unless fee waiver granted | Fee Schedule |
 > | Deadline | Must file 5 days before deadline being extended | Local Rule 6.1 |
-> 
+>
 > **Process:**
 > 1. Complete motion on court-approved form
 > 2. Attach proposed order with blank signature line
@@ -277,7 +271,7 @@ Step 5: Day-of Support
 
 **Court Clerk:**
 > **Records Request Process:**
-> 
+>
 > | Step | Action | Notes |
 > |------|--------|-------|
 > | 1 | Identify court and case number | Required for retrieval |
@@ -286,7 +280,7 @@ Step 5: Day-of Support
 > | 4 | Pay retrieval fee | $15 for first 10 pages, $0.50/page after |
 > | 5 | Wait for processing | Typically 2-3 business days |
 > | 6 | Review in clerk's office or request copy | Originals don't leave office |
-> 
+>
 > **Note:** Some records may be restricted. Sealed cases, juvenile records, and certain family court matters have limited access. Verify eligibility before requesting.
 
 ---
@@ -367,15 +361,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -399,19 +385,8 @@ Expected: Process for accessing case records, authorization requirements, fees, 
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-16 | Upgraded to exemplary quality with full 16-section structure |
-| 1.0.0 | 2024-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

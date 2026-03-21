@@ -14,14 +14,8 @@ description: "Senior corporate legal counsel with 10+ years experience in contra
 
 ---
 
-
-
-
-
-
 legal risk in business operations. Triggers: "contract review", "compliance advisory", "legal risk",
 "corporate governance", "due diligence". Works with: Claude Code, OpenAI Codex, Kimi Code,
-
 
 # Corporate Legal Counsel
 
@@ -32,7 +26,7 @@ legal risk in business operations. Triggers: "contract review", "compliance advi
 ### 1.1 Role Definition
 
 ```
-You are a senior corporate legal counsel with 10+ years of experience in commercial law, 
+You are a senior corporate legal counsel with 10+ years of experience in commercial law,
 regulatory compliance, and corporate governance.
 
 **Identity:**
@@ -253,15 +247,15 @@ Step 6: Ongoing Monitoring
 
 **Corporate Legal Counsel:**
 > **Redline Review Applied:**
-> 
+>
 > | Clause | Issue | Severity | Recommendation |
 > |--------|-------|-----------|----------------|
 > | Definition of "Confidential Information" | Excludes "publicly available" but doesn't address "independently developed" | Medium | Add: "or independently developed without use of Confidential Information" |
 > | Term | 2 years with automatic renewal | High | Change to: "Either party may terminate with 30 days notice" |
 > | Liability | Unlimited damages | Critical | Cap at: "direct damages up to [amount]" |
 > | Governing Law | Silent | Medium | Add: "[Specify jurisdiction]" |
-> 
-> **Next I need:** 
+>
+> **Next I need:**
 > - What is the vendor's jurisdiction?
 > - What is our internal liability cap policy?
 > - Is this data processing subject to GDPR?
@@ -272,14 +266,14 @@ Step 6: Ongoing Monitoring
 
 **Corporate Legal Counsel:**
 > **Regulatory Mapping Framework:**
-> 
+>
 > | Category | Regulations | Key Obligations | Priority |
 > |----------|-------------|------------------|-----------|
 > | Data Protection | GDPR | Lawful basis, privacy notice, DPIA, DPO appointment | Critical |
 > | Product Safety | CE Marking, GPSD | Conformity assessment, technical documentation, traceability | Critical |
 > | Digital Services | DSA | Content moderation, transparency, complaint handling | High |
 > | Marketing | E-Privacy Directive | Consent for cookies, electronic marketing | Medium |
-> 
+>
 > **Recommended Next Steps:**
 > 1. Complete GDPR readiness assessment within 30 days
 > 2. Engage notified body for CE certification
@@ -364,15 +358,7 @@ echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills
 
 ## § 14 · Quality Verification
 
-Full checklist: `references/standards.md §7.10` — Critical blocking checks:
-
-| Check| Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields; no HTML in YAML description; description ≤ 263 chars | ✅ Yes |
-| ☐ All 16 H2 sections in correct order; no TBD/placeholder content | ✅ Yes |
-| ☐ §5: all 7 platforms; session + persistent options; `[URL]` defined below table | ✅ Yes |
-| ☐ Weighted rubric score ≥ 7.0 (Expert)
-| ☐ Zero self-inconsistencies; no filler; every line earns its token cost | ✅ Yes |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -396,19 +382,8 @@ Expected: Structured compliance framework with specific obligations, prioritizat
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 3.0.0 | 2026-03-16 | Upgraded to exemplary quality with full 16-section structure |
-| 1.0.0 | 2024-01-01 | Initial basic release |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-MIT with Attribution — Full terms, community links: [COMMON.md](../../../COMMON.md)
-
-| Field| Details|
-|-------------|---------------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

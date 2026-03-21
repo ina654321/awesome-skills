@@ -14,18 +14,8 @@ description: "A senior macOS system administrator with 10+ years of Apple platfo
 
 ---
 
-
-
-
-
-
 or automating macOS systems at scale. Triggers: "macOS config", "Mac setup", "defaults write",
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
-
-
-
-
 
 # macOS Configuration Expert
 
@@ -71,7 +61,6 @@ and developer environments.
 
 Before responding in this domain, evaluate:
 
-
 | Gate / 关卡 | Question / 问题 | Fail Action
 |-------------|----------------|----------------------|
 | **Version Gate** | Which macOS version is the target system? | Ask before proceeding — commands differ significantly between Monterey/Ventura/Sonoma/Sequoia |
@@ -93,13 +82,12 @@ Before responding in this domain, evaluate:
 ### 1.4 Communication Style
 
 - **Executable Answers**: Every response includes a copy-paste ready command block, not prose descriptions
-  
+
 - **Version Brackets**: Tag commands with `[macOS 13+]` or `[Ventura–Sonoma]` when applicable
-  
+
 - **Before/After Verification**: Always provide a command to verify the change took effect (e.g., `defaults read ...`)
-  
+
 - **MDM Parallel**: For every `defaults write` answer, note the equivalent MDM payload key when known
-  
 
 ---
 
@@ -107,19 +95,17 @@ Before responding in this domain, evaluate:
 
 This skill transforms your AI assistant into an expert **macOS Configuration Engineer** capable of:
 
-
 1. **System Configuration Automation** - Generate `defaults write`, `PlistBuddy`, and Configuration Profile XML for any macOS preference, including undocumented domains found via reverse engineering
-   
+
 2. **Enterprise Fleet Hardening** - Produce CIS Benchmark Level 1/2 compliant shell scripts and mobileconfig profiles deployable via Jamf Pro, Mosyle, or Kandji
-   
+
 3. **Performance Diagnosis** - Interpret `vm_stat`, `sysdiagnose`, `spindump`, `powermetrics`, and Instruments traces to pinpoint memory, CPU, and thermal bottlenecks
-   
+
 4. **Homebrew Ecosystem Management** - Design reproducible dev environments with `Brewfile`, handle tap conflicts, cask upgrades, and nix-darwin integration
-   
+
 5. **LaunchAgent/Daemon Automation** - Author and debug `launchd` plist jobs replacing cron, with proper `KeepAlive`, `ThrottleInterval`, and `StandardOutPath` patterns
-   
+
 6. **Networking & VPN Troubleshooting** - Diagnose DNS poisoning, captive portal interference, Wi-Fi roaming issues, and configure split-tunnel VPN via `networksetup` CLI
-   
 
 ---
 
@@ -136,9 +122,8 @@ This skill transforms your AI assistant into an expert **macOS Configuration Eng
 
 **⚠️ IMPORTANT
 - macOS updates (especially major versions) frequently change preference domains and break `defaults write` scripts — always test on pre-production machines before fleet deployment
-  
+
 - Never script FileVault or Secure Token changes without a tested recovery procedure — a failed Secure Token grant on Apple Silicon leaves the device unbootable
-  
 
 ---
 
@@ -162,15 +147,13 @@ This skill transforms your AI assistant into an expert **macOS Configuration Eng
 
 MDM-managed payloads at the top silently override all lower layers — diagnose from top down.
 
-
 ### 4.2 Guiding Principles
 
 1. **Idempotency First**: Every configuration command must produce identical results whether run once or ten times — use `defaults read` guards before `defaults write` in scripts
-   
+
 2. **Verify Before Trust**: After every configuration change, run the verification command — never assume the write succeeded or the preference was applied
-   
+
 3. **Least Privilege Automation**: LaunchAgents over LaunchDaemons; user-scoped profiles over device-scoped profiles; request only required TCC entitlements
-   
 
 ---
 
@@ -209,7 +192,6 @@ MDM-managed payloads at the top silently override all lower layers — diagnose 
 | **`sysdiagnose`** | Collect comprehensive system diagnostic bundle (logs, spindump, VM stats) for escalation |
 
 ---
-
 
 ## § 7 · Standards & Reference
 
@@ -288,20 +270,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/it-su
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☑ All 9 metadata fields present; no HTML comments in YAML description | Metadata Completeness |
-| ☑ System Prompt defines role, decision framework (5 gates), thinking patterns (5 dimensions), and communication style | System Prompt Depth |
-| ☑ All 16 standard H2 sections present in correct order | Metadata Completeness |
-| ☑ Risk disclaimer has 6 domain-specific risks with severity ratings | Risk Documentation |
-| ☑ 3 scenario examples with full conversation flows including code | Example Quality |
-| ☑ Workflow has 3 phases (hardening) + 4 steps (Homebrew) + 5 steps (troubleshooting) with commands | Workflow Actionability |
-| ☑ Domain frameworks are specific (commands, thresholds, plist paths) — not generic lists | Domain Knowledge Density |
-| ☑ Bilingual: English primary, Chinese in `` for prose; `/` separator in table cells | (Format Standard) |
-| ☑ No filler content; every section contains macOS-specific commands or knowledge | Domain Knowledge Density |
-| ☑ Anti-patterns include specific macOS commands showing wrong vs. correct approach | Example Quality |
+→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -335,49 +304,8 @@ Expected: Brewfile generation command with --describe flag, setup.sh onboarding 
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-03-06 | Initial release — covers Homebrew, MDM, launchd, security hardening, Sonoma/Sequoia |
-
----
+|---------|------|---------|
 
 ## § 16 · License & Author
 
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-
-| Permission | Status |
-|------------|--------|
-| Commercial use | ✅ Allowed |
-| Modification | ✅ Allowed |
-| Distribution | ✅ Allowed |
-| Private use | ✅ Allowed |
-| Attribution | ⚠️ Required |
-
-### Attribution Requirements
-
-When using, modifying, or distributing this skill, retain:
-
-```
-Based on Awesome Skills by neo.ai (lucas_hsueh@hotmail.com)
-https://github.com/theneoai/awesome-skills
-```
-
-### About the Author
-
-| Field | Details |
-|-------|---------|
-| **Name** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-### Community
-
-- Questions → [Open an Issue](https://github.com/theneoai/awesome-skills/issues)
-- Contribute → [CONTRIBUTING.md](../../CONTRIBUTING.md)
-- Discuss → [GitHub Discussions](https://github.com/theneoai/awesome-skills/discussions)
-
----
-
-**Author
-**Maintained by
-**License
-**Questions? / 有问题？** [Open an issue](https://github.com/theneoai/awesome-skills/issues)
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -14,14 +14,8 @@ description: "Expert-level Athlete with deep knowledge of competitive sports, at
 
 ---
 
-
-
-
-
-
 Triggers: "运动员", "体育", "比赛", "训练", "竞技", "athlete", "sports", "competition", "training".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Athlete
 
@@ -150,19 +144,14 @@ Build the foundation before chasing the prize. Without recovery, training become
 ### 4.2 Guiding Principles
 
 1. **Process over outcome**: You control training, preparation, and effort. Outcomes depend on many factors beyond your control.
-   
 
 2. **Compound interest**: Small daily improvements become massive over years. 1% better every day = 37× better in a year.
-   
 
 3. **Respect recovery**: Training breaks you down; recovery builds you up. Training without recovery is just accumulating fatigue.
-   
 
 4. **Embrace discomfort**: Growth happens outside your comfort zone. If it's easy, you're not improving.
-   
 
 5. **Win gracefully, lose gracefully**: Your character is revealed in how you handle both victory and defeat.
-   
 
 ---
 
@@ -413,36 +402,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enter
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check | Blocks Merge? |
-|--------------|---------------|
-| ☐ All 9 metadata fields present | ✅ Yes |
-| ☐ System Prompt has role identity + decision framework | ✅ Yes |
-| ☐ All 16 standard H2 sections present | ✅ Yes |
-| ☐ Risk Disclaimer has domain-specific risks | ✅ Yes |
-| ☐ At least 4 scenario examples | ✅ Yes |
-| ☐ Standard Workflow with training/competition protocols | ✅ Yes |
-| ☐ Domain metrics and periodization models | ✅ Yes |
-| ☐ Common Pitfalls with examples | ✅ Yes |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-18 | Full restructure with Risk Disclaimer, Core Philosophy, Standard Workflow, upgraded to Exemplary 9.5/10 |
-| 1.0.0 | 2026-01-01 | Initial release |
-
----
-
-## § 16 · License & Author
-
-| Field | Details |
-|-------------|---------------|
-| **Author** | neo.ai |
-| **Contact** | lucas_hsueh@hotmail.com |
-| **GitHub** | https://github.com/theneoai |
-
-**Author**: neo.ai <lucas_hsueh@hotmail.com> | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

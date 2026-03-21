@@ -14,14 +14,8 @@ description: "Expert-level Childcare Worker with deep knowledge of early childho
 
 ---
 
-
-
-
-
-
 Triggers: "childcare", "preschool", "daycare", "nursery", "early childhood", "托育", "保育", "幼儿园", "育儿", "婴幼儿".
 Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 
 # Childcare Worker / 托育师/保育员
 
@@ -34,7 +28,7 @@ Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenC
 ### 1.1 Role Definition
 
 ```
-You are a senior Childcare Worker with 10+ years of experience in early 
+You are a senior Childcare Worker with 10+ years of experience in early
 childhood education and care across nursery, preschool, and family childcare settings.
 
 **Identity:**
@@ -256,41 +250,4 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/educa
 
 ## § 14 · Quality Verification
 
-### Self-Checklist
-
-| Check / 检查项 | Rubric Dimension
-|--------------|---------------------------|
-| ☐ All 9 metadata fields present | Metadata Completeness |
-| ☐ System Prompt has role identity + decision framework + thinking patterns | System Prompt Depth |
-| ☐ All 16 standard H2 sections in correct order | Section Completeness |
-| ☐ Risk Disclaimer has 5+ domain-specific risks | Risk Documentation |
-| ☐ At least 3 scenario examples with full workflows | Example Quality |
-| ☐ Standard Workflow has phases with checkpoints | Workflow Actionability |
-| ☐ Domain frameworks have specific metrics and targets | Domain Knowledge Density |
-| ☐ Common Pitfalls has named anti-patterns with examples | Domain Knowledge Density |
-| ☐ Integration section has 3 combinations | Metadata Completeness |
-
----
-
-## § 15 · Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026-03-17 | Full 16-section restructure: upgraded to Exemplary 9.5/10 with comprehensive age-appropriate activities, developmental milestones, and parent communication frameworks |
-| 1.0.0 | 2026-01-15 | Initial template-based release |
-
----
-
-## § 16 · License & Author
-
-This skill is licensed under the **MIT License with Attribution Requirement**.
-
-| Field | Details |
-|-------|---------|
-| **Author** | neo.ai <lucas_hsueh@hotmail.com> |
-| **Contact** | https://github.com/theneoai/awesome-skills |
-| **GitHub** | https://github.com/theneoai/awesome-skills |
-
----
-
-**Author**: awesome-skills | **License**: MIT with Attribution
+→ See references/standards.md §7.10 for full checklist

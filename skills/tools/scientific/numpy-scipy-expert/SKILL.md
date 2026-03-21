@@ -14,11 +14,6 @@ description: "NumPy/SciPy expert: array operations, linear algebra, FFT, signal 
 
 ---
 
-
-
-
-
-
 # NumPy/SciPy Expert
 
 ---
