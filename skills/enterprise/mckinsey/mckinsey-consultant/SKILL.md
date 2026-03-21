@@ -392,153 +392,92 @@ a compelling $X billion opportunity based on [initial assumptions]."
 ## § 9 · Gotchas & Anti-Patterns
 
 ### #EP1: MECE ≠ Perfection
-
-❌ **Anti-Pattern**: Spending hours debating the perfect categorization.
-
-✅ **Correct**: "MECE is a guide, not a constraint. Prioritize practical utility over theoretical perfection."
+❌ Spending hours debating the perfect categorization.
+✅ "MECE is a guide, not a constraint. Prioritize practical utility over theoretical perfection."
 
 ### #EP2: Analysis ≠ Insight
-
-❌ **Anti-Pattern**: Providing data without the "so what."
-
-✅ **Correct**: "Every analysis must lead to actionable insight. If it doesn't change the recommendation, exclude it."
+❌ Providing data without the "so what."
+✅ "Every analysis must lead to actionable insight. If it doesn't change the recommendation, exclude it."
 
 ### #EP3: Hypotheses ≠ Biases
-
-❌ **Anti-Pattern**: Sticking to initial hypotheses despite contradictory evidence.
-
-✅ **Correct**: "Hypotheses are starting points, not conclusions. Be willing to pivot when data disproves them."
+❌ Sticking to initial hypotheses despite contradictory evidence.
+✅ "Hypotheses are starting points, not conclusions. Be willing to pivot when data disproves them."
 
 ### #EP4: Frameworks ≠ Answers
-
-❌ **Anti-Pattern**: Forcing every problem into a standard framework.
-
-✅ **Correct**: "Frameworks are tools, not crutches. Adapt or create new structures when standard ones don't fit."
+❌ Forcing every problem into a standard framework.
+✅ "Frameworks are tools, not crutches. Adapt or create new structures when standard ones don't fit."
 
 ### #EP5: Rigor ≠ Complexity
-
-❌ **Anti-Pattern**: Making simple problems complex to show intellectual horsepower.
-
-✅ **Correct**: "Elegant solutions are simple. Complexity often hides unclear thinking."
+❌ Making simple problems complex to show intellectual horsepower.
+✅ "Elegant solutions are simple. Complexity often hides unclear thinking."
 
 ### #EP6: Client Service ≠ Yes Culture
-
-❌ **Anti-Pattern**: Never pushing back on client requests.
-
-✅ **Correct**: "True client service includes challenging assumptions and saying no when appropriate."
+❌ Never pushing back on client requests.
+✅ "True client service includes challenging assumptions and saying no when appropriate."
 
 ### #EP7: Data-Driven ≠ Data-Overwhelmed
-
-❌ **Anti-Pattern**: Gathering data for its own sake.
-
-✅ **Correct**: "Start with hypotheses and gather only data needed to test them. Quality over quantity."
+❌ Gathering data for its own sake.
+✅ "Start with hypotheses and gather only data needed to test them. Quality over quantity."
 
 ### #EP8: Excellence ≠ Burnout
-
-❌ **Anti-Pattern**: Working unsustainable hours to deliver "perfect" work.
-
-✅ **Correct**: "Sustainable high performance requires balance. Prioritize and manage time effectively."
+❌ Working unsustainable hours to deliver "perfect" work.
+✅ "Sustainable high performance requires balance. Prioritize and manage time effectively."
 
 ---
 
-## § 10 · Integration with Other Skills
+## § 10 · Integration
 
-| Skill | Integration Point | When to Use |
-|-------|-------------------|-------------|
-| **management-consultant** | General consulting skills | Consulting projects |
-| **strategy-consultant** | Strategic frameworks | Strategy engagements |
-| **financial-analyst** | Financial modeling | Financial due diligence |
-| **data-analyst** | Data analysis | Quantitative research |
-| **executive/ceo** | Leadership perspective | C-suite engagement |
+| Skill | Integration Point |
+|-------|-------------------|
+| **management-consultant** | General consulting skills |
+| **strategy-consultant** | Strategic frameworks |
+| **financial-analyst** | Financial modeling |
 
 ---
 
 ## § 11 · Scope & Limitations
 
-### What This Skill Covers
-- McKinsey's structured problem-solving methodology
-- MECE and issue tree frameworks
-- The Pyramid Principle for communication
-- Business frameworks (BCG Matrix, Value Chain, etc.)
-- The One Firm culture and apprenticeship model
-- Case interview preparation
+**Covers**: Structured problem-solving, MECE, issue trees, Pyramid Principle, business frameworks, One Firm culture.
 
-### What This Skill Does NOT Cover
-- Proprietary firm methodologies
-- Client-specific confidential information
-- Specific industry expertise (sector-specific skills)
-- Implementation details beyond recommendation
-
-### Industry Context Requirements
-This skill is optimized for:
-- Strategy consulting environments
-- Problem-solving in ambiguous situations
-- Data-driven decision making
-- Executive-level communication
+**Does NOT Cover**: Proprietary methodologies, confidential client information, implementation beyond recommendation.
 
 ---
 
 ## § 12 · How to Use This Skill
 
 ### For Interview Preparation
-1. **Practice cases**: 50+ live practice cases
-2. **Master frameworks**: Understand when to use each
-3. **Develop stories**: PEI examples demonstrating leadership
-4. **Math practice**: Mental math, market sizing
+1. Practice 50+ live cases
+2. Master frameworks and when to use each
+3. Develop PEI stories demonstrating leadership
+4. Practice mental math and market sizing
 
 ### For Daily Work
-1. **Start with structure**: Issue tree for every problem
-2. **Hypothesize early**: Don't wait for all data
-3. **80/20 ruthlessly**: Focus on what matters
-4. **So what always**: Every analysis needs insight
-
-### For Client Engagement
-1. **Listen deeply**: Understand the real problem
-2. **Communicate clearly**: Pyramid structure
-3. **Be objective**: Truth over comfort
-4. **Build capabilities**: Teach, don't just tell
+1. Start with structure — issue tree for every problem
+2. Hypothesize early — don't wait for all data
+3. 80/20 ruthlessly — focus on what matters
+4. So what always — every analysis needs insight
 
 ---
 
 ## § 13 · Quality Verification
 
-### Self-Assessment Checklist
-
-- [ ] **Structured**: Is the problem broken down logically?
-- [ ] **MECE**: Are categories mutually exclusive and collectively exhaustive?
-- [ ] **Hypothesis-driven**: Are we testing beliefs or fishing?
-- [ ] **Fact-based**: Is analysis supported by data?
-- [ ] **Actionable**: Can the client act on this?
-
-### Validation Questions
-1. "What is the 'so what' of this analysis?"
-2. "Is this structured in a MECE way?"
-3. "What hypothesis are we testing?"
-4. "Is this recommendation actionable?"
-5. "Would a partner find this client-ready?"
+- [ ] Structured: Is the problem broken down logically?
+- [ ] MECE: Are categories mutually exclusive and collectively exhaustive?
+- [ ] Hypothesis-driven: Are we testing beliefs or fishing?
+- [ ] Fact-based: Is analysis supported by data?
+- [ ] Actionable: Can the client act on this?
 
 ---
 
 ## § 14 · Version History
 
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.1.0 | 2026-03-21 | Initial release — McKinsey Consultant skill with problem-solving frameworks | neo.ai |
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.1.0 | 2026-03-21 | Initial release |
 
 ---
 
 ## § 15 · License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)
-**License**: MIT — Free for personal and commercial use
-**Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
-
-### Acknowledgments
-- "The McKinsey Way" by Ethan Rasiel
-- "The Pyramid Principle" by Barbara Minto
-- "McKinsey Mind" by Ethan Rasiel and Paul Friga
-- McKinsey's "One Firm" values and methodology
-
----
-
-**End of Skill Document**
+**License**: MIT — [awesome-skills](https://github.com/lucaswhch/awesome-skills)

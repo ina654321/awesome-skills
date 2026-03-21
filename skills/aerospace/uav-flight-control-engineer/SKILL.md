@@ -236,89 +236,12 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
----
+| Scenario | Description |
+|----------|-------------|
+| **EKF Divergence** | GPS-denied navigation with optical flow + UWB |
+| **INDI Wind Rejection** | Incremental Nonlinear Dynamic Inversion for gusty conditions |
 
 ---
-
-### Scenario 2: EKF Divergence in GPS-Denied Environment
-
-**User:** We need to fly indoors for a warehouse inspection mission. Our EKF diverges after about 45 seconds without GPS. What navigation solution do you recommend?
-
-**UAV Flight Control Engineer:** GPS-denied navigation for warehouse operations is a well-defined problem with several proven solutions. Here's the architecture I recommend:
-
-**Primary Solution: Optical Flow + Downward Ranging**
-
-For a warehouse with structured floor features, optical flow provides excellent 2D velocity estimates:
-
-```
-Required sensors:
-- Optical flow sensor (PX4Flow, PMW3901 at >50 Hz)
-- Downward-facing rangefinder (TFmini Plus, <5m range)
-- Existing IMU (already on vehicle)
-```
-
-**EKF Configuration (ArduPilot EK3):**
-```
-EK3_GPS_TYPE = 3      # No GPS
-EK3_SRC1_POSXY = 0    # No external position
-EK3_SRC1_VELXY = 5    # Optical flow
-EK3_SRC1_POSZ = 1     # Barometer (supplement with rangefinder)
-EK3_FLOW_MASK = 1     # Enable optical flow
-```
-
-**Accuracy Expectations:**
-- Position drift: ~0.5-1% of distance traveled (typical for optical flow)
-- After 45s hover: ~2-5cm drift at 1 m/s average motion
-- After 100m traversal: ~0.5-1m accumulated error
-
-**Secondary Solution: UWB Positioning**
-
-For ±10cm level accuracy required by precision inspection, deploy UWB anchors:
-- 4 anchors provide 2D positioning with <15cm accuracy
-- 8 anchors with TDOA provide full 3D with <10cm accuracy
-- Decawave DWM1001 modules integrate directly with PX4 via UART
-
-**Hybrid Architecture (Recommended):**
-Fuse optical flow (high rate, relative) + UWB (lower rate, absolute) in EKF. The UWB anchors bound the accumulated optical flow drift, while optical flow provides high-bandwidth velocity damping between UWB updates.
-
----
-
-### Scenario 3: INDI Controller for Wind Rejection
-
-**User:** We're operating a fixed-wing ISR UAV at low altitude in gusty conditions. Our PID-based roll controller shows ±8° attitude error in 15 knot gusts. Can INDI help?
-
-**UAV Flight Control Engineer:** Yes — INDI (Incremental Nonlinear Dynamic Inversion) is specifically designed to excel in exactly this scenario. Here's why and how:
-
-**Why INDI outperforms PID in gusts:**
-
-PID reacts to *attitude error* — by the time the gust has caused a detectable attitude error, the disturbance has already partially subsided. INDI uses *measured angular acceleration* from high-rate IMU data to estimate and directly cancel the disturbance torque in real-time.
-
-**INDI Control Law:**
-
-The fundamental INDI update law is:
-```
-δu = G⁻¹(ν - ṗ_measured)
-
-where:
-  δu = actuator increment (deflection change)
-  G = control effectiveness matrix (dṗ/dδ, identified from flight data)
-  ν = virtual control input (desired angular acceleration)
-  ṗ_measured = measured angular acceleration from IMU at 500Hz+
-```
-
-The control effectiveness matrix G must be identified from flight data or simulation. For a conventional fixed-wing:
-```
-G = [[∂ṗ/∂δa,  ∂ṗ/∂δr],    # roll rate from aileron, rudder
-     [∂q̇/∂δe,  0        ],    # pitch rate from elevator
-     [∂ṙ/∂δa,  ∂ṙ/∂δr  ]]   # yaw rate from aileron, rudder
-```
-
-**Expected Improvement:**
-- PID roll attitude error in 15-knot gusts: ±8° (observed)
-- INDI roll attitude error in same conditions: ±2-3° (typical improvement)
-- The improvement is larger at higher gust frequencies (>1 Hz) where PID phase lag is significant
-
-**Implementation Path:** Start with the INDI implementation in PX4 (since v1.11) or ArduPilot's planned INDI support. You'll need IMU update rate ≥500 Hz and actuator feedback for best results.
 
 ---
 
@@ -326,47 +249,15 @@ G = [[∂ṗ/∂δa,  ∂ṗ/∂δr],    # roll rate from aileron, rudder
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
----
+| Pitfall | Issue |
+|---------|-------|
+| **Rate Loop Too Slow** | Running at 100 Hz instead of 500-1000 Hz |
+| **Tuning in Calm Only** | Not testing at edge of wind envelope |
+| **GPS Accuracy Overconfidence** | Using CEP50 instead of CEP95 |
+| **Skipping EKF Covariance** | Using default noise parameters |
+| **No Failure Mode Testing** | Only testing nominal scenarios |
 
 ---
-
-### Pitfall 2: Rate Loop Too Slow
-
-❌ **BAD:** Running attitude rate loop at 100 Hz because "that's fast enough for autopilot"
-
-✅ **GOOD:** Rate loop at 500-1000 Hz minimum. At 100 Hz, a 10ms loop delay adds 64° phase loss at 10 rad/s — this alone can destabilize an inner rate loop. Use FreeRTOS or DMA-based sensor reads to achieve 1kHz deterministically.
-
----
-
-### Pitfall 3: Tuning in Calm Conditions Only
-
-❌ **BAD:** Tune all gains on a calm day, declare done, ship
-
-✅ **GOOD:** Test at the edge of the wind envelope (±80% of rated wind speed), in thermal conditions, and with payload variations (empty/full). Gain margins that look comfortable in calm air often disappear in turbulence.
-
----
-
-### Pitfall 4: GPS Accuracy Overconfidence
-
-❌ **BAD:** Assuming GPS accuracy = CEP50 from datasheet (e.g., 1.5m CEP50), designing position controller for 2m waypoint radius
-
-✅ **GOOD:** Account for GPS accuracy degradation: multipath in urban canyons (10-50m errors), SA-like tropospheric events, and the statistical tail beyond CEP50 (CEP95 ≈ 2.5× CEP50). Design for CEP95 or use RTK/SBAS augmentation when accuracy is mission-critical.
-
----
-
-### Pitfall 5: Skipping EKF Covariance Tuning
-
-❌ **BAD:** Using default EKF noise parameters from autopilot firmware and wondering why attitude estimates are noisy or laggy
-
-✅ **GOOD:** Conduct an Allan variance analysis on your specific IMU to characterize noise density and bias instability. Use these measured values to set EKF process noise covariance. Similarly, measure your GPS accuracy statistically to set measurement noise covariance.
-
----
-
-### Pitfall 6: No Failure Mode Testing
-
-❌ **BAD:** Only testing nominal scenarios; assuming "the sim worked, the real vehicle will be fine"
-
-✅ **GOOD:** Create a hardware failure injection harness. Test: GPS dropout (inject NMEA dropout), IMU sensor glitch (inject bias spike), communication loss (GCS link drop), single motor failure (ESC shutdown command). Verify safe mode transitions for each.
 
 ---
 

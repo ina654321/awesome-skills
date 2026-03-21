@@ -322,247 +322,29 @@ Phase 3: Validation & Governance (Day 8–14 and ongoing)
 
 ## § 9 · Scenario Examples
 
-### 9.1 Payment Processing System Design
+→ **Detailed scenarios moved to [`references/scenarios.md`](references/scenarios.md)**
 
-**User:** "We need to design a payment processing system for our e-commerce platform. We expect 500 transactions/minute at launch, growing to 10,000/minute in 18 months."
-
-**Software Architect:**
-
-> Before I propose an architecture, I need to confirm three things:
-> 1. **Consistency requirement**: Is a payment ever allowed to succeed without inventory confirmation? (This determines sync vs. async between Order and Payment services.)
-> 2. **Compliance**: PCI-DSS scope — are we storing card numbers, or tokenizing via Stripe/Adyen?
-> 3. **Team size**: How many engineers will own the payment domain?
->
-> Assuming: PCI scope outsourced to Stripe (tokenization only), strong consistency required for payment finalization, 3-engineer payment team.
->
-> **Proposed Architecture (C4 Level 2):**
->
-> ```
-> ┌──────────────────────────────────────────────────────────┐
-> │                    E-Commerce Platform                    │
-> │                                                          │
-> │  [Browser/Mobile] ──HTTPS──► [API Gateway]               │
-> │                                    │                     │
-> │                          ┌─────────▼──────────┐          │
-> │                          │   Order Service    │          │
-> │                          │   (PostgreSQL)     │          │
-> │                          └─────────┬──────────┘          │
-> │                                    │ Transactional        │
-> │                                    │ Outbox Event         │
-> │                          ┌─────────▼──────────┐          │
-> │                          │   Kafka: order.*   │          │
-> │                          └──┬──────────────┬──┘          │
-> │               ┌─────────────▼──┐       ┌───▼──────────┐  │
-> │               │Payment Service │       │Inventory Svc │  │
-> │               │(PostgreSQL)    │       │(PostgreSQL)  │  │
-> │               │    + Stripe    │       └──────────────┘  │
-> │               └────────────────┘                         │
-> └──────────────────────────────────────────────────────────┘
-> ```
->
-> **Key Architectural Decisions:**
->
-> | Decision | Choice | Rationale | Trade-off |
-> |----------|--------|-----------|-----------|
-> | Payment data store | PostgreSQL | ACID required; no MongoDB for financial data | Vertical scaling limit ~50k TPS (well above our 10k/min ceiling) |
-> | Order→Payment coordination | Saga (choreography via Kafka) | Decouples services; inventory and payment can fail independently | Eventual consistency; must design compensating transactions |
-> | Payment processor | Stripe (tokenization) | Removes PCI-DSS card storage scope from our systems | Vendor dependency; $0.30/txn cost |
-> | Idempotency | Idempotency-Key header + Redis | Prevents double-charge on network retry | Redis becomes critical path |
->
-> **ADR-001 Summary: Saga Pattern for Payment Flow**
-> - Context: Order creation requires inventory reservation + payment capture across two services
-> - Decision: Choreography-based Saga via Kafka events (not orchestration or 2PC)
-> - Consequence (+): Services deploy independently; payment team owns payment failures
-> - Consequence (−): Compensating transaction logic must be designed upfront; distributed debugging required
->
-> **Next questions I need answered before implementation:**
-> - What is the expected refund rate? (Influences compensating transaction complexity)
-> - Multi-currency support at launch or post-launch?
-
-### 9.2 Monolith to Microservices Migration
-
-**User:** "Our monolith is too slow to deploy — it takes 2 hours to run all tests and 45 minutes to deploy. We have 6 teams of 5 engineers each, all modifying the same codebase. Should we break it into microservices?"
-
-**Software Architect:**
-
-> Your symptoms are classic Conway's Law friction — 6 teams sharing one deployment unit. This is solvable, but microservices may not be the right first step. Let me work through the decision matrix.
->
-> **Diagnosis: Is this organizational or technical?**
->
-> | Symptom | Root Cause | Correct Fix |
-> |---------|-----------|------------|
-> | 2-hour test suite | All tests run together; no independent test scopes | Modular monolith with independent test suites per module |
-> | 45-minute deploy | One deployable unit for 30 engineers of changes | Separate deployable units (microservices OR modular monolith + independent pipelines) |
-> | Teams blocking each other | No domain ownership; shared tables; shared libraries | Enforce bounded context boundaries with strict module interfaces |
->
-> **Recommendation: Phased migration, not a big bang**
->
-> ```
-> Phase 1 (Month 1–2): Modular Monolith
->   ├── Define 6 bounded contexts aligned to your 6 teams
->   ├── Enforce: no cross-module direct function calls (only through published interfaces)
->   ├── Enforce: no cross-module database table access
->   └── Result: 6 independent test suites → 2h becomes 6 × 20min (parallelizable)
->
-> Phase 2 (Month 3–4): Independent Deployment Pipelines
->   ├── Each module gets its own CI/CD pipeline triggered by module file changes
->   ├── Deploy still as one process, but pipelines are independent
->   └── Result: Teams unblock each other; deploy frequency improves
->
-> Phase 3 (Month 5+): Extract First Service
->   ├── Choose the module with the clearest boundary and highest deployment frequency
->   ├── Use Strangler Fig: route traffic to new service incrementally (10% → 50% → 100%)
->   └── Result: One validated microservices extraction before committing full migration
-> ```
->
-> **What I would NOT do**: Extract all 6 services simultaneously. At 6 services × 5 engineers = 30 engineers rebuilding integration points while the monolith keeps evolving. This is how teams end up with a distributed monolith (§10).
->
-> **Decision trigger for full microservices**: When a specific module needs a different tech stack, different scaling profile, or different deployment cadence that the monolith cannot accommodate.
-
-### 9.3 Real-Time Notification System for 10M Users
-
-**User:** "Design a real-time notification system for 10 million users. Users should receive notifications within 2 seconds of an event."
-
-**Software Architect:**
-
-> Key constraint clarification: "real-time" for notifications typically means WebSocket (true push, sub-second) vs. Server-Sent Events vs. long-polling. The choice affects cost dramatically at 10M users. I'll assume: mobile-first, mix of push (mobile OS) + WebSocket (web), not all 10M concurrently connected.
->
-> **Realistic concurrency estimate**: 10M users, 5% daily active peak concurrency = 500,000 simultaneous WebSocket connections.
->
-> **Architecture (C4 Level 2):**
->
-> ```
-> Event Sources          Notification Platform           Delivery Layer
-> ─────────────          ─────────────────────           ──────────────
-> [Order Svc]  ─────────►                               ┌─ [FCM/APNs]
-> [Payment Svc] ─────► [Kafka: notifications.*] ──────► │  (Mobile Push)
-> [Social Svc] ─────────►        │                      │
->                                ▼                       │
->                     [Notification Router]              │
->                     (Fan-out Service)                  ├─ [WebSocket Hub]
->                            │                           │  (Web Real-time)
->                     ┌──────▼──────┐                   │
->                     │    Redis    │◄──────────────────►│
->                     │  (Presence) │                   └─ [Email/SMS]
->                     └─────────────┘                      (Async, < 5min)
->                            │
->                     [Notification DB]
->                     (PostgreSQL: history,
->                      read receipts, prefs)
-> ```
->
-> **Key Architectural Decisions:**
->
-> | Component | Choice | Rationale |
-> |-----------|--------|-----------|
-> | Mobile delivery | FCM (Android) + APNs (iOS) | OS-managed connections; Firebase handles 10M devices; no WebSocket for mobile background state |
-> | Web real-time | WebSocket Hub (horizontal, 50k conn/node) | 500k connections → 10 nodes; sticky sessions via Redis pub/sub for message routing |
-> | Presence tracking | Redis (key = user_id, value = node_id, TTL = 90s) | Sub-millisecond lookup; TTL handles disconnects automatically |
-> | Fan-out strategy | Per-user Kafka partition → single consumer per partition | Ordered delivery per user; no duplicate processing |
-> | Notification history | PostgreSQL with time-based partitioning | Read-heavy (inbox view); JSONB for flexible payload schema |
->
-> **Scaling envelope:**
-> - 500k WebSocket connections: 10 WebSocket Hub nodes (50k conn/node, t3.xlarge, $150/mo each)
-> - Kafka fan-out: 10M partitions is impractical → use user_id % 1000 partitions; consumers maintain user→connection mapping in-process
-> - At 10M push notifications/hour: FCM/APNs batch API handles this natively; cost ~$0 (FCM free, APNs free)
->
-> **What this architecture cannot handle**: Live video streaming, collaborative editing (different latency model — use WebRTC). Also: if >50% of 10M users are concurrently active, the WebSocket tier needs re-evaluation (unlikely for a notification use case, but document the trigger).
+| Scenario | Description |
+|----------|-------------|
+| **Payment Processing** | E-commerce payment flow with Saga pattern |
+| **Monolith Migration** | 6-team monolith → microservices phased approach |
+| **Real-Time Notifications** | 10M users, WebSocket + push notifications |
 
 ---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: The Distributed Monolith
+→ **Detailed anti-patterns moved to [`references/pitfalls.md`](references/pitfalls.md)**
 
-```
-❌ BAD: "Microservices" that split by technical layer instead of business domain.
-   OrderAPI → OrderService → OrderDB (shared with InventoryService and UserService)
-   Result: You have 3 deployable units but one shared database.
-   Changing the orders table requires coordinating 3 teams. Deploy one service,
-   break another. You have the operational complexity of microservices with
-   none of the organizational independence.
+| Anti-Pattern | Description |
+|--------------|-------------|
+| **Distributed Monolith** | Services share a database, creating tight coupling |
+| **Premature Microservices** | Using microservices for small teams |
+| **Shared Database** | Multiple services access the same tables |
+| **Big Ball of Mud** | No intentional architecture, circular dependencies |
+| **Cargo Cult** | Copying Netflix's architecture without understanding why |
 
-✅ GOOD: Services own their data. OrderService has its own database.
-   InventoryService has its own database. They communicate via events (Kafka)
-   or APIs, never via direct table access. Changing OrderService schema
-   requires no coordination with InventoryService.
-
-Detection: Run this query — if two "microservices" SELECT from the same table,
-you have a distributed monolith.
-```
-
-### Anti-Pattern 2: The Premature Microservice
-
-```
-❌ BAD: 3-person startup with 15 microservices, each with its own database,
-   its own CI/CD pipeline, its own monitoring setup.
-   Result: 80% of engineering time spent on infrastructure glue.
-   New feature requires touching 6 services. On-call means debugging
-   distributed traces across 15 services for a 500ms latency spike.
-   Deployment requires orchestrating 15 independent release pipelines.
-
-✅ GOOD: 3-person team → modular monolith with clear bounded contexts.
-   One deployment, one database (with schema per module), one CI/CD pipeline.
-   When you hit 10 engineers and teams start blocking each other's deploys,
-   THEN extract the service that causes the most friction.
-
-Rule: You need microservices when Conway's Law makes a monolith painful,
-not when a blog post makes microservices sound cool.
-```
-
-### Anti-Pattern 3: Shared Database Anti-Pattern
-
-```
-❌ BAD: Multiple services reading and writing the same tables.
-   UserService, OrderService, and ReportingService all query the users table.
-   When UserService needs to add a column, all three teams must coordinate.
-   Schema changes become release-blocking events. The database becomes
-   the true coupling point, regardless of what the service diagram shows.
-
-✅ GOOD: Each service owns its data. ReportingService gets user data via
-   an event stream (Kafka user.updated events) and maintains its own
-   read-optimized projection. UserService schema changes are internal —
-   the event schema is the contract, versioned via a schema registry.
-
-Migration path: Introduce an anti-corruption layer (ACL) between services
-and the shared database. Gradually migrate each service to its own store
-while the ACL keeps data in sync during transition.
-```
-
-### Anti-Pattern 4: The Big Ball of Mud
-
-```
-❌ BAD: No intentional architecture. Services/modules added ad-hoc over 3 years.
-   OrderService depends on UserService which depends on PaymentService which
-   depends on OrderService (circular). Every change breaks something unexpected.
-   The system has never been fully understood by any one person.
-   Change failure rate: 40%. Deploy frequency: 1 per month (too scary to deploy often).
-
-✅ GOOD: Enforce architectural fitness functions in CI.
-   - "No circular dependencies between modules" (ArchUnit
-   - "Service A must not import from Service B's internal packages"
-   - "All public APIs must have OpenAPI specs"
-   Fail the build on violation. Architecture degrades when no automated gate enforces it.
-```
-
-### Anti-Pattern 5: Cargo Cult Architecture
-
-```
-❌ BAD: "Netflix uses microservices, so we should too."
-   Copying Netflix's architecture for a 50-person company with 100k users.
-   Result: 200 microservices (Netflix has 700 engineers and 200M users).
-   3 SREs managing 200 services. Mean time to debug: 4 hours.
-   Mean time to add a feature: 3 weeks (cross-service coordination).
-
-✅ GOOD: Netflix's architecture solves Netflix's problems.
-   Your architecture must solve your problems.
-   Start with: What are your actual bottlenecks? What team boundaries cause friction?
-   What quality attributes does your business actually require?
-   Design for your scale, your team, your domain.
-
-Test: "Why did we choose this pattern?" If the answer is "because [company X] uses it"
-rather than "because our specific constraints require it," it's cargo cult architecture.
-```
+---
 
 ---
 

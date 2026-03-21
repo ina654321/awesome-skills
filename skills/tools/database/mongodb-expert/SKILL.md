@@ -207,21 +207,17 @@ db.orders.aggregate([
 ])
 ```
 
-```javascript
-[Code block moved to code-block-1.md]
-```
+### 7.1 Advanced Aggregation
+
+See [references/code-block-1.md](references/code-block-1.md)
 
 ### 7.2 Schema Design Patterns
 
-```javascript
-[Code block moved to code-block-1.md]
-```
+See [references/code-block-1.md](references/code-block-1.md)
 
 ### 7.3 Index Creation Patterns
 
-```javascript
-[Code block moved to code-block-2.md]
-```
+See [references/code-block-2.md](references/code-block-2.md)
 
 ---
 
@@ -257,172 +253,10 @@ Phase 4: Scaling Preparation
 
 ## § 9 · Scenario Examples
 
-### 9.1 E-commerce Product Catalog
-
-**User:** "Design MongoDB schema for e-commerce"
-
-**MongoDB Expert:**
-> **Collections:**
->
-> ```javascript
-> // products - embedded for read-heavy access
-> db.products.insertOne({
->   _id: ObjectId(),
->   name: "Wireless Headphones",
->   slug: "wireless-headphones",
->   prices: {
->     USD: 99.99,
->     EUR: 89.99
->   },
->   categories: ["electronics", "audio"],
->   variants: [
->     { sku: "WH-BLK", color: "Black", inventory: 50 },
->     { sku: "WH-WHT", color: "White", inventory: 30 }
->   ],
->   specs: [
->     { key: "Battery Life", value: "20 hours" },
->     { key: "Bluetooth", value: "5.0" }
->   ],
->   reviews_summary: {
->     count: 245,
->     avg_rating: 4.5
->   },
->   created_at: ISODate(),
->   updated_at: ISODate()
-> })
->
-> // orders - referenced customer
-> db.orders.insertOne({
->   _id: ObjectId(),
->   order_number: "ORD-2024-001234",
->   customer_id: ObjectId("..."),
->   items: [
->     { product_id: ObjectId("..."), sku: "WH-BLK", quantity: 1, price: 99.99 }
->   ],
->   shipping_address: {
->     street: "123 Main St",
->     city: "New York",
->     state: "NY",
->     zip: "10001",
->     country: "US"
->   },
->   status: "pending",
->   created_at: ISODate()
-> })
->
-> // Indexes
-> db.products.createIndex({ "categories": 1, "prices.USD": 1 })
-> db.products.createIndex({ slug: 1 }, { unique: true })
-> db.products.createIndex(
->   { name: "text", "specs.value": "text" },
->   { weights: { name: 10 } }
-> )
-> db.orders.createIndex({ customer_id: 1, created_at: -1 })
-> db.orders.createIndex({ status: 1, created_at: -1 })
-> ```
->
-> **Aggregation for Dashboard:**
->
-> ```javascript
-> db.orders.aggregate([
->   { $match: { created_at: { $gte: ISODate("2024-01-01") } } },
->   { $unwind: "$items" },
->   { $lookup: {
->       from: "products",
->       localField: "product_id",
->       foreignField: "_id",
->       as: "product"
->     }
->   },
->   { $unwind: "$product" },
->   { $group: {
->       _id: { $dateToString: { format: "%Y-%m", date: "$created_at" } },
->       revenue: { $sum: { $multiply: ["$items.quantity", "$items.price"] } },
->       orders: { $sum: 1 },
->       items_sold: { $sum: "$items.quantity" }
->     }
->   },
->   { $sort: { _id: 1 } }
-> ])
-> ```
-
-### 9.2 Real-time Analytics
-
-**User:** "Track user activity in real-time"
-
-**MongoDB Expert:**
-> ```javascript
-> // Time-series bucketing for efficient storage and queries
-> db.user_activity.insertOne({
->   user_id: ObjectId("..."),
->   period: "2024-01-15T14",  // Hour bucket
->   actions: [
->     { type: "page_view", path: "/products", ts: ISODate("...") },
->     { type: "click", element: "buy_button", ts: ISODate("...") }
->   ],
->   metrics: {
->     page_views: 15,
->     clicks: 3,
->     session_duration_seconds: 300
->   }
-> })
->
-> // Real-time aggregation pipeline
-> db.user_activity.aggregate([
->   { $match: { period: "2024-01-15T14" } },
->   { $group: {
->       _id: "$user_id",
->       total_actions: { $sum: { $size: "$actions" } },
->       unique_pages: { $addToSet: "$actions.path" }
->     }
->   },
->   { $lookup: {
->       from: "users",
->       localField: "_id",
->       foreignField: "_id",
->       as: "user"
->     }
->   }
-> ])
->
-> // TTL index for data retention
-> db.user_activity.createIndex(
->   { period: 1 },
->   { expireAfterSeconds: 7776000 } // 90 days
-> )
-> ```
-
-### 9.3 Multi-tenant SaaS
-
-**User:** "Implement multi-tenant data isolation"
-
-**MongoDB Expert:**
-> ```javascript
-> // Shard key: tenant_id + entity_id for isolation
-> db.orders.createIndex({ tenant_id: 1, customer_id: 1 })
-> db.orders.createIndex({ tenant_id: 1, created_at: -1 })
->
-> // Query with tenant isolation
-> db.orders.find({
->   tenant_id: req.user.tenant_id,
->   customer_id: customerId
-> })
->
-> // Atlas Data Lake for cross-tenant analytics
-> // $unionWith for data aggregation across tenants
-> db.orders.aggregate([
->   { $match: { tenant_id: "tenant_1" } },
->   { $group: { _id: "$status", count: { $sum: 1 } } },
->   { $unionWith: {
->       coll: "orders",
->       pipeline: [
->         { $match: { tenant_id: "tenant_2" } },
->         { $group: { _id: "$status", count: { $sum: 1 } } }
->       ]
->     }
->   }
-> ])
-> ```
+See [references/09-scenarios.md](references/09-scenarios.md) for detailed examples:
+- E-commerce product catalog with embedded variants
+- Real-time analytics with time-series bucketing
+- Multi-tenant SaaS with tenant isolation
 
 ---
 

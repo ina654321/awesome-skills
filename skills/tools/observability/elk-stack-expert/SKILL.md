@@ -127,23 +127,10 @@ This skill provides comprehensive guidance for ELK Stack platform operations:
 
 ## § 4 · Core Philosophy
 
-### 4.1 Index Lifecycle Management (ILM)
-
-```
-[Code block moved to code-block-1.md]
-```
-
-### 4.2 Logstash Pipeline Pattern
-
-```ruby
-[Code block moved to code-block-1.md]
-```
-
-### 4.3 Elasticsearch Index Template
-
-```json
-[Code block moved to code-block-1.md]
-```
+→ See [references/code-block-1.md](references/code-block-1.md) for:
+- **ILM Policy**: Hot/warm/cold/delete phases
+- **Logstash Pipeline**: Input/filter/output examples
+- **Index Template**: Mappings and ILM configuration
 
 ---
 
@@ -186,32 +173,21 @@ This skill provides comprehensive guidance for ELK Stack platform operations:
 
 ### 6.1 Elasticsearch Search DSL Examples
 
-```json
-// Basic search with filters
-GET /app-logs-*/_search
-{
-  "query": {
-    "bool": {
-      "filter": [
-        { "term": { "service.name": "checkout-api" } },
-        { "range": { "@timestamp": { "gte": "now-1h" } } }
-      ],
-      "must_not": [
-        { "term": { "log.level": "DEBUG" } }
-      ]
-    }
-  },
-  "sort": [{ "@timestamp": "desc" }],
-  "size": 100,
-  "highlight": {
-    "fields": {
-      "message": {}
-    },
-    "pre_tags": ["<em>"],
-    "post_tags": ["</em>"]
-  }
-}
+→ See [references/examples.md](references/examples.md) for complete Search DSL examples:
+- Basic search with filters
+- Aggregation for error rate by service
+- EQL for sequence detection
+
+### 6.2 Kibana Canvas Workload Template
+
 ```
+Canvas: Service Health Dashboard
+Elements: Tieline chart, Metric, Gauge, Markdown, Image
+```
+
+### 6.3 Filebeat Configuration
+
+→ See [references/code-block-2.md](references/code-block-2.md) for Filebeat YAML configuration.
 
 ```json
 // Aggregation for error rate by service
@@ -323,44 +299,20 @@ ECS provides standardized field names across Elastic products:
 
 ## § 8 · Troubleshooting
 
-### 8.1 Common Issues and Solutions
+→ See [references/examples.md](references/examples.md) for complete diagnostic commands.
 
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| **Cluster health RED** | Unassigned shards | Check `_cluster/allocation/explain`; fix disk watermark issues |
-| **High indexing latency** | Slow disks, too many shards | Use SSDs; reduce shard count; bulk indexing |
-| **Search timeout (shard timeout)** | Complex queries, too many shards | Simplify query; use filter context; increase timeout |
-| **Logstash pipeline not processing** | Grok parse failure, filter error | Check Logstash logs; use `_grokparsefailure` tag debugging |
-| **Filebeat not harvesting logs** | Permission, file rotation | Check file permissions; use `close_renamed`, `close_removed` |
-| **Memory usage grows unbounded** | Large field cache | Set `indices.fielddata.cache.size`; use doc_values |
-| **Kibana slow or timeout** | Too many indices, large queries | Use date filters; reduce query window; increase Kibana heap |
-| **ILM not rolling over** | Policy not applied, alias issue | Verify `_ilm/explain`; check rollover alias config |
+**Common Issues:**
+- **Cluster health RED**: Check `_cluster/allocation/explain`; fix disk watermark issues
+- **High indexing latency**: Use SSDs; reduce shard count; bulk indexing
+- **Search timeout**: Simplify query; use filter context; increase timeout
+- **ILM not rolling**: Verify `_ilm/explain`; check rollover alias config
 
-### 8.2 Diagnostic Commands
-
-```bash
-# Cluster health check
+**Key Diagnostics:**
+```
 GET _cluster/health?wait_for_status=green&timeout=30s
-
-# Check unassigned shards
 GET _cat/shards?v&h=index,shard,prirep,state,unassigned.reason
-
-# Explain shard allocation
-GET _cluster/allocation/explain?primary=true
-
-# Index statistics
-GET _cat/indices?v&h=index,health,status,docs.count,store.size,pri,rep
-
-# Node stats
 GET _nodes/stats?filter_path=nodes.*.heap, nodes.*.indices
-
-# Hot threads
-GET _nodes/hot_threads?threads=5
-
-# Fielddata circuit breaker
-GET _nodes/stats/breaker/fielddata?human
-
-# Recovery status
+```
 GET _cat/recovery?v&h=index,shard,stage,type,time,files,percent
 ```
 

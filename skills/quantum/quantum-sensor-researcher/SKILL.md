@@ -61,9 +61,7 @@ This skill enables an AI assistant to function as a senior quantum sensor resear
 
 ## § 4 — Core Philosophy
 
-```
-[Code block moved to code-block-1.md]
-```
+→ See [references/code-block-1.md](references/code-block-1.md) for the sensitivity hierarchy diagram.
 
 **Guiding Principle 1 — Sensitivity Is Meaningless Without Systematics**: A quantum sensor achieving 10^−16 g/√Hz statistical sensitivity is useless if systematic errors contribute 10^−12 g bias uncertainty. Systematic error characterization must match or exceed statistical precision; the two cannot be traded off.
 
@@ -169,218 +167,25 @@ This skill enables an AI assistant to function as a senior quantum sensor resear
 
 ## § 9 · Scenario Examples
 
-### Scenario A — Atom Interferometer Gravity Gradiometer Design
-
-**User**: I want to build a cold-atom gravity gradiometer for underground structure mapping. What sensitivity and integration time do I need?
-
-**Expert**: Underground structure mapping requires resolving density contrasts at meter-scale. Here is a complete sensitivity analysis and design:
-
-```python
-[Code block moved to code-block-1.md]
-```
-
-**Design recommendations**:
-- **Baseline**: 1 m (simultaneous dual-MOT gradiometer with shared laser) rejects >99.9% of laser phase noise and vibration common mode
-- **Interrogation time**: T = 0.5 s requires 1 m free-fall height or trapped geometry (optical lattice)
-- **Atom number**: N = 10^6 from BEC or cold thermal cloud (sub-μK launch temperature)
-- **Key systematic**: Coriolis effect (Earth rotation) introduces bias — implement counter-propagating sequence or active rotation compensation
-
----
-
-### Scenario B — SQUID Magnetometer Noise Floor Design
-
-**User**: I need to design a SQUID-based magnetometer for MEG (magnetoencephalography) with < 5 fT/√Hz sensitivity. What are the design requirements?
-
-**Expert**: MEG requires < 5 fT/√Hz sensitivity with bandwidth 1–1000 Hz. Here is the SQUID design chain:
-
-```python
-[Code block moved to code-block-2.md]
-```
-
-**Design requirements for MEG < 5 fT/√Hz**:
-- **SQUID type**: Low-temperature SQUID (Nb, 4.2 K) with S_Φ^(1/2) ≤ 2 μΦ₀/√Hz or HTS SQUID (YBCO, 77 K) with S_Φ^(1/2) ≤ 20 μΦ₀/√Hz (requires larger pickup area)
-- **Pickup coil**: Gradiometer geometry (1st-order axial gradiometer, baseline 50–80 mm) rejects >99% of environmental noise from distant sources
-- **Shielding**: Magnetically shielded room with > 80 dB attenuation at DC and > 100 dB at 10 Hz
-- **Readout**: Flux-locked loop (FLL) with SQUID bandwidth > 100 kHz; 100 dB dynamic range at 1 kHz
-
----
-
-### Scenario C — NV-Center Magnetometry Protocol for Single-Cell Imaging
-
-**User**: How do I design an NV-center magnetometry experiment to image action potentials in individual neurons?
-
-**Expert**: Single-neuron action potential imaging requires detecting ~1 nT magnetic fields at kHz bandwidth, 10–100 μm spatial resolution. Here is the complete NV protocol:
-
-```python
-[Code block moved to code-block-2.md]
-```
-
-**Key design choices for neural imaging**:
-- **Diamond geometry**: Shallow NV implantation (< 10 nm from surface) for proximity to cell; requires surface passivation to maintain T2* > 1 μs
-- **AC protocol**: CPMG-N dynamical decoupling synchronized to action potential frequency (100 Hz–10 kHz) extends effective T2 from 1 μs to 100 μs, gaining 10× sensitivity
-- **Spatial resolution**: Limited by optical diffraction to ~300 nm (confocal) or 30 nm (STED-NV); not by NV-cell distance
-- **Biocompatibility**: Diamond nanoparticles require surface functionalization; verify cell viability > 24 hours post-labeling
+→ See [references/code-block-2.md](references/code-block-2.md) for Python implementations of:
+- **Scenario A**: Atom interferometer gravity gradiometer sensitivity analysis
+- **Scenario B**: SQUID magnetometer noise floor design for MEG
+- **Scenario C**: NV-center magnetometry protocol for neural imaging
 
 ---
 
 ## § 10 — Common Pitfalls
 
-### Anti-Pattern 1: Reporting Peak Sensitivity Without Allan Deviation
+→ See [references/anti-patterns.md](references/anti-patterns.md) for code examples of:
+- **Anti-Pattern 1**: Allan deviation analysis for proper sensitivity reporting
+- **Anti-Pattern 2**: Heisenberg limit accounting for detection loss
+- **Anti-Pattern 3**: Systematic error budget for atom interferometry
+- **Anti-Pattern 4**: NV T2* vs T2 sensitivity
+- **Anti-Pattern 5**: Vibration coupling in portable gravimeters
 
-❌ BAD:
-```
-"Our gravimeter achieves 10^-9 g sensitivity."
-# Single-measurement number. No integration time stated.
-# No long-term stability characterization.
-```
-
-✅ GOOD:
-```python
-import allantools
-import numpy as np
-
-# Compute Allan deviation from time series of gravity measurements
-def analyze_sensor_stability(g_measurements, rate_Hz):
-    """Full stability characterization via Allan deviation."""
-    tau_values, adev, adev_err, n = allantools.oadev(
-        g_measurements, rate=rate_Hz, data_type="freq", taus="octave"
-    )
-    # Find optimal integration time
-    min_idx = np.argmin(adev)
-    print(f"White noise floor: σ_0 = {adev[0] * np.sqrt(tau_values[0]):.2e} g/√Hz")
-    print(f"Flicker floor at τ = {tau_values[min_idx]:.0f} s: "
-          f"σ_y = {adev[min_idx]:.2e} g")
-    print(f"Drift onset: τ > {tau_values[min_idx]:.0f} s")
-    return tau_values, adev
-
-# Report properly
-print("Gravimeter performance:")
-print(f"  Single-shot sensitivity: {1e-9:.0e} g (1 s integration)")
-print(f"  White noise: integrates as 10^-9 g/√Hz")
-print(f"  Stability floor: 10^-11 g at τ = 1000 s (flicker limited)")
-print(f"  Systematic uncertainty: < 10^-10 g (Zeeman + Coriolis budget)")
-```
-
-**Why it matters**: Peak sensitivity answers only "how sensitive in one shot?" A gravimeter with 10^-9 g/shot that drifts 10^-7 g/hour is useless for geodesy. Allan deviation reveals the full operational story.
-
----
-
-### Anti-Pattern 2: Claiming Heisenberg-Limited Sensing Without Accounting for Detection Loss
-
-❌ BAD:
-```python
-# Generate GHZ state of N=1000 atoms
-# Claim: "Achieving Heisenberg limit: δφ = 1/N = 0.001 rad"
-delta_phi_claimed = 1
-print(f"Heisenberg-limited sensitivity: {delta_phi_claimed:.4f} rad")
-# Ignores detector efficiency η = 0.3, decoherence, state preparation fidelity
-```
-
-✅ GOOD:
-```python
-N = 1000
-eta_detection = 0.30     # 30% detection efficiency
-F_GHZ = 0.85             # GHZ state fidelity (decoherence during prep)
-decoherence_factor = 0.70  # T_decoherence
-
-# Effective sensitivity with realistic imperfections
-# For GHZ: δφ_eff = 1/(√η · F_GHZ · decoherence_factor · N)
-# vs SQL corrected: δφ_SQL_eff = 1/(√(η·N))
-delta_phi_HL_ideal = 1
-delta_phi_HL_realistic = 1
-delta_phi_SQL_realistic = 1
-
-improvement_over_SQL = delta_phi_SQL_realistic
-print(f"Ideal Heisenberg limit: δφ = {delta_phi_HL_ideal:.5f} rad")
-print(f"Realistic HL (η,F,decay): δφ = {delta_phi_HL_realistic:.5f} rad")
-print(f"Realistic SQL: δφ = {delta_phi_SQL_realistic:.5f} rad")
-print(f"Actual improvement over SQL: {improvement_over_SQL:.2f}×")
-print(f"(vs theoretical √N = {np.sqrt(N):.1f}× improvement)")
-```
-
-**Why it matters**: GHZ states are fragile; detection loss η = 0.3 alone degrades N-fold improvement to only √(N/η)^(−1) effective gain. At realistic detection efficiencies, SQL-beating sensing often requires η > 0.95 to be worth the GHZ state complexity cost.
-
----
-
-### Anti-Pattern 3: Ignoring Systematic Errors in Atom Interferometry
-
-❌ BAD:
-```
-# Measure gravity with atom interferometer, get 10^-10 g precision
-# Declare result without systematic error analysis
-print("Gravity = 9.812345678 m/s²  (±10^-10 g statistical)")
-# Actual Zeeman shift bias: 5×10^-9 g (unquantified)
-```
-
-✅ GOOD:
-```python
-[Code block moved to code-block-2.md]
-```
-
-**Why it matters**: Many gravimeters achieve 10^-9 g precision but only 10^-8 g accuracy. Confusing precision (statistical noise) with accuracy (including systematics) produces incorrect absolute gravity values used in geodesy and fundamental physics tests.
-
----
-
-### Anti-Pattern 4: Misinterpreting NV-Center T2* vs T2 Sensitivity
-
-❌ BAD:
-```python
-# Measured T2* = 1 μs from FID decay
-# Claim: "DC sensitivity = 1/(γ·C·√(N·T2*))"
-T2_star = 1e-6  # μs
-N_NV = 1e10
-C = 0.2
-gamma = 28e9
-
-delta_B_claimed = 1
-print(f"Sensitivity: {delta_B_claimed*1e12:.1f} pT/√Hz")
-# Tries to use this for detecting kHz neural signals -- wrong protocol!
-```
-
-✅ GOOD:
-```python
-f_signal = 1000  # Hz, target AC signal frequency
-T2_star = 1e-6   # s, from Ramsey (DC, inhomogeneous broadening limited)
-T2_echo = 100e-6  # s, from Hahn echo (DC noise refocused)
-T2_CPMG = 500e-6  # s, from CPMG-16 (further extends for kHz signals)
-
-protocols = {
-    "Ramsey (DC)": T2_star,
-    "Hahn Echo (DC noise rejection)": T2_echo,
-    "CPMG-16 (kHz band)": T2_CPMG,
-}
-
-N_NV = 1e10; C = 0.2; gamma = 28e9
-for name, T2 in protocols.items():
-    delta_B = 1
-    print(f"{name}: T2={T2*1e6:.0f} μs → δB = {delta_B*1e12:.1f} pT/√Hz")
-
-print("\nFor kHz neural signals, use CPMG synchronized to signal frequency!")
-print(f"Sensitivity improvement: {np.sqrt(T2_CPMG/T2_star):.0f}× vs Ramsey")
-```
-
-**Why it matters**: T2* includes low-frequency inhomogeneous broadening from nearby 13C nuclei and surface charges — not relevant to AC signals. CPMG dynamical decoupling refocuses this noise and achieves 10–100× better sensitivity for AC signals in the kHz–MHz band. Using T2* to predict AC sensitivity is incorrect by orders of magnitude.
-
----
-
-### Anti-Pattern 5: Ignoring Vibration Noise in Portable Gravimeters
-
-❌ BAD:
-```
-# Lab gravimeter achieves 10^-9 g sensitivity
-# Deploy in vehicle for geophysical survey
-# "Should achieve the same sensitivity in the field"
-# Actual vehicle vibration: 10^-4 g
-```
-
-✅ GOOD:
-```python
-[Code block moved to code-block-3.md]
-```
-
-**Why it matters**: A lab-grade gravimeter deployed in a vehicle without vibration isolation achieves 10^4× worse sensitivity than specified. Always compute vibration coupling before field deployment; design gradiometer baseline or feedforward rejection for the expected vibration environment.
-
----
+→ See [references/code-block-3.md](references/code-block-3.md) for:
+- Systematic error budget Python implementation
+- Vibration coupling analysis for field deployment
 
 ### Anti-Pattern 6: Quoting Optical Clock Precision Without Systematic Uncertainty
 

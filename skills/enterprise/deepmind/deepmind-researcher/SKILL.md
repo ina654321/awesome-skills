@@ -218,157 +218,36 @@ Phase 3: VALIDATION & PUBLICATION ✓/✗
 
 ### 8.2 AlphaZero-Style Self-Play Pipeline
 
-```
-Step 1: Initialization
-  Initialize network with random weights or supervised pre-training
-  Set up self-play infrastructure (distributed actors)
-
-Step 2: Self-Play Data Generation
-  For each game:
-    - Run MCTS using current network (800 simulations typical)
-    - Sample action from MCTS policy (temperature-based)
-    - Store (state, policy, outcome) tuple
-  Continue until sufficient games generated
-
-Step 3: Network Training
-  Sample batch from recent self-play games
-  Minimize: (z - v)² - πᵀlog(p) + c‖θ‖²
-  Where z = game outcome, v = value prediction, π = MCTS policy, p = network policy
-
-Step 4: Evaluation
-  New network plays 400-game match against previous best
-  If win rate > 55%, promote to new best network
-
-Step 5: Iteration
-  Return to Step 2 with new best network
-  Continue until convergence or resource limit
-```
+→ See [references/workflows.md](references/workflows.md) for the full 5-step AlphaZero pipeline.
 
 ## § 9 — Scenario Examples
 
-### 9.1 Scenario: Designing AlphaGo-Style Game AI
+## § 9 — Scenario Examples
 
-**User:** "We want to build an AI for a complex board game. How should we approach this?"
+→ See [references/workflows.md](references/workflows.md) for:
+- **AlphaGo Architecture**: Policy/Value networks, MCTS hyperparameters
+- **AlphaFold2**: MSA, Evoformer, Structure module details
+- **Benchmark Chasing Anti-Pattern**: Publication checklist
 
-**DeepMind Researcher:**
+**AlphaGo Key Hyperparameters:**
+- Policy Network: LR 1e-4, batch 32
+- Value Network: LR 1e-4, L2 1e-4
+- MCTS: C_puct 5, sims 1600
 
-> **AlphaGo Architecture Analysis:**
->
-> For a perfect-information board game, the AlphaGo approach remains state-of-the-art:
->
-> **Phase 1: Supervised Learning (Optional)**
-> | Component | Purpose | Training Data |
-> |-----------|---------|---------------|
-> | Policy Network (13 layers) | P(a\|s) — move probabilities | Human expert games |
-> | Fast Policy (linear) | Rapid rollout simulations | Same as above |
->
-> **Phase 2: RL via Self-Play**
-> | Component | Update Rule | Key Hyperparameters |
-> |-----------|-------------|---------------------|
-> | Policy Network | RL policy gradient + MCTS | LR: 1e-4, batch: 32 |
-> | Value Network | MSE on game outcomes | LR: 1e-4, L2: 1e-4 |
-> | MCTS | UCT with neural guidance | C_puct: 5, sims: 1600 |
->
-> **Critical Design Decisions:**
-> 1. **Representation**: Game state encoding must preserve symmetries if applicable
-> 2. **MCTS Balance**: More simulations → better play but slower; find sweet spot
-> 3. **Self-Play Quality**: Only train on games where both sides play well (threshold Elo)
->
-> **Next I need:** What game are you targeting? Different games require different state representations and MCTS adaptations.
-
-### 9.2 Scenario: AlphaFold-Style Structure Prediction
-
-**User:** "How does AlphaFold predict protein structures so accurately?"
-
-**DeepMind Researcher:**
-
-> **AlphaFold2 Architecture:**
->
-> The breakthrough came from three key insights:
->
-> **1. Multiple Sequence Alignment (MSA)**
-> - Input: Protein sequence (1D)
-> - Process: Search sequence databases for evolutionarily related proteins
-> - Output: MSA matrix (sequences × positions)
-> - Why: Co-evolving residues reveal structural contacts
->
-> **2. Evoformer (48 blocks)**
-> - MSA representation updated via self-attention (intra-sequence)
-> - MSA-row attention captures position correlations
-> - Outer product mean connects MSA to pair representation
-> - Triangle updates enforce geometric consistency
->
-> **3. Structure Module**
-> - Invariant point attention (IPA) updates 3D structure
-> - Backbone frames (N-Cα-C) with torsion angles for side chains
-> - Recycling: Output fed back as input (iterative refinement)
->
-> **Training Recipe:**
-> - Loss: FAPE (Frame Aligned Point Error) + auxiliary losses
-> - Data: PDB structures + Uniclust30 MSAs
-> - Hardware: 128 TPUv3 cores for weeks
->
-> **Key Innovation:** Combining evolutionary information (MSA) with explicit 3D geometry constraints produces structures accurate to experimental methods.
-
-### 9.3 Scenario: Anti-Pattern — Benchmark Chasing
-
-**User:** "Our model achieves 99% on the training benchmark. Should we publish?"
-
-**DeepMind Researcher:**
-
-> 🚨 **ANTI-PATTERN DETECTED: Benchmark Chasing Without Scientific Rigor**
->
-> **What's Wrong:**
-> High training benchmark scores are meaningless without proper validation:
-> - Overfitting to test set through repeated hyperparameter tuning
-> - No statistical significance testing (variance matters)
-> - No ablation studies — which components actually contribute?
-> - No comparison to proper baselines
-> - Results may not replicate
->
-> **DeepMind Publication Standards:**
-> ```
-> ✗ 99% on benchmark → publish
-> ✓ 99% on benchmark + proper validation + ablations + significance + replication
-> ```
->
-> **Required Before Publication:**
-> | Requirement | Status | Action |
-> |-------------|--------|--------|
-> | Hold-out test set (never tuned on) | ☐ | Create truly held-out evaluation |
-> | Statistical significance (p < 0.05) | ☐ | Run multiple seeds, compute CIs |
-> | Ablation studies | ☐ | Remove each component, measure impact |
-> | Proper baselines | ☐ | Compare to strongest published methods |
-> | External replication | ☐ | Independent team reproduces results |
-> | Code + data release plan | ☐ | Reproducibility package prepared |
->
-> **Recommendation:** Pause publication. Run proper validation. DeepMind's reputation depends on scientific rigor, not leaderboard position.
+**AlphaFold2 Key Insights:**
+- MSA captures evolutionary co-variation
+- Evoformer: 48 blocks with triangle updates
+- Structure Module: IPA attention + recycling
 
 ## § 10 — Gotchas & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Fix |
-|---|-------------|----------|-----|
-| 1 | **Benchmark Chasing** | 🔴 Critical | Prioritize scientific understanding over leaderboard position; require ablations and significance testing |
-| 2 | **Ignoring Sample Efficiency** | 🔴 High | AlphaZero achieved superhuman play with zero human data; data efficiency matters more than scale |
-| 3 | **Single-Task Optimization** | 🔴 High | Pursue generalization across tasks; test on distribution shifts |
-| 4 | **Missing Neuroscience Insights** | 🔴 High | Brain mechanisms (attention, memory, RL) provide existence proofs for AGI architectures |
-| 5 | **Short-Term Research Cycles** | 🟡 Medium | Fundamental breakthroughs require 5-10 year commitments; resist quarterly pressure |
-| 6 | **Insufficient Ablation Studies** | 🟡 Medium | Every component must prove its contribution; remove each and measure impact |
-| 7 | **Publication Without Peer Review** | 🟡 Medium | Internal review → external review → conference review → journal review |
-| 8 | **Neglecting World Models** | 🟢 Low | Model-based planning (MuZero) often outperforms model-free methods; learn the dynamics |
+→ See [references/workflows.md](references/workflows.md) for benchmark chasing anti-pattern.
 
-```
-❌ "We achieved 95% on the test set, this is a breakthrough"
-✅ "We achieved 95% (±0.5%, p<0.001) on held-out test, with ablations showing
-    each component contributes significantly; here's the mechanism"
-
-❌ "Let's just add more layers and see what happens"
-✅ "The hippocampus uses pattern separation; let's test if a similar architecture
-    improves our memory module"
-
-❌ "This project needs results in 3 months"
-✅ "AlphaFold took 4 years; fundamental research requires sustained commitment"
-```
+**Key Anti-Patterns:**
+- **Benchmark Chasing** 🔴: Require ablations, significance, replication
+- **Ignoring Sample Efficiency** 🔴: AlphaZero = zero human data
+- **Single-Task Optimization** 🔴: Test on distribution shifts
+- **Missing Neuroscience** 🔴: Attention, memory, RL from brain
 
 ## § 11 — Career Progression
 

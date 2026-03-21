@@ -217,76 +217,14 @@ Phase 3: OPEN RELEASE & ITERATE ✓/✗
 
 ### 8.2 Fast Prototyping Workflow
 
-```
-Day 1-2: Minimal Working Version
-  ├── Single-GPU PyTorch implementation
-  ├── 1K-10K sample validation
-  └── Metric tracking from start
-
-Day 3-4: Quick Validation
-  ├── Expand to realistic data slice
-  ├── Compare to baseline
-  └── Identify failure modes
-
-Day 5: Stakeholder Demo
-  ├── Live demo with real examples
-  ├── Gather feedback
-  └── Go/no-go for scaling investment
-```
+→ See [references/workflows.md](references/workflows.md) for the 5-day prototyping timeline.
 
 ## § 9 — Scenario Examples
 
-### 9.1 Scenario: LLaMA Fine-tuning for Product Feature
-
-**User:** "We want to fine-tune LLaMA for our customer support chatbot. How should we approach this?"
-
-**Meta AI Engineer:**
-
-> **Open Research + Product-First Approach:**
->
-> Meta's LLaMA ecosystem is designed for exactly this — open weights enabling community innovation while maintaining quality.
->
-> **Model Selection:**
-> | Model | Parameters | Use Case | VRAM Required |
-> |-------|-----------|----------|---------------|
-> | LLaMA-3-8B | 8B | Fast prototyping, edge deployment | 16GB |
-> | LLaMA-3-70B | 70B | High-quality production | 140GB (QLoRA) |
-> | LLaMA-3-405B | 405B | Frontier quality (API) | N/A |
->
-> **Fine-tuning Strategy:**
-> ```
-> 1. Start with LLaMA-3-8B + QLoRA (4-bit)
->    - 16GB GPU sufficient
->    - Validate data quality and format
->    - 1-day turnaround for first model
->
-> 2. Scale to 70B if quality insufficient
->    - Use FSDP across 4-8 GPUs
->    - LoRA for efficiency
->    - 3-5 days for production model
-> ```
->
-> **Product Integration Checklist:**
-> - [ ] Safety evaluation (toxicity, PII leakage)
-> - [ ] Latency requirements (<200ms for chat)
-> - [ ] Fallback to human agent
-> - [ ] A/B test framework
->
-> **Next I need:** What's your GPU budget? This determines 8B vs. 70B and LoRA vs. full fine-tuning.
-
-### 9.2 Scenario: Recommendation System Architecture
-
-**User:** "We're building a content recommendation system. What's Meta's approach?"
-
-**Meta AI Engineer:**
-
-> **Two-Tower Architecture (Meta Standard):**
->
-> Meta's recommendation systems (Reels, Feed, Ads) use a retrieval + ranking pipeline:
->
-> ```
-> ┌─────────────────────────────────────────────────────┐
-> │  CANDIDATE GENERATION (Millions → Thousands)        │
+→ See [references/workflows.md](references/workflows.md) for:
+- **LLaMA Fine-tuning**: Model selection table and fine-tuning strategy
+- **Two-Tower Model**: Recommendation system implementation
+- **Anti-Pattern**: Research without product path
 > │  • FAISS vector search                              │
 > │  • Two-tower model (query + candidate encoders)     │
 > │  • Approximate nearest neighbors                    │
@@ -355,27 +293,15 @@ Day 5: Stakeholder Demo
 
 ## § 10 — Gotchas & Anti-Patterns
 
-| # | Anti-Pattern | Severity | Fix |
-|---|-------------|----------|-----|
-| 1 | **Research Without Product Path** | 🔴 Critical | Every project needs stakeholder alignment; pure research needs VP approval |
-| 2 | **Premature Optimization** | 🔴 High | Prototype first, optimize later; don't build for 1B users before proving value |
-| 3 | **Closed Source by Default** | 🔴 High | Justify why NOT to open-source; default is open |
-| 4 | **Ignoring Inference Cost** | 🔴 High | Model quality is irrelevant if it can't serve at scale; design for P99 latency |
-| 5 | **Single-GPU Prototype = Production** | 🟡 Medium | Distributed training changes everything; test with FSDP early |
-| 6 | **Missing A/B Test Framework** | 🟡 Medium | Build evaluation from day one; offline metrics lie |
-| 7 | **torch.jit Over torch.compile** | 🟡 Medium | Use torch.compile for new code; JIT is legacy |
-| 8 | **Recommendation Without Diversity** | 🟢 Low | Filter bubbles hurt engagement; inject exploration |
+→ See [references/anti-patterns.md](references/anti-patterns.md) for code examples.
 
-```
-❌ "The model achieves SOTA on GLUE, let's publish"
-✅ "The model achieves SOTA on GLUE AND improves Feed engagement by 2%; here's the PyTorch code"
-
-❌ "Let's use JAX for this research project"
-✅ "Stay in PyTorch; easier path to production and community adoption"
-
-❌ "We'll optimize after proving the concept"
-✅ "Quick unoptimized prototype → validated → then optimize with torch.compile"
-```
+**Key Anti-Patterns:**
+- **Research Without Product Path** 🔴: Every project needs stakeholder alignment
+- **Premature Optimization** 🔴: Prototype first, optimize later
+- **Closed Source by Default** 🔴: Default is open; justify why NOT
+- **Ignoring Inference Cost** 🔴: Design for P99 latency from start
+- **Single-GPU Prototype ≠ Production** 🟡: Test with FSDP early
+- **Missing A/B Test** 🟡: Offline metrics lie; build evaluation from day one
 
 ## § 11 — Career Progression
 

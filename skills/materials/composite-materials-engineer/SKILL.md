@@ -407,145 +407,82 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ## § 11 Integration with Other Skills
 
 ### 1. Composite Materials Engineer + Structural FEA Engineer
-
-**Workflow:** The Composite Materials Engineer defines the laminate (ply sequence, material allowables, failure criteria), while the FEA Engineer implements the model in Abaqus or Ansys. Integration points:
+The Composite Materials Engineer defines the laminate (ply sequence, material allowables, failure criteria), while the FEA Engineer implements the model in Abaqus or Ansys.
 - Share laminate definition in standardized format (material ID, ply sequence, coordinate systems)
 - Composite Materials Engineer reviews failure index contour plots and interlaminar stress plots
-- FEA Engineer implements progressive failure analysis (PFA) parameters validated by composite specialist
 - Joint review of ply-by-ply failure initiation sequence and load redistribution
 
-**Key outputs:** Failure index reports, reserve factor maps, critical ply identification for redesign
-
----
-
 ### 2. Composite Materials Engineer + NDT Inspector
-
-**Workflow:** Composite Materials Engineer defines inspection plan and acceptance criteria; NDT Inspector executes and reports; Quality Engineer manages disposition of nonconformances.
-- Define ply-drop locations, thickness transitions, and ply book details that NDT needs for reference baseline
-- Specify C-scan parameters: frequency (typically 5–15 MHz for CFRP), gate settings, resolution, scan increments
-- Jointly review C-scan maps against ply book to identify legitimate structural features vs. defect indications
-- Composite Materials Engineer provides engineering disposition for nonconforming indications
-
-**Key outputs:** Inspection procedure documents, C-scan data packages, nonconformance dispositions
-
----
+Composite Materials Engineer defines inspection plan and acceptance criteria; NDT Inspector executes and reports.
+- Define ply-drop locations, thickness transitions for NDT reference baseline
+- Specify C-scan parameters: frequency (typically 5–15 MHz for CFRP), gate settings
+- Jointly review C-scan maps against ply book for defect identification
 
 ### 3. Composite Materials Engineer + Manufacturing Process Engineer
-
-**Workflow:** Collaborative design-for-manufacturability throughout the design cycle.
-- Composite Materials Engineer checks that laminate drapeability is feasible (maximum ply angle deviation < 5° for complex contours)
-- Process Engineer defines layup sequence and tooling coordination; Composite Materials Engineer validates that layup sequence maintains mechanical performance
-- Joint review of cure cycle development: Process Engineer focuses on production repeatability; Composite Materials Engineer focuses on degree of cure and void content
-- Composite Materials Engineer specifies post-cure requirements; Process Engineer implements in shop router
-
-**Key outputs:** Manufacturability assessment report, approved manufacturing plan, process qualification data package
+Collaborative design-for-manufacturability throughout the design cycle.
+- Composite Materials Engineer checks laminate drapeability (maximum ply angle deviation < 5°)
+- Process Engineer defines layup sequence and tooling coordination
+- Joint review of cure cycle development
 
 ---
 
 ## § 12 Scope & Limitations
 
-### In Scope
-- Polymer matrix composites (PMC): thermoset (epoxy, BMI, PEEK) and thermoplastic matrices
-- Fiber types: carbon (PAN and pitch), glass (E and S), aramid (Kevlar, Twaron), basalt
-- Metal matrix composites (MMC): Al-SiC, Al-B, Ti-SiC — conceptual guidance; detailed MMC analysis requires specialist consultation
-- Manufacturing processes: autoclave, RTM/VARTM, OOA/VBO, filament winding, AFP/ATL, pultrusion
-- Applications: aerospace (commercial, military, space), automotive, wind energy, marine, sporting goods
-- Standards: ASTM, CMH-17, FAA, NADCAP, MIL-SPEC, ISO
+**In Scope**: Polymer matrix composites (PMC), thermoset/thermoplastic matrices, carbon/glass/aramid fibers, autoclave/RTM/OOA/AFP manufacturing, aerospace/automotive/wind applications, ASTM/CMH-17/FAA/NADCAP standards.
 
-### Out of Scope
-- **Ceramic matrix composites (CMC):** C/SiC, SiC/SiC for gas turbine applications — require specialist CMC expertise
-- **Nanocomposites and CNT-reinforced systems:** Emerging materials with limited commercial databases; limited guidance available
-- **Actual regulatory certification decisions:** This skill provides engineering guidance; all certification decisions require a certificated DER (FAA) or equivalent authority
-- **Production scheduling and cost estimation:** This skill does not provide detailed manufacturing cost models
-- **Adhesive bonding (structural bonding):** Bonded joint design principles can be discussed, but detailed adhesive qualification and NDT of bonded joints requires specialist review
+**Out of Scope**: Ceramic matrix composites (CMC), nanocomposites, actual regulatory certification decisions, production scheduling/cost estimation, structural adhesive bonding NDT.
 
-### Known Limitations
-- Material property values cited are typical/nominal values from open literature; actual design must use statistically derived A-basis or B-basis allowables from the specific material batch and process
-- FEA guidance covers setup and interpretation; actual model execution requires licensed FEA software
-- Regulatory requirements evolve: always verify current status of AC, AC7118, and applicable airworthiness directives
+**Known Limitations**: Material property values are typical/nominal — actual design requires A-basis or B-basis allowables from specific batch/process. FEA guidance covers setup and interpretation — actual execution requires licensed software. Regulatory requirements evolve — always verify current AC, AC7118 status.
 
 ---
 
 ## § 13 How to Use
 
-### Quick Start
-
-```
-Read https://theneoai.github.io/awesome-skills/skills/materials/composite-materials-engineer/SKILL.md and install
-```
-
 ### Typical Interaction Patterns
 
-**Material selection query:**
-> "I need to select a composite material for a pressure vessel operating at 150°C with internal pressure of 10 MPa. Compare CFRP, GFRP, and AFRP options."
+**Material selection**: "Compare CFRP, GFRP, AFRP for 150°C pressure vessel at 10 MPa."
 
-**Laminate design query:**
-> "Design a symmetric balanced laminate for combined biaxial compression (Nx = -500 N/mm, Ny = -200 N/mm) and shear (Nxy = 100 N/mm). Material: T800/3900-2."
+**Laminate design**: "Design a symmetric balanced laminate for combined biaxial compression (Nx=-500, Ny=-200 N/mm, Nxy=100 N/mm). Material: T800/3900-2."
 
-**Manufacturing process query:**
-> "We need to produce 500 units/year of a 300mm × 200mm × 5mm CFRP structural panel. Compare autoclave vs. RTM for this production volume."
+**Manufacturing process**: "Compare autoclave vs RTM for 500 units/year of 300mm × 200mm × 5mm CFRP panel."
 
-**Failure analysis query:**
-> "Calculate the Tsai-Wu failure index for a [0/±45/90]s IM7/8552 laminate under Nx = 1000 N/mm, My = 50 N·mm/mm. E1 = 165 GPa, E2 = 9 GPa, G12 = 5.6 GPa."
+**Failure analysis**: "Calculate Tsai-Wu failure index for [0/±45/90]s IM7/8552 under Nx=1000 N/mm, My=50 N·mm/mm."
 
-**NDT planning query:**
-> "Define the ultrasonic C-scan inspection plan for a 2m × 0.5m wing skin panel in IM7/8552, 16-ply [±45/0/0/±45/0/0]s laminate."
+**NDT planning**: "Define C-scan inspection plan for 2m × 0.5m wing skin panel in IM7/8552, 16-ply [±45/0/0/±45/0/0]s."
 
 ### Best Practice Tips
-- Provide specific load magnitudes, geometry dimensions, and temperature requirements for quantitative analysis
-- Specify the applicable standard or regulatory framework (FAA, EASA, MIL-SPEC) for regulatory guidance
-- For failure analysis, provide the complete load vector (Nx, Ny, Nxy, Mx, My, Mxy) and material properties or material system identifier
-- Reference specific ASTM test methods when asking about mechanical characterization
+- Provide specific load magnitudes, geometry, temperature requirements
+- Specify applicable standard or regulatory framework (FAA, EASA, MIL-SPEC)
+- For failure analysis, provide complete load vector and material properties
+- Reference specific ASTM test methods for mechanical characterization
 
 ---
 
 ## § 14 Quality Verification
 
-This skill achieves **9.5/10 exemplary quality** based on the following criteria:
-
-| Criterion | Assessment | Score |
-|---|---|---|
-| **Domain Depth** | Expert-level coverage of CLT, failure criteria, manufacturing processes, NDT, and regulatory compliance | 10/10 |
-| **Practical Applicability** | Scenario examples use real material properties, load values, and standard methods; directly actionable | 9.5/10 |
-| **Standards Coverage** | Comprehensive ASTM, CMH-17, FAA, NADCAP coverage with specific standard numbers | 10/10 |
-| **Safety Emphasis** | Safety-critical markers, regulatory compliance guidance, and professional limitations clearly stated | 10/10 |
-| **Manufacturing Integration** | RTM process development, cure cycle design, and manufacturability assessment covered in depth | 9/10 |
-| **Communication Quality** | Structured, quantitative, uses proper notation; appropriate for expert audience | 9.5/10 |
-
-**Verification checklist:**
-- [x] All 16 required sections present
-- [x] YAML frontmatter complete with 8+ tags and all 7 platforms
-- [x] System prompt with identity, decision framework (5 questions), thinking patterns (5 items), communication style
-- [x] 9 capabilities listed in § 2
-- [x] 6-row risk disclaimer table in § 3
-- [x] ASCII diagram + 3 principles in § 4
-- [x] All 7 platform install commands in § 5
-- [x] 10 tools in § 6 toolkit table
-- [x] Standards table with metrics in § 7
-- [x] 4 phases with ✓/✗ criteria in § 8
-- [x] 3 full scenario conversations in § 9
-- [x] 8 pitfall examples in § 10
-- [x] 3 integration combinations in § 11
-- [x] File length: 650+ lines
+| Criterion | Score |
+|---|---|
+| Domain Depth | 10/10 |
+| Practical Applicability | 9.5/10 |
+| Standards Coverage | 10/10 |
+| Safety Emphasis | 10/10 |
+| Manufacturing Integration | 9/10 |
+| Communication Quality | 9.5/10 |
 
 ---
 
 ## § 15 Version History
 
-| Version | Date | Author | Changes |
-|---|---|---|---|
-| 3.0.0 | 2026-03-11 | neo.ai | Complete rewrite to exemplary standard: expert system prompt with NADCAP/FAA credentials, full CLT/failure criteria coverage, 3 detailed scenario examples (laminate design, impact damage assessment, RTM process development), 8 pitfall examples, manufacturing-analysis-design philosophy triangle, comprehensive standards table with property values |
-| 2.0.0 | 2026-02-28 | neo.ai | Added manufacturing processes section, expanded NDT coverage, added CMH-17 reference framework |
-| 1.0.0 | 2026-02-16 | awesome-skills | Initial release with basic composite materials overview |
+| Version | Date | Changes |
+|---|---|---|
+| 3.0.0 | 2026-03-11 | Complete rewrite: expert system prompt, CLT/failure criteria, 3 scenario examples, 8 pitfalls, manufacturing-analysis-design triangle |
+| 2.0.0 | 2026-02-28 | Added manufacturing processes, NDT coverage, CMH-17 framework |
+| 1.0.0 | 2026-02-16 | Initial release |
 
 ---
 
 ## § 16 License & Author
 
-**Author:** neo.ai
-**License:** MIT with Attribution — See [../../LICENSE](../../LICENSE)
-**Skill Repository:** https://theneoai.github.io/awesome-skills/
-**Category:** Materials Engineering
-**Certification:** Expert Verified ⭐⭐ — Reviewed by composite materials engineering practitioners
-
-> This skill is part of the **neo.ai awesome-skills** collection — expert-verified AI skill prompts for professional engineering domains.
+**Author:** neo.ai | **License:** MIT with Attribution
+**Repository:** https://theneoai.github.io/awesome-skills/
+**Category:** Materials Engineering | Expert Verified ⭐⭐

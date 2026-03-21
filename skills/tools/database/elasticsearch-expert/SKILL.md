@@ -239,201 +239,21 @@ Phase 4: Performance Optimization
 **User:** "Build product search for e-commerce"
 
 **Elasticsearch Expert:**
-> **Index Design:**
->
-> ```json
-> PUT /products
-> {
->   "settings": {
->     "number_of_shards": 2,
->     "number_of_replicas": 1,
->     "analysis": {
->       "analyzer": {
->         "autocomplete": {
->           "type": "custom",
->           "tokenizer": "standard",
->           "filter": ["lowercase", "autocomplete_filter"]
->         }
->       },
->       "filter": {
->         "autocomplete_filter": {
->           "type": "edge_ngram",
->           "min_gram": 2,
->           "max_gram": 20
->         }
->       }
->     }
->   },
->   "mappings": {
->     "properties": {
->       "name": {
->         "type": "text",
->         "analyzer": "standard",
->         "fields": {
->           "keyword": { "type": "keyword" },
->           "autocomplete": { "type": "text", "analyzer": "autocomplete" }
->         }
->       },
->       "brand": { "type": "keyword" },
->       "price": { "type": "float" },
->       "categories": { "type": "keyword" },
->       "in_stock": { "type": "boolean" }
->     }
->   }
-> }
-> ```
->
-> **Search Query:**
->
-> ```json
-> GET /products/_search
-> {
->   "query": {
->     "bool": {
->       "must": [
->         {
->           "multi_match": {
->             "query": "wireless headphones",
->             "fields": ["name^3", "brand^2", "categories"],
->             "type": "best_fields"
->           }
->         }
->       ],
->       "filter": [
->         { "term": { "in_stock": true } },
->         { "range": { "price": { "gte": 50, "lte": 200 } } }
->       ]
->     }
->   },
->   "aggs": {
->     "brands": { "terms": { "field": "brand", "size": 10 } },
->     "price_ranges": {
->       "range": {
->         "field": "price",
->         "ranges": [
->           { "key": "Under $50", "to": 50 },
->           { "key": "$50-$100", "from": 50, "to": 100 },
->           { "key": "$100+", "from": 100 }
->         ]
->       }
->     }
->   }
-> }
-> ```
+> → See [references/code-block-4.md](references/code-block-4.md)
 
 ### 9.2 Log Analysis Dashboard
 
 **User:** "Analyze logs with ELK stack"
 
 **Elasticsearch Expert:**
-> **Index Pattern:**
->
-> ```json
-> PUT /logs-%{YYYY.MM.dd}
-> {
->   "mappings": {
->     "properties": {
->       "@timestamp": { "type": "date" },
->       "level": { "type": "keyword" },
->       "service": { "type": "keyword" },
->       "message": { "type": "text" },
->       "trace_id": { "type": "keyword" },
->       "user_id": { "type": "keyword" },
->       "duration_ms": { "type": "float" }
->     }
->   }
-> }
-> ```
->
-> **Aggregation for Dashboard:**
->
-> ```json
-> GET /logs-*/_search
-> {
->   "size": 0,
->   "query": {
->     "range": {
->       "@timestamp": { "gte": "now-24h" }
->     }
->   },
->   "aggs": {
->     "errors_by_service": {
->       "terms": { "field": "service" },
->       "aggs": {
->         "error_count": {
->           "filter": { "term": { "level": "ERROR" } }
-> },
-         "p99_latency": {
-           "percentiles": {
-             "field": "duration_ms",
-             "percents": [50, 90, 99]
-           }
-         }
-       }
-     },
-     "logs_over_time": {
-       "date_histogram": {
-         "field": "@timestamp",
-         "fixed_interval": "5m"
-       },
-       "aggs": {
-         "by_level": {
-           "terms": { "field": "level" }
-         }
-       }
-     }
-   }
-> }
-> ```
+> → See [references/code-block-5.md](references/code-block-5.md)
 
 ### 9.3 Geo-location Search
 
 **User:** "Find nearby restaurants"
 
 **Elasticsearch Expert:**
-> ```json
-> GET /restaurants/_search
-> {
->   "query": {
->     "bool": {
->       "must": [
->         { "match": { "name": "sushi" } }
->       ],
->       "filter": [
->         {
->           "geo_distance": {
->             "distance": "5km",
->             "location": { "lat": 40.7128, "lon": -74.0060 }
->           }
->         }
->       ]
->     }
->   },
->   "sort": [
->     {
->       "_geo_distance": {
->         "location": { "lat": 40.7128, "lon": -74.0060 },
->         "order": "asc",
->         "unit": "km"
->       }
->     }
->   ],
->   "aggs": {
->     "distance_ranges": {
->       "geo_distance": {
->         "field": "location",
->         "origin": { "lat": 40.7128, "lon": -74.0060 },
->         "ranges": [
->           { "to": 1 },
->           { "from": 1, "to": 5 },
->           { "from": 5, "to": 10 },
->           { "from": 10 }
->         ]
->       }
->     }
->   }
-> }
-> ```
+> → See [references/code-block-6.md](references/code-block-6.md)
 
 ---
 

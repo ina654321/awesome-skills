@@ -382,176 +382,98 @@ Take what's useful, discard what isn't. I appreciate you considering this."
 ## § 9 · Gotchas & Anti-Patterns
 
 ### #EP1: Freedom ≠ Anarchy
-
-❌ **Anti-Pattern**: Making any decision without considering organizational alignment.
-
-✅ **Correct**: "Freedom comes with responsibility to understand context and act in the company's best interest. 'Highly aligned, loosely coupled' means we share goals, not that we ignore them."
+❌ Making any decision without considering organizational alignment.
+✅ "Freedom comes with responsibility to understand context and act in the company's best interest."
 
 ### #EP2: Candor ≠ Cruelty
-
-❌ **Anti-Pattern**: Using "candid feedback" as an excuse for personal attacks or harsh criticism.
-
-✅ **Correct**: "4A feedback aims to assist. It should be actionable and delivered with positive intent. If the receiver doesn't feel helped, it's not good feedback."
+❌ Using "candid feedback" as an excuse for personal attacks.
+✅ "4A feedback aims to assist. It should be actionable and delivered with positive intent."
 
 ### #EP3: High Performance ≠ Burnout
-
-❌ **Anti-Pattern**: Working 80-hour weeks to "prove" you're a high performer.
-
-✅ **Correct**: "High performance is about impact, not hours. Netflix wants sustainable high performance — people who deliver exceptional results and maintain their energy long-term."
+❌ Working 80-hour weeks to "prove" you're a high performer.
+✅ "High performance is about impact, not hours. Sustainable high performance is key."
 
 ### #EP4: Keeper Test ≠ Threat
-
-❌ **Anti-Pattern**: Using the Keeper Test as a threat to pressure employees.
-
-✅ **Correct**: "The Keeper Test is a reflection tool for managers, not a weapon. It's about ensuring we have stunning colleagues, not creating fear."
+❌ Using the Keeper Test as a threat to pressure employees.
+✅ "The Keeper Test is a reflection tool, not a weapon. Ensure stunning colleagues, not fear."
 
 ### #EP5: Context Not Control ≠ Absent Leadership
-
-❌ **Anti-Pattern**: Leaders provide no guidance and call it "context not control."
-
-✅ **Correct**: "Leaders must provide rich context — strategy, data, customer insights, competitive landscape. Then they trust the team to decide. Context is the foundation; freedom is built on it."
+❌ Leaders provide no guidance and call it "context not control."
+✅ "Leaders must provide rich context — strategy, data, insights. Context is the foundation."
 
 ### #EP6: No Rules ≠ No Guardrails
-
-❌ **Anti-Pattern**: Removing all rules including safety/legal compliance.
-
-✅ **Correct**: "We remove controls that prevent speed and innovation, but maintain guardrails around catastrophic risks, ethical boundaries, and legal compliance."
+❌ Removing all rules including safety/legal compliance.
+✅ "Remove controls that prevent speed, but maintain guardrails around catastrophic risks."
 
 ### #EP7: Talent Density ≠ Homogeneity
-
-❌ **Anti-Pattern**: Hiring only people who think and work like existing team members.
-
-✅ **Correct**: "Talent density requires diversity of thought, background, and approach. A team of clones isn't stunning — it's limited."
+❌ Hiring only people who think like existing team members.
+✅ "Talent density requires diversity of thought, background, and approach."
 
 ### #EP8: Sunshining ≠ Public Shaming
-
-❌ **Anti-Pattern**: Sunshine others' mistakes without their consent.
-
-✅ **Correct**: "Sunshining is about sharing your own mistakes for collective learning. It's not a mechanism for calling out others publicly."
+❌ Sunshine others' mistakes without their consent.
+✅ "Sunshining is about sharing your own mistakes for collective learning."
 
 ---
 
-## § 10 · Integration with Other Skills
+## § 10 · Integration
 
-| Skill | Integration Point | When to Use |
-|-------|-------------------|-------------|
-| **system-architect** | Design systems with freedom to iterate and learn | Technical decisions |
-| **technical-writer** | Document decision context for alignment | Context sharing |
-| **interview-prep** | Prepare for Netflix's culture-focused interviews | Job seeking |
-| **leadership** | Apply "Context Not Control" as a leader | Managing teams |
-| **team-building** | Build high talent density teams | Hiring and development |
+| Skill | Integration Point |
+|-------|-------------------|
+| **system-architect** | Design systems with freedom to iterate |
+| **technical-writer** | Document decision context |
+| **leadership** | Apply "Context Not Control" |
 
 ---
 
 ## § 11 · Scope & Limitations
 
-### What This Skill Covers
-- Netflix's Freedom & Responsibility culture
-- 4A Feedback framework
-- Keeper Test and high performance standards
-- Context Not Control leadership model
-- Talent density principles
-- Sunshining and mistake sharing
-- Decision rights and "Informed Captain" model
+**Covers**: Freedom & Responsibility, 4A Feedback, Keeper Test, Context Not Control, Talent Density, Sunshining.
 
-### What This Skill Does NOT Cover
-- Specific Netflix technical stack or architecture
-- Internal proprietary systems or tools
-- Compensation negotiation specifics
-- Internal organizational structures
-
-### Enterprise Context Requirements
-This skill is optimized for:
-- Knowledge work environments
-- Organizations that can attract top talent
-- Cultures that tolerate high feedback volume
-- Environments where information can be transparent
-
-May require adaptation for:
-- Highly regulated industries with strict compliance
-- Organizations with limited talent budgets
-- Hierarchical cultures transitioning to autonomy
-- Teams without direct access to strategic context
+**Does NOT Cover**: Specific Netflix technical stack, internal proprietary tools, compensation specifics.
 
 ---
 
 ## § 12 · How to Use This Skill
 
 ### For Interview Preparation
-1. **Study the culture deck**: Understand Freedom & Responsibility deeply
-2. **Prepare examples**: Show how you've used freedom responsibly
-3. **Feedback stories**: Have examples of giving and receiving feedback
-4. **Judgment examples**: Show decision-making with incomplete information
-5. **High performance proof**: Quantify your impact
+1. Study the culture deck deeply
+2. Prepare examples of using freedom responsibly
+3. Have feedback stories ready
+4. Show judgment examples with incomplete information
 
 ### For Daily Work
-1. **Provide rich context**: Leaders — share strategy, data, rationale
-2. **Make decisions**: Don't wait for approval if you have context
-3. **Give 4A feedback**: Continuous, kind, actionable
-4. **Sunshine mistakes**: Share learnings openly
-5. **Apply Keeper Test**: Regularly assess talent density
+1. Provide rich context as a leader
+2. Make decisions — don't wait for approval
+3. Give 4A feedback continuously
+4. Sunshine mistakes — share learnings
 
 ### For Leadership
-1. **Model candor**: Give and receive feedback publicly
-2. **Share context**: Strategy, competitive landscape, customer insights
-3. **Remove controls gradually**: As team earns trust and demonstrates judgment
-4. **Maintain high bar**: No compromises on talent
-5. **Celebrate high performance**: Recognize and retain stunning colleagues
+1. Model candor publicly
+2. Share context — strategy, landscape, insights
+3. Remove controls gradually as trust is earned
+4. Maintain high bar — no compromises on talent
 
 ---
 
 ## § 13 · Quality Verification
 
-### Self-Assessment Checklist
-
-Before using outputs from this skill, verify:
-
-- [ ] **Freedom with responsibility**: Does this assume high performance and accountability?
-- [ ] **Context-rich**: Is there enough context for informed decisions?
-- [ ] **Feedback quality**: Is feedback 4A-aligned (aim to assist, actionable)?
-- [ ] **Talent density impact**: Does this elevate or lower the team average?
-- [ ] **Alignment**: Is this "highly aligned, loosely coupled"?
-- [ ] **Sunshining ready**: Can we be transparent about this?
-
-### Validation Questions
-1. "Would this person pass the Keeper Test?"
-2. "Is this feedback 4A-compliant?"
-3. "Have I provided enough context for an informed decision?"
-4. "Does this action assume freedom or require control?"
-5. "Can we sunshine the outcome of this decision?"
+- [ ] Freedom with responsibility: Does this assume high performance?
+- [ ] Context-rich: Is there enough context for informed decisions?
+- [ ] Feedback quality: Is feedback 4A-aligned?
+- [ ] Talent density impact: Does this elevate the team?
+- [ ] Alignment: Is this "highly aligned, loosely coupled"?
 
 ---
 
 ## § 14 · Version History
 
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.1.0 | 2026-03-21 | Initial release — Netflix Engineer skill with Freedom & Responsibility, Talent Density, 4A Feedback | neo.ai |
-
-### Roadmap
-- **3.2.0**: Add Netflix-specific technical decision case studies
-- **3.3.0**: Expand interview preparation with real questions
-- **3.4.0**: Add remote work and async collaboration patterns
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.1.0 | 2026-03-21 | Initial release |
 
 ---
 
 ## § 15 · License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)
-**License**: MIT — Free for personal and commercial use
-**Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
-
-### Contributing
-To suggest improvements or report issues:
-1. Open an issue in the GitHub repository
-2. Include specific examples of skill application
-3. Reference Netflix culture aspects where relevant
-
-### Acknowledgments
-- Reed Hastings and Patty McCord's "No Rules Rules"
-- Netflix Culture Deck (the famous 124-slide deck)
-- Erin Meyer's research on cross-cultural feedback
-
----
-
-**End of Skill Document**
+**License**: MIT — [awesome-skills](https://github.com/lucaswhch/awesome-skills)

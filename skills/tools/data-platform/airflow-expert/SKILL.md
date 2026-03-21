@@ -174,9 +174,7 @@ Before responding in Airflow contexts, evaluate:
 
 ### 7.1 DAG Template
 
-```python
-[Code block moved to code-block-1.md]
-```
+→ See [references/code-block-1.md](references/code-block-1.md)
 
 ### 7.2 Dynamic Task Mapping
 
@@ -292,42 +290,7 @@ Phase 2: Fix
 **Airflow Expert:**
 > **Framework:** TaskFlow API with idempotent load (upsert).
 >
-> ```python
-> from datetime import datetime, timedelta
-> from airflow import DAG
-> from airflow.decorators import task
-> from airflow.providers.postgres.operators.postgres import PostgresOperator
->
-> default_args = {
->     'owner': 'data-engineer',
->     'retries': 3,
->     'retry_delay': timedelta(minutes=5),
-> }
->
-> @dag(default_args=default_args, schedule_interval='0 2 * * *',
->      start_date=datetime(2024, 1, 1), catchup=False)
-> def daily_etl():
->
->     @task
->     def extract(logical_date: datetime):
->         date_str = logical_date.strftime('%Y-%m-%d')
->         data = api.fetch_orders(date=date_str)
->         return data  # TaskFlow auto-XComs this
->
->     @task
->     def transform(data: list):
->         return [{'id': o['id'], 'amount': o['total'],
->                  'date': o['created_at'], 'processed': True}
->                 for o in data]
->
->     @task
->     def load(orders: list):
->         # Idempotent: INSERT ON CONFLICT UPDATE
->         for order in orders:
->             warehouse.upsert('orders', order, key='id')
->
->     load(transform(extract()))
-> ```
+> → See [references/code-block-2.md](references/code-block-2.md)
 >
 > **Key decisions:**
 > - `catchup=False` prevents backfilling on restart
@@ -341,38 +304,7 @@ Phase 2: Fix
 **Airflow Expert:**
 > **Framework:** Dynamic Task Mapping with a configuration table.
 >
-> ```python
-> from airflow.decorators import dag, task
-> from airflow.providers.google.cloud.transfers.mysql_to_gcs import MySQLToGCSOperator
-> from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
->
-> @dag(schedule_interval='@daily', start_date=datetime(2024, 1, 1))
-> def sync_mysql_to_bigquery():
->
->     @task
->     def get_table_list():
->         return [
->             {'table': 'orders', 'partition': 'order_date'},
->             {'table': 'customers', 'partition': 'created_at'},
->             {'table': 'products', 'partition': None},
->         ]
->
->     @task
->     def extract_to_gcs(table_config: dict):
->         return MySQLToGCSOperator(
->             task_id=f"extract_{table_config['table']}",
->             mysql_conn_id='mysql-prod',
->             sql=f"SELECT * FROM {table_config['table']}",
->             bucket='my-bucket',
->             filename=f"raw/{table_config['table']}/{{{{ ds }}}}/{table_config['table']}.json",
->             export_format='json',
->         ).execute(context={})
->
->     tables = get_table_list()
->     extract_to_gcs.expand(table_config=tables)
-> ```
->
-> **Alternative:** Use a single DAG with `for` loop over `table_list` and dynamic task mapping.
+> → See [references/code-block-3.md](references/code-block-3.md)
 
 ### Example 3: Branching Based on External Condition
 
@@ -381,33 +313,7 @@ Phase 2: Fix
 **Airflow Expert:**
 > **Framework:** BranchPythonOperator with downstream skip.
 >
-> ```python
-> from airflow.operators.empty import EmptyOperator
-> from airflow.operators.python import BranchPythonOperator
->
-> def should_run_full_pipeline():
->     if api.is_available():
->         return 'extract'  # Run full pipeline
->     else:
->         return 'skip_pipeline'  # Skip to notification
->
-> start = EmptyOperator(task_id='start')
-> branch = BranchPythonOperator(
->     task_id='branching',
->     python_callable=should_run_full_pipeline,
-> )
->
-> extract = EmptyOperator(task_id='extract')
-> transform = EmptyOperator(task_id='transform')
-> load = EmptyOperator(task_id='load')
-> skip_pipeline = EmptyOperator(task_id='skip_pipeline')
-> notify = EmptyOperator(task_id='notify')
->
-> start >> branch
-> branch >> [extract, skip_pipeline]
-> extract >> transform >> load >> notify
-> skip_pipeline >> notify
-> ```
+> → See [references/code-block-4.md](references/code-block-4.md)
 
 ---
 

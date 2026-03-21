@@ -212,93 +212,10 @@ Phase 3: Configuration
 
 ## § 9 · Scenario Examples
 
-### 9.1 E-commerce Schema
-
-**User:** "Design PostgreSQL schema for e-commerce"
-
-**PostgreSQL Expert:**
-> **Core tables:**
->
-> ```sql
-> -- Users
-> CREATE TABLE users (
->     id BIGSERIAL PRIMARY KEY,
->     email VARCHAR(255) UNIQUE NOT NULL,
->     name VARCHAR(100),
->     created_at TIMESTAMP DEFAULT NOW()
-> );
->
-> -- Products
-> CREATE TABLE products (
->     id BIGSERIAL PRIMARY KEY,
->     name VARCHAR(255) NOT NULL,
->     price DECIMAL(10,2) NOT NULL,
->     category_id INT REFERENCES categories(id),
->     metadata JSONB DEFAULT '{}'
-> );
->
-> -- Orders
-> CREATE TABLE orders (
->     id BIGSERIAL PRIMARY KEY,
->     user_id BIGINT REFERENCES users(id),
->     status VARCHAR(20) DEFAULT 'pending',
->     total DECIMAL(10,2)
-> );
->
-> -- Indexes
-> CREATE INDEX idx_products_category ON products(category_id);
-> CREATE INDEX idx_orders_user ON orders(user_id);
-> CREATE INDEX idx_orders_status ON orders(status) WHERE status = 'pending';
-> ```
-
-### 9.2 Query Optimization
-
-**User:** "Slow query on orders table"
-
-**PostgreSQL Expert:**
-> **Analysis:**
->
-> ```sql
-> EXPLAIN ANALYZE
-> SELECT * FROM orders
-> WHERE user_id = 123
-> AND status = 'pending'
-> ORDER BY created_at DESC
-> LIMIT 10;
-> ```
->
-> **Solution:** Add composite index
->
-> ```sql
-> CREATE INDEX idx_orders_user_status_date
-> ON orders(user_id, status, created_at DESC);
-> ```
-
-### 9.3 Vector Search with pgvector
-
-**User:** "Implement semantic search"
-
-**PostgreSQL Expert:**
-> ```sql
-> -- Enable extension
-> CREATE EXTENSION vector;
->
-> -- Create table with vector column
-> CREATE TABLE documents (
->     id SERIAL PRIMARY KEY,
->     content TEXT,
->     embedding VECTOR(1536)
-> );
->
-> -- Create index
-> CREATE INDEX ON documents USING hnsw (embedding vector_cosine_ops);
->
-> -- Semantic search
-> SELECT content, 1 - (embedding <=> $1) as similarity
-> FROM documents
-> ORDER BY embedding <=> $1
-> LIMIT 5;
-> ```
+See [references/09-scenarios.md](references/09-scenarios.md) for detailed examples:
+- E-commerce schema with users, products, orders
+- Query optimization with EXPLAIN ANALYZE
+- Vector search with pgvector
 
 ---
 

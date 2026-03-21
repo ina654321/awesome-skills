@@ -241,28 +241,15 @@ SNAP preprocessing pipeline:
 </graph>
 ```
 
-Change detection using backscatter ratio — open water has very low SAR backscatter (specular reflection away from sensor), typically sigma-naught less than -15 dB for VV:
+→ See [references/code-block-1.md](references/code-block-1.md) for:
+- Sentinel-1 SAR flood mapping Python implementation
+- Spatial cross-validation for geospatial ML
 
-```python
-[Code block moved to code-block-1.md]
-```
+→ See [references/code-block-2.md](references/code-block-2.md) for:
+- Multi-temporal crop classification with SegFormer + LSTM
+- Uncertainty estimation with Monte Carlo dropout
 
-Expected accuracy: Sentinel-1 flood mapping typically achieves F1 = 0.85-0.92 against independent validation (DLR-GFM benchmark). Report flood area in km² with confidence intervals based on threshold sensitivity of plus/minus 1 dB.
-
-### Example 2: Multi-Temporal Crop Classification with SegFormer
-
-**User:** We need to classify 10 crop types across a 5000 km² agricultural region using Sentinel-2 time series. What architecture and training strategy do you recommend?
-
-**Data Scientist:**
-For multi-crop classification at scale, temporal information is essential — many crops have similar spectral signatures at any single date but are separable through their phenological trajectory over the growing season.
-
-Architecture: combine SegFormer-B2 for spatial feature extraction with a bidirectional LSTM for temporal encoding over 12 monthly composites:
-
-```python
-[Code block moved to code-block-2.md]
-```
-
-Training strategy: use focal loss with gamma=2 to handle class imbalance between dominant cereals and minor specialty crops. Spatial block cross-validation with 5 geographic folds. Expected Kappa = 0.87-0.91 on PASTIS benchmark (France, 18 crop types).
+Expected accuracy: Sentinel-1 flood mapping typically achieves F1 = 0.85-0.92 against independent validation.
 
 ### Example 3: Anti-Pattern — Processing L1C Data Without Atmospheric Correction
 
@@ -313,139 +300,15 @@ Typical correction magnitude: L1C NDVI of 0.75 becomes L2A NDVI of 0.65-0.70 aft
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-### Anti-Pattern 1: Random Pixel Split for Accuracy Assessment
+→ See [references/code-block-1.md](references/code-block-1.md) for spatial cross-validation code.
+→ See [references/code-block-2.md](references/code-block-2.md) for uncertainty estimation code.
 
-**Why it matters:** Spatially adjacent pixels are spectrally similar due to spatial autocorrelation, causing test set to leak information from training set and inflating accuracy by 10-20%.
-
-❌ BAD:
-```python
-from sklearn.model_selection import train_test_split
-# Random pixel split violates spatial independence
-X_train, X_test, y_train, y_test = train_test_split(
-    pixels, labels, test_size=0.2, random_state=42
-)
-# Reported OA=0.93 — likely 0.75-0.80 in true spatial holdout validation
-```
-
-✅ GOOD:
-```python
-[Code block moved to code-block-1.md]
-```
-
-### Anti-Pattern 2: Mixing Satellite Sensors Without Cross-Calibration
-
-**Why it matters:** Sentinel-2 and Landsat have different spectral response functions (S2 Red center: 665nm, Landsat Red: 655nm) and different spatial resolutions (10m vs 30m), causing systematic class confusion when using labels from one sensor on imagery from another.
-
-❌ BAD:
-```python
-# Train on Sentinel-2 labels, apply directly to Landsat imagery
-model = train_on_sentinel2(s2_patches, labels)
-predictions = model.predict(landsat_patches)  # Silent spectral mismatch
-```
-
-✅ GOOD:
-```python
-# Use NASA Harmonized Landsat-Sentinel (HLS) for cross-calibrated data
-# HLS provides HLSS30 (Sentinel-harmonized) and HLS30 (Landsat-harmonized)
-# at consistent 30m resolution and calibrated reflectance values
-import earthaccess
-earthaccess.login()
-results = earthaccess.search_data(
-    short_name="HLSS30",  # HLS Sentinel-2 harmonized at 30m
-    temporal=("2024-06-01", "2024-08-31"),
-    bounding_box=(-100, 40, -95, 45)
-)
-# Both HLSS30 and HLSL30 share consistent band definitions and reflectance calibration
-```
-
-### Anti-Pattern 3: Ignoring SAR Speckle in Statistical Analysis
-
-**Why it matters:** SAR imagery has inherent multiplicative speckle noise causing pixel-level variance proportional to mean backscatter, violating assumptions of standard statistical tests.
-
-❌ BAD:
-```python
-from scipy.stats import ttest_ind
-# Invalid: speckle creates spatial autocorrelation; SAR pixels are not independent
-t_stat, p_val = ttest_ind(sar_forest_pixels, sar_cropland_pixels)
-```
-
-✅ GOOD:
-```python
-import numpy as np
-from skimage.measure import block_reduce
-from rasterstats import zonal_stats
-
-def multi_look_average(sar_intensity_linear, looks=4):
-    """
-    Reduce speckle by spatial multilooking in linear (not dB) domain.
-    looks: number of pixels to average in each dimension.
-    """
-    # CRITICAL: multilook in linear intensity, not dB
-    multilook = block_reduce(sar_intensity_linear, (looks, looks), func=np.mean)
-    return multilook  # Then convert to dB for analysis
-
-# Use segment-level (polygon) statistics for object-based analysis
-segment_stats = zonal_stats(
-    segments_shapefile,
-    sar_multilook_path,
-    stats=['mean', 'std', 'median'],
-    nodata=-9999
-)
-# Segment means are reliable; per-pixel values are not
-```
-
-### Anti-Pattern 4: Ignoring Phenological Seasonality in Change Detection
-
-**Why it matters:** Deciduous forests and annual croplands have NDVI variation of 0.2-0.8 within a single year; comparing summer to winter imagery creates massive false-positive change rates.
-
-❌ BAD:
-```python
-# Comparing summer (peak green) to winter (bare/snow) calls everything "change"
-summer_ndvi = compute_ndvi('sentinel2_july_2023.tif')
-winter_ndvi = compute_ndvi('sentinel2_january_2024.tif')
-change_mask = (summer_ndvi - winter_ndvi) > 0.3  # Massive false positives for deciduous
-```
-
-✅ GOOD:
-```python
-def annual_composite_change(year1_images, year2_images, doy_range=(150, 250)):
-    """
-    Compare same-season composites to isolate real change from phenology.
-    doy_range: growing-season day-of-year window for compositing.
-    """
-    def seasonal_max_ndvi_composite(images):
-        seasonal = [img for img in images
-                    if doy_range[0] <= img.day_of_year <= doy_range[1]]
-        if not seasonal:
-            raise ValueError(f"No images found in DOY range {doy_range}")
-        ndvi_stack = np.stack([compute_ndvi(img.path) for img in seasonal])
-        return np.nanpercentile(ndvi_stack, 90, axis=0)  # Peak growing season
-
-    ndvi_y1 = seasonal_max_ndvi_composite(year1_images)
-    ndvi_y2 = seasonal_max_ndvi_composite(year2_images)
-
-    # Normalize change by multi-year background variability
-    baseline_std = compute_multiyear_std(year1_images, doy_range)
-    z_change = (ndvi_y2 - ndvi_y1)
-    deforestation_mask = z_change < -2.0  # >2-sigma NDVI decline
-    return deforestation_mask, z_change
-```
-
-### Anti-Pattern 5: Delivering Classification Maps Without Uncertainty
-
-**Why it matters:** Binary land cover maps without confidence scores prevent users from identifying unreliable areas and making risk-calibrated decisions.
-
-❌ BAD:
-```python
-# Hard predictions only — no uncertainty information for users
-predictions = model(image_patches).argmax(dim=1)
-export_geotiff(predictions, 'land_cover_map.tif')
-```
-
-✅ GOOD:
-```python
-[Code block moved to code-block-2.md]
-```
+**Key Anti-Patterns:**
+- **Random pixel split** inflates accuracy by 10-20% — use spatial blocking
+- **Sensor mixing** without cross-calibration causes silent errors — use HLS data
+- **SAR speckle** violates statistical assumptions — use multilooking and zonal stats
+- **Phenological change** creates false positives — compare same-season composites
+- **No uncertainty** prevents risk-calibrated decisions — export confidence maps
 
 ---
 

@@ -285,29 +285,13 @@ This is a high-priority alert — encoded PowerShell is a common technique for f
 
 **Step 1: Immediate context pull (do in first 5 minutes)**
 
-```splunk
-index=windows EventCode=4688 (CommandLine="*-EncodedCommand*" OR CommandLine="*-enc *")
-host="finance-server-03"
-| table _time, user, CommandLine, ParentProcessName, NewProcessName
-| sort -_time
-| head 20
-```
+→ Full Splunk queries: [references/code-block-2.md](references/code-block-2.md)
 
 **Step 2: Decode the payload**
-```bash
-# From Splunk result, copy the base64 string after -EncodedCommand
-echo "SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQ..." | base64 -d | iconv -f UTF-16LE -t UTF-8
-# Review decoded command — is it legitimate admin script or malicious?
-```
+→ Bash decode command: [references/code-block-2.md](references/code-block-2.md)
 
 **Step 3: Check for lateral movement indicators**
-```splunk
-# Did this host make new network connections after the PowerShell event?
-index=network_traffic src_ip="10.1.2.45"  // finance-server-03 IP
-earliest=-2h latest=now
-| stats count by dest_ip, dest_port, _time
-| where dest_port IN (4444, 8080, 443, 1337)  // common C2 ports
-```
+→ Full Splunk queries: [references/code-block-2.md](references/code-block-2.md)
 
 **Triage decision tree:**
 - Decoded command = legitimate IT automation script signed by known admin → **False positive; whitelist and document**
@@ -320,52 +304,13 @@ earliest=-2h latest=now
 
 ### Scenario 2: Access Review — Over-Privileged Service Account
 
-**User:** "During our quarterly access review, I found service account `svc_reporting` has Domain Admin rights in Active Directory. It's used by an ETL job. How do I fix this safely?"
+**User:** "During our quarterly access review, I found service account `svc_reporting` has Domain Admin rights in Active Directory. It's used by an ETL job. How do I fix it safely?"
 
 **Information Security Admin:**
 
 Classic principle-of-least-privilege violation — Domain Admin for a reporting ETL service is a P1 risk. Here's the safe remediation:
 
-**Step 1: Map exact permissions needed**
-```powershell
-# What does the ETL job actually do? Check its database connections
-# Run on the ETL server — see what resources it accesses
-Get-WinEvent -LogName Security -FilterXPath "
-  *[System[(EventID=4624)]]
-  and *[EventData[Data[@Name='TargetUserName']='svc_reporting']]" |
-  Select-Object TimeCreated, Message | Format-List
-```
-
-**Step 2: Create a least-privilege replacement account**
-```powershell
-# Create new service account with minimum required permissions only
-New-ADUser -Name "svc_etl_reporting" `
-  -AccountPassword (ConvertTo-SecureString "$(New-Guid)" -AsPlainText -Force) `
-  -PasswordNeverExpires $false `     # Service accounts SHOULD rotate passwords via PAM
-  -CannotChangePassword $true `
-  -Enabled $true
-
-# Grant ONLY what's needed — e.g., read access to specific DB schema
-# DO NOT add to any admin groups
-```
-
-**Step 3: Grant specific SQL permissions (not broad AD rights)**
-```sql
--- In SQL Server: grant minimum read access to specific tables only
-CREATE LOGIN [DOMAIN\svc_etl_reporting] FROM WINDOWS;
-USE ReportingDB;
-CREATE USER [svc_etl_reporting] FOR LOGIN [DOMAIN\svc_etl_reporting];
--- Grant read-only on specific schema, NOT db_datareader on all tables
-GRANT SELECT ON SCHEMA::ReportingData TO [svc_etl_reporting];
-```
-
-**Step 4: Test → Switch → Disable old account (don't delete yet)**
-```powershell
-# After confirming ETL works with new account, disable svc_reporting
-Disable-ADAccount -Identity "svc_reporting"
-# Wait 2 weeks for any batch jobs to surface issues, then delete
-# Document in change record: svc_reporting Domain Admin removed [DATE] [TICKET]
-```
+→ Full PowerShell and SQL remediation scripts: [references/code-block-2.md](references/code-block-2.md)
 
 **Risk before fix:** Domain Admin = complete AD compromise if this account's password is cracked or leaked. One ETL job credentials exposure = full domain takeover.
 
@@ -380,60 +325,19 @@ Disable-ADAccount -Identity "svc_reporting"
 Activate IR immediately. Clock is running. Follow this exact sequence:
 
 **T+0: Alert confirmation & severity declaration (first 5 minutes)**
-```
-1. Confirm it's ransomware — check for ransom note (README.txt, DECRYPT_FILES.html)
-2. Declare P1 Incident — notify: CISO, IT Director, Legal, HR Business Partner
-3. Do NOT reboot affected machines — preserves memory forensics
-4. Do NOT pay ransom yet (possibly ever) — escalate to CISO decision
-```
+→ IR step-by-step commands: [references/code-block-2.md](references/code-block-2.md)
 
 **T+5: Immediate containment (5-15 minutes)**
-```bash
-# Option A: Firewall-level isolation (fastest)
-# Block affected subnet at perimeter + core switch
-# Example: Cisco ACL or firewall rule to isolate subnet 10.1.50.0/24
-
-# Option B: AD account disable for affected users
-Disable-ADAccount -Identity "affected_user1", "affected_user2"
-# This prevents credential reuse for lateral movement
-
-# Option C: Network segment quarantine via NAC (Cisco ISE
-# Move affected endpoints to quarantine VLAN
-```
+→ Containment commands: [references/code-block-2.md](references/code-block-2.md)
 
 **T+15: Evidence preservation (15-30 minutes)**
-```powershell
-# Preserve memory on affected Windows systems (before any reboot!)
-# Run from admin context on affected machine
-.\procdump64.exe -ma lsass.exe lsass_dump.dmp  # Credentials in memory
-.\winpmem_mini_x64_rc2.exe memdump.raw          # Full memory image
-
-# Preserve event logs before they roll over
-wevtutil export-log Security C:\IR\security.evtx
-wevtutil export-log System C:\IR\system.evtx
-wevtutil export-log Application C:\IR\application.evtx
-```
+→ Forensic collection commands: [references/code-block-2.md](references/code-block-2.md)
 
 **T+30: Attack vector identification (30-60 minutes)**
-```splunk
-# Find patient zero — which machine was encrypted first?
-index=windows EventCode=4663 Object_Name="*.encrypted"
-| stats min(_time) as first_seen by host
-| sort first_seen
-| head 5
-
-# Check for initial access vector on patient zero
-index=* host="[PATIENT_ZERO_HOSTNAME]" earliest=-24h
-| search (EventCode=4624 OR EventCode=4625 OR "phishing" OR "attachment")
-```
+→ Splunk forensic queries: [references/code-block-2.md](references/code-block-2.md)
 
 **Parallel track: Backup verification**
-```
-- Confirm backups are OFFLINE and not connected to infected network
-- Verify last clean backup timestamp
-- Estimate RPO: time between last backup and first infection
-- Do NOT connect backup systems to network until ransomware eradicated
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 **T+60: GDPR/regulatory notification check**
 - If PII data may have been exfiltrated: GDPR Article 33 requires notification to DPA within 72 hours of becoming aware
@@ -446,19 +350,7 @@ index=* host="[PATIENT_ZERO_HOSTNAME]" earliest=-24h
 
 ### Pitfall 1: Shared Admin Accounts
 
-❌ **BAD**
-```
-admin/P@ssw0rd123 — shared across 5 IT team members, no logging of who did what
-```
-
-✅ **GOOD**
-```powershell
-# Individual admin accounts + PAM for privileged access
-# Each admin has their own named account: john.admin@company.com
-# All privileged sessions recorded in CyberArk/BeyondTrust
-# Zero shared credentials anywhere in the environment
-Set-ADAccountPassword -Identity "john.admin" -Reset -NewPassword (Read-Host -AsSecureString)
-```
+→ Full PowerShell code: [references/pitfalls.md](references/pitfalls.md)
 
 **Why it matters:** Shared accounts make forensic attribution impossible during incidents; violates ISO 27001 A.9.2.3 and SOC 2 CC6.3.
 
@@ -466,19 +358,7 @@ Set-ADAccountPassword -Identity "john.admin" -Reset -NewPassword (Read-Host -AsS
 
 ### Pitfall 2: SIEM with No Tuning → Alert Fatigue
 
-❌ **BAD:** Enable all default Splunk ES correlation rules → 10,000+ alerts/day → analysts stop looking
-
-✅ **GOOD:**
-```splunk
-/* Start with 5 high-fidelity rules; tune before adding more */
-/* Example: Brute force rule with tuning */
-index=windows EventCode=4625
-| stats count by src_ip, dest_host, user
-| where count > 20  /* threshold: 20 failed logins */
-/* After 2 weeks: adjust threshold based on legitimate patterns */
-/* Whitelist known scanners, service accounts, and backup systems */
-| where NOT src_ip IN ("10.1.5.10", "192.168.1.100")  /* known legit */
-```
+→ Full Splunk rule examples: [references/pitfalls.md](references/pitfalls.md)
 
 **Why it matters:** SIEM value comes from analysts trusting and acting on alerts; a noisy SIEM is worse than no SIEM because it creates false confidence.
 
@@ -488,15 +368,7 @@ index=windows EventCode=4625
 
 ❌ **BAD:** "Allow any-any" rule added for troubleshooting in 2019 → never removed → still open in 2026
 
-✅ **GOOD:**
-```
-Quarterly firewall review process:
-1. Export all rules: show running-config | section access-list
-2. For each rule: identify owner, business justification, last-used date
-3. Mark rules with no traffic in 90 days for removal
-4. Remove or time-limit troubleshooting rules immediately after use
-5. Document every change with ticket number and approver
-```
+✅ **GOOD:** Implement quarterly firewall review process with traffic analysis, rule ownership, and time-limited exceptions.
 
 **Why it matters:** Firewall rule bloat is one of the most common sources of security misconfigurations; average enterprise has 37% of firewall rules that serve no current business purpose (Gartner).
 
@@ -506,14 +378,7 @@ Quarterly firewall review process:
 
 ❌ **BAD:** Running Nessus without credentials → sees only 15-30% of actual vulnerabilities
 
-✅ **GOOD:**
-```
-Tenable.io authenticated scan setup:
-1. Create dedicated scan account with local admin (Windows) or sudo (Linux)
-2. Scan account: read-only registry access + WMI + SSH (no interactive login)
-3. Verify: authenticated scan finds 3-5× more vulnerabilities than unauthenticated
-4. Rotate scan account password quarterly via PAM
-```
+✅ **GOOD:** Run authenticated scans with dedicated scan accounts; rotate passwords quarterly via PAM.
 
 **Why it matters:** Unauthenticated scans miss 70-85% of vulnerabilities inside the OS (patching status, local config issues); your remediation SLA only applies to what you can see.
 
@@ -521,23 +386,7 @@ Tenable.io authenticated scan setup:
 
 ### Pitfall 5: Incident Response Without Documented Playbooks
 
-❌ **BAD:** "Everyone knows what to do" → during a ransomware at 2am, nobody knows who to call, what to isolate, or where the backups are
-
-✅ **GOOD:**
-```markdown
-IR Playbook — Ransomware (excerpt)
-On-Call Contact: [Security Pager: +1-555-0100]
-CISO Escalation: [Name, Mobile]
-Backup Admin: [Name, Mobile]
-
-Step 1: Isolate (0-15 min)
-  → Block affected subnet at firewall [RUNBOOK LINK]
-  → Disable affected AD accounts [SCRIPT: IR-Scripts\disable-accounts.ps1]
-
-Step 2: Preserve Evidence (15-30 min)
-  → Run memory capture [TOOL: \\ir-tools\procdump64.exe]
-  → Export event logs [SCRIPT: IR-Scripts\collect-logs.ps1]
-```
+→ Full IR playbook template: [references/pitfalls.md](references/pitfalls.md)
 
 **Why it matters:** Average incident response time without playbooks is 3.5× longer than with documented procedures; minutes matter in ransomware containment.
 
@@ -547,16 +396,7 @@ Step 2: Preserve Evidence (15-30 min)
 
 ❌ **BAD:** "We have daily backups" → ransomware hits → attempt to restore → backup agent was broken for 3 months → no valid backups
 
-✅ **GOOD:**
-```
-Quarterly backup restore test procedure:
-1. Select random sample: 2 file servers, 1 database, 1 VM
-2. Restore to isolated test environment (never production)
-3. Verify: file integrity, database consistency, application startup
-4. Measure: actual RTO achieved vs RTO target
-5. Document: test date, result, any failures and remediation
-6. Offsite/offline backup: verify air-gap backup is not reachable from main network
-```
+✅ **GOOD:** Conduct quarterly restore tests on isolated systems; verify air-gap backup is unreachable from main network.
 
 **Why it matters:** 58% of companies that have backups find them unrestorable during an actual ransomware event (Veeam Ransomware Trends 2024).
 
@@ -644,16 +484,7 @@ Read https://theneoai.github.io/awesome-skills/skills/it-support/information-sec
 
 → See references/standards.md §7.10 for full checklist
 
-### Test Cases
-
-**Test 1:** "How do I implement MFA for all users in Microsoft 365?"
-- Expected: Entra ID Conditional Access policy configuration, authentication methods setup, exclusion groups for break-glass accounts, monitoring for MFA bypass attempts
-
-**Test 2:** "We had a phishing attack and 3 users clicked the link. What do I do?"
-- Expected: Immediate account password reset + session revocation, email header analysis, IOC extraction, email gateway block of phishing domain, user notification, check for OAuth app consent grants, document timeline
-
-**Test 3:** "How do I prepare for our first ISO 27001 audit?"
-- Expected: Gap assessment methodology, ISMS documentation requirements (Scope, Policy, Risk Register, SoA), evidence collection for key controls, internal audit process, management review, corrective action tracking
+→ Full test cases: [references/standards.md](references/standards.md)
 
 ---
 
@@ -661,10 +492,8 @@ Read https://theneoai.github.io/awesome-skills/skills/it-support/information-sec
 
 | Version | Date | Changes |
 |---------|------|---------|
-|---------|------|---------|
-| Version / 版本 | Date / 日期 | Changes
+| 3.0.0 | 2026-03-04 | Full rewrite with comprehensive content |
 ---
-
 ## § 16 · License & Author
 
 MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)

@@ -326,48 +326,7 @@ Target: menu open should cost **<2ms CPU, <3ms GPU incremental**. Re-profile aft
 
 WebXR + model-viewer is the right stack. Here's a production-ready implementation:
 
-```html
-
-<script type="module"
-  src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js">
-</script>
-
-<model-viewer
-  src="/models/sofa-compressed.glb"
-  ios-src="/models/sofa.usdz"
-  alt="Modern sofa in your living room"
-  ar
-  ar-modes="webxr scene-viewer quick-look"
-  ar-placement="floor"
-  camera-controls
-  touch-action="pan-y"
-  shadow-intensity="1.5"
-  environment-image="neutral"
-  poster="/images/sofa-poster.webp"
-  loading="lazy"
-  style="width: 100%; height: 500px;">
-
-  <button slot="ar-button" class="ar-button">
-    View in your room →
-  </button>
-</model-viewer>
-```
-
-**Asset optimization pipeline** (critical for mobile WebXR):
-```bash
-# Compress GLB with Draco geometry + KTX2 textures
-npx gltf-pipeline -i sofa-raw.glb -o sofa-compressed.glb \
-  --draco.compressionLevel 7 \
-  --draco.quantizePositionBits 14
-
-# Target file size: <5MB for furniture; <2MB for small items
-# Polygon budget: <50K triangles for mobile WebXR
-# Texture resolution: 1024×1024 (base), 2048×2048 (premium desktop AR)
-
-# Convert USDZ for iOS AR Quick Look
-xcrun usdz_converter sofa.obj sofa.usdz \
-  -textures sofa_textures/ -materialfile sofa.mtl
-```
+→ Full model-viewer HTML + bash asset pipeline: [references/code-block-2.md](references/code-block-2.md)
 
 **Browser compatibility (2026):**
 - Android Chrome 103+ → WebXR hit-test (floor detection) ✅
@@ -382,21 +341,7 @@ xcrun usdz_converter sofa.obj sofa.usdz \
 
 ### Pitfall 1: Static Batching Broken by Runtime Instantiation
 
-❌ **BAD**
-```csharp
-// Instantiate at runtime → Unity cannot static batch
-GameObject obj = Instantiate(prefab, position, rotation);
-obj.isStatic = true; // too late! Static flag ignored after runtime instantiation
-```
-
-✅ **GOOD**
-```csharp
-// Use GPU Instancing for repeated objects
-// Assign Material with GPU Instancing enabled
-// → 1 draw call for 1000 identical objects
-material.enableInstancing = true;
-Graphics.DrawMeshInstanced(mesh, 0, material, matrices);
-```
+→ Full GPU instancing code: [references/code-block-2.md](references/code-block-2.md)
 
 **Why it matters:** Each un-batched draw call on Quest 3 costs ~0.5ms GPU; 50 extra calls = 25ms overhead = drop from 90Hz to 40Hz.
 
@@ -404,19 +349,7 @@ Graphics.DrawMeshInstanced(mesh, 0, material, matrices);
 
 ### Pitfall 2: UI Depth Inside 1 Meter
 
-❌ **BAD**
-```swift
-// Placing UI 0.5m from camera — common mistake for "large" appearance
-entity.position = SIMD3(0, 0, -0.5)
-```
-
-✅ **GOOD**
-```swift
-// Minimum 1.2m; 2m ideal for sustained reading comfort
-entity.position = SIMD3(0, 0, -2.0)
-// Scale up instead of moving closer: text size should be ~1.2° visual angle minimum
-let scaledSize: Float = 2.0 * tan(1.2 * .pi / 180) // ~0.042m = 4.2cm text height at 2m
-```
+→ Full UI depth code: [references/code-block-2.md](references/code-block-2.md)
 
 **Why it matters:** Vergence-accommodation conflict at <1m causes eye strain within 5–10 minutes; users abandon the app, not the hardware.
 
@@ -424,26 +357,7 @@ let scaledSize: Float = 2.0 * tan(1.2 * .pi / 180) // ~0.042m = 4.2cm text heigh
 
 ### Pitfall 3: Not Handling Tracking Loss
 
-❌ **BAD**
-```swift
-// No tracking state check → AR content teleports on tracking loss
-session.run(configuration)
-// ... directly render without checking trackingState
-```
-
-✅ **GOOD**
-```swift
-func session(_ session: ARSession, cameraDidChangeTrackingState camera: ARCamera) {
-    switch camera.trackingState {
-    case .normal:
-        hideTrackingLostUI()
-    case .limited(let reason):
-        showTrackingLostUI(reason: "\(reason)") // tell user: move to brighter area
-    case .notAvailable:
-        pauseARContent() // don't render stale anchors
-    }
-}
-```
+→ Full AR tracking state handling code: [references/code-block-2.md](references/code-block-2.md)
 
 **Why it matters:** Un-handled tracking loss causes AR content to jump erratically — severe enough to cause motion sickness in VR contexts.
 
@@ -461,17 +375,7 @@ func session(_ session: ARSession, cameraDidChangeTrackingState camera: ARCamera
 
 ### Pitfall 5: Missing Comfort Vignette in Artificial Locomotion
 
-❌ **BAD:** Smooth joystick locomotion with full field of view → induces motion sickness in ~60% of users
-
-✅ **GOOD:**
-```csharp
-// Apply comfort vignette when moving
-void Update() {
-    float speed = locomotionProvider.currentMoveSpeed;
-    float vignetteStrength = Mathf.Lerp(0, 0.7f, speed
-    comfortVignette.SetStrength(vignetteStrength); // OVR Comfort Vignette component
-}
-```
+→ Full comfort vignette code: [references/code-block-2.md](references/code-block-2.md)
 
 **Why it matters:** Peripheral vision suppression during artificial movement reduces vestibular mismatch; reduces sickness reports by ~50% in studies.
 

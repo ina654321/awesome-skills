@@ -1,50 +1,43 @@
-# yaml Example
+# Filebeat Configuration
 
-```
+```yaml
 filebeat.inputs:
   - type: log
     enabled: true
     paths:
-      - /var/log/application/*.log
-      - /var/log/application/error/*.log
-    multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
-    multiline.negate: true
-    multiline.match: after
+      - /var/log/*.log
+      - /var/log/**/*.log
     json.keys_under_root: true
     json.add_error_key: true
     fields:
-      application: my-app
+      log_type: application
       environment: production
     fields_under_root: true
 
-  - type: container
-    paths:
-      - /var/log/containers/*.log
+  - type: docker
+    enabled: true
+    containers.ids:
+      - '*'
     processors:
-      - add_kubernetes_metadata:
-          host: ${NODE_NAME}
-          matchers:
-            - logs_path:
-                logs_path: "/var/log/containers/"
+      - add_docker_metadata:
+          host: "unix:///var/run/docker.sock"
 
 processors:
   - add_host_metadata:
       when.not.contains.tags: forwarded
   - add_cloud_metadata: ~
   - add_docker_metadata: ~
+  - add_kubernetes_metadata: ~
 
-output.elasticsearch:
-  hosts: ["https://es-hot-1:9200"]
-  username: "filebeat_writer"
-  password: "${FILEBEAT_PASSWORD}"
-  ssl.certificate_authorities: ["/etc/filebeat/ca.crt"]
-  index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"
+output.logstash:
+  hosts: ["logstash:5044"]
+  ssl.enabled: false
 
-setup.ilm.enabled: true
-setup.ilm.rollover_alias: "filebeat"
-setup.ilm.pattern: "{now/d}-000001"
-setup.ilm.policy_name: "filebeat-policy"
-
-setup.kibana:
-  host: "https://kibana:5601"
+logging.level: info
+logging.to_files: true
+logging.files:
+  path: /var/log/filebeat
+  name: filebeat
+  keepfiles: 7
+  permissions: 0644
 ```

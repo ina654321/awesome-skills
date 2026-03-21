@@ -373,175 +373,98 @@ forward from technology capability."
 ## § 9 · Gotchas & Anti-Patterns
 
 ### #EP1: Customer Obsession ≠ Customer Servitude
-
-❌ **Anti-Pattern**: Saying "yes" to every customer request without business viability analysis.
-
-✅ **Correct**: "We obsess over customers by deeply understanding their needs and inventing solutions that create long-term value for them and the business."
+❌ Saying "yes" to every request without business viability analysis.
+✅ "We obsess over customers by deeply understanding their needs and inventing solutions that create long-term value."
 
 ### #EP2: Ownership ≠ Unsustainable Work Hours
-
-❌ **Anti-Pattern**: Working 80-hour weeks to "own" everything, burning out.
-
-✅ **Correct**: "Ownership means acting on behalf of the entire company, not just your team, and prioritizing long-term value over short-term results. Sustainable high performance requires recovery."
+❌ Working 80-hour weeks to "own" everything, burning out.
+✅ "Ownership means acting on behalf of the entire company, prioritizing long-term value. Sustainable high performance requires recovery."
 
 ### #EP3: Bias for Action ≠ Recklessness
-
-❌ **Anti-Pattern**: Making irreversible decisions quickly without proper analysis.
-
-✅ **Correct**: "Speed matters, but know which decisions are one-way doors. For reversible decisions, 70% confidence is enough. For irreversible decisions, thorough analysis is required."
+❌ Making irreversible decisions quickly without proper analysis.
+✅ "Speed matters, but know which decisions are one-way doors. For reversible decisions, 70% confidence is enough."
 
 ### #EP4: Frugality ≠ Under-Investment
-
-❌ **Anti-Pattern**: Cutting corners on quality to save money.
-
-✅ **Correct**: "Accomplish more with less. Constraints breed resourcefulness and innovation. But don't compromise on customer experience or safety."
+❌ Cutting corners on quality to save money.
+✅ "Accomplish more with less. Constraints breed innovation. But don't compromise on customer experience."
 
 ### #EP5: Dive Deep ≠ Micromanagement
-
-❌ **Anti-Pattern**: Leaders intervening in every detail without trusting the team.
-
-✅ **Correct**: "Leaders operate at all levels and stay connected to details, but they also hire and develop the best, empowering them to own outcomes."
+❌ Leaders intervening in every detail without trusting the team.
+✅ "Leaders operate at all levels and stay connected, but empower the best to own outcomes."
 
 ### #EP6: Disagree and Commit ≠ Conflict Avoidance
-
-❌ **Anti-Pattern**: Never challenging decisions to avoid conflict.
-
-✅ **Correct**: "Respectfully challenge decisions when you disagree, even when uncomfortable. Once a decision is made, commit wholly."
+❌ Never challenging decisions to avoid conflict.
+✅ "Respectfully challenge decisions when you disagree. Once made, commit wholly."
 
 ### #EP7: Insist on Highest Standards ≠ Perfectionism
-
-❌ **Anti-Pattern**: Never shipping because it's "not perfect yet."
-
-✅ **Correct**: "Set high standards and continually raise the bar, but also deliver results. A shipped product that solves customer problems beats a perfect product that never ships."
+❌ Never shipping because it's "not perfect yet."
+✅ "Set high standards and raise the bar, but deliver results. A shipped product beats a perfect product that never ships."
 
 ### #EP8: 6-Page Memos ≠ Bureaucracy
-
-❌ **Anti-Pattern**: Writing 6-page memos for every trivial decision.
-
-✅ **Correct**: "Use 6-page narratives for complex decisions requiring deep analysis. Use shorter formats (2-pager, 1-pager) for routine decisions. Match the format to the complexity."
+❌ Writing 6-page memos for every trivial decision.
+✅ "Use 6-page narratives for complex decisions. Use shorter formats for routine decisions."
 
 ---
 
-## § 10 · Integration with Other Skills
+## § 10 · Integration
 
 | Skill | Integration Point | When to Use |
 |-------|-------------------|-------------|
-| **system-architect** | Design scalable systems using Amazon's "Invent and Simplify" | Architecture decisions |
-| **technical-writer** | Write effective 6-page narratives and PR/FAQs | Documentation and proposals |
-| **interview-prep** | Prepare for Amazon's behavioral interviews | Job seeking |
-| **product-manager** | Apply Working Backwards methodology | Product development |
-| **data-analyst** | Define and track input/output metrics | Metrics-driven development |
+| **system-architect** | Design scalable systems | Architecture decisions |
+| **technical-writer** | Write PR/FAQs | Documentation |
+| **product-manager** | Apply Working Backwards | Product development |
 
 ---
 
 ## § 11 · Scope & Limitations
 
-### What This Skill Covers
-- Amazon's 14 (16) Leadership Principles and their application
-- Working Backwards methodology (PR/FAQ)
-- 6-page narrative writing and meeting culture
-- Bar Raiser hiring process and interview preparation
-- Single-threaded leadership and two-pizza teams
-- One-way vs two-way door decision framework
-- Input/output metrics framework
+**Covers**: 14 Leadership Principles, Working Backwards, 6-page narratives, Bar Raiser hiring, decision frameworks.
 
-### What This Skill Does NOT Cover
-- AWS-specific technical implementation details
-- Internal Amazon tools and proprietary technologies
-- Specific team processes that vary across organizations
-- Compensation and benefits negotiation strategies
-- Internal politics and organizational dynamics (these vary)
-
-### Enterprise Context Requirements
-This skill is optimized for:
-- Technology companies with customer-facing products
-- Organizations that value written communication
-- Teams that can tolerate calculated risks
-- Environments where data-driven decisions are possible
-
-May require adaptation for:
-- Highly regulated industries with strict compliance requirements
-- Organizations with strong hierarchical decision-making
-- Teams without direct customer access
+**Does NOT Cover**: AWS-specific technical details, internal proprietary tools, compensation negotiation.
 
 ---
 
 ## § 12 · How to Use This Skill
 
 ### For Interview Preparation
-1. **Study the 14 LPs**: Understand each principle deeply
-2. **Create story inventory**: 2-3 STAR stories per principle
-3. **Practice STAR responses**: Focus on "I" not "we"
-4. **Prepare follow-ups**: Interviewers will drill deep; know your stories cold
-5. **Research the role**: Different levels emphasize different LPs
+1. Study the 14 LPs deeply
+2. Create 2-3 STAR stories per principle
+3. Practice STAR responses with "I" not "we"
+4. Prepare detailed follow-ups for each story
 
 ### For Daily Work
-1. **Start with customer**: Write a mini-PR before proposing solutions
-2. **Apply LPs to decisions**: "Which LPs apply here?"
-3. **Write narratives**: For complex decisions, use 6-page format
-4. **Focus on input metrics**: Define what you can control
-5. **Bias for action**: Identify two-way door decisions and move fast
+1. Start with customer — write a mini-PR before proposing
+2. Apply LPs to decisions
+3. Focus on input metrics
+4. Bias for action — identify two-way door decisions
 
 ### For Leadership
-1. **Model the LPs**: Teams emulate what leaders demonstrate
-2. **Hire bar raisers**: Never compromise on talent
-3. **Dive deep selectively**: Know when to be in details vs. empowering
-4. **Disagree and commit**: Create safe space for challenge, then alignment
+1. Model the LPs — teams emulate what leaders demonstrate
+2. Hire bar raisers — never compromise on talent
+3. Disagree and commit — create safe space for challenge
 
 ---
 
 ## § 13 · Quality Verification
 
-### Self-Assessment Checklist
-
-Before using outputs from this skill, verify:
-
-- [ ] **Customer focus**: Does this start with the customer and work backwards?
-- [ ] **Leadership Principle alignment**: Which LPs are demonstrated?
-- [ ] **Data-driven**: Are there metrics (inputs or outputs) to guide decisions?
-- [ ] **Action-oriented**: Is there a clear next step with owner and timeline?
-- [ ] **Frugality**: Is this the simplest solution that works?
-- [ ] **Long-term thinking**: Are we optimizing for 3-year value, not quarterly?
-
-### Validation Questions
-1. "Would a Bar Raiser see this as raising the bar?"
-2. "Can I explain the customer value in one sentence?"
-3. "Is this a one-way or two-way door decision?"
-4. "What are the input metrics we can control?"
-5. "How does this align with Amazon's mission?"
+Before using outputs, verify:
+- [ ] Customer focus: Does this start with the customer?
+- [ ] Leadership Principle alignment: Which LPs are demonstrated?
+- [ ] Data-driven: Are there metrics to guide decisions?
+- [ ] Action-oriented: Clear next step with owner and timeline?
+- [ ] Frugality: Is this the simplest solution that works?
 
 ---
 
 ## § 14 · Version History
 
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.1.0 | 2026-03-21 | Initial release — Amazon Engineer skill with 14 LPs, Working Backwards, 6-page memos | neo.ai |
-
-### Roadmap
-- **3.2.0**: Add AWS-specific technical decision frameworks
-- **3.3.0**: Expand interview question bank with answers
-- **3.4.0**: Add case studies from real Amazon projects
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.1.0 | 2026-03-21 | Initial release — Amazon Engineer skill |
 
 ---
 
 ## § 15 · License & Author
 
 **Author**: neo.ai (lucas_hsueh@hotmail.com)
-**License**: MIT — Free for personal and commercial use
-**Source**: [awesome-skills](https://github.com/lucaswhch/awesome-skills)
-
-### Contributing
-To suggest improvements or report issues:
-1. Open an issue in the GitHub repository
-2. Include specific examples of skill application
-3. Reference Leadership Principles where relevant
-
-### Acknowledgments
-- Amazon's 14 Leadership Principles and Working Backwards methodology
-- Colin Bryar and Bill Carr's "Working Backwards" book
-- Amazon's Day 1 culture and builder mentality
-
----
-
-**End of Skill Document**
+**License**: MIT — [awesome-skills](https://github.com/lucaswhch/awesome-skills)

@@ -414,11 +414,7 @@ json {
 > - Look for high latency in downstream services (database, payment gateway)
 >
 > **Step 3: Analyze database spans**
-> ```sql
-> -- In Trace Search, filter:
-> service:checkout-api AND resource:db.query AND duration:>100ms
-> -- Identify which queries are slow
-> ```
+> → SQL query example: [references/code-block-3.md](references/code-block-3.md)
 >
 > **Step 4: Check database host metrics**
 > - Infrastructure → Host Map → select database host
@@ -429,95 +425,21 @@ json {
 > - Look for database timeout errors or connection errors
 >
 > **Step 6: Create latency monitor**
-> ```
-> Query: avg:trace.checkout.duration{service:checkout-api}.as_count() by {resource}
-> Alert when: p99 > 1s for 5 minutes
-> ```
+> → Monitor configuration: [references/code-block-3.md](references/code-block-3.md)
 
 ### Example 2: Set Up SLO Alert for Payment Service
 
 **User:** "I need an SLO alert for our payment service: 99.5% success rate, alert if budget burns fast"
 
 **Datadog Expert:**
-> **Step-by-Step Configuration:**
->
-> **1. Define the SLO:**
-> ```
-> Setup → Services → Payment Service → SLOs → New SLO
-> Name: Payment Success Rate
-> Target: 99.5%
-> Window: 30-day rolling
-> Metric:
->   good: sum:trace.payment.request{status:200,service:payment-api}.as_count()
->   total: sum:trace.payment.request{service:payment-api}.as_count()
-> ```
->
-> **2. Create burn rate alerts:**
-> ```
-> Monitor → New Monitor → SLO Alert
-> SLO: Payment Success Rate
->
-> Alert thresholds:
->   Critical (1h window): burn_rate > 14.4  → Page immediately
->   Warning (6h window):  burn_rate > 6     → Slack alert
->   Warning (3d window):   burn_rate > 2      → Slack alert
-> ```
->
-> **3. Alert message template:**
-> ```
-> Payment SLO (99.5%) error budget at risk.
-> Burn rate: {{burnRate}}x over {{window}}
-> Remaining budget: {{budgetRemaining}}%
-> {{#is_alert}} Escalate to payment-team immediately. {{/is_alert}}
-> Runbook: https://wiki.example.com/payment-slo-runbook
-> ```
+> → SLO configuration, burn rate alerts, and message template: [references/code-block-3.md](references/code-block-3.md)
 
 ### Example 3: Create Production Log Pipeline
 
 **User:** "Our app logs are coming in as plain text. Help me set up parsing and filtering"
 
 **Datadog Expert:**
-> **Log Pipeline Configuration:**
->
-> **Step 1: Create Pipeline:**
-> ```
-> Logs → Pipelines → New Pipeline
-> Name: Application Logs - Production
-> Filter: service:our-app AND env:prod
-> ```
->
-> **Step 2: Add Grok Parser:**
-> ```
-> Processor: Grok Parser
-> Log Message: %{timestamp:timestamp} %{word:level} %{notSpace:logger} - %{data:message}
->
-> Advanced:
->   timestamp: parse date using format "yyyy-MM-dd HH:mm:ss.SSS"
-> ```
->
-> **Step 3: Add Category Processor:**
-> ```
-> Processor: Category Processor
-> Name: Log Level Normalization
-> Target: level
-> Mappings:
->   error, err, fatal, EXCEPTION → ERROR
->   warn, WARNING                → WARN
->   info, INFO                   → INFO
->   debug, DEBUG, TRACE          → DEBUG
-> ```
->
-> **Step 4: Add Exclusion Filter:**
-> ```
-> Filter: Exclude logs where:
->   level:DEBUG OR message matches /health.?check/i
-> ```
->
-> **Step 5: Add Remapper (for trace correlation):**
-> ```
-> Processor: Trace Remapper
-> Trace ID attribute: dd.trace_id
-> ```
+> → Full pipeline configuration: [references/code-block-3.md](references/code-block-3.md)
 
 ---
 
@@ -525,100 +447,20 @@ json {
 
 ### 11.1 Special Scenarios
 
-**1. High Cardinality from User Segments**
-- Problem: Tagging with `user_id` creates millions of unique values
-- Solution: Use `user_type` (premium/free) instead; hash user_id for debugging
-- Alternative: Use Log Management with stored search for user-level debugging
-
-**2. Multi-Cloud Monitoring Gaps**
-- Problem: Resources span AWS + GCP, metrics don't correlate
-- Solution: Use Datadog's cross-cloud resource correlation; tag resources consistently
-- Alternative: Create unified dashboard with template variable for cloud
-
-**3. Serverless (Lambda) APM**
-- Problem: Lambda cold starts and short durations hard to trace
-- Solution: Enable enhanced Lambda monitoring; use DD_TRACE_ENABLED=true
-- Alternative: Use Datadog's Lambda Extension layer for better data
-
-**4. Kubernetes Ephemeral Resources**
-- Problem: Pods constantly restarting, metrics have gaps
-- Solution: Use container-level metrics; filter by pod name pattern
-- Alternative: Use Datadog Operator for better Kubernetes integration
-
-**5. Log Volume Spike from Errors**
-- Problem: Error loops cause massive log volume spike
-- Solution: Add rate-limiting filter in pipeline; alert on volume anomaly
-- Alternative: Separate error logs into dedicated index with higher retention
-
-**6. APM Sampling Missing Rare Errors**
-- Problem: With 10% sampling, some rare errors never get traced
-- Solution: Use rare trace sampling for errors: `DD_APM_ERROR_TPS=1`
-- Alternative: Set `DD_TRACE_SAMPLE_RARE=true` in agent config
-
-**7. Synthetic Tests Passing but Real Users Failing**
-- Problem: Synthetic tests run from Datadog locations, not real user networks
-- Solution: Use Datadog Private Locations to test from internal networks
-- Alternative: Enable RUM (Real User Monitoring) to see real user data
-
-**8. Cross-Account AWS Monitoring**
-- Problem: Lambda/API Gateway in different AWS accounts
-- Solution: Use Datadog AWS Cross-Account Integration; IAM roles per account
-- Alternative: Use Datadog's AWS Lambda Tracer with cross-account IAM
+**1. High Cardinality from User Segments** — Use `user_type` instead of `user_id`; hash for debugging
+**2. Multi-Cloud Monitoring Gaps** — Tag resources consistently; use cross-cloud correlation
+**3. Serverless (Lambda) APM** — Enable enhanced Lambda monitoring; use `DD_TRACE_ENABLED=true`
+**4. Kubernetes Ephemeral Resources** — Use container-level metrics; filter by pod name pattern
+**5. Log Volume Spike from Errors** — Add rate-limiting filter in pipeline; alert on volume anomaly
+**6. APM Sampling Missing Rare Errors** — Set `DD_APM_ERROR_TPS=1` for rare trace sampling
+**7. Synthetic Tests Passing but Real Users Failing** — Use Private Locations or enable RUM
+**8. Cross-Account AWS Monitoring** — Use AWS Cross-Account Integration with IAM roles
 
 ---
 
-## § 12 · Related Skills
+## § 12 · Quick Reference
 
-| Combination | Workflow | Result |
-|-------------|----------|--------|
-| Datadog + **PagerDuty** | Alert → PagerDuty incident with Datadog link | Rich-context alerts |
-| Datadog + **Grafana** | Import Datadog metrics into Grafana dashboards | Unified visualization |
-| Datadog + **Prometheus** | Query Datadog metrics via Prometheus remote_read | Prometheus ecosystem |
-| Datadog + **Slack** | Alert → Slack channel with Datadog snapshot | Team notifications |
-| Datadog + **OpenTelemetry** | Export OTel traces to Datadog | Hybrid observability |
-| Datadog + **PagerDuty** | APM anomaly → PagerDuty escalation | Proactive alerting |
-
----
-
-## § 13 · Change Log
-
-### v3.0.0 (2026-03-20)
-- Full upgrade to comprehensive 9.5/10 standard
-- Complete rewrite with full System Prompt (role, decision framework, thinking patterns)
-- Added APM, Infrastructure, Logs, Synthetics, Security, and Network product coverage
-- Expanded Professional Toolkit with dashboards, monitors, pipelines, and test examples
-- Added SLO/SLI/SLA framework with burn rate alerting
-- Added troubleshooting workflow and 8+ edge case scenarios
-- Added 3 detailed example interactions
-
-### v1.0.0 (2024-01-01)
-- Initial basic skill creation
-
----
-
-## § 14 · Contributing
-
-Contributions to improve this skill are welcome. Please:
-1. Follow Datadog best practices and naming conventions
-2. Include cost optimization notes for custom metrics and logs
-3. Add working examples with proper metric/tag naming
-4. Test all queries in Datadog before contributing
-5. Reference official Datadog documentation for accuracy
-
----
-
-## § 15 · Final Notes
-
-Datadog provides unified observability across APM, infrastructure, logs, and security. Always correlate traces with metrics and logs before alerting, use consistent tagging conventions (`service`, `env`, `version`), and optimize for cost by filtering high-cardinality data. Define business SLOs first, then build monitors that protect those SLOs. Leverage Terraform for configuration-as-code to maintain consistent monitoring across environments.
-
----
-
-## § 16 · Install Guide
-
-**Quick Install:**
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/datadog-expert.md and install as skill
-```
+**Install:** `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/observability/datadog-expert.md and install as skill`
 
 **Trigger Words:** "Datadog", "APM", "监控", "性能监控", "分布式追踪", "日志分析", "SLO", "Synthetics"
 

@@ -189,9 +189,7 @@ mlflow.lightgbm.autolog()
 
 ### 7.2 Complete Training Script
 
-```python
-[Code block moved to code-block-1.md]
-```
+See [references/code-block-1.md](references/code-block-1.md)
 
 ### 7.3 Model Registry Workflow
 
@@ -295,99 +293,9 @@ Phase 2: Fix
 
 ## § 10 · Example Interactions
 
-### Example 1: PyTorch Training with MLflow
-
-**User:** "Track PyTorch training with MLflow"
-
-**MLflow Expert:**
-> **Complete tracking pipeline:**
->
-> ```python
-> import mlflow
-> import mlflow.pytorch
-> import torch
-> import torch.nn as nn
-> from torch.utils.data import DataLoader
->
-> mlflow.set_experiment("pytorch-image-classifier")
-> mlflow.pytorch.autolog()
->
-> class SimpleModel(nn.Module):
->     def __init__(self):
->         super().__init__()
->         self.net = nn.Sequential(
->             nn.Conv2d(3, 16, 3),
->             nn.ReLU(),
->             nn.AdaptiveAvgPool2d(1),
->             nn.Flatten(),
->             nn.Linear(16, 10)
->         )
->     def forward(self, x):
->         return self.net(x)
->
-> with mlflow.start_run(run_name="resnet_baseline"):
->     model = SimpleModel()
->     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
->     criterion = nn.CrossEntropyLoss()
->
->     # Log custom metrics
->     for epoch in range(10):
->         train_loss = train_epoch(model, train_loader, criterion, optimizer)
->         val_acc = evaluate(model, val_loader)
->
->         mlflow.log_metrics({
->             "epoch": epoch,
->             "train_loss": train_loss,
->             "val_accuracy": val_acc
->         }, step=epoch)
->
->     # Log model with custom signature
->     signature = mlflow.models.infer_signature(
->         X_train[:1].numpy(),
->         model(X_train[:1]).detach().numpy()
->     )
->     mlflow.pytorch.log_model(
->         model, "model",
->         signature=signature,
->         registered_model_name="image-classifier"
->     )
-> ```
-
-### Example 2: A/B Testing with MLflow Deployments
-
-**User:** "Set up A/B testing for model serving"
-
-**MLflow Expert:**
-> **A/B testing setup:**
->
-> ```python
-> from mlflow.deployments import DeploymentClient
->
-> # Create deployment client
-> client = DeploymentClient("http://localhost:5000")
->
-> # Deploy two model versions
-> client.create_deployment(
->     name="churn-ab",
->     flavor="python_function",
->     model_uri="models:/churn-rf/1",  # Version 1 (control)
->     config={"workers": 1}
-> )
->
-> # Split traffic: 80% control, 20% treatment
-> client.update_deployment(
->     name="churn-ab",
->     config={
->         "split": {
->             "weights": {"churn-rf:1": 0.8, "churn-rf:2": 0.2}
->         }
->     }
-> )
->
-> # Get traffic split results
-> status = client.get_deployment("churn-ab")
-> print(status["status"]["active_versions"])
-> ```
+See [references/09-scenarios.md](references/09-scenarios.md) for detailed examples:
+- PyTorch training with MLflow tracking
+- A/B testing with MLflow Deployments
 
 ---
 

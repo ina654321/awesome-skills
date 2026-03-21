@@ -257,62 +257,9 @@ FIND {Acme Corp} IN ALL FIELDS
 RETURNING Account(Id, Name, BillingCity), Contact(Id, Name, Email)
 ```
 
-### 6.2 Flow Builder Examples
+### 6.2-6.4 Flow, Apex, LWC Examples
 
-**Record-Triggered Flow — Auto-create Task on Opportunity Won:**
-```
-Trigger: Opportunity, When: Record is Updated
-Condition: IsClosed = true AND (IsWon = true AND PRIORVALUE(IsWon) = false)
-Actions:
-  1. Create Records → Task
-     - WhatId: {!$Record.Id}
-     - Subject: "Follow up with customer"
-     - OwnerId: {!$Record.OwnerId}
-     - ActivityDate: {!$Flow.CurrentDate} + 3
-  2. Send Custom Notification (optional)
-```
-
-**Screen Flow — Lead Qualification Wizard:**
-```
-Screen 1: Basic Info (Get Lead data)
-Screen 2: Qualification Questions (Choice components)
-Decision: Score >= 80?
-  → Yes: Update Lead.Status = 'Qualified', Create Task
-  → No: Update Lead.Status = 'Nurturing', Send Notification
-```
-
-### 6.3 Apex Trigger Handler Pattern
-
-```java
-[Code block moved to code-block-1.md]
-```
-
-### 6.4 LWC JavaScript Pattern
-
-```javascript
-import { LightningElement, wire, api } from 'lwc';
-import { getRecord, getFieldValue } from 'lightning/uiRecordApi';
-import ACCOUNT_NAME_FIELD from '@salesforce/schema/Opportunity.Account.Name';
-import STAGE_NAME_FIELD from '@salesforce/schema/Opportunity.StageName';
-
-export default class OpportunityCard extends LightningElement {
-    @api recordId;
-
-    @wire(getRecord, {
-        recordId: '$recordId',
-        fields: [ACCOUNT_NAME_FIELD, STAGE_NAME_FIELD]
-    })
-    opportunity;
-
-    get accountName() {
-        return getFieldValue(this.opportunity.data, ACCOUNT_NAME_FIELD);
-    }
-
-    get isClosedWon() {
-        return getFieldValue(this.opportunity.data, STAGE_NAME_FIELD) === 'Closed Won';
-    }
-}
-```
+→ See [references/code-block-2.md](references/code-block-2.md) for Flow Builder patterns, LWC JavaScript component, and Apex trigger handler examples.
 
 ### 6.5 Data Loader CLI
 
@@ -458,51 +405,14 @@ sf data import tree Account --files ./data/accounts.json
 >
 > 4. **Save and Activate**
 >
-> **Apex Equivalent (if Flow insufficient):**
-> ```java
-> trigger OpportunityTask on Opportunity (after update) {
->     List<Task> tasks = new List<Task>();
->     for (Opportunity opp : Trigger.new) {
->         Opportunity old = Trigger.oldMap.get(opp.Id);
->         if (opp.IsWon && !old.IsWon) {
->             tasks.add(new Task(
->                 WhatId = opp.Id,
->                 Subject = 'Follow up with customer',
->                 OwnerId = opp.OwnerId,
->                 ActivityDate = Date.today().addDays(3),
->                 Priority = 'High'
->             ));
->         }
->     }
->     insert tasks;
-> }
-> ```
+> **Apex Equivalent (if Flow insufficient):** → See [references/code-block-3.md](references/code-block-3.md)
 
 ### Example 2: Write SOQL Query for Opportunities with Related Data
 
 **User:** "Get all Opportunities in Closed Won stage from the last 30 days, including account name and open tasks"
 
 **Salesforce Expert:**
-> ```soql
-> SELECT
->     Id,
->     Name,
->     Amount,
->     CloseDate,
->     StageName,
->     Account.Id,
->     Account.Name,
->     Account.Industry,
->     Owner.Name,
->     (SELECT Id, Subject, Status, ActivityDate
->      FROM Tasks
->      WHERE Status != 'Completed')
-> FROM Opportunity
-> WHERE StageName = 'Closed Won'
->   AND CloseDate = LAST_N_DAYS:30
-> ORDER BY Amount DESC NULLS LAST
-> LIMIT 100
-> ```
+> → Full SOQL query example: [references/code-block-3.md](references/code-block-3.md)
 >
 > **Key Points:**
 > - Parent fields accessed via dot notation: `Account.Name`
@@ -515,55 +425,12 @@ sf data import tree Account --files ./data/accounts.json
 **User:** "Create a Lightning Web Component that shows an Opportunity's details and has a button to close it"
 
 **Salesforce Expert:**
-> **oppDetail.html:**
-> ```html
-> <template>
->     <lightning-card title="Opportunity Details">
->         <template if:true={opportunity.data}>
->             <div class="slds-p-around_medium">
->                 <p><strong>Name:</strong> {name}</p>
->                 <p><strong>Amount:</strong> <lightning-formatted-number value={amount} format-style="currency"></lightning-formatted-number></p>
->                 <p><strong>Stage:</strong> {stage}</p>
->                 <lightning-button label="Close Opportunity" onclick={closeOpportunity}></lightning-button>
->             </div>
->         </template>
->     </lightning-card>
-> </template>
-> ```
+> → Full LWC component code (oppDetail.html + oppDetail.js): [references/code-block-3.md](references/code-block-3.md)
 >
-> **oppDetail.js:**
-> ```javascript
-> import { LightningElement, api, wire } from 'lwc';
-> import { getRecord, updateRecord } from 'lightning/uiRecordApi';
-> import { ShowToastEvent } from 'lightning/platformShowToastEvent';
-> import OPP_NAME from '@salesforce/schema/Opportunity.Name';
-> import OPP_AMOUNT from '@salesforce/schema/Opportunity.Amount';
-> import OPP_STAGE from '@salesforce/schema/Opportunity.StageName';
-
-> export default class OppDetail extends LightningElement {
->     @api recordId;
-
->     @wire(getRecord, {
->         recordId: '$recordId',
->         fields: [OPP_NAME, OPP_AMOUNT, OPP_STAGE]
->     })
->     opportunity;
-
->     get name() { return this.opportunity.data?.Name; }
->     get amount() { return this.opportunity.data?.Amount; }
->     get stage() { return this.opportunity.data?.StageName; }
-
->     closeOpportunity() {
->         const fields = { Id: this.recordId, StageName: 'Closed Won' };
->         updateRecord({ fields })
->             .then(() => {
->                 this.dispatchEvent(new ShowToastEvent({
->                     title: 'Success', message: 'Opportunity closed', variant: 'success'
->                 }));
->             });
->     }
-> }
-> ```
+> **Key Points:**
+> - Use `lightning/uiRecordApi` `getRecord` wire adapter for declarative data fetching
+> - Use `updateRecord` for client-side record updates without DML
+> - `ShowToastEvent` for user-facing success/error notifications
 
 ---
 
@@ -577,17 +444,7 @@ sf data import tree Account --files ./data/accounts.json
 
 **2. Recursive Triggers**
 - Update trigger on Account causes other trigger on same object to fire
-- Solution: Use static Boolean flags in handler class
-```java
-public class AccountTriggerHandler {
-    private static boolean inProgress = false;
-    public static void handle() {
-        if (inProgress) return;
-        inProgress = true;
-        // trigger logic
-    }
-}
-```
+- Solution: Use static Boolean flags in handler class → [references/code-block-2.md](references/code-block-2.md)
 
 **3. Flow Bulkification with Loops**
 - Multiple records update Flow with many Get Records
@@ -627,45 +484,9 @@ public class AccountTriggerHandler {
 
 ---
 
-## § 13 · Change Log
+## § 13 · Quick Reference
 
-### v3.0.0 (2026-03-20)
-- Full upgrade to comprehensive 9.5/10 standard
-- Complete rewrite with full §1 System Prompt (role, decision framework, thinking patterns)
-- Expanded Professional Toolkit with SOQL, Flow, Apex, LWC, and Data Loader examples
-- Added comprehensive troubleshooting and edge cases sections
-- Added glossary with 20+ terms
-- Added 3 detailed example interactions
-
-### v1.0.0 (2024-01-01)
-- Initial basic skill creation
-
----
-
-## § 14 · Contributing
-
-Contributions to improve this skill are welcome. Please:
-1. Follow Salesforce best practices and governor limit awareness
-2. Include API version compatibility notes for features
-3. Add Apex code with proper bulkification patterns
-4. Test all Flow configurations in sandbox
-5. Reference official Salesforce documentation for accuracy
-6. Include Lightning Web Components examples where applicable
-
----
-
-## § 15 · Final Notes
-
-Salesforce is a powerful low-code platform with extensive declarative capabilities. Always prefer Flow over Apex, bulkify all Apex code, and stay current with Salesforce's three annual releases. Remember governor limits in every design decision, enforce CRUD/FLS in all Apex code, and test thoroughly in sandbox before any production deployment.
-
----
-
-## § 16 · Install Guide
-
-**Quick Install:**
-```
-Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/salesforce-expert.md and install as skill
-```
+**Install:** `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/salesforce-expert.md and install as skill`
 
 **Trigger Words:** "Salesforce", "CRM", "Flow", "Apex", "销售云", "Lightning", "LWC", "Sales Cloud", "Service Cloud", "SOQL"
 

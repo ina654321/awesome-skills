@@ -183,21 +183,15 @@ Before responding in Spark contexts, evaluate:
 
 ### 7.1 DataFrame Operations
 
-```python
-[Code block moved to code-block-1.md]
-```
+See [references/code-block-1.md](references/code-block-1.md)
 
 ### 7.2 Streaming with Watermark
 
-```python
-[Code block moved to code-block-2.md]
-```
+See [references/code-block-2.md](references/code-block-2.md)
 
 ### 7.3 Advanced SQL Patterns
 
-```python
-[Code block moved to code-block-3.md]
-```
+See [references/code-block-3.md](references/code-block-3.md)
 
 ---
 
@@ -250,113 +244,10 @@ Phase 2: Fix
 
 ## § 10 · Example Interactions
 
-### Example 1: Production ETL with Incremental Logic
-
-**User:** "Build a daily ETL pipeline that reads from Parquet, deduplicates, and writes to Delta Lake."
-
-**Spark Expert:**
-> **Framework:** Incremental ETL with deduplication and audit columns.
->
-> ```python
-> from delta.tables import DeltaTable
->
-> # Read incremental data
-> new_data = spark.read.parquet(f"s3://input/orders/{yesterday}/")
->
-> # Deduplicate (assumes order_id is unique key)
-> deduped = new_data.dropDuplicates(["order_id"])
->
-> # Add audit columns
-> enriched = deduped \
->     .withColumn("batch_date", lit(yesterday)) \
->     .withColumn("processed_at", current_timestamp())
->
-> # Upsert to Delta (incremental load)
-> delta_table = DeltaTable.forPath(spark, "s3://warehouse/orders/")
->
-> delta_table.alias("target").merge(
->     enriched.alias("source"),
->     "target.order_id = source.order_id"
-> ).whenMatchedUpdateAll().whenNotMatchedInsertAll().execute()
->
-> # Verify row count
-> print(f"Written {enriched.count()} orders to Delta")
-> ```
-
-### Example 2: PySpark ML Feature Engineering
-
-**User:** "How do I prepare features for an ML model using Spark ML?"
-
-**Spark Expert:**
-> **Framework:** Spark ML pipeline with VectorAssembler and standard scaling.
->
-> ```python
-> from pyspark.ml import Pipeline
-> from pyspark.ml.feature import VectorAssembler, StandardScaler, StringIndexer
->
-> # Categorical encoding
-> indexer = StringIndexer(
->     inputCol="category",
->     outputCol="category_index",
->     handleInvalid="keep"
-> )
->
-> # Feature assembly
-> assembler = VectorAssembler(
->     inputCols=["amount", "quantity", "category_index"],
->     outputCol="features_raw"
-> )
->
-> # Standard scaling
-> scaler = StandardScaler(
->     inputCol="features_raw",
->     outputCol="features",
->     withMean=True,
->     withStd=True
-> )
->
-> # Build and fit pipeline
-> pipeline = Pipeline(stages=[indexer, assembler, scaler])
-> model = pipeline.fit(df)
-> result = model.transform(df)
->
-> result.select("features", "label").show()
-> ```
-
-### Example 3: Debugging Slow Query
-
-**User:** "My Spark job is taking 2 hours when it should take 20 minutes. How do I debug it?"
-
-**Spark Expert:**
-> **Framework:** Spark UI analysis + query plan inspection.
->
-> ```python
-> # Step 1: Check execution plan
-> df.explain(True)  # Detailed plan
->
-> # Step 2: Enable broadcast debugging
-> spark.conf.set("spark.sql.autoBroadcastJoinThreshold", "50MB")
->
-> # Step 3: Check for skew in joins
-> df.filter(col("amount") > 1000000).groupBy("customer_id").count().show()
->
-> # Step 4: Common fixes based on findings:
->
-> # Fix 1: Increase shuffle partitions (if many small partitions)
-> spark.conf.set("spark.sql.shuffle.partitions", 400)
->
-> # Fix 2: Enable AQE (if Spark 3.0+)
-> spark.conf.set("spark.sql.adaptive.enabled", True)
-> spark.conf.set("spark.sql.adaptive.coalescePartitions.enabled", True)
->
-> # Fix 3: Broadcast small table
-> result = large_df.join(broadcast(small_df), "key")
->
-> # Fix 4: Repartition before join to avoid skew
-> df1 = skewed_df.withColumn("salt", (rand() * 10).cast("int")) \
->     .withColumn("key_salted", concat(col("key"), lit("-"), col("salt")))
-> df2 = dim_df.withColumn("key_salted", col("key"))  # Repeat 10 times
-> ```
+See [references/09-scenarios.md](references/09-scenarios.md) for detailed examples:
+- Production ETL with Delta Lake upsert
+- PySpark ML feature engineering pipeline
+- Slow query debugging with Spark UI
 
 ---
 

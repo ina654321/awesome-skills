@@ -179,66 +179,15 @@ Before responding in Kafka contexts, evaluate:
 
 ### 7.1 Producer Config (Python)
 
-```python
-[Code block moved to code-block-1.md]
-```
+→ See [references/code-block-1.md](references/code-block-1.md)
 
 ### 7.2 Consumer Config (Python)
 
-```python
-from confluent_kafka import Consumer, KafkaError
-
-consumer = Consumer({
-    'bootstrap.servers': 'kafka-1:9092,kafka-2:9092',
-    'group.id': 'order-processor-v2',  # Consumer group
-    'auto.offset.reset': 'earliest',  # Start from beginning if no committed offset
-    'enable.auto.commit': False,  # Manual commit for exactly-once
-    'max.poll.interval.ms': 300000,  # 5 minutes for long processing
-    'session.timeout.ms': 30000,
-    'isolation.level': 'read_committed',  # Skip aborted transactions
-})
-
-consumer.subscribe(['orders.events'])
-
-while True:
-    msg = consumer.poll(timeout=1.0)
-    if msg is None:
-        continue
-    if msg.error():
-        if msg.error().code() == KafkaError._PARTITION_EOF:
-            continue
-        else:
-            raise KafkaException(msg.error())
-
-    # Process message
-    process(msg.value())
-
-    # Commit offset after successful processing
-    consumer.commit(msg)
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 ### 7.3 Schema Registry (Avro)
 
-```python
-from confluent.kafka import Producer
-from confluent.kafka.schema_registry import SchemaRegistryClient
-from confluent.kafka.schema_registry.avro import AvroSerializer
-
-schema_registry_client = SchemaRegistryClient({'url': 'http://schema-registry:8081'})
-avro_serializer = AvroSerializer(schema_str=order_schema, schema_registry_client=schema_registry_client)
-
-producer = Producer({
-    'bootstrap.servers': 'kafka:9092',
-    'value.serializer': avro_serializer,
-    'key.serializer': 'org.apache.kafka.common.serialization.StringSerializer',
-})
-
-producer.produce(
-    topic='orders.avro',
-    key='user-123',
-    value={'order_id': 1, 'total': 99.99, 'items': [{'sku': 'A1', 'qty': 2}]},
-)
-```
+→ See [references/code-block-3.md](references/code-block-3.md)
 
 ---
 
@@ -372,27 +321,7 @@ kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic test --from-begi
 **Kafka Expert:**
 > **Framework:** Kafka Streams with tumbling window aggregation.
 >
-> ```java
-> import org.apache.kafka.streams.*;
-> import org.apache.kafka.streams.kstream.*;
->
-> StreamsBuilder builder = new StreamsBuilder();
->
-> KStream<String, Order> orders = builder.stream("ecommerce.orders.created");
->
-> orders
->     .groupByKey()
->     .windowedBy(TimeWindows.ofSizeWithNoGrace(Duration.ofMinutes(1)))
->     .count(Materialized.as("order-count-per-minute"))
->     .toStream()
->     .foreach((key, count) -> {
->         System.out.printf("Window %s: %d orders%n", key, count);
->         // Publish to dashboard topic or expose via REST
->     });
->
-> KafkaStreams streams = new KafkaStreams(builder.build(), config);
-> streams.start();
-> ```
+> → See [references/code-block-4.md](references/code-block-4.md)
 
 ---
 

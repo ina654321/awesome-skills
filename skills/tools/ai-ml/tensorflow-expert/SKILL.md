@@ -177,80 +177,15 @@ Before responding in TensorFlow contexts, evaluate:
 
 ### 7.1 tf.data Pipeline
 
-```python
-# Efficient data pipeline
-train_ds = tf.data.Dataset.from_tensor_slices((X_train, y_train))
-train_ds = (
-    train_ds
-    .shuffle(buffer_size=10000)
-    .batch(batch_size=32)
-    .prefetch(tf.data.AUTOTUNE)
-    .map(lambda x, y: (tf.cast(x, tf.float32), y), num_parallel_calls=tf.data.AUTOTUNE)
-    .cache()
-)
-
-# For large files
-test_ds = tf.data.Dataset.load_from_directory(
-    "gs://bucket/dataset/",
-    labels="inferred",
-    image_size=(224, 224),
-    batch_size=32
-)
-```
+→ See [references/code-block-1.md](references/code-block-1.md)
 
 ### 7.2 Functional API with Multi-Input
 
-```python
-# Multi-input model
-text_input = tf.keras.Input(shape=(max_len,), dtype=tf.int32, name="text")
-embedding = tf.keras.layers.Embedding(vocab_size, 128)(text_input)
-lstm_out = tf.keras.layers.Bidirectional(
-    tf.keras.layers.LSTM(64)
-)(embedding)
-
-metadata_input = tf.keras.Input(shape=(num_metadata_features,), name="metadata")
-dense_meta = tf.keras.layers.Dense(32, activation="relu")(metadata_input)
-
-concat = tf.keras.layers.Concatenate()([lstm_out, dense_meta])
-output = tf.keras.layers.Dense(1, activation="sigmoid")(concat)
-
-model = tf.keras.Model(
-    inputs=[text_input, metadata_input],
-    outputs=output,
-    name="multi_input_classifier"
-)
-
-model.compile(
-    optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3),
-    loss="binary_crossentropy",
-    metrics=["AUC", "Precision", "Recall"]
-)
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 ### 7.3 Custom Training Loop
 
-```python
-@tf.function
-def train_step(x, y):
-    with tf.GradientTape() as tape:
-        predictions = model(x, training=True)
-        loss = loss_fn(y, predictions)
-
-    gradients = tape.gradient(loss, model.trainable_variables)
-    optimizer.apply_gradients(zip(gradients, model.trainable_variables))
-    return loss
-
-# Training loop
-for epoch in range(num_epochs):
-    epoch_loss_avg = tf.keras.metrics.Mean()
-    for x, y in train_ds:
-        loss = train_step(x, y)
-        epoch_loss_avg.update_state(loss)
-
-    # Validation
-    val_results = model.evaluate(val_ds, return_dict=True)
-    print(f"Epoch {epoch}: loss={epoch_loss_avg.result():.4f}, val_acc={val_results['accuracy']:.4f}")
-```
+→ See [references/code-block-3.md](references/code-block-3.md)
 
 ---
 
@@ -306,48 +241,7 @@ Phase 2: Fix
 **TensorFlow Expert:**
 > **Complete pipeline:**
 >
-> ```python
-> # Data pipeline
-> train_ds = tf.keras.utils.image_dataset_from_directory(
->     "train/", image_size=(224, 224), batch_size=32
-> ).prefetch(tf.data.AUTOTUNE)
->
-> # Load pretrained model
-> base_model = tf.keras.applications.ResNet50(
->     include_top=False, weights="imagenet", input_shape=(224, 224, 3)
-> )
-> base_model.trainable = False  # Freeze base
->
-> # Build model
-> model = tf.keras.Sequential([
->     tf.keras.layers.Rescaling(1./255),
->     base_model,
->     tf.keras.layers.GlobalAveragePooling2D(),
->     tf.keras.layers.Dropout(0.3),
->     tf.keras.layers.Dense(num_classes, activation="softmax")
-> ])
->
-> model.compile(
->     optimizer=tf.keras.optimizers.Adam(1e-3),
->     loss="sparse_categorical_crossentropy",
->     metrics=["accuracy"]
-> )
->
-> # Train frozen
-> model.fit(train_ds, epochs=10, validation_data=val_ds)
->
-> # Fine-tune last blocks
-> base_model.trainable = True
-> for layer in base_model.layers[:-20]:
->     layer.trainable = False
->
-> model.compile(
->     optimizer=tf.keras.optimizers.Adam(1e-5),
->     loss="sparse_categorical_crossentropy",
->     metrics=["accuracy"]
-> )
-> model.fit(train_ds, epochs=10, validation_data=val_ds)
-> ```
+> → See [references/code-block-4.md](references/code-block-4.md)
 >
 > **Next I need:** Number of classes and dataset size.
 
@@ -358,22 +252,7 @@ Phase 2: Fix
 **TensorFlow Expert:**
 > **Export for TF Serving:**
 >
-> ```python
-> # Export SavedModel with signature
-> @tf.function(input_signature=[tf.TensorSpec(shape=[None, 224, 224, 3], dtype=tf.float32)])
-> def serve_fn(image):
->     return model(image)
->
-> signatures = {"serving_default": serve_fn.get_concrete_function()}
-> model.save("gs://bucket/model/1", signatures=signatures)
->
-> # Docker serving
-> # docker run -p 8501:8501 --mount src=gs://bucket/model,target=/models/mymodel \
-> #   -e MODEL_NAME=mymodel tensorflow/serving
->
-> # REST inference
-> # curl -X POST -d @instances.json http://localhost:8501/v1/models/mymodel:predict
-> ```
+> → See [references/code-block-5.md](references/code-block-5.md)
 >
 > **Expected latency:** ~10-50ms per image on T4 GPU.
 

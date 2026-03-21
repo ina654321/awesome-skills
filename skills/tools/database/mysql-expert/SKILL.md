@@ -49,9 +49,7 @@ Before designing MySQL solutions:
 
 ### 1.3 InnoDB Deep Dive
 
-```
-[Code block moved to code-block-1.md]
-```
+See [references/code-block-1.md](references/code-block-1.md)
 
 ---
 
@@ -78,17 +76,13 @@ Before designing MySQL solutions:
 
 ## § 4 · Core Philosophy
 
+See [references/code-block-1.md](references/code-block-1.md) for index patterns.
+
 ### 4.1 Index Type Selection
 
-```
-[Code block moved to code-block-1.md]
-```
+See [references/code-block-2.md](references/code-block-2.md) for data type guidelines.
 
 ### 4.2 Data Type Selection
-
-```
-[Code block moved to code-block-2.md]
-```
 
 ---
 
@@ -168,15 +162,11 @@ ORDER BY o.created_at DESC;
 
 ### 7.3 Replication Configuration
 
-```sql
-[Code block moved to code-block-3.md]
-```
+See [references/code-block-3.md](references/code-block-3.md)
 
 ### 7.4 Performance Tuning
 
-```sql
-[Code block moved to code-block-2.md]
-```
+See [references/code-block-3.md](references/code-block-3.md)
 
 ---
 
@@ -213,138 +203,10 @@ Phase 4: Production Preparation
 
 ## § 9 · Scenario Examples
 
-### 9.1 E-commerce Schema
-
-**User:** "Design MySQL schema for e-commerce"
-
-**MySQL Expert:**
-> **Core Tables:**
->
-> ```sql
-> CREATE TABLE customers (
->     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
->     email VARCHAR(255) NOT NULL UNIQUE,
->     password_hash VARCHAR(255) NOT NULL,
->     first_name VARCHAR(100),
->     last_name VARCHAR(100),
->     phone VARCHAR(20),
->     is_vip BOOLEAN DEFAULT FALSE,
->     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
->     INDEX idx_email (email),
->     INDEX idx_vip_created (is_vip, created_at)
-> ) ENGINE=InnoDB;
->
-> CREATE TABLE products (
->     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
->     sku VARCHAR(50) NOT NULL UNIQUE,
->     name VARCHAR(255) NOT NULL,
->     description TEXT,
->     price DECIMAL(10,2) NOT NULL,
->     stock_quantity INT UNSIGNED DEFAULT 0,
->     category_id INT UNSIGNED,
->     is_active BOOLEAN DEFAULT TRUE,
->     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
->     INDEX idx_category (category_id),
->     INDEX idx_sku (sku),
->     INDEX idx_active_price (is_active, price),
->     FULLTEXT INDEX idx_search (name, description)
-> ) ENGINE=InnoDB;
->
-> CREATE TABLE orders (
->     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
->     order_number VARCHAR(20) NOT NULL UNIQUE,
->     customer_id BIGINT UNSIGNED NOT NULL,
->     status ENUM('pending','paid','shipped','delivered','cancelled') DEFAULT 'pending',
->     total_amount DECIMAL(10,2) NOT NULL,
->     shipping_address JSON,
->     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
->     INDEX idx_customer (customer_id),
->     INDEX idx_status_created (status, created_at),
->     INDEX idx_created (created_at)
-> ) ENGINE=InnoDB;
->
-> CREATE TABLE order_items (
->     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
->     order_id BIGINT UNSIGNED NOT NULL,
->     product_id BIGINT UNSIGNED NOT NULL,
->     quantity TINYINT UNSIGNED NOT NULL,
->     unit_price DECIMAL(10,2) NOT NULL,
->     INDEX idx_order (order_id),
->     INDEX idx_product (product_id),
->     FOREIGN KEY (order_id) REFERENCES orders(id),
->     FOREIGN KEY (product_id) REFERENCES products(id)
-> ) ENGINE=InnoDB;
-> ```
->
-> **Sales Report Query:**
->
-> ```sql
-> SELECT
->     DATE(o.created_at) as sale_date,
->     COUNT(DISTINCT o.id) as order_count,
->     SUM(oi.quantity) as items_sold,
->     SUM(oi.quantity * oi.unit_price) as revenue
-> FROM orders o
-> INNER JOIN order_items oi ON o.id = oi.order_id
-> WHERE o.status IN ('paid', 'shipped', 'delivered')
->   AND o.created_at >= DATE_SUB(CURDATE(), INTERVAL 30 DAY)
-> GROUP BY DATE(o.created_at)
-> ORDER BY sale_date DESC;
-> ```
-
-### 9.2 Query Optimization
-
-**User:** "Optimize slow query on orders"
-
-**MySQL Expert:**
-> **Original Query:**
->
-> ```sql
-> SELECT * FROM orders
-> WHERE YEAR(created_at) = 2024
->   AND MONTH(created_at) = 1;
-> ```
->
-> **Problem:** Forces full table scan (no index on function)
->
-> **Solution:**
->
-> ```sql
-> -- Use range condition
-> SELECT * FROM orders
-> WHERE created_at >= '2024-01-01'
->   AND created_at < '2024-02-01';
->
-> -- Verify with EXPLAIN
-> EXPLAIN SELECT * FROM orders
-> WHERE created_at >= '2024-01-01'
->   AND created_at < '2024-02-01';
->
-> -- Ensure index exists
-> CREATE INDEX idx_created_at ON orders(created_at);
-> ```
-
-### 9.3 Read Replica Setup
-
-**User:** "Set up read replicas for reporting"
-
-**MySQL Expert:**
-> **Architecture:**
->
-> ```sql
-> -- Primary: writes + OLTP
-> -- Replica 1: reports + dashboards
-> -- Replica 2: backups + analytics
->
-> -- On replica, run long-running queries without affecting primary
-> SET SESSION replica_skip_errors = 1062;
-> SET GLOBAL read_only = ON;
-> SET GLOBAL super_read_only = ON;
->
-> -- Application connection routing
-> -- Use read replica for SELECT queries
-> -- Use primary for INSERT/UPDATE/DELETE
-> ```
+See [references/09-scenarios.md](references/09-scenarios.md) for detailed examples:
+- E-commerce schema design with customers, products, orders
+- Query optimization patterns
+- Read replica configuration
 
 ---
 

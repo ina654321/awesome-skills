@@ -162,119 +162,19 @@ Before responding in PyTorch contexts, evaluate:
 
 ### 7.1 Modern Training Loop (AMP + GradScaler)
 
-```python
-import torch
-import torch.nn as nn
-from torch.cuda.amp import autocast, GradScaler
-
-model = MyModel().cuda()
-optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3)
-criterion = nn.CrossEntropyLoss()
-scaler = GradScaler()
-
-for epoch in range(num_epochs):
-    for batch in train_loader:
-        optimizer.zero_grad(set_to_none=True)
-
-        with autocast(device_type='cuda', dtype=torch.bfloat16):
-            outputs = model(batch["inputs"])
-            loss = criterion(outputs, batch["labels"])
-
-        scaler.scale(loss).backward()
-
-        scaler.unscale_(optimizer)
-        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-
-        scaler.step(optimizer)
-        scaler.update()
-```
+→ See [references/code-block-1.md](references/code-block-1.md)
 
 ### 7.2 Distributed Training (DDP)
 
-```python
-import torch.distributed as dist
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.utils.data import DistributedSampler
-
-# Setup (use torchrun for launching)
-# torchrun --standalone --nnodes=1 --nproc_per_node=4 train.py
-
-def setup():
-    dist.init_process_group("nccl")
-    torch.cuda.set_device(int(os.environ["LOCAL_RANK"]))
-
-def cleanup():
-    dist.destroy_process_group()
-
-setup()
-rank = dist.get_rank()
-local_rank = int(os.environ["LOCAL_RANK"])
-
-model = MyModel().cuda(local_rank)
-model = DDP(model, device_ids=[local_rank])
-
-sampler = DistributedSampler(dataset, num_replicas=dist.get_world_size(), rank=rank)
-train_loader = DataLoader(dataset, batch_size=batch_size, sampler=sampler)
-
-# Training loop
-model.train()
-for batch in train_loader:
-    outputs = model(batch.cuda())
-    loss = criterion(outputs, batch["labels"].cuda())
-    loss.backward()
-    optimizer.step()
-
-cleanup()
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 ### 7.3 FSDP for Large Models
 
-```python
-from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
-from torch.distributed.fsdp import ShardingStrategy, MixedPrecision
-from torch.distributed.fsdp.wrap import transformer_auto_wrap_policy
-
-# Mixed precision for FSDP
-bf16 = torch.bfloat16
-mixed_precision = MixedPrecision(param_dtype=bf16, reduce_dtype=bf16, buffer_dtype=bf16)
-
-model = MyLargeModel()
-fsdp_model = FSDP(
-    model,
-    sharding_strategy=ShardingStrategy.FULL_SHARD,
-    mixed_precision=mixed_precision,
-    auto_wrap_policy=transformer_auto_wrap_policy,
-    device_id=torch.cuda.current_device(),
-)
-
-# Training
-for batch in dataloader:
-    with FSDP.autocast():
-        outputs = fsdp_model(batch)
-        loss = criterion(outputs, labels)
-
-    fsdp_model.backward(loss)
-    fsdp_model.step()
-```
+→ See [references/code-block-3.md](references/code-block-3.md)
 
 ### 7.4 torch.compile
 
-```python
-# Compile model for faster inference
-model = MyModel().cuda()
-model = torch.compile(model, mode="reduce-overhead")  # or "max-autotune"
-
-# For training (experimental in PyTorch 2.x)
-model = torch.compile(model, mode="default")
-
-# Inspect compiled graph
-@torch.compile(dynamic=True)
-def fn(x):
-    return model(x)
-
-# Check if compiled
-print(torch._dynamo.config.guard_n_modules)  # > 0 means compiled
-```
+→ See [references/code-block-4.md](references/code-block-4.md)
 
 ---
 
@@ -329,45 +229,7 @@ Phase 2: Fix
 **PyTorch Expert:**
 > **Complete training pipeline:**
 >
-> ```python
-> import torch
-> import torch.nn as nn
-> import torchvision.models as models
-> from torch.utils.data import DataLoader
-> from torch.cuda.amp import autocast, GradScaler
->
-> # Model setup
-> model = models.efficientnet_b0(weights=models.EfficientNet_B0_Weights.IMAGENET1K_V1)
-> model.classifier[-1] = nn.Linear(model.classifier[-1].in_features, num_classes)
-> model = model.cuda()
->
-> # Mixed precision + gradient clipping
-> scaler = GradScaler()
-> optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=0.01)
-> scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=30)
->
-> for epoch in range(30):
->     model.train()
->     for batch in train_loader:
->         optimizer.zero_grad(set_to_none=True)
->
->         with autocast(device_type='cuda'):
->             outputs = model(batch["image"].cuda())
->             loss = nn.CrossEntropyLoss()(outputs, batch["label"].cuda())
->
->         scaler.scale(loss).backward()
->         scaler.unscale_(optimizer)
->         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
->         scaler.step(optimizer)
->         scaler.update()
->
->     scheduler.step()
->
->     # Validation
->     model.eval()
->     correct = sum((model(batch["image"].cuda()).argmax(1) == batch["label"].cuda()).sum()
->     print(f"Epoch {epoch}: acc={correct/len(val_set):.4f}")
-> ```
+> → See [references/code-block-5.md](references/code-block-5.md)
 
 ### Example 2: Export to ONNX
 
@@ -376,39 +238,7 @@ Phase 2: Fix
 **PyTorch Expert:**
 > **ONNX export:**
 >
-> ```python
-> import torch.onnx
->
-> model = MyModel().eval()
->
-> # Create dummy input matching expected shape
-> dummy_input = torch.randn(1, 3, 224, 224)
->
-> # Export
-> torch.onnx.export(
->     model,
->     dummy_input,
->     "model.onnx",
->     export_params=True,
->     opset_version=17,
->     input_names=["input"],
->     output_names=["output"],
->     dynamic_axes={
->         "input": {0: "batch_size"},
->         "output": {0: "batch_size"}
->     }
-> )
->
-> # Verify
-> import onnx
-> onnx_model = onnx.load("model.onnx")
-> onnx.checker.check_model(onnx_model)
->
-> # Runtime inference
-> import onnxruntime as ort
-> session = ort.InferenceSession("model.onnx")
-> result = session.run(None, {"input": dummy_input.numpy()})
-> ```
+> → See [references/code-block-6.md](references/code-block-6.md)
 
 ---
 

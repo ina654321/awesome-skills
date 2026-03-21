@@ -194,29 +194,7 @@ Read https://theneoai.github.io/awesome-skills/skills/it-support/it-support-spec
 
 ### Network Diagnostic Command Reference
 
-```bash
-# Connectivity test (Windows)
-ping -n 20 8.8.8.8                     # packet loss, latency baseline
-tracert corporate-server.domain.com     # hop-by-hop routing
-nslookup internal-app.domain.com        # DNS resolution check
-ipconfig /all                           # adapter config, DHCP lease
-netstat -an | findstr :443              # active HTTPS connections
-Test-NetConnection -ComputerName host -Port 443  # PowerShell port test
-
-# Connectivity test (macOS/Linux)
-ping -c 20 8.8.8.8
-traceroute internal-app.domain.com
-dig internal-app.domain.com
-ip addr show
-curl -vI https://internal-app.domain.com 2>&1 | head -30
-
-# Active Directory (PowerShell)
-Get-ADUser -Identity jsmith -Properties *           # full user detail
-Search-ADAccount -LockedOut | Select Name,SamAccountName  # all locked accounts
-Unlock-ADAccount -Identity jsmith                   # unlock account
-Set-ADAccountPassword -Identity jsmith -Reset       # force password reset
-Get-ADGroupMember -Identity "VPN-Users" -Recursive  # group membership
-```
+→ Bash/PowerShell command reference: [references/code-block-2.md](references/code-block-2.md)
 
 ---
 
@@ -233,17 +211,7 @@ Get-ADGroupMember -Identity "VPN-Users" -Recursive  # group membership
 | 5 | Check Known Error Database and KB | KB match found → apply and cite article; no match → proceed to diagnosis | [✗ FAIL] — Spend 45 min diagnosing a known issue with a documented fix |
 
 **Intake Template (copy into ticket):**
-```
-USER:        [Name
-DEVICE:      [Hostname / Asset Tag
-OS:          [Windows 11 22H2 / macOS 14.3
-LOCATION:    [Office / Remote / VPN: Yes/No]
-ERROR:       [Exact error message or screenshot reference]
-REPRODUCED:  [Yes / No
-STARTED:     [Date/time
-IMPACT:      [User only / Team of X / Department
-PRIORITY:    [P1 / P2 / P3
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 ### Phase 2: Diagnosis and Resolution
 
@@ -266,17 +234,7 @@ PRIORITY:    [P1 / P2 / P3
 | 5 | Close ticket with correct resolution category | Category matches actual fix type; enables trend reporting | [✗ FAIL] — "Other" as resolution category on every ticket |
 
 **Resolution Note Template:**
-```
-RESOLUTION DATE:  [YYYY-MM-DD HH:MM]
-TECHNICIAN:       [Name
-ROOT CAUSE:       [Brief cause description]
-FIX APPLIED:      [Exact steps / commands
-WORKAROUND:       [If temp fix, describe; permanent fix ETA: ...]
-USER CONFIRMED:   [Yes
-KB REFERENCE:     [KB-XXXX or "New KB drafted: [title]"]
-PROBLEM RECORD:   [PRB-XXXX or N/A]
-TIME SPENT:       [HH:MM]
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 ---
 
@@ -343,30 +301,7 @@ TIME SPENT:       [HH:MM]
 *[Risk check: Data loss risk identified. Backup before repair — non-negotiable.]*
 
 **Diagnostic sequence:**
-
-```
-Step 1 — Power on test:
-  → Press power: No LEDs, no fan spin → likely power delivery issue
-  → Remove battery (if removable), plug in AC only → still no response
-  → Try known-good AC adapter → still no response
-  → Conclusion: Possible dead battery AND/OR failed DC jack AND/OR motherboard
-
-Step 2 — External display test (if internal display suspected):
-  → Connect HDMI to external monitor → no signal
-  → Rules out isolated display failure
-
-Step 3 — Remove and reseat RAM:
-  → Remove each DIMM, clean contacts, reseat
-  → Power on → still no POST beep, no display
-  → Rules out loose RAM as sole cause
-
-Step 4 — Storage preservation (PRIORITY):
-  → Remove NVMe/SATA SSD from failed laptop
-  → Insert into USB-to-NVMe enclosure (stock item: IT-ENCL-01)
-  → Connect to a working loaner laptop
-  → Drive appears as external drive: YES → data accessible
-  → Copy project folder to user's OneDrive → verified copy complete
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 **Technician:** Your files are now safely copied to your OneDrive — I've confirmed 23 files transferred successfully. You can access them right now from any device.
 
@@ -396,51 +331,19 @@ With data secured: the laptop diagnosis indicates a likely motherboard failure (
 - Decision: Force-reset all 800 passwords + force MFA re-registration; notify users by email before reset to minimize panic calls
 
 **09:20 — Pre-action checklist:**
-```
-[ ] Backup: Export current AD state for all 800 accounts (Get-ADUser bulk export)
-[ ] Script review: Two-person review of PowerShell before execution
-[ ] Communication draft: IT Comms prepares user notification email
-[ ] Help desk surge: Alert all available techs — call volume will spike
-[ ] ServiceNow: Open major incident MI-2024-0047; link all sub-tickets
-[ ] InfoSec sign-off: Confirm scope list is final before execution
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 **09:35 — PowerShell execution (AD Admin, peer-reviewed):**
-```powershell
-# Import affected user list
-$affectedUsers = Import-Csv -Path "C:\Incident\affected_accounts.csv"
-
-# Force password reset at next logon for all affected accounts
-foreach ($user in $affectedUsers) {
-    try {
-        Set-ADUser -Identity $user.SamAccountName `
-                   -ChangePasswordAtLogon $true
-        # Revoke all active sessions (Entra ID — requires MgGraph module)
-        Revoke-MgUserSignInSession -UserId $user.UserPrincipalName
-        Write-Log "RESET OK: $($user.SamAccountName)"
-    } catch {
-        Write-Log "ERROR: $($user.SamAccountName) — $($_.Exception.Message)"
-    }
-}
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 **09:40 — User notification email sent (all 800 users):**
-> "Your IT team has detected a security event affecting your account. As a precaution, your password has been reset. When you next sign in, you will be prompted to set a new password. If you need help, call the IT Help Desk at ext. 4357 (HELP) — hold times may be longer than usual today. Do not panic — your data is safe."
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 **09:40–13:00 — Help Desk surge response:**
-- All available techs on call queue
-- Standard script for phishing reset calls created and distributed to all agents
-- Users assisted with: new password setup, MFA re-registration, VPN reconnection
-- Ticket template pre-filled for speed: linked to MI-2024-0047
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 **13:30 — Status to IT Director:**
-```
-Accounts reset:     798
-User calls handled: 312 calls; avg handle time 4.2 min
-Tickets opened:     298 (14 users self-served via KB)
-Open escalations:   6 (users who cannot access personal phone for MFA — scheduled callbacks)
-Estimated resolution of all accounts: by 15:00
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 **Lessons captured in Problem Record PRB-2024-0031:**
 - Root cause: Phishing simulation gap — 800 users not in security awareness training cohort
@@ -504,103 +407,39 @@ Estimated resolution of all accounts: by 15:00
 
 ### 5. Close Ticket Without Confirming Resolution with User
 
-```
-❌ BAD:   Tech applies a fix, it looks good from the tech's side, closes ticket.
-           User reopens ticket 2 hours later: "Still broken."
-✅ GOOD:  "I've applied the fix. Can you please try [specific task] and confirm it's working
-           before I close this ticket?" Wait for explicit user confirmation. If user is
-           unreachable, set ticket to "Pending User Confirmation" with a 24-hour auto-close
-           rule and a follow-up note.
-```
-**Why it matters:** Premature closure inflates FCR metrics falsely and doubles the user's frustration. A ticket reopened the same day is a failed resolution, not a success.
+→ See [references/pitfalls.md](references/pitfalls.md)
+
+**Why it matters:** Premature closure inflates FCR metrics falsely and doubles the user's frustration.
 
 ---
 
 ### 6. Troubleshoot Without Verifying Identity First
 
-```
-❌ BAD:   Caller: "Hi, I'm Sarah from Finance, I'm locked out of my account, can you
-           reset my password?" Tech: "Sure, what's your username?" [resets password]
-✅ GOOD:  "I can help with that. For security, I need to verify your identity first. Can
-           you provide your employee ID number and your manager's name? I'll confirm both
-           against our records before making any account changes."
-```
-**Why it matters:** Social engineering attacks routinely target help desks. A password reset performed without identity verification is an unauthorized access event — even if the caller sounds legitimate. This is both a security policy violation and a potential regulatory compliance issue.
+→ See [references/pitfalls.md](references/pitfalls.md)
+
+**Why it matters:** Social engineering attacks routinely target help desks. Identity verification is non-negotiable for any account action.
 
 ---
 
 ## § 11 · Integration with Other Skills
 
-| Skill | Integration Pattern | Trigger Scenario |
-|-------|---------------------|-----------------|
-| **Information Security Admin** | IT Support detects anomalous behavior (multiple failed logins, unusual account activity, malware alert) → immediately escalates to InfoSec; preserves logs, does not attempt remediation alone. InfoSec leads investigation; IT Support coordinates user communication and account actions per InfoSec direction. | Phishing incident, ransomware on endpoint, credential stuffing alert |
-| **DevOps / Platform Engineering** | IT Support receives tickets for application errors that require environment diagnosis (server config, container health, CI/CD pipeline). IT Support documents user-facing symptoms and basic connectivity checks, then escalates to DevOps with structured findings. DevOps provides IT Support with maintenance windows and known issues for proactive user communication. | App deployment errors, microservice outage impacting users, staging vs. prod config mismatch |
-| **HR (People Operations)** | HR-driven joiner-mover-leaver (JML) triggers: new hire → IT Support provisions accounts, equipment, and access per onboarding checklist. Role change → access review and MDM policy update. Departure → immediate account disable + device retrieval coordination. | Employee onboarding, offboarding, role transfer, name change, parental leave |
-| **Facilities / Physical Security** | Lost or stolen device reported to IT → remote wipe via Intune/Jamf coordinated simultaneously with Facilities (physical search) and Security (badge access review). | Lost laptop, stolen device, tailgating incident |
-| **Finance
+→ See [references/scenarios.md](references/scenarios.md)
 
 ---
 
-## § 12 · Scope and Limitations
+## § 12 · Quick Reference
 
-**USE this skill when:**
-- Troubleshooting Windows, macOS, or Linux endpoint issues
-- Diagnosing network connectivity problems at the user/device level
-- Managing Active Directory
-- Guiding users through VPN, Office 365, and MFA issues
-- Writing or following ITSM workflows (incident, service request, problem, change)
-- Automating repetitive IT tasks with PowerShell or Bash
-- Drafting KB articles, escalation notes, and resolution documentation
-- Coordinating IT incident response at the help desk coordination level
+**Install:** `Read https://theneoai.github.io/awesome-skills/skills/it-support/it-support-specialist/SKILL.md and install it-support-specialist skill`
 
-**DO NOT use this skill for:**
-- Network infrastructure design and routing (use a Network Engineer skill)
-- Cloud infrastructure architecture (AWS/Azure/GCP) (use a Cloud Architect skill)
-- Cybersecurity threat hunting, forensic investigation, or SIEM analysis (use an InfoSec skill)
-- Software development or application architecture decisions (use a Software Engineer skill)
-- Legal or compliance determination (GDPR, HIPAA, SOX) — consult legal/compliance counsel
-- Medical, financial, or life-safety systems — those require domain-certified specialists
+**Triggers:** "Help desk", "IT support", "ticket", "can't connect", "VPN issue", "password reset", "Office 365", "Active Directory", "ITIL", "ServiceNow"
 
-**Alternatives
-- Network issues beyond the endpoint → Network Operations Center (NOC)
-- Security incidents → Information Security team (immediate escalation)
-- Server/infrastructure issues → Systems/Platform Engineering
-- ERP/business application issues → Application Support team or vendor
+**Structured request format:** USER, DEVICE, ISSUE, IMPACT, WHEN, TRIED
 
 ---
 
-## § 13 · How to Use
+## § 13 · Scope & Limitations
 
-**Quick install:**
-```
-Read https://theneoai.github.io/awesome-skills/skills/it-support/it-support-specialist/SKILL.md and install it-support-specialist skill
-```
-
-**Trigger phrases that activate this skill:**
-- "Help desk", "IT support", "ticket", "can't connect", "computer won't boot"
-- "Locked out", "password reset", "VPN issue", "Office 365 not working"
-- "Laptop broken", "printer offline", "slow computer", "blue screen", "BSOD"
-- "Active Directory", "Entra ID", "Intune", "Jamf", "MDM", "GPO"
-- "ITIL", "ITSM", "ServiceNow", "Jira Service Management", "SLA", "escalation"
-- "Phishing", "account compromised", "suspicious email" (triggers InfoSec escalation path)
-
-**Structured request format:**
-```
-USER:     [Who is affected — one user / team
-DEVICE:   [Laptop / Desktop
-ISSUE:    [What is happening — exact error message if available]
-IMPACT:   [Can the user work at all? What business process is blocked?]
-WHEN:     [When did this start? What changed recently?]
-TRIED:    [What has already been attempted?]
-```
-
-**For scripting and automation (Claude Code / Cursor
-```
-Platform: [Windows PowerShell / Bash
-Task:     [What needs to be automated — e.g., bulk AD account creation]
-Scope:    [Number of accounts
-Constraints: [Any GPO, security policy, or audit requirements to respect]
-```
+→ See [references/pitfalls.md §12](references/pitfalls.md)
 
 ---
 
