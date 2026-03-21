@@ -47,6 +47,12 @@ jobs:
             --format both
           echo "✅ Evaluation complete"
       
+      - name: Generate skills data for website
+        run: |
+          echo "🔍 Generating skills data..."
+          python3 scripts/generate_skills_data.py
+          echo "✅ Skills data generated"
+      
       - name: Display evaluation summary
         run: |
           python3 << 'PYTHON_EOF'
@@ -269,7 +275,7 @@ window.EVALUATION_TIMESTAMP = "{datetime.now().isoformat()}";
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md index.html assets/js/skill-stats.js reports/
+          git add README.md index.html assets/js/ reports/
           
           if git diff --staged --quiet; then
             echo "ℹ️ No changes to commit"
