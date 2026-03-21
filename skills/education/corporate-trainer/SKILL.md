@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Corporate Trainer
 
 
@@ -144,62 +145,117 @@ Evaluation:    assess, evaluate, justify, recommend
 | 4 | Pilot with representative learner group | Pilot feedback incorporated; timing verified | Launching to full audience without pilot |
 | 5 | Deploy evaluation (Level 1-4) and report results | Evaluation data collected and shared with stakeholders | Training delivered with no measurement plan |
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: New Manager Training Program Design
+### Scenario 1: Initial Consultation
 
-**Business Need:** 25 new managers promoted from individual contributors in Q1. High turnover in their teams (18%) and low engagement scores (3.2/5).
+**Context:**
+A new client needs expert guidance on corporate trainer.
 
-**Program Design:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-PROGRAM: "Managing People at [Company]" — 3-Day Cohort Program
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-LEARNING OBJECTIVES:
-  By end of program, participants will be able to:
-  1. Conduct a structured weekly 1:1 meeting using company template (Application)
-  2. Give feedback using SBI (Situation-Behavior-Impact) model in 80% of observed
-     coaching opportunities (Application)
-  3. Identify signs of employee disengagement and respond within 48 hours (Analysis)
-  4. Create a 90-day onboarding plan for direct reports (Synthesis)
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-DAY 1: FOUNDATIONS OF MANAGEMENT (8 hours)
-  09:00  Welcome + self-assessment: management style inventory
-  10:00  Module 1: Shifting from "doer" to "multiplier" (2h, case study)
-  12:00  Lunch + informal discussion with senior manager panel
-  13:00  Module 2: The 1:1 meeting — structure, cadence, and coaching (2h, role play)
-  15:00  Module 3: Setting expectations and managing performance (2h, scenario workshop)
-  17:00  Day 1 reflection + homework: prep for 1:1 practice with cohort partner
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
-DAY 2: FEEDBACK AND DEVELOPMENT (8 hours)
-  09:00  Module 4: Giving and receiving feedback — SBI model (2h, role play x3)
-  11:00  Module 5: Coaching conversations vs. directing (2h, fishbowl demo)
-  13:00  Lunch
-  14:00  Module 6: Building your team's development plans (2h, workshop)
-  16:00  Guest speaker: Experienced manager Q&A
-  17:00  Day 2 reflection
+---
 
-DAY 3: PERFORMANCE AND APPLICATION (8 hours)
-  09:00  Module 7: Difficult conversations — PIPs, underperformance (2h, role play)
-  11:00  Module 8: Engagement and retention — what managers can control (1.5h)
-  12:30  Lunch
-  13:30  Capstone: Build your 30-60-90 day management plan (2h, individual work)
-  15:30  Presentations + peer feedback
-  17:00  Graduation + commitments
+### Scenario 2: Problem Resolution
 
-FOLLOW-UP (30/60/90 days post-program):
-  - Weekly cohort check-in call (30 min)
-  - Manager observation checklist at 30 days (Level 3 evaluation)
-  - Team engagement score tracking at 90 days (Level 4 evaluation)
-```
+**Context:**
+Urgent corporate trainer issue requires immediate attention.
 
-### Scenario B: eLearning Storyboard Outline
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-A 20-minute eLearning module on data privacy (GDPR basics for employees) should follow this structure: (1) Hook scenario — show the consequences of a data breach from an employee's perspective (2 min), (2) Learning objectives screen with self-assessment "how confident are you?" (1 min), (3) Three content sections — What is personal data? / Your obligations
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-### Scenario C: Training Evaluation Plan
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-To measure whether a sales training program actually improves close rates: Level 1 — deploy 5-question survey at end of training (target: 4.2/5 relevance score). Level 2 — pre/post knowledge assessment on product features and objection handling (target: 20% improvement). Level 3 — sales manager observation checklist at 30 and 60 days post-training (target: 80% applying learned techniques). Level 4 — compare close rate of trained cohort vs. control group at 90 days (target: 5% improvement in close rate). Report to sales VP with cost-per-close calculation to demonstrate ROI.
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term corporate trainer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
+
+---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 

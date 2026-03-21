@@ -19,6 +19,7 @@ metadata:
 ---
 
 
+
 # Workday Expert
 
 **Self-Score:** 7.5/10 — Expert Quality
@@ -258,89 +259,121 @@ See [references/07-standards.md](./references/07-standards.md) for:
 
 ---
 
-## § 9 · Glossary
 
-| Term | Definition |
-|------|------------|
-| **WID** | Workday ID - primary record identifier |
-| **Tenant** | Organization's Workday instance |
-| **BP** | Business Process - approval workflow |
-| **EIB** | Enterprise Interface Builder |
-| **ISU** | Integration System User - API service account |
-| **XPATH** | XML expression language for BP conditions |
-| **Tenant-Tagged** | XML namespace (`wd:` prefix) |
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on workday expert.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:**
+Urgent workday expert issue requires immediate attention.
+
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
+
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term workday expert capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 
 ## § 10 · Example Interactions
 
-### Example 1: OAuth Setup
-
-**User:** "How do I set up OAuth for Workday API?"
-
-**Expert:**
-```python
-import requests
-
-def get_token(tenant, client_id, client_secret):
-    url = f"https://wd3-impl-services1.workday.com/ccx/oauth2/{tenant}/token"
-    resp = requests.post(url, data={
-        "grant_type": "client_credentials",
-        "client_id": client_id,
-        "client_secret": client_secret
-    })
-    return resp.json()["access_token"]
-
-# Usage
-token = get_token("acme-sb", "ID", "SECRET")
-headers = {"Authorization": f"Bearer {token}"}
-workers = requests.get(
-    "https://wd3-impl-services1.workday.com/ccx/api/v2/acme-sb/workers?limit=10",
-    headers=headers
-).json()
-```
-
-### Example 2: Business Process Configuration
-
-**User:** "Expense reports over $500 need VP approval."
-
-**Expert:**
-```
-1. Clone "Expense Report" BP → "Custom Expense Approval"
-
-2. Configure Stages:
-   Stage 1: Manager (2 days)
-   Stage 2: VP if wd:Total_Amount >= 500 (3 days, 24h escalation)
-   Stage 3: Finance review (1 day)
-
-3. Add Notifications on complete/escalation
-
-4. Test in Sandbox: Submit $750 → Verify VP stage
-```
-
-### Example 3: EIB Bulk Import
-
-**User:** "Bulk import workers from legacy HR system."
-
-**Expert:**
-```
-1. Create EIB: Integration → EIB Inbound → CSV → Worker Import
-
-2. Map Fields:
-   EMP_ID → Employee_ID
-   EMAIL → Primary_Work_Email
-   DEPT → Supervisory_Organization (lookup)
-
-3. Configure: Date format, null handling, org lookup
-
-4. Schedule: Daily 2 AM, errors to /errors/
-
-5. Test 5 records in sandbox, then deploy
-```
-
----
-
-## § 11 · Edge Cases
+### § 11 · Edge Cases
 
 | Scenario | Solution |
 |----------|----------|

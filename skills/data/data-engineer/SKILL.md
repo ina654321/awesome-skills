@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Senior Data Engineer
 
 
@@ -245,144 +246,115 @@ with DAG(
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Slowly Changing Dimension (SCD Type 2)
+### Scenario 1: Initial Consultation
 
-**Problem:** Customer `email` and `plan_type` change over time. Analytics needs to know the customer's plan at the time of each order.
+**Context:**
+A new client needs expert guidance on data engineer.
 
-```sql
--- dbt SCD Type 2 using snapshots
--- snapshots/snp_customers.sql
-{% snapshot snp_customers %}
-{{
-    config(
-        target_schema='snapshots',
-        unique_key='customer_id',
-        strategy='check',
-        check_cols=['email', 'plan_type', 'account_status'],
-        invalidate_hard_deletes=True
-    )
-}}
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-SELECT
-    customer_id,
-    email,
-    plan_type,
-    account_status,
-    updated_at
-FROM {{ source('crm', 'customers') }}
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-{% endsnapshot %}
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
--- Usage in downstream model:
--- Join orders to snapshot at order time
-SELECT
-    o.order_id,
-    o.order_date,
-    c.plan_type AS plan_at_order_time  -- historical plan, not current
-FROM fct_orders o
-JOIN snp_customers c
-    ON o.customer_id = c.customer_id
-    AND o.order_date BETWEEN c.dbt_valid_from AND COALESCE(c.dbt_valid_to, CURRENT_DATE())
-```
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario B: Kafka → BigQuery Streaming Pipeline
+### Scenario 2: Problem Resolution
 
-**Requirement:** User events from Kafka → BigQuery within 5 minutes, at-least-once delivery, deduplicate on `event_id`.
+**Context:**
+Urgent data engineer issue requires immediate attention.
 
-```python
-# Streaming pipeline using Apache Beam on Dataflow
-import apache_beam as beam
-from apache_beam.io import ReadFromKafka, WriteToBigQuery
-from apache_beam.transforms.deduplicate import Deduplicate
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-def parse_event(message):
-    import json
-    data = json.loads(message.value)
-    return {
-        'event_id': data['event_id'],
-        'user_id': data['user_id'],
-        'event_type': data['event_type'],
-        'event_timestamp': data['timestamp'],
-        'properties': json.dumps(data.get('properties', {}))
-    }
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-with beam.Pipeline() as pipeline:
-    events = (
-        pipeline
-        | 'ReadKafka' >> ReadFromKafka(
-            consumer_config={'bootstrap.servers': 'kafka:9092'},
-            topics=['user-events']
-        )
-        | 'ParseEvents' >> beam.Map(parse_event)
-        | 'DeduplicateByEventId' >> Deduplicate(
-            basis_fn=lambda e: e['event_id'],
-            processing_time_interval=timedelta(minutes=10)
-        )
-        | 'WriteBigQuery' >> WriteToBigQuery(
-            table='project:dataset.user_events',
-            schema='event_id:STRING,user_id:STRING,event_type:STRING,event_timestamp:TIMESTAMP,properties:STRING',
-            write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND,
-            create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED
-        )
-    )
-```
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-**Deduplication in BigQuery (safety net):**
-```sql
--- Daily dedup job (MERGE for idempotent dedup)
-MERGE `project.dataset.user_events_deduped` T
-USING (
-    SELECT * EXCEPT(rn)
-    FROM (
-        SELECT *, ROW_NUMBER() OVER (PARTITION BY event_id ORDER BY _ingestion_time) AS rn
-        FROM `project.dataset.user_events`
-        WHERE DATE(_ingestion_time) >= DATE_SUB(CURRENT_DATE(), INTERVAL 3 DAY)
-    )
-    WHERE rn = 1
-) S
-ON T.event_id = S.event_id
-WHEN NOT MATCHED THEN INSERT VALUES (S.event_id, S.user_id, S.event_type, S.event_timestamp, S.properties)
-```
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario C: BigQuery Cost Optimization
+### Scenario 3: Strategic Planning
 
-**Problem:** Analytics team's BigQuery spend is $15K/month. CEO asks: "Why is this so expensive?"
+**Context:**
+Build long-term data engineer capability.
 
-**Cost Audit:**
+**User Input:**
+"How do we become world-class in this area?"
 
-```sql
--- Find top queries by bytes billed (last 30 days)
-SELECT
-    job_id,
-    user_email,
-    ROUND(total_bytes_billed
-    ROUND(total_bytes_billed / POW(1024, 4) * 5, 2) AS cost_usd,  -- $5/TB
-    query,
-    creation_time
-FROM `region-us`.INFORMATION_SCHEMA.JOBS_BY_PROJECT
-WHERE DATE(creation_time) >= DATE_SUB(CURRENT_DATE(), INTERVAL 30 DAY)
-ORDER BY total_bytes_billed DESC
-LIMIT 20;
-```
+**Expert Response:**
+**18-Month Roadmap:**
 
-**Findings and fixes:**
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-| Issue | Monthly Cost | Fix | Expected Savings |
-|-------|-------------|-----|-----------------|
-| Full scans on `events` table (no partition filter) | $8,200 | Add `WHERE event_date BETWEEN` in all queries | 70% reduction = $5,740 |
-| SELECT * on wide tables | $3,100 | Replace * with specific columns in BI views | 60% reduction = $1,860 |
-| Non-materialized dbt models | $2,400 | Materialize high-traffic models as tables | $1,800 |
-| Duplicate work in BI tool | $1,300 | Cache dashboard results (Looker PDT
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-**Total projected savings: $10,300/month → $4,700/month**
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-**Enforcement:** Set column-level BigQuery Labels → alert on queries >$10; require `LIMIT` clause in dev environment.
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

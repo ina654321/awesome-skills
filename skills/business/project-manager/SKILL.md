@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Project Manager
 
 
@@ -218,86 +219,115 @@ Retrospective (45-90 minutes):
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Project Recovery Plan
+### Scenario 1: Initial Consultation
 
-**Situation:** ERP implementation is 3 months behind (SPI = 0.72) and 18% over budget (CPI = 0.85). Board presentation in 2 weeks.
+**Context:**
+A new client needs expert guidance on project manager.
 
-**Recovery Process:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-Step 1: Root cause analysis
-  Scope creep: 12 new requirements added post-baseline → +6 weeks
-  Resource shortfall: 2 engineers at 50% (vs. 100% planned) → +4 weeks
-  Vendor delay: Integration module 4 weeks late → +3 weeks
-  (Overlapping impacts account for 3-month total delay)
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-  CPI = 0.85: Overtime costs + scope additions drove 15% cost increase
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-Step 2: Recovery options (present 3 to sponsor — never just 1)
-  Option A: Accept new timeline (+4 months), current scope, no added cost
-  Option B: Descope 5 lower-priority modules → recover 6 weeks, save $200K
-  Option C: Add 2 contractors for 10 weeks → recover 6 weeks, cost $80K additional
-
-Step 3: Board presentation
-  Slide 1: Where we are (SPI=0.72, CPI=0.85 — honest and clear)
-  Slide 2: Root causes (no blame; 3 factual causes with quantification)
-  Slide 3: Three options with trade-offs (cost / timeline
-  Slide 4: PM recommendation + decision requested by [date]
-
-PM recommendation: Option B (descope) + Option C (contractors) combined
-→ Recover 10 of 12 weeks; net cost overrun contained to 8%
-```
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario B: Risk Management — Software Launch
+### Scenario 2: Problem Resolution
 
-**Project:** New customer-facing platform launching in 8 weeks.
+**Context:**
+Urgent project manager issue requires immediate attention.
 
-**Top 5 Risk Register:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-| ID | Risk | P | I | Score | Response | Owner |
-|----|------|---|---|-------|----------|-------|
-| R1 | API fails performance test | M | H | 6 | Mitigate: Load test at Week 6; fallback to legacy API ready | Tech Lead |
-| R2 | Key dev leaves | L | H | 3 | Mitigate: Cross-train; document architecture now | PM |
-| R3 | Security audit finds critical vuln | M | H | 6 | Mitigate: SAST in CI/CD from Day 1; pen test at Week 6 | Security |
-| R4 | Marketing adds scope | H | M | 6 | Avoid: Scope freeze at Week 2; all additions to next release | PM |
-| R5 | Cloud vendor outage at launch | L | H | 3 | Transfer: Multi-AZ; SLA in contract; failover tested | Infra |
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**Risk monitoring:** R1, R3, R4 (score ≥6) reviewed every Monday. Owner provides written update. New risks added to log within 24 hours of identification.
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario C: Sprint Retrospective — Velocity Drop
+### Scenario 3: Strategic Planning
 
-**Context:** Sprint 7 of 12. Velocity dropped 20% (42 → 34 points). Team appears disengaged.
+**Context:**
+Build long-term project manager capability.
 
-**Retrospective facilitation — Start/Stop/Continue:**
+**User Input:**
+"How do we become world-class in this area?"
 
-```
-Silent brainstorm (5 min) → group by theme → discuss → commit
+**Expert Response:**
+**18-Month Roadmap:**
 
-START (what should we begin doing?):
-  • Daily blocker log in Slack so team sees what PM is unblocking (3 votes)
-  • Friday 15-min demo for internal stakeholders — reduce end-sprint surprises (5 votes)
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-STOP (what should we stop doing?):
-  • Mid-sprint scope additions — 3 occurred this sprint, each disrupted 1-2 days (7 votes)
-  • Carrying over stories without decomposing — causes velocity measurement distortion (4 votes)
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-CONTINUE (what's working?):
-  • Pair programming on complex integrations (reduced bugs by 40%)
-  • Async standups — works well for distributed team
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-Committed Action for Sprint 8:
-  → "PM will reject all mid-sprint scope additions; all requests go to Sprint 9 backlog"
-  → Owner: PM | Success: 0 mid-sprint additions in Sprint 8 | Review in next retro
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
 
-Root cause analysis: Mid-sprint disruptions consumed ~8 story points of capacity.
-With zero additions, velocity should recover to 40+ in Sprint 8.
-```
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

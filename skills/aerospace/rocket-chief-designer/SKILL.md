@@ -18,6 +18,7 @@ metadata:
 
 
 
+
 # Rocket Chief Designer
 
 ---
@@ -186,98 +187,115 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on rocket chief designer.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2: Reusable First Stage Economics
+**Context:**
+Urgent rocket chief designer issue requires immediate attention.
 
-**User**: We're debating whether to make our first stage reusable. How does this affect payload capacity and economics?
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**Expert**:
-> **This is the defining trade in modern launch vehicle design.** Let me quantify it:
->
-> **Performance impact of reusability** (for Falcon 9-like vehicle):
->
-> | Item | Expendable | Reusable | Delta |
-> |------|-----------|---------|-------|
-> | Boostback burn | 0 | -350 m/s | payload loss |
-> | Entry burn | 0 | -100 m/s | payload loss |
-> | Landing burn + reserve | 0 | -200 m/s | payload loss |
-> | Landing legs + grid fins | 0 | +2,500 kg structure | payload loss |
-> | Performance penalty | 0 | ~25-30% payload | — |
->
-> For your 10,000 kg vehicle: **reusable version delivers ~7,000-7,500 kg to LEO** (-25-30%).
->
-> **Economic analysis** (per launch cost):
-> ```
-> Assumptions:
->   First stage manufacturing cost: $40M
->   Second stage: $10M
->   Engine refurbishment (per flight): $1M
->   Operations: $5M/launch
->
-> EXPENDABLE: $40M + $10M + $5M = $55M per launch
->   Cost per kg (10,000 kg): $5,500/kg
->
-> REUSABLE (10 flights per booster):
->   Amortized stage 1: $40M
->   Refurbishment per flight: $1M
->   Stage 2: $10M
->   Operations: $5M/launch
->   Total: $20M/launch
->   Cost per kg (7,500 kg): $2,667/kg → 2× cheaper per kg despite lower payload
->
-> REUSABLE (20 flights per booster, SpaceX Falcon 9 trend):
->   Amortized stage 1: $40M
->   Total: $18M/launch
->   Cost per kg: $2,400/kg → >2× cheaper
-> ```
->
-> **Bottom line**: Reusability is economically superior IF flight rate ≥ 10/year per booster. Below that rate, the manufacturing amortization advantage shrinks and the payload penalty hurts. For a new vehicle program targeting 6-8 launches/year, the break-even is marginal — expendable simplicity may be justified for first 3-5 years.
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario 3: Max-Q Load Case Analysis (Edge Case)
+### Scenario 3: Strategic Planning
 
-**User**: Our vehicle flies through max-Q at Mach 1.5. We're seeing bending moments 15% higher than our analysis predicted. What could be wrong?
+**Context:**
+Build long-term rocket chief designer capability.
 
-**Expert**:
-> **15% higher bending moment than predicted at max-Q is a serious discrepancy** that needs root cause analysis before proceeding. Let me work through the diagnostic:
->
-> **Bending moment sources at max-Q**:
-> ```
-> M_bending = q × S_ref × CN × x_cp_distance_from_CG
-> where:
->   q = dynamic pressure (1/2 × ρ × V²)
->   CN = normal force coefficient (highly sensitive to angle of attack)
->   x_cp = center of pressure location
->
-> 15% error sources (in priority order):
->   1. Angle of attack (AoA) higher than predicted: most likely cause
->      → AoA at max-Q is a function of winds aloft, trajectory, and GNC response
->      → If AoA was 4° vs predicted 3°: CN ∝ AoA → 33% higher bending moment
->
->   2. Dynamic pressure higher than model: check atmospheric model accuracy
->      → 1% error in ρ at max-Q altitude → 2% error in q → 2% bending moment error
->
->   3. Aerodynamic database error: CN vs. AoA curve not captured correctly
->      → Need wind tunnel data or CFD validation at actual max-Q Mach number (1.5)
-> ```
->
-> **Immediate actions**:
-> 1. **Compare flight AoA to predicted AoA** at max-Q from IMU data → if AoA 30% higher, that's your answer
-> 2. **Check atmospheric data**: compare reconstructed q from flight vs. standard atmosphere; was there an unexpected jet stream?
-> 3. **Verify aerodynamic database at Mach 1.5**: transonic regime (Mach 1.0-1.8) has highest CN uncertainty; the CN slope dCN/dα changes significantly near Mach 1
->
-> **Design response**:
-> - If AoA was higher due to winds: update wind profile in trajectory simulation with 3-sigma winds
-> - If aero database is wrong: commission additional CFD or wind tunnel runs at Mach 1.5
-> - Structural margin check: if flight bending moment was at 85% of design limit → still within structural limit (factor 1.4 × limit = ultimate); if at 100% of design limit → ground the vehicle pending structural reassessment
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

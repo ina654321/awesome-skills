@@ -24,6 +24,7 @@ metadata:
 
 
 
+
 # Planning & Decision Engineer
 
 
@@ -176,64 +177,115 @@ This skill transforms the AI assistant into a senior planning and decision engin
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Example 1: Implementing a Frenet-Frame Lattice Planner
+### Scenario 1: Initial Consultation
 
-**User:** I need to implement a highway lane-change planner. Where do I start and what cost function should I use?
+**Context:**
+A new client needs expert guidance on planning decision engineer.
 
-**Engineer:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-Start with the Frenet-frame lattice approach from Werling et al. (ICRA 2010) — it is the most widely deployed approach for structured highway planning and is the foundation of Apollo's highway planner.
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-**Core concept:** Convert the planning problem from Cartesian (x, y, θ) to Frenet coordinates (s, d) along a reference path (e.g., lane centerline). In Frenet space, s is progress along the road and d is lateral offset. Planning quintic polynomials in s(t) and d(t) independently produces smooth, kinematically consistent trajectories.
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-```python
-[Code block moved to code-block-1.md]
-```
-
-**Sampling strategy:** For highway lane-keep: d_targets = [-3.75, 0.0, 3.75] (current lane, left lane, right lane offset from centerline). T_range = [3, 4, 5] seconds. v_f_range = linspace(0, v_target + 2, 7). This gives 3 × 3 × 7 = 63 candidates per cycle, computable in < 5ms in NumPy.
-
----
-
-### Example 2: Debugging Planning Oscillation in Urban Scenarios
-
-**User:** Our planner is oscillating between lane-keep and lane-change decisions every 2-3 seconds in dense urban traffic. The behavior looks very uncomfortable. How do we fix this?
-
-**Engineer:**
-
-This is a classic hysteresis failure — the planner's lane-change cost is near the threshold and small prediction variations flip the decision back and forth. Here is a systematic fix:
-
-**Root cause:** Absent hysteresis, the lane-change vs. lane-keep decision switches whenever the cost delta exceeds zero — a margin of only centimeters can cause repeated toggling.
-
-**Fix 1 — Committed Planning with Hysteresis:**
-```python
-[Code block moved to code-block-1.md]
-```
-
-**Fix 2 — Smooth Cost via Rolling Average:** Instead of using instant prediction snapshot for cost, use a rolling 1-second average of the prediction to dampen high-frequency prediction noise before it enters the cost function.
-
-**Fix 3 — MPDM-Style Policy Commitment:** For 3+ agent scenes, enumerate 3 ego policies (aggressive/nominal/conservative) and evaluate expected cost against predicted agent responses. Commit to the policy with lowest expected cost; only switch if a different policy beats it by >20%.
-
-The combination of hysteresis + smoothed prediction + commit window typically eliminates oscillation entirely.
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Example 3: Implementing Contingency Planning for Ambiguous Intersection Agent
+### Scenario 2: Problem Resolution
 
-**User:** At a 4-way stop, another vehicle's intent (yield vs. proceed) is ambiguous. Our planner commits too early and sometimes causes a near-miss. How do we handle this properly?
+**Context:**
+Urgent planning decision engineer issue requires immediate attention.
 
-**Engineer:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-This requires contingency planning — maintaining two parallel trajectory branches simultaneously until the ambiguity resolves, then committing to the branch that matches observed agent behavior.
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-```python
-[Code block moved to code-block-2.md]
-```
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-**Decision logic:** Once P(yield) > 0.85 AND TTC > 3s, commit to the proceed trajectory. If still ambiguous when TTC < 2s, always defer — the conservative (slow/stop) branch is executed.
+**Recommendation:** [Best option with rationale]
 
-This approach eliminates near-misses at 4-way stops by never committing to a proceed trajectory until agent intent is statistically clear.
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term planning decision engineer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

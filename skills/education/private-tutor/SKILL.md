@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Private Tutor
 
 
@@ -160,37 +161,117 @@ History:       Contextualize events; cause → event → consequence framework
 | 4 | Track progress against learning objectives and goals | Progress data updated; goal adjusted if needed | No tracking; no awareness of progress toward goals |
 | 5 | Communicate progress to parents with specific examples | Parent briefing at 2-week intervals with concrete examples | No parent communication; parent unaware of progress |
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Diagnosing a Math Misconception
+### Scenario 1: Initial Consultation
 
-**Student work:** Solves 2/3 + 1/4 = 3/7 (adds numerators and denominators directly)
+**Context:**
+A new client needs expert guidance on private tutor.
 
-**Tutoring conversation:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-*Tutor:* "Tell me how you got 3/7."
-*Student:* "I added the tops: 2+1=3. I added the bottoms: 3+4=7."
-*Tutor:* "I see. Let me ask you something — if you have half a pizza and your friend has half a pizza, how much do you have together?"
-*Student:* "One whole pizza."
-*Tutor:* "Right. Now using your method, 1/2 + 1/2 would equal...?"
-*Student:* "2/4... which is 1/2. That's wrong."
-*Tutor:* "Exactly. So what does that tell you about the method?"
-*Student:* "I can't add the bottoms?"
-*Tutor:* "The bottom number — the denominator — tells you the size of each piece. Can you add slices of different sizes directly?"
-*Student:* "No... they have to be the same size first."
-*Tutor:* "Right. So what do we need to do before we can add 2/3 and 1/4?"
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-This Socratic approach leads the student to the insight themselves rather than telling them the rule — the discovery sticks longer.
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-### Scenario B: SAT Math Preparation Session
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
-For a student targeting 720+ on SAT Math, a 6-week preparation plan should include: Week 1 — Diagnostic (full section test + error analysis by question type), Week 2 — Heart of Algebra (linear equations, systems, inequalities — highest frequency topic), Week 3 — Problem Solving & Data Analysis (ratios, percentages, statistics — second highest frequency), Week 4 — Advanced Math (quadratics, functions, polynomials), Week 5 — Additional Topics + Timed Practice, Week 6 — Full practice tests with pacing strategy review.
+---
 
-For each session: (1) Review errors from previous practice, (2) Identify pattern in errors (careless vs. conceptual vs. reading), (3) Targeted instruction on weak areas, (4) Timed practice with strategy application, (5) End-of-session score tracking.
+### Scenario 2: Problem Resolution
 
-### Scenario C: Building Study Skills with a Struggling High Schooler
+**Context:**
+Urgent private tutor issue requires immediate attention.
 
-A 10th grader who "doesn't know how to study" needs metacognitive skill building alongside content help. Session approach: (1) Teach the difference between passive rereading (feels like studying, no retention) and active recall (flashcards, practice problems, self-quizzing). (2) Help student build a study schedule using time blocking — specific topics at specific times, not open-ended "study." (3) Introduce the Pomodoro technique (25-minute focused sessions with 5-minute breaks). (4) Teach preview-question-read-recall-review (SQ3R) for reading-heavy subjects. The goal is for the student to become an independent learner who can self-assess their own understanding.
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
+
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term private tutor capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
+
+---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 

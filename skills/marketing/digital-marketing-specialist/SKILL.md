@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Digital Marketing Specialist
 
 
@@ -182,89 +183,115 @@ Rules:
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: SaaS B2B Lead Generation Strategy
+### Scenario 1: Initial Consultation
 
-**Company:** B2B SaaS, $500/month ACV, ICP = marketing managers at 50-500 employee companies
+**Context:**
+A new client needs expert guidance on digital marketing specialist.
 
-**LTV calculation:** $500 × 12 months × 80% gross margin × 2-year avg. lifespan = $9,600 LTV
-**CAC target:** LTV/3 = $3,200 max CAC; real target = $800 (4x payback)
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-**Channel Recommendations:**
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-| Channel | Why | Monthly Budget | CPL Target | Expected Leads |
-|---------|-----|---------------|-----------|---------------|
-| Google Search | High purchase intent; "marketing automation software" queries | $8,000 | $200 | 40 |
-| LinkedIn Ads | Precise job title targeting; marketing managers | $5,000 | $250 | 20 |
-| SEO/Content | Long-term; "marketing automation guide" pillar page | $3,000 (content) | $50 (3mo+ lag) | 60 (at maturity) |
-| Email nurture | Existing database; free trial conversions | $500 | $30 | 20 (warm) |
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-**First 90-day priorities:**
-1. Weeks 1-2: Install tracking (GA4 + LinkedIn Insight Tag + Google Tag Manager)
-2. Weeks 2-6: Launch Google Search (branded + category terms)
-3. Weeks 4-8: Pilot LinkedIn Ads ($2K test budget; SPM + document ads)
-4. Month 2: Content cluster launch (pillar + 5 cluster pages)
-5. Month 3: Review CPL per channel; reallocate to performers
-
----
-
-### Scenario B: DTC E-commerce ROAS Optimization
-
-**Situation:** Meta ROAS dropped from 4.2x to 2.8x over 6 weeks. $30K/month spend.
-
-**Diagnostic Framework:**
-
-```
-Step 1: Segment the drop — Creative fatigue? Audience saturation? iOS impact?
-  → Pull data by: creative age (>21 days = fatigue likely), CPM trend, frequency
-
-Step 2: Check creative metrics
-  → Hook rate (3-second views/impressions): target >30%
-  → Hold rate (25% watch time): target >25%
-  → CTR: target >1.0%
-  → If hook rate dropped → new top-of-video creative needed
-
-Step 3: Check audience metrics
-  → Frequency >3.5 = saturation
-  → CPM increased >20% = auction competition or audience exhaustion
-  → Fix: Expand audience (LAL 5-10% vs. LAL 1%); new prospecting audiences
-
-Step 4: Attribution check
-  → Compare Meta reported ROAS vs. Northbeam/Triple Whale
-  → iOS 14.5+ = Meta overclaims; blended ROAS may be more accurate
-
-Likely root cause: Creative fatigue (40% probability) + audience saturation (35%) + iOS attribution (25%)
-```
-
-**Action plan:** Launch 5 new UGC-style creatives; expand to 5% LAL audience; set 7-day click
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario C: SEO Content Strategy for 0-to-100 Organic
+### Scenario 2: Problem Resolution
 
-**Situation:** 6-month-old SaaS company, minimal organic traffic, blog exists but no strategy.
+**Context:**
+Urgent digital marketing specialist issue requires immediate attention.
 
-**Keyword Strategy:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-```
-Priority 1 — Bottom-of-funnel (BOFU): Low volume, high intent
-  "best [category] software", "[competitor] alternative", "[category] tool for [ICP]"
-  → These convert; win here first even if volume is small
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-Priority 2 — Middle-of-funnel (MOFU): Problem-aware
-  "how to [problem your product solves]", "[pain point] solutions"
-  → Build authority; capture problem-aware buyers
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-Priority 3 — Top-of-funnel (TOFU): Awareness
-  "[category] guide", "what is [category]", "[industry] trends"
-  → Volume for brand building; lowest conversion
+**Recommendation:** [Best option with rationale]
 
-Month 1-2: Publish 8 BOFU articles
-Month 3-4: Publish 2 pillar pages + 10 cluster articles (MOFU)
-Month 5-6: TOFU content + link building outreach
-Measure: GSC impressions, clicks, rank position. Target: 5,000 organic sessions/month by Month 6.
-```
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term digital marketing specialist capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

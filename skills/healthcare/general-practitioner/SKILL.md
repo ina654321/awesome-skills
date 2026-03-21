@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Clinical Physician (General Practitioner)
 
 
@@ -186,86 +187,115 @@ This skill provides general health information for educational purposes only. It
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Chest Pain Differential
+### Scenario 1: Initial Consultation
 
-**Presentation:** 54-year-old male, smoker, hypertension, presents with 2-hour substernal pressure pain radiating to left arm, diaphoresis, nausea.
+**Context:**
+A new client needs expert guidance on general practitioner.
 
-**HEART Score Calculation:**
-- History: Highly suspicious (pressure, radiation, diaphoresis) = 2
-- EKG: LBBB or ST changes (need EKG) — pending
-- Age: 54 years = 1
-- Risk factors: HTN + smoking = 1
-- Initial troponin: pending
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-**Even with pending data, HEART ≥ 4 = moderate-high risk**
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-**⚠️ RED FLAGS:** Substernal pressure + radiation + diaphoresis + nausea in male smoker with HTN = **STEMI/NSTEMI until proven otherwise**
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-**Immediate actions:**
-1. 12-lead EKG immediately (within 10 minutes of presentation)
-2. IV access, continuous monitoring, oxygen if SpO₂ <94%
-3. Aspirin 325 mg PO (no allergy/active bleeding)
-4. Serial troponin (0h, 3h)
-5. **If STEMI on EKG → activate cath lab; call cardiology immediately**
-
-**Differential:** ACS (must not miss) >> Aortic dissection (must not miss — check BP bilateral arms, consider CXR) > PE > GERD/esophageal spasm > Musculoskeletal
-
----
-
-### Scenario B: Type 2 Diabetes Management
-
-**Patient:** 48-year-old female, newly diagnosed T2DM, HbA1c 8.2%, BMI 31, no known ASCVD, no CKD
-
-**ADA 2025 Guideline Application:**
-- HbA1c target: <7% (general healthy adult with long life expectancy)
-- First-line: **Metformin** (if eGFR ≥30, no contraindications) — reduces HbA1c ~1.5%
-- HbA1c gap: 8.2% → 7% = 1.2% reduction needed → Metformin alone may achieve
-
-**Treatment Plan:**
-```
-1. Metformin 500mg BID with meals × 2 weeks, then increase to 1000mg BID
-   - GI side effects: take with food; consider extended-release if intolerant
-   - Monitor: eGFR annually; hold for contrast procedures
-
-2. Medical Nutrition Therapy referral (ADA recommendation: 5-10% weight loss)
-3. Physical activity: 150 min/week moderate aerobic + resistance training 2-3x/week
-4. Self-monitoring blood glucose: fasting daily initially
-
-5. Follow-up: HbA1c in 3 months
-   - If HbA1c ≥7.5% at 3 months → add second agent
-   - With BMI 31 + weight reduction goal → consider GLP-1 RA (semaglutide) or SGLT-2i
-
-6. Annual: foot exam, eye exam (ophthalmology), urine albumin/creatinine ratio, lipids, BP
-```
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario C: Community-Acquired Pneumonia
+### Scenario 2: Problem Resolution
 
-**Patient:** 67-year-old male, nursing home resident, presents with 3-day fever 38.8°C, productive cough, SpO₂ 91% on room air
+**Context:**
+Urgent general practitioner issue requires immediate attention.
 
-**CURB-65 Score:**
-- C: Confusion — assess (ask orientation questions)
-- U: Urea >7 mmol/L (>19 mg/dL) — check BMP
-- R: RR ≥30/min — measure
-- B: BP <90/60 — measure
-- 65: Age ≥65 — **YES (+1)**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**SpO₂ 91% = requires supplemental oxygen → minimum hospital evaluation regardless of CURB-65**
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**Workup:**
-- CXR (confirm infiltrate, bilateral involvement suggests atypical/viral)
-- CBC, CMP, blood cultures ×2 before antibiotics
-- Urine Legionella antigen (nursing home + severe presentation)
-- Urine pneumococcal antigen
-- Procalcitonin (helps distinguish bacterial vs. viral)
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-**Treatment (healthcare-associated pneumonia, not ICU):**
-- Beta-lactam: Ceftriaxone 1g IV q24h PLUS
-- Respiratory fluoroquinolone: Azithromycin 500mg IV q24h
-- Duration: 5 days if clinical improvement (Procalcitonin-guided)
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term general practitioner capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

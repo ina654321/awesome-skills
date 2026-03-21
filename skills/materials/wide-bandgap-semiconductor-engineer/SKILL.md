@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Wide Bandgap Semiconductor Engineer
 
 
@@ -205,113 +206,115 @@ This skill delivers expert-level guidance across wide bandgap semiconductor scie
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario 1 — Designing a 1200 V SiC MOSFET Drift Layer
+### Scenario 1: Initial Consultation
 
-**User:** I need a 1200 V SiC MOSFET. How do I design the drift layer doping and thickness?
+**Context:**
+A new client needs expert guidance on wide bandgap semiconductor engineer.
 
-**Expert:** For 1200 V blocking on 4H-SiC, use the one-sided abrupt junction approximation with E_crit = 2.5 MV/cm for 4H-SiC at N_D ~ 10¹⁶ cm⁻³.
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```python
-import numpy as np
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-# 4H-SiC material constants
-E_crit = 2.5e6     # V/cm critical electric field
-epsilon_r = 9.7    # relative permittivity
-epsilon_0 = 8.854e-14  # F/cm
-q = 1.602e-19      # C
-mu_n = 800         # cm²/V·s electron mobility in drift
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-# Target
-V_BR_target = 1200  # V
-
-# Step 1: Estimate drift layer thickness from t = 2*V_BR
-t_drift = 2 * V_BR_target
-print(f"Drift layer thickness: {t_drift*1e4:.1f} µm")
-
-# Step 2: Estimate doping from depletion approximation at punch-through
-# N_D = epsilon * E_crit^2
-N_D = (epsilon_r * epsilon_0 * E_crit**2)
-print(f"Optimal drift doping N_D: {N_D:.2e} cm⁻³")
-
-# Step 3: Specific on-resistance lower limit (Baliga)
-R_on_sp = (4 * V_BR_target**2)
-print(f"Ideal specific R_on: {R_on_sp*1000:.3f} mΩ·cm²")
-```
-
-Expected output:
-- Drift thickness: ~9.6 µm
-- N_D: ~5.5 × 10¹⁵ cm⁻³
-- Ideal R_on,sp: ~0.45 mΩ·cm²
-
-Add 20% margin to thickness for process variation. Use ATLAS TCAD to verify the ionization integral ∫α(E)dx = 1 at the target BV with realistic p-well/JTE termination geometry. [RISK] Without edge termination (JTE or floating guard rings), measured BV will be 40–60% of bulk value due to electric field crowding.
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario 2 — Evaluating GaN HEMT Current Collapse
+### Scenario 2: Problem Resolution
 
-**User:** My GaN-on-Si HEMT shows R_ds(on) increasing 3× under hard switching. How do I characterize and reduce current collapse?
+**Context:**
+Urgent wide bandgap semiconductor engineer issue requires immediate attention.
 
-**Expert:** Current collapse (dynamic R_ds(on)) in GaN is caused by electron trapping in buffer or surface traps during off-state high-voltage stress. Characterize with a double-pulse measurement:
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-```python
-# Python pseudo-code for double-pulse dynamic R_on extraction
-import numpy as np
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-# Double-pulse test parameters
-V_DS_stress = 400    # V — off-state stress voltage
-I_D_target  = 20     # A
-t_stress    = 10e-6  # 10 µs off-state pulse
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-# Ratio: dynamic R_on
-# Static R_on: measured at low V_DS (e.g., 10 V), no prior stress
-# Dynamic R_on: measured immediately after high-V stress
-
-def dynamic_ron_ratio(V_on_dynamic, V_on_static, I_D):
-    """V_on measured at t=50ns after turn-on at target I_D"""
-    R_on_dynamic = V_on_dynamic
-    R_on_static  = V_on_static
-    return R_on_dynamic
-
-# Values from oscilloscope capture
-ratio = dynamic_ron_ratio(V_on_dynamic=1.2, V_on_static=0.4, I_D=20)
-print(f"Dynamic/Static R_on ratio: {ratio:.1f}x")
-# Output: 3.0x — confirms severe current collapse
-```
-
-Root causes and mitigations:
-1. **Buffer traps (C-doped GaN):** Reduce C-doping in top buffer; use Fe-doped far-buffer; add 50–100 nm unintentionally doped (UID) GaN spacer near channel.
-2. **Surface traps:** Deposit SiN passivation (100–200 nm) by PECVD immediately after surface clean — before any air exposure. Use in-situ SiN in MOCVD if available.
-3. **Substrate back-barrier:** Add AlGaN back-barrier to confine 2DEG and reduce virtual gate effect.
-
-Verify improvement with temperature-dependent dynamic R_on: trap emission has characteristic activation energy (0.3–0.7 eV for common GaN traps); Arrhenius plot from pulsed I-V at 25–125°C identifies trap species.
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario 3 — AEC-Q101 Qualification Planning
+### Scenario 3: Strategic Planning
 
-**User:** We have a new 650 V GaN HEMT for automotive OBC (on-board charger). What AEC-Q101 tests do we need?
+**Context:**
+Build long-term wide bandgap semiconductor engineer capability.
 
-**Expert:** For a discrete 650 V GaN HEMT targeting AEC-Q101 Grade 1 (−40°C to 125°C T_J), the mandatory test matrix is:
+**User Input:**
+"How do we become world-class in this area?"
 
-| Test | Condition | Duration | Sample Size | Acceptance |
-|------|-----------|----------|-------------|------------|
-| HTGB (High Temp Gate Bias) | V_GS = max, T_J = 150°C | 1000 h | 77 units | 0 fails |
-| HTRB (High Temp Reverse Bias) | V_DS = 80% V_BR, T_J = 150°C | 1000 h | 77 units | 0 fails |
-| TC (Thermal Cycling) | −55°C to 150°C, ΔT = 205°C | 1000 cycles | 77 units | 0 fails |
-| HTOL (High Temp Op Life) | Active switching, T_J = 150°C | 1000 h | 77 units | 0 fails |
-| ESD (HBM) | ±2 kV HBM per JEDEC JS-001 | Single | 3 units per pin | 0 fails |
-| PH (Pressure/Humidity) | 85°C/85% RH, V_bias | 1000 h | 77 units | 0 fails |
+**Expert Response:**
+**18-Month Roadmap:**
 
-Key monitoring parameters before/after each stress:
-- BV_DSS: < 5% change
-- V_th: < ±0.5 V shift
-- R_ds(on): < 10% increase
-- I_GSS: < 5× initial value
-- Dynamic R_on ratio: < 2× (measure post-stress with double-pulse)
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-[RISK] Many GaN-on-Si devices fail HTRB due to buffer leakage increasing at elevated voltage + temperature. Characterize early with 100-hour HTRB samples before committing to full 1000-hour runs.
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

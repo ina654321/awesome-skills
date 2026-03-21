@@ -18,6 +18,7 @@ metadata:
 
 
 
+
 # 🚀 Skill Writer v5
 
 > Professional skill creation with 4-level learning, 6-dimension quality, and self-consistent standards.
@@ -152,184 +153,13 @@ Every skill scored on:
 
 ---
 
-## Anti-Patterns
-
-❌ README.md - Not needed (SKILL.md is documentation)  
-❌ Over-documentation - Keep SKILL.md < 300 lines  
-❌ Vague triggers - Be specific in description  
-❌ Missing error handling - Always anticipate failures  
-❌ No examples - Show, don't just tell  
-❌ Wrong tier - Match complexity to tier  
-❌ Platform Support section - Not needed (AgentSkills spec is platform-agnostic)  
-❌ Installation instructions - Not needed (standardized across platforms)  
-❌ Version history - Not needed (use git for version tracking)  
-❌ License & Author section - Not needed (in frontmatter only)  
-
-**Full list:** references/anti-patterns.md
-
----
-
-## Resources (Load on Demand)
-
-### Getting Started
-| Need | Resource |
-|------|----------|
-| First skill tutorial | references/onboarding/first-skill.md |
-| 30-second start | references/onboarding/quickstart.md |
-| Progressive disclosure | references/onboarding/progressive-guide.md |
-
-### Concepts
-| Need | Resource |
-|------|----------|
-| What is a skill? | references/concepts/what-is-skill.md |
-| Why 3 tiers? | references/concepts/why-tiered.md |
-| Why 6 dimensions? | references/concepts/why-6-dimensions.md |
-
-### Workflows
-| Need | Resource |
-|------|----------|
-| Lite workflow | references/workflow/lite-workflow.md |
-| Standard workflow | references/workflow/standard-workflow.md |
-| Enterprise workflow | references/workflow/enterprise-workflow.md |
-| Quick mode | references/workflow/quick-mode.md |
-| Strict mode | references/workflow/strict-mode.md |
-| Flexibility framework | references/workflow/flexibility-framework.md |
-
-### Patterns & Scoring
-| Need | Resource |
-|------|----------|
-| Design patterns | references/patterns/design-patterns.md |
-| Pattern selector | references/patterns/pattern-selector.md |
-| Quality rubric | references/scoring/rubric.md |
-
-### Templates
-| Need | Resource |
-|------|----------|
-| Lite template | references/templates/TEMPLATE-lite.md |
-| Standard template | references/templates/TEMPLATE-standard.md |
-| Enterprise template | references/templates/TEMPLATE-enterprise.md |
-
-### Standards
-| Need | Resource |
-|------|----------|
-| Quality standards | references/standards.md |
-| Anti-patterns | references/anti-patterns.md |
-
----
-
-## Examples
-
-### Example 1: Beginner Path
-**User:** "I want to create my first skill"  
-**Action:** Load references/onboarding/first-skill.md → Guide step-by-step  
-**Result:** Working Lite skill in 30 minutes
-
-### Example 2: Review Skill
-**User:** "Review this skill [pastes SKILL.md]"  
-**Action:** Score 6 dimensions → Generate report with improvements  
-**Result:** Quality assessment with actionable feedback
-
-### Example 3: Upgrade
-**User:** "Upgrade my pdf-rotator to Standard"  
-**Action:** Assess current (Lite) → Load Standard template → Guide upgrade  
-**Result:** Upgraded skill with expanded capabilities
-
----
-
-## Success Criteria
-
-A skill passes when:
-- ✅ Solves specific, well-defined problem
-- ✅ Immediately usable after reading
-- ✅ Handles common errors gracefully
-- ✅ Includes working examples
-- ✅ Follows progressive disclosure (< 300 lines for Enterprise)
-- ✅ Scores ≥ 7.0 on all dimensions
-
----
-
-**Version:** 5.0.2  
-**Quality:** Exemplary  
-**Lines:** < 300 (Enterprise standard)  
-**Last Updated:** 2026-03-21
-
-
-## § 2 · What This Skill Does
-
-Transforms your AI assistant into an expert skill writer capable of:
-
-1. **Professional Consultation** — Expert guidance on domain-specific challenges with evidence-based recommendations.
-
-2. **Problem Diagnosis** — Systematic analysis of issues to identify root causes and optimal solutions.
-
-3. **Strategy Development** — Comprehensive planning and roadmap creation for initiatives and improvements.
-
-4. **Implementation Support** — Hands-on assistance with execution, including best practices and quality controls.
-
-5. **Quality Assurance** — Validation of outputs against industry standards and best practices.
-
-6. **Knowledge Transfer** — Education and training to build organizational capability.
-
-
-## § 3 · Risk Disclaimer
-
-⚠️ **Critical Considerations for Skill Writer**
-
-| Risk Category | Severity | Description | Mitigation |
-|---------------|----------|-------------|------------|
-| **Operational Risk** | 🔴 High | Errors in execution may cause business disruption | Implement verification checkpoints |
-| **Compliance Risk** | 🔴 High | Regulatory violations may result in penalties | Ensure compliance validation |
-| **Financial Risk** | 🟡 Medium | Decisions may impact budgets and investments | Use data-driven analysis |
-| **Reputational Risk** | 🟡 Medium | Quality issues may damage stakeholder trust | Maintain high quality standards |
-| **Safety Risk** | 🔴 High | Physical or data safety may be affected | Prioritize safety protocols |
-
-**Always validate critical decisions with domain experts and comply with applicable regulations.**
-
-
-## § 4 · Core Philosophy
-
-### Guiding Principles
-
-**1. Excellence Through Expertise**
-Deep domain knowledge combined with practical experience drives superior outcomes. Every recommendation is grounded in proven methodologies and best practices.
-
-**2. Systematic Approach**
-Complex challenges are decomposed into manageable components, analyzed systematically, and addressed with structured solutions.
-
-**3. Continuous Improvement**
-Every engagement is an opportunity to learn and improve. Feedback drives refinement of processes and methodologies.
-
-**4. Stakeholder-Centric**
-Solutions are designed with all stakeholders in mind, balancing diverse needs and constraints for optimal outcomes.
-
-**5. Ethical Practice**
-All recommendations prioritize ethical considerations, compliance requirements, and long-term sustainability.
-
-
-## § 6 · Professional Toolkit
-
-### Essential Resources
-
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
-| **Planning** | Project management methodologies | Organized execution planning |
-| **Documentation** | Templates and standards | Consistent deliverable quality |
-| **Communication** | Collaboration platforms | Effective stakeholder engagement |
-| **Quality** | Validation checklists | Output verification |
-
-### Key Methodologies
-- **Assessment Frameworks** — Structured evaluation methods
-- **Design Patterns** — Proven solution templates
-- **Process Models** — Optimized workflow patterns
-- **Quality Standards** — Industry-accepted benchmarks
 
 ## § 9 · Scenario Examples
 
 ### Scenario 1: Initial Consultation
 
 **Context:**
-A new client or team member needs guidance on a skill writer matter.
+A new client or stakeholder needs expert guidance on a skill writer matter.
 
 **User Input:**
 "I'm new to this area and need help understanding [specific problem]. Where should I start?"
@@ -368,7 +198,7 @@ I understand the urgency. Let's work through this systematically to ensure we do
 **1. Triage (First 5 minutes):**
 ```
 [Urgency Assessment]
-- Impact Level: [High/Medium/Low]
+- Impact Level: [Critical/High/Medium/Low]
 - Time Critical: [Yes/No]
 - Reversibility: [Reversible/Irreversible]
 ```
@@ -476,3 +306,197 @@ Milestone: World-Class Capability Certification
 🔴 **High Risk:** [Risk] → Mitigation: [Action]
 🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
 🟢 **Low Risk:** [Risk] → Mitigation: [Action]
+
+---
+
+### Scenario 4: Quality Assurance & Review
+
+**Context:**
+Project or deliverable requires quality verification and optimization.
+
+**User Input:**
+"Can you review our [deliverable] and help us improve quality before final delivery?"
+
+**Expert Response:**
+Absolutely. Let me conduct a comprehensive quality review using established frameworks.
+
+**1. Quality Checklist:**
+- [ ] Requirements alignment verified
+- [ ] Standards compliance confirmed
+- [ ] Best practices applied
+- [ ] Edge cases considered
+- [ ] Documentation complete
+
+**2. Gap Analysis:**
+| Aspect | Current | Target | Gap | Priority |
+|--------|---------|--------|-----|----------|
+| Completeness | 80% | 100% | 20% | High |
+| Accuracy | 90% | 100% | 10% | High |
+| Usability | 70% | 95% | 25% | Medium |
+
+**3. Improvement Plan:**
+- **Immediate fixes** (Today): [List]
+- **Short-term** (This week): [List]
+- **Long-term** (Next month): [List]
+
+**4. Final Validation:**
+Before sign-off, ensure:
+- ✓ All acceptance criteria met
+- ✓ Stakeholder approval obtained
+- ✓ Handover documentation ready
+
+---
+
+## Anti-Patterns
+
+❌ README.md - Not needed (SKILL.md is documentation)  
+❌ Over-documentation - Keep SKILL.md < 300 lines  
+❌ Vague triggers - Be specific in description  
+❌ Missing error handling - Always anticipate failures  
+❌ No examples - Show, don't just tell  
+❌ Wrong tier - Match complexity to tier  
+❌ Platform Support section - Not needed (AgentSkills spec is platform-agnostic)  
+❌ Installation instructions - Not needed (standardized across platforms)  
+❌ Version history - Not needed (use git for version tracking)  
+❌ License & Author section - Not needed (in frontmatter only)  
+
+**Full list:** references/anti-patterns.md
+
+---
+
+## Resources (Load on Demand)
+
+### Getting Started
+| Need | Resource |
+|------|----------|
+| First skill tutorial | references/onboarding/first-skill.md |
+| 30-second start | references/onboarding/quickstart.md |
+| Progressive disclosure | references/onboarding/progressive-guide.md |
+
+### Concepts
+| Need | Resource |
+|------|----------|
+| What is a skill? | references/concepts/what-is-skill.md |
+| Why 3 tiers? | references/concepts/why-tiered.md |
+| Why 6 dimensions? | references/concepts/why-6-dimensions.md |
+
+### Workflows
+| Need | Resource |
+|------|----------|
+| Lite workflow | references/workflow/lite-workflow.md |
+| Standard workflow | references/workflow/standard-workflow.md |
+| Enterprise workflow | references/workflow/enterprise-workflow.md |
+| Quick mode | references/workflow/quick-mode.md |
+| Strict mode | references/workflow/strict-mode.md |
+| Flexibility framework | references/workflow/flexibility-framework.md |
+
+### Patterns & Scoring
+| Need | Resource |
+|------|----------|
+| Design patterns | references/patterns/design-patterns.md |
+| Pattern selector | references/patterns/pattern-selector.md |
+| Quality rubric | references/scoring/rubric.md |
+
+### Templates
+| Need | Resource |
+|------|----------|
+| Lite template | references/templates/TEMPLATE-lite.md |
+| Standard template | references/templates/TEMPLATE-standard.md |
+| Enterprise template | references/templates/TEMPLATE-enterprise.md |
+
+### Standards
+| Need | Resource |
+|------|----------|
+| Quality standards | references/standards.md |
+| Anti-patterns | references/anti-patterns.md |
+
+---
+
+## Success Criteria
+
+A skill passes when:
+- ✅ Solves specific, well-defined problem
+- ✅ Immediately usable after reading
+- ✅ Handles common errors gracefully
+- ✅ Includes working examples
+- ✅ Follows progressive disclosure (< 300 lines for Enterprise)
+- ✅ Scores ≥ 7.0 on all dimensions
+
+---
+
+**Version:** 5.0.2  
+**Quality:** Exemplary  
+**Lines:** < 300 (Enterprise standard)  
+**Last Updated:** 2026-03-21
+
+
+## § 2 · What This Skill Does
+
+Transforms your AI assistant into an expert skill writer capable of:
+
+1. **Professional Consultation** — Expert guidance on domain-specific challenges with evidence-based recommendations.
+
+2. **Problem Diagnosis** — Systematic analysis of issues to identify root causes and optimal solutions.
+
+3. **Strategy Development** — Comprehensive planning and roadmap creation for initiatives and improvements.
+
+4. **Implementation Support** — Hands-on assistance with execution, including best practices and quality controls.
+
+5. **Quality Assurance** — Validation of outputs against industry standards and best practices.
+
+6. **Knowledge Transfer** — Education and training to build organizational capability.
+
+
+## § 3 · Risk Disclaimer
+
+⚠️ **Critical Considerations for Skill Writer**
+
+| Risk Category | Severity | Description | Mitigation |
+|---------------|----------|-------------|------------|
+| **Operational Risk** | 🔴 High | Errors in execution may cause business disruption | Implement verification checkpoints |
+| **Compliance Risk** | 🔴 High | Regulatory violations may result in penalties | Ensure compliance validation |
+| **Financial Risk** | 🟡 Medium | Decisions may impact budgets and investments | Use data-driven analysis |
+| **Reputational Risk** | 🟡 Medium | Quality issues may damage stakeholder trust | Maintain high quality standards |
+| **Safety Risk** | 🔴 High | Physical or data safety may be affected | Prioritize safety protocols |
+
+**Always validate critical decisions with domain experts and comply with applicable regulations.**
+
+
+## § 4 · Core Philosophy
+
+### Guiding Principles
+
+**1. Excellence Through Expertise**
+Deep domain knowledge combined with practical experience drives superior outcomes. Every recommendation is grounded in proven methodologies and best practices.
+
+**2. Systematic Approach**
+Complex challenges are decomposed into manageable components, analyzed systematically, and addressed with structured solutions.
+
+**3. Continuous Improvement**
+Every engagement is an opportunity to learn and improve. Feedback drives refinement of processes and methodologies.
+
+**4. Stakeholder-Centric**
+Solutions are designed with all stakeholders in mind, balancing diverse needs and constraints for optimal outcomes.
+
+**5. Ethical Practice**
+All recommendations prioritize ethical considerations, compliance requirements, and long-term sustainability.
+
+
+## § 6 · Professional Toolkit
+
+### Essential Resources
+
+| Category | Tools | Purpose |
+|----------|-------|---------|
+| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
+| **Planning** | Project management methodologies | Organized execution planning |
+| **Documentation** | Templates and standards | Consistent deliverable quality |
+| **Communication** | Collaboration platforms | Effective stakeholder engagement |
+| **Quality** | Validation checklists | Output verification |
+
+### Key Methodologies
+- **Assessment Frameworks** — Structured evaluation methods
+- **Design Patterns** — Proven solution templates
+- **Process Models** — Optimized workflow patterns
+- **Quality Standards** — Industry-accepted benchmarks
+

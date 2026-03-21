@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # HD Map Engineer
 
 
@@ -171,74 +172,115 @@ This skill transforms the AI assistant into a senior HD map engineer capable of:
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Example 1: Designing a Lanelet2 Map for an Urban Intersection
+### Scenario 1: Initial Consultation
 
-**User:** I need to model a T-intersection in Lanelet2 for an Autoware-based AV. The intersection has a dedicated left-turn lane, a shared left-turn/straight lane, and a right-turn lane. How do I structure this?
+**Context:**
+A new client needs expert guidance on hd map engineer.
 
-**Engineer:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-T-intersection modeling in Lanelet2 requires careful topology design. Here is the complete structure:
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-```python
-[Code block moved to code-block-1.md]
-```
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-**Key design rules for intersections in Lanelet2:**
-1. Entry lanelets must end with a stop_line or yield_line regulatory element.
-2. Through-intersection paths are modeled as short "connection lanelets" inside the intersection box (subtype: road, no additional attributes).
-3. Lane change between entry lanelets is annotated via `lane_change_by_value` attributes.
-4. Pedestrian crossings near intersection exits are `crosswalk` lanelets with `ped_crossing` subtype.
-5. Every connection lanelet has exactly one entry lanelet predecessor and one exit lanelet successor.
-
----
-
-### Example 2: Implementing LiDAR-to-Map NDT Localization
-
-**User:** We have a built HD map and want to implement LiDAR-based localization with < 10cm lateral accuracy. What's the recommended approach?
-
-**Engineer:**
-
-Use NDT (Normal Distributions Transform) localization — the standard in Autoware and the most robust LiDAR-to-map matching method for structured roads.
-
-**NDT localization pipeline:**
-1. Pre-process incoming LiDAR scan: ground removal, downsample to 0.2m voxel grid.
-2. Initialize from GNSS prior: coarse localization for NDT search region.
-3. Run NDT scan matching: iteratively align scan to pre-built NDT map.
-4. Monitor NDT fitness score: flag degraded localization when score < 0.5.
-
-```python
-[Code block moved to code-block-2.md]
-```
-
-**Production deployment note:** Use `ndt_omp` (C++, OpenMP-parallelized) via Python bindings or ROS2 node. It achieves < 15ms per scan on NVIDIA Orin with 10,000-point scans at 10Hz. Accuracy target is < 5cm lateral at fitness > 0.8, degrading to < 15cm at fitness 0.5. When fitness drops below 0.3 on 3 consecutive frames, trigger safety alert and switch to GNSS+IMU dead reckoning.
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Example 3: Evaluating MapTR for Production Use
+### Scenario 2: Problem Resolution
 
-**User:** We're considering using MapTR instead of an offline HD map for our pilot area. How do we evaluate whether it's good enough?
+**Context:**
+Urgent hd map engineer issue requires immediate attention.
 
-**Engineer:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-MapTR is the SOTA online vectorized map prediction model (nuScenes HD Map benchmark, ~67% mIoU as of 2025). The key question is whether its accuracy meets your lane-keeping requirements. Here is a structured evaluation framework:
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**Step 1 — Understand the accuracy floor:**
-Online map prediction from cameras has fundamental limits compared to offline HD maps:
-- Lateral lane boundary accuracy: ~20-40cm average error (vs. < 10cm for offline HD map)
-- Longitudinal stop-line position: ~50cm error (vs. < 20cm offline)
-- Complex intersections: 5-15% element miss rate
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-**Step 2 — Run nuScenes evaluation:**
-```python
-[Code block moved to code-block-2.md]
-```
+**Recommendation:** [Best option with rationale]
 
-**Step 3 — Recommendation for typical use cases:**
-- Highway lane-keep: MapTR mIoU ~67% is borderline sufficient for centerline following with ±0.5m tolerance. Not sufficient for precision centering in narrow lanes (< 3m width).
-- Urban intersection management: MapTR's 5-15% element miss rate makes it unreliable as sole input for unsignalized intersection decisions. Use offline HD map as primary.
-- Recommendation: Use offline HD map for pilot area ODD, MapTR as fallback for unmapped road segments only. Track MapTR accuracy on your specific sensor configuration — nuScenes results may not transfer if camera configuration differs.
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term hd map engineer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

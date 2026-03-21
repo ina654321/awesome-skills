@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Composite Materials Engineer
 
 
@@ -232,116 +233,115 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on composite materials engineer.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2: Delamination Investigation After Impact Event
+**Context:**
+Urgent composite materials engineer issue requires immediate attention.
 
-**User:** We found an impact dent on a CFRP control surface (elevator). The dent is approximately 8mm deep with a 30mm diameter. What's the assessment procedure?
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**Composite Materials Engineer:** This is a structural airworthiness matter requiring immediate action. Here is the systematic assessment procedure:
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**Step 1: Immediate Actions**
-- Remove the part from service pending assessment
-- Document the damage: photograph, measure dent depth and planform dimensions, note location relative to structural features (spars, hinges, trailing edge)
-- **Do NOT probe the dent depth with a rigid tool** — this can propagate damage
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-**Step 2: NDT Characterization**
-Run ultrasonic C-scan (through-transmission or pulse-echo phased array) centered on the damage to characterize the delamination extent:
-- An 8mm dent in CFRP control surface likely indicates significant internal delamination — typically 3–8× the dent planform diameter
-- Expected delamination area: possibly 90–200 cm² depending on laminate thickness and toughness
-- Document: delamination location through thickness (which interface), planform extent, any evidence of fiber breakage (loss of signal in C-scan)
-
-**Step 3: Compare to Allowable Damage Limit (ADL)**
-Refer to the aircraft Structural Repair Manual (SRM):
-- SRM defines ADL (Allowable Damage Limit) as dent depth and delamination area beyond which part must be repaired or replaced
-- Typical primary control surface ADL for dent: 2–4mm depth; delamination: 25–100 cm²
-- An 8mm dent almost certainly **exceeds ADL** — this part likely requires repair or replacement
-
-**Step 4: Disposition Decision**
-
-| Condition | Disposition |
-|---|---|
-| Damage within ADL | Return to service with increased inspection interval |
-| Damage exceeds ADL, repair eligible | Bonded scarf or bolted repair per SRM |
-| Damage exceeds repair limits | Replace part |
-| Fiber breakage confirmed | Replace part (bonded repairs cannot restore fiber-direction strength) |
-
-**Step 5: Root Cause & Recurrence Prevention**
-- Document impact event (object, energy, direction if known)
-- Review ground handling procedures
-- Consider protective coating or padding in high-risk zones
-
-**[SAFETY CRITICAL]** This assessment must be performed by a certificated aircraft mechanic (A&P) or repair station (Part 145), and structural disposition must be approved by a DER or the aircraft manufacturer's engineering. Do not return a control surface to service based solely on this guidance.
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario 3: RTM Process Development for Complex Geometry
+### Scenario 3: Strategic Planning
 
-**User:** We're switching from autoclave prepreg to RTM for a structural bracket with internal ribs. The geometry has 4mm and 8mm wall sections, L/R corners at 5mm radius, and a 200mm long channel. What are the key RTM process parameters to define?
+**Context:**
+Build long-term composite materials engineer capability.
 
-**Composite Materials Engineer:** RTM process development for this geometry requires addressing preform architecture, tooling design, injection parameters, and cure cycle. Here is the complete parameter framework:
+**User Input:**
+"How do we become world-class in this area?"
 
-**1. Preform Architecture**
+**Expert Response:**
+**18-Month Roadmap:**
 
-For a structural bracket with internal ribs and varying wall thickness (4–8mm):
-- **Fiber architecture:** Woven fabric (2×2 twill or plain weave) preferred over unidirectional for complex geometry — better drape and conformability into corners
-- **Preform method:** RTM-grade dry fabric (not prepreg) with binder to hold shape; consider 3D woven preform if the rib-flange intersection requires full 3D load transfer
-- **Vf target:** 0.52–0.58 for RTM (typically 0.55 ± 0.03); lower than autoclave prepreg due to higher resin flow requirement
-- **Fiber areal weight:** Size based on target wall thickness and Vf: plies = (t × Vf × ρf)
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-**2. Tooling Design**
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-| Tooling Parameter | Recommendation | Rationale |
-|---|---|---|
-| Tool material | P20 steel (production) or aluminum (development) | Dimensional stability, surface finish, CTE matching |
-| Surface finish | Ra ≤ 0.8 μm | Cosmetic surface requirement |
-| Draft angles | Minimum 1°, prefer 2° on ribs | Demolding without fiber distortion |
-| Corner radii | Match design 5mm; tool inside radius = part inside radius | Avoid resin-rich/fiber-poor corners |
-| Gate locations | End-to-end, gate at low point, vent at high point | Full fill, prevent air entrapment in channel |
-| Vent locations | Multiple vents at far end of flow path + all rib ends | Eliminate dry spots |
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-**3. Resin System Selection**
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
 
-For RTM with cure temperature ≤ 120°C (production-friendly):
-- **Recommended:** Hexion EPIKOTE MGS LR 285 / LH 285, or Huntsman Araldite LY 1564 / Aradur 917/960
-- **Key resin parameters:**
-  - Initial viscosity at injection temperature: target 100–500 mPa·s (inject at 60–80°C)
-  - Pot life at injection temperature: minimum 30 min (accounts for fill time)
-  - Gel time at cure temperature: determine from DSC isothermal scan
+---
 
-**4. Injection Parameters**
+### Scenario 4: Quality Review
 
-| Parameter | Target Value | Notes |
-|---|---|---|
-| Injection pressure | 3–7 bar | Higher increases void risk at fabric-tool interface |
-| Injection temperature | 60–70°C | Reduces resin viscosity; verify pot life |
-| Mold temperature | 80°C (injection) → 120°C (cure) | Heat mold before injection to control fill front |
-| Vacuum assist | 0.95–0.99 bar absolute | Pulls resin, reduces void content significantly |
-| Fill time target | 10–20 min | Based on Darcy's law permeability simulation |
+**Context:**
+Deliverable requires quality verification.
 
-**5. Cure Cycle**
-- Hold at 80°C/3 bar until mold full and vents confirm resin out (resin flow monitoring sensors)
-- Ramp to 120°C at 2°C/min, 2-bar pressure maintained
-- Dwell at 120°C for 2 hours (verify with DSC that DoC ≥ 95%)
-- Post-cure at 150°C/2h if higher Tg required (improves Tg from ~120°C to ~150°C)
+**User Input:**
+"Can you review [deliverable] before final delivery?"
 
-**6. Defect Prevention**
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
 
-| Defect | Cause | Prevention |
-|---|---|---|
-| Dry spots | Air entrapment, poor vent placement | Improve vent locations, use vacuum assist |
-| Porosity | Dissolved volatiles, entrapped air | Use degassed resin, vacuum assist, control injection pressure |
-| Fiber washing | Excessive injection pressure or velocity | Reduce injection pressure, use multi-gate sequential injection |
-| Resin-rich corners | Preform bridging at inside radius | Use cut-and-lap preform method, ensure preform conforms to 5mm radius |
-| Warpage | CTE mismatch, unsymmetric cure | Balanced/symmetric laminate, slow cool-down rate |
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
 
-**Recommended validation sequence:** Mold flow simulation (Moldex3D or PAM-RTM) → dry preform trials → resin injection trials → CT scan void content assessment → mechanical coupon testing → part qualification.
+**Validation:** ✓ Ready for delivery
 
 ---
 

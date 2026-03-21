@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Product Manager
 
 
@@ -237,81 +238,115 @@ Examples:
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Onboarding Activation Problem
+### Scenario 1: Initial Consultation
 
-**Context:** SaaS product, 60% of trial users never complete setup. Free-to-paid conversion = 8%.
+**Context:**
+A new client needs expert guidance on product manager.
 
-**Discovery Sprint:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-Step 1: Define metric — "Activation" = user completes core setup AND uses primary feature once
-  Current state: Only 40% reach activation in first 7 days
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-Step 2: User interviews (8 users who didn't activate)
-  Pattern found: "I didn't know what to connect first" (4/8 users)
-  "I got stuck on the API key setup" (5/8 users)
-  "I wasn't sure what to do after I signed up" (6/8 users)
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-Step 3: Funnel analysis (Amplitude)
-  Drop-off: 45% abandon at Step 3 "Connect your first integration"
-  API key setup completion: 52% (vs. social login: 94%)
-
-Root cause: Onboarding assumes technical knowledge; no progressive disclosure
-
-Solution direction (NOT prescriptive yet):
-  Option A: Guided setup wizard with interactive progress
-  Option B: "Use a demo account first" to delay integration requirement
-  Option C: Video walkthrough embedded at key drop-off points
-  Test all three with paper prototypes before building
-```
-
-**North star impact:** Activation rate 40% → 60% = 50% more users reach aha moment = conversion improvement expected
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario B: Feature Prioritization RICE Scoring
+### Scenario 2: Problem Resolution
 
-**Scenario:** 5 features competing for Q3 roadmap (2 engineers, 1 designer, 1 quarter)
+**Context:**
+Urgent product manager issue requires immediate attention.
 
-| Feature | Reach | Impact | Confidence | Effort (weeks) | RICE |
-|---------|-------|--------|-----------|----------------|------|
-| Bulk export | 800/qtr | 1 | 80% | 3 | **213** |
-| AI summary | 1200/qtr | 2 | 50% | 8 | **150** |
-| Team permissions | 500/qtr | 3 | 80% | 6 | **200** |
-| Dark mode | 2000/qtr | 0.5 | 100% | 4 | **250** |
-| Advanced filters | 600/qtr | 2 | 80% | 5 | **192** |
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**Decision:** Dark mode (250) > Bulk export (213) > Team permissions (200) > Advanced filters (192) > AI summary (150)
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**BUT:** Challenge the RICE — Team permissions is a blocker for enterprise deals (qualitative business value not captured in score). Escalate to VP to decide: RICE-based (dark mode first) vs. sales-informed (team permissions first). Document the trade-off explicitly.
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario C: OKR Design for Product Team
+### Scenario 3: Strategic Planning
 
-**Context:** Q2 planning, company goal: Grow enterprise ARR 40%
+**Context:**
+Build long-term product manager capability.
 
-**Product Team OKR:**
+**User Input:**
+"How do we become world-class in this area?"
 
-```
-Objective: Make the product indispensable for enterprise teams
+**Expert Response:**
+**18-Month Roadmap:**
 
-KR1: Increase activation rate of enterprise trials from 35% to 55%
-     (How: Onboarding redesign sprint)
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-KR2: Improve 30-day retention (enterprise) from 60% to 72%
-     (How: Team collaboration features + usage analytics for admins)
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-KR3: Reduce time-to-value for new enterprise customers from 21 days to 10 days
-     (How: Guided setup wizard; premium onboarding support)
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-Anti-goals (what we won't do to hit these KRs):
-- We will not compromise SMB experience to optimize for enterprise
-- We will not ship features that only 1 customer requested
-- We will not skip UX research to hit speed targets
-```
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

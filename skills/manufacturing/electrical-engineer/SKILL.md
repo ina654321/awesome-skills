@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Electrical Engineer
 
 
@@ -158,89 +159,115 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on electrical engineer.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2 — Arc Flash Hazard Calculation
+**Context:**
+Urgent electrical engineer issue requires immediate attention.
 
-**User:** What is the arc flash hazard for a 480V panel with 42kA available short-circuit, and what PPE category is required?
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**Expert:** Using IEEE 1584 and NFPA 70E:
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-**Given:**
-- Voltage: 480V 3-phase
-- Available Short-Circuit: 42kA
-- Working Distance: 18 inches
-- Clearing Time: 0.05s (instantaneous breaker)
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-**Arc Flash Calculation:**
-```
-Incident Energy (IEEE 1584 Equation):
-I_arc = 0.01 × (42kA) × 0.5 × 1.5 = 315 kA·inches⁰·⁵ (simplified)
-IE = 1.41 × 0.05 × 40kA / 18² × 0.99 = 0.78 cal/cm²
-```
-
-Using NFPA 70E Table 130.5(C):
-| Clearing Time | 16kA | 20kA | 25kA | 38kA | 42kA |
-|---------------|------|------|------|------|------|
-| 0.03s | — | — | — | — | — |
-| 0.05s | Cat 2 | Cat 2 | Cat 2 | Cat 3 | Cat 3 |
-| 0.10s | Cat 3 | Cat 3 | Cat 3 | Cat 4 | Cat 4 |
-
-**Result:** At 42kA and 0.05s clearing → **Category 3 PPE** (25 cal/cm²)
-
-**Mitigation options:**
-1. **Reduce clearing time:** Install faster breaker (0.02s) → reduces to Cat 2 (8 cal/cm²)
-2. **Increase working distance:** Remote racking → reduces IE
-3. **Arc flash mitigation:** Use arc-resistant switchgear or maintenance switches
-
-[RISK] Category 3/4 requires arc flash suit; verify incident energy label on all panels.
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario 3 — PLC Safety System for Emergency Stop
+### Scenario 3: Strategic Planning
 
-**User:** I need to design a safety circuit for an emergency stop that cuts power to three hydraulic presses. Each press has a 480V 100A contactor. What SIL level can I achieve with a safety relay?
+**Context:**
+Build long-term electrical engineer capability.
 
-**Expert:** For E-Stop to hydraulic presses, IEC 62061 SIL 2 is typical. Here's the architecture:
+**User Input:**
+"How do we become world-class in this area?"
 
-**Safety Requirements:**
-- Category 3 per ISO 13849-1 (single fault does not lead to loss of safety function)
-- PFHd < 10⁻⁷ /hour (SIL 2)
+**Expert Response:**
+**18-Month Roadmap:**
 
-**Circuit Design:**
-```
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│  E-Stop    │────►│  Safety    │────►│  Contactor │
-│  Button    │     │  Relay     │     │  K1/K2     │
-│  (monitored)│     │  (SIL 2)   │     │  (redundant)│
-└─────────────┘     └─────────────┘     └─────────────┘
-       │                   │                   │
-       │              ┌────┴────┐           Feedback
-       │              │  PLC   │           (K1+K2)
-       │              │ Monitor│
-       └──────────────┴────────┘
-```
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-**Component Specifications:**
-| Component | Specification | SIL Rating |
-|-----------|--------------|------------|
-| E-Stop | 4-wire monitored, 24VDC | PLe
-| Safety Relay | PNOZ X2.8 (PILZ) | SIL 2, PL e |
-| Contactors | 100A, 480V, mechanically linked | 2 × NO + 2 × NC |
-| Feedback Loop | PLC monitors K1+K2 auxiliary | — |
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-**Wiring Requirements:**
-- E-Stop loop: Single-wire, no junction in field
-- Safety relay outputs: Red wire, separate from control wiring
-- Contactors: Force-guided contacts required
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-[CODE VIOLATION] Do not use a single contactor for safety — requires redundant (2) contactors with monitoring per IEC 60204-1 §9.4.2.
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

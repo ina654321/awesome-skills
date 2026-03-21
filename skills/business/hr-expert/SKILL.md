@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # HR Expert / HRBP
 
 
@@ -225,145 +226,6 @@ HR: _____________
 
 ---
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Managing a Difficult Termination
-
-**Input:** "I need to let go of an underperforming employee. They've been on a PIP for 60 days and haven't improved. What's the process?"
-
-**HR Expert response:**
-
-> **Pre-termination checklist — do not skip any item.**
->
-> **Documentation verification:**
-> - [ ] PIP signed by employee, manager, and HR?
-> - [ ] Check-in meetings documented with dates and outcomes?
-> - [ ] Performance gaps still present? (not subjective — specific examples with dates)
-> - [ ] Consistent standard applied? (Would you PIP another employee for same behavior?)
-> - [ ] No protected class connection to PIP initiation? (timing relative to leave, complaint, etc.)
->
-> **Legal consultation:** Confirm with employment counsel in the applicable jurisdiction. At-will states (US) have more flexibility; many countries require notice, severance, or works council consultation.
->
-> **Separation package considerations:**
-> | Factor | Impact on Package |
-> |--------|------------------|
-> | Years of service | 1-2 weeks per year of service (common benchmark) |
-> | Jurisdiction | Some countries mandate minimum severance by law |
-> | Role sensitivity (access to IP, clients) | Consider PIIA, non-solicit enforcement |
-> | Potential legal risk | Higher risk = more generous package |
->
-> **The termination meeting:**
-> ```
-> Participants: Manager + HR (never alone; two-person rule)
-> Duration: 15-20 minutes maximum (no debate, no re-negotiation)
-> Script:
->   "I have some difficult news. Today is your last day with [Company]."
->   "Over the past [X] weeks, the improvements we needed to see did not occur."
->   "Here is your separation agreement and what we're offering..."
->   "You can take time to review and return it within [X] days."
->
-> What NOT to do:
->   - Do not soften the message to the point where it's unclear they're being let go
->   - Do not debate or relitigate the performance issues
->   - Do not share details with the broader team
-> ```
->
-> **Day-of logistics:**
-> - Revoke systems access at meeting start (IT coordination)
-> - Collect badge, equipment
-> - If remote: Send prepaid return shipping label; provide offboarding instructions
-> - Reference policy: What does the company say about references?
-
-### Scenario 2: Diagnosing High Team Attrition
-
-**Input:** "One of our engineering teams has 40% attrition in the past year. What should I look into?"
-
-**HR Expert response:**
-
-> **40% attrition is a 5-alarm fire. This is a systemic issue, not individual choice.**
->
-> **Diagnosis Framework (run in parallel):**
->
-> **Exit data analysis:**
-> - Pull exit interview data for that team's leavers
-> - Code reasons: Manager, compensation, career growth, culture, workload, competing offer
-> - Compare to company attrition profile: Is this team an outlier?
->
-> **Manager investigation:**
-> ```
-> Most high-attrition teams have a manager problem. Look for:
->   - Engagement scores lower than company avg for this team
->   - 360 feedback patterns (if available)
->   - Skip-level conversations with 3-5 remaining team members
->   - Performance rating distribution: unusually low or high?
->   - Time-in-role of departures: < 12 months = hiring/onboarding; 12-24 months = development/culture
-> ```
->
-> **Compensation benchmarking:**
-> - Are this team's roles in-market or below? (Especially if tech roles in competitive locations)
-> - Compa-ratio analysis: Average team compa-ratio vs. company average
->
-> **Workload and role clarity:**
-> - Is this team understaffed? Backfill lag creating burnout?
-> - Are roles clearly defined? Ambiguity is a top-10 attrition driver
->
-> **Engagement survey deep-dive:**
-> - Filter engagement data for this team
-> - Lowest-scoring questions = highest-priority root causes
->
-> **30-day action plan:**
-> 1. Skip-level conversations with 5+ team members (this week)
-> 2. Exit interview synthesis and root cause categorization
-> 3. Compensation benchmarking vs. market (Radford, Mercer, Levels.fyi)
-> 4. Present findings and recommended actions to business leader
-
-### Scenario 3: Restructuring Communication Planning
-
-**Input:** "We need to lay off 15% of the company. How do I plan the communication?"
-
-**HR Expert response:**
-
-> **Layoff communication is a culture-defining moment. Plan meticulously.**
->
-> **Sequencing (must be in this order):**
-> ```
-> D-30:  Employment counsel review; WARN Act check (US: 100+ employees, 60 days notice)
-> D-14:  Board/Executive approval; prepare all documentation
-> D-7:   Manager briefings (under NDA); prepare separation packets
-> D-1:   IT access revocation plan ready; security plan if needed
-> DAY 0: Impacted employees notified first (before all-hands)
->        All-hands with CEO within 2 hours of individual notifications
-> D+1:   Team check-ins for surviving employees (grief is real)
-> D+7:   Manager office hours and FAQ document
-> ```
->
-> **Individual notification script:**
-> ```
-> "I have difficult news to share with you. [Company] is making significant
->  restructuring decisions, and your role is being eliminated. This is not
->  a reflection of your performance — it's a business decision about [context].
->
->  Here is your separation package: [X weeks severance, benefits continuation,
->  outplacement support, equity treatment].
->
->  Your last working day is [date]. [Access/logistics details].
->
->  We will provide a positive reference. I'm committed to supporting your transition."
-> ```
->
-> **All-hands message (CEO):**
-> - Lead with why (business context, not blame)
-> - Acknowledge the loss (do not minimize)
-> - Describe the future state (what are we building toward)
-> - Commit to transparency going forward
-> - Take questions (even uncomfortable ones)
->
-> **"Survivor syndrome" — often overlooked:**
-> Remaining employees will be scared, guilty, and wondering "am I next?"
-> Address directly within 48 hours: team meetings, manager 1:1s, FAQ document
-
----
-
 ## § 6 · Platform Installation
 
 → 详见 [通用安装指南](../_common/installation.md)
@@ -408,16 +270,6 @@ EOF
 | **HR Expert + Project Manager** | Workforce change management, restructuring | PM manages timeline/milestones; HR manages people impact and communication |
 | **HR Expert + Legal Counsel** | Employment disputes, terminations, leave management | HR manages the process; Legal advises on risk and compliance |
 | **HR Expert + CFO** | Headcount planning, total comp budgeting, HR ROI | HR defines talent needs; CFO approves investment and tracks people cost |
-
----
-
-## § 9 · Version History
-
-| Version | Date | Changes | Author |
-|---------|------|---------|--------|
-| 3.0.0 | 2026-03-13 | Upgraded to exemplary v3.0.0 | neo.ai |
-| 2.0.0 | 2026-02-24 | Expert Verified upgrade: System Prompt §1 (4-subsection), Decision Framework (6 gates), 9-box framework, STAR interview, PIP template, HR metrics, 3 scenario examples, pitfalls (8) | neo.ai |
-| 1.0.0 | 2026-02-16 | Initial template-based release | awesome-skills |
 
 ---
 
@@ -520,5 +372,117 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | Industry Standards | Guidelines | Compliance requirements |
 | Research Papers | Academic | Latest methodologies |
 | Case Studies | Practical | Real-world applications |
+
+---
+
+
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on hr expert.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:**
+Urgent hr expert issue requires immediate attention.
+
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
+
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term hr expert capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---

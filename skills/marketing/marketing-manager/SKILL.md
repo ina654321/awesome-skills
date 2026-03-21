@@ -24,6 +24,7 @@ metadata:
 
 
 
+
 # Marketing Manager
 
 
@@ -204,100 +205,115 @@ Shared:
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Annual Marketing Plan Structure
+### Scenario 1: Initial Consultation
 
-**Company:** Series B SaaS, $8M ARR, 30-person sales team, target: $20M ARR in 12 months
+**Context:**
+A new client needs expert guidance on marketing manager.
 
-**Annual Marketing Plan Framework:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-FY Marketing Plan — [Company] — [Year]
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-Revenue Goal: $20M ARR (+$12M net new)
-Marketing's Pipeline Contribution Target: 40% of new ARR = $4.8M pipeline needed
-Required MQLs: $4.8M pipeline / $50K avg. deal / 15% MQL→Close = 640 MQLs/year = ~55/month
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-Budget: $2.4M (20% of target new ARR — aggressive growth stage)
-Budget Allocation:
-  Demand Gen (Paid): 40% = $960K
-  Content/SEO: 15% = $360K
-  Events: 15% = $360K
-  Brand/PR: 10% = $240K
-  Tools/Tech: 10% = $240K
-  Headcount/Agency: 10% = $240K
-
-Quarterly Themes:
-  Q1: Category awareness + foundation (website, content calendar, tracking)
-  Q2: Demand gen scale-up + 1 major event
-  Q3: Product launch campaign + case study acceleration
-  Q4: Pipeline acceleration + annual planning
-```
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario B: Product Launch GTM Plan
+### Scenario 2: Problem Resolution
 
-**Situation:** SaaS company launching new enterprise pricing tier in 6 weeks.
+**Context:**
+Urgent marketing manager issue requires immediate attention.
 
-**GTM Checklist:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-```
-Positioning & Messaging (Weeks 1-2):
-□ Enterprise positioning doc: why enterprise, what's different, who it's for
-□ Key message validated with 5 enterprise customers (voice of customer)
-□ Competitive messaging: how to handle "but competitor X has..."
-□ Pricing page updated (design + copy approved)
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-Sales Enablement (Weeks 2-4):
-□ Sales deck updated with enterprise tier slides
-□ FAQ document: 20 most common enterprise questions with answers
-□ Demo environment updated to show enterprise features
-□ Sales training session (45 min) scheduled and completed
-□ Enterprise objection handling guide distributed
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-Marketing Execution (Weeks 3-6):
-□ Launch email to existing database (A/B test subject line)
-□ Blog post: "Introducing Enterprise" + customer quote
-□ LinkedIn organic post + sponsored content
-□ PR pitch to 3 target publications (not embargo-breaking)
-□ Webinar scheduled: "Enterprise [Category] Best Practices"
-
-Measurement:
-□ Enterprise MQL target: 50 in first 30 days
-□ Trial-to-paid conversion rate for enterprise tier (target: 25%)
-□ 14-day post-launch review with sales
-```
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario C: Marketing-Sales Alignment Recovery
+### Scenario 3: Strategic Planning
 
-**Problem:** Sales VP says "Marketing MQLs are garbage — our reps waste time on bad leads." Current MQL→SQL rate: 8%. Target: 25%.
+**Context:**
+Build long-term marketing manager capability.
 
-**Diagnostic and Action Plan:**
+**User Input:**
+"How do we become world-class in this area?"
 
-```
-Week 1: MQL Audit
-- Pull last 90 days of MQLs; analyze by source, ICP fit, buying stage signal
-- SQL reasons for rejection: "wrong ICP" (40%)? "no budget" (25%)? "wrong stage" (35%)?
+**Expert Response:**
+**18-Month Roadmap:**
 
-Root cause: MQL definition too loose (anyone who downloads any content)
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-Week 2-3: Redefine MQL
-Old: Any contact who fills a form
-New: Contact who meets ALL of:
-  ✓ ICP firmographic fit (company size >100, target industries)
-  ✓ Behavioral signals: 2+ high-intent actions (pricing page, ROI calculator, demo request)
-  ✓ Not existing customer or competitor
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-Week 4: New SLA Agreement
-- MQL Volume: Accept lower quantity (~30/month) for higher quality
-- Sales commits to 24-hour response time
-- Monthly lead review meeting: marketing + sales review rejected MQLs together
-- 90-day success metric: MQL→SQL rate from 8% to 20%+
-```
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

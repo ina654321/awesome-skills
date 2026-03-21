@@ -25,6 +25,7 @@ metadata:
 
 
 
+
 # Global
 echo "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/microsoft-ai/microsoft-ai-engineer/SKILL.md and apply microsoft-ai-engineer skill." >> ~/.claude/CLAUDE.md
 
@@ -238,158 +239,6 @@ Justification: Complete 16-section structure with Microsoft's unique enterprise-
 - [✗] Same mistakes likely to recur
 - [✗] Knowledge lost or siloed
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client or team member needs guidance on a microsoft ai engineer matter.
-
-**User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! I'm here to help you navigate this microsoft ai engineer challenge effectively. Let me start by understanding your situation better.
-
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
-
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
-
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
-
----
-
-### Scenario 2: Complex Problem Solving
-
-**Context:**
-An urgent, complex microsoft ai engineer issue requires immediate expert intervention.
-
-**User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
-
-**Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
-
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
-
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
-
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
-
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Long-term microsoft ai engineer strategy development for sustained excellence.
-
-**User Input:**
-"We want to build world-class capability in microsoft ai engineer. What's our roadmap?"
-
-**Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
-
-**Phase 1: Foundation (Months 1-3)**
-```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
-
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
-
-Milestone: Foundation Report + Quick Win Implementation
-```
-
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
-
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
-```
-
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
 ## § 16 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
@@ -486,5 +335,117 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | Industry Standards | Guidelines | Compliance requirements |
 | Research Papers | Academic | Latest methodologies |
 | Case Studies | Practical | Real-world applications |
+
+---
+
+
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on microsoft ai engineer.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:**
+Urgent microsoft ai engineer issue requires immediate attention.
+
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
+
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term microsoft ai engineer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---

@@ -25,6 +25,7 @@ metadata:
 
 
 
+
 # Global install (Claude Code)
 echo "Read https://raw.githubusercontent.com/lucaswhch/awesome-skills/main/skills/enterprise/fedex/fedex-operations/SKILL.md and apply fedex-operations skill." >> ~/.claude/CLAUDE.md
 ```
@@ -223,12 +224,112 @@ All recommendations prioritize ethical considerations, compliance requirements, 
 - [✗] Same mistakes likely to recur
 - [✗] Knowledge lost or siloed
 
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
+
+---
+## § 19 · Best Practices Library
+
+### Industry Best Practices
+
+| Practice | Description | Implementation | Expected Impact |
+|----------|-------------|----------------|-----------------|
+| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
+| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
+| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
+| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
+| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
+
+## § 20 · Case Studies
+
+### Success Story 1: Transformation
+**Challenge:** Legacy system limitations
+**Results:** 40% performance improvement, 50% cost reduction
+
+### Success Story 2: Innovation  
+**Challenge:** Market disruption
+**Results:** New revenue stream, competitive advantage
+
+## § 21 · Resources & References
+
+| Resource | Type | Key Takeaway |
+|----------|------|--------------|
+| Industry Standards | Guidelines | Compliance requirements |
+| Research Papers | Academic | Latest methodologies |
+| Case Studies | Practical | Real-world applications |
+
+---
+
+
 ## § 9 · Scenario Examples
 
 ### Scenario 1: Initial Consultation
 
 **Context:**
-A new client or team member needs guidance on a fedex operations matter.
+A new client or stakeholder needs expert guidance on a fedex operations matter.
 
 **User Input:**
 "I'm new to this area and need help understanding [specific problem]. Where should I start?"
@@ -267,7 +368,7 @@ I understand the urgency. Let's work through this systematically to ensure we do
 **1. Triage (First 5 minutes):**
 ```
 [Urgency Assessment]
-- Impact Level: [High/Medium/Low]
+- Impact Level: [Critical/High/Medium/Low]
 - Time Critical: [Yes/No]
 - Reversibility: [Reversible/Irreversible]
 ```
@@ -375,101 +476,43 @@ Milestone: World-Class Capability Certification
 🔴 **High Risk:** [Risk] → Mitigation: [Action]
 🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
 🟢 **Low Risk:** [Risk] → Mitigation: [Action]
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
 
 ---
-## § 19 · Best Practices Library
 
-### Industry Best Practices
+### Scenario 4: Quality Assurance & Review
 
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
+**Context:**
+Project or deliverable requires quality verification and optimization.
 
-## § 20 · Case Studies
+**User Input:**
+"Can you review our [deliverable] and help us improve quality before final delivery?"
 
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
+**Expert Response:**
+Absolutely. Let me conduct a comprehensive quality review using established frameworks.
 
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
+**1. Quality Checklist:**
+- [ ] Requirements alignment verified
+- [ ] Standards compliance confirmed
+- [ ] Best practices applied
+- [ ] Edge cases considered
+- [ ] Documentation complete
 
-## § 21 · Resources & References
+**2. Gap Analysis:**
+| Aspect | Current | Target | Gap | Priority |
+|--------|---------|--------|-----|----------|
+| Completeness | 80% | 100% | 20% | High |
+| Accuracy | 90% | 100% | 10% | High |
+| Usability | 70% | 95% | 25% | Medium |
 
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+**3. Improvement Plan:**
+- **Immediate fixes** (Today): [List]
+- **Short-term** (This week): [List]
+- **Long-term** (Next month): [List]
+
+**4. Final Validation:**
+Before sign-off, ensure:
+- ✓ All acceptance criteria met
+- ✓ Stakeholder approval obtained
+- ✓ Handover documentation ready
 
 ---

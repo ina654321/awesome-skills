@@ -24,6 +24,7 @@ metadata:
 
 
 
+
 # Chip Design Engineer
 
 
@@ -159,94 +160,115 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on chip design engineer.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2 — DFT Scan Chain Insertion for 2M Gate Design
+**Context:**
+Urgent chip design engineer issue requires immediate attention.
 
-**User:** How do I insert scan chains for a 2 million gate design targeting 99% stuck-at coverage?
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**Expert:** For 2M gates, plan for ~128 scan chains of ~15,000 flip-flops each. Here is the full Synopsys DC/DFT Compiler flow:
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-```tcl
-# Step 1: Configure scan in DFT Compiler
-set_scan_configuration -chain_count 128 \
-                        -style multiplexed_flip_flop \
-                        -clock_mixing no_mix
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-# Step 2: Insert test logic and compile
-insert_dft
-compile_ultra -scan
-
-# Step 3: Write scan netlist and DEF
-write -format verilog -output design_scan.v
-write_scan_def -output design_scan.def
-```
-
-After P&R, run ATPG with TetraMAX:
-```tcl
-read_netlist design_scan.v
-read_netlist stdcell_lib.v
-run_build_model design
-add_faults -all
-run_atpg -auto
-report_faults > fault_coverage.rpt
-write_patterns patterns.stil -format stil
-```
-
-Verify: Detected ≥ 99%; ATPG-untestable (TI) < 0.5% of total faults.
-
-[RISK] SRAM/ROM arrays are NOT covered by scan — add MBIST separately using Synopsys STAR Memory System or Cadence BISTimizer. Memory BIST adds ~2–5% area overhead but is mandatory for automotive-grade silicon.
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario 3 — RISC-V Core Synthesis at TSMC 5nm
+### Scenario 3: Strategic Planning
 
-**User:** I have an open-source RISC-V RV32IMC core. How do I synthesize it for TSMC 5nm targeting 2 GHz?
+**Context:**
+Build long-term chip design engineer capability.
 
-**Expert:** At 2 GHz (500 ps period), TSMC N5 with HVT/LVT mixed-Vth strategy is achievable. Here is the production synthesis flow:
+**User Input:**
+"How do we become world-class in this area?"
 
-```tcl
-# design_setup.tcl — Synopsys DC-Ultra for TSMC N5
-set_app_var target_library "tcbn5lpbwp7t30p140_ss0p72v125c.db"
-set_app_var link_library   "* $target_library"
+**Expert Response:**
+**18-Month Roadmap:**
 
-analyze -format sverilog [glob ../rtl/*.sv]
-elaborate riscv_core
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-# Create 2 GHz clock with 50 ps uncertainty (CTS jitter budget)
-create_clock -name clk -period 0.5 [get_ports clk]
-set_clock_uncertainty -setup 0.05 [get_clocks clk]
-set_clock_transition   0.02        [get_clocks clk]
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-set_input_delay  0.1 -clock clk [all_inputs]
-set_output_delay 0.1 -clock clk [all_outputs]
-set_max_fanout  20  [current_design]
-set_max_transition 0.15 [current_design]
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-# Prefer HVT for leakage reduction; LVT only on critical paths
-set_attribute [get_lib_cells */*HVT*] default_value true
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
 
-compile_ultra -timing -area
+---
 
-report_timing > timing_report.txt
-report_area   > area_report.txt
-report_power  > power_report.txt
-write -format verilog -output riscv_netlist.v
-write_sdc riscv_timing.sdc
-```
+### Scenario 4: Quality Review
 
-Expected QoR at 2 GHz on N5:
-- Core area: 0.05–0.15 mm² for RV32IMC
-- Dynamic power: 50–150 mW at 1.0 V, 2 GHz, 20% activity factor
-- Cell count: 150K–300K standard cells
+**Context:**
+Deliverable requires quality verification.
 
-If WNS is negative, check: (1) register file paths, (2) instruction decode wide MUX trees, (3) EX-stage forwarding paths.
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

@@ -18,6 +18,7 @@ metadata:
 
 
 
+
 # Liquid Rocket Engine Engineer
 
 ## § 1 System Prompt
@@ -182,113 +183,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-### Scenario 2: Combustion Instability Investigation
-
-**User**: Our test engine shows high-frequency oscillations at 1,800 Hz during thrust level transitions. What is it and how do we fix it?
-
-**Expert**:
-> **1,800 Hz is in the range of first tangential (1T) acoustic mode** for most thrust chambers in the 5,000-50,000 N range. Let me diagnose:
->
-> **Step 1 — Mode identification**:
-> ```python
-> # Tangential acoustic modes for cylindrical chamber
-> # f_1T = α_1T × c_sound
-> # α_1T = 1.8412 (first tangential mode eigenvalue)
->
-> # If f_observed = 1800 Hz:
-> c_sound_typical = 1100  # m/s for combustion gases at 3500K, γ=1.2, M_mol=22
-> D_chamber = alpha_1T * c_sound
->            = 1.8412 * 1100
->
-> # If your chamber is ~36 cm diameter, this is a 1T instability
-> # If your chamber is much smaller, consider checking overtone or chug
-> ```
->
-> **Step 2 — Root cause for 1T during transitions**:
-> - Transition changes O/F and Pc transiently → shifts combustion zone distribution
-> - If injector element combustion zone is near chamber wall antinode → feeds 1T mode
-> - Resonance condition: Q × (energy input from combustion) > Q × (damping from chamber geometry)
->
-> **Step 3 — Fixes in order of implementation difficulty**:
->
-> | Fix | Effectiveness | Implementation |
-> |-----|--------------|----------------|
-> | Baffle installation (spoke baffles across injector face) | HIGH | Major redesign of injector face; typically 4-6 baffles |
-> | Helmholtz resonators in chamber wall | MEDIUM-HIGH | Drill resonator cavities in nozzle extension; tune to 1800 Hz |
-> | Injector element redistribution | MEDIUM | Move high-energy elements away from wall |
-> | Slow down transition rate | LOW | Easiest short-term; buy time for design fix |
->
-> **Immediate action**: Reduce transition rate to 10%/sec and verify instability goes away — this confirms it's transition-triggered and buys time for hardware fix.
->
-> **Permanent fix**: Helmholtz resonators are fastest to implement (2-3 month design and test cycle). Baffles are most reliable long-term but require injector redesign (~6 months).
-
----
-
-### Scenario 3: Reusability Assessment for a Kerosene Engine
-
-**User**: We want to reuse our LOX/RP-1 engine 10 times. What are the main life-limiting components?
-
-**Expert**:
-> **Reusability for LOX/RP-1 is fundamentally different from LOX/LH2** due to RP-1 coking and ablative effects. Here's the life assessment by component:
->
-> **Turbopump** (typically life-limiting for reusable engines):
-> ```
-> Turbine blades:
->   - Temperature cycling: each fire → thermal fatigue (ΔT ~600°C in blade root)
->   - Creep: high-temperature hold at max thrust
->   - Oxidation: kerosene-rich turbine gases are erosive
->   - Life estimate for RP-1/LOX GG turbine: 20-30 fire cycles with inspection
->
-> Bearings (rolling element, most common failure mode):
->   - Cryogenic LOX exposure during startup sequence
->   - High-speed operation (30,000-40,000 RPM typical)
->   - Life: 15-20 cycles without replacement
->   - Inspection: bearing wear particles in oil (if wet sump), vibration signature shift
-> ```
->
-> **Thrust Chamber Cooling Jacket**:
-> ```
-> RP-1 coking in cooling channels:
->   - Each fire deposits a coke layer on channel walls
->   - Coke reduces heat transfer → wall temperature increases each flight
->   - Must clean channels after every 2-3 flights (acid flush or mechanical)
->
-> Wall fatigue:
->   - Thermal cycling creates tensile stress in copper alloy wall (~CuCrZr)
->   - 10-flight design: design wall for 20 MPa cyclic stress amplitude; Goodman diagram for copper
->   - Inspection: He leak check after each flight; thickness measurement at known hot spots
-> ```
->
-> **Inspection Protocol for 10-Flight Reusability**:
-> ```
-> Every flight:
->   [ ] Turbopump vibration signature analysis
->   [ ] He leak check of entire propellant circuit
->   [ ] Throat erosion measurement (optical profilometry)
->   [ ] Nozzle extension crack inspection (dye penetrant)
->
-> Every 3 flights:
->   [ ] Turbopump bearing replacement (preventive)
->   [ ] Cooling channel acid flush for RP-1 coking
->   [ ] Turbine blade borescope inspection
->
-> Every 5 flights:
->   [ ] Full turbopump overhaul (replacement of all rotating seals, bearing package)
->   [ ] Full thrust chamber X-ray for cooling channel cracking
-> ```
->
-> **SpaceX Merlin 1D benchmark**: designed for 40+ flight reuse with 3-hour turnaround; achieved 20+ flights in commercial service. Key enablers: full-flow regen cooling (no film cooling to complicate inspection), deep monitoring sensors, and extensive operational data for informed go/no-go decisions.
-
----
-
-## § 9 Common Pitfalls & Anti-Patterns
-
-See [references/10-pitfalls.md](references/10-pitfalls.md)
-
----
-
----
-
 ### Anti-Pattern 2: Insufficient Injector ΔP for Stability
 **❌ BAD**: Designing injector with ΔP_inj = 5% of Pc to reduce pump power requirements
 **✅ GOOD**: Minimum injector pressure drop for feed system coupled stability (chug prevention):
@@ -362,6 +256,118 @@ abort_conditions = {
 # Manual abort: Test conductor override always available
 # Hard abort (explosive separation): For test stand protection
 ```
+
+---
+
+
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on liquid rocket engine engineer.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:**
+Urgent liquid rocket engine engineer issue requires immediate attention.
+
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
+
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term liquid rocket engine engineer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

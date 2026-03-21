@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # K-12 Teacher
 
 
@@ -154,67 +155,117 @@ Environment: seating, noise levels, visual supports, sensory accommodations
 | 4 | Conduct lesson close and formative exit ticket | Exit ticket data collected; informs next lesson | Lesson ends without formative data collection |
 | 5 | Analyze assessment data and adjust instruction | Data drives next instructional decisions; intervention or extension planned | Data collected but not used to adjust instruction |
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: 7th Grade Science Lesson Plan
+### Scenario 1: Initial Consultation
 
-**Standard:** NGSS MS-PS1-2 — Analyze and interpret data on the properties of substances before and after the substances interact to determine if a chemical reaction has occurred.
+**Context:**
+A new client needs expert guidance on k12 teacher.
 
-```
-LESSON PLAN: Evidence of Chemical Reactions
-Grade: 7  |  Duration: 50 minutes  |  Subject: Science
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-LEARNING OBJECTIVE:
-  I can identify evidence that a chemical reaction has occurred by observing
-  changes in color, gas production, temperature, and precipitate formation.
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-MATERIALS:
-  - Vinegar, baking soda, steel wool, hydrogen peroxide, yeast
-  - Safety goggles, gloves, lab trays
-  - Student lab sheet with data table
-  - Digital thermometer
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-LESSON SEQUENCE:
-  0:00 - HOOK (5 min)
-    Show video: "Is this a chemical or physical change?" 3 clips
-    Poll: thumbs up/down physical vs. chemical
-    Reveal answers — discuss why students chose as they did
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
-  0:05 - DIRECT INSTRUCTION (10 min)
-    "4 Signs of a Chemical Reaction" — anchor chart built live
-    Color change | Gas production | Temperature change | Precipitate
-    Key vocabulary: reactants, products, evidence, reaction
+---
 
-  0:15 - GUIDED PRACTICE — LAB (20 min)
-    Station 1: Vinegar + baking soda (observe, record, classify evidence)
-    Station 2: Steel wool + air (observe over time, explain oxidation)
-    Station 3: Hydrogen peroxide + yeast (measure temp, observe gas)
-    Teacher circulates; ask probing questions: "What evidence do you see?"
+### Scenario 2: Problem Resolution
 
-  0:35 - ANALYSIS + DISCUSSION (10 min)
-    Share-out: Which stations showed chemical reactions? Why?
-    Address misconceptions; add to anchor chart
+**Context:**
+Urgent k12 teacher issue requires immediate attention.
 
-  0:45 - EXIT TICKET (5 min)
-    "Describe ONE piece of evidence from today's lab that indicates a
-    chemical reaction occurred. Explain why it is evidence."
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-DIFFERENTIATION:
-  ELL: Bilingual lab sheet with visuals; sentence frames for exit ticket
-  IEP: Lab partner support; modified data table with sentence starters
-  Gifted: Extension question — write balanced chemical equation for reaction 1
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-ASSESSMENT: Exit tickets sorted into 3 piles (got it / almost
-            → Informs small group reteach the following day
-```
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-### Scenario B: Classroom Management System Design
+**Recommendation:** [Best option with rationale]
 
-A positive behavior management system for middle school should include: (1) Clear, positively framed expectations (3-5 rules like "Be Respectful, Be Responsible, Be Ready") posted visually, (2) A predictable routine — students know what happens when they enter, during transitions, and at close of class, (3) Proactive relationship investment — greet every student at the door daily, (4) Consistent, immediate positive recognition (verbal, points, or token system), (5) A graduated response ladder for misbehavior (redirect privately → consequence → restorative conversation) that never involves public shaming, (6) Regular class meetings or restorative circles to build community.
+---
 
-### Scenario C: Differentiated Assignment Design
+### Scenario 3: Strategic Planning
 
-For a 10th grade English essay assignment, create three tiers: **Tier 1 (approaching):** Provide a graphic organizer with the 5-paragraph structure pre-filled with topic sentence starters; allow outline submission for peer feedback before full draft. **Tier 2 (on grade level):** Standard essay prompt with access to mentor text examples; peer editing protocol. **Tier 3 (extending):** Challenge prompt requires student to take a counter-intuitive position and defend it; evaluate two opposing critical perspectives. All three tiers are graded against the same rubric — the differentiation is in the scaffolding, not the standard.
+**Context:**
+Build long-term k12 teacher capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
+
+---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 

@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Management Consultant
 
 
@@ -205,89 +206,115 @@ Diagnosis: Which ADKAR element is the blocker?
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: MECE Profitability Diagnosis
+### Scenario 1: Initial Consultation
 
-**Client:** Retail company, operating margin fell from 8% to 3% in 18 months. "We don't know why."
+**Context:**
+A new client needs expert guidance on management consultant.
 
-**Issue Tree:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-Why did operating margin fall 5pp?
-│
-├── Revenue problem (Δ? → check: same-store sales, traffic, mix)
-│   Revenue: -2% (small; not primary driver)
-│   → Price: -1% (minor markdown increase)
-│   → Volume: -1% (traffic flat; basket size down)
-│
-└── Cost problem (Δ? → check: COGS%, SG&A%)
-    COGS%: +2pp (from 60% to 62%)
-    └── Input cost: +1pp (raw material inflation; documented)
-    └── Waste/Shrinkage: +1pp (NEW FINDING → investigate)
-    SG&A%: +1pp (from 32% to 33%)
-    └── Labor: +0.5pp (overtime in new locations)
-    └── Technology: +0.5pp (new ERP depreciation)
-```
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-**So What?** The 5pp margin decline is driven by cost, not revenue. COGS increase is partially external (commodity inflation: 1pp — unavoidable near-term) and partially internal (shrinkage: 1pp — manageable). SG&A investment in new locations will normalize as scale builds. Primary recommendation: Attack shrinkage (loss prevention audit; inventory accuracy program) → 1pp margin recovery = $5M EBITDA impact.
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario B: Operating Model Redesign
+### Scenario 2: Problem Resolution
 
-**Client:** Mid-market manufacturing company, 3 product lines, organizational confusion after merger.
+**Context:**
+Urgent management consultant issue requires immediate attention.
 
-**Diagnosis using McKinsey 7-S:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-```
-Strategy: ✓ Clear (premium manufacturing; 3 product lines)
-Structure: ✗ PROBLEM — functional silos (Sales / Operations
-            Product line P&L not visible; no single owner of product line performance
-Systems: ✗ PROBLEM — 3 ERPs (pre-merger legacy); data doesn't roll up
-Staff: ✓ Capable; right skills exist
-Style: ~ Collaborative culture, but decision rights unclear
-Shared Values: ~ "Customer first" stated; not universally practiced
-Skills: ✓ Adequate at individual level
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-Root cause: Structure and Systems misaligned after merger; P&L accountability unclear.
-```
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-**Recommendation:**
-1. **Immediate (30 days):** Appoint product line GMs with full P&L ownership
-2. **Short-term (90 days):** Bridge reporting — extract product line revenue/cost from 3 ERPs via data layer
-3. **Medium-term (12 months):** ERP consolidation roadmap; choose 1 platform
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario C: Executive Communication — Strategy Update
+### Scenario 3: Strategic Planning
 
-**Scenario:** Presenting a recommendation to exit an underperforming business unit.
+**Context:**
+Build long-term management consultant capability.
 
-**Slide structure (Pyramid Principle):**
+**User Input:**
+"How do we become world-class in this area?"
 
-```
-Slide 1 — Recommendation (Governing thought):
-Headline: "Divesting the European Retail unit will unlock $120M and refocus management on core growth"
-Content: [3 bullets — rationale only; don't explain the analysis]
-  • European Retail is sub-scale and structurally unprofitable (negative EBITDA for 5 consecutive years)
-  • Proceeds of $120M (at 6x EBITDA, per comparable transactions) can fund US digital expansion
-  • Management bandwidth freed: 40% of executive time currently consumed by European turnaround
+**Expert Response:**
+**18-Month Roadmap:**
 
-Slide 2 — European Retail is structurally unprofitable
-  Evidence: Cost structure at €85M revenue vs. break-even at €120M;
-  Market: European market contracting 3% annually; 5 competitors with 10x+ scale advantage
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-Slide 3 — Divestiture generates superior value vs. alternatives
-  3 alternatives modeled: continued investment, harvest, divestiture
-  Divestiture: NPV $120M; highest certainty
-  Continued investment: Requires €40M; NPV at -$15M under base case
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-Slide 4 — Implementation
-  Timeline: LOI in 60 days; close in 6 months
-  Workstream owners: CFO leads (valuation/buyer); HR (retention/severance); Legal (deal)
-  Decision required: Board approval by [date]
-```
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

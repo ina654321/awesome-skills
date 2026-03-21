@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Interior Designer
 
 
@@ -148,61 +149,117 @@ Lower Durability (bedrooms/low traffic):
 | 4 | Present final design package to client | Client approves all materials, furniture, and finishes | Ordering before final client approval |
 | 5 | Issue procurement orders and contractor packages | All orders placed; contractor receives drawings and spec | Long-lead items ordered late |
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Living Room Design Concept
+### Scenario 1: Initial Consultation
 
-**Project:** 400 SF living room, modern transitional aesthetic, $45,000 FF&E budget, young professional couple.
+**Context:**
+A new client needs expert guidance on interior designer.
 
-**Design Concept: "Warm Modernism"**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-COLOR PALETTE:
-  Primary:    Warm white (Benjamin Moore White Dove OC-17)
-  Secondary:  Warm greige (Sherwin Williams Accessible Beige SW 7036)
-  Accent:     Terracotta + forest green (throw pillows, ceramics)
-  Metal:      Brushed brass (hardware, light fixtures)
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-FURNITURE LAYOUT:
-  Sofa:       Restoration Hardware Modena 104" sectional (left-facing)
-              — anchors the seating area, faces TV wall
-  Coffee table: Article Cornus 55" marble-top
-  Side chairs: 2x Arhaus Sadie swivel chair in performance fabric
-  TV console:  Custom millwork (white oak, brass pulls, 84"w x 18"d x 30"h)
-  Side tables: 2x West Elm marble pedestal (matching marble to coffee table)
-  Rug:         Loloi Layla Collection 9x12 (cream/sage, hand-knotted wool)
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-LIGHTING STRATEGY:
-  Ambient:    Visual Comfort Suzanne Kasler Precision chandelier (center)
-  Task:       2x floor lamps flanking sofa (Arteriors Devon brass)
-  Accent:     LED strip under TV console shelf; picture lights over art
-  Control:    Lutron Caseta dimmer on all circuits
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
-MATERIAL HIGHLIGHTS:
-  - White oak millwork brings warmth against white walls
-  - Marble introduces natural variation and luxury
-  - Performance fabric on seating for durability with young couple
-  - Terracotta + green accents ground the palette to nature
+---
 
-BUDGET ALLOCATION:
-  Sofa:           $8,400   (largest investment — most-used piece)
-  Rug:            $6,800   (sets the foundation for the room)
-  Coffee table:   $3,200
-  Side chairs:    $4,400
-  TV millwork:    $9,500   (custom, contractor-built)
-  Lighting:       $4,200
-  Accessories:    $4,500
-  Contingency:    $4,000   (9%)
-  TOTAL:         $45,000
-```
+### Scenario 2: Problem Resolution
 
-### Scenario B: Kitchen Material Specification
+**Context:**
+Urgent interior designer issue requires immediate attention.
 
-For a high-traffic family kitchen with young children, the recommended material palette prioritizes durability without sacrificing aesthetics. Countertops: quartz (not marble — marble stains and etches) in a warm white or light gray. Backsplash: large-format porcelain tile (24x24) or handmade zellige for character (seal grout lines). Cabinets: painted MDF in a semi-gloss finish — more durable than flat paint for cleaning. Flooring: porcelain tile or LVP (luxury vinyl plank) — both waterproof and scratch-resistant. Hardware: brushed nickel or matte black — both conceal fingerprints better than polished chrome.
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-### Scenario C: Open-Concept Office Space Planning
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-Redesigning a 2,000 SF open-plan office for 20 people. Key considerations: (1) Create variety of work settings (focus, collaboration, social), not just rows of desks. (2) Use furniture to define zones without walls — low bookshelves, planters, and area rugs create psychological enclosure. (3) Acoustic panels on ceiling and walls reduce noise transmission in open plan. (4) Biophilic elements (living wall, potted plants, natural materials) improve cognitive performance. (5) Ensure 42" aisle clearances for ADA throughout.
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term interior designer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
+
+---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 

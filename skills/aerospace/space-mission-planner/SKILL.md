@@ -18,6 +18,7 @@ metadata:
 
 
 
+
 # Space Mission Planner
 
 ---
@@ -180,88 +181,115 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on space mission planner.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2: LEO Constellation Coverage Analysis
+**Context:**
+Urgent space mission planner issue requires immediate attention.
 
-**User**: We need 100% global coverage (including polar regions) for our Earth observation constellation at 500km altitude. How many satellites and what inclination?
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**Expert**:
-> **Walker constellation design for 100% coverage at 500km**:
->
-> **Step 1 — Ground coverage geometry**:
-> ```
-> At 500km altitude, minimum elevation angle 5°:
-> Earth central angle (ρ): arccos(Re
->   = arccos(6371
->   = arccos(0.9204) - 5° = 23.0° - 5° = 18.0° half-angle
->
-> Single satellite coverage half-cone = 18° → swath = 36° great circle
-> Coverage width at ground = 2 × Re × sin(18°) ≈ 3,936 km diameter circle
-> ```
->
-> **Step 2 — Constellation sizing (Walker formula)**:
-> ```
-> For 100% global coverage at inclination 90° (polar):
-> Minimum satellites for 1 plane continuous coverage (Walker): ~6 satellites per plane
-> With 6 polar planes × 6 sats = 36 satellites → ~100% continuous coverage
->
-> More efficient alternative: Walker 40/5/1 (inclined 53°) + 6 polar supplementary sats
-> → 40+6 = 46 satellites for continuous global coverage
->
-> Planet Labs PlanetScope: 130+ satellites at 52° + 97°
-> Spire Global (weather): 100+ sats at multiple inclinations
-> ```
->
-> **Trade**: 36 polar satellites cover 100% including poles; inclined Walker misses regions > 53° latitude. For true global including poles: 36 polar orbit sats is the efficient solution.
->
-> **Launch cost estimate**: 36 × 500 kg = 18,000 kg LEO. Falcon 9 Transporter: ~$5,500/kg = ~$100M for full constellation via 2-3 rideshare missions.
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario 3: Mission Risk Quantification (Edge Case)
+### Scenario 3: Strategic Planning
 
-**User**: Our mission has a critical orbit insertion burn at Mars. What's the risk and how do we manage it?
+**Context:**
+Build long-term space mission planner capability.
 
-**Expert**:
-> **Mars Orbit Insertion (MOI) is historically the highest-risk single event in Mars missions.** Let me quantify it:
->
-> **Historical MOI statistics**:
-> ```
-> Mars mission MOI failures:
->   Mars Climate Orbiter (1999): navigation error → burned up in atmosphere (unit confusion)
->   Mars Polar Lander (1999): EDL failure (not MOI, but same arrival phase risk category)
->
-> Successful MOIs: Viking 1/2, Pathfinder, MER, MRO, MAVEN, Mars Express, etc.
->
-> Historical success rate: ~85% for all Mars missions (includes launch failures, cruise failures)
->   MOI-specific success (conditional on arrival): ~95%+
-> ```
->
-> **Risk quantification for your mission**:
-> ```
-> Key MOI risk drivers:
->   1. Main engine failure: P(failure) depends on engine heritage and flight time
->      → New engine first use: ~0.5% failure rate
->      → Heritage engine (proven in Earth operations): ~0.1% failure rate
->   2. Navigation error at arrival: typically ~10 km at Mars (VLBI + ranging)
->      → Delta-V error from nav uncertainty: ~5 m/s (well within TCM budget)
->   3. Communication loss during occultation: planned; no risk if burn is autonomous
-> ```
->
-> **Risk mitigation strategy**:
-> 1. **Autonomous burn execution**: Program burn start/stop autonomously; do not depend on Earth command during occultation
-> 2. **Abort mode definition**: Define explicit criteria for "short burn" recovery maneuver (if engine cuts early, plan TCM to re-attempt insertion at next apoapsis)
-> 3. **Engine qualification**: Ensure engine is tested to flight cumulative impulse before mission (firing at Earth for duration equivalent to MOI)
-> 4. **Navigation rehearsal**: Use first TCM to verify navigation accuracy; update cruise trajectory to minimize MOI delta-V uncertainty
->
-> **Residual risk after mitigation**: P(MOI success) ≈ 99.5% for heritage engine + autonomous execution + validated navigation. The 0.5% residual risk is dominated by engine failure modes.
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

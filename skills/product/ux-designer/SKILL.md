@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Senior UX Designer
 
 
@@ -205,106 +206,115 @@ Microcopy principles:
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Onboarding Flow UX Audit
+### Scenario 1: Initial Consultation
 
-**Request:** "Our onboarding completion rate is 38%. Help us fix it."
+**Context:**
+A new client needs expert guidance on ux designer.
 
-**Heuristic Evaluation of Current Flow (critical issues found):**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-| Issue | Heuristic | Severity | Finding |
-|-------|-----------|----------|---------|
-| No progress indicator | #1 Visibility of system status | 4 (Catastrophic) | Users don't know how many steps remain |
-| Technical jargon in step 2 | #2 Match with real world | 3 (Major) | "Configure webhook endpoint" — most users don't know what this means |
-| No skip option | #3 User control | 3 (Major) | Users forced through 8 steps with no way to skip optional items |
-| Form errors only on submit | #5 Error prevention | 3 (Major) | Users complete all fields then get error; should validate inline |
-| Onboarding asks for 12 fields | #8 Minimalist design | 3 (Major) | Ask only what's essential now; defer optional fields |
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-**Recommended redesign principles:**
-1. Add progress bar (steps 1 of 5) + estimated time (2 minutes)
-2. Replace technical labels with plain English + tooltip for "what's this?"
-3. Make all non-essential steps skippable with "I'll do this later"
-4. Reduce to 4 required fields; defer the rest to settings
-5. Inline validation with green check on success, red with specific error on failure
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-**Expected impact:** 38% → 60%+ completion (benchmark for redesigned onboarding with these fixes)
-
----
-
-### Scenario B: Design System Component Audit
-
-**Context:** Enterprise SaaS with 8 designers, 40 engineers. "Our UI is inconsistent across the product."
-
-**Audit Findings:**
-
-```
-Button component inventory (found in production):
-  Primary: 6 different blue values (#1A73E8, #0066CC, #2563EB, #1D4ED8, #3B82F6, #0552B5)
-  Size: 4 different padding/height combinations
-  States: 40% of buttons missing hover/focus/disabled states
-
-Form inputs inventory:
-  Border radius: 3 different values (4px, 6px, 8px)
-  Error messages: 3 different positions (below, above, inline)
-  Label position: mix of top-label and floating-label
-
-Impact:
-  Engineering: Every new component built from scratch = 2x development time
-  Design: Handoff ambiguity causes QA rejections
-  Users: Visual inconsistency reduces perceived quality and trust
-```
-
-**Design System Action Plan:**
-
-```
-Phase 1 (Month 1): Audit & Decide
-  - Document all existing variants (the audit above)
-  - Vote on canonical version of each component
-  - Engineering commit: "We will use design system components for all new work"
-
-Phase 2 (Month 2-3): Build Foundation
-  - Colors: Establish 5-tier color scale (primary, secondary, surface, text, status)
-  - Typography: 6-style scale (H1-H4, body, caption)
-  - Spacing: 8px base grid (4, 8, 12, 16, 24, 32, 48, 64)
-  - Button: 1 component, 3 sizes, 4 variants, all states
-
-Phase 3 (Month 4-6): Migrate
-  - New features: 100% design system
-  - Existing pages: Migrate on scheduled maintenance; not emergency refactor
-```
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario C: Accessibility Remediation
+### Scenario 2: Problem Resolution
 
-**Context:** Legal letter citing ADA non-compliance. 3 critical failures found by auditor.
+**Context:**
+Urgent ux designer issue requires immediate attention.
 
-**Critical Failures and Fixes:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-```
-Failure 1: All images missing alt text (WCAG 1.1.1 — Level A)
-  Impact: Screen reader users cannot understand image content
-  Fix: Add descriptive alt="" to all informative images; alt="" (empty) to decorative images
-  Timeline: 1 sprint; engineering can batch with linting rule to enforce
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-Failure 2: Color contrast < 4.5:1 on body text (WCAG 1.4.3 — Level AA)
-  Impact: Low vision users cannot read text
-  Current: #757575 on white = 4.48:1 (PASSES barely); secondary text #9AA5B4 on white = 2.9:1 (FAILS)
-  Fix: Update secondary text to #6B7280 (contrast 5.74:1 ✓) across design system
-  Timeline: Design system token update + 1 sprint for rollout
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-Failure 3: Form inputs have no programmatic label (WCAG 4.1.2 — Level A)
-  Impact: Screen reader announces "edit text" instead of field name; users don't know what to enter
-  Fix: Add <label for="fieldId"> or aria-label to every input
-  Code example:
+**Recommendation:** [Best option with rationale]
 
-    <input type="text" placeholder="Email">
+---
 
-    <label for="email">Email address</label>
-    <input type="text" id="email" name="email" autocomplete="email">
-  Timeline: 2 sprints; all forms across product
-```
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term ux designer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

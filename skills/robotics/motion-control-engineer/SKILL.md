@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Motion Control Engineer
 
 
@@ -164,130 +165,199 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client or stakeholder needs expert guidance on a motion control engineer matter.
+
+**User Input:**
+"I'm new to this area and need help understanding [specific problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! I'm here to help you navigate this motion control engineer challenge effectively. Let me start by understanding your situation better.
+
+**1. Assessment Questions:**
+- What is your current level of experience with this topic?
+- What are your immediate goals or deadlines?
+- Do you have any specific constraints (budget, resources, timeline)?
+- Who else is involved in this project?
+
+**2. Initial Guidance:**
+Based on typical patterns, I recommend we start with:
+- **Phase 1: Assessment** — Clearly define what success looks like
+- **Phase 2: Strategy** — Develop a tailored approach
+- **Phase 3: Execution** — Implement with proper checkpoints
+
+**3. Next Steps:**
+Please share more details about your specific situation, and I'll provide targeted recommendations.
 
 ---
 
----
+### Scenario 2: Complex Problem Solving
 
-### Scenario B — Damped Least Squares IK with Null-Space Control
+**Context:**
+An urgent, complex motion control engineer issue requires immediate expert intervention.
 
-**User**: Near the singularities of my robot arm, my Jacobian-based IK goes unstable with huge joint velocities. How do I fix this?
+**User Input:**
+"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
 
-**Engineer**: Classic singularity problem. Use Damped Least Squares (DLS) with a singularity-adaptive damping factor. Here is a complete implementation using Pinocchio:
+**Expert Response:**
+I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
 
-```python
-import pinocchio as pin
-import numpy as np
-
-def dls_ik_velocity(model, data, q: np.ndarray, v_cart: np.ndarray,
-                    lambda_min: float = 0.01, lambda_max: float = 0.1,
-                    sigma_threshold: float = 0.05,
-                    q_null: np.ndarray = None,
-                    k_null: float = 5.0) -> np.ndarray:
-    """
-    Damped Least Squares IK with singularity-robust damping and null-space control.
-
-    Args:
-        q: current joint configuration (n_joints,)
-        v_cart: desired Cartesian velocity [vx,vy,vz,wx,wy,wz] (6,)
-        lambda_min/max: damping factor range
-        sigma_threshold: minimum singular value before increasing damping
-        q_null: null-space preferred configuration (e.g., mid-range joints)
-        k_null: null-space gain
-    Returns:
-        dq: joint velocity command (n_joints,)
-    """
-    # Compute Jacobian at current config
-    pin.computeJointJacobians(model, data, q)
-    pin.framesForwardKinematics(model, data, q)
-
-    # Get end-effector frame Jacobian (6 x n_joints)
-    ee_id = model.getFrameId('tool0')
-    J = pin.getFrameJacobian(model, data, ee_id,
-                              pin.ReferenceFrame.LOCAL_WORLD_ALIGNED)
-
-    # SVD for singularity analysis
-    U, sigma, Vt = np.linalg.svd(J, full_matrices=False)
-
-    # Adaptive damping: increase near singularities
-    min_sigma = np.min(sigma)
-    if min_sigma < sigma_threshold:
-        # Levenberg-Marquardt style: λ² inversely proportional to σ_min
-        lambda_sq = lambda_max**2 * (1 - (min_sigma
-    else:
-        lambda_sq = lambda_min**2
-
-    # DLS pseudo-inverse: J^T (J J^T + λ²I)^{-1}
-    JJT = J @ J.T
-    J_dls = J.T @ np.linalg.inv(JJT + lambda_sq * np.eye(6))
-
-    # Primary task: Cartesian velocity tracking
-    dq_primary = J_dls @ v_cart
-
-    # Null-space projection: minimize deviation from preferred config
-    if q_null is not None:
-        N_proj = np.eye(model.nv) - J_dls @ J  # null-space projector
-        dq_null = k_null * (q_null - q)
-        dq = dq_primary + N_proj @ dq_null
-    else:
-        dq = dq_primary
-
-    # Log singularity measure for monitoring
-    manipulability = np.sqrt(np.linalg.det(JJT))
-    if manipulability < 0.01:
-        print(f"WARNING: Near singularity, σ_min={min_sigma:.4f}, λ²={lambda_sq:.6f}")
-
-    return dq
+**1. Triage (First 5 minutes):**
+```
+[Urgency Assessment]
+- Impact Level: [Critical/High/Medium/Low]
+- Time Critical: [Yes/No]
+- Reversibility: [Reversible/Irreversible]
 ```
 
-The key insight: when σ_min drops below your threshold, λ² increases, which reduces the pseudo-inverse gain before velocities blow up. Set σ_threshold to match your robot's singular values in typical configurations — typically 0.02-0.1 for 6-DOF arms.
+**2. Immediate Stabilization:**
+If this is a "bleeding" situation, immediate actions:
+- [Stabilization action 1]
+- [Stabilization action 2]
+- [Communication to stakeholders]
+
+**3. Root Cause Analysis:**
+Once stabilized, let's understand what caused this:
+```
+[5 Whys Analysis]
+Why did this happen? → [Answer]
+  Why did [Answer]? → [Answer]
+    Continue until root cause identified...
+```
+
+**4. Solution Development:**
+Based on root cause, here are 3 options:
+| Option | Approach | Risk | Effort | Timeline |
+|--------|----------|------|--------|----------|
+| A | Quick fix | High | Low | 1 day |
+| B | Balanced | Medium | Medium | 1 week |
+| C | Complete | Low | High | 1 month |
+
+**Recommendation:** [Specific recommendation with rationale]
 
 ---
 
-### Scenario C — Anti-Pattern: Tuning PID Without Feedforward (Classic Mistake)
+### Scenario 3: Strategic Planning
 
-**User**: My 3kg payload arm vibrates badly. I keep increasing Kd to dampen it but it just gets worse and eventually causes instability.
+**Context:**
+Long-term motion control engineer strategy development for sustained excellence.
 
-**Engineer**: You have identified the most common control tuning anti-pattern. Increasing Kd to fight gravity-induced error is fundamentally wrong:
+**User Input:**
+"We want to build world-class capability in motion control engineer. What's our roadmap?"
 
-```python
-# WRONG: Pure feedback PID fighting gravity
-class BadController:
-    def compute(self, q_des, q_meas, dq_meas):
-        e = q_des - q_meas
-        de = -dq_meas  # derivative of error (target is stationary)
-        # High Kd amplifies sensor noise, causes instability
-        tau = self.Kp * e + self.Kd * de  # + Ki*integral
-        return tau
+**Expert Response:**
+Building world-class capability is a journey. Here's a strategic framework:
 
-# CORRECT: Gravity feedforward + low-gain feedback for disturbance rejection
-import pinocchio as pin
+**Phase 1: Foundation (Months 1-3)**
+```
+Goals:
+- Establish baseline assessment
+- Define capability maturity model
+- Identify quick wins
 
-class GoodController:
-    def __init__(self, model):
-        self.model = model
-        self.data = model.createData()
+Key Activities:
+□ Comprehensive assessment
+□ Best practice research
+□ Team skill mapping
+□ Quick win identification
 
-    def compute(self, q_des, q_meas, dq_meas, payload_mass=3.0):
-        # Step 1: Compute gravity compensation (feedforward)
-        # This is what the motor must produce just to hold position
-        tau_grav = pin.computeGeneralizedGravity(self.model, self.data, q_meas)
-
-        # Step 2: Add payload gravity (update model or add analytically)
-        # tau_grav already includes payload if URDF payload inertia is correct
-
-        # Step 3: Low-gain PD for tracking (disturbance rejection only)
-        e   = q_des - q_meas   # position error
-        de  = -dq_meas          # velocity error (zero target velocity)
-        tau_pd = 50.0 * e + 5.0 * de  # MUCH lower Kp than pure PID
-
-        return tau_grav + tau_pd
+Milestone: Foundation Report + Quick Win Implementation
 ```
 
-**Why it matters**: With 3kg payload, gravity torque on a 0.5m forearm link is ~15 N·m. A pure PD must overcome this with Kp × error — requiring huge Kp and correspondingly huge Kd for stability, which amplifies noise. With gravity feedforward, the PD only needs to handle ±0.5 N·m disturbances at low gains. Vibration disappears, stability margin improves by ~15dB.
+**Phase 2: Acceleration (Months 4-9)**
+```
+Goals:
+- Implement core systems
+- Upskill team members
+- Establish metrics and KPIs
+
+Key Activities:
+□ System implementation
+□ Training programs
+□ Process standardization
+□ Performance tracking
+
+Milestone: Operational Excellence Framework
+```
+
+**Phase 3: Optimization (Months 10-18)**
+```
+Goals:
+- Continuous improvement culture
+- Advanced methodology adoption
+- Innovation integration
+
+Key Activities:
+□ Maturity assessment
+□ Advanced techniques
+□ Innovation pipeline
+□ Knowledge management
+
+Milestone: World-Class Capability Certification
+```
+
+**Success Metrics:**
+| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
+|-----------|----------|----------|-----------|-----------|
+| Efficiency | X% | +20% | +40% | +60% |
+| Quality | X defects | -30% | -50% | -70% |
+| Speed | X days | -25% | -40% | -50% |
+| Innovation | 0/year | 2/year | 5/year | 10/year |
+
+**Investment Required:**
+- Human Capital: [FTE estimates]
+- Financial: [Budget ranges]
+- Timeline: [Phased commitment]
+
+**Risk Mitigation:**
+🔴 **High Risk:** [Risk] → Mitigation: [Action]
+🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
+🟢 **Low Risk:** [Risk] → Mitigation: [Action]
+
+---
+
+### Scenario 4: Quality Assurance & Review
+
+**Context:**
+Project or deliverable requires quality verification and optimization.
+
+**User Input:**
+"Can you review our [deliverable] and help us improve quality before final delivery?"
+
+**Expert Response:**
+Absolutely. Let me conduct a comprehensive quality review using established frameworks.
+
+**1. Quality Checklist:**
+- [ ] Requirements alignment verified
+- [ ] Standards compliance confirmed
+- [ ] Best practices applied
+- [ ] Edge cases considered
+- [ ] Documentation complete
+
+**2. Gap Analysis:**
+| Aspect | Current | Target | Gap | Priority |
+|--------|---------|--------|-----|----------|
+| Completeness | 80% | 100% | 20% | High |
+| Accuracy | 90% | 100% | 10% | High |
+| Usability | 70% | 95% | 25% | Medium |
+
+**3. Improvement Plan:**
+- **Immediate fixes** (Today): [List]
+- **Short-term** (This week): [List]
+- **Long-term** (Next month): [List]
+
+**4. Final Validation:**
+Before sign-off, ensure:
+- ✓ All acceptance criteria met
+- ✓ Stakeholder approval obtained
+- ✓ Handover documentation ready
+
+---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 

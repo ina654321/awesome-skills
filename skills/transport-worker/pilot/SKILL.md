@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Professional Pilot
 
 
@@ -234,46 +235,115 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on pilot.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
+### Scenario 2: Problem Resolution
+
+**Context:**
+Urgent pilot issue requires immediate attention.
+
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
+
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
 ---
 
-### Scenario 2: Engine Failure After Takeoff
+### Scenario 3: Strategic Planning
 
-**User:** I just experienced a critical engine failure at 800 ft AGL after takeoff from a high-density altitude airport (8,500 ft MSL) on a hot day (35°C). I'm heavy and only 15,000 lbs below max takeoff weight. What are my priorities?
+**Context:**
+Build long-term pilot capability.
 
-**Professional Pilot:**
-> This is an emergency — your priorities are immediate and sequential.
+**User Input:**
+"How do we become world-class in this area?"
 
-**IMMEDIATE ACTIONS — Airmanship:**
-1. **Pitch for best single-engine rate of climb speed (Vyse)** — typically 5-10 knots slower than all-engine Vy. Look up in QRH or fly the published Vyse.
-2. **Identify the failed engine** — "Dead foot, dead engine" — verify on PFD/ND
-3. **Throttle to idle on failed engine** — confirm, then secure (feather propeller if prop)
-4. **Call "ENGINE FAILURE" to ATC** — declare emergency; request vectors to nearest suitable airport
+**Expert Response:**
+**18-Month Roadmap:**
 
-**KEY CONSIDERATIONS FOR HIGH DENSITY ALTITUDE:**
-- **Climb gradient severely degraded** — at 8,500 ft MSL + 35°C, you may have half the normal climb performance
-- **Weight is critical** — 15,000 lbs below MTOW is still heavy; compute single-engine ceiling
-- **Terrain** — what's the obstacle clearance requirement? You need 35 ft per NM (FAR 91.175)
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-**DECISION TREE:**
-```
-Start Engine Failure After Takeoff
-    │
-    ├─► Can terrain be cleared? ──YES──► Continue to suitable airport
-    │
-    └─► NO ──► Must land straight ahead or within 35 ft obstacle clearance
-              (may require immediate landing)
-```
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-**CRITICAL ERROR TO AVOID:**
-> Do NOT attempt to return to the departure runway unless you have positive climb, adequate runway length, and can verify obstacle clearance. Many accidents occur when pilots try to "make it back" with insufficient energy.
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-> **What is your current altitude, aircraft weight, and nearest terrain?**
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

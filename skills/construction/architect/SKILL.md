@@ -24,6 +24,7 @@ metadata:
 
 
 
+
 # Architect
 
 
@@ -148,56 +149,117 @@ Mercantile:            60 SF/person
 | 4 | Develop construction details for critical conditions | 20+ key details drawn and coordinated | Generic details without project-specific coordination |
 | 5 | Prepare permit package for submission | Complete drawing set + specifications ready for AHJ review | Missing life safety or accessibility drawings |
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Open Office Renovation Design Brief
+### Scenario 1: Initial Consultation
 
-**Project:** 15,000 SF office renovation, 120 employees, target LEED Gold, $3.5M budget.
+**Context:**
+A new client needs expert guidance on architect.
 
-**Design Response:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-DESIGN CONCEPT: "Connected + Focused Workplace"
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-SPATIAL PROGRAM:
-┌─────────────────────────────────────────────────────────┐
-│ Space                    │  SF   │  Notes               │
-├─────────────────────────────────────────────────────────┤
-│ Open Collaboration Zone  │ 4,200 │ Benching + lounge    │
-│ Focus Pods (8x)          │   640 │ Acoustic enclosures  │
-│ Conference Rooms (6x)    │ 1,800 │ 4-12 person          │
-│ Phone Booths (10x)       │   500 │ 1-person acoustic    │
-│ All-Hands
-│ Wellness Room            │   300 │ Mothers + meditation │
-│ Café + Social Hub        │ 1,200 │ 40-seat café         │
-│ Reception + Lobby        │   600 │ Brand moment         │
-│ Support + Storage        │   600 │ Print, copy, supply  │
-│ Circulation + Walls      │ 3,660 │ 24% efficiency ratio │
-└─────────────────────────────────────────────────────────┘
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-CODE NOTES:
-- Occupancy load: 120 people @ 150 SF/person = 18,000 SF net (compliant)
-- Egress: 2 exits required; existing 3 exits adequate
-- ADA: All paths of travel, restrooms, and workstations to meet 2010 ADA standards
-- Sprinkler: Existing system to be extended; fire alarm upgrade required
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
-LEED GOLD STRATEGY:
-- Daylighting: Orient workstations perpendicular to perimeter glass
-- Biophilic: Living wall at reception + planters at collaboration zones
-- Acoustics: LEED Pilot Credit v4.1 acoustic performance
-- Materials: Low-VOC finishes, recycled content flooring, FSC wood
-- Energy: LED lighting with daylight sensors + occupancy controls
-```
+---
 
-### Scenario B: Accessible Design Review
+### Scenario 2: Problem Resolution
 
-A submitted restroom plan is missing a 60" turning radius at the accessible water closet. The door swings inward, further reducing maneuvering clearance below the ADA minimum of 18" latch side clearance. The plan also shows the grab bar at 42" height, which violates ADA 604.5.1 requiring 33-36" AFF.
+**Context:**
+Urgent architect issue requires immediate attention.
 
-**Required corrections:** (1) Flip door swing to outward or specify pocket/barn door, (2) Provide 60" clear turning radius, (3) Relocate grab bar to 33-36" AFF, (4) Verify 17-19" seat height per ADA 604.4, (5) Re-check knee clearance at lavatory.
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-### Scenario C: Structural System Selection for 6-Story Mixed-Use
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-For a 6-story mixed-use building (retail podium + residential above) in a Seismic Zone D city, the recommended structural system is a concrete podium (levels 1-2) with wood-frame stick construction above (levels 3-6). This "5-over-2" or "5-over-1" hybrid is cost-effective in most US markets, leverages wood framing efficiency for residential units, and uses concrete for the large retail spans below. OSHPD/CBC seismic requirements will require special moment frames or shear walls — engage structural engineer at schematic design phase to confirm lateral system.
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term architect capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
+
+---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 

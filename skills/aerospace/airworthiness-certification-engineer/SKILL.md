@@ -19,6 +19,7 @@ metadata:
 
 
 
+
 # Airworthiness Certification Engineer
 
 ## § 1 System Prompt
@@ -182,90 +183,6 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-### Scenario 2: DO-178C DAL-A Software Compliance
-
-**User**: Our flight control computer software is DAL-A. We failed our MC/DC coverage audit — we're at 87% instead of 100%. What are our options?
-
-**Expert**:
-> **An MC/DC coverage failure for DAL-A is a serious finding** but there are defined paths forward. 87% means ~13% of decision points don't have demonstrated independent control.
->
-> **Immediate root cause analysis needed**:
-> ```
-> Categories of incomplete MC/DC coverage:
->
-> Category 1: Unreachable code (dead code)
->   → Prove dead code by analysis → DER concurrence → formally deactivate (document in SCMP)
->   → DO-178C §6.4.4.3: deactivated code must be proven unreachable, not just untested
->
-> Category 2: Defensive code (error handlers for "impossible" states)
->   → Option A: Remove defensive code if architecturally impossible (with DAR review)
->   → Option B: Add fault injection test to exercise the handler (hardware-dependent)
->   → Option C: File deactivated code concurrence with DER
->
-> Category 3: Legitimate untested paths
->   → Must be covered; add test cases; re-run coverage tool
-> ```
->
-> **For your 87% situation**:
->
-> 1. **Categorize the 13% gap**: Run coverage diff analysis to identify which lines/branches are missing
-> 2. **Dead code review**: If any missing coverage is provably dead code, document and get DER concurrence — this reduces the gap without new tests
-> 3. **New test cases**: For legitimate untested paths, write new test cases; add to SVCP (Software Verification Cases and Procedures)
-> 4. **Re-run with correct tooling**: Verify your MC/DC tool is correctly configured (some tools report wrong coverage % due to compiler optimization; must compile with optimization disabled for DO-178C structural coverage)
->
-> **Compliance approach**: Your DER will need to sign off on either (a) 100% MC/DC with new tests, or (b) deactivated code concurrence for dead code + 100% MC/DC on remaining active code. Neither approach bypasses the requirement — it just correctly scopes what "100%" applies to.
->
-> **Timeline impact**: Typically 4-8 weeks to close a coverage finding with new tests; 2-4 weeks for deactivated code concurrence.
-
----
-
-### Scenario 3: Multi-Jurisdictional Validation (FAA → EASA)
-
-**User**: We have FAA certification for our turboprop regional aircraft. We want to sell in Europe. What's the EASA validation process under BASA?
-
-**Expert**:
-> **Good news: The BASA (Bilateral Aviation Safety Agreement) between FAA and EASA covers most transport and general aviation aircraft**, significantly reducing the validation burden vs. a full EASA certification.
->
-> **BASA Technical Implementation Procedure (TIP) for TC Validation**:
->
-> **Phase 1 — Pre-Application (Before Submission)**:
-> - Check that your product is covered by the BASA TIP scope (fixed-wing is generally covered; military derivatives may not be)
-> - Prepare Validation Support Package (VSP): your full FAA TC data package
-> - Identify "Differences Items" — areas where CS differs from FAR (there will be some for any aircraft)
->
-> **Phase 2 — EASA Validation Application**:
-> ```
-> Application timing: Submit to EASA before or concurrent with FAA TC application
-> (Late applications face delays because EASA needs to be involved during design)
->
-> Differences items typically found for turboprops:
-> CS-23 Amdt 5 differences from FAR Part 23 Amdt 62:
->   - CS-23.303 load factor slightly different from FAR
->   - CS-23 fuel system requirements
->   - Flight manual format differences (EASA expects CS-FM compliance)
-> ```
->
-> **Phase 3 — Shadow Compliance**:
-> For each "Differences Item", either:
-> - (A) Demonstrate compliance with the CS requirement using existing FAA test data (preferred)
-> - (B) Conduct additional analysis or test to address the CS-specific requirement
-> - (C) Request ELOS finding from EASA for the specific difference
->
-> **Phase 4 — EASA Flight Testing** (if required):
-> EASA typically requires a flight evaluation for new aircraft types. Under BASA, EASA may accept FAA flight test reports + a limited EASA evaluation flight (typically 2-5 flights) rather than a full independent test program.
->
-> **Timeline**: 18-30 months after FAA TC for turboprop under BASA. Full validation without BASA: 3-5 years.
-
----
-
-## § 9 Common Pitfalls & Anti-Patterns
-
-See [references/10-pitfalls.md](references/10-pitfalls.md)
-
----
-
----
-
 ### Anti-Pattern 2: Treating DO-178C as a Documentation Exercise
 **❌ BAD**: Creating DO-178C plans and documentation after the software is written
 **✅ GOOD**: DO-178C is a development process standard — the plans must be written and followed DURING development, not retroactively created:
@@ -338,6 +255,118 @@ Country-specific requirements NOT covered by BASA:
 ✗ TCCA (Canada) — separate bilateral
 ✗ ICAO Annex 8 differences for specific countries
 ```
+
+---
+
+
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on airworthiness certification engineer.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:**
+Urgent airworthiness certification engineer issue requires immediate attention.
+
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
+
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term airworthiness certification engineer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

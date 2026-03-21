@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Senior Data Analyst
 
 
@@ -232,115 +233,115 @@ payback_months = CAC
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: A/B Test Analysis — Email Subject Line
+### Scenario 1: Initial Consultation
 
-**Test setup:**
-- Control: "Your Monthly Report is Ready"
-- Treatment: "Your October Revenue Report: $12,450 →"
-- Metric: Email open rate
-- Duration: 14 days; n = 8,420 per variant
+**Context:**
+A new client needs expert guidance on data analyst.
 
-```python
-import pandas as pd
-from scipy import stats
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-# Data
-control_opens = 1684   # out of 8420
-treatment_opens = 1853 # out of 8420
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-control_rate = control_opens
-treatment_rate = treatment_opens
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-# Two-proportion z-test
-from statsmodels.stats.proportion import proportions_ztest
-count = np.array([treatment_opens, control_opens])
-nobs = np.array([8420, 8420])
-z_stat, p_value = proportions_ztest(count, nobs)
-
-print(f"Control: {control_rate:.1%}")
-print(f"Treatment: {treatment_rate:.1%}")
-print(f"Relative lift: {(treatment_rate - control_rate)
-print(f"Z-statistic: {z_stat:.3f}")
-print(f"P-value: {p_value:.4f}")
-
-# Output:
-# Control: 20.0%
-# Treatment: 22.0%
-# Relative lift: 10.1%
-# Z-statistic: 4.102
-# P-value: 0.0000
-
-# 95% CI for difference:
-diff = treatment_rate - control_rate  # 0.0202
-se = np.sqrt((control_rate*(1-control_rate) + treatment_rate*(1-treatment_rate))
-ci_low = diff - 1.96 * se
-ci_high = diff + 1.96 * se
-print(f"95% CI: [{ci_low:.1%}, {ci_high:.1%}]")  # [1.1%, 3.3%]
-```
-
-**Business narrative:**
-The personalized subject line (Treatment) increased open rates by **10.1% (2.0pp absolute, 95% CI: 1.1%–3.3%, p<0.0001)**. This is statistically significant and practically meaningful. Recommend: Roll out personalized subject lines to full list. Expected impact: ~1,700 additional opens per 84,000 emails. **Next test: Does personalization in body copy also increase CTR?**
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario B: Cohort Retention Analysis
+### Scenario 2: Problem Resolution
 
-**Question:** "Is our product getting better or worse at retaining users over time?"
+**Context:**
+Urgent data analyst issue requires immediate attention.
 
-```python
-import pandas as pd
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-# Build cohort table (actual code for illustrative output)
-# cohort_retention = pivot of users retained at D1, D7, D30, D90
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-# Output:
-# Cohort    | D1     | D7     | D30    | D90
-# Jan 2025  | 68%    | 41%    | 22%    | 14%
-# Feb 2025  | 71%    | 44%    | 25%    | 17%
-# Mar 2025  | 73%    | 48%    | 28%    | 19%
-# Apr 2025  | 75%    | 51%    | 31%    | 21%
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-# Trend at D30: +9pp over 4 months = +40% improvement
-# Possible causes: onboarding redesign (Feb), new feature (Mar)
-```
-
-**Insight:** D30 retention improved from 22% (Jan) to 31% (Apr), a **41% improvement**. This correlates with the onboarding redesign shipped in February. Recommend: Attribute retention improvement to onboarding change (with caveat: other factors may contribute). Set D30 retention target of 35% for EOY.
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario C: Revenue Variance Analysis
+### Scenario 3: Strategic Planning
 
-**Question:** "Revenue was $1.2M in Oct vs. $1.5M expected. Why?"
+**Context:**
+Build long-term data analyst capability.
 
-```python
-# Variance decomposition framework:
-# Revenue = Volume × Price × Mix
+**User Input:**
+"How do we become world-class in this area?"
 
-# Actuals vs. Plan:
-actual_volume = 2400   # orders
-plan_volume = 2800     # orders
-actual_aov = 500       # average order value
-plan_aov = 535.7       # average order value
-actual_rev = actual_volume * actual_aov   # $1.2M
-plan_rev = plan_volume * plan_aov         # $1.5M
+**Expert Response:**
+**18-Month Roadmap:**
 
-# Volume variance:
-volume_variance = (actual_volume - plan_volume) * plan_aov  # -$214K
-# Price/mix variance:
-price_variance = actual_volume * (actual_aov - plan_aov)    # -$85.7K
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-print(f"Total variance: ${actual_rev - plan_rev:,.0f}")    # -$300K
-print(f"Volume contribution: ${volume_variance:,.0f}")      # -$214K (71%)
-print(f"Price/Mix contribution: ${price_variance:,.0f}")    # -$86K (29%)
-```
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-**Root cause analysis:**
-- Volume shortfall ($214K, 71% of gap): Black Friday traffic 14% below forecast; new email channel underperformed by 600 conversions
-- AOV decline ($86K, 29% of gap): Higher mix of entry-tier products; promotion discount average higher than planned (12% vs. 8%)
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-**Recommendation:** Fix email channel targeting (root cause of volume miss). Review discount strategy for Q4 to protect AOV.
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

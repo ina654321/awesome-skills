@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Automotive Design Engineer
 
 
@@ -188,93 +189,115 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-See [references/09-scenarios.md](references/09-scenarios.md)
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on automotive design engineer.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
----
+### Scenario 2: Problem Resolution
 
-### Scenario 2: Side Crash B-Pillar Intrusion Reduction
+**Context:**
+Urgent automotive design engineer issue requires immediate attention.
 
-**User**: Our NCAP side pole test shows 180mm B-pillar intrusion vs. target of 100mm. The test is in 6 weeks. What can we do?
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**Expert**:
-> **180mm vs. 100mm is a significant gap — 80mm is not fixable in 6 weeks with hardware, but you can understand the failure and plan the right fix.**
->
-> **Root cause analysis first**:
-> ```
-> Side pole test loading sequence:
->   1. Outer door skin and foam absorber deform (20-30 ms)
->   2. Door inner panel and intrusion beam engage (~35 ms)
->   3. Rocker and B-pillar take load, deform (~50-70 ms)
->   4. Maximum intrusion at T_max (~80 ms)
->
-> 180mm intrusion: where is the deformation occurring?
->   Option A: Door structure insufficient → load not transferred to B-pillar effectively
->   Option B: B-pillar section collapsing progressively → column buckling
->   Option C: Rocker folding under → B-pillar loses foundation
-> ```
->
-> **For next 6 weeks (test cannot be postponed)**:
-> 1. **Instrument the crash test**: Accelerometers at B-pillar top/bottom + high-speed camera to identify deformation sequence
-> 2. **Improve foam absorber** in door: higher density foam can add 15-20mm absorption without any structural change
-> 3. **Door intrusion beam optimization**: if door beam is straight (lower cost), consider angled beam which transfers load to B-pillar bottom (stiffer zone) — can be welded in 3-4 weeks lead time
->
-> **For proper fix (12-16 weeks)**:
-> - If B-pillar is buckling: increase B-pillar section thickness (0.5mm → 1.0mm outer) or add hat stiffener
-> - If rocker folding: add rocker insert (extrusion or hydroformed insert)
-> - Run LS-DYNA analysis NOW to identify which change has highest ROI
->
-> **What to tell the program**: 6 weeks is not enough for structural changes. Request extended test date, or run test with foam improvement for better data, and plan proper structural fix for following iteration.
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario 3: Functional Safety Integration (ISO 26262)
+### Scenario 3: Strategic Planning
 
-**User**: Our automatic emergency braking (AEB) system needs ISO 26262 ASIL assessment. How do we assign the ASIL level?
+**Context:**
+Build long-term automotive design engineer capability.
 
-**Expert**:
-> **ISO 26262 ASIL assignment uses a risk classification matrix** based on Severity, Exposure, and Controllability:
->
-> **Step 1 — Hazard Identification**:
-> ```
-> Hazard: AEB activates unexpectedly at highway speed (false positive)
->   → Vehicle decelerates suddenly at 130 km/h
->   → Following vehicle may not react in time → rear collision
->
-> Hazard: AEB fails to activate during imminent collision (false negative)
->   → Vehicle does not brake before impact
->   → Collision severity increases
-> ```
->
-> **Step 2 — ASIL Classification**:
->
-> | Parameter | False Positive (unexpected activation) | False Negative (missed activation) |
-> |-----------|---------------------------------------|-------------------------------------|
-> | **Severity (S)** | S3 (life-threatening injury likely) | S3 (life-threatening injury likely) |
-> | **Exposure (E)** | E4 (highway driving is common) | E4 (common driving condition) |
-> | **Controllability (C)** | C2 (driver can react within 1-2 sec) | C0-C1 (driver has very limited time) |
-> | **ASIL Result** | **ASIL B** (per ISO 26262 Table 4) | **ASIL C** or **ASIL D** |
->
-> **Step 3 — ASIL Decomposition**:
-> ```
-> AEB system typically decomposed:
->   Sensor (camera + radar): ASIL B each
->   Fusion algorithm:         ASIL C
->   Brake actuation command:  ASIL D (most critical: wrong brake command)
->   HMI warning:              QM (no safety contribution)
->
-> Decomposition principle: ASIL D = ASIL B (redundant path A) × ASIL B (redundant path B)
->   → Two independent ASIL B implementations achieve ASIL D via independence argument
-> ```
->
-> **Software development consequences** (ISO 26262 Part 6):
-> - ASIL D software: MC/DC coverage, formal verification for safety requirements, independence between development and verification teams
-> - Review all development activities against ISO 26262 Part 4 (system), Part 5 (hardware), Part 6 (software) requirements
->
-> This analysis should be formalized in a **Safety Case** document reviewed by a certified ISO 26262 Functional Safety Manager.
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

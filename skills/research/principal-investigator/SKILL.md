@@ -24,6 +24,7 @@ metadata:
 
 
 
+
 # Principal Investigator / PI
 
 
@@ -232,109 +233,115 @@ Key items researchers commonly miss:
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: NIH R01 Specific Aims Draft
+### Scenario 1: Initial Consultation
 
-**Research topic:** "The role of mitochondrial dynamics in neurodegeneration"
+**Context:**
+A new client needs expert guidance on principal investigator.
 
-```
-SPECIFIC AIMS
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-Alzheimer's disease (AD) affects 6.7 million Americans with no disease-modifying treatment.
-Mitochondrial dysfunction is an early feature of AD pathology, yet the mechanisms linking
-amyloid-beta (Aβ) accumulation to mitochondrial fragmentation remain poorly understood.
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-Our laboratory has established that Aβ oligomers activate dynamin-related protein 1 (DRP1),
-driving excessive mitochondrial fission. We have generated a novel DRP1 conditional knockout
-mouse and identified a pharmacological DRP1 inhibitor (CmpX) that restores mitochondrial
-morphology in AD patient iPSC-derived neurons. We hypothesize that DRP1-mediated
-mitochondrial fragmentation is a causal driver of synaptic loss in AD, and that its inhibition
-will preserve cognitive function.
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-Aim 1: DETERMINE whether DRP1 activation is necessary for Aβ-induced synaptic loss.
-We will use our conditional DRP1 knockout crossed with 5xFAD mice to test whether genetic
-DRP1 reduction prevents synaptic loss (electrophysiology) and cognitive impairment (Morris
-Water Maze) in an established AD model.
-
-Aim 2: DEFINE the molecular mechanism by which Aβ activates DRP1.
-We will use proximity labeling (BioID), cryo-EM, and phosphoproteomics in iPSC-derived
-neurons to identify Aβ-DRP1 interaction partners and phosphorylation events required for
-DRP1 activation.
-
-Aim 3: TEST CmpX as a disease-modifying therapeutic strategy in multiple AD models.
-We will evaluate CmpX efficacy (dose, timing, duration) in 5xFAD mice and in human
-organoid models, measuring mitochondrial morphology, synaptic density, Aβ pathology,
-and cognitive outcomes.
-
-Completion of these aims will establish DRP1 as a druggable node in AD pathogenesis
-and advance CmpX toward IND-enabling studies. Our interdisciplinary approach—combining
-genetic, cell biological, and pharmacological tools—positions us to transform our mechanistic
-understanding into a therapeutic strategy for the millions affected by Alzheimer's disease.
-```
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario B: Experimental Design Critique
+### Scenario 2: Problem Resolution
 
-**Student's proposed design:** "We'll treat cells with Drug X at 10μM for 24 hours and measure cell viability compared to untreated cells."
+**Context:**
+Urgent principal investigator issue requires immediate attention.
 
-**PI critique:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-```
-Problems identified:
-1. No dose-response curve — 10μM may be supra-therapeutic or sub-therapeutic; cannot interpret results
-2. Missing controls:
-   - Vehicle control (DMSO solvent at matching concentration)
-   - Positive control (known cell death inducer to validate assay sensitivity)
-   - Time course (24h may not be optimal for this drug class)
-3. "Cell viability" is not specific — MTT assay? PI exclusion by flow? Caspase activity?
-   Different assays measure different death mechanisms
-4. n=? — Without power analysis, we don't know if n will detect your expected effect
-5. Replicates — biological replicates (separate cell passages) vs. technical replicates;
-   need minimum 3 independent biological experiments
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-Recommended design:
-- Dose-response: 0.01, 0.1, 1, 10, 100 μM + vehicle control
-- Time course: 6, 24, 48, 72 hours
-- Controls: DMSO vehicle; staurosporine (positive); untreated
-- Assays: MTT + PI/Annexin V (distinguish apoptosis vs. necrosis)
-- n = 3 independent biological experiments, each in triplicate
-- Power analysis based on expected IC50 from literature
-```
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario C: Peer Review Critique
+### Scenario 3: Strategic Planning
 
-**Journal:** Nature Cell Biology submission on CRISPR screen for cell division genes
+**Context:**
+Build long-term principal investigator capability.
 
-**Critical review points:**
+**User Input:**
+"How do we become world-class in this area?"
 
-```
-Major concerns:
+**Expert Response:**
+**18-Month Roadmap:**
 
-1. Statistical: Authors use t-tests on data with >2 groups (should use ANOVA + post-hoc).
-   Z-scores used as enrichment metric without validation against known screen controls.
-   Hit calling threshold not pre-specified; appears to be selected post-hoc to yield
-   "interesting" number of hits.
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-2. Validation: 3 top hits validated but 47 reported as high-confidence. Screen-level
-   validation rate unknown. Request: validate random sample of 10 hits (positive and negative)
-   to establish false discovery rate.
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-3. Controls: Essential genes (ribosomal proteins) not highlighted in volcano plot —
-   cannot assess if screen worked as expected. Request CRISPR essentiality score correlation.
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
 
-4. Mechanism: For lead candidate GENE_X, the proposed mechanism is purely correlative.
-   Rescue experiment (re-expression of WT vs. mutant GENE_X in knockdown background)
-   required to establish causality.
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
 
-Minor concerns:
-- Figure 3B: Error bars not defined in legend (SEM? SD? 95% CI?)
-- Methods: sgRNA library source and coverage not reported
-- Supplementary Data: Raw counts not deposited in public repository (required by journal policy)
-```
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

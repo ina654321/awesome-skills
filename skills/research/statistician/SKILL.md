@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Statistician
 
 
@@ -203,117 +204,115 @@ p_fdr <- p.adjust(p_values, method = "BH")
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Mixed-Effects Model for Repeated Measures
+### Scenario 1: Initial Consultation
 
-**Design:** 40 patients randomized 1:1 to Drug A vs. Placebo. Blood pressure measured at baseline, Week 4, Week 8, Week 12.
+**Context:**
+A new client needs expert guidance on statistician.
 
-**Why mixed-effects (not repeated measures ANOVA):**
-- Missing data: RM-ANOVA requires complete cases; LME handles missing data (MCAR/MAR)
-- Individual trajectories: LME models random slopes; RM-ANOVA assumes same trajectory for all
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```r
-library(lme4)
-library(lmerTest)  # p-values via Satterthwaite approximation
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-# Primary model: Time × Treatment interaction = did groups change differently over time?
-model <- lmer(
-    bp ~ time * treatment +   # Fixed: main effects + interaction
-         baseline_bp +         # Fixed: covariate
-         (1 + time | patient_id),  # Random: intercept + slope per patient
-    data = bp_data,
-    REML = TRUE
-)
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-summary(model)
-
-# Key output to report:
-# Fixed effect: time:treatmentDrugA estimate ± SE, df (Satterthwaite), t, p
-# Random effects: variance of intercept and slope across patients
-# Effect size: standardized difference at Week 12 (Cohen's d from emmeans)
-
-library(emmeans)
-emmeans(model, pairwise ~ treatment | time)  # Marginal means per timepoint
-```
-
-**Assumptions to check:**
-```r
-# Residual normality
-qqnorm(residuals(model)); qqline(residuals(model))
-shapiro.test(residuals(model))  # p > 0.05 = no evidence of non-normality
-
-# Homoscedasticity
-plot(fitted(model), residuals(model))  # No funnel shape = good
-
-# Random effects distribution
-lattice::dotplot(ranef(model, condVar=TRUE))  # Should be centered near 0
-```
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario B: Causal Inference — Difference-in-Differences
+### Scenario 2: Problem Resolution
 
-**Research question:** Did a policy change (mandatory seatbelt law enacted in State A, Jan 2023) reduce traffic fatalities?
+**Context:**
+Urgent statistician issue requires immediate attention.
 
-**Why not simple before/after comparison?** Confounders (economic conditions, weather, other laws) also changed over time.
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-**DiD design:** Compare State A (treated) to State B (control with similar pre-trend) before vs. after the policy.
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-```python
-import pandas as pd
-import statsmodels.formula.api as smf
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-# DiD estimator: β₃ = (Post_Treated - Post_Control) - (Pre_Treated - Pre_Control)
-model = smf.ols(
-    'fatality_rate ~ treated + post + treated_post + economic_index + pop_density',
-    data=df
-).fit(cov_type='HC3')  # Heteroskedasticity-robust SEs
-
-print(model.summary())
-
-# Key coefficient: treated_post (DiD estimator)
-# Interpretation: Among treated states, post-period change in fatality rate,
-# net of the time trend observed in control states
-
-# Parallel trends assumption check (critical!):
-# Plot pre-period trends for treated and control groups
-# If parallel pre-policy → parallel trends assumption plausible
-# If divergent pre-policy → DiD invalid; need other approach
-```
-
-**Reporting:** The DiD estimate of -2.3 fatalities/100K population (95% CI: -3.8 to -0.8, p=0.003) suggests the seatbelt law was associated with a reduction in fatalities. **Caveat:** This assumes parallel trends and no contemporaneous confounders — sensitivity analyses confirm robustness to alternative control states.
+**Recommendation:** [Best option with rationale]
 
 ---
 
-### Scenario C: Bayesian vs. Frequentist — When it Matters
+### Scenario 3: Strategic Planning
 
-**Scenario:** Drug trial shows p=0.048. Sponsor claims statistical significance. Reviewer is skeptical.
+**Context:**
+Build long-term statistician capability.
 
-**The problem with p=0.048:**
-- p < 0.05 is a threshold, not proof of efficacy
-- If base rate of drug efficacy is low (many tested drugs fail), even p<0.05 could be mostly false positives
-- No effect size reported: was the 95% CI entirely to the right of zero? Or does it include trivially small effects?
+**User Input:**
+"How do we become world-class in this area?"
 
-**Bayesian re-analysis:**
+**Expert Response:**
+**18-Month Roadmap:**
 
-```r
-library(BayesFactor)
-# Prior: half-normal on effect size, σ=0.5 (moderate effect expected)
-# This represents prior belief about plausible effect sizes in this domain
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
 
-bf <- ttestBF(x = treatment_group, y = control_group, rscale = 0.5)
-print(bf)
-# BF₁₀ = 3.2 → "moderate evidence for alternative" (Jeffreys scale)
-# Interpretation: Data are 3.2x more likely under H₁ than H₀
-# Compare to frequentist: p=0.048 → reject H₀ (binary yes/no)
-# Bayesian: BF=3.2 → moderate but not conclusive evidence
-```
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
 
-**Interpretation difference:**
-- Frequentist: "Reject H₀ at α=0.05" → drug works (binary)
-- Bayesian: "BF=3.2 → moderate evidence for effect" → update prior belief moderately
-- Clinical decision: BF=3.2 with a drug that has safety concerns → probably not sufficient; need replication
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

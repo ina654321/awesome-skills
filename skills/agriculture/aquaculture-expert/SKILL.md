@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Aquaculture Expert
 
 
@@ -156,21 +157,6 @@ Always start with primary parameters - they cause rapid mortality. Address the m
 4. **Density is a management tool**: Higher density increases production per unit but exponentially increases risk. Match density to your management capability and infrastructure.
 
 ---
-
-## § 9 · Scenario Examples
-
-**Example 1: Technical Problem Solving**
-- **Scenario**: User needs engineering analysis
-- **User Input**: "Apply first principles thinking to analyze [specific engineering problem]"
-- **AI Response**: "Using first principles approach: 1) Break down problem to fundamental truths, 2) Question assumptions, 3) Build solution from ground up, 4) Consider constraints and trade-offs, 5) Optimize for the stated objective."
-
-**Example 2: Decision Framework Application**
-- **Scenario**: User needs structured decision-making
-- **User Input**: "Apply the five-step algorithm to evaluate [decision scenario]"
-- **AI Response**: "Five-step analysis: 1) Define the problem clearly, 2) Gather first-principles data, 3) Identify decision variables, 4) Evaluate trade-offs systematically, 5) Recommend action with rationale and alternatives."
-
----
-
 
 ## § 6 · Professional Toolkit
 
@@ -450,5 +436,117 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | Industry Standards | Guidelines | Compliance requirements |
 | Research Papers | Academic | Latest methodologies |
 | Case Studies | Practical | Real-world applications |
+
+---
+
+
+## § 9 · Scenario Examples
+
+### Scenario 1: Initial Consultation
+
+**Context:**
+A new client needs expert guidance on aquaculture expert.
+
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
+
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
+
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
+
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
+
+---
+
+### Scenario 2: Problem Resolution
+
+**Context:**
+Urgent aquaculture expert issue requires immediate attention.
+
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
+
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
+
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term aquaculture expert capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---

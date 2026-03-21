@@ -22,6 +22,7 @@ metadata:
 
 
 
+
 # Sales Manager
 
 
@@ -184,90 +185,115 @@ OTE Benchmark (B2B SaaS):
 
 ---
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Deal Strategy — Stuck at Proposal Stage
+### Scenario 1: Initial Consultation
 
-**Situation:** $280K enterprise deal, at proposal stage for 6 weeks, champion (IT Director) says "still evaluating." MEDDPICC score: 12/24.
+**Context:**
+A new client needs expert guidance on sales manager.
 
-**MEDDPICC Gaps Analysis:**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-M — Metrics: Champion gave verbal ROI but CFO hasn't seen it → Gap: EB doesn't know the number
-E — Economic Buyer: Never met VP Finance who holds budget → Critical gap
-D — Decision Criteria: Only partial (technical fit criteria; commercial evaluation unknown)
-P — Paper Process: Unknown → Could add 6 weeks we don't know about
-C — Champion: IT Director, but cannot approve $280K → Not the right level champion
-C — Competition: "Two others" — don't know who → Blind spot
-```
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-**Action Plan:**
-1. Test champion: "Can you set up a 30-min call with VP Finance next week so I can walk through the financial model?"
-   - If yes → real champion; execute
-   - If "I'll see what I can do" + 2 weeks silence → not a real champion; need new entry point
-2. Build financial model showing: cost of current process × ROI from solution = compelling enough for EB meeting
-3. Request mutual evaluation agreement: "We've invested 6 weeks; can we agree on decision date?"
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-**Forecast status: Upside (not commit) until EB meeting is confirmed**
-
----
-
-### Scenario B: Rep Coaching — Low Win Rate
-
-**Rep:** 18-month AE, pipeline volume is fine (4x coverage), but win rate is 11% (team average: 22%)
-
-**Gong/Chorus analysis reveals:**
-- Reps talks 65% of call time (vs. 43% team average) — not listening enough
-- Rarely asks "What happens if you don't solve this?" — not establishing cost of inaction
-- Sends proposals before asking "What does 'good' look like for you?" — proposing before qualifying
-
-**Coaching Plan:**
-
-```
-Week 1-2: Shadow calls + feedback
-  - Listen to 3 recorded calls together
-  - Identify: Where does rep talk when they should listen?
-  - Specific coaching: Practice 5-second pause after buyer speaks
-
-Week 3-4: SPIN practice
-  - Drill implication questions: "If this keeps happening, what does that mean for [goal]?"
-  - Practice out loud: 20 minutes/day of implication question scenarios
-
-Week 5-6: Live deal coaching
-  - Manager joins next 2 discovery calls as silent observer
-  - Post-call debrief: 2 things rep did well, 1 specific improvement
-
-Month 2 success metric: Talk:Listen ratio < 50%; win rate improving toward 16%
-```
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
 ---
 
-### Scenario C: Q4 Pipeline Shortfall
+### Scenario 2: Problem Resolution
 
-**Situation:** $5M quarterly quota, 60 days out, $6.8M in pipeline (1.36x coverage — dangerously low).
-Team needs 3x coverage to hit $5M reliably.
+**Context:**
+Urgent sales manager issue requires immediate attention.
 
-**Immediate Actions:**
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-```
-Week 1: Triage existing pipeline
-  - Commit (90%+ likely): $2.1M — verify MEDDPICC; confirm all on track
-  - Upside (50-70%): $3.2M — identify acceleration levers for top 5 deals
-  - At-Risk (<40%): $1.5M — get honest about whether these will close this Q
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-Week 2: Accelerate top upside deals
-  - For each upside deal: What is the ONE thing blocking progress?
-  - Common blockers: No EB meeting, no paper process started, no mutual close plan
-  - Manager engagement: Join calls on top 3 upside deals
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
 
-Week 3-4: Create urgency mechanisms
-  - End-of-quarter pricing incentive (if approved): 5% discount for signed by Dec 31
-  - Executive sponsor call: CEO/VP Sales calls EB to champion relationship
-  - Free professional services offer to accelerate POC completion
+**Recommendation:** [Best option with rationale]
 
-Forecast: Commit $2.1M + 40% of upside = $1.28M = ~$3.4M likely vs. $5M quota
-Action: Reset expectations with leadership now; don't manage "hope" to $5M
-```
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term sales manager capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
 
 ---
 

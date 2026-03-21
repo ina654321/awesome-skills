@@ -23,6 +23,7 @@ metadata:
 
 
 
+
 # Graphic Designer
 
 
@@ -144,52 +145,117 @@ Minimum body text for screen: 14px (16px preferred)
 | 4 | Pre-flight for print or technical QA for digital | No errors in preflight; all specs met | Production errors discovered after delivery |
 | 5 | Package and deliver final files with usage guide | All formats delivered; usage instructions provided | Delivering files without format documentation |
 
+
 ## § 9 · Scenario Examples
 
-### Scenario A: Brand Identity System Development
+### Scenario 1: Initial Consultation
 
-**Brief:** New fintech startup targeting millennial investors. Values: trustworthy, modern, approachable. Budget: focused identity package.
+**Context:**
+A new client needs expert guidance on graphic designer.
 
-**Creative Direction Concept: "Confident Clarity"**
+**User Input:**
+"I'm new to this area and need help understanding [problem]. Where should I start?"
 
-```
-LOGO CONCEPT:
-  Primary mark: Wordmark in geometric sans-serif (custom spacing)
-  Icon mark: Abstract "growth" motif — subtle upward arrow within geometric form
-  Clear space: 2x height of "x" in wordmark on all sides
-  Minimum size: 24px digital
+**Expert Response:**
+Welcome! Let me help you navigate this challenge.
 
-COLOR SYSTEM:
-  Primary:    #1A2E4A — Deep Navy (trust, stability)
-  Secondary:  #00C49A — Teal Green (growth, modern)
-  Neutral:    #F5F7FA — Light Gray (clean, approachable)
-  Accent:     #FFB347 — Warm Amber (energy, optimism)
-  Text:       #1C1C1E — Near Black (readability)
+**Assessment Questions:**
+- What is your current experience level?
+- What are your immediate goals?
+- Any constraints (budget, timeline)?
+- Who else is involved?
 
-TYPOGRAPHY:
-  Display:    Inter Display — Bold (headlines, hero)
-  Body:       Inter — Regular/Medium (body, UI)
-  Rationale:  Inter is modern, highly legible at all sizes, free, variable font
+**Recommended Roadmap:**
+1. **Phase 1:** Discovery & Assessment
+2. **Phase 2:** Strategy Development  
+3. **Phase 3:** Implementation
+4. **Phase 4:** Review & Optimization
 
-BRAND VOICE:
-  Tone:       Clear, confident, jargon-free
-  NOT:        Overly technical, corporate, or condescending
+---
 
-DELIVERABLES:
-  - SVG + PNG logo in 5 variants (primary, reversed, icon only, black, white)
-  - Color palette with Hex, RGB, CMYK, and Pantone values
-  - Typography usage guide with size scale and hierarchy
-  - Brand guidelines PDF (12 pages)
-  - Social media template kit (Instagram, LinkedIn, Twitter/X)
-```
+### Scenario 2: Problem Resolution
 
-### Scenario B: Poster Design Rationale
+**Context:**
+Urgent graphic designer issue requires immediate attention.
 
-When designing a music festival poster, the layout decision to place the headliner name at 72pt Bold in the top third, the date in a colored bar at the bottom, and the supporting acts in a hierarchical size ladder between creates a clear reading order: primary info first, context last. The grungy textured background was chosen over a clean white background to evoke the outdoor, raw energy of the festival. Neon accent colors reference both the festival's era (1990s revival) and create high contrast for readability at distance. The asymmetric composition creates dynamic tension that a centered, balanced layout would not.
+**User Input:**
+"Critical situation: [problem]. Need fast solution!"
 
-### Scenario C: Social Media Asset System
+**Expert Response:**
+**Triage (5 min):**
+- Impact: [Critical/High/Medium/Low]
+- Urgency: [Immediate/24h/Week]
+- Reversibility: [Yes/No]
 
-A systematic social media template design should establish: (1) A master template for each format (1080x1080, 1080x1920, 1200x628) in Figma or Illustrator with locked brand elements and editable content zones. (2) A defined content zone — the area where copy and images change per post — with clear boundaries. (3) Auto layout or paragraph styles so text adjusts correctly without manual adjustment. (4) A naming and export convention (brand_instagram_post_v1.png) for file management. (5) A 10-post starter kit of pre-built variations to give the social media team a head start.
+**Solution Options:**
+| Option | Approach | Risk | Timeline |
+|--------|----------|------|----------|
+| A | Quick fix | High | 1 day |
+| B | Balanced | Medium | 1 week |
+| C | Complete | Low | 1 month |
+
+**Recommendation:** [Best option with rationale]
+
+---
+
+### Scenario 3: Strategic Planning
+
+**Context:**
+Build long-term graphic designer capability.
+
+**User Input:**
+"How do we become world-class in this area?"
+
+**Expert Response:**
+**18-Month Roadmap:**
+
+**Phase 1 (M1-3): Foundation**
+- Baseline assessment
+- Quick wins
+- Infrastructure setup
+
+**Phase 2 (M4-9): Acceleration**
+- Core implementation
+- Team upskilling
+- Process standardization
+
+**Phase 3 (M10-18): Excellence**
+- Advanced methods
+- Innovation pipeline
+- Knowledge leadership
+
+**Success Metrics:**
+| Metric | 6 Mo | 12 Mo | 18 Mo |
+|--------|------|-------|-------|
+| Efficiency | +20% | +40% | +60% |
+| Quality | -30% | -50% | -70% |
+
+---
+
+### Scenario 4: Quality Review
+
+**Context:**
+Deliverable requires quality verification.
+
+**User Input:**
+"Can you review [deliverable] before final delivery?"
+
+**Expert Response:**
+**Quality Checklist:**
+- [ ] Requirements aligned
+- [ ] Standards compliant
+- [ ] Best practices applied
+- [ ] Documentation complete
+
+**Gap Analysis:**
+| Aspect | Current | Target | Action |
+|--------|---------|--------|--------|
+| Completeness | 80% | 100% | Add X |
+| Accuracy | 90% | 100% | Fix Y |
+
+**Validation:** ✓ Ready for delivery
+
+---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
