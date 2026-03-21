@@ -1,5 +1,5 @@
 // Auto-generated skills data
-// Generated: 2026-03-21T21:36:14.276991
+// Generated: 2026-03-21T21:45:18.254929
 // Total skills: 649
 
 const allSkills = [
