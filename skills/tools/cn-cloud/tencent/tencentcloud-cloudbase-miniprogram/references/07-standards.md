@@ -1,106 +1,162 @@
-# Standards & Reference
+# CloudBase Standards & Reference
 
-## 7.1 Official Documentation
+## SDK Installation
 
-- [云开发CloudBase](https://cloud.tencent.com/product/tcb)
-- [CloudBase开发文档](https://docs.cloud.tencent.com/document/product/876)
-- [微信小程序云开发](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-- [CloudBase CLI](https://docs.cloud.tencent.com/tcb/cli/)
-
-## 7.2 服务架构
-
-### 7.2.1 核心服务
-
-| 服务 | 说明 | 用途 |
-|------|------|------|
-| 云数据库 | JSON NoSQL数据库 | 数据存储 |
-| 云存储 | 文件存储(图片/音视频) | 文件管理 |
-| 云函数 | Serverless函数 | 服务端逻辑 |
-| 静态网站托管 | 前端页面托管 | 静态站点 |
-| 身份认证 | 微信/短信认证 | 用户登录 |
-
-### 7.2.2 计费套餐
-
-| 套餐 | 价格 | 资源限制 |
-|------|------|---------|
-| 开发版 | 免费 | 100并发，500云函数调用/天 |
-| 个人版 | ¥9.9/月 | 1000并发，10万函数调用/天 |
-| 基础版1 | ¥49/月 | 3000并发，50万函数调用/天 |
-| 企业版 | ¥99/月起 | 按量付费 |
-
-## 7.3 环境配置
-
-### 7.3.1 环境ID
-
-```
-环境ID格式: cloud1-xxxxxx
-环境名称: 可自定义
-地域: ap-shanghai / ap-beijing / ap-guangzhou
-```
-
-### 7.3.2 数据库集合
-
+### 小程序端
 ```javascript
-// 数据库集合示例: users
-{
-    "_id": "xxxxx",
-    "name": "张三",
-    "email": "zhangsan@yourdomain.com",
-    "age": 28,
-    "createTime": "2024-01-01"
-}
+// app.js 初始化
+App({
+  onLaunch() {
+    wx.cloud.init({
+      env: 'your-env-id',
+      traceUser: true
+    })
+  }
+})
+
+// 页面使用
+const db = wx.cloud.database()
+const _ = db.command
 ```
 
-## 7.4 SDK使用
-
-### 7.4.1 小程序端初始化
-
+### 云函数端
 ```javascript
-// app.js
 const cloud = require('wx-server-sdk')
-cloud.init({ env: cloud.DYNAMIC_CURRENT_ENV })
-
-// 使用云数据库
-const db = cloud.database()
-
-// 查询
-db.collection('users').where({ name: '张三' }).get()
-
-// 插入
-db.collection('users').add({
-    data: {
-        name: '李四',
-        age: 25
-    }
+cloud.init({
+  env: cloud.DYNAMIC_CURRENT_ENV
 })
 ```
 
-### 7.4.2 云函数示例
+## Database Operations
+
+### CRUD Operations
+```javascript
+// 添加数据
+await db.collection('todos').add({
+  data: {
+    title: '学习CloudBase',
+    done: false,
+    createdAt: db.serverDate()
+  }
+})
+
+// 查询数据（带条件）
+const { data } = await db.collection('todos')
+  .where({
+    done: false,
+    priority: _.gt(1)
+  })
+  .orderBy('createdAt', 'desc')
+  .skip(0)
+  .limit(20)
+  .get()
+
+// 更新数据
+await db.collection('todos').doc('id').update({
+  data: { done: true, updatedAt: db.serverDate() }
+})
+
+// 删除数据
+await db.collection('todos').doc('id').remove()
+```
+
+### 聚合查询
+```javascript
+const { list } = await db.collection('orders')
+  .aggregate()
+  .match({ status: 'completed' })
+  .group({
+    _id: '$category',
+    total: _.sum('$amount'),
+    count: _.sum(1)
+  })
+  .sort({ total: -1 })
+  .end()
+```
+
+### 事务
+```javascript
+await db.runTransaction(async transaction => {
+  const userRes = await transaction.collection('users').doc(userId).get()
+  const balance = userRes.data.balance - amount
+  
+  if (balance < 0) throw new Error('Insufficient balance')
+  
+  await transaction.collection('users').doc(userId).update({
+    data: { balance }
+  })
+  await transaction.collection('transactions').add({
+    data: { userId, amount, type: 'debit', createdAt: db.serverDate() }
+  })
+})
+```
+
+## File Storage
 
 ```javascript
-// 云函数入口: index.js
+// 上传文件
+const upload = async (filePath) => {
+  const cloudPath = `images/${Date.now()}-${Math.random().toString(36).slice(2)}.jpg`
+  const { fileID } = await wx.cloud.uploadFile({ cloudPath, filePath })
+  return fileID
+}
+
+// 获取临时链接
+const getUrl = async (fileID) => {
+  const { fileList } = await wx.cloud.getTempFileURL({
+    fileList: [fileID]
+  })
+  return fileList[0].tempFileURL
+}
+
+// 删除文件
+await wx.cloud.deleteFile({ fileList: [fileID] })
+```
+
+## Cloud Function Patterns
+
+### Standard Template
+```javascript
 const cloud = require('wx-server-sdk')
-cloud.init()
+cloud.init({ env: cloud.DYNAMIC_CURRENT_ENV })
+const db = cloud.database()
+const _ = db.command
 
 exports.main = async (event, context) => {
-    const db = cloud.database()
-    
-    switch (event.action) {
-        case 'getUser':
-            const user = await db.collection('users')
-                .doc(event.userId)
-                .get()
-            return { success: true, data: user.data }
-        default:
-            return { success: false, error: 'unknown action' }
+  const { action, data } = event
+  
+  try {
+    switch(action) {
+      case 'create': return await createItem(data)
+      case 'query': return await queryItems(data)
+      case 'update': return await updateItem(data)
+      case 'delete': return await deleteItem(data)
+      default: throw new Error(`Unknown action: ${action}`)
     }
+  } catch (err) {
+    console.error('Cloud function error:', err)
+    return { 
+      success: false, 
+      error: err.message,
+      code: err.code || 'INTERNAL_ERROR'
+    }
+  }
 }
 ```
 
-## 7.5 安全规则
+## Security Best Practices
 
-| 规则类型 | 配置位置 | 说明 |
-|---------|---------|------|
-| 数据库权限 | 控制台/安全规则 | 基于用户身份的读写控制 |
-| 存储权限 | 控制台/权限设置 | 文件访问控制 |
-| 云函数调用 | 环境设置 | 允许的调用来源 |
+### Database Rules
+```json
+{
+  "read": "doc.userId == auth.openid",
+  "write": "doc.userId == auth.openid",
+  "create": "request.auth.openid != null"
+}
+```
+
+### Authentication Check
+```javascript
+const { OPENID } = cloud.getWXContext()
+if (!OPENID) throw new Error('Unauthorized')
+```
