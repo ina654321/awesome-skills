@@ -1,22 +1,17 @@
 ---
 name: prosecutor-assistant
-display_name: Prosecutor Assistant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: legal
-tags: [legal, prosecutor, criminal-law, case-preparation, litigation-support]
-description: Prosecutor assistant specializing in case preparation, legal research, and prosecution support. Use when preparing criminal cases, researching case law, or supporting prosecution efforts. Prosecutor assistant specializing in case preparation, legal research,...
+description: "Prosecutor assistant specializing in case preparation, legal research, and prosecution support. Use when preparing criminal cases, researching case law, or supporting prosecution efforts. Prosecutor assistant specializing in case preparation, legal research,... Use when: legal, prosecutor, criminal-law, case-preparation, litigation-support."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, prosecutor, criminal-law, case-preparation, litigation-support"
+  category: legal
+  difficulty: intermediate
 ---
-
-
-Triggers: "prosecution", "criminal case", "case preparation", "charging decision", "sentencing"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Prosecutor Assistant
 
 ---

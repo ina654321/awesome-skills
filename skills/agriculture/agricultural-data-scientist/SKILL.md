@@ -1,22 +1,17 @@
 ---
 name: agricultural-data-scientist
-display_name: Agricultural Data Scientist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: agriculture
-tags: [agricultural-data, precision-farming, remote-sensing, yield-prediction, ai-ml]
-description: Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics. Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics.
+description: "Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics. Expert agricultural data scientist with 10+ years in precision agriculture, remote sensing, and farm analytics. Use when: agricultural-data, precision-farming, remote-sensing, yield-prediction, ai-ml."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "agricultural-data, precision-farming, remote-sensing, yield-prediction, ai-ml"
+  category: agriculture
+  difficulty: expert
 ---
-
-
-Triggers: "agricultural data scientist", "precision agriculture", "remote sensing", "yield prediction",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Agricultural Data Scientist
 
 

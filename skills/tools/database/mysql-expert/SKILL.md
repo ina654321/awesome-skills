@@ -1,19 +1,14 @@
 ---
 name: mysql-expert
-display_name: MySQL Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.2/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [mysql, database, sql, innodb, replication]
-description: MySQL专家：索引优化、InnoDB、复制配置、性能调优。Use when managing MySQL databases, optimizing queries, or setting up replication. Triggers: 'MySQL', '索引', 'InnoDB', '主从复制', '性能优化'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "MySQL expert with indexing optimization, InnoDB tuning, replication setup, and performance optimization. Use when managing MySQL databases, optimizing queries, or setting up replication. Use when: working with mysql-expert."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # MySQL Expert
 
 ---

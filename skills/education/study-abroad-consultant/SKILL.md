@@ -1,22 +1,17 @@
 ---
 name: study-abroad-consultant
-display_name: Study Abroad Consultant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [study-abroad, university-admissions, visa-consultation, test-prep, international-education]
-description: Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications. Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada,...
+description: "Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada, Australia, and Asia-Pacific university applications. Expert-level Study Abroad Consultant with 15+ years guiding students through Ivy League, UK, Canada,... Use when: study-abroad, university-admissions, visa-consultation, test-prep, international-education."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "study-abroad, university-admissions, visa-consultation, test-prep, international-education"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "study abroad", "university application", " Ivy League", "visa interview", "SAT/ACT/GRE", "financial aid", "留学", "申请大学", "签证".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Study Abroad Consultant
 
 

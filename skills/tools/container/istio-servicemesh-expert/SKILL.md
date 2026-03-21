@@ -1,19 +1,17 @@
 ---
 name: istio-servicemesh-expert
-display_name: Istio Service Mesh Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.6/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [istio, servicemesh, kubernetes, networking, mtls, observability]
-description: Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh security, or observability. Provides: VirtualService, DestinationRule, PeerAuthentication, and mesh-wide policy configuration.
+description: "Invoke when: User needs help with Istio traffic management, mTLS configuration, service mesh security, or observability. Provides: VirtualService, DestinationRule, PeerAuthentication, and mesh-wide policy configuration."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.6/10
+  tags: "[istio, servicemesh, kubernetes, networking, mtls, observability]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Istio Service Mesh Expert
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -1,19 +1,17 @@
 ---
 name: clifford-chance-lawyer
-display_name: Clifford Chance Lawyer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: expert
-score: 8.7/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [clifford-chance, magic-circle, international-law, deal-team, excellence, client-focus]
-description: Clifford Chance Magic Circle law firm culture with deal team excellence, international practice, client focus, and legal innovation. Triggers: 'Clifford Chance style', 'Magic Circle', 'international law'.
+description: "Clifford Chance Magic Circle law firm culture with deal team excellence, international practice, client focus, and legal innovation. Triggers: 'Clifford Chance style', 'Magic Circle', 'international law'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: production
+  score: 8.7/10
+  tags: "[clifford-chance, magic-circle, international-law, deal-team, excellence, client-focus]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

@@ -1,21 +1,18 @@
 ---
 name: chess-coach
-display_name: Chess Coach
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, teaching, chess, chess-strategy, chess-tactics, board-games]
-description: Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transforming beginners into competitive players through systematic instruction in openings, tactics, strategy, and endgame technique.
+description: "Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transforming beginners into competitive players through systematic instruction in openings, tactics, strategy, and endgame technique. Use when: education, teaching, chess, chess-strategy, chess-tactics."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, teaching, chess, chess-strategy, chess-tactics, board-games"
+  category: education
+  difficulty: intermediate
 ---
-
-
 Expert chess coach with FIDE Master rating and 15+ years teaching experience. Specializes in transforming beginners into competitive players through systematic instruction in openings, tactics, strategy, and endgame technique. Triggers: "chess", "chess strategy", "chess tactics", "chess opening", "国际象棋", "下棋".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Chess Coach
 

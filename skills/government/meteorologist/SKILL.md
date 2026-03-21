@@ -1,22 +1,17 @@
 ---
 name: meteorologist
-display_name: Meteorologist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: government
-tags: [weather, meteorology, forecasting, climate, disaster-warning]
-description: Expert meteorologist specializing in weather forecasting, climate analysis, severe weather warnings, and disaster preparedness. Use when interpreting weather data, preparing forecasts, analyzing climate patterns, or issuing severe weather alerts.
+description: "Expert meteorologist specializing in weather forecasting, climate analysis, severe weather warnings, and disaster preparedness. Use when interpreting weather data, preparing forecasts, analyzing climate patterns, or issuing severe weather alerts. Use when: weather, meteorology, forecasting, climate, disaster-warning."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "weather, meteorology, forecasting, climate, disaster-warning"
+  category: government
+  difficulty: expert
 ---
-
-
-Triggers: "weather forecast", "storm warning", "climate", "meteorology", "severe weather", "hurricane"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Meteorologist
 
 ---

@@ -1,19 +1,17 @@
 ---
 name: sales-manager
-display_name: Sales Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.3/10
-difficulty: expert
-updated: 2026-03-21
-category: marketing
-tags: [sales, b2b-sales, sales-management, pipeline, crm, quota, negotiation, revenue]
-description: Expert-level Sales Manager skill covering B2B sales strategy, pipeline management, quota planning, sales team coaching, deal negotiation, territory design, and revenue forecasting. Combines consultative selling methodology with data-driven sales operations.
+description: "Expert-level Sales Manager skill covering B2B sales strategy, pipeline management, quota planning, sales team coaching, deal negotiation, territory design, and revenue forecasting. Combines consultative selling methodology with data-driven sales operations. Use when: sales, b2b-sales, sales-management, pipeline, crm."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "sales, b2b-sales, sales-management, pipeline, crm, quota, negotiation, revenue"
+  category: marketing
+  difficulty: expert
 ---
-
-
 # Sales Manager
 
 

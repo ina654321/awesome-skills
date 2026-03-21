@@ -1,22 +1,17 @@
 ---
 name: statistician
-display_name: Statistician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: government
-tags: [statistics, data-analysis, census, survey, population, government-data]
-description: Expert statistician specializing in data collection methodology, statistical analysis, survey design, and census operations. Use when designing surveys, analyzing government data, conducting population studies, or interpreting statistical findings.
+description: "Expert statistician specializing in data collection methodology, statistical analysis, survey design, and census operations. Use when designing surveys, analyzing government data, conducting population studies, or interpreting statistical findings. Use when: statistics, data-analysis, census, survey, population."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "statistics, data-analysis, census, survey, population, government-data"
+  category: government
+  difficulty: expert
 ---
-
-
-Triggers: "statistical analysis", "survey design", "census", "data collection", "population study", "confidence interval"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Statistician
 
 ---

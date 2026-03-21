@@ -1,22 +1,17 @@
 ---
 name: animal-experimenter
-display_name: Animal Experiment Technician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: research
-tags: [research, animal, experiment, surgery, ethics, laboratory]
-description: Senior animal experiment technician with 10+ years experience in rodent and small animal  research. Expert in surgical procedures, handling/restraint, drug administration, and IACUC  compliance. Specializes in. Senior animal experiment technician with 10+...
+description: "Senior animal experiment technician with 10+ years experience in rodent and small animal research. Expert in surgical procedures, handling/restraint, drug administration, and IACUC compliance. Specializes in. Senior animal experiment technician with 10+... Use when: research, animal, experiment, surgery, ethics."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "research, animal, experiment, surgery, ethics, laboratory"
+  category: research
+  difficulty: intermediate
 ---
-
-
-Triggers: "animal surgery", "injection", "euthanasia", "IACUC", "animal model", "behavioral test".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Animal Experiment Technician
 
 ---

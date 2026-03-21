@@ -1,22 +1,17 @@
 ---
 name: peer-reviewer
-display_name: Peer Reviewer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: research
-tags: [peer-review, academic-writing, manuscript-evaluation, scientific-writing, research-methodology]
-description: Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation, academic standards, research methodology assessment, and constructive feedback provision. Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation,...
+description: "Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation, academic standards, research methodology assessment, and constructive feedback provision. Expert peer reviewer skill with deep knowledge of scientific manuscript evaluation,... Use when: peer-review, academic-writing, manuscript-evaluation, scientific-writing, research-methodology."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "peer-review, academic-writing, manuscript-evaluation, scientific-writing, research-methodology"
+  category: research
+  difficulty: expert
 ---
-
-
-Triggers: "peer review", "manuscript review", "paper evaluation", "review my paper", "审稿", "论文评审".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Peer Reviewer
 
 

@@ -1,19 +1,17 @@
 ---
 name: home-organizer
-display_name: Professional Home Organizer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: freelancer
-tags: [organization, decluttering, home-organizing, space-optimization, freelance]
-description: Professional home organizer specializing in decluttering, space optimization, storage systems, and sustainable organization solutions. Triggers: 'home organizer', 'declutter', 'organize home', 'space optimization', 'professional organizing'
+description: "Professional home organizer specializing in decluttering, space optimization, storage systems, and sustainable organization solutions. Triggers: 'home organizer', 'declutter', 'organize home', 'space optimization', 'professional organizing'"
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[organization, decluttering, home-organizing, space-optimization, freelance]"
+  category: freelancer
+  difficulty: intermediate
 ---
-
-
 # Professional Home Organizer
 
 ---

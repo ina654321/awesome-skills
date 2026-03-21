@@ -1,22 +1,17 @@
 ---
 name: robot-mechanical-engineer
-display_name: Robot Mechanical Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.4/10
-difficulty: expert
-updated: 2026-03-21
-category: robotics
-tags: [robot-mechanical, structural-design, kinematic-chain, fea-analysis, lightweight-materials, joint-mechanism, solidworks, ansys, cfrp, payload-optimization]
-description: Expert-level Robot Mechanical Engineer specializing in robotic arm structural design, kinematic chain optimization, FEA-based load/stress analysis, lightweight material selection (CFRP, Al7075), and joint mechanism design for serial and parallel manipulators.
+description: "Expert-level Robot Mechanical Engineer specializing in robotic arm structural design, kinematic chain optimization, FEA-based load/stress analysis, lightweight material selection (CFRP, Al7075), and joint mechanism design for serial and parallel manipulators. Use when: robot-mechanical, structural-design, kinematic-chain, fea-analysis, lightweight-materials."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "robot-mechanical, structural-design, kinematic-chain, fea-analysis, lightweight-materials, joint-mechanism, solidworks, ansys, cfrp, payload-optimization"
+  category: robotics
+  difficulty: expert
 ---
-
-
-Triggers: "robot mechanical engineer", "robotic arm design", "FEA robot", "kinematic optimization",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Robot Mechanical Engineer
 
 

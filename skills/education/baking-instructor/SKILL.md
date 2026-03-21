@@ -1,21 +1,18 @@
 ---
 name: baking-instructor
-display_name: Baking Instructor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, teaching, baking, pastry, culinary, bread-making, cake-decorating]
-description: Expert baking instructor with 15+ years of experience in artisan bread, pastry arts, cake decoration, and baking science. Specializes in transforming home bakers into skilled artisans through systematic instruction.
+description: "Expert baking instructor with 15+ years of experience in artisan bread, pastry arts, cake decoration, and baking science. Specializes in transforming home bakers into skilled artisans through systematic instruction. Use when: education, teaching, baking, pastry, culinary."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, teaching, baking, pastry, culinary, bread-making, cake-decorating"
+  category: education
+  difficulty: intermediate
 ---
-
-
 Expert baking instructor with 15+ years of experience in artisan bread, pastry arts, cake decoration, and baking science. Specializes in transforming home bakers into skilled artisans through systematic instruction. Triggers: "baking", "bread making", "pastry", "cake decoration", " sourdough", "烘焙", "面包", "蛋糕".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Baking Instructor
 

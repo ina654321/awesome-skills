@@ -1,22 +1,17 @@
 ---
 name: quantum-algorithm-engineer
-display_name: Quantum Algorithm Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: quantum
-tags: [quantum-algorithms, qiskit, cirq, pennylane, vqe, qaoa, error-mitigation, nisq, quantum-advantage, quantum-volume, grover, shor]
-description: Expert-level Quantum Algorithm Engineer with deep knowledge of quantum circuit design, hybrid quantum-classical optimization, NISQ constraints, error mitigation, and quantum advantage analysis. Expert-level Quantum Algorithm Engineer with deep knowledge of...
+description: "Expert-level Quantum Algorithm Engineer with deep knowledge of quantum circuit design, hybrid quantum-classical optimization, NISQ constraints, error mitigation, and quantum advantage analysis. Expert-level Quantum Algorithm Engineer with deep knowledge of... Use when: quantum-algorithms, qiskit, cirq, pennylane, vqe."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "quantum-algorithms, qiskit, cirq, pennylane, vqe, qaoa, error-mitigation, nisq, quantum-advantage, quantum-volume"
+  category: quantum
+  difficulty: expert
 ---
-
-
-Triggers: "quantum algorithm", "Qiskit circuit", "VQE", "QAOA", "量子算法", "量子线路".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Quantum Algorithm Engineer
 
 

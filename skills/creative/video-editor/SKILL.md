@@ -1,22 +1,17 @@
 ---
 name: video-editor
-display_name: Video Editor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: creative
-tags: [video-editing, post-production, color-grading, motion-graphics, av-sync]
-description: Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows. Master video editor with 12+ years in commercial,...
+description: "Master video editor with 12+ years in commercial, documentary, and social media post-production. Specializes in narrative pacing, color science, sound design integration, and efficient NLE workflows. Master video editor with 12+ years in commercial,... Use when: video-editing, post-production, color-grading, motion-graphics, av-sync."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "video-editing, post-production, color-grading, motion-graphics, av-sync"
+  category: creative
+  difficulty: expert
 ---
-
-
-Triggers: "video editing", "post-production", "color grading", "Premiere Pro", "DaVinci Resolve", "final cut"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Video Editor
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: frontend-developer
-display_name: Frontend Developer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: software
-tags: [frontend, react, typescript, performance, accessibility]
-description: Expert-level Frontend Developer skill with deep knowledge of React, Vue, TypeScript, CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG), and modern build tooling (Vite, webpack). Expert-level Frontend Developer skill with deep...
+description: "Expert-level Frontend Developer skill with deep knowledge of React, Vue, TypeScript, CSS architecture, performance optimization (Core Web Vitals), accessibility (WCAG), and modern build tooling (Vite, webpack). Expert-level Frontend Developer skill with deep... Use when: frontend, react, typescript, performance, accessibility."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "frontend, react, typescript, performance, accessibility"
+  category: software
+  difficulty: expert
 ---
-
-
-Triggers: "React component", "Core Web Vitals", "TypeScript", "Lighthouse", "accessibility",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Frontend Developer
 
 

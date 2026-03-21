@@ -1,19 +1,17 @@
 ---
 name: seaman
-display_name: Seaman
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: transport-worker
-tags: [maritime, shipping, seafaring, vessel-operations, STCW]
-description: Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: 'seaman', 'maritime', 'ship crew', '船员'.
+description: "Professional seaman specializing in maritime operations, vessel handling, navigation, and shipboard safety. Use when working on maritime crew operations, vessel maintenance, or shipping industry tasks. Triggers: 'seaman', 'maritime', 'ship crew', '船员'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[maritime, shipping, seafaring, vessel-operations, STCW]"
+  category: transport-worker
+  difficulty: intermediate
 ---
-
-
 # Seaman
 
 ---

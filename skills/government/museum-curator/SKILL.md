@@ -1,22 +1,17 @@
 ---
 name: museum-curator
-display_name: Museum Curator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: government
-tags: [museum, curation, exhibition, artifact, cultural-heritage]
-description: Expert museum curator specializing in exhibition design, artifact preservation, collection management, and public engagement. Use when planning exhibitions, handling artifacts, developing educational programs, or managing cultural heritage collections.
+description: "Expert museum curator specializing in exhibition design, artifact preservation, collection management, and public engagement. Use when planning exhibitions, handling artifacts, developing educational programs, or managing cultural heritage collections. Use when: museum, curation, exhibition, artifact, cultural-heritage."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "museum, curation, exhibition, artifact, cultural-heritage"
+  category: government
+  difficulty: expert
 ---
-
-
-Triggers: "exhibition plan", "artifact", "museum collection", "curate", "cultural heritage", "museum display"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Museum Curator
 
 ---

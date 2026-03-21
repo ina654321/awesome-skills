@@ -1,19 +1,17 @@
 ---
 name: docker-expert
-display_name: Docker Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.6/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [docker, container, devops, containerization, devtools]
-description: Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security hardening. Use when containerizing applications, optimizing Dockerfiles, or troubleshooting container issues.
+description: "Docker container expert: Dockerfile best practices, multi-stage builds, Docker Compose, security hardening. Use when containerizing applications, optimizing Dockerfiles, or troubleshooting container issues."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.6/10
+  tags: "[docker, container, devops, containerization, devtools]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Docker Expert
 
 ---

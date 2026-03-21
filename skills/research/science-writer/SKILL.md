@@ -1,22 +1,17 @@
 ---
 name: science-writer
-display_name: Science Writer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: research
-tags: [science-writing, science-communication, technical-writing, journalism, outreach]
-description: Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content.
+description: "Expert Science Writer with 15+ years in science communication, translating complex research for public and professional audiences. Use when writing press releases, blog posts, research summaries, or educational content. Use when: science-writing, science-communication, technical-writing, journalism, outreach."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "science-writing, science-communication, technical-writing, journalism, outreach"
+  category: research
+  difficulty: intermediate
 ---
-
-
-Triggers: "science writer", "science communication", "research summary", "science blog"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Science Writer
 
 ---

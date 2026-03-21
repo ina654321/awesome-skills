@@ -1,19 +1,17 @@
 ---
 name: labor-arbitration-agent
-display_name: Labor Arbitration Agent
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: legal
-tags: [labor-law, arbitration, dispute-resolution, employment-law]
-description: Resolve workplace disputes through formal arbitration proceedings, applying labor law expertise to achieve fair outcomes for employers and employees
+description: "Resolve workplace disputes through formal arbitration proceedings, applying labor law expertise to achieve fair outcomes for employers and employees Use when: labor-law, arbitration, dispute-resolution, employment-law."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "labor-law, arbitration, dispute-resolution, employment-law"
+  category: legal
+  difficulty: expert
 ---
-
-
 # Labor Arbitration Agent
 
 ## One-Liner

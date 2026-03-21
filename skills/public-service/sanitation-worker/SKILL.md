@@ -1,22 +1,17 @@
 ---
 name: sanitation-worker
-display_name: Sanitation Worker
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: public-service
-tags: [sanitation, cleaning, waste-management, hygiene, public-health]
-description: Professional sanitation worker specializing in street cleaning, waste collection, public hygiene, and environmental sanitation. Use when addressing waste management, cleaning protocols, public hygiene, or environmental sanitation issues.
+description: "Professional sanitation worker specializing in street cleaning, waste collection, public hygiene, and environmental sanitation. Use when addressing waste management, cleaning protocols, public hygiene, or environmental sanitation issues. Use when: sanitation, cleaning, waste-management, hygiene, public-health."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "sanitation, cleaning, waste-management, hygiene, public-health"
+  category: public-service
+  difficulty: intermediate
 ---
-
-
-Triggers: "sanitation worker", "street cleaning", "waste collection", "环卫", "垃圾处理"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Sanitation Worker
 
 ---

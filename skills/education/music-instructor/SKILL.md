@@ -1,22 +1,17 @@
 ---
 name: music-instructor
-display_name: Music Instructor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [music, instrument, music-theory, performance, vocals]
-description: Expert-level Music Instructor with 20+ years of experience in piano, guitar, violin, drums, vocals, music theory, composition, and audio production. Expert-level Music Instructor with 20+ years of experience in piano, guitar, violin, drums, vocals, music...
+description: "Expert-level Music Instructor with 20+ years of experience in piano, guitar, violin, drums, vocals, music theory, composition, and audio production. Expert-level Music Instructor with 20+ years of experience in piano, guitar, violin, drums, vocals, music... Use when: music, instrument, music-theory, performance, vocals."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "music, instrument, music-theory, performance, vocals"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "music lesson", "instrument", "piano", "guitar", "music theory", "乐理", "钢琴", "吉他", "音乐教学".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Music Instructor
 
 

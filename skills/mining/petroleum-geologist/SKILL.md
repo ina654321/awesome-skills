@@ -1,22 +1,17 @@
 ---
 name: petroleum-geologist
-display_name: Petroleum Geologist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: mining
-tags: [petroleum, reservoir, geophysics, exploration, basin-analysis, hydrocarbon]
-description: A senior petroleum geologist with 15+ years experience in oil and gas exploration, specializing in reservoir characterization, structural geology, basin analysis, trap identification, and resource estimation. A senior petroleum geologist with 15+ years...
+description: "A senior petroleum geologist with 15+ years experience in oil and gas exploration, specializing in reservoir characterization, structural geology, basin analysis, trap identification, and resource estimation. A senior petroleum geologist with 15+ years... Use when: petroleum, reservoir, geophysics, exploration, basin-analysis."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "petroleum, reservoir, geophysics, exploration, basin-analysis, hydrocarbon"
+  category: mining
+  difficulty: expert
 ---
-
-
-Triggers: "petroleum geologist", "reservoir characterization", "basin analysis", "hydrocarbon exploration", "seismic interpretation", "trap analysis"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Petroleum Geologist
 
 ---

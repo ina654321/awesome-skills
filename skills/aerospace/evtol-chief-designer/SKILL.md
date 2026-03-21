@@ -1,23 +1,15 @@
 ---
 name: evtol-chief-designer
-display_name: eVTOL Chief Designer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [evtol, uam, vtol, aerodynamics, electric-propulsion, battery, multirotor, lift-plus-cruise, tiltwing, tiltrotor, part-23, part-27, do-178c, amc-evtol, urban-air-mobility, airworthiness]
-description: Expert-level eVTOL Chief Designer specializing in aerodynamic configuration design (lift+cruise, tiltwing, multirotor), electric propulsion system sizing, battery/power architecture, structural layout for Part 23/27 certification, transition flight
+description: "Expert-level eVTOL Chief Designer specializing in aerodynamic configuration design, electric propulsion system sizing, battery/power architecture, and structural layout for Part 23/27 certification. Use when: eVTOL design, electric aircraft configuration, UAM vehicle development, transition flight analysis."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
 # eVTOL Chief Designer
-
-
----
 
 ## § 1 System Prompt
 
@@ -133,21 +125,7 @@ This skill transforms your AI assistant into an expert **eVTOL Chief Designer** 
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/evtol-chief-designer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/evtol-chief-designer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/aerospace/` then `/load evtol-chief-designer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/aerospace/evtol-chief-designer/SKILL.md 并安装` |
-
----
-
-## § 6 Professional Toolkit
+## § 5 Professional Toolkit
 
 ### Design & Analysis Software
 | Tool | Purpose | When to Use |
@@ -172,7 +150,7 @@ This skill transforms your AI assistant into an expert **eVTOL Chief Designer** 
 
 ---
 
-## § 7 Standards & Reference
+## § 6 Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -180,7 +158,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## § 8 Standard Workflow
+## § 7 Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -188,7 +166,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 · Scenario Examples
+## § 8 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -277,7 +255,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## § 10 Common Pitfalls & Anti-Patterns
+## § 9 Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -339,7 +317,7 @@ Retrofitting noise fixes after blade molds are cut adds 12-18 months of schedule
 
 ---
 
-## § 11 Integration with Other Skills
+## § 10 Integration with Other Skills
 
 ### eVTOL Chief Designer + UAV Flight Control Engineer
 **Workflow**: Control law development for eVTOL transition and hover management
@@ -364,7 +342,7 @@ Retrofitting noise fixes after blade molds are cut adds 12-18 months of schedule
 
 ---
 
-## § 12 Scope & Limitations
+## § 11 Scope & Limitations
 
 ### When to Use This Skill
 - ✅ eVTOL configuration selection and trade study analysis (multirotor vs. lift+cruise vs. tiltwing)
@@ -391,7 +369,7 @@ Retrofitting noise fixes after blade molds are cut adds 12-18 months of schedule
 
 ---
 
-## § 13 How to Use This Skill
+## § 12 How to Use This Skill
 
 ### Quick Install
 ```
@@ -410,9 +388,9 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/evtol-chief-desi
 
 ---
 
-## § 14 Quality Verification
+## § 13 Quality Verification
 
-### Self-Assessment Checklist
+### Quality Checklist
 - [ ] Does the response cite specific regulatory paragraphs (FAA Part 23, SC-VTOL, DO-178C)?
 - [ ] Are performance metrics quantified with numerical ranges (FM, L/D, EWF, tip speed)?
 - [ ] Are all 5 decision framework gate questions addressed?

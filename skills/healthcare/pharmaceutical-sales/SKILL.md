@@ -1,22 +1,17 @@
 ---
 name: pharmaceutical-sales
-display_name: Pharmaceutical Sales Representative
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, pharmaceutical, sales, marketing, medical-device]
-description: Expert pharmaceutical sales representative specializing in product promotion, healthcare provider engagement, clinical data communication, and territory management. Use when users need sales strategy, clinical presentation, or pharmaceutical product
+description: "Expert pharmaceutical sales representative specializing in product promotion, healthcare provider engagement, clinical data communication, and territory management. Use when users need sales strategy, clinical presentation, or pharmaceutical product Use when: healthcare, pharmaceutical, sales, marketing, medical-device."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, pharmaceutical, sales, marketing, medical-device"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "pharmaceutical", "drug sales", "medical representative", "product launch", "detailing"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Pharmaceutical Sales Representative
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: farm-machinery-operator
-display_name: Farm Machinery Operator Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: farmer
-tags: [agriculture, farming, farm-machinery, tractors, harvesters, equipment-maintenance]
-description: Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters,  precision agriculture systems, and equipment maintenance. Expert farm machinery operator with 15+ years of experience in tractor operation, combine...
+description: "Expert farm machinery operator with 15+ years of experience in tractor operation, combine harvesters, precision agriculture systems, and equipment maintenance. Expert farm machinery operator with 15+ years of experience in tractor operation, combine... Use when: agriculture, farming, farm-machinery, tractors, harvesters."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "agriculture, farming, farm-machinery, tractors, harvesters, equipment-maintenance"
+  category: farmer
+  difficulty: expert
 ---
-
-
-Triggers: "tractor", "harvester", "combine", "farm equipment", "machinery maintenance", "precision agriculture"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Farm Machinery Operator Expert
 
 ---

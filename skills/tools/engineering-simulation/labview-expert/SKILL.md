@@ -1,19 +1,17 @@
 ---
 name: labview-expert
-display_name: LabVIEW Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [labview, data-acquisition, instrument-control, graphical-programming, ni]
-description: Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programming patterns. Provides: VI architecture, DAQmx configuration, SCPI commands, and LabVIEW best practices.
+description: "Invoke when: User needs help with LabVIEW DAQ, instrument control, real-time systems, or G-programming patterns. Provides: VI architecture, DAQmx configuration, SCPI commands, and LabVIEW best practices."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[labview, data-acquisition, instrument-control, graphical-programming, ni]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # LabVIEW Expert
 
 **Self-Score:** 9.5/10 — Exemplary

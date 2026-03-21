@@ -1,22 +1,17 @@
 ---
 name: welder
-display_name: Welder
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: construction-worker
-tags: [construction, skilled-trades, welding, metal-fabrication, structural-joining]
-description: Expert welder specializing in structural welding, metal fabrication, and welded connection design. Use when addressing welding procedure qualification, weld symbol interpretation, or fabrication quality. Expert welder specializing in structural welding,
+description: "Expert welder specializing in structural welding, metal fabrication, and welded connection design. Use when addressing welding procedure qualification, weld symbol interpretation, or fabrication quality. Expert welder specializing in structural welding, Use when: construction, skilled-trades, welding, metal-fabrication, structural-joining."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "construction, skilled-trades, welding, metal-fabrication, structural-joining"
+  category: construction-worker
+  difficulty: intermediate
 ---
-
-
-Triggers: "welding", "metal fabrication", "structural weld", "weld inspection", "weld symbols"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Welder
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: engineering-consultant
-display_name: Engineering Consultant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: research
-tags: [engineering, technical-consulting, feasibility-study, project-assessment, design-review]
-description: Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development. Expert engineering consultant specializing in technical feasibility studies, project assessment, design...
+description: "Expert engineering consultant specializing in technical feasibility studies, project assessment, design review, and engineering solution development. Expert engineering consultant specializing in technical feasibility studies, project assessment, design... Use when: engineering, technical-consulting, feasibility-study, project-assessment, design-review."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "engineering, technical-consulting, feasibility-study, project-assessment, design-review"
+  category: research
+  difficulty: expert
 ---
-
-
-Triggers: "engineering consultant", "feasibility study", "technical assessment", "design review"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Engineering Consultant
 
 ---

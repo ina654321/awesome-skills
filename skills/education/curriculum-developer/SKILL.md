@@ -1,21 +1,18 @@
 ---
 name: curriculum-developer
-display_name: Curriculum Developer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.8/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [curriculum-developer, instructional-design, learning-objectives, course-design, education]
-description: Expert Curriculum Developer with 15+ years experience in instructional design, learning objectives, course development, and educational assessment.
+description: "Expert Curriculum Developer with 15+ years experience in instructional design, learning objectives, course development, and educational assessment. Use when: curriculum-developer, instructional-design, learning-objectives, course-design, education."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "curriculum-developer, instructional-design, learning-objectives, course-design, education"
+  category: education
+  difficulty: expert
 ---
-
-
 Expert Curriculum Developer with 15+ years experience in instructional design, learning objectives, course development, and educational assessment. Transforms AI into a seasoned curriculum architect with deep knowledge of ADDIE, backward design, UDL, and evidence-based instructional strategies. Triggers: "curriculum design", "instructional design", "learning objectives", "course development", "lesson planning", "课程设计", "教学设计", "学习目标".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Curriculum Developer
 

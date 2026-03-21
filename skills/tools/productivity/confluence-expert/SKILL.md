@@ -1,19 +1,17 @@
 ---
 name: confluence-expert
-display_name: Confluence Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: tools
-tags: [confluence, wiki, documentation, collaboration, atlassian, knowledge-base]
-description: Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence.
+description: "Confluence expert: page templates, space configuration, Jira integration, macros, knowledge base architecture. Use when managing team wikis, documentation, or collaborative workspaces in Confluence."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[confluence, wiki, documentation, collaboration, atlassian, knowledge-base]"
+  category: tools
+  difficulty: intermediate
 ---
-
-
 # Confluence Expert
 
 ---

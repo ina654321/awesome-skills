@@ -1,19 +1,17 @@
 ---
 name: canva-expert
-display_name: Canva Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 10.0/10
-difficulty: beginner
-updated: 2026-03-21
-category: tools
-tags: [canva, design, templates, social-media]
-description: Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: 'Canva', '设计', '模板'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Canva设计：模板、社媒图片、海报。Use when creating designs with Canva. Triggers: 'Canva', '设计', '模板'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[canva, design, templates, social-media]"
+  category: tools
+  difficulty: beginner
 ---
-
-
 # Canva Expert
 
 **Self-Score:** 9.5/10 — Exemplary

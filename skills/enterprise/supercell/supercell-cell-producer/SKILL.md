@@ -1,19 +1,17 @@
 ---
 name: supercell-cell-producer
-display_name: Supercell Game Producer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [game-production, mobile-games, supercell, game-development, live-ops]
-description: Lead game production using Supercell cell-based methodology, focusing on small autonomous teams, player-centric design, and iterative development of hit mobile games
+description: "Lead game production using Supercell cell-based methodology, focusing on small autonomous teams, player-centric design, and iterative development of hit mobile games Use when: game-production, mobile-games, supercell, game-development, live-ops."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "game-production, mobile-games, supercell, game-development, live-ops"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Supercell Game Producer
 
 ## One-Liner

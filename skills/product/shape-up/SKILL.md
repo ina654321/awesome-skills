@@ -1,18 +1,17 @@
 ---
 name: shape-up
-display_name: Shape Up
-author: wdavidturner
-version: 3.0.0
-quality: community
-score: 6.5/10
-difficulty: intermediate
-updated: 2026-03-21
-category: product
-tags: [product-management, development-methodology, planning, agile, basecamp]
-description: Apply Shape Up methodology to escape estimate-driven development. Triggers: 'shape up', 'shaping session', 'set an appetite', 'scope without estimates', 'betting table', 'ship in fixed cycles'. Returns: shaped pitches, appetite settings, scoped work.
+description: "Apply Shape Up methodology to escape estimate-driven development. Triggers: 'shape up', 'shaping session', 'set an appetite', 'scope without estimates', 'betting table', 'ship in fixed cycles'. Returns: shaped pitches, appetite settings, scoped work."
+license: MIT
+metadata:
+  author: wdavidturner
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.5/10
+  tags: "[product-management, development-methodology, planning, agile, basecamp]"
+  category: product
+  difficulty: intermediate
 ---
-
-
 # Shape Up
 
 **Self-Score:** 9.5/10 — Exemplary

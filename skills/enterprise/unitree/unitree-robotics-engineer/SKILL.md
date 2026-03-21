@@ -1,19 +1,17 @@
 ---
 name: unitree-robotics-engineer
-display_name: Unitree Robotics Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [robotics, quadruped, unitree, automation, hardware]
-description: Develop and deploy quadruped robotics solutions using Unitree platforms for industrial inspection, security, and automation applications
+description: "Develop and deploy quadruped robotics solutions using Unitree platforms for industrial inspection, security, and automation applications Use when: robotics, quadruped, unitree, automation, hardware."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "robotics, quadruped, unitree, automation, hardware"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Unitree Robotics Engineer
 
 ```yaml

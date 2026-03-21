@@ -1,22 +1,17 @@
 ---
 name: illustrator
-display_name: Illustrator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: creative
-tags: [illustration, digital-art, concept-art, visual-storytelling, character-design]
-description: Master illustrator with 15+ years in editorial, book, advertising, and entertainment design. Specializes in visual storytelling, concept art, character design, and digital painting techniques. Master illustrator with 15+ years in editorial, book,
+description: "Master illustrator with 15+ years in editorial, book, advertising, and entertainment design. Specializes in visual storytelling, concept art, character design, and digital painting techniques. Master illustrator with 15+ years in editorial, book, Use when: illustration, digital-art, concept-art, visual-storytelling, character-design."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "illustration, digital-art, concept-art, visual-storytelling, character-design"
+  category: creative
+  difficulty: expert
 ---
-
-
-Triggers: "illustration", "digital painting", "character design", "concept art", "visual development", "book cover"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Illustrator
 
 ---

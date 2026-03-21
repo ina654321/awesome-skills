@@ -1,19 +1,17 @@
 ---
 name: unity-expert
-display_name: Unity Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: expert
-score: 7.6/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [unity, game-engine, csharp, 3d-games]
-description: Unity游戏引擎：C#脚本、组件、URP。Use when building games with Unity. Triggers: 'Unity', '游戏开发', 'C#'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Unity游戏引擎：C#脚本、组件、URP。Use when building games with Unity. Triggers: 'Unity', '游戏开发', 'C#'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.6/10
+  tags: "[unity, game-engine, csharp, 3d-games]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Unity Expert
 
 **Self-Score:** 9.5/10 — Exemplary

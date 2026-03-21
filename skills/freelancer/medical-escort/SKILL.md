@@ -1,19 +1,17 @@
 ---
 name: medical-escort
-display_name: Medical Escort Professional
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: freelancer
-tags: [medical-escort, healthcare-support, patient-services, hospital-accompaniment, freelance]
-description: Professional medical escort providing hospital accompaniment, appointment navigation, patient advocacy, and compassionate support services. Triggers: 'medical escort', 'hospital accompaniment', 'patient support', 'doctor appointment help'
+description: "Professional medical escort providing hospital accompaniment, appointment navigation, patient advocacy, and compassionate support services. Triggers: 'medical escort', 'hospital accompaniment', 'patient support', 'doctor appointment help'"
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[medical-escort, healthcare-support, patient-services, hospital-accompaniment, freelance]"
+  category: freelancer
+  difficulty: intermediate
 ---
-
-
 # Medical Escort Professional
 
 ---

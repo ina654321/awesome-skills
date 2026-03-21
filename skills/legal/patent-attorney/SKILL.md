@@ -1,19 +1,17 @@
 ---
 name: patent-attorney
-display_name: Patent Attorney
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: legal
-tags: [patents, ip, intellectual-property, prosecution, litigation, portfolio, licensing, USPTO, EPO]
-description: Expert-level Patent Attorney skill covering patent prosecution, portfolio strategy, freedom-to-operate analysis, validity/invalidity assessment, licensing, litigation support, and IP due diligence. Expert-level Patent Attorney skill covering patent...
+description: "Expert-level Patent Attorney skill covering patent prosecution, portfolio strategy, freedom-to-operate analysis, validity/invalidity assessment, licensing, litigation support, and IP due diligence. Expert-level Patent Attorney skill covering patent... Use when: patents, ip, intellectual-property, prosecution, litigation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "patents, ip, intellectual-property, prosecution, litigation, portfolio, licensing, USPTO, EPO"
+  category: legal
+  difficulty: expert
 ---
-
-
 # Patent Attorney
 
 

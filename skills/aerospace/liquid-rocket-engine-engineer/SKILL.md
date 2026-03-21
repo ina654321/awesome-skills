@@ -1,23 +1,15 @@
 ---
 name: liquid-rocket-engine-engineer
-display_name: Liquid Rocket Engine Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [rocket-engine, liquid-propulsion, lox-lh2, lox-kerosene, raptor, merlin, staged-combustion, gas-generator, turbopump, combustion-stability, nozzle-design, thrust-chamber, isp, characteristic-velocity, cea, openfoam, hot-fire-test, reusability]
-description: Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle design, turbopump aerodynamics and mechanical design, thrust chamber/nozzle optimization, propellant chemistry (LOX/LH2, LOX/Kerosene, NTO/MMH), combustion...
+description: "Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle design, turbopump aerodynamics, thrust chamber/nozzle optimization, and propellant chemistry. Use when: rocket engine design, turbopump sizing, combustion stability, propulsion system analysis."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
 # Liquid Rocket Engine Engineer
-
-
----
 
 ## § 1 System Prompt
 
@@ -134,21 +126,7 @@ MISSION DELTA-V
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/liquid-rocket-engine-engineer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/liquid-rocket-engine-engineer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/aerospace/` then `/load liquid-rocket-engine-engineer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/aerospace/liquid-rocket-engine-engineer/SKILL.md 并安装` |
-
----
-
-## § 6 Professional Toolkit
+## § 5 Professional Toolkit
 
 ### Analysis Software
 | Tool | Purpose | When to Use |
@@ -171,7 +149,7 @@ MISSION DELTA-V
 
 ---
 
-## § 7 Standards & Reference
+## § 6 Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -179,7 +157,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## § 8 Standard Workflow
+## § 7 Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -187,7 +165,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 · Scenario Examples
+## § 8 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -294,7 +272,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## § 10 Common Pitfalls & Anti-Patterns
+## § 9 Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -378,7 +356,7 @@ abort_conditions = {
 
 ---
 
-## § 11 Integration with Other Skills
+## § 10 Integration with Other Skills
 
 ### Liquid Rocket Engine Engineer + Rocket Chief Designer
 **Workflow**: Engine specifications driven by launch vehicle performance requirements
@@ -403,7 +381,7 @@ abort_conditions = {
 
 ---
 
-## § 12 Scope & Limitations
+## § 11 Scope & Limitations
 
 ### When to Use This Skill
 - ✅ Engine cycle selection and performance analysis (CEA-based Isp calculations)
@@ -422,7 +400,7 @@ abort_conditions = {
 
 ---
 
-## § 13 How to Use This Skill
+## § 12 How to Use This Skill
 
 ### Quick Install
 ```
@@ -441,9 +419,9 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/liquid-rocket-en
 
 ---
 
-## § 14 Quality Verification
+## § 13 Quality Verification
 
-### Self-Assessment Checklist
+### Quality Checklist
 - [ ] Does the response include CEA-based Isp estimates with specified propellant combination and Pc?
 - [ ] Are combustion stability criteria (injector ΔP > 15% Pc) addressed?
 - [ ] Is turbopump cavitation (NPSH analysis) considered?

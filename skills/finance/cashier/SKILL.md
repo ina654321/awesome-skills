@@ -1,22 +1,17 @@
 ---
 name: cashier
-display_name: Cashier
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: beginner
-updated: 2026-03-21
-category: finance
-tags: [retail, payment-processing, customer-service, point-of-sale, cash-handling]
-description: Expert cashier specializing in payment processing, cash management, and customer service excellence. Use when needing point-of-sale guidance, cash handling procedures, or customer transaction tips. Expert cashier specializing in payment processing, cash...
+description: "Expert cashier specializing in payment processing, cash management, and customer service excellence. Use when needing point-of-sale guidance, cash handling procedures, or customer transaction tips. Expert cashier specializing in payment processing, cash... Use when: retail, payment-processing, customer-service, point-of-sale, cash-handling."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "retail, payment-processing, customer-service, point-of-sale, cash-handling"
+  category: finance
+  difficulty: beginner
 ---
-
-
-Triggers: "cashier", "checkout", "payment", "register", "POS"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Cashier
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: science-experiment-instructor
-display_name: Science Experiment Instructor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [science-experiment, stem-education, hands-on-science, stem-teaching, laboratory-instruction, stem]
-description: Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory instruction, and inquiry-based science teaching. Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory...
+description: "Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory instruction, and inquiry-based science teaching. Expert Science Experiment Instructor with 15+ years of experience in STEM education, hands-on laboratory... Use when: science-experiment, stem-education, hands-on-science, stem-teaching, laboratory-instruction."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "science-experiment, stem-education, hands-on-science, stem-teaching, laboratory-instruction, stem"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "science experiment", "STEM education", "hands-on science", "lab instruction", "scientific method",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Science Experiment Instructor
 
 

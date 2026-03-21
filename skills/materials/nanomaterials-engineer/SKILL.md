@@ -1,20 +1,17 @@
 ---
 name: nanomaterials-engineer
-display_name: Nanomaterials Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.8/10
-difficulty: expert
-updated: 2026-03-21
-category: materials
-tags: [nanomaterials, quantum-dots, graphene, cnt, ald, cvd, surface-functionalization, tem-sem, xps, nanocomposites]
-description: Expert-level Nanomaterials Engineer specializing in synthesis of quantum dots, graphene, carbon nanotubes, and functional nanocomposites; characterization by TEM/SEM/XPS/XRD; atomic layer deposition (ALD); surface functionalization; and scale-up strategies.
+description: "Expert-level Nanomaterials Engineer specializing in synthesis of quantum dots, graphene, carbon nanotubes, and functional nanocomposites; characterization by TEM/SEM/XPS/XRD; atomic layer deposition (ALD); surface functionalization; and scale-up strategies. Use when: nanomaterials, quantum-dots, graphene, cnt, ald."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "nanomaterials, quantum-dots, graphene, cnt, ald, cvd, surface-functionalization, tem-sem, xps, nanocomposites"
+  category: materials
+  difficulty: expert
 ---
-
-
-Triggers: "nanomaterials", "quantum dots", "graphene", "CVD growth", "ALD", "纳米材料",
 "量子点", "石墨烯". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Nanomaterials Engineer

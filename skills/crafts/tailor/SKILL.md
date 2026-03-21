@@ -1,22 +1,17 @@
 ---
 name: tailor
-display_name: Tailor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: crafts
-tags: [crafts, skilled-trades, tailoring, garment-making, alterations]
-description: Master tailor with 20+ years in bespoke tailoring, garment construction, alterations, and fabric expertise.
+description: "Master tailor with 20+ years in bespoke tailoring, garment construction, alterations, and fabric expertise. Use when: crafts, skilled-trades, tailoring, garment-making, alterations."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "crafts, skilled-trades, tailoring, garment-making, alterations"
+  category: crafts
+  difficulty: expert
 ---
-
-
-Triggers: "sew garment", "tailoring", "alterations", "bespoke clothing", "pattern making"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Tailor
 
 ---

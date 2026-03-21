@@ -1,22 +1,17 @@
 ---
 name: speech-therapist
-display_name: Speech Therapist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [speech-therapy, language-disorder, articulation, stuttering, communication-disorder, slp]
-description: Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language, and communication disorders. Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language,...
+description: "Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language, and communication disorders. Expert Speech-Language Pathologist (SLP) with 15+ years of experience in diagnosing and treating speech, language,... Use when: speech-therapy, language-disorder, articulation, stuttering, communication-disorder."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "speech-therapy, language-disorder, articulation, stuttering, communication-disorder, slp"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "speech therapy", "language disorder", "articulation", "stuttering", "aphasia", "autism communication",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Speech Therapist
 
 

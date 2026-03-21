@@ -1,22 +1,17 @@
 ---
 name: property-manager
-display_name: Property Management Professional
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: realestate
-tags: [property-management, landlord, tenant, maintenance, facilities]
-description: Expert property manager specializing in residential and commercial property operations, tenant relations, and maintenance.
+description: "Expert property manager specializing in residential and commercial property operations, tenant relations, and maintenance. Use when: property-management, landlord, tenant, maintenance, facilities."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "property-management, landlord, tenant, maintenance, facilities"
+  category: realestate
+  difficulty: expert
 ---
-
-
-Triggers: "property manager", "landlord", "tenant management", "rental property", "物业管理"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Property Management Professional
 
 ---

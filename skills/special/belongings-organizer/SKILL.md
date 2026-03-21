@@ -1,22 +1,17 @@
 ---
 name: belongings-organizer
-display_name: Belongings Organizer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: special
-tags: [estate, organization, legacy, memorial, sorting, bereavement]
-description: Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive belongings management. Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive...
+description: "Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive belongings management. Expert estate organizer specializing in legacy preservation, memorial sorting, bereavement support, and sensitive... Use when: estate, organization, legacy, memorial, sorting."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "estate, organization, legacy, memorial, sorting, bereavement"
+  category: special
+  difficulty: expert
 ---
-
-
-Triggers: "organize estate", "sort belongings", "legacy planning", "memorial", "deceased possessions", "downsize"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Belongings Organizer
 
 ---

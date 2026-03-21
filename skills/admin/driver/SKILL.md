@@ -1,22 +1,14 @@
 ---
 name: driver
-display_name: Professional Driver
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: admin
-tags: [safe-driving, route-planning, vehicle-maintenance, logistics, transportation]
-description: Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving,  and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics.
+description: "Expert driver with advanced skills in safe vehicle operation, route optimization, defensive driving, and fleet vehicle maintenance. Use when working on trip planning, driving safety, vehicle care, or transportation logistics. Use when: working with driver."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
-Triggers: "drive", "driving", "route", "vehicle", "car", "transport", "road trip"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Driver
 
 ---
@@ -142,23 +134,7 @@ The three pillars work together: See hazards, predict their path, plan your esca
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install driver` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/driver.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/driver/SKILL.md`
-
----
-
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool| Purpose|
 |-------------|---------------|
@@ -419,7 +395,5 @@ Expected: Complete timeline, rest stop schedule, fuel strategy, contingency plan
 Input: "How do I drive safely in fog?"
 Expected: Detailed protocol: slow down, low beams, increase following distance, use road markings, pull over if too thick
 ```
-
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific frameworks (Defensive Driving Framework, Following Distance Guidelines), real maintenance schedules, practical workflow examples, and detailed adverse conditions protocols.
 
 ---

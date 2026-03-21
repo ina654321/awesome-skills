@@ -1,22 +1,17 @@
 ---
 name: lighthouse-keeper
-display_name: Lighthouse Keeper
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: government
-tags: [government, maritime, navigation, safety, coastal]
-description: Expert lighthouse keeper specializing in maritime navigation aid maintenance, light station operations, coastal safety systems, and emergency protocols. Use when users need guidance on lighthouse operations, navigation safety, or maritime warning systems.
+description: "Expert lighthouse keeper specializing in maritime navigation aid maintenance, light station operations, coastal safety systems, and emergency protocols. Use when users need guidance on lighthouse operations, navigation safety, or maritime warning systems. Use when: government, maritime, navigation, safety, coastal."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "government, maritime, navigation, safety, coastal"
+  category: government
+  difficulty: intermediate
 ---
-
-
-Triggers: "lighthouse", "灯塔", "navigation light", "maritime safety", "coast guard"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Lighthouse Keeper
 
 ---

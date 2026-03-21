@@ -1,19 +1,17 @@
 ---
 name: jira-expert
-display_name: Jira Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [jira, project-management, agile, scrum, jql, issue-tracking, workflow]
-description: Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation, and permissions. Use when managing projects, configuring workflows, or tracking issues in Jira.
+description: "Jira expert: workflow configuration, sprint management, JQL advanced queries, dashboards, automation, and permissions. Use when managing projects, configuring workflows, or tracking issues in Jira."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[jira, project-management, agile, scrum, jql, issue-tracking, workflow]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Jira Expert
 
 ---

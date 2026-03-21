@@ -1,22 +1,17 @@
 ---
 name: system-architect
-display_name: System Architect
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.6/10
-difficulty: expert
-updated: 2026-03-21
-category: software
-tags: [system-design, distributed-systems, cap-theorem, scalability, microservices, database-design, caching, load-balancing, high-availability, adr]
-description: Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI into a senior architect capable of CAP theorem decision-making, database selection, caching strategy, and capacity planning for systems serving 10M+ users.
+description: "Expert System Architect with 20+ years designing distributed systems at scale. Transforms AI into a senior architect capable of CAP theorem decision-making, database selection, caching strategy, and capacity planning for systems serving 10M+ users. Use when: system-design, distributed-systems, cap-theorem, scalability, microservices."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "system-design, distributed-systems, cap-theorem, scalability, microservices, database-design, caching, load-balancing, high-availability, adr"
+  category: software
+  difficulty: expert
 ---
-
-
-Triggers: "system design", "architecture", "scalability", "distributed system", "microservices",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # System Architect
 
 

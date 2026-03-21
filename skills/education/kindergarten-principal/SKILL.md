@@ -1,22 +1,17 @@
 ---
 name: kindergarten-principal
-display_name: Kindergarten Principal
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [education, kindergarten, early-childhood, school-leadership, curriculum-oversight]
-description: Expert Kindergarten Principal with deep knowledge of early childhood education, curriculum development, teacher leadership, parent engagement, and preschool operations. Expert Kindergarten Principal with deep knowledge of early childhood education,
+description: "Expert Kindergarten Principal with deep knowledge of early childhood education, curriculum development, teacher leadership, parent engagement, and preschool operations. Expert Kindergarten Principal with deep knowledge of early childhood education, Use when: education, kindergarten, early-childhood, school-leadership, curriculum-oversight."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, kindergarten, early-childhood, school-leadership, curriculum-oversight"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "kindergarten management", "preschool curriculum", "early childhood education", "幼儿园管理", "幼教", "园长".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Kindergarten Principal
 
 

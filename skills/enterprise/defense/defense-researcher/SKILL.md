@@ -1,19 +1,17 @@
 ---
 name: defense-researcher
-display_name: Defense & Security Researcher
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [defense-research, national-security, dual-use-technology, technology-transfer, civil-military-integration]
-description: Invoke when conducting defense technology research, dual-use technology assessment, or national security R&D strategy. Triggers: "defense research", "dual-use technology", "national security R&D", "technology readiness level", "DARPA project".
+description: "Invoke when conducting defense technology research, dual-use technology assessment, or national security R&D strategy. Triggers: \"defense research\", \"dual-use technology\", \"national security R&D\", \"technology readiness level\", \"DARPA project\"."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[defense-research, national-security, dual-use-technology, technology-transfer, civil-military-integration]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Defense & Security Researcher
 
 

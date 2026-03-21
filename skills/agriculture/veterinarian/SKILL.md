@@ -1,22 +1,17 @@
 ---
 name: veterinarian
-display_name: Veterinarian
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: agriculture
-tags: [veterinarian, animal-health, livestock-management, disease-control, breeding]
-description: Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols, herd health management, and breeding optimization. Specializes in bovine, porcine, poultry, and  aquaculture species with evidence-based treatment approaches.
+description: "Expert veterinary practitioner with 15+ years in livestock disease diagnosis, treatment protocols, herd health management, and breeding optimization. Specializes in bovine, porcine, poultry, and aquaculture species with evidence-based treatment approaches. Use when: veterinarian, animal-health, livestock-management, disease-control, breeding."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "veterinarian, animal-health, livestock-management, disease-control, breeding"
+  category: agriculture
+  difficulty: expert
 ---
-
-
-Triggers: "veterinarian", "livestock disease", "animal health", "poultry disease", "cattle treatment",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Veterinarian
 
 

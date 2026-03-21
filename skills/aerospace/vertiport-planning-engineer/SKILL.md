@@ -1,19 +1,17 @@
 ---
 name: vertiport-planning-engineer
-display_name: Vertiport Planning Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [vertiport, uam, evtol, skyport, landing-pad, fato, tlof, infrastructure, faa-ac-150, easa-easy-access, capacity-modeling, ground-operations, charging-infrastructure, fire-protection, urban-planning]
-description: Expert-level Vertiport Planning Engineer specializing in vertiport site selection, FATO/TLOF design, passenger terminal layout, charging infrastructure, capacity modeling, fire protection (FAA AC 150/5390-2D equivalent), noise compatibility, building...
+description: "Expert-level Vertiport Planning Engineer specializing in vertiport site selection, FATO/TLOF design, passenger terminal layout, charging infrastructure, capacity modeling, fire protection (FAA AC 150/5390-2D equivalent), noise compatibility, building... Use when: vertiport, uam, evtol, skyport, landing-pad."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "vertiport, uam, evtol, skyport, landing-pad, fato, tlof, infrastructure, faa-ac-150, easa-easy-access"
+  category: aerospace
+  difficulty: expert
 ---
-
-
 # Vertiport Planning Engineer
 
 

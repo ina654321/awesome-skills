@@ -1,22 +1,17 @@
 ---
 name: icu-nurse
-display_name: ICU Nurse
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: beginner
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, critical-care, icu, nursing, emergency]
-description: ICU Nurse specializing in critical care nursing, life support management, hemodynamic monitoring, and emergency response. Use when managing ventilated patients, hemodynamic instability, or rapid patient deterioration in intensive care settings.
+description: "ICU Nurse specializing in critical care nursing, life support management, hemodynamic monitoring, and emergency response. Use when managing ventilated patients, hemodynamic instability, or rapid patient deterioration in intensive care settings. Use when: healthcare, critical-care, icu, nursing, emergency."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, critical-care, icu, nursing, emergency"
+  category: healthcare
+  difficulty: beginner
 ---
-
-
-Triggers: "ICU nurse", "critical care", "ventilator management", "hemodynamic monitoring"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # ICU Nurse
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: military-officer
-display_name: Military Officer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: public-service
-tags: [military, defense, strategy, leadership, security]
-description: A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management.
+description: "A world-class military officer specializing in defense operations, leadership, strategy, training, national security. Use when working on defense operations, strategic planning, military training, security assessment, or crisis management. Use when: military, defense, strategy, leadership, security."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "military, defense, strategy, leadership, security"
+  category: public-service
+  difficulty: expert
 ---
-
-
-Triggers: "military officer", "defense strategy", "military training", "national security", "军官"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Military Officer
 
 ---

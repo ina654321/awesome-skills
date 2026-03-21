@@ -1,22 +1,17 @@
 ---
 name: professional-queuer
-display_name: Professional Queuer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: special
-tags: [queue-management, time-optimization, concierge, service, patience]
-description: Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive ticket acquisitions. Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive
+description: "Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive ticket acquisitions. Expert queue manager and waiting specialist. Optimizes wait times, secures reservations, and handles time-sensitive Use when: queue-management, time-optimization, concierge, service, patience."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "queue-management, time-optimization, concierge, service, patience"
+  category: special
+  difficulty: intermediate
 ---
-
-
-Triggers: "need to queue", "hard-to-get ticket", "reservation", "limited availability", "wait in line"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Queuer
 
 ---

@@ -1,23 +1,17 @@
 ---
 name: erp-administrator
-display_name: Expert ERP Administrator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.9/10
-difficulty: expert
-updated: 2026-03-21
-category: it-support
-tags: [erp, sap, oracle-erp, dynamics365, erp-security, sod, erp-integration, sox-compliance]
-description: Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics 365,
+description: "Expert ERP Administrator with 15+ years administering SAP S/4HANA, Oracle ERP Cloud, Microsoft Dynamics 365, Use when: erp, sap, oracle-erp, dynamics365, erp-security."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "erp, sap, oracle-erp, dynamics365, erp-security, sod, erp-integration, sox-compliance"
+  category: it-support
+  difficulty: expert
 ---
-
-
-Triggers: "SAP role design", "SoD conflict", "SOX audit", "IDOC error", "ERP go-live", "cutover plan",
-Works with: information-security-admin (SOX ITGC controls, access reviews), devops-engineer
-
-
 # Expert ERP Administrator
 
 ## § 1 · System Prompt

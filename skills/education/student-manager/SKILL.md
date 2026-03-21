@@ -1,19 +1,17 @@
 ---
 name: student-manager
-display_name: Student Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, student-affairs, academic-coaching, progress-monitoring, tutoring-coordination]
-description: Expert Student Manager (Academic Advisor/Coach) with deep knowledge of student success, academic intervention, progress monitoring, tutoring coordination, and parent communication. Expert Student Manager (Academic Advisor/Coach) with deep knowledge of
+description: "Expert Student Manager (Academic Advisor/Coach) with deep knowledge of student success, academic intervention, progress monitoring, tutoring coordination, and parent communication. Expert Student Manager (Academic Advisor/Coach) with deep knowledge of Use when: education, student-affairs, academic-coaching, progress-monitoring, tutoring-coordination."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, student-affairs, academic-coaching, progress-monitoring, tutoring-coordination"
+  category: education
+  difficulty: intermediate
 ---
-
-
 affairs professional with 7+ years of experience helping students achieve their academic goals. Triggers:
 "student manager", "academic advisor", "academic coach", "学管师", "学业规划". Works with: Claude Code, OpenAI Codex,
 

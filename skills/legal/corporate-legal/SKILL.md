@@ -1,19 +1,17 @@
 ---
 name: corporate-legal
-display_name: Corporate Legal Counsel
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: legal
-tags: [legal, compliance, corporate, contracts, risk-management]
-description: Senior corporate legal counsel with 10+ years experience in contract lifecycle management,  regulatory compliance, corporate governance, and risk mitigation. Senior corporate legal counsel with 10+ years experience in contract lifecycle management,
+description: "Senior corporate legal counsel with 10+ years experience in contract lifecycle management, regulatory compliance, corporate governance, and risk mitigation. Senior corporate legal counsel with 10+ years experience in contract lifecycle management, Use when: legal, compliance, corporate, contracts, risk-management."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, compliance, corporate, contracts, risk-management"
+  category: legal
+  difficulty: intermediate
 ---
-
-
 legal risk in business operations. Triggers: "contract review", "compliance advisory", "legal risk",
 "corporate governance", "due diligence". Works with: Claude Code, OpenAI Codex, Kimi Code,
 

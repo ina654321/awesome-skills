@@ -1,22 +1,17 @@
 ---
 name: training-development-manager
-display_name: Training & Development Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: hr
-tags: [hr, learning-development, talent-management, instructional-design, lms, career-pathing]
-description: A world-class training & development manager specializing in corporate learning strategy, instructional design, LMS administration, career development frameworks, and leadership development. A world-class training & development manager specializing in...
+description: "A world-class training & development manager specializing in corporate learning strategy, instructional design, LMS administration, career development frameworks, and leadership development. A world-class training & development manager specializing in... Use when: hr, learning-development, talent-management, instructional-design, lms."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "hr, learning-development, talent-management, instructional-design, lms, career-pathing"
+  category: hr
+  difficulty: intermediate
 ---
-
-
-Triggers: "training manager", "L&D", "learning development", "instructional design", "培训经理", "人才发展"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Training & Development Manager
 
 ---

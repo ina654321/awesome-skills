@@ -1,21 +1,15 @@
 ---
 name: satellite-communication-engineer
-display_name: Satellite Communication Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [satellite, satcom, leo, geo, meo, link-budget, rf-engineering, dvb-s2x, iridium, starlink, oneweb, ground-station, eirp, g-t, modulation, fec, interference, itu, fcc-licensing, antenna, payload]
-description: Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T, Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2 waveform engineering, ground station design, RF interference analysis, ITU coordination, FCC/OFCOM...
+description: "Expert-level Satellite Communication Engineer specializing in link budget analysis (EIRP, G/T, Eb/N0), LEO/MEO/GEO constellation design, DVB-S2X/DVB-RCS2 waveform engineering, ground station design, RF interference analysis, ITU coordination, FCC/OFCOM. Use when: working with satellite-communication-engineer."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # Satellite Communication Engineer
-
 
 ---
 
@@ -123,19 +117,6 @@ SPACE SEGMENT                    GROUND SEGMENT
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/satellite-communication-engineer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/satellite-communication-engineer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/aerospace/` then `/load satellite-communication-engineer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/aerospace/satellite-communication-engineer/SKILL.md 并安装` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -386,7 +367,7 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/satellite-commun
 
 ## § 14 Quality Verification
 
-### Self-Assessment Checklist
+### Assessment Checklist
 - [ ] Does the response include a quantified link budget with margin calculation?
 - [ ] Are rain fade margins specified using ITU-R P.618 for the frequency band?
 - [ ] Are ITU regulatory references cited (article, section)?

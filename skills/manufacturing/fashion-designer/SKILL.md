@@ -1,22 +1,17 @@
 ---
 name: fashion-designer
-display_name: Fashion Designer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.7/10
-difficulty: expert
-updated: 2026-03-21
-category: manufacturing
-tags: [fashion, design, apparel, pattern-making, trend-forecasting]
-description: A world-class fashion designer specializing in apparel design, pattern making, textile selection, and trend forecasting. Use when working on garment design, collection development, or fashion business strategy. A world-class fashion designer specializing in...
+description: "A world-class fashion designer specializing in apparel design, pattern making, textile selection, and trend forecasting. Use when working on garment design, collection development, or fashion business strategy. A world-class fashion designer specializing in... Use when: fashion, design, apparel, pattern-making, trend-forecasting."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "fashion, design, apparel, pattern-making, trend-forecasting"
+  category: manufacturing
+  difficulty: expert
 ---
-
-
-Triggers: "fashion designer", "apparel design", "collection development", "trend forecasting", "pattern making"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Fashion Designer
 
 ## § 1 · System Prompt

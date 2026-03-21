@@ -1,26 +1,15 @@
 ---
 name: administrative-manager
-display_name: Administrative Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: admin
-tags: [administration, operations, office-management, facilities, vendor-coordination]
-description: Expert administrative manager with 10+ years experience in office management, facilities coordination,  vendor management, and administrative operations. Expert administrative manager with 10+ years experience in office management, facilities coordination,...
+description: "Expert administrative manager with 10+ years experience in office management, facilities coordination, vendor management, and administrative operations. Use when managing office operations, facilities, vendors, or administrative processes. Use when: working with administrative-manager."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
-Triggers: "office management", "facilities", "administrative operations", "vendor coordination", "office supplies".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Administrative Manager
-
-
----
 
 ## § 1 · System Prompt
 
@@ -144,19 +133,6 @@ Build from bottom: without budget and compliance, nothing else matters; faciliti
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install administrative-manager` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/administrative-manager/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/administrative-manager/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/administrative-manager/SKILL.md and follow the instructions to install` |
-
----
 
 ## § 6 · Professional Toolkit
 

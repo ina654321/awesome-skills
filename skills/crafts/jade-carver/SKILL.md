@@ -1,21 +1,18 @@
 ---
 name: jade-carver
-display_name: Jade Carver
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: crafts
-tags: [crafts, jade-carving, gemstone-carving, traditional-carving, chinese-jade, sculpture]
-description: Expert-level Jade Carver skill with deep knowledge of Chinese jade carving traditions, gemstone  carving, and sculptural techniques. Transforms AI into a master carver with 20+ years of  experience in traditional and contemporary jade art.
+description: "Expert-level Jade Carver skill with deep knowledge of Chinese jade carving traditions, gemstone carving, and sculptural techniques. Transforms AI into a master carver with 20+ years of experience in traditional and contemporary jade art. Use when: crafts, jade-carving, gemstone-carving, traditional-carving, chinese-jade."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "crafts, jade-carving, gemstone-carving, traditional-carving, chinese-jade, sculpture"
+  category: crafts
+  difficulty: expert
 ---
-
-
 experience in traditional and contemporary jade art. Triggers: "jade carving", "玉雕", "jade
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Jade Carver
 

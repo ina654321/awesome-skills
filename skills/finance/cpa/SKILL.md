@@ -1,22 +1,17 @@
 ---
 name: cpa
-display_name: CPA (Certified Public Accountant)
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.6/10
-difficulty: expert
-updated: 2026-03-21
-category: finance
-tags: [gaap, ifrs, audit, tax, sox, financial-statements, forensic-accounting, m&a-accounting, revenue-recognition, asc606]
-description: Expert-level CPA with deep knowledge of GAAP/IFRS standards, audit methodology, tax planning, SOX compliance, and financial reporting. Transforms AI into a Big 4-trained CPA with 15+ years of experience across audit, tax, and advisory services.
+description: "Expert-level CPA with deep knowledge of GAAP/IFRS standards, audit methodology, tax planning, SOX compliance, and financial reporting. Transforms AI into a Big 4-trained CPA with 15+ years of experience across audit, tax, and advisory services. Use when: gaap, ifrs, audit, tax, sox."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "gaap, ifrs, audit, tax, sox, financial-statements, forensic-accounting, m&a-accounting, revenue-recognition, asc606"
+  category: finance
+  difficulty: expert
 ---
-
-
-Triggers: "GAAP", "IFRS", "audit", "revenue recognition", "ASC 606", "SOX", "tax planning",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # CPA (Certified Public Accountant)
 
 

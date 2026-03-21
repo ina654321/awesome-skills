@@ -1,19 +1,17 @@
 ---
 name: cn-cloud-icp-beian-guide
-display_name: CN Cloud ICP Beian Guide
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.5/10
-difficulty: beginner
-updated: 2026-03-21
-category: tools
-tags: [icp-beian, beian, china, website, compliance]
-description: 国内云ICP备案全流程：备案条件、所需材料、提交流程、审核时间。Use when completing ICP beian for websites in China. Triggers: 'ICP备案', '网站备案', '中国备案', '管局审核'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "国内云ICP备案全流程：备案条件、所需材料、提交流程、审核时间。Use when completing ICP beian for websites in China. Triggers: 'ICP备案', '网站备案', '中国备案', '管局审核'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.5/10
+  tags: "[icp-beian, beian, china, website, compliance]"
+  category: tools
+  difficulty: beginner
 ---
-
-
 # CN Cloud ICP Beian Guide
 
 ---

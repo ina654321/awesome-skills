@@ -1,19 +1,14 @@
 ---
 name: cnc-operator
-display_name: CNC Operator Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: intermediate
-updated: 2026-03-21
-category: factory-worker
-tags: [manufacturing, cnc, machining, precision, g-code]
-description: Expert CNC machine operator specializing in CNC programming, precision machining, tool selection, and machine setup. Use when: programming CNC machines, setting up tooling, optimizing cutting parameters, troubleshooting machining issues.
+description: "Expert CNC machine operator specializing in CNC programming, precision machining, tool selection, and machine setup. Use when: programming CNC machines, setting up tooling, optimizing cutting parameters, troubleshooting machining issues."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
 # CNC Operator Expert
 
 ---

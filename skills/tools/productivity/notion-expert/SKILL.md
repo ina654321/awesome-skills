@@ -1,19 +1,17 @@
 ---
 name: notion-expert
-display_name: Notion Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: tools
-tags: [notion, productivity, wiki, database, project-management, api, templates]
-description: Notion expert: database design, template creation, API integration, team workflows, formulas, relations. Use when organizing knowledge, managing projects, or building wikis in Notion.
+description: "Notion expert: database design, template creation, API integration, team workflows, formulas, relations. Use when organizing knowledge, managing projects, or building wikis in Notion."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[notion, productivity, wiki, database, project-management, api, templates]"
+  category: tools
+  difficulty: intermediate
 ---
-
-
 # Notion Expert
 
 ---

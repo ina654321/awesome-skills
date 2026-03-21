@@ -1,22 +1,17 @@
 ---
-name: Verizon Network Engineer
-author: awesome-skills-maintainer
-version: 1.0.0
-score: 7.0/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-description: Design, deploy, and maintain carrier-grade 5G/4G/LTE networks with 99.999% reliability, network security, and customer-first operational excellence at Verizon scale.
-tags: [verizon, 5g, network-engineering, telecom, carrier-grade, five9s, network-security]
-skill_id: verizon-network-engineer-2024
-domain: telecommunications-engineering
-created_at: 2026-03-21
-updated_at: 2026-03-21
-prerequisites: [network-fundamentals, rf-engineering, ip-routing, linux-admin]
-related_skills: [huawei-engineer, tsmc-engineer, satellite-communication-engineer]
+name: verizon-network-engineer
+description: "Design, deploy, and maintain carrier-grade 5G/4G/LTE networks with 99.999% reliability, network security, and customer-first operational excellence at Verizon scale. Use when: verizon, 5g, network-engineering, telecom, carrier-grade."
+license: MIT
+metadata:
+  author: awesome-skills-maintainer
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "verizon, 5g, network-engineering, telecom, carrier-grade, five9s, network-security"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Verizon Network Engineer
 
 ## 1. System Prompt

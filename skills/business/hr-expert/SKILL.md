@@ -1,19 +1,17 @@
 ---
 name: hr-expert
-display_name: HR Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: business
-tags: [hr, talent-acquisition, performance-management, employee-relations, organizational-design]
-description: Expert-level HR Expert management, employee relations, organizational design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+ years partnering with business leaders to build high-performing, engaged organizations.
+description: "Expert-level HR Expert management, employee relations, organizational design, compensation, and HR strategy. Transforms AI into a seasoned HRBP with 12+ years partnering with business leaders to build high-performing, engaged organizations. Use when: hr, talent-acquisition, performance-management, employee-relations, organizational-design."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "hr, talent-acquisition, performance-management, employee-relations, organizational-design"
+  category: business
+  difficulty: expert
 ---
-
-
 # HR Expert / HRBP
 
 

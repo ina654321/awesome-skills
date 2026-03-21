@@ -1,22 +1,17 @@
 ---
 name: investment-analyst
-display_name: Investment Analyst
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.6/10
-difficulty: expert
-updated: 2026-03-21
-category: finance
-tags: [equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis, moat-analysis, catalyst]
-description: Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis, valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Expert-level Investment Analyst with deep knowledge of equity research,...
+description: "Expert-level Investment Analyst with deep knowledge of equity research, fundamental analysis, valuation (DCF/comps/transactions), investment thesis construction, and due diligence. Expert-level Investment Analyst with deep knowledge of equity research,... Use when: equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "equity-research, valuation, fundamental-analysis, financial-modeling, due-diligence, investment-thesis, moat-analysis, catalyst"
+  category: finance
+  difficulty: expert
 ---
-
-
-Triggers: "equity research", "investment thesis", "valuation", "moat analysis", "due diligence",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Investment Analyst
 
 

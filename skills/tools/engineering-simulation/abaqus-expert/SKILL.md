@@ -1,19 +1,17 @@
 ---
 name: abaqus-expert
-display_name: Abaqus Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [abaqus, fea, simulation, nonlinear-analysis, finite-element]
-description: Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling. Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation.
+description: "Invoke when: User needs help with Abaqus FEA, nonlinear analysis, contact mechanics, or material modeling. Provides: Solver setup, mesh strategies, job diagnostics, and result interpretation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[abaqus, fea, simulation, nonlinear-analysis, finite-element]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Abaqus Expert
 
 **Self-Score:** 9.5/10 — Exemplary

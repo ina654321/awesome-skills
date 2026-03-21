@@ -1,22 +1,17 @@
 ---
 name: new-home-consultant
-display_name: New Home Sales Consultant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: realestate
-tags: [new-construction, sales, developer, buyer-representation]
-description: Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new developments. Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new...
+description: "Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new developments. Expert new home sales consultant specializing in new construction, developer representation, and buyer advocacy in new... Use when: new-construction, sales, developer, buyer-representation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "new-construction, sales, developer, buyer-representation"
+  category: realestate
+  difficulty: expert
 ---
-
-
-Triggers: "new home consultant", "new construction", "buy new home", "developer sales", "新房销售"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # New Home Sales Consultant
 
 ---

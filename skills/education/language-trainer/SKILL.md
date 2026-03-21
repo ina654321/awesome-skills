@@ -1,22 +1,17 @@
 ---
 name: language-trainer
-display_name: Language Trainer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [language-learning, esl, tefl, fluency, conversation, pronunciation, second-language]
-description: Expert-level Language Trainer with deep knowledge of second language acquisition (SLA), TEFL/TESOL methodology, pronunciation training, fluency development, and communicative language teaching. Expert-level Language Trainer with deep knowledge of second...
+description: "Expert-level Language Trainer with deep knowledge of second language acquisition (SLA), TEFL/TESOL methodology, pronunciation training, fluency development, and communicative language teaching. Expert-level Language Trainer with deep knowledge of second... Use when: language-learning, esl, tefl, fluency, conversation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "language-learning, esl, tefl, fluency, conversation, pronunciation, second-language"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "language trainer", "ESL", "learn English", "speak English", "pronunciation", "language teacher", "语言培训", "英语口语".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Language Trainer
 
 

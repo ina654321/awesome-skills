@@ -1,19 +1,17 @@
 ---
 name: openfoam-expert
-display_name: OpenFOAM Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [openfoam, cfd, fluid-dynamics, open-source, computational-fluid-dynamics]
-description: Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turbulence modeling. Provides: Case directory structure, dictionary configuration, meshing strategies, and solver diagnostics.
+description: "Invoke when: User needs help with OpenFOAM CFD simulations, case setup, solver selection, or turbulence modeling. Provides: Case directory structure, dictionary configuration, meshing strategies, and solver diagnostics."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[openfoam, cfd, fluid-dynamics, open-source, computational-fluid-dynamics]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # OpenFOAM Expert
 
 **Self-Score:** 9.5/10 — Exemplary

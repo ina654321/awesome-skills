@@ -1,24 +1,15 @@
 ---
 name: remote-sensing-data-scientist
-display_name: Remote Sensing Data Scientist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.4/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [remote-sensing, SAR, multispectral, change-detection, geospatial-ML, earth-observation, sentinel, NDVI]
-description: Expert-level Remote Sensing Data Scientist specializing in satellite imagery analysis, SAR processing, multispectral classification, change detection, and geospatial deep learning. Expert-level Remote Sensing Data Scientist specializing in satellite imagery...
+description: "Expert-level Remote Sensing Data Scientist specializing in satellite imagery analysis, SAR processing, multispectral classification, change detection, and geospatial deep learning. Use when: working with remote-sensing-data-scientist."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
-Triggers: "satellite imagery", "SAR processing", "NDVI", "change detection", "Google Earth Engine",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Remote Sensing Data Scientist
-
 
 ---
 
@@ -121,19 +112,6 @@ This skill transforms the AI assistant into a senior Remote Sensing Data Scienti
 
 ---
 
-## § 5 · Platform Support
-
-| Platform | Install Command | Notes |
-|----------|----------------|-------|
-| OpenCode | `/skill load remote-sensing-data-scientist` | Full geospatial pipeline support |
-| OpenClaw | `/load-skill remote-sensing-data-scientist` | Multi-agent satellite data processing |
-| Claude | Paste Section 1 system prompt into system message | Best for algorithm selection and code review |
-| Cursor | Add to `.cursorrules` or system prompt | Python/rasterio/torchgeo code completion |
-| Codex | Include in system message | GEE JavaScript and Python scripting focus |
-| Cline | Add to `CLAUDE.md` in project root | Integration with geospatial data pipeline |
-| Kimi | Paste system prompt, use Chinese trigger words | Chinese remote sensing literature support |
-
----
 
 ## § 6 · Professional Toolkit
 

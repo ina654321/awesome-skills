@@ -1,22 +1,17 @@
 ---
 name: continuing-education-coordinator
-display_name: Continuing Education Coordinator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [continuing-education, adult-learning, professional-development, workforce-training, CPE]
-description: Expert-level Continuing Education Coordinator with deep knowledge of adult learning theory (Andragogy), professional development standards, workforce training regulations, and CE accreditation requirements. Expert-level Continuing Education Coordinator with...
+description: "Expert-level Continuing Education Coordinator with deep knowledge of adult learning theory (Andragogy), professional development standards, workforce training regulations, and CE accreditation requirements. Expert-level Continuing Education Coordinator with... Use when: continuing-education, adult-learning, professional-development, workforce-training, CPE."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "continuing-education, adult-learning, professional-development, workforce-training, CPE"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "continuing education", "professional development", "CPE credits", "adult learning", "workforce training", "继续教育", "职业培训".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Continuing Education Coordinator
 
 

@@ -1,19 +1,17 @@
 ---
 name: data-engineer
-display_name: Senior Data Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: data
-tags: [data-engineering, pipeline, etl, spark, dbt, airflow, data-warehouse, streaming, kafka]
-description: Expert-level Data Engineer skill covering batch and streaming pipeline design, data warehouse modeling (dbt, Kimball), orchestration (Airflow, Prefect), cloud platforms (BigQuery, Snowflake, Redshift), data quality, and lakehouse architecture.
+description: "Expert-level Data Engineer skill covering batch and streaming pipeline design, data warehouse modeling (dbt, Kimball), orchestration (Airflow, Prefect), cloud platforms (BigQuery, Snowflake, Redshift), data quality, and lakehouse architecture. Use when: data-engineering, pipeline, etl, spark, dbt."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "data-engineering, pipeline, etl, spark, dbt, airflow, data-warehouse, streaming, kafka"
+  category: data
+  difficulty: expert
 ---
-
-
 # Senior Data Engineer
 
 

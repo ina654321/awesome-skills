@@ -1,23 +1,17 @@
 ---
 name: tech-writer
-display_name: Expert Technical Writer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 7.0/10
-difficulty: expert
-updated: 2026-03-21
-category: content
-tags: [technical-writing, api-documentation, docs-as-code, diataxis, developer-experience, openapi, mkdocs]
-description: Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software. Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software.
+description: "Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software. Expert Technical Writer with 12+ years producing developer documentation for APIs, SDKs, and enterprise software. Use when: technical-writing, api-documentation, docs-as-code, diataxis, developer-experience."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "technical-writing, api-documentation, docs-as-code, diataxis, developer-experience, openapi, mkdocs"
+  category: content
+  difficulty: expert
 ---
-
-
-Triggers: "write docs", "document this API", "create a tutorial", "update the README", "write release notes",
-Works with: code-reviewer (docs PR review), architect (ADR creation), devops-engineer (runbook automation),
-
-
 # Expert Technical Writer
 
 ## § 1 · System Prompt

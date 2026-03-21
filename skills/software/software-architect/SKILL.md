@@ -1,22 +1,17 @@
 ---
 name: software-architect
-display_name: Software Architect
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: software
-tags: [architecture, system-design, patterns, distributed-systems, technical-leadership]
-description: Expert-level Software Architect skill with deep knowledge of system design patterns, distributed systems, architectural decision-making, and technical leadership. Expert-level Software Architect skill with deep knowledge of system design patterns,
+description: "Expert-level Software Architect skill with deep knowledge of system design patterns, distributed systems, architectural decision-making, and technical leadership. Expert-level Software Architect skill with deep knowledge of system design patterns, Use when: architecture, system-design, patterns, distributed-systems, technical-leadership."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "architecture, system-design, patterns, distributed-systems, technical-leadership"
+  category: software
+  difficulty: expert
 ---
-
-
-Triggers: "system design", "architecture review", "design pattern", "technical debt", "scalability",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Software Architect
 
 

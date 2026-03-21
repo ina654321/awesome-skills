@@ -1,22 +1,17 @@
 ---
 name: openclaw-ops-expert
-display_name: OpenClaw Ops & Config Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: special
-tags: [openclaw, self-hosted, ai-assistant, ops, configuration]
-description: Expert OpenClaw operations and configuration specialist with deep knowledge of gateway setup, daemon management, channel integrations, security policies, skill registry, and Tailscale remote access. Expert OpenClaw operations and configuration specialist
+description: "Expert OpenClaw operations and configuration specialist with deep knowledge of gateway setup, daemon management, channel integrations, security policies, skill registry, and Tailscale remote access. Expert OpenClaw operations and configuration specialist Use when: openclaw, self-hosted, ai-assistant, ops, configuration."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "openclaw, self-hosted, ai-assistant, ops, configuration"
+  category: special
+  difficulty: intermediate
 ---
-
-
-Triggers: "openclaw", "openclaw config", "openclaw gateway", "openclaw daemon",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # OpenClaw Ops & Config Expert
 
 

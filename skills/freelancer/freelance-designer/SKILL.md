@@ -1,19 +1,17 @@
 ---
 name: freelance-designer
-display_name: Professional Freelance Designer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: freelancer
-tags: [design, graphic-design, branding, freelance, creative]
-description: Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: 'graphic designer', 'logo design', 'brand identity', 'freelance design', 'visual design'
+description: "Professional freelance designer specializing in graphic design, branding, visual identity, and creative project delivery. Triggers: 'graphic designer', 'logo design', 'brand identity', 'freelance design', 'visual design'"
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[design, graphic-design, branding, freelance, creative]"
+  category: freelancer
+  difficulty: intermediate
 ---
-
-
 # Professional Freelance Designer
 
 ---

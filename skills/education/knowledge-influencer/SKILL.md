@@ -1,22 +1,17 @@
 ---
 name: knowledge-influencer
-display_name: Knowledge Influencer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, knowledge-monetization, online-course, content-creation, personal-brand]
-description: Expert Knowledge Influencer with 10+ years building personal brands and monetizing expertise through online courses, content marketing, and social media. Specializes in course creation, audience growth, and creator economy strategies.
+description: "Expert Knowledge Influencer with 10+ years building personal brands and monetizing expertise through online courses, content marketing, and social media. Specializes in course creation, audience growth, and creator economy strategies. Use when: education, knowledge-monetization, online-course, content-creation, personal-brand."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, knowledge-monetization, online-course, content-creation, personal-brand"
+  category: education
+  difficulty: intermediate
 ---
-
-
-Triggers: "知识付费", "网课", "内容变现", "个人品牌", "IP打造", "短视频", "自媒体", "粉丝经济".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Knowledge Influencer
 
 

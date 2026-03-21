@@ -1,22 +1,17 @@
 ---
 name: brand-strategist
-display_name: Brand Strategist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: business
-tags: [business, strategy, brand, marketing, positioning]
-description: Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Senior brand strategist with 15+ years experience for Fortune
+description: "Senior brand strategist with 15+ years experience for Fortune 500 and high-growth startups. Specializes in brand positioning, market segmentation, brand architecture, and go-to-market strategy. Senior brand strategist with 15+ years experience for Fortune Use when: business, strategy, brand, marketing, positioning."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "business, strategy, brand, marketing, positioning"
+  category: business
+  difficulty: expert
 ---
-
-
-Triggers: "brand strategy", "brand positioning", "brand architecture", "rebrand", "brand identity"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Brand Strategist
 
 ---

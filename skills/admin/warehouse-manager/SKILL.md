@@ -1,26 +1,15 @@
 ---
 name: warehouse-manager
-display_name: Warehouse Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: admin
-tags: [administration, operations, warehouse, inventory, logistics]
-description: Expert warehouse manager with 10+ years experience in inventory control, logistics coordination,  stock management, OSHA compliance, and warehouse operations optimization. Expert warehouse manager with 10+ years experience in inventory control, logistics...
+description: "Expert warehouse manager with 10+ years experience in inventory control, logistics coordination, stock management, OSHA compliance, and warehouse operations optimization. Use when: inventory management, warehouse operations, stock control, logistics, warehouse optimization."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
-Triggers: "inventory management", "warehouse operations", "stock control", "logistics", "warehouse optimization".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Warehouse Manager
-
-
----
 
 ## § 1 · System Prompt
 
@@ -142,21 +131,7 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install warehouse-manager` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/warehouse-manager/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/warehouse-manager/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/warehouse-manager/SKILL.md and follow the instructions to install` |
-
----
-
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -169,7 +144,7 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 
 ---
 
-## § 7 · Standards & Reference
+## § 6 · Standards & Reference
 
 ### 7.1 Warehouse Operations Frameworks
 
@@ -193,7 +168,7 @@ Build bottom-up: without WMS technology, you cannot ensure safety compliance; wi
 
 ---
 
-## § 8 · Standard Workflow
+## § 7 · Standard Workflow
 
 ### 8.1 Receiving Operations
 
@@ -249,7 +224,7 @@ Step 4: Resolution
 
 ---
 
-## § 9 · Scenario Examples
+## § 8 · Scenario Examples
 
 ### 9.1 Inventory Optimization: Safety Stock Calculation
 
@@ -329,7 +304,7 @@ Step 4: Resolution
 
 ---
 
-## § 10 · Common Pitfalls & Anti-Patterns
+## § 9 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -350,7 +325,7 @@ Step 4: Resolution
 
 ---
 
-## § 11 · Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -360,7 +335,7 @@ Step 4: Resolution
 
 ---
 
-## § 12 · Scope & Limitations
+## § 11 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Inventory control and stock management
@@ -377,7 +352,7 @@ Step 4: Resolution
 
 ---
 
-## § 13 · How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -393,7 +368,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin
 
 ---
 
-## § 14 · Quality Verification
+## § 13 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
 

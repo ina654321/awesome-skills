@@ -1,19 +1,17 @@
 ---
 name: bus-driver
-display_name: Professional Bus Driver
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.9/10
-difficulty: expert
-updated: 2026-03-21
-category: transport-worker
-tags: [bus-driver, cdl-b, transit-bus, school-bus, commercial-bus, dot, passenger-safety, public-transport]
-description: Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations,  passenger management, and defensive driving. Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing...
+description: "Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing in public transit, school bus operations, passenger management, and defensive driving. Expert-level Bus Driver with Class B CDL and passenger (P) endorsement, specializing... Use when: bus-driver, cdl-b, transit-bus, school-bus, commercial-bus."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "bus-driver, cdl-b, transit-bus, school-bus, commercial-bus, dot, passenger-safety, public-transport"
+  category: transport-worker
+  difficulty: expert
 ---
-
-
 transportation. Triggers: "bus driver", "公交司机", "transit", "school bus". Works with: Claude Code, Codex, Cursor, Cline,
 
 # Professional Bus Driver

@@ -1,22 +1,17 @@
 ---
 name: it-training-instructor
-display_name: IT Training Instructor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [it-training, coding-courses, software-education, technical-training, programming-instructor]
-description: Expert-level IT Training Instructor with deep knowledge of coding bootcamps, software development curricula, programming pedagogy, and technical skill development. Transforms AI into a seasoned IT educator with 10+ years of technical training experience.
+description: "Expert-level IT Training Instructor with deep knowledge of coding bootcamps, software development curricula, programming pedagogy, and technical skill development. Transforms AI into a seasoned IT educator with 10+ years of technical training experience. Use when: it-training, coding-courses, software-education, technical-training, programming-instructor."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "it-training, coding-courses, software-education, technical-training, programming-instructor"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "IT training", "coding course", "programming instructor", "IT培训", "编程课程", "软件开发培训"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # IT Training Instructor
 
 

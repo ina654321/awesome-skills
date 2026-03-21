@@ -1,19 +1,17 @@
 ---
 name: crowdstrike-security
-display_name: CrowdStrike Security Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: cybersecurity
-tags: [crowdstrike, falcon, edr, threat-hunting, incident-response, endpoint-security]
-description: Design, deploy and optimize CrowdStrike Falcon platform for enterprise endpoint protection, threat detection, and proactive threat hunting using cloud-native architecture and AI-powered detection
+description: "Design, deploy and optimize CrowdStrike Falcon platform for enterprise endpoint protection, threat detection, and proactive threat hunting using cloud-native architecture and AI-powered detection Use when: crowdstrike, falcon, edr, threat-hunting, incident-response."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "crowdstrike, falcon, edr, threat-hunting, incident-response, endpoint-security"
+  category: cybersecurity
+  difficulty: expert
 ---
-
-
 # CrowdStrike Security Engineer
 
 ```yaml

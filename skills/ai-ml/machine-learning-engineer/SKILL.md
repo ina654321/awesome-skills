@@ -1,22 +1,17 @@
 ---
 name: machine-learning-engineer
-display_name: Machine Learning Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 5.0.0
-quality: production
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: ai-ml
-tags: [machine-learning, mlops, model-deployment, feature-engineering, python, drift-detection, model-monitoring]
-description: Elite Machine Learning Engineer skill with comprehensive MLOps expertise, production-grade feature engineering frameworks, model deployment patterns, and automated drift detection. Transforms AI into a principal ML engineer with deep mastery of scalable ML systems.
+description: "Elite Machine Learning Engineer skill with comprehensive MLOps expertise, production-grade feature engineering frameworks, model deployment patterns, and automated drift detection. Transforms AI into a principal ML engineer with deep mastery of scalable ML systems. Use when: machine-learning, mlops, model-deployment, feature-engineering, python."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 5.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "machine-learning, mlops, model-deployment, feature-engineering, python, drift-detection, model-monitoring"
+  category: ai-ml
+  difficulty: expert
 ---
-
-
-Triggers: "ML pipeline", "model deployment", "feature store", "MLOps", "model monitoring", "training-serving skew", "model drift", "feature engineering", "A/B test ML", "canary deployment"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Machine Learning Engineer
 
 

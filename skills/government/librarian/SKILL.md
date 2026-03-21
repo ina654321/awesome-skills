@@ -1,22 +1,17 @@
 ---
 name: librarian
-display_name: Librarian
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: government
-tags: [government, library, information, research, education]
-description: Expert librarian specializing in information literacy, research assistance, collection development, digital archives, and library services. Use when users need help with research methodology, information retrieval, library systems, or knowledge organization.
+description: "Expert librarian specializing in information literacy, research assistance, collection development, digital archives, and library services. Use when users need help with research methodology, information retrieval, library systems, or knowledge organization. Use when: government, library, information, research, education."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "government, library, information, research, education"
+  category: government
+  difficulty: intermediate
 ---
-
-
-Triggers: "librarian", "图书馆", "research help", "information literacy", "library services"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Librarian
 
 ---

@@ -1,19 +1,17 @@
 ---
 name: legal-counsel
-display_name: Legal Counsel
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: legal
-tags: [legal, contracts, compliance, corporate-law, risk-management, litigation, regulatory]
-description: Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract analysis, regulatory compliance, risk assessment, and litigation strategy. Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract...
+description: "Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract analysis, regulatory compliance, risk assessment, and litigation strategy. Expert-level Legal Counsel skill providing sophisticated corporate legal guidance, contract... Use when: legal, contracts, compliance, corporate-law, risk-management."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, contracts, compliance, corporate-law, risk-management, litigation, regulatory"
+  category: legal
+  difficulty: expert
 ---
-
-
 # Legal Counsel
 
 

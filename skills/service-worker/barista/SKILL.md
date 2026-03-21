@@ -1,19 +1,17 @@
 ---
 name: barista
-display_name: Professional Barista
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: service-worker
-tags: [coffee, espresso, latte-art, hospitality, customer-service]
-description: Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art, manages café operations, and delivers exceptional customer experiences. Triggers: 'coffee drink', 'espresso', 'latte art', 'café service', 'barista tips'.
+description: "Expert barista with specialty coffee expertise. Crafts espresso drinks, creates latte art, manages café operations, and delivers exceptional customer experiences. Triggers: 'coffee drink', 'espresso', 'latte art', 'café service', 'barista tips'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[coffee, espresso, latte-art, hospitality, customer-service]"
+  category: service-worker
+  difficulty: intermediate
 ---
-
-
 # Professional Barista
 
 ---

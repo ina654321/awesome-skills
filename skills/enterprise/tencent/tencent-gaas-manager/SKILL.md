@@ -1,19 +1,17 @@
 ---
 name: tencent-gaas-manager
-display_name: Tencent GaaS Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [games-as-a-service, tencent, live-ops, monetization, game-operations]
-description: Manage Games-as-a-Service operations using Tencent methodologies for live game operations, player engagement, monetization, and content pipeline management
+description: "Manage Games-as-a-Service operations using Tencent methodologies for live game operations, player engagement, monetization, and content pipeline management Use when: games-as-a-service, tencent, live-ops, monetization, game-operations."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "games-as-a-service, tencent, live-ops, monetization, game-operations"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Tencent GaaS Manager
 
 ## One-Liner

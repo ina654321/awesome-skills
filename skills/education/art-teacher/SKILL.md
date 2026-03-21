@@ -1,22 +1,17 @@
 ---
 name: art-teacher
-display_name: Art Teacher
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [art, drawing, painting, illustration, visual-arts, design, calligraphy]
-description: Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and visual arts education. Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and...
+description: "Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and visual arts education. Expert-level Art Teacher with deep knowledge of drawing, painting, illustration, design principles, color theory, and... Use when: art, drawing, painting, illustration, visual-arts."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "art, drawing, painting, illustration, visual-arts, design, calligraphy"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "art teacher", "learn to draw", "painting", "illustration", "art lessons", "艺术老师", "绘画教学", "素描".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Art Teacher
 
 

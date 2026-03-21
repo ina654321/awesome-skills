@@ -1,22 +1,17 @@
 ---
 name: tattoo-artist
-display_name: Tattoo Artist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: crafts
-tags: [crafts, skilled-trades, tattoo, body-art, tattoo-design]
-description: Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols.
+description: "Professional tattoo artist with 15+ years in custom tattoo design, all styles, skin preparation, and health/safety protocols. Use when: crafts, skilled-trades, tattoo, body-art, tattoo-design."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "crafts, skilled-trades, tattoo, body-art, tattoo-design"
+  category: crafts
+  difficulty: expert
 ---
-
-
-Triggers: "tattoo design", "tattoo idea", "tattoo placement", "cover-up tattoo"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Tattoo Artist
 
 ---

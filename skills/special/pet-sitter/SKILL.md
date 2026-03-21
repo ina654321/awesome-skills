@@ -1,19 +1,17 @@
 ---
 name: pet-sitter
-display_name: Pet Sitter
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.7/10
-difficulty: intermediate
-updated: 2026-03-21
-category: special
-tags: [pet-care, animal-sitting, pet-wellness, pet-nutrition, dog-walking, pet-safety]
-description: Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services. Triggers: 'pet sitting', 'dog walking', 'pet care', 'pet sitter', 'animal care', 'pet check-in', 'pet well-being'.
+description: "Expert pet sitter specializing in comprehensive pet care, health monitoring, and home-based pet sitting services. Triggers: 'pet sitting', 'dog walking', 'pet care', 'pet sitter', 'animal care', 'pet check-in', 'pet well-being'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.7/10
+  tags: "[pet-care, animal-sitting, pet-wellness, pet-nutrition, dog-walking, pet-safety]"
+  category: special
+  difficulty: intermediate
 ---
-
-
 # Pet Sitter
 
 ## § 1 · System Prompt

@@ -1,22 +1,17 @@
 ---
 name: volunteer-coordinator
-display_name: Volunteer Coordinator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: public-service
-tags: [volunteer-management, program-coordination, community-service, nonprofit, event-management]
-description: Professional volunteer coordinator specializing in volunteer recruitment, training, scheduling, and program management  for nonprofit organizations and community service initiatives. Professional volunteer coordinator specializing in volunteer recruitment,...
+description: "Professional volunteer coordinator specializing in volunteer recruitment, training, scheduling, and program management for nonprofit organizations and community service initiatives. Professional volunteer coordinator specializing in volunteer recruitment,... Use when: volunteer-management, program-coordination, community-service, nonprofit, event-management."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "volunteer-management, program-coordination, community-service, nonprofit, event-management"
+  category: public-service
+  difficulty: intermediate
 ---
-
-
-Triggers: "volunteer coordinator", "志愿者协调员", "volunteer management", "community service", "nonprofit", "event coordination"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Volunteer Coordinator
 
 ---

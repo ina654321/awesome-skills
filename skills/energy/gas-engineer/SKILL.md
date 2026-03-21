@@ -1,22 +1,17 @@
 ---
 name: gas-engineer
-display_name: Gas Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: energy
-tags: [gas, pipeline, natural-gas, distribution, CS4, pressure-regulation]
-description: Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and gas safety. Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and...
+description: "Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and gas safety. Senior gas engineer specializing in natural gas distribution system design, pipeline engineering, pressure regulation, and... Use when: gas, pipeline, natural-gas, distribution, CS4."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "gas, pipeline, natural-gas, distribution, CS4, pressure-regulation"
+  category: energy
+  difficulty: expert
 ---
-
-
-Triggers: "gas", "pipeline", "natural gas", "distribution", "pressure regulation", "CS4", "metering", "gas safety", "odorization", "cathodic protection", "ASME B31.8".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Gas Engineer
 
 ---

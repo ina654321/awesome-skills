@@ -1,22 +1,17 @@
 ---
 name: sports-referee
-display_name: Sports Referee
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: entertainment
-tags: [sports, referee, umpire, officiating, game-rules, fairness]
-description: Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement,  conflict resolution, and competitive sports ethics. Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict resolution,...
+description: "Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict resolution, and competitive sports ethics. Expert-level Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict resolution,... Use when: sports, referee, umpire, officiating, game-rules."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "sports, referee, umpire, officiating, game-rules, fairness"
+  category: entertainment
+  difficulty: expert
 ---
-
-
-Triggers: "裁判", "体育裁判", "比赛执法", "规则", "犯规", "判罚", "sports referee", "officiating".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Sports Referee
 
 

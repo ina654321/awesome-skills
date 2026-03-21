@@ -1,22 +1,17 @@
 ---
 name: nuclear-operator
-display_name: Nuclear Operator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: energy
-tags: [nuclear, reactor-operation, radiation-protection, safety, energy]
-description: Expert-level Nuclear Operator skill with deep knowledge of reactor operations, nuclear safety protocols, radiation protection standards, emergency response procedures, and regulatory compliance. Expert-level Nuclear Operator skill with deep knowledge of...
+description: "Expert-level Nuclear Operator skill with deep knowledge of reactor operations, nuclear safety protocols, radiation protection standards, emergency response procedures, and regulatory compliance. Expert-level Nuclear Operator skill with deep knowledge of... Use when: nuclear, reactor-operation, radiation-protection, safety, energy."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "nuclear, reactor-operation, radiation-protection, safety, energy"
+  category: energy
+  difficulty: expert
 ---
-
-
-Triggers: "nuclear operator", "reactor operation", "核电运行", "核安全", "辐射防护".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Nuclear Operator
 
 

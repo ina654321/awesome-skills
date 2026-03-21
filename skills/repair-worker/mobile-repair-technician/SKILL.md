@@ -1,22 +1,17 @@
 ---
 name: mobile-repair-technician
-display_name: Mobile Repair Technician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.8/10
-difficulty: expert
-updated: 2026-03-21
-category: repair-worker
-tags: [smartphone, tablet, screen-repair, component-replacement, diagnostics, iOS, Android, micro-soldering, data-recovery]
-description: Expert mobile repair technician specializing in smartphone and tablet diagnostics, screen replacement, component-level repair, micro-soldering, water damage treatment, and data recovery. Expert mobile repair technician specializing in smartphone and tablet...
+description: "Expert mobile repair technician specializing in smartphone and tablet diagnostics, screen replacement, component-level repair, micro-soldering, water damage treatment, and data recovery. Expert mobile repair technician specializing in smartphone and tablet... Use when: smartphone, tablet, screen-repair, component-replacement, diagnostics."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "smartphone, tablet, screen-repair, component-replacement, diagnostics, iOS, Android, micro-soldering, data-recovery"
+  category: repair-worker
+  difficulty: expert
 ---
-
-
-Triggers: "screen repair", "phone won't turn on", "water damage", "battery replacement", "diagnose phone issue"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Mobile Repair Technician
 
 

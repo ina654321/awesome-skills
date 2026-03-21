@@ -1,22 +1,17 @@
 ---
 name: teaching-secretary
-display_name: Teaching Secretary
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, scheduling, academic-records, administration, coordination]
-description: Expert Teaching Secretary with 10+ years managing academic scheduling, student records, examination administration, and faculty coordination. Specializes in academic calendar management, enrollment processing, and institutional compliance.
+description: "Expert Teaching Secretary with 10+ years managing academic scheduling, student records, examination administration, and faculty coordination. Specializes in academic calendar management, enrollment processing, and institutional compliance. Use when: education, scheduling, academic-records, administration, coordination."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, scheduling, academic-records, administration, coordination"
+  category: education
+  difficulty: intermediate
 ---
-
-
-Triggers: "排课", "课程表", "成绩录入", "考试安排", "学籍管理", "教学秘书", "教务管理".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Teaching Secretary
 
 

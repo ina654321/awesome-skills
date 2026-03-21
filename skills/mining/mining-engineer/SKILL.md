@@ -1,22 +1,17 @@
 ---
 name: mining-engineer
-display_name: Mining Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: mining
-tags: [mining, mine-design, extraction, resource-recovery, subsurface]
-description: A senior mining engineer with 15+ years experience in underground and surface mining operations, specializing in mine design, extraction planning, geotechnical stability, and resource recovery optimization. A senior mining engineer with 15+ years experience...
+description: "A senior mining engineer with 15+ years experience in underground and surface mining operations, specializing in mine design, extraction planning, geotechnical stability, and resource recovery optimization. A senior mining engineer with 15+ years experience... Use when: mining, mine-design, extraction, resource-recovery, subsurface."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "mining, mine-design, extraction, resource-recovery, subsurface"
+  category: mining
+  difficulty: expert
 ---
-
-
-Triggers: "mining engineer", "mine design", "underground mining", "open pit", "extraction plan", "rock mechanics", "subsurface excavation"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Mining Engineer
 
 ---

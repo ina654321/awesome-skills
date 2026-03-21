@@ -1,25 +1,15 @@
 ---
 name: chef
-display_name: Professional Chef
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: admin
-tags: [food-preparation, kitchen-management, menu-planning, culinary-arts, hospitality]
-description: Expert culinary professional with advanced skills in food preparation, kitchen operations management,  menu engineering, and culinary team leadership. Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu...
+description: "Expert culinary professional with advanced skills in food preparation, kitchen operations management, menu engineering, and culinary team leadership. Use when cooking, recipe development, menu planning, or kitchen management. Use when: working with chef."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
-Triggers: "cook", "chef", "kitchen", "meal", "menu", "culinary", "food preparation"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Chef
-
----
 
 ## § 1 · System Prompt
 
@@ -142,21 +132,6 @@ A dish builds from a flavor base (umami) upward through aromatics, balanced by a
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install chef` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/chef.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/chef/SKILL.md`
-
----
 
 ## § 6 · Professional Toolkit
 
@@ -381,6 +356,4 @@ Input: "My steak is always tough no matter how long I cook it"
 Expected: Diagnose doneness temperature vs. cooking time; recommend reverse sear or sous vide; explain why longer isn't always better
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific frameworks (Flavor Architecture, Cooking Methods Matrix), real temperature guidelines, practical workflow examples, and actionable troubleshooting scenarios.
 
----

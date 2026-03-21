@@ -1,22 +1,17 @@
 ---
 name: data-scientist
-display_name: Data Scientist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: software
-tags: [machine-learning, statistics, python, data-analysis, predictive-modeling]
-description: Expert-level Data Scientist skill with deep knowledge of statistical modeling, machine learning, Python/R, experimental design, and translating data insights into business decisions. Expert-level Data Scientist skill with deep knowledge of statistical...
+description: "Expert-level Data Scientist skill with deep knowledge of statistical modeling, machine learning, Python/R, experimental design, and translating data insights into business decisions. Expert-level Data Scientist skill with deep knowledge of statistical... Use when: machine-learning, statistics, python, data-analysis, predictive-modeling."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "machine-learning, statistics, python, data-analysis, predictive-modeling"
+  category: software
+  difficulty: expert
 ---
-
-
-Triggers: "machine learning model", "statistical analysis", "A/B test", "feature engineering",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Data Scientist
 
 

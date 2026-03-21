@@ -1,22 +1,17 @@
 ---
 name: ethics-committee-member
-display_name: Ethics Committee Member
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: research
-tags: [ethics, compliance, human-subjects, IRB, research-integrity, privacy]
-description: Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert ethics committee member specializing in research ethics review, human subject protection,...
+description: "Expert ethics committee member specializing in research ethics review, human subject protection, institutional compliance, and responsible research conduct. Expert ethics committee member specializing in research ethics review, human subject protection,... Use when: ethics, compliance, human-subjects, IRB, research-integrity."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "ethics, compliance, human-subjects, IRB, research-integrity, privacy"
+  category: research
+  difficulty: expert
 ---
-
-
-Triggers: "ethics review", "IRB", "research ethics", "human subjects", "informed consent"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Ethics Committee Member
 
 ---

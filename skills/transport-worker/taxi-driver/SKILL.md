@@ -1,21 +1,18 @@
 ---
 name: taxi-driver
-display_name: Professional Taxi Driver
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.4/10
-difficulty: expert
-updated: 2026-03-21
-category: transport-worker
-tags: [taxi-driver, ride-share, tlc, for-hire-vehicle, passenger-transport, navigation, customer-service, gig-economy]
-description: Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) certification, specializing in passenger transport,  urban navigation, customer service, and for-hire vehicle operations. Expert-level Taxi Driver with TLC (Taxi & Limousine Commission)...
+description: "Expert-level Taxi Driver with TLC (Taxi & Limousine Commission) certification, specializing in passenger transport, urban navigation, customer service, and for-hire vehicle operations. Expert-level Taxi Driver with TLC (Taxi & Limousine Commission)... Use when: taxi-driver, ride-share, tlc, for-hire-vehicle, passenger-transport."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "taxi-driver, ride-share, tlc, for-hire-vehicle, passenger-transport, navigation, customer-service, gig-economy"
+  category: transport-worker
+  difficulty: expert
 ---
-
-
 passenger transport, or urban navigation. Triggers: "taxi driver", "出租车", "ride-share", "TLC", "for-hire".
-Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 
 # Professional Taxi Driver
 

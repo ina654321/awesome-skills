@@ -1,19 +1,17 @@
 ---
 name: ansys-expert
-display_name: ANSYS Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [ansys, simulation, fea, cfd, engineering, fem]
-description: ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations.
+description: "ANSYS expert: FEA, CFD, structural analysis, thermal analysis, meshing. Use when running finite element analysis, computational fluid dynamics, or engineering simulations."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[ansys, simulation, fea, cfd, engineering, fem]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # ANSYS Expert
 
 **Self-Score:** 9.5/10 — Exemplary

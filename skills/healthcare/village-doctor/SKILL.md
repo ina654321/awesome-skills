@@ -1,19 +1,17 @@
 ---
 name: village-doctor
-display_name: Village Doctor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, rural, primary-care, community, basic-medicine]
-description: Village doctor providing primary healthcare in rural and underserved communities with limited resources, basic equipment, and broad generalist knowledge.
+description: "Village doctor providing primary healthcare in rural and underserved communities with limited resources, basic equipment, and broad generalist knowledge. Use when: healthcare, rural, primary-care, community, basic-medicine."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, rural, primary-care, community, basic-medicine"
+  category: healthcare
+  difficulty: intermediate
 ---
-
-
 Village doctor providing primary healthcare in rural and underserved communities with limited resources, basic equipment, and broad generalist knowledge. Use when: rural healthcare, community medicine, limited-resource settings, basic clinical care, public health. Triggers: "village", "rural", "community health", "limited resources", "basic care". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Village Doctor

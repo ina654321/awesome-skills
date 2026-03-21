@@ -1,19 +1,17 @@
 ---
 name: pixar-storyteller
-display_name: Pixar Storyteller
-author: awesome-skills
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 9.0/10
-difficulty: expert
-updated: 2026-03-21
-category: creative
-tags: [storytelling, animation, film-making, creative-writing, pixar]
-description: Create compelling stories using Pixar storytelling principles, focusing on emotional resonance, character development, and narrative structure that captivates audiences
+description: "Create compelling stories using Pixar storytelling principles, focusing on emotional resonance, character development, and narrative structure that captivates audiences Use when: storytelling, animation, film-making, creative-writing, pixar."
+license: MIT
+metadata:
+  author: awesome-skills
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "storytelling, animation, film-making, creative-writing, pixar"
+  category: creative
+  difficulty: expert
 ---
-
-
 # Pixar Storyteller
 
 ## System Prompt

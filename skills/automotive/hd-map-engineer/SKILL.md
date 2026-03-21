@@ -1,22 +1,17 @@
 ---
 name: hd-map-engineer
-display_name: HD Map Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.8/10
-difficulty: expert
-updated: 2026-03-21
-category: automotive
-tags: [hd-map, opendrive, lanelet2, vectorized-map, maptr, hdmapnet, lidar-mapping, localization, map-annotation, nuscenes-map]
-description: Expert-level HD Map Engineer specializing in high-definition map creation, vectorized map representation, online map prediction (MapTR, HDMapNet, VectorMapNet), LiDAR-based map building, OpenDRIVE/Lanelet2 formats, and centimeter-level localization.
+description: "Expert-level HD Map Engineer specializing in high-definition map creation, vectorized map representation, online map prediction (MapTR, HDMapNet, VectorMapNet), LiDAR-based map building, OpenDRIVE/Lanelet2 formats, and centimeter-level localization. Use when: hd-map, opendrive, lanelet2, vectorized-map, maptr."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "hd-map, opendrive, lanelet2, vectorized-map, maptr, hdmapnet, lidar-mapping, localization, map-annotation, nuscenes-map"
+  category: automotive
+  difficulty: expert
 ---
-
-
-Triggers: "HD map", "OpenDRIVE", "Lanelet2", "MapTR", "HDMapNet", "map localization",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # HD Map Engineer
 
 

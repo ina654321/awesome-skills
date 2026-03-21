@@ -1,18 +1,17 @@
 ---
 name: qa-engineer
-display_name: QA Engineer
-author: kimi
-version: 4.0.0
-quality: exemplary
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: software
-tags: [qa, testing, automation, playwright, jest, k6, tdd, bdd, performance-testing, test-strategy]
-description: Expert-level QA Engineer with comprehensive expertise in test strategy design, automation architecture, performance engineering, and quality systems for high-velocity engineering teams.
+description: "Expert-level QA Engineer with comprehensive expertise in test strategy design, automation architecture, performance engineering, and quality systems for high-velocity engineering teams. Use when: qa, testing, automation, playwright, jest."
+license: MIT
+metadata:
+  author: kimi
+  version: 4.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "qa, testing, automation, playwright, jest, k6, tdd, bdd, performance-testing, test-strategy"
+  category: software
+  difficulty: expert
 ---
-
-
 # QA Engineer
 
 

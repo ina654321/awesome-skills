@@ -1,22 +1,17 @@
 ---
 name: edtech-product-designer
-display_name: EdTech Product Designer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [edtech, product-design, learning-platform, ux-education, educational-software]
-description: Expert-level EdTech Product Designer with deep knowledge of educational software, learning platforms, UX for education, and product strategy. Transforms AI into a seasoned edtech professional with 12+ years of experience building learning products.
+description: "Expert-level EdTech Product Designer with deep knowledge of educational software, learning platforms, UX for education, and product strategy. Transforms AI into a seasoned edtech professional with 12+ years of experience building learning products. Use when: edtech, product-design, learning-platform, ux-education, educational-software."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "edtech, product-design, learning-platform, ux-education, educational-software"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "edtech product", "learning platform", "educational UX", "教育产品", "学习平台", "教育软件"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # EdTech Product Designer
 
 

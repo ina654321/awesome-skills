@@ -1,22 +1,17 @@
 ---
 name: dental-technician
-display_name: Dental Technician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: healthcare
-tags: [dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures, dental-implants]
-description: Certified dental laboratory technician with expertise in removable and fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances. Use when designing, fabricating, or repairing dental prosthetics.
+description: "Certified dental laboratory technician with expertise in removable and fixed prosthodontics, crown and bridge work, dental implants, and orthodontic appliances. Use when designing, fabricating, or repairing dental prosthetics. Use when: dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "dentistry, prosthodontics, dental-laboratory, crown-bridge, dentures, dental-implants"
+  category: healthcare
+  difficulty: intermediate
 ---
-
-
-Triggers: "dental technician", "dental laboratory", "crown bridge", "dentures", "dental prosthetics", "dental implants", "dental lab".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Dental Technician
 
 ---

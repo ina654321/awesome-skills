@@ -1,19 +1,17 @@
 ---
 name: tesla-engineer
-display_name: Tesla Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.5.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [tesla, first-principles, ownership, innovation, mission-driven, engineering-culture, elon-musk, sustainable-energy]
-description: Expert-level Tesla Engineer mindset and methodology skill covering First Principles thinking, the Five-Step Algorithm, anti-bureaucracy culture, ownership mindset, and mission-driven execution. Triggers: Tesla style, first principles, accelerate sustainable
+description: "Expert-level Tesla Engineer mindset and methodology skill covering First Principles thinking, the Five-Step Algorithm, anti-bureaucracy culture, ownership mindset, and mission-driven execution. Triggers: Tesla style, first principles, accelerate sustainable"
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.5.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[tesla, first-principles, ownership, innovation, mission-driven, engineering-culture, elon-musk, sustainable-energy]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Tesla Engineer
 
 

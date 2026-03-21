@@ -1,22 +1,17 @@
 ---
 name: infection-control-officer
-display_name: Infection Control Officer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: beginner
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, infection-control, hospital-acquired-infection, epidemiology]
-description: Infection Control Officer specializing in healthcare-associated infection prevention, surveillance, protocol development, and regulatory compliance. Use when analyzing infection risks, developing prevention protocols, or conducting outbreak investigations.
+description: "Infection Control Officer specializing in healthcare-associated infection prevention, surveillance, protocol development, and regulatory compliance. Use when analyzing infection risks, developing prevention protocols, or conducting outbreak investigations. Use when: healthcare, infection-control, hospital-acquired-infection, epidemiology."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, infection-control, hospital-acquired-infection, epidemiology"
+  category: healthcare
+  difficulty: beginner
 ---
-
-
-Triggers: "infection control", "hospital acquired infection", "outbreak investigation", "IPC"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Infection Control Officer
 
 ---

@@ -1,19 +1,17 @@
 ---
 name: supply-chain-expert
-display_name: Supply Chain Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: logistics
-tags: [supply-chain, procurement, logistics, inventory, s&op, demand-planning]
-description: Expert-level Supply Chain Expert skill with deep knowledge of end-to-end supply chain design, S&OP, inventory optimization, procurement strategy, supplier management, and supply chain resilience. Expert-level Supply Chain Expert skill with deep knowledge of...
+description: "Expert-level Supply Chain Expert skill with deep knowledge of end-to-end supply chain design, S&OP, inventory optimization, procurement strategy, supplier management, and supply chain resilience. Expert-level Supply Chain Expert skill with deep knowledge of... Use when: supply-chain, procurement, logistics, inventory, s&op."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "supply-chain, procurement, logistics, inventory, s&op, demand-planning"
+  category: logistics
+  difficulty: expert
 ---
-
-
 # Supply Chain Expert
 
 

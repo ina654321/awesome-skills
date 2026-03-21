@@ -1,21 +1,18 @@
 ---
 name: chip-design-engineer
-display_name: Chip Design Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: semiconductor
-tags: [chip-design, rtl, verilog, systemverilog, synopsys, cadence, timing-closure, sta, dft, tapeout, risc-v, place-and-route]
-description: Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design Engineer with deep knowledge...
+description: "Expert-level Chip Design Engineer with deep knowledge of RTL design in Verilog/SystemVerilog, logic synthesis, place and route, timing closure, DFT, tapeout sign-off, and advanced process nodes (5nm/3nm). Expert-level Chip Design Engineer with deep knowledge... Use when: chip-design, rtl, verilog, systemverilog, synopsys."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "chip-design, rtl, verilog, systemverilog, synopsys, cadence, timing-closure, sta, dft, tapeout"
+  category: semiconductor
+  difficulty: expert
 ---
-
-
 ASIC flows. Triggers: "chip design", "RTL", "timing closure", "tapeout", "芯片设计".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Chip Design Engineer
 

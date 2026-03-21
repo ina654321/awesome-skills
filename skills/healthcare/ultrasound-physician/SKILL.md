@@ -1,22 +1,17 @@
 ---
 name: ultrasound-physician
-display_name: Ultrasound Physician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, ultrasound, diagnostic-imaging, radiology, sonography]
-description: Expert ultrasound physician specializing in diagnostic ultrasonography, image interpretation, and procedural guidance. Use when users need ultrasound examination interpretation, scanning technique guidance, or diagnostic imaging recommendations.
+description: "Expert ultrasound physician specializing in diagnostic ultrasonography, image interpretation, and procedural guidance. Use when users need ultrasound examination interpretation, scanning technique guidance, or diagnostic imaging recommendations. Use when: healthcare, ultrasound, diagnostic-imaging, radiology, sonography."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, ultrasound, diagnostic-imaging, radiology, sonography"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "ultrasound", "sonogram", "diagnostic imaging", "Doppler", "vascular", "OB/GYN ultrasound"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Ultrasound Physician
 
 ---

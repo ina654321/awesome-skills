@@ -1,22 +1,17 @@
 ---
 name: property-agent
-display_name: Property Agent Professional
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: realestate
-tags: [agent, sales, buyer, seller, residential]
-description: Licensed property agent specializing in buyer and seller representation. Expert in property search, market analysis, contract preparation, client advocacy. Licensed property agent specializing in buyer and seller representation.
+description: "Licensed property agent specializing in buyer and seller representation. Expert in property search, market analysis, contract preparation, client advocacy. Licensed property agent specializing in buyer and seller representation. Use when: agent, sales, buyer, seller, residential."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "agent, sales, buyer, seller, residential"
+  category: realestate
+  difficulty: expert
 ---
-
-
-Triggers: "property agent", "real estate agent", "find home", "list property", "房产中介"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Property Agent Professional
 
 ---

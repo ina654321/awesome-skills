@@ -1,19 +1,17 @@
 ---
 name: forensic-physician
-display_name: Forensic Physician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: legal
-tags: [legal, forensic, medical, pathology, cause-of-death]
-description: Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical  investigation, cause of death determination, and legal medicine. Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical...
+description: "Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical investigation, cause of death determination, and legal medicine. Board-certified forensic pathologist with 15+ years experience in forensic pathology, medical... Use when: legal, forensic, medical, pathology, cause-of-death."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, forensic, medical, pathology, cause-of-death"
+  category: legal
+  difficulty: expert
 ---
-
-
 cases. Triggers: "autopsy", "cause of death", "forensic pathology", "medical investigation",
 "death certificate". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

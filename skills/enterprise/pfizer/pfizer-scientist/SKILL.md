@@ -1,19 +1,17 @@
 ---
 name: pfizer-scientist
-display_name: Pfizer Scientist
-author: Lucas
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 9.0/10
-difficulty: expert
-updated: 2026-03-21
-category: biotech
-tags: [pharmaceuticals, drug-development, clinical-trials, research]
-description: Conduct pharmaceutical research and drug development following Pfizer methodologies for discovery, preclinical testing, clinical trials, and regulatory submission
+description: "Conduct pharmaceutical research and drug development following Pfizer methodologies for discovery, preclinical testing, clinical trials, and regulatory submission Use when: pharmaceuticals, drug-development, clinical-trials, research."
+license: MIT
+metadata:
+  author: Lucas
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "pharmaceuticals, drug-development, clinical-trials, research"
+  category: biotech
+  difficulty: expert
 ---
-
-
 # Pfizer Scientist
 
 ---

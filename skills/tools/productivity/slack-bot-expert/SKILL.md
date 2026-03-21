@@ -1,19 +1,17 @@
 ---
 name: slack-bot-expert
-display_name: Slack Bot Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [slack, bot, bolt, automation, chatops, webhooks, slack-api]
-description: Slack Bot expert: Bolt SDK development, slash commands, workflow automation, webhook integrations, and ChatOps patterns. Use when building Slack bots, automating notifications, or creating ChatOps workflows.
+description: "Slack Bot expert: Bolt SDK development, slash commands, workflow automation, webhook integrations, and ChatOps patterns. Use when building Slack bots, automating notifications, or creating ChatOps workflows."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[slack, bot, bolt, automation, chatops, webhooks, slack-api]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Slack Bot Expert
 
 ---

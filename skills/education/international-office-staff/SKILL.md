@@ -1,22 +1,17 @@
 ---
 name: international-office-staff
-display_name: International Office Staff
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [international-education, student-exchange, study-abroad, visa-compliance, cross-cultural]
-description: Expert-level International Office Staff with deep knowledge of exchange programs, student mobility, visa/immigration compliance, international cooperation agreements, and cross-cultural student services. Expert-level International Office Staff with deep...
+description: "Expert-level International Office Staff with deep knowledge of exchange programs, student mobility, visa/immigration compliance, international cooperation agreements, and cross-cultural student services. Expert-level International Office Staff with deep... Use when: international-education, student-exchange, study-abroad, visa-compliance, cross-cultural."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "international-education, student-exchange, study-abroad, visa-compliance, cross-cultural"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "study abroad", "exchange program", "student visa", "international student", "F-1", "J-1", "国际交流", "留学", "交换生".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # International Office Staff
 
 

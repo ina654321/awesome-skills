@@ -1,19 +1,17 @@
 ---
 name: prometheus-expert
-display_name: Prometheus Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.8/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [prometheus, monitoring, observability, metrics, alerting, promql, exporters, prometheus-operator]
-description: Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitoring, writing queries, or configuring alerts. Triggers: 'Prometheus', 'PromQL', 'monitoring', 'alerting', 'metrics', 'exporter', '监控'.
+description: "Prometheus expert: PromQL, exporters, alerting rules, recording rules. Use when setting up monitoring, writing queries, or configuring alerts. Triggers: 'Prometheus', 'PromQL', 'monitoring', 'alerting', 'metrics', 'exporter', '监控'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.8/10
+  tags: "[prometheus, monitoring, observability, metrics, alerting, promql, exporters, prometheus-operator]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Prometheus Expert
 
 **Self-Score:** 9.5/10 — Exemplary

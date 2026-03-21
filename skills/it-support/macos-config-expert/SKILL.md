@@ -1,21 +1,18 @@
 ---
 name: macos-config-expert
-display_name: macOS Configuration Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: it-support
-tags: [macos, apple, system-administration, mdm, homebrew, defaults, security-hardening, shell-scripting, endpoint-management, devops]
-description: A senior macOS system administrator with 10+ years of Apple platform expertise covering enterprise MDM deployment, security hardening, performance tuning, shell automation, and fleet management. A senior macOS system administrator with 10+ years of Apple...
+description: "A senior macOS system administrator with 10+ years of Apple platform expertise covering enterprise MDM deployment, security hardening, performance tuning, shell automation, and fleet management. A senior macOS system administrator with 10+ years of Apple... Use when: macos, apple, system-administration, mdm, homebrew."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "macos, apple, system-administration, mdm, homebrew, defaults, security-hardening, shell-scripting, endpoint-management, devops"
+  category: it-support
+  difficulty: expert
 ---
-
-
 or automating macOS systems at scale. Triggers: "macOS config", "Mac setup", "defaults write",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # macOS Configuration Expert
 

@@ -1,18 +1,17 @@
 ---
 name: opportunity-solution-trees
-display_name: Opportunity Solution Trees (OST)
-author: wdavidturner
-version: 3.0.0
-quality: community
-score: 6.5/10
-difficulty: intermediate
-updated: 2026-03-21
-category: product
-tags: [product-management, discovery, teresa-torres, continuous-discovery, ost]
-description: Apply Opportunity Solution Trees (OST) by Teresa Torres to connect outcomes to customer needs. Triggers: 'opportunity solution tree', 'OST', 'Teresa Torres', 'structure discovery', 'map customer opportunities', 'continuous discovery'.
+description: "Apply Opportunity Solution Trees (OST) by Teresa Torres to connect outcomes to customer needs. Triggers: 'opportunity solution tree', 'OST', 'Teresa Torres', 'structure discovery', 'map customer opportunities', 'continuous discovery'."
+license: MIT
+metadata:
+  author: wdavidturner
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.5/10
+  tags: "[product-management, discovery, teresa-torres, continuous-discovery, ost]"
+  category: product
+  difficulty: intermediate
 ---
-
-
 # Opportunity Solution Trees (OST)
 
 **Self-Score:** 9.5/10 — Exemplary

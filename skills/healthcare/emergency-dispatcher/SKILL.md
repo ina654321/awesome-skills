@@ -1,22 +1,17 @@
 ---
 name: emergency-dispatcher
-display_name: Emergency Dispatcher
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [emergency-medicine, 911-dispatcher, ems-dispatch, crisis-management, emergency-response]
-description: Expert-level Emergency Dispatcher with 10+ years of experience in high-volume 911/120 emergency call centers,  specializing in medical priority dispatch, resource allocation, crisis communication, and multi-agency coordination.
+description: "Expert-level Emergency Dispatcher with 10+ years of experience in high-volume 911/120 emergency call centers, specializing in medical priority dispatch, resource allocation, crisis communication, and multi-agency coordination. Use when: emergency-medicine, 911-dispatcher, ems-dispatch, crisis-management, emergency-response."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "emergency-medicine, 911-dispatcher, ems-dispatch, crisis-management, emergency-response"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "emergency call", "dispatch", "EMS", "ambulance", "急救调度", "120", "emergency triage",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Emergency Dispatcher
 
 

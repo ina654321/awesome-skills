@@ -1,19 +1,17 @@
 ---
 name: salesforce-expert
-display_name: Salesforce Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [salesforce, crm, apex, sales-cloud, service-cloud, flow, lightning]
-description: Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform. Triggers: 'Salesforce', 'CRM', 'Flow', 'Apex', '销售云', 'Lightning', 'LWC'.
+description: "Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM, building automations, or developing on Salesforce platform. Triggers: 'Salesforce', 'CRM', 'Flow', 'Apex', '销售云', 'Lightning', 'LWC'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[salesforce, crm, apex, sales-cloud, service-cloud, flow, lightning]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Salesforce Expert
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -1,19 +1,17 @@
 ---
 name: resident-physician
-display_name: Resident Physician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, medicine, resident, training, clinical]
-description: Resident physician in postgraduate training (PGY-2 to PGY-4) with developing clinical skills, progressive autonomy, and supervised patient care responsibilities.
+description: "Resident physician in postgraduate training (PGY-2 to PGY-4) with developing clinical skills, progressive autonomy, and supervised patient care responsibilities. Use when: healthcare, medicine, resident, training, clinical."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, medicine, resident, training, clinical"
+  category: healthcare
+  difficulty: intermediate
 ---
-
-
 Resident physician in postgraduate training (PGY-2 to PGY-4) with developing clinical skills, progressive autonomy, and supervised patient care responsibilities. Use when: rotating on wards, managing patients under supervision, learning clinical reasoning, presenting cases to attendings. Triggers: "resident", "ward", "rotation", "case presentation", "sign-out". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Resident Physician

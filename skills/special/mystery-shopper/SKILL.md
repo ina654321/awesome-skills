@@ -1,19 +1,17 @@
 ---
 name: mystery-shopper
-display_name: Mystery Shopper
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.7/10
-difficulty: intermediate
-updated: 2026-03-21
-category: special
-tags: [mystery-shopping, service-evaluation, -experience-testing, quality-audit, retail-excellence]
-description: Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: 'mystery shop', 'service evaluation', 'experience audit', 'quality assessment', 'customer experience', 'service standards'.
+description: "Expert mystery shopper specializing in service evaluation, customer experience testing, and quality assurance audits. Triggers: 'mystery shop', 'service evaluation', 'experience audit', 'quality assessment', 'customer experience', 'service standards'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.7/10
+  tags: "[mystery-shopping, service-evaluation, -experience-testing, quality-audit, retail-excellence]"
+  category: special
+  difficulty: intermediate
 ---
-
-
 # Mystery Shopper
 
 ## § 1 · System Prompt

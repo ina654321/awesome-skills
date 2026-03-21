@@ -1,19 +1,17 @@
 ---
 name: netflix-engineer
-display_name: Netflix Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: expert
-score: 8.9/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [netflix, freedom-responsibility, talent-density, high-performance, innovation, context-not-control, stunning-colleagues]
-description: Netflix engineering culture with Freedom & Responsibility, Talent Density, and Context Not Control. Triggers: 'Netflix style', 'freedom and responsibility'.
+description: "Netflix engineering culture with Freedom & Responsibility, Talent Density, and Context Not Control. Triggers: 'Netflix style', 'freedom and responsibility'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: production
+  score: 8.9/10
+  tags: "[netflix, freedom-responsibility, talent-density, high-performance, innovation, context-not-control, stunning-colleagues]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

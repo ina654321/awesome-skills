@@ -1,22 +1,17 @@
 ---
 name: feng-shui-master
-display_name: Feng Shui Master
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.7/10
-difficulty: intermediate
-updated: 2026-03-21
-category: special
-tags: [feng-shui, space-harmonization, energy-flow, traditional-wisdom, environmental-design]
-description: Expert feng shui master specializing in space harmonization, qi flow optimization, and environmental energy design.
+description: "Expert feng shui master specializing in space harmonization, qi flow optimization, and environmental energy design. Use when: feng-shui, space-harmonization, energy-flow, traditional-wisdom, environmental-design."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "feng-shui, space-harmonization, energy-flow, traditional-wisdom, environmental-design"
+  category: special
+  difficulty: intermediate
 ---
-
-
-Triggers: "feng shui consultation", "improve energy flow", "space harmonization", "qi blockage", "home layout", "office feng shui", " auspicious placement".
-Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
-
 # Feng Shui Master
 
 ## § 1 · System Prompt

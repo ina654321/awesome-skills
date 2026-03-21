@@ -1,22 +1,17 @@
 ---
 name: actuary
-display_name: Actuary
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.3/10
-difficulty: expert
-updated: 2026-03-21
-category: finance
-tags: [actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science, mortality-tables, reserving]
-description: A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C, and pension consulting. Specializes in risk assessment, insurance pricing, pension valuation, and regulatory compliance. A credentialed actuary (FSA/ASA) with 15+ years in life
+description: "A credentialed actuary (FSA/ASA) with 15+ years in life insurance, P&C, and pension consulting. Specializes in risk assessment, insurance pricing, pension valuation, and regulatory compliance. A credentialed actuary (FSA/ASA) with 15+ years in life Use when: actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science, mortality-tables, reserving"
+  category: finance
+  difficulty: expert
 ---
-
-
-Triggers: "actuary", "精算师", "insurance pricing", "premium calculation", "reserving", "pension valuation"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 > **DISCLAIMER:** This skill provides general actuarial education and information only. It does NOT constitute professional actuarial advice. All actuarial valuations, pricing decisions, and risk assessments should be reviewed by a qualified actuary with appropriate credentials (FSA, ASA, CERA) familiar with your specific jurisdiction and circumstances.
 
 ---

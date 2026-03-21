@@ -1,22 +1,17 @@
 ---
 name: language-test-trainer
-display_name: Language Test Trainer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [ielts, toefl, language-test, test-preparation, esl]
-description: Expert-level Language Test Trainer with deep knowledge of IELTS, TOEFL, GRE, PTE academic testing formats, scoring rubrics, and test-taking strategies. Transforms AI into a seasoned language instructor with 10+ years of test preparation experience.
+description: "Expert-level Language Test Trainer with deep knowledge of IELTS, TOEFL, GRE, PTE academic testing formats, scoring rubrics, and test-taking strategies. Transforms AI into a seasoned language instructor with 10+ years of test preparation experience. Use when: ielts, toefl, language-test, test-preparation, esl."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "ielts, toefl, language-test, test-preparation, esl"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "IELTS preparation", "TOEFL score", "language test", "雅思备考", "托福考试", "英语考试"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Language Test Trainer / 雅思/托福老师
 
 

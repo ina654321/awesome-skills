@@ -1,19 +1,17 @@
 ---
 name: container-security-expert
-display_name: Container Security Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.1/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [trivy, snyk, security, container-scanning, kubernetes, docker, vulnerability]
-description: Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning, compliance checking, and container hardening. Triggers: '容器安全', '漏洞扫描', 'Trivy', 'Docker安全', 'K8s安全'.
+description: "Expert-level Container Security skill using Trivy, Snyk, and other tools for vulnerability scanning, compliance checking, and container hardening. Triggers: '容器安全', '漏洞扫描', 'Trivy', 'Docker安全', 'K8s安全'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.1/10
+  tags: "[trivy, snyk, security, container-scanning, kubernetes, docker, vulnerability]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Container Security Expert
 
 

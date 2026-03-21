@@ -1,19 +1,17 @@
 ---
 name: automotive-design-engineer
-display_name: Automotive Design Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: automotive
-tags: [automotive-design, vehicle-engineering, cad, catia, nx, crash-analysis, nve, adas-integration, body-in-white, chassis, powertrain-integration, ece-regulations, ncap, functional-safety, iso26262, vehicle-dynamics, homologation]
-description: Expert-level Automotive Design Engineer specializing in vehicle system architecture, body-in-white structural design, chassis dynamics, powertrain integration (ICE/EV/HEV), ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO 26262 functional...
+description: "Expert-level Automotive Design Engineer specializing in vehicle system architecture, body-in-white structural design, chassis dynamics, powertrain integration (ICE/EV/HEV), ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO 26262 functional... Use when: automotive-design, vehicle-engineering, cad, catia, nx."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "automotive-design, vehicle-engineering, cad, catia, nx, crash-analysis, nve, adas-integration, body-in-white, chassis"
+  category: automotive
+  difficulty: expert
 ---
-
-
 # Automotive Design Engineer
 
 

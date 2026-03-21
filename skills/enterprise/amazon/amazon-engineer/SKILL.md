@@ -1,19 +1,17 @@
 ---
 name: amazon-engineer
-display_name: Amazon Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: expert
-score: 9.0/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [amazon, leadership-principles, customer-obsession, working-backwards, ownership, frugality, innovation]
-description: Amazon engineering culture with 14 Leadership Principles, Working Backwards methodology, 6-page memos, and Bar Raiser hiring. Triggers: 'Amazon style', 'customer obsession'.
+description: "Amazon engineering culture with 14 Leadership Principles, Working Backwards methodology, 6-page memos, and Bar Raiser hiring. Triggers: 'Amazon style', 'customer obsession'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.0/10
+  tags: "[amazon, leadership-principles, customer-obsession, working-backwards, ownership, frugality, innovation]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

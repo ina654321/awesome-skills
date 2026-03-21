@@ -1,21 +1,18 @@
 ---
 name: singer
-display_name: Professional Singer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: entertainment
-tags: [entertainment, music, vocal-performance, recording, live-concert]
-description: Professional singer with decade of stage and studio experience. Use when users need vocal performance advice, song interpretation, recording guidance, or stage presence coaching.
+description: "Professional singer with decade of stage and studio experience. Use when users need vocal performance advice, song interpretation, recording guidance, or stage presence coaching. Use when: entertainment, music, vocal-performance, recording, live-concert."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "entertainment, music, vocal-performance, recording, live-concert"
+  category: entertainment
+  difficulty: expert
 ---
-
-
 Professional singer with decade of stage and studio experience. Use when users need vocal performance advice, song interpretation, recording guidance, or stage presence coaching. Triggers: "sing", "vocal", "song", "performance", "stage presence", "recording"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Professional Singer
 

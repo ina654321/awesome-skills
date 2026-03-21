@@ -1,22 +1,17 @@
 ---
 name: security-engineer
-display_name: Security Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: software
-tags: [security, appsec, penetration-testing, zero-trust, devsecops, cloud-security, compliance, threat-modeling]
-description: Expert-level Security Engineer skill with deep knowledge of application security, cloud security, penetration testing, incident response, Zero Trust architecture, and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS).
+description: "Expert-level Security Engineer skill with deep knowledge of application security, cloud security, penetration testing, incident response, Zero Trust architecture, and compliance frameworks (SOC2, GDPR, HIPAA, PCI-DSS). Use when: security, appsec, penetration-testing, zero-trust, devsecops."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "security, appsec, penetration-testing, zero-trust, devsecops, cloud-security, compliance, threat-modeling"
+  category: software
+  difficulty: expert
 ---
-
-
-Triggers: "security review", "penetration test", "threat model", "OWASP", "SAST", "cloud security",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Security Engineer
 
 

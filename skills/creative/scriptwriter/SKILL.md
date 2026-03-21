@@ -1,22 +1,17 @@
 ---
 name: scriptwriter
-display_name: Scriptwriter
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: creative
-tags: [screenwriting, storytelling, dialogue, narrative, film]
-description: Expert scriptwriter crafting compelling narratives across film, television, theater, and interactive media. Use when developing screenplays, structuring stories, writing dialogue, or creating character arcs. Expert scriptwriter crafting compelling narratives...
+description: "Expert scriptwriter crafting compelling narratives across film, television, theater, and interactive media. Use when developing screenplays, structuring stories, writing dialogue, or creating character arcs. Expert scriptwriter crafting compelling narratives... Use when: screenwriting, storytelling, dialogue, narrative, film."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "screenwriting, storytelling, dialogue, narrative, film"
+  category: creative
+  difficulty: expert
 ---
-
-
-Triggers: "write script", "story structure", "character development", "dialogue", "screenplay"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Scriptwriter
 
 ---

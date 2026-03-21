@@ -1,19 +1,14 @@
 ---
 name: elasticsearch-expert
-display_name: Elasticsearch Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.1/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [elasticsearch, search, elk, lucene, fulltext-search]
-description: Elasticsearch专家：映射设计、查询DSL、聚合分析、集群管理。Use when building search systems, log analysis, or full-text search. Triggers: 'Elasticsearch', 'ES', '全文搜索', 'ELK', '聚合查询'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Elasticsearch expert specializing in mapping design, query DSL, aggregation analysis, and cluster management. Use when: building search systems, log analysis, or full-text search."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
 # Elasticsearch Expert
 
 ---

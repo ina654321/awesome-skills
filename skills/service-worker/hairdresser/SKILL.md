@@ -1,19 +1,17 @@
 ---
 name: hairdresser
-display_name: Professional Hairdresser
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: service-worker
-tags: [haircut, hairstyling, coloring, hair-care, salon, beauty]
-description: Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: 'haircut', 'hairstyle', 'hair color', 'balayage', 'hair consultation'.
+description: "Expert hairdresser specializing in haircuts, styling, coloring, and hair care consultations. Creates personalized looks based on face shape, hair type, lifestyle. Triggers: 'haircut', 'hairstyle', 'hair color', 'balayage', 'hair consultation'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[haircut, hairstyling, coloring, hair-care, salon, beauty]"
+  category: service-worker
+  difficulty: intermediate
 ---
-
-
 # Professional Hairdresser
 
 ---

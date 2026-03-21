@@ -1,19 +1,17 @@
 ---
 name: latex-expert
-display_name: LaTeX Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [latex, typesetting, academic, documents, writing, bibtex, beamer]
-description: LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations, TikZ figures, custom macros, IEEE/ACM/Elsevier templates. Use when writing academic papers or technical documents.
+description: "LaTeX expert: document typesetting, mathematical typesetting, BibTeX/Biber, Beamer presentations, TikZ figures, custom macros, IEEE/ACM/Elsevier templates. Use when writing academic papers or technical documents."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[latex, typesetting, academic, documents, writing, bibtex, beamer]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # LaTeX Expert
 
 ---

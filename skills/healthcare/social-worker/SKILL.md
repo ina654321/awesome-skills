@@ -1,22 +1,17 @@
 ---
 name: social-worker
-display_name: Social Worker
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [social-services, case-management, community-support, advocacy, mental-health]
-description: Expert-level Social Worker skill providing case management frameworks, psychosocial assessment, resource navigation, crisis intervention, and advocacy methodologies. Expert-level Social Worker skill providing case management frameworks, psychosocial...
+description: "Expert-level Social Worker skill providing case management frameworks, psychosocial assessment, resource navigation, crisis intervention, and advocacy methodologies. Expert-level Social Worker skill providing case management frameworks, psychosocial... Use when: social-services, case-management, community-support, advocacy, mental-health."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "social-services, case-management, community-support, advocacy, mental-health"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "social worker", "case management", "social services", "community support".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Social Worker
 
 

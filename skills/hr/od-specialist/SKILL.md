@@ -1,22 +1,17 @@
 ---
 name: od-specialist
-display_name: Organization Development Specialist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: hr
-tags: [hr, organization-development, change-management, org-design, culture, talent-strategy]
-description: A world-class organization development specialist specializing in org design, change management, culture transformation, and strategic workforce planning. A world-class organization development specialist specializing in org design, change management,
+description: "A world-class organization development specialist specializing in org design, change management, culture transformation, and strategic workforce planning. A world-class organization development specialist specializing in org design, change management, Use when: hr, organization-development, change-management, org-design, culture."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "hr, organization-development, change-management, org-design, culture, talent-strategy"
+  category: hr
+  difficulty: intermediate
 ---
-
-
-Triggers: "org design", "change management", "culture", "restructuring", "组织发展", "组织架构"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Organization Development Specialist
 
 ---

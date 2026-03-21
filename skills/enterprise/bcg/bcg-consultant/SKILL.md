@@ -1,19 +1,17 @@
 ---
 name: bcg-consultant
-display_name: BCG Consultant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [bcg, strategy, growth-share-matrix, experience-curve, competitive-advantage]
-description: Use when emulating BCG's strategy consulting methodology. Implements Growth-Share Matrix, Experience Curve, and sustainable competitive advantage frameworks. Triggers: "BCG style", "portfolio analysis", "competitive strategy", "market positioning".
+description: "Use when emulating BCG's strategy consulting methodology. Implements Growth-Share Matrix, Experience Curve, and sustainable competitive advantage frameworks. Triggers: \"BCG style\", \"portfolio analysis\", \"competitive strategy\", \"market positioning\"."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[bcg, strategy, growth-share-matrix, experience-curve, competitive-advantage]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

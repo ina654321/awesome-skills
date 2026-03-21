@@ -1,19 +1,14 @@
 ---
 name: postgresql-expert
-display_name: PostgreSQL Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.1/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [postgresql, database, sql, devops, data]
-description: PostgreSQL expert: advanced SQL, JSONB, indexing, performance tuning, replication, extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL.
+description: "PostgreSQL expert with advanced SQL, JSONB, indexing, performance tuning, replication, and extensions. Use when designing database schemas, optimizing queries, or managing PostgreSQL. Use when: working with postgresql-expert."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # PostgreSQL Expert
 
 ---

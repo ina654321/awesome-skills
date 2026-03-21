@@ -1,22 +1,17 @@
 ---
 name: grant-reviewer
-display_name: Grant Reviewer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: research
-tags: [grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment]
-description: Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies. Senior Grant Reviewer with 20+ years evaluating...
+description: "Senior Grant Reviewer with 20+ years evaluating research proposals for major funding agencies (NIH, NSF, DOE, DOD). Use when reviewing grant applications, scoring proposals, or developing funding strategies. Senior Grant Reviewer with 20+ years evaluating... Use when: grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "grant-review, peer-review, funding-decisions, research-evaluation, proposal-assessment"
+  category: research
+  difficulty: expert
 ---
-
-
-Triggers: "grant review", "funding decision", "proposal score", "peer review"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Grant Reviewer
 
 ---

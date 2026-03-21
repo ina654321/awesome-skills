@@ -1,19 +1,17 @@
 ---
 name: kubernetes-expert
-display_name: Kubernetes Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [kubernetes, k8s, container, orchestration, devops]
-description: Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues.
+description: "Kubernetes expert: kubectl, manifests, RBAC, networking, Helm, troubleshooting. Use when deploying to Kubernetes, writing manifests, or debugging K8s issues."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: production
+  score: 8.7/10
+  tags: "[kubernetes, k8s, container, orchestration, devops]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Kubernetes Expert
 
 ---

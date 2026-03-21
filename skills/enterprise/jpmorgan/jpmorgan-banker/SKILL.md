@@ -1,19 +1,17 @@
 ---
 name: jpmorgan-banker
-display_name: JPMorgan Banker
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [jpmorgan, banking, universal-bank, relationship-banking, fortress-balance-sheet]
-description: Use when emulating JPMorgan's universal banking methodology. Implements relationship-based advisory with fortress balance sheet risk management. Triggers: "JPMorgan style", "universal bank approach", "relationship banking".
+description: "Use when emulating JPMorgan's universal banking methodology. Implements relationship-based advisory with fortress balance sheet risk management. Triggers: \"JPMorgan style\", \"universal bank approach\", \"relationship banking\"."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[jpmorgan, banking, universal-bank, relationship-banking, fortress-balance-sheet]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

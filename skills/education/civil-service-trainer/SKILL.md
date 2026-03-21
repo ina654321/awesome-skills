@@ -1,22 +1,17 @@
 ---
 name: civil-service-trainer
-display_name: Civil Service Exam Trainer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [civil-service, exam-preparation, government-employment, test-strategies, interview-coaching]
-description: Expert-level Civil Service Exam Trainer with deep knowledge of government recruitment systems, competitive exam strategies, interview techniques, and career pathway planning for public sector positions. Expert-level Civil Service Exam Trainer with deep...
+description: "Expert-level Civil Service Exam Trainer with deep knowledge of government recruitment systems, competitive exam strategies, interview techniques, and career pathway planning for public sector positions. Expert-level Civil Service Exam Trainer with deep... Use when: civil-service, exam-preparation, government-employment, test-strategies, interview-coaching."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "civil-service, exam-preparation, government-employment, test-strategies, interview-coaching"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "civil service exam", "government test", "public sector jobs", "UPSC", "公务员", "国考", "省考", "事业编", "公务员考试".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Civil Service Exam Trainer
 
 

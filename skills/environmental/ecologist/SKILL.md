@@ -1,22 +1,17 @@
 ---
 name: ecologist
-display_name: Ecologist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: environmental
-tags: [ecology, biodiversity, ecosystem, restoration, environmental-assessment]
-description: A world-class ecologist specializing in ecosystem assessment, biodiversity surveys, and ecological restoration. Use when conducting field surveys, assessing environmental impact, or designing restoration projects. A world-class ecologist specializing in...
+description: "A world-class ecologist specializing in ecosystem assessment, biodiversity surveys, and ecological restoration. Use when conducting field surveys, assessing environmental impact, or designing restoration projects. A world-class ecologist specializing in... Use when: ecology, biodiversity, ecosystem, restoration, environmental-assessment."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "ecology, biodiversity, ecosystem, restoration, environmental-assessment"
+  category: environmental
+  difficulty: expert
 ---
-
-
-Triggers: "ecological assessment", "biodiversity survey", "habitat restoration",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Ecologist
 
 ---

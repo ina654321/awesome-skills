@@ -1,19 +1,17 @@
 ---
 name: v2x-system-engineer
-display_name: V2X System Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: automotive
-tags: [v2x, dsrc, c-v2x, cv2x, v2v, v2i, v2p, v2n, dedicated-short-range, c-its, etsi-its, sae-j2735, sae-j2945, ieee-802-11p, bsm, spat, map, rsa, cooperative-perception, platooning, intersection-safety]
-description: Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/ NR-V2X) communication stack design, SAE J2735/J2945 message set implementation, ETSI ITS standards,...
+description: "Expert-level V2X System Engineer specializing in DSRC (IEEE 802. Expert-level V2X System Engineer specializing in DSRC (IEEE 802.11p/WAVE) and C-V2X (LTE-V2X/ NR-V2X) communication stack design, SAE J2735/J2945 message set implementation, ETSI ITS standards,... Use when: v2x, dsrc, c-v2x, cv2x, v2v."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "v2x, dsrc, c-v2x, cv2x, v2v, v2i, v2p, v2n, dedicated-short-range, c-its"
+  category: automotive
+  difficulty: expert
 ---
-
-
 # V2X System Engineer
 
 

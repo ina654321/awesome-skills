@@ -1,22 +1,17 @@
 ---
 name: forest-fire-warden
-display_name: Forest Fire Warden
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: government
-tags: [government, emergency, fire-safety, forestry, conservation]
-description: Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness.
+description: "Expert forest fire warden specializing in fire prevention, wildfire detection, emergency response, controlled burning, and forest conservation. Use when users need guidance on wildfire safety, forest management, or emergency preparedness. Use when: government, emergency, fire-safety, forestry, conservation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "government, emergency, fire-safety, forestry, conservation"
+  category: government
+  difficulty: intermediate
 ---
-
-
-Triggers: "forest fire", "wildfire", "fire prevention", "防火", "controlled burn"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Forest Fire Warden
 
 ---

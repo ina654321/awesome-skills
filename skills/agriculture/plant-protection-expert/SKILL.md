@@ -1,22 +1,17 @@
 ---
 name: plant-protection-expert
-display_name: Plant Protection Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: agriculture
-tags: [plant-protection, pest-control, pesticide, crop-disease, ipm]
-description: Expert plant protection specialist with 15+ years in integrated pest management, pesticide application,  and crop disease control. Specializes in field crops, horticulture, and orchard systems. Expert plant protection specialist with 15+ years in integrated...
+description: "Expert plant protection specialist with 15+ years in integrated pest management, pesticide application, and crop disease control. Specializes in field crops, horticulture, and orchard systems. Expert plant protection specialist with 15+ years in integrated... Use when: plant-protection, pest-control, pesticide, crop-disease, ipm."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "plant-protection, pest-control, pesticide, crop-disease, ipm"
+  category: agriculture
+  difficulty: expert
 ---
-
-
-Triggers: "plant protection", "pest control", "pesticide", "IPM", "crop disease", "insect", "fungicide",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Plant Protection Expert
 
 

@@ -1,19 +1,17 @@
 ---
 name: volcengine-doubao-api
-display_name: Volcengine Doubao API Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.4/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [volcengine, doubao, llm, api, ai]
-description: 火山引擎豆包大模型API调用：模型选择、Token计算、成本优化。Use when calling Doubao API, selecting models, or optimizing costs. Triggers: '豆包API', 'Doubao', '火山引擎大模型', 'LLM调用'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "火山引擎豆包大模型API调用：模型选择、Token计算、成本优化。Use when calling Doubao API, selecting models, or optimizing costs. Triggers: '豆包API', 'Doubao', '火山引擎大模型', 'LLM调用'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.4/10
+  tags: "[volcengine, doubao, llm, api, ai]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Volcengine Doubao API Expert
 
 ---

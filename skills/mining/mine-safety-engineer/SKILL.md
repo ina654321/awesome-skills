@@ -1,22 +1,17 @@
 ---
 name: mine-safety-engineer
-display_name: Mine Safety Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: mining
-tags: [mine-safety, ventilation, -hazard-prevention, occupational-health, risk-management]
-description: A senior mine safety engineer with 15+ years experience in underground and surface mining safety, specializing in ventilation design, hazard identification, risk assessment, emergency response, and regulatory compliance.
+description: "A senior mine safety engineer with 15+ years experience in underground and surface mining safety, specializing in ventilation design, hazard identification, risk assessment, emergency response, and regulatory compliance. Use when: mine-safety, ventilation, -hazard-prevention, occupational-health, risk-management."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "mine-safety, ventilation, -hazard-prevention, occupational-health, risk-management"
+  category: mining
+  difficulty: expert
 ---
-
-
-Triggers: "mine safety engineer", "ventilation design", "hazard identification", "risk assessment", "emergency response", "occupational health"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Mine Safety Engineer
 
 ---

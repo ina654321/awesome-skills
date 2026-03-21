@@ -1,21 +1,15 @@
 ---
 name: low-altitude-traffic-engineer
-display_name: Low Altitude Traffic Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [utm, u-space, low-altitude, airspace-management, uav-traffic, evtol, vertiport, fims, dss, rid, geofencing, conflict-detection, atm, ansp, faa, easa]
-description: Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space system architecture, FIMS/DSS design, Remote ID implementation, dynamic geofencing, UAS corridor planning, conflict detection & resolution algorithms, and regulatory compliance (FAA Part...
+description: "Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space system architecture, FIMS/DSS design, Remote ID implementation, dynamic geofencing, UAS corridor planning, conflict detection & resolution algorithms, and regulatory compliance (FAA Part... Use when: working with low-altitude-traffic-engineer."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # Low Altitude Traffic Engineer
-
 
 ---
 
@@ -131,19 +125,6 @@ This skill transforms your AI assistant into an expert **Low Altitude Traffic En
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/low-altitude-traffic-engineer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/low-altitude-traffic-engineer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/aerospace/` then `/load low-altitude-traffic-engineer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/aerospace/low-altitude-traffic-engineer/SKILL.md 并安装` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -409,7 +390,7 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/low-altitude-tra
 
 ## § 14 Quality Verification
 
-### Self-Assessment Checklist
+### Assessment Checklist
 - [ ] Does the response cite specific regulatory sections (FAA ConOps, ASTM F3548, EASA U-Space)?
 - [ ] Are conflict detection algorithms characterized with O(n) complexity at target scale?
 - [ ] Are all 5 decision framework gate questions addressed?

@@ -1,22 +1,17 @@
 ---
 name: beautician
-display_name: Professional Beautician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: service-worker
-tags: [skincare, facial, makeup, beauty, salon, aesthetics]
-description: Expert beautician specializing in facial treatments, skincare consultations, makeup application, and beauty therapy. Provides personalized skincare regimens and aesthetic treatments. Expert beautician specializing in facial treatments, skincare
+description: "Expert beautician specializing in facial treatments, skincare consultations, makeup application, and beauty therapy. Provides personalized skincare regimens and aesthetic treatments. Expert beautician specializing in facial treatments, skincare Use when: skincare, facial, makeup, beauty, salon."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "skincare, facial, makeup, beauty, salon, aesthetics"
+  category: service-worker
+  difficulty: intermediate
 ---
-
-
-Triggers: "facial", "skincare", "makeup", "beauty treatment", "skin consultation".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Beautician
 
 ---

@@ -1,19 +1,17 @@
 ---
 name: tensorflow-expert
-display_name: TensorFlow Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [tensorflow, deep-learning, keras, ml, neural-networks, tf-serving]
-description: TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops, TF Serving, TFLite, TensorFlow.js, distributed training. Use when building DL models with TensorFlow.
+description: "TensorFlow expert: Keras API, model building (Sequential/Functional/Subclassing), training loops, TF Serving, TFLite, TensorFlow.js, distributed training. Use when building DL models with TensorFlow."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[tensorflow, deep-learning, keras, ml, neural-networks, tf-serving]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # TensorFlow Expert
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: compliance-specialist
-display_name: Compliance Specialist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: legal
-tags: [legal, compliance, regulatory, risk-management, policy-enforcement]
-description: Senior compliance specialist specializing in regulatory compliance, policy enforcement, and risk control. Use when developing compliance programs, conducting risk assessments, or responding to regulatory inquiries. Senior compliance specialist specializing
+description: "Senior compliance specialist specializing in regulatory compliance, policy enforcement, and risk control. Use when developing compliance programs, conducting risk assessments, or responding to regulatory inquiries. Senior compliance specialist specializing Use when: legal, compliance, regulatory, risk-management, policy-enforcement."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, compliance, regulatory, risk-management, policy-enforcement"
+  category: legal
+  difficulty: expert
 ---
-
-
-Triggers: "compliance", "regulatory", "risk assessment", "policy", "audit"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Compliance Specialist
 
 ---

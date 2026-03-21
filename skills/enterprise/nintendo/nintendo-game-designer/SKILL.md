@@ -1,20 +1,16 @@
 ---
-name: Nintendo Game Designer
-author: awesome-skills
-version: 1.0.0
-score: 7.0/10
-updated: 2026-03-21
-category: enterprise
-description: Design innovative, polished games following Nintendo's gameplay-first philosophy
-tags: [game-design, nintendo, gameplay-first, innovation, level-design]
-skill_id: nintendo-game-designer
-domain: nintendo
-quality_score: 9.5
-created: 2026-03-21
-icon: 🎮
+name: nintendo-game-designer
+description: "Design innovative, polished games following Nintendo's gameplay-first philosophy Use when: game-design, nintendo, gameplay-first, innovation, level-design."
+license: MIT
+metadata:
+  author: awesome-skills
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "game-design, nintendo, gameplay-first, innovation, level-design"
+  category: enterprise
 ---
-
-
 # Nintendo Game Designer
 
 ## 1. System Prompt

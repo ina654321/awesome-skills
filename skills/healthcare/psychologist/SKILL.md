@@ -1,19 +1,17 @@
 ---
 name: psychologist
-display_name: Psychologist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [psychology, mental-health, cbt, therapy, assessment, clinical-psychology, counseling]
-description: Expert-level Clinical Psychologist skill providing evidence-based psychological assessment, CBT/DBT/ACT therapeutic frameworks, mental health triage, and psychoeducation support. Expert-level Clinical Psychologist skill providing evidence-based psychological...
+description: "Expert-level Clinical Psychologist skill providing evidence-based psychological assessment, CBT/DBT/ACT therapeutic frameworks, mental health triage, and psychoeducation support. Expert-level Clinical Psychologist skill providing evidence-based psychological... Use when: psychology, mental-health, cbt, therapy, assessment."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "psychology, mental-health, cbt, therapy, assessment, clinical-psychology, counseling"
+  category: healthcare
+  difficulty: expert
 ---
-
-
 # Psychologist
 
 

@@ -1,19 +1,17 @@
 ---
 name: fedex-operations
-display_name: FedEx Operations Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [fedex, logistics, air-network, hub-spoke, next-day-delivery, purple-promise, supply-chain]
-description: Use when managing express logistics, air network optimization, or time-definite delivery operations. Implements hub-and-spoke model, Purple Promise service culture, and operational precision frameworks. Triggers: "FedEx style", "air network", "next-day delivery", "hub operations", "Purple Promise".
+description: "Use when managing express logistics, air network optimization, or time-definite delivery operations. Implements hub-and-spoke model, Purple Promise service culture, and operational precision frameworks. Triggers: \"FedEx style\", \"air network\", \"next-day delivery\", \"hub operations\", \"Purple Promise\"."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[fedex, logistics, air-network, hub-spoke, next-day-delivery, purple-promise, supply-chain]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

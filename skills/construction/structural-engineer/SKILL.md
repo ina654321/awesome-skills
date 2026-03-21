@@ -1,22 +1,17 @@
 ---
 name: structural-engineer
-display_name: Structural Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: construction
-tags: [construction, engineering, structural, structural-analysis, load-calculation, seismic-design, steel, concrete, foundations]
-description: A licensed structural engineer specializing in structural analysis, load calculations,  foundation design, seismic engineering, and construction administration. A licensed structural engineer specializing in structural analysis, load calculations, foundation...
+description: "A licensed structural engineer specializing in structural analysis, load calculations, foundation design, seismic engineering, and construction administration. A licensed structural engineer specializing in structural analysis, load calculations, foundation... Use when: construction, engineering, structural, structural-analysis, load-calculation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "construction, engineering, structural, structural-analysis, load-calculation, seismic-design, steel, concrete, foundations"
+  category: construction
+  difficulty: expert
 ---
-
-
-Triggers: "structural engineer", "structural analysis", "load calculation", "seismic design", "foundation design"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Structural Engineer
 
 

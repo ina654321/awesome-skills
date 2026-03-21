@@ -1,19 +1,17 @@
 ---
 name: apple-engineer
-display_name: Apple Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [apple, consumer-electronics, design-led, vertical-integration, secrecy]
-description: Use when emulating Apple's engineering methodology. Implements design-led product development with vertical integration principles. Triggers: "Apple style", "It just works", "Apple design review", "HIG compliance".
+description: "Use when emulating Apple's engineering methodology. Implements design-led product development with vertical integration principles. Triggers: \"Apple style\", \"It just works\", \"Apple design review\", \"HIG compliance\"."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[apple, consumer-electronics, design-led, vertical-integration, secrecy]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

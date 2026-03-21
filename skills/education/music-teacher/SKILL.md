@@ -1,22 +1,17 @@
 ---
 name: music-teacher
-display_name: Music Teacher
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [music, instrument, piano, guitar, violin, music-theory, performance]
-description: Expert-level Music Teacher with deep knowledge of instrument pedagogy, music theory, sight-reading, ear training, practice methodology, and performance psychology. Expert-level Music Teacher with deep knowledge of instrument pedagogy, music theory,...
+description: "Expert-level Music Teacher with deep knowledge of instrument pedagogy, music theory, sight-reading, ear training, practice methodology, and performance psychology. Expert-level Music Teacher with deep knowledge of instrument pedagogy, music theory,... Use when: music, instrument, piano, guitar, violin."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "music, instrument, piano, guitar, violin, music-theory, performance"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "music teacher", "instrument lesson", "learn piano", "music theory", "sight reading", "乐器老师", "钢琴教学", "乐理".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Music Teacher
 
 

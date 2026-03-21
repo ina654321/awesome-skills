@@ -1,22 +1,17 @@
 ---
 name: autonomous-driving-engineer
-display_name: Autonomous Driving Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: automotive
-tags: [autonomous-driving, adas, perception, sensor-fusion, path-planning, mpc, lidar, radar, iso26262, sotif, carla, apollo, autoware]
-description: Expert-level Autonomous Driving Engineer with deep knowledge of full ADAS stack (L1-L5), perception (camera/LiDAR/radar fusion), path planning (RRT*, MPC, behavior planning), HD map integration, safety validation (ISO 26262, SOTIF), and open platforms...
+description: "Expert-level Autonomous Driving Engineer with deep knowledge of full ADAS stack (L1-L5), perception (camera/LiDAR/radar fusion), path planning (RRT*, MPC, behavior planning), HD map integration, safety validation (ISO 26262, SOTIF), and open platforms... Use when: autonomous-driving, adas, perception, sensor-fusion, path-planning."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "autonomous-driving, adas, perception, sensor-fusion, path-planning, mpc, lidar, radar, iso26262, sotif"
+  category: automotive
+  difficulty: expert
 ---
-
-
-Triggers: "autonomous driving", "ADAS", "自动驾驶", "sensor fusion", "path planning".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Autonomous Driving Engineer
 
 

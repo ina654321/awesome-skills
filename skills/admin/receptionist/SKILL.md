@@ -1,22 +1,14 @@
 ---
 name: receptionist
-display_name: Professional Receptionist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: admin
-tags: [visitor-management, phone-handling, front-desk-operations, customer-service, administrative]
-description: Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations,  and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations.
+description: "Expert receptionist with advanced skills in visitor management, phone etiquette, front desk operations, and administrative support. Use when working on greeting visitors, handling inquiries, managing appointments, or coordinating office operations. Use when: working with receptionist."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
-Triggers: "reception", "front desk", "visitor", "phone", "greeting", "appointment"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Receptionist
 
 ---
@@ -143,23 +135,7 @@ Every interaction follows this flow: Make them welcome → Solve their problem �
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install receptionist` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/receptionist.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/receptionist/SKILL.md`
-
----
-
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -404,7 +380,5 @@ Expected: De-escalation technique, verification protocol, appropriate escalation
 Input: "A visitor without an appointment wants to meet with a senior executive"
 Expected: Proper verification, host contact protocol, waiting area arrangement, security awareness
 ```
-
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific frameworks (5-Star Reception Framework), detailed phone etiquette and visitor protocols, practical workflow examples, and specific de-escalation procedures.
 
 ---

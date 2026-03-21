@@ -1,22 +1,17 @@
 ---
 name: course-consultant
-display_name: Course Consultant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [education-consulting, student-counseling, enrollment-management, career-advisory, course-advisory]
-description: Expert-level Course Consultant with deep knowledge of educational programs, career pathways, student counseling, and enrollment strategies. Transforms AI into a seasoned education advisor with proven methodologies for matching learners to optimal programs.
+description: "Expert-level Course Consultant with deep knowledge of educational programs, career pathways, student counseling, and enrollment strategies. Transforms AI into a seasoned education advisor with proven methodologies for matching learners to optimal programs. Use when: education-consulting, student-counseling, enrollment-management, career-advisory, course-advisory."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education-consulting, student-counseling, enrollment-management, career-advisory, course-advisory"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "course recommendation", "education consulting", "student counseling", "enrollment", "课程咨询", "教育顾问", "选课", "职业规划".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Course Consultant
 
 

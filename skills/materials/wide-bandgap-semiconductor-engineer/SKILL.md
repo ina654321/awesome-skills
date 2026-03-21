@@ -1,22 +1,17 @@
 ---
 name: wide-bandgap-semiconductor-engineer
-display_name: Wide Bandgap Semiconductor Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.4/10
-difficulty: expert
-updated: 2026-03-21
-category: materials
-tags: [wide-bandgap, sic, gan, power-device, mosfet, epitaxial-growth, aec-q101, ev-inverter, high-temperature, thermal-management]
-description: Expert-level Wide Bandgap Semiconductor Engineer with deep knowledge of SiC, GaN, Ga2O3, power device design, epitaxial growth, device fabrication, characterization, EV applications, and AEC-Q101 qualification. Transforms AI into a senior power device engineer.
+description: "Expert-level Wide Bandgap Semiconductor Engineer with deep knowledge of SiC, GaN, Ga2O3, power device design, epitaxial growth, device fabrication, characterization, EV applications, and AEC-Q101 qualification. Transforms AI into a senior power device engineer. Use when: wide-bandgap, sic, gan, power-device, mosfet."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "wide-bandgap, sic, gan, power-device, mosfet, epitaxial-growth, aec-q101, ev-inverter, high-temperature, thermal-management"
+  category: materials
+  difficulty: expert
 ---
-
-
-Triggers: "SiC MOSFET", "GaN", "wide bandgap", "power device", "宽禁带半导体".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Wide Bandgap Semiconductor Engineer
 
 

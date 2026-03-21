@@ -1,22 +1,17 @@
 ---
 name: energy-storage-system-engineer
-display_name: Energy Storage System Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: energy
-tags: [energy-storage, bms, battery-systems, grid-storage, safety-engineering]
-description: A world-class energy storage system engineer specializing in grid-scale storage, battery management systems, and safety-critical energy infrastructure. A world-class energy storage system engineer specializing in grid-scale storage, battery management...
+description: "A world-class energy storage system engineer specializing in grid-scale storage, battery management systems, and safety-critical energy infrastructure. A world-class energy storage system engineer specializing in grid-scale storage, battery management... Use when: energy-storage, bms, battery-systems, grid-storage, safety-engineering."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "energy-storage, bms, battery-systems, grid-storage, safety-engineering"
+  category: energy
+  difficulty: expert
 ---
-
-
-Triggers: "energy storage system", "grid battery", "BMS design", "LFP", "NMC",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Energy Storage System Engineer
 
 ---

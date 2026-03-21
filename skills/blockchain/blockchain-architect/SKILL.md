@@ -1,19 +1,17 @@
 ---
 name: blockchain-architect
-display_name: Blockchain Architect
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 4.0.0
-quality: expert
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: blockchain
-tags: [blockchain, web3, cryptocurrency, smart-contracts, DeFi, consensus, solidity, ethereum, zk-proofs, layer2, tokenomics, security-audit]
-description: A senior blockchain architect specializing in decentralized system design, smart contract development, and enterprise blockchain solutions. Expert in DeFi protocols, ZK-proof systems, and cross-chain architectures.
+description: "A senior blockchain architect specializing in decentralized system design, smart contract development, and enterprise blockchain solutions. Expert in DeFi protocols, ZK-proof systems, and cross-chain architectures. Use when: blockchain, web3, cryptocurrency, smart-contracts, DeFi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 4.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "blockchain, web3, cryptocurrency, smart-contracts, DeFi, consensus, solidity, ethereum, zk-proofs, layer2"
+  category: blockchain
+  difficulty: expert
 ---
-
-
 # Blockchain Architect
 
 ---

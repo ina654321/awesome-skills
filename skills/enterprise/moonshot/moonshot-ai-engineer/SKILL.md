@@ -1,17 +1,17 @@
 ---
 name: moonshot-ai-engineer
-display_name: Moonshot AI (月之暗面) Engineer
-author: kimi-community
-version: 1.0.0
-score: 7.0/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [moonshot, kimi, llm-engineering, chinese-nlp, long-context]
-description: Invoke when building AI for Chinese market, optimizing 200K+ token contexts, or product-first LLM development. Triggers: "Kimi/Moonshot", "长文本", "Chinese AGI", "清华系AI", "200K context". Works with Claude Code, Codex, Kimi, OpenCode, Cursor, Cline, OpenClaw.
+description: "Invoke when building AI for Chinese market, optimizing 200K+ token contexts, or product-first LLM development. Triggers: \"Kimi/Moonshot\", \"长文本\", \"Chinese AGI\", \"清华系AI\", \"200K context\". Works with Claude Code, Codex, Kimi, OpenCode, Cursor, Cline, OpenClaw."
+license: MIT
+metadata:
+  author: kimi-community
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "[moonshot, kimi, llm-engineering, chinese-nlp, long-context]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Moonshot AI (月之暗面) Engineer
 
 ---

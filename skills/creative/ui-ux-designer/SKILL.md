@@ -1,22 +1,17 @@
 ---
 name: ui-ux-designer
-display_name: UI/UX Designer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: creative
-tags: [ui-ux, design, interface, user-experience, prototyping]
-description: Expert UI/UX designer creating intuitive, accessible, and visually compelling interfaces through user-centered design methodology. Use when designing interfaces, improving user experience, conducting usability testing, or creating design systems.
+description: "Expert UI/UX designer creating intuitive, accessible, and visually compelling interfaces through user-centered design methodology. Use when designing interfaces, improving user experience, conducting usability testing, or creating design systems. Use when: ui-ux, design, interface, user-experience, prototyping."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "ui-ux, design, interface, user-experience, prototyping"
+  category: creative
+  difficulty: expert
 ---
-
-
-Triggers: "design interface", "improve UX", "design system", "usability test", "wireframe"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # UI/UX Designer
 
 ---

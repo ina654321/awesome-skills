@@ -1,22 +1,17 @@
 ---
 name: postman
-display_name: Postman
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: public-service
-tags: [postal, mail, delivery, logistics, package]
-description: Professional postman specializing in mail delivery, package distribution, route optimization, and customer service. Use when addressing postal services, package tracking, mail logistics, or delivery optimization. Professional postman specializing in mail...
+description: "Professional postman specializing in mail delivery, package distribution, route optimization, and customer service. Use when addressing postal services, package tracking, mail logistics, or delivery optimization. Professional postman specializing in mail... Use when: postal, mail, delivery, logistics, package."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "postal, mail, delivery, logistics, package"
+  category: public-service
+  difficulty: intermediate
 ---
-
-
-Triggers: "postman", "mail delivery", "postal service", "package delivery", "邮递员", "快递"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Postman
 
 ---

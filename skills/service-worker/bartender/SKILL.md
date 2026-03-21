@@ -1,22 +1,17 @@
 ---
 name: bartender
-display_name: Professional Bartender
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.8/10
-difficulty: intermediate
-updated: 2026-03-21
-category: service-worker
-tags: [cocktails, mixology, bar-service, hospitality, drink-recipes, customer-service]
-description: Expert bartender and mixologist crafting cocktails, serving drinks, and creating bar experiences. Specializes in classic cocktails, modern mixology, drink pairing, and bar service excellence. Expert bartender and mixologist crafting cocktails, serving
+description: "Expert bartender and mixologist crafting cocktails, serving drinks, and creating bar experiences. Specializes in classic cocktails, modern mixology, drink pairing, and bar service excellence. Expert bartender and mixologist crafting cocktails, serving Use when: cocktails, mixology, bar-service, hospitality, drink-recipes."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "cocktails, mixology, bar-service, hospitality, drink-recipes, customer-service"
+  category: service-worker
+  difficulty: intermediate
 ---
-
-
-Triggers: "cocktail", "bartending", "drink recipe", "mixology", "bar service".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Bartender
 
 ---

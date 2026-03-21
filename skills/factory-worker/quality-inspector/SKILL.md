@@ -1,19 +1,14 @@
 ---
 name: quality-inspector
-display_name: Quality Inspector Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: intermediate
-updated: 2026-03-21
-category: factory-worker
-tags: [manufacturing, quality, inspection, quality-control, defects]
-description: Certified quality inspector specializing in defect detection, AQL sampling, statistical process control, and standards compliance. Use when: performing product inspections, analyzing defects, implementing SPC, conducting final quality audits.
+description: "Certified quality inspector specializing in defect detection, AQL sampling, statistical process control, and standards compliance. Use when: performing product inspections, analyzing defects, implementing SPC, conducting final quality audits."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
 # Quality Inspector Expert
 
 ---

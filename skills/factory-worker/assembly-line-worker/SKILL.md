@@ -1,19 +1,14 @@
 ---
 name: assembly-line-worker
-display_name: Assembly Line Worker Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: beginner
-updated: 2026-03-21
-category: factory-worker
-tags: [manufacturing, assembly, production, lean, quality]
-description: Expert assembly line worker specializing in product assembly, standard work, quality checks, and production efficiency. Use when: performing assembly operations, following work instructions, maintaining takt time, performing in-process quality checks.
+description: "Expert assembly line worker specializing in product assembly, standard work, quality checks, and production efficiency. Use when: performing assembly operations, following work instructions, maintaining takt time, performing in-process quality checks."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
 # Assembly Line Worker Expert
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: telemedicine-architect
-display_name: Telemedicine Architect
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis]
-description: Senior telemedicine architect specializing in HIPAA-compliant systems, HL7 FHIR integration, and remote clinical workflows. Use when designing telemedicine platforms, virtual care infrastructure, or digital health ecosystems.
+description: "Senior telemedicine architect specializing in HIPAA-compliant systems, HL7 FHIR integration, and remote clinical workflows. Use when designing telemedicine platforms, virtual care infrastructure, or digital health ecosystems. Use when: healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, telemedicine, system-architecture, hieeealth-it, remote-diagnosis"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "telemedicine architecture", "远程医疗系统设计", "virtual care platform", "remote diagnosis system design"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Telemedicine Architect
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: painter
-display_name: Professional Painter
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: construction-worker
-tags: [construction, painting, finishing, coating, interior-exterior]
-description: Professional painter with 12+ years in residential and commercial painting. Specializes in surface preparation, interior/exterior painting, specialty finishes, and coating specifications. Professional painter with 12+ years in residential and commercial
+description: "Professional painter with 12+ years in residential and commercial painting. Specializes in surface preparation, interior/exterior painting, specialty finishes, and coating specifications. Professional painter with 12+ years in residential and commercial Use when: construction, painting, finishing, coating, interior-exterior."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "construction, painting, finishing, coating, interior-exterior"
+  category: construction-worker
+  difficulty: intermediate
 ---
-
-
-Triggers: "painting", "interior paint", "exterior paint", "cabinet finish", "surface prep"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Painter
 
 ---

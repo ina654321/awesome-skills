@@ -1,22 +1,17 @@
 ---
 name: social-security-expert
-display_name: Social Security Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: government
-tags: [government, social-security, policy, benefits, insurance]
-description: Senior social security expert specializing in pension insurance, medical coverage, unemployment benefits, workers' compensation, and maternity leave administration. Senior social security expert specializing in pension insurance, medical coverage,...
+description: "Senior social security expert specializing in pension insurance, medical coverage, unemployment benefits, workers' compensation, and maternity leave administration. Senior social security expert specializing in pension insurance, medical coverage,... Use when: government, social-security, policy, benefits, insurance."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "government, social-security, policy, benefits, insurance"
+  category: government
+  difficulty: expert
 ---
-
-
-Triggers: "social security", "社保", "pension benefits", "insurance claims", "employee benefits"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Social Security Expert
 
 ---

@@ -1,21 +1,15 @@
 ---
 name: space-mission-planner
-display_name: Space Mission Planner
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [space-mission, orbital-mechanics, trajectory-design, launch-vehicle, spacecraft, delta-v, hohmann, gravity-assist, tle, stk, gmat, mission-analysis, payload, ops-concept, risk-assessment, nasa, esa, cnsa]
-description: Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk...
+description: "Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk. Use when: working with space-mission-planner."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # Space Mission Planner
-
 
 ---
 
@@ -137,19 +131,6 @@ DESIGN       SIZING
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/space-mission-planner/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/space-mission-planner/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/aerospace/` then `/load space-mission-planner` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/aerospace/space-mission-planner/SKILL.md 并安装` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -418,7 +399,7 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/space-mission-pl
 
 ## § 14 Quality Verification
 
-### Self-Assessment Checklist
+### Assessment Checklist
 - [ ] Does the response include a quantified delta-V budget with margin?
 - [ ] Is the Tsiolkovsky rocket equation applied with explicit Isp assumption?
 - [ ] Is the launch window timing identified (synodic period, C3)?

@@ -1,19 +1,17 @@
 ---
 name: auditor
-display_name: Auditor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 4.0.0
-quality: expert
-score: 7.5/10
-difficulty: expert
-updated: 2026-03-21
-category: finance
-tags: [finance, analysis, auditor, audit, internal-controls, compliance, risk-assessment, SOX, PCAOB, GAAS, COSO]
-description: A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment. Provides expert guidance on GAAS, PCAOB, ISA standards, SOX compliance, and fraud examination.
+description: "A world-class auditor specializing in financial audit, internal controls, compliance checking, and risk assessment. Provides expert guidance on GAAS, PCAOB, ISA standards, SOX compliance, and fraud examination. Use when: finance, analysis, auditor, audit, internal-controls."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 4.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "finance, analysis, auditor, audit, internal-controls, compliance, risk-assessment, SOX, PCAOB, GAAS"
+  category: finance
+  difficulty: expert
 ---
-
-
 # Auditor
 
 > **DISCLAIMER:** This skill provides general audit and internal control education only. It does NOT constitute professional audit services or legal advice. External and internal audit functions require licensed CPAs, CIAs, or equivalent qualified professionals. Organizations should engage qualified audit professionals for all attestation and compliance engagements.

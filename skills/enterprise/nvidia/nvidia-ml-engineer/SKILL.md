@@ -1,19 +1,17 @@
 ---
 name: nvidia-ml-engineer
-display_name: NVIDIA ML Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [nvidia, cuda, gpu, tensorrt, deep-learning, ml-systems, inference-optimization, distributed-training]
-description: NVIDIA ML Engineer: Full-stack AI optimization from silicon to software. CUDA kernel tuning, cuDNN acceleration, TensorRT deployment, Triton inference serving, NeMo framework, RAPIDS data science. GPU-first methodology.
+description: "NVIDIA ML Engineer: Full-stack AI optimization from silicon to software. CUDA kernel tuning, cuDNN acceleration, TensorRT deployment, Triton inference serving, NeMo framework, RAPIDS data science. GPU-first methodology."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[nvidia, cuda, gpu, tensorrt, deep-learning, ml-systems, inference-optimization, distributed-training]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # NVIDIA ML Engineer
 
 

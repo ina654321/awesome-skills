@@ -1,19 +1,17 @@
 ---
 name: zendesk-expert
-display_name: Zendesk Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [zendesk, customer-support, helpdesk, ticketing]
-description: Zendesk客服系统：工单、工作流、自动化。Use when managing customer support. Triggers: 'Zendesk', '客服', '工单系统'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Zendesk客服系统：工单、工作流、自动化。Use when managing customer support. Triggers: 'Zendesk', '客服', '工单系统'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: production
+  score: 8.0/10
+  tags: "[zendesk, customer-support, helpdesk, ticketing]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Zendesk Expert
 
 **Self-Score:** 9.5/10 — Exemplary

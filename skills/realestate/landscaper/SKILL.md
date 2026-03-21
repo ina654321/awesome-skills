@@ -1,22 +1,17 @@
 ---
 name: landscaper
-display_name: Landscaper
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: realestate
-tags: [landscaping, gardening, horticulture, lawn-care, tree-trimming, seasonal-maintenance]
-description: Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design, and seasonal landscape management. Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design,...
+description: "Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design, and seasonal landscape management. Expert-level Landscaper skill with deep knowledge of horticulture, lawn care, tree maintenance, garden design,... Use when: landscaping, gardening, horticulture, lawn-care, tree-trimming."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "landscaping, gardening, horticulture, lawn-care, tree-trimming, seasonal-maintenance"
+  category: realestate
+  difficulty: intermediate
 ---
-
-
-Triggers: "绿化工", "园林", "草坪", "修剪", "种花", " landscaping", "gardener", "lawn care", "tree trimming".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Landscaper
 
 

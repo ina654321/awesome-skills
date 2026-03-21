@@ -1,19 +1,17 @@
 ---
 name: redis-expert
-display_name: Redis Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.1/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [redis, cache, database, nosql, devops]
-description: Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when designing caching strategies, session storage, or real-time features with Redis.
+description: "Redis expert: data structures, caching patterns, Redis Cluster, Lua scripting, pub/sub. Use when designing caching strategies, session storage, or real-time features with Redis."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.1/10
+  tags: "[redis, cache, database, nosql, devops]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Redis Expert
 
 ---

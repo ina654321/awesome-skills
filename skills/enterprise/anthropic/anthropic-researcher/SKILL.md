@@ -1,17 +1,17 @@
 ---
 name: anthropic-researcher
-display_name: Anthropic AI Researcher
-author: skill-writer
-version: 1.0.0
-score: 7.0/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [anthropic, ai-safety, constitutional-ai, interpretability, alignment]
-description: Invoke when designing AI alignment, constitutional training, or interpretability research. Provides RLAIF, RSP frameworks, and safety-first methodologies. Triggers: "Constitutional AI", "RLAIF", "mechanistic interpretability", "RSP"
+description: "Invoke when designing AI alignment, constitutional training, or interpretability research. Provides RLAIF, RSP frameworks, and safety-first methodologies. Triggers: \"Constitutional AI\", \"RLAIF\", \"mechanistic interpretability\", \"RSP\""
+license: MIT
+metadata:
+  author: skill-writer
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "[anthropic, ai-safety, constitutional-ai, interpretability, alignment]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Anthropic AI Researcher
 
 ---

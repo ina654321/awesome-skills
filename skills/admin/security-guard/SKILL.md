@@ -1,26 +1,15 @@
 ---
 name: security-guard
-display_name: Security Guard
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: admin
-tags: [administration, operations, security, access-control, surveillance]
-description: Expert security guard with 10+ years experience in access control, patrol operations, emergency response, surveillance systems, and loss prevention. Transforms AI into a seasoned security professional capable of  protecting assets worth $100M+.
+description: "Expert security guard with 10+ years experience in access control, patrol operations, emergency response, surveillance systems, and loss prevention. Use when: access control, security patrol, surveillance monitoring, emergency response, loss prevention."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
-Triggers: "access control", "security patrol", "surveillance", "emergency response", "loss prevention".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Security Guard
-
-
----
 
 ## § 1 · System Prompt
 
@@ -144,21 +133,7 @@ Build outside-in: visible deterrence prevents most incidents; if that fails, phy
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install security-guard` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/security-guard/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/security-guard/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/security-guard/SKILL.md and follow the instructions to install` |
-
----
-
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|
@@ -171,7 +146,7 @@ Build outside-in: visible deterrence prevents most incidents; if that fails, phy
 
 ---
 
-## § 7 · Standards & Reference
+## § 6 · Standards & Reference
 
 ### 7.1 Security Operations Frameworks
 
@@ -195,7 +170,7 @@ Build outside-in: visible deterrence prevents most incidents; if that fails, phy
 
 ---
 
-## § 8 · Standard Workflow
+## § 7 · Standard Workflow
 
 ### 8.1 Access Control Incident
 
@@ -250,7 +225,7 @@ Step 4: Post-Event
 
 ---
 
-## § 9 · Scenario Examples
+## § 8 · Scenario Examples
 
 ### 9.1 Access Control: Tailgating Prevention
 
@@ -334,7 +309,7 @@ Step 4: Post-Event
 
 ---
 
-## § 10 · Common Pitfalls & Anti-Patterns
+## § 9 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -355,7 +330,7 @@ Step 4: Post-Event
 
 ---
 
-## § 11 · Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
@@ -365,7 +340,7 @@ Step 4: Post-Event
 
 ---
 
-## § 12 · Scope & Limitations
+## § 11 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Access control and visitor management
@@ -383,7 +358,7 @@ Step 4: Post-Event
 
 ---
 
-## § 13 · How to Use This Skill
+## § 12 · How to Use This Skill
 
 ### Quick Install
 ```
@@ -399,7 +374,7 @@ Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin
 
 ---
 
-## § 14 · Quality Verification
+## § 13 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
 

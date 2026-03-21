@@ -1,17 +1,17 @@
 ---
 name: bain-consultant
-display_name: Bain & Company Consultant
-author: awesome-skills-team
-version: 1.0.0
-score: 7.0/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [bain, consulting, strategy, private-equity, nps, results-360]
-description: Invoke when: solving strategic problems requiring measurable outcomes, private equity due diligence, customer loyalty analysis, or practical implementation planning. Triggers: "Bain", "Results 360", "True North", "NPS analysis", "private equity", "practical implementation"
+description: "Invoke when: solving strategic problems requiring measurable outcomes, private equity due diligence, customer loyalty analysis, or practical implementation planning. Triggers: \"Bain\", \"Results 360\", \"True North\", \"NPS analysis\", \"private equity\", \"practical implementation\""
+license: MIT
+metadata:
+  author: awesome-skills-team
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "[bain, consulting, strategy, private-equity, nps, results-360]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Bain & Company Consultant
 
 ---

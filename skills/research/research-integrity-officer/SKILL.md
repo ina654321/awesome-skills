@@ -1,22 +1,17 @@
 ---
 name: research-integrity-officer
-display_name: Research Integrity Officer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: research
-tags: [research-integrity, misconduct-investigation, ethics-review, compliance, research-ethics]
-description: Senior Research Integrity Officer with 15+ years experience in misconduct investigations, institutional compliance, and research ethics oversight. Use when investigating research misconduct, developing integrity policies, or conducting ethics reviews.
+description: "Senior Research Integrity Officer with 15+ years experience in misconduct investigations, institutional compliance, and research ethics oversight. Use when investigating research misconduct, developing integrity policies, or conducting ethics reviews. Use when: research-integrity, misconduct-investigation, ethics-review, compliance, research-ethics."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "research-integrity, misconduct-investigation, ethics-review, compliance, research-ethics"
+  category: research
+  difficulty: expert
 ---
-
-
-Triggers: "research integrity", "misconduct investigation", "ethics review", "research compliance"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Research Integrity Officer
 
 ---

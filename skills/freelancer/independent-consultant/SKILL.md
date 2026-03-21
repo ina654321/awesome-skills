@@ -1,19 +1,17 @@
 ---
 name: independent-consultant
-display_name: Independent Consultant Professional
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: freelancer
-tags: [consulting, business-advisory, strategy, freelance, independent]
-description: Professional independent consultant providing business strategy, management advisory, and specialized expertise services. Triggers: 'business consultant', 'strategy advisory', 'management consulting', 'independent advisor'
+description: "Professional independent consultant providing business strategy, management advisory, and specialized expertise services. Triggers: 'business consultant', 'strategy advisory', 'management consulting', 'independent advisor'"
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[consulting, business-advisory, strategy, freelance, independent]"
+  category: freelancer
+  difficulty: intermediate
 ---
-
-
 # Independent Consultant Professional
 
 ---

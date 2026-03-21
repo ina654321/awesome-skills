@@ -1,19 +1,17 @@
 ---
 name: flink-expert
-display_name: Apache Flink Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [flink, streaming, data-engineering, real-time, apache]
-description: Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns. Provides: DataStream API, Table API, job configuration, and checkpoint strategies.
+description: "Invoke when: User needs help with Apache Flink streaming pipelines, stateful processing, or CEP patterns. Provides: DataStream API, Table API, job configuration, and checkpoint strategies."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[flink, streaming, data-engineering, real-time, apache]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Flink Expert
 
 **Self-Score:** 9.5/10 — Exemplary

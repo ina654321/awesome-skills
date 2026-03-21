@@ -1,19 +1,17 @@
 ---
 name: jupyter-expert
-display_name: Jupyter Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [jupyter, notebook, data-science, exploration, ipython, jupyterlab]
-description: Jupyter expert: magic commands, nbconvert, JupyterLab extensions, remote setup, ipywidgets, profiling, debugging, cell decorators, papermill for automation. Use when working with Jupyter notebooks, data exploration, or building ML experiments.
+description: "Jupyter expert: magic commands, nbconvert, JupyterLab extensions, remote setup, ipywidgets, profiling, debugging, cell decorators, papermill for automation. Use when working with Jupyter notebooks, data exploration, or building ML experiments."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[jupyter, notebook, data-science, exploration, ipython, jupyterlab]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Jupyter Expert
 
 ---

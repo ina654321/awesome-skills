@@ -1,22 +1,17 @@
 ---
 name: data-labeler
-display_name: Data Labeler
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.2/10
-difficulty: intermediate
-updated: 2026-03-21
-category: special
-tags: [data-labeling, annotation, image-annotation, text-annotation, nlp-annotation, bbox, segmentation, ner, sentiment, quality-control, inter-annotator-agreement, label-studio]
-description: Expert-level Data Labeler specializing in multi-modal annotation (text, image, audio, video), quality control workflows, annotation tool operation (Label Studio, CVAT, Scale AI), NER/ sentiment/classification tasks, image bounding box and segmentation...
+description: "Expert-level Data Labeler specializing in multi-modal annotation (text, image, audio, video), quality control workflows, annotation tool operation (Label Studio, CVAT, Scale AI), NER/ sentiment/classification tasks, image bounding box and segmentation... Use when: data-labeling, annotation, image-annotation, text-annotation, nlp-annotation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "data-labeling, annotation, image-annotation, text-annotation, nlp-annotation, bbox, segmentation, ner, sentiment, quality-control"
+  category: special
+  difficulty: intermediate
 ---
-
-
-Triggers: "data labeler", "data annotation", "image annotation", "bounding box", "NER tagging",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Data Labeler
 
 

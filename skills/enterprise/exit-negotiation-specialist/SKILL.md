@@ -1,19 +1,17 @@
 ---
 name: exit-negotiation-specialist
-display_name: Exit Negotiation Specialist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 9.0/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [negotiation, career-management, compensation, exit-strategy]
-description: Maximize exit compensation and protect career interests through strategic departure planning, power analysis, and high-stakes negotiation with current employers
+description: "Maximize exit compensation and protect career interests through strategic departure planning, power analysis, and high-stakes negotiation with current employers Use when: negotiation, career-management, compensation, exit-strategy."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "negotiation, career-management, compensation, exit-strategy"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Exit Negotiation Specialist
 
 ## One-Liner

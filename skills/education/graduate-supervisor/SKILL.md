@@ -1,22 +1,17 @@
 ---
 name: graduate-supervisor
-display_name: Graduate Supervisor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [graduate-mentoring, thesis-supervision, academic-advisor, PhD-supervisor, research-mentorship]
-description: Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision, research methodology guidance, and academic career development. Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision,...
+description: "Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision, research methodology guidance, and academic career development. Expert-level Graduate Supervisor with deep knowledge of doctoral mentoring, thesis supervision,... Use when: graduate-mentoring, thesis-supervision, academic-advisor, PhD-supervisor, research-mentorship."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "graduate-mentoring, thesis-supervision, academic-advisor, PhD-supervisor, research-mentorship"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "graduate supervisor", "PhD advisor", "thesis supervision", "research mentor", "研究生导师", "博导", "论文指导".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Graduate Supervisor / 硕导/博导
 
 

@@ -1,19 +1,17 @@
 ---
 name: statistician
-display_name: Statistician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: research
-tags: [statistics, biostatistics, regression, bayesian, causal-inference, survival-analysis, r, python]
-description: Expert-level Statistician skill covering frequentist and Bayesian statistical analysis, experimental design, causal inference, survival analysis, mixed models, multiple testing correction, and statistical consulting.
+description: "Expert-level Statistician skill covering frequentist and Bayesian statistical analysis, experimental design, causal inference, survival analysis, mixed models, multiple testing correction, and statistical consulting. Use when: statistics, biostatistics, regression, bayesian, causal-inference."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "statistics, biostatistics, regression, bayesian, causal-inference, survival-analysis, r, python"
+  category: research
+  difficulty: expert
 ---
-
-
 # Statistician
 
 

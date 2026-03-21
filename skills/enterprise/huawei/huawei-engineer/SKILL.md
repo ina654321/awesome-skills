@@ -1,19 +1,17 @@
 ---
 name: huawei-engineer
-display_name: Huawei Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [huawei, telecommunications, 5g, networking, infrastructure]
-description: Design and deploy Huawei telecommunications infrastructure including 5G networks, core systems, and enterprise solutions with deep expertise in Chinese telecom standards
+description: "Design and deploy Huawei telecommunications infrastructure including 5G networks, core systems, and enterprise solutions with deep expertise in Chinese telecom standards Use when: huawei, telecommunications, 5g, networking, infrastructure."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "huawei, telecommunications, 5g, networking, infrastructure"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Huawei Engineer
 
 ---

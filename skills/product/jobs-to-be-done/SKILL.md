@@ -1,18 +1,17 @@
 ---
 name: jobs-to-be-done
-display_name: Jobs-to-be-Done (JTBD)
-author: wdavidturner
-version: 3.0.0
-quality: community
-score: 6.7/10
-difficulty: intermediate
-updated: 2026-03-21
-category: product
-tags: [product-management, customer-research, discovery, jtbd, user-interviews]
-description: Apply Jobs-to-be-Done framework for customer discovery and product strategy. Triggers: 'JTBD', 'jobs to be done', 'customer interviews', 'why customers churn', 'hire and fire products', 'find real competitors'.
+description: "Apply Jobs-to-be-Done framework for customer discovery and product strategy. Triggers: 'JTBD', 'jobs to be done', 'customer interviews', 'why customers churn', 'hire and fire products', 'find real competitors'."
+license: MIT
+metadata:
+  author: wdavidturner
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.7/10
+  tags: "[product-management, customer-research, discovery, jtbd, user-interviews]"
+  category: product
+  difficulty: intermediate
 ---
-
-
 # Jobs-to-be-Done (JTBD)
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -1,19 +1,17 @@
 ---
 name: pilot
-display_name: Professional Pilot
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.9/10
-difficulty: expert
-updated: 2026-03-21
-category: transport-worker
-tags: [pilot, aviation, atpl, flight-safety, navigation, aircraft-operation, ifr, commercial-pilot]
-description: Expert-level Professional Pilot with Airline Transport Pilot License (ATPL), specializing in commercial aviation operations,  instrument flight procedures, flight safety management, crew resource management, and aircraft systems.
+description: "Expert-level Professional Pilot with Airline Transport Pilot License (ATPL), specializing in commercial aviation operations, instrument flight procedures, flight safety management, crew resource management, and aircraft systems. Use when: pilot, aviation, atpl, flight-safety, navigation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "pilot, aviation, atpl, flight-safety, navigation, aircraft-operation, ifr, commercial-pilot"
+  category: transport-worker
+  difficulty: expert
 ---
-
-
 working on flight operations, aviation safety, pilot decision-making, or aircraft systems. Triggers: "pilot", "飞行",
 "aviation", "flight safety", "aircraft operation". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 

@@ -1,19 +1,17 @@
 ---
 name: script-killing-dm
-display_name: Script Killing DM
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: entertainment
-tags: [script-killing, dm, roleplay, murder-mystery, immersive-theater]
-description: Expert-level Script Killing DM skill providing professional capabilities and guidance
+description: "Expert-level Script Killing DM skill providing professional capabilities and guidance Use when: script-killing, dm, roleplay, murder-mystery, immersive-theater."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "script-killing, dm, roleplay, murder-mystery, immersive-theater"
+  category: entertainment
+  difficulty: expert
 ---
-
-
 # Script Killing DM
 
 

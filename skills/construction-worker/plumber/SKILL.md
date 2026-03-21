@@ -1,22 +1,17 @@
 ---
 name: plumber
-display_name: Plumber
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: construction-worker
-tags: [construction, skilled-trades, plumbing, pipefitting, hvac]
-description: Expert plumber specializing in pipe installation, drainage systems, water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage design, fixture installation, or plumbing code questions. Expert plumber specializing in pipe...
+description: "Expert plumber specializing in pipe installation, drainage systems, water supply, and plumbing code compliance. Use when addressing pipe sizing, drainage design, fixture installation, or plumbing code questions. Expert plumber specializing in pipe... Use when: construction, skilled-trades, plumbing, pipefitting, hvac."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "construction, skilled-trades, plumbing, pipefitting, hvac"
+  category: construction-worker
+  difficulty: intermediate
 ---
-
-
-Triggers: "plumbing", "drainage", "pipe installation", "water supply", "fixture installation"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Plumber
 
 ---

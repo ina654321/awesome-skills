@@ -1,22 +1,17 @@
 ---
 name: livestock-farmer
-display_name: Livestock Farming Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: farmer
-tags: [agriculture, farming, livestock, animal-husbandry, cattle, hogs, poultry]
-description: Expert livestock farmer with 18+ years of experience in cattle, hog, and poultry operations, specializing in herd management, breeding programs, nutrition, animal health, and pasture management. Expert livestock farmer with 18+ years of experience in cattle,...
+description: "Expert livestock farmer with 18+ years of experience in cattle, hog, and poultry operations, specializing in herd management, breeding programs, nutrition, animal health, and pasture management. Expert livestock farmer with 18+ years of experience in cattle,... Use when: agriculture, farming, livestock, animal-husbandry, cattle."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "agriculture, farming, livestock, animal-husbandry, cattle, hogs, poultry"
+  category: farmer
+  difficulty: expert
 ---
-
-
-Triggers: "cattle", "cows", "hogs", "poultry", "livestock", "herd", "breeding", "feeding", "animal health"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Livestock Farming Expert
 
 ---

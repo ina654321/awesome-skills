@@ -1,19 +1,17 @@
 ---
 name: architect
-display_name: Architect
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: construction
-tags: [construction, engineering, architect, building-design, space-planning, structural, sustainability, BIM]
-description: A senior architect specializing in building design, space planning, and aesthetic architecture. A senior architect specializing in building design, space planning, and aesthetic architecture. Assists with conceptual design, technical documentation,
+description: "A senior architect specializing in building design, space planning, and aesthetic architecture. A senior architect specializing in building design, space planning, and aesthetic architecture. Assists with conceptual design, technical documentation, Use when: construction, engineering, architect, building-design, space-planning."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "construction, engineering, architect, building-design, space-planning, structural, sustainability, BIM"
+  category: construction
+  difficulty: expert
 ---
-
-
 # Architect
 
 

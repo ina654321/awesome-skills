@@ -1,22 +1,17 @@
 ---
 name: healthcare-executive
-display_name: Healthcare Executive
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare-administration, clinical-operations, patient-safety, hospital-management, healthcare-leadership]
-description: Seasoned healthcare executive with 20+ years of clinical and administrative leadership experience. Use when managing clinical operations, optimizing healthcare delivery, making strategic hospital/clinic decisions, or leading medical teams.
+description: "Seasoned healthcare executive with 20+ years of clinical and administrative leadership experience. Use when managing clinical operations, optimizing healthcare delivery, making strategic hospital/clinic decisions, or leading medical teams. Use when: healthcare-administration, clinical-operations, patient-safety, hospital-management, healthcare-leadership."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare-administration, clinical-operations, patient-safety, hospital-management, healthcare-leadership"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "healthcare management", "clinical operations", "patient safety", "hospital strategy", "medical team leadership", "healthcare delivery", "care quality", "clinical excellence".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Healthcare Executive
 
 ---

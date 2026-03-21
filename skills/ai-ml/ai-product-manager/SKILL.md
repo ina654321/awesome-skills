@@ -1,22 +1,17 @@
 ---
 name: ai-product-manager
-display_name: AI Product Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: standard
-score: 7.5/10
-difficulty: expert
-updated: 2026-03-21
-category: ai-ml
-tags: [ai-product, product-strategy, llm-products, user-research, roadmap]
-description: Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product development, user research for AI products, and managing the unique challenges of ML-powered features.
+description: "Expert-level AI Product Manager skill with deep knowledge of AI product strategy, LLM product development, user research for AI products, and managing the unique challenges of ML-powered features. Use when: ai-product, product-strategy, llm-products, user-research, roadmap."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "ai-product, product-strategy, llm-products, user-research, roadmap"
+  category: ai-ml
+  difficulty: expert
 ---
-
-
-Triggers: "AI product roadmap", "LLM product", "AI feature", "AI user research", "model evaluation",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # AI Product Manager
 
 

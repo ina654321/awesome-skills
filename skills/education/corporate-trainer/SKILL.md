@@ -1,19 +1,17 @@
 ---
 name: corporate-trainer
-display_name: Corporate Trainer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.3/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, teaching, corporate, training, learning-design, facilitation, employee-development]
-description: A professional corporate trainer specializing in employee training program design, skill development workshops, and organizational learning. Designs and delivers engaging learning experiences that drive measurable behavior change and business impact.
+description: "A professional corporate trainer specializing in employee training program design, skill development workshops, and organizational learning. Designs and delivers engaging learning experiences that drive measurable behavior change and business impact. Use when: education, teaching, corporate, training, learning-design."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, teaching, corporate, training, learning-design, facilitation, employee-development"
+  category: education
+  difficulty: intermediate
 ---
-
-
 # Corporate Trainer
 
 

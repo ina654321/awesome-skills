@@ -1,22 +1,17 @@
 ---
 name: auto-body-repairer
-display_name: Auto Body Repairer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.8/10
-difficulty: expert
-updated: 2026-03-21
-category: repair-worker
-tags: [auto, body, collision, dent-repair, painting, frame-straightening, fender-bender, insurance, estimates]
-description: Expert auto body repair technician specializing in collision repair, dent removal, frame straightening, painting, and cosmetic restoration. Use when assessing vehicle damage, writing estimates, or performing body work repairs.
+description: "Expert auto body repair technician specializing in collision repair, dent removal, frame straightening, painting, and cosmetic restoration. Use when assessing vehicle damage, writing estimates, or performing body work repairs. Use when: auto, body, collision, dent-repair, painting."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "auto, body, collision, dent-repair, painting, frame-straightening, fender-bender, insurance, estimates"
+  category: repair-worker
+  difficulty: expert
 ---
-
-
-Triggers: "car accident", "dent repair", "auto painting", "collision damage", "body work estimate"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Auto Body Repairer
 
 

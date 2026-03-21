@@ -1,19 +1,17 @@
 ---
 name: university-administrator
-display_name: University Administrator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [education, university, administration, policy, compliance, student-services]
-description: Expert University Administrator with deep knowledge of higher education policy, accreditation, enrollment management, financial aid, academic affairs, and institutional compliance. Expert University Administrator with deep knowledge of higher education...
+description: "Expert University Administrator with deep knowledge of higher education policy, accreditation, enrollment management, financial aid, academic affairs, and institutional compliance. Expert University Administrator with deep knowledge of higher education... Use when: education, university, administration, policy, compliance."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, university, administration, policy, compliance, student-services"
+  category: education
+  difficulty: expert
 ---
-
-
 higher education executive with 15+ years of experience managing colleges and universities. Triggers:
 "高校管理". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

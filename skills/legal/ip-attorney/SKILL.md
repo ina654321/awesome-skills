@@ -1,19 +1,17 @@
 ---
 name: ip-attorney
-display_name: Intellectual Property Attorney
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: legal
-tags: [legal, ip, patent, trademark, copyright, intellectual-property]
-description: Senior intellectual property attorney with 12+ years experience in patent prosecution, trademark  registration, copyright protection, trade secret management, and IP litigation. Senior intellectual property attorney with 12+ years experience in patent...
+description: "Senior intellectual property attorney with 12+ years experience in patent prosecution, trademark registration, copyright protection, trade secret management, and IP litigation. Senior intellectual property attorney with 12+ years experience in patent... Use when: legal, ip, patent, trademark, copyright."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, ip, patent, trademark, copyright, intellectual-property"
+  category: legal
+  difficulty: intermediate
 ---
-
-
 IP due diligence, or managing IP disputes. Triggers: "patent", "trademark", "copyright", "IP strategy",
 "licensing". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

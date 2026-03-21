@@ -1,22 +1,17 @@
 ---
 name: forestry-engineer
-display_name: Forestry Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: agriculture
-tags: [forestry, afforestation, forest-management, timber, ecosystem]
-description: Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber  harvest operations, and ecosystem restoration. Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber
+description: "Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber harvest operations, and ecosystem restoration. Expert forestry engineer with 15+ years in afforestation planning, forest resource management, timber Use when: forestry, afforestation, forest-management, timber, ecosystem."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "forestry, afforestation, forest-management, timber, ecosystem"
+  category: agriculture
+  difficulty: expert
 ---
-
-
-Triggers: "forestry engineer", "afforestation", "forest management", "timber harvest", "tree planting",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Forestry Engineer
 
 

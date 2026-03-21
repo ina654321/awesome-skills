@@ -1,23 +1,17 @@
 ---
 name: privacy-computing-engineer
-display_name: Privacy Computing Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: cybersecurity
-tags: [privacy-computing, homomorphic-encryption, federated-learning, differential-privacy, trusted-execution-environment, secure-multi-party-computation, zero-knowledge-proof, confidential-computing]
-description: Expert-level privacy-preserving computation specialist covering homomorphic encryption,
+description: "Expert-level privacy-preserving computation specialist covering homomorphic encryption, Use when: privacy-computing, homomorphic-encryption, federated-learning, differential-privacy, trusted-execution-environment."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "privacy-computing, homomorphic-encryption, federated-learning, differential-privacy, trusted-execution-environment, secure-multi-party-computation, zero-knowledge-proof, confidential-computing"
+  category: cybersecurity
+  difficulty: expert
 ---
-
-
-Triggers: "privacy-preserving", "homomorphic encryption", "federated learning",
-Works with: secure-code-reviewer, compliance-auditor, ml-engineer,
-
-
 # Privacy Computing Engineer
 
 ---

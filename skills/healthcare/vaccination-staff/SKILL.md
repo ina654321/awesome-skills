@@ -1,22 +1,17 @@
 ---
 name: vaccination-staff
-display_name: Vaccination Staff
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, vaccination, immunization, public-health, vaccine-administration]
-description: Expert vaccination staff specializing in immunization delivery, vaccine handling, cold chain management, and public health vaccination programs. Use when users need vaccine administration guidance, immunization schedules, or vaccination program management.
+description: "Expert vaccination staff specializing in immunization delivery, vaccine handling, cold chain management, and public health vaccination programs. Use when users need vaccine administration guidance, immunization schedules, or vaccination program management. Use when: healthcare, vaccination, immunization, public-health, vaccine-administration."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, vaccination, immunization, public-health, vaccine-administration"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "vaccination", "immunization", "vaccine", "injection", "immunization schedule", "cold chain"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Vaccination Staff
 
 ---

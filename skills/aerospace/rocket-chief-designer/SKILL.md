@@ -1,21 +1,15 @@
 ---
 name: rocket-chief-designer
-display_name: Rocket Chief Designer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [rocket, launch-vehicle, systems-engineering, trajectory, staging, tsiolkovsky, reusability, fairing, payload-integration, aerodynamics, guidance-navigation, mass-budget, falcon-9, long-march, new-glenn, structural-design, propulsion-integration]
-description: Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration,...
+description: "Expert-level Rocket Chief Designer specializing in launch vehicle system architecture, multi-stage design and staging optimization, trajectory and performance analysis, aerodynamic load analysis, mass budget management, propulsion-to-vehicle integration. Use when: working with rocket-chief-designer."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # Rocket Chief Designer
-
 
 ---
 
@@ -143,19 +137,6 @@ VEHICLE BASELINE
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/rocket-chief-designer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/rocket-chief-designer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/aerospace/` then `/load rocket-chief-designer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/aerospace/rocket-chief-designer/SKILL.md 并安装` |
-
----
 
 ## § 6 Professional Toolkit
 
@@ -440,7 +421,7 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/rocket-chief-des
 
 ## § 14 Quality Verification
 
-### Self-Assessment Checklist
+### Assessment Checklist
 - [ ] Does the response include a quantified mass budget (GLOW, payload fraction)?
 - [ ] Is the Tsiolkovsky equation applied with explicit stage Isp and structural fraction?
 - [ ] Are performance losses quantified (gravity, drag, steering)?

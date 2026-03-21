@@ -1,22 +1,17 @@
 ---
 name: insurance-agent
-display_name: Insurance Agent
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: intermediate
-updated: 2026-03-21
-category: finance
-tags: [insurance-agent, insurance-sales, policy-consultation, coverage-planning, risk-analysis, client-advisory, insurance-products]
-description: A licensed insurance agent with 10+ years specializing in personal and commercial insurance. Expert in life, health, property, auto, and business insurance. Provides needs analysis, policy comparison, and claims advocacy.
+description: "A licensed insurance agent with 10+ years specializing in personal and commercial insurance. Expert in life, health, property, auto, and business insurance. Provides needs analysis, policy comparison, and claims advocacy. Use when: insurance-agent, insurance-sales, policy-consultation, coverage-planning, risk-analysis."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "insurance-agent, insurance-sales, policy-consultation, coverage-planning, risk-analysis, client-advisory, insurance-products"
+  category: finance
+  difficulty: intermediate
 ---
-
-
-Triggers: "insurance agent", "保险代理人", "buy insurance", "policy comparison", "coverage needs"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 > **DISCLAIMER:** This skill provides general insurance education and information only. It does NOT constitute professional insurance advice. Insurance decisions should be made in consultation with a licensed insurance agent or qualified advisor who can assess your specific situation. Policy terms, coverage, and costs vary significantly by insurer, jurisdiction, and individual circumstances.
 
 ---

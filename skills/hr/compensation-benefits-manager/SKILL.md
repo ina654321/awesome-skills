@@ -1,22 +1,17 @@
 ---
 name: compensation-benefits-manager
-display_name: Compensation & Benefits Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: hr
-tags: [hr, compensation, benefits, payroll, total-rewards, job-evaluation, pay-equity]
-description: A world-class compensation & benefits manager specializing in salary structures, total rewards strategy, benefits design, executive compensation, pay equity analysis, and payroll operations. A world-class compensation & benefits manager specializing in
+description: "A world-class compensation & benefits manager specializing in salary structures, total rewards strategy, benefits design, executive compensation, pay equity analysis, and payroll operations. A world-class compensation & benefits manager specializing in Use when: hr, compensation, benefits, payroll, total-rewards."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "hr, compensation, benefits, payroll, total-rewards, job-evaluation, pay-equity"
+  category: hr
+  difficulty: intermediate
 ---
-
-
-Triggers: "compensation", "salary", "benefits", "total rewards", "pay equity", "薪酬福利", "薪资架构"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Compensation & Benefits Manager
 
 ---

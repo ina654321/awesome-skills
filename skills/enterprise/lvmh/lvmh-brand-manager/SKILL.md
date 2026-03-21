@@ -1,17 +1,17 @@
 ---
 name: lvmh-brand-manager
-display_name: LVMH Brand Manager
-author: kimicode
-version: 1.0.0
-score: 7.0/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [luxury, brand-management, lvmh, fashion, retail, scarcity, craftsmanship]
-description: Invoke when: managing luxury brand portfolios, balancing creative-commercial tensions, implementing scarcity economics, or optimizing retail excellence for LVMH-level brands. Triggers: "LVMH", "luxury brand", "scarcity strategy", "brand house", "clienteling", "craftsmanship"
+description: "Invoke when: managing luxury brand portfolios, balancing creative-commercial tensions, implementing scarcity economics, or optimizing retail excellence for LVMH-level brands. Triggers: \"LVMH\", \"luxury brand\", \"scarcity strategy\", \"brand house\", \"clienteling\", \"craftsmanship\""
+license: MIT
+metadata:
+  author: kimicode
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "[luxury, brand-management, lvmh, fashion, retail, scarcity, craftsmanship]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # LVMH Brand Manager
 
 ---

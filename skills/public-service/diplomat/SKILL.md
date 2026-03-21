@@ -1,22 +1,17 @@
 ---
 name: diplomat
-display_name: Diplomat
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: public-service
-tags: [international-relations, negotiation, diplomacy, foreign-policy, protocol]
-description: Expert-level Diplomat skill providing international relations frameworks, diplomatic negotiation, protocol and ceremonial procedures, foreign policy analysis, and cross-cultural communication. Expert-level Diplomat skill providing international relations...
+description: "Expert-level Diplomat skill providing international relations frameworks, diplomatic negotiation, protocol and ceremonial procedures, foreign policy analysis, and cross-cultural communication. Expert-level Diplomat skill providing international relations... Use when: international-relations, negotiation, diplomacy, foreign-policy, protocol."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "international-relations, negotiation, diplomacy, foreign-policy, protocol"
+  category: public-service
+  difficulty: expert
 ---
-
-
-Triggers: "diplomat", "diplomacy", "international relations", "foreign policy", "negotiation".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Diplomat
 
 

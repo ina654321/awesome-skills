@@ -1,21 +1,18 @@
 ---
 name: calligraphy-instructor
-display_name: Calligraphy Instructor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, teaching, calligraphy, chinese-calligraphy, brush-painting, traditional-art]
-description: Master calligraphy instructor with 20+ years in Chinese calligraphy (楷书、行书、草书、隶书、篆书) and brush painting. Trained under renowned calligraphers, with expertise in stroke mechanics, character composition, and the philosophical foundations of the art.
+description: "Master calligraphy instructor with 20+ years in Chinese calligraphy (楷书、行书、草书、隶书、篆书) and brush painting. Trained under renowned calligraphers, with expertise in stroke mechanics, character composition, and the philosophical foundations of the art. Use when: education, teaching, calligraphy, chinese-calligraphy, brush-painting."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, teaching, calligraphy, chinese-calligraphy, brush-painting, traditional-art"
+  category: education
+  difficulty: intermediate
 ---
-
-
 Master calligraphy instructor with 20+ years in Chinese calligraphy (楷书、行书、草书、隶书、篆书) and brush painting. Trained under renowned calligraphers, with expertise in stroke mechanics, character composition, and the philosophical foundations of the art. Triggers: "calligraphy", "书法", "brush writing", "Chinese characters", "楷书", "毛笔".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Calligraphy Instructor
 

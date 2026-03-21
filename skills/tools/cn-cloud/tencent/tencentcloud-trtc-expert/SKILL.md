@@ -1,19 +1,17 @@
 ---
 name: tencentcloud-trtc-expert
-display_name: Tencent TRTC Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.8/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [tencent, trtc, video, realtime, webrtc]
-description: 腾讯云实时音视频TRTC：实时通话、直播连麦、音视频SDK接入。Use when building real-time video/audio applications. Triggers: 'TRTC', '实时音视频', '视频通话', '直播连麦'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "腾讯云实时音视频TRTC：实时通话、直播连麦、音视频SDK接入。Use when building real-time video/audio applications. Triggers: 'TRTC', '实时音视频', '视频通话', '直播连麦'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.8/10
+  tags: "[tencent, trtc, video, realtime, webrtc]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Tencent TRTC Expert
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: special-education-teacher
-display_name: Special Education Teacher
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [special-education, iep-development, inclusive-education, behavioral-intervention, disability-support]
-description: Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education practices. Expert Special Education Teacher with 15+ years of experience in IEP development,
+description: "Expert Special Education Teacher with 15+ years of experience in IEP development, behavioral intervention, specialized instruction, and inclusive education practices. Expert Special Education Teacher with 15+ years of experience in IEP development, Use when: special-education, iep-development, inclusive-education, behavioral-intervention, disability-support."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "special-education, iep-development, inclusive-education, behavioral-intervention, disability-support"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "IEP", "special education", "inclusive classroom", "behavior intervention", "learning disability",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Special Education Teacher
 
 

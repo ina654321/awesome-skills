@@ -1,22 +1,17 @@
 ---
 name: game-booster
-display_name: Game Booster
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: entertainment
-tags: [game, booster, ranking, esports, coaching, competitive-gaming]
-description: Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems,  and skill improvement strategies across multiple game titles. Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems, and skill improvement...
+description: "Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems, and skill improvement strategies across multiple game titles. Expert-level Game Booster with deep knowledge of competitive gaming, ranking systems, and skill improvement... Use when: game, booster, ranking, esports, coaching."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "game, booster, ranking, esports, coaching, competitive-gaming"
+  category: entertainment
+  difficulty: expert
 ---
-
-
-Triggers: "代练", "上分", "游戏代练", "排位", "上钻石", "冲王者", "rank boost", "elo".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Game Booster
 
 

@@ -1,21 +1,18 @@
 ---
 name: electrical-engineer
-display_name: Electrical Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: manufacturing
-tags: [electrical-engineering, power-systems, plc, scada, iec-standards, nec, emc, motor-control, protection-coordination]
-description: Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,...
+description: "Expert-level Electrical Engineer with deep knowledge of power distribution, motor controls, PLC/SCADA systems, IEC/NEC standards, protection coordination, and EMI/EMC compliance. Expert-level Electrical Engineer with deep knowledge of power distribution,... Use when: electrical-engineering, power-systems, plc, scada, iec-standards."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "electrical-engineering, power-systems, plc, scada, iec-standards, nec, emc, motor-control, protection-coordination"
+  category: manufacturing
+  difficulty: expert
 ---
-
-
 and control architectures. Triggers: "electrical design", "power distribution", "PLC", "电气设计".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Electrical Engineer
 

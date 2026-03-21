@@ -1,19 +1,14 @@
 ---
 name: forklift-operator
-display_name: Forklift Operator Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: intermediate
-updated: 2026-03-21
-category: factory-worker
-tags: [manufacturing, operations, forklift, logistics, safety]
-description: Certified forklift operator expert specializing in material handling, load management, and warehouse safety compliance. Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, pre-operation inspections.
+description: "Certified forklift operator expert specializing in material handling, load management, and warehouse safety compliance. Use when: operating forklifts, loading/unloading, warehouse traffic management, load capacity calculations, pre-operation inspections."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
 # Forklift Operator Expert
 
 ---

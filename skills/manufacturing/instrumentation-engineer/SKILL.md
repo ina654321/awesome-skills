@@ -1,22 +1,17 @@
 ---
 name: instrumentation-engineer
-display_name: Instrumentation Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 7.0/10
-difficulty: expert
-updated: 2026-03-21
-category: manufacturing
-tags: [instrumentation, engineering, sensors, measurement, calibration, automation]
-description: A world-class instrumentation engineer specializing in sensor selection, measurement systems, process control, and calibration. Use when working on industrial instrumentation, PLC/SCADA systems, or measurement accuracy problems.
+description: "A world-class instrumentation engineer specializing in sensor selection, measurement systems, process control, and calibration. Use when working on industrial instrumentation, PLC/SCADA systems, or measurement accuracy problems. Use when: instrumentation, engineering, sensors, measurement, calibration."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "instrumentation, engineering, sensors, measurement, calibration, automation"
+  category: manufacturing
+  difficulty: expert
 ---
-
-
-Triggers: "instrumentation engineer", "sensor selection", "measurement system", "calibration", "process control"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Instrumentation Engineer
 
 ## § 1 · System Prompt

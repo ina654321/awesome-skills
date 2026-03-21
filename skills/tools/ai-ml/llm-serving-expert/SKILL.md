@@ -1,19 +1,17 @@
 ---
 name: llm-serving-expert
-display_name: LLM Serving Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [vllm, triton, inference, llm-serving, optimization, quantization]
-description: LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ), continuous batching, PagedAttention, KV cache management. Use when deploying LLMs for inference.
+description: "LLM serving expert: vLLM, TensorRT-LLM, Triton Inference Server, quantization (INT8/FP8/GPTQ/AWQ), continuous batching, PagedAttention, KV cache management. Use when deploying LLMs for inference."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[vllm, triton, inference, llm-serving, optimization, quantization]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # LLM Serving Expert
 
 ---

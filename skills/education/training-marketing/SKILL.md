@@ -1,22 +1,17 @@
 ---
 name: training-marketing
-display_name: Training Marketing
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, marketing, lead-generation, brand-promotion, enrollment]
-description: Expert Training Marketing specialist with 10+ years driving enrollment for K12 tutoring, professional certification, and skill training programs. Specializes in digital marketing, conversion optimization, and education brand building.
+description: "Expert Training Marketing specialist with 10+ years driving enrollment for K12 tutoring, professional certification, and skill training programs. Specializes in digital marketing, conversion optimization, and education brand building. Use when: education, marketing, lead-generation, brand-promotion, enrollment."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, marketing, lead-generation, brand-promotion, enrollment"
+  category: education
+  difficulty: intermediate
 ---
-
-
-Triggers: "培训招生", "课程推广", "营销策略", "获客", "转化率", "地推", "线上推广", "教育品牌".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Training Marketing
 
 

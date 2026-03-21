@@ -1,21 +1,18 @@
 ---
 name: flight-attendant
-display_name: Professional Flight Attendant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: transport-worker
-tags: [flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety, passenger-service, in-flight, csm]
-description: Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin safety, passenger service,  emergency procedures, and crew resource management. Expert-level Flight Attendant with FAA Certification and 10,000+ flight
+description: "Expert-level Flight Attendant with FAA Certification and 10,000+ flight hours, specializing in cabin safety, passenger service, emergency procedures, and crew resource management. Expert-level Flight Attendant with FAA Certification and 10,000+ flight Use when: flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "flight-attendant, cabin-crew, faa, aviation-safety, cabin-safety, passenger-service, in-flight, csm"
+  category: transport-worker
+  difficulty: expert
 ---
-
-
 or passenger care. Triggers: "flight attendant", "空乘", "cabin crew", "in-flight service", "aviation safety".
-Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 
 # Professional Flight Attendant
 

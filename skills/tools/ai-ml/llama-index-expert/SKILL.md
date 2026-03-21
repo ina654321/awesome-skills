@@ -1,19 +1,17 @@
 ---
 name: llama-index-expert
-display_name: LlamaIndex Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [llamaindex, rag, indexing, llm, retrieval-augmented-generation]
-description: Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector stores. Provides: Index selection, embedding configuration, retrieval strategies, and pipeline optimization.
+description: "Invoke when: User needs help with LlamaIndex RAG pipelines, index types, query engines, or vector stores. Provides: Index selection, embedding configuration, retrieval strategies, and pipeline optimization."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[llamaindex, rag, indexing, llm, retrieval-augmented-generation]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # LlamaIndex Expert
 
 **Self-Score:** 9.5/10 — Exemplary

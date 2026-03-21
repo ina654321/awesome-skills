@@ -1,19 +1,17 @@
 ---
 name: spark-expert
-display_name: Apache Spark Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [spark, big-data, data-engineering, distributed-computing, etl]
-description: Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE, and adaptive execution. Use when processing large datasets, building ETL pipelines, or running distributed computations.
+description: "Apache Spark expert: DataFrame API, Spark SQL, Spark Structured Streaming, performance tuning, AQE, and adaptive execution. Use when processing large datasets, building ETL pipelines, or running distributed computations."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[spark, big-data, data-engineering, distributed-computing, etl]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Spark Expert
 
 **Self-Score:** 9.5/10 — Exemplary

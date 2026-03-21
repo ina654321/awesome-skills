@@ -1,22 +1,17 @@
 ---
 name: genomics-analyst
-display_name: Genomics Analyst
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, genomics, bioinformatics, precision-medicine, genetics]
-description: Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations.
+description: "Senior Genomics Analyst specializing in genomic data analysis, disease risk assessment, precision medicine applications, and bioinformatics. Use when analyzing genetic variants, interpreting NGS data, or developing genomic-informed clinical recommendations. Use when: healthcare, genomics, bioinformatics, precision-medicine, genetics."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, genomics, bioinformatics, precision-medicine, genetics"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "genomics analyst", "variant interpretation", "NGS analysis", "precision medicine", "genetic risk"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Genomics Analyst
 
 ---

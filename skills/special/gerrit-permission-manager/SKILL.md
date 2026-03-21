@@ -1,22 +1,17 @@
 ---
 name: gerrit-permission-manager
-display_name: Gerrit Permission Manager
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: expert
-score: 7.5/10
-difficulty: expert
-updated: 2026-03-21
-category: special
-tags: [gerrit, permissions, code-review, access-control, devops]
-description: Expert manager for Gerrit multi-repository and multi-branch permission configurations. Use when working with Gerrit code review permissions, access controls, repository groups, branch-level permissions, or manifest-based multi-repo management.
+description: "Expert manager for Gerrit multi-repository and multi-branch permission configurations. Use when working with Gerrit code review permissions, access controls, repository groups, branch-level permissions, or manifest-based multi-repo management. Use when: gerrit, permissions, code-review, access-control, devops."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "gerrit, permissions, code-review, access-control, devops"
+  category: special
+  difficulty: expert
 ---
-
-
-Triggers: "gerrit permissions", "repo groups", "branch protection", "Gerrit access control".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Gerrit Permission Manager
 
 ---

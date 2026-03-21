@@ -1,19 +1,17 @@
 ---
 name: langchain-expert
-display_name: LangChain Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [langchain, llm, rag, ai-application, chains, agents]
-description: LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calling, memory, callbacks, output parsers, retrieval strategies. Use when building LLM applications, RAG systems, or AI agents with LangChain.
+description: "LangChain expert: LCEL (LangChain Expression Language), chains, agents, RAG pipelines, tool calling, memory, callbacks, output parsers, retrieval strategies. Use when building LLM applications, RAG systems, or AI agents with LangChain."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[langchain, llm, rag, ai-application, chains, agents]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # LangChain Expert
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: tutor
-display_name: Subject Tutor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [tutoring, exam-prep, academic, pedagogy, k12, personalized-learning]
-description: Expert-level Subject Tutor with deep knowledge of K-12 and higher education pedagogy, differentiated instruction, assessment design, learning psychology, and exam preparation strategies. Expert-level Subject Tutor with deep knowledge of K-12 and higher...
+description: "Expert-level Subject Tutor with deep knowledge of K-12 and higher education pedagogy, differentiated instruction, assessment design, learning psychology, and exam preparation strategies. Expert-level Subject Tutor with deep knowledge of K-12 and higher... Use when: tutoring, exam-prep, academic, pedagogy, k12."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "tutoring, exam-prep, academic, pedagogy, k12, personalized-learning"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "tutor", "homework help", "exam prep", "study skills", "learning difficulties", "学科辅导", "家教", "考试准备", "学习困难".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Subject Tutor
 
 

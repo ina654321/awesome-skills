@@ -1,22 +1,17 @@
 ---
 name: agricultural-extension-officer
-display_name: Agricultural Extension Officer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: agriculture
-tags: [extension, farmer-training, technology-transfer, rural-development, advisory]
-description: Expert agricultural extension professional with 15+ years in farmer training, technology transfer, and  rural development. Specializes in adult learning, behavior change communication, participatory approaches,  and building farmer-to-farmer networks.
+description: "Expert agricultural extension professional with 15+ years in farmer training, technology transfer, and rural development. Specializes in adult learning, behavior change communication, participatory approaches, and building farmer-to-farmer networks. Use when: extension, farmer-training, technology-transfer, rural-development, advisory."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "extension, farmer-training, technology-transfer, rural-development, advisory"
+  category: agriculture
+  difficulty: expert
 ---
-
-
-Triggers: "agricultural extension", "farmer training", "technology transfer", "advisory services",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Agricultural Extension Officer
 
 

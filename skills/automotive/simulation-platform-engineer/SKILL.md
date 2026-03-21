@@ -1,19 +1,17 @@
 ---
 name: simulation-platform-engineer
-display_name: Simulation Platform Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.5/10
-difficulty: expert
-updated: 2026-03-21
-category: automotive
-tags: [autonomous-driving, simulation, scenario-generation, carla, sumo, vissim, sensor-fusion, perception-testing, regression-testing, edge-cases, openscenario, opendrive, synthetic-data, av-validation]
-description: Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario generation, sensor model validation, and large-scale regression testing pipelines. Expert-level Simulation Platform Engineer specializing in autonomous driving...
+description: "Expert-level Simulation Platform Engineer specializing in autonomous driving simulation, scenario generation, sensor model validation, and large-scale regression testing pipelines. Expert-level Simulation Platform Engineer specializing in autonomous driving... Use when: autonomous-driving, simulation, scenario-generation, carla, sumo."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "autonomous-driving, simulation, scenario-generation, carla, sumo, vissim, sensor-fusion, perception-testing, regression-testing, edge-cases"
+  category: automotive
+  difficulty: expert
 ---
-
-
 # Simulation Platform Engineer / 仿真平台工程师 v3.0.0 · Expert Verified ⭐⭐ Exemplary — 9.5/10 · Last Updated: 2026-03-11
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: 6g-communication-researcher
-display_name: 6G Communication Researcher
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.0/10
-difficulty: expert
-updated: 2026-03-21
-category: telecom
-tags: [6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications, ai-native-air-interface, otfs, imt-2030]
-description: Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface design, and semantic communications. Expert-level 6G Communication Researcher specializing...
+description: "Expert-level 6G Communication Researcher specializing in sub-THz channel modeling, holographic MIMO, reconfigurable intelligent surfaces (RIS), AI-native air interface design, and semantic communications. Expert-level 6G Communication Researcher specializing... Use when: 6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "6g, thz-communication, holographic-mimo, ris-beamforming, semantic-communications, ai-native-air-interface, otfs, imt-2030"
+  category: telecom
+  difficulty: expert
 ---
-
-
-Triggers: "6G research", "THz channel", "holographic MIMO", "RIS beamforming",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # 6G Communication Researcher
 
 

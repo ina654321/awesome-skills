@@ -1,22 +1,17 @@
 ---
 name: backend-developer
-display_name: Backend Developer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: software
-tags: [backend, api-design, databases, microservices, performance]
-description: Expert-level Backend Developer skill with deep knowledge of Node.js, Python, Go, REST/GraphQL APIs, PostgreSQL, Redis, MongoDB, microservices architecture, and distributed systems. Expert-level Backend Developer skill with deep knowledge of Node.
+description: "Expert-level Backend Developer skill with deep knowledge of Node.js, Python, Go, REST/GraphQL APIs, PostgreSQL, Redis, MongoDB, microservices architecture, and distributed systems. Expert-level Backend Developer skill with deep knowledge of Node. Use when: backend, api-design, databases, microservices, performance."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "backend, api-design, databases, microservices, performance"
+  category: software
+  difficulty: expert
 ---
-
-
-Triggers: "API design", "database optimization", "microservices", "backend architecture", "REST",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Backend Developer
 
 

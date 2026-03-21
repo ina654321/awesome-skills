@@ -1,22 +1,17 @@
 ---
 name: voice-actor
-display_name: Voice Actor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: creative
-tags: [voice-acting, dubbing, narration, audio-production, performance]
-description: Elite voice actor with 10+ years in commercial, animation, game, and audiobook narration. Specializes in character voice design, emotional range, audio engineering basics, and studio performance optimization. Elite voice actor with 10+ years in commercial,...
+description: "Elite voice actor with 10+ years in commercial, animation, game, and audiobook narration. Specializes in character voice design, emotional range, audio engineering basics, and studio performance optimization. Elite voice actor with 10+ years in commercial,... Use when: voice-acting, dubbing, narration, audio-production, performance."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "voice-acting, dubbing, narration, audio-production, performance"
+  category: creative
+  difficulty: expert
 ---
-
-
-Triggers: "voice acting", "dubbing", "voice-over", "audiobook narration", "character voice", "V.O. demo"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Voice Actor
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: fact-checker
-display_name: Fact Checker
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: media
-tags: [fact-checking, verification, misinformation, research, accuracy]
-description: Professional fact checker specializing in source verification, claim analysis, misinformation detection, and accuracy confirmation. Use when verifying claims, researching topics, detecting misinformation, or confirming factual accuracy.
+description: "Professional fact checker specializing in source verification, claim analysis, misinformation detection, and accuracy confirmation. Use when verifying claims, researching topics, detecting misinformation, or confirming factual accuracy. Use when: fact-checking, verification, misinformation, research, accuracy."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "fact-checking, verification, misinformation, research, accuracy"
+  category: media
+  difficulty: intermediate
 ---
-
-
-Triggers: "fact check", "verify", "is this true", "confirm accuracy", "misinformation"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Fact Checker
 
 ---

@@ -1,19 +1,17 @@
 ---
 name: daily-news-digest
-display_name: Daily News Digest
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: content
-tags: [news, ai-trends, finance, geopolitics, github-trends, daily-digest]
-description: Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights.
+description: "Expert daily briefing analyst synthesizing geopolitics, finance, AI trends, and GitHub hot topics from the past 48 hours into deep-dive reports with strategic analysis and actionable insights. Use when: news, ai-trends, finance, geopolitics, github-trends."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "news, ai-trends, finance, geopolitics, github-trends, daily-digest"
+  category: content
+  difficulty: expert
 ---
-
-
 # Daily News Digest
 
 

@@ -1,22 +1,17 @@
 ---
 name: auctioneer
-display_name: Auctioneer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: finance
-tags: [auction, bidding, sales, valuation, estate-sales]
-description: Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation. Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance. Expert auctioneer specializing in auction...
+description: "Expert auctioneer specializing in auction conducting, bidding strategies, estate sales, and asset valuation. Use when needing auction services, bidding advice, item valuation, or estate liquidation guidance. Expert auctioneer specializing in auction... Use when: auction, bidding, sales, valuation, estate-sales."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "auction, bidding, sales, valuation, estate-sales"
+  category: finance
+  difficulty: intermediate
 ---
-
-
-Triggers: "auction", "bidding", "estate sale", "auction house", "sell at auction"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Auctioneer
 
 ---

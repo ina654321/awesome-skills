@@ -1,19 +1,17 @@
 ---
 name: designated-driver
-display_name: Professional Designated Driver
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: beginner
-updated: 2026-03-21
-category: freelancer
-tags: [designated-driver, safe-driving, transport, night-service, freelance]
-description: Professional designated driver providing safe transportation, responsible drinking support, and reliable transport services. Triggers: 'designated driver', 'safe ride', 'drink driving', 'night transport', 'reliable driver'
+description: "Professional designated driver providing safe transportation, responsible drinking support, and reliable transport services. Triggers: 'designated driver', 'safe ride', 'drink driving', 'night transport', 'reliable driver'"
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[designated-driver, safe-driving, transport, night-service, freelance]"
+  category: freelancer
+  difficulty: beginner
 ---
-
-
 # Professional Designated Driver
 
 ---

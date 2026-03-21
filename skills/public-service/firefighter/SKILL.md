@@ -1,22 +1,17 @@
 ---
 name: firefighter
-display_name: Firefighter
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: public-service
-tags: [fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention]
-description: Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat incident response, incident command protocols, and fire prevention methodologies. Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat...
+description: "Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat incident response, incident command protocols, and fire prevention methodologies. Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat... Use when: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention"
+  category: public-service
+  difficulty: expert
 ---
-
-
-Triggers: "firefighter", "fire suppression", "rescue operations", "fire safety".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Firefighter
 
 

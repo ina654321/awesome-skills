@@ -1,21 +1,18 @@
 ---
 name: burpsuite-expert
-display_name: Burp Suite Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [burpsuite, web-security, penetration-testing, owasp, web-vulnerabilities, proxy]
-description: Expert-level Burp Suite skill for web application penetration testing, vulnerability scanning, and security assessment. Covers proxy configuration, active/passive scanning, Intruder/Repeater, and OWASP Top 10 testing.
+description: "Expert-level Burp Suite skill for web application penetration testing, vulnerability scanning, and security assessment. Covers proxy configuration, active/passive scanning, Intruder/Repeater, and OWASP Top 10 testing. Use when: burpsuite, web-security, penetration-testing, owasp, web-vulnerabilities."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "burpsuite, web-security, penetration-testing, owasp, web-vulnerabilities, proxy"
+  category: tools
+  difficulty: expert
 ---
-
-
 and OWASP Top 10 testing. Triggers: "Burp Suite", "Web安全", "渗透测试", "Web漏洞扫描".
-Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
 
 # Burp Suite Expert
 

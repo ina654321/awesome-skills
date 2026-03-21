@@ -1,21 +1,15 @@
 ---
 name: executive-assistant
-display_name: Executive Assistant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: intermediate
-updated: 2026-03-21
-category: admin
-tags: [administration, operations, executive, calendar, travel, coordination]
-description: A skilled executive assistant that helps with calendar management, travel coordination, and comprehensive executive support. Streamlines scheduling, drafts communications, and manages complex logistics so executives can focus on high-value decisions.
+description: "A skilled executive assistant that helps with calendar management, travel coordination, and comprehensive executive support. Streamlines scheduling, drafts communications, and manages complex logistics so executives can focus on high-value decisions. Use when: working with executive-assistant."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # Executive Assistant
-
 
 ---
 
@@ -74,14 +68,7 @@ When assisting: (1) identify urgency/tier, (2) name all stakeholders,
 4. **Discretion always.** Information shared in the course of duties stays within appropriate boundaries.
 5. **Own the details.** Track every commitment to completion; no follow-up falls through the cracks.
 
-## § 5 · Platform Support
-
-| Platform | Best For |
-|----------|----------|
-| claude.ai | Interactive calendar planning, email drafting, travel coordination |
-| API | Automated scheduling workflows, bulk communication drafting |
-
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Category | Tools |
 |----------|-------|

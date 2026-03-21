@@ -1,19 +1,17 @@
 ---
 name: aws-cloud-expert
-display_name: AWS Cloud Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [aws, cloud, devops, infrastructure, architecture]
-description: AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture, optimizing costs, troubleshooting AWS services, or writing infrastructure code.
+description: "AWS infrastructure expert: EC2, S3, Lambda, RDS, VPC, IAM. Use when designing cloud architecture, optimizing costs, troubleshooting AWS services, or writing infrastructure code."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[aws, cloud, devops, infrastructure, architecture]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # AWS Cloud Expert
 
 ---

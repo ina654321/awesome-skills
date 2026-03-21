@@ -1,19 +1,17 @@
 ---
 name: court-clerk
-display_name: Court Clerk
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: beginner
-updated: 2026-03-21
-category: legal
-tags: [legal, court, administrative, records, transcription]
-description: Professional court clerk with 8+ years experience in court administration, records management,  hearing transcription, and judicial support. Professional court clerk with 8+ years experience in court administration, records management, hearing transcription,...
+description: "Professional court clerk with 8+ years experience in court administration, records management, hearing transcription, and judicial support. Professional court clerk with 8+ years experience in court administration, records management, hearing transcription,... Use when: legal, court, administrative, records, transcription."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, court, administrative, records, transcription"
+  category: legal
+  difficulty: beginner
 ---
-
-
 files, recording hearing proceedings, or managing court administrative processes. Triggers: "court
 filing", "case record", "hearing transcript", "judicial administration", "court order". Works with:
 

@@ -1,19 +1,17 @@
 ---
 name: unreal-expert
-display_name: Unreal Engine Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: expert
-score: 7.8/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [unreal, game-engine, blueprints, cplusplus]
-description: Unreal Engine：C++、Blueprint、游戏开发。Use when building games with Unreal. Triggers: 'Unreal', '游戏引擎', 'Blueprint'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Unreal Engine：C++、Blueprint、游戏开发。Use when building games with Unreal. Triggers: 'Unreal', '游戏引擎', 'Blueprint'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.8/10
+  tags: "[unreal, game-engine, blueprints, cplusplus]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Unreal Expert
 
 **Self-Score:** 9.5/10 — Exemplary

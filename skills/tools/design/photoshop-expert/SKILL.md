@@ -1,19 +1,17 @@
 ---
 name: photoshop-expert
-display_name: Photoshop Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [photoshop, image-editing, design, adobe]
-description: Photoshop图像处理：图层、蒙版、合成。Use when editing images with Photoshop. Triggers: 'Photoshop', '图像处理', '设计'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "Photoshop图像处理：图层、蒙版、合成。Use when editing images with Photoshop. Triggers: 'Photoshop', '图像处理', '设计'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[photoshop, image-editing, design, adobe]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Photoshop Expert
 
 **Self-Score:** 9.5/10 — Exemplary

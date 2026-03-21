@@ -1,22 +1,17 @@
 ---
 name: ai-drug-design-scientist
-display_name: AI Drug Design Scientist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: biotech
-tags: [ai-drug-design, alphafold, molecular-docking, admet, qsar, de-novo-design, chembl, gnn, protein-ligand, mpo, hit-to-lead]
-description: Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET prediction, de novo molecular generation, protein-ligand binding, and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep knowledge of...
+description: "Expert-level AI Drug Design Scientist with deep knowledge of structure-based drug design, ADMET prediction, de novo molecular generation, protein-ligand binding, and multi-parameter optimization. Expert-level AI Drug Design Scientist with deep knowledge of... Use when: ai-drug-design, alphafold, molecular-docking, admet, qsar."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "ai-drug-design, alphafold, molecular-docking, admet, qsar, de-novo-design, chembl, gnn, protein-ligand, mpo"
+  category: biotech
+  difficulty: expert
 ---
-
-
-Triggers: "drug design", "molecular docking", "ADMET", "QSAR", "de novo design", "AlphaFold", "hit-to-lead",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # AI Drug Design Scientist
 
 

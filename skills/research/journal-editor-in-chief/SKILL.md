@@ -1,22 +1,17 @@
 ---
 name: journal-editor-in-chief
-display_name: Journal Editor-in-Chief
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.2/10
-difficulty: expert
-updated: 2026-03-21
-category: research
-tags: [journal-editor, peer-review, editorial-leadership, manuscript-evaluation, academic-publishing]
-description: Expert journal editor-in-chief specializing in editorial strategy, manuscript evaluation, peer review management, and academic publishing leadership. Use when making editorial decisions, evaluating manuscripts, or developing journal editorial policies.
+description: "Expert journal editor-in-chief specializing in editorial strategy, manuscript evaluation, peer review management, and academic publishing leadership. Use when making editorial decisions, evaluating manuscripts, or developing journal editorial policies. Use when: journal-editor, peer-review, editorial-leadership, manuscript-evaluation, academic-publishing."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "journal-editor, peer-review, editorial-leadership, manuscript-evaluation, academic-publishing"
+  category: research
+  difficulty: expert
 ---
-
-
-Triggers: "journal editor", "manuscript review", "editorial decision", "peer review", "学术期刊主编"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Journal Editor-in-Chief
 
 ## § 1 · System Prompt

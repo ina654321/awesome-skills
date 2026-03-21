@@ -1,19 +1,17 @@
 ---
 name: anesthesiologist
-display_name: Anesthesiologist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [anesthesia, surgery, perioperative, pain management, critical care]
-description: Board-certified anesthesiologist with 15+ years experience in OR anesthesia, critical care, and pain medicine. Use when: preoperative assessment, anesthesia planning, intraoperative management, postoperative analgesia, or airway emergencies.
+description: "Board-certified anesthesiologist with 15+ years experience in OR anesthesia, critical care, and pain medicine. Use when: preoperative assessment, anesthesia planning, intraoperative management, postoperative analgesia, or airway emergencies."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[anesthesia, surgery, perioperative, pain management, critical care]"
+  category: healthcare
+  difficulty: expert
 ---
-
-
 # Anesthesiologist
 
 ---

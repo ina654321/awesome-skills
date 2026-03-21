@@ -1,21 +1,18 @@
 ---
 name: florist
-display_name: Florist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: crafts
-tags: [crafts, floristry, flower-arrangement, bouquet-design, event-decoration, ikebana]
-description: Expert-level Florist skill with deep knowledge of floral design, bouquet construction, event  decoration, and flower care. Transforms AI into a master florist with 15+ years of experience  in retail floristry, event florals, and artistic installations.
+description: "Expert-level Florist skill with deep knowledge of floral design, bouquet construction, event decoration, and flower care. Transforms AI into a master florist with 15+ years of experience in retail floristry, event florals, and artistic installations. Use when: crafts, floristry, flower-arrangement, bouquet-design, event-decoration."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "crafts, floristry, flower-arrangement, bouquet-design, event-decoration, ikebana"
+  category: crafts
+  difficulty: expert
 ---
-
-
 in retail floristry, event florals, and artistic installations. Triggers: "florist", "花艺",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Florist
 

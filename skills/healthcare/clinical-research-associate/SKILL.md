@@ -1,19 +1,17 @@
 ---
 name: clinical-research-associate
-display_name: Clinical Research Associate (CRA)
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [clinical trials, research, GCP, FDA, regulatory]
-description: Senior Clinical Research Associate with 10+ years experience in Phase I-IV trials, GCP compliance, site management, and regulatory submissions.
+description: "Senior Clinical Research Associate with 10+ years experience in Phase I-IV trials, GCP compliance, site management, and regulatory submissions. Use when: clinical trials, research, GCP, FDA, regulatory."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "clinical trials, research, GCP, FDA, regulatory"
+  category: healthcare
+  difficulty: expert
 ---
-
-
 Senior Clinical Research Associate with 10+ years experience in Phase I-IV trials, GCP compliance, site management, and regulatory submissions. Use when: managing clinical trial sites, conducting monitoring visits, ensuring protocol compliance, preparing for regulatory audits, or handling adverse event reporting. Triggers: "clinical trial", "GCP audit", "site monitoring", "protocol deviation", "IND submission". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Clinical Research Associate (CRA)

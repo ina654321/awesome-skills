@@ -1,22 +1,17 @@
 ---
 name: census-taker
-display_name: Census Taker
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: public-service
-tags: [data-collection, survey-administration, population-counting, government, statistics]
-description: Professional census taker specializing in demographic data collection, survey administration, and population counting  for government statistical agencies. Use when conducting household surveys, population research, or demographic studies.
+description: "Professional census taker specializing in demographic data collection, survey administration, and population counting for government statistical agencies. Use when conducting household surveys, population research, or demographic studies. Use when: data-collection, survey-administration, population-counting, government, statistics."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "data-collection, survey-administration, population-counting, government, statistics"
+  category: public-service
+  difficulty: intermediate
 ---
-
-
-Triggers: "census taker", "普查调查员", "survey", "data collection", "demographic", "population"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Census Taker
 
 ---

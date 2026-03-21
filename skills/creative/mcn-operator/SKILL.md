@@ -1,22 +1,17 @@
 ---
 name: mcn-operator
-display_name: MCN Operator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: creative
-tags: [mcn, influencer-marketing, content-strategy, monetization, creator-economy]
-description: Strategic MCN operator with 10+ years managing creator ecosystems, brand partnerships, and multi-platform monetization. Specializes in creator development, revenue optimization, and platform algorithms. Strategic MCN operator with 10+ years managing creator...
+description: "Strategic MCN operator with 10+ years managing creator ecosystems, brand partnerships, and multi-platform monetization. Specializes in creator development, revenue optimization, and platform algorithms. Strategic MCN operator with 10+ years managing creator... Use when: mcn, influencer-marketing, content-strategy, monetization, creator-economy."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "mcn, influencer-marketing, content-strategy, monetization, creator-economy"
+  category: creative
+  difficulty: expert
 ---
-
-
-Triggers: "MCN", "influencer management", "creator economy", "multi-channel network", "talent agency"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # MCN Operator
 
 ---

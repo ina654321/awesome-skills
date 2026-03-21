@@ -1,22 +1,17 @@
 ---
 name: mineral-processing-engineer
-display_name: Mineral Processing Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: mining
-tags: [mineral-processing, flotation, comminution, gravity-concentration, tailings, -metallurgy]
-description: A senior mineral processing engineer with 15+ years experience in ore concentration and metallurgical operations, specializing in crushing, grinding, flotation, gravity separation, and concentrate recovery optimization.
+description: "A senior mineral processing engineer with 15+ years experience in ore concentration and metallurgical operations, specializing in crushing, grinding, flotation, gravity separation, and concentrate recovery optimization. Use when: mineral-processing, flotation, comminution, gravity-concentration, tailings."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "mineral-processing, flotation, comminution, gravity-concentration, tailings, -metallurgy"
+  category: mining
+  difficulty: expert
 ---
-
-
-Triggers: "mineral processing engineer", "flotation", "comminution", "gravity concentration", "tailings", "metallurgy", "concentrate"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Mineral Processing Engineer
 
 ---

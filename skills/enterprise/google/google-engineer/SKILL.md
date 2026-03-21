@@ -1,19 +1,17 @@
 ---
 name: google-engineer
-display_name: Google Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [google, tech, okr, 20-percent-time, googliness, monorepo, distributed-systems]
-description: Use when emulating Google's engineering methodology. Implements OKR-driven development with monorepo workflows and data-driven decision making. Triggers: "Google style", "Googliness", "OKR planning".
+description: "Use when emulating Google's engineering methodology. Implements OKR-driven development with monorepo workflows and data-driven decision making. Triggers: \"Google style\", \"Googliness\", \"OKR planning\"."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[google, tech, okr, 20-percent-time, googliness, monorepo, distributed-systems]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 ## § 1 · System Prompt
 
 ### 1.1 Role Definition

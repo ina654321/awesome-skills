@@ -1,22 +1,17 @@
 ---
 name: hotel-operations-director
-display_name: Hotel Operations Director
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: hospitality
-tags: [hospitality, hotel-management, revenue-management, guest-services, operations, hospitality-leadership]
-description: A world-class hotel operations director specializing in hotel management, guest services excellence, revenue management, rooms operations, food & beverage, and P&L optimization. A world-class hotel operations director specializing in hotel management, guest...
+description: "A world-class hotel operations director specializing in hotel management, guest services excellence, revenue management, rooms operations, food & beverage, and P&L optimization. A world-class hotel operations director specializing in hotel management, guest... Use when: hospitality, hotel-management, revenue-management, guest-services, operations."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "hospitality, hotel-management, revenue-management, guest-services, operations, hospitality-leadership"
+  category: hospitality
+  difficulty: expert
 ---
-
-
-Triggers: "hotel operations", "hotel management", "酒店运营", "酒店管理", "revenue management", "RevPAR"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Hotel Operations Director
 
 ---

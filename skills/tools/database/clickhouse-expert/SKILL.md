@@ -1,19 +1,14 @@
 ---
 name: clickhouse-expert
-display_name: ClickHouse Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.2/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [clickhouse, olap, database, analytics, columnar, mergetree, materialized-view]
-description: Expert-level ClickHouse database skill covering columnar storage, MergeTree engine families, materialized views, and high-performance OLAP analytics. Supports triggers: 'ClickHouse', 'OLAP', '列式数据库', 'MergeTree', '物化视图'.
+description: "ClickHouse expert for columnar OLAP analytics, MergeTree engines, materialized views, and high-performance data warehousing. Use when designing ClickHouse schemas, optimizing analytical queries, or managing clusters. Use when: working with clickhouse-expert."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # ClickHouse Expert
 
 

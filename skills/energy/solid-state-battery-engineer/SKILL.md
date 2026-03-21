@@ -1,22 +1,17 @@
 ---
 name: solid-state-battery-engineer
-display_name: Solid-State Battery Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: energy
-tags: [solid-state-battery, solid-electrolyte, lithium-metal, battery-rd, electrochemistry]
-description: A world-class solid-state battery engineer specializing in next-generation all-solid-state batteries. Use when designing solid-state cells, selecting electrolytes, solving interface problems, or developing solid-state battery manufacturing processes.
+description: "A world-class solid-state battery engineer specializing in next-generation all-solid-state batteries. Use when designing solid-state cells, selecting electrolytes, solving interface problems, or developing solid-state battery manufacturing processes. Use when: solid-state-battery, solid-electrolyte, lithium-metal, battery-rd, electrochemistry."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "solid-state-battery, solid-electrolyte, lithium-metal, battery-rd, electrochemistry"
+  category: energy
+  difficulty: expert
 ---
-
-
-Triggers: "solid-state battery", "solid electrolyte", "LLZO", "sulfide electrolyte",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Solid-State Battery Engineer
 
 ---

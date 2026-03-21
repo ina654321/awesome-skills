@@ -1,22 +1,17 @@
 ---
 name: livestream-seller
-display_name: Livestream Seller
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: freelancer
-tags: [livestream, e-commerce, sales, audience-engagement, product-demonstration]
-description: Expert-level livestream seller specializing in live selling, product demonstration, audience engagement, conversion optimization. Use when creating livestream content, handling real-time sales, building audience relationships, or optimizing conversion rates.
+description: "Expert-level livestream seller specializing in live selling, product demonstration, audience engagement, conversion optimization. Use when creating livestream content, handling real-time sales, building audience relationships, or optimizing conversion rates. Use when: livestream, e-commerce, sales, audience-engagement, product-demonstration."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "livestream, e-commerce, sales, audience-engagement, product-demonstration"
+  category: freelancer
+  difficulty: expert
 ---
-
-
-Triggers: "直播带货", "livestream sales", "product demo", "live selling", "audience engagement"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Livestream Seller
 
 ---

@@ -1,23 +1,15 @@
 ---
 name: airworthiness-certification-engineer
-display_name: Airworthiness Certification Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: aerospace
-tags: [airworthiness, certification, faa, easa, caac, type-certificate, do-178c, do-254, arp4761, arp4754a, fmea, fta, part-23, part-25, part-27, part-33, means-of-compliance, elos, issue-paper, dar, der]
-description: Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate applications, DO-178C (software), DO-254 (hardware), ARP4761 safety assessment, ARP4754A system development, means of compliance (MoC) development, Issue Paper...
+description: "Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate applications, DO-178C software, DO-254 hardware, ARP4761/ARP4754A safety assessment, and means of compliance development. Use when: airworthiness certification, type certificate applications, DO-178C/DO-254 compliance, safety assessment."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
 ---
-
-
 # Airworthiness Certification Engineer
-
-
----
 
 ## § 1 System Prompt
 
@@ -129,21 +121,7 @@ This skill transforms your AI assistant into an expert **Airworthiness Certifica
 
 ---
 
-## § 5 Platform Support
-
-| Platform | Installation Command |
-|----------|---------------------|
-| **Claude Code** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/airworthiness-certification-engineer/SKILL.md and install` |
-| **OpenCode** | `Read https://theneoai.github.io/awesome-skills/skills/aerospace/airworthiness-certification-engineer/SKILL.md and install` |
-| **OpenClaw** | Place file in `~/.openclaw/skills/aerospace/` then `/load airworthiness-certification-engineer` |
-| **Cursor** | Copy system prompt (§1) to `.cursorrules` or project CLAUDE.md |
-| **Cline** | Add system prompt to Cline custom instructions in VS Code settings |
-| **Codex** | Include system prompt as the first message in the conversation context |
-| **Kimi Code** | `读取 https://theneoai.github.io/awesome-skills/skills/aerospace/airworthiness-certification-engineer/SKILL.md 并安装` |
-
----
-
-## § 6 Professional Toolkit
+## § 5 Professional Toolkit
 
 ### Standards & Regulatory Documents
 | Document | Scope | Jurisdiction |
@@ -170,7 +148,7 @@ This skill transforms your AI assistant into an expert **Airworthiness Certifica
 
 ---
 
-## § 7 Standards & Reference
+## § 6 Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
 
@@ -178,7 +156,7 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## § 8 Standard Workflow
+## § 7 Standard Workflow
 
 See [references/08-workflow.md](references/08-workflow.md)
 
@@ -186,7 +164,7 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
-## § 9 · Scenario Examples
+## § 8 · Scenario Examples
 
 See [references/09-scenarios.md](references/09-scenarios.md)
 
@@ -270,7 +248,7 @@ See [references/09-scenarios.md](references/09-scenarios.md)
 
 ---
 
-## § 10 Common Pitfalls & Anti-Patterns
+## § 9 Common Pitfalls & Anti-Patterns
 
 See [references/10-pitfalls.md](references/10-pitfalls.md)
 
@@ -353,7 +331,7 @@ Country-specific requirements NOT covered by BASA:
 
 ---
 
-## § 11 Integration with Other Skills
+## § 10 Integration with Other Skills
 
 ### Airworthiness Certification Engineer + eVTOL Chief Designer
 **Workflow**: Proactive certification strategy for novel eVTOL design decisions
@@ -378,7 +356,7 @@ Country-specific requirements NOT covered by BASA:
 
 ---
 
-## § 12 Scope & Limitations
+## § 11 Scope & Limitations
 
 ### When to Use This Skill
 - ✅ Planning and executing FAA TC, STC, or TSO certification programs
@@ -397,7 +375,7 @@ Country-specific requirements NOT covered by BASA:
 
 ---
 
-## § 13 How to Use This Skill
+## § 12 How to Use This Skill
 
 ### Quick Install
 ```
@@ -416,9 +394,9 @@ Read https://theneoai.github.io/awesome-skills/skills/aerospace/airworthiness-ce
 
 ---
 
-## § 14 Quality Verification
+## § 13 Quality Verification
 
-### Self-Assessment Checklist
+### Quality Checklist
 - [ ] Does the response cite specific regulatory paragraphs (14 CFR §xx.xxx, CS-xx)?
 - [ ] Is the certification basis (TC/STC/TSO and amendment level) identified?
 - [ ] Are failure condition classifications per ARP4761 terminology used?

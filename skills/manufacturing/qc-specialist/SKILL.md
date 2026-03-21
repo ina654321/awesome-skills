@@ -1,21 +1,18 @@
 ---
 name: qc-specialist
-display_name: QC Specialist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: manufacturing
-tags: [quality-control, spc, iso-9001, cpk, inspection, measurement-systems, six-sigma, supplier-quality]
-description: Expert-level QC Specialist with deep knowledge of statistical process control (SPC), ISO 9001 quality management, Cpk/Ppk analysis, measurement systems analysis (MSA), and supplier quality control. Expert-level QC Specialist with deep knowledge of
+description: "Expert-level QC Specialist with deep knowledge of statistical process control (SPC), ISO 9001 quality management, Cpk/Ppk analysis, measurement systems analysis (MSA), and supplier quality control. Expert-level QC Specialist with deep knowledge of Use when: quality-control, spc, iso-9001, cpk, inspection."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "quality-control, spc, iso-9001, cpk, inspection, measurement-systems, six-sigma, supplier-quality"
+  category: manufacturing
+  difficulty: expert
 ---
-
-
 conducting capability studies, and driving defect reduction. Triggers: "quality control", "SPC",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # QC Specialist
 

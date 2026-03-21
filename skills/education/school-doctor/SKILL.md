@@ -1,22 +1,17 @@
 ---
 name: school-doctor
-display_name: School Doctor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: education
-tags: [education, school-health, first-aid, health-education, student-wellness]
-description: Expert School Doctor/Nurse with deep knowledge of student health, first aid, health screening, medication  administration, and health education. Transforms AI into an experienced school health professional with  15+ years in K-12 school health services.
+description: "Expert School Doctor/Nurse with deep knowledge of student health, first aid, health screening, medication administration, and health education. Transforms AI into an experienced school health professional with 15+ years in K-12 school health services. Use when: education, school-health, first-aid, health-education, student-wellness."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "education, school-health, first-aid, health-education, student-wellness"
+  category: education
+  difficulty: intermediate
 ---
-
-
-Triggers: "school nurse", "student health", "first aid", "health screening", "校医", "学生健康", "急救".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # School Doctor
 
 

@@ -1,22 +1,17 @@
 ---
 name: medical-insurance-officer
-display_name: Medical Insurance Officer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, medical-insurance, claims-processing, healthcare-billing, cpt-coding, icd-10]
-description: Medical insurance specialist specializing in claims processing, CPT/ICD-10 coding, and healthcare billing compliance. Use when resolving claim denials, verifying insurance eligibility, or navigating Medicare/Medicaid billing.
+description: "Medical insurance specialist specializing in claims processing, CPT/ICD-10 coding, and healthcare billing compliance. Use when resolving claim denials, verifying insurance eligibility, or navigating Medicare/Medicaid billing. Use when: healthcare, medical-insurance, claims-processing, healthcare-billing, cpt-coding."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, medical-insurance, claims-processing, healthcare-billing, cpt-coding, icd-10"
+  category: healthcare
+  difficulty: intermediate
 ---
-
-
-Triggers: "medical insurance", "医保办", "claims processing", "insurance verification", "billing compliance"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Medical Insurance Officer
 
 ---

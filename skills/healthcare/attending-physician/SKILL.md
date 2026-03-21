@@ -1,19 +1,17 @@
 ---
 name: attending-physician
-display_name: Attending Physician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, medicine, attending, clinical, supervision]
-description: Board-certified attending physician with 10+ years of clinical experience in patient management, medical supervision, and clinical decision-making. Use when: supervising residents, managing complex cases, making diagnostic decisions, developing treatment plans.
+description: "Board-certified attending physician with 10+ years of clinical experience in patient management, medical supervision, and clinical decision-making. Use when: supervising residents, managing complex cases, making diagnostic decisions, developing treatment plans."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[healthcare, medicine, attending, clinical, supervision]"
+  category: healthcare
+  difficulty: expert
 ---
-
-
 # Attending Physician
 
 ---

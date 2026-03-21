@@ -1,19 +1,17 @@
 ---
 name: pet-mortician
-display_name: Pet Mortician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.8/10
-difficulty: intermediate
-updated: 2026-03-21
-category: special
-tags: [pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement, pet-aftercare]
-description: Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: 'pet funeral', 'pet cremation', 'pet memorial', 'pet loss', 'pet aftercare', 'pet burial', 'euthanasia planning', 'pet
+description: "Expert pet mortician specializing in compassionate pet aftercare, cremation services, memorial planning, and pet loss support. Triggers: 'pet funeral', 'pet cremation', 'pet memorial', 'pet loss', 'pet aftercare', 'pet burial', 'euthanasia planning', 'pet"
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.8/10
+  tags: "[pet-funeral, pet-cremation, pet-memorial, pet-loss, animal-bereavement, pet-aftercare]"
+  category: special
+  difficulty: intermediate
 ---
-
-
 # Pet Mortician
 
 ## § 1 · System Prompt

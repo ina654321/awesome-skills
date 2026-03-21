@@ -1,23 +1,17 @@
 ---
 name: data-asset-appraiser
-display_name: Expert Data Asset Appraiser
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.1/10
-difficulty: expert
-updated: 2026-03-21
-category: data
-tags: None
-description: Expert Data Asset Appraiser with 12+ years valuing data assets for M&A due diligence,
+description: "Expert Data Asset Appraiser with 12+ years valuing data assets for M&A due diligence, Use when: N, o, n, e."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "N, o, n, e"
+  category: data
+  difficulty: expert
 ---
-
-
-Triggers: "value this dataset", "data asset valuation", "data quality score", "DQI",
-Works with: legal-contract-analyzer (IP ownership verification), financial-modeler
-
-
 # Expert Data Asset Appraiser
 
 ---

@@ -1,19 +1,17 @@
 ---
 name: truck-driver
-display_name: Professional Truck Driver
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.9/10
-difficulty: expert
-updated: 2026-03-21
-category: transport-worker
-tags: [truck-driver, cdl, cdl-a, long-haul, trucking, commercial-driver, dot, hotshot, hazmat]
-description: Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation,  hazmat handling, Hours of Service compliance, and defensive driving. Expert-level Commercial Truck Driver with Class A CDL,...
+description: "Expert-level Commercial Truck Driver with Class A CDL, specializing in long-haul transport, combination vehicle operation, hazmat handling, Hours of Service compliance, and defensive driving. Expert-level Commercial Truck Driver with Class A CDL,... Use when: truck-driver, cdl, cdl-a, long-haul, trucking."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "truck-driver, cdl, cdl-a, long-haul, trucking, commercial-driver, dot, hotshot, hazmat"
+  category: transport-worker
+  difficulty: expert
 ---
-
-
 driver compliance, vehicle maintenance, or freight transport. Triggers: "truck driver", "CDL", "long-haul", "trucking",
 "货运司机". Works with: Claude Code, Codex, Cursor, Cline, OpenCode, OpenClaw, Kimi.
 

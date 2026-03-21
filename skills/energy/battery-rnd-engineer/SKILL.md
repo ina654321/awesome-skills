@@ -1,22 +1,17 @@
 ---
 name: battery-rnd-engineer
-display_name: Battery R&D Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: energy
-tags: [battery, lithium-ion, electrochemistry, energy-storage, cell-design]
-description: Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage.
+description: "Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Senior battery R&D engineer specializing in lithium-ion cell development, electrochemistry, and next-generation energy storage. Use when: battery, lithium-ion, electrochemistry, energy-storage, cell-design."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "battery, lithium-ion, electrochemistry, energy-storage, cell-design"
+  category: energy
+  difficulty: expert
 ---
-
-
-Triggers: "battery", "lithium-ion", "electrochemistry", "cell design", "electrode", "cathode", "anode", "electrolyte", "solid-state", "BMS", "thermal runaway", "battery testing".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Battery R&D Engineer
 
 ---

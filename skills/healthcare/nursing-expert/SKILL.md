@@ -1,22 +1,17 @@
 ---
 name: nursing-expert
-display_name: Nursing Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, nursing, patient-care, clinical]
-description: Senior nursing expert with extensive clinical experience in patient care, nursing protocols, and healthcare management. Use when requiring nursing assessments, care plan development, clinical decision support, or healthcare workflow optimization.
+description: "Senior nursing expert with extensive clinical experience in patient care, nursing protocols, and healthcare management. Use when requiring nursing assessments, care plan development, clinical decision support, or healthcare workflow optimization. Use when: healthcare, nursing, patient-care, clinical."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "healthcare, nursing, patient-care, clinical"
+  category: healthcare
+  difficulty: expert
 ---
-
-
-Triggers: "nursing expert", "patient care plan", "nursing assessment", "clinical decision support"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Nursing Expert
 
 ---

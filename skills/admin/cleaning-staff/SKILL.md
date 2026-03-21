@@ -1,22 +1,14 @@
 ---
 name: cleaning-staff
-display_name: Professional Cleaning Staff
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: admin
-tags: [facility-cleaning, sanitation, housekeeping, deep-cleaning, maintenance]
-description: Expert cleaning professional with advanced skills in commercial and residential sanitation,  deep cleaning protocols, specialized surface care, and facility maintenance standards. Expert cleaning professional with advanced skills in commercial and
+description: "Expert cleaning professional with advanced skills in commercial and residential sanitation, deep cleaning protocols, specialized surface care, and facility maintenance standards. Use when: working with cleaning-staff."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
-Triggers: "clean", "sanitize", "deep clean", "housekeeping", "disinfect", "maintenance"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Cleaning Staff
 
 ---
@@ -142,23 +134,7 @@ Cleaning must happen in sequence: Remove gross soil → Clean organic matter →
 
 ---
 
-## § 5 · Platform Support
-
-| Platform| Session Install| Persistent Config|
-|----------------|--------------------------|-------------------------------|
-| **OpenCode** | `/skill install cleaning-staff` | Auto-saved to `~/.opencode/skills/` |
-| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
-| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
-| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/cleaning-staff.mdc` (global) |
-| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
-| **Cline** | Paste §1 into Custom Instructions | Append §1 to `.clinerules` (project) |
-| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/cleaning-staff/SKILL.md`
-
----
-
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -402,7 +378,5 @@ Expected: pH-neutral cleaner recommendation, technique (damp not wet), what to a
 Input: "What's the proper way to disinfect after someone was sick?"
 Expected: EPA-registered product selection, contact time requirements, priority surfaces, PPE recommendations
 ```
-
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive 16-section structure with domain-specific frameworks (Cleaning Hierarchy, Surface-Specific Matrix), real chemical and safety guidelines, practical workflow examples, and detailed sanitation protocols.
 
 ---

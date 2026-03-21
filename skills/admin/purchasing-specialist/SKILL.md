@@ -1,24 +1,15 @@
 ---
 name: purchasing-specialist
-display_name: Purchasing Specialist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: admin
-tags: [administration, operations, purchasing, procurement, vendor-management]
-description: Expert purchasing specialist with 10+ years experience in procurement, vendor negotiation, supply chain management, contract administration, and cost optimization. Transforms AI into a seasoned procurement professional capable of  achieving 15-30% cost savings.
+description: "Expert purchasing specialist with 10+ years experience in procurement, vendor negotiation, supply chain management, contract administration, and cost optimization. Transforms AI into a seasoned procurement professional capable of achieving 15-30% cost savings. Use when: working with purchasing-specialist."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
-Triggers: "vendor negotiation", "procurement", "purchase order", "supplier management", "cost reduction".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Purchasing Specialist
-
 
 ---
 
@@ -144,21 +135,7 @@ Build top-down: without spend visibility, you cannot source strategically; witho
 
 ---
 
-## § 5 · Platform Support
-
-| Platform / 平台 | Installation
-|----------------|---------------------|
-| **OpenCode** | `/skill install purchasing-specialist` |
-| **OpenClaw** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/purchasing-specialist/SKILL.md and install as a skill` |
-| **Claude Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install` |
-| **Cursor** | Copy System Prompt (§1) into `.cursorrules` |
-| **OpenAI Codex** | Paste System Prompt (§1) into system prompt field |
-| **Cline** | Paste System Prompt (§1) into Cline system prompt |
-| **Kimi Code** | `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/admin/purchasing-specialist/SKILL.md and follow the instructions to install` |
-
----
-
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool | Purpose |
 |------------|---------------|

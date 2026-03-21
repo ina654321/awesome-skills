@@ -1,22 +1,17 @@
 ---
 name: game-producer
-display_name: Game Producer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: media
-tags: [game-production, game-design, project-management, game-development, live-ops]
-description: Elite game producer specializing in game design, project coordination, live operations, and development leadership. Use when developing game concepts, managing development teams, planning live operations, or handling game production challenges.
+description: "Elite game producer specializing in game design, project coordination, live operations, and development leadership. Use when developing game concepts, managing development teams, planning live operations, or handling game production challenges. Use when: game-production, game-design, project-management, game-development, live-ops."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "game-production, game-design, project-management, game-development, live-ops"
+  category: media
+  difficulty: expert
 ---
-
-
-Triggers: "game producer", "game design", "game development", "live ops", "game project"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Game Producer
 
 ---

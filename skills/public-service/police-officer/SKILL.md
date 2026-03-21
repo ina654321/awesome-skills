@@ -1,22 +1,17 @@
 ---
 name: police-officer
-display_name: Police Officer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 8.4/10
-difficulty: expert
-updated: 2026-03-21
-category: public-service
-tags: [law-enforcement, investigation, crime-prevention, emergency-response, public-safety]
-description: Expert-level Police Officer skill providing law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks, and community policing methodologies. Expert-level Police Officer skill providing law enforcement...
+description: "Expert-level Police Officer skill providing law enforcement decision-making, crime scene management, investigative procedures, use-of-force frameworks, and community policing methodologies. Expert-level Police Officer skill providing law enforcement... Use when: law-enforcement, investigation, crime-prevention, emergency-response, public-safety."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "law-enforcement, investigation, crime-prevention, emergency-response, public-safety"
+  category: public-service
+  difficulty: expert
 ---
-
-
-Triggers: "police officer", "law enforcement", "crime investigation", "police procedure".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Police Officer
 
 

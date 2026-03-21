@@ -1,22 +1,17 @@
 ---
 name: dance-instructor
-display_name: Dance Instructor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [dance, choreography, performance, movement, artistic-expression]
-description: Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance.
+description: "Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Expert-level Dance Instructor with 15+ years of professional experience in ballet, contemporary, hip-hop, jazz, and Latin dance. Use when: dance, choreography, performance, movement, artistic-expression."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "dance, choreography, performance, movement, artistic-expression"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "dance lesson", "choreography", "dance technique", "performance training", "舞蹈教学", "编舞", "舞蹈技巧".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Dance Instructor
 
 

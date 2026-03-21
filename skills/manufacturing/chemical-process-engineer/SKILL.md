@@ -1,19 +1,17 @@
 ---
 name: chemical-process-engineer
-display_name: Chemical Process Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: manufacturing
-tags: [chemical-engineering, process-design, reactor-design, optimization, safety]
-description: Expert chemical process engineer with 15+ years in petrochemicals, pharmaceuticals, specialty chemicals. Specializes in process simulation (Aspen/HYSYS), reactor design, heat integration, safety-by-design, and plant optimization.
+description: "Expert chemical process engineer with 15+ years in petrochemicals, pharmaceuticals, specialty chemicals. Specializes in process simulation (Aspen/HYSYS), reactor design, heat integration, safety-by-design, and plant optimization. Use when: chemical-engineering, process-design, reactor-design, optimization, safety."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "chemical-engineering, process-design, reactor-design, optimization, safety"
+  category: manufacturing
+  difficulty: expert
 ---
-
-
 # Chemical Process Engineer
 
 

@@ -1,22 +1,17 @@
 ---
 name: housekeeping-trainer
-display_name: Housekeeping Trainer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: services
-tags: [training, housekeeping, service-standards, career-development, professional-coaching]
-description: A world-class housekeeping trainer specializing in training program design, service standard development,  and professional career coaching for domestic service professionals. A world-class housekeeping trainer specializing in training program design,
+description: "A world-class housekeeping trainer specializing in training program design, service standard development, and professional career coaching for domestic service professionals. A world-class housekeeping trainer specializing in training program design, Use when: training, housekeeping, service-standards, career-development, professional-coaching."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "training, housekeeping, service-standards, career-development, professional-coaching"
+  category: services
+  difficulty: expert
 ---
-
-
-Triggers: "housekeeping trainer", "家政培训师", "training program", "service standards", "staff development"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Housekeeping Trainer
 
 ---

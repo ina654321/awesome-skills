@@ -1,19 +1,14 @@
 ---
 name: mongodb-expert
-display_name: MongoDB Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.1/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [mongodb, nosql, database, aggregation]
-description: MongoDB专家：文档设计、聚合管道、索引策略、分片集群。Use when designing MongoDB schemas, writing aggregation pipelines, or managing clusters. Triggers: 'MongoDB', '文档数据库', '聚合管道', '分片'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "MongoDB expert for document schema design, aggregation pipelines, indexing strategies, and sharded clusters. Use when designing MongoDB schemas, writing aggregation pipelines, or managing clusters. Use when: working with mongodb-expert."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
 ---
-
-
 # MongoDB Expert
 
 ---

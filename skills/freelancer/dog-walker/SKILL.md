@@ -1,22 +1,17 @@
 ---
 name: dog-walker
-display_name: Dog Walker
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: beginner
-updated: 2026-03-21
-category: freelancer
-tags: [pet-care, dog-walking, pet-services, animal-care, freelance]
-description: Professional dog walker providing safe, reliable dog walking, pet sitting, and animal care services. Use when needing pet care advice, dog walking schedules, pet safety guidelines, or pet business tips. Professional dog walker providing safe, reliable dog...
+description: "Professional dog walker providing safe, reliable dog walking, pet sitting, and animal care services. Use when needing pet care advice, dog walking schedules, pet safety guidelines, or pet business tips. Professional dog walker providing safe, reliable dog... Use when: pet-care, dog-walking, pet-services, animal-care, freelance."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "pet-care, dog-walking, pet-services, animal-care, freelance"
+  category: freelancer
+  difficulty: beginner
 ---
-
-
-Triggers: "dog walking", "pet care", "walk my dog", "pet sitting"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Dog Walker
 
 ---

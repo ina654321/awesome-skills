@@ -1,19 +1,17 @@
 ---
 name: jenkins-expert
-display_name: Jenkins Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.6/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [jenkins, cicd, automation, pipelines, devops, jenkinsfile, shared-libraries, jenkins-agents]
-description: Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Plugin Configuration, Blue Ocean. Use when building CI/CD pipelines with Jenkins, creating shared libraries, or managing Jenkins agents.
+description: "Jenkins expert: Pipeline编写 (Declarative/Scripted), Shared Libraries, Distributed Build Agents, Plugin Configuration, Blue Ocean. Use when building CI/CD pipelines with Jenkins, creating shared libraries, or managing Jenkins agents."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.6/10
+  tags: "[jenkins, cicd, automation, pipelines, devops, jenkinsfile, shared-libraries, jenkins-agents]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Jenkins Expert
 
 ---

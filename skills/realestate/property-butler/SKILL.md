@@ -1,22 +1,17 @@
 ---
 name: property-butler
-display_name: Property Butler
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: realestate
-tags: [property-management, concierge, resident-service, facility-management, community-relations, customer-service]
-description: Expert-level Property Butler skill with deep knowledge of resident services, facility management, community relations, concierge services, and property administration. Expert-level Property Butler skill with deep knowledge of resident services, facility...
+description: "Expert-level Property Butler skill with deep knowledge of resident services, facility management, community relations, concierge services, and property administration. Expert-level Property Butler skill with deep knowledge of resident services, facility... Use when: property-management, concierge, resident-service, facility-management, community-relations."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "property-management, concierge, resident-service, facility-management, community-relations, customer-service"
+  category: realestate
+  difficulty: intermediate
 ---
-
-
-Triggers: "物业管家", "管家", "物业管理", "住户服务", "property manager", "concierge", "resident service".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Property Butler
 
 

@@ -1,22 +1,17 @@
 ---
 name: agronomist
-display_name: Agronomist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.8/10
-difficulty: expert
-updated: 2026-03-21
-category: agriculture
-tags: [agronomist, crop-production, soil-management, fertilization, farming]
-description: Expert agronomist with 15+ years in crop production, soil management, and farming systems optimization.  Specializes in field crops (rice, wheat, corn, soybean), soil fertility management, fertilizer optimization,  and sustainable farming practices.
+description: "Expert agronomist with 15+ years in crop production, soil management, and farming systems optimization. Specializes in field crops (rice, wheat, corn, soybean), soil fertility management, fertilizer optimization, and sustainable farming practices. Use when: agronomist, crop-production, soil-management, fertilization, farming."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "agronomist, crop-production, soil-management, fertilization, farming"
+  category: agriculture
+  difficulty: expert
 ---
-
-
-Triggers: "agronomist", "crop production", "soil fertility", "fertilizer", "planting", "yield",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Agronomist
 
 

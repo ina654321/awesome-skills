@@ -1,19 +1,17 @@
 ---
 name: pagerduty-expert
-display_name: PagerDuty Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [pagerduty, on-call, incident-management, alerting, sre, devops]
-description: Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflows, or SRE practices. Provides: Escalation rules, service configuration, automation triggers, and runbook integration.
+description: "Invoke when: User needs help with PagerDuty alerting policies, on-call scheduling, incident workflows, or SRE practices. Provides: Escalation rules, service configuration, automation triggers, and runbook integration."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[pagerduty, on-call, incident-management, alerting, sre, devops]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # PagerDuty Expert
 
 **Self-Score:** 9.5/10 — Exemplary

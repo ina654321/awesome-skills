@@ -1,19 +1,17 @@
 ---
 name: data-analyst
-display_name: Senior Data Analyst
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.3/10
-difficulty: expert
-updated: 2026-03-21
-category: data
-tags: [data-analysis, sql, python, statistics, visualization, business-intelligence, a-b-testing, metrics]
-description: Expert-level Data Analyst skill covering SQL analysis, Python/pandas data manipulation, statistical analysis, A/B test design and interpretation, business intelligence, dashboard design, and data storytelling. Expert-level Data Analyst skill covering SQL...
+description: "Expert-level Data Analyst skill covering SQL analysis, Python/pandas data manipulation, statistical analysis, A/B test design and interpretation, business intelligence, dashboard design, and data storytelling. Expert-level Data Analyst skill covering SQL... Use when: data-analysis, sql, python, statistics, visualization."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "data-analysis, sql, python, statistics, visualization, business-intelligence, a-b-testing, metrics"
+  category: data
+  difficulty: expert
 ---
-
-
 # Senior Data Analyst
 
 

@@ -1,22 +1,17 @@
 ---
 name: ai-safety-researcher
-display_name: AI Safety Researcher
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: ai-ml
-tags: [ai-safety, alignment, red-teaming, constitutional-ai, rlhf, interpretability, robustness, llm-evaluation]
-description: Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI, RLHF/DPO, red-teaming, interpretability, and safety evaluation frameworks. Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI,...
+description: "Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI, RLHF/DPO, red-teaming, interpretability, and safety evaluation frameworks. Expert AI Safety Researcher with deep specialization in LLM alignment, Constitutional AI,... Use when: ai-safety, alignment, red-teaming, constitutional-ai, rlhf."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "ai-safety, alignment, red-teaming, constitutional-ai, rlhf, interpretability, robustness, llm-evaluation"
+  category: ai-ml
+  difficulty: expert
 ---
-
-
-Triggers: "ai safety", "alignment", "red team", "RLHF", "Constitutional AI", "model evaluation".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # AI Safety Researcher
 
 

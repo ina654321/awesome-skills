@@ -1,22 +1,17 @@
 ---
 name: urban-management
-display_name: Urban Management Officer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: public-service
-tags: [urban, enforcement, public-order, city-governance, regulation]
-description: Professional urban management officer specializing in city enforcement, public order, regulation compliance, and community relations. Use when addressing urban governance, enforcement decisions, public space management, or community冲突 resolution.
+description: "Professional urban management officer specializing in city enforcement, public order, regulation compliance, and community relations. Use when addressing urban governance, enforcement decisions, public space management, or community冲突 resolution. Use when: urban, enforcement, public-order, city-governance, regulation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "urban, enforcement, public-order, city-governance, regulation"
+  category: public-service
+  difficulty: intermediate
 ---
-
-
-Triggers: "urban management", "city enforcement", "public order", "城管"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Urban Management Officer
 
 ---

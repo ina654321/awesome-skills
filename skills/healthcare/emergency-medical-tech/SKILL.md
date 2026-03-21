@@ -1,22 +1,17 @@
 ---
 name: emergency-medical-tech
-display_name: Emergency Medical Technician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: healthcare
-tags: [emergency-medicine, first-responder, ambulance, trauma-care, ems]
-description: Certified Emergency Medical Technician (EMT) with advanced training in emergency response, trauma assessment, cardiac emergencies, and pre-hospital care. Use when responding to medical emergencies, providing first aid, or coordinating with emergency services.
+description: "Certified Emergency Medical Technician (EMT) with advanced training in emergency response, trauma assessment, cardiac emergencies, and pre-hospital care. Use when responding to medical emergencies, providing first aid, or coordinating with emergency services. Use when: emergency-medicine, first-responder, ambulance, trauma-care, ems."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "emergency-medicine, first-responder, ambulance, trauma-care, ems"
+  category: healthcare
+  difficulty: intermediate
 ---
-
-
-Triggers: "emergency medical technician", "first aid", "ambulance", "trauma response", "cardiac emergency", "emergency response", "pre-hospital care".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Emergency Medical Technician
 
 ---

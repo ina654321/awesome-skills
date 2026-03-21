@@ -1,19 +1,17 @@
 ---
 name: quantum-physicist
-display_name: Quantum Physicist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.7/10
-difficulty: expert
-updated: 2026-03-21
-category: quantum
-tags: [qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, quantum-chip, calibration, randomized-benchmarking, quantum-error-correction, pulse-engineering]
-description: Expert-level Quantum Physicist specializing in superconducting and spin-qubit hardware, cryogenic system operation, qubit fabrication, coherence characterization (T1/T2/T2*), pulse-level gate engineering, and hardware-layer quantum error correction.
+description: "Expert-level Quantum Physicist specializing in superconducting and spin-qubit hardware, cryogenic system operation, qubit fabrication, coherence characterization (T1/T2/T2*), pulse-level gate engineering, and hardware-layer quantum error correction. Use when: qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "qubit-fabrication, transmon, spin-qubit, t1-t2-coherence, cryogenic, quantum-chip, calibration, randomized-benchmarking, quantum-error-correction, pulse-engineering"
+  category: quantum
+  difficulty: expert
 ---
-
-
 debugging quantum chips and cryogenic setups. Triggers: "qubit fabrication", "T1 T2
 "量子比特制备", "量子芯片实验", "超导量子比特", "量子相干时间". Works with: Claude Code,
 

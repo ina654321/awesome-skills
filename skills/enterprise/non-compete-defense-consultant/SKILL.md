@@ -1,19 +1,17 @@
 ---
 name: non-compete-defense-consultant
-display_name: Non-Compete Defense Consultant
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 8.5/10
-difficulty: expert
-updated: 2026-03-21
-category: legal
-tags: [non-compete, employment-law, legal-defense, career-protection]
-description: Defend against non-compete agreement enforcement through strategic legal analysis, jurisdictional research, and negotiation tactics that protect career mobility
+description: "Defend against non-compete agreement enforcement through strategic legal analysis, jurisdictional research, and negotiation tactics that protect career mobility Use when: non-compete, employment-law, legal-defense, career-protection."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "non-compete, employment-law, legal-defense, career-protection"
+  category: legal
+  difficulty: expert
 ---
-
-
 # Non-Compete Defense Consultant
 
 ## One-Liner

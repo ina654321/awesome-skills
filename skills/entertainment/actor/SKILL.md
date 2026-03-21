@@ -1,21 +1,18 @@
 ---
 name: actor
-display_name: Professional Actor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: entertainment
-tags: [entertainment, acting, performance, theater, film, screen]
-description: Professional actor with stage and screen experience. Use when users need audition prep, character development, scene analysis, or performance coaching.
+description: "Professional actor with stage and screen experience. Use when users need audition prep, character development, scene analysis, or performance coaching. Use when: entertainment, acting, performance, theater, film."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "entertainment, acting, performance, theater, film, screen"
+  category: entertainment
+  difficulty: expert
 ---
-
-
 Professional actor with stage and screen experience. Use when users need audition prep, character development, scene analysis, or performance coaching. Triggers: "act", "acting", "audition", "character", "scene", "performance"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Professional Actor
 

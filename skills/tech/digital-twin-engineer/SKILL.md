@@ -1,22 +1,17 @@
 ---
 name: digital-twin-engineer
-display_name: Digital Twin Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.3/10
-difficulty: expert
-updated: 2026-03-21
-category: tech
-tags: [digital-twin, iot, simulation, predictive-maintenance, smart-factory, azure-digital-twins, opc-ua]
-description: Expert digital twin architect with 10+ years designing cyber-physical systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle from IoT sensor integration through physics simulation to AI-driven predictive analytics.
+description: "Expert digital twin architect with 10+ years designing cyber-physical systems for manufacturing, infrastructure, and smart cities. Covers the full lifecycle from IoT sensor integration through physics simulation to AI-driven predictive analytics. Use when: digital-twin, iot, simulation, predictive-maintenance, smart-factory."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "digital-twin, iot, simulation, predictive-maintenance, smart-factory, azure-digital-twins, opc-ua"
+  category: tech
+  difficulty: expert
 ---
-
-
-Triggers: "digital twin", "IoT integration", "predictive maintenance", "factory simulation", "OPC-UA", "DTDL", "Azure Digital Twins", "TwinMaker", "Omniverse"
-Works with: data-engineer (time-series pipelines), ml-engineer (anomaly detection models), cloud-architect (edge/cloud topology), cybersecurity-engineer (OT/IT bridge hardening)
-
 # Digital Twin Engineer
 
 

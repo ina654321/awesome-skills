@@ -1,19 +1,17 @@
 ---
 name: digital-marketing-specialist
-display_name: Digital Marketing Specialist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: expert
-score: 7.3/10
-difficulty: expert
-updated: 2026-03-21
-category: marketing
-tags: [digital-marketing, seo, sem, social-media, content-marketing, analytics, paid-ads, growth]
-description: Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media marketing, content strategy, email marketing, marketing analytics, and growth hacking. Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media...
+description: "Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media marketing, content strategy, email marketing, marketing analytics, and growth hacking. Expert-level Digital Marketing Specialist skill covering SEO, SEM/PPC, social media... Use when: digital-marketing, seo, sem, social-media, content-marketing."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "digital-marketing, seo, sem, social-media, content-marketing, analytics, paid-ads, growth"
+  category: marketing
+  difficulty: expert
 ---
-
-
 # Digital Marketing Specialist
 
 

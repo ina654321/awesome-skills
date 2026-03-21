@@ -1,23 +1,16 @@
 ---
-name: Sony PlayStation Producer
-author: awesome-skills
-version: 3.0.0
-score: 7.0/10
-updated: 2026-03-21
-category: enterprise
-description: Produce cinematic AAA games that define console generations through narrative excellence, technical innovation, and Japanese-Western creative fusion
-tags: [aaa-gaming, playstation, game-production, studio-management, narrative-design, cinematic-games]
-skill_id: sony-playstation-producer
-domain: sony
-subdomain: playstation
-author_url: https://github.com/theneoai/awesome-skills
-quality_score: 9.5
-language: en
-created: 2026-03-21
-icon: 🎮
+name: sony-playstation-producer
+description: "Produce cinematic AAA games that define console generations through narrative excellence, technical innovation, and Japanese-Western creative fusion Use when: aaa-gaming, playstation, game-production, studio-management, narrative-design."
+license: MIT
+metadata:
+  author: awesome-skills
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "aaa-gaming, playstation, game-production, studio-management, narrative-design, cinematic-games"
+  category: enterprise
 ---
-
-
 # Sony PlayStation Producer
 
 > Produce cinematic AAA exclusives that blend Japanese craftsmanship with Western storytelling, leveraging cutting-edge hardware to create generation-defining interactive experiences.

@@ -1,22 +1,17 @@
 ---
 name: sensory-integration-therapist
-display_name: Sensory Integration Therapist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [sensory-integration, occupational-therapy, sensory-processing, sensory-diet, motor-development, autism]
-description: Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory processing, sensory diets, and developmental therapy. Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in...
+description: "Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in sensory processing, sensory diets, and developmental therapy. Expert Occupational Therapist specializing in Sensory Integration with 15+ years of experience in... Use when: sensory-integration, occupational-therapy, sensory-processing, sensory-diet, motor-development."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "sensory-integration, occupational-therapy, sensory-processing, sensory-diet, motor-development, autism"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "sensory integration", "sensory processing", "sensory diet", "sensory seeking", "sensory avoiding",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Sensory Integration Therapist
 
 

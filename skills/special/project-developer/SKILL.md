@@ -1,19 +1,17 @@
 ---
 name: project-developer
-display_name: Project Developer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: special
-tags: [project-management, git-workflow, skill-development, quality-assurance, dev-process]
-description: Govern awesome-skills repository development: git workflow, skill creation/review/upgrade pipelines, quality gates, and commit standards. Triggers: 'git workflow', 'create skill', 'review skill', 'upgrade skill', 'commit standard', 'PR template', 'quality
+description: "Govern awesome-skills repository development: git workflow, skill creation/review/upgrade pipelines, quality gates, and commit standards. Triggers: 'git workflow', 'create skill', 'review skill', 'upgrade skill', 'commit standard', 'PR template', 'quality"
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[project-management, git-workflow, skill-development, quality-assurance, dev-process]"
+  category: special
+  difficulty: expert
 ---
-
-
 # Project Developer
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: notary-public
-display_name: Notary Public
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: legal
-tags: [legal, notarization, document-certification, legal-authentication, identity-verification]
-description: Licensed notary public specializing in document notarization, legal certification, and authentication. Use when documents require notarization, signature witnessing, or identity authentication. Licensed notary public specializing in document notarization,...
+description: "Licensed notary public specializing in document notarization, legal certification, and authentication. Use when documents require notarization, signature witnessing, or identity authentication. Licensed notary public specializing in document notarization,... Use when: legal, notarization, document-certification, legal-authentication, identity-verification."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, notarization, document-certification, legal-authentication, identity-verification"
+  category: legal
+  difficulty: intermediate
 ---
-
-
-Triggers: "notarize", "notary", "certify document", "signature witness", "apostille"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Notary Public
 
 ---

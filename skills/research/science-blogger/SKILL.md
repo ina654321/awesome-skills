@@ -1,22 +1,17 @@
 ---
 name: science-blogger
-display_name: Science Blogger
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 7.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: research
-tags: [science-blogger, science-communication, academic-social-media, content-creation, knowledge-sharing]
-description: Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science content for public audiences. Expert science blogger specializing in translating complex...
+description: "Expert science blogger specializing in translating complex research into accessible content, building academic social media presence, and creating engaging science content for public audiences. Expert science blogger specializing in translating complex... Use when: science-blogger, science-communication, academic-social-media, content-creation, knowledge-sharing."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "science-blogger, science-communication, academic-social-media, content-creation, knowledge-sharing"
+  category: research
+  difficulty: intermediate
 ---
-
-
-Triggers: "science blogger", "science communication", "research communication", "academic social media", "科研自媒体"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Science Blogger
 
 ## § 1 · System Prompt

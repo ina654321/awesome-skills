@@ -1,18 +1,17 @@
 ---
 name: ai-security-engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: standard
-score: 7.5/10
-difficulty: expert
-updated: 2026-03-21
-category: cybersecurity
-tags: [ai-security, adversarial-ml, llm-security, model-security, red-teaming, mlsecops, trustworthy-ai]
-description: Expert AI Security Engineer specializing in adversarial machine learning, LLM security,  model supply chain protection, and MLSecOps. Use when: securing LLM applications,  evaluating model robustness, implementing differential privacy, conducting authorized  AI red-teaming, securing ML pipelines, or mapping AI systems to EU AI Act/NIST AI RMF.
+description: "Expert AI Security Engineer specializing in adversarial machine learning, LLM security, model supply chain protection, and MLSecOps. Use when: securing LLM applications, evaluating model robustness, implementing differential privacy, conducting authorized AI red-teaming, securing ML pipelines, or mapping AI systems to EU AI Act/NIST AI RMF."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.5/10
+  tags: "[ai-security, adversarial-ml, llm-security, model-security, red-teaming, mlsecops, trustworthy-ai]"
+  category: cybersecurity
+  difficulty: expert
 ---
-
-
 # AI Security Engineer
 
 

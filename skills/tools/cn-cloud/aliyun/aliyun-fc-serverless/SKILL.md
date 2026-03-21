@@ -1,19 +1,17 @@
 ---
 name: aliyun-fc-serverless
-display_name: Aliyun Function Compute Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.9/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [aliyun, fc, serverless, function, lambda]
-description: 阿里云函数计算FC：Serverless函数开发、触发器配置、事件驱动。Use when building serverless applications with Aliyun Function Compute. Triggers: '函数计算', 'FC', 'Serverless', '阿里云函数'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
+description: "阿里云函数计算FC：Serverless函数开发、触发器配置、事件驱动。Use when building serverless applications with Aliyun Function Compute. Triggers: '函数计算', 'FC', 'Serverless', '阿里云函数'. Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: beta
+  score: 6.9/10
+  tags: "[aliyun, fc, serverless, function, lambda]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # Aliyun Function Compute Expert
 
 ---

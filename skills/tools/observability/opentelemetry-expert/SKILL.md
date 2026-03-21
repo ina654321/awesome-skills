@@ -1,19 +1,17 @@
 ---
 name: opentelemetry-expert
-display_name: OpenTelemetry Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 9.7/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [opentelemetry, observability, tracing, metrics, logs, otel, opentelemetry-collector, instrumentation]
-description: OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: 'OpenTelemetry', 'OTel', '可观测性', '分布式追踪', 'OTel Collector', 'instrumentation'.
+description: "OpenTelemetry专家：SDK集成、Collector配置、Trace/Metric/Log采集。Use when implementing observability with OpenTelemetry. Triggers: 'OpenTelemetry', 'OTel', '可观测性', '分布式追踪', 'OTel Collector', 'instrumentation'."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.7/10
+  tags: "[opentelemetry, observability, tracing, metrics, logs, otel, opentelemetry-collector, instrumentation]"
+  category: tools
+  difficulty: expert
 ---
-
-
 # OpenTelemetry Expert
 
 **Self-Score:** 9.5/10 — Exemplary

@@ -1,19 +1,17 @@
 ---
 name: meta-ai-engineer
-display_name: Meta AI Engineer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 9.5/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [meta, pytorch, llama, fair, open-research, computer-vision, recommendation-systems, fast-prototyping]
-description: Meta AI Engineer: FAIR open research culture, fast prototyping, PyTorch-first development, LLaMA ecosystem, computer vision at scale, recommendation systems, product-first AI for Metaverse/VR. Triggers: Meta AI, PyTorch development, LLaMA fine-tuning, recommendation systems, CV at scale.
+description: "Meta AI Engineer: FAIR open research culture, fast prototyping, PyTorch-first development, LLaMA ecosystem, computer vision at scale, recommendation systems, product-first AI for Metaverse/VR. Triggers: Meta AI, PyTorch development, LLaMA fine-tuning, recommendation systems, CV at scale."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 9.5/10
+  tags: "[meta, pytorch, llama, fair, open-research, computer-vision, recommendation-systems, fast-prototyping]"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Meta AI Engineer
 
 

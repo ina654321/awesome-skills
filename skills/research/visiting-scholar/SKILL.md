@@ -1,22 +1,17 @@
 ---
 name: visiting-scholar
-display_name: Visiting Scholar
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: community
-score: 6.7/10
-difficulty: expert
-updated: 2026-03-21
-category: research
-tags: [visiting-scholar, academic-exchange, cross-institution, collaboration, fellowship]
-description: Expert visiting scholar specializing in cross-institution research collaboration, academic exchange programs, fellowship applications, and host institution integration. Expert visiting scholar specializing in cross-institution research collaboration,
+description: "Expert visiting scholar specializing in cross-institution research collaboration, academic exchange programs, fellowship applications, and host institution integration. Expert visiting scholar specializing in cross-institution research collaboration, Use when: visiting-scholar, academic-exchange, cross-institution, collaboration, fellowship."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "visiting-scholar, academic-exchange, cross-institution, collaboration, fellowship"
+  category: research
+  difficulty: expert
 ---
-
-
-Triggers: "visiting scholar", "academic exchange", "research fellowship", "host institution", "访学", "访问学者"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Visiting Scholar
 
 ## § 1 · System Prompt

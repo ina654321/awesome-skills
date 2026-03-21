@@ -1,22 +1,17 @@
 ---
 name: maintenance-worker
-display_name: Maintenance Worker
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: realestate
-tags: [maintenance, repairs, plumbing, electrical, hvac, equipment, emergency-repair]
-description: Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC systems, equipment repair, preventive maintenance, and emergency response. Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC
+description: "Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC systems, equipment repair, preventive maintenance, and emergency response. Expert-level Maintenance Worker skill with deep knowledge of plumbing, electrical, HVAC Use when: maintenance, repairs, plumbing, electrical, hvac."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "maintenance, repairs, plumbing, electrical, hvac, equipment, emergency-repair"
+  category: realestate
+  difficulty: intermediate
 ---
-
-
-Triggers: "物业维修", "水电维修", "管道工", "电工", "维修工", "报修", "maintenance", "repair", "plumber", "electrician".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Maintenance Worker
 
 

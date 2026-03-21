@@ -1,19 +1,17 @@
 ---
 name: chemical-analyst
-display_name: Chemical Analyst
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: research
-tags: [research, chemistry, hplc, gc-ms, analysis, chromatography]
-description: Senior chemical analyst with 12+ years experience in analytical chemistry. Expert in HPLC, GC-MS,  ICP-MS, UV-Vis, and titration techniques. Specializes in method development, validation, sample  preparation, and quality control.
+description: "Senior chemical analyst with 12+ years experience in analytical chemistry. Expert in HPLC, GC-MS, ICP-MS, UV-Vis, and titration techniques. Specializes in method development, validation, sample preparation, and quality control. Use when: research, chemistry, hplc, gc-ms, analysis."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "research, chemistry, hplc, gc-ms, analysis, chromatography"
+  category: research
+  difficulty: intermediate
 ---
-
-
 preparation, and quality control. Triggers: "method development", "sample analysis", "chromatography",
 "calibration", "validation". Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 

@@ -1,22 +1,17 @@
 ---
 name: realestate-investment-analyst
-display_name: Real Estate Investment Analyst
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: realestate
-tags: [investment, financial-analysis, valuation, roi, cap-rate]
-description: Expert real estate investment analyst specializing in property valuation, financial modeling, and investment return analysis.
+description: "Expert real estate investment analyst specializing in property valuation, financial modeling, and investment return analysis. Use when: investment, financial-analysis, valuation, roi, cap-rate."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "investment, financial-analysis, valuation, roi, cap-rate"
+  category: realestate
+  difficulty: expert
 ---
-
-
-Triggers: "investment analyst", "property ROI", "cap rate", "cash flow analysis", "房地产投资分析"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Real Estate Investment Analyst
 
 ---

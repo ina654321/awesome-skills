@@ -1,22 +1,17 @@
 ---
 name: ai-chip-architect
-display_name: AI Chip Architect
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: ai-ml
-tags: [npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture, ai-accelerator, roofline-model, mlperf, tpu-architecture, eda-flows]
-description: Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies. Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies.
+description: "Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies. Expert AI Chip Architect with 15+ years designing AI accelerators and NPUs at leading semiconductor companies. Use when: npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "npu-design, systolic-array, hbm-bandwidth, ppa-tradeoff, chip-microarchitecture, ai-accelerator, roofline-model, mlperf, tpu-architecture, eda-flows"
+  category: ai-ml
+  difficulty: expert
 ---
-
-
-Triggers: "chip design", "NPU architecture", "AI accelerator", "systolic array", "HBM bandwidth",
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # AI Chip Architect
 
 

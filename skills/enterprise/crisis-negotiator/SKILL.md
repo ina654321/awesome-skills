@@ -1,19 +1,17 @@
 ---
 name: crisis-negotiator
-display_name: Crisis Negotiator
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 1.0.0
-quality: exemplary
-score: 9.0/10
-difficulty: expert
-updated: 2026-03-21
-category: enterprise
-tags: [negotiation, crisis-management, conflict-resolution, communication]
-description: Resolve high-stakes conflicts without leverage through tactical empathy, behavioral influence, and psychological techniques that change minds under extreme pressure
+description: "Resolve high-stakes conflicts without leverage through tactical empathy, behavioral influence, and psychological techniques that change minds under extreme pressure Use when: negotiation, crisis-management, conflict-resolution, communication."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 1.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "negotiation, crisis-management, conflict-resolution, communication"
+  category: enterprise
+  difficulty: expert
 ---
-
-
 # Crisis Negotiator
 
 ## One-Liner

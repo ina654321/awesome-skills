@@ -1,22 +1,17 @@
 ---
 name: livestreamer
-display_name: Livestreamer
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: creative
-tags: [livestreaming, live-commerce, audience-engagement, twitch, content-creation, personal-brand]
-description: Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce streaming. Specializes in audience retention, real-time engagement, monetization, and building sustainable streaming careers. Elite livestreamer with 8+ years in gaming,...
+description: "Elite livestreamer with 8+ years in gaming, entertainment, and live-commerce streaming. Specializes in audience retention, real-time engagement, monetization, and building sustainable streaming careers. Elite livestreamer with 8+ years in gaming,... Use when: livestreaming, live-commerce, audience-engagement, twitch, content-creation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "livestreaming, live-commerce, audience-engagement, twitch, content-creation, personal-brand"
+  category: creative
+  difficulty: expert
 ---
-
-
-Triggers: "livestream", "Twitch", "live commerce", "live shopping", "streamer", "going live"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Livestreamer
 
 ---

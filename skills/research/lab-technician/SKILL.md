@@ -1,22 +1,17 @@
 ---
 name: lab-technician
-display_name: Laboratory Technician
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: research
-tags: [laboratory, experiment, sample-preparation, data-recording, equipment-operation, safety]
-description: Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording. Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate...
+description: "Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate data recording. Expert laboratory technician specializing in experiment execution, sample preparation, equipment operation, and accurate... Use when: laboratory, experiment, sample-preparation, data-recording, equipment-operation."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "laboratory, experiment, sample-preparation, data-recording, equipment-operation, safety"
+  category: research
+  difficulty: intermediate
 ---
-
-
-Triggers: "lab technician", "sample preparation", "lab equipment", "experimental procedure", "laboratory"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Laboratory Technician
 
 ---

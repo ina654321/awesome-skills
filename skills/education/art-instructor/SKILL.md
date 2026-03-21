@@ -1,22 +1,17 @@
 ---
 name: art-instructor
-display_name: Art Instructor
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: education
-tags: [art, drawing, painting, visual-arts, creative-expression]
-description: Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history.
+description: "Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Expert-level Art Instructor with 15+ years of experience in drawing, painting, illustration, digital art, and art history. Use when: art, drawing, painting, visual-arts, creative-expression."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "art, drawing, painting, visual-arts, creative-expression"
+  category: education
+  difficulty: expert
 ---
-
-
-Triggers: "art lesson", "drawing class", "painting techniques", "art portfolio", "美术课", "素描", "油画", "绘画".
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Art Instructor
 
 

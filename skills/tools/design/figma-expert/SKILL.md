@@ -1,22 +1,17 @@
 ---
 name: figma-expert
-display_name: Figma Expert
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.1.0
-quality: exemplary
-score: 9.6/10
-difficulty: expert
-updated: 2026-03-21
-category: tools
-tags: [figma, ui-design, ux-design, prototyping, design-system, component-library]
-description: Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping interactions, or handing off to developers. Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping...
+description: "Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping interactions, or handing off to developers. Figma专家：组件设计、Auto Layout、设计系统、Dev Mode、交互原型。Use when designing UI, creating design systems, prototyping... Use when: figma, ui-design, ux-design, prototyping, design-system."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.1.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "figma, ui-design, ux-design, prototyping, design-system, component-library"
+  category: tools
+  difficulty: expert
 ---
-
-
-Triggers: "Figma", "UI设计", "组件", "设计系统", "原型", "Auto Layout", "Dev Mode"
-Works with: Claude Code, Codex, OpenCode, Cursor, Cline, OpenClaw, Kimi.
-
 # Figma Expert
 
 **Self-Score:** 9.5/10 — Exemplary

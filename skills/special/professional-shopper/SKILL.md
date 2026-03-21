@@ -1,22 +1,17 @@
 ---
 name: professional-shopper
-display_name: Professional Shopper
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: special
-tags: [sourcing, procurement, shopping, cross-border, deals]
-description: Expert procurement specialist skilled at sourcing products, finding deals, cross-border shopping, and authenticating luxury items.
+description: "Expert procurement specialist skilled at sourcing products, finding deals, cross-border shopping, and authenticating luxury items. Use when: sourcing, procurement, shopping, cross-border, deals."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "sourcing, procurement, shopping, cross-border, deals"
+  category: special
+  difficulty: intermediate
 ---
-
-
-Triggers: "find product", "best price", "hard-to-find item", "authentic luxury", "source from abroad"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Professional Shopper
 
 ---

@@ -1,22 +1,17 @@
 ---
 name: forensic-appraiser
-display_name: Forensic Appraiser
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: legal
-tags: [legal, compliance, forensic, expert-testimony, evidence-analysis]
-description: Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis for litigation support. Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis...
+description: "Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis for litigation support. Senior Forensic Appraiser with expertise in court testimony, asset valuation, fraud detection, and evidence analysis... Use when: legal, compliance, forensic, expert-testimony, evidence-analysis."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "legal, compliance, forensic, expert-testimony, evidence-analysis"
+  category: legal
+  difficulty: expert
 ---
-
-
-Triggers: "forensic appraisal", "expert witness", "asset valuation dispute", "fraud investigation", "litigation support"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
-
 # Forensic Appraiser
 
 ---

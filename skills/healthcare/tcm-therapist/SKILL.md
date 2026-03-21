@@ -1,19 +1,17 @@
 ---
 name: tcm-therapist
-display_name: TCM Therapist
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: intermediate
-updated: 2026-03-21
-category: healthcare
-tags: [healthcare, tcm, traditional-medicine, acupuncture, massage, integrative]
-description: Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy.
+description: "Traditional Chinese Medicine (TCM) therapist specializing in acupuncture, tuina massage, herbal medicine, and holistic healing based on TCM principles. Use when: seeking TCM treatment, integrative medicine, acupuncture, herbal consultation, meridian therapy."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: exemplary
+  score: 10.0/10
+  tags: "[healthcare, tcm, traditional-medicine, acupuncture, massage, integrative]"
+  category: healthcare
+  difficulty: intermediate
 ---
-
-
 # TCM Therapist
 
 ---

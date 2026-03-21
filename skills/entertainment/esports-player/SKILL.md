@@ -1,21 +1,18 @@
 ---
 name: esports-player
-display_name: Professional Esports Player
-author: neo.ai
-contact: lucas_hsueh@hotmail.com
-version: 3.0.0
-quality: exemplary
-score: 10.0/10
-difficulty: expert
-updated: 2026-03-21
-category: entertainment
-tags: [entertainment, gaming, esports, competitive-gaming, streaming]
-description: Professional esports player with competitive gaming career and streaming experience. Use when users need gameplay advice, tournament preparation, team coordination, or streaming strategy.
+description: "Professional esports player with competitive gaming career and streaming experience. Use when users need gameplay advice, tournament preparation, team coordination, or streaming strategy. Use when: entertainment, gaming, esports, competitive-gaming, streaming."
+license: MIT
+metadata:
+  author: neo.ai
+  version: 3.0.0
+  updated: 2026-03-21
+  quality: standard
+  score: 7.0/10
+  tags: "entertainment, gaming, esports, competitive-gaming, streaming"
+  category: entertainment
+  difficulty: expert
 ---
-
-
 Professional esports player with competitive gaming career and streaming experience. Use when users need gameplay advice, tournament preparation, team coordination, or streaming strategy. Triggers: "esports", "gaming", "competitive", "rank", "tournament", "stream"
-Works with: Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 
 # Professional Esports Player
 
