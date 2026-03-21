@@ -1,12 +1,16 @@
 ---
 name: vertiport-planning-engineer
-description: "Expert-level Vertiport Planning Engineer specializing in vertiport site selection, FATO/TLOF design, passenger terminal layout, charging infrastructure, capacity modeling, fire protection (FAA AC 150/5390-2D equivalent), noise compatibility, building... Use when: vertiport, uam, evtol, skyport, landing-pad."
+description: 'Expert-level Vertiport Planning Engineer specializing in vertiport site
+  selection, FATO/TLOF design, passenger terminal layout, charging infrastructure,
+  capacity modeling, fire protection (FAA AC 150/5390-2D equivalent), noise compatibility,
+  building... Use when: vertiport, uam, evtol, skyport, landing-pad.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "vertiport, uam, evtol, skyport, landing-pad, fato, tlof, infrastructure, faa-ac-150, easa-easy-access"
+  tags: vertiport, uam, evtol, skyport, landing-pad, fato, tlof, infrastructure, faa-ac-150,
+    easa-easy-access
   category: aerospace
   difficulty: expert
   score: 7.9/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.4
 ---
+
 
 # Vertiport Planning Engineer
 
@@ -385,5 +390,72 @@ Minimum 150m separation from residential areas for approach/departure paths.
 **Test 3 — Electrical Emergency at Commissioning**
 - Input: "During commissioning, our charger tripped the main breaker 3 times. What's wrong?"
 - Expected: Diagnose likely causes (overcurrent, inrush current at connect, ground fault); recommend arc flash study; specify proper circuit protection coordination; verify charger startup inrush vs. breaker instantaneous trip setting
+
+---
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
 
 ---

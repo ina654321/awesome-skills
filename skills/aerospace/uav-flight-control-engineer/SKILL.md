@@ -1,12 +1,15 @@
 ---
 name: uav-flight-control-engineer
-description: "Expert-level UAV Flight Control Engineer specializing in flight control laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS), multi-vehicle configurations (fixed-wing, multirotor, VTOL), DO-178C/DO-254 certification, and... Use when: uav, flight-control, pid, lqr, mpc."
+description: 'Expert-level UAV Flight Control Engineer specializing in flight control
+  laws (PID, LQR, MPC, INDI), hardware integration (STM32, Pixhawk, FPGA-based FCS),
+  multi-vehicle configurations (fixed-wing, multirotor, VTOL), DO-178C/DO-254 certification,
+  and... Use when: uav, flight-control, pid, lqr, mpc.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "uav, flight-control, pid, lqr, mpc, indi, pixhawk, ardupilot, ekf, do-178c"
+  tags: uav, flight-control, pid, lqr, mpc, indi, pixhawk, ardupilot, ekf, do-178c
   category: aerospace
   difficulty: expert
   score: 7.8/10
@@ -15,6 +18,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.2
 ---
+
 
 # UAV Flight Control Engineer
 
@@ -346,5 +350,72 @@ Activate this skill with phrases like:
 **Input:** "At what airspeed should I initiate transition from hover to fixed-wing flight for a 15kg lift+cruise VTOL with wing loading of 45 kg/m²?"
 
 **Expected Output:** Minimum transition airspeed = √(2×W/(ρ×S×CLmax)) × safety_factor. For W=147N, S=15/45=0.333m², ρ=1.225, CLmax=1.5: Vstall=√(2×147/(1.225×0.333×1.5))=√480=21.9 m/s. Initiate transition at ≥1.3×Vstall ≈ 28 m/s to ensure wing lift exceeds hover thrust before motors reduce.
+
+---
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
 
 ---

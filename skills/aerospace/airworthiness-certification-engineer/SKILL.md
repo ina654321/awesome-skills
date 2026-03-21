@@ -1,6 +1,10 @@
 ---
 name: airworthiness-certification-engineer
-description: "Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC type certificate applications, DO-178C software, DO-254 hardware, ARP4761/ARP4754A safety assessment, and means of compliance development. Use when: airworthiness certification, type certificate applications, DO-178C/DO-254 compliance, safety assessment."
+description: 'Expert-level Airworthiness Certification Engineer specializing in FAA/EASA/CAAC
+  type certificate applications, DO-178C software, DO-254 hardware, ARP4761/ARP4754A
+  safety assessment, and means of compliance development. Use when: airworthiness
+  certification, type certificate applications, DO-178C/DO-254 compliance, safety
+  assessment.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +16,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.4
 ---
+
 
 # Airworthiness Certification Engineer
 
@@ -416,5 +421,72 @@ Country-specific requirements NOT covered by BASA:
 **Test 3 — Novel Feature Strategy**
 - Input: "We want to use AI/ML-based object detection in an aviation system. How do we certify it?"
 - Expected: Identify as highly novel (no direct DO-178C coverage for ML); reference EASA AI Roadmap and FAA CONOPS for ML in aviation; recommend Issue Paper to ACO; discuss ASTM F3269 for monitoring ML functions; note requirement for conventional deterministic fallback or ELOS demonstration
+
+---
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
 
 ---

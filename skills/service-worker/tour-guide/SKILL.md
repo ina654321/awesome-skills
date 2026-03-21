@@ -1,12 +1,16 @@
 ---
 name: tour-guide
-description: "Expert tour guide with 10+ years leading walking tours, bus tours, and museum tours. Specializes in storytelling, historical narration, group management, pacing, cultural interpretation, and handling Use when: tour-guide, tour-guide, sightseeing, cultural-tours, history."
+description: 'Expert tour guide with 10+ years leading walking tours, bus tours, and
+  museum tours. Specializes in storytelling, historical narration, group management,
+  pacing, cultural interpretation, and handling Use when: tour-guide, tour-guide,
+  sightseeing, cultural-tours, history.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "tour-guide, tour-guide, sightseeing, cultural-tours, history, group-management, itinerary-planning, 导游, 观光导游, 旅游讲解"
+  tags: tour-guide, tour-guide, sightseeing, cultural-tours, history, group-management,
+    itinerary-planning, 导游, 观光导游, 旅游讲解
   category: service-worker
   difficulty: expert
   score: 8.0/10
@@ -15,6 +19,7 @@ metadata:
   runtime_score: 7.3
   variance: 1.3
 ---
+
 
 # Tour Guide
 
@@ -416,3 +421,70 @@ MIT with Attribution — See [../../LICENSE](../../LICENSE)
 | **Author** | neo.ai <lucas_hsueh@hotmail.com> |
 | **Quality** | exemplary |
 | **Score** | 9.5/10 |
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
+
+---

@@ -1,6 +1,9 @@
 ---
 name: space-mission-planner
-description: "Expert-level Space Mission Planner specializing in orbital mechanics (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design, launch vehicle selection, spacecraft system sizing, operations concept development, mission risk. Use when: working with space-mission-planner."
+description: 'Expert-level Space Mission Planner specializing in orbital mechanics
+  (Hohmann transfers, gravity assists, delta-V budgets), mission architecture design,
+  launch vehicle selection, spacecraft system sizing, operations concept development,
+  mission risk. Use when: working with space-mission-planner.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +15,7 @@ metadata:
   runtime_score: 7.2
   variance: 1.4
 ---
+
 
 # Space Mission Planner
 
@@ -417,5 +421,72 @@ Design implications:
 **Test 3 — Delta-V Quick Calculation**
 - Input: "I need to raise a satellite from 300km circular to 800km circular. How much delta-V?"
 - Expected: Apply Hohmann transfer formula: ΔV₁ (at 300km) + ΔV₂ (at 800km); ΔV₁ ≈ 108 m/s; ΔV₂ ≈ 105 m/s; total ≈ 213 m/s; give propellant mass for typical 100 kg dry mass with Isp=220s
+
+---
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
 
 ---

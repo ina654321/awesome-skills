@@ -1,6 +1,9 @@
 ---
 name: liquid-rocket-engine-engineer
-description: "Expert-level Liquid Rocket Engine Engineer specializing in staged combustion and gas-generator cycle design, turbopump aerodynamics, thrust chamber/nozzle optimization, and propellant chemistry. Use when: rocket engine design, turbopump sizing, combustion stability, propulsion system analysis."
+description: 'Expert-level Liquid Rocket Engine Engineer specializing in staged combustion
+  and gas-generator cycle design, turbopump aerodynamics, thrust chamber/nozzle optimization,
+  and propellant chemistry. Use when: rocket engine design, turbopump sizing, combustion
+  stability, propulsion system analysis.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -12,6 +15,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.1
 ---
+
 
 # Liquid Rocket Engine Engineer
 
@@ -441,5 +445,72 @@ abort_conditions = {
 **Test 3 — Instability Diagnosis**
 - Input: "We measured 400 Hz oscillations on our 20 kN engine. What mode is this?"
 - Expected: Compute chamber dimensions for 400 Hz; distinguish chug (feed system, <100 Hz) from buzz (injector-coupled, 100-500 Hz) from acoustic (500+ Hz); at 400 Hz for 20 kN class, likely buzz mode — injector coupled; recommend injector ΔP increase to 20% Pc
+
+---
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
 
 ---

@@ -1,12 +1,17 @@
 ---
 name: automotive-design-engineer
-description: "Expert-level Automotive Design Engineer specializing in vehicle system architecture, body-in-white structural design, chassis dynamics, powertrain integration (ICE/EV/HEV), ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO 26262 functional... Use when: automotive-design, vehicle-engineering, cad, catia, nx."
+description: 'Expert-level Automotive Design Engineer specializing in vehicle system
+  architecture, body-in-white structural design, chassis dynamics, powertrain integration
+  (ICE/EV/HEV), ADAS sensor packaging, crash safety (NCAP/ECE), NVH analysis, ISO
+  26262 functional... Use when: automotive-design, vehicle-engineering, cad, catia,
+  nx.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: "automotive-design, vehicle-engineering, cad, catia, nx, crash-analysis, nve, adas-integration, body-in-white, chassis"
+  tags: automotive-design, vehicle-engineering, cad, catia, nx, crash-analysis, nve,
+    adas-integration, body-in-white, chassis
   category: automotive
   difficulty: expert
   score: 8.1/10
@@ -15,6 +20,7 @@ metadata:
   runtime_score: 7.5
   variance: 1.1
 ---
+
 
 # Automotive Design Engineer
 
@@ -435,5 +441,72 @@ Starting HARA (Hazard and Risk Assessment) at system design phase:
 **Test 3 — NCAP Pedestrian Protection**
 - Input: "Our hood leading edge height is 820mm. Will we pass Euro NCAP pedestrian head impact?"
 - Expected: At 820mm hood leading edge, meets ECE R127 (≥600mm acceptable); NCAP requires head form WAD (Wrap Around Distance) analysis; assess clearance to stiff sub-structure under hood (engine block); target 65mm clearance for adult head form at WAD 1500-2100mm zone
+
+---
+## § 16 · Domain Deep Dive
+
+### Specialized Knowledge Areas
+
+| Area | Core Concepts | Applications | Best Practices |
+|------|--------------|--------------|----------------|
+| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
+| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
+| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
+| **Innovation** | Emerging trends | Future readiness | Experimentation |
+
+### Knowledge Maturity Model
+
+| Level | Name | Description |
+|-------|------|-------------|
+| 5 | Expert | Create new knowledge, mentor others |
+| 4 | Advanced | Optimize processes, complex problems |
+| 3 | Competent | Execute independently |
+| 2 | Developing | Apply with guidance |
+| 1 | Novice | Learn basics |
+
+## § 17 · Risk Management Deep Dive
+
+### 🔴 Critical Risk Register
+
+| Risk ID | Description | Probability | Impact | Score |
+|---------|-------------|-------------|--------|-------|
+| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
+| R002 | Resource constraints | High | High | 🔴 12 |
+| R003 | Technology failure | Low | Critical | 🟠 8 |
+
+### 🟠 Risk Response Strategies
+
+| Strategy | When to Use | Effectiveness |
+|----------|-------------|---------------|
+| **Avoid** | High impact, controllable | 100% if feasible |
+| **Mitigate** | Reduce probability/impact | 60-80% reduction |
+| **Transfer** | Better handled by third party | Varies |
+| **Accept** | Low impact or unavoidable | N/A |
+
+### 🟡 Early Warning Indicators
+
+- Stakeholder engagement dropping
+- Requirement changes increasing
+- Team velocity declining
+- Defect rates rising
+
+## § 18 · Excellence Framework
+
+### World-Class Execution Standards
+
+| Dimension | Good | Great | World-Class |
+|-----------|------|-------|-------------|
+| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
+| **Speed** | On time | Ahead | Sets benchmarks |
+| **Cost** | Within budget | Under budget | Maximum value |
+| **Innovation** | Incremental | Significant | Breakthrough |
+
+### Excellence Cycle
+
+```
+ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
+   ↑                              ↓
+   └────────── MEASURE ←──────────┘
+```
 
 ---
