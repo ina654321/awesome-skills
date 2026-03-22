@@ -1,6 +1,6 @@
 # Awesome Skills - Full Catalog
 
-651 expert AI skills organized by category.
+857 expert AI skills organized by category.
 
 All skills follow the 16-section Exemplary template with ~50% token reduction via references/ architecture.
 
