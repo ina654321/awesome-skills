@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="assets/js/skills-data.js"></script>
+
     <style>
         :root {
             --primary: #6366f1;
@@ -1654,62 +1654,23 @@
             { id: '15', name: 'Marketing Manager', nameZh: '营销经理', category: 'marketing', icon: '📢', shortDesc: 'Digital marketing', shortDescZh: '数字营销', fullDesc: 'Digital marketing, campaign management, analytics, and growth strategies. Covers SEO, SEM, social media, and marketing automation.', fullDescZh: '数字营销、活动管理、数据分析和增长策略。涵盖SEO、SEM、社交媒体和营销自动化。', quality: 'advanced', rating: 8.3, installs: '9.4k' },
         ];
         
-        // Generate more mock skills
-        const roleNames = ['Specialist', 'Engineer', 'Architect', 'Consultant', 'Strategist', 'Analyst', 'Developer', 'Designer', 'Manager', 'Expert', 'Lead', 'Advisor', 'Coordinator', 'Administrator', 'Technician'];
-        const qualities = ['expert', 'advanced', 'intermediate'];
-        const shortDescs = [
-            'Industry best practices',
-            'Professional workflows',
-            'Advanced techniques',
-            'Complete methodology',
-            'Production-ready solutions',
-            'Enterprise standards',
-            'Modern approaches',
-            'Comprehensive guide',
-            'Practical framework',
-            'Proven strategies'
-        ];
-        
-        // Chinese translations for auto-generated skills
-        const roleNamesZh = ['专家', '工程师', '架构师', '顾问', '策略师', '分析师', '开发者', '设计师', '经理', '专家', '负责人', '顾问', '协调员', '管理员', '技术员'];
-        const shortDescsZh = [
-            '行业最佳实践',
-            '专业工作流程',
-            '高级技术方法',
-            '完整方法论',
-            '生产级解决方案',
-            '企业级标准',
-            '现代方法论',
-            '综合指南',
-            '实用框架',
-            '验证策略'
-        ];
-        
+        // Generate more mock skills (45 more for demo)
         for (let i = 16; i <= 60; i++) {
-            const catKeys = Object.keys(categories);
-            const cat = catKeys[Math.floor(Math.random() * catKeys.length)];
-            const catZh = categoriesZh[cat];
-            const role = roleNames[i % roleNames.length];
-            const roleZh = roleNamesZh[i % roleNamesZh.length];
-            const quality = qualities[i % 3];
-            const rating = quality === 'expert' ? (8.5 + Math.random() * 1.0).toFixed(1) : 
-                          quality === 'advanced' ? (7.5 + Math.random() * 1.0).toFixed(1) : 
-                          (6.5 + Math.random() * 1.0).toFixed(1);
-            const installs = Math.floor(Math.random() * 15 + 1) + '.' + Math.floor(Math.random() * 9) + 'k';
-            
+            const categories = ['software', 'ai-ml', 'creative', 'business', 'education', 'healthcare', 'finance', 'legal', 'research', 'cybersecurity', 'content', 'marketing', 'product', 'data', 'engineering'];
+            const cat = categories[i % categories.length];
             skillsData.push({
                 id: String(i),
-                name: `${categories[cat]} ${role}`,
-                nameZh: `${catZh}${roleZh}`,
+                name: `${cat} Expert ${i}`,
+                nameZh: `${cat}专家 ${i}`,
                 category: cat,
                 icon: ['🔧', '💡', '📈', '🎯', '🔨', '📐', '🔌', '🎭', '📺', '🔋', '🎮', '🚁', '🏢', '📋', '🤖'][i % 15],
-                shortDesc: shortDescs[i % shortDescs.length],
-                shortDescZh: shortDescsZh[i % shortDescsZh.length],
-                fullDesc: `Professional ${categories[cat]} skill with industry best practices and expert knowledge. Includes real-world examples, templates, and step-by-step guidance for ${role.toLowerCase()}s.`,
-                fullDescZh: `专业的${catZh}技能，包含行业最佳实践和专家知识。包括真实案例、模板和${roleZh}的逐步指导。`,
-                quality: quality,
-                rating: rating,
-                installs: installs
+                shortDesc: 'Professional skill with best practices',
+                shortDescZh: '专业技能，最佳实践',
+                fullDesc: `Expert ${cat} skill with industry best practices and professional knowledge.`,
+                fullDescZh: `专业${cat}技能，包含行业最佳实践和专业知识。`,
+                quality: ['expert', 'advanced', 'intermediate'][i % 3],
+                rating: (7 + Math.random() * 2).toFixed(1),
+                installs: Math.floor(Math.random() * 15 + 1) + 'k'
             });
         }
         
