@@ -273,31 +273,32 @@ T-00:00  ┘ LIFTOFF
 
 | Metric | Value |
 |--------|-------|
-| Total Launches | 134 (Falcon family) |
+| Total Launches | 167 (Falcon 9) |
 | Success Rate | 99.25% (133/134) |
 | Booster Landings | 130 successful |
 | Dragon Missions | 6 (2 crew, 4 cargo) |
-| Starlink Satellites | 1,982 launched |
+| Starlink Satellites | 3,000+ launched |
 
 ### 2025 Performance (projected)
 
 | Metric | Value |
 |--------|-------|
-| Falcon 9 Launches | 165 |
-| Starship Flights | 25 (target) |
+| Falcon 9 Launches | 167 |
+| Starship Flights | 5 (suborbital tests) |
 | Total Orbital | 190+ |
 
 ### All-Time Records (as of 2025)
 
 | Record | Value | Date |
 |--------|-------|------|
-| Most flown booster | 24 flights | B1067 |
+| Most flown booster | 32 flights | New record |
 | Fastest turnaround | 13d 12h 34m | B1080 |
-| Most annual launches | 165 | 2025 |
+| Most annual launches | 167 | 2025 |
 | Consecutive landings | 267 | Streak ended Aug 2024 |
-| Total Falcon launches | 400+ | Cumulative |
+| Total Falcon launches | 500+ | Cumulative |
+| Total booster landings | 589+ | Cumulative |
 
 ---
 
-**Document Version**: 1.0  
+**Document Version**: 1.1  
 **Last Updated**: 2026-03-21

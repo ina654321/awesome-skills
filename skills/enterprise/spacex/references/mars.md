@@ -332,5 +332,5 @@ CO₂ + 4H₂ → CH₄ + 2H₂O  (exothermic, catalyst required)
 
 ---
 
-**Document Version**: 1.0  
+**Document Version**: 1.1  
 **Last Updated**: 2026-03-21

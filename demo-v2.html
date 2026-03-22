@@ -370,6 +370,8 @@
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s;
+            position: relative;
+            z-index: 10;
         }
         
         .copy-btn:hover {
@@ -1005,8 +1007,8 @@
             <span>♥</span>
         </button>
         <div class="lang-switch">
-            <button class="lang-btn active" data-lang="zh" onclick="switchLang('zh')">中文</button>
-            <button class="lang-btn" data-lang="en" onclick="switchLang('en')">EN</button>
+            <button class="lang-btn" data-lang="zh" onclick="switchLang('zh')">中文</button>
+            <button class="lang-btn active" data-lang="en" onclick="switchLang('en')">EN</button>
         </div>
     </div>
     
@@ -1212,7 +1214,7 @@
                     <span class="code-dot yellow"></span>
                     <span class="code-dot green"></span>
                     <span style="color: var(--gray); font-size: 0.75rem; margin-left: 0.5rem;">bash</span>
-                    <button class="copy-btn" onclick="copyText('Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills', this)">Copy</button>
+                    <button class="copy-btn" onclick="copyText('Read https://theneoai.github.io/awesome-skills/INSTALL.md and install all skills', this)" data-i18n="copyText">Copy</button>
                 </div>
                 <pre><code>Read</code> https://theneoai.github.io/awesome-skills/INSTALL.md <code>and install all skills</code></pre>
             </div>
@@ -1417,12 +1419,12 @@
             zh: {
                 heroTitle: 'Awesome Skills',
                 heroSubtitle: '649+ 专家技能，一键安装。',
-                browseBtn: '🔍 浏览技能',
-                starBtn: '⭐ GitHub 星标',
+                browseBtn: '浏览技能',
+                starBtn: 'GitHub 星标',
                 statSkills: '技能',
                 statIndustries: '行业',
                 statQuality: '质量评分',
-                quickInstall: '⚡ 快速安装 - 全部技能',
+                quickInstall: '快速安装 - 全部技能',
                 featuredLabel: '推荐新用户使用',
                 skillWriter: 'Skill Writer',
                 skillEvaluator: 'Skill Evaluator',
@@ -1431,6 +1433,7 @@
                 selectedLabel: '已选择',
                 clearBtn: '清除',
                 generateCmd: '生成命令',
+                copyText: '复制',
                 resultsShowing: '显示',
                 resultsTotal: '共',
                 resultsSkills: '个技能',
@@ -1465,7 +1468,7 @@
                 catEngineering: '工程技术',
                 skillWriter: '技能编写器',
                 skillEvaluator: '技能评估器',
-                badgeHot: '🔥 热门',
+                badgeHot: '热门',
                 badgeTool: '工具',
                 donateTitle: '♥ 支持我们',
                 donateDesc: '如果这个项目对您有帮助，请考虑支持我们！',
@@ -1476,12 +1479,12 @@
             en: {
                 heroTitle: 'Awesome Skills',
                 heroSubtitle: '649+ expert skills. One command away.',
-                browseBtn: '🔍 Browse Skills',
-                starBtn: '⭐ Star on GitHub',
+                browseBtn: 'Browse Skills',
+                starBtn: 'Star on GitHub',
                 statSkills: 'Skills',
                 statIndustries: 'Industries',
                 statQuality: 'Quality',
-                quickInstall: '⚡ Quick Install - All Skills',
+                quickInstall: 'Quick Install - All Skills',
                 featuredLabel: 'Recommended for new users',
                 skillWriter: 'Skill Writer',
                 skillEvaluator: 'Skill Evaluator',
@@ -1490,6 +1493,7 @@
                 selectedLabel: 'Selected',
                 clearBtn: 'Clear',
                 generateCmd: 'Generate Command',
+                copyText: 'Copy',
                 resultsShowing: 'Showing',
                 resultsTotal: 'of',
                 resultsSkills: 'skills',
@@ -1524,7 +1528,7 @@
                 catEngineering: 'Engineering',
                 skillWriter: 'Skill Writer',
                 skillEvaluator: 'Skill Evaluator',
-                badgeHot: '🔥 HOT',
+                badgeHot: 'HOT',
                 badgeTool: 'TOOL',
                 donateTitle: '♥ Support Us',
                 donateDesc: 'If you find this project helpful, consider supporting us!',
@@ -1534,7 +1538,7 @@
             }
         };
         
-        let currentLang = 'zh';
+        let currentLang = 'en';
         
         function switchLang(lang) {
             currentLang = lang;
@@ -1847,6 +1851,11 @@
             document.getElementById('batchBar').classList.toggle('active', count > 0);
             
             // Update batch bar suffix
+            const batchSuffix = document.querySelector('[data-i18n="selectedSuffix"]');
+            if (batchSuffix) {
+                batchSuffix.textContent = t('selectedSuffix');
+            }
+            
             renderSkills();
         }
         

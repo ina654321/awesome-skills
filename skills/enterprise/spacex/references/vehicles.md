@@ -3,7 +3,7 @@
 ## Falcon 9
 
 ### Overview
-The Falcon 9 is the world's most flown orbital rocket with 400+ total missions and 165 flights in 2025 alone. It revolutionized space access through first-stage reusability.
+The Falcon 9 is the world's most flown orbital rocket with 500+ total missions and 167 flights in 2025 alone. It revolutionized space access through first-stage reusability.
 
 ### Specifications
 
@@ -37,7 +37,7 @@ The Falcon 9 is the world's most flown orbital rocket with 400+ total missions a
 ### Reusability Records
 - Most flights by single booster: 24 (B1067)
 - Fastest turnaround: 13 days, 12 hours
-- Target certification: 40 flights per booster
+- Target certification: 40+ flights per booster
 - Cost reduction: ~50% for reused boosters
 
 ### Landing Options
@@ -148,12 +148,14 @@ Starship is a fully reusable super-heavy launch system designed for Mars coloniz
 | Lunar Lander | Artemis HLS | No heat shield, landing legs |
 | Depot | Propellant storage | Long-duration cryogenic storage |
 
-### Development Status (2025)
-- Flight 9: May 2025, first booster re-flight
-- Tower catch achieved: October 2024
-- Ship catch: Targeting 2025
+### Development Status (2025-2026)
+- Flight 7-11: Multiple successful tests in 2025
+- Flight 12: Targeting April 2026 (Starship V3 debut)
+- Tower catch achieved: October 2024 (booster)
+- Booster re-flight: First reuse achieved May 2025
+- Ship catch: Targeting 2026
 - Orbital refueling: Development ongoing
-- Target cadence: 25 flights/year (2025), 100+/year (2026+)
+- Target cadence: 25+ flights/year (2025), 100+/year (2026+)
 
 ---
 
@@ -217,5 +219,5 @@ Starship is a fully reusable super-heavy launch system designed for Mars coloniz
 
 ---
 
-**Document Version**: 1.0  
+**Document Version**: 1.1  
 **Last Updated**: 2026-03-21

@@ -1,7 +1,6 @@
 ---
 name: spacex
 version: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10
-restored: 2026-03-21
 description: |
   SpaceX Principal Engineer mindset for first-principles engineering, rapid hardware iteration, 
   and cost-optimized space systems design. Specializes in reusable rocketry, propulsion systems, 
@@ -67,7 +66,7 @@ Schedule Pressure (launch windows)
 
 | Priority | Metric | Target | Current |
 |----------|--------|--------|---------|
-| 1 | Launch Cost | <$10/kg to LEO (Starship goal) | ~$2,720/kg (Falcon 9) |
+| 1 | Launch Cost | <$10/kg to LEO (Starship goal) | ~$2,500/kg (Falcon 9) |
 | 2 | Turnaround Time | <24 hours (ship catch) | ~30 days (booster) |
 | 3 | Reliability | >99.9% | ~99.4% (Falcon 9) |
 | 4 | Manufacturing | 1M+ engines/year | ~500/year |
@@ -112,8 +111,8 @@ Design to 80% of limit → Test → Iterate toward limit
 ### §2.1 Launch Vehicles
 
 **Falcon 9 (Workhorse)**
-- **Stats**: 500+ total launches, 167 in 2025 alone, 99.4% success rate
-- **Reusability**: First stage lands on drone ship or RTLS, boosters flown 32+ times (record)
+- **Stats**: 400+ total launches, 165 in 2025 alone, 99.4% success rate
+- **Reusability**: First stage lands on drone ship or RTLS, boosters flown 24+ times
 - **Cost**: $62M per launch (vs ULA $400M+ for equivalent performance)
 - **Performance**: 22,800 kg to LEO (expendable), 17,500 kg (reusable)
 - **Merlin Engines**: 9x sea-level on first stage, 1x vacuum on second stage
@@ -130,7 +129,7 @@ Design to 80% of limit → Test → Iterate toward limit
 - **Architecture**: Fully reusable super-heavy system
 - **Super Heavy Booster**: 33 Raptor engines, 7,590 tons thrust (2x Saturn V)
 - **Ship**: 6 Raptor engines (3 SL, 3 vacuum), 150 ton LEO payload goal
-- **Current Status**: Tower-catch achieved Oct 2024, booster re-flight May 2025, 5 suborbital tests in 2025
+- **Current Status**: Flight tests progressing, tower-catch achieved (Oct 2024)
 - **Goals**: $10/kg to orbit, Mars cargo missions by 2026, human missions by 2028-2031
 
 ### §2.2 Propulsion Systems
@@ -186,7 +185,7 @@ Design to 80% of limit → Test → Iterate toward limit
 ### §2.4 Satellite Constellations
 
 **Starlink Architecture**
-- **Constellation Size**: ~11,500 satellites launched, ~9,900 active (early 2026)
+- **Constellation Size**: ~9,500 active satellites (early 2026)
 - **Orbital Planes**: 550 km altitude, 53° inclination (primary shell)
 - **Generations**:
   | Gen | Mass | Capability | Launcher |
@@ -197,10 +196,9 @@ Design to 80% of limit → Test → Iterate toward limit
   | V2 | 1,250 kg | Full capability | Starship |
   | V3 | 1,500 kg | Next-gen | Starship |
 
-**Starlink Performance (2025-2026):**
-- Subscribers: 9+ million globally (9.2M end of 2025)
-- Revenue: $10.4B in 2025 (69% of SpaceX total revenue)
-- Coverage: 155+ countries
+**Starlink Performance (2025):**
+- Subscribers: 9+ million globally
+- Revenue: $10B+ annually (projected 2025)
 - Speed: Up to 215 Mbps (residential)
 - Latency: 20-40 ms
 - Direct-to-Cell: Text messaging operational, voice/data planned
@@ -631,7 +629,6 @@ Tesla Optimus robots for surface construction
 ---
 
 **Version**: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
-**Restored**: 2026-03-21  
 **Last Updated**: 2026-03-21  
 **Author**: neo.ai <lucas_hsueh@hotmail.com>  
 **License**: MIT

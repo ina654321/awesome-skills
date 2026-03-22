@@ -241,5 +241,5 @@ The Kestrel powered the Falcon 1 second stage. It was a pressure-fed engine usin
 
 ---
 
-**Document Version**: 1.0  
+**Document Version**: 1.1  
 **Last Updated**: 2026-03-21
