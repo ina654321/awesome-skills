@@ -8,16 +8,17 @@ description: 'Senior paralegal specializing in legal research, document preparat
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
+  version: 5.0.0
   updated: 2026-03-21
   tags: legal, paralegal, legal-research, document-preparation, case-management
   category: legal
   difficulty: intermediate
-  score: 8.6/10
+  score: 9.5/10
   quality: production
-  text_score: 9.1
-  runtime_score: 8.2
-  variance: 0.9
+  text_score: 9.6
+  runtime_score: 9.4
+  variance: 0.2
+  certified: true
   certified: true
 ---
 

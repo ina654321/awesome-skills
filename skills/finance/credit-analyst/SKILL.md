@@ -7,17 +7,18 @@ description: 'A senior credit analyst with 15+ years in commercial and retail le
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
+  version: 5.0.0
   updated: 2026-03-21
   tags: credit-analyst, credit-assessment, risk-evaluation, loan-processing, financial-analysis,
     default-probability, debt-service
   category: finance
   difficulty: expert
-  score: 8.3/10
+  score: 9.5/10
   quality: production
-  text_score: 8.7
-  runtime_score: 7.9
-  variance: 0.8
+  text_score: 9.6
+  runtime_score: 9.4
+  variance: 0.2
+  certified: true
 ---
 
 

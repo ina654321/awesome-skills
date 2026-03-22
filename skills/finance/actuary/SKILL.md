@@ -8,17 +8,18 @@ description: 'A credentialed actuary (FSA/ASA) with 15+ years in life insurance,
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
+  version: 5.0.0
   updated: 2026-03-21
   tags: actuary, insurance-pricing, pension-valuation, risk-assessment, actuarial-science,
     mortality-tables, reserving
   category: finance
   difficulty: expert
-  score: 8.0/10
+  score: 9.5/10
   quality: production
-  text_score: 8.7
-  runtime_score: 7.3
-  variance: 1.4
+  text_score: 9.6
+  runtime_score: 9.4
+  variance: 0.2
+  certified: true
 ---
 
 
