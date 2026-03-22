@@ -34,8 +34,8 @@ WEIGHTS = {
     "risk_documentation": 0.09,
     "example_quality": 0.17,
     "metadata": 0.08,
-    "content_efficiency": 0.08,    # 内容效率：信噪比 / 去重 / 结构清晰度
-    "token_cost_efficiency": 0.05, # Token成本效率：description+body 预算达标率
+    "content_efficiency": 0.08,  # 内容效率：信噪比 / 去重 / 结构清晰度
+    "token_cost_efficiency": 0.05,  # Token成本效率：description+body 预算达标率
 }
 
 # 16 standard sections
@@ -111,9 +111,9 @@ def analyze_system_prompt(body: str) -> float:
     if not has_section(body, "System Prompt"):
         return 1.0  # Basic: missing section
 
-    # Extract System Prompt section content - handle numbered sections like ## 1. System Prompt
+    # Extract System Prompt section content - handle numbered sections like ## 1. System Prompt, ## §1. System Prompt, ## § 1 · System Prompt
     sp_match = re.search(
-        r"^##\s+(?:\d+\.|\§\d+)?\s*System Prompt.*?\n(.*?)(?=^##\s|\Z)",
+        r"^##\s+(?:\d+\.|\§[^\S\n]*\d+[^\S\n]*[·.]?[^\S\n]*)?\s*System Prompt.*?\n(.*?)(?=^##\s|\Z)",
         body,
         re.MULTILINE | re.DOTALL,
     )
@@ -183,12 +183,16 @@ def analyze_workflow(body: str) -> float:
     score = 0
 
     # Check for Standard Workflow section
-    if not has_section(body, "Standard Workflow") and not has_section(body, "Work Process"):
+    if (
+        not has_section(body, "Standard Workflow")
+        and not has_section(body, "Work Process")
+        and not has_section(body, "Workflow")
+    ):
         return 2.0
 
     # Extract workflow section - handle numbered sections like ## 8. Standard Workflow
     wf_match = re.search(
-        r"^##\s+(?:\d+\.|\§\d+)?\s*.?(?:Standard Workflow|Work Process).*?\n(.*?)(?=^##\s|\Z)",
+        r"^##\s+(?:\d+\.|\§[^\S\n]*\d+[^\S\n]*[·.]?[^\S\n]*)?\s*.?(?:Standard Workflow|Work Process|Workflow).*?\n(.*?)(?=^##\s|\Z)",
         body,
         re.MULTILINE | re.DOTALL,
     )
@@ -351,7 +355,9 @@ def analyze_content_efficiency(body: str) -> float:
 
     # ── 1. Repetition penalty ─────────────────────────────────────────────
     # Find near-duplicate lines (exact match after stripping punctuation/spaces)
-    normalized = [re.sub(r"[\s\W]+", " ", l.strip().lower()) for l in non_empty if len(l.strip()) > 20]
+    normalized = [
+        re.sub(r"[\s\W]+", " ", l.strip().lower()) for l in non_empty if len(l.strip()) > 20
+    ]
     seen: set = set()
     duplicates = 0
     for n in normalized:
@@ -372,7 +378,9 @@ def analyze_content_efficiency(body: str) -> float:
     max_prose_run = 0
     for l in non_empty:
         stripped = l.strip()
-        is_structured = stripped.startswith(("#", "|", "-", "*", ">", "```", "1", "2", "3", "4", "5", "6", "7", "8", "9"))
+        is_structured = stripped.startswith(
+            ("#", "|", "-", "*", ">", "```", "1", "2", "3", "4", "5", "6", "7", "8", "9")
+        )
         if not is_structured:
             prose_run += 1
             max_prose_run = max(max_prose_run, prose_run)
@@ -414,7 +422,9 @@ def estimate_token_count(text: str) -> int:
     return int(cjk_chars * 1.0 + other_chars * 0.25)
 
 
-def analyze_token_cost_efficiency(fm: Optional[Dict[str, str]], body: str, total_skills: int = 40) -> float:
+def analyze_token_cost_efficiency(
+    fm: Optional[Dict[str, str]], body: str, total_skills: int = 40
+) -> float:
     """Score Token Cost Efficiency (0-10).
 
     Evaluates how well the skill manages its token footprint:
@@ -438,13 +448,13 @@ def analyze_token_cost_efficiency(fm: Optional[Dict[str, str]], body: str, total
 
         ratio = desc_chars / max(desc_limit, 1)
         if ratio <= 0.80:
-            score += 2    # well within budget
+            score += 2  # well within budget
         elif ratio <= 1.0:
-            score += 1    # within budget
+            score += 1  # within budget
         elif ratio <= 1.2:
-            score -= 1    # slightly over
+            score -= 1  # slightly over
         else:
-            score -= 3    # significantly over budget
+            score -= 3  # significantly over budget
     else:
         score -= 2  # missing description
 

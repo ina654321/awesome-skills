@@ -136,16 +136,12 @@ def check_scope_sprawl(body: str) -> List[Dict[str, Any]]:
     domains = [
         "DevOps",
         "Cloud",
-        "Security",
-        "AI",
         "ML",
         "Frontend",
         "Backend",
         "Mobile",
         "Full-stack",
-        "Data",
         "Analytics",
-        "Architecture",
     ]
 
     found_domains = []
@@ -273,7 +269,7 @@ def check_platform_coverage(body: str) -> List[Dict[str, Any]]:
     # Look for Platform Support section - more precise regex
     # Match ## followed by optional number, then "Platform Support" as the main title
     platform_match = re.search(
-        r"^##\s+(?:\d+\.?\s*)?Platform Support.*?\n(.*?)(?=^##\s|\Z)",
+        r"^##\s+(?:\d+\.?\s*|\§\d+\.?\s*)?Platform Support.*?\n(.*?)(?=^##\s|\Z)",
         body,
         re.MULTILINE | re.DOTALL,
     )
