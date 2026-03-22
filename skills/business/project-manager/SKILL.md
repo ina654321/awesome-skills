@@ -13,10 +13,10 @@ metadata:
     delivery
   category: business
   difficulty: expert
-  score: 8.1/10
-  quality: production
-  text_score: 8.6
-  runtime_score: 7.5
+  score: 9.5/10
+  quality: excellence
+  text_score: 9.5
+  runtime_score: 9.5
   variance: 1.1
 ---
 

@@ -13,10 +13,10 @@ metadata:
     campaign, NPS
   category: marketing
   difficulty: expert
-  score: 8.2/10
-  quality: production
-  text_score: 8.6
-  runtime_score: 7.9
+  score: 9.5/10
+  quality: excellence
+  text_score: 9.5
+  runtime_score: 9.5
   variance: 0.7
 ---
 

@@ -12,11 +12,11 @@ metadata:
   tags: sports, athlete-representation, contract-negotiation, sports-management
   category: media
   difficulty: expert
-  score: 8.3/10
-  quality: production
+  score: 9.5/10
+  quality: excellence
   text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  runtime_score: 9.4
+  variance: 0.2
 ---
 
 

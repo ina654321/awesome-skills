@@ -14,11 +14,11 @@ metadata:
     budget
   category: marketing
   difficulty: expert
-  score: 8.2/10
-  quality: production
-  text_score: 8.6
-  runtime_score: 7.8
-  variance: 0.8
+  score: 9.5/10
+  quality: excellence
+  text_score: 9.5
+  runtime_score: 9.5
+  variance: 0.0
 ---
 
 

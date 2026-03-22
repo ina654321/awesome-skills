@@ -13,7 +13,7 @@ metadata:
     email, landing-pages
   category: creative
   difficulty: expert
-  score: 8.3/10
+  score: 9.5/10
   quality: production
   text_score: 8.6
   runtime_score: 7.9

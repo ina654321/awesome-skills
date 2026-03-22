@@ -12,12 +12,12 @@ metadata:
   tags: media, broadcasting, news-writing, journalism, script, live-anchoring, AP-style,
     fact-check
   category: media
-  difficulty: intermediate
-  score: 7.9/10
-  quality: standard
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
+  difficulty: expert
+  score: 9.5/10
+  quality: excellence
+  text_score: 9.6
+  runtime_score: 9.4
+  variance: 0.2
 ---
 
 

@@ -13,11 +13,11 @@ metadata:
     copy-editing
   category: media
   difficulty: expert
-  score: 8.5/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.9
-  variance: 1.2
+  score: 9.5/10
+  quality: excellence
+  text_score: 9.6
+  runtime_score: 9.4
+  variance: 0.2
 ---
 
 

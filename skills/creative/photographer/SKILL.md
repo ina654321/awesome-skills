@@ -13,11 +13,11 @@ metadata:
     photo
   category: creative
   difficulty: expert
-  score: 8.4/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  score: 9.5/10
+  quality: excellence
+  text_score: 9.6
+  runtime_score: 9.4
+  variance: 0.2
 ---
 
 

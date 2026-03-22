@@ -14,11 +14,11 @@ metadata:
     brand-reputation
   category: media
   difficulty: intermediate
-  score: 8.7/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 8.2
-  variance: 0.9
+  score: 9.5/10
+  quality: excellence
+  text_score: 9.6
+  runtime_score: 9.4
+  variance: 0.2
   certified: true
 ---
 

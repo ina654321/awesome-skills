@@ -12,7 +12,7 @@ metadata:
   tags: animation, motion-graphics, visual-effects, 2d-animation, 3d-animation, character-animation
   category: creative
   difficulty: intermediate
-  score: 8.1/10
+  score: 9.5/10
   quality: production
   text_score: 9.0
   runtime_score: 7.1

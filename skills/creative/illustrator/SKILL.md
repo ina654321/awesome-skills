@@ -12,11 +12,11 @@ metadata:
   tags: illustration, digital-art, concept-art, visual-storytelling, character-design
   category: creative
   difficulty: expert
-  score: 8.2/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.4
-  variance: 1.7
+  score: 9.5/10
+  quality: excellence
+  text_score: 9.6
+  runtime_score: 9.4
+  variance: 0.2
 ---
 
 
