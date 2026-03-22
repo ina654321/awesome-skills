@@ -16,15 +16,15 @@
 - ESPN in 90% of pay-TV households
 - Eight linear networks (ESPN, ESPN2, ESPNU, ESPNEWS, ESPN Deportes, SEC Network, ACC Network, Longhorn Network)
 
-### ESPN+ (Current Streaming)
+### ESPN+ / ESPN Select (Current Streaming)
 
 **Metrics:**
 - Subscribers: 25.6M (Q4 FY2025)
-- ARPU: $6.40
+- ARPU: $5.94
 - Content: Secondary sports, originals, archives
 - Limitations: No ESPN cable content
 
-## ESPN Flagship DTC (Launching Fall 2025)
+## ESPN Unlimited Flagship DTC (Launched August 2025)
 
 ### Value Proposition
 
@@ -40,8 +40,12 @@
 | Tier | Price | Features |
 |------|-------|----------|
 | ESPN+ (existing) | $11/month | Secondary sports, originals |
-| ESPN Flagship | $25-30/month | Full ESPN cable content |
-| Disney Bundle | $35-40/month | Disney+ + Hulu + ESPN |
+| ESPN Unlimited | $29.99/month | Full ESPN cable content |
+| Disney Bundle | $29.99/month intro | Disney+ + Hulu + ESPN Unlimited |
+
+**Bundle Performance:**
+- 80% of ESPN Unlimited signups via Disney Bundle
+- Strong value proposition driving adoption
 
 ### Technology Platform
 
@@ -75,6 +79,7 @@
 - One-click wagering (where legal)
 - Bet tracking
 - Promotional offers
+- **Partner**: DraftKings (switched from Penn Entertainment in 2025)
 
 ### Content Strategy
 
@@ -112,7 +117,8 @@
 - ESPN acquires NFL Network
 - NFL RedZone integration
 - NFL Media assets included
-- Regulatory approval pending
+- NFL Fantasy acquisition
+- **Status**: Pending regulatory approval
 
 **Strategic Value:**
 - Secures NFL content long-term
@@ -134,6 +140,7 @@
 - Announced 2024
 - Launch timing TBD
 - Regulatory review ongoing
+- Complements ESPN Unlimited strategy
 
 ## Risk Management
 
@@ -146,6 +153,7 @@
 - Cable bundle preservation initially
 - Aggressive DTC marketing
 - Bundle pricing incentives
+- 80% bundle attach rate achieved
 
 ### Sports Rights Inflation
 
@@ -156,6 +164,7 @@
 - Shared rights (NFL Network deal)
 - Cost-sharing partnerships
 - Revenue diversification (betting, e-commerce)
+- New NBA deal: $76B through 2036
 
 ### Technical Challenges
 
@@ -173,7 +182,7 @@
 
 | Source | Projection | Notes |
 |--------|------------|-------|
-| DTC Subscriptions | $3-5B | 10-15M subscribers at $25-30/month |
+| DTC Subscriptions | $3-5B | 10-15M subscribers at $29.99/month |
 | Advertising | $1-2B | Higher CPMs for targeted ads |
 | Betting Revenue | $500M-1B | Share of ESPN Bet revenue |
 | E-commerce | $100-200M | Merchandise, tickets |
@@ -189,7 +198,7 @@
 1. Subscription price increases (annual)
 2. Ad load optimization
 3. Churn reduction
-4. Bundle attach rate
+4. Bundle attach rate (currently 80%)
 
 ## Competitive Positioning
 
@@ -197,7 +206,7 @@
 
 | Competitor | Strength | Disney Response |
 |------------|----------|-----------------|
-| CBS/Paramount+ | NFL, March Madness | ESPN Flagship exclusive content |
+| CBS/Paramount+ | NFL, March Madness | ESPN Unlimited exclusive content |
 | NBC/Peacock | Olympics, NFL | Year-round sports focus |
 | Fox/Tubi | NFL, MLB | Venu Sports partnership |
 | Amazon Prime | NFL Thursday Night | ESPN brand + content depth |
@@ -212,35 +221,33 @@
 
 ## Implementation Roadmap
 
-### 2025 Q1-Q2
+### 2025 Q1-Q2 (Completed)
 - Beta testing with employees
 - NFL partnership finalization
 - Marketing campaign development
 - Technical infrastructure scaling
 
-### 2025 Q3
-- Soft launch to select cable subscribers
-- Content library finalization
-- App store optimization
-- Customer support training
-
-### Fall 2025 (Launch)
-- Public launch
+### August 2025 (Launched)
+- **ESPN Unlimited public launch**
 - Marketing blitz
-- Bundle promotion
+- Bundle promotion ($29.99/month intro)
 - Live event coverage
+
+### Fall 2025
+- Feature enhancements
+- Customer feedback integration
+- Partnership expansions
 
 ### 2026
 - International expansion
-- Feature enhancements
-- Partnership expansions
+- Full feature set
 - Profitability optimization
 
 ## Success Metrics
 
 ### Subscriber Targets
 
-| Year | ESPN Flagship Subscribers | Total ESPN DTC |
+| Year | ESPN Unlimited Subscribers | Total ESPN DTC |
 |------|---------------------------|----------------|
 | 2025 (launch) | 2-3M | 28M |
 | 2026 | 8-10M | 35M |
@@ -259,3 +266,21 @@
 - Operating margin: 15%+ (mature)
 - ARPU growth: 5% annually
 - Churn: <5% monthly
+
+## Key Developments 2025
+
+### Q4 FY2025 Results
+- Sports segment revenue: $3.98B (+2% YoY)
+- ESPN domestic operating income: $908M (-3% YoY)
+- Higher marketing costs due to ESPN Unlimited launch
+- Higher programming costs from NBA rights rate increases
+
+### Strategic Shifts
+- **Betting Partner Change**: Switched from Penn Entertainment to DraftKings (2025)
+- **Hulu + Live TV**: Merged with Fubo (Oct 2025), Disney holds 70% stake
+- **Disney+ Integration**: ESPN tile now available in Disney+ app
+
+### Future Outlook
+- Low-single digit sports profit growth expected in FY2026
+- Weighted to Q4 due to timing of rights expenses
+- Q2 and Q3 will see pressure from new NBA deal costs

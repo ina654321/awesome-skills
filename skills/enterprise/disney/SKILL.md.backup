@@ -28,7 +28,7 @@ tags: [disney, entertainment, streaming, parks, imagineering, ip, strategy]
 
 > **Skill Version**: skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
 > **Last Updated**: 2026-03-21  
-> **Verified Data**: FY2024-FY2025 Financials, Bob Iger Strategy, India Merger Completion
+> **Verified Data**: FY2024-FY2025 Financials, Bob Iger Strategy
 
 ---
 
@@ -135,7 +135,7 @@ tags: [disney, entertainment, streaming, parks, imagineering, ip, strategy]
 | Metric | FY2024 | FY2025 |
 |--------|--------|--------|
 | Revenue | $91.36B | $94.4B |
-| Operating Income | $15.6B | Record $17.6B |
+| Operating Income | $15.6B | Record highs |
 | Market Cap | ~$160B | Variable |
 | Employees | 225,000+ | Global workforce |
 | Founded | 1923 | 100+ years of magic |
@@ -180,8 +180,8 @@ tags: [disney, entertainment, streaming, parks, imagineering, ip, strategy]
 | Shanghai Disneyland | Shanghai, China | 1 | 12M+ |
 
 **Financial Performance (FY2025):**
-- Revenue: $36.2B (Parks & Experiences)
-- Operating Income: $10.0B+ (record)
+- Revenue: $34B+ (Parks & Experiences)
+- Operating Income: $10B+ (record)
 - Growth Strategy: $60B investment over 10 years (70% to Parks/Cruises)
 
 **Key Technology Initiatives:**
@@ -217,20 +217,20 @@ tags: [disney, entertainment, streaming, parks, imagineering, ip, strategy]
 
 | Service | Subscribers (Q4 FY2025) | Focus |
 |---------|------------------------|-------|
-| Disney+ Core | 131.6M | Family, franchises, originals |
-| Hulu | 64.1M | General entertainment, FX, adult |
-| ESPN+ / ESPN Select | 25.6M | Sports streaming |
-| **Combined DTC** | **~221M** | Unified app experience |
+| Disney+ Core | 132M | Family, franchises, originals |
+| Hulu | 64M | General entertainment, FX, adult |
+| ESPN+ | 25.6M | Sports streaming |
+| **Combined** | **~196M** | Unified app experience |
 
 **Key Metrics:**
 - Disney+ ARPU: $8.09 (domestic), $7.67 (international)
-- Hulu ARPU: $12.20 (SVOD), $100.02 (Live TV)
-- DTC Operating Income: Profitable since FY2024; Q4 FY2025: $352M (+39% YoY)
+- Hulu ARPU: $12.40 (SVOD), $100.27 (Live TV)
+- DTC Operating Income: Profitable since FY2024
 - Content Integration: Hulu + ESPN tiles within Disney+ app
 
 **Technology Stack:**
 - **Personalization**: AI-driven recommendations
-- **Ad Tech**: Targeted advertising platform (Disney Real-Time Ad Exchange - DRAX)
+- **Ad Tech**: Targeted advertising platform (Disney Real-Time Ad Exchange)
 - **CDN**: Global content delivery for 4K/HDR
 - **DRM**: Multi-DRM for content protection
 - **Analytics**: Real-time viewer behavior analysis
@@ -253,16 +253,16 @@ tags: [disney, entertainment, streaming, parks, imagineering, ip, strategy]
 
 **Streaming Future:**
 - **ESPN+**: 25.6M subscribers
-- **ESPN Unlimited (Flagship DTC)**: Launched August 2025
+- **ESPN Flagship DTC**: Launching Fall 2025
   - Full ESPN cable content + exclusives
   - AI-driven personalization
-  - Integrated betting (ESPN Bet with DraftKings)
+  - Integrated betting (ESPN Bet with Penn Entertainment)
   - Fantasy sports integration
-  - 80% of signups via Disney Bundle
+  - E-commerce features
 - **Venu Sports JV**: With Fox, Warner Bros. Discovery
 
 **Strategic Partnerships:**
-- NFL: 10% stake in ESPN (pending regulatory approval)
+- NFL: 10% stake in ESPN (proposed)
 - NHL: Digital rights
 - UFC: Exclusive PPV
 - La Liga, Bundesliga: International soccer
@@ -319,17 +319,9 @@ tags: [disney, entertainment, streaming, parks, imagineering, ip, strategy]
 | 2023 | Hulu full acquisition | Unified content control |
 | 2024 | Streaming profitability | DTC now profitable |
 | 2024 | $60B 10-year investment | Parks expansion, streaming |
-| 2024 | India merger completion | JioStar joint venture (36.84% stake) |
 | 2025 | ESPN tile on Disney+ | Sports integration |
-| 2025 | ESPN Unlimited launch | Full sports streaming (Aug 2025) |
+| 2025 | ESPN Flagship DTC | Full sports streaming |
 | 2026 | CEO succession | Planned transition |
-
-**India Strategic Shift:**
-- **JioStar Formation**: Nov 2024 merger of Star India with Reliance's Viacom18
-- **Deal Value**: $8.5 billion joint venture
-- **Disney Stake**: 36.84%
-- **Combined Assets**: 120+ TV channels, JioHotstar streaming platform
-- **Market Position**: ~750M viewers, dominant in cricket (IPL, ICC)
 
 **Content Strategy:**
 - Quality over quantity
@@ -416,7 +408,7 @@ tags: [disney, entertainment, streaming, parks, imagineering, ip, strategy]
 **Disney VP Response:**
 
 **Assessment:**
-Disney+ serves 131.6M subscribers across diverse demographics—families with young children, Marvel fans, Star Wars enthusiasts, and general entertainment seekers. The current one-size-fits-all home screen doesn't reflect this diversity.
+Disney+ serves 132M subscribers across diverse demographics—families with young children, Marvel fans, Star Wars enthusiasts, and general entertainment seekers. The current one-size-fits-all home screen doesn't reflect this diversity.
 
 **Strategy Framework:**
 
@@ -601,14 +593,14 @@ After:  Personalized value calculator showing:
 - Younger audiences prefer streaming
 - Sports betting represents new revenue stream
 
-**ESPN Unlimited Strategy (Launched Aug 2025):**
+**ESPN Flagship Strategy:**
 
 **1. Content Differentiation**
 | Tier | Content | Price Target |
 |------|---------|--------------|
 | ESPN+ | Secondary sports, originals | $11/month |
-| ESPN Unlimited | Full ESPN cable content + exclusives | $29.99/month |
-| Disney Bundle | ESPN + Disney+ + Hulu | Introductory $29.99/month |
+| ESPN Flagship | Full cable content + exclusives | $25-30/month |
+| Bundle | ESPN + Disney+ + Hulu | $35-40/month |
 
 **2. Technology Platform**
 - AI-driven personalization
@@ -624,7 +616,7 @@ After:  Personalized value calculator showing:
 - Sports betting shows
 
 **4. Distribution Partnerships**
-- Bundle with Disney+/Hulu (80% of signups)
+- Bundle with Disney+/Hulu
 - Carrier partnerships for reduced rates
 - International expansion
 
@@ -637,8 +629,9 @@ After:  Personalized value calculator showing:
 | Technical issues | Extensive beta testing |
 
 **Launch Timeline:**
-- Aug 2025: ESPN Unlimited public launch
-- Fall 2025: Marketing campaign, feature enhancements
+- Q1 2025: Beta with select cable subscribers
+- Q2 2025: Marketing campaign, feature finalization
+- Fall 2025: Public launch
 - 2026: Full feature set, international
 
 ---
@@ -673,7 +666,7 @@ After:  Personalized value calculator showing:
 **Phase 4: Gaming (Month +6 to +12)**
 - Mobile game updates
 - Console game DLC
-- Fortnite/Roblox integrations
+- Fortnite/roblox integrations
 
 **Phase 5: Consumer Products (Ongoing)**
 - Toy launches (Funko, Hasbro, Lego)
@@ -721,11 +714,11 @@ Unified Data Platform:
 **Disney Financial Summary (FY2025):**
 ```
 Revenue:           $94.4B
-Operating Income:  $17.6B (record)
-Disney+ Subs:      131.6M
-Hulu Subs:         64.1M
+Operating Income:  Record high
+Disney+ Subs:      132M
+Hulu Subs:         64M
 ESPN+ Subs:        25.6M
-Parks Revenue:     $36.2B
+Parks Revenue:     $34B+
 Employees:         225,000+
 CEO:               Bob Iger
 HQ:                Burbank, CA
@@ -738,13 +731,12 @@ HQ:                Burbank, CA
 | 2009 | Marvel | Superhero IP |
 | 2012 | Lucasfilm | Star Wars |
 | 2019 | 21st Century Fox | Content library, Hulu control |
-| 2024 | India JV (JioStar) | 36.84% stake, market access |
 
 **Streaming Priority Matrix:**
 ```
                     HIGH IMPACT
                          │
-    ESPN Unlimited  ─────┼─────  Content Integration
+    ESPN Flagship   ─────┼─────  Content Integration
     (DTC Launch)         │      (Hulu/ESPN on Disney+)
                          │
     ─────────────────────┼─────────────────────
@@ -819,24 +811,22 @@ echo "Read [URL] and apply disney skill." >> .claude/CLAUDE.md
 - "ESPN DTC plan"
 - "Disney flywheel"
 - "Bob Iger turnaround"
-- "JioStar India merger"
 
 ### Key Metrics Dashboard
 
 | Segment | FY2025 Revenue | YoY Growth | Key Metric |
 |---------|---------------|------------|------------|
-| Entertainment | $42.5B | +3% | 131.6M Disney+ |
-| Sports | $17.7B | Flat | ESPN Unlimited launch |
-| Experiences | $36.2B | +6% | Record $10B OI |
+| Entertainment | $40B+ | Stable | 132M Disney+ |
+| Sports | $16B+ | Growing | ESPN+ growth |
+| Experiences | $34B+ | +6% | Record OI |
 
 ### Strategic Priorities (2025-2026)
 
 1. ✅ Streaming profitability achieved
-2. ✅ ESPN Unlimited launched (Aug 2025)
-3. ✅ India JioStar merger completed (Nov 2024)
-4. 🔄 $60B investment deployment
-5. 🔄 CEO succession planning
-6. 🔄 Disney+/Hulu full integration (2026)
+2. 🔄 ESPN DTC launch (Fall 2025)
+3. 🔄 $60B investment deployment
+4. 🔄 CEO succession planning
+5. 🔄 International expansion
 
 ---
 
@@ -851,7 +841,6 @@ echo "Read [URL] and apply disney skill." >> .claude/CLAUDE.md
 - [x] **Strategic**: Aligns with Bob Iger's priorities
 - [x] **Innovative**: Includes cutting-edge technology (AI, betting)
 - [x] **Practical**: Provides actionable implementation plans
-- [x] **Current**: Includes JioStar merger, ESPN Unlimited launch
 
 ### Validation Questions
 
@@ -868,7 +857,6 @@ echo "Read [URL] and apply disney skill." >> .claude/CLAUDE.md
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0.0 | 2026-03-21 | Initial excellence release - skill-restorer v7 |
-| 1.1.0 | 2026-03-21 | Updated: JioStar merger, ESPN Unlimited launch, FY2025 Q4 results |
 
 ---
 
@@ -877,7 +865,7 @@ echo "Read [URL] and apply disney skill." >> .claude/CLAUDE.md
 **License**: MIT  
 **Author**: skill-restorer v7  
 **Source**: awesome-skills  
-**Data Sources**: The Walt Disney Company FY2024-FY2025 Earnings Reports, SEC Filings, JioStar Merger Documentation
+**Data Sources**: The Walt Disney Company FY2024-FY2025 Earnings Reports, SEC Filings
 
 ---
 

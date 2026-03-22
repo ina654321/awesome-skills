@@ -64,6 +64,39 @@
             min-height: 100vh;
         }
         
+        /* Hero Title with Donate Button */
+        .hero-title-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .hero-donate-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: -2rem;
+            background: transparent;
+            border: none;
+            color: var(--accent);
+            font-size: 1.25rem;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: all 0.2s ease;
+            padding: 0.25rem;
+            line-height: 1;
+        }
+        
+        .hero-donate-btn:hover {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+        
+        @media (max-width: 640px) {
+            .hero-donate-btn {
+                right: -1.5rem;
+                font-size: 1rem;
+            }
+        }
+        
         /* ===== Hero Section ===== */
         .hero {
             position: relative;
@@ -93,72 +126,30 @@
         }
         
         /* ===== Top Bar ===== */
-        .top-bar {
-            position: fixed;
-            top: 1rem;
-            right: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            z-index: 1000;
-        }
-        
-        .top-btn {
-            padding: 0.5rem 0.875rem;
-            background: var(--dark-card);
-            border: 1px solid var(--dark-border);
-            border-radius: 10px;
-            color: var(--gray-light);
-            font-size: 0.875rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .top-btn:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-            background: rgba(236, 72, 153, 0.05);
-        }
-        
-        .top-btn.donate {
-            padding: 0.5rem;
-            width: 2.25rem;
-            height: 2.25rem;
-        }
-        
-        .top-btn.donate span {
-            font-size: 1rem;
-            transition: transform 0.2s ease;
-        }
-        
-        .top-btn.donate:hover span {
-            transform: scale(1.15);
-        }
-        
-        /* Language Switch */
+        /* 语言切换 */
         .lang-switch {
+            position: fixed;
+            top: 1.5rem;
+            right: 1.5rem;
             display: flex;
+            gap: 0.25rem;
             background: var(--dark-card);
             border: 1px solid var(--dark-border);
             border-radius: 10px;
             padding: 0.25rem;
+            z-index: 1000;
         }
         
         .lang-btn {
-            padding: 0.375rem 0.625rem;
+            padding: 0.5rem 0.875rem;
             background: transparent;
             border: none;
-            border-radius: 6px;
+            border-radius: 8px;
             color: var(--gray);
-            font-size: 0.75rem;
+            font-size: 0.8125rem;
             font-weight: 500;
             cursor: pointer;
             transition: all 0.2s;
-            min-width: 1.75rem;
         }
         
         .lang-btn:hover {
@@ -168,23 +159,6 @@
         .lang-btn.active {
             background: rgba(99, 102, 241, 0.15);
             color: var(--primary-light);
-        }
-        
-        @media (max-width: 640px) {
-            .top-bar {
-                top: 0.75rem;
-                right: 0.75rem;
-            }
-            
-            .top-btn {
-                padding: 0.375rem 0.625rem;
-                font-size: 0.8125rem;
-            }
-            
-            .top-btn.donate {
-                width: 2rem;
-                height: 2rem;
-            }
         }
         
         /* ===== Hero Section ===== */
@@ -1016,20 +990,18 @@
     <!-- 背景效果 -->
     <div class="bg-grid"></div>
     
-    <!-- 顶部工具栏 -->
-    <div class="top-bar">
-        <button class="top-btn donate" onclick="openDonateModal()" title="Support">
-            <span>♥</span>
-        </button>
-        <div class="lang-switch">
-            <button class="lang-btn active" data-lang="zh" onclick="switchLang('zh')">中</button>
-            <button class="lang-btn" data-lang="en" onclick="switchLang('en')">En</button>
-        </div>
+    <!-- 语言切换 -->
+    <div class="lang-switch">
+        <button class="lang-btn active" data-lang="zh" onclick="switchLang('zh')">中文</button>
+        <button class="lang-btn" data-lang="en" onclick="switchLang('en')">EN</button>
     </div>
     
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Awesome Skills</h1>
+        <div class="hero-title-wrapper">
+            <h1>Awesome Skills</h1>
+            <button class="hero-donate-btn" onclick="openDonateModal()" title="Support">♥</button>
+        </div>
         <p data-i18n="heroSubtitle">649+ expert skills. One command away.</p>
         
         <div class="stats">
@@ -1068,11 +1040,11 @@
         </div>
         
         <div class="hero-actions">
-            <button class="btn btn-primary" onclick="document.getElementById('main').scrollIntoView({behavior: 'smooth'})" data-i18n="browseBtn">
-                <span>🔍</span> Browse Skills
+            <button class="btn btn-primary" onclick="document.getElementById('main').scrollIntoView({behavior: 'smooth'})">
+                <span>🔍</span> <span data-i18n="browseBtn">Browse Skills</span>
             </button>
-            <a href="https://github.com/theneoai/awesome-skills" class="btn btn-secondary" target="_blank" data-i18n="starBtn">
-                <span>⭐</span> Star on GitHub
+            <a href="https://github.com/theneoai/awesome-skills" class="btn btn-secondary" target="_blank">
+                <span>⭐</span> <span data-i18n="starBtn">Star on GitHub</span>
             </a>
         </div>
     </section>
@@ -1451,6 +1423,7 @@
                 resultsShowing: '显示',
                 resultsTotal: '共',
                 resultsSkills: '个技能',
+                selectedSuffix: '个技能已选择',
                 emptyTitle: '未找到技能',
                 emptyDesc: '尝试调整搜索条件或筛选器',
                 clearFilters: '清除筛选',
@@ -1509,6 +1482,7 @@
                 resultsShowing: 'Showing',
                 resultsTotal: 'of',
                 resultsSkills: 'skills',
+                selectedSuffix: 'skills selected',
                 emptyTitle: 'No skills found',
                 emptyDesc: 'Try adjusting your search or filter',
                 clearFilters: 'Clear Filters',
@@ -1611,16 +1585,19 @@
                 }
             }
             
-            // Footer date
+            // Footer
             const footerDate = document.querySelector('[data-i18n="footerDate"]');
             if (footerDate) {
                 footerDate.textContent = currentLang === 'zh' ? '发布于 2026年3月22日' : 'Released March 22, 2026';
             }
             
-            // Batch bar suffix
-            const batchSuffix = document.querySelector('[data-i18n="selectedSuffix"]');
-            if (batchSuffix) {
-                batchSuffix.textContent = currentLang === 'zh' ? '个技能已选择' : 'skills selected';
+            const footerText = document.querySelector('[data-i18n="footerText"]');
+            if (footerText) {
+                if (currentLang === 'zh') {
+                    footerText.innerHTML = '649 个专家技能由 <a href="https://github.com/theneoai">neo.ai</a> 精心策划 &bull; MIT 许可证';
+                } else {
+                    footerText.innerHTML = '649 Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License';
+                }
             }
             
             // Donate modal
@@ -1859,11 +1836,6 @@
             document.getElementById('batchBar').classList.toggle('active', count > 0);
             
             // Update batch bar suffix
-            const batchSuffix = document.querySelector('[data-i18n="selectedSuffix"]');
-            if (batchSuffix) {
-                batchSuffix.textContent = currentLang === 'zh' ? '个技能已选择' : 'skills selected';
-            }
-            
             renderSkills();
         }
         
