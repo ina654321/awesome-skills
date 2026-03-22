@@ -4,11 +4,11 @@
 
 # Awesome Skills
 
-**650个专家级AI技能 · 人类职业能力数字化图谱**
+**651个专家级AI技能 · 人类职业能力数字化图谱**
 
-[![Skills](https://img.shields.io/badge/Skills-650-blueviolet?style=flat-square)](./CATALOG.md)
+[![Skills](https://img.shields.io/badge/Skills-651-blueviolet?style=flat-square)](./CATALOG.md)
 [![Quality](https://img.shields.io/badge/Quality-EXCELLENCE%209.5%2F10-success?style=flat-square)](./SKILL-IMPROVEMENT-PLAN.md)
-[![Certified](https://img.shields.io/badge/Certified-242%2F650-37%25-brightgreen?style=flat-square)](./reports/evaluation_report.md)
+[![Certified](https://img.shields.io/badge/Certified-242%2F651-37%25-brightgreen?style=flat-square)](./reports/evaluation_report.md)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 
 **[🌐 在线浏览](https://theneoai.github.io/awesome-skills/)** · **[📚 技能目录](./CATALOG.md)** · **[📊 质量报告](./SKILL-IMPROVEMENT-PLAN.md)**
@@ -21,7 +21,7 @@
 
 | 指标 | 数值 | 说明 |
 |------|------|------|
-| **总技能数** | 650 | 覆盖70+职业领域 |
+| **总技能数** | 651 | 覆盖70+职业领域 |
 | **质量认证** | 242 (37%) | EXCELLENCE 9.5/10 标准 |
 | **企业技能** | 100+ | 全球Top企业方法论 |
 | **Token优化** | -50% | references-first架构 |
@@ -108,9 +108,9 @@ skills/enterprise/amazon-engineer/
 ```
 P0 核心技能      [████████████████████] 18/18  ✅ 100%
 P1 高优先级      [████████████████░░░░] 224/300 ✅ 75%
-P2/P3 待恢复     [░░░░░░░░░░░░░░░░░░░░] 0/332   ⏳ 0%
+P2/P3 待恢复     [░░░░░░░░░░░░░░░░░░░░] 0/333   ⏳ 0%
 ─────────────────────────────────────────────
-总计: 242/650 (37.2%) 达到 EXCELLENCE 9.5/10
+总计: 242/651 (37.2%) 达到 EXCELLENCE 9.5/10
 ```
 
 ### 质量标准
@@ -165,7 +165,7 @@ Copyright (c) 2026 [neo.ai](https://github.com/theneoai) <lucas_hsueh@hotmail.co
 
 > **工具是外延，能力是内核。**
 >
-> 用这650个Skill理解世界，用你自己的判断改变世界。
+> 用这651个Skill理解世界，用你自己的判断改变世界。
 
 Made with ❤️ by neo.ai
 

@@ -1,6 +1,6 @@
 // Auto-generated skills data
-// Generated: 2026-03-22T18:58:27.499882
-// Total skills: 856
+// Generated: 2026-03-22T19:05:33.925523
+// Total skills: 857
 // Categories: 60
 
 const skillsData = [
@@ -6213,6 +6213,21 @@ const skillsData = [
         "rating": 7.0,
         "installs": "81.0k",
         "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/honda/SKILL.md and install honda skill"
+    },
+    {
+        "id": "unilever",
+        "name": "Unilever",
+        "nameZh": "Unilever",
+        "category": "enterprise",
+        "icon": "🔧",
+        "shortDesc": "",
+        "shortDescZh": "",
+        "fullDesc": "",
+        "fullDescZh": "",
+        "quality": "intermediate",
+        "rating": 7.0,
+        "installs": "96.5k",
+        "command": "Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/enterprise/unilever/SKILL.md and install unilever skill"
     },
     {
         "id": "exxonmobil",
@@ -12848,12 +12863,12 @@ const skillsData = [
 
 // Hero statistics - auto-generated
 const heroStats = {
-    totalSkills: 856,
+    totalSkills: 857,
     totalCategories: 60,
     avgRating: 8.2,
     expertSkills: 570,
     advancedSkills: 139,
-    intermediateSkills: 147
+    intermediateSkills: 148
 };
 
 // Export for use in other scripts

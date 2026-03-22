@@ -1140,7 +1140,14 @@ def generate_skills_data():
     
     skills = []
     seen_ids = {}  # Track seen IDs and their categories
-    skill_files = list(SKILLS_DIR.rglob('**/SKILL.md'))
+    
+    # Exclude directories that are not actual skills
+    EXCLUDED_DIRS = {'_template', '_common', '.git', 'node_modules', '__pycache__'}
+    
+    skill_files = [
+        f for f in SKILLS_DIR.rglob('**/SKILL.md')
+        if not any(excluded in f.parts for excluded in EXCLUDED_DIRS)
+    ]
     
     print(f"Found {len(skill_files)} skill files")
     
