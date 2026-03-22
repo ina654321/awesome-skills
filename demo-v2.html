@@ -971,10 +971,10 @@
         </div>
         
         <div class="hero-actions">
-            <button class="btn btn-primary" onclick="document.getElementById('main').scrollIntoView({behavior: 'smooth'})">
+            <button class="btn btn-primary" onclick="document.getElementById('main').scrollIntoView({behavior: 'smooth'})" data-i18n="browseBtn">
                 <span>🔍</span> Browse Skills
             </button>
-            <a href="https://github.com/theneoai/awesome-skills" class="btn btn-secondary" target="_blank">
+            <a href="https://github.com/theneoai/awesome-skills" class="btn btn-secondary" target="_blank" data-i18n="starBtn">
                 <span>⭐</span> Star on GitHub
             </a>
         </div>
@@ -1124,7 +1124,7 @@
     <section class="quick-install">
         <div class="quick-install-inner">
             <div class="section-title">
-                <span>⚡</span> Quick Install - All Skills
+                <span>⚡</span> <span data-i18n="quickInstall">Quick Install - All Skills</span>
             </div>
             <div class="code-block">
                 <div class="code-header">
@@ -1151,7 +1151,7 @@
             <div style="display: flex; align-items: center; gap: 1rem;">
                 <div class="filter-wrapper">
                     <select class="category-select" id="categorySelect">
-                        <option value="all">All Categories</option>
+                        <option value="all" data-i18n="categoryAll">All Categories</option>
                         <option value="software">Software</option>
                         <option value="ai-ml">AI & ML</option>
                         <option value="creative">Creative</option>
@@ -1390,20 +1390,25 @@
             // Hero
             document.querySelector('.hero > p').textContent = t('heroSubtitle');
             
-            // Buttons
-            const browseBtn = document.querySelector('.hero-actions .btn-primary');
-            const starBtn = document.querySelector('.hero-actions .btn-secondary');
-            if (browseBtn) browseBtn.innerHTML = currentLang === 'zh' ? '🔍 浏览技能' : '🔍 Browse Skills';
-            if (starBtn) starBtn.innerHTML = currentLang === 'zh' ? '⭐ GitHub 星标' : '⭐ Star on GitHub';
+            // Update all elements with data-i18n attribute
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[currentLang][key]) {
+                    // Preserve emoji prefix if exists
+                    const text = i18n[currentLang][key];
+                    if (el.hasAttribute('data-preserve-emoji')) {
+                        const emoji = el.textContent.match(/^[\u{1F300}-\u{1F9FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]/u)?.[0] || '';
+                        el.textContent = emoji + ' ' + text.replace(/^[\u{1F300}-\u{1F9FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]\s*/u, '');
+                    } else {
+                        el.textContent = text;
+                    }
+                }
+            });
             
             // Stats
             document.querySelectorAll('[data-i18n="statSkills"]').forEach(el => el.textContent = t('statSkills'));
             document.querySelectorAll('[data-i18n="statIndustries"]').forEach(el => el.textContent = t('statIndustries'));
             document.querySelectorAll('[data-i18n="statQuality"]').forEach(el => el.textContent = t('statQuality'));
-            
-            // Section titles
-            const sectionTitle = document.querySelector('.section-title');
-            if (sectionTitle) sectionTitle.innerHTML = `<span>⚡</span> ${t('quickInstall').replace('⚡ ', '')}`;
             
             // Featured label
             const featuredText = document.querySelector('[data-i18n="featuredLabel"]');
@@ -1415,18 +1420,11 @@
                 }
             }
             
-            // Search
+            // Search placeholder
             const searchInput = document.querySelector('.search-input');
             if (searchInput) searchInput.placeholder = t('searchPlaceholder');
             
-            const categorySelect = document.querySelector('.category-select option[value="all"]');
-            if (categorySelect) categorySelect.textContent = t('categoryAll');
-            
-            // Selected badge
-            const selectedLabel = document.querySelector('.selected-badge span:first-child');
-            if (selectedLabel) selectedLabel.textContent = t('selectedLabel');
-            
-            // Results info - will be updated in renderSkills
+            // Results info
             const resultsInfo = document.getElementById('resultsInfo');
             if (resultsInfo) {
                 const filteredCount = document.querySelectorAll('.skill-card').length;
@@ -1438,50 +1436,38 @@
                 }
             }
             
-            // Footer
+            // Footer date
             const footerDate = document.querySelector('[data-i18n="footerDate"]');
             if (footerDate) {
                 footerDate.textContent = currentLang === 'zh' ? '发布于 2026年3月22日' : 'Released March 22, 2026';
             }
             
-            // Modal buttons
-            const closeBtn = document.querySelector('[data-i18n="closeBtn"]');
-            if (closeBtn) closeBtn.textContent = t('closeBtn');
+            // Batch bar suffix
+            const batchSuffix = document.querySelector('[data-i18n="selectedSuffix"]');
+            if (batchSuffix) {
+                batchSuffix.textContent = currentLang === 'zh' ? '个技能已选择' : 'skills selected';
+            }
             
-            const copyBtn = document.querySelector('[data-i18n="copyBtn"]');
-            if (copyBtn) copyBtn.textContent = t('copyBtn');
-            
-            // Batch bar buttons
-            const clearBtn = document.querySelector('.batch-actions [data-i18n="clearBtn"]');
-            if (clearBtn) clearBtn.textContent = t('clearBtn');
-            
-            const generateBtn = document.querySelector('.batch-actions [data-i18n="generateCmd"]');
-            if (generateBtn) generateBtn.textContent = t('generateCmd');
-            
-            // Modal title
-            const batchTitle = document.querySelector('[data-i18n="batchTitle"]');
-            if (batchTitle) batchTitle.textContent = t('batchTitle');
-            
-            // Re-render skills to update category names
+            // Re-render skills to update category names and skill names
             renderSkills();
         }
         
         const skillsData = [
-            { id: '1', name: 'Python Developer', category: 'software', icon: '🐍', shortDesc: 'Expert Python programming', fullDesc: 'Expert Python programming with best practices, design patterns, and modern tooling. Includes advanced topics like async programming, type hints, and testing strategies.', quality: 'expert', rating: 9.2, installs: '12.5k' },
-            { id: '2', name: 'React Specialist', category: 'software', icon: '⚛️', shortDesc: 'Modern React development', fullDesc: 'Frontend development with React, hooks, context, and modern state management. Covers performance optimization, SSR, and testing best practices.', quality: 'expert', rating: 9.0, installs: '10.2k' },
-            { id: '3', name: 'Node.js Engineer', category: 'software', icon: '🟢', shortDesc: 'Server-side JavaScript', fullDesc: 'Server-side JavaScript development with Express, NestJS, and microservices. Includes API design, database integration, and deployment strategies.', quality: 'advanced', rating: 8.7, installs: '8.8k' },
-            { id: '4', name: 'Data Scientist', category: 'ai-ml', icon: '📊', shortDesc: 'Data analysis & ML', fullDesc: 'Data analysis, visualization, machine learning, and statistical modeling. Covers pandas, scikit-learn, and deep learning fundamentals.', quality: 'expert', rating: 9.1, installs: '15.3k' },
-            { id: '5', name: 'ML Engineer', category: 'ai-ml', icon: '🤖', shortDesc: 'ML pipelines & MLOps', fullDesc: 'Machine learning pipelines, model deployment, and MLOps best practices. Includes Docker, Kubernetes, and cloud deployment patterns.', quality: 'expert', rating: 8.9, installs: '9.1k' },
-            { id: '6', name: 'UX Designer', category: 'creative', icon: '🎨', shortDesc: 'User experience design', fullDesc: 'User experience design, prototyping, usability testing, and design systems. Covers Figma, user research methods, and accessibility standards.', quality: 'advanced', rating: 8.5, installs: '7.2k' },
-            { id: '7', name: 'Product Manager', category: 'product', icon: '📱', shortDesc: 'Product strategy', fullDesc: 'Product strategy, roadmap planning, user research, and agile methodologies. Includes prioritization frameworks and stakeholder management.', quality: 'expert', rating: 8.8, installs: '11.6k' },
-            { id: '8', name: 'DevOps Engineer', category: 'engineering', icon: '🚀', shortDesc: 'CI/CD & Infrastructure', fullDesc: 'CI/CD pipelines, infrastructure as code, Kubernetes, and cloud platforms. Covers Terraform, Ansible, and monitoring solutions.', quality: 'expert', rating: 9.3, installs: '13.8k' },
-            { id: '9', name: 'Security Analyst', category: 'cybersecurity', icon: '🔒', shortDesc: 'Security & Compliance', fullDesc: 'Security audits, penetration testing, compliance, and threat modeling. Includes OWASP, NIST framework, and incident response.', quality: 'advanced', rating: 8.6, installs: '6.4k' },
-            { id: '10', name: 'Content Strategist', category: 'content', icon: '✍️', shortDesc: 'Content planning', fullDesc: 'Content planning, editorial calendars, SEO, and brand storytelling. Covers content audits, persona development, and distribution strategies.', quality: 'intermediate', rating: 7.9, installs: '4.8k' },
-            { id: '11', name: 'Financial Analyst', category: 'finance', icon: '💰', shortDesc: 'Financial modeling', fullDesc: 'Financial modeling, valuation, investment analysis, and reporting. Covers Excel, Python for finance, and risk assessment techniques.', quality: 'advanced', rating: 8.4, installs: '5.9k' },
-            { id: '12', name: 'Legal Researcher', category: 'legal', icon: '⚖️', shortDesc: 'Legal research', fullDesc: 'Legal research, contract analysis, compliance, and case law review. Includes legal writing, due diligence, and regulatory research.', quality: 'expert', rating: 8.7, installs: '3.2k' },
-            { id: '13', name: 'Medical Researcher', category: 'healthcare', icon: '🏥', shortDesc: 'Clinical research', fullDesc: 'Clinical research, literature review, and medical writing. Covers study design, statistical analysis, and publication standards.', quality: 'expert', rating: 9.0, installs: '4.5k' },
-            { id: '14', name: 'Teacher Assistant', category: 'education', icon: '📚', shortDesc: 'Education support', fullDesc: 'Educational content creation, curriculum design, and student support. Includes learning objectives, assessments, and differentiation strategies.', quality: 'intermediate', rating: 8.1, installs: '8.7k' },
-            { id: '15', name: 'Marketing Manager', category: 'marketing', icon: '📢', shortDesc: 'Digital marketing', fullDesc: 'Digital marketing, campaign management, analytics, and growth strategies. Covers SEO, SEM, social media, and marketing automation.', quality: 'advanced', rating: 8.3, installs: '9.4k' },
+            { id: '1', name: 'Python Developer', nameZh: 'Python开发工程师', category: 'software', icon: '🐍', shortDesc: 'Expert Python programming', shortDescZh: 'Python专家级编程', fullDesc: 'Expert Python programming with best practices, design patterns, and modern tooling. Includes advanced topics like async programming, type hints, and testing strategies.', fullDescZh: '使用最佳实践、设计模式和现代工具进行Python专家级编程。包括异步编程、类型提示和测试策略等高级主题。', quality: 'expert', rating: 9.2, installs: '12.5k' },
+            { id: '2', name: 'React Specialist', nameZh: 'React专家', category: 'software', icon: '⚛️', shortDesc: 'Modern React development', shortDescZh: '现代React开发', fullDesc: 'Frontend development with React, hooks, context, and modern state management. Covers performance optimization, SSR, and testing best practices.', fullDescZh: '使用React、Hooks、Context和现代状态管理进行前端开发。涵盖性能优化、服务端渲染和测试最佳实践。', quality: 'expert', rating: 9.0, installs: '10.2k' },
+            { id: '3', name: 'Node.js Engineer', nameZh: 'Node.js工程师', category: 'software', icon: '🟢', shortDesc: 'Server-side JavaScript', shortDescZh: '服务端JavaScript开发', fullDesc: 'Server-side JavaScript development with Express, NestJS, and microservices. Includes API design, database integration, and deployment strategies.', fullDescZh: '使用Express、NestJS和微服务进行服务端JavaScript开发。包括API设计、数据库集成和部署策略。', quality: 'advanced', rating: 8.7, installs: '8.8k' },
+            { id: '4', name: 'Data Scientist', nameZh: '数据科学家', category: 'ai-ml', icon: '📊', shortDesc: 'Data analysis & ML', shortDescZh: '数据分析与机器学习', fullDesc: 'Data analysis, visualization, machine learning, and statistical modeling. Covers pandas, scikit-learn, and deep learning fundamentals.', fullDescZh: '数据分析、可视化、机器学习和统计建模。涵盖pandas、scikit-learn和深度学习基础。', quality: 'expert', rating: 9.1, installs: '15.3k' },
+            { id: '5', name: 'ML Engineer', nameZh: '机器学习工程师', category: 'ai-ml', icon: '🤖', shortDesc: 'ML pipelines & MLOps', shortDescZh: 'ML流水线与MLOps', fullDesc: 'Machine learning pipelines, model deployment, and MLOps best practices. Includes Docker, Kubernetes, and cloud deployment patterns.', fullDescZh: '机器学习流水线、模型部署和MLOps最佳实践。包括Docker、Kubernetes和云部署模式。', quality: 'expert', rating: 8.9, installs: '9.1k' },
+            { id: '6', name: 'UX Designer', nameZh: 'UX设计师', category: 'creative', icon: '🎨', shortDesc: 'User experience design', shortDescZh: '用户体验设计', fullDesc: 'User experience design, prototyping, usability testing, and design systems. Covers Figma, user research methods, and accessibility standards.', fullDescZh: '用户体验设计、原型制作、可用性测试和设计系统。涵盖Figma、用户研究方法和无障碍标准。', quality: 'advanced', rating: 8.5, installs: '7.2k' },
+            { id: '7', name: 'Product Manager', nameZh: '产品经理', category: 'product', icon: '📱', shortDesc: 'Product strategy', shortDescZh: '产品战略规划', fullDesc: 'Product strategy, roadmap planning, user research, and agile methodologies. Includes prioritization frameworks and stakeholder management.', fullDescZh: '产品战略、路线图规划、用户研究和敏捷方法论。包括优先级框架和利益相关者管理。', quality: 'expert', rating: 8.8, installs: '11.6k' },
+            { id: '8', name: 'DevOps Engineer', nameZh: 'DevOps工程师', category: 'engineering', icon: '🚀', shortDesc: 'CI/CD & Infrastructure', shortDescZh: 'CI/CD与基础设施', fullDesc: 'CI/CD pipelines, infrastructure as code, Kubernetes, and cloud platforms. Covers Terraform, Ansible, and monitoring solutions.', fullDescZh: 'CI/CD流水线、基础设施即代码、Kubernetes和云平台。涵盖Terraform、Ansible和监控解决方案。', quality: 'expert', rating: 9.3, installs: '13.8k' },
+            { id: '9', name: 'Security Analyst', nameZh: '安全分析师', category: 'cybersecurity', icon: '🔒', shortDesc: 'Security & Compliance', shortDescZh: '安全与合规', fullDesc: 'Security audits, penetration testing, compliance, and threat modeling. Includes OWASP, NIST framework, and incident response.', fullDescZh: '安全审计、渗透测试、合规性和威胁建模。包括OWASP、NIST框架和事件响应。', quality: 'advanced', rating: 8.6, installs: '6.4k' },
+            { id: '10', name: 'Content Strategist', nameZh: '内容策略师', category: 'content', icon: '✍️', shortDesc: 'Content planning', shortDescZh: '内容策划', fullDesc: 'Content planning, editorial calendars, SEO, and brand storytelling. Covers content audits, persona development, and distribution strategies.', fullDescZh: '内容规划、编辑日历、SEO和品牌故事讲述。涵盖内容审计、用户画像开发和分发策略。', quality: 'intermediate', rating: 7.9, installs: '4.8k' },
+            { id: '11', name: 'Financial Analyst', nameZh: '金融分析师', category: 'finance', icon: '💰', shortDesc: 'Financial modeling', shortDescZh: '金融建模分析', fullDesc: 'Financial modeling, valuation, investment analysis, and reporting. Covers Excel, Python for finance, and risk assessment techniques.', fullDescZh: '金融建模、估值、投资分析和报告。涵盖Excel、Python金融应用和风险评估技术。', quality: 'advanced', rating: 8.4, installs: '5.9k' },
+            { id: '12', name: 'Legal Researcher', nameZh: '法律研究员', category: 'legal', icon: '⚖️', shortDesc: 'Legal research', shortDescZh: '法律研究', fullDesc: 'Legal research, contract analysis, compliance, and case law review. Includes legal writing, due diligence, and regulatory research.', fullDescZh: '法律研究、合同分析、合规和判例法审查。包括法律写作、尽职调查和监管研究。', quality: 'expert', rating: 8.7, installs: '3.2k' },
+            { id: '13', name: 'Medical Researcher', nameZh: '医学研究员', category: 'healthcare', icon: '🏥', shortDesc: 'Clinical research', shortDescZh: '临床研究', fullDesc: 'Clinical research, literature review, and medical writing. Covers study design, statistical analysis, and publication standards.', fullDescZh: '临床研究、文献综述和医学写作。涵盖研究设计、统计分析和发表标准。', quality: 'expert', rating: 9.0, installs: '4.5k' },
+            { id: '14', name: 'Teacher Assistant', nameZh: '教学助理', category: 'education', icon: '📚', shortDesc: 'Education support', shortDescZh: '教育辅助支持', fullDesc: 'Educational content creation, curriculum design, and student support. Includes learning objectives, assessments, and differentiation strategies.', fullDescZh: '教育内容创作、课程设计和学生支持。包括学习目标、评估和差异化策略。', quality: 'intermediate', rating: 8.1, installs: '8.7k' },
+            { id: '15', name: 'Marketing Manager', nameZh: '营销经理', category: 'marketing', icon: '📢', shortDesc: 'Digital marketing', shortDescZh: '数字营销', fullDesc: 'Digital marketing, campaign management, analytics, and growth strategies. Covers SEO, SEM, social media, and marketing automation.', fullDescZh: '数字营销、活动管理、数据分析和增长策略。涵盖SEO、SEM、社交媒体和营销自动化。', quality: 'advanced', rating: 8.3, installs: '9.4k' },
         ];
         
         // Generate more mock skills
@@ -1500,10 +1486,27 @@
             'Proven strategies'
         ];
         
+        // Chinese translations for auto-generated skills
+        const roleNamesZh = ['专家', '工程师', '架构师', '顾问', '策略师', '分析师', '开发者', '设计师', '经理', '专家', '负责人', '顾问', '协调员', '管理员', '技术员'];
+        const shortDescsZh = [
+            '行业最佳实践',
+            '专业工作流程',
+            '高级技术方法',
+            '完整方法论',
+            '生产级解决方案',
+            '企业级标准',
+            '现代方法论',
+            '综合指南',
+            '实用框架',
+            '验证策略'
+        ];
+        
         for (let i = 16; i <= 60; i++) {
             const catKeys = Object.keys(categories);
             const cat = catKeys[Math.floor(Math.random() * catKeys.length)];
+            const catZh = categoriesZh[cat];
             const role = roleNames[i % roleNames.length];
+            const roleZh = roleNamesZh[i % roleNamesZh.length];
             const quality = qualities[i % 3];
             const rating = quality === 'expert' ? (8.5 + Math.random() * 1.0).toFixed(1) : 
                           quality === 'advanced' ? (7.5 + Math.random() * 1.0).toFixed(1) : 
@@ -1513,10 +1516,13 @@
             skillsData.push({
                 id: String(i),
                 name: `${categories[cat]} ${role}`,
+                nameZh: `${catZh}${roleZh}`,
                 category: cat,
                 icon: ['🔧', '💡', '📈', '🎯', '🔨', '📐', '🔌', '🎭', '📺', '🔋', '🎮', '🚁', '🏢', '📋', '🤖'][i % 15],
                 shortDesc: shortDescs[i % shortDescs.length],
+                shortDescZh: shortDescsZh[i % shortDescsZh.length],
                 fullDesc: `Professional ${categories[cat]} skill with industry best practices and expert knowledge. Includes real-world examples, templates, and step-by-step guidance for ${role.toLowerCase()}s.`,
+                fullDescZh: `专业的${catZh}技能，包含行业最佳实践和专家知识。包括真实案例、模板和${roleZh}的逐步指导。`,
                 quality: quality,
                 rating: rating,
                 installs: installs
@@ -1605,7 +1611,13 @@
                 intermediate: t('qualityIntermediate')
             };
             
-            grid.innerHTML = filtered.map((skill) => `
+            grid.innerHTML = filtered.map((skill) => {
+                // Use Chinese or English based on current language
+                const displayName = currentLang === 'zh' && skill.nameZh ? skill.nameZh : skill.name;
+                const displayShortDesc = currentLang === 'zh' && skill.shortDescZh ? skill.shortDescZh : skill.shortDesc;
+                const displayFullDesc = currentLang === 'zh' && skill.fullDescZh ? skill.fullDescZh : skill.fullDesc;
+                
+                return `
                 <div class="skill-card ${selectedSkills.has(skill.id) ? 'selected' : ''}" 
                      onclick="toggleSkill('${skill.id}')">
                     
@@ -1617,14 +1629,14 @@
                     <div class="skill-header">
                         <div class="skill-icon">${skill.icon}</div>
                         <div class="skill-title">
-                            <div class="skill-name">${escapeHtml(skill.name)}</div>
-                            <div class="skill-subtitle">${escapeHtml(skill.shortDesc)}</div>
+                            <div class="skill-name">${escapeHtml(displayName)}</div>
+                            <div class="skill-subtitle">${escapeHtml(displayShortDesc)}</div>
                         </div>
                     </div>
                     
                     <!-- 悬停显示的详细 Tooltip -->
                     <div class="skill-tooltip">
-                        <div>${escapeHtml(skill.fullDesc)}</div>
+                        <div>${escapeHtml(displayFullDesc)}</div>
                         <div class="skill-meta">
                             <span>⭐ ${skill.rating}</span>
                             <span>📥 ${skill.installs}</span>
@@ -1632,7 +1644,7 @@
                         </div>
                     </div>
                 </div>
-            `).join('');
+            `}).join('');
         }
         
         function toggleSkill(id) {
