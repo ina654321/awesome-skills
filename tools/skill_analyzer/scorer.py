@@ -113,7 +113,7 @@ def analyze_system_prompt(body: str) -> float:
 
     # Extract System Prompt section content - handle numbered sections like ## 1. System Prompt, ## §1. System Prompt, ## § 1 · System Prompt
     sp_match = re.search(
-        r"^##\s+(?:\d+\.|\§[^\S\n]*\d+[^\S\n]*[·.]?[^\S\n]*)?\s*System Prompt.*?\n(.*?)(?=^##\s|\Z)",
+        r"^##\s+(?:\d+\.|\§[^\S\n]*\d+\s*[·.—]\s*)?\s*System Prompt.*?\n(.*?)(?=^##\s|\Z)",
         body,
         re.MULTILINE | re.DOTALL,
     )
@@ -192,7 +192,7 @@ def analyze_workflow(body: str) -> float:
 
     # Extract workflow section - handle numbered sections like ## 8. Standard Workflow
     wf_match = re.search(
-        r"^##\s+(?:\d+\.|\§[^\S\n]*\d+[^\S\n]*[·.]?[^\S\n]*)?\s*.?(?:Standard Workflow|Work Process|Workflow).*?\n(.*?)(?=^##\s|\Z)",
+        r"^##\s+(?:\d+\.|\§[^\S\n]*\d+\s*[·.—]\s*)?\s*.?(?:Standard Workflow|Work Process|Workflow).*?\n(.*?)(?=^##\s|\Z)",
         body,
         re.MULTILINE | re.DOTALL,
     )
@@ -249,7 +249,9 @@ def analyze_risk_documentation(body: str) -> float:
 
     # Extract risk section - handle numbered sections
     risk_match = re.search(
-        r"^##\s+(?:\d+\.|\§\d+)?\s*.*?Risk.*?\n(.*?)(?=^##\s|\Z)", body, re.MULTILINE | re.DOTALL
+        r"^##\s+(?:\d+\.|\§[^\S\n]*\d+\s*[·.—])?\s*.*?Risk.*?\n(.*?)(?=^##\s|\Z)",
+        body,
+        re.MULTILINE | re.DOTALL,
     )
     if not risk_match:
         return 2.0
