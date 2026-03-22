@@ -56,6 +56,41 @@
         
         html { scroll-behavior: smooth; }
         
+        /* 语言切换 */
+        .lang-switch {
+            position: fixed;
+            top: 1.5rem;
+            right: 1.5rem;
+            display: flex;
+            gap: 0.25rem;
+            background: var(--dark-card);
+            border: 1px solid var(--dark-border);
+            border-radius: 10px;
+            padding: 0.25rem;
+            z-index: 1000;
+        }
+        
+        .lang-btn {
+            padding: 0.5rem 0.875rem;
+            background: transparent;
+            border: none;
+            border-radius: 8px;
+            color: var(--gray);
+            font-size: 0.8125rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .lang-btn:hover {
+            color: var(--light);
+        }
+        
+        .lang-btn.active {
+            background: rgba(99, 102, 241, 0.15);
+            color: var(--primary-light);
+        }
+        
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--dark);
@@ -889,6 +924,12 @@
     <!-- 背景效果 -->
     <div class="bg-grid"></div>
     
+    <!-- 语言切换 -->
+    <div class="lang-switch">
+        <button class="lang-btn active" data-lang="zh" onclick="switchLang('zh')">中文</button>
+        <button class="lang-btn" data-lang="en" onclick="switchLang('en')">EN</button>
+    </div>
+    
     <!-- Hero Section -->
     <section class="hero">
         <h1>Awesome Skills</h1>
@@ -897,23 +938,22 @@
         <div class="stats">
             <div class="stat-card">
                 <div class="stat-value">649</div>
-                <div class="stat-label">Skills</div>
+                <div class="stat-label" data-i18n="statSkills">Skills</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value">70+</div>
-                <div class="stat-label">Industries</div>
+                <div class="stat-label" data-i18n="statIndustries">Industries</div>
             </div>
-
             <div class="stat-card">
                 <div class="stat-value">6.8</div>
-                <div class="stat-label">Quality</div>
+                <div class="stat-label" data-i18n="statQuality">Quality</div>
             </div>
         </div>
         
         <!-- Featured Pills -->
         <div class="featured-pills">
             <div class="featured-label">
-                <span class="featured-text"><strong>Recommended</strong> for new users</span>
+                <span class="featured-text" data-i18n="featuredLabel"><strong>Recommended</strong> for new users</span>
             </div>
             <div class="pills-row">
                 <button class="pill pill-highlight" onclick="copyText('Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and install skill-writer', this)">
@@ -1153,11 +1193,11 @@
     <!-- Batch Action Bar -->
     <div class="batch-bar" id="batchBar">
         <div class="batch-info">
-            <span class="batch-text"><strong id="batchCount">0</strong> skills selected</span>
+            <span class="batch-text" data-i18n-batch><strong id="batchCount">0</strong> <span data-i18n="selectedSuffix">skills selected</span></span>
         </div>
         <div class="batch-actions">
-            <button class="btn btn-secondary btn-small" onclick="clearSelection()">Clear</button>
-            <button class="btn btn-primary btn-small" onclick="generateCommand()">Generate Command</button>
+            <button class="btn btn-secondary btn-small" onclick="clearSelection()" data-i18n="clearBtn">Clear</button>
+            <button class="btn btn-primary btn-small" onclick="generateCommand()" data-i18n="generateCmd">Generate Command</button>
         </div>
     </div>
     
@@ -1165,15 +1205,15 @@
     <div class="modal-overlay" id="modal" onclick="closeModal(event)">
         <div class="modal" onclick="event.stopPropagation()">
             <div class="modal-header">
-                <h3 class="modal-title">📋 Batch Install Command</h3>
+                <h3 class="modal-title" data-i18n="batchTitle">📋 Batch Install Command</h3>
                 <button class="modal-close" onclick="closeModal()">&times;</button>
             </div>
             <div class="modal-body">
                 <div class="modal-content" id="modalContent"></div>
             </div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" onclick="closeModal()">Close</button>
-                <button class="btn btn-primary" onclick="copyModalContent()">Copy to Clipboard</button>
+                <button class="btn btn-secondary" onclick="closeModal()" data-i18n="closeBtn">Close</button>
+                <button class="btn btn-primary" onclick="copyModalContent()" data-i18n="copyBtn">Copy to Clipboard</button>
             </div>
         </div>
     </div>
@@ -1185,9 +1225,9 @@
     <footer>
         <div class="footer-version">
             <span class="version-badge">v2.0.0</span>
-            <span class="version-date">Released March 22, 2026</span>
+            <span class="version-date" data-i18n="footerDate">Released March 22, 2026</span>
         </div>
-        <p>649 Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License</p>
+        <p data-i18n="footerText">649 Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License</p>
         <p style="margin-top: 0.5rem;">
             <a href="./CATALOG.md">Catalog</a> &bull;
             <a href="./INSTALL-GUIDE.md">Install Guide</a> &bull;
@@ -1240,6 +1280,191 @@
             data: 'Data',
             engineering: 'Engineering'
         };
+        
+        const categoriesZh = {
+            software: '软件开发',
+            'ai-ml': '人工智能',
+            creative: '创意设计',
+            business: '商业管理',
+            education: '教育培训',
+            healthcare: '医疗健康',
+            finance: '金融分析',
+            legal: '法律服务',
+            research: '学术研究',
+            cybersecurity: '网络安全',
+            content: '内容创作',
+            marketing: '市场营销',
+            product: '产品管理',
+            data: '数据分析',
+            engineering: '工程技术'
+        };
+        
+        // 翻译数据
+        const i18n = {
+            zh: {
+                heroTitle: 'Awesome Skills',
+                heroSubtitle: '649+ expert skills. One command away.',
+                browseBtn: '🔍 浏览技能',
+                starBtn: '⭐ GitHub 星标',
+                statSkills: '技能',
+                statIndustries: '行业',
+                statQuality: '质量评分',
+                quickInstall: '⚡ 快速安装 - 全部技能',
+                featuredLabel: '推荐新用户使用',
+                skillWriter: 'Skill Writer',
+                skillEvaluator: 'Skill Evaluator',
+                searchPlaceholder: '搜索技能...',
+                categoryAll: '全部分类',
+                selectedLabel: '已选择',
+                clearBtn: '清除',
+                generateCmd: '生成命令',
+                resultsShowing: '显示',
+                resultsTotal: '共',
+                resultsSkills: '个技能',
+                emptyTitle: '未找到技能',
+                emptyDesc: '尝试调整搜索条件或筛选器',
+                clearFilters: '清除筛选',
+                batchTitle: '📋 批量安装命令',
+                copyBtn: '复制到剪贴板',
+                closeBtn: '关闭',
+                copied: '已复制',
+                copyFailed: '复制失败',
+                footerVersion: '版本',
+                footerLicense: 'MIT 许可证',
+                qualityExpert: '专家级',
+                qualityAdvanced: '高级',
+                qualityIntermediate: '中级'
+            },
+            en: {
+                heroTitle: 'Awesome Skills',
+                heroSubtitle: '649+ expert skills. One command away.',
+                browseBtn: '🔍 Browse Skills',
+                starBtn: '⭐ Star on GitHub',
+                statSkills: 'Skills',
+                statIndustries: 'Industries',
+                statQuality: 'Quality',
+                quickInstall: '⚡ Quick Install - All Skills',
+                featuredLabel: 'Recommended for new users',
+                skillWriter: 'Skill Writer',
+                skillEvaluator: 'Skill Evaluator',
+                searchPlaceholder: 'Search skills...',
+                categoryAll: 'All Categories',
+                selectedLabel: 'Selected',
+                clearBtn: 'Clear',
+                generateCmd: 'Generate Command',
+                resultsShowing: 'Showing',
+                resultsTotal: 'of',
+                resultsSkills: 'skills',
+                emptyTitle: 'No skills found',
+                emptyDesc: 'Try adjusting your search or filter',
+                clearFilters: 'Clear Filters',
+                batchTitle: '📋 Batch Install Command',
+                copyBtn: 'Copy to Clipboard',
+                closeBtn: 'Close',
+                copied: 'Copied',
+                copyFailed: 'Copy failed',
+                footerVersion: 'Version',
+                footerLicense: 'MIT License',
+                qualityExpert: 'Expert',
+                qualityAdvanced: 'Advanced',
+                qualityIntermediate: 'Intermediate'
+            }
+        };
+        
+        let currentLang = 'zh';
+        
+        function switchLang(lang) {
+            currentLang = lang;
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === lang);
+            });
+            updateTexts();
+            renderSkills();
+        }
+        
+        function t(key) {
+            return i18n[currentLang][key] || key;
+        }
+        
+        function updateTexts() {
+            // Hero
+            document.querySelector('.hero > p').textContent = t('heroSubtitle');
+            
+            // Buttons
+            const browseBtn = document.querySelector('.hero-actions .btn-primary');
+            const starBtn = document.querySelector('.hero-actions .btn-secondary');
+            if (browseBtn) browseBtn.innerHTML = currentLang === 'zh' ? '🔍 浏览技能' : '🔍 Browse Skills';
+            if (starBtn) starBtn.innerHTML = currentLang === 'zh' ? '⭐ GitHub 星标' : '⭐ Star on GitHub';
+            
+            // Stats
+            document.querySelectorAll('[data-i18n="statSkills"]').forEach(el => el.textContent = t('statSkills'));
+            document.querySelectorAll('[data-i18n="statIndustries"]').forEach(el => el.textContent = t('statIndustries'));
+            document.querySelectorAll('[data-i18n="statQuality"]').forEach(el => el.textContent = t('statQuality'));
+            
+            // Section titles
+            const sectionTitle = document.querySelector('.section-title');
+            if (sectionTitle) sectionTitle.innerHTML = `<span>⚡</span> ${t('quickInstall').replace('⚡ ', '')}`;
+            
+            // Featured label
+            const featuredText = document.querySelector('[data-i18n="featuredLabel"]');
+            if (featuredText) {
+                if (currentLang === 'zh') {
+                    featuredText.innerHTML = '<strong>推荐</strong> 新用户使用';
+                } else {
+                    featuredText.innerHTML = '<strong>Recommended</strong> for new users';
+                }
+            }
+            
+            // Search
+            const searchInput = document.querySelector('.search-input');
+            if (searchInput) searchInput.placeholder = t('searchPlaceholder');
+            
+            const categorySelect = document.querySelector('.category-select option[value="all"]');
+            if (categorySelect) categorySelect.textContent = t('categoryAll');
+            
+            // Selected badge
+            const selectedLabel = document.querySelector('.selected-badge span:first-child');
+            if (selectedLabel) selectedLabel.textContent = t('selectedLabel');
+            
+            // Results info - will be updated in renderSkills
+            const resultsInfo = document.getElementById('resultsInfo');
+            if (resultsInfo) {
+                const filteredCount = document.querySelectorAll('.skill-card').length;
+                const totalCount = allSkills.length;
+                if (currentLang === 'zh') {
+                    resultsInfo.textContent = `显示 ${filteredCount} / ${totalCount} 个技能`;
+                } else {
+                    resultsInfo.textContent = `Showing ${filteredCount} of ${totalCount} skills`;
+                }
+            }
+            
+            // Footer
+            const footerDate = document.querySelector('[data-i18n="footerDate"]');
+            if (footerDate) {
+                footerDate.textContent = currentLang === 'zh' ? '发布于 2026年3月22日' : 'Released March 22, 2026';
+            }
+            
+            // Modal buttons
+            const closeBtn = document.querySelector('[data-i18n="closeBtn"]');
+            if (closeBtn) closeBtn.textContent = t('closeBtn');
+            
+            const copyBtn = document.querySelector('[data-i18n="copyBtn"]');
+            if (copyBtn) copyBtn.textContent = t('copyBtn');
+            
+            // Batch bar buttons
+            const clearBtn = document.querySelector('.batch-actions [data-i18n="clearBtn"]');
+            if (clearBtn) clearBtn.textContent = t('clearBtn');
+            
+            const generateBtn = document.querySelector('.batch-actions [data-i18n="generateCmd"]');
+            if (generateBtn) generateBtn.textContent = t('generateCmd');
+            
+            // Modal title
+            const batchTitle = document.querySelector('[data-i18n="batchTitle"]');
+            if (batchTitle) batchTitle.textContent = t('batchTitle');
+            
+            // Re-render skills to update category names
+            renderSkills();
+        }
         
         const skillsData = [
             { id: '1', name: 'Python Developer', category: 'software', icon: '🐍', shortDesc: 'Expert Python programming', fullDesc: 'Expert Python programming with best practices, design patterns, and modern tooling. Includes advanced topics like async programming, type hints, and testing strategies.', quality: 'expert', rating: 9.2, installs: '12.5k' },
@@ -1307,6 +1532,7 @@
         async function init() {
             await new Promise(r => setTimeout(r, 600));
             allSkills = skillsData;
+            updateTexts();
             renderSkills();
             setupEventListeners();
         }
@@ -1349,8 +1575,14 @@
                 );
             }
             
-            document.getElementById('resultsInfo').textContent = 
-                `Showing ${filtered.length} of ${allSkills.length} skills`;
+            const resultsInfo = document.getElementById('resultsInfo');
+            if (resultsInfo) {
+                if (currentLang === 'zh') {
+                    resultsInfo.textContent = `显示 ${filtered.length} / ${allSkills.length} 个技能`;
+                } else {
+                    resultsInfo.textContent = `Showing ${filtered.length} of ${allSkills.length} skills`;
+                }
+            }
             
             const grid = document.getElementById('skillsGrid');
             
@@ -1358,20 +1590,27 @@
                 grid.innerHTML = `
                     <div class="empty-state">
                         <div class="empty-icon">🔍</div>
-                        <div class="empty-title">No skills found</div>
-                        <div class="empty-desc">Try adjusting your search or filter</div>
-                        <button class="btn btn-primary" onclick="clearFilters()">Clear Filters</button>
+                        <div class="empty-title">${t('emptyTitle')}</div>
+                        <div class="empty-desc">${t('emptyDesc')}</div>
+                        <button class="btn btn-primary" onclick="clearFilters()">${t('clearFilters')}</button>
                     </div>
                 `;
                 return;
             }
+            
+            const catNames = currentLang === 'zh' ? categoriesZh : categories;
+            const qualityLabels = {
+                expert: t('qualityExpert'),
+                advanced: t('qualityAdvanced'),
+                intermediate: t('qualityIntermediate')
+            };
             
             grid.innerHTML = filtered.map((skill) => `
                 <div class="skill-card ${selectedSkills.has(skill.id) ? 'selected' : ''}" 
                      onclick="toggleSkill('${skill.id}')">
                     
                     <!-- 质量等级标签 -->
-                    <div class="quality-tag ${skill.quality}">${skill.quality}</div>
+                    <div class="quality-tag ${skill.quality}">${qualityLabels[skill.quality]}</div>
                     
                     <div class="skill-check">✓</div>
                     
@@ -1389,7 +1628,7 @@
                         <div class="skill-meta">
                             <span>⭐ ${skill.rating}</span>
                             <span>📥 ${skill.installs}</span>
-                            <span>🏷️ ${categories[skill.category] || skill.category}</span>
+                            <span>🏷️ ${catNames[skill.category] || skill.category}</span>
                         </div>
                     </div>
                 </div>
@@ -1411,13 +1650,20 @@
             document.getElementById('batchCount').textContent = count;
             document.getElementById('selectedBadge').style.display = count > 0 ? 'flex' : 'none';
             document.getElementById('batchBar').classList.toggle('active', count > 0);
+            
+            // Update batch bar suffix
+            const batchSuffix = document.querySelector('[data-i18n="selectedSuffix"]');
+            if (batchSuffix) {
+                batchSuffix.textContent = currentLang === 'zh' ? '个技能已选择' : 'skills selected';
+            }
+            
             renderSkills();
         }
         
         function clearSelection() {
             selectedSkills.clear();
             updateUI();
-            showToast('Selection cleared', 'success');
+            showToast(t('clearBtn'), 'success');
         }
         
         function clearFilters() {
@@ -1448,22 +1694,22 @@
             try {
                 await navigator.clipboard.writeText(text);
                 const original = btn.textContent;
-                btn.textContent = 'Copied!';
+                btn.textContent = t('copied') + '!';
                 btn.classList.add('copied');
                 setTimeout(() => {
                     btn.textContent = original;
                     btn.classList.remove('copied');
                 }, 2000);
-                showToast('Copied to clipboard', 'success');
+                showToast(t('copied'), 'success');
             } catch {
-                showToast('Copy failed', 'error');
+                showToast(t('copyFailed'), 'error');
             }
         }
         
         function copyModalContent() {
             const text = document.getElementById('modalContent').textContent;
             navigator.clipboard.writeText(text).then(() => {
-                showToast('Copied to clipboard', 'success');
+                showToast(t('copied'), 'success');
             });
         }
         

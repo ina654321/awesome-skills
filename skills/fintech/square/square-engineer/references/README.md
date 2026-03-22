@@ -1,34 +1,23 @@
-# Square Engineer - References
+# Square/Block Skill References
 
-## Official Documentation
+This directory contains detailed reference materials for the Square/Block skill.
 
-- [Square Developer Documentation](https://developer.squareup.com/us/en)
-- [Square API Reference](https://developer.squareup.com/reference/square)
-- [Square Hardware](https://squareup.com/us/en/hardware)
-- [Square Point of Sale](https://squareup.com/us/en/point-of-sale)
+## Contents
 
-## Block Inc Resources
+| File | Description |
+|------|-------------|
+| `block-company-profile.md` | Company overview, financials, leadership |
+| `square-apis-reference.md` | API endpoints, webhooks, SDKs |
+| `bitcoin-ecosystem.md` | Block's Bitcoin stack (Spiral, Proto, Bitkey, TBD) |
 
-- [Block Investor Relations](https://investors.block.xyz/)
-- [Block Engineering Blog](https://block.xyz/inside)
-- [Block Q4 2025 Shareholder Letter](https://s29.q4cdn.com/628966176/files/doc_financials/2025/q4/Q4-2025-Shareholder-Letter_Block.pdf)
+## Quick Links
 
-## Bitcoin & Crypto
+- [Square Developer Docs](https://developer.squareup.com)
+- [Block Corporate](https://block.xyz)
+- [Spiral](https://spiral.xyz)
+- [Bitkey](https://bitkey.world)
 
-- [Spiral - Bitcoin Development](https://spiral.xyz/)
-- [Proto - Bitcoin Mining](https://proto.xyz/)
-- [Bitkey - Self-Custody Wallet](https://bitkey.world/)
-- [Square Bitcoin](https://squareup.com/us/en/bitcoin)
+## Version
 
-## SDKs & Tools
-
-- [Square Python SDK](https://developer.squareup.com/docs/sdks/python)
-- [Square Node.js SDK](https://developer.squareup.com/docs/sdks/nodejs)
-- [Web Payments SDK](https://developer.squareup.com/docs/web-payments/overview)
-- [Terminal API](https://developer.squareup.com/docs/terminal-api/overview)
-
-## Community & Support
-
-- [Square Developer Forums](https://developer.squareup.com/forums/)
-- [Square Developer Blog](https://developer.squareup.com/blog/)
-- [Square Developer Discord](https://discord.gg/squaredev)
+Last updated: 2026-03-21
+Skill version: 5.0.0 (EXCELLENCE 9.5/10)
