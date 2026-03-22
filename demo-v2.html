@@ -64,39 +64,6 @@
             min-height: 100vh;
         }
         
-        /* Hero Title with Donate Button */
-        .hero-title-wrapper {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .hero-donate-btn {
-            position: absolute;
-            top: 0.5rem;
-            right: -2rem;
-            background: transparent;
-            border: none;
-            color: var(--accent);
-            font-size: 1.25rem;
-            cursor: pointer;
-            opacity: 0.6;
-            transition: all 0.2s ease;
-            padding: 0.25rem;
-            line-height: 1;
-        }
-        
-        .hero-donate-btn:hover {
-            opacity: 1;
-            transform: scale(1.2);
-        }
-        
-        @media (max-width: 640px) {
-            .hero-donate-btn {
-                right: -1.5rem;
-                font-size: 1rem;
-            }
-        }
-        
         /* ===== Hero Section ===== */
         .hero {
             position: relative;
@@ -126,18 +93,45 @@
         }
         
         /* ===== Top Bar ===== */
-        /* 语言切换 */
-        .lang-switch {
+        /* 顶部工具栏 */
+        .top-toolbar {
             position: fixed;
             top: 1.5rem;
             right: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            z-index: 1000;
+        }
+        
+        .toolbar-btn {
+            padding: 0.5rem 0.75rem;
+            background: var(--dark-card);
+            border: 1px solid var(--dark-border);
+            border-radius: 10px;
+            color: var(--accent);
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .toolbar-btn:hover {
+            border-color: var(--accent);
+            background: rgba(236, 72, 153, 0.1);
+            transform: scale(1.05);
+        }
+        
+        /* 语言切换 */
+        .lang-switch {
             display: flex;
             gap: 0.25rem;
             background: var(--dark-card);
             border: 1px solid var(--dark-border);
             border-radius: 10px;
             padding: 0.25rem;
-            z-index: 1000;
         }
         
         .lang-btn {
@@ -162,7 +156,7 @@
         }
         
         /* ===== Hero Section ===== */
-        .hero {
+        .hero h1 {
             font-size: clamp(2.5rem, 6vw, 4rem);
             font-weight: 800;
             letter-spacing: -0.02em;
@@ -968,6 +962,21 @@
         
         /* Mobile Optimizations */
         @media (max-width: 640px) {
+            .top-toolbar {
+                top: 1rem;
+                right: 1rem;
+            }
+            
+            .toolbar-btn {
+                padding: 0.375rem 0.625rem;
+                font-size: 0.875rem;
+            }
+            
+            .lang-btn {
+                padding: 0.375rem 0.625rem;
+                font-size: 0.75rem;
+            }
+            
             .hero { padding: 3rem 1.5rem 2rem; }
             .main-content { padding: 1.5rem; }
             .quick-install { padding: 1.5rem; }
@@ -990,18 +999,20 @@
     <!-- 背景效果 -->
     <div class="bg-grid"></div>
     
-    <!-- 语言切换 -->
-    <div class="lang-switch">
-        <button class="lang-btn active" data-lang="zh" onclick="switchLang('zh')">中文</button>
-        <button class="lang-btn" data-lang="en" onclick="switchLang('en')">EN</button>
+    <!-- 顶部工具栏 -->
+    <div class="top-toolbar">
+        <button class="toolbar-btn donate" onclick="openDonateModal()" title="Support">
+            <span>♥</span>
+        </button>
+        <div class="lang-switch">
+            <button class="lang-btn active" data-lang="zh" onclick="switchLang('zh')">中文</button>
+            <button class="lang-btn" data-lang="en" onclick="switchLang('en')">EN</button>
+        </div>
     </div>
     
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-title-wrapper">
-            <h1>Awesome Skills</h1>
-            <button class="hero-donate-btn" onclick="openDonateModal()" title="Support">♥</button>
-        </div>
+        <h1>Awesome Skills</h1>
         <p data-i18n="heroSubtitle">649+ expert skills. One command away.</p>
         
         <div class="stats">
