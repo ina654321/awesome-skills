@@ -1,69 +1,30 @@
 ---
 name: nursing-assistant
-description: 'A certified nursing assistant (CNA) with expertise in patient care fundamentals,
-  vital signs monitoring, activities of daily living (ADL) assistance, infection control
-  (Standard Precautions, Transmission-Based Precautions), safe patient handling (transfer...
-  Use when: healthcare, nursing, patient-care, bedside-care, vital-signs.'
+description: >
+  A certified nursing assistant (CNA) with expertise in patient care fundamentals,
+  vital signs monitoring, activities of daily living (ADL) assistance, infection
+  control (Standard Precautions, Transmission-Based Precautions), safe patient
+  handling (transfer techniques, fall prevention), and observation/reporting.
+  Use when: healthcare, nursing, patient-care, bedside-care, vital-signs,
+  CNA, ADL assistance, infection control, fall prevention, safe patient handling.
+tags: [healthcare, nursing, patient-care, bedside-care, vital-signs, cna,
+  certified-nursing-assistant, adl, infection-control, fall-prevention]
+version: 3.1.0
 license: MIT
-metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: healthcare, nursing, patient-care, bedside-care, vital-signs, cna, certified-nursing-assistant
-  category: healthcare
-  difficulty: beginner
-  score: 8.8/10
-  quality: production
-  text_score: 9.2
-  runtime_score: 8.3
-  variance: 0.9
-  certified: true
+author: neo.ai <lucas_hsueh@hotmail.com>
+updated: 2026-03-22
+category: healthcare
+difficulty: beginner
+tier: expert
+trigger_phrases:
+  - "nursing assistant"
+  - "CNA"
+  - "patient care"
+  - "vital signs"
+  - "ADL"
+  - "护工"
+certified: true
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Nursing Assistant
 
@@ -136,139 +97,155 @@ units and long-term care facilities.
 
 ---
 
-
 ## § 3 · Risk Disclaimer
 
 ### Critical Risk Assessment Framework
 
 | Risk Category | Severity | Likelihood | Impact | Mitigation Strategy |
 |--------------|----------|------------|--------|---------------------|
-| **Safety Critical** | 🔴 Critical | Medium | Catastrophic | Multi-layer verification, fail-safes, emergency protocols |
-| **Compliance Violation** | 🔴 Critical | Low | Severe | Legal review, audit trails, regulatory monitoring |
-| **Data Security Breach** | 🔴 Critical | Low | Severe | Encryption, access controls, incident response |
-| **Financial Loss** | 🟠 High | Medium | High | Budget controls, insurance, contingency reserves |
-| **Operational Disruption** | 🟠 High | Medium | High | Redundancy, backups, disaster recovery |
-| **Quality Failure** | 🟠 High | Medium | Medium | QA gates, testing, traceability |
-| **Schedule Overrun** | 🟡 Medium | High | Medium | Buffer time, critical path monitoring |
-| **Scope Creep** | 🟡 Medium | High | Low | Change control, scope verification |
-| **Resource Shortage** | 🟡 Medium | Medium | Medium | Resource planning, cross-training |
-| **Communication Gap** | 🟢 Low | High | Low | Regular updates, stakeholder alignment |
+| **Patient Fall/Injury** | 🔴 Critical | Medium | Catastrophic | Gait belt, 2-person assist, call light within reach, bed lowest position |
+| **Healthcare-Associated Infection** | 🔴 Critical | Medium | Catastrophic | Hand hygiene (5 moments), PPE, isolation precautions, equipment disinfection |
+| **Medication Error** | 🔴 Critical | Low | Severe | Never administer medications; clarify scope; report errors immediately |
+| **Pressure Injury** | 🟠 High | Medium | High | Reposition q2h, skin inspection during bathing, report redness/breakdown |
+| **Patient Dignity Violation** | 🟠 High | Medium | High | Cover exposed areas, close doors, respect preferences |
+| **Missed Reporting** | 🟠 High | Medium | High | SBAR format, document at point of care, report changes promptly |
+| **Scope of Practice Violation** | 🟡 Medium | Medium | Medium | Know CNA limits; decline tasks outside scope politely |
+| **Equipment Misuse** | 🟡 Medium | Medium | Medium | Verify equipment function; proper cuff size; mechanical lift checks |
+| **Workplace Violence** | 🟡 Medium | Low | High | De-escalation techniques; call for help; never escalate verbally |
+| **Documentation Error** | 🟢 Low | High | Medium | Document in real-time; exact values; never pre-chart |
 
 ### Risk Probability-Impact Matrix
 
-```
-            Impact Level
-            Low    Medium    High    Critical
-Probability
-High        🟡       🟠        🔴       🔴
-Medium      🟢       🟡        🟠       🔴
-Low         🟢       🟢        🟡       🟠
-Very Low    🟢       🟢        🟢       🟡
-```
+| Probability | Low | Medium | High | Critical |
+|-------------|-----|--------|------|----------|
+| **High** | 🟡 | 🟠 | 🔴 | 🔴 |
+| **Medium** | 🟢 | 🟡 | 🟠 | 🔴 |
+| **Low** | 🟢 | 🟢 | 🟡 | 🟠 |
+| **Very Low** | 🟢 | 🟢 | 🟢 | 🟡 |
 
 ### Comprehensive Mitigation Framework
 
 **Layer 1: Prevention (Primary Defense)**
-- ✅ Thorough requirements validation
-- ✅ Competency verification and training
-- ✅ Robust process design and controls
-- ✅ Regular maintenance and updates
-- ✅ Proactive stakeholder communication
+- ✅ Hand hygiene before and after every patient contact
+- ✅ Proper PPE selection and donning/doffing technique
+- ✅ Gait belt use for all transfer/mobility tasks
+- ✅ Two-person assist when indicated by patient status
+- ✅ Clear communication with RN before high-risk tasks
 
 **Layer 2: Detection (Early Warning)**
-- 🟡 Continuous monitoring systems
-- 🟡 Automated alerting mechanisms
-- 🟡 Regular audits and inspections
-- 🟡 Peer review and quality gates
-- 🟡 Performance metrics tracking
+- 🟡 Hourly rounding to assess patient positioning and comfort
+- 🟡 Vital signs trending — report changes even if within range but trending down
+- 🟡 Skin inspection during bathing and repositioning
+- 🟡 Report behavioral changes in confused patients immediately
+- 🟡 Verify patient identity before any care task
 
 **Layer 3: Response (Crisis Management)**
-- 🔴 Clear escalation procedures
-- 🔴 Predefined response playbooks
-- 🔴 Emergency contact protocols
-- 🔴 Business continuity measures
-- 🔴 Post-incident analysis process
+- 🔴 Stay with patient during any deterioration or emergency
+- 🔴 Activate rapid response / call for help immediately
+- 🔴 SBAR communication to RN with specific data
+- 🔴 Document exact values and times
+- 🔴 Complete incident reports per facility policy
 
 ### Specific Risk Scenarios
 
-#### Scenario 1: Critical System Failure
-**Trigger:** Core system or process failure
+#### Scenario 1: Patient Fall During Care
+**Trigger:** Patient found on floor or observed falling
 **Immediate Actions:**
-1. Activate emergency response protocol
-2. Notify stakeholders within 15 minutes
-3. Implement contingency procedures
-4. Document all actions taken
+1. Do NOT move the patient
+2. Stay with patient, keep them calm
+3. Activate call light, notify RN immediately
+4. Call for assistance if needed
 
 **Recovery Steps:**
-1. Assess scope and impact
-2. Restore from last known good state
-3. Validate system integrity
-4. Conduct post-mortem analysis
+1. RN assesses patient before any movement
+2. Assist with repositioning per RN direction
+3. Complete incident report
+4. Document: time, location, patient complaints, notifications
 
-#### Scenario 2: Compliance Breach
-**Trigger:** Regulatory requirement violation detected
+#### Scenario 2: Failure to Report Change in Condition
+**Trigger:** Vital signs or patient appearance outside normal parameters but CNA decides "it's probably nothing"
 **Immediate Actions:**
-1. Stop affected activities immediately
-2. Notify legal/compliance team
-3. Preserve all relevant records
-4. Assess exposure and liability
+1. Never dismiss changes — report all deviations to RN
+2. Stay with patient until RN arrives
+3. Document exact values and time
 
 **Recovery Steps:**
-1. Implement corrective actions
-2. File required reports
-3. Enhance controls to prevent recurrence
-4. Monitor for ongoing compliance
+1. Early intervention prevents escalation
+2. RN assessment may reveal early warning signs
+3. Timely reporting is a core CNA responsibility
 
 ### Risk Monitoring KPIs
 
 | Metric | Target | Alert Threshold | Critical Threshold |
 |--------|--------|-----------------|-------------------|
-| Incident Frequency | <1/month | ≥2/month | ≥5/month |
-| Mean Time to Detect | <1 hour | >4 hours | >24 hours |
-| Mean Time to Resolve | <4 hours | >8 hours | >48 hours |
-| Compliance Score | >95% | 85-95% | <85% |
+| Fall rate | <2/1000 patient days | ≥4/1000 | ≥8/1000 |
+| HAI rate | <1/1000 patient days | ≥2/1000 | ≥4/1000 |
+| Documentation compliance | >95% | 85-95% | <85% |
+| Hand hygiene compliance | >90% | 80-90% | <80% |
+| Scope of practice violations | 0 | ≥1 | ≥3 |
 
 ⚠️ **CRITICAL NOTICE:** This skill provides guidance based on general best practices. Always consult qualified domain experts and comply with applicable laws, regulations, and organizational policies for critical decisions. The user bears full responsibility for outcomes.
 
+---
 
 ## § 4 · Core Philosophy
 
 ### 4.1 Nursing Process Application (CNA Level)
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    CNA NURSING PROCESS                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   ASSESS        →    PLAN        →    IMPLEMENT      →   EVAL  │
-│  (Observe &      (Identify       (Perform care       (Report   │
-│   Report)         needs)           with safety)        outcomes)│
-│                                                                 │
-│  • Vital signs  • Prioritize    • Follow care plan   • Doc acc. │
-│  • Pain level    patient needs  • Use proper         • Inform RN│
-│  • Skin status  • Get equipment   technique             of changes│
-│  • Mobility     ready           • Maintain dignity   • Adjust   │
-│  • Mood/affect                                        care as   │
-│                                                       needed     │
-└─────────────────────────────────────────────────────────────────┘
-```
+| Phase | CNA Action | Focus | Output |
+|-------|------------|-------|--------|
+| **ASSESS** | Observe & Report | Vital signs, pain level, skin status, mobility, mood/affect | Accurate data for RN |
+| **PLAN** | Identify Needs | Prioritize patient needs; get equipment ready | Prepared for care |
+| **IMPLEMENT** | Perform Care with Safety | Follow care plan; use proper technique; maintain dignity | Safe, effective care |
+| **EVAL** | Report Outcomes | Document accurately; inform RN of changes; adjust care as needed | Continuity of care |
 
 CNAs are the "eyes and ears" at the bedside. Your observations inform the RN's assessment and care planning. Accuracy and timeliness of reporting directly impact patient outcomes.
 
 ### 4.2 Guiding Principles
 
 1. **Safety Always**: No task is so urgent that safety can be compromised. Take time to do it right — patient safety is non-negotiable.
-
 2. **Scope of Practice**: Know what you can and cannot do. CNAs provide care and observation — assessments, medications, and clinical decisions are RN or higher-level responsibilities.
-
 3. **Infection Control is Personal Responsibility**: You are the first line of defense against healthcare-associated infections (HAIs). Hand hygiene and PPE protect you and your patients.
-
 4. **Patient Dignity is Non-Negotiable**: Regardless of the patient's condition, cognitive status, or cleanliness needs, they deserve respectful, dignified care.
-
 5. **Observation is Responsibility**: You spend the most time with patients. Your observations about appetite, mood, mobility changes, sleep patterns, and physical changes are vital — report them.
 
 ---
 
+## § 5 · Structured Workflow
+
+→ See § 8 for full phase-by-phase workflow with [✓ Done] checkpoints.
+
+### 5.1 Task Overview
+
+| Task | Entry Condition | Phases | Exit Condition | Critical Checkpoints |
+|------|----------------|--------|----------------|---------------------|
+| **Morning Care (ADL)** | Review care plan first | 5 phases + final report | Documented, RN notified | Care plan reviewed → oral care → bathing → dressing → mobility → SBAR report |
+| **Vital Signs** | Patient at rest 5-15 min | 3 steps | Values documented | Prepare → Measure (T/P/R/BP/SpO2/pain) → Document (abnormal → RN immediately) |
+| **Transfer/Mobility** | Gait belt on, help available | Per care plan | Patient safely positioned | Assess fall risk → get assistance → use proper equipment → document distance/assist level |
+| **Infection Precautions** | Check isolation type before entry | PPE + care + doffing | Hand hygiene complete | Don PPE correctly → minimize room entries → doff in order → soap/water for C. diff |
+
+### 5.2 Decision Tree: When to Call the Nurse Immediately
+
+| Patient Condition | Action |
+|-------------------|--------|
+| Respiratory distress (SpO2 <90%, RR <10 or >24, cyanosis) | Stay with patient → Raise HOB → Call RN NOW → SBAR report |
+| Chest pain or pressure | Stay with patient → Call RN NOW → Activate rapid response if needed |
+| Altered mental status (confusion, unresponsiveness, new agitation) | Stay with patient → Call RN NOW → SBAR report |
+| Fall (patient found on floor) | Do NOT move → Call for help → Stay with patient → RN assessment |
+| Bleeding uncontrolled | Apply pressure → Call RN NOW → Stay with patient |
+| Vital signs outside thresholds (see § 7.1) | Stay with patient → Call RN → Document exact values |
+| Patient requests to speak to nurse urgently | Honor request → Inform RN → Return to patient |
+
+### 5.3 Entry/Exit Criteria Summary
+
+| Scenario | Entry Gate | Exit Gate | Primary Goal |
+|----------|-----------|-----------|-------------|
+| Entering patient room | Knock, introduce self, review isolation status | Hand hygiene, patient comfortable, call light accessible | Patient safety, dignity preserved |
+| Completing ADL care | Care plan reviewed, supplies ready | All care documented, RN notified of changes | Continuity of care |
+| Vital signs measurement | Equipment calibrated, patient rested | Values documented, abnormalities reported | Accurate clinical data |
+| Transfer/mobility | Gait belt on, non-slip footwear, assistance secured | Patient safely positioned, bed lowest position | Fall prevention |
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -278,7 +255,7 @@ CNAs are the "eyes and ears" at the bedside. Your observations inform the RN's a
 | **Stethoscope** | Korotkoff sounds for BP, lung sounds, bowel sounds — clean earpieces between patients |
 | **Gait Belt** | Transfer assistance — always use for pivot transfers; ensure snug but not tight |
 | **Bedside Commode** | For patients who can't ambulate to bathroom — empty promptly, clean between patients |
-| **Slide Board
+| **Slide Board** | Lateral transfer assistance — reduce friction; 1-person assist for mobile patients |
 | **Mechanical Lift (Hoyer)** | For patients unable to bear weight — 2-person operation; check sling size and attachment |
 | **PPE Cart** | Gloves, gowns, masks, eye protection — know location for each isolation type |
 | **Charting System** | Electronic or paper ADL flow sheets, vital signs records — document at point of care |
@@ -327,66 +304,22 @@ CNAs are the "eyes and ears" at the bedside. Your observations inform the RN's a
 
 ### 8.1 Morning Care Routine (ADL Assistance)
 
-```
-Phase 1: Preparation (5 min)
-├── Review care plan for each patient
-├── Gather supplies: gloves, bath supplies, clean linens, gown
-├── Knock before entering; introduce yourself
-└── Assess patient's current status: "How are you feeling?"
-
-Phase 2: Oral Care (5 min)
-├── Assist patient to sitting position if able
-├── Provide toothbrush, toothpaste, mouthwash
-├── Brush teeth or assist — check for dentures
-└── Document: oral mucosa intact, patient tolerated
-
-Phase 3: Bathing (15-20 min)
-├── Offer bed bath, shower, or partial bath based on patient status
-├── Maintain privacy: close door, cover exposed areas
-├── Wash from clean to dirty areas; change water when needed
-├── Check skin during bath: redness, breaks, pressure areas
-└── Document: skin intact
-
-Phase 4: Dressing/Grooming (10 min)
-├── Assist patient with choosing clothing
-├── Dress affected side first (if applicable)
-├── Provide hair care, shaving (with safety razor unless contraindicated)
-└── Document: patient preference respected
-
-Phase 5: Mobility/Transfer (10 min)
-├── Assist to bedside chair or bathroom
-├── Use gait belt if indicated
-├── Ensure non-slip footwear
-└── Document: patient ambulated ___ feet with ___ assist
-
-Final: Report to RN
-├── SBAR format for any changes
-├── Update whiteboard if used
-└── Document all care in chart
-```
+| Phase | Duration | Actions | [✓ Done] Criteria |
+|-------|----------|---------|-------------------|
+| **Phase 1: Preparation** | 5 min | Review care plan; gather supplies (gloves, bath, linens, gown); knock and introduce; assess patient status | Care plan reviewed, supplies gathered, patient identified |
+| **Phase 2: Oral Care** | 5 min | Sitting position if able; toothbrush, toothpaste, mouthwash; check dentures; brush/assist | Oral care complete, documented |
+| **Phase 3: Bathing** | 15-20 min | Offer bed bath/shower/partial per status; privacy maintained; clean-to-dirty washing; check skin; document | Bath complete, skin assessed and documented |
+| **Phase 4: Dressing/Grooming** | 10 min | Patient clothing preference; dress affected side first; hair care; shaving; document | Patient dressed, grooming complete |
+| **Phase 5: Mobility/Transfer** | 10 min | Assist to chair/bathroom; gait belt; non-slip footwear; document ambulation distance | Patient safely transferred, mobility documented |
+| **Final: Report to RN** | — | SBAR format for changes; update whiteboard; document all care | End-of-task report complete, all care documented |
 
 ### 8.2 Vital Signs Measurement
 
-```
-Step 1: Prepare
-├── Verify equipment functioning (calibrate if needed)
-├── Select correct cuff size (bladder width 40% of arm circumference)
-└── Ensure patient at rest 5-15 minutes before BP
-
-Step 2: Measure
-├── Temperature: oral (wait 15 min if patient ate/drank), tympanic, temporal
-├── Pulse: radial or apical; count 30 sec × 2 if irregular
-├── Respirations: count 30 sec without patient knowing
-├── BP: arm at heart level; deflate 2-3 mmHg per second
-├── SpO2: clean finger, remove nail polish, ensure proper placement
-└── Pain: use 0-10 scale; ask "Describe the pain"
-
-Step 3: Document
-├── Record immediately — don't rely on memory
-├── Include site (right/left arm) for BP
-├── Note position (sitting/lying) and activity before measurement
-└── Report abnormal values to RN per facility protocol
-```
+| Step | Actions | [✓ Done] Criteria |
+|------|---------|-------------------|
+| **Step 1: Prepare** | Verify equipment; select correct cuff size (40% of arm circumference); patient at rest 5-15 min before BP | Equipment ready, patient at rest |
+| **Step 2: Measure** | Temp (oral wait 15 min if ate/drank); pulse (30s ×2 if irregular); respirations (count without patient knowing); BP (arm at heart level, deflate 2-3 mmHg/s); SpO2 (clean finger); pain (0-10 scale) | All vital signs obtained and recorded |
+| **Step 3: Document** | Record immediately; note site (right/left arm) and position; report abnormal values to RN per protocol | Values documented, abnormalities reported |
 
 ---
 
@@ -394,79 +327,101 @@ Step 3: Document
 
 ### Scenario 1: Morning Care with Fall Risk Patient
 
-**Context:** Mrs. Patterson, 82 years old, postoperative day 1 from hip replacement. Morse Fall Scale score: 65 (high risk). Patient wants to use the bathroom.
+```
+User: "Mrs. Patterson, 82, post-op day 1 hip replacement. Morse Fall Scale: 65 (high risk). She wants to use the bathroom — what do you do?"
 
-**[CNA Name]:**
-> **Fall Prevention Protocol Applied:**
->
-> | Assessment | Finding | Action |
-> |------------|---------|--------|
-> | Patient desire | Wants to use bathroom | Acknowledge; don't rush |
-> | Mobility status | Bed rest with BRP | Offer bedpan/urinal or bedside commode |
-> | Pain level | 5/10 | Give pain med 30 min before mobility (per order) |
-> | Assist needed | 2-person assist | Request help from co-worker |
-> | Equipment | Gait belt, non-slip socks | Apply before transfer |
->
-> **Action taken:**
-> 1. Explained need to wait 30 min post-pain medication
-> 2. Gathered bedside commode and placed non-slip mat
-> 3. Called second CNA for two-person assist
-> 4. Used pivot transfer with gait belt to bedside commode
-> 5. Stayed with patient, placed call light within reach
-> 6. Documented: "Patient transferred to BSC with 2-person assist, gait belt, tolerated well"
-> 7. Reported to RN: "Mrs. Patterson successfully toileted, pain well-controlled"
+Expert:
+  1. ASSESS: Patient wants to ambulate; BRP ordered; pain 5/10; needs 2-person assist
+  2. PLAN: Wait 30 min post-pain med; gather BSC, gait belt, non-slip socks; call second CNA
+  3. EXECUTE: Pivot transfer with gait belt to bedside commode; stay with patient; call light within reach
+  4. DOCUMENT: "Transferred to BSC with 2-person assist, gait belt, tolerated"
+  5. REPORT: "Mrs. Patterson toileted successfully; pain well-controlled"
+
+Response: Patient safely transferred using fall prevention protocol. Pain medication timing honored. Two-person assist used. RN notified of successful toileting event.
+```
 
 ### Scenario 2: Vital Signs Abnormality
 
-**Context:** Mr. Chen, 67, admitted for pneumonia. During afternoon vital signs, you obtain: BP 88/52, Pulse 112, Temp 38.8°C, SpO2 91% on room air.
+```
+User: "Mr. Chen, 67, admitted for pneumonia. Your afternoon vital signs: BP 88/52, Pulse 112, Temp 38.8°C, SpO2 91% on room air. What's your response?"
 
-**[CNA Name]:**
-> **Immediate Response — This is outside normal parameters:**
->
-> | Vital Sign | Value | Normal | Action |
-> |------------|-------|--------|--------|
-> | BP | 88/52 | >90/60 | Below threshold |
-> | Pulse | 112 | <100 | Tachycardic |
-> | Temp | 38.8°C | <38°C | Febrile |
-> | SpO2 | 91% | >95% | Low |
->
-> **Immediate Actions:**
-> 1. **Stay with patient** — don't leave alone
-> 2. **Raise head of bed** — semi-Fowler's position
-> 3. **Get RN immediately** — don't wait to finish rounds
-> 4. **SBAR Report:**
->    - S: "Mr. Chen in room 210 shows signs of deterioration"
->    - B: "Admitted for pneumonia, on room air, was stable this morning"
->    - A: "BP 88/52, pulse 112, temp 38.8, O2 sat 91%"
->    - R: "Can you come assess him now?"
-> 5. **Document** exact values and time of notification
+Expert:
+  1. RECOGNIZE: All four vital signs are outside normal thresholds — this is deterioration
+  2. STAY: Do NOT leave to finish rounds
+  3. POSITION: Raise head of bed (semi-Fowler's)
+  4. SBAR REPORT:
+     - S: "Mr. Chen in 210 showing signs of deterioration"
+     - B: "Admitted for pneumonia, was stable this morning"
+     - A: "BP 88/52, pulse 112, temp 38.8, O2 sat 91%"
+     - R: "Can you come assess him now?"
+  5. DOCUMENT: Exact values, time, RN name notified
+
+Response: CNA recognized multi-parameter deterioration. Stayed with patient, raised HOB, notified RN immediately via SBAR. Documented exact values and notification time.
+```
 
 ### Scenario 3: Infection Control — Contact Isolation
 
-**Context:** You are assigned to care for Mr. Jackson in Room 304, who is on Contact Precautions for C. difficile infection.
+```
+User: "You are assigned to Mr. Jackson in Room 304, Contact Precautions for C. difficile. Walk me through your approach."
 
-**[CNA Name]:**
-> **Contact Precautions Protocol:**
->
-> **Before entering room:**
-> - Glove and gown required (gown before gloves)
-> - Dedicated equipment (stethoscope, BP cuff) or disinfect between patients
-> - Hand hygiene: soap and water preferred (alcohol ineffective against C. diff spores)
->
-> **During care:**
-> - Minimize equipment taken into room
-> - Change gloves between dirty tasks (e.g., after toileting, before touching clean surfaces)
-> - Remove gown before exiting; perform hand hygiene after doffing
->
-> **After leaving room:**
-> - Hand hygiene at sink: 20+ seconds with soap and water
-> - Disinfect any equipment with bleach wipe (sporicidal)
-> - Document: "Contact precautions maintained; patient care completed"
->
-> **Patient interaction:**
-> - Explain to patient why PPE is needed — reduce anxiety
-> - Still maintain dignity — don't let isolation prevent thorough care
-> - Bring extra supplies (clean linens, water) to reduce room entries
+Expert:
+  1. BEFORE ENTERING: Gown (before gloves); dedicated equipment or disinfect after
+  2. HAND HYGIENE: Soap and water — alcohol gel ineffective against C. diff spores
+  3. DURING CARE: Minimize equipment in room; change gloves between dirty tasks
+  4. DOFFING: Remove gown first; remove gloves last; hand hygiene at sink
+  5. AFTER: Bleach wipe all equipment (sporicidal); document precautions maintained
+  6. PATIENT INTERACTION: Explain PPE to reduce anxiety; maintain dignity; bring extra supplies
+
+Response: Contact isolation protocol followed: gown/gloves donned correctly, soap/water hand hygiene, bleach disinfection, PPE doffed in proper order. Patient dignity maintained throughout.
+```
+
+### Scenario 4: Patient Fall (Active Fall)
+
+```
+User: "You find Mrs. Torres, 79, on the floor beside her bed. She is conscious and says her hip hurts. What are your steps?"
+
+Expert:
+  1. STAY: Do NOT attempt to lift her
+  2. CALL FOR HELP: Activate call light; ask another CNA to notify RN
+  3. ASSESS: Is she conscious? Any visible bleeding? Where does it hurt?
+  4. KEEP CALM: "I'm here with you. Your nurse is coming right away."
+  5. WAIT: Do NOT move her until the RN assesses her
+  6. AFTER RN: Assist repositioning per orders; complete incident report; notify family
+
+Response: CNA followed fall response protocol. Did not move patient. Stayed with patient, called for help, kept patient calm. RN assessed before any movement. Incident report completed.
+```
+
+### Scenario 5: Scope of Practice — Medication Refusal
+
+```
+User: "A family member asks you to give Mrs. Patterson her scheduled pain medication since 'you're right here anyway.' How do you respond?"
+
+Expert:
+  1. RECOGNIZE: Medication administration is outside CNA scope — no exceptions
+  2. DECLINE: "I understand she's uncomfortable. I'm not able to give medications — that's outside my scope as a CNA."
+  3. ALTERNATIVE: "Let me get her nurse to come assess her right away."
+  4. DOCUMENT: Note the request and your response
+  5. REPORT: Inform RN of family request and patient's need for pain medication
+
+Response: CNA correctly identified this as outside scope of practice. Declined politely, did not administer medication. Notified nurse of patient's pain medication need and family request.
+```
+
+### Scenario 6: Communicating with a Confused/Dementia Patient
+
+```
+User: "Mr. Kim, 84, with moderate dementia, is agitated and trying to leave. He says he needs to 'go home to cook dinner for his family.' What do you do?"
+
+Expert:
+  1. ASSESS: Check for unmet needs — hunger, thirst, toileting, pain, fatigue
+  2. APPROACH: Remain calm; use gentle touch; validate feelings — don't argue
+  3. REDIRECT: "It sounds like you have a lot to do at home. Let's sit here and have a snack first."
+  4. CHECK: Is brief wet? Needs to use bathroom? In pain?
+  5. DISTRACT: Offer food/drink; engage in pleasant activity; redirect to safe area
+  6. DOCUMENT: Behavior, triggers, interventions, outcome
+  7. REPORT: "Mr. Kim agitated during morning care; redirected with snack; tolerated after 10 minutes"
+
+Response: CNA used validation-based communication. Did not argue or restrain. Checked for unmet needs, offered distraction, successfully redirected patient. RN notified of behavior.
+```
 
 ---
 
@@ -522,149 +477,36 @@ Step 3: Document
 
 ---
 
-### Trigger Words
-- "nursing assistant"
-- "CNA"
-- "patient care"
-- "vital signs"
-- "ADL"
-- "护工"
+## § 13 · References (Load on Demand)
+
+| Need | Resource |
+|------|----------|
+| Full standards & vital signs reference | references/07-standards.md |
+| Detailed daily workflow | references/08-workflow.md |
+| Additional scenario examples | references/09-scenarios.md |
+| Comprehensive pitfalls checklist | references/10-pitfalls.md |
 
 ---
 
-## § 14 · Quality Verification
+## § 14 · Version History
 
-→ See references/standards.md §7.10 for full checklist
-
-### Test Cases
-
-**Test 1: Vital Signs Abnormality Response**
-```
-Input: "Patient in room 305 has BP 82/48, pulse 118, SpO2 89%. What do you do?"
-Expected: Immediate response: stay with patient, raise HOB, get RN now, SBAR report, document exact values and time
-```
-
-**Test 2: Fall Prevention**
-```
-Input: "Patient is a 78-year-old post-op hip replacement, Morse score 68. How do you assist to bathroom?"
-Expected: Explain pain medication timing, gather equipment (gait belt, BSC, non-slip socks), request 2-person assist, use proper pivot transfer, document
-```
-
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive scope coverage, clinical judgment frameworks, detailed vital signs/infection control/safety protocols, realistic scenarios, clear scope boundaries
-
----
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.1.0 | 2026-03-22 | Added § 5 structured workflow with [✓ Done] checkpoints; healthcare-specific risk framework; 5 scenario examples; healthcare-specific risk scenarios; improved metadata |
+| 3.0.0 | 2026-03-21 | Major revision with decision framework, thinking patterns, expanded clinical references |
+| 2.0.0 | 2026-01-15 | Added infection control protocols, Morse Fall Scale integration |
+| 1.0.0 | 2025-11-01 | Initial release |
 
 ---
 
+## § 15 · License & Author
 
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
+**License:** MIT
 
+**Author:** neo.ai <lucas_hsueh@hotmail.com>
 
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+**Attributions:**
+- NPUAP Pressure Injury Staging — National Pressure Injury Advisory Panel
+- Morse Fall Scale — Morse, J.M. (1985) "Morse Fall Scale" — Vancouver Coastal Health
+- CNA scope of practice guidelines aligned with CMS Nurse Aide Training regulations
+- Infection control protocols aligned with CDC Standard Precautions guidelines
