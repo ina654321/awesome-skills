@@ -854,6 +854,36 @@
             padding: 1rem 1.5rem 1.5rem;
         }
         
+        /* ===== QR Preview ===== */
+        .qr-preview {
+            cursor: zoom-out;
+        }
+        
+        .qr-preview-content {
+            text-align: center;
+            animation: qrZoomIn 0.3s ease;
+        }
+        
+        @keyframes qrZoomIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        .qr-preview-content img {
+            max-width: 80vw;
+            max-height: 70vh;
+            width: auto;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+        
         /* ===== Toast ===== */
         .toast {
             position: fixed;
@@ -1221,6 +1251,14 @@
     <!-- Toast -->
     <div class="toast" id="toast"></div>
     
+    <!-- QR Preview Modal -->
+    <div class="modal-overlay qr-preview" id="qrPreviewModal" onclick="closeQRPreview()">
+        <div class="qr-preview-content" onclick="event.stopPropagation()">
+            <img id="qrPreviewImg" src="" alt="QR Code Preview">
+            <p id="qrPreviewLabel" style="margin-top: 1rem; color: var(--gray); font-size: 0.875rem;"></p>
+        </div>
+    </div>
+    
     <!-- Donate Modal -->
     <div class="modal-overlay" id="donateModal" onclick="closeDonateModal(event)">
         <div class="modal" onclick="event.stopPropagation()">
@@ -1233,11 +1271,11 @@
                 <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
                     <div>
                         <p style="font-size: 0.875rem; color: var(--gray); margin-bottom: 0.5rem;" data-i18n="wechatPay">WeChat Pay</p>
-                        <img src="./assets/wechar-qr.png" alt="WeChat Pay QR" style="width: 150px; height: 150px; border-radius: 8px; object-fit: cover;">
+                        <img src="./assets/wechat_qr.png" alt="WeChat Pay QR" style="width: 150px; height: 150px; border-radius: 8px; object-fit: cover; cursor: zoom-in;" onclick="openQRPreview(this.src, 'wechat')">
                     </div>
                     <div>
                         <p style="font-size: 0.875rem; color: var(--gray); margin-bottom: 0.5rem;" data-i18n="alipay">Alipay</p>
-                        <img src="./assets/alipay-qr.jpg" alt="Alipay QR" style="width: 150px; height: 150px; border-radius: 8px; object-fit: cover;">
+                        <img src="./assets/alipay_qr.png" alt="Alipay QR" style="width: 150px; height: 150px; border-radius: 8px; object-fit: cover; cursor: zoom-in;" onclick="openQRPreview(this.src, 'alipay')">
                     </div>
                 </div>
                 <p style="margin-top: 1.5rem; font-size: 0.8125rem; color: var(--gray);" data-i18n="donateThanks">Thank you for your support! 🙏</p>
@@ -1641,7 +1679,11 @@
             });
             
             document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') closeModal();
+                if (e.key === 'Escape') {
+                    closeModal();
+                    closeQRPreview();
+                    closeDonateModal();
+                }
             });
         }
         
@@ -1796,6 +1838,21 @@
             if (!e || e.target.id === 'donateModal') {
                 document.getElementById('donateModal').classList.remove('active');
             }
+        }
+        
+        function openQRPreview(src, type) {
+            const modal = document.getElementById('qrPreviewModal');
+            const img = document.getElementById('qrPreviewImg');
+            const label = document.getElementById('qrPreviewLabel');
+            
+            img.src = src;
+            label.textContent = type === 'wechat' ? (currentLang === 'zh' ? '微信支付' : 'WeChat Pay') : (currentLang === 'zh' ? '支付宝' : 'Alipay');
+            
+            modal.classList.add('active');
+        }
+        
+        function closeQRPreview() {
+            document.getElementById('qrPreviewModal').classList.remove('active');
         }
         
         async function copyText(text, btn) {
