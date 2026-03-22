@@ -1,97 +1,136 @@
 # Standards & Reference
 
-## 7.1 Official Documentation
+## Official Documentation
 
-- [Datadog Documentation](https://docs.datadoghq.com/)
-- [Datadog API Reference](https://docs.datadoghq.com/api/latest/)
-- [Datadog Integrations](https://docs.datadoghq.com/integrations/)
-- [Datadog Synthetics](https://docs.datadoghq.com/synthetics/)
-- [Datadog APM](https://docs.datadoghq.com/tracing/)
-- [Datadog Logs](https://docs.datadoghq.com/logs/)
+| Resource | URL |
+|----------|-----|
+| Datadog Docs | https://docs.datadoghq.com/ |
+| API Reference | https://docs.datadoghq.com/api/latest/ |
+| Integrations | https://docs.datadoghq.com/integrations/ |
+| APM Tracing | https://docs.datadoghq.com/tracing/ |
+| OpenTelemetry | https://docs.datadoghq.com/opentelemetry/ |
+| Universal Service Monitoring | https://docs.datadoghq.com/universal_service_monitoring/ |
+| Security Platform | https://docs.datadoghq.com/security/ |
 
-## 7.2 Configuration Reference
+## Datadog Company Facts (2026)
 
-### Datadog Agent Config
+| Metric | Value |
+|--------|-------|
+| Founded | 2010 |
+| CEO | Olivier Pomel (Co-founder) |
+| Headquarters | New York, NY |
+| Employees | 8,100+ (35+ countries) |
+| Customers | 32,700+ |
+| Fortune 500 | 48% are customers |
+| FY2026 Revenue Guidance | $4.06-4.10B |
+| Q4 2025 Revenue | $953M (+29% YoY) |
+| Integrations | 1,000+ |
+
+## Configuration Reference
+
+### datadog.yaml (Agent Configuration)
 
 ```yaml
-# datadog.yaml
-init_config:
-  instance_level_logs:
-    - type: file
-      path: /var/log/app/*.log
-      service: myapp
-      source: mysource
+# API Configuration
+api_key: ${DD_API_KEY}
+site: datadoghq.com
+hostname: my-host
 
-instances:
-  - host: localhost
-    port: 5432
-    dbm: true
-    tags:
-      - env:production
-      - service:database
+# Tags
+tags:
+  - env:production
+  - service:myapp
+  - team:platform
+  - region:us-east-1
+
+# APM Configuration
+apm_config:
+  enabled: true
+  env: production
+  analyzed_spans:
+    web|http.request: 1
+    db|postgres.query: 0.1
+
+# Log Collection
+logs_enabled: true
+logs_config:
+  container_collect_all: true
+  processing_rules:
+    - type: exclude_at_match
+      name: exclude_health_checks
+      pattern: /health
+
+# System Probe (eBPF)
+system_probe_config:
+  enabled: true
+  enable_usm: true
+  enable_oom_kill: true
+
+# Process Monitoring
+process_config:
+  enabled: true
+  process_collection:
+    enabled: true
 ```
 
 ### Environment Variables
 
-| Variable | Description |
-|----------|-------------|
-| `DD_API_KEY` | API key for authentication |
-| `DD_SITE` | Datadog site (us5.datadoghq.com) |
-| `DD_TAGS` | Global tags |
-| `DD_LOG_LEVEL` | Logging level |
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `DD_API_KEY` | API authentication | `abc123...` |
+| `DD_APP_KEY` | App authentication | `def456...` |
+| `DD_SITE` | Datadog site | `datadoghq.com` |
+| `DD_TAGS` | Global tags | `env:prod,team:platform` |
+| `DD_ENV` | Default environment | `production` |
+| `DD_SERVICE` | Default service name | `payment-api` |
+| `DD_VERSION` | Service version | `v2.3.1` |
+| `DD_TRACE_ENABLED` | Enable APM tracing | `true` |
+| `DD_TRACE_SAMPLE_RATE` | Global sample rate | `0.1` |
+| `DD_LOGS_ENABLED` | Enable log collection | `true` |
+| `DD_PROCESS_AGENT_ENABLED` | Enable process monitoring | `true` |
 
-## 7.3 Metrics Reference
+## Metrics Reference
 
-### Custom Metrics
+### Custom Metric Types
 
-| Type | Description | Example |
-|------|-------------|---------|
-| `gauge` | Point-in-time value | `metric.gauge("cpu", 45.2)` |
-| `count` | Incremental counter | `metric.increment("requests")` |
-| `histogram` | Distribution | `metric.histogram("latency", 150)` |
-| `distribution` | Percentiles | `metric.distribution("request_size", 1024)` |
+| Type | Use Case | Example |
+|------|----------|---------|
+| `gauge` | Point-in-time value | Current queue depth |
+| `count` | Event counter | Total requests |
+| `histogram` | Distribution with percentiles | Request latency |
+| `distribution` | Global percentiles | Cross-host aggregation |
+| `rate` | Events per second | Error rate |
 
-### APM Spans
+### Reserved Metric Prefixes
 
-```python
-from ddtrace import tracer
-
-@tracer.wrap("process_order")
-def process_order(order_id):
-    with tracer.trace("db.query") as span:
-        span.set_tag("db.system", "postgresql")
-        span.set_tag("db.statement", "SELECT * FROM orders")
-        # Query database
-    
-    with tracer.trace("payment.process") as span:
-        span.set_tag("payment.method", "credit_card")
-        # Process payment
-```
-
-## 7.4 Dashboard Widgets
-
-| Widget | Purpose |
+| Prefix | Purpose |
 |--------|---------|
-| Timeseries | Metrics over time |
-| Query Value | Single metric value |
-| Top List | Ranked items |
-| Alert Graph | Alerts on metrics |
-| Log Stream | Log entries |
-| Service Map | Service dependencies |
+| `datadog.*` | Internal Datadog metrics |
+| `system.*` | System-level metrics |
+| `docker.*` | Container metrics |
+| `kubernetes.*` | K8s metrics |
+| `trace.*` | APM trace metrics |
+| `usm.*` | Universal Service Monitoring |
 
-## 7.5 Version Compatibility
-
-| Datadog Agent | Status | Notes |
-|---------------|--------|-------|
-| 7.x | Current | Latest features |
-| 6.x | Supported | Legacy |
-| 5.x | EOL | Old |
-
-## 7.6 API Endpoints
+## API Endpoints
 
 | Endpoint | Method | Purpose |
 |----------|--------|---------|
+| `/api/v1/validate` | GET | Validate API key |
 | `/api/v1/series` | POST | Submit metrics |
-| `/api/v1/check_run` | POST | Submit check |
-| `/api/v1/log` | POST | Send logs |
-| `/api/v1/apm/traces` | POST | Send traces |
+| `/api/v1/check_run` | POST | Submit service checks |
+| `/api/v1/events` | POST | Submit events |
+| `/api/v1/log` | POST | Submit logs |
+| `/api/v1/apm/traces` | POST | Submit traces |
+| `/api/v1/monitor` | POST/PUT | Create/update monitors |
+| `/api/v1/dashboard` | POST/PUT | Create/update dashboards |
+| `/api/v2/slo` | POST/PUT | Create/update SLOs |
+
+## Version Compatibility
+
+| Component | Current | Supported | EOL |
+|-----------|---------|-----------|-----|
+| Datadog Agent | 7.63+ | 7.x | - |
+| ddtrace (Python) | 2.x | 1.x, 2.x | 0.x |
+| ddtrace (Java) | 1.x+ | 1.x | 0.x |
+| Helm Chart | 3.x | 3.x | 2.x |

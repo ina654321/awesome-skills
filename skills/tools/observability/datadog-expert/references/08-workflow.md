@@ -1,105 +1,158 @@
-# Standard Workflow
+# Workflow & Best Practices
 
-## 8.1 Monitoring Setup
+## Observability Implementation Lifecycle
 
-```
-Phase 1: Agent Installation
-├── Install Datadog Agent
-├── Configure API key
-├── Enable integrations
-└── Verify connection
+### Phase 1: Assessment & Planning
 
-Phase 2: Instrumentation
-├── Add APM tracing
-├── Configure custom metrics
-├── Set up log collection
-└── Deploy dashboards
+**Discovery Checklist:**
+- [ ] Inventory all services and dependencies
+- [ ] Identify critical user journeys
+- [ ] Document existing monitoring gaps
+- [ ] Define SLO targets with stakeholders
+- [ ] Establish tagging standards
 
-Phase 3: Alerting
-├── Define SLOs
-├── Create alert conditions
-├── Configure notifications
-└── Test alerts
-
-Phase 4: Maintenance
-├── Review dashboards
-├── Tune thresholds
-├── Update monitors
-└── Archive unused items
+**Tagging Strategy:**
+```yaml
+Required Tags:
+  - env: [prod, staging, dev]
+  - service: [service-name]
+  - team: [owning-team]
+  
+Recommended Tags:
+  - version: [git-sha or semver]
+  - region: [aws-region]
+  - tier: [critical, standard, internal]
 ```
 
-## 8.2 APM Integration
+### Phase 2: Infrastructure Deployment
 
+**Kubernetes Installation:**
+```bash
+# Add repository
+helm repo add datadog https://helm.datadoghq.com
+helm repo update
+
+# Install with best practices
+helm install datadog datadog/datadog \
+  --set datadog.apiKey=$DD_API_KEY \
+  --set datadog.appKey=$DD_APP_KEY \
+  --set datadog.site=datadoghq.com \
+  --set datadog.tags={env:production} \
+  --set datadog.apm.enabled=true \
+  --set datadog.apm.instrumentation.enabled=true \
+  --set datadog.logs.enabled=true \
+  --set datadog.logs.containerCollectAll=true \
+  --set datadog.processAgent.enabled=true \
+  --set datadog.networkMonitoring.enabled=true \
+  --set datadog.securityAgent.runtime.enabled=true \
+  --set datadog.systemProbe.enabled=true \
+  --set datadog.systemProbe.enableUSM=true
+```
+
+**Validation Steps:**
+1. Check Agent status: `datadog-agent status`
+2. Verify APM: Send test trace
+3. Test log collection: `datadog-agent stream-logs`
+4. Confirm system probe: `datadog-agent system-probe status`
+
+### Phase 3: Application Instrumentation
+
+**Auto-Instrumentation (Recommended):**
+```yaml
+# Kubernetes Admission Controller
+podAnnotations:
+  admission.datadoghq.com/enabled: "true"
+  admission.datadoghq.com/config.mode: "socket"
+  
+env:
+  - name: DD_ENV
+    value: "production"
+  - name: DD_SERVICE
+    valueFrom:
+      fieldRef:
+        fieldPath: metadata.labels['app']
+```
+
+**Manual Instrumentation (Python Example):**
 ```python
-# Flask APM
-from ddtrace import patch_all
+from ddtrace import tracer, patch_all
+from ddtrace.propagation.http import HTTPPropagator
+
 patch_all()
 
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/api/users/<int:user_id>")
-def get_user(user_id):
-    with tracer.trace("db.fetch_user") as span:
-        span.set_tag("user.id", user_id)
-        user = db.get_user(user_id)
-    return {"user": user}
+# Custom spans
+@tracer.wrap(service="payment-api", resource="/charge")
+def process_payment(request):
+    with tracer.trace("validate_card") as span:
+        span.set_tag("card.type", request.card_type)
+        result = validate_card(request)
+        span.set_metric("validation.ms", result.duration)
+        return result
 ```
 
-## 8.3 Custom Metrics
+### Phase 4: Alerting Configuration
 
-```python
-from datadog import statsd
+**Alert Hierarchy:**
+```
+SLO Alerts (Highest Priority)
+├── Burn rate > 14.4x (1h window) → P1
+├── Burn rate > 6x (6h window) → P2
+└── Budget exhaustion < 10% → P1
 
-# Gauge - point in time
-statsd.gauge("app.active_users", 150)
+Symptom-Based Alerts
+├── Error rate > threshold → P2
+├── Latency p99 > threshold → P2
+└── Availability drops → P1
 
-# Counter - events
-statsd.increment("app.page_views", tags=["page:home"])
-
-# Histogram - distribution
-statsd.histogram("app.request_latency", 0.125, tags=["endpoint:/api"])
-
-# Distribution - percentiles
-statsd.distribution("app.payment_amount", 99.99)
+Infrastructure Alerts
+├── Resource utilization → P3
+├── Anomaly detection → P4
+└── Capacity planning → P4
 ```
 
-## 8.4 Log Collection
+### Phase 5: Runbook Development
 
-```python
-import logging
-from ddtrace import patch_logging
+**Runbook Template:**
+```markdown
+# Alert: [Alert Name]
 
-patch_logging()
+## Overview
+- **Severity**: P1/P2/P3/P4
+- **Service**: [Service Name]
+- **SLO Impact**: Yes/No
 
-logger = logging.getLogger(__name__)
-logger.info("User logged in", extra={
-    "user_id": 123,
-    "action": "login"
-})
+## Symptoms
+[List observable symptoms]
+
+## Diagnostic Steps
+1. [Step 1 with Datadog links]
+2. [Step 2 with queries]
+3. [Step 3]
+
+## Resolution
+1. [Immediate mitigation]
+2. [Root cause fix]
+3. [Verification steps]
+
+## Escalation
+- Contact: @team-oncall
+- Secondary: @engineering-manager
+- War room: #incidents-channel
 ```
 
-## 8.5 Alert Configuration
+### Phase 6: Ongoing Optimization
 
-```yaml
-# Monitor YAML
-type: metric alert
-name: High Error Rate
-query: >
-  sum(last_5m):sum:app.errors{env:production}.as_count() 
-  / 
-  sum(last_5m):sum:app.requests{env:production}.as_count() 
-  > 0.05
-message: |
-  Error rate is above 5%
-  
-  {{#is_alert}}
-  Investigate at: {{infra_url}}
-  {{/is_alert}}
-  
-  @slack-datadog
-priority: 2
-tags:
-  - service:myapp
-  - env:production
-```
+**Weekly Tasks:**
+- Review triggered alerts for false positives
+- Check dashboard usage and deprecate unused
+- Monitor custom metric cardinality
+
+**Monthly Tasks:**
+- SLO review with stakeholders
+- Cost analysis and optimization
+- Runbook updates based on incidents
+
+**Quarterly Tasks:**
+- Full SLO reassessment
+- Architecture review for new services
+- Tool consolidation evaluation
