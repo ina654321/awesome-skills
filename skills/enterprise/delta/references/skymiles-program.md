@@ -4,23 +4,24 @@
 
 **SkyMiles** is Delta Air Lines' frequent flyer program, one of the most valuable airline loyalty programs globally. The program drives significant revenue through partnerships, particularly the American Express co-brand credit card relationship.
 
-### Key Metrics (2024)
+### Key Metrics (2025)
 
 | Metric | Value |
 |--------|-------|
-| **Total Members** | 130+ million |
+| **Total Members** | 120+ million |
 | **Active Members (past 12 months)** | 25 million |
 | **Highly Engaged Members** | 9 million |
-| **Amex Partnership Revenue** | $7.4 billion |
+| **Amex Partnership Revenue** | $7.4+ billion |
 | **Long-term Amex Target** | $10 billion |
-| **Award Tickets Redeemed (2024)** | ~30 million |
+| **Award Tickets Redeemed (2025)** | ~30+ million |
 | **Revenue Miles from Awards** | 10% |
+| **Uber Partnership Members** | 1.5+ million linked (since April 2025) |
 
 ---
 
 ## Medallion Status Tiers
 
-### Qualification Requirements (2024-2025)
+### Qualification Requirements (2025)
 
 | Tier | MQD Requirement | Key Benefits |
 |------|-----------------|--------------|
@@ -28,6 +29,8 @@
 | **Gold** | $10,000 | Sky Club access (when flying Delta), international lounge access |
 | **Platinum** | $15,000 | Choice Benefits, waived fees, bonus miles |
 | **Diamond** | $28,000 | Exclusive phone line, lounge guest privileges, enhanced Choice Benefits |
+
+*Note: MQD requirements revised from original 2023 proposal after customer feedback*
 
 ### MQD (Medallion Qualifying Dollars) Earning
 
@@ -37,6 +40,7 @@
 | **Vacation packages** | $1 per $1 spent |
 | **Amex card spend (Reserve/Platinum)** | $1 MQD per $10-20 spent |
 | **MQD Headstart (eligible cards)** | 2,500 MQDs annually |
+| **Uber rides** | Earn miles (MQD earning varies) |
 
 ### Million Miler Program
 
@@ -83,7 +87,7 @@
 | **Priority Boarding** | Zone 2 (Sky) |
 | **Waived Award Fees** | Close-in booking, redeposit |
 | **Bonus Miles** | 11x miles on Delta flights |
-| **Rollover MQMs** | Previously unlimited (program changing) |
+| **Rollover MQMs** | Previously unlimited (program changed to MQD-only) |
 
 ### Diamond Medallion
 
@@ -91,7 +95,7 @@
 |---------|--------|
 | **Complimentary Upgrades** | Beginning 120 hours, highest priority |
 | **Enhanced Choice Benefits** | Select 4, including exclusive options |
-| **Delta One Lounge Access** | JFK, LAX, BOS (launching 2024-2025) |
+| **Delta One Lounge Access** | JFK, LAX, BOS, more |
 | **Clear Membership Credit** | Up to $189 annually |
 | **Exclusive Phone Line** | Diamond Medallion line |
 | **Bonus Miles** | 11x miles on Delta flights |
@@ -165,14 +169,15 @@
 | **Membership** | $695 annually (individual) |
 | **Executive Membership** | $1,495 annually (access + 2 guests) |
 
-### Club Network (2024)
+### Club Network (2025)
 
 | Location | Count |
 |----------|-------|
 | **Airports with Sky Clubs** | 50+ |
 | **Total Clubs** | 60+ |
-| **New Clubs (2024)** | 5 (AUS, PHX, LGA, etc.) |
-| **Delta One Lounges** | JFK, LAX, BOS (opening 2024-2025) |
+| **New Clubs (2025)** | AUS, PHX, LGA, etc. |
+| **Delta One Lounges** | JFK, LAX, BOS, more |
+| **SLC Sky Club** | 34,000 sq ft (second largest, opened 2025) |
 
 ---
 
@@ -190,12 +195,12 @@
 
 ### Amex Partnership Economics
 
-| Metric | 2023 | 2024 | 2025 Target |
-|--------|------|------|-------------|
-| **Revenue from Amex** | $6.8B | $7.4B | $8.0B+ |
-| **Long-term Target** | — | — | $10B |
-| **Card Members** | ~10M | ~11M | Growing |
-| **Average Spend per Card** | High | High | Increasing |
+| Metric | 2023 | 2024 | 2025 | Target |
+|--------|------|------|------|--------|
+| **Revenue from Amex** | $6.8B | $7.4B | $7.8B+ | $10B |
+| **Card Members** | ~10M | ~11M | ~12M | Growing |
+| **Average Spend per Card** | High | High | Increasing | — |
+| **Quarterly Revenue** | ~$1.7B | ~$1.85B | ~$2.0B | — |
 
 ### Amex Partnership Structure
 
@@ -203,12 +208,43 @@
 - **Marketing Fee**: Amex pays for co-brand rights and customer acquisition
 - **Revenue Recognition**: Deferred and recognized as passengers fly
 - **Breakage**: Unredeemed miles improve program economics
+- **Deferred Revenue Balance**: ~$8B (2024)
+
+---
+
+## New Partnerships (2024-2025)
+
+### Uber Partnership (Launched April 2025)
+
+| Feature | Detail |
+|---------|--------|
+| **SkyMiles Earning** | Earn miles on Uber rides |
+| **Linked Accounts** | 1.5+ million (exceeded expectations) |
+| **Airport Integration** | Dedicated drop-off at LGA and ATL |
+| **Benefit** | Reduced congestion, elevated experience |
+
+### YouTube Premium Partnership
+
+| Feature | Detail |
+|---------|--------|
+| **Benefit** | Ad-free in-flight streaming |
+| **Availability** | SkyMiles members |
+| **Launch** | January 2025 |
+
+### Delta Concierge (Beta)
+
+| Feature | Detail |
+|---------|--------|
+| **Type** | AI-powered assistant |
+| **Platform** | Fly Delta app |
+| **Function** | Real-time, personalized support |
+| **Status** | Beta launch 2025 |
 
 ---
 
 ## Program Changes History
 
-### 2023-2024 Program Overhaul
+### 2023-2025 Program Evolution
 
 | Change | Original Proposal | Final Implementation |
 |--------|-------------------|----------------------|
@@ -225,9 +261,10 @@
 | Metric | Impact |
 |--------|--------|
 | **Social Media Sentiment** | Negative during announcement |
-| **CEO Response** | "We moved too fast" |
+| **CEO Response** | "We moved too fast" — Ed Bastian |
 | **Partial Rollback** | Thresholds reduced from original proposal |
 | **Gradual Implementation** | Phased over 3 years |
+| **New Benefits Added** | Uber partnership, YouTube Premium, Delta Concierge |
 
 ---
 
@@ -285,6 +322,8 @@
 3. **Use Choice Benefits strategically** — GUCs/RUCs often highest value
 4. **Book award travel early** — Best availability at lowest rates
 5. **Monitor dynamic pricing** — Tuesday/Wednesday often lower
+6. **Link Uber account** — Earn miles on everyday rides
+7. **Use Delta Concierge** — AI assistant for personalized support
 
 ### Status Challenge/Match
 
@@ -292,10 +331,10 @@
 |---------|---------|
 | **Status Match** | Match from other airlines (statusmatch.com) |
 | **Challenge Period** | 3 months to earn required MQDs |
-| **Extended Status** | Through January 31, 2026 (if successful) |
+| **Extended Status** | Through January 31, 2027 (if successful) |
 | **Frequency** | Once per 3 years |
 
 ---
 
 *Last Updated: 2026-03-21*
-*Source: delta.com/skymiles, Delta SEC filings, 2024 program updates*
+*Source: delta.com/skymiles, Delta SEC filings (10-K), 2024-2025 program updates, earnings calls*

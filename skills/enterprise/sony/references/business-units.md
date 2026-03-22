@@ -28,33 +28,36 @@ Sony Interactive Entertainment (SIE)
     └── PlayStation Store
 ```
 
-### Key Metrics (FY2024)
+### Key Metrics (FY2024 / Dec 2025)
 | Metric | Value |
 |--------|-------|
-| PS5 Cumulative Sales | 75M+ (as of Dec 2024) |
+| PS5 Cumulative Sales | 92.1M+ (as of Dec 2025) |
 | PS5 Sales (FY2024) | 18.5M units |
 | PS4 Cumulative Sales | 117M+ (lifetime) |
 | Software Sales (FY2024) | 303.3M units |
 | First-Party Software | 28.9M units |
 | Digital Sales Ratio | 74% |
-| PSN Monthly Active Users | 129M |
-| PlayStation Plus Subscribers | 47.4M (as of Dec 2024) |
+| PSN Monthly Active Users | 132M (Dec 2025) |
+| PlayStation Plus Subscribers | ~50M |
+| Premium/Extra Tier Share | 38% |
 | Average Revenue Per User | Industry leading |
 
-### Hardware Specifications (PS5)
-| Component | Specification |
-|-----------|---------------|
-| CPU | AMD Zen 2, 8-core @ 3.5GHz |
-| GPU | AMD RDNA 2, 10.28 TFLOPS |
-| Memory | 16GB GDDR6 |
-| Storage | 825GB Custom SSD (5.5GB/s raw) |
-| Optical Drive | 4K UHD Blu-ray (standard) |
+### Hardware Specifications (PS5 / PS5 Pro)
+| Component | PS5 Specification | PS5 Pro Enhancement |
+|-----------|-------------------|---------------------|
+| CPU | AMD Zen 2, 8-core @ 3.5GHz | Same (higher clock) |
+| GPU | AMD RDNA 2, 10.28 TFLOPS | ~45% faster rendering |
+| Memory | 16GB GDDR6 | Same |
+| Storage | 825GB Custom SSD (5.5GB/s) | 2TB standard |
+| Optical Drive | 4K UHD Blu-ray (standard) | Optional |
+| AI Upsampling | — | PlayStation Spectral Super Resolution |
 
 ### Strategic Priorities
 1. **First-Party Excellence**: 90+ Metacritic target for flagship titles
 2. **Live Service Expansion**: 12+ live service games by FY2026
 3. **PC Portfolio Growth**: Day-one releases on PC (select titles)
 4. **Cloud Gaming R&D**: Future platform evolution
+5. **Hardware Lifecycle**: PS5 entering mature phase; Pro variant for enthusiasts
 
 ---
 
@@ -91,20 +94,22 @@ Sony Music Entertainment (SME)
 | Epic | Travis Scott, Future, 21 Savage | Strong hip-hop |
 | RCA | SZA, Justin Timberlake, Doja Cat | Diverse roster |
 | Arista | Avril Lavigne, JP Saxe | Legacy + new |
+| Alamo | Drake (2025), PartyNextDoor | Fast growing (2.37% share) |
 
-### Market Share (US)
+### Market Share (US / Global)
 | Category | Market Share |
 |----------|--------------|
-| Overall Recorded Music | ~27% |
-| Current Market Share | 27%+ (5 consecutive years growth) |
+| Overall Recorded Music (US) | ~27% |
+| Label Group Ranking | #2 globally (behind UMG ~37%) |
 | Music Publishing | #1 globally (since 2012) |
+| Catalog Share | Growing (long-tail monetization) |
 
 ### Streaming Performance
 | Metric | FY2024 |
 |--------|--------|
 | Recorded Music Streaming Growth | +5% (USD basis) |
 | Publishing Streaming Growth | +13% (USD basis) |
-| Catalog Share of Revenue | Increasing |
+| Top 10 Spotify Albums (Q1 FY2025) | 42% share |
 
 ### Aniplex Specifics
 | Metric | Detail |
@@ -112,6 +117,7 @@ Sony Music Entertainment (SME)
 | Key Franchises | Demon Slayer, Sword Art Online, Fate, Blue Exorcist |
 | Fate/Grand Order Revenue | $5B+ lifetime (mobile game) |
 | Production Capacity | 10+ anime series per year |
+| Parent | SME Japan subsidiary |
 
 ---
 
@@ -130,9 +136,9 @@ Sony Pictures Entertainment (SPE)
 │   ├── Sony Pictures Television
 │   └── International Networks
 ├── Crunchyroll
-│   ├── Streaming Platform (15M+ subscribers)
+│   ├── Streaming Platform (17M+ subscribers)
 │   ├── Hayate Inc. (JV with Aniplex)
-│   ├── Manga app (launching 2025)
+│   ├── Manga app (launched 2025)
 │   └── Game Vault
 ├── Home Entertainment
 ├── PlayStation Productions
@@ -150,15 +156,17 @@ Sony Pictures Entertainment (SPE)
 | Jumanji | Next Level ($800M) | Next chapter in development |
 | Uncharted | Film ($400M) | Sequel discussions |
 
-### Crunchyroll Details
+### Crunchyroll Details (Updated March 2025)
 | Metric | Value |
 |--------|-------|
-| Subscribers | 15M+ paid (Aug 2024) |
+| Paid Subscribers | 17M+ (March 2025) |
+| Previous Milestone | 15M (August 2024) |
 | Total Users | 120M+ (free + paid) |
 | Content Library | 1,300+ series; 40,000+ episodes |
 | Global Reach | 200+ countries/territories |
 | Theatrical Revenue | Growing (Demon Slayer model) |
 | Projected Contribution | 40%+ of Sony Pictures operating profit |
+| Growth Strategy | Hayate Inc. originals, merchandise, mobile games |
 
 ### Major Partnerships
 | Partner | Deal | Value |
@@ -173,24 +181,27 @@ Sony Pictures Entertainment (SPE)
 ### Market Position
 | Metric | Value |
 |--------|-------|
-| Global Market Share | ~50-56% (by revenue) |
+| Global Market Share | ~51-56% (by revenue) |
 | Mobile Sensor Share | ~51% (Q2 2025) |
 | Primary Customer | Apple (>55% of smartphone revenue) |
+| FY2025 Target | 56% market share |
 
 ### Product Lines
 
 #### Mobile Image Sensors (LYTIA Brand)
 | Sensor | Resolution | Features | Notable Applications |
 |--------|------------|----------|---------------------|
+| LYTIA 901 | 200MP | AI remosaicing, 4x zoom, 100dB HDR | Flagship 2026 (Oppo, Vivo) |
 | LYT-900 | 50MP | 1-inch, advanced HDR | Flagship smartphones |
 | LYT-808 | 50MP | Stacked CMOS | High-end mobile |
+| LYT-700C | 50MP | Mid-range | Motorola Edge 2025 |
 | LYT-600 | 50MP | Mid-range | Mass market |
 | IMX989 | 50MP | 1-inch, Quad Bayer | Premium devices |
 
 #### Automotive Image Sensors
 | Application | Sensor Series | Key Features |
 |-------------|---------------|--------------|
-| ADAS | IMX490, ISX019 | HDR, LED flicker mitigation |
+| ADAS | IMX490, ISX019, IMX828 | HDR, LED flicker mitigation |
 | Cabin Monitoring | IMX390 | IR sensitivity, compact |
 | Surround View | Multiple | 360° coverage, synchronization |
 
@@ -204,8 +215,9 @@ Sony Pictures Entertainment (SPE)
 ### Technology Leadership
 - **Stacked CMOS**: Industry-first, superior low-light performance
 - **Dual Pixel AF**: Fast, accurate autofocus
-- **HDR Technology**: Real-time high dynamic range
+- **HDR Technology**: DCG-HDR, Fine12bit ADC, Hybrid Frame-HDR (>100dB)
 - **Global Shutter**: Distortion-free capture
+- **AI Integration**: On-sensor AI remosaicing (LYTIA 901)
 
 ### Manufacturing
 | Location | Focus |
@@ -258,6 +270,46 @@ Sony Pictures Entertainment (SPE)
 | Cinema | VENICE 2 (8.6K), FX6, FX3 |
 | Broadcast | System cameras, switchers |
 | Medical | Surgical monitors, printers |
+
+---
+
+## Sony Honda Mobility (AFEELA)
+
+### Joint Venture Structure
+| Attribute | Detail |
+|-----------|--------|
+| Formation | 2022 |
+| Ownership | Sony 50% / Honda 50% |
+| President & COO | Izumi Kawanishi (from Sony) |
+| US CEO | Shugo Yamaguchi |
+
+### AFEELA 1 Vehicle Specifications
+| Attribute | Specification |
+|-----------|---------------|
+| Type | All-electric sedan |
+| Origin Trim | $89,900 |
+| Signature Trim | $102,900 |
+| Battery | 91 kWh |
+| Range | ~300 miles |
+| Motors | Dual 241 hp (front + rear) |
+| Sensors | 40 (cameras, lidar, radar, ultrasonic) |
+| Computing | 800 TOPS (trillion operations/sec) |
+| Charging | 150 kW DC fast charging; NACS compatible |
+| Production | Honda East Liberty, Ohio |
+| Deliveries | Mid-2026 (North America); 2026 (Japan) |
+
+### Key Features
+- **Media Integration**: Crunchyroll, Sony Music, PlayStation content
+- **Karaoke**: Stingray Group partnership (100K+ songs)
+- **Audio**: Spatial sound system, active noise cancellation
+- **Gaming**: PlayStation Remote Play integration
+- **Navigation**: HERE Technologies partnership (3D mapping, AR)
+
+### Strategic Significance
+- **Content Distribution**: Mobile entertainment platform
+- **Brand Extension**: Sony technology beyond traditional electronics
+- **Market Entry**: Testing ground for mobility-as-a-service
+- **Technology Showcase**: Sensor, audio, display integration
 
 ---
 

@@ -1,6 +1,11 @@
-# Samsung Electronics 2024 Annual Report Summary
+# Samsung Electronics Annual Report Summary
 
-**Source:** Samsung Electronics Co., Ltd. Consolidated Financial Statements December 31, 2024
+**Sources:** Samsung Electronics Co., Ltd. Consolidated Financial Statements
+- 2024 Annual Report (Filed: March 11, 2025)
+- 2025 Earnings Reports (Q1-Q4 2025)
+- 2025 Financial Guidance
+
+**Note:** For detailed 2025 results, see [2025 Financial Results](./2025-financial-results.md)
 
 ---
 

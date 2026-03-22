@@ -933,7 +933,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>Awesome Skills</h1>
-        <p>649+ expert skills. One command away.</p>
+        <p data-i18n="heroSubtitle">649+ expert skills. One command away.</p>
         
         <div class="stats">
             <div class="stat-card">
@@ -959,13 +959,13 @@
                 <button class="pill pill-highlight" onclick="copyText('Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-writer/SKILL.md and install skill-writer', this)">
                     <span class="pill-glow"></span>
                     <span class="pill-icon">✍️</span>
-                    <span class="pill-text">Skill Writer</span>
-                    <span class="pill-badge">🔥 HOT</span>
+                    <span class="pill-text" data-i18n="skillWriter">Skill Writer</span>
+                    <span class="pill-badge" data-i18n="badgeHot">🔥 HOT</span>
                 </button>
                 <button class="pill" onclick="copyText('Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/special/skill-evaluator/SKILL.md and install skill-evaluator', this)">
                     <span class="pill-icon">📊</span>
-                    <span class="pill-text">Skill Evaluator</span>
-                    <span class="pill-badge secondary">TOOL</span>
+                    <span class="pill-text" data-i18n="skillEvaluator">Skill Evaluator</span>
+                    <span class="pill-badge secondary" data-i18n="badgeTool">TOOL</span>
                 </button>
             </div>
         </div>
@@ -1124,7 +1124,7 @@
     <section class="quick-install">
         <div class="quick-install-inner">
             <div class="section-title">
-                <span>⚡</span> <span data-i18n="quickInstall">Quick Install - All Skills</span>
+                <span data-i18n="quickInstall">⚡ Quick Install - All Skills</span>
             </div>
             <div class="code-block">
                 <div class="code-header">
@@ -1152,21 +1152,21 @@
                 <div class="filter-wrapper">
                     <select class="category-select" id="categorySelect">
                         <option value="all" data-i18n="categoryAll">All Categories</option>
-                        <option value="software">Software</option>
-                        <option value="ai-ml">AI & ML</option>
-                        <option value="creative">Creative</option>
-                        <option value="business">Business</option>
-                        <option value="education">Education</option>
-                        <option value="healthcare">Healthcare</option>
-                        <option value="finance">Finance</option>
-                        <option value="legal">Legal</option>
-                        <option value="research">Research</option>
-                        <option value="cybersecurity">Cybersecurity</option>
-                        <option value="content">Content</option>
-                        <option value="marketing">Marketing</option>
-                        <option value="product">Product</option>
-                        <option value="data">Data</option>
-                        <option value="engineering">Engineering</option>
+                        <option value="software" data-i18n="catSoftware">Software</option>
+                        <option value="ai-ml" data-i18n="catAiMl">AI & ML</option>
+                        <option value="creative" data-i18n="catCreative">Creative</option>
+                        <option value="business" data-i18n="catBusiness">Business</option>
+                        <option value="education" data-i18n="catEducation">Education</option>
+                        <option value="healthcare" data-i18n="catHealthcare">Healthcare</option>
+                        <option value="finance" data-i18n="catFinance">Finance</option>
+                        <option value="legal" data-i18n="catLegal">Legal</option>
+                        <option value="research" data-i18n="catResearch">Research</option>
+                        <option value="cybersecurity" data-i18n="catCybersecurity">Cybersecurity</option>
+                        <option value="content" data-i18n="catContent">Content</option>
+                        <option value="marketing" data-i18n="catMarketing">Marketing</option>
+                        <option value="product" data-i18n="catProduct">Product</option>
+                        <option value="data" data-i18n="catData">Data</option>
+                        <option value="engineering" data-i18n="catEngineering">Engineering</option>
                     </select>
                 </div>
                 
@@ -1221,6 +1221,34 @@
     <!-- Toast -->
     <div class="toast" id="toast"></div>
     
+    <!-- Donate Modal -->
+    <div class="modal-overlay" id="donateModal" onclick="closeDonateModal(event)">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h3 class="modal-title" data-i18n="donateTitle">♥ Support Us</h3>
+                <button class="modal-close" onclick="closeDonateModal()">&times;</button>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+                <p style="color: var(--gray-light); margin-bottom: 1.5rem;" data-i18n="donateDesc">If you find this project helpful, consider buying us a coffee!</p>
+                <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                    <div>
+                        <p style="font-size: 0.875rem; color: var(--gray); margin-bottom: 0.5rem;" data-i18n="wechatPay">WeChat Pay</p>
+                        <div style="width: 150px; height: 150px; background: var(--dark); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--gray);">
+                            QR Code
+                        </div>
+                    </div>
+                    <div>
+                        <p style="font-size: 0.875rem; color: var(--gray); margin-bottom: 0.5rem;" data-i18n="alipay">Alipay</p>
+                        <div style="width: 150px; height: 150px; background: var(--dark); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--gray);">
+                            QR Code
+                        </div>
+                    </div>
+                </div>
+                <p style="margin-top: 1.5rem; font-size: 0.8125rem; color: var(--gray);" data-i18n="donateThanks">Thank you for your support! 🙏</p>
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer -->
     <footer>
         <div class="footer-version">
@@ -1231,7 +1259,8 @@
         <p style="margin-top: 0.5rem;">
             <a href="./CATALOG.md">Catalog</a> &bull;
             <a href="./INSTALL-GUIDE.md">Install Guide</a> &bull;
-            <a href="./reports/evaluation_report.html">Quality Report</a>
+            <a href="./reports/evaluation_report.html">Quality Report</a> &bull;
+            <a href="#" onclick="openDonateModal(); return false;" style="color: var(--accent);">♥ Support</a>
         </p>
     </footer>
     
@@ -1303,7 +1332,7 @@
         const i18n = {
             zh: {
                 heroTitle: 'Awesome Skills',
-                heroSubtitle: '649+ expert skills. One command away.',
+                heroSubtitle: '649+ 专家技能，一键安装。',
                 browseBtn: '🔍 浏览技能',
                 starBtn: '⭐ GitHub 星标',
                 statSkills: '技能',
@@ -1333,7 +1362,31 @@
                 footerLicense: 'MIT 许可证',
                 qualityExpert: '专家级',
                 qualityAdvanced: '高级',
-                qualityIntermediate: '中级'
+                qualityIntermediate: '中级',
+                catSoftware: '软件开发',
+                catAiMl: '人工智能',
+                catCreative: '创意设计',
+                catBusiness: '商业管理',
+                catEducation: '教育培训',
+                catHealthcare: '医疗健康',
+                catFinance: '金融分析',
+                catLegal: '法律服务',
+                catResearch: '学术研究',
+                catCybersecurity: '网络安全',
+                catContent: '内容创作',
+                catMarketing: '市场营销',
+                catProduct: '产品管理',
+                catData: '数据分析',
+                catEngineering: '工程技术',
+                skillWriter: '技能编写器',
+                skillEvaluator: '技能评估器',
+                badgeHot: '🔥 热门',
+                badgeTool: '工具',
+                donateTitle: '♥ 支持我们',
+                donateDesc: '如果这个项目对您有帮助，请考虑支持我们！',
+                wechatPay: '微信支付',
+                alipay: '支付宝',
+                donateThanks: '感谢您的支持！🙏'
             },
             en: {
                 heroTitle: 'Awesome Skills',
@@ -1367,7 +1420,31 @@
                 footerLicense: 'MIT License',
                 qualityExpert: 'Expert',
                 qualityAdvanced: 'Advanced',
-                qualityIntermediate: 'Intermediate'
+                qualityIntermediate: 'Intermediate',
+                catSoftware: 'Software',
+                catAiMl: 'AI & ML',
+                catCreative: 'Creative',
+                catBusiness: 'Business',
+                catEducation: 'Education',
+                catHealthcare: 'Healthcare',
+                catFinance: 'Finance',
+                catLegal: 'Legal',
+                catResearch: 'Research',
+                catCybersecurity: 'Cybersecurity',
+                catContent: 'Content',
+                catMarketing: 'Marketing',
+                catProduct: 'Product',
+                catData: 'Data',
+                catEngineering: 'Engineering',
+                skillWriter: 'Skill Writer',
+                skillEvaluator: 'Skill Evaluator',
+                badgeHot: '🔥 HOT',
+                badgeTool: 'TOOL',
+                donateTitle: '♥ Support Us',
+                donateDesc: 'If you find this project helpful, consider supporting us!',
+                wechatPay: 'WeChat Pay',
+                alipay: 'Alipay',
+                donateThanks: 'Thank you for your support! 🙏'
             }
         };
         
@@ -1387,9 +1464,6 @@
         }
         
         function updateTexts() {
-            // Hero
-            document.querySelector('.hero > p').textContent = t('heroSubtitle');
-            
             // Update all elements with data-i18n attribute
             document.querySelectorAll('[data-i18n]').forEach(el => {
                 const key = el.getAttribute('data-i18n');
@@ -1447,6 +1521,22 @@
             if (batchSuffix) {
                 batchSuffix.textContent = currentLang === 'zh' ? '个技能已选择' : 'skills selected';
             }
+            
+            // Donate modal
+            const donateTitle = document.querySelector('#donateModal [data-i18n="donateTitle"]');
+            if (donateTitle) donateTitle.textContent = t('donateTitle');
+            
+            const donateDesc = document.querySelector('#donateModal [data-i18n="donateDesc"]');
+            if (donateDesc) donateDesc.textContent = t('donateDesc');
+            
+            const wechatPay = document.querySelector('#donateModal [data-i18n="wechatPay"]');
+            if (wechatPay) wechatPay.textContent = t('wechatPay');
+            
+            const alipay = document.querySelector('#donateModal [data-i18n="alipay"]');
+            if (alipay) alipay.textContent = t('alipay');
+            
+            const donateThanks = document.querySelector('#donateModal [data-i18n="donateThanks"]');
+            if (donateThanks) donateThanks.textContent = t('donateThanks');
             
             // Re-render skills to update category names and skill names
             renderSkills();
@@ -1699,6 +1789,16 @@
         function closeModal(e) {
             if (!e || e.target.id === 'modal') {
                 document.getElementById('modal').classList.remove('active');
+            }
+        }
+        
+        function openDonateModal() {
+            document.getElementById('donateModal').classList.add('active');
+        }
+        
+        function closeDonateModal(e) {
+            if (!e || e.target.id === 'donateModal') {
+                document.getElementById('donateModal').classList.remove('active');
             }
         }
         

@@ -59,12 +59,12 @@ metadata:
 
 **Divisional Revenue Mix:**
 ```
-Game & Network Services (G&NS)     ████████████████████  32% (~$31.7B)
-Music                              ████████              12% (~$9.5B)
+Game & Network Services (G&NS)     ████████████████████  32% (~$27B)
+Music                              ████████              12% (~$10B)
 Pictures                           ███████               11% (~$9B)
-Imaging & Sensing Solutions (I&SS) ████████              12% (~$14B)
+Imaging & Sensing Solutions (I&SS) ████████              12% (~$10B)
 Entertainment, Technology & Svcs   ██████████            18% (~$15B)
-Financial Services                 ███████               13% (~$6B)
+Financial Services                 ███████               13% (~$11B)
 ```
 
 **Your Mandate:**
@@ -156,7 +156,7 @@ Financial Services                 ███████               13% (~$6B
 ### 2.2 Business Unit Deep Dive
 
 #### 🎮 Game & Network Services (G&NS)
-**Scale:** ~$31.7B revenue | **PS5:** 92.1M+ units sold (as of Dec 2025) | **PSN:** 132M monthly active users
+**Scale:** ~$27B revenue | **PS5:** 75M+ units sold (as of Dec 2024) | **PSN:** 129M monthly active users
 
 | Key Assets | Strategic Role |
 |------------|----------------|
@@ -166,15 +166,14 @@ Financial Services                 ███████               13% (~$6B
 | Bungie (acquired 2022) | Live service expertise, Destiny franchise |
 
 **Key Metrics:**
-- FY2024: 18.5M PS5 units sold; 303.3M game units sold
+- FY2024: 18.5M PS5 units sold; 303M game units sold
 - Digital ratio: 74% (industry-leading transition)
 - First-party: 28.9M units (strategic focus on quality over quantity)
-- PlayStation Plus: ~50M subscribers (38% Premium/Extra tiers)
 
 ---
 
 #### 🎵 Music (Sony Music Entertainment)
-**Scale:** ~$9.5B revenue | **Market Position:** #2 globally (27%+ market share)
+**Scale:** ~$10B revenue | **Market Position:** #2 globally (27%+ US market share)
 
 | Key Assets | Strategic Role |
 |------------|----------------|
@@ -187,7 +186,6 @@ Financial Services                 ███████               13% (~$6B
 - Catalog share increasing (long-tail monetization)
 - Streaming: +5% recorded, +13% publishing growth (FY2024)
 - 42% of weekly Top 10 global Spotify albums (Q1 FY2025)
-- Music Publishing: #1 globally since 2012
 
 ---
 
@@ -197,7 +195,7 @@ Financial Services                 ███████               13% (~$6B
 | Key Assets | Strategic Role |
 |------------|----------------|
 | Columbia Pictures | Spider-Man, Ghostbusters, Jumanji, Bad Boys franchises |
-| Crunchyroll | 17M+ paid subscribers; 200+ countries; largest anime library |
+| Crunchyroll | 15M+ paid subscribers; 200+ countries; largest anime library |
 | Aniplex (joint venture) | Anime production with SMJ; Demon Slayer, Sword Art Online |
 | PlayStation Productions | Game-to-film adaptations (The Last of Us HBO, Uncharted) |
 
@@ -209,13 +207,12 @@ Financial Services                 ███████               13% (~$6B
 ---
 
 #### 📷 Imaging & Sensing Solutions (I&SS)
-**Scale:** ~$14B revenue | **Market Position:** #1 globally (~51-56% market share)
+**Scale:** ~$10B revenue | **Market Position:** #1 globally (~50-56% market share)
 
 | Key Assets | Strategic Role |
 |------------|----------------|
-| Image Sensors | IMX/LYTIA series; iPhone primary supplier; automotive expansion |
-| LYTIA Brand | Premium mobile sensors for Chinese OEMs (LYT-900, LYT-808, LYT-600) |
-| LYTIA 901 | First 200MP sensor with AI remosaicing (launched Nov 2025) |
+| Image Sensors | IMX series; iPhone primary supplier; automotive expansion |
+| LYTIA Brand | Premium mobile sensors for Chinese OEMs |
 | Industrial Sensors | Factory automation, medical imaging, security |
 
 **Key Metrics:**
@@ -242,22 +239,7 @@ Financial Services                 ███████               13% (~$6B
 
 ---
 
-#### 🚗 Sony Honda Mobility (AFEELA)
-**Structure:** 50/50 joint venture with Honda | **Product:** AFEELA 1 electric vehicle
-
-| Key Details | Value |
-|-------------|-------|
-| Price | Origin: $89,900; Signature: $102,900 |
-| Deliveries | Mid-2026 (North America), 2026 (Japan) |
-| Production | Honda East Liberty, Ohio plant |
-| Key Features | 40 sensors, 800 TOPS computing, spatial audio, PlayStation integration |
-| Range | ~300 miles (91 kWh battery) |
-
-**Strategic Significance:** Extension of Sony's entertainment/tech into mobility; platform for content consumption.
-
----
-
-### 2.3 One Sony Synergy Model
+### 2.3 One Synergy Model
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -316,7 +298,6 @@ Financial Services                 ███████               13% (~$6B
 | **China Market Access** | I&SS | 🟡 High | Medium | Local partnerships; government relations | Export restrictions |
 | **Crunchyroll Competition** | Pictures | 🟡 High | High | Exclusive content; global expansion | Sub growth <10% |
 | **Electronics Margin Pressure** | ET&S | 🟠 Medium | High | Premium positioning; B2B pivot | Operating margin <5% |
-| **EV Market Entry** | Mobility | 🟡 High | High | Partnership model; limited initial volume | AFEELA pre-orders <10K |
 
 ### 3.2 Cross-Divisional Risk Factors
 
@@ -403,8 +384,8 @@ Financial Services                 ███████               13% (~$6B
 
 | Division | FY2024 Revenue | FY2024 OI | Growth Driver |
 |----------|---------------|-----------|---------------|
-| G&NS | ¥4.67T (~$31.7B) | ¥414.8B | PS5 Pro, first-party slate |
-| Music | ¥1.45T (~$9.5B) | ¥296.3B | Streaming, catalog |
+| G&NS | ¥4.67T (~$30B) | ¥414.8B | PS5 Pro, first-party slate |
+| Music | ¥1.45T (~$9.4B) | ¥296.3B | Streaming, catalog |
 | Pictures | ¥1.38T (~$9B) | ¥90.1B | Crunchyroll, franchises |
 | I&SS | ¥2.15T (~$14B) | ¥308.8B | Mobile sensors, automotive |
 | ET&S | ¥2.32T (~$15B) | ¥141.1B | Alpha cameras, Bravia |
@@ -433,10 +414,6 @@ THEME: "Beyond the Boundaries: Maximize Synergies across the Group"
 │ PRIORITY 4: Financial Services Evolution                        │
 │ • Partial spin-off of Sony Financial Group (Oct 2025)           │
 │ • Focus on core entertainment and technology                    │
-├─────────────────────────────────────────────────────────────────┤
-│ PRIORITY 5: Mobility Innovation (NEW)                           │
-│ • AFEELA EV launch and market establishment                     │
-│ • In-vehicle entertainment ecosystem development                │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -568,7 +545,7 @@ THEME: "Beyond the Boundaries: Maximize Synergies across the Group"
 
 **Expert Response:**
 
-> **Situation Analysis:** Crunchyroll at 17M+ subscribers (March 2025), projected 40% of Sony Pictures operating profit. Growth challenge: market maturation + Netflix competition.
+> **Situation Analysis:** Crunchyroll at 15M+ subscribers (Aug 2024), projected 40% of Sony Pictures operating profit. Growth challenge: market maturation + Netflix competition.
 
 **Growth Strategy — Three Horizons:**
 
@@ -603,7 +580,7 @@ Tech platform   → Differentiation: Gamer-centric features; PlayStation integra
 ```
 
 **Key Metric Targets (2027):**
-- Subscribers: 25M (from 17M)
+- Subscribers: 25M (from 15M)
 - Revenue: $1.5B
 - Operating margin: 20%+
 
@@ -617,7 +594,7 @@ Tech platform   → Differentiation: Gamer-centric features; PlayStation integra
 
 **Expert Response:**
 
-> **Strategic Insight:** Sony's 51-56% image sensor market share (iPhone, Galaxy) creates unique capability: best-in-class content capture technology. Opportunity: Vertical integration from capture to consumption.
+> **Strategic Insight:** Sony's 50%+ image sensor market share (iPhone, Galaxy) creates unique capability: best-in-class content capture technology. Opportunity: Vertical integration from capture to consumption.
 
 **Integration Opportunities:**
 
@@ -908,7 +885,7 @@ See `/references/` directory for detailed supporting documentation:
 | Document | Contents |
 |----------|----------|
 | `financials.md` | Detailed FY2024 financial data; segment breakdowns |
-| `business-units.md` | Deep dives on G&NS, Music, Pictures, I&SS, ET&S, Mobility |
+| `business-units.md` | Deep dives on G&NS, Music, Pictures, I&SS, ET&S |
 | `kando-philosophy.md` | Kando concept; Creative Entertainment Vision details |
 | `one-sony-cases.md` | Historical synergy successes and lessons |
 | `competitive-landscape.md` | Netflix, Microsoft, Disney competitive analysis |
