@@ -1,7 +1,7 @@
 # Nestlé Enterprise Skill
 
-> **Version:** skill-writer v5 | skill-evaluator v2.1 | EXCELLENCE 9.5/10  
-> **Last Updated:** 2025-03-21  
+> **Version:** skill-writer v5 | skill-evaluator v2.1 | **EXCELLENCE 9.5/10**  
+> **Last Updated:** 2026-03-21  
 > **Status:** PRODUCTION READY
 
 ---
@@ -75,76 +75,89 @@ When presented with any business scenario, apply the **Nestlé 5P Framework**:
 
 ## 2. Domain Knowledge
 
-### §2.1 Company Overview
+### §2.1 Company Overview (2025)
 
 | Attribute | Data |
 |-----------|------|
-| **Revenue (2024)** | CHF 91.4 billion (~$102B USD) |
-| **Market Cap** | ~CHF 220-264 billion (~$250-300B USD) |
+| **Revenue (2025)** | CHF 89.49 billion (~$99B USD) |
+| **Organic Growth** | +3.5% (RIG +0.8%, Pricing +2.8%) |
+| **Market Cap** | ~CHF 200 billion (~$225B USD) |
 | **Employees** | ~275,000 |
-| **CEO** | Philipp Navratil (from Sept 2025) |
+| **CEO** | Philipp Navratil (appointed 2025) |
 | **Headquarters** | Vevey, Switzerland |
 | **Founded** | 1866 by Henri Nestlé |
 | **Brands** | 2,000+ across 188+ countries |
+| **Net Profit** | CHF 9.0 billion |
+| **Free Cash Flow** | CHF 9.2 billion |
 | **Ticker** | SIX: NESN / OTC: NSRGY |
 
-### §2.2 Category Portfolio
+### §2.2 Strategic Transformation (2025-2026)
 
-| Category | Key Brands | 2024 Performance |
+**Four Priority Businesses (70% of sales):**
+```
+┌─────────────────────────────────────────────────────────────┐
+│  NESTLÉ'S FOCUSED PORTFOLIO STRATEGY                        │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ☕ COFFEE               💊 NUTRITION                       │
+│  Nescafé, Nespresso,    Integrated Health Science         │
+│  Starbucks Licensed     + Infant Nutrition                │
+│  ~25% of sales          ~16% of sales                     │
+│                                                             │
+│  🐾 PETCARE              🍫 FOOD & SNACKS                 │
+│  Purina ProPlan,        Maggi, KitKat,                    │
+│  Fancy Feast, Felix     Confectionery                     │
+│  ~20% of sales          ~20% of sales                     │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Key Strategic Initiatives:**
+- **Ice Cream Exit**: Advanced negotiations to sell remaining ice cream business to Froneri
+- **Fuel for Growth**: CHF 1.1B savings delivered in 2025 (exceeding target)
+- **Marketing Investment**: 8.6% of sales (increased vs prior year)
+- **Growth Platforms**: Expanded to 30% of sales, delivering high single-digit growth
+
+### §2.3 Category Portfolio (2025)
+
+| Category | Key Brands | 2025 Performance |
 |----------|-----------|------------------|
-| **Coffee** | Nescafé, Nespresso, Starbucks (licensed) | Mid single-digit growth; largest contributor |
-| **PetCare** | Purina ProPlan, Purina ONE, Friskies, Fancy Feast, Felix | Low single-digit growth; science-based premium focus |
-| **Infant Nutrition** | NAN, Gerber, Lactogen | Low single-digit growth; HMO innovation |
-| **Water** | S.Pellegrino, Perrier, Acqua Panna, Maison Perrier | Low single-digit growth; premium focus |
+| **Coffee** | Nescafé, Nespresso, Starbucks (licensed) | Largest contributor, mid single-digit growth |
+| **PetCare** | Purina ProPlan, Purina ONE, Friskies, Fancy Feast | Low single-digit growth; science-based focus |
+| **Infant Nutrition** | NAN, Gerber, Lactogen | Recovery on track; HMO innovation |
+| **Water** | S.Pellegrino, Perrier, Acqua Panna | Globally Managed Business since 2025 |
 | **Confectionery** | KitKat | Mid single-digit growth; key local brands |
-| **Culinary** | Maggi, Buitoni, Stouffer's, Digiorno | Mixed; Maggi strong, frozen food challenged |
-| **Dairy** | Carnation, Coffee-mate, Nido | Negative growth; creamers declining |
-| **Health Science** | Boost, Optifast, Garden of Life | Mid single-digit growth; recovery on track |
+| **Culinary** | Maggi, Buitoni, Stouffer's | Mixed; Maggi strong globally |
+| **Health Science** | Boost, Optifast, Garden of Life | Integrated with Nutrition business |
 
-### §2.3 Geographic Zone Structure (2025)
+### §2.4 Geographic Zone Structure (2025)
 
-| Zone | Coverage | Leadership | Notes |
-|------|----------|------------|-------|
-| **Zone AMS** | Americas (North + Latin America combined) | Steve Presley | Largest zone by sales (~$30B) |
+| Zone | Coverage | Leadership | 2025 Performance |
+|------|----------|------------|------------------|
+| **Zone AMS** | Americas (North + Latin America) | Steve Presley | Largest zone by sales |
 | **Zone AOA** | Asia, Oceania, Africa (incl. Greater China) | Remy Ejel | High growth potential |
 | **Zone EUR** | Europe | Guillaume Le Cunff | Mature, innovation-driven |
-| **Nestlé Health Science** | Global | Anna Mohl | Science-based nutrition |
+| **Nestlé Health Science** | Global | Transitioning | Now integrated with Nutrition |
 | **Nespresso** | Global | Philipp Navratil | Premium coffee experience |
-| **Nestlé Waters & Premium Beverages** | Global | - | Standalone business (2025) |
+| **Nestlé Waters & Premium Beverages** | Global | - | Standalone business |
 
-### §2.4 Coffee Systems Deep Dive
-
-**Nescafé Portfolio:**
-- **Nescafé Classic/Clasico**: Mass-market soluble coffee (50-90mg caffeine)
-- **Nescafé Gold**: Premium soluble (90mg caffeine)
-- **Nescafé Dolce Gusto**: Multi-beverage capsule system
-- **Nescafé Ready-to-Drink**: RTD coffee beverages
-- **Starbucks CPG**: Licensed retail coffee products
-
-**Nespresso:**
-- **Original Line**: Classic espresso system (19 bar pressure)
-- **Vertuo**: Centrifusion technology for larger cups (rolled out in US)
-- **Professional**: Out-of-home/office solutions (Momento system)
-- **Revenue**: CHF 6.4B (2024); 2.2% organic growth
-
-### §2.5 Sustainability & CSV
+### §2.5 Sustainability & CSV Progress (2025)
 
 **Net Zero Roadmap:**
 - Target: Net zero by 2050 (latest)
 - Interim: 50% GHG reduction by 2030 (vs 2018 baseline)
-- Current: 6.11% net reduction achieved
-- Renewable energy: Target 100% by end of 2025
+- **Current: 24.5% net reduction achieved** (exceeded 20% 2025 target)
+- Renewable energy: 96% in manufacturing
 
-**Regenerative Agriculture:**
-- Goal: 20% of key ingredients by 2025; 50% by 2030
-- Focus crops: Coffee, cocoa, dairy, wheat, vegetables
-- Practices: Cover cropping, reduced tillage, shade trees, sustainable feed
+**Nature & Biodiversity:**
+- 96.7% assessed deforestation-free primary supply chains
+- Regenerative agriculture: Expanding across key ingredients
+- 100% certified sustainable palm oil (RSPO)
 
-**Key Initiatives:**
-- Nescafé Plan (coffee sustainability)
+**Key Programs:**
+- Nescafé Plan 2030 (coffee sustainability)
 - Nestlé Cocoa Plan (cocoa sourcing)
 - Nespresso AAA Program (premium coffee)
-- Dairy Net Zero Initiative (US)
 
 ---
 
@@ -473,7 +486,7 @@ KEY INITIATIVES:
 
 | Resource | Link |
 |----------|------|
-| Nestlé Annual Review 2024 | https://www.nestle.com/sites/default/files/2025-02/annual-review-2024-en.pdf |
+| Nestlé Annual Review 2025 | https://www.nestle.com/sites/default/files/2026-02/annual-review-2025-en.pdf |
 | Sustainability Report | https://www.nestle.com/sustainability |
 | Creating Shared Value Report | https://www.nestle.com/csv |
 | Investor Relations | https://www.nestle.com/investors |
@@ -485,9 +498,10 @@ KEY INITIATIVES:
 ```yaml
 skill:
   name: nestle
-  version: 2.0.0
+  version: 3.0.0
   tier: excellence
   rating: 9.5/10
+  last_updated: 2026-03-21
   
 domains:
   - food_beverage
@@ -514,6 +528,19 @@ geographic_coverage:
   - zone_asia_oceania_africa
   - zone_europe
   - global_businesses
+  
+financial_highlights_2025:
+  revenue_chf: 89.49B
+  organic_growth: "+3.5%"
+  net_profit_chf: 9.0B
+  free_cash_flow_chf: 9.2B
+  employees: 275000
+  
+key_leadership:
+  ceo: Philipp Navratil
+  zone_americas: Steve Presley
+  zone_aoa: Remy Ejel
+  zone_europe: Guillaume Le Cunff
 ```
 
 ---

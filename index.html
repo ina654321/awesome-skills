@@ -546,7 +546,10 @@
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1rem;
+            gap: 1.5rem;
+            padding-top: 1rem;
+            padding-bottom: 200px;
+            overflow: visible;
         }
         
         @media (max-width: 640px) {
@@ -565,12 +568,14 @@
             transition: all 0.2s ease;
             position: relative;
             overflow: visible;
+            z-index: 1;
         }
         
         .skill-card:hover {
             border-color: rgba(99, 102, 241, 0.3);
             transform: translateY(-2px);
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            z-index: 100;
         }
         
         .skill-card.selected {
@@ -678,31 +683,33 @@
             text-overflow: ellipsis;
         }
         
-        /* 详细描述 Tooltip */
+        /* 详细描述 Tooltip - 显示在卡片下方 */
         .skill-tooltip {
             position: absolute;
-            top: calc(100% + 8px);
-            left: 0;
-            right: 0;
-            background: var(--dark-light);
-            border: 1px solid var(--dark-border);
+            top: calc(100% + 12px);
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 280px;
+            max-width: 90vw;
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
+            border: 1px solid rgba(99, 102, 241, 0.3);
             border-radius: 12px;
-            padding: 1rem;
-            font-size: 0.8125rem;
-            color: var(--gray-light);
-            line-height: 1.6;
-            box-shadow: var(--shadow-lg);
+            padding: 1rem 1.25rem;
+            font-size: 0.875rem;
+            color: #e2e8f0;
+            line-height: 1.7;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(99, 102, 241, 0.1);
             opacity: 0;
             visibility: hidden;
-            transform: translateY(-5px);
-            transition: all 0.2s ease;
-            z-index: 100;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 9999;
+            pointer-events: none;
         }
         
         .skill-card:hover .skill-tooltip {
             opacity: 1;
             visibility: visible;
-            transform: translateY(0);
+            transform: translateX(-50%) translateY(0);
         }
         
         .skill-tooltip::before {
@@ -713,9 +720,9 @@
             transform: translateX(-50%) rotate(45deg);
             width: 12px;
             height: 12px;
-            background: var(--dark-light);
-            border-left: 1px solid var(--dark-border);
-            border-top: 1px solid var(--dark-border);
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.98));
+            border-left: 1px solid rgba(99, 102, 241, 0.3);
+            border-top: 1px solid rgba(99, 102, 241, 0.3);
         }
         
         .skill-meta {
@@ -724,9 +731,15 @@
             gap: 0.75rem;
             margin-top: 0.75rem;
             padding-top: 0.75rem;
-            border-top: 1px solid var(--dark-border);
+            border-top: 1px solid rgba(99, 102, 241, 0.2);
             font-size: 0.75rem;
-            color: var(--gray);
+            color: #94a3b8;
+        }
+        
+        .skill-meta span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
         }
         
         /* Empty State */
@@ -997,6 +1010,8 @@
             .batch-actions .btn { flex: 1; justify-content: center; }
         }
     </style>
+    <!-- Load dynamically generated skills data -->
+    <script src="assets/js/skills-data.js"></script>
 </head>
 <body>
     <!-- 背景效果 -->
@@ -1016,19 +1031,19 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>Awesome Skills</h1>
-        <p data-i18n="heroSubtitle">649+ expert skills. One command away.</p>
+        <p data-i18n="heroSubtitle">856+ expert skills. One command away.</p>
         
         <div class="stats">
             <div class="stat-card">
-                <div class="stat-value">649</div>
+                <div class="stat-value" id="skillCount">856</div>
                 <div class="stat-label" data-i18n="statSkills">Skills</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">70+</div>
+                <div class="stat-value" id="categoryCount">60</div>
                 <div class="stat-label" data-i18n="statIndustries">Industries</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">6.8</div>
+                <div class="stat-value" id="rating">8.2</div>
                 <div class="stat-label" data-i18n="statQuality">Quality</div>
             </div>
         </div>
@@ -1235,21 +1250,7 @@
                 <div class="filter-wrapper">
                     <select class="category-select" id="categorySelect">
                         <option value="all" data-i18n="categoryAll">All Categories</option>
-                        <option value="software" data-i18n="catSoftware">Software</option>
-                        <option value="ai-ml" data-i18n="catAiMl">AI & ML</option>
-                        <option value="creative" data-i18n="catCreative">Creative</option>
-                        <option value="business" data-i18n="catBusiness">Business</option>
-                        <option value="education" data-i18n="catEducation">Education</option>
-                        <option value="healthcare" data-i18n="catHealthcare">Healthcare</option>
-                        <option value="finance" data-i18n="catFinance">Finance</option>
-                        <option value="legal" data-i18n="catLegal">Legal</option>
-                        <option value="research" data-i18n="catResearch">Research</option>
-                        <option value="cybersecurity" data-i18n="catCybersecurity">Cybersecurity</option>
-                        <option value="content" data-i18n="catContent">Content</option>
-                        <option value="marketing" data-i18n="catMarketing">Marketing</option>
-                        <option value="product" data-i18n="catProduct">Product</option>
-                        <option value="data" data-i18n="catData">Data</option>
-                        <option value="engineering" data-i18n="catEngineering">Engineering</option>
+                        <!-- Categories will be populated dynamically -->
                     </select>
                 </div>
                 
@@ -1342,7 +1343,7 @@
             <span class="version-badge">v2.0.0</span>
             <span class="version-date" data-i18n="footerDate">Released March 22, 2026</span>
         </div>
-        <p data-i18n="footerText">649 Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License</p>
+        <p data-i18n="footerText">856 Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License</p>
         <p style="margin-top: 0.5rem;">
             <a href="./CATALOG.md">Catalog</a> &bull;
             <a href="./INSTALL-GUIDE.md">Install Guide</a> &bull;
@@ -1394,7 +1395,53 @@
             marketing: 'Marketing',
             product: 'Product',
             data: 'Data',
-            engineering: 'Engineering'
+            engineering: 'Engineering',
+            enterprise: 'Enterprise',
+            tools: 'Tools',
+            government: 'Government',
+            aerospace: 'Aerospace',
+            crafts: 'Crafts',
+            'public-service': 'Public Service',
+            'service-worker': 'Service Service',
+            manufacturing: 'Manufacturing',
+            media: 'Media',
+            energy: 'Energy',
+            entertainment: 'Entertainment',
+            realestate: 'Real Estate',
+            admin: 'Administration',
+            'construction-worker': 'Construction Worker',
+            automotive: 'Automotive',
+            freelancer: 'Freelancer',
+            agriculture: 'Agriculture',
+            'transport-worker': 'Transport Worker',
+            biotech: 'Biotechnology',
+            fintech: 'FinTech',
+            robotics: 'Robotics',
+            mining: 'Mining',
+            construction: 'Construction',
+            executive: 'Executive',
+            'factory-worker': 'Factory Worker',
+            materials: 'Materials',
+            'repair-worker': 'Repair Worker',
+            hr: 'Human Resources',
+            'it-support': 'IT Support',
+            quantum: 'Quantum Computing',
+            transportation: 'Transportation',
+            farmer: 'Farming',
+            retail: 'Retail',
+            environmental: 'Environmental',
+            telecom: 'Telecommunications',
+            tech: 'Technology',
+            hospitality: 'Hospitality',
+            logistics: 'Logistics',
+            services: 'Services',
+            ecommerce: 'E-Commerce',
+            meta: 'Meta',
+            semiconductor: 'Semiconductor',
+            blockchain: 'Blockchain',
+            medical: 'Medical',
+            international: 'International',
+            special: 'Special'
         };
         
         const categoriesZh = {
@@ -1412,14 +1459,60 @@
             marketing: '市场营销',
             product: '产品管理',
             data: '数据分析',
-            engineering: '工程技术'
+            engineering: '工程技术',
+            enterprise: '企业技能',
+            tools: '工具软件',
+            government: '政府公务',
+            aerospace: '航空航天',
+            crafts: '手工艺',
+            'public-service': '公共服务',
+            'service-worker': '服务业',
+            manufacturing: '制造业',
+            media: '媒体传播',
+            energy: '能源产业',
+            entertainment: '娱乐产业',
+            realestate: '房地产',
+            admin: '行政管理',
+            'construction-worker': '建筑工人',
+            automotive: '汽车工业',
+            freelancer: '自由职业',
+            agriculture: '农业',
+            'transport-worker': '运输工人',
+            biotech: '生物科技',
+            fintech: '金融科技',
+            robotics: '机器人',
+            mining: '采矿业',
+            construction: '建筑工程',
+            executive: '高管技能',
+            'factory-worker': '工厂工人',
+            materials: '材料科学',
+            'repair-worker': '维修工人',
+            hr: '人力资源',
+            'it-support': 'IT支持',
+            quantum: '量子计算',
+            transportation: '交通运输',
+            farmer: '农场经营',
+            retail: '零售业',
+            environmental: '环境保护',
+            telecom: '电信通信',
+            tech: '通用技术',
+            hospitality: '酒店餐饮',
+            logistics: '物流仓储',
+            services: '商业服务',
+            ecommerce: '电子商务',
+            meta: '元宇宙',
+            semiconductor: '半导体',
+            blockchain: '区块链',
+            medical: '医疗技术',
+            international: '国际贸易',
+            special: '特殊技能'
         };
         
         // 翻译数据
         const i18n = {
             zh: {
                 heroTitle: 'Awesome Skills',
-                heroSubtitle: '649+ 专家技能，一键安装。',
+                heroSubtitle: '856+ 专家技能，一键安装。',
                 browseBtn: '浏览技能',
                 starBtn: 'GitHub 星标',
                 statSkills: '技能',
@@ -1479,7 +1572,7 @@
             },
             en: {
                 heroTitle: 'Awesome Skills',
-                heroSubtitle: '649+ expert skills. One command away.',
+                heroSubtitle: '856+ expert skills. One command away.',
                 browseBtn: 'Browse Skills',
                 starBtn: 'Star on GitHub',
                 statSkills: 'Skills',
@@ -1609,10 +1702,11 @@
             
             const footerText = document.querySelector('[data-i18n="footerText"]');
             if (footerText) {
+                const totalSkills = heroStats ? heroStats.totalSkills : allSkills.length;
                 if (currentLang === 'zh') {
-                    footerText.innerHTML = '649 个专家技能由 <a href="https://github.com/theneoai">neo.ai</a> 精心策划 &bull; MIT 许可证';
+                    footerText.innerHTML = `${totalSkills} 个专家技能由 <a href="https://github.com/theneoai">neo.ai</a> 精心策划 &bull; MIT 许可证`;
                 } else {
-                    footerText.innerHTML = '649 Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License';
+                    footerText.innerHTML = `${totalSkills} Expert Skills curated by <a href="https://github.com/theneoai">neo.ai</a> &bull; MIT License`;
                 }
             }
             
@@ -1634,46 +1728,13 @@
             
             // Re-render skills to update category names and skill names
             renderSkills();
+            
+            // Re-populate category dropdown with new language
+            populateCategorySelect();
         }
         
-        const skillsData = [
-            { id: '1', name: 'Python Developer', nameZh: 'Python开发工程师', category: 'software', icon: '🐍', shortDesc: 'Expert Python programming', shortDescZh: 'Python专家级编程', fullDesc: 'Expert Python programming with best practices, design patterns, and modern tooling. Includes advanced topics like async programming, type hints, and testing strategies.', fullDescZh: '使用最佳实践、设计模式和现代工具进行Python专家级编程。包括异步编程、类型提示和测试策略等高级主题。', quality: 'expert', rating: 9.2, installs: '12.5k' },
-            { id: '2', name: 'React Specialist', nameZh: 'React专家', category: 'software', icon: '⚛️', shortDesc: 'Modern React development', shortDescZh: '现代React开发', fullDesc: 'Frontend development with React, hooks, context, and modern state management. Covers performance optimization, SSR, and testing best practices.', fullDescZh: '使用React、Hooks、Context和现代状态管理进行前端开发。涵盖性能优化、服务端渲染和测试最佳实践。', quality: 'expert', rating: 9.0, installs: '10.2k' },
-            { id: '3', name: 'Node.js Engineer', nameZh: 'Node.js工程师', category: 'software', icon: '🟢', shortDesc: 'Server-side JavaScript', shortDescZh: '服务端JavaScript开发', fullDesc: 'Server-side JavaScript development with Express, NestJS, and microservices. Includes API design, database integration, and deployment strategies.', fullDescZh: '使用Express、NestJS和微服务进行服务端JavaScript开发。包括API设计、数据库集成和部署策略。', quality: 'advanced', rating: 8.7, installs: '8.8k' },
-            { id: '4', name: 'Data Scientist', nameZh: '数据科学家', category: 'ai-ml', icon: '📊', shortDesc: 'Data analysis & ML', shortDescZh: '数据分析与机器学习', fullDesc: 'Data analysis, visualization, machine learning, and statistical modeling. Covers pandas, scikit-learn, and deep learning fundamentals.', fullDescZh: '数据分析、可视化、机器学习和统计建模。涵盖pandas、scikit-learn和深度学习基础。', quality: 'expert', rating: 9.1, installs: '15.3k' },
-            { id: '5', name: 'ML Engineer', nameZh: '机器学习工程师', category: 'ai-ml', icon: '🤖', shortDesc: 'ML pipelines & MLOps', shortDescZh: 'ML流水线与MLOps', fullDesc: 'Machine learning pipelines, model deployment, and MLOps best practices. Includes Docker, Kubernetes, and cloud deployment patterns.', fullDescZh: '机器学习流水线、模型部署和MLOps最佳实践。包括Docker、Kubernetes和云部署模式。', quality: 'expert', rating: 8.9, installs: '9.1k' },
-            { id: '6', name: 'UX Designer', nameZh: 'UX设计师', category: 'creative', icon: '🎨', shortDesc: 'User experience design', shortDescZh: '用户体验设计', fullDesc: 'User experience design, prototyping, usability testing, and design systems. Covers Figma, user research methods, and accessibility standards.', fullDescZh: '用户体验设计、原型制作、可用性测试和设计系统。涵盖Figma、用户研究方法和无障碍标准。', quality: 'advanced', rating: 8.5, installs: '7.2k' },
-            { id: '7', name: 'Product Manager', nameZh: '产品经理', category: 'product', icon: '📱', shortDesc: 'Product strategy', shortDescZh: '产品战略规划', fullDesc: 'Product strategy, roadmap planning, user research, and agile methodologies. Includes prioritization frameworks and stakeholder management.', fullDescZh: '产品战略、路线图规划、用户研究和敏捷方法论。包括优先级框架和利益相关者管理。', quality: 'expert', rating: 8.8, installs: '11.6k' },
-            { id: '8', name: 'DevOps Engineer', nameZh: 'DevOps工程师', category: 'engineering', icon: '🚀', shortDesc: 'CI/CD & Infrastructure', shortDescZh: 'CI/CD与基础设施', fullDesc: 'CI/CD pipelines, infrastructure as code, Kubernetes, and cloud platforms. Covers Terraform, Ansible, and monitoring solutions.', fullDescZh: 'CI/CD流水线、基础设施即代码、Kubernetes和云平台。涵盖Terraform、Ansible和监控解决方案。', quality: 'expert', rating: 9.3, installs: '13.8k' },
-            { id: '9', name: 'Security Analyst', nameZh: '安全分析师', category: 'cybersecurity', icon: '🔒', shortDesc: 'Security & Compliance', shortDescZh: '安全与合规', fullDesc: 'Security audits, penetration testing, compliance, and threat modeling. Includes OWASP, NIST framework, and incident response.', fullDescZh: '安全审计、渗透测试、合规性和威胁建模。包括OWASP、NIST框架和事件响应。', quality: 'advanced', rating: 8.6, installs: '6.4k' },
-            { id: '10', name: 'Content Strategist', nameZh: '内容策略师', category: 'content', icon: '✍️', shortDesc: 'Content planning', shortDescZh: '内容策划', fullDesc: 'Content planning, editorial calendars, SEO, and brand storytelling. Covers content audits, persona development, and distribution strategies.', fullDescZh: '内容规划、编辑日历、SEO和品牌故事讲述。涵盖内容审计、用户画像开发和分发策略。', quality: 'intermediate', rating: 7.9, installs: '4.8k' },
-            { id: '11', name: 'Financial Analyst', nameZh: '金融分析师', category: 'finance', icon: '💰', shortDesc: 'Financial modeling', shortDescZh: '金融建模分析', fullDesc: 'Financial modeling, valuation, investment analysis, and reporting. Covers Excel, Python for finance, and risk assessment techniques.', fullDescZh: '金融建模、估值、投资分析和报告。涵盖Excel、Python金融应用和风险评估技术。', quality: 'advanced', rating: 8.4, installs: '5.9k' },
-            { id: '12', name: 'Legal Researcher', nameZh: '法律研究员', category: 'legal', icon: '⚖️', shortDesc: 'Legal research', shortDescZh: '法律研究', fullDesc: 'Legal research, contract analysis, compliance, and case law review. Includes legal writing, due diligence, and regulatory research.', fullDescZh: '法律研究、合同分析、合规和判例法审查。包括法律写作、尽职调查和监管研究。', quality: 'expert', rating: 8.7, installs: '3.2k' },
-            { id: '13', name: 'Medical Researcher', nameZh: '医学研究员', category: 'healthcare', icon: '🏥', shortDesc: 'Clinical research', shortDescZh: '临床研究', fullDesc: 'Clinical research, literature review, and medical writing. Covers study design, statistical analysis, and publication standards.', fullDescZh: '临床研究、文献综述和医学写作。涵盖研究设计、统计分析和发表标准。', quality: 'expert', rating: 9.0, installs: '4.5k' },
-            { id: '14', name: 'Teacher Assistant', nameZh: '教学助理', category: 'education', icon: '📚', shortDesc: 'Education support', shortDescZh: '教育辅助支持', fullDesc: 'Educational content creation, curriculum design, and student support. Includes learning objectives, assessments, and differentiation strategies.', fullDescZh: '教育内容创作、课程设计和学生支持。包括学习目标、评估和差异化策略。', quality: 'intermediate', rating: 8.1, installs: '8.7k' },
-            { id: '15', name: 'Marketing Manager', nameZh: '营销经理', category: 'marketing', icon: '📢', shortDesc: 'Digital marketing', shortDescZh: '数字营销', fullDesc: 'Digital marketing, campaign management, analytics, and growth strategies. Covers SEO, SEM, social media, and marketing automation.', fullDescZh: '数字营销、活动管理、数据分析和增长策略。涵盖SEO、SEM、社交媒体和营销自动化。', quality: 'advanced', rating: 8.3, installs: '9.4k' },
-        ];
-        
-        // Generate more mock skills (45 more for demo)
-        for (let i = 16; i <= 60; i++) {
-            const categories = ['software', 'ai-ml', 'creative', 'business', 'education', 'healthcare', 'finance', 'legal', 'research', 'cybersecurity', 'content', 'marketing', 'product', 'data', 'engineering'];
-            const cat = categories[i % categories.length];
-            skillsData.push({
-                id: String(i),
-                name: `${cat} Expert ${i}`,
-                nameZh: `${cat}专家 ${i}`,
-                category: cat,
-                icon: ['🔧', '💡', '📈', '🎯', '🔨', '📐', '🔌', '🎭', '📺', '🔋', '🎮', '🚁', '🏢', '📋', '🤖'][i % 15],
-                shortDesc: 'Professional skill with best practices',
-                shortDescZh: '专业技能，最佳实践',
-                fullDesc: `Expert ${cat} skill with industry best practices and professional knowledge.`,
-                fullDescZh: `专业${cat}技能，包含行业最佳实践和专业知识。`,
-                quality: ['expert', 'advanced', 'intermediate'][i % 3],
-                rating: (7 + Math.random() * 2).toFixed(1),
-                installs: Math.floor(Math.random() * 15 + 1) + 'k'
-            });
-        }
-        
+        // Skills data will be loaded from assets/js/skills-data.js
+        // which defines: skillsData, heroStats
         let allSkills = [];
         let selectedSkills = new Set();
         let currentCategory = 'all';
@@ -1682,10 +1743,72 @@
         // Initialize
         async function init() {
             await new Promise(r => setTimeout(r, 600));
+            
+            // Use dynamically loaded skillsData from skills-data.js
+            // If skillsData is not available, show error
+            if (typeof skillsData === 'undefined') {
+                console.error('skillsData not loaded. Make sure assets/js/skills-data.js is loaded.');
+                document.getElementById('skillsGrid').innerHTML = 
+                    '<div style="text-align:center;padding:3rem;color:var(--text-secondary)">' +
+                    '<div style="font-size:3rem;margin-bottom:1rem">⚠️</div>' +
+                    '<div>Failed to load skills data. Please refresh the page.</div></div>';
+                return;
+            }
+            
             allSkills = skillsData;
+            
+            // Update hero stats if heroStats is available
+            if (typeof heroStats !== 'undefined') {
+                updateHeroStats(heroStats);
+            }
+            
+            // Populate category dropdown dynamically from actual skill data
+            populateCategorySelect();
+            
             updateTexts();
             renderSkills();
             setupEventListeners();
+        }
+        
+        // Update hero statistics from generated data
+        function updateHeroStats(stats) {
+            const skillCountEl = document.getElementById('skillCount');
+            const categoryCountEl = document.getElementById('categoryCount');
+            const ratingEl = document.getElementById('rating');
+            
+            if (skillCountEl) skillCountEl.textContent = stats.totalSkills;
+            if (categoryCountEl) categoryCountEl.textContent = stats.totalCategories;
+            if (ratingEl) ratingEl.textContent = stats.avgRating;
+        }
+        
+        // Populate category dropdown from actual skill data
+        function populateCategorySelect() {
+            const select = document.getElementById('categorySelect');
+            if (!select) return;
+            
+            // Get unique categories and sort by skill count
+            const categoryCounts = {};
+            allSkills.forEach(skill => {
+                categoryCounts[skill.category] = (categoryCounts[skill.category] || 0) + 1;
+            });
+            
+            const sortedCategories = Object.entries(categoryCounts)
+                .sort((a, b) => b[1] - a[1])
+                .map(([cat]) => cat);
+            
+            // Keep the "All Categories" option
+            const allOption = select.querySelector('option[value="all"]');
+            select.innerHTML = '';
+            select.appendChild(allOption);
+            
+            // Add category options
+            sortedCategories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                const catNames = currentLang === 'zh' ? categoriesZh : categories;
+                option.textContent = catNames[cat] || cat;
+                select.appendChild(option);
+            });
         }
         
         function setupEventListeners() {
@@ -1837,8 +1960,8 @@
         
         function generateCommand() {
             const selected = allSkills.filter(s => selectedSkills.has(s.id));
-            const commands = selected.map(s => 
-                `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/${s.category}/${s.name.toLowerCase().replace(/\s+/g, '-')}/SKILL.md and install`
+            const commands = selected.map(s => s.command || 
+                `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/${s.category}/${s.id}/SKILL.md and install ${s.id} skill`
             ).join('\n\n');
             
             document.getElementById('modalContent').textContent = commands || 'No skills selected';
