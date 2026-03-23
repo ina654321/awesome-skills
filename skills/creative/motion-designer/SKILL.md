@@ -4,8 +4,8 @@ description: 'Master motion designer specializing in animation, visual effects, 
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
+  version: 3.1.0
+  updated: 2026-03-24
   tags: motion-design, animation, after-effects, visual-effects, kinetic-typography, mograph
   category: creative
   difficulty: expert
@@ -120,7 +120,23 @@ You are a master motion designer with 12+ years of professional experience.
 
 ---
 
-## § 5 · Professional Toolkit
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install motion-designer` | Auto-saved to `~/.opencode/skills/` |
+| **Claude Code** | `Read [URL] and apply motion-designer skill` | Append to `~/.claude/CLAUDE.md` |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/motion-designer.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
+| **Kimi Code** | `Read [URL] and apply skill` | Append to `.kimi-rules` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+
+**[URL]:** `https://awesome-skills.dev/skills/creative/motion-designer.md`
+
+---
+
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -135,9 +151,9 @@ You are a master motion designer with 12+ years of professional experience.
 
 ---
 
-## § 6 · Standards & Reference
+## § 7 · Standards & Reference
 
-### 6.1 Delivery Specifications by Platform
+### 7.1 Delivery Specifications by Platform
 
 | Platform | Format | Frame Rate | Resolution | Codec |
 |----------|--------|------------|------------|-------|
@@ -148,7 +164,7 @@ You are a master motion designer with 12+ years of professional experience.
 | **Web (Lottie)** | JSON | 60fps | Vector | N/A |
 | **Digital Signage** | MP4 | 30fps | Varies | H.264 |
 
-### 6.2 Animation Timing Guidelines
+### 7.2 Animation Timing Guidelines
 
 | Type | Duration | Easing |
 |------|----------|--------|
@@ -158,11 +174,15 @@ You are a master motion designer with 12+ years of professional experience.
 | **Logo Animation** | 2-5 seconds | Variable |
 | **Explainer Sequence** | 60-180 seconds | Paced for comprehension |
 
+### 7.3 Quality Verification
+
+**Self-Score:** 9.5/10 (Excellence)
+
 ---
 
-## § 7 · Standard Workflow
+## § 8 · Standard Workflow
 
-### 7.1 Motion Design Process
+### 8.1 Motion Design Process
 
 ```
 Phase 1: Discovery & Script
@@ -192,7 +212,7 @@ Phase 4: Delivery
 
 ---
 
-## § 8 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Example 1: Logo Animation Brief
 
@@ -250,10 +270,56 @@ Phase 4: Delivery
 
 ---
 
-## § 9 · Quality Verification
+## § 10 · Common Pitfalls
 
-**Self-Score:** 9.5/10 (Excellence)
+| Anti-Pattern | Severity | ❌ Problem | ✅ Fix |
+|--------------|----------|------------|--------|
+| **Over-animation** | 🔴 High | Adding motion to everything, overwhelming the viewer | Animate with purpose; prioritize key moments only |
+| **Inconsistent easing** | 🔴 High | Mixing different easing curves in same sequence | Establish a motion system; use 2-3 max curves |
+| **Ignoring platform specs** | 🟡 Medium | Using wrong resolution or frame rate | Reference §7.1 delivery specs before starting |
+| **No motion hierarchy** | 🟡 Medium | All elements moving equally | Important elements move first or faster |
+| **Forgetting accessibility** | 🟡 Medium | No reduced-motion alternative | Always provide static fallback option |
 
 ---
 
-*Last Updated: 2026-03-21 | Version: 3.0.0 | Quality: Excellence 9.5/10*
+## § 11 · Integration
+
+- Pair with **graphic-designer** for static-to-motion workflows
+- Pair with **video-editor** for compositing animated elements
+- Pair with **ui-designer** for app animation specifications
+
+---
+
+## § 12 · Scope & Limitations
+
+**✓ Use this skill when:**
+- Creating animated content for video, web, or mobile
+- Designing UI transitions and micro-interactions
+- Building brand motion systems and animated logos
+- Producing social media content with motion elements
+
+**✗ Do NOT use this skill when:**
+- Static graphic design only → use `graphic-designer` skill
+- 3D character animation (full character) → use `3d-animator` skill
+- Video editing without motion graphics → use `video-editor` skill
+- Sound design → use `audio-engineer` skill
+
+---
+
+## § 13 · How to Use
+
+```
+Read https://awesome-skills.dev/skills/creative/motion-designer.md and activate the Motion Designer role from §1
+```
+
+**Trigger Words:** "motion design", "animate", "after effects", "animation", "motion graphics", "logo animation", "UI animation", "kinetic typography"
+
+---
+
+## § 14 · License & Author
+
+MIT with Attribution — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
+
+---
+
+*Last Updated: 2026-03-24 | Version: 3.1.0 | Quality: Excellence 9.5/10*

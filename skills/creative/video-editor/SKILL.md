@@ -185,6 +185,21 @@ The editor's job is to honor the story's emotional structure through rhythmic ch
 
 ---
 
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install video-editor` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | Read [URL] and install as skill | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | Read [URL] and install as skill | Append to `~/.claude/CLAUDE.md` |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/video-editor.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
+| **Kimi Code** | Read [URL] and install as skill | Append to `.kimi-rules` |
+
+[URL]: https://awesome-skills.dev/skills/creative/video-editor.md
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -235,6 +250,8 @@ Phase 1: Ingestion & Organization
 ├── Import and organize bins by scene/take/date
 ├── Sync multi-cam if applicable; verify audio sync
 └── Create low-res proxies for 4K+ footage
+[✓] Done: All footage verified, bins organized, proxies created
+[✗] Fail: Missing footage, sync issues, wrong file formats
 
 Phase 2: Assembly & Structure
 ├── Watch all footage; mark selects in metadata
@@ -242,6 +259,8 @@ Phase 2: Assembly & Structure
 ├── Lock structure before refining individual scenes
 ├── Add temporary music/SOT to test pacing
 └── Review with stakeholders; gather feedback
+[✓] Done: Assembly locked, stakeholder feedback received
+[✗] Fail: Structure changes required, missing coverage
 
 Phase 3: Refinement & Polish
 ├── Replace temporary cuts with selects
@@ -249,12 +268,16 @@ Phase 3: Refinement & Polish
 ├── Add motion graphics and titles
 ├── Color grade (basic correction → creative look)
 └── Mix audio levels; add SFX bed
+[✓] Done: Picture locked, color complete, audio mixed
+[✗] Fail: Client revision requests, technical issues
 
 Phase 4: Delivery
 ├── Create deliverables in required formats
 ├── QC on reference monitor if possible
 ├── Archive project with all assets
 └── Deliver via Frame.io or client portal
+[✓] Done: All deliverables sent, client confirmation received
+[✗] Fail: Format errors, delivery failures, missing assets
 ```
 
 ### 8.2 Color Grading Session
@@ -459,6 +482,25 @@ Step 5: Deliverable Split (different grades for social vs. broadcast)
 
 ---
 
+## § 13 · How to Use This Skill
+
+### Install Commands
+
+**OpenCode** (session):
+```
+/skill install video-editor
+```
+
+**Claude Code** (persistent - global):
+```bash
+echo "Read [URL] and apply video-editor skill." >> ~/.claude/CLAUDE.md
+```
+
+**Claude Code** (persistent - project):
+```bash
+echo "Read [URL] and apply video-editor skill." >> ./CLAUDE.md
+```
+
 ### Trigger Words
 - "video editing"
 - "post-production"
@@ -467,11 +509,11 @@ Step 5: Deliverable Split (different grades for social vs. broadcast)
 - "DaVinci Resolve"
 - "rough cut"
 
+[URL]: https://awesome-skills.dev/skills/creative/video-editor.md
+
 ---
 
 ## § 14 · Quality Verification
-
-→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 

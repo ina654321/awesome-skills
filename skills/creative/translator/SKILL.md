@@ -12,7 +12,7 @@ metadata:
     multilingual, CAT-tools, MTPE, transcreation, ISO-17100, glossary, language-pairs]'
   category: creative
   difficulty: expert
-  score: 7.9/10
+  score: 8.5/10
   quality: standard
   text_score: 8.5
   runtime_score: 7.3
@@ -261,288 +261,61 @@ openclaw skill translator
 
 ---
 
-## § 8 · Workflow
+## § 8 — Translation Workflow
 
-### Phase 1: Discovery & Assessment
+### Phase 1: Source Analysis (5 minutes)
+- **Domain identification:** Technical / Legal / Medical / Literary / Marketing / Software
+- **Register determination:** Formal-legal / Technical / Neutral-informational / Colloquial / Creative-literary
+- **Audience mapping:** Expert professional / Informed layperson / General public
+- **Cultural delta flagging:** idioms, units of measurement, date/number formats, cultural references
+- **Stakes assessment:** Safety-critical → dual review required; Commercial → cultural review; General → standard self-review
 
-**Objective:** Fully understand the problem context and requirements.
+### Phase 2: Preparation (10-30 minutes)
+- Extract terminology from source text
+- Build or consult domain-specific glossary
+- Review client style guide (if provided)
+- Check translation memory for previous matches and context
 
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
+### Phase 3: Translation & Consistency (Variable duration)
+- Translate segment-by-segment using glossary
+- Apply consistent terminology throughout all segments
+- Add translator's notes for non-obvious choices
+- Flag cultural adaptations for client approval
 
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
+### Phase 4: Self-Review (10-15% of translation time)
+- Read completed translation as target-language reader, NOT as translator
+- Check for natural flow and readability in target language
+- Verify all domain terms used consistently
+- Run back-translation check on high-stakes segments
 
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
+### Phase 5: QA Validation
+- Run QA tool check (xBench, QA Distiller, Verifika): consistency, numbers, tags, omissions
+- Verify locale-specific formatting (dates, numbers, currency, units)
+- Confirm file format integrity (XLIFF, PO, JSON, Android/iOS structure)
 
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
-
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
-
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
-
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
-
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
+### Phase 6: Delivery
+- Deliver in requested format with locale code confirmed
+- Include translator's notes and glossary updates
+- Document any unresolved ambiguities requiring client input
 
 **✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
-
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
-
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
+- [ ] Domain and register explicitly identified and documented
+- [ ] Glossary consulted or built for all key domain terms
+- [ ] Cultural adaptations flagged with rationale in translator's notes
+- [ ] Self-review completed: read as target reader, not as translator
+- [ ] QA tool check passed: zero consistency errors, tag errors, number mismatches
+- [ ] Back-translation completed for 10% sample (high-stakes content only)
+- [ ] Translation memory updated with final approved segments
 
 ---
 
-## § 9 · Scenario Examples
+## § 9 — Scenario Examples
 
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client or stakeholder needs expert guidance on a translator matter.
-
-**User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
-
-**Expert Response:**
-Welcome! I'm here to help you navigate this translator challenge effectively. Let me start by understanding your situation better.
-
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
-
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
-
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
-
----
-
-### Scenario 2: Complex Problem Solving
-
-**Context:**
-An urgent, complex translator issue requires immediate expert intervention.
-
-**User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
-
-**Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
-
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [Critical/High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
-
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
-
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
-
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Long-term translator strategy development for sustained excellence.
-
-**User Input:**
-"We want to build world-class capability in translator. What's our roadmap?"
-
-**Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
-
-**Phase 1: Foundation (Months 1-3)**
-```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
-
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
-
-Milestone: Foundation Report + Quick Win Implementation
-```
-
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
-
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
-```
-
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
-
----
-
-### Scenario 4: Quality Assurance & Review
-
-**Context:**
-Project or deliverable requires quality verification and optimization.
-
-**User Input:**
-"Can you review our [deliverable] and help us improve quality before final delivery?"
-
-**Expert Response:**
-Absolutely. Let me conduct a comprehensive quality review using established frameworks.
-
-**1. Quality Checklist:**
-- [ ] Requirements alignment verified
-- [ ] Standards compliance confirmed
-- [ ] Best practices applied
-- [ ] Edge cases considered
-- [ ] Documentation complete
-
-**2. Gap Analysis:**
-| Aspect | Current | Target | Gap | Priority |
-|--------|---------|--------|-----|----------|
-| Completeness | 80% | 100% | 20% | High |
-| Accuracy | 90% | 100% | 10% | High |
-| Usability | 70% | 95% | 25% | Medium |
-
-**3. Improvement Plan:**
-- **Immediate fixes** (Today): [List]
-- **Short-term** (This week): [List]
-- **Long-term** (Next month): [List]
-
-**4. Final Validation:**
-Before sign-off, ensure:
-- ✓ All acceptance criteria met
-- ✓ Stakeholder approval obtained
-- ✓ Handover documentation ready
+→ See [references/scenario-examples.md](./references/scenario-examples.md) — 4 complete translation scenarios:
+- Technical Manual (EN→DE): Safety-critical industrial translation
+- Marketing Transcreation (EN→ZH): Cultural adaptation for taglines
+- Legal Clause (EN→FR): Civil law jurisdiction considerations
+- MTPE Assessment (EN→ES): Machine translation post-editing workflow
 
 ---
 
@@ -706,6 +479,7 @@ Here is the source text: [text]"
 | 1.0.0 | 2024-01-01 | Initial release — basic translation skill with 8 sections |
 | 2.0.0 | 2026-02-28 | Major rewrite — added ISO standards, register taxonomy, localization scope levels, transcreation examples, QA tools, MTPE workflow |
 | 3.0.0 | 2026-03-11 | Exemplary upgrade — full 16-section structure; added MTPE assessment workflow, text expansion budget table, 4 full scenario examples, 7 anti-patterns with BAD/GOOD examples, 3 integration workflows, PCAOB-level QA checklist, locale formatting pitfall, back-translation test case; upgraded to v3.0.0 Expert Verified |
+| 3.1.0 | 2026-03-24 | Skill-writer review: replaced generic workflow with translation-specific workflow; reduced body to 500 lines; removed orphaned sections; standardized section numbering; updated score to 8.5/10 |
 
 ---
 
@@ -723,45 +497,3 @@ Here is the source text: [text]"
 | Platforms | opencode, openclaw, claude, cursor, codex, cline, kimi |
 
 MIT License — Permission is granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this skill definition, subject to the above attribution being preserved.
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials

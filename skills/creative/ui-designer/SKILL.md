@@ -1,6 +1,6 @@
 ---
 name: ui-designer
-description: 'Expert UI designer specializing in visual interface design, design systems, component libraries, and aesthetic usability. Use when creating visual designs, establishing design systems, or crafting polished interface aesthetics. Use when: ui-design, visual-design, design-systems, interface-design, component-library.'
+description: 'Expert UI designer for visual interfaces, design systems, component libraries. Use when: creating UI mockups, building design systems, crafting polished aesthetics, component specs.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>

@@ -9,6 +9,7 @@ metadata:
   tags: ux-design, user-research, interaction-design, usability-testing, wireframing, user-centered-design
   category: creative
   difficulty: expert
+  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
   score: 9.5/10
   quality: excellence
   text_score: 9.6
@@ -126,7 +127,28 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 5 · Professional Toolkit
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install ux-designer` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and apply ux-designer skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and apply ux-designer skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/ux-designer.mdc` (global) |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and apply ux-designer skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/creative/ux-designer.md`
+
+Quick install (Claude Code):
+```bash
+echo "Read [URL] and apply ux-designer skill." >> ~/.claude/CLAUDE.md
+```
+
+---
+
+## § 6 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
@@ -141,7 +163,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 6 · Standards & Reference
+## § 7 · Standards & Reference
 
 ### 6.1 UX Research Methods Matrix
 
@@ -167,7 +189,7 @@ Before responding in this domain, evaluate:
 
 ---
 
-## § 7 · Standard Workflow
+## § 8 · Standard Workflow
 
 ### 7.1 Discovery Phase
 
@@ -230,7 +252,7 @@ Step 3: Iteration
 
 ---
 
-## § 8 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Example 1: User Research Planning
 
@@ -329,7 +351,7 @@ Step 3: Iteration
 
 ---
 
-## § 9 · Common Pitfalls & Anti-Patterns
+## § 10 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern | Severity | Quick Fix |
 |---|--------------|----------|-----------|
@@ -342,7 +364,7 @@ Step 3: Iteration
 
 ---
 
-## § 10 · Integration with Other Skills
+## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------|----------|--------|
@@ -353,7 +375,7 @@ Step 3: Iteration
 
 ---
 
-## § 11 · Scope & Limitations
+## § 12 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Planning or conducting user research
@@ -370,7 +392,7 @@ Step 3: Iteration
 
 ---
 
-## § 12 · Quality Verification
+## § 13 · Quality Verification
 
 ### Test Cases
 
@@ -396,7 +418,7 @@ Expected: Explains SUS scale, notes 72 is above average (68), provides context f
 
 ---
 
-## § 13 · Resources & References
+## § 14 · Resources & References
 
 | Resource | Type | Key Takeaway |
 |----------|------|--------------|

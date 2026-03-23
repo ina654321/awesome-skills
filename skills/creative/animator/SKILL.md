@@ -8,11 +8,11 @@ license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
-  updated: 2026-03-21
+  updated: 2026-03-24
   tags: animation, motion-graphics, visual-effects, 2d-animation, 3d-animation, character-animation
   category: creative
   difficulty: intermediate
-  score: 9.5/10
+  score: 8.25/10
   quality: production
   text_score: 9.0
   runtime_score: 7.1
@@ -199,6 +199,15 @@ Strong pre-production prevents rework: storyboard first, animate in blocking bef
 
 ---
 
+## § 5 · How to Use This Skill
+
+1. **Activate** when you need animation expertise — specify style (2D/3D/hybrid), purpose (entertainment/explainer/commercial)
+2. **Provide context** — software available, timeline, output format, target audience
+3. **Reference first** — best results come from studying real movement; provide reference video when possible
+4. **Iterate properly** — blocking → splining → polish; don't skip stages
+5. **Test silhouettes** — verify pose readability at thumbnail size before refining
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -236,112 +245,98 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
+### Scenario 1: Walk Cycle Feedback
 
 **Context:**
-A new client needs expert guidance on animator.
+Animator requests feedback on a character run cycle that feels "too floaty."
 
 **User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
+"Review my character's run cycle — the body feels too floaty and lacks weight."
 
 **Expert Response:**
-Welcome! Let me help you navigate this challenge.
+**Key Observations:**
 
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
+1. **Anticipation phase too short** → Add 2-3 frames of wind-up before forward motion; currently only 1 frame
+2. **Vertical bounce insufficient** → Passing poses need more vertical displacement; aim for 1.5x current amplitude
+3. **Arms not opposing** → Add counter-swing to match leg motion; left arm forward when right leg contacts
+4. **Contact pose lacks "strike"** → Push silhouette further; extreme poses read better at distance
+5. **Recovery too smooth** → Add settle/dampen after contact; real runs have impact absorption
 
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
+**Frame-by-Frame Notes:**
+- Frame 8: Anticipation peak — add more crouch
+- Frame 12: Contact — push chest forward, snap pose
+- Frame 24: Passing — highest point, show weight shift
 
 ---
 
-### Scenario 2: Problem Resolution
+### Scenario 2: Lip Sync Correction
 
 **Context:**
-Urgent animator issue requires immediate attention.
+Dialogue animation has timing misalignment with audio.
 
 **User Input:**
-"Critical situation: [problem]. Need fast solution!"
+"The character's mouth movements don't match the audio — some phonemes are late."
 
 **Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
+**Diagnosis:**
 
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
+| Issue | Frame Offset | Fix |
+|-------|--------------|-----|
+| /B/ /P/ onset | +3 frames | Move key earlier |
+| /S/ /SH/ duration | +6 frames | Extend hold |
+| /AO/ peak | +2 frames | Align with audio wave |
 
-**Recommendation:** [Best option with rationale]
+**Solution Steps:**
+1. Use phoneme reference chart (23 shapes minimum)
+2. Sync "closed" frames to audio silence/breathe points
+3. Overlap adjacent phonemes by 1-2 frames for fluidity
+4. Test with audio playing at 0.5x speed for precision
 
 ---
 
-### Scenario 3: Strategic Planning
+### Scenario 3: Action Blocking Approval
 
 **Context:**
-Build long-term animator capability.
+Director needs to approve animation blocking before spline phase.
 
 **User Input:**
-"How do we become world-class in this area?"
+"Review the fight scene blocking — is the timing right before we proceed to spline?"
 
 **Expert Response:**
-**18-Month Roadmap:**
+**Blocking Assessment:**
 
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
+| Pose | Timing | Clarity | Approval |
+|------|--------|---------|----------|
+| Punch wind-up | 12 frames | Clear wind-up | ✓ |
+| Contact | 4 frames (too fast) | Too quick to read | Revise |
+| Recovery | 8 frames | Good weight | ✓ |
+| Dodge | 6 frames | Clear anticipation | ✓ |
 
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
+**Recommendation:**
+- Slow contact pose to 8 frames minimum
+- Add 2-frame breakdown between wind-up and contact
+- Approved for spline with noted revisions
 
 ---
 
-### Scenario 4: Quality Review
+### Scenario 4: Motion Graphics Style Frame Selection
 
 **Context:**
-Deliverable requires quality verification.
+Client needs to choose between style frame options for explainer video.
 
 **User Input:**
-"Can you review [deliverable] before final delivery?"
+"We have 3 style frames — which direction best fits our tech startup brand?"
 
 **Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
+**Style Frame Analysis:**
 
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
+| Frame | Strengths | Weaknesses | Best For |
+|-------|-----------|------------|----------|
+| A: Geometric | Modern, clean | Too minimal | B2B |
+| B: Illustrated | Warm, friendly | Less scalable | Consumer |
+| C: 3D Product | Premium, showcase | Higher render cost | Product demo |
 
-**Validation:** ✓ Ready for delivery
+**Recommendation:** Frame B — illustrated style aligns with "friendly innovation" brand positioning. Can evolve to include subtle 3D elements in Phase 2.
 
 ---
 
@@ -384,11 +379,14 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 ---
 
 ### Trigger Words
-- "animation"
-- "motion graphics"
-- "character rig"
+- "2D animation"
+- "3D animation"
 - "walk cycle"
+- "run cycle"
+- "lip sync"
 - "animation principles"
+- "motion graphics"
+- "animation timing"
 
 ---
 
@@ -416,7 +414,7 @@ Input: "Review an animation of a character jumping and provide feedback"
 Expected: Specific, actionable feedback on what's working, what's not, and how to fix it
 ```
 
-**Self-Score:** 9.5/10 — Exemplary ⭐⭐ — Justification: Full 16-section structure, domain-specific frameworks (12 principles, character animation pipeline), detailed scenario examples with technical specs, anti-patterns with fixes.
+**Self-Score:** 8.25/10 — Expert ⭐ — Justification: Strong 16-section structure, domain-specific frameworks (12 principles, animation pipeline), detailed scenario examples with technical specs, anti-patterns with fixes. Minor gap: scenario examples lacked animation-specific context (now fixed).
 
 ---
 ## § 16 · Domain Deep Dive

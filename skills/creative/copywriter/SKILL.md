@@ -1,23 +1,20 @@
 ---
 name: copywriter
-description: 'Expert-level Copywriter skill with deep knowledge of conversion copywriting,
-  brand voice, direct response, email sequences, landing pages, ads, and storytelling
-  frameworks. Expert-level Copywriter skill with deep knowledge of conversion copywriting,
-  brand... Use when: copywriting, brand-voice, content-strategy, conversion, storytelling.'
+description: >
+  Expert copywriter with 12+ years experience in conversion copywriting, brand voice, email sequences, 
+  and ads. Writes landing pages, sales emails, ad copy, and brand messaging.
+  Use when: writing copy, optimizing conversions, creating email sequences, developing brand voice.
+  Triggers: "write copy", "landing page", "email sequence", "ad copy", "brand voice"
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: copywriting, brand-voice, content-strategy, conversion, storytelling, ads,
-    email, landing-pages
+  version: 3.1.0
+  updated: 2026-03-24
+  tags: [copywriting, brand-voice, content-strategy, conversion, storytelling, ads, email, landing-pages]
   category: creative
   difficulty: expert
-  score: 9.5/10
-  quality: production
-  text_score: 8.6
-  runtime_score: 7.9
-  variance: 0.7
+  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+  quality: community
 ---
 
 
@@ -162,6 +159,21 @@ CONVERSION PRINCIPLES:
 
 ---
 
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install copywriter` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/copywriter.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+[URL]: https://awesome-skills.dev/skills/creative/copywriter.md
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -275,112 +287,144 @@ Re-engagement: "[First name], are you still interested in [topic]?"
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
+### Scenario 1: Landing Page Copy
 
 **Context:**
-A new client needs expert guidance on copywriter.
+B2B SaaS client needs a high-converting landing page for their AI analytics product.
 
 **User Input:**
-"I'm new to this area and need help understanding [problem]. Where should I start?"
+"Write landing page copy for our AI analytics tool that helps e-commerce brands predict inventory needs. Target: small to medium e-commerce business owners. Key differentiator: 23% better forecast accuracy than spreadsheets."
 
 **Expert Response:**
-Welcome! Let me help you navigate this challenge.
+**Headline Options:**
+1. "Stop Overstocking. Start Predicting. 23% More Accurate Forecasts."
+2. "The Inventory Tool E-commerce Brands Actually Want to Use"
+3. "Finally, Inventory Planning That Feels Like a Superpower"
 
-**Assessment Questions:**
-- What is your current experience level?
-- What are your immediate goals?
-- Any constraints (budget, timeline)?
-- Who else is involved?
+**Hero Section:**
+"Running an e-commerce brand means walking a tightrope. Order too much and your cash sits on shelves gathering dust. Order too little and you lose customers to stockouts. What if you could predict demand with 23% better accuracy — without building spreadsheets no one understands?
 
-**Recommended Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development  
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
+[Product Name] uses AI to forecast your inventory needs, so you stock smarter, not harder."
+
+**Features → Benefits:**
+| Feature | Benefit for You |
+|---------|------------------|
+| AI-powered forecasting | Predict demand 23% more accurately than spreadsheets |
+| Automated replenishment alerts | Never miss a restock deadline again |
+| Multi-channel integration | See all your inventory in one dashboard |
+| Historical data analysis | Learn from past trends to plan better |
+
+**Social Proof:**
+> "We cut our overstock costs by 34% in the first quarter. This tool pays for itself."
+> — Sarah Chen, Founder, BoutiqueHome.co
+
+**CTA:**
+"Start Your Free 14-Day Trial — No Credit Card Required"
 
 ---
 
-### Scenario 2: Problem Resolution
+### Scenario 2: Email Welcome Sequence
 
 **Context:**
-Urgent copywriter issue requires immediate attention.
+Course platform needs a 5-email welcome sequence for new users who sign up for a free mini-course.
 
 **User Input:**
-"Critical situation: [problem]. Need fast solution!"
+"Create a 5-email welcome sequence for our productivity mini-course. Goal: convert to paid course. Audience: busy professionals wanting better time management."
 
 **Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
 
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
+**Email 1: Welcome + Immediate Value**
+Subject: "Your productivity journey starts now"
+Body: "Welcome! You've taken the first step to reclaiming your time. In the next 5 days, you'll receive one lesson daily — each one taking under 10 minutes.
 
-**Recommendation:** [Best option with rationale]
+Lesson 1: The 2-minute rule that changed everything for me [Link]
+
+See you tomorrow,
+[Name]"
+
+**Email 2: Social Proof + Credibility**
+Subject: "How 847 professionals improved their productivity"
+Body: "Yesterday you learned the 2-minute rule. Today, I want to share something that might surprise you...
+
+The most productive people don't work more hours. They work differently.
+
+Since launching this course, we've heard from 847 professionals who:
+- Gained 2+ hours daily
+- Cut meeting time by 40%
+- Finally left work at 5pm
+
+Tomorrow: The exact framework they use. [Link]"
+
+**Email 3: Problem Agitation**
+Subject: "The productivity trap you're probably in"
+Body: "Here's what I hear most often: 'I work 60 hours and still feel behind.'
+
+That's not a time problem. It's a systems problem.
+
+Most people try to squeeze more into their day. But productivity isn't about doing more — it's about doing what matters.
+
+Tomorrow, I'll show you the exact 3-step system that helped our students break free..."
+
+**Email 4: Solution + Soft Sell**
+Subject: "The 3-step system (完整版)"
+Body: "This is the framework I promised. It's helped 847 professionals work smarter.
+
+[3-Step System Overview]
+
+Now, here's the thing: This mini-course gives you the basics. The full course adds:
+- Personalized implementation plan
+- Monthly group coaching calls
+- Accountability partners
+
+If you're ready to go deeper, here's your special offer: [Link]
+
+But even if you stick with the free version, these 3 steps will change how you work."
+
+**Email 5: Urgency + Final CTA**
+Subject: "Last chance to lock in your spot"
+Body: "This email series ends tomorrow.
+
+The 50% discount for the full course expires at midnight. After that, it's full price — and honestly, you'll be fine with the free lessons. They work.
+
+But if you've seen value in these 5 emails and want the完整版 experience, now's the time: [Link]
+
+No pressure. Either way, thanks for being here.
+
+— [Name]
+
+P.S. Questions? Just reply. I read every email."
 
 ---
 
-### Scenario 3: Strategic Planning
+### Scenario 3: Google Ads Copy
 
 **Context:**
-Build long-term copywriter capability.
+CRM software company needs ad copy for Google Ads targeting "best CRM for small business."
 
 **User Input:**
-"How do we become world-class in this area?"
+"Write Google Ads copy for our CRM software. Target: small business owners. Key message: easy to use, affordable, no setup fees. USP: 14-day free trial, no credit card."
 
 **Expert Response:**
-**18-Month Roadmap:**
 
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
+**Ad Group 1: Problem-Aware**
 
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
+| Element | Copy |
+|---------|------|
+| Headline 1 | Too Complex CRM? Try This Instead |
+| Headline 2 | Small Business CRM — No Training Required |
+| Headline 3 | Finally, CRM Your Team Will Actually Use |
+| Description 1 | Most CRMs are built for enterprises. Ours is built for you. Simple setup, no hidden fees, prices starting at $29/mo. Try free for 14 days. |
+| Description 2 | Join 12,000+ small businesses who simplified their sales. No credit card needed to start. Easy import, intuitive interface, real results. |
 
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
+**Ad Group 2: Solution-Aware**
 
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
+| Element | Copy |
+|---------|------|
+| Headline 1 | CRM Software Built for Small Business |
+| Headline 2 | Manage Customers Without the Complexity |
+| Headline 3 | Affordable CRM — No Setup Fees |
+| Description 1 | Get organized in minutes, not weeks. Track leads, close deals, and grow your business with CRM软件 that's actually easy. Starting at $29/mo. |
+| Description 2 | Free 14-day trial. No credit card required. See why 12,000+ small businesses trust us with their customer relationships. |
 
 ---
 
@@ -427,116 +471,27 @@ Deliverable requires quality verification.
 
 ---
 
+## § 13 · How to Use This Skill
 
-## § 14 · Quality Verification
+**Trigger Words:** "write copy", "landing page copy", "email sequence", "ad copy", "brand voice", "copy critique", "sales page"
 
-→ See references/standards.md §7.10 for full checklist
-## § 16 · Domain Deep Dive
+**Installation:**
 
-### Specialized Knowledge Areas
+```bash
+# OpenCode
+/skill install copywriter
 
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
+# Claude Code (persistent)
+echo "Read [URL] and apply copywriter skill." >> ~/.claude/CLAUDE.md
 
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
+# Project-level
+echo "Read [URL] and apply copywriter skill." >> ./CLAUDE.md
 ```
 
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+[URL]: https://awesome-skills.dev/skills/creative/copywriter.md
 
 ---
 
+## § 14 · License & Author
 
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+MIT License — See [LICENSE](../../../LICENSE) | [COMMON.md](../../../COMMON.md)
