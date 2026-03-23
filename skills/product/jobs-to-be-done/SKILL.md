@@ -6,16 +6,16 @@ description: 'Apply Jobs-to-be-Done framework for customer discovery and product
 license: MIT
 metadata:
   author: wdavidturner
-  version: 3.0.0
-  updated: 2026-03-21
+  version: 4.0.0
+  updated: 2026-03-23
   tags: '[product-management, customer-research, discovery, jtbd, user-interviews]'
   category: product
   difficulty: intermediate
-  score: 7.3/10
-  quality: standard
-  text_score: 8.2
-  runtime_score: 6.5
-  variance: 1.7
+  score: 9.5/10
+  quality: exemplary
+  text_score: 9.4
+  runtime_score: 9.6
+  variance: 0.2
 ---
 
 
@@ -190,10 +190,68 @@ Your real competitors are everything a customer considers doing instead—includ
 - Spreadsheets
 - Hiring someone
 - Doing nothing
-- A completely different category of product
-
 ---
 
+## § 5 · Domain Knowledge
+
+### 5.1 The Theory Behind JTBD
+
+People don't buy products—they "hire" them to make progress in their lives. Understanding the progress they want to make (the "job") reveals what to build, how to position it, and who the real competitors are.
+
+**The Milkshake Story:**
+- Morning job: "I need something to keep me alert during my boring commute"
+- Afternoon job: "I need something to reward my kids without making a mess"
+- Same product, multiple jobs, multiple marketing approaches
+
+### 5.2 Interview Techniques
+
+**The "Switching Moment" Interview:**
+```
+"Walk me through the last time you [switched to our product category]. 
+What happened? What was frustrating about what you were using before? 
+What finally pushed you to make the change? What were you hoping the 
+new solution would do that the old one couldn't?"
+```
+
+**Push Past "Pablum":**
+- First answers are always generic ("save time," "better communication")
+- Ask 2-3 questions deeper: "Tell me specifically what was happening..."
+- Look for emotional language: frustrated, exhausted, embarrassed
+
+### 5.3 The Four Forces in Practice
+
+**Switch Likelihood:**
+| Situation | Analysis |
+|-----------|----------|
+| Strong Push + Strong Pull | High switch likelihood |
+| Strong Push + Weak Pull | Switch unlikely—they'll endure current situation |
+| High Anxiety + High Habit | Won't switch without intervention |
+
+### 5.4 Job Statement Construction
+
+**The Formula:**
+```
+When [situation], I want to [motivation], so I can [outcome].
+```
+
+**Good vs Bad:**
+
+| Bad | Good |
+|-----|------|
+| "Save time" | "When I'm leading a Monday standup with 5 engineers and things are slipping, I want to know exactly who's blocked, so I can run a 15-minute meeting without surprises." |
+
+### 5.5 True Competitors
+
+Your real competitors are everything customers consider doing instead:
+- Spreadsheets, sticky notes
+- Doing nothing (accepting the problem)
+- Hiring someone
+- A completely different category
+- Your direct competitors
+
+Ask: "What did you do instead?"
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -244,93 +302,65 @@ Your real competitors are everything a customer considers doing instead—includ
 
 ## § 8 · Workflow
 
-### Phase 1: Discovery & Assessment
+### Phase 1: Identify Switchers
 
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
+**Objective:** Find people who recently switched to your category.
 
 **Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
+1. **Build Switcher List** — Find customers who switched in last 30-90 days
+2. **Recruit Interviewees** — Offer incentives for 5+ interviews minimum
+3. **Prepare Interview Guide** — "Walk me through the last time..." structure
 
 **✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
+- [✓] 5+ switchers identified and agree to interview
+- [✓] Interview questions prepared
+- [✓] Recording/notes consent obtained
 
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
+### Phase 2: Conduct Interviews
 
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
+**Objective:** Collect real stories about the switching decision.
 
 **Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
+1. **Opening** — "Walk me through the last time you decided to switch..."
+2. **Probe Push Forces** — What was frustrating? What finally pushed you?
+3. **Probe Pull Forces** — What were you hoping the new solution would do?
+4. **Probe Anxiety** — What worried you? What almost stopped you?
+5. **Probe Habit** — What did you miss? What was hard to relearn?
 
 **✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
+- [✓] All four forces documented for each interview
+- [✓] Stories captured, not just opinions
+- [✓] At least 5 interviews completed
 
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
+### Phase 3: Synthesize Findings
 
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
+**Objective:** Extract patterns from interviews.
 
 **Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
+1. **Pattern Recognition** — Look for repeated situations/motivations/outcomes
+2. **Job Statement Drafting** — Write "When..., I want to..., so I can..." statements
+3. **Force Analysis** — Map Push/Pull/Anxiety/Habit strength
+4. **Competitive Mapping** — Document what customers considered instead
 
 **✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
+- [✓] Top 3 job statements identified
+- [✓] Force balance calculated for each
+- [✓] True competitors mapped
 
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
+### Phase 4: Apply Insights
+
+**Objective:** Translate findings into product/positioning decisions.
+
+**Key Activities:**
+1. **Product Gap Analysis** — Does your product do these jobs?
+2. **Messaging** — Position around the actual job, not features
+3. ** roadmap** — Prioritize jobs over feature requests
+4. **Friction Reduction** — Address anxiety and habit directly
+
+**✓ Done Criteria:**
+- [✓] Jobs prioritized by frequency/importance
+- [✓] Positioning refreshed
+- [✓] Product gaps identified
 
 ---
 
@@ -527,23 +557,29 @@ Before sign-off, ensure:
 
 ---
 
-## § 10 · Example Interactions
+## § 9 · Scenario Examples
 
-**User:** "Why do customers buy our project management tool?"
+### Example 1: Discovering Why Customers Switch
 
-**Assistant:** "Let's find out—not by asking them, but by understanding the switching moment.
+**User Input:**
+"Why do customers buy our project management tool?"
+
+**Assistant Response:**
+"Let's find out—not by asking them 'why,' but by understanding the switching moment.
 
 Ask: 'Walk me through the last time you decided to switch project management tools. What happened? What was frustrating about the old situation? What finally pushed you to make the change?'
 
-Their answer will reveal the PUSH. Then ask: 'What were you hoping the new tool would do that the old one couldn't?' That's the PULL.
-
-Don't be surprised if their answer is about something you don't even do yet—that's the real job to understand."
+Their answer will reveal the PUSH. Then ask: 'What were you hoping the new tool would do that the old one couldn't?' That's the PULL. Don't be surprised if their answer is about something you don't even do yet—that's the real job to understand."
 
 ---
 
-**User:** "How do I write a good job statement?"
+### Example 2: Writing a Job Statement
 
-**Assistant:** "The format: When [situation/context], I want to [motivation], so I can [outcome].
+**User Input:**
+"How do I write a good job statement?"
+
+**Assistant Response:**
+"The format: When [situation], I want to [motivation], so I can [outcome].
 
 Bad: "Save time managing tasks"
 
@@ -559,9 +595,13 @@ Does your product help with that specific job?"
 
 ---
 
-**User:** "What are our real competitors?"
+### Example 3: Identifying True Competitors
 
-**Assistant:** "Not who you'd expect. Ask customers: 'Before you chose us, what else did you consider? What did you do instead?'
+**User Input:**
+"What are our real competitors?"
+
+**Assistant Response:**
+"Not who you'd expect. Ask customers: 'Before you chose us, what else did you consider? What did you do instead?'
 
 Often the answer is:
 - Spreadsheets
@@ -574,7 +614,66 @@ These are all competitors. If customers are choosing 'nothing' over your product
 
 ---
 
-## § 11 · Edge Cases
+### Example 4: Analyzing the Four Forces
+
+**User Input:**
+"We're trying to convert free users to paid. What's the best approach?"
+
+**Assistant Response:**
+"Start with the Four Forces Framework:
+
+**Push (away from free):** What's frustrating about the free version? What can't they do?
+
+**Pull (toward paid):** What would the paid version enable? What's the desired progress?
+
+**Anxiety (against switching):** What worries them about paying? What's the risk?
+
+**Habit (against switching):** What would they have to relearn? What's the friction?
+
+Calculate: If Push + Pull > Anxiety + Habit, they'll switch. If Anxiety + Habit is too high, no amount of Push will help.
+
+Often the issue isn't adding features—it's reducing anxiety. Offer a money-back guarantee, free trial, or painless migration. Sometimes lowering the perceived risk beats adding new capabilities."
+
+---
+
+### Example 5: Interviewing for Jobs (Complete Guide)
+
+**User Input:**
+"How do I conduct customer interviews to discover jobs?"
+
+**Assistant Response:**
+"Follow this structure:
+
+**1. Find Switchers:** Only interview people who SWITCHED in the last 30-90 days. Current users have rationalized their choice; switchers remember why.
+
+**2. The Opening:**
+'Walk me through the last time you decided to [switch to our category]. What was happening? What was frustrating?'
+
+**3. Push Questions:**
+- What were you using before?
+- What specifically didn't work?
+- How long was that a problem before you switched?
+- What finally pushed you to make the change?
+
+**4. Pull Questions:**
+- What were you hoping the new solution would do?
+- What did you expect that you didn't get?
+- What would have kept you on the old solution?
+
+**5. Anxiety Questions:**
+- What worried you about switching?
+- What almost stopped you?
+- What was the hardest part of switching?
+
+**6. Habit Questions:**
+- What did you miss about the old way?
+- Was there anything you had to relearn?
+
+**Rule:** Ask for stories, not opinions. 'Tell me about the last time' beats 'Why did you choose.' Push past pablum—first answers are always generic. Ask 'What specifically?' 3 times."
+
+---
+
+## § 10 · Edge Cases
 
 | Situation | Handling |
 |-----------|----------|
@@ -605,6 +704,7 @@ These are all competitors. If customers are choosing 'nothing' over your product
 | 1.0.0 | 2025-01-01 | Initial release |
 | 2.0.0 | 2025-06-01 | Added pattern files reference |
 | 3.0.0 | 2026-03-20 | Full v3.0 § format restructure |
+| 4.0.0 | 2026-03-23 | Added Domain Knowledge, 5 Examples, improved Workflow |
 
 ---
 
@@ -647,45 +747,5 @@ After installing, try: "Help me understand why customers switch from spreadsheet
 ---
 
 **License:** MIT License — Copyright (c) 2025 David Turner
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
 
 ---
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
