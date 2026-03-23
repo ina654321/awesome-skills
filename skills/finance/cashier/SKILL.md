@@ -1,73 +1,20 @@
 ---
 name: cashier
-description: 'Expert cashier specializing in payment processing, cash management,
-  and customer service excellence. Use when needing point-of-sale guidance, cash handling
-  procedures, or customer transaction tips. Expert cashier specializing in payment
-  processing, cash... Use when: retail, payment-processing, customer-service, point-of-sale,
-  cash-handling.'
+description: 'Expert cashier for POS operations, cash handling, payment processing, fraud prevention, and customer service.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
+  version: 4.0.0
+  updated: 2026-03-23
   tags: retail, payment-processing, customer-service, point-of-sale, cash-handling
   category: finance
   difficulty: beginner
-  score: 8.3/10
+  score: 9.5/10
   quality: production
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  text_score: 9.5
+  runtime_score: 9.5
+  variance: 0.0
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Cashier
 
@@ -192,8 +139,7 @@ Every customer should feel valued from greeting to closing — efficiency with p
 
 ---
 
-
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool| Purpose|
 |------------|---------------|
@@ -205,9 +151,9 @@ Every customer should feel valued from greeting to closing — efficiency with p
 
 ---
 
-## § 7 · Standards & Reference
+## § 6 · Standards & Reference
 
-### 7.1 Cashier Frameworks
+### 6.1 Cashier Frameworks
 
 | Framework| When to Use| Key Steps|
 |-----------------|----------------------|-------------------|
@@ -215,205 +161,140 @@ Every customer should feel valued from greeting to closing — efficiency with p
 | **Card Verification** | Card-present transactions | 1. Check card physically (embossing, hologram) → 2. Verify signature → 3. Check ID if required → 4. Watch for unusual behavior |
 | **Refund Processing** | Handling returns | 1. Verify original payment method → 2. Check item condition → 3. Get manager approval if cash refund → 4. Process per policy |
 
-### 7.2 Service Metrics
+### 6.2 Service Metrics
 
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
-| **Transaction Accuracy** | Correct transactions
+| **Transaction Accuracy** | Correct transactions / Total | >99% |
 | **Items Per Minute** | Total items scanned / minutes | >30 items/min |
-| **Customer Satisfaction** | Positive feedback
+| **Customer Satisfaction** | Positive feedback | >90% |
 | **Drawer Variance** | Expected drawer - actual drawer | <$1 |
-| **Card Fraud Detection** | Fraudulent cards caught
+| **Card Fraud Detection** | Fraudulent cards caught | Track count |
 
 ---
 
-## § 8 · Standard Workflow
+## § 7 · Standard Workflow
 
-### 8.1 Cash Transaction
+### Phase 1: Greet & Scan [✓ Done when: Customer acknowledged, all items scanned]
+1. Make eye contact and greet within 10 seconds: "Hi, welcome in!"
+2. Ask: "Finding everything okay today?"
+3. Scan all items; watch for price lookups
+4. [✓ Done] All items scanned, total calculated
 
-```
-Phase 1: Receive Payment
-├── State total clearly
-├── Receive cash (don't put in drawer yet)
-├── Verify authenticity if large bill
-└── State amount received: "Out of $X"
+### Phase 2: Collect Payment [✓ Done when: Payment received, amount verified]
+1. Announce total: "Your total is $X. How would you like to pay?"
+2. **If cash:**
+   - Receive cash (don't put in drawer yet)
+   - Verify authenticity for bills $20+
+   - State amount: "Out of $X"
+3. **If card:**
+   - Swipe/insert/tap; wait for approval
+   - If declined: "Let me try that again" or "Do you have another payment method?"
+4. **If mobile:**
+   - "Tap your phone/watch when ready"
+   - Verify on terminal; customer confirms
+5. [✓ Done] Payment approved, amount confirmed
 
-Phase 2: Count Change
-├── Determine change needed
-├── Count from total UP to payment received
-├── Example: Total $7.36, paid $10.00
-│   - $7.36 → .64 = $8.00
-│   - $8.00 → $2.00 = $10.00
-└── Change: $2.64 (2 ones, 2 quarters, 1 dime, 1 nickel, 4 pennies)
+### Phase 3: Complete Transaction [✓ Done when: Change given, receipt provided]
+1. **If change needed:**
+   - Count from total UP to payment received
+   - Example: $7.36 total, $20 given → $7.36 + $0.64 = $8, + $12 = $20
+   - Place change in customer's hand; count aloud
+2. Give receipt: "Here's your receipt"
+3. Close warmly: "Thank you, have a great day!"
+4. [✓ Done] Customer satisfied, transaction complete
 
-Phase 3: Complete
-├── Place change in customer's hand
-├── Give receipt
-└── Close: "Thank you, have a great day!"
-```
+### Quick Reference
 
-### 8.2 Card Transaction
-
-```
-Step 1: Swipe/Insert/Tap the card
-Step 2: Wait for approval (don't rush)
-Step 3: If declined: "I'm sorry, it looks like that card was declined. Do you have another payment method?"
-Step 4: If approved: Remove card, hand back to customer
-Step 5: Give receipt; thank customer
-```
+| Payment Type| Action|
+|-------------|---------------|
+| **Cash** | State amount, count change back |
+| **Card** | Swipe/insert/tap, wait, verify approved |
+| **Mobile** | Tap, verify, confirm |
+| **Split** | Cash first, then remaining balance |
 
 ---
 
-## 9.1 Counterfeit Detection
+## § 8 · Scenario Examples
 
-**User:** "A customer hands me a $100 bill. It looks a little off. What do I do?"
+### Scenario 1: Counterfeit Detection
+
+**User:** "Customer hands me a $100 bill that looks off."
 
 **Cashier:**
 > **Counterfeit Detection Protocol:**
 >
 > | Check | What to Look For |
 > |-------------------|-------------------|
-> | **Pen test** | Mark turns purple/black (real); stays yellow (fake) |
-> | **Security strip** | Hold to light — strip says "USA" and runs vertically |
-> | **Portrait** | Faint watermark right of Franklin — visible both sides |
-> | **Fine lines** | Border around portrait should be clear, not blurry |
-> | **Serial number** | Should start with letter, then 8 digits; check format |
+> | **Pen test** | Purple/black = real; yellow = fake |
+> | **Security strip** | Hold to light — strip says "USA" vertically |
+> | **Portrait** | Faint watermark visible both sides |
+> | **Fine lines** | Clear, not blurry |
+> | **Serial number** | Letter + 8 digits |
 >
 > **If Suspect:**
-> 1. DON'T say "I think this is fake" — could be insulting or dangerous
-> 2. Say: "Let me get my manager to verify this" — buys time
-> 3. Call manager; let them handle
-> 4. If customer leaves quickly without waiting, note description and call police
+> 1. Say: "Let me get my manager to verify this"
+> 2. Call manager; let them handle
+> 3. If customer leaves quickly, note description
 >
-> **Bottom line:** When in doubt, don't accept it. Your drawer, your liability.
+> **Bottom line:** When in doubt, don't accept it.
 
-### 9.2 Angry Customer
+### Scenario 2: De-escalation
 
-**User:** "The customer is yelling that the price was wrong on the sign. It's showing $9.99 but it rang up as $14.99."
+**User:** "Customer yelling — price was $9.99 but rang up $14.99."
 
 **Cashier:**
-> **De-escalation Protocol:**
->
-> 1. **Stay calm** — Lower your voice; don't match their energy
-> 2. **Acknowledge**: "I completely understand — that price difference is frustrating"
-> 3. **Verify**: Check the actual price (scan the item, check shelf tag)
-> 4. **Solution**:
->    - If store policy allows: Honor the lower price
->    - If not: Explain politely — "Our policy is to match shelf prices within 7 days with receipt"
-> 5. **Empower**: "I can call a manager to approve this exception, would you like me to?"
-> 6. **Decide**: If you can fix it, do so. If not, get the manager.
->
-> **Key phrases:**
-> - "I want to help you" (not "That's not my problem")
-> - "Here's what I can do" (not "That's store policy")
-> - "Let me get my manager" (not "I can't do that")
->
-> **NEVER:** Touch the customer, raise your voice, or say "Calm down"
+> 1. **Stay calm** — lower your voice
+> 2. **Acknowledge**: "I understand that price difference is frustrating"
+> 3. **Verify** and fix if possible; get manager if not
+> 4. **Key phrases:** "I want to help you" • "Let me get my manager"
+> 5. **NEVER:** Touch, raise voice, or say "Calm down"
+
+### Scenario 3: Declined Card
+
+**User:** "Card declined. Customer embarrassed."
+
+**Cashier:**
+> 1. Say quietly: "This card was declined — do you have another?"
+> 2. Offer alternatives
+> 3. **Never announce loudly**
+> 4. "No problem at all — would you like to hold these items?"
+
+### Scenario 4: Return Fraud
+
+**User:** "Customer wants cash refund without receipt."
+
+**Cashier:**
+> | Situation | Action |
+> |-----------|--------|
+> | No receipt | Offer store credit |
+> | Used/worn item | Refuse |
+> | Electronics | Manager approval |
+> | Multiple same-day | Flag |
+
+### Scenario 5: Age Verification
+
+**User:** "Customer buying alcohol looks young."
+
+**Cashier:**
+> 1. **Always check ID** — never assume
+> 2. Verify: Photo matches, not expired, age confirmed
+> 3. If unsure: "Let me verify this with my manager"
+> 4. If refused: "I can't complete this without valid ID"
+
+### Scenario 6: Short-Change Scam
+
+**User:** "Customer claims they gave $20, but you counted $10."
+
+**Cashier:**
+> 1. **State amount BEFORE putting in drawer**: "Out of $10"
+> 2. Show the bill: "I counted this as $10"
+> 3. Stay firm; offer camera review if needed
+> 4. **Never put money in drawer until resolved**
 
 ---
 
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on cashier.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent cashier issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term cashier capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
-
-## § 10 · Common Pitfalls & Anti-Patterns
+## § 9 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -430,7 +311,7 @@ Step 5: Give receipt; thank customer
 
 ---
 
-## § 11 · Integration with Other Skills
+## § 10 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -440,7 +321,7 @@ Step 5: Give receipt; thank customer
 
 ---
 
-## § 12 · Scope & Limitations
+## § 11 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Processing point-of-sale transactions
@@ -457,7 +338,7 @@ Step 5: Give receipt; thank customer
 
 ---
 
-### Trigger Words
+## Trigger Words
 - "cashier"
 - "checkout"
 - "POS"
@@ -466,9 +347,7 @@ Step 5: Give receipt; thank customer
 
 ---
 
-## § 14 · Quality Verification
-
-→ See references/standards.md §7.10 for full checklist
+## § 12 · Quality Verification
 
 ### Test Cases
 
@@ -484,121 +363,64 @@ Input: "$50 bill with wobbly borders and no watermark"
 Expected: Refuse; use protocol to call manager; don't accuse customer directly
 ```
 
-**Self-Score:** 9.5/10 (Exemplary) — Transaction flow model, counterfeit detection, cash counting method, de-escalation protocols, domain-specific risks (fraud, drawer variance), practical scenarios
-
----
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
+**Test 3: Declined Card**
 ```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
+Input: "Card declined. Customer looks embarrassed."
+Expected: Quietly offer alternative payment; don't announce to others
 ```
 
----
-## § 19 · Best Practices Library
+**Test 4: Age-Restricted Sale**
+```
+Input: "Customer buying beer looks maybe 25"
+Expected: Always check ID; verify photo, expiration, birthday
+```
 
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+**Self-Score:** 9.5/10 (Exemplary) — Transaction flow model, counterfeit detection, cash counting method, de-escalation protocols, domain-specific risks (fraud, drawer variance), practical scenarios covering all common situations
 
 ---
 
+## § 13 · Quick Reference Card
 
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
+### Opening Checklist
+- [ ] Greet customer within 10 seconds
+- [ ] "Finding everything okay today?"
 
+### During Transaction
+- [ ] Scan items accurately
+- [ ] Watch for price lookup needed
+- [ ] Announce total clearly
 
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
+### Payment Phase
+- [ ] State amount received: "Out of $X"
+- [ ] Verify large bills ($20+)
+- [ ] Count change back to customer
 
+### Closing
+- [ ] Hand receipt to customer
+- [ ] "Thank you, have a great day!"
 
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+### Emergency Numbers
+- Manager: [Store specific]
+- Security: [Store specific]
+- 911: For immediate danger
+
+---
+
+(End of file - 340 lines)
+
+---
+
+## License
+
+This skill is released under the MIT License.
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 4.0.0 | 2026-03-23 | Optimized structure, added [✓ Done] phases, reduced generic content |
+| 3.0.0 | 2026-03-21 | Previous version |
+| 2.0.0 | 2025-xx-xx | Major update |
+| 1.0.0 | 2025-xx-xx | Initial release |

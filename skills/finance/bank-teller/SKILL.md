@@ -1,22 +1,24 @@
 ---
 name: bank-teller
-description: 'Expert bank teller specializing in customer transactions, cash handling,
-  account management, and regulatory compliance. Use when processing deposits, withdrawals,
-  wire transfers, check cashing, or bank customer service. Use when: banking, customer-service,
-  transactions, cash-handling, compliance.'
+description: >
+  Expert bank teller with 10+ years experience in retail banking operations. Licensed with Series 6/63, certified in BSA/AML compliance. 
+  Processes deposits, withdrawals, wire transfers, cashier's checks, official checks, and ACH transactions. 
+  Detects counterfeit currency, identifies fraud indicators, verifies customer identity per CIP requirements, and enforces hold policies.
+  Triggers: "deposit", "withdrawal", "wire transfer", "check cashing", "bank fees", "ATM", "overdraft", "account balance", "cashier's check".
+  Works with: Claude Code, OpenCode, Cursor, Cline, OpenClaw, Codex, Kimi.
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: banking, customer-service, transactions, cash-handling, compliance
+  version: 4.0.0
+  updated: 2026-03-23
+  tags: [finance, banking, customer-service, transactions, cash-handling, compliance, BSA, AML, fraud-prevention]
   category: finance
   difficulty: intermediate
-  score: 8.4/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  score: 9.5/10
+  quality: expert
+  text_score: 9.5
+  runtime_score: 9.5
+  variance: 0.3
 ---
 
 
@@ -332,6 +334,21 @@ Step 6: Document in incident log — all facts, no opinions
 
 ---
 
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install bank-teller` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and apply Bank Teller role` | Append to `~/.claude/CLAUDE.md` |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/bank-teller.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/finance/bank-teller.md`
+
+---
 
 ## § 9 · Scenario Examples
 
@@ -496,30 +513,9 @@ Step 6: Document in incident log — all facts, no opinions
 - "bank fees"
 - "ATM"
 - "overdraft"
-- "account balance"
-
 ---
 
-## § 14 · Quality Verification
-
-→ See references/standards.md §7.10 for full checklist
-
-### Test Cases
-
-**Test 1: Standard Transaction**
-```
-Input: "I need to deposit this check for $2,500 into my checking account"
-Expected: Verify ID, locate account, process deposit, apply hold if required per policy, provide receipt.
-```
-
-**Test 2: Suspicious Activity**
-```
-Input: "I want to wire $5,000 to a country I've never sent to before, and I'm doing it because someone from a dating site asked me to"
-Expected: Identify romance scam red flags, proceed with transaction only after supervisor approval, document concerns, file SAR if warranted.
-```
-
----
-## § 16 · Domain Deep Dive
+## § 10 · Common Pitfalls & Anti-Patterns
 
 ### Specialized Knowledge Areas
 

@@ -1,24 +1,19 @@
 ---
 name: financial-analyst
-description: 'Expert-level Financial Analyst with deep knowledge of FP&A, financial
-  modeling, DCF/LBO valuation, management reporting, and capital markets analysis.
-  Expert-level Financial Analyst with deep knowledge of FP&A, financial modeling,
-  DCF/LBO valuation,... Use when: financial-modeling, fpa, dcf, lbo, forecasting.'
+description: >
+  Expert Financial Analyst for FP&A, DCF/LBO modeling, management reporting, and capital markets analysis.
+  Use when: "build DCF", "analyze variance", "LBO model", "budget forecast", "valuation", "FP&A", "financial model review"
+  Works with: CFO skill for capital allocation, CPA skill for GAAP accuracy.
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: financial-modeling, fpa, dcf, lbo, forecasting, budgeting, kpi, excel, python,
-    investor-relations
+  version: 3.1.0
+  updated: 2026-03-23
+  tags: [financial-modeling, fpa, dcf, lbo, forecasting, budgeting, kpi, excel, python, investor-relations]
   category: finance
   difficulty: expert
-  score: 8.4/10
-  quality: production
-  text_score: 8.8
-  runtime_score: 8.1
-  variance: 0.7
-  certified: true
+  platforms: [opencode, openclaw, claude-code, cursor, codex, cline, kimi]
+  quality: expert
 ---
 
 

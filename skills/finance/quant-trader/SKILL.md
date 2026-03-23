@@ -178,25 +178,25 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 ---
 
 
-## § 6 · Professional Toolkit
+## § 5 · Professional Toolkit
 
 | Tool | Purpose |
 |------|---------|
 | **Python (pandas, numpy, scikit-learn)** | Data analysis, backtesting, ML |
 | **R** | Statistical analysis, time series |
-| **QuantConnect
+| **QuantConnect** | Cloud-based backtesting engine |
 | **Interactive Brokers API** | Live trading connectivity |
 | **Bloomberg Terminal** | Market data, research |
-| **Kdb+
-| **AWS
-| **Plotly
+| **Kdb+** | High-frequency time-series database |
+| **AWS** | Cloud infrastructure for deployment |
+| **Plotly** | Interactive visualization |
 | **SQL** | Data management |
 
 ---
 
-## § 7 · Standards & Reference
+## § 6 · Standards & Reference
 
-### 7.1 Strategy Frameworks
+### 6.1 Strategy Frameworks
 
 | Strategy | When to Use | Key Steps |
 |----------|-------------|-----------|
@@ -206,21 +206,23 @@ The strategy lifecycle is iterative: hypothesize from market observation, resear
 | **Market Making** | When providing liquidity | 1. Post bid/ask quotes → 2. Manage inventory risk → 3. Adjust quotes based on order flow → 4. Capture bid-ask spread |
 | **Volatility Trading** | When mispricing in options | 1. Calculate implied vs. realized vol → 2. Trade vol spread (long/short) → 3. Hedge delta → 4. Manage gamma risk |
 
-### 7.2 Key Trading Metrics
+### 6.2 Key Trading Metrics
 
 | Metric | Formula | Target |
 |--------|---------|--------|
-| **Sharpe Ratio** | (Return - Risk-free)
-| **Sortino Ratio** | (Return - Target)
+| **Sharpe Ratio** | (Return - Risk-free Rate) / Std Dev of Returns | ≥ 1.5 |
+| **Sortino Ratio** | (Return - Target Return) / Downside Deviation | ≥ 2.0 |
 | **Maximum Drawdown** | Peak to Trough | < 20% for most strategies |
-| **Calmar Ratio** | Annual Return
-| **Win Rate** | Winning Trades
-| **Profit Factor** | Gross Profit
-| **Information Ratio** | Active Return
+| **Calmar Ratio** | Annual Return / Maximum Drawdown | ≥ 2.0 |
+| **Win Rate** | Winning Trades / Total Trades | > 50% |
+| **Profit Factor** | Gross Profit / Gross Loss | > 1.5 |
+| **Information Ratio** | Active Return / Tracking Error | ≥ 1.0 |
 
 ---
 
-## 8.1 Strategy Development
+## § 7 · Implementation Guide
+
+### 7.1 Strategy Development
 
 ```
 Phase 1: Research & Hypothesis
@@ -249,7 +251,7 @@ Phase 4: Production
 ├── Document strategy and limitations
 ```
 
-### 8.2 Risk Management
+### 5.2 Risk Management
 
 ```
 Step 1: Define risk limits (max position size, max drawdown)
@@ -669,6 +671,7 @@ Before sign-off, ensure:
 ---
 
 ### Trigger Words
+
 - "quant trader"
 - "algorithmic trading"
 - "trading strategy"
@@ -678,10 +681,30 @@ Before sign-off, ensure:
 - "Sharpe ratio"
 - "market making"
 
-### § 14 · Quality Verification
+---
+
+## § 13 · Quality Verification
+
+Quality Checklist for Quant Trading Deliverables:
+
+| Category | Checkpoint | Priority |
+|----------|------------|----------|
+| **Strategy** | Hypothesis clearly stated and testable | Required |
+| **Strategy** | Backtest uses out-of-sample data | Required |
+| **Strategy** | Transaction costs included | Required |
+| **Strategy** | Maximum drawdown documented | Required |
+| **Risk** | Position limits defined | Required |
+| **Risk** | VaR or equivalent risk measure calculated | Required |
+| **Risk** | Kill switch mechanism in place | Required |
+| **Data** | Data source and quality documented | Required |
+| **Data** | Look-ahead bias avoided | Required |
+| **Data** | Survivorship bias addressed | Required |
+| **Compliance** | Disclaimer present | Required |
+| **Compliance** | Regulatory considerations noted | Recommended |
 
 → See references/standards.md §7.10 for full checklist
-## § 16 · Domain Deep Dive
+
+## § 14 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
 
@@ -702,7 +725,7 @@ Before sign-off, ensure:
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
-## § 17 · Risk Management Deep Dive
+## § 15 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
 
@@ -728,7 +751,7 @@ Before sign-off, ensure:
 - Team velocity declining
 - Defect rates rising
 
-## § 18 · Excellence Framework
+## § 16 · Excellence Framework
 
 ### World-Class Execution Standards
 
@@ -748,7 +771,8 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
-## § 19 · Best Practices Library
+
+## § 17 · Best Practices Library
 
 ### Industry Best Practices
 
@@ -760,7 +784,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
+## § 18 · Case Studies
 
 ### Success Story 1: Transformation
 **Challenge:** Legacy system limitations
@@ -770,23 +794,10 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 **Challenge:** Market disruption
 **Results:** New revenue stream, competitive advantage
 
-## § 21 · Resources & References
+## § 19 · Resources & References
 
 | Resource | Type | Key Takeaway |
 |----------|------|--------------|
 | Industry Standards | Guidelines | Compliance requirements |
 | Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+| Case Studies | Practical | Real-world applications
