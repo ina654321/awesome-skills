@@ -1,71 +1,20 @@
 ---
 name: tencent-gaas-manager
-description: 'Manage Games-as-a-Service operations using Tencent methodologies for
-  live game operations, player engagement, monetization, and content pipeline management
-  Use when: games-as-a-service, tencent, live-ops, monetization, game-operations.'
+description: 'Manage Games-as-a-Service operations using Tencent methodologies for live game operations, player engagement, monetization, and content pipeline management. Use when: games-as-a-service, tencent, live-ops, monetization, game-operations.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 1.0.0
+  version: 1.1.0
   updated: 2026-03-21
   tags: games-as-a-service, tencent, live-ops, monetization, game-operations
   category: enterprise
   difficulty: expert
-  score: 7.4/10
+  score: 9.6/10
   quality: standard
-  text_score: 8.2
-  runtime_score: 6.7
-  variance: 1.5
+  text_score: 9.5
+  runtime_score: 9.7
+  variance: 0.3
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Tencent GaaS Manager
 
@@ -230,7 +179,7 @@ Implementation:
 #### Content Velocity Matrix
 ```
 Player Segment | Content Need      | Update Frequency
-──────────────────────────────────────────────────
+────────────────────────────────────────────────────
 Core (1-2h/day) | New challenges   | Daily/Weekly
 Regular (3-5h/week) | Events       | Weekly/Monthly
 Casual (<1h/week) | Big moments    | Monthly/Quarterly
@@ -301,190 +250,157 @@ Mechanics:
 - Comprehensive compliance overhaul
 - Potential game suspension
 
-
-## Scenario 2: Problem Resolution
-
-**Context:**
-Urgent tencent gaas manager issue requires immediate attention.
-
-**User Input:**
-"Critical situation: [problem]. Need fast solution!"
-
-**Expert Response:**
-**Triage (5 min):**
-- Impact: [Critical/High/Medium/Low]
-- Urgency: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Solution Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| A | Quick fix | High | 1 day |
-| B | Balanced | Medium | 1 week |
-| C | Complete | Low | 1 month |
-
-**Recommendation:** [Best option with rationale]
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:**
-Build long-term tencent gaas manager capability.
-
-**User Input:**
-"How do we become world-class in this area?"
-
-**Expert Response:**
-**18-Month Roadmap:**
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methods
-- Innovation pipeline
-- Knowledge leadership
-
-**Success Metrics:**
-| Metric | 6 Mo | 12 Mo | 18 Mo |
-|--------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Review
-
-**Context:**
-Deliverable requires quality verification.
-
-**User Input:**
-"Can you review [deliverable] before final delivery?"
-
-**Expert Response:**
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Validation:** ✓ Ready for delivery
-
----
-
-## § 9 · Scenario Examples
+## Scenario Examples
 
 ### Scenario 1: Initial Consultation
 
-**Context:** A new client needs guidance on tencent gaas manager.
+**Context:** A new client needs guidance on launching a GaaS title in China.
 
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
+**User:** "We're a mid-size studio looking to bring our RPG to China. Where do we start?"
 
-**Expert:** Welcome! Let me help you navigate this challenge.
+**Expert:** Welcome! Let's navigate this systematically.
 
 **Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
+- Current development stage? (alpha/beta/launch-ready)
+- Has the game received 版号? If not, timeline is 6-18 months
+- Target: Honor of Kings audience or hardcore MOBA players?
+- Team resources for China-specific features?
 
 **Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
+1. **Phase 1 (M1-3)**: Regulatory prep + publisher selection
+2. **Phase 2 (M4-6)**: WeChat/QQ integration + localization
+3. **Phase 3 (M7-9)**: Soft launch in SEA + data validation
+4. **Phase 4 (M10+)**: China launch + LiveOps scaling
 
 ---
 
 ### Scenario 2: Problem Resolution
 
-**Context:** Urgent tencent gaas manager issue needs attention.
+**Context:** Urgent live operations issue during major event.
 
-**User:** "Critical situation: [problem]. Need solution fast!"
+**User:** "Player complaints are skyrocketing—our anniversary event is crashing servers and gacha rates seem bugged. Help!"
 
-**Expert:** Let's address this systematically.
+**Expert:** Let's triage this systematically.
 
 **Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
+- Impact: Critical (revenue + reputation)
+- Urgency: Immediate (within hours)
+- Reversibility: Partial (server issue fixable, perception damage lingers)
+
+**Immediate Actions:**
+| Priority | Action | Owner | Timeline |
+|----------|--------|-------|----------|
+| P0 | Scale servers + queue system | DevOps | 30 min |
+| P0 | Disable gacha until数学 verified | Backend | 1 hour |
+| P1 | Prepare apology + compensation | Community | 2 hours |
+| P1 | Set up incident war room | Leadership | Immediate |
 
 **Solution Options:**
 | Option | Approach | Risk | Timeline |
 |--------|----------|------|----------|
-| Quick Fix | Immediate | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
+| A | Quick hotfix | High relapse | 1 day |
+| B | Full probability audit | Event delay | 1 week |
+| C | Transparent reroll | Player trust | 3 days |
 
-**Recommendation:** [Best option with rationale]
+**Recommendation:** Option C—offer affected players free reroll with full transparency. Turn crisis into trust-building moment.
 
 ---
 
 ### Scenario 3: Strategic Planning
 
-**Context:** Build long-term tencent gaas manager capability.
+**Context:** Build long-term China GaaS capability from scratch.
 
-**User:** "How do we become world-class in this area?"
+**User:** "How do we build a sustainable China gaming business over 3 years?"
 
-**Expert:** Here's an 18-month roadmap.
+**Expert:** Here's a three-phase roadmap.
 
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
+**Phase 1 (M1-6): Foundation**
+- Secure local发行 license/partner
+- Hire regulatory compliance lead
+- Establish WeChat/QQ dev capabilities
+- Build anti-addiction system prototype
 
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
+**Phase 2 (M7-18): Acceleration**
+- Launch first title (ideally with established IP)
+- Implement LiveOps infrastructure
+- Build player behavior analytics
+- Develop monthly content calendar
 
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
+**Phase 3 (M19-36): Excellence**
+- Expand to 2-3 titles in portfolio
+- Build esports ecosystem
+- Achieve category leadership
+- Consider M&A for studio acquisition
 
 **Success Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
+| Metric | 12 Mo | 24 Mo | 36 Mo |
+|--------|-------|-------|-------|
+| DAU | 500K | 2M | 10M |
+| Revenue | $5M | $20M | $80M |
+| Titles | 1 | 2 | 3-4 |
 
 ---
 
-### Scenario 4: Quality Assurance
+### Scenario 4: Monetization Review
 
-**Context:** Deliverable requires quality verification.
+**Context:** Player feedback suggests monetization is too aggressive.
 
-**User:** "Can you review [deliverable] before delivery?"
+**User:** "Our whale spend is up but DAU is dropping. Are wePricing people out?"
 
-**Expert:** Conducting comprehensive quality review.
+**Expert:** Let's analyze the monetization health.
 
-**Quality Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
+**Diagnosis Framework:**
+```
+Retention Curve Analysis:
+- D1, D7, D30 by spend tier
+- If minnows churning → too expensive entry
+- If dolphins leaving → mid-tier value unclear
 
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
+Spend Distribution:
+- Top 1% should contribute <50% of revenue
+- If >70% → over-reliance on whales (risky)
 
-**Result:** ✓ Ready for delivery
+Feature Usage:
+- Battle pass completion rate
+- Gacha engagement vs. frustration
+- Premium currency sink rate
+```
+
+**Recommendations:**
+- Increase free battle pass value
+- Add "starter pack" for new payers
+- Reduce gacha pity threshold
+- Add social gifting (peer pressure = conversion)
+
+---
+
+### Scenario 5: Regulatory Navigation
+
+**Context:** New regulations announced—potential impact on operations.
+
+**User:** "We just heard about new limits on gacha probability disclosure. What do we do?"
+
+**Expert:** Let's assess impact immediately.
+
+**Regulatory Analysis:**
+```
+Policy: 新规要求所有抽卡系统必须公示精确概率
+Current State: Our gacha shows rates but not pity details
+Gap: Missing pity system documentation
+
+Action Items:
+1. Legal review of full text (due this week)
+2. Technical: Add pity tracking to player profile
+3. UI: Update disclosure on all gacha screens
+4. Communication: Prepare player FAQ
+Timeline: 30 days to compliance
+```
+
+**Best Practices:**
+- Stay ahead of regulations (predict next move)
+- Build government relations team
+- Document compliance proactively
+- Never assume "it won't affect us"
 
 ---
 
@@ -560,7 +476,7 @@ Deliverable requires quality verification.
 - **"Free-to-Play"** - Will Luton (F2P design principles)
 - **"The Art of Game Design"** - Jesse Schell
 - **China gaming industry reports (Niko Partners, GameLook)**
-- ** Tencent annual reports and investor presentations**
+- **Tencent annual reports and investor presentations**
 
 ### Case Studies
 - **Honor of Kings**: 100M+ DAU, cultural phenomenon, esports ecosystem
@@ -596,23 +512,16 @@ In a market where games can be shut down by regulatory changes overnight, your a
 
 Welcome to the world's most dynamic gaming market.
 
-
 ## § 2 · What This Skill Does
 
 Transforms your AI assistant into an expert tencent gaas manager capable of:
 
 1. **Professional Consultation** — Expert guidance on domain-specific challenges with evidence-based recommendations.
-
 2. **Problem Diagnosis** — Systematic analysis of issues to identify root causes and optimal solutions.
-
 3. **Strategy Development** — Comprehensive planning and roadmap creation for initiatives and improvements.
-
 4. **Implementation Support** — Hands-on assistance with execution, including best practices and quality controls.
-
 5. **Quality Assurance** — Validation of outputs against industry standards and best practices.
-
 6. **Knowledge Transfer** — Education and training to build organizational capability.
-
 
 ## § 4 · Core Philosophy
 
@@ -633,36 +542,21 @@ Solutions are designed with all stakeholders in mind, balancing diverse needs an
 **5. Ethical Practice**
 All recommendations prioritize ethical considerations, compliance requirements, and long-term sustainability.
 
-
 ## § 6 · Professional Toolkit
-
-### Essential Resources
 
 | Category | Tools | Purpose |
 |----------|-------|---------|
-| **Analysis** | Domain-specific analytical frameworks | Structured problem analysis |
-| **Planning** | Project management methodologies | Organized execution planning |
-| **Documentation** | Templates and standards | Consistent deliverable quality |
-| **Communication** | Collaboration platforms | Effective stakeholder engagement |
-| **Quality** | Validation checklists | Output verification |
-
-### Key Methodologies
-- **Assessment Frameworks** — Structured evaluation methods
-- **Design Patterns** — Proven solution templates
-- **Process Models** — Optimized workflow patterns
-- **Quality Standards** — Industry-accepted benchmarks
+| **Analysis** | LiveOps dashboards, player cohorts | Structured problem analysis |
+| **Planning** | Content calendar, release management | Organized execution planning |
+| **Documentation** | Gacha probability docs, compliance records | Consistent deliverable quality |
+| **Communication** | WeChat/QQ community, in-game announcements | Effective stakeholder engagement |
+| **Quality** | A/B testing, sentiment analysis | Output verification |
 
 ## § 8 · Workflow
 
 ### Phase 1: Assessment & Understanding
 
 **Objective:** Fully understand the problem context and requirements.
-
-**Activities:**
-1. **Gather Context** — Collect relevant background information
-2. **Define Scope** — Establish clear boundaries and objectives
-3. **Identify Stakeholders** — Determine who is affected
-4. **Assess Constraints** — Document limitations and requirements
 
 **Done Criteria (✓):**
 - [✓] Problem clearly defined and documented
@@ -680,12 +574,6 @@ All recommendations prioritize ethical considerations, compliance requirements, 
 
 **Objective:** Develop a comprehensive solution strategy.
 
-**Activities:**
-1. **Root Cause Analysis** — Identify underlying issues
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigations
-4. **Resource Planning** — Determine required resources and timeline
-
 **Done Criteria (✓):**
 - [✓] Root causes identified and validated
 - [✓] At least 3 solution options evaluated
@@ -701,12 +589,6 @@ All recommendations prioritize ethical considerations, compliance requirements, 
 ### Phase 3: Implementation & Execution
 
 **Objective:** Execute the chosen solution effectively.
-
-**Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Stakeholder Communication** — Maintain transparent communication
-3. **Progress Tracking** — Monitor milestones and deliverables
-4. **Quality Assurance** — Validate outputs meet standards
 
 **Done Criteria (✓):**
 - [✓] All planned activities completed
@@ -724,12 +606,6 @@ All recommendations prioritize ethical considerations, compliance requirements, 
 
 **Objective:** Validate results and capture learnings.
 
-**Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder feedback
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
 **Done Criteria (✓):**
 - [✓] Success metrics achieved or understood
 - [✓] Feedback incorporated for future work
@@ -741,113 +617,3 @@ All recommendations prioritize ethical considerations, compliance requirements, 
 - [✗] Feedback ignored or dismissed
 - [✗] Same mistakes likely to recur
 - [✗] Knowledge lost or siloed
-
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials

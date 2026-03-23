@@ -1,70 +1,18 @@
 ---
 name: salesforce-expert
-description: 'Salesforce专家：Sales Cloud配置、Flow自动化、Apex开发、报表。Use when managing CRM,
-  building automations, or developing on Salesforce platform. Triggers: ''Salesforce'',
-  ''CRM'', ''Flow'', ''Apex'', ''销售云'', ''Lightning'', ''LWC''.'
+description: 'Salesforce expert: Sales Cloud config, Flow automation, Apex development, Reports. Use when managing CRM, building automations, or developing on Salesforce. Triggers: Salesforce, CRM, Flow, Apex, Lightning, LWC.'
 license: MIT
-metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: '[salesforce, crm, apex, sales-cloud, service-cloud, flow, lightning]'
-  category: tools
-  difficulty: expert
-  score: 8.5/10
-  quality: production
-  text_score: 9.2
-  runtime_score: 7.7
-  variance: 1.5
+author: neo.ai <lucas_hsueh@hotmail.com>
+version: 3.1.0
+updated: 2026-03-23
+tags: [salesforce, crm, apex, sales-cloud, service-cloud, flow, lightning]
+category: tools/enterprise
+difficulty: expert
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Salesforce Expert
 
-**Self-Score:** 9.5/10 — Exemplary
-
-**[URL]:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/salesforce-expert.md`
+[URL]: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skILLS_TOOLS_ENTERPRISE_SALESFORCE-EXPERT.md
 
 ---
 
@@ -259,22 +207,23 @@ Profile → Field-Level Security (FLS) → Object Permissions → Record Access
 
 ### 5.3 Salesforce DX / CLI
 
-```bash
-# Authenticate to Dev Hub
-sf login dev:hub -a my-dev-hub
+→ Full CLI reference: [references/code-block-1.md](references/code-block-1.md)
 
-# Create scratch org
-sf org create scratch -d -a my-scratch -y 30
+---
 
-# Pull source from scratch
-sf project retrieve start -d force-app
+## § 5 · Platform Support
 
-# Deploy to sandbox
-sf project deploy start -d force-app -o my-sandbox@company.com
+| Platform | Session Install | Persistent Config |
+|----------|----------------|-------------------|
+| **OpenCode** | `/skill install salesforce-expert` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/salesforce.mdc` |
+| **Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.cursorrules` |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
 
-# Run Apex tests
-sf apex run test -l RunLocalTests -c
-```
+[URL]: https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/salesforce-expert.md
 
 ---
 
@@ -282,41 +231,11 @@ sf apex run test -l RunLocalTests -c
 
 ### 6.1 SOQL & SOSL Reference
 
-```soql
--- Basic SOQL with relationship query
-SELECT Id, Name, Account.Name, Account.Industry,
-       (SELECT Id, Subject FROM Tasks WHERE Status = 'Open')
-FROM Opportunity
-WHERE StageName = 'Closed Won'
-  AND CloseDate = LAST_N_DAYS:30
+→ See [references/code-block-1.md](references/code-block-1.md)
 
--- Aggregate SOQL with HAVING
-SELECT COUNT(Id), OwnerId, MAX(Amount)
-FROM Opportunity
-GROUP BY OwnerId
-HAVING COUNT(Id) > 5
+### 6.2 Data Loader CLI
 
--- SOSL for full-text search
-FIND {Acme Corp} IN ALL FIELDS
-RETURNING Account(Id, Name, BillingCity), Contact(Id, Name, Email)
-```
-
-### 6.2-6.4 Flow, Apex, LWC Examples
-
-→ See [references/code-block-2.md](references/code-block-2.md) for Flow Builder patterns, LWC JavaScript component, and Apex trigger handler examples.
-
-### 6.5 Data Loader CLI
-
-```bash
-# Export via CLI
-sf data export tree --query "SELECT Id, Name FROM Account LIMIT 10" --output-dir ./data
-
-# Bulk delete with CSV
-sf data bulk delete --sobject Account --csv-file delete_accounts.csv --wait 10
-
-# Insert with related records
-sf data import tree Account --files ./data/accounts.json
-```
+→ See [references/code-block-2.md](references/code-block-2.md)
 
 ---
 
@@ -397,93 +316,69 @@ sf data import tree Account --files ./data/accounts.json
 
 ## § 8 · Workflow
 
-### Phase 1: Discovery & Assessment
+### Phase 1: Declarative vs Code Decision
 
-**Objective:** Fully understand the problem context and requirements.
+**Objective:** Determine if Flow can solve the requirement.
 
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
-
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
+**Key Gates:**
+| Gate | Flow Can Do It? | Action |
+|------|----------------|--------|
+| **Is it conditional logic?** | Yes → Use Flow | Build in Flow Builder |
+| **Does it need loops over records?** | Yes → Use Flow | Scheduled/Record-Triggered |
+| **Does it need real-time external callout?** | No → Use Apex | Queueable/Future |
+| **Does it need complex data transformation?** | No → Use Apex | Batch Class |
 
 **✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
+- [✓] Decision documented in RFC/RFA
+- [✓] Stakeholder sign-off on approach
 
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
+### Phase 2: Sandbox Development
 
-### Phase 3: Implementation & Execution
-
-**Objective:** Execute the chosen solution with quality and efficiency.
+**Objective:** Build and unit test in isolated environment.
 
 **Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
+1. **Environment Spin-up** — `sf org create scratch -d -a feature-scratch -y 30`
+2. **Flow Build / Apex Write** — Implement in sandbox org
+3. **Test Class Coverage** — Apex requires ≥75% (Deploy requires ≥75%)
+4. **Manual Testing** — Verify in sandbox matches requirements
 
 **✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
+- [✓] All test classes pass (≥75% for sandbox)
+- [✓] No governor limit violations in debug logs
+- [✓] FLS/CRUD checks verified
 
 **✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
+- [✗] Test coverage <75% → Cannot deploy to prod
+- [✗] SOQL in loop → Sandbox performance issue
 
-### Phase 4: Review & Optimization
+### Phase 3: Deployment Pipeline
 
-**Objective:** Validate results and capture learnings.
+**Objective:** Promote changes through validation to production.
+
+| Deployment Method | When to Use | Key Command |
+|-------------------|-------------|-------------|
+| **Change Sets** | Admin-friendly, small changes | Setup → Outbound Change Set |
+| **sfdx CLI** | Developer, CI/CD | `sf project deploy start -d force-app` |
+| **Unlocked Packages** | Modular, versioned releases | `sf package version create` |
+
+**✓ Done Criteria:**
+- [✓] Validated in Full Sandbox (UAT)
+- [✓] Business user sign-off
+- [✓] Deployment during maintenance window
+
+### Phase 4: Post-Deploy Verification
+
+**Objective:** Confirm production functionality.
 
 **Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
+1. **Smoke Test** — Verify critical paths work
+2. **Monitor Logs** — Check for new limit warnings
+3. **Update Documentation** — Document new behavior
+4. **Schedule Retrospective** — Capture lessons
 
 **✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
+- [✓] Smoke tests pass
+- [✓] No critical errors in monitoring
 
 ---
 
@@ -603,150 +498,10 @@ sf data import tree Account --files ./data/accounts.json
 **8. API Version Compatibility**
 - Older Apex code may use deprecated methods
 - Solution: Update API version quarterly; review deprecation warnings in Setup
-
 ---
 
-## § 12 · Related Skills
-
-| Combination | Workflow | Result |
-|-------------|----------|--------|
-| Salesforce + **Datadog Expert** | Monitor Apex CPU time, SOQL usage via custom metrics | Performance observability |
-| Salesforce + **PagerDuty** | Apex callout on critical alert → PagerDuty event | Automated incident creation |
-| Salesforce + **Zendesk Expert** | Sync Cases between platforms via REST API | Unified support workflow |
-| Salesforce + **Workday Expert** | Sync Worker/Contact data via EIB pattern | HR-CRM synchronization |
-| Salesforce + **API Integration** | OAuth + REST/SOAP for external systems | Custom integrations |
-
----
-
-## § 13 · Quick Reference
+## § 12 · Quick Reference
 
 **Install:** `Read https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/tools/enterprise/salesforce-expert.md and install as skill`
 
-**Trigger Words:** "Salesforce", "CRM", "Flow", "Apex", "销售云", "Lightning", "LWC", "Sales Cloud", "Service Cloud", "SOQL"
-
----
-
-
-### Example Interaction
-
-```
-User: [Example user request]
-
-Expert: [Detailed expert response with reasoning]
-```
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories, models | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques, methods | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning, efficiency | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends, research | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-| R004 | Stakeholder conflict | Medium | Medium | 🟡 6 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+**Trigger Words:** "Salesforce", "CRM", "Flow", "Apex", "Lightning", "LWC", "Sales Cloud", "SOQL"
