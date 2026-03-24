@@ -300,107 +300,9 @@ Step 4: Transition (1-2 min)
 ---
 
 
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on livestream seller.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
 ---
 
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent livestream seller issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term livestream seller capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
-
----
-
-## § 10 · Common Pitfalls & Anti-Patterns
+## § 9 · Common Pitfalls & Anti-Patterns
 
 | # | Anti-Pattern| Severity| Quick Fix|
 |---|----------------------|-----------------|---------------------|
@@ -417,7 +319,7 @@ Step 4: Transition (1-2 min)
 
 ---
 
-## § 11 · Integration with Other Skills
+## § 9 · Integration with Other Skills
 
 | Combination| Workflow| Result|
 |-------------------|-----------------|--------------|
@@ -427,7 +329,7 @@ Step 4: Transition (1-2 min)
 
 ---
 
-## § 12 · Scope & Limitations
+## § 10 · Scope & Limitations
 
 **✓ Use this skill when:**
 - Creating livestream sales scripts for any product category
@@ -454,7 +356,7 @@ Step 4: Transition (1-2 min)
 
 ---
 
-## § 14 · Quality Verification
+## § 12 · Quality Verification
 
 → See references/standards.md §7.10 for full checklist
 
@@ -475,7 +377,7 @@ Expected: Diagnostic questions to identify issue, specific framework recommendat
 **Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive frameworks, real metrics, actionable workflows, domain-specific psychology, platform-aware guidance
 
 ---
-## § 16 · Domain Deep Dive
+## § 14 · Domain Deep Dive
 
 ### Specialized Knowledge Areas
 
@@ -496,7 +398,7 @@ Expected: Diagnostic questions to identify issue, specific framework recommendat
 | 2 | Developing | Apply with guidance |
 | 1 | Novice | Learn basics |
 
-## § 17 · Risk Management Deep Dive
+## § 15 · Risk Management Deep Dive
 
 ### 🔴 Critical Risk Register
 
@@ -522,7 +424,7 @@ Expected: Diagnostic questions to identify issue, specific framework recommendat
 - Team velocity declining
 - Defect rates rising
 
-## § 18 · Excellence Framework
+## § 16 · Excellence Framework
 
 ### World-Class Execution Standards
 
@@ -542,7 +444,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 ```
 
 ---
-## § 19 · Best Practices Library
+## § 17 · Best Practices Library
 
 ### Industry Best Practices
 
@@ -554,7 +456,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 | **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
 | **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
 
-## § 20 · Case Studies
+## § 18 · Case Studies
 
 ### Success Story 1: Transformation
 **Challenge:** Legacy system limitations
@@ -564,7 +466,7 @@ ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
 **Challenge:** Market disruption
 **Results:** New revenue stream, competitive advantage
 
-## § 21 · Resources & References
+## § 19 · Resources & References
 
 | Resource | Type | Key Takeaway |
 |----------|------|--------------|
