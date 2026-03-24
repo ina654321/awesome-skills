@@ -1,57 +1,101 @@
-# Evaluation Report: pharmaceutical-sales
+# EVALUATION_REPORT: pharmaceutical-sales
 
-## Summary
-
-| Metric | Before | After | Delta |
-|--------|--------|-------|-------|
-| **Overall Score** | 8.6/10 | 9.5/10 | +0.9 |
-| **text_score** | 9.1 | 9.5 | +0.4 |
-| **runtime_score** | 8.0 | 9.5 | +1.5 |
-| **variance** | 1.1 | 0.0 | -1.1 |
-| **Line Count** | 688 | 325 | -363 |
-
-## Quality Rubric Analysis
-
-| Dimension | Score | Assessment |
-|-----------|-------|------------|
-| **System Prompt** | 9.5/10 | Concise role definition, compliance gates, thinking patterns |
-| **Domain Knowledge** | 9.5/10 | Expert-level frameworks, realistic scenarios |
-| **Workflow** | 9.5/10 | Clear call flow, launch execution, objection handling |
-| **Risk Management** | 9.5/10 | Comprehensive compliance gates, mitigation strategies |
-| **Examples** | 9.5/10 | 4 detailed scenarios covering key situations |
-| **Metadata** | 9.5/10 | Complete with trigger_words, proper versioning |
-
-## Key Improvements
-
-1. **Removed duplicate content** — Eliminated redundant sections (§1.1 duplicated as §1.2)
-2. **Token optimization** — Reduced from 688 to 325 lines (-53%)
-3. **Compliance gates** — Added specific FDA/PhRMA decision framework
-4. **Scenario depth** — Added off-label inquiry + competitor objection scenarios
-5. **Trigger words** — Formalized in metadata for precise activation
-6. **Version bump** — 3.0.0 → 3.1.0 with updated date
-
-## Issues Fixed
-
-| Issue | Severity | Fix |
-|-------|----------|-----|
-| Duplicate role definition | 🟡 Medium | Consolidated into single §1.1 |
-| 688 lines (token waste) | 🟡 Medium | Trimmed to 325 lines |
-| Incomplete metrics table | 🟡 Medium | Simplified to actionable metrics |
-| Generic scenarios | 🟡 Medium | Added pharmaceutical-specific examples |
-| Missing trigger_words | 🟡 Medium | Added to metadata |
-
-## Validation
-
-- ✓ YAML frontmatter valid
-- ✓ Line count ≤500 (325)
-- ✓ trigger_words defined
-- ✓ Self-score: 9.5/10
-- ✓ Tier: Exemplary ⭐⭐
-
-## Status
-
-**✅ PASS** — Score improved from 8.6 to 9.5/10, meeting ≥9.5 target
+**Skill:** `skills/healthcare/pharmaceutical-sales/SKILL.md`
+**Evaluator:** skill-writer (6-dimension rubric)
+**Date:** 2026-03-24
 
 ---
 
-*Generated: 2026-03-23*
+## §7.1 Quality Rubric Assessment
+
+| Dimension | Weight | Score (1-10) | Notes |
+|-----------|--------|--------------|-------|
+| **System Prompt Depth** | 20% | 9.0 | Role + 3 gates + thinking patterns + communication style |
+| **Domain Knowledge Density** | 25% | 9.5 | Clinical detailing, territory management, KOL engagement, SPIN/MEDDIC/AIDA |
+| **Workflow Actionability** | 15% | 9.0 | Clinical detail call workflow, product launch workflow |
+| **Risk Documentation** | 10% | 9.5 | 5 risks (🔴 High), compliance-focused |
+| **Example Quality** | 20% | 9.5 | 4 scenarios: access objection, KOL development, off-label, competitor |
+| **Metadata Completeness** | 10% | 9.5 | All 9 fields in metadata, score: 9.5 |
+| **WEIGHTED TOTAL** | 100% | **9.35** | **Exemplary ⭐⭐** |
+
+---
+
+## §7.2 Metadata Verification
+
+| Field | Required | Present | Value |
+|-------|----------|---------|-------|
+| name | ✓ | ✓ | `pharmaceutical-sales` |
+| display_name | — | ✗ | Missing |
+| author | ✓ | ✓ | `neo.ai` |
+| version | ✓ | ✓ | `3.1.0` |
+| difficulty | ✓ | ✓ | `expert` |
+| category | ✓ | ✓ | `healthcare` |
+| tags | ✓ | ✓ | 5 tags ✅ |
+| platforms | — | ✗ | Missing |
+| description | ✓ | ✓ | ~180 chars ✅ |
+
+**Status:** ⚠️ PARTIAL — Missing `display_name`, `platforms`.
+
+---
+
+## §7.3 16-Section Compliance
+
+| # | Section | Status |
+|---|---------|--------|
+| 1 | System Prompt | ✅ |
+| 2 | What This Skill Does | ✅ |
+| 3 | Risk Disclaimer | ✅ |
+| 4 | Core Philosophy | ✅ |
+| 5 | Platform Support | ❌ MISSING |
+| 6 | Professional Toolkit | ✅ |
+| 7 | Standards & Quality | ✅ |
+| 8 | Standard Workflow | ✅ |
+| 9 | Scenario Examples | ✅ |
+| 10 | Common Pitfalls | ✅ |
+| 11 | Integration | ✅ |
+| 12 | Scope & Limitations | ✅ |
+| 13 | How to Use | ✅ |
+| 14 | Quality Verification | ✅ |
+| 15-16 | License/Version | ❌ MISSING |
+
+**Status:** ❌ FAIL — Missing §5, §15-§16.
+
+---
+
+## §7.9 Token Budget
+
+| Metric | Limit | Actual | Status |
+|--------|-------|--------|--------|
+| SKILL.md body | ≤500 | 325 | ✅ |
+| Description chars | ≤263 | ~180 | ✅ |
+
+**Status:** ✅ PASS
+
+---
+
+## Strengths
+
+1. **Expert sales frameworks** — SPIN, MEDDIC, AIDA with specific use cases
+2. **Compliance gates** — FDA, PhRMA, off-label, adverse event handling
+3. **KOL methodology** — Phased 12-18 month engagement approach
+4. **Realistic scenarios** — Access objection, competitor switching, off-label
+5. **Clear selling model** — Understand → Identify → Deliver → Address → Secure
+
+---
+
+## Issues
+
+| Priority | Issue |
+|----------|-------|
+| 🔴 HIGH | Missing §5 Platform Support |
+| 🔴 HIGH | Missing §15-§16 License/Version |
+| 🟡 MEDIUM | Missing `display_name` in YAML |
+| 🟡 MEDIUM | Missing `platforms` in YAML |
+
+---
+
+## Recommendation
+
+**⚠️ NEEDS FIX — Expert tier (9.35)**
+
+Required: Add §5 Platform Support, §15-§16, and YAML fields.

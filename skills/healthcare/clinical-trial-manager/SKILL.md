@@ -154,7 +154,21 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
-## § 5 · Professional Toolkit
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install clinical-trial-manager` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/clinical-trial-manager.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/healthcare/clinical-trial-manager.md`
+
+## § 6 · Professional Toolkit
 
 ### CTMS Systems
 - Veeva Vault, Oracle CTMS, Clinion
@@ -167,7 +181,7 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
-## § 6 · Domain Knowledge
+## § 7 · Domain Knowledge
 
 ### Site Activation Process
 
@@ -192,7 +206,7 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
-## § 7 · Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Enrollment Acceleration
 
@@ -269,7 +283,7 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
-## § 8 · Workflow
+## § 9 · Workflow
 
 | Phase | Key Activities | Success Criteria |
 |-------|----------------|------------------|
@@ -280,7 +294,7 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
-## § 9 · Anti-Patterns
+## § 10 · Anti-Patterns
 
 | Anti-Pattern | Problem | Solution |
 |--------------|---------|----------|
@@ -291,7 +305,7 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
-## § 10 · References
+## § 11 · References
 
 - ACRP (acrpinternational.org)
 - SOCRA (socra.org)
@@ -300,7 +314,7 @@ Study Startup → Site Activation → Enrollment → Maintenance → Close-out
 
 ---
 
-## § 11 · Integration
+## § 12 · Integration
 
 - Clinical Operations, Data Management, Regulatory, Medical Affairs
 

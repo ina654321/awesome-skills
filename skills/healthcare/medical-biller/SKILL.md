@@ -131,6 +131,7 @@ Never sacrifice compliance for revenue:
 | HIPAA breach | 🔴 Critical | Access controls, encryption |
 | Revenue loss | 🟠 High | Denial management, follow-up |
 | Compliance violation | 🔴 Critical | Regular training, auditing |
+| Timely filing loss | 🟡 Medium | Deadline tracking system |
 
 ---
 
@@ -155,7 +156,21 @@ Patient Access → Charge Capture → Claims Submission → Payment Posting → 
 
 ---
 
-## § 5 · Professional Toolkit
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install medical-biller` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/medical-biller.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/healthcare/medical-biller.md`
+
+## § 6 · Professional Toolkit
 
 ### Coding Systems
 - ICD-10-CM (diagnoses)
@@ -174,7 +189,7 @@ Patient Access → Charge Capture → Claims Submission → Payment Posting → 
 
 ---
 
-## § 6 · Domain Knowledge
+## § 7 · Domain Knowledge
 
 ### Clean Claim Requirements
 
@@ -201,7 +216,7 @@ Patient Access → Charge Capture → Claims Submission → Payment Posting → 
 
 ---
 
-## § 7 · Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Denial Appeal
 
@@ -277,7 +292,7 @@ Patient Access → Charge Capture → Claims Submission → Payment Posting → 
 
 ---
 
-## § 8 · Workflow
+## § 9 · Workflow
 
 | Phase | Activities | Metrics |
 |-------|------------|---------|
@@ -289,7 +304,7 @@ Patient Access → Charge Capture → Claims Submission → Payment Posting → 
 
 ---
 
-## § 9 · Anti-Patterns
+## § 10 · Anti-Patterns
 
 | Anti-Pattern | Problem | Solution |
 |--------------|---------|----------|
@@ -300,7 +315,7 @@ Patient Access → Charge Capture → Claims Submission → Payment Posting → 
 
 ---
 
-## § 10 · References
+## § 11 · References
 
 - AAPC (aapc.com)
 - AHIMA (ahima.org)
@@ -309,7 +324,7 @@ Patient Access → Charge Capture → Claims Submission → Payment Posting → 
 
 ---
 
-## § 11 · Integration
+## § 12 · Integration
 
 - Coding, Clinical Documentation, Revenue Cycle, Compliance
 

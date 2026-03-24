@@ -1,80 +1,86 @@
-# Evaluation Report: nursing-assistant
+# EVALUATION_REPORT: nursing-assistant
 
-## Score Summary
+**Skill:** `skills/healthcare/nursing-assistant/SKILL.md`
+**Evaluator:** skill-writer (6-dimension rubric)
+**Date:** 2026-03-24
 
-| Metric | Before | After | Change |
-|--------|--------|-------|--------|
-| **Weighted Avg** | 8.8/10 | **9.57/10** | +0.77 |
-| System Prompt | 10 | 10 | — |
-| Domain Knowledge | 10 | 10 | — |
-| Workflow | 5 | 8 | +3 |
-| Risk Documentation | 10 | 10 | — |
-| Example Quality | 7 | 10 | +3 |
-| Metadata | 7 | 9.5 | +2.5 |
-| Content Efficiency | 5.5 | 9.0 | +3.5 |
-| Token Cost Efficiency | 8.0 | 9.0 | +1.0 |
+---
 
-## 6-Dimension Rubric Analysis
+## §7.1 Quality Rubric Assessment
 
-### Dimension 1: System Prompt — 10/10 (Exemplary)
-- Role definition: crystal clear — CNA with 5+ years experience, specific expertise areas
-- Decision framework: 4-gate decision tree covering scope, nurse notification, PPE, safety
-- Thinking patterns: 5 dimensions (Patient Safety, Scope, Infection Control, Dignity, Communication)
-- Communication style: SBAR examples, empathetic patient tone, direct team communication
-- **No changes needed** — already at maximum
+| Dimension | Weight | Score (1-10) | Notes |
+|-----------|--------|--------------|-------|
+| **System Prompt Depth** | 20% | 9.5 | Role + 4 gates + thinking patterns + communication style |
+| **Domain Knowledge Density** | 25% | 9.5 | Vital signs, ADL, Morse Fall Scale, NPUAP, infection control |
+| **Workflow Actionability** | 15% | 9.5 | Morning care (5 phases), vital signs (3 steps), [✓ Done] |
+| **Risk Documentation** | 10% | 9.5 | 10 risks with probability-impact matrix |
+| **Example Quality** | 20% | 9.5 | 6 scenarios: fall risk, deterioration, infection, fall, scope, dementia |
+| **Metadata Completeness** | 10% | 9.0 | All core fields, missing `platforms` |
+| **WEIGHTED TOTAL** | 100% | **9.45** | **Exemplary ⭐⭐** |
 
-### Dimension 2: Domain Knowledge — 10/10 (Exemplary)
-- Accurate clinical knowledge: vital signs, Morse Fall Scale, NPUAP pressure injuries, isolation types
-- Comprehensive coverage of CNA scope: ADL, vital signs, infection control, safe handling
-- Current best practices: CDC/OSHA-aligned infection control, evidence-based fall/pressure assessment
-- **No changes needed** — already at maximum
+---
 
-### Dimension 3: Workflow — 8/10 (Good)
-- Added § 5 Structured Workflow with phase-by-phase `[✓ Done]` criteria
-- § 8 Standard Workflow tables: 5 phases for ADL, 3 steps for vital signs
-- Decision tree (converted to table): 7 scenarios requiring immediate RN notification
-- Entry/exit criteria tables in § 5
-- **Minor gap**: Workflow scorer caps at 8/10 (phases + [✓ Done] + steps = 8); reaching 10 would need decision trees with validation checkpoints integrated into the workflow itself
+## §7.2 Metadata Verification
 
-### Dimension 4: Risk Documentation — 10/10 (Exemplary)
-- Replaced generic business risk framework with healthcare-specific risks
-- 10 risk categories: falls, HAIs, medication errors, pressure injuries, dignity violations, missed reporting, scope violations, equipment misuse, workplace violence, documentation errors
-- Healthcare-specific mitigation strategies
-- Risk monitoring KPIs: fall rate, HAI rate, hand hygiene compliance, documentation compliance
-- **No changes needed** — already at maximum
+| Field | Required | Present | Value |
+|-------|----------|---------|-------|
+| name | ✓ | ✓ | `nursing-assistant` |
+| display_name | — | ✗ | Missing |
+| author | ✓ | ✓ | `neo.ai` |
+| version | ✓ | ✓ | `3.1.0` |
+| difficulty | ✓ | ✓ | `beginner` |
+| category | ✓ | ✓ | `healthcare` |
+| tags | ✓ | ✓ | 11 tags ✅ |
+| platforms | — | ✗ | Missing |
+| description | ✓ | ✓ | ~350 chars ⚠️ OVER |
 
-### Dimension 5: Examples — 10/10 (Exemplary)
-- Expanded from 3 to 6 diverse scenarios covering: fall risk, vital sign abnormality, infection control, active fall, scope of practice (medication refusal), dementia communication
-- Reformatted to use `User:` / `Expert:` / `Response:` conversation flow pattern
-- Each example has clear Input, Process, and Output
-- Includes error case (Scenario 5: medication refusal) and complex case (Scenario 2: multi-parameter deterioration)
-- 16 code blocks total — exceeds rubric threshold of 3+
-- **Achieved maximum** through reformatting and expansion
+**Status:** ⚠️ PARTIAL — Missing `display_name`, `platforms`; description too long.
 
-### Dimension 6: Metadata — 9.5/10 (Excellent)
-- Added missing YAML fields: `tier: expert`, `certified: true`
-- Added § 14 Version History section (+2 points)
-- Added § 15 License & Author section (+1 point)
-- All 9 required frontmatter fields present
-- Version format validated as semver
-- **Minor gap**: `quality` field missing from recommended fields; would require slight metadata reorganization
+---
 
-## Core Fixes Applied
+## §7.3 16-Section Compliance
 
-1. **Content Efficiency (5.5 → 9.0)**: Fixed prose runs caused by ASCII art diagrams and tree-format code blocks. Converted ASCII box diagram in § 4 to a table. Converted tree-format workflow in § 8 to tables. Converted tree-format decision tree in § 5 to a table. Reduced total non-empty lines from ~750 to ~400.
+All 14 core sections present: §1-§4, §5-§12, §13-§15.
 
-2. **Example Quality (7 → 10)**: Reformatted all 6 scenarios to use `User:` / `Expert:` / `Response:` conversation flow in code blocks. Added 3 new scenarios (medication refusal, dementia communication, active fall). Each now has explicit Input/Process/Output structure.
+**Status:** ✅ PASS
 
-3. **Workflow (5 → 8)**: Added § 5 Structured Workflow with explicit `[✓ Done]` phase completion criteria. Converted § 8 to structured tables with phase/done criteria. Added decision tree as a table format with 7 escalation scenarios.
+---
 
-4. **Metadata (7 → 9.5)**: Added `tier` and `certified` fields to YAML. Added § 14 Version History and § 15 License & Author sections. Updated version to 3.1.0 with semver format.
+## §7.9 Token Budget
 
-5. **Healthcare-Specific Risk Disclaimer**: Replaced generic business risk framework (financial loss, scope creep, etc.) with healthcare-relevant risks: patient falls, HAIs, medication errors, pressure injuries, scope violations.
+| Metric | Limit | Actual | Status |
+|--------|-------|--------|--------|
+| SKILL.md body | ≤500 | 512 | ⚠️ 12 over |
+| Description chars | ≤263 | ~350 | ⚠️ OVER |
 
-6. **Removed Boilerplate**: Eliminated generic §§ 16-21 from original template (Domain Deep Dive, Excellence Framework, Best Practices Library, etc. — not relevant to CNA practice).
+**Status:** ⚠️ MINOR ISSUES
 
-7. **Fixed Section Numbers**: Removed gap at § 5, added proper § 13-15 sections.
+---
 
-## Status
+## Strengths
 
-✅ **PASS** — 9.57/10 exceeds target of 9.5/10
+1. **10-risk framework** with probability-impact matrix and 3-layer mitigation
+2. **Detailed workflows** — Morning care (5 phases), vital signs (3 steps), all with [✓ Done]
+3. **Clinical depth** — Morse Fall Scale, NPUAP staging, vital signs thresholds
+4. **6 realistic scenarios** — Fall risk, deterioration, infection control, scope refusal, dementia
+5. **SBAR communication** — Clear examples for nurse reporting
+6. **Decision tree** — "When to call the nurse immediately"
+
+---
+
+## Issues
+
+| Priority | Issue |
+|----------|-------|
+| 🟡 MEDIUM | Missing `display_name` in YAML |
+| 🟡 MEDIUM | Missing `platforms` in YAML |
+| 🟡 MEDIUM | Description >263 chars (trim ~90 chars) |
+| 🟡 MEDIUM | 512 lines (remove ~12 lines) |
+
+---
+
+## Recommendation
+
+**⚠️ NEEDS MINOR FIX — Exemplary tier (9.45)**
+
+Content is exemplary. Fix metadata gaps and trim token budget.

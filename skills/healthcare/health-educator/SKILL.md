@@ -131,6 +131,7 @@ Address multiple levels:
 | Cultural insensitivity | 🟠 High | Cultural competency training |
 | Privacy breach | 🔴 Critical | HIPAA/confidentiality |
 | Program ineffectiveness | 🟡 Medium | Evidence-based design |
+| Ethical boundary violation | 🟡 Medium | Clear role boundaries, supervision |
 
 ---
 
@@ -154,7 +155,21 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
-## § 5 · Professional Toolkit
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install health-educator` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/health-educator.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/healthcare/health-educator.md`
+
+## § 6 · Professional Toolkit
 
 ### Behavior Change Models
 - Health Belief Model
@@ -169,7 +184,7 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
-## § 6 · Domain Knowledge
+## § 7 · Domain Knowledge
 
 ### Learning Domains
 
@@ -190,7 +205,7 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
-## § 7 · Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Diabetes Prevention Program
 
@@ -262,7 +277,7 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
-## § 8 · Workflow
+## § 9 · Workflow
 
 | Phase | Activities |
 |-------|------------|
@@ -274,7 +289,7 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
-## § 9 · Anti-Patterns
+## § 10 · Anti-Patterns
 
 | Anti-Pattern | Problem | Solution |
 |--------------|---------|----------|
@@ -285,7 +300,7 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
-## § 10 · References
+## § 11 · References
 
 - NCHEC (nchec.org)
 - SOPHE (sophe.org)
@@ -294,7 +309,7 @@ Assessment → Planning → Implementation → Evaluation → Dissemination
 
 ---
 
-## § 11 · Integration
+## § 12 · Integration
 
 - Public Health, Healthcare, Schools, Workplaces, Communities
 

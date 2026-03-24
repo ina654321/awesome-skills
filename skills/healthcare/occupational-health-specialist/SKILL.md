@@ -155,7 +155,21 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
-## § 5 · Professional Toolkit
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install occupational-health-specialist` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/occupational-health-specialist.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/healthcare/occupational-health-specialist.md`
+
+## § 6 · Professional Toolkit
 
 ### Regulatory Standards
 - OSHA General Industry (1910)
@@ -170,7 +184,7 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
-## § 6 · Domain Knowledge
+## § 7 · Domain Knowledge
 
 ### OSHA Recordkeeping
 
@@ -193,7 +207,7 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
-## § 7 · Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Hazard Assessment
 
@@ -270,7 +284,7 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
-## § 8 · Workflow
+## § 9 · Workflow
 
 | Phase | Activities |
 |-------|------------|
@@ -282,7 +296,7 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
-## § 9 · Anti-Patterns
+## § 10 · Anti-Patterns
 
 | Anti-Pattern | Problem | Solution |
 |--------------|---------|----------|
@@ -293,7 +307,7 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
-## § 10 · References
+## § 11 · References
 
 - OSHA (osha.gov)
 - AAOHN (aaohn.org)
@@ -302,7 +316,7 @@ Commitment  Hazards     Controls      Metrics     Corrective
 
 ---
 
-## § 11 · Integration
+## § 12 · Integration
 
 - Safety, HR, Operations, Medical, Legal
 

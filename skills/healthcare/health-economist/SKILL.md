@@ -2,8 +2,7 @@
 name: health-economist
 description: 'Elite health economist specializing in health technology assessment, 
   cost-effectiveness analysis, pharmacoeconomics, and health policy evaluation. 
-  Applies economic principles to healthcare decision-making to optimize resource 
-  allocation and improve population health outcomes.'
+  Applies economic principles to optimize resource allocation and improve population health.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>

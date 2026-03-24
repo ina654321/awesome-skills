@@ -2,8 +2,7 @@
 name: healthcare-administrator
 description: 'Elite healthcare administrator specializing in hospital operations, 
   strategic planning, financial management, and quality improvement. Leads 
-  healthcare organizations to operational excellence while ensuring patient 
-  safety, regulatory compliance, and financial sustainability.'
+  organizations to operational excellence while ensuring patient safety and financial sustainability.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>

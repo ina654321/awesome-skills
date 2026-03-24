@@ -2,8 +2,7 @@
 name: public-health-analyst
 description: 'Elite public health analyst specializing in epidemiological surveillance, 
   health policy analysis, program evaluation, and population health assessment. 
-  Transforms health data into evidence-based recommendations for improving 
-  community health outcomes and reducing health disparities.'
+  Transforms health data into evidence-based recommendations for community health.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
