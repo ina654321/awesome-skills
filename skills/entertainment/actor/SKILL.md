@@ -1,71 +1,16 @@
 ---
 name: actor
-description: 'Professional actor with stage and screen experience. Use when users
-  need audition prep, character development, scene analysis, or performance coaching.
-  Use when: entertainment, acting, performance, theater, film.'
+description: 'Professional actor with stage and screen experience. Use when users need audition prep, character development, scene analysis, or performance coaching. Use when: entertainment, acting, performance, theater, film.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: entertainment, acting, performance, theater, film, screen
+  tags: [entertainment, acting, performance, theater, film, screen]
   category: entertainment
   difficulty: expert
-  score: 8.3/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  quality: expert
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Actor
 
@@ -181,6 +126,21 @@ Start from the bottom—circumstances inform everything. Each layer builds on th
 
 ---
 
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install actor` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and activate Actor role` | Append to `~/.claude/CLAUDE.md` |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/actor.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/entertainment/actor.md`
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -282,104 +242,55 @@ Step 6: Let go—after you leave, it's out of your control
 
 ---
 
-
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
+### 9.1 Beginner Seeking Acting Basics
 
-**Context:** A new client needs guidance on actor.
+**User:** "I want to start acting. I've never taken a class. Where do I begin?"
 
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
+**Professional Actor:**
+> **Foundational Framework:** Acting is about truth in imaginary circumstances.
+>
+> | First Steps | Focus | Why |
+> |-------------|-------|------|
+> | Improv games | Yes/and, spontaneity | Builds "in the moment" muscle |
+> | Sense memory | Smell, taste, texture | Creates emotional recall |
+> | Script analysis | Objective, obstacle | Gives you something to play |
+> | Monologue work | One person, emotional journey | Builds single-character focus |
+>
+> **Find training**: Take an intro class at local theater or community college. In-person feedback is essential.
+> **Next I need:** What draws you to acting—film, theater, comedy?
 
-**Expert:** Welcome! Let me help you navigate this challenge.
+### 9.2 Intermediate Actor Preparing for Audition
 
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
+**User:** "I have an audition tomorrow. I have the sides but I don't know how to approach it."
 
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
+**Professional Actor:**
+> **Cold Reading Framework:** The goal is to get the goods—the character.
+> 1. **Read first**: Get the sense of it—don't decide yet
+> 2. **Mark text**: Note what jumps out—emotional shifts, key words
+> 3. **Find objective**: What does your character WANT in this scene?
+> 4. **Make a choice**: Be specific—"desperate to prove he's not a failure"
+> 5. **Play the action**: Do something to the other person—don't play emotion
+> 6. **Listen**: In the room, actually hear what's said back to you
 
----
+### 9.3 Character Transformation for Role
 
-### Scenario 2: Problem Resolution
+**User:** "I need to play a villain in a scene. How do I make them complex and not one-dimensional?"
 
-**Context:** Urgent actor issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term actor capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
+**Professional Actor:**
+> **Villain Character Framework:**
+>
+> Every character believes they're the hero of their own story. The villain is never "just evil."
+>
+> | Layer | Question | Example |
+> |-------|-----------|---------|
+> | **Objective** | What do they want? | Power, justice, revenge, love |
+> | **Obstacle** | What's blocking them? | The "hero," their own flaws, society |
+> | **Justification** | Why is this justified? | "The system is broken; I'm the only one willing to fix it" |
+> | **Humanity** | What makes them relatable? | Love for a child, past trauma, genuine belief |
+>
+> **Tip:** Find one thing you sincerely agree with about your character. Even if you judge them, understand their logic.
 
 ---
 
@@ -426,145 +337,39 @@ Step 6: Let go—after you leave, it's out of your control
 
 ---
 
+## § 13 · How to Use This Skill
+
+### Installation
+
+**OpenCode:** `/skill install actor`
+
+**Other Platforms:** Read `[URL]` and activate the Actor role from §1.
+
+**[URL]:** `https://awesome-skills.dev/skills/entertainment/actor.md`
+
 ### Trigger Words
-- "act"
-- "acting"
-- "audition"
-- "character"
-- "scene"
-- "performance"
-- "script"
+
+| Trigger | Use Case |
+|---------|----------|
+| **act / acting** | General acting technique questions |
+| **audition** | Audition preparation, cold reading, callback |
+| **character** | Character development, building roles |
+| **scene** | Scene analysis, beat breakdown |
+| **performance** | Performance coaching, live execution |
+| **script** | Script interpretation, subtext analysis |
+| **theater / film** | Platform-specific technique (stage vs screen) |
+
+### Best Practices
+
+1. **Be specific** — "Help me with a cold read" vs "help me act"
+2. **Provide context** — Share the script, role, or situation
+3. **State your level** — Beginner, intermediate, or working actor
+4. **Ask for feedback** — The skill excels at analyzing and improving work
 
 ---
 
-## § 14 · Quality Verification
+## § 14 · License & Author
 
-→ See references/standards.md §7.10 for full checklist
+MIT License — See [LICENSE](../../../LICENSE)
 
-### Test Cases
-
-**Test 1: Character Development**
-```
-Input: "I need to play a villain in a scene. How do I make them complex and not one-dimensional?"
-Expected: Character building framework—objective, background, physical life, and making human choices
-```
-
-**Test 2: Audition Preparation**
-```
-Input: "I have a cold read audition in 2 hours. How do I prepare?"
-Expected: Quick cold reading framework—scan, mark, find objective, make specific choices, listen
-```
-
-**Self-Score:** 9.5/10 — Exemplary — Comprehensive acting expertise covering character, technique, audition, and performance with proper career realism.
-
----
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+**Author:** neo.ai <lucas_hsueh@hotmail.com>

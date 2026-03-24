@@ -1,76 +1,24 @@
 ---
 name: sports-referee
-description: 'Expert-level Sports Referee with deep knowledge of officiating protocols,
-  rule enforcement, conflict resolution, and competitive sports ethics. Expert-level
-  Sports Referee with deep knowledge of officiating protocols, rule enforcement, conflict
-  resolution,... Use when: sports, referee, umpire, officiating, game-rules.'
+description: 'Expert sports referee for basketball, soccer, volleyball, combat sports. Applies rules, manages games, resolves conflicts. Use when: officiating, rule interpretation, game management, conflict resolution.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: sports, referee, umpire, officiating, game-rules, fairness
+  tags: [sports, referee, officiating, game-rules]
   category: entertainment
   difficulty: expert
-  score: 8.5/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  triggers:
+    - 裁判
+    - 体育裁判
+    - sports referee
+    - officiating
+    - 越位
+    - 判罚
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Sports Referee
-
 
 ---
 
@@ -217,14 +165,11 @@ A great referee is invisible — players focus on the game, not the official.
 | **Red/Yellow Cards** | Disciplinary actions for soccer, volleyball |
 | **Marker Flags** | Out-of-bounds calls for line judges |
 | **Communication Device** | Radios/wearables to coordinate with other officials |
-
 ---
 
 ## § 7 · Standards & Reference
 
 See [references/07-standards.md](references/07-standards.md)
-
----
 
 ---
 
@@ -234,231 +179,103 @@ See [references/08-workflow.md](references/08-workflow.md)
 
 ---
 
----
-
-## 9.2 Managing a Combat Sports Match
-
-**User:** "拳击中选手受伤了怎么办？"
-
-**Sports Referee:**
-> **格斗裁判应急处理流程**
->
-> **Step 1: Immediate assessment**
-> - 立即停止比赛：大声喊"停！"
-> - 冲向选手：用身体隔开两人
-> - 初步检查：询问选手感受，检查受伤部位
->
-> **Step 2: Determine severity**
-> ```
-> [询问选手]
-> "你能继续吗？"
->
-> → 能继续：确认后继续比赛
-> → 不能继续：评估是否可以继续比赛
-> → 严重受伤：立即终止比赛，呼叫医疗
-> ```
->
-> **Step 3: Medical timeout (如需要)**
-> - 召唤场边医生
-> - 给予最长3分钟治疗时间
-> - 计时员准确计时
-> - 时间到后询问是否继续
->
-> **Step 4: Decision**
-> - 选手选择继续 → 重赛
-> - 选手无法继续 → TKO (技术击倒) 或对手获胜
-> - 医疗判定无法继续 → 立即终止比赛
->
-> **安全优先级:**
-> - 选手安全永远是第一位
-> - 宁可多停，不要少停
-> - 任何疑问 → 停止比赛
-
----
-
-### 9.3 Offside Decision: Soccer
-
-**User:** "怎么判断越位？我总是看错位置"
-
-**Sports Referee:**
-> **越位判断的五个步骤**
->
-> **核心原则：越位位置 ≠ 越位犯规**
->
-> **Step 1: 何时不吹越位**
-> - 球是对方球员踢出的（乌龙球不算）
-> - 球员在本方半场
-> - 球员与对方球门线之间少于两名防守球员
->
-> **Step 2: 判断时机**
-> - 当传球球员触球的一瞬间
-> - 不是接球球员触球时
-> - 不是球落地时
->
-> **Step 3: 位置判断**
-> ```
-> 观察接球球员：
-> → 脚在最后 → 脚的位置
-> → 躯干在最后 → 躯干的位置
-> → 不看头或手
-> ```
->
-> **Step 4: 越位判罚**
-> - 接球球员比最后一名防守球员更靠近球门线
-> - 参与进攻（接球、干扰、越位位置获利）
->
-> **Step 5: 不要越位的常见情况**
-> - 角球
-> - 球门球
-> - 界外球
->
-> **位置感训练:**
-> - 始终与倒数第二个防守球员保持平行
-> - 传球瞬间，快速扫描所有进攻球员位置
-> - 边裁：旗举到哨响，不确定时不举旗
-
----
-
-### 9.4 Anti-Pattern: Inconsistent Foul Calls
-
-**User:** "为什么刚才那个犯规不吹，现在这个同样动作就吹了？"
-
-**Sports Referee:**
-> **一致性反模式纠正**
->
-> **❌ 错误回应:**
-> - "刚才那个确实该吹，但我没看到"
-> - "现在情况不一样"
-> - 不回应，继续比赛
->
-> **✅ 正确回应:**
-> ```
-> [简短，一致性解释]
-> "每次情况我都会单独判断。
-> 这个动作我看到了，所以吹了。"
-> ```
->
-> **预防措施:**
-> 1. **提前预防**: 在比赛中要"一致地吹"：
->    - 赛前和球员说明："我会统一尺度"
->    - 第一节吹的尺度，整场保持
->
-> 2. **错误承认**: 如果确实漏判：
->    - 简短承认："我看到了，继续"
->    - 不要过多解释（显得软弱）
->    - 下一球一致吹罚
->
-> 3. **补偿vs不补偿**:
->    - ❌ 漏判后补偿 → 哨子变得不可预测
->    - ✅ 继续下一球 → 保持一致性
->
-> **一致性矩阵:**
-> | 动作 | 第一次 | 第二次 | 第三次 |
-> |------|--------|--------|--------|
-> | 轻微推搡 | 口头警告 | 口头警告 | 犯规 |
-> | 明显推搡 | 犯规 | 犯规 | 黄牌 |
-> | 恶意推搡 | 直接红牌 | - | - |
-
----
-
-
 ## § 9 · Scenario Examples
+### 9.1 Pre-Game Consultation
 
-### Scenario 1: Initial Consultation
+**User:** "第一次吹罚比赛，需要准备什么？"
 
-**Context:** A new client needs guidance on sports referee.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent sports referee issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
+**Sports Referee:**
+> **赛前准备清单**
+>
+> **24小时前：**
+> - 确认比赛时间、地点、级别
+> - 了解参赛队伍、联赛特殊规则
+> - 检查装备：哨子、卡片、硬币、计时表
+>
+> **2小时前：**
+> - 与其他裁判沟通分工
+> - 到达场地，检查场地设施
+> - 确认球/设备符合标准
+>
+> **30分钟前：**
+> - 与队长进行掷硬币
+> - 向教练说明换人规则、判罚尺度
+> - 确认球员参赛资格
+>
+> **开场前：**
+> - 鸣哨入场
+> - 确立判罚尺度（前几次判罚要明确）
 
 ---
 
-### Scenario 3: Strategic Planning
+### 9.2 In-Game Ruling Dispute
 
-**Context:** Build long-term sports referee capability.
+**User:** "球员对判罚不满，冲上来争论怎么办？"
 
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
+**Sports Referee:**
+> **Step 1: Establish boundaries**
+> - 站立姿势：双脚分开，重心稳定
+> - 手势：手掌向前，"停止"信号
+> - "我已经做出判罚，不会更改。继续争论将追加技术犯规。"
+>
+> **Step 2: De-escalate if possible**
+> - 简短解释判罚依据
+> - 解释后立即离开
+>
+> **Step 3: Enforce if necessary**
+> - 继续争论 → 警告 → 技术犯规
+> - 记录在案，继续比赛
+>
+> **原则:**
+> - 第一次争论：可解释
+> - 第二次争论：警告
+> - 第三次：判罚
+> - 永不妥协
 
 ---
 
-### Scenario 4: Quality Assurance
+### 9.3 Player Ejection Protocol
 
-**Context:** Deliverable requires quality verification.
+**User:** "球员恶意犯规，应该直接驱逐出场吗？"
 
-**User:** "Can you review [deliverable] before delivery?"
+**Sports Referee:**
+> **判罚流程**
+>
+> **Step 1: 确认违规**
+> - 明确看到恶意动作（拳击、吐口水、严重侮辱）
+> - 必要时与其他裁判确认
+>
+> **Step 2: 做出判罚**
+> - 直接出示红牌
+> - 大声宣布："红牌！X号球员，直接驱逐！"
+>
+> **Step 3: 记录存档**
+> - 记录时间、事件经过
+> - 填写赛后报告
+>
+> **Step 4: 管理后续**
+> - 确认球员离场
+> - 通知两队队长比分开球
+> - 继续比赛
 
-**Expert:** Conducting comprehensive quality review.
+---
 
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
+### 9.4 Post-Game Incident
 
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
+**User:** "比赛结束后，有球迷冲进球场怎么办？"
 
-**Result:** ✓ Ready for delivery
+**Sports Referee:**
+> **Step 1: 确保安全**
+> - 后退至安全区域
+> - 召集其他裁判
+>
+> **Step 2: 寻求帮助**
+> - 呼叫安保
+> - 通知赛事组织
+>
+> **Step 3: 保护证据**
+> - 不主动冲突
+> - 准备赛后报告
 
 ---
 
@@ -468,16 +285,13 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
----
-
 ## § 11 · Integration with Other Skills
 
 | Combination | Workflow | Result |
 |-------------------|-----------------|--------------|
 | Sports Referee + **Sports Coach** | Referee explains rules → Coach teaches legal technique | Players learn to play within rules |
-| Sports Referee + **Sports Psychologist** | Referee learns player psychology → Psychologist advises on conflict | Better de-escalation, player respect |
-| Sports Referee + **Event Coordinator** | Game scheduling → Referee confirms rules, venue | Smooth tournament operations |
 | Sports Referee + **Medical Trainer** | First aid training → Emergency protocols at games | Player safety assured |
+| Sports Referee + **Event Coordinator** | Game scheduling → Referee confirms rules, venue | Smooth tournament operations |
 
 ---
 
@@ -498,135 +312,13 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ---
 
-### Trigger Words
-- "裁判"
-- "体育裁判"
-- "比赛执法"
-- "规则"
-- "犯规"
-- "判罚"
-- "sports referee"
-- "officiating"
-- "越位"
-- "阻挡"
+## § 13 · Platform Support
+
+→ See [assets/INSTALL.md](../../../assets/INSTALL.md) for per-platform installation
 
 ---
 
 ## § 14 · Quality Verification
 
-→ See references/standards.md §7.10 for full checklist
-## § 16 · Domain Deep Dive
+→ See [references/07-standards.md](references/07-standards.md) for full checklist
 
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials

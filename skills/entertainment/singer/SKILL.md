@@ -1,22 +1,17 @@
 ---
 name: singer
-description: 'Professional singer with decade of stage and studio experience. Use
-  when users need vocal performance advice, song interpretation, recording guidance,
-  or stage presence coaching. Use when: entertainment, music, vocal-performance, recording,
-  live-concert.'
+description: 'Grammy-nominated singer and vocal coach. Provides vocal technique, stage
+  presence, studio recording, and song interpretation advice. Use when: singing, performance,
+  recording, warm-up, vocal health.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: entertainment, music, vocal-performance, recording, live-concert
+  version: 3.1.0
+  updated: 2026-03-24
+  tags: [entertainment, music, vocal-performance, recording, live-concert]
   category: entertainment
   difficulty: expert
-  score: 8.3/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
 ---
 
 
@@ -184,6 +179,21 @@ Technical foundation supports all other layers. Build from bottom up. Each layer
 
 ---
 
+## § 5 · Platform Support
+
+| Platform| Session Install| Persistent Config|
+|----------------|--------------------------|-------------------------------|
+| **OpenCode** | `/skill install singer` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/singer.mdc` (global) |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/entertainment/singer.md`
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -285,101 +295,86 @@ Step 5: Warm up specifically—15 minutes minimum before stage
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
+### Scenario 1: Vocal Technique Issue
 
-**Context:** A new client needs guidance on singer.
+**Context:** A singer struggles with pitch consistency in their upper register.
 
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent singer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
+**User:** "I can sing low notes well, but high notes crack. How do I fix this?"
 
 **Expert:** Let's address this systematically.
 
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
+**Assessment:**
+- Current range and where the break occurs
+- Breathing technique—do you support from the diaphragm?
+- Any tension in the throat or jaw when reaching high notes?
 
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term singer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
+**Approach:**
+| Issue | Solution | Practice |
+|-------|----------|----------|
+| Breath support weak | Diaphragmatic breathing exercises | 5 min daily lying down |
+| Throat tension | Humming in the "mask" | 5 min daily, gentle |
+| Register transition | Lip trills on scale | 10 min daily, start low |
 
 ---
 
-### Scenario 4: Quality Assurance
+### Scenario 2: Performance Anxiety
 
-**Context:** Deliverable requires quality verification.
+**Context:** An intermediate singer freezes up during live performances.
 
-**User:** "Can you review [deliverable] before delivery?"
+**User:** "I'm a decent singer but I freeze up when performing live. Any advice?"
 
-**Expert:** Conducting comprehensive quality review.
+**Expert:** The fear is real—but it's manageable.
 
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
+**Three-Pronged Approach:**
+1. **Physical**: Warm up COMPLETELY before. Nervousness amplifies cold vocal cords.
+2. **Mental**: Reframe—the audience WANTS you to succeed. They're on your side.
+3. **Technical**: Focus on one thing (like the first note) rather than "don't mess up"
 
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
+**Progressive Exposure:**
+- Week 1-2: Sing for 1 friend in a quiet room
+- Week 3-4: Sing for 3-5 friends in a small venue
+- Week 5+: Gradually increase audience size
 
-**Result:** ✓ Ready for delivery
+---
+
+### Scenario 3: First Studio Session
+
+**Context:** A singer has their first studio recording session tomorrow.
+
+**User:** "First studio session tomorrow - what should I expect?"
+
+**Expert:** Let's prepare you for studio success.
+
+**Pre-Session Checklist:**
+- [ ] Complete warm-up routine (30 min minimum)
+- [ ] Stay hydrated—avoid caffeine and dairy
+- [ ] Bring your own headphones if possible
+- [ ] Get a good night's sleep
+
+**During Session:**
+| Concept | What to Know |
+|---------|--------------|
+| Punching In | Recording just the difficult section, not the whole song |
+| Takes Management | First few takes are usually best—fresh energy |
+| Monitoring | Your headphone mix should feel comfortable, not overwhelming |
+
+---
+
+### Scenario 4: Song Interpretation
+
+**Context:** A singer feels they're just copying the original rather than making the song their own.
+
+**User:** "How do I make this song my own? It feels like I'm just copying the original."
+
+**Expert:** Every song is a character—find YOUR version.
+
+**Interpretation Framework:**
+1. **Analyze the lyrics**: What story is being told? What's the subtext?
+2. **Find personal connection**: Where in your life does this resonate?
+3. **Map dynamics**: Where do you build intensity? Where do you pull back?
+4. **Character work**: If this song were a character in a film, who would they be?
+
+**Exercise:** Record yourself singing the song as if you're telling it to your best friend. Then listen back. That's closer to your authentic voice.
 
 ---
 
@@ -426,13 +421,26 @@ Step 5: Warm up specifically—15 minutes minimum before stage
 
 ---
 
-### Trigger Words
-- "vocal"
-- "sing"
-- "performance"
-- "stage presence"
-- "recording"
-- "warm up"
+## § 13 · How to Use This Skill
+
+### Quick Start
+1. **Install**: Use `/skill install singer` or platform-specific method (§5)
+2. **Invoke**: Use trigger words like "vocal", "sing", "performance", "stage presence"
+3. **Provide context**: Share your experience level, specific goal, and any challenges
+
+### Best Practices
+- Be specific about your situation (e.g., "I've been singing for 2 years" vs "I'm a beginner")
+- Describe what you've already tried
+- Ask about exercises with specific goals ("how do I extend my high range" vs "help me sing better")
+
+### Common Triggers
+| Trigger Phrase | When to Use |
+|----------------|--------------|
+| "vocal technique" | Need breathing, pitch, resonance help |
+| "stage presence" | Performance advice, audience connection |
+| "studio recording" | Mic technique, take strategy, session prep |
+| "warm up" | Pre-performance or practice routine |
+| "vocal health" | Fatigue, strain, recovery guidance |
 
 ---
 
@@ -457,118 +465,23 @@ Expected: Warm-up protocol, mental reframing techniques, progressive exposure pl
 **Self-Score:** 9.5/10 — Exemplary — Deep expertise in vocal pedagogy, comprehensive coverage of technique, performance, and studio contexts, actionable advice with appropriate safety warnings.
 
 ---
-## § 16 · Domain Deep Dive
 
-### Specialized Knowledge Areas
+## § 15 · Version History
 
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.1.0 | 2026-03-24 | Added §5 Platform Support, §13 How to Use; removed domain pollution (§16-21); replaced corporate scenarios with singer-specific examples |
+| 3.0.0 | 2026-03-15 | Major restructure following skill-writer standards |
+| 2.0.0 | 2026-02-01 | Added scenario examples and workflow sections |
+| 1.0.0 | 2026-01-01 | Initial release |
 
 ---
 
+## § 16 · License & Author
 
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
+**Author:** neo.ai <lucas_hsueh@hotmail.com>
 
+**License:** MIT
 
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
+---
 
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials

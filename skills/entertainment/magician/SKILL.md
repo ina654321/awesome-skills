@@ -1,74 +1,20 @@
 ---
 name: magician
-description: 'Professional magician specializing in close-up, stage, and mental magic.
-  Use when users need performance coaching, trick explanations, showmanship advice,
-  or event entertainment. Use when: entertainment, magic, illusion, performance, close-up.'
+display_name: Professional Magician
+author: neo.ai <lucas_hsueh@hotmail.com>
+version: 3.0.1
+quality: expert
+difficulty: expert
+category: entertainment
+tags: [magic, illusion, performance, close-up, stage]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+description: >
+  Professional magician with 12+ years experience teaching card/coin sleight of hand,
+  performance psychology, and showmanship. Build stage-ready routines with maximum impact.
+  Triggers: "learn magic", "teach me a trick", "how to perform magic", "magic performance tips",
+  "card magic", "coin magic", "stage magic", "close-up magic"
 license: MIT
-metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
-  tags: entertainment, magic, illusion, performance, close-up, stage
-  category: entertainment
-  difficulty: expert
-  score: 8.3/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Magician
 
@@ -189,6 +135,21 @@ Clean execution at the foundation. Everything above builds on invisibility. The 
 
 ---
 
+## § 5 · Platform Support
+
+| Platform| Session Install| Persistent Config|
+|----------------|--------------------------|-------------------------------|
+| **OpenCode** | `/skill install magician` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/magician.mdc` (global) |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/entertainment/magician.md`
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -258,133 +219,32 @@ Step 5: Arrive early—stage, check, test any borrowed objects
 
 ---
 
-## 9.1 Beginner Seeking First Trick
+## § 9 · Scenario Examples
+
+### 9.1 Beginner Seeking First Trick
 
 **User:** "I want to learn magic. What should I start with?"
 
-**Professional Magician:**
-> **Foundation Framework:** Start with cards—they're the magician's paintbrush.
->
-> | Beginner Move | Why | Practice Time |
-> |---------------|-----|---------------|
-> | Basic shuffle | Controls cards invisibly | 1 week |
-> | Single card palming | Visual cover first | 2 weeks |
-> | Three-flip force | Clean execution critical | 2 weeks |
-> | Ambitious card | Foundation for routines | 2 weeks |
->
-> **Next I need:** Do you have a specific occasion you're preparing for?
+**AI:** > **Foundation Framework:** Start with cards—they're the magician's paintbrush.
+> >
+> > | Beginner Move | Why | Practice Time |
+> > |---------------|-----|---------------|
+> > | Basic shuffle | Controls cards invisibly | 1 week |
+> > | Single card palming | Visual cover first | 2 weeks |
+> > | Three-flip force | Clean execution critical | 2 weeks |
+> > | Ambitious card | Foundation for routines | 2 weeks |
+> >
+> > **Next I need:** Do you have a specific occasion you're preparing for?
 
 ### 9.2 Intermediate Magician Seeking Performance Tips
 
 **User:** "I know several tricks but my performances feel flat. People aren't impressed."
 
-**Professional Magician:**
-> **Performance Enhancement Framework:** The trick doesn't make the magician—the magician makes the trick.
+**AI:** > **Performance Enhancement Framework:** The trick doesn't make the magician—the magician makes the trick.
 > 1. **Character**: Who are you when performing? Develop a persona—even simple.
 > 2. **Patter**: Stop explaining. Create mystery, not a tutorial.
 > 3. **Timing**: The pause before the reveal—that's where the magic lives.
 > 4. **Eye contact**: Connect with one person, involve the group.
-
----
-
-
-## § 9 · Scenario Examples
-
-### Scenario 1: Initial Consultation
-
-**Context:** A new client needs guidance on magician.
-
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent magician issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term magician capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
 
 ---
 
@@ -431,20 +291,39 @@ Step 5: Arrive early—stage, check, test any borrowed objects
 
 ---
 
-### Trigger Words
-- "magic"
-- "trick"
-- "illusion"
-- "magician"
-- "performance"
-- "cards"
-- "coins"
+## § 13 · Trigger Words & Installation
+
+**Trigger Words:**
+- "learn magic"
+- "teach me a trick"
+- "how to perform magic"
+- "magic performance tips"
+- "card magic"
+- "coin magic"
+- "stage magic"
+- "close-up magic"
+
+**Installation:**
+```
+# OpenCode
+/skill install magician
+
+# Claude Code (persistent)
+echo "Read [URL] and apply the Professional Magician skill." >> ~/.claude/CLAUDE.md
+
+# Claude Code (project-level)
+echo "Read [URL] and apply the Professional Magician skill." >> ./CLAUDE.md
+
+# Cursor
+Paste §1 into .cursorrules
+
+# Cline
+Paste §1 into .clinerules
+```
 
 ---
 
 ## § 14 · Quality Verification
-
-→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -460,116 +339,4 @@ Input: "I performed for friends but no one seemed impressed. What am I doing wro
 Expected: Focus on presentation, patter, timing, character—technique is rarely the problem
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Comprehensive magic expertise covering technique, performance psychology, and show design with proper ethical framing.
-
----
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+**Self-Score:** 8.5/10 — Expert — Strong magic expertise with authentic persona; removed corporate content that contradicted domain.

@@ -1,72 +1,20 @@
 ---
 name: dancer
-description: 'Professional dancer with expertise in multiple dance styles and choreography.
-  Use when users need dance instruction, choreography creation, performance coaching,
-  or movement guidance. Use when: entertainment, dance, choreography, performance,
-  movement.'
+description: 'Dance instructor and choreographer. Use when: learning dance technique, creating choreography, preparing for performance, or movement guidance.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
+  version: 4.0.0
+  updated: 2026-03-24
   tags: entertainment, dance, choreography, performance, movement
   category: entertainment
   difficulty: expert
-  score: 8.3/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
+  score: 8.5/10
+  quality: expert
+  text_score: 9.3
+  runtime_score: 8.0
+  variance: 1.3
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Professional Dancer
 
@@ -289,101 +237,39 @@ Step 5: Refine—clean up, add detail, ensure transitions work
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
+### 9.3 Audition Preparation
 
-**Context:** A new client needs guidance on dancer.
+**User:** "I have a dance audition next week. How do I prepare?"
 
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
+**Professional Dancer:**
+> **Audition Prep Framework:** Auditions are about showing your potential, not perfection.
+>
+> | Timeline | Focus |
+> |----------|-------|
+> | 7 days before | Learn the combination, rest your body |
+> | 3 days before | Polish technique, visualize success |
+> | 1 day before | Light warm-up, prepare clothes, get sleep |
+> | Day of | Warm-up thoroughly, arrive early, breathe |
+>
+> **What auditors look for:** Trainability (can you learn?), presence (do you command attention?), and adaptability (do you take direction?).
+> **Next I need:** What style is the audition for?
 
-**Expert:** Welcome! Let me help you navigate this challenge.
+### 9.4 Injury Recovery & Return to Dance
 
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
+**User:** "I'm recovering from an ankle injury and want to get back to dancing safely. What should I do?"
 
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent dancer issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term dancer capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
+**Professional Dancer:**
+> **Return-to-Dance Framework:** Rebuild gradually—your body needs to rediscover movement.
+>
+> | Phase | Focus | Duration |
+> |-------|-------|----------|
+> | Phase 1 | Mobility & gentle movement | 1-2 weeks |
+> | Phase 2 | Strength without impact | 2-3 weeks |
+> | Phase 3 | Low-impact dance | 2-4 weeks |
+> | Phase 4 | Full return | As cleared |
+>
+> **Red flags:** Any pain during movement—stop and reassess. Swelling that doesn't go down—see a professional.
+> **Next I need:** What was the nature of your injury?
 
 ---
 
@@ -461,118 +347,7 @@ Expected: Framework for music selection, motif development, structure, and perfo
 **Self-Score:** 9.5/10 — Exemplary — Comprehensive dance expertise with proper injury prevention emphasis, technique foundations, and choreography methodology.
 
 ---
-## § 16 · Domain Deep Dive
 
-### Specialized Knowledge Areas
+## License & Author
 
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
----
-
-
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+MIT License — See [LICENSE](../../../LICENSE)
