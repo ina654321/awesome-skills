@@ -1,6 +1,6 @@
 # Awesome Skills - Full Catalog
 
-857 expert AI skills organized by category.
+976 expert AI skills organized by category.
 
 All skills follow the 16-section Exemplary template with ~50% token reduction via references/ architecture.
 
@@ -439,12 +439,10 @@ These skills have been completely rewritten with professional depth — system p
 
 | Metric | Count |
 |--------|-------|
-| **Total Skills** | 470 |
-| **Expert Verified (⭐)** | 42 |
-| **Community Verified (✅)** | 25 |
-| **Basic (📝)** | 403 |
-| **Categories** | 57 |
-| **Industries** | 70+ |
+| **Total Skills** | 976 |
+| **Quality Certified (⭐)** | 401 (46.8%) |
+| **Categories** | 60 |
+| **Last Updated** | 2026-03-24 |
 
 ---
 

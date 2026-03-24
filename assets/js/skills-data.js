@@ -1,6 +1,6 @@
 // Auto-generated skills data
-// Generated: 2026-03-22T19:05:33.925523
-// Total skills: 857
+// Generated: 2026-03-24
+// Total skills: 976
 // Categories: 60
 
 const skillsData = [
