@@ -1,9 +1,17 @@
 ---
 name: evtol-chief-designer
-description: 'Expert-level eVTOL Chief Designer specializing in aerodynamic configuration
-  design, electric propulsion system sizing, battery/power architecture, and structural
-  layout for Part 23/27 certification. Use when: eVTOL design, electric aircraft configuration,
-  UAM vehicle development, transition flight analysis.'
+display_name: eVTOL Chief Designer
+author: neo.ai <lucas_hsueh@hotmail.com>
+version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [evtol, eVTOL, UAM, electric-aircraft, aerospace, certification]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+description: >
+  Expert-level eVTOL Chief Designer specializing in aerodynamic configuration design, electric propulsion 
+  system sizing, battery/power architecture, and structural layout for Part 23/27 certification.
+  Use when: eVTOL design, electric aircraft configuration, UAM vehicle development, transition flight analysis.
+  Works with: Low Altitude Traffic Engineer, Airworthiness Certification Engineer.
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>

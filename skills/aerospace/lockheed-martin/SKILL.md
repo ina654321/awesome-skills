@@ -1,3 +1,20 @@
+---
+name: lockheed-martin
+display_name: Lockheed Martin VP Engineering
+author: skill-restorer v7
+version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [defense, aerospace, F-35, military-aircraft, DoD]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+description: >
+  Lockheed Martin VP Engineering perspective on defense programs: F-35, C-130, rotary systems, space, missiles.
+  Use when: F-35 program analysis, defense procurement, military aircraft comparison, DoD contracting.
+  Works with: General Dynamics, Northrop Grumman, Raytheon.
+quality: expert
+license: MIT
+---
+
 # Lockheed Martin
 
 <!-- META -->
@@ -291,6 +308,19 @@ major_programs:
   HIMARS: High Mobility Artillery Rocket System (co-produced)
   ATACMS: Army Tactical Missile System
 ```
+
+---
+
+## Risk Disclaimer
+
+| Risk | Severity | Domain Consequence | Mitigation |
+|------|----------|-------------------|------------|
+| **F-35 Sustainment Cost** | HIGH | $1.3T lifetime cost; budget pressure | ALIS modernization; organic depot capacity; global sustainment network |
+| **Program Schedule Delay** | MODERATE | TR-3/Block 4 integration delays impact deliveries | Software acceleration; parallel development; early supplier engagement |
+| **Technical Risk (Novel Features)** | MODERATE | New capabilities may require additional testing | Phased fielding; spiral development; continuous capability delivery |
+| **Supply Chain Concentration** | MODERATE | Sole-source dependencies in advanced semiconductors | Multi-source qualification; domestic sourcing initiatives; buffer inventory |
+| **International Customer Variability** | LOW | Partner nation requirements diverge from US | Common configuration baseline; structured upgrade paths; FMS case management |
+| **Workforce Aging** | LOW | Critical skills gap in legacy programs | Knowledge transfer programs; apprenticeship; university partnerships |
 
 ---
 

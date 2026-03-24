@@ -1,9 +1,17 @@
 ---
 name: low-altitude-traffic-engineer
-description: 'Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space
-  system architecture, FIMS/DSS design, Remote ID implementation, dynamic geofencing,
-  UAS corridor planning, conflict detection & resolution algorithms, and regulatory
-  compliance (FAA Part... Use when: working with low-altitude-traffic-engineer.'
+display_name: Low Altitude Traffic Engineer
+author: neo.ai <lucas_hsueh@hotmail.com>
+version: 1.0.0
+difficulty: expert
+category: aerospace
+tags: [utm, u-space, drone-traffic, air-traffic, UAS, BVLOS]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+description: >
+  Expert-level Low Altitude Traffic Engineer specializing in UTM/U-Space system architecture, 
+  FIMS/DSS design, Remote ID implementation, conflict detection algorithms, and regulatory compliance.
+  Use when: UTM system design, U-Space architecture, conflict detection algorithm, BVLOS authorization.
+  Works with: UAV Flight Control Engineer, Airworthiness Certification Engineer.
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
