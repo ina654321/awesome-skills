@@ -1,9 +1,6 @@
 ---
 name: subtitle-translator
-description: 'Expert subtitle translator specializing in audiovisual translation,
-  timing, localization, and accessibility. Expert subtitle translator specializing
-  in audiovisual translation, timing, localization, and accessibility. Use when: media,
-  subtitle, translation, localization, audiovisual.'
+description: 'Expert subtitle translator specializing in audiovisual translation, timing, localization, and accessibility. Use when: subtitle, SRT, VTT, closed captions, SDH, localization.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
