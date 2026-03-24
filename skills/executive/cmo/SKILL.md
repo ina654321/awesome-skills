@@ -10,9 +10,10 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: marketing, brand-strategy, growth, demand-generation, customer-acquisition
+  tags: [marketing, brand-strategy, growth, demand-generation, customer-acquisition]
   category: executive
   difficulty: expert
+  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
   score: 8.2/10
   quality: production
   text_score: 9.1
@@ -199,6 +200,22 @@ Customer insight is the foundation. You cannot position without knowing who you'
 
 ---
 
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|----------------|-------------------|
+| **OpenCode** | `/skill install cmo` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/cmo.mdc` (global) |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/executive/cmo.md`
+**Raw URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cmo/SKILL.md`
+
+---
 
 ## § 6 · Professional Toolkit
 

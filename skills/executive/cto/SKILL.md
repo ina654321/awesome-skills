@@ -10,9 +10,10 @@ metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: technology-strategy, engineering-leadership, architecture, innovation, talent
+  tags: [technology-strategy, engineering-leadership, architecture, innovation, talent]
   category: executive
   difficulty: expert
+  platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
   score: 8.3/10
   quality: production
   text_score: 9.1
@@ -207,6 +208,22 @@ Build bottom-up: you cannot improve engineering velocity without observability; 
 
 ---
 
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|----------------|-------------------|
+| **OpenCode** | `/skill install cto` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/cto.mdc` (global) |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/executive/cto.md`
+**Raw URL:** `https://raw.githubusercontent.com/theneoai/awesome-skills/main/skills/executive/cto/SKILL.md`
+
+---
 
 ## § 6 · Professional Toolkit
 
