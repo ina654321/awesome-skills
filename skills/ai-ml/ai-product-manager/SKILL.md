@@ -1,28 +1,14 @@
 ---
 name: ai-product-manager
-description: 'Elite AI Product Manager skill with expertise in AI product strategy, LLM product development, ML feature prioritization, AI ethics and fairness, and managing the unique challenges of probabilistic products. Transforms AI into a principal AI PM capable of shipping successful AI-powered products. Use when: ai-product, product-management, llm-products, ai-strategy, ml-roadmap, ai-ethics.'
-license: MIT
-metadata:
-  author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 5.0.0
-  updated: '2026-03-21'
-  tags:
-    - ai-product-management
-    - product-management
-    - ai-strategy
-    - llm-products
-    - ml-roadmap
-    - ai-ethics
-    - ai-fairness
-    - probabilistic-products
-  category: ai-ml
-  difficulty: expert
-  score: 9.5/10
-  quality: exemplary
-  text_score: 9.5
-  runtime_score: 9.5
-  variance: 0.0
-  certified: true
+display_name: AI Product Manager
+author: neo.ai
+version: 5.0.0
+difficulty: expert
+category: ai-ml
+tags: [ai-product-management, product-management, ai-strategy, llm-products, ml-roadmap, ai-ethics, ai-fairness, probabilistic-products]
+platforms: [opencode, openclaw, claude, cursor, codex, cline, kimi]
+description: >
+  Elite AI Product Manager skill with expertise in AI product strategy, LLM product development, ML feature prioritization, AI ethics and fairness. Transforms AI into a principal AI PM capable of shipping successful AI-powered products. Use when: ai-product, product-management, llm-products, ai-strategy, ml-roadmap, ai-ethics. Works with Claude Code, OpenAI Codex, Kimi Code, OpenCode, Cursor, Cline, OpenClaw.
 ---
 
 # AI Product Manager
@@ -238,7 +224,23 @@ This skill transforms AI into an elite **AI Product Manager** capable of:
 
 ---
 
-## § 5 · Professional Toolkit
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install ai-product-manager` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/ai-product-manager.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+[URL]: https://awesome-skills.dev/skills/ai-ml/ai-product-manager.md
+
+---
+
+## § 6 · Professional Toolkit
 
 | Category | Tools | Use Case |
 |----------|-------|----------|
@@ -251,9 +253,9 @@ This skill transforms AI into an elite **AI Product Manager** capable of:
 
 ---
 
-## § 6 · Domain Knowledge
+## § 7 · Domain Knowledge
 
-### 6.1 AI Product Types
+### 7.1 AI Product Types
 
 | Type | Example | Considerations |
 |------|---------|----------------|
@@ -263,7 +265,7 @@ This skill transforms AI into an elite **AI Product Manager** capable of:
 | **Classification** | Content moderation | Scale, edge cases |
 | **Automation** | Smart replies | Control, user override |
 
-### 6.2 LLM Product Patterns
+### 7.2 LLM Product Patterns
 
 | Pattern | Use Case | UX Approach |
 |---------|----------|-------------|
@@ -273,7 +275,7 @@ This skill transforms AI into an elite **AI Product Manager** capable of:
 | **Summarization** | Document review | Key points, expandable |
 | **Extraction** | Data parsing | Structured output, validation |
 
-### 6.3 AI Ethics Checklist
+### 7.3 AI Ethics Checklist
 
 - [ ] Bias testing across demographic groups
 - [ ] Fairness metrics defined and measured
@@ -285,7 +287,7 @@ This skill transforms AI into an elite **AI Product Manager** capable of:
 
 ---
 
-## § 7 · Standard Workflow
+## § 8 · Standard Workflow
 
 ### Phase 1: Discovery (Weeks 1-2)
 
@@ -333,7 +335,7 @@ This skill transforms AI into an elite **AI Product Manager** capable of:
 
 ---
 
-## § 8 · Scenario Examples
+## § 9 · Scenario Examples
 
 ### Example 1: AI Writing Assistant
 
@@ -461,7 +463,7 @@ Execution:
 
 ---
 
-## § 9 · Common Pitfalls
+## § 10 · Common Pitfalls
 
 | Anti-Pattern | Problem | Solution |
 |--------------|---------|----------|
@@ -474,7 +476,7 @@ Execution:
 
 ---
 
-## § 10 · Scope & Limitations
+## § 11 · Scope & Limitations
 
 **✓ Use This Skill When**:
 - Defining AI product strategy
@@ -491,11 +493,28 @@ Execution:
 
 ---
 
-## § 11 · References
+## § 12 · How to Use
 
-| Document | Content |
-|----------|---------|
-| [references/ai-strategy-framework.md](references/ai-strategy-framework.md) | AI opportunity assessment |
-| [references/llm-product-patterns.md](references/llm-product-patterns.md) | LLM UX patterns |
-| [references/ai-ethics-guide.md](references/ai-ethics-guide.md) | Fairness, safety, transparency |
-| [references/ai-experimentation.md](references/ai-experimentation.md) | A/B testing for AI features |
+### Quick Start
+
+1. **Install** using the command for your platform (see §5)
+2. **Trigger** with: "AI product", "LLM product", "AI strategy", "ML roadmap", "AI ethics"
+3. **Provide context**: Product type, user needs, stage (discovery, definition, development, launch)
+
+### Interaction Modes
+
+| Mode | Trigger Example | Expected Output |
+|------|----------------|-----------------|
+| **Strategy** | "Define AI product strategy" | Vision, opportunities, roadmap |
+| **Prioritization** | "Prioritize ML features" | ROI analysis, ranking |
+| **Ethics** | "Run bias audit" | Checklist, findings, remediation |
+| **Experiment** | "Design A/B test for LLM feature" | Test design, metrics, guardrails |
+| **Review** | "Review AI product requirements" | PRD feedback, risk assessment |
+
+---
+
+## § 13 · License & Author
+
+**License:** MIT  
+**Author:** neo.ai <lucas_hsueh@hotmail.com>  
+**Version:** 5.0.0 (2026-03-21)

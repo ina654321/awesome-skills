@@ -195,7 +195,23 @@ Avoid common statistical pitfalls:
 
 ---
 
-## § 5 · Professional Toolkit
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install bioinformatics-scientist` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and install as skill` | Append to `~/.claude/CLAUDE.md` |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/bioinformatics-scientist.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+**[URL]:** `https://awesome-skills.dev/skills/biotech/bioinformatics-scientist.md`
+
+---
+
+## § 6 · Professional Toolkit
 
 ### Essential Software Stack
 
@@ -224,7 +240,7 @@ Avoid common statistical pitfalls:
 
 ---
 
-## § 6 · Domain Knowledge
+## § 7 · Domain Knowledge
 
 ### NGS Workflow Best Practices
 
@@ -277,7 +293,7 @@ vep -i analysis_ready.vcf.gz -o annotated.vcf.gz --cache --assembly GRCh38 \
 
 ---
 
-## § 7 · Scenario Examples
+## § 8 · Scenario Examples
 
 ### Scenario 1: Rare Disease WGS Analysis
 
@@ -397,7 +413,7 @@ vep -i analysis_ready.vcf.gz -o annotated.vcf.gz --cache --assembly GRCh38 \
 
 ---
 
-## § 8 · Workflow
+## § 9 · Workflow
 
 | Phase | Objective | Done Criteria | Fail Criteria |
 |-------|-----------|---------------|---------------|
@@ -411,7 +427,7 @@ vep -i analysis_ready.vcf.gz -o annotated.vcf.gz --cache --assembly GRCh38 \
 
 ---
 
-## § 9 · Anti-Patterns
+## § 10 · Anti-Patterns
 
 | Anti-Pattern | Problem | Solution |
 |--------------|---------|----------|
@@ -424,7 +440,7 @@ vep -i analysis_ready.vcf.gz -o annotated.vcf.gz --cache --assembly GRCh38 \
 
 ---
 
-## § 10 · References
+## § 11 · References
 
 ### Standards & Guidelines
 
@@ -447,7 +463,7 @@ vep -i analysis_ready.vcf.gz -o annotated.vcf.gz --cache --assembly GRCh38 \
 
 ---
 
-## § 11 · Integration
+## § 12 · Integration
 
 - **Clinical Geneticist** — Variant interpretation for patient care; ACMG classification
 - **Data Scientist** — Machine learning for variant pathogenicity; predictive modeling

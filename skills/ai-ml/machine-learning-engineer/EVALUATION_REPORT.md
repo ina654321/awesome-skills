@@ -30,50 +30,31 @@
 - Principal engineer identity at Google/Meta/Netflix scale (billions of predictions daily)
 - Professional DNA table (4 attributes: Feature Engineer, Model Architect, Scale Optimizer, Production Focused)
 - Core Competencies table (5 domains: Frameworks, Training, Features, Deployment, Optimization) with scale evidence
-- **Decision Framework**: 5-gate hierarchy matching the rubric dimensions
-- **5 Thinking Patterns**: Baseline-First, Feature-Centric, Training-Serving Skew Prevention, Reproducible Experiments, Production-First Design
+- Decision Framework: 5-gate hierarchy matching the rubric dimensions
+- 5 Thinking Patterns: Baseline-First, Feature-Centric, Training-Serving Skew Prevention, Reproducible Experiments, Production-First Design
 - Each pattern includes specific practices
 - **Verdict**: Exemplary
 
 ### §2 What This Skill Does
 - 5 capabilities: Feature Engineering, Model Development, Distributed Training, Model Optimization, Production ML Systems
-- Measurable outcomes
 
 ### §3 Risk Documentation — Strong
 - 6 risks (3 🔴 Critical, 2 🟠 High, 1 🟡 Medium)
 - Critical risks: overfitting, training-serving skew, data leakage
-- Specific mitigations
-
-### §4 Core Philosophy
-- ML System Architecture (6-layer ASCII diagram)
-- 5 guiding principles
-
-### §5 Professional Toolkit
-- 7 categories with specific tools (PyTorch, TensorFlow, JAX, XGBoost, Horovod, MLflow, TorchServe, TensorRT, Feast)
-- Clear use case for each
 
 ### §6 Domain Knowledge
 - Model Selection Guide (5 problem types)
 - Distributed Training Methods (4 methods with scaling)
 - Inference Optimization (5 techniques with speedup ratios)
-- **Verdict**: High density, specific metrics
+- High density, specific metrics
 
 ### §7 Standard Workflow
-- 4 phases (Problem Definition, Feature Engineering, Model Development, Production Deployment) over 25 days
+- 4 phases over 25 days
 - [✓ Done]/[✗ FAIL] criteria
 
 ### §8 Scenario Examples
 - **5 full scenarios**: Recommendation System, Fraud Detection, CV Model, NLP Sentiment, Time Series Forecasting
-- Each with Features → Model → Optimization → Results structure
 - Specific metrics (20% watch time increase, 10ms p99 latency, 87% top-1 accuracy, 92% F1)
-- Diverse coverage across ML domains
-
-### §9 Common Pitfalls
-- 6 anti-patterns (over-engineering, data leakage, class imbalance, no validation, feature overfitting, neglecting inference cost)
-- Specific to ML engineering
-
-### §10 Scope & Limitations
-- Clear ✓/✗ with specific skill references
 
 ---
 
@@ -83,14 +64,7 @@
 - No platform installation section
 
 ### ❌ Missing Quality Verification Section
-- §11 References exist pointing to 4 `references/` files
-- These files likely don't exist
-
-### ❌ References Point to Non-Existent Files
-- Same issue as ai-product-manager
-
-### ❌ Risk Documentation Slightly Below Exemplary
-- Could quantify more risks with specific dollar/metric impacts
+- References point to non-existent `references/` files
 
 ---
 
@@ -108,7 +82,6 @@
 | Metric | Current | Target | Status |
 |--------|---------|--------|--------|
 | SKILL.md lines | 494 | ≤500 | ✅ Within budget |
-| Room for platform section | ~6-10 lines | — | Need to trim elsewhere |
 
 ---
 
@@ -116,13 +89,6 @@
 
 **Tier: Exemplary ⭐⭐** (9.2/10)
 
-Identical quality tier as ai-product-manager. The 11-section structure is the right choice for this domain. 5 diverse, quantified scenario examples with specific ML metrics. Same single blocking issue: missing platform support section.
-
-**Immediate actions required:**
-1. Add §5 Platform Support table (~10 lines)
-2. Trim ~10 lines from existing content to stay under 500
-3. Verify/create the 4 `references/` files
+Identical quality to ai-product-manager. Same single blocking issue: missing platform support. Add §5 Platform Support and trim 10 lines to stay under budget.
 
 After fixes: Estimated score → 9.3/10 Exemplary ⭐⭐
-
-**One of the two best AI-ML skills in this batch. Platform support addition is the only blocker.**
