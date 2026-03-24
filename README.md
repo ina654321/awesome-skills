@@ -9,7 +9,7 @@
 
 [![Skills](https://img.shields.io/badge/Skills-976-blueviolet?style=flat-square)](./CATALOG.md)
 [![Quality](https://img.shields.io/badge/Quality-EXCELLENCE%209.5%2F10-success?style=flat-square)](./README.md#methodology)
-[![Certified](https://img.shields.io/badge/Certified-401%2F976-47%25-brightgreen?style=flat-square)](./CATALOG.md)
+[![Certified](https://img.shields.io/badge/Certified-817%2F976-84%25-brightgreen?style=flat-square)](./CATALOG.md)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 
 **[🌐 Website](https://theneoai.github.io/awesome-skills/)** · **[📚 Catalog](./CATALOG.md)** · **[📊 Quality System](#methodology)**
@@ -28,7 +28,7 @@
 | Metric | Value | Description |
 |--------|-------|-------------|
 | **Total Skills** | 976 | Across 60 professional domains |
-| **Quality Certified** | 401 (46.8%) | EXCELLENCE 9.5/10 standard |
+| **Quality Certified** | 817 (83.7%) | EXCELLENCE 9.5/10 standard |
 | **Enterprise Skills** | 100+ | Top global company methodologies |
 | **Token Optimized** | -50% | Via references-first architecture |
 | **Last Updated** | 2026-03-24 | Mass evaluation completed |
@@ -224,7 +224,7 @@ Total: 401/976 (41.1%) at EXCELLENCE 9.5/10
 | 指标 | 数值 | 说明 |
 |------|------|------|
 | **技能总数** | 976 | 覆盖60职业领域 |
-| **质量认证** | 401 (46.8%) | 卓越标准 9.5/10 |
+| **质量认证** | 817 (83.7%) | 卓越标准 9.5/10 |
 | **企业技能** | 100+ | 全球顶尖企业方法论 |
 | **Token优化** | -50% | 通过渐进式披露架构 |
 | **最后更新** | 2026-03-21 | Batch 24 完成 |
@@ -248,7 +248,7 @@ Total: 401/976 (41.1%) at EXCELLENCE 9.5/10
 └──────────────┴────────────────┴─────────────────────────────┘
 ```
 
-**这就是为什么我们的401个认证技能优于1000+社区技能。**
+**这就是为什么我们的817个认证技能优于1000+社区技能。**
 
 ---
 

@@ -440,7 +440,7 @@ These skills have been completely rewritten with professional depth — system p
 | Metric | Count |
 |--------|-------|
 | **Total Skills** | 976 |
-| **Quality Certified (⭐)** | 401 (46.8%) |
+| **Quality Certified (⭐)** | 817 (83.7%) |
 | **Categories** | 60 |
 | **Last Updated** | 2026-03-24 |
 

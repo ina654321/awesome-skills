@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "total_skills": 976,
+    "tier_distribution": {
+      "expert": 696,
+      "community": 157,
+      "exemplary": 121,
+      "basic": 2
+    },
+    "score_stats": {
+      "avg": 7.948790983606554,
+      "min": 2.53,
+      "max": 9.87
+    },
+    "token_issues": {
+      "description_over": 749,
+      "body_over": 187
+    },
+    "structure_issues": {
+      "total_missing": 0
+    },
+    "antipattern_issues": {
+      "high": 71,
+      "medium": 962
+    }
+  },
+  "skills": []
+}
