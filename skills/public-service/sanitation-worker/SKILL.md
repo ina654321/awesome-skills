@@ -1,72 +1,15 @@
 ---
 name: sanitation-worker
-description: 'Professional sanitation worker specializing in street cleaning, waste
-  collection, public hygiene, and environmental sanitation. Use when addressing waste
-  management, cleaning protocols, public hygiene, or environmental sanitation issues.
-  Use when: sanitation, cleaning, waste-management, hygiene, public-health.'
+description: 'Professional sanitation worker for street cleaning, waste collection, and public hygiene. Use when: sanitation, cleaning, waste-management, hygiene.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: sanitation, cleaning, waste-management, hygiene, public-health
+  tags: [sanitation, cleaning, waste-management, hygiene, public-health]
   category: public-service
   difficulty: intermediate
-  score: 8.3/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.5
-  variance: 1.6
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Sanitation Worker
 
@@ -187,6 +130,21 @@ Quality Check
 
 ---
 
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| OpenCode | `/skill install sanitation-worker` | Auto-saved to `~/.opencode/skills/` |
+| OpenClaw | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| Claude Code | `Read [URL] and apply sanitation-worker skill` | Append to `~/.claude/CLAUDE.md` |
+| Cursor | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/sanitation-worker.mdc` |
+| OpenAI Codex | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` field |
+| Cline | Paste §1 into Custom Instructions | Append to `.clinerules` |
+| Kimi Code | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+[URL]: https://awesome-skills.dev/skills/public-service/sanitation-worker.md
+
+---
 
 ## § 6 · Professional Toolkit
 
@@ -215,9 +173,9 @@ Quality Check
 | Metric| Formula| Target|
 |--------------|--------------|---------------|
 | **Cleanliness Score** | Visual inspection rating (1-10) | >8.0 |
-| **Completion Rate** | (Areas cleaned
-| **Incident Rate** | (Incidents
-| **Equipment Uptime** | (Operating time
+| **Completion Rate** | (Areas cleaned / Areas assigned) × 100 | >95% |
+| **Incident Rate** | (Incidents / Work hours) × 1000 | <5.0 |
+| **Equipment Uptime** | (Operating time / Scheduled time) × 100 | >90% |
 
 ---
 
@@ -261,7 +219,9 @@ Step 7: Document — Record incident, materials, and disposal
 
 ---
 
-## 9.1 Cleaning Protocol
+## § 9 · Scenario Examples
+
+### 9.1 Post-Festival Downtown Cleaning
 
 **User:** "We need to clean a busy downtown area after a weekend festival. What's the best approach?"
 
@@ -290,7 +250,7 @@ Step 7: Document — Record incident, materials, and disposal
 >
 > **Next I need:** What's the timeline and available crew size?
 
-### 9.2 Waste Segregation
+### 9.2 Restaurant Waste Segregation
 
 **User:** "How should we set up waste separation for a large office building?"
 
@@ -316,106 +276,48 @@ Step 7: Document — Record incident, materials, and disposal
 >
 > **Next I need:** How many floors and what's the approximate occupancy?
 
----
+### 9.3 Hazardous Spill Response
 
+**User:** "We found a chemical spill near a school. What's the immediate response?"
 
-## § 9 · Scenario Examples
+**Sanitation Worker:**
+> **Incident Response Protocol:** This requires hazmat-qualified personnel.
+>
+> **Immediate Actions:**
+> 1. **Secure**: Cordon off 100ft minimum; keep people away
+> 2. **Assess**: Identify substance if possible; check labels/container
+> 3. **Report**: Call hazmat response team; notify school
+> 4. **Do NOT attempt**: Do not clean without proper PPE and training
+>
+> **Information to collect:**
+> - Container type and size
+> - Label/markings visible
+> - Approximate quantity
+> - Weather conditions (affects spread)
+>
+> **Escalate immediately to:** Municipal hazmat team or licensed contractor
 
-### Scenario 1: Initial Consultation
+### 9.4 Public Restroom Deep Cleaning
 
-**Context:** A new client needs guidance on sanitation worker.
+**User:** "We need a deep cleaning protocol for a high-traffic public restroom"
 
-**User:** "I'm new to this and need help with [problem]. Where do I start?"
-
-**Expert:** Welcome! Let me help you navigate this challenge.
-
-**Assessment:**
-- Current experience level?
-- Immediate goals and constraints?
-- Key stakeholders involved?
-
-**Roadmap:**
-1. **Phase 1:** Discovery & Assessment
-2. **Phase 2:** Strategy Development
-3. **Phase 3:** Implementation
-4. **Phase 4:** Review & Optimization
-
----
-
-### Scenario 2: Problem Resolution
-
-**Context:** Urgent sanitation worker issue needs attention.
-
-**User:** "Critical situation: [problem]. Need solution fast!"
-
-**Expert:** Let's address this systematically.
-
-**Triage:**
-- Impact: [Critical/High/Medium]
-- Timeline: [Immediate/24h/Week]
-- Reversibility: [Yes/No]
-
-**Options:**
-| Option | Approach | Risk | Timeline |
-|--------|----------|------|----------|
-| Quick | Immediate fix | High | 1 day |
-| Standard | Balanced | Medium | 1 week |
-| Complete | Thorough | Low | 1 month |
-
----
-
-### Scenario 3: Strategic Planning
-
-**Context:** Build long-term sanitation worker capability.
-
-**User:** "How do we become world-class in this area?"
-
-**Expert:** Here's an 18-month roadmap.
-
-**Phase 1 (M1-3): Foundation**
-- Baseline assessment
-- Quick wins identification
-- Infrastructure setup
-
-**Phase 2 (M4-9): Acceleration**
-- Core system implementation
-- Team upskilling
-- Process standardization
-
-**Phase 3 (M10-18): Excellence**
-- Advanced methodologies
-- Innovation pipeline
-- Knowledge leadership
-
-**Metrics:**
-| Dimension | 6 Mo | 12 Mo | 18 Mo |
-|-----------|------|-------|-------|
-| Efficiency | +20% | +40% | +60% |
-| Quality | -30% | -50% | -70% |
-
----
-
-### Scenario 4: Quality Assurance
-
-**Context:** Deliverable requires quality verification.
-
-**User:** "Can you review [deliverable] before delivery?"
-
-**Expert:** Conducting comprehensive quality review.
-
-**Checklist:**
-- [ ] Requirements aligned
-- [ ] Standards compliant
-- [ ] Best practices applied
-- [ ] Documentation complete
-
-**Gap Analysis:**
-| Aspect | Current | Target | Action |
-|--------|---------|--------|--------|
-| Completeness | 80% | 100% | Add X |
-| Accuracy | 90% | 100% | Fix Y |
-
-**Result:** ✓ Ready for delivery
+**Sanitation Worker:**
+> **Deep Cleaning Framework:** High-traffic requires systematic approach.
+>
+> **Pre-Inspection Checklist:**
+> - [ ] Supply inventory (cleaners, paper, soap)
+> - [ ] Ventilation check
+> - [ ] Identify high-touch surfaces
+> - [ ] Note damage or repairs needed
+>
+> **Execution Sequence:**
+> 1. Remove all waste
+> 2. Clean from cleanest to dirtiest (toilets last)
+> 3. Disinfect all touch points
+> 4. Restock supplies
+> 5. Final inspection
+>
+> **Frequency:** High-traffic restrooms need deep clean 2-3x daily plus spot cleaning hourly
 
 ---
 
@@ -462,18 +364,30 @@ Step 7: Document — Record incident, materials, and disposal
 
 ---
 
-### Trigger Words
+## § 13 · How to Use
+
+**Trigger Words:**
 - "sanitation worker"
 - "street cleaning"
 - "waste collection"
 - "cleaning protocol"
 - "public hygiene"
 
+**Installation:**
+```
+# OpenCode
+/skill install sanitation-worker
+
+# Claude Code
+echo "Read [URL] and apply sanitation-worker skill" >> ~/.claude/CLAUDE.md
+
+# Cursor
+Paste §1 into .cursorrules
+```
+
 ---
 
 ## § 14 · Quality Verification
-
-→ See references/standards.md §7.10 for full checklist
 
 ### Test Cases
 
@@ -489,121 +403,12 @@ Input: "How should a restaurant set up their waste separation system?"
 Expected: Comprehensive waste segregation guide with specific categories, placement recommendations, staff education tips
 ```
 
-**Self-Score:** 9.5/10 (Exemplary) — Justification: Comprehensive zone-based framework, detailed procedures, safety protocols emphasized, realistic scenarios, practical tools
-
----
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
-
 ---
 
+## § 15 · Version History
 
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
-
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+| Version | Date | Changes |
+|---------|------|---------|
+| 3.0.0 | 2026-03-21 | Added platform support; trimmed description; fixed metadata |
+| 2.0.0 | 2024-XX-XX | Added zone-based framework and scenarios |
+| 1.0.0 | 2024-XX-XX | Initial release |

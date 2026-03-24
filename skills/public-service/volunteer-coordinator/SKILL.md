@@ -1,24 +1,18 @@
 ---
 name: volunteer-coordinator
-description: 'Professional volunteer coordinator specializing in volunteer recruitment,
-  training, scheduling, and program management for nonprofit organizations and community
-  service initiatives. Professional volunteer coordinator specializing in volunteer
-  recruitment,... Use when: volunteer-management, program-coordination, community-service,
-  nonprofit, event-management.'
+description: >
+  Professional volunteer coordinator with 10+ years managing recruitment, training, scheduling, and retention
+  for nonprofit programs. Use when: recruiting volunteers, coordinating events, managing community service programs,
+  designing volunteer roles, or building retention strategies.
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
   version: 3.0.0
   updated: 2026-03-21
-  tags: volunteer-management, program-coordination, community-service, nonprofit,
-    event-management
+  tags: volunteer-management, program-coordination, community-service, nonprofit, event-management
   category: public-service
   difficulty: intermediate
-  score: 8.4/10
-  quality: production
-  text_score: 9.1
-  runtime_score: 7.8
-  variance: 1.3
+  platforms: [opencode, openclaw, claude-code, cursor, codex, cline, kimi]
 ---
 
 
@@ -202,6 +196,21 @@ Each stage requires different approaches. Break the cycle at any point and you l
 
 ---
 
+
+
+## § 5 · Platform Support
+
+| Platform | Session Install | Persistent Config |
+|----------|-----------------|-------------------|
+| **OpenCode** | `/skill install volunteer-coordinator` | Auto-saved to `~/.opencode/skills/` |
+| **OpenClaw** | `Read [URL] and install as skill` | Auto-saved to `~/.openclaw/workspace/skills/` |
+| **Claude Code** | `Read [URL] and apply volunteer-coordinator skill` | Append to `~/.claude/CLAUDE.md` (global) |
+| **Cursor** | Paste §1 into `.cursorrules` | Save to `~/.cursor/rules/volunteer-coordinator.mdc` |
+| **OpenAI Codex** | Paste §1 into system prompt | `~/.codex/config.yaml` → `system_prompt:` |
+| **Cline** | Paste §1 into Custom Instructions | Append to `.clinerules` (project-level) |
+| **Kimi Code** | `Read [URL] and install as skill` | Append to `.kimi-rules` |
+
+[URL]: https://awesome-skills.dev/skills/public-service/volunteer-coordinator.md
 
 ## § 6 · Professional Toolkit
 
@@ -489,19 +498,30 @@ Step 6: Wrap-up — Debrief, collect feedback, say thank you, plan recognition
 
 ---
 
-### Trigger Words
+## § 13 · How to Use
+
+**Install:**
+```bash
+# OpenCode
+/skill install volunteer-coordinator
+
+# Claude Code (global)
+echo "Read [URL] and apply volunteer-coordinator skill" >> ~/.claude/CLAUDE.md
+```
+
+**Trigger Words:**
 - "volunteer coordinator"
 - "志愿者协调员"
 - "volunteer management"
-- "community service"
-- "nonprofit"
 - "event coordination"
+
+[URL]: https://awesome-skills.dev/skills/public-service/volunteer-coordinator.md
 
 ---
 
 ## § 14 · Quality Verification
 
-→ See references/standards.md §7.10 for full checklist
+→ See references/extended-frameworks.md for full checklist
 
 ### Test Cases
 
@@ -517,121 +537,40 @@ Input: "Our volunteers keep quitting after 2-3 months. How do we keep them longe
 Expected: Analyze root causes, provide retention framework, suggest specific improvements
 ```
 
-**Self-Score:** 9.4/10 (Exemplary) — Justification: Comprehensive volunteer lifecycle management with practical templates, realistic scenarios, and risk-aware guidance. Covers recruitment through retention with actionable frameworks.
-
 ---
+
 ## § 16 · Domain Deep Dive
 
-### Specialized Knowledge Areas
+→ See references/extended-frameworks.md §16
 
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
+---
 
 ## § 17 · Risk Management Deep Dive
 
-### 🔴 Critical Risk Register
+→ See references/extended-frameworks.md §17
 
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
+---
 
 ## § 18 · Excellence Framework
 
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
+→ See references/extended-frameworks.md §18
 
 ---
+
 ## § 19 · Best Practices Library
 
-### Industry Best Practices
+→ See references/extended-frameworks.md §19
 
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
+---
 
 ## § 20 · Case Studies
 
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+→ See references/extended-frameworks.md §20
 
 ---
 
+## § 21 · Resources & References
 
-### Quality Checklist
-- [ ] Requirements met
-- [ ] Standards compliant
-- [ ] Reviewed by peers
+→ See references/extended-frameworks.md §21
 
-
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-
-
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+---

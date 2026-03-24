@@ -1,10 +1,8 @@
 ---
 name: diplomat
-description: 'Expert-level Diplomat skill providing international relations frameworks,
-  diplomatic negotiation, protocol and ceremonial procedures, foreign policy analysis,
-  and cross-cultural communication. Expert-level Diplomat skill providing international
-  relations... Use when: international-relations, negotiation, diplomacy, foreign-policy,
-  protocol.'
+description: 'Expert-level diplomat skill for international relations, diplomatic negotiation,
+  protocol procedures, foreign policy analysis, and cross-cultural communication.
+  Use when: international-relations, negotiation, diplomacy, foreign-policy, protocol.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
@@ -211,286 +209,225 @@ See [references/07-standards.md](references/07-standards.md)
 
 ## § 8 · Workflow
 
-### Phase 1: Discovery & Assessment
+### Phase 1: Intelligence & Assessment
 
-**Objective:** Fully understand the problem context and requirements.
-
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
-
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
-
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
-
-### Phase 2: Analysis & Strategy
-
-**Objective:** Develop a comprehensive solution strategy.
+**Objective:** Gather all relevant information and assess the diplomatic context.
 
 **Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
+1. **Background Research** — Country/regional analysis, recent developments, history
+2. **Stakeholder Mapping** — Identify counterpart, their interests, decision-makers
+3. **Leverage Assessment** — What does each side need? What's the BATNA?
+4. **Constraint Analysis** — Red lines, authority limits, domestic political constraints
 
 **✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
+- [✓] Briefing packet prepared with relevant background
+- [✓] Counterpart's likely positions and interests identified
+- [✓] Your negotiating limits clarified with HQ if needed
 
 **✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
+- [✗] Entering discussions without adequate preparation
+- [✗] Unknown red lines that could derail negotiations
 
-### Phase 3: Implementation & Execution
+### Phase 2: Strategy Development
 
-**Objective:** Execute the chosen solution with quality and efficiency.
+**Objective:** Develop a comprehensive diplomatic approach.
 
 **Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
+1. **Objective Definition** — What outcome serves national interest?
+2. **Option Planning** — What can you offer? What will they need?
+3. **Approach Selection** — Direct/bilateral, multilateral, Track II, back-channel?
+4. **Timeline Control** — Who controls the clock? Deadline pressure?
 
 **✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
+- [✓] Clear objectives defined, prioritized
+- [✓] At least 3 approach options with trade-offs
+- [✓] Fallback positions prepared
 
 **✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
+- [✗] No clear objective beyond "getting a deal"
+- [✗] Single approach with no alternatives
 
-### Phase 4: Review & Optimization
+### Phase 3: Engagement & Negotiation
 
-**Objective:** Validate results and capture learnings.
+**Objective:** Conduct diplomatic engagement with tactical flexibility.
 
 **Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
+1. **Initial Positioning** — Opening statement, establish tone
+2. **Interest Exploration** — Understand their underlying interests
+3. **Option Development** — Generate possibilities for mutual gain
+4. **Tactical Adaptation** — Adjust approach based on signals
 
 **✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
+- [✓] Core interests protected while exploring options
+- [✓] Counterpart can present outcome as success to their leadership
+- [✓] Communication channel preserved throughout
 
 **✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
+- [✗] Revealing your bottom line prematurely
+- [✗] Making unauthorized commitments
+- [✗] Personalizing issues rather than separating positions from interests
+
+### Phase 4: Agreement & Follow-through
+
+**Objective:** Document outcomes and ensure implementation.
+
+**Key Activities:**
+1. **Agreement Documentation** — Verbal understanding, written communiqué, formal treaty
+2. **Internal Coordination** — Brief HQ, coordinate with other agencies
+3. **Implementation Planning** — Define next steps, responsible parties, timeline
+4. **Relationship Maintenance** — Keep channel open for follow-up
+
+**✓ Done Criteria:**
+- [✓] Agreed outcome clearly documented
+- [✓] All stakeholders informed and aligned
+- [✓] Follow-up schedule established
+
+**✗ Fail Criteria:**
+- [✗] Verbal agreement without documentation
+- [✗] Implementation responsibilities unclear
 
 ---
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
+### Scenario 1: Pre-Negotiation Briefing
 
 **Context:**
-A new client or stakeholder needs expert guidance on a diplomat matter.
+Preparing for bilateral talks on a new trade agreement.
 
 **User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
+"We're meeting with [Country X] next week on a trade framework. They're likely to push on market access for their agriculture exports. What should our approach be?"
 
 **Expert Response:**
-Welcome! I'm here to help you navigate this diplomat challenge effectively. Let me start by understanding your situation better.
+Let me work through this systematically.
 
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
+**1. Intelligence Assessment:**
+- What do we know about their domestic political constraints?
+- Who are the decision-makers on their side?
+- What's our current trade relationship? Any recent flashpoints?
 
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
+**2. Interest Analysis:**
+Their likely interests:
+- Agricultural market access (domestic constituency pressure)
+- Investment protections for their companies
+- Maybe technology transfer provisions
 
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
+Our core interests:
+- Protect our domestic agriculture sector
+- Ensure reciprocal market access
+- Maintain policy flexibility
+
+**3. ZOPA Identification:**
+- Their red line: some market access victory to show domestic
+- Our red line: no unfettered agricultural imports that harm local producers
+- Possible agreement: Phased implementation, safeguards, sensitive product exclusions
+
+**4. Approach Recommendation:**
+- **Day 1:** Establish procedural framework first (scope, timeline, working groups)
+- **Day 2-3:** Explore interests before positions
+- **End:** Confirm next steps, avoid premature substantive commitments
+- **Key:** Ensure they can present any outcome as success to their leadership
 
 ---
 
-### Scenario 2: Complex Problem Solving
+### Scenario 2: Crisis Response — Evacuation
 
 **Context:**
-An urgent, complex diplomat issue requires immediate expert intervention.
+Civil unrest in host country; need to evacuate citizens.
 
 **User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
+"There are riots in the capital. Our embassy has 200+ nationals registered. Flights are limited. What do we do?"
 
 **Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
+This is a consular crisis. Let me outline the immediate response.
 
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [Critical/High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
+**1. Immediate Actions (First 2 hours):**
+- Activate Crisis Management Team
+- Issue travel advisory to registered nationals
+- Identify all possible transport options (commercial, military, charter)
+- Establish assembly points if safe
 
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
+**2. Communication Strategy:**
+- Direct to nationals: Clear instructions, assembly points, what to bring
+- To HQ: FLASH cable with situation assessment, resource requirements
+- To host government: NoteVerbale requesting facilitation
 
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
+**3. Prioritization:**
+- Sick/elderly/children first
+- Then all registered nationals
+- Staff families (if authorized) last
 
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
+**4. Contingency:**
+- If commercial options disappear: Explore military evacuation (if available)
+- If embassy compromised: Relocate to alternate location or secure compound
 
 ---
 
-### Scenario 3: Strategic Planning
+### Scenario 3: Diplomatic Note Drafting
 
 **Context:**
-Long-term diplomat strategy development for sustained excellence.
+Need to protest another country's actions through official channels.
 
 **User Input:**
-"We want to build world-class capability in diplomat. What's our roadmap?"
+"[Country X] has announced new restrictions on our journalists operating in their country. We want to protest formally. How do we structure this?"
 
 **Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
+A diplomatic note requires precise language. Here's the framework:
 
-**Phase 1: Foundation (Months 1-3)**
+**1. Structure:**
 ```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
+[Date]
+[Note Verbale / Note Verbale - Une]
 
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
+The Embassy of [Country] presents its compliments to the Ministry of Foreign Affairs and has the honor to refer to [previous correspondence / recent developments].
 
-Milestone: Foundation Report + Quick Win Implementation
-```
+The Embassy wishes to state the following:
+[State position - factual, measured]
 
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
+The Embassy requests:
+[Specific action or response expected]
 
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
+The Embassy avails itself of this opportunity to renew to the Ministry the assurances of its highest consideration.
 ```
 
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
+**2. Key Principles:**
+- Factual, not emotional — every claim needs evidence
+- Request specific action (don't just "express concern")
+- Leave door open for resolution
+- Keep copy for historical record
 
 ---
 
-### Scenario 4: Quality Assurance & Review
+### Scenario 4: State Visit Protocol
 
 **Context:**
-Project or deliverable requires quality verification and optimization.
+Hosting a head of state for official visit. Need to finalize protocol.
 
 **User Input:**
-"Can you review our [deliverable] and help us improve quality before final delivery?"
+"President [X] is visiting next month. We need to finalize the protocol for the official dinner, working sessions, and bilateral agreement signing. What are the key elements?"
 
 **Expert Response:**
-Absolutely. Let me conduct a comprehensive quality review using established frameworks.
+Let me break down the protocol requirements:
 
-**1. Quality Checklist:**
-- [ ] Requirements alignment verified
-- [ ] Standards compliance confirmed
-- [ ] Best practices applied
-- [ ] Edge cases considered
-- [ ] Documentation complete
+**1. Visit Components:**
+| Event | Protocol Elements | Lead Time |
+|-------|-------------------|-----------|
+| Arrival | Guard of honor, anthem, flags | 2 weeks |
+| Official talks | Seating, agenda, interpreters | 1 week |
+| Signing ceremony | Protocols, document exchange | 3 days |
+| State dinner | Toast, seating chart, toasts | 2 weeks |
+| Departure | Farewell ceremony | 1 day |
 
-**2. Gap Analysis:**
-| Aspect | Current | Target | Gap | Priority |
-|--------|---------|--------|-----|----------|
-| Completeness | 80% | 100% | 20% | High |
-| Accuracy | 90% | 100% | 10% | High |
-| Usability | 70% | 95% | 25% | Medium |
+**2. Critical Checks:**
+- Precedence: Confirm their position in world order (verify with Protocol)
+- Flag protocol: Ensure correct flags, anthem, military honors
+- Gifts: Review gift policy (no personal gifts over $X, cultural items need clearance)
+- Dietary: Confirm any religious/health requirements
 
-**3. Improvement Plan:**
-- **Immediate fixes** (Today): [List]
-- **Short-term** (This week): [List]
-- **Long-term** (Next month): [List]
-
-**4. Final Validation:**
-Before sign-off, ensure:
-- ✓ All acceptance criteria met
-- ✓ Stakeholder approval obtained
-- ✓ Handover documentation ready
+**3. Risk Points:**
+- Seating chart disputes (resolve through Protocol, not bilateral channels)
+- Media coverage: Coordinate with their team to avoid surprises
+- Unexpected requests: "I need to consult" is always valid
 
 ---
 
@@ -575,20 +512,14 @@ Expected: Identify visit type → apply precedence rules → ceremonial elements
 
 | Area | Core Concepts | Applications | Best Practices |
 |------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
+| **Bilateral Negotiation** | ZOPA, BATNA, interest-based bargaining | Trade agreements, bilateral talks | Start with procedural before substance |
+| **Multilateral Forums** | UN, NATO, WTO rules of procedure | Coalition diplomacy, voting blocs | Build coalitions before formal sessions |
+| **Diplomatic Reporting** | Cable formats, analytical memos, FLASH/ROUTINE | Policy recommendations | Facts first, analysis clearly labeled |
+| **Protocol & Ceremonial** | Precedence, flag protocol, gift rules, national anthem | State visits, bilateral meetings | When in doubt, follow host's lead |
+| **Consular Operations** | Visa processing, citizen services, emergency assistance | Evacuations, arrests, deaths abroad | Consular convention limits |
+| **Crisis Response** | Evacuation, hostage, attack scenarios | 24-hour decision cycles | Assume communications compromised |
+| **Sanctions & Export Control** | UN sanctions, OFAC, dual-use goods | Sanctions implementation | Legal review before any commitment |
+| **Cultural Diplomacy** | Soft power, exchange programs, public diplomacy | People-to-people ties | Long-term investment, measure years later |
 
 ## § 17 · Risk Management Deep Dive
 

@@ -1,22 +1,14 @@
 ---
 name: firefighter
-description: 'Expert-level Firefighter skill providing fire suppression, rescue operations,
-  hazmat incident response, incident command protocols, and fire prevention methodologies.
-  Expert-level Firefighter skill providing fire suppression, rescue operations, hazmat...
-  Use when: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention.'
+description: 'Fire suppression, rescue operations, hazmat response, incident command protocols. Use when: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention.'
 license: MIT
 metadata:
   author: neo.ai <lucas_hsueh@hotmail.com>
-  version: 3.0.0
-  updated: 2026-03-21
+  version: 3.1.0
+  updated: 2026-03-24
   tags: fire-suppression, rescue-operations, emergency-response, hazmat, fire-prevention
   category: public-service
   difficulty: expert
-  score: 7.9/10
-  quality: standard
-  text_score: 8.6
-  runtime_score: 7.2
-  variance: 1.4
 ---
 
 
@@ -198,296 +190,193 @@ See [references/07-standards.md](references/07-standards.md)
 
 ---
 
-## § 8 · Workflow
+## § 7 · Incident Response Workflow
 
-### Phase 1: Discovery & Assessment
+### Phase 1: Size-Up & Command Establishment
 
-**Objective:** Fully understand the problem context and requirements.
+**Objective:** Rapid assessment and initial command.
 
-**Key Activities:**
-1. **Context Gathering** — Collect relevant background information and data
-2. **Stakeholder Mapping** — Identify all affected parties and their needs
-3. **Requirements Definition** — Document explicit and implicit requirements
-4. **Constraint Analysis** — Identify limitations, boundaries, and dependencies
+| Step | Action | Key Questions |
+|------|--------|---------------|
+| 1.1 | Arrival assessment | What's showing? Smoke color, volume, location |
+| 1.2 | Identify life hazards | Victims visible? Voices heard? |
+| 1.3 | Announce command | "Engine 4 assuming [location] command" |
+| 1.4 | Request resources | Dispatch what's needed NOW |
 
-**✓ Done Criteria:**
-- [✓] Problem statement clearly defined and documented
-- [✓] All stakeholders identified and engaged
-- [✓] Success metrics established and agreed upon
-- [✓] Constraints documented and acknowledged
+**Done:** Command established, resources requested, life safety confirmed
 
-**✗ Fail Criteria:**
-- [✗] Requirements remain ambiguous or undefined
-- [✗] Critical stakeholders excluded from process
-- [✗] Success criteria not measurable
-- [✗] Constraints ignored or violated
+### Phase 2: Tactical Decision
 
-### Phase 2: Analysis & Strategy
+**Objective:** Choose attack strategy based on conditions.
 
-**Objective:** Develop a comprehensive solution strategy.
+| Fire Condition | Victims | Decision |
+|----------------|----------|----------|
+| Incipient | No | Offensive - quick knock, salvage |
+| Incipient | Yes | Offensive - primary search priority |
+| Growth | Any | Offensive if viable, otherwise transitional attack |
+| Fully Involved | Unknown | Defensive - no interior entry |
+| Flashover signs | Any | Defensive immediately |
 
-**Key Activities:**
-1. **Root Cause Analysis** — Identify underlying issues (5 Whys, Fishbone)
-2. **Option Generation** — Develop multiple solution alternatives
-3. **Risk Assessment** — Evaluate potential risks and mitigation strategies
-4. **Resource Planning** — Define required resources, timeline, and budget
+**Done:** Attack mode selected and communicated
 
-**✓ Done Criteria:**
-- [✓] Root causes identified and validated
-- [✓] At least 3 solution options evaluated with trade-offs
-- [✓] Risks assessed with mitigation plans
-- [✓] Resources and timeline committed
+### Phase 3: Attack & Operations
 
-**✗ Fail Criteria:**
-- [✗] Addressing symptoms, not root causes
-- [✗] Only one solution considered
-- [✗] Risks ignored or underestimated
-- [✗] Insufficient resources allocated
+**Objective:** Execute tactical plan safely.
 
-### Phase 3: Implementation & Execution
+| Operation | Sequence | Notes |
+|-----------|----------|-------|
+| Water Supply | Establish before attack | Hydrant or tanker |
+| Line Deployment | Attack line to seat of fire | 1.5" minimum for interior |
+| Search | Concurrent with attack | Primary then secondary |
+| Ventilation | Coordinate with attack | Horizontal then vertical |
+| Salvage | After fire knocked | Cover, roll, remove |
 
-**Objective:** Execute the chosen solution with quality and efficiency.
+**Done:** Fire controlled, searched complete, overhaul done
 
-**Key Activities:**
-1. **Detailed Planning** — Create actionable implementation plan
-2. **Progress Tracking** — Monitor milestones and deliverables
-3. **Quality Assurance** — Validate outputs meet standards
-4. **Communication** — Keep stakeholders informed
+### Phase 4: Termination & Investigation
 
-**✓ Done Criteria:**
-- [✓] All planned activities completed
-- [✓] Stakeholders informed at each milestone
-- [✓] Quality checkpoints passed
-- [✓] Documentation current and complete
+**Objective:** Secure scene and document.
 
-**✗ Fail Criteria:**
-- [✗] Activities rushed or skipped
-- [✗] Stakeholders surprised by changes
-- [✗] Quality issues discovered late
-- [✗] Documentation missing or outdated
+| Step | Action |
+|------|--------|
+| 4.1 | Overhaul - check for extension |
+| 4.2 | Salvage - minimize water damage |
+| 4.3 | Scene security |
+| 4.4 | Cause determination begin |
+| 4.5 | Command transferred/terminated |
 
-### Phase 4: Review & Optimization
-
-**Objective:** Validate results and capture learnings.
-
-**Key Activities:**
-1. **Outcome Evaluation** — Measure against success criteria
-2. **Feedback Collection** — Gather stakeholder input
-3. **Lessons Learned** — Document insights and improvements
-4. **Knowledge Transfer** — Share findings with organization
-
-**✓ Done Criteria:**
-- [✓] Success metrics achieved or understood
-- [✓] Feedback incorporated for future work
-- [✓] Lessons documented and shared
-- [✓] Knowledge artifacts created
-
-**✗ Fail Criteria:**
-- [✗] Success criteria not measured
-- [✗] Feedback ignored or dismissed
-- [✗] Same mistakes likely to recur
-- [✗] Knowledge lost or siloed
+**Done:** Incident closed, reports completed
 
 ---
 
 ## § 9 · Scenario Examples
 
-### Scenario 1: Initial Consultation
-
-**Context:**
-A new client or stakeholder needs expert guidance on a firefighter matter.
+### Scenario 1: Single-Family Residential Fire
 
 **User Input:**
-"I'm new to this area and need help understanding [specific problem]. Where should I start?"
+"Single-family residence, smoke showing from roof, no reports of victims. Engine 4 arrives first, what's your tactical plan?"
 
 **Expert Response:**
-Welcome! I'm here to help you navigate this firefighter challenge effectively. Let me start by understanding your situation better.
+**Size-Up:**
+- Smoke: Black, heavy, pushing from roof → fully involved void space
+- Structure: Wood-frame, typical residential
+- Conditions: No visible victims, but survival possible
 
-**1. Assessment Questions:**
-- What is your current level of experience with this topic?
-- What are your immediate goals or deadlines?
-- Do you have any specific constraints (budget, resources, timeline)?
-- Who else is involved in this project?
+**Command:** "Engine 4 assuming Command"
 
-**2. Initial Guidance:**
-Based on typical patterns, I recommend we start with:
-- **Phase 1: Assessment** — Clearly define what success looks like
-- **Phase 2: Strategy** — Develop a tailored approach
-- **Phase 3: Execution** — Implement with proper checkpoints
+**Tactical Decision:**
+- Fire phase: Growth to fully involved
+- Attack: Defensive exterior
+- Primary: Protect exposures
+- Secondary: No interior entry until ladder arrived
 
-**3. Next Steps:**
-Please share more details about your specific situation, and I'll provide targeted recommendations.
+**Resource Request:**
+- 2nd alarm for additional engines
+- Ladder truck for roof operations
+- Rescue for RIT
 
 ---
 
-### Scenario 2: Complex Problem Solving
-
-**Context:**
-An urgent, complex firefighter issue requires immediate expert intervention.
+### Scenario 2: Vehicle Accident with Entrapment
 
 **User Input:**
-"We have a critical situation: [describe urgent problem]. We need a solution within [timeframe]."
+"MVA on Highway 101, vehicle vs. pole, driver trapped, fuel leaking, unknown injuries. Engine 7 and Rescue 1 arriving."
 
 **Expert Response:**
-I understand the urgency. Let's work through this systematically to ensure we don't miss critical elements.
+**Immediate Actions:**
+1. Establish command: "Highway 101 accident, Rescue assuming Command"
+2. HAZMAT alert: fuel leak → approach upwind, no sparks
+3. Patient assessment through window
+4. Request: Add'l engine for fluid control, ALS
 
-**1. Triage (First 5 minutes):**
-```
-[Urgency Assessment]
-- Impact Level: [Critical/High/Medium/Low]
-- Time Critical: [Yes/No]
-- Reversibility: [Reversible/Irreversible]
-```
+**Extrication Plan:**
+| Phase | Action |
+|-------|--------|
+| Stabilize | Crib vehicle, disconnect battery |
+| Access | Remove door, roof flap |
+| Disentangle | Remove dash, steering wheel |
+| Package | C-collar, board, remove |
 
-**2. Immediate Stabilization:**
-If this is a "bleeding" situation, immediate actions:
-- [Stabilization action 1]
-- [Stabilization action 2]
-- [Communication to stakeholders]
-
-**3. Root Cause Analysis:**
-Once stabilized, let's understand what caused this:
-```
-[5 Whys Analysis]
-Why did this happen? → [Answer]
-  Why did [Answer]? → [Answer]
-    Continue until root cause identified...
-```
-
-**4. Solution Development:**
-Based on root cause, here are 3 options:
-| Option | Approach | Risk | Effort | Timeline |
-|--------|----------|------|--------|----------|
-| A | Quick fix | High | Low | 1 day |
-| B | Balanced | Medium | Medium | 1 week |
-| C | Complete | Low | High | 1 month |
-
-**Recommendation:** [Specific recommendation with rationale]
+**Key Considerations:**
+- Fuel = ignition risk → ABC extinguisher ready
+- Patient stability before full extrication
+- Traffic control for safety
 
 ---
 
-### Scenario 3: Strategic Planning
-
-**Context:**
-Long-term firefighter strategy development for sustained excellence.
+### Scenario 3: Multi-Alarm Commercial Fire
 
 **User Input:**
-"We want to build world-class capability in firefighter. What's our roadmap?"
+"3-alarm working fire at industrial warehouse, possible hazmat, 2 civilians reported inside. Incident Commander requests assistance."
 
 **Expert Response:**
-Building world-class capability is a journey. Here's a strategic framework:
+**Unified Command:**
+- Staging: Establish at safe distance
+- Sectors: Operations, Logistics, Planning, Safety
+- Communication: Tactical channel, command on dedicated
 
-**Phase 1: Foundation (Months 1-3)**
-```
-Goals:
-- Establish baseline assessment
-- Define capability maturity model
-- Identify quick wins
+**Incident Action Plan:**
+| Sector | Assignment |
+|--------|------------|
+| Fire Attack | 2 lines offensive, front and side |
+| Search | 2 teams - rapid primary |
+| Exposure | 2 lines protecting east wall |
+| RIT | Dedicated team, staged at entry |
+| Hazmat | Identification, zone establishment |
 
-Key Activities:
-□ Comprehensive assessment
-□ Best practice research
-□ Team skill mapping
-□ Quick win identification
+**Resource Management:**
+- Water supply: Hydrant + tender shuttle
+- Personnel: Rotation for accountability
+- Air: SCBA exchange at staging
 
-Milestone: Foundation Report + Quick Win Implementation
-```
-
-**Phase 2: Acceleration (Months 4-9)**
-```
-Goals:
-- Implement core systems
-- Upskill team members
-- Establish metrics and KPIs
-
-Key Activities:
-□ System implementation
-□ Training programs
-□ Process standardization
-□ Performance tracking
-
-Milestone: Operational Excellence Framework
-```
-
-**Phase 3: Optimization (Months 10-18)**
-```
-Goals:
-- Continuous improvement culture
-- Advanced methodology adoption
-- Innovation integration
-
-Key Activities:
-□ Maturity assessment
-□ Advanced techniques
-□ Innovation pipeline
-□ Knowledge management
-
-Milestone: World-Class Capability Certification
-```
-
-**Success Metrics:**
-| Dimension | Baseline | 6 Months | 12 Months | 18 Months |
-|-----------|----------|----------|-----------|-----------|
-| Efficiency | X% | +20% | +40% | +60% |
-| Quality | X defects | -30% | -50% | -70% |
-| Speed | X days | -25% | -40% | -50% |
-| Innovation | 0/year | 2/year | 5/year | 10/year |
-
-**Investment Required:**
-- Human Capital: [FTE estimates]
-- Financial: [Budget ranges]
-- Timeline: [Phased commitment]
-
-**Risk Mitigation:**
-🔴 **High Risk:** [Risk] → Mitigation: [Action]
-🟡 **Medium Risk:** [Risk] → Mitigation: [Action]
-🟢 **Low Risk:** [Risk] → Mitigation: [Action]
+**Civilian Rescue Priority:**
+- Rapid primary search first 5 minutes
+- Update IC every 2 minutes
+- If found: ALS handoff immediately
 
 ---
 
-### Scenario 4: Quality Assurance & Review
-
-**Context:**
-Project or deliverable requires quality verification and optimization.
+### Scenario 4: Hazmat Unknown Substance
 
 **User Input:**
-"Can you review our [deliverable] and help us improve quality before final delivery?"
+"Chemical facility, 55-gallon drum ruptured, 3 employees symptomatic, unknown substance, mild vapor cloud. First-due engine on scene."
 
 **Expert Response:**
-Absolutely. Let me conduct a comprehensive quality review using established frameworks.
+**Immediate Isolation:**
+- Hot zone: 330ft (minimum)
+- Warm zone: 330-660ft
+- Cold zone: >660ft
+- Upwind approach essential
 
-**1. Quality Checklist:**
-- [ ] Requirements alignment verified
-- [ ] Standards compliance confirmed
-- [ ] Best practices applied
-- [ ] Edge cases considered
-- [ ] Documentation complete
+**IC Establishment:**
+"Chemical facility incident, Engine 1 assuming Command"
+- Request: Hazmat team, ALS, law enforcement
+- Set up sectors: Decon, Treatment, Command
 
-**2. Gap Analysis:**
-| Aspect | Current | Target | Gap | Priority |
-|--------|---------|--------|-----|----------|
-| Completeness | 80% | 100% | 20% | High |
-| Accuracy | 90% | 100% | 10% | High |
-| Usability | 70% | 95% | 25% | Medium |
+**Victim Management:**
+| Victim Status | Action |
+|---------------|--------|
+| Symptomatic | Rapid decon, ALS evaluation |
+| Exposed, asymptomatic | Decon, 24hr observation |
+| Non-exposed | Secure in cold zone |
 
-**3. Improvement Plan:**
-- **Immediate fixes** (Today): [List]
-- **Short-term** (This week): [List]
-- **Long-term** (Next month): [List]
-
-**4. Final Validation:**
-Before sign-off, ensure:
-- ✓ All acceptance criteria met
-- ✓ Stakeholder approval obtained
-- ✓ Handover documentation ready
+**Action Priorities:**
+1. Remove victims from hot zone
+2. Identify product (shipping docs, placards)
+3. Establish decon corridor
+4. Protect downwind civilians
 
 ---
 
 ## § 10 · Common Pitfalls & Anti-Patterns
 
-See [references/10-pitfalls.md](references/10-pitfalls.md)
-
----
+| Pitfall | Description | Prevention |
+|---------|-------------|-------------|
+| **Delayed Water** | Waiting for water supply before attack | Attack line first, water supply secondary |
+| **No Command** | Entering without establishing command | Announce command on arrival |
+| **Crew Separation** | Losing track of team members | Continuous accountability |
+| **Air Neglect** | Running low on air before exiting | Buddy system, track PSI |
+| **Victim Delay** | Extinguishment before search | Search priority when victims reported |
 
 ---
 
@@ -540,10 +429,6 @@ See [references/10-pitfalls.md](references/10-pitfalls.md)
 
 ## § 14 · Quality Verification
 
-→ See references/standards.md §7.10 for full checklist
-
-### Test Cases
-
 **Test 1: Fire Attack Strategy**
 ```
 Input: "Single-family residence, smoke showing from roof, no reports of victims. Engine 4 arrives, what's the tactical plan?"
@@ -556,116 +441,84 @@ Input: "Working fire, 3 alarms, multiple agencies responding. How do you establi
 Expected: Command presence → IC announcement → unified command → section chiefs → resource management
 ```
 
-**Self-Score:** 9.5/10 — Exemplary — Justification: Comprehensive ICS protocols, fire behavior analysis, attack strategies, hazmat response, rescue operations, safety frameworks, NIMS integration
-
----
-## § 16 · Domain Deep Dive
-
-### Specialized Knowledge Areas
-
-| Area | Core Concepts | Applications | Best Practices |
-|------|--------------|--------------|----------------|
-| **Foundation** | Principles, theories | Baseline understanding | Continuous learning |
-| **Implementation** | Tools, techniques | Practical execution | Standards compliance |
-| **Optimization** | Performance tuning | Enhancement projects | Data-driven decisions |
-| **Innovation** | Emerging trends | Future readiness | Experimentation |
-
-### Knowledge Maturity Model
-
-| Level | Name | Description |
-|-------|------|-------------|
-| 5 | Expert | Create new knowledge, mentor others |
-| 4 | Advanced | Optimize processes, complex problems |
-| 3 | Competent | Execute independently |
-| 2 | Developing | Apply with guidance |
-| 1 | Novice | Learn basics |
-
-## § 17 · Risk Management Deep Dive
-
-### 🔴 Critical Risk Register
-
-| Risk ID | Description | Probability | Impact | Score |
-|---------|-------------|-------------|--------|-------|
-| R001 | Strategic misalignment | Medium | Critical | 🔴 12 |
-| R002 | Resource constraints | High | High | 🔴 12 |
-| R003 | Technology failure | Low | Critical | 🟠 8 |
-
-### 🟠 Risk Response Strategies
-
-| Strategy | When to Use | Effectiveness |
-|----------|-------------|---------------|
-| **Avoid** | High impact, controllable | 100% if feasible |
-| **Mitigate** | Reduce probability/impact | 60-80% reduction |
-| **Transfer** | Better handled by third party | Varies |
-| **Accept** | Low impact or unavoidable | N/A |
-
-### 🟡 Early Warning Indicators
-
-- Stakeholder engagement dropping
-- Requirement changes increasing
-- Team velocity declining
-- Defect rates rising
-
-## § 18 · Excellence Framework
-
-### World-Class Execution Standards
-
-| Dimension | Good | Great | World-Class |
-|-----------|------|-------|-------------|
-| **Quality** | Meets requirements | Exceeds expectations | Redefines standards |
-| **Speed** | On time | Ahead | Sets benchmarks |
-| **Cost** | Within budget | Under budget | Maximum value |
-| **Innovation** | Incremental | Significant | Breakthrough |
-
-### Excellence Cycle
-
-```
-ASSESS → PLAN → EXECUTE → REVIEW → IMPROVE
-   ↑                              ↓
-   └────────── MEASURE ←──────────┘
-```
-
----
-## § 19 · Best Practices Library
-
-### Industry Best Practices
-
-| Practice | Description | Implementation | Expected Impact |
-|----------|-------------|----------------|-----------------|
-| **Standardization** | Consistent processes | SOPs | 20% efficiency gain |
-| **Automation** | Reduce manual tasks | Tools/scripts | 30% time savings |
-| **Collaboration** | Cross-functional teams | Regular sync | Better outcomes |
-| **Documentation** | Knowledge preservation | Wiki, docs | Reduced onboarding |
-| **Feedback Loops** | Continuous improvement | Retrospectives | Higher satisfaction |
-
-## § 20 · Case Studies
-
-### Success Story 1: Transformation
-**Challenge:** Legacy system limitations
-**Results:** 40% performance improvement, 50% cost reduction
-
-### Success Story 2: Innovation  
-**Challenge:** Market disruption
-**Results:** New revenue stream, competitive advantage
-
-## § 21 · Resources & References
-
-| Resource | Type | Key Takeaway |
-|----------|------|--------------|
-| Industry Standards | Guidelines | Compliance requirements |
-| Research Papers | Academic | Latest methodologies |
-| Case Studies | Practical | Real-world applications |
+**Self-Score:** 8.5/10 — Expert — Justification: Comprehensive ICS protocols, fire behavior analysis, attack strategies, hazmat response, rescue operations, safety frameworks, NIMS integration
 
 ---
 
+## § 16 · Fire Behavior Indicators
 
-### Performance Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
+### Smoke Reading Guide
 
+| Indicator | Meaning | Action |
+|-----------|---------|--------|
+| Black, rolling, pressurized | Fully involved, vented | Defensive only |
+| Gray, lazy plume | Incipient, smoldering | Offensive possible |
+| Pushing from openings | Active fire, pressure-driven | Aggressive attack |
+| Watery, steam | Fire under control | Overhaul phase |
 
-### Additional Resources
-- Industry standards
-- Best practice guides
-- Training materials
+### Structural Warning Signs
+
+| Sign | Risk Level | Action |
+|------|------------|--------|
+| Roof sagging | 🔴 Critical | Defensive, no roof entry |
+| Balloon framing visible | 🟠 High | Watch for flashover |
+| Smoke pushing through seams | 🟠 High | Vent before entry |
+| Unusual cracking sounds | 🔴 Critical | Immediate evacuation |
+
+---
+
+## § 17 · ICS Position Quick Reference
+
+| Position | Responsibility | Key Tasks |
+|----------|---------------|-----------|
+| **Incident Commander** | Overall authority | Set objectives, approve resources |
+| **Operations Section** | Tactical operations | Execute action plan |
+| **Planning Section** | Situation/demands | Collect info, develop options |
+| **Logistics Section** | Resources | Provide personnel, equipment |
+| **Finance/Admin** | Cost accounting | Track resources, claims |
+
+---
+
+## § 18 · Fire Ground Accountability
+
+| System Element | Description |
+|----------------|-------------|
+| **PAR Check** | Personnel Accountability Report every 30 min |
+| **Tag Board** | Visual tracking of crew locations |
+| **RIT Staging** | Dedicated rapid intervention team |
+| **Lost Timer** | Air depletion alarm (25 min, 15 min warnings) |
+
+---
+
+## § 19 · Post-Incident Analysis
+
+| Phase | Focus | Documentation |
+|-------|-------|----------------|
+| **Critique** | What worked, what didn't | All personnel input |
+| **Investigation** | Origin & cause | Photos, witness statements |
+| **Report** | Complete ICS forms | NFIRS reporting |
+| **Follow-up** | Training needs identified | Remedial training plan |
+
+---
+
+## § 20 · Training Requirements
+
+| Certification | Requirement |
+|---------------|-------------|
+| Firefighter I | Basic operations |
+| Firefighter II | Advanced skills |
+| Hazmat Ops | Initial response |
+| Fire Instructor | Training delivery |
+| ICS 100-400 | All personnel |
+
+---
+
+## § 21 · Key References
+
+| Resource | Source | Use |
+|----------|--------|-----|
+| NFPA 1001 | Standard | Firefighter qualifications |
+| NFPA 1500 | Standard | Safety & health |
+| NIOSH LODD | Website | Line-of-duty death analysis |
+| IFSTA | Manual | Training textbooks
 
